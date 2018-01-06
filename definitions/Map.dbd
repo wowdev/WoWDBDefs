@@ -26,13 +26,10 @@ string Directory
 uint32 InstanceType
 uint32 Flags
 uint32 MapType
-string[16] MapName
-uint32 MapName_flags
+string MapName
 uint32<AreaTable> AreaTableID
-string[16] DescriptionAlliance
-uint32 DescriptionAlliance_flags
-string[16] DescriptionHorde
-uint32 DescriptionHorde_flags
+string DescriptionHorde
+string DescriptionAlliance
 uint32<LoadingScreen> LoadingScreenID
 float MinimapIconScale
 uint32<Map> CorpseMapID
@@ -44,6 +41,26 @@ uint32 MaxPlayers
 uint32<Map> ParentMapID
 uint32<Map> CosmeticParentMapID
 uint32 TimeOffset
+
+BUILD 12911
+uint32 ID
+string Directory
+uint32 InstanceType
+uint32 Flags
+uint32 PVP
+string MapName
+uint32<AreaTable> AreaTableID
+string DescriptionHorde
+string DescriptionAlliance
+uint32<LoadingScreen> LoadingScreenID
+float MinimapIconScale
+uint32<Map> CorpseMapID
+float[2] CorpseXY
+uint32 Unk2
+uint32 ExpansionID
+uint32 Unk3
+uint32 Unk4
+uint32 Unk5
 
 BUILD 5875
 uint32 ID
@@ -58,10 +75,10 @@ uint32 Unk0
 uint32 Unk1
 uint32 Unk2
 uint32<Map> ParentMapID
-string[8] DescriptionAlliance
-uint32 DescriptionAlliance_flags
 string[8] DescriptionHorde
 uint32 DescriptionHorde_flags
+string[8] DescriptionAlliance
+uint32 DescriptionAlliance_flags
 uint32<LoadingScreen> LoadingScreenID
 uint32 RaidOffset
 uint32 Unk3
