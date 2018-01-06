@@ -44,6 +44,8 @@ uint8 MaxPlayers
 uint8 TimeOffset
 ```
 
+Files will be saved with DBName.??? (maybe .dbd?) filenames. Every file has multiple definitions for each different structure that has been encountered for that file.  
+
 Discussions regarding the format proposal should be done in the relevant issue [here](https://github.com/Marlamin/WoWDBDefs/issues/1).
 
 All feedback is welcome!
