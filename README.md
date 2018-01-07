@@ -23,7 +23,7 @@ Foreign keys: ```type<DBName> ColName```
 
 Localized strings: ```locstring ColName``` (see [this](https://wowdev.wiki/Common_Types#langstringref) and [this](https://wowdev.wiki/Localization) page on Wiki)
 
-Valid types that parsers should support: (u)int{8/16/32/64}/string/float/locstring
+Valid types that parsers should support: ```(u)int{8/16/32/64}/string/float/locstring```
 
 ## File handling
 Files will be saved with DBName.dbd filenames. Every file has multiple definitions for each different structure that has been encountered for that file. Version structures are separated by an empty new line. All line endings should be in Unix format (\n).
