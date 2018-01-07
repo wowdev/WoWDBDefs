@@ -67,7 +67,7 @@ uint32 ID
 string Directory
 uint32 InstanceType
 uint32 MapType
-string[8] MapName
+locstring MapName
 uint32 MinLevel
 uint32 MaxLevel
 uint32 MaxPlayers
@@ -75,10 +75,8 @@ uint32 Unk0
 uint32 Unk1
 uint32 Unk2
 uint32<Map> ParentMapID
-string[8] DescriptionHorde
-uint32 DescriptionHorde_flags
-string[8] DescriptionAlliance
-uint32 DescriptionAlliance_flags
+locstring DescriptionHorde
+locstring DescriptionAlliance
 uint32<LoadingScreen> LoadingScreenID
 uint32 RaidOffset
 uint32 Unk3
@@ -88,40 +86,33 @@ BUILD 3810
 uint32 ID
 string Directory
 uint32 PVP
-string[8] MapName
-uint32 MapName_flags
+locstring MapName
 uint32 MinLevel
 uint32 MaxLevel
 uint32 Unk0
 uint32 Unk1
 uint32 Unk2
 uint32 Unk3
-string[8] DescriptionHorde
-uint32 DescriptionHorde_flags
-string[8] DescriptionAlliance
-uint32 DescriptionAlliance_flags
+locstring DescriptionHorde
+locstring DescriptionAlliance
 uint32 Unk4
 
 BUILD 3694, 3702, 3712
 uint32 ID
 string Directory
 uint32 PVP
-string[8] MapName
-uint32 MapName_flags
+locstring MapName
 uint32 MinLevel
 uint32 MaxLevel
 uint32 Unk0
 uint32 Unk1
 uint32 Unk2
-string[8] DescriptionHorde
-uint32 DescriptionHorde_flags
-string[8] DescriptionAlliance
-uint32 DescriptionAlliance_flags
+locstring DescriptionHorde
+locstring DescriptionAlliance
 
 BUILD 3368, 3494, 3592
 uint32 ID
 string Directory
 uint32 PVP
 uint32 IsInMap
-string[8] MapName
-uint32 MapName_flags
+locstring MapName
