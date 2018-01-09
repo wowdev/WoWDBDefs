@@ -1,0 +1,89 @@
+COLUMN
+uint ID
+bitfield$F flags
+string modelName
+uint sizeClass multiplier for blood splat size and death thud sound. valid range is 0 to 4, invalid values prevent both from sounding/displaying. 4 got mostly big models (ragnaros, nef.) but again, not all big models got 4 ...
+float modelScale CMD.Scale * CDI.Scale is used in CUnit.
+uint$foreign_key$UnitBloodLevels$ID bloodID
+uint$foreign_key$FootprintTextures$ID footprintTextureID Defines the footpritns you leave in snow.
+float footprintTextureLength most time 18.0
+float footprintTextureWidth mostly 12, others are 0.0 - 20.0
+float footprintParticleScale mostly 1.0, others are 0.0 - 5.0
+uint foleyMaterialID
+uint footstepShakeSize
+uint deathThudShakeSize
+uint$foreign_key$CreatureSoundData$ID soundID
+float collisionWidth Size of collision for the model. Has to be bigger than 0.41670012920929, else "collision width is too small.".
+float collisionHeight ZEROSCALEUNIT when 0-CollisionHeight < 0
+17  mountHeight Float other collision data?
+float mountHeight
+float geobox actually a caabox
+float worldEffectScale mostly 1.0, others are 0.03 - 0.9
+float attachedEffectScale mostly 1.0, others are 0.5 - 2.9
+
+ENUM<F>
+1 hide_footprints
+2 hide_breath_particles
+4 ignore_creature_texture_variations
+4 has death corpse
+8 known to be cheked
+0x40 known
+0x80 cancurrentformmount
+010000 has wheels
+
+BUILD 0.5.3.3368
+ID<32>
+flags<32>
+modelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+
+BUILD 1.12.1.5875
+ID<32>
+flags<32>
+ModelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+collisionWidth
+collisionHeight
+mountHeight
+
+BUILD 3.5.5.12340
+ID<32>
+flags<32>
+ModelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+14  SoundData iRefID  # todo
+collisionWidth
+collisionHeight
+geobox[6]
+worldEffectScale
+attachedEffectScale
+
+BUILD really pls kill me

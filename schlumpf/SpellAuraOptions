@@ -1,0 +1,49 @@
+COLUMNS
+uint ID
+uint spellID
+uint difficultyID
+uint cumulativeAura
+uint procChance
+uint procCharges
+uint procTypeMask
+uint procCategoryRecovery
+uint spellProcsPerMinuteID
+uint stackAmount <unverified>
+uint unk0 <unverified>
+uint unk1 <unverified>
+uint unk2 <unverified>
+uint unk3 <unverified>
+uint unk4 <unverified>
+uint unk5 <unverified>
+
+BUILD 4.0.3.13329
+ID<32>
+stackAmount<32>
+procChance<32>
+procCharges<32>
+procTypeMask<32>
+
+BUILD 6.0.1.18179
+ID<32>
+spellID<32>
+difficultyID<32>
+cumulativeAura<32>
+procChance<32>
+procCharges<32>
+procTypeMask<32>
+procCategoryRecovery<32>
+spellProcsPerMinuteID<32>
+
+BUILD 7.0.1.21737
+ID<32>
+spellID<32>
+procCharges<32>
+procTypeMask<32>
+unk0<32>
+stackAmount<32>   # note how this disappeared and appeared again
+unk1<32>
+procChance<32>
+unk2<32>
+unk3<32>
+unk4<32>
+unk5<32>

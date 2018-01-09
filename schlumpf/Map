@@ -1,0 +1,192 @@
+uint ID
+string directory reference to World\Map\ [...] \
+uint pVP
+uint isInMap
+locstring mapName
+uint instanceType Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: none (official from "IsInInstance()")
+uint mapType
+uint minLevel
+uint maxLevel
+uint maxPlayers
+uint unk0 <unverified>
+uint unk1 <unverified>
+uint unk2 <unverified>
+uint$foreign_key$Map$ID parentMapID
+locstring mapDescription0 alliance
+locstring mapDescription1 horde
+uint$foreign_key$LoadingScreens$ID loadingScreenID
+uint raidOffset
+uint continentname <unverified>
+uint unk3 <unverified>
+uint isBattleground <unverified> Simple flag for battleground maps
+uint$foreign_key$AreaTable$ID areaID <unverified>
+float battlefieldMapIconScale
+locstring requirement <unverified> Requirement to enter
+locstring heroic_requirement <unverified> Heroic equirement to enter
+locstring unknown_requirement <unverified> Requirement to enter
+uint$foreign_key$Map$ID parentArea
+float entryPos <unverified>
+uint resetTimeRaid <unverified>
+uint resetTimeRaidHeroic <unverified>
+uint unk4 <unverified>
+int timeOfDayOverride Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
+uint expansionID Vanilla: 0, BC: 1, WotLK: 2 # todo enum
+uint unk5 <unverified> Another resettime? Is the same as the heroic one for some entries.
+bitfield$Flags flags <unverified> proabbly same as isBattleground
+uint isPVP <unverified> cata+ flags for is pvp in addition to bgs
+uint$foreign_key$Map$ID <unverified> corpseMapID
+float corpseMapX <unverified>
+float corpseMapY <unverified>
+uint maxPlayers <unverified>
+uint numPlayers <unverified> what a stupid name, makes no sense
+uint$foreign_key$Map$ID cosmeticParentMapID
+uint timeOffset <unverified>
+uint$foreign_key$WindSettings$ID windSettingsID <unverified>
+
+ENUM<Flags> hex
+0x0100: can toggle difficulty
+0x8000: flex locking (All difficulties share completed encounters lock, not bound to a single instance id heroic difficulty flag overrides it and uses instance id bind; trinitycore)
+0x10000: limit farclip to 727.0
+0x4000000: garrison (trinitycore)
+0x020000000000 limit LightMode to 0 or 1
+
+
+BUILD 0.5.3.3368
+ID<32>
+directory
+pVP<32>      # notice how caps are horrible
+isInMap<32>
+mapName
+
+BUILD 1.12.1.5875
+ID<32>
+directory
+instanceType<32>
+mapType<32>
+mapName
+minLevel<32>
+maxLevel<32>
+maxPlayers<32>
+unk0<32>
+unk1<32>
+unk2<32>
+parentMapID<32>
+mapDescription0
+mapDescription1
+loadingScreenID<32>
+raidOffset<32>
+continentname<32>
+unk3<32>
+
+BUILD 3.0.9.9551
+ID<32>
+directory
+instanceType<32>
+isBattleground<32>
+mapName
+areaID<32>
+mapDescription0
+mapDescription1
+loadingScreenID<32>
+battlefieldMapIconScale
+requirement
+heroic_requirement
+unknown_requirement
+parentArea<32>
+entryPos[2]
+resetTimeRaid<32>
+resetTimeRaidHeroic<32>
+unk4<32>
+timeOfDayOverride<32>
+expansionID<32>
+unk5<32>
+
+BUILD 3.2?
+ID<32>
+directory
+instanceType<32>
+flags<32>
+isPVP<32>
+mapName
+areaID<32>
+mapDescription0
+mapDescription1
+loadingScreenID<32>
+battlefieldMapIconScale
+corpseMapID<32>
+corpseMapX
+corpseMapY
+timeOfDayOverride<32>
+expansionID<32>
+maxPlayers<32>
+numPlayers<32>
+parentMapID<32>
+
+BUILD 6.0.1.18179
+ID<32>
+directory
+instanceType<32>
+flags<32>
+instanceType<32>
+mapName
+areaID<32>
+mapDescription0
+mapDescription1
+loadingScreenID<32>
+battlefieldMapIconScale
+corpseMapID<32>
+corpseMapX
+corpseMapY
+timeOfDayOverride<32>
+expansionID<32>
+raidOffset<32> # where was this for expansions?
+maxPlayers<32>
+parentMapID<32> # where was this for expansions?
+cosmeticParentMapID<32>
+timeOffset<32>
+
+BUILD 7.0.3.22201
+directory
+flags<64>
+battlefieldMapIconScale
+corpseMapX
+corpseMapY
+  string ZoneName;
+mapDescription0
+mapDescription1
+areaID<16>
+loadingScreenID<16>
+corpseMapID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
+windSettingsID<16>
+instanceType<8>
+  uint8_t MapType;    # idon't hace energy, sorry
+  uint8_t ExpansionID;# idon't hace energy, sorry
+maxPlayers<8>
+  uint8_t TimeOffset;# idon't hace energy, sorry
+
+BUILD 7.2.0.??????
+directory
+flags<64>
+battlefieldMapIconScale
+corpseMapX
+corpseMapY
+  string ZoneName;
+mapDescription0
+mapDescription1
+  string PvpObjective;
+  string PvpDescription;
+  foreign_keyⁱ<uint16_t, &AreaTableRec::m_ID> AreaTableID;
+loadingScreenID<16>
+corpseMapID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
+windSettingsID<16>
+instanceType<8>
+  uint8_t MapType;    # idon't hace energy, sorry
+  uint8_t ExpansionID;# idon't hace energy, sorry
+maxPlayers<8>
+  uint8_t TimeOffset;# idon't hace energy, sorry

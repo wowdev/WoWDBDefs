@@ -1,0 +1,62 @@
+COLUMMS
+uint ID
+string name
+bitfield$WeaponFlags weapon_flags <unverified>
+uint body_flag <unverified>
+bitfield$F flags
+uint$foreign_key$AnimationData$ID fallback
+uint$foreign_key$AnimationData$ID previous <unverified>
+uint behaviour
+enum$BehaviourTier behaviourTier
+
+ENUM<WeaponFlags>
+0 untouched
+4 sheathe after animation
+16 sheate after aniation
+32 pull
+
+ENUM<BehaviourTier>
+0 normal
+3 fly
+
+ENUM<F>
+1
+2
+4
+8
+16
+32
+64
+128
+246
+512
+1024 retain_sheath
+2048 foce_weapon_withdraw
+4096 foce_weapon_draw
+
+BUILD 1.12.1.5875
+ID<32>
+name
+weapon_flags<32>
+body_flag<32>
+flags<32>
+fallback<32>
+previous<32>
+
+BUILD 3.3.5.12340
+ID<32>
+name
+weapon_flags<32>
+body_flag<32>
+flags<32>
+fallback<32>
+behaviour<32>
+behaviourTier<32>
+
+BUILD 6.0.1.18179, 6.2.4.21742, 7.0.1.21737
+ID<32>
+name
+flags<32>
+fallback<32>
+behaviour<32>
+behaviourTier<32>

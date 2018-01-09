@@ -1,0 +1,41 @@
+COLUMNS
+uint ID
+uint casterAuraState
+uint targetAuraState
+uint casterAuraStateNot
+uint targetAuraStateNot
+uint casterAuraSpell
+uint targetAuraSpell
+uint excludeCasterAuraSpell
+uint excludeTargetAuraSpell
+uint spellID
+uint unk_no_idea <unverified>
+uint unk0 <unverified>
+uint unk1 <unverified>
+uint unk2 <unverified>
+
+BUILD 4.0.3.13329
+ID<32>
+casterAuraState<32>
+targetAuraState<32>
+casterAuraStateNot<32>
+targetAuraStateNot<32>
+casterAuraSpell<32>
+targetAuraSpell<32>
+excludeCasterAuraSpell<32>
+excludeTargetAuraSpell<32>
+
+BUILD 7.0.1.21737
+ID<32> spellID
+casterAuraState<32>
+targetAuraState<32>
+excludeCasterAuraSpell<32>
+excludeTargetAuraSpell<32>
+unk_no_idea<32>
+casterAuraState<32>
+targetAuraState<32>
+casterAuraStateNot<32>
+targetAuraStateNot<32>
+unk0<32>
+unk1<32>
+unk2<32>

@@ -1,0 +1,11 @@
+COLUMN
+uint$key ID
+uint$foreign_key$AnimKit$ID kit <unverified> precastKit, castKit, impactKit, stateKit, etc
+uint classification <unverified> 2 for SpellVisualKitModelAttach, 4 for SoundEntries, 5 for SpellVisualAnim, 11 for EdgeGlowEffect
+uint kitClassiciationID <unverified> ID in respective Classification Table
+
+BUILD 7.1.0.22996
+ID<32>
+kit<32>
+classification<32>
+kitClassificationID<32>
