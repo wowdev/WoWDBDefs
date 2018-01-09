@@ -21,7 +21,7 @@ Arrays: ```type[length] ColName```
 
 Foreign keys: ```type<DBName> ColName```
 
-Localized strings: ```locstring ColName``` (see [this](https://wowdev.wiki/Common_Types#langstringref) and [this](https://wowdev.wiki/Localization) page on Wiki)
+Localized strings: ```locstring ColName``` (see [this](https://wowdev.wiki/Common_Types#langstringref) and [this](https://wowdev.wiki/Localization) page on Wiki, same as"string" type as of 4.0+ but still localized in locale specific files)
 
 Valid types that parsers should support: ```(u)int{8/16/32/64}/string/float/locstring```
 
