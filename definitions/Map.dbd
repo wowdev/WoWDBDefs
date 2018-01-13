@@ -1,175 +1,225 @@
-LAYOUT F568DF12
-BUILD 7.3.5.25600-7.3.5.25826
-<uint32 ID>
-string Directory
+COLUMNS
+uint ID
+string Directory // reference to World\Map\ [...] \
+uint PVP
+uint IsInMap
 locstring MapName
+uint InstanceType // Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: none (official from "IsInInstance()")
+uint MapType
+uint MinLevel
+uint MaxLevel
+uint MaxPlayers
+uint unk0?
+uint unk1?
+uint unk2?
+uint<Map::ID> ParentMapID
 locstring DescriptionHorde
 locstring DescriptionAlliance
+uint<LoadingScreens::ID> LoadingScreenID
+uint RaidOffset
+uint continentname?
+uint unk3?
+uint isBattleground? // Simple flag for battleground maps
+uint<AreaTable::ID> areaID?
+float MinimapIconScale
+locstring requirement? // Requirement to enter
+locstring heroic_requirement? // Heroic equirement to enter
+locstring unknown_requirement? // Requirement to enter
+uint<Map::ID> parentArea
+float entryPos?
+uint resetTimeRaid?
+uint resetTimeRaidHeroic?
+uint unk4?
+int TimeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
+uint ExpansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
+uint unk5? // Another resettime? Is the same as the heroic one for some entries.
+uint flags? // probaby same as isBattleground
+uint isPVP? // cata+ flags for is pvp in addition to bgs
+uint<Map::ID> CorpseMapID
+float CorpsePosX?
+float CorpsePosY?
+float CorpsePos? // Array of CorpsePosX/CorpsePosY
+uint maxPlayers?
+uint numPlayers?
+uint<Map::ID> CosmeticParentMapID
+uint TimeOffset?
+uint<WindSetting::ID> WindSettingsID
 locstring PvpObjective
 locstring PvpDescription
-uint32[2] Flags
-float MinimapIconScale
-float[2] CorpseXY
-int16<AreaTable> AreaTableID
-int16<LoadingScreen> LoadingScreenID
-int16<Map> CorpseMapID
-int16 TimeOfDayOverride
-int16<Map> ParentMapID
-int16<Map> CosmeticParentMapID
-int16<WindSettings> WindSettingsID
-uint8 InstanceType
-uint8 MapType
-uint8 ExpansionID
-uint8 MaxPlayers
-uint8 TimeOffset
+
+LAYOUT F568DF12
+BUILD 7.3.5.25600-7.3.5.25826
+ID<32>
+Directory
+MapName
+DescriptionHorde
+DescriptionAlliance
+PvpObjective
+PvpDescription
+Flags<32>[2]
+MinimapIconScale
+CorpseXY[2]
+AreaTableID<16>
+LoadingScreenID<16>
+CorpseMapID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+WindSettingsID<16>
+InstanceType<8>
+MapType<8>
+ExpansionID<8>
+MaxPlayers<8>
+TimeOffset<8>
 
 LAYOUT C34CD39B, AFAFB470, A37A2830
 BUILD 7.3.2.25135-7.3.2.25549
 BUILD 7.3.0.24473-7.3.0.25195
 BUILD 7.2.5.23910-7.2.5.24393
 BUILD 7.2.0.23530-7.2.0.23937
-<uint32 ID>
-string Directory
-uint32[2] Flags
-float MinimapIconScale
-float[2] CorpseXY
-locstring MapName
-locstring DescriptionHorde
-locstring DescriptionAlliance
-locstring PvpObjective
-locstring PvpDescription
-int16<AreaTable> AreaTableID
-int16<LoadingScreen> LoadingScreenID
-int16<Map> CorpseMapID
-int16 TimeOfDayOverride
-int16<Map> ParentMapID
-int16<Map> CosmeticParentMapID
-int16<WindSettings> WindSettingsID
-uint8 InstanceType
-uint8 MapType
-uint8 ExpansionID
-uint8 MaxPlayers
-uint8 TimeOffset
+ID<32>
+Directory
+Flags<32>[2]
+MinimapIconScale
+CorpsePos[2]
+MapName
+DescriptionHorde
+DescriptionAlliance
+PvpObjective
+PvpDescription
+AreaTableID<16>
+LoadingScreenID<16>
+CorpseMapID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+WindSettingsID<16>
+InstanceType<8>
+MapType<8>
+ExpansionID<8>
+MaxPlayers<8>
+TimeOffset<8>
 
 LAYOUT B32E648C, F7CF2DA2, BDBE8188, 98BE9895
 BUILD 7.2.0.23436-7.2.0.23514
 BUILD 7.1.5.23038-7.1.5.23420
 BUILD 7.1.0.22578-7.1.0.22996
 BUILD 7.0.3.21846-7.0.3.22747
-<uint32 ID>
-string Directory
-uint32[2] Flags
-float MinimapIconScale
-float[2] CorpseXY
-locstring MapName
-locstring DescriptionHorde
-locstring DescriptionAlliance
-int16<AreaTable> AreaTableID
-int16<LoadingScreen> LoadingScreenID
-int16<Map> CorpseMapID
-int16 TimeOfDayOverride
-int16<Map> ParentMapID
-int16<Map> CosmeticParentMapID
-int16<WindSettings> WindSettingsID
-uint8 InstanceType
-uint8 MapType
-uint8 ExpansionID
-uint8 MaxPlayers
-uint8 TimeOffset
+ID<32>
+Directory
+Flags<32>[2]
+MinimapIconScale
+CorpseXY[2]
+MapName
+DescriptionHorde
+DescriptionAlliance
+AreaTableID<16>
+LoadingScreenID<16>
+CorpseMapID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+WindSettingsID<16>
+InstanceType<8>
+MapType<8>
+ExpansionID<8>
+MaxPlayers<8>
+TimeOffset<8>
 
-BUILD 18179
-uint32 ID
-string Directory
-uint32 InstanceType
-uint32 Flags
-uint32 MapType
-locstring MapName
-uint32<AreaTable> AreaTableID
-locstring DescriptionHorde
-locstring DescriptionAlliance
-uint32<LoadingScreen> LoadingScreenID
-float MinimapIconScale
-uint32<Map> CorpseMapID
-float[2] CorpseXY
-uint32 TimeOfDayOverride
-uint32 ExpansionID
-uint32 RaidOffset
-uint32 MaxPlayers
-uint32<Map> ParentMapID
-uint32<Map> CosmeticParentMapID
-uint32 TimeOffset
+BUILD 6.0.1.18179
+ID<32>
+Directory
+InstanceType<32>
+Flags<32>
+MapType<32>
+MapName
+AreaTableID<32>
+DescriptionHorde
+DescriptionAlliance
+LoadingScreenID<32>
+MinimapIconScale
+CorpseMapID<32>
+CorpseXY[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<32>
+CosmeticParentMapID<32>
+TimeOffset<32>
 
-BUILD 12911
-uint32 ID
-string Directory
-uint32 InstanceType
-uint32 Flags
-uint32 PVP
-locstring MapName
-uint32<AreaTable> AreaTableID
-locstring DescriptionHorde
-locstring DescriptionAlliance
-uint32<LoadingScreen> LoadingScreenID
-float MinimapIconScale
-uint32<Map> CorpseMapID
-float[2] CorpseXY
-uint32 Unk2
-uint32 ExpansionID
-uint32 Unk3
-uint32 Unk4
-uint32 Unk5
+BUILD 4.0.1.12911
+ID<32>
+Directory
+InstanceType<32>
+Flags<32>
+PVP<32>
+MapName
+AreaTableID<32>
+DescriptionHorde
+DescriptionAlliance
+LoadingScreenID<32>
+MinimapIconScale
+CorpseMapID<32>
+CorpsePosX
+CorpsePosY
+unk2<32>
+ExpansionID<32>
+unk3<32>
+unk4<32>
+unk5<32>
 
-BUILD 5875
-uint32 ID
-string Directory
-uint32 InstanceType
-uint32 MapType
-locstring MapName
-uint32 MinLevel
-uint32 MaxLevel
-uint32 MaxPlayers
-uint32 Unk0
-uint32 Unk1
-uint32 Unk2
-uint32<Map> ParentMapID
-locstring DescriptionHorde
-locstring DescriptionAlliance
-uint32<LoadingScreen> LoadingScreenID
-uint32 RaidOffset
-uint32 Unk3
-uint32 Unk4
+BUILD 1.12.1.5875
+ID<32>
+Directory
+InstanceType<32>
+MapType<32>
+MapName
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
+unk0<32>
+unk1<32>
+unk2<32>
+ParentMapID<32>
+DescriptionHorde
+DescriptionAlliance
+LoadingScreenID<32>
+RaidOffset<32>
+continentname<32>
+unk4<32>
 
-BUILD 3810
-uint32 ID
-string Directory
-uint32 PVP
-locstring MapName
-uint32 MinLevel
-uint32 MaxLevel
-uint32 Unk0
-uint32 Unk1
-uint32 Unk2
-uint32 Unk3
-locstring DescriptionHorde
-locstring DescriptionAlliance
-uint32 Unk4
+BUILD 0.9.1.3810
+ID<32>
+Directory
+PVP<32>
+MapName
+MinLevel<32>
+MaxLevel<32>
+unk0<32>
+unk1<32>
+unk2<32>
+unk3<32>
+DescriptionHorde
+DescriptionAlliance
+unk4<32>
 
-BUILD 3694, 3702, 3712
-uint32 ID
-string Directory
-uint32 PVP
-locstring MapName
-uint32 MinLevel
-uint32 MaxLevel
-uint32 Unk0
-uint32 Unk1
-uint32 Unk2
-locstring DescriptionHorde
-locstring DescriptionAlliance
+BUILD 0.7.0.3694, 0.7.1.3702, 0.7.6.3712
+ID<32>
+Directory
+PVP<32>
+MapName
+MinLevel<32>
+MaxLevel<32>
+unk0<32>
+unk1<32>
+unk2<32>
+DescriptionHorde
+DescriptionAlliance
 
-BUILD 3368, 3494, 3592
-uint32 ID
-string Directory
-uint32 PVP
-uint32 IsInMap
-locstring MapName
+BUILD 0.5.3.3368, 0.5.3.3494, 0.6.0.3592
+ID<32>
+Directory
+PVP<32>
+IsInMap<32>
+MapName
