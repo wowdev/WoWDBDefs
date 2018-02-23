@@ -14,11 +14,7 @@ namespace DBDefsLib
                 throw new FileNotFoundException("Unable to find definitions file: " + file);
             }
 
-            var builds = new List<int>();
-            var layoutHashes = new List<string>();
-            var definitions = new List<Definition>();
             var columnDefinitionDictionary = new Dictionary<string, ColumnDefinition>();
-            var versionDefinitions = new List<VersionDefinitions>();
 
             var lines = File.ReadAllLines(file);
             var lineNumber = 0;
@@ -114,6 +110,71 @@ namespace DBDefsLib
             else
             {
                 throw new Exception("File does not start with column definitions!");
+            }
+
+            var versionDefinitions = new List<VersionDefinitions>();
+
+            var definitions = new List<Definition>();
+            var layoutHashes = new List<string>();
+            var builds = new List<string>();
+
+            for(var i = lineNumber; i < lines.Length; i++)
+            {
+                var line = lines[i];
+
+                if (string.IsNullOrWhiteSpace(line))
+                {
+                    versionDefinitions.Add(
+                        new VersionDefinitions()
+                        {
+                            builds = builds.ToArray(),
+                            layoutHashes = layoutHashes.ToArray(),
+                            definitions = definitions.ToArray()
+                        }
+                    );
+
+                    definitions = new List<Definition>();
+                    layoutHashes = new List<string>();
+                    builds = new List<string>();
+                }
+
+                if (line.StartsWith("LAYOUT")){
+                    var splitLayoutHashes = line.Remove(0, 7).Split(new string[] { ", " }, StringSplitOptions.None);
+                    layoutHashes.AddRange(splitLayoutHashes);
+                }
+
+                // TODO: Properly parse builds into Build structs, define ranges etc
+                if (line.StartsWith("BUILD"))
+                {
+                    var splitBuilds = line.Remove(0, 6).Split(new string[] { ", " }, StringSplitOptions.None);
+                    builds.AddRange(splitBuilds);
+                }
+
+                if (!line.StartsWith("LAYOUT") && !line.StartsWith("BUILD") && !string.IsNullOrWhiteSpace(line))
+                {
+                    var definition = new Definition();
+                    if (line.Contains("<"))
+                    {
+                        int.TryParse(line.Substring(line.IndexOf('<') + 1, line.IndexOf('>') - line.IndexOf('<') - 1), out definition.size);
+                        line = line.Remove(line.IndexOf('<'), line.IndexOf('>') - line.IndexOf('<') + 1);
+                    }
+
+                    if (line.Contains("["))
+                    {
+                        int.TryParse(line.Substring(line.IndexOf('[') + 1, line.IndexOf(']') - line.IndexOf('[') - 1), out definition.arrLength);
+                        line = line.Remove(line.IndexOf('['), line.IndexOf(']') - line.IndexOf('[') + 1);
+                    }
+
+                    definition.name = line;
+
+                    // Check if this column name is known in column definitions, if not throw exception
+                    if (!columnDefinitionDictionary.ContainsKey(definition.name))
+                    {
+                        throw new KeyNotFoundException("Unable to find " + definition.name + " in column definitions!");
+                    }
+
+                    definitions.Add(definition);
+                }
             }
 
             return new DBDefinition

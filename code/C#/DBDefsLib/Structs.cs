@@ -14,14 +14,15 @@ namespace DBDefsLib
 
         public struct VersionDefinitions
         {
-            public int[] builds;
+            public string[] builds;
             public string[] layoutHashes;
             public Definition[] definitions;
         }
 
         public struct Definition
         {
-            public int length;
+            public int size;
+            public int arrLength;
             public string name;
         }
 
