@@ -20,7 +20,7 @@ uint RaidOffset
 uint continentname?
 uint unk3?
 uint isBattleground? // Simple flag for battleground maps
-uint<AreaTable::ID> areaID?
+uint<AreaTable::ID> AreaTableID?
 float MinimapIconScale
 locstring requirement? // Requirement to enter
 locstring heroic_requirement? // Heroic equirement to enter
@@ -33,12 +33,12 @@ uint unk4?
 int TimeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
 uint ExpansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
 uint unk5? // Another resettime? Is the same as the heroic one for some entries.
-uint flags? // probaby same as isBattleground
+uint Flags? // probaby same as isBattleground
 uint isPVP? // cata+ flags for is pvp in addition to bgs
 uint<Map::ID> CorpseMapID
 float CorpsePosX?
 float CorpsePosY?
-float CorpsePos? // Array of CorpsePosX/CorpsePosY
+float CorpseXY? // Array of CorpsePosX/CorpsePosY
 uint maxPlayers?
 uint numPlayers?
 uint<Map::ID> CosmeticParentMapID
@@ -81,7 +81,7 @@ ID<32>
 Directory
 Flags<32>[2]
 MinimapIconScale
-CorpsePos[2]
+CorpseXY[2]
 MapName
 DescriptionHorde
 DescriptionAlliance
