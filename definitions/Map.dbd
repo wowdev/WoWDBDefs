@@ -44,18 +44,20 @@ uint numPlayers?
 uint<Map::ID> CosmeticParentMapID
 uint TimeOffset?
 uint<WindSetting::ID> WindSettingsID
-locstring PvpObjective
-locstring PvpDescription
+locstring PvpShortDescription
+locstring PvpLongDescription
+uint unk6?
 
 LAYOUT F568DF12
-BUILD 7.3.5.25600-7.3.5.25848
+BUILD 8.0.1.25902-8.0.1.26095
+BUILD 7.3.5.25600-7.3.5.25928
 ID<32>
 Directory
 MapName
 DescriptionHorde
 DescriptionAlliance
-PvpObjective
-PvpDescription
+PvpShortDescription
+PvpLongDescription
 Flags<32>[2]
 MinimapIconScale
 CorpseXY[2]
@@ -85,8 +87,8 @@ CorpseXY[2]
 MapName
 DescriptionHorde
 DescriptionAlliance
-PvpObjective
-PvpDescription
+PvpShortDescription
+PvpLongDescription
 AreaTableID<16>
 LoadingScreenID<16>
 CorpseMapID<16>
@@ -104,7 +106,7 @@ LAYOUT B32E648C, F7CF2DA2, BDBE8188, 98BE9895
 BUILD 7.2.0.23436-7.2.0.23514
 BUILD 7.1.5.23038-7.1.5.23420
 BUILD 7.1.0.22578-7.1.0.22996
-BUILD 7.0.3.21846-7.0.3.22747
+BUILD 7.0.3.21796-7.0.3.22747
 ID<32>
 Directory
 Flags<32>[2]
@@ -126,7 +128,52 @@ ExpansionID<8>
 MaxPlayers<8>
 TimeOffset<8>
 
-BUILD 6.0.1.18179
+LAYOUT 27D77AEF
+BUILD 7.0.3.21473-7.0.3.21737
+ID<32>
+Directory
+Flags<32>[2]
+MinimapIconScale
+CorpseXY[2]
+MapName
+DescriptionHorde
+DescriptionAlliance
+AreaTableID<16>
+LoadingScreenID<16>
+CorpseMapID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+InstanceType<8>
+MapType<8>
+ExpansionID<8>
+MaxPlayers<8>
+TimeOffset<8>
+
+BUILD 6.0.2.18837
+ID<32>
+Directory
+InstanceType<32>
+unk0<32>
+Flags<32>
+MapType<32>
+MapName
+AreaTableID<32>
+DescriptionHorde
+DescriptionAlliance
+LoadingScreenID<32>
+MinimapIconScale
+CorpseMapID<32>
+CorpseXY[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<32>
+CosmeticParentMapID<32>
+TimeOffset<32>
+
+BUILD 6.0.1.18125-6.0.2.18833
 ID<32>
 Directory
 InstanceType<32>
