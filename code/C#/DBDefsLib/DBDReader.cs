@@ -112,6 +112,8 @@ namespace DBDefsLib
                 throw new Exception("File does not start with column definitions!");
             }
 
+            // There will be less comments from this point on, stuff used in above code is mostly repeated
+
             var versionDefinitions = new List<VersionDefinitions>();
 
             var definitions = new List<Definition>();
