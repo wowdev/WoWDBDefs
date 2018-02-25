@@ -177,6 +177,28 @@ namespace DBDefsLib
 
                     definitions.Add(definition);
                 }
+            foreach(var column in columnDefinitionDictionary)
+            {
+                var found = false;
+
+                foreach (var version in versionDefinitions)
+                {
+                    foreach (var definition in version.definitions)
+                    {
+                        if(column.Key == definition.name)
+                        {
+                            found = true;
+                            break;
+                        }
+                    }
+
+                    if (found) break;
+                }
+
+                if (!found)
+                {
+                    Console.WriteLine("Column definition " + column.Key + " is never used in version definitions!");
+                }
             }
 
             return new DBDefinition
