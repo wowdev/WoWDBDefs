@@ -1,21 +1,21 @@
 COLUMNS
-uint field_2011276738?
-uint field_3371972568?
+uint ID
+uint<Languages::ID> languageID
 string field_3629646352?
 string field_2564165372?
-uint field_3581834535?
+uint<Emotes::ID> emoteID
 uint field_2268346517?
-uint field_2050406808?
+uint<SoundEntries::ID> soundEntriesID
 uint field_2465365834?
 uint field_3141099608?
 
 BUILD 6.0.1.18179
-field_2011276738<32>
-field_3371972568<32>
+ID<32>
+languageID<32>
 field_3629646352
 field_2564165372
-field_3581834535<32>[3]
+emoteID<32>[3]
 field_2268346517<32>[3]
-field_2050406808<32>
+soundEntriesID<32>
 field_2465365834<32>
 field_3141099608<32>

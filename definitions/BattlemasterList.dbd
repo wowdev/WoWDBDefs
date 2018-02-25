@@ -1,18 +1,18 @@
 COLUMNS
 uint ID
-uint mapID
+uint<Map::ID> mapID
 uint instanceType
 uint groupsAllowed
 locstring name
 uint maxGroupSize
-uint holidayWorldState
+uint<WorldState::ID> holidayWorldState
 uint minlevel
 uint maxlevel
 uint ratedPlayers
 uint minPlayers
 uint maxPlayers
 uint flags
-uint iconFileDataID
+uint<FileData::ID> iconFileDataID
 locstring gametype
 
 BUILD 6.0.1.18179
