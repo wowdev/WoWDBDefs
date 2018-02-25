@@ -39,7 +39,6 @@ uint<Map::ID> corpseMapID
 float CorpsePosX?
 float CorpsePosY?
 float corpse // Array of CorpsePosX/CorpsePosY
-uint maxPlayers?
 uint numPlayers?
 uint<Map::ID> cosmeticParentMapID
 uint timeOffset
