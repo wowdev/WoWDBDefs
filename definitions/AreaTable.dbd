@@ -1,31 +1,31 @@
 COLUMNS
 uint ID
-uint ContinentID
-uint ParentAreaID
+uint<Map::ID> ContinentID
+uint<AreaTable::ID> ParentAreaID
 uint AreaBit
 uint flags
-uint SoundProviderPref
-uint SoundProviderPrefUnderwater
-uint AmbienceID
-uint ZoneMusic
+uint<SoundProviderPreferences::ID> SoundProviderPref
+uint<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
+uint<SoundAmbience::ID> AmbienceID
+uint<ZoneMusic::ID> ZoneMusic
 string ZoneName
-uint IntroSound
+uint<ZoneIntroMusicTable::ID> IntroSound
 uint ExplorationLevel
 locstring AreaName
 uint factionGroupMask
-uint liquidTypeID
+uint<LiquidType::ID> liquidTypeID
 float minElevation
 float ambient_multiplier
-uint lightid
+uint<Light::ID> lightid
 uint mountFlags
-uint uwIntroSound
-uint uwZoneMusic
-uint uwAmbience
+uint<ZoneIntroMusicTable::ID> uwIntroSound
+uint<ZoneMusic::ID> uwZoneMusic
+uint<SoundAmbience::ID> uwAmbience
 uint world_pvp_id
-uint pvpCombatWorldStateID
+uint<WorldState::ID> pvpCombatWorldStateID
 uint wildBattlePetLevelMin
 uint wildBattlePetLevelMax
-uint windSettingsID
+uint<WindSettings::ID> windSettingsID
 
 BUILD 6.0.1.18179
 ID<32>

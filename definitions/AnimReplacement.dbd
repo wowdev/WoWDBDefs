@@ -2,7 +2,7 @@ COLUMNS
 uint ID
 uint srcAnimID
 uint dstAnimID
-uint parentAnimReplacementSetID
+uint<AnimReplacementSet::ID> parentAnimReplacementSetID
 
 BUILD 6.0.1.18179
 ID<32>

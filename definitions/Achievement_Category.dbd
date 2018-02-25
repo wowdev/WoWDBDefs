@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint parent
+uint<Achievement_Category::ID> parent
 locstring name
 uint ui_order
 

@@ -2,9 +2,9 @@ COLUMNS
 uint ID
 string name
 uint boneDataID
-uint parentAnimKitBoneSetID
+uint<AnimKitBoneSet::ID> parentAnimKitBoneSetID
 uint extraBoneCount
-uint altAnimKitBoneSetID
+uint<AnimKitBoneSet::ID> altAnimKitBoneSetID
 
 BUILD 6.0.1.18179
 ID<32>

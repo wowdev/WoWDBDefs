@@ -1,18 +1,18 @@
 COLUMNS
 uint ID
 uint faction
-uint instance_id
-uint supercedes
+uint<Map::ID> instance_id
+uint<Achievement::ID> supercedes
 locstring title
 locstring description
-uint category
+uint<Achievement_Category::ID> category
 uint points
 uint ui_order
 uint flags
-uint iconID
+uint<SpellIcon::ID> iconID
 locstring reward
 uint minimum_criteria
-uint shares_criteria
+uint<Achievement::ID> shares_criteria
 uint criteria_tree
 
 BUILD 6.0.1.18179

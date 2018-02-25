@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint factionID
+uint<Faction::ID> factionID
 uint depositRate
 uint consignmentRate
 locstring name

@@ -2,7 +2,7 @@ COLUMNS
 uint ID
 string Name
 uint Flags
-uint Fallback
+uint<AnimationData::ID> Fallback
 uint BehaviorID
 uint BehaviorTier
 
