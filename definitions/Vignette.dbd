@@ -1,6 +1,6 @@
 COLUMNS
 uint field_1944984786?
-string field_63960909?
+locstring name
 uint field_260880986?
 uint field_1546169756?
 float field_3645619813?
@@ -8,7 +8,7 @@ float field_399259120?
 
 BUILD 6.0.1.18179
 field_1944984786<32>
-field_63960909
+name
 field_260880986<32>
 field_1546169756<32>
 field_3645619813

@@ -1,11 +1,11 @@
 COLUMNS
 uint field_3055676690?
 uint field_720982177?
-string field_970092269?
-uint field_3163794595?
+string paramLabel
+uint paramTypeEnum
 
 BUILD 6.0.1.18179
 field_3055676690<32>
 field_720982177<32>
-field_970092269[6]
-field_3163794595<32>[6]
+paramLabel[6]
+paramTypeEnum<32>[6]
