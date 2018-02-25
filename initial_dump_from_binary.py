@@ -81,7 +81,7 @@ def definition_to_file (dbc_name, row_size, field_count, field_type, field_size,
       offset += padding
     size = long (Dword (field_size + i * 4))
 
-    name = GetString (Qword (field_name + i * 8)) if field_name else ("field_%i?" % random.getrandbits(32))
+    name = GetString (Qword (field_name + i * 8)) if field_name else ("field_%i" % random.getrandbits(32))
     if name.startswith ("m_"):
       name = name[2:]
     if name.endswith ("_lang"):
