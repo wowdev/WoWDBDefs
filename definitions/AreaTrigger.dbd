@@ -4,7 +4,7 @@ uint<Map::ID> ContinentID
 float pos
 uint phaseUseFlags
 uint<Phase::ID> phaseID
-uint<PhaseXPhaseGroupRec::ID> phaseGroupID
+uint<PhaseXPhaseGroup::ID> phaseGroupID
 float radius
 float box_length
 float box_width
@@ -12,7 +12,7 @@ float box_height
 float box_yaw
 uint shapeType
 uint shapeID
-uint<AreaTriggerActionSetRec::ID> areaTriggerActionSetID
+uint<AreaTriggerActionSet::ID> areaTriggerActionSetID
 uint flags
 
 BUILD 6.0.1.18179

@@ -32,7 +32,7 @@ float CorpsePosY?
 float corpse // Array of CorpsePosX/CorpsePosY
 uint<Map::ID> cosmeticParentMapID
 uint timeOffset
-uint<WindSetting::ID> WindSettingsID
+uint<WindSettings::ID> WindSettingsID
 locstring PvpShortDescription
 locstring PvpLongDescription
 
