@@ -1,0 +1,9 @@
+COLUMNS
+uint ID
+uint areaID
+uint nextAreaID
+
+BUILD 6.0.1.18179
+ID<32>
+areaID<32>[6]
+nextAreaID<32>

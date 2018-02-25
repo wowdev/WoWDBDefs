@@ -1,0 +1,15 @@
+COLUMNS
+uint ID
+string name
+uint boneDataID
+uint parentAnimKitBoneSetID
+uint extraBoneCount
+uint altAnimKitBoneSetID
+
+BUILD 6.0.1.18179
+ID<32>
+name
+boneDataID<32>
+parentAnimKitBoneSetID<32>
+extraBoneCount<32>
+altAnimKitBoneSetID<32>

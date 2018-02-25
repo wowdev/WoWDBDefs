@@ -1,0 +1,17 @@
+COLUMNS
+uint ID
+uint area_ID
+uint next_time_worldstate
+uint game_time_worldstate
+uint battle_populate_time
+uint min_level
+uint max_level
+
+BUILD 6.0.1.18179
+ID<32>
+area_ID<32>
+next_time_worldstate<32>
+game_time_worldstate<32>
+battle_populate_time<32>
+min_level<32>
+max_level<32>

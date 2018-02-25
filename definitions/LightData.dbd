@@ -1,0 +1,53 @@
+COLUMNS
+uint ID
+uint lightParamID
+uint time
+uint directColor
+uint ambientColor
+uint skyTopColor
+uint skyMiddleColor
+uint skyBand1Color
+uint skyBand2Color
+uint skySmogColor
+uint skyFogColor
+uint sunColor
+uint cloudSunColor
+uint cloudEmissiveColor
+uint cloudLayer1AmbientColor
+uint cloudLayer2AmbientColor
+uint oceanCloseColor
+uint oceanFarColor
+uint riverCloseColor
+uint riverFarColor
+uint shadowOpacity
+float fogEnd
+float fogScaler
+float cloudDensity
+float fogDensity
+
+BUILD 6.0.1.18179
+ID<32>
+lightParamID<32>
+time<32>
+directColor<32>
+ambientColor<32>
+skyTopColor<32>
+skyMiddleColor<32>
+skyBand1Color<32>
+skyBand2Color<32>
+skySmogColor<32>
+skyFogColor<32>
+sunColor<32>
+cloudSunColor<32>
+cloudEmissiveColor<32>
+cloudLayer1AmbientColor<32>
+cloudLayer2AmbientColor<32>
+oceanCloseColor<32>
+oceanFarColor<32>
+riverCloseColor<32>
+riverFarColor<32>
+shadowOpacity<32>
+fogEnd
+fogScaler
+cloudDensity
+fogDensity

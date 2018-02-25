@@ -1,0 +1,71 @@
+COLUMNS
+uint ID
+uint flags
+uint factionID
+uint ExplorationSoundID
+uint MaleDisplayId
+uint FemaleDisplayId
+string ClientPrefix
+uint BaseLanguage
+uint creatureType
+uint ResSicknessSpellID
+uint SplashSoundID
+string clientFileString
+uint cinematicSequenceID
+uint alliance
+locstring name
+locstring name_female
+locstring name_male
+string facialHairCustomization
+string hairCustomization
+uint race_related
+uint unalteredVisualRaceID
+uint uaMaleCreatureSoundDataID
+uint uaFemaleCreatureSoundDataID
+uint charComponentTextureLayoutID
+uint defaultClassID
+uint createScreenFileDataID
+uint selectScreenFileDataID
+float maleCustomizeOffset
+float femaleCustomizeOffset
+uint neutralRaceID
+uint lowResScreenFileDataID
+uint HighResMaleDisplayId
+uint HighResFemaleDisplayId
+uint charComponentTexLayoutHiResID
+
+BUILD 6.0.1.18179
+ID<32>
+flags<32>
+factionID<32>
+ExplorationSoundID<32>
+MaleDisplayId<32>
+FemaleDisplayId<32>
+ClientPrefix
+BaseLanguage<32>
+creatureType<32>
+ResSicknessSpellID<32>
+SplashSoundID<32>
+clientFileString
+cinematicSequenceID<32>
+alliance<32>
+name
+name_female
+name_male
+facialHairCustomization[2]
+hairCustomization
+race_related<32>
+unalteredVisualRaceID<32>
+uaMaleCreatureSoundDataID<32>
+uaFemaleCreatureSoundDataID<32>
+charComponentTextureLayoutID<32>
+defaultClassID<32>
+createScreenFileDataID<32>
+selectScreenFileDataID<32>
+maleCustomizeOffset[3]
+femaleCustomizeOffset[3]
+neutralRaceID<32>
+lowResScreenFileDataID<32>
+HighResMaleDisplayId<32>
+HighResFemaleDisplayId<32>
+charComponentTexLayoutHiResID<32>

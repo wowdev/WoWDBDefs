@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint flags
+uint variable
+uint op
+uint value
+
+BUILD 6.0.1.18179
+ID<32>
+flags<32>
+variable<32>[8]
+op<32>[8]
+value<32>[8]

@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint inputType
+uint mapType
+uint outputType
+float param
+
+BUILD 6.0.1.18179
+ID<32>
+inputType<32>
+mapType<32>
+outputType<32>
+param[4]

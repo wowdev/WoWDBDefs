@@ -1,0 +1,15 @@
+COLUMNS
+uint id
+uint control
+uint faction
+uint title
+uint slot
+uint flags
+
+BUILD 6.0.1.18179
+id<32>
+control<32>
+faction<32>
+title<32>
+slot<32>
+flags<32>

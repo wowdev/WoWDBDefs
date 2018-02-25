@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint nameMD5_
+uint versionMD5_
+uint lastModified
+uint flags
+
+BUILD 6.0.1.18179
+ID<32>
+nameMD5_<32>[4]
+versionMD5_<32>[4]
+lastModified<32>
+flags<32>

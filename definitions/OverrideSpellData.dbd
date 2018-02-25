@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+uint spells
+uint flags
+uint playerActionbarFileDataID
+
+BUILD 6.0.1.18179
+ID<32>
+spells<32>[10]
+flags<32>
+playerActionbarFileDataID<32>

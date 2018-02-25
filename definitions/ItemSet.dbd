@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+locstring name
+uint itemID
+uint requiredSkill
+uint requiredSkillRank
+
+BUILD 6.0.1.18179
+ID<32>
+name
+itemID<32>[17]
+requiredSkill<32>
+requiredSkillRank<32>

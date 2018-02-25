@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+uint criteriaID
+uint amount
+uint operator
+uint parent
+uint flags
+locstring description
+uint orderIndex
+uint padding_2173460021?
+
+BUILD 6.0.1.18179
+ID<32>
+criteriaID<32>
+amount<64>
+operator<32>
+parent<32>
+flags<32>
+description
+orderIndex<32>
+padding_2173460021<8>[4]

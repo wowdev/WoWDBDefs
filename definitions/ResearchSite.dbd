@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint mapID
+uint QuestPOIBlobID
+locstring name
+uint areaPOIIconEnum
+
+BUILD 6.0.1.18179
+ID<32>
+mapID<32>
+QuestPOIBlobID<32>
+name
+areaPOIIconEnum<32>

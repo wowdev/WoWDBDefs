@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint statID
+uint bonus
+uint minlevel
+uint maxlevel
+
+BUILD 6.0.1.18179
+ID<32>
+statID<32>[10]
+bonus<32>[10]
+minlevel<32>
+maxlevel<32>

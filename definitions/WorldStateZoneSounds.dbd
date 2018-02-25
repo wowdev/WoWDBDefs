@@ -1,0 +1,21 @@
+COLUMNS
+uint padding_128249195?
+uint WorldStateID
+uint WorldStateValue
+uint AreaID
+uint WMOAreaID
+uint ZoneIntroMusicID
+uint ZoneMusicID
+uint SoundAmbienceID
+uint SoundProviderPreferencesID
+
+BUILD 6.0.1.18179
+padding_128249195<8>[4]
+WorldStateID<32>
+WorldStateValue<32>
+AreaID<32>
+WMOAreaID<32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>

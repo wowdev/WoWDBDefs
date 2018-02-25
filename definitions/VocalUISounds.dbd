@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint vocalUIEnum
+uint raceID
+uint NormalSoundID
+uint PissedSoundID
+
+BUILD 6.0.1.18179
+ID<32>
+vocalUIEnum<32>
+raceID<32>
+NormalSoundID<32>[2]
+PissedSoundID<32>[2]

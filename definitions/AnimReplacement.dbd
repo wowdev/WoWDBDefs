@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+uint srcAnimID
+uint dstAnimID
+uint parentAnimReplacementSetID
+
+BUILD 6.0.1.18179
+ID<32>
+srcAnimID<32>
+dstAnimID<32>
+parentAnimReplacementSetID<32>

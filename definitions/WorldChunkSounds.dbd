@@ -1,0 +1,17 @@
+COLUMNS
+uint padding_3558902392?
+uint MapID
+uint ChunkX
+uint ChunkY
+uint SubchunkX
+uint SubchunkY
+uint SoundOverrideID
+
+BUILD 6.0.1.18179
+padding_3558902392<8>[4]
+MapID<32>
+ChunkX<32>
+ChunkY<32>
+SubchunkX<32>
+SubchunkY<32>
+SoundOverrideID<32>

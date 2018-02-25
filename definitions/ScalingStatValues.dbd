@@ -1,0 +1,53 @@
+COLUMNS
+uint ID
+uint charlevel
+uint effectiveLevel
+uint weaponDPS1H
+uint weaponDPS2H
+uint spellcasterDPS1H
+uint spellcasterDPS2H
+uint rangedDPS
+uint wandDPS
+uint spellPower
+uint budgetPrimary
+uint budgetSecondary
+uint budgetTertiary
+uint budgetSub
+uint budgetTrivial
+uint armorShoulder
+uint armorChest
+uint armorHead
+uint armorLegs
+uint armorFeet
+uint armorWaist
+uint armorHands
+uint armorWrists
+uint armorBack
+uint armorShield
+
+BUILD 6.0.1.18179
+ID<32>
+charlevel<32>
+effectiveLevel<32>
+weaponDPS1H<32>
+weaponDPS2H<32>
+spellcasterDPS1H<32>
+spellcasterDPS2H<32>
+rangedDPS<32>
+wandDPS<32>
+spellPower<32>
+budgetPrimary<32>
+budgetSecondary<32>
+budgetTertiary<32>
+budgetSub<32>
+budgetTrivial<32>
+armorShoulder<32>[4]
+armorChest<32>[4]
+armorHead<32>[4]
+armorLegs<32>[4]
+armorFeet<32>[4]
+armorWaist<32>[4]
+armorHands<32>[4]
+armorWrists<32>[4]
+armorBack<32>
+armorShield<32>

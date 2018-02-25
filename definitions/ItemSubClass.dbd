@@ -1,0 +1,29 @@
+COLUMNS
+uint padding_3538289966?
+uint classID
+uint subClassID
+uint prerequisiteProficiency
+uint postrequisiteProficiency
+uint flags
+uint displayFlags
+uint weaponParrySeq
+uint weaponReadySeq
+uint weaponAttackSeq
+uint WeaponSwingSize
+locstring displayName
+locstring verboseName
+
+BUILD 6.0.1.18179
+padding_3538289966<8>[4]
+classID<32>
+subClassID<32>
+prerequisiteProficiency<32>
+postrequisiteProficiency<32>
+flags<32>
+displayFlags<32>
+weaponParrySeq<32>
+weaponReadySeq<32>
+weaponAttackSeq<32>
+WeaponSwingSize<32>
+displayName
+verboseName

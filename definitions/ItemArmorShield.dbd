@@ -1,0 +1,9 @@
+COLUMNS
+uint ID
+uint itemLevel
+float quality
+
+BUILD 6.0.1.18179
+ID<32>
+itemLevel<32>
+quality[7]

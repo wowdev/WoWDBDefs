@@ -1,0 +1,17 @@
+COLUMNS
+uint ID
+uint minLevel
+uint maxLevel
+uint itemType
+uint primaryStat
+uint secondaryStat
+uint specializationID
+
+BUILD 6.0.1.18179
+ID<32>
+minLevel<32>
+maxLevel<32>
+itemType<32>
+primaryStat<32>
+secondaryStat<32>
+specializationID<32>

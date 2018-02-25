@@ -1,0 +1,25 @@
+COLUMNS
+uint ID
+uint Parent
+uint DefaultPriority
+uint DefaultPriorityPenalty
+uint RaidPriority
+uint RaidPriorityPenalty
+float DefaultVolume
+float RaidVolume
+uint DefaultPlaybackLimit
+uint RaidPlaybackLimit
+uint BusEnumID
+
+BUILD 6.0.1.18179
+ID<32>
+Parent<32>
+DefaultPriority<32>
+DefaultPriorityPenalty<32>
+RaidPriority<32>
+RaidPriorityPenalty<32>
+DefaultVolume
+RaidVolume
+DefaultPlaybackLimit<32>
+RaidPlaybackLimit<32>
+BusEnumID<32>

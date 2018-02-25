@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint SizeClass
+uint TerrainTypeSoundID
+uint SoundEntryID
+uint SoundEntryIDWater
+
+BUILD 6.0.1.18179
+ID<32>
+SizeClass<32>
+TerrainTypeSoundID<32>
+SoundEntryID<32>
+SoundEntryIDWater<32>

@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+locstring name
+uint quantity
+uint flags
+
+BUILD 6.0.1.18179
+ID<32>
+name
+quantity<32>
+flags<32>

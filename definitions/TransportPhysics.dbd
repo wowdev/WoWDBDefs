@@ -1,0 +1,25 @@
+COLUMNS
+uint ID
+float waveAmp
+float waveTimeScale
+float rollAmp
+float rollTimeScale
+float pitchAmp
+float pitchTimeScale
+float maxBank
+float maxBankTurnSpeed
+float speedDampThresh
+float speedDamp
+
+BUILD 6.0.1.18179
+ID<32>
+waveAmp
+waveTimeScale
+rollAmp
+rollTimeScale
+pitchAmp
+pitchTimeScale
+maxBank
+maxBankTurnSpeed
+speedDampThresh
+speedDamp

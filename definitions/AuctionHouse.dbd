@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint factionID
+uint depositRate
+uint consignmentRate
+locstring name
+
+BUILD 6.0.1.18179
+ID<32>
+factionID<32>
+depositRate<32>
+consignmentRate<32>
+name

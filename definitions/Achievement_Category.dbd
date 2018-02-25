@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+uint parent
+locstring name
+uint ui_order
+
+BUILD 6.0.1.18179
+ID<32>
+parent<32>
+name
+ui_order<32>

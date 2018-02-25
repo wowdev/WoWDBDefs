@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint vehicleUIIndicatorID
+uint virtualSeatIndex
+float xPos
+float yPos
+
+BUILD 6.0.1.18179
+ID<32>
+vehicleUIIndicatorID<32>
+virtualSeatIndex<32>
+xPos
+yPos

@@ -1,0 +1,51 @@
+COLUMNS
+uint ID
+uint state0Wmo
+uint state0ImpactEffectDoodadSet
+uint state0AmbientDoodadSet
+uint state0NameSet
+uint state1Wmo
+uint state1DestructionDoodadSet
+uint state1ImpactEffectDoodadSet
+uint state1AmbientDoodadSet
+uint state1NameSet
+uint state2Wmo
+uint state2DestructionDoodadSet
+uint state2ImpactEffectDoodadSet
+uint state2AmbientDoodadSet
+uint state2NameSet
+uint state3Wmo
+uint state3InitDoodadSet
+uint state3AmbientDoodadSet
+uint state3NameSet
+uint ejectDirection
+uint repairGroundFx
+uint doNotHighlight
+uint healEffect
+uint healEffectSpeed
+
+BUILD 6.0.1.18179
+ID<32>
+state0Wmo<32>
+state0ImpactEffectDoodadSet<32>
+state0AmbientDoodadSet<32>
+state0NameSet<32>
+state1Wmo<32>
+state1DestructionDoodadSet<32>
+state1ImpactEffectDoodadSet<32>
+state1AmbientDoodadSet<32>
+state1NameSet<32>
+state2Wmo<32>
+state2DestructionDoodadSet<32>
+state2ImpactEffectDoodadSet<32>
+state2AmbientDoodadSet<32>
+state2NameSet<32>
+state3Wmo<32>
+state3InitDoodadSet<32>
+state3AmbientDoodadSet<32>
+state3NameSet<32>
+ejectDirection<32>
+repairGroundFx<32>
+doNotHighlight<32>
+healEffect<32>
+healEffectSpeed<32>

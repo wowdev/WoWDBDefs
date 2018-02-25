@@ -1,0 +1,61 @@
+COLUMNS
+uint ID
+locstring name
+uint minLevel
+uint maxLevel
+uint target_level
+uint target_level_min
+uint target_level_max
+uint mapID
+uint difficultyID
+uint flags
+uint typeID
+uint faction
+string textureFilename
+uint expansionLevel
+uint order_index
+uint group_id
+locstring description
+uint random_id
+uint count_tank
+uint count_healer
+uint count_damage
+uint min_count_tank
+uint min_count_healer
+uint min_count_damage
+uint scenarioID
+uint subtype
+uint bonus_reputation_amount
+uint mentorCharLevel
+uint mentorItemLevel
+
+BUILD 6.0.1.18179
+ID<32>
+name
+minLevel<32>
+maxLevel<32>
+target_level<32>
+target_level_min<32>
+target_level_max<32>
+mapID<32>
+difficultyID<32>
+flags<32>
+typeID<32>
+faction<32>
+textureFilename
+expansionLevel<32>
+order_index<32>
+group_id<32>
+description
+random_id<32>
+count_tank<32>
+count_healer<32>
+count_damage<32>
+min_count_tank<32>
+min_count_healer<32>
+min_count_damage<32>
+scenarioID<32>
+subtype<32>
+bonus_reputation_amount<32>
+mentorCharLevel<32>
+mentorItemLevel<32>

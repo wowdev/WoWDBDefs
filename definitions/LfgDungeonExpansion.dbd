@@ -1,0 +1,19 @@
+COLUMNS
+uint ID
+uint lfg_id
+uint expansion_level
+uint random_id
+uint hard_level_min
+uint hard_level_max
+uint target_level_min
+uint target_level_max
+
+BUILD 6.0.1.18179
+ID<32>
+lfg_id<32>
+expansion_level<32>
+random_id<32>
+hard_level_min<32>
+hard_level_max<32>
+target_level_min<32>
+target_level_max<32>

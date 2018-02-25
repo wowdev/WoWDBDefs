@@ -1,0 +1,27 @@
+COLUMNS
+uint ID
+float position
+float direction
+uint soundEntriesID
+uint mapID
+string name
+uint emitterType
+uint PhaseID
+uint PhaseGroupID
+uint PhaseUseFlags
+uint flags
+uint worldStateExpressionID
+
+BUILD 6.0.1.18179
+ID<32>
+position[3]
+direction[3]
+soundEntriesID<32>
+mapID<32>
+name
+emitterType<32>
+PhaseID<32>
+PhaseGroupID<32>
+PhaseUseFlags<32>
+flags<32>
+worldStateExpressionID<32>

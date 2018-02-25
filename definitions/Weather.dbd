@@ -1,0 +1,23 @@
+COLUMNS
+uint ID
+uint ambienceID
+uint type
+uint effectType
+float intensity
+float transitionSkyBox
+float effectColor
+string effectTexture
+uint soundAmbienceID
+uint windSettingsID
+
+BUILD 6.0.1.18179
+ID<32>
+ambienceID<32>
+type<32>
+effectType<32>
+intensity[2]
+transitionSkyBox
+effectColor[3]
+effectTexture
+soundAmbienceID<32>
+windSettingsID<32>

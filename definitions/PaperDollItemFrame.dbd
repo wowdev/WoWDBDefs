@@ -1,0 +1,11 @@
+COLUMNS
+uint padding_3541892553?
+string ItemButtonName
+string SlotIcon
+uint SlotNumber
+
+BUILD 6.0.1.18179
+padding_3541892553<8>[4]
+ItemButtonName
+SlotIcon
+SlotNumber<32>

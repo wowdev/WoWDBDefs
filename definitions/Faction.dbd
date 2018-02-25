@@ -1,0 +1,31 @@
+COLUMNS
+uint ID
+uint reputationIndex
+uint reputationRaceMask
+uint reputationClassMask
+uint reputationBase
+uint reputationFlags
+uint parentFactionID
+float parentFactionMod
+uint parentFactionCap
+locstring name
+locstring description
+uint expansion
+uint flags
+uint friendshipRepID
+
+BUILD 6.0.1.18179
+ID<32>
+reputationIndex<32>
+reputationRaceMask<32>[4]
+reputationClassMask<32>[4]
+reputationBase<32>[4]
+reputationFlags<32>[4]
+parentFactionID<32>
+parentFactionMod[2]
+parentFactionCap<32>[2]
+name
+description
+expansion<32>
+flags<32>
+friendshipRepID<32>

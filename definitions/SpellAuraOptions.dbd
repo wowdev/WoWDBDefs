@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+uint spellID
+uint difficultyID
+uint cumulativeAura
+uint procChance
+uint procCharges
+uint procTypeMask
+uint procCategoryRecovery
+uint spellProcsPerMinuteID
+
+BUILD 6.0.1.18179
+ID<32>
+spellID<32>
+difficultyID<32>
+cumulativeAura<32>
+procChance<32>
+procCharges<32>
+procTypeMask<32>
+procCategoryRecovery<32>
+spellProcsPerMinuteID<32>

@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint soundFilterID
+uint orderIndex
+uint filterType
+float params
+
+BUILD 6.0.1.18179
+ID<32>
+soundFilterID<32>
+orderIndex<32>
+filterType<32>
+params[9]

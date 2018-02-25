@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+uint mapID
+uint difficultyID
+uint orderIndex
+uint Bit
+locstring name
+uint CreatureDisplayID
+uint spellIconID
+uint flags
+
+BUILD 6.0.1.18179
+ID<32>
+mapID<32>
+difficultyID<32>
+orderIndex<32>
+Bit<32>
+name
+CreatureDisplayID<32>
+spellIconID<32>
+flags<32>

@@ -1,0 +1,23 @@
+COLUMNS
+uint ID
+uint criteriatreeid
+uint scenarioID
+uint orderIndex
+locstring description
+locstring title
+uint flags
+uint relatedStep
+uint supersedes
+uint rewardQuestID
+
+BUILD 6.0.1.18179
+ID<32>
+criteriatreeid<32>
+scenarioID<32>
+orderIndex<32>
+description
+title
+flags<32>
+relatedStep<32>
+supersedes<32>
+rewardQuestID<32>

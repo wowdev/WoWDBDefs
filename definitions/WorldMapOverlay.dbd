@@ -1,0 +1,29 @@
+COLUMNS
+uint ID
+uint mapAreaID
+uint areaID
+string textureName
+uint textureWidth
+uint textureHeight
+uint offsetX
+uint offsetY
+uint hitRectTop
+uint hitRectLeft
+uint hitRectBottom
+uint hitRectRight
+uint playerConditionID
+
+BUILD 6.0.1.18179
+ID<32>
+mapAreaID<32>
+areaID<32>[4]
+textureName
+textureWidth<32>
+textureHeight<32>
+offsetX<32>
+offsetY<32>
+hitRectTop<32>
+hitRectLeft<32>
+hitRectBottom<32>
+hitRectRight<32>
+playerConditionID<32>

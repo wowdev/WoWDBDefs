@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+uint categoryID
+locstring displayName
+locstring description
+uint spellIconID
+locstring alternateVerb
+uint canLink
+uint parentSkillLineID
+uint flags
+
+BUILD 6.0.1.18179
+ID<32>
+categoryID<32>
+displayName
+description
+spellIconID<32>
+alternateVerb
+canLink<32>
+parentSkillLineID<32>
+flags<32>

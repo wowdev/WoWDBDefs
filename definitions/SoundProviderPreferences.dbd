@@ -1,0 +1,51 @@
+COLUMNS
+uint ID
+string Description
+uint Flags
+uint EAXEnvironmentSelection
+float EAXDecayTime
+float EAX2EnvironmentSize
+float EAX2EnvironmentDiffusion
+uint EAX2Room
+uint EAX2RoomHF
+float EAX2DecayHFRatio
+uint EAX2Reflections
+float EAX2ReflectionsDelay
+uint EAX2Reverb
+float EAX2ReverbDelay
+float EAX2RoomRolloff
+float EAX2AirAbsorption
+uint EAX3RoomLF
+float EAX3DecayLFRatio
+float EAX3EchoTime
+float EAX3EchoDepth
+float EAX3ModulationTime
+float EAX3ModulationDepth
+float EAX3HFReference
+float EAX3LFReference
+
+BUILD 6.0.1.18179
+ID<32>
+Description
+Flags<32>
+EAXEnvironmentSelection<32>
+EAXDecayTime
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2Room<32>
+EAX2RoomHF<32>
+EAX2DecayHFRatio
+EAX2Reflections<32>
+EAX2ReflectionsDelay
+EAX2Reverb<32>
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3RoomLF<32>
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference

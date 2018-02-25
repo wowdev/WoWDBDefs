@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+string Name
+uint SoundID
+uint Priority
+uint MinDelayMinutes
+
+BUILD 6.0.1.18179
+ID<32>
+Name
+SoundID<32>
+Priority<32>
+MinDelayMinutes<32>

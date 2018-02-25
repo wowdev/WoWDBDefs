@@ -1,0 +1,23 @@
+COLUMNS
+uint ID
+string name
+uint objectEffectGroupID
+uint triggerType
+uint eventType
+uint effectRecType
+uint effectRecID
+uint attachment
+float offset
+uint objectEffectModifierID
+
+BUILD 6.0.1.18179
+ID<32>
+name
+objectEffectGroupID<32>
+triggerType<32>
+eventType<32>
+effectRecType<32>
+effectRecID<32>
+attachment<32>
+offset[3]
+objectEffectModifierID<32>

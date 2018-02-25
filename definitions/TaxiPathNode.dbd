@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+uint PathID
+uint NodeIndex
+uint ContinentID
+float Loc
+uint flags
+uint delay
+uint arrivalEventID
+uint departureEventID
+
+BUILD 6.0.1.18179
+ID<32>
+PathID<32>
+NodeIndex<32>
+ContinentID<32>
+Loc[3]
+flags<32>
+delay<32>
+arrivalEventID<32>
+departureEventID<32>

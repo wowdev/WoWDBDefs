@@ -1,0 +1,23 @@
+COLUMNS
+uint ID
+string modelName
+string modelTexture
+uint geosetGroup
+uint flags
+uint spellVisualID
+uint helmetGeosetVis
+string texture
+uint itemVisual
+uint particleColorID
+
+BUILD 6.0.1.18179
+ID<32>
+modelName[2]
+modelTexture[2]
+geosetGroup<32>[3]
+flags<32>
+spellVisualID<32>
+helmetGeosetVis<32>[2]
+texture[9]
+itemVisual<32>
+particleColorID<32>

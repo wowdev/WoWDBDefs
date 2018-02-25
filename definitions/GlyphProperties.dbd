@@ -1,0 +1,13 @@
+COLUMNS
+uint id
+uint spellID
+uint glyphType
+uint spellIconID
+uint glyphExclusiveCategoryID
+
+BUILD 6.0.1.18179
+id<32>
+spellID<32>
+glyphType<32>
+spellIconID<32>
+glyphExclusiveCategoryID<32>

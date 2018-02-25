@@ -1,0 +1,155 @@
+COLUMNS
+uint ID
+uint flags
+uint minLevel
+uint maxLevel
+uint raceMask
+uint classMask
+uint gender
+uint nativeGender
+uint skillID
+uint minSkill
+uint maxSkill
+uint skillLogic
+uint languageID
+uint minLanguage
+uint maxLanguage
+uint minFactionID
+uint maxFactionID
+uint minReputation
+uint maxReputation
+uint reputationLogic
+uint minPVPRank
+uint maxPVPRank
+uint pvpMedal
+uint prevQuestLogic
+uint prevQuestID
+uint currQuestLogic
+uint currQuestID
+uint currentCompletedQuestLogic
+uint currentCompletedQuestID
+uint spellLogic
+uint spellID
+uint itemLogic
+uint itemID
+uint itemCount
+uint itemFlags
+uint explored
+uint time
+uint auraSpellLogic
+uint auraSpellID
+uint worldStateExpressionID
+uint weatherID
+uint partyStatus
+uint lifetimeMaxPVPRank
+uint achievementLogic
+uint achievement
+uint lfgLogic
+uint lfgStatus
+uint lfgCompare
+uint lfgValue
+uint areaLogic
+uint areaID
+uint currencyLogic
+uint currencyID
+uint currencyCount
+uint questKillID
+uint questKillLogic
+uint questKillMonster
+uint minExpansionLevel
+uint maxExpansionLevel
+uint minExpansionTier
+uint maxExpansionTier
+uint minGuildLevel
+uint maxGuildLevel
+uint phaseUseFlags
+uint phaseID
+uint phaseGroupID
+uint minAvgItemLevel
+uint maxAvgItemLevel
+uint minAvgEquippedItemLevel
+uint maxAvgEquippedItemLevel
+uint chrSpecializationIndex
+uint chrSpecializationRole
+locstring failure_description
+uint powerType
+uint powerTypeComp
+uint powerTypeValue
+
+BUILD 6.0.1.18179
+ID<32>
+flags<32>
+minLevel<32>
+maxLevel<32>
+raceMask<32>
+classMask<32>
+gender<32>
+nativeGender<32>
+skillID<32>[4]
+minSkill<32>[4]
+maxSkill<32>[4]
+skillLogic<32>
+languageID<32>
+minLanguage<32>
+maxLanguage<32>
+minFactionID<32>[3]
+maxFactionID<32>
+minReputation<32>[3]
+maxReputation<32>
+reputationLogic<32>
+minPVPRank<32>
+maxPVPRank<32>
+pvpMedal<32>
+prevQuestLogic<32>
+prevQuestID<32>[4]
+currQuestLogic<32>
+currQuestID<32>[4]
+currentCompletedQuestLogic<32>
+currentCompletedQuestID<32>[4]
+spellLogic<32>
+spellID<32>[4]
+itemLogic<32>
+itemID<32>[4]
+itemCount<32>[4]
+itemFlags<32>
+explored<32>[2]
+time<32>[2]
+auraSpellLogic<32>
+auraSpellID<32>[4]
+worldStateExpressionID<32>
+weatherID<32>
+partyStatus<32>
+lifetimeMaxPVPRank<32>
+achievementLogic<32>
+achievement<32>[4]
+lfgLogic<32>
+lfgStatus<32>[4]
+lfgCompare<32>[4]
+lfgValue<32>[4]
+areaLogic<32>
+areaID<32>[4]
+currencyLogic<32>
+currencyID<32>[4]
+currencyCount<32>[4]
+questKillID<32>
+questKillLogic<32>
+questKillMonster<32>[4]
+minExpansionLevel<32>
+maxExpansionLevel<32>
+minExpansionTier<32>
+maxExpansionTier<32>
+minGuildLevel<32>
+maxGuildLevel<32>
+phaseUseFlags<32>
+phaseID<32>
+phaseGroupID<32>
+minAvgItemLevel<32>
+maxAvgItemLevel<32>
+minAvgEquippedItemLevel<32>
+maxAvgEquippedItemLevel<32>
+chrSpecializationIndex<32>
+chrSpecializationRole<32>
+failure_description
+powerType<32>
+powerTypeComp<32>
+powerTypeValue<32>

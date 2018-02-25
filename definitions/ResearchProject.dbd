@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+locstring name
+locstring description
+uint rarity
+uint researchBranchID
+uint spellID
+uint numSockets
+string texture
+uint requiredWeight
+
+BUILD 6.0.1.18179
+ID<32>
+name
+description
+rarity<32>
+researchBranchID<32>
+spellID<32>
+numSockets<32>
+texture
+requiredWeight<32>

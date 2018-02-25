@@ -1,0 +1,17 @@
+COLUMNS
+uint ID
+uint facingCasterFlags
+uint minFactionID
+uint minReputation
+uint requiredAreasID
+uint requiredAuraVision
+uint requiresSpellFocus
+
+BUILD 6.0.1.18179
+ID<32>
+facingCasterFlags<32>
+minFactionID<32>
+minReputation<32>
+requiredAreasID<32>
+requiredAuraVision<32>
+requiresSpellFocus<32>

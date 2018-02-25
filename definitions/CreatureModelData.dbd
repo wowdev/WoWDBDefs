@@ -1,0 +1,63 @@
+COLUMNS
+uint ID
+uint flags
+uint fileDataID
+uint sizeClass
+float modelScale
+uint bloodID
+uint footprintTextureID
+float footprintTextureLength
+float footprintTextureWidth
+float footprintParticleScale
+uint foleyMaterialID
+uint footstepShakeSize
+uint deathThudShakeSize
+uint soundID
+float collisionWidth
+float collisionHeight
+float mountHeight
+float geoBoxMin
+float geoBoxMax
+float worldEffectScale
+float attachedEffectScale
+float missileCollisionRadius
+float missileCollisionPush
+float missileCollisionRaise
+float overrideLootEffectScale
+float overrideNameScale
+float overrideSelectionRadius
+float tamedPetBaseScale
+uint creatureGeosetDataID
+float hoverHeight
+
+BUILD 6.0.1.18179
+ID<32>
+flags<32>
+fileDataID<32>
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+mountHeight
+geoBoxMin[3]
+geoBoxMax[3]
+worldEffectScale
+attachedEffectScale
+missileCollisionRadius
+missileCollisionPush
+missileCollisionRaise
+overrideLootEffectScale
+overrideNameScale
+overrideSelectionRadius
+tamedPetBaseScale
+creatureGeosetDataID<32>
+hoverHeight

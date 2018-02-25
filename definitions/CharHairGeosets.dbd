@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+uint RaceID
+uint SexID
+uint VariationID
+uint VariationType
+uint GeosetID
+uint GeosetType
+uint Showscalp
+uint ColorIndex
+
+BUILD 6.0.1.18179
+ID<32>
+RaceID<32>
+SexID<32>
+VariationID<32>
+VariationType<32>
+GeosetID<32>
+GeosetType<32>
+Showscalp<32>
+ColorIndex<32>

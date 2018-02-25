@@ -1,0 +1,25 @@
+COLUMNS
+uint ID
+uint categoryID
+locstring name
+string inventoryIcon
+uint spellWeight
+uint spellCategory
+uint maxQty
+uint maxEarnablePerWeek
+uint flags
+uint quality
+locstring description
+
+BUILD 6.0.1.18179
+ID<32>
+categoryID<32>
+name
+inventoryIcon[2]
+spellWeight<32>
+spellCategory<32>
+maxQty<32>
+maxEarnablePerWeek<32>
+flags<32>
+quality<32>
+description

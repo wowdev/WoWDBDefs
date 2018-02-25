@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+string SetName
+uint SilenceIntervalMin
+uint SilenceIntervalMax
+uint Sounds
+
+BUILD 6.0.1.18179
+ID<32>
+SetName
+SilenceIntervalMin<32>[2]
+SilenceIntervalMax<32>[2]
+Sounds<32>[2]

@@ -1,0 +1,19 @@
+COLUMNS
+uint ID
+uint raceID
+uint sexID
+uint baseSection
+string TextureName
+uint flags
+uint variationIndex
+uint colorIndex
+
+BUILD 6.0.1.18179
+ID<32>
+raceID<32>
+sexID<32>
+baseSection<32>
+TextureName[3]
+flags<32>
+variationIndex<32>
+colorIndex<32>

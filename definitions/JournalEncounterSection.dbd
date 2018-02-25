@@ -1,0 +1,33 @@
+COLUMNS
+uint ID
+uint journalEncounterID
+uint nextSiblingSectionID
+uint firstChildSectionID
+uint parentSectionID
+uint orderIndex
+uint type
+uint flags
+uint iconFlags
+locstring title
+locstring bodyText
+uint difficultyMask
+uint iconCreatureDisplayInfoID
+uint spellID
+uint iconFileDataID
+
+BUILD 6.0.1.18179
+ID<32>
+journalEncounterID<32>
+nextSiblingSectionID<32>
+firstChildSectionID<32>
+parentSectionID<32>
+orderIndex<32>
+type<32>
+flags<32>
+iconFlags<32>
+title
+bodyText
+difficultyMask<32>
+iconCreatureDisplayInfoID<32>
+spellID<32>
+iconFileDataID<32>

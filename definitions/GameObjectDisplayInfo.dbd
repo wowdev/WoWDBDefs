@@ -1,0 +1,19 @@
+COLUMNS
+uint ID
+uint fileDataID
+uint Sound
+float geoBoxMin
+float geoBoxMax
+uint objectEffectPackageID
+float overrideLootEffectScale
+float overrideNameScale
+
+BUILD 6.0.1.18179
+ID<32>
+fileDataID<32>
+Sound<32>[10]
+geoBoxMin[3]
+geoBoxMax[3]
+objectEffectPackageID<32>
+overrideLootEffectScale
+overrideNameScale

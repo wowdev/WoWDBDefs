@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+uint zoneLightID
+float pos
+uint pointOrder
+
+BUILD 6.0.1.18179
+ID<32>
+zoneLightID<32>
+pos[2]
+pointOrder<32>

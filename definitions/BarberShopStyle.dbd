@@ -1,0 +1,19 @@
+COLUMNS
+uint ID
+uint type
+locstring DisplayName
+locstring Description
+float Cost_Modifier
+uint race
+uint sex
+uint data
+
+BUILD 6.0.1.18179
+ID<32>
+type<32>
+DisplayName
+Description
+Cost_Modifier
+race<32>
+sex<32>
+data<32>

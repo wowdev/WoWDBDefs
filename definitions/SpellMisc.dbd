@@ -1,0 +1,27 @@
+COLUMNS
+uint ID
+uint spellID
+uint difficultyID
+uint attributes
+uint castingTimeIndex
+uint durationIndex
+uint rangeIndex
+float speed
+uint spellVisualID
+uint spellIconID
+uint activeIconID
+uint schoolMask
+
+BUILD 6.0.1.18179
+ID<32>
+spellID<32>
+difficultyID<32>
+attributes<32>[14]
+castingTimeIndex<32>
+durationIndex<32>
+rangeIndex<32>
+speed
+spellVisualID<32>[2]
+spellIconID<32>
+activeIconID<32>
+schoolMask<32>

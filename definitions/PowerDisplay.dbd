@@ -1,0 +1,17 @@
+COLUMNS
+uint ID
+uint actualType
+string globalStringBaseTag
+uint red
+uint green
+uint blue
+uint padding_2267440950?
+
+BUILD 6.0.1.18179
+ID<32>
+actualType<32>
+globalStringBaseTag
+red<8>
+green<8>
+blue<8>
+padding_2267440950<8>[1]

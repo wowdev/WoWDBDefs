@@ -1,0 +1,15 @@
+COLUMNS
+uint ID
+float rangeMin
+float rangeMax
+uint flags
+locstring displayName
+locstring displayNameShort
+
+BUILD 6.0.1.18179
+ID<32>
+rangeMin[2]
+rangeMax[2]
+flags<32>
+displayName
+displayNameShort

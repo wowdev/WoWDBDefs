@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+locstring name
+uint order_index
+uint parent_group_id
+uint typeid
+
+BUILD 6.0.1.18179
+ID<32>
+name
+order_index<32>
+parent_group_id<32>
+typeid<32>

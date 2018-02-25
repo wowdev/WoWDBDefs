@@ -1,0 +1,33 @@
+COLUMNS
+uint ID
+uint mapID
+uint areaID
+uint phaseUseFlags
+uint phaseID
+uint phaseGroupID
+string icon
+locstring string
+locstring tooltip
+uint stateVariable
+uint type
+string dynamicIcon
+locstring dynamicTooltip
+string extendedUI
+uint extendedUIStateVariable
+
+BUILD 6.0.1.18179
+ID<32>
+mapID<32>
+areaID<32>
+phaseUseFlags<32>
+phaseID<32>
+phaseGroupID<32>
+icon
+string
+tooltip
+stateVariable<32>
+type<32>
+dynamicIcon
+dynamicTooltip
+extendedUI
+extendedUIStateVariable<32>[3]

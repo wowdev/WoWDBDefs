@@ -1,0 +1,49 @@
+COLUMNS
+uint ID
+uint vendorID
+uint deviceID
+uint farclipIdx
+uint terrainLODDistIdx
+uint terrainShadowLOD
+uint detailDoodadDensityIdx
+uint detailDoodadAlpha
+uint animatingDoodadIdx
+uint trilinear
+uint numLights
+uint specularity
+uint waterLODIdx
+uint particleDensityIdx
+uint unitDrawDistIdx
+uint smallCullDistIdx
+uint resolutionIdx
+uint baseMipLevel
+string oglOverrides
+string d3dOverrides
+uint fixLag
+uint multisample
+uint atlasdisable
+
+BUILD 6.0.1.18179
+ID<32>
+vendorID<32>
+deviceID<32>
+farclipIdx<32>
+terrainLODDistIdx<32>
+terrainShadowLOD<32>
+detailDoodadDensityIdx<32>
+detailDoodadAlpha<32>
+animatingDoodadIdx<32>
+trilinear<32>
+numLights<32>
+specularity<32>
+waterLODIdx<32>
+particleDensityIdx<32>
+unitDrawDistIdx<32>
+smallCullDistIdx<32>
+resolutionIdx<32>
+baseMipLevel<32>
+oglOverrides
+d3dOverrides
+fixLag<32>
+multisample<32>
+atlasdisable<32>

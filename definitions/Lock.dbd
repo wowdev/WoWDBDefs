@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint Type
+uint Index
+uint Skill
+uint Action
+
+BUILD 6.0.1.18179
+ID<32>
+Type<32>[8]
+Index<32>[8]
+Skill<32>[8]
+Action<32>[8]

@@ -1,0 +1,23 @@
+COLUMNS
+uint ID
+uint lt_operandType
+uint padding_2008950613?
+uint lt_operand
+uint operator
+uint rt_operandType
+uint padding_1587281773?
+uint rt_operand
+uint logic
+uint padding_379462724?
+
+BUILD 6.0.1.18179
+ID<32>
+lt_operandType<8>[5]
+padding_2008950613<8>[3]
+lt_operand<32>[5]
+operator<8>[5]
+rt_operandType<8>[5]
+padding_1587281773<8>[2]
+rt_operand<32>[5]
+logic<8>[5]
+padding_379462724<8>[3]

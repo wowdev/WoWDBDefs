@@ -1,0 +1,19 @@
+COLUMNS
+uint ID
+uint xp
+float factor
+float outdoorHours
+float innHours
+locstring name
+float threshold
+string combatLogText
+
+BUILD 6.0.1.18179
+ID<32>
+xp<32>
+factor
+outdoorHours
+innHours
+name
+threshold
+combatLogText

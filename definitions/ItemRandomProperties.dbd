@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+string Name
+uint Enchantment
+locstring name
+
+BUILD 6.0.1.18179
+ID<32>
+Name
+Enchantment<32>[5]
+name

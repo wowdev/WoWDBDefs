@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+uint spellFlyoutID
+uint spellID
+uint slot
+
+BUILD 6.0.1.18179
+ID<32>
+spellFlyoutID<32>
+spellID<32>
+slot<32>

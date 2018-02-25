@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+uint mapID
+uint areaID
+uint buttonFiledataID
+uint buttonSmallFileDataID
+uint backgroundFiledataID
+uint loreFileDataID
+locstring name
+locstring description
+
+BUILD 6.0.1.18179
+ID<32>
+mapID<32>
+areaID<32>
+buttonFiledataID<32>
+buttonSmallFileDataID<32>
+backgroundFiledataID<32>
+loreFileDataID<32>
+name
+description

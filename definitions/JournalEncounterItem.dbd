@@ -1,0 +1,15 @@
+COLUMNS
+uint ID
+uint journalEncounterID
+uint itemID
+uint difficultyMask
+uint factionMask
+uint flags
+
+BUILD 6.0.1.18179
+ID<32>
+journalEncounterID<32>
+itemID<32>
+difficultyMask<32>
+factionMask<32>
+flags<32>

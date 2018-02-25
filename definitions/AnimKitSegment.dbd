@@ -1,0 +1,37 @@
+COLUMNS
+uint ID
+uint parentAnimKitID
+uint orderIndex
+uint animID
+uint animStartTime
+uint animKitConfigID
+uint startCondition
+uint startConditionParam
+uint startConditionDelay
+uint endCondition
+uint endConditionParam
+uint endConditionDelay
+float speed
+uint segmentFlags
+uint forcedVariation
+uint overrideConfigFlags
+uint loopToSegmentIndex
+
+BUILD 6.0.1.18179
+ID<32>
+parentAnimKitID<32>
+orderIndex<32>
+animID<32>
+animStartTime<32>
+animKitConfigID<32>
+startCondition<32>
+startConditionParam<32>
+startConditionDelay<32>
+endCondition<32>
+endConditionParam<32>
+endConditionDelay<32>
+speed
+segmentFlags<32>
+forcedVariation<32>
+overrideConfigFlags<32>
+loopToSegmentIndex<32>

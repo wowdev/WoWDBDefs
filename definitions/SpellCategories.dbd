@@ -1,0 +1,23 @@
+COLUMNS
+uint ID
+uint spellID
+uint difficultyID
+uint category
+uint defenseType
+uint dispelType
+uint mechanic
+uint preventionType
+uint startRecoveryCategory
+uint chargeCategory
+
+BUILD 6.0.1.18179
+ID<32>
+spellID<32>
+difficultyID<32>
+category<32>
+defenseType<32>
+dispelType<32>
+mechanic<32>
+preventionType<32>
+startRecoveryCategory<32>
+chargeCategory<32>

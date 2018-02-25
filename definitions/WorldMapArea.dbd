@@ -1,0 +1,31 @@
+COLUMNS
+uint ID
+uint mapID
+uint areaID
+string areaName
+float locLeft
+float locRight
+float locTop
+float locBottom
+uint displayMapID
+uint defaultDungeonFloor
+uint parentWorldMapID
+uint flags
+uint levelRangeMin
+uint levelRangeMax
+
+BUILD 6.0.1.18179
+ID<32>
+mapID<32>
+areaID<32>
+areaName
+locLeft
+locRight
+locTop
+locBottom
+displayMapID<32>
+defaultDungeonFloor<32>
+parentWorldMapID<32>
+flags<32>
+levelRangeMin<32>
+levelRangeMax<32>

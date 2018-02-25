@@ -1,0 +1,33 @@
+COLUMNS
+uint ID
+uint WMOID
+uint NameSetID
+uint WMOGroupID
+uint SoundProviderPref
+uint SoundProviderPrefUnderwater
+uint AmbienceID
+uint ZoneMusic
+uint IntroSound
+uint flags
+uint AreaTableID
+locstring AreaName
+uint uwIntroSound
+uint uwZoneMusic
+uint uwAmbience
+
+BUILD 6.0.1.18179
+ID<32>
+WMOID<32>
+NameSetID<32>
+WMOGroupID<32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<32>
+ZoneMusic<32>
+IntroSound<32>
+flags<32>
+AreaTableID<32>
+AreaName
+uwIntroSound<32>
+uwZoneMusic<32>
+uwAmbience<32>

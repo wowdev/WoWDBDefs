@@ -1,0 +1,25 @@
+COLUMNS
+uint ID
+uint bonusActionBar
+locstring name
+uint flags
+uint creatureType
+uint attackIconID
+uint combatRoundTime
+uint creatureDisplayID
+uint presetSpellID
+uint mountTypeID
+uint exitSoundEntriesID
+
+BUILD 6.0.1.18179
+ID<32>
+bonusActionBar<32>
+name
+flags<32>
+creatureType<32>
+attackIconID<32>
+combatRoundTime<32>
+creatureDisplayID<32>[4]
+presetSpellID<32>[8]
+mountTypeID<32>
+exitSoundEntriesID<32>

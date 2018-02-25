@@ -1,0 +1,17 @@
+COLUMNS
+uint ID
+uint flags
+uint usesPerWeek
+uint padding_4210097782?
+locstring name
+uint maxCharges
+uint chargeRecoveryTime
+
+BUILD 6.0.1.18179
+ID<32>
+flags<32>
+usesPerWeek<8>
+padding_4210097782<8>[3]
+name
+maxCharges<32>
+chargeRecoveryTime<32>

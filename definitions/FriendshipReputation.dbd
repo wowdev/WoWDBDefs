@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+uint factionID
+uint textureFileID
+locstring description
+
+BUILD 6.0.1.18179
+ID<32>
+factionID<32>
+textureFileID<32>
+description

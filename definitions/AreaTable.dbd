@@ -1,0 +1,57 @@
+COLUMNS
+uint ID
+uint ContinentID
+uint ParentAreaID
+uint AreaBit
+uint flags
+uint SoundProviderPref
+uint SoundProviderPrefUnderwater
+uint AmbienceID
+uint ZoneMusic
+string ZoneName
+uint IntroSound
+uint ExplorationLevel
+locstring AreaName
+uint factionGroupMask
+uint liquidTypeID
+float minElevation
+float ambient_multiplier
+uint lightid
+uint mountFlags
+uint uwIntroSound
+uint uwZoneMusic
+uint uwAmbience
+uint world_pvp_id
+uint pvpCombatWorldStateID
+uint wildBattlePetLevelMin
+uint wildBattlePetLevelMax
+uint windSettingsID
+
+BUILD 6.0.1.18179
+ID<32>
+ContinentID<32>
+ParentAreaID<32>
+AreaBit<32>
+flags<32>[2]
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<32>
+ZoneMusic<32>
+ZoneName
+IntroSound<32>
+ExplorationLevel<32>
+AreaName
+factionGroupMask<32>
+liquidTypeID<32>[4]
+minElevation
+ambient_multiplier
+lightid<32>
+mountFlags<32>
+uwIntroSound<32>
+uwZoneMusic<32>
+uwAmbience<32>
+world_pvp_id<32>
+pvpCombatWorldStateID<32>
+wildBattlePetLevelMin<32>
+wildBattlePetLevelMax<32>
+windSettingsID<32>

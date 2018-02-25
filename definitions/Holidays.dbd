@@ -1,0 +1,27 @@
+COLUMNS
+uint ID
+uint duration
+uint date
+uint region
+uint looping
+uint calendarFlags
+uint holidayNameID
+uint holidayDescriptionID
+string textureFilename
+uint priority
+uint calendarFilterType
+uint flags
+
+BUILD 6.0.1.18179
+ID<32>
+duration<32>[10]
+date<32>[26]
+region<32>
+looping<32>
+calendarFlags<32>[10]
+holidayNameID<32>
+holidayDescriptionID<32>
+textureFilename
+priority<32>
+calendarFilterType<32>
+flags<32>

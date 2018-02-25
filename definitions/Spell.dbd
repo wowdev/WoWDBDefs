@@ -1,0 +1,51 @@
+COLUMNS
+uint ID
+locstring name
+locstring nameSubtext
+locstring description
+locstring auraDescription
+uint runeCostID
+uint spellMissileID
+uint descriptionVariablesID
+uint scalingID
+uint auraOptionsID
+uint auraRestrictionsID
+uint castingRequirementsID
+uint categoriesID
+uint classOptionsID
+uint cooldownsID
+uint equippedItemsID
+uint interruptsID
+uint levelsID
+uint reagentsID
+uint shapeshiftID
+uint targetRestrictionsID
+uint totemsID
+uint requiredProjectID
+uint miscID
+
+BUILD 6.0.1.18179
+ID<32>
+name
+nameSubtext
+description
+auraDescription
+runeCostID<32>
+spellMissileID<32>
+descriptionVariablesID<32>
+scalingID<32>
+auraOptionsID<32>
+auraRestrictionsID<32>
+castingRequirementsID<32>
+categoriesID<32>
+classOptionsID<32>
+cooldownsID<32>
+equippedItemsID<32>
+interruptsID<32>
+levelsID<32>
+reagentsID<32>
+shapeshiftID<32>
+targetRestrictionsID<32>
+totemsID<32>
+requiredProjectID<32>
+miscID<32>

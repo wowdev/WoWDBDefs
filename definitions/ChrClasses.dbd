@@ -1,0 +1,39 @@
+COLUMNS
+uint ID
+uint DisplayPower
+string petNameToken
+locstring name
+locstring name_female
+locstring name_male
+string filename
+uint spellClassSet
+uint flags
+uint cinematicSequenceID
+uint attackPowerPerStrength
+uint attackPowerPerAgility
+uint rangedAttackPowerPerAgility
+uint defaultSpec
+uint createScreenFileDataID
+uint selectScreenFileDataID
+uint lowResScreenFileDataID
+uint iconFileDataID
+
+BUILD 6.0.1.18179
+ID<32>
+DisplayPower<32>
+petNameToken
+name
+name_female
+name_male
+filename
+spellClassSet<32>
+flags<32>
+cinematicSequenceID<32>
+attackPowerPerStrength<32>
+attackPowerPerAgility<32>
+rangedAttackPowerPerAgility<32>
+defaultSpec<32>
+createScreenFileDataID<32>
+selectScreenFileDataID<32>
+lowResScreenFileDataID<32>
+iconFileDataID<32>

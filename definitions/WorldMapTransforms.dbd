@@ -1,0 +1,23 @@
+COLUMNS
+uint ID
+uint mapID
+float regionMin
+float regionMax
+uint newMapID
+float regionOffset
+uint newDungeonMapID
+uint flags
+uint newAreaID
+float regionScale
+
+BUILD 6.0.1.18179
+ID<32>
+mapID<32>
+regionMin[3]
+regionMax[3]
+newMapID<32>
+regionOffset[2]
+newDungeonMapID<32>
+flags<32>
+newAreaID<32>
+regionScale

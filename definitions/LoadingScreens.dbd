@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+string name
+string fileName
+uint hasWideScreen
+
+BUILD 6.0.1.18179
+ID<32>
+name
+fileName
+hasWideScreen<32>

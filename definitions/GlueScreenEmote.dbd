@@ -1,0 +1,19 @@
+COLUMNS
+uint ID
+uint classId
+uint raceId
+uint sexId
+uint leftHandItemType
+uint rightHandItemType
+uint animKitId
+uint spellVisualKitId
+
+BUILD 6.0.1.18179
+ID<32>
+classId<32>
+raceId<32>
+sexId<32>
+leftHandItemType<32>
+rightHandItemType<32>
+animKitId<32>
+spellVisualKitId<32>

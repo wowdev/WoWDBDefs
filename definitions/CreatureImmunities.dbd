@@ -1,0 +1,23 @@
+COLUMNS
+uint ID
+uint school
+uint dispelType
+uint mechanicsAllowed
+uint mechanic
+uint effectsAllowed
+uint effect
+uint statesAllowed
+uint state
+uint flags
+
+BUILD 6.0.1.18179
+ID<32>
+school<32>
+dispelType<32>
+mechanicsAllowed<32>
+mechanic<32>
+effectsAllowed<32>
+effect<32>[7]
+statesAllowed<32>
+state<32>[15]
+flags<32>

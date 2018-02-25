@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+uint spellID
+uint difficultyID
+float coneAngle
+float width
+uint maxTargets
+uint maxTargetLevel
+uint targetCreatureType
+uint targets
+
+BUILD 6.0.1.18179
+ID<32>
+spellID<32>
+difficultyID<32>
+coneAngle
+width
+maxTargets<32>
+maxTargetLevel<32>
+targetCreatureType<32>
+targets<32>

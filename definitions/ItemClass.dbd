@@ -1,0 +1,11 @@
+COLUMNS
+uint classID
+uint flags
+float priceModifier
+locstring className
+
+BUILD 6.0.1.18179
+classID<32>
+flags<32>
+priceModifier
+className

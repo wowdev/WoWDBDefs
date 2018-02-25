@@ -1,0 +1,101 @@
+COLUMNS
+uint ID
+float AvgSegLen
+float Width
+float NoiseScale
+float TexCoordScale
+uint SegDuration
+uint SegDelay
+uint Flags
+uint JointCount
+float JointOffsetRadius
+uint JointsPerMinorJoint
+uint MinorJointsPerMajorJoint
+float MinorJointScale
+float MajorJointScale
+float JointMoveSpeed
+float JointSmoothness
+float MinDurationBetweenJointJumps
+float MaxDurationBetweenJointJumps
+float WaveHeight
+float WaveFreq
+float WaveSpeed
+float MinWaveAngle
+float MaxWaveAngle
+float MinWaveSpin
+float MaxWaveSpin
+float ArcHeight
+float MinArcAngle
+float MaxArcAngle
+float MinArcSpin
+float MaxArcSpin
+float DelayBetweenEffects
+float MinFlickerOnDuration
+float MaxFlickerOnDuration
+float MinFlickerOffDuration
+float MaxFlickerOffDuration
+float PulseSpeed
+float PulseOnLength
+float PulseFadeLength
+uint Alpha
+uint Red
+uint Green
+uint Blue
+uint BlendMode
+uint padding_3020562985?
+uint RenderLayer
+float TextureLength
+float WavePhase
+uint SpellChainEffectID
+string Texture
+
+BUILD 6.0.1.18179
+ID<32>
+AvgSegLen
+Width
+NoiseScale
+TexCoordScale
+SegDuration<32>
+SegDelay<32>
+Flags<32>
+JointCount<32>
+JointOffsetRadius
+JointsPerMinorJoint<32>
+MinorJointsPerMajorJoint<32>
+MinorJointScale
+MajorJointScale
+JointMoveSpeed
+JointSmoothness
+MinDurationBetweenJointJumps
+MaxDurationBetweenJointJumps
+WaveHeight
+WaveFreq
+WaveSpeed
+MinWaveAngle
+MaxWaveAngle
+MinWaveSpin
+MaxWaveSpin
+ArcHeight
+MinArcAngle
+MaxArcAngle
+MinArcSpin
+MaxArcSpin
+DelayBetweenEffects
+MinFlickerOnDuration
+MaxFlickerOnDuration
+MinFlickerOffDuration
+MaxFlickerOffDuration
+PulseSpeed
+PulseOnLength
+PulseFadeLength
+Alpha<8>
+Red<8>
+Green<8>
+Blue<8>
+BlendMode<8>
+padding_3020562985<8>[3]
+RenderLayer<32>
+TextureLength
+WavePhase
+SpellChainEffectID<32>[11]
+Texture

@@ -1,0 +1,23 @@
+COLUMNS
+uint ID
+uint specID
+uint tierID
+uint columnIndex
+uint spellID
+uint flags
+uint categoryMask
+uint classID
+uint overridesSpellID
+locstring description
+
+BUILD 6.0.1.18179
+ID<32>
+specID<32>
+tierID<32>
+columnIndex<32>
+spellID<32>
+flags<32>
+categoryMask<32>[2]
+classID<32>
+overridesSpellID<32>
+description

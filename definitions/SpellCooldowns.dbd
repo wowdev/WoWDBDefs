@@ -1,0 +1,15 @@
+COLUMNS
+uint ID
+uint spellID
+uint difficultyID
+uint categoryRecoveryTime
+uint recoveryTime
+uint startRecoveryTime
+
+BUILD 6.0.1.18179
+ID<32>
+spellID<32>
+difficultyID<32>
+categoryRecoveryTime<32>
+recoveryTime<32>
+startRecoveryTime<32>

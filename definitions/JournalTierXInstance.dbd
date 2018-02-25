@@ -1,0 +1,7 @@
+COLUMNS
+uint journalTierID
+uint journalInstanceID
+
+BUILD 6.0.1.18179
+journalTierID<32>
+journalInstanceID<32>

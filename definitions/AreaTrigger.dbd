@@ -1,0 +1,33 @@
+COLUMNS
+uint ID
+uint ContinentID
+float pos
+uint phaseUseFlags
+uint phaseID
+uint phaseGroupID
+float radius
+float box_length
+float box_width
+float box_height
+float box_yaw
+uint shapeType
+uint shapeID
+uint areaTriggerActionSetID
+uint flags
+
+BUILD 6.0.1.18179
+ID<32>
+ContinentID<32>
+pos[3]
+phaseUseFlags<32>
+phaseID<32>
+phaseGroupID<32>
+radius
+box_length
+box_width
+box_height
+box_yaw
+shapeType<32>
+shapeID<32>
+areaTriggerActionSetID<32>
+flags<32>

@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+uint shakeType
+uint direction
+float amplitude
+float frequency
+float duration
+float phase
+float coefficient
+uint flags
+
+BUILD 6.0.1.18179
+ID<32>
+shakeType<32>
+direction<32>
+amplitude
+frequency
+duration
+phase
+coefficient
+flags<32>

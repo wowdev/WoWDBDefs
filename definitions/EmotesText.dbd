@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+string name
+uint emoteID
+uint emoteText
+
+BUILD 6.0.1.18179
+ID<32>
+name
+emoteID<32>
+emoteText<32>[16]

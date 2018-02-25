@@ -1,0 +1,25 @@
+COLUMNS
+uint ID
+uint mapID
+uint leftBoundary
+uint rightBoundary
+uint topBoundary
+uint bottomBoundary
+float continentOffset
+float scale
+float taxiMin
+float taxiMax
+uint worldMapID
+
+BUILD 6.0.1.18179
+ID<32>
+mapID<32>
+leftBoundary<32>
+rightBoundary<32>
+topBoundary<32>
+bottomBoundary<32>
+continentOffset[2]
+scale
+taxiMin[2]
+taxiMax[2]
+worldMapID<32>

@@ -1,0 +1,63 @@
+COLUMNS
+uint ID
+uint flags
+uint flagsB
+float turnSpeed
+float pitchSpeed
+float pitchMin
+float pitchMax
+uint seatID
+float mouseLookOffsetPitch
+float cameraFadeDistScalarMin
+float cameraFadeDistScalarMax
+float cameraPitchOffset
+float facingLimitRight
+float facingLimitLeft
+float msslTrgtTurnLingering
+float msslTrgtPitchLingering
+float msslTrgtMouseLingering
+float msslTrgtEndOpacity
+float msslTrgtArcSpeed
+float msslTrgtArcRepeat
+float msslTrgtArcWidth
+float msslTrgtImpactRadius
+string msslTrgtArcTexture
+string msslTrgtImpactTexture
+string msslTrgtImpactModel
+float cameraYawOffset
+uint uiLocomotionType
+float msslTrgtImpactTexRadius
+uint vehicleUIIndicatorID
+uint powerDisplayID
+
+BUILD 6.0.1.18179
+ID<32>
+flags<32>
+flagsB<32>
+turnSpeed
+pitchSpeed
+pitchMin
+pitchMax
+seatID<32>[8]
+mouseLookOffsetPitch
+cameraFadeDistScalarMin
+cameraFadeDistScalarMax
+cameraPitchOffset
+facingLimitRight
+facingLimitLeft
+msslTrgtTurnLingering
+msslTrgtPitchLingering
+msslTrgtMouseLingering
+msslTrgtEndOpacity
+msslTrgtArcSpeed
+msslTrgtArcRepeat
+msslTrgtArcWidth
+msslTrgtImpactRadius[2]
+msslTrgtArcTexture
+msslTrgtImpactTexture
+msslTrgtImpactModel[2]
+cameraYawOffset
+uiLocomotionType<32>
+msslTrgtImpactTexRadius
+vehicleUIIndicatorID<32>
+powerDisplayID<32>[3]

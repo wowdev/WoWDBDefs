@@ -1,0 +1,17 @@
+COLUMNS
+uint ID
+uint class
+uint subclass
+uint quality
+uint minLevel
+uint maxLevel
+uint skillRequired
+
+BUILD 6.0.1.18179
+ID<32>
+class<32>
+subclass<32>
+quality<32>
+minLevel<32>
+maxLevel<32>
+skillRequired<32>

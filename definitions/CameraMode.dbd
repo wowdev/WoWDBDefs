@@ -1,0 +1,29 @@
+COLUMNS
+uint ID
+string name
+uint type
+uint flags
+float positionOffset
+float targetOffset
+float positionSmoothing
+float rotationSmoothing
+float fieldOfView
+uint lockedPositionOffsetBase
+uint lockedPositionOffsetDirection
+uint lockedTargetOffsetBase
+uint lockedTargetOffsetDirection
+
+BUILD 6.0.1.18179
+ID<32>
+name
+type<32>
+flags<32>
+positionOffset[3]
+targetOffset[3]
+positionSmoothing
+rotationSmoothing
+fieldOfView
+lockedPositionOffsetBase<32>
+lockedPositionOffsetDirection<32>
+lockedTargetOffsetBase<32>
+lockedTargetOffsetDirection<32>

@@ -1,0 +1,33 @@
+COLUMNS
+uint ID
+uint faction
+uint instance_id
+uint supercedes
+locstring title
+locstring description
+uint category
+uint points
+uint ui_order
+uint flags
+uint iconID
+locstring reward
+uint minimum_criteria
+uint shares_criteria
+uint criteria_tree
+
+BUILD 6.0.1.18179
+ID<32>
+faction<32>
+instance_id<32>
+supercedes<32>
+title
+description
+category<32>
+points<32>
+ui_order<32>
+flags<32>
+iconID<32>
+reward
+minimum_criteria<32>
+shares_criteria<32>
+criteria_tree<32>

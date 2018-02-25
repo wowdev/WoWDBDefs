@@ -1,0 +1,19 @@
+COLUMNS
+uint ID
+uint flags
+uint reqRidingSkill
+uint reqAreaID
+uint reqSpellAuraID
+uint reqSpellKnownID
+uint modSpellAuraID
+uint reqMapID
+
+BUILD 6.0.1.18179
+ID<32>
+flags<32>
+reqRidingSkill<32>
+reqAreaID<32>
+reqSpellAuraID<32>
+reqSpellKnownID<32>
+modSpellAuraID<32>
+reqMapID<32>

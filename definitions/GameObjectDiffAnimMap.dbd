@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint gameObjectDiffAnimID
+uint difficultyID
+uint animation
+uint attachmentDisplayID
+
+BUILD 6.0.1.18179
+ID<32>
+gameObjectDiffAnimID<32>
+difficultyID<32>
+animation<32>
+attachmentDisplayID<32>

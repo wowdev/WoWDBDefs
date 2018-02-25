@@ -1,0 +1,27 @@
+COLUMNS
+uint id
+string name
+uint effect
+uint param
+uint lightParamsID
+uint lightParamsFadeIn
+uint lightParamsFadeOut
+uint lightFlags
+uint soundAmbienceID
+uint zoneMusicID
+uint timeOfDayOverride
+uint effectMask
+
+BUILD 6.0.1.18179
+id<32>
+name
+effect<32>
+param<32>[4]
+lightParamsID<32>
+lightParamsFadeIn<32>
+lightParamsFadeOut<32>
+lightFlags<32>
+soundAmbienceID<32>
+zoneMusicID<32>
+timeOfDayOverride<32>
+effectMask<32>

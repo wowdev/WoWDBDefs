@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint mapID
+uint rangeIndex
+uint minLevel
+uint maxLevel
+
+BUILD 6.0.1.18179
+ID<32>
+mapID<32>
+rangeIndex<32>
+minLevel<32>
+maxLevel<32>

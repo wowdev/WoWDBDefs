@@ -1,0 +1,19 @@
+COLUMNS
+uint ID
+string EmoteSlashCommand
+uint AnimID
+uint EmoteFlags
+uint EmoteSpecProc
+uint EmoteSpecProcParam
+uint EventSoundID
+uint SpellVisualKitID
+
+BUILD 6.0.1.18179
+ID<32>
+EmoteSlashCommand
+AnimID<32>
+EmoteFlags<32>
+EmoteSpecProc<32>
+EmoteSpecProcParam<32>
+EventSoundID<32>
+SpellVisualKitID<32>

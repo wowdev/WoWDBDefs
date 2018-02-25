@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+uint Epic
+uint Superior
+uint Good
+
+BUILD 6.0.1.18179
+ID<32>
+Epic<32>[5]
+Superior<32>[5]
+Good<32>[5]

@@ -1,0 +1,11 @@
+COLUMNS
+uint padding_3094438312?
+uint raceID
+uint classID
+uint padding_2465903404?
+
+BUILD 6.0.1.18179
+padding_3094438312<8>[4]
+raceID<8>
+classID<8>
+padding_2465903404<8>[2]

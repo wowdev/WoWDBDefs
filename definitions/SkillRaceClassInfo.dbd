@@ -1,0 +1,19 @@
+COLUMNS
+uint ID
+uint skillID
+uint raceMask
+uint classMask
+uint flags
+uint availability
+uint minLevel
+uint skillTierID
+
+BUILD 6.0.1.18179
+ID<32>
+skillID<32>
+raceMask<32>
+classMask<32>
+flags<32>
+availability<32>
+minLevel<32>
+skillTierID<32>

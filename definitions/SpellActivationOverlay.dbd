@@ -1,0 +1,21 @@
+COLUMNS
+uint ID
+uint spellID
+uint overlayFileDataID
+uint screenLocationID
+uint color
+float scale
+uint iconHighlightSpellClassMask
+uint triggerType
+uint soundEntriesID
+
+BUILD 6.0.1.18179
+ID<32>
+spellID<32>
+overlayFileDataID<32>
+screenLocationID<32>
+color<32>
+scale
+iconHighlightSpellClassMask<32>[4]
+triggerType<32>
+soundEntriesID<32>

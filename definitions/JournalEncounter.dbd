@@ -1,0 +1,25 @@
+COLUMNS
+uint ID
+uint dungeonMapID
+uint worldMapAreaID
+float map
+uint firstSectionID
+uint journalInstanceID
+uint orderIndex
+uint difficultyMask
+locstring name
+locstring description
+uint flags
+
+BUILD 6.0.1.18179
+ID<32>
+dungeonMapID<32>
+worldMapAreaID<32>
+map[2]
+firstSectionID<32>
+journalInstanceID<32>
+orderIndex<32>
+difficultyMask<32>
+name
+description
+flags<32>

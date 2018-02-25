@@ -1,0 +1,9 @@
+COLUMNS
+uint ID
+uint itemID
+locstring name
+
+BUILD 6.0.1.18179
+ID<32>
+itemID<32>[8]
+name

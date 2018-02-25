@@ -1,0 +1,11 @@
+COLUMNS
+uint ID
+uint CombatBloodSpurtFront
+uint CombatBloodSpurtBack
+string GroundBlood
+
+BUILD 6.0.1.18179
+ID<32>
+CombatBloodSpurtFront<32>[2]
+CombatBloodSpurtBack<32>[2]
+GroundBlood[5]
