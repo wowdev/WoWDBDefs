@@ -19,33 +19,22 @@ uint<LoadingScreens::ID> LoadingScreenID
 uint raidOffset
 uint continentname?
 uint unk3?
-uint isBattleground? // Simple flag for battleground maps
 uint<AreaTable::ID> areaTableID
 float minimapIconScale
-locstring requirement? // Requirement to enter
-locstring heroic_requirement? // Heroic equirement to enter
-locstring unknown_requirement? // Requirement to enter
-uint<Map::ID> parentArea
-float entryPos?
-uint resetTimeRaid?
-uint resetTimeRaidHeroic?
 uint unk4?
 int timeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
 uint expansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
 uint unk5? // Another resettime? Is the same as the heroic one for some entries.
 uint Flags? // probaby same as isBattleground
-uint isPVP? // cata+ flags for is pvp in addition to bgs
 uint<Map::ID> corpseMapID
 float CorpsePosX?
 float CorpsePosY?
 float corpse // Array of CorpsePosX/CorpsePosY
-uint numPlayers?
 uint<Map::ID> cosmeticParentMapID
 uint timeOffset
 uint<WindSetting::ID> WindSettingsID
 locstring PvpShortDescription
 locstring PvpLongDescription
-uint unk6?
 
 LAYOUT F568DF12
 BUILD 8.0.1.25902-8.0.1.26095
