@@ -8,20 +8,20 @@ uint InstanceType // Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: 
 uint MapType
 uint MinLevel
 uint MaxLevel
-uint MaxPlayers
+uint maxPlayers
 uint unk0?
 uint unk1?
 uint unk2?
-uint<Map::ID> ParentMapID
-locstring DescriptionHorde
-locstring DescriptionAlliance
+uint<Map::ID> parentMapID
+locstring MapDescription0 // Horde
+locstring MapDescription1 // Alliance
 uint<LoadingScreens::ID> LoadingScreenID
-uint RaidOffset
+uint raidOffset
 uint continentname?
 uint unk3?
 uint isBattleground? // Simple flag for battleground maps
-uint<AreaTable::ID> AreaTableID?
-float MinimapIconScale
+uint<AreaTable::ID> areaTableID
+float minimapIconScale
 locstring requirement? // Requirement to enter
 locstring heroic_requirement? // Heroic equirement to enter
 locstring unknown_requirement? // Requirement to enter
@@ -30,19 +30,19 @@ float entryPos?
 uint resetTimeRaid?
 uint resetTimeRaidHeroic?
 uint unk4?
-int TimeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
-uint ExpansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
+int timeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
+uint expansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
 uint unk5? // Another resettime? Is the same as the heroic one for some entries.
 uint Flags? // probaby same as isBattleground
 uint isPVP? // cata+ flags for is pvp in addition to bgs
-uint<Map::ID> CorpseMapID
+uint<Map::ID> corpseMapID
 float CorpsePosX?
 float CorpsePosY?
-float CorpseXY? // Array of CorpsePosX/CorpsePosY
+float corpse // Array of CorpsePosX/CorpsePosY
 uint maxPlayers?
 uint numPlayers?
-uint<Map::ID> CosmeticParentMapID
-uint TimeOffset?
+uint<Map::ID> cosmeticParentMapID
+uint timeOffset
 uint<WindSetting::ID> WindSettingsID
 locstring PvpShortDescription
 locstring PvpLongDescription
@@ -54,25 +54,25 @@ BUILD 7.3.5.25600-7.3.5.25928
 ID<32>
 Directory
 MapName
-DescriptionHorde
-DescriptionAlliance
+MapDescription0
+MapDescription1
 PvpShortDescription
 PvpLongDescription
 Flags<32>[2]
-MinimapIconScale
-CorpseXY[2]
-AreaTableID<16>
+minimapIconScale
+corpse[2]
+areaTableID<16>
 LoadingScreenID<16>
-CorpseMapID<16>
-TimeOfDayOverride<16>
-ParentMapID<16>
-CosmeticParentMapID<16>
+corpseMapID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
 WindSettingsID<16>
 InstanceType<8>
 MapType<8>
-ExpansionID<8>
-MaxPlayers<8>
-TimeOffset<8>
+expansionID<8>
+maxPlayers<8>
+timeOffset<8>
 
 LAYOUT C34CD39B, AFAFB470, A37A2830
 BUILD 7.3.2.25135-7.3.2.25549
@@ -82,25 +82,25 @@ BUILD 7.2.0.23530-7.2.0.23937
 ID<32>
 Directory
 Flags<32>[2]
-MinimapIconScale
-CorpseXY[2]
+minimapIconScale
+corpse[2]
 MapName
-DescriptionHorde
-DescriptionAlliance
+MapDescription0
+MapDescription1
 PvpShortDescription
 PvpLongDescription
-AreaTableID<16>
+areaTableID<16>
 LoadingScreenID<16>
-CorpseMapID<16>
-TimeOfDayOverride<16>
-ParentMapID<16>
-CosmeticParentMapID<16>
+corpseMapID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
 WindSettingsID<16>
 InstanceType<8>
 MapType<8>
-ExpansionID<8>
-MaxPlayers<8>
-TimeOffset<8>
+expansionID<8>
+maxPlayers<8>
+timeOffset<8>
 
 LAYOUT B32E648C, F7CF2DA2, BDBE8188, 98BE9895
 BUILD 7.2.0.23436-7.2.0.23514
@@ -110,45 +110,45 @@ BUILD 7.0.3.21796-7.0.3.22747
 ID<32>
 Directory
 Flags<32>[2]
-MinimapIconScale
-CorpseXY[2]
+minimapIconScale
+corpse[2]
 MapName
-DescriptionHorde
-DescriptionAlliance
-AreaTableID<16>
+MapDescription0
+MapDescription1
+areaTableID<16>
 LoadingScreenID<16>
-CorpseMapID<16>
-TimeOfDayOverride<16>
-ParentMapID<16>
-CosmeticParentMapID<16>
+corpseMapID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
 WindSettingsID<16>
 InstanceType<8>
 MapType<8>
-ExpansionID<8>
-MaxPlayers<8>
-TimeOffset<8>
+expansionID<8>
+maxPlayers<8>
+timeOffset<8>
 
 LAYOUT 27D77AEF
 BUILD 7.0.3.21473-7.0.3.21737
 ID<32>
 Directory
 Flags<32>[2]
-MinimapIconScale
-CorpseXY[2]
+minimapIconScale
+corpse[2]
 MapName
-DescriptionHorde
-DescriptionAlliance
-AreaTableID<16>
+MapDescription0
+MapDescription1
+areaTableID<16>
 LoadingScreenID<16>
-CorpseMapID<16>
-TimeOfDayOverride<16>
-ParentMapID<16>
-CosmeticParentMapID<16>
+corpseMapID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
 InstanceType<8>
 MapType<8>
-ExpansionID<8>
-MaxPlayers<8>
-TimeOffset<8>
+expansionID<8>
+maxPlayers<8>
+timeOffset<8>
 
 BUILD 6.0.2.18837
 ID<32>
@@ -158,20 +158,20 @@ unk0<32>
 Flags<32>
 MapType<32>
 MapName
-AreaTableID<32>
-DescriptionHorde
-DescriptionAlliance
+areaTableID<32>
+MapDescription0
+MapDescription1
 LoadingScreenID<32>
-MinimapIconScale
-CorpseMapID<32>
-CorpseXY[2]
-TimeOfDayOverride<32>
-ExpansionID<32>
-RaidOffset<32>
-MaxPlayers<32>
-ParentMapID<32>
-CosmeticParentMapID<32>
-TimeOffset<32>
+minimapIconScale
+corpseMapID<32>
+corpse[2]
+timeOfDayOverride<32>
+expansionID<32>
+raidOffset<32>
+maxPlayers<32>
+parentMapID<32>
+cosmeticParentMapID<32>
+timeOffset<32>
 
 BUILD 6.0.1.18125-6.0.2.18833
 ID<32>
@@ -180,20 +180,20 @@ InstanceType<32>
 Flags<32>
 MapType<32>
 MapName
-AreaTableID<32>
-DescriptionHorde
-DescriptionAlliance
+areaTableID<32>
+MapDescription0
+MapDescription1
 LoadingScreenID<32>
-MinimapIconScale
-CorpseMapID<32>
-CorpseXY[2]
-TimeOfDayOverride<32>
-ExpansionID<32>
-RaidOffset<32>
-MaxPlayers<32>
-ParentMapID<32>
-CosmeticParentMapID<32>
-TimeOffset<32>
+minimapIconScale
+corpseMapID<32>
+corpse[2]
+timeOfDayOverride<32>
+expansionID<32>
+raidOffset<32>
+maxPlayers<32>
+parentMapID<32>
+cosmeticParentMapID<32>
+timeOffset<32>
 
 BUILD 4.0.1.12911
 ID<32>
@@ -202,16 +202,16 @@ InstanceType<32>
 Flags<32>
 PVP<32>
 MapName
-AreaTableID<32>
-DescriptionHorde
-DescriptionAlliance
+areaTableID<32>
+MapDescription0
+MapDescription1
 LoadingScreenID<32>
-MinimapIconScale
-CorpseMapID<32>
+minimapIconScale
+corpseMapID<32>
 CorpsePosX
 CorpsePosY
 unk2<32>
-ExpansionID<32>
+expansionID<32>
 unk3<32>
 unk4<32>
 unk5<32>
@@ -224,15 +224,15 @@ MapType<32>
 MapName
 MinLevel<32>
 MaxLevel<32>
-MaxPlayers<32>
+maxPlayers<32>
 unk0<32>
 unk1<32>
 unk2<32>
-ParentMapID<32>
-DescriptionHorde
-DescriptionAlliance
+parentMapID<32>
+MapDescription0
+MapDescription1
 LoadingScreenID<32>
-RaidOffset<32>
+raidOffset<32>
 continentname<32>
 unk4<32>
 
@@ -247,8 +247,8 @@ unk0<32>
 unk1<32>
 unk2<32>
 unk3<32>
-DescriptionHorde
-DescriptionAlliance
+MapDescription0
+MapDescription1
 unk4<32>
 
 BUILD 0.7.0.3694, 0.7.1.3702, 0.7.6.3712
@@ -261,8 +261,8 @@ MaxLevel<32>
 unk0<32>
 unk1<32>
 unk2<32>
-DescriptionHorde
-DescriptionAlliance
+MapDescription0
+MapDescription1
 
 BUILD 0.5.3.3368, 0.5.3.3494, 0.6.0.3592
 ID<32>
