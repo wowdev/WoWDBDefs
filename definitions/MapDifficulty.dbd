@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
-uint mapID
-uint difficultyID
+uint<Map::ID> mapID
+uint<Difficulty::ID> difficultyID
 locstring message
 uint raidDuration
 uint maxPlayers

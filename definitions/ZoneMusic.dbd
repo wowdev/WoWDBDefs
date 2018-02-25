@@ -3,7 +3,7 @@ uint ID
 string SetName
 uint SilenceIntervalMin
 uint SilenceIntervalMax
-uint Sounds
+uint<SoundEntries::ID> Sounds
 
 BUILD 6.0.1.18179
 ID<32>

@@ -1,12 +1,12 @@
 COLUMNS
 uint ID
 string EmoteSlashCommand
-uint AnimID
+uint<AnimationData::ID> AnimID
 uint EmoteFlags
 uint EmoteSpecProc
 uint EmoteSpecProcParam
-uint EventSoundID
-uint SpellVisualKitID
+uint<SoundEntries::ID> EventSoundID
+uint<SpellVisualKit::ID> SpellVisualKitID
 
 BUILD 6.0.1.18179
 ID<32>

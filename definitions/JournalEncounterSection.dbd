@@ -1,9 +1,9 @@
 COLUMNS
 uint ID
-uint journalEncounterID
-uint nextSiblingSectionID
-uint firstChildSectionID
-uint parentSectionID
+uint<JournalEncounter::ID> journalEncounterID
+uint<JournalEncounterSection::ID> nextSiblingSectionID
+uint<JournalEncounterSection::ID> firstChildSectionID
+uint<JournalEncounterSection::ID> parentSectionID
 uint orderIndex
 uint type
 uint flags
@@ -11,9 +11,9 @@ uint iconFlags
 locstring title
 locstring bodyText
 uint difficultyMask
-uint iconCreatureDisplayInfoID
-uint spellID
-uint iconFileDataID
+uint<CreatureDisplayInfo::ID> iconCreatureDisplayInfoID
+uint<Spell::ID> spellID
+uint<FileData::ID> iconFileDataID
 
 BUILD 6.0.1.18179
 ID<32>

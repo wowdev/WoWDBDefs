@@ -39,8 +39,8 @@ uint vehicleRideAnimLoopBone
 float vehicleEnterAnimDelay
 float vehicleExitAnimDelay
 uint vehicleAbilityDisplay
-uint enterUISoundID
-uint exitUISoundID
+uint<SoundEntries::ID> enterUISoundID
+uint<SoundEntries::ID> exitUISoundID
 uint flagsB
 float cameraEnteringDelay
 float cameraEnteringDuration
@@ -52,15 +52,15 @@ float cameraFacingChaseRate
 float cameraEnteringZoom
 float cameraSeatZoomMin
 float cameraSeatZoomMax
-uint enterAnimKitID
-uint rideAnimKitID
-uint exitAnimKitID
-uint vehicleEnterAnimKitID
-uint vehicleRideAnimKitID
-uint vehicleExitAnimKitID
+uint<AnimKit::ID> enterAnimKitID
+uint<AnimKit::ID> rideAnimKitID
+uint<AnimKit::ID> exitAnimKitID
+uint<AnimKit::ID> vehicleEnterAnimKitID
+uint<AnimKit::ID> vehicleRideAnimKitID
+uint<AnimKit::ID> vehicleExitAnimKitID
 uint cameraModeID
 uint flagsC
-uint uiSkinFileDataID
+uint<FileData::ID> uiSkinFileDataID
 
 BUILD 6.0.1.18179
 ID<32>

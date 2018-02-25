@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint mapID
+uint<Map::ID> mapID
 uint leftBoundary
 uint rightBoundary
 uint topBoundary

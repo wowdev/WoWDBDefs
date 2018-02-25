@@ -1,8 +1,8 @@
 COLUMNS
 uint ID
 string name
-uint emoteID
-uint emoteText
+uint<Emotes::ID> emoteID
+uint<EmotesTextData::ID> emoteText
 
 BUILD 6.0.1.18179
 ID<32>

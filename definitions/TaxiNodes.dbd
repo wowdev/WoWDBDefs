@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint ContinentID
+uint<Map::ID> ContinentID
 float pos
 locstring Name
 uint MountCreatureID

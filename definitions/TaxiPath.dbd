@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
-uint FromTaxiNode
-uint ToTaxiNode
+uint<TaxiNodes::ID> FromTaxiNode
+uint<TaxiNodes::ID> ToTaxiNode
 uint Cost
 
 BUILD 6.0.1.18179

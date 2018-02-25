@@ -1,15 +1,15 @@
 COLUMNS
 uint ID
-uint mapID
-uint areaID
+uint<Map::ID> mapID
+uint<AreaTable::ID> areaID
 string areaName
 float locLeft
 float locRight
 float locTop
 float locBottom
-uint displayMapID
+uint<Map::ID> displayMapID
 uint defaultDungeonFloor
-uint parentWorldMapID
+uint<WorldMapArea::ID> parentWorldMapID
 uint flags
 uint levelRangeMin
 uint levelRangeMax

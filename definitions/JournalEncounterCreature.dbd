@@ -1,9 +1,9 @@
 COLUMNS
 uint ID
-uint journalEncounterID
-uint creatureDisplayInfoID
+uint<JournalEncounter::ID> journalEncounterID
+uint<CreatureDisplayInfo::ID> creatureDisplayInfoID
 uint orderIndex
-uint fileDataID
+uint<FileData::ID> fileDataID
 locstring name
 locstring description
 

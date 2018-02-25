@@ -1,16 +1,16 @@
 COLUMNS
-uint padding_128249195?
-uint WorldStateID
+uint ID
+uint<WorldState::ID> WorldStateID
 uint WorldStateValue
-uint AreaID
-uint WMOAreaID
-uint ZoneIntroMusicID
-uint ZoneMusicID
-uint SoundAmbienceID
-uint SoundProviderPreferencesID
+uint<AreaTable::ID> AreaID
+uint<WMOAreaTable::ID> WMOAreaID
+uint<ZoneIntroMusicTable::ID> ZoneIntroMusicID
+uint<ZoneMusic::ID> ZoneMusicID
+uint<SoundAmbience::ID> SoundAmbienceID
+uint<SoundProviderPreferences::ID> SoundProviderPreferencesID
 
 BUILD 6.0.1.18179
-padding_128249195<8>[4]
+ID<32>
 WorldStateID<32>
 WorldStateValue<32>
 AreaID<32>

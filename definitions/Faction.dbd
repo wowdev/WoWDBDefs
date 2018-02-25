@@ -5,14 +5,14 @@ uint reputationRaceMask
 uint reputationClassMask
 uint reputationBase
 uint reputationFlags
-uint parentFactionID
+uint<Faction::ID> parentFactionID
 float parentFactionMod
 uint parentFactionCap
 locstring name
 locstring description
 uint expansion
 uint flags
-uint friendshipRepID
+uint<FriendshipReputation::ID> friendshipRepID
 
 BUILD 6.0.1.18179
 ID<32>

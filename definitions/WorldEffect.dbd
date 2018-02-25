@@ -2,7 +2,7 @@ COLUMNS
 uint ID
 uint targetType
 uint targetAsset
-uint questFeedbackEffectID
+uint<QuestFeedbackEffect::ID> questFeedbackEffectID
 uint playerConditionID
 uint combatConditionID
 uint whenToDisplay

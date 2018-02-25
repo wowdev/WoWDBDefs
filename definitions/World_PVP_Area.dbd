@@ -1,8 +1,8 @@
 COLUMNS
 uint ID
-uint area_ID
-uint next_time_worldstate
-uint game_time_worldstate
+uint<AreaTable::ID> area_ID
+uint<WorldState::ID> next_time_worldstate
+uint<WorldState::ID> game_time_worldstate
 uint battle_populate_time
 uint min_level
 uint max_level

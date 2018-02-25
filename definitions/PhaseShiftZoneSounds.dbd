@@ -1,18 +1,18 @@
 COLUMNS
 uint ID
-uint AreaID
-uint WMOAreaID
-uint PhaseID
-uint PhaseGroupID
+uint<AreaTable::ID> AreaID
+uint<WMOAreaTable::ID> WMOAreaID
+uint<Phase::ID> PhaseID
+uint<PhaseXPhaseGroup::phaseGroupID> PhaseGroupID
 uint PhaseUseFlags
-uint ZoneIntroMusicID
-uint ZoneMusicID
-uint SoundAmbienceID
-uint SoundProviderPreferencesID
-uint UWZoneIntroMusicID
-uint UWZoneMusicID
-uint UWSoundAmbienceID
-uint UWSoundProviderPreferencesID
+uint<ZoneIntroMusicTable::ID> ZoneIntroMusicID
+uint<ZoneMusic::ID> ZoneMusicID
+uint<SoundAmbience::ID> SoundAmbienceID
+uint<SoundProviderPreferences::ID> SoundProviderPreferencesID
+uint<ZoneIntroMusicTable::ID> UWZoneIntroMusicID
+uint<ZoneMusic::ID> UWZoneMusicID
+uint<SoundAmbience::ID> UWSoundAmbienceID
+uint<SoundProviderPreferences::ID> UWSoundProviderPreferencesID
 
 BUILD 6.0.1.18179
 ID<32>

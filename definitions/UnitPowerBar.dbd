@@ -7,7 +7,7 @@ uint centerPower
 float regenerationPeace
 float regenerationCombat
 uint barType
-uint fileDataID
+uint<FileData::ID> fileDataID
 uint color
 uint flags
 locstring name

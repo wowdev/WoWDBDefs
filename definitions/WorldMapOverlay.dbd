@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
-uint mapAreaID
-uint areaID
+uint<WorldMapArea::ID> mapAreaID
+uint<AreaTable::ID> areaID
 string textureName
 uint textureWidth
 uint textureHeight

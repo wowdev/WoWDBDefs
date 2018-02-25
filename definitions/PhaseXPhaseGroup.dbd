@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint phaseID
+uint<Phase::ID> phaseID
 uint phaseGroupID
 
 BUILD 6.0.1.18179

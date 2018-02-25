@@ -6,7 +6,7 @@ float turnSpeed
 float pitchSpeed
 float pitchMin
 float pitchMax
-uint seatID
+uint<VehicleSeat::ID> seatID
 float mouseLookOffsetPitch
 float cameraFadeDistScalarMin
 float cameraFadeDistScalarMax
@@ -28,7 +28,7 @@ float cameraYawOffset
 uint uiLocomotionType
 float msslTrgtImpactTexRadius
 uint vehicleUIIndicatorID
-uint powerDisplayID
+uint<PowerDisplay::ID> powerDisplayID
 
 BUILD 6.0.1.18179
 ID<32>

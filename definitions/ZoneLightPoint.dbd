@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint zoneLightID
+uint<ZoneLight::ID> zoneLightID
 float pos
 uint pointOrder
 

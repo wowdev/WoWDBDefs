@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
-uint journalEncounterID
-uint itemID
+uint<JournalEncounter::ID> journalEncounterID
+uint<Item::ID> itemID
 uint difficultyMask
 uint factionMask
 uint flags

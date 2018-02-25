@@ -1,5 +1,5 @@
 COLUMNS
-uint padding_2707958842?
+uint ID
 uint TerrainID
 string TerrainDesc
 uint FootstepSprayRun
@@ -8,7 +8,7 @@ uint SoundID
 uint Flags
 
 BUILD 6.0.1.18179
-padding_2707958842<8>[4]
+ID<32>
 TerrainID<32>
 TerrainDesc
 FootstepSprayRun<32>

@@ -5,8 +5,8 @@ uint date
 uint region
 uint looping
 uint calendarFlags
-uint holidayNameID
-uint holidayDescriptionID
+uint<HolidayNames::ID> holidayNameID
+uint<HolidayDescriptions::ID> holidayDescriptionID
 string textureFilename
 uint priority
 uint calendarFilterType

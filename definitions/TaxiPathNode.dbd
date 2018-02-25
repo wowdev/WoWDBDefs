@@ -1,8 +1,8 @@
 COLUMNS
 uint ID
-uint PathID
+uint<TaxiPath::ID> PathID
 uint NodeIndex
-uint ContinentID
+uint<Map::ID> ContinentID
 float Loc
 uint flags
 uint delay

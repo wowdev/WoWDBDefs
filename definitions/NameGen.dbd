@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
 string name
-uint raceID
+uint<ChrRaces::ID> raceID
 uint sex
 
 BUILD 6.0.1.18179

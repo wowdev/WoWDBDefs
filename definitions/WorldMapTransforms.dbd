@@ -1,13 +1,13 @@
 COLUMNS
 uint ID
-uint mapID
+uint<Map::ID> mapID
 float regionMin
 float regionMax
-uint newMapID
+uint<Map::ID> newMapID
 float regionOffset
-uint newDungeonMapID
+uint<DungeonMap::ID> newDungeonMapID
 uint flags
-uint newAreaID
+uint<AreaTable::ID> newAreaID
 float regionScale
 
 BUILD 6.0.1.18179

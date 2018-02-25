@@ -1,5 +1,5 @@
 COLUMNS
-uint id
+uint ID
 uint enchant_id
 uint maxcount_inv
 uint maxcount_item
@@ -7,7 +7,7 @@ uint type
 uint min_item_level
 
 BUILD 6.0.1.18179
-id<32>
+ID<32>
 enchant_id<32>
 maxcount_inv<32>
 maxcount_item<32>

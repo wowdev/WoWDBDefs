@@ -1,11 +1,11 @@
 COLUMNS
 uint ID
-uint mapID
-uint areaID
-uint buttonFiledataID
-uint buttonSmallFileDataID
-uint backgroundFiledataID
-uint loreFileDataID
+uint<Map::ID> mapID
+uint<AreaTable::ID> areaID
+uint<FileData::ID> buttonFiledataID
+uint<FileData::ID> buttonSmallFileDataID
+uint<FileData::ID> backgroundFiledataID
+uint<FileData::ID> loreFileDataID
 locstring name
 locstring description
 
