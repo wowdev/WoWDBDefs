@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint categoryID
+uint<CurrencyCategory::ID> categoryID
 locstring name
 string inventoryIcon
 uint spellWeight

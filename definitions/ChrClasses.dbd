@@ -8,15 +8,15 @@ locstring name_male
 string filename
 uint spellClassSet
 uint flags
-uint cinematicSequenceID
+uint<CinematicSequences::ID> cinematicSequenceID
 uint attackPowerPerStrength
 uint attackPowerPerAgility
 uint rangedAttackPowerPerAgility
 uint defaultSpec
-uint createScreenFileDataID
-uint selectScreenFileDataID
-uint lowResScreenFileDataID
-uint iconFileDataID
+uint<FileData::ID> createScreenFileDataID
+uint<FileData::ID> selectScreenFileDataID
+uint<FileData::ID> lowResScreenFileDataID
+uint<FileData::ID> iconFileDataID
 
 BUILD 6.0.1.18179
 ID<32>

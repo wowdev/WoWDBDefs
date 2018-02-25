@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint declinedWordID
+uint<DeclinedWord::ID> declinedWordID
 uint caseIndex
 string declinedWord
 

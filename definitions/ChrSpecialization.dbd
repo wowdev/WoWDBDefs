@@ -1,8 +1,8 @@
 COLUMNS
 uint ID
 string backgroundFile
-uint classID
-uint masterySpellID
+uint<ChrClasses::ID> classID
+uint<Spell::ID> masterySpellID
 uint orderIndex
 uint petTalentType
 uint role

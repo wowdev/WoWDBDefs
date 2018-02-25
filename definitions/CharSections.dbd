@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint raceID
+uint<ChrRaces::ID> raceID
 uint sexID
 uint baseSection
 string TextureName

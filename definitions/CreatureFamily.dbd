@@ -4,7 +4,7 @@ float minScale
 uint minScaleLevel
 float maxScale
 uint maxScaleLevel
-uint skillLine
+uint<SkillLine::ID> skillLine
 uint petFoodMask
 uint petTalentType
 uint categoryEnumID

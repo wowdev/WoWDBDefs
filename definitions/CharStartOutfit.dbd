@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
-uint raceID
-uint classID
+uint<ChrRaces::ID> raceID
+uint<ChrClasses::ID> classID
 uint sexID
 uint outfitID
 uint ItemID

@@ -1,12 +1,12 @@
 COLUMNS
 uint ID
-uint fallbackDifficultyID
+uint<Difficulty::ID> fallbackDifficultyID
 uint instanceType
 uint minPlayers
 uint maxPlayers
 uint oldEnumValue
 uint flags
-uint toggleDifficultyID
+uint<Difficulty::ID> toggleDifficultyID
 uint groupSizeHealthCurveID
 uint groupSizeDmgCurveID
 uint groupSizeSpellPointsCurveID

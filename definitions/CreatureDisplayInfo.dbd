@@ -1,23 +1,23 @@
 COLUMNS
 uint ID
-uint modelID
-uint soundID
-uint extendedDisplayInfoID
+uint<CreatureModelData::ID> modelID
+uint<CreatureSoundData::ID> soundID
+uint<CreatureDisplayInfoExtra::ID> extendedDisplayInfoID
 float creatureModelScale
 uint creatureModelAlpha
 string textureVariation
 string portraitTextureName
-uint portraitCreatureDisplayInfoID
+uint<CreatureDisplayInfo::ID> portraitCreatureDisplayInfoID
 uint sizeClass
 uint bloodID
-uint NPCSoundID
-uint particleColorID
+uint<NPCSounds::ID> NPCSoundID
+uint<ParticleColor::ID> particleColorID
 uint creatureGeosetData
-uint objectEffectPackageID
-uint animReplacementSetID
+uint<ObjectEffectPackage::ID> objectEffectPackageID
+uint<AnimReplacementSet::ID> animReplacementSetID
 uint flags
 uint gender
-uint stateSpellVisualKitID
+uint<SpellVisualKit::ID> stateSpellVisualKitID
 
 BUILD 6.0.1.18179
 ID<32>

@@ -1,9 +1,9 @@
 COLUMNS
 uint ID
 uint SizeClass
-uint TerrainTypeSoundID
-uint SoundEntryID
-uint SoundEntryIDWater
+uint<TerrainTypeSounds::ID> TerrainTypeSoundID
+uint<SoundEntries::ID> SoundEntryID
+uint<SoundEntries::ID> SoundEntryIDWater
 
 BUILD 6.0.1.18179
 ID<32>

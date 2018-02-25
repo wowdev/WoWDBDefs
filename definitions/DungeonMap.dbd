@@ -1,10 +1,10 @@
 COLUMNS
 uint ID
-uint mapID
+uint<Map::ID> mapID
 uint floorIndex
 float min
 float max
-uint parentWorldMapID
+uint<AreaTable::ID> parentWorldMapID
 uint flags
 
 BUILD 6.0.1.18179

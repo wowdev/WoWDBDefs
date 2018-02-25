@@ -1,13 +1,13 @@
 COLUMNS
 uint ID
-uint worldStateExpressionID
-uint selfConditionID
-uint targetConditionID
-uint friendConditionID
+uint<WorldStateExpression::ID> worldStateExpressionID
+uint<UnitCondition::ID> selfConditionID
+uint<UnitCondition::ID> targetConditionID
+uint<UnitCondition::ID> friendConditionID
 uint friendConditionOp
 uint friendConditionCount
 uint friendConditionLogic
-uint enemyConditionID
+uint<UnitCondition::ID> enemyConditionID
 uint enemyConditionOp
 uint enemyConditionCount
 uint enemyConditionLogic

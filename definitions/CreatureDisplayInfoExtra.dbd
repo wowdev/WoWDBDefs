@@ -1,16 +1,16 @@
 COLUMNS
 uint ID
-uint DisplayRaceID
+uint<ChrRaces::ID> DisplayRaceID
 uint DisplaySexID
 uint SkinID
 uint FaceID
 uint HairStyleID
 uint HairColorID
 uint FacialHairID
-uint NPCItemDisplay
+uint<ItemDisplayInfo::ID> NPCItemDisplay
 uint flags
-uint fileDataID
-uint hdFileDataID
+uint<FileData::ID> fileDataID
+uint<FileData::ID> hdFileDataID
 
 BUILD 6.0.1.18179
 ID<32>

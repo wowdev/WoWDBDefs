@@ -1,6 +1,6 @@
 COLUMNS
 uint padding_466255643?
-uint classID
+uint<ChrClasses::ID> classID
 uint powerType
 
 BUILD 6.0.1.18179

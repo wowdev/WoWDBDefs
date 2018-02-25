@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint chrClassID
+uint<ChrClasses::ID> chrClassID
 uint purpose
 uint racemask
 

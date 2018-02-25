@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint charComponentTextureLayoutID
+uint<CharComponentTextureLayouts::ID> charComponentTextureLayoutID
 uint sectionType
 uint x
 uint y

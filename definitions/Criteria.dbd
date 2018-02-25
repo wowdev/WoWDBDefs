@@ -7,9 +7,9 @@ uint start_asset
 uint start_timer
 uint fail_event
 uint fail_asset
-uint modifier_tree_id
+uint<ModifierTree::ID> modifier_tree_id
 uint flags
-uint eligibility_world_state_ID
+uint<WorldState::ID> eligibility_world_state_ID
 uint eligibility_world_state_value
 
 BUILD 6.0.1.18179

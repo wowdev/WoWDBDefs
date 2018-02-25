@@ -1,18 +1,18 @@
 COLUMNS
 uint ID
 uint flags
-uint fileDataID
+uint<FileData::ID> fileDataID
 uint sizeClass
 float modelScale
 uint bloodID
-uint footprintTextureID
+uint<FootprintTextures::ID> footprintTextureID
 float footprintTextureLength
 float footprintTextureWidth
 float footprintParticleScale
 uint foleyMaterialID
 uint footstepShakeSize
 uint deathThudShakeSize
-uint soundID
+uint<CreatureSoundData::ID> soundID
 float collisionWidth
 float collisionHeight
 float mountHeight
