@@ -20,6 +20,7 @@ namespace DBDefsTest
 
             Console.WriteLine("Read " + definitionCache.Count + " database definitions!");
 
+            var foreignKeys = 0;
             foreach(var definition in definitionCache)
             {
                 foreach(var columnDefinition in definition.Value.columnDefinitions)
@@ -36,10 +37,16 @@ namespace DBDefsTest
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine(definition.Key + "." + columnDefinition.Key + " has a foreign key to " + columnDefinition.Value.foreignTable + "." + columnDefinition.Value.foreignColumn + " WHICH DOES NOT EXIST!");
                         }
+
+                        foreignKeys++;
+
                         Console.ResetColor();
                     }
                 }
             }
+
+            Console.WriteLine("Checked " + foreignKeys + " foreign keys!");
+
             Console.WriteLine("Done, press enter to exit");
             Console.ReadLine();
         }
