@@ -177,6 +177,20 @@ namespace DBDefsLib
 
                     definitions.Add(definition);
                 }
+
+                if (lines.Length == (i + 1))
+                {
+                    versionDefinitions.Add(
+                        new VersionDefinitions()
+                        {
+                            builds = builds.ToArray(),
+                            layoutHashes = layoutHashes.ToArray(),
+                            definitions = definitions.ToArray()
+                        }
+                    );
+                }
+            }
+
             foreach(var column in columnDefinitionDictionary)
             {
                 var found = false;
