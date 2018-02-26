@@ -94,7 +94,7 @@ namespace DBDefsLib
                         writer.Write(writer.NewLine);
                     }
 
-                    if (i + 2 < definition.versionDefinitions.Length)
+                    if (i + 1 < definition.versionDefinitions.Length)
                     {
                         writer.Write(writer.NewLine);
                     }
