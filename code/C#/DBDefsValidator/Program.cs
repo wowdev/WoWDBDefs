@@ -16,6 +16,9 @@ namespace DBDefsTest
             {
                 var reader = new DBDReader();
                 definitionCache.Add(Path.GetFileNameWithoutExtension(file), reader.Read(file));
+
+                var writer = new DBDWriter();
+                writer.Save(definitionCache[Path.GetFileNameWithoutExtension(file)], Path.Combine("WriteTest", Path.GetFileNameWithoutExtension(file) + ".dbd"));
             }
 
             Console.WriteLine("Read " + definitionCache.Count + " database definitions!");
