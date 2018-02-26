@@ -19,6 +19,11 @@ namespace DBDefsLib
                 build = uint.Parse(split[3])
             };
         }
+
+        public static string BuildToString(Build build)
+        {
+            return build.expansion + "." + build.major + "." + build.minor + "." + build.build;
+        }
     }
 }
 

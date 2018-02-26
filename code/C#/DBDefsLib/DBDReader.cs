@@ -148,7 +148,6 @@ namespace DBDefsLib
                     layoutHashes.AddRange(splitLayoutHashes);
                 }
 
-                // TODO: Properly parse builds into Build structs, define ranges etc
                 if (line.StartsWith("BUILD"))
                 {
                     var splitBuilds = line.Remove(0, 6).Split(new string[] { ", " }, StringSplitOptions.None);
