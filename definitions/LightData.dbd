@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint lightParamID
+uint<LightParams::ID> lightParamID
 uint time
 uint directColor
 uint ambientColor

@@ -2,8 +2,8 @@ COLUMNS
 uint ID
 uint WeaponSubClassID
 uint ParrySoundType
-uint impactSoundID
-uint critImpactSoundID
+uint<SoundEntries::ID> impactSoundID
+uint<SoundEntries::ID> critImpactSoundID
 
 BUILD 6.0.1.18179
 ID<32>

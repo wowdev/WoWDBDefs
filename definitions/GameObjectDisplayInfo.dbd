@@ -1,10 +1,10 @@
 COLUMNS
 uint ID
-uint fileDataID
+uint<FileData::ID> fileDataID
 uint Sound
 float geoBoxMin
 float geoBoxMax
-uint objectEffectPackageID
+uint<ObjectEffectPackage::ID> objectEffectPackageID
 float overrideLootEffectScale
 float overrideNameScale
 

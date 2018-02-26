@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
 uint helmetGeosetVisDataID
-uint raceID
+uint<ChrRaces::ID> raceID
 float amount
 
 BUILD 6.0.1.18179

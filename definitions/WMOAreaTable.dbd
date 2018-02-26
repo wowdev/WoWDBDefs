@@ -3,17 +3,17 @@ uint ID
 uint WMOID
 uint NameSetID
 uint WMOGroupID
-uint SoundProviderPref
-uint SoundProviderPrefUnderwater
-uint AmbienceID
-uint ZoneMusic
-uint IntroSound
+uint<SoundProviderPreferences::ID> SoundProviderPref
+uint<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
+uint<SoundAmbience::ID> AmbienceID
+uint<ZoneMusic::ID> ZoneMusic
+uint<ZoneIntroMusicTable::ID> IntroSound
 uint flags
-uint AreaTableID
+uint<AreaTable::ID> AreaTableID
 locstring AreaName
-uint uwIntroSound
-uint uwZoneMusic
-uint uwAmbience
+uint<ZoneIntroMusicTable::ID> uwIntroSound
+uint<ZoneMusic::ID> uwZoneMusic
+uint<SoundAmbience::ID> uwAmbience
 
 BUILD 6.0.1.18179
 ID<32>

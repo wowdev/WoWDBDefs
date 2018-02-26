@@ -4,7 +4,7 @@ uint type
 locstring DisplayName
 locstring Description
 float Cost_Modifier
-uint race
+uint<ChrRaces::ID> race
 uint sex
 uint data
 

@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
 locstring name
-uint itemID
+uint<Item::ID> itemID
 uint requiredSkill
 uint requiredSkillRank
 

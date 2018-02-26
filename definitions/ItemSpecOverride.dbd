@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint itemID
+uint<Item::ID> itemID
 uint specID
 
 BUILD 6.0.1.18179

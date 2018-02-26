@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
 uint Sort_Index
-uint GMSurveyQuestionID
+uint<GMSurveyQuestions::ID> GMSurveyQuestionID
 locstring Answer
 
 BUILD 6.0.1.18179

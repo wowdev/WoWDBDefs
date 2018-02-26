@@ -2,7 +2,7 @@ COLUMNS
 uint ID
 float flowDirection
 float flowSpeed
-uint liquidTypeID
+uint<LiquidType::ID> liquidTypeID
 uint fishable
 uint reflection
 
