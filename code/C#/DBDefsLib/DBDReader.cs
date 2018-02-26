@@ -118,7 +118,8 @@ namespace DBDefsLib
 
             var definitions = new List<Definition>();
             var layoutHashes = new List<string>();
-            var builds = new List<string>();
+            var builds = new List<Build>();
+            var buildRanges = new List<BuildRange>();
 
             for(var i = lineNumber; i < lines.Length; i++)
             {
@@ -130,6 +131,7 @@ namespace DBDefsLib
                         new VersionDefinitions()
                         {
                             builds = builds.ToArray(),
+                            buildRanges = buildRanges.ToArray(),
                             layoutHashes = layoutHashes.ToArray(),
                             definitions = definitions.ToArray()
                         }
@@ -137,7 +139,8 @@ namespace DBDefsLib
 
                     definitions = new List<Definition>();
                     layoutHashes = new List<string>();
-                    builds = new List<string>();
+                    builds = new List<Build>();
+                    buildRanges = new List<BuildRange>();
                 }
 
                 if (line.StartsWith("LAYOUT")){
@@ -149,7 +152,24 @@ namespace DBDefsLib
                 if (line.StartsWith("BUILD"))
                 {
                     var splitBuilds = line.Remove(0, 6).Split(new string[] { ", " }, StringSplitOptions.None);
-                    builds.AddRange(splitBuilds);
+                    foreach(var splitBuild in splitBuilds)
+                    {
+                        if (splitBuild.Contains("-"))
+                        {
+                            var splitRange = splitBuild.Split('-');
+                            buildRanges.Add(
+                                new BuildRange()
+                                {
+                                    minBuild = Utils.ParseBuild(splitRange[0]),
+                                    maxBuild = Utils.ParseBuild(splitRange[1])
+                                }
+                            );
+                        }
+                        else{
+                            var build = Utils.ParseBuild(splitBuild);
+                            builds.Add(build);
+                        }
+                    }
                 }
 
                 if (!line.StartsWith("LAYOUT") && !line.StartsWith("BUILD") && !string.IsNullOrWhiteSpace(line))
@@ -184,6 +204,7 @@ namespace DBDefsLib
                         new VersionDefinitions()
                         {
                             builds = builds.ToArray(),
+                            buildRanges = buildRanges.ToArray(),
                             layoutHashes = layoutHashes.ToArray(),
                             definitions = definitions.ToArray()
                         }
