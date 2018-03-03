@@ -2,10 +2,10 @@ COLUMNS
 uint ID
 uint lfgDungeonsID
 uint random_lfgDungeonsID
-uint group_id
+uint group_ID
 
 BUILD 6.0.1.18179
 ID<32>
 lfgDungeonsID<32>
 random_lfgDungeonsID<32>
-group_id<32>
+group_ID<32>

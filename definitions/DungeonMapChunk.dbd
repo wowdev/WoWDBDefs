@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
 uint<Map::ID> mapID
-uint<WMOAreaTable::WMOGroupID> wmoGroupID
+uint<WMOAreaTable::WMOGroupID> WMOGroupID
 uint<DungeonMap::ID> dungeonMapID
 float minZ
 uint doodadPlacementID
@@ -9,7 +9,7 @@ uint doodadPlacementID
 BUILD 6.0.1.18179
 ID<32>
 mapID<32>
-wmoGroupID<32>
+WMOGroupID<32>
 dungeonMapID<32>
 minZ
 doodadPlacementID<32>

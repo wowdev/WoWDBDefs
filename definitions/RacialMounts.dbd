@@ -1,9 +1,9 @@
 COLUMNS
 uint ID
 uint race
-uint spell_id
+uint spell_ID
 
 BUILD 6.0.1.18179
 ID<32>
 race<32>
-spell_id<32>
+spell_ID<32>

@@ -14,9 +14,9 @@ uint faction
 string textureFilename
 uint expansionLevel
 uint order_index
-uint group_id
+uint group_ID
 locstring description
-uint random_id
+uint random_ID
 uint count_tank
 uint count_healer
 uint count_damage
@@ -45,9 +45,9 @@ faction<32>
 textureFilename
 expansionLevel<32>
 order_index<32>
-group_id<32>
+group_ID<32>
 description
-random_id<32>
+random_ID<32>
 count_tank<32>
 count_healer<32>
 count_damage<32>

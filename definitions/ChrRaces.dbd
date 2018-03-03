@@ -3,8 +3,8 @@ uint ID
 uint flags
 uint<FactionTemplate::ID> factionID
 uint<SoundEntries::ID> ExplorationSoundID
-uint<CreatureDisplayInfo::ID> MaleDisplayId
-uint<CreatureDisplayInfo::ID> FemaleDisplayId
+uint<CreatureDisplayInfo::ID> MaleDisplayID
+uint<CreatureDisplayInfo::ID> FemaleDisplayID
 string ClientPrefix
 uint<Languages::ID> BaseLanguage
 uint<CreatureType::ID> creatureType
@@ -30,8 +30,8 @@ float maleCustomizeOffset
 float femaleCustomizeOffset
 uint<ChrRaces::ID> neutralRaceID
 uint<FileData::ID> lowResScreenFileDataID
-uint<CreatureDisplayInfo::ID> HighResMaleDisplayId
-uint<CreatureDisplayInfo::ID> HighResFemaleDisplayId
+uint<CreatureDisplayInfo::ID> HighResMaleDisplayID
+uint<CreatureDisplayInfo::ID> HighResFemaleDisplayID
 uint<CharComponentTextureLayouts::ID> charComponentTexLayoutHiResID
 
 BUILD 6.0.1.18179
@@ -39,8 +39,8 @@ ID<32>
 flags<32>
 factionID<32>
 ExplorationSoundID<32>
-MaleDisplayId<32>
-FemaleDisplayId<32>
+MaleDisplayID<32>
+FemaleDisplayID<32>
 ClientPrefix
 BaseLanguage<32>
 creatureType<32>
@@ -66,6 +66,6 @@ maleCustomizeOffset[3]
 femaleCustomizeOffset[3]
 neutralRaceID<32>
 lowResScreenFileDataID<32>
-HighResMaleDisplayId<32>
-HighResFemaleDisplayId<32>
+HighResMaleDisplayID<32>
+HighResFemaleDisplayID<32>
 charComponentTexLayoutHiResID<32>

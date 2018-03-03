@@ -8,7 +8,7 @@ locstring name
 uint itemVisual
 uint flags
 uint src_itemID
-uint condition_id
+uint condition_ID
 uint requiredSkillID
 uint requiredSkillRank
 uint minLevel
@@ -28,7 +28,7 @@ name
 itemVisual<32>
 flags<32>
 src_itemID<32>
-condition_id<32>
+condition_ID<32>
 requiredSkillID<32>
 requiredSkillRank<32>
 minLevel<32>

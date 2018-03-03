@@ -1,7 +1,7 @@
 COLUMNS
 uint ID
 uint faction
-uint<Map::ID> instance_id
+uint<Map::ID> instance_ID
 uint<Achievement::ID> supercedes
 locstring title
 locstring description
@@ -18,7 +18,7 @@ uint criteria_tree
 BUILD 6.0.1.18179
 ID<32>
 faction<32>
-instance_id<32>
+instance_ID<32>
 supercedes<32>
 title
 description

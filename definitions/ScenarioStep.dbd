@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-uint criteriatreeid
+uint criteriatreeID
 uint scenarioID
 uint orderIndex
 locstring description
@@ -12,7 +12,7 @@ uint rewardQuestID
 
 BUILD 6.0.1.18179
 ID<32>
-criteriatreeid<32>
+criteriatreeID<32>
 scenarioID<32>
 orderIndex<32>
 description
