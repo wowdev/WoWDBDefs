@@ -9,13 +9,19 @@ namespace DBDTest
 {
     class Program
     {
-        public static string definitionDir = "D:\\Martin\\Documents\\GitHub\\WoWDBDefs\\definitions\\";
-
         public static Dictionary<string, DBDefinition> definitionCache = new Dictionary<string, DBDefinition>();
         public static Dictionary<string, List<string>> duplicateFileLookup = new Dictionary<string, List<string>>();
 
         static void Main(string[] args)
         {
+            if (args.Length < 1)
+            {
+                Console.WriteLine("Usage: <definitionsdir>");
+                Environment.Exit(1);
+            }
+
+            var definitionDir = args[0];
+
             foreach (var file in Directory.GetFiles(definitionDir))
             {
                 var reader = new DBDReader();

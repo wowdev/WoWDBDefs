@@ -12,7 +12,15 @@ namespace DBDefsTest
 
         static void Main(string[] args)
         {
-            foreach (var file in Directory.GetFiles("../../../definitions/"))
+            if(args.Length < 1)
+            {
+                Console.WriteLine("Usage: <definitionsdir>");
+                Environment.Exit(1);
+            }
+
+            var definitionDir = args[0];
+
+            foreach (var file in Directory.GetFiles(definitionDir))
             {
                 var reader = new DBDReader();
                 definitionCache.Add(Path.GetFileNameWithoutExtension(file), reader.Read(file));
