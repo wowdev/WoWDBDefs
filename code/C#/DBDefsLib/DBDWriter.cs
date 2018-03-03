@@ -26,10 +26,10 @@ namespace DBDefsLib
 
                     if (!string.IsNullOrEmpty(columnDefinition.Value.foreignTable) && !string.IsNullOrEmpty(columnDefinition.Value.foreignColumn))
                     {
-                        writer.Write("<" + columnDefinition.Value.foreignTable + "::" + columnDefinition.Value.foreignColumn + ">");
+                        writer.Write("<" + columnDefinition.Value.foreignTable + "::" + Utils.NormalizeColumn(columnDefinition.Value.foreignColumn) + ">");
                     }
 
-                    writer.Write(" " + columnDefinition.Key);
+                    writer.Write(" " + Utils.NormalizeColumn(columnDefinition.Key));
 
                     if(columnDefinition.Value.verified == false)
                     {
@@ -94,7 +94,7 @@ namespace DBDefsLib
                             writer.Write("$relation$");
                         }
 
-                        writer.Write(column.name);
+                        writer.Write(Utils.NormalizeColumn(column.name));
 
                         if(column.size > 0)
                         {

@@ -24,6 +24,43 @@ namespace DBDefsLib
         {
             return build.expansion + "." + build.major + "." + build.minor + "." + build.build;
         }
+
+        public static string NormalizeColumn(string col, bool fixFirst = false)
+        {
+            var thingsToUpperCase = new List<string> { "ID", "WMO" };
+
+            // ugh
+            var filteredOut = new List<string> { "mid" };
+
+            var cleaned = col;
+
+            foreach(var thingToUpperCase in thingsToUpperCase)
+            {
+                if (filteredOut.Contains(col))
+                {
+                    continue;
+                }
+
+                if (cleaned.StartsWith(thingToUpperCase, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    cleaned = thingToUpperCase + cleaned.Substring(thingToUpperCase.Length);
+                }
+
+                if (cleaned.EndsWith(thingToUpperCase, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    cleaned = cleaned.Substring(0, cleaned.Length - thingToUpperCase.Length) + thingToUpperCase;
+                }
+            }
+
+            if (fixFirst)
+            {
+                var arr = cleaned.ToCharArray();
+                arr[0] = char.ToUpper(arr[0]);
+                cleaned = new string(arr);
+            }
+
+            return cleaned;
+        }
     }
 }
 
