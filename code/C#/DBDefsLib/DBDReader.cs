@@ -182,6 +182,12 @@ namespace DBDefsLib
                 if (!line.StartsWith("LAYOUT") && !line.StartsWith("BUILD") && !line.StartsWith("COMMENT") && !string.IsNullOrWhiteSpace(line))
                 {
                     var definition = new Definition();
+                    if (line.StartsWith("#"))
+                    {
+                        definition.typeOverride = line.Substring(line.IndexOf('#') + 1, line.IndexOf('#', 1) - line.IndexOf('#') - 1);
+                        line = line.Remove(line.IndexOf('#'), line.IndexOf('#', 1) - line.IndexOf('#') + 1);
+                    }
+
                     if (line.Contains("$id$"))
                     {
                         definition.isID = true;

@@ -41,6 +41,7 @@ namespace DBDefsLib
             public bool isID;
             public bool isRelation;
             public string comment;
+            public string typeOverride;
         }
 
         public struct ColumnDefinition
