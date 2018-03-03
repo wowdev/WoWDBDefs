@@ -118,6 +118,7 @@ namespace DBDefsLib
 
             var definitions = new List<Definition>();
             var layoutHashes = new List<string>();
+            var comment = "";
             var builds = new List<Build>();
             var buildRanges = new List<BuildRange>();
 
@@ -133,12 +134,14 @@ namespace DBDefsLib
                             builds = builds.ToArray(),
                             buildRanges = buildRanges.ToArray(),
                             layoutHashes = layoutHashes.ToArray(),
+                            comment = comment,
                             definitions = definitions.ToArray()
                         }
                     );
 
                     definitions = new List<Definition>();
                     layoutHashes = new List<string>();
+                    comment = "";
                     builds = new List<Build>();
                     buildRanges = new List<BuildRange>();
                 }
@@ -171,9 +174,26 @@ namespace DBDefsLib
                     }
                 }
 
-                if (!line.StartsWith("LAYOUT") && !line.StartsWith("BUILD") && !string.IsNullOrWhiteSpace(line))
+                if (line.StartsWith("COMMENT"))
+                {
+                    comment = line.Substring(7).Trim();
+                }
+
+                if (!line.StartsWith("LAYOUT") && !line.StartsWith("BUILD") && !line.StartsWith("COMMENT") && !string.IsNullOrWhiteSpace(line))
                 {
                     var definition = new Definition();
+                    if (line.Contains("$id$"))
+                    {
+                        definition.isID = true;
+                        line = line.Remove(0, 4);
+                    }
+
+                    if (line.Contains("$relation$"))
+                    {
+                        definition.isRelation = true;
+                        line = line.Remove(0, 10);
+                    }
+
                     if (line.Contains("<"))
                     {
                         int.TryParse(line.Substring(line.IndexOf('<') + 1, line.IndexOf('>') - line.IndexOf('<') - 1), out definition.size);
@@ -184,6 +204,12 @@ namespace DBDefsLib
                     {
                         int.TryParse(line.Substring(line.IndexOf('[') + 1, line.IndexOf(']') - line.IndexOf('[') - 1), out definition.arrLength);
                         line = line.Remove(line.IndexOf('['), line.IndexOf(']') - line.IndexOf('[') + 1);
+                    }
+
+                    if (line.Contains("//"))
+                    {
+                        definition.comment = line.Substring(line.IndexOf("//") + 2).Trim();
+                        line = line.Remove(line.IndexOf("//")).Trim();
                     }
 
                     definition.name = line;
@@ -205,6 +231,7 @@ namespace DBDefsLib
                             builds = builds.ToArray(),
                             buildRanges = buildRanges.ToArray(),
                             layoutHashes = layoutHashes.ToArray(),
+                            comment = comment,
                             definitions = definitions.ToArray()
                         }
                     );
@@ -232,6 +259,17 @@ namespace DBDefsLib
                 if (!found)
                 {
                     Console.WriteLine("Column definition " + column.Key + " is never used in version definitions!");
+                }
+            }
+
+            foreach(var version in versionDefinitions)
+            {
+                foreach(var layoutHash in version.layoutHashes)
+                {
+                    if(layoutHash.Length != 8)
+                    {
+                        throw new Exception("Layout hash \"" + layoutHash + "\" is wrong length for file " + file);
+                    }
                 }
             }
 

@@ -15,6 +15,7 @@ namespace DBDefsLib
             public Build[] builds;
             public BuildRange[] buildRanges;
             public string[] layoutHashes;
+            public string comment;
             public Definition[] definitions;
         }
 
@@ -37,6 +38,9 @@ namespace DBDefsLib
             public int size;
             public int arrLength;
             public string name;
+            public bool isID;
+            public bool isRelation;
+            public string comment;
         }
 
         public struct ColumnDefinition

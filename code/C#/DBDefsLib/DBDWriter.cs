@@ -69,6 +69,11 @@ namespace DBDefsLib
                         writer.Write(writer.NewLine);
                     }
 
+                    if (!string.IsNullOrWhiteSpace(versionDefinition.comment))
+                    {
+                        writer.WriteLine("COMMENT " + versionDefinition.comment);
+                    }
+
                     if (versionDefinition.buildRanges.Length > 0)
                     {
                         foreach(var buildRange in versionDefinition.buildRanges)
@@ -79,6 +84,16 @@ namespace DBDefsLib
 
                     foreach(var column in versionDefinition.definitions)
                     {
+                        if (column.isID)
+                        {
+                            writer.Write("$id$");
+                        }
+
+                        if (column.isRelation)
+                        {
+                            writer.Write("$relation$");
+                        }
+
                         writer.Write(column.name);
 
                         if(column.size > 0)
@@ -89,6 +104,11 @@ namespace DBDefsLib
                         if(column.arrLength > 0)
                         {
                             writer.Write("[" + column.arrLength + "]");
+                        }
+
+                        if (!string.IsNullOrWhiteSpace(column.comment))
+                        {
+                            writer.Write(" // " + column.comment);
                         }
 
                         writer.Write(writer.NewLine);
