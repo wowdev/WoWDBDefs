@@ -37,6 +37,9 @@ Line starts with ```LAYOUT``` followed by a list of layouthashes separated by a 
 #### BUILD
 Line starts with ```BUILD``` and can appear multiple times per version definition. It supports ranges, multiple exact builds and single exact builds through the following format:
 
+#### COMMENT
+Line starts with ```COMMENT```, only for humans.
+
 ##### Ranges
 ```BUILD 7.2.0.23436-7.2.0.23514```. 
 
@@ -57,13 +60,25 @@ BUILD 7.0.3.21846-7.0.3.22747
 #### Columns
 ```ColName``` refers to exactly the same name as specified in the column definitions. 
 
-No size (strings, floats, etc): ```ColName```
+No size (floats, (loc)strings, non-inline IDs): ```ColName```
 
 Size (integers): ```ColName<Size>```
 
 Array: ```ColName[Length]```
 
 Both: ```ColName<Size>[Length]```
+
+With comment (for humans): ```ColName // This is a comment, yo!```
+
+#### Column annotations
+
+```ColName``` can be prefixed with an annotation to indicate that this is a special kind of column in this version.
+
+Annotations start with a ```$``` and end with a ```$```. Currently used annotations:
+
+**id** this column is a primary key. Example: ```$id$ColName```
+
+**relation** this column is stored in the relationship table. Example: ```$relation$ColName```
 
 ## File handling
 Files will be saved with DBName.dbd filenames. Every file has multiple definitions for each different structure that has been encountered for that file. Version structures are separated by an empty new line. All line endings should be in Unix format (\n).
