@@ -30,15 +30,16 @@ Valid types that parsers should support: ```(u)int{8/16/32/64}/string/float/locs
 
 ### Version definitions
 
-Starts with either ```LAYOUT```, ```BUILD``` or both. 
+```BUILD``` is required. ```LAYOUT``` is required for versions that have it. Can be both.
+
 #### LAYOUT
-Line starts with ```LAYOUT``` followed by a list of layouthashes separated by a comma and a space.
+Line starts with ```LAYOUT``` followed by a list of layouthashes separated by a comma and a space. Can appear only once.
 
 #### BUILD
-Line starts with ```BUILD``` and can appear multiple times per version definition. It supports ranges, multiple exact builds and single exact builds through the following format:
+Line starts with ```BUILD``` followed by a range, multiple exact builds separated by a comma and a space or a single exact build. Can appear multiple times.
 
 #### COMMENT
-Line starts with ```COMMENT```, only for humans.
+Line starts with ```COMMENT```, only for humans. Can appear only once.
 
 ##### Ranges
 ```BUILD 7.2.0.23436-7.2.0.23514```. 
