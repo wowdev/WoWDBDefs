@@ -1,11 +1,12 @@
 COLUMNS
-uint ID
-uint<CharComponentTextureLayouts::ID> charComponentTextureLayoutID
-uint sectionType
-uint x
-uint y
-uint width
-uint height
+int ID
+int<CharComponentTextureLayouts::ID> charComponentTextureLayoutID
+int sectionType
+int x
+int y
+int width
+int height
+uint overlapSectionMask
 
 BUILD 6.0.1.18179
 ID<32>
@@ -15,3 +16,14 @@ x<32>
 y<32>
 width<32>
 height<32>
+
+LAYOUT CE76000F
+BUILD 8.0.1.26095
+$id$ID // non-inline
+overlapSectionMask<32>
+x<16>
+y<16>
+width<16>
+height<16>
+charComponentTextureLayoutID<8>
+sectionType<8>

@@ -7,6 +7,14 @@ uint field_2593120774?
 uint field_4265987811?
 uint field_1606489103?
 string field_660621941?
+int ID
+int acceptButtonTexture
+string acceptURL
+int adTexture
+int declineButtonTexture
+int localeID
+int logoTexture
+uint promotionID
 
 BUILD 6.0.1.18179
 field_3580419061<32>
@@ -17,3 +25,14 @@ field_2593120774<32>
 field_4265987811<32>
 field_1606489103<32>
 field_660621941
+
+LAYOUT 80362F57
+BUILD 8.0.1.26095
+$id$ID // non-inline
+acceptURL
+adTexture<32>
+logoTexture<32>
+acceptButtonTexture<32>
+declineButtonTexture<32>
+promotionID<8>
+localeID<8>

@@ -1,11 +1,20 @@
 COLUMNS
-uint classID
+int classID
 uint flags
 float priceModifier
 locstring className
+int ID
 
 BUILD 6.0.1.18179
 classID<32>
 flags<32>
 priceModifier
 className
+
+LAYOUT A1E4663C
+BUILD 8.0.1.26095
+$id$ID // non-inline
+className
+priceModifier
+classID<8>
+flags<8>

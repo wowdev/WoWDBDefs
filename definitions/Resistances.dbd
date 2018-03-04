@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint Flags
 uint FizzleSoundID
 locstring name
@@ -9,3 +9,10 @@ ID<32>
 Flags<32>
 FizzleSoundID<32>
 name
+
+LAYOUT A3EAE5AE
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+Flags<8>
+FizzleSoundID<32>

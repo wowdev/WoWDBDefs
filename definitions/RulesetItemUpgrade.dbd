@@ -3,9 +3,18 @@ uint field_2111951290?
 uint field_1642725964?
 uint field_2713452026?
 uint field_3699673765?
+int ID
+int itemID
+uint itemUpgradeID
 
 BUILD 6.0.1.18179
 field_2111951290<32>
 field_1642725964<32>
 field_2713452026<32>
 field_3699673765<32>
+
+LAYOUT FB641AE0
+BUILD 8.0.1.26095
+$id$ID // non-inline
+itemID<32>
+itemUpgradeID<16>

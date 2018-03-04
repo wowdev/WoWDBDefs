@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int xpMultCurrencyID
+int xpMultCurveID
+
+LAYOUT 21328475
+BUILD 8.0.1.26095
+$id$ID // non-inline
+xpMultCurrencyID<16>
+xpMultCurveID<16>

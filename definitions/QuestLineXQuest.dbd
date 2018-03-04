@@ -3,9 +3,20 @@ uint field_3564755315?
 uint field_2825011272?
 uint field_1867251292?
 uint field_3650401855?
+int ID
+uint orderIndex
+uint questID
+uint questLineID
 
 BUILD 6.0.1.18179
 field_3564755315<32>
 field_2825011272<32>
 field_1867251292<32>
 field_3650401855<32>
+
+LAYOUT 0786F853
+BUILD 8.0.1.26095
+$id$ID // non-inline
+questLineID<32>
+questID<32>
+orderIndex<32>

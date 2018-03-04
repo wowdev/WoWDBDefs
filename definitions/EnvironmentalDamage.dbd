@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint EnumID
 uint<SpellVisualKit::ID> VisualkitID
 
@@ -7,3 +7,9 @@ BUILD 6.0.1.18179
 ID<32>
 EnumID<32>
 VisualkitID<32>
+
+LAYOUT C4552C14
+BUILD 8.0.1.26095
+$id$ID // non-inline
+VisualkitID<16>
+EnumID<8>

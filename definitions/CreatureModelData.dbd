@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint flags
 uint<FileData::ID> fileDataID
 uint sizeClass
@@ -29,6 +29,9 @@ float overrideSelectionRadius
 float tamedPetBaseScale
 uint creatureGeosetDataID
 float hoverHeight
+uint deathThudCameraEffectID
+uint footstepCameraEffectID
+float geoBox
 
 BUILD 6.0.1.18179
 ID<32>
@@ -61,3 +64,35 @@ overrideSelectionRadius
 tamedPetBaseScale
 creatureGeosetDataID<32>
 hoverHeight
+
+LAYOUT 983BD312
+BUILD 8.0.1.26095
+$id$ID // non-inline
+modelScale
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+collisionWidth
+collisionHeight
+mountHeight
+geoBox[6]
+worldEffectScale
+attachedEffectScale
+missileCollisionRadius
+missileCollisionPush
+missileCollisionRaise
+overrideLootEffectScale
+overrideNameScale
+overrideSelectionRadius
+tamedPetBaseScale
+hoverHeight
+flags<32>
+fileDataID<32>
+sizeClass<32>
+bloodID<32>
+footprintTextureID<32>
+foleyMaterialID<32>
+footstepCameraEffectID<32>
+deathThudCameraEffectID<32>
+soundID<32>
+creatureGeosetDataID<32>

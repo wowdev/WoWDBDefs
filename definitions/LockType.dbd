@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 locstring name
 locstring resourceName
 locstring verb
@@ -11,3 +11,11 @@ name
 resourceName
 verb
 cursorName
+
+LAYOUT CD5E1D2F
+BUILD 8.0.1.26095
+name
+resourceName
+verb
+cursorName
+$id$ID<32>

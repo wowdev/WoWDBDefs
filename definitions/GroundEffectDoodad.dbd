@@ -1,9 +1,10 @@
 COLUMNS
-uint ID
+int ID
 string doodadpath
 uint flags
 float animscale
 float pushscale
+int modelFileID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -11,3 +12,11 @@ doodadpath
 flags<32>
 animscale
 pushscale
+
+LAYOUT 0376B2D6
+BUILD 8.0.1.26095
+$id$ID // non-inline
+animscale
+pushscale
+flags<8>
+modelFileID<32>

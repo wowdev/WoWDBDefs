@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<Spell::ID> spellID
 uint glyphType
 uint<SpellIcon::ID> spellIconID
@@ -11,3 +11,11 @@ spellID<32>
 glyphType<32>
 spellIconID<32>
 glyphExclusiveCategoryID<32>
+
+LAYOUT D0046829
+BUILD 8.0.1.26095
+$id$ID // non-inline
+spellID<32>
+spellIconID<16>
+glyphType<8>
+glyphExclusiveCategoryID<8>

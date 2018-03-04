@@ -1,17 +1,17 @@
 COLUMNS
-uint ID
+int ID
 string name
-uint type
-uint flags
+int type
+int flags
 float positionOffset
 float targetOffset
 float positionSmoothing
 float rotationSmoothing
 float fieldOfView
-uint lockedPositionOffsetBase
-uint lockedPositionOffsetDirection
-uint lockedTargetOffsetBase
-uint lockedTargetOffsetDirection
+int lockedPositionOffsetBase
+int lockedPositionOffsetDirection
+int lockedTargetOffsetBase
+int lockedTargetOffsetDirection
 
 BUILD 6.0.1.18179
 ID<32>
@@ -27,3 +27,18 @@ lockedPositionOffsetBase<32>
 lockedPositionOffsetDirection<32>
 lockedTargetOffsetBase<32>
 lockedTargetOffsetDirection<32>
+
+LAYOUT CDB6BC2F
+BUILD 8.0.1.26095
+$id$ID // non-inline
+positionOffset[3]
+targetOffset[3]
+positionSmoothing
+rotationSmoothing
+fieldOfView
+flags<16>
+type<8>
+lockedPositionOffsetBase<8>
+lockedPositionOffsetDirection<8>
+lockedTargetOffsetBase<8>
+lockedTargetOffsetDirection<8>

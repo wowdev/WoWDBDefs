@@ -1,7 +1,12 @@
 COLUMNS
-uint ID
+int ID
 float smoothFacingChaseRate
 
 BUILD 6.0.1.18179
 ID<32>
+smoothFacingChaseRate
+
+LAYOUT 39F710E3
+BUILD 8.0.1.26095
+$id$ID // non-inline
 smoothFacingChaseRate

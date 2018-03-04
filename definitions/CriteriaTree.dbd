@@ -1,12 +1,12 @@
 COLUMNS
-uint ID
+int ID
 uint<Criteria::ID> criteriaID
-uint amount
-uint operator
+int amount
+int operator
 uint parent
-uint flags
+int flags
 locstring description
-uint orderIndex
+int orderIndex
 uint padding_2173460021?
 
 BUILD 6.0.1.18179
@@ -19,3 +19,14 @@ flags<32>
 description
 orderIndex<32>
 padding_2173460021<8>[4]
+
+LAYOUT 0A1B99C2
+BUILD 8.0.1.26095
+$id$ID // non-inline
+description
+amount<32>
+flags<16>
+operator<8>
+criteriaID<32>
+parent<32>
+orderIndex<32>

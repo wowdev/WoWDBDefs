@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint itemLevel
+int requiredLevel
+
+LAYOUT FDE283DA
+BUILD 8.0.1.26095
+$id$ID // non-inline
+itemLevel<16>
+requiredLevel<8>

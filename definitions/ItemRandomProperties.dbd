@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 string Name
 uint Enchantment
 locstring name_lang
@@ -9,3 +9,9 @@ ID<32>
 Name
 Enchantment<32>[5]
 name_lang
+
+LAYOUT B67375F8
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name_lang
+Enchantment<16>[5]

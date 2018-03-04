@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int Flags
+int MaxLevel
+int MinLevel
+
+LAYOUT 5200B7F5
+BUILD 8.0.1.26095
+$id$ID // non-inline
+MinLevel<32>
+MaxLevel<32>
+Flags<32>

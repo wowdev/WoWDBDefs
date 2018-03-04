@@ -1,38 +1,48 @@
 COLUMNS
-uint ID
-uint flags
-uint<FactionTemplate::ID> factionID
+int ID
+int flags
+int<FactionTemplate::ID> factionID
 uint<SoundEntries::ID> ExplorationSoundID
 uint<CreatureDisplayInfo::ID> MaleDisplayID
 uint<CreatureDisplayInfo::ID> FemaleDisplayID
 string ClientPrefix
-uint<Languages::ID> BaseLanguage
-uint<CreatureType::ID> creatureType
-uint<Spell::ID> ResSicknessSpellID
-uint<SoundEntries::ID> SplashSoundID
+int<Languages::ID> BaseLanguage
+int<CreatureType::ID> creatureType
+int<Spell::ID> ResSicknessSpellID
+int<SoundEntries::ID> SplashSoundID
 string clientFileString
-uint<CinematicSequences::ID> cinematicSequenceID
-uint alliance
+int<CinematicSequences::ID> cinematicSequenceID
+int alliance
 locstring name
 locstring name_female
 locstring name_male
 string facialHairCustomization
 string hairCustomization
-uint race_related
-uint<ChrRaces::ID> unalteredVisualRaceID
+int race_related
+int<ChrRaces::ID> unalteredVisualRaceID
 uint<CreatureSoundData::ID> uaMaleCreatureSoundDataID
 uint<CreatureSoundData::ID> uaFemaleCreatureSoundDataID
-uint<CharComponentTextureLayouts::ID> charComponentTextureLayoutID
-uint<ChrClasses::ID> defaultClassID
-uint<FileData::ID> createScreenFileDataID
-uint<FileData::ID> selectScreenFileDataID
+int<CharComponentTextureLayouts::ID> charComponentTextureLayoutID
+int<ChrClasses::ID> defaultClassID
+int<FileData::ID> createScreenFileDataID
+int<FileData::ID> selectScreenFileDataID
 float maleCustomizeOffset
 float femaleCustomizeOffset
-uint<ChrRaces::ID> neutralRaceID
-uint<FileData::ID> lowResScreenFileDataID
+int<ChrRaces::ID> neutralRaceID
+int<FileData::ID> lowResScreenFileDataID
 uint<CreatureDisplayInfo::ID> HighResMaleDisplayID
 uint<CreatureDisplayInfo::ID> HighResFemaleDisplayID
-uint<CharComponentTextureLayouts::ID> charComponentTexLayoutHiResID
+int<CharComponentTextureLayouts::ID> charComponentTexLayoutHiResID
+uint alteredFormFinishVisualKitID
+uint alteredFormStartVisualKitID
+int displayRaceID
+int femaleSkeletonFileDataID
+int heritageArmorAchievementID
+int maleSkeletonFileDataID
+locstring name_female_lowercase
+locstring name_lowercase
+int startingLevel
+int uiDisplayOrder
 
 BUILD 6.0.1.18179
 ID<32>
@@ -69,3 +79,44 @@ lowResScreenFileDataID<32>
 HighResMaleDisplayID<32>
 HighResFemaleDisplayID<32>
 charComponentTexLayoutHiResID<32>
+
+LAYOUT 51C511F9
+BUILD 8.0.1.26095
+ClientPrefix
+clientFileString
+name
+name_female
+name_lowercase
+name_female_lowercase
+flags<32>
+MaleDisplayID<32>
+FemaleDisplayID<32>
+createScreenFileDataID<32>
+selectScreenFileDataID<32>
+maleCustomizeOffset[3]
+femaleCustomizeOffset[3]
+lowResScreenFileDataID<32>
+startingLevel<32>
+uiDisplayOrder<32>
+factionID<16>
+ResSicknessSpellID<16>
+SplashSoundID<16>
+cinematicSequenceID<16>
+BaseLanguage<8>
+creatureType<8>
+alliance<8>
+race_related<8>
+unalteredVisualRaceID<8>
+charComponentTextureLayoutID<8>
+defaultClassID<8>
+neutralRaceID<8>
+displayRaceID<8>
+charComponentTexLayoutHiResID<8>
+$id$ID<32>
+HighResMaleDisplayID<32>
+HighResFemaleDisplayID<32>
+heritageArmorAchievementID<32>
+maleSkeletonFileDataID<32>
+femaleSkeletonFileDataID<32>
+alteredFormStartVisualKitID<32>[3]
+alteredFormFinishVisualKitID<32>[3]

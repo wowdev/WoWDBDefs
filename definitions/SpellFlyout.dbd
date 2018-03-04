@@ -1,11 +1,12 @@
 COLUMNS
-uint ID
+int ID
 uint flags
-uint raceMask
-uint classMask
+int raceMask
+int classMask
 uint spellIconID
 locstring name
 locstring description
+int spellIconFileID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -15,3 +16,13 @@ classMask<32>
 spellIconID<32>
 name
 description
+
+LAYOUT 437671BD
+BUILD 8.0.1.26095
+$id$ID // non-inline
+raceMask<64>
+name
+description
+flags<8>
+classMask<32>
+spellIconFileID<32>

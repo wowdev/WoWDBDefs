@@ -1,11 +1,11 @@
 COLUMNS
-uint ID
+int ID
 string backgroundFile
-uint<ChrClasses::ID> classID
-uint<Spell::ID> masterySpellID
-uint orderIndex
-uint petTalentType
-uint role
+int<ChrClasses::ID> classID
+int<Spell::ID> masterySpellID
+int orderIndex
+int petTalentType
+int role
 uint spellIconID
 uint raidBuffs
 uint flags
@@ -13,6 +13,10 @@ locstring name
 locstring description
 uint maxBuffs
 uint primaryStatOrder
+int animReplacements
+locstring femaleName
+int primaryStatPriority
+int spellIconFileID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -29,3 +33,19 @@ name
 description
 maxBuffs<32>
 primaryStatOrder<32>[3]
+
+LAYOUT 3D86B8F7
+BUILD 8.0.1.26095
+name
+femaleName
+description
+masterySpellID<32>[2]
+classID<8> // unk_8C, unk_90
+orderIndex<8>
+petTalentType<8>
+role<8>
+primaryStatPriority<8>
+$id$ID<32>
+spellIconFileID<32>
+flags<32>
+animReplacements<32>

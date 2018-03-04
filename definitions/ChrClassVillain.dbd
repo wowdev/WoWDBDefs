@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint chrClassID
+uint gender
+locstring name
+
+LAYOUT A6AC18CD
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+chrClassID<8>
+gender<8>

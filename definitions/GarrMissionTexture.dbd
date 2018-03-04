@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+float pos_
+uint uiTextureKitID
+
+LAYOUT 3071301C
+BUILD 8.0.1.26095
+$id$ID // non-inline
+pos_[2]
+uiTextureKitID<16>

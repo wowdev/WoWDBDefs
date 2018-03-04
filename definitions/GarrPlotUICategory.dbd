@@ -2,8 +2,16 @@ COLUMNS
 uint field_329935761?
 locstring categoryName
 uint field_2890979807?
+int ID
+uint plotType
 
 BUILD 6.0.1.18179
 field_329935761<32>
 categoryName
 field_2890979807<32>
+
+LAYOUT A94645EE
+BUILD 8.0.1.26095
+$id$ID // non-inline
+categoryName
+plotType<8>

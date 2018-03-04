@@ -1,11 +1,12 @@
 COLUMNS
-uint ID
+int ID
 uint<AreaTable::ID> area_ID
 uint<WorldState::ID> next_time_worldstate
 uint<WorldState::ID> game_time_worldstate
 uint battle_populate_time
 uint min_level
 uint max_level
+int map_ID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -15,3 +16,14 @@ game_time_worldstate<32>
 battle_populate_time<32>
 min_level<32>
 max_level<32>
+
+LAYOUT 6FBBF76B
+BUILD 8.0.1.26095
+$id$ID // non-inline
+area_ID<16>
+next_time_worldstate<16>
+game_time_worldstate<16>
+battle_populate_time<16>
+map_ID<16>
+min_level<8>
+max_level<8>

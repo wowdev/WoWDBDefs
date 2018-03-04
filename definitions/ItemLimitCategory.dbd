@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 locstring name
 uint quantity
 uint flags
@@ -9,3 +9,10 @@ ID<32>
 name
 quantity<32>
 flags<32>
+
+LAYOUT B6BB188D
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+quantity<8>
+flags<8>

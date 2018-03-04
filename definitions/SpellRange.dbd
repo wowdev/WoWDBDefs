@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 float rangeMin
 float rangeMax
 uint flags
@@ -13,3 +13,12 @@ rangeMax[2]
 flags<32>
 displayName
 displayNameShort
+
+LAYOUT DE2E3F8E
+BUILD 8.0.1.26095
+$id$ID // non-inline
+displayName
+displayNameShort
+rangeMin[2]
+rangeMax[2]
+flags<8>

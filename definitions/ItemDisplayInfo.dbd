@@ -1,14 +1,24 @@
 COLUMNS
-uint ID
+int ID
 string modelName
 string modelTexture
-uint geosetGroup
-uint flags
+int geosetGroup
+int flags
 uint spellVisualID
-uint helmetGeosetVis
+int helmetGeosetVis
 string texture
-uint itemVisual
-uint particleColorID
+int itemVisual
+int particleColorID
+int attachmentGeosetGroup
+uint itemRangedDisplayInfoID
+int modelMaterialResourcesID
+uint modelResourcesID
+int modelType1
+uint overrideSwooshSoundKitID
+int sheatheTransformMatrixID
+int sheathedSpellVisualKitID
+int stateSpellVisualKitID
+uint unsheathedSpellVisualKitID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -21,3 +31,22 @@ helmetGeosetVis<32>[2]
 texture[9]
 itemVisual<32>
 particleColorID<32>
+
+LAYOUT 99606089
+BUILD 8.0.1.26095
+$id$ID // non-inline
+flags<32>
+itemRangedDisplayInfoID<32>
+itemVisual<32>
+particleColorID<32>
+overrideSwooshSoundKitID<32>
+sheatheTransformMatrixID<32>
+modelType1<32>
+stateSpellVisualKitID<32>
+sheathedSpellVisualKitID<32>
+unsheathedSpellVisualKitID<32>
+modelResourcesID<32>[2]
+modelMaterialResourcesID<32>[2]
+geosetGroup<32>[4]
+attachmentGeosetGroup<32>[4]
+helmetGeosetVis<32>[2]

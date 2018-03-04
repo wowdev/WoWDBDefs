@@ -5,6 +5,12 @@ uint field_2595378131?
 uint field_2799832687?
 uint field_516438342?
 uint field_3478340450?
+int ID
+uint itemAppearanceID
+uint itemAppearanceModifierID
+int itemID
+uint orderIndex
+int transmogSourceTypeEnum
 
 BUILD 6.0.1.18179
 field_3565994245<32>
@@ -13,3 +19,12 @@ field_2595378131<32>
 field_2799832687<32>
 field_516438342<32>
 field_3478340450<32>
+
+LAYOUT E64FD18B
+BUILD 8.0.1.26095
+itemID<32> // unk_8C, unk_90
+$id$ID<32>
+itemAppearanceModifierID<8>
+itemAppearanceID<16>
+orderIndex<8>
+transmogSourceTypeEnum<8>

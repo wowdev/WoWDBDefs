@@ -1,12 +1,14 @@
 COLUMNS
-uint ID
+int ID
 string EmoteSlashCommand
-uint<AnimationData::ID> AnimID
+int<AnimationData::ID> AnimID
 uint EmoteFlags
 uint EmoteSpecProc
 uint EmoteSpecProcParam
 uint<SoundEntries::ID> EventSoundID
 uint<SpellVisualKit::ID> SpellVisualKitID
+int classMask
+int raceMask
 
 BUILD 6.0.1.18179
 ID<32>
@@ -17,3 +19,16 @@ EmoteSpecProc<32>
 EmoteSpecProcParam<32>
 EventSoundID<32>
 SpellVisualKitID<32>
+
+LAYOUT 14467F27
+BUILD 8.0.1.26095
+$id$ID // non-inline
+raceMask<64>
+EmoteSlashCommand
+EmoteFlags<32>
+SpellVisualKitID<32>
+AnimID<16>
+EmoteSpecProc<8>
+classMask<32>
+EmoteSpecProcParam<32>
+EventSoundID<32>

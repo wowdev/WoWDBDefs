@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<AnimKitConfig::ID> parentAnimKitConfigID
 uint<AnimKitBoneSet::ID> animKitBoneSetID
 uint<AnimKitPriority::ID> animKitPriorityID
@@ -9,3 +9,10 @@ ID<32>
 parentAnimKitConfigID<32>
 animKitBoneSetID<32>
 animKitPriorityID<32>
+
+LAYOUT 3D9B3BA7
+BUILD 8.0.1.26095
+$id$ID // non-inline
+animKitPriorityID<16>
+animKitBoneSetID<8>
+$relation$parentAnimKitConfigID<16> // relationship column

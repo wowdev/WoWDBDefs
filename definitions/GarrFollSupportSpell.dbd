@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int allianceSpellID
+uint garrFollowerID
+int hordeSpellID
+uint orderIndex
+
+LAYOUT B7DBA2D1
+BUILD 8.0.1.26095
+$id$ID // non-inline
+allianceSpellID<32>
+hordeSpellID<32>
+orderIndex<8>
+$relation$garrFollowerID<32> // relationship column

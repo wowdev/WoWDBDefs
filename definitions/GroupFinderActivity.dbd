@@ -8,6 +8,21 @@ uint field_2250257069?
 uint field_4013676685?
 string field_3904792460?
 string field_3671730565?
+int ID
+uint areaID
+uint difficultyID
+uint displayType
+uint flags
+locstring fullName
+uint groupFinderActivityGrpID
+uint groupFinderCategoryID
+uint mapID
+uint maxLevelSuggestion
+uint maxPlayers
+uint minGearLevelSuggestion
+uint minLevel
+int orderIndex
+locstring shortName
 
 BUILD 6.0.1.18179
 field_374877437<32>
@@ -19,3 +34,21 @@ field_2250257069<32>
 field_4013676685<32>
 field_3904792460
 field_3671730565
+
+LAYOUT 3EF2F3BD
+BUILD 8.0.1.26095
+$id$ID // non-inline
+fullName
+shortName
+minGearLevelSuggestion<16>
+mapID<16>
+areaID<16>
+groupFinderCategoryID<8>
+groupFinderActivityGrpID<8>
+orderIndex<8>
+minLevel<8>
+maxLevelSuggestion<8>
+difficultyID<8>
+flags<8>
+displayType<8>
+maxPlayers<8>

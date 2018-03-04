@@ -11,6 +11,18 @@ uint field_3341093765?
 uint field_3510304334?
 uint field_970287213?
 string field_1736261391?
+int ID
+uint displayID
+locstring name
+uint ownerID
+uint phaseGroupID
+uint phaseID
+uint phaseUseFlags
+float pos
+int propValue
+float rot
+float scale
+uint typeID
 
 BUILD 6.0.1.18179
 field_2043578823<32>
@@ -25,3 +37,18 @@ field_3341093765<32>
 field_3510304334<32>
 field_970287213<32>[8]
 field_1736261391
+
+LAYOUT 597E8643
+BUILD 8.0.1.26095
+name
+pos[3]
+rot[4]
+scale
+propValue<32>[8]
+ownerID<16> // unk_8C, unk_90
+displayID<16>
+phaseID<16>
+phaseGroupID<16>
+phaseUseFlags<8>
+typeID<8>
+$id$ID<32>

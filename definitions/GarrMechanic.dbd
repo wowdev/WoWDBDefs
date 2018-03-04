@@ -2,8 +2,19 @@ COLUMNS
 uint field_1228600752?
 uint field_3143548275?
 float field_2509301198?
+int ID
+float factor
+int garrAbilityID
+uint garrMechanicTypeID
 
 BUILD 6.0.1.18179
 field_1228600752<32>
 field_3143548275<32>
 field_2509301198
+
+LAYOUT AB49DA61
+BUILD 8.0.1.26095
+$id$ID // non-inline
+factor
+garrMechanicTypeID<8>
+garrAbilityID<32>

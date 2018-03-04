@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint type
 locstring DisplayName
 locstring Description
@@ -17,3 +17,14 @@ Cost_Modifier
 race<32>
 sex<32>
 data<32>
+
+LAYOUT 670C71AE
+BUILD 8.0.1.26095
+DisplayName
+Description
+Cost_Modifier
+type<8>
+race<8>
+sex<8>
+data<8>
+$id$ID<32>

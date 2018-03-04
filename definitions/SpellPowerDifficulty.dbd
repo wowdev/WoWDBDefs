@@ -2,8 +2,17 @@ COLUMNS
 uint field_2090125059?
 uint field_1825301685?
 uint field_363220661?
+int ID
+uint difficultyID
+uint orderIndex
 
 BUILD 6.0.1.18179
 field_2090125059<32>
 field_1825301685<32>
 field_363220661<32>
+
+LAYOUT 74714FF7
+BUILD 8.0.1.26095
+difficultyID<8>
+orderIndex<8>
+$id$ID<32>

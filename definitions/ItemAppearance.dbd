@@ -1,7 +1,20 @@
 COLUMNS
 uint field_1448620016?
 uint field_96468899?
+int ID
+int defaultIconFileDataID
+uint displayType
+int itemDisplayInfoID
+int uiOrder
 
 BUILD 6.0.1.18179
 field_1448620016<32>
 field_96468899<32>
+
+LAYOUT 06D35A59
+BUILD 8.0.1.26095
+$id$ID // non-inline
+itemDisplayInfoID<32>
+defaultIconFileDataID<32>
+uiOrder<32>
+displayType<8>

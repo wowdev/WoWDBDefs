@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+string name
+int positionerID
+
+LAYOUT EC767C57
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+positionerID<16>

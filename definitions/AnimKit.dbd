@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint oneShotDuration
 uint<AnimKit::ID> oneShotStopAnimKitID
 uint<AnimKit::ID> lowDefAnimKitID
@@ -9,3 +9,10 @@ ID<32>
 oneShotDuration<32>
 oneShotStopAnimKitID<32>
 lowDefAnimKitID<32>
+
+LAYOUT 81D6D250
+BUILD 8.0.1.26095
+$id$ID // non-inline
+oneShotDuration<32>
+oneShotStopAnimKitID<16>
+lowDefAnimKitID<16>

@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint GameObjectsID
+int ID
+int GameObjectsID
 uint TimeIndex
 float Rot
 
@@ -9,3 +9,10 @@ ID<32>
 GameObjectsID<32>
 TimeIndex<32>
 Rot[4]
+
+LAYOUT 72035AA9
+BUILD 8.0.1.26095
+$id$ID // non-inline
+TimeIndex<32>
+Rot[4]
+$relation$GameObjectsID<32> // relationship column

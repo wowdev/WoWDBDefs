@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint specID
 uint tierID
 uint columnIndex
@@ -21,3 +21,16 @@ categoryMask<32>[2]
 classID<32>
 overridesSpellID<32>
 description
+
+LAYOUT E8850B48
+BUILD 8.0.1.26095
+$id$ID // non-inline
+description
+spellID<32>
+overridesSpellID<32>
+specID<16>
+tierID<8>
+columnIndex<8>
+flags<8>
+categoryMask<8>[2]
+classID<8>

@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<TaxiPath::ID> PathID
 uint NodeIndex
 uint<Map::ID> ContinentID
@@ -19,3 +19,15 @@ flags<32>
 delay<32>
 arrivalEventID<32>
 departureEventID<32>
+
+LAYOUT D38E8C01
+BUILD 8.0.1.26095
+Loc[3]
+PathID<16> // unk_8C, unk_90
+ContinentID<16>
+NodeIndex<8>
+$id$ID<32>
+flags<8>
+delay<32>
+arrivalEventID<16>
+departureEventID<16>

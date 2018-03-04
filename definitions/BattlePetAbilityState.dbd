@@ -3,9 +3,20 @@ uint field_2154340504?
 uint field_1551442177?
 uint field_3700273895?
 uint field_443695781?
+int ID
+uint battlePetAbilityID
+uint battlePetStateID
+int value
 
 BUILD 6.0.1.18179
 field_2154340504<32>
 field_1551442177<32>
 field_3700273895<32>
 field_443695781<32>
+
+LAYOUT 0E40A884
+BUILD 8.0.1.26095
+$id$ID // non-inline
+value<32>
+battlePetStateID<8>
+$relation$battlePetAbilityID<16> // relationship column

@@ -1,10 +1,10 @@
 COLUMNS
-uint ID
-uint spellID
+int ID
+int spellID
 uint difficultyID
-uint categoryRecoveryTime
-uint recoveryTime
-uint startRecoveryTime
+int categoryRecoveryTime
+int recoveryTime
+int startRecoveryTime
 
 BUILD 6.0.1.18179
 ID<32>
@@ -13,3 +13,12 @@ difficultyID<32>
 categoryRecoveryTime<32>
 recoveryTime<32>
 startRecoveryTime<32>
+
+LAYOUT CA8D8B3C
+BUILD 8.0.1.26095
+$id$ID // non-inline
+categoryRecoveryTime<32>
+recoveryTime<32>
+startRecoveryTime<32>
+difficultyID<8>
+$relation$spellID<32> // relationship column

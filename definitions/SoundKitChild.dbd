@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint parentSoundKitID
+uint soundKitID
+
+LAYOUT 2827A3B5
+BUILD 8.0.1.26095
+$id$ID // non-inline
+parentSoundKitID<32> // unk_8C, unk_90
+soundKitID<32>

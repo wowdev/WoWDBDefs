@@ -1,11 +1,23 @@
 COLUMNS
-uint ID
+int ID
 string tag
 uint region_group_mask
 uint rulesetID
+uint challenge_origin
+uint raidorigin
+uint region_ID
 
 BUILD 6.0.1.18179
 ID<32>
 tag
 region_group_mask<32>
 rulesetID<32>
+
+LAYOUT 9F4272BF
+BUILD 8.0.1.26095
+$id$ID // non-inline
+tag
+raidorigin<32>
+challenge_origin<32>
+region_ID<16>
+region_group_mask<8>

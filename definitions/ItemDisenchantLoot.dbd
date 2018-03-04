@@ -1,11 +1,12 @@
 COLUMNS
-uint ID
+int ID
 uint class
-uint subclass
+int subclass
 uint quality
 uint minLevel
 uint maxLevel
 uint skillRequired
+int expansionID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -15,3 +16,14 @@ quality<32>
 minLevel<32>
 maxLevel<32>
 skillRequired<32>
+
+LAYOUT C0D926CC
+BUILD 8.0.1.26095
+$id$ID // non-inline
+minLevel<16>
+maxLevel<16>
+skillRequired<16>
+subclass<8>
+quality<8>
+expansionID<8>
+$relation$class<8> // relationship column

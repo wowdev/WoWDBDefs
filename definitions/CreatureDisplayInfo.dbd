@@ -1,14 +1,14 @@
 COLUMNS
-uint ID
+int ID
 uint<CreatureModelData::ID> modelID
 uint<CreatureSoundData::ID> soundID
-uint<CreatureDisplayInfoExtra::ID> extendedDisplayInfoID
+int<CreatureDisplayInfoExtra::ID> extendedDisplayInfoID
 float creatureModelScale
 uint creatureModelAlpha
 string textureVariation
 string portraitTextureName
-uint<CreatureDisplayInfo::ID> portraitCreatureDisplayInfoID
-uint sizeClass
+int<CreatureDisplayInfo::ID> portraitCreatureDisplayInfoID
+int sizeClass
 uint bloodID
 uint<NPCSounds::ID> NPCSoundID
 uint<ParticleColor::ID> particleColorID
@@ -16,8 +16,15 @@ uint creatureGeosetData
 uint<ObjectEffectPackage::ID> objectEffectPackageID
 uint<AnimReplacementSet::ID> animReplacementSetID
 uint flags
-uint gender
-uint<SpellVisualKit::ID> stateSpellVisualKitID
+int gender
+int<SpellVisualKit::ID> stateSpellVisualKitID
+int dissolveEffectID
+int mountPoofSpellVisualKitID
+float petInstanceScale
+float playerOverrideScale
+int portraitTextureFileDataID
+int textureVariationFileDataID
+int unarmedWeaponType
 
 BUILD 6.0.1.18179
 ID<32>
@@ -39,3 +46,29 @@ animReplacementSetID<32>
 flags<32>
 gender<32>
 stateSpellVisualKitID<32>
+
+LAYOUT C285819E
+BUILD 8.0.1.26095
+$id$ID<32>
+creatureModelScale
+modelID<16>
+NPCSoundID<16>
+sizeClass<8>
+flags<8>
+gender<8>
+extendedDisplayInfoID<32>
+portraitTextureFileDataID<32>
+creatureModelAlpha<8>
+soundID<16>
+playerOverrideScale
+portraitCreatureDisplayInfoID<32>
+bloodID<8>
+particleColorID<16>
+objectEffectPackageID<16>
+animReplacementSetID<16>
+unarmedWeaponType<8>
+stateSpellVisualKitID<32>
+petInstanceScale
+mountPoofSpellVisualKitID<32>
+dissolveEffectID<32>
+textureVariationFileDataID<32>[3]

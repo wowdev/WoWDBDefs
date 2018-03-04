@@ -1,13 +1,15 @@
 COLUMNS
-uint ID
+int ID
 uint castTimeMin
 uint castTimeMax
 uint castTimeMaxLevel
-uint class
+int class
 float nerfFactor
 uint nerfMaxLevel
 uint maxScalingLevel
-uint scalesFromItemLevel
+int scalesFromItemLevel
+uint minScalingLevel
+int spellID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -19,3 +21,12 @@ nerfFactor
 nerfMaxLevel<32>
 maxScalingLevel<32>
 scalesFromItemLevel<32>
+
+LAYOUT F67A5719
+BUILD 8.0.1.26095
+$id$ID // non-inline
+spellID<32>
+scalesFromItemLevel<16>
+class<32>
+minScalingLevel<32>
+maxScalingLevel<32>

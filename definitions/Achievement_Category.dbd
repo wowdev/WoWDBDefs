@@ -1,11 +1,18 @@
 COLUMNS
-uint ID
-uint<Achievement_Category::ID> parent
+int ID
+int<Achievement_Category::ID> parent
 locstring name
-uint ui_order
+int ui_order
 
 BUILD 6.0.1.18179
 ID<32>
 parent<32>
 name
 ui_order<32>
+
+LAYOUT ED226BC9
+BUILD 8.0.1.26095
+name
+parent<16>
+ui_order<8> // unk_8C, unk_90
+$id$ID<32>

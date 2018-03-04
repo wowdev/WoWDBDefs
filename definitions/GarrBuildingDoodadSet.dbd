@@ -5,6 +5,12 @@ uint field_3357986906?
 uint field_3732929255?
 uint field_3290697847?
 uint field_204285456?
+int ID
+uint allianceDoodadSet
+uint garrBuildingID
+uint hordeDoodadSet
+uint specializationID
+uint type
 
 BUILD 6.0.1.18179
 field_476246898<32>
@@ -13,3 +19,12 @@ field_3357986906<32>
 field_3732929255<32>
 field_3290697847<32>
 field_204285456<32>
+
+LAYOUT 2A861C7F
+BUILD 8.0.1.26095
+$id$ID // non-inline
+garrBuildingID<8>
+type<8>
+allianceDoodadSet<8>
+hordeDoodadSet<8>
+specializationID<8>

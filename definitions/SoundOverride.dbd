@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint WowEditLock
 string WowEditLockUser
 uint ZoneIntroMusicID
@@ -15,3 +15,11 @@ ZoneIntroMusicID<32>
 ZoneMusicID<32>
 SoundAmbienceID<32>
 SoundProviderPreferencesID<32>
+
+LAYOUT FB7643F6
+BUILD 8.0.1.26095
+$id$ID // non-inline
+ZoneIntroMusicID<16>
+ZoneMusicID<16>
+SoundAmbienceID<16>
+SoundProviderPreferencesID<8>

@@ -1,11 +1,27 @@
 COLUMNS
-uint ID
+int ID
 uint CombatBloodSpurtFront
 uint CombatBloodSpurtBack
 string GroundBlood
+uint defaultBloodSpurtID
+uint defaultOmniBloodSpurtID
+uint playerCritBloodSpurtID
+uint playerHitBloodSpurtID
+uint playerOmniCritBloodSpurtID
+uint playerOmniHitBloodSpurtID
 
 BUILD 6.0.1.18179
 ID<32>
 CombatBloodSpurtFront<32>[2]
 CombatBloodSpurtBack<32>[2]
 GroundBlood[5]
+
+LAYOUT 4689A9A0
+BUILD 8.0.1.26095
+$id$ID // non-inline
+playerCritBloodSpurtID<32>
+playerHitBloodSpurtID<32>
+defaultBloodSpurtID<32>
+playerOmniCritBloodSpurtID<32>
+playerOmniHitBloodSpurtID<32>
+defaultOmniBloodSpurtID<32>

@@ -1,7 +1,13 @@
 COLUMNS
 uint field_2656326474?
 string name
+int ID
 
 BUILD 6.0.1.18179
 field_2656326474<32>
+name
+
+LAYOUT 96663ABF
+BUILD 8.0.1.26095
+$id$ID // non-inline
 name

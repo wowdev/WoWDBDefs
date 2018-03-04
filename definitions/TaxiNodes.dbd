@@ -1,12 +1,17 @@
 COLUMNS
-uint ID
+int ID
 uint<Map::ID> ContinentID
 float pos
 locstring Name
-uint MountCreatureID
+int MountCreatureID
 uint conditionID
 uint Flags
 float MapOffset
+uint characterBitNumber
+float facing
+float flightMapOffset
+uint specialIconConditionID
+int uiTextureKitID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -17,3 +22,19 @@ MountCreatureID<32>[2]
 conditionID<32>
 Flags<32>
 MapOffset[2]
+
+LAYOUT B46C6A8B
+BUILD 8.0.1.26095
+$id$ID // non-inline
+Name
+pos[3]
+MountCreatureID<32>[2]
+MapOffset[2]
+facing
+flightMapOffset[2]
+ContinentID<16>
+conditionID<16>
+characterBitNumber<16>
+Flags<8>
+uiTextureKitID<32>
+specialIconConditionID<32>

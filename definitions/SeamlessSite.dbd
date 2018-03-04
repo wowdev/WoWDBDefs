@@ -1,0 +1,8 @@
+COLUMNS
+int ID
+int mapID
+
+LAYOUT BFE7B9D3
+BUILD 8.0.1.26095
+$id$ID // non-inline
+mapID<32> // unk_8C, unk_90

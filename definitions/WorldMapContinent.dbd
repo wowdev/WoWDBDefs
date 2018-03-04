@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint<Map::ID> mapID
+int ID
+int<Map::ID> mapID
 uint leftBoundary
 uint rightBoundary
 uint topBoundary
@@ -10,6 +10,7 @@ float scale
 float taxiMin
 float taxiMax
 uint worldMapID
+uint flags
 
 BUILD 6.0.1.18179
 ID<32>
@@ -23,3 +24,18 @@ scale
 taxiMin[2]
 taxiMax[2]
 worldMapID<32>
+
+LAYOUT 8F75E077
+BUILD 8.0.1.26095
+$id$ID // non-inline
+continentOffset[2]
+scale
+taxiMin[2]
+taxiMax[2]
+mapID<16>
+worldMapID<16>
+leftBoundary<8>
+rightBoundary<8>
+topBoundary<8>
+bottomBoundary<8>
+flags<8>

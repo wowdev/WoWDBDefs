@@ -1,9 +1,14 @@
 COLUMNS
-uint ID
+int ID
 locstring subject
 locstring body
 
 BUILD 6.0.1.18179
 ID<32>
 subject
+body
+
+LAYOUT 25C8D6CC
+BUILD 8.0.1.26095
+$id$ID // non-inline
 body

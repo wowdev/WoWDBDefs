@@ -14,6 +14,22 @@ float field_2962381428?
 float field_1232887234?
 float field_3644763280?
 float field_1251441557?
+int ID
+float collisionRadius
+float defaultPitchMax
+float defaultPitchMin
+float defaultSpeedMax
+float defaultSpeedMin
+uint flags
+float gravity
+float maxDuration
+float randomizeFacingMax
+float randomizeFacingMin
+float randomizePitchMax
+float randomizePitchMin
+float randomizeSpeedMax
+float randomizeSpeedMin
+int spellID
 
 BUILD 6.0.1.18179
 field_3899570340<32>
@@ -31,3 +47,22 @@ field_2962381428
 field_1232887234
 field_3644763280
 field_1251441557
+
+LAYOUT 1D35645E
+BUILD 8.0.1.26095
+$id$ID // non-inline
+spellID<32>
+defaultPitchMin
+defaultPitchMax
+defaultSpeedMin
+defaultSpeedMax
+randomizeFacingMin
+randomizeFacingMax
+randomizePitchMin
+randomizePitchMax
+randomizeSpeedMin
+randomizeSpeedMax
+gravity
+maxDuration
+collisionRadius
+flags<8>

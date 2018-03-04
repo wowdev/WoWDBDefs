@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int contributionID
+int creatureID
+
+LAYOUT 3448DF58
+BUILD 8.0.1.26095
+$id$ID<32>
+contributionID<32>
+$relation$creatureID<32> // relationship column

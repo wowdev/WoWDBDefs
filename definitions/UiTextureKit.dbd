@@ -1,7 +1,13 @@
 COLUMNS
 uint field_4005935528?
 string kitPrefix
+int ID
 
 BUILD 6.0.1.18179
 field_4005935528<32>
+kitPrefix
+
+LAYOUT 2C7E0372
+BUILD 8.0.1.26095
+$id$ID // non-inline
 kitPrefix

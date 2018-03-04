@@ -1,21 +1,21 @@
 COLUMNS
-uint ID
+int ID
 string Description
 uint Flags
-uint EAXEnvironmentSelection
+int EAXEnvironmentSelection
 float EAXDecayTime
 float EAX2EnvironmentSize
 float EAX2EnvironmentDiffusion
-uint EAX2Room
-uint EAX2RoomHF
+int EAX2Room
+int EAX2RoomHF
 float EAX2DecayHFRatio
-uint EAX2Reflections
+int EAX2Reflections
 float EAX2ReflectionsDelay
-uint EAX2Reverb
+int EAX2Reverb
 float EAX2ReverbDelay
 float EAX2RoomRolloff
 float EAX2AirAbsorption
-uint EAX3RoomLF
+int EAX3RoomLF
 float EAX3DecayLFRatio
 float EAX3EchoTime
 float EAX3EchoDepth
@@ -49,3 +49,30 @@ EAX3ModulationTime
 EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
+
+LAYOUT 85F218A4
+BUILD 8.0.1.26095
+$id$ID // non-inline
+Description
+EAXDecayTime
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2DecayHFRatio
+EAX2ReflectionsDelay
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference
+Flags<16>
+EAX2Room<16>
+EAX2RoomHF<16>
+EAX2Reflections<16>
+EAX2Reverb<16>
+EAXEnvironmentSelection<8>
+EAX3RoomLF<8>

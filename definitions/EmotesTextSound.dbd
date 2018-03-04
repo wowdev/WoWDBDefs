@@ -1,9 +1,10 @@
 COLUMNS
-uint ID
+int ID
 uint<EmotesText::ID> emotesTextID
 uint<ChrRaces::ID> raceID
 uint sexID
 uint<SoundEntries::ID> soundID
+uint classID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -11,3 +12,12 @@ emotesTextID<32>
 raceID<32>
 sexID<32>
 soundID<32>
+
+LAYOUT 6DFAF9BC
+BUILD 8.0.1.26095
+$id$ID // non-inline
+raceID<8>
+sexID<8>
+classID<8>
+soundID<32>
+$relation$emotesTextID<16> // relationship column

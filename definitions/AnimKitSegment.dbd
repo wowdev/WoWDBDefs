@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<AnimKit::ID> parentAnimKitID
 uint orderIndex
 uint animID
@@ -14,8 +14,10 @@ uint endConditionDelay
 float speed
 uint segmentFlags
 uint forcedVariation
-uint overrideConfigFlags
-uint loopToSegmentIndex
+int overrideConfigFlags
+int loopToSegmentIndex
+uint blendInTimeMs
+uint blendOutTimeMs
 
 BUILD 6.0.1.18179
 ID<32>
@@ -35,3 +37,25 @@ segmentFlags<32>
 forcedVariation<32>
 overrideConfigFlags<32>
 loopToSegmentIndex<32>
+
+LAYOUT 08F09B89
+BUILD 8.0.1.26095
+$id$ID // non-inline
+animStartTime<32>
+endConditionParam<32>
+endConditionDelay<32>
+speed
+overrideConfigFlags<32>
+parentAnimKitID<16> // unk_8C, unk_90
+animID<16>
+animKitConfigID<16>
+segmentFlags<16>
+blendInTimeMs<16>
+blendOutTimeMs<16>
+orderIndex<8>
+startCondition<8>
+startConditionParam<8>
+endCondition<8>
+forcedVariation<8>
+loopToSegmentIndex<8>
+startConditionDelay<32>

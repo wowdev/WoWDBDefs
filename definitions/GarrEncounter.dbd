@@ -4,6 +4,13 @@ uint field_2369826167?
 string field_747518826?
 float field_1016454637?
 float field_3397428592?
+int ID
+int creatureID
+locstring name
+int portraitFileDataID
+float uiAnimHeight
+float uiAnimScale
+uint uiTextureKitID
 
 BUILD 6.0.1.18179
 field_1794124949<32>
@@ -11,3 +18,13 @@ field_2369826167<32>
 field_747518826
 field_1016454637
 field_3397428592
+
+LAYOUT 63EF121A
+BUILD 8.0.1.26095
+name
+creatureID<32>
+uiAnimScale
+uiAnimHeight
+portraitFileDataID<32>
+$id$ID<32>
+uiTextureKitID<32>

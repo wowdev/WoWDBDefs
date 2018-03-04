@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint localeMask
 uint create_charsetMask
 uint existing_charsetMask
@@ -13,3 +13,12 @@ create_charsetMask<32>
 existing_charsetMask<32>
 flags<32>
 name
+
+LAYOUT 705B82C8
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+localeMask<16>
+create_charsetMask<8>
+existing_charsetMask<8>
+flags<8>

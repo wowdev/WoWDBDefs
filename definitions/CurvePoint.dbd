@@ -3,9 +3,19 @@ uint field_4115626742?
 uint field_965064303?
 uint field_862364166?
 float pos
+int ID
+uint curveID
+uint orderIndex
 
 BUILD 6.0.1.18179
 field_4115626742<32>
 field_965064303<32>
 field_862364166<32>
 pos[2]
+
+LAYOUT F36752EB
+BUILD 8.0.1.26095
+$id$ID // non-inline
+pos[2]
+curveID<16>
+orderIndex<8>

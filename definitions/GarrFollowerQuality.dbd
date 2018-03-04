@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint abilityCount
+uint classSpecID
+uint garrFollowerTypeID
+uint quality
+uint shipmentXP
+uint traitCount
+uint xpToNextQuality
+
+LAYOUT AFF4CF7E
+BUILD 8.0.1.26095
+$id$ID // non-inline
+xpToNextQuality<32>
+shipmentXP<16>
+quality<8>
+abilityCount<8>
+traitCount<8>
+garrFollowerTypeID<8>
+classSpecID<32>

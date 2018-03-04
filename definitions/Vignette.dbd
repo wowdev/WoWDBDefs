@@ -5,6 +5,13 @@ uint field_260880986?
 uint field_1546169756?
 float field_3645619813?
 float field_399259120?
+int ID
+uint flags
+float maxHeight
+float minHeight
+uint playerConditionID
+uint questFeedbackEffectID
+uint visibleTrackingQuestID
 
 BUILD 6.0.1.18179
 field_1944984786<32>
@@ -13,3 +20,14 @@ field_260880986<32>
 field_1546169756<32>
 field_3645619813
 field_399259120
+
+LAYOUT 52E3B381
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+maxHeight
+minHeight
+questFeedbackEffectID<32>
+flags<32>
+playerConditionID<32>
+visibleTrackingQuestID<32>

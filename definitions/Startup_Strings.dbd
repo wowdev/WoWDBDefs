@@ -1,9 +1,15 @@
 COLUMNS
-uint ID
+int ID
 string name
 locstring message
 
 BUILD 6.0.1.18179
 ID<32>
+name
+message
+
+LAYOUT F8CDDEE7
+BUILD 8.0.1.26095
+$id$ID // non-inline
 name
 message

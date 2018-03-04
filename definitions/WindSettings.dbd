@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 float field_4063771214?
 float field_1340039256?
 float field_2713964651?
@@ -10,6 +10,16 @@ float field_4058684238?
 uint field_2545370439?
 uint field_2128896163?
 uint field_3259593231?
+float baseDir
+float baseMag
+float duration
+uint flags
+float frequency
+float maxStepDir
+float maxStepMag
+float varianceDir
+float varianceMagOver
+float varianceMagUnder
 
 BUILD 6.0.1.18179
 ID<32>
@@ -23,3 +33,17 @@ field_4058684238[3]
 field_2545370439<32>
 field_2128896163<32>
 field_3259593231<32>
+
+LAYOUT 5308550C
+BUILD 8.0.1.26095
+$id$ID // non-inline
+baseMag
+baseDir[3]
+varianceMagOver
+varianceMagUnder
+varianceDir[3]
+maxStepMag
+maxStepDir[3]
+frequency
+duration
+flags<8>

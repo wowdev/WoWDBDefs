@@ -2,8 +2,19 @@ COLUMNS
 uint field_1999662701?
 uint field_2870310628?
 uint field_188044474?
+int ID
+uint garrEncounterID
+uint garrMechanicID
+uint garrMechanicSetID
 
 BUILD 6.0.1.18179
 field_1999662701<32>
 field_2870310628<32>
 field_188044474<32>
+
+LAYOUT 97080E17
+BUILD 8.0.1.26095
+$id$ID // non-inline
+garrMechanicID<8>
+garrMechanicSetID<8>
+$relation$garrEncounterID<16> // relationship column

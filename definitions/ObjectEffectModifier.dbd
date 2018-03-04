@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint inputType
 uint mapType
 uint outputType
@@ -11,3 +11,11 @@ inputType<32>
 mapType<32>
 outputType<32>
 param[4]
+
+LAYOUT A482B053
+BUILD 8.0.1.26095
+$id$ID // non-inline
+param[4]
+inputType<8>
+mapType<8>
+outputType<8>

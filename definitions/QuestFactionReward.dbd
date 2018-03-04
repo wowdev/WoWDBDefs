@@ -1,7 +1,12 @@
 COLUMNS
-uint ID
-uint Difficulty
+int ID
+int Difficulty
 
 BUILD 6.0.1.18179
 ID<32>
 Difficulty<32>[10]
+
+LAYOUT B0E02541
+BUILD 8.0.1.26095
+$id$ID // non-inline
+Difficulty<16>[10]

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+locstring featureDescription
+int featureIcon
+int parentID
+
+LAYOUT 331022F2
+BUILD 8.0.1.26095
+$id$ID // non-inline
+featureDescription
+parentID<32>
+featureIcon<32>

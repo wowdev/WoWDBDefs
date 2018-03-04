@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint SoundAmbienceID
 uint SoundEntriesIDDay
 uint SoundEntriesIDNight
@@ -9,3 +9,10 @@ ID<32>
 SoundAmbienceID<32>
 SoundEntriesIDDay<32>
 SoundEntriesIDNight<32>
+
+LAYOUT 2C58D929
+BUILD 8.0.1.26095
+$id$ID // non-inline
+SoundEntriesIDDay<32>
+SoundEntriesIDNight<32>
+$relation$SoundAmbienceID<16> // relationship column

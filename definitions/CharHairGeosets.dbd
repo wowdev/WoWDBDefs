@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<ChrRaces::ID> RaceID
 uint SexID
 uint VariationID
@@ -7,7 +7,9 @@ uint VariationType
 uint GeosetID
 uint GeosetType
 uint Showscalp
-uint ColorIndex
+int ColorIndex
+int customGeoFileDataID
+int hdCustomGeoFileDataID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -19,3 +21,17 @@ GeosetID<32>
 GeosetType<32>
 Showscalp<32>
 ColorIndex<32>
+
+LAYOUT 33EB32D2
+BUILD 8.0.1.26095
+$id$ID // non-inline
+hdCustomGeoFileDataID<32>
+RaceID<8> // unk_8C, unk_90
+SexID<8>
+VariationID<8>
+VariationType<8>
+GeosetID<8>
+GeosetType<8>
+Showscalp<8>
+ColorIndex<8>
+customGeoFileDataID<32>

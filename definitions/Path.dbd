@@ -7,6 +7,14 @@ uint field_3763476203?
 uint field_4240952400?
 uint field_215966871?
 uint field_1372347201?
+int ID
+uint alpha
+uint blue
+uint flags
+uint green
+uint red
+uint splineType
+uint type
 
 BUILD 6.0.1.18179
 field_2906273943<32>
@@ -17,3 +25,14 @@ field_3763476203<32>
 field_4240952400<32>
 field_215966871<32>
 field_1372347201<32>
+
+LAYOUT 5017579F
+BUILD 8.0.1.26095
+$id$ID // non-inline
+type<8>
+splineType<8>
+red<8>
+green<8>
+blue<8>
+alpha<8>
+flags<8>

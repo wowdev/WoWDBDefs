@@ -1,9 +1,17 @@
 COLUMNS
-uint ID
+int ID
 string textureVariation
 string attachModel
+int attachModelFileID
+int textureVariationFileID
 
 BUILD 6.0.1.18179
 ID<32>
 textureVariation[3]
 attachModel[4]
+
+LAYOUT 6F65BC41
+BUILD 8.0.1.26095
+$id$ID // non-inline
+attachModelFileID<32>
+textureVariationFileID<32>[3]

@@ -5,6 +5,12 @@ uint field_2520263360?
 uint field_3199964609?
 uint field_2452857453?
 uint field_3379950982?
+int ID
+string URL
+uint grantFlags
+uint regionID
+uint revokeFlags
+uint wowEditInternal
 
 BUILD 6.0.1.18179
 field_2030770245<32>
@@ -13,3 +19,12 @@ field_2520263360<32>
 field_3199964609<32>
 field_2452857453<32>
 field_3379950982<32>
+
+LAYOUT BE044710
+BUILD 8.0.1.26095
+$id$ID // non-inline
+URL
+grantFlags<16>
+revokeFlags<8>
+wowEditInternal<8>
+regionID<8>

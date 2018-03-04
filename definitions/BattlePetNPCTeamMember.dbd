@@ -1,7 +1,13 @@
 COLUMNS
 uint field_4024644330?
 locstring name
+int ID
 
 BUILD 6.0.1.18179
 field_4024644330<32>
+name
+
+LAYOUT 4423F004
+BUILD 8.0.1.26095
+$id$ID // non-inline
 name

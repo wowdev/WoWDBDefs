@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<Languages::ID> languageID
 string field_3629646352?
 string field_2564165372?
@@ -8,6 +8,12 @@ uint field_2268346517?
 uint<SoundEntries::ID> soundEntriesID
 uint field_2465365834?
 uint field_3141099608?
+int conditionID
+uint emoteDelay
+uint emotesID
+uint flags
+locstring text
+locstring text1
 
 BUILD 6.0.1.18179
 ID<32>
@@ -19,3 +25,16 @@ field_2268346517<32>[3]
 soundEntriesID<32>
 field_2465365834<32>
 field_3141099608<32>
+
+LAYOUT 51BF0C33
+BUILD 8.0.1.26095
+$id$ID // non-inline
+text
+text1
+emoteID<16>[3]
+emoteDelay<16>[3]
+emotesID<16>
+languageID<8>
+flags<8>
+conditionID<32>
+soundEntriesID<32>[2]

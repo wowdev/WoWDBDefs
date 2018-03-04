@@ -1,29 +1,40 @@
 COLUMNS
-uint ID
+int ID
 uint<LightParams::ID> lightParamID
 uint time
-uint directColor
-uint ambientColor
-uint skyTopColor
-uint skyMiddleColor
-uint skyBand1Color
-uint skyBand2Color
-uint skySmogColor
-uint skyFogColor
-uint sunColor
-uint cloudSunColor
-uint cloudEmissiveColor
-uint cloudLayer1AmbientColor
-uint cloudLayer2AmbientColor
-uint oceanCloseColor
-uint oceanFarColor
-uint riverCloseColor
-uint riverFarColor
-uint shadowOpacity
+int directColor
+int ambientColor
+int skyTopColor
+int skyMiddleColor
+int skyBand1Color
+int skyBand2Color
+int skySmogColor
+int skyFogColor
+int sunColor
+int cloudSunColor
+int cloudEmissiveColor
+int cloudLayer1AmbientColor
+int cloudLayer2AmbientColor
+int oceanCloseColor
+int oceanFarColor
+int riverCloseColor
+int riverFarColor
+int shadowOpacity
 float fogEnd
 float fogScaler
 float cloudDensity
 float fogDensity
+uint colorGradingFileDataID
+uint endFogColor
+float endFogColorDistance
+float fogHeight
+uint fogHeightColor
+float fogHeightDensity
+float fogHeightScaler
+int groundAmbientColor
+int horizonAmbientColor
+float sunFogAngle
+uint sunFogColor
 
 BUILD 6.0.1.18179
 ID<32>
@@ -51,3 +62,42 @@ fogEnd
 fogScaler
 cloudDensity
 fogDensity
+
+LAYOUT 98BC17CE
+BUILD 8.0.1.26095
+$id$ID // non-inline
+directColor<32>
+ambientColor<32>
+skyTopColor<32>
+skyMiddleColor<32>
+skyBand1Color<32>
+skyBand2Color<32>
+skySmogColor<32>
+skyFogColor<32>
+sunColor<32>
+cloudSunColor<32>
+cloudEmissiveColor<32>
+cloudLayer1AmbientColor<32>
+cloudLayer2AmbientColor<32>
+oceanCloseColor<32>
+oceanFarColor<32>
+riverCloseColor<32>
+riverFarColor<32>
+shadowOpacity<32>
+fogEnd
+fogScaler
+cloudDensity
+fogDensity
+fogHeight
+fogHeightScaler
+fogHeightDensity
+sunFogAngle
+endFogColorDistance
+sunFogColor<32>
+endFogColor<32>
+fogHeightColor<32>
+colorGradingFileDataID<32>
+horizonAmbientColor<32>
+groundAmbientColor<32>
+lightParamID<16> // unk_8C, unk_90
+time<16>

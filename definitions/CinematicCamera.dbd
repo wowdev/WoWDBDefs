@@ -1,9 +1,10 @@
 COLUMNS
-uint ID
+int ID
 string model
 uint<SoundEntries::ID> soundID
 float origin
 float originFacing
+uint fileDataID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -11,3 +12,11 @@ model
 soundID<32>
 origin[3]
 originFacing
+
+LAYOUT 0062B0F4
+BUILD 8.0.1.26095
+$id$ID // non-inline
+soundID<32>
+origin[3]
+originFacing
+fileDataID<32>

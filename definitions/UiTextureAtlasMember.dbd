@@ -7,6 +7,14 @@ uint field_668037829?
 uint field_1115032331?
 uint field_1229423039?
 uint field_3128613611?
+int ID
+int committedBottom
+int committedFlags
+int committedLeft
+string committedName
+int committedRight
+int committedTop
+uint uiTextureAtlasID
 
 BUILD 6.0.1.18179
 field_2939919183<32>
@@ -17,3 +25,14 @@ field_668037829<32>
 field_1115032331<32>
 field_1229423039<32>
 field_3128613611<32>
+
+LAYOUT 81E2055F
+BUILD 8.0.1.26095
+committedName
+$id$ID<32>
+uiTextureAtlasID<16>
+committedLeft<16>
+committedRight<16>
+committedTop<16>
+committedBottom<16>
+committedFlags<8>

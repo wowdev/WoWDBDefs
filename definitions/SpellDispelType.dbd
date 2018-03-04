@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 locstring name
 uint mask
 uint immunityPossible
@@ -11,3 +11,11 @@ name
 mask<32>
 immunityPossible<32>
 internalName
+
+LAYOUT E9DDA799
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+internalName
+mask<8>
+immunityPossible<8>

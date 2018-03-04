@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int addQuantity
+int parentItemLimitCategoryID
+uint playerConditionID
+
+LAYOUT DE8EAD49
+BUILD 8.0.1.26095
+$id$ID // non-inline
+addQuantity<8>
+playerConditionID<32>
+$relation$parentItemLimitCategoryID<32> // relationship column

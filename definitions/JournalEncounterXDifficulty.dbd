@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<JournalEncounter::ID> journalEncounterID
 uint<Difficulty::ID> difficultyID
 
@@ -7,3 +7,9 @@ BUILD 6.0.1.18179
 ID<32>
 journalEncounterID<32>
 difficultyID<32>
+
+LAYOUT 321FD542
+BUILD 8.0.1.26095
+$id$ID // non-inline
+difficultyID<8>
+$relation$journalEncounterID<16> // relationship column

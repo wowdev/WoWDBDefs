@@ -1,13 +1,14 @@
 COLUMNS
-uint ID
-uint spellID
+int ID
+int spellID
 uint difficultyID
 float coneAngle
 float width
 uint maxTargets
 uint maxTargetLevel
-uint targetCreatureType
-uint targets
+int targetCreatureType
+int targets
+float coneDegrees
 
 BUILD 6.0.1.18179
 ID<32>
@@ -19,3 +20,15 @@ maxTargets<32>
 maxTargetLevel<32>
 targetCreatureType<32>
 targets<32>
+
+LAYOUT 7B330026
+BUILD 8.0.1.26095
+$id$ID // non-inline
+coneDegrees
+width
+targets<32>
+targetCreatureType<16>
+difficultyID<8>
+maxTargets<8>
+maxTargetLevel<32>
+$relation$spellID<32> // relationship column

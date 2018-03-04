@@ -1,10 +1,10 @@
 COLUMNS
-uint ID
+int ID
 string name
-uint boneDataID
-uint<AnimKitBoneSet::ID> parentAnimKitBoneSetID
+int boneDataID
+int<AnimKitBoneSet::ID> parentAnimKitBoneSetID
 uint extraBoneCount
-uint<AnimKitBoneSet::ID> altAnimKitBoneSetID
+int<AnimKitBoneSet::ID> altAnimKitBoneSetID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -13,3 +13,12 @@ boneDataID<32>
 parentAnimKitBoneSetID<32>
 extraBoneCount<32>
 altAnimKitBoneSetID<32>
+
+LAYOUT FE4B9B1F
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+boneDataID<8>
+parentAnimKitBoneSetID<8>
+extraBoneCount<8>
+altAnimKitBoneSetID<8>

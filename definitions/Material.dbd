@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint flags
 uint foleySoundID
 uint sheatheSoundID
@@ -8,6 +8,14 @@ uint unsheatheSoundID
 BUILD 6.0.1.18179
 ID<32>
 flags<32>
+foleySoundID<32>
+sheatheSoundID<32>
+unsheatheSoundID<32>
+
+LAYOUT 0BC8C134
+BUILD 8.0.1.26095
+$id$ID // non-inline
+flags<8>
 foleySoundID<32>
 sheatheSoundID<32>
 unsheatheSoundID<32>

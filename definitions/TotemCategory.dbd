@@ -1,11 +1,18 @@
 COLUMNS
-uint ID
+int ID
 locstring name
 uint totemCategoryType
-uint totemCategoryMask
+int totemCategoryMask
 
 BUILD 6.0.1.18179
 ID<32>
 name
 totemCategoryType<32>
 totemCategoryMask<32>
+
+LAYOUT 20B9177A
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+totemCategoryMask<32>
+totemCategoryType<8>

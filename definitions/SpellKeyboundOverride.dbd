@@ -1,7 +1,16 @@
 COLUMNS
-uint ID
+int ID
 string function
+int data
+int type
 
 BUILD 6.0.1.18179
 ID<32>
 function
+
+LAYOUT 6ECA16FC
+BUILD 8.0.1.26095
+$id$ID // non-inline
+function
+data<32>
+type<8>

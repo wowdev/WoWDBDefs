@@ -6,6 +6,13 @@ uint field_493036957?
 uint field_612732168?
 uint field_1611653526?
 uint field_291708038?
+int ID
+int creatureID
+int expansionID
+uint factionID
+int flags
+int maxLevel
+int minLevel
 
 BUILD 6.0.1.18179
 field_4094940900<32>
@@ -15,3 +22,13 @@ field_493036957<32>
 field_612732168<32>
 field_1611653526<32>
 field_291708038<32>[5]
+
+LAYOUT 4291EEC6
+BUILD 8.0.1.26095
+$id$ID // non-inline
+flags<32>[7]
+factionID<16>
+expansionID<8>
+minLevel<8>
+maxLevel<8>
+$relation$creatureID<32> // relationship column

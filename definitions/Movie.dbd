@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint volume
 uint keyID
 uint audioFileDataID
@@ -11,3 +11,11 @@ volume<32>
 keyID<32>
 audioFileDataID<32>
 subtitleFileDataID<32>
+
+LAYOUT F3E9AE3B
+BUILD 8.0.1.26095
+$id$ID // non-inline
+audioFileDataID<32>
+subtitleFileDataID<32>
+volume<8>
+keyID<8>

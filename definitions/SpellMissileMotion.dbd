@@ -4,6 +4,11 @@ string field_2344747019?
 string field_2200847588?
 uint field_2507345531?
 uint field_3505086003?
+int ID
+uint flags
+uint missileCount
+string name
+string scriptBody
 
 BUILD 6.0.1.18179
 field_678599686<32>
@@ -11,3 +16,11 @@ field_2344747019
 field_2200847588
 field_2507345531<32>
 field_3505086003<32>
+
+LAYOUT 6B78A45B
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+scriptBody
+flags<8>
+missileCount<8>

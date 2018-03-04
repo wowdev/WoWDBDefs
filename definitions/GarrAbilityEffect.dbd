@@ -8,6 +8,18 @@ uint field_1848318171?
 float field_3593699977?
 float field_2691467406?
 float field_2764207789?
+int ID
+uint abilityAction
+uint abilityTargetType
+uint actionHours
+uint actionRace
+int actionRecordID
+float actionValueFlat
+float combatWeightBase
+float combatWeightMax
+uint flags
+uint garrAbilityID
+uint garrMechanicTypeID
 
 BUILD 6.0.1.18179
 field_3954333704<32>
@@ -19,3 +31,18 @@ field_1848318171<32>
 field_3593699977
 field_2691467406
 field_2764207789
+
+LAYOUT E6A6CB99
+BUILD 8.0.1.26095
+combatWeightBase
+combatWeightMax
+actionValueFlat
+actionRecordID<32>
+garrAbilityID<16> // unk_8C, unk_90
+abilityAction<8>
+abilityTargetType<8>
+garrMechanicTypeID<8>
+flags<8>
+actionRace<8>
+actionHours<8>
+$id$ID<32>

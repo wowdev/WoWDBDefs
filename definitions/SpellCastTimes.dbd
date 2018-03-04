@@ -1,11 +1,18 @@
 COLUMNS
-uint ID
-uint base
-uint perLevel
-uint minimum
+int ID
+int base
+int perLevel
+int minimum
 
 BUILD 6.0.1.18179
 ID<32>
 base<32>
 perLevel<32>
 minimum<32>
+
+LAYOUT 4129C6A4
+BUILD 8.0.1.26095
+$id$ID // non-inline
+base<32>
+minimum<32>
+perLevel<16>

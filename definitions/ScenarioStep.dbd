@@ -1,14 +1,15 @@
 COLUMNS
-uint ID
+int ID
 uint criteriatreeID
 uint scenarioID
 uint orderIndex
 locstring description
 locstring title
 uint flags
-uint relatedStep
+int relatedStep
 uint supersedes
 uint rewardQuestID
+uint visibilityPlayerConditionID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -21,3 +22,17 @@ flags<32>
 relatedStep<32>
 supersedes<32>
 rewardQuestID<32>
+
+LAYOUT AFFBC595
+BUILD 8.0.1.26095
+$id$ID // non-inline
+description
+title
+scenarioID<16> // unk_8C, unk_90
+supersedes<16>
+rewardQuestID<16>
+orderIndex<8>
+flags<8>
+criteriatreeID<32>
+relatedStep<32>
+visibilityPlayerConditionID<32>

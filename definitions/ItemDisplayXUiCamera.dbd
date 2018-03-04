@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int ItemDisplayInfoID
+uint UiCameraID
+
+LAYOUT E57737B2
+BUILD 8.0.1.26095
+$id$ID // non-inline
+ItemDisplayInfoID<32>
+UiCameraID<16>

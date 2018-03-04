@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint boneDataID
 uint<AnimKitBoneSet::ID> animKitBoneSetID
 
@@ -7,3 +7,9 @@ BUILD 6.0.1.18179
 ID<32>
 boneDataID<32>
 animKitBoneSetID<32>
+
+LAYOUT EA8B67BC
+BUILD 8.0.1.26095
+$id$ID // non-inline
+boneDataID<8>
+animKitBoneSetID<8>

@@ -12,6 +12,20 @@ float field_2409654209?
 float field_2626330532?
 uint field_752352413?
 float field_3042231609?
+int ID
+int altPowerBarID
+int manaCost
+int manaCostPerLevel
+int manaPerSecond
+uint optionalCost
+uint orderIndex
+float powerCostMaxPct
+float powerCostPct
+uint powerDisplayID
+float powerPctPerSecond
+int powerType
+int requiredAuraSpellID
+int spellID
 
 BUILD 6.0.1.18179
 field_886091787<32>
@@ -27,3 +41,20 @@ field_2409654209
 field_2626330532
 field_752352413<32>
 field_3042231609
+
+LAYOUT 8E5E46EC
+BUILD 8.0.1.26095
+manaCost<32>
+powerCostPct
+powerPctPerSecond
+requiredAuraSpellID<32>
+powerCostMaxPct
+orderIndex<8>
+powerType<8>
+$id$ID<32>
+manaCostPerLevel<32>
+manaPerSecond<32>
+optionalCost<32>
+powerDisplayID<32>
+altPowerBarID<32>
+$relation$spellID<32> // relationship column

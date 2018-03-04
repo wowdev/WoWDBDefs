@@ -2,8 +2,17 @@ COLUMNS
 uint field_1342349388?
 uint field_2526371874?
 uint field_1193453946?
+int ID
+uint chrSpecializationID
+uint glyphPropertiesID
 
 BUILD 6.0.1.18179
 field_1342349388<32>
 field_2526371874<32>
 field_1193453946<32>
+
+LAYOUT DD6481CE
+BUILD 8.0.1.26095
+$id$ID // non-inline
+chrSpecializationID<16>
+$relation$glyphPropertiesID<16> // relationship column

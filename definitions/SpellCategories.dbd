@@ -1,14 +1,14 @@
 COLUMNS
-uint ID
-uint spellID
+int ID
+int spellID
 uint difficultyID
-uint category
-uint defenseType
-uint dispelType
-uint mechanic
-uint preventionType
-uint startRecoveryCategory
-uint chargeCategory
+int category
+int defenseType
+int dispelType
+int mechanic
+int preventionType
+int startRecoveryCategory
+int chargeCategory
 
 BUILD 6.0.1.18179
 ID<32>
@@ -21,3 +21,16 @@ mechanic<32>
 preventionType<32>
 startRecoveryCategory<32>
 chargeCategory<32>
+
+LAYOUT 14E916CC
+BUILD 8.0.1.26095
+$id$ID // non-inline
+category<16>
+startRecoveryCategory<16>
+chargeCategory<16>
+difficultyID<8>
+defenseType<8>
+dispelType<8>
+mechanic<8>
+preventionType<8>
+$relation$spellID<32> // relationship column

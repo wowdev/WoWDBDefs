@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint childItemBonusListID
+uint childItemBonusTreeID
+uint childItemLevelSelectorID
+uint itemContext
+uint parentItemBonusTreeID
+
+LAYOUT 84FE93B7
+BUILD 8.0.1.26095
+$id$ID // non-inline
+childItemBonusTreeID<16>
+childItemBonusListID<16>
+childItemLevelSelectorID<16>
+itemContext<8>
+$relation$parentItemBonusTreeID<16> // relationship column

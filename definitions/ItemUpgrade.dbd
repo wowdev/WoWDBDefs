@@ -5,6 +5,12 @@ uint field_1891254979?
 uint field_945940764?
 uint field_3056063793?
 uint field_2376237353?
+int ID
+uint currencyAmount
+uint currencyType
+uint itemLevelIncrement
+uint itemUpgradePathID
+uint prerequisiteID
 
 BUILD 6.0.1.18179
 field_3058468556<32>
@@ -13,3 +19,12 @@ field_1891254979<32>
 field_945940764<32>
 field_3056063793<32>
 field_2376237353<32>
+
+LAYOUT 8F3A4137
+BUILD 8.0.1.26095
+$id$ID // non-inline
+currencyAmount<32>
+prerequisiteID<16>
+currencyType<16>
+itemUpgradePathID<8>
+itemLevelIncrement<8>

@@ -1,0 +1,22 @@
+COLUMNS
+int ID
+int amount
+locstring description
+uint flags
+int objectID
+uint orderIndex
+uint questID
+uint storageIndex
+uint type
+
+LAYOUT DD995180
+BUILD 8.0.1.26095
+$id$ID // non-inline
+description
+amount<32>
+objectID<32>
+type<8>
+orderIndex<8>
+storageIndex<8>
+flags<8>
+$relation$questID<16> // relationship column

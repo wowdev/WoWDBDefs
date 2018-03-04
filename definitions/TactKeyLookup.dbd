@@ -1,0 +1,8 @@
+COLUMNS
+int ID
+uint TACTID
+
+LAYOUT 3C1AC92A
+BUILD 8.0.1.26095
+$id$ID // non-inline
+TACTID<8>[8]

@@ -1,11 +1,18 @@
 COLUMNS
-uint ID
-uint<ChrClasses::ID> chrClassID
-uint purpose
-uint racemask
+int ID
+int<ChrClasses::ID> chrClassID
+int purpose
+int racemask
 
 BUILD 6.0.1.18179
 ID<32>
 chrClassID<32>
 purpose<32>
 racemask<32>
+
+LAYOUT 87B51673
+BUILD 8.0.1.26095
+$id$ID // non-inline
+racemask<64>
+chrClassID<8>
+purpose<8>

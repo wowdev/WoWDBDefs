@@ -1,10 +1,10 @@
 COLUMNS
-uint ID
-uint spellID
+int ID
+int spellID
 uint difficultyID
-uint equippedItemClass
-uint equippedItemInvTypes
-uint equippedItemSubclass
+int equippedItemClass
+int equippedItemInvTypes
+int equippedItemSubclass
 
 BUILD 6.0.1.18179
 ID<32>
@@ -13,3 +13,11 @@ difficultyID<32>
 equippedItemClass<32>
 equippedItemInvTypes<32>
 equippedItemSubclass<32>
+
+LAYOUT CE628176
+BUILD 8.0.1.26095
+$id$ID // non-inline
+spellID<32>
+equippedItemInvTypes<32>
+equippedItemSubclass<32>
+equippedItemClass<8>

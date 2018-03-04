@@ -1,9 +1,12 @@
 COLUMNS
-uint ID
+int ID
 uint WeaponSubClassID
 uint ParrySoundType
 uint<SoundEntries::ID> impactSoundID
 uint<SoundEntries::ID> critImpactSoundID
+uint impactSource
+uint pierceCritImpactSoundID
+uint pierceImpactSoundID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -11,3 +14,14 @@ WeaponSubClassID<32>
 ParrySoundType<32>
 impactSoundID<32>[10]
 critImpactSoundID<32>[10]
+
+LAYOUT 774C043A
+BUILD 8.0.1.26095
+$id$ID // non-inline
+WeaponSubClassID<8>
+ParrySoundType<8>
+impactSource<8>
+impactSoundID<32>[11]
+critImpactSoundID<32>[11]
+pierceImpactSoundID<32>[11]
+pierceCritImpactSoundID<32>[11]

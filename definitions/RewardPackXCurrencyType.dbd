@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint currencyTypeID
+int quantity
+uint rewardPackID
+
+LAYOUT 217E6712
+BUILD 8.0.1.26095
+$id$ID // non-inline
+currencyTypeID<32>
+quantity<32>
+$relation$rewardPackID<32> // relationship column

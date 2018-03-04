@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint preferredActionBarMask
+int spellID
+
+LAYOUT 1EF80B2B
+BUILD 8.0.1.26095
+$id$ID // non-inline
+spellID<32>
+preferredActionBarMask<16>

@@ -1,16 +1,16 @@
 COLUMNS
-uint ID
+int ID
 uint type
-uint asset
+int asset
 uint start_event
-uint start_asset
+int start_asset
 uint start_timer
 uint fail_event
-uint fail_asset
+int fail_asset
 uint<ModifierTree::ID> modifier_tree_ID
 uint flags
-uint<WorldState::ID> eligibility_world_state_ID
-uint eligibility_world_state_value
+int<WorldState::ID> eligibility_world_state_ID
+int eligibility_world_state_value
 
 BUILD 6.0.1.18179
 ID<32>
@@ -25,3 +25,18 @@ modifier_tree_ID<32>
 flags<32>
 eligibility_world_state_ID<32>
 eligibility_world_state_value<32>
+
+LAYOUT A87A5BB9
+BUILD 8.0.1.26095
+$id$ID // non-inline
+asset<32>
+start_asset<32>
+fail_asset<32>
+modifier_tree_ID<32>
+start_timer<16>
+eligibility_world_state_ID<16>
+type<8>
+start_event<8>
+fail_event<8>
+flags<8>
+eligibility_world_state_value<8>

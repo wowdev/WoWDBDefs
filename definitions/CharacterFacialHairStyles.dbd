@@ -1,9 +1,9 @@
 COLUMNS
-uint ID
+int ID
 uint<ChrRaces::ID> raceID
 uint sexID
 uint VariationID
-uint Geoset
+int Geoset
 
 BUILD 6.0.1.18179
 ID<32>
@@ -11,3 +11,11 @@ raceID<32>
 sexID<32>
 VariationID<32>
 Geoset<32>[5]
+
+LAYOUT 47D79688
+BUILD 8.0.1.26095
+$id$ID // non-inline
+Geoset<32>[5]
+raceID<8>
+sexID<8>
+VariationID<8>

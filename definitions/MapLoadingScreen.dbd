@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int loadingScreenID
+int mapID
+float max
+float min
+int orderIndex
+
+LAYOUT BBE57FE4
+BUILD 8.0.1.26095
+$id$ID // non-inline
+min[2]
+max[2]
+loadingScreenID<32>
+orderIndex<32>
+$relation$mapID<32> // relationship column

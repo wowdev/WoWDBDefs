@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int buffSpellID
+int managedWorldStateID
+uint occurrenceValue
+uint playerConditionID
+
+LAYOUT 6D201DC7
+BUILD 8.0.1.26095
+$id$ID // non-inline
+occurrenceValue<32>
+buffSpellID<32>
+playerConditionID<32>
+$relation$managedWorldStateID<32> // relationship column

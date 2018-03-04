@@ -1,10 +1,10 @@
 COLUMNS
-uint ID
+int ID
 uint<ChrRaces::ID> raceID
 uint<ChrClasses::ID> classID
 uint sexID
 uint outfitID
-uint ItemID
+int ItemID
 uint DisplayItemID
 uint InventoryType
 uint petDisplayID
@@ -21,3 +21,14 @@ DisplayItemID<32>[24]
 InventoryType<32>[24]
 petDisplayID<32>
 petFamilyID<32>
+
+LAYOUT 0EEBEE24
+BUILD 8.0.1.26095
+$id$ID // non-inline
+ItemID<32>[24]
+petDisplayID<32>
+classID<8>
+sexID<8>
+outfitID<8>
+petFamilyID<8>
+$relation$raceID<8> // relationship column

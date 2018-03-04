@@ -1,11 +1,18 @@
 COLUMNS
-uint ID
-uint start
-uint mid
-uint end
+int ID
+int start
+int mid
+int end
 
 BUILD 6.0.1.18179
 ID<32>
+start<32>[3]
+mid<32>[3]
+end<32>[3]
+
+LAYOUT 1576D1E1
+BUILD 8.0.1.26095
+$id$ID // non-inline
 start<32>[3]
 mid<32>[3]
 end<32>[3]

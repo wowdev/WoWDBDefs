@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 string name
 uint flags
 uint soundBank
@@ -15,9 +15,12 @@ uint particleMovement
 uint particleTexSlots
 uint materialID
 string texture
-uint color
+int color
 float float
 uint int
+float coefficient
+uint frameCountTexture
+int minimapStaticCol
 
 BUILD 6.0.1.18179
 ID<32>
@@ -39,3 +42,28 @@ texture[6]
 color<32>[2]
 float[18]
 int<32>[4]
+
+LAYOUT 63469432
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+texture[6]
+spellID<32>
+maxDarkenDepth
+fogDarkenIntensity
+ambDarkenIntensity
+dirDarkenIntensity
+particleScale
+minimapStaticCol<32>
+color<32>[2]
+float[18]
+int<32>[4]
+coefficient[4]
+flags<16>
+lightID<16>
+soundBank<8>
+particleMovement<8>
+particleTexSlots<8>
+materialID<8>
+frameCountTexture<8>[6]
+soundID<32>

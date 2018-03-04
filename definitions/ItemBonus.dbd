@@ -4,6 +4,11 @@ uint field_1438740998?
 uint field_3683876691?
 uint field_4287333908?
 uint field_690162968?
+int ID
+uint orderIndex
+uint parentItemBonusListID
+uint type
+int value
 
 BUILD 6.0.1.18179
 field_1193094019<32>
@@ -11,3 +16,11 @@ field_1438740998<32>
 field_3683876691<32>
 field_4287333908<32>[2]
 field_690162968<32>
+
+LAYOUT E12FB1A0
+BUILD 8.0.1.26095
+$id$ID // non-inline
+value<32>[3]
+parentItemBonusListID<16> // unk_8C, unk_90
+type<8>
+orderIndex<8>

@@ -1,12 +1,13 @@
 COLUMNS
-uint ID
-uint<FileData::ID> fileDataID
+int ID
+int<FileData::ID> fileDataID
 uint Sound
 float geoBoxMin
 float geoBoxMax
-uint<ObjectEffectPackage::ID> objectEffectPackageID
+int<ObjectEffectPackage::ID> objectEffectPackageID
 float overrideLootEffectScale
 float overrideNameScale
+float geoBox
 
 BUILD 6.0.1.18179
 ID<32>
@@ -17,3 +18,12 @@ geoBoxMax[3]
 objectEffectPackageID<32>
 overrideLootEffectScale
 overrideNameScale
+
+LAYOUT 9F2098D1
+BUILD 8.0.1.26095
+$id$ID // non-inline
+fileDataID<32>
+geoBox[6]
+overrideLootEffectScale
+overrideNameScale
+objectEffectPackageID<16>

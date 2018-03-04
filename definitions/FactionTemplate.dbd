@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<Faction::ID> faction
 uint flags
 uint factionGroup
@@ -17,3 +17,14 @@ friendGroup<32>
 enemyGroup<32>
 enemies<32>[4]
 friend<32>[4]
+
+LAYOUT 6F1D2135
+BUILD 8.0.1.26095
+$id$ID // non-inline
+faction<16>
+flags<16>
+enemies<16>[4]
+friend<16>[4]
+factionGroup<8>
+friendGroup<8>
+enemyGroup<8>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int flags
+int object_ID
+string tablename
+
+LAYOUT 3747930B
+BUILD 8.0.1.26095
+$id$ID // non-inline
+tablename
+object_ID<32>
+flags<32>

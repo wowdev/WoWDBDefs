@@ -1,10 +1,12 @@
 COLUMNS
-uint ID
+int ID
 uint fileDataID
 uint attachPoint
 uint minimapobject
 uint priority
 uint flags
+uint minimapAtlasMemberID
+uint passiveHighlightColorType
 
 BUILD 6.0.1.18179
 ID<32>
@@ -13,3 +15,13 @@ attachPoint<32>
 minimapobject<32>
 priority<32>
 flags<32>
+
+LAYOUT 89D55A27
+BUILD 8.0.1.26095
+$id$ID // non-inline
+fileDataID<32>
+minimapAtlasMemberID<16>
+attachPoint<8>
+passiveHighlightColorType<8>
+priority<8>
+flags<8>

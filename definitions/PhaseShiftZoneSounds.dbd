@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<AreaTable::ID> AreaID
 uint<WMOAreaTable::ID> WMOAreaID
 uint<Phase::ID> PhaseID
@@ -29,3 +29,20 @@ UWZoneIntroMusicID<32>
 UWZoneMusicID<32>
 UWSoundAmbienceID<32>
 UWSoundProviderPreferencesID<32>
+
+LAYOUT 85ACB830
+BUILD 8.0.1.26095
+$id$ID // non-inline
+AreaID<16>
+PhaseID<16>
+PhaseGroupID<16>
+SoundAmbienceID<16>
+UWSoundAmbienceID<16>
+WMOAreaID<8>
+PhaseUseFlags<8>
+SoundProviderPreferencesID<8>
+UWSoundProviderPreferencesID<8>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+UWZoneIntroMusicID<32>
+UWZoneMusicID<32>

@@ -7,6 +7,14 @@ uint field_4087175377?
 float field_3128635205?
 string field_2085341704?
 string field_1385528309?
+int ID
+uint buildingType
+int iconFileDataID
+locstring name
+float param
+uint requiredUpgradeLevel
+uint specType
+locstring tooltip
 
 BUILD 6.0.1.18179
 field_3795530529<32>
@@ -17,3 +25,14 @@ field_4087175377<32>
 field_3128635205[2]
 field_2085341704
 field_1385528309
+
+LAYOUT 797A0F2F
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+tooltip
+iconFileDataID<32>
+param[2]
+buildingType<8>
+specType<8>
+requiredUpgradeLevel<8>

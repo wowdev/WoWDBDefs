@@ -1,11 +1,20 @@
 COLUMNS
-uint ID
+int ID
 locstring text
 uint min_level
 uint max_level
+uint sortIndex
 
 BUILD 6.0.1.18179
 ID<32>
 text
 min_level<32>
 max_level<32>
+
+LAYOUT 547E3F0F
+BUILD 8.0.1.26095
+$id$ID // non-inline
+text
+min_level<16>
+max_level<16>
+sortIndex<8>

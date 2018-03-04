@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint itemLevel
 float armor
 float weapon
@@ -9,3 +9,10 @@ ID<32>
 itemLevel<32>
 armor
 weapon
+
+LAYOUT 4BD234D7
+BUILD 8.0.1.26095
+$id$ID // non-inline
+armor
+weapon
+itemLevel<16>

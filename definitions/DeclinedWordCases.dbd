@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
-uint<DeclinedWord::ID> declinedWordID
-uint caseIndex
+int ID
+int<DeclinedWord::ID> declinedWordID
+int caseIndex
 string declinedWord
 
 BUILD 6.0.1.18179
@@ -9,3 +9,10 @@ ID<32>
 declinedWordID<32>
 caseIndex<32>
 declinedWord
+
+LAYOUT 821A20A9
+BUILD 8.0.1.26095
+$id$ID // non-inline
+declinedWord
+caseIndex<8>
+$relation$declinedWordID<32> // relationship column

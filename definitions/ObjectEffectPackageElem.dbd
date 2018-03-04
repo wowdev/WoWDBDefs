@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint objectEffectPackageID
 uint objectEffectGroupID
 uint stateType
@@ -9,3 +9,10 @@ ID<32>
 objectEffectPackageID<32>
 objectEffectGroupID<32>
 stateType<32>
+
+LAYOUT 8CF043E5
+BUILD 8.0.1.26095
+$id$ID // non-inline
+objectEffectPackageID<16>
+objectEffectGroupID<16>
+stateType<16>

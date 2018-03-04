@@ -4,6 +4,11 @@ uint field_3241661258?
 uint field_3668653094?
 uint field_2344307634?
 uint field_1451174222?
+int ID
+uint garrFollItemSetID
+int itemID
+uint itemSlot
+uint minItemLevel
 
 BUILD 6.0.1.18179
 field_2816844212<32>
@@ -11,3 +16,11 @@ field_3241661258<32>
 field_3668653094<32>
 field_2344307634<32>
 field_1451174222<32>
+
+LAYOUT CA1C4CBF
+BUILD 8.0.1.26095
+$id$ID // non-inline
+itemID<32>
+minItemLevel<16>
+itemSlot<8>
+$relation$garrFollItemSetID<16> // relationship column

@@ -3,9 +3,18 @@ uint field_3055676690?
 uint field_720982177?
 string paramLabel
 uint paramTypeEnum
+int ID
+uint battlePetVisualID
 
 BUILD 6.0.1.18179
 field_3055676690<32>
 field_720982177<32>
 paramLabel[6]
 paramTypeEnum<32>[6]
+
+LAYOUT 56070751
+BUILD 8.0.1.26095
+$id$ID // non-inline
+paramLabel[6]
+battlePetVisualID<16>
+paramTypeEnum<8>[6]

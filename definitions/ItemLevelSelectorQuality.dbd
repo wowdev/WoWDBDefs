@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int parentILSQualitySetID
+int quality
+int qualityItemBonusListID
+
+LAYOUT B7174A51
+BUILD 8.0.1.26095
+$id$ID // non-inline
+qualityItemBonusListID<32>
+quality<8>
+$relation$parentILSQualitySetID<16> // relationship column

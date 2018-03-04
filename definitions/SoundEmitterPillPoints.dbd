@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint soundEmittersID
 float position
 
@@ -7,3 +7,9 @@ BUILD 6.0.1.18179
 ID<32>
 soundEmittersID<32>
 position[3]
+
+LAYOUT 41FCF15B
+BUILD 8.0.1.26095
+$id$ID // non-inline
+position[3]
+soundEmittersID<16> // unk_8C, unk_90

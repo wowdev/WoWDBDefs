@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+locstring name
+uint uiTextureAtlasMemberID
+uint uiTextureKitID
+
+LAYOUT A289655E
+BUILD 8.0.1.26095
+$id$ID // non-inline
+name
+uiTextureAtlasMemberID<16>
+uiTextureKitID<16>

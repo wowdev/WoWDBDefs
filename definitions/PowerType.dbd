@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+int centerPower
+string costGlobalStringTag
+int defaultPower
+int displayModifier
+int flags
+int maxBasePower
+int minPower
+string nameGlobalStringTag
+int powerTypeEnum
+float regenCombat
+int regenInterruptTimeMS
+float regenPeace
+
+LAYOUT 0C3844E1
+BUILD 8.0.1.26095
+$id$ID // non-inline
+nameGlobalStringTag
+costGlobalStringTag
+regenPeace
+regenCombat
+maxBasePower<16>
+regenInterruptTimeMS<16>
+flags<16>
+powerTypeEnum<8>
+minPower<8>
+centerPower<8>
+defaultPower<8>
+displayModifier<8>

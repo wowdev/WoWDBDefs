@@ -4,6 +4,11 @@ uint field_3687509195?
 uint field_3973556185?
 float field_2164833425?
 uint field_3532671216?
+int ID
+uint garrPlotInstanceID
+uint garrSiteLevelID
+float uiMarkerPos
+uint uiMarkerSize
 
 BUILD 6.0.1.18179
 field_4111507320<32>
@@ -11,3 +16,11 @@ field_3687509195<32>
 field_3973556185<32>
 field_2164833425[2]
 field_3532671216<32>
+
+LAYOUT C4E74201
+BUILD 8.0.1.26095
+$id$ID // non-inline
+uiMarkerPos[2]
+garrSiteLevelID<16> // unk_8C, unk_90
+garrPlotInstanceID<8>
+uiMarkerSize<8>
