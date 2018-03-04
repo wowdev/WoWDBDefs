@@ -55,6 +55,8 @@ namespace DBDefsMerge
                                     Console.ForegroundColor = ConsoleColor.Yellow;
                                     Console.WriteLine("Types are different for (1)" + dbName + "::" + columnDefinition1.Key + " = " + columnDefinition1.Value.type + " and (2)" + dbName + "::" + columnDefinition2.Key + " = " + columnDefinition2.Value.type + ", using type " + columnDefinition2.Value.type + " from 2");
 
+                                    typeOverride = columnDefinition2.Value.type;
+
                                     // If this is an uncommon conversion (not uint -> int) override the version's column type
                                     if (columnDefinition1.Value.type != "uint" || columnDefinition2.Value.type != "int")
                                     {
