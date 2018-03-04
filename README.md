@@ -28,6 +28,8 @@ Format currently also supports comments by adding ```// Comment goes here ``` at
 
 Valid types that parsers should support: ```(u)int{8/16/32/64}/string/float/locstring```
 
+Unverified columns (guessed, etc) have a ```?``` at the end of ```ColName```.
+
 ### Version definitions
 
 ```BUILD``` is required. ```LAYOUT``` is required for versions that have it. Can be both.
