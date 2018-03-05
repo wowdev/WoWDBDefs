@@ -40,7 +40,7 @@ namespace DBDefsLib
             public string name;
             public bool isID;
             public bool isRelation;
-            public bool isInline;
+            public bool isNonInline;
             public string comment;
             public string typeOverride;
         }

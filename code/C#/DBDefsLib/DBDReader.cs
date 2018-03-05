@@ -194,11 +194,12 @@ namespace DBDefsLib
                         line = line.Remove(0, 4);
                     }
 
-                    if(line.Contains("$inlineid$")){
+                    if(line.Contains("$noninlineid$")){
                         definition.isID = true;
                         definition.isNonInline = true;
-                        line = line.Remove(0, 10);                  
-                    }else{
+                        line = line.Remove(0, 13);               
+                    }
+                    else{
                         definition.isNonInline = false;
                     }
                     
