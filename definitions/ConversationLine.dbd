@@ -12,7 +12,7 @@ uint startAnimation
 LAYOUT 032B137B
 BUILD 8.0.1.26095
 COMMENT table is sparse
-$id$ID // non-inline
+$noninlineid$ID<32>
 broadcastTextID<32>
 spellVisualKitID<32>
 additionalDuration<32>

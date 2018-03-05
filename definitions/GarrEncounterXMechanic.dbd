@@ -14,7 +14,7 @@ field_188044474<32>
 
 LAYOUT 97080E17
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 garrMechanicID<8>
 garrMechanicSetID<8>
 $relation$garrEncounterID<16> // relationship column

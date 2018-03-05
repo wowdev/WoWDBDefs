@@ -7,7 +7,7 @@ uint orderIndex
 
 LAYOUT B7DBA2D1
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 allianceSpellID<32>
 hordeSpellID<32>
 orderIndex<8>

@@ -6,7 +6,7 @@ int npcModelID
 
 LAYOUT 11D16204
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 itemDisplayInfoID<32>
 itemSlot<8>
 $relation$npcModelID<32> // relationship column

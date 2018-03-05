@@ -7,7 +7,7 @@ uint playerWorldMapAreaID
 
 LAYOUT EE16D6F3
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 displayAchievementID<32>
 displayWorldMapAreaID<32>
 playerFactionGroupID<8>

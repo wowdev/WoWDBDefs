@@ -12,7 +12,7 @@ animKitPriorityID<32>
 
 LAYOUT 3D9B3BA7
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 animKitPriorityID<16>
 animKitBoneSetID<8>
 $relation$parentAnimKitConfigID<16> // relationship column

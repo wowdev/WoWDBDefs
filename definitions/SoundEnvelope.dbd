@@ -10,7 +10,7 @@ uint sustainIndex
 
 LAYOUT 5B78031C
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 soundKitID<32> // unk_8C, unk_90
 curveID<32>
 decayIndex<16>

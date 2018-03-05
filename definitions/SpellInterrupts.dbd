@@ -16,7 +16,7 @@ interruptFlags<32>
 
 LAYOUT 2FA8EA94
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 difficultyID<8>
 interruptFlags<16>
 auraInterruptFlags<32>[2]

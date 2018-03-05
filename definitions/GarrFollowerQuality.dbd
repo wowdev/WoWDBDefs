@@ -10,7 +10,7 @@ uint xpToNextQuality
 
 LAYOUT AFF4CF7E
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 xpToNextQuality<32>
 shipmentXP<16>
 quality<8>

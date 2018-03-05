@@ -17,7 +17,7 @@ critImpactSoundID<32>[10]
 
 LAYOUT 774C043A
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 WeaponSubClassID<8>
 ParrySoundType<8>
 impactSource<8>

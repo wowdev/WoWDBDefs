@@ -6,7 +6,7 @@ uint geosetValue
 
 LAYOUT 2E044324
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 geosetIndex<8>
 geosetValue<8>
 $relation$creatureDisplayInfoID<32> // relationship column

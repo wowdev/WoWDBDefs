@@ -6,7 +6,7 @@ uint weaponTrailID
 
 LAYOUT 7DE7C508
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 lowDefFileDataID<32>
 weaponTrailID<16>
 $relation$animEnumID<16> // relationship column

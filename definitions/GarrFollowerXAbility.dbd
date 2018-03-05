@@ -14,7 +14,7 @@ field_788489512<32>
 
 LAYOUT 996447F1
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 garrAbilityID<16>
 factionIndex<8>
 $relation$garrFollowerID<16> // relationship column

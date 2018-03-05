@@ -6,7 +6,7 @@ uint fileDataID
 
 LAYOUT 839B4263
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 animationDataID<32>
 cloakDampeningID<32>
 $relation$fileDataID<32> // relationship column

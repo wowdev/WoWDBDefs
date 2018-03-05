@@ -18,7 +18,7 @@ maxDamageReductionPctPhysical<32>
 
 LAYOUT C618392F
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 #float#maxDamageReductionPctPhysical
 playerAttackSpeedBase<16>
 playerKillingAllowed<8>

@@ -6,7 +6,7 @@ uint playerConditionID
 
 LAYOUT DE8EAD49
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 addQuantity<8>
 playerConditionID<32>
 $relation$parentItemLimitCategoryID<32> // relationship column

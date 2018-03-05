@@ -16,7 +16,7 @@ field_1256116934<32>
 
 LAYOUT 68D5C999
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 value<16>
 battlePetStateID<8>
 $relation$battlePetBreedID<8> // relationship column

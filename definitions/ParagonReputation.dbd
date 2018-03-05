@@ -6,7 +6,7 @@ int questID
 
 LAYOUT D7712F98
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 levelThreshold<32>
 questID<32>
 factionID<32> // unk_8C, unk_90

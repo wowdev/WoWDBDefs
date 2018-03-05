@@ -12,7 +12,7 @@ OverlayFileDataID<32>
 
 LAYOUT 3BFD250E
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 fileDataID<32>
 OverlayFileDataID<32>
 $relation$movieID<16> // relationship column

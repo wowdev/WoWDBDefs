@@ -6,7 +6,7 @@ uint soundKitID
 
 LAYOUT 4BBA66F2
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 eventIndex<8>
 soundKitID<32>
 $relation$gameObjectDisplayInfoID<32> // relationship column

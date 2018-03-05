@@ -11,7 +11,7 @@ uint type
 
 LAYOUT DD995180
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 description
 amount<32>
 objectID<32>

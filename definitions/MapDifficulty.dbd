@@ -22,7 +22,7 @@ lockID<32>
 
 LAYOUT 2B3B759E
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 message
 difficultyID<8>
 resetInterval<8>

@@ -14,7 +14,7 @@ Sounds<32>[2]
 
 LAYOUT 9E2B332D
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 SetName
 SilenceIntervalMin<32>[2]
 SilenceIntervalMax<32>[2]

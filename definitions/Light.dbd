@@ -23,7 +23,7 @@ lightParamsID<32>[8]
 
 LAYOUT 25025A13
 BUILD 8.0.1.26095
-$id$ID // non-inline
+$noninlineid$ID<32>
 gameCoords[3]
 gameFalloffStart
 gameFalloffEnd
