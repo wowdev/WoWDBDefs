@@ -81,6 +81,8 @@ Annotations start with a ```$``` and end with a ```$```. Currently used annotati
 
 **id** this column is a primary key. Example: ```$id$ColName```
 
+**noninlineid** this column is a primary key and is **non-inline**. Example: ```$noninlineid$ColName```
+
 **relation** this column is stored in the relationship table. Example: ```$relation$ColName```
 
 #### Column overrides
