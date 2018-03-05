@@ -1,12 +1,5 @@
 COLUMNS
-uint field_3580419061?
-uint field_2155313115?
 uint field_1016514529?
-uint field_2280409308?
-uint field_2593120774?
-uint field_4265987811?
-uint field_1606489103?
-string field_660621941?
 int ID
 int acceptButtonTexture
 string acceptURL
@@ -17,14 +10,14 @@ int logoTexture
 uint promotionID
 
 BUILD 6.0.1.18179
-field_3580419061<32>
-field_2155313115<32>
-field_1016514529<32>
-field_2280409308<32>
-field_2593120774<32>
-field_4265987811<32>
-field_1606489103<32>
-field_660621941
+$id$ID<32>
+promotionID<32>
+localeID<32>
+adTexture<32>
+logoTexture<32>
+acceptButtonTexture<32>
+declineButtonTexture<32>
+acceptURL
 
 LAYOUT 80362F57
 BUILD 8.0.1.26095
