@@ -1,13 +1,9 @@
 COLUMNS
 int ID
 uint<Languages::ID> languageID
-string field_3629646352?
-string field_2564165372?
 uint<Emotes::ID> emoteID
-uint field_2268346517?
 uint<SoundEntries::ID> soundEntriesID
 uint field_2465365834?
-uint field_3141099608?
 int conditionID
 uint emoteDelay
 uint emotesID
@@ -18,13 +14,13 @@ locstring text1
 BUILD 6.0.1.18179
 ID<32>
 languageID<32>
-field_3629646352
-field_2564165372
+text
+text1
 emoteID<32>[3]
-field_2268346517<32>[3]
+emoteDelay<32>[3]
 soundEntriesID<32>
 field_2465365834<32>
-field_3141099608<32>
+flags<32>
 
 LAYOUT 51BF0C33
 BUILD 8.0.1.26095
