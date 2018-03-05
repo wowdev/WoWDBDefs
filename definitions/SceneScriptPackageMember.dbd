@@ -4,6 +4,11 @@ uint field_193840778?
 uint field_2016730086?
 uint field_596947073?
 uint field_3488546287?
+int ID
+uint childSceneScriptPackageID
+uint orderIndex
+uint sceneScriptID
+uint sceneScriptPackageID
 
 BUILD 6.0.1.18179
 field_2931023265<32>
@@ -11,3 +16,11 @@ field_193840778<32>
 field_2016730086<32>
 field_596947073<32>
 field_3488546287<32>
+
+LAYOUT 787A715F
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+sceneScriptPackageID<16> // unk_8C, unk_90
+sceneScriptID<16>
+childSceneScriptPackageID<16>
+orderIndex<8>

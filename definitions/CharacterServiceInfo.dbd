@@ -1,0 +1,28 @@
+COLUMNS
+int ID
+int boostLevel
+int boostType
+int expansion
+uint flags
+locstring flowTitle
+int iconFileDataID
+locstring popupDescription
+locstring popupTitle
+int popupUITextureKitID
+int priority
+int professionLevel
+
+LAYOUT ADE120EF
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+flowTitle
+popupTitle
+popupDescription
+boostType<32>
+iconFileDataID<32>
+priority<32>
+flags<32>
+professionLevel<32>
+boostLevel<32>
+expansion<32>
+popupUITextureKitID<32>

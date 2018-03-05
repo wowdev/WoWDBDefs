@@ -1,7 +1,16 @@
 COLUMNS
-uint ID
+int ID
 locstring text
+uint emotesTextID
+uint relationshipFlags
 
 BUILD 6.0.1.18179
 ID<32>
 text
+
+LAYOUT 0E19BCF1
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+text
+relationshipFlags<8>
+$relation$emotesTextID<16>

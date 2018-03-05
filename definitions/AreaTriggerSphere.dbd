@@ -1,7 +1,12 @@
 COLUMNS
-uint ID
+int ID
 float maxRadius
 
 BUILD 6.0.1.18179
 ID<32>
+maxRadius
+
+LAYOUT 9141AC7F
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
 maxRadius

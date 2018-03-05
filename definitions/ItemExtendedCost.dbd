@@ -14,6 +14,17 @@ uint field_2691620509?
 uint field_3895199457?
 uint field_974013196?
 uint field_4236132424?
+int ID
+uint arenaBracket
+uint currencyCount
+uint currencyID
+uint flags
+uint itemCount
+int itemID
+uint minFactionID
+uint minReputation
+uint requiredAchievement
+uint requiredArenaRating
 
 BUILD 6.0.1.18179
 field_3306038014<32>
@@ -31,3 +42,17 @@ field_2691620509<32>
 field_3895199457<32>
 field_974013196<32>
 field_4236132424<32>
+
+LAYOUT C31F4DEF
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+itemID<32>[5]
+currencyCount<32>[5]
+itemCount<16>[5]
+requiredArenaRating<16>
+currencyID<16>[5]
+arenaBracket<8>
+minFactionID<8>
+minReputation<8>
+flags<8>
+requiredAchievement<8>

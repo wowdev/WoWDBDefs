@@ -1,17 +1,18 @@
 COLUMNS
-uint ID
+int ID
 uint<WorldMapArea::ID> mapAreaID
 uint<AreaTable::ID> areaID
 string textureName
 uint textureWidth
 uint textureHeight
-uint offsetX
-uint offsetY
-uint hitRectTop
-uint hitRectLeft
-uint hitRectBottom
-uint hitRectRight
+int offsetX
+int offsetY
+int hitRectTop
+int hitRectLeft
+int hitRectBottom
+int hitRectRight
 uint playerConditionID
+uint flags
 
 BUILD 6.0.1.18179
 ID<32>
@@ -27,3 +28,20 @@ hitRectLeft<32>
 hitRectBottom<32>
 hitRectRight<32>
 playerConditionID<32>
+
+LAYOUT DC4B6AF3
+BUILD 8.0.1.26095
+textureName
+$id$ID<32>
+textureWidth<16>
+textureHeight<16>
+mapAreaID<32> // unk_8C, unk_90
+offsetX<32>
+offsetY<32>
+hitRectTop<32>
+hitRectLeft<32>
+hitRectBottom<32>
+hitRectRight<32>
+playerConditionID<32>
+flags<32>
+areaID<32>[4]

@@ -1,23 +1,23 @@
 COLUMNS
-uint ID
+int ID
 uint state0WMO
-uint state0ImpactEffectDoodadSet
+int state0ImpactEffectDoodadSet
 uint state0AmbientDoodadSet
-uint state0NameSet
+int state0NameSet
 uint state1WMO
-uint state1DestructionDoodadSet
-uint state1ImpactEffectDoodadSet
+int state1DestructionDoodadSet
+int state1ImpactEffectDoodadSet
 uint state1AmbientDoodadSet
-uint state1NameSet
+int state1NameSet
 uint state2WMO
-uint state2DestructionDoodadSet
-uint state2ImpactEffectDoodadSet
+int state2DestructionDoodadSet
+int state2ImpactEffectDoodadSet
 uint state2AmbientDoodadSet
-uint state2NameSet
+int state2NameSet
 uint state3WMO
 uint state3InitDoodadSet
 uint state3AmbientDoodadSet
-uint state3NameSet
+int state3NameSet
 uint ejectDirection
 uint repairGroundFx
 uint doNotHighlight
@@ -49,3 +49,29 @@ repairGroundFx<32>
 doNotHighlight<32>
 healEffect<32>
 healEffectSpeed<32>
+
+LAYOUT 1092C9AF
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+state0WMO<16>
+state1WMO<16>
+state2WMO<16>
+state3WMO<16>
+healEffectSpeed<16>
+state0ImpactEffectDoodadSet<8>
+state0AmbientDoodadSet<8>
+state0NameSet<8>
+state1DestructionDoodadSet<8>
+state1ImpactEffectDoodadSet<8>
+state1AmbientDoodadSet<8>
+state1NameSet<8>
+state2DestructionDoodadSet<8>
+state2ImpactEffectDoodadSet<8>
+state2AmbientDoodadSet<8>
+state2NameSet<8>
+state3InitDoodadSet<8>
+state3AmbientDoodadSet<8>
+state3NameSet<8>
+ejectDirection<8>
+doNotHighlight<8>
+healEffect<8>

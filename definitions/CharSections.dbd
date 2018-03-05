@@ -1,12 +1,13 @@
 COLUMNS
-uint ID
-uint<ChrRaces::ID> raceID
-uint sexID
-uint baseSection
+int ID
+int<ChrRaces::ID> raceID
+int sexID
+int baseSection
 string TextureName
-uint flags
-uint variationIndex
-uint colorIndex
+int flags
+int variationIndex
+int colorIndex
+int materialResourcesID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -17,3 +18,14 @@ TextureName[3]
 flags<32>
 variationIndex<32>
 colorIndex<32>
+
+LAYOUT E349E55B
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+materialResourcesID<32>[3]
+flags<16>
+raceID<8>
+sexID<8>
+baseSection<8>
+variationIndex<8>
+colorIndex<8>

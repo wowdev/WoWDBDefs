@@ -1,13 +1,16 @@
 COLUMNS
-uint ID
-uint categoryID
+int ID
+int categoryID
 locstring displayName
 locstring description
 uint spellIconID
 locstring alternateVerb
-uint canLink
+int canLink
 uint parentSkillLineID
 uint flags
+locstring hordeDisplayName
+int parentTierIndex
+int spellIconFileID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -19,3 +22,17 @@ alternateVerb
 canLink<32>
 parentSkillLineID<32>
 flags<32>
+
+LAYOUT F0E77964
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+displayName
+hordeDisplayName
+description
+alternateVerb
+flags<16>
+categoryID<8>
+canLink<8>
+spellIconFileID<32>
+parentSkillLineID<32>
+parentTierIndex<32>

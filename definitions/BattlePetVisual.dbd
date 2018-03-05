@@ -7,6 +7,13 @@ uint field_830307684?
 uint field_3820730972?
 uint field_1959089846?
 string sceneScriptFunction
+int ID
+uint castMilliSeconds
+uint flags
+uint impactMilliSeconds
+uint rangeTypeEnum
+uint sceneScriptPackageID
+uint spellVisualID
 
 BUILD 6.0.1.18179
 field_3681010918<32>
@@ -17,3 +24,14 @@ field_830307684<32>
 field_3820730972<32>
 field_1959089846<32>
 sceneScriptFunction
+
+LAYOUT 097E0F6C
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+sceneScriptFunction
+spellVisualID<32>
+castMilliSeconds<16>
+impactMilliSeconds<16>
+sceneScriptPackageID<16>
+rangeTypeEnum<8>
+flags<8>

@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 float baseProcRate
 uint flags
 
@@ -7,3 +7,9 @@ BUILD 6.0.1.18179
 ID<32>
 baseProcRate
 flags<32>
+
+LAYOUT 4BC1931B
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+baseProcRate
+flags<8>

@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<CurrencyCategory::ID> categoryID
 locstring name
 string inventoryIcon
@@ -10,6 +10,7 @@ uint maxEarnablePerWeek
 uint flags
 uint quality
 locstring description
+int inventoryIconFileID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -23,3 +24,17 @@ maxEarnablePerWeek<32>
 flags<32>
 quality<32>
 description
+
+LAYOUT 6CC25CBF
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+description
+maxQty<32>
+maxEarnablePerWeek<32>
+flags<32>
+categoryID<8>
+spellCategory<8>
+quality<8>
+inventoryIconFileID<32>
+spellWeight<32>

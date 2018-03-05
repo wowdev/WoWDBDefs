@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<Faction::ID> factionID
 uint depositRate
 uint consignmentRate
@@ -11,3 +11,11 @@ factionID<32>
 depositRate<32>
 consignmentRate<32>
 name
+
+LAYOUT 51CFEEFF
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+factionID<16>
+depositRate<8>
+consignmentRate<8>

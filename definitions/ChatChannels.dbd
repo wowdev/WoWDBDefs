@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
-uint flags
-uint factionGroup
+int ID
+int flags
+int factionGroup
 locstring name
 locstring shortcut
 
@@ -11,3 +11,11 @@ flags<32>
 factionGroup<32>
 name
 shortcut
+
+LAYOUT 1A325E80
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+shortcut
+flags<32>
+factionGroup<8>

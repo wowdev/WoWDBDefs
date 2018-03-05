@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<ItemSet::ID> itemSetID
 uint<Spell::ID> spellID
 uint threshold
@@ -11,3 +11,11 @@ itemSetID<32>
 spellID<32>
 threshold<32>
 chrSpecID<32>
+
+LAYOUT F65D0AF8
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+spellID<32>
+chrSpecID<16>
+threshold<8>
+$relation$itemSetID<16>

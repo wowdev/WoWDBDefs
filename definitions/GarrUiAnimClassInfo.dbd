@@ -1,9 +1,12 @@
 COLUMNS
-uint ID
+int ID
 uint garrClassSpecID
 uint spellVisualID
 uint movementType
 float impactDelaySecs
+uint castKit
+uint impactKit
+uint targetImpactKit
 
 BUILD 6.0.1.18179
 ID<32>
@@ -11,3 +14,13 @@ garrClassSpecID<32>
 spellVisualID<32>
 movementType<32>
 impactDelaySecs
+
+LAYOUT DBF4633D
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+impactDelaySecs
+garrClassSpecID<8>
+movementType<8>
+castKit<32>
+impactKit<32>
+targetImpactKit<32>

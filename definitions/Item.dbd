@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint field_1009734166?
 uint field_1306660829?
 uint field_2243280257?
@@ -9,6 +9,14 @@ uint field_1308729234?
 uint field_1229869982?
 uint field_3628018924?
 uint field_2427487154?
+uint classID
+int iconFileDataID
+uint inventoryType
+uint itemGroupSoundsID
+uint material
+uint sheatheType
+int sound_override_subclassID
+uint subclassID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -21,3 +29,15 @@ field_1308729234<32>
 field_1229869982<32>
 field_3628018924<32>
 field_2427487154<32>
+
+LAYOUT 0DFCC83D
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+iconFileDataID<32>
+classID<8>
+subclassID<8>
+sound_override_subclassID<8>
+material<8>
+inventoryType<8>
+sheatheType<8>
+itemGroupSoundsID<8>

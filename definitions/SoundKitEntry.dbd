@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int fileDataID
+uint frequency
+uint soundKitID
+float volume
+
+LAYOUT 6ED6E26F
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+soundKitID<32> // unk_8C, unk_90
+fileDataID<32>
+frequency<8>
+volume

@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<CharacterLoadout::ID> characterLoadoutID
 uint<Item::ID> itemID
 uint<ItemDisplayInfo::ID> itemDisplayInfoID
@@ -11,3 +11,9 @@ characterLoadoutID<32>
 itemID<32>
 itemDisplayInfoID<32>
 itemInventoryType<32>
+
+LAYOUT 3C3D40B9
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+itemID<32>
+characterLoadoutID<16> // unk_8C, unk_90

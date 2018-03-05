@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint PathID
 float Locx
 float Locy
@@ -13,3 +13,12 @@ Locx[10]
 Locy[10]
 LegIndex<32>
 LoadingScreenID<32>
+
+LAYOUT 4D6292C3
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+Locx[10]
+Locy[10]
+PathID<16>
+LoadingScreenID<16>
+LegIndex<8>

@@ -1,9 +1,9 @@
 COLUMNS
-uint ID
+int ID
 uint school
 uint dispelType
 uint mechanicsAllowed
-uint mechanic
+int mechanic
 uint effectsAllowed
 uint effect
 uint statesAllowed
@@ -21,3 +21,16 @@ effect<32>[7]
 statesAllowed<32>
 state<32>[15]
 flags<32>
+
+LAYOUT 2D20050B
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+mechanic<32>[2]
+school<8>
+mechanicsAllowed<8>
+effectsAllowed<8>
+statesAllowed<8>
+flags<8>
+dispelType<32>
+effect<32>[9]
+state<32>[16]

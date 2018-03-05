@@ -1,18 +1,23 @@
 COLUMNS
-uint ID
+int ID
 uint importance
 uint icon
 uint<FactionTemplate::ID> factionID
 float pos
 uint<Map::ID> continentID
 uint flags
-uint<AreaTable::ID> areaID
+int<AreaTable::ID> areaID
 locstring name
 locstring description
 uint<WorldState::ID> worldStateID
 uint<PlayerCondition::ID> playerConditionID
 uint worldMapLink
-uint<WorldSafeLocs::ID> portLocID
+int<WorldSafeLocs::ID> portLocID
+int mapFloor
+int poiData
+int poiDataType
+uint uiTextureAtlasMemberID
+int WMOGroupID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -29,3 +34,23 @@ worldStateID<32>
 playerConditionID<32>
 worldMapLink<32>
 portLocID<32>
+
+LAYOUT 22F9B807
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+description
+flags<32>
+pos[3]
+poiDataType<32>
+poiData<32>
+continentID<16>
+areaID<16>
+worldStateID<16>
+importance<8>
+icon<8>
+playerConditionID<32>
+portLocID<32>
+uiTextureAtlasMemberID<32>
+mapFloor<32>
+WMOGroupID<32>

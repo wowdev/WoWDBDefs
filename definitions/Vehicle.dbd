@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint flags
+int ID
+int flags
 uint flagsB
 float turnSpeed
 float pitchSpeed
@@ -29,6 +29,7 @@ uint uiLocomotionType
 float msslTrgtImpactTexRadius
 uint vehicleUIIndicatorID
 uint<PowerDisplay::ID> powerDisplayID
+int missileTargetingID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -61,3 +62,25 @@ uiLocomotionType<32>
 msslTrgtImpactTexRadius
 vehicleUIIndicatorID<32>
 powerDisplayID<32>[3]
+
+LAYOUT 1606C582
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+flags<32>
+turnSpeed
+pitchSpeed
+pitchMin
+pitchMax
+mouseLookOffsetPitch
+cameraFadeDistScalarMin
+cameraFadeDistScalarMax
+cameraPitchOffset
+facingLimitRight
+facingLimitLeft
+cameraYawOffset
+seatID<16>[8]
+vehicleUIIndicatorID<16>
+powerDisplayID<16>[3]
+flagsB<8>
+uiLocomotionType<8>
+missileTargetingID<32>

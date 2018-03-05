@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 string name
 uint<ChrRaces::ID> raceID
 uint sex
@@ -9,3 +9,10 @@ ID<32>
 name
 raceID<32>
 sex<32>
+
+LAYOUT 2EF936CD
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+raceID<8>
+sex<8>

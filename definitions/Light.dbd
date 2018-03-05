@@ -1,12 +1,15 @@
 COLUMNS
-uint ID
-uint<Map::ID> continentID
+int ID
+int<Map::ID> continentID
 float x
 float y
 float z
 float falloffStart
 float falloffEnd
 uint<LightParams::ID> lightParamsID
+float gameCoords
+float gameFalloffEnd
+float gameFalloffStart
 
 BUILD 6.0.1.18179
 ID<32>
@@ -17,3 +20,12 @@ z
 falloffStart
 falloffEnd
 lightParamsID<32>[8]
+
+LAYOUT 25025A13
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+gameCoords[3]
+gameFalloffStart
+gameFalloffEnd
+continentID<16>
+lightParamsID<16>[8]

@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint ambienceID
 uint type
 uint effectType
@@ -9,6 +9,13 @@ float effectColor
 string effectTexture
 uint soundAmbienceID
 uint windSettingsID
+int effectTextureFileDataID
+float fallModifier
+int particulateFileDataID
+float rotationalSpeed
+float scale
+float twinkleIntensity
+float volatility
 
 BUILD 6.0.1.18179
 ID<32>
@@ -21,3 +28,22 @@ effectColor[3]
 effectTexture
 soundAmbienceID<32>
 windSettingsID<32>
+
+LAYOUT 1FBCCDF1
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+intensity[2]
+transitionSkyBox
+effectColor[3]
+scale
+volatility
+twinkleIntensity
+fallModifier
+rotationalSpeed
+particulateFileDataID<32>
+soundAmbienceID<16>
+type<8>
+effectType<8>
+windSettingsID<8>
+ambienceID<32>
+effectTextureFileDataID<32>

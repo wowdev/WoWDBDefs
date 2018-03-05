@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<SoundEntries::ID> soundID
 uint<CinematicCamera::ID> camera
 
@@ -7,3 +7,9 @@ BUILD 6.0.1.18179
 ID<32>
 soundID<32>
 camera<32>[8]
+
+LAYOUT 470FDA8C
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+soundID<32>
+camera<16>[8]

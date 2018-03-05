@@ -1,19 +1,22 @@
 COLUMNS
-uint ID
-uint<Map::ID> mapID
-uint instanceType
-uint groupsAllowed
+int ID
+int<Map::ID> mapID
+int instanceType
+int groupsAllowed
 locstring name
-uint maxGroupSize
-uint<WorldState::ID> holidayWorldState
-uint minlevel
-uint maxlevel
-uint ratedPlayers
-uint minPlayers
-uint maxPlayers
-uint flags
-uint<FileData::ID> iconFileDataID
+int maxGroupSize
+int<WorldState::ID> holidayWorldState
+int minlevel
+int maxlevel
+int ratedPlayers
+int minPlayers
+int maxPlayers
+int flags
+int<FileData::ID> iconFileDataID
 locstring gametype
+locstring longDescription
+int required_Player_Condition_ID
+locstring shortDescription
 
 BUILD 6.0.1.18179
 ID<32>
@@ -31,3 +34,24 @@ maxPlayers<32>
 flags<32>
 iconFileDataID<32>
 gametype
+
+LAYOUT D8AAA088
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+gametype
+shortDescription
+longDescription
+iconFileDataID<32>
+mapID<16>[16]
+holidayWorldState<16>
+required_Player_Condition_ID<16>
+instanceType<8>
+groupsAllowed<8>
+maxGroupSize<8>
+minlevel<8>
+maxlevel<8>
+ratedPlayers<8>
+minPlayers<8>
+maxPlayers<8>
+flags<8>

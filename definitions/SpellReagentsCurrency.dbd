@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint currencyCount
+uint currencyTypesID
+int spellID
+
+LAYOUT 90A5E5D2
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+spellID<32> // unk_8C, unk_90
+currencyTypesID<16>
+currencyCount<16>

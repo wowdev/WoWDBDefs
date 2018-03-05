@@ -1,13 +1,21 @@
 COLUMNS
-uint ID
+int ID
 uint statID
 uint bonus
-uint minlevel
-uint maxlevel
+int minlevel
+int maxlevel
+uint playerLevelToItemLevelCurveID
 
 BUILD 6.0.1.18179
 ID<32>
 statID<32>[10]
 bonus<32>[10]
+minlevel<32>
+maxlevel<32>
+
+LAYOUT DED48286
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+playerLevelToItemLevelCurveID<16>
 minlevel<32>
 maxlevel<32>

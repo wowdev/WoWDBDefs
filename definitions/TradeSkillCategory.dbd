@@ -1,10 +1,11 @@
 COLUMNS
-uint ID
+int ID
 uint<SkillLine::ID> skilllineID
 uint<TradeSkillCategory::ID> parenttradeskillcategoryID
-uint orderindex
+int orderindex
 locstring name
 uint flags
+locstring hordeName
 
 BUILD 6.0.1.18179
 ID<32>
@@ -13,3 +14,13 @@ parenttradeskillcategoryID<32>
 orderindex<32>
 name
 flags<32>
+
+LAYOUT 6C5B24EB
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+hordeName
+skilllineID<16>
+parenttradeskillcategoryID<16>
+orderindex<16>
+flags<8>

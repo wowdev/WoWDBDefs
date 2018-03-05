@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 string Name
 uint LocaleMask
 
@@ -7,3 +7,9 @@ BUILD 6.0.1.18179
 ID<32>
 Name
 LocaleMask<32>
+
+LAYOUT C1403093
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+Name
+LocaleMask<8>

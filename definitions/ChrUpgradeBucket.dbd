@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint chrSpecializationID
+uint chrUpgradeTierID
+
+LAYOUT ACF64A80
+BUILD 8.0.1.26095
+chrSpecializationID<16>
+$id$ID<32>
+$relation$chrUpgradeTierID<8>

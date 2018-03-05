@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
+int ID
 uint Type
-uint Index
+int Index
 uint Skill
 uint Action
 
@@ -11,3 +11,11 @@ Type<32>[8]
 Index<32>[8]
 Skill<32>[8]
 Action<32>[8]
+
+LAYOUT DAC7F42F
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+Index<32>[8]
+Skill<16>[8]
+Type<8>[8]
+Action<8>[8]

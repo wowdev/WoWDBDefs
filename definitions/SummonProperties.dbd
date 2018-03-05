@@ -1,10 +1,10 @@
 COLUMNS
-uint ID
-uint control
-uint faction
-uint title
-uint slot
-uint flags
+int ID
+int control
+int faction
+int title
+int slot
+int flags
 
 BUILD 6.0.1.18179
 ID<32>
@@ -13,3 +13,12 @@ faction<32>
 title<32>
 slot<32>
 flags<32>
+
+LAYOUT FB8338FC
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+flags<32>
+control<32>
+faction<32>
+title<32>
+slot<32>

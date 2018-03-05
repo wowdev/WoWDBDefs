@@ -1,29 +1,34 @@
 COLUMNS
-uint ID
-uint difficultyID
+int ID
+int difficultyID
 uint effect
 float effectAmplitude
-uint effectAura
-uint effectAuraPeriod
-uint effectBasePoints
+int effectAura
+int effectAuraPeriod
+int effectBasePoints
 float effectBonusCoefficient
 float effectChainAmplitude
-uint effectChainTargets
-uint effectDieSides
-uint effectItemType
-uint effectMechanic
-uint effectMiscValue
+int effectChainTargets
+int effectDieSides
+int effectItemType
+int effectMechanic
+int effectMiscValue
 float effectPointsPerResource
 uint effectRadiusIndex
 float effectRealPointsPerLevel
-uint effectSpellClassMask
-uint effectTriggerSpell
+int effectSpellClassMask
+int effectTriggerSpell
 float effectPos_facing
 uint implicitTarget
-uint spellID
-uint effectIndex
-uint effectAttributes
+int spellID
+int effectIndex
+int effectAttributes
 float bonusCoefficientFromAP
+float coefficient
+float groupSizeBasePointsCoefficient
+float pvpMultiplier
+float resourceCoefficient
+float variance
 
 BUILD 6.0.1.18179
 ID<32>
@@ -51,3 +56,36 @@ spellID<32>
 effectIndex<32>
 effectAttributes<32>
 bonusCoefficientFromAP
+
+LAYOUT 0DEC6C81
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+effect<32>
+effectBasePoints<32>
+effectIndex<32>
+effectAura<32>
+difficultyID<32>
+effectAmplitude
+effectAuraPeriod<32>
+effectBonusCoefficient
+effectChainAmplitude
+effectChainTargets<32>
+effectDieSides<32>
+effectItemType<32>
+effectMechanic<32>
+effectPointsPerResource
+effectRealPointsPerLevel
+effectTriggerSpell<32>
+effectPos_facing
+effectAttributes<32>
+bonusCoefficientFromAP
+pvpMultiplier
+coefficient
+variance
+resourceCoefficient
+groupSizeBasePointsCoefficient
+effectSpellClassMask<32>[4]
+effectMiscValue<32>[2]
+effectRadiusIndex<32>[2]
+implicitTarget<32>[2]
+$relation$spellID<32>

@@ -1,16 +1,20 @@
 COLUMNS
-uint ID
-uint<ChrRaces::ID> DisplayRaceID
-uint DisplaySexID
-uint SkinID
-uint FaceID
-uint HairStyleID
-uint HairColorID
-uint FacialHairID
+int ID
+int<ChrRaces::ID> DisplayRaceID
+int DisplaySexID
+int SkinID
+int FaceID
+int HairStyleID
+int HairColorID
+int FacialHairID
 uint<ItemDisplayInfo::ID> NPCItemDisplay
-uint flags
+int flags
 uint<FileData::ID> fileDataID
 uint<FileData::ID> hdFileDataID
+int HDBakeMaterialResourcesID
+int bakeMaterialResourcesID
+uint customDisplayOption
+int displayClassID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -25,3 +29,19 @@ NPCItemDisplay<32>[11]
 flags<32>
 fileDataID<32>
 hdFileDataID<32>
+
+LAYOUT 6DF98EF6
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+bakeMaterialResourcesID<32>
+HDBakeMaterialResourcesID<32>
+DisplayRaceID<8>
+DisplaySexID<8>
+displayClassID<8>
+SkinID<8>
+FaceID<8>
+HairStyleID<8>
+HairColorID<8>
+FacialHairID<8>
+customDisplayOption<8>[3]
+flags<8>

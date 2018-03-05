@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
+int ID
 uint type
-uint param
+int param
 float coeff
 uint spellProcsPerMinuteID
 
@@ -11,3 +11,11 @@ type<32>
 param<32>
 coeff
 spellProcsPerMinuteID<32>
+
+LAYOUT 2503C18B
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+coeff
+param<16>
+type<8>
+$relation$spellProcsPerMinuteID<16>

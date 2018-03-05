@@ -1,10 +1,11 @@
 COLUMNS
-uint ID
-uint spellID
+int ID
+int spellID
 uint difficultyID
-uint baseLevel
-uint maxLevel
-uint spellLevel
+int baseLevel
+int maxLevel
+int spellLevel
+uint maxPassiveAuraLevel
 
 BUILD 6.0.1.18179
 ID<32>
@@ -13,3 +14,13 @@ difficultyID<32>
 baseLevel<32>
 maxLevel<32>
 spellLevel<32>
+
+LAYOUT 9E7D1CCD
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+baseLevel<16>
+maxLevel<16>
+spellLevel<16>
+difficultyID<8>
+maxPassiveAuraLevel<8>
+$relation$spellID<32>

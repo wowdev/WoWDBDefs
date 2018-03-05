@@ -1,19 +1,20 @@
 COLUMNS
-uint ID
-uint faction
-uint<Map::ID> instance_ID
-uint<Achievement::ID> supercedes
+int ID
+int faction
+int<Map::ID> instance_ID
+int<Achievement::ID> supercedes
 locstring title
 locstring description
-uint<Achievement_Category::ID> category
-uint points
-uint ui_order
-uint flags
+int<Achievement_Category::ID> category
+int points
+int ui_order
+int flags
 uint<SpellIcon::ID> iconID
 locstring reward
-uint minimum_criteria
-uint<Achievement::ID> shares_criteria
+int minimum_criteria
+int<Achievement::ID> shares_criteria
 uint criteria_tree
+int iconFileID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -30,4 +31,22 @@ iconID<32>
 reward
 minimum_criteria<32>
 shares_criteria<32>
+criteria_tree<32>
+
+LAYOUT 2C4BE18C
+BUILD 8.0.1.26095
+title
+description
+reward
+flags<32>
+instance_ID<16>
+supercedes<16>
+category<16>
+ui_order<16> // unk_8C, unk_90
+shares_criteria<16>
+faction<8>
+points<8>
+minimum_criteria<8>
+$id$ID<32>
+iconFileID<32>
 criteria_tree<32>

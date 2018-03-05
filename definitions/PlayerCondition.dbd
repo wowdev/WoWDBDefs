@@ -1,19 +1,19 @@
 COLUMNS
-uint ID
+int ID
 uint flags
 uint minLevel
 uint maxLevel
-uint raceMask
-uint classMask
-uint gender
-uint nativeGender
+int raceMask
+int classMask
+int gender
+int nativeGender
 uint skillID
 uint minSkill
 uint maxSkill
 uint skillLogic
 uint languageID
 uint minLanguage
-uint maxLanguage
+int maxLanguage
 uint minFactionID
 uint maxFactionID
 uint minReputation
@@ -29,15 +29,15 @@ uint currQuestID
 uint currentCompletedQuestLogic
 uint currentCompletedQuestID
 uint spellLogic
-uint spellID
+int spellID
 uint itemLogic
-uint itemID
+int itemID
 uint itemCount
 uint itemFlags
 uint explored
 uint time
 uint auraSpellLogic
-uint auraSpellID
+int auraSpellID
 uint worldStateExpressionID
 uint weatherID
 uint partyStatus
@@ -56,25 +56,30 @@ uint currencyCount
 uint questKillID
 uint questKillLogic
 uint questKillMonster
-uint minExpansionLevel
-uint maxExpansionLevel
-uint minExpansionTier
-uint maxExpansionTier
+int minExpansionLevel
+int maxExpansionLevel
+int minExpansionTier
+int maxExpansionTier
 uint minGuildLevel
 uint maxGuildLevel
 uint phaseUseFlags
 uint phaseID
 uint phaseGroupID
-uint minAvgItemLevel
-uint maxAvgItemLevel
+int minAvgItemLevel
+int maxAvgItemLevel
 uint minAvgEquippedItemLevel
 uint maxAvgEquippedItemLevel
-uint chrSpecializationIndex
-uint chrSpecializationRole
+int chrSpecializationIndex
+int chrSpecializationRole
 locstring failure_description
-uint powerType
+int powerType
 uint powerTypeComp
 uint powerTypeValue
+uint auraStacks
+int currentPvpFaction
+uint modifierTreeID
+int movementFlags
+int weaponSubclassMask
 
 BUILD 6.0.1.18179
 ID<32>
@@ -153,3 +158,87 @@ failure_description
 powerType<32>
 powerTypeComp<32>
 powerTypeValue<32>
+
+LAYOUT 5B3DA113
+BUILD 8.0.1.26095
+raceMask<64>
+failure_description
+$id$ID<32>
+flags<8>
+minLevel<16>
+maxLevel<16>
+classMask<32>
+gender<8>
+nativeGender<8>
+skillLogic<32>
+languageID<8>
+minLanguage<8>
+maxLanguage<32>
+maxFactionID<16>
+maxReputation<8>
+reputationLogic<32>
+currentPvpFaction<8>
+minPVPRank<8>
+maxPVPRank<8>
+pvpMedal<8>
+prevQuestLogic<32>
+currQuestLogic<32>
+currentCompletedQuestLogic<32>
+spellLogic<32>
+itemLogic<32>
+itemFlags<8>
+auraSpellLogic<32>
+worldStateExpressionID<16>
+weatherID<8>
+partyStatus<8>
+lifetimeMaxPVPRank<8>
+achievementLogic<32>
+lfgLogic<32>
+areaLogic<32>
+currencyLogic<32>
+questKillID<16>
+questKillLogic<32>
+minExpansionLevel<8>
+maxExpansionLevel<8>
+minExpansionTier<8>
+maxExpansionTier<8>
+minGuildLevel<8>
+maxGuildLevel<8>
+phaseUseFlags<8>
+phaseID<16>
+phaseGroupID<32>
+minAvgItemLevel<32>
+maxAvgItemLevel<32>
+minAvgEquippedItemLevel<16>
+maxAvgEquippedItemLevel<16>
+chrSpecializationIndex<8>
+chrSpecializationRole<8>
+powerType<8>
+powerTypeComp<8>
+powerTypeValue<8>
+modifierTreeID<32>
+weaponSubclassMask<32>
+skillID<16>[4]
+minSkill<16>[4]
+maxSkill<16>[4]
+minFactionID<32>[3]
+minReputation<8>[3]
+prevQuestID<16>[4]
+currQuestID<16>[4]
+currentCompletedQuestID<16>[4]
+spellID<32>[4]
+itemID<32>[4]
+itemCount<32>[4]
+explored<16>[2]
+time<32>[2]
+auraSpellID<32>[4]
+auraStacks<8>[4]
+achievement<16>[4]
+lfgStatus<8>[4]
+lfgCompare<8>[4]
+lfgValue<32>[4]
+areaID<16>[4]
+currencyID<32>[4]
+currencyCount<32>[4]
+questKillMonster<32>[6]
+movementFlags<32>[2]

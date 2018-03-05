@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+int baseSection
+int componentSection
+int flags
+locstring name
+int raceID
+int sex
+int uiCustomizationType
+
+LAYOUT 2183FFBB
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+sex<32>
+baseSection<32>
+uiCustomizationType<32>
+flags<32>
+componentSection<32>[3]
+$relation$raceID<32>

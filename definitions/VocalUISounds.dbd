@@ -1,9 +1,10 @@
 COLUMNS
-uint ID
+int ID
 uint vocalUIEnum
 uint raceID
 uint NormalSoundID
 uint PissedSoundID
+uint classID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -11,3 +12,11 @@ vocalUIEnum<32>
 raceID<32>
 NormalSoundID<32>[2]
 PissedSoundID<32>[2]
+
+LAYOUT ED48CFA9
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+vocalUIEnum<8>
+raceID<8>
+classID<8>
+NormalSoundID<32>[2]

@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int flavorGarrStringID
+uint garrClassSpecID
+int iconFileDataID
+locstring name
+uint orderIndex
+uint playerConditionID
+
+LAYOUT 06936172
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+iconFileDataID<32>
+orderIndex<8>
+garrClassSpecID<32>
+playerConditionID<32>
+flavorGarrStringID<32>

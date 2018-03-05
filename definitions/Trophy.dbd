@@ -3,9 +3,22 @@ uint field_2697688812?
 uint field_3183308249?
 uint field_396419682?
 uint field_247355975?
+int ID
+uint gameObjectDisplayInfoID
+locstring name
+uint playerConditionID
+uint trophyTypeID
 
 BUILD 6.0.1.18179
 field_2697688812<32>
 field_3183308249<32>
 field_396419682<32>
 field_247355975<32>
+
+LAYOUT E16151C5
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+gameObjectDisplayInfoID<16>
+trophyTypeID<8>
+playerConditionID<32>

@@ -1,11 +1,26 @@
 COLUMNS
-uint ID
+int ID
 uint NumPoints
-uint MapID
+int MapID
 uint WorldMapAreaID
+uint Floor
+int ObjectiveIndex
+uint QuestID
+uint playerConditionID
 
 BUILD 6.0.1.18179
 ID<32>
 NumPoints<32>
 MapID<32>
 WorldMapAreaID<32>
+
+LAYOUT EC15976E
+BUILD 8.0.1.26095
+$id$ID<32>
+MapID<16>
+WorldMapAreaID<16> // unk_8C, unk_90
+NumPoints<8>
+Floor<8>
+playerConditionID<32>
+QuestID<32>
+ObjectiveIndex<32>

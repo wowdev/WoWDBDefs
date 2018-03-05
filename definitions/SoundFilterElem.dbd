@@ -1,8 +1,8 @@
 COLUMNS
-uint ID
-uint soundFilterID
+int ID
+int soundFilterID
 uint orderIndex
-uint filterType
+int filterType
 float params
 
 BUILD 6.0.1.18179
@@ -11,3 +11,10 @@ soundFilterID<32>
 orderIndex<32>
 filterType<32>
 params[9]
+
+LAYOUT E17AC589
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+params[9]
+filterType<8>
+$relation$soundFilterID<8>

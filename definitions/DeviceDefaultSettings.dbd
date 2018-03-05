@@ -3,9 +3,20 @@ uint field_509119936?
 uint field_243266751?
 uint field_1019086352?
 uint field_2909717195?
+int ID
+uint defaultSetting
+uint deviceID
+uint vendorID
 
 BUILD 6.0.1.18179
 field_509119936<32>
 field_243266751<32>
 field_1019086352<32>
 field_2909717195<32>
+
+LAYOUT 90CFEC8C
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+vendorID<16>
+deviceID<16>
+defaultSetting<8>

@@ -5,6 +5,11 @@ uint field_848689145?
 uint field_3628750783?
 uint field_1662039940?
 uint field_862845563?
+int ID
+uint clientDisplayExpansion
+int fontFileDataID
+uint secondary
+uint wowLocale
 
 BUILD 6.0.1.18179
 field_3029283311<32>
@@ -13,3 +18,11 @@ field_848689145<32>
 field_3628750783<32>
 field_1662039940<32>
 field_862845563<32>
+
+LAYOUT 592AE13B
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+fontFileDataID<32>
+wowLocale<8>
+secondary<8>
+clientDisplayExpansion<8>

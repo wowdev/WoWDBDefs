@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint DisplayPower
 string petNameToken
 locstring name
@@ -17,6 +17,8 @@ uint<FileData::ID> createScreenFileDataID
 uint<FileData::ID> selectScreenFileDataID
 uint<FileData::ID> lowResScreenFileDataID
 uint<FileData::ID> iconFileDataID
+uint primaryStatPriority
+int startingLevel
 
 BUILD 6.0.1.18179
 ID<32>
@@ -37,3 +39,26 @@ createScreenFileDataID<32>
 selectScreenFileDataID<32>
 lowResScreenFileDataID<32>
 iconFileDataID<32>
+
+LAYOUT 6F7AB8E7
+BUILD 8.0.1.26095
+petNameToken
+name
+name_female
+name_male
+filename
+createScreenFileDataID<32>
+selectScreenFileDataID<32>
+lowResScreenFileDataID<32>
+iconFileDataID<32>
+startingLevel<32>
+flags<16>
+cinematicSequenceID<16>
+defaultSpec<16>
+DisplayPower<8>
+spellClassSet<8>
+attackPowerPerStrength<8>
+attackPowerPerAgility<8>
+rangedAttackPowerPerAgility<8>
+primaryStatPriority<8>
+$id$ID<32>

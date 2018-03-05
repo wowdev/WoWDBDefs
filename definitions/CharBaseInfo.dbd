@@ -1,11 +1,18 @@
 COLUMNS
 uint padding_3094438312?
-uint<ChrRaces::ID> raceID
-uint<ChrClasses::ID> classID
+int<ChrRaces::ID> raceID
+int<ChrClasses::ID> classID
 uint padding_2465903404?
+int ID
 
 BUILD 6.0.1.18179
 padding_3094438312<8>[4]
 raceID<8>
 classID<8>
 padding_2465903404<8>[2]
+
+LAYOUT 9E9939B8
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+raceID<8>
+classID<8>

@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<SoundEntries::ID> soundExertionID
 uint<SoundEntries::ID> soundExertionCriticalID
 uint<SoundEntries::ID> soundInjuryID
@@ -32,6 +32,13 @@ uint<SoundEntries::ID> submergedSoundID
 uint<CreatureSoundData::ID> creatureSoundDataIDPet
 uint<SoundEntries::ID> transformSoundID
 uint<SoundEntries::ID> transformAnimatedSoundID
+uint battleShoutCriticalSoundID
+uint battleShoutSoundID
+uint chargeCriticalSoundID
+uint chargeSoundID
+uint tauntSoundID
+uint windupCriticalSoundID
+uint windupSoundID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -67,3 +74,44 @@ submergedSoundID<32>
 creatureSoundDataIDPet<32>
 transformSoundID<32>
 transformAnimatedSoundID<32>
+
+LAYOUT 7C3C39B9
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+fidgetDelaySecondsMin
+fidgetDelaySecondsMax
+creatureImpactType<8>
+soundExertionID<32>
+soundExertionCriticalID<32>
+soundInjuryID<32>
+soundInjuryCriticalID<32>
+soundInjuryCrushingBlowID<32>
+soundDeathID<32>
+soundStunID<32>
+soundStandID<32>
+soundFootstepID<32>
+soundAggroID<32>
+soundWingFlapID<32>
+soundWingGlideID<32>
+soundAlertID<32>
+NPCSoundID<32>
+loopSoundID<32>
+soundJumpStartID<32>
+soundJumpEndID<32>
+soundPetAttackID<32>
+soundPetOrderID<32>
+soundPetDismissID<32>
+birthSoundID<32>
+spellCastDirectedSoundID<32>
+submergeSoundID<32>
+submergedSoundID<32>
+creatureSoundDataIDPet<32>
+windupSoundID<32>
+windupCriticalSoundID<32>
+chargeSoundID<32>
+chargeCriticalSoundID<32>
+battleShoutSoundID<32>
+battleShoutCriticalSoundID<32>
+tauntSoundID<32>
+soundFidget<32>[5]
+customAttack<32>[4]

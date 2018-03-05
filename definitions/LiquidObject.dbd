@@ -1,8 +1,8 @@
 COLUMNS
-uint ID
+int ID
 float flowDirection
 float flowSpeed
-uint<LiquidType::ID> liquidTypeID
+int<LiquidType::ID> liquidTypeID
 uint fishable
 uint reflection
 
@@ -13,3 +13,12 @@ flowSpeed
 liquidTypeID<32>
 fishable<32>
 reflection<32>
+
+LAYOUT ACC168A6
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+flowDirection
+flowSpeed
+liquidTypeID<16>
+fishable<8>
+reflection<8>

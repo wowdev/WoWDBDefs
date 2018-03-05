@@ -1,10 +1,10 @@
 COLUMNS
-uint ID
+int ID
 uint Condition_ID
 locstring name
 locstring name1
-uint mask_ID
-uint flags
+int mask_ID
+int flags
 
 BUILD 6.0.1.18179
 ID<32>
@@ -13,3 +13,11 @@ name
 name1
 mask_ID<32>
 flags<32>
+
+LAYOUT 7A58AA5F
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+name1
+mask_ID<16>
+flags<8>

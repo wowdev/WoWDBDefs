@@ -1,7 +1,13 @@
 COLUMNS
 uint FileDataID
 uint resolution
+int ID
 
 BUILD 6.0.1.18179
 FileDataID<32>
 resolution<32>
+
+LAYOUT AA16D59F
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+resolution<16>

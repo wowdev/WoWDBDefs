@@ -1,11 +1,15 @@
 COLUMNS
-uint ID
+int ID
 uint<Map::ID> mapID
 uint<Difficulty::ID> difficultyID
 locstring message
 uint raidDuration
 uint maxPlayers
 uint lockID
+uint flags
+uint itemContext
+uint itemContextPickerID
+uint resetInterval
 
 BUILD 6.0.1.18179
 ID<32>
@@ -15,3 +19,16 @@ message
 raidDuration<32>
 maxPlayers<32>
 lockID<32>
+
+LAYOUT 2B3B759E
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+message
+difficultyID<8>
+resetInterval<8>
+maxPlayers<8>
+lockID<8>
+flags<8>
+itemContext<8>
+itemContextPickerID<32>
+$relation$mapID<16>

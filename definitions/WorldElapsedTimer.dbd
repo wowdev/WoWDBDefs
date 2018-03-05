@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 locstring name
 uint flags
 uint type
@@ -9,3 +9,10 @@ ID<32>
 name
 flags<32>
 type<32>
+
+LAYOUT 6C026FDE
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+flags<8>
+type<8>

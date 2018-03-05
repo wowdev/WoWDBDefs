@@ -2,8 +2,17 @@ COLUMNS
 uint field_2591623678?
 float field_1558948286?
 float field_3672281137?
+int ID
+float pos
+float rot
 
 BUILD 6.0.1.18179
 field_2591623678<32>
 field_1558948286[3]
 field_3672281137[3]
+
+LAYOUT BBC1BE7A
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+pos[3]
+rot[3]

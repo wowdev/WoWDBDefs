@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
+int ID
 uint doodadID
-uint doodadWeight
+int doodadWeight
 uint density
 uint sound
 
@@ -11,3 +11,11 @@ doodadID<32>[4]
 doodadWeight<32>[4]
 density<32>
 sound<32>
+
+LAYOUT 84549F0A
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+doodadID<16>[4]
+doodadWeight<8>[4]
+sound<8>
+density<32>

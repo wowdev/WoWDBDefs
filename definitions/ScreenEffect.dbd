@@ -1,16 +1,17 @@
 COLUMNS
-uint ID
+int ID
 string name
 uint effect
-uint param
+int param
 uint lightParamsID
 uint lightParamsFadeIn
 uint lightParamsFadeOut
 uint lightFlags
 uint soundAmbienceID
 uint zoneMusicID
-uint timeOfDayOverride
-uint effectMask
+int timeOfDayOverride
+int effectMask
+uint fullScreenEffectID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -25,3 +26,19 @@ soundAmbienceID<32>
 zoneMusicID<32>
 timeOfDayOverride<32>
 effectMask<32>
+
+LAYOUT 4D5B91C5
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+param<32>[4]
+lightParamsID<16>
+lightParamsFadeIn<16>
+lightParamsFadeOut<16>
+timeOfDayOverride<16>
+effect<8>
+lightFlags<8>
+effectMask<8>
+fullScreenEffectID<32>
+soundAmbienceID<32>
+zoneMusicID<32>

@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint movieID
 uint fileDataID
 uint OverlayFileDataID
@@ -9,3 +9,10 @@ ID<32>
 movieID<32>
 fileDataID<32>
 OverlayFileDataID<32>
+
+LAYOUT 3BFD250E
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+fileDataID<32>
+OverlayFileDataID<32>
+$relation$movieID<16>

@@ -4,6 +4,16 @@ uint field_1203811381?
 uint field_1914305138?
 uint field_2508543345?
 uint field_374087848?
+int ID
+uint garrLevel
+uint garrSiteID
+uint mapID
+uint maxBuildingLevel
+float townHallUiPos
+uint uiTextureKitID
+uint upgradeCost
+uint upgradeGoldCost
+uint upgradeMovieID
 
 BUILD 6.0.1.18179
 field_1241679507<32>
@@ -11,3 +21,16 @@ field_1203811381<32>
 field_1914305138<32>
 field_2508543345<32>
 field_374087848<32>
+
+LAYOUT D3979C38
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+townHallUiPos[2]
+mapID<16>
+uiTextureKitID<16>
+upgradeMovieID<16>
+upgradeCost<16>
+upgradeGoldCost<16>
+garrLevel<8>
+garrSiteID<8>
+maxBuildingLevel<8>

@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
-uint flags
-uint attachmentID
+int ID
+int flags
+int attachmentID
 float attachmentOffset
 float enterPreDelay
 float enterSpeed
@@ -10,12 +10,12 @@ float enterMinDuration
 float enterMaxDuration
 float enterMinArcHeight
 float enterMaxArcHeight
-uint enterAnimStart
-uint enterAnimLoop
-uint rideAnimStart
-uint rideAnimLoop
-uint rideUpperAnimStart
-uint rideUpperAnimLoop
+int enterAnimStart
+int enterAnimLoop
+int rideAnimStart
+int rideAnimLoop
+int rideUpperAnimStart
+int rideUpperAnimLoop
 float exitPreDelay
 float exitSpeed
 float exitGravity
@@ -23,25 +23,25 @@ float exitMinDuration
 float exitMaxDuration
 float exitMinArcHeight
 float exitMaxArcHeight
-uint exitAnimStart
-uint exitAnimLoop
-uint exitAnimEnd
+int exitAnimStart
+int exitAnimLoop
+int exitAnimEnd
 float passengerYaw
 float passengerPitch
 float passengerRoll
-uint passengerAttachmentID
-uint vehicleEnterAnim
-uint vehicleExitAnim
-uint vehicleRideAnimLoop
-uint vehicleEnterAnimBone
-uint vehicleExitAnimBone
-uint vehicleRideAnimLoopBone
+int passengerAttachmentID
+int vehicleEnterAnim
+int vehicleExitAnim
+int vehicleRideAnimLoop
+int vehicleEnterAnimBone
+int vehicleExitAnimBone
+int vehicleRideAnimLoopBone
 float vehicleEnterAnimDelay
 float vehicleExitAnimDelay
-uint vehicleAbilityDisplay
+int vehicleAbilityDisplay
 uint<SoundEntries::ID> enterUISoundID
 uint<SoundEntries::ID> exitUISoundID
-uint flagsB
+int flagsB
 float cameraEnteringDelay
 float cameraEnteringDuration
 float cameraExitingDelay
@@ -52,15 +52,15 @@ float cameraFacingChaseRate
 float cameraEnteringZoom
 float cameraSeatZoomMin
 float cameraSeatZoomMax
-uint<AnimKit::ID> enterAnimKitID
-uint<AnimKit::ID> rideAnimKitID
-uint<AnimKit::ID> exitAnimKitID
-uint<AnimKit::ID> vehicleEnterAnimKitID
-uint<AnimKit::ID> vehicleRideAnimKitID
-uint<AnimKit::ID> vehicleExitAnimKitID
-uint cameraModeID
-uint flagsC
-uint<FileData::ID> uiSkinFileDataID
+int<AnimKit::ID> enterAnimKitID
+int<AnimKit::ID> rideAnimKitID
+int<AnimKit::ID> exitAnimKitID
+int<AnimKit::ID> vehicleEnterAnimKitID
+int<AnimKit::ID> vehicleRideAnimKitID
+int<AnimKit::ID> vehicleExitAnimKitID
+int cameraModeID
+int flagsC
+int<FileData::ID> uiSkinFileDataID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -125,3 +125,68 @@ vehicleExitAnimKitID<32>
 cameraModeID<32>
 flagsC<32>
 uiSkinFileDataID<32>
+
+LAYOUT 242E0ECD
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+flags<32>
+flagsB<32>
+flagsC<32>
+attachmentOffset[3]
+enterPreDelay
+enterSpeed
+enterGravity
+enterMinDuration
+enterMaxDuration
+enterMinArcHeight
+enterMaxArcHeight
+exitPreDelay
+exitSpeed
+exitGravity
+exitMinDuration
+exitMaxDuration
+exitMinArcHeight
+exitMaxArcHeight
+passengerYaw
+passengerPitch
+passengerRoll
+vehicleEnterAnimDelay
+vehicleExitAnimDelay
+cameraEnteringDelay
+cameraEnteringDuration
+cameraExitingDelay
+cameraExitingDuration
+cameraOffset[3]
+cameraPosChaseRate
+cameraFacingChaseRate
+cameraEnteringZoom
+cameraSeatZoomMin
+cameraSeatZoomMax
+uiSkinFileDataID<32>
+enterAnimStart<16>
+enterAnimLoop<16>
+rideAnimStart<16>
+rideAnimLoop<16>
+rideUpperAnimStart<16>
+rideUpperAnimLoop<16>
+exitAnimStart<16>
+exitAnimLoop<16>
+exitAnimEnd<16>
+vehicleEnterAnim<16>
+vehicleExitAnim<16>
+vehicleRideAnimLoop<16>
+enterAnimKitID<16>
+rideAnimKitID<16>
+exitAnimKitID<16>
+vehicleEnterAnimKitID<16>
+vehicleRideAnimKitID<16>
+vehicleExitAnimKitID<16>
+cameraModeID<16>
+attachmentID<8>
+passengerAttachmentID<8>
+vehicleEnterAnimBone<8>
+vehicleExitAnimBone<8>
+vehicleRideAnimLoopBone<8>
+vehicleAbilityDisplay<8>
+enterUISoundID<32>
+exitUISoundID<32>

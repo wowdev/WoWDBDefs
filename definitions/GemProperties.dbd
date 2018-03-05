@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint enchant_ID
 uint maxcount_inv
 uint maxcount_item
@@ -13,3 +13,10 @@ maxcount_inv<32>
 maxcount_item<32>
 type<32>
 min_item_level<32>
+
+LAYOUT 84558CAB
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+type<32>
+enchant_ID<16>
+min_item_level<16>

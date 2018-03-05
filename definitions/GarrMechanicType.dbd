@@ -4,6 +4,11 @@ uint field_1342412990?
 string field_3758581035?
 string field_2901911814?
 uint field_2945957907?
+int ID
+uint category
+locstring description
+int iconFileDataID
+locstring name
 
 BUILD 6.0.1.18179
 field_544913284<32>
@@ -11,3 +16,11 @@ field_1342412990<32>
 field_3758581035
 field_2901911814
 field_2945957907<32>
+
+LAYOUT 6FEA569F
+BUILD 8.0.1.26095
+name
+description
+iconFileDataID<32>
+category<8>
+$id$ID<32>

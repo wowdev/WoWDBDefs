@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint flags
+uint itemContextPickerID
+uint itemCreationContext
+uint orderIndex
+int pVal
+uint playerConditionID
+
+LAYOUT 4A6DF90B
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+itemCreationContext<8>
+orderIndex<8>
+pVal<32>
+flags<32>
+playerConditionID<32>
+$relation$itemContextPickerID<32>

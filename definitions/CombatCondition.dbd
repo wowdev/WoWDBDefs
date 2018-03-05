@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<WorldStateExpression::ID> worldStateExpressionID
 uint<UnitCondition::ID> selfConditionID
 uint<UnitCondition::ID> targetConditionID
@@ -25,3 +25,18 @@ enemyConditionID<32>[2]
 enemyConditionOp<32>[2]
 enemyConditionCount<32>[2]
 enemyConditionLogic<32>
+
+LAYOUT 28D253C6
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+worldStateExpressionID<16>
+selfConditionID<16>
+targetConditionID<16>
+friendConditionID<16>[2]
+enemyConditionID<16>[2]
+friendConditionOp<8>[2]
+friendConditionCount<8>[2]
+friendConditionLogic<8>
+enemyConditionOp<8>[2]
+enemyConditionCount<8>[2]
+enemyConditionLogic<8>

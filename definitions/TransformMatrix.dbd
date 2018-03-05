@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+float pitch
+float pos
+float roll
+float scale
+float yaw
+
+LAYOUT B6A2C431
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+pos[3]
+yaw
+pitch
+roll
+scale

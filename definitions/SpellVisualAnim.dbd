@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint animKitID
+int initialAnimID
+int loopAnimID
+
+LAYOUT 0ABD7A19
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+initialAnimID<16>
+loopAnimID<16>
+animKitID<16>

@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 locstring name
 string internalName
 uint enchantment
@@ -11,3 +11,10 @@ name
 internalName
 enchantment<32>[5]
 allocationPct<32>[5]
+
+LAYOUT 95CAB825
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+enchantment<16>[5]
+allocationPct<16>[5]

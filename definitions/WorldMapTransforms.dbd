@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<Map::ID> mapID
 float regionMin
 float regionMax
@@ -9,6 +9,9 @@ uint<DungeonMap::ID> newDungeonMapID
 uint flags
 uint<AreaTable::ID> newAreaID
 float regionScale
+uint areaID
+int priority
+float region
 
 BUILD 6.0.1.18179
 ID<32>
@@ -21,3 +24,17 @@ newDungeonMapID<32>
 flags<32>
 newAreaID<32>
 regionScale
+
+LAYOUT 99FB4B71
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+region[6]
+regionOffset[2]
+regionScale
+mapID<16> // unk_8C, unk_90
+areaID<16>
+newMapID<16>
+newDungeonMapID<16>
+newAreaID<16>
+flags<8>
+priority<32>

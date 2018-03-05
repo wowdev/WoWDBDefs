@@ -1,9 +1,15 @@
 COLUMNS
-uint ID
+int ID
 float qualitymod
-uint itemLevel
+int itemLevel
 
 BUILD 6.0.1.18179
 ID<32>
 qualitymod[7]
 itemLevel<32>
+
+LAYOUT 85642CC0
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+qualitymod[7]
+itemLevel<16>

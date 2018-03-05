@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 float waveAmp
 float waveTimeScale
 float rollAmp
@@ -13,6 +13,20 @@ float speedDamp
 
 BUILD 6.0.1.18179
 ID<32>
+waveAmp
+waveTimeScale
+rollAmp
+rollTimeScale
+pitchAmp
+pitchTimeScale
+maxBank
+maxBankTurnSpeed
+speedDampThresh
+speedDamp
+
+LAYOUT 2C1FB208
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
 waveAmp
 waveTimeScale
 rollAmp

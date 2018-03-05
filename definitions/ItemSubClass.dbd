@@ -1,17 +1,19 @@
 COLUMNS
 uint padding_3538289966?
-uint classID
-uint subClassID
-uint prerequisiteProficiency
-uint postrequisiteProficiency
-uint flags
-uint displayFlags
+int classID
+int subClassID
+int prerequisiteProficiency
+int postrequisiteProficiency
+int flags
+int displayFlags
 uint weaponParrySeq
 uint weaponReadySeq
 uint weaponAttackSeq
-uint WeaponSwingSize
+int WeaponSwingSize
 locstring displayName
 locstring verboseName
+int ID
+uint auctionHouseSortOrder
 
 BUILD 6.0.1.18179
 padding_3538289966<8>[4]
@@ -27,3 +29,17 @@ weaponAttackSeq<32>
 WeaponSwingSize<32>
 displayName
 verboseName
+
+LAYOUT DAD92A67
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+displayName
+verboseName
+flags<16>
+classID<8> // unk_8C, unk_90
+subClassID<8>
+prerequisiteProficiency<8>
+postrequisiteProficiency<8>
+displayFlags<8>
+WeaponSwingSize<8>
+auctionHouseSortOrder<8>

@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint vehicleUIIndicatorID
 uint virtualSeatIndex
 float xPos
@@ -11,3 +11,11 @@ vehicleUIIndicatorID<32>
 virtualSeatIndex<32>
 xPos
 yPos
+
+LAYOUT 5F688502
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+xPos
+yPos
+virtualSeatIndex<8>
+$relation$vehicleUIIndicatorID<16>

@@ -1,9 +1,15 @@
 COLUMNS
-uint ID
+int ID
 uint<CriteriaTree::ID> criteriaTreeID
-uint<WorldEffect::ID> worldEffectID
+int<WorldEffect::ID> worldEffectID
 
 BUILD 6.0.1.18179
 ID<32>
 criteriaTreeID<32>
 worldEffectID<32>
+
+LAYOUT 929D9B0C
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+worldEffectID<16>
+$relation$criteriaTreeID<32>

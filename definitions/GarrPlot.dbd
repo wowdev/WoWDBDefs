@@ -5,6 +5,12 @@ uint field_1240066734?
 uint field_675739378?
 string name
 uint upgradeRequirement
+int ID
+int allianceConstructObjID
+uint flags
+int hordeConstructObjID
+uint plotType
+uint uiCategoryID
 
 BUILD 6.0.1.18179
 field_437692510<32>
@@ -12,4 +18,15 @@ field_3673847192<32>
 field_1240066734<32>
 field_675739378<32>
 name
+upgradeRequirement<32>[2]
+
+LAYOUT E12049E0
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+allianceConstructObjID<32>
+hordeConstructObjID<32>
+uiCategoryID<8>
+plotType<8>
+flags<8>
 upgradeRequirement<32>[2]

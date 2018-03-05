@@ -1,19 +1,19 @@
 COLUMNS
-uint ID
-uint<Map::ID> ContinentID
+int ID
+int<Map::ID> ContinentID
 float pos
-uint phaseUseFlags
-uint<Phase::ID> phaseID
-uint<PhaseXPhaseGroup::ID> phaseGroupID
+int phaseUseFlags
+int<Phase::ID> phaseID
+int<PhaseXPhaseGroup::ID> phaseGroupID
 float radius
 float box_length
 float box_width
 float box_height
 float box_yaw
-uint shapeType
-uint shapeID
-uint<AreaTriggerActionSet::ID> areaTriggerActionSetID
-uint flags
+int shapeType
+int shapeID
+int<AreaTriggerActionSet::ID> areaTriggerActionSetID
+int flags
 
 BUILD 6.0.1.18179
 ID<32>
@@ -31,3 +31,21 @@ shapeType<32>
 shapeID<32>
 areaTriggerActionSetID<32>
 flags<32>
+
+LAYOUT 378573E8
+BUILD 8.0.1.26095
+pos[3]
+radius
+box_length
+box_width
+box_height
+box_yaw
+ContinentID<16> // unk_8C, unk_90
+phaseID<16>
+phaseGroupID<16>
+shapeID<16>
+areaTriggerActionSetID<16>
+phaseUseFlags<8>
+shapeType<8>
+flags<8>
+$id$ID<32>

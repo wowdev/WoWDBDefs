@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint SizeClass
 uint<TerrainTypeSounds::ID> TerrainTypeSoundID
 uint<SoundEntries::ID> SoundEntryID
@@ -9,5 +9,13 @@ BUILD 6.0.1.18179
 ID<32>
 SizeClass<32>
 TerrainTypeSoundID<32>
+SoundEntryID<32>
+SoundEntryIDWater<32>
+
+LAYOUT D469085C
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+SizeClass<8>
+TerrainTypeSoundID<8>
 SoundEntryID<32>
 SoundEntryIDWater<32>

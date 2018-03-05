@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint<Map::ID> mapID
+int ID
+int<Map::ID> mapID
 uint<AreaTable::ID> areaID
 uint phaseUseFlags
 uint<Phase::ID> phaseID
@@ -14,6 +14,9 @@ string dynamicIcon
 locstring dynamicTooltip
 string extendedUI
 uint extendedUIStateVariable
+int dynamicFlashIconFileID
+int dynamicIconFileID
+uint orderIndex
 
 BUILD 6.0.1.18179
 ID<32>
@@ -31,3 +34,23 @@ dynamicIcon
 dynamicTooltip
 extendedUI
 extendedUIStateVariable<32>[3]
+
+LAYOUT 70808977
+BUILD 8.0.1.26095
+icon
+extendedUI
+dynamicTooltip
+string
+tooltip
+mapID<16> // unk_8C, unk_90
+areaID<16>
+phaseID<16>
+phaseGroupID<16>
+stateVariable<16>
+extendedUIStateVariable<16>[3]
+orderIndex<8>
+phaseUseFlags<8>
+type<8>
+$id$ID<32>
+dynamicIconFileID<32>
+dynamicFlashIconFileID<32>

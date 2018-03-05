@@ -6,6 +6,7 @@ uint ChunkY
 uint SubchunkX
 uint SubchunkY
 uint SoundOverrideID
+int ID
 
 BUILD 6.0.1.18179
 padding_3558902392<8>[4]
@@ -15,3 +16,13 @@ ChunkY<32>
 SubchunkX<32>
 SubchunkY<32>
 SoundOverrideID<32>
+
+LAYOUT D06AA126
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+MapID<16>
+ChunkX<8>
+ChunkY<8>
+SubchunkX<8>
+SubchunkY<8>
+SoundOverrideID<8>

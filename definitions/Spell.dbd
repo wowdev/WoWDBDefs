@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 locstring name
 locstring nameSubtext
 locstring description
@@ -49,3 +49,11 @@ targetRestrictionsID<32>
 totemsID<32>
 requiredProjectID<32>
 miscID<32>
+
+LAYOUT 2273DFFF
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+nameSubtext
+description
+auraDescription

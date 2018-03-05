@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 string Name
 uint<SoundEntries::ID> SoundID
 uint Priority
@@ -11,3 +11,11 @@ Name
 SoundID<32>
 Priority<32>
 MinDelayMinutes<32>
+
+LAYOUT 1F8417ED
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+Name
+MinDelayMinutes<16>
+Priority<8>
+SoundID<32>

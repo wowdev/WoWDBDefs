@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int itemDisplayInfoID
+int itemSlot
+int npcModelID
+
+LAYOUT 11D16204
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+itemDisplayInfoID<32>
+itemSlot<8>
+$relation$npcModelID<32>

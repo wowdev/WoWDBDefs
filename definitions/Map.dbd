@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 string Directory // reference to World\Map\ [...] \
 uint PVP
 uint IsInMap
@@ -12,10 +12,10 @@ uint maxPlayers
 uint unk0?
 uint unk1?
 uint unk2?
-uint<Map::ID> parentMapID
+int<Map::ID> parentMapID
 locstring MapDescription0 // Horde
 locstring MapDescription1 // Alliance
-uint<LoadingScreens::ID> LoadingScreenID
+int<LoadingScreens::ID> LoadingScreenID
 uint raidOffset
 uint continentname?
 uint unk3?
@@ -25,14 +25,14 @@ uint unk4?
 int timeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
 uint expansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
 uint unk5? // Another resettime? Is the same as the heroic one for some entries.
-uint Flags? // probaby same as isBattleground
-uint<Map::ID> corpseMapID
+int Flags? // probaby same as isBattleground
+int<Map::ID> corpseMapID
 float CorpsePosX?
 float CorpsePosY?
 float corpse // Array of CorpsePosX/CorpsePosY
-uint<Map::ID> cosmeticParentMapID
+int<Map::ID> cosmeticParentMapID
 uint timeOffset
-uint<WindSettings::ID> WindSettingsID
+int<WindSettings::ID> WindSettingsID
 locstring PvpShortDescription
 locstring PvpLongDescription
 

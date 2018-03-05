@@ -4,6 +4,9 @@ string field_61318029?
 string field_737053153?
 uint field_2307814155?
 uint field_3401050353?
+int ID
+uint firstSceneScriptID
+uint nextSceneScriptID
 
 BUILD 6.0.1.18179
 field_4078160639<32>
@@ -11,3 +14,9 @@ field_61318029
 field_737053153
 field_2307814155<32>
 field_3401050353<32>
+
+LAYOUT C694B81E
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+firstSceneScriptID<16>
+nextSceneScriptID<16>

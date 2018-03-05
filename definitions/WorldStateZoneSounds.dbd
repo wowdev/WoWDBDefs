@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint<WorldState::ID> WorldStateID
 uint WorldStateValue
 uint<AreaTable::ID> AreaID
@@ -19,3 +19,15 @@ ZoneIntroMusicID<32>
 ZoneMusicID<32>
 SoundAmbienceID<32>
 SoundProviderPreferencesID<32>
+
+LAYOUT B9572D3D
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+WMOAreaID<32>
+WorldStateID<16>
+WorldStateValue<16>
+AreaID<16>
+ZoneIntroMusicID<16>
+ZoneMusicID<16>
+SoundAmbienceID<16>
+SoundProviderPreferencesID<8>

@@ -1,10 +1,10 @@
 COLUMNS
-uint ID
-uint spellID
+int ID
+int spellID
 uint difficultyID
-uint auraInterruptFlags
-uint channelInterruptFlags
-uint interruptFlags
+int auraInterruptFlags
+int channelInterruptFlags
+int interruptFlags
 
 BUILD 6.0.1.18179
 ID<32>
@@ -13,3 +13,12 @@ difficultyID<32>
 auraInterruptFlags<32>[2]
 channelInterruptFlags<32>[2]
 interruptFlags<32>
+
+LAYOUT 2FA8EA94
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+difficultyID<8>
+interruptFlags<16>
+auraInterruptFlags<32>[2]
+channelInterruptFlags<32>[2]
+$relation$spellID<32>

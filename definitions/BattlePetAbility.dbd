@@ -7,6 +7,14 @@ uint field_2633262811?
 uint field_361225043?
 string field_3399536753?
 string field_955915059?
+int ID
+uint battlePetVisualID
+uint cooldown
+locstring description
+uint flags
+int iconFileDataID
+locstring name
+int petTypeEnum
 
 BUILD 6.0.1.18179
 field_2003222025<32>
@@ -17,3 +25,14 @@ field_2633262811<32>
 field_361225043<32>
 field_3399536753
 field_955915059
+
+LAYOUT 0F29944D
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+description
+iconFileDataID<32>
+battlePetVisualID<16>
+petTypeEnum<8>
+flags<8>
+cooldown<32>

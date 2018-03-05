@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint itemLevel
+int ID
+int itemLevel
 float cloth
 float leather
 float mail
@@ -13,3 +13,12 @@ cloth
 leather
 mail
 plate
+
+LAYOUT 45C396DD
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+cloth
+leather
+mail
+plate
+itemLevel<16>

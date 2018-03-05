@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int flags
+uint itemModifiedAppearanceID
+uint transmogSetID
+
+LAYOUT 0E96B3A2
+BUILD 8.0.1.26095
+$id$ID<32>
+transmogSetID<32> // unk_8C, unk_90
+itemModifiedAppearanceID<32>
+flags<32>

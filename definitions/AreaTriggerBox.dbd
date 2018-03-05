@@ -1,7 +1,12 @@
 COLUMNS
-uint ID
+int ID
 float extents
 
 BUILD 6.0.1.18179
 ID<32>
+extents[3]
+
+LAYOUT 602CFDA6
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
 extents[3]

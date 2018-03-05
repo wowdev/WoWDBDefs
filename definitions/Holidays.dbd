@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 uint duration
 uint date
 uint region
@@ -9,8 +9,9 @@ uint<HolidayNames::ID> holidayNameID
 uint<HolidayDescriptions::ID> holidayDescriptionID
 string textureFilename
 uint priority
-uint calendarFilterType
+int calendarFilterType
 uint flags
+int textureFileDataID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -25,3 +26,18 @@ textureFilename
 priority<32>
 calendarFilterType<32>
 flags<32>
+
+LAYOUT 7C3E60FC
+BUILD 8.0.1.26095
+$id$ID<32>
+date<32>[16]
+duration<16>[10]
+region<16>
+looping<8>
+calendarFlags<8>[10]
+priority<8>
+calendarFilterType<8>
+flags<8>
+holidayNameID<32>
+holidayDescriptionID<32>
+textureFileDataID<32>[3]

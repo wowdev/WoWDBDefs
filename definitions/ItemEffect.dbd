@@ -8,6 +8,16 @@ uint field_1140207470?
 uint field_3015362500?
 uint field_3497675928?
 uint field_1248757658?
+int ID
+int categoryCoolDownMSec
+int charges
+uint chrSpecializationID
+int coolDownMSec
+uint legacySlotIndex
+int parentItemID
+uint spellCategoryID
+int spellID
+int triggerType
 
 BUILD 6.0.1.18179
 field_1377391753<32>
@@ -19,3 +29,16 @@ field_1140207470<32>
 field_3015362500<32>
 field_3497675928<32>
 field_1248757658<32>
+
+LAYOUT A390FA40
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+spellID<32>
+coolDownMSec<32>
+categoryCoolDownMSec<32>
+charges<16>
+spellCategoryID<16>
+chrSpecializationID<16>
+legacySlotIndex<8>
+triggerType<8>
+$relation$parentItemID<32>

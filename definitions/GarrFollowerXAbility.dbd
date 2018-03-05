@@ -2,8 +2,19 @@ COLUMNS
 uint field_2342133336?
 uint field_3550242262?
 uint field_788489512?
+int ID
+uint factionIndex
+uint garrAbilityID
+uint garrFollowerID
 
 BUILD 6.0.1.18179
 field_2342133336<32>
 field_3550242262<32>
 field_788489512<32>
+
+LAYOUT 996447F1
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+garrAbilityID<16>
+factionIndex<8>
+$relation$garrFollowerID<16>

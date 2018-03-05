@@ -2,8 +2,17 @@ COLUMNS
 uint field_3167224332?
 uint field_2853828130?
 uint field_3157584867?
+int ID
+uint deviceID
+uint vendorID
 
 BUILD 6.0.1.18179
 field_3167224332<32>
 field_2853828130<32>
 field_3157584867<32>
+
+LAYOUT D956413D
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+vendorID<16>
+deviceID<16>

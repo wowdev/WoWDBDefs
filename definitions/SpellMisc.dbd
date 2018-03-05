@@ -1,8 +1,8 @@
 COLUMNS
-uint ID
-uint spellID
+int ID
+int spellID
 uint difficultyID
-uint attributes
+int attributes
 uint castingTimeIndex
 uint durationIndex
 uint rangeIndex
@@ -11,6 +11,9 @@ uint spellVisualID
 uint spellIconID
 uint activeIconID
 uint schoolMask
+int activeIconFileDataID
+float launchDelay
+int spellIconFileDataID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -25,3 +28,18 @@ spellVisualID<32>[2]
 spellIconID<32>
 activeIconID<32>
 schoolMask<32>
+
+LAYOUT CDC114D5
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+castingTimeIndex<16>
+durationIndex<16>
+rangeIndex<16>
+schoolMask<8>
+spellIconFileDataID<32>
+speed
+activeIconFileDataID<32>
+launchDelay
+difficultyID<8>
+attributes<32>[14]
+$relation$spellID<32>

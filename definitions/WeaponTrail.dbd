@@ -1,10 +1,19 @@
 COLUMNS
-uint ID
+int ID
 uint field_3757773438?
 float field_4205570622?
 float field_3592496045?
 float field_2343723469?
 float field_477369767?
+int fileDataID
+float pitch
+float roll
+int textureFileDataID
+float textureScaleU
+float textureScaleV
+float textureScrollRateU
+float textureScrollRateV
+float yaw
 
 BUILD 6.0.1.18179
 ID
@@ -13,3 +22,16 @@ field_4205570622
 field_3592496045
 field_2343723469
 field_477369767
+
+LAYOUT 49754C60
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+fileDataID<32>
+yaw
+pitch
+roll
+textureFileDataID<32>[3]
+textureScrollRateU[3]
+textureScrollRateV[3]
+textureScaleU[3]
+textureScaleV[3]

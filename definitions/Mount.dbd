@@ -8,6 +8,17 @@ string field_3318611924?
 string field_1377897649?
 uint field_268802801?
 uint field_1816521343?
+int ID
+locstring description
+uint flags
+float mountFlyRideHeight
+uint mountTypeID
+locstring name
+uint playerConditionID
+int sourceSpellID
+locstring sourceText
+int sourceTypeEnum
+int uiModelSceneID
 
 BUILD 6.0.1.18179
 field_4271068822<32>
@@ -19,3 +30,17 @@ field_3318611924
 field_1377897649
 field_268802801<32>
 field_1816521343<32>
+
+LAYOUT 4D812F19
+BUILD 8.0.1.26095
+name
+description
+sourceText
+sourceSpellID<32>
+mountFlyRideHeight
+mountTypeID<16>
+flags<16>
+sourceTypeEnum<8>
+$id$ID<32>
+playerConditionID<32>
+uiModelSceneID<32>

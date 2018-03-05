@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
+int ID
 uint CreatureFootstepID
-uint<TerrainType::ID> TerrainSoundID
+int<TerrainType::ID> TerrainSoundID
 uint<SoundEntries::ID> SoundID
 uint<SoundEntries::ID> SoundIDSplash
 
@@ -9,5 +9,13 @@ BUILD 6.0.1.18179
 ID<32>
 CreatureFootstepID<32>
 TerrainSoundID<32>
+SoundID<32>
+SoundIDSplash<32>
+
+LAYOUT 454895AE
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+CreatureFootstepID<16>
+TerrainSoundID<8>
 SoundID<32>
 SoundIDSplash<32>

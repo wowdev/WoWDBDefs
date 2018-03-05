@@ -4,6 +4,10 @@ uint field_1845451628?
 uint field_936851303?
 uint field_2285471969?
 uint field_2502177600?
+int ID
+int reagent
+int reagentCount
+int spellID
 
 BUILD 6.0.1.18179
 field_3034880211<32>
@@ -11,3 +15,10 @@ field_1845451628<32>[8]
 field_936851303<32>[8]
 field_2285471969<32>
 field_2502177600<32>
+
+LAYOUT 0463C688
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+spellID<32>
+reagent<32>[8]
+reagentCount<16>[8]

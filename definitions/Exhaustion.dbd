@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint xp
+int ID
+int xp
 float factor
 float outdoorHours
 float innHours
@@ -17,3 +17,14 @@ innHours
 name
 threshold
 combatLogText
+
+LAYOUT E6E16045
+BUILD 8.0.1.26095
+name
+combatLogText
+xp<32>
+factor
+outdoorHours
+innHours
+threshold
+$id$ID<32>

@@ -1,11 +1,20 @@
 COLUMNS
-uint ID
+int ID
 string name
 uint<Map::ID> mapID
 uint<Light::ID> lightID
+uint flags
 
 BUILD 6.0.1.18179
 ID<32>
 name
 mapID<32>
 lightID<32>
+
+LAYOUT D3C6760C
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+mapID<16>
+lightID<16>
+flags<8>

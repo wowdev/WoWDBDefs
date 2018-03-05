@@ -3,9 +3,20 @@ uint field_4005478300?
 uint field_471754763?
 uint field_2530149384?
 uint field_1651411545?
+int ID
+int locationID
+uint pathID
+int sequence
 
 BUILD 6.0.1.18179
 field_4005478300<32>
 field_471754763<32>
 field_2530149384<32>
 field_1651411545<32>
+
+LAYOUT 76615830
+BUILD 8.0.1.26095
+$id$ID<32>
+locationID<32>
+pathID<16>
+sequence<16>

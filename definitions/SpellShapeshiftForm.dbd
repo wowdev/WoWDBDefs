@@ -1,15 +1,17 @@
 COLUMNS
-uint ID
-uint bonusActionBar
+int ID
+int bonusActionBar
 locstring name
-uint flags
-uint creatureType
+int flags
+int creatureType
 uint attackIconID
-uint combatRoundTime
+int combatRoundTime
 uint creatureDisplayID
 uint presetSpellID
 uint mountTypeID
 uint exitSoundEntriesID
+int attackIconFileID
+float damageVariance
 
 BUILD 6.0.1.18179
 ID<32>
@@ -23,3 +25,17 @@ creatureDisplayID<32>[4]
 presetSpellID<32>[8]
 mountTypeID<32>
 exitSoundEntriesID<32>
+
+LAYOUT 130819AF
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+damageVariance
+flags<32>
+combatRoundTime<16>
+mountTypeID<16>
+creatureType<8>
+bonusActionBar<8>
+attackIconFileID<32>
+creatureDisplayID<32>[4]
+presetSpellID<32>[8]

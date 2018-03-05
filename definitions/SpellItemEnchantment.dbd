@@ -1,8 +1,8 @@
 COLUMNS
-uint ID
+int ID
 uint charges
 uint effect
-uint effectPointsMin
+int effectPointsMin
 uint effectArg
 locstring name
 uint itemVisual
@@ -14,9 +14,13 @@ uint requiredSkillRank
 uint minLevel
 uint maxLevel
 uint itemLevel
-uint scalingClass
-uint scalingClassRestricted
+int scalingClass
+int scalingClassRestricted
 float effectScalingPoints
+locstring hordeName
+uint iconFileDataID
+uint transmogCost
+uint transmogPlayerConditionID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -37,3 +41,27 @@ itemLevel<32>
 scalingClass<32>
 scalingClassRestricted<32>
 effectScalingPoints[3]
+
+LAYOUT F8B0881A
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+name
+hordeName
+effectArg<32>[3]
+effectScalingPoints[3]
+transmogCost<32>
+iconFileDataID<32>
+effectPointsMin<16>[3]
+itemVisual<16>
+flags<16>
+requiredSkillID<16>
+requiredSkillRank<16>
+itemLevel<16>
+charges<8>
+effect<8>[3]
+condition_ID<8>
+minLevel<8>
+maxLevel<8>
+scalingClass<8>
+scalingClassRestricted<8>
+transmogPlayerConditionID<32>

@@ -1,11 +1,21 @@
 COLUMNS
-uint ID
+int ID
 string name
 string fileName
 uint hasWideScreen
+int narrowScreenFileDataID
+int wideScreen169FileDataID
+int wideScreenFileDataID
 
 BUILD 6.0.1.18179
 ID<32>
 name
 fileName
 hasWideScreen<32>
+
+LAYOUT 99C0EB78
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+narrowScreenFileDataID<32>
+wideScreenFileDataID<32>
+wideScreen169FileDataID<32>

@@ -1,11 +1,20 @@
 COLUMNS
-uint ID
+int ID
 string name
 uint shader
 string envMapPath
+int envMapDiffuseFileID
+int envMapSpecularFileID
 
 BUILD 6.0.1.18179
 ID<32>
 name
 shader<32>
 envMapPath
+
+LAYOUT 19D9496F
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+shader<8>
+envMapDiffuseFileID<32>
+envMapSpecularFileID<32>

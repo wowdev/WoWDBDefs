@@ -1,12 +1,12 @@
 COLUMNS
-uint ID
-uint skillID
-uint raceMask
-uint classMask
+int ID
+int skillID
+int raceMask
+int classMask
 uint flags
-uint availability
-uint minLevel
-uint skillTierID
+int availability
+int minLevel
+int skillTierID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -17,3 +17,14 @@ flags<32>
 availability<32>
 minLevel<32>
 skillTierID<32>
+
+LAYOUT 9752C2CE
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+raceMask<64>
+skillID<16> // unk_8C, unk_90
+flags<16>
+skillTierID<16>
+availability<8>
+minLevel<8>
+classMask<32>

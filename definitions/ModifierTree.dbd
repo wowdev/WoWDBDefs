@@ -1,11 +1,12 @@
 COLUMNS
-uint ID
+int ID
 uint type
-uint asset
-uint secondaryAsset
-uint operator
-uint amount
+int asset
+int secondaryAsset
+int operator
+int amount
 uint parent
+int tertiaryAsset
 
 BUILD 6.0.1.18179
 ID<32>
@@ -15,3 +16,14 @@ secondaryAsset<32>
 operator<32>
 amount<32>
 parent<32>
+
+LAYOUT 7718AFC2
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+asset<32>
+secondaryAsset<32>
+parent<32>
+type<8>
+tertiaryAsset<8>
+operator<8>
+amount<8>

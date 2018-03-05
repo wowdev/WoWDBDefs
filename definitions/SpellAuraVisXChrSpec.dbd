@@ -1,9 +1,15 @@
 COLUMNS
-uint ID
-uint spellAuraVisibilityID
-uint chrSpecializationID
+int ID
+int spellAuraVisibilityID
+int chrSpecializationID
 
 BUILD 6.0.1.18179
 ID<32>
 spellAuraVisibilityID<32>
 chrSpecializationID<32>
+
+LAYOUT A65B6A4A
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+chrSpecializationID<16>
+$relation$spellAuraVisibilityID<16>

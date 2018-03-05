@@ -1,11 +1,18 @@
 COLUMNS
-uint ID
-uint duration
+int ID
+int duration
 uint durationPerLevel
-uint maxDuration
+int maxDuration
 
 BUILD 6.0.1.18179
 ID<32>
 duration<32>
 durationPerLevel<32>
 maxDuration<32>
+
+LAYOUT 0D6C9082
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+duration<32>
+maxDuration<32>
+durationPerLevel<32>

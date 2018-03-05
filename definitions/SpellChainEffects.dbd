@@ -1,5 +1,5 @@
 COLUMNS
-uint ID
+int ID
 float AvgSegLen
 float Width
 float NoiseScale
@@ -48,6 +48,22 @@ float TextureLength
 float WavePhase
 uint SpellChainEffectID
 string Texture
+float endWidth
+uint numFlipFramesU
+uint numFlipFramesV
+float particleEmissionRateMultiplier
+float particleScaleMultiplier
+uint soundKitID
+float startWidth
+float textureCoordScaleU
+float textureCoordScaleV
+int textureFileDataID
+uint textureParticleFileDataID
+float textureRepeatLengthU
+float textureRepeatLengthV
+float timePerFlipFrame
+float variancePerFlipFrame
+uint widthScaleCurveID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -99,3 +115,67 @@ TextureLength
 WavePhase
 SpellChainEffectID<32>[11]
 Texture
+
+LAYOUT 4E8FF369
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+AvgSegLen
+NoiseScale
+TexCoordScale
+SegDuration<32>
+Flags<32>
+JointOffsetRadius
+MinorJointScale
+MajorJointScale
+JointMoveSpeed
+JointSmoothness
+MinDurationBetweenJointJumps
+MaxDurationBetweenJointJumps
+WaveHeight
+WaveFreq
+WaveSpeed
+MinWaveAngle
+MaxWaveAngle
+MinWaveSpin
+MaxWaveSpin
+ArcHeight
+MinArcAngle
+MaxArcAngle
+MinArcSpin
+MaxArcSpin
+DelayBetweenEffects
+MinFlickerOnDuration
+MaxFlickerOnDuration
+MinFlickerOffDuration
+MaxFlickerOffDuration
+PulseSpeed
+PulseOnLength
+PulseFadeLength
+WavePhase
+timePerFlipFrame
+variancePerFlipFrame
+textureCoordScaleU[3]
+textureCoordScaleV[3]
+textureRepeatLengthU[3]
+textureRepeatLengthV[3]
+textureParticleFileDataID<32>
+startWidth
+endWidth
+particleScaleMultiplier
+particleEmissionRateMultiplier
+SegDelay<16>
+JointCount<16>
+SpellChainEffectID<16>[11]
+widthScaleCurveID<16>
+JointsPerMinorJoint<8>
+MinorJointsPerMajorJoint<8>
+Alpha<8>
+Red<8>
+Green<8>
+Blue<8>
+BlendMode<8>
+RenderLayer<8>
+numFlipFramesU<8>
+numFlipFramesV<8>
+soundKitID<32>
+textureFileDataID<32>[3]

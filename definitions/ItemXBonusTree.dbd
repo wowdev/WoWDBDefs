@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint itemBonusTreeID
+int itemID
+
+LAYOUT 87C4B605
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+itemBonusTreeID<16>
+$relation$itemID<32>

@@ -12,6 +12,22 @@ uint field_2999706085?
 uint field_3403288926?
 float field_1323958623?
 float field_4071969856?
+int ID
+uint animKitID
+int attachment
+float castOffset
+uint castPositionerID
+int destinationAttachment
+uint flags
+uint followGroundApproach
+uint followGroundDropSpeed
+int followGroundHeight
+float impactOffset
+uint impactPositionerID
+uint soundEntriesID
+uint spellMissileMotionID
+uint spellVisualEffectNameID
+uint spellVisualMissileSetID
 
 BUILD 6.0.1.18179
 field_2358966370<32>
@@ -27,3 +43,22 @@ field_2999706085<32>
 field_3403288926<32>
 field_1323958623[3]
 field_4071969856[3]
+
+LAYOUT 00BA67A5
+BUILD 8.0.1.26095
+followGroundHeight<32>
+followGroundDropSpeed<32>
+flags<32>
+castOffset[3]
+impactOffset[3]
+spellVisualEffectNameID<16>
+castPositionerID<16>
+impactPositionerID<16>
+followGroundApproach<16>
+spellMissileMotionID<16>
+attachment<8>
+destinationAttachment<8>
+$id$ID<32>
+soundEntriesID<32>
+animKitID<32>
+$relation$spellVisualMissileSetID<16>

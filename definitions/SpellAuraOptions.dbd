@@ -1,12 +1,12 @@
 COLUMNS
-uint ID
-uint spellID
+int ID
+int spellID
 uint difficultyID
 uint cumulativeAura
 uint procChance
-uint procCharges
-uint procTypeMask
-uint procCategoryRecovery
+int procCharges
+int procTypeMask
+int procCategoryRecovery
 uint spellProcsPerMinuteID
 
 BUILD 6.0.1.18179
@@ -19,3 +19,15 @@ procCharges<32>
 procTypeMask<32>
 procCategoryRecovery<32>
 spellProcsPerMinuteID<32>
+
+LAYOUT E05BE94F
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+procCharges<32>
+procTypeMask<32>[2]
+procCategoryRecovery<32>
+cumulativeAura<16>
+spellProcsPerMinuteID<16>
+difficultyID<8>
+procChance<8>
+$relation$spellID<32>

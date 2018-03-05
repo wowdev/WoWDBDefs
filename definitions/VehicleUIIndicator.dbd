@@ -1,7 +1,13 @@
 COLUMNS
-uint ID
+int ID
 string backgroundTexture
+int backgroundTextureFileID
 
 BUILD 6.0.1.18179
 ID<32>
 backgroundTexture
+
+LAYOUT 68486100
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+backgroundTextureFileID<32>

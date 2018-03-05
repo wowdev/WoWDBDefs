@@ -1,11 +1,18 @@
 COLUMNS
-uint ID
-uint<Spell::ID> spells
+int ID
+int<Spell::ID> spells
 uint flags
-uint<FileData::ID> playerActionbarFileDataID
+int<FileData::ID> playerActionbarFileDataID
 
 BUILD 6.0.1.18179
 ID<32>
 spells<32>[10]
 flags<32>
 playerActionbarFileDataID<32>
+
+LAYOUT 9417628C
+BUILD 8.0.1.26095
+$noninlineid$ID<32>
+spells<32>[10]
+playerActionbarFileDataID<32>
+flags<8>
