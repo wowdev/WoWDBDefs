@@ -15,4 +15,4 @@ flags<8>
 journalEncounterID<32>
 dungeonMapID<32>
 mapDisplayConditionID<32>
-$relation$worldMapAreaID<32> // relationship column
+$relation$worldMapAreaID<32>

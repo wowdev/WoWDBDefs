@@ -21,4 +21,4 @@ difficultyID<8>
 interruptFlags<16>
 auraInterruptFlags<32>[2]
 channelInterruptFlags<32>[2]
-$relation$spellID<32> // relationship column
+$relation$spellID<32>
