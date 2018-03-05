@@ -194,6 +194,14 @@ namespace DBDefsLib
                         line = line.Remove(0, 4);
                     }
 
+                    if(line.Contains("$inlineid$")){
+                        definition.isID = true;
+                        definition.isNonInline = true;
+                        line = line.Remove(0, 10);                  
+                    }else{
+                        definition.isNonInline = false;
+                    }
+                    
                     if (line.Contains("$relation$"))
                     {
                         definition.isRelation = true;

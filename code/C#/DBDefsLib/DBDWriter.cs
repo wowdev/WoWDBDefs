@@ -89,9 +89,14 @@ namespace DBDefsLib
                             writer.Write("#" + column.typeOverride + "#");  
                         }
 
-                        if (column.isID)
+                        if (column.isID && !column.isInline)
                         {
                             writer.Write("$id$");
+                        }
+                        
+                        if (column.isID && column.isInline)
+                        {
+                            writer.Write("$inlineid$");
                         }
 
                         if (column.isRelation)
