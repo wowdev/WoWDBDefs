@@ -1,12 +1,14 @@
 COLUMNS
+uint field_2378159929?
 locstring name
+uint field_79870213?
 int ID
 uint trackingQuestID
 
 BUILD 6.0.1.18179
-$id$ID<32>
+field_2378159929<32>
 name
-trackingQuestID<32>
+field_79870213<32>
 
 LAYOUT 4D7103A0
 BUILD 8.0.1.26095
