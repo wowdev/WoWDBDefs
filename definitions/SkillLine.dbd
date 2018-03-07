@@ -11,6 +11,7 @@ uint flags
 locstring hordeDisplayName_lang
 int parentTierIndex
 int spellIconFileID
+uint skillCostsID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -36,3 +37,13 @@ canLink<8>
 spellIconFileID<32>
 parentSkillLineID<32>
 parentTierIndex<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+categoryID<32>
+skillCostsID<32>
+displayName_lang
+description_lang
+spellIconID<32>
+alternateVerb_lang
+canLink<32>

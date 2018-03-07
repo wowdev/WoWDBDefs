@@ -8,6 +8,9 @@ uint flags
 uint delay
 uint arrivalEventID
 uint departureEventID
+float LocX
+float LocY
+float LocZ
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -31,3 +34,16 @@ flags<8>
 delay<32>
 arrivalEventID<16>
 departureEventID<16>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+PathID<32>
+NodeIndex<32>
+ContinentID<32>
+LocX
+LocY
+LocZ
+flags<32>
+delay<32>
+arrivalEventID<32>
+departureEventID<32>

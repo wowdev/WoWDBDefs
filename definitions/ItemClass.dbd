@@ -4,6 +4,8 @@ uint flags
 float priceModifier
 locstring className_lang
 int ID
+uint generatedID
+uint subclassMapID
 
 BUILD 6.0.1.18179
 classID<32>
@@ -18,3 +20,10 @@ className_lang
 priceModifier
 classID<8>
 flags<8>
+
+BUILD 4.0.0.11792
+generatedID<32>
+classID<32>
+subclassMapID<32>
+flags<32>
+className_lang

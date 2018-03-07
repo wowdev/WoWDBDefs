@@ -1,0 +1,33 @@
+COLUMNS
+uint ID
+uint achievement_ID
+uint type
+uint asset_ID
+uint quantity
+uint start_event
+uint start_asset
+uint fail_event
+uint fail_asset
+locstring description_lang
+uint flags
+uint timer_start_event
+uint timer_asset_ID
+uint timer_time
+uint ui_order
+
+BUILD 4.0.0.11792
+$id$ID<32>
+achievement_ID<32>
+type<32>
+asset_ID<32>
+quantity<32>
+start_event<32>
+start_asset<32>
+fail_event<32>
+fail_asset<32>
+description_lang
+flags<32>
+timer_start_event<32>
+timer_asset_ID<32>
+timer_time<32>
+ui_order<32>

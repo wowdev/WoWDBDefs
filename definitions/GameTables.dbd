@@ -3,9 +3,16 @@ uint padding_136703927?
 string name
 uint numRows
 uint numColumns
+uint generatedID
 
 BUILD 6.0.1.18179
 padding_136703927<8>[4]
+name
+numRows<32>
+numColumns<32>
+
+BUILD 4.0.0.11792
+generatedID<32>
 name
 numRows<32>
 numColumns<32>

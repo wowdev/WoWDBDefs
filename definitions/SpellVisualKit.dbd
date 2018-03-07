@@ -27,6 +27,26 @@ uint delayMin
 float fallbackPriority
 uint fallbackSpellVisualKitID
 int flags
+uint startAnimID
+uint animID
+uint animKitID
+uint headEffect
+uint chestEffect
+uint baseEffect
+uint leftHandEffect
+uint rightHandEffect
+uint breathEffect
+uint leftWeaponEffect
+uint rightWeaponEffect
+uint specialEffect
+uint worldEffect
+uint soundID
+uint shakeID
+uint charProc
+float charParamZero
+float charParamOne
+float charParamTwo
+float charParamThree
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -61,3 +81,27 @@ fallbackPriority
 fallbackSpellVisualKitID<32>
 delayMin<16>
 delayMax<16>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+startAnimID<32>
+animID<32>
+animKitID<32>
+headEffect<32>
+chestEffect<32>
+baseEffect<32>
+leftHandEffect<32>
+rightHandEffect<32>
+breathEffect<32>
+leftWeaponEffect<32>
+rightWeaponEffect<32>
+specialEffect<32>[3]
+worldEffect<32>
+soundID<32>
+shakeID<32>
+charProc<32>[4]
+charParamZero[4]
+charParamOne[4]
+charParamTwo[4]
+charParamThree[4]
+flags<32>

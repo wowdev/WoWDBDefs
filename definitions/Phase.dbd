@@ -2,6 +2,9 @@ COLUMNS
 int ID
 string name
 uint flags
+uint mapID
+uint phaseShift
+uint childMap
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -12,3 +15,9 @@ LAYOUT 0043219C
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
 flags<16>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+mapID<32>
+phaseShift<32>
+childMap<32>[5]

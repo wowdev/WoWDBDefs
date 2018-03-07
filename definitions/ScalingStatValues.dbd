@@ -24,6 +24,21 @@ uint armorHands
 uint armorWrists
 uint armorBack
 uint armorShield
+uint shoulderBudget
+uint trinketBudget
+uint weaponBudget1H
+uint rangedBudget
+uint clothShoulderArmor
+uint leatherShoulderArmor
+uint mailShoulderArmor
+uint plateShoulderArmor
+uint primaryBudget
+uint tertiaryBudget
+uint clothCloakArmor
+uint clothChestArmor
+uint leatherChestArmor
+uint mailChestArmor
+uint plateChestArmor
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -51,3 +66,29 @@ armorHands<32>[4]
 armorWrists<32>[4]
 armorBack<32>
 armorShield<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+charlevel<32>
+shoulderBudget<32>
+trinketBudget<32>
+weaponBudget1H<32>
+rangedBudget<32>
+clothShoulderArmor<32>
+leatherShoulderArmor<32>
+mailShoulderArmor<32>
+plateShoulderArmor<32>
+weaponDPS1H<32>
+weaponDPS2H<32>
+spellcasterDPS1H<32>
+spellcasterDPS2H<32>
+rangedDPS<32>
+wandDPS<32>
+spellPower<32>
+primaryBudget<32>
+tertiaryBudget<32>
+clothCloakArmor<32>
+clothChestArmor<32>
+leatherChestArmor<32>
+mailChestArmor<32>
+plateChestArmor<32>

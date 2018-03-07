@@ -9,6 +9,9 @@ uint effectRecID
 int attachment
 float offset
 uint objectEffectModifierID
+float offsetX
+float offsetY
+float offsetZ
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -32,4 +35,18 @@ eventType<8>
 effectRecType<8>
 attachment<8>
 effectRecID<32>
+objectEffectModifierID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+name
+objectEffectGroupID<32>
+triggerType<32>
+eventType<32>
+effectRecType<32>
+effectRecID<32>
+attachment<32>
+offsetX
+offsetY
+offsetZ
 objectEffectModifierID<32>

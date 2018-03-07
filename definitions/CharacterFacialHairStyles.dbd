@@ -4,6 +4,7 @@ uint<ChrRaces::ID> raceID
 uint sexID
 uint VariationID
 int Geoset
+uint generatedID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -19,3 +20,10 @@ Geoset<32>[5]
 raceID<8>
 sexID<8>
 VariationID<8>
+
+BUILD 4.0.0.11792
+generatedID<32>
+raceID<32>
+sexID<32>
+VariationID<32>
+Geoset<32>[5]
