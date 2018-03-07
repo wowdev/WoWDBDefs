@@ -31,7 +31,7 @@ namespace DBDefsLib
 
                     var normalizedColumnName = Utils.NormalizeColumn(columnDefinition.Key);
                     writer.Write(" " + normalizedColumnName);
-                    if (definition.columnDefinitions[normalizedColumnName].type == "locstring" && !normalizedColumnName.EndsWith("_lang"))
+                    if (definition.columnDefinitions[columnDefinition.Key].type == "locstring" && !columnDefinition.Key.EndsWith("_lang"))
                     {
                         writer.Write("_lang");
                     }
@@ -114,7 +114,7 @@ namespace DBDefsLib
                         writer.Write(normalizedColumnName);
 
                         // locstrings should always have _lang
-                        if(definition.columnDefinitions[normalizedColumnName].type == "locstring" && !normalizedColumnName.EndsWith("_lang"))
+                        if(definition.columnDefinitions[column.name].type == "locstring" && !column.name.EndsWith("_lang"))
                         {
                             writer.Write("_lang");
                         }
