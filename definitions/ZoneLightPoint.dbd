@@ -4,6 +4,8 @@ uint<ZoneLight::ID> zoneLightID
 float pos
 uint pointOrder
 
+COMMENT This file lists the 2d vertices of an n-gon making up the extents of each ZoneLight.
+
 BUILD 6.0.1.18179
 $id$ID<32>
 zoneLightID<32>

@@ -1,10 +1,36 @@
 COLUMNS
 int ID
+string MusicFile
+uint SegmentLength
+uint SegmentPlayMax
+uint SegmentPlayMin
 string SetName
-uint SilenceIntervalMin
 uint SilenceIntervalMax
+uint SilenceIntervalMin
 uint<SoundEntries::ID> Sounds
+float VolumeFloat
 
+ENUM AMBIENCE
+0 AMB_DAY
+1 AMB_NIGHT
+2 NUM_AMBIENCES
+
+COMMENT This table contains the music that is played in zones.
+COMMENT The arrays in this table are of length AMBIENCE::NUM_AMBIENCES, which has been 2 forever.
+
+BUILD 0.5.3.3368
+$id$ID
+VolumeFloat
+MusicFile[2]
+SilenceIntervalMin[2]
+SilenceIntervalMax[2]
+SegmentLength[2]
+SegmentPlayMin[2]
+SegmentPlayMax[2]
+Sounds[2]
+
+BUILD 1.12.1.5875
+BUILD 4.0.0.11792
 BUILD 6.0.1.18179
 $id$ID<32>
 SetName
@@ -15,13 +41,6 @@ Sounds<32>[2]
 LAYOUT 9E2B332D
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-SetName
-SilenceIntervalMin<32>[2]
-SilenceIntervalMax<32>[2]
-Sounds<32>[2]
-
-BUILD 4.0.0.11792
-$id$ID<32>
 SetName
 SilenceIntervalMin<32>[2]
 SilenceIntervalMax<32>[2]

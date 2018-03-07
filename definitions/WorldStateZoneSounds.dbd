@@ -10,6 +10,27 @@ uint<SoundAmbience::ID> SoundAmbienceID
 uint<SoundProviderPreferences::ID> SoundProviderPreferencesID
 uint generatedID
 
+BUILD ???????????
+WorldStateID<32>
+WorldStateValue<32>
+AreaID<32>
+WMOAreaID<32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>
+
+BUILD 4.0.0.11792
+generatedID<32>
+WorldStateID<32>
+WorldStateValue<32>
+AreaID<32>
+WMOAreaID<32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>
+
 BUILD 6.0.1.18179
 $id$ID<32>
 WorldStateID<32>
@@ -32,14 +53,3 @@ ZoneIntroMusicID<16>
 ZoneMusicID<16>
 SoundAmbienceID<16>
 SoundProviderPreferencesID<8>
-
-BUILD 4.0.0.11792
-generatedID<32>
-WorldStateID<32>
-WorldStateValue<32>
-AreaID<32>
-WMOAreaID<32>
-ZoneIntroMusicID<32>
-ZoneMusicID<32>
-SoundAmbienceID<32>
-SoundProviderPreferencesID<32>

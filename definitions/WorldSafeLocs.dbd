@@ -8,17 +8,21 @@ float locX
 float locY
 float locZ
 
-BUILD 6.0.1.18179
-$id$ID<32>
-continent<32>
-loc[3]
-facing
-areaName_lang
+COMMENT Locations of where you spawn as a ghost when you die (aka.. the graveyard spawn points). Game calculates nearest graveyard and spawns you here.
 
+BUILD 0.5.3.3368
+BUILD 1.12.1.5875
 BUILD 4.0.0.11792
 $id$ID<32>
 continent<32>
 locX
 locY
 locZ
+areaName_lang
+
+BUILD 6.0.1.18179
+$id$ID<32>
+continent<32>
+loc[3]
+facing
 areaName_lang

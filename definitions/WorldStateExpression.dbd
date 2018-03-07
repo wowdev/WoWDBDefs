@@ -2,6 +2,8 @@ COLUMNS
 int ID
 string expression
 
+COMMENT expression is a flattened AST. is bytewise. First is enabled == always 1. then, operand {0 (disabled), 1 (uint32), 2 (worldStateID (evals to something other than id, likely something in worldStateRec)), 3 (uint8 op, recurse left, recurse right;  where op <=0xc: none, random, month, day, timeofday, region, clockHour, difficultyID, holidayStart, holidayLeft, holidayActive, currentTime, weeknumber)}, then op {1: +, 2:-, 3:*, 4*/, 5:%, 0: no op}, then op2 {…. See CGWorldStateInfo::EvalWorldStateExpression.
+
 BUILD 6.0.1.18179
 $id$ID<32>
 expression
