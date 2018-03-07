@@ -203,8 +203,30 @@ namespace DBDefsMerge
                         if (!foundVersion)
                         {
                             // Version was not found, add it!
+
+                            // TODO: Only for secondFile, not firstFile!
+                            var mergedWithPreviousBuild = false;
                             var newVersions = newDefinition.versionDefinitions.ToList();
-                            newVersions.Add(versionDefinition2);
+
+                            for(var i = 0; i < newVersions.Count; i++)
+                            {
+                                if (newVersions[i].definitions.SequenceEqual(versionDefinition2.definitions))
+                                {
+                                    Console.WriteLine("Looks like these two definition arrays are the same!");
+                                    var curBuilds = newVersions[i].builds.ToList();
+                                    curBuilds.AddRange(versionDefinition2.builds.ToList());
+                                    var tempVersion = newVersions[i];
+                                    tempVersion.builds = curBuilds.ToArray();
+                                    newVersions[i] = tempVersion;
+                                    mergedWithPreviousBuild = true;
+                                }
+                            }
+
+                            if (!mergedWithPreviousBuild)
+                            {
+                                newVersions.Add(versionDefinition2);
+                            }
+
                             newDefinition.versionDefinitions = newVersions.ToArray();
                         }
                         else
