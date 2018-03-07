@@ -6,12 +6,12 @@ uint phaseUseFlags
 uint<Phase::ID> phaseID
 uint<PhaseXPhaseGroup::phaseGroupID> phaseGroupID
 string icon
-locstring string
-locstring tooltip
+locstring string_lang
+locstring tooltip_lang
 uint stateVariable
 uint type
 string dynamicIcon
-locstring dynamicTooltip
+locstring dynamicTooltip_lang
 string extendedUI
 uint extendedUIStateVariable
 int dynamicFlashIconFileID
@@ -26,12 +26,12 @@ phaseUseFlags<32>
 phaseID<32>
 phaseGroupID<32>
 icon
-string
-tooltip
+string_lang
+tooltip_lang
 stateVariable<32>
 type<32>
 dynamicIcon
-dynamicTooltip
+dynamicTooltip_lang
 extendedUI
 extendedUIStateVariable<32>[3]
 
@@ -39,9 +39,9 @@ LAYOUT 70808977
 BUILD 8.0.1.26095
 icon
 extendedUI
-dynamicTooltip
-string
-tooltip
+dynamicTooltip_lang
+string_lang
+tooltip_lang
 mapID<16> // unk_8C, unk_90
 areaID<16>
 phaseID<16>

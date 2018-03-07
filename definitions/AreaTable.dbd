@@ -11,7 +11,7 @@ uint<ZoneMusic::ID> ZoneMusic
 string ZoneName
 uint<ZoneIntroMusicTable::ID> IntroSound
 int ExplorationLevel
-locstring AreaName
+locstring AreaName_lang
 uint factionGroupMask
 uint<LiquidType::ID> liquidTypeID
 float minElevation
@@ -40,7 +40,7 @@ ZoneMusic<32>
 ZoneName
 IntroSound<32>
 ExplorationLevel<32>
-AreaName
+AreaName_lang
 factionGroupMask<32>
 liquidTypeID<32>[4]
 minElevation
@@ -60,7 +60,7 @@ LAYOUT 0CA01129
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
 ZoneName
-AreaName
+AreaName_lang
 flags<32>[2]
 ambient_multiplier
 ContinentID<16>

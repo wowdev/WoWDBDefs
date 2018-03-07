@@ -10,8 +10,8 @@ uint weaponParrySeq
 uint weaponReadySeq
 uint weaponAttackSeq
 int WeaponSwingSize
-locstring displayName
-locstring verboseName
+locstring displayName_lang
+locstring verboseName_lang
 int ID
 uint auctionHouseSortOrder
 
@@ -27,14 +27,14 @@ weaponParrySeq<32>
 weaponReadySeq<32>
 weaponAttackSeq<32>
 WeaponSwingSize<32>
-displayName
-verboseName
+displayName_lang
+verboseName_lang
 
 LAYOUT DAD92A67
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-displayName
-verboseName
+displayName_lang
+verboseName_lang
 flags<16>
 classID<8> // unk_8C, unk_90
 subClassID<8>

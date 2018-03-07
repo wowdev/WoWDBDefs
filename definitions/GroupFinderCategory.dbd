@@ -1,6 +1,6 @@
 COLUMNS
 uint field_3184919908?
-locstring name
+locstring name_lang
 uint field_1299825360?
 int ID
 uint flags
@@ -8,12 +8,12 @@ uint orderIndex
 
 BUILD 6.0.1.18179
 field_3184919908<32>
-name
+name_lang
 field_1299825360<32>
 
 LAYOUT 9213552F
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 flags<8>
 orderIndex<8>

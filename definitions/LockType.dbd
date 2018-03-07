@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-locstring name
-locstring resourceName
-locstring verb
+locstring name_lang
+locstring resourceName_lang
+locstring verb_lang
 string cursorName
 
 BUILD 6.0.1.18179
 ID<32>
-name
-resourceName
-verb
+name_lang
+resourceName_lang
+verb_lang
 cursorName
 
 LAYOUT CD5E1D2F
 BUILD 8.0.1.26095
-name
-resourceName
-verb
+name_lang
+resourceName_lang
+verb_lang
 cursorName
 $id$ID<32>

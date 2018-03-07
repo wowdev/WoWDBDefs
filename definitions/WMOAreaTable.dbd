@@ -10,7 +10,7 @@ uint<ZoneMusic::ID> ZoneMusic
 uint<ZoneIntroMusicTable::ID> IntroSound
 uint flags
 uint<AreaTable::ID> AreaTableID
-locstring AreaName
+locstring AreaName_lang
 uint<ZoneIntroMusicTable::ID> uwIntroSound
 uint<ZoneMusic::ID> uwZoneMusic
 uint<SoundAmbience::ID> uwAmbience
@@ -27,14 +27,14 @@ ZoneMusic<32>
 IntroSound<32>
 flags<32>
 AreaTableID<32>
-AreaName
+AreaName_lang
 uwIntroSound<32>
 uwZoneMusic<32>
 uwAmbience<32>
 
 LAYOUT 30A78709
 BUILD 8.0.1.26095
-AreaName
+AreaName_lang
 WMOGroupID<32>
 WMOID<16> // unk_8C, unk_90
 AmbienceID<16>

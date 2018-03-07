@@ -2,9 +2,9 @@ COLUMNS
 int ID
 uint DisplayPower
 string petNameToken
-locstring name
-locstring name_female
-locstring name_male
+locstring name_lang
+locstring name_female_lang
+locstring name_male_lang
 string filename
 uint spellClassSet
 uint flags
@@ -24,9 +24,9 @@ BUILD 6.0.1.18179
 ID<32>
 DisplayPower<32>
 petNameToken
-name
-name_female
-name_male
+name_lang
+name_female_lang
+name_male_lang
 filename
 spellClassSet<32>
 flags<32>
@@ -43,9 +43,9 @@ iconFileDataID<32>
 LAYOUT 6F7AB8E7
 BUILD 8.0.1.26095
 petNameToken
-name
-name_female
-name_male
+name_lang
+name_female_lang
+name_male_lang
 filename
 createScreenFileDataID<32>
 selectScreenFileDataID<32>

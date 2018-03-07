@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-locstring text
+locstring text_lang
 uint min_level
 uint max_level
 uint sortIndex
 
 BUILD 6.0.1.18179
 ID<32>
-text
+text_lang
 min_level<32>
 max_level<32>
 
 LAYOUT 547E3F0F
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-text
+text_lang
 min_level<16>
 max_level<16>
 sortIndex<8>

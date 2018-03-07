@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-locstring Question
+locstring Question_lang
 
 BUILD 6.0.1.18179
 ID<32>
-Question
+Question_lang
 
 LAYOUT 9D852FDC
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-Question
+Question_lang

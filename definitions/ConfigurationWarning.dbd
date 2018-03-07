@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 uint type
-locstring warning
+locstring warning_lang
 
 LAYOUT 0B350390
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-warning
+warning_lang
 type<32>

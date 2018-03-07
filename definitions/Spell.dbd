@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-locstring name
-locstring nameSubtext
-locstring description
-locstring auraDescription
+locstring name_lang
+locstring nameSubtext_lang
+locstring description_lang
+locstring auraDescription_lang
 uint runeCostID
 uint spellMissileID
 uint descriptionVariablesID
@@ -26,10 +26,10 @@ uint miscID
 
 BUILD 6.0.1.18179
 ID<32>
-name
-nameSubtext
-description
-auraDescription
+name_lang
+nameSubtext_lang
+description_lang
+auraDescription_lang
 runeCostID<32>
 spellMissileID<32>
 descriptionVariablesID<32>
@@ -53,7 +53,7 @@ miscID<32>
 LAYOUT 2273DFFF
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
-nameSubtext
-description
-auraDescription
+name_lang
+nameSubtext_lang
+description_lang
+auraDescription_lang

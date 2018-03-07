@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int bonusActionBar
-locstring name
+locstring name_lang
 int flags
 int creatureType
 uint attackIconID
@@ -16,7 +16,7 @@ float damageVariance
 BUILD 6.0.1.18179
 ID<32>
 bonusActionBar<32>
-name
+name_lang
 flags<32>
 creatureType<32>
 attackIconID<32>
@@ -29,7 +29,7 @@ exitSoundEntriesID<32>
 LAYOUT 130819AF
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 damageVariance
 flags<32>
 combatRoundTime<16>

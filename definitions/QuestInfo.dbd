@@ -1,18 +1,18 @@
 COLUMNS
 int ID
-locstring InfoName
+locstring InfoName_lang
 uint Modifiers
 uint Profession
 uint Type
 
 BUILD 6.0.1.18179
 ID<32>
-InfoName
+InfoName_lang
 
 LAYOUT 4F45F445
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-InfoName
+InfoName_lang
 Profession<16>
 Type<8>
 Modifiers<8>

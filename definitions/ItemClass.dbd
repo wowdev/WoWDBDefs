@@ -2,19 +2,19 @@ COLUMNS
 int classID
 uint flags
 float priceModifier
-locstring className
+locstring className_lang
 int ID
 
 BUILD 6.0.1.18179
 classID<32>
 flags<32>
 priceModifier
-className
+className_lang
 
 LAYOUT A1E4663C
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-className
+className_lang
 priceModifier
 classID<8>
 flags<8>

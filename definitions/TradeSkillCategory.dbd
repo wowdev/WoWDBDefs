@@ -3,23 +3,23 @@ int ID
 uint<SkillLine::ID> skilllineID
 uint<TradeSkillCategory::ID> parenttradeskillcategoryID
 int orderindex
-locstring name
+locstring name_lang
 uint flags
-locstring hordeName
+locstring hordeName_lang
 
 BUILD 6.0.1.18179
 ID<32>
 skilllineID<32>
 parenttradeskillcategoryID<32>
 orderindex<32>
-name
+name_lang
 flags<32>
 
 LAYOUT 6C5B24EB
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
-hordeName
+name_lang
+hordeName_lang
 skilllineID<16>
 parenttradeskillcategoryID<16>
 orderindex<16>

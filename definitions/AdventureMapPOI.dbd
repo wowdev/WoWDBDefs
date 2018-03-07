@@ -1,13 +1,13 @@
 COLUMNS
 int ID
 uint areaTableID
-locstring description
+locstring description_lang
 uint dungeonMapID
 uint lfgDungeonID
 uint playerConditionID
 uint questID
 int rewardItemID
-locstring title
+locstring title_lang
 int type
 uint uiTextureAtlasMemberID
 uint uiTextureKitID
@@ -17,8 +17,8 @@ float worldPosition
 LAYOUT 0C288A82
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-title
-description
+title_lang
+description_lang
 worldPosition[2]
 rewardItemID<32>
 type<8>

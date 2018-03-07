@@ -4,10 +4,10 @@ int boostLevel
 int boostType
 int expansion
 uint flags
-locstring flowTitle
+locstring flowTitle_lang
 int iconFileDataID
-locstring popupDescription
-locstring popupTitle
+locstring popupDescription_lang
+locstring popupTitle_lang
 int popupUITextureKitID
 int priority
 int professionLevel
@@ -15,9 +15,9 @@ int professionLevel
 LAYOUT ADE120EF
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-flowTitle
-popupTitle
-popupDescription
+flowTitle_lang
+popupTitle_lang
+popupDescription_lang
 boostType<32>
 iconFileDataID<32>
 priority<32>

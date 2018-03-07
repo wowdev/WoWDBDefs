@@ -3,7 +3,7 @@ int ID
 int<Map::ID> mapID
 int instanceType
 int groupsAllowed
-locstring name
+locstring name_lang
 int maxGroupSize
 int<WorldState::ID> holidayWorldState
 int minlevel
@@ -13,17 +13,17 @@ int minPlayers
 int maxPlayers
 int flags
 int<FileData::ID> iconFileDataID
-locstring gametype
-locstring longDescription
+locstring gametype_lang
+locstring longDescription_lang
 int required_Player_Condition_ID
-locstring shortDescription
+locstring shortDescription_lang
 
 BUILD 6.0.1.18179
 ID<32>
 mapID<32>[16]
 instanceType<32>
 groupsAllowed<32>
-name
+name_lang
 maxGroupSize<32>
 holidayWorldState<32>
 minlevel<32>
@@ -33,15 +33,15 @@ minPlayers<32>
 maxPlayers<32>
 flags<32>
 iconFileDataID<32>
-gametype
+gametype_lang
 
 LAYOUT D8AAA088
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
-gametype
-shortDescription
-longDescription
+name_lang
+gametype_lang
+shortDescription_lang
+longDescription_lang
 iconFileDataID<32>
 mapID<16>[16]
 holidayWorldState<16>

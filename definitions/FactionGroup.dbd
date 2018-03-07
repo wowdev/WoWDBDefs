@@ -2,7 +2,7 @@ COLUMNS
 int ID
 uint maskID
 string internalName
-locstring name
+locstring name_lang
 int conquestCurrencyTextureFileID
 int honorCurrencyTextureFileID
 
@@ -10,12 +10,12 @@ BUILD 6.0.1.18179
 ID<32>
 maskID<32>
 internalName
-name
+name_lang
 
 LAYOUT 7A7F9A51
 BUILD 8.0.1.26095
 internalName
-name
+name_lang
 $id$ID<32>
 maskID<8>
 honorCurrencyTextureFileID<32>

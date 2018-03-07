@@ -3,7 +3,7 @@ int ID
 uint artifactCategoryID
 uint chrSpecializationID
 uint flags
-locstring name
+locstring name_lang
 uint spellVisualKitID
 int uiBarBackgroundColor
 int uiBarOverlayColor
@@ -14,7 +14,7 @@ uint uiTextureKitID
 LAYOUT 76CF31A8
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 uiBarOverlayColor<32>
 uiBarBackgroundColor<32>
 uiNameColor<32>

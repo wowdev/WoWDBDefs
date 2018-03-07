@@ -6,8 +6,8 @@ int<FileData::ID> buttonFiledataID
 int<FileData::ID> buttonSmallFileDataID
 int<FileData::ID> backgroundFiledataID
 int<FileData::ID> loreFileDataID
-locstring name
-locstring description
+locstring name_lang
+locstring description_lang
 uint flags
 uint orderIndex
 
@@ -19,13 +19,13 @@ buttonFiledataID<32>
 buttonSmallFileDataID<32>
 backgroundFiledataID<32>
 loreFileDataID<32>
-name
-description
+name_lang
+description_lang
 
 LAYOUT 1691CC3D
 BUILD 8.0.1.26095
-name
-description
+name_lang
+description_lang
 buttonFiledataID<32>
 buttonSmallFileDataID<32>
 backgroundFiledataID<32>

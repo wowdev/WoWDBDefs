@@ -1,12 +1,12 @@
 COLUMNS
 uint ID
-locstring name
+locstring name_lang
 
 BUILD 6.0.1.18179
 ID<32>
-name
+name_lang
 
 LAYOUT 6FA5D0C4
 BUILD 8.0.1.26095
-name
+name_lang
 $id$ID<32>

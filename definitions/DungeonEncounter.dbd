@@ -4,7 +4,7 @@ int<Map::ID> mapID
 int<Difficulty::ID> difficultyID
 int orderIndex
 int Bit
-locstring name
+locstring name_lang
 int<CreatureDisplayInfo::ID> CreatureDisplayID
 uint<SpellIcon::ID> spellIconID
 uint flags
@@ -16,14 +16,14 @@ mapID<32>
 difficultyID<32>
 orderIndex<32>
 Bit<32>
-name
+name_lang
 CreatureDisplayID<32>
 spellIconID<32>
 flags<32>
 
 LAYOUT B04A2596
 BUILD 8.0.1.26095
-name
+name_lang
 CreatureDisplayID<32>
 mapID<16> // unk_8C, unk_90
 difficultyID<8>

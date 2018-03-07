@@ -3,7 +3,7 @@ int ID
 int areaTableID
 float iconLocation
 int invasionEnabledWorldStateID
-locstring name
+locstring name_lang
 int scenarioID
 int uiTextureAtlasMemberID
 uint worldQuestID
@@ -12,7 +12,7 @@ int worldStateValue
 
 LAYOUT 4C93379F
 BUILD 8.0.1.26095
-name
+name_lang
 iconLocation[2]
 $id$ID<32>
 worldStateID<32>

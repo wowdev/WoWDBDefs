@@ -2,7 +2,7 @@ COLUMNS
 int ID
 uint<Map::ID> mapID
 uint<Difficulty::ID> difficultyID
-locstring message
+locstring message_lang
 uint raidDuration
 uint maxPlayers
 uint lockID
@@ -15,7 +15,7 @@ BUILD 6.0.1.18179
 ID<32>
 mapID<32>
 difficultyID<32>
-message
+message_lang
 raidDuration<32>
 maxPlayers<32>
 lockID<32>
@@ -23,7 +23,7 @@ lockID<32>
 LAYOUT 2B3B759E
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-message
+message_lang
 difficultyID<8>
 resetInterval<8>
 maxPlayers<8>

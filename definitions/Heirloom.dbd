@@ -4,7 +4,7 @@ uint flags
 int itemID
 int legacyItemID
 int legacyUpgradedItemID
-locstring sourceText
+locstring sourceText_lang
 int sourceTypeEnum
 int staticUpgradedItemID
 uint upgradeItemBonusListID
@@ -12,7 +12,7 @@ int upgradeItemID
 
 LAYOUT 36887C6F
 BUILD 8.0.1.26095
-sourceText
+sourceText_lang
 itemID<32>
 legacyItemID<32>
 legacyUpgradedItemID<32>

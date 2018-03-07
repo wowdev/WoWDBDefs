@@ -8,14 +8,14 @@ int conditionID
 uint emoteDelay
 uint emotesID
 uint flags
-locstring text
-locstring text1
+locstring text_lang
+locstring text1_lang
 
 BUILD 6.0.1.18179
 ID<32>
 languageID<32>
-text
-text1
+text_lang
+text1_lang
 emoteID<32>[3]
 emoteDelay<32>[3]
 soundEntriesID<32>
@@ -25,8 +25,8 @@ flags<32>
 LAYOUT 51BF0C33
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-text
-text1
+text_lang
+text1_lang
 emoteID<16>[3]
 emoteDelay<16>[3]
 emotesID<16>

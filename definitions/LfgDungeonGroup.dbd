@@ -1,13 +1,13 @@
 COLUMNS
 uint ID
-locstring name
+locstring name_lang
 uint order_index
 uint parent_group_ID
 uint typeID
 
 BUILD 6.0.1.18179
 ID<32>
-name
+name_lang
 order_index<32>
 parent_group_ID<32>
 typeID<32>

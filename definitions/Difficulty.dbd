@@ -10,7 +10,7 @@ uint<Difficulty::ID> toggleDifficultyID
 uint groupSizeHealthCurveID
 uint groupSizeDmgCurveID
 uint groupSizeSpellPointsCurveID
-locstring name
+locstring name_lang
 uint itemContext
 uint orderIndex
 
@@ -26,12 +26,12 @@ toggleDifficultyID<32>
 groupSizeHealthCurveID<32>
 groupSizeDmgCurveID<32>
 groupSizeSpellPointsCurveID<32>
-name
+name_lang
 
 LAYOUT 92302BB8
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 groupSizeHealthCurveID<16>
 groupSizeDmgCurveID<16>
 groupSizeSpellPointsCurveID<16>

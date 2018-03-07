@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 uint<CurrencyCategory::ID> categoryID
-locstring name
+locstring name_lang
 string inventoryIcon
 uint spellWeight
 uint spellCategory
@@ -9,13 +9,13 @@ uint maxQty
 uint maxEarnablePerWeek
 uint flags
 uint quality
-locstring description
+locstring description_lang
 int inventoryIconFileID
 
 BUILD 6.0.1.18179
 ID<32>
 categoryID<32>
-name
+name_lang
 inventoryIcon[2]
 spellWeight<32>
 spellCategory<32>
@@ -23,13 +23,13 @@ maxQty<32>
 maxEarnablePerWeek<32>
 flags<32>
 quality<32>
-description
+description_lang
 
 LAYOUT 6CC25CBF
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
-description
+name_lang
+description_lang
 maxQty<32>
 maxEarnablePerWeek<32>
 flags<32>

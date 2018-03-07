@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-locstring name
+locstring name_lang
 uint<Item::ID> itemID
 uint requiredSkill
 uint requiredSkillRank
@@ -8,7 +8,7 @@ uint setFlags
 
 BUILD 6.0.1.18179
 ID<32>
-name
+name_lang
 itemID<32>[17]
 requiredSkill<32>
 requiredSkillRank<32>
@@ -16,7 +16,7 @@ requiredSkillRank<32>
 LAYOUT 847FF58A
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 itemID<32>[17]
 requiredSkillRank<16>
 requiredSkill<32>

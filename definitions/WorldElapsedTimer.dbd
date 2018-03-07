@@ -1,18 +1,18 @@
 COLUMNS
 int ID
-locstring name
+locstring name_lang
 uint flags
 uint type
 
 BUILD 6.0.1.18179
 ID<32>
-name
+name_lang
 flags<32>
 type<32>
 
 LAYOUT 6C026FDE
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 flags<8>
 type<8>

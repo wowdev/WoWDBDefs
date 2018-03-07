@@ -1,8 +1,8 @@
 COLUMNS
 int ID
 uint type
-locstring DisplayName
-locstring Description
+locstring DisplayName_lang
+locstring Description_lang
 float Cost_Modifier
 uint<ChrRaces::ID> race
 uint sex
@@ -11,8 +11,8 @@ uint data
 BUILD 6.0.1.18179
 ID<32>
 type<32>
-DisplayName
-Description
+DisplayName_lang
+Description_lang
 Cost_Modifier
 race<32>
 sex<32>
@@ -20,8 +20,8 @@ data<32>
 
 LAYOUT 670C71AE
 BUILD 8.0.1.26095
-DisplayName
-Description
+DisplayName_lang
+Description_lang
 Cost_Modifier
 type<8>
 race<8>

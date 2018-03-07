@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int actionBarSpellID
-locstring description
+locstring description_lang
 int flags
 int levelRequired
 int overridesSpellID
@@ -11,7 +11,7 @@ int spellID
 
 LAYOUT 78CA6E33
 BUILD 8.0.1.26095
-description
+description_lang
 $id$ID<32>
 spellID<32>
 specID<32> // unk_8C, unk_90

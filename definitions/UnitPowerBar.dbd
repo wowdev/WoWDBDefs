@@ -10,10 +10,10 @@ uint barType
 int<FileData::ID> fileDataID
 int color
 uint flags
-locstring name
-locstring cost
-locstring outOfError
-locstring toolTip
+locstring name_lang
+locstring cost_lang
+locstring outOfError_lang
+locstring toolTip_lang
 float startInset
 float endInset
 
@@ -29,20 +29,20 @@ barType<32>
 fileDataID<32>[6]
 color<32>[6]
 flags<32>
-name
-cost
-outOfError
-toolTip
+name_lang
+cost_lang
+outOfError_lang
+toolTip_lang
 startInset
 endInset
 
 LAYOUT 626C94CD
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
-cost
-outOfError
-toolTip
+name_lang
+cost_lang
+outOfError_lang
+toolTip_lang
 regenerationPeace
 regenerationCombat
 fileDataID<32>[6]

@@ -5,13 +5,13 @@ string field_3655457241?
 string field_3823465681?
 uint field_955895672?
 int ID
-locstring description
+locstring description_lang
 uint factionChangeGarrAbilityID
 uint flags
 uint garrAbilityCategoryID
 uint garrFollowerTypeID
 int iconFileDataID
-locstring name
+locstring name_lang
 
 BUILD 6.0.1.18179
 field_754817840<32>
@@ -22,8 +22,8 @@ field_955895672<32>
 
 LAYOUT 5DF95DBD
 BUILD 8.0.1.26095
-name
-description
+name_lang
+description_lang
 iconFileDataID<32>
 flags<16>
 factionChangeGarrAbilityID<16>

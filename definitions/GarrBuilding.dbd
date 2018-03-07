@@ -21,7 +21,7 @@ uint field_3505732336?
 uint field_1025260385?
 int ID
 int allianceGameObjectID
-locstring allianceName
+locstring allianceName_lang
 uint allianceSceneScriptPackageID
 uint allianceUiTextureKitID
 uint bonusGarrAbilityID
@@ -29,20 +29,20 @@ int buildSeconds
 uint buildingType
 int currencyQty
 uint currencyTypeID
-locstring description
+locstring description_lang
 uint flags
 uint garrAbilityID
 uint garrSiteID
 uint garrTypeID
 uint goldCost
 int hordeGameObjectID
-locstring hordeName
+locstring hordeName_lang
 uint hordeSceneScriptPackageID
 uint hordeUiTextureKitID
 int iconFileDataID
 int maxAssignments
 uint shipmentCapacity
-locstring tooltip
+locstring tooltip_lang
 uint upgradeLevel
 
 BUILD 6.0.1.18179
@@ -70,10 +70,10 @@ field_1025260385<32>
 LAYOUT 200F9858
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-allianceName
-hordeName
-description
-tooltip
+allianceName_lang
+hordeName_lang
+description_lang
+tooltip_lang
 hordeGameObjectID<32>
 allianceGameObjectID<32>
 iconFileDataID<32>

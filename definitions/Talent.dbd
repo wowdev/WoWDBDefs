@@ -8,7 +8,7 @@ uint flags
 uint categoryMask
 uint classID
 uint overridesSpellID
-locstring description
+locstring description_lang
 
 BUILD 6.0.1.18179
 ID<32>
@@ -20,12 +20,12 @@ flags<32>
 categoryMask<32>[2]
 classID<32>
 overridesSpellID<32>
-description
+description_lang
 
 LAYOUT E8850B48
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-description
+description_lang
 spellID<32>
 overridesSpellID<32>
 specID<16>

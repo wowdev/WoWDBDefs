@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-locstring name
+locstring name_lang
 uint slot
 
 BUILD 6.0.1.18179
 ID<32>
-name
+name_lang
 slot<32>
 
 LAYOUT 85868B9F
 BUILD 8.0.1.26095
-name
+name_lang
 slot<8>
 $id$ID<32>

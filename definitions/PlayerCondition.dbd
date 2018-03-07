@@ -71,7 +71,7 @@ uint minAvgEquippedItemLevel
 uint maxAvgEquippedItemLevel
 int chrSpecializationIndex
 int chrSpecializationRole
-locstring failure_description
+locstring failure_description_lang
 int powerType
 uint powerTypeComp
 uint powerTypeValue
@@ -154,7 +154,7 @@ minAvgEquippedItemLevel<32>
 maxAvgEquippedItemLevel<32>
 chrSpecializationIndex<32>
 chrSpecializationRole<32>
-failure_description
+failure_description_lang
 powerType<32>
 powerTypeComp<32>
 powerTypeValue<32>
@@ -162,7 +162,7 @@ powerTypeValue<32>
 LAYOUT 5B3DA113
 BUILD 8.0.1.26095
 raceMask<64>
-failure_description
+failure_description_lang
 $id$ID<32>
 flags<8>
 minLevel<16>

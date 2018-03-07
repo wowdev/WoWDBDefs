@@ -4,7 +4,7 @@ uint charges
 uint effect
 int effectPointsMin
 uint effectArg
-locstring name
+locstring name_lang
 uint itemVisual
 uint flags
 uint src_itemID
@@ -17,7 +17,7 @@ uint itemLevel
 int scalingClass
 int scalingClassRestricted
 float effectScalingPoints
-locstring hordeName
+locstring hordeName_lang
 uint iconFileDataID
 uint transmogCost
 uint transmogPlayerConditionID
@@ -28,7 +28,7 @@ charges<32>
 effect<32>[3]
 effectPointsMin<32>[3]
 effectArg<32>[3]
-name
+name_lang
 itemVisual<32>
 flags<32>
 src_itemID<32>
@@ -45,8 +45,8 @@ effectScalingPoints[3]
 LAYOUT F8B0881A
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
-hordeName
+name_lang
+hordeName_lang
 effectArg<32>[3]
 effectScalingPoints[3]
 transmogCost<32>

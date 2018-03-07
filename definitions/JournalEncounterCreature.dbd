@@ -4,8 +4,8 @@ uint<JournalEncounter::ID> journalEncounterID
 uint<CreatureDisplayInfo::ID> creatureDisplayInfoID
 uint orderIndex
 uint<FileData::ID> fileDataID
-locstring name
-locstring description
+locstring name_lang
+locstring description_lang
 uint uiModelSceneID
 
 BUILD 6.0.1.18179
@@ -14,13 +14,13 @@ journalEncounterID<32>
 creatureDisplayInfoID<32>
 orderIndex<32>
 fileDataID<32>
-name
-description
+name_lang
+description_lang
 
 LAYOUT F105CB72
 BUILD 8.0.1.26095
-name
-description
+name_lang
+description_lang
 creatureDisplayInfoID<32>
 fileDataID<32>
 journalEncounterID<16> // unk_8C, unk_90

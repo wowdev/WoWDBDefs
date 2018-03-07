@@ -3,7 +3,7 @@ int ID
 int flags
 uint usesPerWeek
 uint padding_4210097782?
-locstring name
+locstring name_lang
 int maxCharges
 int chargeRecoveryTime
 int typeMask
@@ -13,14 +13,14 @@ ID<32>
 flags<32>
 usesPerWeek<8>
 padding_4210097782<8>[3]
-name
+name_lang
 maxCharges<32>
 chargeRecoveryTime<32>
 
 LAYOUT EA60E384
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 chargeRecoveryTime<32>
 flags<8>
 usesPerWeek<8>

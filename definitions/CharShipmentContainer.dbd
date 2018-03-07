@@ -13,7 +13,7 @@ int ID
 uint baseCapacity
 uint completeSpellVisualID
 uint crossFactionID
-locstring description
+locstring description_lang
 int faction
 uint garrBuildingType
 uint garrTypeID
@@ -21,7 +21,7 @@ uint largeDisplayInfoID
 uint largeThreshold
 uint mediumDisplayInfoID
 uint mediumThreshold
-locstring pendingText
+locstring pendingText_lang
 uint smallDisplayInfoID
 uint uiTextureKitID
 uint workingDisplayInfoID
@@ -42,8 +42,8 @@ field_262351871<32>
 LAYOUT 194896E3
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-pendingText
-description
+pendingText_lang
+description_lang
 workingSpellVisualID<32>
 uiTextureKitID<16>
 workingDisplayInfoID<16>

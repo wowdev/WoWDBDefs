@@ -22,7 +22,7 @@ int ID
 uint areaID
 uint baseCompletionChance
 uint baseFollowerXP
-locstring description
+locstring description_lang
 uint envGarrMechanicID
 uint envGarrMechanicTypeID
 uint flags
@@ -31,13 +31,13 @@ uint garrFollowerTypeID
 uint garrMissionSetID
 uint garrMissionTypeID
 uint garrTypeID
-locstring location
+locstring location_lang
 float mapPos_
 uint maxFollowers
 uint missionCost
 uint missionCostCurrencyTypesID
 int missionDuration
-locstring name
+locstring name_lang
 uint offerDuration
 uint offeredGarrMissionTextureID
 uint overmaxRewardPackID
@@ -71,9 +71,9 @@ field_2386078249
 
 LAYOUT DDD70490
 BUILD 8.0.1.26095
-name
-description
-location
+name_lang
+description_lang
+location_lang
 missionDuration<32>
 offerDuration<32>
 mapPos_[2]

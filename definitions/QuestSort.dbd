@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-locstring SortName
+locstring SortName_lang
 int uiOrderIndex
 
 BUILD 6.0.1.18179
 ID<32>
-SortName
+SortName_lang
 
 LAYOUT AD7072C6
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-SortName
+SortName_lang
 uiOrderIndex<8>

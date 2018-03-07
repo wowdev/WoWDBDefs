@@ -3,7 +3,7 @@ int ID
 string Directory // reference to World\Map\ [...] \
 uint PVP
 uint IsInMap
-locstring MapName
+locstring MapName_lang
 uint InstanceType // Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: none (official from "IsInInstance()")
 uint MapType
 uint MinLevel
@@ -13,8 +13,8 @@ uint unk0?
 uint unk1?
 uint unk2?
 int<Map::ID> parentMapID
-locstring MapDescription0 // Horde
-locstring MapDescription1 // Alliance
+locstring MapDescription0_lang // Horde
+locstring MapDescription1_lang // Alliance
 int<LoadingScreens::ID> LoadingScreenID
 uint raidOffset
 uint continentname?
@@ -33,19 +33,19 @@ float corpse // Array of CorpsePosX/CorpsePosY
 int<Map::ID> cosmeticParentMapID
 uint timeOffset
 int<WindSettings::ID> WindSettingsID
-locstring PvpShortDescription
-locstring PvpLongDescription
+locstring PvpShortDescription_lang
+locstring PvpLongDescription_lang
 
 LAYOUT F568DF12
 BUILD 8.0.1.25902-8.0.1.26095
 BUILD 7.3.5.25600-7.3.5.25928
 ID<32>
 Directory
-MapName
-MapDescription0
-MapDescription1
-PvpShortDescription
-PvpLongDescription
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
 Flags<32>[2]
 minimapIconScale
 corpse[2]
@@ -72,11 +72,11 @@ Directory
 Flags<32>[2]
 minimapIconScale
 corpse[2]
-MapName
-MapDescription0
-MapDescription1
-PvpShortDescription
-PvpLongDescription
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
 areaTableID<16>
 LoadingScreenID<16>
 corpseMapID<16>
@@ -100,9 +100,9 @@ Directory
 Flags<32>[2]
 minimapIconScale
 corpse[2]
-MapName
-MapDescription0
-MapDescription1
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
 areaTableID<16>
 LoadingScreenID<16>
 corpseMapID<16>
@@ -123,9 +123,9 @@ Directory
 Flags<32>[2]
 minimapIconScale
 corpse[2]
-MapName
-MapDescription0
-MapDescription1
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
 areaTableID<16>
 LoadingScreenID<16>
 corpseMapID<16>
@@ -145,10 +145,10 @@ InstanceType<32>
 unk0<32>
 Flags<32>
 MapType<32>
-MapName
+MapName_lang
 areaTableID<32>
-MapDescription0
-MapDescription1
+MapDescription0_lang
+MapDescription1_lang
 LoadingScreenID<32>
 minimapIconScale
 corpseMapID<32>
@@ -167,10 +167,10 @@ Directory
 InstanceType<32>
 Flags<32>
 MapType<32>
-MapName
+MapName_lang
 areaTableID<32>
-MapDescription0
-MapDescription1
+MapDescription0_lang
+MapDescription1_lang
 LoadingScreenID<32>
 minimapIconScale
 corpseMapID<32>
@@ -189,10 +189,10 @@ Directory
 InstanceType<32>
 Flags<32>
 PVP<32>
-MapName
+MapName_lang
 areaTableID<32>
-MapDescription0
-MapDescription1
+MapDescription0_lang
+MapDescription1_lang
 LoadingScreenID<32>
 minimapIconScale
 corpseMapID<32>
@@ -209,7 +209,7 @@ ID<32>
 Directory
 InstanceType<32>
 MapType<32>
-MapName
+MapName_lang
 MinLevel<32>
 MaxLevel<32>
 maxPlayers<32>
@@ -217,8 +217,8 @@ unk0<32>
 unk1<32>
 unk2<32>
 parentMapID<32>
-MapDescription0
-MapDescription1
+MapDescription0_lang
+MapDescription1_lang
 LoadingScreenID<32>
 raidOffset<32>
 continentname<32>
@@ -228,33 +228,33 @@ BUILD 0.9.1.3810
 ID<32>
 Directory
 PVP<32>
-MapName
+MapName_lang
 MinLevel<32>
 MaxLevel<32>
 unk0<32>
 unk1<32>
 unk2<32>
 unk3<32>
-MapDescription0
-MapDescription1
+MapDescription0_lang
+MapDescription1_lang
 unk4<32>
 
 BUILD 0.7.0.3694, 0.7.1.3702, 0.7.6.3712
 ID<32>
 Directory
 PVP<32>
-MapName
+MapName_lang
 MinLevel<32>
 MaxLevel<32>
 unk0<32>
 unk1<32>
 unk2<32>
-MapDescription0
-MapDescription1
+MapDescription0_lang
+MapDescription1_lang
 
 BUILD 0.5.3.3368, 0.5.3.3494, 0.6.0.3592
 ID<32>
 Directory
 PVP<32>
 IsInMap<32>
-MapName
+MapName_lang

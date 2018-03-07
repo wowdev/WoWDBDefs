@@ -4,7 +4,7 @@ uint localeMask
 uint create_charsetMask
 uint existing_charsetMask
 uint flags
-locstring name
+locstring name_lang
 
 BUILD 6.0.1.18179
 ID<32>
@@ -12,12 +12,12 @@ localeMask<32>
 create_charsetMask<32>
 existing_charsetMask<32>
 flags<32>
-name
+name_lang
 
 LAYOUT 705B82C8
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 localeMask<16>
 create_charsetMask<8>
 existing_charsetMask<8>

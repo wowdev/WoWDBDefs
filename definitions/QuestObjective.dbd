@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int amount
-locstring description
+locstring description_lang
 uint flags
 int objectID
 uint orderIndex
@@ -12,7 +12,7 @@ uint type
 LAYOUT DD995180
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-description
+description_lang
 amount<32>
 objectID<32>
 type<8>

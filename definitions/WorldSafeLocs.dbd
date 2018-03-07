@@ -3,11 +3,11 @@ uint ID
 uint<Map::ID> continent
 float loc
 float facing
-locstring areaName
+locstring areaName_lang
 
 BUILD 6.0.1.18179
 ID<32>
 continent<32>
 loc[3]
 facing
-areaName
+areaName_lang

@@ -1,17 +1,17 @@
 COLUMNS
 int ID
 uint flags
-locstring name
+locstring name_lang
 uint expansionID
 
 BUILD 6.0.1.18179
 ID<32>
 flags<32>
-name
+name_lang
 
 LAYOUT C3735D76
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 flags<8>
 expansionID<8>

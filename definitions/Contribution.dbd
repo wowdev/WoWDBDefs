@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-locstring description
+locstring description_lang
 int managedWorldStateInputID
-locstring name
+locstring name_lang
 int orderIndex
 int uiTextureAtlasMemberID
 
 LAYOUT 8EDF6090
 BUILD 8.0.1.26095
-description
-name
+description_lang
+name_lang
 $id$ID<32>
 managedWorldStateInputID<32> // unk_8C, unk_90
 uiTextureAtlasMemberID<32>[4]

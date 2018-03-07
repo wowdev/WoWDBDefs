@@ -3,14 +3,14 @@ int ID
 int faction
 int<Map::ID> instance_ID
 int<Achievement::ID> supercedes
-locstring title
-locstring description
+locstring title_lang
+locstring description_lang
 int<Achievement_Category::ID> category
 int points
 int ui_order
 int flags
 uint<SpellIcon::ID> iconID
-locstring reward
+locstring reward_lang
 int minimum_criteria
 int<Achievement::ID> shares_criteria
 uint criteria_tree
@@ -21,23 +21,23 @@ ID<32>
 faction<32>
 instance_ID<32>
 supercedes<32>
-title
-description
+title_lang
+description_lang
 category<32>
 points<32>
 ui_order<32>
 flags<32>
 iconID<32>
-reward
+reward_lang
 minimum_criteria<32>
 shares_criteria<32>
 criteria_tree<32>
 
 LAYOUT 2C4BE18C
 BUILD 8.0.1.26095
-title
-description
-reward
+title_lang
+description_lang
+reward_lang
 flags<32>
 instance_ID<16>
 supercedes<16>

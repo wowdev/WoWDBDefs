@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-locstring description
+locstring description_lang
 int flags
 uint garrAbilityID
 uint garrTalentTreeID
 int iconFileDataID
-locstring name
+locstring name_lang
 uint perkPlayerConditionID
 uint perkSpellID
 uint playerConditionID
@@ -22,8 +22,8 @@ int uiOrder
 
 LAYOUT 53D5FD16
 BUILD 8.0.1.26095
-name
-description
+name_lang
+description_lang
 iconFileDataID<32>
 researchDurationSecs<32>
 tier<8>

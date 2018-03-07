@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 uint areaPoiID
-locstring description
+locstring description_lang
 uint iconEnumValue
 uint uiTextureAtlasMemberID
 uint worldStateValue
@@ -9,7 +9,7 @@ uint worldStateValue
 LAYOUT 673BDA80
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-description
+description_lang
 worldStateValue<8>
 iconEnumValue<8>
 uiTextureAtlasMemberID<32>

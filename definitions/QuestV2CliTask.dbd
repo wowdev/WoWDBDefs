@@ -1,6 +1,6 @@
 COLUMNS
 uint BreadCrumbID
-locstring BulletText
+locstring BulletText_lang
 uint ConditionID
 uint FiltActiveQuest
 int FiltClasses
@@ -18,7 +18,7 @@ uint FiltNonActiveQuest
 int FiltRaces
 uint ID
 uint QuestInfoID
-locstring QuestTitle
+locstring QuestTitle_lang
 int SandboxScalingID
 int StartItem
 uint UniqueBitFlag
@@ -27,8 +27,8 @@ int WorldStateExpressionID
 LAYOUT 3F026A14
 BUILD 8.0.1.26095
 FiltRaces<64>
-QuestTitle
-BulletText
+QuestTitle_lang
+BulletText_lang
 StartItem<32>
 UniqueBitFlag<16>
 ConditionID<16>

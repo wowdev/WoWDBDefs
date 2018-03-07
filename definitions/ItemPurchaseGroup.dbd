@@ -1,9 +1,9 @@
 COLUMNS
 uint ID
 uint<Item::ID> itemID
-locstring name
+locstring name_lang
 
 BUILD 6.0.1.18179
 ID<32>
 itemID<32>[8]
-name
+name_lang

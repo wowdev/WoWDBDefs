@@ -3,22 +3,22 @@ int ID
 float rangeMin
 float rangeMax
 uint flags
-locstring displayName
-locstring displayNameShort
+locstring displayName_lang
+locstring displayNameShort_lang
 
 BUILD 6.0.1.18179
 ID<32>
 rangeMin[2]
 rangeMax[2]
 flags<32>
-displayName
-displayNameShort
+displayName_lang
+displayNameShort_lang
 
 LAYOUT DE2E3F8E
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-displayName
-displayNameShort
+displayName_lang
+displayNameShort_lang
 rangeMin[2]
 rangeMax[2]
 flags<8>

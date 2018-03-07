@@ -1,6 +1,6 @@
 COLUMNS
 uint ID
-locstring name
+locstring name_lang
 uint minLevel
 uint maxLevel
 uint target_level
@@ -15,7 +15,7 @@ string textureFilename
 uint expansionLevel
 uint order_index
 uint group_ID
-locstring description
+locstring description_lang
 uint random_ID
 uint count_tank
 uint count_healer
@@ -31,7 +31,7 @@ uint mentorItemLevel
 
 BUILD 6.0.1.18179
 ID<32>
-name
+name_lang
 minLevel<32>
 maxLevel<32>
 target_level<32>
@@ -46,7 +46,7 @@ textureFilename
 expansionLevel<32>
 order_index<32>
 group_ID<32>
-description
+description_lang
 random_ID<32>
 count_tank<32>
 count_healer<32>

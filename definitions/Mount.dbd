@@ -9,14 +9,14 @@ string field_1377897649?
 uint field_268802801?
 uint field_1816521343?
 int ID
-locstring description
+locstring description_lang
 uint flags
 float mountFlyRideHeight
 uint mountTypeID
-locstring name
+locstring name_lang
 uint playerConditionID
 int sourceSpellID
-locstring sourceText
+locstring sourceText_lang
 int sourceTypeEnum
 int uiModelSceneID
 
@@ -33,9 +33,9 @@ field_1816521343<32>
 
 LAYOUT 4D812F19
 BUILD 8.0.1.26095
-name
-description
-sourceText
+name_lang
+description_lang
+sourceText_lang
 sourceSpellID<32>
 mountFlyRideHeight
 mountTypeID<16>

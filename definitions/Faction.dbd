@@ -8,8 +8,8 @@ uint reputationFlags
 uint<Faction::ID> parentFactionID
 float parentFactionMod
 uint parentFactionCap
-locstring name
-locstring description
+locstring name_lang
+locstring description_lang
 uint expansion
 uint flags
 uint<FriendshipReputation::ID> friendshipRepID
@@ -26,8 +26,8 @@ reputationFlags<32>[4]
 parentFactionID<32>
 parentFactionMod[2]
 parentFactionCap<32>[2]
-name
-description
+name_lang
+description_lang
 expansion<32>
 flags<32>
 friendshipRepID<32>
@@ -35,8 +35,8 @@ friendshipRepID<32>
 LAYOUT C0CBCBC8
 BUILD 8.0.1.26095
 reputationRaceMask<64>[4]
-name
-description
+name_lang
+description_lang
 $id$ID<32>
 reputationBase<32>[4]
 parentFactionMod[2]

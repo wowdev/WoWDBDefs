@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-locstring name
+locstring name_lang
 uint orderIndex
 
 BUILD 6.0.1.18179
 ID<32>
-name
+name_lang
 
 LAYOUT C9458196
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 orderIndex<8>

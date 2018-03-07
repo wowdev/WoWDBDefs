@@ -7,8 +7,8 @@ float pos
 uint<Map::ID> continentID
 uint flags
 int<AreaTable::ID> areaID
-locstring name
-locstring description
+locstring name_lang
+locstring description_lang
 uint<WorldState::ID> worldStateID
 uint<PlayerCondition::ID> playerConditionID
 uint worldMapLink
@@ -28,8 +28,8 @@ pos[2]
 continentID<32>
 flags<32>
 areaID<32>
-name
-description
+name_lang
+description_lang
 worldStateID<32>
 playerConditionID<32>
 worldMapLink<32>
@@ -38,8 +38,8 @@ portLocID<32>
 LAYOUT 22F9B807
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
-description
+name_lang
+description_lang
 flags<32>
 pos[3]
 poiDataType<32>

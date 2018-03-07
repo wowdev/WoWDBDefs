@@ -8,7 +8,7 @@ int<SkillLine::ID> skillLine
 int petFoodMask
 int petTalentType
 uint categoryEnumID
-locstring name
+locstring name_lang
 string iconFile
 int iconFileID
 
@@ -22,13 +22,13 @@ skillLine<32>[2]
 petFoodMask<32>
 petTalentType<32>
 categoryEnumID<32>
-name
+name_lang
 iconFile
 
 LAYOUT E2DC5126
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 minScale
 maxScale
 iconFileID<32>

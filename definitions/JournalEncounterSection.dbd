@@ -8,8 +8,8 @@ uint orderIndex
 uint type
 uint flags
 uint iconFlags
-locstring title
-locstring bodyText
+locstring title_lang
+locstring bodyText_lang
 int difficultyMask
 uint<CreatureDisplayInfo::ID> iconCreatureDisplayInfoID
 int<Spell::ID> spellID
@@ -26,8 +26,8 @@ orderIndex<32>
 type<32>
 flags<32>
 iconFlags<32>
-title
-bodyText
+title_lang
+bodyText_lang
 difficultyMask<32>
 iconCreatureDisplayInfoID<32>
 spellID<32>
@@ -36,8 +36,8 @@ iconFileDataID<32>
 LAYOUT 60BB3520
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-title
-bodyText
+title_lang
+bodyText_lang
 iconCreatureDisplayInfoID<32>
 spellID<32>
 iconFileDataID<32>

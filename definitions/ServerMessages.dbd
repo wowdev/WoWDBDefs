@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-locstring Text
+locstring Text_lang
 
 BUILD 6.0.1.18179
 ID<32>
-Text
+Text_lang
 
 LAYOUT 1C7A1347
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-Text
+Text_lang

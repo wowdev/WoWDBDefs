@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-locstring subject
-locstring body
+locstring subject_lang
+locstring body_lang
 
 BUILD 6.0.1.18179
 ID<32>
-subject
-body
+subject_lang
+body_lang
 
 LAYOUT 25C8D6CC
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-body
+body_lang

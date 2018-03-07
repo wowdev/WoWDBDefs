@@ -3,19 +3,19 @@ int ID
 uint<Faction::ID> factionID
 uint depositRate
 uint consignmentRate
-locstring name
+locstring name_lang
 
 BUILD 6.0.1.18179
 ID<32>
 factionID<32>
 depositRate<32>
 consignmentRate<32>
-name
+name_lang
 
 LAYOUT 51CFEEFF
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 factionID<16>
 depositRate<8>
 consignmentRate<8>

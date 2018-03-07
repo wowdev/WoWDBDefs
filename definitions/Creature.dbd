@@ -18,11 +18,11 @@ uint creatureType
 int displayID
 float displayProbability
 int mountCreatureID
-locstring name
-locstring nameAlt
+locstring name_lang
+locstring nameAlt_lang
 uint startAnimState
-locstring title
-locstring titleAlt
+locstring title_lang
+locstring titleAlt_lang
 
 BUILD 6.0.1.18179
 field_2650500903<32>
@@ -40,10 +40,10 @@ field_4058499962<32>
 LAYOUT CFB508A9
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
-nameAlt
-title
-titleAlt
+name_lang
+nameAlt_lang
+title_lang
+titleAlt_lang
 AlwaysItem<32>[3]
 mountCreatureID<32>
 displayID<32>[4]

@@ -5,7 +5,7 @@ int amount
 int operator
 uint parent
 int flags
-locstring description
+locstring description_lang
 int orderIndex
 uint padding_2173460021?
 
@@ -16,14 +16,14 @@ amount<64>
 operator<32>
 parent<32>
 flags<32>
-description
+description_lang
 orderIndex<32>
 padding_2173460021<8>[4]
 
 LAYOUT 0A1B99C2
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-description
+description_lang
 amount<32>
 flags<16>
 operator<8>

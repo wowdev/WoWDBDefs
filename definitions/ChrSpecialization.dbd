@@ -9,12 +9,12 @@ int role
 uint spellIconID
 uint raidBuffs
 uint flags
-locstring name
-locstring description
+locstring name_lang
+locstring description_lang
 uint maxBuffs
 uint primaryStatOrder
 int animReplacements
-locstring femaleName
+locstring femaleName_lang
 int primaryStatPriority
 int spellIconFileID
 
@@ -29,16 +29,16 @@ role<32>
 spellIconID<32>
 raidBuffs<32>
 flags<32>
-name
-description
+name_lang
+description_lang
 maxBuffs<32>
 primaryStatOrder<32>[3]
 
 LAYOUT 3D86B8F7
 BUILD 8.0.1.26095
-name
-femaleName
-description
+name_lang
+femaleName_lang
+description_lang
 masterySpellID<32>[2]
 classID<8> // unk_8C, unk_90
 orderIndex<8>

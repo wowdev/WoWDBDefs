@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-locstring name
+locstring name_lang
 uint mask
 uint immunityPossible
 string internalName
 
 BUILD 6.0.1.18179
 ID<32>
-name
+name_lang
 mask<32>
 immunityPossible<32>
 internalName
@@ -15,7 +15,7 @@ internalName
 LAYOUT E9DDA799
 BUILD 8.0.1.26095
 $noninlineid$ID<32>
-name
+name_lang
 internalName
 mask<8>
 immunityPossible<8>
