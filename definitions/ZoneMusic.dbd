@@ -6,7 +6,7 @@ uint SilenceIntervalMax
 uint<SoundEntries::ID> Sounds
 
 BUILD 6.0.1.18179
-ID<32>
+$id$ID<32>
 SetName
 SilenceIntervalMin<32>[2]
 SilenceIntervalMax<32>[2]

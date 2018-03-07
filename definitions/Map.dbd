@@ -39,7 +39,7 @@ locstring PvpLongDescription_lang
 LAYOUT F568DF12
 BUILD 8.0.1.25902-8.0.1.26095
 BUILD 7.3.5.25600-7.3.5.25928
-ID<32>
+$id$ID<32>
 Directory
 MapName_lang
 MapDescription0_lang
@@ -67,7 +67,7 @@ BUILD 7.3.2.25135-7.3.2.25549
 BUILD 7.3.0.24473-7.3.0.25195
 BUILD 7.2.5.23910-7.2.5.24393
 BUILD 7.2.0.23530-7.2.0.23937
-ID<32>
+$id$ID<32>
 Directory
 Flags<32>[2]
 minimapIconScale
@@ -95,7 +95,7 @@ BUILD 7.2.0.23436-7.2.0.23514
 BUILD 7.1.5.23038-7.1.5.23420
 BUILD 7.1.0.22578-7.1.0.22996
 BUILD 7.0.3.21796-7.0.3.22747
-ID<32>
+$id$ID<32>
 Directory
 Flags<32>[2]
 minimapIconScale
@@ -118,7 +118,7 @@ timeOffset<8>
 
 LAYOUT 27D77AEF
 BUILD 7.0.3.21473-7.0.3.21737
-ID<32>
+$id$ID<32>
 Directory
 Flags<32>[2]
 minimapIconScale
@@ -139,7 +139,7 @@ maxPlayers<8>
 timeOffset<8>
 
 BUILD 6.0.2.18837
-ID<32>
+$id$ID<32>
 Directory
 InstanceType<32>
 unk0<32>
@@ -162,7 +162,7 @@ cosmeticParentMapID<32>
 timeOffset<32>
 
 BUILD 6.0.1.18125-6.0.2.18833
-ID<32>
+$id$ID<32>
 Directory
 InstanceType<32>
 Flags<32>
@@ -184,7 +184,7 @@ cosmeticParentMapID<32>
 timeOffset<32>
 
 BUILD 4.0.1.12911
-ID<32>
+$id$ID<32>
 Directory
 InstanceType<32>
 Flags<32>
@@ -205,7 +205,7 @@ unk4<32>
 unk5<32>
 
 BUILD 1.12.1.5875
-ID<32>
+$id$ID<32>
 Directory
 InstanceType<32>
 MapType<32>
@@ -225,7 +225,7 @@ continentname<32>
 unk4<32>
 
 BUILD 0.9.1.3810
-ID<32>
+$id$ID<32>
 Directory
 PVP<32>
 MapName_lang
@@ -240,7 +240,7 @@ MapDescription1_lang
 unk4<32>
 
 BUILD 0.7.0.3694, 0.7.1.3702, 0.7.6.3712
-ID<32>
+$id$ID<32>
 Directory
 PVP<32>
 MapName_lang
@@ -253,7 +253,7 @@ MapDescription0_lang
 MapDescription1_lang
 
 BUILD 0.5.3.3368, 0.5.3.3494, 0.6.0.3592
-ID<32>
+$id$ID<32>
 Directory
 PVP<32>
 IsInMap<32>
