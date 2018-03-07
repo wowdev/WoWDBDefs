@@ -58,8 +58,10 @@ namespace DBDefsMerge
                                     typeOverride = columnDefinition2.Value.type;
 
                                     // If this is an uncommon conversion (not uint -> int) override the version's column type
-                                    if (columnDefinition1.Value.type != "uint" || columnDefinition2.Value.type != "int")
-                                    {
+                                    if ((columnDefinition1.Value.type == "uint" && columnDefinition2.Value.type == "int") || (columnDefinition1.Value.type == "int" && columnDefinition2.Value.type == "uint")) {
+                                        Console.ForegroundColor = ConsoleColor.Yellow;
+                                        Console.WriteLine("Type difference for column (1)" + dbName + "::" + columnDefinition1.Key + " = " + columnDefinition1.Value.type + " and(2)" + dbName + "::" + columnDefinition2.Key + " = " + columnDefinition2.Value.type + ", ignoring..");
+                                    } else {
                                         Console.ForegroundColor = ConsoleColor.Red;
                                         Console.WriteLine("Unexpected type difference for column (1)" + dbName + "::" + columnDefinition1.Key + " = " + columnDefinition1.Value.type + " and(2)" + dbName + "::" + columnDefinition2.Key + " = " + columnDefinition2.Value.type);
                                         Console.WriteLine("Adding override to type " + columnDefinition2.Value.type + " for the column in this version!");
@@ -77,7 +79,7 @@ namespace DBDefsMerge
                                     }
 
                                     // Only change type in column definitions if we're not already overriding it 
-                                    if (!string.IsNullOrWhiteSpace(typeOverride))
+                                    if (string.IsNullOrWhiteSpace(typeOverride))
                                     {
                                         var tempDefs = newDefinition.columnDefinitions;
                                         newDefinition.columnDefinitions = new Dictionary<string, ColumnDefinition>();
