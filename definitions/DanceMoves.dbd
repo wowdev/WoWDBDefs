@@ -1,0 +1,19 @@
+COLUMNS
+uint ID
+uint type
+uint param
+uint fallback
+uint racemask
+string Internal_name
+locstring Name_lang
+uint lockID
+
+BUILD 4.0.0.11792
+$id$ID<32>
+type<32>
+param<32>
+fallback<32>
+racemask<32>
+Internal_name
+Name_lang
+lockID<32>

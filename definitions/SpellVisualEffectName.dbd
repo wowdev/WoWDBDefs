@@ -24,6 +24,9 @@ uint ribbonQualityID
 float scale
 int textureFileDataID
 uint type
+string name
+string fileName
+float areaEffectSize
 
 BUILD 6.0.1.18179
 field_189230862<32>
@@ -54,3 +57,12 @@ genericID<32>
 textureFileDataID<32>
 ribbonQualityID<32>
 dissolveEffectID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+name
+fileName
+areaEffectSize
+scale
+minAllowedScale
+maxAllowedScale

@@ -40,6 +40,32 @@ float missileImpactOffset
 uint missileImpactPositionerID
 int missileTargetingKit
 uint spellVisualMissileSetID
+uint precastKit
+uint castKit
+uint impactKit
+uint stateKit
+uint stateDoneKit
+uint channelKit
+uint hasMissile
+uint missileModel
+uint missilePathType
+uint missileSound
+uint casterImpactKit
+uint targetImpactKit
+uint missileFollowGroundHeight
+uint missileFollowGroundDropSpeed
+uint missileFollowGroundApproach
+uint missileFollowGroundFlags
+uint missileMotion
+uint instantAreaKit
+uint impactAreaKit
+uint persistentAreaKit
+float missileCastOffsetX
+float missileCastOffsetY
+float missileCastOffsetZ
+float missileImpactOffsetX
+float missileImpactOffsetY
+float missileImpactOffsetZ
 
 BUILD 6.0.1.18179
 field_2220575123<32>
@@ -86,3 +112,37 @@ damageNumberDelay<16>
 hostileSpellVisualID<32>
 casterSpellVisualID<32>
 lowViolenceSpellVisualID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+precastKit<32>
+castKit<32>
+impactKit<32>
+stateKit<32>
+stateDoneKit<32>
+channelKit<32>
+hasMissile<32>
+missileModel<32>
+missilePathType<32>
+missileDestinationAttachment<32>
+missileSound<32>
+animEventSoundID<32>
+flags<32>
+casterImpactKit<32>
+targetImpactKit<32>
+missileAttachment<32>
+missileFollowGroundHeight<32>
+missileFollowGroundDropSpeed<32>
+missileFollowGroundApproach<32>
+missileFollowGroundFlags<32>
+missileMotion<32>
+missileTargetingKit<32>
+instantAreaKit<32>
+impactAreaKit<32>
+persistentAreaKit<32>
+missileCastOffsetX
+missileCastOffsetY
+missileCastOffsetZ
+missileImpactOffsetX
+missileImpactOffsetY
+missileImpactOffsetZ

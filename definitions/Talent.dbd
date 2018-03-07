@@ -9,6 +9,11 @@ uint categoryMask
 uint classID
 uint overridesSpellID
 locstring description_lang
+uint tabID
+uint spellRank
+uint prereqTalent
+uint prereqRank
+uint requiredSpellID
 
 BUILD 6.0.1.18179
 ID<32>
@@ -34,3 +39,15 @@ columnIndex<8>
 flags<8>
 categoryMask<8>[2]
 classID<8>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+tabID<32>
+tierID<32>
+columnIndex<32>
+spellRank<32>[9]
+prereqTalent<32>[3]
+prereqRank<32>[3]
+flags<32>
+requiredSpellID<32>
+categoryMask<32>[2]

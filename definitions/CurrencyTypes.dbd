@@ -11,6 +11,8 @@ uint flags
 uint quality
 locstring description_lang
 int inventoryIconFileID
+uint itemID
+uint bitIndex
 
 BUILD 6.0.1.18179
 ID<32>
@@ -38,3 +40,9 @@ spellCategory<8>
 quality<8>
 inventoryIconFileID<32>
 spellWeight<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+itemID<32>
+categoryID<32>
+bitIndex<32>

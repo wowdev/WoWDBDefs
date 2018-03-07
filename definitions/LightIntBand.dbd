@@ -1,0 +1,12 @@
+COLUMNS
+uint ID
+uint num
+uint time
+uint data
+
+BUILD 4.0.0.11792
+COMMENT unknown_flag=1
+$id$ID<32>
+num<32>
+time<32>[16]
+data<32>[16]

@@ -17,6 +17,7 @@ uint extendedUIStateVariable
 int dynamicFlashIconFileID
 int dynamicIconFileID
 uint orderIndex
+uint phaseShift
 
 BUILD 6.0.1.18179
 ID<32>
@@ -54,3 +55,18 @@ type<8>
 $id$ID<32>
 dynamicIconFileID<32>
 dynamicFlashIconFileID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+mapID<32>
+areaID<32>
+phaseShift<32>
+icon
+string_lang
+tooltip_lang
+stateVariable<32>
+type<32>
+dynamicIcon
+dynamicTooltip_lang
+extendedUI
+extendedUIStateVariable<32>[3]

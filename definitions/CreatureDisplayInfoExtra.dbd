@@ -15,6 +15,7 @@ int HDBakeMaterialResourcesID
 int bakeMaterialResourcesID
 uint customDisplayOption
 int displayClassID
+string BakeName
 
 BUILD 6.0.1.18179
 ID<32>
@@ -45,3 +46,16 @@ HairColorID<8>
 FacialHairID<8>
 customDisplayOption<8>[3]
 flags<8>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+DisplayRaceID<32>
+DisplaySexID<32>
+SkinID<32>
+FaceID<32>
+HairStyleID<32>
+HairColorID<32>
+FacialHairID<32>
+NPCItemDisplay<32>[11]
+flags<32>
+BakeName

@@ -28,6 +28,7 @@ uint subtype
 uint bonus_reputation_amount
 uint mentorCharLevel
 uint mentorItemLevel
+uint difficulty
 
 BUILD 6.0.1.18179
 ID<32>
@@ -59,3 +60,22 @@ subtype<32>
 bonus_reputation_amount<32>
 mentorCharLevel<32>
 mentorItemLevel<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+name_lang
+minLevel<32>
+maxLevel<32>
+target_level<32>
+target_level_min<32>
+target_level_max<32>
+mapID<32>
+difficulty<32>
+flags<32>
+typeID<32>
+faction<32>
+textureFilename
+expansionLevel<32>
+order_index<32>
+group_ID<32>
+description_lang

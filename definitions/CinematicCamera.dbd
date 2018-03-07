@@ -5,6 +5,9 @@ uint<SoundEntries::ID> soundID
 float origin
 float originFacing
 uint fileDataID
+float originX
+float originY
+float originZ
 
 BUILD 6.0.1.18179
 ID<32>
@@ -20,3 +23,12 @@ soundID<32>
 origin[3]
 originFacing
 fileDataID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+model
+soundID<32>
+originX
+originY
+originZ
+originFacing

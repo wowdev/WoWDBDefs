@@ -1,7 +1,13 @@
 COLUMNS
 uint ID
 uint value
+uint cost
 
 BUILD 6.0.1.18179
 ID<32>
+value<32>[16]
+
+BUILD 4.0.0.11792
+$id$ID<32>
+cost<32>[16]
 value<32>[16]

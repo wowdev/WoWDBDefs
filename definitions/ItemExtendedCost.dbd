@@ -25,6 +25,9 @@ uint minFactionID
 uint minReputation
 uint requiredAchievement
 uint requiredArenaRating
+uint honorPoints
+uint arenaPoints
+uint itemPurchaseGroup
 
 BUILD 6.0.1.18179
 field_3306038014<32>
@@ -56,3 +59,13 @@ minFactionID<8>
 minReputation<8>
 flags<8>
 requiredAchievement<8>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+honorPoints<32>
+arenaPoints<32>
+arenaBracket<32>
+itemID<32>[5]
+itemCount<32>[5]
+requiredArenaRating<32>
+itemPurchaseGroup<32>

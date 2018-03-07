@@ -28,6 +28,7 @@ float duckToDialog
 float duckToSuppressors
 uint msOffset
 float volume
+string name
 
 BUILD 6.0.1.18179
 ID<32>
@@ -59,3 +60,29 @@ duckToDialog
 duckToSuppressors
 msOffset<32>
 volume[20]
+
+BUILD 4.0.0.11792
+$id$ID<32>
+soundEntryID<32>
+innerRadius2D
+timeA<32>
+timeB<32>
+timeC<32>
+timeD<32>
+randomOffsetRange<32>
+usage<32>
+timeIntervalMin<32>
+timeIntervalMax<32>
+volumeSliderCategory<32>
+duckToSFX
+duckToMusic
+duckToAmbience
+innerRadiusOfInfluence
+outerRadiusOfInfluence
+timeToDuck<32>
+timeToUnduck<32>
+insideAngle
+outsideAngle
+outsideVolume
+outerRadius2D
+name

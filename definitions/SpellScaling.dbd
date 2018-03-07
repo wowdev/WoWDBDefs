@@ -10,6 +10,9 @@ uint maxScalingLevel
 int scalesFromItemLevel
 uint minScalingLevel
 int spellID
+float coefficient
+float variance
+float comboPointsCoefficient
 
 BUILD 6.0.1.18179
 ID<32>
@@ -30,3 +33,13 @@ scalesFromItemLevel<16>
 class<32>
 minScalingLevel<32>
 maxScalingLevel<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+castTimeMin<32>
+castTimeMax<32>
+castTimeMaxLevel<32>
+class<32>
+coefficient[3]
+variance[3]
+comboPointsCoefficient[3]

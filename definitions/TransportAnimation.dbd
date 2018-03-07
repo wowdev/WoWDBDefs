@@ -4,6 +4,9 @@ int TransportID
 uint TimeIndex
 float Pos
 uint SequenceID
+float PosX
+float PosY
+float PosZ
 
 BUILD 6.0.1.18179
 ID<32>
@@ -19,3 +22,12 @@ TimeIndex<32>
 Pos[3]
 SequenceID<8>
 $relation$TransportID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+TransportID<32>
+TimeIndex<32>
+PosX
+PosY
+PosZ
+SequenceID<32>

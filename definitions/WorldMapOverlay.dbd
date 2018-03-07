@@ -13,6 +13,8 @@ int hitRectBottom
 int hitRectRight
 uint playerConditionID
 uint flags
+uint mapPointX
+uint mapPointY
 
 BUILD 6.0.1.18179
 ID<32>
@@ -45,3 +47,19 @@ hitRectRight<32>
 playerConditionID<32>
 flags<32>
 areaID<32>[4]
+
+BUILD 4.0.0.11792
+$id$ID<32>
+mapAreaID<32>
+areaID<32>[4]
+mapPointX<32>
+mapPointY<32>
+textureName
+textureWidth<32>
+textureHeight<32>
+offsetX<32>
+offsetY<32>
+hitRectTop<32>
+hitRectLeft<32>
+hitRectBottom<32>
+hitRectRight<32>

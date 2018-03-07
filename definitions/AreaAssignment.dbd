@@ -4,9 +4,17 @@ uint<Map::ID> MapID
 uint<AreaTable::ID> AreaID
 uint ChunkX
 uint ChunkY
+uint generatedID
 
 BUILD 6.0.1.18179
 ID<32>
+MapID<32>
+AreaID<32>
+ChunkX<32>
+ChunkY<32>
+
+BUILD 4.0.0.11792
+generatedID<32>
 MapID<32>
 AreaID<32>
 ChunkX<32>

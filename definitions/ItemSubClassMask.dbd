@@ -4,6 +4,7 @@ uint classID
 uint mask
 locstring name_lang
 int ID
+uint generatedID
 
 BUILD 6.0.1.18179
 padding_1671332959<8>[4]
@@ -17,3 +18,9 @@ $noninlineid$ID<32>
 name_lang
 mask<32>
 classID<8>
+
+BUILD 4.0.0.11792
+generatedID<32>
+classID<32>
+mask<32>
+name_lang

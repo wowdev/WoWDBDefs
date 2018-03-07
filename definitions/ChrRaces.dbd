@@ -43,6 +43,7 @@ locstring name_female_lowercase_lang
 locstring name_lowercase_lang
 int startingLevel
 int uiDisplayOrder
+uint required_expansion
 
 BUILD 6.0.1.18179
 ID<32>
@@ -120,3 +121,26 @@ maleSkeletonFileDataID<32>
 femaleSkeletonFileDataID<32>
 alteredFormStartVisualKitID<32>[3]
 alteredFormFinishVisualKitID<32>[3]
+
+BUILD 4.0.0.11792
+$id$ID<32>
+flags<32>
+factionID<32>
+ExplorationSoundID<32>
+MaleDisplayID<32>
+FemaleDisplayID<32>
+ClientPrefix
+BaseLanguage<32>
+creatureType<32>
+ResSicknessSpellID<32>
+SplashSoundID<32>
+clientFileString
+cinematicSequenceID<32>
+alliance<32>
+name_lang
+name_female_lang
+name_male_lang
+facialHairCustomization[2]
+hairCustomization
+required_expansion<32>
+unalteredVisualRaceID<32>

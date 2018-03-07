@@ -21,6 +21,7 @@ locstring hordeName_lang
 uint iconFileDataID
 uint transmogCost
 uint transmogPlayerConditionID
+uint effectPointsMax
 
 BUILD 6.0.1.18179
 ID<32>
@@ -65,3 +66,20 @@ maxLevel<8>
 scalingClass<8>
 scalingClassRestricted<8>
 transmogPlayerConditionID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+charges<32>
+effect<32>[3]
+effectPointsMin<32>[3]
+effectPointsMax<32>[3]
+effectArg<32>[3]
+name_lang
+itemVisual<32>
+flags<32>
+src_itemID<32>
+condition_ID<32>
+requiredSkillID<32>
+requiredSkillRank<32>
+minLevel<32>
+itemLevel<32>

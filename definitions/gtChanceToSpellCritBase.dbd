@@ -1,7 +1,12 @@
 COLUMNS
 uint padding_1924755982?
 float data
+uint generatedID
 
 BUILD 6.0.1.18179
 padding_1924755982<8>[4]
+data
+
+BUILD 4.0.0.11792
+generatedID<32>
 data
