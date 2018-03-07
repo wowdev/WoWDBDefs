@@ -101,11 +101,15 @@ for name, parsed in dbds.items():
       else:
         name_str = wiki_format_template("Unverified", "m_{}".format(entry.column))
 
+      comments = []
+
       merged_str_pattern = "   {} {}{};"
+      if entry.annotation and "noninlineid" in entry.annotation:
+        merged_str_pattern = "   // {} {}{};"
+        comments += ["non-inline field"]
       merged_str = merged_str_pattern.format(type_str[0], name_str[0], array_str[0])
       merged_str_visual_len = len(merged_str_pattern.format('t'*type_str[1], 'n'*name_str[1], 'a'*array_str[1]))
 
-      comments = []
       comments += [entry.comment] if entry.comment else []
       comments += [meta.comment] if meta.comment else []
 
