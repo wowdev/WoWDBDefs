@@ -20,7 +20,7 @@ Starts with ```COLUMNS```, followed by the following:
 
 Regular: ```type ColName```
 
-Foreign keys: ```type<DBName> ColName```
+Foreign keys: ```type<ForeignDB::ForeignCol> ColName```
 
 Localized strings: ```locstring ColName``` (see [this](https://wowdev.wiki/Common_Types#langstringref) and [this](https://wowdev.wiki/Localization) page on Wiki, same as"string" type as of 4.0+ but still localized in locale specific files)
 
