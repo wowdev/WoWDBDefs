@@ -29,9 +29,14 @@ namespace DBDefsLib
                         writer.Write("<" + columnDefinition.Value.foreignTable + "::" + Utils.NormalizeColumn(columnDefinition.Value.foreignColumn) + ">");
                     }
 
-                    writer.Write(" " + Utils.NormalizeColumn(columnDefinition.Key));
+                    var normalizedColumnName = Utils.NormalizeColumn(columnDefinition.Key);
+                    writer.Write(" " + normalizedColumnName);
+                    if (definition.columnDefinitions[normalizedColumnName].type == "locstring" && !normalizedColumnName.EndsWith("_lang"))
+                    {
+                        writer.Write("_lang");
+                    }
 
-                    if(columnDefinition.Value.verified == false)
+                    if (columnDefinition.Value.verified == false)
                     {
                         writer.Write("?");
                     }
@@ -104,7 +109,15 @@ namespace DBDefsLib
                             writer.Write("$relation$");
                         }
 
-                        writer.Write(Utils.NormalizeColumn(column.name));
+                        var normalizedColumnName = Utils.NormalizeColumn(column.name);
+
+                        writer.Write(normalizedColumnName);
+
+                        // locstrings should always have _lang
+                        if(definition.columnDefinitions[normalizedColumnName].type == "locstring" && !normalizedColumnName.EndsWith("_lang"))
+                        {
+                            writer.Write("_lang");
+                        }
 
                         if(column.size > 0)
                         {
