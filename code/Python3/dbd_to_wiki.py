@@ -97,9 +97,9 @@ for name, parsed in dbds.items():
       array_str = (array_str_str, len(array_str_str))
 
       if meta.is_confirmed_name:
-        name_str = wiki_format_raw(entry.column)
+        name_str = wiki_format_raw("m_{}".format(entry.column))
       else:
-        name_str = wiki_format_template("Unverified", entry.column)
+        name_str = wiki_format_template("Unverified", "m_{}".format(entry.column))
 
       merged_str_pattern = "   {} {}{};"
       merged_str = merged_str_pattern.format(type_str[0], name_str[0], array_str[0])
