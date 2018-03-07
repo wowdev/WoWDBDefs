@@ -25,7 +25,7 @@ namespace DBDefsTest
             foreach (var file in Directory.GetFiles(definitionDir))
             {
                 var reader = new DBDReader();
-                definitionCache.Add(Path.GetFileNameWithoutExtension(file), reader.Read(file));
+                definitionCache.Add(Path.GetFileNameWithoutExtension(file), reader.Read(file, true));
 
                 if (rewrite)
                 {

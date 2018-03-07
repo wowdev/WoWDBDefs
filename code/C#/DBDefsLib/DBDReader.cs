@@ -7,7 +7,7 @@ namespace DBDefsLib
 {
     public class DBDReader
     {
-        public DBDefinition Read(string file)
+        public DBDefinition Read(string file, bool validate = false)
         {
             if (!File.Exists(file))
             {
@@ -253,40 +253,51 @@ namespace DBDefsLib
                 }
             }
 
-            foreach(var column in columnDefinitionDictionary)
+            // Validation is optional!
+            if (validate)
             {
-                var found = false;
+                foreach (var column in columnDefinitionDictionary)
+                {
+                    var found = false;
+
+                    foreach (var version in versionDefinitions)
+                    {
+                        foreach (var definition in version.definitions)
+                        {
+                            if (column.Key == definition.name)
+                            {
+                                if(definition.name == "ID" && !definition.isID)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Yellow;
+                                    Console.WriteLine(Path.GetFileNameWithoutExtension(file) + "." + definition.name + " is called ID and might be a primary key.");
+                                    Console.ResetColor();
+                                }
+                                found = true;
+                                break;
+                            }
+                        }
+
+                        if (found) break;
+                    }
+
+                    if (!found)
+                    {
+                        Console.WriteLine("Column definition " + column.Key + " is never used in version definitions!");
+                    }
+                }
 
                 foreach (var version in versionDefinitions)
                 {
-                    foreach (var definition in version.definitions)
+                    foreach (var layoutHash in version.layoutHashes)
                     {
-                        if(column.Key == definition.name)
+                        if (layoutHash.Length != 8)
                         {
-                            found = true;
-                            break;
+                            throw new Exception("Layout hash \"" + layoutHash + "\" is wrong length for file " + file);
                         }
                     }
-
-                    if (found) break;
-                }
-
-                if (!found)
-                {
-                    Console.WriteLine("Column definition " + column.Key + " is never used in version definitions!");
                 }
             }
 
-            foreach(var version in versionDefinitions)
-            {
-                foreach(var layoutHash in version.layoutHashes)
-                {
-                    if(layoutHash.Length != 8)
-                    {
-                        throw new Exception("Layout hash \"" + layoutHash + "\" is wrong length for file " + file);
-                    }
-                }
-            }
 
             return new DBDefinition
             {
