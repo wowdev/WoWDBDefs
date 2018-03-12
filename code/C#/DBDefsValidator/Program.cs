@@ -20,17 +20,20 @@ namespace DBDefsTest
 
             var definitionDir = args[0];
 
-            var rewrite = false;
+            var rewrite = true;
 
             foreach (var file in Directory.GetFiles(definitionDir))
             {
-                var reader = new DBDReader();
-                definitionCache.Add(Path.GetFileNameWithoutExtension(file), reader.Read(file, true));
+                var dbName = Path.GetFileNameWithoutExtension(file);
 
+                var reader = new DBDReader();
+                definitionCache.Add(dbName, reader.Read(file, true));
+
+                Console.WriteLine("Read " + definitionCache[dbName].versionDefinitions.Length + " versions and " + definitionCache[dbName].columnDefinitions.Count + " columns for " + dbName);
                 if (rewrite)
                 {
                     var writer = new DBDWriter();
-                    writer.Save(definitionCache[Path.GetFileNameWithoutExtension(file)], Path.Combine(definitionDir, Path.GetFileNameWithoutExtension(file) + ".dbd"));
+                    writer.Save(definitionCache[dbName], Path.Combine(definitionDir, dbName + ".dbd"));
                 }
             }
 
