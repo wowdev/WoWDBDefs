@@ -47,6 +47,7 @@ float charParamZero
 float charParamOne
 float charParamTwo
 float charParamThree
+int kitType
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -87,6 +88,53 @@ $id$ID<32>
 startAnimID<32>
 animID<32>
 animKitID<32>
+headEffect<32>
+chestEffect<32>
+baseEffect<32>
+leftHandEffect<32>
+rightHandEffect<32>
+breathEffect<32>
+leftWeaponEffect<32>
+rightWeaponEffect<32>
+specialEffect<32>[3]
+worldEffect<32>
+soundID<32>
+shakeID<32>
+charProc<32>[4]
+charParamZero[4]
+charParamOne[4]
+charParamTwo[4]
+charParamThree[4]
+flags<32>
+
+BUILD 3.0.1.8303
+ID<32>
+kitType<32>
+animID<32>
+headEffect<32>
+chestEffect<32>
+baseEffect<32>
+leftHandEffect<32>
+rightHandEffect<32>
+breathEffect<32>
+leftWeaponEffect<32>
+rightWeaponEffect<32>
+specialEffect<32>[3]
+worldEffect<32>
+soundID<32>
+shakeID<32>
+charProc<32>[4]
+charParamZero[4]
+charParamOne[4]
+charParamTwo[4]
+charParamThree[4]
+flags<32>
+
+BUILD 3.0.2.8885
+ID<32>
+kitType<32>
+startAnimID<32>
+animID<32>
 headEffect<32>
 chestEffect<32>
 baseEffect<32>

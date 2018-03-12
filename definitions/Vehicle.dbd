@@ -30,6 +30,9 @@ float msslTrgtImpactTexRadius
 uint vehicleUIIndicatorID
 uint<PowerDisplay::ID> powerDisplayID
 int missileTargetingID
+int powerType
+string powerToken
+int uiSeatIndicatorType
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -115,3 +118,44 @@ uiLocomotionType<32>
 msslTrgtImpactTexRadius
 vehicleUIIndicatorID<32>
 powerDisplayID<32>[3]
+
+BUILD 3.0.1.8303
+ID<32>
+flags<32>
+turnSpeed
+pitchSpeed
+pitchMin
+pitchMax
+seatID<32>[8]
+
+BUILD 3.0.2.8885
+ID<32>
+flags<32>
+turnSpeed
+pitchSpeed
+pitchMin
+pitchMax
+seatID<32>[8]
+mouseLookOffsetPitch
+cameraFadeDistScalarMin
+cameraFadeDistScalarMax
+cameraPitchOffset
+powerType<32>[3]
+powerToken[3]
+facingLimitRight
+facingLimitLeft
+msslTrgtTurnLingering
+msslTrgtPitchLingering
+msslTrgtMouseLingering
+msslTrgtEndOpacity
+msslTrgtArcSpeed
+msslTrgtArcRepeat
+msslTrgtArcWidth
+msslTrgtImpactRadius[2]
+msslTrgtArcTexture
+msslTrgtImpactTexture
+msslTrgtImpactModel[2]
+cameraYawOffset
+uiLocomotionType<32>
+msslTrgtImpactTexRadius
+uiSeatIndicatorType<32>

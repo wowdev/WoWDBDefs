@@ -63,3 +63,14 @@ parentFactionMod[2]
 parentFactionCap<32>[2]
 name_lang
 description_lang
+
+BUILD 3.0.1.8303, 3.0.2.8885
+ID<32>
+reputationIndex<32>
+reputationRaceMask<32>[4]
+reputationClassMask<32>[4]
+reputationBase<32>[4]
+reputationFlags<32>[4]
+parentFactionID<32>
+name_lang
+description_lang

@@ -18,6 +18,7 @@ int dynamicFlashIconFileID
 int dynamicIconFileID
 uint orderIndex
 uint phaseShift
+int factionID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -64,6 +65,37 @@ phaseShift<32>
 icon
 string_lang
 tooltip_lang
+stateVariable<32>
+type<32>
+dynamicIcon
+dynamicTooltip_lang
+extendedUI
+extendedUIStateVariable<32>[3]
+
+BUILD 3.0.1.8303
+ID<32>
+mapID<32>
+areaID<32>
+icon
+string_lang
+tooltip_lang
+factionID<32>
+stateVariable<32>
+type<32>
+dynamicIcon
+dynamicTooltip_lang
+extendedUI
+extendedUIStateVariable<32>[3]
+
+BUILD 3.0.2.8885
+ID<32>
+mapID<32>
+areaID<32>
+phaseShift<32>
+icon
+string_lang
+tooltip_lang
+factionID<32>
 stateVariable<32>
 type<32>
 dynamicIcon

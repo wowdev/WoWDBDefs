@@ -39,6 +39,7 @@ float geoBoxMinZ
 float geoBoxMaxX
 float geoBoxMaxY
 float geoBoxMaxZ
+string AnimModelName
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -133,3 +134,31 @@ attachedEffectScale
 missileCollisionRadius
 missileCollisionPush
 missileCollisionRaise
+
+BUILD 3.0.2.8885
+ID<32>
+flags<32>
+ModelName
+AnimModelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+mountHeight
+geoBoxMinX
+geoBoxMinY
+geoBoxMinZ
+geoBoxMaxX
+geoBoxMaxY
+geoBoxMaxZ
+worldEffectScale
+attachedEffectScale

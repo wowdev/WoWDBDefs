@@ -37,3 +37,27 @@ petFoodMask<16>
 minScaleLevel<8>
 maxScaleLevel<8>
 petTalentType<8>
+
+BUILD 3.0.1.8303
+ID<32>
+minScale
+minScaleLevel<32>
+maxScale
+maxScaleLevel<32>
+skillLine<32>[2]
+petFoodMask<32>
+name_lang
+iconFile
+
+BUILD 3.0.2.8885
+ID<32>
+minScale
+minScaleLevel<32>
+maxScale
+maxScaleLevel<32>
+skillLine<32>[2]
+petFoodMask<32>
+petTalentType<32>
+categoryEnumID<32>
+name_lang
+iconFile
