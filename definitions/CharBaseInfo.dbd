@@ -4,6 +4,7 @@ int<ChrRaces::ID> raceID
 int<ChrClasses::ID> classID
 uint padding_2465903404?
 int ID
+uint padding_1450692957?
 
 BUILD 6.0.1.18179
 padding_3094438312<8>[4]
@@ -16,3 +17,9 @@ BUILD 8.0.1.26095
 $noninlineid$ID<32>
 raceID<8>
 classID<8>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+raceID<8>
+classID<8>
+padding_1450692957<8>[2]

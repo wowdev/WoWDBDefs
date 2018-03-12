@@ -12,6 +12,12 @@ float regionScale
 uint areaID
 int priority
 float region
+float regionMinX
+float regionMinY
+float regionMaxX
+float regionMaxY
+float regionOffsetX
+float regionOffsetY
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -38,3 +44,15 @@ newDungeonMapID<16>
 newAreaID<16>
 flags<8>
 priority<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+mapID<32>
+regionMinX
+regionMinY
+regionMaxX
+regionMaxY
+newMapID<32>
+regionOffsetX
+regionOffsetY
+newDungeonMapID<32>

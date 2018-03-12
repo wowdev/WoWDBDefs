@@ -82,3 +82,22 @@ wildBattlePetLevelMin<8>
 wildBattlePetLevelMax<8>
 windSettingsID<8>
 uwIntroSound<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+ContinentID<32>
+ParentAreaID<32>
+AreaBit<32>
+flags<32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+factionGroupMask<32>
+liquidTypeID<32>[4]
+minElevation
+ambient_multiplier
+lightID<32>

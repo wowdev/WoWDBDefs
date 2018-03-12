@@ -7,6 +7,11 @@ uint SubchunkX
 uint SubchunkY
 uint SoundOverrideID
 int ID
+uint WorldMapContinentID
+uint ZoneIntroMusicID
+uint ZoneMusicID
+uint SoundAmbienceID
+uint SoundProviderPreferencesID
 
 BUILD 6.0.1.18179
 padding_3558902392<8>[4]
@@ -26,3 +31,15 @@ ChunkY<8>
 SubchunkX<8>
 SubchunkY<8>
 SoundOverrideID<8>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+WorldMapContinentID<32>
+ChunkX<32>
+ChunkY<32>
+SubchunkX<32>
+SubchunkY<32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>

@@ -4,6 +4,7 @@ uint mapID
 uint rangeIndex
 uint minLevel
 uint maxLevel
+uint difficulty
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -11,3 +12,11 @@ mapID<32>
 rangeIndex<32>
 minLevel<32>
 maxLevel<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+mapID<32>
+rangeIndex<32>
+minLevel<32>
+maxLevel<32>
+difficulty<32>

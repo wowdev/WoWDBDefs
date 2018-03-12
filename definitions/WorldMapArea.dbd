@@ -52,3 +52,16 @@ bountySetID<8>
 bountyDisplayLocation<8>
 $id$ID<32>
 visibilityPlayerConditionID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+mapID<32>
+areaID<32>
+areaName
+locLeft
+locRight
+locTop
+locBottom
+displayMapID<32>
+defaultDungeonFloor<32>
+parentWorldMapID<32>

@@ -11,6 +11,12 @@ uint PhaseGroupID
 uint PhaseUseFlags
 uint flags
 uint worldStateExpressionID
+float positionX
+float positionY
+float positionZ
+float directionX
+float directionY
+float directionZ
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -40,3 +46,15 @@ $id$ID<32>
 soundEntriesID<32>
 PhaseGroupID<32>
 $relation$mapID<16>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+positionX
+positionY
+positionZ
+directionX
+directionY
+directionZ
+soundEntriesID<32>
+mapID<32>
+name

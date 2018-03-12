@@ -4,6 +4,7 @@ uint<Spell::ID> spellID
 uint glyphType
 uint<SpellIcon::ID> spellIconID
 uint<GlyphExclusiveCategory::ID> glyphExclusiveCategoryID
+uint glyphSlotFlags
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -19,3 +20,9 @@ spellID<32>
 spellIconID<16>
 glyphType<8>
 glyphExclusiveCategoryID<8>
+
+BUILD 4.0.0.11792
+ID<32>
+spellID<32>
+glyphSlotFlags<32>
+spellIconID<32>

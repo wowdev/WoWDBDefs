@@ -12,6 +12,9 @@ float facing
 float flightMapOffset
 uint specialIconConditionID
 int uiTextureKitID
+float X
+float Y
+float Z
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -38,3 +41,12 @@ characterBitNumber<16>
 Flags<8>
 uiTextureKitID<32>
 specialIconConditionID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+ContinentID<32>
+X
+Y
+Z
+Name_lang
+MountCreatureID<32>[2]

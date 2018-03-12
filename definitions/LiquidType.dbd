@@ -21,6 +21,9 @@ uint int
 float coefficient
 uint frameCountTexture
 int minimapStaticCol
+uint minDetail
+uint loDetail_ID
+uint hiDetail_ID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -67,3 +70,27 @@ particleTexSlots<8>
 materialID<8>
 frameCountTexture<8>[6]
 soundID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+minDetail<32>
+loDetail_ID<32>
+hiDetail_ID<32>
+name
+flags<32>
+soundBank<32>
+soundID<32>
+spellID<32>
+maxDarkenDepth
+fogDarkenIntensity
+ambDarkenIntensity
+dirDarkenIntensity
+lightID<32>
+particleScale
+particleMovement<32>
+particleTexSlots<32>
+materialID<32>
+texture[6]
+color<32>[2]
+float[18]
+int<32>[4]

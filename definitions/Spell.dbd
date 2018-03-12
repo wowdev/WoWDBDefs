@@ -23,6 +23,103 @@ uint targetRestrictionsID
 uint totemsID
 uint requiredProjectID
 uint miscID
+uint category
+uint dispelType
+uint mechanic
+uint attributes
+uint attributesEx
+uint attributesExB
+uint attributesExC
+uint attributesExD
+uint attributesExE
+uint attributesExF
+uint attributesExG
+uint attributesExH
+uint shapeshiftMask
+uint shapeshiftExclude
+uint targets
+uint targetCreatureType
+uint requiresSpellFocus
+uint facingCasterFlags
+uint casterAuraState
+uint targetAuraState
+uint excludeCasterAuraState
+uint excludeTargetAuraState
+uint casterAuraSpell
+uint targetAuraSpell
+uint excludeCasterAuraSpell
+uint excludeTargetAuraSpell
+uint castingTimeIndex
+uint recoveryTime
+uint categoryRecoveryTime
+uint interruptFlags
+uint auraInterruptFlags
+uint channelInterruptFlags
+uint procTypeMask
+uint procChance
+uint procCharges
+uint maxLevel
+uint baseLevel
+uint spellLevel
+uint durationIndex
+uint powerType
+uint manaCost
+uint manaCostPerLevel
+uint manaPerSecond
+uint rangeIndex
+float speed
+uint modalNextSpell
+uint cumulativeAura
+uint totem
+uint reagent
+uint reagentCount
+uint equippedItemClass
+uint equippedItemSubclass
+uint equippedItemInvTypes
+uint effect
+uint effectDieSides
+float effectRealPointsPerLevel
+uint effectBasePoints
+uint effectMechanic
+uint implicitTargetA
+uint implicitTargetB
+uint effectRadiusIndex
+uint effectRadiusIndexB
+uint effectAura
+uint effectAuraPeriod
+float effectAmplitude
+uint effectChainTargets
+uint effectItemType
+uint effectMiscValue
+uint effectMiscValueB
+uint effectTriggerSpell
+float effectPointsPerCombo
+uint effectSpellClassMaskA
+uint effectSpellClassMaskB
+uint effectSpellClassMaskC
+uint spellVisualID
+uint spellIconID
+uint activeIconID
+uint manaCostPct
+uint startRecoveryCategory
+uint startRecoveryTime
+uint maxTargetLevel
+uint spellClassSet
+uint spellClassMask
+uint maxTargets
+uint defenseType
+uint preventionType
+uint stanceBarOrder
+float effectChainAmplitude
+uint minFactionID
+uint minReputation
+uint requiredAuraVision
+uint requiredTotemCategoryID
+uint requiredAreasID
+uint schoolMask
+uint powerDisplayID
+float effectBonusCoefficient
+uint difficulty
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -57,3 +154,111 @@ name_lang
 nameSubtext_lang
 description_lang
 auraDescription_lang
+
+BUILD 4.0.0.11792
+$id$ID<32>
+category<32>
+dispelType<32>
+mechanic<32>
+attributes<32>
+attributesEx<32>
+attributesExB<32>
+attributesExC<32>
+attributesExD<32>
+attributesExE<32>
+attributesExF<32>
+attributesExG<32>
+attributesExH<32>
+shapeshiftMask<32>[2]
+shapeshiftExclude<32>[2]
+targets<32>
+targetCreatureType<32>
+requiresSpellFocus<32>
+facingCasterFlags<32>
+casterAuraState<32>
+targetAuraState<32>
+excludeCasterAuraState<32>
+excludeTargetAuraState<32>
+casterAuraSpell<32>
+targetAuraSpell<32>
+excludeCasterAuraSpell<32>
+excludeTargetAuraSpell<32>
+castingTimeIndex<32>
+recoveryTime<32>
+categoryRecoveryTime<32>
+interruptFlags<32>
+auraInterruptFlags<32>[2]
+channelInterruptFlags<32>[2]
+procTypeMask<32>
+procChance<32>
+procCharges<32>
+maxLevel<32>
+baseLevel<32>
+spellLevel<32>
+durationIndex<32>
+powerType<32>
+manaCost<32>
+manaCostPerLevel<32>
+manaPerSecond<32>
+rangeIndex<32>
+speed
+modalNextSpell<32>
+cumulativeAura<32>
+totem<32>[2]
+reagent<32>[8]
+reagentCount<32>[8]
+equippedItemClass<32>
+equippedItemSubclass<32>
+equippedItemInvTypes<32>
+effect<32>[3]
+effectDieSides<32>[3]
+effectRealPointsPerLevel[3]
+effectBasePoints<32>[3]
+effectMechanic<32>[3]
+implicitTargetA<32>[3]
+implicitTargetB<32>[3]
+effectRadiusIndex<32>[3]
+effectRadiusIndexB<32>[3]
+effectAura<32>[3]
+effectAuraPeriod<32>[3]
+effectAmplitude[3]
+effectChainTargets<32>[3]
+effectItemType<32>[3]
+effectMiscValue<32>[3]
+effectMiscValueB<32>[3]
+effectTriggerSpell<32>[3]
+effectPointsPerCombo[3]
+effectSpellClassMaskA<32>[3]
+effectSpellClassMaskB<32>[3]
+effectSpellClassMaskC<32>[3]
+spellVisualID<32>[2]
+spellIconID<32>
+activeIconID<32>
+name_lang
+nameSubtext_lang
+description_lang
+auraDescription_lang
+manaCostPct<32>
+startRecoveryCategory<32>
+startRecoveryTime<32>
+maxTargetLevel<32>
+spellClassSet<32>
+spellClassMask<32>[3]
+maxTargets<32>
+defenseType<32>
+preventionType<32>
+stanceBarOrder<32>
+effectChainAmplitude[3]
+minFactionID<32>
+minReputation<32>
+requiredAuraVision<32>
+requiredTotemCategoryID<32>[2]
+requiredAreasID<32>
+schoolMask<32>
+runeCostID<32>
+spellMissileID<32>
+powerDisplayID<32>
+effectBonusCoefficient[3]
+descriptionVariablesID<32>
+difficulty<32>
+scalingID<32>

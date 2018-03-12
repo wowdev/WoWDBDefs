@@ -1,0 +1,7 @@
+COLUMNS
+uint ID
+uint difficultySpellID
+
+BUILD 4.0.0.11792
+$id$ID<32>
+difficultySpellID<32>[4]
