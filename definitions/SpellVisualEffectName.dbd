@@ -27,6 +27,7 @@ uint type
 string name
 string fileName
 float areaEffectSize
+uint VisualEffectNameFlags // <code>UnitEffectIsAuraWorldObject</code>
 
 BUILD 6.0.1.18179
 field_189230862<32>
@@ -82,3 +83,8 @@ areaEffectSize
 scale
 minAllowedScale
 maxAllowedScale
+
+BUILD 0.5.3.3368
+ID<32>
+fileName
+VisualEffectNameFlags<32>

@@ -5,6 +5,7 @@ int<ChrClasses::ID> classID
 uint padding_2465903404?
 int ID
 uint padding_1450692957?
+uint<ChrProficiency::ID> proficiency
 
 BUILD 6.0.1.18179
 padding_3094438312<8>[4]
@@ -23,3 +24,8 @@ $id$ID<32>
 raceID<8>
 classID<8>
 padding_1450692957<8>[2]
+
+BUILD 0.5.3.3368
+raceID<8>
+classID<8>
+proficiency<32>

@@ -12,6 +12,14 @@ locstring hordeDisplayName_lang
 int parentTierIndex
 int spellIconFileID
 uint skillCostsID
+uint raceMask
+uint classMask
+uint excludeRace
+uint excludeClass
+uint skillType // 0: Class, 1: Special, 2: Racial, 3: Primary Profession (Talent Tree), 4: Secondary Profession
+uint minCharLevel
+uint maxRank
+uint abandonable
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -65,3 +73,16 @@ description_lang
 spellIconID<32>
 alternateVerb_lang
 canLink<32>
+
+BUILD 0.5.3.3368
+ID<32>
+raceMask<32>
+classMask<32>
+excludeRace<32>
+excludeClass<32>
+categoryID<32>
+skillType<32>
+minCharLevel<32>
+maxRank<32>
+abandonable<32>
+displayName_lang

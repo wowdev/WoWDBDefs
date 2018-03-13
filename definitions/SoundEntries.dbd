@@ -19,6 +19,11 @@ uint dialogtype
 uint busOverwriteID
 string File
 string DirectoryBase
+float pitch
+float pitchVariation
+uint priority
+uint channel
+float maxDistance
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -64,5 +69,21 @@ DirectoryBase
 volumeFloat
 flags<32>
 minDistance
+distanceCutoff
+EAXDef<32>
+
+BUILD 0.5.3.3368
+ID<32>
+soundType<32>
+File[10]
+Freq<32>[10]
+DirectoryBase
+volumeFloat
+pitch
+pitchVariation
+priority<32>
+channel<32>
+minDistance
+maxDistance
 distanceCutoff
 EAXDef<32>
