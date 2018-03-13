@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint emotesTextID
+uint relationshipFlags
+locstring text
+
+BUILD 8.0.1.26175
+LAYOUT 0E19BCF1
+$noninlineid$ID<32>
+text
+relationshipFlags<8>
+$relation$emotesTextID<16> // relationship column

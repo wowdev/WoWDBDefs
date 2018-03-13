@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint behaviorID
+uint behaviorTier
+uint fallback
+int flags
+
+BUILD 8.0.1.26175
+LAYOUT 03182786
+$noninlineid$ID<32>
+flags<32>
+fallback<16>
+behaviorID<16>
+behaviorTier<8>

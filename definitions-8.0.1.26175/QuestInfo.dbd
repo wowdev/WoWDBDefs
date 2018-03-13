@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+locstring InfoName
+uint Modifiers
+uint Profession
+uint Type
+
+BUILD 8.0.1.26175
+LAYOUT 4F45F445
+$noninlineid$ID<32>
+InfoName
+Profession<16>
+Type<8>
+Modifiers<8>

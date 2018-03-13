@@ -1,0 +1,36 @@
+COLUMNS
+int ID
+locstring description
+uint expansion
+uint flags
+uint friendshipRepID
+locstring name
+uint paragonFactionID
+uint parentFactionCap
+uint parentFactionID
+float parentFactionMod
+int reputationBase
+int reputationClassMask
+uint reputationFlags
+int reputationIndex
+int reputationMax
+int reputationRaceMask
+
+BUILD 8.0.1.26175
+LAYOUT C0CBCBC8
+reputationRaceMask<64>[4]
+name
+description
+$id$ID<32>
+reputationBase<32>[4]
+parentFactionMod[2]
+reputationMax<32>[4]
+reputationIndex<16>
+reputationClassMask<16>[4]
+reputationFlags<16>[4]
+parentFactionID<16>
+paragonFactionID<16>
+parentFactionCap<8>[2]
+expansion<8>
+flags<8>
+friendshipRepID<8>

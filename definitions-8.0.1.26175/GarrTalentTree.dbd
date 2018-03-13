@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int classID
+int garrTypeID
+int maxTiers
+int uiOrder
+uint uiTextureKitID
+
+BUILD 8.0.1.26175
+LAYOUT 676CBC04
+$noninlineid$ID<32>
+uiTextureKitID<16>
+maxTiers<8>
+uiOrder<8>
+classID<32>
+garrTypeID<32>

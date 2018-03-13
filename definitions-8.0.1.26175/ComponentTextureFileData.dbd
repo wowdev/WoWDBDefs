@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint classID
+uint genderIndex
+uint raceID
+
+BUILD 8.0.1.26175
+LAYOUT 50C58D4F
+$noninlineid$ID<32>
+genderIndex<8>
+classID<8>
+raceID<8>

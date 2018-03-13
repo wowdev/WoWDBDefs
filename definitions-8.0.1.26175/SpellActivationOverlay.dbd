@@ -1,0 +1,22 @@
+COLUMNS
+int ID
+int color
+int iconHighlightSpellClassMask
+int overlayFileDataID
+float scale
+int screenLocationID
+uint soundEntriesID
+int spellID
+int triggerType
+
+BUILD 8.0.1.26175
+LAYOUT 23568FC7
+$noninlineid$ID<32>
+spellID<32>
+overlayFileDataID<32>
+color<32>
+scale
+iconHighlightSpellClassMask<32>[4]
+screenLocationID<8>
+triggerType<8>
+soundEntriesID<32>

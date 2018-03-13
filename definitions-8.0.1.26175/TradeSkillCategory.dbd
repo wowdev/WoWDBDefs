@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint flags
+locstring hordeName
+locstring name
+int orderIndex
+uint parentTradeSkillCategoryID
+uint skillLineID
+
+BUILD 8.0.1.26175
+LAYOUT 6C5B24EB
+$noninlineid$ID<32>
+name
+hordeName
+skillLineID<16>
+parentTradeSkillCategoryID<16>
+orderIndex<16>
+flags<8>

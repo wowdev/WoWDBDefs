@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int glyphPropertiesID
+int spellID
+
+BUILD 8.0.1.26175
+LAYOUT EA228DFA
+$noninlineid$ID<32>
+spellID<32>
+$relation$glyphPropertiesID<16> // relationship column

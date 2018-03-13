@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint itemType
+uint maxLevel
+uint minLevel
+uint primaryStat
+uint secondaryStat
+uint specializationID
+
+BUILD 8.0.1.26175
+LAYOUT B17B7986
+$noninlineid$ID<32>
+specializationID<16>
+minLevel<8>
+maxLevel<8>
+itemType<8> // unk_8C, unk_90
+primaryStat<8>
+secondaryStat<8>

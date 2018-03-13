@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int itemBonusListID
+int spellID
+
+BUILD 8.0.1.26175
+LAYOUT 840FEE59
+$noninlineid$ID<32>
+spellID<32>
+itemBonusListID<32>

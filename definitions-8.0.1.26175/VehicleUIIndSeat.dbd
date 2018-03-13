@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint vehicleUIIndicatorID
+uint virtualSeatIndex
+float xPos
+float yPos
+
+BUILD 8.0.1.26175
+LAYOUT 5F688502
+$noninlineid$ID<32>
+xPos
+yPos
+virtualSeatIndex<8>
+$relation$vehicleUIIndicatorID<16> // relationship column

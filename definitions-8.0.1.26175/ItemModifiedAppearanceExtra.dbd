@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int displayInventoryType
+int displayWeaponSubclassID
+int iconFileDataID
+uint sheatheType
+int unequippedIconFileDataID
+
+BUILD 8.0.1.26175
+LAYOUT 77212236
+$noninlineid$ID<32>
+iconFileDataID<32>
+unequippedIconFileDataID<32>
+sheatheType<8>
+displayWeaponSubclassID<8>
+displayInventoryType<8>

@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint flags
+uint type
+
+BUILD 8.0.1.26175
+LAYOUT 17EA5154
+$noninlineid$ID<32>
+type<8>
+flags<8>

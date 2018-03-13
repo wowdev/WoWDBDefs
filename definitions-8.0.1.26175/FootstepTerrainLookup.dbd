@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint CreatureFootstepID
+uint SoundID
+uint SoundIDSplash
+int TerrainSoundID
+
+BUILD 8.0.1.26175
+LAYOUT 454895AE
+$noninlineid$ID<32>
+CreatureFootstepID<16>
+TerrainSoundID<8>
+SoundID<32>
+SoundIDSplash<32>

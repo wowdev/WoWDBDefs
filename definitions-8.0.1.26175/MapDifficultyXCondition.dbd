@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+locstring failureDescription
+uint mapDifficultyID
+int orderIndex
+uint playerConditionID
+
+BUILD 8.0.1.26175
+LAYOUT 5F5D7102
+$noninlineid$ID<32>
+failureDescription
+playerConditionID<32>
+orderIndex<32>
+$relation$mapDifficultyID<32> // relationship column

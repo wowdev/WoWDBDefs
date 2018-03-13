@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+float angleThreshold
+uint flags
+float maxSampleTimeDelta
+float minDistancePerSlice
+uint numStrips
+
+BUILD 8.0.1.26175
+LAYOUT C75DAEA8
+$noninlineid$ID<32>
+maxSampleTimeDelta
+angleThreshold
+minDistancePerSlice
+numStrips<8>
+flags<32>

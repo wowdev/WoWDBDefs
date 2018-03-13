@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint inputType
+uint mapType
+uint outputType
+float param
+
+BUILD 8.0.1.26175
+LAYOUT A482B053
+$noninlineid$ID<32>
+param[4]
+inputType<8>
+mapType<8>
+outputType<8>

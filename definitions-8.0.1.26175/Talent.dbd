@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+uint categoryMask
+uint classID
+uint columnIndex
+locstring description
+uint flags
+uint overridesSpellID
+uint specID
+uint spellID
+uint tierID
+
+BUILD 8.0.1.26175
+LAYOUT E8850B48
+$noninlineid$ID<32>
+description
+spellID<32>
+overridesSpellID<32>
+specID<16>
+tierID<8>
+columnIndex<8>
+flags<8>
+categoryMask<8>[2]
+classID<8>

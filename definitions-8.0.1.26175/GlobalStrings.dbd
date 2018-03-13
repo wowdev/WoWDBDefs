@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+string baseTag
+uint flags
+locstring tagText
+
+BUILD 8.0.1.26175
+LAYOUT 2CA3EA1E
+$noninlineid$ID<32>
+baseTag
+tagText
+flags<8>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint crit
+uint soundID
+uint swingType
+
+BUILD 8.0.1.26175
+LAYOUT D45347C3
+$noninlineid$ID<32>
+swingType<8>
+crit<8>
+soundID<32>

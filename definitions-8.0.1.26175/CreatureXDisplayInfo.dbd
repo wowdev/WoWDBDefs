@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int creatureDisplayInfoID
+int creatureID
+float probability
+float scale
+
+BUILD 8.0.1.26175
+LAYOUT BB3E4A30
+$noninlineid$ID<32>
+creatureDisplayInfoID<32>
+probability
+scale
+$relation$creatureID<32> // relationship column

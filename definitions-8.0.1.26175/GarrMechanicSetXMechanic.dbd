@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint garrMechanicID
+uint garrMechanicSetID
+
+BUILD 8.0.1.26175
+LAYOUT 59514F7B
+garrMechanicID<8>
+$id$ID<32>
+$relation$garrMechanicSetID<32> // relationship column

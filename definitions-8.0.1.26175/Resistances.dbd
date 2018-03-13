@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint FizzleSoundID
+uint Flags
+locstring name
+
+BUILD 8.0.1.26175
+LAYOUT A3EAE5AE
+$noninlineid$ID<32>
+name
+Flags<8>
+FizzleSoundID<32>

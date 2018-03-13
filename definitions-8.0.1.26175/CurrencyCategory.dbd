@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint expansionID
+uint flags
+locstring name
+
+BUILD 8.0.1.26175
+LAYOUT C3735D76
+$noninlineid$ID<32>
+name
+flags<8>
+expansionID<8>

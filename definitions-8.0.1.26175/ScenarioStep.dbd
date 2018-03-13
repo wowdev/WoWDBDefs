@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+uint criteriatreeid
+locstring description
+uint flags
+uint orderIndex
+int relatedStep
+uint rewardQuestID
+uint scenarioID
+uint supersedes
+locstring title
+uint visibilityPlayerConditionID
+
+BUILD 8.0.1.26175
+LAYOUT AFFBC595
+$noninlineid$ID<32>
+description
+title
+scenarioID<16> // unk_8C, unk_90
+supersedes<16>
+rewardQuestID<16>
+orderIndex<8>
+flags<8>
+criteriatreeid<32>
+relatedStep<32>
+visibilityPlayerConditionID<32>

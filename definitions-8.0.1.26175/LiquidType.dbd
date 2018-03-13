@@ -1,0 +1,48 @@
+COLUMNS
+int ID
+float ambDarkenIntensity
+float coefficient
+int color
+float dirDarkenIntensity
+uint flags
+float float
+float fogDarkenIntensity
+uint frameCountTexture
+uint int
+uint lightID
+uint materialID
+float maxDarkenDepth
+int minimapStaticCol
+string name
+uint particleMovement
+float particleScale
+uint particleTexSlots
+uint soundBank
+uint soundID
+uint spellID
+string texture
+
+BUILD 8.0.1.26175
+LAYOUT 63469432
+$noninlineid$ID<32>
+name
+texture[6]
+spellID<32>
+maxDarkenDepth
+fogDarkenIntensity
+ambDarkenIntensity
+dirDarkenIntensity
+particleScale
+minimapStaticCol<32>
+color<32>[2]
+float[18]
+int<32>[4]
+coefficient[4]
+flags<16>
+lightID<16>
+soundBank<8>
+particleMovement<8>
+particleTexSlots<8>
+materialID<8>
+frameCountTexture<8>[6]
+soundID<32>

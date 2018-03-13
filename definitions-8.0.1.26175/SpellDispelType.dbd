@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint immunityPossible
+string internalName
+uint mask
+locstring name
+
+BUILD 8.0.1.26175
+LAYOUT E9DDA799
+$noninlineid$ID<32>
+name
+internalName
+mask<8>
+immunityPossible<8>

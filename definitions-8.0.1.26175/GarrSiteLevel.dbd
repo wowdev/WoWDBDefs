@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+uint garrLevel
+uint garrSiteID
+uint mapID
+uint maxBuildingLevel
+float townHallUiPos
+uint uiTextureKitID
+uint upgradeCost
+uint upgradeGoldCost
+uint upgradeMovieID
+
+BUILD 8.0.1.26175
+LAYOUT D3979C38
+$noninlineid$ID<32>
+townHallUiPos[2]
+mapID<16>
+uiTextureKitID<16>
+upgradeMovieID<16>
+upgradeCost<16>
+upgradeGoldCost<16>
+garrLevel<8>
+garrSiteID<8>
+maxBuildingLevel<8>

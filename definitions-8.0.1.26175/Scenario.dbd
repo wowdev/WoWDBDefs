@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint areaTableID
+uint flags
+locstring name
+uint type
+
+BUILD 8.0.1.26175
+LAYOUT D052232A
+$noninlineid$ID<32>
+name
+areaTableID<16>
+flags<8>
+type<8>

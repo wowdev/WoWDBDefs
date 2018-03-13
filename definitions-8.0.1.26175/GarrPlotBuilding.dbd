@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint garrBuildingID
+uint garrPlotID
+
+BUILD 8.0.1.26175
+LAYOUT 3F77A6FA
+$noninlineid$ID<32>
+garrPlotID<8>
+garrBuildingID<8>

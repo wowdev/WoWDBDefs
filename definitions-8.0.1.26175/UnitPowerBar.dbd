@@ -1,0 +1,38 @@
+COLUMNS
+int ID
+uint barType
+uint centerPower
+int color
+locstring cost
+float endInset
+int fileDataID
+uint flags
+uint maxPower
+uint minPower
+locstring name
+locstring outOfError
+float regenerationCombat
+float regenerationPeace
+float startInset
+uint startPower
+locstring toolTip
+
+BUILD 8.0.1.26175
+LAYOUT 626C94CD
+$noninlineid$ID<32>
+name
+cost
+outOfError
+toolTip
+regenerationPeace
+regenerationCombat
+fileDataID<32>[6]
+color<32>[6]
+startInset
+endInset
+startPower<16>
+flags<16>
+centerPower<8>
+barType<8>
+minPower<32>
+maxPower<32>

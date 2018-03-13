@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint advGuidePlayerConditionID
+uint chrClassesID
+uint splashPlayerConditionID
+
+BUILD 8.0.1.26175
+LAYOUT 59A95A73
+$noninlineid$ID<32>
+chrClassesID<8>
+advGuidePlayerConditionID<32>
+splashPlayerConditionID<32>

@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint chrRaceID
+uint gender
+uint inventoryType
+uint uiCameraID
+uint variation
+
+BUILD 8.0.1.26175
+LAYOUT 9FB4CC78
+$noninlineid$ID<32>
+uiCameraID<16>
+chrRaceID<8>
+gender<8>
+inventoryType<8>
+variation<8>

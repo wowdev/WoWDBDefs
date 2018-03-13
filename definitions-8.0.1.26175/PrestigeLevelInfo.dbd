@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int badgeTextureFileDataID
+uint flags
+locstring name
+uint prestigeLevel
+
+BUILD 8.0.1.26175
+LAYOUT A7B2D559
+$noninlineid$ID<32>
+name
+badgeTextureFileDataID<32>
+prestigeLevel<8>
+flags<8>

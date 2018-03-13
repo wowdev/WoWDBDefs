@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+float alpha
+float animSpeed
+uint animationID
+float scale
+uint sequenceVariation
+
+BUILD 8.0.1.26175
+LAYOUT 6137F4BE
+$noninlineid$ID<32>
+animSpeed
+alpha
+scale
+animationID<32>
+sequenceVariation<32>

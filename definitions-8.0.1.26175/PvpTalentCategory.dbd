@@ -1,0 +1,8 @@
+COLUMNS
+int ID
+uint talentSlotMask
+
+BUILD 8.0.1.26175
+LAYOUT C807B0DD
+$noninlineid$ID<32>
+talentSlotMask<8>

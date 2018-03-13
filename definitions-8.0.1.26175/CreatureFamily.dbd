@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+int iconFileID
+float maxScale
+int maxScaleLevel
+float minScale
+int minScaleLevel
+locstring name
+int petFoodMask
+int petTalentType
+int skillLine
+
+BUILD 8.0.1.26175
+LAYOUT E2DC5126
+$noninlineid$ID<32>
+name
+minScale
+maxScale
+iconFileID<32>
+skillLine<16>[2]
+petFoodMask<16>
+minScaleLevel<8>
+maxScaleLevel<8>
+petTalentType<8>

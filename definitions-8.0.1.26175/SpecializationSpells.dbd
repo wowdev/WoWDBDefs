@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+locstring description
+uint displayOrder
+int overridesSpellID
+uint specID
+int spellID
+
+BUILD 8.0.1.26175
+LAYOUT AE3436F3
+description
+spellID<32>
+overridesSpellID<32>
+specID<16> // unk_8C, unk_90
+displayOrder<8>
+$id$ID<32>

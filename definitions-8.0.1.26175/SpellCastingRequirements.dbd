@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint facingCasterFlags
+uint minFactionID
+int minReputation
+uint requiredAreasID
+uint requiredAuraVision
+uint requiresSpellFocus
+int spellID
+
+BUILD 8.0.1.26175
+LAYOUT D8B56E5D
+$noninlineid$ID<32>
+spellID<32>
+minFactionID<16>
+requiredAreasID<16>
+requiresSpellFocus<16>
+facingCasterFlags<8>
+minReputation<8>
+requiredAuraVision<8>

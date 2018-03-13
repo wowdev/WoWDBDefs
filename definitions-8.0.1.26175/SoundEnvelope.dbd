@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+int curveID
+uint decayIndex
+uint envelopeType
+uint flags
+uint releaseIndex
+int soundKitID
+uint sustainIndex
+
+BUILD 8.0.1.26175
+LAYOUT 5B78031C
+$noninlineid$ID<32>
+soundKitID<32> // unk_8C, unk_90
+curveID<32>
+decayIndex<16>
+sustainIndex<16>
+releaseIndex<16>
+envelopeType<8>
+flags<32>

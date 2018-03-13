@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+locstring description
+uint factionChangeGarrAbilityID
+uint flags
+uint garrAbilityCategoryID
+uint garrFollowerTypeID
+int iconFileDataID
+locstring name
+
+BUILD 8.0.1.26175
+LAYOUT 5DF95DBD
+name
+description
+iconFileDataID<32>
+flags<16>
+factionChangeGarrAbilityID<16>
+garrAbilityCategoryID<8>
+garrFollowerTypeID<8>
+$id$ID<32>

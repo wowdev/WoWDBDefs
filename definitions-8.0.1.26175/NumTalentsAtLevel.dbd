@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int numTalents
+int numTalentsDeathKnight
+int numTalentsDemonHunter
+
+BUILD 8.0.1.26175
+LAYOUT 9891036F
+$id$ID<32>
+numTalents<32>
+numTalentsDeathKnight<32>
+numTalentsDemonHunter<32>

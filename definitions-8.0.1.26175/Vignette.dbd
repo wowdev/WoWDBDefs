@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint flags
+float maxHeight
+float minHeight
+locstring name
+uint playerConditionID
+uint questFeedbackEffectID
+uint visibleTrackingQuestID
+
+BUILD 8.0.1.26175
+LAYOUT 52E3B381
+$noninlineid$ID<32>
+name
+maxHeight
+minHeight
+questFeedbackEffectID<32>
+flags<32>
+playerConditionID<32>
+visibleTrackingQuestID<32>

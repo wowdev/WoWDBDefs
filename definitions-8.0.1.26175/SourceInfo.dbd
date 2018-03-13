@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int pvpFaction
+locstring sourceText
+int sourceTypeEnum
+uint spellID
+
+BUILD 8.0.1.26175
+LAYOUT 7C214135
+$noninlineid$ID<32>
+sourceText
+sourceTypeEnum<8>
+pvpFaction<8>
+$relation$spellID<32> // relationship column

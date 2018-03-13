@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+int acceptButtonTexture
+string acceptURL
+int adTexture
+int declineButtonTexture
+int localeID
+int logoTexture
+uint promotionID
+
+BUILD 8.0.1.26175
+LAYOUT 80362F57
+$noninlineid$ID<32>
+acceptURL
+adTexture<32>
+logoTexture<32>
+acceptButtonTexture<32>
+declineButtonTexture<32>
+promotionID<8>
+localeID<8>

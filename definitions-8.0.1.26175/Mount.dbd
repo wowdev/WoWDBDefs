@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+locstring description
+uint flags
+float mountFlyRideHeight
+uint mountTypeID
+locstring name
+uint playerConditionID
+int sourceSpellID
+locstring sourceText
+int sourceTypeEnum
+int uiModelSceneID
+
+BUILD 8.0.1.26175
+LAYOUT 4D812F19
+name
+description
+sourceText
+sourceSpellID<32>
+mountFlyRideHeight
+mountTypeID<16>
+flags<16>
+sourceTypeEnum<8>
+$id$ID<32>
+playerConditionID<32>
+uiModelSceneID<32>

@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+locstring containerDescription
+int containerIconID
+locstring containerName
+int containerQuality
+int currencyTypeID
+int maxAmount
+int minAmount
+
+BUILD 8.0.1.26175
+LAYOUT 1255E7A8
+$noninlineid$ID<32>
+containerName
+containerDescription
+minAmount<32>
+maxAmount<32>
+containerIconID<32>
+containerQuality<32>
+$relation$currencyTypeID<32> // relationship column

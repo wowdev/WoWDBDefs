@@ -1,0 +1,22 @@
+COLUMNS
+int ID
+float endLife
+uint endLifePercent
+uint flags
+uint nextStateID
+uint posEntryID
+uint rotEntryID
+uint scaleEntryID
+uint transformMatrixID
+
+BUILD 8.0.1.26175
+LAYOUT 6C975DF4
+$noninlineid$ID<32>
+endLife
+endLifePercent<8>
+nextStateID<32>
+transformMatrixID<32>
+posEntryID<32>
+rotEntryID<32>
+scaleEntryID<32>
+flags<32>

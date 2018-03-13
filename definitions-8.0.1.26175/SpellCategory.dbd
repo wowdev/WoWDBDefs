@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int chargeRecoveryTime
+int flags
+int maxCharges
+locstring name
+int typeMask
+uint usesPerWeek
+
+BUILD 8.0.1.26175
+LAYOUT EA60E384
+$noninlineid$ID<32>
+name
+chargeRecoveryTime<32>
+flags<8>
+usesPerWeek<8>
+maxCharges<8>
+typeMask<32>

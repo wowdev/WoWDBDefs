@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int creatureID
+int expansionID
+uint factionID
+int flags
+int maxLevel
+int minLevel
+
+BUILD 8.0.1.26175
+LAYOUT 4291EEC6
+$noninlineid$ID<32>
+flags<32>[7]
+factionID<16>
+expansionID<8>
+minLevel<8>
+maxLevel<8>
+$relation$creatureID<32> // relationship column

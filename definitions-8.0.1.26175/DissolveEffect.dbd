@@ -1,0 +1,34 @@
+COLUMNS
+int ID
+int attachID
+int curveID
+float duration
+float endValue
+float fadeInTime
+float fadeOutTime
+int flags
+float fresnelIntensity
+uint priority
+int projectionType
+float ramp
+float scale
+float startValue
+int textureBlendSetID
+
+BUILD 8.0.1.26175
+LAYOUT 566413E7
+$noninlineid$ID<32>
+ramp
+startValue
+endValue
+fadeInTime
+fadeOutTime
+duration
+scale
+fresnelIntensity
+attachID<8>
+projectionType<8>
+textureBlendSetID<32>
+flags<32>
+curveID<32>
+priority<32>

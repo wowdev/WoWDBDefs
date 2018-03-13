@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint slot
+uint spellFlyoutID
+int spellID
+
+BUILD 8.0.1.26175
+LAYOUT F86ADE09
+$noninlineid$ID<32>
+spellID<32>
+slot<8>
+$relation$spellFlyoutID<8> // relationship column

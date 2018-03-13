@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint itemLevelSelectorQualitySetID
+uint minItemLevel
+
+BUILD 8.0.1.26175
+LAYOUT 8143060E
+$noninlineid$ID<32>
+minItemLevel<16>
+itemLevelSelectorQualitySetID<16>
