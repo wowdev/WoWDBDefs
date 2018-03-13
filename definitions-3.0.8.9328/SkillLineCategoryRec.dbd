@@ -1,0 +1,9 @@
+COLUMNS
+int ID
+locstring name_lang
+int sortIndex
+
+BUILD 3.0.8.9328
+ID<32>
+name_lang
+sortIndex<32>

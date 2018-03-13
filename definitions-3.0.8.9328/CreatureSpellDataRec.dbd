@@ -1,0 +1,9 @@
+COLUMNS
+int ID
+int spells
+int availability
+
+BUILD 3.0.8.9328
+ID<32>
+spells<32>[4]
+availability<32>[4]

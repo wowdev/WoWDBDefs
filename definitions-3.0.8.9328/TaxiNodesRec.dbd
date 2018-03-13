@@ -1,0 +1,17 @@
+COLUMNS
+int ID
+int ContinentID
+int X
+int Y
+int Z
+locstring Name_lang
+int MountCreatureID
+
+BUILD 3.0.8.9328
+ID<32>
+ContinentID<32>
+X<32>
+Y<32>
+Z<32>
+Name_lang
+MountCreatureID<32>[2]

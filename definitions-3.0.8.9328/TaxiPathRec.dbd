@@ -1,0 +1,11 @@
+COLUMNS
+int ID
+int FromTaxiNode
+int ToTaxiNode
+int Cost
+
+BUILD 3.0.8.9328
+ID<32>
+FromTaxiNode<32>
+ToTaxiNode<32>
+Cost<32>

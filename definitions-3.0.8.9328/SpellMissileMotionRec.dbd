@@ -1,0 +1,13 @@
+COLUMNS
+int ID
+string name
+string scriptBody
+int flags
+int missileCount
+
+BUILD 3.0.8.9328
+ID<32>
+name
+scriptBody
+flags<32>
+missileCount<32>

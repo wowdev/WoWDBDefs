@@ -1,0 +1,13 @@
+COLUMNS
+int ID
+int ambienceID
+int effectType
+int effectColor
+string effectTexture
+
+BUILD 3.0.8.9328
+ID<32>
+ambienceID<32>
+effectType<32>
+effectColor<32>[3]
+effectTexture

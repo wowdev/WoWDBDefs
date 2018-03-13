@@ -1,0 +1,19 @@
+COLUMNS
+int ID
+int categoryID
+int skillCostsID
+locstring displayName_lang
+locstring description_lang
+int spellIconID
+locstring alternateVerb_lang
+int canLink
+
+BUILD 3.0.8.9328
+ID<32>
+categoryID<32>
+skillCostsID<32>
+displayName_lang
+description_lang
+spellIconID<32>
+alternateVerb_lang
+canLink<32>

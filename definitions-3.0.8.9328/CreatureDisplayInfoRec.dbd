@@ -1,0 +1,31 @@
+COLUMNS
+int ID
+int modelID
+int soundID
+int extendedDisplayInfoID
+int creatureModelScale
+int creatureModelAlpha
+string textureVariation
+string portraitTextureName
+int sizeClass
+int bloodID
+int NPCSoundID
+int particleColorID
+int creatureGeosetData
+int objectEffectPackageID
+
+BUILD 3.0.8.9328
+ID<32>
+modelID<32>
+soundID<32>
+extendedDisplayInfoID<32>
+creatureModelScale<32>
+creatureModelAlpha<32>
+textureVariation[3]
+portraitTextureName
+sizeClass<32>
+bloodID<32>
+NPCSoundID<32>
+particleColorID<32>
+creatureGeosetData<32>
+objectEffectPackageID<32>

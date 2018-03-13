@@ -1,0 +1,21 @@
+COLUMNS
+int ID
+int reputationIndex
+int reputationRaceMask
+int reputationClassMask
+int reputationBase
+int reputationFlags
+int parentFactionID
+locstring name_lang
+locstring description_lang
+
+BUILD 3.0.8.9328
+ID<32>
+reputationIndex<32>
+reputationRaceMask<32>[4]
+reputationClassMask<32>[4]
+reputationBase<32>[4]
+reputationFlags<32>[4]
+parentFactionID<32>
+name_lang
+description_lang

@@ -1,0 +1,51 @@
+COLUMNS
+int ID
+int soundEntryID
+int innerRadius2D
+int timeA
+int timeB
+int timeC
+int timeD
+int randomOffsetRange
+int usage
+int timeIntervalMin
+int timeIntervalMax
+int volumeSliderCategory
+int duckToSFX
+int duckToMusic
+int duckToAmbience
+int innerRadiusOfInfluence
+int outerRadiusOfInfluence
+int timeToDuck
+int timeToUnduck
+int insideAngle
+int outsideAngle
+int outsideVolume
+int outerRadius2D
+string name
+
+BUILD 3.0.8.9328
+ID<32>
+soundEntryID<32>
+innerRadius2D<32>
+timeA<32>
+timeB<32>
+timeC<32>
+timeD<32>
+randomOffsetRange<32>
+usage<32>
+timeIntervalMin<32>
+timeIntervalMax<32>
+volumeSliderCategory<32>
+duckToSFX<32>
+duckToMusic<32>
+duckToAmbience<32>
+innerRadiusOfInfluence<32>
+outerRadiusOfInfluence<32>
+timeToDuck<32>
+timeToUnduck<32>
+insideAngle<32>
+outsideAngle<32>
+outsideVolume<32>
+outerRadius2D<32>
+name

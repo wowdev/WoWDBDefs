@@ -1,0 +1,23 @@
+COLUMNS
+int ID
+int ContinentID
+int x
+int y
+int z
+int radius
+int box_length
+int box_width
+int box_height
+int box_yaw
+
+BUILD 3.0.8.9328
+ID<32>
+ContinentID<32>
+x<32>
+y<32>
+z<32>
+radius<32>
+box_length<32>
+box_width<32>
+box_height<32>
+box_yaw<32>

@@ -1,0 +1,11 @@
+COLUMNS
+int ID
+int objectEffectPackageID
+int objectEffectGroupID
+int stateType
+
+BUILD 3.0.8.9328
+ID<32>
+objectEffectPackageID<32>
+objectEffectGroupID<32>
+stateType<32>

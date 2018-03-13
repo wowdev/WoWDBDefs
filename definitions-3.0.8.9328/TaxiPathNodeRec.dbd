@@ -1,0 +1,25 @@
+COLUMNS
+int ID
+int PathID
+int NodeIndex
+int ContinentID
+int LocX
+int LocY
+int LocZ
+int flags
+int delay
+int arrivalEventID
+int departureEventID
+
+BUILD 3.0.8.9328
+ID<32>
+PathID<32>
+NodeIndex<32>
+ContinentID<32>
+LocX<32>
+LocY<32>
+LocZ<32>
+flags<32>
+delay<32>
+arrivalEventID<32>
+departureEventID<32>

@@ -1,0 +1,25 @@
+COLUMNS
+int ID
+int minScale
+int minScaleLevel
+int maxScale
+int maxScaleLevel
+int skillLine
+int petFoodMask
+int petTalentType
+int categoryEnumID
+locstring name_lang
+string iconFile
+
+BUILD 3.0.8.9328
+ID<32>
+minScale<32>
+minScaleLevel<32>
+maxScale<32>
+maxScaleLevel<32>
+skillLine<32>[2]
+petFoodMask<32>
+petTalentType<32>
+categoryEnumID<32>
+name_lang
+iconFile

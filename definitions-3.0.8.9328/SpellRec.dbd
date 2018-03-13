@@ -1,0 +1,207 @@
+COLUMNS
+int ID
+int category
+int dispelType
+int mechanic
+int attributes
+int attributesEx
+int attributesExB
+int attributesExC
+int attributesExD
+int attributesExE
+int attributesExF
+int shapeshiftMask
+int shapeshiftExclude
+int targets
+int targetCreatureType
+int requiresSpellFocus
+int facingCasterFlags
+int casterAuraState
+int targetAuraState
+int excludeCasterAuraState
+int excludeTargetAuraState
+int casterAuraSpell
+int targetAuraSpell
+int excludeCasterAuraSpell
+int excludeTargetAuraSpell
+int castingTimeIndex
+int recoveryTime
+int categoryRecoveryTime
+int interruptFlags
+int auraInterruptFlags
+int channelInterruptFlags
+int procTypeMask
+int procChance
+int procCharges
+int maxLevel
+int baseLevel
+int spellLevel
+int durationIndex
+int powerType
+int manaCost
+int manaCostPerLevel
+int manaPerSecond
+int manaPerSecondPerLevel
+int rangeIndex
+int speed
+int modalNextSpell
+int cumulativeAura
+int totem
+int reagent
+int reagentCount
+int equippedItemClass
+int equippedItemSubclass
+int equippedItemInvTypes
+int effect
+int effectDieSides
+int effectBaseDice
+int effectDicePerLevel
+int effectRealPointsPerLevel
+int effectBasePoints
+int effectMechanic
+int implicitTargetA
+int implicitTargetB
+int effectRadiusIndex
+int effectAura
+int effectAuraPeriod
+int effectAmplitude
+int effectChainTargets
+int effectItemType
+int effectMiscValue
+int effectMiscValueB
+int effectTriggerSpell
+int effectPointsPerCombo
+int effectSpellClassMaskA
+int effectSpellClassMaskB
+int effectSpellClassMaskC
+int spellVisualID
+int spellIconID
+int activeIconID
+int spellPriority
+locstring name_lang
+locstring nameSubtext_lang
+locstring description_lang
+locstring auraDescription_lang
+int manaCostPct
+int startRecoveryCategory
+int startRecoveryTime
+int maxTargetLevel
+int spellClassSet
+int spellClassMask
+int maxTargets
+int defenseType
+int preventionType
+int stanceBarOrder
+int effectChainAmplitude
+int minFactionID
+int minReputation
+int requiredAuraVision
+int requiredTotemCategoryID
+int requiredAreasID
+int schoolMask
+int runeCostID
+int spellMissileID
+
+BUILD 3.0.8.9328
+ID<32>
+category<32>
+dispelType<32>
+mechanic<32>
+attributes<32>
+attributesEx<32>
+attributesExB<32>
+attributesExC<32>
+attributesExD<32>
+attributesExE<32>
+attributesExF<32>
+shapeshiftMask<32>
+shapeshiftExclude<32>
+targets<32>
+targetCreatureType<32>
+requiresSpellFocus<32>
+facingCasterFlags<32>
+casterAuraState<32>
+targetAuraState<32>
+excludeCasterAuraState<32>
+excludeTargetAuraState<32>
+casterAuraSpell<32>
+targetAuraSpell<32>
+excludeCasterAuraSpell<32>
+excludeTargetAuraSpell<32>
+castingTimeIndex<32>
+recoveryTime<32>
+categoryRecoveryTime<32>
+interruptFlags<32>
+auraInterruptFlags<32>
+channelInterruptFlags<32>
+procTypeMask<32>
+procChance<32>
+procCharges<32>
+maxLevel<32>
+baseLevel<32>
+spellLevel<32>
+durationIndex<32>
+powerType<32>
+manaCost<32>
+manaCostPerLevel<32>
+manaPerSecond<32>
+manaPerSecondPerLevel<32>
+rangeIndex<32>
+speed<32>
+modalNextSpell<32>
+cumulativeAura<32>
+totem<32>[2]
+reagent<32>[8]
+reagentCount<32>[8]
+equippedItemClass<32>
+equippedItemSubclass<32>
+equippedItemInvTypes<32>
+effect<32>[3]
+effectDieSides<32>[3]
+effectBaseDice<32>[3]
+effectDicePerLevel<32>[3]
+effectRealPointsPerLevel<32>[3]
+effectBasePoints<32>[3]
+effectMechanic<32>[3]
+implicitTargetA<32>[3]
+implicitTargetB<32>[3]
+effectRadiusIndex<32>[3]
+effectAura<32>[3]
+effectAuraPeriod<32>[3]
+effectAmplitude<32>[3]
+effectChainTargets<32>[3]
+effectItemType<32>[3]
+effectMiscValue<32>[3]
+effectMiscValueB<32>[3]
+effectTriggerSpell<32>[3]
+effectPointsPerCombo<32>[3]
+effectSpellClassMaskA<32>[3]
+effectSpellClassMaskB<32>[3]
+effectSpellClassMaskC<32>[3]
+spellVisualID<32>[2]
+spellIconID<32>
+activeIconID<32>
+spellPriority<32>
+name_lang
+nameSubtext_lang
+description_lang
+auraDescription_lang
+manaCostPct<32>
+startRecoveryCategory<32>
+startRecoveryTime<32>
+maxTargetLevel<32>
+spellClassSet<32>
+spellClassMask<32>[3]
+maxTargets<32>
+defenseType<32>
+preventionType<32>
+stanceBarOrder<32>
+effectChainAmplitude<32>[3]
+minFactionID<32>
+minReputation<32>
+requiredAuraVision<32>
+requiredTotemCategoryID<32>[2]
+requiredAreasID<32>
+schoolMask<32>
+runeCostID<32>
+spellMissileID<32>

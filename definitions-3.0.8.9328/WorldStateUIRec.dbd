@@ -1,0 +1,31 @@
+COLUMNS
+int ID
+int mapID
+int areaID
+int phaseShift
+string icon
+locstring string_lang
+locstring tooltip_lang
+int factionID
+int stateVariable
+int type
+string dynamicIcon
+locstring dynamicTooltip_lang
+string extendedUI
+int extendedUIStateVariable
+
+BUILD 3.0.8.9328
+ID<32>
+mapID<32>
+areaID<32>
+phaseShift<32>
+icon
+string_lang
+tooltip_lang
+factionID<32>
+stateVariable<32>
+type<32>
+dynamicIcon
+dynamicTooltip_lang
+extendedUI
+extendedUIStateVariable<32>[3]
