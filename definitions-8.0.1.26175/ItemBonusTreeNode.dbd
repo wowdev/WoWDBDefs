@@ -6,11 +6,11 @@ uint childItemLevelSelectorID
 uint itemContext
 uint parentItemBonusTreeID
 
-BUILD 8.0.1.26175
 LAYOUT 84FE93B7
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 childItemBonusTreeID<16>
 childItemBonusListID<16>
 childItemLevelSelectorID<16>
 itemContext<8>
-$relation$parentItemBonusTreeID<16> // relationship column
+$relation$parentItemBonusTreeID<16>

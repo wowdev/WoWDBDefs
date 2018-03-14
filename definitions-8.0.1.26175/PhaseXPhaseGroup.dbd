@@ -3,8 +3,8 @@ int ID
 uint phaseGroupID
 uint phaseID
 
-BUILD 8.0.1.26175
 LAYOUT 66517AF6
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 phaseID<16>
-$relation$phaseGroupID<16> // relationship column
+$relation$phaseGroupID<16>

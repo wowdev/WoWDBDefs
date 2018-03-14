@@ -8,13 +8,13 @@ int creatureType
 float damageVariance
 int flags
 uint mountTypeID
-locstring name
+locstring name_lang
 uint presetSpellID
 
-BUILD 8.0.1.26175
 LAYOUT 130819AF
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 damageVariance
 flags<32>
 combatRoundTime<16>

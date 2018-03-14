@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-locstring auraDescription
+locstring auraDescription_lang
 int auraEffectType
 int auraOrderIndex
-locstring effectDescription
+locstring effectDescription_lang
 int effectOrderIndex
 int pointsSign
 int schoolMask
 int spellEffectType
 int targetType
 
-BUILD 8.0.1.26175
 LAYOUT C4FDA7A6
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-effectDescription
-auraDescription
+effectDescription_lang
+auraDescription_lang
 spellEffectType<32>
 auraEffectType<32>
 effectOrderIndex<32>

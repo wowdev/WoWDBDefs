@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-locstring auraDescription
-locstring description
-locstring name
-locstring nameSubtext
+locstring auraDescription_lang
+locstring description_lang
+locstring name_lang
+locstring nameSubtext_lang
 
-BUILD 8.0.1.26175
 LAYOUT 2273DFFF
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-nameSubtext
-description
-auraDescription
+name_lang
+nameSubtext_lang
+description_lang
+auraDescription_lang

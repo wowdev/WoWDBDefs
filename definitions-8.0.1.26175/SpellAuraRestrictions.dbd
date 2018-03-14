@@ -11,8 +11,8 @@ int spellID
 int targetAuraSpell
 uint targetAuraState
 
-BUILD 8.0.1.26175
 LAYOUT 7CDF3311
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 casterAuraSpell<32>
 targetAuraSpell<32>
@@ -23,4 +23,4 @@ casterAuraState<8>
 targetAuraState<8>
 excludeCasterAuraState<8>
 excludeTargetAuraState<8>
-$relation$spellID<32> // relationship column
+$relation$spellID<32>

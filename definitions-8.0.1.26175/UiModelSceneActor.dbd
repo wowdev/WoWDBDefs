@@ -10,8 +10,8 @@ string scriptTag
 int uiModelSceneActorDisplayID
 int uiModelSceneID
 
-BUILD 8.0.1.26175
 LAYOUT 679AC95F
+BUILD 8.0.1.26175
 scriptTag
 position[3]
 orientationYaw
@@ -21,4 +21,4 @@ normalizedScale
 flags<8>
 $id$ID<32>
 uiModelSceneActorDisplayID<32>
-$relation$uiModelSceneID<32> // relationship column
+$relation$uiModelSceneID<32>

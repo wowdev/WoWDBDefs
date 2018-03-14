@@ -4,7 +4,7 @@ uint ContinentID
 uint Flags
 float MapOffset
 int MountCreatureID
-locstring Name
+locstring Name_lang
 uint characterBitNumber
 uint conditionID
 float facing
@@ -13,10 +13,10 @@ float pos
 uint specialIconConditionID
 int uiTextureKitID
 
-BUILD 8.0.1.26175
 LAYOUT B46C6A8B
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-Name
+Name_lang
 pos[3]
 MountCreatureID<32>[2]
 MapOffset[2]

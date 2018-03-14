@@ -3,8 +3,8 @@ int ID
 uint itemBonusTreeID
 int itemID
 
-BUILD 8.0.1.26175
 LAYOUT 87C4B605
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 itemBonusTreeID<16>
-$relation$itemID<32> // relationship column
+$relation$itemID<32>

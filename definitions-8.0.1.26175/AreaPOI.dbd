@@ -2,26 +2,26 @@ COLUMNS
 int ID
 int areaID
 uint continentID
-locstring description
+locstring description_lang
 uint flags
 uint icon
 uint importance
 int mapFloor
-locstring name
+locstring name_lang
 uint playerConditionID
 int poiData
 int poiDataType
 int portLocID
 float pos
 uint uiTextureAtlasMemberID
-int wmoGroupID
+int WMOGroupID
 uint worldStateID
 
-BUILD 8.0.1.26175
 LAYOUT 22F9B807
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-description
+name_lang
+description_lang
 flags<32>
 pos[3]
 poiDataType<32>
@@ -35,4 +35,4 @@ playerConditionID<32>
 portLocID<32>
 uiTextureAtlasMemberID<32>
 mapFloor<32>
-wmoGroupID<32>
+WMOGroupID<32>

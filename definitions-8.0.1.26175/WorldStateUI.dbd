@@ -3,7 +3,7 @@ int ID
 uint areaID
 int dynamicFlashIconFileID
 int dynamicIconFileID
-locstring dynamicTooltip
+locstring dynamicTooltip_lang
 string extendedUI
 uint extendedUIStateVariable
 string icon
@@ -13,17 +13,17 @@ uint phaseGroupID
 uint phaseID
 uint phaseUseFlags
 uint stateVariable
-locstring string
-locstring tooltip
+locstring string_lang
+locstring tooltip_lang
 uint type
 
-BUILD 8.0.1.26175
 LAYOUT 70808977
+BUILD 8.0.1.26175
 icon
 extendedUI
-dynamicTooltip
-string
-tooltip
+dynamicTooltip_lang
+string_lang
+tooltip_lang
 mapID<16> // unk_8C, unk_90
 areaID<16>
 phaseID<16>

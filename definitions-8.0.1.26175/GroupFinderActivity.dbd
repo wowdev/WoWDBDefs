@@ -4,7 +4,7 @@ uint areaID
 uint difficultyID
 uint displayType
 uint flags
-locstring fullName
+locstring fullName_lang
 uint groupFinderActivityGrpID
 uint groupFinderCategoryID
 uint mapID
@@ -13,13 +13,13 @@ uint maxPlayers
 uint minGearLevelSuggestion
 uint minLevel
 int orderIndex
-locstring shortName
+locstring shortName_lang
 
-BUILD 8.0.1.26175
 LAYOUT 3EF2F3BD
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-fullName
-shortName
+fullName_lang
+shortName_lang
 minGearLevelSuggestion<16>
 mapID<16>
 areaID<16>

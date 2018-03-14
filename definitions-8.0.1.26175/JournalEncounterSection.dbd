@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-locstring bodyText
+locstring bodyText_lang
 int difficultyMask
 uint firstChildSectionID
 uint flags
@@ -12,15 +12,15 @@ uint nextSiblingSectionID
 uint orderIndex
 uint parentSectionID
 int spellID
-locstring title
+locstring title_lang
 uint type
 int uiModelSceneID
 
-BUILD 8.0.1.26175
 LAYOUT 60BB3520
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-title
-bodyText
+title_lang
+bodyText_lang
 iconCreatureDisplayInfoID<32>
 spellID<32>
 iconFileDataID<32>

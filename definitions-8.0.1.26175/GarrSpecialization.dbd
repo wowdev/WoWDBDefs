@@ -2,17 +2,17 @@ COLUMNS
 int ID
 uint buildingType
 int iconFileDataID
-locstring name
+locstring name_lang
 float param
 uint requiredUpgradeLevel
 uint specType
-locstring tooltip
+locstring tooltip_lang
 
-BUILD 8.0.1.26175
 LAYOUT 797A0F2F
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-tooltip
+name_lang
+tooltip_lang
 iconFileDataID<32>
 param[2]
 buildingType<8>

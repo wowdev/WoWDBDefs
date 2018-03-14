@@ -5,10 +5,10 @@ uint attachmentDisplayID
 uint difficultyID
 uint gameObjectDiffAnimID
 
-BUILD 8.0.1.26175
 LAYOUT 89A617CF
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 attachmentDisplayID<16>
 difficultyID<8>
 animation<8>
-$relation$gameObjectDiffAnimID<8> // relationship column
+$relation$gameObjectDiffAnimID<8>

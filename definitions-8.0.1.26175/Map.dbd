@@ -2,9 +2,9 @@ COLUMNS
 int ID
 string Directory
 uint InstanceType
-locstring MapDescription0
-locstring MapDescription1
-locstring MapName
+locstring MapDescription0_lang
+locstring MapDescription1_lang
+locstring MapName_lang
 uint areaTableID
 float corpse
 int corpseMapID
@@ -16,21 +16,21 @@ uint mapType
 uint maxPlayers
 float minimapIconScale
 int parentMapID
-locstring pvpLongDescription
-locstring pvpShortDescription
+locstring pvpLongDescription_lang
+locstring pvpShortDescription_lang
 int timeOfDayOverride
 uint timeOffset
 int windSettingsID
 
-BUILD 8.0.1.26175
 LAYOUT F568DF12
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 Directory
-MapName
-MapDescription0
-MapDescription1
-pvpShortDescription
-pvpLongDescription
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+pvpShortDescription_lang
+pvpLongDescription_lang
 flags<32>[2]
 minimapIconScale
 corpse[2]

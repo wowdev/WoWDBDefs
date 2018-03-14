@@ -9,8 +9,8 @@ int targetCreatureType
 int targets
 float width
 
-BUILD 8.0.1.26175
 LAYOUT 7B330026
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 coneDegrees
 width
@@ -19,4 +19,4 @@ targetCreatureType<16>
 difficultyID<8>
 maxTargets<8>
 maxTargetLevel<32>
-$relation$spellID<32> // relationship column
+$relation$spellID<32>

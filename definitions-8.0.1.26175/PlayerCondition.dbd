@@ -19,7 +19,7 @@ uint currentCompletedQuestID
 uint currentCompletedQuestLogic
 int currentPvpFaction
 uint explored
-locstring failure_description
+locstring failure_description_lang
 uint flags
 int gender
 uint itemCount
@@ -81,10 +81,10 @@ int weaponSubclassMask
 uint weatherID
 uint worldStateExpressionID
 
-BUILD 8.0.1.26175
 LAYOUT 5B3DA113
+BUILD 8.0.1.26175
 raceMask<64>
-failure_description
+failure_description_lang
 $id$ID<32>
 flags<8>
 minLevel<16>

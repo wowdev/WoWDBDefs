@@ -7,13 +7,13 @@ uint itemContextPickerID
 uint lockID
 uint mapID
 uint maxPlayers
-locstring message
+locstring message_lang
 uint resetInterval
 
-BUILD 8.0.1.26175
 LAYOUT 2B3B759E
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-message
+message_lang
 difficultyID<8>
 resetInterval<8>
 maxPlayers<8>
@@ -21,4 +21,4 @@ lockID<8>
 flags<8>
 itemContext<8>
 itemContextPickerID<32>
-$relation$mapID<16> // relationship column
+$relation$mapID<16>

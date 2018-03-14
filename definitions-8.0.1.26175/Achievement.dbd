@@ -2,24 +2,24 @@ COLUMNS
 int ID
 int category
 uint criteria_tree
-locstring description
+locstring description_lang
 int faction
 int flags
 int iconFileID
 int instance_ID
 int minimum_criteria
 int points
-locstring reward
+locstring reward_lang
 int shares_criteria
 int supercedes
-locstring title
+locstring title_lang
 int ui_order
 
-BUILD 8.0.1.26175
 LAYOUT 2C4BE18C
-title
-description
-reward
+BUILD 8.0.1.26175
+title_lang
+description_lang
+reward_lang
 flags<32>
 instance_ID<16>
 supercedes<16>

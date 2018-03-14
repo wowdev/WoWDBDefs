@@ -5,10 +5,10 @@ uint SequenceID
 uint TimeIndex
 int TransportID
 
-BUILD 8.0.1.26175
 LAYOUT 099987ED
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 TimeIndex<32>
 Pos[3]
 SequenceID<8>
-$relation$TransportID<32> // relationship column
+$relation$TransportID<32>

@@ -3,12 +3,12 @@ int ID
 uint max_level
 uint min_level
 uint sortIndex
-locstring text
+locstring text_lang
 
-BUILD 8.0.1.26175
 LAYOUT 547E3F0F
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-text
+text_lang
 min_level<16>
 max_level<16>
 sortIndex<8>

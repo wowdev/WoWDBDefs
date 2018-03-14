@@ -1,12 +1,12 @@
 COLUMNS
 int ID
 int flags
-int object_id
+int object_ID
 string tablename
 
-BUILD 8.0.1.26175
 LAYOUT 3747930B
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 tablename
-object_id<32>
+object_ID<32>
 flags<32>

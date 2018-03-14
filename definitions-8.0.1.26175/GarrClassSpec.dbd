@@ -1,18 +1,18 @@
 COLUMNS
 uint ID
-locstring classSpec
-locstring classSpec_Female
-locstring classSpec_Male
+locstring classSpec_lang
+locstring classSpec_Female_lang
+locstring classSpec_Male_lang
 uint flags
 uint followerClassLimit
 uint garrFollItemSetID
 uint uiTextureAtlasMemberID
 
-BUILD 8.0.1.26175
 LAYOUT 194CD478
-classSpec
-classSpec_Male
-classSpec_Female
+BUILD 8.0.1.26175
+classSpec_lang
+classSpec_Male_lang
+classSpec_Female_lang
 uiTextureAtlasMemberID<16>
 garrFollItemSetID<16>
 followerClassLimit<8>

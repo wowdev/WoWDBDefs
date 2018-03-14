@@ -2,11 +2,11 @@ COLUMNS
 int ID
 string baseTag
 uint flags
-locstring tagText
+locstring tagText_lang
 
-BUILD 8.0.1.26175
 LAYOUT 2CA3EA1E
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 baseTag
-tagText
+tagText_lang
 flags<8>

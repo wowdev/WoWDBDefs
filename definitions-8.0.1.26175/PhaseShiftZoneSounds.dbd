@@ -10,19 +10,19 @@ uint uwSoundAmbienceID
 uint uwSoundProviderPreferencesID
 uint uwZoneIntroMusicID
 uint uwZoneMusicID
-uint wmoAreaID
+uint WMOAreaID
 uint zoneIntroMusicID
 uint zoneMusicID
 
-BUILD 8.0.1.26175
 LAYOUT 85ACB830
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 areaID<16>
 phaseID<16>
 phaseGroupID<16>
 soundAmbienceID<16>
 uwSoundAmbienceID<16>
-wmoAreaID<8>
+WMOAreaID<8>
 phaseUseFlags<8>
 soundProviderPreferencesID<8>
 uwSoundProviderPreferencesID<8>

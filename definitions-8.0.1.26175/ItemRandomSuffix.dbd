@@ -2,11 +2,11 @@ COLUMNS
 int ID
 uint allocationPct
 uint enchantment
-locstring name
+locstring name_lang
 
-BUILD 8.0.1.26175
 LAYOUT 95CAB825
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 enchantment<16>[5]
 allocationPct<16>[5]

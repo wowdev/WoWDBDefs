@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-locstring description
-locstring name
+locstring description_lang
+locstring name_lang
 uint numSockets
 uint rarity
 uint requiredWeight
@@ -9,10 +9,10 @@ uint researchBranchID
 int spellID
 int textureFileID
 
-BUILD 8.0.1.26175
 LAYOUT B1CAB80B
-name
-description
+BUILD 8.0.1.26175
+name_lang
+description_lang
 spellID<32>
 researchBranchID<16>
 rarity<8>

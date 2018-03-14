@@ -3,8 +3,8 @@ int ID
 int FileDataID
 int ParentWeatherID
 
-BUILD 8.0.1.26175
 LAYOUT A22D715D
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 FileDataID<32>
-$relation$ParentWeatherID<32> // relationship column
+$relation$ParentWeatherID<32>

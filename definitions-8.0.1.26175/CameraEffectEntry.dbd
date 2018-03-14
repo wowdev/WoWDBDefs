@@ -17,8 +17,8 @@ float Phase
 float RadiusMax
 float RadiusMin
 
-BUILD 8.0.1.26175
 LAYOUT C5105557
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 Duration
 Delay
@@ -35,4 +35,4 @@ EffectType<8>
 DirectionType<8>
 MovementType<8>
 AttenuationType<8>
-$relation$CameraEffectID<16> // relationship column
+$relation$CameraEffectID<16>

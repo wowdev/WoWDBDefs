@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 uint Enchantment
-locstring name
+locstring name_lang
 
-BUILD 8.0.1.26175
 LAYOUT B67375F8
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 Enchantment<16>[5]

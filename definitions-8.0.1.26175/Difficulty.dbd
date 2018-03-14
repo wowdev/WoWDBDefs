@@ -9,15 +9,15 @@ uint instanceType
 uint itemContext
 uint maxPlayers
 uint minPlayers
-locstring name
+locstring name_lang
 int oldEnumValue
 uint orderIndex
 uint toggleDifficultyID
 
-BUILD 8.0.1.26175
 LAYOUT 92302BB8
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 groupSizeHealthCurveID<16>
 groupSizeDmgCurveID<16>
 groupSizeSpellPointsCurveID<16>

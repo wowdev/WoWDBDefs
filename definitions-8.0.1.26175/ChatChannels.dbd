@@ -2,13 +2,13 @@ COLUMNS
 int ID
 int factionGroup
 int flags
-locstring name
-locstring shortcut
+locstring name_lang
+locstring shortcut_lang
 
-BUILD 8.0.1.26175
 LAYOUT 1A325E80
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-shortcut
+name_lang
+shortcut_lang
 flags<32>
 factionGroup<8>

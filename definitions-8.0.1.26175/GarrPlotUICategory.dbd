@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-locstring categoryName
+locstring categoryName_lang
 uint plotType
 
-BUILD 8.0.1.26175
 LAYOUT A94645EE
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-categoryName
+categoryName_lang
 plotType<8>

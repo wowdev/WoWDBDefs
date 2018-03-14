@@ -4,9 +4,9 @@ int celestialBodyID
 int mapID
 uint playerConditionID
 
-BUILD 8.0.1.26175
 LAYOUT BDE1C11C
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 celestialBodyID<16>
 playerConditionID<32>
-$relation$mapID<16> // relationship column
+$relation$mapID<16>

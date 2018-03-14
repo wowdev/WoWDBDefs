@@ -4,9 +4,9 @@ int itemID
 int itemQuantity
 int rewardPackID
 
-BUILD 8.0.1.26175
 LAYOUT 74F6B9BD
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 itemID<32>
 itemQuantity<32>
-$relation$rewardPackID<32> // relationship column
+$relation$rewardPackID<32>

@@ -5,10 +5,10 @@ uint itemSetID
 uint spellID
 uint threshold
 
-BUILD 8.0.1.26175
 LAYOUT F65D0AF8
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 spellID<32>
 chrSpecID<16>
 threshold<8>
-$relation$itemSetID<16> // relationship column
+$relation$itemSetID<16>

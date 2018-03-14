@@ -5,10 +5,10 @@ uint displayWorldMapAreaID
 uint playerFactionGroupID
 uint playerWorldMapAreaID
 
-BUILD 8.0.1.26175
 LAYOUT EE16D6F3
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 displayAchievementID<32>
 displayWorldMapAreaID<32>
 playerFactionGroupID<8>
-$relation$playerWorldMapAreaID<32> // relationship column
+$relation$playerWorldMapAreaID<32>

@@ -4,15 +4,15 @@ int classMask
 uint expansionID
 int flags
 int itemNameDescriptionID
-locstring name
+locstring name_lang
 uint parentTransmogSetID
 uint trackingQuestID
 uint transmogSetGroupID
 int uiOrder
 
-BUILD 8.0.1.26175
 LAYOUT BEDFD7D1
-name
+BUILD 8.0.1.26175
+name_lang
 parentTransmogSetID<16> // unk_8C, unk_90
 uiOrder<16>
 expansionID<8>

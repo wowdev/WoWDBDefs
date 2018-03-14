@@ -4,13 +4,13 @@ uint doodadPlacementID
 uint dungeonMapID
 uint mapID
 float minZ
-uint wmoGroupID
+uint WMOGroupID
 
-BUILD 8.0.1.26175
 LAYOUT 7927A3A7
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 minZ
 doodadPlacementID<32>
 mapID<16> // unk_8C, unk_90
-wmoGroupID<16>
+WMOGroupID<16>
 dungeonMapID<16>

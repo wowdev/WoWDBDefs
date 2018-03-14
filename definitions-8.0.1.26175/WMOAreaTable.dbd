@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 uint ambienceID
-locstring areaName
+locstring areaName_lang
 uint areaTableID
 uint flags
 uint introSound
@@ -11,15 +11,15 @@ uint soundProviderPrefUnderwater
 uint uwAmbience
 uint uwIntroSound
 uint uwZoneMusic
-int wmoGroupID
-uint wmoID
+int WMOGroupID
+uint WMOID
 uint zoneMusic
 
-BUILD 8.0.1.26175
 LAYOUT 30A78709
-areaName
-wmoGroupID<32>
-wmoID<16> // unk_8C, unk_90
+BUILD 8.0.1.26175
+areaName_lang
+WMOGroupID<32>
+WMOID<16> // unk_8C, unk_90
 ambienceID<16>
 zoneMusic<16>
 introSound<16>

@@ -3,15 +3,15 @@ int ID
 uint flags
 float maxHeight
 float minHeight
-locstring name
+locstring name_lang
 uint playerConditionID
 uint questFeedbackEffectID
 uint visibleTrackingQuestID
 
-BUILD 8.0.1.26175
 LAYOUT 52E3B381
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 maxHeight
 minHeight
 questFeedbackEffectID<32>

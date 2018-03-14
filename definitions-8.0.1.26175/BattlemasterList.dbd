@@ -1,30 +1,30 @@
 COLUMNS
 int ID
 int flags
-locstring gameType
+locstring gameType_lang
 int groupsAllowed
 int holidayWorldState
 int iconFileDataID
 int instanceType
-locstring longDescription
+locstring longDescription_lang
 int mapID
 int maxGroupSize
 int maxLevel
 int maxPlayers
 int minLevel
 int minPlayers
-locstring name
+locstring name_lang
 int ratedPlayers
 int required_Player_Condition_ID
-locstring shortDescription
+locstring shortDescription_lang
 
-BUILD 8.0.1.26175
 LAYOUT D8AAA088
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-gameType
-shortDescription
-longDescription
+name_lang
+gameType_lang
+shortDescription_lang
+longDescription_lang
 iconFileDataID<32>
 mapID<16>[16]
 holidayWorldState<16>

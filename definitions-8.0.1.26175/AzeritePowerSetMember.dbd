@@ -6,11 +6,11 @@ uint azeritePowerSetID
 uint orderIndex
 uint tier
 
-BUILD 8.0.1.26175
 LAYOUT A5515E8D
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 azeritePowerID<16>
 Class<8>
 tier<8>
 orderIndex<8>
-$relation$azeritePowerSetID<16> // relationship column
+$relation$azeritePowerSetID<16>

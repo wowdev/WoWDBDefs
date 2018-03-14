@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-uint group_id
+uint group_ID
 uint lfgDungeonsID
 uint random_lfgDungeonsID
 
-BUILD 8.0.1.26175
 LAYOUT 8CB35C50
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 random_lfgDungeonsID<16>
-group_id<8>
-$relation$lfgDungeonsID<16> // relationship column
+group_ID<8>
+$relation$lfgDungeonsID<16>

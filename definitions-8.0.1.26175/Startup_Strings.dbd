@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-locstring message
+locstring message_lang
 string name
 
-BUILD 8.0.1.26175
 LAYOUT F8CDDEE7
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 name
-message
+message_lang

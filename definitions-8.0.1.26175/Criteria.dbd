@@ -6,19 +6,19 @@ int eligibility_world_state_value
 int fail_asset
 uint fail_event
 uint flags
-uint modifier_tree_id
+uint modifier_tree_ID
 int start_asset
 uint start_event
 uint start_timer
 uint type
 
-BUILD 8.0.1.26175
 LAYOUT A87A5BB9
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 asset<32>
 start_asset<32>
 fail_asset<32>
-modifier_tree_id<32>
+modifier_tree_ID<32>
 start_timer<16>
 eligibility_world_state_ID<16>
 type<8>

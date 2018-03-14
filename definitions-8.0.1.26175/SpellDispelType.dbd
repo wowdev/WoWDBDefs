@@ -3,12 +3,12 @@ int ID
 uint immunityPossible
 string internalName
 uint mask
-locstring name
+locstring name_lang
 
-BUILD 8.0.1.26175
 LAYOUT E9DDA799
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 internalName
 mask<8>
 immunityPossible<8>

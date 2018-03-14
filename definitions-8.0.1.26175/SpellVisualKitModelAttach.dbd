@@ -22,8 +22,8 @@ float startDelay
 float yaw
 float yawVariation
 
-BUILD 8.0.1.26175
 LAYOUT BCE18649
+BUILD 8.0.1.26175
 offset[3]
 offsetVariation[3]
 $id$ID<32>
@@ -45,4 +45,4 @@ endAnimID<16>
 animKitID<16>
 lowDefModelAttachID<32>
 startDelay
-$relation$parentSpellVisualKitID<32> // relationship column
+$relation$parentSpellVisualKitID<32>

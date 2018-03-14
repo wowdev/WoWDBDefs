@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-locstring name
+locstring name_lang
 uint order_index
-uint parent_group_id
-uint typeid
+uint parent_group_ID
+uint typeID
 
-BUILD 8.0.1.26175
 LAYOUT 724D58E7
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 order_index<16>
-parent_group_id<8>
-typeid<8>
+parent_group_ID<8>
+typeID<8>

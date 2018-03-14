@@ -1,21 +1,21 @@
 COLUMNS
 int ID
 uint categoryID
-locstring description
+locstring description_lang
 uint flags
 int inventoryIconFileID
 uint maxEarnablePerWeek
 uint maxQty
-locstring name
+locstring name_lang
 uint quality
 uint spellCategory
 uint spellWeight
 
-BUILD 8.0.1.26175
 LAYOUT 6CC25CBF
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-description
+name_lang
+description_lang
 maxQty<32>
 maxEarnablePerWeek<32>
 flags<32>

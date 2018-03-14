@@ -6,12 +6,12 @@ uint blockY
 int fileDataID
 uint groupNum
 
-BUILD 8.0.1.26175
 LAYOUT 8F4AE3C0
+BUILD 8.0.1.26175
 COMMENT table is sparse
 $noninlineid$ID<32>
 fileDataID<32>
 groupNum<16>
 blockX<8>
 blockY<8>
-$relation$WMOID<16> // relationship column
+$relation$WMOID<16>

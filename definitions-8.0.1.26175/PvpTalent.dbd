@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int actionBarSpellID
-locstring description
+locstring description_lang
 int flags
 int levelRequired
 int overridesSpellID
@@ -9,9 +9,9 @@ int pvpTalentCategoryID
 int specID
 int spellID
 
-BUILD 8.0.1.26175
 LAYOUT 78CA6E33
-description
+BUILD 8.0.1.26175
+description_lang
 $id$ID<32>
 spellID<32>
 specID<32> // unk_8C, unk_90
