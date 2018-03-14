@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint castingSpellID
+uint spellID
+
+BUILD 8.0.1.26175
+LAYOUT 5BDD4028
+$noninlineid$ID<32>
+castingSpellID<32>
+$relation$spellID<32> // relationship column

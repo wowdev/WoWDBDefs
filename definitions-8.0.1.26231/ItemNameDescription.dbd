@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int color
+locstring description
+
+BUILD 8.0.1.26175
+LAYOUT 16760BD4
+$noninlineid$ID<32>
+description
+color<32>

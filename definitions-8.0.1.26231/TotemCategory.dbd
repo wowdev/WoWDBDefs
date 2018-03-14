@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+locstring name
+int totemCategoryMask
+uint totemCategoryType
+
+BUILD 8.0.1.26175
+LAYOUT 20B9177A
+$noninlineid$ID<32>
+name
+totemCategoryMask<32>
+totemCategoryType<8>

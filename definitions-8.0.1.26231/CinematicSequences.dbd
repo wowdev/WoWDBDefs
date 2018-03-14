@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint camera
+uint soundID
+
+BUILD 8.0.1.26175
+LAYOUT 470FDA8C
+$noninlineid$ID<32>
+soundID<32>
+camera<16>[8]

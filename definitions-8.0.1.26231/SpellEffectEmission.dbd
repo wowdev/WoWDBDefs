@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int areaModelID
+float emissionRate
+int flags
+float modelScale
+
+BUILD 8.0.1.26175
+LAYOUT C6E61A9B
+$noninlineid$ID<32>
+emissionRate
+modelScale
+areaModelID<16>
+flags<8>

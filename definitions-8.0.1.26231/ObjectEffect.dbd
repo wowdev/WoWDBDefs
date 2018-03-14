@@ -1,0 +1,22 @@
+COLUMNS
+int ID
+int attachment
+uint effectRecID
+uint effectRecType
+uint eventType
+uint objectEffectGroupID
+uint objectEffectModifierID
+float offset
+uint triggerType
+
+BUILD 8.0.1.26175
+LAYOUT 6A0CF743
+$noninlineid$ID<32>
+offset[3]
+objectEffectGroupID<16>
+triggerType<8>
+eventType<8>
+effectRecType<8>
+attachment<8>
+effectRecID<32>
+objectEffectModifierID<32>

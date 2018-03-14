@@ -1,0 +1,8 @@
+COLUMNS
+int ID
+uint SoundID
+
+BUILD 8.0.1.26175
+LAYOUT 672E1A6B
+$noninlineid$ID<32>
+SoundID<32>[4]

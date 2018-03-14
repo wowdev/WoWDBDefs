@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint expansionID
+uint flags
+int mapIDs
+uint primaryCurrencyTypeID
+uint secondaryCurrencyTypeID
+
+BUILD 8.0.1.26175
+LAYOUT 7C52F3B7
+$noninlineid$ID<32>
+flags<32>
+primaryCurrencyTypeID<32>
+secondaryCurrencyTypeID<32>
+expansionID<32>
+mapIDs<32>[2]

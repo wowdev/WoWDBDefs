@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+locstring auraDescription
+int auraEffectType
+int auraOrderIndex
+locstring effectDescription
+int effectOrderIndex
+int pointsSign
+int schoolMask
+int spellEffectType
+int targetType
+
+BUILD 8.0.1.26175
+LAYOUT C4FDA7A6
+$noninlineid$ID<32>
+effectDescription
+auraDescription
+spellEffectType<32>
+auraEffectType<32>
+effectOrderIndex<32>
+auraOrderIndex<32>
+pointsSign<8>
+targetType<8>
+schoolMask<8>

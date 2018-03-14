@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint classID
+uint mask
+locstring name
+
+BUILD 8.0.1.26175
+LAYOUT FC1DA850
+$noninlineid$ID<32>
+name
+mask<32>
+classID<8>

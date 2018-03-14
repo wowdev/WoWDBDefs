@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+uint artifactCategoryID
+uint chrSpecializationID
+uint flags
+locstring name
+uint spellVisualKitID
+int uiBarBackgroundColor
+int uiBarOverlayColor
+uint uiModelSceneID
+int uiNameColor
+uint uiTextureKitID
+
+BUILD 8.0.1.26175
+LAYOUT 76CF31A8
+$noninlineid$ID<32>
+name
+uiBarOverlayColor<32>
+uiBarBackgroundColor<32>
+uiNameColor<32>
+uiTextureKitID<16>
+chrSpecializationID<16>
+artifactCategoryID<8>
+flags<8>
+uiModelSceneID<32>
+spellVisualKitID<32>

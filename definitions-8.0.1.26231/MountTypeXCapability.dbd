@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint mountCapabilityID
+uint mountTypeID
+uint orderIndex
+
+BUILD 8.0.1.26175
+LAYOUT A34A8445
+$noninlineid$ID<32>
+mountTypeID<16> // unk_8C, unk_90
+mountCapabilityID<16>
+orderIndex<8>

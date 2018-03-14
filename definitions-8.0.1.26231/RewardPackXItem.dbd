@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int itemID
+int itemQuantity
+int rewardPackID
+
+BUILD 8.0.1.26175
+LAYOUT 74F6B9BD
+$noninlineid$ID<32>
+itemID<32>
+itemQuantity<32>
+$relation$rewardPackID<32> // relationship column

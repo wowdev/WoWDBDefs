@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int managedWorldStateID
+int questID
+int validInputConditionID
+
+BUILD 8.0.1.26175
+LAYOUT 0FC1A9B0
+$noninlineid$ID<32>
+managedWorldStateID<32>
+questID<32>
+validInputConditionID<32>

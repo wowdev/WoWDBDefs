@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+float arcRepeat
+float arcSpeed
+int arcTextureFileID
+float arcWidth
+float endOpacity
+int impactModelFileID
+float impactRadius
+float impactTexRadius
+int impactTextureFileID
+float mouseLingering
+float pitchLingering
+float turnLingering
+
+BUILD 8.0.1.26175
+LAYOUT 2305491E
+$noninlineid$ID<32>
+turnLingering
+pitchLingering
+mouseLingering
+endOpacity
+arcSpeed
+arcRepeat
+arcWidth
+impactRadius[2]
+impactTexRadius
+arcTextureFileID<32>
+impactTextureFileID<32>
+impactModelFileID<32>[2]

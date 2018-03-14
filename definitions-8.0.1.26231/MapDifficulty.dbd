@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+uint difficultyID
+uint flags
+uint itemContext
+uint itemContextPickerID
+uint lockID
+uint mapID
+uint maxPlayers
+locstring message
+uint resetInterval
+
+BUILD 8.0.1.26175
+LAYOUT 2B3B759E
+$noninlineid$ID<32>
+message
+difficultyID<8>
+resetInterval<8>
+maxPlayers<8>
+lockID<8>
+flags<8>
+itemContext<8>
+itemContextPickerID<32>
+$relation$mapID<16> // relationship column

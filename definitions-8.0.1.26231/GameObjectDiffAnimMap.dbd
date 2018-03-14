@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint animation
+uint attachmentDisplayID
+uint difficultyID
+uint gameObjectDiffAnimID
+
+BUILD 8.0.1.26175
+LAYOUT 89A617CF
+$noninlineid$ID<32>
+attachmentDisplayID<16>
+difficultyID<8>
+animation<8>
+$relation$gameObjectDiffAnimID<8> // relationship column

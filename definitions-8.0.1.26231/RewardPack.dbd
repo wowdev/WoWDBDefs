@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint artifactXPCategoryID
+int artifactXPDifficulty
+float artifactXPMultiplier
+int charTitleID
+uint money
+uint treasurePickerID
+
+BUILD 8.0.1.26175
+LAYOUT DB6CC0AB
+$noninlineid$ID<32>
+money<32>
+artifactXPMultiplier
+artifactXPDifficulty<8>
+artifactXPCategoryID<8>
+charTitleID<32>
+treasurePickerID<32>

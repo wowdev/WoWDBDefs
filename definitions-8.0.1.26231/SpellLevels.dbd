@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int baseLevel
+uint difficultyID
+int maxLevel
+uint maxPassiveAuraLevel
+int spellID
+int spellLevel
+
+BUILD 8.0.1.26175
+LAYOUT 9E7D1CCD
+$noninlineid$ID<32>
+baseLevel<16>
+maxLevel<16>
+spellLevel<16>
+difficultyID<8>
+maxPassiveAuraLevel<8>
+$relation$spellID<32> // relationship column

@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint challenge_origin
+uint raidorigin
+uint region_ID
+uint region_group_mask
+string tag
+
+BUILD 8.0.1.26175
+LAYOUT 9F4272BF
+$noninlineid$ID<32>
+tag
+raidorigin<32>
+challenge_origin<32>
+region_ID<16>
+region_group_mask<8>

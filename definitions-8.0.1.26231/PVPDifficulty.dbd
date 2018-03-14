@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint mapID
+uint maxLevel
+uint minLevel
+uint rangeIndex
+
+BUILD 8.0.1.26175
+LAYOUT 970B5E15
+$noninlineid$ID<32>
+rangeIndex<8>
+minLevel<8>
+maxLevel<8>
+$relation$mapID<16> // relationship column

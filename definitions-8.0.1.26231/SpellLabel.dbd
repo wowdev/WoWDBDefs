@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint labelID
+int spellID
+
+BUILD 8.0.1.26175
+LAYOUT 68E44736
+$noninlineid$ID<32>
+labelID<32>
+$relation$spellID<32> // relationship column

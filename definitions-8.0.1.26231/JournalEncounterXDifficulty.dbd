@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint difficultyID
+uint journalEncounterID
+
+BUILD 8.0.1.26175
+LAYOUT 321FD542
+$noninlineid$ID<32>
+difficultyID<8>
+$relation$journalEncounterID<16> // relationship column

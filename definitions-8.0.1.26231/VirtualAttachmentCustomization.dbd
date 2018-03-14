@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int fileDataID
+int positionerID
+int virtualAttachmentID
+
+BUILD 8.0.1.26175
+LAYOUT C354C931
+$noninlineid$ID<32>
+fileDataID<32>
+virtualAttachmentID<16>
+positionerID<16>

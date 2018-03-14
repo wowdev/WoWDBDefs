@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint chrUpgradeBucketID
+int spellID
+
+BUILD 8.0.1.26175
+LAYOUT DF939031
+$noninlineid$ID<32>
+spellID<32>
+$relation$chrUpgradeBucketID<16> // relationship column

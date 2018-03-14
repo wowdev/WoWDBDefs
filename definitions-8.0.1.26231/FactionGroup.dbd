@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int conquestCurrencyTextureFileID
+int honorCurrencyTextureFileID
+string internalName
+uint maskID
+locstring name
+
+BUILD 8.0.1.26175
+LAYOUT 7A7F9A51
+internalName
+name
+$id$ID<32>
+maskID<8>
+honorCurrencyTextureFileID<32>
+conquestCurrencyTextureFileID<32>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+locstring displayName
+uint numTalents
+uint orderIndex
+
+BUILD 8.0.1.26175
+LAYOUT 2C87937D
+displayName
+orderIndex<8>
+numTalents<8>
+$id$ID<32>

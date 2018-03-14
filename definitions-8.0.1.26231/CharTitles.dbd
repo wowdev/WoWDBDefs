@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int flags
+int mask_ID
+locstring name
+locstring name1
+
+BUILD 8.0.1.26175
+LAYOUT 7A58AA5F
+$noninlineid$ID<32>
+name
+name1
+mask_ID<16>
+flags<8>

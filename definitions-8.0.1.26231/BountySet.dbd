@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint lockedQuestID
+uint visiblePlayerConditionID
+
+BUILD 8.0.1.26175
+LAYOUT 96B908A5
+$noninlineid$ID<32>
+lockedQuestID<16>
+visiblePlayerConditionID<32>

@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+uint flags
+float normalizedScale
+float orientationPitch
+float orientationRoll
+float orientationYaw
+float position
+string scriptTag
+int uiModelSceneActorDisplayID
+int uiModelSceneID
+
+BUILD 8.0.1.26175
+LAYOUT 679AC95F
+scriptTag
+position[3]
+orientationYaw
+orientationPitch
+orientationRoll
+normalizedScale
+flags<8>
+$id$ID<32>
+uiModelSceneActorDisplayID<32>
+$relation$uiModelSceneID<32> // relationship column

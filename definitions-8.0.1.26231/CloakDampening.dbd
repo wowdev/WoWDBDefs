@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+float angle
+float dampening
+float expectedWeaponSize
+float tabardAngle
+float tabardDampening
+float tailAngle
+float tailDampening
+
+BUILD 8.0.1.26175
+LAYOUT B2DF7F2A
+$noninlineid$ID<32>
+angle[5]
+dampening[5]
+tailAngle[2]
+tailDampening[2]
+tabardAngle
+tabardDampening
+expectedWeaponSize

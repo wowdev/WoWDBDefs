@@ -1,0 +1,20 @@
+COLUMNS
+uint Floor
+int ID
+int MapID
+uint NumPoints
+int ObjectiveIndex
+uint QuestID
+uint WorldMapAreaID
+uint playerConditionID
+
+BUILD 8.0.1.26175
+LAYOUT EC15976E
+$id$ID<32>
+MapID<16>
+WorldMapAreaID<16> // unk_8C, unk_90
+NumPoints<8>
+Floor<8>
+playerConditionID<32>
+QuestID<32>
+ObjectiveIndex<32>

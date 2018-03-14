@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint battlePetAbilityID
+uint battlePetSpeciesID
+uint requiredLevel
+int slotEnum
+
+BUILD 8.0.1.26175
+LAYOUT 9EE27D6A
+$noninlineid$ID<32>
+battlePetAbilityID<16>
+requiredLevel<8>
+slotEnum<8>
+$relation$battlePetSpeciesID<16> // relationship column

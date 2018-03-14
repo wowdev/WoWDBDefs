@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+int AlwaysItem
+uint classification
+uint creatureFamily
+uint creatureType
+int displayID
+float displayProbability
+int mountCreatureID
+locstring name
+locstring nameAlt
+uint startAnimState
+locstring title
+locstring titleAlt
+
+BUILD 8.0.1.26175
+LAYOUT CFB508A9
+$noninlineid$ID<32>
+name
+nameAlt
+title
+titleAlt
+AlwaysItem<32>[3]
+mountCreatureID<32>
+displayID<32>[4]
+displayProbability[4]
+creatureType<8>
+creatureFamily<8>
+classification<8>
+startAnimState<8>

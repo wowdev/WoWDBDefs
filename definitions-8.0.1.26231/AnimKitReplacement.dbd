@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint dstAnimKitID
+uint flags
+uint parentAnimReplacementSetID
+uint srcAnimKitID
+
+BUILD 8.0.1.26175
+LAYOUT 0735DB83
+srcAnimKitID<16>
+dstAnimKitID<16>
+flags<16>
+$id$ID<32>
+$relation$parentAnimReplacementSetID<16> // relationship column

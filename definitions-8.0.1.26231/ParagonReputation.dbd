@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint factionID
+int levelThreshold
+int questID
+
+BUILD 8.0.1.26175
+LAYOUT D7712F98
+$noninlineid$ID<32>
+levelThreshold<32>
+questID<32>
+factionID<32> // unk_8C, unk_90

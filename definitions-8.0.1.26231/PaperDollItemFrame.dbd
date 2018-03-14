@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+string itemButtonName
+int slotIconFileID
+uint slotNumber
+
+BUILD 8.0.1.26175
+LAYOUT 66B0597E
+$noninlineid$ID<32>
+itemButtonName
+slotNumber<8>
+slotIconFileID<32>

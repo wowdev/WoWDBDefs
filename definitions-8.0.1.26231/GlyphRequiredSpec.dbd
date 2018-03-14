@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint chrSpecializationID
+uint glyphPropertiesID
+
+BUILD 8.0.1.26175
+LAYOUT DD6481CE
+$noninlineid$ID<32>
+chrSpecializationID<16>
+$relation$glyphPropertiesID<16> // relationship column

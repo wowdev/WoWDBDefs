@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+uint categoryID
+locstring description
+uint flags
+int inventoryIconFileID
+uint maxEarnablePerWeek
+uint maxQty
+locstring name
+uint quality
+uint spellCategory
+uint spellWeight
+
+BUILD 8.0.1.26175
+LAYOUT 6CC25CBF
+$noninlineid$ID<32>
+name
+description
+maxQty<32>
+maxEarnablePerWeek<32>
+flags<32>
+categoryID<8>
+spellCategory<8>
+quality<8>
+inventoryIconFileID<32>
+spellWeight<32>

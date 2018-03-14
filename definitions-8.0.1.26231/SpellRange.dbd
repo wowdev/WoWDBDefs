@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+locstring displayName
+locstring displayNameShort
+uint flags
+float rangeMax
+float rangeMin
+
+BUILD 8.0.1.26175
+LAYOUT DE2E3F8E
+$noninlineid$ID<32>
+displayName
+displayNameShort
+rangeMin[2]
+rangeMax[2]
+flags<8>

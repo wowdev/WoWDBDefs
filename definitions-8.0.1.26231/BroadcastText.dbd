@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+int conditionID
+uint emoteDelay
+uint emoteID
+uint emotesID
+uint flags
+uint languageID
+uint soundEntriesID
+locstring text
+locstring text1
+
+BUILD 8.0.1.26175
+LAYOUT 51BF0C33
+$noninlineid$ID<32>
+text
+text1
+emoteID<16>[3]
+emoteDelay<16>[3]
+emotesID<16>
+languageID<8>
+flags<8>
+conditionID<32>
+soundEntriesID<32>[2]

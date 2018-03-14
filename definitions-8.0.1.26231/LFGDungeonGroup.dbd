@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+locstring name
+uint order_index
+uint parent_group_id
+uint typeid
+
+BUILD 8.0.1.26175
+LAYOUT 724D58E7
+$noninlineid$ID<32>
+name
+order_index<16>
+parent_group_id<8>
+typeid<8>

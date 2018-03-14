@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+locstring Answer
+uint GMSurveyQuestionID
+uint Sort_Index
+
+BUILD 8.0.1.26175
+LAYOUT 422747F6
+$noninlineid$ID<32>
+Answer
+Sort_Index<8>
+$relation$GMSurveyQuestionID<32> // relationship column

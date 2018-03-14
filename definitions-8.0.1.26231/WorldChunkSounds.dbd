@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint chunkX
+uint chunkY
+uint mapID
+uint soundOverrideID
+uint subChunkX
+uint subChunkY
+
+BUILD 8.0.1.26175
+LAYOUT D06AA126
+$noninlineid$ID<32>
+mapID<16>
+chunkX<8>
+chunkY<8>
+subChunkX<8>
+subChunkY<8>
+soundOverrideID<8>

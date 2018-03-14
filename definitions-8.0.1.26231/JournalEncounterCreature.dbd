@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint creatureDisplayInfoID
+locstring description
+uint fileDataID
+uint journalEncounterID
+locstring name
+uint orderIndex
+uint uiModelSceneID
+
+BUILD 8.0.1.26175
+LAYOUT F105CB72
+name
+description
+creatureDisplayInfoID<32>
+fileDataID<32>
+journalEncounterID<16> // unk_8C, unk_90
+orderIndex<8>
+$id$ID<32>
+uiModelSceneID<32>

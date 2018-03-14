@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint castKit
+uint garrClassSpecID
+float impactDelaySecs
+uint impactKit
+uint movementType
+uint targetImpactKit
+
+BUILD 8.0.1.26175
+LAYOUT DBF4633D
+$noninlineid$ID<32>
+impactDelaySecs
+garrClassSpecID<8>
+movementType<8>
+castKit<32>
+impactKit<32>
+targetImpactKit<32>

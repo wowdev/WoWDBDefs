@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint audioFileDataID
+uint keyID
+uint subtitleFileDataID
+uint volume
+
+BUILD 8.0.1.26175
+LAYOUT F3E9AE3B
+$noninlineid$ID<32>
+audioFileDataID<32>
+subtitleFileDataID<32>
+volume<8>
+keyID<8>

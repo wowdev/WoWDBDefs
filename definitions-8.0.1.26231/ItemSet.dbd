@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint itemID
+locstring name
+uint requiredSkill
+uint requiredSkillRank
+uint setFlags
+
+BUILD 8.0.1.26175
+LAYOUT 847FF58A
+$noninlineid$ID<32>
+name
+itemID<32>[17]
+requiredSkillRank<16>
+requiredSkill<32>
+setFlags<32>

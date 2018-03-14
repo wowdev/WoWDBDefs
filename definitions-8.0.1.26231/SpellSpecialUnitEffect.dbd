@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint positionerID
+uint spellVisualEffectNameID
+
+BUILD 8.0.1.26175
+LAYOUT 76989615
+$noninlineid$ID<32>
+spellVisualEffectNameID<16>
+positionerID<32>

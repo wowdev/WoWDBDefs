@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint bountySetID
+uint factionID
+uint iconFileDataID
+uint questID
+uint turninPlayerConditionID
+
+BUILD 8.0.1.26175
+LAYOUT E76E716C
+$noninlineid$ID<32>
+iconFileDataID<32>
+questID<16>
+factionID<16>
+turninPlayerConditionID<32>
+$relation$bountySetID<8> // relationship column

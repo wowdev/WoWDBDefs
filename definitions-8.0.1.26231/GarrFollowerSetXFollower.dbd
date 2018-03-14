@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int garrFollowerID
+int garrFollowerSetID
+
+BUILD 8.0.1.26175
+LAYOUT DB0E0A17
+$noninlineid$ID<32>
+garrFollowerID<32>
+$relation$garrFollowerSetID<32> // relationship column

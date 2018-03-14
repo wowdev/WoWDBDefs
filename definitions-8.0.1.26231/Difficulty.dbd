@@ -1,0 +1,32 @@
+COLUMNS
+int ID
+uint fallbackDifficultyID
+uint flags
+uint groupSizeDmgCurveID
+uint groupSizeHealthCurveID
+uint groupSizeSpellPointsCurveID
+uint instanceType
+uint itemContext
+uint maxPlayers
+uint minPlayers
+locstring name
+int oldEnumValue
+uint orderIndex
+uint toggleDifficultyID
+
+BUILD 8.0.1.26175
+LAYOUT 92302BB8
+$noninlineid$ID<32>
+name
+groupSizeHealthCurveID<16>
+groupSizeDmgCurveID<16>
+groupSizeSpellPointsCurveID<16>
+fallbackDifficultyID<8>
+instanceType<8>
+minPlayers<8>
+maxPlayers<8>
+oldEnumValue<8>
+flags<8>
+toggleDifficultyID<8>
+itemContext<8>
+orderIndex<8>

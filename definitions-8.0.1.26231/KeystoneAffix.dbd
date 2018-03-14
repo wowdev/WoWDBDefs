@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+locstring description
+int filedataid
+locstring name
+
+BUILD 8.0.1.26175
+LAYOUT 1BCB46AA
+$noninlineid$ID<32>
+name
+description
+filedataid<32>

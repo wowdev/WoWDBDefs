@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint criteriaTreeID
+int worldEffectID
+
+BUILD 8.0.1.26175
+LAYOUT 929D9B0C
+$noninlineid$ID<32>
+worldEffectID<16>
+$relation$criteriaTreeID<32> // relationship column

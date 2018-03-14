@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint childSceneScriptPackageID
+uint orderIndex
+uint sceneScriptID
+uint sceneScriptPackageID
+
+BUILD 8.0.1.26175
+LAYOUT 787A715F
+$noninlineid$ID<32>
+sceneScriptPackageID<16> // unk_8C, unk_90
+sceneScriptID<16>
+childSceneScriptPackageID<16>
+orderIndex<8>

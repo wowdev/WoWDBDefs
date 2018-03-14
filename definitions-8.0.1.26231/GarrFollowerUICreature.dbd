@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int creatureID
+uint factionIndex
+uint flags
+uint garrFollowerID
+uint orderIndex
+float scale
+
+BUILD 8.0.1.26175
+LAYOUT 7E275E96
+$noninlineid$ID<32>
+creatureID<32>
+scale
+factionIndex<8>
+orderIndex<8>
+flags<8>
+$relation$garrFollowerID<16> // relationship column

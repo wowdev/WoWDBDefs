@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint battlePetVisualID
+string paramLabel
+uint paramTypeEnum
+
+BUILD 8.0.1.26175
+LAYOUT 56070751
+$noninlineid$ID<32>
+paramLabel[6]
+battlePetVisualID<16>
+paramTypeEnum<8>[6]

@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int class
+uint maxScalingLevel
+uint minScalingLevel
+int scalesFromItemLevel
+int spellID
+
+BUILD 8.0.1.26175
+LAYOUT F67A5719
+$noninlineid$ID<32>
+spellID<32>
+scalesFromItemLevel<16>
+class<32>
+minScalingLevel<32>
+maxScalingLevel<32>

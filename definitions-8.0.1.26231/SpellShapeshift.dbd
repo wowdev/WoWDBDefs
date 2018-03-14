@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int shapeshiftExclude
+int shapeshiftMask
+int spellID
+int stanceBarOrder
+
+BUILD 8.0.1.26175
+LAYOUT A461C24D
+$noninlineid$ID<32>
+spellID<32>
+shapeshiftExclude<32>[2]
+shapeshiftMask<32>[2]
+stanceBarOrder<8>

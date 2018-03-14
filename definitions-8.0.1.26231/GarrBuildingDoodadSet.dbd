@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint allianceDoodadSet
+uint garrBuildingID
+uint hordeDoodadSet
+uint specializationID
+uint type
+
+BUILD 8.0.1.26175
+LAYOUT 2A861C7F
+$noninlineid$ID<32>
+garrBuildingID<8>
+type<8>
+allianceDoodadSet<8>
+hordeDoodadSet<8>
+specializationID<8>

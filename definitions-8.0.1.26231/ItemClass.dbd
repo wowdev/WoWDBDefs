@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int classID
+locstring className
+uint flags
+float priceModifier
+
+BUILD 8.0.1.26175
+LAYOUT A1E4663C
+$noninlineid$ID<32>
+className
+priceModifier
+classID<8>
+flags<8>

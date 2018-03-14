@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int celestialBodyID
+int mapID
+uint playerConditionID
+
+BUILD 8.0.1.26175
+LAYOUT BDE1C11C
+$noninlineid$ID<32>
+celestialBodyID<16>
+playerConditionID<32>
+$relation$mapID<16> // relationship column
