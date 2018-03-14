@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int boneWindModifierID
+int fileDataID
+
+LAYOUT 577A0772
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+fileDataID<32> // unk_8C, unk_90
+boneWindModifierID<32>

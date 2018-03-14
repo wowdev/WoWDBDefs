@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+locstring featureDescription_lang
+int featureIcon
+int parentID
+
+LAYOUT 331022F2
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+featureDescription_lang
+parentID<32>
+featureIcon<32>

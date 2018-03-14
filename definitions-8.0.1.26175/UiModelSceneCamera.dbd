@@ -1,0 +1,36 @@
+COLUMNS
+int ID
+uint cameraType
+uint flags
+float maxZoomDistance
+float minZoomDistance
+float pitch
+float roll
+string scriptTag
+float target
+int uiModelSceneID
+float yaw
+float zoomDistance
+float zoomedPitchOffset
+float zoomedRollOffset
+float zoomedTargetOffset
+float zoomedYawOffset
+
+LAYOUT C58AA5EC
+BUILD 8.0.1.26175
+scriptTag
+target[3]
+zoomedTargetOffset[3]
+yaw
+pitch
+roll
+zoomedYawOffset
+zoomedPitchOffset
+zoomedRollOffset
+zoomDistance
+minZoomDistance
+maxZoomDistance
+flags<8>
+cameraType<8>
+$id$ID<32>
+$relation$uiModelSceneID<32>

@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint create_charsetMask
+uint existing_charsetMask
+uint flags
+uint localeMask
+locstring name_lang
+
+LAYOUT 705B82C8
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+name_lang
+localeMask<16>
+create_charsetMask<8>
+existing_charsetMask<8>
+flags<8>

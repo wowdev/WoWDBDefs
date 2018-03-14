@@ -1,0 +1,28 @@
+COLUMNS
+int ID
+uint bottomBoundary
+float continentOffset
+uint flags
+uint leftBoundary
+int mapID
+uint rightBoundary
+float scale
+float taxiMax
+float taxiMin
+uint topBoundary
+uint worldMapID
+
+LAYOUT 8F75E077
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+continentOffset[2]
+scale
+taxiMin[2]
+taxiMax[2]
+mapID<16>
+worldMapID<16>
+leftBoundary<8>
+rightBoundary<8>
+topBoundary<8>
+bottomBoundary<8>
+flags<8>

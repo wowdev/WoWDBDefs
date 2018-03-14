@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint area_ID
+uint battle_populate_time
+uint game_time_worldstate
+int map_ID
+uint max_level
+uint min_level
+uint next_time_worldstate
+
+LAYOUT 6FBBF76B
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+area_ID<16>
+next_time_worldstate<16>
+game_time_worldstate<16>
+battle_populate_time<16>
+map_ID<16>
+min_level<8>
+max_level<8>

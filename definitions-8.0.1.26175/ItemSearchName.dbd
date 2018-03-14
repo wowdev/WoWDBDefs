@@ -1,0 +1,32 @@
+COLUMNS
+int ID
+int allowableClass
+int allowableRace
+locstring display_lang
+uint expansionID
+int flags
+uint itemLevel
+uint minFactionID
+uint minReputation
+uint overallQualityID
+uint requiredAbility
+int requiredLevel
+uint requiredSkill
+uint requiredSkillRank
+
+LAYOUT 2D4B72FA
+BUILD 8.0.1.26175
+allowableRace<64>
+display_lang
+$id$ID<32>
+flags<32>[3]
+itemLevel<16>
+overallQualityID<8>
+expansionID<8>
+requiredLevel<8>
+minFactionID<16>
+minReputation<8>
+allowableClass<32>
+requiredSkill<16>
+requiredSkillRank<16>
+requiredAbility<32>

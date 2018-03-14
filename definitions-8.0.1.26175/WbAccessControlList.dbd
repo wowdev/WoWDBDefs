@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+string URL
+uint grantFlags
+uint regionID
+uint revokeFlags
+uint wowEditInternal
+
+LAYOUT BE044710
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+URL
+grantFlags<16>
+revokeFlags<8>
+wowEditInternal<8>
+regionID<8>

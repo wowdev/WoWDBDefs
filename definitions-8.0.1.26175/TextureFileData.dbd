@@ -1,0 +1,10 @@
+COLUMNS
+int fileDataID
+int materialResourcesID
+uint usageType
+
+LAYOUT E0790D00
+BUILD 8.0.1.26175
+$id$fileDataID<32>
+materialResourcesID<32> // unk_8C, unk_90
+usageType<8>

@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int flags
+uint highlightColorID
+uint passiveHighlightColorID
+int priority
+float range
+uint unitConditionID
+
+LAYOUT CE779C68
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+passiveHighlightColorID<32>
+highlightColorID<32>
+priority<32>
+flags<32>
+range
+unitConditionID<32>[2]

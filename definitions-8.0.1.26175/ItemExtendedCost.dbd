@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+uint arenaBracket
+uint currencyCount
+uint currencyID
+uint flags
+uint itemCount
+int itemID
+uint minFactionID
+uint minReputation
+uint requiredAchievement
+uint requiredArenaRating
+
+LAYOUT C31F4DEF
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+itemID<32>[5]
+currencyCount<32>[5]
+itemCount<16>[5]
+requiredArenaRating<16>
+currencyID<16>[5]
+arenaBracket<8>
+minFactionID<8>
+minReputation<8>
+flags<8>
+requiredAchievement<8>

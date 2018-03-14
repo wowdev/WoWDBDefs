@@ -27,6 +27,7 @@ uint type
 string name
 string fileName
 float areaEffectSize
+int modelPosition
 
 BUILD 6.0.1.18179
 field_189230862<32>
@@ -82,3 +83,21 @@ areaEffectSize
 scale
 minAllowedScale
 maxAllowedScale
+
+LAYOUT 81C922D3
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+modelFileDataID<32>
+effectRadius
+baseMissileSpeed
+scale
+minAllowedScale
+maxAllowedScale
+alpha
+flags<32>
+type<32>
+genericID<32>
+textureFileDataID<32>
+ribbonQualityID<32>
+dissolveEffectID<32>
+modelPosition<32>

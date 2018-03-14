@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint battlePetSpeciesID
+uint creatureDisplayInfoID
+uint playerConditionID
+uint priorityCategory
+
+LAYOUT DE5129EA
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+battlePetSpeciesID<32>
+playerConditionID<32>
+creatureDisplayInfoID<32>
+priorityCategory<8>

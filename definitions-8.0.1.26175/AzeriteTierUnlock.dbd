@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint azeriteLevel
+uint azeriteTierUnlockSetID
+uint itemCreationContext
+uint tier
+
+LAYOUT 0F6FDEA9
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+itemCreationContext<8>
+tier<8>
+azeriteLevel<8>
+$relation$azeriteTierUnlockSetID<8>

@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int bracketID
+uint weeklyQuestID
+
+LAYOUT 7C55E5BB
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+bracketID<8>
+weeklyQuestID<32>[4]

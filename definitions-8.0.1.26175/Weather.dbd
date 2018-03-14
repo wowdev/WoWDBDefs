@@ -1,0 +1,36 @@
+COLUMNS
+int ID
+uint ambienceID
+float effectColor
+int effectTextureFileDataID
+uint effectType
+float fallModifier
+float intensity
+int particulateFileDataID
+float rotationalSpeed
+float scale
+uint soundAmbienceID
+float transitionSkyBox
+float twinkleIntensity
+uint type
+float volatility
+uint windSettingsID
+
+LAYOUT 1FBCCDF1
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+intensity[2]
+transitionSkyBox
+effectColor[3]
+scale
+volatility
+twinkleIntensity
+fallModifier
+rotationalSpeed
+particulateFileDataID<32>
+soundAmbienceID<16>
+type<8>
+effectType<8>
+windSettingsID<8>
+ambienceID<32>
+effectTextureFileDataID<32>

@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int criteriaCount
+uint flags
+uint mapID
+locstring name_lang
+
+LAYOUT C5261662
+BUILD 8.0.1.26175
+name_lang
+$id$ID<32>
+mapID<16> // unk_8C, unk_90
+criteriaCount<16>[3]
+flags<8>

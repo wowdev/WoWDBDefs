@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint curveID
+uint orderIndex
+float pos
+
+LAYOUT F36752EB
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+pos[2]
+curveID<16>
+orderIndex<8>

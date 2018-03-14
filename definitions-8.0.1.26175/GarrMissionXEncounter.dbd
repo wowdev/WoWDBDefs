@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint garrEncounterID
+uint garrEncounterSetID
+uint garrMissionID
+uint orderIndex
+
+LAYOUT BCB016C6
+BUILD 8.0.1.26175
+orderIndex<8>
+$id$ID<32>
+garrEncounterID<32>
+garrEncounterSetID<32>
+$relation$garrMissionID<32>

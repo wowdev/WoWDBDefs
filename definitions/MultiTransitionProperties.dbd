@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint durationMS
+uint transitionType
+
+LAYOUT 8B70AEB6
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+transitionType<32>
+durationMS<32>

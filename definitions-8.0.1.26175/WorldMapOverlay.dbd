@@ -1,0 +1,32 @@
+COLUMNS
+int ID
+uint areaID
+uint flags
+int hitRectBottom
+int hitRectLeft
+int hitRectRight
+int hitRectTop
+uint mapAreaID
+int offsetX
+int offsetY
+uint playerConditionID
+uint textureHeight
+string textureName
+uint textureWidth
+
+LAYOUT DC4B6AF3
+BUILD 8.0.1.26175
+textureName
+$id$ID<32>
+textureWidth<16>
+textureHeight<16>
+mapAreaID<32> // unk_8C, unk_90
+offsetX<32>
+offsetY<32>
+hitRectTop<32>
+hitRectLeft<32>
+hitRectBottom<32>
+hitRectRight<32>
+playerConditionID<32>
+flags<32>
+areaID<32>[4]

@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint Parent
+int amount
+uint criteriaID
+locstring description_lang
+int flags
+int operator
+int orderIndex
+
+LAYOUT 0A1B99C2
+BUILD 8.0.1.26175
+$noninlineid$ID<32>
+description_lang
+amount<32>
+flags<16>
+operator<8>
+criteriaID<32>
+Parent<32>
+orderIndex<32>
