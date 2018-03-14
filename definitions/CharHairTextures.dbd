@@ -1,0 +1,17 @@
+COLUMNS
+uint ID
+uint<ChrRaces::ID> field_6196993_race?
+uint field_0398928_gender?
+uint field_118879370_mayberacemask?
+uint field_70049839_the_x_in_hair_xy_blp? // Maybe the * of Hair*_x.blp?
+uint field_345983495834?
+uint field_120396383312?
+
+BUILD 3.0.2.8905
+ID<32>
+field_6196993_race<32>
+field_0398928_gender<32>
+field_118879370_mayberacemask<32>
+field_70049839_the_x_in_hair_xy_blp<32>
+field_345983495834<32>
+field_120396383312<32>

@@ -1,0 +1,15 @@
+COLUMNS
+uint Race
+uint Sex
+uint Camera
+float Height
+float Radius
+float Target
+
+BUILD 0.5.3.3368, 1.12.1.5875
+Race<32>
+Sex<32>
+Camera<32>
+Height
+Radius
+Target

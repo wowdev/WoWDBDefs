@@ -1,0 +1,9 @@
+COLUMNS
+uint ID
+string PrecastLoadAnimName // todo: fk AnimationData by name?
+string PrecastHoldAnimName // todo: fk AnimationData by name?
+
+BUILD 0.5.3.3368, 4.3.4.15595
+ID<32>
+PrecastLoadAnimName
+PrecastHoldAnimName

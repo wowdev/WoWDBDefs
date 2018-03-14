@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+uint flags
+uint startTimestamp // milliseconds
+uint endTimestamp // milliseconds
+locstring text
+
+BUILD 0.9.0.3807, 0.10.0.3892
+ID<32>
+flags<32>
+startTimestamp<32>
+endTimestamp<32>
+text

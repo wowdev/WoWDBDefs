@@ -1,0 +1,45 @@
+COLUMNS
+uint ID
+float EAX1EffectLevel
+uint EAX2SampleDirect
+uint EAX2SampleDirectHF
+uint EAX2SampleRoom
+uint EAX2SampleRoomHF
+float EAX2SampleObstruction
+float EAX2SampleObstructionLFRatio
+float EAX2SampleOcclusion
+float EAX2SampleOcclusionLFRatio
+float EAX2SampleOcclusionRoomRatio
+float EAX2SampleRoomRolloff
+float EAX2SampleAirAbsorption
+uint EAX2SampleOutsideVolumeHF
+float EAX3SampleOcclusionDirectRatio
+float EAX3SampleExclusion
+float EAX3SampleExclusionLFRatio
+float EAX3SampleDopplerFactor
+float Fast2DPredelayTime
+float Fast2DDamping
+float Fast2DReverbTime
+
+BUILD 0.5.3.3368
+ID<32>
+EAX1EffectLevel
+EAX2SampleDirect<32>
+EAX2SampleDirectHF<32>
+EAX2SampleRoom<32>
+EAX2SampleRoomHF<32>
+EAX2SampleObstruction
+EAX2SampleObstructionLFRatio
+EAX2SampleOcclusion
+EAX2SampleOcclusionLFRatio
+EAX2SampleOcclusionRoomRatio
+EAX2SampleRoomRolloff
+EAX2SampleAirAbsorption
+EAX2SampleOutsideVolumeHF<32>
+EAX3SampleOcclusionDirectRatio
+EAX3SampleExclusion
+EAX3SampleExclusionLFRatio
+EAX3SampleDopplerFactor
+Fast2DPredelayTime
+Fast2DDamping
+Fast2DReverbTime

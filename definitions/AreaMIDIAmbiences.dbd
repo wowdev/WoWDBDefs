@@ -1,0 +1,13 @@
+COLUMNS
+uint ID
+string DaySequence
+string NightSequence
+string DLSFile
+float volume
+
+BUILD 0.5.3.3368, 0.6.0.3592
+ID<32>
+DaySequence
+NightSequence
+DLSFile
+volume
