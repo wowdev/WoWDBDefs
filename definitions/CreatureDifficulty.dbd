@@ -13,6 +13,7 @@ uint factionID
 int flags
 int maxLevel
 int minLevel
+int contentTuningID
 
 BUILD 6.0.1.18179
 field_4094940900<32>
@@ -31,4 +32,15 @@ factionID<16>
 expansionID<8>
 minLevel<8>
 maxLevel<8>
+$relation$creatureID<32>
+
+LAYOUT 6B6A83CA
+BUILD 8.0.1.26231
+$noninlineid$ID<32>
+flags<32>[7]
+factionID<16>
+expansionID<8>
+minLevel<8>
+maxLevel<8>
+contentTuningID<32>
 $relation$creatureID<32>
