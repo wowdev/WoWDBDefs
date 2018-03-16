@@ -2,11 +2,11 @@ COLUMNS
 int ID
 uint chrClassID
 uint gender
-locstring name
+locstring name_lang
 
-BUILD 8.0.1.26175
 LAYOUT A6AC18CD
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 chrClassID<8>
 gender<8>

@@ -11,8 +11,8 @@ uint stateIndex
 int transitionInID
 int transitionOutID
 
-BUILD 8.0.1.26175
 LAYOUT E44B382C
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 offset[3]
 stateIndex<8>
@@ -23,4 +23,4 @@ transitionInID<32>
 transitionOutID<32>
 collisionHull<32>
 flags<32>
-$relation$multiPropertiesID<32> // relationship column
+$relation$multiPropertiesID<32>

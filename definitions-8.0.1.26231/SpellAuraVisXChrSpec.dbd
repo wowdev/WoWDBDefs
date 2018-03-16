@@ -3,8 +3,8 @@ int ID
 int chrSpecializationID
 int spellAuraVisibilityID
 
-BUILD 8.0.1.26175
 LAYOUT A65B6A4A
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 chrSpecializationID<16>
-$relation$spellAuraVisibilityID<16> // relationship column
+$relation$spellAuraVisibilityID<16>

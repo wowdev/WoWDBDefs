@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-locstring description
-int filedataid
-locstring name
+locstring description_lang
+int filedataID
+locstring name_lang
 
-BUILD 8.0.1.26175
 LAYOUT 1BCB46AA
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-description
-filedataid<32>
+name_lang
+description_lang
+filedataID<32>

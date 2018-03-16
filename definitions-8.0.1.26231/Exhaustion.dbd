@@ -3,14 +3,14 @@ int ID
 string combatLogText
 float factor
 float innHours
-locstring name
+locstring name_lang
 float outdoorHours
 float threshold
 int xp
 
-BUILD 8.0.1.26175
 LAYOUT E6E16045
-name
+BUILD 8.0.1.26175
+name_lang
 combatLogText
 xp<32>
 factor

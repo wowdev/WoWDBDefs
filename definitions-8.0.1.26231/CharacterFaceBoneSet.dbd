@@ -6,11 +6,11 @@ uint raceID
 uint resolution
 uint sexID
 
-BUILD 8.0.1.26175
 LAYOUT 1C634076
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 boneSetFileDataID<32>
 sexID<8>
 faceVariationIndex<8>
 resolution<8>
-$relation$raceID<8> // relationship column
+$relation$raceID<8>

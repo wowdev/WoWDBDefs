@@ -2,22 +2,22 @@ COLUMNS
 int ID
 int animReplacements
 int classID
-locstring description
-locstring femaleName
+locstring description_lang
+locstring femaleName_lang
 uint flags
 int masterySpellID
-locstring name
+locstring name_lang
 int orderIndex
 int petTalentType
 int primaryStatPriority
 int role
 int spellIconFileID
 
-BUILD 8.0.1.26175
 LAYOUT 3D86B8F7
-name
-femaleName
-description
+BUILD 8.0.1.26175
+name_lang
+femaleName_lang
+description_lang
 masterySpellID<32>[2]
 classID<8> // unk_8C, unk_90
 orderIndex<8>

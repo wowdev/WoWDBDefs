@@ -2,12 +2,12 @@ COLUMNS
 int ID
 uint flags
 int itemID
-locstring sourceText
+locstring sourceText_lang
 int sourceTypeEnum
 
-BUILD 8.0.1.26175
 LAYOUT 5409C5EA
-sourceText
+BUILD 8.0.1.26175
+sourceText_lang
 itemID<32>
 flags<8>
 sourceTypeEnum<8>

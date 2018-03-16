@@ -7,14 +7,14 @@ uint emotesID
 uint flags
 uint languageID
 uint soundEntriesID
-locstring text
-locstring text1
+locstring text_lang
+locstring text1_lang
 
-BUILD 8.0.1.26175
 LAYOUT 51BF0C33
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-text
-text1
+text_lang
+text1_lang
 emoteID<16>[3]
 emoteDelay<16>[3]
 emotesID<16>

@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-locstring description
+locstring description_lang
 uint expansion
 uint flags
 uint friendshipRepID
-locstring name
+locstring name_lang
 uint paragonFactionID
 uint parentFactionCap
 uint parentFactionID
@@ -16,11 +16,11 @@ int reputationIndex
 int reputationMax
 int reputationRaceMask
 
-BUILD 8.0.1.26175
 LAYOUT C0CBCBC8
+BUILD 8.0.1.26175
 reputationRaceMask<64>[4]
-name
-description
+name_lang
+description_lang
 $id$ID<32>
 reputationBase<32>[4]
 parentFactionMod[2]

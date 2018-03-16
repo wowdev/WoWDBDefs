@@ -2,13 +2,13 @@ COLUMNS
 int ID
 int flags
 int mask_ID
-locstring name
-locstring name1
+locstring name_lang
+locstring name1_lang
 
-BUILD 8.0.1.26175
 LAYOUT 7A58AA5F
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-name1
+name_lang
+name1_lang
 mask_ID<16>
 flags<8>

@@ -4,7 +4,7 @@ uint bonus_reputation_amount
 uint count_damage
 uint count_healer
 uint count_tank
-locstring description
+locstring description_lang
 uint difficultyID
 uint expansionLevel
 int faction
@@ -21,11 +21,11 @@ uint minLevel
 uint min_count_damage
 uint min_count_healer
 uint min_count_tank
-locstring name
+locstring name_lang
 uint order_index
 int popupBgTextureFileID
 uint random_ID
-uint required_player_condition_id
+uint required_player_condition_ID
 int rewardsBgTextureFileID
 uint scenarioID
 uint subtype
@@ -34,11 +34,11 @@ uint target_level_max
 uint target_level_min
 uint typeID
 
-BUILD 8.0.1.26175
 LAYOUT 99DD60ED
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-description
+name_lang
+description_lang
 flags<32>
 minGear
 maxLevel<16>
@@ -49,7 +49,7 @@ scenarioID<16>
 finalEncounterID<16>
 bonus_reputation_amount<16>
 mentorItemLevel<16>
-required_player_condition_id<16>
+required_player_condition_ID<16>
 minLevel<8>
 target_level<8>
 target_level_min<8>

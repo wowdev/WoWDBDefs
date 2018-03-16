@@ -8,11 +8,11 @@ uint bonding
 uint buyPrice
 uint containerSlots
 uint damage_damageType
-locstring description
-locstring display
-locstring display1
-locstring display2
-locstring display3
+locstring description_lang
+locstring display_lang
+locstring display1_lang
+locstring display2_lang
+locstring display3_lang
 float dmgVariance
 uint durationInInventory
 uint expansionID
@@ -52,7 +52,7 @@ uint scalingStatDistributionID
 uint sellPrice
 uint sheatheType
 uint socketType
-uint socket_match_enchantment_id
+uint socket_match_enchantment_ID
 uint spellWeight
 uint spellWeightCategory
 int stackable
@@ -64,16 +64,16 @@ uint totemCategoryID
 uint vendorStackCount
 uint zoneBound
 
-BUILD 8.0.1.26175
 LAYOUT 350149D8
+BUILD 8.0.1.26175
 COMMENT table is sparse
 $noninlineid$ID<32>
 allowableRace<64>
-display
-display1
-display2
-display3
-description
+display_lang
+display1_lang
+display2_lang
+display3_lang
+description_lang
 flags<32>[4]
 priceRandomValue
 priceVariance
@@ -106,7 +106,7 @@ itemSet<16>
 zoneBound<16>
 instanceBound<16>
 totemCategoryID<16>
-socket_match_enchantment_id<16>
+socket_match_enchantment_ID<16>
 gem_properties<16>
 limitCategory<16>
 requiredHoliday<16>

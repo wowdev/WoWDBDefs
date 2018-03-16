@@ -6,7 +6,7 @@ uint allianceGarrClassSpecID
 uint allianceGarrFollItemSetID
 uint allianceGarrFollRaceID
 int allianceIconFileDataID
-locstring allianceSourceText
+locstring allianceSourceText_lang
 int allianceSourceTypeEnum
 uint allianceUITextureKitID
 uint allySlottingBroadcastTextID
@@ -23,20 +23,20 @@ uint hordeGarrFollItemSetID
 uint hordeGarrFollRaceID
 int hordeIconFileDataID
 uint hordeSlottingBroadcastTextID
-locstring hordeSourceText
+locstring hordeSourceText_lang
 int hordeSourceTypeEnum
 uint hordeUITextureKitID
 uint itemLevelArmor
 uint itemLevelWeapon
 uint quality
-locstring titleName
+locstring titleName_lang
 uint vitality
 
-BUILD 8.0.1.26175
 LAYOUT AAB75E04
-hordeSourceText
-allianceSourceText
-titleName
+BUILD 8.0.1.26175
+hordeSourceText_lang
+allianceSourceText_lang
+titleName_lang
 hordeCreatureID<32>
 allianceCreatureID<32>
 hordeIconFileDataID<32>

@@ -3,7 +3,7 @@ int ID
 uint ambienceID
 float ambient_multiplier
 int areaBit
-locstring areaName
+locstring areaName_lang
 uint continentID
 int explorationLevel
 uint factionGroupMask
@@ -24,11 +24,11 @@ uint windSettingsID
 uint zoneMusic
 string zoneName
 
-BUILD 8.0.1.26175
 LAYOUT 0CA01129
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 zoneName
-areaName
+areaName_lang
 flags<32>[2]
 ambient_multiplier
 continentID<16>

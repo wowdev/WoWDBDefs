@@ -3,15 +3,15 @@ int ID
 uint Parent
 int amount
 uint criteriaID
-locstring description
+locstring description_lang
 int flags
 int operator
 int orderIndex
 
-BUILD 8.0.1.26175
 LAYOUT 0A1B99C2
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-description
+description_lang
 amount<32>
 flags<16>
 operator<8>

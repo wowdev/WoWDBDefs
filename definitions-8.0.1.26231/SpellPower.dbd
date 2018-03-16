@@ -14,8 +14,8 @@ int powerType
 int requiredAuraSpellID
 int spellID
 
-BUILD 8.0.1.26175
 LAYOUT 8E5E46EC
+BUILD 8.0.1.26175
 manaCost<32>
 powerCostPct
 powerPctPerSecond
@@ -29,4 +29,4 @@ manaPerSecond<32>
 optionalCost<32>
 powerDisplayID<32>
 altPowerBarID<32>
-$relation$spellID<32> // relationship column
+$relation$spellID<32>

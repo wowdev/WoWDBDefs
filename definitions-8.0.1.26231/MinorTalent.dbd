@@ -4,9 +4,9 @@ int chrSpecializationID
 int orderIndex
 int spellID
 
-BUILD 8.0.1.26175
 LAYOUT AAEF0DF8
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 spellID<32>
 orderIndex<32>
-$relation$chrSpecializationID<32> // relationship column
+$relation$chrSpecializationID<32>

@@ -1,12 +1,12 @@
 COLUMNS
 int ID
 uint flags
-locstring name
+locstring name_lang
 uint quantity
 
-BUILD 8.0.1.26175
 LAYOUT B6BB188D
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 quantity<8>
 flags<8>

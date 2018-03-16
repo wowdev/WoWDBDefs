@@ -3,14 +3,14 @@ int ID
 int bigTextureFileID
 uint currencyID
 int itemID
-locstring name
+locstring name_lang
 uint researchFieldID
 int textureFileID
 
-BUILD 8.0.1.26175
 LAYOUT 58A3876E
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 itemID<32>
 currencyID<16>
 researchFieldID<8>

@@ -3,16 +3,16 @@ int ID
 uint areaID
 uint soundAmbienceID
 uint soundProviderPreferencesID
-uint wmoAreaID
+uint WMOAreaID
 uint worldStateID
 uint worldStateValue
 uint zoneIntroMusicID
 uint zoneMusicID
 
-BUILD 8.0.1.26175
 LAYOUT B9572D3D
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-wmoAreaID<32>
+WMOAreaID<32>
 worldStateID<16>
 worldStateValue<16>
 areaID<16>

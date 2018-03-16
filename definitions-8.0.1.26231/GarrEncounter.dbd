@@ -1,15 +1,15 @@
 COLUMNS
 int ID
 int creatureID
-locstring name
+locstring name_lang
 int portraitFileDataID
 float uiAnimHeight
 float uiAnimScale
 uint uiTextureKitID
 
-BUILD 8.0.1.26175
 LAYOUT 63EF121A
-name
+BUILD 8.0.1.26175
+name_lang
 creatureID<32>
 uiAnimScale
 uiAnimHeight

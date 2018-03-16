@@ -3,8 +3,8 @@ int ID
 uint journalInstanceID
 uint journalTierID
 
-BUILD 8.0.1.26175
 LAYOUT 9C4F4D2A
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 journalTierID<16> // unk_8C, unk_90
 journalInstanceID<16>

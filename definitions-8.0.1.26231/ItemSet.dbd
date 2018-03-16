@@ -1,15 +1,15 @@
 COLUMNS
 int ID
 uint itemID
-locstring name
+locstring name_lang
 uint requiredSkill
 uint requiredSkillRank
 uint setFlags
 
-BUILD 8.0.1.26175
 LAYOUT 847FF58A
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 itemID<32>[17]
 requiredSkillRank<16>
 requiredSkill<32>

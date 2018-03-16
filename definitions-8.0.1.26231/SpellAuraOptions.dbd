@@ -9,8 +9,8 @@ int procTypeMask
 int spellID
 uint spellProcsPerMinuteID
 
-BUILD 8.0.1.26175
 LAYOUT E05BE94F
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 procCharges<32>
 procTypeMask<32>[2]
@@ -19,4 +19,4 @@ cumulativeAura<16>
 spellProcsPerMinuteID<16>
 difficultyID<8>
 procChance<8>
-$relation$spellID<32> // relationship column
+$relation$spellID<32>

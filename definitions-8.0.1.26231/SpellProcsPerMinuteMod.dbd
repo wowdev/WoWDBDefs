@@ -5,10 +5,10 @@ int param
 uint spellProcsPerMinuteID
 uint type
 
-BUILD 8.0.1.26175
 LAYOUT 2503C18B
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 coeff
 param<16>
 type<8>
-$relation$spellProcsPerMinuteID<16> // relationship column
+$relation$spellProcsPerMinuteID<16>

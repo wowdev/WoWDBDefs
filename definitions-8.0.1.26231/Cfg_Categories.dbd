@@ -4,12 +4,12 @@ uint create_charsetMask
 uint existing_charsetMask
 uint flags
 uint localeMask
-locstring name
+locstring name_lang
 
-BUILD 8.0.1.26175
 LAYOUT 705B82C8
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 localeMask<16>
 create_charsetMask<8>
 existing_charsetMask<8>

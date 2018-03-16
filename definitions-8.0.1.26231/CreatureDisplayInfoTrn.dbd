@@ -7,12 +7,12 @@ float maxTime
 int srcCreatureDisplayInfoID
 uint startVisualKitID
 
-BUILD 8.0.1.26175
 LAYOUT 8E687740
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 dstCreatureDisplayInfoID<32>
 maxTime
 dissolveEffectID<32>
 startVisualKitID<32>
 finishVisualKitID<32>
-$relation$srcCreatureDisplayInfoID<32> // relationship column
+$relation$srcCreatureDisplayInfoID<32>

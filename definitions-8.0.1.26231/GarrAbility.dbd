@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-locstring description
+locstring description_lang
 uint factionChangeGarrAbilityID
 uint flags
 uint garrAbilityCategoryID
 uint garrFollowerTypeID
 int iconFileDataID
-locstring name
+locstring name_lang
 
-BUILD 8.0.1.26175
 LAYOUT 5DF95DBD
-name
-description
+BUILD 8.0.1.26175
+name_lang
+description_lang
 iconFileDataID<32>
 flags<16>
 factionChangeGarrAbilityID<16>

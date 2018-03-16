@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int allowableClass
 int allowableRace
-locstring display
+locstring display_lang
 uint expansionID
 int flags
 uint itemLevel
@@ -14,10 +14,10 @@ int requiredLevel
 uint requiredSkill
 uint requiredSkillRank
 
-BUILD 8.0.1.26175
 LAYOUT 2D4B72FA
+BUILD 8.0.1.26175
 allowableRace<64>
-display
+display_lang
 $id$ID<32>
 flags<32>[3]
 itemLevel<16>

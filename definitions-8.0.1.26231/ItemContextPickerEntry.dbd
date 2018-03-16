@@ -7,12 +7,12 @@ uint orderIndex
 int pVal
 uint playerConditionID
 
-BUILD 8.0.1.26175
 LAYOUT 4A6DF90B
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 itemCreationContext<8>
 orderIndex<8>
 pVal<32>
 flags<32>
 playerConditionID<32>
-$relation$itemContextPickerID<32> // relationship column
+$relation$itemContextPickerID<32>

@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-locstring Text
+locstring Text_lang
 
-BUILD 8.0.1.26175
 LAYOUT 1C7A1347
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-Text
+Text_lang

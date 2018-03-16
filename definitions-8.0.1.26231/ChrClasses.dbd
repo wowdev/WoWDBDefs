@@ -10,9 +10,9 @@ string filename
 uint flags
 uint iconFileDataID
 uint lowResScreenFileDataID
-locstring name
-locstring name_female
-locstring name_male
+locstring name_lang
+locstring name_female_lang
+locstring name_male_lang
 string petNameToken
 uint primaryStatPriority
 uint rangedAttackPowerPerAgility
@@ -20,12 +20,12 @@ uint selectScreenFileDataID
 uint spellClassSet
 int startingLevel
 
-BUILD 8.0.1.26175
 LAYOUT 6F7AB8E7
+BUILD 8.0.1.26175
 petNameToken
-name
-name_female
-name_male
+name_lang
+name_female_lang
+name_male_lang
 filename
 createScreenFileDataID<32>
 selectScreenFileDataID<32>

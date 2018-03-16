@@ -3,14 +3,14 @@ int ID
 int chargeRecoveryTime
 int flags
 int maxCharges
-locstring name
+locstring name_lang
 int typeMask
 uint usesPerWeek
 
-BUILD 8.0.1.26175
 LAYOUT EA60E384
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 chargeRecoveryTime<32>
 flags<8>
 usesPerWeek<8>

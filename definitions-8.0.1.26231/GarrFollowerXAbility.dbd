@@ -4,9 +4,9 @@ uint factionIndex
 uint garrAbilityID
 uint garrFollowerID
 
-BUILD 8.0.1.26175
 LAYOUT 996447F1
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 garrAbilityID<16>
 factionIndex<8>
-$relation$garrFollowerID<16> // relationship column
+$relation$garrFollowerID<16>

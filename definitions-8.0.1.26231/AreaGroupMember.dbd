@@ -3,8 +3,8 @@ int ID
 uint areaGroupID
 uint areaID
 
-BUILD 8.0.1.26175
 LAYOUT 50AA43EE
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 areaID<16>
-$relation$areaGroupID<16> // relationship column
+$relation$areaGroupID<16>

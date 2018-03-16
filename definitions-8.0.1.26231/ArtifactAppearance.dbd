@@ -4,7 +4,7 @@ uint artifactAppearanceSetID
 uint displayIndex
 uint flags
 uint itemAppearanceModifierID
-locstring name
+locstring name_lang
 uint overrideShapeshiftDisplayID
 uint overrideShapeshiftFormID
 uint uiAltItemAppearanceID
@@ -15,9 +15,9 @@ float uiModelSaturation
 int uiSwatchColor
 uint unlockPlayerConditionID
 
-BUILD 8.0.1.26175
 LAYOUT AEED7395
-name
+BUILD 8.0.1.26175
+name_lang
 uiSwatchColor<32>
 uiModelSaturation
 uiModelOpacity

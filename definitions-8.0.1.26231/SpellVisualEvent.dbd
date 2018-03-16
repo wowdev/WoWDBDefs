@@ -10,8 +10,8 @@ int startMaxOffsetMs
 int startMinOffsetMs
 int targetType
 
-BUILD 8.0.1.26175
 LAYOUT AE75BC3C
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 startEvent<32>
 startMinOffsetMs<32>
@@ -21,4 +21,4 @@ endMinOffsetMs<32>
 endMaxOffsetMs<32>
 targetType<32>
 spellVisualKitID<32>
-$relation$spellVisualID<32> // relationship column
+$relation$spellVisualID<32>

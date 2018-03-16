@@ -10,8 +10,8 @@ int preventionType
 int spellID
 int startRecoveryCategory
 
-BUILD 8.0.1.26175
 LAYOUT 14E916CC
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 category<16>
 startRecoveryCategory<16>
@@ -21,4 +21,4 @@ defenseType<8>
 dispelType<8>
 mechanic<8>
 preventionType<8>
-$relation$spellID<32> // relationship column
+$relation$spellID<32>

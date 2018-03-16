@@ -11,8 +11,8 @@ uint overrideAttachTop
 float smoothSampleAngle
 uint weaponTrailID
 
-BUILD 8.0.1.26175
 LAYOUT 9B0F7200
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 duration
 fadeOutTime
@@ -23,4 +23,4 @@ hand<8>
 overrideAttachTop<8>
 overrideAttachBot<8>
 flags<8>
-$relation$weaponTrailID<16> // relationship column
+$relation$weaponTrailID<16>

@@ -4,9 +4,9 @@ uint animationDataID
 uint cloakDampeningID
 uint fileDataID
 
-BUILD 8.0.1.26175
 LAYOUT 839B4263
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 animationDataID<32>
 cloakDampeningID<32>
-$relation$fileDataID<32> // relationship column
+$relation$fileDataID<32>

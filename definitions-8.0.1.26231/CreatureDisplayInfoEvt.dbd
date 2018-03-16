@@ -5,10 +5,10 @@ int flags
 int fourcc
 int spellVisualKitID
 
-BUILD 8.0.1.26175
 LAYOUT 3FEF69BB
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 fourcc<32>
 spellVisualKitID<32>
 flags<8>
-$relation$creatureDisplayInfoID<32> // relationship column
+$relation$creatureDisplayInfoID<32>

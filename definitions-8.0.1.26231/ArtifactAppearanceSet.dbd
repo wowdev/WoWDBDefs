@@ -2,21 +2,21 @@ COLUMNS
 uint ID
 uint altHandUICameraID
 uint artifactID
-locstring description
+locstring description_lang
 uint displayIndex
 uint flags
 int forgeAttachmentOverride
-locstring name
+locstring name_lang
 uint uiCameraID
 
-BUILD 8.0.1.26175
 LAYOUT 53DFED74
-name
-description
+BUILD 8.0.1.26175
+name_lang
+description_lang
 uiCameraID<16>
 altHandUICameraID<16>
 displayIndex<8>
 forgeAttachmentOverride<8>
 flags<8>
 $id$ID<32>
-$relation$artifactID<8> // relationship column
+$relation$artifactID<8>

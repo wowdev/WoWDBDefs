@@ -7,29 +7,29 @@ uint healEffectSpeed
 uint state0AmbientDoodadSet
 int state0ImpactEffectDoodadSet
 int state0NameSet
-uint state0Wmo
+uint state0WMO
 uint state1AmbientDoodadSet
 int state1DestructionDoodadSet
 int state1ImpactEffectDoodadSet
 int state1NameSet
-uint state1Wmo
+uint state1WMO
 uint state2AmbientDoodadSet
 int state2DestructionDoodadSet
 int state2ImpactEffectDoodadSet
 int state2NameSet
-uint state2Wmo
+uint state2WMO
 uint state3AmbientDoodadSet
 uint state3InitDoodadSet
 int state3NameSet
-uint state3Wmo
+uint state3WMO
 
-BUILD 8.0.1.26175
 LAYOUT 1092C9AF
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-state0Wmo<16>
-state1Wmo<16>
-state2Wmo<16>
-state3Wmo<16>
+state0WMO<16>
+state1WMO<16>
+state2WMO<16>
+state3WMO<16>
 healEffectSpeed<16>
 state0ImpactEffectDoodadSet<8>
 state0AmbientDoodadSet<8>

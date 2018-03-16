@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-locstring description
+locstring description_lang
 int difficultyMask
 uint dungeonMapID
 uint firstSectionID
@@ -8,15 +8,15 @@ uint flags
 uint journalInstanceID
 float map
 uint mapDisplayConditionID
-locstring name
+locstring name_lang
 uint orderIndex
 uint worldMapAreaID
 
-BUILD 8.0.1.26175
 LAYOUT 2935A0FD
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-description
+name_lang
+description_lang
 map[2]
 dungeonMapID<16>
 worldMapAreaID<16>

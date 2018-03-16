@@ -2,17 +2,17 @@ COLUMNS
 int ID
 uint battlePetVisualID
 uint cooldown
-locstring description
+locstring description_lang
 uint flags
 int iconFileDataID
-locstring name
+locstring name_lang
 int petTypeEnum
 
-BUILD 8.0.1.26175
 LAYOUT 0F29944D
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
-description
+name_lang
+description_lang
 iconFileDataID<32>
 battlePetVisualID<16>
 petTypeEnum<8>

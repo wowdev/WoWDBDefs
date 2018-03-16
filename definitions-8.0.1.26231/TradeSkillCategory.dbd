@@ -1,16 +1,16 @@
 COLUMNS
 int ID
 uint flags
-locstring hordeName
-locstring name
+locstring hordeName_lang
+locstring name_lang
 int orderIndex
 uint parentTradeSkillCategoryID
 uint skillLineID
 
-BUILD 8.0.1.26175
 LAYOUT B0A26A79
-name
-hordeName
+BUILD 8.0.1.26175
+name_lang
+hordeName_lang
 $id$ID<32>
 skillLineID<16>
 parentTradeSkillCategoryID<16>

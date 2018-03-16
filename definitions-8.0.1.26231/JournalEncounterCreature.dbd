@@ -1,17 +1,17 @@
 COLUMNS
 int ID
 uint creatureDisplayInfoID
-locstring description
+locstring description_lang
 uint fileDataID
 uint journalEncounterID
-locstring name
+locstring name_lang
 uint orderIndex
 uint uiModelSceneID
 
-BUILD 8.0.1.26175
 LAYOUT F105CB72
-name
-description
+BUILD 8.0.1.26175
+name_lang
+description_lang
 creatureDisplayInfoID<32>
 fileDataID<32>
 journalEncounterID<16> // unk_8C, unk_90

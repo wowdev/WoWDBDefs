@@ -4,9 +4,9 @@ uint SoundAmbienceID
 uint SoundEntriesIDDay
 uint SoundEntriesIDNight
 
-BUILD 8.0.1.26175
 LAYOUT 2C58D929
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 SoundEntriesIDDay<32>
 SoundEntriesIDNight<32>
-$relation$SoundAmbienceID<16> // relationship column
+$relation$SoundAmbienceID<16>

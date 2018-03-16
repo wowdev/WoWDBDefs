@@ -4,9 +4,9 @@ uint creatureDisplayInfoID
 uint geosetIndex
 uint geosetValue
 
-BUILD 8.0.1.26175
 LAYOUT 2E044324
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 geosetIndex<8>
 geosetValue<8>
-$relation$creatureDisplayInfoID<32> // relationship column
+$relation$creatureDisplayInfoID<32>

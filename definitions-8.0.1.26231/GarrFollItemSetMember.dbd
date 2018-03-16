@@ -5,10 +5,10 @@ int itemID
 uint itemSlot
 uint minItemLevel
 
-BUILD 8.0.1.26175
 LAYOUT CA1C4CBF
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 itemID<32>
 minItemLevel<16>
 itemSlot<8>
-$relation$garrFollItemSetID<16> // relationship column
+$relation$garrFollItemSetID<16>

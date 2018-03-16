@@ -1,23 +1,23 @@
 COLUMNS
 int ID
-locstring alternateVerb
+locstring alternateVerb_lang
 int canLink
 int categoryID
-locstring description
-locstring displayName
+locstring description_lang
+locstring displayName_lang
 uint flags
-locstring hordeDisplayName
+locstring hordeDisplayName_lang
 uint parentSkillLineID
 int parentTierIndex
 int spellIconFileID
 
-BUILD 8.0.1.26175
 LAYOUT F0E77964
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-displayName
-hordeDisplayName
-description
-alternateVerb
+displayName_lang
+hordeDisplayName_lang
+description_lang
+alternateVerb_lang
 flags<16>
 categoryID<8>
 canLink<8>

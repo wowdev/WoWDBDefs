@@ -2,16 +2,16 @@ COLUMNS
 int ID
 float cost_modifier
 uint data
-locstring description
-locstring displayName
+locstring description_lang
+locstring displayName_lang
 uint race
 uint sex
 uint type
 
-BUILD 8.0.1.26175
 LAYOUT 670C71AE
-displayName
-description
+BUILD 8.0.1.26175
+displayName_lang
+description_lang
 cost_modifier
 type<8>
 race<8>

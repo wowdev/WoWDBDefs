@@ -1,14 +1,14 @@
 COLUMNS
 int ID
 uint gameObjectDisplayInfoID
-locstring name
+locstring name_lang
 uint playerConditionID
 uint trophyTypeID
 
-BUILD 8.0.1.26175
 LAYOUT E16151C5
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 gameObjectDisplayInfoID<16>
 trophyTypeID<8>
 playerConditionID<32>

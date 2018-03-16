@@ -12,8 +12,8 @@ float playerMana
 float playerPrimaryStat
 float playerSecondaryStat
 
-BUILD 8.0.1.26175
 LAYOUT 67A925C9
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 expansionID<32>
 creatureHealth
@@ -25,4 +25,4 @@ playerPrimaryStat
 playerSecondaryStat
 armorConstant
 creatureSpellDamage
-$relation$lvl<32> // relationship column
+$relation$lvl<32>

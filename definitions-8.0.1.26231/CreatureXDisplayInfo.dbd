@@ -6,11 +6,11 @@ uint orderIndex
 float probability
 float scale
 
-BUILD 8.0.1.26175
 LAYOUT 8D14C242
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 creatureDisplayInfoID<32>
 probability
 scale
 orderIndex<8>
-$relation$creatureID<32> // relationship column
+$relation$creatureID<32>

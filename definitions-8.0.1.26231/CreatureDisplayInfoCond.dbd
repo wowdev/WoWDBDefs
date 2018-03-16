@@ -16,8 +16,8 @@ int raceMask
 uint skinColorMask
 int textureVariationFileDataID
 
-BUILD 8.0.1.26175
 LAYOUT 26CD44AB
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 raceMask<64>
 customOption0_Mask<32>[2]
@@ -33,4 +33,4 @@ faceStyleMask<32>
 facialHairStyleMask<32>
 creatureModelDataID<32>
 textureVariationFileDataID<32>[3]
-$relation$creatureDisplayInfoID<32> // relationship column
+$relation$creatureDisplayInfoID<32>

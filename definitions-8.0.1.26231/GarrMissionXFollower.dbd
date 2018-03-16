@@ -4,9 +4,9 @@ int garrFollowerID
 int garrFollowerSetID
 int garrMissionID
 
-BUILD 8.0.1.26175
 LAYOUT 1EBABA29
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 garrFollowerID<32>
 garrFollowerSetID<32>
-$relation$garrMissionID<32> // relationship column
+$relation$garrMissionID<32>

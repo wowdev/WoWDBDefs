@@ -5,15 +5,15 @@ float maxScale
 int maxScaleLevel
 float minScale
 int minScaleLevel
-locstring name
+locstring name_lang
 int petFoodMask
 int petTalentType
 int skillLine
 
-BUILD 8.0.1.26175
 LAYOUT E2DC5126
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
-name
+name_lang
 minScale
 maxScale
 iconFileID<32>

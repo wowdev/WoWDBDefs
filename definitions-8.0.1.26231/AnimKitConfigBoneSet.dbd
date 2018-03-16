@@ -4,9 +4,9 @@ uint animKitBoneSetID
 uint animKitPriorityID
 uint parentAnimKitConfigID
 
-BUILD 8.0.1.26175
 LAYOUT 3D9B3BA7
+BUILD 8.0.1.26175
 $noninlineid$ID<32>
 animKitPriorityID<16>
 animKitBoneSetID<8>
-$relation$parentAnimKitConfigID<16> // relationship column
+$relation$parentAnimKitConfigID<16>

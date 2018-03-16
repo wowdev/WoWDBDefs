@@ -2,19 +2,19 @@ COLUMNS
 int ID
 int cardUIModelSceneID
 int creatureID
-locstring description
+locstring description_lang
 uint flags
 int iconFileDataID
 int loadoutUIModelSceneID
 uint petTypeEnum
-locstring sourceText
+locstring sourceText_lang
 int sourceTypeEnum
 int summonSpellID
 
-BUILD 8.0.1.26175
 LAYOUT 8A3D97A4
-sourceText
-description
+BUILD 8.0.1.26175
+sourceText_lang
+description_lang
 creatureID<32>
 iconFileDataID<32>
 summonSpellID<32>

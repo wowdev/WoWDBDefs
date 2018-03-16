@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-locstring description
+locstring description_lang
 uint flags
 float mountFlyRideHeight
 uint mountTypeID
-locstring name
+locstring name_lang
 uint playerConditionID
 int sourceSpellID
-locstring sourceText
+locstring sourceText_lang
 int sourceTypeEnum
 int uiModelSceneID
 
-BUILD 8.0.1.26175
 LAYOUT 4D812F19
-name
-description
-sourceText
+BUILD 8.0.1.26175
+name_lang
+description_lang
+sourceText_lang
 sourceSpellID<32>
 mountFlyRideHeight
 mountTypeID<16>
