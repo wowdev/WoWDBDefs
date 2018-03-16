@@ -44,6 +44,10 @@ locstring name_lowercase_lang
 int startingLevel
 int uiDisplayOrder
 uint required_expansion
+float MountScale
+uint LoginEffectSpellID
+uint CombatStunSpellID
+uint startingTaxiNodes
 float femaleModelFallbackArmor2Scale
 int femaleModelFallbackRaceID
 int femaleModelFallbackSex
@@ -154,6 +158,25 @@ facialHairCustomization[2]
 hairCustomization
 required_expansion<32>
 unalteredVisualRaceID<32>
+
+BUILD 0.5.3.3368
+ID<32>
+flags<32>
+factionID<32>
+MaleDisplayID<32>
+FemaleDisplayID<32>
+ClientPrefix
+MountScale
+BaseLanguage<32>
+creatureType<32>
+LoginEffectSpellID<32>
+CombatStunSpellID<32>
+ResSicknessSpellID<32>
+SplashSoundID<32>
+startingTaxiNodes<32>
+clientFileString
+cinematicSequenceID<32>
+name_lang
 
 LAYOUT 7E728145
 BUILD 8.0.1.26231

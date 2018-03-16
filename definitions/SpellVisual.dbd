@@ -66,6 +66,15 @@ float missileCastOffsetZ
 float missileImpactOffsetX
 float missileImpactOffsetY
 float missileImpactOffsetZ
+uint hasAreaEffect
+uint areaModel
+uint areaKit
+uint weaponTrailRed
+uint weaponTrailGreen
+uint weaponTrailBlue
+uint weaponTrailAlpha
+uint weaponTrailFadeoutRate
+uint weaponTrailDuration
 
 BUILD 6.0.1.18179
 field_2220575123<32>
@@ -173,3 +182,26 @@ missileTargetingKit<32>
 instantAreaKit<32>
 impactAreaKit<32>
 persistentAreaKit<32>
+
+BUILD 0.5.3.3368
+ID<32>
+precastKit<32>
+castKit<32>
+impactKit<32>
+stateKit<32>
+channelKit<32>
+hasMissile<32>
+missileModel<32>
+missilePathType<32>
+missileDestinationAttachment<32>
+missileSound<32>
+hasAreaEffect<32>
+areaModel<32>
+areaKit<32>
+animEventSoundID<32>
+weaponTrailRed<8>
+weaponTrailGreen<8>
+weaponTrailBlue<8>
+weaponTrailAlpha<8>
+weaponTrailFadeoutRate<8>
+weaponTrailDuration<32>

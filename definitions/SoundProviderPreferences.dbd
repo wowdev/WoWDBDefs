@@ -23,6 +23,8 @@ float EAX3ModulationTime
 float EAX3ModulationDepth
 float EAX3HFReference
 float EAX3LFReference
+float EAXEffectVolume
+float EAXDamping
 
 BUILD 6.0.1.18179, 4.0.0.11792
 $id$ID<32>
@@ -76,3 +78,30 @@ EAX2Reflections<16>
 EAX2Reverb<16>
 EAXEnvironmentSelection<8>
 EAX3RoomLF<8>
+
+BUILD 0.5.3.3368
+ID<32>
+Description
+EAXEnvironmentSelection<32>
+EAXEffectVolume
+EAXDecayTime
+EAXDamping
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2Room<32>
+EAX2RoomHF<32>
+EAX2DecayHFRatio
+EAX2Reflections<32>
+EAX2ReflectionsDelay
+EAX2Reverb<32>
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3RoomLF<32>
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference

@@ -48,6 +48,8 @@ float charParamOne
 float charParamTwo
 float charParamThree
 int kitType
+uint anim
+float characterParam
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -153,3 +155,18 @@ charParamOne[4]
 charParamTwo[4]
 charParamThree[4]
 flags<32>
+
+BUILD 0.5.3.3368
+ID<32>
+kitType<32>
+anim<32>
+headEffect<32>
+chestEffect<32>
+baseEffect<32>
+leftHandEffect<32>
+rightHandEffect<32>
+breathEffect<32>
+specialEffect<32>[3]
+characterParam[4]
+soundID<32>
+shakeID<32>

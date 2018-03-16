@@ -14,6 +14,11 @@ locstring AreaName_lang
 uint<ZoneIntroMusicTable::ID> uwIntroSound
 uint<ZoneMusic::ID> uwZoneMusic
 uint<SoundAmbience::ID> uwAmbience
+uint DayAmbienceSoundID
+uint NightAmbienceSoundID
+uint MIDIAmbience
+uint MIDIAmbienceUnderwater
+uint IntroPriority
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -62,4 +67,21 @@ ZoneMusic<32>
 IntroSound<32>
 flags<32>
 AreaTableID<32>
+AreaName_lang
+
+BUILD 0.5.3.3368
+ID<32>
+WMOID<32>
+NameSetID<32>
+WMOGroupID<32>
+DayAmbienceSoundID<32>
+NightAmbienceSoundID<32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+MIDIAmbience<32>
+MIDIAmbienceUnderwater<32>
+ZoneMusic<32>
+IntroSound<32>
+IntroPriority<32>
+flags<32>
 AreaName_lang

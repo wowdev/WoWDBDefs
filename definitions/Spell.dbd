@@ -126,6 +126,8 @@ int effectBaseDice
 int effectDicePerLevel
 int spellPriority
 int requiredAreaID
+uint school
+uint procFlags
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -470,3 +472,69 @@ requiredAreasID<32>
 schoolMask<32>
 runeCostID<32>
 spellMissileID<32>
+
+BUILD 0.5.3.3368
+ID<32>
+school<32>
+category<32>
+castUI<32>
+attributes<32>
+attributesEx<32>
+shapeshiftMask<32>
+targets<32>
+targetCreatureType<32>
+requiresSpellFocus<32>
+casterAuraState<32>
+targetAuraState<32>
+castingTimeIndex<32>
+recoveryTime<32>
+categoryRecoveryTime<32>
+interruptFlags<32>
+auraInterruptFlags<32>
+channelInterruptFlags<32>
+procFlags<32>
+procChance<32>
+procCharges<32>
+maxLevel<32>
+baseLevel<32>
+spellLevel<32>
+durationIndex<32>
+powerType<32>
+manaCost<32>
+manaCostPerLevel<32>
+manaPerSecond<32>
+manaPerSecondPerLevel<32>
+rangeIndex<32>
+speed
+modalNextSpell<32>
+totem<32>[2]
+reagent<32>[8]
+reagentCount<32>[8]
+equippedItemClass<32>
+equippedItemSubclass<32>
+effect<32>[3]
+effectDieSides<32>[3]
+effectBaseDice<32>[3]
+effectDicePerLevel<32>[3]
+effectRealPointsPerLevel[3]
+effectBasePoints<32>[3]
+implicitTargetA<32>[3]
+implicitTargetB<32>[3]
+effectRadiusIndex<32>[3]
+effectAura<32>[3]
+effectAuraPeriod<32>[3]
+effectAmplitude[3]
+effectChainTargets<32>[3]
+effectItemType<32>[3]
+effectMiscValue<32>[3]
+effectTriggerSpell<32>[3]
+spellVisualID<32>
+spellIconID<32>
+activeIconID<32>
+spellPriority<32>
+name_lang
+nameSubtext_lang
+description_lang
+manaCostPct<32>
+startRecoveryCategory<32>
+startRecoveryTime<32>

@@ -5,6 +5,7 @@ uint flags
 float animscale
 float pushscale
 int modelFileID
+uint doodadIdTag
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -25,3 +26,8 @@ BUILD 4.0.0.11792
 $id$ID<32>
 doodadpath
 flags<32>
+
+BUILD 0.5.3.3368
+ID<32>
+doodadIdTag<32>
+doodadpath
