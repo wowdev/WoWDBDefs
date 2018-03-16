@@ -20,7 +20,15 @@ namespace DBDefsTest
 
             var definitionDir = args[0];
 
-            var rewrite = true;
+            var rewrite = false;
+
+            if (args.Length == 2)
+            {
+                if (args[1] == "true")
+                {
+                    rewrite = true;
+                }
+            }
 
             foreach (var file in Directory.GetFiles(definitionDir))
             {
