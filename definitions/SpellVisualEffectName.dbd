@@ -28,6 +28,7 @@ string name
 string fileName
 float areaEffectSize
 uint VisualEffectNameFlags // <code>UnitEffectIsAuraWorldObject</code>
+int modelPosition
 
 BUILD 6.0.1.18179
 field_189230862<32>
@@ -75,7 +76,7 @@ fileName
 areaEffectSize
 scale
 
-BUILD 3.0.2.8885
+BUILD 3.0.2.8885, 3.0.8.9328
 ID<32>
 name
 fileName
@@ -88,3 +89,22 @@ BUILD 0.5.3.3368
 ID<32>
 fileName
 VisualEffectNameFlags<32>
+
+LAYOUT 81C922D3
+BUILD 8.0.1.26175, 8.0.1.26231
+$noninlineid$ID<32>
+modelFileDataID<32>
+effectRadius
+baseMissileSpeed
+scale
+minAllowedScale
+maxAllowedScale
+alpha
+flags<32>
+type<32>
+genericID<32>
+textureFileDataID<32>
+ribbonQualityID<32>
+dissolveEffectID<32>
+modelPosition<32>
+

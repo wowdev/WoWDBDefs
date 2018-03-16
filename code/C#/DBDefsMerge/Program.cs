@@ -202,8 +202,6 @@ namespace DBDefsMerge
 
                         if (!foundVersion)
                         {
-                            // Version was not found, add it!
-
                             // TODO: Only for secondFile, not firstFile!
                             var mergedWithPreviousBuild = false;
                             var newVersions = newDefinition.versionDefinitions.ToList();
@@ -224,6 +222,7 @@ namespace DBDefsMerge
 
                             if (!mergedWithPreviousBuild)
                             {
+                                // Version was not found/merged, add it!
                                 newVersions.Add(versionDefinition2);
                             }
 
@@ -231,8 +230,25 @@ namespace DBDefsMerge
                         }
                         else
                         {
-                            // Version exists, compare stuff
-                            // TODO
+                            // Version exists, compare stuff and add build if needed, TODO make less bad
+                            var newVersions = newDefinition.versionDefinitions.ToList();
+
+                            for (var i = 0; i < newVersions.Count; i++)
+                            {
+                                foreach (var layoutHash2 in versionDefinition2.layoutHashes)
+                                {
+                                    if (newVersions[i].layoutHashes.Contains(layoutHash2))
+                                    {
+                                        var curBuilds = newVersions[i].builds.ToList();
+                                        curBuilds.AddRange(versionDefinition2.builds.ToList());
+                                        var tempVersion = newVersions[i];
+                                        tempVersion.builds = curBuilds.ToArray();
+                                        newVersions[i] = tempVersion;
+                                    }
+                                }
+                            }
+
+                            newDefinition.versionDefinitions = newVersions.ToArray();
                         }
                     }
 

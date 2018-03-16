@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+float armorConstantMod
+float creatureArmorMod
+float creatureAutoAttackDPSMod
+float creatureHealthMod
+float creatureSpellDamageMod
+float playerHealthMod
+float playerManaMod
+float playerPrimaryStatMod
+float playerSecondaryStatMod
+
+LAYOUT 689CC1B5
+BUILD 8.0.1.26231
+$noninlineid$ID<32>
+creatureHealthMod
+playerHealthMod
+creatureAutoAttackDPSMod
+creatureArmorMod
+playerManaMod
+playerPrimaryStatMod
+playerSecondaryStatMod
+armorConstantMod
+creatureSpellDamageMod

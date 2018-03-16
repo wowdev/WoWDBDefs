@@ -36,6 +36,12 @@ namespace DBDefsLib
                     // List of valid types
                     var validTypes = new List<string> { "uint", "int", "float", "string", "locstring" };
 
+                    // Check if line has a space in case someone didn't assign a type to a column name
+                    if(!line.Contains(" "))
+                    {
+                        throw new Exception("Line " + line + " in file " + Path.GetFileNameWithoutExtension(file) + " does not contain a space between type and column name!");
+                    }
+
                     // Read line up to space (end of type) or < (foreign key)
                     var type = line.Substring(0, line.IndexOfAny(new char[] { ' ', '<' }));
 
