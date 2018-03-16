@@ -3,6 +3,7 @@ int ID
 int flags
 int maxLevel
 int minLevel
+int expectedStatModID
 
 LAYOUT 70C53E15
 BUILD 8.0.1.26175
@@ -10,3 +11,11 @@ $noninlineid$ID<32>
 minLevel<32>
 maxLevel<32>
 flags<32>
+
+LAYOUT F0D1D3AB
+BUILD 8.0.1.26231
+$noninlineid$ID<32>
+minLevel<32>
+maxLevel<32>
+flags<32>
+expectedStatModID<32>
