@@ -1,12 +1,12 @@
 COLUMNS
 uint ID
 uint ItemSubclassID // << likely bad copy and paste job and AnimationDataID instead
-uint<AttackAnimTypes::ID> AnimTypeID
+uint<AttackAnimTypes::AnimID> AnimTypeID
 uint AnimFrequency
 uint WhichHand // &1: Offhand
 
 BUILD 0.5.3.3368, 3.0.2.8905, 3.3.5.12340
-ID<32>
+$id$ID<32>
 ItemSubclassID<32>
 AnimTypeID<32>
 AnimFrequency<32>

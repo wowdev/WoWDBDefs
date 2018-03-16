@@ -1,9 +1,9 @@
 COLUMNS
 uint ID
 string name?
-locstring value?
+locstring value_lang?
 
 BUILD 1.12.1.5875
-ID<32>
+$id$ID<32>
 name
-value
+value_lang
