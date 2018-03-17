@@ -75,6 +75,7 @@ EAXDef<32>
 BUILD 0.5.3.3368
 ID<32>
 soundType<32>
+name
 File[10]
 Freq<32>[10]
 DirectoryBase
@@ -83,6 +84,7 @@ pitch
 pitchVariation
 priority<32>
 channel<32>
+flags<32>
 minDistance
 maxDistance
 distanceCutoff

@@ -50,6 +50,7 @@ float charParamThree
 int kitType
 uint anim
 float characterParam
+uint characterProcedure
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -167,6 +168,7 @@ leftHandEffect<32>
 rightHandEffect<32>
 breathEffect<32>
 specialEffect<32>[3]
+characterProcedure<32>
 characterParam[4]
 soundID<32>
 shakeID<32>

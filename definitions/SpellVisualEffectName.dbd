@@ -29,6 +29,8 @@ string fileName
 float areaEffectSize
 uint VisualEffectNameFlags // <code>UnitEffectIsAuraWorldObject</code>
 int modelPosition
+uint specialID
+uint specialAttachPoint
 
 BUILD 6.0.1.18179
 field_189230862<32>
@@ -88,6 +90,9 @@ maxAllowedScale
 BUILD 0.5.3.3368
 ID<32>
 fileName
+specialID<32>
+specialAttachPoint<32>
+areaEffectSize
 VisualEffectNameFlags<32>
 
 LAYOUT 81C922D3
