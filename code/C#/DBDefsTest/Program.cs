@@ -44,8 +44,6 @@ namespace DBDTest
                     }
                 }
             }
-
-            Console.ReadLine();
         }
 
         static void LoadDBC(string filename)
@@ -101,6 +99,44 @@ namespace DBDTest
                         var dbcheader = bin.Read<Structs.WDBCHeader>();
                         recordCount = dbcheader.recordCount;
                         fieldCount = dbcheader.fieldCount;
+                        var dbd = definitionCache[Path.GetFileNameWithoutExtension(filename).ToLower()];
+                        foreach (var versionDef in dbd.versionDefinitions)
+                        {
+                            foreach(var versionBuild in versionDef.builds)
+                            {
+                                if(Utils.BuildToString(versionBuild) == buildDir)
+                                {
+                                    var fields = versionDef.definitions.Length;
+                                    foreach(var definition in versionDef.definitions)
+                                    {
+                                        if(definition.arrLength > 0)
+                                        {
+                                            fields += definition.arrLength;
+                                            fields -= 1;
+                                        }
+
+                                        if(dbd.columnDefinitions[definition.name].type == "locstring")
+                                        {
+                                            var tempBuild = Utils.ParseBuild(buildDir);
+                                            if (tempBuild.build < 6692)
+                                            {
+                                                fields += 8;
+                                            }
+                                            else if(tempBuild.build > 6692 && (tempBuild.expansion < 4 && tempBuild.build < 11927))
+                                            {
+                                                fields += 16;
+                                            }
+                                        }
+                                    }
+                                    if(fieldCount != fields)
+                                    {
+                                        Console.ForegroundColor = ConsoleColor.Red;
+                                        Console.WriteLine("[" + buildDir + "] [" + Path.GetFileNameWithoutExtension(filename) + "] Field count wrong! DBC: " + fieldCount + ", DBD: " + fields);
+                                    }
+                                    Console.ResetColor();
+                                }
+                            }
+                        }
                         break;
                     case "WDB2":
                         var db2header = bin.Read<Structs.WDB2Header>();
