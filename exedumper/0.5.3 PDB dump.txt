@@ -1,0 +1,1194 @@
+struct MapRec
+{
+  int m_ID;
+  const char *m_Directory;
+  int m_PVP;
+  int m_IsInMap;
+  const char *m_MapName_lang[8];
+  int m_MapName_flag;
+};
+
+const struct CreatureDisplayInfoRec
+{
+  int m_ID;
+  int m_modelID;
+  int m_soundID;
+  int m_extendedDisplayInfoID;
+  float m_creatureModelScale;
+  int m_creatureModelAlpha;
+  const char *m_textureVariation[3];
+  int m_bloodID;
+};
+
+const struct CreatureDisplayInfoExtraRec
+{
+  int m_ID;
+  int m_DisplayRaceID;
+  int m_DisplaySexID;
+  int m_SkinID;
+  int m_FaceID;
+  int m_HairStyleID;
+  int m_HairColorID;
+  int m_FacialHairID;
+  int m_NPCItemDisplay[10];
+  const char *m_BakeName;
+};
+
+const struct CreatureModelDataRec
+{
+  int m_ID;
+  int m_flags;
+  const char *m_ModelName;
+  int m_sizeClass;
+  float m_modelScale;
+  int m_bloodID;
+  int m_footprintTextureID;
+  float m_footprintTextureLength;
+  float m_footprintTextureWidth;
+  float m_footprintParticleScale;
+  int m_foleyMaterialID;
+  int m_footstepShakeSize;
+  int m_deathThudShakeSize;
+  int m_soundID;
+};
+
+const struct CreatureSoundDataRec
+{
+  int m_ID;
+  int m_soundExertionID;
+  int m_soundExertionCriticalID;
+  int m_soundInjuryID;
+  int m_soundInjuryCriticalID;
+  int m_soundInjuryCrushingBlowID;
+  int m_soundDeathID;
+  int m_soundStunID;
+  int m_soundStandID;
+  int m_soundFootstepID;
+  int m_soundAggroID;
+  int m_soundWingFlapID;
+  int m_soundWingGlideID;
+  int m_soundAlertID;
+  int m_soundFidget[4];
+  int m_customAttack[4];
+  int m_NPCSoundID;
+  int m_loopSoundID;
+  int m_creatureImpactType;
+  int m_soundJumpStartID;
+  int m_soundJumpEndID;
+};
+
+const struct UnitBloodLevelsRec
+{
+  int m_ID;
+  int m_Violencelevel[3];
+};
+
+const struct SpellVisualKitRec
+{
+  int m_ID;
+  int m_kitType;
+  int m_anim;
+  int m_headEffect;
+  int m_chestEffect;
+  int m_baseEffect;
+  int m_leftHandEffect;
+  int m_rightHandEffect;
+  int m_breathEffect;
+  int m_specialEffect[3];
+  int m_characterProcedure;
+  float m_characterParam[4];
+  int m_soundID;
+  int m_shakeID;
+};
+
+const struct NPCSoundsRec
+{
+  int m_ID;
+  int m_SoundID[4];
+};
+
+const struct ItemDisplayInfoRec
+{
+  int m_ID;
+  const char *m_modelName[2];
+  const char *m_modelTexture[2];
+  const char *m_inventoryIcon;
+  const char *m_groundModel;
+  int m_geosetGroup[4];
+  int m_flags;
+  int m_spellVisualID;
+  int m_groupSoundIndex;
+  int m_itemSize;
+  int m_helmetGeosetVisID;
+  const char *m_texture[8];
+  int m_itemVisual;
+};
+
+const struct ItemVisualsRec
+{
+  int m_ID;
+  int m_Slot[5];
+};
+
+const struct SpellRec
+{
+  int m_ID;
+  int m_school;
+  int m_category;
+  int m_castUI;
+  int m_attributes;
+  int m_attributesEx;
+  int m_shapeshiftMask;
+  int m_targets;
+  int m_targetCreatureType;
+  int m_requiresSpellFocus;
+  int m_casterAuraState;
+  int m_targetAuraState;
+  int m_castingTimeIndex;
+  int m_recoveryTime;
+  int m_categoryRecoveryTime;
+  int m_interruptFlags;
+  int m_auraInterruptFlags;
+  int m_channelInterruptFlags;
+  int m_procFlags;
+  int m_procChance;
+  int m_procCharges;
+  int m_maxLevel;
+  int m_baseLevel;
+  int m_spellLevel;
+  int m_durationIndex;
+  int m_powerType;
+  int m_manaCost;
+  int m_manaCostPerLevel;
+  int m_manaPerSecond;
+  int m_manaPerSecondPerLevel;
+  int m_rangeIndex;
+  float m_speed;
+  int m_modalNextSpell;
+  int m_totem[2];
+  int m_reagent[8];
+  int m_reagentCount[8];
+  int m_equippedItemClass;
+  int m_equippedItemSubclass;
+  int m_effect[3];
+  int m_effectDieSides[3];
+  int m_effectBaseDice[3];
+  int m_effectDicePerLevel[3];
+  float m_effectRealPointsPerLevel[3];
+  int m_effectBasePoints[3];
+  int m_implicitTargetA[3];
+  int m_implicitTargetB[3];
+  int m_effectRadiusIndex[3];
+  int m_effectAura[3];
+  int m_effectAuraPeriod[3];
+  float m_effectAmplitude[3];
+  int m_effectChainTargets[3];
+  int m_effectItemType[3];
+  int m_effectMiscValue[3];
+  int m_effectTriggerSpell[3];
+  int m_spellVisualID;
+  int m_spellIconID;
+  int m_activeIconID;
+  int m_spellPriority;
+  const char *m_name_lang[8];
+  int m_name_flag;
+  const char *m_nameSubtext_lang[8];
+  int m_nameSubtext_flag;
+  const char *m_description_lang[8];
+  int m_description_flag;
+  int m_manaCostPct;
+  int m_startRecoveryCategory;
+  int m_startRecoveryTime;
+};
+
+struct SoundCharacterMacroLinesRec
+{
+  int m_ID;
+  int m_Category;
+  int m_Sex;
+  int m_Race;
+  int m_SoundID;
+};
+
+struct ChrRacesRec
+{
+  int m_ID;
+  int m_flags;
+  int m_factionID;
+  int m_MaleDisplayId;
+  int m_FemaleDisplayId;
+  const char *m_ClientPrefix;
+  float m_MountScale;
+  int m_BaseLanguage;
+  int m_creatureType;
+  int m_LoginEffectSpellID;
+  int m_CombatStunSpellID;
+  int m_ResSicknessSpellID;
+  int m_SplashSoundID;
+  int m_startingTaxiNodes;
+  const char *m_clientFileString;
+  int m_cinematicSequenceID;
+  const char *m_name_lang[8];
+  int m_name_flag;
+};
+
+struct AreaMIDIAmbiencesRec
+{
+  int m_ID;
+  const char *m_DaySequence;
+  const char *m_NightSequence;
+  const char *m_DLSFile;
+  float m_volume;
+};
+
+const struct SoundEntriesRec
+{
+  int m_ID;
+  int m_soundType;
+  const char *m_name;
+  const char *m_File[10];
+  int m_Freq[10];
+  const char *m_DirectoryBase;
+  float m_volumeFloat;
+  float m_pitch;
+  float m_pitchVariation;
+  int m_priority;
+  int m_channel;
+  int m_flags;
+  float m_minDistance;
+  float m_maxDistance;
+  float m_distanceCutoff;
+  int m_EAXDef;
+};
+
+struct SoundWaterTypeRec
+{
+  int m_ID;
+  int m_soundType;
+  int m_soundSubtype;
+  int m_SoundID;
+};
+
+struct ZoneMusicRec
+{
+  int m_ID;
+  float m_VolumeFloat;
+  const char *m_MusicFile[2];
+  int m_SilenceIntervalMin[2];
+  int m_SilenceIntervalMax[2];
+  int m_SegmentLength[2];
+  int m_SegmentPlayMin[2];
+  int m_SegmentPlayMax[2];
+  int m_Sounds[2];
+};
+
+struct SheatheSoundLookupsRec
+{
+  int m_ID;
+  int m_classID;
+  int m_subclassID;
+  int m_material;
+  int m_checkMaterial;
+  int m_sheatheSound;
+  int m_unsheatheSound;
+};
+
+struct SoundSamplePreferencesRec
+{
+  int m_ID;
+  float m_EAX1EffectLevel;
+  int m_EAX2SampleDirect;
+  int m_EAX2SampleDirectHF;
+  int m_EAX2SampleRoom;
+  int m_EAX2SampleRoomHF;
+  float m_EAX2SampleObstruction;
+  float m_EAX2SampleObstructionLFRatio;
+  float m_EAX2SampleOcclusion;
+  float m_EAX2SampleOcclusionLFRatio;
+  float m_EAX2SampleOcclusionRoomRatio;
+  float m_EAX2SampleRoomRolloff;
+  float m_EAX2SampleAirAbsorption;
+  int m_EAX2SampleOutsideVolumeHF;
+  float m_EAX3SampleOcclusionDirectRatio;
+  float m_EAX3SampleExclusion;
+  float m_EAX3SampleExclusionLFRatio;
+  float m_EAX3SampleDopplerFactor;
+  float m_Fast2DPredelayTime;
+  float m_Fast2DDamping;
+  float m_Fast2DReverbTime;
+};
+
+struct WeaponImpactSoundsRec
+{
+  int m_ID;
+  int m_WeaponSubClassID;
+  int m_ParrySoundType;
+  int m_impactSoundID[10];
+  int m_critImpactSoundID[10];
+};
+
+struct MaterialRec
+{
+  int m_materialID;
+  int m_flags;
+  int m_foleySoundID;
+};
+
+struct SoundProviderPreferencesRec
+{
+  int m_ID;
+  const char *m_Description;
+  int m_Flags;
+  int m_EAXEnvironmentSelection;
+  float m_EAXEffectVolume;
+  float m_EAXDecayTime;
+  float m_EAXDamping;
+  float m_EAX2EnvironmentSize;
+  float m_EAX2EnvironmentDiffusion;
+  int m_EAX2Room;
+  int m_EAX2RoomHF;
+  float m_EAX2DecayHFRatio;
+  int m_EAX2Reflections;
+  float m_EAX2ReflectionsDelay;
+  int m_EAX2Reverb;
+  float m_EAX2ReverbDelay;
+  float m_EAX2RoomRolloff;
+  float m_EAX2AirAbsorption;
+  int m_EAX3RoomLF;
+  float m_EAX3DecayLFRatio;
+  float m_EAX3EchoTime;
+  float m_EAX3EchoDepth;
+  float m_EAX3ModulationTime;
+  float m_EAX3ModulationDepth;
+  float m_EAX3HFReference;
+  float m_EAX3LFReference;
+};
+
+struct VocalUISoundsRec
+{
+  int m_ID;
+  int m_vocalUIEnum;
+  int m_raceID;
+  int m_NormalSoundID[2];
+  int m_PissedSoundID[2];
+};
+
+struct ResistancesRec
+{
+  int m_ID;
+  int m_Flags;
+  int m_FizzleSoundID;
+  const char *m_name_lang[8];
+  int m_name_flag;
+};
+
+struct TerrainTypeRec
+{
+  int m_TerrainID;
+  const char *m_TerrainDesc;
+  int m_FootstepSprayRun;
+  int m_FootstepSprayWalk;
+  int m_SoundID;
+  int m_Flags;
+  int m_generatedID;
+};
+
+struct TerrainTypeSoundsRec
+{
+  int m_ID;
+};
+
+struct ItemGroupSoundsRec
+{
+  int m_ID;
+  int m_sound[4];
+};
+
+struct FootstepTerrainLookupRec
+{
+  int m_ID;
+  int m_CreatureFootstepID;
+  int m_TerrainSoundID;
+  int m_SoundID;
+  int m_SoundIDSplash;
+};
+
+struct ChrClassesRec
+{
+  int m_ID;
+  int m_PlayerClass;
+  int m_DamageBonusStat;
+  int m_DisplayPower;
+  const char *m_petNameToken;
+  const char *m_name_lang[8];
+  int m_name_flag;
+};
+
+struct AreaTableRec
+{
+  int m_ID;
+  int m_AreaNumber;
+  int m_ContinentID;
+  int m_ParentAreaNum;
+  int m_AreaBit;
+  int m_flags;
+  int m_SoundProviderPref;
+  int m_SoundProviderPrefUnderwater;
+  int m_MIDIAmbience;
+  int m_MIDIAmbienceUnderwater;
+  int m_ZoneMusic;
+  int m_IntroSound;
+  int m_IntroPriority;
+  const char *m_AreaName_lang[8];
+  int m_AreaName_flag;
+};
+
+struct CharacterCreateCamerasRec
+{
+  int m_Race;
+  int m_Sex;
+  int m_Camera;
+  float m_Height;
+  float m_Radius;
+  float m_Target;
+  int m_generatedID;
+};
+
+struct FactionGroupRec
+{
+  int m_ID;
+  int m_maskID;
+  const char *m_internalName;
+  const char *m_name_lang[8];
+  int m_name_flag;
+};
+
+struct FactionTemplateRec
+{
+  int m_ID;
+  int m_faction;
+  int m_factionGroup;
+  int m_friendGroup;
+  int m_enemyGroup;
+  int m_enemies[4];
+  int m_friend[4];
+};
+
+struct CharBaseInfoRec
+{
+  char m_raceID;
+  char m_classID;
+  int m_proficiency;
+  int m_generatedID;
+};
+
+struct CharStartOutfitRec
+{
+  int m_ID;
+  char m_raceID;
+  char m_classID;
+  char m_sexID;
+  char m_outfitID;
+  int m_ItemID[12];
+  int m_DisplayItemID[12];
+  int m_InventoryType[12];
+};
+
+struct ItemVisualEffectsRec
+{
+  int m_ID;
+  const char *m_Model;
+};
+
+struct HelmetGeosetVisDataRec
+{
+  int m_ID;
+  int m_DefaultFlags[32];
+  int m_PreferredFlags[32];
+  int m_HideFlags[32];
+};
+
+struct CharVariationsRec
+{
+  int m_RaceID;
+  int m_SexID;
+  int m_TextureHoldLayer[4];
+  int m_generatedID;
+};
+
+struct CharacterFacialHairStylesRec
+{
+  int m_RaceID;
+  int m_SexID;
+  int m_VariationID;
+  int m_BeardGeoset;
+  int m_MoustacheGeoset;
+  int m_SideburnGeoset;
+  int m_generatedID;
+};
+
+struct CharHairGeosetsRec
+{
+  int m_ID;
+  int m_RaceID;
+  int m_SexID;
+  int m_VariationID;
+  int m_GeosetID;
+  int m_Showscalp;
+};
+
+struct SpellRadiusRec
+{
+  int m_ID;
+  float m_radius;
+  float m_radiusPerLevel;
+  float m_radiusMax;
+};
+
+struct SpellDurationRec
+{
+  int m_ID;
+  int m_duration;
+  int m_durationPerLevel;
+  int m_maxDuration;
+};
+
+struct SpellRangeRec
+{
+  int m_ID;
+  float m_rangeMin;
+  float m_rangeMax;
+  int m_flags;
+  const char *m_displayName_lang[8];
+  int m_displayName_flag;
+  const char *m_displayNameShort_lang[8];
+  int m_displayNameShort_flag;
+};
+
+const struct AreaPOIRec
+{
+  int m_ID;
+  int m_importance;
+  int m_icon;
+  int m_factionID;
+  float m_x;
+  float m_y;
+  float m_z;
+  int m_continentID;
+  int m_flags;
+  const char *m_name_lang[8];
+  int m_name_flag;
+};
+
+struct PageTextMaterialRec
+{
+  int m_ID;
+  const char *m_name;
+};
+
+struct SkillLineRec
+{
+  int m_ID;
+  int m_raceMask;
+  int m_classMask;
+  int m_excludeRace;
+  int m_excludeClass;
+  int m_categoryID;
+  int m_skillType;
+  int m_minCharLevel;
+  int m_maxRank;
+  int m_abandonable;
+  const char *m_displayName_lang[8];
+  int m_displayName_flag;
+};
+
+struct ItemClassRec
+{
+  int m_classID;
+  int m_subclassMapID;
+  int m_flags;
+  const char *m_className_lang[8];
+  int m_className_flag;
+  int m_generatedID;
+};
+
+struct ItemSubClassRec
+{
+  int m_classID;
+  int m_subClassID;
+  int m_prerequisiteProficiency;
+  int m_postrequisiteProficiency;
+  int m_flags;
+  int m_displayFlags;
+  int m_weaponParrySeq;
+  int m_weaponReadySeq;
+  int m_weaponAttackSeq;
+  int m_WeaponSwingSize;
+  const char *m_displayName_lang[8];
+  int m_displayName_flag;
+  const char *m_verboseName_lang[8];
+  int m_verboseName_flag;
+  int m_generatedID;
+};
+
+struct SpellFocusObjectRec
+{
+  int m_ID;
+  const char *m_name_lang[8];
+  int m_name_flag;
+};
+
+struct SkillLineAbilityRec
+{
+  int m_ID;
+  int m_skillLine;
+  int m_spell;
+  int m_raceMask;
+  int m_classMask;
+  int m_excludeRace;
+  int m_excludeClass;
+  int m_minSkillLineRank;
+  int m_supercededBySpell;
+  int m_trivialSkillLineRankHigh;
+  int m_trivialSkillLineRankLow;
+  int m_abandonable;
+};
+
+struct BankBagSlotPricesRec
+{
+  int m_ID;
+  int m_Cost;
+};
+
+struct SpellIconRec
+{
+  int m_ID;
+  const char *m_textureFilename;
+};
+
+struct FactionRec
+{
+  int m_ID;
+  int m_reputationIndex;
+  int m_reputationRaceMask[4];
+  int m_reputationClassMask[4];
+  int m_reputationBase[4];
+  const char *m_name_lang[8];
+  int m_name_flag;
+};
+
+struct ChrProficiencyRec
+{
+  int m_ID;
+  int m_proficiency_minLevel[16];
+  int m_proficiency_acquireMethod[16];
+  int m_proficiency_itemClass[16];
+  int m_proficiency_itemSubClassMask[16];
+};
+
+struct PaperDollItemFrameRec
+{
+  const char *m_ItemButtonName;
+  const char *m_SlotIcon;
+  int m_SlotNumber;
+  int m_generatedID;
+};
+
+struct SpellShapeshiftFormRec
+{
+  int m_ID;
+  int m_bonusActionBar;
+  const char *m_name_lang[8];
+  int m_name_flag;
+  int m_flags;
+};
+
+struct TaxiNodesRec
+{
+  int m_ID;
+  int m_ContinentID;
+  float m_X;
+  float m_Y;
+  float m_Z;
+  const char *m_Name_lang[8];
+  int m_Name_flag;
+};
+
+struct QuestSortRec
+{
+  int m_ID;
+  const char *m_SortName_lang[8];
+  int m_SortName_flag;
+};
+
+struct QuestInfoRec
+{
+  int m_ID;
+  const char *m_InfoName_lang[8];
+  int m_InfoName_flag;
+};
+
+struct SpellCastTimesRec
+{
+  int m_ID;
+  int m_base;
+  int m_perLevel;
+  int m_minimum;
+};
+
+struct SpellItemEnchantmentRec
+{
+  int m_ID;
+  int m_effect[3];
+  int m_effectPointsMin[3];
+  int m_effectPointsMax[3];
+  int m_effectArg[3];
+  const char *m_name_lang[8];
+  int m_name_flag;
+  int m_itemVisual;
+};
+
+struct WorldMapAreaRec
+{
+  int m_ID;
+  int m_mapID;
+  int m_areaID;
+  int m_leftBoundary;
+  int m_rightBoundary;
+  int m_topBoundary;
+  int m_bottomBoundary;
+  const char *m_areaName;
+};
+
+struct WorldMapContinentRec
+{
+  int m_ID;
+  int m_mapID;
+  int m_leftBoundary;
+  int m_rightBoundary;
+  int m_topBoundary;
+  int m_bottomBoundary;
+  float m_continentOffsetX;
+  float m_continentOffsetY;
+};
+
+struct WorldSafeLocsRec
+{
+  int m_ID;
+  int m_continent;
+  float m_locX;
+  float m_locY;
+  float m_locZ;
+  const char *m_AreaName_lang[8];
+  int m_AreaName_flag;
+};
+
+struct LanguagesRec
+{
+  int m_ID;
+  const char *m_name_lang[8];
+  int m_name_flag;
+};
+
+struct LanguageWordsRec
+{
+  int m_ID;
+  int m_languageID;
+  const char *m_word;
+};
+
+struct EmotesTextRec
+{
+  int m_ID;
+  const char *m_name;
+  int m_emoteID;
+  int m_emoteText[16];
+};
+
+struct EmotesTextDataRec
+{
+  int m_ID;
+  const char *m_text_lang[8];
+  int m_text_flag;
+};
+
+struct CinematicCameraRec
+{
+  int m_ID;
+  const char *m_model;
+  int m_soundID;
+  float m_originX;
+  float m_originY;
+  float m_originZ;
+  float m_originFacing;
+};
+
+struct CinematicSequencesRec
+{
+  int m_ID;
+  int m_soundID;
+  int m_camera[8];
+};
+
+struct CameraShakesRec
+{
+  int m_ID;
+  int m_shakeType;
+  int m_direction;
+  float m_amplitude;
+  float m_frequency;
+  float m_duration;
+  float m_phase;
+  float m_coefficient;
+};
+
+struct SpellEffectNamesRec
+{
+  int m_EnumID;
+  const char *m_name_lang[8];
+  int m_name_flag;
+  int m_generatedID;
+};
+
+struct SpellAuraNamesRec
+{
+  int m_EnumID;
+  int m_specialMiscValue;
+  const char *m_globalstrings_tag;
+  const char *m_name_lang[8];
+  int m_name_flag;
+  int m_generatedID;
+};
+
+struct SpellDispelTypeRec
+{
+  int m_ID;
+  const char *m_name_lang[8];
+  int m_name_flag;
+};
+
+struct CreatureTypeRec
+{
+  int m_ID;
+  const char *m_name_lang[8];
+  int m_name_flag;
+};
+
+struct LockRec
+{
+  int m_ID;
+  int m_Type[4];
+  int m_Index[4];
+  int m_Skill[4];
+  int m_Action[4];
+};
+
+struct LockTypeRec
+{
+  int m_ID;
+  const char *m_name_lang[8];
+  int m_name_flag;
+  const char *m_resourceName_lang[8];
+  int m_resourceName_flag;
+  const char *m_verb_lang[8];
+  int m_verb_flag;
+};
+
+struct WMOAreaTableRec
+{
+  int m_ID;
+  int m_WMOID;
+  int m_NameSetID;
+  int m_WMOGroupID;
+  int m_DayAmbienceSoundID;
+  int m_NightAmbienceSoundID;
+  int m_SoundProviderPref;
+  int m_SoundProviderPrefUnderwater;
+  int m_MIDIAmbience;
+  int m_MIDIAmbienceUnderwater;
+  int m_ZoneMusic;
+  int m_IntroSound;
+  int m_IntroPriority;
+  int m_Flags;
+  const char *m_AreaName_lang[8];
+  int m_AreaName_flag;
+};
+
+struct NamesReservedRec
+{
+  int m_ID;
+  const char *m_Name;
+};
+
+struct NamesProfanityRec
+{
+  int m_ID;
+  const char *m_Name;
+};
+
+struct SpellChainEffectsRec
+{
+  int m_ID;
+  float m_AvgSegLen;
+  float m_Width;
+  float m_NoiseScale;
+  float m_TexCoordScale;
+  int m_SegDuration;
+  int m_SegDelay;
+  const char *m_Texture;
+};
+
+struct TransportAnimationRec
+{
+  int m_ID;
+  int m_TransportID;
+  int m_TimeIndex;
+  float m_PosX;
+  float m_PosY;
+  float m_PosZ;
+};
+
+struct SpellVisualPrecastTransitionsRec
+{
+  int m_ID;
+  const char *m_PrecastLoadAnimName;
+  const char *m_PrecastHoldAnimName;
+};
+
+struct EmotesRec
+{
+  int m_ID;
+  int m_EmoteAnimID;
+  int m_EmoteFlags;
+  int m_EmoteSpecProc;
+  int m_EmoteSpecProcParam;
+};
+
+struct EmoteAnimsRec
+{
+  int m_ID;
+  int m_ProcessedAnimIndex;
+  const char *m_AnimName;
+};
+
+struct UnitBloodRec
+{
+  int m_ID;
+  int m_CombatBloodSpurtFront[2];
+  int m_CombatBloodSpurtBack[2];
+  const char *m_GroundBlood[5];
+};
+
+struct DeathThudLookupsRec
+{
+  int m_ID;
+  int m_SizeClass;
+  int m_TerrainTypeSoundID;
+  int m_SoundEntryID;
+  int m_SoundEntryIDWater;
+};
+
+struct TaxiPathNodeRec
+{
+  int m_ID;
+  int m_PathID;
+  int m_NodeIndex;
+  int m_ContinentID;
+  float m_LocX;
+  float m_LocY;
+  float m_LocZ;
+  int m_flags;
+};
+
+struct TaxiPathRec
+{
+  int m_ID;
+  int m_FromTaxiNode;
+  int m_ToTaxiNode;
+  int m_Cost;
+};
+
+struct GameObjectDisplayInfoRec
+{
+  int m_ID;
+  const char *m_modelName;
+  int m_Sound[10];
+};
+
+struct StringLookupsRec
+{
+  int m_ID;
+  const char *m_String;
+};
+
+struct SpellEffectCameraShakesRec
+{
+  int m_ID;
+  int m_CameraShake[3];
+};
+
+struct FootprintTexturesRec
+{
+  int m_ID;
+  const char *m_FootstepFilename;
+};
+
+struct UISoundLookupsRec
+{
+  int m_ID;
+  int m_SoundID;
+  const char *m_SoundName;
+};
+
+struct AttackAnimTypesRec
+{
+  int m_AnimID;
+  const char *m_AnimName;
+};
+
+struct AttackAnimKitsRec
+{
+  int m_ID;
+  int m_ItemSubclassID;
+  int m_AnimTypeID;
+  int m_AnimFrequency;
+  int m_WhichHand;
+};
+
+struct SpellVisualAnimNameRec
+{
+  int m_AnimID;
+  const char *m_name;
+  int m_generatedID;
+};
+
+struct AreaTriggerRec
+{
+  int m_ID;
+  int m_ContinentID;
+  float m_x;
+  float m_y;
+  float m_z;
+  float m_radius;
+};
+
+struct SpellVisualEffectNameRec
+{
+  int m_ID;
+  const char *m_fileName;
+  int m_specialID;
+  int m_specialAttachPoint;
+  float m_areaEffectSize;
+  int m_VisualEffectNameFlags;
+};
+
+struct SpellVisualRec
+{
+  int m_ID;
+  int m_precastKit;
+  int m_castKit;
+  int m_impactKit;
+  int m_stateKit;
+  int m_channelKit;
+  int m_hasMissile;
+  int m_missileModel;
+  int m_missilePathType;
+  int m_missileDestinationAttachment;
+  int m_missileSound;
+  int m_hasAreaEffect;
+  int m_areaModel;
+  int m_areaKit;
+  int m_animEventSoundID;
+  char m_weaponTrailRed;
+  char m_weaponTrailGreen;
+  char m_weaponTrailBlue;
+  char m_weaponTrailAlpha;
+  char m_weaponTrailFadeoutRate;
+  int m_weaponTrailDuration;
+};
+
+struct TabardEmblemTexturesRec
+{
+  int m_ID;
+  const char *m_TorsoTexture[2];
+};
+
+struct TabardBackgroundTexturesRec
+{
+  int m_ID;
+  const char *m_TorsoTexture[2];
+};
+
+struct CreatureFamilyRec
+{
+  int m_ID;
+  float m_minScale;
+  int m_minScaleLevel;
+  float m_maxScale;
+  int m_maxScaleLevel;
+  int m_skillLine[2];
+};
+
+struct GroundEffectDoodadRec
+{
+  int m_ID;
+  int m_doodadIdTag;
+  const char *m_doodadpath;
+};
+
+struct GroundEffectTextureRec
+{
+  int m_ID;
+  int m_datestamp;
+  int m_continentId;
+  int m_zoneId;
+  int m_textureId;
+  const char *m_textureName;
+  int m_doodadId[4];
+  int m_density;
+  int m_sound;
+};
+
+struct VideoHardwareRec
+{
+  int m_vendorID;
+  int m_deviceID;
+  int m_farclipIdx;
+  int m_terrainLODDistIdx;
+  int m_terrainShadowLOD;
+  int m_detailDoodadDensityIdx;
+  int m_detailDoodadAlpha;
+  int m_animatingDoodadIdx;
+  int m_trilinear;
+  int m_numLights;
+  int m_specularity;
+  int m_waterLODIdx;
+  int m_particleDensityIdx;
+  int m_unitDrawDistIdx;
+  int m_smallCullDistIdx;
+  int m_resolutionIdx;
+  int m_baseMipLevel;
+  int m_oglPixelShader;
+  int m_d3dPixelShader;
+  int m_generatedID;
+};
+
+struct WeaponSwingSounds2Rec
+{
+  int m_ID;
+  int m_SwingType;
+  int m_Crit;
+  int m_SoundID;
+};
+
+struct CharTextureVariationsV2Rec
+{
+  int m_ID;
+  int m_RaceID;
+  int m_SexID;
+  int m_SectionID;
+  int m_VariationID;
+  int m_ColorID;
+  int m_IsNPC;
+  const char *m_TextureName;
+};
