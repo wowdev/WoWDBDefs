@@ -42,7 +42,7 @@ flags<32>
 instance_ID<16>
 supercedes<16>
 category<16>
-ui_order<16> // unk_8C, unk_90
+$parent$ui_order<16>
 shares_criteria<16>
 faction<8>
 points<8>

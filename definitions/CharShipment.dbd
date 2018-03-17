@@ -36,7 +36,7 @@ duration<32>
 spellID<32>
 dummyItemID<32>
 onCompleteSpellID<32>
-containerID<16> // unk_8C, unk_90
+$parent$containerID<16>
 garrFollowerID<16>
 maxShipments<8>
 flags<8>
