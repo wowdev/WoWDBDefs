@@ -59,7 +59,7 @@ bonusCoefficientFromAP
 
 LAYOUT 0DEC6C81
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 effect<32>
 effectBasePoints<32>
 effectIndex<32>
@@ -88,4 +88,4 @@ effectSpellClassMask<32>[4]
 effectMiscValue<32>[2]
 effectRadiusIndex<32>[2]
 implicitTarget<32>[2]
-$noninlinerelation$spellID<32>
+$noninline,relation$spellID<32>

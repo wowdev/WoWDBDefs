@@ -24,14 +24,14 @@ petFamilyID<32>
 
 LAYOUT 0EEBEE24
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 ItemID<32>[24]
 petDisplayID<32>
 classID<8>
 sexID<8>
 outfitID<8>
 petFamilyID<8>
-$noninlinerelation$raceID<8>
+$noninline,relation$raceID<8>
 
 BUILD 4.0.0.11792
 $id$ID<32>

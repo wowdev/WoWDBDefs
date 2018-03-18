@@ -26,21 +26,21 @@ field_291708038<32>[5]
 
 LAYOUT 4291EEC6
 BUILD 8.0.1.26095, 8.0.1.26175
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 flags<32>[7]
 factionID<16>
 expansionID<8>
 minLevel<8>
 maxLevel<8>
-$noninlinerelation$creatureID<32>
+$noninline,relation$creatureID<32>
 
 LAYOUT 6B6A83CA
 BUILD 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 flags<32>[7]
 factionID<16>
 expansionID<8>
 minLevel<8>
 maxLevel<8>
 contentTuningID<32>
-$noninlinerelation$creatureID<32>
+$noninline,relation$creatureID<32>

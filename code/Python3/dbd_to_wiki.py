@@ -104,9 +104,14 @@ for name, parsed in dbds.items():
       comments = []
 
       merged_str_pattern = "   {} {}{};"
-      if entry.annotation and "noninlineid" in entry.annotation:
-        merged_str_pattern = "   // {} {}{};"
-        comments += ["non-inline field"]
+      for annotation in entry.annotation:
+        if annotation == "noninline":
+          merged_str_pattern = "   // {} {}{};"
+          comments += ["non-inline field"]
+        elif annotation == "id":
+          pass
+        else:
+          comments += ["{}".format(annotation)]
       merged_str = merged_str_pattern.format(type_str[0], name_str[0], array_str[0])
       merged_str_visual_len = len(merged_str_pattern.format('t'*type_str[1], 'n'*name_str[1], 'a'*array_str[1]))
 

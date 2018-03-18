@@ -11,7 +11,7 @@ uint type
 
 LAYOUT DD995180
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 description_lang
 amount<32>
 objectID<32>
@@ -19,4 +19,4 @@ type<8>
 orderIndex<8>
 storageIndex<8>
 flags<8>
-$noninlinerelation$questID<16>
+$noninline,relation$questID<16>
