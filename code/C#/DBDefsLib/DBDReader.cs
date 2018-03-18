@@ -301,6 +301,18 @@ namespace DBDefsLib
                             throw new Exception("Layout hash \"" + layoutHash + "\" is wrong length for file " + file);
                         }
                     }
+
+                    // Check if int/uint columns have sizes set
+                    foreach (var definition in version.definitions)
+                    {
+                        if ((columnDefinitionDictionary[definition.name].type == "int" || columnDefinitionDictionary[definition.name].type == "uint") && definition.size == 0)
+                        {
+                            if(definition.typeOverride == null || definition.typeOverride == "int" || definition.typeOverride == "uint")
+                            {
+                                throw new Exception("Version definition " + definition.name + " is an int/uint but is missing size in file " + file + "!");
+                            }
+                        }
+                    }
                 }
             }
 
