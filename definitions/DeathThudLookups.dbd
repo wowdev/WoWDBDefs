@@ -5,7 +5,7 @@ uint<TerrainTypeSounds::ID> TerrainTypeSoundID
 uint<SoundEntries::ID> SoundEntryID
 uint<SoundEntries::ID> SoundEntryIDWater
 
-BUILD 6.0.1.18179, 4.0.0.11792
+BUILD 6.0.1.18179, 4.0.0.11792, 0.5.3.3368
 $id$ID<32>
 SizeClass<32>
 TerrainTypeSoundID<32>
@@ -17,11 +17,5 @@ BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
 $noninlineid$ID<32>
 SizeClass<8>
 TerrainTypeSoundID<8>
-SoundEntryID<32>
-SoundEntryIDWater<32>
-
-BUILD 0.5.3.3368
-ID<32>
-TerrainTypeSoundID<32>
 SoundEntryID<32>
 SoundEntryIDWater<32>
