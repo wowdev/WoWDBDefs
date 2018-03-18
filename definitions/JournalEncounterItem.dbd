@@ -17,7 +17,7 @@ flags<32>
 LAYOUT 39230FF9
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
 itemID<32>
-$parent$journalEncounterID<16>
+$relation$journalEncounterID<16>
 difficultyMask<8>
 factionMask<8>
 flags<8>
