@@ -52,8 +52,8 @@
         public uint maxID;
         public uint locale;
         public uint copyTableSize;
-        public uint flags;
-        public uint idIndex;
+        public ushort flags;
+        public ushort idIndex;
     }
 
     public struct WDB6Header
@@ -69,8 +69,8 @@
         public uint maxID;
         public uint locale;
         public uint copyTableSize;
-        public uint flags;
-        public uint idIndex;
+        public ushort flags;
+        public ushort idIndex;
         public uint totalFieldCount;
         public uint commonTableSize;
     }
@@ -83,13 +83,12 @@
         public uint stringTableSize;
         public uint tableHash;
         public uint layoutHash;
-        public uint timestampLastWritten;
         public uint minID;
         public uint maxID;
         public uint locale;
         public uint copyTableSize;
-        public uint flags;
-        public uint idIndex;
+        public ushort flags;
+        public ushort idIndex;
         public uint totalFieldCount;
         public uint bitpackedDataOffset;
         public uint lookupColumnCount;
@@ -99,5 +98,28 @@
         public uint commonDataSize;
         public uint palletDataSize;
         public uint relationshipDataSize;
+    }
+
+    public struct WDC2Header
+    {
+        public uint recordCount;
+        public uint fieldCount;
+        public uint recordSize;
+        public uint stringTableSize;
+        public uint tableHash;
+        public uint layoutHash;
+        public uint timestampLastWritten;
+        public uint minID;
+        public uint maxID;
+        public uint locale;
+        public ushort flags;
+        public ushort idIndex;
+        public uint totalFieldCount;
+        public uint bitpackedDataOffset;
+        public uint lookupColumnCount;
+        public uint fieldStorageInfoSize;
+        public uint commonDataSize;
+        public uint palletDataSize;
+        public uint sectionCount;
     }
 }
