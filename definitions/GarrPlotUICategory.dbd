@@ -1,12 +1,11 @@
 COLUMNS
-uint field_329935761?
 locstring categoryName_lang
 uint field_2890979807?
 int ID
 uint plotType
 
 BUILD 6.0.1.18179
-field_329935761<32>
+$noninline,id$ID<32>
 categoryName_lang
 field_2890979807<32>
 
