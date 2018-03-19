@@ -75,15 +75,15 @@ With comment (for humans): ```ColName // This is a comment, yo!```
 
 #### Column annotations
 
-```ColName``` can be prefixed with an annotation to indicate that this is a special kind of column in this version.
+```ColName``` can be prefixed with annotations to indicate that this is a special kind of column in this version.
 
-Annotations start with a ```$``` and end with a ```$```. Currently used annotations:
+Annotations start with a ```$``` and end with a ```$``` and are comma separated when there's more than one. Current annotations:
 
-**id** this column is a primary key. Example: ```$id$ColName```
+**id** this column is a primary key. Example: (inline) ```$id$ColName``` (non-inline) ```$noninline,id$```
 
-**noninlineid** this column is a primary key and is **non-inline**. Example: ```$noninlineid$ColName```
+**relation** this column is a relationship. Has ```noninline``` when stored in relationship table. Examples: (inline) ```$relation$ColName``` (non-inline) ```$noninline,relation$```
 
-**relation** this column is stored in the relationship table. Example: ```$relation$ColName```
+**noninline** this column is **non-inline** (currently only used for  ```$id$``` and ```$relation$```). See non-inline examples above.
 
 #### Column overrides
 
