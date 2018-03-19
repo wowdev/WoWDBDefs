@@ -16,7 +16,7 @@ field_1256116934<32>
 
 LAYOUT 68D5C999
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 value<16>
 battlePetStateID<8>
-$relation$battlePetBreedID<8>
+$noninline,relation$battlePetBreedID<8>

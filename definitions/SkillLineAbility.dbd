@@ -41,7 +41,7 @@ raceMask<64>
 $id$ID<32>
 spell<32>
 supercedesSpell<32>
-skillLine<16> // unk_8C, unk_90
+$relation$skillLine<16>
 trivialSkillLineRankHigh<16>
 trivialSkillLineRankLow<16>
 uniqueBit<16>

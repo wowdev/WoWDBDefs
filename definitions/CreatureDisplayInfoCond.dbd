@@ -18,7 +18,7 @@ int textureVariationFileDataID
 
 LAYOUT 26CD44AB
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 raceMask<64>
 customOption0_Mask<32>[2]
 customOption1_Mask<32>[2]
@@ -33,4 +33,4 @@ faceStyleMask<32>
 facialHairStyleMask<32>
 creatureModelDataID<32>
 textureVariationFileDataID<32>[3]
-$relation$creatureDisplayInfoID<32>
+$noninline,relation$creatureDisplayInfoID<32>

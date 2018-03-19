@@ -14,7 +14,7 @@ float creatureSpellDamage
 
 LAYOUT 8CE309AD
 BUILD 8.0.1.26095
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 expansionID<32>
 creatureHealth
 playerHealth
@@ -24,11 +24,11 @@ playerMana
 playerPrimaryStat
 playerSecondaryStat
 armorConstant
-$relation$lvl<32>
+$noninline,relation$lvl<32>
 
 LAYOUT 67A925C9
 BUILD 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 expansionID<32>
 creatureHealth
 playerHealth
@@ -39,4 +39,4 @@ playerPrimaryStat
 playerSecondaryStat
 armorConstant
 creatureSpellDamage
-$relation$lvl<32>
+$noninline,relation$lvl<32>

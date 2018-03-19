@@ -99,4 +99,4 @@ baseFollowerXP<32>
 areaID<32>
 overmaxRewardPackID<32>
 envGarrMechanicID<32>
-$relation$garrMissionSetID<32>
+$noninline,relation$garrMissionSetID<32>

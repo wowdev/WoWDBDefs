@@ -13,7 +13,7 @@ int transitionOutID
 
 LAYOUT E44B382C
 BUILD 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 offset[3]
 stateIndex<8>
 gameObjectID<32>
@@ -23,4 +23,4 @@ transitionInID<32>
 transitionOutID<32>
 collisionHull<32>
 flags<32>
-$relation$multiPropertiesID<32>
+$noninline,relation$multiPropertiesID<32>

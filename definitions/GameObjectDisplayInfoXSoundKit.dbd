@@ -6,7 +6,7 @@ uint soundKitID
 
 LAYOUT 4BBA66F2
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 eventIndex<8>
 soundKitID<32>
-$relation$gameObjectDisplayInfoID<32>
+$noninline,relation$gameObjectDisplayInfoID<32>

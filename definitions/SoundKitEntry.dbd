@@ -7,8 +7,8 @@ float volume
 
 LAYOUT 6ED6E26F
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
-soundKitID<32> // unk_8C, unk_90
+$noninline,id$ID<32>
+$relation$soundKitID<32>
 fileDataID<32>
 frequency<8>
 volume

@@ -8,9 +8,9 @@ uint parentItemBonusTreeID
 
 LAYOUT 84FE93B7
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 childItemBonusTreeID<16>
 childItemBonusListID<16>
 childItemLevelSelectorID<16>
 itemContext<8>
-$relation$parentItemBonusTreeID<16>
+$noninline,relation$parentItemBonusTreeID<16>

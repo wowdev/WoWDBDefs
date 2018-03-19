@@ -7,8 +7,8 @@ int spellVisualKitID
 
 LAYOUT 3FEF69BB
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 fourcc<32>
 spellVisualKitID<32>
 flags<8>
-$relation$creatureDisplayInfoID<32>
+$noninline,relation$creatureDisplayInfoID<32>

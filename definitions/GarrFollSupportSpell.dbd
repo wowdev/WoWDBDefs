@@ -7,8 +7,8 @@ uint orderIndex
 
 LAYOUT B7DBA2D1
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 allianceSpellID<32>
 hordeSpellID<32>
 orderIndex<8>
-$relation$garrFollowerID<32>
+$noninline,relation$garrFollowerID<32>

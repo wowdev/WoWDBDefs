@@ -151,7 +151,7 @@ class definition_COMMENT (Grammar):
   grammar_collapse = True
 
 class definition_entry (Grammar):
-  grammar = ( OPTIONAL(G(L("$"), G(identifier, name="annotation"), L("$"), collapse=True))
+  grammar = ( OPTIONAL(G(L("$"), G(LIST_OF(G(identifier, tags=["ANNOTATION"], sep=comma_list_separator), name="annotation", collapse=True), L("$"), collapse=True)))
             , OPTIONAL(G(L('#'), column_type, L('#'), collapse=True))
             , G(identifier, name="column_name")
             , OPTIONAL(G(L("<"), G(integer, name="int_width"), L(">"), collapse=True))
@@ -159,7 +159,7 @@ class definition_entry (Grammar):
             , OPTIONAL(eol_c_comment)
             )
   def grammar_elem_init(self, sessiondata):
-    self.annotation = str(self.elements[0]) if self.elements[0] else None
+    self.annotation = [str(e) for e in self.elements[0].find_all("ANNOTATION")] if self.elements[0] else []
     self.override_type = str(self.elements[1]) if self.elements[1] else None
     self.column = str(self.elements[2]) if self.elements[2] else None
     self.int_width = int(str(self.elements[3])) if self.elements[3] else None

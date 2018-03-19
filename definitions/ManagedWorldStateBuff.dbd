@@ -7,8 +7,8 @@ uint playerConditionID
 
 LAYOUT 6D201DC7
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 occurrenceValue<32>
 buffSpellID<32>
 playerConditionID<32>
-$relation$managedWorldStateID<32>
+$noninline,relation$managedWorldStateID<32>

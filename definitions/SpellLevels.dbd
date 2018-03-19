@@ -17,10 +17,10 @@ spellLevel<32>
 
 LAYOUT 9E7D1CCD
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 baseLevel<16>
 maxLevel<16>
 spellLevel<16>
 difficultyID<8>
 maxPassiveAuraLevel<8>
-$relation$spellID<32>
+$noninline,relation$spellID<32>

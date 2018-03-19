@@ -6,7 +6,7 @@ uint fileDataID
 
 LAYOUT 839B4263
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 animationDataID<32>
 cloakDampeningID<32>
-$relation$fileDataID<32>
+$noninline,relation$fileDataID<32>

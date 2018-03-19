@@ -38,7 +38,7 @@ combatWeightBase
 combatWeightMax
 actionValueFlat
 actionRecordID<32>
-garrAbilityID<16> // unk_8C, unk_90
+$relation$garrAbilityID<16>
 abilityAction<8>
 abilityTargetType<8>
 garrMechanicTypeID<8>

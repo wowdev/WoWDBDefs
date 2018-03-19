@@ -14,8 +14,8 @@ spellProcsPerMinuteID<32>
 
 LAYOUT 2503C18B
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 coeff
 param<16>
 type<8>
-$relation$spellProcsPerMinuteID<16>
+$noninline,relation$spellProcsPerMinuteID<16>

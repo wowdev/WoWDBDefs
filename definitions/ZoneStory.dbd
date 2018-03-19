@@ -7,8 +7,8 @@ uint playerWorldMapAreaID
 
 LAYOUT EE16D6F3
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 displayAchievementID<32>
 displayWorldMapAreaID<32>
 playerFactionGroupID<8>
-$relation$playerWorldMapAreaID<32>
+$noninline,relation$playerWorldMapAreaID<32>

@@ -9,10 +9,10 @@ int worldMapAreaID
 
 LAYOUT 430540E4
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninlineid$ID<32>
+$noninline,id$ID<32>
 map[2]
 flags<8>
 journalEncounterID<32>
 dungeonMapID<32>
 mapDisplayConditionID<32>
-$relation$worldMapAreaID<32>
+$noninline,relation$worldMapAreaID<32>
