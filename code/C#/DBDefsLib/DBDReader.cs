@@ -194,25 +194,32 @@ namespace DBDefsLib
                         line = line.Remove(line.IndexOf('#'), line.IndexOf('#', 1) - line.IndexOf('#') + 1);
                     }
 
-                    if (line.Contains("$id$"))
-                    {
-                        definition.isID = true;
-                        line = line.Remove(0, 4);
-                    }
+                    // Default to everything being inline
+                    definition.isNonInline = false;
 
-                    if(line.Contains("$noninlineid$")){
-                        definition.isID = true;
-                        definition.isNonInline = true;
-                        line = line.Remove(0, 13);               
-                    }
-                    else{
-                        definition.isNonInline = false;
-                    }
-                    
-                    if (line.Contains("$relation$"))
+                    if (line.Contains("$"))
                     {
-                        definition.isRelation = true;
-                        line = line.Remove(0, 10);
+                        var annotationStart = line.IndexOf("$");
+                        var annotationEnd = line.IndexOf("$", 1);
+
+                        var annotations = new List<string>(line.Substring(annotationStart + 1, annotationEnd - annotationStart - 1).Split(','));
+
+                        if (annotations.Contains("id"))
+                        {
+                            definition.isID = true;
+                        }
+
+                        if (annotations.Contains("noninline"))
+                        {
+                            definition.isNonInline = true;
+                        }
+
+                        if (annotations.Contains("relation"))
+                        {
+                            definition.isRelation = true;
+                        }
+
+                        line = line.Remove(annotationStart, annotationEnd + 1);
                     }
 
                     if (line.Contains("<"))
