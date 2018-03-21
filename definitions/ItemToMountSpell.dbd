@@ -1,7 +1,7 @@
 COLUMNS
-uint field_1254870605?
-uint field_958961387?
+int ItemId?
+uint<Spell::ID> SpellId?
 
 BUILD 6.0.1.18179
-field_1254870605<32>
-field_958961387<32>
+ItemId<32>
+SpellId<32>

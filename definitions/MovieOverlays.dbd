@@ -1,12 +1,12 @@
 COLUMNS
-uint padding_1650396324?
+int ID?
 uint movieID
 uint localeMask
 uint overlayRangeBegin
 uint overlayRangeEnd
 
 BUILD 6.0.1.18179
-padding_1650396324<8>[4]
+$id$ID<32>
 movieID<32>
 localeMask<32>
 overlayRangeBegin<32>
