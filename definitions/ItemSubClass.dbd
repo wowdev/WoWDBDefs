@@ -1,5 +1,4 @@
 COLUMNS
-uint padding_3538289966?
 int classID
 int subClassID
 int prerequisiteProficiency
@@ -15,21 +14,6 @@ locstring verboseName_lang
 int ID
 uint auctionHouseSortOrder
 
-BUILD 6.0.1.18179
-padding_3538289966<8>[4]
-classID<32>
-subClassID<32>
-prerequisiteProficiency<32>
-postrequisiteProficiency<32>
-flags<32>
-displayFlags<32>
-weaponParrySeq<32>
-weaponReadySeq<32>
-weaponAttackSeq<32>
-WeaponSwingSize<32>
-displayName_lang
-verboseName_lang
-
 LAYOUT DAD92A67
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
 $noninline,id$ID<32>
@@ -44,7 +28,7 @@ displayFlags<8>
 WeaponSwingSize<8>
 auctionHouseSortOrder<8>
 
-BUILD 4.0.0.11792
+BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
 classID<32>
 subClassID<32>

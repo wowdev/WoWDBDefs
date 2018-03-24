@@ -1,15 +1,8 @@
 COLUMNS
-uint padding_1671332959?
 uint classID
 uint mask
 locstring name_lang
 int ID
-
-BUILD 6.0.1.18179
-padding_1671332959<8>[4]
-classID<32>
-mask<32>
-name_lang
 
 LAYOUT FC1DA850
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
@@ -18,7 +11,7 @@ name_lang
 mask<32>
 classID<8>
 
-BUILD 4.0.0.11792
+BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
 classID<32>
 mask<32>
