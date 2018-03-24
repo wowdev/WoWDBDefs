@@ -7,22 +7,16 @@ namespace DBDefsLib
 {
     public class Utils
     {
+        [Obsolete("Use of the Utils.ParseBuild() method is deprecated, it will be removed in an upcoming version. Use Build(build) instead.")]
         public static Build ParseBuild(string build)
         {
-            var split = build.Split('.');
-
-            return new Build()
-            {
-                expansion = short.Parse(split[0]),
-                major = short.Parse(split[1]),
-                minor = short.Parse(split[2]),
-                build = uint.Parse(split[3])
-            };
+            return new Build(build);
         }
 
+        [Obsolete("Use of the Utils.BuildToString() method is deprecated, it will be removed in an upcoming version. Use Build.ToString() instead.")]
         public static string BuildToString(Build build)
         {
-            return build.expansion + "." + build.major + "." + build.minor + "." + build.build;
+            return build.ToString();
         }
 
         public static string NormalizeColumn(string col, bool fixFirst = false)

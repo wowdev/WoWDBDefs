@@ -19,20 +19,6 @@ namespace DBDefsLib
             public Definition[] definitions;
         }
 
-        public struct BuildRange
-        {
-            public Build minBuild;
-            public Build maxBuild;
-        }
-
-        public struct Build
-        {
-            public short expansion;
-            public short major;
-            public short minor;
-            public uint build;
-        }
-
         public struct Definition
         {
             public int size;

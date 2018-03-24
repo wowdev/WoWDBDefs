@@ -65,7 +65,7 @@ namespace DBDefsLib
                         writer.Write("BUILD ");
                         for(var b =0; b < versionDefinition.builds.Length; b++)
                         {
-                            writer.Write(Utils.BuildToString(versionDefinition.builds[b]));
+                            writer.Write(versionDefinition.builds[b].ToString());
                             if(b + 1 < versionDefinition.builds.Length)
                             {
                                 writer.Write(", ");
@@ -83,7 +83,7 @@ namespace DBDefsLib
                     {
                         foreach(var buildRange in versionDefinition.buildRanges)
                         {
-                            writer.WriteLine("BUILD " + Utils.BuildToString(buildRange.minBuild) + "-" + Utils.BuildToString(buildRange.maxBuild));
+                            writer.WriteLine("BUILD " + buildRange.ToString());
                         }
                     }
 
@@ -94,19 +94,34 @@ namespace DBDefsLib
                             writer.Write("#" + column.typeOverride + "#");  
                         }
 
-                        if (column.isID && !column.isNonInline)
+                        if (column.isID || column.isNonInline || column.isRelation)
                         {
-                            writer.Write("$id$");
-                        }
-                        
-                        if (column.isID && column.isNonInline)
-                        {
-                            writer.Write("$noninlineid$");
-                        }
+                            writer.Write("$");
 
-                        if (column.isRelation)
-                        {
-                            writer.Write("$relation$");
+                            if (column.isNonInline)
+                            {
+                                if (column.isID)
+                                {
+                                    writer.Write("noninline,id");
+                                }
+                                else if (column.isRelation)
+                                {
+                                    writer.Write("noninline,relation");
+                                }
+                            }
+                            else
+                            {
+                                if (column.isID)
+                                {
+                                    writer.Write("id");
+                                }
+                                else if (column.isRelation)
+                                {
+                                    writer.Write("relation");
+                                }
+                            }
+
+                            writer.Write("$");
                         }
 
                         var normalizedColumnName = Utils.NormalizeColumn(column.name);

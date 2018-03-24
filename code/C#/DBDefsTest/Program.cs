@@ -34,7 +34,7 @@ namespace DBDTest
                 {
                     foreach (var versionBuild in versionDef.builds)
                     {
-                        var buildString = Utils.BuildToString(versionBuild);
+                        var buildString = versionBuild.ToString();
                         if (!buildList.Contains(buildString)){
                             buildList.Add(buildString);
                         }
@@ -192,7 +192,7 @@ namespace DBDTest
                 {
                     foreach (var versionBuild in versionDef.builds)
                     {
-                        if (Utils.BuildToString(versionBuild) == buildDir)
+                        if (versionBuild.ToString() == buildDir)
                         {
                             // Check field sizes
                             var fields = versionDef.definitions.Length;
@@ -216,7 +216,7 @@ namespace DBDTest
 
                                 if (dbd.columnDefinitions[definition.name].type == "locstring")
                                 {
-                                    var tempBuild = Utils.ParseBuild(buildDir);
+                                    var tempBuild = new Build(buildDir);
                                     if (tempBuild.build < 6692)
                                     {
                                         fields += 8;
@@ -253,7 +253,7 @@ namespace DBDTest
                                         fieldSize = 32;
                                         break;
                                     case "locstring":
-                                        var tempBuild = Utils.ParseBuild(buildDir);
+                                        var tempBuild = new Build(buildDir);
                                         if (tempBuild.build < 6692)
                                         {
                                             fieldSize = 32 * 9;

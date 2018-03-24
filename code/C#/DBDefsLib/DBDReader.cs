@@ -166,15 +166,11 @@ namespace DBDefsLib
                         {
                             var splitRange = splitBuild.Split('-');
                             buildRanges.Add(
-                                new BuildRange()
-                                {
-                                    minBuild = Utils.ParseBuild(splitRange[0]),
-                                    maxBuild = Utils.ParseBuild(splitRange[1])
-                                }
+                                new BuildRange(new Build(splitRange[0]), new Build(splitRange[1]))
                             );
                         }
                         else{
-                            var build = Utils.ParseBuild(splitBuild);
+                            var build = new Build(splitBuild);
                             builds.Add(build);
                         }
                     }
