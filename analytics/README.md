@@ -13,11 +13,11 @@ public class ChecksumGroup
 ```csharp
 public class DBDMatchGroup
 {
-	public string BuildPrev;
-	public string BuildCur;
-	public int RecordCountPrev;
-	public int RecordCountCur;
-	public int MatchCount;
-	public float MatchCountPercent;
+  public string BuildPrev;
+  public string BuildCur;
+  public int RecordCountPrev;
+  public int RecordCountCur;
+  public int MatchCount;
+  public float MatchCountPercent;
 }
 ```
