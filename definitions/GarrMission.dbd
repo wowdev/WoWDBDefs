@@ -31,7 +31,7 @@ uint garrMissionSetID
 uint garrMissionTypeID
 uint garrTypeID
 locstring location_lang
-float mapPos_
+float mapPos
 uint maxFollowers
 uint missionCost
 uint missionCostCurrencyTypesID
@@ -75,7 +75,7 @@ description_lang
 location_lang
 missionDuration<32>
 offerDuration<32>
-mapPos_[2]
+mapPos[2]
 worldPos[2]
 targetItemLevel<16>
 uiTextureKitID<16>
