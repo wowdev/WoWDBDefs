@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int maxLevel
+int minLevel
+uint playerLevelToItemLevelCurveID
+
+LAYOUT 34B9A97A
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+playerLevelToItemLevelCurveID<16>
+minLevel<32>
+maxLevel<32>

@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint qualityEnum
+float stateMultiplier
+
+LAYOUT 6CD46EB5
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+stateMultiplier
+qualityEnum<8>

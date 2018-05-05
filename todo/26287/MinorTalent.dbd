@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int chrSpecializationID
+int orderIndex
+int spellID
+
+LAYOUT AAEF0DF8
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+spellID<32>
+orderIndex<32>
+$noninline,relation$chrSpecializationID<32>

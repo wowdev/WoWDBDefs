@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint inventoryType
+uint itemClass
+uint itemSubclass
+uint uiCameraID
+
+LAYOUT 62B21407
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+uiCameraID<16>
+itemClass<8>
+itemSubclass<8>
+inventoryType<8>

@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+locstring description_lang
+int managedWorldStateInputID
+locstring name_lang
+int orderIndex
+int uiTextureAtlasMemberID
+
+LAYOUT 8EDF6090
+BUILD 8.0.1.26287
+description_lang
+name_lang
+$id$ID<32>
+$relation$managedWorldStateInputID<32>
+uiTextureAtlasMemberID<32>[4]
+orderIndex<32>

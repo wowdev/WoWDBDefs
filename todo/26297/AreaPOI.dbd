@@ -1,0 +1,38 @@
+COLUMNS
+int ID
+int areaID
+uint continentID
+locstring description_lang
+uint flags
+uint icon
+uint importance
+int mapFloor
+locstring name_lang
+uint playerConditionID
+int poiData
+int poiDataType
+int portLocID
+float pos
+uint uiTextureAtlasMemberID
+int wmoGroupID
+uint worldStateID
+
+LAYOUT 78061B4D
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+name_lang
+description_lang
+pos[3]
+flags<32>
+poiDataType<32>
+poiData<32>
+continentID<16>
+areaID<16>
+worldStateID<16>
+importance<8>
+icon<8>
+portLocID<32>
+playerConditionID<32>
+uiTextureAtlasMemberID<32>
+mapFloor<32>
+wmoGroupID<32>

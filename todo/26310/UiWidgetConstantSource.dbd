@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint parentWidgetID
+uint reqID
+int value
+
+LAYOUT 005558D3
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+value<32>
+reqID<16>
+$noninline,relation$parentWidgetID<16>

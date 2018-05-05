@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint deviceID
+uint driverVersionHi
+uint driverVersionLow
+uint flags
+uint osBits
+uint osVersion
+uint vendorID
+
+LAYOUT 1466ACAD
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+driverVersionHi<32>
+driverVersionLow<32>
+vendorID<16>
+deviceID<8>
+osVersion<8>
+osBits<8>
+flags<8>

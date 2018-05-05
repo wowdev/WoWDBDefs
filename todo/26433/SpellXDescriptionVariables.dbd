@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int spellDescriptionVariablesID
+int spellID
+
+LAYOUT FBC7B7AE
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+spellID<32>
+spellDescriptionVariablesID<32>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint lfgDungeonsID
+uint playerConditionID
+uint roleType
+
+LAYOUT 6F5F035D
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+roleType<8>
+playerConditionID<32>
+$noninline,relation$lfgDungeonsID<16>

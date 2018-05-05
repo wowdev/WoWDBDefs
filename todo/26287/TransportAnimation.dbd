@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+float Pos
+uint SequenceID
+uint TimeIndex
+int TransportID
+
+LAYOUT 099987ED
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+TimeIndex<32>
+Pos[3]
+SequenceID<8>
+$noninline,relation$TransportID<32>

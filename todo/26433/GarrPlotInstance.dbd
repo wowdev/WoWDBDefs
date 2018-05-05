@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint garrPlotID
+string name
+
+LAYOUT 1FD77CCF
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+name
+garrPlotID<8>

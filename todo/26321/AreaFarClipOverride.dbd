@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int areaID
+int flags
+float minFarClip
+float minHorizonStart
+
+LAYOUT DA94DA20
+BUILD 8.0.1.26321
+areaID<32>
+minFarClip
+minHorizonStart
+flags<32>
+$id$ID<32>

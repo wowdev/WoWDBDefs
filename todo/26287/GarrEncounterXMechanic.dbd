@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint garrEncounterID
+uint garrMechanicID
+uint garrMechanicSetID
+
+LAYOUT 97080E17
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+garrMechanicID<8>
+garrMechanicSetID<8>
+$noninline,relation$garrEncounterID<16>

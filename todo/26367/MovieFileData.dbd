@@ -1,0 +1,8 @@
+COLUMNS
+int ID
+uint resolution
+
+LAYOUT B24F82EB
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+resolution<16>

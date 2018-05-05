@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint battlePetVisualID
+uint flags
+string luaName
+
+LAYOUT F9579FAC
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+luaName
+flags<16>
+battlePetVisualID<16>

@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int celestialSkyboxFileDataID
+uint flags
+string name
+int skyboxFileDataID
+
+LAYOUT 8A064888
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+name
+skyboxFileDataID<32>
+celestialSkyboxFileDataID<32>
+flags<8>

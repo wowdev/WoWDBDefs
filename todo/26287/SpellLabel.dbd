@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint labelID
+int spellID
+
+LAYOUT 68E44736
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+labelID<32>
+$noninline,relation$spellID<32>

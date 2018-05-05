@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int azeritePowerID
+uint requiredLevel
+
+LAYOUT EAD8DACB
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+azeritePowerID<16>
+requiredLevel<8>

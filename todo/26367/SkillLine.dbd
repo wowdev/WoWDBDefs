@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+locstring alternateVerb_lang
+int canLink
+int categoryID
+locstring description_lang
+locstring displayName_lang
+uint flags
+locstring hordeDisplayName_lang
+uint parentSkillLineID
+int parentTierIndex
+int spellIconFileID
+
+LAYOUT 9C1D6E2E
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+displayName_lang
+alternateVerb_lang
+description_lang
+hordeDisplayName_lang
+flags<16>
+categoryID<8>
+canLink<8>
+spellIconFileID<32>
+parentSkillLineID<32>
+parentTierIndex<32>

@@ -1,0 +1,20 @@
+COLUMNS
+int BusEnumID
+uint DefaultPlaybackLimit
+uint DefaultPriority
+uint DefaultPriorityPenalty
+float DefaultVolume
+uint Flags
+int ID
+uint Parent
+
+LAYOUT F9A95600
+BUILD 8.0.1.26321
+DefaultVolume
+Flags<8>
+DefaultPriority<8>
+DefaultPriorityPenalty<8>
+DefaultPlaybackLimit<8>
+BusEnumID<8>
+$id$ID<32>
+$noninline,relation$Parent<16>

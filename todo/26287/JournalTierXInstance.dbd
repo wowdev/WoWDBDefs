@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint journalInstanceID
+uint journalTierID
+
+LAYOUT 9C4F4D2A
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+$relation$journalTierID<16>
+journalInstanceID<16>

@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint artifactID
+float displayPos
+uint flags
+int label
+uint maxPurchasableRank
+uint tier
+
+LAYOUT 45240818
+BUILD 8.0.1.26287
+displayPos[2]
+$relation$artifactID<8>
+flags<8>
+maxPurchasableRank<8>
+tier<8>
+$id$ID<32>
+label<32>

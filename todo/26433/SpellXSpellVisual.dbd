@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+int activeIconFileID
+uint casterPlayerConditionID
+uint casterUnitConditionID
+uint difficultyID
+uint flags
+uint priority
+float probability
+int spellID
+int spellIconFileID
+uint spellVisualID
+uint viewerPlayerConditionID
+uint viewerUnitConditionID
+
+LAYOUT 84E875D4
+BUILD 8.0.1.26433
+spellVisualID<32>
+$id$ID<32>
+difficultyID<8>
+probability
+flags<8>
+priority<8>
+spellIconFileID<32>
+activeIconFileID<32>
+viewerUnitConditionID<16>
+viewerPlayerConditionID<32>
+casterUnitConditionID<16>
+casterPlayerConditionID<32>
+$noninline,relation$spellID<32>

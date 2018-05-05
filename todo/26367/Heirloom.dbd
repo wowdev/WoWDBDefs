@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+uint flags
+int itemID
+int legacyItemID
+int legacyUpgradedItemID
+locstring sourceText_lang
+int sourceTypeEnum
+int staticUpgradedItemID
+uint upgradeItemBonusListID
+int upgradeItemID
+
+LAYOUT D16A21B1
+BUILD 8.0.1.26367
+sourceText_lang
+itemID<32>
+legacyUpgradedItemID<32>
+staticUpgradedItemID<32>
+upgradeItemID<32>[3]
+legacyItemID<32>
+upgradeItemBonusListID<16>[3]
+sourceTypeEnum<8>
+flags<8>
+$id$ID<32>

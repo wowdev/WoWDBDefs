@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint garrEncounterID
+uint garrEncounterSetID
+
+LAYOUT CA7143E7
+BUILD 8.0.1.26310
+$id$ID<32>
+garrEncounterID<32>
+$noninline,relation$garrEncounterSetID<32>

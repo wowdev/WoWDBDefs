@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint difficultyID
+uint journalEncounterSectionID
+
+LAYOUT 243822A7
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+difficultyID<8>
+$noninline,relation$journalEncounterSectionID<16>

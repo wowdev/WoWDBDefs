@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+string FileName
+string FilePath
+
+LAYOUT 3F1B2369
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+FileName
+FilePath

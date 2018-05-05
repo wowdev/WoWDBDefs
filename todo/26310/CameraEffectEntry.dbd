@@ -1,0 +1,38 @@
+COLUMNS
+int ID
+float Amplitude
+float AmplitudeB
+uint AmplitudeCurveID
+uint AttenuationType
+uint CameraEffectID
+float Delay
+uint DirectionType
+float Duration
+uint EffectType
+uint Flags
+float Frequency
+uint MovementType
+uint OrderIndex
+float Phase
+float RadiusMax
+float RadiusMin
+
+LAYOUT 77E45BEF
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+Duration
+Delay
+Phase
+Amplitude
+AmplitudeB
+Frequency
+RadiusMin
+RadiusMax
+AmplitudeCurveID<16>
+OrderIndex<8>
+Flags<8>
+EffectType<8>
+DirectionType<8>
+MovementType<8>
+AttenuationType<8>
+$noninline,relation$CameraEffectID<16>

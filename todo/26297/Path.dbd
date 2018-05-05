@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint alpha
+uint blue
+uint flags
+uint green
+uint red
+uint splineType
+uint type
+
+LAYOUT 3551690B
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+type<8>
+splineType<8>
+red<8>
+green<8>
+blue<8>
+alpha<8>
+flags<8>

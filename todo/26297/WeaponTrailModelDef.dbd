@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint animEnumID
+int lowDefFileDataID
+uint weaponTrailID
+
+LAYOUT CE7AD194
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+lowDefFileDataID<32>
+weaponTrailID<16>
+$noninline,relation$animEnumID<16>

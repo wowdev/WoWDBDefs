@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int flags
+int priority
+int scheduledIntervalID
+int selectionCount
+int selectionType
+
+LAYOUT CF71B287
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+flags<32>
+scheduledIntervalID<32>
+selectionType<32>
+selectionCount<32>
+priority<32>

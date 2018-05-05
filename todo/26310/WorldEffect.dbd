@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint combatConditionID
+uint playerConditionID
+uint questFeedbackEffectID
+int targetAsset
+uint targetType
+uint whenToDisplay
+
+LAYOUT 1F854827
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+targetAsset<32>
+combatConditionID<16>
+whenToDisplay<8>
+targetType<8>
+questFeedbackEffectID<32>
+playerConditionID<32>

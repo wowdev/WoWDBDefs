@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint battlePetAbilityID
+uint battlePetSpeciesID
+uint requiredLevel
+int slotEnum
+
+LAYOUT 630BA932
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+battlePetAbilityID<16>
+requiredLevel<8>
+slotEnum<8>
+$noninline,relation$battlePetSpeciesID<16>

@@ -1,0 +1,22 @@
+COLUMNS
+int ID
+uint classID
+int iconFileDataID
+uint inventoryType
+uint itemGroupSoundsID
+uint material
+uint sheatheType
+int sound_override_subclassID
+uint subclassID
+
+LAYOUT 38F7149F
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+iconFileDataID<32>
+classID<8>
+subclassID<8>
+material<8>
+inventoryType<8>
+sheatheType<8>
+sound_override_subclassID<8>
+itemGroupSoundsID<8>

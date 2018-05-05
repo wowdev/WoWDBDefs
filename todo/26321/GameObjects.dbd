@@ -1,0 +1,28 @@
+COLUMNS
+int ID
+uint displayID
+locstring name_lang
+uint ownerID
+uint phaseGroupID
+uint phaseID
+uint phaseUseFlags
+float pos
+int propValue
+float rot
+float scale
+uint typeID
+
+LAYOUT 1247CA16
+BUILD 8.0.1.26321
+name_lang
+pos[3]
+rot[4]
+scale
+propValue<32>[8]
+$relation$ownerID<16>
+displayID<16>
+phaseID<16>
+phaseGroupID<16>
+typeID<8>
+phaseUseFlags<8>
+$id$ID<32>

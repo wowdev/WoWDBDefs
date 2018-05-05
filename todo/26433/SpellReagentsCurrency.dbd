@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint currencyCount
+uint currencyTypesID
+int spellID
+
+LAYOUT 4D3F01C6
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+$relation$spellID<32>
+currencyTypesID<16>
+currencyCount<16>

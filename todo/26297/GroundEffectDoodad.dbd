@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+float animscale
+uint flags
+int modelFileID
+float pushScale
+
+LAYOUT EE9B382E
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+animscale
+pushScale
+flags<8>
+modelFileID<32>

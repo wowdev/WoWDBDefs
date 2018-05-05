@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint gameObjectDisplayInfoID
+locstring name_lang
+uint playerConditionID
+uint trophyTypeID
+
+LAYOUT AA1B5955
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+name_lang
+gameObjectDisplayInfoID<16>
+trophyTypeID<8>
+playerConditionID<32>

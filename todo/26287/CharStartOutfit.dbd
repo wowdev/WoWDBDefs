@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint classID
+int itemID
+uint outfitID
+uint petDisplayID
+uint petFamilyID
+uint raceID
+uint sexID
+
+LAYOUT 0EEBEE24
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+itemID<32>[24]
+petDisplayID<32>
+classID<8>
+sexID<8>
+outfitID<8>
+petFamilyID<8>
+$noninline,relation$raceID<8>

@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint actualType
+uint blue
+string globalStringBaseTag
+uint green
+uint red
+
+LAYOUT EB89C62F
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+globalStringBaseTag
+actualType<8>
+red<8>
+green<8>
+blue<8>

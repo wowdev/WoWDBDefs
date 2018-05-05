@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint SizeClass
+uint SoundEntryID
+uint SoundEntryIDWater
+uint TerrainTypeSoundID
+
+LAYOUT 3BF7542C
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+SizeClass<8>
+TerrainTypeSoundID<8>
+SoundEntryID<32>
+SoundEntryIDWater<32>

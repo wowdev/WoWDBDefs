@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint flags
+uint missileCount
+string name
+string scriptBody
+
+LAYOUT A61A5983
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+name
+scriptBody
+flags<8>
+missileCount<8>

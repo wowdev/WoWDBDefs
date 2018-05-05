@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint currencyAmount
+uint currencyType
+uint itemLevelIncrement
+uint itemUpgradePathID
+uint prerequisiteID
+
+LAYOUT 0AB08623
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+currencyAmount<32>
+prerequisiteID<16>
+currencyType<16>
+itemUpgradePathID<8>
+itemLevelIncrement<8>

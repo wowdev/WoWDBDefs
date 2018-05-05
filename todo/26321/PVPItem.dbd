@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int itemID
+uint itemLevelDelta
+
+LAYOUT 0CD750C1
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+itemID<32>
+itemLevelDelta<8>

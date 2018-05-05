@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint battlePetAbilityID
+uint battlePetVisualID
+int eventTypeEnum
+uint orderIndex
+uint turnTypeEnum
+
+LAYOUT 82FF4497
+BUILD 8.0.1.26433
+$relation$battlePetAbilityID<16>
+battlePetVisualID<16>
+orderIndex<8>
+turnTypeEnum<8>
+eventTypeEnum<8>
+$id$ID<32>

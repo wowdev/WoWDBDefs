@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int componentSection
+int itemDisplayInfoID
+int materialResourcesID
+
+LAYOUT DEE4ED7B
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+materialResourcesID<32>
+componentSection<8>
+$noninline,relation$itemDisplayInfoID<32>

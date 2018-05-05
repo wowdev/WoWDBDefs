@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint defaultBloodSpurtID
+uint defaultOmniBloodSpurtID
+uint playerCritBloodSpurtID
+uint playerHitBloodSpurtID
+uint playerOmniCritBloodSpurtID
+uint playerOmniHitBloodSpurtID
+
+LAYOUT 007ED968
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+playerCritBloodSpurtID<32>
+playerHitBloodSpurtID<32>
+defaultBloodSpurtID<32>
+playerOmniCritBloodSpurtID<32>
+playerOmniHitBloodSpurtID<32>
+defaultOmniBloodSpurtID<32>

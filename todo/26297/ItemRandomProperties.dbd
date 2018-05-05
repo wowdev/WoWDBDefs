@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint Enchantment
+locstring name_lang
+
+LAYOUT BDA8BFCD
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+name_lang
+Enchantment<16>[5]

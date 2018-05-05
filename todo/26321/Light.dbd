@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int continentID
+float gameCoords
+float gameFalloffEnd
+float gameFalloffStart
+uint lightParamsID
+
+LAYOUT 04052B1F
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+gameCoords[3]
+gameFalloffStart
+gameFalloffEnd
+continentID<16>
+lightParamsID<16>[8]

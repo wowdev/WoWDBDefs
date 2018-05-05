@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint childSceneScriptPackageID
+uint orderIndex
+uint sceneScriptID
+uint sceneScriptPackageID
+
+LAYOUT 9E18D06F
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+$relation$sceneScriptPackageID<16>
+sceneScriptID<16>
+childSceneScriptPackageID<16>
+orderIndex<8>

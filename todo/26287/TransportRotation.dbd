@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int GameObjectsID
+float Rot
+uint TimeIndex
+
+LAYOUT 72035AA9
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+TimeIndex<32>
+Rot[4]
+$noninline,relation$GameObjectsID<32>

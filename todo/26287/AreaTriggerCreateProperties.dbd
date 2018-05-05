@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int shapeType
+int startShapeID
+
+LAYOUT 8F29EB1E
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+startShapeID<16>
+shapeType<8>

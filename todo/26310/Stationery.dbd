@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint flags
+uint itemID
+int textureFileDataID
+
+LAYOUT 1F765161
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+flags<8>
+itemID<32>
+textureFileDataID<32>[2]

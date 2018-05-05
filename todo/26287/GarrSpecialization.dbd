@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint buildingType
+int iconFileDataID
+locstring name_lang
+float param
+uint requiredUpgradeLevel
+uint specType
+locstring tooltip_lang
+
+LAYOUT 797A0F2F
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+name_lang
+tooltip_lang
+iconFileDataID<32>
+param[2]
+buildingType<8>
+specType<8>
+requiredUpgradeLevel<8>

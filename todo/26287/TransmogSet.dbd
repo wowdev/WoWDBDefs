@@ -1,0 +1,24 @@
+COLUMNS
+uint ID
+int classMask
+uint expansionID
+int flags
+int itemNameDescriptionID
+locstring name_lang
+uint parentTransmogSetID
+uint trackingQuestID
+uint transmogSetGroupID
+int uiOrder
+
+LAYOUT BEDFD7D1
+BUILD 8.0.1.26287
+name_lang
+$relation$parentTransmogSetID<16>
+uiOrder<16>
+expansionID<8>
+$id$ID<32>
+flags<32>
+trackingQuestID<32>
+classMask<32>
+itemNameDescriptionID<32>
+transmogSetGroupID<32>

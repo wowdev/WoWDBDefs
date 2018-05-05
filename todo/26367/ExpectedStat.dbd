@@ -1,0 +1,28 @@
+COLUMNS
+int ID
+float armorConstant
+float creatureArmor
+float creatureAutoAttackDps
+float creatureHealth
+float creatureSpellDamage
+int expansionID
+int lvl
+float playerHealth
+float playerMana
+float playerPrimaryStat
+float playerSecondaryStat
+
+LAYOUT F0E61875
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+expansionID<32>
+creatureHealth
+playerHealth
+creatureAutoAttackDps
+creatureArmor
+playerMana
+playerPrimaryStat
+playerSecondaryStat
+armorConstant
+creatureSpellDamage
+$noninline,relation$lvl<32>

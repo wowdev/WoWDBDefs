@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int garrFollowerID
+int garrFollowerSetID
+int garrMissionID
+
+LAYOUT FB9C7E3D
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+garrFollowerID<32>
+garrFollowerSetID<32>
+$noninline,relation$garrMissionID<32>

@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint flags
+int journalEncounterID
+float map
+int mapDisplayConditionID
+int uiMapID
+
+LAYOUT 3BD132BF
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+map[2]
+flags<8>
+journalEncounterID<32>
+mapDisplayConditionID<32>
+$noninline,relation$uiMapID<32>

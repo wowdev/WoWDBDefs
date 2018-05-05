@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+int cardUIModelSceneID
+int creatureID
+locstring description_lang
+uint flags
+int iconFileDataID
+int loadoutUIModelSceneID
+uint petTypeEnum
+locstring sourceText_lang
+int sourceTypeEnum
+int summonSpellID
+
+LAYOUT B0ED8D66
+BUILD 8.0.1.26321
+description_lang
+sourceText_lang
+creatureID<32>
+summonSpellID<32>
+iconFileDataID<32>
+flags<16>
+petTypeEnum<8>
+sourceTypeEnum<8>
+$id$ID<32>
+cardUIModelSceneID<32>
+loadoutUIModelSceneID<32>

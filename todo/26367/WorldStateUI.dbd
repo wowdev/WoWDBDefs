@@ -1,0 +1,38 @@
+COLUMNS
+int ID
+uint areaID
+int dynamicFlashIconFileID
+int dynamicIconFileID
+locstring dynamicTooltip_lang
+string extendedUI
+uint extendedUIStateVariable
+string icon
+int mapID
+uint orderIndex
+uint phaseGroupID
+uint phaseID
+uint phaseUseFlags
+uint stateVariable
+locstring string_lang
+locstring tooltip_lang
+uint type
+
+LAYOUT AD4D9EE6
+BUILD 8.0.1.26367
+icon
+string_lang
+tooltip_lang
+dynamicTooltip_lang
+extendedUI
+$relation$mapID<16>
+areaID<16>
+stateVariable<16>
+extendedUIStateVariable<16>[3]
+phaseID<16>
+phaseGroupID<16>
+type<8>
+orderIndex<8>
+phaseUseFlags<8>
+$id$ID<32>
+dynamicIconFileID<32>
+dynamicFlashIconFileID<32>

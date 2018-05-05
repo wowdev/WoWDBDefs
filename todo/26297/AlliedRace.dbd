@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint bannerColor
+int crestTextureID
+int femaleCreatureDisplayID
+int maleCreatureDisplayID
+int modelBackgroundTextureID
+int raceID
+int ui_unlockAchievementID
+
+LAYOUT 15783ACC
+BUILD 8.0.1.26297
+bannerColor<32>
+$id$ID<32>
+raceID<32>
+crestTextureID<32>
+modelBackgroundTextureID<32>
+maleCreatureDisplayID<32>
+femaleCreatureDisplayID<32>
+ui_unlockAchievementID<32>

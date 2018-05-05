@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+int availability
+int classMask
+uint flags
+int minLevel
+int raceMask
+int skillID
+int skillTierID
+
+LAYOUT BB5112FA
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+raceMask<64>
+$relation$skillID<16>
+flags<16>
+skillTierID<16>
+availability<8>
+minLevel<8>
+classMask<32>

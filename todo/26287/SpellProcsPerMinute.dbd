@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+float baseProcRate
+uint flags
+
+LAYOUT 4BC1931B
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+baseProcRate
+flags<8>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint blue
+uint green
+uint red
+
+LAYOUT CC5FFB4D
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+red<8>
+blue<8>
+green<8>

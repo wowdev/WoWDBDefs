@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+float pos
+float rot
+
+LAYOUT 71BD1122
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+pos[3]
+rot[3]

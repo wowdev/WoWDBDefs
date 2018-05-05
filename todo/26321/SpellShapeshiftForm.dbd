@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+int attackIconFileID
+int bonusActionBar
+int combatRoundTime
+uint creatureDisplayID
+int creatureType
+float damageVariance
+int flags
+uint mountTypeID
+locstring name_lang
+uint presetSpellID
+
+LAYOUT 177786C6
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+name_lang
+flags<32>
+damageVariance
+combatRoundTime<16>
+mountTypeID<16>
+creatureType<8>
+bonusActionBar<8>
+attackIconFileID<32>
+creatureDisplayID<32>[4]
+presetSpellID<32>[8]

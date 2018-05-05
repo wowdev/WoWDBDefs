@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint flags
+string name
+string version
+
+LAYOUT F4525F59
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+name
+version
+flags<8>

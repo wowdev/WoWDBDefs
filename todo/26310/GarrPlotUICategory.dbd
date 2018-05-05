@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+locstring categoryName_lang
+uint plotType
+
+LAYOUT 867482E6
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+categoryName_lang
+plotType<8>

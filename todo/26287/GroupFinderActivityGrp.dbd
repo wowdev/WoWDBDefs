@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+locstring name_lang
+uint orderIndex
+
+LAYOUT C9458196
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+name_lang
+orderIndex<8>

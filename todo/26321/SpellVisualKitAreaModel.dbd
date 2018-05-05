@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+float emissionRate
+uint flags
+uint lifeTime
+int modelFileDataID
+float modelScale
+float spacing
+
+LAYOUT 9DCD5A0B
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+modelFileDataID<32>
+emissionRate
+spacing
+modelScale
+lifeTime<16>
+flags<8>

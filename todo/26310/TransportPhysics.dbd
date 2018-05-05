@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+float maxBank
+float maxBankTurnSpeed
+float pitchAmp
+float pitchTimeScale
+float rollAmp
+float rollTimeScale
+float speedDamp
+float speedDampThresh
+float waveAmp
+float waveTimeScale
+
+LAYOUT 0B297C98
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+waveAmp
+waveTimeScale
+rollAmp
+rollTimeScale
+pitchAmp
+pitchTimeScale
+maxBank
+maxBankTurnSpeed
+speedDampThresh
+speedDamp

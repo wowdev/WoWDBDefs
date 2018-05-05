@@ -1,0 +1,34 @@
+COLUMNS
+int ID
+uint areaID
+uint difficultyID
+uint displayType
+uint flags
+locstring fullName_lang
+uint groupFinderActivityGrpID
+uint groupFinderCategoryID
+uint mapID
+uint maxLevelSuggestion
+uint maxPlayers
+uint minGearLevelSuggestion
+uint minLevel
+int orderIndex
+locstring shortName_lang
+
+LAYOUT 8E47EE91
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+fullName_lang
+shortName_lang
+minGearLevelSuggestion<16>
+mapID<16>
+areaID<16>
+groupFinderCategoryID<8>
+orderIndex<8>
+groupFinderActivityGrpID<8>
+minLevel<8>
+maxLevelSuggestion<8>
+flags<8>
+difficultyID<8>
+maxPlayers<8>
+displayType<8>

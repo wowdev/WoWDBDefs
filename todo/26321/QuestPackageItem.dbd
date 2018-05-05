@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint displayType
+int itemID
+uint itemQuantity
+uint packageID
+
+LAYOUT 69CFC5FF
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+itemID<32>
+packageID<16>
+displayType<8>
+itemQuantity<32>

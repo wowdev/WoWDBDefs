@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint enumID
+uint visualKitID
+
+LAYOUT C4552C14
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+visualKitID<16>
+enumID<8>

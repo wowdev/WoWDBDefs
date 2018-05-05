@@ -1,0 +1,8 @@
+COLUMNS
+int ID
+uint Cost
+
+LAYOUT EA0AC2AA
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+Cost<32>

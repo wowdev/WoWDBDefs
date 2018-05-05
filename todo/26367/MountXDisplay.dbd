@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int creatureDisplayInfoID
+int mountID
+uint playerConditionID
+
+LAYOUT 2D4F3D78
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+creatureDisplayInfoID<32>
+playerConditionID<32>
+$noninline,relation$mountID<32>

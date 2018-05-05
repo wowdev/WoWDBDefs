@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int boneSetFileDataID
+uint faceVariationIndex
+int modelFileDataID
+uint raceID
+uint sexID
+
+LAYOUT 9DE3121D
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+modelFileDataID<32>
+boneSetFileDataID<32>
+sexID<8>
+faceVariationIndex<8>
+$noninline,relation$raceID<8>

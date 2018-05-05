@@ -1,0 +1,54 @@
+COLUMNS
+int ID
+int allianceGameObjectID
+locstring allianceName_lang
+uint allianceSceneScriptPackageID
+uint allianceUiTextureKitID
+uint bonusGarrAbilityID
+int buildSeconds
+uint buildingType
+int currencyQty
+uint currencyTypeID
+locstring description_lang
+uint flags
+uint garrAbilityID
+uint garrSiteID
+uint garrTypeID
+uint goldCost
+int hordeGameObjectID
+locstring hordeName_lang
+uint hordeSceneScriptPackageID
+uint hordeUiTextureKitID
+int iconFileDataID
+int maxAssignments
+uint shipmentCapacity
+locstring tooltip_lang
+uint upgradeLevel
+
+LAYOUT F4DF1FA6
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+hordeName_lang
+allianceName_lang
+description_lang
+tooltip_lang
+hordeGameObjectID<32>
+allianceGameObjectID<32>
+iconFileDataID<32>
+currencyTypeID<16>
+hordeUiTextureKitID<16>
+allianceUiTextureKitID<16>
+allianceSceneScriptPackageID<16>
+hordeSceneScriptPackageID<16>
+garrAbilityID<16>
+bonusGarrAbilityID<16>
+goldCost<16>
+garrTypeID<8>
+buildingType<8>
+garrSiteID<8>
+upgradeLevel<8>
+shipmentCapacity<8>
+flags<8>
+buildSeconds<32>
+currencyQty<32>
+maxAssignments<32>

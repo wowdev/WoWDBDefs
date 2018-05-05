@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+float position
+uint soundEmittersID
+
+LAYOUT D63C5DE3
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+position[3]
+$relation$soundEmittersID<16>

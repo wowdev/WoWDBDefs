@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int allianceSpellID
+uint garrFollowerID
+int hordeSpellID
+uint orderIndex
+
+LAYOUT 38B79EE9
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+hordeSpellID<32>
+allianceSpellID<32>
+orderIndex<8>
+$noninline,relation$garrFollowerID<32>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int pvpScalingEffectTypeID
+int specializationID
+float value
+
+LAYOUT 52121A41
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+value
+$relation$pvpScalingEffectTypeID<32>
+specializationID<32>

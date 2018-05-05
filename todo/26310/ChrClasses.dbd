@@ -1,0 +1,44 @@
+COLUMNS
+int ID
+uint attackPowerPerAgility
+uint attackPowerPerStrength
+uint cinematicSequenceID
+uint createScreenFileDataID
+uint defaultSpec
+uint displayPower
+string filename
+uint flags
+uint iconFileDataID
+uint lowResScreenFileDataID
+locstring name_lang
+locstring name_female_lang
+locstring name_male_lang
+string petNameToken
+uint primaryStatPriority
+uint rangedAttackPowerPerAgility
+uint selectScreenFileDataID
+uint spellClassSet
+int startingLevel
+
+LAYOUT 25B63E14
+BUILD 8.0.1.26310
+name_lang
+filename
+name_male_lang
+name_female_lang
+petNameToken
+createScreenFileDataID<32>
+selectScreenFileDataID<32>
+iconFileDataID<32>
+lowResScreenFileDataID<32>
+startingLevel<32>
+flags<16>
+cinematicSequenceID<16>
+defaultSpec<16>
+primaryStatPriority<8>
+displayPower<8>
+rangedAttackPowerPerAgility<8>
+attackPowerPerAgility<8>
+attackPowerPerStrength<8>
+spellClassSet<8>
+$id$ID<32>

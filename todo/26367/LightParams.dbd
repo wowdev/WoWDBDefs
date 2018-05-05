@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+uint cloudTypeID
+int flags
+float glow
+uint highlightSky
+uint lightSkyboxID
+float oceanDeepAlpha
+float oceanShallowAlpha
+float overrideCelestialSphere
+float waterDeepAlpha
+float waterShallowAlpha
+
+LAYOUT F29DB5FB
+BUILD 8.0.1.26367
+glow
+waterShallowAlpha
+waterDeepAlpha
+oceanShallowAlpha
+oceanDeepAlpha
+overrideCelestialSphere[3]
+lightSkyboxID<16>
+highlightSky<8>
+cloudTypeID<8>
+flags<8>
+$id$ID<32>

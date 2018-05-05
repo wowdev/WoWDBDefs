@@ -1,0 +1,10 @@
+COLUMNS
+int fileDataID
+int materialResourcesID
+uint usageType
+
+LAYOUT 71D3BD92
+BUILD 8.0.1.26297
+$id$fileDataID<32>
+usageType<8>
+$relation$materialResourcesID<32>

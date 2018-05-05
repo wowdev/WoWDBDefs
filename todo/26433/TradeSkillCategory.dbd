@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint flags
+locstring hordeName_lang
+locstring name_lang
+int orderIndex
+uint parentTradeSkillCategoryID
+uint skillLineID
+
+LAYOUT AFEA1AAD
+BUILD 8.0.1.26433
+name_lang
+hordeName_lang
+$id$ID<32>
+parentTradeSkillCategoryID<16>
+skillLineID<16>
+orderIndex<16>
+flags<8>

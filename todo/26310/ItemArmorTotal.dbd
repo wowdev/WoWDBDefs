@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+float cloth
+int itemLevel
+float leather
+float mail
+float plate
+
+LAYOUT 938B8741
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+cloth
+leather
+mail
+plate
+itemLevel<16>

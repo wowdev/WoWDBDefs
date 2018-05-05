@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint armorSubClassCost
+uint weaponSubClassCost
+
+LAYOUT 8447966A
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+weaponSubClassCost<16>[21]
+armorSubClassCost<16>[8]

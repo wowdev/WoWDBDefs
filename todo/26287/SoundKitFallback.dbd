@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint fallbackSoundKitID
+uint soundKitID
+
+LAYOUT B1A5106F
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+soundKitID<32>
+fallbackSoundKitID<32>

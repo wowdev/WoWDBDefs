@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+string combatLogText
+float factor
+float innHours
+locstring name_lang
+float outdoorHours
+float threshold
+int xp
+
+LAYOUT 4B95C455
+BUILD 8.0.1.26367
+name_lang
+combatLogText
+xp<32>
+factor
+outdoorHours
+innHours
+threshold
+$id$ID<32>

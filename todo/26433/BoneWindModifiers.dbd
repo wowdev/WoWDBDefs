@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+float multiplier
+float phaseMultiplier
+
+LAYOUT C6F446CE
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+multiplier[3]
+phaseMultiplier

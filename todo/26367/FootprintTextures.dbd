@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int fileDataID
+int flags
+int textureBlendsetID
+
+LAYOUT F82F1359
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+fileDataID<32>
+textureBlendsetID<32>
+flags<32>

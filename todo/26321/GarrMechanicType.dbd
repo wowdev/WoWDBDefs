@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint category
+locstring description_lang
+int iconFileDataID
+locstring name_lang
+
+LAYOUT 10601F33
+BUILD 8.0.1.26321
+name_lang
+description_lang
+iconFileDataID<32>
+category<8>
+$id$ID<32>

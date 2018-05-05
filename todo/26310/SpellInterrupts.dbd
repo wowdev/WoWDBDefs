@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int auraInterruptFlags
+int channelInterruptFlags
+uint difficultyID
+int interruptFlags
+int spellID
+
+LAYOUT F551B940
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+difficultyID<8>
+interruptFlags<16>
+auraInterruptFlags<32>[2]
+channelInterruptFlags<32>[2]
+$noninline,relation$spellID<32>

@@ -1,0 +1,8 @@
+COLUMNS
+int ID
+uint resolution
+
+LAYOUT AA16D59F
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+resolution<16>

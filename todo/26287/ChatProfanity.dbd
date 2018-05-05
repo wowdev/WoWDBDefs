@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int language
+string text
+
+LAYOUT 328E1FE6
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+text
+language<8>

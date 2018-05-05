@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+float MaxDamageReductionPctPhysical
+uint PlayerAttackSpeedBase
+uint PlayerKillingAllowed
+uint Roleplaying
+
+LAYOUT 63AADD5F
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+MaxDamageReductionPctPhysical
+PlayerAttackSpeedBase<16>
+PlayerKillingAllowed<8>
+Roleplaying<8>

@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint itemLevel
+float quality
+
+LAYOUT C88C8C8D
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+quality[7]
+itemLevel<16>

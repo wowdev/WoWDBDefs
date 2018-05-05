@@ -1,0 +1,36 @@
+COLUMNS
+uint EAXDef
+int ID
+uint busOverwriteID
+uint dialogType
+float distanceCutoff
+uint flags
+uint maxInstances
+float minDistance
+float pitchAdjust
+float pitchVariationMinus
+float pitchVariationPlus
+uint soundKitAdvancedID
+uint soundType
+float volumeFloat
+float volumeVariationMinus
+float volumeVariationPlus
+
+LAYOUT FCE1F864
+BUILD 8.0.1.26433
+$id$ID<32>
+volumeFloat
+minDistance
+distanceCutoff
+flags<16>
+soundType<8>
+dialogType<8>
+EAXDef<8>
+soundKitAdvancedID<32>
+volumeVariationPlus
+volumeVariationMinus
+pitchVariationPlus
+pitchVariationMinus
+pitchAdjust
+busOverwriteID<16>
+maxInstances<8>

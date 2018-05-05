@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint garrBuildingID
+uint garrSiteLevelPlotInstID
+float mapOffset
+uint uiTextureAtlasMemberID
+
+LAYOUT F45B6227
+BUILD 8.0.1.26287
+mapOffset[2]
+uiTextureAtlasMemberID<16>
+garrSiteLevelPlotInstID<16>
+$relation$garrBuildingID<8>
+$id$ID<32>

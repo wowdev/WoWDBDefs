@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int fileDataID
+float geoBox
+int objectEffectPackageID
+float overrideLootEffectScale
+float overrideNameScale
+
+LAYOUT 9F2098D1
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+fileDataID<32>
+geoBox[6]
+overrideLootEffectScale
+overrideNameScale
+objectEffectPackageID<16>

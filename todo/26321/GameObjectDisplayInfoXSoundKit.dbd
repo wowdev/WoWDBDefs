@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int eventIndex
+uint gameObjectDisplayInfoID
+uint soundKitID
+
+LAYOUT 65313C86
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+eventIndex<8>
+soundKitID<32>
+$noninline,relation$gameObjectDisplayInfoID<32>

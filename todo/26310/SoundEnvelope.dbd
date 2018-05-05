@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+int curveID
+uint decayIndex
+uint envelopeType
+uint flags
+uint releaseIndex
+int soundKitID
+uint sustainIndex
+
+LAYOUT D942E808
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+$relation$soundKitID<32>
+curveID<32>
+decayIndex<16>
+sustainIndex<16>
+releaseIndex<16>
+envelopeType<8>
+flags<32>

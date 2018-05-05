@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int mapID
+float pos
+
+LAYOUT F552D58F
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+pos[3]
+mapID<32>

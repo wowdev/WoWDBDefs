@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint criteriaTreeID
+int worldEffectID
+
+LAYOUT 2365A1D4
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+worldEffectID<16>
+$noninline,relation$criteriaTreeID<32>

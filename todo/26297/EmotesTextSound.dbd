@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint classID
+uint emotesTextID
+uint raceID
+uint sexID
+uint soundID
+
+LAYOUT 3A15105C
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+raceID<8>
+classID<8>
+sexID<8>
+soundID<32>
+$noninline,relation$emotesTextID<16>

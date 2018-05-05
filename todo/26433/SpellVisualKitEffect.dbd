@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int effect
+int effectType
+int parentSpellVisualKitID
+
+LAYOUT F104E59F
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+effectType<32>
+effect<32>
+$noninline,relation$parentSpellVisualKitID<32>

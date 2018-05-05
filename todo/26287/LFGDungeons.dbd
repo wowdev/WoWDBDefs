@@ -1,0 +1,72 @@
+COLUMNS
+int ID
+uint bonus_reputation_amount
+uint count_damage
+uint count_healer
+uint count_tank
+locstring description_lang
+uint difficultyID
+uint expansionLevel
+int faction
+uint finalEncounterID
+int flags
+uint group_ID
+int iconTextureFileID
+int mapID
+uint maxLevel
+uint mentorCharLevel
+uint mentorItemLevel
+float minGear
+uint minLevel
+uint min_count_damage
+uint min_count_healer
+uint min_count_tank
+locstring name_lang
+uint order_index
+int popupBgTextureFileID
+uint random_ID
+uint required_player_condition_ID
+int rewardsBgTextureFileID
+uint scenarioID
+uint subtype
+uint target_level
+uint target_level_max
+uint target_level_min
+uint typeID
+
+LAYOUT 99DD60ED
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+name_lang
+description_lang
+flags<32>
+minGear
+maxLevel<16>
+target_level_max<16>
+mapID<16>
+random_ID<16>
+scenarioID<16>
+finalEncounterID<16>
+bonus_reputation_amount<16>
+mentorItemLevel<16>
+required_player_condition_ID<16>
+minLevel<8>
+target_level<8>
+target_level_min<8>
+difficultyID<8>
+typeID<8>
+faction<8>
+expansionLevel<8>
+order_index<8>
+group_ID<8>
+count_tank<8>
+count_healer<8>
+count_damage<8>
+min_count_tank<8>
+min_count_healer<8>
+min_count_damage<8>
+subtype<8>
+mentorCharLevel<8>
+iconTextureFileID<32>
+rewardsBgTextureFileID<32>
+popupBgTextureFileID<32>

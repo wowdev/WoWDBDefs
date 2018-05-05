@@ -1,0 +1,52 @@
+COLUMNS
+uint BreadCrumbID
+locstring BulletText_lang
+uint ConditionID
+uint FiltActiveQuest
+int FiltClasses
+uint FiltCompletedQuest
+uint FiltCompletedQuestLogic
+uint FiltMaxFactionID
+uint FiltMaxFactionValue
+uint FiltMaxLevel
+uint FiltMinFactionID
+uint FiltMinFactionValue
+uint FiltMinLevel
+uint FiltMinSkillID
+uint FiltMinSkillValue
+uint FiltNonActiveQuest
+int FiltRaces
+uint ID
+uint QuestInfoID
+locstring QuestTitle_lang
+int StartItem
+uint UniqueBitFlag
+int WorldStateExpressionID
+int contentTuningID
+
+LAYOUT 2580D576
+BUILD 8.0.1.26433
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+ConditionID<32>
+UniqueBitFlag<16>
+FiltClasses<16>
+WorldStateExpressionID<16>
+$id$ID<32>
+FiltActiveQuest<32>
+FiltCompletedQuestLogic<32>
+FiltMaxFactionID<32>
+FiltMaxFactionValue<32>
+FiltMaxLevel<32>
+FiltMinFactionID<32>
+FiltMinFactionValue<32>
+FiltMinLevel<32>
+FiltMinSkillID<32>
+FiltMinSkillValue<32>
+FiltNonActiveQuest<32>
+BreadCrumbID<32>
+StartItem<32>
+QuestInfoID<32>
+contentTuningID<32>
+FiltCompletedQuest<32>[3]

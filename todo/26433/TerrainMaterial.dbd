@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int envMapDiffuseFileID
+int envMapSpecularFileID
+uint shader
+
+LAYOUT 9F25E6D3
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+shader<8>
+envMapDiffuseFileID<32>
+envMapSpecularFileID<32>

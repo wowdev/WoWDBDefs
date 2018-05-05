@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint glyphExclusiveCategoryID
+uint glyphType
+uint spellID
+uint spellIconID
+
+LAYOUT 7C1C2F11
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+spellID<32>
+spellIconID<16>
+glyphType<8>
+glyphExclusiveCategoryID<8>

@@ -1,0 +1,36 @@
+COLUMNS
+int ID
+uint animEventSoundID
+uint casterSpellVisualID
+uint damageNumberDelay
+int flags
+uint hostileSpellVisualID
+uint lowViolenceSpellVisualID
+int missileAttachment
+float missileCastOffset
+uint missileCastPositionerID
+int missileDestinationAttachment
+float missileImpactOffset
+uint missileImpactPositionerID
+int missileTargetingKit
+uint raidSpellVisualMissileSetID
+uint spellVisualMissileSetID
+
+LAYOUT 514F85ED
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+missileCastOffset[3]
+missileImpactOffset[3]
+animEventSoundID<32>
+flags<32>
+missileAttachment<8>
+missileDestinationAttachment<8>
+missileCastPositionerID<32>
+missileImpactPositionerID<32>
+missileTargetingKit<32>
+hostileSpellVisualID<32>
+casterSpellVisualID<32>
+spellVisualMissileSetID<16>
+damageNumberDelay<16>
+lowViolenceSpellVisualID<32>
+raidSpellVisualMissileSetID<32>

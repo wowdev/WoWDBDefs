@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint displayAchievementID
+uint displayWorldMapAreaID
+uint playerFactionGroupID
+uint playerWorldMapAreaID
+
+LAYOUT EE16D6F3
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+displayAchievementID<32>
+displayWorldMapAreaID<32>
+playerFactionGroupID<8>
+$noninline,relation$playerWorldMapAreaID<32>

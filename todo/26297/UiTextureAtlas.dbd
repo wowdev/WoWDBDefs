@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint atlasHeight
+uint atlasWidth
+int fileDataID
+
+LAYOUT 23C7D5F4
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+fileDataID<32>
+atlasWidth<16>
+atlasHeight<16>

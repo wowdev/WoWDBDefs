@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint animKitBoneSetID
+uint boneDataID
+
+LAYOUT EA8B67BC
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+boneDataID<8>
+animKitBoneSetID<8>

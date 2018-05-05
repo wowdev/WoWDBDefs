@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint max_level
+uint min_level
+uint sortIndex
+locstring text_lang
+
+LAYOUT 7A3A70A7
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+text_lang
+min_level<16>
+max_level<16>
+sortIndex<8>

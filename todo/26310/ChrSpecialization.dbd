@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+int animReplacements
+int classID
+locstring description_lang
+locstring femaleName_lang
+uint flags
+int masterySpellID
+locstring name_lang
+int orderIndex
+int petTalentType
+int primaryStatPriority
+int role
+int spellIconFileID
+
+LAYOUT 2ADA8045
+BUILD 8.0.1.26310
+name_lang
+femaleName_lang
+description_lang
+masterySpellID<32>[2]
+$relation$classID<8>
+orderIndex<8>
+petTalentType<8>
+role<8>
+primaryStatPriority<8>
+$id$ID<32>
+flags<32>
+spellIconFileID<32>
+animReplacements<32>

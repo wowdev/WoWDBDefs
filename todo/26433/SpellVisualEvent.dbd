@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+int endEvent
+int endMaxOffsetMs
+int endMinOffsetMs
+int spellVisualID
+int spellVisualKitID
+int startEvent
+int startMaxOffsetMs
+int startMinOffsetMs
+int targetType
+
+LAYOUT 8352EE58
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+startEvent<32>
+endEvent<32>
+startMinOffsetMs<32>
+startMaxOffsetMs<32>
+endMinOffsetMs<32>
+endMaxOffsetMs<32>
+targetType<32>
+spellVisualKitID<32>
+$noninline,relation$spellVisualID<32>

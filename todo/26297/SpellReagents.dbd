@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int reagent
+int reagentCount
+int spellID
+
+LAYOUT 4B7DC644
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+spellID<32>
+reagent<32>[8]
+reagentCount<16>[8]

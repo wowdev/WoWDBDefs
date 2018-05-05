@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int fileDataID
+uint ribbonQualityID
+
+LAYOUT A26E8DD1
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+ribbonQualityID<8>
+$noninline,relation$fileDataID<32>

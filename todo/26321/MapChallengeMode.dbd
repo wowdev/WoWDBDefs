@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int criteriaCount
+uint flags
+uint mapID
+locstring name_lang
+
+LAYOUT 60E56722
+BUILD 8.0.1.26321
+name_lang
+$id$ID<32>
+$relation$mapID<16>
+criteriaCount<16>[3]
+flags<8>

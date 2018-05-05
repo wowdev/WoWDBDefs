@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int creatureDisplayInfoID
+int flags
+int fourcc
+int spellVisualKitID
+
+LAYOUT 16C6EC13
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+fourcc<32>
+spellVisualKitID<32>
+flags<8>
+$noninline,relation$creatureDisplayInfoID<32>

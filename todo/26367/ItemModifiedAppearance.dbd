@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint itemAppearanceID
+uint itemAppearanceModifierID
+int itemID
+uint orderIndex
+int transmogSourceTypeEnum
+
+LAYOUT 73D81AD3
+BUILD 8.0.1.26367
+$relation$itemID<32>
+$id$ID<32>
+itemAppearanceModifierID<8>
+itemAppearanceID<16>
+orderIndex<8>
+transmogSourceTypeEnum<8>

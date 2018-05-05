@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int itemID
+uint specID
+
+LAYOUT E499CD2A
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+specID<16>
+$noninline,relation$itemID<32>

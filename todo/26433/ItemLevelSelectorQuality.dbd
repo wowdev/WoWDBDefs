@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int parentILSQualitySetID
+int quality
+int qualityItemBonusListID
+
+LAYOUT C40169D5
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+qualityItemBonusListID<32>
+quality<8>
+$noninline,relation$parentILSQualitySetID<16>

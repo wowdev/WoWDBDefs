@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+locstring name_lang
+uint trackingQuestID
+
+LAYOUT 57E8ADB8
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+name_lang
+trackingQuestID<16>

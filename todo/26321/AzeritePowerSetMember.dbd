@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint Class
+uint azeritePowerID
+uint azeritePowerSetID
+uint orderIndex
+uint tier
+
+LAYOUT DB24A281
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+azeritePowerID<16>
+Class<8>
+tier<8>
+orderIndex<8>
+$noninline,relation$azeritePowerSetID<16>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int honorLevel
+int prestigeLevel
+int rewardPackID
+
+LAYOUT C4B4BD6A
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+honorLevel<32>
+prestigeLevel<32>
+rewardPackID<32>

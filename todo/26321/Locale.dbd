@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint clientDisplayExpansion
+int fontFileDataID
+uint secondary
+uint wowLocale
+
+LAYOUT B14346EF
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+fontFileDataID<32>
+wowLocale<8>
+clientDisplayExpansion<8>
+secondary<8>

@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int scheduledUniqueCategoryID
+int scheduledWorldStateID
+
+LAYOUT F512C749
+BUILD 8.0.1.26367
+$id$ID<32>
+scheduledUniqueCategoryID<32>
+$noninline,relation$scheduledWorldStateID<32>

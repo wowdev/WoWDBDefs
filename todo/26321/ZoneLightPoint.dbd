@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint pointOrder
+float pos
+uint zoneLightID
+
+LAYOUT B21DA554
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+pos[2]
+pointOrder<8>
+$noninline,relation$zoneLightID<16>

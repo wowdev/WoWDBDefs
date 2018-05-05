@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+locstring InfoName_lang
+uint Modifiers
+uint Profession
+uint Type
+
+LAYOUT 00207153
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+InfoName_lang
+Profession<16>
+Type<8>
+Modifiers<8>

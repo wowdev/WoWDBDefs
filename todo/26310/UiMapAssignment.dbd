@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+int areaID
+int mapID
+int orderIndex
+float region
+int uiMapID
+float uiMax
+float uiMin
+int wmoDoodadPlacementID
+int wmoGroupID
+
+LAYOUT FEC56AE4
+BUILD 8.0.1.26310
+$id$ID<32>
+$relation$uiMapID<32>
+orderIndex<32>
+uiMin[2]
+uiMax[2]
+mapID<32>
+areaID<32>
+wmoDoodadPlacementID<32>
+wmoGroupID<32>
+region[6]

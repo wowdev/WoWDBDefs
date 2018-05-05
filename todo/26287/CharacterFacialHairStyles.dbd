@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int Geoset
+uint VariationID
+uint raceID
+uint sexID
+
+LAYOUT 47D79688
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+Geoset<32>[5]
+raceID<8>
+sexID<8>
+VariationID<8>

@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+float modX
+uint swizzleAlpha
+uint swizzleBlue
+uint swizzleGreen
+uint swizzleRed
+int textureFileDataID
+float textureScaleU
+float textureScaleV
+float textureScrollRateU
+float textureScrollRateV
+
+LAYOUT 3879BF6C
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+textureFileDataID<32>[3]
+textureScrollRateU[3]
+textureScrollRateV[3]
+textureScaleU[3]
+textureScaleV[3]
+modX[4]
+swizzleRed<8>
+swizzleGreen<8>
+swizzleBlue<8>
+swizzleAlpha<8>

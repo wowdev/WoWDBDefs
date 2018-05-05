@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int duration
+uint durationPerLevel
+int maxDuration
+
+LAYOUT B83B4D1E
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+duration<32>
+maxDuration<32>
+durationPerLevel<32>

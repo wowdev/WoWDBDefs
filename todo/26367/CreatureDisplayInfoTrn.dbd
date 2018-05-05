@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int dissolveEffectID
+int dstCreatureDisplayInfoID
+uint finishVisualKitID
+float maxTime
+int srcCreatureDisplayInfoID
+uint startVisualKitID
+
+LAYOUT F384A100
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+dstCreatureDisplayInfoID<32>
+maxTime
+dissolveEffectID<32>
+startVisualKitID<32>
+finishVisualKitID<32>
+$noninline,relation$srcCreatureDisplayInfoID<32>

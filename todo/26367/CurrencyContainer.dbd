@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+locstring containerDescription_lang
+int containerIconID
+locstring containerName_lang
+int containerQuality
+int currencyTypeID
+int maxAmount
+int minAmount
+
+LAYOUT CDA1CC8C
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+containerName_lang
+containerDescription_lang
+minAmount<32>
+maxAmount<32>
+containerIconID<32>
+containerQuality<32>
+$noninline,relation$currencyTypeID<32>

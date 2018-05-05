@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint Parent
+int amount
+int asset
+int operator
+int secondaryAsset
+int tertiaryAsset
+uint type
+
+LAYOUT FFDB228E
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+Parent<32>
+asset<32>
+secondaryAsset<32>
+operator<8>
+amount<8>
+type<8>
+tertiaryAsset<8>

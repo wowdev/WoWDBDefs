@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int attachModelFileID
+int textureVariationFileID
+
+LAYOUT ECF16719
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+attachModelFileID<32>
+textureVariationFileID<32>[3]

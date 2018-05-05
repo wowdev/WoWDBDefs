@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint areaPoiID
+locstring description_lang
+uint iconEnumValue
+uint uiTextureAtlasMemberID
+uint worldStateValue
+
+LAYOUT 673BDA80
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+description_lang
+worldStateValue<8>
+iconEnumValue<8>
+uiTextureAtlasMemberID<32>
+$noninline,relation$areaPoiID<16>

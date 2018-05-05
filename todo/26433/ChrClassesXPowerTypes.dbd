@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint classID
+uint powerType
+
+LAYOUT EA762A53
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+powerType<8>
+$noninline,relation$classID<8>

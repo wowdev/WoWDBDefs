@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint chrUpgradeBucketID
+int spellID
+
+LAYOUT C665F469
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+spellID<32>
+$noninline,relation$chrUpgradeBucketID<16>

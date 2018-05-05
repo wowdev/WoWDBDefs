@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint LocaleMask
+string Name
+
+LAYOUT 5AAEEDD3
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+Name
+LocaleMask<8>

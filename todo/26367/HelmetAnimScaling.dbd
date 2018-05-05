@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+float amount
+int helmetGeosetVisDataID
+int raceID
+
+LAYOUT 9CA1AD4C
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+amount
+raceID<32>
+$noninline,relation$helmetGeosetVisDataID<32>

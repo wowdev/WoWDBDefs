@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint deviceID
+uint vendorID
+
+LAYOUT 2A350905
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+vendorID<16>
+deviceID<16>

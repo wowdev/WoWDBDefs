@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int chrSpecializationID
+int spellAuraVisibilityID
+
+LAYOUT 8F54FD52
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+chrSpecializationID<16>
+$noninline,relation$spellAuraVisibilityID<16>

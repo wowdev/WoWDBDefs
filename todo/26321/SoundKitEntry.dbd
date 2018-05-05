@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int fileDataID
+uint frequency
+uint soundKitID
+float volume
+
+LAYOUT CBC66B5F
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+$relation$soundKitID<32>
+fileDataID<32>
+frequency<8>
+volume

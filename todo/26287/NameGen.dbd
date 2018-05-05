@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+string name
+uint raceID
+uint sex
+
+LAYOUT 2EF936CD
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+name
+raceID<8>
+sex<8>

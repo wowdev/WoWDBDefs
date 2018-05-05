@@ -1,0 +1,32 @@
+COLUMNS
+int ID
+float femaleFollowerPageHeight
+float femaleFollowerPageScale
+float femaleHeight
+float femaleScale
+float femaleSingleModelHeight
+float femaleSingleModelScale
+uint garrFollRaceID
+float maleFollowerPageHeight
+float maleFollowerPageScale
+float maleHeight
+float maleScale
+float maleSingleModelHeight
+float maleSingleModelScale
+
+LAYOUT 44B9C1DE
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+maleScale
+maleHeight
+maleSingleModelScale
+maleSingleModelHeight
+maleFollowerPageScale
+maleFollowerPageHeight
+femaleScale
+femaleHeight
+femaleSingleModelScale
+femaleSingleModelHeight
+femaleFollowerPageScale
+femaleFollowerPageHeight
+garrFollRaceID<8>

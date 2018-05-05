@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+uint auctionHouseSortOrder
+int classID
+int displayFlags
+locstring displayName_lang
+int flags
+int postrequisiteProficiency
+int prerequisiteProficiency
+int subClassID
+locstring verboseName_lang
+int weaponSwingSize
+
+LAYOUT DAD92A67
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+displayName_lang
+verboseName_lang
+flags<16>
+$relation$classID<8>
+subClassID<8>
+prerequisiteProficiency<8>
+postrequisiteProficiency<8>
+displayFlags<8>
+weaponSwingSize<8>
+auctionHouseSortOrder<8>

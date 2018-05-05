@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+float radius
+float radiusMax
+float radiusMin
+float radiusPerLevel
+
+LAYOUT AE4257F8
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+radius
+radiusPerLevel
+radiusMin
+radiusMax

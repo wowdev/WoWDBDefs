@@ -1,0 +1,28 @@
+COLUMNS
+int ID
+float direction
+uint emitterType
+uint flags
+int mapID
+string name
+uint phaseGroupID
+uint phaseID
+uint phaseUseFlags
+float position
+uint soundEntriesID
+uint worldStateExpressionID
+
+LAYOUT F8C3FC7E
+BUILD 8.0.1.26433
+name
+position[3]
+direction[3]
+worldStateExpressionID<16>
+phaseID<16>
+emitterType<8>
+phaseUseFlags<8>
+flags<8>
+$id$ID<32>
+soundEntriesID<32>
+phaseGroupID<32>
+$noninline,relation$mapID<16>

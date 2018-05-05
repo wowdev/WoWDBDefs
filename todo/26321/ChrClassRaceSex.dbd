@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int classID
+int flags
+int raceID
+int sex
+uint soundID
+uint voiceSoundFilterID
+
+LAYOUT 204BD561
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+classID<8>
+raceID<8>
+sex<8>
+flags<32>
+soundID<32>
+voiceSoundFilterID<32>

@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint garrFollItemSetID
+int itemID
+uint itemSlot
+uint minItemLevel
+
+LAYOUT 3AE49777
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+itemID<32>
+minItemLevel<16>
+itemSlot<8>
+$noninline,relation$garrFollItemSetID<16>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int caseIndex
+string declinedWord
+int declinedWordID
+
+LAYOUT 3E19B9C5
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+declinedWord
+caseIndex<8>
+$noninline,relation$declinedWordID<32>

@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint groupFinderActivityID
+uint questID
+
+LAYOUT AA88A593
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+questID<32>
+groupFinderActivityID<32>

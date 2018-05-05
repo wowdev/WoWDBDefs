@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint azeritePowerSetID
+uint azeriteTierUnlockSetID
+int itemID
+
+LAYOUT 4078BECD
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+itemID<32>
+azeriteTierUnlockSetID<32>
+azeritePowerSetID<32>

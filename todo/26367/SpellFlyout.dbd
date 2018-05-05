@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int classMask
+locstring description_lang
+uint flags
+locstring name_lang
+int raceMask
+int spellIconFileID
+
+LAYOUT 1F516F53
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+raceMask<64>
+name_lang
+description_lang
+flags<8>
+classMask<32>
+spellIconFileID<32>

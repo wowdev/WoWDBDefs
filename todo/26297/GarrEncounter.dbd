@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int creatureID
+locstring name_lang
+int portraitFileDataID
+float uiAnimHeight
+float uiAnimScale
+uint uiTextureKitID
+
+LAYOUT C28292F9
+BUILD 8.0.1.26297
+name_lang
+creatureID<32>
+portraitFileDataID<32>
+uiAnimScale
+uiAnimHeight
+$id$ID<32>
+uiTextureKitID<32>

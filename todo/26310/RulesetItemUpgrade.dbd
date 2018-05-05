@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int itemID
+uint itemUpgradeID
+
+LAYOUT A03B4C48
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+itemID<32>
+itemUpgradeID<16>

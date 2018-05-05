@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint characterLoadoutID
+uint itemID
+
+LAYOUT 5C555791
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+itemID<32>
+$relation$characterLoadoutID<16>

@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint modalNextSpell
+int spellClassMask
+uint spellClassSet
+int spellID
+
+LAYOUT E3225DE2
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+spellID<32>
+spellClassMask<32>[4]
+spellClassSet<8>
+modalNextSpell<32>

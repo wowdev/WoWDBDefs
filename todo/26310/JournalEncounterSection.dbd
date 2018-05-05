@@ -1,0 +1,36 @@
+COLUMNS
+int ID
+locstring bodyText_lang
+int difficultyMask
+uint firstChildSectionID
+uint flags
+uint iconCreatureDisplayInfoID
+int iconFileDataID
+uint iconFlags
+uint journalEncounterID
+uint nextSiblingSectionID
+uint orderIndex
+uint parentSectionID
+int spellID
+locstring title_lang
+uint type
+int uiModelSceneID
+
+LAYOUT 63E55BE4
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+title_lang
+bodyText_lang
+iconCreatureDisplayInfoID<32>
+spellID<32>
+iconFileDataID<32>
+journalEncounterID<16>
+parentSectionID<16>
+firstChildSectionID<16>
+nextSiblingSectionID<16>
+flags<16>
+iconFlags<16>
+orderIndex<8>
+type<8>
+difficultyMask<8>
+uiModelSceneID<32>

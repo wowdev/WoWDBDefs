@@ -1,0 +1,32 @@
+COLUMNS
+int ID
+int altPowerBarID
+int manaCost
+int manaCostPerLevel
+int manaPerSecond
+uint optionalCost
+uint orderIndex
+float powerCostMaxPct
+float powerCostPct
+uint powerDisplayID
+float powerPctPerSecond
+int powerType
+int requiredAuraSpellID
+int spellID
+
+LAYOUT F3C96414
+BUILD 8.0.1.26297
+manaCost<32>
+powerCostPct
+powerCostMaxPct
+powerPctPerSecond
+requiredAuraSpellID<32>
+orderIndex<8>
+powerType<8>
+$id$ID<32>
+manaCostPerLevel<32>
+manaPerSecond<32>
+powerDisplayID<32>
+altPowerBarID<32>
+optionalCost<32>
+$noninline,relation$spellID<32>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint animKitBoneSetID
+uint animKitPriorityID
+uint parentAnimKitConfigID
+
+LAYOUT 26240E43
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+animKitPriorityID<16>
+animKitBoneSetID<8>
+$noninline,relation$parentAnimKitConfigID<16>

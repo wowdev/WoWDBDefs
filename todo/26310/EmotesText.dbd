@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint emoteID
+string name
+
+LAYOUT E255C6B0
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+name
+emoteID<16>

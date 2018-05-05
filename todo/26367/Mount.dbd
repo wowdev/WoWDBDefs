@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+locstring description_lang
+uint flags
+float mountFlyRideHeight
+uint mountTypeID
+locstring name_lang
+uint playerConditionID
+int sourceSpellID
+locstring sourceText_lang
+int sourceTypeEnum
+int uiModelSceneID
+
+LAYOUT ED5D6900
+BUILD 8.0.1.26367
+name_lang
+sourceText_lang
+description_lang
+sourceSpellID<32>
+mountFlyRideHeight
+mountTypeID<16>
+flags<16>
+sourceTypeEnum<8>
+$id$ID<32>
+playerConditionID<32>
+uiModelSceneID<32>

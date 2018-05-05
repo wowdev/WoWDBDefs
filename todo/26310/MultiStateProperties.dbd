@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+int collisionHull
+float facing
+uint flags
+int gameEventID
+int gameObjectID
+int multiPropertiesID
+float offset
+uint stateIndex
+int transitionInID
+int transitionOutID
+
+LAYOUT D06E1904
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+offset[3]
+stateIndex<8>
+gameObjectID<32>
+gameEventID<32>
+facing
+transitionInID<32>
+transitionOutID<32>
+collisionHull<32>
+flags<32>
+$noninline,relation$multiPropertiesID<32>

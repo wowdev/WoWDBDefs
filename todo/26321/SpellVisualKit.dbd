@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint delayMax
+uint delayMin
+float fallbackPriority
+uint fallbackSpellVisualKitID
+int flags
+
+LAYOUT 3F538334
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+flags<32>
+fallbackPriority
+fallbackSpellVisualKitID<32>
+delayMin<16>
+delayMax<16>

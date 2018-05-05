@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint garrPlotInstanceID
+uint garrSiteLevelID
+float uiMarkerPos
+uint uiMarkerSize
+
+LAYOUT A3DF8AD1
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+uiMarkerPos[2]
+$relation$garrSiteLevelID<16>
+garrPlotInstanceID<8>
+uiMarkerSize<8>

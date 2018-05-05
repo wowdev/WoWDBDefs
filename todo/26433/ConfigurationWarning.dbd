@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint type
+locstring warning_lang
+
+LAYOUT 99BCBA2D
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+warning_lang
+type<32>

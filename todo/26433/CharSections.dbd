@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+int baseSection
+int colorIndex
+int flags
+int materialResourcesID
+int raceID
+int sexID
+int variationIndex
+
+LAYOUT 9C89AB0F
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+materialResourcesID<32>[3]
+flags<16>
+raceID<8>
+sexID<8>
+baseSection<8>
+variationIndex<8>
+colorIndex<8>

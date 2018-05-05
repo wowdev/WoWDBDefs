@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int FrameTextureKit
+int TextureKit
+int VisType
+
+LAYOUT 559C409B
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+TextureKit<32>
+FrameTextureKit<32>
+VisType<8>

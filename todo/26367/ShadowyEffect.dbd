@@ -1,0 +1,32 @@
+COLUMNS
+int ID
+int attachPos
+int curveID
+float duration
+float fadeInTime
+float fadeOutTime
+int flags
+float initialDelay
+float innerStrength
+float outerStrength
+int primaryColor
+uint priority
+int secondaryColor
+float value
+
+LAYOUT 2B114F0C
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+primaryColor<32>
+secondaryColor<32>
+duration
+value
+fadeInTime
+fadeOutTime
+innerStrength
+outerStrength
+initialDelay
+attachPos<8>
+flags<8>
+curveID<32>
+priority<32>

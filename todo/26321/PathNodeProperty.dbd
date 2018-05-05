@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint pathID
+uint propertyIndex
+uint sequence
+int value
+
+LAYOUT CB2C92BD
+BUILD 8.0.1.26321
+pathID<16>
+sequence<16>
+propertyIndex<8>
+$id$ID<32>
+value<32>

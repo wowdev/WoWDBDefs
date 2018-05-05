@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint chrSpecID
+uint itemSetID
+uint spellID
+uint threshold
+
+LAYOUT F65D0AF8
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+spellID<32>
+chrSpecID<16>
+threshold<8>
+$noninline,relation$itemSetID<16>

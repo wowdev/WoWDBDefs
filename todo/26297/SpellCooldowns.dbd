@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int categoryRecoveryTime
+uint difficultyID
+int recoveryTime
+int spellID
+int startRecoveryTime
+
+LAYOUT 2FE23858
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+categoryRecoveryTime<32>
+recoveryTime<32>
+startRecoveryTime<32>
+difficultyID<8>
+$noninline,relation$spellID<32>

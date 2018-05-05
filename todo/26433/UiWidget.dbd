@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int mapID
+uint orderIndex
+uint parentSetID
+int playerConditionID
+int visID
+string widgetTag
+
+LAYOUT 809F04E9
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+widgetTag
+visID<32>
+mapID<32>
+playerConditionID<32>
+orderIndex<32>
+parentSetID<16>

@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int loadingScreenID
+int mapID
+float max
+float min
+int orderIndex
+
+LAYOUT C4CFD9A8
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+min[2]
+max[2]
+loadingScreenID<32>
+orderIndex<32>
+$noninline,relation$mapID<32>

@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+uint ContinentID
+uint Flags
+float MapOffset
+int MountCreatureID
+locstring Name_lang
+uint characterBitNumber
+uint conditionID
+float facing
+float flightMapOffset
+float pos
+uint specialIconConditionID
+int uiTextureKitID
+
+LAYOUT E96BA283
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+Name_lang
+pos[3]
+MountCreatureID<32>[2]
+MapOffset[2]
+facing
+flightMapOffset[2]
+ContinentID<16>
+conditionID<16>
+characterBitNumber<16>
+Flags<8>
+uiTextureKitID<32>
+specialIconConditionID<32>

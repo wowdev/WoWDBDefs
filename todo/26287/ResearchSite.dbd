@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint areaPOIIconEnum
+int mapID
+locstring name_lang
+int questPoiBlobID
+
+LAYOUT 25F7DCC7
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+name_lang
+questPoiBlobID<32>
+mapID<16>
+areaPOIIconEnum<32>

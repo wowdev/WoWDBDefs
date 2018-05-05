@@ -1,0 +1,12 @@
+COLUMNS
+uint ID
+locstring description_lang
+uint factionID
+int textureFileID
+
+LAYOUT BDC354E0
+BUILD 8.0.1.26321
+description_lang
+textureFileID<32>
+factionID<16>
+$id$ID<32>

@@ -1,0 +1,52 @@
+COLUMNS
+int ID
+uint ambienceID
+float ambient_multiplier
+int areaBit
+locstring areaName_lang
+uint continentID
+int explorationLevel
+uint factionGroupMask
+int flags
+uint introSound
+uint liquidTypeID
+uint mountFlags
+uint parentAreaID
+int pvpCombatWorldStateID
+uint soundProviderPref
+uint soundProviderPrefUnderwater
+uint uwAmbience
+uint uwIntroSound
+uint uwZoneMusic
+uint wildBattlePetLevelMax
+uint wildBattlePetLevelMin
+uint windSettingsID
+uint zoneMusic
+string zoneName
+
+LAYOUT D5D5033B
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+zoneName
+areaName_lang
+flags<32>[2]
+ambient_multiplier
+continentID<16>
+parentAreaID<16>
+areaBit<16>
+ambienceID<16>
+uwAmbience<16>
+zoneMusic<16>
+uwZoneMusic<16>
+introSound<16>
+liquidTypeID<16>[4]
+pvpCombatWorldStateID<16>
+soundProviderPref<8>
+soundProviderPrefUnderwater<8>
+explorationLevel<8>
+factionGroupMask<8>
+mountFlags<8>
+wildBattlePetLevelMin<8>
+wildBattlePetLevelMax<8>
+windSettingsID<8>
+uwIntroSound<32>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+float factor
+int garrAbilityID
+uint garrMechanicTypeID
+
+LAYOUT 6756A38D
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+factor
+garrMechanicTypeID<8>
+garrAbilityID<32>

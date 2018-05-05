@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint chrSpecializationID
+uint chrUpgradeTierID
+
+LAYOUT F648EBF4
+BUILD 8.0.1.26297
+chrSpecializationID<16>
+$id$ID<32>
+$noninline,relation$chrUpgradeTierID<8>

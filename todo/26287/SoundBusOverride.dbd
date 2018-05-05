@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+uint PlaybackLimit
+uint PlayerConditionID
+uint Priority
+uint PriorityPenalty
+int SoundBusID
+float Volume
+
+LAYOUT 6D887F48
+BUILD 8.0.1.26287
+$id$ID<32>
+Volume
+PlaybackLimit<8>
+Priority<8>
+PriorityPenalty<8>
+$relation$SoundBusID<32>
+PlayerConditionID<32>

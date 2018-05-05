@@ -1,0 +1,128 @@
+COLUMNS
+int ID
+int attachmentID
+float attachmentOffset
+float cameraEnteringDelay
+float cameraEnteringDuration
+float cameraEnteringZoom
+float cameraExitingDelay
+float cameraExitingDuration
+float cameraFacingChaseRate
+int cameraModeID
+float cameraOffset
+float cameraPosChaseRate
+float cameraSeatZoomMax
+float cameraSeatZoomMin
+int enterAnimKitID
+int enterAnimLoop
+int enterAnimStart
+float enterGravity
+float enterMaxArcHeight
+float enterMaxDuration
+float enterMinArcHeight
+float enterMinDuration
+float enterPreDelay
+float enterSpeed
+uint enterUISoundID
+int exitAnimEnd
+int exitAnimKitID
+int exitAnimLoop
+int exitAnimStart
+float exitGravity
+float exitMaxArcHeight
+float exitMaxDuration
+float exitMinArcHeight
+float exitMinDuration
+float exitPreDelay
+float exitSpeed
+uint exitUISoundID
+int flags
+int flagsB
+int flagsC
+int passengerAttachmentID
+float passengerPitch
+float passengerRoll
+float passengerYaw
+int rideAnimKitID
+int rideAnimLoop
+int rideAnimStart
+int rideUpperAnimLoop
+int rideUpperAnimStart
+int uiSkinFileDataID
+int vehicleAbilityDisplay
+int vehicleEnterAnim
+int vehicleEnterAnimBone
+float vehicleEnterAnimDelay
+int vehicleEnterAnimKitID
+int vehicleExitAnim
+int vehicleExitAnimBone
+float vehicleExitAnimDelay
+int vehicleExitAnimKitID
+int vehicleRideAnimKitID
+int vehicleRideAnimLoop
+int vehicleRideAnimLoopBone
+
+LAYOUT 242E0ECD
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+flags<32>
+flagsB<32>
+flagsC<32>
+attachmentOffset[3]
+enterPreDelay
+enterSpeed
+enterGravity
+enterMinDuration
+enterMaxDuration
+enterMinArcHeight
+enterMaxArcHeight
+exitPreDelay
+exitSpeed
+exitGravity
+exitMinDuration
+exitMaxDuration
+exitMinArcHeight
+exitMaxArcHeight
+passengerYaw
+passengerPitch
+passengerRoll
+vehicleEnterAnimDelay
+vehicleExitAnimDelay
+cameraEnteringDelay
+cameraEnteringDuration
+cameraExitingDelay
+cameraExitingDuration
+cameraOffset[3]
+cameraPosChaseRate
+cameraFacingChaseRate
+cameraEnteringZoom
+cameraSeatZoomMin
+cameraSeatZoomMax
+uiSkinFileDataID<32>
+enterAnimStart<16>
+enterAnimLoop<16>
+rideAnimStart<16>
+rideAnimLoop<16>
+rideUpperAnimStart<16>
+rideUpperAnimLoop<16>
+exitAnimStart<16>
+exitAnimLoop<16>
+exitAnimEnd<16>
+vehicleEnterAnim<16>
+vehicleExitAnim<16>
+vehicleRideAnimLoop<16>
+enterAnimKitID<16>
+rideAnimKitID<16>
+exitAnimKitID<16>
+vehicleEnterAnimKitID<16>
+vehicleRideAnimKitID<16>
+vehicleExitAnimKitID<16>
+cameraModeID<16>
+attachmentID<8>
+passengerAttachmentID<8>
+vehicleEnterAnimBone<8>
+vehicleExitAnimBone<8>
+vehicleRideAnimLoopBone<8>
+vehicleAbilityDisplay<8>
+enterUISoundID<32>
+exitUISoundID<32>

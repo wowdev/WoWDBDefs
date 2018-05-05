@@ -1,0 +1,34 @@
+COLUMNS
+int ID
+int acquireMethod
+int classMask
+int flags
+int minSkillLineRank
+int numSkillUps
+int raceMask
+int skillLine
+int skillupSkillLineID
+int spell
+int supercedesSpell
+int tradeSkillCategoryID
+int trivialSkillLineRankHigh
+int trivialSkillLineRankLow
+int uniqueBit
+
+LAYOUT 2379779C
+BUILD 8.0.1.26321
+raceMask<64>
+$id$ID<32>
+spell<32>
+supercedesSpell<32>
+$relation$skillLine<16>
+trivialSkillLineRankHigh<16>
+trivialSkillLineRankLow<16>
+uniqueBit<16>
+tradeSkillCategoryID<16>
+numSkillUps<8>
+minSkillLineRank<16>
+classMask<32>
+acquireMethod<8>
+flags<8>
+skillupSkillLineID<16>

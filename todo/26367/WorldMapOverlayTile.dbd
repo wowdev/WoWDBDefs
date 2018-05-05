@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint colIndex
+int fileDataID
+uint layerIndex
+uint rowIndex
+int worldMapOverlayID
+
+LAYOUT 49FF1B46
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+fileDataID<32>
+rowIndex<8>
+colIndex<8>
+layerIndex<8>
+$noninline,relation$worldMapOverlayID<32>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint battlePetSpeciesID
+uint battlePetStateID
+int value
+
+LAYOUT 5A550ED0
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+value<32>
+battlePetStateID<8>
+$noninline,relation$battlePetSpeciesID<16>

@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint artifactID
+uint itemBonusListID
+uint playerConditionID
+uint powerID
+uint powerRank
+
+LAYOUT D5F0F083
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+itemBonusListID<16>
+powerRank<8>
+powerID<32>
+playerConditionID<32>
+$noninline,relation$artifactID<8>

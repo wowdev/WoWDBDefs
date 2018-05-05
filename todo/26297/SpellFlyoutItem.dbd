@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint slot
+uint spellFlyoutID
+int spellID
+
+LAYOUT 650A0B4D
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+spellID<32>
+slot<8>
+$noninline,relation$spellFlyoutID<8>

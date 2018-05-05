@@ -1,0 +1,8 @@
+COLUMNS
+int ID
+uint difficulty
+
+LAYOUT CB76B4C0
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+difficulty<16>[10]

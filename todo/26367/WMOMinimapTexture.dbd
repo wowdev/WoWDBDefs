@@ -1,0 +1,17 @@
+COLUMNS
+int ID
+int WMOID
+uint blockX
+uint blockY
+int fileDataID
+uint groupNum
+
+LAYOUT 56C82A0C
+BUILD 8.0.1.26367
+COMMENT table is sparse
+$noninline,id$ID<32>
+fileDataID<32>
+groupNum<16>
+blockX<8>
+blockY<8>
+$noninline,relation$WMOID<16>

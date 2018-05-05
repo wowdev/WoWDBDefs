@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int bigTextureFileID
+uint currencyID
+int itemID
+locstring name_lang
+uint researchFieldID
+int textureFileID
+
+LAYOUT F6E6EC0D
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+name_lang
+itemID<32>
+currencyID<16>
+researchFieldID<8>
+textureFileID<32>
+bigTextureFileID<32>

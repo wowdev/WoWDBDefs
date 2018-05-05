@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint artifactPowerID
+uint artifactPowerLabel
+int flags
+int pVal
+int type
+
+LAYOUT 0C2B5459
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+artifactPowerID<16>
+artifactPowerLabel<8>
+type<32>
+pVal<32>
+flags<32>

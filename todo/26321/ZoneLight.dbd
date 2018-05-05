@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint flags
+uint lightID
+uint mapID
+string name
+
+LAYOUT D553DE84
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+name
+mapID<16>
+lightID<16>
+flags<8>

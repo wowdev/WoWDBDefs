@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint dstAnimID
+uint flags
+uint parentAnimReplacementSetID
+uint srcAnimID
+
+LAYOUT E766EBF9
+BUILD 8.0.1.26367
+srcAnimID<16>
+dstAnimID<16>
+flags<16>
+$id$ID<32>
+$noninline,relation$parentAnimReplacementSetID<16>

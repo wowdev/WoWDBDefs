@@ -1,0 +1,22 @@
+COLUMNS
+uint ContinentID
+int ID
+float Loc
+uint NodeIndex
+uint PathID
+uint arrivalEventID
+uint delay
+uint departureEventID
+uint flags
+
+LAYOUT A5604F55
+BUILD 8.0.1.26433
+Loc[3]
+$relation$PathID<16>
+ContinentID<16>
+NodeIndex<8>
+$id$ID<32>
+flags<8>
+delay<32>
+arrivalEventID<16>
+departureEventID<16>

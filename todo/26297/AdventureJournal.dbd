@@ -1,0 +1,50 @@
+COLUMNS
+int ID
+uint battleMasterListID
+uint bonusPlayerConditionID
+uint bonusValue
+uint buttonActionType
+locstring buttonText_lang
+locstring continueDescription_lang
+uint currencyQuantity
+uint currencyType
+locstring description_lang
+uint flags
+int itemId
+uint itemQuantity
+uint lfgDungeonID
+locstring name_lang
+uint playerConditionID
+uint priorityMax
+uint priorityMin
+uint questID
+locstring rewardDescription_lang
+int textureFileDataID
+uint type
+uint worldMapAreaID
+
+LAYOUT 2C723565
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+name_lang
+description_lang
+buttonText_lang
+rewardDescription_lang
+continueDescription_lang
+textureFileDataID<32>
+itemId<32>
+lfgDungeonID<16>
+questID<16>
+battleMasterListID<16>
+bonusPlayerConditionID<16>[2]
+currencyType<16>
+worldMapAreaID<16>
+type<8>
+flags<8>
+buttonActionType<8>
+priorityMin<8>
+priorityMax<8>
+bonusValue<8>[2]
+currencyQuantity<8>
+playerConditionID<32>
+itemQuantity<32>

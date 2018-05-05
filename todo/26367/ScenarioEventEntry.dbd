@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint triggerAsset
+uint triggerType
+
+LAYOUT 6029B50B
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+triggerAsset<32>
+triggerType<8>

@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int TextureKit
+int VisType
+
+LAYOUT B10C7348
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+TextureKit<32>
+VisType<8>

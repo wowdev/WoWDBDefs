@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint consignmentRate
+uint depositRate
+uint factionID
+locstring name_lang
+
+LAYOUT 61E641BA
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+name_lang
+factionID<16>
+depositRate<8>
+consignmentRate<8>

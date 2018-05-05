@@ -1,0 +1,28 @@
+COLUMNS
+int ID
+uint alphaCurveID
+uint blueCurveID
+int color
+float colorMultiplier
+float duration
+uint flags
+uint greenCurveID
+uint opacityCurveID
+uint positionerID
+uint redCurveID
+uint type
+
+LAYOUT E150405A
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+duration
+color<32>
+colorMultiplier
+redCurveID<16>
+greenCurveID<16>
+blueCurveID<16>
+alphaCurveID<16>
+opacityCurveID<16>
+flags<8>
+type<8>
+positionerID<32>

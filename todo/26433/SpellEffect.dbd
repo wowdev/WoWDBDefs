@@ -1,0 +1,64 @@
+COLUMNS
+int ID
+float bonusCoefficientFromAP
+float coefficient
+int difficultyID
+uint effect
+float effectAmplitude
+int effectAttributes
+int effectAura
+int effectAuraPeriod
+int effectBasePoints
+float effectBonusCoefficient
+float effectChainAmplitude
+int effectChainTargets
+int effectDieSides
+int effectIndex
+int effectItemType
+int effectMechanic
+int effectMiscValue
+float effectPointsPerResource
+float effectPos_facing
+uint effectRadiusIndex
+float effectRealPointsPerLevel
+int effectSpellClassMask
+int effectTriggerSpell
+float groupSizeBasePointsCoefficient
+uint implicitTarget
+float pvpMultiplier
+float resourceCoefficient
+int spellID
+float variance
+
+LAYOUT EC349C1D
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+difficultyID<32>
+effectIndex<32>
+effect<32>
+effectAmplitude
+effectAttributes<32>
+effectAura<32>
+effectAuraPeriod<32>
+effectBasePoints<32>
+effectBonusCoefficient
+effectChainAmplitude
+effectChainTargets<32>
+effectDieSides<32>
+effectItemType<32>
+effectMechanic<32>
+effectPointsPerResource
+effectPos_facing
+effectRealPointsPerLevel
+effectTriggerSpell<32>
+bonusCoefficientFromAP
+pvpMultiplier
+coefficient
+variance
+resourceCoefficient
+groupSizeBasePointsCoefficient
+effectMiscValue<32>[2]
+effectRadiusIndex<32>[2]
+effectSpellClassMask<32>[4]
+implicitTarget<32>[2]
+$noninline,relation$spellID<32>

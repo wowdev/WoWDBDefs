@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint childItemEquipSlot
+int childItemID
+int parentItemID
+
+LAYOUT 48E64550
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+childItemID<32>
+childItemEquipSlot<8>
+$noninline,relation$parentItemID<32>

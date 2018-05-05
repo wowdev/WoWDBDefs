@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint battlePetVisualID
+uint cooldown
+locstring description_lang
+uint flags
+int iconFileDataID
+locstring name_lang
+int petTypeEnum
+
+LAYOUT 0D7D71D9
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+name_lang
+description_lang
+iconFileDataID<32>
+battlePetVisualID<16>
+petTypeEnum<8>
+flags<8>
+cooldown<32>

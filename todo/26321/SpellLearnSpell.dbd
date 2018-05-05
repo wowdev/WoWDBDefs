@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int learnSpellID
+int overridesSpellID
+int spellID
+
+LAYOUT CC8637D2
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+spellID<32>
+learnSpellID<32>
+overridesSpellID<32>

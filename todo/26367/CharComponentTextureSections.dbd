@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+int charComponentTextureLayoutID
+int height
+uint overlapSectionMask
+int sectionType
+int width
+int x
+int y
+
+LAYOUT 15FC15AB
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+overlapSectionMask<32>
+x<16>
+y<16>
+width<16>
+height<16>
+charComponentTextureLayoutID<8>
+sectionType<8>

@@ -1,0 +1,48 @@
+COLUMNS
+int ID
+int animID
+uint animKitID
+int attachmentID
+int endAnimID
+uint flags
+uint lowDefModelAttachID
+float offset
+float offsetVariation
+int parentSpellVisualKitID
+float pitch
+float pitchVariation
+uint positionerID
+float roll
+float rollVariation
+float scale
+float scaleVariation
+uint spellVisualEffectNameID
+int startAnimID
+float startDelay
+float yaw
+float yawVariation
+
+LAYOUT BCE18649
+BUILD 8.0.1.26287
+offset[3]
+offsetVariation[3]
+$id$ID<32>
+spellVisualEffectNameID<16>
+attachmentID<8>
+flags<8>
+positionerID<16>
+yaw
+pitch
+roll
+yawVariation
+pitchVariation
+rollVariation
+scale
+scaleVariation
+startAnimID<16>
+animID<16>
+endAnimID<16>
+animKitID<16>
+lowDefModelAttachID<32>
+startDelay
+$noninline,relation$parentSpellVisualKitID<32>

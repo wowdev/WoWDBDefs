@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+int fileDataID
+float pitch
+float roll
+int textureFileDataID
+float textureScaleU
+float textureScaleV
+float textureScrollRateU
+float textureScrollRateV
+float yaw
+
+LAYOUT 49754C60
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+fileDataID<32>
+yaw
+pitch
+roll
+textureFileDataID<32>[3]
+textureScrollRateU[3]
+textureScrollRateV[3]
+textureScaleU[3]
+textureScaleV[3]

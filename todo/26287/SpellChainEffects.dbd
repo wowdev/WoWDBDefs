@@ -1,0 +1,126 @@
+COLUMNS
+int ID
+uint alpha
+float arcHeight
+float avgSegLen
+uint blendMode
+uint blue
+float delayBetweenEffects
+float endWidth
+uint flags
+uint green
+uint jointCount
+float jointMoveSpeed
+float jointOffsetRadius
+float jointSmoothness
+uint jointsPerMinorJoint
+float majorJointScale
+float maxArcAngle
+float maxArcSpin
+float maxDurationBetweenJointJumps
+float maxFlickerOffDuration
+float maxFlickerOnDuration
+float maxWaveAngle
+float maxWaveSpin
+float minArcAngle
+float minArcSpin
+float minDurationBetweenJointJumps
+float minFlickerOffDuration
+float minFlickerOnDuration
+float minWaveAngle
+float minWaveSpin
+float minorJointScale
+uint minorJointsPerMajorJoint
+float noiseScale
+uint numFlipFramesU
+uint numFlipFramesV
+float particleEmissionRateMultiplier
+float particleScaleMultiplier
+float pulseFadeLength
+float pulseOnLength
+float pulseSpeed
+uint red
+uint renderLayer
+uint segDelay
+uint segDuration
+uint soundKitID
+uint spellChainEffectID
+float startWidth
+float texCoordScale
+float textureCoordScaleU
+float textureCoordScaleV
+int textureFileDataID
+uint textureParticleFileDataID
+float textureRepeatLengthU
+float textureRepeatLengthV
+float timePerFlipFrame
+float variancePerFlipFrame
+float waveFreq
+float waveHeight
+float wavePhase
+float waveSpeed
+uint widthScaleCurveID
+
+LAYOUT 4E8FF369
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+avgSegLen
+noiseScale
+texCoordScale
+segDuration<32>
+flags<32>
+jointOffsetRadius
+minorJointScale
+majorJointScale
+jointMoveSpeed
+jointSmoothness
+minDurationBetweenJointJumps
+maxDurationBetweenJointJumps
+waveHeight
+waveFreq
+waveSpeed
+minWaveAngle
+maxWaveAngle
+minWaveSpin
+maxWaveSpin
+arcHeight
+minArcAngle
+maxArcAngle
+minArcSpin
+maxArcSpin
+delayBetweenEffects
+minFlickerOnDuration
+maxFlickerOnDuration
+minFlickerOffDuration
+maxFlickerOffDuration
+pulseSpeed
+pulseOnLength
+pulseFadeLength
+wavePhase
+timePerFlipFrame
+variancePerFlipFrame
+textureCoordScaleU[3]
+textureCoordScaleV[3]
+textureRepeatLengthU[3]
+textureRepeatLengthV[3]
+textureParticleFileDataID<32>
+startWidth
+endWidth
+particleScaleMultiplier
+particleEmissionRateMultiplier
+segDelay<16>
+jointCount<16>
+spellChainEffectID<16>[11]
+widthScaleCurveID<16>
+jointsPerMinorJoint<8>
+minorJointsPerMajorJoint<8>
+alpha<8>
+red<8>
+green<8>
+blue<8>
+blendMode<8>
+renderLayer<8>
+numFlipFramesU<8>
+numFlipFramesV<8>
+soundKitID<32>
+textureFileDataID<32>[3]

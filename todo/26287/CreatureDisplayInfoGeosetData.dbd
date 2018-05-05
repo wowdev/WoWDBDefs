@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint creatureDisplayInfoID
+uint geosetIndex
+uint geosetValue
+
+LAYOUT 2E044324
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+geosetIndex<8>
+geosetValue<8>
+$noninline,relation$creatureDisplayInfoID<32>

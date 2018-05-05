@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+uint areaGroupID
+uint areaID
+
+LAYOUT 50AA43EE
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+areaID<16>
+$noninline,relation$areaGroupID<16>

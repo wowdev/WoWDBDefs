@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+int allianceConstructObjID
+uint flags
+int hordeConstructObjID
+string name
+uint plotType
+uint uiCategoryID
+uint upgradeRequirement
+
+LAYOUT 335AAA94
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+name
+hordeConstructObjID<32>
+allianceConstructObjID<32>
+plotType<8>
+flags<8>
+uiCategoryID<8>
+upgradeRequirement<32>[2]

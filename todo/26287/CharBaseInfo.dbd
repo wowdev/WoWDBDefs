@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int classID
+int raceID
+
+LAYOUT 9E9939B8
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+raceID<8>
+classID<8>

@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int FileDataID
+int ParentWeatherID
+
+LAYOUT 791A7865
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+FileDataID<32>
+$noninline,relation$ParentWeatherID<32>

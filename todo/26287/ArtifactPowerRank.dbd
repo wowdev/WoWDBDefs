@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+uint artifactPowerID
+float auraPointsOverride
+uint itemBonusListID
+uint rankIndex
+int spellID
+
+LAYOUT A87EACC4
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+spellID<32>
+auraPointsOverride
+itemBonusListID<16>
+rankIndex<8>
+$noninline,relation$artifactPowerID<16>

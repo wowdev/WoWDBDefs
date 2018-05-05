@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int dateAlignmentType
+int durationSecs
+int flags
+int offsetSecs
+int repeatType
+
+LAYOUT 5DD2FF46
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+flags<32>
+repeatType<32>
+durationSecs<32>
+offsetSecs<32>
+dateAlignmentType<32>

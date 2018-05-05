@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+uint areaTableID
+locstring description_lang
+uint lfgDungeonID
+int mapID
+uint playerConditionID
+uint questID
+int rewardItemID
+locstring title_lang
+int type
+uint uiTextureAtlasMemberID
+uint uiTextureKitID
+float worldPosition
+
+LAYOUT 59CCFB2D
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+title_lang
+description_lang
+worldPosition[2]
+rewardItemID<32>
+mapID<32>
+type<8>
+playerConditionID<32>
+questID<32>
+lfgDungeonID<32>
+uiTextureAtlasMemberID<32>
+uiTextureKitID<32>
+areaTableID<32>

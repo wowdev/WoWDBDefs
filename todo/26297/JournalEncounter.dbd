@@ -1,0 +1,28 @@
+COLUMNS
+int ID
+locstring description_lang
+int difficultyMask
+uint dungeonMapID
+uint firstSectionID
+uint flags
+uint journalInstanceID
+float map
+uint mapDisplayConditionID
+locstring name_lang
+uint orderIndex
+uint worldMapAreaID
+
+LAYOUT 3371EFC7
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+name_lang
+description_lang
+map[2]
+journalInstanceID<16>
+firstSectionID<16>
+worldMapAreaID<16>
+dungeonMapID<16>
+flags<8>
+difficultyMask<8>
+orderIndex<32>
+mapDisplayConditionID<32>

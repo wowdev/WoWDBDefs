@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+string domain
+uint grantAccess
+uint revokeAccess
+uint wowEditInternal
+
+LAYOUT 1524F278
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+domain
+grantAccess<8>
+revokeAccess<8>
+wowEditInternal<8>

@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int control
+int faction
+int flags
+int slot
+int title
+
+LAYOUT 6FF65030
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+flags<32>
+control<32>
+faction<32>
+title<32>
+slot<32>

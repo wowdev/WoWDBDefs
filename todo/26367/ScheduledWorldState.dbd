@@ -1,0 +1,22 @@
+COLUMNS
+int ID
+int durationSecs
+int flags
+int orderIndex
+int scheduledWorldStateGroupID
+int uniqueCategory
+int value
+int weight
+int worldStateID
+
+LAYOUT DC45735A
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+$relation$scheduledWorldStateGroupID<32>
+worldStateID<32>
+value<32>
+durationSecs<32>
+weight<32>
+uniqueCategory<32>
+flags<32>
+orderIndex<32>

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int addQuantity
+int parentItemLimitCategoryID
+uint playerConditionID
+
+LAYOUT 7F847085
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+addQuantity<8>
+playerConditionID<32>
+$noninline,relation$parentItemLimitCategoryID<32>

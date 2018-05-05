@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint SoundAmbienceID
+uint SoundEntriesIDDay
+uint SoundEntriesIDNight
+
+LAYOUT 2C58D929
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+SoundEntriesIDDay<32>
+SoundEntriesIDNight<32>
+$noninline,relation$SoundAmbienceID<16>

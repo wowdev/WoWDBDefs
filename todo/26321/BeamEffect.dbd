@@ -1,0 +1,26 @@
+COLUMNS
+int ID
+int beamID
+int destAttachID
+int destOffset
+int destPositionerID
+float fixedLength
+int flags
+int sourceAttachID
+float sourceMinDistance
+int sourceOffset
+int sourcePositionerID
+
+LAYOUT 0E55B843
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+beamID<32>
+sourceMinDistance
+fixedLength
+flags<32>
+sourceOffset<32>
+destOffset<32>
+sourceAttachID<32>
+destAttachID<32>
+sourcePositionerID<32>
+destPositionerID<32>

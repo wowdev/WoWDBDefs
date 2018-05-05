@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+uint containerID
+int dummyItemID
+uint duration
+uint flags
+uint garrFollowerID
+uint maxShipments
+int onCompleteSpellID
+int spellID
+uint treasureID
+
+LAYOUT 8FCBB613
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+dummyItemID<32>
+treasureID<32>
+spellID<32>
+onCompleteSpellID<32>
+duration<32>
+$relation$containerID<16>
+garrFollowerID<16>
+maxShipments<8>
+flags<8>

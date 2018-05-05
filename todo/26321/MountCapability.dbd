@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint flags
+int modSpellAuraID
+uint reqAreaID
+int reqMapID
+uint reqRidingSkill
+uint reqSpellAuraID
+int reqSpellKnownID
+
+LAYOUT A2B1CDEA
+BUILD 8.0.1.26321
+reqSpellKnownID<32>
+modSpellAuraID<32>
+reqRidingSkill<16>
+reqAreaID<16>
+reqMapID<16>
+flags<8>
+$id$ID<32>
+reqSpellAuraID<32>

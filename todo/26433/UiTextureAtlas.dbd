@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint atlasHeight
+uint atlasWidth
+int fileDataID
+uint uiCanvasID
+
+LAYOUT 6951B2FD
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+fileDataID<32>
+atlasWidth<16>
+atlasHeight<16>
+uiCanvasID<8>

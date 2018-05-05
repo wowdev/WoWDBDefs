@@ -1,0 +1,38 @@
+COLUMNS
+int ID
+uint areaID
+string areaName
+uint bountyDisplayLocation
+uint bountySetID
+uint defaultDungeonFloor
+int displayMapID
+uint flags
+uint levelRangeMax
+uint levelRangeMin
+float locBottom
+float locLeft
+float locRight
+float locTop
+int mapID
+uint parentWorldMapID
+uint visibilityPlayerConditionID
+
+LAYOUT C7E90019
+BUILD 8.0.1.26287
+areaName
+locLeft
+locRight
+locTop
+locBottom
+flags<32>
+mapID<16>
+areaID<16>
+displayMapID<16>
+defaultDungeonFloor<16>
+parentWorldMapID<16>
+levelRangeMin<8>
+levelRangeMax<8>
+bountySetID<8>
+bountyDisplayLocation<8>
+$id$ID<32>
+visibilityPlayerConditionID<32>

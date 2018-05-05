@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int highlightFileDataID
+int uiMapArtStyleID
+
+LAYOUT 146D9B85
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+highlightFileDataID<32>
+uiMapArtStyleID<32>

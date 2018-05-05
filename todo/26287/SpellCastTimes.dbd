@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int base
+int minimum
+int perLevel
+
+LAYOUT 4129C6A4
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+base<32>
+minimum<32>
+perLevel<16>

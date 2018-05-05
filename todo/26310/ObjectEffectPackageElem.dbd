@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint objectEffectGroupID
+uint objectEffectPackageID
+uint stateType
+
+LAYOUT 3B8C53F9
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+objectEffectPackageID<16>
+objectEffectGroupID<16>
+stateType<16>

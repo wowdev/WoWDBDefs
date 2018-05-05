@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint Action
+int Index
+uint Skill
+uint Type
+
+LAYOUT 156C0BD7
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+Index<32>[8]
+Skill<16>[8]
+Type<8>[8]
+Action<8>[8]

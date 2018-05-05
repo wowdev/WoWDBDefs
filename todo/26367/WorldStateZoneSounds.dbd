@@ -1,0 +1,22 @@
+COLUMNS
+int ID
+uint areaID
+uint soundAmbienceID
+uint soundProviderPreferencesID
+uint wmoAreaID
+uint worldStateID
+uint worldStateValue
+uint zoneIntroMusicID
+uint zoneMusicID
+
+LAYOUT D93A85F5
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+wmoAreaID<32>
+worldStateID<16>
+worldStateValue<16>
+areaID<16>
+zoneIntroMusicID<16>
+zoneMusicID<16>
+soundAmbienceID<16>
+soundProviderPreferencesID<8>

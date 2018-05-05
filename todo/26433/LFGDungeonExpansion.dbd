@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+uint expansion_level
+uint hard_level_max
+uint hard_level_min
+uint lfg_id
+uint random_ID
+int target_level_max
+int target_level_min
+
+LAYOUT E4E357A5
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+random_ID<16>
+expansion_level<8>
+hard_level_min<8>
+hard_level_max<8>
+target_level_min<32>
+target_level_max<32>
+$noninline,relation$lfg_id<16>

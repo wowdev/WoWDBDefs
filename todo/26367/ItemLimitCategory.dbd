@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint flags
+locstring name_lang
+uint quantity
+
+LAYOUT E068171C
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+name_lang
+quantity<8>
+flags<8>

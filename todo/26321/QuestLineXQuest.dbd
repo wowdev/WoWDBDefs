@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint orderIndex
+uint questID
+uint questLineID
+
+LAYOUT 57EF18BF
+BUILD 8.0.1.26321
+$noninline,id$ID<32>
+questLineID<32>
+questID<32>
+orderIndex<32>

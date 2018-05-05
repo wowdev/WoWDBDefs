@@ -1,0 +1,23 @@
+COLUMNS
+int ID
+int additionalDuration
+uint animKitID
+uint broadcastTextID
+uint endAnimation
+uint nextConversationLineID
+uint speechType
+uint spellVisualKitID
+uint startAnimation
+
+LAYOUT 227B5003
+BUILD 8.0.1.26297
+COMMENT table is sparse
+$noninline,id$ID<32>
+broadcastTextID<32>
+spellVisualKitID<32>
+additionalDuration<32>
+nextConversationLineID<16>
+animKitID<16>
+speechType<8>
+startAnimation<8>
+endAnimation<8>

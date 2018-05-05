@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+int HDBakeMaterialResourcesID
+int bakeMaterialResourcesID
+uint customDisplayOption
+int displayClassID
+int displayRaceID
+int displaySexID
+int faceID
+int facialHairID
+int flags
+int hairColorID
+int hairStyleID
+int skinID
+
+LAYOUT 48377C9E
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+bakeMaterialResourcesID<32>
+HDBakeMaterialResourcesID<32>
+displayRaceID<8>
+displaySexID<8>
+displayClassID<8>
+skinID<8>
+faceID<8>
+hairStyleID<8>
+hairColorID<8>
+facialHairID<8>
+customDisplayOption<8>[3]
+flags<8>

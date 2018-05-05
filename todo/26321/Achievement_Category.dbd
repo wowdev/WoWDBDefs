@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+locstring name_lang
+int parent
+int ui_order
+
+LAYOUT 3D6E4A81
+BUILD 8.0.1.26321
+name_lang
+parent<16>
+$relation$ui_order<8>
+$id$ID<32>
