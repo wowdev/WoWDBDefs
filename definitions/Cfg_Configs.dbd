@@ -1,5 +1,4 @@
 COLUMNS
-uint field_2382494667? // matches realmType
 int ID
 uint realmType
 uint playerKillingAllowed
@@ -9,8 +8,8 @@ uint maxDamageReductionPctPhysical
 uint generatedID
 
 BUILD 6.0.1.18179
-field_2382494667<32>
-$id$ID<32>
+$id$generatedID<32>
+ID<32>
 realmType<32>
 playerKillingAllowed<32>
 roleplaying<32>
@@ -26,7 +25,7 @@ playerKillingAllowed<8>
 roleplaying<8>
 
 BUILD 4.0.0.11792
-generatedID<32>
+$id$generatedID<32>
 ID<32>
 realmType<32>
 playerKillingAllowed<32>
