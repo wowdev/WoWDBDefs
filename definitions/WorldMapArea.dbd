@@ -38,7 +38,7 @@ levelRangeMin<32>
 levelRangeMax<32>
 
 LAYOUT C7E90019
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 areaName
 locLeft
 locRight
@@ -79,3 +79,23 @@ rightBoundary<32>
 topBoundary<32>
 bottomBoundary<32>
 areaName
+
+LAYOUT 4B66A859
+BUILD 8.0.1.26297
+areaName
+locLeft
+locTop
+locRight
+locBottom
+flags<32>
+mapID<16>
+displayMapID<16>
+areaID<16>
+defaultDungeonFloor<16>
+parentWorldMapID<16>
+levelRangeMin<8>
+levelRangeMax<8>
+bountySetID<8>
+bountyDisplayLocation<8>
+$id$ID<32>
+visibilityPlayerConditionID<32>

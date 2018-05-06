@@ -17,13 +17,32 @@ float zoomedTargetOffset
 float zoomedYawOffset
 
 LAYOUT C58AA5EC
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 scriptTag
 target[3]
 zoomedTargetOffset[3]
 yaw
 pitch
 roll
+zoomedYawOffset
+zoomedPitchOffset
+zoomedRollOffset
+zoomDistance
+minZoomDistance
+maxZoomDistance
+flags<8>
+cameraType<8>
+$id$ID<32>
+$noninline,relation$uiModelSceneID<32>
+
+LAYOUT 20E80284
+BUILD 8.0.1.26297
+scriptTag
+target[3]
+yaw
+pitch
+roll
+zoomedTargetOffset[3]
 zoomedYawOffset
 zoomedPitchOffset
 zoomedRollOffset

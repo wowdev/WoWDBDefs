@@ -14,6 +14,8 @@ string committedName
 int committedRight
 int committedTop
 uint uiTextureAtlasID
+uint uiCanvasID
+uint uiTextureAtlasElementID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -26,7 +28,7 @@ field_1229423039<32>
 field_3128613611<32>
 
 LAYOUT 81E2055F
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 committedName
 $id$ID<32>
 uiTextureAtlasID<16>
@@ -35,3 +37,16 @@ committedRight<16>
 committedTop<16>
 committedBottom<16>
 committedFlags<8>
+
+LAYOUT 897803B3
+BUILD 8.0.1.26297
+committedName
+$id$ID<32>
+uiTextureAtlasID<16>
+committedLeft<16>
+committedRight<16>
+committedTop<16>
+committedBottom<16>
+committedFlags<8>
+uiCanvasID<8>
+$noninline,relation$uiTextureAtlasElementID<16>

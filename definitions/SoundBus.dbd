@@ -26,12 +26,23 @@ RaidPlaybackLimit<32>
 BusEnumID<32>
 
 LAYOUT B2ACDE2A
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 DefaultVolume
 Flags<8>
 DefaultPlaybackLimit<8>
 DefaultPriority<8>
 DefaultPriorityPenalty<8>
+BusEnumID<8>
+$id$ID<32>
+$noninline,relation$Parent<16>
+
+LAYOUT F9A95600
+BUILD 8.0.1.26297
+DefaultVolume
+Flags<8>
+DefaultPriority<8>
+DefaultPriorityPenalty<8>
+DefaultPlaybackLimit<8>
 BusEnumID<8>
 $id$ID<32>
 $noninline,relation$Parent<16>

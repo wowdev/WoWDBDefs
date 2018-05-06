@@ -28,7 +28,7 @@ timeOfDayOverride<32>
 effectMask<32>
 
 LAYOUT 4D5B91C5
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name
 param<32>[4]
@@ -49,5 +49,21 @@ name
 effect<32>
 param<32>[4]
 lightParamsID<32>
+soundAmbienceID<32>
+zoneMusicID<32>
+
+LAYOUT 4CC636AD
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+name
+param<32>[4]
+lightParamsID<16>
+lightParamsFadeIn<16>
+lightParamsFadeOut<16>
+timeOfDayOverride<16>
+effect<8>
+effectMask<8>
+lightFlags<8>
+fullScreenEffectID<32>
 soundAmbienceID<32>
 zoneMusicID<32>

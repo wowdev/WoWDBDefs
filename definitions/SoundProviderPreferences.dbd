@@ -53,7 +53,7 @@ EAX3HFReference
 EAX3LFReference
 
 LAYOUT 85F218A4
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 Description
 EAXDecayTime
@@ -106,3 +106,30 @@ EAX3ModulationTime
 EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
+
+LAYOUT C15849C6
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+Description
+EAXDecayTime
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2DecayHFRatio
+EAX2ReflectionsDelay
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference
+EAX2Room<16>
+EAX2RoomHF<16>
+EAX2Reflections<16>
+EAX2Reverb<16>
+Flags<16>
+EAXEnvironmentSelection<8>
+EAX3RoomLF<8>

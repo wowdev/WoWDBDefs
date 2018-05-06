@@ -26,7 +26,7 @@ int WorldStateExpressionID
 int contentTuningID
 
 LAYOUT 3F026A14
-BUILD 8.0.1.26095
+BUILD 8.0.1.26095, 8.0.1.26287
 FiltRaces<64>
 QuestTitle_lang
 BulletText_lang
@@ -66,6 +66,33 @@ FiltMinSkillID<16>
 WorldStateExpressionID<16>
 FiltActiveQuest<8>
 FiltCompletedQuestLogic<8>
+FiltMaxFactionID<8>
+FiltMaxFactionValue<8>
+FiltMaxLevel<8>
+FiltMinFactionID<8>
+FiltMinFactionValue<8>
+FiltMinLevel<8>
+FiltMinSkillValue<8>
+FiltNonActiveQuest<8>
+$id$ID<32>
+BreadCrumbID<32>
+QuestInfoID<32>
+contentTuningID<32>
+
+LAYOUT 5A9EE4A6
+BUILD 8.0.1.26297
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+FiltCompletedQuestLogic<32>
+StartItem<32>
+UniqueBitFlag<16>
+ConditionID<16>
+FiltClasses<16>
+FiltCompletedQuest<16>[3]
+FiltMinSkillID<16>
+WorldStateExpressionID<16>
+FiltActiveQuest<8>
 FiltMaxFactionID<8>
 FiltMaxFactionValue<8>
 FiltMaxLevel<8>

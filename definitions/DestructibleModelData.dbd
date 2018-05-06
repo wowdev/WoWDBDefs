@@ -51,7 +51,7 @@ healEffect<32>
 healEffectSpeed<32>
 
 LAYOUT 1092C9AF
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 state0WMO<16>
 state1WMO<16>
@@ -97,3 +97,29 @@ repairGroundFx<32>
 doNotHighlight<32>
 healEffect<32>
 healEffectSpeed<32>
+
+LAYOUT 9AB21573
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+state1WMO<16>
+state2WMO<16>
+state3WMO<16>
+state0WMO<16>
+healEffectSpeed<16>
+state0ImpactEffectDoodadSet<8>
+state0AmbientDoodadSet<8>
+state1DestructionDoodadSet<8>
+state1ImpactEffectDoodadSet<8>
+state1AmbientDoodadSet<8>
+state2DestructionDoodadSet<8>
+state2ImpactEffectDoodadSet<8>
+state2AmbientDoodadSet<8>
+state3InitDoodadSet<8>
+state3AmbientDoodadSet<8>
+ejectDirection<8>
+doNotHighlight<8>
+healEffect<8>
+state0NameSet<8>
+state1NameSet<8>
+state2NameSet<8>
+state3NameSet<8>

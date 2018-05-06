@@ -15,7 +15,7 @@ minZ
 doodadPlacementID<32>
 
 LAYOUT 7927A3A7
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 minZ
 doodadPlacementID<32>
@@ -29,3 +29,12 @@ mapID<32>
 WMOGroupID<32>
 dungeonMapID<32>
 minZ
+
+LAYOUT B101DEC3
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+doodadPlacementID<32>
+minZ
+$relation$mapID<16>
+WMOGroupID<16>
+dungeonMapID<16>

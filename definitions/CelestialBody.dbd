@@ -16,7 +16,7 @@ float scrollVRate
 int skyArrayBand
 
 LAYOUT D09BE31C
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 baseFileDataID<32>
 lightMaskFileDataID<32>
 glowMaskFileDataID<32>[2]
@@ -30,5 +30,23 @@ glowMaskScale[2]
 atmosphericMaskScale
 position[3]
 bodyBaseScale
+skyArrayBand<16>
+$id$ID<32>
+
+LAYOUT 840A53AC
+BUILD 8.0.1.26297
+baseFileDataID<32>
+bodyBaseScale
+position[3]
+glowMaskFileDataID<32>[2]
+glowMaskScale[2]
+glowModifiedFileDataID<32>[2]
+atmosphericMaskFileDataID<32>
+atmosphericModifiedFileDataID<32>
+scrollURate[2]
+scrollVRate[2]
+rotateRate
+atmosphericMaskScale
+lightMaskFileDataID<32>
 skyArrayBand<16>
 $id$ID<32>

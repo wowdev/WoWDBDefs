@@ -16,7 +16,7 @@ name_lang
 flags<32>
 
 LAYOUT 6C5B24EB
-BUILD 8.0.1.26095, 8.0.1.26175
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26287
 $noninline,id$ID<32>
 name_lang
 hordeName_lang
@@ -32,5 +32,15 @@ hordeName_lang
 $id$ID<32>
 skilllineID<16>
 parenttradeskillcategoryID<16>
+orderindex<16>
+flags<8>
+
+LAYOUT AFEA1AAD
+BUILD 8.0.1.26297
+name_lang
+hordeName_lang
+$id$ID<32>
+parenttradeskillcategoryID<16>
+skilllineID<16>
 orderindex<16>
 flags<8>

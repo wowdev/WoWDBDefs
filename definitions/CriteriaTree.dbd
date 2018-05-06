@@ -21,7 +21,7 @@ orderIndex<32>
 padding_2173460021<8>[4]
 
 LAYOUT 0A1B99C2
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 description_lang
 amount<32>
@@ -29,4 +29,15 @@ flags<16>
 operator<8>
 criteriaID<32>
 parent<32>
+orderIndex<32>
+
+LAYOUT FE8A051B
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+description_lang
+amount<32>
+flags<16>
+operator<8>
+parent<32>
+criteriaID<32>
 orderIndex<32>

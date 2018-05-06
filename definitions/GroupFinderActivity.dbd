@@ -35,7 +35,7 @@ field_3904792460
 field_3671730565
 
 LAYOUT 3EF2F3BD
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 fullName_lang
 shortName_lang
@@ -51,3 +51,21 @@ difficultyID<8>
 flags<8>
 displayType<8>
 maxPlayers<8>
+
+LAYOUT 8E47EE91
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+fullName_lang
+shortName_lang
+minGearLevelSuggestion<16>
+mapID<16>
+areaID<16>
+groupFinderCategoryID<8>
+orderIndex<8>
+groupFinderActivityGrpID<8>
+minLevel<8>
+maxLevelSuggestion<8>
+flags<8>
+difficultyID<8>
+maxPlayers<8>
+displayType<8>

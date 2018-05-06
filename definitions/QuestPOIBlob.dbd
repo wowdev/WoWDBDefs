@@ -15,7 +15,7 @@ MapID<32>
 WorldMapAreaID<32>
 
 LAYOUT EC15976E
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $id$ID<32>
 MapID<16>
 $relation$WorldMapAreaID<16>
@@ -24,3 +24,14 @@ Floor<8>
 playerConditionID<32>
 QuestID<32>
 ObjectiveIndex<32>
+
+LAYOUT 8B0E06FC
+BUILD 8.0.1.26297
+$id$ID<32>
+MapID<16>
+$relation$WorldMapAreaID<16>
+Floor<8>
+NumPoints<8>
+QuestID<32>
+ObjectiveIndex<32>
+playerConditionID<32>

@@ -3,8 +3,8 @@ int ID
 uint itemBonusTreeID
 int itemID
 
-LAYOUT 87C4B605
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+LAYOUT 87C4B605, 57244BD5
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
 itemBonusTreeID<16>
 $noninline,relation$itemID<32>

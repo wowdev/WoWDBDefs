@@ -23,7 +23,7 @@ field_2465365834<32>
 flags<32>
 
 LAYOUT 51BF0C33
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 text_lang
 text1_lang
@@ -34,3 +34,16 @@ languageID<8>
 flags<8>
 conditionID<32>
 soundEntriesID<32>[2]
+
+LAYOUT 5E60145F
+BUILD 8.0.1.26297
+text_lang
+text1_lang
+$id$ID<32>
+soundEntriesID<32>[2]
+emotesID<16>
+emoteID<16>[3]
+emoteDelay<16>[3]
+languageID<8>
+flags<8>
+conditionID<32>

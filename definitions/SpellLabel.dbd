@@ -3,8 +3,8 @@ int ID
 uint labelID
 int spellID
 
-LAYOUT 68E44736
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+LAYOUT 68E44736, CCA24F16
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
 labelID<32>
 $noninline,relation$spellID<32>

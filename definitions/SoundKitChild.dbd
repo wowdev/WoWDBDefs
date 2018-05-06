@@ -4,7 +4,13 @@ uint parentSoundKitID
 uint soundKitID
 
 LAYOUT 2827A3B5
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 $relation$parentSoundKitID<32>
 soundKitID<32>
+
+LAYOUT 4215B0DD
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+soundKitID<32>
+$relation$parentSoundKitID<32>

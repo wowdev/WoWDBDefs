@@ -36,7 +36,7 @@ iconFileDataID<32>
 gametype_lang
 
 LAYOUT D8AAA088
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name_lang
 gametype_lang
@@ -66,3 +66,24 @@ maxGroupSize<32>
 holidayWorldState<32>
 minlevel<32>
 maxlevel<32>
+
+LAYOUT 2A752EB2
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+name_lang
+gametype_lang
+shortDescription_lang
+longDescription_lang
+iconFileDataID<32>
+mapID<16>[16]
+holidayWorldState<16>
+required_Player_Condition_ID<16>
+instanceType<8>
+minlevel<8>
+maxlevel<8>
+ratedPlayers<8>
+minPlayers<8>
+maxPlayers<8>
+groupsAllowed<8>
+maxGroupSize<8>
+flags<8>

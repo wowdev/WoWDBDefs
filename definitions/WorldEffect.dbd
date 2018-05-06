@@ -17,11 +17,21 @@ combatConditionID<32>
 whenToDisplay<32>
 
 LAYOUT 2E9B9BFD
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 targetAsset<32>
 combatConditionID<16>
 targetType<8>
 whenToDisplay<8>
+questFeedbackEffectID<32>
+playerConditionID<32>
+
+LAYOUT 1F854827
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+targetAsset<32>
+combatConditionID<16>
+whenToDisplay<8>
+targetType<8>
 questFeedbackEffectID<32>
 playerConditionID<32>

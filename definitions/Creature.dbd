@@ -37,7 +37,7 @@ field_1491223748<32>
 field_4058499962<32>
 
 LAYOUT CFB508A9
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name_lang
 nameAlt_lang
@@ -50,4 +50,20 @@ displayProbability[4]
 creatureType<8>
 creatureFamily<8>
 classification<8>
+startAnimState<8>
+
+LAYOUT 2FC7F691
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+name_lang
+nameAlt_lang
+title_lang
+titleAlt_lang
+displayID<32>[4]
+displayProbability[4]
+AlwaysItem<32>[3]
+mountCreatureID<32>
+classification<8>
+creatureType<8>
+creatureFamily<8>
 startAnimState<8>

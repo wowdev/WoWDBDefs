@@ -16,7 +16,7 @@ int uiSwatchColor
 uint unlockPlayerConditionID
 
 LAYOUT AEED7395
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 name_lang
 uiSwatchColor<32>
 uiModelSaturation
@@ -28,6 +28,24 @@ displayIndex<8>
 itemAppearanceModifierID<8>
 flags<8>
 overrideShapeshiftFormID<8>
+$id$ID<32>
+unlockPlayerConditionID<32>
+uiItemAppearanceID<32>
+uiAltItemAppearanceID<32>
+
+LAYOUT 0AA4B065
+BUILD 8.0.1.26297
+name_lang
+uiSwatchColor<32>
+uiModelSaturation
+uiModelOpacity
+overrideShapeshiftDisplayID<32>
+$relation$artifactAppearanceSetID<16>
+uiCameraID<16>
+displayIndex<8>
+itemAppearanceModifierID<8>
+overrideShapeshiftFormID<8>
+flags<8>
 $id$ID<32>
 unlockPlayerConditionID<32>
 uiItemAppearanceID<32>

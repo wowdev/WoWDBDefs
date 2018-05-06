@@ -22,7 +22,7 @@ EventSoundID<32>
 SpellVisualKitID<32>
 
 LAYOUT 14467F27
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 raceMask<64>
 EmoteSlashCommand
@@ -49,3 +49,16 @@ EmoteFlags<32>
 EmoteAnimID<32>
 EmoteSpecProc<32>
 EmoteSpecProcParam<32>
+
+LAYOUT 88B11B03
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+raceMask<64>
+EmoteSlashCommand
+EmoteFlags<32>
+SpellVisualKitID<32>
+AnimID<16>
+EmoteSpecProc<8>
+EmoteSpecProcParam<32>
+EventSoundID<32>
+classMask<32>

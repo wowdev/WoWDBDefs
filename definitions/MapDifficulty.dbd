@@ -23,7 +23,7 @@ maxPlayers<32>
 lockID<32>
 
 LAYOUT 2B3B759E
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 message_lang
 difficultyID<8>
@@ -43,3 +43,16 @@ message_lang
 raidDuration<32>
 maxPlayers<32>
 difficultystring
+
+LAYOUT A3A48EFC
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+message_lang
+difficultyID<8>
+lockID<8>
+resetInterval<8>
+maxPlayers<8>
+itemContext<8>
+flags<8>
+itemContextPickerID<32>
+$noninline,relation$mapID<16>

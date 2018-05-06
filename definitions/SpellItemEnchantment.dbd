@@ -44,7 +44,7 @@ scalingClassRestricted<32>
 effectScalingPoints[3]
 
 LAYOUT F8B0881A
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name_lang
 hordeName_lang
@@ -120,3 +120,27 @@ effectPointsMax<32>[3]
 effectArg<32>[3]
 name_lang
 itemVisual<32>
+
+LAYOUT DF71600C
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+name_lang
+hordeName_lang
+effectArg<32>[3]
+effectScalingPoints[3]
+transmogCost<32>
+iconFileDataID<32>
+effectPointsMin<16>[3]
+itemVisual<16>
+flags<16>
+requiredSkillID<16>
+requiredSkillRank<16>
+itemLevel<16>
+charges<8>
+effect<8>[3]
+scalingClass<8>
+scalingClassRestricted<8>
+condition_ID<8>
+minLevel<8>
+maxLevel<8>
+transmogPlayerConditionID<32>

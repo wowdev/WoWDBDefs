@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+uint currencyCost
+uint currencyTypesID
+uint journalEncounterID
+uint journalInstanceID
+
+LAYOUT F7A194FA
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+currencyTypesID<32>
+currencyCost<32>
+journalEncounterID<32>
+journalInstanceID<32>

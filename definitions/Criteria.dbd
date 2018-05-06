@@ -27,12 +27,27 @@ eligibility_world_state_ID<32>
 eligibility_world_state_value<32>
 
 LAYOUT A87A5BB9
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 asset<32>
 start_asset<32>
 fail_asset<32>
 modifier_tree_ID<32>
+start_timer<16>
+eligibility_world_state_ID<16>
+type<8>
+start_event<8>
+fail_event<8>
+flags<8>
+eligibility_world_state_value<8>
+
+LAYOUT DEFBA3DD
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+asset<32>
+modifier_tree_ID<32>
+start_asset<32>
+fail_asset<32>
 start_timer<16>
 eligibility_world_state_ID<16>
 type<8>

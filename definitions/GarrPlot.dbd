@@ -20,7 +20,7 @@ name
 upgradeRequirement<32>[2]
 
 LAYOUT E12049E0
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name
 allianceConstructObjID<32>
@@ -28,4 +28,15 @@ hordeConstructObjID<32>
 uiCategoryID<8>
 plotType<8>
 flags<8>
+upgradeRequirement<32>[2]
+
+LAYOUT 335AAA94
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+name
+hordeConstructObjID<32>
+allianceConstructObjID<32>
+plotType<8>
+flags<8>
+uiCategoryID<8>
 upgradeRequirement<32>[2]

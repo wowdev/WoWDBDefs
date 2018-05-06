@@ -45,7 +45,7 @@ field_1471446042<32>
 field_3178768920<32>
 
 LAYOUT 2A02639A
-BUILD 8.0.1.26095
+BUILD 8.0.1.26095, 8.0.1.26287
 $noninline,id$ID<32>
 modelFileDataID<32>
 effectRadius
@@ -112,3 +112,21 @@ ribbonQualityID<32>
 dissolveEffectID<32>
 modelPosition<32>
 
+
+LAYOUT 10206967
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+modelFileDataID<32>
+baseMissileSpeed
+scale
+minAllowedScale
+maxAllowedScale
+alpha
+flags<32>
+textureFileDataID<32>
+effectRadius
+type<32>
+genericID<32>
+ribbonQualityID<32>
+dissolveEffectID<32>
+modelPosition<32>

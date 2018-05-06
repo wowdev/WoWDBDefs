@@ -26,12 +26,23 @@ field_2085341704
 field_1385528309
 
 LAYOUT 797A0F2F
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name_lang
 tooltip_lang
 iconFileDataID<32>
 param[2]
+buildingType<8>
+specType<8>
+requiredUpgradeLevel<8>
+
+LAYOUT 375EA95D
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+name_lang
+tooltip_lang
+param[2]
+iconFileDataID<32>
 buildingType<8>
 specType<8>
 requiredUpgradeLevel<8>

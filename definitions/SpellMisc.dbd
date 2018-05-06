@@ -30,7 +30,7 @@ activeIconID<32>
 schoolMask<32>
 
 LAYOUT CDC114D5
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 castingTimeIndex<16>
 durationIndex<16>
@@ -41,5 +41,20 @@ speed
 activeIconFileDataID<32>
 launchDelay
 difficultyID<8>
+attributes<32>[14]
+$noninline,relation$spellID<32>
+
+LAYOUT 9CC2DC91
+BUILD 8.0.1.26297
+$noninline,id$ID<32>
+difficultyID<8>
+castingTimeIndex<16>
+durationIndex<16>
+rangeIndex<16>
+schoolMask<8>
+speed
+launchDelay
+spellIconFileDataID<32>
+activeIconFileDataID<32>
 attributes<32>[14]
 $noninline,relation$spellID<32>
