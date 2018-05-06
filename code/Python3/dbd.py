@@ -27,7 +27,6 @@ import os
 #     .array_size: int
 #     .annotation: string
 #     .comment: string
-#     .override_type: string
 def parse_dbd(content):
   return dbd_parser.parse_string(content)
 
@@ -152,7 +151,6 @@ class definition_COMMENT (Grammar):
 
 class definition_entry (Grammar):
   grammar = ( OPTIONAL(G(L("$"), G(LIST_OF(G(identifier, tags=["ANNOTATION"], sep=comma_list_separator), name="annotation", collapse=True), L("$"), collapse=True)))
-            , OPTIONAL(G(L('#'), column_type, L('#'), collapse=True))
             , G(identifier, name="column_name")
             , OPTIONAL(G(L("<"), G(integer, name="int_width"), L(">"), collapse=True))
             , OPTIONAL(G(L("["), G(integer, name="array_size"), L("]"), collapse=True))
@@ -160,13 +158,12 @@ class definition_entry (Grammar):
             )
   def grammar_elem_init(self, sessiondata):
     self.annotation = [str(e) for e in self.elements[0].find_all("ANNOTATION")] if self.elements[0] else []
-    self.override_type = str(self.elements[1]) if self.elements[1] else None
     self.column = str(self.elements[2]) if self.elements[2] else None
     self.int_width = int(str(self.elements[3])) if self.elements[3] else None
     self.array_size = int(str(self.elements[4])) if self.elements[4] else None
     self.comment = str(self.elements[5]).strip() if self.elements[5] else None
   def __str__(self):
-    return "column={} override_type={} int_width={} array_size={} annotation={} comment={}".format(self.column, self.override_type, self.int_width, self.array_size, self.annotation, self.comment)
+    return "column={} int_width={} array_size={} annotation={} comment={}".format(self.column, self.int_width, self.array_size, self.annotation, self.comment)
   grammar_tags = ["ENTRY"]
 class definition (Grammar):
   grammar = ( ONE_OR_MORE(G(definition_BUILD | definition_LAYOUT | definition_COMMENT, EOL, name="definition_header"))

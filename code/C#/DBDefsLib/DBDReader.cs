@@ -193,11 +193,6 @@ namespace DBDefsLib
                 if (!line.StartsWith("LAYOUT") && !line.StartsWith("BUILD") && !line.StartsWith("COMMENT") && !string.IsNullOrWhiteSpace(line))
                 {
                     var definition = new Definition();
-                    if (line.StartsWith("#"))
-                    {
-                        definition.typeOverride = line.Substring(line.IndexOf('#') + 1, line.IndexOf('#', 1) - line.IndexOf('#') - 1);
-                        line = line.Remove(line.IndexOf('#'), line.IndexOf('#', 1) - line.IndexOf('#') + 1);
-                    }
 
                     // Default to everything being inline
                     definition.isNonInline = false;
@@ -352,10 +347,7 @@ namespace DBDefsLib
                     {
                         if ((columnDefinitionDictionary[definition.name].type == "int" || columnDefinitionDictionary[definition.name].type == "uint") && definition.size == 0)
                         {
-                            if(definition.typeOverride == null || definition.typeOverride == "int" || definition.typeOverride == "uint")
-                            {
-                                throw new Exception("Version definition " + definition.name + " is an int/uint but is missing size in file " + file + "!");
-                            }
+                            throw new Exception("Version definition " + definition.name + " is an int/uint but is missing size in file " + file + "!");
                         }
                     }
                 }

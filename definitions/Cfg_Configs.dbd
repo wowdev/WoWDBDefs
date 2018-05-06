@@ -5,7 +5,7 @@ uint realmType
 uint playerKillingAllowed
 uint roleplaying
 uint playerAttackSpeedBase
-uint maxDamageReductionPctPhysical
+float maxDamageReductionPctPhysical
 uint generatedID
 
 BUILD 6.0.1.18179
@@ -15,12 +15,12 @@ realmType<32>
 playerKillingAllowed<32>
 roleplaying<32>
 playerAttackSpeedBase<32>
-maxDamageReductionPctPhysical<32>
+maxDamageReductionPctPhysical
 
 LAYOUT C618392F, 63AADD5F
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-#float#maxDamageReductionPctPhysical
+maxDamageReductionPctPhysical
 playerAttackSpeedBase<16>
 playerKillingAllowed<8>
 roleplaying<8>

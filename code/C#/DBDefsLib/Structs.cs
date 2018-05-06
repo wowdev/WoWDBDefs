@@ -28,7 +28,6 @@ namespace DBDefsLib
             public bool isRelation;
             public bool isNonInline;
             public string comment;
-            public string typeOverride;
         }
 
         public struct ColumnDefinition
