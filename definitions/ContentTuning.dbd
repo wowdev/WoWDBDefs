@@ -4,6 +4,11 @@ int flags
 int maxLevel
 int minLevel
 int expectedStatModID
+int field_1213533772?
+int field_2151919458?
+int field_2627514990?
+int field_2808118616?
+int field_746134035?
 
 LAYOUT 70C53E15
 BUILD 8.0.1.26175
@@ -19,3 +24,12 @@ minLevel<32>
 maxLevel<32>
 flags<32>
 expectedStatModID<32>
+
+LAYOUT 09133C33
+BUILD 8.0.1.26530, 8.0.1.26557
+$noninline,id$ID<32>
+field_2627514990<32>
+field_2151919458<32>
+field_2808118616<32>
+field_746134035<32>
+field_1213533772<32>
