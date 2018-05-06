@@ -274,6 +274,12 @@ namespace DBDefsLib
             // Validation is optional!
             if (validate)
             {
+                var newColumnDefDict = new Dictionary<string, ColumnDefinition>();
+                foreach (var column in columnDefinitionDictionary)
+                {
+                    newColumnDefDict.Add(column.Key, column.Value);
+                }
+
                 var seenBuilds = new List<Build>();
                 var seenLayoutHashes = new List<string>();
 
@@ -304,8 +310,11 @@ namespace DBDefsLib
                     if (!found)
                     {
                         Console.WriteLine("Column definition " + column.Key + " is never used in version definitions!");
+                        newColumnDefDict.Remove(column.Key);
                     }
                 }
+
+                columnDefinitionDictionary = newColumnDefDict;
 
                 foreach (var version in versionDefinitions)
                 {
