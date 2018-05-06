@@ -2,9 +2,19 @@ COLUMNS
 int ID
 uint durationMS
 uint transitionType
+uint field_1405830813?
+uint field_2149342792?
+uint field_3466805358?
 
 LAYOUT 8B70AEB6, 4F3BB0CE
-BUILD 8.0.1.26175, 8.0.1.26231, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+BUILD 8.0.1.26175, 8.0.1.26231, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491
 $noninline,id$ID<32>
 transitionType<32>
 durationMS<32>
+
+LAYOUT DB6241A3
+BUILD 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+$noninline,id$ID<32>
+field_1405830813<32>
+field_3466805358<32>
+field_2149342792<32>

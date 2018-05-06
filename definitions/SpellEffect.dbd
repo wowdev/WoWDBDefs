@@ -29,6 +29,34 @@ float groupSizeBasePointsCoefficient
 float pvpMultiplier
 float resourceCoefficient
 float variance
+int field_1046712784?
+int field_1108102472?
+int field_1501227822?
+int field_1600913723?
+uint field_1776957675?
+float field_183822928?
+float field_1937248126?
+uint field_1977176077?
+int field_1989595513?
+float field_2125660223?
+float field_2160239787?
+float field_2235541243?
+int field_2301066515?
+int field_2420641291?
+float field_2520974730?
+float field_2529638593?
+int field_2594007201?
+float field_2616766543?
+float field_2759725622?
+float field_321499241?
+int field_3318080197?
+uint field_3565430297?
+int field_3784344141?
+int field_392767646?
+int field_4001413544?
+float field_4152196705?
+float field_4260498227?
+float field_773159531?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -122,3 +150,35 @@ effectRadiusIndex<32>[2]
 effectSpellClassMask<32>[4]
 implicitTarget<32>[2]
 $noninline,relation$spellID<32>
+
+LAYOUT C8B79FF8
+BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+$noninline,id$ID<32>
+field_392767646<32>
+field_4001413544<32>
+field_3565430297<32>
+field_4152196705
+field_1108102472<32>
+field_1600913723<32>
+field_1501227822<32>
+field_4260498227
+field_2520974730
+field_2420641291<32>
+field_1046712784<32>
+field_1989595513<32>
+field_321499241
+field_2160239787
+field_2616766543
+field_2594007201<32>
+field_2235541243
+field_2529638593
+field_773159531
+field_2759725622
+field_183822928
+field_1937248126
+field_2125660223
+field_2301066515<32>[2]
+field_1977176077<32>[2]
+field_3318080197<32>[4]
+field_1776957675<32>[2]
+$noninline,relation$field_3784344141<32>

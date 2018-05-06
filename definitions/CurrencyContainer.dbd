@@ -7,9 +7,17 @@ int containerQuality
 int currencyTypeID
 int maxAmount
 int minAmount
+locstring field_1405830813_lang?
+int field_2149342792?
+int field_2648883694?
+int field_2653650999?
+int field_309062144?
+locstring field_3466805358_lang?
+int field_402312216?
+int field_465202428?
 
 LAYOUT 1255E7A8, CDA1CC8C
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491
 $noninline,id$ID<32>
 containerName_lang
 containerDescription_lang
@@ -18,3 +26,15 @@ maxAmount<32>
 containerIconID<32>
 containerQuality<32>
 $noninline,relation$currencyTypeID<32>
+
+LAYOUT AC6030BF
+BUILD 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+$noninline,id$ID<32>
+field_1405830813_lang
+field_3466805358_lang
+field_2149342792<32>
+field_2653650999<32>
+field_465202428<32>
+field_2648883694<32>
+field_402312216<32>
+$noninline,relation$field_309062144<32>
