@@ -1,0 +1,70 @@
+COLUMNS
+int ID
+float boltBrightnessScalar
+int boltColor
+float boltDirection
+float boltDirectionVariance
+float brightness
+float cloudBrightnessScalar
+int flashColor
+float groundBrightnessScalar
+float maxBoltHeight
+float maxBoltWidth
+float maxCloudDepth
+float maxConvergenceSpeed
+float maxDivergence
+float maxEndTime
+float maxFadeInStrength
+float maxFadeTime
+int maxSegmentCount
+float maxStrikeStrength
+float maxStrikeTime
+float minBoltHeight
+float minBoltWidth
+float minCloudDepth
+float minConvergenceSpeed
+float minDivergence
+float minEndTime
+float minFadeInStrength
+float minFadeTime
+float minStrikeStrength
+float minStrikeTime
+float segmentSize
+float soundEmitterDistance
+int soundKitID
+
+LAYOUT C0E38C34
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+boltDirection[2]
+boltDirectionVariance
+minDivergence
+maxDivergence
+minConvergenceSpeed
+maxConvergenceSpeed
+segmentSize
+minBoltWidth
+maxBoltWidth
+minBoltHeight
+maxBoltHeight
+maxSegmentCount<32>
+minStrikeTime
+maxStrikeTime
+minEndTime
+maxEndTime
+minFadeTime
+maxFadeTime
+flashColor<32>
+boltColor<32>
+brightness
+minCloudDepth
+maxCloudDepth
+minFadeInStrength
+maxFadeInStrength
+minStrikeStrength
+maxStrikeStrength
+groundBrightnessScalar
+boltBrightnessScalar
+cloudBrightnessScalar
+soundKitID<32>
+soundEmitterDistance
