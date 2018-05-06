@@ -3,10 +3,21 @@ int ID
 locstring description_lang
 int filedataID
 locstring name_lang
+locstring field_2151919458_lang?
+locstring field_2627514990_lang?
+int field_2808118616?
+int field_746134035?
 
 LAYOUT 1BCB46AA, 50306D85
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522
 $noninline,id$ID<32>
 name_lang
 description_lang
 filedataID<32>
+
+LAYOUT 60D97B7F
+BUILD 8.0.1.26530, 8.0.1.26557
+field_2627514990_lang
+field_2151919458_lang
+$id$field_2808118616<32>
+field_746134035<32>
