@@ -145,7 +145,7 @@ for name, parsed in dbds.items():
       build = build_ranges[0][0]
       box_content += "version {}".format(wiki_format_template("PrettyVersion", wiki_format_version(build[0], build[1]))[0])
     elif multiple_builds > 1:
-      box_content += "versions \n*"
+      box_content += "versions \n* "
       strs = []
       for begin, end in build_ranges:
         if not end:
@@ -160,7 +160,7 @@ for name, parsed in dbds.items():
       if len(layout_hashes) == 1:
         box_content += "layout hash <tt>{}</tt>".format(layout_hashes[0])
       elif len(layout_hashes) > 1:
-        box_content += "layout hashes \n*<tt>{}</tt>".format("</tt>\n*<tt>".join(layout_hashes))
+        box_content += "layout hashes \n* <tt>{}</tt>".format("</tt>\n* <tt>".join(layout_hashes))
     file_data[name] += wiki_format_template("SectionBox", box_content)[0] + "\n"
 
     for comment in definition.comments:
