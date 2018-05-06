@@ -158,10 +158,10 @@ class definition_entry (Grammar):
             )
   def grammar_elem_init(self, sessiondata):
     self.annotation = [str(e) for e in self.elements[0].find_all("ANNOTATION")] if self.elements[0] else []
-    self.column = str(self.elements[2]) if self.elements[2] else None
-    self.int_width = int(str(self.elements[3])) if self.elements[3] else None
-    self.array_size = int(str(self.elements[4])) if self.elements[4] else None
-    self.comment = str(self.elements[5]).strip() if self.elements[5] else None
+    self.column = str(self.elements[1]) if self.elements[1] else None
+    self.int_width = int(str(self.elements[2])) if self.elements[2] else None
+    self.array_size = int(str(self.elements[3])) if self.elements[3] else None
+    self.comment = str(self.elements[4]).strip() if self.elements[4] else None
   def __str__(self):
     return "column={} int_width={} array_size={} annotation={} comment={}".format(self.column, self.int_width, self.array_size, self.annotation, self.comment)
   grammar_tags = ["ENTRY"]
