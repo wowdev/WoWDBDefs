@@ -1,0 +1,18 @@
+COLUMNS
+locstring Title_lang?
+string FactionTitle?
+locstring Description_lang?
+uint ID?
+uint field_2914807361?
+uint field_1313613340?
+uint<PlayerCondition::ID> PlayerConditionID?
+
+LAYOUT 0B271FD9
+BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+Title_lang
+FactionTitle
+Description_lang
+$id$ID<32>
+field_2914807361<32>
+field_1313613340<32>
+PlayerConditionID<32>

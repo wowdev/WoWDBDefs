@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int<ChrSpecialization::ID> ChrSpecializationID?
+int SpecSet?
+
+LAYOUT C05B6C73
+BUILD 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+$noninline,id$ID<32>
+ChrSpecializationID<32>
+$noninline,relation$SpecSet<32>

@@ -10,6 +10,7 @@ float oceanShallowAlpha
 float oceanDeepAlpha
 int flags
 float overrideCelestialSphere
+int field_1501227822?
 
 BUILD 6.0.1.18179, 4.0.0.11792
 $id$ID<32>
@@ -31,6 +32,21 @@ waterDeepAlpha
 oceanShallowAlpha
 oceanDeepAlpha
 overrideCelestialSphere[3]
+lightSkyboxID<16>
+highlightSky<8>
+cloudTypeID<8>
+flags<8>
+$id$ID<32>
+
+LAYOUT 4E9B4690
+BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+glow
+waterShallowAlpha
+waterDeepAlpha
+oceanShallowAlpha
+oceanDeepAlpha
+overrideCelestialSphere[3]
+field_1501227822<32>
 lightSkyboxID<16>
 highlightSky<8>
 cloudTypeID<8>

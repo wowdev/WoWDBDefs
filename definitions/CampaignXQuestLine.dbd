@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint<Campaign::ID> CampaignID?
+uint<QuestLine::ID> QuestLineID?
+uint OrderIndex?
+
+LAYOUT 7303E0F9
+BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+$noninline,id$ID<32>
+$relation$CampaignID<32>
+QuestLineID<32>
+OrderIndex<32>

@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+locstring field_1405830813_lang?
+int field_2149342792?
+int field_2648883694?
+int field_2653650999?
+int field_3466805358?
+int field_402312216?
+int field_465202428?
+
+LAYOUT 070D6F9D
+BUILD 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+$noninline,id$ID<32>
+field_1405830813_lang
+field_3466805358<32>
+field_2149342792<32>
+field_2653650999<16>
+field_465202428<16>
+$relation$field_2648883694<8>
+field_402312216<8>
