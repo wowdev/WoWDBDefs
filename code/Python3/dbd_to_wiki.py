@@ -158,9 +158,9 @@ for name, parsed in dbds.items():
         box_content += "{}and ".format(" " if multiple_builds == 1 else "\n")
 
       if len(layout_hashes) == 1:
-        box_content += "layout hash {}".format(layout_hashes[0])
+        box_content += "layout hash <tt>{}</tt>".format(layout_hashes[0])
       elif len(layout_hashes) > 1:
-        box_content += "layout hashes \n*{}".format("\n* ".join(layout_hashes))
+        box_content += "layout hashes \n*<tt>{}</tt>".format("</tt>\n*<tt>".join(layout_hashes))
     file_data[name] += wiki_format_template("SectionBox", box_content)[0] + "\n"
 
     for comment in definition.comments:
