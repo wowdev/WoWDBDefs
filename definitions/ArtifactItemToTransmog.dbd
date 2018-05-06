@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int field_3979729307?
-int field_4143235278?
-int field_617531762?
+int<Artifact::ID> ArtifactID?
+int<Item::ID> TransmogItemID?
+int<Item::ID> ArtifactItemID?
 
 LAYOUT 2069F287
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-field_617531762<32>
-field_3979729307<32>
-$noninline,relation$field_4143235278<32>
+ArtifactItemID<32>
+ArtifactID<32>
+$noninline,relation$TransmogItemID<32>
