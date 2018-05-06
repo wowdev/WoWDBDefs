@@ -1,17 +1,17 @@
 COLUMNS
-uint field_1313613340?
+locstring Title?
+string FactionTitle?
+locstring Description?
 uint ID?
 uint field_2914807361?
+uint field_1313613340?
 uint<PlayerCondition::ID> PlayerConditionID?
-string field_3979729307?
-locstring field_4143235278_lang?
-locstring field_617531762_lang?
 
 LAYOUT 0B271FD9
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
-field_617531762_lang
-field_3979729307
-field_4143235278_lang
+Title
+FactionTitle
+Description
 $id$ID<32>
 field_2914807361<32>
 field_1313613340<32>
