@@ -46,7 +46,7 @@ field_974013196<32>
 field_4236132424<32>
 
 LAYOUT C31F4DEF
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 itemID<32>[5]
 currencyCount<32>[5]
@@ -68,3 +68,17 @@ itemID<32>[5]
 itemCount<32>[5]
 requiredArenaRating<32>
 itemPurchaseGroup<32>
+
+LAYOUT ADD09693
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+itemID<32>[5]
+currencyCount<32>[5]
+requiredArenaRating<16>
+itemCount<16>[5]
+currencyID<16>[5]
+arenaBracket<8>
+flags<8>
+minFactionID<8>
+minReputation<8>
+requiredAchievement<8>

@@ -21,11 +21,23 @@ procCategoryRecovery<32>
 spellProcsPerMinuteID<32>
 
 LAYOUT E05BE94F
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 procCharges<32>
 procTypeMask<32>[2]
 procCategoryRecovery<32>
+cumulativeAura<16>
+spellProcsPerMinuteID<16>
+difficultyID<8>
+procChance<8>
+$noninline,relation$spellID<32>
+
+LAYOUT B825BCB7
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+procCategoryRecovery<32>
+procCharges<32>
+procTypeMask<32>[2]
 cumulativeAura<16>
 spellProcsPerMinuteID<16>
 difficultyID<8>

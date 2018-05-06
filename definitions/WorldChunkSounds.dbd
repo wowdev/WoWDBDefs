@@ -22,7 +22,7 @@ SubchunkY<32>
 SoundOverrideID<32>
 
 LAYOUT D06AA126
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 MapID<16>
 ChunkX<8>
@@ -42,3 +42,13 @@ ZoneIntroMusicID<32>
 ZoneMusicID<32>
 SoundAmbienceID<32>
 SoundProviderPreferencesID<32>
+
+LAYOUT 6ECC5A62
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+MapID<16>
+SoundOverrideID<8>
+ChunkX<8>
+ChunkY<8>
+SubchunkX<8>
+SubchunkY<8>

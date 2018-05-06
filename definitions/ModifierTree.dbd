@@ -18,7 +18,7 @@ amount<32>
 parent<32>
 
 LAYOUT 7718AFC2
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 asset<32>
 secondaryAsset<32>
@@ -27,3 +27,14 @@ type<8>
 tertiaryAsset<8>
 operator<8>
 amount<8>
+
+LAYOUT FFDB228E
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+parent<32>
+asset<32>
+secondaryAsset<32>
+operator<8>
+amount<8>
+type<8>
+tertiaryAsset<8>

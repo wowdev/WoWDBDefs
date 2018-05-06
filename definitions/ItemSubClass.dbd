@@ -15,7 +15,7 @@ int ID
 uint auctionHouseSortOrder
 
 LAYOUT DAD92A67
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 displayName_lang
 verboseName_lang
@@ -56,3 +56,17 @@ weaponAttackSeq<32>
 WeaponSwingSize<32>
 displayName_lang
 verboseName_lang
+
+LAYOUT 898D236B
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+displayName_lang
+verboseName_lang
+flags<16>
+$relation$classID<8>
+subClassID<8>
+auctionHouseSortOrder<8>
+prerequisiteProficiency<8>
+displayFlags<8>
+WeaponSwingSize<8>
+postrequisiteProficiency<8>

@@ -32,7 +32,7 @@ field_2691467406
 field_2764207789
 
 LAYOUT E6A6CB99
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 combatWeightBase
 combatWeightMax
 actionValueFlat
@@ -44,4 +44,19 @@ garrMechanicTypeID<8>
 flags<8>
 actionRace<8>
 actionHours<8>
+$id$ID<32>
+
+LAYOUT 86CA039B
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+combatWeightBase
+combatWeightMax
+actionValueFlat
+actionRecordID<32>
+$relation$garrAbilityID<16>
+abilityAction<8>
+abilityTargetType<8>
+garrMechanicTypeID<8>
+actionRace<8>
+actionHours<8>
+flags<8>
 $id$ID<32>

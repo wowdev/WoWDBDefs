@@ -65,7 +65,7 @@ uint vendorStackCount
 uint zoneBound
 
 LAYOUT 350149D8
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 COMMENT table is sparse
 $noninline,id$ID<32>
 allowableRace<64>
@@ -131,3 +131,71 @@ spellWeightCategory<8>
 spellWeight<8>
 artifactID<8>
 expansionID<8>
+
+LAYOUT CDD13D2C
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+COMMENT table is sparse
+$noninline,id$ID<32>
+allowableRace<64>
+description_lang
+display3_lang
+display2_lang
+display1_lang
+display_lang
+dmgVariance
+durationInInventory<32>
+qualityModifier
+bagFamily<32>
+itemRange
+statPercentageOfSocket[10]
+statPercentEditor<32>[10]
+stackable<32>
+maxCount<32>
+requiredAbility<32>
+sellPrice<32>
+buyPrice<32>
+vendorStackCount<32>
+priceVariance
+priceRandomValue
+flags<32>[4]
+itemNameDescriptionID<16>
+requiredTransmogHoliday<16>
+requiredHoliday<16>
+limitCategory<16>
+gem_properties<16>
+socket_match_enchantment_ID<16>
+totemCategoryID<16>
+instanceBound<16>
+zoneBound<16>
+itemSet<16>
+itemRandomSuffixGroupID<16>
+randomSelect<16>
+lockID<16>
+startQuestID<16>
+pageID<16>
+itemDelay<16>
+scalingStatDistributionID<16>
+minFactionID<16>
+requiredSkillRank<16>
+requiredSkill<16>
+itemLevel<16>
+allowableClass<16>
+expansionID<8>
+artifactID<8>
+spellWeight<8>
+spellWeightCategory<8>
+socketType<8>[3]
+sheatheType<8>
+material<8>
+pageMaterialID<8>
+languageID<8>
+bonding<8>
+damage_damageType<8>
+statModifier_bonusStat<8>[10]
+containerSlots<8>
+minReputation<8>
+requiredPVPMedal<8>
+requiredPVPRank<8>
+requiredLevel<8>
+inventoryType<8>
+overallQualityID<8>

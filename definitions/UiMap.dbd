@@ -1,0 +1,47 @@
+COLUMNS
+int ID
+int bkgFileDataID
+uint bountyDisplayLocation
+int bountySetID
+int flags
+int helpTextPosition
+uint levelRangeMax
+uint levelRangeMin
+locstring name_lang
+int parentUiMapID
+int system
+uint type
+int visibilityPlayerConditionID
+int bkgAtlasID
+
+LAYOUT 2C161494
+BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
+name_lang
+$id$ID<32>
+$relation$parentUiMapID<32>
+flags<32>
+system<32>
+type<32>
+levelRangeMin<32>
+levelRangeMax<32>
+bountySetID<32>
+bountyDisplayLocation<32>
+visibilityPlayerConditionID<32>
+helpTextPosition<8>
+bkgFileDataID<32>
+
+LAYOUT 57653F45
+BUILD 8.0.1.26433
+name_lang
+$id$ID<32>
+$relation$parentUiMapID<32>
+flags<32>
+system<32>
+type<32>
+levelRangeMin<32>
+levelRangeMax<32>
+bountySetID<32>
+bountyDisplayLocation<32>
+visibilityPlayerConditionID<32>
+helpTextPosition<8>
+bkgAtlasID<32>

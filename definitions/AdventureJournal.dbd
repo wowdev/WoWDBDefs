@@ -23,8 +23,8 @@ int textureFileDataID
 uint type
 uint worldMapAreaID
 
-LAYOUT B2FFA8DD
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+LAYOUT B2FFA8DD, 2C723565
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
 $noninline,id$ID<32>
 name_lang
 description_lang
@@ -37,6 +37,32 @@ lfgDungeonID<16>
 questID<16>
 battleMasterListID<16>
 bonusPlayerConditionID<16>[2]
+currencyType<16>
+worldMapAreaID<16>
+type<8>
+flags<8>
+buttonActionType<8>
+priorityMin<8>
+priorityMax<8>
+bonusValue<8>[2]
+currencyQuantity<8>
+playerConditionID<32>
+itemQuantity<32>
+
+LAYOUT F563D0AF
+BUILD 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+name_lang
+description_lang
+buttonText_lang
+rewardDescription_lang
+continueDescription_lang
+textureFileDataID<32>
+bonusPlayerConditionID<32>[2]
+itemID<32>
+lfgDungeonID<16>
+questID<16>
+battleMasterListID<16>
 currencyType<16>
 worldMapAreaID<16>
 type<8>

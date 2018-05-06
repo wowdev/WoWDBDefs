@@ -28,7 +28,7 @@ overridesSpellID<32>
 description_lang
 
 LAYOUT E8850B48
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 description_lang
 spellID<32>
@@ -51,3 +51,16 @@ prereqRank<32>[3]
 flags<32>
 requiredSpellID<32>
 categoryMask<32>[2]
+
+LAYOUT 5AC30D6A
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+description_lang
+spellID<32>
+overridesSpellID<32>
+specID<16>
+tierID<8>
+flags<8>
+columnIndex<8>
+categoryMask<8>[2]
+classID<8>

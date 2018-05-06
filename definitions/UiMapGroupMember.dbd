@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int floorIndex
+locstring name_lang
+int relativeHeightIndex
+int uiMapGroupID
+int uiMapID
+
+LAYOUT 3D1DDDA1
+BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+name_lang
+$relation$uiMapGroupID<32>
+uiMapID<32>
+floorIndex<32>
+relativeHeightIndex<8>

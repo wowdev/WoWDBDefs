@@ -62,7 +62,7 @@ wildBattlePetLevelMax<32>
 windSettingsID<32>
 
 LAYOUT 0CA01129
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 ZoneName
 AreaName_lang
@@ -122,3 +122,30 @@ ZoneMusic<32>
 IntroSound<32>
 IntroPriority<32>
 AreaName_lang
+
+LAYOUT D5D5033B
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+ZoneName
+AreaName_lang
+flags<32>[2]
+ambient_multiplier
+ContinentID<16>
+ParentAreaID<16>
+AreaBit<16>
+AmbienceID<16>
+uwAmbience<16>
+ZoneMusic<16>
+uwZoneMusic<16>
+IntroSound<16>
+liquidTypeID<16>[4]
+pvpCombatWorldStateID<16>
+SoundProviderPref<8>
+SoundProviderPrefUnderwater<8>
+ExplorationLevel<8>
+factionGroupMask<8>
+mountFlags<8>
+wildBattlePetLevelMin<8>
+wildBattlePetLevelMax<8>
+windSettingsID<8>
+uwIntroSound<32>

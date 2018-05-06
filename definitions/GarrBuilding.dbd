@@ -67,7 +67,7 @@ field_3505732336<32>
 field_1025260385<32>
 
 LAYOUT 200F9858
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 allianceName_lang
 hordeName_lang
@@ -90,6 +90,34 @@ upgradeLevel<8>
 flags<8>
 shipmentCapacity<8>
 garrTypeID<8>
+buildSeconds<32>
+currencyQty<32>
+maxAssignments<32>
+
+LAYOUT F4DF1FA6
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+hordeName_lang
+allianceName_lang
+description_lang
+tooltip_lang
+hordeGameObjectID<32>
+allianceGameObjectID<32>
+iconFileDataID<32>
+currencyTypeID<16>
+hordeUiTextureKitID<16>
+allianceUiTextureKitID<16>
+allianceSceneScriptPackageID<16>
+hordeSceneScriptPackageID<16>
+garrAbilityID<16>
+bonusGarrAbilityID<16>
+goldCost<16>
+garrTypeID<8>
+buildingType<8>
+garrSiteID<8>
+upgradeLevel<8>
+shipmentCapacity<8>
+flags<8>
 buildSeconds<32>
 currencyQty<32>
 maxAssignments<32>

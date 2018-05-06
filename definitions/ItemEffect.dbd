@@ -30,11 +30,24 @@ field_3497675928<32>
 field_1248757658<32>
 
 LAYOUT A390FA40
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 spellID<32>
 coolDownMSec<32>
 categoryCoolDownMSec<32>
+charges<16>
+spellCategoryID<16>
+chrSpecializationID<16>
+legacySlotIndex<8>
+triggerType<8>
+$noninline,relation$parentItemID<32>
+
+LAYOUT BC865B9C
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+coolDownMSec<32>
+categoryCoolDownMSec<32>
+spellID<32>
 charges<16>
 spellCategoryID<16>
 chrSpecializationID<16>

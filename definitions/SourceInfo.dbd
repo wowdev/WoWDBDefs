@@ -6,9 +6,17 @@ int sourceTypeEnum
 uint spellID
 
 LAYOUT 7C214135
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 sourceText_lang
 sourceTypeEnum<8>
 pvpFaction<8>
+$noninline,relation$spellID<32>
+
+LAYOUT A94C7962
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+sourceText_lang
+pvpFaction<8>
+sourceTypeEnum<8>
 $noninline,relation$spellID<32>

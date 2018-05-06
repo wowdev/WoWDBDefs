@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int playerConditionID
+int uiMapFogOfWarVisID
+int uiMapID
+
+LAYOUT 257E044E
+BUILD 8.0.1.26367, 8.0.1.26433
+$id$ID<32>
+$relation$uiMapID<32>
+playerConditionID<32>
+uiMapFogOfWarVisID<32>

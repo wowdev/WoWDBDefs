@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int flags
+int object_ID
+string tablename
+
+LAYOUT B67D3F47
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+tablename
+object_ID<32>
+flags<32>

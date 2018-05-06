@@ -33,7 +33,7 @@ parentSkillLineID<32>
 flags<32>
 
 LAYOUT F0E77964
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 displayName_lang
 hordeDisplayName_lang
@@ -86,3 +86,31 @@ minCharLevel<32>
 maxRank<32>
 abandonable<32>
 displayName_lang
+
+LAYOUT 9C1D6E2E
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
+$noninline,id$ID<32>
+displayName_lang
+alternateVerb_lang
+description_lang
+hordeDisplayName_lang
+flags<16>
+categoryID<8>
+canLink<8>
+spellIconFileID<32>
+parentSkillLineID<32>
+parentTierIndex<32>
+
+LAYOUT 3A71246C
+BUILD 8.0.1.26433
+displayName_lang
+alternateVerb_lang
+description_lang
+hordeDisplayName_lang
+$id$ID<32>
+flags<16>
+categoryID<8>
+canLink<8>
+spellIconFileID<32>
+parentSkillLineID<32>
+parentTierIndex<32>

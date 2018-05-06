@@ -33,7 +33,7 @@ flags<32>
 friendshipRepID<32>
 
 LAYOUT C0CBCBC8
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 reputationRaceMask<64>[4]
 name_lang
 description_lang
@@ -82,3 +82,22 @@ reputationRaceMask<32>[4]
 reputationClassMask<32>[4]
 reputationBase<32>[4]
 name_lang
+
+LAYOUT 7D7A0425
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+reputationRaceMask<64>[4]
+name_lang
+description_lang
+$id$ID<32>
+reputationBase<32>[4]
+reputationMax<32>[4]
+parentFactionMod[2]
+reputationIndex<16>
+reputationClassMask<16>[4]
+reputationFlags<16>[4]
+parentFactionID<16>
+paragonFactionID<16>
+parentFactionCap<8>[2]
+expansion<8>
+friendshipRepID<8>
+flags<8>

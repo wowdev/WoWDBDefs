@@ -32,7 +32,7 @@ field_3628018924<32>
 field_2427487154<32>
 
 LAYOUT 0DFCC83D
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 iconFileDataID<32>
 classID<8>
@@ -52,3 +52,15 @@ material<32>
 displayInfoID<32>
 inventoryType<32>
 sheatheType<32>
+
+LAYOUT 38F7149F
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+iconFileDataID<32>
+classID<8>
+subclassID<8>
+material<8>
+inventoryType<8>
+sheatheType<8>
+sound_override_subclassID<8>
+itemGroupSoundsID<8>

@@ -134,7 +134,7 @@ flagsC<32>
 uiSkinFileDataID<32>
 
 LAYOUT 242E0ECD
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 flags<32>
 flagsB<32>
@@ -342,3 +342,68 @@ enterUISoundID<32>
 exitUISoundID<32>
 uiSkin<32>
 flagsB<32>
+
+LAYOUT A0A493A7
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+flags<32>
+flagsB<32>
+flagsC<32>
+attachmentOffset[3]
+enterPreDelay
+enterSpeed
+enterGravity
+enterMinDuration
+enterMaxDuration
+enterMinArcHeight
+enterMaxArcHeight
+exitPreDelay
+exitSpeed
+exitGravity
+exitMinDuration
+exitMaxDuration
+exitMinArcHeight
+exitMaxArcHeight
+passengerYaw
+passengerPitch
+passengerRoll
+vehicleEnterAnimDelay
+vehicleExitAnimDelay
+uiSkinFileDataID<32>
+cameraEnteringDelay
+cameraEnteringDuration
+cameraExitingDelay
+cameraExitingDuration
+cameraOffset[3]
+cameraPosChaseRate
+cameraFacingChaseRate
+cameraEnteringZoom
+cameraSeatZoomMin
+cameraSeatZoomMax
+enterAnimStart<16>
+enterAnimLoop<16>
+rideAnimStart<16>
+rideAnimLoop<16>
+rideUpperAnimStart<16>
+rideUpperAnimLoop<16>
+exitAnimStart<16>
+exitAnimLoop<16>
+exitAnimEnd<16>
+vehicleEnterAnim<16>
+vehicleExitAnim<16>
+vehicleRideAnimLoop<16>
+enterAnimKitID<16>
+rideAnimKitID<16>
+exitAnimKitID<16>
+vehicleEnterAnimKitID<16>
+vehicleRideAnimKitID<16>
+vehicleExitAnimKitID<16>
+cameraModeID<16>
+attachmentID<8>
+vehicleEnterAnimBone<8>
+vehicleExitAnimBone<8>
+vehicleRideAnimLoopBone<8>
+passengerAttachmentID<8>
+vehicleAbilityDisplay<8>
+enterUISoundID<32>
+exitUISoundID<32>

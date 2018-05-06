@@ -28,13 +28,26 @@ field_2660581330<32>
 field_4255104354<32>
 
 LAYOUT E6D3C7C1
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 treasureID<32>
 duration<32>
 spellID<32>
 dummyItemID<32>
 onCompleteSpellID<32>
+$relation$containerID<16>
+garrFollowerID<16>
+maxShipments<8>
+flags<8>
+
+LAYOUT 8FCBB613
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+dummyItemID<32>
+treasureID<32>
+spellID<32>
+onCompleteSpellID<32>
+duration<32>
 $relation$containerID<16>
 garrFollowerID<16>
 maxShipments<8>

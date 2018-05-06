@@ -155,8 +155,8 @@ totemsID<32>
 requiredProjectID<32>
 miscID<32>
 
-LAYOUT 2273DFFF
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+LAYOUT 2273DFFF, 60BB6C3F
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
 $noninline,id$ID<32>
 name_lang
 nameSubtext_lang
@@ -538,3 +538,11 @@ description_lang
 manaCostPct<32>
 startRecoveryCategory<32>
 startRecoveryTime<32>
+
+LAYOUT FFF1DA38
+BUILD 8.0.1.26367, 8.0.1.26433
+COMMENT table is sparse
+$noninline,id$ID<32>
+nameSubtext_lang
+description_lang
+auraDescription_lang

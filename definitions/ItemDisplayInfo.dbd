@@ -38,7 +38,7 @@ itemVisual<32>
 particleColorID<32>
 
 LAYOUT 99606089
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 flags<32>
 itemRangedDisplayInfoID<32>
@@ -99,3 +99,22 @@ itemSize<32>
 helmetGeosetVisID<32>
 texture[8]
 itemVisual<32>
+
+LAYOUT 089404D9
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+modelType1<32>
+itemVisual<32>
+particleColorID<32>
+itemRangedDisplayInfoID<32>
+overrideSwooshSoundKitID<32>
+sheatheTransformMatrixID<32>
+stateSpellVisualKitID<32>
+sheathedSpellVisualKitID<32>
+unsheathedSpellVisualKitID<32>
+flags<32>
+modelResourcesID<32>[2]
+modelMaterialResourcesID<32>[2]
+geosetGroup<32>[4]
+attachmentGeosetGroup<32>[4]
+helmetGeosetVis<32>[2]

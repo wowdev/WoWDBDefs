@@ -26,8 +26,8 @@ conditionID<32>
 Flags<32>
 MapOffset[2]
 
-LAYOUT B46C6A8B
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+LAYOUT B46C6A8B, E96BA283
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
 Name_lang
 pos[3]
@@ -58,3 +58,19 @@ X
 Y
 Z
 Name_lang
+
+LAYOUT 9F773045
+BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+Name_lang
+$id$ID<32>
+pos[3]
+MountCreatureID<32>[2]
+MapOffset[2]
+facing
+flightMapOffset[2]
+$relation$ContinentID<16>
+conditionID<16>
+characterBitNumber<16>
+Flags<8>
+uiTextureKitID<32>
+specialIconConditionID<32>

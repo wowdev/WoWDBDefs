@@ -74,6 +74,7 @@ uint weaponTrailBlue
 uint weaponTrailAlpha
 uint weaponTrailFadeoutRate
 uint weaponTrailDuration
+uint raidSpellVisualMissileSetID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -104,7 +105,7 @@ field_3650477862<32>
 field_3380890489<32>
 
 LAYOUT 1C1301D2
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 missileCastOffset[3]
 missileImpactOffset[3]
@@ -204,3 +205,40 @@ weaponTrailBlue<8>
 weaponTrailAlpha<8>
 weaponTrailFadeoutRate<8>
 weaponTrailDuration<32>
+
+LAYOUT 8B390BA8
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
+$noninline,id$ID<32>
+flags<32>
+missileCastOffset[3]
+missileImpactOffset[3]
+spellVisualMissileSetID<16>
+missileAttachment<8>
+missileDestinationAttachment<8>
+animEventSoundID<32>
+missileCastPositionerID<32>
+missileImpactPositionerID<32>
+missileTargetingKit<32>
+hostileSpellVisualID<32>
+casterSpellVisualID<32>
+damageNumberDelay<16>
+lowViolenceSpellVisualID<32>
+
+LAYOUT 514F85ED
+BUILD 8.0.1.26433
+$noninline,id$ID<32>
+missileCastOffset[3]
+missileImpactOffset[3]
+animEventSoundID<32>
+flags<32>
+missileAttachment<8>
+missileDestinationAttachment<8>
+missileCastPositionerID<32>
+missileImpactPositionerID<32>
+missileTargetingKit<32>
+hostileSpellVisualID<32>
+casterSpellVisualID<32>
+spellVisualMissileSetID<16>
+damageNumberDelay<16>
+lowViolenceSpellVisualID<32>
+raidSpellVisualMissileSetID<32>

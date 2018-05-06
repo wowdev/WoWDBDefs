@@ -13,9 +13,10 @@ uint uiTextureAtlasMemberID
 uint uiTextureKitID
 uint worldMapAreaID
 float worldPosition
+int mapID
 
-LAYOUT 0C288A82
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+LAYOUT 0C288A82, A454AF76
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
 title_lang
 description_lang
@@ -29,4 +30,20 @@ uiTextureAtlasMemberID<32>
 uiTextureKitID<32>
 worldMapAreaID<32>
 dungeonMapID<32>
+areaTableID<32>
+
+LAYOUT 59CCFB2D
+BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+title_lang
+description_lang
+worldPosition[2]
+rewardItemID<32>
+mapID<32>
+type<8>
+playerConditionID<32>
+questID<32>
+lfgDungeonID<32>
+uiTextureAtlasMemberID<32>
+uiTextureKitID<32>
 areaTableID<32>

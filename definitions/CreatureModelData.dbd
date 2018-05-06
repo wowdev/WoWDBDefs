@@ -74,7 +74,7 @@ creatureGeosetDataID<32>
 hoverHeight
 
 LAYOUT 983BD312
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 modelScale
 footprintTextureLength
@@ -178,3 +178,35 @@ foleyMaterialID<32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
 soundID<32>
+
+LAYOUT DA590248
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+collisionWidth
+collisionHeight
+worldEffectScale
+hoverHeight
+attachedEffectScale
+modelScale
+missileCollisionRadius
+missileCollisionPush
+missileCollisionRaise
+mountHeight
+overrideLootEffectScale
+overrideNameScale
+overrideSelectionRadius
+tamedPetBaseScale
+geoBox[6]
+flags<32>
+fileDataID<32>
+bloodID<32>
+footprintTextureID<32>
+foleyMaterialID<32>
+footstepCameraEffectID<32>
+deathThudCameraEffectID<32>
+soundID<32>
+sizeClass<32>
+creatureGeosetDataID<32>

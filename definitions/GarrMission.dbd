@@ -69,7 +69,7 @@ field_805352722
 field_2386078249
 
 LAYOUT DDD70490
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 name_lang
 description_lang
 location_lang
@@ -98,4 +98,36 @@ baseFollowerXP<32>
 areaID<32>
 overmaxRewardPackID<32>
 envGarrMechanicID<32>
+$noninline,relation$garrMissionSetID<32>
+
+LAYOUT 934C4D3C
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+name_lang
+location_lang
+description_lang
+missionDuration<32>
+offerDuration<32>
+mapPos[2]
+worldPos[2]
+missionCostCurrencyTypesID<16>
+uiTextureKitID<16>
+targetItemLevel<16>
+garrTypeID<8>
+garrMissionTypeID<8>
+garrFollowerTypeID<8>
+maxFollowers<8>
+offeredGarrMissionTextureID<8>
+envGarrMechanicTypeID<8>
+targetLevel<8>
+baseCompletionChance<8>
+followerDeathChance<8>
+$id$ID<32>
+missionCost<32>
+envGarrMechanicID<32>
+playerConditionID<32>
+travelDuration<32>
+baseFollowerXP<32>
+overmaxRewardPackID<32>
+areaID<32>
+flags<32>
 $noninline,relation$garrMissionSetID<32>

@@ -64,7 +64,7 @@ cloudDensity
 fogDensity
 
 LAYOUT 98BC17CE
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 directColor<32>
 ambientColor<32>
@@ -99,5 +99,44 @@ fogHeightColor<32>
 colorGradingFileDataID<32>
 horizonAmbientColor<32>
 groundAmbientColor<32>
+$relation$lightParamID<16>
+time<16>
+
+LAYOUT 34231474
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+directColor<32>
+ambientColor<32>
+skyTopColor<32>
+skyMiddleColor<32>
+skyBand1Color<32>
+skyBand2Color<32>
+skySmogColor<32>
+skyFogColor<32>
+sunColor<32>
+cloudSunColor<32>
+cloudEmissiveColor<32>
+cloudLayer1AmbientColor<32>
+cloudLayer2AmbientColor<32>
+oceanCloseColor<32>
+oceanFarColor<32>
+riverCloseColor<32>
+riverFarColor<32>
+shadowOpacity<32>
+fogEnd
+fogScaler
+fogDensity
+fogHeight
+fogHeightScaler
+fogHeightDensity
+sunFogAngle
+cloudDensity
+colorGradingFileDataID<32>
+horizonAmbientColor<32>
+groundAmbientColor<32>
+endFogColor<32>
+endFogColorDistance
+sunFogColor<32>
+fogHeightColor<32>
 $relation$lightParamID<16>
 time<16>

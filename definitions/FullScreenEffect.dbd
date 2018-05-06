@@ -29,7 +29,7 @@ float saturation
 uint textureBlendSetID
 
 LAYOUT 5CBF1D1B
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 saturation
 gammaRed
@@ -58,3 +58,34 @@ flags<32>
 textureBlendSetID<32>
 effectFadeInMs<32>
 effectFadeOutMs<32>
+
+LAYOUT 85B3706F
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+saturation
+gammaRed
+gammaGreen
+gammaBlue
+maskOffsetY
+maskSizeMultiplier
+maskPower
+colorMultiplyRed
+colorMultiplyGreen
+colorMultiplyBlue
+colorMultiplyOffsetY
+colorMultiplyMultiplier
+colorMultiplyPower
+colorAdditionRed
+colorAdditionGreen
+colorAdditionBlue
+colorAdditionOffsetY
+colorAdditionMultiplier
+colorAdditionPower
+blurIntensity
+blurOffsetY
+blurMultiplier
+blurPower
+flags<32>
+effectFadeInMs<32>
+effectFadeOutMs<32>
+textureBlendSetID<32>
