@@ -1,8 +1,0 @@
-COLUMNS
-int ID
-uint talentSlotMask
-
-LAYOUT BB4B5731
-BUILD 8.0.1.26433
-$noninline,id$ID<32>
-talentSlotMask<8>
