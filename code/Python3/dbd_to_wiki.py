@@ -76,21 +76,20 @@ for name, parsed in dbds.items():
       #! \todo annotations
 
       def wiki_format_type():
-        actual_type = entry.override_type if entry.override_type else meta.type
-        print (actual_type, entry.column, name)
-        if actual_type in ["uint", "int"]:
-          type = wiki_format_raw("{}{}_t", actual_type, entry.int_width if entry.int_width else 32)
+        print (meta.type, entry.column, name)
+        if meta.type in ["uint", "int"]:
+          type = wiki_format_raw("{}{}_t", meta.type, entry.int_width if entry.int_width else 32)
           if meta.foreign:
             return wiki_format_template("ForeignKey", type[0], meta.foreign.table, "m_{}".format(meta.foreign.column))
           return type
         assert (not entry.int_width)
         assert (not meta.foreign)
 
-        if actual_type in ["string", "locstring"]:
-          wikiname = "stringref" if actual_type == "string" else "langstringref"
+        if meta.type in ["string", "locstring"]:
+          wikiname = "stringref" if meta.type == "string" else "langstringref"
           return wiki_format_template("Type", wikiname)
         else:
-          return wiki_format_raw("{}", actual_type)
+          return wiki_format_raw("{}", meta.type)
       type_str = wiki_format_type()
 
       array_str_str = "[{}]".format(entry.array_size) if entry.array_size else ""

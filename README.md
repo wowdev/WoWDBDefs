@@ -85,12 +85,6 @@ Annotations start with a ```$``` and end with a ```$``` and are comma separated 
 
 **noninline** this column is **non-inline** (currently only used for  ```$id$``` and ```$relation$```). See non-inline examples above.
 
-#### Column overrides
-
-In some cases (one documented so far) there was an issue with a field's type changing from a uint to a float between versions. For rare cases like this we came up with the following solution:
-
-```#float#coolPercentageField```
-
 ## File handling
 Files will be saved with DBName.dbd filenames. Every file has multiple definitions for each different structure that has been encountered for that file. Version structures are separated by an empty new line. All line endings should be in Unix format (\n).
 

@@ -89,11 +89,6 @@ namespace DBDefsLib
 
                     foreach(var column in versionDefinition.definitions)
                     {
-                        if (!string.IsNullOrWhiteSpace(column.typeOverride))
-                        {
-                            writer.Write("#" + column.typeOverride + "#");  
-                        }
-
                         if (column.isID || column.isNonInline || column.isRelation)
                         {
                             writer.Write("$");

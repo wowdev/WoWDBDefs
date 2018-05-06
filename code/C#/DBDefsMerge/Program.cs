@@ -48,56 +48,18 @@ namespace DBDefsMerge
                             if (Utils.NormalizeColumn(columnDefinition2.Key).ToLower() == Utils.NormalizeColumn(columnDefinition1.Key).ToLower())
                             {
                                 foundCol = true;
-                                var typeOverride = "";
 
                                 if (columnDefinition2.Value.type != columnDefinition1.Value.type)
                                 {
                                     Console.ForegroundColor = ConsoleColor.Yellow;
                                     Console.WriteLine("Types are different for (1)" + dbName + "::" + columnDefinition1.Key + " = " + columnDefinition1.Value.type + " and (2)" + dbName + "::" + columnDefinition2.Key + " = " + columnDefinition2.Value.type + ", using type " + columnDefinition2.Value.type + " from 2");
 
-                                    typeOverride = columnDefinition2.Value.type;
-
                                     // If this is an uncommon conversion (not uint -> int) override the version's column type
                                     if ((columnDefinition1.Value.type == "uint" && columnDefinition2.Value.type == "int") || (columnDefinition1.Value.type == "int" && columnDefinition2.Value.type == "uint")) {
                                         Console.ForegroundColor = ConsoleColor.Yellow;
                                         Console.WriteLine("Type difference for column (1)" + dbName + "::" + columnDefinition1.Key + " = " + columnDefinition1.Value.type + " and(2)" + dbName + "::" + columnDefinition2.Key + " = " + columnDefinition2.Value.type + ", ignoring..");
                                     } else {
-                                        Console.ForegroundColor = ConsoleColor.Red;
-                                        Console.WriteLine("Unexpected type difference for column (1)" + dbName + "::" + columnDefinition1.Key + " = " + columnDefinition1.Value.type + " and(2)" + dbName + "::" + columnDefinition2.Key + " = " + columnDefinition2.Value.type);
-                                        Console.WriteLine("Adding override to type " + columnDefinition2.Value.type + " for the column in this version!");
-                                        for (var i = 0; i < secondFile.versionDefinitions.Length; i++)
-                                        {
-                                            for (var j = 0; j < secondFile.versionDefinitions[i].definitions.Length; j++)
-                                            {
-                                                if (secondFile.versionDefinitions[i].definitions[j].name == columnDefinition2.Key)
-                                                {
-                                                    secondFile.versionDefinitions[i].definitions[j].typeOverride = columnDefinition2.Value.type;
-                                                    break;
-                                                }
-                                            }
-                                        }
-                                    }
-
-                                    // Only change type in column definitions if we're not already overriding it 
-                                    if (string.IsNullOrWhiteSpace(typeOverride))
-                                    {
-                                        var tempDefs = newDefinition.columnDefinitions;
-                                        newDefinition.columnDefinitions = new Dictionary<string, ColumnDefinition>();
-                                        // TODO: Figure out a better way to "rebuild" column dictionary
-                                        foreach (var columnDef1 in tempDefs)
-                                        {
-                                            if (columnDef1.Key == columnDefinition1.Key)
-                                            {
-                                                var newVal = columnDef1.Value;
-                                                // Use newer type to override old one
-                                                newVal.type = columnDefinition2.Value.type;
-                                                newDefinition.columnDefinitions.Add(columnDef1.Key, newVal);
-                                            }
-                                            else
-                                            {
-                                                newDefinition.columnDefinitions.Add(columnDef1.Key, columnDef1.Value);
-                                            }
-                                        }
+                                        throw new Exception("bad type difference, refusing to handle");
                                     }
 
                                     Console.ResetColor();
