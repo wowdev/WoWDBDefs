@@ -46,6 +46,11 @@ namespace DBDefsLib
                 }
             }
 
+            if (cleaned.EndsWith("_"))
+            {
+                cleaned = cleaned.Substring(0, cleaned.Length - 1);
+            }
+
             if (fixFirst)
             {
                 var arr = cleaned.ToCharArray();

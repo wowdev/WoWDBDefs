@@ -110,7 +110,16 @@ namespace DBDefsLib
                     }
 
                     // Add to dictionary
-                    columnDefinitionDictionary.Add(name, columnDefinition);
+                    if (columnDefinitionDictionary.ContainsKey(name))
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Collision with existing column name while adding new column name! Skipping..");
+                        Console.ResetColor();
+                    }
+                    else
+                    {
+                        columnDefinitionDictionary.Add(name, columnDefinition);
+                    }
                 }
             }
             else
@@ -265,6 +274,9 @@ namespace DBDefsLib
             // Validation is optional!
             if (validate)
             {
+                var seenBuilds = new List<Build>();
+                var seenLayoutHashes = new List<string>();
+
                 foreach (var column in columnDefinitionDictionary)
                 {
                     var found = false;
@@ -297,8 +309,29 @@ namespace DBDefsLib
 
                 foreach (var version in versionDefinitions)
                 {
+                    foreach (var build in version.builds)
+                    {
+                        if (seenBuilds.Contains(build))
+                        {
+                            throw new Exception("Build " + build.ToString() + " is already defined!");
+                        }
+                        else
+                        {
+                            seenBuilds.Add(build);
+                        }
+                    }
+
                     foreach (var layoutHash in version.layoutHashes)
                     {
+                        if (seenLayoutHashes.Contains(layoutHash))
+                        {
+                            throw new Exception("Layout hash " + layoutHash + " is already defined!");
+                        }
+                        else
+                        {
+                            seenLayoutHashes.Add(layoutHash);
+                        }
+
                         if (layoutHash.Length != 8)
                         {
                             throw new Exception("Layout hash \"" + layoutHash + "\" is wrong length for file " + file);

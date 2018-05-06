@@ -45,7 +45,7 @@ namespace DBDefsMerge
                         var foundCol = false;
                         foreach (var columnDefinition1 in firstFile.columnDefinitions)
                         {
-                            if (columnDefinition2.Key.ToLower() == columnDefinition1.Key.ToLower())
+                            if (Utils.NormalizeColumn(columnDefinition2.Key).ToLower() == Utils.NormalizeColumn(columnDefinition1.Key).ToLower())
                             {
                                 foundCol = true;
                                 var typeOverride = "";
@@ -211,10 +211,24 @@ namespace DBDefsMerge
                                 if (newVersions[i].definitions.SequenceEqual(versionDefinition2.definitions))
                                 {
                                     Console.WriteLine("Looks like these two definition arrays are the same!");
+                                    // Make list from current builds
                                     var curBuilds = newVersions[i].builds.ToList();
                                     curBuilds.AddRange(versionDefinition2.builds.ToList());
+
+                                    // Make list of current layouthashes
+                                    var curLayouthashes = newVersions[i].layoutHashes.ToList();
+                                    curLayouthashes.AddRange(versionDefinition2.layoutHashes.ToList());
+
+                                    // Create temporary version object based of newVersion
                                     var tempVersion = newVersions[i];
-                                    tempVersion.builds = curBuilds.ToArray();
+
+                                    // Override builds with new list
+                                    tempVersion.builds = curBuilds.Distinct().ToArray();
+
+                                    // Override layoutHashes with new list
+                                    tempVersion.layoutHashes = curLayouthashes.Distinct().ToArray();
+
+                                    // Override newVersion with temporary version object
                                     newVersions[i] = tempVersion;
                                     mergedWithPreviousBuild = true;
                                 }
@@ -239,10 +253,24 @@ namespace DBDefsMerge
                                 {
                                     if (newVersions[i].layoutHashes.Contains(layoutHash2))
                                     {
+                                        // Make list from current builds
                                         var curBuilds = newVersions[i].builds.ToList();
                                         curBuilds.AddRange(versionDefinition2.builds.ToList());
+
+                                        // Make list of current layouthashes
+                                        var curLayouthashes = newVersions[i].layoutHashes.ToList();
+                                        curLayouthashes.AddRange(versionDefinition2.layoutHashes.ToList());
+
+                                        // Create temporary version object based of newVersion
                                         var tempVersion = newVersions[i];
-                                        tempVersion.builds = curBuilds.ToArray();
+
+                                        // Override builds with new list
+                                        tempVersion.builds = curBuilds.Distinct().ToArray();
+
+                                        // Override layoutHashes with new list
+                                        tempVersion.layoutHashes = curLayouthashes.Distinct().ToArray();
+
+                                        // Override newVersion with temporary version object
                                         newVersions[i] = tempVersion;
                                     }
                                 }
