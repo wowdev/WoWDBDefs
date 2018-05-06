@@ -119,7 +119,7 @@ for name, parsed in dbds.items():
 
       lines += [(merged_str, merged_str_visual_len, comments)]
 
-    comment_indent = max(lines, key=operator.itemgetter(1))[1]
+    comment_indent = max(lines, key=operator.itemgetter(1))[1] + 2
 
     build_ranges = merge_build_ranges(definition.builds)
     multiple_builds = 0
