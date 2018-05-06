@@ -16,6 +16,12 @@ float rotationalSpeed
 float scale
 float twinkleIntensity
 float volatility
+int lightningID
+int overrideColor
+float overrideCount
+float overrideOpacity
+float volumeEdgeFadeStart
+int volumeFlags
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -62,3 +68,28 @@ ambienceID<32>
 effectType<32>
 effectColor[3]
 effectTexture
+
+LAYOUT FBFEBCAE
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+intensity[2]
+transitionSkyBox
+effectColor[3]
+scale
+volatility
+twinkleIntensity
+fallModifier
+rotationalSpeed
+particulateFileDataID<32>
+volumeEdgeFadeStart
+overrideColor<32>
+overrideCount
+overrideOpacity
+volumeFlags<32>
+lightningID<32>
+soundAmbienceID<16>
+type<8>
+effectType<8>
+windSettingsID<8>
+ambienceID<32>
+effectTextureFileDataID<32>

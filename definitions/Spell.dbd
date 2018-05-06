@@ -538,3 +538,11 @@ description_lang
 manaCostPct<32>
 startRecoveryCategory<32>
 startRecoveryTime<32>
+
+LAYOUT FFF1DA38
+BUILD 8.0.1.26367
+COMMENT table is sparse
+$noninline,id$ID<32>
+nameSubtext_lang
+description_lang
+auraDescription_lang

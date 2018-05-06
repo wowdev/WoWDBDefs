@@ -48,3 +48,29 @@ bonusValue<8>[2]
 currencyQuantity<8>
 playerConditionID<32>
 itemQuantity<32>
+
+LAYOUT F563D0AF
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+name_lang
+description_lang
+buttonText_lang
+rewardDescription_lang
+continueDescription_lang
+textureFileDataID<32>
+bonusPlayerConditionID<32>[2]
+itemID<32>
+lfgDungeonID<16>
+questID<16>
+battleMasterListID<16>
+currencyType<16>
+worldMapAreaID<16>
+type<8>
+flags<8>
+buttonActionType<8>
+priorityMin<8>
+priorityMax<8>
+bonusValue<8>[2]
+currencyQuantity<8>
+playerConditionID<32>
+itemQuantity<32>

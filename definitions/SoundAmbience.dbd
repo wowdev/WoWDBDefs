@@ -4,6 +4,8 @@ uint AmbienceID
 uint flags
 uint flavorSoundFilterID
 uint soundFilterID
+uint ambienceStartID
+uint ambienceStopID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -21,3 +23,13 @@ AmbienceID<32>[2]
 BUILD 4.0.0.11792
 $id$ID<32>
 AmbienceID<32>[2]
+
+LAYOUT 625245C7
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+flags<8>
+soundFilterID<32>
+flavorSoundFilterID<32>
+AmbienceID<32>[2]
+ambienceStartID<32>[2]
+ambienceStopID<32>[2]

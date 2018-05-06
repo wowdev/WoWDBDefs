@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint backgroundAtlasID
+uint maskAtlasID
+float maskScalar
+
+LAYOUT F787FB01
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+maskScalar
+backgroundAtlasID<32>
+maskAtlasID<32>

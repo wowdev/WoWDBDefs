@@ -6,6 +6,7 @@ int ID
 uint atlasHeight
 uint atlasWidth
 int fileDataID
+uint uiCanvasID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -26,3 +27,11 @@ $noninline,id$ID<32>
 fileDataID<32>
 atlasWidth<16>
 atlasHeight<16>
+
+LAYOUT 6951B2FD
+BUILD 8.0.1.26367
+$noninline,id$ID<32>
+fileDataID<32>
+atlasWidth<16>
+atlasHeight<16>
+uiCanvasID<8>
