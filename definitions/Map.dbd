@@ -37,6 +37,7 @@ locstring PvpShortDescription_lang
 locstring PvpLongDescription_lang
 float corpseX
 float corpseY
+int zmpFileDataID
 
 LAYOUT F568DF12
 BUILD 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -295,6 +296,32 @@ PvpLongDescription_lang
 Flags<32>[2]
 minimapIconScale
 corpse[2]
+areaTableID<16>
+LoadingScreenID<16>
+timeOfDayOverride<16>
+parentMapID<16>
+cosmeticParentMapID<16>
+corpseMapID<16>
+WindSettingsID<16>
+MapType<8>
+InstanceType<8>
+expansionID<8>
+timeOffset<8>
+maxPlayers<8>
+
+LAYOUT 1CFE0E06
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
+Flags<32>[2]
+minimapIconScale
+corpse[2]
+zmpFileDataID<32>
 areaTableID<16>
 LoadingScreenID<16>
 timeOfDayOverride<16>

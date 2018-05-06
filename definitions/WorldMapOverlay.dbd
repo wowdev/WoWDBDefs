@@ -15,6 +15,7 @@ uint playerConditionID
 uint flags
 uint mapPointX
 uint mapPointY
+uint uiMapArtID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -71,6 +72,22 @@ $id$ID<32>
 textureWidth<16>
 textureHeight<16>
 $relation$mapAreaID<32>
+offsetX<32>
+offsetY<32>
+hitRectTop<32>
+hitRectBottom<32>
+hitRectLeft<32>
+hitRectRight<32>
+playerConditionID<32>
+flags<32>
+areaID<32>[4]
+
+LAYOUT 3F9FB482
+BUILD 8.0.1.26310
+$id$ID<32>
+textureWidth<16>
+textureHeight<16>
+$relation$uiMapArtID<32>
 offsetX<32>
 offsetY<32>
 hitRectTop<32>

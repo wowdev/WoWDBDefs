@@ -11,6 +11,7 @@ locstring name_lang
 locstring description_lang
 uint flags
 uint mapDisplayConditionID
+uint uiMapID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -50,6 +51,20 @@ journalInstanceID<16>
 firstSectionID<16>
 worldMapAreaID<16>
 dungeonMapID<16>
+flags<8>
+difficultyMask<8>
+orderIndex<32>
+mapDisplayConditionID<32>
+
+LAYOUT EB1DA27F
+BUILD 8.0.1.26310
+$noninline,id$ID<32>
+name_lang
+description_lang
+map[2]
+journalInstanceID<16>
+firstSectionID<16>
+uiMapID<16>
 flags<8>
 difficultyMask<8>
 orderIndex<32>
