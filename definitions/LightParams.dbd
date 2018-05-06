@@ -10,18 +10,7 @@ float oceanShallowAlpha
 float oceanDeepAlpha
 int flags
 float overrideCelestialSphere
-int field_1046712784?
-float field_1108102472?
 int field_1501227822?
-float field_1600913723?
-int field_1989595513?
-uint field_2420641291?
-uint field_2520974730?
-float field_3565430297?
-float field_392767646?
-float field_4001413544?
-float field_4152196705?
-uint field_4260498227?
 
 BUILD 6.0.1.18179, 4.0.0.11792
 $id$ID<32>
@@ -51,15 +40,15 @@ $id$ID<32>
 
 LAYOUT 4E9B4690
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
-field_392767646
-field_4001413544
-field_3565430297
-field_4152196705
-field_1108102472
-field_1600913723[3]
+glow
+waterShallowAlpha
+waterDeepAlpha
+oceanShallowAlpha
+oceanDeepAlpha
+overrideCelestialSphere[3]
 field_1501227822<32>
-field_4260498227<16>
-field_2520974730<8>
-field_2420641291<8>
-field_1046712784<8>
-$id$field_1989595513<32>
+lightSkyboxID<16>
+highlightSky<8>
+cloudTypeID<8>
+flags<8>
+$id$ID<32>

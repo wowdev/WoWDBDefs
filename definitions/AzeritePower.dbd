@@ -2,9 +2,7 @@ COLUMNS
 int ID
 int itemBonusListID
 int spellID
-int field_1405830813?
-int field_2149342792?
-int field_3466805358?
+int SpecSet?
 
 LAYOUT 840FEE59, 338E0601
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491
@@ -15,6 +13,6 @@ itemBonusListID<32>
 LAYOUT 6803D878
 BUILD 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-field_1405830813<32>
-field_3466805358<32>
-field_2149342792<32>
+spellID<32>
+itemBonusListID<32>
+SpecSet<32>

@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-uint field_3565430297?
-uint field_392767646?
-uint field_4001413544?
+uint<Campaign::ID> CampaignID?
+uint<QuestLine::ID> QuestLineID?
+uint OrderIndex?
 
 LAYOUT 7303E0F9
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-$relation$field_392767646<32>
-field_4001413544<32>
-field_3565430297<32>
+$relation$CampaignID<32>
+QuestLineID<32>
+OrderIndex<32>
