@@ -12,16 +12,7 @@ uint itemContextPickerID
 uint resetInterval
 uint difficulty
 string difficultystring
-uint field_1108102472?
-uint field_1501227822?
-uint field_1600913723?
-uint field_2420641291?
-uint field_2520974730?
-uint field_3565430297?
-locstring field_392767646_lang?
 int field_4001413544?
-uint field_4152196705?
-uint field_4260498227?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -70,13 +61,13 @@ $noninline,relation$mapID<16>
 LAYOUT DD36F940
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-field_392767646_lang
+message_lang
 field_4001413544<32>
-field_3565430297<8>
-field_4152196705<8>
-field_1108102472<8>
-field_1600913723<8>
-field_1501227822<8>
-field_4260498227<8>
-field_2520974730<32>
-$noninline,relation$field_2420641291<16>
+difficultyID<8>
+lockID<8>
+resetInterval<8>
+maxPlayers<8>
+itemContext<8>
+flags<8>
+itemContextPickerID<32>
+$noninline,relation$mapID<16>
