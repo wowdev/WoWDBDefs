@@ -21,23 +21,7 @@ int WMOGroupID
 float x
 float y
 float z
-locstring field_1053376238_lang?
-int field_1334787408?
 uint field_1336462998?
-uint field_1367035623?
-uint field_1532576006?
-locstring field_1838711077_lang?
-uint field_1874725257?
-float field_1905686843?
-int field_1933042534?
-uint field_242207475?
-uint field_2699733778?
-uint field_2715635810?
-int field_3219317051?
-int field_3898499771?
-int field_3956182989?
-uint field_4083046615?
-int field_737839365?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -144,20 +128,20 @@ WMOGroupID<32>
 
 LAYOUT 98B9DEBD
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
-field_1838711077_lang
-field_1053376238_lang
-$id$field_3219317051<32>
-field_1905686843[3]
-field_1874725257<32>
-field_3898499771<32>
-field_1933042534<32>
-$relation$field_1532576006<16>
-field_1334787408<16>
-field_4083046615<16>
+name_lang
+description_lang
+$id$ID<32>
+pos[3]
+flags<32>
+poiDataType<32>
+poiData<32>
+$relation$continentID<16>
+areaID<16>
+worldStateID<16>
 field_1336462998<16>
-field_2699733778<8>
-field_1367035623<8>
-field_3956182989<32>
-field_2715635810<32>
-field_242207475<32>
-field_737839365<32>
+importance<8>
+icon<8>
+portLocID<32>
+playerConditionID<32>
+uiTextureAtlasMemberID<32>
+WMOGroupID<32>

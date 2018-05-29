@@ -7,10 +7,6 @@ uint BehaviorID
 uint BehaviorTier
 uint Weaponflags
 uint Bodyflags
-int field_2792711813?
-uint field_4013373207?
-uint field_675357935?
-uint field_872425833?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -49,7 +45,7 @@ BehaviorTier<8>
 LAYOUT 9F18371E
 BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
 $noninline,id$ID<32>
-field_2792711813<32>[2]
-field_4013373207<16>
-field_872425833<16>
-field_675357935<8>
+Flags<32>[2]
+Fallback<16>
+BehaviorID<16>
+BehaviorTier<8>
