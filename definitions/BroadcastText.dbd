@@ -10,6 +10,7 @@ uint emotesID
 uint flags
 locstring text_lang
 locstring text1_lang
+uint field_1336462998?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -47,3 +48,17 @@ emoteDelay<16>[3]
 languageID<8>
 flags<8>
 conditionID<32>
+
+LAYOUT 189E5081
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+text_lang
+text1_lang
+$id$ID<32>
+soundEntriesID<32>[2]
+emotesID<16>
+emoteID<16>[3]
+emoteDelay<16>[3]
+languageID<8>
+flags<8>
+conditionID<32>
+field_1336462998<32>

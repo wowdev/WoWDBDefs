@@ -22,6 +22,29 @@ locstring nameAlt_lang
 uint startAnimState
 locstring title_lang
 locstring titleAlt_lang
+locstring field_1053376238_lang?
+uint field_1334787408?
+uint field_1336462998?
+int field_1532576006?
+locstring field_1838711077_lang?
+int field_1874725257?
+locstring field_1905686843_lang?
+int field_1933042534?
+uint field_2699733778?
+locstring field_3219317051_lang?
+float field_3898499771?
+uint field_4083046615?
+int field_1469310973?
+int field_1871739164?
+uint field_1931767329?
+uint field_2117192374?
+uint field_2727228087?
+locstring field_2792711813_lang?
+uint field_2993674258?
+locstring field_4013373207_lang?
+float field_4254090452?
+locstring field_675357935_lang?
+locstring field_872425833_lang?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -67,3 +90,34 @@ classification<8>
 creatureType<8>
 creatureFamily<8>
 startAnimState<8>
+
+LAYOUT 379FF533
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683
+$noninline,id$ID<32>
+field_1838711077_lang
+field_1053376238_lang
+field_3219317051_lang
+field_1905686843_lang
+field_1874725257<32>[4]
+field_3898499771[4]
+field_1933042534<32>[3]
+field_1532576006<32>
+field_1334787408<16>
+field_4083046615<8>
+field_1336462998<8>
+field_2699733778<8>
+
+LAYOUT FADCD203
+BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+$noninline,id$ID<32>
+field_2792711813_lang
+field_4013373207_lang
+field_872425833_lang
+field_675357935_lang
+field_1469310973<32>[4]
+field_4254090452[4]
+field_1871739164<32>[3]
+field_1931767329<16>
+field_2993674258<8>
+field_2117192374<8>
+field_2727228087<8>

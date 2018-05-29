@@ -6,6 +6,12 @@ uint parentSetID
 int playerConditionID
 int visID
 string widgetTag
+int field_1053376238?
+string field_1838711077?
+uint field_1874725257?
+uint field_1905686843?
+int field_3219317051?
+int field_3898499771?
 
 LAYOUT AA1F4096
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
@@ -25,3 +31,13 @@ mapID<32>
 playerConditionID<32>
 orderIndex<32>
 parentSetID<16>
+
+LAYOUT CFAD0A83
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+$noninline,id$ID<32>
+field_1838711077
+field_1053376238<32>
+field_3219317051<32>
+field_1905686843<32>
+field_1874725257<16>
+field_3898499771<32>

@@ -46,6 +46,35 @@ int targetLevel
 int travelDuration
 uint uiTextureKitID
 float worldPos
+locstring field_1053376238_lang?
+int field_1075352947?
+uint field_1334787408?
+uint field_1336462998?
+uint field_1367035623?
+uint field_1532576006?
+int field_1555716787?
+uint field_1678764757?
+uint field_1778117193?
+uint field_1809580897?
+locstring field_1838711077_lang?
+uint field_1874725257?
+int field_1905686843?
+float field_1933042534?
+uint field_2390938800?
+uint field_239910350?
+uint field_242207475?
+uint field_2633153277?
+uint field_2699733778?
+uint field_2715635810?
+locstring field_3219317051_lang?
+uint field_3319152767?
+uint field_383478397?
+float field_3898499771?
+uint field_3956182989?
+uint field_4083046615?
+int field_737839365?
+uint field_943015025?
+int field_997989291?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -131,3 +160,35 @@ overmaxRewardPackID<32>
 areaID<32>
 flags<32>
 $noninline,relation$garrMissionSetID<32>
+
+LAYOUT F0ADAC5D
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+field_1838711077_lang
+field_1053376238_lang
+field_3219317051_lang
+field_1905686843<32>
+field_1874725257<32>
+field_3898499771[2]
+field_1933042534[2]
+field_1532576006<16>
+field_1334787408<16>
+field_4083046615<16>
+field_1336462998<8>
+field_2699733778<8>
+field_1367035623<8>
+field_3956182989<8>
+field_2715635810<8>
+field_242207475<8>
+field_737839365<8>
+field_383478397<8>
+field_2633153277<8>
+$id$field_1555716787<32>
+field_1778117193<32>
+field_943015025<32>
+field_2390938800<32>
+field_1075352947<32>
+field_239910350<32>
+field_3319152767<32>
+field_1678764757<32>
+field_1809580897<32>
+$noninline,relation$field_997989291<32>

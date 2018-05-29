@@ -14,6 +14,18 @@ uint schoolMask
 int activeIconFileDataID
 float launchDelay
 int spellIconFileDataID
+uint field_1053376238?
+int field_1334787408?
+int field_1336462998?
+float field_1532576006?
+uint field_1838711077?
+uint field_1874725257?
+uint field_1905686843?
+float field_1933042534?
+int field_2699733778?
+uint field_3219317051?
+float field_3898499771?
+int field_4083046615?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -58,3 +70,19 @@ spellIconFileDataID<32>
 activeIconFileDataID<32>
 attributes<32>[14]
 $noninline,relation$spellID<32>
+
+LAYOUT 76E982BB
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+$noninline,id$ID<32>
+field_1838711077<8>
+field_1053376238<16>
+field_3219317051<16>
+field_1905686843<16>
+field_1874725257<8>
+field_3898499771
+field_1933042534
+field_1532576006
+field_1334787408<32>
+field_4083046615<32>
+field_1336462998<32>[14]
+$noninline,relation$field_2699733778<32>

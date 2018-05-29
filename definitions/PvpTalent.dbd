@@ -8,6 +8,15 @@ int overridesSpellID
 int pvpTalentCategoryID
 int specID
 int spellID
+int field_1053376238?
+int field_1334787408?
+int field_1532576006?
+locstring field_1838711077_lang?
+int field_1874725257?
+int field_1905686843?
+int field_1933042534?
+int field_3219317051?
+int field_3898499771?
 
 LAYOUT 78CA6E33
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -32,3 +41,15 @@ flags<32>
 actionBarSpellID<32>
 pvpTalentCategoryID<32>
 levelRequired<32>
+
+LAYOUT 934A598D
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+field_1838711077_lang
+$id$field_1053376238<32>
+field_3219317051<32>
+$relation$field_1905686843<32>
+field_1874725257<32>
+field_3898499771<32>
+field_1933042534<32>
+field_1532576006<32>
+field_1334787408<32>

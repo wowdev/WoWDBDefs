@@ -24,6 +24,30 @@ int StartItem
 uint UniqueBitFlag
 int WorldStateExpressionID
 int contentTuningID
+uint field_1136273850?
+uint field_1384206764?
+uint field_1469310973?
+uint field_1681981264?
+int field_1871739164?
+uint field_1931767329?
+uint field_1932906175?
+uint field_2117192374?
+uint field_2211985194?
+uint field_2727228087?
+int field_2792711813?
+uint field_2908119989?
+uint field_2993674258?
+uint field_3276042368?
+int field_3315313174?
+uint field_3620721704?
+int field_3753254511?
+uint field_3799979310?
+locstring field_4013373207_lang?
+uint field_4146051830?
+int field_4254090452?
+uint field_498969295?
+uint field_675357935?
+locstring field_872425833_lang?
 
 LAYOUT 3F026A14
 BUILD 8.0.1.26095, 8.0.1.26287
@@ -134,7 +158,7 @@ QuestInfoID<32>
 contentTuningID<32>
 
 LAYOUT 2580D576
-BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683
 FiltRaces<64>
 QuestTitle_lang
 BulletText_lang
@@ -159,3 +183,30 @@ StartItem<32>
 QuestInfoID<32>
 contentTuningID<32>
 FiltCompletedQuest<32>[3]
+
+LAYOUT 4D000496
+BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+field_2792711813<64>
+field_4013373207_lang
+field_872425833_lang
+field_675357935<32>
+field_1469310973<16>
+field_4254090452<16>
+field_1871739164<16>
+$id$field_1931767329<32>
+field_2993674258<32>
+field_2117192374<32>
+field_2727228087<32>
+field_1932906175<32>
+field_2908119989<32>
+field_3620721704<32>
+field_1681981264<32>
+field_498969295<32>
+field_3276042368<32>
+field_4146051830<32>
+field_1384206764<32>
+field_1136273850<32>
+field_3315313174<32>
+field_2211985194<32>
+field_3753254511<32>
+field_3799979310<32>[3]

@@ -22,6 +22,50 @@ locstring rewardDescription_lang
 int textureFileDataID
 uint type
 uint worldMapAreaID
+locstring field_1053376238_lang?
+uint field_1334787408?
+uint field_1336462998?
+uint field_1367035623?
+uint field_1532576006?
+uint field_1555716787?
+uint field_1778117193?
+locstring field_1838711077_lang?
+locstring field_1874725257_lang?
+locstring field_1905686843_lang?
+int field_1933042534?
+uint field_242207475?
+uint field_2633153277?
+uint field_2699733778?
+uint field_2715635810?
+locstring field_3219317051_lang?
+uint field_383478397?
+int field_3898499771?
+uint field_3956182989?
+uint field_4083046615?
+uint field_737839365?
+uint field_943015025?
+uint field_1136273850?
+uint field_1384206764?
+locstring field_1469310973_lang?
+uint field_1681981264?
+int field_1871739164?
+uint field_1931767329?
+uint field_1932906175?
+uint field_2117192374?
+uint field_2211985194?
+uint field_2727228087?
+locstring field_2792711813_lang?
+uint field_2908119989?
+uint field_2993674258?
+uint field_3276042368?
+uint field_3315313174?
+uint field_3620721704?
+locstring field_4013373207_lang?
+uint field_4146051830?
+int field_4254090452?
+uint field_498969295?
+locstring field_675357935_lang?
+locstring field_872425833_lang?
 
 LAYOUT B2FFA8DD, 2C723565
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
@@ -74,3 +118,55 @@ bonusValue<8>[2]
 currencyQuantity<8>
 playerConditionID<32>
 itemQuantity<32>
+
+LAYOUT 6CD4F20F
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683
+$noninline,id$ID<32>
+field_1838711077_lang
+field_1053376238_lang
+field_3219317051_lang
+field_1905686843_lang
+field_1874725257_lang
+field_3898499771<32>
+field_1933042534<32>
+field_1532576006<16>
+field_1334787408<16>
+field_4083046615<16>
+field_1336462998<16>
+field_2699733778<16>
+field_1367035623<8>
+field_3956182989<8>
+field_2715635810<8>
+field_242207475<8>
+field_737839365<8>
+field_383478397<8>[2]
+field_2633153277<8>
+field_1555716787<32>
+field_1778117193<32>
+field_943015025<32>[2]
+
+LAYOUT 9D676C36
+BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+$noninline,id$ID<32>
+field_2792711813_lang
+field_4013373207_lang
+field_872425833_lang
+field_675357935_lang
+field_1469310973_lang
+field_4254090452<32>
+field_1871739164<32>
+field_1931767329<16>
+field_2993674258<16>
+field_2117192374<16>
+field_2727228087<16>
+field_1932906175<16>
+field_2908119989<8>
+field_3620721704<8>
+field_1681981264<8>
+field_498969295<8>
+field_3276042368<8>
+field_4146051830<8>[2]
+field_1384206764<8>
+field_1136273850<32>
+field_3315313174<32>
+field_2211985194<32>[2]
