@@ -6,10 +6,6 @@ uint playerFactionGroupID
 uint playerWorldMapAreaID
 uint<UiMap::ID> displayUIMapID?
 uint<UiMap::ID> playerUIMapID?
-uint field_1053376238?
-uint field_1838711077?
-int field_1905686843?
-uint field_3219317051?
 
 LAYOUT EE16D6F3, F7138EDB
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491
@@ -30,7 +26,7 @@ $noninline,relation$playerUIMapID<32>
 LAYOUT 5BFB82E8
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
 $noninline,id$ID<32>
-field_1838711077<8>
-field_1053376238<32>
-field_3219317051<32>
-$noninline,relation$field_1905686843<32>
+playerFactionGroupID<8>
+displayAchievementID<32>
+displayUIMapID<32>
+$noninline,relation$playerUIMapID<32>

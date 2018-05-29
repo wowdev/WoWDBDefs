@@ -22,26 +22,6 @@ int startingLevel
 uint required_expansion
 uint PlayerClass
 uint DamageBonusStat
-string field_1053376238?
-uint field_1334787408?
-uint field_1336462998?
-uint field_1367035623?
-uint field_1532576006?
-int field_1555716787?
-locstring field_1838711077_lang?
-string field_1874725257?
-locstring field_1905686843_lang?
-uint field_1933042534?
-uint field_242207475?
-int field_2633153277?
-uint field_2699733778?
-uint field_2715635810?
-locstring field_3219317051_lang?
-uint field_383478397?
-uint field_3898499771?
-uint field_3956182989?
-uint field_4083046615?
-uint field_737839365?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -135,23 +115,23 @@ $id$ID<32>
 
 LAYOUT F6E46F38
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
-field_1838711077_lang
-field_1053376238
-field_3219317051_lang
-field_1905686843_lang
-field_1874725257
-field_3898499771<32>
-field_1933042534<32>
-field_1532576006<32>
-field_1334787408<32>
-field_4083046615<16>
-field_1336462998<16>
-field_2699733778<16>
-field_1367035623<8>
-field_3956182989<8>
-field_2715635810<8>
-field_242207475<8>
-field_737839365<8>
-field_383478397<8>
-$id$field_2633153277<32>
-field_1555716787<32>
+name_lang
+filename
+name_male_lang
+name_female_lang
+petNameToken
+createScreenFileDataID<32>
+selectScreenFileDataID<32>
+iconFileDataID<32>
+lowResScreenFileDataID<32>
+flags<16>
+cinematicSequenceID<16>
+defaultSpec<16>
+primaryStatPriority<8>
+DisplayPower<8>
+rangedAttackPowerPerAgility<8>
+attackPowerPerAgility<8>
+attackPowerPerStrength<8>
+spellClassSet<8>
+$id$ID<32>
+startingLevel<32>
