@@ -4,6 +4,10 @@ int allianceSpellID
 uint garrFollowerID
 int hordeSpellID
 uint orderIndex
+int field_1053376238?
+int field_1838711077?
+int field_1905686843?
+uint field_3219317051?
 
 LAYOUT B7DBA2D1
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -20,3 +24,11 @@ hordeSpellID<32>
 allianceSpellID<32>
 orderIndex<8>
 $noninline,relation$garrFollowerID<32>
+
+LAYOUT DB563FC8
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+$noninline,id$ID<32>
+field_1838711077<32>
+field_1053376238<32>
+field_3219317051<8>
+$noninline,relation$field_1905686843<32>

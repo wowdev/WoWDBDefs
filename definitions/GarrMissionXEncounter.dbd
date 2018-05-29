@@ -6,6 +6,11 @@ uint garrEncounterID
 uint garrEncounterSetID
 uint garrMissionID
 uint orderIndex
+int field_1053376238?
+uint field_1838711077?
+int field_1874725257?
+uint field_1905686843?
+uint field_3219317051?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -19,3 +24,11 @@ $id$ID<32>
 garrEncounterID<32>
 garrEncounterSetID<32>
 $noninline,relation$garrMissionID<32>
+
+LAYOUT B4C54CD3
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+field_1838711077<8>
+$id$field_1053376238<32>
+field_3219317051<32>
+field_1905686843<32>
+$noninline,relation$field_1874725257<32>

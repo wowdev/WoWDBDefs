@@ -63,6 +63,70 @@ float statPercentageOfSocket
 uint totemCategoryID
 uint vendorStackCount
 uint zoneBound
+uint field_1126696092?
+float field_1136273850?
+uint field_1210172976?
+uint field_1312792993?
+uint field_1345186602?
+uint field_1369940351?
+uint field_1384206764?
+uint field_1387761496?
+uint field_1429316222?
+locstring field_1469310973_lang?
+uint field_1575296202?
+int field_1681981264?
+uint field_1776801530?
+int field_1797374549?
+float field_1871739164?
+uint field_1931767329?
+float field_1932906175?
+uint field_1968512288?
+uint field_2117192374?
+int field_2137309729?
+int field_2211985194?
+uint field_2322565865?
+uint field_2514729887?
+uint field_2527858449?
+uint field_255535570?
+uint field_2639456168?
+uint field_264849864?
+uint field_2721648163?
+float field_2727228087?
+int field_2763818506?
+int field_2792711813?
+int field_2908119989?
+float field_2993674258?
+uint field_3235973612?
+uint field_3276042368?
+float field_3315313174?
+uint field_3391964675?
+uint field_3445609772?
+uint field_3594854263?
+int field_3620721704?
+uint field_3629444812?
+uint field_3661138627?
+uint field_3692806804?
+int field_3753254511?
+uint field_379029381?
+uint field_3799979310?
+uint field_386384916?
+uint field_3901235217?
+uint field_394780889?
+locstring field_4013373207_lang?
+uint field_4021466149?
+uint field_4146051830?
+uint field_4248738168?
+locstring field_4254090452_lang?
+uint field_498969295?
+uint field_529114319?
+uint field_586747525?
+uint field_596315474?
+uint field_609994748?
+locstring field_675357935_lang?
+uint field_726659297?
+uint field_854208244?
+locstring field_872425833_lang?
+uint field_923098388?
 
 LAYOUT 350149D8
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -133,7 +197,7 @@ artifactID<8>
 expansionID<8>
 
 LAYOUT CDD13D2C
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683
 COMMENT table is sparse
 $noninline,id$ID<32>
 allowableRace<64>
@@ -199,3 +263,72 @@ requiredPVPRank<8>
 requiredLevel<8>
 inventoryType<8>
 overallQualityID<8>
+
+LAYOUT F9021F01
+BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+COMMENT table is sparse
+$noninline,id$ID<32>
+field_2792711813<64>
+field_4013373207_lang
+field_872425833_lang
+field_675357935_lang
+field_1469310973_lang
+field_4254090452_lang
+field_1871739164
+field_1931767329<32>
+field_2993674258
+field_2117192374<32>
+field_2727228087
+field_1932906175[10]
+field_2908119989<32>[10]
+field_3620721704<32>
+field_1681981264<32>
+field_498969295<32>
+field_3276042368<32>
+field_4146051830<32>
+field_1384206764<32>
+field_1136273850
+field_3315313174
+field_2211985194<32>[4]
+field_3753254511<32>
+field_3799979310<16>
+field_3391964675<16>
+field_1210172976<16>
+field_2322565865<16>
+field_854208244<16>
+field_1429316222<16>
+field_4248738168<16>
+field_3661138627<16>
+field_586747525<16>
+field_3445609772<16>
+field_3629444812<16>
+field_386384916<16>
+field_1776801530<16>
+field_923098388<16>
+field_255535570<16>
+field_726659297<16>
+field_2527858449<16>
+field_379029381<16>
+field_1369940351<16>
+field_1575296202<16>
+field_1126696092<16>
+field_1797374549<16>
+field_1387761496<8>
+field_529114319<8>
+field_264849864<8>
+field_394780889<8>
+field_3901235217<8>[3]
+field_3594854263<8>
+field_596315474<8>
+field_1968512288<8>
+field_2639456168<8>
+field_2721648163<8>
+field_1345186602<8>
+field_2763818506<8>[10]
+field_3235973612<8>
+field_3692806804<8>
+field_1312792993<8>
+field_4021466149<8>
+field_2137309729<8>
+field_2514729887<8>
+field_609994748<8>

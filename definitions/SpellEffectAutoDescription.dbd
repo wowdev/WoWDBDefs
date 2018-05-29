@@ -9,6 +9,15 @@ int pointsSign
 int schoolMask
 int spellEffectType
 int targetType
+locstring field_1053376238_lang?
+int field_1334787408?
+int field_1532576006?
+locstring field_1838711077_lang?
+int field_1874725257?
+int field_1905686843?
+int field_1933042534?
+int field_3219317051?
+int field_3898499771?
 
 LAYOUT C4FDA7A6, 259927A8
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
@@ -22,3 +31,16 @@ auraOrderIndex<32>
 pointsSign<8>
 targetType<8>
 schoolMask<8>
+
+LAYOUT 6A791094
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+$noninline,id$ID<32>
+field_1838711077_lang
+field_1053376238_lang
+field_3219317051<32>
+field_1905686843<32>
+field_1874725257<8>
+field_3898499771<8>
+field_1933042534<8>
+field_1532576006<32>
+field_1334787408<32>

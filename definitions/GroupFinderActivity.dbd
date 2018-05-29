@@ -22,6 +22,20 @@ uint minGearLevelSuggestion
 uint minLevel
 int orderIndex
 locstring shortName_lang
+locstring field_1053376238_lang?
+uint field_1334787408?
+uint field_1336462998?
+uint field_1367035623?
+uint field_1532576006?
+locstring field_1838711077_lang?
+uint field_1874725257?
+uint field_1905686843?
+int field_1933042534?
+uint field_2699733778?
+uint field_3219317051?
+uint field_3898499771?
+uint field_3956182989?
+uint field_4083046615?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -69,3 +83,21 @@ flags<8>
 difficultyID<8>
 maxPlayers<8>
 displayType<8>
+
+LAYOUT 009D2F0F
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+$noninline,id$ID<32>
+field_1838711077_lang
+field_1053376238_lang
+field_3219317051<16>
+field_1905686843<16>
+field_1874725257<16>
+field_3898499771<8>
+field_1933042534<8>
+field_1532576006<8>
+field_1334787408<8>
+field_4083046615<8>
+field_1336462998<8>
+field_2699733778<8>
+field_1367035623<8>
+field_3956182989<32>

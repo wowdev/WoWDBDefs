@@ -10,6 +10,17 @@ int uiBarOverlayColor
 uint uiModelSceneID
 int uiNameColor
 uint uiTextureKitID
+int field_1053376238?
+uint field_1334787408?
+uint field_1336462998?
+uint field_1532576006?
+locstring field_1838711077_lang?
+int field_1874725257?
+int field_1905686843?
+uint field_1933042534?
+int field_3219317051?
+uint field_3898499771?
+uint field_4083046615?
 
 LAYOUT 76CF31A8
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -38,3 +49,17 @@ flags<8>
 artifactCategoryID<8>
 uiModelSceneID<32>
 spellVisualKitID<32>
+
+LAYOUT CC614F2E
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+field_1838711077_lang
+$id$field_1053376238<32>
+field_3219317051<32>
+field_1905686843<32>
+field_1874725257<32>
+field_3898499771<16>
+field_1933042534<16>
+field_1532576006<8>
+field_1334787408<8>
+field_4083046615<32>
+field_1336462998<32>

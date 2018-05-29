@@ -10,6 +10,17 @@ uint emotesID
 uint flags
 locstring text_lang
 locstring text1_lang
+locstring field_1053376238_lang?
+uint field_1334787408?
+uint field_1336462998?
+uint field_1532576006?
+locstring field_1838711077_lang?
+uint field_1874725257?
+uint field_1905686843?
+uint field_1933042534?
+int field_3219317051?
+uint field_3898499771?
+int field_4083046615?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -47,3 +58,17 @@ emoteDelay<16>[3]
 languageID<8>
 flags<8>
 conditionID<32>
+
+LAYOUT 189E5081
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+field_1838711077_lang
+field_1053376238_lang
+$id$field_3219317051<32>
+field_1905686843<32>[2]
+field_1874725257<16>
+field_3898499771<16>[3]
+field_1933042534<16>[3]
+field_1532576006<8>
+field_1334787408<8>
+field_4083046615<32>
+field_1336462998<32>

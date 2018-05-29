@@ -59,6 +59,52 @@ int maleModelFallbackSex
 int maleTextureFallbackRaceID
 int maleTextureFallbackSex
 int<ChrRaces::ID> baseRaceID?
+string field_1053376238?
+int field_1075352947?
+uint field_1334787408?
+int field_1336462998?
+float field_1367035623?
+uint field_1532576006?
+int field_1555716787?
+int field_1606565291?
+int field_1678764757?
+int field_1778117193?
+int field_1809580897?
+string field_1838711077?
+locstring field_1874725257_lang?
+int field_19051348?
+locstring field_1905686843_lang?
+int field_1933042534?
+int field_2259813384?
+int field_2390938800?
+int field_239910350?
+int field_242207475?
+int field_2633153277?
+int field_2670789925?
+float field_2699733778?
+int field_2715635810?
+uint field_2931975369?
+int field_2964953477?
+int field_3107627234?
+uint field_318728701?
+locstring field_3219317051_lang?
+int field_3266826770?
+int field_3319152767?
+int field_3413122455?
+int field_3438058308?
+int field_3451670714?
+int field_3451702885?
+int field_3479798075?
+uint field_3828422511?
+int field_383478397?
+locstring field_3898499771_lang?
+int field_3910153167?
+int field_3956182989?
+int field_4083046615?
+uint field_691916771?
+int field_737839365?
+int field_943015025?
+int field_997989291?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -375,3 +421,52 @@ femaleSkeletonFileDataID<32>
 maleSkeletonFileDataID<32>
 alteredFormStartVisualKitID<32>[3]
 alteredFormFinishVisualKitID<32>[3]
+
+LAYOUT 2B2A4FD3
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+field_1838711077
+field_1053376238
+field_3219317051_lang
+field_1905686843_lang
+field_1874725257_lang
+field_3898499771_lang
+field_1933042534<32>
+field_1532576006<32>
+field_1334787408<32>
+field_4083046615<32>
+field_1336462998<32>
+field_2699733778[3]
+field_1367035623[3]
+field_3956182989<32>
+field_2715635810<32>
+field_242207475<32>
+field_737839365<16>
+field_383478397<16>
+field_2633153277<16>
+field_1555716787<16>
+field_1778117193<8>
+field_943015025<8>
+field_2390938800<8>
+field_1075352947<8>
+field_239910350<8>
+field_3319152767<8>
+field_1678764757<8>
+field_1809580897<8>
+field_997989291<8>
+field_3438058308<8>
+field_3479798075<8>
+field_1606565291<8>
+field_19051348<8>
+field_3451670714<8>
+field_2670789925<8>
+field_3413122455<8>
+field_3107627234<8>
+$id$field_2964953477<32>
+field_3828422511<32>
+field_318728701<32>
+field_3451702885<32>
+field_3910153167<32>
+field_2259813384<32>
+field_3266826770<32>
+field_691916771<32>[3]
+field_2931975369<32>[3]
