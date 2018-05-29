@@ -9,8 +9,4 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DBDefsLib\DBDefsLib.csproj" />
-  </ItemGroup>
-
 </Project>

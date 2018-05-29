@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBDefsValidator", "DBDefsVa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBDefsTest", "DBDefsTest\DBDefsTest.csproj", "{2B7A4C01-4B04-4DFF-BB03-39A44FFBAECF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDefsMerge", "DBDefsMerge\DBDefsMerge.csproj", "{1C2DF2C3-3AE4-4D8F-93F1-F42C79C972EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBDefsMerge", "DBDefsMerge\DBDefsMerge.csproj", "{1C2DF2C3-3AE4-4D8F-93F1-F42C79C972EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDefsDumper", "DBDefsDumper\DBDefsDumper.csproj", "{56664B3B-9A60-4A5D-B9B3-AF30C5E21F04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1C2DF2C3-3AE4-4D8F-93F1-F42C79C972EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2DF2C3-3AE4-4D8F-93F1-F42C79C972EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C2DF2C3-3AE4-4D8F-93F1-F42C79C972EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56664B3B-9A60-4A5D-B9B3-AF30C5E21F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56664B3B-9A60-4A5D-B9B3-AF30C5E21F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56664B3B-9A60-4A5D-B9B3-AF30C5E21F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56664B3B-9A60-4A5D-B9B3-AF30C5E21F04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
