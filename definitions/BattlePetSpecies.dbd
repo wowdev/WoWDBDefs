@@ -1,12 +1,4 @@
 COLUMNS
-uint field_2740602371?
-uint field_2386936535?
-uint field_3914564350?
-uint field_1957080468?
-uint field_4131740473?
-uint field_3579345729?
-string field_1699889080?
-string field_1693513835?
 int ID
 int cardUIModelSceneID
 int creatureID
@@ -21,14 +13,14 @@ int summonSpellID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_2740602371<32>
-field_2386936535<32>
-field_3914564350<32>
-field_1957080468<32>
-field_4131740473<32>
-field_3579345729<32>
-field_1699889080
-field_1693513835
+creatureID<32>
+iconFileDataID<32>
+summonSpellID<32>
+petTypeEnum<32>
+sourceTypeEnum<32>
+flags<32>
+sourceText_lang
+description_lang
 
 LAYOUT 8A3D97A4
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

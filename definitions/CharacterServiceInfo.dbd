@@ -11,17 +11,6 @@ locstring popupTitle_lang
 int popupUITextureKitID
 int priority
 int professionLevel
-locstring field_1053376238_lang?
-int field_1334787408?
-uint field_1336462998?
-int field_1532576006?
-locstring field_1838711077_lang?
-int field_1874725257?
-int field_1905686843?
-int field_1933042534?
-locstring field_3219317051_lang?
-int field_3898499771?
-int field_4083046615?
 
 LAYOUT ADE120EF, C263D77C
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
@@ -41,14 +30,14 @@ popupUITextureKitID<32>
 LAYOUT 371E296E
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
 $noninline,id$ID<32>
-field_1838711077_lang
-field_1053376238_lang
-field_3219317051_lang
-field_1905686843<32>
-field_1874725257<32>
-field_3898499771<32>
-field_1933042534<32>
-field_1532576006<32>
-field_1334787408<32>
-field_4083046615<32>
-field_1336462998<32>
+flowTitle_lang
+popupTitle_lang
+popupDescription_lang
+iconFileDataID<32>
+priority<32>
+professionLevel<32>
+boostLevel<32>
+expansion<32>
+popupUITextureKitID<32>
+boostType<32>
+flags<32>

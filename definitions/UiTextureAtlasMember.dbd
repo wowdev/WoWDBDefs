@@ -1,11 +1,4 @@
 COLUMNS
-string field_1919326553?
-uint field_1254892418?
-uint field_2441168939?
-uint field_668037829?
-uint field_1115032331?
-uint field_1229423039?
-uint field_3128613611?
 int ID
 int committedBottom
 int committedFlags
@@ -19,13 +12,13 @@ uint uiTextureAtlasElementID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_1919326553
-field_1254892418<32>
-field_2441168939<32>
-field_668037829<32>
-field_1115032331<32>
-field_1229423039<32>
-field_3128613611<32>
+committedName
+uiTextureAtlasID<32>
+committedLeft<32>
+committedRight<32>
+committedTop<32>
+committedBottom<32>
+committedFlags<32>
 
 LAYOUT 81E2055F
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

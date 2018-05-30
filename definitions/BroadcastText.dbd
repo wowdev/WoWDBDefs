@@ -3,7 +3,6 @@ int ID
 uint<Languages::ID> languageID
 uint<Emotes::ID> emoteID
 uint<SoundEntries::ID> soundEntriesID
-uint field_2465365834?
 int conditionID
 uint emoteDelay
 uint emotesID
@@ -20,7 +19,7 @@ text1_lang
 emoteID<32>[3]
 emoteDelay<32>[3]
 soundEntriesID<32>
-field_2465365834<32>
+emotesID<32>
 flags<32>
 
 LAYOUT 51BF0C33

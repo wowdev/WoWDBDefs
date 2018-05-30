@@ -21,7 +21,7 @@ int WMOGroupID
 float x
 float y
 float z
-uint field_1336462998?
+uint uiWidgetParentSetID?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -138,7 +138,7 @@ poiData<32>
 $relation$continentID<16>
 areaID<16>
 worldStateID<16>
-field_1336462998<16>
+uiWidgetParentSetID<16>
 importance<8>
 icon<8>
 portLocID<32>

@@ -1,10 +1,4 @@
 COLUMNS
-uint field_1491179124?
-uint field_1661507031?
-uint field_590465161?
-uint field_1018597571?
-uint field_2380903388?
-uint field_4110474659?
 int ID
 uint auraBattlePetAbilityID
 uint battlePetAbilityTurnID
@@ -15,12 +9,12 @@ int param
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_1491179124<32>
-field_1661507031<32>
-field_590465161<32>
-field_1018597571<32>
-field_2380903388<32>
-field_4110474659<32>[6]
+battlePetAbilityTurnID<32>
+battlePetVisualID<32>
+auraBattlePetAbilityID<32>
+battlePetEffectPropertiesID<32>
+orderIndex<32>
+param<32>[6]
 
 LAYOUT 5D30EBC5
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

@@ -1,7 +1,4 @@
 COLUMNS
-uint field_1783860732?
-uint field_3697227837?
-uint field_3350387387?
 int ID
 uint atlasHeight
 uint atlasWidth
@@ -10,9 +7,9 @@ uint uiCanvasID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_1783860732<32>
-field_3697227837<32>
-field_3350387387<32>
+fileDataID<32>
+atlasWidth<32>
+atlasHeight<32>
 
 LAYOUT 9879592A
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

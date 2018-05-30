@@ -9,15 +9,6 @@ float minScale
 uint tileHeight
 uint tileWidth
 int uiMapArtStyleID
-float field_1053376238?
-int field_1334787408?
-int field_1532576006?
-float field_1838711077?
-uint field_1874725257?
-uint field_1905686843?
-uint field_1933042534?
-uint field_3219317051?
-uint field_3898499771?
 
 LAYOUT 15D83644
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
@@ -35,12 +26,12 @@ $noninline,relation$uiMapArtStyleID<32>
 LAYOUT 0B06394E
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
 $noninline,id$ID<32>
-field_1838711077
-field_1053376238
-field_3219317051<16>
-field_1905686843<16>
-field_1874725257<16>
-field_3898499771<16>
-field_1933042534<8>
-field_1532576006<32>
-$noninline,relation$field_1334787408<32>
+minScale
+maxScale
+layerWidth<16>
+layerHeight<16>
+tileWidth<16>
+tileHeight<16>
+layerIndex<8>
+additionalZoomSteps<32>
+$noninline,relation$uiMapArtStyleID<32>

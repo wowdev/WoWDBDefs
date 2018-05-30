@@ -1,14 +1,14 @@
 COLUMNS
-int field_1053376238?
-locstring field_1838711077_lang?
-int field_1874725257?
+int<PlayerCondition::ID> playerConditionID?
+locstring name_lang?
+int<AreaTable::ID> areaTableID?
 int field_1905686843?
-int field_3219317051?
+int ID?
 
 LAYOUT 24BE206C
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
-field_1838711077_lang
-field_1053376238<32>
-$id$field_3219317051<32>
+name_lang
+playerConditionID<32>
+$id$ID<32>
 field_1905686843<32>
-$noninline,relation$field_1874725257<32>
+$noninline,relation$areaTableID<32>

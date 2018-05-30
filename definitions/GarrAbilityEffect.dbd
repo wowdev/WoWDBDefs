@@ -1,12 +1,5 @@
 COLUMNS
-uint field_3836478226?
-uint field_2693935199?
-uint field_1432267036?
-uint field_2084282438?
 uint field_1848318171?
-float field_3593699977?
-float field_2691467406?
-float field_2764207789?
 int ID
 uint abilityAction
 uint abilityTargetType
@@ -22,14 +15,14 @@ uint garrMechanicTypeID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_3836478226<32>
-field_2693935199<32>
-field_1432267036<32>
-field_2084282438<32>
+abilityAction<32>
+garrAbilityID<32>
+abilityTargetType<32>
+garrMechanicTypeID<32>
 field_1848318171<32>
-field_3593699977
-field_2691467406
-field_2764207789
+combatWeightBase
+combatWeightMax
+actionValueFlat
 
 LAYOUT E6A6CB99
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

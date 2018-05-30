@@ -1,19 +1,9 @@
 COLUMNS
-uint field_1364772344?
-uint field_3562884016?
 uint field_3306722499?
-uint field_4075669391?
-uint field_288779020?
-string field_446098166?
-string field_2056874306?
-string field_1514469552?
-string field_3249967614?
 uint field_4210797641?
-uint field_1443594639?
 uint field_2675108016?
 uint field_1038973225?
 uint field_4197582690?
-uint field_2890695829?
 uint field_1003070737?
 uint field_2240183979?
 uint field_3505732336?
@@ -46,21 +36,21 @@ uint upgradeLevel
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_1364772344<32>
-field_3562884016<32>
+hordeGameObjectID<32>
+allianceGameObjectID<32>
 field_3306722499<32>
-field_4075669391<32>
-field_288779020<32>
-field_446098166
-field_2056874306
-field_1514469552
-field_3249967614
+buildingType<32>
+upgradeLevel<32>
+allianceName_lang
+hordeName_lang
+description_lang
+tooltip_lang
 field_4210797641<32>
-field_1443594639<32>
+currencyTypeID<32>
 field_2675108016<32>
 field_1038973225<32>
 field_4197582690<32>
-field_2890695829<32>
+iconFileDataID<32>
 field_1003070737<32>
 field_2240183979<32>
 field_3505732336<32>

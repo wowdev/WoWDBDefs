@@ -1,6 +1,4 @@
 COLUMNS
-uint field_965064303?
-uint field_862364166?
 float pos
 int ID
 uint curveID
@@ -8,8 +6,8 @@ uint orderIndex
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_965064303<32>
-field_862364166<32>
+curveID<32>
+orderIndex<32>
 pos[2]
 
 LAYOUT F36752EB, FA003217

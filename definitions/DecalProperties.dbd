@@ -16,24 +16,7 @@ uint priority
 float rim
 float scale
 int topTextureBlendSetID
-int field_1053376238?
-float field_1334787408?
 float field_1336462998?
-uint field_1367035623?
-float field_1532576006?
-int field_1838711077?
-float field_1874725257?
-float field_1905686843?
-float field_1933042534?
-int field_242207475?
-uint field_2699733778?
-int field_2715635810?
-float field_3219317051?
-int field_383478397?
-float field_3898499771?
-int field_3956182989?
-float field_4083046615?
-int field_737839365?
 
 LAYOUT DD48C72A
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -77,21 +60,21 @@ casterDecalPropertiesID<32>
 
 LAYOUT 4FF82A9E
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
-$id$field_1838711077<32>
-field_1053376238<32>
-field_3219317051
-field_1905686843
-field_1874725257
-field_3898499771
-field_1933042534
-field_1532576006
-field_1334787408
-field_4083046615
+$id$ID<32>
+fileDataID<32>
+modX
+innerRadius
+outerRadius
+rim
+gain
+scale
+fadeIn
+fadeOut
 field_1336462998
-field_2699733778<8>
-field_1367035623<8>
-field_3956182989<32>
-field_2715635810<32>
-field_242207475<32>
-field_737839365<32>
-field_383478397<32>
+priority<8>
+blendMode<8>
+topTextureBlendSetID<32>
+botTextureBlendSetID<32>
+flags<32>
+gameFlags<32>
+casterDecalPropertiesID<32>

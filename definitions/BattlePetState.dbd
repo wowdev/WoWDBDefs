@@ -1,16 +1,14 @@
 COLUMNS
-uint field_2501574044?
 string luaName
-uint field_109359751?
 int ID
 uint battlePetVisualID
 uint flags
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_2501574044<32>
+battlePetVisualID<32>
 luaName
-field_109359751<32>
+flags<32>
 
 LAYOUT 1797AB4A
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

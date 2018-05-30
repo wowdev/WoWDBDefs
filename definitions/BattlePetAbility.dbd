@@ -1,11 +1,4 @@
 COLUMNS
-uint field_1529282398?
-uint field_271298785?
-uint field_3911191559?
-uint field_2633262811?
-uint field_361225043?
-string field_3399536753?
-string field_955915059?
 int ID
 uint battlePetVisualID
 uint cooldown
@@ -17,13 +10,13 @@ int petTypeEnum
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_1529282398<32>
-field_271298785<32>
-field_3911191559<32>
-field_2633262811<32>
-field_361225043<32>
-field_3399536753
-field_955915059
+petTypeEnum<32>
+iconFileDataID<32>
+cooldown<32>
+battlePetVisualID<32>
+flags<32>
+name_lang
+description_lang
 
 LAYOUT 0F29944D, 0D7D71D9
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715

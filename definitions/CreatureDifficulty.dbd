@@ -1,10 +1,4 @@
 COLUMNS
-uint field_295556478?
-uint field_370786467?
-uint field_493036957?
-uint field_612732168?
-uint field_1611653526?
-uint field_291708038?
 int ID
 int creatureID
 int expansionID
@@ -16,12 +10,12 @@ int contentTuningID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_295556478<32>
-field_370786467<32>
-field_493036957<32>
-field_612732168<32>
-field_1611653526<32>
-field_291708038<32>[5]
+creatureID<32>
+factionID<32>
+expansionID<32>
+minLevel<32>
+maxLevel<32>
+flags<32>[5]
 
 LAYOUT 4291EEC6
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26287

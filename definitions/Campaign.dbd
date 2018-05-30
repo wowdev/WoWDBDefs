@@ -3,7 +3,7 @@ locstring Title_lang?
 string FactionTitle?
 locstring Description_lang?
 uint ID?
-uint field_2914807361?
+uint<UiTextureKit::ID> uiTextureKitID?
 uint field_1313613340?
 uint<PlayerCondition::ID> PlayerConditionID?
 
@@ -13,6 +13,6 @@ Title_lang
 FactionTitle
 Description_lang
 $id$ID<32>
-field_2914807361<32>
+uiTextureKitID<32>
 field_1313613340<32>
 PlayerConditionID<32>

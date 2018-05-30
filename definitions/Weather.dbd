@@ -16,35 +16,13 @@ float rotationalSpeed
 float scale
 float twinkleIntensity
 float volatility
-int lightningID
+int<Lightning::ID> lightningID
 int overrideColor
 float overrideCount
 float overrideOpacity
 float volumeEdgeFadeStart
 int volumeFlags
 float overrideColorIntensity
-float field_1053376238?
-float field_1334787408?
-float field_1336462998?
-uint field_1367035623?
-float field_1532576006?
-int field_1555716787?
-int field_1778117193?
-float field_1838711077?
-float field_1874725257?
-float field_1905686843?
-float field_1933042534?
-uint field_242207475?
-int field_2633153277?
-float field_2699733778?
-uint field_2715635810?
-float field_3219317051?
-int field_383478397?
-float field_3898499771?
-uint field_3956182989?
-float field_4083046615?
-uint field_737839365?
-int field_943015025?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -146,25 +124,25 @@ effectTextureFileDataID<32>
 LAYOUT 84CC9168
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
 $noninline,id$ID<32>
-field_1838711077[2]
-field_1053376238
-field_3219317051[3]
-field_1905686843
-field_1874725257
-field_3898499771
-field_1933042534
-field_1532576006
-field_1334787408
-field_4083046615
-field_1336462998
-field_2699733778
-field_1367035623<16>
-field_3956182989<8>
-field_2715635810<8>
-field_242207475<8>
-field_737839365<32>
-field_383478397<32>
-field_2633153277<32>
-field_1555716787<32>
-field_1778117193<32>
-field_943015025<32>
+intensity[2]
+transitionSkyBox
+effectColor[3]
+scale
+volatility
+twinkleIntensity
+fallModifier
+rotationalSpeed
+volumeEdgeFadeStart
+overrideColorIntensity
+overrideCount
+overrideOpacity
+soundAmbienceID<16>
+type<8>
+effectType<8>
+windSettingsID<8>
+ambienceID<32>
+effectTextureFileDataID<32>
+particulateFileDataID<32>
+overrideColor<32>
+volumeFlags<32>
+lightningID<32>

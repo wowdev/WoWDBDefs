@@ -1,8 +1,5 @@
 COLUMNS
 uint field_194933109?
-string field_3655457241?
-string field_3823465681?
-uint field_955895672?
 int ID
 locstring description_lang
 uint factionChangeGarrAbilityID
@@ -15,9 +12,9 @@ locstring name_lang
 BUILD 6.0.1.18179
 $id$ID<32>
 field_194933109<32>
-field_3655457241
-field_3823465681
-field_955895672<32>
+name_lang
+description_lang
+iconFileDataID<32>
 
 LAYOUT 5DF95DBD
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
