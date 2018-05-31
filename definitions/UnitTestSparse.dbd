@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+uint field_0?
+uint field_1?
+uint field_2?
+
+LAYOUT F1AE2A8F
+BUILD 8.0.1.26231, 8.0.1.26287
+$noninline,id$ID<32>
+field_0<32>
+field_1<32>
+field_2<32>
