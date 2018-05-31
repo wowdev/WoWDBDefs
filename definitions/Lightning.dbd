@@ -32,6 +32,38 @@ float minStrikeTime
 float segmentSize
 float soundEmitterDistance
 int soundKitID
+int field_1142811535?
+float field_1284413789?
+float field_1308584285?
+float field_1381978108?
+float field_1398578329?
+float field_181708763?
+float field_1855946155?
+float field_1873700258?
+float field_2064194070?
+float field_217353192?
+float field_2215112105?
+float field_2220848462?
+float field_2357304491?
+float field_2484703198?
+float field_2684431968?
+float field_2786400348?
+float field_2889316524?
+float field_2979710456?
+float field_299548718?
+float field_2996302600?
+float field_3117865044?
+float field_3120953011?
+float field_3400243399?
+float field_3439852917?
+int field_362217904?
+float field_3923147172?
+float field_4223996057?
+int field_4289520283?
+int field_714392848?
+float field_839647839?
+float field_8587424?
+float field_962093791?
 
 LAYOUT C0E38C34
 BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
@@ -68,3 +100,39 @@ boltBrightnessScalar
 cloudBrightnessScalar
 soundKitID<32>
 soundEmitterDistance
+
+LAYOUT A2F80A84
+BUILD 8.0.1.26734
+$noninline,id$ID<32>
+field_2996302600[2]
+field_2889316524
+field_839647839
+field_3120953011
+field_217353192
+field_3923147172
+field_1308584285
+field_3400243399
+field_1873700258
+field_181708763
+field_4223996057
+field_362217904<32>
+field_1381978108
+field_1398578329
+field_3439852917
+field_3117865044
+field_2786400348
+field_2684431968
+field_4289520283<32>
+field_714392848<32>
+field_2979710456
+field_2484703198
+field_2357304491
+field_2220848462
+field_962093791
+field_2064194070
+field_1284413789
+field_1855946155
+field_8587424
+field_2215112105
+field_299548718
+field_1142811535<32>[3]
