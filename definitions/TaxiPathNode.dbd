@@ -14,8 +14,6 @@ float LocZ
 uint field_1308584285?
 uint field_1873700258?
 int field_217353192?
-uint field_2889316524?
-float field_2996302600?
 int field_3120953011?
 uint field_3400243399?
 uint field_3923147172?
@@ -69,8 +67,8 @@ flags<32>
 
 LAYOUT B2102B34
 BUILD 8.0.1.26734
-field_2996302600[3]
-$relation$field_2889316524<16>
+Loc[3]
+$relation$PathID<16>
 field_839647839<16>
 $id$field_3120953011<32>
 field_217353192<32>
