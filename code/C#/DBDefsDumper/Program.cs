@@ -189,7 +189,6 @@ namespace DBDefsDumper
                     Directory.CreateDirectory("definitions");
                 }
 
-
                 // Process DBMetas
                 foreach(var meta in metas)
                 {
@@ -249,33 +248,36 @@ namespace DBDefsDumper
                         field_flags_in_file.Add(bin.ReadInt32());
                     }
 
-                    var names = new Dictionary<string, Tuple<int, int>>();
-                    for(var i = 0; i < meta.Value.num_fields_in_file; i++)
-                    {
-                        // TODO: Use randomized unique names
-                        names.Add("field_" + i, new Tuple<int, int>(field_types_in_file[i], field_flags_in_file[i]));
-                    }
-
-                    if (meta.Value.num_fields_in_file != meta.Value.num_fields)
-                    {
-                        names.Add("field_" + meta.Value.num_fields_in_file, new Tuple<int, int>(field_types[meta.Value.num_fields_in_file], field_flags[meta.Value.num_fields_in_file]));
-                    }
-
                     if (meta.Value.id_column == -1)
                     {
                         writer.WriteLine("int ID");
                     }
 
-                    foreach(var name in names)
+                    var columnNames = new List<string>();
+                    var columnTypeFlags = new List<Tuple<int, int>>();
+
+                    for(var i = 0; i < meta.Value.num_fields_in_file; i++)
                     {
-                        var t = TypeToT(name.Value.Item1, (FieldFlags)name.Value.Item2);
+                        columnTypeFlags.Add(new Tuple<int, int>(field_types_in_file[i], field_flags_in_file[i]));
+                    }
+
+                    if (meta.Value.num_fields_in_file != meta.Value.num_fields)
+                    {
+                        columnTypeFlags.Add(new Tuple<int, int>(field_types[meta.Value.num_fields_in_file], field_flags[meta.Value.num_fields_in_file]));
+                    }
+
+                    for(var i = 0; i < columnTypeFlags.Count; i++)
+                    {
+                        columnNames.Add("field_" + new Random().Next(1, int.MaxValue).ToString().PadLeft(9, '0'));
+
+                        var t = TypeToT(columnTypeFlags[i].Item1, (FieldFlags)columnTypeFlags[i].Item2);
                         if(t.Item1 == "locstring")
                         {
-                            writer.WriteLine(t.Item1 + " " + name.Key + "_lang");
+                            writer.WriteLine(t.Item1 + " " + columnNames[i]+ "_lang");
                         }
                         else
                         {
-                            writer.WriteLine(t.Item1 + " " + name.Key);
+                            writer.WriteLine(t.Item1 + " " + columnNames[i]);
                         }
                     }
 
@@ -312,8 +314,7 @@ namespace DBDefsDumper
                             }
                         }
 
-                        // TODO: Use randomized unique names
-                        writer.Write("field_" + i);
+                        writer.Write(columnNames[i]);
 
                         if(typeFlags.Item1 == "locstring")
                         {
@@ -338,8 +339,7 @@ namespace DBDefsDumper
                         var i = meta.Value.num_fields_in_file;
                         var typeFlags = TypeToT(field_types[i], (FieldFlags)field_flags[i]);
 
-                        // TODO: Use randomized unique names
-                        writer.Write("$noninline,relation$field_" + i);
+                        writer.Write("$noninline,relation$" + columnNames[i]);
 
                         if (typeFlags.Item1 == "locstring")
                         {
