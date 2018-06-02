@@ -1,12 +1,4 @@
 COLUMNS
-uint field_1866374939?
-uint field_3614514900?
-uint field_2951420121?
-uint field_2630169944?
-uint field_1140207470?
-uint field_3015362500?
-uint field_3497675928?
-uint field_1248757658?
 int ID
 int categoryCoolDownMSec
 int charges
@@ -20,14 +12,14 @@ int triggerType
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_1866374939<32>
-field_3614514900<32>
-field_2951420121<32>
-field_2630169944<32>
-field_1140207470<32>
-field_3015362500<32>
-field_3497675928<32>
-field_1248757658<32>
+parentItemID<32>
+legacySlotIndex<32>
+spellID<32>
+triggerType<32>
+charges<32>
+coolDownMSec<32>
+spellCategoryID<32>
+categoryCoolDownMSec<32>
 
 LAYOUT A390FA40
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
