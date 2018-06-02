@@ -132,7 +132,7 @@ namespace DBDefsDumper
 
                         var meta = bin.Read<DBMeta>();
 
-                        if (meta.fileDataID > 801575 && meta.fileDataID < 5000000 && meta.record_size > 0)
+                        if (meta.fileDataID > 801575 && meta.record_size > 0)
                         {
                             bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
                             metas.Add(bin.ReadCString(), meta);
