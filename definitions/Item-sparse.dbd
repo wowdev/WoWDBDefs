@@ -1,17 +1,17 @@
 COLUMNS
 int ID?
 uint field_85113701?
-uint field_130291487?
-float field_3023716114?
-float field_3170797085?
+uint flags?
+float priceRandomValue?
+float priceVariance?
 uint field_1945240228?
-uint field_2009914589?
-uint field_1080221782?
-uint field_53830484?
+uint buyPrice?
+uint sellPrice?
+uint inventoryType?
 uint field_514685157?
 uint field_2663575155?
-uint field_280359133?
-uint field_2112127976?
+uint itemLevel?
+uint requiredLevel?
 uint field_299203893?
 uint field_1264414202?
 uint field_2040428939?
@@ -21,8 +21,8 @@ uint field_257696662?
 uint field_2993334035?
 uint field_2181026206?
 uint field_4289021652?
-uint field_3053046882?
-uint field_4294177538?
+uint containerSlots?
+uint statModifier_bonusStat?
 uint field_3202128834?
 uint field_2114667447?
 float field_125043488?
@@ -31,16 +31,16 @@ uint field_3291969551?
 uint field_2318507122?
 float field_3947227407?
 uint field_3550802381?
-string field_636659455?
-string field_3610372919?
-string field_44093840?
-string field_2272363880?
-string field_788030040?
+string display_lang?
+string display1_lang?
+string display2_lang?
+string display3_lang?
+string description_lang?
 uint field_3867816149?
 uint field_3256070177?
 uint field_428357259?
 uint field_416700452?
-uint field_2039327388?
+uint lockID?
 uint field_2893859578?
 uint field_948348196?
 uint field_3728066713?
@@ -57,7 +57,7 @@ float field_2067056911?
 uint field_2597940134?
 uint field_1689678458?
 uint field_3965634150?
-float field_2526517797?
+float dmgVariance?
 uint field_2466366482?
 uint field_1047274353?
 uint field_1764876857?
@@ -65,17 +65,17 @@ uint field_1764876857?
 BUILD 6.0.1.18179
 $id$ID<32>
 field_85113701<32>
-field_130291487<32>[3]
-field_3023716114
-field_3170797085
+flags<32>[3]
+priceRandomValue
+priceVariance
 field_1945240228<32>
-field_2009914589<32>
-field_1080221782<32>
-field_53830484<32>
+buyPrice<32>
+sellPrice<32>
+inventoryType<32>
 field_514685157<32>
 field_2663575155<32>
-field_280359133<32>
-field_2112127976<32>
+itemLevel<32>
+requiredLevel<32>
 field_299203893<32>
 field_1264414202<32>
 field_2040428939<32>
@@ -85,8 +85,8 @@ field_257696662<32>
 field_2993334035<32>
 field_2181026206<32>
 field_4289021652<32>
-field_3053046882<32>
-field_4294177538<32>[10]
+containerSlots<32>
+statModifier_bonusStat<32>[10]
 field_3202128834<32>[10]
 field_2114667447<32>[10]
 field_125043488[10]
@@ -95,16 +95,16 @@ field_3291969551<32>
 field_2318507122<32>
 field_3947227407
 field_3550802381<32>
-field_636659455
-field_3610372919
-field_44093840
-field_2272363880
-field_788030040
+display_lang
+display1_lang
+display2_lang
+display3_lang
+description_lang
 field_3867816149<32>
 field_3256070177<32>
 field_428357259<32>
 field_416700452<32>
-field_2039327388<32>
+lockID<32>
 field_2893859578<32>
 field_948348196<32>
 field_3728066713<32>
@@ -121,7 +121,7 @@ field_2067056911
 field_2597940134<32>
 field_1689678458<32>
 field_3965634150<32>
-field_2526517797
+dmgVariance
 field_2466366482<32>
 field_1047274353<32>
 field_1764876857<32>
