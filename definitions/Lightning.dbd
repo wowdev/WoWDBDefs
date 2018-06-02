@@ -32,6 +32,7 @@ float minStrikeTime
 float segmentSize
 float soundEmitterDistance
 int soundKitID
+int field_9858915126? // Maybe soundKitID
 
 LAYOUT C0E38C34
 BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
@@ -103,4 +104,4 @@ groundBrightnessScalar
 boltBrightnessScalar
 cloudBrightnessScalar
 soundEmitterDistance
-soundKitID<32>[3]
+field_9858915126<32>[3]
