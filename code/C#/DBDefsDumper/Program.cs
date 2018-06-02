@@ -56,7 +56,17 @@ namespace DBDefsDumper
 
         static void Main(string[] args)
         {
-            var file = MemoryMappedFile.CreateFromFile(@"wow", FileMode.Open);
+            if (args.Length < 1)
+            {
+                throw new ArgumentException("Not enough arguments! Required: file");
+            }
+
+            if (!File.Exists(args[0]))
+            {
+                throw new FileNotFoundException("File not found!");
+            }
+
+            var file = MemoryMappedFile.CreateFromFile(args[0], FileMode.Open);
             var stream = file.CreateViewAccessor();
 
             #region BinaryMagic 
@@ -97,60 +107,266 @@ namespace DBDefsDumper
             Func<UInt64, UInt64> translate = search => maps.Select(map => map.translateMemoryToFile(search)).FirstOrDefault(r => r != 0x0);
             #endregion
 
-            var bin = new BinaryReader(file.CreateViewStream());
-
-            long startOffset;
-
-            while (bin.BaseStream.Position < bin.BaseStream.Length)
+            using (var bin = new BinaryReader(file.CreateViewStream()))
             {
-                // Find FileDataID for Achievement
-                if (bin.ReadUInt32() == 1260179)
+                // Extract DBMeta
+                var metas = new Dictionary<string, DBMeta>();
+                var pattern = ParsePattern().ToArray();
+                var patternLength = pattern.Length;
+                var chunkSize = 1024;
+
+                while (true)
                 {
-                    startOffset = bin.BaseStream.Position - 12;
-                    break;
+                    if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
+                    {
+                        break;
+                    }
+
+                    var posInStack = Search(bin.ReadBytes(chunkSize), pattern);
+
+                    if (posInStack != chunkSize)
+                    {
+                        var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
+
+                        bin.BaseStream.Position = matchPos;
+
+                        var meta = bin.Read<DBMeta>();
+
+                        if (meta.fileDataID > 801575 && meta.fileDataID < 5000000 && meta.record_size > 0)
+                        {
+                            bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
+                            metas.Add(bin.ReadCString(), meta);
+                        }
+
+                        bin.BaseStream.Position = matchPos + patternLength;
+                    }
+                    else
+                    {
+                        bin.BaseStream.Position = bin.BaseStream.Position - patternLength;
+                    }
+                }
+
+                // Find version
+                var buildPattern = new byte?[] { 0x20, 0x5B, 0x42, 0x75, 0x69, 0x6C, 0x64, 0x20, null, null, null, null, null, 0x20, 0x28, null, null, null, null, null, 0x29, 0x20, 0x28 };
+                var buildPatternLength = buildPattern.Length;
+                bin.BaseStream.Position = 0;
+
+                var build = "";
+
+                while (true)
+                {
+                    if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
+                    {
+                        break;
+                    }
+
+                    var posInStack = Search(bin.ReadBytes(chunkSize), buildPattern);
+
+                    if (posInStack != chunkSize)
+                    {
+                        var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
+
+                        bin.BaseStream.Position = matchPos;
+                        bin.ReadBytes(8);
+                        var buildNumber = new string(bin.ReadChars(5));
+                        bin.ReadBytes(2);
+                        var patch = new string(bin.ReadChars(5));
+                        build = patch + "." + buildNumber;
+                    }
+                    else
+                    {
+                        bin.BaseStream.Position = bin.BaseStream.Position - buildPatternLength;
+                    }
+                }
+
+                if(build == "")
+                {
+                    throw new Exception("Build was not found!");
+                }
+
+                if (!Directory.Exists("definitions"))
+                {
+                    Directory.CreateDirectory("definitions");
+                }
+
+
+                // Process DBMetas
+                foreach(var meta in metas)
+                {
+                    var writer = new StreamWriter(Path.Combine("definitions", meta.Key + ".dbd"));
+
+                    writer.WriteLine("COLUMNS");
+
+                    Console.Write("Writing " + meta.Key + ".dbd..");
+
+                    var field_offsets = new List<int>();
+                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_offsets_offs);
+                    for (var i = 0; i < meta.Value.num_fields; i++)
+                    {
+                        field_offsets.Add(bin.ReadInt32());
+                    }
+
+                    var field_sizes = new List<int>();
+                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_sizes_offs);
+                    for (var i = 0; i < meta.Value.num_fields; i++)
+                    {
+                        field_sizes.Add(bin.ReadInt32());
+                    }
+
+                    var field_types = new List<int>();
+                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_types_offs);
+                    for (var i = 0; i < meta.Value.num_fields; i++)
+                    {
+                        field_types.Add(bin.ReadInt32());
+                    }
+
+                    var field_flags = new List<int>();
+                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_flags_offs);
+                    for (var i = 0; i < meta.Value.num_fields; i++)
+                    {
+                        field_flags.Add(bin.ReadInt32());
+                    }
+
+                    var field_sizes_in_file = new List<int>();
+                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_sizes_in_file_offs);
+                    for (var i = 0; i < meta.Value.num_fields; i++)
+                    {
+                        field_sizes_in_file.Add(bin.ReadInt32());
+                    }
+
+                    var field_types_in_file = new List<int>();
+                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_types_in_file_offs);
+                    for (var i = 0; i < meta.Value.num_fields; i++)
+                    {
+                        field_types_in_file.Add(bin.ReadInt32());
+                    }
+
+                    // Read field flags in file
+                    var field_flags_in_file = new List<int>();
+                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_flags_in_file_offs);
+                    for (var i = 0; i < meta.Value.num_fields; i++)
+                    {
+                        field_flags_in_file.Add(bin.ReadInt32());
+                    }
+
+                    var names = new Dictionary<string, Tuple<int, int>>();
+                    for(var i = 0; i < meta.Value.num_fields_in_file; i++)
+                    {
+                        // TODO: Use randomized unique names
+                        names.Add("field_" + i, new Tuple<int, int>(field_types_in_file[i], field_flags_in_file[i]));
+                    }
+
+                    if (meta.Value.num_fields_in_file != meta.Value.num_fields)
+                    {
+                        names.Add("field_" + meta.Value.num_fields_in_file, new Tuple<int, int>(field_types[meta.Value.num_fields_in_file], field_flags[meta.Value.num_fields_in_file]));
+                    }
+
+                    if (meta.Value.id_column == -1)
+                    {
+                        writer.WriteLine("int ID");
+                    }
+
+                    foreach(var name in names)
+                    {
+                        var t = TypeToT(name.Value.Item1, (FieldFlags)name.Value.Item2);
+                        if(t.Item1 == "locstring")
+                        {
+                            writer.WriteLine(t.Item1 + " " + name.Key + "_lang");
+                        }
+                        else
+                        {
+                            writer.WriteLine(t.Item1 + " " + name.Key);
+                        }
+                    }
+
+                    writer.WriteLine();
+
+                    writer.WriteLine("LAYOUT " + meta.Value.layout_hash.ToString("X8").ToUpper());
+                    writer.WriteLine("BUILD " + build);
+
+                    if(meta.Value.sparseTable == 1)
+                    {
+                        writer.WriteLine("COMMENT table is sparse");
+                    }
+
+                    if(meta.Value.id_column == -1)
+                    {
+                        writer.WriteLine("$noninline,id$ID<32>");
+                    }
+
+                    for (var i = 0; i < meta.Value.num_fields_in_file; i++)
+                    {
+                        var typeFlags = TypeToT(field_types_in_file[i], (FieldFlags)field_flags_in_file[i]);
+
+                        if(meta.Value.id_column == i)
+                        {
+                            writer.Write("$id$");
+                        }
+
+                        if(meta.Value.column_8C == i)
+                        {
+                            writer.Write("$relation$");
+                            if(meta.Value.column_90 != i)
+                            {
+                                throw new Exception("No column_90 but there is column_8C send help!");
+                            }
+                        }
+
+                        // TODO: Use randomized unique names
+                        writer.Write("field_" + i);
+
+                        if(typeFlags.Item1 == "locstring")
+                        {
+                            writer.Write("_lang");
+                        }
+
+                        if(typeFlags.Item2 > 0)
+                        {
+                            writer.Write("<" + typeFlags.Item2 + ">");
+                        }
+
+                        if(field_sizes_in_file[i] != 1)
+                        {
+                            writer.Write("[" + field_sizes[i] + "]");
+                        }
+
+                        writer.WriteLine();
+                    }
+
+                    if (meta.Value.num_fields_in_file != meta.Value.num_fields)
+                    {
+                        var i = meta.Value.num_fields_in_file;
+                        var typeFlags = TypeToT(field_types[i], (FieldFlags)field_flags[i]);
+
+                        // TODO: Use randomized unique names
+                        writer.Write("$noninline,relation$field_" + i);
+
+                        if (typeFlags.Item1 == "locstring")
+                        {
+                            writer.Write("_lang");
+                        }
+
+                        if (typeFlags.Item2 > 0)
+                        {
+                            writer.Write("<" + typeFlags.Item2 + ">");
+                        }
+
+                        if (field_sizes[i] != 1)
+                        {
+                            writer.Write("[" + field_sizes[i] + "]");
+                        }
+                    }
+
+                    writer.Flush();
+                    writer.Close();
+
+                    Console.Write("..done!\n");
                 }
             }
 
-            // Roll back 8 bytes to get to name offset
-            bin.BaseStream.Position -= 12;
-
-            var metas = new Dictionary<string, DBMeta>();
-
-            var readingMeta = true;
-
-            while (readingMeta)
-            {
-                var meta = bin.Read<DBMeta>();
-
-                if(meta.fileDataID < 801575 || meta.fileDataID > 5000000)
-                {
-                    Console.WriteLine("FileDataID " + meta.fileDataID + " doesn't seem valid, we're probably done reading meta and stuff.");
-                    readingMeta = false;
-                    break;
-                }
-
-                var nameOffs = translate((ulong)meta.nameOffset);
-                var prevPos = bin.BaseStream.Position;
-                bin.BaseStream.Position = (long)nameOffs;
-                var name = bin.ReadCString();
-                bin.BaseStream.Position = prevPos;
-
-                metas.Add(name, meta);
-                Console.WriteLine(name + " (" + meta.fileDataID + ")");
-                Console.WriteLine(meta.column_8C + " " + meta.column_90);
-
-                if(name == "ChrClassVillain" || name == "DeclinedWordCases" || name == "UiPartyPose")
-                {
-                    bin.ReadBytes(24);
-                }
-
-            }
-
-            Console.ReadLine();
             Environment.Exit(0);
         }
 
-        // Size should be 0xc1 (193)
         private struct DBMeta
         {
             public long nameOffset;         // 0
@@ -204,8 +420,190 @@ namespace DBDefsDumper
             */
 
         }
-    }
+        public enum FieldFlags : int
+        {
+            f_maybe_fk = 1,
+            f_maybe_compressed = 2, // according to simca
+            f_unsigned = 4,
+            f_localized = 8,
+        };
+        public static (string, int) TypeToT(int type, FieldFlags flag)
+        {
+            switch (type)
+            {
+                case 0:
+                    switch (flag)
+                    {
+                        case 0 | 0 | 0 | 0:
+                        case 0 | 0 | 0 | FieldFlags.f_maybe_fk:
+                        case 0 | 0 | FieldFlags.f_maybe_compressed | 0:
+                        case 0 | 0 | FieldFlags.f_maybe_compressed | FieldFlags.f_maybe_fk:
+                            return ("int", 32);
+                        case 0 | FieldFlags.f_unsigned | 0 | 0:
+                        case 0 | FieldFlags.f_unsigned | 0 | FieldFlags.f_maybe_fk:
+                        case 0 | FieldFlags.f_unsigned | FieldFlags.f_maybe_compressed | 0:
+                        case 0 | FieldFlags.f_unsigned | FieldFlags.f_maybe_compressed | FieldFlags.f_maybe_fk:
+                            return ("uint", 32);
+                        default:
+                            throw new Exception("Unknown flag combination!");
+                    }
+                case 1:
+                    switch (flag)
+                    {
+                        case 0 | 0 | 0 | 0:
+                            return ("int", 64);
+                        default:
+                            throw new Exception("Unknown flag combination!");
+                    }
+                case 2:
+                    switch (flag)
+                    {
+                        case 0 | 0 | 0 | 0:
+                            return ("string", 0);
+                        case FieldFlags.f_localized | 0 | 0 | 0:
+                            return ("locstring", 0);
+                        default:
+                            throw new Exception("Unknown flag combination!");
+                    }
+                case 3:
+                    switch (flag)
+                    {
+                        case 0 | 0 | 0 | 0:
+                        case 0 | 0 | FieldFlags.f_maybe_compressed | 0:
+                            return ("float", 0);
+                        default:
+                            throw new Exception("Unknown flag combination!");
+                    }
+                case 4:
+                    switch (flag)
+                    {
+                        case 0 | 0 | 0 | 0:
+                        case 0 | 0 | FieldFlags.f_maybe_compressed | 0:
+                            return ("int", 8);
+                        case 0 | FieldFlags.f_unsigned | 0 | 0:
+                        case 0 | FieldFlags.f_unsigned | FieldFlags.f_maybe_compressed | 0:
+                            return ("uint", 8);
+                        default:
+                            throw new Exception("Unknown flag combination!");
+                    }
+                case 5:
+                    switch (flag)
+                    {
+                        case 0 | 0 | 0 | 0:
+                        case 0 | 0 | 0 | FieldFlags.f_maybe_fk:
+                        case 0 | 0 | FieldFlags.f_maybe_compressed | 0:
+                        case 0 | 0 | FieldFlags.f_maybe_compressed | FieldFlags.f_maybe_fk:
+                            return ("int", 16);
+                        case 0 | FieldFlags.f_unsigned | 0 | 0:
+                        case 0 | FieldFlags.f_unsigned | 0 | FieldFlags.f_maybe_fk:
+                        case 0 | FieldFlags.f_unsigned | FieldFlags.f_maybe_compressed | 0:
+                        case 0 | FieldFlags.f_unsigned | FieldFlags.f_maybe_compressed | FieldFlags.f_maybe_fk:
+                            return ("uint", 16);
+                        default:
+                            throw new Exception("Unknown flag combination!");
+                    }
+                default:
+                    throw new Exception("Ran into unknown field type: " + type);
+            }
+        }
+        public static int Search(byte[] haystack, byte?[] needle)
+        {
+            int first = 0;
+            for (; ; ++first)
+            {
+                int it = first;
+                for (int s_it = 0; ; ++it, ++s_it)
+                {
+                    if (s_it == needle.Length)
+                    {
+                        return first;
+                    }
+                    if (it == haystack.Length)
+                    {
+                        return haystack.Length;
+                    }
+                    if (needle[s_it].HasValue && haystack[it] != needle[s_it].Value)
+                    {
+                        break;
+                    }
+                }
+            }
+        }
+        public static List<byte?> ParsePattern()
+        {
+            // Parse pattern
+            var explodedPattern = BuildPattern().Split(' ');
 
+            var patternList = new List<byte?>();
+            foreach (var part in explodedPattern)
+            {
+                if (part == string.Empty)
+                {
+                    continue;
+                }
+
+                if (part != "?")
+                {
+                    patternList.Add(Convert.ToByte(part));
+                }
+                else
+                {
+                    patternList.Add(null);
+                }
+            }
+
+            return patternList;
+        }
+        public static string BuildPattern()
+        {
+            var pattern__pointer = "? ? ? ? 01 00 00 00 ";
+            var pattern__optional_pointer = "? ? ? ? ? 00 00 00 ";
+            var pattern__boolean = "? 00 00 00 ";
+            var pattern__uint8 = pattern__boolean;
+            var pattern__field_reference = "? ? 00 00 ";
+            var pattern__field_reference_or_none = "? ? ? ? ";
+            var pattern__hash = "? ? ? ? ";
+            var pattern__4_byte_padding = "00 00 00 00 ";
+            var pattern__fdid = "? ? ? ? ";
+            var pattern__record_size = "? ? 00 00 ";
+
+            var pattern = pattern__pointer
+                    + pattern__fdid
+                    + pattern__field_reference
+                    + pattern__record_size
+                    + pattern__field_reference
+                    + pattern__field_reference_or_none
+                    + pattern__boolean
+                    + pattern__pointer
+                    + pattern__pointer
+                    + pattern__pointer
+                    + pattern__pointer
+                    + pattern__pointer
+                    + pattern__pointer
+                    + pattern__pointer
+                    + pattern__uint8
+                    + pattern__hash
+                    + pattern__4_byte_padding
+                    + pattern__hash
+                    + pattern__uint8
+                    + pattern__field_reference
+                    + pattern__field_reference
+                    + pattern__4_byte_padding
+                    + pattern__optional_pointer
+                    + pattern__optional_pointer
+                    + pattern__boolean
+                    + pattern__field_reference_or_none
+                    + pattern__field_reference_or_none
+                    + pattern__4_byte_padding
+                    + pattern__optional_pointer
+                    + pattern__boolean
+                    + pattern__4_byte_padding;
+
+            return pattern;
+        }
+
+    }
+    
     #region BinaryReaderExtensions
     static class BinaryReaderExtensios
     {
