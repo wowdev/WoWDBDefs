@@ -63,6 +63,10 @@ namespace DBDefsLib
                     if(versionDefinition.builds.Length > 0)
                     {
                         writer.Write("BUILD ");
+                        var sortedVersionlist = new List<Build>();
+                        sortedVersionlist.AddRange(versionDefinition.builds);
+                        sortedVersionlist.Sort();
+                        versionDefinition.builds = sortedVersionlist.ToArray();
                         for(var b =0; b < versionDefinition.builds.Length; b++)
                         {
                             writer.Write(versionDefinition.builds[b].ToString());
