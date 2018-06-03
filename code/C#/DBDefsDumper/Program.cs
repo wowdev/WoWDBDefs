@@ -245,6 +245,12 @@ namespace DBDefsDumper
                 // Process DBMetas
                 foreach(var meta in metas)
                 {
+                    if((long)translate((ulong)meta.Value.field_offsets_offs) > bin.BaseStream.Length)
+                    {
+                        Console.WriteLine("Skipping reading of " + meta.Key + " because first offset is way out of range!");
+                        continue;
+                    }
+
                     var writer = new StreamWriter(Path.Combine(outputDirectory, meta.Key + ".dbd"));
 
                     writer.WriteLine("COLUMNS");
@@ -253,6 +259,7 @@ namespace DBDefsDumper
 
                     var field_offsets = new List<int>();
                     bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_offsets_offs);
+
                     for (var i = 0; i < meta.Value.num_fields; i++)
                     {
                         field_offsets.Add(bin.ReadInt32());
@@ -358,12 +365,15 @@ namespace DBDefsDumper
                             writer.Write("$id$");
                         }
 
-                        if(meta.Value.column_8C == i)
+                        if(build.StartsWith("7.3.5") || build.StartsWith("8.0.1"))
                         {
-                            writer.Write("$relation$");
-                            if(meta.Value.column_90 != i)
+                            if (meta.Value.column_8C == i)
                             {
-                                throw new Exception("No column_90 but there is column_8C send help!");
+                                writer.Write("$relation$");
+                                if (meta.Value.column_90 != i)
+                                {
+                                    throw new Exception("No column_90 but there is column_8C send help!");
+                                }
                             }
                         }
 
