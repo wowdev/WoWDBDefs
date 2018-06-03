@@ -145,3 +145,23 @@ portLocID<32>
 playerConditionID<32>
 uiTextureAtlasMemberID<32>
 WMOGroupID<32>
+
+LAYOUT B161EE90
+BUILD 7.3.5.26654
+$noninline,id$ID<32>
+name_lang
+description_lang
+flags<32>
+pos[3]
+poiDataType<32>
+poiData<32>
+$relation$continentID<16>
+areaID<16>
+worldStateID<16>
+portLocID<16>
+importance<8>
+icon<8>
+playerConditionID<32>
+uiTextureAtlasMemberID<32>
+mapFloor<32>
+WMOGroupID<32>

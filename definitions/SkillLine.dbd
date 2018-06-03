@@ -20,18 +20,7 @@ uint skillType // 0: Class, 1: Special, 2: Racial, 3: Primary Profession (Talent
 uint minCharLevel
 uint maxRank
 uint abandonable
-locstring field_1053376238_lang?
-int field_1334787408?
-uint field_1336462998?
-int field_1532576006?
-locstring field_1838711077_lang?
-string field_1874725257?
-locstring field_1905686843_lang?
-uint field_1933042534?
-int field_2699733778?
-locstring field_3219317051_lang?
-int field_3898499771?
-int field_4083046615?
+string neutralDisplayName
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -129,15 +118,27 @@ parentTierIndex<32>
 
 LAYOUT 8C8C1F69
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-field_1838711077_lang
-field_1053376238_lang
-field_3219317051_lang
-field_1905686843_lang
-field_1874725257
-$id$field_3898499771<32>
-field_1933042534<16>
-field_1532576006<8>
-field_1334787408<8>
-field_4083046615<32>
-field_1336462998<32>
-field_2699733778<32>
+displayName_lang
+alternateVerb_lang
+description_lang
+hordeDisplayName_lang
+neutralDisplayName
+$id$ID<32>
+flags<16>
+categoryID<8>
+canLink<8>
+spellIconFileID<32>
+parentSkillLineID<32>
+parentTierIndex<32>
+
+LAYOUT 3F7E88AF
+BUILD 7.3.5.26654
+$noninline,id$ID<32>
+displayName_lang
+description_lang
+alternateVerb_lang
+flags<16>
+categoryID<8>
+canLink<8>
+spellIconFileID<32>
+parentSkillLineID<32>

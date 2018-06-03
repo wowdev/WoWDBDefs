@@ -10,17 +10,9 @@ int relatedStep
 uint supersedes
 uint rewardQuestID
 uint visibilityPlayerConditionID
-uint field_1469310973?
-uint field_1871739164?
-uint field_1931767329?
-int field_2117192374?
-uint field_2727228087?
 locstring field_2792711813_lang?
-uint field_2993674258?
 locstring field_4013373207_lang?
 uint field_4254090452?
-uint field_675357935?
-uint field_872425833?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -67,12 +59,25 @@ BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
 field_2792711813_lang
 field_4013373207_lang
-$relation$field_872425833<16>
-field_675357935<16>
-field_1469310973<16>
+$relation$scenarioID<16>
+rewardQuestID<16>
+supersedes<16>
 field_4254090452<16>
-field_1871739164<8>
-field_1931767329<8>
-field_2993674258<32>
-field_2117192374<32>
-field_2727228087<32>
+orderIndex<8>
+flags<8>
+criteriatreeID<32>
+relatedStep<32>
+visibilityPlayerConditionID<32>
+
+LAYOUT 201B0EFC
+BUILD 7.3.5.26654
+$noninline,id$ID<32>
+description_lang
+title_lang
+$relation$scenarioID<16>
+supersedes<16>
+rewardQuestID<16>
+orderIndex<8>
+flags<8>
+criteriatreeID<32>
+relatedStep<32>
