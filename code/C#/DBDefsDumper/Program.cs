@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DBDefsDumper.Versions;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.IO.MemoryMappedFiles;
@@ -155,7 +156,25 @@ namespace DBDefsDumper
                 // Extract DBMeta
                 var metas = new Dictionary<string, DBMeta>();
 
-                var patternString = BuildPattern(build);
+                var patternString = "";
+
+                if (build.StartsWith("7.3.2"))
+                {
+                    patternString = v7_3_2_25549.GetPattern();
+                }
+                else if (build.StartsWith("7.3.5"))
+                {
+                    patternString = v7_3_5_25807.GetPattern();
+                }
+                else if (build.StartsWith("8.0.1"))
+                {
+                    patternString = v8_0_1_26734.GetPattern();
+                }
+                else
+                {
+                    throw new Exception("No valid pattern for version " + build + "!");
+                }
+
                 var pattern = ParsePattern(patternString).ToArray();
                 var patternLength = pattern.Length;
 
@@ -175,42 +194,21 @@ namespace DBDefsDumper
                         bin.BaseStream.Position = matchPos;
 
                         var buildSplit = build.Split('.');
-                        if(buildSplit[0] == "7")
+
+                        if (build.StartsWith("7.3.2"))
                         {
-                            var meta = new DBMeta();
-                            meta.nameOffset = bin.ReadInt64();
-                            meta.num_fields_in_file = bin.ReadInt32();
-                            meta.record_size = bin.ReadInt32();
-                            meta.num_fields = bin.ReadInt32();
-                            meta.id_column = bin.ReadInt32();
-                            meta.sparseTable = bin.ReadByte();
-                            bin.ReadBytes(7);
-                            meta.field_offsets_offs = bin.ReadInt64();
-                            meta.field_sizes_offs = bin.ReadInt64();
-                            meta.field_types_offs = bin.ReadInt64();
-                            meta.field_flags_offs = bin.ReadInt64();
-                            meta.field_sizes_in_file_offs = bin.ReadInt64();
-                            meta.field_types_in_file_offs = bin.ReadInt64();
-                            meta.field_flags_in_file_offs = bin.ReadInt64();
-                            meta.flags_58_2_1 = bin.ReadByte();
-                            bin.ReadBytes(3);
-                            meta.table_hash = bin.ReadInt32();
-                            bin.ReadBytes(4);
-                            meta.layout_hash = bin.ReadInt32();
-                            meta.flags_68_4_2_1 = bin.ReadByte();
-                            bin.ReadBytes(3);
-                            meta.nbUniqueIdxByInt = bin.ReadInt32();
-                            meta.nbUniqueIdxByString = bin.ReadInt32();
-                            bin.ReadBytes(4);
-                            meta.uniqueIdxByInt = bin.ReadInt64();
-                            meta.uniqueIdxByString = bin.ReadInt64();
-                            meta.bool_88 = bin.ReadByte();
-                            bin.ReadBytes(3);
-                            meta.column_8C = bin.ReadInt32();
-                            meta.column_90 = bin.ReadInt32();
-                            bin.ReadBytes(4);
-                            meta.sortFunctionOffs = bin.ReadInt64();
-                            meta.table_name = bin.ReadInt64();
+                            var meta = v7_3_2_25549.ReadMeta(bin);
+
+                            if (meta.record_size > 0 && meta.nameOffset != 4294967297)
+                            {
+                                bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
+                                metas.Add(bin.ReadCString(), meta);
+                            }
+
+                        }
+                        else if (build.StartsWith("7.3.5"))
+                        {
+                            var meta = v7_3_5_25807.ReadMeta(bin);
 
                             if (meta.record_size > 0 && meta.nameOffset != 4294967297)
                             {
@@ -220,41 +218,7 @@ namespace DBDefsDumper
                         }
                         else
                         {
-                            var meta = new DBMeta();
-                            meta.nameOffset = bin.ReadInt64();
-                            meta.fileDataID = bin.ReadInt32();
-                            meta.num_fields_in_file = bin.ReadInt32();
-                            meta.record_size = bin.ReadInt32();
-                            meta.num_fields = bin.ReadInt32();
-                            meta.id_column = bin.ReadInt32();
-                            meta.sparseTable = bin.ReadByte();
-                            bin.ReadBytes(3);
-                            meta.field_offsets_offs = bin.ReadInt64();
-                            meta.field_sizes_offs = bin.ReadInt64();
-                            meta.field_types_offs = bin.ReadInt64();
-                            meta.field_flags_offs = bin.ReadInt64();
-                            meta.field_sizes_in_file_offs = bin.ReadInt64();
-                            meta.field_types_in_file_offs = bin.ReadInt64();
-                            meta.field_flags_in_file_offs = bin.ReadInt64();
-                            meta.flags_58_2_1 = bin.ReadByte();
-                            bin.ReadBytes(3);
-                            meta.table_hash = bin.ReadInt32();
-                            bin.ReadBytes(4);
-                            meta.layout_hash = bin.ReadInt32();
-                            meta.flags_68_4_2_1 = bin.ReadByte();
-                            bin.ReadBytes(3);
-                            meta.nbUniqueIdxByInt = bin.ReadInt32();
-                            meta.nbUniqueIdxByString = bin.ReadInt32();
-                            bin.ReadBytes(4);
-                            meta.uniqueIdxByInt = bin.ReadInt64();
-                            meta.uniqueIdxByString = bin.ReadInt64();
-                            meta.bool_88 = bin.ReadByte();
-                            bin.ReadBytes(3);
-                            meta.column_8C = bin.ReadInt32();
-                            meta.column_90 = bin.ReadInt32();
-                            bin.ReadBytes(4);
-                            meta.sortFunctionOffs = bin.ReadInt64();
-                            meta.table_name = bin.ReadInt64();
+                            var meta = v8_0_1_26734.ReadMeta(bin);
 
                             if (meta.fileDataID > 801575 && meta.record_size > 0)
                             {
@@ -456,43 +420,6 @@ namespace DBDefsDumper
             Environment.Exit(0);
         }
 
-        private struct DBMeta
-        {
-            public long nameOffset;
-            public int fileDataID;  
-            public int num_fields_in_file;
-            public int record_size;
-            public int num_fields;
-            public int id_column;
-            public byte sparseTable;
-            public long field_offsets_offs;
-            public long field_sizes_offs;
-            public long field_types_offs;
-            public long field_flags_offs;
-            public long field_sizes_in_file_offs;
-            public long field_types_in_file_offs;
-            public long field_flags_in_file_offs;
-            public byte flags_58_2_1;
-            public int table_hash;
-            public int layout_hash;
-            public byte flags_68_4_2_1;
-            public int nbUniqueIdxByInt;
-            public int nbUniqueIdxByString;
-            public long uniqueIdxByInt;
-            public long uniqueIdxByString;
-            public byte bool_88;
-            public int column_8C;
-            public int column_90;
-            public long sortFunctionOffs;
-            public long table_name;
-            /* 
-            //probs not in osx
-            const char** field_names_in_file; 
-            const char** field_names;     
-            const char* fk_clause;        
-            char bool_C0;                 
-            */
-        }
 
         public enum FieldFlags : int
         {
@@ -628,74 +555,6 @@ namespace DBDefsDumper
 
             return patternList;
         }
-        public static string BuildPattern(string build)
-        {
-            var pattern__pointer = "? ? ? ? 01 00 00 00 ";
-            var pattern__optional_pointer = "? ? ? ? ? 00 00 00 ";
-            var pattern__boolean = "? 00 00 00 ";
-            var pattern__uint8 = pattern__boolean;
-            var pattern__field_reference = "? ? 00 00 ";
-            var pattern__field_reference_or_none = "? ? ? ? ";
-            var pattern__hash = "? ? ? ? ";
-            var pattern__4_byte_padding = "00 00 00 00 ";
-            var pattern__fdid = "? ? ? ? ";
-            var pattern__record_size = "? ? 00 00 ";
-
-            var buildSplit = build.Split('.');
-
-            var pattern = pattern__pointer;
-
-            // FileDataID is only available in 8.0+
-            if(buildSplit[0] == "8")
-            {
-                pattern += pattern__fdid;
-            }
-
-            pattern += pattern__field_reference
-        + pattern__record_size
-        + pattern__field_reference
-        + pattern__field_reference_or_none
-        + pattern__boolean;
-
-            // 7.?.? has 4 bytes here
-            if(buildSplit[0] == "7")
-            {
-                pattern += pattern__field_reference_or_none;
-            }
-
-        pattern += pattern__pointer
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__uint8
-        + pattern__hash
-        + pattern__4_byte_padding
-        + pattern__hash
-        + pattern__uint8
-        + pattern__field_reference
-        + pattern__field_reference
-        + pattern__4_byte_padding
-        + pattern__optional_pointer
-        + pattern__optional_pointer
-        + pattern__boolean
-        + pattern__field_reference_or_none
-        + pattern__field_reference_or_none
-        + pattern__4_byte_padding
-        + pattern__optional_pointer
-        + pattern__boolean
-        + pattern__4_byte_padding;
-
-            if(pattern == "")
-            {
-                throw new Exception("Could not generate a pattern. Unsupported version?");
-            }
-
-            return pattern;
-        }
-
     }
     
     #region BinaryReaderExtensions
