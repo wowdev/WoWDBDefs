@@ -158,7 +158,16 @@ namespace DBDefsDumper
 
                 var patternString = "";
 
-                if (build.StartsWith("7.3.2"))
+
+                if (build.StartsWith("7.2.5"))
+                {
+                    patternString = v7_2_5_24742.GetPattern();
+                }
+                else if (build.StartsWith("7.3.0"))
+                {
+                    patternString = v7_3_0_25195.GetPattern();
+                }
+                else if (build.StartsWith("7.3.2"))
                 {
                     patternString = v7_3_2_25549.GetPattern();
                 }
@@ -195,7 +204,27 @@ namespace DBDefsDumper
 
                         var buildSplit = build.Split('.');
 
-                        if (build.StartsWith("7.3.2"))
+                        if (build.StartsWith("7.2.5"))
+                        {
+                            var meta = v7_2_5_24742.ReadMeta(bin);
+
+                            if (meta.record_size > 0 && meta.nameOffset != 4294967297)
+                            {
+                                bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
+                                metas.Add(bin.ReadCString(), meta);
+                            }
+                        }
+                        else if (build.StartsWith("7.3.0"))
+                        {
+                            var meta = v7_3_0_25195.ReadMeta(bin);
+
+                            if (meta.record_size > 0 && meta.nameOffset != 4294967297)
+                            {
+                                bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
+                                metas.Add(bin.ReadCString(), meta);
+                            }
+                        }
+                        else if (build.StartsWith("7.3.2"))
                         {
                             var meta = v7_3_2_25549.ReadMeta(bin);
 
@@ -204,7 +233,6 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
                                 metas.Add(bin.ReadCString(), meta);
                             }
-
                         }
                         else if (build.StartsWith("7.3.5"))
                         {
