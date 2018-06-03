@@ -63,7 +63,7 @@ float statPercentageOfSocket
 uint totemCategoryID
 uint vendorStackCount
 uint zoneBound
-int field_3753254511?
+int oppositeFactionItemID?
 int field_1177770545
 
 LAYOUT 350149D8
@@ -228,7 +228,7 @@ vendorStackCount<32>
 priceVariance
 priceRandomValue
 flags<32>[4]
-field_3753254511<32>
+oppositeFactionItemID<32>
 itemNameDescriptionID<16>
 requiredTransmogHoliday<16>
 requiredHoliday<16>
