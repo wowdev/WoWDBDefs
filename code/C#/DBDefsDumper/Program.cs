@@ -643,51 +643,27 @@ namespace DBDefsDumper
 
             var buildSplit = build.Split('.');
 
-            var pattern = "";
+            var pattern = pattern__pointer;
 
-            if (buildSplit[0] == "7"){
-                pattern = pattern__pointer
-        + pattern__field_reference
-        + pattern__record_size
-        + pattern__field_reference
-        + pattern__field_reference_or_none
-        + pattern__boolean
-        + pattern__field_reference_or_none
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__pointer
-        + pattern__uint8
-        + pattern__hash
-        + pattern__4_byte_padding
-        + pattern__hash
-        + pattern__uint8
-        + pattern__field_reference
-        + pattern__field_reference
-        + pattern__4_byte_padding
-        + pattern__optional_pointer
-        + pattern__optional_pointer
-        + pattern__boolean
-        + pattern__field_reference_or_none
-        + pattern__field_reference_or_none
-        + pattern__4_byte_padding
-        + pattern__optional_pointer
-        + pattern__boolean
-        + pattern__4_byte_padding;
-            }
-            else if(buildSplit[0] == "8")
+            // FileDataID is only available in 8.0+
+            if(buildSplit[0] == "8")
             {
-                pattern = pattern__pointer
-        + pattern__fdid
-        + pattern__field_reference
+                pattern += pattern__fdid;
+            }
+
+            pattern += pattern__field_reference
         + pattern__record_size
         + pattern__field_reference
         + pattern__field_reference_or_none
-        + pattern__boolean
-        + pattern__pointer
+        + pattern__boolean;
+
+            // 7.?.? has 4 bytes here
+            if(buildSplit[0] == "7")
+            {
+                pattern += pattern__field_reference_or_none;
+            }
+
+        pattern += pattern__pointer
         + pattern__pointer
         + pattern__pointer
         + pattern__pointer
@@ -711,7 +687,6 @@ namespace DBDefsDumper
         + pattern__optional_pointer
         + pattern__boolean
         + pattern__4_byte_padding;
-            }
 
             if(pattern == "")
             {
