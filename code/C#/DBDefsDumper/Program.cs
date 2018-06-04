@@ -156,111 +156,114 @@ namespace DBDefsDumper
                 // Extract DBMeta
                 var metas = new Dictionary<string, DBMeta>();
 
-                var patternString = "";
+                var patternBuilder = new PatternBuilder();
 
+                foreach(var pattern in patternBuilder.patterns)
+                {
+                    var patternBytes = ParsePattern(pattern.cur_pattern).ToArray();
+                    var patternLength = patternBytes.Length;
 
-                if (build.StartsWith("7.2.5"))
-                {
-                    patternString = v7_2_5_24742.GetPattern();
-                }
-                else if (build.StartsWith("7.3.0"))
-                {
-                    patternString = v7_3_0_25195.GetPattern();
-                }
-                else if (build.StartsWith("7.3.2"))
-                {
-                    patternString = v7_3_2_25549.GetPattern();
-                }
-                else if (build.StartsWith("7.3.5"))
-                {
-                    patternString = v7_3_5_25807.GetPattern();
-                }
-                else if (build.StartsWith("8.0.1"))
-                {
-                    patternString = v8_0_1_26734.GetPattern();
-                }
-                else
-                {
-                    throw new Exception("No valid pattern for version " + build + "!");
-                }
-
-                var pattern = ParsePattern(patternString).ToArray();
-                var patternLength = pattern.Length;
-
-                while (true)
-                {
-                    if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
+                    while (true)
                     {
-                        break;
-                    }
-
-                    var posInStack = Search(bin.ReadBytes(chunkSize), pattern);
-
-                    if (posInStack != chunkSize)
-                    {
-                        var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
-
-                        bin.BaseStream.Position = matchPos;
-
-                        var buildSplit = build.Split('.');
-
-                        if (build.StartsWith("7.2.5"))
+                        if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
                         {
-                            var meta = v7_2_5_24742.ReadMeta(bin);
-
-                            if (meta.record_size > 0 && meta.nameOffset != 4294967297)
-                            {
-                                bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                                metas.Add(bin.ReadCString(), meta);
-                            }
+                            break;
                         }
-                        else if (build.StartsWith("7.3.0"))
-                        {
-                            var meta = v7_3_0_25195.ReadMeta(bin);
 
-                            if (meta.record_size > 0 && meta.nameOffset != 4294967297)
+                        var posInStack = Search(bin.ReadBytes(chunkSize), patternBytes);
+
+                        if (posInStack != chunkSize)
+                        {
+                            var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
+
+                            Console.WriteLine("Pattern " + pattern.name + " matched at " + matchPos);
+
+                            if (pattern.offsets.ContainsKey(Name.FDID))
                             {
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.FDID];
+                                if(bin.ReadUInt32() < 53183)
+                                {
+                                    continue;
+                                }
+                            }
+
+                            if (pattern.offsets.ContainsKey(Name.RECORD_SIZE))
+                            {
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.RECORD_SIZE];
+                                if (bin.ReadUInt32() == 0)
+                                {
+                                    continue;
+                                }
+                            }
+
+                            if (pattern.offsets.ContainsKey(Name.DB_NAME))
+                            {
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_NAME];
+                                if (bin.ReadUInt32() < 10)
+                                {
+                                    continue;
+                                }
+
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_NAME];
+                                var targetOffset = (long)translate(bin.ReadUInt64());
+                                if (targetOffset > bin.BaseStream.Length)
+                                {
+                                    continue;
+                                }
+                            }
+
+                            bin.BaseStream.Position = matchPos;
+
+                            var buildSplit = build.Split('.');
+
+                            if (build.StartsWith("7.2.5"))
+                            {
+                                var meta = v7_2_5_24742.ReadMeta(bin);
+
+                                if (meta.record_size > 0 && meta.nameOffset != 4294967297)
+                                {
+                                    bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
+                                    metas.Add(bin.ReadCString(), meta);
+                                }
+                            }
+                            else if (build.StartsWith("7.3.0"))
+                            {
+                                var meta = v7_3_0_25195.ReadMeta(bin);
+
+                                if (meta.record_size > 0 && meta.nameOffset != 4294967297)
+                                {
+                                    bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
+                                    metas.Add(bin.ReadCString(), meta);
+                                }
+                            }
+                            else if (build.StartsWith("7.3.2"))
+                            {
+                                var meta = v7_3_2_25549.ReadMeta(bin);
                                 bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
                                 metas.Add(bin.ReadCString(), meta);
                             }
-                        }
-                        else if (build.StartsWith("7.3.2"))
-                        {
-                            var meta = v7_3_2_25549.ReadMeta(bin);
-
-                            if (meta.record_size > 0 && meta.nameOffset != 4294967297)
+                            else if (build.StartsWith("7.3.5"))
                             {
+                                var meta = v7_3_5_25807.ReadMeta(bin);
                                 bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
                                 metas.Add(bin.ReadCString(), meta);
                             }
-                        }
-                        else if (build.StartsWith("7.3.5"))
-                        {
-                            var meta = v7_3_5_25807.ReadMeta(bin);
-
-                            if (meta.record_size > 0 && meta.nameOffset != 4294967297)
+                            else
                             {
+                                var meta = v8_0_1_26734.ReadMeta(bin);
                                 bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
                                 metas.Add(bin.ReadCString(), meta);
                             }
+
+                            bin.BaseStream.Position = matchPos + patternLength;
                         }
                         else
                         {
-                            var meta = v8_0_1_26734.ReadMeta(bin);
-
-                            if (meta.fileDataID > 801575 && meta.record_size > 0)
-                            {
-                                bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                                metas.Add(bin.ReadCString(), meta);
-                            }
+                            bin.BaseStream.Position = bin.BaseStream.Position - patternLength;
                         }
+                    }
 
-                        bin.BaseStream.Position = matchPos + patternLength;
-                    }
-                    else
-                    {
-                        bin.BaseStream.Position = bin.BaseStream.Position - patternLength;
-                    }
+                    bin.BaseStream.Position = 0;
                 }
 
                 var outputDirectory = "definitions_" + build;
