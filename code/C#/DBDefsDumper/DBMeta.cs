@@ -7,6 +7,7 @@ namespace DBDefsDumper
     public struct DBMeta
     {
         public long nameOffset;
+        public long cacheNameOffset;
         public int fileDataID;
         public int num_fields_in_file;
         public int record_size;
@@ -33,12 +34,16 @@ namespace DBDefsDumper
         public int column_90;
         public long sortFunctionOffs;
         public long table_name;
+        public byte bool_C0;
+        public long string_ref_offs;
+        public long field_encrypted;
+        public long sql_query;
+        public long dbFilename;
         /* 
         //probs not in osx
         const char** field_names_in_file; 
         const char** field_names;     
         const char* fk_clause;        
-        char bool_C0;                 
         */
     }
 }

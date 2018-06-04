@@ -1,5 +1,4 @@
-﻿using DBDefsDumper.Versions;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.IO.MemoryMappedFiles;
@@ -212,49 +211,48 @@ namespace DBDefsDumper
                                 }
                             }
 
+                            if (pattern.offsets.ContainsKey(Name.DB_FILENAME))
+                            {
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_FILENAME];
+                                if (bin.ReadUInt32() < 10)
+                                {
+                                    continue;
+                                }
+
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_FILENAME];
+                                var targetOffset = (long)translate(bin.ReadUInt64());
+                                if (targetOffset > bin.BaseStream.Length)
+                                {
+                                    continue;
+                                }
+                            }
+
+                            if (pattern.offsets.ContainsKey(Name.NUM_FIELD_IN_FILE))
+                            {
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.NUM_FIELD_IN_FILE];
+                                if (bin.ReadUInt32() > 5000)
+                                {
+                                    continue;
+                                }
+
+                            }
+                            if (pattern.offsets.ContainsKey(Name.FIELD_TYPES_IN_FILE) && pattern.offsets.ContainsKey(Name.FIELD_SIZES_IN_FILE))
+                            {
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.FIELD_TYPES_IN_FILE];
+                                var fieldTypesInFile = bin.ReadInt64();
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.FIELD_SIZES_IN_FILE];
+                                var fieldSizesInFileOffs = bin.ReadInt64();
+                                if(fieldTypesInFile == fieldSizesInFileOffs)
+                                {
+                                    continue;
+                                }
+                            }
+
                             bin.BaseStream.Position = matchPos;
-
-                            var buildSplit = build.Split('.');
-
-                            if (build.StartsWith("7.2.5"))
-                            {
-                                var meta = v7_2_5_24742.ReadMeta(bin);
-
-                                if (meta.record_size > 0 && meta.nameOffset != 4294967297)
-                                {
-                                    bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                                    metas.Add(bin.ReadCString(), meta);
-                                }
-                            }
-                            else if (build.StartsWith("7.3.0"))
-                            {
-                                var meta = v7_3_0_25195.ReadMeta(bin);
-
-                                if (meta.record_size > 0 && meta.nameOffset != 4294967297)
-                                {
-                                    bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                                    metas.Add(bin.ReadCString(), meta);
-                                }
-                            }
-                            else if (build.StartsWith("7.3.2"))
-                            {
-                                var meta = v7_3_2_25549.ReadMeta(bin);
-                                bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                                metas.Add(bin.ReadCString(), meta);
-                            }
-                            else if (build.StartsWith("7.3.5"))
-                            {
-                                var meta = v7_3_5_25807.ReadMeta(bin);
-                                bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                                metas.Add(bin.ReadCString(), meta);
-                            }
-                            else
-                            {
-                                var meta = v8_0_1_26734.ReadMeta(bin);
-                                bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                                metas.Add(bin.ReadCString(), meta);
-                            }
-
+                            var meta = ReadMeta(bin, pattern);
+                            bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
+                            metas.Add(bin.ReadCString(), meta);
+                            
                             bin.BaseStream.Position = matchPos + patternLength;
                         }
                         else
@@ -461,6 +459,118 @@ namespace DBDefsDumper
             Environment.Exit(0);
         }
 
+        private static DBMeta ReadMeta(BinaryReader bin, Pattern pattern)
+        {
+            var matchPos = bin.BaseStream.Position;
+
+            var meta = new DBMeta();
+            foreach(var offset in pattern.offsets)
+            {
+                bin.BaseStream.Position = matchPos + offset.Value;
+                switch (offset.Key)
+                {
+                    case Name.DB_NAME:
+                        meta.nameOffset = bin.ReadInt64();
+                        break;
+                    case Name.NUM_FIELD_IN_FILE:
+                        meta.num_fields_in_file = bin.ReadInt32();
+                        break;
+                    case Name.RECORD_SIZE:
+                        meta.record_size = bin.ReadInt32();
+                        break;
+                    case Name.NUM_FIELD:
+                        meta.num_fields = bin.ReadInt32();
+                        break;
+                    case Name.ID_COLUMN:
+                        meta.id_column = bin.ReadInt32();
+                        break;
+                    case Name.SPARSE_TABLE:
+                        meta.sparseTable = bin.ReadByte();
+                        break;
+                    case Name.FIELD_OFFSETS:
+                        meta.field_offsets_offs = bin.ReadInt64();
+                        break;
+                    case Name.FIELD_SIZES:
+                        meta.field_sizes_offs = bin.ReadInt64();
+                        break;
+                    case Name.FIELD_TYPES:
+                        meta.field_types_offs = bin.ReadInt64();
+                        break;
+                    case Name.FIELD_FLAGS:
+                        meta.field_flags_offs = bin.ReadInt64();
+                        break;
+                    case Name.FIELD_SIZES_IN_FILE:
+                        meta.field_sizes_in_file_offs = bin.ReadInt64();
+                        break;
+                    case Name.FIELD_TYPES_IN_FILE:
+                        meta.field_types_in_file_offs = bin.ReadInt64();
+                        break;
+                    case Name.FIELD_FLAGS_IN_FILE:
+                        meta.field_flags_in_file_offs = bin.ReadInt64();
+                        break;
+                    case Name.FLAGS_58_21:
+                        meta.flags_58_2_1 = bin.ReadByte();
+                        break;
+                    case Name.TABLE_HASH:
+                        meta.table_hash = bin.ReadInt32();
+                        break;
+                    case Name.LAYOUT_HASH:
+                        meta.layout_hash = bin.ReadInt32();
+                        break;
+                    case Name.FLAGS_68_421:
+                        meta.flags_68_4_2_1 = bin.ReadByte();
+                        break;
+                    case Name.FIELD_NUM_IDX_INT:
+                        meta.nbUniqueIdxByInt = bin.ReadInt32();
+                        break;
+                    case Name.FIELD_NUM_IDX_STRING:
+                        meta.nbUniqueIdxByString = bin.ReadInt32();
+                        break;
+                    case Name.FIELD_IDX_INT:
+                        meta.uniqueIdxByInt = bin.ReadInt32();
+                        break;
+                    case Name.FIELD_IDX_STRING:
+                        meta.uniqueIdxByString = bin.ReadInt32();
+                        break;
+                    case Name.UNK88:
+                        meta.bool_88 = bin.ReadByte();
+                        break;
+                    case Name.FIELD_RELATION:
+                        meta.column_8C = bin.ReadInt32();
+                        break;
+                    case Name.FIELD_RELATION_IN_FILE:
+                        meta.column_90 = bin.ReadInt32();
+                        break;
+                    case Name.SORT_FUNC:
+                        meta.sortFunctionOffs = bin.ReadInt64();
+                        break;
+                    case Name.UNKC0:
+                        meta.bool_C0 = bin.ReadByte();
+                        break;
+                    case Name.FDID:
+                        meta.fileDataID = bin.ReadInt32();
+                        break;
+                    case Name.DB_CACHE_FILENAME:
+                        meta.cacheNameOffset = bin.ReadInt64();
+                        break;
+                    case Name.CONVERT_STRINGREFS:
+                        meta.string_ref_offs = bin.ReadInt64();
+                        break;
+                    case Name.DB_FILENAME:
+                        meta.dbFilename = bin.ReadInt64();
+                        break;
+                    case Name.FIELD_ENCRYPTED:
+                        meta.field_encrypted = bin.ReadInt64();
+                        break;
+                    case Name.SQL_QUERY:
+                        meta.sql_query = bin.ReadInt64();
+                        break;
+                    default:
+                        throw new Exception("Unknown name: " + offset.Key);
+                }
+            }
+            return meta;
+        }
 
         public enum FieldFlags : int
         {

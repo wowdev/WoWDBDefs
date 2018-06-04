@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace DBDefsDumper
 {
@@ -137,7 +135,7 @@ namespace DBDefsDumper
                .Pointer(Name.FIELD_NAMES_IN_FILE)
                .Pointer(Name.SQL_QUERY)
             );
-
+            /*
             patterns.Add(
                 new Pattern("internal-5.0.1-dbc") // note: subset of internal-6.0.1-dbc, so conflicts with that
                .Pointer(Name.DB_FILENAME)
@@ -165,6 +163,7 @@ namespace DBDefsDumper
                .Pointer(Name.FIELD_TYPES_IN_FILE)
                .Hash(Name.TABLE_HASH)
             );
+            */
         }
     }
 }
