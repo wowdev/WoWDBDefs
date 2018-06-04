@@ -159,6 +159,12 @@ namespace DBDefsDumper
 
                 foreach(var pattern in patternBuilder.patterns)
                 {
+                    // Skip versions of the pattern that aren't for this expansion
+                    if(build[0] != pattern.name[0])
+                    {
+                        continue;
+                    }
+
                     var patternBytes = ParsePattern(pattern.cur_pattern).ToArray();
                     var patternLength = patternBytes.Length;
 
@@ -251,7 +257,7 @@ namespace DBDefsDumper
                             bin.BaseStream.Position = matchPos;
                             var meta = ReadMeta(bin, pattern);
                             bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                            metas.Add(bin.ReadCString(), meta);
+                            metas.TryAdd(bin.ReadCString(), meta);
                             
                             bin.BaseStream.Position = matchPos + patternLength;
                         }
@@ -420,7 +426,7 @@ namespace DBDefsDumper
 
                         if(field_sizes_in_file[i] != 1)
                         {
-                            writer.Write("[" + field_sizes[i] + "]");
+                            writer.Write("[" + field_sizes_in_file[i] + "]");
                         }
 
                         writer.WriteLine();
@@ -604,6 +610,9 @@ namespace DBDefsDumper
                     {
                         case 0 | 0 | 0 | 0:
                             return ("int", 64);
+                        case 0 | FieldFlags.f_unsigned | 0 | 0:
+                        case 0 | FieldFlags.f_unsigned | 0 | FieldFlags.f_maybe_fk:
+                            return ("uint", 64);
                         default:
                             throw new Exception("Unknown flag combination!");
                     }

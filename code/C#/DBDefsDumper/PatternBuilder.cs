@@ -41,7 +41,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-            new Pattern("release-7.3.5")
+            new Pattern("7.3.5-release")
                 .Pointer(Name.DB_NAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
                 .RecordSize(Name.RECORD_SIZE)
@@ -72,7 +72,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("release-7.{2.5,3.{0,2}}") // note: also matches release-7.3.5 even though different struct
+                new Pattern("7.{2.5,3.{0,2}}-release") // note: also matches release-7.3.5 even though different struct
                 .Pointer(Name.DB_NAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
                 .RecordSize(Name.RECORD_SIZE)
@@ -102,7 +102,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("internal-6.0.1-db2") // note: conflicts with internal-6.0.1-dbc
+                new Pattern("6.0.1-db2-internal") // note: conflicts with internal-6.0.1-dbc
                .Pointer(Name.DB_FILENAME)
                .Pointer(Name.DB_CACHE_FILENAME)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
@@ -119,7 +119,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("internal-6.0.1-dbc") // note: conflicts with internal-6.0.1-db2
+                new Pattern("6.0.1-dbc-internal") // note: conflicts with internal-6.0.1-db2
                .Pointer(Name.DB_FILENAME)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
                .RecordSize(Name.RECORD_SIZE)
@@ -135,9 +135,9 @@ namespace DBDefsDumper
                .Pointer(Name.FIELD_NAMES_IN_FILE)
                .Pointer(Name.SQL_QUERY)
             );
-            /*
+            
             patterns.Add(
-                new Pattern("internal-5.0.1-dbc") // note: subset of internal-6.0.1-dbc, so conflicts with that
+                new Pattern("5.0.1-dbc-internal") // note: subset of internal-6.0.1-dbc, so conflicts with that
                .Pointer(Name.DB_FILENAME)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
                .RecordSize(Name.RECORD_SIZE)
@@ -150,7 +150,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("internal-5.0.1-db2") // note: subset of internal-6.0.1-db2, so conflicts with that and internal-5.0.1-dbc
+                new Pattern("5.0.1-db2-internal") // note: subset of internal-6.0.1-db2, so conflicts with that and internal-5.0.1-dbc
                .Pointer(Name.DB_FILENAME)
                .Pointer(Name.DB_CACHE_FILENAME)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
@@ -163,7 +163,6 @@ namespace DBDefsDumper
                .Pointer(Name.FIELD_TYPES_IN_FILE)
                .Hash(Name.TABLE_HASH)
             );
-            */
         }
     }
 }
