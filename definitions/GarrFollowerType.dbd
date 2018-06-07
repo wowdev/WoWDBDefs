@@ -7,6 +7,13 @@ uint levelRangeBias
 uint maxFollowerBuildingType
 uint maxFollowers
 uint maxItemLevel
+uint field_1982891526
+uint field_1988200429
+uint field_694755532
+uint field_1987237371
+uint field_698166559
+uint field_1746070754
+uint field_1184893877
 
 LAYOUT D676FBC0
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -29,3 +36,14 @@ maxFollowerBuildingType<8>
 levelRangeBias<8>
 itemLevelRangeBias<8>
 flags<8>
+
+LAYOUT B4B34EF0
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1982891526<8>
+field_1988200429<8>
+field_694755532<8>
+field_1987237371<16>
+field_698166559<8>
+field_1746070754<8>
+field_1184893877<8>

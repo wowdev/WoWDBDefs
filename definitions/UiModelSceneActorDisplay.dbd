@@ -5,6 +5,11 @@ float animSpeed
 uint animationID
 float scale
 uint sequenceVariation
+uint field_1242589761
+uint field_1339942285
+float field_1573226661
+float field_750376264
+float field_950248886
 
 LAYOUT 6137F4BE
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -23,3 +28,12 @@ scale
 animSpeed
 animationID<32>
 sequenceVariation<32>
+
+LAYOUT C285C45C
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1242589761<32>
+field_1339942285<32>
+field_1573226661
+field_750376264
+field_950248886

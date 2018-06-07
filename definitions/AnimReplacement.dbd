@@ -4,6 +4,11 @@ uint srcAnimID
 uint dstAnimID
 uint<AnimReplacementSet::ID> parentAnimReplacementSetID
 uint flags
+int field_661297368
+uint field_1542157280
+uint field_760630375
+uint field_1836539172
+uint field_1185055542
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -18,3 +23,11 @@ dstAnimID<16>
 flags<16>
 $id$ID<32>
 $noninline,relation$parentAnimReplacementSetID<16>
+
+LAYOUT 5D91ABFD
+BUILD 8.0.1.26788
+$id$field_661297368<32>
+field_1542157280<16>
+field_760630375<16>
+field_1836539172<16>
+$noninline,relation$field_1185055542<16>

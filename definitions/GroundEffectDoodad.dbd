@@ -6,6 +6,10 @@ float animscale
 float pushscale
 int modelFileID
 uint doodadIdTag
+int field_422010670
+uint field_1644471939
+float field_374824444
+float field_2040392733
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -31,3 +35,11 @@ BUILD 0.5.3.3368
 ID<32>
 doodadIdTag<32>
 doodadpath
+
+LAYOUT AB0C6E12
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_422010670<32>
+field_1644471939<8>
+field_374824444
+field_2040392733

@@ -13,6 +13,19 @@ uint<ZoneIntroMusicTable::ID> UWZoneIntroMusicID
 uint<ZoneMusic::ID> UWZoneMusicID
 uint<SoundAmbience::ID> UWSoundAmbienceID
 uint<SoundProviderPreferences::ID> UWSoundProviderPreferencesID
+uint field_934931999
+uint field_1134599830
+uint field_1247325501
+uint field_1769228136
+uint field_233322593
+uint field_1538045756
+uint field_952892871
+uint field_1532217789
+uint field_1182718599
+uint field_196232523
+uint field_1494611163
+uint field_366446015
+uint field_570191532
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -46,3 +59,20 @@ ZoneIntroMusicID<32>
 ZoneMusicID<32>
 UWZoneIntroMusicID<32>
 UWZoneMusicID<32>
+
+LAYOUT 7CA0A010
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_934931999<16>
+field_1134599830<8>
+field_1247325501<16>
+field_1769228136<16>
+field_233322593<8>
+field_1538045756<32>
+field_952892871<32>
+field_1532217789<16>
+field_1182718599<8>
+field_196232523<32>
+field_1494611163<32>
+field_366446015<16>
+field_570191532<8>

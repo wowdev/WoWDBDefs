@@ -4,6 +4,10 @@ string name
 uint flags
 int celestialSkyboxFileDataID
 int skyboxFileDataID
+string field_018017252
+uint field_547139360
+int field_1390923373
+int field_1586749238
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -25,3 +29,11 @@ name
 skyboxFileDataID<32>
 celestialSkyboxFileDataID<32>
 flags<8>
+
+LAYOUT 757E9EB6
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_018017252
+field_547139360<8>
+field_1390923373<32>
+field_1586749238<32>

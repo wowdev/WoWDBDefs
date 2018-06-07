@@ -4,6 +4,10 @@ locstring InfoName_lang
 uint Modifiers
 uint Profession
 uint Type
+locstring field_332882570_lang
+int field_1818840171
+uint field_1716441350
+uint field_1305926513
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -20,3 +24,11 @@ Modifiers<8>
 BUILD 0.5.3.3368, 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
 ID<32>
 InfoName_lang
+
+LAYOUT DDB38B83
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_332882570_lang
+field_1818840171<8>
+field_1716441350<8>
+field_1305926513<16>

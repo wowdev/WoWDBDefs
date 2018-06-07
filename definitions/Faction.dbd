@@ -15,6 +15,22 @@ uint flags
 uint<FriendshipReputation::ID> friendshipRepID
 uint paragonFactionID
 int reputationMax
+int field_895522900
+locstring field_1647461825_lang
+locstring field_620374422_lang
+int field_1175042525
+int field_235806484
+uint field_1385415272
+uint field_1965349992
+uint field_119585887
+uint field_500718698
+uint field_1219754509
+int field_1087146563
+uint field_070006374
+int field_1188464244
+int field_2107470885
+float field_2133384498
+uint field_1595086140
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -120,3 +136,22 @@ parentFactionCap<8>[2]
 expansion<8>
 friendshipRepID<8>
 flags<8>
+
+LAYOUT 86FE2D69
+BUILD 8.0.1.26788
+field_895522900<64>[4]
+field_1647461825_lang
+field_620374422_lang
+$id$field_1175042525<32>
+field_235806484<16>
+field_1385415272<16>
+field_1965349992<8>
+field_119585887<8>
+field_500718698<8>
+field_1219754509<16>
+field_1087146563<16>[4]
+field_070006374<16>[4]
+field_1188464244<32>[4]
+field_2107470885<32>[4]
+field_2133384498[2]
+field_1595086140<8>[2]

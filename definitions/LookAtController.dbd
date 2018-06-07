@@ -18,6 +18,24 @@ uint reactionIgnoreTimeMinMS
 uint reactionWarmUpTimeMSMax
 uint reactionWarmUpTimeMSMin
 float torsoSpeedFactor
+float field_1900231016
+uint field_615427890
+uint field_147919984
+uint field_1151334527
+float field_1178766159
+uint field_885351178
+uint field_1328840772
+uint field_299810205
+uint field_1884272182
+uint field_1565277033
+uint field_1619601402
+uint field_1752679361
+uint field_912470665
+uint field_670075321
+uint field_2010951243
+float field_1215792018
+float field_475378857
+uint field_1996576661
 
 LAYOUT 543C0D56, FD444016
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -40,3 +58,25 @@ reactionWarmUpTimeMSMax<32>
 reactionGiveupFOVDeg<32>
 maxTorsoPitchUp<32>
 maxTorsoPitchDown<32>
+
+LAYOUT 2E077E56
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1900231016
+field_615427890<32>
+field_147919984<32>
+field_1151334527<16>
+field_1178766159
+field_885351178<32>
+field_1328840772<16>
+field_299810205<16>
+field_1884272182<16>
+field_1565277033<8>
+field_1619601402<8>
+field_1752679361<32>
+field_912470665<32>
+field_670075321<8>
+field_2010951243<8>
+field_1215792018
+field_475378857
+field_1996576661<8>

@@ -6,6 +6,10 @@ uint factionIndex
 uint garrAbilityID
 uint garrFollowerID
 uint orderIndex
+uint field_1626587950
+uint field_1944467788
+uint field_1757969313
+uint field_572852529
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -26,3 +30,11 @@ garrAbilityID<16>
 orderIndex<8>
 factionIndex<8>
 $noninline,relation$garrFollowerID<16>
+
+LAYOUT 590C69F7
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1626587950<8>
+field_1944467788<8>
+field_1757969313<16>
+$noninline,relation$field_572852529<16>

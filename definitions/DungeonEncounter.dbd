@@ -10,6 +10,15 @@ uint<SpellIcon::ID> spellIconID
 uint flags
 int spellIconFileID
 uint difficulty
+locstring field_826341728_lang
+int field_575514033
+int field_1449121522
+int field_1016126961
+int field_1440350704
+int field_881257825
+int field_1678364738
+uint field_471689576
+int field_1547698716
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -42,3 +51,15 @@ orderIndex<32>
 Bit<32>
 name_lang
 spellIconID<32>
+
+LAYOUT 6E5C2332
+BUILD 8.0.1.26788
+field_826341728_lang
+$id$field_575514033<32>
+$relation$field_1449121522<16>
+field_1016126961<8>
+field_1440350704<32>
+field_881257825<8>
+field_1678364738<32>
+field_471689576<8>
+field_1547698716<32>

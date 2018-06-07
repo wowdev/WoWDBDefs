@@ -80,6 +80,87 @@ int currentPvpFaction
 uint modifierTreeID
 int movementFlags
 int weaponSubclassMask
+int field_1565570172
+locstring field_667930159_lang
+int field_1052601501
+uint field_1146397000
+uint field_737370094
+int field_1758939595
+uint field_1576814347
+uint field_1512400963
+uint field_1444856220
+int field_692815291
+uint field_812247081
+uint field_1651402191
+uint field_015124555
+int field_1258672773
+uint field_608827911
+uint field_1861702598
+uint field_1579005437
+uint field_450600156
+uint field_694026972
+uint field_1717040953
+uint field_278888823
+uint field_500346339
+uint field_229963683
+uint field_1904883519
+uint field_1887919121
+uint field_1658163695
+uint field_1737639570
+int field_669839149
+int field_930346889
+uint field_2010824647
+uint field_907395471
+uint field_396813681
+uint field_833285421
+uint field_095349031
+int field_1916439443
+int field_1479353950
+int field_191502843
+int field_008251968
+uint field_1309495283
+uint field_946371974
+uint field_917713198
+uint field_1181794413
+uint field_1362064827
+uint field_488524744
+int field_980671058
+int field_1446239111
+uint field_349880215
+int field_1833140562
+uint field_2133486234
+uint field_2041609118
+int field_1475201272
+uint field_1475441405
+uint field_1435760106
+int field_668429593
+int field_681994432
+uint field_477335732
+uint field_1997562022
+uint field_707313528
+uint field_818073425
+uint field_638801945
+uint field_1580895571
+uint field_319087097
+uint field_2141649620
+uint field_993627119
+uint field_1345015366
+int field_1975028946
+int field_230228669
+uint field_1479371070
+uint field_901828876
+uint field_689069507
+int field_1082311654
+uint field_982865368
+uint field_700700419
+uint field_1307250544
+uint field_211439654
+uint field_656689956
+uint field_697877058
+uint field_1301034485
+uint field_336324360
+uint field_2001275556
+int field_720395379
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -326,3 +407,87 @@ currencyID<32>[4]
 currencyCount<32>[4]
 questKillMonster<32>[6]
 movementFlags<32>[2]
+
+LAYOUT F28CBD18
+BUILD 8.0.1.26788
+field_1565570172<64>
+field_667930159_lang
+$id$field_1052601501<32>
+field_1146397000<16>
+field_737370094<16>
+field_1758939595<32>
+field_1576814347<32>
+field_1512400963<8>
+field_1444856220<8>
+field_692815291<32>
+field_812247081<16>
+field_1651402191<8>
+field_015124555<32>
+field_1258672773<8>
+field_608827911<8>
+field_1861702598<32>
+field_1579005437<32>
+field_450600156<32>
+field_694026972<32>
+field_1717040953<32>
+field_278888823<8>
+field_500346339<32>
+field_229963683<16>
+field_1904883519<8>
+field_1887919121<8>
+field_1658163695<8>
+field_1737639570<32>
+field_669839149<8>
+field_930346889<8>
+field_2010824647<32>
+field_907395471<32>
+field_396813681<32>
+field_833285421<16>
+field_095349031<32>
+field_1916439443<8>
+field_1479353950<8>
+field_191502843<32>
+field_008251968<32>
+field_1309495283<16>
+field_946371974<16>
+field_917713198<8>
+field_1181794413<16>
+field_1362064827<32>
+field_488524744<8>
+field_980671058<8>
+field_1446239111<8>
+field_349880215<32>
+field_1833140562<8>
+field_2133486234<8>
+field_2041609118<8>
+field_1475201272<32>
+field_1475441405<8>
+field_1435760106<8>
+field_668429593<8>
+field_681994432<8>
+field_477335732<8>
+field_1997562022<8>
+field_707313528<16>[4]
+field_818073425<16>[4]
+field_638801945<16>[4]
+field_1580895571<32>[3]
+field_319087097<8>[3]
+field_2141649620<16>[4]
+field_993627119<16>[4]
+field_1345015366<16>[4]
+field_1975028946<32>[4]
+field_230228669<32>[4]
+field_1479371070<32>[4]
+field_901828876<16>[2]
+field_689069507<32>[2]
+field_1082311654<32>[4]
+field_982865368<8>[4]
+field_700700419<16>[4]
+field_1307250544<16>[4]
+field_211439654<8>[4]
+field_656689956<8>[4]
+field_697877058<32>[4]
+field_1301034485<32>[4]
+field_336324360<32>[4]
+field_2001275556<32>[6]
+field_720395379<32>[2]

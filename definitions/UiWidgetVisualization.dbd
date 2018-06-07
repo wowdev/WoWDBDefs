@@ -4,6 +4,10 @@ int TextureKit
 int VisType
 int FrameTextureKit
 int field_872425833?
+int field_330347834
+int field_1465304731
+int field_221818766
+int field_1945435240
 
 LAYOUT B10C7348
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
@@ -25,3 +29,11 @@ TextureKit<32>
 FrameTextureKit<32>
 field_872425833<16>
 VisType<8>
+
+LAYOUT 1DB32AF9
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_330347834<8>
+field_1465304731<32>
+field_221818766<32>
+field_1945435240<16>

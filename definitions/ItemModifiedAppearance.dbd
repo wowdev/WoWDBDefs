@@ -10,6 +10,12 @@ uint itemAppearanceModifierID
 int itemID
 uint orderIndex
 int transmogSourceTypeEnum
+int field_1148146543
+int field_1490088359
+uint field_1812011543
+uint field_1017853323
+uint field_723344248
+int field_1216641053
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -27,3 +33,12 @@ itemAppearanceModifierID<8>
 itemAppearanceID<16>
 orderIndex<8>
 transmogSourceTypeEnum<8>
+
+LAYOUT 9C32B7FF
+BUILD 8.0.1.26788
+$id$field_1148146543<32>
+$relation$field_1490088359<32>
+field_1812011543<8>
+field_1017853323<16>
+field_723344248<8>
+field_1216641053<8>

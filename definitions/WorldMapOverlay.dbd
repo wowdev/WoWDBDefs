@@ -16,6 +16,19 @@ uint flags
 uint mapPointX
 uint mapPointY
 uint uiMapArtID
+int field_195886003
+uint field_1155188988
+uint field_1432438797
+uint field_270087620
+int field_000088410
+int field_406751072
+int field_818346742
+int field_1503012690
+int field_337698583
+int field_1916898597
+uint field_1346480844
+uint field_457826695
+uint field_1086798632
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -97,3 +110,19 @@ hitRectRight<32>
 playerConditionID<32>
 flags<32>
 areaID<32>[4]
+
+LAYOUT 837A3DAA
+BUILD 8.0.1.26788
+$id$field_195886003<32>
+$relation$field_1155188988<32>
+field_1432438797<16>
+field_270087620<16>
+field_000088410<32>
+field_406751072<32>
+field_818346742<32>
+field_1503012690<32>
+field_337698583<32>
+field_1916898597<32>
+field_1346480844<32>
+field_457826695<32>
+field_1086798632<32>[4]

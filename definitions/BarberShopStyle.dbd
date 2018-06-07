@@ -7,6 +7,14 @@ float Cost_Modifier
 uint<ChrRaces::ID> race
 uint sex
 uint data
+locstring field_1609442436_lang
+locstring field_1896401074_lang
+int field_1419760304
+uint field_350294485
+float field_670549112
+uint field_1083973881
+uint field_082855187
+uint field_197526234
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -28,3 +36,14 @@ race<8>
 sex<8>
 data<8>
 $id$ID<32>
+
+LAYOUT 2DD3952C
+BUILD 8.0.1.26788
+field_1609442436_lang
+field_1896401074_lang
+$id$field_1419760304<32>
+field_350294485<8>
+field_670549112
+field_1083973881<8>
+field_082855187<8>
+field_197526234<8>

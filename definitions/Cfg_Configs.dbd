@@ -6,6 +6,10 @@ uint roleplaying
 uint playerAttackSpeedBase
 float maxDamageReductionPctPhysical
 uint generatedID
+uint field_534728341
+uint field_1333598593
+uint field_564215555
+float field_2138807585
 
 BUILD 6.0.1.18179
 $id$generatedID<32>
@@ -30,3 +34,11 @@ ID<32>
 realmType<32>
 playerKillingAllowed<32>
 roleplaying<32>
+
+LAYOUT A275539B
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_534728341<8>
+field_1333598593<8>
+field_564215555<16>
+field_2138807585

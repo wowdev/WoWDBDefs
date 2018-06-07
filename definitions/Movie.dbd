@@ -5,6 +5,10 @@ uint keyID
 uint audioFileDataID
 uint subtitleFileDataID
 string filename
+uint field_435595641
+uint field_312146733
+uint field_653283186
+uint field_796248661
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -25,3 +29,11 @@ BUILD 4.0.0.11792
 $id$ID<32>
 filename
 volume<32>
+
+LAYOUT 4848C4FB
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_435595641<8>
+field_312146733<8>
+field_653283186<32>
+field_796248661<32>

@@ -23,6 +23,28 @@ uint repairGroundFx
 uint doNotHighlight
 uint healEffect
 uint healEffectSpeed
+int field_1223739298
+uint field_1811979594
+uint field_2053102413
+int field_262660641
+int field_386574869
+uint field_1715850669
+uint field_983993555
+int field_1048495907
+int field_1639174436
+uint field_371401706
+uint field_1340227118
+uint field_810782199
+uint field_1720993178
+uint field_1655050907
+uint field_440143965
+uint field_1208939916
+uint field_624790910
+uint field_2106217340
+int field_853971437
+int field_609201335
+int field_2069839283
+int field_1104970106
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -123,3 +145,29 @@ state0NameSet<8>
 state1NameSet<8>
 state2NameSet<8>
 state3NameSet<8>
+
+LAYOUT F245BA93
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1223739298<8>
+field_1811979594<8>
+field_2053102413<16>
+field_262660641<8>
+field_386574869<8>
+field_1715850669<8>
+field_983993555<16>
+field_1048495907<8>
+field_1639174436<8>
+field_371401706<8>
+field_1340227118<16>
+field_810782199<8>
+field_1720993178<8>
+field_1655050907<8>
+field_440143965<8>
+field_1208939916<16>
+field_624790910<8>
+field_2106217340<16>
+field_853971437<8>
+field_609201335<8>
+field_2069839283<8>
+field_1104970106<8>

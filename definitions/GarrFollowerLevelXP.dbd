@@ -6,6 +6,10 @@ uint followerLevel
 uint garrFollowerTypeID
 uint shipmentXP
 uint xpToNextLevel
+uint field_1170797734
+uint field_1079863026
+uint field_062304698
+uint field_1071839829
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -27,3 +31,11 @@ xpToNextLevel<16>
 shipmentXP<16>
 garrFollowerTypeID<8>
 followerLevel<8>
+
+LAYOUT ABD178B2
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1170797734<8>
+field_1079863026<8>
+field_062304698<16>
+field_1071839829<16>

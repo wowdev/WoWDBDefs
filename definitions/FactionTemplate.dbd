@@ -7,6 +7,13 @@ uint friendGroup
 uint enemyGroup
 uint<Faction::ID> enemies
 uint<Faction::ID> friend
+uint field_1166144334
+uint field_1377966896
+uint field_1373027659
+uint field_243608435
+uint field_1292453288
+uint field_1703802503
+uint field_028273218
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -47,3 +54,14 @@ friendGroup<32>
 enemyGroup<32>
 enemies<32>[4]
 friend<32>[4]
+
+LAYOUT D7143473
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1166144334<16>
+field_1377966896<16>
+field_1373027659<8>
+field_243608435<8>
+field_1292453288<8>
+field_1703802503<16>[4]
+field_028273218<16>[4]

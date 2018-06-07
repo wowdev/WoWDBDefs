@@ -14,6 +14,18 @@ uint uiTextureKitID
 uint worldMapAreaID
 float worldPosition
 int mapID
+locstring field_577355122_lang
+locstring field_1998009574_lang
+float field_1206982538
+int field_955969702
+uint field_1889070525
+uint field_1929691018
+uint field_1463003997
+int field_1995529077
+uint field_1649571511
+uint field_1840972894
+int field_704209026
+uint field_798484284
 
 LAYOUT 0C288A82, A454AF76
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
@@ -63,3 +75,19 @@ uiTextureAtlasMemberID<32>
 uiTextureKitID<32>
 mapID<32>
 areaTableID<32>
+
+LAYOUT 4AABC870
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_577355122_lang
+field_1998009574_lang
+field_1206982538[2]
+field_955969702<8>
+field_1889070525<32>
+field_1929691018<32>
+field_1463003997<32>
+field_1995529077<32>
+field_1649571511<32>
+field_1840972894<32>
+field_704209026<32>
+field_798484284<32>

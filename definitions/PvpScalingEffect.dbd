@@ -3,6 +3,9 @@ int ID
 int pvpScalingEffectTypeID
 int specializationID
 float value
+int field_1792686825
+int field_030007081
+float field_1941774141
 
 LAYOUT 52121A41
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -17,3 +20,10 @@ $noninline,id$ID<32>
 value
 specializationID<32>
 $relation$pvpScalingEffectTypeID<32>
+
+LAYOUT AF88F6DB
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1792686825<32>
+$relation$field_030007081<32>
+field_1941774141

@@ -5,6 +5,11 @@ uint currencyType
 uint itemLevelIncrement
 uint itemUpgradePathID
 uint prerequisiteID
+uint field_064596194
+uint field_1242183656
+uint field_1706811387
+uint field_612654036
+uint field_340669965
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -22,3 +27,12 @@ prerequisiteID<16>
 currencyType<16>
 itemUpgradePathID<8>
 itemLevelIncrement<8>
+
+LAYOUT 706FA369
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_064596194<8>
+field_1242183656<8>
+field_1706811387<16>
+field_612654036<16>
+field_340669965<32>

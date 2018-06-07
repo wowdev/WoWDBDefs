@@ -5,6 +5,12 @@ uint<Item::ID> itemID
 int difficultyMask
 int factionMask
 uint flags
+uint field_1365829412
+uint field_2114761793
+uint field_125397354
+int field_1863380598
+uint field_1028136341
+int field_600915378
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -31,3 +37,12 @@ factionMask<8>
 flags<8>
 difficultyMask<8>
 $id$ID<32>
+
+LAYOUT 5FD94071
+BUILD 8.0.1.26788
+$id$field_1365829412<32>
+$relation$field_2114761793<16>
+field_125397354<32>
+field_1863380598<8>
+field_1028136341<8>
+field_600915378<8>

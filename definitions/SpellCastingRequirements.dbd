@@ -7,6 +7,13 @@ uint requiredAreasID
 uint requiredAuraVision
 uint requiresSpellFocus
 int spellID
+int field_474016118
+uint field_1361676462
+uint field_510956016
+int field_852226114
+uint field_886758133
+uint field_964914469
+uint field_424275316
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -27,3 +34,14 @@ requiresSpellFocus<16>
 facingCasterFlags<8>
 minReputation<8>
 requiredAuraVision<8>
+
+LAYOUT C6D7C649
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_474016118<32>
+field_1361676462<8>
+field_510956016<16>
+field_852226114<8>
+field_886758133<16>
+field_964914469<8>
+field_424275316<16>

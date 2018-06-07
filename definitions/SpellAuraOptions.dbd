@@ -8,6 +8,14 @@ int procCharges
 int procTypeMask
 int procCategoryRecovery
 uint spellProcsPerMinuteID
+uint field_1423551137
+uint field_183874161
+int field_853392595
+uint field_073037297
+int field_193661342
+uint field_1301427073
+int field_774939558
+int field_739006312
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -43,3 +51,15 @@ spellProcsPerMinuteID<16>
 difficultyID<8>
 procChance<8>
 $noninline,relation$spellID<32>
+
+LAYOUT CBDA0981
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1423551137<8>
+field_183874161<16>
+field_853392595<32>
+field_073037297<8>
+field_193661342<32>
+field_1301427073<16>
+field_774939558<32>[2]
+$noninline,relation$field_739006312<32>

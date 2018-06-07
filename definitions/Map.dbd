@@ -38,6 +38,26 @@ locstring PvpLongDescription_lang
 float corpseX
 float corpseY
 int zmpFileDataID
+string field_462302676
+locstring field_605669682_lang
+locstring field_594027220_lang
+locstring field_1427567046_lang
+locstring field_951309985_lang
+locstring field_1922754560_lang
+uint field_2090129712
+int field_1778819221
+uint field_399808840
+uint field_546616973
+int field_539990556
+int field_1045699054
+int field_1018945417
+int field_211416088
+uint field_1681684665
+float field_1881958792
+int field_1538714857
+uint field_1857385420
+int field_163350789
+int field_775554925
 
 LAYOUT F568DF12
 BUILD 7.3.5.26654, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -334,3 +354,29 @@ InstanceType<8>
 expansionID<8>
 timeOffset<8>
 maxPlayers<8>
+
+LAYOUT 503A3E58
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_462302676
+field_605669682_lang
+field_594027220_lang
+field_1427567046_lang
+field_951309985_lang
+field_1922754560_lang
+corpse[2]
+field_2090129712<8>
+field_1778819221<8>
+field_399808840<8>
+field_546616973<16>
+field_539990556<16>
+field_1045699054<16>
+field_1018945417<16>
+field_211416088<16>
+field_1681684665<8>
+field_1881958792
+field_1538714857<16>
+field_1857385420<8>
+field_163350789<16>
+field_775554925<32>
+Flags<32>[2]

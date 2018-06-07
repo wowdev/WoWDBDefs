@@ -40,6 +40,47 @@ uint volumeFadeOutCurveID
 int volumeFadeOutTimeMax
 int volumeFadeOutTimeMin
 uint volumeSliderCategory
+int field_1730747559
+uint field_488409397
+float field_1315661566
+float field_1513453820
+uint field_1962682983
+uint field_142762535
+uint field_1404316282
+uint field_783898927
+int field_079016501
+int field_262597441
+uint field_385930608
+uint field_1093155364
+uint field_980425639
+uint field_1233473904
+uint field_1373244072
+float field_2115901610
+float field_1471439705
+float field_1980808049
+float field_1115226039
+float field_240955861
+float field_2082595134
+float field_532984479
+uint field_134567807
+uint field_881451686
+float field_117788940
+float field_313918790
+float field_811878767
+uint field_311744382
+uint field_2055105884
+int field_771890597
+uint field_1594356421
+uint field_1317985873
+uint field_1222936424
+uint field_037156544
+int field_1068502026
+int field_1047247286
+uint field_110765741
+int field_1660652047
+int field_006146053
+uint field_1710717520
+float field_408586761
 
 LAYOUT 5F920928
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -171,3 +212,47 @@ volumeFadeInCurveID<32>
 volumeFadeOutTimeMin<32>
 volumeFadeOutTimeMax<32>
 volumeFadeOutCurveID<32>
+
+LAYOUT F5CB60B2
+BUILD 8.0.1.26788
+$id$field_1730747559<32>
+field_488409397<32>
+field_1315661566
+field_1513453820
+field_1962682983<32>
+field_142762535<32>
+field_1404316282<32>
+field_783898927<32>
+field_079016501<32>
+field_262597441<8>
+field_385930608<32>
+field_1093155364<32>
+field_980425639<32>
+field_1233473904<32>
+field_1373244072<8>
+field_2115901610
+field_1471439705
+field_1980808049
+field_1115226039
+field_240955861
+field_2082595134
+field_532984479
+field_134567807<32>
+field_881451686<32>
+field_117788940
+field_313918790
+field_811878767
+field_311744382<8>
+field_2055105884<16>
+field_771890597<32>
+field_1594356421<32>
+field_1317985873<32>
+field_1222936424<8>
+field_037156544<8>
+field_1068502026<32>
+field_1047247286<32>
+field_110765741<32>
+field_1660652047<32>
+field_006146053<32>
+field_1710717520<32>
+field_408586761

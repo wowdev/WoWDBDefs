@@ -17,6 +17,24 @@ float rim
 float scale
 int topTextureBlendSetID
 float field_1336462998?
+int field_1020297537
+int field_1561486570
+int field_878942314
+int field_359001662
+float field_493842805
+float field_182578098
+float field_414716253
+float field_1480019271
+float field_254554733
+int field_364127495
+float field_566723034
+float field_680493297
+float field_491793517
+uint field_1755210345
+uint field_734354115
+int field_1121461069
+int field_361080785
+float field_475686098
 
 LAYOUT DD48C72A
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -78,3 +96,24 @@ botTextureBlendSetID<32>
 flags<32>
 gameFlags<32>
 casterDecalPropertiesID<32>
+
+LAYOUT B11F3B40
+BUILD 8.0.1.26788
+$id$field_1020297537<32>
+field_1561486570<32>
+field_878942314<32>
+field_359001662<32>
+field_493842805
+field_182578098
+field_414716253
+field_1480019271
+field_254554733
+field_364127495<32>
+field_566723034
+field_680493297
+field_491793517
+field_1755210345<8>
+field_734354115<8>
+field_1121461069<32>
+field_361080785<32>
+field_475686098

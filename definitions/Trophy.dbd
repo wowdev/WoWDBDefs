@@ -7,6 +7,10 @@ uint gameObjectDisplayInfoID
 locstring name_lang
 uint playerConditionID
 uint trophyTypeID
+locstring field_1952588282_lang
+uint field_1028203779
+uint field_1966722313
+uint field_448966557
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -21,3 +25,11 @@ name_lang
 gameObjectDisplayInfoID<16>
 trophyTypeID<8>
 playerConditionID<32>
+
+LAYOUT 0AE68C93
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1952588282_lang
+field_1028203779<8>
+field_1966722313<16>
+field_448966557<32>

@@ -13,6 +13,20 @@ uint requiredAbility
 int requiredLevel
 uint requiredSkill
 uint requiredSkillRank
+int field_306979410
+locstring field_658019281_lang
+int field_721187128
+uint field_1199386365
+uint field_1737723924
+uint field_476135733
+uint field_878382358
+int field_1529554139
+int field_1618478213
+uint field_1444356333
+uint field_852270949
+uint field_365024814
+uint field_048211349
+int field_136884131
 
 LAYOUT 2D4B72FA, 251C9AAA
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -30,3 +44,20 @@ allowableClass<32>
 requiredSkill<16>
 requiredSkillRank<16>
 requiredAbility<32>
+
+LAYOUT F0940AFC
+BUILD 8.0.1.26788
+field_306979410<64>
+field_658019281_lang
+$id$field_721187128<32>
+field_1199386365<8>
+field_1737723924<8>
+field_476135733<16>
+field_878382358<8>
+field_1529554139<32>
+field_1618478213<8>
+field_1444356333<16>
+field_852270949<16>
+field_365024814<32>
+field_048211349<16>
+field_136884131<32>[3]

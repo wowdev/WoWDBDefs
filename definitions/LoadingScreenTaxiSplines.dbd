@@ -5,6 +5,11 @@ float Locx
 float Locy
 uint LegIndex
 uint LoadingScreenID
+uint field_1175385270
+uint field_2139820712
+uint field_149605623
+float field_724950649
+float field_1284040551
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -29,3 +34,12 @@ PathID<32>
 Locx[8]
 Locy[8]
 LegIndex<32>
+
+LAYOUT CDF5DDF1
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1175385270<16>
+field_2139820712<8>
+field_149605623<16>
+field_724950649[10]
+field_1284040551[10]

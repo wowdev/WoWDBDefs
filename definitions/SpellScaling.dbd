@@ -13,6 +13,11 @@ int spellID
 float coefficient
 float variance
 float comboPointsCoefficient
+int field_1207036563
+int field_104295856
+uint field_1477245846
+uint field_417759355
+int field_1819891417
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -43,3 +48,12 @@ class<32>
 coefficient[3]
 variance[3]
 comboPointsCoefficient[3]
+
+LAYOUT 4B0C2E65
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1207036563<32>
+field_104295856<32>
+field_1477245846<32>
+field_417759355<32>
+field_1819891417<16>

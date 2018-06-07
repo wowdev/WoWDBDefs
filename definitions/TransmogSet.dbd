@@ -9,6 +9,16 @@ uint parentTransmogSetID
 uint trackingQuestID
 uint transmogSetGroupID
 int uiOrder
+locstring field_302628028_lang
+uint field_1647601110
+int field_583337663
+uint field_827894296
+int field_2073948481
+uint field_716579579
+int field_805443280
+uint field_1232101048
+uint field_1526199837
+int field_1718793395
 
 LAYOUT BEDFD7D1
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -35,3 +45,16 @@ trackingQuestID<32>
 flags<32>
 transmogSetGroupID<32>
 itemNameDescriptionID<32>
+
+LAYOUT 3F0E4AEF
+BUILD 8.0.1.26788
+field_302628028_lang
+$id$field_1647601110<32>
+field_583337663<32>
+field_827894296<32>
+field_2073948481<32>
+field_716579579<32>
+field_805443280<32>
+$relation$field_1232101048<16>
+field_1526199837<8>
+field_1718793395<16>

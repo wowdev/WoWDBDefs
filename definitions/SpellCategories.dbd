@@ -9,6 +9,15 @@ int mechanic
 int preventionType
 int startRecoveryCategory
 int chargeCategory
+uint field_1430486747
+int field_1688224685
+int field_748051051
+int field_386234062
+int field_033462925
+int field_761993809
+int field_648932062
+int field_1371153062
+int field_1750060412
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -34,3 +43,16 @@ dispelType<8>
 mechanic<8>
 preventionType<8>
 $noninline,relation$spellID<32>
+
+LAYOUT EF1D2548
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1430486747<8>
+field_1688224685<16>
+field_748051051<8>
+field_386234062<8>
+field_033462925<8>
+field_761993809<8>
+field_648932062<16>
+field_1371153062<16>
+$noninline,relation$field_1750060412<32>

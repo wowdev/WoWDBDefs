@@ -13,6 +13,19 @@ uint groupSizeSpellPointsCurveID
 locstring name_lang
 uint itemContext
 uint orderIndex
+locstring field_752401917_lang
+uint field_2064999243
+uint field_258458661
+int field_000659242
+uint field_759637513
+uint field_009065987
+uint field_692126542
+uint field_2121189277
+uint field_1478061563
+uint field_571319785
+uint field_2089936590
+uint field_1729580554
+uint field_1214798562
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -61,3 +74,20 @@ maxPlayers<8>
 flags<8>
 itemContext<8>
 toggleDifficultyID<8>
+
+LAYOUT 29FC158C
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_752401917_lang
+field_2064999243<8>
+field_258458661<8>
+field_000659242<8>
+field_759637513<8>
+field_009065987<8>
+field_692126542<8>
+field_2121189277<8>
+field_1478061563<8>
+field_571319785<8>
+field_2089936590<16>
+field_1729580554<16>
+field_1214798562<16>

@@ -14,6 +14,13 @@ float param
 uint requiredUpgradeLevel
 uint specType
 locstring tooltip_lang
+locstring field_826319917_lang
+locstring field_1435926644_lang
+uint field_074009014
+uint field_1284689677
+uint field_165867548
+int field_1976365475
+float field_1100396966
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -46,3 +53,14 @@ iconFileDataID<32>
 buildingType<8>
 specType<8>
 requiredUpgradeLevel<8>
+
+LAYOUT 8400A7E7
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_826319917_lang
+field_1435926644_lang
+field_074009014<8>
+field_1284689677<8>
+field_165867548<8>
+field_1976365475<32>
+field_1100396966[2]

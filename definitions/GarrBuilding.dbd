@@ -33,6 +33,30 @@ int maxAssignments
 uint shipmentCapacity
 locstring tooltip_lang
 uint upgradeLevel
+locstring field_572161295_lang
+locstring field_1448371431_lang
+locstring field_1889258682_lang
+locstring field_685113586_lang
+uint field_1310544907
+uint field_341907242
+int field_1438757388
+int field_1325315549
+uint field_1183755621
+uint field_1964896134
+int field_1245564775
+uint field_485593566
+int field_721296401
+uint field_1040312240
+uint field_1341572263
+int field_776934099
+uint field_448267928
+uint field_1667660264
+int field_668097137
+uint field_1368604227
+uint field_977699018
+uint field_1622230132
+uint field_1915108543
+uint field_1231754462
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -111,3 +135,31 @@ flags<8>
 buildSeconds<32>
 currencyQty<32>
 maxAssignments<32>
+
+LAYOUT 158D48D4
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_572161295_lang
+field_1448371431_lang
+field_1889258682_lang
+field_685113586_lang
+field_1310544907<8>
+field_341907242<8>
+field_1438757388<32>
+field_1325315549<32>
+field_1183755621<8>
+field_1964896134<8>
+field_1245564775<32>
+field_485593566<16>
+field_721296401<32>
+field_1040312240<16>
+field_1341572263<16>
+field_776934099<32>
+field_448267928<16>
+field_1667660264<16>
+field_668097137<32>
+field_1368604227<8>
+field_977699018<16>
+field_1622230132<16>
+field_1915108543<16>
+field_1231754462<8>

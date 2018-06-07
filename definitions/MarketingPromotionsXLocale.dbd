@@ -14,6 +14,13 @@ int declineButtonTexture
 int localeID
 int logoTexture
 uint promotionID
+string field_273217067
+uint field_1901428484
+int field_079671451
+int field_429239940
+int field_940616220
+int field_054764851
+int field_226865493
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -35,3 +42,14 @@ acceptButtonTexture<32>
 declineButtonTexture<32>
 promotionID<8>
 localeID<8>
+
+LAYOUT C04E61FB
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_273217067
+field_1901428484<8>
+field_079671451<8>
+field_429239940<32>
+field_940616220<32>
+field_054764851<32>
+field_226865493<32>

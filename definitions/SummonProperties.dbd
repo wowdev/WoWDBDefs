@@ -5,6 +5,11 @@ int faction
 int title
 int slot
 int flags
+int field_672644900
+int field_1888692117
+int field_186622714
+int field_1183562917
+int field_715820007
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -30,3 +35,12 @@ faction<32>
 title<32>
 slot<32>
 flags<32>
+
+LAYOUT 4134937A
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_672644900<32>
+field_1888692117<32>
+field_186622714<32>
+field_1183562917<32>
+field_715820007<32>

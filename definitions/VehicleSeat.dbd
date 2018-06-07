@@ -68,6 +68,67 @@ uint uiSkin
 float cameraOffsetX
 float cameraOffsetY
 float cameraOffsetZ
+float field_232420222
+float field_1905230915
+int field_1142999849
+int field_1040616595
+int field_620744028
+int field_1489215088
+float field_841128422
+float field_2115316732
+float field_1430738238
+float field_1684235794
+float field_608236826
+float field_183226221
+float field_1957638249
+int field_1135150112
+int field_1566104791
+int field_2133159454
+int field_1062248482
+int field_1487261183
+int field_1435406699
+float field_1455491024
+float field_980573106
+float field_732617471
+float field_1451462900
+float field_793359381
+float field_1727600800
+float field_542594836
+int field_389277706
+int field_726815836
+int field_452558064
+int field_1241178517
+int field_1634837275
+int field_553980080
+int field_682693539
+int field_1178240579
+int field_1350288764
+int field_465834834
+float field_1984461910
+float field_902213479
+float field_1524798402
+float field_1893308211
+float field_1714593342
+int field_1937947694
+uint field_1650861936
+uint field_739674084
+int field_2078451945
+float field_1449547970
+float field_1092748112
+float field_727182110
+float field_1875085423
+float field_1443057119
+float field_1166440167
+float field_1817887626
+float field_1437119901
+float field_1673448155
+int field_018692224
+int field_1059398297
+int field_2013363561
+int field_1909236014
+int field_872611341
+int field_1637744738
+int field_512049281
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -407,3 +468,68 @@ passengerAttachmentID<8>
 vehicleAbilityDisplay<8>
 enterUISoundID<32>
 exitUISoundID<32>
+
+LAYOUT 7AB200FA
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_232420222[3]
+field_1905230915[3]
+field_1142999849<32>
+field_1040616595<32>
+field_620744028<32>
+field_1489215088<8>
+field_841128422
+field_2115316732
+field_1430738238
+field_1684235794
+field_608236826
+field_183226221
+field_1957638249
+field_1135150112<32>
+field_1566104791<32>
+field_2133159454<32>
+field_1062248482<32>
+field_1487261183<32>
+field_1435406699<32>
+field_1455491024
+field_980573106
+field_732617471
+field_1451462900
+field_793359381
+field_1727600800
+field_542594836
+field_389277706<32>
+field_726815836<32>
+field_452558064<32>
+field_1241178517<16>
+field_1634837275<8>
+field_553980080<16>
+field_682693539<8>
+field_1178240579<16>
+field_1350288764<8>
+field_465834834<8>
+field_1984461910
+field_902213479
+field_1524798402
+field_1893308211
+field_1714593342
+field_1937947694<8>
+field_1650861936<32>
+field_739674084<32>
+field_2078451945<32>
+field_1449547970
+field_1092748112
+field_727182110
+field_1875085423
+field_1443057119
+field_1166440167
+field_1817887626
+field_1437119901
+field_1673448155
+field_018692224<16>
+field_1059398297<16>
+field_2013363561<16>
+field_1909236014<16>
+field_872611341<16>
+field_1637744738<16>
+field_512049281<16>

@@ -36,6 +36,20 @@ uint field_3219317051?
 uint field_3898499771?
 uint field_3956182989?
 uint field_4083046615?
+locstring field_868693262_lang
+locstring field_839413235_lang
+uint field_2000783974
+int field_1969336944
+uint field_289051494
+uint field_784238792
+uint field_1634474595
+uint field_2109707411
+uint field_183312903
+uint field_056565584
+uint field_1273757772
+uint field_1690066663
+uint field_1092935318
+uint field_840612972
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -101,3 +115,21 @@ field_1336462998<8>
 field_2699733778<8>
 field_1367035623<8>
 field_3956182989<32>
+
+LAYOUT EC40E4B1
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_868693262_lang
+field_839413235_lang
+field_2000783974<8>
+field_1969336944<8>
+field_289051494<8>
+field_784238792<8>
+field_1634474595<8>
+field_2109707411<32>
+field_183312903<16>
+field_056565584<16>
+field_1273757772<8>
+field_1690066663<16>
+field_1092935318<8>
+field_840612972<8>

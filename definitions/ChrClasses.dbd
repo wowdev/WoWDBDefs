@@ -22,6 +22,26 @@ int startingLevel
 uint required_expansion
 uint PlayerClass
 uint DamageBonusStat
+locstring field_1047520452_lang
+string field_2049909705
+locstring field_1341518022_lang
+locstring field_1547319854_lang
+string field_019400643
+int field_220478626
+uint field_1099310268
+uint field_1938468907
+uint field_1592939248
+uint field_1817047954
+int field_1583373322
+uint field_131595065
+uint field_548559134
+uint field_2114447326
+uint field_861103693
+uint field_344655330
+uint field_338635896
+uint field_2128265474
+uint field_857510804
+uint field_1136272582
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -135,3 +155,26 @@ attackPowerPerStrength<8>
 spellClassSet<8>
 $id$ID<32>
 startingLevel<32>
+
+LAYOUT 2CD115AC
+BUILD 8.0.1.26788
+field_1047520452_lang
+field_2049909705
+field_1341518022_lang
+field_1547319854_lang
+field_019400643
+$id$field_220478626<32>
+field_1099310268<32>
+field_1938468907<32>
+field_1592939248<32>
+field_1817047954<32>
+field_1583373322<32>
+field_131595065<16>
+field_548559134<16>
+field_2114447326<16>
+field_861103693<8>
+field_344655330<8>
+field_338635896<8>
+field_2128265474<8>
+field_857510804<8>
+field_1136272582<8>

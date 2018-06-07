@@ -7,6 +7,13 @@ uint impactMilliSeconds
 uint rangeTypeEnum
 uint sceneScriptPackageID
 uint spellVisualID
+string field_1141188014
+uint field_1858643123
+uint field_287876195
+uint field_177784747
+int field_586609089
+uint field_1538187661
+uint field_773726621
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -28,3 +35,14 @@ impactMilliSeconds<16>
 sceneScriptPackageID<16>
 rangeTypeEnum<8>
 flags<8>
+
+LAYOUT 284AF258
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1141188014
+field_1858643123<32>
+field_287876195<16>
+field_177784747<16>
+field_586609089<8>
+field_1538187661<8>
+field_773726621<16>

@@ -27,6 +27,22 @@ uint soundEntriesID
 uint spellMissileMotionID
 uint spellVisualEffectNameID
 uint spellVisualMissileSetID
+float field_1926115580
+float field_1393706711
+int field_1393377323
+uint field_1261082390
+uint field_302766596
+int field_061063942
+int field_664400994
+uint field_2141963785
+uint field_1918062219
+int field_1662786163
+uint field_1802834854
+uint field_126457987
+uint field_2086841089
+uint field_1474148678
+uint field_959254079
+uint field_1986408782
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -61,3 +77,22 @@ $id$ID<32>
 soundEntriesID<32>
 animKitID<32>
 $noninline,relation$spellVisualMissileSetID<16>
+
+LAYOUT 0A0345EB
+BUILD 8.0.1.26788
+field_1926115580[3]
+field_1393706711[3]
+$id$field_1393377323<32>
+field_1261082390<16>
+field_302766596<32>
+field_061063942<8>
+field_664400994<8>
+field_2141963785<16>
+field_1918062219<16>
+field_1662786163<32>
+field_1802834854<32>
+field_126457987<16>
+field_2086841089<32>
+field_1474148678<16>
+field_959254079<32>
+$noninline,relation$field_1986408782<16>

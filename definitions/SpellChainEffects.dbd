@@ -66,6 +66,66 @@ float variancePerFlipFrame
 uint widthScaleCurveID
 uint padding_596171098?
 string Combo
+float field_1429814486
+float field_355380994
+float field_1724567424
+uint field_1885592332
+uint field_1417247768
+uint field_1370383204
+uint field_1386773895
+float field_964104065
+uint field_1391964646
+uint field_2096391900
+float field_332351235
+float field_395954789
+float field_383483196
+float field_940843343
+float field_944456235
+float field_462956890
+float field_702963472
+float field_1056014810
+float field_283702093
+float field_1519479648
+float field_595893636
+float field_2036749092
+float field_1776556833
+float field_2018222593
+float field_693405696
+float field_1824039508
+float field_264987167
+float field_504865507
+float field_232350105
+float field_1463498508
+float field_669522090
+float field_305619239
+float field_482483897
+float field_842135654
+float field_866322203
+float field_2133272653
+uint field_1743545545
+uint field_842379670
+uint field_553550751
+uint field_089512745
+uint field_1807293970
+uint field_729695617
+float field_913413778
+float field_1430882550
+float field_1837119290
+uint field_929594246
+float field_1022434129
+float field_1426528982
+uint field_1676015403
+uint field_1987117970
+uint field_1361315873
+uint field_791969325
+float field_2142614903
+float field_267952464
+uint field_1591242191
+float field_952660940
+float field_138419707
+float field_1265940377
+float field_604298535
+int field_1152803806
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -291,3 +351,67 @@ TexCoordScale
 SegDuration<32>
 SegDelay<32>
 Texture
+
+LAYOUT 461F9829
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1429814486
+field_355380994
+field_1724567424
+field_1885592332<32>
+field_1417247768<16>
+field_1370383204<32>
+field_1386773895<16>
+field_964104065
+field_1391964646<8>
+field_2096391900<8>
+field_332351235
+field_395954789
+field_383483196
+field_940843343
+field_944456235
+field_462956890
+field_702963472
+field_1056014810
+field_283702093
+field_1519479648
+field_595893636
+field_2036749092
+field_1776556833
+field_2018222593
+field_693405696
+field_1824039508
+field_264987167
+field_504865507
+field_232350105
+field_1463498508
+field_669522090
+field_305619239
+field_482483897
+field_842135654
+field_866322203
+field_2133272653
+field_1743545545<8>
+field_842379670<8>
+field_553550751<8>
+field_089512745<8>
+field_1807293970<8>
+field_729695617<8>
+field_913413778
+field_1430882550
+field_1837119290
+field_929594246<32>
+field_1022434129
+field_1426528982
+field_1676015403<16>
+field_1987117970<8>
+field_1361315873<8>
+field_791969325<32>
+field_2142614903
+field_267952464
+field_1591242191<16>[11]
+field_952660940[3]
+field_138419707[3]
+field_1265940377[3]
+field_604298535[3]
+field_1152803806<32>[3]

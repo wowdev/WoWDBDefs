@@ -12,6 +12,17 @@ int lockedPositionOffsetBase
 int lockedPositionOffsetDirection
 int lockedTargetOffsetBase
 int lockedTargetOffsetDirection
+float field_994328258
+float field_610688711
+int field_768705555
+int field_1981847246
+float field_1043708714
+float field_705868191
+float field_1725209506
+int field_1155920565
+int field_215395267
+int field_342282552
+int field_1821383501
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -42,3 +53,18 @@ lockedPositionOffsetBase<8>
 lockedPositionOffsetDirection<8>
 lockedTargetOffsetBase<8>
 lockedTargetOffsetDirection<8>
+
+LAYOUT EE5489F4
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_994328258[3]
+field_610688711[3]
+field_768705555<8>
+field_1981847246<32>
+field_1043708714
+field_705868191
+field_1725209506
+field_1155920565<8>
+field_215395267<8>
+field_342282552<8>
+field_1821383501<8>

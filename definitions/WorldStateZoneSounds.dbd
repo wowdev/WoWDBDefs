@@ -8,6 +8,14 @@ uint<ZoneIntroMusicTable::ID> ZoneIntroMusicID
 uint<ZoneMusic::ID> ZoneMusicID
 uint<SoundAmbience::ID> SoundAmbienceID
 uint<SoundProviderPreferences::ID> SoundProviderPreferencesID
+uint field_1180723176
+uint field_1201934862
+uint field_1045090683
+uint field_695389238
+uint field_228769820
+uint field_1924501607
+uint field_334221334
+uint field_1529324427
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -31,3 +39,15 @@ ZoneIntroMusicID<16>
 ZoneMusicID<16>
 SoundAmbienceID<16>
 SoundProviderPreferencesID<8>
+
+LAYOUT 44CFA417
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1180723176<16>
+field_1201934862<16>
+field_1045090683<16>
+field_695389238<32>
+field_228769820<16>
+field_1924501607<16>
+field_334221334<16>
+field_1529324427<8>

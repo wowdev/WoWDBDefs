@@ -15,6 +15,19 @@ int uiTextureKitID
 float X
 float Y
 float Z
+locstring field_1296807726_lang
+float field_828851697
+float field_754523819
+float field_861202115
+int field_1723524305
+uint field_341814942
+uint field_622514936
+uint field_195874888
+uint field_213619813
+int field_991276813
+float field_1074583245
+uint field_1361650732
+int field_360454064
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -74,3 +87,19 @@ characterBitNumber<16>
 Flags<8>
 uiTextureKitID<32>
 specialIconConditionID<32>
+
+LAYOUT 0E9F99C5
+BUILD 8.0.1.26788
+field_1296807726_lang
+field_828851697[3]
+field_754523819[2]
+field_861202115[2]
+$id$field_1723524305<32>
+$relation$field_341814942<16>
+field_622514936<16>
+field_195874888<16>
+field_213619813<8>
+field_991276813<32>
+field_1074583245
+field_1361650732<32>
+field_360454064<32>[2]

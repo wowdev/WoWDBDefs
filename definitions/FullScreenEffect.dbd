@@ -28,6 +28,34 @@ float maskSizeMultiplier
 float saturation
 uint textureBlendSetID
 int field_714392848?
+uint field_915543385
+float field_1772050694
+float field_056977920
+float field_415021573
+float field_1592057233
+float field_751450935
+float field_925802344
+float field_1574123808
+float field_795678462
+float field_1838737303
+float field_1460900862
+float field_2023135213
+float field_561890476
+float field_449567173
+float field_2093196748
+float field_827498198
+float field_292173749
+float field_599417976
+float field_675598103
+float field_689361700
+int field_351914598
+float field_765339235
+float field_125616848
+float field_253757263
+float field_1281304019
+uint field_955905821
+uint field_1944949446
+uint field_1395404910
 
 LAYOUT 5CBF1D1B
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -122,3 +150,35 @@ flags<32>
 effectFadeInMs<32>
 effectFadeOutMs<32>
 textureBlendSetID<32>
+
+LAYOUT 9854A6AC
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_915543385<32>
+field_1772050694
+field_056977920
+field_415021573
+field_1592057233
+field_751450935
+field_925802344
+field_1574123808
+field_795678462
+field_1838737303
+field_1460900862
+field_2023135213
+field_561890476
+field_449567173
+field_2093196748
+field_827498198
+field_292173749
+field_599417976
+field_675598103
+field_689361700
+field_351914598<32>
+field_765339235
+field_125616848
+field_253757263
+field_1281304019
+field_955905821<32>
+field_1944949446<32>
+field_1395404910<32>

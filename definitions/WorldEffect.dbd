@@ -6,6 +6,12 @@ uint<QuestFeedbackEffect::ID> questFeedbackEffectID
 uint playerConditionID
 uint combatConditionID
 uint whenToDisplay
+uint field_1957386976
+uint field_1448228634
+uint field_108203727
+int field_1838965926
+uint field_1196106039
+uint field_834332462
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -35,3 +41,13 @@ whenToDisplay<8>
 targetType<8>
 questFeedbackEffectID<32>
 playerConditionID<32>
+
+LAYOUT BCB8719B
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1957386976<32>
+field_1448228634<8>
+field_108203727<8>
+field_1838965926<32>
+field_1196106039<32>
+field_834332462<16>

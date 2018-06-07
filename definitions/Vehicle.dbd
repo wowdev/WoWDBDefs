@@ -33,6 +33,24 @@ int missileTargetingID
 int powerType
 string powerToken
 int uiSeatIndicatorType
+int field_383234528
+uint field_585946884
+float field_1822927753
+float field_996126218
+float field_346185233
+float field_1522004628
+float field_864314332
+float field_1127093225
+float field_073178645
+float field_1490790815
+float field_302736676
+float field_1881594668
+float field_2016621027
+uint field_669093103
+uint field_1745553263
+int field_1312931054
+uint field_1569343633
+uint field_1587153431
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -181,3 +199,25 @@ vehicleUIIndicatorID<16>
 flagsB<8>
 uiLocomotionType<8>
 missileTargetingID<32>
+
+LAYOUT 221A0252
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_383234528<32>
+field_585946884<8>
+field_1822927753
+field_996126218
+field_346185233
+field_1522004628
+field_864314332
+field_1127093225
+field_073178645
+field_1490790815
+field_302736676
+field_1881594668
+field_2016621027
+field_669093103<8>
+field_1745553263<16>
+field_1312931054<32>
+field_1569343633<16>[8]
+field_1587153431<16>[3]

@@ -7,6 +7,12 @@ locstring name_lang
 int maxCharges
 int chargeRecoveryTime
 int typeMask
+locstring field_2116368525_lang
+int field_1622996365
+uint field_655517420
+int field_733064564
+int field_1222186229
+int field_706238026
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -30,3 +36,13 @@ typeMask<32>
 BUILD 4.0.0.11792
 $id$ID<32>
 flags<32>
+
+LAYOUT 53EB1CD3
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_2116368525_lang
+field_1622996365<8>
+field_655517420<8>
+field_733064564<8>
+field_1222186229<32>
+field_706238026<32>

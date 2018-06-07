@@ -18,6 +18,14 @@ uint sheatheType
 int sound_override_subclassID
 uint subclassID
 uint displayInfoID
+uint field_362441897
+uint field_1992017063
+uint field_2046887642
+int field_1055164010
+uint field_105420859
+int field_2106147525
+int field_295986837
+uint field_048575329
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -64,3 +72,15 @@ inventoryType<8>
 sheatheType<8>
 sound_override_subclassID<8>
 itemGroupSoundsID<8>
+
+LAYOUT F9600007
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_362441897<8>
+field_1992017063<8>
+field_2046887642<8>
+field_1055164010<8>
+field_105420859<8>
+field_2106147525<8>
+field_295986837<32>
+field_048575329<8>

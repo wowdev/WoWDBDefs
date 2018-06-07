@@ -5,6 +5,11 @@ int garrTypeID
 int maxTiers
 int uiOrder
 uint uiTextureKitID
+int field_1173758191
+int field_1821622053
+int field_1661234714
+int field_1606048995
+uint field_869944980
 
 LAYOUT 676CBC04
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -23,3 +28,12 @@ maxTiers<8>
 uiOrder<8>
 garrTypeID<32>
 classID<32>
+
+LAYOUT BEDA4FAE
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1173758191<32>
+field_1821622053<32>
+field_1661234714<8>
+field_1606048995<8>
+field_869944980<16>

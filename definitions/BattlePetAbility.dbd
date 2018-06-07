@@ -7,6 +7,13 @@ uint flags
 int iconFileDataID
 locstring name_lang
 int petTypeEnum
+locstring field_1368837469_lang
+locstring field_1846491714_lang
+int field_686236111
+int field_792960335
+uint field_570702282
+uint field_1430909566
+uint field_1868776817
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -28,3 +35,14 @@ battlePetVisualID<16>
 petTypeEnum<8>
 flags<8>
 cooldown<32>
+
+LAYOUT 4C3AF583
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1368837469_lang
+field_1846491714_lang
+field_686236111<32>
+field_792960335<8>
+field_570702282<32>
+field_1430909566<16>
+field_1868776817<8>

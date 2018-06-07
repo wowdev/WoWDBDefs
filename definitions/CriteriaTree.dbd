@@ -8,6 +8,13 @@ int flags
 locstring description_lang
 int orderIndex
 uint padding_2173460021?
+locstring field_382005116_lang
+uint field_706277248
+uint field_1923724993
+int field_125683716
+uint field_1490704081
+int field_1304622202
+int field_149880781
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -41,3 +48,14 @@ operator<8>
 parent<32>
 criteriaID<32>
 orderIndex<32>
+
+LAYOUT C926CF94
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_382005116_lang
+field_706277248<32>
+field_1923724993<32>
+field_125683716<8>
+field_1490704081<32>
+field_1304622202<32>
+field_149880781<16>

@@ -10,6 +10,15 @@ uint maxShipments
 int onCompleteSpellID
 int spellID
 uint treasureID
+uint field_495186492
+int field_459045830
+uint field_1638303248
+int field_293820988
+int field_1479492575
+uint field_1221990235
+uint field_388215346
+uint field_671849274
+uint field_826973137
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -46,3 +55,16 @@ $relation$containerID<16>
 garrFollowerID<16>
 maxShipments<8>
 flags<8>
+
+LAYOUT D47EC921
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+$relation$field_495186492<16>
+field_459045830<32>
+field_1638303248<32>
+field_293820988<32>
+field_1479492575<32>
+field_1221990235<32>
+field_388215346<8>
+field_671849274<16>
+field_826973137<8>

@@ -27,6 +27,31 @@ int textureVariationFileDataID
 int unarmedWeaponType
 int creatureModelMinLod
 int dissolveOutEffectID
+int field_024662953
+uint field_1303601909
+uint field_253757755
+int field_2027172744
+float field_457132346
+uint field_1890348117
+uint field_426985784
+int field_640522219
+uint field_2004303504
+uint field_1962129486
+int field_1613280929
+int field_283559639
+uint field_638469461
+uint field_1658528080
+uint field_2138755318
+int field_054698988
+float field_1264927468
+float field_1169703568
+int field_1008131283
+int field_686442511
+int field_1395739467
+int field_1611007667
+int field_729474564
+int field_262596767
+int field_1659396403
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -197,3 +222,31 @@ stateSpellVisualKitID<32>
 petInstanceScale
 mountPoofSpellVisualKitID<32>
 textureVariationFileDataID<32>[3]
+
+LAYOUT 613413D1
+BUILD 8.0.1.26788
+$id$field_024662953<32>
+field_1303601909<16>
+field_253757755<16>
+field_2027172744<8>
+field_457132346
+field_1890348117<8>
+field_426985784<8>
+field_640522219<32>
+field_2004303504<16>
+field_1962129486<16>
+field_1613280929<32>
+field_283559639<32>
+field_638469461<16>
+field_1658528080<16>
+field_2138755318<8>
+field_054698988<32>
+field_1264927468
+field_1169703568
+field_1008131283<8>
+field_686442511<32>
+field_1395739467<32>
+field_1611007667<8>
+field_729474564<32>
+field_262596767<8>
+field_1659396403<32>[3]

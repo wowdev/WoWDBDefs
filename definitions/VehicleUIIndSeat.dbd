@@ -4,6 +4,10 @@ uint vehicleUIIndicatorID
 uint virtualSeatIndex
 float xPos
 float yPos
+uint field_1673908132
+float field_1074870567
+float field_1749155267
+uint field_1608994065
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -19,3 +23,11 @@ xPos
 yPos
 virtualSeatIndex<8>
 $noninline,relation$vehicleUIIndicatorID<16>
+
+LAYOUT 590E3162
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1673908132<8>
+field_1074870567
+field_1749155267
+$noninline,relation$field_1608994065<16>

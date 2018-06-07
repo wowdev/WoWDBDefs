@@ -6,6 +6,12 @@ int iconFileDataID
 locstring name_lang
 uint orderIndex
 uint playerConditionID
+locstring field_485766431_lang
+uint field_1699342719
+uint field_821639762
+int field_788564589
+int field_1813071266
+uint field_699889607
 
 LAYOUT 06936172, 21A31B12
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -16,3 +22,13 @@ orderIndex<8>
 garrClassSpecID<32>
 playerConditionID<32>
 flavorGarrStringID<32>
+
+LAYOUT 561DEBFE
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_485766431_lang
+field_1699342719<32>
+field_821639762<32>
+field_788564589<32>
+field_1813071266<32>
+field_699889607<8>

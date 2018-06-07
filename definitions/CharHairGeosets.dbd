@@ -10,6 +10,16 @@ uint Showscalp
 int ColorIndex
 int customGeoFileDataID
 int hdCustomGeoFileDataID
+uint field_1664765271
+uint field_2060099883
+int field_589231158
+uint field_910716571
+uint field_1683058354
+int field_1913051212
+int field_1250346100
+int field_1817394456
+int field_020837284
+int field_1471105420
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -65,3 +75,17 @@ VariationType<8>
 GeosetType<8>
 ColorIndex<8>
 customGeoFileDataID<32>
+
+LAYOUT E3732EA9
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+$relation$field_1664765271<8>
+field_2060099883<8>
+field_589231158<8>
+field_910716571<8>
+field_1683058354<8>
+field_1913051212<8>
+field_1250346100<8>
+field_1817394456<8>
+field_020837284<32>
+field_1471105420<32>

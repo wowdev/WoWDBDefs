@@ -15,6 +15,21 @@ uint<CreatureDisplayInfo::ID> iconCreatureDisplayInfoID
 int<Spell::ID> spellID
 int<FileData::ID> iconFileDataID
 int uiModelSceneID
+locstring field_1334429711_lang
+locstring field_724609940_lang
+uint field_438633626
+uint field_111863020
+uint field_156772335
+uint field_935495309
+uint field_1003959829
+uint field_1381800336
+uint field_1014250478
+int field_560509133
+int field_946108101
+int field_155774915
+uint field_413734191
+uint field_981501346
+int field_044777453
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -89,3 +104,22 @@ iconFlags<16>
 orderIndex<8>
 type<8>
 difficultyMask<8>
+
+LAYOUT 582FB4F6
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1334429711_lang
+field_724609940_lang
+field_438633626<16>
+field_111863020<8>
+field_156772335<16>
+field_935495309<16>
+field_1003959829<16>
+field_1381800336<8>
+field_1014250478<32>
+field_560509133<32>
+field_946108101<32>
+field_155774915<32>
+field_413734191<16>
+field_981501346<16>
+field_044777453<8>

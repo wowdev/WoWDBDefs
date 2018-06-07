@@ -11,6 +11,11 @@ uint field_1838711077?
 int field_1874725257?
 uint field_1905686843?
 uint field_3219317051?
+int field_1550685997
+uint field_457148404
+uint field_126595252
+uint field_314629782
+int field_1493592119
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -32,3 +37,11 @@ $id$field_1053376238<32>
 field_3219317051<32>
 field_1905686843<32>
 $noninline,relation$field_1874725257<32>
+
+LAYOUT 539B5B1B
+BUILD 8.0.1.26788
+$id$field_1550685997<32>
+field_457148404<32>
+field_126595252<32>
+field_314629782<8>
+$noninline,relation$field_1493592119<32>

@@ -7,6 +7,10 @@ uint BehaviorID
 uint BehaviorTier
 uint Weaponflags
 uint Bodyflags
+uint field_859110550
+uint field_685861437
+int field_1859588205
+int field_1893981822
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -49,3 +53,11 @@ Flags<32>[2]
 Fallback<16>
 BehaviorID<16>
 BehaviorTier<8>
+
+LAYOUT FB408E92
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_859110550<16>
+field_685861437<8>
+field_1859588205<32>
+field_1893981822<32>[2]

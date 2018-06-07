@@ -14,6 +14,15 @@ uint spellRank
 uint prereqTalent
 uint prereqRank
 uint requiredSpellID
+locstring field_749057414_lang
+uint field_1017518825
+uint field_1503170430
+uint field_035543493
+uint field_818289684
+uint field_821176271
+uint field_589227419
+uint field_1655887955
+uint field_2127549662
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -64,3 +73,16 @@ flags<8>
 columnIndex<8>
 categoryMask<8>[2]
 classID<8>
+
+LAYOUT 2661E6C2
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_749057414_lang
+field_1017518825<8>
+field_1503170430<8>
+field_035543493<8>
+field_818289684<8>
+field_821176271<16>
+field_589227419<32>
+field_1655887955<32>
+field_2127549662<8>[2]

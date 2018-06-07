@@ -6,6 +6,13 @@ uint ID?
 uint<UiTextureKit::ID> uiTextureKitID?
 uint field_1313613340?
 uint<PlayerCondition::ID> PlayerConditionID?
+locstring field_677634627_lang
+string field_107624537
+locstring field_1779451671_lang
+uint field_427101495
+uint field_447353168
+uint field_275492374
+uint field_588032090
 
 LAYOUT 0B271FD9
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -16,3 +23,13 @@ $id$ID<32>
 uiTextureKitID<32>
 field_1313613340<32>
 PlayerConditionID<32>
+
+LAYOUT 2D49AABD
+BUILD 8.0.1.26788
+field_677634627_lang
+field_107624537
+field_1779451671_lang
+$id$field_427101495<32>
+field_447353168<32>
+field_275492374<32>
+field_588032090<32>

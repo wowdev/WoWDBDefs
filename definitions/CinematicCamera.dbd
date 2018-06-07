@@ -8,6 +8,10 @@ uint fileDataID
 float originX
 float originY
 float originZ
+float field_171582168
+uint field_1602721804
+float field_1492923214
+uint field_573002171
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -39,3 +43,11 @@ model
 soundID<32>
 origin[3]
 originFacing
+
+LAYOUT 20C5E540
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_171582168[3]
+field_1602721804<32>
+field_1492923214
+field_573002171<32>

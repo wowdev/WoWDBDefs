@@ -8,6 +8,14 @@ uint posEntryID
 uint rotEntryID
 uint scaleEntryID
 uint transformMatrixID
+uint field_599740339
+uint field_1928033254
+uint field_703104924
+uint field_565237658
+uint field_628122341
+uint field_430104691
+float field_343423585
+uint field_856528626
 
 LAYOUT 6C975DF4, CB40214C
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -20,3 +28,15 @@ posEntryID<32>
 rotEntryID<32>
 scaleEntryID<32>
 flags<32>
+
+LAYOUT 9E87B63A
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_599740339<32>
+field_1928033254<32>
+field_703104924<32>
+field_565237658<32>
+field_628122341<32>
+field_430104691<32>
+field_343423585
+field_856528626<8>

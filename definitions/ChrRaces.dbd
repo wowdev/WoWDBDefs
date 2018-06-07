@@ -59,6 +59,52 @@ int maleModelFallbackSex
 int maleTextureFallbackRaceID
 int maleTextureFallbackSex
 int<ChrRaces::ID> baseRaceID?
+string field_851639882
+string field_206349411
+locstring field_1254810316_lang
+locstring field_128869000_lang
+locstring field_1644711508_lang
+locstring field_912710652_lang
+int field_146922933
+int field_204207153
+uint field_2043237393
+uint field_428734551
+uint field_1789761202
+uint field_770142721
+int field_1701936695
+int field_912881534
+float field_1065936700
+float field_1821486220
+int field_575728236
+uint field_895265975
+uint field_343077416
+int field_1651351088
+int field_930369290
+int field_211284844
+int field_058081669
+int field_1192610238
+int field_1857996318
+int field_722059536
+int field_1276854887
+int field_409687640
+int field_1218741384
+int field_638977012
+int field_929581923
+int field_1484360117
+int field_795731418
+int field_826657793
+int field_153411265
+int field_1022810442
+int field_1888158552
+int field_1562321611
+int field_463443172
+int field_613848573
+int field_126292659
+int field_1700043723
+int field_2002477696
+int field_1111642822
+int field_627345148
+int field_1925725407
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -424,3 +470,52 @@ femaleSkeletonFileDataID<32>
 maleSkeletonFileDataID<32>
 alteredFormStartVisualKitID<32>[3]
 alteredFormFinishVisualKitID<32>[3]
+
+LAYOUT C8BCDC89
+BUILD 8.0.1.26788
+field_851639882
+field_206349411
+field_1254810316_lang
+field_128869000_lang
+field_1644711508_lang
+field_912710652_lang
+$id$field_146922933<32>
+field_204207153<32>
+field_2043237393<32>
+field_428734551<32>
+field_1789761202<32>
+field_770142721<32>
+field_1701936695<32>
+field_912881534<32>
+field_1065936700[3]
+field_1821486220[3]
+field_575728236<32>
+field_895265975<32>[3]
+field_343077416<32>[3]
+field_1651351088<32>
+field_930369290<32>
+field_211284844<32>
+field_058081669<32>
+field_1192610238<32>
+field_1857996318<32>
+field_722059536<16>
+field_1276854887<16>
+field_409687640<16>
+field_1218741384<16>
+field_638977012<8>
+field_929581923<8>
+field_1484360117<8>
+field_795731418<8>
+field_826657793<8>
+field_153411265<8>
+field_1022810442<8>
+field_1888158552<8>
+field_1562321611<8>
+field_463443172<8>
+field_613848573<8>
+field_126292659<8>
+field_1700043723<8>
+field_2002477696<8>
+field_1111642822<8>
+field_627345148<8>
+field_1925725407<8>

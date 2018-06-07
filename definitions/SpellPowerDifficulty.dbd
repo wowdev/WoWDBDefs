@@ -4,6 +4,9 @@ uint field_363220661?
 int ID
 uint difficultyID
 uint orderIndex
+int field_1794880173
+uint field_1950069408
+uint field_925790510
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -15,3 +18,9 @@ BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.262
 difficultyID<8>
 orderIndex<8>
 $id$ID<32>
+
+LAYOUT 08FEDBFF
+BUILD 8.0.1.26788
+$id$field_1794880173<32>
+field_1950069408<8>
+field_925790510<8>

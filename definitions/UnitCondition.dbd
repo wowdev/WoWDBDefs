@@ -4,6 +4,10 @@ uint flags
 uint variable
 int op
 int value
+uint field_513612521
+uint field_1698738906
+int field_892021696
+int field_1914646440
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -19,3 +23,11 @@ value<32>[8]
 flags<8>
 variable<8>[8]
 op<8>[8]
+
+LAYOUT 215CBCD2
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_513612521<8>
+field_1698738906<8>[8]
+field_892021696<8>[8]
+field_1914646440<32>[8]

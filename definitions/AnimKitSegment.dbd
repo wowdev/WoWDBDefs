@@ -18,6 +18,24 @@ int overrideConfigFlags
 int loopToSegmentIndex
 uint blendInTimeMs
 uint blendOutTimeMs
+uint field_2144276064
+uint field_060550536
+uint field_252635932
+uint field_1081216149
+uint field_338313080
+uint field_781712953
+uint field_1921179996
+uint field_1606939255
+uint field_1634197300
+uint field_326313090
+uint field_1803433647
+float field_780207500
+uint field_1486999925
+uint field_995055468
+int field_220678060
+int field_243808656
+uint field_224508535
+uint field_393131759
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -77,3 +95,25 @@ segmentFlags<32>
 forcedVariation<32>
 overrideConfigFlags<32>
 loopToSegmentIndex<32>
+
+LAYOUT EBF796F5
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+$relation$field_2144276064<16>
+field_060550536<8>
+field_252635932<16>
+field_1081216149<32>
+field_338313080<16>
+field_781712953<8>
+field_1921179996<8>
+field_1606939255<32>
+field_1634197300<8>
+field_326313090<32>
+field_1803433647<32>
+field_780207500
+field_1486999925<16>
+field_995055468<8>
+field_220678060<32>
+field_243808656<8>
+field_224508535<16>
+field_393131759<16>

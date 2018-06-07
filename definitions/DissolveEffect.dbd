@@ -14,6 +14,20 @@ float ramp
 float scale
 float startValue
 int textureBlendSetID
+float field_106617614
+float field_000335938
+float field_1479513003
+float field_1587736930
+float field_1323764148
+float field_830156724
+int field_875227134
+int field_487144144
+int field_1868687137
+float field_711161945
+int field_356540045
+int field_572956483
+uint field_1026005708
+float field_1480532366
 
 LAYOUT 566413E7, C561A747
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -32,3 +46,21 @@ textureBlendSetID<32>
 flags<32>
 curveID<32>
 priority<32>
+
+LAYOUT 77C510EC
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_106617614
+field_000335938
+field_1479513003
+field_1587736930
+field_1323764148
+field_830156724
+field_875227134<8>
+field_487144144<8>
+field_1868687137<32>
+field_711161945
+field_356540045<32>
+field_572956483<32>
+field_1026005708<32>
+field_1480532366

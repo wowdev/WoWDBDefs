@@ -22,6 +22,26 @@ uint iconFileDataID
 uint transmogCost
 uint transmogPlayerConditionID
 uint effectPointsMax
+locstring field_1918625157_lang
+locstring field_1956129720_lang
+uint field_2023740563
+float field_1967688595
+uint field_1942267757
+uint field_563800122
+uint field_1194832329
+int field_1713939469
+uint field_161492134
+uint field_1487722776
+uint field_663437665
+uint field_2044682534
+uint field_1234247771
+uint field_2016412625
+uint field_770694976
+int field_1573269627
+int field_1201305411
+uint field_1978842619
+uint field_1962346921
+uint field_1579900102
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -167,3 +187,27 @@ maxLevel<8>
 scalingClass<8>
 scalingClassRestricted<8>
 transmogPlayerConditionID<32>
+
+LAYOUT 96D1828E
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1918625157_lang
+field_1956129720_lang
+field_2023740563<32>[3]
+field_1967688595[3]
+field_1942267757<32>
+field_563800122<32>
+field_1194832329<32>
+field_1713939469<16>[3]
+field_161492134<16>
+field_1487722776<16>
+field_663437665<16>
+field_2044682534<16>
+field_1234247771<16>
+field_2016412625<8>
+field_770694976<8>[3]
+field_1573269627<8>
+field_1201305411<8>
+field_1978842619<8>
+field_1962346921<8>
+field_1579900102<8>

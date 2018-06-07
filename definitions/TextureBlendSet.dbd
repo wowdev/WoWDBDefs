@@ -10,6 +10,16 @@ float textureScaleU
 float textureScaleV
 float textureScrollRateU
 float textureScrollRateV
+int field_1753784894
+uint field_1271781224
+uint field_1425793565
+uint field_535447213
+uint field_1905269829
+float field_1740698849
+float field_1323406996
+float field_213717278
+float field_398053731
+float field_388445650
 
 LAYOUT A2323E0C, 3879BF6C
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -24,3 +34,17 @@ swizzleRed<8>
 swizzleGreen<8>
 swizzleBlue<8>
 swizzleAlpha<8>
+
+LAYOUT F2AFFE4C
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1753784894<32>[3]
+field_1271781224<8>
+field_1425793565<8>
+field_535447213<8>
+field_1905269829<8>
+field_1740698849[3]
+field_1323406996[3]
+field_213717278[3]
+field_398053731[3]
+field_388445650[4]

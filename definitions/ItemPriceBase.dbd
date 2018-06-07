@@ -3,6 +3,9 @@ int ID
 uint itemLevel
 float armor
 float weapon
+uint field_1788393633
+float field_662639957
+float field_146719809
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -16,3 +19,10 @@ $noninline,id$ID<32>
 armor
 weapon
 itemLevel<16>
+
+LAYOUT C90092C7
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1788393633<16>
+field_662639957
+field_146719809

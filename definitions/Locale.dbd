@@ -9,6 +9,10 @@ uint clientDisplayExpansion
 int fontFileDataID
 uint secondary
 uint wowLocale
+uint field_128559438
+int field_1416666068
+uint field_629249587
+uint field_516871715
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -33,3 +37,11 @@ fontFileDataID<32>
 wowLocale<8>
 clientDisplayExpansion<8>
 secondary<8>
+
+LAYOUT 65638FD5
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_128559438<8>
+field_1416666068<32>
+field_629249587<8>
+field_516871715<8>

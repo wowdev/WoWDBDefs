@@ -10,6 +10,13 @@ int portraitFileDataID
 float uiAnimHeight
 float uiAnimScale
 uint uiTextureKitID
+locstring field_1752892463_lang
+int field_1584314833
+int field_757897890
+int field_243908339
+uint field_150113653
+float field_580874107
+float field_441105208
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -37,3 +44,13 @@ uiAnimScale
 uiAnimHeight
 $id$ID<32>
 uiTextureKitID<32>
+
+LAYOUT D193D559
+BUILD 8.0.1.26788
+field_1752892463_lang
+$id$field_1584314833<32>
+field_757897890<32>
+field_243908339<32>
+field_150113653<32>
+field_580874107
+field_441105208

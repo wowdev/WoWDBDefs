@@ -9,6 +9,14 @@ uint maxTargetLevel
 int targetCreatureType
 int targets
 float coneDegrees
+uint field_010680921
+float field_1444111586
+uint field_1949762298
+uint field_1486613747
+int field_387221676
+int field_1092195468
+float field_022554470
+int field_939861160
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -44,3 +52,15 @@ difficultyID<8>
 maxTargets<8>
 maxTargetLevel<32>
 $noninline,relation$spellID<32>
+
+LAYOUT 47BE0E0C
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_010680921<8>
+field_1444111586
+field_1949762298<8>
+field_1486613747<32>
+field_387221676<16>
+field_1092195468<32>
+field_022554470
+$noninline,relation$field_939861160<32>

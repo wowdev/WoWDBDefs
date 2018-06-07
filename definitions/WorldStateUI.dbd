@@ -19,6 +19,23 @@ int dynamicIconFileID
 uint orderIndex
 uint phaseShift
 int factionID
+string field_1780015728
+locstring field_1586698208_lang
+locstring field_084854354_lang
+locstring field_649034880_lang
+string field_650110249
+int field_1867949595
+int field_649053501
+uint field_705925423
+uint field_1491806186
+uint field_570583305
+int field_1038183579
+int field_643149059
+uint field_1046488185
+uint field_123440419
+uint field_1568074154
+uint field_1267108740
+uint field_1583851419
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -122,3 +139,23 @@ phaseUseFlags<8>
 $id$ID<32>
 dynamicIconFileID<32>
 dynamicFlashIconFileID<32>
+
+LAYOUT E1F042FE
+BUILD 8.0.1.26788
+field_1780015728
+field_1586698208_lang
+field_084854354_lang
+field_649034880_lang
+field_650110249
+$id$field_1867949595<32>
+$relation$field_649053501<16>
+field_705925423<16>
+field_1491806186<16>
+field_570583305<8>
+field_1038183579<32>
+field_643149059<32>
+field_1046488185<8>
+field_123440419<8>
+field_1568074154<16>
+field_1267108740<16>
+field_1583851419<16>[3]

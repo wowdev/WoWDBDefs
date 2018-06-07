@@ -4,6 +4,10 @@ uint parentWidgetID
 uint reqID
 uint sourceID
 int sourceType
+uint field_1139978570
+int field_450971955
+uint field_1142868668
+uint field_699570238
 
 LAYOUT 5C2251CD
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -12,3 +16,11 @@ reqID<16>
 sourceID<16>
 sourceType<8>
 $noninline,relation$parentWidgetID<16>
+
+LAYOUT 27BC34FD
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1139978570<16>
+field_450971955<8>
+field_1142868668<16>
+$noninline,relation$field_699570238<16>

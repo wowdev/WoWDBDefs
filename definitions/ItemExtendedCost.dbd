@@ -27,6 +27,16 @@ uint requiredArenaRating
 uint honorPoints
 uint arenaPoints
 uint itemPurchaseGroup
+uint field_1500091862
+int field_625559976
+uint field_2004410337
+uint field_559274784
+uint field_425855966
+uint field_560012321
+int field_1639747773
+uint field_1964957362
+uint field_064686730
+uint field_808875171
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -82,3 +92,17 @@ flags<8>
 minFactionID<8>
 minReputation<8>
 requiredAchievement<8>
+
+LAYOUT 2AC5BE11
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1500091862<16>
+field_625559976<8>
+field_2004410337<8>
+field_559274784<8>
+field_425855966<8>
+field_560012321<8>
+field_1639747773<32>[5]
+field_1964957362<16>[5]
+field_064686730<16>[5]
+field_808875171<32>[5]

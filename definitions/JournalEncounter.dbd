@@ -12,6 +12,16 @@ locstring description_lang
 uint flags
 uint mapDisplayConditionID
 uint uiMapID
+locstring field_732429143_lang
+locstring field_062544216_lang
+float field_988722291
+uint field_1576144794
+uint field_583344701
+uint field_1785929303
+uint field_1861729112
+uint field_1454116163
+uint field_869823054
+int field_1830337902
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -69,3 +79,17 @@ flags<8>
 difficultyMask<8>
 orderIndex<32>
 mapDisplayConditionID<32>
+
+LAYOUT 5E057FAD
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_732429143_lang
+field_062544216_lang
+field_988722291[2]
+field_1576144794<16>
+field_583344701<32>
+field_1785929303<16>
+field_1861729112<16>
+field_1454116163<32>
+field_869823054<8>
+field_1830337902<8>

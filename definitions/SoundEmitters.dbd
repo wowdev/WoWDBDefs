@@ -18,6 +18,18 @@ float directionX
 float directionY
 float directionZ
 int soundEntryAdvancedID
+string field_1237967718
+float field_968239490
+float field_1239654039
+int field_2123544784
+uint field_2014315408
+uint field_1614510321
+uint field_409233490
+uint field_293884509
+uint field_253307497
+uint field_770102161
+uint field_279649745
+int field_001210459
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -71,3 +83,18 @@ directionZ
 soundEntryAdvancedID<32>
 mapID<32>
 name
+
+LAYOUT 1FDCDD5A
+BUILD 8.0.1.26788
+field_1237967718
+field_968239490[3]
+field_1239654039[3]
+$id$field_2123544784<32>
+field_2014315408<32>
+field_1614510321<16>
+field_409233490<8>
+field_293884509<16>
+field_253307497<32>
+field_770102161<8>
+field_279649745<8>
+$noninline,relation$field_001210459<16>

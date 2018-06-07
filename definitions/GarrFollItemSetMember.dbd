@@ -8,6 +8,10 @@ uint garrFollItemSetID
 int itemID
 uint itemSlot
 uint minItemLevel
+int field_609523333
+uint field_1071019675
+uint field_1308872896
+uint field_332377786
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -23,3 +27,11 @@ itemID<32>
 minItemLevel<16>
 itemSlot<8>
 $noninline,relation$garrFollItemSetID<16>
+
+LAYOUT 9166B16F
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_609523333<32>
+field_1071019675<8>
+field_1308872896<16>
+$noninline,relation$field_332377786<16>

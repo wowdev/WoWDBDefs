@@ -4,6 +4,10 @@ int shapeshiftExclude
 int shapeshiftMask
 int stanceBarOrder
 int spellID
+int field_2077193535
+int field_819745622
+int field_1088426435
+int field_240076776
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -18,3 +22,11 @@ spellID<32>
 shapeshiftExclude<32>[2]
 shapeshiftMask<32>[2]
 stanceBarOrder<8>
+
+LAYOUT 91C4FFE9
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_2077193535<32>
+field_819745622<8>
+field_1088426435<32>[2]
+field_240076776<32>[2]

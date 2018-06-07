@@ -10,6 +10,17 @@ locstring name_lang
 locstring description_lang
 uint flags
 uint orderIndex
+locstring field_822497326_lang
+locstring field_1023276362_lang
+int field_2069350059
+uint field_1056379070
+int field_1183527291
+int field_324120717
+int field_321046860
+int field_143652809
+uint field_975634288
+uint field_907090548
+uint field_159345853
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -49,3 +60,17 @@ areaID<16>
 orderIndex<8>
 flags<8>
 $id$ID<32>
+
+LAYOUT BB10478F
+BUILD 8.0.1.26788
+field_822497326_lang
+field_1023276362_lang
+$id$field_2069350059<32>
+field_1056379070<16>
+field_1183527291<32>
+field_324120717<32>
+field_321046860<32>
+field_143652809<32>
+field_975634288<8>
+field_907090548<8>
+field_159345853<16>

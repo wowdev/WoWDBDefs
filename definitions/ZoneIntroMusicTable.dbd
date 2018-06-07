@@ -4,6 +4,10 @@ string Name
 uint<SoundEntries::ID> SoundID
 uint Priority
 uint MinDelayMinutes
+string field_1173040081
+uint field_723663878
+uint field_860295714
+uint field_313927196
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -19,3 +23,11 @@ Name
 MinDelayMinutes<16>
 Priority<8>
 SoundID<32>
+
+LAYOUT 5453B51D
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1173040081
+field_723663878<32>
+field_860295714<8>
+field_313927196<16>

@@ -3,6 +3,9 @@ int ID
 int eventIndex
 uint gameObjectDisplayInfoID
 uint soundKitID
+uint field_202223658
+int field_975725863
+int field_1604353663
 
 LAYOUT 4BBA66F2, 65313C86, C2929BA7
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -10,3 +13,10 @@ $noninline,id$ID<32>
 eventIndex<8>
 soundKitID<32>
 $noninline,relation$gameObjectDisplayInfoID<32>
+
+LAYOUT 456E4627
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_202223658<32>
+field_975725863<8>
+$noninline,relation$field_1604353663<32>

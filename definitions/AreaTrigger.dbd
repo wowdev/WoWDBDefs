@@ -18,6 +18,21 @@ float x
 float y
 float z
 uint phaseShift
+float field_1348207879
+int field_1545933974
+int field_655117323
+int field_1864419269
+int field_1042624279
+int field_1604926116
+float field_864395433
+float field_801712167
+float field_400995210
+float field_1268165052
+float field_908534085
+int field_1659868047
+int field_2120693322
+int field_897294846
+int field_2027946485
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -86,3 +101,21 @@ x
 y
 z
 radius
+
+LAYOUT 61A4F966
+BUILD 8.0.1.26788
+field_1348207879[3]
+$id$field_1545933974<32>
+$relation$field_655117323<16>
+field_1864419269<8>
+field_1042624279<16>
+field_1604926116<16>
+field_864395433
+field_801712167
+field_400995210
+field_1268165052
+field_908534085
+field_1659868047<8>
+field_2120693322<16>
+field_897294846<16>
+field_2027946485<8>

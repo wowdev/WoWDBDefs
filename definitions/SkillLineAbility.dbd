@@ -19,6 +19,21 @@ uint excludeClass
 uint supercededBySpell
 uint characterPoints
 int abandonable
+int field_578240292
+int field_1658843798
+int field_872585139
+int field_366225498
+int field_1655880674
+int field_1996185136
+int field_1050310833
+int field_717866732
+int field_155152069
+int field_488054273
+int field_422154495
+int field_545445438
+int field_1645237729
+int field_1470672893
+int field_307857935
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -148,3 +163,21 @@ classMask<32>
 minSkillLineRank<16>
 acquireMethod<8>
 flags<8>
+
+LAYOUT A38AD072
+BUILD 8.0.1.26788
+field_578240292<64>
+$id$field_1658843798<32>
+$relation$field_872585139<16>
+field_366225498<32>
+field_1655880674<16>
+field_1996185136<32>
+field_1050310833<32>
+field_717866732<8>
+field_155152069<16>
+field_488054273<16>
+field_422154495<8>
+field_545445438<8>
+field_1645237729<16>
+field_1470672893<16>
+field_307857935<16>

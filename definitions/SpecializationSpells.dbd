@@ -5,6 +5,12 @@ int spellID
 int overridesSpellID
 locstring description_lang
 uint displayOrder
+locstring field_503825336_lang
+int field_2011759721
+uint field_550563828
+int field_1975266401
+int field_1356251632
+uint field_1915615150
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -21,3 +27,12 @@ overridesSpellID<32>
 $relation$specID<16>
 displayOrder<8>
 $id$ID<32>
+
+LAYOUT 88A56A2F
+BUILD 8.0.1.26788
+field_503825336_lang
+$id$field_2011759721<32>
+$relation$field_550563828<16>
+field_1975266401<32>
+field_1356251632<32>
+field_1915615150<8>

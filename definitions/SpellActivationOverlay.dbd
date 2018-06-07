@@ -8,6 +8,14 @@ float scale
 int iconHighlightSpellClassMask
 int triggerType
 uint soundEntriesID
+int field_1395724707
+int field_1365419776
+int field_949745799
+int field_1135023640
+uint field_1066717855
+int field_265451875
+float field_1902733989
+int field_1599420698
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -31,3 +39,15 @@ iconHighlightSpellClassMask<32>[4]
 screenLocationID<8>
 triggerType<8>
 soundEntriesID<32>
+
+LAYOUT E72C81EF
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1395724707<32>[4]
+field_1365419776<32>
+field_949745799<32>
+field_1135023640<8>
+field_1066717855<32>
+field_265451875<32>
+field_1902733989
+field_1599420698<8>

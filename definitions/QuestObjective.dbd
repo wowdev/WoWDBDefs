@@ -8,6 +8,14 @@ uint orderIndex
 uint questID
 uint storageIndex
 uint type
+locstring field_555725594_lang
+uint field_395830700
+int field_1028504248
+int field_414716273
+uint field_1108364573
+uint field_2033947711
+uint field_357506952
+uint field_530482701
 
 LAYOUT DD995180
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -32,3 +40,15 @@ orderIndex<8>
 flags<8>
 storageIndex<8>
 $noninline,relation$questID<16>
+
+LAYOUT 37353FB6
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_555725594_lang
+field_395830700<8>
+field_1028504248<32>
+field_414716273<32>
+field_1108364573<8>
+field_2033947711<8>
+field_357506952<8>
+$noninline,relation$field_530482701<16>

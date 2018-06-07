@@ -9,6 +9,15 @@ int parentItemID
 uint spellCategoryID
 int spellID
 int triggerType
+uint field_1831450437
+int field_755080547
+int field_1243253202
+int field_631169851
+int field_591825773
+uint field_1586381621
+int field_2019473478
+uint field_1205279725
+int field_1541932278
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -46,3 +55,16 @@ chrSpecializationID<16>
 legacySlotIndex<8>
 triggerType<8>
 $noninline,relation$parentItemID<32>
+
+LAYOUT 46818AA6
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1831450437<8>
+field_755080547<8>
+field_1243253202<16>
+field_631169851<32>
+field_591825773<32>
+field_1586381621<16>
+field_2019473478<32>
+field_1205279725<16>
+$noninline,relation$field_1541932278<32>

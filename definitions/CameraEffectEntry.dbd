@@ -16,6 +16,22 @@ uint OrderIndex
 float Phase
 float RadiusMax
 float RadiusMin
+uint field_225784180
+uint field_1656356120
+float field_1250386007
+float field_2114146338
+float field_403192990
+float field_729996285
+float field_707401153
+float field_212038225
+float field_282716525
+float field_1589320885
+uint field_413565276
+int field_1448133644
+uint field_999533355
+uint field_1485478148
+int field_576224028
+uint field_1964190106
 
 LAYOUT C5105557, 77E45BEF
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -36,3 +52,23 @@ DirectionType<8>
 MovementType<8>
 AttenuationType<8>
 $noninline,relation$CameraEffectID<16>
+
+LAYOUT ED27DC2F
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_225784180<8>
+field_1656356120<16>
+field_1250386007
+field_2114146338
+field_403192990
+field_729996285
+field_707401153
+field_212038225
+field_282716525
+field_1589320885
+field_413565276<8>
+field_1448133644<8>
+field_999533355<8>
+field_1485478148<8>
+field_576224028<8>
+$noninline,relation$field_1964190106<16>

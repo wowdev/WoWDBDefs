@@ -25,6 +25,29 @@ float EAX3HFReference
 float EAX3LFReference
 float EAXEffectVolume
 float EAXDamping
+string field_2078721128
+int field_311590099
+float field_1746715177
+float field_2032716894
+float field_1697736051
+int field_312319389
+int field_1467980816
+float field_971685050
+int field_740807824
+float field_058157630
+int field_1894955354
+float field_291345073
+float field_1120644038
+float field_338607625
+int field_1882645425
+float field_734091015
+float field_1473494764
+float field_864308755
+float field_500259066
+float field_800931007
+float field_279840348
+float field_751826715
+uint field_086384110
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -133,3 +156,30 @@ EAX2Reverb<16>
 Flags<16>
 EAXEnvironmentSelection<8>
 EAX3RoomLF<8>
+
+LAYOUT F0F42A22
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_2078721128
+field_311590099<8>
+field_1746715177
+field_2032716894
+field_1697736051
+field_312319389<16>
+field_1467980816<16>
+field_971685050
+field_740807824<16>
+field_058157630
+field_1894955354<16>
+field_291345073
+field_1120644038
+field_338607625
+field_1882645425<8>
+field_734091015
+field_1473494764
+field_864308755
+field_500259066
+field_800931007
+field_279840348
+field_751826715
+field_086384110<16>

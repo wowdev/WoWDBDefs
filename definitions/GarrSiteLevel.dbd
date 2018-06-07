@@ -22,6 +22,15 @@ uint field_1905686843?
 uint field_1933042534?
 uint field_3219317051?
 uint field_3898499771?
+float field_430090896
+uint field_1567589326
+uint field_1072561604
+uint field_1396090361
+uint field_316851816
+uint field_1767118794
+uint field_714375691
+uint field_850592820
+uint field_826208787
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -68,3 +77,16 @@ field_3898499771<16>
 field_1933042534<8>
 field_1532576006<8>
 field_1334787408<32>
+
+LAYOUT 4D823E68
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_430090896[2]
+field_1567589326<32>
+field_1072561604<8>
+field_1396090361<16>
+field_316851816<16>
+field_1767118794<16>
+field_714375691<8>
+field_850592820<16>
+field_826208787<16>

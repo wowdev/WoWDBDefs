@@ -7,6 +7,12 @@ string texture
 int itemID
 int bigTextureFileID
 int textureFileID
+locstring field_1824140864_lang
+uint field_637053778
+uint field_301033062
+int field_293069770
+int field_1993041071
+int field_2096829591
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -25,3 +31,13 @@ currencyID<16>
 researchFieldID<8>
 textureFileID<32>
 bigTextureFileID<32>
+
+LAYOUT A6CB64A5
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1824140864_lang
+field_637053778<8>
+field_301033062<16>
+field_293069770<32>
+field_1993041071<32>
+field_2096829591<32>

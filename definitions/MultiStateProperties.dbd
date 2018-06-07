@@ -10,6 +10,16 @@ float offset
 uint stateIndex
 int transitionInID
 int transitionOutID
+float field_094909778
+int field_164844277
+uint field_2115015440
+int field_929250662
+float field_220401636
+int field_1307275185
+int field_370170754
+int field_389823965
+uint field_2094790122
+int field_1038963388
 
 LAYOUT E44B382C, D06E1904
 BUILD 8.0.1.26175, 8.0.1.26231, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -24,3 +34,17 @@ transitionOutID<32>
 collisionHull<32>
 flags<32>
 $noninline,relation$multiPropertiesID<32>
+
+LAYOUT 1646DB5C
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_094909778[3]
+field_164844277<32>
+field_2115015440<8>
+field_929250662<32>
+field_220401636
+field_1307275185<32>
+field_370170754<32>
+field_389823965<32>
+field_2094790122<32>
+$noninline,relation$field_1038963388<32>

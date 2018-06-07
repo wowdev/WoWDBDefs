@@ -39,6 +39,43 @@ uint chargeSoundID
 uint tauntSoundID
 uint windupCriticalSoundID
 uint windupSoundID
+uint field_1975009025
+uint field_392117907
+uint field_1873655716
+uint field_2086817556
+uint field_658074086
+uint field_353124648
+uint field_1021672830
+uint field_1698734131
+uint field_1254087206
+uint field_1398717565
+uint field_363816948
+uint field_557279277
+uint field_1087872125
+uint field_1136332308
+uint field_918519551
+uint field_1273648071
+uint field_702079398
+uint field_871456928
+uint field_657873890
+uint field_900011661
+uint field_1156026616
+uint field_1910749964
+uint field_554227636
+uint field_1760465147
+uint field_1116924339
+uint field_1511392384
+uint field_2136478848
+uint field_308101013
+uint field_1767625596
+uint field_1509060550
+uint field_660948683
+float field_1445654335
+float field_1734441941
+uint field_1402866569
+uint field_266562189
+uint field_1752099604
+uint field_1582901307
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -211,3 +248,44 @@ creatureSoundDataIDPet<32>
 NPCSoundID<32>
 soundFidget<32>[5]
 customAttack<32>[4]
+
+LAYOUT A58BDB91
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1975009025<32>
+field_392117907<32>
+field_1873655716<32>
+field_2086817556<32>
+field_658074086<32>
+field_353124648<32>
+field_1021672830<32>
+field_1698734131<32>
+field_1254087206<32>
+field_1398717565<32>
+field_363816948<32>
+field_557279277<32>
+field_1087872125<32>
+field_1136332308<32>
+field_918519551<32>
+field_1273648071<32>
+field_702079398<32>
+field_871456928<32>
+field_657873890<32>
+field_900011661<32>
+field_1156026616<32>
+field_1910749964<32>
+field_554227636<32>
+field_1760465147<32>
+field_1116924339<32>
+field_1511392384<32>
+field_2136478848<32>
+field_308101013<32>
+field_1767625596<32>
+field_1509060550<32>
+field_660948683<32>
+field_1445654335
+field_1734441941
+field_1402866569<8>
+field_266562189<32>
+field_1752099604<32>[5]
+field_1582901307<32>[4]

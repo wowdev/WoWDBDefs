@@ -13,6 +13,16 @@ locstring description_lang
 int inventoryIconFileID
 uint itemID
 uint bitIndex
+locstring field_774395162_lang
+locstring field_1451644169_lang
+uint field_874371232
+int field_112097594
+uint field_2020783315
+uint field_997197214
+uint field_454073460
+uint field_1322901458
+uint field_321503036
+int field_958034873
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -46,3 +56,17 @@ $id$ID<32>
 itemID<32>
 categoryID<32>
 bitIndex<32>
+
+LAYOUT 77A6C524
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_774395162_lang
+field_1451644169_lang
+field_874371232<8>
+field_112097594<32>
+field_2020783315<32>
+field_997197214<8>
+field_454073460<32>
+field_1322901458<32>
+field_321503036<32>
+field_958034873<8>

@@ -23,6 +23,28 @@ float overrideOpacity
 float volumeEdgeFadeStart
 int volumeFlags
 float overrideColorIntensity
+uint field_717348174
+float field_1120222978
+uint field_1500732071
+uint field_289505266
+uint field_1948425555
+int field_555766786
+uint field_1725044172
+float field_1976809273
+float field_1940229071
+float field_1084837074
+float field_840487085
+float field_351198427
+int field_1679049751
+float field_1465170183
+int field_1898633724
+float field_1385879049
+float field_961428944
+float field_1275839559
+int field_1258535005
+int field_1850049625
+float field_1720455423
+float field_523409829
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -164,3 +186,29 @@ effectType<8>
 windSettingsID<8>
 ambienceID<32>
 effectTextureFileDataID<32>
+
+LAYOUT 784E91E0
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_717348174<8>
+field_1120222978
+field_1500732071<32>
+field_289505266<16>
+field_1948425555<8>
+field_555766786<32>
+field_1725044172<8>
+field_1976809273
+field_1940229071
+field_1084837074
+field_840487085
+field_351198427
+field_1679049751<32>
+field_1465170183
+field_1898633724<32>
+field_1385879049
+field_961428944
+field_1275839559
+field_1258535005<32>
+field_1850049625<32>
+field_1720455423[2]
+field_523409829[3]

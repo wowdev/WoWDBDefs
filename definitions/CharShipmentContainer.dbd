@@ -16,6 +16,22 @@ uint smallDisplayInfoID
 uint uiTextureKitID
 uint workingDisplayInfoID
 uint workingSpellVisualID
+locstring field_489634877_lang
+locstring field_1405956624_lang
+uint field_533242837
+uint field_1600601504
+uint field_353447196
+uint field_306026198
+uint field_1193339366
+uint field_384083231
+uint field_176497193
+uint field_515161060
+uint field_1205248423
+uint field_1480946815
+uint field_1693898351
+uint field_1727328059
+int field_1997310216
+uint field_1442235079
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -68,3 +84,23 @@ mediumThreshold<8>
 largeThreshold<8>
 faction<8>
 completeSpellVisualID<32>
+
+LAYOUT 13048703
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_489634877_lang
+field_1405956624_lang
+field_533242837<16>
+field_1600601504<8>
+field_353447196<8>
+field_306026198<8>
+field_1193339366<16>
+field_384083231<16>
+field_176497193<16>
+field_515161060<16>
+field_1205248423<32>
+field_1480946815<32>
+field_1693898351<8>
+field_1727328059<8>
+field_1997310216<8>
+field_1442235079<16>

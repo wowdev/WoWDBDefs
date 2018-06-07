@@ -5,6 +5,12 @@ uint battlePetVisualID
 int eventTypeEnum
 uint orderIndex
 uint turnTypeEnum
+int field_1493779912
+uint field_1243808794
+uint field_1057112667
+uint field_823539305
+int field_356020017
+uint field_476616870
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -22,3 +28,12 @@ orderIndex<8>
 turnTypeEnum<8>
 eventTypeEnum<8>
 $id$ID<32>
+
+LAYOUT F2218887
+BUILD 8.0.1.26788
+$id$field_1493779912<32>
+$relation$field_1243808794<16>
+field_1057112667<8>
+field_823539305<8>
+field_356020017<8>
+field_476616870<16>

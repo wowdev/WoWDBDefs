@@ -75,6 +75,35 @@ uint field_4083046615?
 int field_737839365?
 uint field_943015025?
 int field_997989291?
+locstring field_1368267919_lang
+locstring field_581551445_lang
+locstring field_1229984435_lang
+float field_855451430
+float field_638855956
+int field_1810988484
+uint field_164363517
+uint field_1703382696
+uint field_1977532163
+uint field_2015130699
+uint field_767375409
+uint field_630583124
+uint field_688268583
+uint field_307942267
+uint field_664671652
+uint field_1428859044
+uint field_1753110703
+int field_760205360
+uint field_971719747
+int field_1342623636
+int field_922836433
+uint field_1734053104
+uint field_1920353784
+uint field_1304651197
+uint field_1362082460
+uint field_1260423227
+uint field_783053414
+uint field_184348585
+int field_2114396785
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -192,3 +221,35 @@ field_3319152767<32>
 field_1678764757<32>
 field_1809580897<32>
 $noninline,relation$field_997989291<32>
+
+LAYOUT 00777205
+BUILD 8.0.1.26788
+field_1368267919_lang
+field_581551445_lang
+field_1229984435_lang
+field_855451430[2]
+field_638855956[2]
+$id$field_1810988484<32>
+field_164363517<8>
+field_1703382696<8>
+field_1977532163<8>
+field_2015130699<8>
+field_767375409<32>
+field_630583124<16>
+field_688268583<8>
+field_307942267<16>
+field_664671652<32>
+field_1428859044<8>
+field_1753110703<32>
+field_760205360<8>
+field_971719747<16>
+field_1342623636<32>
+field_922836433<32>
+field_1734053104<32>
+field_1920353784<8>
+field_1304651197<32>
+field_1362082460<32>
+field_1260423227<8>
+field_783053414<32>
+field_184348585<32>
+$noninline,relation$field_2114396785<32>

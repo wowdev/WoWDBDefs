@@ -17,6 +17,23 @@ locstring gametype_lang
 locstring longDescription_lang
 int required_Player_Condition_ID
 locstring shortDescription_lang
+locstring field_1108434032_lang
+locstring field_1656158560_lang
+locstring field_1987579967_lang
+locstring field_1823121761_lang
+int field_390992738
+int field_963502976
+int field_2071023027
+int field_1327586973
+int field_597119822
+int field_1221163026
+int field_1723470909
+int field_919637724
+int field_1950030650
+int field_1921983793
+int field_933078817
+int field_1044970842
+int field_191115621
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -87,3 +104,24 @@ maxPlayers<8>
 groupsAllowed<8>
 maxGroupSize<8>
 flags<8>
+
+LAYOUT 167284E8
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1108434032_lang
+field_1656158560_lang
+field_1987579967_lang
+field_1823121761_lang
+field_390992738<8>
+field_963502976<8>
+field_2071023027<8>
+field_1327586973<8>
+field_597119822<8>
+field_1221163026<8>
+field_1723470909<8>
+field_919637724<8>
+field_1950030650<16>
+field_1921983793<8>
+field_933078817<32>
+field_1044970842<16>
+field_191115621<16>[16]

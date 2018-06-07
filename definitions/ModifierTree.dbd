@@ -7,6 +7,13 @@ int operator
 int amount
 uint parent
 int tertiaryAsset
+uint field_1302213664
+int field_1133177853
+int field_920518320
+uint field_1598098531
+int field_725555692
+int field_1993066062
+int field_687603611
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -38,3 +45,14 @@ operator<8>
 amount<8>
 type<8>
 tertiaryAsset<8>
+
+LAYOUT 643002AE
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1302213664<32>
+field_1133177853<8>
+field_920518320<8>
+field_1598098531<8>
+field_725555692<32>
+field_1993066062<32>
+field_687603611<8>

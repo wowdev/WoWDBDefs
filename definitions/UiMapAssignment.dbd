@@ -9,6 +9,16 @@ float uiMax
 float uiMin
 int WMODoodadPlacementID
 int WMOGroupID
+float field_1454411111
+float field_1657674987
+float field_340008235
+int field_397383092
+int field_109148309
+int field_456274078
+int field_138436856
+int field_876202896
+int field_1737930870
+int field_1091423106
 
 LAYOUT FEC56AE4
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
@@ -35,3 +45,16 @@ WMOGroupID<32>
 region[6]
 $relation$uiMapID<32>
 orderIndex<32>
+
+LAYOUT FA919770
+BUILD 8.0.1.26788
+field_1454411111[2]
+field_1657674987[2]
+field_340008235[6]
+$id$field_397383092<32>
+$relation$field_109148309<32>
+field_456274078<32>
+field_138436856<32>
+field_876202896<32>
+field_1737930870<32>
+field_1091423106<32>

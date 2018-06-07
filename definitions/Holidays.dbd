@@ -12,6 +12,18 @@ uint priority
 int calendarFilterType
 uint flags
 int textureFileDataID
+int field_997811534
+uint field_1261205548
+uint field_752206618
+uint field_2006479210
+uint field_240246901
+uint field_1703347835
+int field_133129736
+uint field_1855691343
+uint field_199674656
+uint field_1119172579
+uint field_666347737
+int field_1213263777
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -41,3 +53,18 @@ flags<8>
 holidayNameID<32>
 holidayDescriptionID<32>
 textureFileDataID<32>[3]
+
+LAYOUT F6DA3904
+BUILD 8.0.1.26788
+$id$field_997811534<32>
+field_1261205548<16>
+field_752206618<8>
+field_2006479210<32>
+field_240246901<32>
+field_1703347835<8>
+field_133129736<8>
+field_1855691343<8>
+field_199674656<16>[10]
+field_1119172579<32>[16]
+field_666347737<8>[10]
+field_1213263777<32>[3]

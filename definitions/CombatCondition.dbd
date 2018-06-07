@@ -11,6 +11,17 @@ uint<UnitCondition::ID> enemyConditionID
 uint enemyConditionOp
 uint enemyConditionCount
 uint enemyConditionLogic
+uint field_789921113
+uint field_1915886341
+uint field_506034393
+uint field_2124860636
+uint field_1491866457
+uint field_1641837834
+uint field_859475310
+uint field_423290376
+uint field_1357855420
+uint field_894250507
+uint field_1175433632
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -40,3 +51,18 @@ friendConditionLogic<8>
 enemyConditionOp<8>[2]
 enemyConditionCount<8>[2]
 enemyConditionLogic<8>
+
+LAYOUT 75A29044
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_789921113<16>
+field_1915886341<16>
+field_506034393<16>
+field_2124860636<8>
+field_1491866457<8>
+field_1641837834<16>[2]
+field_859475310<8>[2]
+field_423290376<8>[2]
+field_1357855420<16>[2]
+field_894250507<8>[2]
+field_1175433632<8>[2]

@@ -14,6 +14,21 @@ float uiModelOpacity
 float uiModelSaturation
 int uiSwatchColor
 uint unlockPlayerConditionID
+locstring field_1556570733_lang
+int field_1075262407
+uint field_802308052
+uint field_1979815444
+uint field_1056514598
+uint field_946453299
+int field_1183768590
+float field_1747039575
+float field_1203139172
+uint field_455706847
+uint field_1332143168
+uint field_1897366449
+uint field_039634934
+uint field_097011305
+uint field_880187990
 
 LAYOUT AEED7395
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -50,3 +65,21 @@ $id$ID<32>
 unlockPlayerConditionID<32>
 uiItemAppearanceID<32>
 uiAltItemAppearanceID<32>
+
+LAYOUT 330F75C9
+BUILD 8.0.1.26788
+field_1556570733_lang
+$id$field_1075262407<32>
+$relation$field_802308052<16>
+field_1979815444<8>
+field_1056514598<32>
+field_946453299<8>
+field_1183768590<32>
+field_1747039575
+field_1203139172
+field_455706847<8>
+field_1332143168<32>
+field_1897366449<32>
+field_039634934<32>
+field_097011305<8>
+field_880187990<16>

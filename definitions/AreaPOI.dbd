@@ -22,6 +22,23 @@ float x
 float y
 float z
 uint uiWidgetParentSetID?
+locstring field_1496826710_lang
+locstring field_1455830488_lang
+int field_446938904
+float field_196172231
+int field_1361858605
+uint field_1405598904
+uint field_2129547987
+uint field_098861140
+int field_2033107285
+int field_866526418
+int field_2010385371
+uint field_1896888126
+int field_1894128856
+uint field_1500196021
+uint field_235836842
+uint field_1867332438
+uint field_435090540
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -165,3 +182,23 @@ playerConditionID<32>
 uiTextureAtlasMemberID<32>
 mapFloor<32>
 WMOGroupID<32>
+
+LAYOUT 34D56581
+BUILD 8.0.1.26788
+field_1496826710_lang
+field_1455830488_lang
+$id$field_446938904<32>
+field_196172231[3]
+field_1361858605<32>
+field_1405598904<32>
+field_2129547987<32>
+field_098861140<32>
+field_2033107285<32>
+field_866526418<32>
+field_2010385371<32>
+$relation$field_1896888126<16>
+field_1894128856<16>
+field_1500196021<16>
+field_235836842<16>
+field_1867332438<8>
+field_435090540<8>

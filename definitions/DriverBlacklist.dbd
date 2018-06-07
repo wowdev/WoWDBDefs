@@ -7,6 +7,13 @@ uint flags
 uint osBits
 uint osVersion
 uint vendorID
+uint field_1539443469
+uint field_1600932562
+uint field_157726917
+uint field_1620724089
+uint field_1789315471
+uint field_1835117782
+uint field_1983326656
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -28,3 +35,14 @@ deviceID<8>
 osVersion<8>
 osBits<8>
 flags<8>
+
+LAYOUT 88C28C05
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1539443469<16>
+field_1600932562<8>
+field_157726917<32>
+field_1620724089<32>
+field_1789315471<8>
+field_1835117782<8>
+field_1983326656<8>

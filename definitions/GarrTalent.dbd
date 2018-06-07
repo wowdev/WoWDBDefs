@@ -19,6 +19,26 @@ int respecDurationSecs
 int respecGoldCost
 int tier
 int uiOrder
+locstring field_1763770637_lang
+locstring field_2022669816_lang
+int field_765679544
+uint field_214931778
+int field_1915946353
+int field_649925602
+int field_1095043172
+uint field_278897754
+uint field_1916471182
+uint field_1795950743
+uint field_201262014
+int field_821260812
+int field_2115159390
+int field_677060306
+uint field_1486277606
+int field_671953407
+int field_995188943
+int field_148619138
+uint field_879887488
+int field_160831335
 
 LAYOUT 53D5FD16
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -65,3 +85,26 @@ respecDurationSecs<32>
 respecGoldCost<32>
 respecCost<32>
 respecCostCurrencyTypesID<32>
+
+LAYOUT 96BE787E
+BUILD 8.0.1.26788
+field_1763770637_lang
+field_2022669816_lang
+$id$field_765679544<32>
+$relation$field_214931778<32>
+field_1915946353<8>
+field_649925602<8>
+field_1095043172<32>
+field_278897754<32>
+field_1916471182<32>
+field_1795950743<32>
+field_201262014<32>
+field_821260812<32>
+field_2115159390<32>
+field_677060306<32>
+field_1486277606<32>
+field_671953407<32>
+field_995188943<32>
+field_148619138<32>
+field_879887488<32>
+field_160831335<8>

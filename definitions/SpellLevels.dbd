@@ -6,6 +6,12 @@ int baseLevel
 int maxLevel
 int spellLevel
 uint maxPassiveAuraLevel
+uint field_1887611123
+int field_975851760
+int field_320945873
+int field_1543167146
+uint field_145148358
+int field_998963144
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -24,3 +30,13 @@ spellLevel<16>
 difficultyID<8>
 maxPassiveAuraLevel<8>
 $noninline,relation$spellID<32>
+
+LAYOUT E3096221
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_1887611123<8>
+field_975851760<16>
+field_320945873<16>
+field_1543167146<16>
+field_145148358<8>
+$noninline,relation$field_998963144<32>

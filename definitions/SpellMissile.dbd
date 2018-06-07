@@ -29,6 +29,21 @@ float randomizePitchMin
 float randomizeSpeedMax
 float randomizeSpeedMin
 int spellID
+int field_712213264
+uint field_240495249
+float field_1081549605
+float field_2035218689
+float field_390906011
+float field_1267331655
+float field_283031383
+float field_1853432170
+float field_823173347
+float field_1596072957
+float field_1777144874
+float field_1385923892
+float field_745235920
+float field_578888802
+float field_679866065
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -106,3 +121,22 @@ randomizeSpeedMin
 randomizeSpeedMax
 gravity
 maxDuration
+
+LAYOUT AF286A50
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_712213264<32>
+field_240495249<8>
+field_1081549605
+field_2035218689
+field_390906011
+field_1267331655
+field_283031383
+field_1853432170
+field_823173347
+field_1596072957
+field_1777144874
+field_1385923892
+field_745235920
+field_578888802
+field_679866065

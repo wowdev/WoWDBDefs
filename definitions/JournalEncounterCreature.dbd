@@ -7,6 +7,14 @@ uint<FileData::ID> fileDataID
 locstring name_lang
 locstring description_lang
 uint uiModelSceneID
+locstring field_801611165_lang
+locstring field_1617057008_lang
+int field_1773160246
+uint field_2061953316
+uint field_1697836805
+uint field_832164116
+uint field_1774470349
+uint field_635263721
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -38,3 +46,14 @@ uiModelSceneID<32>
 $relation$journalEncounterID<16>
 orderIndex<8>
 $id$ID<32>
+
+LAYOUT 71CE658D
+BUILD 8.0.1.26788
+field_801611165_lang
+field_1617057008_lang
+$id$field_1773160246<32>
+$relation$field_2061953316<16>
+field_1697836805<32>
+field_832164116<32>
+field_1774470349<8>
+field_635263721<32>

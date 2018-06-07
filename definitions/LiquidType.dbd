@@ -24,6 +24,27 @@ int minimapStaticCol
 uint minDetail
 uint loDetail_ID
 uint hiDetail_ID
+string field_057407967
+string field_229553008
+uint field_2129890415
+uint field_394054420
+uint field_1846506463
+uint field_1318101582
+float field_1689694283
+float field_1452147537
+float field_1627716919
+float field_295924723
+uint field_411887632
+float field_786985292
+uint field_1089699915
+uint field_415739784
+uint field_1114132393
+int field_217150180
+uint field_1848467320
+int field_1009686002
+float field_1817947173
+uint field_1091237466
+float field_1173282555
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -117,3 +138,28 @@ particleTexSlots<8>
 materialID<8>
 frameCountTexture<8>[6]
 soundID<32>
+
+LAYOUT 29F8C65E
+BUILD 8.0.1.26788
+$noninline,id$ID<32>
+field_057407967
+field_229553008[6]
+field_2129890415<16>
+field_394054420<8>
+field_1846506463<32>
+field_1318101582<32>
+field_1689694283
+field_1452147537
+field_1627716919
+field_295924723
+field_411887632<16>
+field_786985292
+field_1089699915<8>
+field_415739784<8>
+field_1114132393<8>
+field_217150180<32>
+field_1848467320<8>[6]
+field_1009686002<32>[2]
+field_1817947173[18]
+field_1091237466<32>[4]
+field_1173282555[4]
