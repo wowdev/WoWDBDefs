@@ -146,3 +146,21 @@ particulateFileDataID<32>
 overrideColor<32>
 volumeFlags<32>
 lightningID<32>
+
+LAYOUT 7C160B07
+BUILD 7.3.5.26654
+$noninline,id$ID<32>
+intensity[2]
+transitionSkyBox
+effectColor[3]
+scale
+volatility
+twinkleIntensity
+fallModifier
+rotationalSpeed
+soundAmbienceID<16>
+type<8>
+effectType<8>
+windSettingsID<8>
+ambienceID<32>
+effectTextureFileDataID<32>

@@ -2,8 +2,6 @@ COLUMNS
 int ID
 uint triggerType
 uint triggerAsset
-uint field_1053376238?
-uint field_1838711077?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -19,5 +17,11 @@ triggerType<8>
 LAYOUT 34B30E13
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-field_1838711077<8>
-field_1053376238<32>
+triggerType<8>
+triggerAsset<32>
+
+LAYOUT 02E80455
+BUILD 7.3.5.26654
+$noninline,id$ID<32>
+triggerAsset<16>
+triggerType<8>

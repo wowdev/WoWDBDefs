@@ -144,3 +144,26 @@ condition_ID<8>
 minLevel<8>
 maxLevel<8>
 transmogPlayerConditionID<32>
+
+LAYOUT 80DEA734
+BUILD 7.3.5.26654
+$noninline,id$ID<32>
+name_lang
+effectArg<32>[3]
+effectScalingPoints[3]
+transmogCost<32>
+iconFileDataID<32>
+effectPointsMin<16>[3]
+itemVisual<16>
+flags<16>
+requiredSkillID<16>
+requiredSkillRank<16>
+itemLevel<16>
+charges<8>
+effect<8>[3]
+condition_ID<8>
+minLevel<8>
+maxLevel<8>
+scalingClass<8>
+scalingClassRestricted<8>
+transmogPlayerConditionID<32>

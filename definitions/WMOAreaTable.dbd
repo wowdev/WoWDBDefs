@@ -19,6 +19,7 @@ uint NightAmbienceSoundID
 uint MIDIAmbience
 uint MIDIAmbienceUnderwater
 uint IntroPriority
+uint inlineWMOID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -103,3 +104,21 @@ SoundProviderPrefUnderwater<8>
 flags<8>
 $id$ID<32>
 uwZoneMusic<32>
+
+LAYOUT 4616C893
+BUILD 7.3.5.26654
+AreaName_lang
+WMOGroupID<32>
+AmbienceID<16>
+ZoneMusic<16>
+IntroSound<16>
+AreaTableID<16>
+uwIntroSound<16>
+NameSetID<16>
+SoundProviderPref<8>
+SoundProviderPrefUnderwater<8>
+flags<8>
+uwZoneMusic<8>
+$id$ID<32>
+inlineWMOID<32>
+$noninline,relation$WMOID<16>

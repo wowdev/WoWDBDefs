@@ -64,6 +64,7 @@ uint totemCategoryID
 uint vendorStackCount
 uint zoneBound
 int oppositeFactionItemID?
+int field_1177770545
 
 LAYOUT 350149D8
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -269,3 +270,72 @@ requiredPVPRank<8>
 requiredLevel<8>
 inventoryType<8>
 overallQualityID<8>
+
+LAYOUT 4007DE16
+BUILD 7.3.5.26654
+COMMENT table is sparse
+$noninline,id$ID<32>
+allowableRace<64>
+display_lang
+display1_lang
+display2_lang
+display3_lang
+description_lang
+flags<32>[4]
+priceRandomValue
+priceVariance
+vendorStackCount<32>
+buyPrice<32>
+sellPrice<32>
+requiredAbility<32>
+maxCount<32>
+stackable<32>
+statPercentEditor<32>[10]
+statPercentageOfSocket[10]
+itemRange
+bagFamily<32>
+qualityModifier
+durationInInventory<32>
+dmgVariance
+allowableClass<16>
+itemLevel<16>
+requiredSkill<16>
+requiredSkillRank<16>
+minFactionID<16>
+field_1177770545<16>[10]
+scalingStatDistributionID<16>
+itemDelay<16>
+pageID<16>
+startQuestID<16>
+lockID<16>
+randomSelect<16>
+itemRandomSuffixGroupID<16>
+itemSet<16>
+zoneBound<16>
+instanceBound<16>
+totemCategoryID<16>
+socket_match_enchantment_ID<16>
+gem_properties<16>
+limitCategory<16>
+requiredHoliday<16>
+requiredTransmogHoliday<16>
+itemNameDescriptionID<16>
+overallQualityID<8>
+inventoryType<8>
+requiredLevel<8>
+requiredPVPRank<8>
+requiredPVPMedal<8>
+minReputation<8>
+containerSlots<8>
+statModifier_bonusStat<8>[10]
+damage_damageType<8>
+bonding<8>
+languageID<8>
+pageMaterialID<8>
+material<8>
+sheatheType<8>
+socketType<8>[3]
+spellWeightCategory<8>
+spellWeight<8>
+artifactID<8>
+expansionID<8>
