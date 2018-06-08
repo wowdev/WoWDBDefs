@@ -3,7 +3,6 @@ int ID
 uint chrClassID
 uint gender
 locstring name_lang
-locstring field_490525496_lang
 uint field_1434673354
 int field_2092106034
 
@@ -17,6 +16,6 @@ gender<8>
 LAYOUT 601C7CCD
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_490525496_lang
+name_lang
 field_1434673354<8>
 field_2092106034<8>

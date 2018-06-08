@@ -20,9 +20,6 @@ uint MIDIAmbience
 uint MIDIAmbienceUnderwater
 uint IntroPriority
 uint inlineWMOID
-locstring field_810489009_lang
-int field_1473256809
-uint field_1406964845
 uint field_2037200714
 int field_1797676681
 uint field_960342491
@@ -140,9 +137,9 @@ $noninline,relation$WMOID<16>
 
 LAYOUT 60EC930B
 BUILD 8.0.1.26788
-field_810489009_lang
-$id$field_1473256809<32>
-$relation$field_1406964845<16>
+AreaName_lang
+$id$ID<32>
+$relation$WMOID<16>
 field_2037200714<8>
 field_1797676681<32>
 field_960342491<8>

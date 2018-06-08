@@ -40,7 +40,6 @@ float geoBoxMaxX
 float geoBoxMaxY
 float geoBoxMaxZ
 string AnimModelName
-float field_1611014002
 uint field_1659896616
 uint field_1265991841
 uint field_1282362854
@@ -242,7 +241,7 @@ creatureGeosetDataID<32>
 LAYOUT F61D550A
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_1611014002[6]
+geoBox[6]
 field_1659896616<32>
 field_1265991841<32>
 field_1282362854<32>

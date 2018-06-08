@@ -31,8 +31,6 @@ uint<AreaTable::ID> ParentAreaNum
 uint MIDIAmbience
 uint MIDIAmbienceUnderwater
 uint IntroPriority
-string field_1078320024
-locstring field_1750214796_lang
 uint field_669245254
 uint field_1827222251
 int field_632161113
@@ -46,14 +44,11 @@ int field_1256946681
 uint field_1332555594
 uint field_1925948804
 uint field_715424779
-float field_2077103586
 uint field_179967260
 int field_116577969
 uint field_1029704524
 uint field_1882419853
 uint field_822740251
-int field_666258857
-uint field_1156077091
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -176,8 +171,8 @@ uwIntroSound<32>
 LAYOUT 22229BE7
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_1078320024
-field_1750214796_lang
+ZoneName
+AreaName_lang
 field_669245254<16>
 field_1827222251<16>
 field_632161113<16>
@@ -191,11 +186,11 @@ field_1256946681<8>
 field_1332555594<16>
 field_1925948804<32>
 field_715424779<8>
-field_2077103586
+ambient_multiplier
 field_179967260<8>
 field_116577969<16>
 field_1029704524<8>
 field_1882419853<8>
 field_822740251<8>
-field_666258857<32>[2]
-field_1156077091<16>[4]
+flags<32>[2]
+liquidTypeID<16>[4]

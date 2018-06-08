@@ -10,7 +10,6 @@ uint Showscalp
 int ColorIndex
 int customGeoFileDataID
 int hdCustomGeoFileDataID
-uint field_1664765271
 uint field_2060099883
 int field_589231158
 uint field_910716571
@@ -79,7 +78,7 @@ customGeoFileDataID<32>
 LAYOUT E3732EA9
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-$relation$field_1664765271<8>
+$relation$RaceID<8>
 field_2060099883<8>
 field_589231158<8>
 field_910716571<8>

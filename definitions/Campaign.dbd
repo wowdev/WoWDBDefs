@@ -9,7 +9,6 @@ uint<PlayerCondition::ID> PlayerConditionID?
 locstring field_677634627_lang
 string field_107624537
 locstring field_1779451671_lang
-uint field_427101495
 uint field_447353168
 uint field_275492374
 uint field_588032090
@@ -29,7 +28,7 @@ BUILD 8.0.1.26788
 field_677634627_lang
 field_107624537
 field_1779451671_lang
-$id$field_427101495<32>
+$id$ID<32>
 field_447353168<32>
 field_275492374<32>
 field_588032090<32>

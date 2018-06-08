@@ -3,9 +3,6 @@ int ID
 uint battlePetSpeciesID
 uint battlePetStateID
 int value
-uint field_1300261165
-int field_1987124355
-uint field_255250683
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -23,6 +20,6 @@ $noninline,relation$battlePetSpeciesID<16>
 LAYOUT 99EBACAA
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_1300261165<8>
-field_1987124355<32>
-$noninline,relation$field_255250683<16>
+battlePetStateID<8>
+value<32>
+$noninline,relation$battlePetSpeciesID<16>

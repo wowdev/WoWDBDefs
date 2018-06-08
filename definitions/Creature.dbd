@@ -14,17 +14,9 @@ locstring nameAlt_lang
 uint startAnimState
 locstring title_lang
 locstring titleAlt_lang
-locstring field_1349886933_lang
-locstring field_222559447_lang
-locstring field_1724893277_lang
-locstring field_1013229915_lang
 int field_1353320896
 uint field_2044076453
-uint field_1757066488
 uint field_209504153
-int field_1782025189
-float field_1676418729
-int field_803192444
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -90,14 +82,14 @@ startAnimState<8>
 LAYOUT 0D492BF3
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_1349886933_lang
-field_222559447_lang
-field_1724893277_lang
-field_1013229915_lang
+name_lang
+nameAlt_lang
+title_lang
+titleAlt_lang
 field_1353320896<8>
 field_2044076453<8>
-field_1757066488<16>
+creatureFamily<16>
 field_209504153<8>
-field_1782025189<32>[4]
-field_1676418729[4]
-field_803192444<32>[3]
+displayID<32>[4]
+displayProbability[4]
+AlwaysItem<32>[3]

@@ -6,13 +6,8 @@ locstring name_lang
 int orderIndex
 int uiTextureAtlasMemberID
 int field_1308584285?
-locstring field_1843659789_lang
-locstring field_613940794_lang
-int field_1056530534
-int field_2045680964
 int field_252521583
 int field_1895571547
-int field_285652362
 
 LAYOUT 8EDF6090, AE5BA348
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
@@ -35,10 +30,10 @@ field_1308584285<32>
 
 LAYOUT 37C49135
 BUILD 8.0.1.26788
-field_1843659789_lang
-field_613940794_lang
-$id$field_1056530534<32>
-$relation$field_2045680964<32>
+description_lang
+name_lang
+$id$ID<32>
+$relation$managedWorldStateInputID<32>
 field_252521583<32>
 field_1895571547<32>
-field_285652362<32>[4]
+uiTextureAtlasMemberID<32>[4]

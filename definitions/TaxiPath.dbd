@@ -3,10 +3,6 @@ int ID
 uint<TaxiNodes::ID> FromTaxiNode
 uint<TaxiNodes::ID> ToTaxiNode
 uint Cost
-int field_1700977375
-uint field_059391743
-uint field_113093475
-uint field_1605863452
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -29,7 +25,7 @@ Cost<32>
 
 LAYOUT 3716BBCD
 BUILD 8.0.1.26788
-$id$field_1700977375<32>
-$relation$field_059391743<16>
-field_113093475<16>
-field_1605863452<32>
+$id$ID<32>
+$relation$FromTaxiNode<16>
+ToTaxiNode<16>
+Cost<32>

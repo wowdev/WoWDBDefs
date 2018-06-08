@@ -38,12 +38,6 @@ locstring PvpLongDescription_lang
 float corpseX
 float corpseY
 int zmpFileDataID
-string field_462302676
-locstring field_605669682_lang
-locstring field_594027220_lang
-locstring field_1427567046_lang
-locstring field_951309985_lang
-locstring field_1922754560_lang
 uint field_2090129712
 int field_1778819221
 uint field_399808840
@@ -358,12 +352,12 @@ maxPlayers<8>
 LAYOUT 503A3E58
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_462302676
-field_605669682_lang
-field_594027220_lang
-field_1427567046_lang
-field_951309985_lang
-field_1922754560_lang
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
 corpse[2]
 field_2090129712<8>
 field_1778819221<8>

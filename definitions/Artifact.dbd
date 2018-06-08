@@ -10,8 +10,6 @@ int uiBarOverlayColor
 uint uiModelSceneID
 int uiNameColor
 uint uiTextureKitID
-locstring field_1322097144_lang
-int field_1493170287
 uint field_212395440
 int field_559870394
 int field_1128240098
@@ -66,8 +64,8 @@ spellVisualKitID<32>
 
 LAYOUT 780D61EA
 BUILD 8.0.1.26788
-field_1322097144_lang
-$id$field_1493170287<32>
+name_lang
+$id$ID<32>
 field_212395440<16>
 field_559870394<32>
 field_1128240098<32>

@@ -14,9 +14,6 @@ float uiModelOpacity
 float uiModelSaturation
 int uiSwatchColor
 uint unlockPlayerConditionID
-locstring field_1556570733_lang
-int field_1075262407
-uint field_802308052
 uint field_1979815444
 uint field_1056514598
 uint field_946453299
@@ -68,9 +65,9 @@ uiAltItemAppearanceID<32>
 
 LAYOUT 330F75C9
 BUILD 8.0.1.26788
-field_1556570733_lang
-$id$field_1075262407<32>
-$relation$field_802308052<16>
+name_lang
+$id$ID<32>
+$relation$artifactAppearanceSetID<16>
 field_1979815444<8>
 field_1056514598<32>
 field_946453299<8>

@@ -2,8 +2,6 @@ COLUMNS
 uint<ChrClasses::ID> classID
 uint powerType
 int ID
-int field_782158397
-uint field_1330261111
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -19,5 +17,5 @@ $noninline,relation$classID<8>
 LAYOUT 6DE888E7
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_782158397<8>
-$noninline,relation$field_1330261111<8>
+powerType<8>
+$noninline,relation$classID<8>

@@ -10,7 +10,6 @@ uint maxShipments
 int onCompleteSpellID
 int spellID
 uint treasureID
-uint field_495186492
 int field_459045830
 uint field_1638303248
 int field_293820988
@@ -59,7 +58,7 @@ flags<8>
 LAYOUT D47EC921
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-$relation$field_495186492<16>
+$relation$containerID<16>
 field_459045830<32>
 field_1638303248<32>
 field_293820988<32>

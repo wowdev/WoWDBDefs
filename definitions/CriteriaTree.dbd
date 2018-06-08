@@ -8,7 +8,6 @@ int flags
 locstring description_lang
 int orderIndex
 uint padding_2173460021?
-locstring field_382005116_lang
 uint field_706277248
 uint field_1923724993
 int field_125683716
@@ -52,7 +51,7 @@ orderIndex<32>
 LAYOUT C926CF94
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_382005116_lang
+description_lang
 field_706277248<32>
 field_1923724993<32>
 field_125683716<8>

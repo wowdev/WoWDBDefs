@@ -10,14 +10,11 @@ uint petTypeEnum
 locstring sourceText_lang
 int sourceTypeEnum
 int summonSpellID
-locstring field_065194039_lang
-locstring field_1700751948_lang
 int field_308771989
 int field_1582241314
 int field_893237304
 int field_1463497127
 uint field_2113068560
-uint field_114228623
 int field_607390131
 int field_1988842095
 int field_1308369191
@@ -63,14 +60,14 @@ loadoutUIModelSceneID<32>
 
 LAYOUT 78A6B928
 BUILD 8.0.1.26788
-field_065194039_lang
-field_1700751948_lang
+description_lang
+sourceText_lang
 $id$field_308771989<32>
 field_1582241314<32>
 field_893237304<32>
 field_1463497127<32>
 field_2113068560<8>
-field_114228623<16>
+flags<16>
 field_607390131<8>
 field_1988842095<32>
 field_1308369191<32>

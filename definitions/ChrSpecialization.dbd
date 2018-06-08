@@ -17,11 +17,6 @@ int animReplacements
 locstring femaleName_lang
 int primaryStatPriority
 int spellIconFileID
-locstring field_639817248_lang
-locstring field_1976975123_lang
-locstring field_1545992810_lang
-int field_1420481510
-int field_1304322051
 int field_1313743837
 int field_1512232185
 int field_1771418854
@@ -29,7 +24,6 @@ uint field_1153149269
 int field_052466937
 int field_1707863288
 int field_1621795624
-int field_1977951875
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -81,11 +75,11 @@ animReplacements<32>
 
 LAYOUT FF9DD5DD
 BUILD 8.0.1.26788
-field_639817248_lang
-field_1976975123_lang
-field_1545992810_lang
-$id$field_1420481510<32>
-$relation$field_1304322051<8>
+name_lang
+femaleName_lang
+description_lang
+$id$ID<32>
+$relation$classID<8>
 field_1313743837<8>
 field_1512232185<8>
 field_1771418854<8>
@@ -93,4 +87,4 @@ field_1153149269<32>
 field_052466937<32>
 field_1707863288<8>
 field_1621795624<32>
-field_1977951875<32>[2]
+masterySpellID<32>[2]

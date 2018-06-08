@@ -8,15 +8,11 @@ uint flags
 int forgeAttachmentOverride
 locstring name_lang
 uint uiCameraID
-locstring field_767379947_lang
-locstring field_1592064403_lang
-uint field_263616476
 uint field_1454865451
 uint field_931036955
 uint field_477732170
 int field_1593690876
 uint field_1033233861
-uint field_389852066
 
 LAYOUT 53DFED74, 1CB5B2EA
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -32,12 +28,12 @@ $noninline,relation$artifactID<8>
 
 LAYOUT BB4DB4D3
 BUILD 8.0.1.26788
-field_767379947_lang
-field_1592064403_lang
-$id$field_263616476<32>
+name_lang
+description_lang
+$id$ID<32>
 field_1454865451<8>
 field_931036955<16>
 field_477732170<16>
 field_1593690876<8>
 field_1033233861<8>
-$noninline,relation$field_389852066<8>
+$noninline,relation$artifactID<8>

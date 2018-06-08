@@ -7,9 +7,6 @@ float RotX
 float RotY
 float RotZ
 float RotW
-float field_1686808621
-uint field_746072310
-int field_1032687057
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -36,6 +33,6 @@ RotW
 LAYOUT 5FE3BC91
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_1686808621[4]
-field_746072310<32>
-$noninline,relation$field_1032687057<32>
+Rot[4]
+TimeIndex<32>
+$noninline,relation$GameObjectsID<32>

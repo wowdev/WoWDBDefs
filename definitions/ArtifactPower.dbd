@@ -6,11 +6,7 @@ uint flags
 int label
 uint maxPurchasableRank
 uint tier
-float field_1444199371
-int field_1545705227
-uint field_070584716
 uint field_1240222389
-int field_614268138
 uint field_757451584
 uint field_224570104
 
@@ -36,10 +32,10 @@ label<32>
 
 LAYOUT 1F7637C8
 BUILD 8.0.1.26788
-field_1444199371[2]
-$id$field_1545705227<32>
-$relation$field_070584716<8>
+displayPos[2]
+$id$ID<32>
+$relation$artifactID<8>
 field_1240222389<8>
-field_614268138<32>
+label<32>
 field_757451584<8>
 field_224570104<8>

@@ -13,8 +13,6 @@ int field_698767059
 int field_903631580
 int field_1103004528
 int field_1200239632
-int field_515756794
-int field_1176335114
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -45,5 +43,5 @@ field_698767059<8>
 field_903631580<8>
 field_1103004528<8>
 field_1200239632<8>
-field_515756794<16>
-field_1176335114<32>[3]
+flags<16>
+materialResourcesID<32>[3]

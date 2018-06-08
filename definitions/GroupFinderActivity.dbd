@@ -22,34 +22,11 @@ uint minGearLevelSuggestion
 uint minLevel
 int orderIndex
 locstring shortName_lang
-locstring field_1053376238_lang?
-uint field_1334787408?
-uint field_1336462998?
-uint field_1367035623?
-uint field_1532576006?
-locstring field_1838711077_lang?
-uint field_1874725257?
-uint field_1905686843?
-int field_1933042534?
-uint field_2699733778?
-uint field_3219317051?
-uint field_3898499771?
-uint field_3956182989?
-uint field_4083046615?
-locstring field_868693262_lang
-locstring field_839413235_lang
 uint field_2000783974
 int field_1969336944
-uint field_289051494
-uint field_784238792
-uint field_1634474595
 uint field_2109707411
 uint field_183312903
 uint field_056565584
-uint field_1273757772
-uint field_1690066663
-uint field_1092935318
-uint field_840612972
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -101,35 +78,35 @@ displayType<8>
 LAYOUT 009D2F0F
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-field_1838711077_lang
-field_1053376238_lang
-field_3219317051<16>
-field_1905686843<16>
-field_1874725257<16>
-field_3898499771<8>
-field_1933042534<8>
-field_1532576006<8>
-field_1334787408<8>
-field_4083046615<8>
-field_1336462998<8>
-field_2699733778<8>
-field_1367035623<8>
-field_3956182989<32>
+fullName_lang
+shortName_lang
+minGearLevelSuggestion<16>
+mapID<16>
+areaID<16>
+groupFinderCategoryID<8>
+orderIndex<8>
+groupFinderActivityGrpID<8>
+minLevel<8>
+maxLevelSuggestion<8>
+difficultyID<8>
+maxPlayers<8>
+displayType<8>
+flags<32>
 
 LAYOUT EC40E4B1
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_868693262_lang
-field_839413235_lang
+fullName_lang
+shortName_lang
 field_2000783974<8>
 field_1969336944<8>
-field_289051494<8>
-field_784238792<8>
-field_1634474595<8>
+groupFinderActivityGrpID<8>
+minLevel<8>
+maxLevelSuggestion<8>
 field_2109707411<32>
 field_183312903<16>
 field_056565584<16>
-field_1273757772<8>
-field_1690066663<16>
-field_1092935318<8>
-field_840612972<8>
+difficultyID<8>
+areaID<16>
+maxPlayers<8>
+displayType<8>

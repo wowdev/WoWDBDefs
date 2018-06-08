@@ -74,8 +74,6 @@ float field_1445654335
 float field_1734441941
 uint field_1402866569
 uint field_266562189
-uint field_1752099604
-uint field_1582901307
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -287,5 +285,5 @@ field_1445654335
 field_1734441941
 field_1402866569<8>
 field_266562189<32>
-field_1752099604<32>[5]
-field_1582901307<32>[4]
+soundFidget<32>[5]
+customAttack<32>[4]

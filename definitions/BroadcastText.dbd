@@ -10,15 +10,11 @@ uint flags
 locstring text_lang
 locstring text1_lang
 uint field_1336462998?
-locstring field_321380326_lang
-locstring field_435733278_lang
-int field_1891306849
 uint field_673155229
 int field_1698840470
 uint field_1738193153
 uint field_421462703
 uint field_1573540297
-uint field_522033412
 uint field_039723609
 uint field_1767704743
 
@@ -75,14 +71,14 @@ field_1336462998<32>
 
 LAYOUT 6318993B
 BUILD 8.0.1.26788
-field_321380326_lang
-field_435733278_lang
-$id$field_1891306849<32>
+text_lang
+text1_lang
+$id$ID<32>
 field_673155229<8>
 field_1698840470<32>
 field_1738193153<16>
 field_421462703<8>
 field_1573540297<32>
-field_522033412<32>[2]
+soundEntriesID<32>[2]
 field_039723609<16>[3]
 field_1767704743<16>[3]

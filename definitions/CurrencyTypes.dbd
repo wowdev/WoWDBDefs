@@ -13,8 +13,6 @@ locstring description_lang
 int inventoryIconFileID
 uint itemID
 uint bitIndex
-locstring field_774395162_lang
-locstring field_1451644169_lang
 uint field_874371232
 int field_112097594
 uint field_2020783315
@@ -60,8 +58,8 @@ bitIndex<32>
 LAYOUT 77A6C524
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_774395162_lang
-field_1451644169_lang
+name_lang
+description_lang
 field_874371232<8>
 field_112097594<32>
 field_2020783315<32>

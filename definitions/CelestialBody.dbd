@@ -14,15 +14,12 @@ float rotateRate
 float scrollURate
 float scrollVRate
 int skyArrayBand
-float field_994563589
-int field_902229264
 int field_992072222
 float field_1034706330
 int field_255574889
 int field_652766455
 float field_1760603271
 float field_763975765
-int field_1359476940
 int field_1864648438
 int field_1682584886
 float field_1261151942
@@ -68,15 +65,15 @@ $id$ID<32>
 
 LAYOUT FC417DCA
 BUILD 8.0.1.26788
-field_994563589[3]
-$id$field_902229264<32>
+position[3]
+$id$ID<32>
 field_992072222<32>
 field_1034706330
 field_255574889<32>
 field_652766455<32>
 field_1760603271
 field_763975765
-field_1359476940<16>
+skyArrayBand<16>
 field_1864648438<32>
 field_1682584886<32>[2]
 field_1261151942[2]

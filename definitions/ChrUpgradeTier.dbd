@@ -3,8 +3,6 @@ int ID
 locstring displayName_lang
 uint numTalents
 uint orderIndex
-locstring field_1058748174_lang
-int field_1864996631
 uint field_1534006849
 uint field_287390801
 
@@ -17,7 +15,7 @@ $id$ID<32>
 
 LAYOUT EC517FDD
 BUILD 8.0.1.26788
-field_1058748174_lang
-$id$field_1864996631<32>
+displayName_lang
+$id$ID<32>
 field_1534006849<8>
 field_287390801<8>

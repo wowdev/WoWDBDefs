@@ -10,10 +10,6 @@ int contentTuningID
 int field_1215028472
 int field_1100147899
 int field_1289411387
-uint field_1201566002
-int field_480019370
-int field_1430297124
-int field_162930627
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -51,7 +47,7 @@ $noninline,id$ID<32>
 field_1215028472<8>
 field_1100147899<8>
 field_1289411387<8>
-field_1201566002<16>
-field_480019370<32>
-field_1430297124<32>[7]
-$noninline,relation$field_162930627<32>
+factionID<16>
+contentTuningID<32>
+flags<32>[7]
+$noninline,relation$creatureID<32>

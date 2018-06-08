@@ -3,9 +3,6 @@ int ID
 int helmetGeosetVisDataID
 int<ChrRaces::ID> raceID
 float amount
-int field_1099503186
-float field_084711558
-int field_476969387
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -23,6 +20,6 @@ $noninline,relation$helmetGeosetVisDataID<32>
 LAYOUT C43CA2FC
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_1099503186<32>
-field_084711558
-$noninline,relation$field_476969387<32>
+raceID<32>
+amount
+$noninline,relation$helmetGeosetVisDataID<32>

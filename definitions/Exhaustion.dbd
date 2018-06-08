@@ -7,10 +7,7 @@ float innHours
 locstring name_lang
 float threshold
 string combatLogText
-locstring field_2002712803_lang
 string field_518857769
-int field_969158985
-int field_827863347
 float field_2089738259
 float field_1635694436
 float field_581543859
@@ -48,10 +45,10 @@ threshold
 
 LAYOUT F0F48BB5
 BUILD 8.0.1.26788
-field_2002712803_lang
+name_lang
 field_518857769
-$id$field_969158985<32>
-field_827863347<32>
+$id$ID<32>
+xp<32>
 field_2089738259
 field_1635694436
 field_581543859

@@ -11,7 +11,6 @@ int classMask
 int raceMask
 uint<AnimationData::ID> EmoteAnimID
 int field_1338640157
-string field_606724048
 int field_029937861
 uint field_443310326
 uint field_765949197
@@ -76,7 +75,7 @@ LAYOUT A909E182
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
 field_1338640157<64>
-field_606724048
+EmoteSlashCommand
 field_029937861<32>
 field_443310326<32>
 field_765949197<8>

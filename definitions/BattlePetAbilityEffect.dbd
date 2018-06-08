@@ -6,13 +6,10 @@ uint battlePetEffectPropertiesID
 uint battlePetVisualID
 uint orderIndex
 int param
-int field_1856376634
-uint field_1466616827
 uint field_1709949517
 uint field_1773264968
 uint field_815653562
 uint field_993332753
-int field_1634084296
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -45,10 +42,10 @@ $id$ID<32>
 
 LAYOUT C850B549
 BUILD 8.0.1.26788
-$id$field_1856376634<32>
-$relation$field_1466616827<16>
+$id$ID<32>
+$relation$battlePetAbilityTurnID<16>
 field_1709949517<8>
 field_1773264968<16>
 field_815653562<16>
 field_993332753<16>
-field_1634084296<16>[6]
+param<16>[6]

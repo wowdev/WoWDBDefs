@@ -9,10 +9,6 @@ uint zoneID
 uint textureID
 string textureName
 uint datestamp
-uint field_616821200
-uint field_1529787805
-uint field_601160476
-int field_156172914
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -43,7 +39,7 @@ sound<32>
 LAYOUT CCBD52E8
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_616821200<32>
-field_1529787805<8>
-field_601160476<16>[4]
-field_156172914<8>[4]
+density<32>
+sound<8>
+doodadID<16>[4]
+doodadWeight<8>[4]

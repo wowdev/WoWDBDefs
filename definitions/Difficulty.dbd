@@ -13,7 +13,6 @@ uint groupSizeSpellPointsCurveID
 locstring name_lang
 uint itemContext
 uint orderIndex
-locstring field_752401917_lang
 uint field_2064999243
 uint field_258458661
 int field_000659242
@@ -78,7 +77,7 @@ toggleDifficultyID<8>
 LAYOUT 29FC158C
 BUILD 8.0.1.26788
 $noninline,id$ID<32>
-field_752401917_lang
+name_lang
 field_2064999243<8>
 field_258458661<8>
 field_000659242<8>
