@@ -9,11 +9,6 @@ uint effect
 uint statesAllowed
 uint state
 uint flags
-uint field_1711387294
-uint field_1401023152
-uint field_1297462956
-uint field_472305380
-uint field_848948855
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -41,14 +36,14 @@ effect<32>[9]
 state<32>[16]
 
 LAYOUT 36D9340F
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_1711387294<8>
+school<8>
 dispelType<32>
-field_1401023152<8>
-field_1297462956<8>
-field_472305380<8>
-field_848948855<8>
+mechanicsAllowed<8>
+effectsAllowed<8>
+statesAllowed<8>
+flags<8>
 mechanic<32>[2]
 effect<32>[9]
 state<32>[16]

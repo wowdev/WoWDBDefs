@@ -7,13 +7,6 @@ uint battle_populate_time
 uint min_level
 uint max_level
 int map_ID
-uint field_952759114
-uint field_2094989547
-uint field_282700243
-uint field_1550096190
-uint field_974298146
-uint field_1950211591
-int field_333717509
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -36,12 +29,12 @@ min_level<8>
 max_level<8>
 
 LAYOUT 3F8DDC83
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_952759114<16>
-field_2094989547<16>
-field_282700243<16>
-field_1550096190<16>
-field_974298146<8>
-field_1950211591<8>
-field_333717509<16>
+area_ID<16>
+next_time_worldstate<16>
+game_time_worldstate<16>
+battle_populate_time<16>
+min_level<8>
+max_level<8>
+map_ID<16>

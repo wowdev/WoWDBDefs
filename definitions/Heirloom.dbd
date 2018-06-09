@@ -9,12 +9,6 @@ int sourceTypeEnum
 int staticUpgradedItemID
 uint upgradeItemBonusListID
 int upgradeItemID
-int field_000425501
-int field_1720981197
-int field_1659704875
-int field_1349334059
-uint field_792122417
-int field_132346191
 
 LAYOUT 36887C6F
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -43,14 +37,14 @@ flags<8>
 $id$ID<32>
 
 LAYOUT B5925FE9
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 sourceText_lang
 $id$ID<32>
-field_000425501<32>
-field_1720981197<32>
-field_1659704875<32>
-field_1349334059<8>
-field_792122417<8>
-field_132346191<32>
+itemID<32>
+legacyUpgradedItemID<32>
+staticUpgradedItemID<32>
+sourceTypeEnum<8>
+flags<8>
+legacyItemID<32>
 upgradeItemID<32>[3]
 upgradeItemBonusListID<16>[3]

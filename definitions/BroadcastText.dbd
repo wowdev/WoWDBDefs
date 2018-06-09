@@ -10,13 +10,6 @@ uint flags
 locstring text_lang
 locstring text1_lang
 uint field_1336462998?
-uint field_673155229
-int field_1698840470
-uint field_1738193153
-uint field_421462703
-uint field_1573540297
-uint field_039723609
-uint field_1767704743
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -70,15 +63,15 @@ conditionID<32>
 field_1336462998<32>
 
 LAYOUT 6318993B
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 text_lang
 text1_lang
 $id$ID<32>
-field_673155229<8>
-field_1698840470<32>
-field_1738193153<16>
-field_421462703<8>
-field_1573540297<32>
+languageID<8>
+conditionID<32>
+emotesID<16>
+flags<8>
+field_1336462998<32>
 soundEntriesID<32>[2]
-field_039723609<16>[3]
-field_1767704743<16>[3]
+emoteID<16>[3]
+emoteDelay<16>[3]

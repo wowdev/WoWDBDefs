@@ -5,11 +5,6 @@ locstring description_lang
 int iconFileDataID
 locstring name_lang
 uint orderIndex
-locstring field_735833418_lang
-locstring field_1116529271_lang
-int field_1968636402
-uint field_579693661
-int field_782168079
 
 LAYOUT 9EBF9B09, 48D27B75, 56625B35
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -21,10 +16,10 @@ iconFileDataID<32>
 $noninline,relation$alliedRaceID<32>
 
 LAYOUT 96902165
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_735833418_lang
-field_1116529271_lang
-field_1968636402<32>
-field_579693661<8>
-$noninline,relation$field_782168079<32>
+name_lang
+description_lang
+iconFileDataID<32>
+orderIndex<8>
+$noninline,relation$alliedRaceID<32>

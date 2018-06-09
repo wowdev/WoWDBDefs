@@ -14,9 +14,6 @@ locstring nameAlt_lang
 uint startAnimState
 locstring title_lang
 locstring titleAlt_lang
-int field_1353320896
-uint field_2044076453
-uint field_209504153
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -80,16 +77,16 @@ creatureType<8>
 startAnimState<8>
 
 LAYOUT 0D492BF3
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
 name_lang
 nameAlt_lang
 title_lang
 titleAlt_lang
-field_1353320896<8>
-field_2044076453<8>
+classification<8>
+creatureType<8>
 creatureFamily<16>
-field_209504153<8>
+startAnimState<8>
 displayID<32>[4]
 displayProbability[4]
 AlwaysItem<32>[3]

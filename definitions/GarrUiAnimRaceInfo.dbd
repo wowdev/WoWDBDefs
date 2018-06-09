@@ -18,19 +18,6 @@ float maleHeight
 float maleScale
 float maleSingleModelHeight
 float maleSingleModelScale
-uint field_1942497459
-float field_1770545697
-float field_073740089
-float field_329775623
-float field_1537113978
-float field_529304506
-float field_2107459827
-float field_1530763597
-float field_2072709223
-float field_1588927554
-float field_270644943
-float field_1708855157
-float field_1509244584
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -75,18 +62,18 @@ femaleFollowerPageHeight
 garrFollRaceID<8>
 
 LAYOUT 62B1D302
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_1942497459<8>
-field_1770545697
-field_073740089
-field_329775623
-field_1537113978
-field_529304506
-field_2107459827
-field_1530763597
-field_2072709223
-field_1588927554
-field_270644943
-field_1708855157
-field_1509244584
+garrFollRaceID<8>
+maleScale
+maleHeight
+femaleScale
+femaleHeight
+maleSingleModelScale
+maleSingleModelHeight
+femaleSingleModelScale
+femaleSingleModelHeight
+maleFollowerPageScale
+maleFollowerPageHeight
+femaleFollowerPageScale
+femaleFollowerPageHeight

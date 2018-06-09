@@ -15,19 +15,6 @@ int minimum_criteria
 int<Achievement::ID> shares_criteria
 uint criteria_tree
 int iconFileID
-locstring field_1473665742_lang
-locstring field_724437473_lang
-locstring field_300751398_lang
-int field_1982228087
-int field_1069112050
-int field_110871148
-int field_2007211765
-int field_834453530
-int field_448951411
-int field_1344079036
-int field_1495452019
-uint field_581268820
-int field_960808513
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -99,19 +86,19 @@ iconFileID<32>
 criteria_tree<32>
 
 LAYOUT 13CB7BEE
-BUILD 8.0.1.26788
-field_1473665742_lang
-field_724437473_lang
-field_300751398_lang
+BUILD 8.0.1.26788, 8.0.1.26806
+description_lang
+title_lang
+reward_lang
 $id$ID<32>
-field_1982228087<16>
-field_1069112050<8>
-field_110871148<16>
-field_2007211765<16>
-field_834453530<8>
-field_448951411<8>
-field_1344079036<32>
+instance_ID<16>
+faction<8>
+supercedes<16>
+category<16>
+minimum_criteria<8>
+points<8>
+flags<32>
 $relation$ui_order<16>
-field_1495452019<32>
-field_581268820<32>
-field_960808513<16>
+iconFileID<32>
+criteria_tree<32>
+shares_criteria<16>

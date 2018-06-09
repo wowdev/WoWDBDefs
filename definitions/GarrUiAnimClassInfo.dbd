@@ -7,12 +7,6 @@ float impactDelaySecs
 uint castKit
 uint impactKit
 uint targetImpactKit
-uint field_1614521205
-uint field_1068158855
-float field_1512163096
-uint field_687858054
-uint field_235871878
-uint field_1076536208
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -32,11 +26,11 @@ impactKit<32>
 targetImpactKit<32>
 
 LAYOUT F6444415
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_1614521205<8>
-field_1068158855<8>
-field_1512163096
-field_687858054<32>
-field_235871878<32>
-field_1076536208<32>
+garrClassSpecID<8>
+movementType<8>
+impactDelaySecs
+castKit<32>
+impactKit<32>
+targetImpactKit<32>

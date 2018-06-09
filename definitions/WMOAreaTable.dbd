@@ -20,18 +20,6 @@ uint MIDIAmbience
 uint MIDIAmbienceUnderwater
 uint IntroPriority
 uint inlineWMOID
-uint field_2037200714
-int field_1797676681
-uint field_960342491
-uint field_1131600355
-uint field_925385582
-uint field_2145425304
-uint field_984947640
-uint field_004012740
-uint field_1810387294
-uint field_1016123354
-uint field_1481086587
-uint field_1352007842
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -136,19 +124,19 @@ inlineWMOID<32>
 $noninline,relation$WMOID<16>
 
 LAYOUT 60EC930B
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 AreaName_lang
 $id$ID<32>
 $relation$WMOID<16>
-field_2037200714<8>
-field_1797676681<32>
-field_960342491<8>
-field_1131600355<8>
-field_925385582<16>
-field_2145425304<16>
-field_984947640<16>
-field_004012740<32>
-field_1810387294<16>
-field_1016123354<16>
-field_1481086587<16>
-field_1352007842<8>
+NameSetID<8>
+WMOGroupID<32>
+SoundProviderPref<8>
+SoundProviderPrefUnderwater<8>
+AmbienceID<16>
+uwAmbience<16>
+ZoneMusic<16>
+uwZoneMusic<32>
+IntroSound<16>
+uwIntroSound<16>
+AreaTableID<16>
+flags<8>

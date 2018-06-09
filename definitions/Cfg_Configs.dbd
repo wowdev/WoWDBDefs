@@ -6,8 +6,6 @@ uint roleplaying
 uint playerAttackSpeedBase
 float maxDamageReductionPctPhysical
 uint generatedID
-uint field_534728341
-uint field_1333598593
 
 BUILD 6.0.1.18179
 $id$generatedID<32>
@@ -34,9 +32,9 @@ playerKillingAllowed<32>
 roleplaying<32>
 
 LAYOUT A275539B
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_534728341<8>
-field_1333598593<8>
+playerKillingAllowed<8>
+roleplaying<8>
 playerAttackSpeedBase<16>
 maxDamageReductionPctPhysical

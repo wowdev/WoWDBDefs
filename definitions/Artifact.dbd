@@ -10,15 +10,6 @@ int uiBarOverlayColor
 uint uiModelSceneID
 int uiNameColor
 uint uiTextureKitID
-uint field_212395440
-int field_559870394
-int field_1128240098
-int field_963518594
-uint field_1858727649
-uint field_870881384
-uint field_1059652035
-uint field_1709955746
-uint field_1522475403
 
 LAYOUT 76CF31A8
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -63,15 +54,15 @@ uiModelSceneID<32>
 spellVisualKitID<32>
 
 LAYOUT 780D61EA
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 name_lang
 $id$ID<32>
-field_212395440<16>
-field_559870394<32>
-field_1128240098<32>
-field_963518594<32>
-field_1858727649<16>
-field_870881384<8>
-field_1059652035<8>
-field_1709955746<32>
-field_1522475403<32>
+uiTextureKitID<16>
+uiNameColor<32>
+uiBarOverlayColor<32>
+uiBarBackgroundColor<32>
+chrSpecializationID<16>
+flags<8>
+artifactCategoryID<8>
+uiModelSceneID<32>
+spellVisualKitID<32>

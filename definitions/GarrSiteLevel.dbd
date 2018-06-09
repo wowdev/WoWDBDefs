@@ -13,24 +13,6 @@ uint uiTextureKitID
 uint upgradeCost
 uint upgradeGoldCost
 uint upgradeMovieID
-uint field_1053376238?
-uint field_1334787408?
-uint field_1532576006?
-float field_1838711077?
-uint field_1874725257?
-uint field_1905686843?
-uint field_1933042534?
-uint field_3219317051?
-uint field_3898499771?
-float field_430090896
-uint field_1567589326
-uint field_1072561604
-uint field_1396090361
-uint field_316851816
-uint field_1767118794
-uint field_714375691
-uint field_850592820
-uint field_826208787
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -68,25 +50,25 @@ maxBuildingLevel<8>
 LAYOUT D1F839BC
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-field_1838711077[2]
-field_1053376238<16>
-field_3219317051<16>
-field_1905686843<16>
-field_1874725257<16>
-field_3898499771<16>
-field_1933042534<8>
-field_1532576006<8>
-field_1334787408<32>
+townHallUiPos[2]
+mapID<16>
+upgradeMovieID<16>
+uiTextureKitID<16>
+upgradeCost<16>
+upgradeGoldCost<16>
+garrLevel<8>
+maxBuildingLevel<8>
+garrSiteID<32>
 
 LAYOUT 4D823E68
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_430090896[2]
-field_1567589326<32>
-field_1072561604<8>
-field_1396090361<16>
-field_316851816<16>
-field_1767118794<16>
-field_714375691<8>
-field_850592820<16>
-field_826208787<16>
+townHallUiPos[2]
+garrSiteID<32>
+garrLevel<8>
+mapID<16>
+upgradeMovieID<16>
+uiTextureKitID<16>
+maxBuildingLevel<8>
+upgradeCost<16>
+upgradeGoldCost<16>

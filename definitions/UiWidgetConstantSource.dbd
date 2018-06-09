@@ -3,9 +3,6 @@ int ID
 uint parentWidgetID
 uint reqID
 int value
-uint field_2124622694
-int field_1535036436
-uint field_489292783
 
 LAYOUT 005558D3
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -15,8 +12,8 @@ reqID<16>
 $noninline,relation$parentWidgetID<16>
 
 LAYOUT FE573B5D
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_2124622694<16>
-field_1535036436<32>
-$noninline,relation$field_489292783<16>
+reqID<16>
+value<32>
+$noninline,relation$parentWidgetID<16>

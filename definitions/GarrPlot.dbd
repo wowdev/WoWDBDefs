@@ -10,13 +10,6 @@ uint flags
 int hordeConstructObjID
 uint plotType
 uint uiCategoryID
-string field_640800895
-uint field_1669051573
-int field_1582169440
-int field_2132471560
-uint field_1193810361
-uint field_220793207
-uint field_1484928784
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -49,12 +42,12 @@ uiCategoryID<8>
 upgradeRequirement<32>[2]
 
 LAYOUT 3897880E
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_640800895
-field_1669051573<8>
-field_1582169440<32>
-field_2132471560<32>
-field_1193810361<8>
-field_220793207<8>
-field_1484928784<32>[2]
+name
+plotType<8>
+hordeConstructObjID<32>
+allianceConstructObjID<32>
+flags<8>
+uiCategoryID<8>
+upgradeRequirement<32>[2]

@@ -7,7 +7,6 @@ float minHeight
 uint playerConditionID
 uint questFeedbackEffectID
 uint visibleTrackingQuestID
-locstring field_1060128228_lang
 uint field_191509569
 uint field_1344456894
 uint field_512381856
@@ -48,9 +47,9 @@ questFeedbackEffectID<32>
 flags<32>
 
 LAYOUT E70E083E
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_1060128228_lang
+name_lang
 field_191509569<32>
 field_1344456894<32>
 field_512381856<32>

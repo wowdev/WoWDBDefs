@@ -3,9 +3,6 @@ int ID
 uint friendshipRepID
 uint reactionThreshold
 locstring reaction_lang
-locstring field_1438453964_lang
-uint field_1829418489
-uint field_448407702
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -21,8 +18,8 @@ reactionThreshold<16>
 $relation$friendshipRepID<8>
 
 LAYOUT 8B096063
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_1438453964_lang
-$relation$field_1829418489<8>
-field_448407702<16>
+reaction_lang
+$relation$friendshipRepID<8>
+reactionThreshold<16>

@@ -15,11 +15,6 @@ float geoBoxMinZ
 float geoBoxMaxX
 float geoBoxMaxY
 float geoBoxMaxZ
-float field_996957710
-int field_1230463577
-int field_128896489
-float field_280439826
-float field_504161424
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -67,10 +62,10 @@ geoBox[6]
 objectEffectPackageID<16>
 
 LAYOUT 7A816799
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_996957710[6]
-field_1230463577<32>
-field_128896489<16>
-field_280439826
-field_504161424
+geoBox[6]
+fileDataID<32>
+objectEffectPackageID<16>
+overrideLootEffectScale
+overrideNameScale

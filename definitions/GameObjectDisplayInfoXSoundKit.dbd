@@ -3,8 +3,6 @@ int ID
 int eventIndex
 uint gameObjectDisplayInfoID
 uint soundKitID
-uint field_202223658
-int field_975725863
 int field_1604353663
 
 LAYOUT 4BBA66F2, 65313C86, C2929BA7
@@ -15,8 +13,8 @@ soundKitID<32>
 $noninline,relation$gameObjectDisplayInfoID<32>
 
 LAYOUT 456E4627
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_202223658<32>
-field_975725863<8>
+soundKitID<32>
+eventIndex<8>
 $noninline,relation$field_1604353663<32>

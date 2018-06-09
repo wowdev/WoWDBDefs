@@ -11,13 +11,6 @@ uint categoryEnumID
 locstring name_lang
 string iconFile
 int iconFileID
-float field_2139373708
-int field_1551601540
-float field_388664311
-int field_966245252
-int field_1864816704
-int field_307110250
-int field_775168655
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -78,14 +71,14 @@ maxScaleLevel<32>
 skillLine<32>[2]
 
 LAYOUT 9D14B492
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
 name_lang
-field_2139373708
-field_1551601540<8>
-field_388664311
-field_966245252<8>
-field_1864816704<16>
-field_307110250<8>
-field_775168655<32>
+minScale
+minScaleLevel<8>
+maxScale
+maxScaleLevel<8>
+petFoodMask<16>
+petTalentType<8>
+iconFileID<32>
 skillLine<16>[2]

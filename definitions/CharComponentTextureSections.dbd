@@ -7,12 +7,6 @@ int y
 int width
 int height
 uint overlapSectionMask
-int field_1369464760
-int field_1546059327
-int field_412892375
-int field_136152880
-int field_309557957
-int field_652088808
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -35,12 +29,12 @@ charComponentTextureLayoutID<8>
 sectionType<8>
 
 LAYOUT D6EDA743
-BUILD 8.0.1.26788
+BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-field_1369464760<8>
-field_1546059327<8>
-field_412892375<16>
-field_136152880<16>
-field_309557957<16>
-field_652088808<16>
+charComponentTextureLayoutID<8>
+sectionType<8>
+x<16>
+y<16>
+width<16>
+height<16>
 overlapSectionMask<32>
