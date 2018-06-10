@@ -109,12 +109,20 @@ namespace DBDefsDumper
                .RecordSize(Name.RECORD_SIZE)
                .Pointer(Name.CONVERT_STRINGREFS)
                .Append("00", "00", "00", "00")
-               .Append("?", "?", "?", "?")
+               .Boolean(Name.UNK_BOOL_601_x24)
+               .Boolean(Name.SPARSE_TABLE)
                .Pointer(Name.FIELD_OFFSETS)
                .Pointer(Name.FIELD_SIZES_IN_FILE)
                .Pointer(Name.FIELD_TYPES_IN_FILE)
                .Hash(Name.TABLE_HASH)
-               .Append("?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?", "?")
+               .Hash(Name.SIBLING_TABLE_HASH)
+               .Uint8(Name.UNK_FLAGS_601_x48_421)
+               .FieldReference(Name.FIELD_NUM_IDX_INT)
+               .FieldReference(Name.FIELD_NUM_IDX_STRING)
+               .OptionalPointer(Name.FIELD_IDX_INT)
+               .OptionalPointer(Name.FIELD_IDX_STRING)
+               .Append("?", "?", "?", "?") // 68 probably not a column, only 0 or 1
+               .Append("?", "?", "?", "?") // 6c
                .Pointer(Name.FIELD_ENCRYPTED)
             );
 
@@ -124,18 +132,19 @@ namespace DBDefsDumper
                .FieldReference(Name.NUM_FIELD_IN_FILE)
                .RecordSize(Name.RECORD_SIZE)
                .Pointer(Name.CONVERT_STRINGREFS)
-               .Append("00", "00", "00", "00")
-               .Append("?", "?", "?", "?")
+               .Append("00", "00", "00", "00", "00", "00", "00", "00")
                .Pointer(Name.FIELD_OFFSETS)
                .Pointer(Name.FIELD_SIZES_IN_FILE)
                .Pointer(Name.FIELD_TYPES_IN_FILE)
-               .Append("?", "?", "?", "?")
+               .Boolean(Name.UNK_BOOL_601dbc_x38)
+               .Boolean(Name.UNK_BOOL_601dbc_x39)
+               .Boolean(Name.UNK_BOOL_601dbc_x3a)
+               .Boolean(Name.UNK_BOOL_601dbc_x3b)
                .Append("00", "00", "00", "00")
-               .Pointer(Name.FIELD_ENCRYPTED)
                .Pointer(Name.FIELD_NAMES_IN_FILE)
                .Pointer(Name.SQL_QUERY)
             );
-            
+
             patterns.Add(
                 new Pattern("5.0.1-dbc-internal") // note: subset of internal-6.0.1-dbc, so conflicts with that
                .Pointer(Name.DB_FILENAME)

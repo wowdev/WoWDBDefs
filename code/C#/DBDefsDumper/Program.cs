@@ -56,9 +56,9 @@ namespace DBDefsDumper
 
         static void Main(string[] args)
         {
-            if (args.Length < 1)
+            if (args.Length < 2)
             {
-                throw new ArgumentException("Not enough arguments! Required: file");
+                throw new ArgumentException("Not enough arguments! Required: file, outdir");
             }
 
             if (!File.Exists(args[0]))
@@ -112,7 +112,7 @@ namespace DBDefsDumper
                 var chunkSize = 1024;
 
                 // Find version
-                var buildPattern = new byte?[] { 0x20, 0x5B, 0x42, 0x75, 0x69, 0x6C, 0x64, 0x20, null, null, null, null, null, 0x20, 0x28, null, null, null, null, null, 0x29, 0x20, 0x28 };
+                var buildPattern = new byte?[] { 0x42, 0x75, 0x69, 0x6C, 0x64, 0x20, null, null, null, null, null, 0x20, 0x28, null, null, null, null, null, 0x29, 0x20, 0x28 };
                 var buildPatternLength = buildPattern.Length;
 
                 var build = "";
@@ -131,7 +131,7 @@ namespace DBDefsDumper
                         var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
 
                         bin.BaseStream.Position = matchPos;
-                        bin.ReadBytes(8);
+                        bin.ReadBytes(6);
                         var buildNumber = new string(bin.ReadChars(5));
                         bin.ReadBytes(2);
                         var patch = new string(bin.ReadChars(5));
@@ -143,6 +143,38 @@ namespace DBDefsDumper
                     }
                 }
 
+
+                if (build == "")
+                {
+                    // Retry with backup pattern (crash log output)
+                    bin.BaseStream.Position = 0;
+
+                    buildPattern = new byte?[] { 0x00, 0x3C, 0x56, 0x65, 0x72, 0x73, 0x69, 0x6F, 0x6E, 0x3E, 0x20 }; // <Version> 
+                    buildPatternLength = buildPattern.Length;
+
+                    while (true)
+                    {
+                        if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
+                        {
+                            break;
+                        }
+
+                        var posInStack = Search(bin.ReadBytes(chunkSize), buildPattern);
+
+                        if (posInStack != chunkSize)
+                        {
+                            var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
+
+                            bin.BaseStream.Position = matchPos;
+                            bin.ReadBytes(11);
+                            build = new string(bin.ReadChars(11));
+                        }
+                        else
+                        {
+                            bin.BaseStream.Position = bin.BaseStream.Position - buildPatternLength;
+                        }
+                    }
+                }
 
                 if (build == "")
                 {
@@ -188,6 +220,7 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.FDID];
                                 if(bin.ReadUInt32() < 53183)
                                 {
+                                    Console.WriteLine("Invalid filedataid, skipping match..");
                                     continue;
                                 }
                             }
@@ -197,6 +230,7 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.RECORD_SIZE];
                                 if (bin.ReadUInt32() == 0)
                                 {
+                                    Console.WriteLine("Record size is 0, skipping match..");
                                     continue;
                                 }
                             }
@@ -206,6 +240,7 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_NAME];
                                 if (bin.ReadUInt32() < 10)
                                 {
+                                    Console.WriteLine("Name offset is invalid, skipping match..");
                                     continue;
                                 }
 
@@ -213,6 +248,7 @@ namespace DBDefsDumper
                                 var targetOffset = (long)translate(bin.ReadUInt64());
                                 if (targetOffset > bin.BaseStream.Length)
                                 {
+                                    Console.WriteLine("Name offset is out of range of file, skipping match..");
                                     continue;
                                 }
                             }
@@ -222,6 +258,7 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_FILENAME];
                                 if (bin.ReadUInt32() < 10)
                                 {
+                                    Console.WriteLine("Name offset is invalid, skipping match..");
                                     continue;
                                 }
 
@@ -229,6 +266,7 @@ namespace DBDefsDumper
                                 var targetOffset = (long)translate(bin.ReadUInt64());
                                 if (targetOffset > bin.BaseStream.Length)
                                 {
+                                    Console.WriteLine("Name offset is out of range of file, skipping match..");
                                     continue;
                                 }
                             }
@@ -238,6 +276,7 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.NUM_FIELD_IN_FILE];
                                 if (bin.ReadUInt32() > 5000)
                                 {
+                                    Console.WriteLine("Num fields in file is over 5000, skipping match..");
                                     continue;
                                 }
 
@@ -250,14 +289,35 @@ namespace DBDefsDumper
                                 var fieldSizesInFileOffs = bin.ReadInt64();
                                 if(fieldTypesInFile == fieldSizesInFileOffs)
                                 {
+                                    Console.WriteLine("Field types in file offset == field sizes in file offset, skipping match..");
+                                    continue;
+                                }
+                            }
+
+                            if (pattern.offsets.ContainsKey(Name.DB_CACHE_FILENAME))
+                            {
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_CACHE_FILENAME];
+                                var name = bin.ReadCString();
+                                if (!name.EndsWith("adb"))
+                                {
+                                    Console.WriteLine("ADB filename does not end in adb, skipping match..");
                                     continue;
                                 }
                             }
 
                             bin.BaseStream.Position = matchPos;
                             var meta = ReadMeta(bin, pattern);
-                            bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                            metas.TryAdd(bin.ReadCString(), meta);
+
+                            if (pattern.offsets.ContainsKey(Name.DB_NAME))
+                            {
+                                bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
+                                metas.TryAdd(bin.ReadCString(), meta);
+                            }else if (pattern.offsets.ContainsKey(Name.DB_FILENAME))
+                            {
+                                bin.BaseStream.Position = (long)translate((ulong)meta.dbFilenameOffs);
+                                var name = bin.ReadCString();
+                                metas.TryAdd(Path.GetFileNameWithoutExtension(name), meta);
+                            }
                             
                             bin.BaseStream.Position = matchPos + patternLength;
                         }
@@ -270,7 +330,7 @@ namespace DBDefsDumper
                     bin.BaseStream.Position = 0;
                 }
 
-                var outputDirectory = "definitions_" + build;
+                var outputDirectory = Path.Combine(args[1], build);
 
                 if (!Directory.Exists(outputDirectory))
                 {
@@ -584,13 +644,27 @@ namespace DBDefsDumper
                         meta.string_ref_offs = bin.ReadInt64();
                         break;
                     case Name.DB_FILENAME:
-                        meta.dbFilename = bin.ReadInt64();
+                        meta.dbFilenameOffs = bin.ReadInt64();
                         break;
                     case Name.FIELD_ENCRYPTED:
                         meta.field_encrypted = bin.ReadInt64();
                         break;
                     case Name.SQL_QUERY:
                         meta.sql_query = bin.ReadInt64();
+                        break;
+                    case Name.SIBLING_TABLE_HASH:
+                        meta.siblingTableHash = bin.ReadInt32();
+                        break;
+                    case Name.FIELD_NAMES_IN_FILE:
+                        meta.namesInFileOffs = bin.ReadInt64();
+                        break;
+                    case Name.UNK_BOOL_601_x24:
+                    case Name.UNK_BOOL_601dbc_x38:
+                    case Name.UNK_BOOL_601dbc_x39:
+                    case Name.UNK_BOOL_601dbc_x3a:
+                    case Name.UNK_BOOL_601dbc_x3b:
+                    case Name.UNK_FLAGS_601_x48_421:
+                        bin.ReadByte();
                         break;
                     default:
                         throw new Exception("Unknown name: " + offset.Key);
