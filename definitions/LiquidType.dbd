@@ -1,52 +1,30 @@
 COLUMNS
 int ID
 string name
-int flags
+uint flags
 int soundBank
-int soundID
-int spellID
+uint<SoundEntries::ID> soundID
+uint<Spell::ID> spellID
 float maxDarkenDepth
 float fogDarkenIntensity
 float ambDarkenIntensity
 float dirDarkenIntensity
-int lightID
+uint<Light::ID> lightID
 float particleScale
 int particleMovement
 int particleTexSlots
-int materialID
+uint<Material::materialID> materialID
 string texture
 int color
 float float
 int int
-float coefficient
-int frameCountTexture
-int minimapStaticCol
+int field_4998436018? // matches old water particulate rendering values?
 int minDetail
-int loDetail_ID
-int hiDetail_ID
-string field_057407967
-string field_229553008
-int field_2129890415
-int field_394054420
-int field_1846506463
-int field_1318101582
-float field_1689694283
-float field_1452147537
-float field_1627716919
-float field_295924723
-int field_411887632
-float field_786985292
-int field_1089699915
-int field_415739784
-int field_1114132393
-int field_217150180
-int field_1848467320
-int field_1009686002
-float field_1817947173
-int field_1091237466
-float field_1173282555
+uint loDetail_ID
+uint hiDetail_ID
 
-BUILD 6.0.1.18179
+BUILD 3.1.0.9767-3.3.5.12340
+BUILD 4.0.0.12025-5.4.8.18414
 $id$ID<32>
 name
 flags<32>
@@ -67,32 +45,7 @@ color<32>[2]
 float[18]
 int<32>[4]
 
-LAYOUT 63469432, 0FF9AFCE
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-name
-texture[6]
-spellID<32>
-maxDarkenDepth
-fogDarkenIntensity
-ambDarkenIntensity
-dirDarkenIntensity
-particleScale
-minimapStaticCol<32>
-color<32>[2]
-float[18]
-int<32>[4]
-coefficient[4]
-flags<16>
-lightID<16>
-soundBank<8>
-particleMovement<8>
-particleTexSlots<8>
-materialID<8>
-frameCountTexture<8>[6]
-soundID<32>
-
-BUILD 4.0.0.11792
+BUILD 4.0.0.11927
 $id$ID<32>
 minDetail<32>
 loDetail_ID<32>
@@ -116,50 +69,51 @@ color<32>[2]
 float[18]
 int<32>[4]
 
-LAYOUT 3313BBF3
-BUILD 7.3.5.26654
-$noninline,id$ID<32>
+BUILD 3.0.1.8622-3.0.9.9551
+$id$ID<32>
 name
-texture[6]
+flags<32>
+soundBank<32>
+soundID<32>
 spellID<32>
+field_4998436018<32>
 maxDarkenDepth
 fogDarkenIntensity
 ambDarkenIntensity
 dirDarkenIntensity
+lightID<32>
 particleScale
+particleMovement<32>
+particleTexSlots<32>
+materialID<32>
+texture[6]
 color<32>[2]
 float[18]
 int<32>[4]
-flags<16>
-lightID<16>
-soundBank<8>
-particleMovement<8>
-particleTexSlots<8>
-materialID<8>
-frameCountTexture<8>[6]
-soundID<32>
 
-LAYOUT 29F8C65E
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_057407967
-field_229553008[6]
-field_2129890415<16>
-field_394054420<8>
-field_1846506463<32>
-field_1318101582<32>
-field_1689694283
-field_1452147537
-field_1627716919
-field_295924723
-field_411887632<16>
-field_786985292
-field_1089699915<8>
-field_415739784<8>
-field_1114132393<8>
-field_217150180<32>
-field_1848467320<8>[6]
-field_1009686002<32>[2]
-field_1817947173[18]
-field_1091237466<32>[4]
-field_1173282555[4]
+BUILD 3.0.1.8334-3.0.1.8471
+$id$ID<32>
+name
+flags<32>
+soundBank<32>
+soundID<32>
+spellID<32>
+field_4998436018<32>
+maxDarkenDepth
+fogDarkenIntensity
+ambDarkenIntensity
+dirDarkenIntensity
+lightID<32>
+particleScale
+particleMovement<32>
+particleTexSlots<32>
+materialID<32>
+texture[4]
+float[4]
+int<32>[2]
+
+BUILD 1.11.0.5344-3.0.1.8303
+$id$ID<32>
+name
+flags<32>
+spellID<32>

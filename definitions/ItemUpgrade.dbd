@@ -1,38 +1,21 @@
 COLUMNS
 int ID
-int currencyAmount
-int currencyType
-int itemLevelIncrement
-int itemUpgradePathID
-int prerequisiteID
-int field_064596194
-int field_1242183656
-int field_1706811387
-int field_612654036
-int field_340669965
+int itemUpgradePath
+int itemLevelUpgrade
+uint precItemUpgradeID
+uint currencyID
+int currencyCost
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.0.1.15662
 $id$ID<32>
-itemUpgradePathID<32>
-itemLevelIncrement<32>
-prerequisiteID<32>
-currencyType<32>
-currencyAmount<32>
+itemUpgradePath<32>
+itemLevelUpgrade<32>
+precItemUpgradeID<32>
 
-LAYOUT 8F3A4137, 0AB08623
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-currencyAmount<32>
-prerequisiteID<16>
-currencyType<16>
-itemUpgradePathID<8>
-itemLevelIncrement<8>
-
-LAYOUT 706FA369
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_064596194<8>
-field_1242183656<8>
-field_1706811387<16>
-field_612654036<16>
-field_340669965<32>
+BUILD 5.0.1.15668-5.4.8.18414
+$id$ID<32>
+itemUpgradePath<32>
+itemLevelUpgrade<32>
+precItemUpgradeID<32>
+currencyID<32>
+currencyCost<32>

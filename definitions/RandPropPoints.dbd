@@ -1,27 +1,35 @@
 COLUMNS
 int ID
-int Epic
-int Superior
-int Good
-int damageReplaceStat
+int epic1
+int epic2
+int epic3
+int epic4
+int epic5
+int superior1
+int superior2
+int superior3
+int superior4
+int superior5
+int good1
+int good2
+int good3
+int good4
+int good5
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 2.0.0.5665-6.2.4.21742
 $id$ID<32>
-Epic<32>[5]
-Superior<32>[5]
-Good<32>[5]
-
-LAYOUT 4E2C0BCC, 95C18368
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
-$noninline,id$ID<32>
-Epic<32>[5]
-Superior<32>[5]
-Good<32>[5]
-
-LAYOUT 7741F65C
-BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-damageReplaceStat<32>
-Epic<32>[5]
-Superior<32>[5]
-Good<32>[5]
+epic1<32>
+epic2<32>
+epic3<32>
+epic4<32>
+epic5<32>
+superior1<32>
+superior2<32>
+superior3<32>
+superior4<32>
+superior5<32>
+good1<32>
+good2<32>
+good3<32>
+good4<32>
+good5<32>

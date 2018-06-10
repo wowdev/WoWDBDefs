@@ -1,39 +1,25 @@
 COLUMNS
 int ID
-int volume
-int keyID
-int audioFileDataID
-int subtitleFileDataID
 string filename
-int field_435595641
-int field_312146733
-int field_653283186
-int field_796248661
+int volume
+uint keyID
+uint audioFileDataID
+uint subtitleFileDataID
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 volume<32>
 keyID<32>
 audioFileDataID<32>
 subtitleFileDataID<32>
 
-LAYOUT F3E9AE3B, 1137B67B
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-audioFileDataID<32>
-subtitleFileDataID<32>
-volume<8>
-keyID<8>
-
-BUILD 4.0.0.11792
+BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
 filename
 volume<32>
+keyID<32>
 
-LAYOUT 4848C4FB
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_435595641<8>
-field_312146733<8>
-field_653283186<32>
-field_796248661<32>
+BUILD 3.0.1.8303-4.0.0.12319
+$id$ID<32>
+filename
+volume<32>

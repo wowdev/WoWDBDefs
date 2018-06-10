@@ -1,119 +1,53 @@
 COLUMNS
-int field_1527471279?
-int field_1071707664?
-int field_472427780?
-float field_693568880?
-float field_386755604?
-float field_516301411?
-float field_890187431?
-int field_3489582336?
-int field_1208124387?
-int field_1648180473?
-int field_736616457?
-int field_646046202?
-int field_4222230091?
-int field_2504596630?
 int ID
-int animID
-int animKitID
-int attachmentID
-int endAnimID
-int flags
-int lowDefModelAttachID
 float offset
-float offsetVariation
-int parentSpellVisualKitID
-float pitch
-float pitchVariation
-int positionerID
-float roll
-float rollVariation
-float scale
-float scaleVariation
-int spellVisualEffectNameID
-int startAnimID
-float startDelay
+uint<SpellVisualKit::ID> parentSpellVisualKitID
 float yaw
-float yawVariation
-float offsetX
-float offsetY
-float offsetZ
+float pitch
+float roll
+uint<SpellVisualEffectName::ID> spellVisualEffectNameID
+uint attachmentID
+uint<AnimationData::ID> startAnimID
+uint<AnimationData::ID> animID
+uint<AnimationData::ID> endAnimID
+int field_3205223131?
+uint<AnimKit::ID> animKitID?
 
-BUILD 6.0.1.18179
-$id$ID<32>
-field_1527471279<32>
-field_1071707664<32>
-field_472427780<32>
-field_693568880[3]
-field_386755604
-field_516301411
-field_890187431
-field_3489582336<32>
-field_1208124387<32>
-field_1648180473<32>
-field_736616457<32>
-field_646046202<32>
-field_4222230091<32>
-field_2504596630<32>
-
-LAYOUT BCE18649
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-offset[3]
-offsetVariation[3]
-$id$ID<32>
-spellVisualEffectNameID<16>
-attachmentID<8>
-flags<8>
-positionerID<16>
-yaw
-pitch
-roll
-yawVariation
-pitchVariation
-rollVariation
-scale
-scaleVariation
-startAnimID<16>
-animID<16>
-endAnimID<16>
-animKitID<16>
-lowDefModelAttachID<32>
-startDelay
-$noninline,relation$parentSpellVisualKitID<32>
-
-BUILD 4.0.0.11792
+BUILD 5.0.1.15650-5.4.8.18414
 $id$ID<32>
 parentSpellVisualKitID<32>
 spellVisualEffectNameID<32>
 attachmentID<32>
-offsetX
-offsetY
-offsetZ
-yaw
-pitch
-roll
-
-LAYOUT 75650E39
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
 offset[3]
-offsetVariation[3]
-$id$ID<32>
-spellVisualEffectNameID<16>
-attachmentID<8>
-positionerID<16>
 yaw
 pitch
 roll
-yawVariation
-pitchVariation
-rollVariation
-scale
-scaleVariation
-startAnimID<16>
-animID<16>
-endAnimID<16>
-animKitID<16>
-flags<8>
-lowDefModelAttachID<32>
-startDelay
-$noninline,relation$parentSpellVisualKitID<32>
+field_3205223131<32>
+startAnimID<32>
+animID<32>
+endAnimID<32>
+animKitID<32>
+
+BUILD 4.0.6.13623-5.0.1.15640
+$id$ID<32>
+parentSpellVisualKitID<32>
+spellVisualEffectNameID<32>
+attachmentID<32>
+offset[3]
+yaw
+pitch
+roll
+field_3205223131<32>
+startAnimID<32>
+animID<32>
+endAnimID<32>
+
+BUILD 3.2.0.10192-4.0.6.13596
+$id$ID<32>
+parentSpellVisualKitID<32>
+spellVisualEffectNameID<32>
+attachmentID<32>
+offset[3]
+yaw
+pitch
+roll

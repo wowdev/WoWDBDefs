@@ -1,44 +1,24 @@
 COLUMNS
-int field_2471851980?
-int field_739230400?
-int field_1061240657?
-int field_4117380960?
-int field_945747275?
-int field_740989245?
-int field_2013714106?
-int field_1837165031?
-int field_3662697718?
-int field_2523454085?
-int field_2740640073?
-int field_1819773205?
-int field_4195437028?
-int field_3119697537?
-int field_2684464822?
-int field_3728393584?
-int field_469002402?
-int field_1754748671?
-float field_2080864359?
-float field_1742445114?
-int field_921879523?
-int field_2343287703?
-int field_423883166?
-int field_3650477862?
-int field_3380890489?
+int field_2710747347?
+int field_2428198169?
+int field_3625367900?
+int field_7219658264?
+int field_347667662?
+int field_5132760575?
+int field_1872919691?
+int field_8451231413?
+int field_4471846513?
+int field_1633337131?
+int field_4845838786?
+uint spellVisualMissileSetID
 int ID
-int animEventSoundID
-int casterSpellVisualID
-int damageNumberDelay
-int flags
-int hostileSpellVisualID
-int lowViolenceSpellVisualID
+uint<SoundEntries::ID> animEventSoundID
+uint flags
 int missileAttachment
 float missileCastOffset
-int missileCastPositionerID
 int missileDestinationAttachment
 float missileImpactOffset
-int missileImpactPositionerID
 int missileTargetingKit
-int spellVisualMissileSetID
 int precastKit
 int castKit
 int impactKit
@@ -54,7 +34,7 @@ int targetImpactKit
 int missileFollowGroundHeight
 int missileFollowGroundDropSpeed
 int missileFollowGroundApproach
-int missileFollowGroundFlags
+uint missileFollowGroundFlags
 int missileMotion
 int instantAreaKit
 int impactAreaKit
@@ -74,55 +54,136 @@ int weaponTrailBlue
 int weaponTrailAlpha
 int weaponTrailFadeoutRate
 int weaponTrailDuration
-int raidSpellVisualMissileSetID
 
-BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-field_2471851980<32>
-field_739230400<32>
-field_1061240657<32>
-field_4117380960<32>
-field_945747275<32>
-field_740989245<32>
-field_2013714106<32>
-field_1837165031<32>
-field_3662697718<32>
-field_2523454085<32>
-field_2740640073<32>
-field_1819773205<32>
-field_4195437028<32>
-field_3119697537<32>
-field_2684464822<32>
-field_3728393584<32>
-field_469002402<32>
-field_1754748671<32>
-field_2080864359[3]
-field_1742445114[3]
-field_921879523<32>
-field_2343287703<32>
-field_423883166<32>
-field_3650477862<32>
-field_3380890489<32>
-
-LAYOUT 1C1301D2
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
+field_2428198169<32>
+precastKit<32>
+castKit<32>
+impactKit<32>
+stateKit<32>
+stateDoneKit<32>
+channelKit<32>
+missileDestinationAttachment<32>
+animEventSoundID<32>
+field_1872919691<32>
+casterImpactKit<32>
+targetImpactKit<32>
+missileAttachment<32>
+missileMotion<32>
+missileTargetingKit<32>
+instantAreaKit<32>
+impactAreaKit<32>
+persistentAreaKit<32>
 missileCastOffset[3]
 missileImpactOffset[3]
-flags<32>
-spellVisualMissileSetID<16>
-missileDestinationAttachment<8>
-missileAttachment<8>
-missileCastPositionerID<32>
-missileImpactPositionerID<32>
-missileTargetingKit<32>
-animEventSoundID<32>
-damageNumberDelay<16>
-hostileSpellVisualID<32>
-casterSpellVisualID<32>
-lowViolenceSpellVisualID<32>
+field_8451231413<32>
+field_4471846513<32>
+field_1633337131<32>
+field_4845838786<32>
+spellVisualMissileSetID<32>
 
-BUILD 4.0.0.11792
+BUILD 5.0.1.15668-5.3.0.17116
+$id$ID<32>
+field_2428198169<32>
+precastKit<32>
+castKit<32>
+impactKit<32>
+stateKit<32>
+stateDoneKit<32>
+channelKit<32>
+hasMissile<32>
+missileModel<32>
+missilePathType<32>
+missileDestinationAttachment<32>
+missileSound<32>
+animEventSoundID<32>
+flags<32>
+casterImpactKit<32>
+targetImpactKit<32>
+missileAttachment<32>
+missileFollowGroundHeight<32>
+missileFollowGroundDropSpeed<32>
+missileFollowGroundApproach<32>
+field_3625367900<32>
+missileFollowGroundFlags<32>
+missileMotion<32>
+missileTargetingKit<32>
+instantAreaKit<32>
+impactAreaKit<32>
+persistentAreaKit<32>
+missileCastOffset[3]
+missileImpactOffset[3]
+field_2710747347<32>
+field_7219658264<32>
+field_347667662<32>
+field_5132760575<32>
+
+BUILD 5.0.1.15464-5.0.1.15662
+$id$ID<32>
+field_2428198169<32>
+precastKit<32>
+castKit<32>
+impactKit<32>
+stateKit<32>
+stateDoneKit<32>
+channelKit<32>
+hasMissile<32>
+missileModel<32>
+missilePathType<32>
+missileDestinationAttachment<32>
+missileSound<32>
+animEventSoundID<32>
+flags<32>
+casterImpactKit<32>
+targetImpactKit<32>
+missileAttachment<32>
+missileFollowGroundHeight<32>
+missileFollowGroundDropSpeed<32>
+missileFollowGroundApproach<32>
+field_3625367900<32>
+missileFollowGroundFlags<32>
+missileMotion<32>
+missileTargetingKit<32>
+instantAreaKit<32>
+impactAreaKit<32>
+persistentAreaKit<32>
+missileCastOffset[3]
+missileImpactOffset[3]
+field_2710747347<32>
+
+BUILD 4.1.0.13914-4.3.4.15595
+$id$ID<32>
+precastKit<32>
+castKit<32>
+impactKit<32>
+stateKit<32>
+stateDoneKit<32>
+channelKit<32>
+hasMissile<32>
+missileModel<32>
+missilePathType<32>
+missileDestinationAttachment<32>
+missileSound<32>
+animEventSoundID<32>
+flags<32>
+casterImpactKit<32>
+targetImpactKit<32>
+missileAttachment<32>
+missileFollowGroundHeight<32>
+missileFollowGroundDropSpeed<32>
+missileFollowGroundApproach<32>
+missileFollowGroundFlags<32>
+missileMotion<32>
+missileTargetingKit<32>
+instantAreaKit<32>
+impactAreaKit<32>
+persistentAreaKit<32>
+missileCastOffset[3]
+missileImpactOffset[3]
+field_2710747347<32>
+
+BUILD 3.2.0.10192-4.1.0.13875
 $id$ID<32>
 precastKit<32>
 castKit<32>
@@ -156,8 +217,36 @@ missileImpactOffsetX
 missileImpactOffsetY
 missileImpactOffsetZ
 
-BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 3.1.0.9767-3.1.3.9947
+$id$ID<32>
+precastKit<32>
+castKit<32>
+impactKit<32>
+stateKit<32>
+stateDoneKit<32>
+channelKit<32>
+hasMissile<32>
+missileModel<32>
+missilePathType<32>
+missileDestinationAttachment<32>
+missileSound<32>
+animEventSoundID<32>
+flags<32>
+casterImpactKit<32>
+targetImpactKit<32>
+missileAttachment<32>
+missileFollowGroundHeight<32>
+missileFollowGroundDropSpeed<32>
+missileFollowGroundApproach<32>
+missileFollowGroundFlags<32>
+missileMotion<32>
+missileTargetingKit<32>
+instantAreaKit<32>
+impactAreaKit<32>
+persistentAreaKit<32>
+
+BUILD 2.4.0.8089-3.0.9.9551
+$id$ID<32>
 precastKit<32>
 castKit<32>
 impactKit<32>
@@ -183,8 +272,72 @@ instantAreaKit<32>
 impactAreaKit<32>
 persistentAreaKit<32>
 
-BUILD 0.5.3.3368
-ID<32>
+BUILD 2.0.3.6299-2.3.3.7799
+$id$ID<32>
+precastKit<32>
+castKit<32>
+impactKit<32>
+stateKit<32>
+channelKit<32>
+hasMissile<32>
+missileModel<32>
+missilePathType<32>
+missileDestinationAttachment<32>
+missileSound<32>
+hasAreaEffect<32>
+areaModel<32>
+areaKit<32>
+animEventSoundID<32>
+flags<32>
+casterImpactKit<32>
+targetImpactKit<32>
+missileAttachment<32>
+missileFollowGroundHeight<32>
+missileFollowGroundDropSpeed<32>
+missileFollowGroundApproach<32>
+missileFollowGroundFlags<32>
+missileMotion<32>
+
+BUILD 2.0.0.6080
+$id$ID<32>
+precastKit<32>
+castKit<32>
+impactKit<32>
+stateKit<32>
+channelKit<32>
+hasMissile<32>
+missileModel<32>
+missilePathType<32>
+missileDestinationAttachment<32>
+missileSound<32>
+hasAreaEffect<32>
+areaModel<32>
+areaKit<32>
+animEventSoundID<32>
+flags<32>
+casterImpactKit<32>
+targetImpactKit<32>
+
+BUILD 0.7.0.3694-2.0.0.5991
+$id$ID<32>
+precastKit<32>
+castKit<32>
+impactKit<32>
+stateKit<32>
+channelKit<32>
+hasMissile<32>
+missileModel<32>
+missilePathType<32>
+missileDestinationAttachment<32>
+missileSound<32>
+hasAreaEffect<32>
+areaModel<32>
+areaKit<32>
+animEventSoundID<32>
+flags<32>
+
+BUILD 0.5.3.3368-0.6.0.3592
+$id$ID<32>
 precastKit<32>
 castKit<32>
 impactKit<32>
@@ -205,40 +358,3 @@ weaponTrailBlue<8>
 weaponTrailAlpha<8>
 weaponTrailFadeoutRate<8>
 weaponTrailDuration<32>
-
-LAYOUT 8B390BA8
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
-$noninline,id$ID<32>
-flags<32>
-missileCastOffset[3]
-missileImpactOffset[3]
-spellVisualMissileSetID<16>
-missileAttachment<8>
-missileDestinationAttachment<8>
-animEventSoundID<32>
-missileCastPositionerID<32>
-missileImpactPositionerID<32>
-missileTargetingKit<32>
-hostileSpellVisualID<32>
-casterSpellVisualID<32>
-damageNumberDelay<16>
-lowViolenceSpellVisualID<32>
-
-LAYOUT 514F85ED
-BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-missileCastOffset[3]
-missileImpactOffset[3]
-animEventSoundID<32>
-flags<32>
-missileAttachment<8>
-missileDestinationAttachment<8>
-missileCastPositionerID<32>
-missileImpactPositionerID<32>
-missileTargetingKit<32>
-hostileSpellVisualID<32>
-casterSpellVisualID<32>
-spellVisualMissileSetID<16>
-damageNumberDelay<16>
-lowViolenceSpellVisualID<32>
-raidSpellVisualMissileSetID<32>

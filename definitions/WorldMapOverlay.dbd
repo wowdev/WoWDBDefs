@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int<WorldMapArea::ID> mapAreaID
-int<AreaTable::ID> areaID
+uint<WorldMapArea::ID> mapAreaID
+uint<AreaTable::ID> areaID
 string textureName
 int textureWidth
 int textureHeight
@@ -11,13 +11,11 @@ int hitRectTop
 int hitRectLeft
 int hitRectBottom
 int hitRectRight
-int playerConditionID
-int flags
+uint playerConditionID
 int mapPointX
 int mapPointY
-int uiMapArtID
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15668-5.4.8.18414
 $id$ID<32>
 mapAreaID<32>
 areaID<32>[4]
@@ -32,24 +30,35 @@ hitRectBottom<32>
 hitRectRight<32>
 playerConditionID<32>
 
-LAYOUT DC4B6AF3
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-textureName
+BUILD 4.1.0.13914-5.0.1.15662
 $id$ID<32>
-textureWidth<16>
-textureHeight<16>
-$relation$mapAreaID<32>
+mapAreaID<32>
+areaID<32>[4]
+textureName
+textureWidth<32>
+textureHeight<32>
 offsetX<32>
 offsetY<32>
 hitRectTop<32>
 hitRectLeft<32>
 hitRectBottom<32>
 hitRectRight<32>
-playerConditionID<32>
-flags<32>
-areaID<32>[4]
 
-BUILD 4.0.0.11792
+BUILD 4.0.6.13623
+$id$ID<32>
+mapAreaID<32>
+areaID<32>[4]
+textureName
+textureWidth<32>
+textureHeight<32>
+offsetX<32>
+offsetY<32>
+hitRectTop<32>
+hitRectLeft<32>
+hitRectBottom<32>
+hitRectRight<32>
+
+BUILD 0.6.0.3592-4.0.6.13596
 $id$ID<32>
 mapAreaID<32>
 areaID<32>[4]
@@ -65,51 +74,14 @@ hitRectLeft<32>
 hitRectBottom<32>
 hitRectRight<32>
 
-LAYOUT 76440FD7
-BUILD 8.0.1.26297
+BUILD 0.5.5.3494
+$id$ID<32>
+mapAreaID<32>
+areaID<32>
+mapPointX<32>
+mapPointY<32>
 textureName
-$id$ID<32>
-textureWidth<16>
-textureHeight<16>
-$relation$mapAreaID<32>
+textureWidth<32>
+textureHeight<32>
 offsetX<32>
 offsetY<32>
-hitRectTop<32>
-hitRectBottom<32>
-hitRectLeft<32>
-hitRectRight<32>
-playerConditionID<32>
-flags<32>
-areaID<32>[4]
-
-LAYOUT 3F9FB482
-BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$id$ID<32>
-textureWidth<16>
-textureHeight<16>
-$relation$uiMapArtID<32>
-offsetX<32>
-offsetY<32>
-hitRectTop<32>
-hitRectBottom<32>
-hitRectLeft<32>
-hitRectRight<32>
-playerConditionID<32>
-flags<32>
-areaID<32>[4]
-
-LAYOUT 837A3DAA
-BUILD 8.0.1.26788, 8.0.1.26806
-$id$ID<32>
-$relation$uiMapArtID<32>
-textureWidth<16>
-textureHeight<16>
-offsetX<32>
-offsetY<32>
-hitRectTop<32>
-hitRectBottom<32>
-hitRectLeft<32>
-hitRectRight<32>
-playerConditionID<32>
-flags<32>
-areaID<32>[4]

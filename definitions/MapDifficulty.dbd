@@ -1,30 +1,15 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-int<Difficulty::ID> difficultyID
+uint<Map::ID> mapID
+int difficulty
 locstring message_lang
 int raidDuration
 int maxPlayers
-int lockID
-int flags
-int itemContext
-int itemContextPickerID
-int resetInterval
-int difficulty
 string difficultystring
-int field_4001413544?
-locstring field_1055113062_lang
-int field_855937208
-int field_881099931
-int field_1115388082
-int field_1653221040
-int field_122606935
-int field_251720579
-int field_2081637855
-int field_183643775
-int field_1927128673
+uint<Difficulty::ID> difficultyID
+uint<Lock::ID> lockID
 
-BUILD 6.0.1.18179
+BUILD 5.1.0.16309-5.4.8.18414
 $id$ID<32>
 mapID<32>
 difficultyID<32>
@@ -33,20 +18,15 @@ raidDuration<32>
 maxPlayers<32>
 lockID<32>
 
-LAYOUT 2B3B759E
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
+BUILD 5.0.2.15827-5.0.5.16135
+$id$ID<32>
+mapID<32>
+difficulty<32>
 message_lang
-difficultyID<8>
-resetInterval<8>
-maxPlayers<8>
-lockID<8>
-flags<8>
-itemContext<8>
-itemContextPickerID<32>
-$noninline,relation$mapID<16>
+raidDuration<32>
+maxPlayers<32>
 
-BUILD 4.0.0.11792
+BUILD 3.2.0.10192-5.0.1.15799
 $id$ID<32>
 mapID<32>
 difficulty<32>
@@ -54,58 +34,3 @@ message_lang
 raidDuration<32>
 maxPlayers<32>
 difficultystring
-
-LAYOUT A3A48EFC
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
-$noninline,id$ID<32>
-message_lang
-difficultyID<8>
-lockID<8>
-resetInterval<8>
-maxPlayers<8>
-itemContext<8>
-flags<8>
-itemContextPickerID<32>
-$noninline,relation$mapID<16>
-
-LAYOUT DD36F940
-BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
-$noninline,id$ID<32>
-message_lang
-field_4001413544<32>
-difficultyID<8>
-lockID<8>
-resetInterval<8>
-maxPlayers<8>
-itemContext<8>
-flags<8>
-itemContextPickerID<32>
-$noninline,relation$mapID<16>
-
-LAYOUT 4B65E4A8
-BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-message_lang
-difficultyID<8>
-lockID<8>
-resetInterval<8>
-maxPlayers<8>
-itemContext<8>
-flags<8>
-itemContextPickerID<32>
-field_4001413544<32>
-$noninline,relation$mapID<16>
-
-LAYOUT F876E8BA
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1055113062_lang
-field_855937208<32>
-field_881099931<32>
-field_1115388082<8>
-field_1653221040<8>
-field_122606935<8>
-field_251720579<8>
-field_2081637855<8>
-field_183643775<8>
-$noninline,relation$field_1927128673<16>

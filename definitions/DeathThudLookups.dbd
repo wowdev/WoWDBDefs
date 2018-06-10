@@ -1,21 +1,13 @@
 COLUMNS
 int ID
-int SizeClass
-int<TerrainTypeSounds::ID> TerrainTypeSoundID
-int<SoundEntries::ID> SoundEntryID
-int<SoundEntries::ID> SoundEntryIDWater
+int sizeClass
+uint<TerrainTypeSounds::ID> terrainTypeSoundID
+uint<SoundEntries::ID> soundEntryID
+int<SoundEntries::ID> soundEntryIDWater
 
-BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
+BUILD 0.5.3.3368-6.2.4.21742
 $id$ID<32>
-SizeClass<32>
-TerrainTypeSoundID<32>
-SoundEntryID<32>
-SoundEntryIDWater<32>
-
-LAYOUT D469085C, 3BF7542C
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-SizeClass<8>
-TerrainTypeSoundID<8>
-SoundEntryID<32>
-SoundEntryIDWater<32>
+sizeClass<32>
+terrainTypeSoundID<32>
+soundEntryID<32>
+soundEntryIDWater<32>

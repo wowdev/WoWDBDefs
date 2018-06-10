@@ -1,21 +1,15 @@
 COLUMNS
 int ID
-int<Criteria::ID> criteriaID
+uint<Criteria::ID> criteriaID
 int amount
 int operator
 int parent
-int flags
+uint flags
 locstring description_lang
 int orderIndex
 int padding_2173460021?
-int field_706277248
-int field_1923724993
-int field_125683716
-int field_1490704081
-int field_1304622202
-int field_149880781
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15640-6.2.4.21742
 $id$ID<32>
 criteriaID<32>
 amount<64>
@@ -26,35 +20,11 @@ description_lang
 orderIndex<32>
 padding_2173460021<8>[4]
 
-LAYOUT 0A1B99C2
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-description_lang
-amount<32>
-flags<16>
-operator<8>
+BUILD 5.0.1.15464-5.0.1.15544
+$id$ID<32>
 criteriaID<32>
+amount<64>
+operator<32>
 parent<32>
-orderIndex<32>
-
-LAYOUT FE8A051B, EBFD8438
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
+flags<32>
 description_lang
-amount<32>
-flags<16>
-operator<8>
-parent<32>
-criteriaID<32>
-orderIndex<32>
-
-LAYOUT C926CF94
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-description_lang
-field_706277248<32>
-field_1923724993<32>
-field_125683716<8>
-field_1490704081<32>
-field_1304622202<32>
-field_149880781<16>

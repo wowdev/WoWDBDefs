@@ -1,14 +1,21 @@
 COLUMNS
 int ID
-int spells
-int availability
+int spells1
+int spells2
+int spells3
+int spells4
+int availability1
+int availability2
+int availability3
+int availability4
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 1.8.0.4714-6.2.0.19973
 $id$ID<32>
-spells<32>[4]
-availability<32>[4]
-
-BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
-ID<32>
-spells<32>[4]
-availability<32>[4]
+spells1<32>
+spells2<32>
+spells3<32>
+spells4<32>
+availability1<32>
+availability2<32>
+availability3<32>
+availability4<32>

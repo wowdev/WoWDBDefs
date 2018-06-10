@@ -1,37 +1,20 @@
 COLUMNS
 int ID
-int<JournalEncounter::ID> journalEncounterID
-int<JournalEncounterSection::ID> nextSiblingSectionID
-int<JournalEncounterSection::ID> firstChildSectionID
-int<JournalEncounterSection::ID> parentSectionID
+uint<JournalEncounter::ID> journalEncounterID
+uint<JournalEncounterSection::ID> nextSiblingSectionID
+uint<JournalEncounterSection::ID> firstChildSectionID
+uint<JournalEncounterSection::ID> parentSectionID
 int orderIndex
 int type
-int flags
-int iconFlags
+uint flags
+uint iconFlags
 locstring title_lang
 locstring bodyText_lang
-int difficultyMask
-int<CreatureDisplayInfo::ID> iconCreatureDisplayInfoID
-int<Spell::ID> spellID
-int<FileData::ID> iconFileDataID
-int uiModelSceneID
-locstring field_1334429711_lang
-locstring field_724609940_lang
-int field_438633626
-int field_111863020
-int field_156772335
-int field_935495309
-int field_1003959829
-int field_1381800336
-int field_1014250478
-int field_560509133
-int field_946108101
-int field_155774915
-int field_413734191
-int field_981501346
-int field_044777453
+uint difficultyMask
+uint<CreatureDisplayInfo::ID> iconCreatureDisplayInfoID
+uint<FileData::ID> iconFileDataID
 
-BUILD 6.0.1.18179
+BUILD 4.2.0.14333-5.4.8.18414
 $id$ID<32>
 journalEncounterID<32>
 nextSiblingSectionID<32>
@@ -45,81 +28,4 @@ title_lang
 bodyText_lang
 difficultyMask<32>
 iconCreatureDisplayInfoID<32>
-spellID<32>
 iconFileDataID<32>
-
-LAYOUT 60BB3520
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-title_lang
-bodyText_lang
-iconCreatureDisplayInfoID<32>
-spellID<32>
-iconFileDataID<32>
-journalEncounterID<16>
-nextSiblingSectionID<16>
-firstChildSectionID<16>
-parentSectionID<16>
-flags<16>
-iconFlags<16>
-orderIndex<8>
-type<8>
-difficultyMask<8>
-uiModelSceneID<32>
-
-LAYOUT 63E55BE4
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-title_lang
-bodyText_lang
-iconCreatureDisplayInfoID<32>
-spellID<32>
-iconFileDataID<32>
-journalEncounterID<16>
-parentSectionID<16>
-firstChildSectionID<16>
-nextSiblingSectionID<16>
-flags<16>
-iconFlags<16>
-orderIndex<8>
-type<8>
-difficultyMask<8>
-uiModelSceneID<32>
-
-LAYOUT 13E56B12
-BUILD 7.3.5.26654
-$noninline,id$ID<32>
-title_lang
-bodyText_lang
-iconCreatureDisplayInfoID<32>
-uiModelSceneID<32>
-spellID<32>
-iconFileDataID<32>
-journalEncounterID<16>
-nextSiblingSectionID<16>
-firstChildSectionID<16>
-parentSectionID<16>
-flags<16>
-iconFlags<16>
-orderIndex<8>
-type<8>
-difficultyMask<8>
-
-LAYOUT 582FB4F6
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1334429711_lang
-field_724609940_lang
-field_438633626<16>
-field_111863020<8>
-field_156772335<16>
-field_935495309<16>
-field_1003959829<16>
-field_1381800336<8>
-field_1014250478<32>
-field_560509133<32>
-field_946108101<32>
-field_155774915<32>
-field_413734191<16>
-field_981501346<16>
-field_044777453<8>

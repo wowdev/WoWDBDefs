@@ -1,31 +1,24 @@
 COLUMNS
-int padding_229586292?
 int ID
-float alpha
-float baseMissileSpeed
-int dissolveEffectID
-float effectRadius
-int flags
-int genericID
-float maxAllowedScale
-float minAllowedScale
-int modelFileDataID
-int ribbonQualityID
-float scale
-int textureFileDataID
-int type
 string name
 string fileName
 float areaEffectSize
-int VisualEffectNameFlags // <code>UnitEffectIsAuraWorldObject</code>
-int modelPosition
-int specialID
+float scale
+float minAllowedScale
+float maxAllowedScale
+float alpha
+int type
+uint flags
+int padding_229586292?
+int field_1436216259?
 int specialAttachPoint
+uint specialID
+uint visualEffectNameFlags
 
-BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-fileName
-effectRadius
+name
+areaEffectSize
 scale
 minAllowedScale
 maxAllowedScale
@@ -33,26 +26,31 @@ type<8>
 padding_229586292<8>[3]
 alpha
 flags<32>
-genericID<32>
 
-LAYOUT 2A02639A
-BUILD 8.0.1.26095, 8.0.1.26287
-$noninline,id$ID<32>
-modelFileDataID<32>
-effectRadius
-baseMissileSpeed
+BUILD 5.0.1.15589-5.3.0.17116
+$id$ID<32>
+name
+fileName
+areaEffectSize
 scale
 minAllowedScale
 maxAllowedScale
+type<32>
 alpha
 flags<32>
-type<32>
-genericID<32>
-textureFileDataID<32>
-ribbonQualityID<32>
-dissolveEffectID<32>
 
-BUILD 4.0.0.11792
+BUILD 4.1.0.13914-5.0.1.15544
+$id$ID<32>
+name
+fileName
+areaEffectSize
+scale
+minAllowedScale
+maxAllowedScale
+type<32>
+alpha
+
+BUILD 3.0.1.8820-4.0.6.13623
 $id$ID<32>
 name
 fileName
@@ -61,79 +59,41 @@ scale
 minAllowedScale
 maxAllowedScale
 
-BUILD 3.0.1.8303
-ID<32>
+BUILD 2.4.0.8089-3.0.1.8788
+$id$ID<32>
 name
 fileName
 areaEffectSize
 scale
 
-BUILD 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 2.0.0.6080-2.3.3.7799
+$id$ID<32>
 name
 fileName
+field_1436216259<32>
 areaEffectSize
 scale
-minAllowedScale
-maxAllowedScale
 
-BUILD 0.5.3.3368
-ID<32>
+BUILD 0.8.0.3734-2.0.0.5991
+$id$ID<32>
+name
+fileName
+specialAttachPoint<32>
+areaEffectSize
+
+BUILD 0.7.0.3694-0.7.6.3712
+$id$ID<32>
+name
 fileName
 specialID<32>
 specialAttachPoint<32>
 areaEffectSize
-VisualEffectNameFlags<32>
+visualEffectNameFlags<32>
 
-LAYOUT 81C922D3
-BUILD 8.0.1.26175, 8.0.1.26231
-$noninline,id$ID<32>
-modelFileDataID<32>
-effectRadius
-baseMissileSpeed
-scale
-minAllowedScale
-maxAllowedScale
-alpha
-flags<32>
-type<32>
-genericID<32>
-textureFileDataID<32>
-ribbonQualityID<32>
-dissolveEffectID<32>
-modelPosition<32>
-
-LAYOUT 10206967
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-modelFileDataID<32>
-baseMissileSpeed
-scale
-minAllowedScale
-maxAllowedScale
-alpha
-flags<32>
-textureFileDataID<32>
-effectRadius
-type<32>
-genericID<32>
-ribbonQualityID<32>
-dissolveEffectID<32>
-modelPosition<32>
-
-LAYOUT B930A934
-BUILD 7.3.5.26654
-$noninline,id$ID<32>
-effectRadius
-baseMissileSpeed
-scale
-minAllowedScale
-maxAllowedScale
-alpha
-flags<32>
-genericID<32>
-textureFileDataID<32>
-type<8>
-modelFileDataID<32>
-ribbonQualityID<32>
-dissolveEffectID<32>
+BUILD 0.5.3.3368-0.6.0.3592
+$id$ID<32>
+fileName
+specialID<32>
+specialAttachPoint<32>
+areaEffectSize
+visualEffectNameFlags<32>

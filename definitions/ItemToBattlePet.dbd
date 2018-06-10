@@ -1,7 +1,7 @@
 COLUMNS
-int ItemID?
-int field_3259046429?
+uint itemID?
+uint<BattlePetSpecies::ID> speciesID?
 
-BUILD 6.0.1.18179
-ItemID<32>
-field_3259046429<32>
+BUILD 5.4.2.17645-5.4.8.18414
+itemID<32>
+speciesID<32>

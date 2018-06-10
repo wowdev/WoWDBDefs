@@ -5,14 +5,13 @@ int minScaleLevel
 float maxScale
 int maxScaleLevel
 int<SkillLine::ID> skillLine
-int petFoodMask
+uint petFoodMask
 int petTalentType
-int categoryEnumID
+uint categoryEnumID
 locstring name_lang
 string iconFile
-int iconFileID
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 3.0.1.8622-6.2.4.21742
 $id$ID<32>
 minScale
 minScaleLevel<32>
@@ -25,21 +24,8 @@ categoryEnumID<32>
 name_lang
 iconFile
 
-LAYOUT E2DC5126, E5F24AFA
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-name_lang
-minScale
-maxScale
-iconFileID<32>
-skillLine<16>[2]
-petFoodMask<16>
-minScaleLevel<8>
-maxScaleLevel<8>
-petTalentType<8>
-
-BUILD 3.0.1.8303
-ID<32>
+BUILD 0.9.0.3807-3.0.1.8471
+$id$ID<32>
 minScale
 minScaleLevel<32>
 maxScale
@@ -49,36 +35,10 @@ petFoodMask<32>
 name_lang
 iconFile
 
-BUILD 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 0.5.3.3368-0.8.0.3734
+$id$ID<32>
 minScale
 minScaleLevel<32>
 maxScale
 maxScaleLevel<32>
 skillLine<32>[2]
-petFoodMask<32>
-petTalentType<32>
-categoryEnumID<32>
-name_lang
-iconFile
-
-BUILD 0.5.3.3368
-ID<32>
-minScale
-minScaleLevel<32>
-maxScale
-maxScaleLevel<32>
-skillLine<32>[2]
-
-LAYOUT 9D14B492
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-name_lang
-minScale
-minScaleLevel<8>
-maxScale
-maxScaleLevel<8>
-petFoodMask<16>
-petTalentType<8>
-iconFileID<32>
-skillLine<16>[2]

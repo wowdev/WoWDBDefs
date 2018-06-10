@@ -2,16 +2,11 @@ COLUMNS
 int ID
 float rangeMin
 float rangeMax
-int flags
+uint flags
 locstring displayName_lang
 locstring displayNameShort_lang
-locstring field_706376231_lang
-locstring field_1021321616_lang
-int field_1853815033
-float field_1545615118
-float field_2037991337
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 3.0.1.8303-6.2.0.20008
 $id$ID<32>
 rangeMin[2]
 rangeMax[2]
@@ -19,28 +14,10 @@ flags<32>
 displayName_lang
 displayNameShort_lang
 
-LAYOUT DE2E3F8E, 6F18DB4E
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-displayName_lang
-displayNameShort_lang
-rangeMin[2]
-rangeMax[2]
-flags<8>
-
-BUILD 0.5.3.3368
-ID<32>
+BUILD 0.5.3.3368-2.4.3.8606
+$id$ID<32>
 rangeMin
 rangeMax
 flags<32>
 displayName_lang
 displayNameShort_lang
-
-LAYOUT 6B9E2FD2
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_706376231_lang
-field_1021321616_lang
-field_1853815033<8>
-field_1545615118[2]
-field_2037991337[2]

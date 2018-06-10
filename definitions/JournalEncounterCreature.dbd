@@ -1,22 +1,13 @@
 COLUMNS
 int ID
-int<JournalEncounter::ID> journalEncounterID
-int<CreatureDisplayInfo::ID> creatureDisplayInfoID
+uint<JournalEncounter::ID> journalEncounterID
+uint<CreatureDisplayInfo::ID> creatureDisplayInfoID
 int orderIndex
-int<FileData::ID> fileDataID
+uint<FileData::ID> fileDataID
 locstring name_lang
 locstring description_lang
-int uiModelSceneID
-locstring field_801611165_lang
-locstring field_1617057008_lang
-int field_1773160246
-int field_2061953316
-int field_1697836805
-int field_832164116
-int field_1774470349
-int field_635263721
 
-BUILD 6.0.1.18179
+BUILD 4.2.0.14333-5.4.8.18414
 $id$ID<32>
 journalEncounterID<32>
 creatureDisplayInfoID<32>
@@ -24,36 +15,3 @@ orderIndex<32>
 fileDataID<32>
 name_lang
 description_lang
-
-LAYOUT F105CB72, 53194A7B
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-name_lang
-description_lang
-creatureDisplayInfoID<32>
-fileDataID<32>
-$relation$journalEncounterID<16>
-orderIndex<8>
-$id$ID<32>
-uiModelSceneID<32>
-
-LAYOUT 22C79A42
-BUILD 7.3.5.26654
-name_lang
-description_lang
-creatureDisplayInfoID<32>
-fileDataID<32>
-uiModelSceneID<32>
-$relation$journalEncounterID<16>
-orderIndex<8>
-$id$ID<32>
-
-LAYOUT 71CE658D
-BUILD 8.0.1.26788, 8.0.1.26806
-field_801611165_lang
-field_1617057008_lang
-$id$field_1773160246<32>
-$relation$field_2061953316<16>
-field_1697836805<32>
-field_832164116<32>
-field_1774470349<8>
-field_635263721<32>

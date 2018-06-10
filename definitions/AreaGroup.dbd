@@ -1,9 +1,19 @@
 COLUMNS
 int ID
-int<AreaTable::ID> areaID
-int<AreaGroup::ID> nextAreaID
+int areaID1
+int areaID2
+int areaID3
+int areaID4
+int areaID5
+int areaID6
+uint<AreaGroup::ID> nextAreaID
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 3.0.1.8622-6.0.3.19342
 $id$ID<32>
-areaID<32>[6]
+areaID1<32>
+areaID2<32>
+areaID3<32>
+areaID4<32>
+areaID5<32>
+areaID6<32>
 nextAreaID<32>

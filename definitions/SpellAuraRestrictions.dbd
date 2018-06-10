@@ -1,69 +1,37 @@
 COLUMNS
-int field_375105213?
-int field_710674707?
-int field_2995613535?
-int field_3664651641?
-int field_517330213?
-int field_4275692418?
-int field_4288900431?
-int field_657001117?
 int ID
-int casterAuraSpell
-int casterAuraState
-int difficultyID
-int excludeCasterAuraSpell
 int excludeCasterAuraState
-int excludeTargetAuraSpell
 int excludeTargetAuraState
-int spellID
+int casterAuraSpell
 int targetAuraSpell
+int excludeCasterAuraSpell
+int excludeTargetAuraSpell
+int casterAuraState
 int targetAuraState
-int field_1784801535
-int field_799478653
-int field_1852214331
-int field_1949278685
-int field_1407814467
-int field_1733134024
-int field_071293649
-int field_111071623
-int field_570593716
-int field_492054885
+uint<Spell::ID> spellID?
+uint<Difficulty::ID> difficultyID?
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15589-6.0.1.18156
 $id$ID<32>
-field_375105213<32>
-field_710674707<32>
-field_2995613535<32>
-field_3664651641<32>
-field_517330213<32>
-field_4275692418<32>
-field_4288900431<32>
-field_657001117<32>
-
-LAYOUT 7CDF3311, 64858129
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
+spellID<32>
+difficultyID<32>
+casterAuraState<32>
+targetAuraState<32>
+excludeCasterAuraState<32>
+excludeTargetAuraState<32>
 casterAuraSpell<32>
 targetAuraSpell<32>
 excludeCasterAuraSpell<32>
 excludeTargetAuraSpell<32>
-difficultyID<8>
-casterAuraState<8>
-targetAuraState<8>
-excludeCasterAuraState<8>
-excludeTargetAuraState<8>
-$noninline,relation$spellID<32>
 
-LAYOUT D7479271
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1784801535<8>
-field_799478653<8>
-field_1852214331<8>
-field_1949278685<8>
-field_1407814467<8>
-field_1733134024<32>
-field_071293649<32>
-field_111071623<32>
-field_570593716<32>
-$noninline,relation$field_492054885<32>
+BUILD 4.0.0.12232-5.0.1.15544
+BUILD 6.0.1.18164-6.2.4.21742
+$id$ID<32>
+casterAuraState<32>
+targetAuraState<32>
+excludeCasterAuraState<32>
+excludeTargetAuraState<32>
+casterAuraSpell<32>
+targetAuraSpell<32>
+excludeCasterAuraSpell<32>
+excludeTargetAuraSpell<32>

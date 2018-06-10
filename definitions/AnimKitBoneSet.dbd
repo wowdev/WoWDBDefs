@@ -1,24 +1,15 @@
 COLUMNS
 int ID
-string name
-int boneDataID
-int<AnimKitBoneSet::ID> parentAnimKitBoneSetID
+uint boneDataID
+uint<AnimKitBoneSet::ID> parentAnimKitBoneSetID
 int extraBoneCount
-int<AnimKitBoneSet::ID> altAnimKitBoneSetID
+uint<AnimKitBoneSet::ID> altAnimKitBoneSetID
+string name
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>
 name
 boneDataID<32>
 parentAnimKitBoneSetID<32>
 extraBoneCount<32>
 altAnimKitBoneSetID<32>
-
-LAYOUT FE4B9B1F, 1C432613
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-name
-boneDataID<8>
-parentAnimKitBoneSetID<8>
-extraBoneCount<8>
-altAnimKitBoneSetID<8>

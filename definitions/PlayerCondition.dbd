@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-int flags
+uint flags
 int minLevel
 int maxLevel
-int raceMask
-int classMask
+uint raceMask
+uint classMask
 int gender
 int nativeGender
-int skillID
+uint skillID
 int minSkill
 int maxSkill
 int skillLogic
-int languageID
+uint languageID
 int minLanguage
 int maxLanguage
-int minFactionID
-int maxFactionID
+uint<Faction::ID> minFactionID
+uint<Faction::ID> maxFactionID
 int minReputation
 int maxReputation
 int reputationLogic
@@ -23,23 +23,23 @@ int minPVPRank
 int maxPVPRank
 int pvpMedal
 int prevQuestLogic
-int prevQuestID
+uint prevQuestID
 int currQuestLogic
-int currQuestID
+uint currQuestID
 int currentCompletedQuestLogic
-int currentCompletedQuestID
+uint currentCompletedQuestID
 int spellLogic
-int spellID
+uint<Spell::ID> spellID
 int itemLogic
-int itemID
+uint itemID
 int itemCount
-int itemFlags
+uint itemFlags
 int explored
 int time
 int auraSpellLogic
-int auraSpellID
-int worldStateExpressionID
-int weatherID
+uint<Spell::ID> auraSpellID
+uint worldStateExpressionID
+uint<Weather::ID> weatherID
 int partyStatus
 int lifetimeMaxPVPRank
 int achievementLogic
@@ -49,11 +49,11 @@ int lfgStatus
 int lfgCompare
 int lfgValue
 int areaLogic
-int areaID
+uint areaID
 int currencyLogic
-int currencyID
+uint currencyID
 int currencyCount
-int questKillID
+uint questKillID
 int questKillLogic
 int questKillMonster
 int minExpansionLevel
@@ -62,9 +62,9 @@ int minExpansionTier
 int maxExpansionTier
 int minGuildLevel
 int maxGuildLevel
-int phaseUseFlags
-int phaseID
-int phaseGroupID
+uint phaseUseFlags
+uint<Phase::ID> phaseID
+uint phaseGroupID
 int minAvgItemLevel
 int maxAvgItemLevel
 int minAvgEquippedItemLevel
@@ -75,94 +75,162 @@ locstring failure_description_lang
 int powerType
 int powerTypeComp
 int powerTypeValue
-int auraStacks
-int currentPvpFaction
-int modifierTreeID
-int movementFlags
-int weaponSubclassMask
-int field_1565570172
-locstring field_667930159_lang
-int field_1052601501
-int field_1146397000
-int field_737370094
-int field_1758939595
-int field_1576814347
-int field_1512400963
-int field_1444856220
-int field_692815291
-int field_812247081
-int field_1651402191
-int field_015124555
-int field_1258672773
-int field_608827911
-int field_1861702598
-int field_1579005437
-int field_450600156
-int field_694026972
-int field_1717040953
-int field_278888823
-int field_500346339
-int field_229963683
-int field_1904883519
-int field_1887919121
-int field_1658163695
-int field_1737639570
-int field_669839149
-int field_930346889
-int field_2010824647
-int field_907395471
-int field_396813681
-int field_833285421
-int field_095349031
-int field_1916439443
-int field_1479353950
-int field_191502843
-int field_008251968
-int field_1309495283
-int field_946371974
-int field_917713198
-int field_1181794413
-int field_1362064827
-int field_488524744
-int field_980671058
-int field_1446239111
-int field_349880215
-int field_1833140562
-int field_2133486234
-int field_2041609118
-int field_1475201272
-int field_1475441405
-int field_1435760106
-int field_668429593
-int field_681994432
-int field_477335732
-int field_1997562022
-int field_707313528
-int field_818073425
-int field_638801945
-int field_1580895571
-int field_319087097
-int field_2141649620
-int field_993627119
-int field_1345015366
-int field_1975028946
-int field_230228669
-int field_1479371070
-int field_901828876
-int field_689069507
-int field_1082311654
-int field_982865368
-int field_700700419
-int field_1307250544
-int field_211439654
-int field_656689956
-int field_697877058
-int field_1301034485
-int field_336324360
-int field_2001275556
-int field_720395379
 
-BUILD 6.0.1.18179
+BUILD 4.2.0.14333-4.3.4.15595
+$id$ID<32>
+failure_description_lang
+
+BUILD 5.0.1.15662
+BUILD 5.0.1.15464-5.0.1.15640
+$id$ID<32>
+flags<32>
+minLevel<32>
+maxLevel<32>
+raceMask<32>
+classMask<32>
+gender<32>
+nativeGender<32>
+skillID<32>[4]
+minSkill<32>[4]
+maxSkill<32>[4]
+skillLogic<32>
+languageID<32>
+minLanguage<32>
+maxLanguage<32>
+minFactionID<32>[3]
+maxFactionID<32>
+minReputation<32>[3]
+maxReputation<32>
+reputationLogic<32>
+minPVPRank<32>
+maxPVPRank<32>
+pvpMedal<32>
+prevQuestLogic<32>
+prevQuestID<32>[4]
+currQuestLogic<32>
+currQuestID<32>[4]
+currentCompletedQuestLogic<32>
+currentCompletedQuestID<32>[4]
+spellLogic<32>
+spellID<32>[4]
+itemLogic<32>
+itemID<32>[4]
+itemCount<32>[4]
+itemFlags<32>
+explored<32>[2]
+time<32>[2]
+auraSpellLogic<32>
+auraSpellID<32>[4]
+worldStateExpressionID<32>
+weatherID<32>
+partyStatus<32>
+lifetimeMaxPVPRank<32>
+achievementLogic<32>
+achievement<32>[4]
+lfgLogic<32>
+lfgStatus<32>[4]
+lfgCompare<32>[4]
+lfgValue<32>[4]
+areaLogic<32>
+areaID<32>[4]
+currencyLogic<32>
+currencyID<32>[4]
+currencyCount<32>[4]
+questKillID<32>
+questKillLogic<32>
+questKillMonster<32>[4]
+minExpansionLevel<32>
+maxExpansionLevel<32>
+minExpansionTier<32>
+maxExpansionTier<32>
+minGuildLevel<32>
+maxGuildLevel<32>
+phaseUseFlags<32>
+phaseID<32>
+phaseGroupID<32>
+minAvgItemLevel<32>
+maxAvgItemLevel<32>
+minAvgEquippedItemLevel<32>
+maxAvgEquippedItemLevel<32>
+failure_description_lang
+
+BUILD 5.0.1.15650, 5.0.1.15657
+BUILD 5.0.1.15668-5.1.0.16357
+$id$ID<32>
+flags<32>
+minLevel<32>
+maxLevel<32>
+raceMask<32>
+classMask<32>
+gender<32>
+nativeGender<32>
+skillID<32>[4]
+minSkill<32>[4]
+maxSkill<32>[4]
+skillLogic<32>
+languageID<32>
+minLanguage<32>
+maxLanguage<32>
+minFactionID<32>[3]
+maxFactionID<32>
+minReputation<32>[3]
+maxReputation<32>
+reputationLogic<32>
+minPVPRank<32>
+maxPVPRank<32>
+pvpMedal<32>
+prevQuestLogic<32>
+prevQuestID<32>[4]
+currQuestLogic<32>
+currQuestID<32>[4]
+currentCompletedQuestLogic<32>
+currentCompletedQuestID<32>[4]
+spellLogic<32>
+spellID<32>[4]
+itemLogic<32>
+itemID<32>[4]
+itemCount<32>[4]
+itemFlags<32>
+explored<32>[2]
+time<32>[2]
+auraSpellLogic<32>
+auraSpellID<32>[4]
+worldStateExpressionID<32>
+weatherID<32>
+partyStatus<32>
+lifetimeMaxPVPRank<32>
+achievementLogic<32>
+achievement<32>[4]
+lfgLogic<32>
+lfgStatus<32>[4]
+lfgCompare<32>[4]
+lfgValue<32>[4]
+areaLogic<32>
+areaID<32>[4]
+currencyLogic<32>
+currencyID<32>[4]
+currencyCount<32>[4]
+questKillID<32>
+questKillLogic<32>
+questKillMonster<32>[4]
+minExpansionLevel<32>
+maxExpansionLevel<32>
+minExpansionTier<32>
+maxExpansionTier<32>
+minGuildLevel<32>
+maxGuildLevel<32>
+phaseUseFlags<32>
+phaseID<32>
+phaseGroupID<32>
+minAvgItemLevel<32>
+maxAvgItemLevel<32>
+minAvgEquippedItemLevel<32>
+maxAvgEquippedItemLevel<32>
+chrSpecializationIndex<32>
+chrSpecializationRole<32>
+failure_description_lang
+
+BUILD 5.2.0.16516-5.4.8.18414
 $id$ID<32>
 flags<32>
 minLevel<32>
@@ -239,255 +307,3 @@ failure_description_lang
 powerType<32>
 powerTypeComp<32>
 powerTypeValue<32>
-
-LAYOUT 5B3DA113
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-raceMask<64>
-failure_description_lang
-$id$ID<32>
-flags<8>
-minLevel<16>
-maxLevel<16>
-classMask<32>
-gender<8>
-nativeGender<8>
-skillLogic<32>
-languageID<8>
-minLanguage<8>
-maxLanguage<32>
-maxFactionID<16>
-maxReputation<8>
-reputationLogic<32>
-currentPvpFaction<8>
-minPVPRank<8>
-maxPVPRank<8>
-pvpMedal<8>
-prevQuestLogic<32>
-currQuestLogic<32>
-currentCompletedQuestLogic<32>
-spellLogic<32>
-itemLogic<32>
-itemFlags<8>
-auraSpellLogic<32>
-worldStateExpressionID<16>
-weatherID<8>
-partyStatus<8>
-lifetimeMaxPVPRank<8>
-achievementLogic<32>
-lfgLogic<32>
-areaLogic<32>
-currencyLogic<32>
-questKillID<16>
-questKillLogic<32>
-minExpansionLevel<8>
-maxExpansionLevel<8>
-minExpansionTier<8>
-maxExpansionTier<8>
-minGuildLevel<8>
-maxGuildLevel<8>
-phaseUseFlags<8>
-phaseID<16>
-phaseGroupID<32>
-minAvgItemLevel<32>
-maxAvgItemLevel<32>
-minAvgEquippedItemLevel<16>
-maxAvgEquippedItemLevel<16>
-chrSpecializationIndex<8>
-chrSpecializationRole<8>
-powerType<8>
-powerTypeComp<8>
-powerTypeValue<8>
-modifierTreeID<32>
-weaponSubclassMask<32>
-skillID<16>[4]
-minSkill<16>[4]
-maxSkill<16>[4]
-minFactionID<32>[3]
-minReputation<8>[3]
-prevQuestID<16>[4]
-currQuestID<16>[4]
-currentCompletedQuestID<16>[4]
-spellID<32>[4]
-itemID<32>[4]
-itemCount<32>[4]
-explored<16>[2]
-time<32>[2]
-auraSpellID<32>[4]
-auraStacks<8>[4]
-achievement<16>[4]
-lfgStatus<8>[4]
-lfgCompare<8>[4]
-lfgValue<32>[4]
-areaID<16>[4]
-currencyID<32>[4]
-currencyCount<32>[4]
-questKillMonster<32>[6]
-movementFlags<32>[2]
-
-LAYOUT B552E990
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-raceMask<64>
-failure_description_lang
-$id$ID<32>
-flags<8>
-minLevel<16>
-maxLevel<16>
-classMask<32>
-skillLogic<32>
-languageID<8>
-minLanguage<8>
-maxLanguage<32>
-maxFactionID<16>
-maxReputation<8>
-reputationLogic<32>
-currentPvpFaction<8>
-pvpMedal<8>
-prevQuestLogic<32>
-currQuestLogic<32>
-currentCompletedQuestLogic<32>
-spellLogic<32>
-itemLogic<32>
-itemFlags<8>
-auraSpellLogic<32>
-worldStateExpressionID<16>
-weatherID<8>
-partyStatus<8>
-lifetimeMaxPVPRank<8>
-achievementLogic<32>
-gender<8>
-nativeGender<8>
-areaLogic<32>
-lfgLogic<32>
-currencyLogic<32>
-questKillID<16>
-questKillLogic<32>
-minExpansionLevel<8>
-maxExpansionLevel<8>
-minAvgItemLevel<32>
-maxAvgItemLevel<32>
-minAvgEquippedItemLevel<16>
-maxAvgEquippedItemLevel<16>
-phaseUseFlags<8>
-phaseID<16>
-phaseGroupID<32>
-chrSpecializationIndex<8>
-chrSpecializationRole<8>
-modifierTreeID<32>
-powerType<8>
-powerTypeComp<8>
-powerTypeValue<8>
-weaponSubclassMask<32>
-maxGuildLevel<8>
-minGuildLevel<8>
-maxExpansionTier<8>
-minExpansionTier<8>
-minPVPRank<8>
-maxPVPRank<8>
-skillID<16>[4]
-minSkill<16>[4]
-maxSkill<16>[4]
-minFactionID<32>[3]
-minReputation<8>[3]
-prevQuestID<16>[4]
-currQuestID<16>[4]
-currentCompletedQuestID<16>[4]
-spellID<32>[4]
-itemID<32>[4]
-itemCount<32>[4]
-explored<16>[2]
-time<32>[2]
-auraSpellID<32>[4]
-auraStacks<8>[4]
-achievement<16>[4]
-areaID<16>[4]
-lfgStatus<8>[4]
-lfgCompare<8>[4]
-lfgValue<32>[4]
-currencyID<32>[4]
-currencyCount<32>[4]
-questKillMonster<32>[6]
-movementFlags<32>[2]
-
-LAYOUT F28CBD18
-BUILD 8.0.1.26788, 8.0.1.26806
-field_1565570172<64>
-field_667930159_lang
-$id$field_1052601501<32>
-field_1146397000<16>
-field_737370094<16>
-field_1758939595<32>
-field_1576814347<32>
-field_1512400963<8>
-field_1444856220<8>
-field_692815291<32>
-field_812247081<16>
-field_1651402191<8>
-field_015124555<32>
-field_1258672773<8>
-field_608827911<8>
-field_1861702598<32>
-field_1579005437<32>
-field_450600156<32>
-field_694026972<32>
-field_1717040953<32>
-field_278888823<8>
-field_500346339<32>
-field_229963683<16>
-field_1904883519<8>
-field_1887919121<8>
-field_1658163695<8>
-field_1737639570<32>
-field_669839149<8>
-field_930346889<8>
-field_2010824647<32>
-field_907395471<32>
-field_396813681<32>
-field_833285421<16>
-field_095349031<32>
-field_1916439443<8>
-field_1479353950<8>
-field_191502843<32>
-field_008251968<32>
-field_1309495283<16>
-field_946371974<16>
-field_917713198<8>
-field_1181794413<16>
-field_1362064827<32>
-field_488524744<8>
-field_980671058<8>
-field_1446239111<8>
-field_349880215<32>
-field_1833140562<8>
-field_2133486234<8>
-field_2041609118<8>
-field_1475201272<32>
-field_1475441405<8>
-field_1435760106<8>
-field_668429593<8>
-field_681994432<8>
-field_477335732<8>
-field_1997562022<8>
-field_707313528<16>[4]
-field_818073425<16>[4]
-field_638801945<16>[4]
-field_1580895571<32>[3]
-field_319087097<8>[3]
-field_2141649620<16>[4]
-field_993627119<16>[4]
-field_1345015366<16>[4]
-field_1975028946<32>[4]
-field_230228669<32>[4]
-field_1479371070<32>[4]
-field_901828876<16>[2]
-field_689069507<32>[2]
-field_1082311654<32>[4]
-field_982865368<8>[4]
-field_700700419<16>[4]
-field_1307250544<16>[4]
-field_211439654<8>[4]
-field_656689956<8>[4]
-field_697877058<32>[4]
-field_1301034485<32>[4]
-field_336324360<32>[4]
-field_2001275556<32>[6]
-field_720395379<32>[2]

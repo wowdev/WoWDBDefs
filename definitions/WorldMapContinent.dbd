@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
+uint<Map::ID> mapID
 int leftBoundary
 int rightBoundary
 int topBoundary
@@ -9,16 +9,11 @@ float continentOffset
 float scale
 float taxiMin
 float taxiMax
-int worldMapID
-int flags
+uint worldMapID
 float continentOffsetX
 float continentOffsetY
-float taxiMinX
-float taxiMinY
-float taxiMaxX
-float taxiMaxY
 
-BUILD 6.0.1.18179
+BUILD 3.0.1.8820-6.0.1.18803
 $id$ID<32>
 mapID<32>
 leftBoundary<32>
@@ -31,39 +26,30 @@ taxiMin[2]
 taxiMax[2]
 worldMapID<32>
 
-LAYOUT 8F75E077, E30D772B
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
-$noninline,id$ID<32>
-continentOffset[2]
-scale
-taxiMin[2]
-taxiMax[2]
-mapID<16>
-worldMapID<16>
-leftBoundary<8>
-rightBoundary<8>
-topBoundary<8>
-bottomBoundary<8>
-flags<8>
-
-BUILD 4.0.0.11792
+BUILD 0.12.0.3988-3.0.1.8788
 $id$ID<32>
 mapID<32>
 leftBoundary<32>
 rightBoundary<32>
 topBoundary<32>
 bottomBoundary<32>
-continentOffsetX
-continentOffsetY
+continentOffset[2]
 scale
-taxiMinX
-taxiMinY
-taxiMaxX
-taxiMaxY
-worldMapID<32>
+taxiMin[2]
+taxiMax[2]
+
+BUILD 0.5.5.3494-0.11.0.3925
+$id$ID<32>
+mapID<32>
+leftBoundary<32>
+rightBoundary<32>
+topBoundary<32>
+bottomBoundary<32>
+continentOffset[2]
+scale
 
 BUILD 0.5.3.3368
-ID<32>
+$id$ID<32>
 mapID<32>
 leftBoundary<32>
 rightBoundary<32>

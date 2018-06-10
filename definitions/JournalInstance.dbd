@@ -1,76 +1,31 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-int<AreaTable::ID> areaID
-int<FileData::ID> buttonFiledataID
-int<FileData::ID> buttonSmallFileDataID
-int<FileData::ID> backgroundFiledataID
-int<FileData::ID> loreFileDataID
+uint<Map::ID> mapID
+uint<AreaTable::ID> areaID
+uint<FileData::ID> buttonFiledataID
+uint<FileData::ID> backgroundFiledataID
+uint<FileData::ID> loreFileDataID
+int field_3134239866?
 locstring name_lang
 locstring description_lang
-int flags
-int orderIndex
-locstring field_822497326_lang
-locstring field_1023276362_lang
-int field_2069350059
-int field_1056379070
-int field_1183527291
-int field_324120717
-int field_321046860
-int field_143652809
-int field_975634288
-int field_907090548
-int field_159345853
 
-BUILD 6.0.1.18179
+BUILD 4.2.0.14333-5.0.1.15677
 $id$ID<32>
 mapID<32>
 areaID<32>
 buttonFiledataID<32>
-buttonSmallFileDataID<32>
 backgroundFiledataID<32>
 loreFileDataID<32>
+field_3134239866<32>
 name_lang
 description_lang
 
-LAYOUT 1691CC3D
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-name_lang
-description_lang
-buttonFiledataID<32>
-buttonSmallFileDataID<32>
-backgroundFiledataID<32>
-loreFileDataID<32>
-mapID<16>
-areaID<16>
-orderIndex<8>
-flags<8>
+BUILD 5.0.1.15689-5.4.8.18414
 $id$ID<32>
-
-LAYOUT 690E1D43
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+mapID<32>
+areaID<32>
+buttonFiledataID<32>
+backgroundFiledataID<32>
+loreFileDataID<32>
 name_lang
 description_lang
-backgroundFiledataID<32>
-buttonFiledataID<32>
-buttonSmallFileDataID<32>
-loreFileDataID<32>
-mapID<16>
-areaID<16>
-orderIndex<8>
-flags<8>
-$id$ID<32>
-
-LAYOUT BB10478F
-BUILD 8.0.1.26788, 8.0.1.26806
-field_822497326_lang
-field_1023276362_lang
-$id$field_2069350059<32>
-field_1056379070<16>
-field_1183527291<32>
-field_324120717<32>
-field_321046860<32>
-field_143652809<32>
-field_975634288<8>
-field_907090548<8>
-field_159345853<16>

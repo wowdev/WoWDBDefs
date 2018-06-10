@@ -7,33 +7,17 @@ int centerPower
 float regenerationPeace
 float regenerationCombat
 int barType
-int<FileData::ID> fileDataID
+uint<FileData::ID> fileDataID
 int color
-int flags
+uint flags
 locstring name_lang
 locstring cost_lang
 locstring outOfError_lang
 locstring toolTip_lang
 float startInset
 float endInset
-locstring field_695026553_lang
-locstring field_756181686_lang
-locstring field_360857060_lang
-locstring field_241183899_lang
-int field_473790105
-int field_1279902483
-int field_1048814958
-int field_909583545
-float field_350676074
-float field_1820794992
-int field_307315588
-int field_692441626
-float field_1205798464
-float field_023113440
-int field_811470203
-int field_1567866213
 
-BUILD 6.0.1.18179
+BUILD 4.3.2.15148-5.4.8.18414
 $id$ID<32>
 minPower<32>
 maxPower<32>
@@ -52,42 +36,21 @@ toolTip_lang
 startInset
 endInset
 
-LAYOUT 626C94CD, 5B12106B
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
+BUILD 4.0.0.12911-4.3.0.15050
+$id$ID<32>
+minPower<32>
+maxPower<32>
+startPower<32>
+centerPower<32>
+regenerationPeace
+regenerationCombat
+barType<32>
+fileDataID<32>[5]
+color<32>[5]
+flags<32>
 name_lang
 cost_lang
 outOfError_lang
 toolTip_lang
-regenerationPeace
-regenerationCombat
-fileDataID<32>[6]
-color<32>[6]
 startInset
 endInset
-startPower<16>
-flags<16>
-centerPower<8>
-barType<8>
-minPower<32>
-maxPower<32>
-
-LAYOUT 2640852D
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_695026553_lang
-field_756181686_lang
-field_360857060_lang
-field_241183899_lang
-field_473790105<32>
-field_1279902483<32>
-field_1048814958<16>
-field_909583545<8>
-field_350676074
-field_1820794992
-field_307315588<8>
-field_692441626<16>
-field_1205798464
-field_023113440
-field_811470203<32>[6]
-field_1567866213<32>[6]

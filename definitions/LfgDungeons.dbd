@@ -1,36 +1,130 @@
 COLUMNS
-int ID
+uint ID
 locstring name_lang
 int minLevel
 int maxLevel
 int target_level
 int target_level_min
 int target_level_max
-int mapID
-int difficultyID
-int flags
-int typeID
+uint<Map::ID> mapID
+int difficulty
+uint<Difficulty::ID> difficultyID
+uint flags
+uint typeID
 int faction
 string textureFilename
 int expansionLevel
 int order_index
-int group_ID
+uint group_ID
 locstring description_lang
-int random_ID
+uint random_ID
 int count_tank
 int count_healer
 int count_damage
 int min_count_tank
 int min_count_healer
 int min_count_damage
-int scenarioID
+uint<Scenario::ID> scenarioID
 int subtype
 int bonus_reputation_amount
 int mentorCharLevel
 int mentorItemLevel
-int difficulty
 
-BUILD 6.0.1.18179
+BUILD 4.1.0.13914-4.3.0.15050
+$id$ID<32>
+name_lang
+minLevel<32>
+maxLevel<32>
+target_level<32>
+target_level_min<32>
+target_level_max<32>
+mapID<32>
+difficultyID<32>
+flags<32>
+typeID<32>
+faction<32>
+textureFilename
+expansionLevel<32>
+order_index<32>
+group_ID<32>
+description_lang
+random_ID<32>
+
+BUILD 4.3.2.15211-5.0.1.15464
+$id$ID<32>
+name_lang
+minLevel<32>
+maxLevel<32>
+target_level<32>
+target_level_min<32>
+target_level_max<32>
+mapID<32>
+difficultyID<32>
+flags<32>
+typeID<32>
+faction<32>
+textureFilename
+expansionLevel<32>
+order_index<32>
+group_ID<32>
+description_lang
+random_ID<32>
+count_tank<32>
+count_healer<32>
+count_damage<32>
+
+BUILD 5.0.1.15508-5.1.0.16357
+$id$ID<32>
+name_lang
+minLevel<32>
+maxLevel<32>
+target_level<32>
+target_level_min<32>
+target_level_max<32>
+mapID<32>
+difficultyID<32>
+flags<32>
+typeID<32>
+faction<32>
+textureFilename
+expansionLevel<32>
+order_index<32>
+group_ID<32>
+description_lang
+random_ID<32>
+count_tank<32>
+count_healer<32>
+count_damage<32>
+scenarioID<32>
+subtype<32>
+
+BUILD 5.2.0.16516-5.3.0.17116
+$id$ID<32>
+name_lang
+minLevel<32>
+maxLevel<32>
+target_level<32>
+target_level_min<32>
+target_level_max<32>
+mapID<32>
+difficultyID<32>
+flags<32>
+typeID<32>
+faction<32>
+textureFilename
+expansionLevel<32>
+order_index<32>
+group_ID<32>
+description_lang
+random_ID<32>
+count_tank<32>
+count_healer<32>
+count_damage<32>
+scenarioID<32>
+subtype<32>
+bonus_reputation_amount<32>
+
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 name_lang
 minLevel<32>
@@ -61,7 +155,7 @@ bonus_reputation_amount<32>
 mentorCharLevel<32>
 mentorItemLevel<32>
 
-BUILD 4.0.0.11792
+BUILD 3.3.3.11685-4.0.6.13623
 $id$ID<32>
 name_lang
 minLevel<32>
@@ -79,3 +173,39 @@ expansionLevel<32>
 order_index<32>
 group_ID<32>
 description_lang
+
+BUILD 3.3.0.10958-3.3.2.11403
+$id$ID<32>
+name_lang
+minLevel<32>
+maxLevel<32>
+target_level<32>
+target_level_min<32>
+target_level_max<32>
+mapID<32>
+difficulty<32>
+flags<32>
+typeID<32>
+faction<32>
+textureFilename
+expansionLevel<32>
+order_index<32>
+group_ID<32>
+
+BUILD 2.0.0.6080-3.2.2.10505
+$id$ID<32>
+name_lang
+minLevel<32>
+maxLevel<32>
+typeID<32>
+faction<32>
+textureFilename
+expansionLevel<32>
+
+BUILD 1.9.0.4937-2.0.0.5991
+$id$ID<32>
+name_lang
+minLevel<32>
+maxLevel<32>
+typeID<32>
+faction<32>

@@ -1,0 +1,11 @@
+COLUMNS
+int ID?
+int condExtendedCost?
+int itemExtendedCostEntry?
+int arenaSeason?
+
+BUILD 2.3.0.7561-4.2.0.14316
+$id$ID<32>
+condExtendedCost<32>
+itemExtendedCostEntry<32>
+arenaSeason<32>

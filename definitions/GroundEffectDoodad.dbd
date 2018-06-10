@@ -1,41 +1,28 @@
 COLUMNS
 int ID
 string doodadpath
-int flags
-float animscale
-float pushscale
-int modelFileID
+uint flags
+float animScale
 int doodadIdTag
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 doodadpath
 flags<32>
-animscale
-pushscale
+animScale
 
-LAYOUT 0376B2D6, EE9B382E
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-animscale
-pushscale
-flags<8>
-modelFileID<32>
-
-BUILD 4.0.0.11792
+BUILD 3.1.0.9767-4.3.4.15595
 $id$ID<32>
 doodadpath
 flags<32>
 
-BUILD 0.5.3.3368
-ID<32>
+BUILD 3.0.1.8303-3.0.9.9551
+$id$ID<32>
 doodadIdTag<32>
 doodadpath
+flags<32>
 
-LAYOUT AB0C6E12
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-modelFileID<32>
-flags<8>
-animscale
-pushscale
+BUILD 0.5.3.3368-2.4.3.8606
+$id$ID<32>
+doodadIdTag<32>
+doodadpath

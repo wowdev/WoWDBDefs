@@ -1,40 +1,24 @@
 COLUMNS
 int ID
-int categoryID
+uint<SkillLineCategory::ID> categoryID
 locstring displayName_lang
 locstring description_lang
-int spellIconID
+uint<SpellIcon::ID> spellIconID
 locstring alternateVerb_lang
 int canLink
-int parentSkillLineID
-int flags
-locstring hordeDisplayName_lang
-int parentTierIndex
-int spellIconFileID
-int skillCostsID
-int raceMask
-int classMask
+uint<SkillLine::ID> parentSkillLineID
+uint flags
+uint raceMask
+uint classMask
 int excludeRace
 int excludeClass
-int skillType // 0: Class, 1: Special, 2: Racial, 3: Primary Profession (Talent Tree), 4: Secondary Profession
+int skillType
 int minCharLevel
 int maxRank
 int abandonable
-string neutralDisplayName
-locstring field_201830540_lang
-locstring field_1325187612_lang
-locstring field_1212239847_lang
-locstring field_1430421346_lang
-string field_1481447808
-int field_258761031
-int field_1397028014
-int field_1012798067
-int field_537225331
-int field_1634475971
-int field_2094832182
-int field_1069689410
+uint skillCostsID
 
-BUILD 6.0.1.18179
+BUILD 5.1.0.16309-5.4.8.18414
 $id$ID<32>
 categoryID<32>
 displayName_lang
@@ -45,21 +29,26 @@ canLink<32>
 parentSkillLineID<32>
 flags<32>
 
-LAYOUT F0E77964
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
+BUILD 5.0.1.15464-5.0.5.16135
+$id$ID<32>
+categoryID<32>
 displayName_lang
-hordeDisplayName_lang
 description_lang
+spellIconID<32>
 alternateVerb_lang
-flags<16>
-categoryID<8>
-canLink<8>
-spellIconFileID<32>
+canLink<32>
 parentSkillLineID<32>
-parentTierIndex<32>
 
-BUILD 4.0.0.11792
+BUILD 4.1.0.13914-4.3.4.15595
+$id$ID<32>
+categoryID<32>
+displayName_lang
+description_lang
+spellIconID<32>
+alternateVerb_lang
+canLink<32>
+
+BUILD 3.0.1.8391-4.0.6.13623
 $id$ID<32>
 categoryID<32>
 skillCostsID<32>
@@ -69,26 +58,38 @@ spellIconID<32>
 alternateVerb_lang
 canLink<32>
 
-BUILD 3.0.1.8303
-ID<32>
-categoryID<32>
-skillCostsID<32>
-displayName_lang
-description_lang
-spellIconID<32>
-
-BUILD 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 3.0.1.8334
+$id$ID<32>
 categoryID<32>
 skillCostsID<32>
 displayName_lang
 description_lang
 spellIconID<32>
 alternateVerb_lang
-canLink<32>
 
-BUILD 0.5.3.3368
-ID<32>
+BUILD 0.11.0.3925-3.0.1.8303
+$id$ID<32>
+categoryID<32>
+skillCostsID<32>
+displayName_lang
+description_lang
+spellIconID<32>
+
+BUILD 0.8.0.3734-0.10.0.3892
+$id$ID<32>
+categoryID<32>
+skillCostsID<32>
+displayName_lang
+description_lang
+
+BUILD 0.6.0.3592-0.7.6.3712
+$id$ID<32>
+categoryID<32>
+skillCostsID<32>
+displayName_lang
+
+BUILD 0.5.3.3368-0.5.5.3494
+$id$ID<32>
 raceMask<32>
 classMask<32>
 excludeRace<32>
@@ -99,73 +100,3 @@ minCharLevel<32>
 maxRank<32>
 abandonable<32>
 displayName_lang
-
-LAYOUT 9C1D6E2E
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
-$noninline,id$ID<32>
-displayName_lang
-alternateVerb_lang
-description_lang
-hordeDisplayName_lang
-flags<16>
-categoryID<8>
-canLink<8>
-spellIconFileID<32>
-parentSkillLineID<32>
-parentTierIndex<32>
-
-LAYOUT 3A71246C
-BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
-displayName_lang
-alternateVerb_lang
-description_lang
-hordeDisplayName_lang
-$id$ID<32>
-flags<16>
-categoryID<8>
-canLink<8>
-spellIconFileID<32>
-parentSkillLineID<32>
-parentTierIndex<32>
-
-LAYOUT 8C8C1F69
-BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-displayName_lang
-alternateVerb_lang
-description_lang
-hordeDisplayName_lang
-neutralDisplayName
-$id$ID<32>
-flags<16>
-categoryID<8>
-canLink<8>
-spellIconFileID<32>
-parentSkillLineID<32>
-parentTierIndex<32>
-
-LAYOUT 3F7E88AF
-BUILD 7.3.5.26654
-$noninline,id$ID<32>
-displayName_lang
-description_lang
-alternateVerb_lang
-flags<16>
-categoryID<8>
-canLink<8>
-spellIconFileID<32>
-parentSkillLineID<32>
-
-LAYOUT 5826EC3B
-BUILD 8.0.1.26788, 8.0.1.26806
-field_201830540_lang
-field_1325187612_lang
-field_1212239847_lang
-field_1430421346_lang
-field_1481447808
-$id$field_258761031<32>
-field_1397028014<8>
-field_1012798067<32>
-field_537225331<8>
-field_1634475971<32>
-field_2094832182<32>
-field_1069689410<16>

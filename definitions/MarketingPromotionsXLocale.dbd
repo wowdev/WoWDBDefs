@@ -1,55 +1,19 @@
 COLUMNS
-int field_2155313115?
-int field_1016514529?
-int field_2280409308?
-int field_2593120774?
-int field_4265987811?
-int field_1606489103?
-string field_660621941?
 int ID
-int acceptButtonTexture
-string acceptURL
-int adTexture
-int declineButtonTexture
-int localeID
-int logoTexture
-int promotionID
-string field_273217067
-int field_1901428484
-int field_079671451
-int field_429239940
-int field_940616220
-int field_054764851
-int field_226865493
+uint promotionID
+int locale
+uint bannerFileID
+uint logoFileID
+uint upgradeButtonFileID
+uint playButtonFileID
+string promotionURL
 
-BUILD 6.0.1.18179
+BUILD 5.0.4.15913-5.4.8.18414
 $id$ID<32>
-field_2155313115<32>
-field_1016514529<32>
-field_2280409308<32>
-field_2593120774<32>
-field_4265987811<32>
-field_1606489103<32>
-field_660621941
-
-LAYOUT 80362F57, 901306D3
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-acceptURL
-adTexture<32>
-logoTexture<32>
-acceptButtonTexture<32>
-declineButtonTexture<32>
-promotionID<8>
-localeID<8>
-
-LAYOUT C04E61FB
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_273217067
-field_1901428484<8>
-field_079671451<8>
-field_429239940<32>
-field_940616220<32>
-field_054764851<32>
-field_226865493<32>
+promotionID<32>
+locale<32>
+bannerFileID<32>
+logoFileID<32>
+upgradeButtonFileID<32>
+playButtonFileID<32>
+promotionURL

@@ -1,57 +1,14 @@
 COLUMNS
 int ID
-int field_1009734166?
-int field_1306660829?
-int field_2243280257?
-int field_1155602326?
-int field_3876564188?
-int field_1308729234?
-int field_1229869982?
-int field_3628018924?
-int field_2427487154?
-int classID
-int iconFileDataID
-int inventoryType
-int itemGroupSoundsID
+uint<ItemClass::ID> classID
+uint<ItemSubClass::ID> subclassID
+uint sound_override_subclassID
 int material
+uint displayInfoID
+int inventoryType
 int sheatheType
-int sound_override_subclassID
-int subclassID
-int displayInfoID
-int field_362441897
-int field_1992017063
-int field_2046887642
-int field_1055164010
-int field_105420859
-int field_2106147525
-int field_295986837
-int field_048575329
 
-BUILD 6.0.1.18179
-$id$ID<32>
-field_1009734166<32>
-field_1306660829<32>
-field_2243280257<32>
-field_1155602326<32>
-field_3876564188<32>
-field_1308729234<32>
-field_1229869982<32>
-field_3628018924<32>
-field_2427487154<32>
-
-LAYOUT 0DFCC83D
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-iconFileDataID<32>
-classID<8>
-subclassID<8>
-sound_override_subclassID<8>
-material<8>
-inventoryType<8>
-sheatheType<8>
-itemGroupSoundsID<8>
-
-BUILD 4.0.0.11792
+BUILD 3.0.2.9056-5.4.8.18414
 $id$ID<32>
 classID<32>
 subclassID<32>
@@ -61,26 +18,8 @@ displayInfoID<32>
 inventoryType<32>
 sheatheType<32>
 
-LAYOUT 38F7149F
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-iconFileDataID<32>
-classID<8>
-subclassID<8>
-material<8>
-inventoryType<8>
-sheatheType<8>
-sound_override_subclassID<8>
-itemGroupSoundsID<8>
-
-LAYOUT F9600007
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_362441897<8>
-field_1992017063<8>
-field_2046887642<8>
-field_1055164010<8>
-field_105420859<8>
-field_2106147525<8>
-field_295986837<32>
-field_048575329<8>
+BUILD 2.4.0.8089-3.0.1.8885
+$id$ID<32>
+displayInfoID<32>
+inventoryType<32>
+sheatheType<32>

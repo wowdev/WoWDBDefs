@@ -1,17 +1,12 @@
 COLUMNS
 int ID
-int spellID
-int difficultyID
+uint<Spell::ID> spellID
+uint<Difficulty::ID> difficultyID
 int categoryRecoveryTime
 int recoveryTime
 int startRecoveryTime
-int field_646366025
-int field_1811376901
-int field_1516172113
-int field_806034778
-int field_1295512981
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
 spellID<32>
 difficultyID<32>
@@ -19,20 +14,8 @@ categoryRecoveryTime<32>
 recoveryTime<32>
 startRecoveryTime<32>
 
-LAYOUT CA8D8B3C, 2FE23858
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
+BUILD 4.0.0.12232-5.0.1.15544
+$id$ID<32>
 categoryRecoveryTime<32>
 recoveryTime<32>
 startRecoveryTime<32>
-difficultyID<8>
-$noninline,relation$spellID<32>
-
-LAYOUT 24886B08
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_646366025<8>
-field_1811376901<32>
-field_1516172113<32>
-field_806034778<32>
-$noninline,relation$field_1295512981<32>

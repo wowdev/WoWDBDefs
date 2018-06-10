@@ -1,44 +1,19 @@
 COLUMNS
-int classID
-int subClassID
+int ID
+uint<ItemClass::ID> classID
+uint<ItemSubClass::ID> subClassID
 int prerequisiteProficiency
 int postrequisiteProficiency
-int flags
-int displayFlags
+uint flags
+uint displayFlags
 int weaponParrySeq
 int weaponReadySeq
 int weaponAttackSeq
-int WeaponSwingSize
 locstring displayName_lang
 locstring verboseName_lang
-int ID
-int auctionHouseSortOrder
-locstring field_1483859116_lang
-locstring field_183018712_lang
-int field_1795606813
-int field_233891718
-int field_1817608860
-int field_096291179
-int field_249257621
-int field_1171481844
-int field_549241009
-int field_291038121
+int weaponSwingSize
 
-LAYOUT DAD92A67
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-displayName_lang
-verboseName_lang
-flags<16>
-$relation$classID<8>
-subClassID<8>
-prerequisiteProficiency<8>
-postrequisiteProficiency<8>
-displayFlags<8>
-WeaponSwingSize<8>
-auctionHouseSortOrder<8>
-
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
 classID<32>
 subClassID<32>
@@ -49,11 +24,11 @@ displayFlags<32>
 weaponParrySeq<32>
 weaponReadySeq<32>
 weaponAttackSeq<32>
-WeaponSwingSize<32>
+weaponSwingSize<32>
 displayName_lang
 verboseName_lang
 
-BUILD 0.5.3.3368
+BUILD 0.5.3.3368-3.3.5.12340
 classID<32>
 subClassID<32>
 prerequisiteProficiency<32>
@@ -63,34 +38,6 @@ displayFlags<32>
 weaponParrySeq<32>
 weaponReadySeq<32>
 weaponAttackSeq<32>
-WeaponSwingSize<32>
+weaponSwingSize<32>
 displayName_lang
 verboseName_lang
-
-LAYOUT 898D236B
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-displayName_lang
-verboseName_lang
-flags<16>
-$relation$classID<8>
-subClassID<8>
-auctionHouseSortOrder<8>
-prerequisiteProficiency<8>
-displayFlags<8>
-WeaponSwingSize<8>
-postrequisiteProficiency<8>
-
-LAYOUT C7178B11
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1483859116_lang
-field_183018712_lang
-$relation$field_1795606813<8>
-field_233891718<8>
-field_1817608860<8>
-field_096291179<8>
-field_249257621<16>
-field_1171481844<8>
-field_549241009<8>
-field_291038121<8>

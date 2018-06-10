@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-int<WMOAreaTable::WMOGroupID> WMOGroupID
-int<DungeonMap::ID> dungeonMapID
+uint<Map::ID> mapID
+uint<DungeonMap::ID> dungeonMapID
 float minZ
-int doodadPlacementID
+uint doodadPlacementID
+uint<WMOAreaTable::WMOGroupID> WMOGroupID
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 mapID<32>
 WMOGroupID<32>
@@ -14,27 +14,9 @@ dungeonMapID<32>
 minZ
 doodadPlacementID<32>
 
-LAYOUT 7927A3A7
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-minZ
-doodadPlacementID<32>
-$relation$mapID<16>
-WMOGroupID<16>
-dungeonMapID<16>
-
-BUILD 4.0.0.11792
+BUILD 3.0.1.8303-4.3.4.15595
 $id$ID<32>
 mapID<32>
 WMOGroupID<32>
 dungeonMapID<32>
 minZ
-
-LAYOUT B101DEC3
-BUILD 8.0.1.26297
-$noninline,id$ID<32>
-doodadPlacementID<32>
-minZ
-$relation$mapID<16>
-WMOGroupID<16>
-dungeonMapID<16>

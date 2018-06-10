@@ -3,29 +3,16 @@ int ID
 string name
 int effect
 int param
-int lightParamsID
+uint<LightParams::ID> lightParamsID
+uint<SoundAmbience::ID> soundAmbienceID
+uint<ZoneMusic::ID> zoneMusicID
+int timeOfDayOverride
 int lightParamsFadeIn
 int lightParamsFadeOut
-int lightFlags
-int soundAmbienceID
-int zoneMusicID
-int timeOfDayOverride
-int effectMask
-int fullScreenEffectID
-string field_1269480890
-int field_1750976498
-int field_116063179
-int field_1499892339
-int field_375001543
-int field_372725888
-int field_479966265
-int field_974125870
-int field_105040618
-int field_1134347509
-int field_1036247916
-int field_1297086470
+uint effectMask
+int field_8128304746?
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15799-5.4.8.18414
 $id$ID<32>
 name
 effect<32>
@@ -33,30 +20,35 @@ param<32>[4]
 lightParamsID<32>
 lightParamsFadeIn<32>
 lightParamsFadeOut<32>
-lightFlags<32>
 soundAmbienceID<32>
 zoneMusicID<32>
 timeOfDayOverride<32>
 effectMask<32>
 
-LAYOUT 4D5B91C5
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
+BUILD 5.0.1.15762-5.0.1.15781
+$id$ID<32>
 name
+effect<32>
 param<32>[4]
-lightParamsID<16>
-lightParamsFadeIn<16>
-lightParamsFadeOut<16>
-timeOfDayOverride<16>
-effect<8>
-lightFlags<8>
-effectMask<8>
-fullScreenEffectID<32>
+lightParamsID<32>
+lightParamsFadeIn<32>
+lightParamsFadeOut<32>
 soundAmbienceID<32>
 zoneMusicID<32>
+timeOfDayOverride<32>
 
-BUILD 4.0.0.11792
-ID<32>
+BUILD 4.3.2.15211-5.0.1.15752
+$id$ID<32>
+name
+effect<32>
+param<32>[4]
+lightParamsID<32>
+soundAmbienceID<32>
+zoneMusicID<32>
+timeOfDayOverride<32>
+
+BUILD 3.0.1.8622-4.3.0.15050
+$id$ID<32>
 name
 effect<32>
 param<32>[4]
@@ -64,34 +56,7 @@ lightParamsID<32>
 soundAmbienceID<32>
 zoneMusicID<32>
 
-LAYOUT 4CC636AD
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-name
+BUILD 3.0.1.8303-3.0.1.8471
+$id$ID<32>
+field_8128304746<32>
 param<32>[4]
-lightParamsID<16>
-lightParamsFadeIn<16>
-lightParamsFadeOut<16>
-timeOfDayOverride<16>
-effect<8>
-effectMask<8>
-lightFlags<8>
-fullScreenEffectID<32>
-soundAmbienceID<32>
-zoneMusicID<32>
-
-LAYOUT 7A371491
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1269480890
-field_1750976498<32>[4]
-field_116063179<8>
-field_1499892339<32>
-field_375001543<16>
-field_372725888<16>
-field_479966265<16>
-field_974125870<32>
-field_105040618<32>
-field_1134347509<16>
-field_1036247916<8>
-field_1297086470<8>

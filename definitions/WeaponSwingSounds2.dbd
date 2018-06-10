@@ -1,18 +1,11 @@
 COLUMNS
 int ID
-int SwingType
-int Crit
-int<SoundEntries::ID> SoundID
+int swingType
+int crit
+uint<SoundEntries::ID> soundID
 
-BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
+BUILD 0.5.3.3368-6.2.4.21742
 $id$ID<32>
-SwingType<32>
-Crit<32>
-SoundID<32>
-
-LAYOUT D45347C3, 18B6CC57
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-SwingType<8>
-Crit<8>
-SoundID<32>
+swingType<32>
+crit<32>
+soundID<32>

@@ -1,27 +1,16 @@
 COLUMNS
 int ID
 string name
-int objectEffectGroupID
+uint<ObjectEffectGroup::ID> objectEffectGroupID
 int triggerType
 int eventType
 int effectRecType
-int effectRecID
+uint effectRecID
 int attachment
 float offset
-int objectEffectModifierID
-float offsetX
-float offsetY
-float offsetZ
-float field_1495726339
-int field_1833001103
-int field_1242277214
-int field_1518830893
-int field_1204581922
-int field_1628755543
-int field_169821730
-int field_080834822
+uint<ObjectEffectModifier::ID> objectEffectModifierID
 
-BUILD 6.0.1.18179
+BUILD 3.0.1.8622-6.0.3.19342
 $id$ID<32>
 name
 objectEffectGroupID<32>
@@ -32,55 +21,3 @@ effectRecID<32>
 attachment<32>
 offset[3]
 objectEffectModifierID<32>
-
-LAYOUT 6A0CF743, E2032F3B
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-offset[3]
-objectEffectGroupID<16>
-triggerType<8>
-eventType<8>
-effectRecType<8>
-attachment<8>
-effectRecID<32>
-objectEffectModifierID<32>
-
-BUILD 4.0.0.11792
-$id$ID<32>
-name
-objectEffectGroupID<32>
-triggerType<32>
-eventType<32>
-effectRecType<32>
-effectRecID<32>
-attachment<32>
-offsetX
-offsetY
-offsetZ
-objectEffectModifierID<32>
-
-BUILD 3.0.2.8885, 3.0.8.9328
-ID<32>
-name
-objectEffectGroupID<32>
-triggerType<32>
-eventType<32>
-effectRecType<32>
-effectRecID<32>
-attachment<32>
-offsetX
-offsetY
-offsetZ
-objectEffectModifierID<32>
-
-LAYOUT 48D89FCF
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1495726339[3]
-field_1833001103<16>
-field_1242277214<8>
-field_1518830893<8>
-field_1204581922<8>
-field_1628755543<32>
-field_169821730<8>
-field_080834822<32>

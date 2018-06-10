@@ -6,10 +6,10 @@ int effectPointsMin
 int effectArg
 locstring name_lang
 int itemVisual
-int flags
-int src_itemID
-int condition_ID
-int requiredSkillID
+uint flags
+uint src_itemID
+uint condition_ID
+uint<SkillLine::ID> requiredSkillID
 int requiredSkillRank
 int minLevel
 int maxLevel
@@ -17,33 +17,11 @@ int itemLevel
 int scalingClass
 int scalingClassRestricted
 float effectScalingPoints
-locstring hordeName_lang
-int iconFileDataID
-int transmogCost
-int transmogPlayerConditionID
 int effectPointsMax
-locstring field_1918625157_lang
-locstring field_1956129720_lang
-int field_2023740563
-float field_1967688595
-int field_1942267757
-int field_563800122
-int field_1194832329
-int field_1713939469
-int field_161492134
-int field_1487722776
-int field_663437665
-int field_2044682534
-int field_1234247771
-int field_2016412625
-int field_770694976
-int field_1573269627
-int field_1201305411
-int field_1978842619
-int field_1962346921
-int field_1579900102
+int field_8502539376? // maybe scalingClassRestricted
+float field_6960512468? // maybe effectScalingPoints
 
-BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 charges<32>
 effect<32>[3]
@@ -63,31 +41,27 @@ scalingClass<32>
 scalingClassRestricted<32>
 effectScalingPoints[3]
 
-LAYOUT F8B0881A
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-name_lang
-hordeName_lang
+BUILD 5.0.1.15464-5.0.1.15650
+BUILD 5.0.1.15657-5.3.0.17116
+$id$ID<32>
+charges<32>
+effect<32>[3]
+effectPointsMin<32>[3]
 effectArg<32>[3]
-effectScalingPoints[3]
-transmogCost<32>
-iconFileDataID<32>
-effectPointsMin<16>[3]
-itemVisual<16>
-flags<16>
-requiredSkillID<16>
-requiredSkillRank<16>
-itemLevel<16>
-charges<8>
-effect<8>[3]
-condition_ID<8>
-minLevel<8>
-maxLevel<8>
-scalingClass<8>
-scalingClassRestricted<8>
-transmogPlayerConditionID<32>
+name_lang
+itemVisual<32>
+flags<32>
+src_itemID<32>
+condition_ID<32>
+requiredSkillID<32>
+requiredSkillRank<32>
+minLevel<32>
+maxLevel<32>
+itemLevel<32>
+field_8502539376<32>
+field_6960512468[3]
 
-BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.3.4.15595
 $id$ID<32>
 charges<32>
 effect<32>[3]
@@ -104,8 +78,8 @@ requiredSkillRank<32>
 minLevel<32>
 itemLevel<32>
 
-BUILD 3.0.1.8303
-ID<32>
+BUILD 3.1.0.9767-3.3.5.12340
+$id$ID<32>
 charges<32>
 effect<32>[3]
 effectPointsMin<32>[3]
@@ -116,9 +90,12 @@ itemVisual<32>
 flags<32>
 src_itemID<32>
 condition_ID<32>
+requiredSkillID<32>
+requiredSkillRank<32>
+minLevel<32>
 
-BUILD 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 3.0.1.8334-3.0.9.9551
+$id$ID<32>
 charges<32>
 effect<32>[3]
 effectPointsMin<32>[3]
@@ -132,82 +109,48 @@ condition_ID<32>
 requiredSkillID<32>
 requiredSkillRank<32>
 
-BUILD 0.5.3.3368
-ID<32>
+BUILD 3.0.1.8303
+$id$ID<32>
+charges<32>
 effect<32>[3]
 effectPointsMin<32>[3]
 effectPointsMax<32>[3]
 effectArg<32>[3]
 name_lang
 itemVisual<32>
+flags<32>
+src_itemID<32>
+condition_ID<32>
 
-LAYOUT DF71600C
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-name_lang
-hordeName_lang
+BUILD 2.0.0.5610-2.0.0.5965
+BUILD 2.0.0.6022-2.4.3.8606
+$id$ID<32>
+effect<32>[3]
+effectPointsMin<32>[3]
+effectPointsMax<32>[3]
 effectArg<32>[3]
-effectScalingPoints[3]
-transmogCost<32>
-iconFileDataID<32>
-effectPointsMin<16>[3]
-itemVisual<16>
-flags<16>
-requiredSkillID<16>
-requiredSkillRank<16>
-itemLevel<16>
-charges<8>
-effect<8>[3]
-scalingClass<8>
-scalingClassRestricted<8>
-condition_ID<8>
-minLevel<8>
-maxLevel<8>
-transmogPlayerConditionID<32>
-
-LAYOUT 80DEA734
-BUILD 7.3.5.26654
-$noninline,id$ID<32>
 name_lang
-effectArg<32>[3]
-effectScalingPoints[3]
-transmogCost<32>
-iconFileDataID<32>
-effectPointsMin<16>[3]
-itemVisual<16>
-flags<16>
-requiredSkillID<16>
-requiredSkillRank<16>
-itemLevel<16>
-charges<8>
-effect<8>[3]
-condition_ID<8>
-minLevel<8>
-maxLevel<8>
-scalingClass<8>
-scalingClassRestricted<8>
-transmogPlayerConditionID<32>
+itemVisual<32>
+flags<32>
+src_itemID<32>
+condition_ID<32>
 
-LAYOUT 96D1828E
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1918625157_lang
-field_1956129720_lang
-field_2023740563<32>[3]
-field_1967688595[3]
-field_1942267757<32>
-field_563800122<32>
-field_1194832329<32>
-field_1713939469<16>[3]
-field_161492134<16>
-field_1487722776<16>
-field_663437665<16>
-field_2044682534<16>
-field_1234247771<16>
-field_2016412625<8>
-field_770694976<8>[3]
-field_1573269627<8>
-field_1201305411<8>
-field_1978842619<8>
-field_1962346921<8>
-field_1579900102<8>
+BUILD 2.0.0.5991
+BUILD 0.5.5.3494-1.12.2.6005
+$id$ID<32>
+effect<32>[3]
+effectPointsMin<32>[3]
+effectPointsMax<32>[3]
+effectArg<32>[3]
+name_lang
+itemVisual<32>
+flags<32>
+
+BUILD 0.5.3.3368
+$id$ID<32>
+effect<32>[3]
+effectPointsMin<32>[3]
+effectPointsMax<32>[3]
+effectArg<32>[3]
+name_lang
+itemVisual<32>

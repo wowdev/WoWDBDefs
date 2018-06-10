@@ -1,89 +1,37 @@
 COLUMNS
 int ID
-int<ChrRaces::ID> DisplayRaceID
-int DisplaySexID
-int SkinID
-int FaceID
-int HairStyleID
-int HairColorID
-int FacialHairID
+uint flags
+uint<ChrRaces::ID> displayRaceID
+uint displaySexID
+uint skinID
+uint faceID
+uint hairStyleID
+uint hairColorID
+uint facialHairID
+string bakeName
 int<ItemDisplayInfo::ID> NPCItemDisplay
-int flags
-int<FileData::ID> fileDataID
-int<FileData::ID> hdFileDataID
-int HDBakeMaterialResourcesID
-int bakeMaterialResourcesID
-int customDisplayOption
-int displayClassID
-string BakeName
 
-BUILD 6.0.1.18179
+BUILD 2.0.0.6080-5.4.8.18273
 $id$ID<32>
-DisplayRaceID<32>
-DisplaySexID<32>
-SkinID<32>
-FaceID<32>
-HairStyleID<32>
-HairColorID<32>
-FacialHairID<32>
+displayRaceID<32>
+displaySexID<32>
+skinID<32>
+faceID<32>
+hairStyleID<32>
+hairColorID<32>
+facialHairID<32>
 NPCItemDisplay<32>[11]
 flags<32>
-fileDataID<32>
-hdFileDataID<32>
+bakeName
 
-LAYOUT 6DF98EF6, 48377C9E
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-bakeMaterialResourcesID<32>
-HDBakeMaterialResourcesID<32>
-DisplayRaceID<8>
-DisplaySexID<8>
-displayClassID<8>
-SkinID<8>
-FaceID<8>
-HairStyleID<8>
-HairColorID<8>
-FacialHairID<8>
-customDisplayOption<8>[3]
-flags<8>
-
-BUILD 4.0.0.11792
+BUILD 0.5.3.3368-2.0.0.5991
 $id$ID<32>
-DisplayRaceID<32>
-DisplaySexID<32>
-SkinID<32>
-FaceID<32>
-HairStyleID<32>
-HairColorID<32>
-FacialHairID<32>
-NPCItemDisplay<32>[11]
-flags<32>
-BakeName
-
-BUILD 0.5.3.3368
-ID<32>
-DisplayRaceID<32>
-DisplaySexID<32>
-SkinID<32>
-FaceID<32>
-HairStyleID<32>
-HairColorID<32>
-FacialHairID<32>
+displayRaceID<32>
+displaySexID<32>
+skinID<32>
+faceID<32>
+hairStyleID<32>
+hairColorID<32>
+facialHairID<32>
 NPCItemDisplay<32>[10]
-BakeName
-
-LAYOUT 89E31B13
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-DisplayRaceID<8>
-DisplaySexID<8>
-displayClassID<8>
-SkinID<8>
-FaceID<8>
-HairStyleID<8>
-HairColorID<8>
-FacialHairID<8>
-flags<8>
-bakeMaterialResourcesID<32>
-HDBakeMaterialResourcesID<32>
-customDisplayOption<8>[3]
+bakeName

@@ -1,98 +1,29 @@
 COLUMNS
-int field_664904741?
-int field_1963334970?
-int field_4117941756?
-int field_4116482101?
-int field_3457968092?
-int field_3020954251?
-int field_3982232677?
-int field_512703686?
-int field_2999706085?
-int field_3403288926?
-float field_1323958623?
-float field_4071969856?
 int ID
-int animKitID
-int attachment
-float castOffset
-int castPositionerID
+uint spellVisualMissileSetID
+uint<SpellVisualEffectName::ID> spellVisualEffectNameID
 int destinationAttachment
-int flags
-int followGroundApproach
+uint<SoundEntries::ID> soundEntriesID
+int attachment
+int field_2730632169?
 int followGroundDropSpeed
-int followGroundHeight
+int followGroundApproach
+uint flags
+uint<SpellMissileMotion::ID> spellMissileMotionID
 float impactOffset
-int impactPositionerID
-int soundEntriesID
-int spellMissileMotionID
-int spellVisualEffectNameID
-int spellVisualMissileSetID
-float field_1926115580
-float field_1393706711
-int field_1393377323
-int field_1261082390
-int field_302766596
-int field_061063942
-int field_664400994
-int field_2141963785
-int field_1918062219
-int field_1662786163
-int field_1802834854
-int field_126457987
-int field_2086841089
-int field_1474148678
-int field_959254079
-int field_1986408782
+float castOffset
 
-BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-field_664904741<32>
-field_1963334970<32>
-field_4117941756<32>
-field_4116482101<32>
-field_3457968092<32>
-field_3020954251<32>
-field_3982232677<32>
-field_512703686<32>
-field_2999706085<32>
-field_3403288926<32>
-field_1323958623[3]
-field_4071969856[3]
-
-LAYOUT 00BA67A5, 5670800D
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-followGroundHeight<32>
-followGroundDropSpeed<32>
-flags<32>
-castOffset[3]
-impactOffset[3]
-spellVisualEffectNameID<16>
-castPositionerID<16>
-impactPositionerID<16>
-followGroundApproach<16>
-spellMissileMotionID<16>
-attachment<8>
-destinationAttachment<8>
-$id$ID<32>
+spellVisualMissileSetID<32>
+spellVisualEffectNameID<32>
+destinationAttachment<32>
 soundEntriesID<32>
-animKitID<32>
-$noninline,relation$spellVisualMissileSetID<16>
-
-LAYOUT 0A0345EB
-BUILD 8.0.1.26788, 8.0.1.26806
-field_1926115580[3]
-field_1393706711[3]
-$id$field_1393377323<32>
-field_1261082390<16>
-field_302766596<32>
-field_061063942<8>
-field_664400994<8>
-field_2141963785<16>
-field_1918062219<16>
-field_1662786163<32>
-field_1802834854<32>
-field_126457987<16>
-field_2086841089<32>
-field_1474148678<16>
-field_959254079<32>
-$noninline,relation$field_1986408782<16>
+attachment<32>
+field_2730632169<32>
+followGroundDropSpeed<32>
+followGroundApproach<32>
+flags<32>
+spellMissileMotionID<32>
+impactOffset[3]
+castOffset[3]

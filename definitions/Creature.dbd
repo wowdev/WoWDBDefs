@@ -1,92 +1,74 @@
 COLUMNS
-int field_3409545797?
-string field_4173975148?
 int ID
-int AlwaysItem
+int alwaysItem
 int classification
-int creatureFamily
-int creatureType
-int displayID
+uint displayID
 float displayProbability
-int mountCreatureID
 locstring name_lang
-locstring nameAlt_lang
 int startAnimState
 locstring title_lang
 locstring titleAlt_lang
+int field_4705449871
+int field_7256365831?
+int field_6344467879?
+int field_1638684343?
+int field_6452793020?
+int field_5734130076? // flags of some kind
+int field_4736215618?
+int field_5009805939?
+int field_7759724630?
+int field_7578003819?
+int field_9577352036?
+int field_4836540140?
+int field_1525801569?
+int creatureFamily
 
-BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-creatureType<32>
-AlwaysItem<32>[3]
-field_3409545797<32>
+alwaysItem<32>[3]
+field_1525801569<32>
 displayID<32>[4]
-displayProbability<32>[4]
-name_lang
+displayProbability[4]
 title_lang
-field_4173975148
+titleAlt_lang
+creatureFamily<32>
 classification<32>
 startAnimState<32>
 
-LAYOUT CFB508A9
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-name_lang
-nameAlt_lang
-title_lang
-titleAlt_lang
-AlwaysItem<32>[3]
-mountCreatureID<32>
+BUILD 5.0.1.15650-5.3.0.17116
+$id$ID<32>
+alwaysItem<32>[3]
+field_7578003819<32>
+field_9577352036<32>
+field_4836540140<32>
 displayID<32>[4]
 displayProbability[4]
-creatureType<8>
-creatureFamily<8>
-classification<8>
-startAnimState<8>
+name_lang
+startAnimState<32>
 
-LAYOUT 2FC7F691
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
-$noninline,id$ID<32>
-name_lang
-nameAlt_lang
-title_lang
-titleAlt_lang
+BUILD 5.0.1.15589
+$id$ID<32>
+alwaysItem<32>[3]
+field_4736215618<32>
+field_5009805939<32>
+field_7759724630<32>
 displayID<32>[4]
 displayProbability[4]
-AlwaysItem<32>[3]
-mountCreatureID<32>
-classification<8>
-creatureType<8>
-creatureFamily<8>
-startAnimState<8>
+field_5734130076<32>
+name_lang
+startAnimState<32>
 
-LAYOUT 379FF533, FADCD203
-BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-name_lang
-nameAlt_lang
-title_lang
-titleAlt_lang
+BUILD 5.0.1.15640
+BUILD 5.0.1.15464-5.0.1.15544
+$id$ID<32>
+field_4705449871<32>
+field_7256365831<32>
+alwaysItem<32>[3]
+field_6344467879<32>
+field_1638684343<32>
+field_6452793020<32>
 displayID<32>[4]
 displayProbability[4]
-AlwaysItem<32>[3]
-mountCreatureID<32>
-creatureFamily<16>
-classification<8>
-creatureType<8>
-startAnimState<8>
-
-LAYOUT 0D492BF3
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
+field_5734130076<32>
 name_lang
-nameAlt_lang
-title_lang
-titleAlt_lang
-classification<8>
-creatureType<8>
-creatureFamily<16>
-startAnimState<8>
-displayID<32>[4]
-displayProbability[4]
-AlwaysItem<32>[3]
+startAnimState<32>

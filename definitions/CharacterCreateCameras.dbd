@@ -1,15 +1,15 @@
 COLUMNS
-int Race
-int Sex
-int Camera
-float Height
-float Radius
-float Target
+int race
+int sex
+int camera
+float height
+float radius
+float target
 
-BUILD 0.5.3.3368, 1.12.1.5875
-Race<32>
-Sex<32>
-Camera<32>
-Height
-Radius
-Target
+BUILD 0.5.3.3368-2.0.0.5991
+race<32>
+sex<32>
+camera<32>
+height
+radius
+target

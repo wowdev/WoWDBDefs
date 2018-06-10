@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int spellID
-int difficultyID
+uint<Spell::ID> spellID
+uint<Difficulty::ID> difficultyID
 int category
 int defenseType
 int dispelType
@@ -9,17 +9,8 @@ int mechanic
 int preventionType
 int startRecoveryCategory
 int chargeCategory
-int field_1430486747
-int field_1688224685
-int field_748051051
-int field_386234062
-int field_033462925
-int field_761993809
-int field_648932062
-int field_1371153062
-int field_1750060412
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
 spellID<32>
 difficultyID<32>
@@ -31,28 +22,21 @@ preventionType<32>
 startRecoveryCategory<32>
 chargeCategory<32>
 
-LAYOUT 14E916CC, 7FEC6900
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-category<16>
-startRecoveryCategory<16>
-chargeCategory<16>
-difficultyID<8>
-defenseType<8>
-dispelType<8>
-mechanic<8>
-preventionType<8>
-$noninline,relation$spellID<32>
+BUILD 5.0.1.15464-5.0.1.15544
+$id$ID<32>
+category<32>
+defenseType<32>
+dispelType<32>
+mechanic<32>
+preventionType<32>
+startRecoveryCategory<32>
+chargeCategory<32>
 
-LAYOUT EF1D2548
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1430486747<8>
-field_1688224685<16>
-field_748051051<8>
-field_386234062<8>
-field_033462925<8>
-field_761993809<8>
-field_648932062<16>
-field_1371153062<16>
-$noninline,relation$field_1750060412<32>
+BUILD 4.0.0.12232-4.3.4.15595
+$id$ID<32>
+category<32>
+defenseType<32>
+dispelType<32>
+mechanic<32>
+preventionType<32>
+startRecoveryCategory<32>

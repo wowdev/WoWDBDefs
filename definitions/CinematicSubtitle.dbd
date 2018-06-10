@@ -1,11 +1,11 @@
 COLUMNS
-int ID
-int flags
-int startTimestamp // milliseconds
-int endTimestamp // milliseconds
-locstring text_lang
+int ID?
+uint flags?
+int startTimestamp?
+int endTimestamp?
+locstring text_lang?
 
-BUILD 0.9.0.3807, 0.10.0.3892
+BUILD 0.9.0.3807-0.12.0.3988
 $id$ID<32>
 flags<32>
 startTimestamp<32>

@@ -1,52 +1,14 @@
 COLUMNS
 int ID
-int ambienceID
+uint<SoundEntries::ID> ambienceID
 int type
 int effectType
 float intensity
 float transitionSkyBox
 float effectColor
 string effectTexture
-int soundAmbienceID
-int windSettingsID
-int effectTextureFileDataID
-float fallModifier
-int particulateFileDataID
-float rotationalSpeed
-float scale
-float twinkleIntensity
-float volatility
-int<Lightning::ID> lightningID
-int overrideColor
-float overrideCount
-float overrideOpacity
-float volumeEdgeFadeStart
-int volumeFlags
-float overrideColorIntensity
-int field_717348174
-float field_1120222978
-int field_1500732071
-int field_289505266
-int field_1948425555
-int field_555766786
-int field_1725044172
-float field_1976809273
-float field_1940229071
-float field_1084837074
-float field_840487085
-float field_351198427
-int field_1679049751
-float field_1465170183
-int field_1898633724
-float field_1385879049
-float field_961428944
-float field_1275839559
-int field_1258535005
-int field_1850049625
-float field_1720455423
-float field_523409829
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 ambienceID<32>
 type<32>
@@ -55,29 +17,8 @@ intensity[2]
 transitionSkyBox
 effectColor[3]
 effectTexture
-soundAmbienceID<32>
-windSettingsID<32>
 
-LAYOUT 1FBCCDF1, BA9E1015
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
-$noninline,id$ID<32>
-intensity[2]
-transitionSkyBox
-effectColor[3]
-scale
-volatility
-twinkleIntensity
-fallModifier
-rotationalSpeed
-particulateFileDataID<32>
-soundAmbienceID<16>
-type<8>
-effectType<8>
-windSettingsID<8>
-ambienceID<32>
-effectTextureFileDataID<32>
-
-BUILD 4.0.0.11792
+BUILD 3.3.0.10958-4.3.4.15595
 $id$ID<32>
 ambienceID<32>
 effectType<32>
@@ -85,130 +26,9 @@ transitionSkyBox
 effectColor[3]
 effectTexture
 
-BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 2.1.0.6692-3.2.2.10505
+$id$ID<32>
 ambienceID<32>
 effectType<32>
 effectColor[3]
 effectTexture
-
-LAYOUT FBFEBCAE
-BUILD 8.0.1.26367
-$noninline,id$ID<32>
-intensity[2]
-transitionSkyBox
-effectColor[3]
-scale
-volatility
-twinkleIntensity
-fallModifier
-rotationalSpeed
-particulateFileDataID<32>
-volumeEdgeFadeStart
-overrideColor<32>
-overrideCount
-overrideOpacity
-volumeFlags<32>
-lightningID<32>
-soundAmbienceID<16>
-type<8>
-effectType<8>
-windSettingsID<8>
-ambienceID<32>
-effectTextureFileDataID<32>
-
-LAYOUT D4C2F9E6
-BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
-$noninline,id$ID<32>
-intensity[2]
-transitionSkyBox
-effectColor[3]
-scale
-volatility
-twinkleIntensity
-fallModifier
-rotationalSpeed
-particulateFileDataID<32>
-volumeEdgeFadeStart
-overrideColor<32>
-overrideColorIntensity
-overrideCount
-overrideOpacity
-volumeFlags<32>
-lightningID<32>
-soundAmbienceID<16>
-type<8>
-effectType<8>
-windSettingsID<8>
-ambienceID<32>
-effectTextureFileDataID<32>
-
-LAYOUT 84CC9168
-BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-intensity[2]
-transitionSkyBox
-effectColor[3]
-scale
-volatility
-twinkleIntensity
-fallModifier
-rotationalSpeed
-volumeEdgeFadeStart
-overrideColorIntensity
-overrideCount
-overrideOpacity
-soundAmbienceID<16>
-type<8>
-effectType<8>
-windSettingsID<8>
-ambienceID<32>
-effectTextureFileDataID<32>
-particulateFileDataID<32>
-overrideColor<32>
-volumeFlags<32>
-lightningID<32>
-
-LAYOUT 7C160B07
-BUILD 7.3.5.26654
-$noninline,id$ID<32>
-intensity[2]
-transitionSkyBox
-effectColor[3]
-scale
-volatility
-twinkleIntensity
-fallModifier
-rotationalSpeed
-soundAmbienceID<16>
-type<8>
-effectType<8>
-windSettingsID<8>
-ambienceID<32>
-effectTextureFileDataID<32>
-
-LAYOUT 784E91E0
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_717348174<8>
-field_1120222978
-field_1500732071<32>
-field_289505266<16>
-field_1948425555<8>
-field_555766786<32>
-field_1725044172<8>
-field_1976809273
-field_1940229071
-field_1084837074
-field_840487085
-field_351198427
-field_1679049751<32>
-field_1465170183
-field_1898633724<32>
-field_1385879049
-field_961428944
-field_1275839559
-field_1258535005<32>
-field_1850049625<32>
-field_1720455423[2]
-field_523409829[3]

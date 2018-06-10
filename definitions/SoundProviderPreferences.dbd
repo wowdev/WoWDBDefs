@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-string Description
-int Flags
+string description
+uint flags
 int EAXEnvironmentSelection
 float EAXDecayTime
 float EAX2EnvironmentSize
@@ -23,36 +23,13 @@ float EAX3ModulationTime
 float EAX3ModulationDepth
 float EAX3HFReference
 float EAX3LFReference
-float EAXEffectVolume
 float EAXDamping
-string field_2078721128
-int field_311590099
-float field_1746715177
-float field_2032716894
-float field_1697736051
-int field_312319389
-int field_1467980816
-float field_971685050
-int field_740807824
-float field_058157630
-int field_1894955354
-float field_291345073
-float field_1120644038
-float field_338607625
-int field_1882645425
-float field_734091015
-float field_1473494764
-float field_864308755
-float field_500259066
-float field_800931007
-float field_279840348
-float field_751826715
-int field_086384110
+float EAXEffectVolume
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 0.7.0.3694-6.2.4.21742
 $id$ID<32>
-Description
-Flags<32>
+description
+flags<32>
 EAXEnvironmentSelection<32>
 EAXDecayTime
 EAX2EnvironmentSize
@@ -75,18 +52,25 @@ EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
 
-LAYOUT 85F218A4
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-Description
+BUILD 0.6.0.3592
+$id$ID<32>
+description
+flags<32>
+EAXEnvironmentSelection<32>
 EAXDecayTime
+EAXDamping
 EAX2EnvironmentSize
 EAX2EnvironmentDiffusion
+EAX2Room<32>
+EAX2RoomHF<32>
 EAX2DecayHFRatio
+EAX2Reflections<32>
 EAX2ReflectionsDelay
+EAX2Reverb<32>
 EAX2ReverbDelay
 EAX2RoomRolloff
 EAX2AirAbsorption
+EAX3RoomLF<32>
 EAX3DecayLFRatio
 EAX3EchoTime
 EAX3EchoDepth
@@ -94,18 +78,11 @@ EAX3ModulationTime
 EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
-Flags<16>
-EAX2Room<16>
-EAX2RoomHF<16>
-EAX2Reflections<16>
-EAX2Reverb<16>
-EAXEnvironmentSelection<8>
-EAX3RoomLF<8>
 
-BUILD 0.5.3.3368
-ID<32>
-Description
-Flags<32>
+BUILD 0.5.3.3368-0.5.5.3494
+$id$ID<32>
+description
+flags<32>
 EAXEnvironmentSelection<32>
 EAXEffectVolume
 EAXDecayTime
@@ -129,57 +106,3 @@ EAX3ModulationTime
 EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
-
-LAYOUT C15849C6
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-Description
-EAXDecayTime
-EAX2EnvironmentSize
-EAX2EnvironmentDiffusion
-EAX2DecayHFRatio
-EAX2ReflectionsDelay
-EAX2ReverbDelay
-EAX2RoomRolloff
-EAX2AirAbsorption
-EAX3DecayLFRatio
-EAX3EchoTime
-EAX3EchoDepth
-EAX3ModulationTime
-EAX3ModulationDepth
-EAX3HFReference
-EAX3LFReference
-EAX2Room<16>
-EAX2RoomHF<16>
-EAX2Reflections<16>
-EAX2Reverb<16>
-Flags<16>
-EAXEnvironmentSelection<8>
-EAX3RoomLF<8>
-
-LAYOUT F0F42A22
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_2078721128
-field_311590099<8>
-field_1746715177
-field_2032716894
-field_1697736051
-field_312319389<16>
-field_1467980816<16>
-field_971685050
-field_740807824<16>
-field_058157630
-field_1894955354<16>
-field_291345073
-field_1120644038
-field_338607625
-field_1882645425<8>
-field_734091015
-field_1473494764
-field_864308755
-field_500259066
-field_800931007
-field_279840348
-field_751826715
-field_086384110<16>

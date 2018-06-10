@@ -1,38 +1,13 @@
 COLUMNS
-int field_3836942305?
-int field_3245461341?
-int field_3823020916?
-int field_3504893422?
 int ID
-int pathID
-int propertyIndex
+uint<Path::ID> pathID
 int sequence
+uint propertyID
 int value
-int field_1092377406
-int field_2001376754
-int field_188076294
-int field_439596273
-int field_578610566
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-field_3836942305<32>
-field_3245461341<32>
-field_3823020916<32>
-field_3504893422<32>
-
-LAYOUT 92C03009, CB2C92BD
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-pathID<16>
-sequence<16>
-propertyIndex<8>
-$id$ID<32>
+pathID<32>
+sequence<32>
+propertyID<32>
 value<32>
-
-LAYOUT 578DA815
-BUILD 8.0.1.26788, 8.0.1.26806
-$id$field_1092377406<32>
-field_2001376754<16>
-field_188076294<16>
-field_439596273<8>
-field_578610566<32>

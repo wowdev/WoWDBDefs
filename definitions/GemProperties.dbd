@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int enchant_ID
+uint<SpellItemEnchantment::ID> enchant_ID
 int maxcount_inv
 int maxcount_item
 int type
 int min_item_level
 
-BUILD 6.0.1.18179
+BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>
 enchant_ID<32>
 maxcount_inv<32>
@@ -14,24 +14,9 @@ maxcount_item<32>
 type<32>
 min_item_level<32>
 
-LAYOUT 84558CAB, AB17B7EF
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-type<32>
-enchant_ID<16>
-min_item_level<16>
-
-BUILD 4.0.0.11792
-ID<32>
+BUILD 2.0.0.5610-3.3.5.12340
+$id$ID<32>
 enchant_ID<32>
 maxcount_inv<32>
 maxcount_item<32>
 type<32>
-min_item_level<32>
-
-LAYOUT BCE902DB
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-enchant_ID<16>
-type<32>
-min_item_level<16>

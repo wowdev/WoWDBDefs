@@ -1,142 +1,99 @@
 COLUMNS
 int ID
-int WMOID
-int NameSetID
-int WMOGroupID
-int<SoundProviderPreferences::ID> SoundProviderPref
-int<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
-int<SoundAmbience::ID> AmbienceID
-int<ZoneMusic::ID> ZoneMusic
-int<ZoneIntroMusicTable::ID> IntroSound
-int flags
-int<AreaTable::ID> AreaTableID
-locstring AreaName_lang
+uint flags
 int<ZoneIntroMusicTable::ID> uwIntroSound
 int<ZoneMusic::ID> uwZoneMusic
 int<SoundAmbience::ID> uwAmbience
-int DayAmbienceSoundID
-int NightAmbienceSoundID
+uint nameSetID
+int<SoundProviderPreferences::ID> soundProviderPref
+int<SoundProviderPreferences::ID> soundProviderPrefUnderwater
+uint<SoundAmbience::ID> ambienceID
+int<ZoneMusic::ID> zoneMusic
+int<ZoneIntroMusicTable::ID> introSound
+uint<AreaTable::ID> areaTableID
+locstring areaName_lang
+uint WMOID
+uint<SoundEntries::ID> dayAmbienceSoundID
+uint nightAmbienceSoundID
 int MIDIAmbience
 int MIDIAmbienceUnderwater
-int IntroPriority
-int inlineWMOID
+int introPriority
+int field_5955553788?
+uint WMOGroupID
 
-BUILD 6.0.1.18179
+BUILD 4.0.0.12319-6.2.4.21742
 $id$ID<32>
 WMOID<32>
-NameSetID<32>
+nameSetID<32>
 WMOGroupID<32>
-SoundProviderPref<32>
-SoundProviderPrefUnderwater<32>
-AmbienceID<32>
-ZoneMusic<32>
-IntroSound<32>
+soundProviderPref<32>
+soundProviderPrefUnderwater<32>
+ambienceID<32>
+zoneMusic<32>
+introSound<32>
 flags<32>
-AreaTableID<32>
-AreaName_lang
+areaTableID<32>
+areaName_lang
 uwIntroSound<32>
 uwZoneMusic<32>
 uwAmbience<32>
 
-LAYOUT 30A78709
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-AreaName_lang
-WMOGroupID<32>
-$relation$WMOID<16>
-AmbienceID<16>
-ZoneMusic<16>
-IntroSound<16>
-AreaTableID<16>
-uwIntroSound<16>
-uwAmbience<16>
-NameSetID<8>
-SoundProviderPref<8>
-SoundProviderPrefUnderwater<8>
-flags<8>
-$id$ID<32>
-uwZoneMusic<32>
-
-BUILD 4.0.0.11792
+BUILD 0.7.0.3694-0.7.0.3712
 $id$ID<32>
 WMOID<32>
-NameSetID<32>
+nameSetID<32>
 WMOGroupID<32>
-SoundProviderPref<32>
-SoundProviderPrefUnderwater<32>
-AmbienceID<32>
-ZoneMusic<32>
-IntroSound<32>
+soundProviderPref<32>
+soundProviderPrefUnderwater<32>
+ambienceID<32>
+zoneMusic<32>
+introSound<32>
 flags<32>
-AreaTableID<32>
-AreaName_lang
+areaTableID<32>
+areaName_lang
 
-BUILD 0.5.3.3368
-ID<32>
+BUILD 0.8.0.3734
+$id$ID<32>
 WMOID<32>
-NameSetID<32>
+nameSetID<32>
 WMOGroupID<32>
-DayAmbienceSoundID<32>
-NightAmbienceSoundID<32>
-SoundProviderPref<32>
-SoundProviderPrefUnderwater<32>
+soundProviderPref<32>
+soundProviderPrefUnderwater<32>
+ambienceID<32>
+zoneMusic<32>
+introSound<32>
+flags<32>
+field_5955553788<32>
+areaTableID<32>
+areaName_lang
+
+BUILD 0.7.0.3694-0.7.0.3712
+$id$ID<32>
+WMOID<32>
+nameSetID<32>
+WMOGroupID<32>
+soundProviderPref<32>
+soundProviderPrefUnderwater<32>
+ambienceID<32>
+zoneMusic<32>
+introSound<32>
+flags<32>
+field_5955553788<32>
+areaName_lang
+
+BUILD 0.5.3.3368-0.6.0.3592
+$id$ID<32>
+WMOID<32>
+nameSetID<32>
+WMOGroupID<32>
+dayAmbienceSoundID<32>
+nightAmbienceSoundID<32>
+soundProviderPref<32>
+soundProviderPrefUnderwater<32>
 MIDIAmbience<32>
 MIDIAmbienceUnderwater<32>
-ZoneMusic<32>
-IntroSound<32>
-IntroPriority<32>
+zoneMusic<32>
+introSound<32>
+introPriority<32>
 flags<32>
-AreaName_lang
-
-LAYOUT 2D2A3D3D
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-AreaName_lang
-WMOGroupID<32>
-$relation$WMOID<16>
-AmbienceID<16>
-uwAmbience<16>
-ZoneMusic<16>
-IntroSound<16>
-uwIntroSound<16>
-AreaTableID<16>
-NameSetID<8>
-SoundProviderPref<8>
-SoundProviderPrefUnderwater<8>
-flags<8>
-$id$ID<32>
-uwZoneMusic<32>
-
-LAYOUT 4616C893
-BUILD 7.3.5.26654
-AreaName_lang
-WMOGroupID<32>
-AmbienceID<16>
-ZoneMusic<16>
-IntroSound<16>
-AreaTableID<16>
-uwIntroSound<16>
-NameSetID<16>
-SoundProviderPref<8>
-SoundProviderPrefUnderwater<8>
-flags<8>
-uwZoneMusic<8>
-$id$ID<32>
-inlineWMOID<32>
-$noninline,relation$WMOID<16>
-
-LAYOUT 60EC930B
-BUILD 8.0.1.26788, 8.0.1.26806
-AreaName_lang
-$id$ID<32>
-$relation$WMOID<16>
-NameSetID<8>
-WMOGroupID<32>
-SoundProviderPref<8>
-SoundProviderPrefUnderwater<8>
-AmbienceID<16>
-uwAmbience<16>
-ZoneMusic<16>
-uwZoneMusic<32>
-IntroSound<16>
-uwIntroSound<16>
-AreaTableID<16>
-flags<8>
+areaName_lang

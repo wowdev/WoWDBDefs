@@ -1,107 +1,71 @@
 COLUMNS
-int field_2062080633?
-int field_895647863?
-int field_3378167693?
-int field_604167671?
-int field_302453145?
-int field_1716104810?
-int field_4064523471?
-int field_3242744262?
-float field_2409654209?
-float field_2626330532?
-int field_752352413?
-float field_3042231609?
 int ID
-int altPowerBarID
 int manaCost
 int manaCostPerLevel
-int manaPerSecond
-int optionalCost
-int orderIndex
-float powerCostMaxPct
-float powerCostPct
-int powerDisplayID
-float powerPctPerSecond
 int powerType
-int requiredAuraSpellID
-int spellID
-int field_1918783764
-int field_1492331161
-int field_1767505220
-int field_433406149
-int field_801213775
-int field_1299179811
-int field_459926339
-float field_1619890638
-float field_1738331073
-float field_1935781870
-int field_1965009538
-int field_1335777086
-int field_277899929
-int field_1849230511
+int manaPerSecond
+uint<PowerDisplay::ID> powerDisplayID
+int field_4567976787?
+uint<Spell::ID> spellID
+float powerCostPct
+float field_7962234177?
+int field_9065017904?
+uint altPowerBarID?
+float field_3005919490?
+uint<Spell::ID> requiredAuraSpellID
+float powerCostMaxPct
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-field_2062080633<32>
-field_895647863<32>
-field_3378167693<32>
-field_604167671<32>
-field_302453145<32>
-field_1716104810<32>
-field_4064523471<32>
-field_3242744262<32>
-field_2409654209
-field_2626330532
-field_752352413<32>
-field_3042231609
-
-LAYOUT 8E5E46EC
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+spellID<32>
+field_9065017904<32>
+powerType<32>
 manaCost<32>
-powerCostPct
-powerPctPerSecond
-requiredAuraSpellID<32>
-powerCostMaxPct
-orderIndex<8>
-powerType<8>
-$id$ID<32>
-manaCostPerLevel<32>
-manaPerSecond<32>
-optionalCost<32>
-powerDisplayID<32>
-altPowerBarID<32>
-$noninline,relation$spellID<32>
-
-LAYOUT F3C96414
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-manaCost<32>
-powerCostPct
-powerCostMaxPct
-powerPctPerSecond
-requiredAuraSpellID<32>
-orderIndex<8>
-powerType<8>
-$id$ID<32>
 manaCostPerLevel<32>
 manaPerSecond<32>
 powerDisplayID<32>
 altPowerBarID<32>
-optionalCost<32>
-$noninline,relation$spellID<32>
+powerCostPct
+field_3005919490
+requiredAuraSpellID<32>
+powerCostMaxPct
 
-LAYOUT 12ED7A99
-BUILD 8.0.1.26788, 8.0.1.26806
-$id$field_1918783764<32>
-field_1492331161<8>
-field_1767505220<32>
-field_433406149<32>
-field_801213775<32>
-field_1299179811<32>
-field_459926339<32>
-field_1619890638
-field_1738331073
-field_1935781870
-field_1965009538<8>
-field_1335777086<32>
-field_277899929<32>
-$noninline,relation$field_1849230511<32>
+BUILD 5.0.1.15464-5.0.1.15544
+$id$ID<32>
+powerType<32>
+manaCost<32>
+manaCostPerLevel<32>
+manaPerSecond<32>
+powerDisplayID<32>
+altPowerBarID<32>
+powerCostPct
+field_7962234177
+requiredAuraSpellID<32>
+spellID<32>
+
+BUILD 4.3.2.15211-4.3.4.15595
+$id$ID<32>
+manaCost<32>
+manaCostPerLevel<32>
+powerType<32>
+manaPerSecond<32>
+powerDisplayID<32>
+altPowerBarID<32>
+powerCostPct
+
+BUILD 4.0.0.12911-4.3.0.15050
+$id$ID<32>
+manaCost<32>
+manaCostPerLevel<32>
+powerType<32>
+manaPerSecond<32>
+powerDisplayID<32>
+field_4567976787<32>
+
+BUILD 4.0.0.12232-4.0.0.12319
+$id$ID<32>
+manaCost<32>
+manaCostPerLevel<32>
+powerType<32>
+manaPerSecond<32>
+powerDisplayID<32>

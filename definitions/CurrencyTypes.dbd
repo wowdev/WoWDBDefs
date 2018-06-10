@@ -1,28 +1,20 @@
 COLUMNS
 int ID
-int<CurrencyCategory::ID> categoryID
+uint<CurrencyCategory::ID> categoryID
 locstring name_lang
 string inventoryIcon
 int spellWeight
 int spellCategory
 int maxQty
 int maxEarnablePerWeek
-int flags
+uint flags
 int quality
 locstring description_lang
-int inventoryIconFileID
-int itemID
+int category
+uint itemID
 int bitIndex
-int field_874371232
-int field_112097594
-int field_2020783315
-int field_997197214
-int field_454073460
-int field_1322901458
-int field_321503036
-int field_958034873
 
-BUILD 6.0.1.18179
+BUILD 5.2.0.16516-5.4.8.18414
 $id$ID<32>
 categoryID<32>
 name_lang
@@ -35,36 +27,56 @@ flags<32>
 quality<32>
 description_lang
 
-LAYOUT 6CC25CBF, 261E0A50
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
+BUILD 4.0.0.12911-5.1.0.16357
+$id$ID<32>
+categoryID<32>
 name_lang
-description_lang
+inventoryIcon[2]
+spellWeight<32>
+spellCategory<32>
 maxQty<32>
 maxEarnablePerWeek<32>
 flags<32>
-categoryID<8>
-spellCategory<8>
-quality<8>
-inventoryIconFileID<32>
-spellWeight<32>
+description_lang
 
-BUILD 4.0.0.11792
+BUILD 4.0.0.12232-4.0.0.12319
+$id$ID<32>
+category<32>
+categoryID<32>
+name_lang
+inventoryIcon[2]
+spellWeight<32>
+spellCategory<32>
+maxQty<32>
+maxEarnablePerWeek<32>
+flags<32>
+description_lang
+
+BUILD 4.0.0.12025-4.0.0.12164
+$id$ID<32>
+category<32>
+categoryID<32>
+name_lang
+inventoryIcon[2]
+spellWeight<32>
+spellCategory<32>
+maxQty<32>
+maxEarnablePerWeek<32>
+flags<32>
+
+BUILD 4.0.0.11927
+$id$ID<32>
+category<32>
+categoryID<32>
+name_lang
+inventoryIcon[2]
+spellWeight<32>
+spellCategory<32>
+maxQty<32>
+maxEarnablePerWeek<32>
+
+BUILD 3.0.1.8622-4.0.0.11792
 $id$ID<32>
 itemID<32>
 categoryID<32>
 bitIndex<32>
-
-LAYOUT 77A6C524
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-name_lang
-description_lang
-field_874371232<8>
-field_112097594<32>
-field_2020783315<32>
-field_997197214<8>
-field_454073460<32>
-field_1322901458<32>
-field_321503036<32>
-field_958034873<8>

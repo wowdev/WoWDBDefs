@@ -1,30 +1,33 @@
 COLUMNS
 int ID
-int Condition_ID
 locstring name_lang
 locstring name1_lang
-int mask_ID
-int flags
+uint mask_ID
+uint flags
+uint condition_ID
 
-BUILD 6.0.1.18179
+BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>
-Condition_ID<32>
+condition_ID<32>
 name_lang
 name1_lang
 mask_ID<32>
 flags<32>
 
-LAYOUT 7A58AA5F, 81B69C5F
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-name_lang
-name1_lang
-mask_ID<16>
-flags<8>
-
-BUILD 4.0.0.11792
+BUILD 2.4.0.7897-3.3.5.12340
 $id$ID<32>
-Condition_ID<32>
+condition_ID<32>
 name_lang
 name1_lang
 mask_ID<32>
+
+BUILD 2.0.0.5991-2.3.3.7799
+$id$ID<32>
+condition_ID<32>
+name_lang
+mask_ID<32>
+
+BUILD 2.0.0.5665-2.0.0.5666
+$id$ID<32>
+condition_ID<32>
+name_lang

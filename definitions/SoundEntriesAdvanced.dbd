@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int soundEntryID
+uint<SoundEntries::ID> soundEntryID
 float innerRadius2D
 int timeA
 int timeB
@@ -24,13 +24,12 @@ float outsideVolume
 float outerRadius2D
 int minRandomPosOffset
 int maxRandomPosOffset
-float duckToDialog
-float duckToSuppressors
-int msOffset
-float volume
+float field_7893944684?
+float field_7905918675?
+float field_9119431888?
 string name
 
-BUILD 6.0.1.18179
+BUILD 5.1.0.16309-5.4.8.18414
 $id$ID<32>
 soundEntryID<32>
 innerRadius2D
@@ -56,12 +55,10 @@ outsideVolume
 outerRadius2D
 minRandomPosOffset<32>
 maxRandomPosOffset<32>
-duckToDialog
-duckToSuppressors
-msOffset<32>
-volume[20]
+field_7905918675
+field_9119431888
 
-BUILD 4.0.0.11792
+BUILD 4.3.2.15211-5.0.5.16057
 $id$ID<32>
 soundEntryID<32>
 innerRadius2D
@@ -85,10 +82,40 @@ insideAngle
 outsideAngle
 outsideVolume
 outerRadius2D
-name
+minRandomPosOffset<32>
+maxRandomPosOffset<32>
+field_7893944684
 
-BUILD 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 4.1.0.13914-4.2.2.14545
+BUILD 4.3.0.15005-4.3.0.15050
+$id$ID<32>
+soundEntryID<32>
+innerRadius2D
+timeA<32>
+timeB<32>
+timeC<32>
+timeD<32>
+randomOffsetRange<32>
+usage<32>
+timeIntervalMin<32>
+timeIntervalMax<32>
+volumeSliderCategory<32>
+duckToSFX
+duckToMusic
+duckToAmbience
+innerRadiusOfInfluence
+outerRadiusOfInfluence
+timeToDuck<32>
+timeToUnduck<32>
+insideAngle
+outsideAngle
+outsideVolume
+outerRadius2D
+minRandomPosOffset<32>
+maxRandomPosOffset<32>
+
+BUILD 3.0.1.8770-4.1.0.13875
+$id$ID<32>
 soundEntryID<32>
 innerRadius2D
 timeA<32>

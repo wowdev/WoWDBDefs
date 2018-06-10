@@ -1,35 +1,8 @@
 COLUMNS
 int ID
-int field_3891939100?
-int field_3489186929?
-int field_4014211407?
-int field_3860462314?
-int field_2517955753?
-int field_2390690163?
-int field_3468827642?
-int field_718542508?
-int field_1437598280?
-int field_148618533?
-int field_4183877524?
-int field_94589165?
-int field_1141178071?
-int field_3231781593?
-int field_975398223?
-int field_2094018342?
-float field_1965610676?
-float field_2589566885?
-float field_3122043454?
-float field_3178167054?
-int field_3080486628?
-float field_3896634149?
-int delayMax
-int delayMin
-float fallbackPriority
-int fallbackSpellVisualKitID
-int flags
-int startAnimID
-int animID
-int animKitID
+uint<AnimationData::ID> startAnimID
+uint<AnimationData::ID> animID
+uint<AnimKit::ID> animKitID
 int headEffect
 int chestEffect
 int baseEffect
@@ -40,53 +13,20 @@ int leftWeaponEffect
 int rightWeaponEffect
 int specialEffect
 int worldEffect
-int soundID
-int shakeID
+uint<SoundEntries::ID> soundID
+uint<SpellEffectCameraShakes::ID> shakeID
 int charProc
+int characterProcedure
+float characterParam
 float charParamZero
 float charParamOne
 float charParamTwo
 float charParamThree
+uint flags
 int kitType
 int anim
-float characterParam
-int characterProcedure
 
-BUILD 6.0.1.18179
-$id$ID<32>
-field_3891939100<32>
-field_3489186929<32>
-field_4014211407<32>
-field_3860462314<32>
-field_2517955753<32>
-field_2390690163<32>
-field_3468827642<32>
-field_718542508<32>
-field_1437598280<32>
-field_148618533<32>
-field_4183877524<32>
-field_94589165<32>[3]
-field_1141178071<32>
-field_3231781593<32>
-field_975398223<32>
-field_2094018342<32>[4]
-field_1965610676[4]
-field_2589566885[4]
-field_3122043454[4]
-field_3178167054[4]
-field_3080486628<32>
-field_3896634149
-
-LAYOUT DC04F488, 3F538334
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-flags<32>
-fallbackPriority
-fallbackSpellVisualKitID<32>
-delayMin<16>
-delayMax<16>
-
-BUILD 4.0.0.11792
+BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
 startAnimID<32>
 animID<32>
@@ -110,9 +50,9 @@ charParamTwo[4]
 charParamThree[4]
 flags<32>
 
-BUILD 3.0.1.8303
-ID<32>
-kitType<32>
+BUILD 3.1.0.9767-3.3.5.12340
+$id$ID<32>
+startAnimID<32>
 animID<32>
 headEffect<32>
 chestEffect<32>
@@ -133,8 +73,8 @@ charParamTwo[4]
 charParamThree[4]
 flags<32>
 
-BUILD 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 3.0.1.8391-3.1.0.9757
+$id$ID<32>
 kitType<32>
 startAnimID<32>
 animID<32>
@@ -157,8 +97,92 @@ charParamTwo[4]
 charParamThree[4]
 flags<32>
 
-BUILD 0.5.3.3368
-ID<32>
+BUILD 2.1.0.6692-3.0.1.8334
+$id$ID<32>
+kitType<32>
+animID<32>
+headEffect<32>
+chestEffect<32>
+baseEffect<32>
+leftHandEffect<32>
+rightHandEffect<32>
+breathEffect<32>
+leftWeaponEffect<32>
+rightWeaponEffect<32>
+specialEffect<32>[3]
+worldEffect<32>
+soundID<32>
+shakeID<32>
+charProc<32>[4]
+charParamZero[4]
+charParamOne[4]
+charParamTwo[4]
+charParamThree[4]
+flags<32>
+
+BUILD 2.0.3.6299-2.0.6.6337
+$id$ID<32>
+kitType<32>
+animID<32>
+headEffect<32>
+chestEffect<32>
+baseEffect<32>
+leftHandEffect<32>
+rightHandEffect<32>
+breathEffect<32>
+leftWeaponEffect<32>
+rightWeaponEffect<32>
+specialEffect<32>[3]
+worldEffect<32>
+soundID<32>
+shakeID<32>
+charProc<32>[4]
+charParamZero[4]
+charParamOne[4]
+charParamTwo[4]
+charParamThree[4]
+
+BUILD 0.8.0.3734-2.0.3.6282
+$id$ID<32>
+kitType<32>
+animID<32>
+headEffect<32>
+chestEffect<32>
+baseEffect<32>
+leftHandEffect<32>
+rightHandEffect<32>
+breathEffect<32>
+specialEffect<32>[3]
+worldEffect<32>
+soundID<32>
+shakeID<32>
+charProc<32>[4]
+charParamZero[4]
+charParamOne[4]
+charParamTwo[4]
+charParamThree[4]
+
+BUILD 0.7.0.3694-0.7.6.3712
+$id$ID<32>
+kitType<32>
+animID<32>
+headEffect<32>
+chestEffect<32>
+baseEffect<32>
+leftHandEffect<32>
+rightHandEffect<32>
+breathEffect<32>
+specialEffect<32>[3]
+soundID<32>
+shakeID<32>
+charProc<32>[4]
+charParamZero[4]
+charParamOne[4]
+charParamTwo[4]
+charParamThree[4]
+
+BUILD 0.5.3.3368-0.6.0.3592
+$id$ID<32>
 kitType<32>
 anim<32>
 headEffect<32>

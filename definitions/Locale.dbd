@@ -1,47 +1,19 @@
 COLUMNS
-int field_767576318?
-int field_848689145?
-int field_3628750783?
-int field_1662039940?
-int field_862845563?
 int ID
-int clientDisplayExpansion
-int fontFileDataID
-int secondary
+uint fontFileDataID
+int field_9456686214?
 int wowLocale
-int field_128559438
-int field_1416666068
-int field_629249587
-int field_516871715
+int secondary
+int clientDisplayExpansion
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15640-5.0.1.15799
 $id$ID<32>
-field_767576318<32>
-field_848689145<32>
-field_3628750783<32>
-field_1662039940<32>
-field_862845563<32>
-
-LAYOUT 592AE13B
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
 fontFileDataID<32>
-wowLocale<8>
-secondary<8>
-clientDisplayExpansion<8>
 
-LAYOUT B14346EF
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
+BUILD 5.0.2.15827-5.4.8.18414
+$id$ID<32>
+field_9456686214<32>
+wowLocale<32>
+secondary<32>
 fontFileDataID<32>
-wowLocale<8>
-clientDisplayExpansion<8>
-secondary<8>
-
-LAYOUT 65638FD5
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_128559438<8>
-field_1416666068<32>
-field_629249587<8>
-field_516871715<8>
+clientDisplayExpansion<32>

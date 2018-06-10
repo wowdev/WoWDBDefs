@@ -1,65 +1,11 @@
 COLUMNS
 int ID
-int NumPoints
-int MapID
-int WorldMapAreaID
-int Floor
-int ObjectiveIndex
-int QuestID
-int playerConditionID
-int uiMapID
-int field_2098047422
-int field_274529541
-int field_337438545
-int field_1419306151
-int field_1425203956
-int field_545615108
-int field_1384809735
+uint worldMapAreaID
+int numPoints
+uint<Map::ID> mapID
 
-BUILD 6.0.1.18179
+BUILD 4.0.0.12911-6.2.4.21742
 $id$ID<32>
-NumPoints<32>
-MapID<32>
-WorldMapAreaID<32>
-
-LAYOUT EC15976E
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$id$ID<32>
-MapID<16>
-$relation$WorldMapAreaID<16>
-NumPoints<8>
-Floor<8>
-playerConditionID<32>
-QuestID<32>
-ObjectiveIndex<32>
-
-LAYOUT 8B0E06FC
-BUILD 8.0.1.26297
-$id$ID<32>
-MapID<16>
-$relation$WorldMapAreaID<16>
-Floor<8>
-NumPoints<8>
-QuestID<32>
-ObjectiveIndex<32>
-playerConditionID<32>
-
-LAYOUT FF1B3BF2
-BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$id$ID<32>
-$relation$MapID<16>
-NumPoints<8>
-uiMapID<32>
-QuestID<32>
-ObjectiveIndex<32>
-playerConditionID<32>
-
-LAYOUT 5DF4B040
-BUILD 8.0.1.26788, 8.0.1.26806
-$id$field_2098047422<32>
-$relation$field_274529541<16>
-field_337438545<32>
-field_1419306151<8>
-field_1425203956<32>
-field_545615108<32>
-field_1384809735<32>
+numPoints<32>
+mapID<32>
+worldMapAreaID<32>

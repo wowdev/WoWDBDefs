@@ -1,43 +1,15 @@
 COLUMNS
+int field_1592796138?
 int ID
-int skillID
-int raceMask
-int classMask
-int flags
-int availability
+uint skillID
+uint raceMask
+uint classMask
+uint flags
 int minLevel
-int skillTierID
+uint<SkillTiers::ID> skillTierID
 int skillCostIndex
-int field_727260954
-int field_1543371263
-int field_241252851
-int field_1183341064
-int field_1481490975
-int field_1304109977
-int field_777509280
 
-BUILD 6.0.1.18179
-$id$ID<32>
-skillID<32>
-raceMask<32>
-classMask<32>
-flags<32>
-availability<32>
-minLevel<32>
-skillTierID<32>
-
-LAYOUT 9752C2CE, BB5112FA
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-raceMask<64>
-$relation$skillID<16>
-flags<16>
-skillTierID<16>
-availability<8>
-minLevel<8>
-classMask<32>
-
-BUILD 4.0.0.11792
+BUILD 4.0.0.12025-4.3.4.15595
 $id$ID<32>
 skillID<32>
 raceMask<32>
@@ -46,9 +18,11 @@ flags<32>
 minLevel<32>
 skillTierID<32>
 skillCostIndex<32>
+field_1592796138<32>
 
-BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 0.6.0.3592-4.0.0.11927
+BUILD 5.0.1.15464-6.2.4.21742
+$id$ID<32>
 skillID<32>
 raceMask<32>
 classMask<32>
@@ -56,14 +30,3 @@ flags<32>
 minLevel<32>
 skillTierID<32>
 skillCostIndex<32>
-
-LAYOUT 4CFD464E
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_727260954<64>
-$relation$field_1543371263<16>
-field_241252851<32>
-field_1183341064<16>
-field_1481490975<8>
-field_1304109977<8>
-field_777509280<16>

@@ -2,36 +2,12 @@ COLUMNS
 int ID
 float position
 float direction
-int soundEntriesID
-int mapID
+uint<SoundEntries::ID> soundEntriesID
 string name
+uint<Map::ID> mapID
 int emitterType
-int PhaseID
-int PhaseGroupID
-int PhaseUseFlags
-int flags
-int worldStateExpressionID
-float positionX
-float positionY
-float positionZ
-float directionX
-float directionY
-float directionZ
-int soundEntryAdvancedID
-string field_1237967718
-float field_968239490
-float field_1239654039
-int field_2123544784
-int field_2014315408
-int field_1614510321
-int field_409233490
-int field_293884509
-int field_253307497
-int field_770102161
-int field_279649745
-int field_001210459
 
-BUILD 6.0.1.18179
+BUILD 4.3.2.15148-5.4.8.18414
 $id$ID<32>
 position[3]
 direction[3]
@@ -39,62 +15,11 @@ soundEntriesID<32>
 mapID<32>
 name
 emitterType<32>
-PhaseID<32>
-PhaseGroupID<32>
-PhaseUseFlags<32>
-flags<32>
-worldStateExpressionID<32>
 
-LAYOUT 55A3B17E, F8C3FC7E
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-name
+BUILD 3.0.1.8770-4.3.0.15050
+$id$ID<32>
 position[3]
 direction[3]
-worldStateExpressionID<16>
-PhaseID<16>
-emitterType<8>
-PhaseUseFlags<8>
-flags<8>
-$id$ID<32>
-soundEntriesID<32>
-PhaseGroupID<32>
-$noninline,relation$mapID<16>
-
-BUILD 4.0.0.11792
-$id$ID<32>
-positionX
-positionY
-positionZ
-directionX
-directionY
-directionZ
 soundEntriesID<32>
 mapID<32>
 name
-
-BUILD 3.0.2.8885, 3.0.8.9328
-$id$ID<32>
-positionX
-positionY
-positionZ
-directionX
-directionY
-directionZ
-soundEntryAdvancedID<32>
-mapID<32>
-name
-
-LAYOUT 1FDCDD5A
-BUILD 8.0.1.26788, 8.0.1.26806
-field_1237967718
-field_968239490[3]
-field_1239654039[3]
-$id$field_2123544784<32>
-field_2014315408<32>
-field_1614510321<16>
-field_409233490<8>
-field_293884509<16>
-field_253307497<32>
-field_770102161<8>
-field_279649745<8>
-$noninline,relation$field_001210459<16>

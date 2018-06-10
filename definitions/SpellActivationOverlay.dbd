@@ -1,23 +1,16 @@
 COLUMNS
 int ID
-int spellID
-int overlayFileDataID
-int screenLocationID
+uint<Spell::ID> spellID
+uint overlayFileDataID
+uint screenLocationID
 int color
 float scale
-int iconHighlightSpellClassMask
+uint iconHighlightSpellClassMask
 int triggerType
-int soundEntriesID
-int field_1395724707
-int field_1365419776
-int field_949745799
-int field_1135023640
-int field_1066717855
-int field_265451875
-float field_1902733989
-int field_1599420698
+uint<SoundEntries::ID> soundEntriesID
+int field_957412901?
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 spellID<32>
 overlayFileDataID<32>
@@ -28,26 +21,36 @@ iconHighlightSpellClassMask<32>[4]
 triggerType<32>
 soundEntriesID<32>
 
-LAYOUT 23568FC7, B98E15DF
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
+BUILD 4.2.0.14522-4.3.4.15595
+$id$ID<32>
 spellID<32>
 overlayFileDataID<32>
+screenLocationID<32>
 color<32>
 scale
-iconHighlightSpellClassMask<32>[4]
-screenLocationID<8>
-triggerType<8>
+iconHighlightSpellClassMask<32>[3]
+triggerType<32>
 soundEntriesID<32>
 
-LAYOUT E72C81EF
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1395724707<32>[4]
-field_1365419776<32>
-field_949745799<32>
-field_1135023640<8>
-field_1066717855<32>
-field_265451875<32>
-field_1902733989
-field_1599420698<8>
+BUILD 4.1.0.13914-4.2.0.14480
+$id$ID<32>
+spellID<32>
+overlayFileDataID<32>
+screenLocationID<32>
+color<32>
+scale
+iconHighlightSpellClassMask<32>[2]
+field_957412901<32>
+triggerType<32>
+soundEntriesID<32>
+
+BUILD 4.0.0.12911-4.1.0.13875
+$id$ID<32>
+spellID<32>
+overlayFileDataID<32>
+screenLocationID<32>
+color<32>
+scale
+iconHighlightSpellClassMask<32>[2]
+field_957412901<32>
+triggerType<32>

@@ -1,0 +1,11 @@
+COLUMNS
+int ID
+uint<TalentTab::ID> talentTabID?
+uint<Spell::ID> spellID?
+int field_4770519884?
+
+BUILD 4.0.0.12911-4.3.4.15595
+$id$ID<32>
+talentTabID<32>
+spellID<32>
+field_4770519884<32>

@@ -1,44 +1,41 @@
 COLUMNS
-int classID
-int flags
-float priceModifier
-locstring className_lang
 int ID
-int subclassMapID
-int field_1685484439
-int field_119926889
+uint<ItemClass::ID> classID
+uint subclassMapID
+uint flags
+locstring className_lang
+float priceModifier
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15726-5.4.8.18414
 classID<32>
 flags<32>
 priceModifier
 className_lang
 
-LAYOUT A1E4663C, 9CE13EED
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-className_lang
+BUILD 4.3.2.15211-4.3.4.15595
+$id$ID<32>
+classID<32>
+subclassMapID<32>
+flags<32>
 priceModifier
-classID<8>
-flags<8>
+className_lang
 
-BUILD 4.0.0.11792
+BUILD 5.0.1.15464-5.0.1.15699
+$id$ID<32>
+classID<32>
+flags<32>
+priceModifier
+className_lang
+
+BUILD 4.0.0.11792-4.3.0.15050
 $id$ID<32>
 classID<32>
 subclassMapID<32>
 flags<32>
 className_lang
 
-BUILD 0.5.3.3368
+BUILD 0.5.3.3368-3.3.5.12340
+$id$ID<32>
 classID<32>
-subclassMapID<32>
 flags<32>
 className_lang
-
-LAYOUT B6C67A3D
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-className_lang
-field_1685484439<8>
-priceModifier
-field_119926889<8>

@@ -7,9 +7,9 @@ float frequency
 float duration
 float phase
 float coefficient
-int flags
+uint flags
 
-BUILD 6.0.1.18179
+BUILD 4.2.0.14333-5.4.8.18414
 $id$ID<32>
 shakeType<32>
 direction<32>
@@ -20,18 +20,8 @@ phase
 coefficient
 flags<32>
 
-BUILD 4.0.0.11792
+BUILD 0.5.3.3368-4.2.0.14316
 $id$ID<32>
-shakeType<32>
-direction<32>
-amplitude
-frequency
-duration
-phase
-coefficient
-
-BUILD 0.5.3.3368
-ID<32>
 shakeType<32>
 direction<32>
 amplitude

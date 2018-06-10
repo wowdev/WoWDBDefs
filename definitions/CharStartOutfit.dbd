@@ -1,65 +1,44 @@
 COLUMNS
 int ID
-int<ChrRaces::ID> raceID
-int<ChrClasses::ID> classID
-int sexID
-int outfitID
-int ItemID
-int DisplayItemID
-int InventoryType
-int petDisplayID
-int petFamilyID
+uint<ChrRaces::ID> raceID
+uint<ChrClasses::ID> classID
+uint sexID
+uint outfitID
+uint petDisplayID
+uint petFamilyID
+uint itemID
+uint displayItemID
+int inventoryType
+uint genderID
 
-BUILD 6.0.1.18179
+BUILD 4.0.0.12025-5.4.8.18414
 $id$ID<32>
 raceID<8>
 classID<8>
 sexID<8>
 outfitID<8>
-ItemID<32>[24]
-DisplayItemID<32>[24]
-InventoryType<32>[24]
+itemID<32>[24]
+displayItemID<32>[24]
+inventoryType<32>[24]
 petDisplayID<32>
 petFamilyID<32>
 
-LAYOUT 0EEBEE24, 9B7E1D80
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-ItemID<32>[24]
-petDisplayID<32>
-classID<8>
-sexID<8>
-outfitID<8>
-petFamilyID<8>
-$noninline,relation$raceID<8>
-
-BUILD 4.0.0.11792
+BUILD 3.0.1.8303-4.0.0.11927
 $id$ID<32>
 raceID<8>
 classID<8>
 sexID<8>
 outfitID<8>
-ItemID<32>[24]
-DisplayItemID<32>[24]
-InventoryType<32>[24]
+itemID<32>[24]
+displayItemID<32>[24]
+inventoryType<32>[24]
 
-BUILD 0.5.3.3368
-ID<32>
+BUILD 0.5.3.3368-2.4.3.8606
+$id$ID<32>
 raceID<8>
 classID<8>
-sexID<8>
+genderID<8>
 outfitID<8>
-ItemID<32>[12]
-DisplayItemID<32>[12]
-InventoryType<32>[12]
-
-LAYOUT 0F59DD96
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-classID<8>
-sexID<8>
-outfitID<8>
-petDisplayID<32>
-petFamilyID<8>
-ItemID<32>[24]
-$noninline,relation$raceID<8>
+itemID<32>[12]
+displayItemID<32>[12]
+inventoryType<32>[12]

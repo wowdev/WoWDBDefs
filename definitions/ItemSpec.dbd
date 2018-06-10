@@ -5,15 +5,9 @@ int maxLevel
 int itemType
 int primaryStat
 int secondaryStat
-int specializationID
-int field_303988176
-int field_2136037446
-int field_1932517895
-int field_1314484452
-int field_1972125145
-int field_278681441
+uint specializationID
 
-BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 minLevel<32>
 maxLevel<32>
@@ -21,23 +15,3 @@ itemType<32>
 primaryStat<32>
 secondaryStat<32>
 specializationID<32>
-
-LAYOUT B17B7986, DF0C293E
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-specializationID<16>
-minLevel<8>
-maxLevel<8>
-$relation$itemType<8>
-primaryStat<8>
-secondaryStat<8>
-
-LAYOUT EB138F8E
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_303988176<8>
-field_2136037446<8>
-$relation$field_1932517895<8>
-field_1314484452<8>
-field_1972125145<8>
-field_278681441<16>

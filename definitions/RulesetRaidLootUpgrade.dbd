@@ -1,13 +1,13 @@
 COLUMNS
-int ID?
-int field_3029510024?
-int field_792467981?
-int field_294196741?
-int field_4258822546?
+int ID
+int index?
+int field_4721271467?
+uint upgradeID?
+int field_5552431100?
 
-BUILD 6.0.1.18179
+BUILD 5.3.0.16965-5.4.8.18414
 $id$ID<32>
-field_3029510024<32>
-field_792467981<32>
-field_294196741<32>
-field_4258822546<32>
+index<32>
+field_4721271467<32>
+upgradeID<32>
+field_5552431100<32>

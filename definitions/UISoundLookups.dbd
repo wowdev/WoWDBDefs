@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int<SoundEntries::ID> SoundID
-string SoundName
+uint<SoundEntries::ID> soundID
+string soundName
 
-BUILD 0.5.3.3368, 1.12.1.5875
+BUILD 0.5.3.3368-3.3.5.12340
 $id$ID<32>
-SoundID<32>
-SoundName
+soundID<32>
+soundName

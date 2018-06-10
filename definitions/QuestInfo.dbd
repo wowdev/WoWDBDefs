@@ -1,34 +1,7 @@
 COLUMNS
 int ID
-locstring InfoName_lang
-int Modifiers
-int Profession
-int Type
-locstring field_332882570_lang
-int field_1818840171
-int field_1716441350
-int field_1305926513
+locstring infoName_lang
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 0.5.3.3368-6.0.1.18179
 $id$ID<32>
-InfoName_lang
-
-LAYOUT 4F45F445, 00207153
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-InfoName_lang
-Profession<16>
-Type<8>
-Modifiers<8>
-
-BUILD 0.5.3.3368, 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
-ID<32>
-InfoName_lang
-
-LAYOUT DDB38B83
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_332882570_lang
-field_1818840171<8>
-field_1716441350<8>
-field_1305926513<16>
+infoName_lang

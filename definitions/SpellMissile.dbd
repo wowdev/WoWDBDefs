@@ -1,87 +1,21 @@
 COLUMNS
-int field_2021239687?
-float field_451101305?
-float field_2066006080?
-float field_4034116632?
-float field_3174524113?
-float field_1735079500?
-float field_4027610607?
-float field_222004878?
-float field_1868516262?
-float field_2156948826?
-float field_2962381428?
-float field_1232887234?
-float field_3644763280?
-float field_1251441557?
 int ID
-float collisionRadius
-float defaultPitchMax
+uint flags
 float defaultPitchMin
-float defaultSpeedMax
+float defaultPitchMax
 float defaultSpeedMin
-int flags
+float defaultSpeedMax
+float randomizeFacingMin
+float randomizeFacingMax
+float randomizePitchMin
+float randomizePitchMax
+float randomizeSpeedMin
+float randomizeSpeedMax
 float gravity
 float maxDuration
-float randomizeFacingMax
-float randomizeFacingMin
-float randomizePitchMax
-float randomizePitchMin
-float randomizeSpeedMax
-float randomizeSpeedMin
-int spellID
-int field_712213264
-int field_240495249
-float field_1081549605
-float field_2035218689
-float field_390906011
-float field_1267331655
-float field_283031383
-float field_1853432170
-float field_823173347
-float field_1596072957
-float field_1777144874
-float field_1385923892
-float field_745235920
-float field_578888802
-float field_679866065
+float collisionRadius
 
-BUILD 6.0.1.18179
-$id$ID<32>
-field_2021239687<32>
-field_451101305
-field_2066006080
-field_4034116632
-field_3174524113
-field_1735079500
-field_4027610607
-field_222004878
-field_1868516262
-field_2156948826
-field_2962381428
-field_1232887234
-field_3644763280
-field_1251441557
-
-LAYOUT 1D35645E, 7E961832
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-spellID<32>
-defaultPitchMin
-defaultPitchMax
-defaultSpeedMin
-defaultSpeedMax
-randomizeFacingMin
-randomizeFacingMax
-randomizePitchMin
-randomizePitchMax
-randomizeSpeedMin
-randomizeSpeedMax
-gravity
-maxDuration
-collisionRadius
-flags<8>
-
-BUILD 4.0.0.11792
+BUILD 3.1.0.9767-6.2.4.21742
 $id$ID<32>
 flags<32>
 defaultPitchMin
@@ -98,16 +32,8 @@ gravity
 maxDuration
 collisionRadius
 
-BUILD 3.0.1.8303
-ID<32>
-flags<32>
-defaultPitchMin
-defaultPitchMax
-defaultSpeedMin
-defaultSpeedMax
-
-BUILD 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 3.0.1.8391-3.0.9.9551
+$id$ID<32>
 flags<32>
 defaultPitchMin
 defaultPitchMax
@@ -122,21 +48,10 @@ randomizeSpeedMax
 gravity
 maxDuration
 
-LAYOUT AF286A50
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_712213264<32>
-field_240495249<8>
-field_1081549605
-field_2035218689
-field_390906011
-field_1267331655
-field_283031383
-field_1853432170
-field_823173347
-field_1596072957
-field_1777144874
-field_1385923892
-field_745235920
-field_578888802
-field_679866065
+BUILD 3.0.1.8303-3.0.1.8334
+$id$ID<32>
+flags<32>
+defaultPitchMin
+defaultPitchMax
+defaultSpeedMin
+defaultSpeedMax

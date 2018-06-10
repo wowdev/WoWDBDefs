@@ -1,18 +1,17 @@
 COLUMNS
 int ID
-int flags
-int<FileData::ID> fileDataID
+uint flags
 int sizeClass
 float modelScale
-int bloodID
-int<FootprintTextures::ID> footprintTextureID
+uint<UnitBlood::ID> bloodID
+uint<FootprintTextures::ID> footprintTextureID
 float footprintTextureLength
 float footprintTextureWidth
 float footprintParticleScale
-int foleyMaterialID
+uint foleyMaterialID
 int footstepShakeSize
 int deathThudShakeSize
-int<CreatureSoundData::ID> soundID
+uint<CreatureSoundData::ID> soundID
 float collisionWidth
 float collisionHeight
 float mountHeight
@@ -27,51 +26,21 @@ float overrideLootEffectScale
 float overrideNameScale
 float overrideSelectionRadius
 float tamedPetBaseScale
-int creatureGeosetDataID
+uint creatureGeosetDataID
 float hoverHeight
-int deathThudCameraEffectID
-int footstepCameraEffectID
-float geoBox
-string ModelName
+string modelName
 float geoBoxMinX
 float geoBoxMinY
 float geoBoxMinZ
 float geoBoxMaxX
 float geoBoxMaxY
 float geoBoxMaxZ
-string AnimModelName
-int field_1659896616
-int field_1265991841
-int field_1282362854
-int field_2022550525
-float field_160520995
-float field_2120734479
-float field_2133722891
-int field_1550756534
-int field_1927371887
-int field_1676690115
-int field_1590113217
-int field_101826363
-float field_104622856
-float field_1706531492
-float field_1458340937
-int field_1668083978
-float field_1851265124
-float field_646463467
-float field_681975668
-float field_584621965
-float field_1896961477
-float field_369929117
-float field_1954130459
-float field_036600863
-float field_534650763
-float field_564089925
-float field_1769580061
+string animModelName
 
-BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 flags<32>
-fileDataID<32>
+modelName
 sizeClass<32>
 modelScale
 bloodID<32>
@@ -100,42 +69,10 @@ tamedPetBaseScale
 creatureGeosetDataID<32>
 hoverHeight
 
-LAYOUT 983BD312
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-modelScale
-footprintTextureLength
-footprintTextureWidth
-footprintParticleScale
-collisionWidth
-collisionHeight
-mountHeight
-geoBox[6]
-worldEffectScale
-attachedEffectScale
-missileCollisionRadius
-missileCollisionPush
-missileCollisionRaise
-overrideLootEffectScale
-overrideNameScale
-overrideSelectionRadius
-tamedPetBaseScale
-hoverHeight
-flags<32>
-fileDataID<32>
-sizeClass<32>
-bloodID<32>
-footprintTextureID<32>
-foleyMaterialID<32>
-footstepCameraEffectID<32>
-deathThudCameraEffectID<32>
-soundID<32>
-creatureGeosetDataID<32>
-
-BUILD 4.0.0.11792
+BUILD 5.0.1.15668-5.3.0.17116
 $id$ID<32>
 flags<32>
-ModelName
+modelName
 sizeClass<32>
 modelScale
 bloodID<32>
@@ -150,122 +87,293 @@ soundID<32>
 collisionWidth
 collisionHeight
 mountHeight
-geoBoxMinX
-geoBoxMinY
-geoBoxMinZ
-geoBoxMaxX
-geoBoxMaxY
-geoBoxMaxZ
+geoBoxMin[3]
+geoBoxMax[3]
 worldEffectScale
 attachedEffectScale
 missileCollisionRadius
 missileCollisionPush
 missileCollisionRaise
-
-BUILD 3.0.2.8885, 3.0.8.9328
-ID<32>
-flags<32>
-ModelName
-AnimModelName
-sizeClass<32>
-modelScale
-bloodID<32>
-footprintTextureID<32>
-footprintTextureLength
-footprintTextureWidth
-footprintParticleScale
-foleyMaterialID<32>
-footstepShakeSize<32>
-deathThudShakeSize<32>
-soundID<32>
-collisionWidth
-collisionHeight
-mountHeight
-geoBoxMinX
-geoBoxMinY
-geoBoxMinZ
-geoBoxMaxX
-geoBoxMaxY
-geoBoxMaxZ
-worldEffectScale
-attachedEffectScale
-
-BUILD 0.5.3.3368
-ID<32>
-flags<32>
-ModelName
-sizeClass<32>
-modelScale
-bloodID<32>
-footprintTextureID<32>
-footprintTextureLength
-footprintTextureWidth
-footprintParticleScale
-foleyMaterialID<32>
-footstepShakeSize<32>
-deathThudShakeSize<32>
-soundID<32>
-
-LAYOUT DA590248
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-footprintTextureLength
-footprintTextureWidth
-footprintParticleScale
-collisionWidth
-collisionHeight
-worldEffectScale
-hoverHeight
-attachedEffectScale
-modelScale
-missileCollisionRadius
-missileCollisionPush
-missileCollisionRaise
-mountHeight
 overrideLootEffectScale
 overrideNameScale
-overrideSelectionRadius
 tamedPetBaseScale
-geoBox[6]
+creatureGeosetDataID<32>
+hoverHeight
+
+BUILD 5.0.1.15464-5.0.1.15662
+$id$ID<32>
 flags<32>
-fileDataID<32>
+modelName
+sizeClass<32>
+modelScale
 bloodID<32>
 footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
 foleyMaterialID<32>
-footstepCameraEffectID<32>
-deathThudCameraEffectID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
 soundID<32>
-sizeClass<32>
-creatureGeosetDataID<32>
+collisionWidth
+collisionHeight
+mountHeight
+geoBoxMin[3]
+geoBoxMax[3]
+worldEffectScale
+attachedEffectScale
+missileCollisionRadius
+missileCollisionPush
+missileCollisionRaise
+overrideLootEffectScale
+overrideNameScale
+tamedPetBaseScale
+hoverHeight
 
-LAYOUT F61D550A
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-geoBox[6]
-field_1659896616<32>
-field_1265991841<32>
-field_1282362854<32>
-field_2022550525<32>
-field_160520995
-field_2120734479
-field_2133722891
-field_1550756534<32>
-field_1927371887<32>
-field_1676690115<32>
-field_1590113217<32>
-field_101826363<32>
-field_104622856
-field_1706531492
-field_1458340937
-field_1668083978<32>
-field_1851265124
-field_646463467
-field_681975668
-field_584621965
-field_1896961477
-field_369929117
-field_1954130459
-field_036600863
-field_534650763
-field_564089925
-field_1769580061
+BUILD 4.1.0.13914-4.3.4.15595
+$id$ID<32>
+flags<32>
+modelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+mountHeight
+geoBoxMin[3]
+geoBoxMax[3]
+worldEffectScale
+attachedEffectScale
+missileCollisionRadius
+missileCollisionPush
+missileCollisionRaise
+overrideLootEffectScale
+overrideNameScale
+tamedPetBaseScale
+
+BUILD 4.0.6.13623
+$id$ID<32>
+flags<32>
+modelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+mountHeight
+geoBoxMin[3]
+geoBoxMax[3]
+worldEffectScale
+attachedEffectScale
+missileCollisionRadius
+missileCollisionPush
+missileCollisionRaise
+overrideLootEffectScale
+overrideNameScale
+
+BUILD 3.1.0.9767-4.0.6.13596
+$id$ID<32>
+flags<32>
+modelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+mountHeight
+geoBoxMinX
+geoBoxMinY
+geoBoxMinZ
+geoBoxMaxX
+geoBoxMaxY
+geoBoxMaxZ
+worldEffectScale
+attachedEffectScale
+missileCollisionRadius
+missileCollisionPush
+missileCollisionRaise
+
+BUILD 3.0.1.8820-3.0.9.9551
+$id$ID<32>
+flags<32>
+modelName
+animModelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+mountHeight
+geoBoxMinX
+geoBoxMinY
+geoBoxMinZ
+geoBoxMaxX
+geoBoxMaxY
+geoBoxMaxZ
+worldEffectScale
+attachedEffectScale
+
+BUILD 3.0.1.8303-3.0.1.8788
+$id$ID<32>
+flags<32>
+modelName
+animModelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+mountHeight
+geoBoxMinX
+geoBoxMinY
+geoBoxMinZ
+geoBoxMaxX
+geoBoxMaxY
+geoBoxMaxZ
+attachedEffectScale
+
+BUILD 2.1.0.6692-2.4.3.8606
+$id$ID<32>
+flags<32>
+modelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+mountHeight
+geoBoxMinX
+geoBoxMinY
+geoBoxMinZ
+geoBoxMaxX
+geoBoxMaxY
+geoBoxMaxZ
+attachedEffectScale
+
+BUILD 2.0.3.6299-2.0.6.6337
+$id$ID<32>
+flags<32>
+modelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+mountHeight
+geoBoxMinX
+geoBoxMinY
+geoBoxMinZ
+geoBoxMaxX
+geoBoxMaxY
+geoBoxMaxZ
+
+BUILD 2.0.0.5665-2.0.0.5965
+BUILD 2.0.0.6022-2.0.0.6080
+$id$ID<32>
+flags<32>
+modelName
+sizeClass<32>
+attachedEffectScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+mountHeight
+
+BUILD 2.0.0.5991
+BUILD 0.10.0.3892-2.0.0.5610
+$id$ID<32>
+flags<32>
+modelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>
+collisionWidth
+collisionHeight
+
+BUILD 0.5.3.3368-0.9.1.3810
+$id$ID<32>
+flags<32>
+modelName
+sizeClass<32>
+modelScale
+bloodID<32>
+footprintTextureID<32>
+footprintTextureLength
+footprintTextureWidth
+footprintParticleScale
+foleyMaterialID<32>
+footstepShakeSize<32>
+deathThudShakeSize<32>
+soundID<32>

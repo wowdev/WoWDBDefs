@@ -1,21 +1,87 @@
 COLUMNS
 int ID
 int hideGeoset
-int DefaultFlags
-int PreferredFlags
-int HideFlags
+int field_4562899789?
+int field_4845061197?
+int field_18662577?
+int field_4775506898?
+int field_2090985766?
+int field_7342010288?
+int field_1601689295?
+int field_8550666388?
+int field_1016813307?
+int field_3083365281?
+int field_1694140272?
+int field_4380157033?
+int field_7509081651?
+int field_6155956534?
+int field_7199888097?
+int field_1491245344?
+int field_563804167?
+int field_245970338?
+int field_3573679017?
+int field_764553049?
+int field_155253913?
+int field_6685904458?
+int field_5492522421?
+int field_7793757607?
+int field_6366939417?
+int field_4642754008?
+int field_7916857110?
+int field_4644365107?
+int field_9177427393?
+int field_483414852?
+int field_7892022872?
+int field_558177456?
+uint defaultFlags
+uint preferredFlags
+uint hideFlags
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 2.3.0.7561-6.2.4.21742
 $id$ID<32>
 hideGeoset<32>[7]
 
-LAYOUT 3B38D999, 2E7C7FED
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-hideGeoset<32>[9]
+BUILD 0.6.0.3592-2.2.0.7272
+$id$ID<32>
+hideGeoset<32>[5]
+
+BUILD 0.5.5.3494
+$id$ID<32>
+field_4562899789<32>
+field_4845061197<32>
+field_18662577<32>
+field_4775506898<32>
+field_2090985766<32>
+field_7342010288<32>
+field_1601689295<32>
+field_8550666388<32>
+field_1016813307<32>
+field_3083365281<32>
+field_1694140272<32>
+field_4380157033<32>
+field_7509081651<32>
+field_6155956534<32>
+field_7199888097<32>
+field_1491245344<32>
+field_563804167<32>
+field_245970338<32>
+field_3573679017<32>
+field_764553049<32>
+field_155253913<32>
+field_6685904458<32>
+field_5492522421<32>
+field_7793757607<32>
+field_6366939417<32>
+field_4642754008<32>
+field_7916857110<32>
+field_4644365107<32>
+field_9177427393<32>
+field_483414852<32>
+field_7892022872<32>
+field_558177456<32>
 
 BUILD 0.5.3.3368
-ID<32>
-DefaultFlags<32>[32]
-PreferredFlags<32>[32]
-HideFlags<32>[32]
+$id$ID<32>
+defaultFlags<32>[32]
+preferredFlags<32>[32]
+hideFlags<32>[32]

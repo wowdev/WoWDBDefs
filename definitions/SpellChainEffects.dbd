@@ -1,417 +1,413 @@
 COLUMNS
 int ID
-float AvgSegLen
-float Width
-float NoiseScale
-float TexCoordScale
-int SegDuration
-int SegDelay
-int Flags
-int JointCount
-float JointOffsetRadius
-int JointsPerMinorJoint
-int MinorJointsPerMajorJoint
-float MinorJointScale
-float MajorJointScale
-float JointMoveSpeed
-float JointSmoothness
-float MinDurationBetweenJointJumps
-float MaxDurationBetweenJointJumps
-float WaveHeight
-float WaveFreq
-float WaveSpeed
-float MinWaveAngle
-float MaxWaveAngle
-float MinWaveSpin
-float MaxWaveSpin
-float ArcHeight
-float MinArcAngle
-float MaxArcAngle
-float MinArcSpin
-float MaxArcSpin
-float DelayBetweenEffects
-float MinFlickerOnDuration
-float MaxFlickerOnDuration
-float MinFlickerOffDuration
-float MaxFlickerOffDuration
-float PulseSpeed
-float PulseOnLength
-float PulseFadeLength
-int Alpha
-int Red
-int Green
-int Blue
-int BlendMode
 int padding_3020562985?
-int RenderLayer
-float TextureLength
-float WavePhase
-int SpellChainEffectID
-string Texture
-float endWidth
-int numFlipFramesU
-int numFlipFramesV
-float particleEmissionRateMultiplier
-float particleScaleMultiplier
-int soundKitID
-float startWidth
-float textureCoordScaleU
-float textureCoordScaleV
-int textureFileDataID
-int textureParticleFileDataID
-float textureRepeatLengthU
-float textureRepeatLengthV
-float timePerFlipFrame
-float variancePerFlipFrame
-int widthScaleCurveID
 int padding_596171098?
-string Combo
-float field_1429814486
-float field_355380994
-float field_1724567424
-int field_1885592332
-int field_1417247768
-int field_1370383204
-int field_1386773895
-float field_964104065
-int field_1391964646
-int field_2096391900
-float field_332351235
-float field_395954789
-float field_383483196
-float field_940843343
-float field_944456235
-float field_462956890
-float field_702963472
-float field_1056014810
-float field_283702093
-float field_1519479648
-float field_595893636
-float field_2036749092
-float field_1776556833
-float field_2018222593
-float field_693405696
-float field_1824039508
-float field_264987167
-float field_504865507
-float field_232350105
-float field_1463498508
-float field_669522090
-float field_305619239
-float field_482483897
-float field_842135654
-float field_866322203
-float field_2133272653
-int field_1743545545
-int field_842379670
-int field_553550751
-int field_089512745
-int field_1807293970
-int field_729695617
-float field_913413778
-float field_1430882550
-float field_1837119290
-int field_929594246
-float field_1022434129
-float field_1426528982
-int field_1676015403
-int field_1987117970
-int field_1361315873
-int field_791969325
-float field_2142614903
-float field_267952464
-int field_1591242191
-float field_952660940
-float field_138419707
-float field_1265940377
-float field_604298535
-int field_1152803806
+float avgSegLen
+float width
+float noiseScale
+float texCoordScale
+int segDuration
+int segDelay
+string texture
+uint flags
+int jointCount
+float jointOffsetRadius
+int jointsPerMinorJoint
+int minorJointsPerMajorJoint
+float minorJointScale
+float majorJointScale
+float jointMoveSpeed
+float jointSmoothness
+float minDurationBetweenJointJumps
+float maxDurationBetweenJointJumps
+float waveHeight
+float waveFreq
+float waveSpeed
+float minWaveAngle
+float maxWaveAngle
+float minWaveSpin
+float maxWaveSpin
+float arcHeight
+float minArcAngle
+float maxArcAngle
+float minArcSpin
+float maxArcSpin
+float delayBetweenEffects
+float minFlickerOnDuration
+float maxFlickerOnDuration
+float minFlickerOffDuration
+float maxFlickerOffDuration
+float pulseSpeed
+float pulseOnLength
+float pulseFadeLength
+int alpha
+int red
+int green
+int blue
+int blendMode
+string combo
+int renderLayer
+float textureLength
+float wavePhase
+uint spellChainEffectID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-AvgSegLen
-Width
-NoiseScale
-TexCoordScale
-SegDuration<32>
-SegDelay<32>
-Flags<32>
-JointCount<32>
-JointOffsetRadius
-JointsPerMinorJoint<32>
-MinorJointsPerMajorJoint<32>
-MinorJointScale
-MajorJointScale
-JointMoveSpeed
-JointSmoothness
-MinDurationBetweenJointJumps
-MaxDurationBetweenJointJumps
-WaveHeight
-WaveFreq
-WaveSpeed
-MinWaveAngle
-MaxWaveAngle
-MinWaveSpin
-MaxWaveSpin
-ArcHeight
-MinArcAngle
-MaxArcAngle
-MinArcSpin
-MaxArcSpin
-DelayBetweenEffects
-MinFlickerOnDuration
-MaxFlickerOnDuration
-MinFlickerOffDuration
-MaxFlickerOffDuration
-PulseSpeed
-PulseOnLength
-PulseFadeLength
-Alpha<8>
-Red<8>
-Green<8>
-Blue<8>
-BlendMode<8>
+avgSegLen
+width
+noiseScale
+texCoordScale
+segDuration<32>
+segDelay<32>
+flags<32>
+jointCount<32>
+jointOffsetRadius
+jointsPerMinorJoint<32>
+minorJointsPerMajorJoint<32>
+minorJointScale
+majorJointScale
+jointMoveSpeed
+jointSmoothness
+minDurationBetweenJointJumps
+maxDurationBetweenJointJumps
+waveHeight
+waveFreq
+waveSpeed
+minWaveAngle
+maxWaveAngle
+minWaveSpin
+maxWaveSpin
+arcHeight
+minArcAngle
+maxArcAngle
+minArcSpin
+maxArcSpin
+delayBetweenEffects
+minFlickerOnDuration
+maxFlickerOnDuration
+minFlickerOffDuration
+maxFlickerOffDuration
+pulseSpeed
+pulseOnLength
+pulseFadeLength
+alpha<8>
+red<8>
+green<8>
+blue<8>
+blendMode<8>
 padding_3020562985<8>[3]
-RenderLayer<32>
-TextureLength
-WavePhase
-SpellChainEffectID<32>[11]
-Texture
+renderLayer<32>
+textureLength
+wavePhase
+spellChainEffectID<32>[11]
+texture
 
-LAYOUT 4E8FF369, BC798B79
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-AvgSegLen
-NoiseScale
-TexCoordScale
-SegDuration<32>
-Flags<32>
-JointOffsetRadius
-MinorJointScale
-MajorJointScale
-JointMoveSpeed
-JointSmoothness
-MinDurationBetweenJointJumps
-MaxDurationBetweenJointJumps
-WaveHeight
-WaveFreq
-WaveSpeed
-MinWaveAngle
-MaxWaveAngle
-MinWaveSpin
-MaxWaveSpin
-ArcHeight
-MinArcAngle
-MaxArcAngle
-MinArcSpin
-MaxArcSpin
-DelayBetweenEffects
-MinFlickerOnDuration
-MaxFlickerOnDuration
-MinFlickerOffDuration
-MaxFlickerOffDuration
-PulseSpeed
-PulseOnLength
-PulseFadeLength
-WavePhase
-timePerFlipFrame
-variancePerFlipFrame
-textureCoordScaleU[3]
-textureCoordScaleV[3]
-textureRepeatLengthU[3]
-textureRepeatLengthV[3]
-textureParticleFileDataID<32>
-startWidth
-endWidth
-particleScaleMultiplier
-particleEmissionRateMultiplier
-SegDelay<16>
-JointCount<16>
-SpellChainEffectID<16>[11]
-widthScaleCurveID<16>
-JointsPerMinorJoint<8>
-MinorJointsPerMajorJoint<8>
-Alpha<8>
-Red<8>
-Green<8>
-Blue<8>
-BlendMode<8>
-RenderLayer<8>
-numFlipFramesU<8>
-numFlipFramesV<8>
-soundKitID<32>
-textureFileDataID<32>[3]
-
-BUILD 4.0.0.11792
+BUILD 5.3.0.16965-5.4.8.18414
 $id$ID<32>
-AvgSegLen
-Width
-NoiseScale
-TexCoordScale
-SegDuration<32>
-SegDelay<32>
-Texture
-Flags<32>
-JointCount<32>
-JointOffsetRadius
-JointsPerMinorJoint<32>
-MinorJointsPerMajorJoint<32>
-MinorJointScale
-MajorJointScale
-JointMoveSpeed
-JointSmoothness
-MinDurationBetweenJointJumps
-MaxDurationBetweenJointJumps
-WaveHeight
-WaveFreq
-WaveSpeed
-MinWaveAngle
-MaxWaveAngle
-MinWaveSpin
-MaxWaveSpin
-ArcHeight
-MinArcAngle
-MaxArcAngle
-MinArcSpin
-MaxArcSpin
-DelayBetweenEffects
-MinFlickerOnDuration
-MaxFlickerOnDuration
-MinFlickerOffDuration
-MaxFlickerOffDuration
-PulseSpeed
-PulseOnLength
-PulseFadeLength
-Alpha<8>
-Red<8>
-Green<8>
-Blue<8>
-BlendMode<8>
+avgSegLen
+width
+noiseScale
+texCoordScale
+segDuration<32>
+segDelay<32>
+flags<32>
+jointCount<32>
+jointOffsetRadius
+jointsPerMinorJoint<32>
+minorJointsPerMajorJoint<32>
+minorJointScale
+majorJointScale
+jointMoveSpeed
+jointSmoothness
+minDurationBetweenJointJumps
+maxDurationBetweenJointJumps
+waveHeight
+waveFreq
+waveSpeed
+minWaveAngle
+maxWaveAngle
+minWaveSpin
+maxWaveSpin
+arcHeight
+minArcAngle
+maxArcAngle
+minArcSpin
+maxArcSpin
+delayBetweenEffects
+minFlickerOnDuration
+maxFlickerOnDuration
+minFlickerOffDuration
+maxFlickerOffDuration
+pulseSpeed
+pulseOnLength
+pulseFadeLength
+alpha<8>
+red<8>
+green<8>
+blue<8>
+blendMode<8>
+padding_3020562985<8>[3]
+renderLayer<32>
+textureLength
+wavePhase
+spellChainEffectID<32>[11]
+texture
+
+BUILD 5.0.3.15882-5.3.0.16844
+$id$ID<32>
+avgSegLen
+width
+noiseScale
+texCoordScale
+segDuration<32>
+segDelay<32>
+texture
+flags<32>
+jointCount<32>
+jointOffsetRadius
+jointsPerMinorJoint<32>
+minorJointsPerMajorJoint<32>
+minorJointScale
+majorJointScale
+jointMoveSpeed
+jointSmoothness
+minDurationBetweenJointJumps
+maxDurationBetweenJointJumps
+waveHeight
+waveFreq
+waveSpeed
+minWaveAngle
+maxWaveAngle
+minWaveSpin
+maxWaveSpin
+arcHeight
+minArcAngle
+maxArcAngle
+minArcSpin
+maxArcSpin
+delayBetweenEffects
+minFlickerOnDuration
+maxFlickerOnDuration
+minFlickerOffDuration
+maxFlickerOffDuration
+pulseSpeed
+pulseOnLength
+pulseFadeLength
+alpha<8>
+red<8>
+green<8>
+blue<8>
+blendMode<8>
+padding_3020562985<8>[3]
+renderLayer<32>
+textureLength
+wavePhase
+spellChainEffectID<32>[11]
+
+BUILD 4.0.0.11927-5.0.3.15851
+$id$ID<32>
+avgSegLen
+width
+noiseScale
+texCoordScale
+segDuration<32>
+segDelay<32>
+texture
+flags<32>
+jointCount<32>
+jointOffsetRadius
+jointsPerMinorJoint<32>
+minorJointsPerMajorJoint<32>
+minorJointScale
+majorJointScale
+jointMoveSpeed
+jointSmoothness
+minDurationBetweenJointJumps
+maxDurationBetweenJointJumps
+waveHeight
+waveFreq
+waveSpeed
+minWaveAngle
+maxWaveAngle
+minWaveSpin
+maxWaveSpin
+arcHeight
+minArcAngle
+maxArcAngle
+minArcSpin
+maxArcSpin
+delayBetweenEffects
+minFlickerOnDuration
+maxFlickerOnDuration
+minFlickerOffDuration
+maxFlickerOffDuration
+pulseSpeed
+pulseOnLength
+pulseFadeLength
+alpha<8>
+red<8>
+green<8>
+blue<8>
+blendMode<8>
 padding_596171098<8>[3]
-Combo
-RenderLayer<32>
-TextureLength
-WavePhase
+combo
+renderLayer<32>
+textureLength
+wavePhase
 
-BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
-ID<32>
-AvgSegLen
-Width
-NoiseScale
-TexCoordScale
-SegDuration<32>
-SegDelay<32>
-Texture
-Flags<32>
-JointCount<32>
-JointOffsetRadius
-JointsPerMinorJoint<32>
-MinorJointsPerMajorJoint<32>
-MinorJointScale
-MajorJointScale
-JointMoveSpeed
-JointSmoothness
-MinDurationBetweenJointJumps
-MaxDurationBetweenJointJumps
-WaveHeight
-WaveFreq
-WaveSpeed
-MinWaveAngle
-MaxWaveAngle
-MinWaveSpin
-MaxWaveSpin
-ArcHeight
-MinArcAngle
-MaxArcAngle
-MinArcSpin
-MaxArcSpin
-DelayBetweenEffects
-MinFlickerOnDuration
-MaxFlickerOnDuration
-MinFlickerOffDuration
-MaxFlickerOffDuration
-PulseSpeed
-PulseOnLength
-PulseFadeLength
-Alpha<8>
-Red<8>
-Green<8>
-Blue<8>
-BlendMode<8>
-Combo
-RenderLayer<32>
-TextureLength
+BUILD 3.2.0.10192-3.3.5.12340
+$id$ID<32>
+avgSegLen
+width
+noiseScale
+texCoordScale
+segDuration<32>
+segDelay<32>
+texture
+flags<32>
+jointCount<32>
+jointOffsetRadius
+jointsPerMinorJoint<32>
+minorJointsPerMajorJoint<32>
+minorJointScale
+majorJointScale
+jointMoveSpeed
+jointSmoothness
+minDurationBetweenJointJumps
+maxDurationBetweenJointJumps
+waveHeight
+waveFreq
+waveSpeed
+minWaveAngle
+maxWaveAngle
+minWaveSpin
+maxWaveSpin
+arcHeight
+minArcAngle
+maxArcAngle
+minArcSpin
+maxArcSpin
+delayBetweenEffects
+minFlickerOnDuration
+maxFlickerOnDuration
+minFlickerOffDuration
+maxFlickerOffDuration
+pulseSpeed
+pulseOnLength
+pulseFadeLength
+alpha<8>
+red<8>
+green<8>
+blue<8>
+blendMode<8>
+combo
+renderLayer<32>
+textureLength
+wavePhase
 
-BUILD 0.5.3.3368
-ID<32>
-AvgSegLen
-Width
-NoiseScale
-TexCoordScale
-SegDuration<32>
-SegDelay<32>
-Texture
+BUILD 2.4.0.8089-3.1.3.9947
+$id$ID<32>
+avgSegLen
+width
+noiseScale
+texCoordScale
+segDuration<32>
+segDelay<32>
+texture
+flags<32>
+jointCount<32>
+jointOffsetRadius
+jointsPerMinorJoint<32>
+minorJointsPerMajorJoint<32>
+minorJointScale
+majorJointScale
+jointMoveSpeed
+jointSmoothness
+minDurationBetweenJointJumps
+maxDurationBetweenJointJumps
+waveHeight
+waveFreq
+waveSpeed
+minWaveAngle
+maxWaveAngle
+minWaveSpin
+maxWaveSpin
+arcHeight
+minArcAngle
+maxArcAngle
+minArcSpin
+maxArcSpin
+delayBetweenEffects
+minFlickerOnDuration
+maxFlickerOnDuration
+minFlickerOffDuration
+maxFlickerOffDuration
+pulseSpeed
+pulseOnLength
+pulseFadeLength
+alpha<8>
+red<8>
+green<8>
+blue<8>
+blendMode<8>
+combo
+renderLayer<32>
+textureLength
 
-LAYOUT 461F9829
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1429814486
-field_355380994
-field_1724567424
-field_1885592332<32>
-field_1417247768<16>
-field_1370383204<32>
-field_1386773895<16>
-field_964104065
-field_1391964646<8>
-field_2096391900<8>
-field_332351235
-field_395954789
-field_383483196
-field_940843343
-field_944456235
-field_462956890
-field_702963472
-field_1056014810
-field_283702093
-field_1519479648
-field_595893636
-field_2036749092
-field_1776556833
-field_2018222593
-field_693405696
-field_1824039508
-field_264987167
-field_504865507
-field_232350105
-field_1463498508
-field_669522090
-field_305619239
-field_482483897
-field_842135654
-field_866322203
-field_2133272653
-field_1743545545<8>
-field_842379670<8>
-field_553550751<8>
-field_089512745<8>
-field_1807293970<8>
-field_729695617<8>
-field_913413778
-field_1430882550
-field_1837119290
-field_929594246<32>
-field_1022434129
-field_1426528982
-field_1676015403<16>
-field_1987117970<8>
-field_1361315873<8>
-field_791969325<32>
-field_2142614903
-field_267952464
-field_1591242191<16>[11]
-field_952660940[3]
-field_138419707[3]
-field_1265940377[3]
-field_604298535[3]
-field_1152803806<32>[3]
+BUILD 2.1.0.6692-2.3.3.7799
+$id$ID<32>
+avgSegLen
+width
+noiseScale
+texCoordScale
+segDuration<32>
+segDelay<32>
+texture
+flags<32>
+jointCount<32>
+jointOffsetRadius
+jointsPerMinorJoint<32>
+minorJointsPerMajorJoint<32>
+minorJointScale
+majorJointScale
+jointMoveSpeed
+jointSmoothness
+minDurationBetweenJointJumps
+maxDurationBetweenJointJumps
+waveHeight
+waveFreq
+waveSpeed
+minWaveAngle
+maxWaveAngle
+minWaveSpin
+maxWaveSpin
+arcHeight
+minArcAngle
+maxArcAngle
+minArcSpin
+maxArcSpin
+delayBetweenEffects
+minFlickerOnDuration
+maxFlickerOnDuration
+minFlickerOffDuration
+maxFlickerOffDuration
+pulseSpeed
+pulseOnLength
+pulseFadeLength
+alpha<8>
+red<8>
+green<8>
+blue<8>
+blendMode<8>
+combo
+renderLayer<32>
+
+BUILD 0.5.3.3368-2.0.6.6337
+$id$ID<32>
+avgSegLen
+width
+noiseScale
+texCoordScale
+segDuration<32>
+segDelay<32>
+texture

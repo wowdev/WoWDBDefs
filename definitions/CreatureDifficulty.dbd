@@ -1,50 +1,26 @@
 COLUMNS
 int ID
-int creatureID
-int expansionID
-int factionID
-int flags
-int maxLevel
+uint creatureID
+uint<Faction::ID> factionID
+int expansion
 int minLevel
-int contentTuningID
+int maxLevel
+uint flags
+int field_8134554260?
 
-BUILD 6.0.1.18179
+BUILD 5.4.0.17266-6.2.4.21742
 $id$ID<32>
 creatureID<32>
 factionID<32>
-expansionID<32>
+expansion<32>
 minLevel<32>
 maxLevel<32>
 flags<32>[5]
 
-LAYOUT 4291EEC6
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26287
-$noninline,id$ID<32>
-flags<32>[7]
-factionID<16>
-expansionID<8>
-minLevel<8>
-maxLevel<8>
-$noninline,relation$creatureID<32>
-
-LAYOUT 6B6A83CA, D6DB80C6
-BUILD 8.0.1.26231, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-flags<32>[7]
-factionID<16>
-expansionID<8>
-minLevel<8>
-maxLevel<8>
-contentTuningID<32>
-$noninline,relation$creatureID<32>
-
-LAYOUT D344A642
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-expansionID<8>
-minLevel<8>
-maxLevel<8>
-factionID<16>
-contentTuningID<32>
-flags<32>[7]
-$noninline,relation$creatureID<32>
+BUILD 5.0.1.15589-5.3.0.17116
+$id$ID<32>
+creatureID<32>
+field_8134554260<32>
+minLevel<32>
+maxLevel<32>
+flags<32>

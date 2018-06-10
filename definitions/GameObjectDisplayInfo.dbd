@@ -1,71 +1,39 @@
 COLUMNS
 int ID
-int<FileData::ID> fileDataID
-int Sound
+string modelName
+int sound
 float geoBoxMin
 float geoBoxMax
-int<ObjectEffectPackage::ID> objectEffectPackageID
+uint<ObjectEffectPackage::ID> objectEffectPackageID
 float overrideLootEffectScale
 float overrideNameScale
-float geoBox
-string modelName
-float geoBoxMinX
-float geoBoxMinY
-float geoBoxMinZ
-float geoBoxMaxX
-float geoBoxMaxY
-float geoBoxMaxZ
 
-BUILD 6.0.1.18179
+BUILD 4.0.6.13623-5.4.8.18414
 $id$ID<32>
-fileDataID<32>
-Sound<32>[10]
+modelName<32>
+sound<32>[10]
 geoBoxMin[3]
 geoBoxMax[3]
 objectEffectPackageID<32>
 overrideLootEffectScale
 overrideNameScale
 
-LAYOUT 9F2098D1
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-fileDataID<32>
-geoBox[6]
-overrideLootEffectScale
-overrideNameScale
-objectEffectPackageID<16>
-
-BUILD 4.0.0.11792
+BUILD 3.0.1.8622-4.0.6.13596
 $id$ID<32>
-modelName
-Sound<32>[10]
-geoBoxMinX
-geoBoxMinY
-geoBoxMinZ
-geoBoxMaxX
-geoBoxMaxY
-geoBoxMaxZ
+modelName<32>
+sound<32>[10]
+geoBoxMin[3]
+geoBoxMax[3]
 objectEffectPackageID<32>
 
-BUILD 0.5.3.3368
-ID<32>
-modelName
-Sound<32>[10]
+BUILD 2.0.0.6080-3.0.1.8471
+$id$ID<32>
+modelName<32>
+sound<32>[10]
+geoBoxMin[3]
+geoBoxMax[3]
 
-LAYOUT E4251795
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-fileDataID<32>
-overrideLootEffectScale
-overrideNameScale
-geoBox[6]
-objectEffectPackageID<16>
-
-LAYOUT 7A816799
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-geoBox[6]
-fileDataID<32>
-objectEffectPackageID<16>
-overrideLootEffectScale
-overrideNameScale
+BUILD 0.5.3.3368-2.0.0.5991
+$id$ID<32>
+modelName<32>
+sound<32>[10]

@@ -2,35 +2,34 @@ COLUMNS
 int ID
 int soundType
 string name
-int FileDataID
-int Freq
 float volumeFloat
-int flags
+uint flags
 float minDistance
 float distanceCutoff
-int EAXDef
-int soundEntriesAdvancedID
+uint<SoundEntriesAdvanced::ID> soundEntriesAdvancedID
 float volumevariationplus
 float volumevariationminus
 float pitchvariationplus
 float pitchvariationminus
 float pitchAdjust
 int dialogtype
-int busOverwriteID
-string File
-string DirectoryBase
+string file
+int freq
+string directoryBase
+uint fileDataID
+int EAXDef
+float maxDistance
 float pitch
 float pitchVariation
 int priority
 int channel
-float maxDistance
 
-BUILD 6.0.1.18179
+BUILD 5.3.0.16844-5.4.8.18414
 $id$ID<32>
 soundType<32>
 name
-FileDataID<32>[20]
-Freq<32>[20]
+fileDataID<32>[10]
+freq<32>[10]
 volumeFloat
 flags<32>
 minDistance
@@ -43,15 +42,130 @@ pitchvariationplus
 pitchvariationminus
 pitchAdjust
 dialogtype<32>
-busOverwriteID<32>
 
-BUILD 4.0.0.11792
+BUILD 5.0.1.15699-5.2.0.16650
 $id$ID<32>
 soundType<32>
 name
-File[10]
-Freq<32>[10]
-DirectoryBase
+fileDataID<32>[10]
+freq<32>[10]
+directoryBase
+volumeFloat
+flags<32>
+minDistance
+distanceCutoff
+EAXDef<32>
+soundEntriesAdvancedID<32>
+volumevariationplus
+volumevariationminus
+pitchvariationplus
+pitchvariationminus
+pitchAdjust
+dialogtype<32>
+
+BUILD 5.0.1.15650, 5.0.1.15657
+BUILD 5.0.1.15668-5.0.1.15689
+$id$ID<32>
+soundType<32>
+name
+file[10]
+freq<32>[10]
+directoryBase
+volumeFloat
+flags<32>
+minDistance
+distanceCutoff
+EAXDef<32>
+soundEntriesAdvancedID<32>
+volumevariationplus
+volumevariationminus
+pitchvariationplus
+pitchvariationminus
+pitchAdjust
+dialogtype<32>
+
+BUILD 5.0.1.15662
+BUILD 5.0.1.15464-5.0.1.15640
+$id$ID<32>
+soundType<32>
+name
+file[10]
+freq<32>[10]
+directoryBase
+volumeFloat
+flags<32>
+minDistance
+distanceCutoff
+EAXDef<32>
+soundEntriesAdvancedID<32>
+volumevariationplus
+volumevariationminus
+pitchvariationplus
+pitchvariationminus
+dialogtype<32>
+
+BUILD 4.3.2.15211-4.3.4.15595
+$id$ID<32>
+soundType<32>
+name
+file[10]
+freq<32>[10]
+directoryBase
+volumeFloat
+flags<32>
+minDistance
+distanceCutoff
+EAXDef<32>
+soundEntriesAdvancedID<32>
+volumevariationplus
+volumevariationminus
+pitchvariationplus
+pitchvariationminus
+pitchAdjust
+
+BUILD 4.3.0.15005-4.3.0.15050
+$id$ID<32>
+soundType<32>
+name
+file[10]
+freq<32>[10]
+directoryBase
+volumeFloat
+flags<32>
+minDistance
+distanceCutoff
+EAXDef<32>
+soundEntriesAdvancedID<32>
+volumevariationplus
+volumevariationminus
+pitchvariationplus
+pitchvariationminus
+
+BUILD 4.0.0.12122-4.2.2.14545
+$id$ID<32>
+soundType<32>
+name
+file[10]
+freq<32>[10]
+directoryBase
+volumeFloat
+flags<32>
+minDistance
+distanceCutoff
+EAXDef<32>
+soundEntriesAdvancedID<32>
+volumevariationplus
+volumevariationminus
+pitchvariationplus
+pitchvariationminus
+
+BUILD 3.1.0.9767-4.0.0.12065
+$id$ID<32>
+soundType<32>
+name
+file[10]
+freq<32>[10]
+directoryBase
 volumeFloat
 flags<32>
 minDistance
@@ -59,26 +173,41 @@ distanceCutoff
 EAXDef<32>
 soundEntriesAdvancedID<32>
 
-BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 0.9.0.3807-3.0.9.9551
+$id$ID<32>
 soundType<32>
 name
-File[10]
-Freq<32>[10]
-DirectoryBase
+file[10]
+freq<32>[10]
+directoryBase
 volumeFloat
 flags<32>
 minDistance
-distanceCutoff
+maxDistance
 EAXDef<32>
 
-BUILD 0.5.3.3368
-ID<32>
+BUILD 0.7.0.3694-0.8.0.3734
+$id$ID<32>
 soundType<32>
 name
-File[10]
-Freq<32>[10]
-DirectoryBase
+file[10]
+freq<32>[10]
+directoryBase
+volumeFloat
+pitch
+pitchVariation
+flags<32>
+minDistance
+maxDistance
+EAXDef<32>
+
+BUILD 0.5.3.3368-0.6.0.3592
+$id$ID<32>
+soundType<32>
+name
+file[10]
+freq<32>[10]
+directoryBase
 volumeFloat
 pitch
 pitchVariation

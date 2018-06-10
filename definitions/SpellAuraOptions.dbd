@@ -1,23 +1,15 @@
 COLUMNS
 int ID
-int spellID
-int difficultyID
+uint<Spell::ID> spellID
+uint<Difficulty::ID> difficultyID
 int cumulativeAura
 int procChance
 int procCharges
-int procTypeMask
+uint procTypeMask
 int procCategoryRecovery
-int spellProcsPerMinuteID
-int field_1423551137
-int field_183874161
-int field_853392595
-int field_073037297
-int field_193661342
-int field_1301427073
-int field_774939558
-int field_739006312
+uint<SpellProcsPerMinute::ID> spellProcsPerMinuteID
 
-BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 spellID<32>
 difficultyID<32>
@@ -28,38 +20,20 @@ procTypeMask<32>
 procCategoryRecovery<32>
 spellProcsPerMinuteID<32>
 
-LAYOUT E05BE94F
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
+BUILD 5.0.1.15589, 5.0.1.15650, 5.0.1.15657
+BUILD 5.0.1.15668-5.3.0.17116
+$id$ID<32>
+spellID<32>
+difficultyID<32>
+cumulativeAura<32>
+procChance<32>
 procCharges<32>
-procTypeMask<32>[2]
-procCategoryRecovery<32>
-cumulativeAura<16>
-spellProcsPerMinuteID<16>
-difficultyID<8>
-procChance<8>
-$noninline,relation$spellID<32>
+procTypeMask<32>
 
-LAYOUT B825BCB7
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$noninline,id$ID<32>
-procCategoryRecovery<32>
+BUILD 5.0.1.15662, 5.0.1.15640
+BUILD 4.0.0.12232-5.0.1.15544
+$id$ID<32>
+cumulativeAura<32>
+procChance<32>
 procCharges<32>
-procTypeMask<32>[2]
-cumulativeAura<16>
-spellProcsPerMinuteID<16>
-difficultyID<8>
-procChance<8>
-$noninline,relation$spellID<32>
-
-LAYOUT CBDA0981
-BUILD 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-field_1423551137<8>
-field_183874161<16>
-field_853392595<32>
-field_073037297<8>
-field_193661342<32>
-field_1301427073<16>
-field_774939558<32>[2]
-$noninline,relation$field_739006312<32>
+procTypeMask<32>

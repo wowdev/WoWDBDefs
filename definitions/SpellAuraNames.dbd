@@ -1,11 +1,11 @@
 COLUMNS
-int EnumID
-int specialMiscValue // todo: enum
+int enumID
+int specialMiscValue
 string globalstrings_tag
-locstring name_lang
+locstring name_Lang_lang
 
-BUILD 0.5.3.3368, 1.12.1.5875
-EnumID<32>
+BUILD 0.5.3.3368-2.0.0.5991
+$id$enumID<32>
 specialMiscValue<32>
 globalstrings_tag
-name_lang
+name_Lang_lang

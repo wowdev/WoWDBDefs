@@ -1,24 +1,20 @@
 COLUMNS
+int field_4111805969? // some form of flags?
 int ID
 string backgroundFile
-int<ChrClasses::ID> classID
-int<Spell::ID> masterySpellID
+uint<ChrClasses::ID> classID
+uint<Spell::ID> masterySpellID
 int orderIndex
 int petTalentType
 int role
-int spellIconID
+uint<SpellIcon::ID> spellIconID
 int raidBuffs
-int flags
+uint flags
 locstring name_lang
 locstring description_lang
 int maxBuffs
-int primaryStatOrder
-int animReplacements
-locstring femaleName_lang
-int primaryStatPriority
-int spellIconFileID
 
-BUILD 6.0.1.18179
+BUILD 5.0.4.15961-5.4.8.18414
 $id$ID<32>
 backgroundFile
 classID<32>
@@ -32,52 +28,42 @@ flags<32>
 name_lang
 description_lang
 maxBuffs<32>
-primaryStatOrder<32>[3]
 
-LAYOUT 3D86B8F7
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-name_lang
-femaleName_lang
-description_lang
-masterySpellID<32>[2]
-$relation$classID<8>
-orderIndex<8>
-petTalentType<8>
-role<8>
-primaryStatPriority<8>
+BUILD 5.0.1.15699-5.0.4.15952
 $id$ID<32>
-spellIconFileID<32>
-flags<32>
-animReplacements<32>
+backgroundFile
+classID<32>
+masterySpellID<32>[2]
+orderIndex<32>
+petTalentType<32>
+role<32>
+spellIconID<32>
+raidBuffs<32>
+name_lang
+description_lang
+maxBuffs<32>
 
-LAYOUT 2ADA8045
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-name_lang
-femaleName_lang
-description_lang
-masterySpellID<32>[2]
-$relation$classID<8>
-orderIndex<8>
-petTalentType<8>
-role<8>
-primaryStatPriority<8>
+BUILD 5.0.1.15650-5.0.1.15689
 $id$ID<32>
-flags<32>
-spellIconFileID<32>
-animReplacements<32>
+backgroundFile
+classID<32>
+masterySpellID<32>[2]
+orderIndex<32>
+petTalentType<32>
+role<32>
+spellIconID<32>
+field_4111805969<32>
+name_lang
+description_lang
 
-LAYOUT FF9DD5DD
-BUILD 8.0.1.26788, 8.0.1.26806
-name_lang
-femaleName_lang
-description_lang
+BUILD 5.0.1.15464-5.0.1.15640
 $id$ID<32>
-$relation$classID<8>
-orderIndex<8>
-petTalentType<8>
-role<8>
-flags<32>
-spellIconFileID<32>
-primaryStatPriority<8>
-animReplacements<32>
+backgroundFile
+classID<32>
 masterySpellID<32>[2]
+orderIndex<32>
+petTalentType<32>
+role<32>
+spellIconID<32>
+name_lang
+description_lang

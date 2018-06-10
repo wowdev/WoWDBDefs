@@ -1,0 +1,11 @@
+COLUMNS
+int ID
+uint<Spell::ID> spellID
+int page
+uint classID
+
+BUILD 4.0.0.11927-4.0.0.12319
+$id$ID<32>
+classID<32>
+spellID<32>
+page<32>

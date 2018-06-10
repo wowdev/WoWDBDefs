@@ -1,25 +1,15 @@
 COLUMNS
-string luaName
 int ID
-int battlePetVisualID
-int flags
+uint linkedID
+uint flags
+locstring name_lang
 
-BUILD 6.0.1.18179
+BUILD 5.0.4.16016-6.2.4.21742
 $id$ID<32>
-battlePetVisualID<32>
-luaName
+linkedID<32>
+name_lang
 flags<32>
 
-LAYOUT 1797AB4A
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$noninline,id$ID<32>
-luaName
-battlePetVisualID<16>
-flags<16>
-
-LAYOUT F9579FAC
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
-$noninline,id$ID<32>
-luaName
-flags<16>
-battlePetVisualID<16>
+BUILD 5.0.1.15508-5.0.4.15913
+$id$ID<32>
+linkedID<32>

@@ -3,23 +3,13 @@ int ID
 locstring name_lang
 locstring description_lang
 int rarity
-int researchBranchID
-int spellID
+uint<ResearchBranch::ID> researchBranchID
+uint<Spell::ID> spellID
 int numSockets
 string texture
 int requiredWeight
-int textureFileID
-locstring field_605161167_lang
-locstring field_1945113302_lang
-int field_1457321551
-int field_215447282
-int field_720304804
-int field_944104372
-int field_1916209075
-int field_2032980834
-int field_580099054
 
-BUILD 6.0.1.18179
+BUILD 4.0.0.12911-6.2.0.20338
 $id$ID<32>
 name_lang
 description_lang
@@ -30,26 +20,12 @@ numSockets<32>
 texture
 requiredWeight<32>
 
-LAYOUT B1CAB80B, 04761ACF
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 4.0.0.12319
+$id$ID<32>
 name_lang
 description_lang
+rarity<32>
+researchBranchID<32>
 spellID<32>
-researchBranchID<16>
-rarity<8>
-numSockets<8>
-$id$ID<32>
-textureFileID<32>
-requiredWeight<32>
-
-LAYOUT 4A748755
-BUILD 8.0.1.26788, 8.0.1.26806
-field_605161167_lang
-field_1945113302_lang
-$id$field_1457321551<32>
-field_215447282<8>
-field_720304804<32>
-field_944104372<16>
-field_1916209075<8>
-field_2032980834<32>
-field_580099054<32>
+numSockets<32>
+texture

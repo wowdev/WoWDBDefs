@@ -2,10 +2,10 @@ COLUMNS
 int ID
 locstring name_lang
 int order_index
-int parent_group_ID
-int typeID
+uint parent_group_ID
+uint typeID
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 3.3.0.10958-5.4.8.18414
 $id$ID<32>
 name_lang
 order_index<32>

@@ -1,100 +1,43 @@
 COLUMNS
 int ID
-int<Map::ID> ContinentID
 float pos
-locstring Name_lang
-int MountCreatureID
-int conditionID
-int Flags
-float MapOffset
-int characterBitNumber
-float facing
-float flightMapOffset
-int specialIconConditionID
-int uiTextureKitID
-float X
-float Y
-float Z
-float field_754523819
-float field_861202115
-int field_622514936
-int field_195874888
-int field_213619813
-int field_991276813
-float field_1074583245
-int field_1361650732
+uint conditionID
+uint<Map::ID> continentID
+locstring name_lang
+uint mountCreatureID
+uint flags
+float mapOffset
 
-BUILD 6.0.1.18179
+BUILD 5.2.0.16669-6.0.1.18179
 $id$ID<32>
-ContinentID<32>
+continentID<32>
 pos[3]
-Name_lang
-MountCreatureID<32>[2]
+name_lang
+mountCreatureID<32>[2]
 conditionID<32>
-Flags<32>
-MapOffset[2]
+flags<32>
+mapOffset[2]
 
-LAYOUT B46C6A8B, E96BA283
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
-$noninline,id$ID<32>
-Name_lang
-pos[3]
-MountCreatureID<32>[2]
-MapOffset[2]
-facing
-flightMapOffset[2]
-ContinentID<16>
-conditionID<16>
-characterBitNumber<16>
-Flags<8>
-uiTextureKitID<32>
-specialIconConditionID<32>
-
-BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
+BUILD 4.1.0.13914-5.2.0.16650
 $id$ID<32>
-ContinentID<32>
-X
-Y
-Z
-Name_lang
-MountCreatureID<32>[2]
-
-BUILD 0.5.3.3368
-ID<32>
-ContinentID<32>
-X
-Y
-Z
-Name_lang
-
-LAYOUT 9F773045
-BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-Name_lang
-$id$ID<32>
+continentID<32>
 pos[3]
-MountCreatureID<32>[2]
-MapOffset[2]
-facing
-flightMapOffset[2]
-$relation$ContinentID<16>
-conditionID<16>
-characterBitNumber<16>
-Flags<8>
-uiTextureKitID<32>
-specialIconConditionID<32>
+name_lang
+mountCreatureID<32>[2]
+flags<32>
+mapOffset[2]
 
-LAYOUT 0E9F99C5
-BUILD 8.0.1.26788, 8.0.1.26806
-Name_lang
-pos[3]
-field_754523819[2]
-field_861202115[2]
+BUILD 1.11.0.5344-2.0.0.5965
+BUILD 2.0.0.6022-4.1.0.13875
 $id$ID<32>
-$relation$ContinentID<16>
-field_622514936<16>
-field_195874888<16>
-field_213619813<8>
-field_991276813<32>
-field_1074583245
-field_1361650732<32>
-MountCreatureID<32>[2]
+continentID<32>
+pos[3]
+name_lang
+mountCreatureID<32>[2]
+
+BUILD 2.0.0.5991
+BUILD 0.5.3.3368-1.10.2.5302
+$id$ID<32>
+continentID<32>
+pos[3]
+name_lang

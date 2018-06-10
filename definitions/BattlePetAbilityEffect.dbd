@@ -1,47 +1,41 @@
 COLUMNS
 int ID
-int auraBattlePetAbilityID
-int battlePetAbilityTurnID
-int battlePetEffectPropertiesID
-int battlePetVisualID
-int orderIndex
-int param
+uint<BattlePetAbilityTurn::ID> turnID
+uint<BattlePetVisual::ID> visualID
+uint<BattlePetAbility::ID> abilityID
+uint effectPropertyID
+uint flags
+int property
 
-BUILD 6.0.1.18179
+BUILD 5.0.2.15827-6.2.4.21742
 $id$ID<32>
-battlePetAbilityTurnID<32>
-battlePetVisualID<32>
-auraBattlePetAbilityID<32>
-battlePetEffectPropertiesID<32>
-orderIndex<32>
-param<32>[6]
+turnID<32>
+visualID<32>
+abilityID<32>
+effectPropertyID<32>
+flags<32>
+property<32>[6]
 
-LAYOUT 5D30EBC5
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-$relation$battlePetAbilityTurnID<16>
-battlePetVisualID<16>
-auraBattlePetAbilityID<16>
-battlePetEffectPropertiesID<16>
-param<16>[6]
-orderIndex<8>
+BUILD 5.0.1.15640-5.0.1.15799
 $id$ID<32>
+turnID<32>
+visualID<32>
+property<32>[3]
+abilityID<32>
+effectPropertyID<32>
+flags<32>
 
-LAYOUT 2162333D
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-$relation$battlePetAbilityTurnID<16>
-battlePetEffectPropertiesID<16>
-auraBattlePetAbilityID<16>
-battlePetVisualID<16>
-param<16>[6]
-orderIndex<8>
+BUILD 5.0.1.15544-5.0.1.15589
 $id$ID<32>
+turnID<32>
+visualID<32>
+property<32>[3]
+abilityID<32>
+flags<32>
 
-LAYOUT C850B549
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 5.0.1.15508
 $id$ID<32>
-$relation$battlePetAbilityTurnID<16>
-orderIndex<8>
-battlePetEffectPropertiesID<16>
-auraBattlePetAbilityID<16>
-battlePetVisualID<16>
-param<16>[6]
+turnID<32>
+visualID<32>
+property<32>[3]
+abilityID<32>

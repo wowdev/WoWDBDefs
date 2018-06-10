@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-int<AreaTable::ID> areaID
-int phaseUseFlags
-int<Phase::ID> phaseID
-int<PhaseXPhaseGroup::phaseGroupID> phaseGroupID
+uint<Map::ID> mapID
+uint<AreaTable::ID> areaID
+uint phaseUseFlags
+uint<Phase::ID> phaseID
+uint<PhaseXPhaseGroup::phaseGroupID> phaseGroupID
 string icon
 locstring string_lang
 locstring tooltip_lang
@@ -14,30 +14,10 @@ string dynamicIcon
 locstring dynamicTooltip_lang
 string extendedUI
 int extendedUIStateVariable
-int dynamicFlashIconFileID
-int dynamicIconFileID
-int orderIndex
 int phaseShift
-int factionID
-string field_1780015728
-locstring field_1586698208_lang
-locstring field_084854354_lang
-locstring field_649034880_lang
-string field_650110249
-int field_1867949595
-int field_649053501
-int field_705925423
-int field_1491806186
-int field_570583305
-int field_1038183579
-int field_643149059
-int field_1046488185
-int field_123440419
-int field_1568074154
-int field_1267108740
-int field_1583851419
+uint<Faction::ID> factionID
 
-BUILD 6.0.1.18179
+BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>
 mapID<32>
 areaID<32>
@@ -54,27 +34,7 @@ dynamicTooltip_lang
 extendedUI
 extendedUIStateVariable<32>[3]
 
-LAYOUT 70808977
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-icon
-extendedUI
-dynamicTooltip_lang
-string_lang
-tooltip_lang
-$relation$mapID<16>
-areaID<16>
-phaseID<16>
-phaseGroupID<16>
-stateVariable<16>
-extendedUIStateVariable<16>[3]
-orderIndex<8>
-phaseUseFlags<8>
-type<8>
-$id$ID<32>
-dynamicIconFileID<32>
-dynamicFlashIconFileID<32>
-
-BUILD 4.0.0.11792
+BUILD 3.2.0.10192-3.3.5.12340
 $id$ID<32>
 mapID<32>
 areaID<32>
@@ -89,23 +49,9 @@ dynamicTooltip_lang
 extendedUI
 extendedUIStateVariable<32>[3]
 
-BUILD 3.0.1.8303
-ID<32>
-mapID<32>
-areaID<32>
-icon
-string_lang
-tooltip_lang
-factionID<32>
-stateVariable<32>
-type<32>
-dynamicIcon
-dynamicTooltip_lang
-extendedUI
-extendedUIStateVariable<32>[3]
-
-BUILD 3.0.2.8885, 3.0.8.9328
-ID<32>
+BUILD 3.0.1.8622
+BUILD 3.0.2.9056-3.1.3.9947
+$id$ID<32>
 mapID<32>
 areaID<32>
 phaseShift<32>
@@ -120,42 +66,47 @@ dynamicTooltip_lang
 extendedUI
 extendedUIStateVariable<32>[3]
 
-LAYOUT AD4D9EE6
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 3.0.1.8634-3.0.1.8885
+$id$ID<32>
+mapID<32>
+areaID<32>
+phaseShift<32>
 icon
 string_lang
 tooltip_lang
+factionID<32>
+stateVariable<32>
+type<32>
+dynamicIcon
 dynamicTooltip_lang
 extendedUI
-$relation$mapID<16>
-areaID<16>
-stateVariable<16>
-extendedUIStateVariable<16>[3]
-phaseID<16>
-phaseGroupID<16>
-type<8>
-orderIndex<8>
-phaseUseFlags<8>
-$id$ID<32>
-dynamicIconFileID<32>
-dynamicFlashIconFileID<32>
+extendedUIStateVariable<32>[3]
 
-LAYOUT E1F042FE
-BUILD 8.0.1.26788, 8.0.1.26806
-field_1780015728
-field_1586698208_lang
-field_084854354_lang
-field_649034880_lang
-field_650110249
-$id$field_1867949595<32>
-$relation$field_649053501<16>
-field_705925423<16>
-field_1491806186<16>
-field_570583305<8>
-field_1038183579<32>
-field_643149059<32>
-field_1046488185<8>
-field_123440419<8>
-field_1568074154<16>
-field_1267108740<16>
-field_1583851419<16>[3]
+BUILD 1.12.0.5595-2.0.0.5666
+BUILD 2.0.0.6080-3.0.1.8471
+$id$ID<32>
+mapID<32>
+areaID<32>
+icon
+string_lang
+tooltip_lang
+factionID<32>
+stateVariable<32>
+type<32>
+dynamicIcon
+dynamicTooltip_lang
+extendedUI
+extendedUIStateVariable<32>[3]
+
+BUILD 2.0.0.5991
+BUILD 1.5.0.4442-1.11.2.5464
+$id$ID<32>
+mapID<32>
+icon
+string_lang
+tooltip_lang
+factionID<32>
+stateVariable<32>
+type<32>
+dynamicIcon
+dynamicTooltip_lang
