@@ -372,7 +372,14 @@ namespace DBDefsDumper
                         }
                         else
                         {
-                            writer.WriteLine(t.Item1 + " " + columnNames[i]);
+                            if(t.Item1 == "uint")
+                            {
+                                writer.WriteLine("int " + columnNames[i]);
+                            }
+                            else
+                            {
+                                writer.WriteLine(t.Item1 + " " + columnNames[i]);
+                            }
                         }
                     }
 
@@ -421,7 +428,14 @@ namespace DBDefsDumper
 
                         if(typeFlags.Item2 > 0)
                         {
-                            writer.Write("<" + typeFlags.Item2 + ">");
+                            if(typeFlags.Item1 == "uint")
+                            {
+                                writer.Write("<u" + typeFlags.Item2 + ">");
+                            }
+                            else
+                            {
+                                writer.Write("<" + typeFlags.Item2 + ">");
+                            }
                         }
 
                         if(field_sizes_in_file[i] != 1)
@@ -446,7 +460,14 @@ namespace DBDefsDumper
 
                         if (typeFlags.Item2 > 0)
                         {
-                            writer.Write("<" + typeFlags.Item2 + ">");
+                            if (typeFlags.Item1 == "uint")
+                            {
+                                writer.Write("<u" + typeFlags.Item2 + ">");
+                            }
+                            else
+                            {
+                                writer.Write("<" + typeFlags.Item2 + ">");
+                            }
                         }
 
                         if (field_sizes[i] != 1)

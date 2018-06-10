@@ -22,7 +22,14 @@ namespace DBDefsLib
                 writer.WriteLine("COLUMNS");
                 foreach(var columnDefinition in definition.columnDefinitions)
                 {
-                    writer.Write(columnDefinition.Value.type);
+                    if(columnDefinition.Value.type == "uint")
+                    {
+                        writer.Write("int");
+                    }
+                    else
+                    {
+                        writer.Write(columnDefinition.Value.type);
+                    }
 
                     if (!string.IsNullOrEmpty(columnDefinition.Value.foreignTable) && !string.IsNullOrEmpty(columnDefinition.Value.foreignColumn))
                     {
@@ -135,7 +142,14 @@ namespace DBDefsLib
 
                         if(column.size > 0)
                         {
-                            writer.Write("<" + column.size + ">");
+                            if (column.isSigned)
+                            {
+                                writer.Write("<" + column.size + ">");
+                            }
+                            else
+                            {
+                                writer.Write("<u" + column.size + ">");
+                            }
                         }
 
                         if(column.arrLength > 0)

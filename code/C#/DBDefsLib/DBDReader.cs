@@ -33,7 +33,7 @@ namespace DBDefsLib
                     var columnDefinition = new ColumnDefinition();
 
                     /* TYPE READING */
-                    // List of valid types
+                    // List of valid types, uint should be removed soon-ish 
                     var validTypes = new List<string> { "uint", "int", "float", "string", "locstring" };
 
                     // Check if line has a space in case someone didn't assign a type to a column name
@@ -224,7 +224,19 @@ namespace DBDefsLib
 
                     if (line.Contains("<"))
                     {
-                        int.TryParse(line.Substring(line.IndexOf('<') + 1, line.IndexOf('>') - line.IndexOf('<') - 1), out definition.size);
+                        var size = line.Substring(line.IndexOf('<') + 1, line.IndexOf('>') - line.IndexOf('<') - 1);
+
+                        if (size[0] == 'u')
+                        {
+                            definition.isSigned = false;
+                            definition.size = int.Parse(size.Replace("u", ""));
+                        }
+                        else
+                        {
+                            definition.isSigned = true;
+                            definition.size = int.Parse(size);
+                        }
+
                         line = line.Remove(line.IndexOf('<'), line.IndexOf('>') - line.IndexOf('<') + 1);
                     }
 
@@ -246,6 +258,13 @@ namespace DBDefsLib
                     if (!columnDefinitionDictionary.ContainsKey(definition.name))
                     {
                         throw new KeyNotFoundException("Unable to find " + definition.name + " in column definitions!");
+                    }
+                    else
+                    {
+                        // Temporary unsigned format update conversion code
+                        if(columnDefinitionDictionary[definition.name].type == "uint") {
+                            definition.isSigned = false;
+                        }
                     }
 
                     definitions.Add(definition);

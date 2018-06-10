@@ -26,7 +26,7 @@ Localized strings: ```locstring ColName``` (see [this](https://wowdev.wiki/Commo
 
 Format currently also supports comments by adding ```// Comment goes here ``` at the end of the column definition line, but this is still up for debate.
 
-Valid types that parsers should support: ```(u)int{8/16/32/64}/string/float/locstring```
+Valid types that parsers should support: ```int/string/float/locstring```
 
 Unverified columns (guessed, etc) have a ```?``` at the end of ```ColName```.
 
@@ -65,7 +65,7 @@ BUILD 7.0.3.21846-7.0.3.22747
 
 No size (floats, (loc)strings, non-inline IDs): ```ColName```
 
-Size (integers): ```ColName<Size>```
+Size (8, 16, 32 or 64, prefixed by ```u``` if unsigned): ```ColName<Size>```
 
 Array: ```ColName[Length]```
 
