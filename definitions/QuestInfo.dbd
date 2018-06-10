@@ -1,13 +1,13 @@
 COLUMNS
 int ID
 locstring InfoName_lang
-uint Modifiers
-uint Profession
-uint Type
+int Modifiers
+int Profession
+int Type
 locstring field_332882570_lang
 int field_1818840171
-uint field_1716441350
-uint field_1305926513
+int field_1716441350
+int field_1305926513
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

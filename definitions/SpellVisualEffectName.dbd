@@ -1,26 +1,26 @@
 COLUMNS
-uint padding_229586292?
+int padding_229586292?
 int ID
 float alpha
 float baseMissileSpeed
 int dissolveEffectID
 float effectRadius
-uint flags
+int flags
 int genericID
 float maxAllowedScale
 float minAllowedScale
 int modelFileDataID
-uint ribbonQualityID
+int ribbonQualityID
 float scale
 int textureFileDataID
-uint type
+int type
 string name
 string fileName
 float areaEffectSize
-uint VisualEffectNameFlags // <code>UnitEffectIsAuraWorldObject</code>
+int VisualEffectNameFlags // <code>UnitEffectIsAuraWorldObject</code>
 int modelPosition
-uint specialID
-uint specialAttachPoint
+int specialID
+int specialAttachPoint
 
 BUILD 6.0.1.18179
 $id$ID<32>

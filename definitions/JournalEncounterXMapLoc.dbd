@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int dungeonMapID
-uint flags
+int flags
 int journalEncounterID
 float map
 int mapDisplayConditionID
@@ -10,7 +10,7 @@ int uiMapID
 float field_594457038
 int field_290057313
 int field_1841575021
-uint field_458196389
+int field_458196389
 int field_245455957
 
 LAYOUT 430540E4, E7EC7104

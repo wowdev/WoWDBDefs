@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-uint PathID
+int PathID
 float Locx
 float Locy
-uint LegIndex
-uint LoadingScreenID
-uint field_1175385270
-uint field_2139820712
-uint field_149605623
+int LegIndex
+int LoadingScreenID
+int field_1175385270
+int field_2139820712
+int field_149605623
 float field_724950649
 float field_1284040551
 

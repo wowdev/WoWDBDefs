@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-uint highlightSky
-uint lightSkyboxID
-uint cloudTypeID
+int highlightSky
+int lightSkyboxID
+int cloudTypeID
 float glow
 float waterShallowAlpha
 float waterDeepAlpha
@@ -13,9 +13,9 @@ float overrideCelestialSphere
 int field_1501227822?
 float field_2101865340
 int field_1554768093
-uint field_813210662
-uint field_873718603
-uint field_1764995763
+int field_813210662
+int field_873718603
+int field_1764995763
 float field_2064347382
 float field_089306055
 float field_1867877569

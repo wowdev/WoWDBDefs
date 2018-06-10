@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-uint<Map::ID> mapID
-uint<WMOAreaTable::WMOGroupID> WMOGroupID
-uint<DungeonMap::ID> dungeonMapID
+int<Map::ID> mapID
+int<WMOAreaTable::WMOGroupID> WMOGroupID
+int<DungeonMap::ID> dungeonMapID
 float minZ
-uint doodadPlacementID
+int doodadPlacementID
 
 BUILD 6.0.1.18179
 $id$ID<32>

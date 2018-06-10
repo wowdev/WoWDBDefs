@@ -1,23 +1,23 @@
 COLUMNS
 int ID
-uint lt_operandType
-uint padding_2008950613?
-uint lt_operand
-uint operator
-uint rt_operandType
-uint padding_1587281773?
-uint rt_operand
-uint logic
-uint padding_379462724?
-uint padding_750691018?
-uint padding_3998259041?
-uint padding_371849722?
-uint field_1611650239
-uint field_111926695
-uint field_1131460337
-uint field_643246624
-uint field_1101854161
-uint field_212406710
+int lt_operandType
+int padding_2008950613?
+int lt_operand
+int operator
+int rt_operandType
+int padding_1587281773?
+int rt_operand
+int logic
+int padding_379462724?
+int padding_750691018?
+int padding_3998259041?
+int padding_371849722?
+int field_1611650239
+int field_111926695
+int field_1131460337
+int field_643246624
+int field_1101854161
+int field_212406710
 
 BUILD 6.0.1.18179
 $id$ID<32>

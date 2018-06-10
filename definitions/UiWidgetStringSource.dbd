@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint parentWidgetID
-uint reqID
+int parentWidgetID
+int reqID
 locstring value_lang
 
 LAYOUT 86CECC21

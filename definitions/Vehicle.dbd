@@ -1,12 +1,12 @@
 COLUMNS
 int ID
 int flags
-uint flagsB
+int flagsB
 float turnSpeed
 float pitchSpeed
 float pitchMin
 float pitchMax
-uint<VehicleSeat::ID> seatID
+int<VehicleSeat::ID> seatID
 float mouseLookOffsetPitch
 float cameraFadeDistScalarMin
 float cameraFadeDistScalarMax
@@ -25,10 +25,10 @@ string msslTrgtArcTexture
 string msslTrgtImpactTexture
 string msslTrgtImpactModel
 float cameraYawOffset
-uint uiLocomotionType
+int uiLocomotionType
 float msslTrgtImpactTexRadius
-uint vehicleUIIndicatorID
-uint<PowerDisplay::ID> powerDisplayID
+int vehicleUIIndicatorID
+int<PowerDisplay::ID> powerDisplayID
 int missileTargetingID
 int powerType
 string powerToken

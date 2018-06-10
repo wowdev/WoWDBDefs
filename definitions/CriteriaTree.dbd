@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-uint<Criteria::ID> criteriaID
+int<Criteria::ID> criteriaID
 int amount
 int operator
-uint parent
+int parent
 int flags
 locstring description_lang
 int orderIndex
-uint padding_2173460021?
-uint field_706277248
-uint field_1923724993
+int padding_2173460021?
+int field_706277248
+int field_1923724993
 int field_125683716
-uint field_1490704081
+int field_1490704081
 int field_1304622202
 int field_149880781
 

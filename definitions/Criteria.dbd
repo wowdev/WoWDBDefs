@@ -1,25 +1,25 @@
 COLUMNS
 int ID
-uint type
+int type
 int asset
-uint start_event
+int start_event
 int start_asset
-uint start_timer
-uint fail_event
+int start_timer
+int fail_event
 int fail_asset
-uint<ModifierTree::ID> modifier_tree_ID
-uint flags
+int<ModifierTree::ID> modifier_tree_ID
+int flags
 int<WorldState::ID> eligibility_world_state_ID
 int eligibility_world_state_value
 int field_1436493153
 int field_1994396891
-uint field_182540281
-uint field_467098989
+int field_182540281
+int field_467098989
 int field_897642771
-uint field_536263198
-uint field_188518967
+int field_536263198
+int field_188518967
 int field_1206761374
-uint field_1623854607
+int field_1623854607
 int field_1397485817
 int field_1672786115
 

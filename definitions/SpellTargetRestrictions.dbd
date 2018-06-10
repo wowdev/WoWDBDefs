@@ -1,18 +1,18 @@
 COLUMNS
 int ID
 int spellID
-uint difficultyID
+int difficultyID
 float coneAngle
 float width
-uint maxTargets
-uint maxTargetLevel
+int maxTargets
+int maxTargetLevel
 int targetCreatureType
 int targets
 float coneDegrees
-uint field_010680921
+int field_010680921
 float field_1444111586
-uint field_1949762298
-uint field_1486613747
+int field_1949762298
+int field_1486613747
 int field_387221676
 int field_1092195468
 float field_022554470

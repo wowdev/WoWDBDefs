@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint chrRaceID
+int chrRaceID
 float scale
 float height
 float singleModelScale
@@ -11,7 +11,7 @@ float femaleHeight
 float femaleScale
 float femaleSingleModelHeight
 float femaleSingleModelScale
-uint garrFollRaceID
+int garrFollRaceID
 float maleFollowerPageHeight
 float maleFollowerPageScale
 float maleHeight

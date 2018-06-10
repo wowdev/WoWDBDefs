@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint blendMode
+int blendMode
 int botTextureBlendSetID
 int casterDecalPropertiesID
 float fadeIn
@@ -12,7 +12,7 @@ int gameFlags
 float innerRadius
 float modX
 float outerRadius
-uint priority
+int priority
 float rim
 float scale
 int topTextureBlendSetID
@@ -30,8 +30,8 @@ int field_364127495
 float field_566723034
 float field_680493297
 float field_491793517
-uint field_1755210345
-uint field_734354115
+int field_1755210345
+int field_734354115
 int field_1121461069
 int field_361080785
 float field_475686098

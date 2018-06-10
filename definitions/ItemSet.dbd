@@ -1,17 +1,17 @@
 COLUMNS
 int ID
 locstring name_lang
-uint<Item::ID> itemID
-uint requiredSkill
-uint requiredSkillRank
-uint setFlags
-uint setSpellID
-uint setThreshold
+int<Item::ID> itemID
+int requiredSkill
+int requiredSkillRank
+int setFlags
+int setSpellID
+int setThreshold
 locstring field_925162017_lang
-uint field_281653324
-uint field_975103351
-uint field_399460745
-uint field_892110966
+int field_281653324
+int field_975103351
+int field_399460745
+int field_892110966
 
 BUILD 6.0.1.18179
 $id$ID<32>

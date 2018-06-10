@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint srcAnimID
-uint dstAnimID
-uint<AnimReplacementSet::ID> parentAnimReplacementSetID
-uint flags
+int srcAnimID
+int dstAnimID
+int<AnimReplacementSet::ID> parentAnimReplacementSetID
+int flags
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

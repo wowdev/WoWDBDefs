@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-uint expansionID
-uint flags
+int expansionID
+int flags
 int mapIDs
-uint primaryCurrencyTypeID
-uint secondaryCurrencyTypeID
+int primaryCurrencyTypeID
+int secondaryCurrencyTypeID
 
 LAYOUT 7C52F3B7
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

@@ -1,10 +1,10 @@
 COLUMNS
-uint ID
-uint blood
-uint unholy
-uint frost
-uint chromatic
-uint runicPower
+int ID
+int blood
+int unholy
+int frost
+int chromatic
+int runicPower
 
 BUILD 6.0.1.18179
 $id$ID<32>

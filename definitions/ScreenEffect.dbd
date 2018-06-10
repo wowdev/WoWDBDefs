@@ -1,29 +1,29 @@
 COLUMNS
 int ID
 string name
-uint effect
+int effect
 int param
-uint lightParamsID
-uint lightParamsFadeIn
-uint lightParamsFadeOut
-uint lightFlags
-uint soundAmbienceID
-uint zoneMusicID
+int lightParamsID
+int lightParamsFadeIn
+int lightParamsFadeOut
+int lightFlags
+int soundAmbienceID
+int zoneMusicID
 int timeOfDayOverride
 int effectMask
-uint fullScreenEffectID
+int fullScreenEffectID
 string field_1269480890
 int field_1750976498
 int field_116063179
-uint field_1499892339
-uint field_375001543
-uint field_372725888
-uint field_479966265
-uint field_974125870
-uint field_105040618
+int field_1499892339
+int field_375001543
+int field_372725888
+int field_479966265
+int field_974125870
+int field_105040618
 int field_1134347509
 int field_1036247916
-uint field_1297086470
+int field_1297086470
 
 BUILD 6.0.1.18179
 $id$ID<32>

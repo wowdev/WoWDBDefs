@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint factionID
+int ID
+int factionID
 int textureFileID
 locstring description_lang
 

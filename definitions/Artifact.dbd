@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-uint artifactCategoryID
-uint chrSpecializationID
-uint flags
+int artifactCategoryID
+int chrSpecializationID
+int flags
 locstring name_lang
-uint spellVisualKitID
+int spellVisualKitID
 int uiBarBackgroundColor
 int uiBarOverlayColor
-uint uiModelSceneID
+int uiModelSceneID
 int uiNameColor
-uint uiTextureKitID
+int uiTextureKitID
 
 LAYOUT 76CF31A8
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

@@ -1,6 +1,6 @@
 COLUMNS
-uint<ChrClasses::ID> classID
-uint powerType
+int<ChrClasses::ID> classID
+int powerType
 int ID
 
 BUILD 6.0.1.18179

@@ -1,6 +1,6 @@
 COLUMNS
 int ItemID?
-uint<Spell::ID> SpellID?
+int<Spell::ID> SpellID?
 
 BUILD 6.0.1.18179
 ItemID<32>

@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-uint flags
-uint foleySoundID
-uint sheatheSoundID
-uint unsheatheSoundID
-uint materialID
+int flags
+int foleySoundID
+int sheatheSoundID
+int unsheatheSoundID
+int materialID
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

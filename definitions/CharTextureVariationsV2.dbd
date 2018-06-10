@@ -1,11 +1,11 @@
 COLUMNS
-uint ID
-uint RaceID
-uint SexID
-uint SectionID // CHARTEXTURESECTIONID
-uint VariationID
-uint ColorID
-uint IsNPC
+int ID
+int RaceID
+int SexID
+int SectionID // CHARTEXTURESECTIONID
+int VariationID
+int ColorID
+int IsNPC
 string TextureName
 
 BUILD 0.5.3.3368, 0.5.5.3494

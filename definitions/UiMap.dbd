@@ -1,16 +1,16 @@
 COLUMNS
 int ID
 int bkgFileDataID
-uint bountyDisplayLocation
+int bountyDisplayLocation
 int bountySetID
 int flags
 int helpTextPosition
-uint levelRangeMax
-uint levelRangeMin
+int levelRangeMax
+int levelRangeMin
 locstring name_lang
 int parentUiMapID
 int system
-uint type
+int type
 int visibilityPlayerConditionID
 int bkgAtlasID
 

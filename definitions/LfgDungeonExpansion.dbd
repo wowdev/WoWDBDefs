@@ -1,12 +1,12 @@
 COLUMNS
-uint ID
-uint lfg_ID
-uint expansion_level
-uint random_ID
-uint hard_level_min
-uint hard_level_max
-uint target_level_min
-uint target_level_max
+int ID
+int lfg_ID
+int expansion_level
+int random_ID
+int hard_level_min
+int hard_level_max
+int target_level_min
+int target_level_max
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

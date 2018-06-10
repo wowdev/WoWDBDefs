@@ -1,28 +1,28 @@
 COLUMNS
 int ID
-uint battleMasterListID
-uint bonusPlayerConditionID
-uint bonusValue
-uint buttonActionType
+int battleMasterListID
+int bonusPlayerConditionID
+int bonusValue
+int buttonActionType
 locstring buttonText_lang
 locstring continueDescription_lang
-uint currencyQuantity
-uint currencyType
+int currencyQuantity
+int currencyType
 locstring description_lang
-uint flags
+int flags
 int itemID
-uint itemQuantity
-uint lfgDungeonID
+int itemQuantity
+int lfgDungeonID
 locstring name_lang
-uint playerConditionID
-uint priorityMax
-uint priorityMin
-uint questID
+int playerConditionID
+int priorityMax
+int priorityMin
+int questID
 locstring rewardDescription_lang
 int textureFileDataID
-uint type
-uint worldMapAreaID
-uint<UiMap::ID> UIMapID
+int type
+int worldMapAreaID
+int<UiMap::ID> UIMapID
 
 LAYOUT B2FFA8DD, 2C723565
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321

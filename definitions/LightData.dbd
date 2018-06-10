@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint<LightParams::ID> lightParamID
-uint time
+int<LightParams::ID> lightParamID
+int time
 int directColor
 int ambientColor
 int skyTopColor
@@ -24,20 +24,20 @@ float fogEnd
 float fogScaler
 float cloudDensity
 float fogDensity
-uint colorGradingFileDataID
-uint endFogColor
+int colorGradingFileDataID
+int endFogColor
 float endFogColorDistance
 float fogHeight
-uint fogHeightColor
+int fogHeightColor
 float fogHeightDensity
 float fogHeightScaler
 int groundAmbientColor
 int horizonAmbientColor
 float sunFogAngle
-uint sunFogColor
+int sunFogColor
 float field_19051348?
-uint field_197424862
-uint field_1117146672
+int field_197424862
+int field_1117146672
 int field_1957128451
 int field_770166688
 int field_872001732
@@ -64,14 +64,14 @@ float field_710802069
 float field_876024758
 float field_980103675
 float field_818425912
-uint field_591698217
+int field_591698217
 int field_1408002243
 int field_1349135733
-uint field_1307790195
+int field_1307790195
 float field_552550842
-uint field_975722750
+int field_975722750
 float field_2037768787
-uint field_1131810574
+int field_1131810574
 
 BUILD 6.0.1.18179
 $id$ID<32>

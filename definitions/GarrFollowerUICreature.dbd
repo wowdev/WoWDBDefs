@@ -1,17 +1,17 @@
 COLUMNS
 int ID
 int creatureID
-uint factionIndex
-uint flags
-uint garrFollowerID
-uint orderIndex
+int factionIndex
+int flags
+int garrFollowerID
+int orderIndex
 float scale
-uint field_1906107645
-uint field_1426450512
+int field_1906107645
+int field_1426450512
 int field_280961857
 float field_923219050
-uint field_787890669
-uint field_1359358370
+int field_787890669
+int field_1359358370
 
 LAYOUT 7E275E96
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

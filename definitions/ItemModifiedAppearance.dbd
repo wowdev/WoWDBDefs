@@ -1,20 +1,20 @@
 COLUMNS
-uint field_2556328986?
-uint field_2595378131?
-uint field_2799832687?
-uint field_516438342?
-uint field_3478340450?
+int field_2556328986?
+int field_2595378131?
+int field_2799832687?
+int field_516438342?
+int field_3478340450?
 int ID
-uint itemAppearanceID
-uint itemAppearanceModifierID
+int itemAppearanceID
+int itemAppearanceModifierID
 int itemID
-uint orderIndex
+int orderIndex
 int transmogSourceTypeEnum
 int field_1148146543
 int field_1490088359
-uint field_1812011543
-uint field_1017853323
-uint field_723344248
+int field_1812011543
+int field_1017853323
+int field_723344248
 int field_1216641053
 
 BUILD 6.0.1.18179

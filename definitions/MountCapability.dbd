@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-uint flags
-uint reqRidingSkill
-uint reqAreaID
-uint reqSpellAuraID
+int flags
+int reqRidingSkill
+int reqAreaID
+int reqSpellAuraID
 int reqSpellKnownID
 int modSpellAuraID
 int reqMapID
 int field_1118556362
-uint field_840430369
-uint field_901664129
-uint field_387553510
-uint field_1986292814
+int field_840430369
+int field_901664129
+int field_387553510
+int field_1986292814
 int field_1500079257
 int field_472735130
 int field_838467446

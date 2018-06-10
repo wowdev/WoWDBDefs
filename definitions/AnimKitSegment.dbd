@@ -1,23 +1,23 @@
 COLUMNS
 int ID
-uint<AnimKit::ID> parentAnimKitID
-uint orderIndex
-uint animID
-uint animStartTime
-uint<AnimKitConfig::ID> animKitConfigID
-uint startCondition
-uint startConditionParam
-uint startConditionDelay
-uint endCondition
-uint endConditionParam
-uint endConditionDelay
+int<AnimKit::ID> parentAnimKitID
+int orderIndex
+int animID
+int animStartTime
+int<AnimKitConfig::ID> animKitConfigID
+int startCondition
+int startConditionParam
+int startConditionDelay
+int endCondition
+int endConditionParam
+int endConditionDelay
 float speed
-uint segmentFlags
-uint forcedVariation
+int segmentFlags
+int forcedVariation
 int overrideConfigFlags
 int loopToSegmentIndex
-uint blendInTimeMs
-uint blendOutTimeMs
+int blendInTimeMs
+int blendOutTimeMs
 
 BUILD 6.0.1.18179
 $id$ID<32>

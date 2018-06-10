@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint ProcessedAnimIndex // internal client use <code>Object_C_GetAnimIndex</code>
+int ID
+int ProcessedAnimIndex // internal client use <code>Object_C_GetAnimIndex</code>
 string AnimName
 
 BUILD 0.5.3.3368, 0.6.0.3592

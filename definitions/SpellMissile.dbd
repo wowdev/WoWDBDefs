@@ -1,5 +1,5 @@
 COLUMNS
-uint field_2021239687?
+int field_2021239687?
 float field_451101305?
 float field_2066006080?
 float field_4034116632?
@@ -19,7 +19,7 @@ float defaultPitchMax
 float defaultPitchMin
 float defaultSpeedMax
 float defaultSpeedMin
-uint flags
+int flags
 float gravity
 float maxDuration
 float randomizeFacingMax
@@ -30,7 +30,7 @@ float randomizeSpeedMax
 float randomizeSpeedMin
 int spellID
 int field_712213264
-uint field_240495249
+int field_240495249
 float field_1081549605
 float field_2035218689
 float field_390906011

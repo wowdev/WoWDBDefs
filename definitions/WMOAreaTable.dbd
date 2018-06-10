@@ -1,25 +1,25 @@
 COLUMNS
 int ID
-uint WMOID
-uint NameSetID
+int WMOID
+int NameSetID
 int WMOGroupID
-uint<SoundProviderPreferences::ID> SoundProviderPref
-uint<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
-uint<SoundAmbience::ID> AmbienceID
-uint<ZoneMusic::ID> ZoneMusic
-uint<ZoneIntroMusicTable::ID> IntroSound
-uint flags
-uint<AreaTable::ID> AreaTableID
+int<SoundProviderPreferences::ID> SoundProviderPref
+int<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
+int<SoundAmbience::ID> AmbienceID
+int<ZoneMusic::ID> ZoneMusic
+int<ZoneIntroMusicTable::ID> IntroSound
+int flags
+int<AreaTable::ID> AreaTableID
 locstring AreaName_lang
-uint<ZoneIntroMusicTable::ID> uwIntroSound
-uint<ZoneMusic::ID> uwZoneMusic
-uint<SoundAmbience::ID> uwAmbience
-uint DayAmbienceSoundID
-uint NightAmbienceSoundID
-uint MIDIAmbience
-uint MIDIAmbienceUnderwater
-uint IntroPriority
-uint inlineWMOID
+int<ZoneIntroMusicTable::ID> uwIntroSound
+int<ZoneMusic::ID> uwZoneMusic
+int<SoundAmbience::ID> uwAmbience
+int DayAmbienceSoundID
+int NightAmbienceSoundID
+int MIDIAmbience
+int MIDIAmbienceUnderwater
+int IntroPriority
+int inlineWMOID
 
 BUILD 6.0.1.18179
 $id$ID<32>

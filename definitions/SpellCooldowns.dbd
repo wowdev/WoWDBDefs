@@ -1,11 +1,11 @@
 COLUMNS
 int ID
 int spellID
-uint difficultyID
+int difficultyID
 int categoryRecoveryTime
 int recoveryTime
 int startRecoveryTime
-uint field_646366025
+int field_646366025
 int field_1811376901
 int field_1516172113
 int field_806034778

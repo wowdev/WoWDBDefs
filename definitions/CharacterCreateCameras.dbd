@@ -1,7 +1,7 @@
 COLUMNS
-uint Race
-uint Sex
-uint Camera
+int Race
+int Sex
+int Camera
 float Height
 float Radius
 float Target

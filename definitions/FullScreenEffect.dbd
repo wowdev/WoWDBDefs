@@ -16,9 +16,9 @@ float colorMultiplyMultiplier
 float colorMultiplyOffsetY
 float colorMultiplyPower
 float colorMultiplyRed
-uint effectFadeInMs
-uint effectFadeOutMs
-uint flags
+int effectFadeInMs
+int effectFadeOutMs
+int flags
 float gammaBlue
 float gammaGreen
 float gammaRed
@@ -26,9 +26,9 @@ float maskOffsetY
 float maskPower
 float maskSizeMultiplier
 float saturation
-uint textureBlendSetID
+int textureBlendSetID
 int field_714392848?
-uint field_915543385
+int field_915543385
 float field_1772050694
 float field_056977920
 float field_415021573
@@ -53,9 +53,9 @@ float field_765339235
 float field_125616848
 float field_253757263
 float field_1281304019
-uint field_955905821
-uint field_1944949446
-uint field_1395404910
+int field_955905821
+int field_1944949446
+int field_1395404910
 
 LAYOUT 5CBF1D1B
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

@@ -2,22 +2,22 @@ COLUMNS
 int ID
 locstring name_lang
 locstring description_lang
-uint rarity
-uint researchBranchID
+int rarity
+int researchBranchID
 int spellID
-uint numSockets
+int numSockets
 string texture
-uint requiredWeight
+int requiredWeight
 int textureFileID
 locstring field_605161167_lang
 locstring field_1945113302_lang
 int field_1457321551
-uint field_215447282
+int field_215447282
 int field_720304804
-uint field_944104372
-uint field_1916209075
+int field_944104372
+int field_1916209075
 int field_2032980834
-uint field_580099054
+int field_580099054
 
 BUILD 6.0.1.18179
 $id$ID<32>

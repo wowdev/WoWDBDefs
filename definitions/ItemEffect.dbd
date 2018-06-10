@@ -2,21 +2,21 @@ COLUMNS
 int ID
 int categoryCoolDownMSec
 int charges
-uint chrSpecializationID
+int chrSpecializationID
 int coolDownMSec
-uint legacySlotIndex
+int legacySlotIndex
 int parentItemID
-uint spellCategoryID
+int spellCategoryID
 int spellID
 int triggerType
-uint field_1831450437
+int field_1831450437
 int field_755080547
 int field_1243253202
 int field_631169851
 int field_591825773
-uint field_1586381621
+int field_1586381621
 int field_2019473478
-uint field_1205279725
+int field_1205279725
 int field_1541932278
 
 BUILD 6.0.1.18179

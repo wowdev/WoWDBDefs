@@ -1,17 +1,17 @@
 COLUMNS
-uint field_3409545797?
+int field_3409545797?
 string field_4173975148?
 int ID
 int AlwaysItem
-uint classification
-uint creatureFamily
-uint creatureType
+int classification
+int creatureFamily
+int creatureType
 int displayID
 float displayProbability
 int mountCreatureID
 locstring name_lang
 locstring nameAlt_lang
-uint startAnimState
+int startAnimState
 locstring title_lang
 locstring titleAlt_lang
 

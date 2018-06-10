@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint difficultySpellID
+int ID
+int difficultySpellID
 
 BUILD 4.0.0.11792
 $id$ID<32>

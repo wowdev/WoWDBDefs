@@ -1,26 +1,26 @@
 COLUMNS
 int ID
-uint<Map::ID> mapID
-uint<AreaTable::ID> areaID
+int<Map::ID> mapID
+int<AreaTable::ID> areaID
 int<FileData::ID> buttonFiledataID
 int<FileData::ID> buttonSmallFileDataID
 int<FileData::ID> backgroundFiledataID
 int<FileData::ID> loreFileDataID
 locstring name_lang
 locstring description_lang
-uint flags
-uint orderIndex
+int flags
+int orderIndex
 locstring field_822497326_lang
 locstring field_1023276362_lang
 int field_2069350059
-uint field_1056379070
+int field_1056379070
 int field_1183527291
 int field_324120717
 int field_321046860
 int field_143652809
-uint field_975634288
-uint field_907090548
-uint field_159345853
+int field_975634288
+int field_907090548
+int field_159345853
 
 BUILD 6.0.1.18179
 $id$ID<32>

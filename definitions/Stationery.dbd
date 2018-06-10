@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint itemID
+int itemID
 string texture
-uint flags
+int flags
 int textureFileDataID
-uint field_051901767
-uint field_802188108
+int field_051901767
+int field_802188108
 int field_1872091112
 
 BUILD 4.0.0.11792, 6.0.1.18179

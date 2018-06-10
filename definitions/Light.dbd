@@ -6,7 +6,7 @@ float y
 float z
 float falloffStart
 float falloffEnd
-uint<LightParams::ID> lightParamsID
+int<LightParams::ID> lightParamsID
 float gameCoords
 float gameFalloffEnd
 float gameFalloffStart

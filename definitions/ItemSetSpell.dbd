@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-uint<ItemSet::ID> itemSetID
-uint<Spell::ID> spellID
-uint threshold
-uint chrSpecID
-uint field_1973654536
-uint field_392029144
-uint field_441627907
-uint field_104086829
+int<ItemSet::ID> itemSetID
+int<Spell::ID> spellID
+int threshold
+int chrSpecID
+int field_1973654536
+int field_392029144
+int field_441627907
+int field_104086829
 
 BUILD 6.0.1.18179
 $id$ID<32>

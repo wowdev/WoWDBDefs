@@ -2,7 +2,7 @@ COLUMNS
 int ID
 string name
 string fileName
-uint hasWideScreen
+int hasWideScreen
 int narrowScreenFileDataID
 int wideScreen169FileDataID
 int wideScreenFileDataID

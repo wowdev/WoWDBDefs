@@ -1,15 +1,15 @@
 COLUMNS
 string field_2333200916?
-uint field_2520263360?
-uint field_3199964609?
-uint field_2452857453?
-uint field_3379950982?
+int field_2520263360?
+int field_3199964609?
+int field_2452857453?
+int field_3379950982?
 int ID
 string URL
-uint grantFlags
-uint regionID
-uint revokeFlags
-uint wowEditInternal
+int grantFlags
+int regionID
+int revokeFlags
+int wowEditInternal
 
 BUILD 6.0.1.18179
 $id$ID<32>

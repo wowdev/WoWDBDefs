@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
-uint type
-uint tooltip
+int ID
+int type
+int tooltip
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -1,9 +1,9 @@
 COLUMNS
-uint colorID
-uint red
-uint green
-uint blue
-uint padding_1593844084?
+int colorID
+int red
+int green
+int blue
+int padding_1593844084?
 int ID
 
 BUILD 6.0.1.18179

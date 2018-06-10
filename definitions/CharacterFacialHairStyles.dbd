@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-uint<ChrRaces::ID> raceID
-uint sexID
-uint VariationID
+int<ChrRaces::ID> raceID
+int sexID
+int VariationID
 int Geoset
-uint BeardGeoset
-uint MoustacheGeoset
-uint SideburnGeoset
+int BeardGeoset
+int MoustacheGeoset
+int SideburnGeoset
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

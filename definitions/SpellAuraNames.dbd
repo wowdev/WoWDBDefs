@@ -1,6 +1,6 @@
 COLUMNS
-uint EnumID
-uint specialMiscValue // todo: enum
+int EnumID
+int specialMiscValue // todo: enum
 string globalstrings_tag
 locstring name_lang
 

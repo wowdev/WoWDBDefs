@@ -9,11 +9,11 @@ int<Achievement_Category::ID> category
 int points
 int ui_order
 int flags
-uint<SpellIcon::ID> iconID
+int<SpellIcon::ID> iconID
 locstring reward_lang
 int minimum_criteria
 int<Achievement::ID> shares_criteria
-uint criteria_tree
+int criteria_tree
 int iconFileID
 
 BUILD 6.0.1.18179

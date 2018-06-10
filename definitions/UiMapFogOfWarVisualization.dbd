@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-uint backgroundAtlasID
-uint maskAtlasID
+int backgroundAtlasID
+int maskAtlasID
 float maskScalar
-uint field_2119398004
-uint field_1972670578
+int field_2119398004
+int field_1972670578
 float field_1589393281
 
 LAYOUT F787FB01

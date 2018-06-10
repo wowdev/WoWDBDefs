@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-uint artifactAppearanceSetID
-uint displayIndex
-uint flags
-uint itemAppearanceModifierID
+int artifactAppearanceSetID
+int displayIndex
+int flags
+int itemAppearanceModifierID
 locstring name_lang
-uint overrideShapeshiftDisplayID
-uint overrideShapeshiftFormID
-uint uiAltItemAppearanceID
-uint uiCameraID
-uint uiItemAppearanceID
+int overrideShapeshiftDisplayID
+int overrideShapeshiftFormID
+int uiAltItemAppearanceID
+int uiCameraID
+int uiItemAppearanceID
 float uiModelOpacity
 float uiModelSaturation
 int uiSwatchColor
-uint unlockPlayerConditionID
+int unlockPlayerConditionID
 
 LAYOUT AEED7395
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

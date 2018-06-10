@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-uint flags
-uint garrTypeID
-uint itemLevelRangeBias
-uint levelRangeBias
-uint maxFollowerBuildingType
-uint maxFollowers
-uint maxItemLevel
-uint field_1982891526
-uint field_1988200429
-uint field_694755532
-uint field_1987237371
-uint field_698166559
-uint field_1746070754
-uint field_1184893877
+int flags
+int garrTypeID
+int itemLevelRangeBias
+int levelRangeBias
+int maxFollowerBuildingType
+int maxFollowers
+int maxItemLevel
+int field_1982891526
+int field_1988200429
+int field_694755532
+int field_1987237371
+int field_698166559
+int field_1746070754
+int field_1184893877
 
 LAYOUT D676FBC0
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

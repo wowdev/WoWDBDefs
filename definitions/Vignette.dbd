@@ -1,16 +1,16 @@
 COLUMNS
 locstring name_lang
 int ID
-uint flags
+int flags
 float maxHeight
 float minHeight
-uint playerConditionID
-uint questFeedbackEffectID
-uint visibleTrackingQuestID
-uint field_191509569
-uint field_1344456894
-uint field_512381856
-uint field_1708293090
+int playerConditionID
+int questFeedbackEffectID
+int visibleTrackingQuestID
+int field_191509569
+int field_1344456894
+int field_512381856
+int field_1708293090
 float field_1719630549
 float field_1522058327
 int field_1101694034

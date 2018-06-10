@@ -1,15 +1,15 @@
 COLUMNS
 int ID
 int flags
-uint usesPerWeek
-uint padding_4210097782?
+int usesPerWeek
+int padding_4210097782?
 locstring name_lang
 int maxCharges
 int chargeRecoveryTime
 int typeMask
 locstring field_2116368525_lang
 int field_1622996365
-uint field_655517420
+int field_655517420
 int field_733064564
 int field_1222186229
 int field_706238026

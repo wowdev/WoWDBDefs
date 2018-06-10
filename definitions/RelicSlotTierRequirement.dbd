@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 int playerConditionID
-uint relicIndex
-uint relicTier
-uint field_1872350965
-uint field_630673427
+int relicIndex
+int relicTier
+int field_1872350965
+int field_630673427
 int field_460513650
 
 LAYOUT 129FCC09, B2F3C905

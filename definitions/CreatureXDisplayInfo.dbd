@@ -4,7 +4,7 @@ int creatureDisplayInfoID
 int creatureID
 float probability
 float scale
-uint orderIndex
+int orderIndex
 
 LAYOUT BB3E4A30
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26287

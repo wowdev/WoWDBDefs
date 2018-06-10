@@ -1,13 +1,13 @@
 COLUMNS
-uint field_193840778?
-uint field_2016730086?
-uint field_596947073?
-uint field_3488546287?
+int field_193840778?
+int field_2016730086?
+int field_596947073?
+int field_3488546287?
 int ID
-uint childSceneScriptPackageID
-uint orderIndex
-uint sceneScriptID
-uint sceneScriptPackageID
+int childSceneScriptPackageID
+int orderIndex
+int sceneScriptID
+int sceneScriptPackageID
 
 BUILD 6.0.1.18179
 $id$ID<32>

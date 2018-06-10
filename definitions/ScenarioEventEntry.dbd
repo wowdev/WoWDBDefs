@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint triggerType
-uint triggerAsset
+int triggerType
+int triggerAsset
 
 BUILD 6.0.1.18179
 $id$ID<32>

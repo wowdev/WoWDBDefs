@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int soundFilterID
-uint orderIndex
+int orderIndex
 int filterType
 float params
 

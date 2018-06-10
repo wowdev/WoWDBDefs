@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
+int ID
 locstring name_lang
-uint happinessThreshold
+int happinessThreshold
 float happinessDamage
 
 BUILD 4.0.0.11792

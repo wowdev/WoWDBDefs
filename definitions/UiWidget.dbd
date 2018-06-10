@@ -1,8 +1,8 @@
 COLUMNS
 int ID
 int mapID
-uint orderIndex
-uint parentSetID
+int orderIndex
+int parentSetID
 int playerConditionID
 int visID
 string widgetTag

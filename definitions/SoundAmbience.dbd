@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint AmbienceID
-uint flags
-uint flavorSoundFilterID
-uint soundFilterID
-uint ambienceStartID
-uint ambienceStopID
+int AmbienceID
+int flags
+int flavorSoundFilterID
+int soundFilterID
+int ambienceStartID
+int ambienceStopID
 
 BUILD 6.0.1.18179
 $id$ID<32>

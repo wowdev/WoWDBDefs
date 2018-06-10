@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-uint facingCasterFlags
-uint minFactionID
+int facingCasterFlags
+int minFactionID
 int minReputation
-uint requiredAreasID
-uint requiredAuraVision
-uint requiresSpellFocus
+int requiredAreasID
+int requiredAuraVision
+int requiresSpellFocus
 int spellID
 int field_474016118
-uint field_1361676462
-uint field_510956016
+int field_1361676462
+int field_510956016
 int field_852226114
-uint field_886758133
-uint field_964914469
-uint field_424275316
+int field_886758133
+int field_964914469
+int field_424275316
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -3,21 +3,21 @@ int ID
 int animFrame
 int animID
 int animVariation
-uint flags
+int flags
 float lookAt
 string name
 float pos
-uint uiCameraTypeID
+int uiCameraTypeID
 float up
 string field_1908284764
 float field_335650647
 float field_908426103
 float field_301878822
-uint field_502631316
+int field_502631316
 int field_270631233
 int field_630013858
 int field_1716632411
-uint field_2019591843
+int field_2019591843
 
 LAYOUT CA6C98D4, 6ED36760
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734

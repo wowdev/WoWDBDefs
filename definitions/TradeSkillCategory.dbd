@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-uint<SkillLine::ID> skilllineID
-uint<TradeSkillCategory::ID> parenttradeskillcategoryID
+int<SkillLine::ID> skilllineID
+int<TradeSkillCategory::ID> parenttradeskillcategoryID
 int orderindex
 locstring name_lang
-uint flags
+int flags
 locstring hordeName_lang
 
 BUILD 6.0.1.18179

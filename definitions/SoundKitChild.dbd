@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint parentSoundKitID
-uint soundKitID
+int parentSoundKitID
+int soundKitID
 
 LAYOUT 2827A3B5
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

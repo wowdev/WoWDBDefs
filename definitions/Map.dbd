@@ -1,55 +1,55 @@
 COLUMNS
 int ID
 string Directory // reference to World\Map\ [...] \
-uint PVP
-uint IsInMap
+int PVP
+int IsInMap
 locstring MapName_lang
-uint InstanceType // Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: none (official from "IsInInstance()")
-uint MapType
-uint MinLevel
-uint MaxLevel
-uint maxPlayers
-uint unk0?
-uint unk1?
-uint unk2?
+int InstanceType // Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: none (official from "IsInInstance()")
+int MapType
+int MinLevel
+int MaxLevel
+int maxPlayers
+int unk0?
+int unk1?
+int unk2?
 int<Map::ID> parentMapID
 locstring MapDescription0_lang // Horde
 locstring MapDescription1_lang // Alliance
 int<LoadingScreens::ID> LoadingScreenID
-uint raidOffset
-uint continentname?
-uint unk3?
-uint<AreaTable::ID> areaTableID
+int raidOffset
+int continentname?
+int unk3?
+int<AreaTable::ID> areaTableID
 float minimapIconScale
-uint unk4?
+int unk4?
 int timeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
-uint expansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
-uint unk5? // Another resettime? Is the same as the heroic one for some entries.
+int expansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
+int unk5? // Another resettime? Is the same as the heroic one for some entries.
 int Flags? // probaby same as isBattleground
 int<Map::ID> corpseMapID
 float CorpsePosX?
 float CorpsePosY?
 float corpse // Array of CorpsePosX/CorpsePosY
 int<Map::ID> cosmeticParentMapID
-uint timeOffset
+int timeOffset
 int<WindSettings::ID> WindSettingsID
 locstring PvpShortDescription_lang
 locstring PvpLongDescription_lang
 float corpseX
 float corpseY
 int zmpFileDataID
-uint field_2090129712
+int field_2090129712
 int field_1778819221
-uint field_399808840
-uint field_546616973
+int field_399808840
+int field_546616973
 int field_539990556
 int field_1045699054
 int field_1018945417
 int field_211416088
-uint field_1681684665
+int field_1681684665
 float field_1881958792
 int field_1538714857
-uint field_1857385420
+int field_1857385420
 int field_163350789
 int field_775554925
 

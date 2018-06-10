@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-uint baseCapacity
-uint completeSpellVisualID
-uint crossFactionID
+int baseCapacity
+int completeSpellVisualID
+int crossFactionID
 locstring description_lang
 int faction
-uint garrBuildingType
-uint garrTypeID
-uint largeDisplayInfoID
-uint largeThreshold
-uint mediumDisplayInfoID
-uint mediumThreshold
+int garrBuildingType
+int garrTypeID
+int largeDisplayInfoID
+int largeThreshold
+int mediumDisplayInfoID
+int mediumThreshold
 locstring pendingText_lang
-uint smallDisplayInfoID
-uint uiTextureKitID
-uint workingDisplayInfoID
-uint workingSpellVisualID
+int smallDisplayInfoID
+int uiTextureKitID
+int workingDisplayInfoID
+int workingSpellVisualID
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -1,12 +1,12 @@
 COLUMNS
-uint field_3687509195?
-uint field_3973556185?
-uint field_3532671216?
+int field_3687509195?
+int field_3973556185?
+int field_3532671216?
 int ID
-uint garrPlotInstanceID
-uint garrSiteLevelID
+int garrPlotInstanceID
+int garrSiteLevelID
 float uiMarkerPos
-uint uiMarkerSize
+int uiMarkerSize
 
 BUILD 6.0.1.18179
 $id$ID<32>

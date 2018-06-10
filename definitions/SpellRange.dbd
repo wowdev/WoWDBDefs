@@ -2,12 +2,12 @@ COLUMNS
 int ID
 float rangeMin
 float rangeMax
-uint flags
+int flags
 locstring displayName_lang
 locstring displayNameShort_lang
 locstring field_706376231_lang
 locstring field_1021321616_lang
-uint field_1853815033
+int field_1853815033
 float field_1545615118
 float field_2037991337
 

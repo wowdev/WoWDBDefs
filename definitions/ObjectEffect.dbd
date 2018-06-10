@@ -1,25 +1,25 @@
 COLUMNS
 int ID
 string name
-uint objectEffectGroupID
-uint triggerType
-uint eventType
-uint effectRecType
-uint effectRecID
+int objectEffectGroupID
+int triggerType
+int eventType
+int effectRecType
+int effectRecID
 int attachment
 float offset
-uint objectEffectModifierID
+int objectEffectModifierID
 float offsetX
 float offsetY
 float offsetZ
 float field_1495726339
-uint field_1833001103
-uint field_1242277214
-uint field_1518830893
-uint field_1204581922
-uint field_1628755543
+int field_1833001103
+int field_1242277214
+int field_1518830893
+int field_1204581922
+int field_1628755543
 int field_169821730
-uint field_080834822
+int field_080834822
 
 BUILD 6.0.1.18179
 $id$ID<32>

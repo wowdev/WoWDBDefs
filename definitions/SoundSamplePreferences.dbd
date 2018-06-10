@@ -1,10 +1,10 @@
 COLUMNS
-uint ID
+int ID
 float EAX1EffectLevel
-uint EAX2SampleDirect
-uint EAX2SampleDirectHF
-uint EAX2SampleRoom
-uint EAX2SampleRoomHF
+int EAX2SampleDirect
+int EAX2SampleDirectHF
+int EAX2SampleRoom
+int EAX2SampleRoomHF
 float EAX2SampleObstruction
 float EAX2SampleObstructionLFRatio
 float EAX2SampleOcclusion
@@ -12,7 +12,7 @@ float EAX2SampleOcclusionLFRatio
 float EAX2SampleOcclusionRoomRatio
 float EAX2SampleRoomRolloff
 float EAX2SampleAirAbsorption
-uint EAX2SampleOutsideVolumeHF
+int EAX2SampleOutsideVolumeHF
 float EAX3SampleOcclusionDirectRatio
 float EAX3SampleExclusion
 float EAX3SampleExclusionLFRatio

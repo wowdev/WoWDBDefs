@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-uint<Faction::ID> faction
-uint flags
-uint factionGroup
-uint friendGroup
-uint enemyGroup
-uint<Faction::ID> enemies
-uint<Faction::ID> friend
+int<Faction::ID> faction
+int flags
+int factionGroup
+int friendGroup
+int enemyGroup
+int<Faction::ID> enemies
+int<Faction::ID> friend
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

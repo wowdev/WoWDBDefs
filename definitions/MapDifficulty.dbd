@@ -1,28 +1,28 @@
 COLUMNS
 int ID
-uint<Map::ID> mapID
-uint<Difficulty::ID> difficultyID
+int<Map::ID> mapID
+int<Difficulty::ID> difficultyID
 locstring message_lang
-uint raidDuration
-uint maxPlayers
-uint lockID
-uint flags
-uint itemContext
-uint itemContextPickerID
-uint resetInterval
-uint difficulty
+int raidDuration
+int maxPlayers
+int lockID
+int flags
+int itemContext
+int itemContextPickerID
+int resetInterval
+int difficulty
 string difficultystring
 int field_4001413544?
 locstring field_1055113062_lang
-uint field_855937208
+int field_855937208
 int field_881099931
-uint field_1115388082
-uint field_1653221040
-uint field_122606935
-uint field_251720579
-uint field_2081637855
-uint field_183643775
-uint field_1927128673
+int field_1115388082
+int field_1653221040
+int field_122606935
+int field_251720579
+int field_2081637855
+int field_183643775
+int field_1927128673
 
 BUILD 6.0.1.18179
 $id$ID<32>

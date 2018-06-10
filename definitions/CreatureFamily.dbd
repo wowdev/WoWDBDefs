@@ -7,7 +7,7 @@ int maxScaleLevel
 int<SkillLine::ID> skillLine
 int petFoodMask
 int petTalentType
-uint categoryEnumID
+int categoryEnumID
 locstring name_lang
 string iconFile
 int iconFileID

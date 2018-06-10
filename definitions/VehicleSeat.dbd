@@ -39,8 +39,8 @@ int vehicleRideAnimLoopBone
 float vehicleEnterAnimDelay
 float vehicleExitAnimDelay
 int vehicleAbilityDisplay
-uint<SoundEntries::ID> enterUISoundID
-uint<SoundEntries::ID> exitUISoundID
+int<SoundEntries::ID> enterUISoundID
+int<SoundEntries::ID> exitUISoundID
 int flagsB
 float cameraEnteringDelay
 float cameraEnteringDuration
@@ -64,7 +64,7 @@ int<FileData::ID> uiSkinFileDataID
 float attachmentOffsetX
 float attachmentOffsetY
 float attachmentOffsetZ
-uint uiSkin
+int uiSkin
 float cameraOffsetX
 float cameraOffsetY
 float cameraOffsetZ
@@ -110,8 +110,8 @@ float field_1524798402
 float field_1893308211
 float field_1714593342
 int field_1937947694
-uint field_1650861936
-uint field_739674084
+int field_1650861936
+int field_739674084
 int field_2078451945
 float field_1449547970
 float field_1092748112

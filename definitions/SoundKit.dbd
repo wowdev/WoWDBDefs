@@ -1,36 +1,36 @@
 COLUMNS
-uint EAXDef
+int EAXDef
 int ID
-uint busOverwriteID
-uint dialogType
+int busOverwriteID
+int dialogType
 float distanceCutoff
-uint flags
-uint maxInstances
+int flags
+int maxInstances
 float minDistance
 float pitchAdjust
 float pitchVariationMinus
 float pitchVariationPlus
-uint soundKitAdvancedID
-uint soundType
+int soundKitAdvancedID
+int soundType
 float volumeFloat
 float volumeVariationMinus
 float volumeVariationPlus
 int field_2047784050
-uint field_1634472319
+int field_1634472319
 float field_134204136
-uint field_745782878
+int field_745782878
 float field_1967678904
 float field_609874979
-uint field_1913437136
-uint field_1993805426
+int field_1913437136
+int field_1993805426
 float field_807776779
 float field_1060876092
 float field_890479314
 float field_504683799
 int field_288388589
 float field_866721450
-uint field_227836566
-uint field_627540281
+int field_227836566
+int field_627540281
 
 LAYOUT 59B08254, FCE1F864
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734

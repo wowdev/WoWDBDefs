@@ -1,11 +1,11 @@
 COLUMNS
 int ID
 int flags
-uint highlightColorID
-uint passiveHighlightColorID
+int highlightColorID
+int passiveHighlightColorID
 int priority
 float range
-uint unitConditionID
+int unitConditionID
 
 LAYOUT 466B2BC4
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26287

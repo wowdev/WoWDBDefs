@@ -1,11 +1,11 @@
 COLUMNS
 int ID
 string name
-uint flags
+int flags
 int celestialSkyboxFileDataID
 int skyboxFileDataID
 string field_018017252
-uint field_547139360
+int field_547139360
 int field_1390923373
 int field_1586749238
 

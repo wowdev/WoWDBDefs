@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-uint class
+int class
 int subclass
-uint quality
-uint minLevel
-uint maxLevel
-uint skillRequired
+int quality
+int minLevel
+int maxLevel
+int skillRequired
 int expansionID
 int field_376987751
-uint field_1703147707
-uint field_1667543631
-uint field_1053962459
-uint field_418755613
+int field_1703147707
+int field_1667543631
+int field_1053962459
+int field_418755613
 int field_551810730
 
 BUILD 6.0.1.18179

@@ -1,28 +1,28 @@
 COLUMNS
 int ID
-uint<Map::ID> ContinentID
+int<Map::ID> ContinentID
 float pos
 locstring Name_lang
 int MountCreatureID
-uint conditionID
-uint Flags
+int conditionID
+int Flags
 float MapOffset
-uint characterBitNumber
+int characterBitNumber
 float facing
 float flightMapOffset
-uint specialIconConditionID
+int specialIconConditionID
 int uiTextureKitID
 float X
 float Y
 float Z
 float field_754523819
 float field_861202115
-uint field_622514936
-uint field_195874888
-uint field_213619813
+int field_622514936
+int field_195874888
+int field_213619813
 int field_991276813
 float field_1074583245
-uint field_1361650732
+int field_1361650732
 
 BUILD 6.0.1.18179
 $id$ID<32>

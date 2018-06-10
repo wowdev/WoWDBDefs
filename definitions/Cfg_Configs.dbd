@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint realmType
-uint playerKillingAllowed
-uint roleplaying
-uint playerAttackSpeedBase
+int realmType
+int playerKillingAllowed
+int roleplaying
+int playerAttackSpeedBase
 float maxDamageReductionPctPhysical
-uint generatedID
+int generatedID
 
 BUILD 6.0.1.18179
 $id$generatedID<32>

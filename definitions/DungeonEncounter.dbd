@@ -6,16 +6,16 @@ int orderIndex
 int Bit
 locstring name_lang
 int<CreatureDisplayInfo::ID> CreatureDisplayID
-uint<SpellIcon::ID> spellIconID
-uint flags
+int<SpellIcon::ID> spellIconID
+int flags
 int spellIconFileID
-uint difficulty
+int difficulty
 locstring field_826341728_lang
 int field_1016126961
 int field_1440350704
 int field_881257825
 int field_1678364738
-uint field_471689576
+int field_471689576
 int field_1547698716
 
 BUILD 6.0.1.18179

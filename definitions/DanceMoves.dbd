@@ -1,12 +1,12 @@
 COLUMNS
-uint ID
-uint type
-uint param
-uint fallback
-uint racemask
+int ID
+int type
+int param
+int fallback
+int racemask
 string Internal_name
 locstring Name_lang
-uint lockID
+int lockID
 
 BUILD 4.0.0.11792
 $id$ID<32>

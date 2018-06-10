@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int spellID
-uint difficultyID
+int difficultyID
 int auraInterruptFlags
 int channelInterruptFlags
 int interruptFlags

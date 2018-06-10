@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-uint NumPoints
+int NumPoints
 int MapID
-uint WorldMapAreaID
-uint Floor
+int WorldMapAreaID
+int Floor
 int ObjectiveIndex
-uint QuestID
-uint playerConditionID
+int QuestID
+int playerConditionID
 int uiMapID
 int field_2098047422
 int field_274529541
 int field_337438545
-uint field_1419306151
-uint field_1425203956
+int field_1419306151
+int field_1425203956
 int field_545615108
-uint field_1384809735
+int field_1384809735
 
 BUILD 6.0.1.18179
 $id$ID<32>

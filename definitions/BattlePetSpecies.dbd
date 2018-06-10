@@ -3,10 +3,10 @@ int ID
 int cardUIModelSceneID
 int creatureID
 locstring description_lang
-uint flags
+int flags
 int iconFileDataID
 int loadoutUIModelSceneID
-uint petTypeEnum
+int petTypeEnum
 locstring sourceText_lang
 int sourceTypeEnum
 int summonSpellID

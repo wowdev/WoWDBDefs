@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-uint abilityCount
-uint classSpecID
-uint garrFollowerTypeID
-uint quality
-uint shipmentXP
-uint traitCount
-uint xpToNextQuality
-uint field_2043461560
-uint field_188985183
-uint field_079754764
-uint field_1346352265
-uint field_1009787335
-uint field_173811949
-uint field_1043860659
+int abilityCount
+int classSpecID
+int garrFollowerTypeID
+int quality
+int shipmentXP
+int traitCount
+int xpToNextQuality
+int field_2043461560
+int field_188985183
+int field_079754764
+int field_1346352265
+int field_1009787335
+int field_173811949
+int field_1043860659
 
 LAYOUT AFF4CF7E
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

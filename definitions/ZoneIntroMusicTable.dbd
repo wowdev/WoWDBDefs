@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 string Name
-uint<SoundEntries::ID> SoundID
-uint Priority
-uint MinDelayMinutes
+int<SoundEntries::ID> SoundID
+int Priority
+int MinDelayMinutes
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

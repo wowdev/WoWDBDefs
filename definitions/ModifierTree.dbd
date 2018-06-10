@@ -1,16 +1,16 @@
 COLUMNS
 int ID
-uint type
+int type
 int asset
 int secondaryAsset
 int operator
 int amount
-uint parent
+int parent
 int tertiaryAsset
-uint field_1302213664
+int field_1302213664
 int field_1133177853
 int field_920518320
-uint field_1598098531
+int field_1598098531
 int field_725555692
 int field_1993066062
 int field_687603611

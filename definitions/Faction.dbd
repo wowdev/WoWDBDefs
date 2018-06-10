@@ -4,16 +4,16 @@ int reputationIndex
 int reputationRaceMask
 int reputationClassMask
 int reputationBase
-uint reputationFlags
-uint<Faction::ID> parentFactionID
+int reputationFlags
+int<Faction::ID> parentFactionID
 float parentFactionMod
-uint parentFactionCap
+int parentFactionCap
 locstring name_lang
 locstring description_lang
-uint expansion
-uint flags
-uint<FriendshipReputation::ID> friendshipRepID
-uint paragonFactionID
+int expansion
+int flags
+int<FriendshipReputation::ID> friendshipRepID
+int paragonFactionID
 int reputationMax
 
 BUILD 6.0.1.18179

@@ -1,8 +1,8 @@
 COLUMNS
-uint ID
-uint num
-uint time
-uint data
+int ID
+int num
+int time
+int data
 
 BUILD 4.0.0.11792
 COMMENT unknown_flag=1

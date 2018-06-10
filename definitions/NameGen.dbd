@@ -1,8 +1,8 @@
 COLUMNS
 int ID
 string name
-uint<ChrRaces::ID> raceID
-uint sex
+int<ChrRaces::ID> raceID
+int sex
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

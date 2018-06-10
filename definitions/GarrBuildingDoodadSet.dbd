@@ -1,15 +1,15 @@
 COLUMNS
-uint field_564209819?
-uint field_3357986906?
-uint field_3732929255?
-uint field_3290697847?
-uint field_204285456?
+int field_564209819?
+int field_3357986906?
+int field_3732929255?
+int field_3290697847?
+int field_204285456?
 int ID
-uint allianceDoodadSet
-uint garrBuildingID
-uint hordeDoodadSet
-uint specializationID
-uint type
+int allianceDoodadSet
+int garrBuildingID
+int hordeDoodadSet
+int specializationID
+int type
 
 BUILD 6.0.1.18179
 $id$ID<32>

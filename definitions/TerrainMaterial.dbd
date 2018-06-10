@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 string name
-uint shader
+int shader
 string envMapPath
 int envMapDiffuseFileID
 int envMapSpecularFileID

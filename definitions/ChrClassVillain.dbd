@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint chrClassID
-uint gender
+int chrClassID
+int gender
 locstring name_lang
 
 LAYOUT A6AC18CD, C0ACF259

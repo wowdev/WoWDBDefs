@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint localeMask
-uint create_charsetMask
-uint existing_charsetMask
-uint flags
+int localeMask
+int create_charsetMask
+int existing_charsetMask
+int flags
 locstring name_lang
-uint charsetMask
+int charsetMask
 
 BUILD 6.0.1.18179
 $id$ID<32>

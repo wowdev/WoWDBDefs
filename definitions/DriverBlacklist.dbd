@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-uint deviceID
-uint driverVersionHi
-uint driverVersionLow
-uint flags
-uint osBits
-uint osVersion
-uint vendorID
-uint field_1539443469
-uint field_1600932562
-uint field_157726917
-uint field_1620724089
-uint field_1789315471
-uint field_1835117782
-uint field_1983326656
+int deviceID
+int driverVersionHi
+int driverVersionLow
+int flags
+int osBits
+int osVersion
+int vendorID
+int field_1539443469
+int field_1600932562
+int field_157726917
+int field_1620724089
+int field_1789315471
+int field_1835117782
+int field_1983326656
 
 BUILD 6.0.1.18179
 $id$ID<32>

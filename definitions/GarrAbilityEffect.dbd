@@ -1,27 +1,27 @@
 COLUMNS
-uint field_1848318171?
+int field_1848318171?
 int ID
-uint abilityAction
-uint abilityTargetType
-uint actionHours
-uint actionRace
+int abilityAction
+int abilityTargetType
+int actionHours
+int actionRace
 int actionRecordID
 float actionValueFlat
 float combatWeightBase
 float combatWeightMax
-uint flags
-uint garrAbilityID
-uint garrMechanicTypeID
-uint field_1096564021
-uint field_1838633660
-uint field_777345925
+int flags
+int garrAbilityID
+int garrMechanicTypeID
+int field_1096564021
+int field_1838633660
+int field_777345925
 float field_346015355
 float field_1345331277
 float field_257122878
-uint field_1609473971
-uint field_1438661586
+int field_1609473971
+int field_1438661586
 int field_1746083035
-uint field_721669374
+int field_721669374
 
 BUILD 6.0.1.18179
 $id$ID<32>

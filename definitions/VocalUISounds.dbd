@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-uint vocalUIEnum
-uint raceID
-uint NormalSoundID
-uint PissedSoundID
-uint classID
+int vocalUIEnum
+int raceID
+int NormalSoundID
+int PissedSoundID
+int classID
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

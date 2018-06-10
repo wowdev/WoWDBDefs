@@ -1,15 +1,15 @@
 COLUMNS
-uint field_1403783413?
+int field_1403783413?
 int ID
-uint containerID
+int containerID
 int dummyItemID
-uint duration
-uint flags
-uint garrFollowerID
-uint maxShipments
+int duration
+int flags
+int garrFollowerID
+int maxShipments
 int onCompleteSpellID
 int spellID
-uint treasureID
+int treasureID
 
 BUILD 6.0.1.18179
 $id$ID<32>

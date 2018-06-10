@@ -1,22 +1,22 @@
 COLUMNS
 int ID
-uint castTimeMin
-uint castTimeMax
-uint castTimeMaxLevel
+int castTimeMin
+int castTimeMax
+int castTimeMaxLevel
 int class
 float nerfFactor
-uint nerfMaxLevel
-uint maxScalingLevel
+int nerfMaxLevel
+int maxScalingLevel
 int scalesFromItemLevel
-uint minScalingLevel
+int minScalingLevel
 int spellID
 float coefficient
 float variance
 float comboPointsCoefficient
 int field_1207036563
 int field_104295856
-uint field_1477245846
-uint field_417759355
+int field_1477245846
+int field_417759355
 int field_1819891417
 
 BUILD 6.0.1.18179

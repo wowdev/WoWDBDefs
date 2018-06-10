@@ -3,8 +3,8 @@ int ID
 float flowDirection
 float flowSpeed
 int<LiquidType::ID> liquidTypeID
-uint fishable
-uint reflection
+int fishable
+int reflection
 
 BUILD 6.0.1.18179
 $id$ID<32>

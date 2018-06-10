@@ -1,23 +1,23 @@
 COLUMNS
 string field_2562876151?
-uint field_2330270230?
-uint field_4069933785?
-uint ID
+int field_2330270230?
+int field_4069933785?
+int ID
 locstring classSpec_lang
 locstring classSpec_Female_lang
 locstring classSpec_Male_lang
-uint flags
-uint followerClassLimit
-uint garrFollItemSetID
-uint uiTextureAtlasMemberID
+int flags
+int followerClassLimit
+int garrFollItemSetID
+int uiTextureAtlasMemberID
 locstring field_1188022850_lang
 locstring field_577921910_lang
 locstring field_698836847_lang
-uint field_1271104612
-uint field_278612190
-uint field_1857307150
-uint field_392006238
-uint field_1835572522
+int field_1271104612
+int field_278612190
+int field_1857307150
+int field_392006238
+int field_1835572522
 
 BUILD 6.0.1.18179
 $id$ID<32>

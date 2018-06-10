@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint autoAttackSpellVisualID
-uint castSpellVisualID
-uint missileSpellVisualEffectNameID
-uint quiverFileDataID
+int autoAttackSpellVisualID
+int castSpellVisualID
+int missileSpellVisualEffectNameID
+int quiverFileDataID
 
 LAYOUT 687A28D1
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

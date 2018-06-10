@@ -2,11 +2,11 @@ COLUMNS
 int ID
 float alpha
 float animSpeed
-uint animationID
+int animationID
 float scale
-uint sequenceVariation
-uint field_1242589761
-uint field_1339942285
+int sequenceVariation
+int field_1242589761
+int field_1339942285
 float field_1573226661
 float field_750376264
 float field_950248886

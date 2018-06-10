@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-uint<CreatureModelData::ID> modelID
-uint<CreatureSoundData::ID> soundID
+int<CreatureModelData::ID> modelID
+int<CreatureSoundData::ID> soundID
 int<CreatureDisplayInfoExtra::ID> extendedDisplayInfoID
 float creatureModelScale
-uint creatureModelAlpha
+int creatureModelAlpha
 string textureVariation
 string portraitTextureName
 int<CreatureDisplayInfo::ID> portraitCreatureDisplayInfoID
 int sizeClass
-uint bloodID
-uint<NPCSounds::ID> NPCSoundID
-uint<ParticleColor::ID> particleColorID
-uint creatureGeosetData
-uint<ObjectEffectPackage::ID> objectEffectPackageID
-uint<AnimReplacementSet::ID> animReplacementSetID
-uint flags
+int bloodID
+int<NPCSounds::ID> NPCSoundID
+int<ParticleColor::ID> particleColorID
+int creatureGeosetData
+int<ObjectEffectPackage::ID> objectEffectPackageID
+int<AnimReplacementSet::ID> animReplacementSetID
+int flags
 int gender
 int<SpellVisualKit::ID> stateSpellVisualKitID
 int dissolveEffectID
@@ -27,7 +27,7 @@ int textureVariationFileDataID
 int unarmedWeaponType
 int creatureModelMinLod
 int dissolveOutEffectID
-uint field_253757755
+int field_253757755
 
 BUILD 6.0.1.18179
 $id$ID<32>

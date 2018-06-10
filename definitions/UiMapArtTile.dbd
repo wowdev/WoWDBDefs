@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-uint colIndex
+int colIndex
 int fileDataID
-uint layerIndex
-uint rowIndex
+int layerIndex
+int rowIndex
 int uiMapArtID
-uint field_618760275
-uint field_1171243616
-uint field_1286605254
+int field_618760275
+int field_1171243616
+int field_1286605254
 int field_501162254
 
 LAYOUT DF99E639

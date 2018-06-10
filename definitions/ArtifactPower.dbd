@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint artifactID
+int artifactID
 float displayPos
-uint flags
+int flags
 int label
-uint maxPurchasableRank
-uint tier
+int maxPurchasableRank
+int tier
 
 LAYOUT 45240818
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

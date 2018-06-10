@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint guildLevel
+int guildLevel
 int<Spell::ID> spellID
 
 BUILD 6.0.1.18179

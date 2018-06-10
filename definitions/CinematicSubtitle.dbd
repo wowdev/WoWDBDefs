@@ -1,8 +1,8 @@
 COLUMNS
-uint ID
-uint flags
-uint startTimestamp // milliseconds
-uint endTimestamp // milliseconds
+int ID
+int flags
+int startTimestamp // milliseconds
+int endTimestamp // milliseconds
 locstring text_lang
 
 BUILD 0.9.0.3807, 0.10.0.3892

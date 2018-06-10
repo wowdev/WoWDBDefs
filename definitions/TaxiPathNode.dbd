@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-uint<TaxiPath::ID> PathID
-uint NodeIndex
-uint<Map::ID> ContinentID
+int<TaxiPath::ID> PathID
+int NodeIndex
+int<Map::ID> ContinentID
 float Loc
-uint flags
-uint delay
-uint arrivalEventID
-uint departureEventID
+int flags
+int delay
+int arrivalEventID
+int departureEventID
 float LocX
 float LocY
 float LocZ
 int field_1559777242
-uint field_1090324703
-uint field_1492673239
-uint field_320321232
-uint field_294171656
+int field_1090324703
+int field_1492673239
+int field_320321232
+int field_294171656
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -7,13 +7,13 @@ int FaceID
 int HairStyleID
 int HairColorID
 int FacialHairID
-uint<ItemDisplayInfo::ID> NPCItemDisplay
+int<ItemDisplayInfo::ID> NPCItemDisplay
 int flags
-uint<FileData::ID> fileDataID
-uint<FileData::ID> hdFileDataID
+int<FileData::ID> fileDataID
+int<FileData::ID> hdFileDataID
 int HDBakeMaterialResourcesID
 int bakeMaterialResourcesID
-uint customDisplayOption
+int customDisplayOption
 int displayClassID
 string BakeName
 

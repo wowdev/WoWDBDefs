@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-uint fileDataID
-uint attachPoint
-uint minimapobject
-uint priority
-uint flags
-uint minimapAtlasMemberID
-uint passiveHighlightColorType
+int fileDataID
+int attachPoint
+int minimapobject
+int priority
+int flags
+int minimapAtlasMemberID
+int passiveHighlightColorType
 
 BUILD 6.0.1.18179
 $id$ID<32>

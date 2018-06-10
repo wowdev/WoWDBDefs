@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-uint currencyAmount
-uint currencyType
-uint itemLevelIncrement
-uint itemUpgradePathID
-uint prerequisiteID
-uint field_064596194
-uint field_1242183656
-uint field_1706811387
-uint field_612654036
-uint field_340669965
+int currencyAmount
+int currencyType
+int itemLevelIncrement
+int itemUpgradePathID
+int prerequisiteID
+int field_064596194
+int field_1242183656
+int field_1706811387
+int field_612654036
+int field_340669965
 
 BUILD 6.0.1.18179
 $id$ID<32>

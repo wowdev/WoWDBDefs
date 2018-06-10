@@ -1,14 +1,14 @@
 COLUMNS
 int ID
 string SetName
-uint SilenceIntervalMin
-uint SilenceIntervalMax
-uint<SoundEntries::ID> Sounds
+int SilenceIntervalMin
+int SilenceIntervalMax
+int<SoundEntries::ID> Sounds
 float VolumeFloat
 string MusicFile // NUM_AMBIENCES
-uint SegmentLength // NUM_AMBIENCES
-uint SegmentPlayMin // NUM_AMBIENCES
-uint SegmentPlayMax // NUM_AMBIENCES
+int SegmentLength // NUM_AMBIENCES
+int SegmentPlayMin // NUM_AMBIENCES
+int SegmentPlayMax // NUM_AMBIENCES
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

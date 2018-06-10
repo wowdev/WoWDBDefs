@@ -1,13 +1,13 @@
 COLUMNS
-uint field_3431074259?
-uint field_1355241947?
-uint padding_2996086065?
-uint field_3863714581?
+int field_3431074259?
+int field_1355241947?
+int padding_2996086065?
+int field_3863714581?
 int ID
 string domain
-uint grantAccess
-uint revokeAccess
-uint wowEditInternal
+int grantAccess
+int revokeAccess
+int wowEditInternal
 
 BUILD 6.0.1.18179
 $id$ID<32>

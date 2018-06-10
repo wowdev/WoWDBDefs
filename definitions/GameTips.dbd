@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 locstring text_lang
-uint min_level
-uint max_level
-uint sortIndex
+int min_level
+int max_level
+int sortIndex
 
 BUILD 6.0.1.18179
 $id$ID<32>

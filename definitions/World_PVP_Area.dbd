@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint<AreaTable::ID> area_ID
-uint<WorldState::ID> next_time_worldstate
-uint<WorldState::ID> game_time_worldstate
-uint battle_populate_time
-uint min_level
-uint max_level
+int<AreaTable::ID> area_ID
+int<WorldState::ID> next_time_worldstate
+int<WorldState::ID> game_time_worldstate
+int battle_populate_time
+int min_level
+int max_level
 int map_ID
 
 BUILD 6.0.1.18179

@@ -1,17 +1,17 @@
 COLUMNS
-uint field_3581403564?
-uint field_3850169242?
-uint field_3504503978?
-uint field_3336818504?
+int field_3581403564?
+int field_3850169242?
+int field_3504503978?
+int field_3336818504?
 int ID
 int criteriaCount
-uint flags
-uint mapID
+int flags
+int mapID
 locstring name_lang
 locstring field_458944085_lang
 int field_972995456
-uint field_316133103
-uint field_1701535537
+int field_316133103
+int field_1701535537
 int field_1243497067
 
 BUILD 6.0.1.18179

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint parentWidgetID
-uint reqID
+int parentWidgetID
+int reqID
 int value
 
 LAYOUT 005558D3

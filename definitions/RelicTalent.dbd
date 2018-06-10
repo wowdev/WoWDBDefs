@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-uint artifactPowerID
-uint artifactPowerLabel
+int artifactPowerID
+int artifactPowerLabel
 int flags
 int pVal
 int type
 int field_800251018
-uint field_905929348
-uint field_1110787437
+int field_905929348
+int field_1110787437
 int field_1448017255
 int field_1587863126
 

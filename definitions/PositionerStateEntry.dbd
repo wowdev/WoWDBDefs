@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint curveID
+int curveID
 int dstType
 int dstVal
 int dstValType
@@ -13,7 +13,7 @@ int srcValType
 int style
 float field_991549612
 float field_520649121
-uint field_1724451374
+int field_1724451374
 int field_972950145
 int field_851215610
 int field_1041387474

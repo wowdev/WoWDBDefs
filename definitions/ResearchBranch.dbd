@@ -1,15 +1,15 @@
 COLUMNS
 int ID
 locstring name_lang
-uint researchFieldID
-uint currencyID
+int researchFieldID
+int currencyID
 string texture
 int itemID
 int bigTextureFileID
 int textureFileID
 locstring field_1824140864_lang
-uint field_637053778
-uint field_301033062
+int field_637053778
+int field_301033062
 int field_293069770
 int field_1993041071
 int field_2096829591

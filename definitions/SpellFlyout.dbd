@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint flags
+int flags
 int raceMask
 int classMask
-uint spellIconID
+int spellIconID
 locstring name_lang
 locstring description_lang
 int spellIconFileID

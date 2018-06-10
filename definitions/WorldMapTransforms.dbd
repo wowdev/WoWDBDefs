@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-uint<Map::ID> mapID
+int<Map::ID> mapID
 float regionMin
 float regionMax
-uint<Map::ID> newMapID
+int<Map::ID> newMapID
 float regionOffset
-uint<DungeonMap::ID> newDungeonMapID
-uint flags
-uint<AreaTable::ID> newAreaID
+int<DungeonMap::ID> newDungeonMapID
+int flags
+int<AreaTable::ID> newAreaID
 float regionScale
-uint areaID
+int areaID
 int priority
 float region
 float regionMinX

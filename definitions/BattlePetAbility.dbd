@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint battlePetVisualID
-uint cooldown
+int battlePetVisualID
+int cooldown
 locstring description_lang
-uint flags
+int flags
 int iconFileDataID
 locstring name_lang
 int petTypeEnum

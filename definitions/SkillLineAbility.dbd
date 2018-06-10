@@ -14,10 +14,10 @@ int uniqueBit
 int tradeSkillCategoryID
 int flags
 int skillupSkillLineID
-uint excludeRace
-uint excludeClass
-uint supercededBySpell
-uint characterPoints
+int excludeRace
+int excludeClass
+int supercededBySpell
+int characterPoints
 int abandonable
 int field_578240292
 int field_1658843798

@@ -1,27 +1,27 @@
 COLUMNS
 int ID
-uint importance
-uint icon
-uint<FactionTemplate::ID> factionID
+int importance
+int icon
+int<FactionTemplate::ID> factionID
 float pos
-uint<Map::ID> continentID
-uint flags
+int<Map::ID> continentID
+int flags
 int<AreaTable::ID> areaID
 locstring name_lang
 locstring description_lang
-uint<WorldState::ID> worldStateID
-uint<PlayerCondition::ID> playerConditionID
-uint worldMapLink
+int<WorldState::ID> worldStateID
+int<PlayerCondition::ID> playerConditionID
+int worldMapLink
 int<WorldSafeLocs::ID> portLocID
 int mapFloor
 int poiData
 int poiDataType
-uint uiTextureAtlasMemberID
+int uiTextureAtlasMemberID
 int WMOGroupID
 float x
 float y
 float z
-uint uiWidgetParentSetID?
+int uiWidgetParentSetID?
 
 BUILD 6.0.1.18179
 $id$ID<32>

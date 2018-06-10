@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-uint<ChrRaces::ID> raceID
-uint<ChrClasses::ID> classID
-uint sexID
-uint outfitID
+int<ChrRaces::ID> raceID
+int<ChrClasses::ID> classID
+int sexID
+int outfitID
 int ItemID
-uint DisplayItemID
-uint InventoryType
-uint petDisplayID
-uint petFamilyID
+int DisplayItemID
+int InventoryType
+int petDisplayID
+int petFamilyID
 
 BUILD 6.0.1.18179
 $id$ID<32>

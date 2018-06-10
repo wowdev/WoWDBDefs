@@ -1,16 +1,16 @@
 COLUMNS
 int ID
-uint specID
+int specID
 int spellID
 int overridesSpellID
 locstring description_lang
-uint displayOrder
+int displayOrder
 locstring field_503825336_lang
 int field_2011759721
-uint field_550563828
+int field_550563828
 int field_1975266401
 int field_1356251632
-uint field_1915615150
+int field_1915615150
 
 BUILD 6.0.1.18179
 $id$ID<32>

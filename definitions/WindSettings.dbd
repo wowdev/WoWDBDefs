@@ -3,7 +3,7 @@ int ID
 float baseDir
 float baseMag
 float duration
-uint flags
+int flags
 float frequency
 float maxStepDir
 float maxStepMag

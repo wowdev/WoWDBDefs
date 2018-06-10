@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-uint colIndex
+int colIndex
 int fileDataID
-uint layerIndex
-uint rowIndex
+int layerIndex
+int rowIndex
 int worldMapOverlayID
-uint field_1457727990
-uint field_693501127
-uint field_1448349881
+int field_1457727990
+int field_693501127
+int field_1448349881
 int field_274500429
 int field_1220887927
 

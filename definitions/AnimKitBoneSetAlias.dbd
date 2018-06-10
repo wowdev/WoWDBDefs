@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint boneDataID
-uint<AnimKitBoneSet::ID> animKitBoneSetID
+int boneDataID
+int<AnimKitBoneSet::ID> animKitBoneSetID
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

@@ -1,16 +1,16 @@
 COLUMNS
 int ID
 int spellID
-uint difficultyID
+int difficultyID
 int baseLevel
 int maxLevel
 int spellLevel
-uint maxPassiveAuraLevel
-uint field_1887611123
+int maxPassiveAuraLevel
+int field_1887611123
 int field_975851760
 int field_320945873
 int field_1543167146
-uint field_145148358
+int field_145148358
 int field_998963144
 
 BUILD 6.0.1.18179

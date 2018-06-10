@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 string name
-uint<Map::ID> mapID
-uint<Light::ID> lightID
-uint flags
+int<Map::ID> mapID
+int<Light::ID> lightID
+int flags
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -1,8 +1,8 @@
 COLUMNS
 int ID
 locstring name_lang
-uint mask
-uint immunityPossible
+int mask
+int immunityPossible
 string internalName
 
 BUILD 4.0.0.11792, 6.0.1.18179

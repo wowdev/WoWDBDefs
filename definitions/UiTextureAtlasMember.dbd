@@ -6,9 +6,9 @@ int committedLeft
 string committedName
 int committedRight
 int committedTop
-uint uiTextureAtlasID
-uint uiCanvasID
-uint uiTextureAtlasElementID
+int uiTextureAtlasID
+int uiCanvasID
+int uiTextureAtlasElementID
 
 BUILD 6.0.1.18179
 $id$ID<32>

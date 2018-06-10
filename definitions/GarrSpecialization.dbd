@@ -1,18 +1,18 @@
 COLUMNS
-uint field_2868601272?
-uint field_880672811?
-uint field_2790666691?
-uint field_4087175377?
+int field_2868601272?
+int field_880672811?
+int field_2790666691?
+int field_4087175377?
 float field_3128635205?
 string field_2085341704?
 string field_1385528309?
 int ID
-uint buildingType
+int buildingType
 int iconFileDataID
 locstring name_lang
 float param
-uint requiredUpgradeLevel
-uint specType
+int requiredUpgradeLevel
+int specType
 locstring tooltip_lang
 
 BUILD 6.0.1.18179

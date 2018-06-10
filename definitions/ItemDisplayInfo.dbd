@@ -4,26 +4,26 @@ string modelName
 string modelTexture
 int geosetGroup
 int flags
-uint spellVisualID
+int spellVisualID
 int helmetGeosetVis
 string texture
 int itemVisual
 int particleColorID
 int attachmentGeosetGroup
-uint itemRangedDisplayInfoID
+int itemRangedDisplayInfoID
 int modelMaterialResourcesID
-uint modelResourcesID
+int modelResourcesID
 int modelType1
-uint overrideSwooshSoundKitID
+int overrideSwooshSoundKitID
 int sheatheTransformMatrixID
 int sheathedSpellVisualKitID
 int stateSpellVisualKitID
-uint unsheathedSpellVisualKitID
+int unsheathedSpellVisualKitID
 string inventoryIcon
-uint groupSoundIndex
+int groupSoundIndex
 string groundModel
-uint itemSize
-uint helmetGeosetVisID
+int itemSize
+int helmetGeosetVisID
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -1,25 +1,25 @@
 COLUMNS
 int ID
 int<Map::ID> mapID
-uint<AreaTable::ID> areaID
+int<AreaTable::ID> areaID
 string areaName
 float locLeft
 float locRight
 float locTop
 float locBottom
 int<Map::ID> displayMapID
-uint defaultDungeonFloor
-uint<WorldMapArea::ID> parentWorldMapID
-uint flags
-uint levelRangeMin
-uint levelRangeMax
-uint bountyDisplayLocation
-uint bountySetID
-uint visibilityPlayerConditionID
-uint leftBoundary
-uint rightBoundary
-uint topBoundary
-uint bottomBoundary
+int defaultDungeonFloor
+int<WorldMapArea::ID> parentWorldMapID
+int flags
+int levelRangeMin
+int levelRangeMax
+int bountyDisplayLocation
+int bountySetID
+int visibilityPlayerConditionID
+int leftBoundary
+int rightBoundary
+int topBoundary
+int bottomBoundary
 
 BUILD 6.0.1.18179
 $id$ID<32>

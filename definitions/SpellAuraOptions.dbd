@@ -1,19 +1,19 @@
 COLUMNS
 int ID
 int spellID
-uint difficultyID
-uint cumulativeAura
-uint procChance
+int difficultyID
+int cumulativeAura
+int procChance
 int procCharges
 int procTypeMask
 int procCategoryRecovery
-uint spellProcsPerMinuteID
-uint field_1423551137
-uint field_183874161
+int spellProcsPerMinuteID
+int field_1423551137
+int field_183874161
 int field_853392595
-uint field_073037297
+int field_073037297
 int field_193661342
-uint field_1301427073
+int field_1301427073
 int field_774939558
 int field_739006312
 

@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint Type
+int Type
 int Index
-uint Skill
-uint Action
+int Skill
+int Action
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

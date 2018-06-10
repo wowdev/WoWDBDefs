@@ -1,16 +1,16 @@
 COLUMNS
 int ID
 int<Map::ID> mapID
-uint leftBoundary
-uint rightBoundary
-uint topBoundary
-uint bottomBoundary
+int leftBoundary
+int rightBoundary
+int topBoundary
+int bottomBoundary
 float continentOffset
 float scale
 float taxiMin
 float taxiMax
-uint worldMapID
-uint flags
+int worldMapID
+int flags
 float continentOffsetX
 float continentOffsetY
 float taxiMinX

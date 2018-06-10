@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
-uint num
-uint time
+int ID
+int num
+int time
 float data
 
 BUILD 4.0.0.11792

@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int continentID
 int flags
-uint poiData
+int poiData
 int poiDataType
 int uiTextureAtlasMemberID
 float worldLoc

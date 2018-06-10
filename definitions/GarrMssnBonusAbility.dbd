@@ -1,13 +1,13 @@
 COLUMNS
 int ID
 int durationSecs
-uint garrAbilityID
-uint garrFollowerTypeID
-uint garrMissionTextureID
+int garrAbilityID
+int garrFollowerTypeID
+int garrMissionTextureID
 float radius
-uint field_2008958973
-uint field_1166598135
-uint field_887881268
+int field_2008958973
+int field_1166598135
+int field_887881268
 float field_1821281040
 int field_1010253006
 

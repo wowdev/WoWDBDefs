@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint maskID
+int maskID
 string internalName
 locstring name_lang
 int conquestCurrencyTextureFileID

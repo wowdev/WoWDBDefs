@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint Sort_Index
-uint<GMSurveyQuestions::ID> GMSurveyQuestionID
+int Sort_Index
+int<GMSurveyQuestions::ID> GMSurveyQuestionID
 locstring Answer_lang
 
 BUILD 4.0.0.11792, 6.0.1.18179

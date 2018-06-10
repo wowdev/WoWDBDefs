@@ -1,18 +1,18 @@
 COLUMNS
-uint ID
+int ID
 int classMask
-uint expansionID
+int expansionID
 int flags
 int itemNameDescriptionID
 locstring name_lang
-uint parentTransmogSetID
-uint trackingQuestID
-uint transmogSetGroupID
+int parentTransmogSetID
+int trackingQuestID
+int transmogSetGroupID
 int uiOrder
 int field_583337663
-uint field_827894296
+int field_827894296
 int field_2073948481
-uint field_716579579
+int field_716579579
 int field_805443280
 
 LAYOUT BEDFD7D1

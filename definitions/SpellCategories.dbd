@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int spellID
-uint difficultyID
+int difficultyID
 int category
 int defenseType
 int dispelType
@@ -9,7 +9,7 @@ int mechanic
 int preventionType
 int startRecoveryCategory
 int chargeCategory
-uint field_1430486747
+int field_1430486747
 int field_1688224685
 int field_748051051
 int field_386234062

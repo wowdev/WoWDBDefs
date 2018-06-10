@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-uint<JournalEncounter::ID> journalEncounterID
-uint<CreatureDisplayInfo::ID> creatureDisplayInfoID
-uint orderIndex
-uint<FileData::ID> fileDataID
+int<JournalEncounter::ID> journalEncounterID
+int<CreatureDisplayInfo::ID> creatureDisplayInfoID
+int orderIndex
+int<FileData::ID> fileDataID
 locstring name_lang
 locstring description_lang
-uint uiModelSceneID
+int uiModelSceneID
 locstring field_801611165_lang
 locstring field_1617057008_lang
 int field_1773160246
-uint field_2061953316
-uint field_1697836805
-uint field_832164116
-uint field_1774470349
-uint field_635263721
+int field_2061953316
+int field_1697836805
+int field_832164116
+int field_1774470349
+int field_635263721
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -2,11 +2,11 @@ COLUMNS
 int ID
 int buffSpellID
 int managedWorldStateID
-uint occurrenceValue
-uint playerConditionID
+int occurrenceValue
+int playerConditionID
 int field_1174067806
-uint field_1274027298
-uint field_1060622336
+int field_1274027298
+int field_1060622336
 int field_093385581
 
 LAYOUT 6D201DC7

@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-uint<ChrRaces::ID> RaceID
-uint SexID
-uint VariationID
-uint VariationType
-uint GeosetID
-uint GeosetType
-uint Showscalp
+int<ChrRaces::ID> RaceID
+int SexID
+int VariationID
+int VariationType
+int GeosetID
+int GeosetType
+int Showscalp
 int ColorIndex
 int customGeoFileDataID
 int hdCustomGeoFileDataID

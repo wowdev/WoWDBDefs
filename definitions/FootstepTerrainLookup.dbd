@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint CreatureFootstepID
+int CreatureFootstepID
 int<TerrainType::ID> TerrainSoundID
-uint<SoundEntries::ID> SoundID
-uint<SoundEntries::ID> SoundIDSplash
+int<SoundEntries::ID> SoundID
+int<SoundEntries::ID> SoundIDSplash
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

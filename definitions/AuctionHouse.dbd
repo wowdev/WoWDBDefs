@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-uint<Faction::ID> factionID
-uint depositRate
-uint consignmentRate
+int<Faction::ID> factionID
+int depositRate
+int consignmentRate
 locstring name_lang
 
 BUILD 4.0.0.11792, 6.0.1.18179

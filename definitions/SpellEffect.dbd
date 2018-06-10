@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int difficultyID
-uint effect
+int effect
 float effectAmplitude
 int effectAura
 int effectAuraPeriod
@@ -14,12 +14,12 @@ int effectItemType
 int effectMechanic
 int effectMiscValue
 float effectPointsPerResource
-uint effectRadiusIndex
+int effectRadiusIndex
 float effectRealPointsPerLevel
 int effectSpellClassMask
 int effectTriggerSpell
 float effectPos_facing
-uint implicitTarget
+int implicitTarget
 int spellID
 int effectIndex
 int effectAttributes
@@ -32,7 +32,7 @@ float variance
 float field_2125660223?
 int field_135298221
 int field_157618462
-uint field_1302211163
+int field_1302211163
 float field_1327373638
 int field_523002286
 int field_2094009739
@@ -54,7 +54,7 @@ float field_657540167
 float field_1818636851
 float field_1897009060
 int field_919538952
-uint field_175685415
+int field_175685415
 int field_887765503
 int field_1939665816
 int field_1675666556

@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-uint garrClassSpecID
-uint spellVisualID
-uint movementType
+int garrClassSpecID
+int spellVisualID
+int movementType
 float impactDelaySecs
-uint castKit
-uint impactKit
-uint targetImpactKit
+int castKit
+int impactKit
+int targetImpactKit
 
 BUILD 6.0.1.18179
 $id$ID<32>

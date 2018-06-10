@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 string baseTag
-uint flags
+int flags
 locstring tagText_lang
 
 LAYOUT 2CA3EA1E, 843675FD

@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 string model
-uint<SoundEntries::ID> soundID
+int<SoundEntries::ID> soundID
 float origin
 float originFacing
-uint fileDataID
+int fileDataID
 float originX
 float originY
 float originZ

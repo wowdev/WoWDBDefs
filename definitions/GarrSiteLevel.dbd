@@ -1,18 +1,18 @@
 COLUMNS
-uint field_1203811381?
-uint field_1914305138?
-uint field_2508543345?
-uint field_374087848?
+int field_1203811381?
+int field_1914305138?
+int field_2508543345?
+int field_374087848?
 int ID
-uint garrLevel
-uint garrSiteID
-uint mapID
-uint maxBuildingLevel
+int garrLevel
+int garrSiteID
+int mapID
+int maxBuildingLevel
 float townHallUiPos
-uint uiTextureKitID
-uint upgradeCost
-uint upgradeGoldCost
-uint upgradeMovieID
+int uiTextureKitID
+int upgradeCost
+int upgradeGoldCost
+int upgradeMovieID
 
 BUILD 6.0.1.18179
 $id$ID<32>

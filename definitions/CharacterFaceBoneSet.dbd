@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 int boneSetFileDataID
-uint faceVariationIndex
-uint raceID
-uint resolution
-uint sexID
+int faceVariationIndex
+int raceID
+int resolution
+int sexID
 int modelFileDataID
 
 LAYOUT 1C634076, 6EF85FBA

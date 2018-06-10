@@ -2,23 +2,23 @@ COLUMNS
 int ID
 int collisionHull
 float facing
-uint flags
+int flags
 int gameEventID
 int gameObjectID
 int multiPropertiesID
 float offset
-uint stateIndex
+int stateIndex
 int transitionInID
 int transitionOutID
 float field_094909778
 int field_164844277
-uint field_2115015440
+int field_2115015440
 int field_929250662
 float field_220401636
 int field_1307275185
 int field_370170754
 int field_389823965
-uint field_2094790122
+int field_2094790122
 int field_1038963388
 
 LAYOUT E44B382C, D06E1904

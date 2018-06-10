@@ -1,6 +1,6 @@
 COLUMNS
-uint FileDataID
-uint resolution
+int FileDataID
+int resolution
 int ID
 
 BUILD 4.0.0.11792, 6.0.1.18179

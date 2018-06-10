@@ -1,9 +1,9 @@
 COLUMNS
-uint ID
-uint ItemSubclassID // << likely bad copy and paste job and AnimationDataID instead
-uint<AttackAnimTypes::AnimID> AnimTypeID
-uint AnimFrequency
-uint WhichHand // &1: Offhand
+int ID
+int ItemSubclassID // << likely bad copy and paste job and AnimationDataID instead
+int<AttackAnimTypes::AnimID> AnimTypeID
+int AnimFrequency
+int WhichHand // &1: Offhand
 
 BUILD 0.5.3.3368, 3.0.2.8905, 3.3.5.12340, 6.0.1.18179
 $id$ID<32>

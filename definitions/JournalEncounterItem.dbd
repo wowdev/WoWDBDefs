@@ -1,15 +1,15 @@
 COLUMNS
-uint ID
-uint<JournalEncounter::ID> journalEncounterID
-uint<Item::ID> itemID
+int ID
+int<JournalEncounter::ID> journalEncounterID
+int<Item::ID> itemID
 int difficultyMask
 int factionMask
-uint flags
-uint field_1365829412
-uint field_2114761793
-uint field_125397354
+int flags
+int field_1365829412
+int field_2114761793
+int field_125397354
 int field_1863380598
-uint field_1028136341
+int field_1028136341
 int field_600915378
 
 BUILD 6.0.1.18179

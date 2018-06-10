@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int creatureID
 int expansionID
-uint factionID
+int factionID
 int flags
 int maxLevel
 int minLevel

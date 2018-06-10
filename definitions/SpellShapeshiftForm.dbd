@@ -4,12 +4,12 @@ int bonusActionBar
 locstring name_lang
 int flags
 int creatureType
-uint attackIconID
+int attackIconID
 int combatRoundTime
-uint creatureDisplayID
-uint presetSpellID
-uint mountTypeID
-uint exitSoundEntriesID
+int creatureDisplayID
+int presetSpellID
+int mountTypeID
+int exitSoundEntriesID
 int attackIconFileID
 float damageVariance
 locstring field_911356844_lang
@@ -19,9 +19,9 @@ int field_970156193
 int field_1524677815
 int field_100563675
 float field_683652071
-uint field_715036656
-uint field_788622153
-uint field_987733738
+int field_715036656
+int field_788622153
+int field_987733738
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-uint inputType
-uint mapType
-uint outputType
+int inputType
+int mapType
+int outputType
 float param
 
 BUILD 4.0.0.11792, 6.0.1.18179

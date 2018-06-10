@@ -1,12 +1,12 @@
 COLUMNS
 string sceneScriptFunction
 int ID
-uint castMilliSeconds
-uint flags
-uint impactMilliSeconds
-uint rangeTypeEnum
-uint sceneScriptPackageID
-uint spellVisualID
+int castMilliSeconds
+int flags
+int impactMilliSeconds
+int rangeTypeEnum
+int sceneScriptPackageID
+int spellVisualID
 
 BUILD 6.0.1.18179
 $id$ID<32>

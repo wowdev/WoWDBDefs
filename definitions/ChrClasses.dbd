@@ -1,27 +1,27 @@
 COLUMNS
 int ID
-uint DisplayPower
+int DisplayPower
 string petNameToken
 locstring name_lang
 locstring name_female_lang
 locstring name_male_lang
 string filename
-uint spellClassSet
-uint flags
-uint<CinematicSequences::ID> cinematicSequenceID
-uint attackPowerPerStrength
-uint attackPowerPerAgility
-uint rangedAttackPowerPerAgility
-uint defaultSpec
-uint<FileData::ID> createScreenFileDataID
-uint<FileData::ID> selectScreenFileDataID
-uint<FileData::ID> lowResScreenFileDataID
-uint<FileData::ID> iconFileDataID
-uint primaryStatPriority
+int spellClassSet
+int flags
+int<CinematicSequences::ID> cinematicSequenceID
+int attackPowerPerStrength
+int attackPowerPerAgility
+int rangedAttackPowerPerAgility
+int defaultSpec
+int<FileData::ID> createScreenFileDataID
+int<FileData::ID> selectScreenFileDataID
+int<FileData::ID> lowResScreenFileDataID
+int<FileData::ID> iconFileDataID
+int primaryStatPriority
 int startingLevel
-uint required_expansion
-uint PlayerClass
-uint DamageBonusStat
+int required_expansion
+int PlayerClass
+int DamageBonusStat
 
 BUILD 6.0.1.18179
 $id$ID<32>

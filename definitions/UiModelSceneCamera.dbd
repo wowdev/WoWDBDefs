@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint cameraType
-uint flags
+int cameraType
+int flags
 float maxZoomDistance
 float minZoomDistance
 float pitch
@@ -19,8 +19,8 @@ string field_1854152786
 float field_743656063
 float field_1346609378
 int field_143639425
-uint field_2086059912
-uint field_1632652864
+int field_2086059912
+int field_1632652864
 float field_165408877
 float field_1759559261
 float field_534366605

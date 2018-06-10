@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint artifactPowerID
+int artifactPowerID
 float auraPointsOverride
-uint itemBonusListID
-uint rankIndex
+int itemBonusListID
+int rankIndex
 int spellID
 
 LAYOUT A87EACC4, BBC276D0

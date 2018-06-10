@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-uint chrSpecID
+int chrSpecID
 int flags
-uint priority
+int priority
 int spellID
 
 LAYOUT 84985168, 55153A40

@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-uint lfgDungeonsID
-uint random_lfgDungeonsID
-uint group_ID
+int lfgDungeonsID
+int random_lfgDungeonsID
+int group_ID
 
 BUILD 6.0.1.18179
 $id$ID<32>

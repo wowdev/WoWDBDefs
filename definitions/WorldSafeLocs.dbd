@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint<Map::ID> continent
+int ID
+int<Map::ID> continent
 float loc
 float facing
 locstring areaName_lang

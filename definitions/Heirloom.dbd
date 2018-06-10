@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-uint flags
+int flags
 int itemID
 int legacyItemID
 int legacyUpgradedItemID
 locstring sourceText_lang
 int sourceTypeEnum
 int staticUpgradedItemID
-uint upgradeItemBonusListID
+int upgradeItemBonusListID
 int upgradeItemID
 
 LAYOUT 36887C6F

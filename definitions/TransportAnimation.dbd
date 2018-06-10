@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 int TransportID
-uint TimeIndex
+int TimeIndex
 float Pos
-uint SequenceID
+int SequenceID
 float PosX
 float PosY
 float PosZ

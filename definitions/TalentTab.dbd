@@ -1,11 +1,11 @@
 COLUMNS
-uint ID
+int ID
 locstring name_lang
-uint spellIconID
-uint raceMask
-uint classMask
-uint petTalentMask
-uint orderIndex
+int spellIconID
+int raceMask
+int classMask
+int petTalentMask
+int orderIndex
 string backgroundFile
 
 BUILD 4.0.0.11792

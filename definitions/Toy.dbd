@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-uint flags
+int flags
 int itemID
 locstring sourceText_lang
 int sourceTypeEnum
 locstring field_687948562_lang
 int field_821874736
 int field_1724324526
-uint field_856973494
+int field_856973494
 int field_1500581539
 
 LAYOUT 5409C5EA, 087C162E

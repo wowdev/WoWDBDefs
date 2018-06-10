@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-uint auraBattlePetAbilityID
-uint battlePetAbilityTurnID
-uint battlePetEffectPropertiesID
-uint battlePetVisualID
-uint orderIndex
+int auraBattlePetAbilityID
+int battlePetAbilityTurnID
+int battlePetEffectPropertiesID
+int battlePetVisualID
+int orderIndex
 int param
 
 BUILD 6.0.1.18179

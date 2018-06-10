@@ -8,7 +8,7 @@ float fadeInTime
 float fadeOutTime
 int flags
 float fresnelIntensity
-uint priority
+int priority
 int projectionType
 float ramp
 float scale
@@ -26,7 +26,7 @@ int field_1868687137
 float field_711161945
 int field_356540045
 int field_572956483
-uint field_1026005708
+int field_1026005708
 float field_1480532366
 
 LAYOUT 566413E7, C561A747

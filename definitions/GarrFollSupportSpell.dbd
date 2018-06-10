@@ -1,13 +1,13 @@
 COLUMNS
 int ID
 int allianceSpellID
-uint garrFollowerID
+int garrFollowerID
 int hordeSpellID
-uint orderIndex
+int orderIndex
 int field_1053376238?
 int field_1838711077?
 int field_1905686843?
-uint field_3219317051?
+int field_3219317051?
 
 LAYOUT B7DBA2D1
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

@@ -1,36 +1,36 @@
 COLUMNS
 int ID
-uint<Map::ID> ContinentID
-uint<AreaTable::ID> ParentAreaID
+int<Map::ID> ContinentID
+int<AreaTable::ID> ParentAreaID
 int AreaBit
 int flags
-uint<SoundProviderPreferences::ID> SoundProviderPref
-uint<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
-uint<SoundAmbience::ID> AmbienceID
-uint<ZoneMusic::ID> ZoneMusic
+int<SoundProviderPreferences::ID> SoundProviderPref
+int<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
+int<SoundAmbience::ID> AmbienceID
+int<ZoneMusic::ID> ZoneMusic
 string ZoneName
-uint<ZoneIntroMusicTable::ID> IntroSound
+int<ZoneIntroMusicTable::ID> IntroSound
 int ExplorationLevel
 locstring AreaName_lang
-uint factionGroupMask
-uint<LiquidType::ID> liquidTypeID
+int factionGroupMask
+int<LiquidType::ID> liquidTypeID
 float minElevation
 float ambient_multiplier
-uint<Light::ID> lightID
-uint mountFlags
-uint<ZoneIntroMusicTable::ID> uwIntroSound
-uint<ZoneMusic::ID> uwZoneMusic
-uint<SoundAmbience::ID> uwAmbience
-uint world_pvp_ID
+int<Light::ID> lightID
+int mountFlags
+int<ZoneIntroMusicTable::ID> uwIntroSound
+int<ZoneMusic::ID> uwZoneMusic
+int<SoundAmbience::ID> uwAmbience
+int world_pvp_ID
 int<WorldState::ID> pvpCombatWorldStateID
-uint wildBattlePetLevelMin
-uint wildBattlePetLevelMax
-uint<WindSettings::ID> windSettingsID
-uint AreaNumber // area  = (m_AreaNumber >> 16), subarea = (m_AreaNumber & 0xFFFF)
-uint<AreaTable::ID> ParentAreaNum
-uint MIDIAmbience
-uint MIDIAmbienceUnderwater
-uint IntroPriority
+int wildBattlePetLevelMin
+int wildBattlePetLevelMax
+int<WindSettings::ID> windSettingsID
+int AreaNumber // area  = (m_AreaNumber >> 16), subarea = (m_AreaNumber & 0xFFFF)
+int<AreaTable::ID> ParentAreaNum
+int MIDIAmbience
+int MIDIAmbienceUnderwater
+int IntroPriority
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-uint displayID
+int displayID
 locstring name_lang
-uint ownerID
-uint phaseGroupID
-uint phaseID
-uint phaseUseFlags
+int ownerID
+int phaseGroupID
+int phaseID
+int phaseUseFlags
 float pos
 int propValue
 float rot
 float scale
-uint typeID
-uint field_919378280
-uint field_2086491574
-uint field_1997246591
-uint field_1611906542
-uint field_1622611767
+int typeID
+int field_919378280
+int field_2086491574
+int field_1997246591
+int field_1611906542
+int field_1622611767
 
 BUILD 6.0.1.18179
 $id$ID<32>

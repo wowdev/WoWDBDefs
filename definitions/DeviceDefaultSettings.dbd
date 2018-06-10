@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-uint defaultSetting
-uint deviceID
-uint vendorID
-uint field_006249604
-uint field_1151143489
+int defaultSetting
+int deviceID
+int vendorID
+int field_006249604
+int field_1151143489
 
 BUILD 6.0.1.18179
 $id$ID<32>

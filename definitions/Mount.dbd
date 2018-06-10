@@ -1,19 +1,19 @@
 COLUMNS
-uint field_3697603851?
-uint field_3934891225?
-uint field_39571138?
+int field_3697603851?
+int field_3934891225?
+int field_39571138?
 string field_1962506131?
 string field_3318611924?
 string field_1377897649?
-uint field_268802801?
-uint field_1816521343?
+int field_268802801?
+int field_1816521343?
 int ID
 locstring description_lang
-uint flags
+int flags
 float mountFlyRideHeight
-uint mountTypeID
+int mountTypeID
 locstring name_lang
-uint playerConditionID
+int playerConditionID
 int sourceSpellID
 locstring sourceText_lang
 int sourceTypeEnum
@@ -22,11 +22,11 @@ locstring field_1525031046_lang
 locstring field_1643154841_lang
 locstring field_351958855_lang
 int field_1266199752
-uint field_2116322729
-uint field_1798842214
+int field_2116322729
+int field_1798842214
 int field_1070901753
 int field_2074008206
-uint field_1531797287
+int field_1531797287
 float field_091693059
 int field_446687516
 

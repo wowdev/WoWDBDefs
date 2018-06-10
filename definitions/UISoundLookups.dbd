@@ -1,6 +1,6 @@
 COLUMNS
-uint ID
-uint<SoundEntries::ID> SoundID
+int ID
+int<SoundEntries::ID> SoundID
 string SoundName
 
 BUILD 0.5.3.3368, 1.12.1.5875

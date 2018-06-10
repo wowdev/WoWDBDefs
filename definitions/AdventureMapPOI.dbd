@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-uint areaTableID
+int areaTableID
 locstring description_lang
-uint dungeonMapID
-uint lfgDungeonID
-uint playerConditionID
-uint questID
+int dungeonMapID
+int lfgDungeonID
+int playerConditionID
+int questID
 int rewardItemID
 locstring title_lang
 int type
-uint uiTextureAtlasMemberID
-uint uiTextureKitID
-uint worldMapAreaID
+int uiTextureAtlasMemberID
+int uiTextureKitID
+int worldMapAreaID
 float worldPosition
 int mapID
 

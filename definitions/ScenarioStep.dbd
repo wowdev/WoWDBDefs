@@ -1,29 +1,29 @@
 COLUMNS
 int ID
-uint criteriatreeID
-uint scenarioID
-uint orderIndex
+int criteriatreeID
+int scenarioID
+int orderIndex
 locstring description_lang
 locstring title_lang
-uint flags
+int flags
 int relatedStep
-uint supersedes
-uint rewardQuestID
-uint visibilityPlayerConditionID
+int supersedes
+int rewardQuestID
+int visibilityPlayerConditionID
 locstring field_2792711813_lang?
 locstring field_4013373207_lang?
-uint field_4254090452?
+int field_4254090452?
 locstring field_326865730_lang
 locstring field_1885425840_lang
-uint field_1096809552
-uint field_212820370
-uint field_1191908750
+int field_1096809552
+int field_212820370
+int field_1191908750
 int field_1690921234
-uint field_783009638
-uint field_1173742872
-uint field_944165578
-uint field_1847338773
-uint field_236697928
+int field_783009638
+int field_1173742872
+int field_944165578
+int field_1847338773
+int field_236697928
 
 BUILD 6.0.1.18179
 $id$ID<32>

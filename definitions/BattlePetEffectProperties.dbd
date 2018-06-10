@@ -1,8 +1,8 @@
 COLUMNS
 string paramLabel
-uint paramTypeEnum
+int paramTypeEnum
 int ID
-uint battlePetVisualID
+int battlePetVisualID
 
 BUILD 6.0.1.18179
 $id$ID<32>

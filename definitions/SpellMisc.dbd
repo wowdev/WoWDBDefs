@@ -1,16 +1,16 @@
 COLUMNS
 int ID
 int spellID
-uint difficultyID
+int difficultyID
 int attributes
-uint castingTimeIndex
-uint durationIndex
-uint rangeIndex
+int castingTimeIndex
+int durationIndex
+int rangeIndex
 float speed
-uint spellVisualID
-uint spellIconID
-uint activeIconID
-uint schoolMask
+int spellVisualID
+int spellIconID
+int activeIconID
+int schoolMask
 int activeIconFileDataID
 float launchDelay
 int spellIconFileDataID

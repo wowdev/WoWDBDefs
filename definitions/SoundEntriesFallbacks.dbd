@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
-uint soundEntriesID
-uint fallbackSoundEntriesID
+int ID
+int soundEntriesID
+int fallbackSoundEntriesID
 
 BUILD 6.0.1.18179
 $id$ID<32>

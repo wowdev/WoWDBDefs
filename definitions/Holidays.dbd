@@ -1,16 +1,16 @@
 COLUMNS
 int ID
-uint duration
-uint date
-uint region
-uint looping
-uint calendarFlags
-uint<HolidayNames::ID> holidayNameID
-uint<HolidayDescriptions::ID> holidayDescriptionID
+int duration
+int date
+int region
+int looping
+int calendarFlags
+int<HolidayNames::ID> holidayNameID
+int<HolidayDescriptions::ID> holidayDescriptionID
 string textureFilename
-uint priority
+int priority
 int calendarFilterType
-uint flags
+int flags
 int textureFileDataID
 
 BUILD 4.0.0.11792, 6.0.1.18179

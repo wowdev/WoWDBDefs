@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-uint parentWidgetID
-uint reqID
-uint sourceID
+int parentWidgetID
+int reqID
+int sourceID
 int sourceType
 
 LAYOUT 5C2251CD

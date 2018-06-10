@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-uint garrBuildingID
-uint garrSiteLevelPlotInstID
+int garrBuildingID
+int garrSiteLevelPlotInstID
 float mapOffset
-uint uiTextureAtlasMemberID
+int uiTextureAtlasMemberID
 float field_1637051864
 int field_717588051
-uint field_179521266
-uint field_1117881577
-uint field_1897964905
+int field_179521266
+int field_1117881577
+int field_1897964905
 
 LAYOUT F45B6227
 BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287

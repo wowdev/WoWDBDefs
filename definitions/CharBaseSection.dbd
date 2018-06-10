@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint fallbackID
-uint layoutResType
-uint resolutionVariationEnum
-uint variationEnum
+int fallbackID
+int layoutResType
+int resolutionVariationEnum
+int variationEnum
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint flags
+int flags
 float normalizedScale
 float orientationPitch
 float orientationRoll
@@ -12,7 +12,7 @@ int uiModelSceneID
 string field_1504476460
 float field_588962540
 int field_989554091
-uint field_1422881832
+int field_1422881832
 int field_2136445322
 float field_404349172
 float field_1116304096

@@ -1,24 +1,24 @@
 COLUMNS
 int ID
-uint Parent
-uint DefaultPriority
-uint DefaultPriorityPenalty
-uint RaidPriority
-uint RaidPriorityPenalty
+int Parent
+int DefaultPriority
+int DefaultPriorityPenalty
+int RaidPriority
+int RaidPriorityPenalty
 float DefaultVolume
 float RaidVolume
-uint DefaultPlaybackLimit
-uint RaidPlaybackLimit
+int DefaultPlaybackLimit
+int RaidPlaybackLimit
 int BusEnumID
-uint Flags
+int Flags
 int field_723666367
-uint field_205755238
-uint field_975778002
-uint field_1251695085
+int field_205755238
+int field_975778002
+int field_1251695085
 float field_834679002
-uint field_1881657465
+int field_1881657465
 int field_1463019375
-uint field_1171923260
+int field_1171923260
 
 BUILD 6.0.1.18179
 $id$ID<32>

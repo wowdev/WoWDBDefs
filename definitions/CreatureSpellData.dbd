@@ -1,7 +1,7 @@
 COLUMNS
-uint ID
-uint spells
-uint availability
+int ID
+int spells
+int availability
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>

@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint flags
-uint variable
+int flags
+int variable
 int op
 int value
-uint field_513612521
-uint field_1698738906
+int field_513612521
+int field_1698738906
 int field_892021696
 int field_1914646440
 

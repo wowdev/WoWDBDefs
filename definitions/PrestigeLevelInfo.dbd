@@ -1,18 +1,18 @@
 COLUMNS
 int ID
 int badgeTextureFileDataID
-uint flags
+int flags
 locstring name_lang
-uint prestigeLevel
+int prestigeLevel
 int field_1053376238?
 locstring field_1838711077_lang?
 int field_1874725257?
-uint field_1905686843?
+int field_1905686843?
 int field_3219317051?
 locstring field_065372841_lang
 int field_2066016471
 int field_1610208812
-uint field_1207277579
+int field_1207277579
 int field_1598122339
 
 LAYOUT A7B2D559, 101C7EF9

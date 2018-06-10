@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-uint type
+int type
 int param
 float coeff
-uint spellProcsPerMinuteID
-uint field_623194299
+int spellProcsPerMinuteID
+int field_623194299
 int field_523340001
 float field_647144651
-uint field_1696763903
+int field_1696763903
 
 BUILD 6.0.1.18179
 $id$ID<32>

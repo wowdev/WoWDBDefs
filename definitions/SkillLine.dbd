@@ -3,23 +3,23 @@ int ID
 int categoryID
 locstring displayName_lang
 locstring description_lang
-uint spellIconID
+int spellIconID
 locstring alternateVerb_lang
 int canLink
-uint parentSkillLineID
-uint flags
+int parentSkillLineID
+int flags
 locstring hordeDisplayName_lang
 int parentTierIndex
 int spellIconFileID
-uint skillCostsID
-uint raceMask
-uint classMask
-uint excludeRace
-uint excludeClass
-uint skillType // 0: Class, 1: Special, 2: Racial, 3: Primary Profession (Talent Tree), 4: Secondary Profession
-uint minCharLevel
-uint maxRank
-uint abandonable
+int skillCostsID
+int raceMask
+int classMask
+int excludeRace
+int excludeClass
+int skillType // 0: Class, 1: Special, 2: Racial, 3: Primary Profession (Talent Tree), 4: Secondary Profession
+int minCharLevel
+int maxRank
+int abandonable
 string neutralDisplayName
 locstring field_201830540_lang
 locstring field_1325187612_lang
@@ -30,9 +30,9 @@ int field_258761031
 int field_1397028014
 int field_1012798067
 int field_537225331
-uint field_1634475971
+int field_1634475971
 int field_2094832182
-uint field_1069689410
+int field_1069689410
 
 BUILD 6.0.1.18179
 $id$ID<32>

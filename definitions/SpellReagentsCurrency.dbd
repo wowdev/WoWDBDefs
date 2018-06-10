@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint currencyCount
-uint currencyTypesID
+int currencyCount
+int currencyTypesID
 int spellID
 
 LAYOUT 90A5E5D2, 4D3F01C6
