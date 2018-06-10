@@ -232,6 +232,15 @@ namespace DBDefsMerge
                                         // Override layoutHashes with new list
                                         tempVersion.layoutHashes = curLayouthashes.Distinct().ToArray();
 
+                                        for (var j = 0; j < versionDefinition2.definitions.Count(); j++)
+                                        {
+                                            // Merge signedness from second file if it is different from current
+                                            if (versionDefinition2.definitions[j].isSigned != tempVersion.definitions[j].isSigned)
+                                            {
+                                                tempVersion.definitions[j].isSigned = versionDefinition2.definitions[j].isSigned;
+                                            }
+                                        }
+
                                         // Override newVersion with temporary version object
                                         newVersions[i] = tempVersion;
                                     }
