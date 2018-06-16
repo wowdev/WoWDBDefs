@@ -487,7 +487,30 @@ namespace DBDefsDumper
 
                         if(field_sizes_in_file[i] != 1)
                         {
-                            writer.Write("[" + field_sizes_in_file[i] + "]");
+                            // 6.0.1 has sizes in bytes
+                            if (build.StartsWith("6.0.1"))
+                            {
+                                var supposedSize = 0;
+                                
+                                if((typeFlags.Item1 == "uint" || typeFlags.Item1 == "int") && typeFlags.Item2 != 32)
+                                {
+                                    supposedSize = typeFlags.Item2 / 8;
+                                }
+                                else
+                                {
+                                    supposedSize = 4;
+                                }
+
+                                var fixedSize = field_sizes_in_file[i] / supposedSize;
+                                if(fixedSize > 1)
+                                {
+                                    writer.Write("[" + fixedSize + "]");
+                                }
+                            }
+                            else
+                            {
+                                writer.Write("[" + field_sizes_in_file[i] + "]");
+                            }
                         }
 
                         writer.WriteLine();
