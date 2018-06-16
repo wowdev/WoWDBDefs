@@ -352,56 +352,23 @@ namespace DBDefsDumper
 
                     Console.Write("Writing " + meta.Key + ".dbd..");
 
-                    var field_offsets = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_offsets_offs);
-
-                    for (var i = 0; i < meta.Value.num_fields; i++)
+                    var fieldCount = 0;
+                    if(meta.Value.num_fields == 0 && meta.Value.num_fields_in_file != 0)
                     {
-                        field_offsets.Add(bin.ReadInt32());
+                        fieldCount = meta.Value.num_fields_in_file;
+                    }
+                    else
+                    {
+                        fieldCount = meta.Value.num_fields;
                     }
 
-                    var field_sizes = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_sizes_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_sizes.Add(bin.ReadInt32());
-                    }
-
-                    var field_types = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_types_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_types.Add(bin.ReadInt32());
-                    }
-
-                    var field_flags = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_flags_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_flags.Add(bin.ReadInt32());
-                    }
-
-                    var field_sizes_in_file = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_sizes_in_file_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_sizes_in_file.Add(bin.ReadInt32());
-                    }
-
-                    var field_types_in_file = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_types_in_file_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_types_in_file.Add(bin.ReadInt32());
-                    }
-
-                    // Read field flags in file
-                    var field_flags_in_file = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_flags_in_file_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_flags_in_file.Add(bin.ReadInt32());
-                    }
+                    var field_offsets = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_offsets_offs));
+                    var field_sizes = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_sizes_offs));
+                    var field_types = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_types_offs));
+                    var field_flags = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_flags_offs));
+                    var field_sizes_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_sizes_in_file_offs));
+                    var field_types_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_types_in_file_offs));
+                    var field_flags_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_flags_in_file_offs));
 
                     if (meta.Value.id_column == -1)
                     {
@@ -413,17 +380,24 @@ namespace DBDefsDumper
 
                     for(var i = 0; i < meta.Value.num_fields_in_file; i++)
                     {
-                        columnTypeFlags.Add(new Tuple<int, int>(field_types_in_file[i], field_flags_in_file[i]));
+                        if (field_flags_in_file.Count == 0)
+                        {
+                            columnTypeFlags.Add(new Tuple<int, int>(field_types_in_file[i], 0));
+                        }
+                        else
+                        {
+                            columnTypeFlags.Add(new Tuple<int, int>(field_types_in_file[i], field_flags_in_file[i]));
+                        }
                     }
 
-                    if (meta.Value.num_fields_in_file != meta.Value.num_fields)
+                    if (meta.Value.num_fields != 0 && (meta.Value.num_fields_in_file != meta.Value.num_fields))
                     {
                         columnTypeFlags.Add(new Tuple<int, int>(field_types[meta.Value.num_fields_in_file], field_flags[meta.Value.num_fields_in_file]));
                     }
 
                     for(var i = 0; i < columnTypeFlags.Count; i++)
                     {
-                        columnNames.Add("field_" + new Random().Next(1, int.MaxValue).ToString().PadLeft(9, '0'));
+                        columnNames.Add(GenerateName(i, meta.Value.layout_hash, build));
 
                         var t = TypeToT(columnTypeFlags[i].Item1, (FieldFlags)columnTypeFlags[i].Item2);
                         if(t.Item1 == "locstring")
@@ -445,7 +419,11 @@ namespace DBDefsDumper
 
                     writer.WriteLine();
 
-                    writer.WriteLine("LAYOUT " + meta.Value.layout_hash.ToString("X8").ToUpper());
+                    if(meta.Value.layout_hash != 0)
+                    {
+                        writer.WriteLine("LAYOUT " + meta.Value.layout_hash.ToString("X8").ToUpper());
+                    }
+
                     writer.WriteLine("BUILD " + build);
 
                     if(meta.Value.sparseTable == 1)
@@ -460,9 +438,18 @@ namespace DBDefsDumper
 
                     for (var i = 0; i < meta.Value.num_fields_in_file; i++)
                     {
-                        var typeFlags = TypeToT(field_types_in_file[i], (FieldFlags)field_flags_in_file[i]);
+                        var typeFlags = ("int", 32);
 
-                        if(meta.Value.id_column == i)
+                        if(field_flags_in_file.Count == 0)
+                        {
+                            typeFlags = TypeToT(field_types_in_file[i], 0);
+                        }
+                        else
+                        {
+                            typeFlags = TypeToT(field_types_in_file[i], (FieldFlags)field_flags_in_file[i]);
+                        }
+
+                        if (meta.Value.id_column == i)
                         {
                             writer.Write("$id$");
                         }
@@ -506,7 +493,7 @@ namespace DBDefsDumper
                         writer.WriteLine();
                     }
 
-                    if (meta.Value.num_fields_in_file != meta.Value.num_fields)
+                    if (meta.Value.num_fields != 0 && (meta.Value.num_fields_in_file != meta.Value.num_fields))
                     {
                         var i = meta.Value.num_fields_in_file;
                         var typeFlags = TypeToT(field_types[i], (FieldFlags)field_flags[i]);
@@ -544,6 +531,37 @@ namespace DBDefsDumper
             }
 
             Environment.Exit(0);
+        }
+
+        private static List<int> ReadFieldArray(BinaryReader bin, int fieldCount, long offset)
+        {
+            var returnList = new List<int>();
+
+            if(offset != 0)
+            {
+                bin.BaseStream.Position = offset;
+                for (var i = 0; i < fieldCount; i++)
+                {
+                    returnList.Add(bin.ReadInt32());
+                }
+            }
+
+            return returnList;
+        }
+
+        private static string GenerateName(int fieldIndex, int layoutHash, string build)
+        {
+            // TODO: This function should generate a name that is the same between dumps of the same build.
+            // We can base this off layoutHash in builds that have it, but need to figure something out for builds that don't.
+            // For now, just name them randomly.
+
+            if (layoutHash < 0)
+            {
+                layoutHash = layoutHash * -1;
+            }
+
+            //return "field_" + (layoutHash + fieldIndex).ToString().PadLeft(9, '0');
+            return "field_" + new Random().Next(1, int.MaxValue).ToString().PadLeft(9, '0');
         }
 
         private static DBMeta ReadMeta(BinaryReader bin, Pattern pattern)
