@@ -30,15 +30,15 @@ targetCreatureType<32>
 targets<32>
 
 LAYOUT 7B330026
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 coneDegrees
 width
 targets<32>
 targetCreatureType<16>
-difficultyID<8>
-maxTargets<8>
-maxTargetLevel<32>
+difficultyID<u8>
+maxTargets<u8>
+maxTargetLevel<u32>
 $noninline,relation$spellID<32>
 
 LAYOUT EF72A95C
@@ -54,12 +54,12 @@ maxTargetLevel<32>
 $noninline,relation$spellID<32>
 
 LAYOUT 47BE0E0C
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-field_010680921<8>
+field_010680921<u8>
 field_1444111586
-field_1949762298<8>
-field_1486613747<32>
+field_1949762298<u8>
+field_1486613747<u32>
 field_387221676<16>
 field_1092195468<32>
 field_022554470

@@ -18,10 +18,10 @@ maxLevel<32>
 flags<32>[5]
 
 LAYOUT 4291EEC6
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26287
 $noninline,id$ID<32>
 flags<32>[7]
-factionID<16>
+factionID<u16>
 expansionID<8>
 minLevel<8>
 maxLevel<8>
@@ -39,12 +39,12 @@ contentTuningID<32>
 $noninline,relation$creatureID<32>
 
 LAYOUT D344A642
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 expansionID<8>
 minLevel<8>
 maxLevel<8>
-factionID<16>
+factionID<u16>
 contentTuningID<32>
 flags<32>[7]
 $noninline,relation$creatureID<32>

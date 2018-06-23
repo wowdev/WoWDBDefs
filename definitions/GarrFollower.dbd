@@ -98,7 +98,7 @@ field_2382526395<32>
 field_2003574378<32>
 
 LAYOUT AAB75E04
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 hordeSourceText_lang
 allianceSourceText_lang
 titleName_lang
@@ -106,30 +106,30 @@ hordeCreatureID<32>
 allianceCreatureID<32>
 hordeIconFileDataID<32>
 allianceIconFileDataID<32>
-hordeSlottingBroadcastTextID<32>
-allySlottingBroadcastTextID<32>
-hordeGarrFollItemSetID<16>
-allianceGarrFollItemSetID<16>
-itemLevelWeapon<16>
-itemLevelArmor<16>
-hordeUITextureKitID<16>
-allianceUITextureKitID<16>
-garrFollowerTypeID<8>
-hordeGarrFollRaceID<8>
-allianceGarrFollRaceID<8>
-quality<8>
-hordeGarrClassSpecID<8>
-allianceGarrClassSpecID<8>
-followerLevel<8>
-gender<8>
-flags<8>
+hordeSlottingBroadcastTextID<u32>
+allySlottingBroadcastTextID<u32>
+hordeGarrFollItemSetID<u16>
+allianceGarrFollItemSetID<u16>
+itemLevelWeapon<u16>
+itemLevelArmor<u16>
+hordeUITextureKitID<u16>
+allianceUITextureKitID<u16>
+garrFollowerTypeID<u8>
+hordeGarrFollRaceID<u8>
+allianceGarrFollRaceID<u8>
+quality<u8>
+hordeGarrClassSpecID<u8>
+allianceGarrClassSpecID<u8>
+followerLevel<u8>
+gender<u8>
+flags<u8>
 hordeSourceTypeEnum<8>
 allianceSourceTypeEnum<8>
-garrTypeID<8>
-vitality<8>
-chrClassID<8>
-hordeFlavorGarrStringID<8>
-allianceFlavorGarrStringID<8>
+garrTypeID<u8>
+vitality<u8>
+chrClassID<u8>
+hordeFlavorGarrStringID<u8>
+allianceFlavorGarrStringID<u8>
 $id$ID<32>
 
 LAYOUT B3236709
@@ -168,36 +168,36 @@ gender<8>
 $id$ID<32>
 
 LAYOUT 7C5C19F1
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 field_1944523407_lang
 field_172290952_lang
 field_1474363347_lang
 $id$field_643377850<32>
-field_022818236<8>
-field_145902578<8>
+field_022818236<u8>
+field_145902578<u8>
 field_884228378<32>
 field_746346335<32>
-field_202761153<8>
-field_890092743<8>
-field_1807174230<8>
-field_1851567903<8>
-field_262541874<8>
-field_1004847425<8>
-field_1658589318<16>
-field_2138095063<16>
+field_202761153<u8>
+field_890092743<u8>
+field_1807174230<u8>
+field_1851567903<u8>
+field_262541874<u8>
+field_1004847425<u8>
+field_1658589318<u16>
+field_2138095063<u16>
 field_1066497781<8>
 field_949559497<8>
 field_350838725<32>
 field_1328681027<32>
-field_176560615<16>
-field_1881985665<16>
-field_1636225367<16>
-field_2141690275<16>
-field_2064047353<8>
-field_107705091<8>
-field_731664056<8>
-field_1813731286<32>
-field_1951484470<32>
-field_1920945990<8>
-field_1368512515<8>
-field_2001572246<8>
+field_176560615<u16>
+field_1881985665<u16>
+field_1636225367<u16>
+field_2141690275<u16>
+field_2064047353<u8>
+field_107705091<u8>
+field_731664056<u8>
+field_1813731286<u32>
+field_1951484470<u32>
+field_1920945990<u8>
+field_1368512515<u8>
+field_2001572246<u8>

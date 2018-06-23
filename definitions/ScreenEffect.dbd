@@ -40,20 +40,20 @@ timeOfDayOverride<32>
 effectMask<32>
 
 LAYOUT 4D5B91C5
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name
 param<32>[4]
-lightParamsID<16>
-lightParamsFadeIn<16>
-lightParamsFadeOut<16>
+lightParamsID<u16>
+lightParamsFadeIn<u16>
+lightParamsFadeOut<u16>
 timeOfDayOverride<16>
-effect<8>
-lightFlags<8>
+effect<u8>
+lightFlags<u8>
 effectMask<8>
-fullScreenEffectID<32>
-soundAmbienceID<32>
-zoneMusicID<32>
+fullScreenEffectID<u32>
+soundAmbienceID<u32>
+zoneMusicID<u32>
 
 BUILD 4.0.0.11792
 ID<32>
@@ -81,17 +81,17 @@ soundAmbienceID<32>
 zoneMusicID<32>
 
 LAYOUT 7A371491
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_1269480890
 field_1750976498<32>[4]
 field_116063179<8>
-field_1499892339<32>
-field_375001543<16>
-field_372725888<16>
-field_479966265<16>
-field_974125870<32>
-field_105040618<32>
+field_1499892339<u32>
+field_375001543<u16>
+field_372725888<u16>
+field_479966265<u16>
+field_974125870<u32>
+field_105040618<u32>
 field_1134347509<16>
 field_1036247916<8>
-field_1297086470<8>
+field_1297086470<u8>

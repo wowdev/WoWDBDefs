@@ -76,7 +76,7 @@ EAX3HFReference
 EAX3LFReference
 
 LAYOUT 85F218A4
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 Description
 EAXDecayTime
@@ -94,7 +94,7 @@ EAX3ModulationTime
 EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
-Flags<16>
+Flags<u16>
 EAX2Room<16>
 EAX2RoomHF<16>
 EAX2Reflections<16>
@@ -158,7 +158,7 @@ EAXEnvironmentSelection<8>
 EAX3RoomLF<8>
 
 LAYOUT F0F42A22
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_2078721128
 field_311590099<8>
@@ -182,4 +182,4 @@ field_500259066
 field_800931007
 field_279840348
 field_751826715
-field_086384110<16>
+field_086384110<u16>

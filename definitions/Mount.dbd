@@ -42,17 +42,17 @@ field_268802801<32>
 field_1816521343<32>
 
 LAYOUT 4D812F19
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 name_lang
 description_lang
 sourceText_lang
 sourceSpellID<32>
 mountFlyRideHeight
-mountTypeID<16>
-flags<16>
+mountTypeID<u16>
+flags<u16>
 sourceTypeEnum<8>
 $id$ID<32>
-playerConditionID<32>
+playerConditionID<u32>
 uiModelSceneID<32>
 
 LAYOUT ED5D6900
@@ -70,15 +70,15 @@ playerConditionID<32>
 uiModelSceneID<32>
 
 LAYOUT 629E87E2
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 field_1525031046_lang
 field_1643154841_lang
 field_351958855_lang
 $id$field_1266199752<32>
-field_2116322729<16>
-field_1798842214<16>
+field_2116322729<u16>
+field_1798842214<u16>
 field_1070901753<8>
 field_2074008206<32>
-field_1531797287<32>
+field_1531797287<u32>
 field_091693059
 field_446687516<32>

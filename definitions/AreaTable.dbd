@@ -62,31 +62,31 @@ wildBattlePetLevelMax<32>
 windSettingsID<32>
 
 LAYOUT 0CA01129
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 ZoneName
 AreaName_lang
 flags<32>[2]
 ambient_multiplier
-ContinentID<16>
-ParentAreaID<16>
+ContinentID<u16>
+ParentAreaID<u16>
 AreaBit<16>
-AmbienceID<16>
-ZoneMusic<16>
-IntroSound<16>
-liquidTypeID<16>[4]
-uwZoneMusic<16>
-uwAmbience<16>
+AmbienceID<u16>
+ZoneMusic<u16>
+IntroSound<u16>
+liquidTypeID<u16>[4]
+uwZoneMusic<u16>
+uwAmbience<u16>
 pvpCombatWorldStateID<16>
-SoundProviderPref<8>
-SoundProviderPrefUnderwater<8>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
 ExplorationLevel<8>
-factionGroupMask<8>
-mountFlags<8>
-wildBattlePetLevelMin<8>
-wildBattlePetLevelMax<8>
-windSettingsID<8>
-uwIntroSound<32>
+factionGroupMask<u8>
+mountFlags<u8>
+wildBattlePetLevelMin<u8>
+wildBattlePetLevelMax<u8>
+windSettingsID<u8>
+uwIntroSound<u32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -151,28 +151,28 @@ windSettingsID<8>
 uwIntroSound<32>
 
 LAYOUT 22229BE7
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 ZoneName
 AreaName_lang
-ContinentID<16>
-ParentAreaID<16>
+ContinentID<u16>
+ParentAreaID<u16>
 AreaBit<16>
-SoundProviderPref<8>
-SoundProviderPrefUnderwater<8>
-AmbienceID<16>
-uwAmbience<16>
-ZoneMusic<16>
-uwZoneMusic<16>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+AmbienceID<u16>
+uwAmbience<u16>
+ZoneMusic<u16>
+uwZoneMusic<u16>
 ExplorationLevel<8>
-IntroSound<16>
-uwIntroSound<32>
-factionGroupMask<8>
+IntroSound<u16>
+uwIntroSound<u32>
+factionGroupMask<u8>
 ambient_multiplier
-mountFlags<8>
+mountFlags<u8>
 pvpCombatWorldStateID<16>
-wildBattlePetLevelMin<8>
-wildBattlePetLevelMax<8>
-windSettingsID<8>
+wildBattlePetLevelMin<u8>
+wildBattlePetLevelMax<u8>
+windSettingsID<u8>
 flags<32>[2]
-liquidTypeID<16>[4]
+liquidTypeID<u16>[4]

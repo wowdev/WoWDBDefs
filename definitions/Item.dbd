@@ -40,16 +40,16 @@ field_3628018924<32>
 field_2427487154<32>
 
 LAYOUT 0DFCC83D
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 iconFileDataID<32>
-classID<8>
-subclassID<8>
+classID<u8>
+subclassID<u8>
 sound_override_subclassID<8>
-material<8>
-inventoryType<8>
-sheatheType<8>
-itemGroupSoundsID<8>
+material<u8>
+inventoryType<u8>
+sheatheType<u8>
+itemGroupSoundsID<u8>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -74,13 +74,13 @@ sound_override_subclassID<8>
 itemGroupSoundsID<8>
 
 LAYOUT F9600007
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-field_362441897<8>
-field_1992017063<8>
-field_2046887642<8>
+field_362441897<u8>
+field_1992017063<u8>
+field_2046887642<u8>
 field_1055164010<8>
-field_105420859<8>
+field_105420859<u8>
 field_2106147525<8>
 field_295986837<32>
-field_048575329<8>
+field_048575329<u8>

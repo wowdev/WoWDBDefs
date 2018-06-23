@@ -16,22 +16,22 @@ int uiSwatchColor
 int unlockPlayerConditionID
 
 LAYOUT AEED7395
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 name_lang
 uiSwatchColor<32>
 uiModelSaturation
 uiModelOpacity
-overrideShapeshiftDisplayID<32>
-$relation$artifactAppearanceSetID<16>
-uiCameraID<16>
-displayIndex<8>
-itemAppearanceModifierID<8>
-flags<8>
-overrideShapeshiftFormID<8>
+overrideShapeshiftDisplayID<u32>
+$relation$artifactAppearanceSetID<u16>
+uiCameraID<u16>
+displayIndex<u8>
+itemAppearanceModifierID<u8>
+flags<u8>
+overrideShapeshiftFormID<u8>
 $id$ID<32>
-unlockPlayerConditionID<32>
-uiItemAppearanceID<32>
-uiAltItemAppearanceID<32>
+unlockPlayerConditionID<u32>
+uiItemAppearanceID<u32>
+uiAltItemAppearanceID<u32>
 
 LAYOUT 0AA4B065
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -52,19 +52,19 @@ uiItemAppearanceID<32>
 uiAltItemAppearanceID<32>
 
 LAYOUT 330F75C9
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 name_lang
 $id$ID<32>
-$relation$artifactAppearanceSetID<16>
-displayIndex<8>
-unlockPlayerConditionID<32>
-itemAppearanceModifierID<8>
+$relation$artifactAppearanceSetID<u16>
+displayIndex<u8>
+unlockPlayerConditionID<u32>
+itemAppearanceModifierID<u8>
 uiSwatchColor<32>
 uiModelSaturation
 uiModelOpacity
-overrideShapeshiftFormID<8>
-overrideShapeshiftDisplayID<32>
-uiItemAppearanceID<32>
-uiAltItemAppearanceID<32>
-flags<8>
-uiCameraID<16>
+overrideShapeshiftFormID<u8>
+overrideShapeshiftDisplayID<u32>
+uiItemAppearanceID<u32>
+uiAltItemAppearanceID<u32>
+flags<u8>
+uiCameraID<u16>

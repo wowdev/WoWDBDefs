@@ -11,11 +11,11 @@ int field_1117881577
 int field_1897964905
 
 LAYOUT F45B6227
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 mapOffset[2]
-uiTextureAtlasMemberID<16>
-garrSiteLevelPlotInstID<16>
-$relation$garrBuildingID<8>
+uiTextureAtlasMemberID<u16>
+garrSiteLevelPlotInstID<u16>
+$relation$garrBuildingID<u8>
 $id$ID<32>
 
 LAYOUT 85B1F26D
@@ -27,9 +27,9 @@ $relation$garrBuildingID<8>
 $id$ID<32>
 
 LAYOUT FB61E627
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 field_1637051864[2]
 $id$field_717588051<32>
-$relation$field_179521266<8>
-field_1117881577<16>
-field_1897964905<16>
+$relation$field_179521266<u8>
+field_1117881577<u16>
+field_1897964905<u16>

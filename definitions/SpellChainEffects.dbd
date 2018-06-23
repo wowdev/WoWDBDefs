@@ -179,13 +179,13 @@ SpellChainEffectID<32>[11]
 Texture
 
 LAYOUT 4E8FF369, BC798B79
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
 AvgSegLen
 NoiseScale
 TexCoordScale
-SegDuration<32>
-Flags<32>
+SegDuration<u32>
+Flags<u32>
 JointOffsetRadius
 MinorJointScale
 MajorJointScale
@@ -220,26 +220,26 @@ textureCoordScaleU[3]
 textureCoordScaleV[3]
 textureRepeatLengthU[3]
 textureRepeatLengthV[3]
-textureParticleFileDataID<32>
+textureParticleFileDataID<u32>
 startWidth
 endWidth
 particleScaleMultiplier
 particleEmissionRateMultiplier
-SegDelay<16>
-JointCount<16>
-SpellChainEffectID<16>[11]
-widthScaleCurveID<16>
-JointsPerMinorJoint<8>
-MinorJointsPerMajorJoint<8>
-Alpha<8>
-Red<8>
-Green<8>
-Blue<8>
-BlendMode<8>
-RenderLayer<8>
-numFlipFramesU<8>
-numFlipFramesV<8>
-soundKitID<32>
+SegDelay<u16>
+JointCount<u16>
+SpellChainEffectID<u16>[11]
+widthScaleCurveID<u16>
+JointsPerMinorJoint<u8>
+MinorJointsPerMajorJoint<u8>
+Alpha<u8>
+Red<u8>
+Green<u8>
+Blue<u8>
+BlendMode<u8>
+RenderLayer<u8>
+numFlipFramesU<u8>
+numFlipFramesV<u8>
+soundKitID<u32>
 textureFileDataID<32>[3]
 
 BUILD 4.0.0.11792
@@ -353,18 +353,18 @@ SegDelay<32>
 Texture
 
 LAYOUT 461F9829
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_1429814486
 field_355380994
 field_1724567424
-field_1885592332<32>
-field_1417247768<16>
-field_1370383204<32>
-field_1386773895<16>
+field_1885592332<u32>
+field_1417247768<u16>
+field_1370383204<u32>
+field_1386773895<u16>
 field_964104065
-field_1391964646<8>
-field_2096391900<8>
+field_1391964646<u8>
+field_2096391900<u8>
 field_332351235
 field_395954789
 field_383483196
@@ -391,25 +391,25 @@ field_482483897
 field_842135654
 field_866322203
 field_2133272653
-field_1743545545<8>
-field_842379670<8>
-field_553550751<8>
-field_089512745<8>
-field_1807293970<8>
-field_729695617<8>
+field_1743545545<u8>
+field_842379670<u8>
+field_553550751<u8>
+field_089512745<u8>
+field_1807293970<u8>
+field_729695617<u8>
 field_913413778
 field_1430882550
 field_1837119290
-field_929594246<32>
+field_929594246<u32>
 field_1022434129
 field_1426528982
-field_1676015403<16>
-field_1987117970<8>
-field_1361315873<8>
-field_791969325<32>
+field_1676015403<u16>
+field_1987117970<u8>
+field_1361315873<u8>
+field_791969325<u32>
 field_2142614903
 field_267952464
-field_1591242191<16>[11]
+field_1591242191<u16>[11]
 field_952660940[3]
 field_138419707[3]
 field_1265940377[3]

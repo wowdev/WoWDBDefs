@@ -29,7 +29,7 @@ classification<32>
 startAnimState<32>
 
 LAYOUT CFB508A9
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name_lang
 nameAlt_lang
@@ -39,10 +39,10 @@ AlwaysItem<32>[3]
 mountCreatureID<32>
 displayID<32>[4]
 displayProbability[4]
-creatureType<8>
-creatureFamily<8>
-classification<8>
-startAnimState<8>
+creatureType<u8>
+creatureFamily<u8>
+classification<u8>
+startAnimState<u8>
 
 LAYOUT 2FC7F691
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
@@ -77,16 +77,16 @@ creatureType<8>
 startAnimState<8>
 
 LAYOUT 0D492BF3
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 name_lang
 nameAlt_lang
 title_lang
 titleAlt_lang
 classification<8>
-creatureType<8>
-creatureFamily<16>
-startAnimState<8>
+creatureType<u8>
+creatureFamily<u16>
+startAnimState<u8>
 displayID<32>[4]
 displayProbability[4]
 AlwaysItem<32>[3]

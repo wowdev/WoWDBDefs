@@ -67,7 +67,7 @@ vehicleUIIndicatorID<32>
 powerDisplayID<32>[3]
 
 LAYOUT 1606C582
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 flags<32>
 turnSpeed
@@ -81,11 +81,11 @@ cameraPitchOffset
 facingLimitRight
 facingLimitLeft
 cameraYawOffset
-seatID<16>[8]
-vehicleUIIndicatorID<16>
-powerDisplayID<16>[3]
-flagsB<8>
-uiLocomotionType<8>
+seatID<u16>[8]
+vehicleUIIndicatorID<u16>
+powerDisplayID<u16>[3]
+flagsB<u8>
+uiLocomotionType<u8>
 missileTargetingID<32>
 
 BUILD 4.0.0.11792
@@ -183,10 +183,10 @@ uiLocomotionType<8>
 missileTargetingID<32>
 
 LAYOUT 221A0252
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 flags<32>
-flagsB<8>
+flagsB<u8>
 turnSpeed
 pitchSpeed
 pitchMin
@@ -198,8 +198,8 @@ cameraPitchOffset
 facingLimitRight
 facingLimitLeft
 cameraYawOffset
-uiLocomotionType<8>
-vehicleUIIndicatorID<16>
+uiLocomotionType<u8>
+vehicleUIIndicatorID<u16>
 missileTargetingID<32>
-seatID<16>[8]
-powerDisplayID<16>[3]
+seatID<u16>[8]
+powerDisplayID<u16>[3]

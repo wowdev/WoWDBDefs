@@ -34,17 +34,17 @@ name_lang
 description_lang
 
 LAYOUT 1691CC3D
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 name_lang
 description_lang
 buttonFiledataID<32>
 buttonSmallFileDataID<32>
 backgroundFiledataID<32>
 loreFileDataID<32>
-mapID<16>
-areaID<16>
-orderIndex<8>
-flags<8>
+mapID<u16>
+areaID<u16>
+orderIndex<u8>
+flags<u8>
 $id$ID<32>
 
 LAYOUT 690E1D43
@@ -62,15 +62,15 @@ flags<8>
 $id$ID<32>
 
 LAYOUT BB10478F
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 field_822497326_lang
 field_1023276362_lang
 $id$field_2069350059<32>
-field_1056379070<16>
+field_1056379070<u16>
 field_1183527291<32>
 field_324120717<32>
 field_321046860<32>
 field_143652809<32>
-field_975634288<8>
-field_907090548<8>
-field_159345853<16>
+field_975634288<u8>
+field_907090548<u8>
+field_159345853<u16>

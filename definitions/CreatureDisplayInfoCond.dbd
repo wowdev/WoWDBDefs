@@ -17,7 +17,7 @@ int skinColorMask
 int textureVariationFileDataID
 
 LAYOUT 26CD44AB, A9983E2F
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
 raceMask<64>
 customOption0_Mask<32>[2]
@@ -25,28 +25,28 @@ customOption1_Mask<32>[2]
 customOption2_Mask<32>[2]
 orderIndex<8>
 gender<8>
-classMask<32>
-skinColorMask<32>
-hairColorMask<32>
-hairStyleMask<32>
-faceStyleMask<32>
-facialHairStyleMask<32>
+classMask<u32>
+skinColorMask<u32>
+hairColorMask<u32>
+hairStyleMask<u32>
+faceStyleMask<u32>
+facialHairStyleMask<u32>
 creatureModelDataID<32>
 textureVariationFileDataID<32>[3]
 $noninline,relation$creatureDisplayInfoID<32>
 
 LAYOUT 596B4605
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 raceMask<64>
 orderIndex<8>
 gender<8>
-classMask<32>
-skinColorMask<32>
-hairColorMask<32>
-hairStyleMask<32>
-faceStyleMask<32>
-facialHairStyleMask<32>
+classMask<u32>
+skinColorMask<u32>
+hairColorMask<u32>
+hairStyleMask<u32>
+faceStyleMask<u32>
+facialHairStyleMask<u32>
 creatureModelDataID<32>
 customOption0_Mask<32>[2]
 customOption1_Mask<32>[2]

@@ -185,9 +185,9 @@ implicitTarget<32>[2]
 $noninline,relation$spellID<32>
 
 LAYOUT 3244098B
-BUILD 7.3.5.26654
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899
 $id$ID<32>
-effect<32>
+effect<u32>
 effectBasePoints<32>
 effectIndex<32>
 effectAura<32>
@@ -213,16 +213,16 @@ resourceCoefficient
 groupSizeBasePointsCoefficient
 effectSpellClassMask<32>[4]
 effectMiscValue<32>[2]
-effectRadiusIndex<32>[2]
-implicitTarget<32>[2]
+effectRadiusIndex<u32>[2]
+implicitTarget<u32>[2]
 $noninline,relation$spellID<32>
 
 LAYOUT 803150B7
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_135298221<32>
 field_157618462<32>
-field_1302211163<32>
+field_1302211163<u32>
 field_1327373638
 field_523002286<32>
 field_2094009739<16>
@@ -244,7 +244,7 @@ field_657540167
 field_1818636851
 field_1897009060
 field_919538952<32>[2]
-field_175685415<32>[2]
+field_175685415<u32>[2]
 field_887765503<32>[4]
 field_1939665816<16>[2]
 $noninline,relation$field_1675666556<32>

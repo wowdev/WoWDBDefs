@@ -37,7 +37,7 @@ int field_361080785
 float field_475686098
 
 LAYOUT DD48C72A
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $id$ID<32>
 fileDataID<32>
 innerRadius
@@ -48,8 +48,8 @@ modX
 scale
 fadeIn
 fadeOut
-priority<8>
-blendMode<8>
+priority<u8>
+blendMode<u8>
 topTextureBlendSetID<32>
 botTextureBlendSetID<32>
 gameFlags<32>
@@ -98,7 +98,7 @@ gameFlags<32>
 casterDecalPropertiesID<32>
 
 LAYOUT B11F3B40
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $id$field_1020297537<32>
 field_1561486570<32>
 field_878942314<32>
@@ -112,8 +112,8 @@ field_364127495<32>
 field_566723034
 field_680493297
 field_491793517
-field_1755210345<8>
-field_734354115<8>
+field_1755210345<u8>
+field_734354115<u8>
 field_1121461069<32>
 field_361080785<32>
 field_475686098

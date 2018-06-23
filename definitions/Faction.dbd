@@ -103,7 +103,7 @@ friendshipRepID<8>
 flags<8>
 
 LAYOUT 6BFE8737
-BUILD 7.3.5.26654
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899
 reputationRaceMask<64>[4]
 name_lang
 description_lang
@@ -112,30 +112,30 @@ reputationBase<32>[4]
 parentFactionMod[2]
 reputationMax<32>[4]
 reputationIndex<16>
-reputationClassMask<16>[4]
-reputationFlags<16>[4]
-parentFactionID<16>
-paragonFactionID<16>
-parentFactionCap<8>[2]
-expansion<8>
-friendshipRepID<8>
-flags<8>
+reputationClassMask<u16>[4]
+reputationFlags<u16>[4]
+parentFactionID<u16>
+paragonFactionID<u16>
+parentFactionCap<u8>[2]
+expansion<u8>
+friendshipRepID<u8>
+flags<u8>
 
 LAYOUT 86FE2D69
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 reputationRaceMask<64>[4]
 name_lang
 description_lang
 $id$ID<32>
 reputationIndex<16>
-parentFactionID<16>
-expansion<8>
-friendshipRepID<8>
-flags<8>
-paragonFactionID<16>
+parentFactionID<u16>
+expansion<u8>
+friendshipRepID<u8>
+flags<u8>
+paragonFactionID<u16>
 reputationClassMask<16>[4]
-reputationFlags<16>[4]
+reputationFlags<u16>[4]
 reputationBase<32>[4]
 reputationMax<32>[4]
 parentFactionMod[2]
-parentFactionCap<8>[2]
+parentFactionCap<u8>[2]

@@ -81,29 +81,29 @@ relatedStep<32>
 visibilityPlayerConditionID<32>
 
 LAYOUT 201B0EFC
-BUILD 7.3.5.26654
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899
 $noninline,id$ID<32>
 description_lang
 title_lang
-$relation$scenarioID<16>
-supersedes<16>
-rewardQuestID<16>
-orderIndex<8>
-flags<8>
-criteriatreeID<32>
+$relation$scenarioID<u16>
+supersedes<u16>
+rewardQuestID<u16>
+orderIndex<u8>
+flags<u8>
+criteriatreeID<u32>
 relatedStep<32>
 
 LAYOUT 8FF5E1E6
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_326865730_lang
 field_1885425840_lang
-$relation$field_1096809552<16>
-field_212820370<32>
-field_1191908750<16>
+$relation$field_1096809552<u16>
+field_212820370<u32>
+field_1191908750<u16>
 field_1690921234<32>
-field_783009638<16>
-field_1173742872<8>
-field_944165578<8>
-field_1847338773<32>
-field_236697928<16>
+field_783009638<u16>
+field_1173742872<u8>
+field_944165578<u8>
+field_1847338773<u32>
+field_236697928<u16>

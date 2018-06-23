@@ -54,7 +54,7 @@ int field_163350789
 int field_775554925
 
 LAYOUT F568DF12
-BUILD 7.3.5.26654, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 BUILD 8.0.1.25902-8.0.1.26095
 BUILD 7.3.5.25600-7.3.5.25928
 $noninline,id$ID<32>
@@ -67,18 +67,18 @@ PvpLongDescription_lang
 Flags<32>[2]
 minimapIconScale
 corpse[2]
-areaTableID<16>
+areaTableID<u16>
 LoadingScreenID<16>
 corpseMapID<16>
 timeOfDayOverride<16>
 parentMapID<16>
 cosmeticParentMapID<16>
 WindSettingsID<16>
-InstanceType<8>
-MapType<8>
-expansionID<8>
-maxPlayers<8>
-timeOffset<8>
+InstanceType<u8>
+MapType<u8>
+expansionID<u8>
+maxPlayers<u8>
+timeOffset<u8>
 
 LAYOUT C34CD39B, AFAFB470, A37A2830
 BUILD 7.3.2.25135-7.3.2.25549
@@ -350,7 +350,7 @@ timeOffset<8>
 maxPlayers<8>
 
 LAYOUT 503A3E58
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 Directory
 MapName_lang
@@ -359,18 +359,18 @@ MapDescription1_lang
 PvpShortDescription_lang
 PvpLongDescription_lang
 corpse[2]
-field_2090129712<8>
+field_2090129712<u8>
 field_1778819221<8>
-field_399808840<8>
-field_546616973<16>
+field_399808840<u8>
+field_546616973<u16>
 field_539990556<16>
 field_1045699054<16>
 field_1018945417<16>
 field_211416088<16>
-field_1681684665<8>
+field_1681684665<u8>
 field_1881958792
 field_1538714857<16>
-field_1857385420<8>
+field_1857385420<u8>
 field_163350789<16>
 field_775554925<32>
 Flags<32>[2]

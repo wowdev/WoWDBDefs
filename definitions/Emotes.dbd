@@ -30,17 +30,17 @@ EventSoundID<32>
 SpellVisualKitID<32>
 
 LAYOUT 14467F27
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 raceMask<64>
 EmoteSlashCommand
-EmoteFlags<32>
-SpellVisualKitID<32>
+EmoteFlags<u32>
+SpellVisualKitID<u32>
 AnimID<16>
-EmoteSpecProc<8>
+EmoteSpecProc<u8>
 classMask<32>
-EmoteSpecProcParam<32>
-EventSoundID<32>
+EmoteSpecProcParam<u32>
+EventSoundID<u32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -72,14 +72,14 @@ EventSoundID<32>
 classMask<32>
 
 LAYOUT A909E182
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_1338640157<64>
 EmoteSlashCommand
 field_029937861<32>
-field_443310326<32>
-field_765949197<8>
-field_1461514162<32>
-field_987298305<32>
-field_1293227351<32>
+field_443310326<u32>
+field_765949197<u8>
+field_1461514162<u32>
+field_987298305<u32>
+field_1293227351<u32>
 field_088129167<32>

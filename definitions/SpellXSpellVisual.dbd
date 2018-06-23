@@ -27,19 +27,19 @@ int field_559086916
 int field_993580677
 
 LAYOUT 4F4B8A2A
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-spellVisualID<32>
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+spellVisualID<u32>
 $id$ID<32>
 probability
-casterPlayerConditionID<16>
-casterUnitConditionID<16>
-viewerPlayerConditionID<16>
-viewerUnitConditionID<16>
+casterPlayerConditionID<u16>
+casterUnitConditionID<u16>
+viewerPlayerConditionID<u16>
+viewerUnitConditionID<u16>
 spellIconFileID<32>
 activeIconFileID<32>
-flags<8>
-difficultyID<8>
-priority<8>
+flags<u8>
+difficultyID<u8>
+priority<u8>
 $noninline,relation$spellID<32>
 
 LAYOUT EFCEFD14
@@ -75,17 +75,17 @@ casterPlayerConditionID<32>
 $noninline,relation$spellID<32>
 
 LAYOUT CDAF2854
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $id$field_744429169<32>
-field_025058462<8>
-field_795325320<32>
+field_025058462<u8>
+field_795325320<u32>
 field_1056705739
-field_478084256<8>
-field_1795564365<8>
+field_478084256<u8>
+field_1795564365<u8>
 field_204015201<32>
 field_1885988250<32>
-field_947231085<16>
-field_064611760<32>
-field_1255902678<16>
-field_559086916<32>
+field_947231085<u16>
+field_064611760<u32>
+field_1255902678<u16>
+field_559086916<u32>
 $noninline,relation$field_993580677<32>

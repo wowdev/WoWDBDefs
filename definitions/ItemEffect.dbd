@@ -31,15 +31,15 @@ spellCategoryID<32>
 categoryCoolDownMSec<32>
 
 LAYOUT A390FA40
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 spellID<32>
 coolDownMSec<32>
 categoryCoolDownMSec<32>
 charges<16>
-spellCategoryID<16>
-chrSpecializationID<16>
-legacySlotIndex<8>
+spellCategoryID<u16>
+chrSpecializationID<u16>
+legacySlotIndex<u8>
 triggerType<8>
 $noninline,relation$parentItemID<32>
 
@@ -57,14 +57,14 @@ triggerType<8>
 $noninline,relation$parentItemID<32>
 
 LAYOUT 46818AA6
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-field_1831450437<8>
+field_1831450437<u8>
 field_755080547<8>
 field_1243253202<16>
 field_631169851<32>
 field_591825773<32>
-field_1586381621<16>
+field_1586381621<u16>
 field_2019473478<32>
-field_1205279725<16>
+field_1205279725<u16>
 $noninline,relation$field_1541932278<32>

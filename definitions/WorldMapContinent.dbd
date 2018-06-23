@@ -32,19 +32,19 @@ taxiMax[2]
 worldMapID<32>
 
 LAYOUT 8F75E077, E30D772B
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
 continentOffset[2]
 scale
 taxiMin[2]
 taxiMax[2]
 mapID<16>
-worldMapID<16>
-leftBoundary<8>
-rightBoundary<8>
-topBoundary<8>
-bottomBoundary<8>
-flags<8>
+worldMapID<u16>
+leftBoundary<u8>
+rightBoundary<u8>
+topBoundary<u8>
+bottomBoundary<u8>
+flags<u8>
 
 BUILD 4.0.0.11792
 $id$ID<32>

@@ -97,7 +97,7 @@ HighResFemaleDisplayID<32>
 charComponentTexLayoutHiResID<32>
 
 LAYOUT 51C511F9
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26287
 ClientPrefix
 clientFileString
 name_lang
@@ -105,8 +105,8 @@ name_female_lang
 name_lowercase_lang
 name_female_lowercase_lang
 flags<32>
-MaleDisplayID<32>
-FemaleDisplayID<32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
 createScreenFileDataID<32>
 selectScreenFileDataID<32>
 maleCustomizeOffset[3]
@@ -129,13 +129,13 @@ neutralRaceID<8>
 displayRaceID<8>
 charComponentTexLayoutHiResID<8>
 $id$ID<32>
-HighResMaleDisplayID<32>
-HighResFemaleDisplayID<32>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
 heritageArmorAchievementID<32>
 maleSkeletonFileDataID<32>
 femaleSkeletonFileDataID<32>
-alteredFormStartVisualKitID<32>[3]
-alteredFormFinishVisualKitID<32>[3]
+alteredFormStartVisualKitID<u32>[3]
+alteredFormFinishVisualKitID<u32>[3]
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -426,7 +426,7 @@ alteredFormStartVisualKitID<32>[3]
 alteredFormFinishVisualKitID<32>[3]
 
 LAYOUT C8BCDC89
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 ClientPrefix
 clientFileString
 name_lang
@@ -435,17 +435,17 @@ name_lowercase_lang
 name_female_lowercase_lang
 $id$ID<32>
 flags<32>
-MaleDisplayID<32>
-FemaleDisplayID<32>
-HighResMaleDisplayID<32>
-HighResFemaleDisplayID<32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
 createScreenFileDataID<32>
 selectScreenFileDataID<32>
 maleCustomizeOffset[3]
 femaleCustomizeOffset[3]
 lowResScreenFileDataID<32>
-alteredFormStartVisualKitID<32>[3]
-alteredFormFinishVisualKitID<32>[3]
+alteredFormStartVisualKitID<u32>[3]
+alteredFormFinishVisualKitID<u32>[3]
 heritageArmorAchievementID<32>
 startingLevel<32>
 uiDisplayOrder<32>

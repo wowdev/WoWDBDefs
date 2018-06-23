@@ -23,6 +23,14 @@ int field_164398671
 int field_808270932
 int field_1935083011
 int field_1053907683
+locstring field_539936571_lang
+int field_226340592
+int field_840028015
+int field_260209074
+int field_447437694
+int field_722818556
+int field_1844051531
+int field_1373243932
 
 LAYOUT 070D6F9D
 BUILD 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
@@ -58,3 +66,15 @@ field_164398671<32>
 $relation$field_808270932<8>
 field_1935083011<8>
 field_1053907683<32>
+
+LAYOUT 689983C8
+BUILD 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
+$noninline,id$ID<32>
+field_539936571_lang
+field_226340592<16>
+field_840028015<16>
+field_260209074<32>
+field_447437694<32>
+$relation$field_722818556<8>
+field_1844051531<8>
+field_1373243932<32>

@@ -35,7 +35,7 @@ maxBuffs<32>
 primaryStatOrder<32>[3]
 
 LAYOUT 3D86B8F7
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 name_lang
 femaleName_lang
 description_lang
@@ -47,7 +47,7 @@ role<8>
 primaryStatPriority<8>
 $id$ID<32>
 spellIconFileID<32>
-flags<32>
+flags<u32>
 animReplacements<32>
 
 LAYOUT 2ADA8045
@@ -67,7 +67,7 @@ spellIconFileID<32>
 animReplacements<32>
 
 LAYOUT FF9DD5DD
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 name_lang
 femaleName_lang
 description_lang
@@ -76,7 +76,7 @@ $relation$classID<8>
 orderIndex<8>
 petTalentType<8>
 role<8>
-flags<32>
+flags<u32>
 spellIconFileID<32>
 primaryStatPriority<8>
 animReplacements<32>

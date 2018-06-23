@@ -101,7 +101,7 @@ creatureGeosetDataID<32>
 hoverHeight
 
 LAYOUT 983BD312
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 modelScale
 footprintTextureLength
@@ -121,16 +121,16 @@ overrideNameScale
 overrideSelectionRadius
 tamedPetBaseScale
 hoverHeight
-flags<32>
-fileDataID<32>
-sizeClass<32>
-bloodID<32>
-footprintTextureID<32>
-foleyMaterialID<32>
-footstepCameraEffectID<32>
-deathThudCameraEffectID<32>
-soundID<32>
-creatureGeosetDataID<32>
+flags<u32>
+fileDataID<u32>
+sizeClass<u32>
+bloodID<u32>
+footprintTextureID<u32>
+foleyMaterialID<u32>
+footstepCameraEffectID<u32>
+deathThudCameraEffectID<u32>
+soundID<u32>
+creatureGeosetDataID<u32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -239,25 +239,25 @@ sizeClass<32>
 creatureGeosetDataID<32>
 
 LAYOUT F61D550A
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 geoBox[6]
-field_1659896616<32>
-field_1265991841<32>
-field_1282362854<32>
-field_2022550525<32>
+field_1659896616<u32>
+field_1265991841<u32>
+field_1282362854<u32>
+field_2022550525<u32>
 field_160520995
 field_2120734479
 field_2133722891
-field_1550756534<32>
-field_1927371887<32>
-field_1676690115<32>
-field_1590113217<32>
-field_101826363<32>
+field_1550756534<u32>
+field_1927371887<u32>
+field_1676690115<u32>
+field_1590113217<u32>
+field_101826363<u32>
 field_104622856
 field_1706531492
 field_1458340937
-field_1668083978<32>
+field_1668083978<u32>
 field_1851265124
 field_646463467
 field_681975668

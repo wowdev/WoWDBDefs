@@ -23,6 +23,20 @@ int field_213619813
 int field_991276813
 float field_1074583245
 int field_1361650732
+locstring field_670657345_lang
+float field_1470259960
+float field_959632948
+float field_1559469990
+int field_769655823
+int field_1311817108
+int field_2029197564
+int field_1850824109
+int field_754767089
+int field_014529966
+float field_1362126764
+int field_508286136
+int field_1138164662
+int field_1844406007
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -35,7 +49,7 @@ Flags<32>
 MapOffset[2]
 
 LAYOUT B46C6A8B, E96BA283
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
 Name_lang
 pos[3]
@@ -43,12 +57,12 @@ MountCreatureID<32>[2]
 MapOffset[2]
 facing
 flightMapOffset[2]
-ContinentID<16>
-conditionID<16>
-characterBitNumber<16>
-Flags<8>
+ContinentID<u16>
+conditionID<u16>
+characterBitNumber<u16>
+Flags<u8>
 uiTextureKitID<32>
-specialIconConditionID<32>
+specialIconConditionID<u32>
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
 $id$ID<32>
@@ -98,3 +112,20 @@ field_991276813<32>
 field_1074583245
 field_1361650732<32>
 MountCreatureID<32>[2]
+
+LAYOUT 91ADBF11
+BUILD 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
+field_670657345_lang
+field_1470259960[3]
+field_959632948[2]
+field_1559469990[2]
+$id$field_769655823<32>
+$relation$field_1311817108<u16>
+field_2029197564<u16>
+field_1850824109<u16>
+field_754767089<u8>
+field_014529966<32>
+field_1362126764
+field_508286136<u32>
+field_1138164662<u32>
+field_1844406007<32>[2]

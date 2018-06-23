@@ -37,18 +37,18 @@ mountTypeID<32>
 exitSoundEntriesID<32>
 
 LAYOUT 130819AF
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name_lang
 damageVariance
 flags<32>
 combatRoundTime<16>
-mountTypeID<16>
+mountTypeID<u16>
 creatureType<8>
 bonusActionBar<8>
 attackIconFileID<32>
-creatureDisplayID<32>[4]
-presetSpellID<32>[8]
+creatureDisplayID<u32>[4]
+presetSpellID<u32>[8]
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -82,7 +82,7 @@ creatureDisplayID<32>[4]
 presetSpellID<32>[8]
 
 LAYOUT 7082136E
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_911356844_lang
 field_1096288927<8>
@@ -91,6 +91,6 @@ field_970156193<32>
 field_1524677815<8>
 field_100563675<16>
 field_683652071
-field_715036656<16>
-field_788622153<32>[4]
-field_987733738<32>[8]
+field_715036656<u16>
+field_788622153<u32>[4]
+field_987733738<u32>[8]

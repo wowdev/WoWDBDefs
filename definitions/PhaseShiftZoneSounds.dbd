@@ -44,35 +44,35 @@ UWSoundAmbienceID<32>
 UWSoundProviderPreferencesID<32>
 
 LAYOUT 85ACB830, 226766FC
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-AreaID<16>
-PhaseID<16>
-PhaseGroupID<16>
-SoundAmbienceID<16>
-UWSoundAmbienceID<16>
-WMOAreaID<8>
-PhaseUseFlags<8>
-SoundProviderPreferencesID<8>
-UWSoundProviderPreferencesID<8>
-ZoneIntroMusicID<32>
-ZoneMusicID<32>
-UWZoneIntroMusicID<32>
-UWZoneMusicID<32>
+AreaID<u16>
+PhaseID<u16>
+PhaseGroupID<u16>
+SoundAmbienceID<u16>
+UWSoundAmbienceID<u16>
+WMOAreaID<u8>
+PhaseUseFlags<u8>
+SoundProviderPreferencesID<u8>
+UWSoundProviderPreferencesID<u8>
+ZoneIntroMusicID<u32>
+ZoneMusicID<u32>
+UWZoneIntroMusicID<u32>
+UWZoneMusicID<u32>
 
 LAYOUT 7CA0A010
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-field_934931999<16>
-field_1134599830<8>
-field_1247325501<16>
-field_1769228136<16>
-field_233322593<8>
-field_1538045756<32>
-field_952892871<32>
-field_1532217789<16>
-field_1182718599<8>
-field_196232523<32>
-field_1494611163<32>
-field_366446015<16>
-field_570191532<8>
+field_934931999<u16>
+field_1134599830<u8>
+field_1247325501<u16>
+field_1769228136<u16>
+field_233322593<u8>
+field_1538045756<u32>
+field_952892871<u32>
+field_1532217789<u16>
+field_1182718599<u8>
+field_196232523<u32>
+field_1494611163<u32>
+field_366446015<u16>
+field_570191532<u8>

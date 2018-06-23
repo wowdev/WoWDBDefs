@@ -5,11 +5,18 @@ int garrTypeID
 int maxTiers
 int uiOrder
 int uiTextureKitID
+locstring field_522717294_lang
+int field_517511507
+int field_564371032
+int field_325335067
+int field_609266034
+int field_905503707
+int field_207375391
 
 LAYOUT 676CBC04
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-uiTextureKitID<16>
+uiTextureKitID<u16>
 maxTiers<8>
 uiOrder<8>
 classID<32>
@@ -25,10 +32,21 @@ garrTypeID<32>
 classID<32>
 
 LAYOUT BEDA4FAE
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838
 $noninline,id$ID<32>
 garrTypeID<32>
 classID<32>
 maxTiers<8>
 uiOrder<8>
-uiTextureKitID<16>
+uiTextureKitID<u16>
+
+LAYOUT 9A3BC97D
+BUILD 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
+$noninline,id$ID<32>
+field_522717294_lang
+field_517511507<32>
+field_564371032<32>
+field_325335067<8>
+field_609266034<8>
+field_905503707<8>
+field_207375391<u16>

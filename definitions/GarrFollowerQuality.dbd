@@ -16,15 +16,15 @@ int field_173811949
 int field_1043860659
 
 LAYOUT AFF4CF7E
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-xpToNextQuality<32>
-shipmentXP<16>
-quality<8>
-abilityCount<8>
-traitCount<8>
-garrFollowerTypeID<8>
-classSpecID<32>
+xpToNextQuality<u32>
+shipmentXP<u16>
+quality<u8>
+abilityCount<u8>
+traitCount<u8>
+garrFollowerTypeID<u8>
+classSpecID<u32>
 
 LAYOUT 89EB5182
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -38,12 +38,12 @@ traitCount<8>
 classSpecID<32>
 
 LAYOUT CAE87042
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-field_2043461560<8>
-field_188985183<32>
-field_079754764<8>
-field_1346352265<8>
-field_1009787335<8>
-field_173811949<16>
-field_1043860659<32>
+field_2043461560<u8>
+field_188985183<u32>
+field_079754764<u8>
+field_1346352265<u8>
+field_1009787335<u8>
+field_173811949<u16>
+field_1043860659<u32>

@@ -27,14 +27,14 @@ orderIndex<32>
 padding_2173460021<8>[4]
 
 LAYOUT 0A1B99C2
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 description_lang
 amount<32>
 flags<16>
 operator<8>
-criteriaID<32>
-parent<32>
+criteriaID<u32>
+parent<u32>
 orderIndex<32>
 
 LAYOUT FE8A051B, EBFD8438
@@ -49,12 +49,12 @@ criteriaID<32>
 orderIndex<32>
 
 LAYOUT C926CF94
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 description_lang
-field_706277248<32>
-field_1923724993<32>
+field_706277248<u32>
+field_1923724993<u32>
 field_125683716<8>
-field_1490704081<32>
+field_1490704081<u32>
 field_1304622202<32>
 field_149880781<16>

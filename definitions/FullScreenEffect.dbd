@@ -58,7 +58,7 @@ int field_1944949446
 int field_1395404910
 
 LAYOUT 5CBF1D1B
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 saturation
 gammaRed
@@ -83,10 +83,10 @@ blurIntensity
 blurOffsetY
 blurMultiplier
 blurPower
-flags<32>
-textureBlendSetID<32>
-effectFadeInMs<32>
-effectFadeOutMs<32>
+flags<u32>
+textureBlendSetID<u32>
+effectFadeInMs<u32>
+effectFadeOutMs<u32>
 
 LAYOUT 85B3706F
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
@@ -152,9 +152,9 @@ effectFadeOutMs<32>
 textureBlendSetID<32>
 
 LAYOUT 9854A6AC
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-field_915543385<32>
+field_915543385<u32>
 field_1772050694
 field_056977920
 field_415021573
@@ -179,6 +179,6 @@ field_765339235
 field_125616848
 field_253757263
 field_1281304019
-field_955905821<32>
-field_1944949446<32>
-field_1395404910<32>
+field_955905821<u32>
+field_1944949446<u32>
+field_1395404910<u32>

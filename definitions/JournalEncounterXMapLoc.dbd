@@ -14,10 +14,10 @@ int field_458196389
 int field_245455957
 
 LAYOUT 430540E4, E7EC7104
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
 map[2]
-flags<8>
+flags<u8>
 journalEncounterID<32>
 dungeonMapID<32>
 mapDisplayConditionID<32>
@@ -33,10 +33,10 @@ mapDisplayConditionID<32>
 $noninline,relation$uiMapID<32>
 
 LAYOUT BCE56697
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_594457038[2]
 field_290057313<32>
 field_1841575021<32>
-field_458196389<8>
+field_458196389<u8>
 $noninline,relation$field_245455957<32>

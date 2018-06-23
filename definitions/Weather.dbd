@@ -170,7 +170,7 @@ volumeFlags<32>
 lightningID<32>
 
 LAYOUT 7C160B07
-BUILD 7.3.5.26654
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899
 $noninline,id$ID<32>
 intensity[2]
 transitionSkyBox
@@ -180,23 +180,23 @@ volatility
 twinkleIntensity
 fallModifier
 rotationalSpeed
-soundAmbienceID<16>
-type<8>
-effectType<8>
-windSettingsID<8>
-ambienceID<32>
+soundAmbienceID<u16>
+type<u8>
+effectType<u8>
+windSettingsID<u8>
+ambienceID<u32>
 effectTextureFileDataID<32>
 
 LAYOUT 784E91E0
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-field_717348174<8>
+field_717348174<u8>
 field_1120222978
-field_1500732071<32>
-field_289505266<16>
-field_1948425555<8>
+field_1500732071<u32>
+field_289505266<u16>
+field_1948425555<u8>
 field_555766786<32>
-field_1725044172<8>
+field_1725044172<u8>
 field_1976809273
 field_1940229071
 field_1084837074

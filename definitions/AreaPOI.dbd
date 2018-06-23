@@ -147,41 +147,41 @@ uiTextureAtlasMemberID<32>
 WMOGroupID<32>
 
 LAYOUT B161EE90
-BUILD 7.3.5.26654
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899
 $noninline,id$ID<32>
 name_lang
 description_lang
-flags<32>
+flags<u32>
 pos[3]
 poiDataType<32>
 poiData<32>
-$relation$continentID<16>
+$relation$continentID<u16>
 areaID<16>
-worldStateID<16>
-portLocID<16>
-importance<8>
-icon<8>
-playerConditionID<32>
-uiTextureAtlasMemberID<32>
+worldStateID<u16>
+portLocID<u16>
+importance<u8>
+icon<u8>
+playerConditionID<u32>
+uiTextureAtlasMemberID<u32>
 mapFloor<32>
 WMOGroupID<32>
 
 LAYOUT 34D56581
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 name_lang
 description_lang
 $id$ID<32>
 pos[3]
 portLocID<32>
-playerConditionID<32>
-uiTextureAtlasMemberID<32>
-flags<32>
+playerConditionID<u32>
+uiTextureAtlasMemberID<u32>
+flags<u32>
 WMOGroupID<32>
 poiDataType<32>
 poiData<32>
-$relation$continentID<16>
+$relation$continentID<u16>
 areaID<16>
-worldStateID<16>
-uiWidgetParentSetID<16>
-importance<8>
-icon<8>
+worldStateID<u16>
+uiWidgetParentSetID<u16>
+importance<u8>
+icon<u8>

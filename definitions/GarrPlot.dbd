@@ -20,15 +20,15 @@ name
 upgradeRequirement<32>[2]
 
 LAYOUT E12049E0
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name
 allianceConstructObjID<32>
 hordeConstructObjID<32>
-uiCategoryID<8>
-plotType<8>
-flags<8>
-upgradeRequirement<32>[2]
+uiCategoryID<u8>
+plotType<u8>
+flags<u8>
+upgradeRequirement<u32>[2]
 
 LAYOUT 335AAA94
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -42,12 +42,12 @@ uiCategoryID<8>
 upgradeRequirement<32>[2]
 
 LAYOUT 3897880E
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 name
-plotType<8>
+plotType<u8>
 hordeConstructObjID<32>
 allianceConstructObjID<32>
-flags<8>
-uiCategoryID<8>
-upgradeRequirement<32>[2]
+flags<u8>
+uiCategoryID<u8>
+upgradeRequirement<u32>[2]

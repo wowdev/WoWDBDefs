@@ -22,17 +22,17 @@ spellID<32>
 dummyItemID<32>
 
 LAYOUT E6D3C7C1
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-treasureID<32>
-duration<32>
+treasureID<u32>
+duration<u32>
 spellID<32>
 dummyItemID<32>
 onCompleteSpellID<32>
-$relation$containerID<16>
-garrFollowerID<16>
-maxShipments<8>
-flags<8>
+$relation$containerID<u16>
+garrFollowerID<u16>
+maxShipments<u8>
+flags<u8>
 
 LAYOUT 8FCBB613
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -48,14 +48,14 @@ maxShipments<8>
 flags<8>
 
 LAYOUT D47EC921
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-$relation$containerID<16>
+$relation$containerID<u16>
 dummyItemID<32>
-treasureID<32>
+treasureID<u32>
 spellID<32>
 onCompleteSpellID<32>
-duration<32>
-maxShipments<8>
-garrFollowerID<16>
-flags<8>
+duration<u32>
+maxShipments<u8>
+garrFollowerID<u16>
+flags<u8>

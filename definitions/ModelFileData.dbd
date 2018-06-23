@@ -16,14 +16,14 @@ $id$fileDataID<32>
 $relation$modelResourcesID<32>
 
 LAYOUT A395EB50
-BUILD 7.3.5.26654
-lodCount<8>
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899
+lodCount<u8>
 $id$fileDataID<32>
-$relation$modelResourcesID<32>
+$relation$modelResourcesID<u32>
 
 LAYOUT 9C9B4543
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $id$field_984551051<32>
-field_504420466<8>
-field_299618601<8>
-$relation$field_420090152<32>
+field_504420466<u8>
+field_299618601<u8>
+$relation$field_420090152<u32>

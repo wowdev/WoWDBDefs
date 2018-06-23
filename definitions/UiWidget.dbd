@@ -37,11 +37,11 @@ parentSetID<16>
 mapID<32>
 
 LAYOUT C4C60F67
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 widgetTag
-parentSetID<16>
+parentSetID<u16>
 visID<32>
 mapID<32>
 playerConditionID<32>
-orderIndex<32>
+orderIndex<u32>

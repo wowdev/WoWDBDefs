@@ -38,45 +38,45 @@ float field_475378857
 int field_1996576661
 
 LAYOUT 543C0D56, FD444016
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
 reactionEnableDistance
 reactionGiveupDistance
 torsoSpeedFactor
 headSpeedFactor
-reactionEnableFOVDeg<16>
-reactionGiveupTimeMS<16>
-reactionIgnoreTimeMinMS<16>
-reactionIgnoreTimeMaxMS<16>
-maxTorsoYaw<8>
-maxTorsoYawWhileMoving<8>
-maxHeadYaw<8>
-maxHeadPitch<8>
-flags<8>
-reactionWarmUpTimeMSMin<32>
-reactionWarmUpTimeMSMax<32>
-reactionGiveupFOVDeg<32>
-maxTorsoPitchUp<32>
-maxTorsoPitchDown<32>
+reactionEnableFOVDeg<u16>
+reactionGiveupTimeMS<u16>
+reactionIgnoreTimeMinMS<u16>
+reactionIgnoreTimeMaxMS<u16>
+maxTorsoYaw<u8>
+maxTorsoYawWhileMoving<u8>
+maxHeadYaw<u8>
+maxHeadPitch<u8>
+flags<u8>
+reactionWarmUpTimeMSMin<u32>
+reactionWarmUpTimeMSMax<u32>
+reactionGiveupFOVDeg<u32>
+maxTorsoPitchUp<u32>
+maxTorsoPitchDown<u32>
 
 LAYOUT 2E077E56
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_1900231016
-field_615427890<32>
-field_147919984<32>
-field_1151334527<16>
+field_615427890<u32>
+field_147919984<u32>
+field_1151334527<u16>
 field_1178766159
-field_885351178<32>
-field_1328840772<16>
-field_299810205<16>
-field_1884272182<16>
-field_1565277033<8>
-field_1619601402<8>
-field_1752679361<32>
-field_912470665<32>
-field_670075321<8>
-field_2010951243<8>
+field_885351178<u32>
+field_1328840772<u16>
+field_299810205<u16>
+field_1884272182<u16>
+field_1565277033<u8>
+field_1619601402<u8>
+field_1752679361<u32>
+field_912470665<u32>
+field_670075321<u8>
+field_2010951243<u8>
 field_1215792018
 field_475378857
-field_1996576661<8>
+field_1996576661<u8>

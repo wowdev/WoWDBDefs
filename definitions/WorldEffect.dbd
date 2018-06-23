@@ -23,14 +23,14 @@ combatConditionID<32>
 whenToDisplay<32>
 
 LAYOUT 2E9B9BFD
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 targetAsset<32>
-combatConditionID<16>
-targetType<8>
-whenToDisplay<8>
-questFeedbackEffectID<32>
-playerConditionID<32>
+combatConditionID<u16>
+targetType<u8>
+whenToDisplay<u8>
+questFeedbackEffectID<u32>
+playerConditionID<u32>
 
 LAYOUT 1F854827
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -43,11 +43,11 @@ questFeedbackEffectID<32>
 playerConditionID<32>
 
 LAYOUT BCB8719B
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-field_1957386976<32>
-field_1448228634<8>
-field_108203727<8>
+field_1957386976<u32>
+field_1448228634<u8>
+field_108203727<u8>
 field_1838965926<32>
-field_1196106039<32>
-field_834332462<16>
+field_1196106039<u32>
+field_834332462<u16>

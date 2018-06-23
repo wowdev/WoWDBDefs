@@ -195,7 +195,7 @@ flagsC<32>
 uiSkinFileDataID<32>
 
 LAYOUT 242E0ECD
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 flags<32>
 flagsB<32>
@@ -256,8 +256,8 @@ vehicleEnterAnimBone<8>
 vehicleExitAnimBone<8>
 vehicleRideAnimLoopBone<8>
 vehicleAbilityDisplay<8>
-enterUISoundID<32>
-exitUISoundID<32>
+enterUISoundID<u32>
+exitUISoundID<u32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -470,7 +470,7 @@ enterUISoundID<32>
 exitUISoundID<32>
 
 LAYOUT 7AB200FA
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_232420222[3]
 field_1905230915[3]
@@ -514,8 +514,8 @@ field_1524798402
 field_1893308211
 field_1714593342
 field_1937947694<8>
-field_1650861936<32>
-field_739674084<32>
+field_1650861936<u32>
+field_739674084<u32>
 field_2078451945<32>
 field_1449547970
 field_1092748112

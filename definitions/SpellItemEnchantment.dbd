@@ -166,48 +166,48 @@ maxLevel<8>
 transmogPlayerConditionID<32>
 
 LAYOUT 80DEA734
-BUILD 7.3.5.26654
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899
 $noninline,id$ID<32>
 name_lang
-effectArg<32>[3]
+effectArg<u32>[3]
 effectScalingPoints[3]
-transmogCost<32>
-iconFileDataID<32>
+transmogCost<u32>
+iconFileDataID<u32>
 effectPointsMin<16>[3]
-itemVisual<16>
-flags<16>
-requiredSkillID<16>
-requiredSkillRank<16>
-itemLevel<16>
-charges<8>
-effect<8>[3]
-condition_ID<8>
-minLevel<8>
-maxLevel<8>
+itemVisual<u16>
+flags<u16>
+requiredSkillID<u16>
+requiredSkillRank<u16>
+itemLevel<u16>
+charges<u8>
+effect<u8>[3]
+condition_ID<u8>
+minLevel<u8>
+maxLevel<u8>
 scalingClass<8>
 scalingClassRestricted<8>
-transmogPlayerConditionID<32>
+transmogPlayerConditionID<u32>
 
 LAYOUT 96D1828E
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_1918625157_lang
 field_1956129720_lang
-field_2023740563<32>[3]
+field_2023740563<u32>[3]
 field_1967688595[3]
-field_1942267757<32>
-field_563800122<32>
-field_1194832329<32>
+field_1942267757<u32>
+field_563800122<u32>
+field_1194832329<u32>
 field_1713939469<16>[3]
-field_161492134<16>
-field_1487722776<16>
-field_663437665<16>
-field_2044682534<16>
-field_1234247771<16>
-field_2016412625<8>
-field_770694976<8>[3]
+field_161492134<u16>
+field_1487722776<u16>
+field_663437665<u16>
+field_2044682534<u16>
+field_1234247771<u16>
+field_2016412625<u8>
+field_770694976<u8>[3]
 field_1573269627<8>
 field_1201305411<8>
-field_1978842619<8>
-field_1962346921<8>
-field_1579900102<8>
+field_1978842619<u8>
+field_1962346921<u8>
+field_1579900102<u8>

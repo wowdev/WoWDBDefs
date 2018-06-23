@@ -44,26 +44,26 @@ lowResScreenFileDataID<32>
 iconFileDataID<32>
 
 LAYOUT 6F7AB8E7
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 petNameToken
 name_lang
 name_female_lang
 name_male_lang
 filename
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-lowResScreenFileDataID<32>
-iconFileDataID<32>
+createScreenFileDataID<u32>
+selectScreenFileDataID<u32>
+lowResScreenFileDataID<u32>
+iconFileDataID<u32>
 startingLevel<32>
-flags<16>
-cinematicSequenceID<16>
-defaultSpec<16>
-DisplayPower<8>
-spellClassSet<8>
-attackPowerPerStrength<8>
-attackPowerPerAgility<8>
-rangedAttackPowerPerAgility<8>
-primaryStatPriority<8>
+flags<u16>
+cinematicSequenceID<u16>
+defaultSpec<u16>
+DisplayPower<u8>
+spellClassSet<u8>
+attackPowerPerStrength<u8>
+attackPowerPerAgility<u8>
+rangedAttackPowerPerAgility<u8>
+primaryStatPriority<u8>
 $id$ID<32>
 
 BUILD 4.0.0.11792
@@ -137,24 +137,24 @@ $id$ID<32>
 startingLevel<32>
 
 LAYOUT 2CD115AC
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 name_lang
 filename
 name_male_lang
 name_female_lang
 petNameToken
 $id$ID<32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-iconFileDataID<32>
-lowResScreenFileDataID<32>
+createScreenFileDataID<u32>
+selectScreenFileDataID<u32>
+iconFileDataID<u32>
+lowResScreenFileDataID<u32>
 startingLevel<32>
-flags<16>
-cinematicSequenceID<16>
-defaultSpec<16>
-primaryStatPriority<8>
-DisplayPower<8>
-rangedAttackPowerPerAgility<8>
-attackPowerPerAgility<8>
-attackPowerPerStrength<8>
-spellClassSet<8>
+flags<u16>
+cinematicSequenceID<u16>
+defaultSpec<u16>
+primaryStatPriority<u8>
+DisplayPower<u8>
+rangedAttackPowerPerAgility<u8>
+attackPowerPerAgility<u8>
+attackPowerPerStrength<u8>
+spellClassSet<u8>

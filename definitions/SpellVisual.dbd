@@ -105,22 +105,22 @@ field_3650477862<32>
 field_3380890489<32>
 
 LAYOUT 1C1301D2
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 missileCastOffset[3]
 missileImpactOffset[3]
 flags<32>
-spellVisualMissileSetID<16>
+spellVisualMissileSetID<u16>
 missileDestinationAttachment<8>
 missileAttachment<8>
-missileCastPositionerID<32>
-missileImpactPositionerID<32>
+missileCastPositionerID<u32>
+missileImpactPositionerID<u32>
 missileTargetingKit<32>
-animEventSoundID<32>
-damageNumberDelay<16>
-hostileSpellVisualID<32>
-casterSpellVisualID<32>
-lowViolenceSpellVisualID<32>
+animEventSoundID<u32>
+damageNumberDelay<u16>
+hostileSpellVisualID<u32>
+casterSpellVisualID<u32>
+lowViolenceSpellVisualID<u32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -225,20 +225,20 @@ damageNumberDelay<16>
 lowViolenceSpellVisualID<32>
 
 LAYOUT 514F85ED
-BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 missileCastOffset[3]
 missileImpactOffset[3]
-animEventSoundID<32>
+animEventSoundID<u32>
 flags<32>
 missileAttachment<8>
 missileDestinationAttachment<8>
-missileCastPositionerID<32>
-missileImpactPositionerID<32>
+missileCastPositionerID<u32>
+missileImpactPositionerID<u32>
 missileTargetingKit<32>
-hostileSpellVisualID<32>
-casterSpellVisualID<32>
-spellVisualMissileSetID<16>
-damageNumberDelay<16>
-lowViolenceSpellVisualID<32>
-raidSpellVisualMissileSetID<32>
+hostileSpellVisualID<u32>
+casterSpellVisualID<u32>
+spellVisualMissileSetID<u16>
+damageNumberDelay<u16>
+lowViolenceSpellVisualID<u32>
+raidSpellVisualMissileSetID<u32>

@@ -74,30 +74,30 @@ int field_172423304
 int field_1990669642
 
 LAYOUT 3F026A14
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26287
 FiltRaces<64>
 QuestTitle_lang
 BulletText_lang
 StartItem<32>
-UniqueBitFlag<16>
-ConditionID<16>
+UniqueBitFlag<u16>
+ConditionID<u16>
 FiltClasses<16>
-FiltCompletedQuest<16>[3]
-FiltMinSkillID<16>
+FiltCompletedQuest<u16>[3]
+FiltMinSkillID<u16>
 WorldStateExpressionID<16>
-FiltActiveQuest<8>
-FiltCompletedQuestLogic<8>
-FiltMaxFactionID<8>
-FiltMaxFactionValue<8>
-FiltMaxLevel<8>
-FiltMinFactionID<8>
-FiltMinFactionValue<8>
-FiltMinLevel<8>
-FiltMinSkillValue<8>
-FiltNonActiveQuest<8>
-$id$ID<32>
-BreadCrumbID<32>
-QuestInfoID<32>
+FiltActiveQuest<u8>
+FiltCompletedQuestLogic<u8>
+FiltMaxFactionID<u8>
+FiltMaxFactionValue<u8>
+FiltMaxLevel<u8>
+FiltMinFactionID<u8>
+FiltMinFactionValue<u8>
+FiltMinLevel<u8>
+FiltMinSkillValue<u8>
+FiltNonActiveQuest<u8>
+$id$ID<u32>
+BreadCrumbID<u32>
+QuestInfoID<u32>
 SandboxScalingID<32>
 
 LAYOUT FE5B5478
@@ -236,28 +236,28 @@ field_3753254511<32>
 field_3799979310<32>[3]
 
 LAYOUT C0387D4E
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 field_059962822<64>
 field_645808592_lang
 field_1011173150_lang
-$id$field_979290810<32>
-field_062142066<16>
-field_246261961<32>
-field_072893227<32>
+$id$field_979290810<u32>
+field_062142066<u16>
+field_246261961<u32>
+field_072893227<u32>
 field_194364272<16>
-field_536282793<32>
-field_1812140884<32>
-field_951364210<32>
-field_1584998981<32>
-field_2027020682<32>
-field_800870143<32>
-field_783989315<32>
-field_1176949993<32>
-field_952796611<32>
-field_1901842090<32>
-field_346428951<32>
+field_536282793<u32>
+field_1812140884<u32>
+field_951364210<u32>
+field_1584998981<u32>
+field_2027020682<u32>
+field_800870143<u32>
+field_783989315<u32>
+field_1176949993<u32>
+field_952796611<u32>
+field_1901842090<u32>
+field_346428951<u32>
 field_1555039571<32>
 field_1959129566<16>
-field_1850832940<32>
+field_1850832940<u32>
 field_172423304<32>
-field_1990669642<32>[3]
+field_1990669642<u32>[3]

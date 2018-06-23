@@ -81,7 +81,7 @@ field_3505732336<32>
 field_1025260385<32>
 
 LAYOUT 200F9858
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 allianceName_lang
 hordeName_lang
@@ -90,20 +90,20 @@ tooltip_lang
 hordeGameObjectID<32>
 allianceGameObjectID<32>
 iconFileDataID<32>
-currencyTypeID<16>
-hordeUiTextureKitID<16>
-allianceUiTextureKitID<16>
-allianceSceneScriptPackageID<16>
-hordeSceneScriptPackageID<16>
-garrAbilityID<16>
-bonusGarrAbilityID<16>
-goldCost<16>
-garrSiteID<8>
-buildingType<8>
-upgradeLevel<8>
-flags<8>
-shipmentCapacity<8>
-garrTypeID<8>
+currencyTypeID<u16>
+hordeUiTextureKitID<u16>
+allianceUiTextureKitID<u16>
+allianceSceneScriptPackageID<u16>
+hordeSceneScriptPackageID<u16>
+garrAbilityID<u16>
+bonusGarrAbilityID<u16>
+goldCost<u16>
+garrSiteID<u8>
+buildingType<u8>
+upgradeLevel<u8>
+flags<u8>
+shipmentCapacity<u8>
+garrTypeID<u8>
 buildSeconds<32>
 currencyQty<32>
 maxAssignments<32>
@@ -137,29 +137,29 @@ currencyQty<32>
 maxAssignments<32>
 
 LAYOUT 158D48D4
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_572161295_lang
 field_1448371431_lang
 field_1889258682_lang
 field_685113586_lang
-field_1310544907<8>
-field_341907242<8>
+field_1310544907<u8>
+field_341907242<u8>
 field_1438757388<32>
 field_1325315549<32>
-field_1183755621<8>
-field_1964896134<8>
+field_1183755621<u8>
+field_1964896134<u8>
 field_1245564775<32>
-field_485593566<16>
+field_485593566<u16>
 field_721296401<32>
-field_1040312240<16>
-field_1341572263<16>
+field_1040312240<u16>
+field_1341572263<u16>
 field_776934099<32>
-field_448267928<16>
-field_1667660264<16>
+field_448267928<u16>
+field_1667660264<u16>
 field_668097137<32>
-field_1368604227<8>
-field_977699018<16>
-field_1622230132<16>
-field_1915108543<16>
-field_1231754462<8>
+field_1368604227<u8>
+field_977699018<u16>
+field_1622230132<u16>
+field_1915108543<u16>
+field_1231754462<u8>

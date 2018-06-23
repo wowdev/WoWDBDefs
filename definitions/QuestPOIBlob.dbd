@@ -23,14 +23,14 @@ MapID<32>
 WorldMapAreaID<32>
 
 LAYOUT EC15976E
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $id$ID<32>
 MapID<16>
-$relation$WorldMapAreaID<16>
-NumPoints<8>
-Floor<8>
-playerConditionID<32>
-QuestID<32>
+$relation$WorldMapAreaID<u16>
+NumPoints<u8>
+Floor<u8>
+playerConditionID<u32>
+QuestID<u32>
 ObjectiveIndex<32>
 
 LAYOUT 8B0E06FC
@@ -55,11 +55,11 @@ ObjectiveIndex<32>
 playerConditionID<32>
 
 LAYOUT 5DF4B040
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $id$field_2098047422<32>
 $relation$field_274529541<16>
 field_337438545<32>
-field_1419306151<8>
-field_1425203956<32>
+field_1419306151<u8>
+field_1425203956<u32>
 field_545615108<32>
-field_1384809735<32>
+field_1384809735<u32>

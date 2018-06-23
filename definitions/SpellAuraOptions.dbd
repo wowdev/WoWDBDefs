@@ -29,15 +29,15 @@ procCategoryRecovery<32>
 spellProcsPerMinuteID<32>
 
 LAYOUT E05BE94F
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 procCharges<32>
 procTypeMask<32>[2]
 procCategoryRecovery<32>
-cumulativeAura<16>
-spellProcsPerMinuteID<16>
-difficultyID<8>
-procChance<8>
+cumulativeAura<u16>
+spellProcsPerMinuteID<u16>
+difficultyID<u8>
+procChance<u8>
 $noninline,relation$spellID<32>
 
 LAYOUT B825BCB7
@@ -53,13 +53,13 @@ procChance<8>
 $noninline,relation$spellID<32>
 
 LAYOUT CBDA0981
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-field_1423551137<8>
-field_183874161<16>
+field_1423551137<u8>
+field_183874161<u16>
 field_853392595<32>
-field_073037297<8>
+field_073037297<u8>
 field_193661342<32>
-field_1301427073<16>
+field_1301427073<u16>
 field_774939558<32>[2]
 $noninline,relation$field_739006312<32>

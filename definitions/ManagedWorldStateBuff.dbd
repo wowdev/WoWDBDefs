@@ -10,11 +10,11 @@ int field_1060622336
 int field_093385581
 
 LAYOUT 6D201DC7
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-occurrenceValue<32>
+occurrenceValue<u32>
 buffSpellID<32>
-playerConditionID<32>
+playerConditionID<u32>
 $noninline,relation$managedWorldStateID<32>
 
 LAYOUT B2D43AA9
@@ -26,9 +26,9 @@ playerConditionID<32>
 $noninline,relation$managedWorldStateID<32>
 
 LAYOUT 049B986F
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_1174067806<32>
-field_1274027298<32>
-field_1060622336<32>
+field_1274027298<u32>
+field_1060622336<u32>
 $noninline,relation$field_093385581<32>

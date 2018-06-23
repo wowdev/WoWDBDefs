@@ -41,21 +41,21 @@ groupSizeSpellPointsCurveID<32>
 name_lang
 
 LAYOUT 92302BB8
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 name_lang
-groupSizeHealthCurveID<16>
-groupSizeDmgCurveID<16>
-groupSizeSpellPointsCurveID<16>
-fallbackDifficultyID<8>
-instanceType<8>
-minPlayers<8>
-maxPlayers<8>
+groupSizeHealthCurveID<u16>
+groupSizeDmgCurveID<u16>
+groupSizeSpellPointsCurveID<u16>
+fallbackDifficultyID<u8>
+instanceType<u8>
+minPlayers<u8>
+maxPlayers<u8>
 oldEnumValue<8>
-flags<8>
-toggleDifficultyID<8>
-itemContext<8>
-orderIndex<8>
+flags<u8>
+toggleDifficultyID<u8>
+itemContext<u8>
+orderIndex<u8>
 
 LAYOUT F0C26A80
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -75,18 +75,18 @@ itemContext<8>
 toggleDifficultyID<8>
 
 LAYOUT 29FC158C
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 name_lang
-field_2064999243<8>
-field_258458661<8>
+field_2064999243<u8>
+field_258458661<u8>
 field_000659242<8>
-field_759637513<8>
-field_009065987<8>
-field_692126542<8>
-field_2121189277<8>
-field_1478061563<8>
-field_571319785<8>
-field_2089936590<16>
-field_1729580554<16>
-field_1214798562<16>
+field_759637513<u8>
+field_009065987<u8>
+field_692126542<u8>
+field_2121189277<u8>
+field_1478061563<u8>
+field_571319785<u8>
+field_2089936590<u16>
+field_1729580554<u16>
+field_1214798562<u16>

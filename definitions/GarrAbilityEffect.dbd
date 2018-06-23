@@ -35,18 +35,18 @@ combatWeightMax
 actionValueFlat
 
 LAYOUT E6A6CB99
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 combatWeightBase
 combatWeightMax
 actionValueFlat
 actionRecordID<32>
-$relation$garrAbilityID<16>
-abilityAction<8>
-abilityTargetType<8>
-garrMechanicTypeID<8>
-flags<8>
-actionRace<8>
-actionHours<8>
+$relation$garrAbilityID<u16>
+abilityAction<u8>
+abilityTargetType<u8>
+garrMechanicTypeID<u8>
+flags<u8>
+actionRace<u8>
+actionHours<u8>
 $id$ID<32>
 
 LAYOUT 86CA039B
@@ -65,16 +65,16 @@ flags<8>
 $id$ID<32>
 
 LAYOUT 682EE0E1
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $id$ID<32>
-$relation$garrAbilityID<16>
-field_1096564021<8>
-field_1838633660<8>
-field_777345925<8>
+$relation$garrAbilityID<u16>
+field_1096564021<u8>
+field_1838633660<u8>
+field_777345925<u8>
 field_346015355
 field_1345331277
 field_257122878
-field_1609473971<8>
-field_1438661586<8>
+field_1609473971<u8>
+field_1438661586<u8>
 field_1746083035<32>
-field_721669374<8>
+field_721669374<u8>

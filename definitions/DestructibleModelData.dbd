@@ -73,30 +73,30 @@ healEffect<32>
 healEffectSpeed<32>
 
 LAYOUT 1092C9AF
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-state0WMO<16>
-state1WMO<16>
-state2WMO<16>
-state3WMO<16>
-healEffectSpeed<16>
+state0WMO<u16>
+state1WMO<u16>
+state2WMO<u16>
+state3WMO<u16>
+healEffectSpeed<u16>
 state0ImpactEffectDoodadSet<8>
-state0AmbientDoodadSet<8>
+state0AmbientDoodadSet<u8>
 state0NameSet<8>
 state1DestructionDoodadSet<8>
 state1ImpactEffectDoodadSet<8>
-state1AmbientDoodadSet<8>
+state1AmbientDoodadSet<u8>
 state1NameSet<8>
 state2DestructionDoodadSet<8>
 state2ImpactEffectDoodadSet<8>
-state2AmbientDoodadSet<8>
+state2AmbientDoodadSet<u8>
 state2NameSet<8>
-state3InitDoodadSet<8>
-state3AmbientDoodadSet<8>
+state3InitDoodadSet<u8>
+state3AmbientDoodadSet<u8>
 state3NameSet<8>
-ejectDirection<8>
-doNotHighlight<8>
-healEffect<8>
+ejectDirection<u8>
+doNotHighlight<u8>
+healEffect<u8>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -147,26 +147,26 @@ state2NameSet<8>
 state3NameSet<8>
 
 LAYOUT F245BA93
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_1223739298<8>
-field_1811979594<8>
-field_2053102413<16>
+field_1811979594<u8>
+field_2053102413<u16>
 field_262660641<8>
 field_386574869<8>
-field_1715850669<8>
-field_983993555<16>
+field_1715850669<u8>
+field_983993555<u16>
 field_1048495907<8>
 field_1639174436<8>
-field_371401706<8>
-field_1340227118<16>
-field_810782199<8>
-field_1720993178<8>
-field_1655050907<8>
-field_440143965<8>
-field_1208939916<16>
-field_624790910<8>
-field_2106217340<16>
+field_371401706<u8>
+field_1340227118<u16>
+field_810782199<u8>
+field_1720993178<u8>
+field_1655050907<u8>
+field_440143965<u8>
+field_1208939916<u16>
+field_624790910<u8>
+field_2106217340<u16>
 field_853971437<8>
 field_609201335<8>
 field_2069839283<8>

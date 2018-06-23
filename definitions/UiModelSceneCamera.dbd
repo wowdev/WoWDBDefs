@@ -33,7 +33,7 @@ float field_1467142502
 int field_446740166
 
 LAYOUT C58AA5EC
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 scriptTag
 target[3]
 zoomedTargetOffset[3]
@@ -46,8 +46,8 @@ zoomedRollOffset
 zoomDistance
 minZoomDistance
 maxZoomDistance
-flags<8>
-cameraType<8>
+flags<u8>
+cameraType<u8>
 $id$ID<32>
 $noninline,relation$uiModelSceneID<32>
 
@@ -71,13 +71,13 @@ $id$ID<32>
 $noninline,relation$uiModelSceneID<32>
 
 LAYOUT EDFBD5A2
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 field_1854152786
 field_743656063[3]
 field_1346609378[3]
 $id$field_143639425<32>
-field_2086059912<8>
-field_1632652864<8>
+field_2086059912<u8>
+field_1632652864<u8>
 field_165408877
 field_1759559261
 field_534366605

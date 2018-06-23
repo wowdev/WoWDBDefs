@@ -31,17 +31,17 @@ activeIconID<32>
 schoolMask<32>
 
 LAYOUT CDC114D5
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-castingTimeIndex<16>
-durationIndex<16>
-rangeIndex<16>
-schoolMask<8>
+castingTimeIndex<u16>
+durationIndex<u16>
+rangeIndex<u16>
+schoolMask<u8>
 spellIconFileDataID<32>
 speed
 activeIconFileDataID<32>
 launchDelay
-difficultyID<8>
+difficultyID<u8>
 attributes<32>[14]
 $noninline,relation$spellID<32>
 
@@ -61,13 +61,13 @@ attributes<32>[14]
 $noninline,relation$spellID<32>
 
 LAYOUT 76E982BB
-BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
-difficultyID<8>
-castingTimeIndex<16>
-durationIndex<16>
-rangeIndex<16>
-schoolMask<8>
+difficultyID<u8>
+castingTimeIndex<u16>
+durationIndex<u16>
+rangeIndex<u16>
+schoolMask<u8>
 speed
 launchDelay
 field_1532576006

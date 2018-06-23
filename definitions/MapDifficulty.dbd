@@ -34,17 +34,17 @@ maxPlayers<32>
 lockID<32>
 
 LAYOUT 2B3B759E
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 message_lang
-difficultyID<8>
-resetInterval<8>
-maxPlayers<8>
-lockID<8>
-flags<8>
-itemContext<8>
-itemContextPickerID<32>
-$noninline,relation$mapID<16>
+difficultyID<u8>
+resetInterval<u8>
+maxPlayers<u8>
+lockID<u8>
+flags<u8>
+itemContext<u8>
+itemContextPickerID<u32>
+$noninline,relation$mapID<u16>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -97,15 +97,15 @@ field_4001413544<32>
 $noninline,relation$mapID<16>
 
 LAYOUT F876E8BA
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 $noninline,id$ID<32>
 field_1055113062_lang
-field_855937208<32>
+field_855937208<u32>
 field_881099931<32>
-field_1115388082<8>
-field_1653221040<8>
-field_122606935<8>
-field_251720579<8>
-field_2081637855<8>
-field_183643775<8>
-$noninline,relation$field_1927128673<16>
+field_1115388082<u8>
+field_1653221040<u8>
+field_122606935<u8>
+field_251720579<u8>
+field_2081637855<u8>
+field_183643775<u8>
+$noninline,relation$field_1927128673<u16>

@@ -55,21 +55,21 @@ extendedUI
 extendedUIStateVariable<32>[3]
 
 LAYOUT 70808977
-BUILD 7.3.5.26654, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 icon
 extendedUI
 dynamicTooltip_lang
 string_lang
 tooltip_lang
 $relation$mapID<16>
-areaID<16>
-phaseID<16>
-phaseGroupID<16>
-stateVariable<16>
-extendedUIStateVariable<16>[3]
-orderIndex<8>
-phaseUseFlags<8>
-type<8>
+areaID<u16>
+phaseID<u16>
+phaseGroupID<u16>
+stateVariable<u16>
+extendedUIStateVariable<u16>[3]
+orderIndex<u8>
+phaseUseFlags<u8>
+type<u8>
 $id$ID<32>
 dynamicIconFileID<32>
 dynamicFlashIconFileID<32>
@@ -141,7 +141,7 @@ dynamicIconFileID<32>
 dynamicFlashIconFileID<32>
 
 LAYOUT E1F042FE
-BUILD 8.0.1.26788, 8.0.1.26806
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903
 field_1780015728
 field_1586698208_lang
 field_084854354_lang
@@ -149,13 +149,13 @@ field_649034880_lang
 field_650110249
 $id$field_1867949595<32>
 $relation$field_649053501<16>
-field_705925423<16>
-field_1491806186<16>
-field_570583305<8>
+field_705925423<u16>
+field_1491806186<u16>
+field_570583305<u8>
 field_1038183579<32>
 field_643149059<32>
-field_1046488185<8>
-field_123440419<8>
-field_1568074154<16>
-field_1267108740<16>
-field_1583851419<16>[3]
+field_1046488185<u8>
+field_123440419<u8>
+field_1568074154<u16>
+field_1267108740<u16>
+field_1583851419<u16>[3]
