@@ -369,6 +369,7 @@ namespace DBDefsDumper
                     var field_sizes_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_sizes_in_file_offs));
                     var field_types_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_types_in_file_offs));
                     var field_flags_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_flags_in_file_offs));
+                    var field_names_in_file = ReadFieldOffsetArray(bin, fieldCount, (long)translate((ulong)meta.Value.namesInFileOffs));
 
                     if (meta.Value.id_column == -1)
                     {
@@ -397,7 +398,15 @@ namespace DBDefsDumper
 
                     for(var i = 0; i < columnTypeFlags.Count; i++)
                     {
-                        columnNames.Add(GenerateName(i, meta.Value.layout_hash, build));
+                        if(field_names_in_file.Count > 0)
+                        {
+                            bin.BaseStream.Position = (long)translate(field_names_in_file[i]);
+                            columnNames.Add(CleanRealName(bin.ReadCString()));
+                        }
+                        else
+                        {
+                            columnNames.Add(GenerateName(i, meta.Value.layout_hash, build));
+                        }
 
                         var t = TypeToT(columnTypeFlags[i].Item1, (FieldFlags)columnTypeFlags[i].Item2);
                         if(t.Item1 == "locstring")
@@ -572,6 +581,22 @@ namespace DBDefsDumper
             return returnList;
         }
 
+        private static List<ulong> ReadFieldOffsetArray(BinaryReader bin, int fieldCount, long offset)
+        {
+            var returnList = new List<ulong>();
+
+            if (offset != 0)
+            {
+                bin.BaseStream.Position = offset;
+                for (var i = 0; i < fieldCount; i++)
+                {
+                    returnList.Add(bin.ReadUInt64());
+                }
+            }
+
+            return returnList;
+        }
+
         private static string GenerateName(int fieldIndex, int layoutHash, string build)
         {
             // TODO: This function should generate a name that is the same between dumps of the same build.
@@ -585,6 +610,18 @@ namespace DBDefsDumper
 
             //return "field_" + (layoutHash + fieldIndex).ToString().PadLeft(9, '0');
             return "field_" + new Random().Next(1, int.MaxValue).ToString().PadLeft(9, '0');
+        }
+
+        private static string CleanRealName(string name)
+        {
+            if (name.Substring(0, 2) == "m_")
+            {
+                return name.Remove(0, 2);
+            }
+            else
+            {
+                return name;
+            }
         }
 
         private static DBMeta ReadMeta(BinaryReader bin, Pattern pattern)
