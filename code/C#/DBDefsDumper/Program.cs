@@ -10,50 +10,6 @@ namespace DBDefsDumper
 {
     class Program
     {
-        [StructLayout(LayoutKind.Sequential, Pack = 1)]
-        public struct Header
-        {
-            public UInt32 magic;
-            public UInt32 cpu;
-            public UInt32 subtype;
-
-            public UInt32 fileType;
-
-            public UInt32 commandsCount;
-
-            public UInt32 commandsSize;
-            public UInt32 flags;
-
-            public UInt32 reserved;
-        }
-
-        [StructLayout(LayoutKind.Sequential, Pack = 1)]
-        public struct Command
-        {
-            public UInt32 id;
-            public UInt32 size;
-        }
-
-        struct Map
-        {
-            public UInt64 memoryStart;
-            public UInt64 memoryEnd;
-            public UInt64 fileStart;
-            public UInt64 fileEnd;
-
-            public UInt64 translateMemoryToFile(UInt64 offset)
-            {
-                if (offset < memoryStart || offset > memoryEnd)
-                {
-                    return 0x0;
-                }
-
-                var delta = offset - memoryStart;
-
-                return fileStart + delta;
-            }
-        }
-
         static void Main(string[] args)
         {
             if (args.Length < 2)
@@ -67,45 +23,10 @@ namespace DBDefsDumper
             }
 
             var file = MemoryMappedFile.CreateFromFile(args[0], FileMode.Open);
-            var stream = file.CreateViewAccessor();
 
-            #region BinaryMagic 
-            long offset = 0;
+            var maps = EXEParsing.GenerateMap(file.CreateViewAccessor());
 
-            stream.Read(offset, out Header header);
-            offset += Marshal.SizeOf(header);
-
-            var maps = new List<Map>();
-
-            for (var i = 0; i < header.commandsCount; i++)
-            {
-                stream.Read(offset, out Command command);
-
-                if (command.id == 25)
-                {
-                    var segmentOffset = offset + 4 + 4 + 16; // Segment start + id + size + name; 
-                    var vmemOffs = stream.ReadUInt64(segmentOffset);
-                    var vmemSize = stream.ReadUInt64(segmentOffset + 8);
-                    var fileOffs = stream.ReadUInt64(segmentOffset + 16);
-                    var fileSize = stream.ReadUInt64(segmentOffset + 24);
-
-                    var map = new Map
-                    {
-                        memoryStart = vmemOffs,
-                        memoryEnd = vmemOffs + vmemSize,
-                        fileStart = fileOffs,
-                        fileEnd = fileOffs + fileSize
-                    };
-
-                    maps.Add(map);
-                }
-
-                offset += command.size;
-            }
-
-
-            Func<UInt64, UInt64> translate = search => maps.Select(map => map.translateMemoryToFile(search)).FirstOrDefault(r => r != 0x0);
-            #endregion
+            ulong translate(ulong search) => maps.Select(map => map.translateMemoryToFile(search)).FirstOrDefault(r => r != 0x0);
 
             using (var bin = new BinaryReader(file.CreateViewStream()))
             {
@@ -178,7 +99,42 @@ namespace DBDefsDumper
 
                 if (build == "")
                 {
-                    throw new Exception("Build was not found!");
+                    // Retry with RenderService pattern..
+                    bin.BaseStream.Position = 0;
+
+                    buildPattern = new byte?[] { 0x52, 0x65, 0x6e, 0x64, 0x65, 0x72, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x20, null, null, null, null, null, 0x00 }; // <Version> 
+                    buildPatternLength = buildPattern.Length;
+
+                    while (true)
+                    {
+                        if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
+                        {
+                            break;
+                        }
+
+                        var posInStack = Search(bin.ReadBytes(chunkSize), buildPattern);
+
+                        if (posInStack != chunkSize)
+                        {
+                            var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
+
+                            bin.BaseStream.Position = matchPos;
+                            bin.ReadBytes(14);
+                            build = new string(bin.ReadChars(5));
+                            Console.WriteLine("Expansion, major and minor version not found in binary. Please enter it in this format X.X.X: ");
+                            build = Console.ReadLine() + "." + build;
+                        }
+                        else
+                        {
+                            bin.BaseStream.Position = bin.BaseStream.Position - buildPatternLength;
+                        }
+                    }
+                }
+
+                if (build == "")
+                {
+                    Console.WriteLine("Build was not found! Please enter a build in this format: X.X.X.XXXXX");
+                    build = Console.ReadLine();
                 }
 
                 // Reset position for DBMeta reading
