@@ -9,7 +9,7 @@ int field_4567976787?
 uint<Spell::ID> spellID
 float powerCostPct
 float field_7962234177?
-int field_9065017904?
+uint difficultyId?
 uint altPowerBarID?
 float field_3005919490?
 uint<Spell::ID> requiredAuraSpellID
@@ -18,7 +18,7 @@ float powerCostMaxPct
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
 spellID<32>
-field_9065017904<32>
+difficultyId<32>
 powerType<32>
 manaCost<32>
 manaCostPerLevel<32>
