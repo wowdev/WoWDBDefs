@@ -5,7 +5,7 @@ int flags
 int<CreatureFamily::ID> familyID
 int iconID
 locstring name_lang
-string description_Lang
+locstring description_Lang
 int cooldown
 
 BUILD 5.0.1.15640-6.0.1.18179

@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-string name_lang
+locstring name_lang
 int flags
 int<AnimationData::ID> fallback
 int behaviorID

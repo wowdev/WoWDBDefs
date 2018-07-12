@@ -5,8 +5,8 @@ int iconID?
 int<Spell::ID> spellID?
 int<CreatureFamily::ID> familyID?
 int flags
-string source_Lang?
-string description_Lang?
+locstring source_Lang?
+locstring description_Lang?
 int source?
 
 BUILD 5.0.1.15464
