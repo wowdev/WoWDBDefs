@@ -4,7 +4,7 @@ int realmType
 int playerKillingAllowed
 int roleplaying
 int playerAttackSpeedBase
-int maxDamageReductionPctPhysical
+float maxDamageReductionPctPhysical
 
 BUILD 5.0.1.15640-5.4.8.18414
 $id$ID<32>
@@ -12,7 +12,7 @@ realmType<32>
 playerKillingAllowed<32>
 roleplaying<32>
 playerAttackSpeedBase<32>
-maxDamageReductionPctPhysical<32>
+maxDamageReductionPctPhysical
 
 BUILD 4.0.0.11927-5.0.1.15589
 $id$ID<32>
