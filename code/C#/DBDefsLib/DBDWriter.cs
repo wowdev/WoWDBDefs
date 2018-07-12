@@ -60,7 +60,8 @@ namespace DBDefsLib
                 for (var i = 0; i < definition.versionDefinitions.Length; i++)
                 {
                     var versionDefinition = definition.versionDefinitions[i];
-                    if(versionDefinition.layoutHashes.Length > 0)
+
+                    if (versionDefinition.layoutHashes.Length > 0)
                     {
                         writer.WriteLine("LAYOUT " + string.Join(", ", versionDefinition.layoutHashes));
                     }
@@ -72,7 +73,7 @@ namespace DBDefsLib
                         sortedVersionlist.AddRange(versionDefinition.builds);
                         sortedVersionlist.Sort();
                         versionDefinition.builds = sortedVersionlist.ToArray();
-                        for(var b =0; b < versionDefinition.builds.Length; b++)
+                        for(var b = 0; b < versionDefinition.builds.Length; b++)
                         {
                             writer.Write(versionDefinition.builds[b].ToString());
                             if(b + 1 < versionDefinition.builds.Length)
@@ -83,20 +84,24 @@ namespace DBDefsLib
                         writer.Write(writer.NewLine);
                     }
 
-                    if (!string.IsNullOrWhiteSpace(versionDefinition.comment))
-                    {
-                        writer.WriteLine("COMMENT " + versionDefinition.comment);
-                    }
-
                     if (versionDefinition.buildRanges.Length > 0)
                     {
+                        var sortedBuildRangeList = new List<BuildRange>();
+                        sortedBuildRangeList.AddRange(versionDefinition.buildRanges);
+                        sortedBuildRangeList.Sort();
+                        versionDefinition.buildRanges = sortedBuildRangeList.ToArray();
                         foreach(var buildRange in versionDefinition.buildRanges)
                         {
                             writer.WriteLine("BUILD " + buildRange.ToString());
                         }
                     }
 
-                    foreach(var column in versionDefinition.definitions)
+                    if (!string.IsNullOrWhiteSpace(versionDefinition.comment))
+                    {
+                        writer.WriteLine("COMMENT " + versionDefinition.comment);
+                    }
+
+                    foreach (var column in versionDefinition.definitions)
                     {
                         if (column.isID || column.isNonInline || column.isRelation)
                         {
