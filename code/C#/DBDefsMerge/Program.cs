@@ -147,17 +147,26 @@ namespace DBDefsMerge
                                     }
                                 }
 
+                                // Stop checking if build already exists
+                                if (foundVersion)
+                                {
+                                    break;
+                                }
+
                                 foreach (var buildranges1 in versionDefinition1.buildRanges)
                                 {
-                                    if(build2.expansion == buildranges1.minBuild.expansion && build2.major == buildranges1.minBuild.major && build2.minor == buildranges1.minBuild.minor)
+                                    if (buildranges1.Contains(build2))
                                     {
-                                        if (build2.build >= buildranges1.minBuild.build && build2.build <= buildranges1.maxBuild.build)
-                                        {
-                                            //Console.WriteLine("Build match? Build " + Utils.BuildToString(build2) + " seem to match with " + Utils.BuildToString(buildranges1.minBuild) + "-" + Utils.BuildToString(buildranges1.maxBuild));
-                                            foundVersion = true;
-                                            break;
-                                        }
+                                        Console.WriteLine(build2.ToString() + " is in build range " + buildranges1.ToString());
+                                        foundVersion = true;
+                                        break;
                                     }
+                                }
+
+                                // Stop checking if build exists in ranges
+                                if (foundVersion)
+                                {
+                                    break;
                                 }
                             }
                         }
@@ -177,6 +186,10 @@ namespace DBDefsMerge
                                     var curBuilds = newVersions[i].builds.ToList();
                                     curBuilds.AddRange(versionDefinition2.builds.ToList());
 
+                                    // Make list from current build ranges
+                                    var curBuildRanges = newVersions[i].buildRanges.ToList();
+                                    curBuildRanges.AddRange(versionDefinition2.buildRanges.ToList());
+
                                     // Make list of current layouthashes
                                     var curLayouthashes = newVersions[i].layoutHashes.ToList();
                                     curLayouthashes.AddRange(versionDefinition2.layoutHashes.ToList());
@@ -186,6 +199,9 @@ namespace DBDefsMerge
 
                                     // Override builds with new list
                                     tempVersion.builds = curBuilds.Distinct().ToArray();
+
+                                    // Override buildranges with new list
+                                    tempVersion.buildRanges = curBuildRanges.Distinct().ToArray();
 
                                     // Override layoutHashes with new list
                                     tempVersion.layoutHashes = curLayouthashes.Distinct().ToArray();
@@ -219,6 +235,10 @@ namespace DBDefsMerge
                                         var curBuilds = newVersions[i].builds.ToList();
                                         curBuilds.AddRange(versionDefinition2.builds.ToList());
 
+                                        // Make list from current build ranges
+                                        var curBuildRanges = newVersions[i].buildRanges.ToList();
+                                        curBuildRanges.AddRange(versionDefinition2.buildRanges.ToList());
+
                                         // Make list of current layouthashes
                                         var curLayouthashes = newVersions[i].layoutHashes.ToList();
                                         curLayouthashes.AddRange(versionDefinition2.layoutHashes.ToList());
@@ -228,6 +248,9 @@ namespace DBDefsMerge
 
                                         // Override builds with new list
                                         tempVersion.builds = curBuilds.Distinct().ToArray();
+
+                                        // Override buildranges with new list
+                                        tempVersion.buildRanges = curBuildRanges.Distinct().ToArray();
 
                                         // Override layoutHashes with new list
                                         tempVersion.layoutHashes = curLayouthashes.Distinct().ToArray();
