@@ -3,11 +3,11 @@ int ID
 int type
 int param
 float coeff
-uint<SpellProcsPerMinute::ID> spellProcsPerMinuteID
+int<SpellProcsPerMinute::ID> spellProcsPerMinuteID
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 type<32>
 param<32>
 coeff
-spellProcsPerMinuteID<32>
+spellProcsPerMinuteID<u32>

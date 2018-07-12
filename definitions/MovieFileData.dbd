@@ -1,7 +1,7 @@
 COLUMNS
-uint fileDataID
+int fileDataID
 int resolution
 
 BUILD 3.0.1.8471-6.2.4.21742
-fileDataID<32>
+fileDataID<u32>
 resolution<32>

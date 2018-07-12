@@ -1,32 +1,32 @@
 COLUMNS
 int ID
 int modalNextSpell
-uint spellFamilyMask
+int spellFamilyMask
 int spellClassSet
 string description?
 
 BUILD 5.0.1.15640-5.4.8.18414
 $id$ID<32>
 modalNextSpell<32>
-spellFamilyMask<32>[4]
+spellFamilyMask<u32>[4]
 spellClassSet<32>
 
 BUILD 5.0.1.15464-5.0.1.15589
 $id$ID<32>
 modalNextSpell<32>
-spellFamilyMask<32>[4]
+spellFamilyMask<u32>[4]
 spellClassSet<32>
 description
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
 modalNextSpell<32>
-spellFamilyMask<32>[3]
+spellFamilyMask<u32>[3]
 spellClassSet<32>
 description
 
 BUILD 4.0.0.12232-4.0.0.12319
 $id$ID<32>
 modalNextSpell<32>
-spellFamilyMask<32>[3]
+spellFamilyMask<u32>[3]
 spellClassSet<32>

@@ -2,7 +2,7 @@ COLUMNS
 int ID
 float rangeMin
 float rangeMax
-uint flags
+int flags
 locstring displayName_lang
 locstring displayNameShort_lang
 
@@ -10,7 +10,7 @@ BUILD 3.0.1.8303-6.2.0.20008
 $id$ID<32>
 rangeMin[2]
 rangeMax[2]
-flags<32>
+flags<u32>
 displayName_lang
 displayNameShort_lang
 
@@ -18,6 +18,6 @@ BUILD 0.5.3.3368-2.4.3.8606
 $id$ID<32>
 rangeMin
 rangeMax
-flags<32>
+flags<u32>
 displayName_lang
 displayNameShort_lang

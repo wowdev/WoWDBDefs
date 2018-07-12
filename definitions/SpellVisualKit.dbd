@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-uint<AnimationData::ID> startAnimID
-uint<AnimationData::ID> animID
-uint<AnimKit::ID> animKitID
+int<AnimationData::ID> startAnimID
+int<AnimationData::ID> animID
+int<AnimKit::ID> animKitID
 int headEffect
 int chestEffect
 int baseEffect
@@ -13,8 +13,8 @@ int leftWeaponEffect
 int rightWeaponEffect
 int specialEffect
 int worldEffect
-uint<SoundEntries::ID> soundID
-uint<SpellEffectCameraShakes::ID> shakeID
+int<SoundEntries::ID> soundID
+int<SpellEffectCameraShakes::ID> shakeID
 int charProc
 int characterProcedure
 float characterParam
@@ -22,15 +22,15 @@ float charParamZero
 float charParamOne
 float charParamTwo
 float charParamThree
-uint flags
+int flags
 int kitType
 int anim
 
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
-startAnimID<32>
-animID<32>
-animKitID<32>
+startAnimID<u32>
+animID<u32>
+animKitID<u32>
 headEffect<32>
 chestEffect<32>
 baseEffect<32>
@@ -41,19 +41,19 @@ leftWeaponEffect<32>
 rightWeaponEffect<32>
 specialEffect<32>[3]
 worldEffect<32>
-soundID<32>
-shakeID<32>
+soundID<u32>
+shakeID<u32>
 charProc<32>[4]
 charParamZero[4]
 charParamOne[4]
 charParamTwo[4]
 charParamThree[4]
-flags<32>
+flags<u32>
 
 BUILD 3.1.0.9767-3.3.5.12340
 $id$ID<32>
-startAnimID<32>
-animID<32>
+startAnimID<u32>
+animID<u32>
 headEffect<32>
 chestEffect<32>
 baseEffect<32>
@@ -64,20 +64,20 @@ leftWeaponEffect<32>
 rightWeaponEffect<32>
 specialEffect<32>[3]
 worldEffect<32>
-soundID<32>
-shakeID<32>
+soundID<u32>
+shakeID<u32>
 charProc<32>[4]
 charParamZero[4]
 charParamOne[4]
 charParamTwo[4]
 charParamThree[4]
-flags<32>
+flags<u32>
 
 BUILD 3.0.1.8391-3.1.0.9757
 $id$ID<32>
 kitType<32>
-startAnimID<32>
-animID<32>
+startAnimID<u32>
+animID<u32>
 headEffect<32>
 chestEffect<32>
 baseEffect<32>
@@ -88,19 +88,19 @@ leftWeaponEffect<32>
 rightWeaponEffect<32>
 specialEffect<32>[3]
 worldEffect<32>
-soundID<32>
-shakeID<32>
+soundID<u32>
+shakeID<u32>
 charProc<32>[4]
 charParamZero[4]
 charParamOne[4]
 charParamTwo[4]
 charParamThree[4]
-flags<32>
+flags<u32>
 
 BUILD 2.1.0.6692-3.0.1.8334
 $id$ID<32>
 kitType<32>
-animID<32>
+animID<u32>
 headEffect<32>
 chestEffect<32>
 baseEffect<32>
@@ -111,19 +111,19 @@ leftWeaponEffect<32>
 rightWeaponEffect<32>
 specialEffect<32>[3]
 worldEffect<32>
-soundID<32>
-shakeID<32>
+soundID<u32>
+shakeID<u32>
 charProc<32>[4]
 charParamZero[4]
 charParamOne[4]
 charParamTwo[4]
 charParamThree[4]
-flags<32>
+flags<u32>
 
 BUILD 2.0.3.6299-2.0.6.6337
 $id$ID<32>
 kitType<32>
-animID<32>
+animID<u32>
 headEffect<32>
 chestEffect<32>
 baseEffect<32>
@@ -134,8 +134,8 @@ leftWeaponEffect<32>
 rightWeaponEffect<32>
 specialEffect<32>[3]
 worldEffect<32>
-soundID<32>
-shakeID<32>
+soundID<u32>
+shakeID<u32>
 charProc<32>[4]
 charParamZero[4]
 charParamOne[4]
@@ -145,7 +145,7 @@ charParamThree[4]
 BUILD 0.8.0.3734-2.0.3.6282
 $id$ID<32>
 kitType<32>
-animID<32>
+animID<u32>
 headEffect<32>
 chestEffect<32>
 baseEffect<32>
@@ -154,8 +154,8 @@ rightHandEffect<32>
 breathEffect<32>
 specialEffect<32>[3]
 worldEffect<32>
-soundID<32>
-shakeID<32>
+soundID<u32>
+shakeID<u32>
 charProc<32>[4]
 charParamZero[4]
 charParamOne[4]
@@ -165,7 +165,7 @@ charParamThree[4]
 BUILD 0.7.0.3694-0.7.6.3712
 $id$ID<32>
 kitType<32>
-animID<32>
+animID<u32>
 headEffect<32>
 chestEffect<32>
 baseEffect<32>
@@ -173,8 +173,8 @@ leftHandEffect<32>
 rightHandEffect<32>
 breathEffect<32>
 specialEffect<32>[3]
-soundID<32>
-shakeID<32>
+soundID<u32>
+shakeID<u32>
 charProc<32>[4]
 charParamZero[4]
 charParamOne[4]
@@ -194,5 +194,5 @@ breathEffect<32>
 specialEffect<32>[3]
 characterProcedure<32>
 characterParam[4]
-soundID<32>
-shakeID<32>
+soundID<u32>
+shakeID<u32>

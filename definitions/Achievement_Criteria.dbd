@@ -1,17 +1,17 @@
 COLUMNS
-uint ID
-uint<Achievement::ID> achievement_ID
+int ID
+int<Achievement::ID> achievement_ID
 int type
-uint asset_ID
+int asset_ID
 int quantity
 int start_event
 int start_asset
 int fail_event
 int fail_asset
 locstring description_lang
-uint flags
+int flags
 int timer_start_event
-uint timer_asset_ID
+int timer_asset_ID
 int timer_time
 int ui_order
 int additionalConditionType?
@@ -21,18 +21,18 @@ int field_7003959867?
 
 BUILD 4.1.0.13914-5.4.8.18414
 $id$ID<32>
-achievement_ID<32>
+achievement_ID<u32>
 type<32>
-asset_ID<32>
+asset_ID<u32>
 quantity<64>
 start_event<32>
 start_asset<32>
 fail_event<32>
 fail_asset<32>
 description_lang
-flags<32>
+flags<u32>
 timer_start_event<32>
-timer_asset_ID<32>
+timer_asset_ID<u32>
 timer_time<32>
 ui_order<32>
 field_295204487<32>
@@ -42,17 +42,17 @@ additionalConditionValue<32>[3]
 
 BUILD 4.0.6.13623
 $id$ID<32>
-achievement_ID<32>
+achievement_ID<u32>
 type<32>
-asset_ID<32>
+asset_ID<u32>
 quantity<64>
 start_event<32>
 start_asset<32>
 fail_event<32>
 description_lang
-flags<32>
+flags<u32>
 timer_start_event<32>
-timer_asset_ID<32>
+timer_asset_ID<u32>
 timer_time<32>
 ui_order<32>
 field_295204487<32>
@@ -62,17 +62,17 @@ additionalConditionValue<32>[3]
 
 BUILD 4.0.0.12911-4.0.6.13596
 $id$ID<32>
-achievement_ID<32>
+achievement_ID<u32>
 type<32>
-asset_ID<32>
+asset_ID<u32>
 quantity<64>
 start_event<32>
 start_asset<32>
 fail_event<32>
 description_lang
-flags<32>
+flags<u32>
 timer_start_event<32>
-timer_asset_ID<32>
+timer_asset_ID<u32>
 timer_time<32>
 ui_order<32>
 field_295204487<32>
@@ -80,40 +80,40 @@ field_7003959867<32>
 
 BUILD 3.0.1.8885-4.0.0.12319
 $id$ID<32>
-achievement_ID<32>
+achievement_ID<u32>
 type<32>
-asset_ID<32>
+asset_ID<u32>
 quantity<32>
 start_event<32>
 start_asset<32>
 fail_event<32>
 fail_asset<32>
 description_lang
-flags<32>
+flags<u32>
 timer_start_event<32>
-timer_asset_ID<32>
+timer_asset_ID<u32>
 timer_time<32>
 ui_order<32>
 
 BUILD 3.0.1.8622-3.0.1.8874
 $id$ID<32>
-achievement_ID<32>
+achievement_ID<u32>
 type<32>
-asset_ID<32>
+asset_ID<u32>
 quantity<32>
 start_event<32>
 start_asset<32>
 fail_event<32>
 fail_asset<32>
 description_lang
-flags<32>
+flags<u32>
 ui_order<32>
 
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>
-achievement_ID<32>
+achievement_ID<u32>
 type<32>
-asset_ID<32>
+asset_ID<u32>
 quantity<32>
 start_event<32>
 start_asset<32>

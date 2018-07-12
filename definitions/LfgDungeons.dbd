@@ -1,30 +1,30 @@
 COLUMNS
-uint ID
+int ID
 locstring name_lang
 int minLevel
 int maxLevel
 int target_level
 int target_level_min
 int target_level_max
-uint<Map::ID> mapID
+int<Map::ID> mapID
 int difficulty
-uint<Difficulty::ID> difficultyID
-uint flags
-uint typeID
+int<Difficulty::ID> difficultyID
+int flags
+int typeID
 int faction
 string textureFilename
 int expansionLevel
 int order_index
-uint group_ID
+int group_ID
 locstring description_lang
-uint random_ID
+int random_ID
 int count_tank
 int count_healer
 int count_damage
 int min_count_tank
 int min_count_healer
 int min_count_damage
-uint<Scenario::ID> scenarioID
+int<Scenario::ID> scenarioID
 int subtype
 int bonus_reputation_amount
 int mentorCharLevel
@@ -38,17 +38,17 @@ maxLevel<32>
 target_level<32>
 target_level_min<32>
 target_level_max<32>
-mapID<32>
-difficultyID<32>
-flags<32>
-typeID<32>
+mapID<u32>
+difficultyID<u32>
+flags<u32>
+typeID<u32>
 faction<32>
 textureFilename
 expansionLevel<32>
 order_index<32>
-group_ID<32>
+group_ID<u32>
 description_lang
-random_ID<32>
+random_ID<u32>
 
 BUILD 4.3.2.15211-5.0.1.15464
 $id$ID<32>
@@ -58,17 +58,17 @@ maxLevel<32>
 target_level<32>
 target_level_min<32>
 target_level_max<32>
-mapID<32>
-difficultyID<32>
-flags<32>
-typeID<32>
+mapID<u32>
+difficultyID<u32>
+flags<u32>
+typeID<u32>
 faction<32>
 textureFilename
 expansionLevel<32>
 order_index<32>
-group_ID<32>
+group_ID<u32>
 description_lang
-random_ID<32>
+random_ID<u32>
 count_tank<32>
 count_healer<32>
 count_damage<32>
@@ -81,21 +81,21 @@ maxLevel<32>
 target_level<32>
 target_level_min<32>
 target_level_max<32>
-mapID<32>
-difficultyID<32>
-flags<32>
-typeID<32>
+mapID<u32>
+difficultyID<u32>
+flags<u32>
+typeID<u32>
 faction<32>
 textureFilename
 expansionLevel<32>
 order_index<32>
-group_ID<32>
+group_ID<u32>
 description_lang
-random_ID<32>
+random_ID<u32>
 count_tank<32>
 count_healer<32>
 count_damage<32>
-scenarioID<32>
+scenarioID<u32>
 subtype<32>
 
 BUILD 5.2.0.16516-5.3.0.17116
@@ -106,21 +106,21 @@ maxLevel<32>
 target_level<32>
 target_level_min<32>
 target_level_max<32>
-mapID<32>
-difficultyID<32>
-flags<32>
-typeID<32>
+mapID<u32>
+difficultyID<u32>
+flags<u32>
+typeID<u32>
 faction<32>
 textureFilename
 expansionLevel<32>
 order_index<32>
-group_ID<32>
+group_ID<u32>
 description_lang
-random_ID<32>
+random_ID<u32>
 count_tank<32>
 count_healer<32>
 count_damage<32>
-scenarioID<32>
+scenarioID<u32>
 subtype<32>
 bonus_reputation_amount<32>
 
@@ -132,24 +132,24 @@ maxLevel<32>
 target_level<32>
 target_level_min<32>
 target_level_max<32>
-mapID<32>
-difficultyID<32>
-flags<32>
-typeID<32>
+mapID<u32>
+difficultyID<u32>
+flags<u32>
+typeID<u32>
 faction<32>
 textureFilename
 expansionLevel<32>
 order_index<32>
-group_ID<32>
+group_ID<u32>
 description_lang
-random_ID<32>
+random_ID<u32>
 count_tank<32>
 count_healer<32>
 count_damage<32>
 min_count_tank<32>
 min_count_healer<32>
 min_count_damage<32>
-scenarioID<32>
+scenarioID<u32>
 subtype<32>
 bonus_reputation_amount<32>
 mentorCharLevel<32>
@@ -163,15 +163,15 @@ maxLevel<32>
 target_level<32>
 target_level_min<32>
 target_level_max<32>
-mapID<32>
+mapID<u32>
 difficulty<32>
-flags<32>
-typeID<32>
+flags<u32>
+typeID<u32>
 faction<32>
 textureFilename
 expansionLevel<32>
 order_index<32>
-group_ID<32>
+group_ID<u32>
 description_lang
 
 BUILD 3.3.0.10958-3.3.2.11403
@@ -182,22 +182,22 @@ maxLevel<32>
 target_level<32>
 target_level_min<32>
 target_level_max<32>
-mapID<32>
+mapID<u32>
 difficulty<32>
-flags<32>
-typeID<32>
+flags<u32>
+typeID<u32>
 faction<32>
 textureFilename
 expansionLevel<32>
 order_index<32>
-group_ID<32>
+group_ID<u32>
 
 BUILD 2.0.0.6080-3.2.2.10505
 $id$ID<32>
 name_lang
 minLevel<32>
 maxLevel<32>
-typeID<32>
+typeID<u32>
 faction<32>
 textureFilename
 expansionLevel<32>
@@ -207,5 +207,5 @@ $id$ID<32>
 name_lang
 minLevel<32>
 maxLevel<32>
-typeID<32>
+typeID<u32>
 faction<32>

@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-uint<BattlePetSpecies::ID> battlePetSpeciesID
-uint<BattlePetAbility::ID> battlePetAbilityID
+int<BattlePetSpecies::ID> battlePetSpeciesID
+int<BattlePetAbility::ID> battlePetAbilityID
 int requiredLevel
 int slotEnum
 
 BUILD 5.0.1.15650-5.4.8.18414
 $id$ID<32>
-battlePetSpeciesID<32>
-battlePetAbilityID<32>
+battlePetSpeciesID<u32>
+battlePetAbilityID<u32>
 requiredLevel<32>
 slotEnum<32>
 
 BUILD 5.0.1.15464-5.0.1.15589
 $id$ID<32>
-battlePetSpeciesID<32>
-battlePetAbilityID<32>
+battlePetSpeciesID<u32>
+battlePetAbilityID<u32>
 slotEnum<32>

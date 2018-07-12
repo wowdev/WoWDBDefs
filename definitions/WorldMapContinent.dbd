@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint<Map::ID> mapID
+int<Map::ID> mapID
 int leftBoundary
 int rightBoundary
 int topBoundary
@@ -9,13 +9,13 @@ float continentOffset
 float scale
 float taxiMin
 float taxiMax
-uint worldMapID
+int worldMapID
 float continentOffsetX
 float continentOffsetY
 
 BUILD 3.0.1.8820-6.0.1.18803
 $id$ID<32>
-mapID<32>
+mapID<u32>
 leftBoundary<32>
 rightBoundary<32>
 topBoundary<32>
@@ -24,11 +24,11 @@ continentOffset[2]
 scale
 taxiMin[2]
 taxiMax[2]
-worldMapID<32>
+worldMapID<u32>
 
 BUILD 0.12.0.3988-3.0.1.8788
 $id$ID<32>
-mapID<32>
+mapID<u32>
 leftBoundary<32>
 rightBoundary<32>
 topBoundary<32>
@@ -40,7 +40,7 @@ taxiMax[2]
 
 BUILD 0.5.5.3494-0.11.0.3925
 $id$ID<32>
-mapID<32>
+mapID<u32>
 leftBoundary<32>
 rightBoundary<32>
 topBoundary<32>
@@ -50,7 +50,7 @@ scale
 
 BUILD 0.5.3.3368
 $id$ID<32>
-mapID<32>
+mapID<u32>
 leftBoundary<32>
 rightBoundary<32>
 topBoundary<32>

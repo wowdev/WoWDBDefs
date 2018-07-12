@@ -4,25 +4,25 @@ locstring name_lang
 locstring nameSubtext_lang
 locstring description_lang
 locstring auraDescription_lang
-uint<SpellRuneCost::ID> runeCostID
-uint<SpellMissile::ID> spellMissileID
-uint descriptionVariablesID
-uint<SpellScaling::ID> scalingID
-uint<SpellAuraOptions::ID> auraOptionsID
-uint<SpellAuraRestrictions::ID> auraRestrictionsID
-uint<SpellCastingRequirements::ID> castingRequirementsID
-uint<SpellCategories::ID> categoriesID
-uint<SpellClassOptions::ID> classOptionsID
-uint<SpellCooldowns::ID> cooldownsID
-uint<SpellEquippedItems::ID> equippedItemsID
-uint<SpellInterrupts::ID> interruptsID
-uint<SpellLevels::ID> levelsID
-uint<SpellReagents::ID> reagentsID
-uint<SpellShapeshift::ID> shapeshiftID
-uint<SpellTargetRestrictions::ID> targetRestrictionsID
-uint<SpellTotems::ID> totemsID
-uint requiredProjectID
-uint miscID
+int<SpellRuneCost::ID> runeCostID
+int<SpellMissile::ID> spellMissileID
+int descriptionVariablesID
+int<SpellScaling::ID> scalingID
+int<SpellAuraOptions::ID> auraOptionsID
+int<SpellAuraRestrictions::ID> auraRestrictionsID
+int<SpellCastingRequirements::ID> castingRequirementsID
+int<SpellCategories::ID> categoriesID
+int<SpellClassOptions::ID> classOptionsID
+int<SpellCooldowns::ID> cooldownsID
+int<SpellEquippedItems::ID> equippedItemsID
+int<SpellInterrupts::ID> interruptsID
+int<SpellLevels::ID> levelsID
+int<SpellReagents::ID> reagentsID
+int<SpellShapeshift::ID> shapeshiftID
+int<SpellTargetRestrictions::ID> targetRestrictionsID
+int<SpellTotems::ID> totemsID
+int requiredProjectID
+int miscID
 int category
 int dispelType
 int mechanic
@@ -35,12 +35,12 @@ int attributesExE
 int attributesExF
 int attributesExG
 int attributesExH
-uint shapeshiftMask
+int shapeshiftMask
 int shapeshiftExclude
 int targets
 int targetCreatureType
 int requiresSpellFocus
-uint facingCasterFlags
+int facingCasterFlags
 int casterAuraState
 int targetAuraState
 int excludeCasterAuraState
@@ -52,10 +52,10 @@ int excludeTargetAuraSpell
 int castingTimeIndex
 int recoveryTime
 int categoryRecoveryTime
-uint interruptFlags
-uint auraInterruptFlags
-uint channelInterruptFlags
-uint procTypeMask
+int interruptFlags
+int auraInterruptFlags
+int channelInterruptFlags
+int procTypeMask
 int procChance
 int procCharges
 int maxLevel
@@ -97,27 +97,27 @@ float effectPointsPerCombo
 int effectSpellClassMaskA
 int effectSpellClassMaskB
 int effectSpellClassMaskC
-uint<SpellVisual::ID> spellVisualID
-uint<SpellIcon::ID> spellIconID
-uint<SpellIcon::ID> activeIconID
+int<SpellVisual::ID> spellVisualID
+int<SpellIcon::ID> spellIconID
+int<SpellIcon::ID> activeIconID
 int manaCostPct
 int startRecoveryCategory
 int startRecoveryTime
 int maxTargetLevel
 int spellClassSet
-uint spellClassMask
+int spellClassMask
 int maxtargets
 int defenseType
 int preventionType
 int stanceBarOrder
 float effectChainAmplitude
-uint<Faction::ID> minFactionID
+int<Faction::ID> minFactionID
 int minReputation
 int requiredAuraVision
-uint<TotemCategory::ID> requiredTotemcategoryID
-uint<AreaGroup::ID> requiredAreasID
-uint schoolMask
-uint<PowerDisplay::ID> powerDisplayID
+int<TotemCategory::ID> requiredTotemcategoryID
+int<AreaGroup::ID> requiredAreasID
+int schoolMask
+int<PowerDisplay::ID> powerDisplayID
 float effectBonusCoefficient
 int difficulty
 int castUI
@@ -126,7 +126,7 @@ int effectBaseDice
 int effectDicePerLevel
 int spellPriority
 int school
-uint procFlags
+int procFlags
 int field_8124015288?
 int maxTargets
 int field_8635953305?
@@ -142,7 +142,7 @@ int field_6231371558?
 int field_648665177?
 int field_5174478849?
 int field_5062727222?
-uint<TotemCategory::ID> requiredTotemCategoryID
+int<TotemCategory::ID> requiredTotemCategoryID
 int field_3196624630?
 int field_7342164282?
 int field_7026905970?
@@ -153,26 +153,26 @@ name_lang
 nameSubtext_lang
 description_lang
 auraDescription_lang
-runeCostID<32>
-spellMissileID<32>
-descriptionVariablesID<32>
+runeCostID<u32>
+spellMissileID<u32>
+descriptionVariablesID<u32>
 field_1478754152
-scalingID<32>
-auraOptionsID<32>
-auraRestrictionsID<32>
-castingRequirementsID<32>
-categoriesID<32>
-classOptionsID<32>
-cooldownsID<32>
-equippedItemsID<32>
-interruptsID<32>
-levelsID<32>
-reagentsID<32>
-shapeshiftID<32>
-targetRestrictionsID<32>
-totemsID<32>
-requiredProjectID<32>
-miscID<32>
+scalingID<u32>
+auraOptionsID<u32>
+auraRestrictionsID<u32>
+castingRequirementsID<u32>
+categoriesID<u32>
+classOptionsID<u32>
+cooldownsID<u32>
+equippedItemsID<u32>
+interruptsID<u32>
+levelsID<u32>
+reagentsID<u32>
+shapeshiftID<u32>
+targetRestrictionsID<u32>
+totemsID<u32>
+requiredProjectID<u32>
+miscID<u32>
 
 BUILD 5.0.1.15464-5.0.1.15544
 $id$ID<32>
@@ -191,34 +191,34 @@ castingTimeIndex<32>
 durationIndex<32>
 rangeIndex<32>
 speed
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 name_lang
 nameSubtext_lang
 description_lang
 auraDescription_lang
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
-descriptionVariablesID<32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
+descriptionVariablesID<u32>
 difficulty<32>
 spellCoef
-scalingID<32>
-auraOptionsID<32>
-auraRestrictionsID<32>
-castingRequirementsID<32>
-categoriesID<32>
-classOptionsID<32>
-cooldownsID<32>
-equippedItemsID<32>
-interruptsID<32>
-levelsID<32>
-reagentsID<32>
-shapeshiftID<32>
-targetRestrictionsID<32>
-totemsID<32>
-requiredProjectID<32>
+scalingID<u32>
+auraOptionsID<u32>
+auraRestrictionsID<u32>
+castingRequirementsID<u32>
+categoriesID<u32>
+classOptionsID<u32>
+cooldownsID<u32>
+equippedItemsID<u32>
+interruptsID<u32>
+levelsID<u32>
+reagentsID<u32>
+shapeshiftID<u32>
+targetRestrictionsID<u32>
+totemsID<u32>
+requiredProjectID<u32>
 
 BUILD 4.2.0.14333-4.3.4.15595
 $id$ID<32>
@@ -238,36 +238,36 @@ durationIndex<32>
 powerType<32>
 rangeIndex<32>
 speed
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 name_lang
 nameSubtext_lang
 description_lang
 auraDescription_lang
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
-descriptionVariablesID<32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
+descriptionVariablesID<u32>
 difficulty<32>
 spellCoef
-scalingID<32>
-auraOptionsID<32>
-auraRestrictionsID<32>
-castingRequirementsID<32>
-categoriesID<32>
-classOptionsID<32>
-cooldownsID<32>
+scalingID<u32>
+auraOptionsID<u32>
+auraRestrictionsID<u32>
+castingRequirementsID<u32>
+categoriesID<u32>
+classOptionsID<u32>
+cooldownsID<u32>
 field_9269461268<32>
-equippedItemsID<32>
-interruptsID<32>
-levelsID<32>
-powerDisplayID<32>
-reagentsID<32>
-shapeshiftID<32>
-targetRestrictionsID<32>
-totemsID<32>
-requiredProjectID<32>
+equippedItemsID<u32>
+interruptsID<u32>
+levelsID<u32>
+powerDisplayID<u32>
+reagentsID<u32>
+shapeshiftID<u32>
+targetRestrictionsID<u32>
+totemsID<u32>
+requiredProjectID<u32>
 
 BUILD 4.0.0.12911-4.1.0.14007
 $id$ID<32>
@@ -286,36 +286,36 @@ durationIndex<32>
 powerType<32>
 rangeIndex<32>
 speed
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 name_lang
 nameSubtext_lang
 description_lang
 auraDescription_lang
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
-descriptionVariablesID<32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
+descriptionVariablesID<u32>
 difficulty<32>
 spellCoef
-scalingID<32>
-auraOptionsID<32>
-auraRestrictionsID<32>
-castingRequirementsID<32>
-categoriesID<32>
-classOptionsID<32>
-cooldownsID<32>
+scalingID<u32>
+auraOptionsID<u32>
+auraRestrictionsID<u32>
+castingRequirementsID<u32>
+categoriesID<u32>
+classOptionsID<u32>
+cooldownsID<u32>
 field_9269461268<32>
-equippedItemsID<32>
-interruptsID<32>
-levelsID<32>
-powerDisplayID<32>
-reagentsID<32>
-shapeshiftID<32>
-targetRestrictionsID<32>
-totemsID<32>
-requiredProjectID<32>
+equippedItemsID<u32>
+interruptsID<u32>
+levelsID<u32>
+powerDisplayID<u32>
+reagentsID<u32>
+shapeshiftID<u32>
+targetRestrictionsID<u32>
+totemsID<u32>
+requiredProjectID<u32>
 
 BUILD 4.0.0.12232-4.0.0.12319
 $id$ID<32>
@@ -333,35 +333,35 @@ attributesExJ<32>
 powerType<32>
 rangeIndex<32>
 speed
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 name_lang
 nameSubtext_lang
 description_lang
 auraDescription_lang
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
-descriptionVariablesID<32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
+descriptionVariablesID<u32>
 difficulty<32>
 spellCoef
-scalingID<32>
-auraOptionsID<32>
-auraRestrictionsID<32>
-castingRequirementsID<32>
-categoriesID<32>
-classOptionsID<32>
-cooldownsID<32>
+scalingID<u32>
+auraOptionsID<u32>
+auraRestrictionsID<u32>
+castingRequirementsID<u32>
+categoriesID<u32>
+classOptionsID<u32>
+cooldownsID<u32>
 field_648665177<32>
-equippedItemsID<32>
-interruptsID<32>
-levelsID<32>
-powerDisplayID<32>
-reagentsID<32>
-shapeshiftID<32>
-targetRestrictionsID<32>
-totemsID<32>
+equippedItemsID<u32>
+interruptsID<u32>
+levelsID<u32>
+powerDisplayID<u32>
+reagentsID<u32>
+shapeshiftID<u32>
+targetRestrictionsID<u32>
+totemsID<u32>
 field_6231371558<32>
 field_5174478849<32>
 field_5062727222<32>
@@ -380,12 +380,12 @@ attributesExE<32>
 attributesExF<32>
 attributesExG<32>
 attributesExH<32>
-shapeshiftMask<32>[2]
+shapeshiftMask<u32>[2]
 shapeshiftExclude<32>[2]
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -397,10 +397,10 @@ excludeTargetAuraSpell<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>[2]
-channelInterruptFlags<32>[2]
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>[2]
+channelInterruptFlags<u32>[2]
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -442,9 +442,9 @@ effectPointsPerCombo[3]
 effectSpellClassMaskA<32>[3]
 effectSpellClassMaskB<32>[3]
 effectSpellClassMaskC<32>[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 name_lang
 nameSubtext_lang
 description_lang
@@ -454,26 +454,26 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[3]
+spellClassMask<u32>[3]
 maxTargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemCategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
-powerDisplayID<32>
+requiredTotemCategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
+powerDisplayID<u32>
 effectBonusCoefficient[3]
-descriptionVariablesID<32>
+descriptionVariablesID<u32>
 difficulty<32>
 spellCoef
-scalingID<32>
+scalingID<u32>
 field_3196624630<32>
 field_7342164282<32>
 field_7026905970<32>
@@ -492,12 +492,12 @@ attributesExE<32>
 attributesExF<32>
 attributesExG<32>
 attributesExH<32>
-shapeshiftMask<32>[2]
+shapeshiftMask<u32>[2]
 shapeshiftExclude<32>[2]
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -509,10 +509,10 @@ excludeTargetAuraSpell<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>[2]
-channelInterruptFlags<32>[2]
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>[2]
+channelInterruptFlags<u32>[2]
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -554,9 +554,9 @@ effectPointsPerCombo[3]
 effectSpellClassMaskA<32>[3]
 effectSpellClassMaskB<32>[3]
 effectSpellClassMaskC<32>[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 name_lang
 nameSubtext_lang
 description_lang
@@ -566,25 +566,25 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[3]
+spellClassMask<u32>[3]
 maxTargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemCategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
-powerDisplayID<32>
+requiredTotemCategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
+powerDisplayID<u32>
 effectBonusCoefficient[3]
-descriptionVariablesID<32>
+descriptionVariablesID<u32>
 difficulty<32>
-scalingID<32>
+scalingID<u32>
 field_3196624630<32>
 field_7342164282<32>
 field_7026905970<32>
@@ -602,12 +602,12 @@ attributesExD<32>
 attributesExE<32>
 attributesExF<32>
 attributesExG<32>
-shapeshiftMask<32>[2]
+shapeshiftMask<u32>[2]
 shapeshiftExclude<32>[2]
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -619,10 +619,10 @@ excludeTargetAuraSpell<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -664,9 +664,9 @@ effectPointsPerCombo[3]
 effectSpellClassMaskA<32>[3]
 effectSpellClassMaskB<32>[3]
 effectSpellClassMaskC<32>[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -677,23 +677,23 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[3]
+spellClassMask<u32>[3]
 maxtargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemcategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
-powerDisplayID<32>
+requiredTotemcategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
+powerDisplayID<u32>
 effectBonusCoefficient[3]
-descriptionVariablesID<32>
+descriptionVariablesID<u32>
 difficulty<32>
 
 BUILD 3.3.0.10958-3.3.2.11403
@@ -709,12 +709,12 @@ attributesExD<32>
 attributesExE<32>
 attributesExF<32>
 attributesExG<32>
-shapeshiftMask<32>[2]
+shapeshiftMask<u32>[2]
 shapeshiftExclude<32>[2]
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -726,10 +726,10 @@ excludeTargetAuraSpell<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -773,9 +773,9 @@ effectPointsPerCombo[3]
 effectSpellClassMaskA<32>[3]
 effectSpellClassMaskB<32>[3]
 effectSpellClassMaskC<32>[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -786,23 +786,23 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[3]
+spellClassMask<u32>[3]
 maxtargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemcategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
-powerDisplayID<32>
+requiredTotemcategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
+powerDisplayID<u32>
 effectBonusCoefficient[3]
-descriptionVariablesID<32>
+descriptionVariablesID<u32>
 difficulty<32>
 
 BUILD 3.2.0.10192-3.2.2.10505
@@ -818,12 +818,12 @@ attributesExD<32>
 attributesExE<32>
 attributesExF<32>
 attributesExG<32>
-shapeshiftMask<32>[2]
+shapeshiftMask<u32>[2]
 shapeshiftExclude<32>[2]
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -835,10 +835,10 @@ excludeTargetAuraSpell<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -882,9 +882,9 @@ effectPointsPerCombo[3]
 effectSpellClassMaskA<32>[3]
 effectSpellClassMaskB<32>[3]
 effectSpellClassMaskC<32>[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -895,23 +895,23 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[3]
+spellClassMask<u32>[3]
 maxtargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemcategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
-powerDisplayID<32>
+requiredTotemcategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
+powerDisplayID<u32>
 effectBonusCoefficient[3]
-descriptionVariablesID<32>
+descriptionVariablesID<u32>
 
 BUILD 3.1.0.9767-3.1.3.9947
 $id$ID<32>
@@ -925,12 +925,12 @@ attributesExC<32>
 attributesExD<32>
 attributesExE<32>
 attributesExF<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -942,10 +942,10 @@ excludeTargetAuraSpell<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -989,9 +989,9 @@ effectPointsPerCombo[3]
 effectSpellClassMaskA<32>[3]
 effectSpellClassMaskB<32>[3]
 effectSpellClassMaskC<32>[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1002,21 +1002,21 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[3]
+spellClassMask<u32>[3]
 maxtargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemcategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
-powerDisplayID<32>
+requiredTotemcategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
+powerDisplayID<u32>
 
 BUILD 3.0.1.8885-3.0.9.9551
 $id$ID<32>
@@ -1030,12 +1030,12 @@ attributesExC<32>
 attributesExD<32>
 attributesExE<32>
 attributesExF<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -1047,10 +1047,10 @@ excludeTargetAuraSpell<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -1094,9 +1094,9 @@ effectPointsPerCombo[3]
 effectSpellClassMaskA<32>[3]
 effectSpellClassMaskB<32>[3]
 effectSpellClassMaskC<32>[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1107,20 +1107,20 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[3]
+spellClassMask<u32>[3]
 maxtargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemcategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
+requiredTotemcategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
 
 BUILD 3.0.1.8820-3.0.1.8874
 $id$ID<32>
@@ -1134,12 +1134,12 @@ attributesExC<32>
 attributesExD<32>
 attributesExE<32>
 attributesExF<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -1151,10 +1151,10 @@ field_790948938<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -1195,9 +1195,9 @@ effectMiscValue<32>[3]
 effectMiscValueB<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1208,20 +1208,20 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[3]
+spellClassMask<u32>[3]
 maxTargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemCategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
+requiredTotemCategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
 
 BUILD 3.0.1.8622-3.0.1.8788
 $id$ID<32>
@@ -1235,12 +1235,12 @@ attributesExC<32>
 attributesExD<32>
 attributesExE<32>
 attributesExF<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -1252,10 +1252,10 @@ field_790948938<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -1296,9 +1296,9 @@ effectMiscValue<32>[3]
 effectMiscValueB<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1309,20 +1309,20 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 maxTargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemCategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
+requiredTotemCategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
 
 BUILD 2.4.3.8606
 $id$ID<32>
@@ -1337,12 +1337,12 @@ attributesExC<32>
 attributesExD<32>
 attributesExE<32>
 attributesExF<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -1350,10 +1350,10 @@ excludeTargetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -1394,9 +1394,9 @@ effectMiscValue<32>[3]
 effectMiscValueB<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1407,18 +1407,18 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 maxTargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemCategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
+requiredTotemCategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
 
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>
@@ -1433,12 +1433,12 @@ attributesExC<32>
 attributesExD<32>
 attributesExE<32>
 attributesExF<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -1446,10 +1446,10 @@ excludeTargetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procTypeMask<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procTypeMask<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -1490,9 +1490,9 @@ effectMiscValue<32>[3]
 effectMiscValueB<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1503,20 +1503,20 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 maxtargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemcategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
-runeCostID<32>
-spellMissileID<32>
+requiredTotemcategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
+runeCostID<u32>
+spellMissileID<u32>
 
 BUILD 2.4.0.8089-2.4.2.8278
 $id$ID<32>
@@ -1531,12 +1531,12 @@ attributesExB<32>
 attributesExC<32>
 attributesExD<32>
 attributesExE<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
-facingCasterFlags<32>
+facingCasterFlags<u32>
 casterAuraState<32>
 targetAuraState<32>
 excludeCasterAuraState<32>
@@ -1544,10 +1544,10 @@ excludeTargetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -1587,9 +1587,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1600,18 +1600,18 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 maxTargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemCategoryID<32>[2]
-requiredAreasID<32>
-schoolMask<32>
+requiredTotemCategoryID<u32>[2]
+requiredAreasID<u32>
+schoolMask<u32>
 
 BUILD 2.0.0.6080-2.3.3.7799
 $id$ID<32>
@@ -1626,7 +1626,7 @@ attributesExB<32>
 attributesExC<32>
 attributesExD<32>
 attributesExE<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
@@ -1638,10 +1638,10 @@ excludeTargetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -1681,9 +1681,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1694,17 +1694,17 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 maxTargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemCategoryID<32>[2]
-requiredAreasID<32>
+requiredTotemCategoryID<u32>[2]
+requiredAreasID<u32>
 
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>
@@ -1718,7 +1718,7 @@ attributesEx<32>
 attributesExB<32>
 attributesExC<32>
 attributesExD<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
@@ -1728,10 +1728,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -1771,9 +1771,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1784,16 +1784,16 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 maxTargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
-requiredTotemCategoryID<32>[2]
+requiredTotemCategoryID<u32>[2]
 
 BUILD 1.12.0.5595-1.12.2.6005
 $id$ID<32>
@@ -1807,7 +1807,7 @@ attributesEx<32>
 attributesExB<32>
 attributesExC<32>
 attributesExD<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
@@ -1817,10 +1817,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -1860,9 +1860,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1873,13 +1873,13 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 maxTargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
 
@@ -1893,7 +1893,7 @@ mechanic<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
@@ -1903,10 +1903,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -1945,9 +1945,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -1958,14 +1958,14 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 maxTargets<32>
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
 field_8124015288<32>
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
 
@@ -1979,7 +1979,7 @@ mechanic<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
@@ -1989,10 +1989,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2031,9 +2031,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2044,13 +2044,13 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
 field_8124015288<32>
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 requiredAuraVision<32>
 
@@ -2065,7 +2065,7 @@ mechanic<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
@@ -2075,10 +2075,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2117,9 +2117,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2130,13 +2130,13 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
 effectChainAmplitude[3]
 field_8124015288<32>
-minFactionID<32>
+minFactionID<u32>
 minReputation<32>
 
 BUILD 1.8.0.4735-1.8.4.4878
@@ -2149,7 +2149,7 @@ mechanic<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
@@ -2159,10 +2159,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2201,9 +2201,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2214,7 +2214,7 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
@@ -2231,7 +2231,7 @@ mechanic<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 shapeshiftExclude<32>
 targets<32>
 targetCreatureType<32>
@@ -2241,10 +2241,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2282,9 +2282,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2295,7 +2295,7 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
@@ -2312,7 +2312,7 @@ mechanic<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
@@ -2321,10 +2321,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2362,9 +2362,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2375,7 +2375,7 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
@@ -2391,7 +2391,7 @@ dispelType<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
@@ -2400,10 +2400,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2441,9 +2441,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2454,7 +2454,7 @@ startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
 spellClassSet<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
@@ -2470,7 +2470,7 @@ dispelType<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
@@ -2479,10 +2479,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2520,9 +2520,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>[2]
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>[2]
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2532,7 +2532,7 @@ manaCostPct<32>
 startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 defenseType<32>
 preventionType<32>
 stanceBarOrder<32>
@@ -2546,7 +2546,7 @@ dispelType<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
@@ -2555,10 +2555,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2596,9 +2596,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2608,7 +2608,7 @@ manaCostPct<32>
 startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 defenseType<32>
 preventionType<32>
 
@@ -2621,7 +2621,7 @@ dispelType<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
@@ -2630,10 +2630,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2671,9 +2671,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2683,7 +2683,7 @@ manaCostPct<32>
 startRecoveryCategory<32>
 startRecoveryTime<32>
 maxTargetLevel<32>
-spellClassMask<32>[2]
+spellClassMask<u32>[2]
 defenseType<32>
 
 BUILD 0.7.0.3694-0.7.6.3712
@@ -2695,7 +2695,7 @@ dispelType<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
@@ -2704,10 +2704,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2745,9 +2745,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2767,7 +2767,7 @@ dispelType<32>
 attributes<32>
 attributesEx<32>
 attributesExB<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
@@ -2776,10 +2776,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2817,9 +2817,9 @@ effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
 effectPointsPerCombo[3]
-spellVisualID<32>
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2837,7 +2837,7 @@ castUI<32>
 dispelType<32>
 attributes<32>
 attributesEx<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
@@ -2846,10 +2846,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2885,9 +2885,9 @@ effectChainTargets<32>[3]
 effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
-spellVisualID<32>
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang
@@ -2904,7 +2904,7 @@ category<32>
 castUI<32>
 attributes<32>
 attributesEx<32>
-shapeshiftMask<32>
+shapeshiftMask<u32>
 targets<32>
 targetCreatureType<32>
 requiresSpellFocus<32>
@@ -2913,10 +2913,10 @@ targetAuraState<32>
 castingTimeIndex<32>
 recoveryTime<32>
 categoryRecoveryTime<32>
-interruptFlags<32>
-auraInterruptFlags<32>
-channelInterruptFlags<32>
-procFlags<32>
+interruptFlags<u32>
+auraInterruptFlags<u32>
+channelInterruptFlags<u32>
+procFlags<u32>
 procChance<32>
 procCharges<32>
 maxLevel<32>
@@ -2952,9 +2952,9 @@ effectChainTargets<32>[3]
 effectItemType<32>[3]
 effectMiscValue<32>[3]
 effectTriggerSpell<32>[3]
-spellVisualID<32>
-spellIconID<32>
-activeIconID<32>
+spellVisualID<u32>
+spellIconID<u32>
+activeIconID<u32>
 spellPriority<32>
 name_lang
 nameSubtext_lang

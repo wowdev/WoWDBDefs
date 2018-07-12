@@ -8,12 +8,12 @@ float minAllowedScale
 float maxAllowedScale
 float alpha
 int type
-uint flags
+int flags
 int padding_229586292?
 int field_1436216259?
 int specialAttachPoint
-uint specialID
-uint visualEffectNameFlags
+int specialID
+int visualEffectNameFlags
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
@@ -22,10 +22,10 @@ areaEffectSize
 scale
 minAllowedScale
 maxAllowedScale
-type<8>
-padding_229586292<8>[3]
+type<u8>
+padding_229586292<u8>[3]
 alpha
-flags<32>
+flags<u32>
 
 BUILD 5.0.1.15589-5.3.0.17116
 $id$ID<32>
@@ -37,7 +37,7 @@ minAllowedScale
 maxAllowedScale
 type<32>
 alpha
-flags<32>
+flags<u32>
 
 BUILD 4.1.0.13914-5.0.1.15544
 $id$ID<32>
@@ -85,15 +85,15 @@ BUILD 0.7.0.3694-0.7.6.3712
 $id$ID<32>
 name
 fileName
-specialID<32>
+specialID<u32>
 specialAttachPoint<32>
 areaEffectSize
-visualEffectNameFlags<32>
+visualEffectNameFlags<u32>
 
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
 fileName
-specialID<32>
+specialID<u32>
 specialAttachPoint<32>
 areaEffectSize
-visualEffectNameFlags<32>
+visualEffectNameFlags<u32>

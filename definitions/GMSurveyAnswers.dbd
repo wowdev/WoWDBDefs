@@ -1,11 +1,11 @@
 COLUMNS
 int ID
 int sort_Index
-uint<GMSurveyQuestions::ID> GMSurveyQuestionID
+int<GMSurveyQuestions::ID> GMSurveyQuestionID
 locstring answer_lang
 
 BUILD 3.0.2.9056-5.4.8.18414
 $id$ID<32>
 sort_Index<32>
-GMSurveyQuestionID<32>
+GMSurveyQuestionID<u32>
 answer_lang

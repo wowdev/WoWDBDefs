@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint<Languages::ID> languageID
+int<Languages::ID> languageID
 string word
 
 BUILD 0.5.3.3368-6.2.4.21742
 $id$ID<32>
-languageID<32>
+languageID<u32>
 word

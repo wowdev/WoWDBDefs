@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint<SoundEntries::ID> ambienceID
+int<SoundEntries::ID> ambienceID
 int type
 int effectType
 float intensity
@@ -10,7 +10,7 @@ string effectTexture
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-ambienceID<32>
+ambienceID<u32>
 type<32>
 effectType<32>
 intensity[2]
@@ -20,7 +20,7 @@ effectTexture
 
 BUILD 3.3.0.10958-4.3.4.15595
 $id$ID<32>
-ambienceID<32>
+ambienceID<u32>
 effectType<32>
 transitionSkyBox
 effectColor[3]
@@ -28,7 +28,7 @@ effectTexture
 
 BUILD 2.1.0.6692-3.2.2.10505
 $id$ID<32>
-ambienceID<32>
+ambienceID<u32>
 effectType<32>
 effectColor[3]
 effectTexture

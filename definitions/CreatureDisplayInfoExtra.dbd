@@ -1,37 +1,37 @@
 COLUMNS
 int ID
-uint flags
-uint<ChrRaces::ID> displayRaceID
-uint displaySexID
-uint skinID
-uint faceID
-uint hairStyleID
-uint hairColorID
-uint facialHairID
+int flags
+int<ChrRaces::ID> displayRaceID
+int displaySexID
+int skinID
+int faceID
+int hairStyleID
+int hairColorID
+int facialHairID
 string bakeName
 int<ItemDisplayInfo::ID> NPCItemDisplay
 
 BUILD 2.0.0.6080-5.4.8.18273
 $id$ID<32>
-displayRaceID<32>
-displaySexID<32>
-skinID<32>
-faceID<32>
-hairStyleID<32>
-hairColorID<32>
-facialHairID<32>
+displayRaceID<u32>
+displaySexID<u32>
+skinID<u32>
+faceID<u32>
+hairStyleID<u32>
+hairColorID<u32>
+facialHairID<u32>
 NPCItemDisplay<32>[11]
-flags<32>
+flags<u32>
 bakeName
 
 BUILD 0.5.3.3368-2.0.0.5991
 $id$ID<32>
-displayRaceID<32>
-displaySexID<32>
-skinID<32>
-faceID<32>
-hairStyleID<32>
-hairColorID<32>
-facialHairID<32>
+displayRaceID<u32>
+displaySexID<u32>
+skinID<u32>
+faceID<u32>
+hairStyleID<u32>
+hairColorID<u32>
+facialHairID<u32>
 NPCItemDisplay<32>[10]
 bakeName

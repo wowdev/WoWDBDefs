@@ -6,16 +6,16 @@ locstring name_female_lang
 locstring name_male_lang
 string filename
 int spellClassSet
-uint flags
-uint<CinematicSequences::ID> cinematicSequenceID
+int flags
+int<CinematicSequences::ID> cinematicSequenceID
 int attackPowerPerStrength
 int attackPowerPerAgility
 int rangedAttackPowerPerAgility
 int defaultSpec
-uint<FileData::ID> createScreenFileDataID
-uint<FileData::ID> selectScreenFileDataID
-uint<FileData::ID> lowResScreenFileDataID
-uint<FileData::ID> iconFileDataID
+int<FileData::ID> createScreenFileDataID
+int<FileData::ID> selectScreenFileDataID
+int<FileData::ID> lowResScreenFileDataID
+int<FileData::ID> iconFileDataID
 int required_expansion
 int displayPower
 int field_9880622150?
@@ -31,16 +31,16 @@ name_female_lang
 name_male_lang
 filename
 spellClassSet<32>
-flags<32>
-cinematicSequenceID<32>
+flags<u32>
+cinematicSequenceID<u32>
 attackPowerPerStrength<32>
 attackPowerPerAgility<32>
 rangedAttackPowerPerAgility<32>
 defaultSpec<32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-lowResScreenFileDataID<32>
-iconFileDataID<32>
+createScreenFileDataID<u32>
+selectScreenFileDataID<u32>
+lowResScreenFileDataID<u32>
+iconFileDataID<u32>
 
 BUILD 5.0.1.15668-5.0.4.15890
 $id$ID<32>
@@ -51,15 +51,15 @@ name_female_lang
 name_male_lang
 filename
 spellClassSet<32>
-flags<32>
-cinematicSequenceID<32>
+flags<u32>
+cinematicSequenceID<u32>
 required_expansion<32>
 attackPowerPerStrength<32>
 attackPowerPerAgility<32>
 rangedAttackPowerPerAgility<32>
 defaultSpec<32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
+createScreenFileDataID<u32>
+selectScreenFileDataID<u32>
 
 BUILD 5.0.1.15464-5.0.1.15662
 $id$ID<32>
@@ -70,8 +70,8 @@ name_female_lang
 name_male_lang
 filename
 spellClassSet<32>
-flags<32>
-cinematicSequenceID<32>
+flags<u32>
+cinematicSequenceID<u32>
 required_expansion<32>
 attackPowerPerStrength<32>
 attackPowerPerAgility<32>
@@ -87,8 +87,8 @@ name_female_lang
 name_male_lang
 filename
 spellClassSet<32>
-flags<32>
-cinematicSequenceID<32>
+flags<u32>
+cinematicSequenceID<u32>
 required_expansion<32>
 attackPowerPerStrength<32>
 attackPowerPerAgility<32>
@@ -103,8 +103,8 @@ name_female_lang
 name_male_lang
 filename
 spellClassSet<32>
-flags<32>
-cinematicSequenceID<32>
+flags<u32>
+cinematicSequenceID<u32>
 required_expansion<32>
 attackPowerPerStrength<32>
 attackPowerPerAgility<32>
@@ -120,8 +120,8 @@ name_female_lang
 name_male_lang
 filename
 spellClassSet<32>
-flags<32>
-cinematicSequenceID<32>
+flags<u32>
+cinematicSequenceID<u32>
 required_expansion<32>
 
 BUILD 3.0.1.8622-3.0.1.8634
@@ -134,8 +134,8 @@ name_female_lang
 name_male_lang
 filename
 spellClassSet<32>
-flags<32>
-cinematicSequenceID<32>
+flags<u32>
+cinematicSequenceID<u32>
 
 BUILD 2.4.0.8089-3.0.1.8471
 $id$ID<32>
@@ -147,7 +147,7 @@ name_female_lang
 name_male_lang
 filename
 spellClassSet<32>
-flags<32>
+flags<u32>
 
 BUILD 2.1.0.6692-2.3.3.7799
 $id$ID<32>
@@ -157,7 +157,7 @@ petNameToken
 name_lang
 filename
 spellClassSet<32>
-flags<32>
+flags<u32>
 
 BUILD 2.0.0.6080-2.0.6.6337
 $id$ID<32>
@@ -168,7 +168,7 @@ petNameToken
 name_lang
 filename
 spellClassSet<32>
-flags<32>
+flags<u32>
 field_9880622150<32>
 
 BUILD 1.10.0.5195-2.0.0.5666
@@ -180,7 +180,7 @@ petNameToken
 name_lang
 filename
 spellClassSet<32>
-flags<32>
+flags<u32>
 
 BUILD 1.2.0.4147-1.9.4.5086
 $id$ID<32>

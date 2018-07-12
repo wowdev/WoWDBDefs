@@ -1,16 +1,16 @@
 COLUMNS
 int ID
-uint movieID
-uint fileDataID
-uint overlayFileDataID
+int movieID
+int fileDataID
+int overlayFileDataID
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-movieID<32>
-fileDataID<32>
-overlayFileDataID<32>
+movieID<u32>
+fileDataID<u32>
+overlayFileDataID<u32>
 
 BUILD 3.0.1.8471-4.3.4.15595
 $id$ID<32>
-movieID<32>
-fileDataID<32>
+movieID<u32>
+fileDataID<u32>

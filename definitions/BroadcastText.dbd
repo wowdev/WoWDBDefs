@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-uint<Languages::ID> languageID
+int<Languages::ID> languageID
 string maleText
 string femaleText
-uint<Emotes::ID> emoteID
+int<Emotes::ID> emoteID
 int emoteDelay
-uint<SoundEntries::ID> soundID
-uint endEmoteID
+int<SoundEntries::ID> soundID
+int endEmoteID
 int type
 
 BUILD 5.0.1.15650-6.2.4.21742
 $id$ID<32>
-languageID<32>
+languageID<u32>
 maleText
 femaleText
-emoteID<32>[3]
+emoteID<u32>[3]
 emoteDelay<32>[3]
-soundID<32>
-endEmoteID<32>
+soundID<u32>
+endEmoteID<u32>
 type<32>

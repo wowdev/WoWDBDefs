@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint flags
+int flags
 float defaultPitchMin
 float defaultPitchMax
 float defaultSpeedMin
@@ -17,7 +17,7 @@ float collisionRadius
 
 BUILD 3.1.0.9767-6.2.4.21742
 $id$ID<32>
-flags<32>
+flags<u32>
 defaultPitchMin
 defaultPitchMax
 defaultSpeedMin
@@ -34,7 +34,7 @@ collisionRadius
 
 BUILD 3.0.1.8391-3.0.9.9551
 $id$ID<32>
-flags<32>
+flags<u32>
 defaultPitchMin
 defaultPitchMax
 defaultSpeedMin
@@ -50,7 +50,7 @@ maxDuration
 
 BUILD 3.0.1.8303-3.0.1.8334
 $id$ID<32>
-flags<32>
+flags<u32>
 defaultPitchMin
 defaultPitchMax
 defaultSpeedMin

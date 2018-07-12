@@ -8,11 +8,11 @@ int camera5
 int camera6
 int camera7
 int camera8
-uint<SoundEntries::ID> soundID
+int<SoundEntries::ID> soundID
 
 BUILD 0.5.3.3368-6.2.4.21742
 $id$ID<32>
-soundID<32>
+soundID<u32>
 camera1<32>
 camera2<32>
 camera3<32>

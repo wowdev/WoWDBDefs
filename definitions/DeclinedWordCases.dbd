@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint<DeclinedWord::ID> declinedWordID
+int<DeclinedWord::ID> declinedWordID
 int caseIndex
 string declinedWord
 
 BUILD 2.4.0.8089-6.2.4.21742
 $id$ID<32>
-declinedWordID<32>
+declinedWordID<u32>
 caseIndex<32>
 declinedWord

@@ -1,25 +1,25 @@
 COLUMNS
 int ID
 int maxPlayers
-uint<Map::ID> parentMapID
+int<Map::ID> parentMapID
 int raidOffset
-uint<AreaTable::ID> areaTableID
+int<AreaTable::ID> areaTableID
 float minimapIconScale
 int timeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
-uint expansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
-uint<Map::ID> corpseMapID
+int expansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
+int<Map::ID> corpseMapID
 float corpse // Array of CorpsePosX/CorpsePosY
 float corpseX
 float corpseY
 int mapType? // flags2?
 string directory // reference to World\Map\ [...] \
 int instanceType // Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: none (official from "IsInInstance()")
-uint flags? // probaby same as isBattleground
+int flags? // probaby same as isBattleground
 int PVP
 locstring mapName_lang
 locstring mapDescription0_lang // Horde
 locstring mapDescription1_lang // Alliance
-uint<LoadingScreens::ID> loadingScreenID
+int<LoadingScreens::ID> loadingScreenID
 float field_4964484313?
 float field_9587872023?
 int field_2247165847?
@@ -45,19 +45,19 @@ instanceType<32>
 flags<32>
 mapType<32>
 mapName_lang
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 minimapIconScale
-corpseMapID<32>
+corpseMapID<u32>
 corpseX
 corpseY
 timeOfDayOverride<32>
 expansionID<32>
 raidOffset<32>
 maxPlayers<32>
-parentMapID<32>
+parentMapID<u32>
 
 BUILD 4.0.6.13623-5.0.1.15544
 $id$ID<32>
@@ -67,18 +67,18 @@ flags<32>
 mapType<32>
 PVP<32>
 mapName_lang
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 minimapIconScale
-corpseMapID<32>
+corpseMapID<u32>
 corpse[2]
 timeOfDayOverride<32>
 expansionID<32>
 raidOffset<32>
 maxPlayers<32>
-parentMapID<32>
+parentMapID<u32>
 
 BUILD 4.0.0.11927-4.0.6.13596
 $id$ID<32>
@@ -87,18 +87,18 @@ instanceType<32>
 flags<32>
 PVP<32>
 mapName_lang
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 minimapIconScale
-corpseMapID<32>
+corpseMapID<u32>
 corpse[2]
 timeOfDayOverride<32>
 expansionID<32>
 raidOffset<32>
 maxPlayers<32>
-parentMapID<32>
+parentMapID<u32>
 
 BUILD 3.3.0.10958-3.3.5.12340
 $id$ID<32>
@@ -107,12 +107,12 @@ instanceType<32>
 flags<32>
 PVP<32>
 mapName_lang
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 minimapIconScale
-corpseMapID<32>
+corpseMapID<u32>
 corpse[2]
 timeOfDayOverride<32>
 expansionID<32>
@@ -125,12 +125,12 @@ directory
 instanceType<32>
 PVP<32>
 mapName_lang
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 minimapIconScale
-corpseMapID<32>
+corpseMapID<u32>
 corpse[2]
 timeOfDayOverride<32>
 expansionID<32>
@@ -143,15 +143,15 @@ directory
 instanceType<32>
 PVP<32>
 mapName_lang
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 minimapIconScale
 field_8675488386_lang
 field_7024529058_lang
 field_7024529059_lang
-corpseMapID<32>
+corpseMapID<u32>
 corpse[2]
 field_1361911791<32>
 field_5912426507<32>
@@ -169,17 +169,17 @@ mapName_lang
 field_5912426507<32>
 field_5921303111<32>
 field_9536626911<32>
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 field_3987832993<32>
 field_4273480476<32>
 minimapIconScale
 field_8675488386_lang
 field_7024529058_lang
 field_7024529059_lang
-corpseMapID<32>
+corpseMapID<u32>
 corpse[2]
 field_1361911791<32>
 field_8095063021<32>
@@ -200,17 +200,17 @@ field_9536626911<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 field_1361911791<32>
 field_5264554435<32>
 minimapIconScale
 field_8675488386_lang
 field_7024529058_lang
 field_7024529059_lang
-corpseMapID<32>
+corpseMapID<u32>
 corpse[2]
 field_2247165847<32>
 field_9255427126<32>
@@ -231,17 +231,17 @@ field_9536626911<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 field_1361911791<32>
 field_5264554435<32>
 minimapIconScale
 field_8675488386_lang
 field_7024529058_lang
 field_7024529059_lang
-corpseMapID<32>
+corpseMapID<u32>
 corpse[2]
 field_2247165847<32>
 field_9255427126<32>
@@ -261,17 +261,17 @@ field_9536626911<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 field_1361911791<32>
 field_5264554435<32>
 minimapIconScale
 field_8675488386_lang
 field_7024529058_lang
 field_7024529059_lang
-corpseMapID<32>
+corpseMapID<u32>
 corpse[2]
 field_2247165847<32>
 field_9255427126<32>
@@ -289,17 +289,17 @@ field_9536626911<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 field_1361911791<32>
 field_5264554435<32>
 minimapIconScale
 field_8675488386_lang
 field_7024529058_lang
 field_7024529059_lang
-corpseMapID<32>
+corpseMapID<u32>
 corpse[2]
 
 BUILD 1.11.0.5344-1.12.0.5595
@@ -315,10 +315,10 @@ field_9536626911<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 field_1361911791<32>
 field_5264554435<32>
 minimapIconScale
@@ -335,10 +335,10 @@ field_9536626911<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 field_1361911791<32>
 field_5264554435<32>
 minimapIconScale
@@ -358,10 +358,10 @@ field_9536626911<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 field_1361911791<32>
 field_5264554435<32>
 minimapIconScale
@@ -377,10 +377,10 @@ field_9536626911<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 field_1361911791<32>
 field_5264554435<32>
 
@@ -395,10 +395,10 @@ field_9536626911<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 field_1361911791<32>
 
 BUILD 0.9.0.3807-1.4.2.4375
@@ -411,10 +411,10 @@ field_5921303111<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
-loadingScreenID<32>
+loadingScreenID<u32>
 
 BUILD 0.8.0.3734
 $id$ID<32>
@@ -426,7 +426,7 @@ field_5921303111<32>
 field_3987832993<32>
 field_4964484313
 field_9587872023
-areaTableID<32>
+areaTableID<u32>
 mapDescription0_lang
 mapDescription1_lang
 

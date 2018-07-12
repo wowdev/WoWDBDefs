@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-uint flags
-uint raceMask
-uint classMask
-uint<SpellIcon::ID> spellIconID
+int flags
+int raceMask
+int classMask
+int<SpellIcon::ID> spellIconID
 string name_Lang
 string description_Lang
 
 BUILD 4.0.0.12911-6.2.0.20008
 $id$ID<32>
-flags<32>
-raceMask<32>
-classMask<32>
-spellIconID<32>
+flags<u32>
+raceMask<u32>
+classMask<u32>
+spellIconID<u32>
 name_Lang
 description_Lang

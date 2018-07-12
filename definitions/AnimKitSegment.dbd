@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint<AnimKit::ID> parentAnimKitID
-uint<AnimationData::ID> animID
+int<AnimKit::ID> parentAnimKitID
+int<AnimationData::ID> animID
 int animStartTime
-uint<AnimKitConfig::ID> animKitConfigID
+int<AnimKitConfig::ID> animKitConfigID
 int startCondition
 int startConditionParam
 int startConditionDelay
@@ -11,17 +11,17 @@ int endCondition
 int endConditionParam
 int endConditionDelay
 float speed
-uint segmentFlags
+int segmentFlags
 int forcedVariation
-uint overrideConfigFlags
+int overrideConfigFlags
 int loopToSegmentIndex
 
 BUILD 4.0.0.11927-5.4.8.18273
 $id$ID<32>
-parentAnimKitID<32>
-animID<32>
+parentAnimKitID<u32>
+animID<u32>
 animStartTime<32>
-animKitConfigID<32>
+animKitConfigID<u32>
 startCondition<32>
 startConditionParam<32>
 startConditionDelay<32>
@@ -29,7 +29,7 @@ endCondition<32>
 endConditionParam<32>
 endConditionDelay<32>
 speed
-segmentFlags<32>
+segmentFlags<u32>
 forcedVariation<32>
-overrideConfigFlags<32>
+overrideConfigFlags<u32>
 loopToSegmentIndex<32>

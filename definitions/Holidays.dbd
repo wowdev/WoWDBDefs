@@ -4,13 +4,13 @@ int duration
 int date
 int region
 int looping
-uint calendarFlags
-uint<HolidayNames::ID> holidayNameID
-uint<HolidayDescriptions::ID> holidayDescriptionID
+int calendarFlags
+int<HolidayNames::ID> holidayNameID
+int<HolidayDescriptions::ID> holidayDescriptionID
 string textureFilename
 int priority
 int calendarFilterType
-uint flags
+int flags
 
 BUILD 3.1.2.9901-6.0.1.18179
 $id$ID<32>
@@ -18,13 +18,13 @@ duration<32>[10]
 date<32>[26]
 region<32>
 looping<32>
-calendarFlags<32>[10]
-holidayNameID<32>
-holidayDescriptionID<32>
+calendarFlags<u32>[10]
+holidayNameID<u32>
+holidayDescriptionID<u32>
 textureFilename
 priority<32>
 calendarFilterType<32>
-flags<32>
+flags<u32>
 
 BUILD 3.0.1.8770-3.1.1.9835
 $id$ID<32>
@@ -32,9 +32,9 @@ duration<32>[10]
 date<32>[26]
 region<32>
 looping<32>
-calendarFlags<32>[10]
-holidayNameID<32>
-holidayDescriptionID<32>
+calendarFlags<u32>[10]
+holidayNameID<u32>
+holidayDescriptionID<u32>
 textureFilename
 priority<32>
 calendarFilterType<32>
@@ -45,9 +45,9 @@ duration<32>[10]
 date<32>[26]
 region<32>
 looping<32>
-calendarFlags<32>[10]
-holidayNameID<32>
-holidayDescriptionID<32>
+calendarFlags<u32>[10]
+holidayNameID<u32>
+holidayDescriptionID<u32>
 textureFilename
 priority<32>
 
@@ -57,9 +57,9 @@ duration<32>[10]
 date<32>[26]
 region<32>
 looping<32>
-calendarFlags<32>[10]
-holidayNameID<32>
-holidayDescriptionID<32>
+calendarFlags<u32>[10]
+holidayNameID<u32>
+holidayDescriptionID<u32>
 textureFilename
 
 BUILD 3.0.1.8303
@@ -68,6 +68,6 @@ duration<32>[10]
 date<32>[26]
 region<32>
 looping<32>
-calendarFlags<32>[10]
-holidayNameID<32>
-holidayDescriptionID<32>
+calendarFlags<u32>[10]
+holidayNameID<u32>
+holidayDescriptionID<u32>

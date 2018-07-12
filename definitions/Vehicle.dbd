@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-uint flags
-uint flagsB
+int flags
+int flagsB
 float turnSpeed
 float pitchSpeed
 float pitchMin
 float pitchMax
-uint<VehicleSeat::ID> seatID
+int<VehicleSeat::ID> seatID
 float mouseLookOffsetPitch
 float cameraFadeDistScalarMin
 float cameraFadeDistScalarMax
@@ -27,8 +27,8 @@ string msslTrgtImpactModel
 float cameraYawOffset
 int uiLocomotionType
 float msslTrgtImpactTexRadius
-uint<VehicleUIIndicator::ID> vehicleUIIndicatorID
-uint<PowerDisplay::ID> powerDisplayID
+int<VehicleUIIndicator::ID> vehicleUIIndicatorID
+int<PowerDisplay::ID> powerDisplayID
 int field_3751285934?
 int field_6392699930?
 string field_5739132052?
@@ -41,13 +41,13 @@ int field_1615717677?
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-flags<32>
-flagsB<32>
+flags<u32>
+flagsB<u32>
 turnSpeed
 pitchSpeed
 pitchMin
 pitchMax
-seatID<32>[8]
+seatID<u32>[8]
 mouseLookOffsetPitch
 cameraFadeDistScalarMin
 cameraFadeDistScalarMax
@@ -68,17 +68,17 @@ msslTrgtImpactModel[2]
 cameraYawOffset
 uiLocomotionType<32>
 msslTrgtImpactTexRadius
-vehicleUIIndicatorID<32>
-powerDisplayID<32>[3]
+vehicleUIIndicatorID<u32>
+powerDisplayID<u32>[3]
 
 BUILD 3.1.0.9767-4.3.4.15595
 $id$ID<32>
-flags<32>
+flags<u32>
 turnSpeed
 pitchSpeed
 pitchMin
 pitchMax
-seatID<32>[8]
+seatID<u32>[8]
 mouseLookOffsetPitch
 cameraFadeDistScalarMin
 cameraFadeDistScalarMax
@@ -99,17 +99,17 @@ msslTrgtImpactModel[2]
 cameraYawOffset
 uiLocomotionType<32>
 msslTrgtImpactTexRadius
-vehicleUIIndicatorID<32>
-powerDisplayID<32>[3]
+vehicleUIIndicatorID<u32>
+powerDisplayID<u32>[3]
 
 BUILD 3.0.1.8820-3.0.9.9551
 $id$ID<32>
-flags<32>
+flags<u32>
 turnSpeed
 pitchSpeed
 pitchMin
 pitchMax
-seatID<32>[8]
+seatID<u32>[8]
 mouseLookOffsetPitch
 cameraFadeDistScalarMin
 cameraFadeDistScalarMax
@@ -136,16 +136,16 @@ msslTrgtImpactModel[2]
 cameraYawOffset
 uiLocomotionType<32>
 msslTrgtImpactTexRadius
-vehicleUIIndicatorID<32>
+vehicleUIIndicatorID<u32>
 
 BUILD 3.0.1.8788
 $id$ID<32>
-flags<32>
+flags<u32>
 turnSpeed
 pitchSpeed
 pitchMin
 pitchMax
-seatID<32>[8]
+seatID<u32>[8]
 mouseLookOffsetPitch
 cameraFadeDistScalarMin
 cameraFadeDistScalarMax
@@ -173,12 +173,12 @@ cameraYawOffset
 
 BUILD 3.0.1.8770
 $id$ID<32>
-flags<32>
+flags<u32>
 turnSpeed
 pitchSpeed
 pitchMin
 pitchMax
-seatID<32>[8]
+seatID<u32>[8]
 mouseLookOffsetPitch
 cameraFadeDistScalarMin
 cameraFadeDistScalarMax
@@ -206,12 +206,12 @@ cameraYawOffset
 
 BUILD 3.0.1.8622-3.0.1.8714
 $id$ID<32>
-flags<32>
+flags<u32>
 turnSpeed
 pitchSpeed
 pitchMin
 pitchMax
-seatID<32>[8]
+seatID<u32>[8]
 mouseLookOffsetPitch
 cameraFadeDistScalarMin
 cameraFadeDistScalarMax
@@ -228,9 +228,9 @@ facingLimitLeft
 
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>
-flags<32>
+flags<u32>
 turnSpeed
 pitchSpeed
 pitchMin
 pitchMax
-seatID<32>[8]
+seatID<u32>[8]

@@ -1,58 +1,58 @@
 COLUMNS
 int ID
 float pos
-uint phaseUseFlags
-uint<Phase::ID> phaseID
-uint<PhaseXPhaseGroup::ID> phaseGroupID
+int phaseUseFlags
+int<Phase::ID> phaseID
+int<PhaseXPhaseGroup::ID> phaseGroupID
 float radius
 float box_length
 float box_width
 float box_height
 float box_yaw
 int shapeType
-uint shapeID
-uint<AreaTriggerActionSet::ID> areaTriggerActionSetID
-uint<Map::ID> continentID
+int shapeID
+int<AreaTriggerActionSet::ID> areaTriggerActionSetID
+int<Map::ID> continentID
 
 BUILD 5.0.2.15827-5.4.8.18414
 $id$ID<32>
-continentID<32>
+continentID<u32>
 pos[3]
-phaseUseFlags<32>
-phaseID<32>
-phaseGroupID<32>
+phaseUseFlags<u32>
+phaseID<u32>
+phaseGroupID<u32>
 radius
 box_length
 box_width
 box_height
 box_yaw
 shapeType<32>
-shapeID<32>
-areaTriggerActionSetID<32>
+shapeID<u32>
+areaTriggerActionSetID<u32>
 
 BUILD 5.0.1.15650-5.0.1.15799
 $id$ID<32>
-continentID<32>
+continentID<u32>
 pos[3]
-phaseUseFlags<32>
-phaseID<32>
-phaseGroupID<32>
+phaseUseFlags<u32>
+phaseID<u32>
+phaseGroupID<u32>
 radius
 box_length
 box_width
 box_height
 box_yaw
 shapeType<32>
-shapeID<32>
+shapeID<u32>
 
 BUILD 5.0.1.15662
 BUILD 4.0.0.11927-5.0.1.15640
 $id$ID<32>
-continentID<32>
+continentID<u32>
 pos[3]
-phaseUseFlags<32>
-phaseID<32>
-phaseGroupID<32>
+phaseUseFlags<u32>
+phaseID<u32>
+phaseGroupID<u32>
 radius
 box_length
 box_width
@@ -61,7 +61,7 @@ box_yaw
 
 BUILD 0.10.0.3892-3.3.5.12340
 $id$ID<32>
-continentID<32>
+continentID<u32>
 pos[3]
 radius
 box_length
@@ -71,6 +71,6 @@ box_yaw
 
 BUILD 0.5.3.3368-0.9.1.3810
 $id$ID<32>
-continentID<32>
+continentID<u32>
 pos[3]
 radius

@@ -1,100 +1,100 @@
 COLUMNS
 int ID
-uint<SkillLineCategory::ID> categoryID
+int<SkillLineCategory::ID> categoryID
 locstring displayName_lang
 locstring description_lang
-uint<SpellIcon::ID> spellIconID
+int<SpellIcon::ID> spellIconID
 locstring alternateVerb_lang
 int canLink
-uint<SkillLine::ID> parentSkillLineID
-uint flags
-uint raceMask
-uint classMask
+int<SkillLine::ID> parentSkillLineID
+int flags
+int raceMask
+int classMask
 int excludeRace
 int excludeClass
 int skillType
 int minCharLevel
 int maxRank
 int abandonable
-uint skillCostsID
+int skillCostsID
 
 BUILD 5.1.0.16309-5.4.8.18414
 $id$ID<32>
-categoryID<32>
+categoryID<u32>
 displayName_lang
 description_lang
-spellIconID<32>
+spellIconID<u32>
 alternateVerb_lang
 canLink<32>
-parentSkillLineID<32>
-flags<32>
+parentSkillLineID<u32>
+flags<u32>
 
 BUILD 5.0.1.15464-5.0.5.16135
 $id$ID<32>
-categoryID<32>
+categoryID<u32>
 displayName_lang
 description_lang
-spellIconID<32>
+spellIconID<u32>
 alternateVerb_lang
 canLink<32>
-parentSkillLineID<32>
+parentSkillLineID<u32>
 
 BUILD 4.1.0.13914-4.3.4.15595
 $id$ID<32>
-categoryID<32>
+categoryID<u32>
 displayName_lang
 description_lang
-spellIconID<32>
+spellIconID<u32>
 alternateVerb_lang
 canLink<32>
 
 BUILD 3.0.1.8391-4.0.6.13623
 $id$ID<32>
-categoryID<32>
-skillCostsID<32>
+categoryID<u32>
+skillCostsID<u32>
 displayName_lang
 description_lang
-spellIconID<32>
+spellIconID<u32>
 alternateVerb_lang
 canLink<32>
 
 BUILD 3.0.1.8334
 $id$ID<32>
-categoryID<32>
-skillCostsID<32>
+categoryID<u32>
+skillCostsID<u32>
 displayName_lang
 description_lang
-spellIconID<32>
+spellIconID<u32>
 alternateVerb_lang
 
 BUILD 0.11.0.3925-3.0.1.8303
 $id$ID<32>
-categoryID<32>
-skillCostsID<32>
+categoryID<u32>
+skillCostsID<u32>
 displayName_lang
 description_lang
-spellIconID<32>
+spellIconID<u32>
 
 BUILD 0.8.0.3734-0.10.0.3892
 $id$ID<32>
-categoryID<32>
-skillCostsID<32>
+categoryID<u32>
+skillCostsID<u32>
 displayName_lang
 description_lang
 
 BUILD 0.6.0.3592-0.7.6.3712
 $id$ID<32>
-categoryID<32>
-skillCostsID<32>
+categoryID<u32>
+skillCostsID<u32>
 displayName_lang
 
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
-raceMask<32>
-classMask<32>
+raceMask<u32>
+classMask<u32>
 excludeRace<32>
 excludeClass<32>
-categoryID<32>
+categoryID<u32>
 skillType<32>
 minCharLevel<32>
 maxRank<32>

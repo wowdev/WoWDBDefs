@@ -4,30 +4,30 @@ int manaCost
 int manaCostPerLevel
 int powerType
 int manaPerSecond
-uint<PowerDisplay::ID> powerDisplayID
+int<PowerDisplay::ID> powerDisplayID
 int field_4567976787?
-uint<Spell::ID> spellID
+int<Spell::ID> spellID
 float powerCostPct
 float field_7962234177?
-uint difficultyId?
-uint altPowerBarID?
+int difficultyId?
+int altPowerBarID?
 float field_3005919490?
-uint<Spell::ID> requiredAuraSpellID
+int<Spell::ID> requiredAuraSpellID
 float powerCostMaxPct
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-spellID<32>
+spellID<u32>
 difficultyId<32>
 powerType<32>
 manaCost<32>
 manaCostPerLevel<32>
 manaPerSecond<32>
-powerDisplayID<32>
+powerDisplayID<u32>
 altPowerBarID<32>
 powerCostPct
 field_3005919490
-requiredAuraSpellID<32>
+requiredAuraSpellID<u32>
 powerCostMaxPct
 
 BUILD 5.0.1.15464-5.0.1.15544
@@ -36,12 +36,12 @@ powerType<32>
 manaCost<32>
 manaCostPerLevel<32>
 manaPerSecond<32>
-powerDisplayID<32>
+powerDisplayID<u32>
 altPowerBarID<32>
 powerCostPct
 field_7962234177
-requiredAuraSpellID<32>
-spellID<32>
+requiredAuraSpellID<u32>
+spellID<u32>
 
 BUILD 4.3.2.15211-4.3.4.15595
 $id$ID<32>
@@ -49,7 +49,7 @@ manaCost<32>
 manaCostPerLevel<32>
 powerType<32>
 manaPerSecond<32>
-powerDisplayID<32>
+powerDisplayID<u32>
 altPowerBarID<32>
 powerCostPct
 
@@ -59,7 +59,7 @@ manaCost<32>
 manaCostPerLevel<32>
 powerType<32>
 manaPerSecond<32>
-powerDisplayID<32>
+powerDisplayID<u32>
 field_4567976787<32>
 
 BUILD 4.0.0.12232-4.0.0.12319
@@ -68,4 +68,4 @@ manaCost<32>
 manaCostPerLevel<32>
 powerType<32>
 manaPerSecond<32>
-powerDisplayID<32>
+powerDisplayID<u32>

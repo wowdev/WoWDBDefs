@@ -2,16 +2,16 @@ COLUMNS
 int ID
 int targetType
 int targetAsset
-uint<QuestFeedbackEffect::ID> questFeedbackEffectID
-uint playerConditionID
-uint combatConditionID
+int<QuestFeedbackEffect::ID> questFeedbackEffectID
+int playerConditionID
+int combatConditionID
 int whenToDisplay
 
 BUILD 5.0.1.15662-5.4.8.18414
 $id$ID<32>
 targetType<32>
 targetAsset<32>
-questFeedbackEffectID<32>
-playerConditionID<32>
-combatConditionID<32>
+questFeedbackEffectID<u32>
+playerConditionID<u32>
+combatConditionID<u32>
 whenToDisplay<32>

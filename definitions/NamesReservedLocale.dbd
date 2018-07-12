@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 string name
-uint localeMask
+int localeMask
 
 BUILD 5.2.0.16516-5.4.8.18414
 $id$ID<32>
 name
-localeMask<32>
+localeMask<u32>

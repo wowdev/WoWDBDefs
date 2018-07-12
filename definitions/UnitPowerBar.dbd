@@ -7,9 +7,9 @@ int centerPower
 float regenerationPeace
 float regenerationCombat
 int barType
-uint<FileData::ID> fileDataID
+int<FileData::ID> fileDataID
 int color
-uint flags
+int flags
 locstring name_lang
 locstring cost_lang
 locstring outOfError_lang
@@ -26,9 +26,9 @@ centerPower<32>
 regenerationPeace
 regenerationCombat
 barType<32>
-fileDataID<32>[6]
+fileDataID<u32>[6]
 color<32>[6]
-flags<32>
+flags<u32>
 name_lang
 cost_lang
 outOfError_lang
@@ -45,9 +45,9 @@ centerPower<32>
 regenerationPeace
 regenerationCombat
 barType<32>
-fileDataID<32>[5]
+fileDataID<u32>[5]
 color<32>[5]
-flags<32>
+flags<u32>
 name_lang
 cost_lang
 outOfError_lang

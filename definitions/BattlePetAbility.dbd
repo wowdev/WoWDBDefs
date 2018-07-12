@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-uint<BattlePetVisual::ID> visualID
-uint flags
-uint<CreatureFamily::ID> familyID
-uint iconID
+int<BattlePetVisual::ID> visualID
+int flags
+int<CreatureFamily::ID> familyID
+int iconID
 locstring name_lang
 string description_Lang
 int cooldown
 
 BUILD 5.0.1.15640-6.0.1.18179
 $id$ID<32>
-familyID<32>
-iconID<32>
+familyID<u32>
+iconID<u32>
 cooldown<32>
-visualID<32>
-flags<32>
+visualID<u32>
+flags<u32>
 name_lang
 description_Lang
 
@@ -22,17 +22,17 @@ BUILD 5.0.1.15508-5.0.1.15589
 BUILD 5.0.1.15650-5.0.1.15657
 BUILD 5.0.1.15668-5.0.1.15726
 $id$ID<32>
-familyID<32>
-iconID<32>
+familyID<u32>
+iconID<u32>
 cooldown<32>
-visualID<32>
+visualID<u32>
 name_lang
 description_Lang
 
 BUILD 5.0.1.15464
 $id$ID<32>
-familyID<32>
-iconID<32>
+familyID<u32>
+iconID<u32>
 cooldown<32>
 name_lang
 description_Lang

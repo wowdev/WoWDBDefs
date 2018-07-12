@@ -9,7 +9,7 @@ float texCoordScale
 int segDuration
 int segDelay
 string texture
-uint flags
+int flags
 int jointCount
 float jointOffsetRadius
 int jointsPerMinorJoint
@@ -49,7 +49,7 @@ string combo
 int renderLayer
 float textureLength
 float wavePhase
-uint spellChainEffectID
+int spellChainEffectID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -59,7 +59,7 @@ noiseScale
 texCoordScale
 segDuration<32>
 segDelay<32>
-flags<32>
+flags<u32>
 jointCount<32>
 jointOffsetRadius
 jointsPerMinorJoint<32>
@@ -90,16 +90,16 @@ maxFlickerOffDuration
 pulseSpeed
 pulseOnLength
 pulseFadeLength
-alpha<8>
-red<8>
-green<8>
-blue<8>
-blendMode<8>
-padding_3020562985<8>[3]
+alpha<u8>
+red<u8>
+green<u8>
+blue<u8>
+blendMode<u8>
+padding_3020562985<u8>[3]
 renderLayer<32>
 textureLength
 wavePhase
-spellChainEffectID<32>[11]
+spellChainEffectID<u32>[11]
 texture
 
 BUILD 5.3.0.16965-5.4.8.18414
@@ -110,7 +110,7 @@ noiseScale
 texCoordScale
 segDuration<32>
 segDelay<32>
-flags<32>
+flags<u32>
 jointCount<32>
 jointOffsetRadius
 jointsPerMinorJoint<32>
@@ -141,16 +141,16 @@ maxFlickerOffDuration
 pulseSpeed
 pulseOnLength
 pulseFadeLength
-alpha<8>
-red<8>
-green<8>
-blue<8>
-blendMode<8>
-padding_3020562985<8>[3]
+alpha<u8>
+red<u8>
+green<u8>
+blue<u8>
+blendMode<u8>
+padding_3020562985<u8>[3]
 renderLayer<32>
 textureLength
 wavePhase
-spellChainEffectID<32>[11]
+spellChainEffectID<u32>[11]
 texture
 
 BUILD 5.0.3.15882-5.3.0.16844
@@ -162,7 +162,7 @@ texCoordScale
 segDuration<32>
 segDelay<32>
 texture
-flags<32>
+flags<u32>
 jointCount<32>
 jointOffsetRadius
 jointsPerMinorJoint<32>
@@ -193,16 +193,16 @@ maxFlickerOffDuration
 pulseSpeed
 pulseOnLength
 pulseFadeLength
-alpha<8>
-red<8>
-green<8>
-blue<8>
-blendMode<8>
-padding_3020562985<8>[3]
+alpha<u8>
+red<u8>
+green<u8>
+blue<u8>
+blendMode<u8>
+padding_3020562985<u8>[3]
 renderLayer<32>
 textureLength
 wavePhase
-spellChainEffectID<32>[11]
+spellChainEffectID<u32>[11]
 
 BUILD 4.0.0.11927-5.0.3.15851
 $id$ID<32>
@@ -213,7 +213,7 @@ texCoordScale
 segDuration<32>
 segDelay<32>
 texture
-flags<32>
+flags<u32>
 jointCount<32>
 jointOffsetRadius
 jointsPerMinorJoint<32>
@@ -244,12 +244,12 @@ maxFlickerOffDuration
 pulseSpeed
 pulseOnLength
 pulseFadeLength
-alpha<8>
-red<8>
-green<8>
-blue<8>
-blendMode<8>
-padding_596171098<8>[3]
+alpha<u8>
+red<u8>
+green<u8>
+blue<u8>
+blendMode<u8>
+padding_596171098<u8>[3]
 combo
 renderLayer<32>
 textureLength
@@ -264,7 +264,7 @@ texCoordScale
 segDuration<32>
 segDelay<32>
 texture
-flags<32>
+flags<u32>
 jointCount<32>
 jointOffsetRadius
 jointsPerMinorJoint<32>
@@ -295,11 +295,11 @@ maxFlickerOffDuration
 pulseSpeed
 pulseOnLength
 pulseFadeLength
-alpha<8>
-red<8>
-green<8>
-blue<8>
-blendMode<8>
+alpha<u8>
+red<u8>
+green<u8>
+blue<u8>
+blendMode<u8>
 combo
 renderLayer<32>
 textureLength
@@ -314,7 +314,7 @@ texCoordScale
 segDuration<32>
 segDelay<32>
 texture
-flags<32>
+flags<u32>
 jointCount<32>
 jointOffsetRadius
 jointsPerMinorJoint<32>
@@ -345,11 +345,11 @@ maxFlickerOffDuration
 pulseSpeed
 pulseOnLength
 pulseFadeLength
-alpha<8>
-red<8>
-green<8>
-blue<8>
-blendMode<8>
+alpha<u8>
+red<u8>
+green<u8>
+blue<u8>
+blendMode<u8>
 combo
 renderLayer<32>
 textureLength
@@ -363,7 +363,7 @@ texCoordScale
 segDuration<32>
 segDelay<32>
 texture
-flags<32>
+flags<u32>
 jointCount<32>
 jointOffsetRadius
 jointsPerMinorJoint<32>
@@ -394,11 +394,11 @@ maxFlickerOffDuration
 pulseSpeed
 pulseOnLength
 pulseFadeLength
-alpha<8>
-red<8>
-green<8>
-blue<8>
-blendMode<8>
+alpha<u8>
+red<u8>
+green<u8>
+blue<u8>
+blendMode<u8>
 combo
 renderLayer<32>
 

@@ -1,76 +1,76 @@
 COLUMNS
 int ID
-uint specID
-uint tierID
+int specID
+int tierID
 int columnIndex
-uint<Spell::ID> spellID
-uint flags
-uint categoryMask
-uint classID
-uint overridesSpellID
+int<Spell::ID> spellID
+int flags
+int categoryMask
+int classID
+int overridesSpellID
 locstring description_lang
-uint tabID
+int tabID
 int spellRank
 int prereqTalent
 int prereqRank
-uint<Spell::ID> requiredSpellID
+int<Spell::ID> requiredSpellID
 int categoryMask1
 int categoryMask2
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-specID<32>
-tierID<32>
+specID<u32>
+tierID<u32>
 columnIndex<32>
-spellID<32>
-flags<32>
-categoryMask<32>[2]
-classID<32>
-overridesSpellID<32>
+spellID<u32>
+flags<u32>
+categoryMask<u32>[2]
+classID<u32>
+overridesSpellID<u32>
 description_lang
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
-tabID<32>
-tierID<32>
+tabID<u32>
+tierID<u32>
 columnIndex<32>
 spellRank<32>[5]
 prereqTalent<32>[3]
 prereqRank<32>[3]
-flags<32>
-requiredSpellID<32>
-categoryMask<32>[2]
+flags<u32>
+requiredSpellID<u32>
+categoryMask<u32>[2]
 
 BUILD 3.0.1.8622-4.0.0.12319
 $id$ID<32>
-tabID<32>
-tierID<32>
+tabID<u32>
+tierID<u32>
 columnIndex<32>
 spellRank<32>[9]
 prereqTalent<32>[3]
 prereqRank<32>[3]
-flags<32>
-requiredSpellID<32>
+flags<u32>
+requiredSpellID<u32>
 categoryMask1<32>
 categoryMask2<32>
 
 BUILD 0.10.0.3892-3.0.1.8471
 $id$ID<32>
-tabID<32>
-tierID<32>
+tabID<u32>
+tierID<u32>
 columnIndex<32>
 spellRank<32>[9]
 prereqTalent<32>[3]
 prereqRank<32>[3]
-flags<32>
-requiredSpellID<32>
+flags<u32>
+requiredSpellID<u32>
 
 BUILD 0.7.0.3694-0.9.1.3810
 $id$ID<32>
-tabID<32>
-tierID<32>
+tabID<u32>
+tierID<u32>
 columnIndex<32>
 spellRank<32>[9]
 prereqTalent<32>[3]
 prereqRank<32>[3]
-flags<32>
+flags<u32>

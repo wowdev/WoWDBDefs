@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint<SoundEntries::ID> soundEntriesID
-uint fallbackSoundEntriesID
+int<SoundEntries::ID> soundEntriesID
+int fallbackSoundEntriesID
 
 BUILD 4.0.6.13623-6.2.4.21742
 $id$ID<32>
-soundEntriesID<32>
-fallbackSoundEntriesID<32>
+soundEntriesID<u32>
+fallbackSoundEntriesID<u32>

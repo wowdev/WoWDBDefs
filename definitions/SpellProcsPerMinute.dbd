@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 float baseProcRate
-uint flags
+int flags
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 baseProcRate
-flags<32>
+flags<u32>

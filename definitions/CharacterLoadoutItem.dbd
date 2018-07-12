@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-uint<CharacterLoadout::ID> characterLoadoutID
-uint<Item::ID> itemID
-uint<ItemDisplayInfo::ID> itemDisplayInfoID
+int<CharacterLoadout::ID> characterLoadoutID
+int<Item::ID> itemID
+int<ItemDisplayInfo::ID> itemDisplayInfoID
 int itemInventoryType
 
 BUILD 5.0.1.15464-6.0.1.18179
 $id$ID<32>
-characterLoadoutID<32>
-itemID<32>
-itemDisplayInfoID<32>
+characterLoadoutID<u32>
+itemID<u32>
+itemDisplayInfoID<u32>
 itemInventoryType<32>

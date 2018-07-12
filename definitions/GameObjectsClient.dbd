@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-uint ownerID
-uint displayID
+int ownerID
+int displayID
 float pos
 float rot
 float scale
-uint typeID
+int typeID
 int propValue
 string name
 
 BUILD 5.0.1.15464-5.0.1.15589
 $id$ID<32>
-ownerID<32>
-displayID<32>
+ownerID<u32>
+displayID<u32>
 pos[3]
 rot[4]
 scale
-typeID<32>
+typeID<u32>
 propValue<32>[4]
 name

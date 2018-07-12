@@ -1,58 +1,58 @@
 COLUMNS
 int ID
 int reputationIndex
-uint reputationRaceMask
-uint reputationClassMask
+int reputationRaceMask
+int reputationClassMask
 int reputationBase
-uint reputationFlags
-uint<Faction::ID> parentFactionID
+int reputationFlags
+int<Faction::ID> parentFactionID
 float parentFactionMod
 int parentFactionCap
 locstring name_lang
 locstring description_lang
 int expansion
-uint flags
-uint<FriendshipReputation::ID> friendshipRepID
+int flags
+int<FriendshipReputation::ID> friendshipRepID
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 reputationIndex<32>
-reputationRaceMask<32>[4]
-reputationClassMask<32>[4]
+reputationRaceMask<u32>[4]
+reputationClassMask<u32>[4]
 reputationBase<32>[4]
-reputationFlags<32>[4]
-parentFactionID<32>
+reputationFlags<u32>[4]
+parentFactionID<u32>
 parentFactionMod[2]
 parentFactionCap<32>[2]
 name_lang
 description_lang
 expansion<32>
-flags<32>
-friendshipRepID<32>
+flags<u32>
+friendshipRepID<u32>
 
 BUILD 5.2.0.16516-5.3.0.17116
 $id$ID<32>
 reputationIndex<32>
-reputationRaceMask<32>[4]
-reputationClassMask<32>[4]
+reputationRaceMask<u32>[4]
+reputationClassMask<u32>[4]
 reputationBase<32>[4]
-reputationFlags<32>[4]
-parentFactionID<32>
+reputationFlags<u32>[4]
+parentFactionID<u32>
 parentFactionMod[2]
 parentFactionCap<32>[2]
 name_lang
 description_lang
 expansion<32>
-flags<32>
+flags<u32>
 
 BUILD 4.0.0.11927-5.1.0.16357
 $id$ID<32>
 reputationIndex<32>
-reputationRaceMask<32>[4]
-reputationClassMask<32>[4]
+reputationRaceMask<u32>[4]
+reputationClassMask<u32>[4]
 reputationBase<32>[4]
-reputationFlags<32>[4]
-parentFactionID<32>
+reputationFlags<u32>[4]
+parentFactionID<u32>
 parentFactionMod[2]
 parentFactionCap<32>[2]
 name_lang
@@ -62,11 +62,11 @@ expansion<32>
 BUILD 3.3.0.10958-3.3.5.12340
 $id$ID<32>
 reputationIndex<32>
-reputationRaceMask<32>[4]
-reputationClassMask<32>[4]
+reputationRaceMask<u32>[4]
+reputationClassMask<u32>[4]
 reputationBase<32>[4]
-reputationFlags<32>[4]
-parentFactionID<32>
+reputationFlags<u32>[4]
+parentFactionID<u32>
 parentFactionMod[2]
 parentFactionCap<32>[2]
 name_lang
@@ -75,37 +75,37 @@ description_lang
 BUILD 1.4.0.4341-3.2.2.10505
 $id$ID<32>
 reputationIndex<32>
-reputationRaceMask<32>[4]
-reputationClassMask<32>[4]
+reputationRaceMask<u32>[4]
+reputationClassMask<u32>[4]
 reputationBase<32>[4]
-reputationFlags<32>[4]
-parentFactionID<32>
+reputationFlags<u32>[4]
+parentFactionID<u32>
 description_lang
 name_lang
 
 BUILD 1.2.0.4147-1.3.0.4284
 $id$ID<32>
 reputationIndex<32>
-reputationRaceMask<32>[4]
-reputationClassMask<32>[4]
+reputationRaceMask<u32>[4]
+reputationClassMask<u32>[4]
 reputationBase<32>[4]
-reputationFlags<32>[4]
-parentFactionID<32>
+reputationFlags<u32>[4]
+parentFactionID<u32>
 description_lang
 
 BUILD 0.10.0.3892-1.1.2.4125
 $id$ID<32>
 reputationIndex<32>
-reputationRaceMask<32>[4]
-reputationClassMask<32>[4]
+reputationRaceMask<u32>[4]
+reputationClassMask<u32>[4]
 reputationBase<32>[4]
-parentFactionID<32>
+parentFactionID<u32>
 name_lang
 
 BUILD 0.5.3.3368-0.9.1.3810
 $id$ID<32>
 reputationIndex<32>
-reputationRaceMask<32>[4]
-reputationClassMask<32>[4]
+reputationRaceMask<u32>[4]
+reputationClassMask<u32>[4]
 reputationBase<32>[4]
 name_lang

@@ -1,18 +1,18 @@
 COLUMNS
 int ID
 string name
-uint flags
+int flags
 int lifetime
 float emissionRate
 float spacing
 float modelScale
-uint modelFileDataID
-uint enumID
+int modelFileDataID
+int enumID
 
 BUILD 5.0.1.15799-5.4.8.18414
 $id$ID<32>
-modelFileDataID<32>
-flags<32>
+modelFileDataID<u32>
+flags<u32>
 lifetime<32>
 emissionRate
 spacing
@@ -21,7 +21,7 @@ modelScale
 BUILD 4.2.0.14333-5.0.1.15781
 $id$ID<32>
 name
-flags<32>
+flags<u32>
 lifetime<32>
 emissionRate
 spacing
@@ -30,4 +30,4 @@ modelScale
 BUILD 3.1.0.9767-4.2.0.14316
 $id$ID<32>
 name
-enumID<32>
+enumID<u32>

@@ -1,27 +1,27 @@
 COLUMNS
 int ID
-uint worldMapContinentID
+int worldMapContinentID
 int chunkX
 int chunkY
 int subchunkX
 int subchunkY
-uint zoneIntroMusicID
-uint<ZoneMusic::ID> zoneMusicID
-uint<SoundAmbience::ID> soundAmbienceID
-uint<SoundProviderPreferences::ID> soundProviderPreferencesID
+int zoneIntroMusicID
+int<ZoneMusic::ID> zoneMusicID
+int<SoundAmbience::ID> soundAmbienceID
+int<SoundProviderPreferences::ID> soundProviderPreferencesID
 
 COMMENT completely unvalidated
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID
-worldMapContinentID<32>
+worldMapContinentID<u32>
 chunkX<32>
 chunkY<32>
 subchunkX<32>
 subchunkY<32>
-zoneIntroMusicID<32>
-zoneMusicID<32>
-soundAmbienceID<32>
-soundProviderPreferencesID<32>
+zoneIntroMusicID<u32>
+zoneMusicID<u32>
+soundAmbienceID<u32>
+soundProviderPreferencesID<u32>
 
 COMMENT completely unvalidated
 BUILD 3.0.1.8303-3.3.5.12340
@@ -30,7 +30,7 @@ chunkX<32>
 chunkY<32>
 subchunkX<32>
 subchunkY<32>
-zoneIntroMusicID<32>
-zoneMusicID<32>
-soundAmbienceID<32>
-soundProviderPreferencesID<32>
+zoneIntroMusicID<u32>
+zoneMusicID<u32>
+soundAmbienceID<u32>
+soundProviderPreferencesID<u32>

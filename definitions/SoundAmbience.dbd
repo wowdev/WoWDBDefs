@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint<SoundEntries::ID> ambienceID
+int<SoundEntries::ID> ambienceID
 
 BUILD 0.7.0.3694-5.4.8.18273
 $id$ID<32>
-ambienceID<32>[2]
+ambienceID<u32>[2]

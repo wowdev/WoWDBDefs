@@ -3,10 +3,10 @@ int ID
 int soundType
 string name
 float volumeFloat
-uint flags
+int flags
 float minDistance
 float distanceCutoff
-uint<SoundEntriesAdvanced::ID> soundEntriesAdvancedID
+int<SoundEntriesAdvanced::ID> soundEntriesAdvancedID
 float volumevariationplus
 float volumevariationminus
 float pitchvariationplus
@@ -16,7 +16,7 @@ int dialogtype
 string file
 int freq
 string directoryBase
-uint fileDataID
+int fileDataID
 int EAXDef
 float maxDistance
 float pitch
@@ -28,14 +28,14 @@ BUILD 5.3.0.16844-5.4.8.18414
 $id$ID<32>
 soundType<32>
 name
-fileDataID<32>[10]
+fileDataID<u32>[10]
 freq<32>[10]
 volumeFloat
-flags<32>
+flags<u32>
 minDistance
 distanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<32>
+soundEntriesAdvancedID<u32>
 volumevariationplus
 volumevariationminus
 pitchvariationplus
@@ -47,15 +47,15 @@ BUILD 5.0.1.15699-5.2.0.16650
 $id$ID<32>
 soundType<32>
 name
-fileDataID<32>[10]
+fileDataID<u32>[10]
 freq<32>[10]
 directoryBase
 volumeFloat
-flags<32>
+flags<u32>
 minDistance
 distanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<32>
+soundEntriesAdvancedID<u32>
 volumevariationplus
 volumevariationminus
 pitchvariationplus
@@ -72,11 +72,11 @@ file[10]
 freq<32>[10]
 directoryBase
 volumeFloat
-flags<32>
+flags<u32>
 minDistance
 distanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<32>
+soundEntriesAdvancedID<u32>
 volumevariationplus
 volumevariationminus
 pitchvariationplus
@@ -93,11 +93,11 @@ file[10]
 freq<32>[10]
 directoryBase
 volumeFloat
-flags<32>
+flags<u32>
 minDistance
 distanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<32>
+soundEntriesAdvancedID<u32>
 volumevariationplus
 volumevariationminus
 pitchvariationplus
@@ -112,11 +112,11 @@ file[10]
 freq<32>[10]
 directoryBase
 volumeFloat
-flags<32>
+flags<u32>
 minDistance
 distanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<32>
+soundEntriesAdvancedID<u32>
 volumevariationplus
 volumevariationminus
 pitchvariationplus
@@ -131,11 +131,11 @@ file[10]
 freq<32>[10]
 directoryBase
 volumeFloat
-flags<32>
+flags<u32>
 minDistance
 distanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<32>
+soundEntriesAdvancedID<u32>
 volumevariationplus
 volumevariationminus
 pitchvariationplus
@@ -149,11 +149,11 @@ file[10]
 freq<32>[10]
 directoryBase
 volumeFloat
-flags<32>
+flags<u32>
 minDistance
 distanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<32>
+soundEntriesAdvancedID<u32>
 volumevariationplus
 volumevariationminus
 pitchvariationplus
@@ -167,11 +167,11 @@ file[10]
 freq<32>[10]
 directoryBase
 volumeFloat
-flags<32>
+flags<u32>
 minDistance
 distanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<32>
+soundEntriesAdvancedID<u32>
 
 BUILD 0.9.0.3807-3.0.9.9551
 $id$ID<32>
@@ -181,7 +181,7 @@ file[10]
 freq<32>[10]
 directoryBase
 volumeFloat
-flags<32>
+flags<u32>
 minDistance
 maxDistance
 EAXDef<32>
@@ -196,7 +196,7 @@ directoryBase
 volumeFloat
 pitch
 pitchVariation
-flags<32>
+flags<u32>
 minDistance
 maxDistance
 EAXDef<32>
@@ -213,7 +213,7 @@ pitch
 pitchVariation
 priority<32>
 channel<32>
-flags<32>
+flags<u32>
 minDistance
 maxDistance
 distanceCutoff

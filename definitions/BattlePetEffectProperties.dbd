@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-uint flags
+int flags
 locstring propertyName_lang
 int propertyType
 
 BUILD 5.0.4.15913-6.2.4.21742
 $id$ID<32>
-flags<32>
+flags<u32>
 propertyName_lang[6]
 propertyType<32>[6]
 
 BUILD 5.0.2.15827-5.0.3.15890
 $id$ID<32>
-flags<32>
+flags<u32>
 propertyName_lang[6]
 
 BUILD 5.0.1.15640-5.0.1.15799
 $id$ID<32>
-flags<32>
+flags<u32>

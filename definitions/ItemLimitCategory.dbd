@@ -2,10 +2,10 @@ COLUMNS
 int ID
 locstring name_lang
 int quantity
-uint flags
+int flags
 
 BUILD 3.0.1.8391-5.4.8.18414
 $id$ID<32>
 name_lang
 quantity<32>
-flags<32>
+flags<u32>

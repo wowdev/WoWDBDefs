@@ -1,30 +1,30 @@
 COLUMNS
 int ID
-uint<ChrRaces::ID> raceID
-uint sexID
-uint variationID
-uint geosetID
+int<ChrRaces::ID> raceID
+int sexID
+int variationID
+int geosetID
 int showscalp
 int variationType
 int geosetType
 int colorIndex
-uint genderID
+int genderID
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-raceID<32>
-sexID<32>
-variationID<32>
+raceID<u32>
+sexID<u32>
+variationID<u32>
 variationType<32>
-geosetID<32>
+geosetID<u32>
 geosetType<32>
 showscalp<32>
 colorIndex<32>
 
 BUILD 0.5.3.3368-4.3.4.15595
 $id$ID<32>
-raceID<32>
-genderID<32>
-variationID<32>
-geosetID<32>
+raceID<u32>
+genderID<u32>
+variationID<u32>
+geosetID<u32>
 showscalp<32>

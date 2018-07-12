@@ -2,121 +2,121 @@ COLUMNS
 int ID
 int importance
 int icon
-uint<FactionTemplate::ID> factionID
+int<FactionTemplate::ID> factionID
 float pos
-uint<Map::ID> continentID
-uint flags
-uint<AreaTable::ID> areaID
+int<Map::ID> continentID
+int flags
+int<AreaTable::ID> areaID
 locstring name_lang
 locstring description_lang
-uint<WorldState::ID> worldStateID
-uint<PlayerCondition::ID> playerConditionID
+int<WorldState::ID> worldStateID
+int<PlayerCondition::ID> playerConditionID
 int worldMapLink
-uint<WorldSafeLocs::ID> portLocID
+int<WorldSafeLocs::ID> portLocID
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 importance<32>
 icon<32>[9]
-factionID<32>
+factionID<u32>
 pos[2]
-continentID<32>
-flags<32>
-areaID<32>
+continentID<u32>
+flags<u32>
+areaID<u32>
 name_lang
 description_lang
-worldStateID<32>
-playerConditionID<32>
+worldStateID<u32>
+playerConditionID<u32>
 worldMapLink<32>
-portLocID<32>
+portLocID<u32>
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
 importance<32>
 icon<32>[9]
-factionID<32>
+factionID<u32>
 pos[2]
-continentID<32>
-flags<32>
-areaID<32>
+continentID<u32>
+flags<u32>
+areaID<u32>
 name_lang
 description_lang
-worldStateID<32>
+worldStateID<u32>
 worldMapLink<32>
-portLocID<32>
+portLocID<u32>
 
 BUILD 4.0.0.12025-4.0.0.12319
 $id$ID<32>
 importance<32>
 icon<32>[9]
-factionID<32>
+factionID<u32>
 pos[2]
-continentID<32>
-flags<32>
-areaID<32>
+continentID<u32>
+flags<u32>
+areaID<u32>
 name_lang
 description_lang
-worldStateID<32>
+worldStateID<u32>
 worldMapLink<32>
 
 BUILD 3.0.1.8885-4.0.0.11927
 $id$ID<32>
 importance<32>
 icon<32>[9]
-factionID<32>
+factionID<u32>
 pos[3]
-continentID<32>
-flags<32>
-areaID<32>
+continentID<u32>
+flags<u32>
+areaID<u32>
 name_lang
 description_lang
-worldStateID<32>
+worldStateID<u32>
 worldMapLink<32>
 
 BUILD 3.0.1.8622-3.0.1.8874
 $id$ID<32>
 importance<32>
 icon<32>
-factionID<32>
+factionID<u32>
 pos[3]
-continentID<32>
-flags<32>
-areaID<32>
+continentID<u32>
+flags<u32>
+areaID<u32>
 name_lang
 description_lang
-worldStateID<32>
+worldStateID<u32>
 worldMapLink<32>
 
 BUILD 1.3.0.4284-3.0.1.8471
 $id$ID<32>
 importance<32>
 icon<32>
-factionID<32>
+factionID<u32>
 pos[3]
-continentID<32>
-flags<32>
-areaID<32>
+continentID<u32>
+flags<u32>
+areaID<u32>
 name_lang
 description_lang
-worldStateID<32>
+worldStateID<u32>
 
 BUILD 0.6.0.3592-1.2.4.4222
 $id$ID<32>
 importance<32>
 icon<32>
-factionID<32>
+factionID<u32>
 pos[3]
-continentID<32>
-flags<32>
-areaID<32>
+continentID<u32>
+flags<u32>
+areaID<u32>
 name_lang
 
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
 importance<32>
 icon<32>
-factionID<32>
+factionID<u32>
 pos[3]
-continentID<32>
-flags<32>
+continentID<u32>
+flags<u32>
 name_lang

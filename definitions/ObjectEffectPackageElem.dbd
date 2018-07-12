@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint<ObjectEffectPackage::ID> objectEffectPackageID
-uint<ObjectEffectGroup::ID> objectEffectGroupID
+int<ObjectEffectPackage::ID> objectEffectPackageID
+int<ObjectEffectGroup::ID> objectEffectGroupID
 int stateType
 
 BUILD 3.0.1.8622-6.2.4.21742
 $id$ID<32>
-objectEffectPackageID<32>
-objectEffectGroupID<32>
+objectEffectPackageID<u32>
+objectEffectGroupID<u32>
 stateType<32>

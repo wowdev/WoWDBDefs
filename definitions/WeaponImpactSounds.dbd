@@ -20,12 +20,12 @@ int critImpactSoundID7
 int critImpactSoundID8
 int critImpactSoundID9
 int critImpactSoundID10
-uint weaponSubClassID
+int weaponSubClassID
 int parrySoundType
 
 BUILD 0.5.3.3368-6.2.4.21742
 $id$ID<32>
-weaponSubClassID<32>
+weaponSubClassID<u32>
 parrySoundType<32>
 impactSoundID1<32>
 impactSoundID2<32>

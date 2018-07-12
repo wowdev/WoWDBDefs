@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 locstring name_lang
-uint flags
+int flags
 
 BUILD 5.0.1.15508
 $id$ID<32>
@@ -13,4 +13,4 @@ name_lang
 BUILD 5.0.1.15650-5.4.8.18414
 $id$ID<32>
 name_lang
-flags<32>
+flags<u32>

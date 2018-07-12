@@ -1,23 +1,23 @@
 COLUMNS
 int ID
 string name
-uint<ObjectEffectGroup::ID> objectEffectGroupID
+int<ObjectEffectGroup::ID> objectEffectGroupID
 int triggerType
 int eventType
 int effectRecType
-uint effectRecID
+int effectRecID
 int attachment
 float offset
-uint<ObjectEffectModifier::ID> objectEffectModifierID
+int<ObjectEffectModifier::ID> objectEffectModifierID
 
 BUILD 3.0.1.8622-6.0.3.19342
 $id$ID<32>
 name
-objectEffectGroupID<32>
+objectEffectGroupID<u32>
 triggerType<32>
 eventType<32>
 effectRecType<32>
-effectRecID<32>
+effectRecID<u32>
 attachment<32>
 offset[3]
-objectEffectModifierID<32>
+objectEffectModifierID<u32>

@@ -1,41 +1,41 @@
 COLUMNS
 int ID
-uint<BattlePetAbilityTurn::ID> turnID
-uint<BattlePetVisual::ID> visualID
-uint<BattlePetAbility::ID> abilityID
-uint effectPropertyID
-uint flags
+int<BattlePetAbilityTurn::ID> turnID
+int<BattlePetVisual::ID> visualID
+int<BattlePetAbility::ID> abilityID
+int effectPropertyID
+int flags
 int property
 
 BUILD 5.0.2.15827-6.2.4.21742
 $id$ID<32>
-turnID<32>
-visualID<32>
-abilityID<32>
-effectPropertyID<32>
-flags<32>
+turnID<u32>
+visualID<u32>
+abilityID<u32>
+effectPropertyID<u32>
+flags<u32>
 property<32>[6]
 
 BUILD 5.0.1.15640-5.0.1.15799
 $id$ID<32>
-turnID<32>
-visualID<32>
+turnID<u32>
+visualID<u32>
 property<32>[3]
-abilityID<32>
-effectPropertyID<32>
-flags<32>
+abilityID<u32>
+effectPropertyID<u32>
+flags<u32>
 
 BUILD 5.0.1.15544-5.0.1.15589
 $id$ID<32>
-turnID<32>
-visualID<32>
+turnID<u32>
+visualID<u32>
 property<32>[3]
-abilityID<32>
-flags<32>
+abilityID<u32>
+flags<u32>
 
 BUILD 5.0.1.15508
 $id$ID<32>
-turnID<32>
-visualID<32>
+turnID<u32>
+visualID<u32>
 property<32>[3]
-abilityID<32>
+abilityID<u32>

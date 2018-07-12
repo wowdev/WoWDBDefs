@@ -10,10 +10,10 @@ int field_8451231413?
 int field_4471846513?
 int field_1633337131?
 int field_4845838786?
-uint spellVisualMissileSetID
+int spellVisualMissileSetID
 int ID
-uint<SoundEntries::ID> animEventSoundID
-uint flags
+int<SoundEntries::ID> animEventSoundID
+int flags
 int missileAttachment
 float missileCastOffset
 int missileDestinationAttachment
@@ -34,7 +34,7 @@ int targetImpactKit
 int missileFollowGroundHeight
 int missileFollowGroundDropSpeed
 int missileFollowGroundApproach
-uint missileFollowGroundFlags
+int missileFollowGroundFlags
 int missileMotion
 int instantAreaKit
 int impactAreaKit
@@ -65,7 +65,7 @@ stateKit<32>
 stateDoneKit<32>
 channelKit<32>
 missileDestinationAttachment<32>
-animEventSoundID<32>
+animEventSoundID<u32>
 field_1872919691<32>
 casterImpactKit<32>
 targetImpactKit<32>
@@ -81,7 +81,7 @@ field_8451231413<32>
 field_4471846513<32>
 field_1633337131<32>
 field_4845838786<32>
-spellVisualMissileSetID<32>
+spellVisualMissileSetID<u32>
 
 BUILD 5.0.1.15668-5.3.0.17116
 $id$ID<32>
@@ -97,8 +97,8 @@ missileModel<32>
 missilePathType<32>
 missileDestinationAttachment<32>
 missileSound<32>
-animEventSoundID<32>
-flags<32>
+animEventSoundID<u32>
+flags<u32>
 casterImpactKit<32>
 targetImpactKit<32>
 missileAttachment<32>
@@ -106,7 +106,7 @@ missileFollowGroundHeight<32>
 missileFollowGroundDropSpeed<32>
 missileFollowGroundApproach<32>
 field_3625367900<32>
-missileFollowGroundFlags<32>
+missileFollowGroundFlags<u32>
 missileMotion<32>
 missileTargetingKit<32>
 instantAreaKit<32>
@@ -133,8 +133,8 @@ missileModel<32>
 missilePathType<32>
 missileDestinationAttachment<32>
 missileSound<32>
-animEventSoundID<32>
-flags<32>
+animEventSoundID<u32>
+flags<u32>
 casterImpactKit<32>
 targetImpactKit<32>
 missileAttachment<32>
@@ -142,7 +142,7 @@ missileFollowGroundHeight<32>
 missileFollowGroundDropSpeed<32>
 missileFollowGroundApproach<32>
 field_3625367900<32>
-missileFollowGroundFlags<32>
+missileFollowGroundFlags<u32>
 missileMotion<32>
 missileTargetingKit<32>
 instantAreaKit<32>
@@ -165,15 +165,15 @@ missileModel<32>
 missilePathType<32>
 missileDestinationAttachment<32>
 missileSound<32>
-animEventSoundID<32>
-flags<32>
+animEventSoundID<u32>
+flags<u32>
 casterImpactKit<32>
 targetImpactKit<32>
 missileAttachment<32>
 missileFollowGroundHeight<32>
 missileFollowGroundDropSpeed<32>
 missileFollowGroundApproach<32>
-missileFollowGroundFlags<32>
+missileFollowGroundFlags<u32>
 missileMotion<32>
 missileTargetingKit<32>
 instantAreaKit<32>
@@ -196,15 +196,15 @@ missileModel<32>
 missilePathType<32>
 missileDestinationAttachment<32>
 missileSound<32>
-animEventSoundID<32>
-flags<32>
+animEventSoundID<u32>
+flags<u32>
 casterImpactKit<32>
 targetImpactKit<32>
 missileAttachment<32>
 missileFollowGroundHeight<32>
 missileFollowGroundDropSpeed<32>
 missileFollowGroundApproach<32>
-missileFollowGroundFlags<32>
+missileFollowGroundFlags<u32>
 missileMotion<32>
 missileTargetingKit<32>
 instantAreaKit<32>
@@ -230,15 +230,15 @@ missileModel<32>
 missilePathType<32>
 missileDestinationAttachment<32>
 missileSound<32>
-animEventSoundID<32>
-flags<32>
+animEventSoundID<u32>
+flags<u32>
 casterImpactKit<32>
 targetImpactKit<32>
 missileAttachment<32>
 missileFollowGroundHeight<32>
 missileFollowGroundDropSpeed<32>
 missileFollowGroundApproach<32>
-missileFollowGroundFlags<32>
+missileFollowGroundFlags<u32>
 missileMotion<32>
 missileTargetingKit<32>
 instantAreaKit<32>
@@ -257,15 +257,15 @@ missileModel<32>
 missilePathType<32>
 missileDestinationAttachment<32>
 missileSound<32>
-animEventSoundID<32>
-flags<32>
+animEventSoundID<u32>
+flags<u32>
 casterImpactKit<32>
 targetImpactKit<32>
 missileAttachment<32>
 missileFollowGroundHeight<32>
 missileFollowGroundDropSpeed<32>
 missileFollowGroundApproach<32>
-missileFollowGroundFlags<32>
+missileFollowGroundFlags<u32>
 missileMotion<32>
 missileTargetingKit<32>
 instantAreaKit<32>
@@ -287,15 +287,15 @@ missileSound<32>
 hasAreaEffect<32>
 areaModel<32>
 areaKit<32>
-animEventSoundID<32>
-flags<32>
+animEventSoundID<u32>
+flags<u32>
 casterImpactKit<32>
 targetImpactKit<32>
 missileAttachment<32>
 missileFollowGroundHeight<32>
 missileFollowGroundDropSpeed<32>
 missileFollowGroundApproach<32>
-missileFollowGroundFlags<32>
+missileFollowGroundFlags<u32>
 missileMotion<32>
 
 BUILD 2.0.0.6080
@@ -313,8 +313,8 @@ missileSound<32>
 hasAreaEffect<32>
 areaModel<32>
 areaKit<32>
-animEventSoundID<32>
-flags<32>
+animEventSoundID<u32>
+flags<u32>
 casterImpactKit<32>
 targetImpactKit<32>
 
@@ -333,8 +333,8 @@ missileSound<32>
 hasAreaEffect<32>
 areaModel<32>
 areaKit<32>
-animEventSoundID<32>
-flags<32>
+animEventSoundID<u32>
+flags<u32>
 
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
@@ -351,10 +351,10 @@ missileSound<32>
 hasAreaEffect<32>
 areaModel<32>
 areaKit<32>
-animEventSoundID<32>
-weaponTrailRed<8>
-weaponTrailGreen<8>
-weaponTrailBlue<8>
-weaponTrailAlpha<8>
-weaponTrailFadeoutRate<8>
+animEventSoundID<u32>
+weaponTrailRed<u8>
+weaponTrailGreen<u8>
+weaponTrailBlue<u8>
+weaponTrailAlpha<u8>
+weaponTrailFadeoutRate<u8>
 weaponTrailDuration<32>

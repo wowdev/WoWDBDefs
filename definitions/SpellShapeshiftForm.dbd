@@ -2,47 +2,47 @@ COLUMNS
 int ID
 int bonusActionBar
 locstring name_lang
-uint flags
+int flags
 int creatureType
-uint<SpellIcon::ID> attackIconID
+int<SpellIcon::ID> attackIconID
 int combatRoundTime
-uint creatureDisplayID
-uint<Spell::ID> presetSpellID
-uint mountTypeID
-uint<SoundEntries::ID> exitSoundEntriesID
+int creatureDisplayID
+int<Spell::ID> presetSpellID
+int mountTypeID
+int<SoundEntries::ID> exitSoundEntriesID
 
 BUILD 4.0.6.13623-6.2.4.21742
 $id$ID<32>
 bonusActionBar<32>
 name_lang
-flags<32>
+flags<u32>
 creatureType<32>
-attackIconID<32>
+attackIconID<u32>
 combatRoundTime<32>
-creatureDisplayID<32>[4]
-presetSpellID<32>[8]
-mountTypeID<32>
-exitSoundEntriesID<32>
+creatureDisplayID<u32>[4]
+presetSpellID<u32>[8]
+mountTypeID<u32>
+exitSoundEntriesID<u32>
 
 BUILD 2.3.0.7561-4.0.6.13596
 $id$ID<32>
 bonusActionBar<32>
 name_lang
-flags<32>
+flags<u32>
 creatureType<32>
-attackIconID<32>
+attackIconID<u32>
 combatRoundTime<32>
-creatureDisplayID<32>[4]
-presetSpellID<32>[8]
+creatureDisplayID<u32>[4]
+presetSpellID<u32>[8]
 
 BUILD 2.0.0.5610-2.0.0.5965
 BUILD 2.0.0.6022-2.2.0.7272
 $id$ID<32>
 bonusActionBar<32>
 name_lang
-flags<32>
+flags<u32>
 creatureType<32>
-attackIconID<32>
+attackIconID<u32>
 combatRoundTime<32>
 
 BUILD 2.0.0.5991
@@ -50,19 +50,19 @@ BUILD 0.9.0.3807-1.12.2.6005
 $id$ID<32>
 bonusActionBar<32>
 name_lang
-flags<32>
+flags<u32>
 creatureType<32>
-attackIconID<32>
+attackIconID<u32>
 
 BUILD 0.6.0.3592-0.8.0.3734
 $id$ID<32>
 bonusActionBar<32>
 name_lang
-flags<32>
+flags<u32>
 creatureType<32>
 
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
 bonusActionBar<32>
 name_lang
-flags<32>
+flags<u32>

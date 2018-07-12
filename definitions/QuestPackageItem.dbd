@@ -2,12 +2,12 @@ COLUMNS
 int ID
 int count
 int type
-uint questPackageID
-uint itemID
+int questPackageID
+int itemID
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-questPackageID<32>
-itemID<32>
+questPackageID<u32>
+itemID<u32>
 count<32>
 type<32>

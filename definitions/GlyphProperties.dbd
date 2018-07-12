@@ -1,16 +1,16 @@
 COLUMNS
 int ID
-uint<Spell::ID> spellID
-uint glyphSlotFlags
-uint<SpellIcon::ID> spellIconID
+int<Spell::ID> spellID
+int glyphSlotFlags
+int<SpellIcon::ID> spellIconID
 
 BUILD 3.0.1.8622-5.4.8.18414
 $id$ID<32>
-spellID<32>
-glyphSlotFlags<32>
-spellIconID<32>
+spellID<u32>
+glyphSlotFlags<u32>
+spellIconID<u32>
 
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>
-spellID<32>
-glyphSlotFlags<32>
+spellID<u32>
+glyphSlotFlags<u32>

@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-uint<SpellAuraVisibility::ID> spellAuraVisibilityID
-uint<ChrSpecialization::ID> chrSpecializationID
+int<SpellAuraVisibility::ID> spellAuraVisibilityID
+int<ChrSpecialization::ID> chrSpecializationID
 
 BUILD 5.0.1.15640-5.4.8.18414
 $id$ID<32>
-spellAuraVisibilityID<32>
-chrSpecializationID<32>
+spellAuraVisibilityID<u32>
+chrSpecializationID<u32>

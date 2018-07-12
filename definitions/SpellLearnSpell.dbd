@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint<Spell::ID> learnSpellID
-uint overridesSpellID
-uint<Spell::ID> spellID
+int<Spell::ID> learnSpellID
+int overridesSpellID
+int<Spell::ID> spellID
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-learnSpellID<32>
-overridesSpellID<32>
-spellID<32>
+learnSpellID<u32>
+overridesSpellID<u32>
+spellID<u32>

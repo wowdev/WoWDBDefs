@@ -3,8 +3,8 @@ int ID
 locstring name_lang
 locstring description_lang
 int rarity
-uint<ResearchBranch::ID> researchBranchID
-uint<Spell::ID> spellID
+int<ResearchBranch::ID> researchBranchID
+int<Spell::ID> spellID
 int numSockets
 string texture
 int requiredWeight
@@ -14,8 +14,8 @@ $id$ID<32>
 name_lang
 description_lang
 rarity<32>
-researchBranchID<32>
-spellID<32>
+researchBranchID<u32>
+spellID<u32>
 numSockets<32>
 texture
 requiredWeight<32>
@@ -25,7 +25,7 @@ $id$ID<32>
 name_lang
 description_lang
 rarity<32>
-researchBranchID<32>
-spellID<32>
+researchBranchID<u32>
+spellID<u32>
 numSockets<32>
 texture

@@ -1,22 +1,22 @@
 COLUMNS
 int ID
-uint<CreatureModelData::ID> modelID
-uint<CreatureSoundData::ID> soundID
-uint<CreatureDisplayInfoExtra::ID> extendedDisplayInfoID
+int<CreatureModelData::ID> modelID
+int<CreatureSoundData::ID> soundID
+int<CreatureDisplayInfoExtra::ID> extendedDisplayInfoID
 float creatureModelScale
 int creatureModelAlpha
 string textureVariation
 string portraitTextureName
 int sizeClass
-uint<UnitBlood::ID> bloodID
-uint<ParticleColor::ID> particleColorID
+int<UnitBlood::ID> bloodID
+int<ParticleColor::ID> particleColorID
 int creatureGeosetData
-uint<ObjectEffectPackage::ID> objectEffectPackageID
-uint<AnimReplacementSet::ID> animReplacementSetID
-uint flags
+int<ObjectEffectPackage::ID> objectEffectPackageID
+int<AnimReplacementSet::ID> animReplacementSetID
+int flags
 int gender
-uint<SpellVisualKit::ID> stateSpellVisualKitID
-uint<NPCSounds::ID> NPCSoundID
+int<SpellVisualKit::ID> stateSpellVisualKitID
+int<NPCSounds::ID> NPCSoundID
 int field_6621938579?
 int field_4442346321?
 int field_5554533123?
@@ -29,134 +29,134 @@ int field_4936195553?
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
 portraitTextureName
 sizeClass<32>
-bloodID<32>
-NPCSoundID<32>
-particleColorID<32>
+bloodID<u32>
+NPCSoundID<u32>
+particleColorID<u32>
 creatureGeosetData<32>
-objectEffectPackageID<32>
-animReplacementSetID<32>
-flags<32>
+objectEffectPackageID<u32>
+animReplacementSetID<u32>
+flags<u32>
 gender<32>
-stateSpellVisualKitID<32>
+stateSpellVisualKitID<u32>
 
 BUILD 5.0.1.15762-5.3.0.17116
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
 portraitTextureName
 sizeClass<32>
-bloodID<32>
-NPCSoundID<32>
-particleColorID<32>
+bloodID<u32>
+NPCSoundID<u32>
+particleColorID<u32>
 creatureGeosetData<32>
-objectEffectPackageID<32>
-animReplacementSetID<32>
-flags<32>
+objectEffectPackageID<u32>
+animReplacementSetID<u32>
+flags<u32>
 gender<32>
 
 BUILD 5.0.1.15464-5.0.1.15752
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
 portraitTextureName
 sizeClass<32>
-bloodID<32>
-NPCSoundID<32>
-particleColorID<32>
+bloodID<u32>
+NPCSoundID<u32>
+particleColorID<u32>
 creatureGeosetData<32>
-objectEffectPackageID<32>
-animReplacementSetID<32>
-flags<32>
+objectEffectPackageID<u32>
+animReplacementSetID<u32>
+flags<u32>
 
 BUILD 4.0.0.11927-4.3.4.15595
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
 portraitTextureName
 sizeClass<32>
-bloodID<32>
-NPCSoundID<32>
-particleColorID<32>
+bloodID<u32>
+NPCSoundID<u32>
+particleColorID<u32>
 creatureGeosetData<32>
-objectEffectPackageID<32>
-animReplacementSetID<32>
+objectEffectPackageID<u32>
+animReplacementSetID<u32>
 
 BUILD 3.0.1.8820-3.3.5.12340
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
 portraitTextureName
 sizeClass<32>
-bloodID<32>
-NPCSoundID<32>
-particleColorID<32>
+bloodID<u32>
+NPCSoundID<u32>
+particleColorID<u32>
 creatureGeosetData<32>
-objectEffectPackageID<32>
+objectEffectPackageID<u32>
 
 BUILD 3.0.1.8622-3.0.1.8788
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
 portraitTextureName
 sizeClass<32>
-bloodID<32>
-NPCSoundID<32>
-particleColorID<32>
+bloodID<u32>
+NPCSoundID<u32>
+particleColorID<u32>
 creatureGeosetData<32>
 
 BUILD 2.4.0.8089-3.0.1.8471
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
 portraitTextureName
 sizeClass<32>
-bloodID<32>
-NPCSoundID<32>
-particleColorID<32>
+bloodID<u32>
+NPCSoundID<u32>
+particleColorID<u32>
 
 BUILD 2.1.0.6692-2.3.3.7799
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
 sizeClass<32>
-bloodID<32>
-NPCSoundID<32>
+bloodID<u32>
+NPCSoundID<u32>
 field_6621938579<32>
 field_4442346321<32>
 field_5554533123<32>
@@ -169,33 +169,33 @@ field_4936195553<32>
 
 BUILD 0.10.0.3892-2.0.6.6337
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
 sizeClass<32>
-bloodID<32>
-NPCSoundID<32>
+bloodID<u32>
+NPCSoundID<u32>
 
 BUILD 0.6.0.3592-0.9.1.3810
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
 sizeClass<32>
-bloodID<32>
+bloodID<u32>
 
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
-modelID<32>
-soundID<32>
-extendedDisplayInfoID<32>
+modelID<u32>
+soundID<u32>
+extendedDisplayInfoID<u32>
 creatureModelScale
 creatureModelAlpha<32>
 textureVariation[3]
-bloodID<32>
+bloodID<u32>

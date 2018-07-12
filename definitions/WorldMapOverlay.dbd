@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint<WorldMapArea::ID> mapAreaID
-uint<AreaTable::ID> areaID
+int<WorldMapArea::ID> mapAreaID
+int<AreaTable::ID> areaID
 string textureName
 int textureWidth
 int textureHeight
@@ -11,14 +11,14 @@ int hitRectTop
 int hitRectLeft
 int hitRectBottom
 int hitRectRight
-uint playerConditionID
+int playerConditionID
 int mapPointX
 int mapPointY
 
 BUILD 5.0.1.15668-5.4.8.18414
 $id$ID<32>
-mapAreaID<32>
-areaID<32>[4]
+mapAreaID<u32>
+areaID<u32>[4]
 textureName
 textureWidth<32>
 textureHeight<32>
@@ -28,12 +28,12 @@ hitRectTop<32>
 hitRectLeft<32>
 hitRectBottom<32>
 hitRectRight<32>
-playerConditionID<32>
+playerConditionID<u32>
 
 BUILD 4.1.0.13914-5.0.1.15662
 $id$ID<32>
-mapAreaID<32>
-areaID<32>[4]
+mapAreaID<u32>
+areaID<u32>[4]
 textureName
 textureWidth<32>
 textureHeight<32>
@@ -46,8 +46,8 @@ hitRectRight<32>
 
 BUILD 4.0.6.13623
 $id$ID<32>
-mapAreaID<32>
-areaID<32>[4]
+mapAreaID<u32>
+areaID<u32>[4]
 textureName
 textureWidth<32>
 textureHeight<32>
@@ -60,8 +60,8 @@ hitRectRight<32>
 
 BUILD 0.6.0.3592-4.0.6.13596
 $id$ID<32>
-mapAreaID<32>
-areaID<32>[4]
+mapAreaID<u32>
+areaID<u32>[4]
 mapPointX<32>
 mapPointY<32>
 textureName
@@ -76,8 +76,8 @@ hitRectRight<32>
 
 BUILD 0.5.5.3494
 $id$ID<32>
-mapAreaID<32>
-areaID<32>
+mapAreaID<u32>
+areaID<u32>
 mapPointX<32>
 mapPointY<32>
 textureName

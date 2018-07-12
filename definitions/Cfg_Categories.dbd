@@ -1,26 +1,26 @@
 COLUMNS
 int ID
-uint localeMask
-uint flags
+int localeMask
+int flags
 locstring name_lang
-uint create_charsetMask
-uint existing_charsetMask
+int create_charsetMask
+int existing_charsetMask
 int field_7811103257?
 int region?
 
 BUILD 4.3.2.15148-5.4.8.18414
 $id$ID<32>
-localeMask<32>
-create_charsetMask<32>
-existing_charsetMask<32>
-flags<32>
+localeMask<u32>
+create_charsetMask<u32>
+existing_charsetMask<u32>
+flags<u32>
 name_lang
 
 BUILD 2.4.0.8089-4.3.0.15050
 $id$ID<32>
-localeMask<32>
-create_charsetMask<32>
-flags<32>
+localeMask<u32>
+create_charsetMask<u32>
+flags<u32>
 name_lang
 
 BUILD 0.10.0.3892-2.3.3.7799

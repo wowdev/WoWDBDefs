@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint<ItemClass::ID> classID
-uint<ItemSubClass::ID> subClassID
+int<ItemClass::ID> classID
+int<ItemSubClass::ID> subClassID
 int prerequisiteProficiency
 int postrequisiteProficiency
-uint flags
-uint displayFlags
+int flags
+int displayFlags
 int weaponParrySeq
 int weaponReadySeq
 int weaponAttackSeq
@@ -15,12 +15,12 @@ int weaponSwingSize
 
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
-classID<32>
-subClassID<32>
+classID<u32>
+subClassID<u32>
 prerequisiteProficiency<32>
 postrequisiteProficiency<32>
-flags<32>
-displayFlags<32>
+flags<u32>
+displayFlags<u32>
 weaponParrySeq<32>
 weaponReadySeq<32>
 weaponAttackSeq<32>
@@ -29,12 +29,12 @@ displayName_lang
 verboseName_lang
 
 BUILD 0.5.3.3368-3.3.5.12340
-classID<32>
-subClassID<32>
+classID<u32>
+subClassID<u32>
 prerequisiteProficiency<32>
 postrequisiteProficiency<32>
-flags<32>
-displayFlags<32>
+flags<u32>
+displayFlags<u32>
 weaponParrySeq<32>
 weaponReadySeq<32>
 weaponAttackSeq<32>

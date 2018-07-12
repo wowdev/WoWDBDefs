@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint fontFileDataID
+int fontFileDataID
 int field_9456686214?
 int wowLocale
 int secondary
@@ -8,12 +8,12 @@ int clientDisplayExpansion
 
 BUILD 5.0.1.15640-5.0.1.15799
 $id$ID<32>
-fontFileDataID<32>
+fontFileDataID<u32>
 
 BUILD 5.0.2.15827-5.4.8.18414
 $id$ID<32>
 field_9456686214<32>
 wowLocale<32>
 secondary<32>
-fontFileDataID<32>
+fontFileDataID<u32>
 clientDisplayExpansion<32>

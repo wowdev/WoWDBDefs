@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint flags
+int flags
 int usesPerWeek
 locstring name_lang
 int maxCharges
@@ -8,7 +8,7 @@ int chargeRecoveryTime
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-flags<32>
+flags<u32>
 usesPerWeek<32>
 name_lang
 maxCharges<32>
@@ -16,10 +16,10 @@ chargeRecoveryTime<32>
 
 BUILD 4.1.0.13914-4.3.4.15595
 $id$ID<32>
-flags<32>
+flags<u32>
 usesPerWeek<32>
 name_lang
 
 BUILD 0.5.5.3494-4.1.0.13875
 $id$ID<32>
-flags<32>
+flags<u32>

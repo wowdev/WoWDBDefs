@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int alwaysItem
 int classification
-uint displayID
+int displayID
 float displayProbability
 locstring name_lang
 int startAnimState
@@ -27,7 +27,7 @@ BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 alwaysItem<32>[3]
 field_1525801569<32>
-displayID<32>[4]
+displayID<u32>[4]
 displayProbability[4]
 title_lang
 titleAlt_lang
@@ -41,7 +41,7 @@ alwaysItem<32>[3]
 field_7578003819<32>
 field_9577352036<32>
 field_4836540140<32>
-displayID<32>[4]
+displayID<u32>[4]
 displayProbability[4]
 name_lang
 startAnimState<32>
@@ -52,7 +52,7 @@ alwaysItem<32>[3]
 field_4736215618<32>
 field_5009805939<32>
 field_7759724630<32>
-displayID<32>[4]
+displayID<u32>[4]
 displayProbability[4]
 field_5734130076<32>
 name_lang
@@ -67,7 +67,7 @@ alwaysItem<32>[3]
 field_6344467879<32>
 field_1638684343<32>
 field_6452793020<32>
-displayID<32>[4]
+displayID<u32>[4]
 displayProbability[4]
 field_5734130076<32>
 name_lang

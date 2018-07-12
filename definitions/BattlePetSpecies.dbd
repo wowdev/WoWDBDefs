@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-uint npcID?
-uint iconID?
-uint<Spell::ID> spellID?
-uint<CreatureFamily::ID> familyID?
-uint flags
+int npcID?
+int iconID?
+int<Spell::ID> spellID?
+int<CreatureFamily::ID> familyID?
+int flags
 string source_Lang?
 string description_Lang?
 int source?
@@ -22,7 +22,7 @@ npcID<32>
 iconID<32>
 spellID<32>
 familyID<32>
-flags<32>
+flags<u32>
 
 BUILD 5.0.1.15640-5.0.1.15689
 $id$ID<32>
@@ -30,7 +30,7 @@ npcID<32>
 iconID<32>
 spellID<32>
 familyID<32>
-flags<32>
+flags<u32>
 source_Lang
 description_Lang
 
@@ -41,6 +41,6 @@ iconID<32>
 spellID<32>
 familyID<32>
 source<32>
-flags<32>
+flags<u32>
 source_Lang
 description_Lang

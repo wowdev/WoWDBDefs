@@ -5,7 +5,7 @@ int maxLevel
 int itemType
 int primaryStat
 int secondaryStat
-uint specializationID
+int specializationID
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
@@ -14,4 +14,4 @@ maxLevel<32>
 itemType<32>
 primaryStat<32>
 secondaryStat<32>
-specializationID<32>
+specializationID<u32>

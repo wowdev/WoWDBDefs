@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int faction
-uint<Map::ID> instance_ID
+int<Map::ID> instance_ID
 int<Achievement::ID> supercedes
 locstring title_lang
 locstring description_lang
@@ -9,8 +9,8 @@ int<Achievement_Category::ID> category
 int points
 int ui_order
 int field_2003222025? // possibly ui_order
-uint flags
-uint<SpellIcon::ID> iconID
+int flags
+int<SpellIcon::ID> iconID
 locstring reward_lang
 int minimum_criteria
 int<Achievement::ID> shares_criteria
@@ -20,15 +20,15 @@ int field_5134826755?
 BUILD 3.0.1.8622-4.3.4.15595
 $id$ID<32>
 faction<32>
-instance_ID<32>
+instance_ID<u32>
 supercedes<32>
 title_lang
 description_lang
 category<32>
 points<32>
 ui_order<32>
-flags<32>
-iconID<32>
+flags<u32>
+iconID<u32>
 reward_lang
 minimum_criteria<32>
 shares_criteria<32>
@@ -36,15 +36,15 @@ shares_criteria<32>
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 faction<32>
-instance_ID<32>
+instance_ID<u32>
 supercedes<32>
 title_lang
 description_lang
 category<32>
 points<32>
 ui_order<32>
-flags<32>
-iconID<32>
+flags<u32>
+iconID<u32>
 reward_lang
 minimum_criteria<32>
 shares_criteria<32>
@@ -53,7 +53,7 @@ criteria_tree<32>
 BUILD 3.0.1.8471
 $id$ID<32>
 faction<32>
-instance_ID<32>
+instance_ID<u32>
 title_lang
 description_lang
 category<32>
@@ -63,7 +63,7 @@ field_2003222025<32>
 BUILD 3.0.1.8334-3.0.1.8391
 $id$ID<32>
 faction<32>
-instance_ID<32>
+instance_ID<u32>
 title_lang
 description_lang
 category<32>
@@ -73,7 +73,7 @@ BUILD 3.0.1.8303
 $id$ID<32>
 faction<32>
 field_5134826755<32>
-instance_ID<32>
+instance_ID<u32>
 title_lang
 description_lang
 category<32>

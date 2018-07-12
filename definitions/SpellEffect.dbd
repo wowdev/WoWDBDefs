@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint<Difficulty::ID> difficultyID
+int<Difficulty::ID> difficultyID
 int effect
 float effectAmplitude
 int effectAura
@@ -16,17 +16,17 @@ int effectMiscValue
 float effectPointsPerResource
 int effectRadiusIndex
 float effectRealPointsPerLevel
-uint effectSpellClassMask
+int effectSpellClassMask
 int effectTriggerSpell
 float effectPos_facing
 int implicitTarget
-uint<Spell::ID> spellID
+int<Spell::ID> spellID
 int effectIndex
 int effectAttributes
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-difficultyID<32>
+difficultyID<u32>
 effect<32>
 effectAmplitude
 effectAura<32>
@@ -42,11 +42,11 @@ effectMiscValue<32>[2]
 effectPointsPerResource
 effectRadiusIndex<32>[2]
 effectRealPointsPerLevel
-effectSpellClassMask<32>[4]
+effectSpellClassMask<u32>[4]
 effectTriggerSpell<32>
 effectPos_facing
 implicitTarget<32>[2]
-spellID<32>
+spellID<u32>
 effectIndex<32>
 effectAttributes<32>
 
@@ -67,10 +67,10 @@ effectMiscValue<32>[2]
 effectPointsPerResource
 effectRadiusIndex<32>[2]
 effectRealPointsPerLevel
-effectSpellClassMask<32>[4]
+effectSpellClassMask<u32>[4]
 effectTriggerSpell<32>
 implicitTarget<32>[2]
-spellID<32>
+spellID<u32>
 effectIndex<32>
 effectAttributes<32>
 
@@ -91,10 +91,10 @@ effectMiscValue<32>[2]
 effectPointsPerResource
 effectRadiusIndex<32>[2]
 effectRealPointsPerLevel
-effectSpellClassMask<32>[3]
+effectSpellClassMask<u32>[3]
 effectTriggerSpell<32>
 implicitTarget<32>[2]
-spellID<32>
+spellID<u32>
 effectIndex<32>
 effectAttributes<32>
 
@@ -115,8 +115,8 @@ effectMiscValue<32>[2]
 effectPointsPerResource
 effectRadiusIndex<32>[2]
 effectRealPointsPerLevel<32>
-effectSpellClassMask<32>[3]
+effectSpellClassMask<u32>[3]
 effectTriggerSpell<32>
 implicitTarget<32>[2]
-spellID<32>
+spellID<u32>
 effectIndex<32>

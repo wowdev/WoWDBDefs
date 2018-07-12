@@ -4,13 +4,13 @@ string modelName
 string modelTexture
 string inventoryIcon
 int geosetGroup
-uint flags
-uint<SpellVisual::ID> spellVisualID
+int flags
+int<SpellVisual::ID> spellVisualID
 int groupSoundIndex
 string texture
 int itemVisual
-uint<ParticleColor::ID> particleColorID
-uint helmetGeosetVisID
+int<ParticleColor::ID> particleColorID
+int helmetGeosetVisID
 string groundModel
 int itemSize
 
@@ -20,13 +20,13 @@ modelName[2]
 modelTexture[2]
 inventoryIcon[2]
 geosetGroup<32>[3]
-flags<32>
-spellVisualID<32>
+flags<u32>
+spellVisualID<u32>
 groupSoundIndex<32>
-helmetGeosetVisID<32>[2]
+helmetGeosetVisID<u32>[2]
 texture[9]
 itemVisual<32>
-particleColorID<32>
+particleColorID<u32>
 
 BUILD 2.4.2.8278-4.3.4.15595
 $id$ID<32>
@@ -34,13 +34,13 @@ modelName[2]
 modelTexture[2]
 inventoryIcon[2]
 geosetGroup<32>[3]
-flags<32>
-spellVisualID<32>
+flags<u32>
+spellVisualID<u32>
 groupSoundIndex<32>
-helmetGeosetVisID<32>[2]
+helmetGeosetVisID<u32>[2]
 texture[8]
 itemVisual<32>
-particleColorID<32>
+particleColorID<u32>
 
 BUILD 2.4.0.8089-2.4.1.8125
 $id$ID<32>
@@ -48,13 +48,13 @@ modelName[2]
 modelTexture[2]
 inventoryIcon
 geosetGroup<32>[3]
-flags<32>
-spellVisualID<32>
+flags<u32>
+spellVisualID<u32>
 groupSoundIndex<32>
-helmetGeosetVisID<32>[2]
+helmetGeosetVisID<u32>[2]
 texture[8]
 itemVisual<32>
-particleColorID<32>
+particleColorID<u32>
 
 BUILD 0.9.0.3807-2.3.3.7799
 $id$ID<32>
@@ -62,10 +62,10 @@ modelName[2]
 modelTexture[2]
 inventoryIcon
 geosetGroup<32>[3]
-flags<32>
-spellVisualID<32>
+flags<u32>
+spellVisualID<u32>
 groupSoundIndex<32>
-helmetGeosetVisID<32>[2]
+helmetGeosetVisID<u32>[2]
 texture[8]
 itemVisual<32>
 
@@ -75,10 +75,10 @@ modelName[2]
 modelTexture[2]
 inventoryIcon
 geosetGroup<32>[3]
-flags<32>
-spellVisualID<32>
+flags<u32>
+spellVisualID<u32>
 groupSoundIndex<32>
-helmetGeosetVisID<32>
+helmetGeosetVisID<u32>
 texture[8]
 itemVisual<32>
 
@@ -89,10 +89,10 @@ modelTexture[2]
 inventoryIcon
 groundModel
 geosetGroup<32>[4]
-flags<32>
-spellVisualID<32>
+flags<u32>
+spellVisualID<u32>
 groupSoundIndex<32>
 itemSize<32>
-helmetGeosetVisID<32>
+helmetGeosetVisID<u32>
 texture[8]
 itemVisual<32>

@@ -5,9 +5,9 @@ int minScaleLevel
 float maxScale
 int maxScaleLevel
 int<SkillLine::ID> skillLine
-uint petFoodMask
+int petFoodMask
 int petTalentType
-uint categoryEnumID
+int categoryEnumID
 locstring name_lang
 string iconFile
 
@@ -18,9 +18,9 @@ minScaleLevel<32>
 maxScale
 maxScaleLevel<32>
 skillLine<32>[2]
-petFoodMask<32>
+petFoodMask<u32>
 petTalentType<32>
-categoryEnumID<32>
+categoryEnumID<u32>
 name_lang
 iconFile
 
@@ -31,7 +31,7 @@ minScaleLevel<32>
 maxScale
 maxScaleLevel<32>
 skillLine<32>[2]
-petFoodMask<32>
+petFoodMask<u32>
 name_lang
 iconFile
 

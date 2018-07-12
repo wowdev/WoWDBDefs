@@ -1,32 +1,32 @@
 COLUMNS
 int field_1592796138?
 int ID
-uint skillID
-uint raceMask
-uint classMask
-uint flags
+int skillID
+int raceMask
+int classMask
+int flags
 int minLevel
-uint<SkillTiers::ID> skillTierID
+int<SkillTiers::ID> skillTierID
 int skillCostIndex
 
 BUILD 4.0.0.12025-4.3.4.15595
 $id$ID<32>
-skillID<32>
-raceMask<32>
-classMask<32>
-flags<32>
+skillID<u32>
+raceMask<u32>
+classMask<u32>
+flags<u32>
 minLevel<32>
-skillTierID<32>
+skillTierID<u32>
 skillCostIndex<32>
 field_1592796138<32>
 
 BUILD 0.6.0.3592-4.0.0.11927
 BUILD 5.0.1.15464-6.2.4.21742
 $id$ID<32>
-skillID<32>
-raceMask<32>
-classMask<32>
-flags<32>
+skillID<u32>
+raceMask<u32>
+classMask<u32>
+flags<u32>
 minLevel<32>
-skillTierID<32>
+skillTierID<u32>
 skillCostIndex<32>

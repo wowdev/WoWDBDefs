@@ -2,22 +2,22 @@ COLUMNS
 int ID
 string filename
 int volume
-uint keyID
-uint audioFileDataID
-uint subtitleFileDataID
+int keyID
+int audioFileDataID
+int subtitleFileDataID
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 volume<32>
-keyID<32>
-audioFileDataID<32>
-subtitleFileDataID<32>
+keyID<u32>
+audioFileDataID<u32>
+subtitleFileDataID<u32>
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
 filename
 volume<32>
-keyID<32>
+keyID<u32>
 
 BUILD 3.0.1.8303-4.0.0.12319
 $id$ID<32>

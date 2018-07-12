@@ -6,7 +6,7 @@ int red
 int blue
 int green
 int alpha
-uint flags
+int flags
 
 BUILD 5.0.1.15464-5.0.1.15762
 $id$ID<32>
@@ -25,4 +25,4 @@ red<32>
 blue<32>
 green<32>
 alpha<32>
-flags<32>
+flags<u32>

@@ -1,31 +1,31 @@
 COLUMNS
 int ID
-uint<JournalEncounter::ID> journalEncounterID
-uint<JournalEncounterSection::ID> nextSiblingSectionID
-uint<JournalEncounterSection::ID> firstChildSectionID
-uint<JournalEncounterSection::ID> parentSectionID
+int<JournalEncounter::ID> journalEncounterID
+int<JournalEncounterSection::ID> nextSiblingSectionID
+int<JournalEncounterSection::ID> firstChildSectionID
+int<JournalEncounterSection::ID> parentSectionID
 int orderIndex
 int type
-uint flags
-uint iconFlags
+int flags
+int iconFlags
 locstring title_lang
 locstring bodyText_lang
-uint difficultyMask
-uint<CreatureDisplayInfo::ID> iconCreatureDisplayInfoID
-uint<FileData::ID> iconFileDataID
+int difficultyMask
+int<CreatureDisplayInfo::ID> iconCreatureDisplayInfoID
+int<FileData::ID> iconFileDataID
 
 BUILD 4.2.0.14333-5.4.8.18414
 $id$ID<32>
-journalEncounterID<32>
-nextSiblingSectionID<32>
-firstChildSectionID<32>
-parentSectionID<32>
+journalEncounterID<u32>
+nextSiblingSectionID<u32>
+firstChildSectionID<u32>
+parentSectionID<u32>
 orderIndex<32>
 type<32>
-flags<32>
-iconFlags<32>
+flags<u32>
+iconFlags<u32>
 title_lang
 bodyText_lang
-difficultyMask<32>
-iconCreatureDisplayInfoID<32>
-iconFileDataID<32>
+difficultyMask<u32>
+iconCreatureDisplayInfoID<u32>
+iconFileDataID<u32>

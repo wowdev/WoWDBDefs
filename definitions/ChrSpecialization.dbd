@@ -2,14 +2,14 @@ COLUMNS
 int field_4111805969? // some form of flags?
 int ID
 string backgroundFile
-uint<ChrClasses::ID> classID
-uint<Spell::ID> masterySpellID
+int<ChrClasses::ID> classID
+int<Spell::ID> masterySpellID
 int orderIndex
 int petTalentType
 int role
-uint<SpellIcon::ID> spellIconID
+int<SpellIcon::ID> spellIconID
 int raidBuffs
-uint flags
+int flags
 locstring name_lang
 locstring description_lang
 int maxBuffs
@@ -17,14 +17,14 @@ int maxBuffs
 BUILD 5.0.4.15961-5.4.8.18414
 $id$ID<32>
 backgroundFile
-classID<32>
-masterySpellID<32>[2]
+classID<u32>
+masterySpellID<u32>[2]
 orderIndex<32>
 petTalentType<32>
 role<32>
-spellIconID<32>
+spellIconID<u32>
 raidBuffs<32>
-flags<32>
+flags<u32>
 name_lang
 description_lang
 maxBuffs<32>
@@ -32,12 +32,12 @@ maxBuffs<32>
 BUILD 5.0.1.15699-5.0.4.15952
 $id$ID<32>
 backgroundFile
-classID<32>
-masterySpellID<32>[2]
+classID<u32>
+masterySpellID<u32>[2]
 orderIndex<32>
 petTalentType<32>
 role<32>
-spellIconID<32>
+spellIconID<u32>
 raidBuffs<32>
 name_lang
 description_lang
@@ -46,12 +46,12 @@ maxBuffs<32>
 BUILD 5.0.1.15650-5.0.1.15689
 $id$ID<32>
 backgroundFile
-classID<32>
-masterySpellID<32>[2]
+classID<u32>
+masterySpellID<u32>[2]
 orderIndex<32>
 petTalentType<32>
 role<32>
-spellIconID<32>
+spellIconID<u32>
 field_4111805969<32>
 name_lang
 description_lang
@@ -59,11 +59,11 @@ description_lang
 BUILD 5.0.1.15464-5.0.1.15640
 $id$ID<32>
 backgroundFile
-classID<32>
-masterySpellID<32>[2]
+classID<u32>
+masterySpellID<u32>[2]
 orderIndex<32>
 petTalentType<32>
 role<32>
-spellIconID<32>
+spellIconID<u32>
 name_lang
 description_lang

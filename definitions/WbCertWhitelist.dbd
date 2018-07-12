@@ -9,7 +9,7 @@ int padding_2996086065?
 BUILD 5.3.0.16965-5.4.8.18414
 $id$ID<32>
 domain
-grantAccess<8>
-revokeAccess<8>
-padding_2996086065<8>[2]
+grantAccess<u8>
+revokeAccess<u8>
+padding_2996086065<u8>[2]
 wowEditInternal<32>

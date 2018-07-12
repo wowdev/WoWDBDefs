@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint<LfgDungeons::ID> lfgDungeonsID
-uint random_lfgDungeonsID
-uint group_ID
+int<LfgDungeons::ID> lfgDungeonsID
+int random_lfgDungeonsID
+int group_ID
 
 BUILD 4.3.0.15005-5.4.8.18414
 $id$ID<32>
-lfgDungeonsID<32>
-random_lfgDungeonsID<32>
-group_ID<32>
+lfgDungeonsID<u32>
+random_lfgDungeonsID<u32>
+group_ID<u32>

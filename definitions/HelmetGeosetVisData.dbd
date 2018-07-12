@@ -33,9 +33,9 @@ int field_9177427393?
 int field_483414852?
 int field_7892022872?
 int field_558177456?
-uint defaultFlags
-uint preferredFlags
-uint hideFlags
+int defaultFlags
+int preferredFlags
+int hideFlags
 
 BUILD 2.3.0.7561-6.2.4.21742
 $id$ID<32>
@@ -82,6 +82,6 @@ field_558177456<32>
 
 BUILD 0.5.3.3368
 $id$ID<32>
-defaultFlags<32>[32]
-preferredFlags<32>[32]
-hideFlags<32>[32]
+defaultFlags<u32>[32]
+preferredFlags<u32>[32]
+hideFlags<u32>[32]

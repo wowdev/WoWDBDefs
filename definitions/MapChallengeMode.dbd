@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-uint<Map::ID> mapID
+int<Map::ID> mapID
 int field_1723997756?
 int field_5277060188?
 int field_3834773871?
@@ -8,7 +8,7 @@ int criteriaCount
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-mapID<32>
+mapID<u32>
 field_1723997756<32>
 field_5277060188<32>
 field_3834773871<32>

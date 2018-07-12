@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint<Curve::ID> curveID
+int<Curve::ID> curveID
 int index
 float pos
 
 BUILD 5.4.0.17266-6.2.4.21742
 $id$ID<32>
-curveID<32>
+curveID<u32>
 index<32>
 pos[2]

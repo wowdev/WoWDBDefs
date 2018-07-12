@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-uint flags
+int flags
 int sizeClass
 float modelScale
-uint<UnitBlood::ID> bloodID
-uint<FootprintTextures::ID> footprintTextureID
+int<UnitBlood::ID> bloodID
+int<FootprintTextures::ID> footprintTextureID
 float footprintTextureLength
 float footprintTextureWidth
 float footprintParticleScale
-uint foleyMaterialID
+int foleyMaterialID
 int footstepShakeSize
 int deathThudShakeSize
-uint<CreatureSoundData::ID> soundID
+int<CreatureSoundData::ID> soundID
 float collisionWidth
 float collisionHeight
 float mountHeight
@@ -26,7 +26,7 @@ float overrideLootEffectScale
 float overrideNameScale
 float overrideSelectionRadius
 float tamedPetBaseScale
-uint creatureGeosetDataID
+int creatureGeosetDataID
 float hoverHeight
 string modelName
 float geoBoxMinX
@@ -39,19 +39,19 @@ string animModelName
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -66,24 +66,24 @@ overrideLootEffectScale
 overrideNameScale
 overrideSelectionRadius
 tamedPetBaseScale
-creatureGeosetDataID<32>
+creatureGeosetDataID<u32>
 hoverHeight
 
 BUILD 5.0.1.15668-5.3.0.17116
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -97,24 +97,24 @@ missileCollisionRaise
 overrideLootEffectScale
 overrideNameScale
 tamedPetBaseScale
-creatureGeosetDataID<32>
+creatureGeosetDataID<u32>
 hoverHeight
 
 BUILD 5.0.1.15464-5.0.1.15662
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -132,19 +132,19 @@ hoverHeight
 
 BUILD 4.1.0.13914-4.3.4.15595
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -161,19 +161,19 @@ tamedPetBaseScale
 
 BUILD 4.0.6.13623
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -189,19 +189,19 @@ overrideNameScale
 
 BUILD 3.1.0.9767-4.0.6.13596
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -219,20 +219,20 @@ missileCollisionRaise
 
 BUILD 3.0.1.8820-3.0.9.9551
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 animModelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -247,20 +247,20 @@ attachedEffectScale
 
 BUILD 3.0.1.8303-3.0.1.8788
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 animModelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -274,19 +274,19 @@ attachedEffectScale
 
 BUILD 2.1.0.6692-2.4.3.8606
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -300,19 +300,19 @@ attachedEffectScale
 
 BUILD 2.0.3.6299-2.0.6.6337
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -326,19 +326,19 @@ geoBoxMaxZ
 BUILD 2.0.0.5665-2.0.0.5965
 BUILD 2.0.0.6022-2.0.0.6080
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 attachedEffectScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 mountHeight
@@ -346,34 +346,34 @@ mountHeight
 BUILD 2.0.0.5991
 BUILD 0.10.0.3892-2.0.0.5610
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>
 collisionWidth
 collisionHeight
 
 BUILD 0.5.3.3368-0.9.1.3810
 $id$ID<32>
-flags<32>
+flags<u32>
 modelName
 sizeClass<32>
 modelScale
-bloodID<32>
-footprintTextureID<32>
+bloodID<u32>
+footprintTextureID<u32>
 footprintTextureLength
 footprintTextureWidth
 footprintParticleScale
-foleyMaterialID<32>
+foleyMaterialID<u32>
 footstepShakeSize<32>
 deathThudShakeSize<32>
-soundID<32>
+soundID<u32>

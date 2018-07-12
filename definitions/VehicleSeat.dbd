@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-uint flags
-uint attachmentID
+int flags
+int attachmentID
 float attachmentOffset
 float enterPreDelay
 float enterSpeed
@@ -29,7 +29,7 @@ int exitAnimEnd
 float passengerYaw
 float passengerPitch
 float passengerRoll
-uint passengerAttachmentID
+int passengerAttachmentID
 int vehicleEnterAnim
 int vehicleExitAnim
 int vehicleRideAnimLoop
@@ -39,9 +39,9 @@ int vehicleRideAnimLoopBone
 float vehicleEnterAnimDelay
 float vehicleExitAnimDelay
 int vehicleAbilityDisplay
-uint<SoundEntries::ID> enterUISoundID
-uint<SoundEntries::ID> exitUISoundID
-uint flagsB
+int<SoundEntries::ID> enterUISoundID
+int<SoundEntries::ID> exitUISoundID
+int flagsB
 float cameraEnteringDelay
 float cameraEnteringDuration
 float cameraExitingDelay
@@ -52,15 +52,15 @@ float cameraFacingChaseRate
 float cameraEnteringZoom
 float cameraSeatZoomMin
 float cameraSeatZoomMax
-uint<AnimKit::ID> enterAnimKitID
-uint<AnimKit::ID> rideAnimKitID
-uint<AnimKit::ID> exitAnimKitID
-uint<AnimKit::ID> vehicleEnterAnimKitID
-uint<AnimKit::ID> vehicleRideAnimKitID
-uint<AnimKit::ID> vehicleExitAnimKitID
-uint<CameraMode::ID> cameraModeID
-uint flagsC
-uint<FileData::ID> uiSkinFileDataID
+int<AnimKit::ID> enterAnimKitID
+int<AnimKit::ID> rideAnimKitID
+int<AnimKit::ID> exitAnimKitID
+int<AnimKit::ID> vehicleEnterAnimKitID
+int<AnimKit::ID> vehicleRideAnimKitID
+int<AnimKit::ID> vehicleExitAnimKitID
+int<CameraMode::ID> cameraModeID
+int flagsC
+int<FileData::ID> uiSkinFileDataID
 int field2A0
 float attachmentOffsetX
 float attachmentOffsetY
@@ -114,8 +114,8 @@ float field_9231563745?
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-flags<32>
-attachmentID<32>
+flags<u32>
+attachmentID<u32>
 attachmentOffset[3]
 enterPreDelay
 enterSpeed
@@ -143,7 +143,7 @@ exitAnimEnd<32>
 passengerYaw
 passengerPitch
 passengerRoll
-passengerAttachmentID<32>
+passengerAttachmentID<u32>
 vehicleEnterAnim<32>
 vehicleExitAnim<32>
 vehicleRideAnimLoop<32>
@@ -153,9 +153,9 @@ vehicleRideAnimLoopBone<32>
 vehicleEnterAnimDelay
 vehicleExitAnimDelay
 vehicleAbilityDisplay<32>
-enterUISoundID<32>
-exitUISoundID<32>
-flagsB<32>
+enterUISoundID<u32>
+exitUISoundID<u32>
+flagsB<u32>
 cameraEnteringDelay
 cameraEnteringDuration
 cameraExitingDelay
@@ -166,20 +166,20 @@ cameraFacingChaseRate
 cameraEnteringZoom
 cameraSeatZoomMin
 cameraSeatZoomMax
-enterAnimKitID<32>
-rideAnimKitID<32>
-exitAnimKitID<32>
-vehicleEnterAnimKitID<32>
-vehicleRideAnimKitID<32>
-vehicleExitAnimKitID<32>
-cameraModeID<32>
-flagsC<32>
-uiSkinFileDataID<32>
+enterAnimKitID<u32>
+rideAnimKitID<u32>
+exitAnimKitID<u32>
+vehicleEnterAnimKitID<u32>
+vehicleRideAnimKitID<u32>
+vehicleExitAnimKitID<u32>
+cameraModeID<u32>
+flagsC<u32>
+uiSkinFileDataID<u32>
 
 BUILD 4.0.6.13623-4.3.4.15595
 $id$ID<32>
-flags<32>
-attachmentID<32>
+flags<u32>
+attachmentID<u32>
 attachmentOffset[3]
 enterPreDelay
 enterSpeed
@@ -207,7 +207,7 @@ exitAnimEnd<32>
 passengerYaw
 passengerPitch
 passengerRoll
-passengerAttachmentID<32>
+passengerAttachmentID<u32>
 vehicleEnterAnim<32>
 vehicleExitAnim<32>
 vehicleRideAnimLoop<32>
@@ -217,10 +217,10 @@ vehicleRideAnimLoopBone<32>
 vehicleEnterAnimDelay
 vehicleExitAnimDelay
 vehicleAbilityDisplay<32>
-enterUISoundID<32>
-exitUISoundID<32>
+enterUISoundID<u32>
+exitUISoundID<u32>
 field2A0<32>
-flagsB<32>
+flagsB<u32>
 cameraEnteringDelay
 cameraEnteringDuration
 cameraExitingDelay
@@ -231,19 +231,19 @@ cameraFacingChaseRate
 cameraEnteringZoom
 cameraSeatZoomMin
 cameraSeatZoomMax
-enterAnimKitID<32>
-rideAnimKitID<32>
-exitAnimKitID<32>
-vehicleEnterAnimKitID<32>
-vehicleRideAnimKitID<32>
-vehicleExitAnimKitID<32>
-cameraModeID<32>
-flagsC<32>
+enterAnimKitID<u32>
+rideAnimKitID<u32>
+exitAnimKitID<u32>
+vehicleEnterAnimKitID<u32>
+vehicleRideAnimKitID<u32>
+vehicleExitAnimKitID<u32>
+cameraModeID<u32>
+flagsC<u32>
 
 BUILD 4.0.0.12122-4.0.6.13596
 $id$ID<32>
-flags<32>
-attachmentID<32>
+flags<u32>
+attachmentID<u32>
 attachmentOffset[3]
 enterPreDelay
 enterSpeed
@@ -271,7 +271,7 @@ exitAnimEnd<32>
 passengerYaw
 passengerPitch
 passengerRoll
-passengerAttachmentID<32>
+passengerAttachmentID<u32>
 vehicleEnterAnim<32>
 vehicleExitAnim<32>
 vehicleRideAnimLoop<32>
@@ -281,10 +281,10 @@ vehicleRideAnimLoopBone<32>
 vehicleEnterAnimDelay
 vehicleExitAnimDelay
 vehicleAbilityDisplay<32>
-enterUISoundID<32>
-exitUISoundID<32>
+enterUISoundID<u32>
+exitUISoundID<u32>
 field2A0<32>
-flagsB<32>
+flagsB<u32>
 cameraEnteringDelay
 cameraEnteringDuration
 cameraExitingDelay
@@ -295,18 +295,18 @@ cameraFacingChaseRate
 cameraEnteringZoom
 cameraSeatZoomMin
 cameraSeatZoomMax
-enterAnimKitID<32>
-rideAnimKitID<32>
-exitAnimKitID<32>
-vehicleEnterAnimKitID<32>
-vehicleRideAnimKitID<32>
-vehicleExitAnimKitID<32>
-cameraModeID<32>
+enterAnimKitID<u32>
+rideAnimKitID<u32>
+exitAnimKitID<u32>
+vehicleEnterAnimKitID<u32>
+vehicleRideAnimKitID<u32>
+vehicleExitAnimKitID<u32>
+cameraModeID<u32>
 
 BUILD 3.3.5.12213-3.3.5.12340
 $id$ID<32>
 field_8937663584
-attachmentID<32>
+attachmentID<u32>
 attachmentOffsetX
 attachmentOffsetY
 attachmentOffsetZ
@@ -336,7 +336,7 @@ exitAnimEnd<32>
 field_3338456839
 passengerPitch
 field_1902202452
-passengerAttachmentID<32>
+passengerAttachmentID<u32>
 vehicleEnterAnim<32>
 vehicleExitAnim<32>
 vehicleRideAnimLoop<32>
@@ -346,7 +346,7 @@ vehicleEnterAnimBone<32>
 field_8186022782
 field_9859262923
 vehicleAbilityDisplay<32>
-enterUISoundID<32>
+enterUISoundID<u32>
 field_4842545899<32>
 uiSkin<32>
 field_2130223993
@@ -365,8 +365,8 @@ field_9231563745
 
 BUILD 4.0.0.11927-4.0.0.12065
 $id$ID<32>
-flags<32>
-attachmentID<32>
+flags<u32>
+attachmentID<u32>
 attachmentOffsetX
 attachmentOffsetY
 attachmentOffsetZ
@@ -396,7 +396,7 @@ exitAnimEnd<32>
 passengerYaw
 passengerPitch
 passengerRoll
-passengerAttachmentID<32>
+passengerAttachmentID<u32>
 vehicleEnterAnim<32>
 vehicleExitAnim<32>
 vehicleRideAnimLoop<32>
@@ -406,10 +406,10 @@ vehicleRideAnimLoopBone<32>
 vehicleEnterAnimDelay
 vehicleExitAnimDelay
 vehicleAbilityDisplay<32>
-enterUISoundID<32>
-exitUISoundID<32>
+enterUISoundID<u32>
+exitUISoundID<u32>
 uiSkin<32>
-flagsB<32>
+flagsB<u32>
 cameraEnteringDelay
 cameraEnteringDuration
 cameraExitingDelay
@@ -422,17 +422,17 @@ cameraFacingChaseRate
 cameraEnteringZoom
 cameraSeatZoomMin
 cameraSeatZoomMax
-enterAnimKitID<32>
-rideAnimKitID<32>
-exitAnimKitID<32>
-vehicleEnterAnimKitID<32>
-vehicleRideAnimKitID<32>
-vehicleExitAnimKitID<32>
+enterAnimKitID<u32>
+rideAnimKitID<u32>
+exitAnimKitID<u32>
+vehicleEnterAnimKitID<u32>
+vehicleRideAnimKitID<u32>
+vehicleExitAnimKitID<u32>
 
 BUILD 3.1.0.9767-3.3.3.11723
 $id$ID<32>
 field_9738530311
-attachmentID<32>
+attachmentID<u32>
 attachmentOffsetX
 attachmentOffsetY
 attachmentOffsetZ
@@ -462,7 +462,7 @@ exitAnimEnd<32>
 passengerYaw
 passengerPitch
 field_6290286949
-passengerAttachmentID<32>
+passengerAttachmentID<u32>
 vehicleEnterAnim<32>
 vehicleExitAnim<32>
 vehicleRideAnimLoop<32>
@@ -472,10 +472,10 @@ vehicleEnterAnimBone<32>
 field_3041595035
 field_8332494757
 vehicleAbilityDisplay<32>
-enterUISoundID<32>
+enterUISoundID<u32>
 field_1817265833<32>
 uiSkin<32>
-flagsB<32>
+flagsB<u32>
 field_1025983733
 field_5815312818
 field_1590715642<32>
@@ -491,8 +491,8 @@ field_9742117887
 
 BUILD 3.0.1.8885-3.0.9.9551
 $id$ID<32>
-flags<32>
-attachmentID<32>
+flags<u32>
+attachmentID<u32>
 attachmentOffsetX
 attachmentOffsetY
 attachmentOffsetZ
@@ -522,7 +522,7 @@ exitAnimEnd<32>
 passengerYaw
 passengerPitch
 passengerRoll
-passengerAttachmentID<32>
+passengerAttachmentID<u32>
 vehicleEnterAnim<32>
 vehicleExitAnim<32>
 vehicleRideAnimLoop<32>
@@ -532,15 +532,15 @@ vehicleRideAnimLoopBone<32>
 vehicleEnterAnimDelay
 vehicleExitAnimDelay
 vehicleAbilityDisplay<32>
-enterUISoundID<32>
-exitUISoundID<32>
+enterUISoundID<u32>
+exitUISoundID<u32>
 uiSkin<32>
-flagsB<32>
+flagsB<u32>
 
 BUILD 3.0.1.8770-3.0.1.8874
 $id$ID<32>
-flags<32>
-attachmentID<32>
+flags<u32>
+attachmentID<u32>
 attachmentOffsetX
 attachmentOffsetY
 attachmentOffsetZ
@@ -570,7 +570,7 @@ exitAnimEnd<32>
 passengerYaw
 passengerPitch
 passengerRoll
-passengerAttachmentID<32>
+passengerAttachmentID<u32>
 vehicleEnterAnim<32>
 vehicleExitAnim<32>
 vehicleRideAnimLoop<32>
@@ -580,14 +580,14 @@ vehicleRideAnimLoopBone<32>
 vehicleEnterAnimDelay
 vehicleExitAnimDelay
 vehicleAbilityDisplay<32>
-enterUISoundID<32>
-exitUISoundID<32>
+enterUISoundID<u32>
+exitUISoundID<u32>
 uiSkin<32>
 
 BUILD 3.0.1.8622-3.0.1.8714
 $id$ID<32>
-flags<32>
-attachmentID<32>
+flags<u32>
+attachmentID<u32>
 attachmentOffsetX
 attachmentOffsetY
 attachmentOffsetZ
@@ -617,7 +617,7 @@ exitAnimEnd<32>
 passengerYaw
 passengerPitch
 passengerRoll
-passengerAttachmentID<32>
+passengerAttachmentID<u32>
 vehicleEnterAnim<32>
 vehicleExitAnim<32>
 vehicleRideAnimLoop<32>
@@ -630,8 +630,8 @@ vehicleAbilityDisplay<32>
 
 BUILD 3.0.1.8471
 $id$ID<32>
-flags<32>
-attachmentID<32>
+flags<u32>
+attachmentID<u32>
 attachmentOffsetX
 attachmentOffsetY
 attachmentOffsetZ
@@ -661,12 +661,12 @@ exitAnimEnd<32>
 passengerYaw
 passengerPitch
 passengerRoll
-passengerAttachmentID<32>
+passengerAttachmentID<u32>
 
 BUILD 3.0.1.8303-3.0.1.8391
 $id$ID<32>
-flags<32>
-attachmentID<32>
+flags<u32>
+attachmentID<u32>
 attachmentOffsetX
 attachmentOffsetY
 attachmentOffsetZ

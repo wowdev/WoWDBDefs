@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-uint<AnimKitConfig::ID> parentAnimKitConfigID
-uint<AnimKitBoneSet::ID> animKitBoneSetID
-uint<AnimKitPriority::ID> animKitPriorityID
+int<AnimKitConfig::ID> parentAnimKitConfigID
+int<AnimKitBoneSet::ID> animKitBoneSetID
+int<AnimKitPriority::ID> animKitPriorityID
 
 BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>
-parentAnimKitConfigID<32>
-animKitBoneSetID<32>
-animKitPriorityID<32>
+parentAnimKitConfigID<u32>
+animKitBoneSetID<u32>
+animKitPriorityID<u32>
