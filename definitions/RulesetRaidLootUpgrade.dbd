@@ -2,12 +2,12 @@ COLUMNS
 int ID
 int index?
 int field_4721271467?
-uint upgradeID?
+int upgradeID?
 int field_5552431100?
 
 BUILD 5.3.0.16965-5.4.8.18414
 $id$ID<32>
 index<32>
 field_4721271467<32>
-upgradeID<32>
+upgradeID<u32>
 field_5552431100<32>

@@ -1,7 +1,7 @@
 COLUMNS
-uint itemID?
-uint<BattlePetSpecies::ID> speciesID?
+int itemID?
+int<BattlePetSpecies::ID> speciesID?
 
 BUILD 5.4.2.17645-5.4.8.18414
-itemID<32>
-speciesID<32>
+itemID<u32>
+speciesID<u32>

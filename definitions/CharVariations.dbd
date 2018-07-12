@@ -1,14 +1,14 @@
 COLUMNS
-uint<ChrRaces::ID> raceID?
+int<ChrRaces::ID> raceID?
 int field_9042565412?
 int field_1196397566?
 int field_832887776?
 int field_4771544060?
-uint genderID?
+int genderID?
 
 BUILD 0.5.3.3368-3.3.5.12340
-raceID<32>
-genderID<32>
+raceID<u32>
+genderID<u32>
 field_9042565412<32>
 field_1196397566<32>
 field_832887776<32>
