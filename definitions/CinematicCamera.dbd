@@ -2,25 +2,12 @@ COLUMNS
 int ID
 string Model
 int<SoundEntries::ID> SoundID
-float OriginX
-float OriginY
-float OriginZ
+float Origin
 float OriginFacing
 
-BUILD 0.5.3.3368
+BUILD 0.5.3.3368-6.2.4.21742
 $id$ID<32>
 Model
 SoundID<u32>
-OriginX
-OriginY
-OriginZ
-OriginFacing
-
-BUILD 0.5.5.3494-6.2.4.21742
-$id$ID<32>
-Model
-SoundID<u32>
-OriginX
-OriginY
-OriginZ
+Origin[3]
 OriginFacing
