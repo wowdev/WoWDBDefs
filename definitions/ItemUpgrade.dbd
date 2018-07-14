@@ -5,16 +5,6 @@ int CurrencyType
 int ItemLevelIncrement
 int ItemUpgradePathID
 int PrerequisiteID
-int Field_064596194
-int Field_1242183656
-int Field_1706811387
-int Field_612654036
-int Field_340669965
-int ItemUpgradePath
-int ItemLevelUpgrade
-int PrecItemUpgradeID
-int CurrencyID
-int CurrencyCost
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -36,22 +26,22 @@ ItemLevelIncrement<u8>
 LAYOUT 706FA369
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-Field_064596194<u8>
-Field_1242183656<u8>
-Field_1706811387<u16>
-Field_612654036<u16>
-Field_340669965<u32>
+ItemUpgradePathID<u8>
+ItemLevelIncrement<u8>
+PrerequisiteID<u16>
+CurrencyType<u16>
+CurrencyAmount<u32>
 
 BUILD 5.0.1.15464-5.0.1.15662
 $id$ID<32>
-ItemUpgradePath<32>
-ItemLevelUpgrade<32>
-PrecItemUpgradeID<u32>
+ItemUpgradePathID<32>
+ItemLevelIncrement<32>
+PrerequisiteID<u32>
 
 BUILD 5.0.1.15668-5.4.8.18414
 $id$ID<32>
-ItemUpgradePath<32>
-ItemLevelUpgrade<32>
-PrecItemUpgradeID<u32>
-CurrencyID<u32>
-CurrencyCost<32>
+ItemUpgradePathID<32>
+ItemLevelIncrement<32>
+PrerequisiteID<u32>
+CurrencyType<u32>
+CurrencyAmount<32>

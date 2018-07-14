@@ -38,16 +38,6 @@ int Field_1964957362
 int Field_064686730
 int Field_808875171
 int RequiredHonorPoints
-int RequiredArenaPoints
-int RequiredArenaSlot
-int RequiredItems
-int RequiredItemCount
-int RequiredPersonalArenaRating
-int RequiredCurrency
-int RequiredCurrencyCount
-int<Faction::ID> RequiredFactionID
-int RequiredFactionStanding
-int RequirementFlags
 int RequiredMoney
 
 BUILD 6.0.1.18179
@@ -122,17 +112,17 @@ Field_808875171<u32>[5]
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
 RequiredHonorPoints<32>
-RequiredArenaPoints<32>
-RequiredArenaSlot<32>
-RequiredItems<32>[5]
-RequiredItemCount<32>[5]
-RequiredPersonalArenaRating<32>
+RequiredArenaRating<32>
+ArenaBracket<32>
+ItemID<32>[5]
+ItemCount<32>[5]
+ArenaPoints<32>
 ItemPurchaseGroup<32>
-RequiredCurrency<32>[5]
-RequiredCurrencyCount<32>[5]
-RequiredFactionID<u32>
-RequiredFactionStanding<32>
-RequirementFlags<u32>
+CurrencyID<32>[5]
+CurrencyCount<32>[5]
+MinFactionID<u32>
+MinReputation<32>
+Flags<u32>
 RequiredAchievement<32>
 RequiredMoney<32>
 

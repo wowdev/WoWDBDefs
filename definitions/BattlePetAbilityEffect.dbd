@@ -1,15 +1,12 @@
 COLUMNS
 int ID
 int AuraBattlePetAbilityID
-int BattlePetAbilityTurnID
-int BattlePetEffectPropertiesID
-int BattlePetVisualID
 int OrderIndex
 int Param
-int<BattlePetAbilityTurn::ID> TurnID
-int<BattlePetVisual::ID> VisualID
+int<BattlePetAbilityTurn::ID> BattlePetAbilityTurnID
+int<BattlePetVisual::ID> BattlePetVisualID
 int<BattlePetAbility::ID> AbilityID
-int EffectPropertyID
+int<BattlePetEffectProperties::ID> BattlePetEffectPropertiesID
 int Flags
 int Property
 
@@ -54,33 +51,33 @@ Param<16>[6]
 
 BUILD 5.0.2.15827-6.2.4.21742
 $id$ID<32>
-TurnID<u32>
-VisualID<u32>
+BattlePetAbilityTurnID<u32>
+BattlePetVisualID<u32>
 AbilityID<u32>
-EffectPropertyID<u32>
+BattlePetEffectPropertiesID<u32>
 Flags<u32>
 Property<32>[6]
 
 BUILD 5.0.1.15640-5.0.1.15799
 $id$ID<32>
-TurnID<u32>
-VisualID<u32>
+BattlePetAbilityTurnID<u32>
+BattlePetVisualID<u32>
 Property<32>[3]
 AbilityID<u32>
-EffectPropertyID<u32>
+BattlePetEffectPropertiesID<u32>
 Flags<u32>
 
 BUILD 5.0.1.15544-5.0.1.15589
 $id$ID<32>
-TurnID<u32>
-VisualID<u32>
+BattlePetAbilityTurnID<u32>
+BattlePetVisualID<u32>
 Property<32>[3]
 AbilityID<u32>
 Flags<u32>
 
 BUILD 5.0.1.15508
 $id$ID<32>
-TurnID<u32>
-VisualID<u32>
+BattlePetAbilityTurnID<u32>
+BattlePetVisualID<u32>
 Property<32>[3]
 AbilityID<u32>

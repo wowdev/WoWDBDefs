@@ -2,7 +2,7 @@ COLUMNS
 string ParamLabel
 int ParamTypeEnum
 int ID
-int BattlePetVisualID
+int<BattlePetVisual::ID> BattlePetVisualID
 int Flags
 locstring PropertyName_lang
 int PropertyType

@@ -7,7 +7,6 @@ int Geoset
 int BeardGeoset
 int MoustacheGeoset
 int SideburnGeoset
-int GenderID
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -59,7 +58,7 @@ Geoset<32>[6]
 
 BUILD 0.5.3.3368-0.5.5.3494
 RaceID<u32>
-GenderID<u32>
+SexID<u32>
 VariationID<u32>
 BeardGeoset<32>
 MoustacheGeoset<32>

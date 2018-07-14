@@ -1,16 +1,8 @@
 COLUMNS
 int ID
 int BattlePetBreedID
-int BattlePetStateID
+int<BattlePetState::ID> BattlePetStateID
 int Value
-int BreedID
-int StateID
-
-BUILD 6.0.1.18179
-$id$ID<32>
-BattlePetBreedID<32>
-BattlePetStateID<32>
-Value<32>
 
 LAYOUT 68D5C999, 88944F15
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -26,8 +18,9 @@ BattlePetStateID<u8>
 Value<u16>
 $noninline,relation$BattlePetBreedID<u8>
 
+BUILD 6.0.1.18179
 BUILD 5.0.4.16016-6.2.4.21742
 $id$ID<32>
-BreedID<u32>
-StateID<u32>
+BattlePetBreedID<u32>
+BattlePetStateID<u32>
 Value<32>

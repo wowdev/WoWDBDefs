@@ -2,8 +2,6 @@ COLUMNS
 int ID
 float Pos
 float Rot
-float Position
-float Rotation
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -18,5 +16,5 @@ Rot[3]
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-Position[3]
-Rotation[3]
+Pos[3]
+Rot[3]

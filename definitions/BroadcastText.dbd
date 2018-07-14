@@ -10,11 +10,9 @@ int Flags
 locstring Text_lang
 locstring Text1_lang
 int Field_1336462998?
-string MaleText
-string FemaleText
-int<SoundEntries::ID> SoundID
-int EndEmoteID
-int Type
+string MaleText // Same as Text_lang?
+string FemaleText // Same as Text1_lang?
+int EndEmoteID // Same as EmotesID?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -88,6 +86,6 @@ MaleText
 FemaleText
 EmoteID<u32>[3]
 EmoteDelay<32>[3]
-SoundID<u32>
+SoundEntriesID<u32>
 EndEmoteID<u32>
-Type<32>
+Flags<32>

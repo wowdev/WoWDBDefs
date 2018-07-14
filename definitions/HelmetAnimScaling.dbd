@@ -3,7 +3,6 @@ int ID
 int HelmetGeosetVisDataID
 int<ChrRaces::ID> RaceID
 float Amount
-int HelmetGeosetVisID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -27,6 +26,6 @@ $noninline,relation$HelmetGeosetVisDataID<32>
 
 BUILD 5.0.1.15762-5.4.8.18414
 $id$ID<32>
-HelmetGeosetVisID<u32>
+HelmetGeosetVisDataID<u32>
 RaceID<u32>
 Amount

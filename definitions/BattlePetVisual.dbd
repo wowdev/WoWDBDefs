@@ -5,9 +5,8 @@ int CastMilliSeconds
 int Flags // always 0 in all dbs, only known BfA field not used
 int ImpactMilliSeconds
 int RangeTypeEnum
-int SceneScriptPackageID
+int<SceneScriptPackage::ID> SceneScriptPackageID
 int<SpellVisual::ID> SpellVisualID
-int ScenePackageID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -48,5 +47,5 @@ CastMilliSeconds<32>
 ImpactMilliSeconds<32>
 RangeTypeEnum<32>
 Flags<32>
-ScenePackageID<u32>
+SceneScriptPackageID<u32>
 SceneScriptFunction
