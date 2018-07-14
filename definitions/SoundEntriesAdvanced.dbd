@@ -1,141 +1,141 @@
 COLUMNS
 int ID
-int<SoundEntries::ID> soundEntryID
-float innerRadius2D
-int timeA
-int timeB
-int timeC
-int timeD
-int randomOffsetRange
-int usage
-int timeIntervalMin
-int timeIntervalMax
-int volumeSliderCategory
-float duckToSFX
-float duckToMusic
-float duckToAmbience
-float innerRadiusOfInfluence
-float outerRadiusOfInfluence
-int timeToDuck
-int timeToUnduck
-float insideAngle
-float outsideAngle
-float outsideVolume
-float outerRadius2D
-int minRandomPosOffset
-int maxRandomPosOffset
-float field_7893944684?
-float field_7905918675?
-float field_9119431888?
-string name
+int<SoundEntries::ID> SoundEntryID
+float InnerRadius2D
+int TimeA
+int TimeB
+int TimeC
+int TimeD
+int RandomOffsetRange
+int Usage
+int TimeIntervalMin
+int TimeIntervalMax
+int VolumeSliderCategory
+float DuckToSFX
+float DuckToMusic
+float DuckToAmbience
+float InnerRadiusOfInfluence
+float OuterRadiusOfInfluence
+int TimeToDuck
+int TimeToUnduck
+float InsideAngle
+float OutsideAngle
+float OutsideVolume
+float OuterRadius2D
+int MinRandomPosOffset
+int MaxRandomPosOffset
+float Field_7893944684?
+float Field_7905918675?
+float Field_9119431888?
+string Name
 
 BUILD 5.1.0.16309-5.4.8.18414
 $id$ID<32>
-soundEntryID<u32>
-innerRadius2D
-timeA<32>
-timeB<32>
-timeC<32>
-timeD<32>
-randomOffsetRange<32>
-usage<32>
-timeIntervalMin<32>
-timeIntervalMax<32>
-volumeSliderCategory<32>
-duckToSFX
-duckToMusic
-duckToAmbience
-innerRadiusOfInfluence
-outerRadiusOfInfluence
-timeToDuck<32>
-timeToUnduck<32>
-insideAngle
-outsideAngle
-outsideVolume
-outerRadius2D
-minRandomPosOffset<32>
-maxRandomPosOffset<32>
-field_7905918675
-field_9119431888
+SoundEntryID<u32>
+InnerRadius2D
+TimeA<32>
+TimeB<32>
+TimeC<32>
+TimeD<32>
+RandomOffsetRange<32>
+Usage<32>
+TimeIntervalMin<32>
+TimeIntervalMax<32>
+VolumeSliderCategory<32>
+DuckToSFX
+DuckToMusic
+DuckToAmbience
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<32>
+TimeToUnduck<32>
+InsideAngle
+OutsideAngle
+OutsideVolume
+OuterRadius2D
+MinRandomPosOffset<32>
+MaxRandomPosOffset<32>
+Field_7905918675
+Field_9119431888
 
 BUILD 4.3.2.15211-5.0.5.16057
 $id$ID<32>
-soundEntryID<u32>
-innerRadius2D
-timeA<32>
-timeB<32>
-timeC<32>
-timeD<32>
-randomOffsetRange<32>
-usage<32>
-timeIntervalMin<32>
-timeIntervalMax<32>
-volumeSliderCategory<32>
-duckToSFX
-duckToMusic
-duckToAmbience
-innerRadiusOfInfluence
-outerRadiusOfInfluence
-timeToDuck<32>
-timeToUnduck<32>
-insideAngle
-outsideAngle
-outsideVolume
-outerRadius2D
-minRandomPosOffset<32>
-maxRandomPosOffset<32>
-field_7893944684
+SoundEntryID<u32>
+InnerRadius2D
+TimeA<32>
+TimeB<32>
+TimeC<32>
+TimeD<32>
+RandomOffsetRange<32>
+Usage<32>
+TimeIntervalMin<32>
+TimeIntervalMax<32>
+VolumeSliderCategory<32>
+DuckToSFX
+DuckToMusic
+DuckToAmbience
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<32>
+TimeToUnduck<32>
+InsideAngle
+OutsideAngle
+OutsideVolume
+OuterRadius2D
+MinRandomPosOffset<32>
+MaxRandomPosOffset<32>
+Field_7893944684
 
 BUILD 4.1.0.13914-4.2.2.14545
 BUILD 4.3.0.15005-4.3.0.15050
 $id$ID<32>
-soundEntryID<u32>
-innerRadius2D
-timeA<32>
-timeB<32>
-timeC<32>
-timeD<32>
-randomOffsetRange<32>
-usage<32>
-timeIntervalMin<32>
-timeIntervalMax<32>
-volumeSliderCategory<32>
-duckToSFX
-duckToMusic
-duckToAmbience
-innerRadiusOfInfluence
-outerRadiusOfInfluence
-timeToDuck<32>
-timeToUnduck<32>
-insideAngle
-outsideAngle
-outsideVolume
-outerRadius2D
-minRandomPosOffset<32>
-maxRandomPosOffset<32>
+SoundEntryID<u32>
+InnerRadius2D
+TimeA<32>
+TimeB<32>
+TimeC<32>
+TimeD<32>
+RandomOffsetRange<32>
+Usage<32>
+TimeIntervalMin<32>
+TimeIntervalMax<32>
+VolumeSliderCategory<32>
+DuckToSFX
+DuckToMusic
+DuckToAmbience
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<32>
+TimeToUnduck<32>
+InsideAngle
+OutsideAngle
+OutsideVolume
+OuterRadius2D
+MinRandomPosOffset<32>
+MaxRandomPosOffset<32>
 
 BUILD 3.0.1.8770-4.1.0.13875
 $id$ID<32>
-soundEntryID<u32>
-innerRadius2D
-timeA<32>
-timeB<32>
-timeC<32>
-timeD<32>
-randomOffsetRange<32>
-usage<32>
-timeIntervalMin<32>
-timeIntervalMax<32>
-volumeSliderCategory<32>
-duckToSFX
-duckToMusic
-duckToAmbience
-innerRadiusOfInfluence
-outerRadiusOfInfluence
-timeToDuck<32>
-timeToUnduck<32>
-insideAngle
-outsideAngle
-outsideVolume
-outerRadius2D
-name
+SoundEntryID<u32>
+InnerRadius2D
+TimeA<32>
+TimeB<32>
+TimeC<32>
+TimeD<32>
+RandomOffsetRange<32>
+Usage<32>
+TimeIntervalMin<32>
+TimeIntervalMax<32>
+VolumeSliderCategory<32>
+DuckToSFX
+DuckToMusic
+DuckToAmbience
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<32>
+TimeToUnduck<32>
+InsideAngle
+OutsideAngle
+OutsideVolume
+OuterRadius2D
+Name

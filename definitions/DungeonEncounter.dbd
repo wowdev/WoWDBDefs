@@ -1,40 +1,40 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-int<Difficulty::ID> difficultyID
-int orderIndex
-locstring name_lang
-int<SpellIcon::ID> spellIconID
-int flags
-int bit
-int<CreatureDisplayInfo::ID> creatureDisplayID
+int<Map::ID> MapID
+int<Difficulty::ID> DifficultyID
+int OrderIndex
+locstring Name_lang
+int<SpellIcon::ID> SpellIconID
+int Flags
+int Bit
+int<CreatureDisplayInfo::ID> CreatureDisplayID
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-mapID<u32>
-difficultyID<u32>
-orderIndex<32>
-bit<32>
-name_lang
-creatureDisplayID<u32>
-spellIconID<u32>
-flags<u32>
+MapID<u32>
+DifficultyID<u32>
+OrderIndex<32>
+Bit<32>
+Name_lang
+CreatureDisplayID<u32>
+SpellIconID<u32>
+Flags<u32>
 
 BUILD 4.0.0.12911-5.3.0.17116
 $id$ID<32>
-mapID<u32>
-difficultyID<u32>
-orderIndex<32>
-bit<32>
-name_lang
-creatureDisplayID<u32>
-spellIconID<u32>
+MapID<u32>
+DifficultyID<u32>
+OrderIndex<32>
+Bit<32>
+Name_lang
+CreatureDisplayID<u32>
+SpellIconID<u32>
 
 BUILD 3.3.0.10958-4.0.0.12319
 $id$ID<32>
-mapID<u32>
-difficultyID<u32>
-orderIndex<32>
-bit<32>
-name_lang
-spellIconID<u32>
+MapID<u32>
+DifficultyID<u32>
+OrderIndex<32>
+Bit<32>
+Name_lang
+SpellIconID<u32>

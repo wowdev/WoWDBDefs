@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int movieID
-int localeMask
-int overlayRangeBegin
-int overlayRangeEnd
+int MovieID
+int LocaleMask
+int OverlayRangeBegin
+int OverlayRangeEnd
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-movieID<u32>
-localeMask<u32>
-overlayRangeBegin<32>
-overlayRangeEnd<32>
+MovieID<u32>
+LocaleMask<u32>
+OverlayRangeBegin<32>
+OverlayRangeEnd<32>

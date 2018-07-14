@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int spellFlyoutID
-int<Spell::ID> spellID
-int slot
+int SpellFlyoutID
+int<Spell::ID> SpellID
+int Slot
 
 BUILD 4.0.0.12911-6.2.4.21742
 $id$ID<32>
-spellFlyoutID<u32>
-spellID<u32>
-slot<32>
+SpellFlyoutID<u32>
+SpellID<u32>
+Slot<32>

@@ -1,36 +1,36 @@
 COLUMNS
 int ID
-int<Spell::ID> spellID
-int<Difficulty::ID> difficultyID
-float coneAngle
-float width
-int maxTargets
-int maxTargetLevel
-int targetCreatureType
-int targets
+int<Spell::ID> SpellID
+int<Difficulty::ID> DifficultyID
+float ConeAngle
+float Width
+int MaxTargets
+int MaxTargetLevel
+int TargetCreatureType
+int Targets
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-spellID<u32>
-difficultyID<u32>
-coneAngle
-width
-maxTargets<32>
-maxTargetLevel<32>
-targetCreatureType<32>
-targets<32>
+SpellID<u32>
+DifficultyID<u32>
+ConeAngle
+Width
+MaxTargets<32>
+MaxTargetLevel<32>
+TargetCreatureType<32>
+Targets<32>
 
 BUILD 4.2.0.14333-5.0.1.15544
 $id$ID<32>
-coneAngle
-width
-maxTargetLevel<32>
-targetCreatureType<32>
-targets<32>
+ConeAngle
+Width
+MaxTargetLevel<32>
+TargetCreatureType<32>
+Targets<32>
 
 BUILD 4.0.0.12232-4.2.0.14316
 $id$ID<32>
-maxTargets<32>
-maxTargetLevel<32>
-targetCreatureType<32>
-targets<32>
+MaxTargets<32>
+MaxTargetLevel<32>
+TargetCreatureType<32>
+Targets<32>

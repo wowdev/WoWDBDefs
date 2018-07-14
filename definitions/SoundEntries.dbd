@@ -1,220 +1,220 @@
 COLUMNS
 int ID
-int soundType
-string name
-float volumeFloat
-int flags
-float minDistance
-float distanceCutoff
-int<SoundEntriesAdvanced::ID> soundEntriesAdvancedID
-float volumevariationplus
-float volumevariationminus
-float pitchvariationplus
-float pitchvariationminus
-float pitchAdjust
-int dialogtype
-string file
-int freq
-string directoryBase
-int fileDataID
+int SoundType
+string Name
+float VolumeFloat
+int Flags
+float MinDistance
+float DistanceCutoff
+int<SoundEntriesAdvanced::ID> SoundEntriesAdvancedID
+float Volumevariationplus
+float Volumevariationminus
+float Pitchvariationplus
+float Pitchvariationminus
+float PitchAdjust
+int Dialogtype
+string File
+int Freq
+string DirectoryBase
+int FileDataID
 int EAXDef
-float maxDistance
-float pitch
-float pitchVariation
-int priority
-int channel
+float MaxDistance
+float Pitch
+float PitchVariation
+int Priority
+int Channel
 
 BUILD 5.3.0.16844-5.4.8.18414
 $id$ID<32>
-soundType<32>
-name
-fileDataID<u32>[10]
-freq<32>[10]
-volumeFloat
-flags<u32>
-minDistance
-distanceCutoff
+SoundType<32>
+Name
+FileDataID<u32>[10]
+Freq<32>[10]
+VolumeFloat
+Flags<u32>
+MinDistance
+DistanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<u32>
-volumevariationplus
-volumevariationminus
-pitchvariationplus
-pitchvariationminus
-pitchAdjust
-dialogtype<32>
+SoundEntriesAdvancedID<u32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+PitchAdjust
+Dialogtype<32>
 
 BUILD 5.0.1.15699-5.2.0.16650
 $id$ID<32>
-soundType<32>
-name
-fileDataID<u32>[10]
-freq<32>[10]
-directoryBase
-volumeFloat
-flags<u32>
-minDistance
-distanceCutoff
+SoundType<32>
+Name
+FileDataID<u32>[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<u32>
+MinDistance
+DistanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<u32>
-volumevariationplus
-volumevariationminus
-pitchvariationplus
-pitchvariationminus
-pitchAdjust
-dialogtype<32>
+SoundEntriesAdvancedID<u32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+PitchAdjust
+Dialogtype<32>
 
 BUILD 5.0.1.15650, 5.0.1.15657
 BUILD 5.0.1.15668-5.0.1.15689
 $id$ID<32>
-soundType<32>
-name
-file[10]
-freq<32>[10]
-directoryBase
-volumeFloat
-flags<u32>
-minDistance
-distanceCutoff
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<u32>
+MinDistance
+DistanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<u32>
-volumevariationplus
-volumevariationminus
-pitchvariationplus
-pitchvariationminus
-pitchAdjust
-dialogtype<32>
+SoundEntriesAdvancedID<u32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+PitchAdjust
+Dialogtype<32>
 
 BUILD 5.0.1.15662
 BUILD 5.0.1.15464-5.0.1.15640
 $id$ID<32>
-soundType<32>
-name
-file[10]
-freq<32>[10]
-directoryBase
-volumeFloat
-flags<u32>
-minDistance
-distanceCutoff
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<u32>
+MinDistance
+DistanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<u32>
-volumevariationplus
-volumevariationminus
-pitchvariationplus
-pitchvariationminus
-dialogtype<32>
+SoundEntriesAdvancedID<u32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+Dialogtype<32>
 
 BUILD 4.3.2.15211-4.3.4.15595
 $id$ID<32>
-soundType<32>
-name
-file[10]
-freq<32>[10]
-directoryBase
-volumeFloat
-flags<u32>
-minDistance
-distanceCutoff
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<u32>
+MinDistance
+DistanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<u32>
-volumevariationplus
-volumevariationminus
-pitchvariationplus
-pitchvariationminus
-pitchAdjust
+SoundEntriesAdvancedID<u32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+PitchAdjust
 
 BUILD 4.3.0.15005-4.3.0.15050
 $id$ID<32>
-soundType<32>
-name
-file[10]
-freq<32>[10]
-directoryBase
-volumeFloat
-flags<u32>
-minDistance
-distanceCutoff
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<u32>
+MinDistance
+DistanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<u32>
-volumevariationplus
-volumevariationminus
-pitchvariationplus
-pitchvariationminus
+SoundEntriesAdvancedID<u32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
 
 BUILD 4.0.0.12122-4.2.2.14545
 $id$ID<32>
-soundType<32>
-name
-file[10]
-freq<32>[10]
-directoryBase
-volumeFloat
-flags<u32>
-minDistance
-distanceCutoff
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<u32>
+MinDistance
+DistanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<u32>
-volumevariationplus
-volumevariationminus
-pitchvariationplus
-pitchvariationminus
+SoundEntriesAdvancedID<u32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
 
 BUILD 3.1.0.9767-4.0.0.12065
 $id$ID<32>
-soundType<32>
-name
-file[10]
-freq<32>[10]
-directoryBase
-volumeFloat
-flags<u32>
-minDistance
-distanceCutoff
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<u32>
+MinDistance
+DistanceCutoff
 EAXDef<32>
-soundEntriesAdvancedID<u32>
+SoundEntriesAdvancedID<u32>
 
 BUILD 0.9.0.3807-3.0.9.9551
 $id$ID<32>
-soundType<32>
-name
-file[10]
-freq<32>[10]
-directoryBase
-volumeFloat
-flags<u32>
-minDistance
-maxDistance
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<u32>
+MinDistance
+MaxDistance
 EAXDef<32>
 
 BUILD 0.7.0.3694-0.8.0.3734
 $id$ID<32>
-soundType<32>
-name
-file[10]
-freq<32>[10]
-directoryBase
-volumeFloat
-pitch
-pitchVariation
-flags<u32>
-minDistance
-maxDistance
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Pitch
+PitchVariation
+Flags<u32>
+MinDistance
+MaxDistance
 EAXDef<32>
 
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
-soundType<32>
-name
-file[10]
-freq<32>[10]
-directoryBase
-volumeFloat
-pitch
-pitchVariation
-priority<32>
-channel<32>
-flags<u32>
-minDistance
-maxDistance
-distanceCutoff
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Pitch
+PitchVariation
+Priority<32>
+Channel<32>
+Flags<u32>
+MinDistance
+MaxDistance
+DistanceCutoff
 EAXDef<32>

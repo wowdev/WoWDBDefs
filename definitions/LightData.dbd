@@ -1,51 +1,51 @@
 COLUMNS
 int ID
-int<LightParams::ID> lightParamID
-int time
-int directColor
-int ambientColor
-int skyTopColor
-int skyMiddleColor
-int skyBand1Color
-int skyBand2Color
-int skySmogColor
-int skyFogColor
-int sunColor
-int cloudSunColor
-int cloudEmissiveColor
-int cloudLayer1AmbientColor
-int cloudLayer2AmbientColor
-int oceanCloseColor
-int oceanFarColor
-int riverCloseColor
-int riverFarColor
-int shadowOpacity
-float fogEnd
-float fogScaler
-float cloudDensity
+int<LightParams::ID> LightParamID
+int Time
+int DirectColor
+int AmbientColor
+int SkyTopColor
+int SkyMiddleColor
+int SkyBand1Color
+int SkyBand2Color
+int SkySmogColor
+int SkyFogColor
+int SunColor
+int CloudSunColor
+int CloudEmissiveColor
+int CloudLayer1AmbientColor
+int CloudLayer2AmbientColor
+int OceanCloseColor
+int OceanFarColor
+int RiverCloseColor
+int RiverFarColor
+int ShadowOpacity
+float FogEnd
+float FogScaler
+float CloudDensity
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-lightParamID<u32>
-time<32>
-directColor<32>
-ambientColor<32>
-skyTopColor<32>
-skyMiddleColor<32>
-skyBand1Color<32>
-skyBand2Color<32>
-skySmogColor<32>
-skyFogColor<32>
-sunColor<32>
-cloudSunColor<32>
-cloudEmissiveColor<32>
-cloudLayer1AmbientColor<32>
-cloudLayer2AmbientColor<32>
-oceanCloseColor<32>
-oceanFarColor<32>
-riverCloseColor<32>
-riverFarColor<32>
-shadowOpacity<32>
-fogEnd
-fogScaler
-cloudDensity
+LightParamID<u32>
+Time<32>
+DirectColor<32>
+AmbientColor<32>
+SkyTopColor<32>
+SkyMiddleColor<32>
+SkyBand1Color<32>
+SkyBand2Color<32>
+SkySmogColor<32>
+SkyFogColor<32>
+SunColor<32>
+CloudSunColor<32>
+CloudEmissiveColor<32>
+CloudLayer1AmbientColor<32>
+CloudLayer2AmbientColor<32>
+OceanCloseColor<32>
+OceanFarColor<32>
+RiverCloseColor<32>
+RiverFarColor<32>
+ShadowOpacity<32>
+FogEnd
+FogScaler
+CloudDensity

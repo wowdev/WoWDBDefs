@@ -1,236 +1,236 @@
 COLUMNS
 int ID
-int flags
-int flagsB
-float turnSpeed
-float pitchSpeed
-float pitchMin
-float pitchMax
-int<VehicleSeat::ID> seatID
-float mouseLookOffsetPitch
-float cameraFadeDistScalarMin
-float cameraFadeDistScalarMax
-float cameraPitchOffset
-float facingLimitRight
-float facingLimitLeft
-float msslTrgtTurnLingering
-float msslTrgtPitchLingering
-float msslTrgtMouseLingering
-float msslTrgtEndOpacity
-float msslTrgtArcSpeed
-float msslTrgtArcRepeat
-float msslTrgtArcWidth
-float msslTrgtImpactRadius
-string msslTrgtArcTexture
-string msslTrgtImpactTexture
-string msslTrgtImpactModel
-float cameraYawOffset
-int uiLocomotionType
-float msslTrgtImpactTexRadius
-int<VehicleUIIndicator::ID> vehicleUIIndicatorID
-int<PowerDisplay::ID> powerDisplayID
-int field_3751285934?
-int field_6392699930?
-string field_5739132052?
-int field_2678807812?
-int field_3403091958?
-int field_3434693493?
-int field_8426551352?
-int field_4723707192?
-int field_1615717677?
+int Flags
+int FlagsB
+float TurnSpeed
+float PitchSpeed
+float PitchMin
+float PitchMax
+int<VehicleSeat::ID> SeatID
+float MouseLookOffsetPitch
+float CameraFadeDistScalarMin
+float CameraFadeDistScalarMax
+float CameraPitchOffset
+float FacingLimitRight
+float FacingLimitLeft
+float MsslTrgtTurnLingering
+float MsslTrgtPitchLingering
+float MsslTrgtMouseLingering
+float MsslTrgtEndOpacity
+float MsslTrgtArcSpeed
+float MsslTrgtArcRepeat
+float MsslTrgtArcWidth
+float MsslTrgtImpactRadius
+string MsslTrgtArcTexture
+string MsslTrgtImpactTexture
+string MsslTrgtImpactModel
+float CameraYawOffset
+int UiLocomotionType
+float MsslTrgtImpactTexRadius
+int<VehicleUIIndicator::ID> VehicleUIIndicatorID
+int<PowerDisplay::ID> PowerDisplayID
+int Field_3751285934?
+int Field_6392699930?
+string Field_5739132052?
+int Field_2678807812?
+int Field_3403091958?
+int Field_3434693493?
+int Field_8426551352?
+int Field_4723707192?
+int Field_1615717677?
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-flags<u32>
-flagsB<u32>
-turnSpeed
-pitchSpeed
-pitchMin
-pitchMax
-seatID<u32>[8]
-mouseLookOffsetPitch
-cameraFadeDistScalarMin
-cameraFadeDistScalarMax
-cameraPitchOffset
-facingLimitRight
-facingLimitLeft
-msslTrgtTurnLingering
-msslTrgtPitchLingering
-msslTrgtMouseLingering
-msslTrgtEndOpacity
-msslTrgtArcSpeed
-msslTrgtArcRepeat
-msslTrgtArcWidth
-msslTrgtImpactRadius[2]
-msslTrgtArcTexture
-msslTrgtImpactTexture
-msslTrgtImpactModel[2]
-cameraYawOffset
-uiLocomotionType<32>
-msslTrgtImpactTexRadius
-vehicleUIIndicatorID<u32>
-powerDisplayID<u32>[3]
+Flags<u32>
+FlagsB<u32>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+SeatID<u32>[8]
+MouseLookOffsetPitch
+CameraFadeDistScalarMin
+CameraFadeDistScalarMax
+CameraPitchOffset
+FacingLimitRight
+FacingLimitLeft
+MsslTrgtTurnLingering
+MsslTrgtPitchLingering
+MsslTrgtMouseLingering
+MsslTrgtEndOpacity
+MsslTrgtArcSpeed
+MsslTrgtArcRepeat
+MsslTrgtArcWidth
+MsslTrgtImpactRadius[2]
+MsslTrgtArcTexture
+MsslTrgtImpactTexture
+MsslTrgtImpactModel[2]
+CameraYawOffset
+UiLocomotionType<32>
+MsslTrgtImpactTexRadius
+VehicleUIIndicatorID<u32>
+PowerDisplayID<u32>[3]
 
 BUILD 3.1.0.9767-4.3.4.15595
 $id$ID<32>
-flags<u32>
-turnSpeed
-pitchSpeed
-pitchMin
-pitchMax
-seatID<u32>[8]
-mouseLookOffsetPitch
-cameraFadeDistScalarMin
-cameraFadeDistScalarMax
-cameraPitchOffset
-facingLimitRight
-facingLimitLeft
-msslTrgtTurnLingering
-msslTrgtPitchLingering
-msslTrgtMouseLingering
-msslTrgtEndOpacity
-msslTrgtArcSpeed
-msslTrgtArcRepeat
-msslTrgtArcWidth
-msslTrgtImpactRadius[2]
-msslTrgtArcTexture
-msslTrgtImpactTexture
-msslTrgtImpactModel[2]
-cameraYawOffset
-uiLocomotionType<32>
-msslTrgtImpactTexRadius
-vehicleUIIndicatorID<u32>
-powerDisplayID<u32>[3]
+Flags<u32>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+SeatID<u32>[8]
+MouseLookOffsetPitch
+CameraFadeDistScalarMin
+CameraFadeDistScalarMax
+CameraPitchOffset
+FacingLimitRight
+FacingLimitLeft
+MsslTrgtTurnLingering
+MsslTrgtPitchLingering
+MsslTrgtMouseLingering
+MsslTrgtEndOpacity
+MsslTrgtArcSpeed
+MsslTrgtArcRepeat
+MsslTrgtArcWidth
+MsslTrgtImpactRadius[2]
+MsslTrgtArcTexture
+MsslTrgtImpactTexture
+MsslTrgtImpactModel[2]
+CameraYawOffset
+UiLocomotionType<32>
+MsslTrgtImpactTexRadius
+VehicleUIIndicatorID<u32>
+PowerDisplayID<u32>[3]
 
 BUILD 3.0.1.8820-3.0.9.9551
 $id$ID<32>
-flags<u32>
-turnSpeed
-pitchSpeed
-pitchMin
-pitchMax
-seatID<u32>[8]
-mouseLookOffsetPitch
-cameraFadeDistScalarMin
-cameraFadeDistScalarMax
-cameraPitchOffset
-field_2678807812<32>
-field_3403091958<32>
-field_3434693493<32>
-field_8426551352<32>
-field_4723707192<32>
-field_1615717677<32>
-facingLimitRight
-facingLimitLeft
-msslTrgtTurnLingering
-msslTrgtPitchLingering
-msslTrgtMouseLingering
-msslTrgtEndOpacity
-msslTrgtArcSpeed
-msslTrgtArcRepeat
-msslTrgtArcWidth
-msslTrgtImpactRadius[2]
-msslTrgtArcTexture
-msslTrgtImpactTexture
-msslTrgtImpactModel[2]
-cameraYawOffset
-uiLocomotionType<32>
-msslTrgtImpactTexRadius
-vehicleUIIndicatorID<u32>
+Flags<u32>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+SeatID<u32>[8]
+MouseLookOffsetPitch
+CameraFadeDistScalarMin
+CameraFadeDistScalarMax
+CameraPitchOffset
+Field_2678807812<32>
+Field_3403091958<32>
+Field_3434693493<32>
+Field_8426551352<32>
+Field_4723707192<32>
+Field_1615717677<32>
+FacingLimitRight
+FacingLimitLeft
+MsslTrgtTurnLingering
+MsslTrgtPitchLingering
+MsslTrgtMouseLingering
+MsslTrgtEndOpacity
+MsslTrgtArcSpeed
+MsslTrgtArcRepeat
+MsslTrgtArcWidth
+MsslTrgtImpactRadius[2]
+MsslTrgtArcTexture
+MsslTrgtImpactTexture
+MsslTrgtImpactModel[2]
+CameraYawOffset
+UiLocomotionType<32>
+MsslTrgtImpactTexRadius
+VehicleUIIndicatorID<u32>
 
 BUILD 3.0.1.8788
 $id$ID<32>
-flags<u32>
-turnSpeed
-pitchSpeed
-pitchMin
-pitchMax
-seatID<u32>[8]
-mouseLookOffsetPitch
-cameraFadeDistScalarMin
-cameraFadeDistScalarMax
-cameraPitchOffset
-field_2678807812<32>
-field_3403091958<32>
-field_3434693493<32>
-field_8426551352<32>
-field_4723707192<32>
-field_1615717677<32>
-facingLimitRight
-facingLimitLeft
-msslTrgtTurnLingering
-msslTrgtPitchLingering
-msslTrgtMouseLingering
-msslTrgtEndOpacity
-msslTrgtArcSpeed
-msslTrgtArcRepeat
-msslTrgtArcWidth
-msslTrgtImpactRadius[2]
-msslTrgtArcTexture
-field_3751285934<32>
-field_6392699930<32>
-cameraYawOffset
+Flags<u32>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+SeatID<u32>[8]
+MouseLookOffsetPitch
+CameraFadeDistScalarMin
+CameraFadeDistScalarMax
+CameraPitchOffset
+Field_2678807812<32>
+Field_3403091958<32>
+Field_3434693493<32>
+Field_8426551352<32>
+Field_4723707192<32>
+Field_1615717677<32>
+FacingLimitRight
+FacingLimitLeft
+MsslTrgtTurnLingering
+MsslTrgtPitchLingering
+MsslTrgtMouseLingering
+MsslTrgtEndOpacity
+MsslTrgtArcSpeed
+MsslTrgtArcRepeat
+MsslTrgtArcWidth
+MsslTrgtImpactRadius[2]
+MsslTrgtArcTexture
+Field_3751285934<32>
+Field_6392699930<32>
+CameraYawOffset
 
 BUILD 3.0.1.8770
 $id$ID<32>
-flags<u32>
-turnSpeed
-pitchSpeed
-pitchMin
-pitchMax
-seatID<u32>[8]
-mouseLookOffsetPitch
-cameraFadeDistScalarMin
-cameraFadeDistScalarMax
-cameraPitchOffset
-field_2678807812<32>
-field_3403091958<32>
-field_3434693493<32>
-field_8426551352<32>
-field_4723707192<32>
-field_1615717677<32>
-field_5739132052
-facingLimitRight
-facingLimitLeft
-msslTrgtTurnLingering
-msslTrgtPitchLingering
-msslTrgtMouseLingering
-msslTrgtEndOpacity
-msslTrgtArcSpeed
-msslTrgtArcRepeat
-msslTrgtArcWidth
-msslTrgtImpactRadius
-msslTrgtArcTexture
-msslTrgtImpactTexture
-cameraYawOffset
+Flags<u32>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+SeatID<u32>[8]
+MouseLookOffsetPitch
+CameraFadeDistScalarMin
+CameraFadeDistScalarMax
+CameraPitchOffset
+Field_2678807812<32>
+Field_3403091958<32>
+Field_3434693493<32>
+Field_8426551352<32>
+Field_4723707192<32>
+Field_1615717677<32>
+Field_5739132052
+FacingLimitRight
+FacingLimitLeft
+MsslTrgtTurnLingering
+MsslTrgtPitchLingering
+MsslTrgtMouseLingering
+MsslTrgtEndOpacity
+MsslTrgtArcSpeed
+MsslTrgtArcRepeat
+MsslTrgtArcWidth
+MsslTrgtImpactRadius
+MsslTrgtArcTexture
+MsslTrgtImpactTexture
+CameraYawOffset
 
 BUILD 3.0.1.8622-3.0.1.8714
 $id$ID<32>
-flags<u32>
-turnSpeed
-pitchSpeed
-pitchMin
-pitchMax
-seatID<u32>[8]
-mouseLookOffsetPitch
-cameraFadeDistScalarMin
-cameraFadeDistScalarMax
-cameraPitchOffset
-field_2678807812<32>
-field_3403091958<32>
-field_3434693493<32>
-field_8426551352<32>
-field_4723707192<32>
-field_1615717677<32>
-field_5739132052
-facingLimitRight
-facingLimitLeft
+Flags<u32>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+SeatID<u32>[8]
+MouseLookOffsetPitch
+CameraFadeDistScalarMin
+CameraFadeDistScalarMax
+CameraPitchOffset
+Field_2678807812<32>
+Field_3403091958<32>
+Field_3434693493<32>
+Field_8426551352<32>
+Field_4723707192<32>
+Field_1615717677<32>
+Field_5739132052
+FacingLimitRight
+FacingLimitLeft
 
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>
-flags<u32>
-turnSpeed
-pitchSpeed
-pitchMin
-pitchMax
-seatID<u32>[8]
+Flags<u32>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+SeatID<u32>[8]

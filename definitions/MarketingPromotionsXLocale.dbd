@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-int promotionID
-int locale
-int bannerFileID
-int logoFileID
-int upgradeButtonFileID
-int playButtonFileID
-string promotionURL
+int PromotionID
+int Locale
+int BannerFileID
+int LogoFileID
+int UpgradeButtonFileID
+int PlayButtonFileID
+string PromotionURL
 
 BUILD 5.0.4.15913-5.4.8.18414
 $id$ID<32>
-promotionID<u32>
-locale<32>
-bannerFileID<u32>
-logoFileID<u32>
-upgradeButtonFileID<u32>
-playButtonFileID<u32>
-promotionURL
+PromotionID<u32>
+Locale<32>
+BannerFileID<u32>
+LogoFileID<u32>
+UpgradeButtonFileID<u32>
+PlayButtonFileID<u32>
+PromotionURL

@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int value
-int breedID
-int stateID
+int Value
+int BreedID
+int StateID
 
 BUILD 5.0.4.16016-6.2.4.21742
 $id$ID<32>
-breedID<u32>
-stateID<u32>
-value<32>
+BreedID<u32>
+StateID<u32>
+Value<32>

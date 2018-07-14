@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int<AnimationData::ID> srcAnimID
-int<AnimationData::ID> dstAnimID
-int<AnimReplacementSet::ID> parentAnimReplacementSetID
+int<AnimationData::ID> SrcAnimID
+int<AnimationData::ID> DstAnimID
+int<AnimReplacementSet::ID> ParentAnimReplacementSetID
 
 BUILD 4.0.0.11927-6.0.3.19342
 $id$ID<32>
-srcAnimID<u32>
-dstAnimID<u32>
-parentAnimReplacementSetID<u32>
+SrcAnimID<u32>
+DstAnimID<u32>
+ParentAnimReplacementSetID<u32>

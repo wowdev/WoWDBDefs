@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-float radius
-float radiusPerLevel
-float radiusMax
-float radiusMin
+float Radius
+float RadiusPerLevel
+float RadiusMax
+float RadiusMin
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-radius
-radiusPerLevel
-radiusMin
-radiusMax
+Radius
+RadiusPerLevel
+RadiusMin
+RadiusMax
 
 BUILD 0.5.3.3368-5.0.1.15544
 $id$ID<32>
-radius
-radiusPerLevel
-radiusMax
+Radius
+RadiusPerLevel
+RadiusMax

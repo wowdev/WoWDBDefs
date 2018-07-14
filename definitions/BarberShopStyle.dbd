@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-int type
-int<ChrRaces::ID> race
-int sex
-int data
-locstring displayName_lang
-locstring description_lang
-float cost_Modifier
+int Type
+int<ChrRaces::ID> Race
+int Sex
+int Data
+locstring DisplayName_lang
+locstring Description_lang
+float Cost_Modifier
 
 BUILD 3.0.1.8334-6.0.1.18179
 $id$ID<32>
-type<32>
-displayName_lang
-description_lang
-cost_Modifier
-race<32>
-sex<32>
-data<32>
+Type<32>
+DisplayName_lang
+Description_lang
+Cost_Modifier
+Race<32>
+Sex<32>
+Data<32>

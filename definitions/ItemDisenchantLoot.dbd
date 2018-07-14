@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-int class
-int subclass
-int quality
-int minlevel
-int skillRequired
-int maxLevel
+int Class
+int Subclass
+int Quality
+int Minlevel
+int SkillRequired
+int MaxLevel
 
 BUILD 4.0.6.13623-6.2.4.21742
 $id$ID<32>
-class<32>
-subclass<32>
-quality<32>
-minlevel<32>
-maxLevel<32>
-skillRequired<32>
+Class<32>
+Subclass<32>
+Quality<32>
+Minlevel<32>
+MaxLevel<32>
+SkillRequired<32>

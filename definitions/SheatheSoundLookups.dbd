@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-int<ItemSubClass::classID> classID
-int<ItemSubClass::subClassID> subClassID
-int<Material::ID> material
-int checkMaterial
-int sheatheSound
-int unsheatheSound
+int<ItemSubClass::ClassID> ClassID
+int<ItemSubClass::SubClassID> SubClassID
+int<Material::ID> Material
+int CheckMaterial
+int SheatheSound
+int UnsheatheSound
 
 BUILD 0.5.3.3368-3.3.5.12340
 $id$ID<32>
-classID<u32>
-subClassID<u32>
-material<32>
-checkMaterial<32>
-sheatheSound<32>
-unsheatheSound<32>
+ClassID<u32>
+SubClassID<u32>
+Material<32>
+CheckMaterial<32>
+SheatheSound<32>
+UnsheatheSound<32>

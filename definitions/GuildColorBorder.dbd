@@ -1,13 +1,13 @@
 COLUMNS
-int colorID
-int red
-int green
-int blue
-int padding_1261949109?
+int ColorID
+int Red
+int Green
+int Blue
+int Padding_1261949109?
 
 BUILD 4.0.6.13623-6.2.4.21742
-$id$colorID<32>
-red<u8>
-green<u8>
-blue<u8>
-padding_1261949109<u8>
+$id$ColorID<32>
+Red<u8>
+Green<u8>
+Blue<u8>
+Padding_1261949109<u8>

@@ -1,56 +1,56 @@
 COLUMNS
 int ID
-int minPower
-int maxPower
-int startPower
-int centerPower
-float regenerationPeace
-float regenerationCombat
-int barType
-int<FileData::ID> fileDataID
-int color
-int flags
-locstring name_lang
-locstring cost_lang
-locstring outOfError_lang
-locstring toolTip_lang
-float startInset
-float endInset
+int MinPower
+int MaxPower
+int StartPower
+int CenterPower
+float RegenerationPeace
+float RegenerationCombat
+int BarType
+int<FileData::ID> FileDataID
+int Color
+int Flags
+locstring Name_lang
+locstring Cost_lang
+locstring OutOfError_lang
+locstring ToolTip_lang
+float StartInset
+float EndInset
 
 BUILD 4.3.2.15148-5.4.8.18414
 $id$ID<32>
-minPower<32>
-maxPower<32>
-startPower<32>
-centerPower<32>
-regenerationPeace
-regenerationCombat
-barType<32>
-fileDataID<u32>[6]
-color<32>[6]
-flags<u32>
-name_lang
-cost_lang
-outOfError_lang
-toolTip_lang
-startInset
-endInset
+MinPower<32>
+MaxPower<32>
+StartPower<32>
+CenterPower<32>
+RegenerationPeace
+RegenerationCombat
+BarType<32>
+FileDataID<u32>[6]
+Color<32>[6]
+Flags<u32>
+Name_lang
+Cost_lang
+OutOfError_lang
+ToolTip_lang
+StartInset
+EndInset
 
 BUILD 4.0.0.12911-4.3.0.15050
 $id$ID<32>
-minPower<32>
-maxPower<32>
-startPower<32>
-centerPower<32>
-regenerationPeace
-regenerationCombat
-barType<32>
-fileDataID<u32>[5]
-color<32>[5]
-flags<u32>
-name_lang
-cost_lang
-outOfError_lang
-toolTip_lang
-startInset
-endInset
+MinPower<32>
+MaxPower<32>
+StartPower<32>
+CenterPower<32>
+RegenerationPeace
+RegenerationCombat
+BarType<32>
+FileDataID<u32>[5]
+Color<32>[5]
+Flags<u32>
+Name_lang
+Cost_lang
+OutOfError_lang
+ToolTip_lang
+StartInset
+EndInset

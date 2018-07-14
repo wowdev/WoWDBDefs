@@ -1,28 +1,28 @@
 COLUMNS
 int ID
-string doodadpath
-int flags
-float animScale
-int doodadIdTag
+string Doodadpath
+int Flags
+float AnimScale
+int DoodadIdTag
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-doodadpath
-flags<u32>
-animScale
+Doodadpath
+Flags<u32>
+AnimScale
 
 BUILD 3.1.0.9767-4.3.4.15595
 $id$ID<32>
-doodadpath
-flags<u32>
+Doodadpath
+Flags<u32>
 
 BUILD 3.0.1.8303-3.0.9.9551
 $id$ID<32>
-doodadIdTag<32>
-doodadpath
-flags<u32>
+DoodadIdTag<32>
+Doodadpath
+Flags<u32>
 
 BUILD 0.5.3.3368-2.4.3.8606
 $id$ID<32>
-doodadIdTag<32>
-doodadpath
+DoodadIdTag<32>
+Doodadpath

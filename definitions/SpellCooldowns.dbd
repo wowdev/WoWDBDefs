@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-int<Spell::ID> spellID
-int<Difficulty::ID> difficultyID
-int categoryRecoveryTime
-int recoveryTime
-int startRecoveryTime
+int<Spell::ID> SpellID
+int<Difficulty::ID> DifficultyID
+int CategoryRecoveryTime
+int RecoveryTime
+int StartRecoveryTime
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-spellID<u32>
-difficultyID<u32>
-categoryRecoveryTime<32>
-recoveryTime<32>
-startRecoveryTime<32>
+SpellID<u32>
+DifficultyID<u32>
+CategoryRecoveryTime<32>
+RecoveryTime<32>
+StartRecoveryTime<32>
 
 BUILD 4.0.0.12232-5.0.1.15544
 $id$ID<32>
-categoryRecoveryTime<32>
-recoveryTime<32>
-startRecoveryTime<32>
+CategoryRecoveryTime<32>
+RecoveryTime<32>
+StartRecoveryTime<32>

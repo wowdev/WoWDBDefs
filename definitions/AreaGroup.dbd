@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int areaID
-int<AreaGroup::ID> nextAreaID
+int AreaID
+int<AreaGroup::ID> NextAreaID
 
 BUILD 3.0.1.8622-6.0.3.19342
 $id$ID<32>
-areaID<32>[6]
-nextAreaID<u32>
+AreaID<32>[6]
+NextAreaID<u32>

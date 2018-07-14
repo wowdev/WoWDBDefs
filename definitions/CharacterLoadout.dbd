@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int<ChrClasses::ID> chrClassID
-int purpose
-int raceMask
+int<ChrClasses::ID> ChrClassID
+int Purpose
+int RaceMask
 
 BUILD 5.0.1.15464-6.2.4.21742
 $id$ID<32>
-chrClassID<u32>
-purpose<32>
-raceMask<u32>
+ChrClassID<u32>
+Purpose<32>
+RaceMask<u32>

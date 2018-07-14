@@ -1,27 +1,27 @@
 COLUMNS
 int ID
-int<WorldStateExpression::ID> worldStateExpressionID
-int<UnitCondition::ID> selfConditionID
-int<UnitCondition::ID> targetConditionID
-int friendConditionID
-int friendConditionOp
-int friendConditionCount
-int friendConditionLogic
-int enemyConditionID
-int enemyConditionOp
-int enemyConditionCount
-int enemyConditionLogic
+int<WorldStateExpression::ID> WorldStateExpressionID
+int<UnitCondition::ID> SelfConditionID
+int<UnitCondition::ID> TargetConditionID
+int FriendConditionID
+int FriendConditionOp
+int FriendConditionCount
+int FriendConditionLogic
+int EnemyConditionID
+int EnemyConditionOp
+int EnemyConditionCount
+int EnemyConditionLogic
 
 BUILD 5.0.1.15464-6.2.4.21742
 $id$ID<32>
-worldStateExpressionID<u32>
-selfConditionID<u32>
-targetConditionID<u32>
-friendConditionID<32>[2]
-friendConditionOp<32>[2]
-friendConditionCount<32>[2]
-friendConditionLogic<32>
-enemyConditionID<32>[2]
-enemyConditionOp<32>[2]
-enemyConditionCount<32>[2]
-enemyConditionLogic<32>
+WorldStateExpressionID<u32>
+SelfConditionID<u32>
+TargetConditionID<u32>
+FriendConditionID<32>[2]
+FriendConditionOp<32>[2]
+FriendConditionCount<32>[2]
+FriendConditionLogic<32>
+EnemyConditionID<32>[2]
+EnemyConditionOp<32>[2]
+EnemyConditionCount<32>[2]
+EnemyConditionLogic<32>

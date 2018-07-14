@@ -1,31 +1,31 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-int<AreaTable::ID> areaID
-int<FileData::ID> buttonFiledataID
-int<FileData::ID> backgroundFiledataID
-int<FileData::ID> loreFileDataID
-int field_3134239866?
-locstring name_lang
-locstring description_lang
+int<Map::ID> MapID
+int<AreaTable::ID> AreaID
+int<FileData::ID> ButtonFiledataID
+int<FileData::ID> BackgroundFiledataID
+int<FileData::ID> LoreFileDataID
+int Field_3134239866?
+locstring Name_lang
+locstring Description_lang
 
 BUILD 4.2.0.14333-5.0.1.15677
 $id$ID<32>
-mapID<u32>
-areaID<u32>
-buttonFiledataID<u32>
-backgroundFiledataID<u32>
-loreFileDataID<u32>
-field_3134239866<32>
-name_lang
-description_lang
+MapID<u32>
+AreaID<u32>
+ButtonFiledataID<u32>
+BackgroundFiledataID<u32>
+LoreFileDataID<u32>
+Field_3134239866<32>
+Name_lang
+Description_lang
 
 BUILD 5.0.1.15689-5.4.8.18414
 $id$ID<32>
-mapID<u32>
-areaID<u32>
-buttonFiledataID<u32>
-backgroundFiledataID<u32>
-loreFileDataID<u32>
-name_lang
-description_lang
+MapID<u32>
+AreaID<u32>
+ButtonFiledataID<u32>
+BackgroundFiledataID<u32>
+LoreFileDataID<u32>
+Name_lang
+Description_lang

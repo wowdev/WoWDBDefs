@@ -1,74 +1,74 @@
 COLUMNS
 int ID
-int alwaysItem
-int classification
-int displayID
-float displayProbability
-locstring name_lang
-int startAnimState
-locstring title_lang
-locstring titleAlt_lang
-int field_4705449871?
-int field_7256365831?
-int field_6344467879?
-int field_1638684343?
-int field_6452793020?
-int field_5734130076? // flags of some kind
-int field_4736215618?
-int field_5009805939?
-int field_7759724630?
-int field_7578003819?
-int field_9577352036?
-int field_4836540140?
-int field_1525801569?
-int creatureFamily
+int AlwaysItem
+int Classification
+int DisplayID
+float DisplayProbability
+locstring Name_lang
+int StartAnimState
+locstring Title_lang
+locstring TitleAlt_lang
+int Field_4705449871?
+int Field_7256365831?
+int Field_6344467879?
+int Field_1638684343?
+int Field_6452793020?
+int Field_5734130076? // flags of some kind
+int Field_4736215618?
+int Field_5009805939?
+int Field_7759724630?
+int Field_7578003819?
+int Field_9577352036?
+int Field_4836540140?
+int Field_1525801569?
+int CreatureFamily
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-alwaysItem<32>[3]
-field_1525801569<32>
-displayID<u32>[4]
-displayProbability[4]
-title_lang
-titleAlt_lang
-creatureFamily<32>
-classification<32>
-startAnimState<32>
+AlwaysItem<32>[3]
+Field_1525801569<32>
+DisplayID<u32>[4]
+DisplayProbability[4]
+Title_lang
+TitleAlt_lang
+CreatureFamily<32>
+Classification<32>
+StartAnimState<32>
 
 BUILD 5.0.1.15650-5.3.0.17116
 $id$ID<32>
-alwaysItem<32>[3]
-field_7578003819<32>
-field_9577352036<32>
-field_4836540140<32>
-displayID<u32>[4]
-displayProbability[4]
-name_lang
-startAnimState<32>
+AlwaysItem<32>[3]
+Field_7578003819<32>
+Field_9577352036<32>
+Field_4836540140<32>
+DisplayID<u32>[4]
+DisplayProbability[4]
+Name_lang
+StartAnimState<32>
 
 BUILD 5.0.1.15589
 $id$ID<32>
-alwaysItem<32>[3]
-field_4736215618<32>
-field_5009805939<32>
-field_7759724630<32>
-displayID<u32>[4]
-displayProbability[4]
-field_5734130076<32>
-name_lang
-startAnimState<32>
+AlwaysItem<32>[3]
+Field_4736215618<32>
+Field_5009805939<32>
+Field_7759724630<32>
+DisplayID<u32>[4]
+DisplayProbability[4]
+Field_5734130076<32>
+Name_lang
+StartAnimState<32>
 
 BUILD 5.0.1.15640
 BUILD 5.0.1.15464-5.0.1.15544
 $id$ID<32>
-field_4705449871<32>
-field_7256365831<32>
-alwaysItem<32>[3]
-field_6344467879<32>
-field_1638684343<32>
-field_6452793020<32>
-displayID<u32>[4]
-displayProbability[4]
-field_5734130076<32>
-name_lang
-startAnimState<32>
+Field_4705449871<32>
+Field_7256365831<32>
+AlwaysItem<32>[3]
+Field_6344467879<32>
+Field_1638684343<32>
+Field_6452793020<32>
+DisplayID<u32>[4]
+DisplayProbability[4]
+Field_5734130076<32>
+Name_lang
+StartAnimState<32>

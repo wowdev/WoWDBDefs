@@ -1,18 +1,18 @@
 COLUMNS
 int ID
-int reagents
-int reagentCount
-int currencyID
-int currencyCount
+int Reagents
+int ReagentCount
+int CurrencyID
+int CurrencyCount
 
 BUILD 5.0.1.15508-5.4.8.18414
 $id$ID<32>
-reagents<32>[8]
-reagentCount<32>[8]
-currencyID<u32>
-currencyCount<32>
+Reagents<32>[8]
+ReagentCount<32>[8]
+CurrencyID<u32>
+CurrencyCount<32>
 
 BUILD 4.2.0.12232-5.0.1.15464
 $id$ID<32>
-reagents<32>[8]
-reagentCount<32>[8]
+Reagents<32>[8]
+ReagentCount<32>[8]

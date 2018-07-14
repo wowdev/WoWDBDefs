@@ -1,122 +1,122 @@
 COLUMNS
 int ID
-int<Achievement::ID> achievement_ID
-int type
-int asset_ID
-int quantity
-int start_event
-int start_asset
-int fail_event
-int fail_asset
-locstring description_lang
-int flags
-int timer_start_event
-int timer_asset_ID
-int timer_time
-int ui_order
-int additionalConditionType?
-int additionalConditionValue?
-int field_295204487?
-int field_7003959867?
+int<Achievement::ID> Achievement_ID
+int Type
+int Asset_ID
+int Quantity
+int Start_event
+int Start_asset
+int Fail_event
+int Fail_asset
+locstring Description_lang
+int Flags
+int Timer_start_event
+int Timer_asset_ID
+int Timer_time
+int Ui_order
+int AdditionalConditionType?
+int AdditionalConditionValue?
+int Field_295204487?
+int Field_7003959867?
 
 BUILD 4.1.0.13914-5.4.8.18414
 $id$ID<32>
-achievement_ID<u32>
-type<32>
-asset_ID<u32>
-quantity<64>
-start_event<32>
-start_asset<32>
-fail_event<32>
-fail_asset<32>
-description_lang
-flags<u32>
-timer_start_event<32>
-timer_asset_ID<u32>
-timer_time<32>
-ui_order<32>
-field_295204487<32>
-field_7003959867<32>
-additionalConditionType<32>[3]
-additionalConditionValue<32>[3]
+Achievement_ID<u32>
+Type<32>
+Asset_ID<u32>
+Quantity<64>
+Start_event<32>
+Start_asset<32>
+Fail_event<32>
+Fail_asset<32>
+Description_lang
+Flags<u32>
+Timer_start_event<32>
+Timer_asset_ID<u32>
+Timer_time<32>
+Ui_order<32>
+Field_295204487<32>
+Field_7003959867<32>
+AdditionalConditionType<32>[3]
+AdditionalConditionValue<32>[3]
 
 BUILD 4.0.6.13623
 $id$ID<32>
-achievement_ID<u32>
-type<32>
-asset_ID<u32>
-quantity<64>
-start_event<32>
-start_asset<32>
-fail_event<32>
-description_lang
-flags<u32>
-timer_start_event<32>
-timer_asset_ID<u32>
-timer_time<32>
-ui_order<32>
-field_295204487<32>
-field_7003959867<32>
-additionalConditionType<32>[3]
-additionalConditionValue<32>[3]
+Achievement_ID<u32>
+Type<32>
+Asset_ID<u32>
+Quantity<64>
+Start_event<32>
+Start_asset<32>
+Fail_event<32>
+Description_lang
+Flags<u32>
+Timer_start_event<32>
+Timer_asset_ID<u32>
+Timer_time<32>
+Ui_order<32>
+Field_295204487<32>
+Field_7003959867<32>
+AdditionalConditionType<32>[3]
+AdditionalConditionValue<32>[3]
 
 BUILD 4.0.0.12911-4.0.6.13596
 $id$ID<32>
-achievement_ID<u32>
-type<32>
-asset_ID<u32>
-quantity<64>
-start_event<32>
-start_asset<32>
-fail_event<32>
-description_lang
-flags<u32>
-timer_start_event<32>
-timer_asset_ID<u32>
-timer_time<32>
-ui_order<32>
-field_295204487<32>
-field_7003959867<32>
+Achievement_ID<u32>
+Type<32>
+Asset_ID<u32>
+Quantity<64>
+Start_event<32>
+Start_asset<32>
+Fail_event<32>
+Description_lang
+Flags<u32>
+Timer_start_event<32>
+Timer_asset_ID<u32>
+Timer_time<32>
+Ui_order<32>
+Field_295204487<32>
+Field_7003959867<32>
 
 BUILD 3.0.1.8885-4.0.0.12319
 $id$ID<32>
-achievement_ID<u32>
-type<32>
-asset_ID<u32>
-quantity<32>
-start_event<32>
-start_asset<32>
-fail_event<32>
-fail_asset<32>
-description_lang
-flags<u32>
-timer_start_event<32>
-timer_asset_ID<u32>
-timer_time<32>
-ui_order<32>
+Achievement_ID<u32>
+Type<32>
+Asset_ID<u32>
+Quantity<32>
+Start_event<32>
+Start_asset<32>
+Fail_event<32>
+Fail_asset<32>
+Description_lang
+Flags<u32>
+Timer_start_event<32>
+Timer_asset_ID<u32>
+Timer_time<32>
+Ui_order<32>
 
 BUILD 3.0.1.8622-3.0.1.8874
 $id$ID<32>
-achievement_ID<u32>
-type<32>
-asset_ID<u32>
-quantity<32>
-start_event<32>
-start_asset<32>
-fail_event<32>
-fail_asset<32>
-description_lang
-flags<u32>
-ui_order<32>
+Achievement_ID<u32>
+Type<32>
+Asset_ID<u32>
+Quantity<32>
+Start_event<32>
+Start_asset<32>
+Fail_event<32>
+Fail_asset<32>
+Description_lang
+Flags<u32>
+Ui_order<32>
 
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>
-achievement_ID<u32>
-type<32>
-asset_ID<u32>
-quantity<32>
-start_event<32>
-start_asset<32>
-fail_event<32>
-fail_asset<32>
-description_lang
+Achievement_ID<u32>
+Type<32>
+Asset_ID<u32>
+Quantity<32>
+Start_event<32>
+Start_asset<32>
+Fail_event<32>
+Fail_asset<32>
+Description_lang

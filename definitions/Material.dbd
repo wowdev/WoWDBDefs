@@ -1,19 +1,19 @@
 COLUMNS
-int<Material::materialID> materialID
+int<Material::MaterialID> MaterialID
 int ID
-int<SoundEntries::ID> sheatheSoundID
-int<SoundEntries::ID> unsheatheSoundID
-int flags
-int<SoundEntries::ID> foleySoundID
+int<SoundEntries::ID> SheatheSoundID
+int<SoundEntries::ID> UnsheatheSoundID
+int Flags
+int<SoundEntries::ID> FoleySoundID
 
 BUILD 0.5.3.3368-2.0.6.6337
-$id$materialID<32>
-flags<u32>
-foleySoundID<u32>
+$id$MaterialID<32>
+Flags<u32>
+FoleySoundID<u32>
 
 BUILD 2.1.0.6692-6.2.4.21742
 $id$ID<32>
-flags<u32>
-foleySoundID<u32>
-sheatheSoundID<u32>
-unsheatheSoundID<u32>
+Flags<u32>
+FoleySoundID<u32>
+SheatheSoundID<u32>
+UnsheatheSoundID<u32>

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-string description
-int flags
+string Description
+int Flags
 int EAXEnvironmentSelection
 float EAXDecayTime
 float EAX2EnvironmentSize
@@ -28,8 +28,8 @@ float EAXEffectVolume
 
 BUILD 0.7.0.3694-6.2.4.21742
 $id$ID<32>
-description
-flags<u32>
+Description
+Flags<u32>
 EAXEnvironmentSelection<32>
 EAXDecayTime
 EAX2EnvironmentSize
@@ -54,8 +54,8 @@ EAX3LFReference
 
 BUILD 0.6.0.3592
 $id$ID<32>
-description
-flags<u32>
+Description
+Flags<u32>
 EAXEnvironmentSelection<32>
 EAXDecayTime
 EAXDamping
@@ -81,8 +81,8 @@ EAX3LFReference
 
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
-description
-flags<u32>
+Description
+Flags<u32>
 EAXEnvironmentSelection<32>
 EAXEffectVolume
 EAXDecayTime

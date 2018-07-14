@@ -1,71 +1,71 @@
 COLUMNS
 int ID
-int manaCost
-int manaCostPerLevel
-int powerType
-int manaPerSecond
-int<PowerDisplay::ID> powerDisplayID
-int field_4567976787?
-int<Spell::ID> spellID
-float powerCostPct
-float field_7962234177?
-int difficultyId?
-int altPowerBarID?
-float field_3005919490?
-int<Spell::ID> requiredAuraSpellID
-float powerCostMaxPct
+int ManaCost
+int ManaCostPerLevel
+int PowerType
+int ManaPerSecond
+int<PowerDisplay::ID> PowerDisplayID
+int Field_4567976787?
+int<Spell::ID> SpellID
+float PowerCostPct
+float Field_7962234177?
+int DifficultyID?
+int AltPowerBarID?
+float Field_3005919490?
+int<Spell::ID> RequiredAuraSpellID
+float PowerCostMaxPct
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-spellID<u32>
-difficultyId<32>
-powerType<32>
-manaCost<32>
-manaCostPerLevel<32>
-manaPerSecond<32>
-powerDisplayID<u32>
-altPowerBarID<32>
-powerCostPct
-field_3005919490
-requiredAuraSpellID<u32>
-powerCostMaxPct
+SpellID<u32>
+DifficultyID<32>
+PowerType<32>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+PowerDisplayID<u32>
+AltPowerBarID<32>
+PowerCostPct
+Field_3005919490
+RequiredAuraSpellID<u32>
+PowerCostMaxPct
 
 BUILD 5.0.1.15464-5.0.1.15544
 $id$ID<32>
-powerType<32>
-manaCost<32>
-manaCostPerLevel<32>
-manaPerSecond<32>
-powerDisplayID<u32>
-altPowerBarID<32>
-powerCostPct
-field_7962234177
-requiredAuraSpellID<u32>
-spellID<u32>
+PowerType<32>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+PowerDisplayID<u32>
+AltPowerBarID<32>
+PowerCostPct
+Field_7962234177
+RequiredAuraSpellID<u32>
+SpellID<u32>
 
 BUILD 4.3.2.15211-4.3.4.15595
 $id$ID<32>
-manaCost<32>
-manaCostPerLevel<32>
-powerType<32>
-manaPerSecond<32>
-powerDisplayID<u32>
-altPowerBarID<32>
-powerCostPct
+ManaCost<32>
+ManaCostPerLevel<32>
+PowerType<32>
+ManaPerSecond<32>
+PowerDisplayID<u32>
+AltPowerBarID<32>
+PowerCostPct
 
 BUILD 4.0.0.12911-4.3.0.15050
 $id$ID<32>
-manaCost<32>
-manaCostPerLevel<32>
-powerType<32>
-manaPerSecond<32>
-powerDisplayID<u32>
-field_4567976787<32>
+ManaCost<32>
+ManaCostPerLevel<32>
+PowerType<32>
+ManaPerSecond<32>
+PowerDisplayID<u32>
+Field_4567976787<32>
 
 BUILD 4.0.0.12232-4.0.0.12319
 $id$ID<32>
-manaCost<32>
-manaCostPerLevel<32>
-powerType<32>
-manaPerSecond<32>
-powerDisplayID<u32>
+ManaCost<32>
+ManaCostPerLevel<32>
+PowerType<32>
+ManaPerSecond<32>
+PowerDisplayID<u32>

@@ -2,10 +2,10 @@ COLUMNS
 int ID
 int X
 int Y
-int questPOIBlobID
+int QuestPOIBlobID
 
 BUILD 4.0.0.12911-6.2.4.21742
 $id$ID<32>
 X<32>
 Y<32>
-questPOIBlobID<u32>
+QuestPOIBlobID<u32>

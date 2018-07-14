@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int sizeClass
-int<TerrainTypeSounds::ID> terrainTypeSoundID
-int<SoundEntries::ID> soundEntryID
-int<SoundEntries::ID> soundEntryIDWater
+int SizeClass
+int<TerrainTypeSounds::ID> TerrainTypeSoundID
+int<SoundEntries::ID> SoundEntryID
+int<SoundEntries::ID> SoundEntryIDWater
 
 BUILD 0.5.3.3368-6.2.4.21742
 $id$ID<32>
-sizeClass<32>
-terrainTypeSoundID<u32>
-soundEntryID<u32>
-soundEntryIDWater<32>
+SizeClass<32>
+TerrainTypeSoundID<u32>
+SoundEntryID<u32>
+SoundEntryIDWater<32>

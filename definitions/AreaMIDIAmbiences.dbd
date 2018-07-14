@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-string daySequence
-string nightSequence
+string DaySequence
+string NightSequence
 string DLSFile
-float volume
+float Volume
 
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
-daySequence
-nightSequence
+DaySequence
+NightSequence
 DLSFile
-volume
+Volume

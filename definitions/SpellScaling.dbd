@@ -1,46 +1,46 @@
 COLUMNS
 int ID
-int castTimeMin
-int castTimeMax
-int castTimeMaxLevel
-int class
-float nerfFactor
-int nerfMaxLevel
-int maxScalingLevel
-int scalesFromItemLevel
-float coefficient
-float variance
-float comboPointsCoefficient
+int CastTimeMin
+int CastTimeMax
+int CastTimeMaxLevel
+int Class
+float NerfFactor
+int NerfMaxLevel
+int MaxScalingLevel
+int ScalesFromItemLevel
+float Coefficient
+float Variance
+float ComboPointsCoefficient
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-castTimeMin<32>
-castTimeMax<32>
-castTimeMaxLevel<32>
-class<32>
-nerfFactor
-nerfMaxLevel<32>
-maxScalingLevel<32>
-scalesFromItemLevel<32>
+CastTimeMin<32>
+CastTimeMax<32>
+CastTimeMaxLevel<32>
+Class<32>
+NerfFactor
+NerfMaxLevel<32>
+MaxScalingLevel<32>
+ScalesFromItemLevel<32>
 
 BUILD 4.0.0.12232-4.3.4.15595
 $id$ID<32>
-castTimeMin<32>
-castTimeMax<32>
-castTimeMaxLevel<32>
-class<32>
-coefficient[3]
-variance[3]
-comboPointsCoefficient[3]
-nerfFactor
-nerfMaxLevel<32>
+CastTimeMin<32>
+CastTimeMax<32>
+CastTimeMaxLevel<32>
+Class<32>
+Coefficient[3]
+Variance[3]
+ComboPointsCoefficient[3]
+NerfFactor
+NerfMaxLevel<32>
 
 BUILD 4.0.0.11927-4.0.0.12164
 $id$ID<32>
-castTimeMin<32>
-castTimeMax<32>
-castTimeMaxLevel<32>
-class<32>
-coefficient[3]
-variance[3]
-comboPointsCoefficient[3]
+CastTimeMin<32>
+CastTimeMax<32>
+CastTimeMaxLevel<32>
+Class<32>
+Coefficient[3]
+Variance[3]
+ComboPointsCoefficient[3]

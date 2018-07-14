@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int textureFileID
-int<Faction::ID> factionID
-locstring description_Lang
+int TextureFileID
+int<Faction::ID> FactionID
+locstring Description_Lang_lang
 
 BUILD 5.0.1.15464-6.2.4.21742
 $id$ID<32>
-factionID<u32>
-textureFileID<u32>
-description_Lang
+FactionID<u32>
+TextureFileID<u32>
+Description_Lang_lang

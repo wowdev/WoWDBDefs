@@ -1,198 +1,198 @@
 COLUMNS
 int ID
-int<AnimationData::ID> startAnimID
-int<AnimationData::ID> animID
-int<AnimKit::ID> animKitID
-int headEffect
-int chestEffect
-int baseEffect
-int leftHandEffect
-int rightHandEffect
-int breathEffect
-int leftWeaponEffect
-int rightWeaponEffect
-int specialEffect
-int worldEffect
-int<SoundEntries::ID> soundID
-int<SpellEffectCameraShakes::ID> shakeID
-int charProc
-int characterProcedure
-float characterParam
-float charParamZero
-float charParamOne
-float charParamTwo
-float charParamThree
-int flags
-int kitType
-int anim
+int<AnimationData::ID> StartAnimID
+int<AnimationData::ID> AnimID
+int<AnimKit::ID> AnimKitID
+int HeadEffect
+int ChestEffect
+int BaseEffect
+int LeftHandEffect
+int RightHandEffect
+int BreathEffect
+int LeftWeaponEffect
+int RightWeaponEffect
+int SpecialEffect
+int WorldEffect
+int<SoundEntries::ID> SoundID
+int<SpellEffectCameraShakes::ID> ShakeID
+int CharProc
+int CharacterProcedure
+float CharacterParam
+float CharParamZero
+float CharParamOne
+float CharParamTwo
+float CharParamThree
+int Flags
+int KitType
+int Anim
 
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
-startAnimID<u32>
-animID<u32>
-animKitID<u32>
-headEffect<32>
-chestEffect<32>
-baseEffect<32>
-leftHandEffect<32>
-rightHandEffect<32>
-breathEffect<32>
-leftWeaponEffect<32>
-rightWeaponEffect<32>
-specialEffect<32>[3]
-worldEffect<32>
-soundID<u32>
-shakeID<u32>
-charProc<32>[4]
-charParamZero[4]
-charParamOne[4]
-charParamTwo[4]
-charParamThree[4]
-flags<u32>
+StartAnimID<u32>
+AnimID<u32>
+AnimKitID<u32>
+HeadEffect<32>
+ChestEffect<32>
+BaseEffect<32>
+LeftHandEffect<32>
+RightHandEffect<32>
+BreathEffect<32>
+LeftWeaponEffect<32>
+RightWeaponEffect<32>
+SpecialEffect<32>[3]
+WorldEffect<32>
+SoundID<u32>
+ShakeID<u32>
+CharProc<32>[4]
+CharParamZero[4]
+CharParamOne[4]
+CharParamTwo[4]
+CharParamThree[4]
+Flags<u32>
 
 BUILD 3.1.0.9767-3.3.5.12340
 $id$ID<32>
-startAnimID<u32>
-animID<u32>
-headEffect<32>
-chestEffect<32>
-baseEffect<32>
-leftHandEffect<32>
-rightHandEffect<32>
-breathEffect<32>
-leftWeaponEffect<32>
-rightWeaponEffect<32>
-specialEffect<32>[3]
-worldEffect<32>
-soundID<u32>
-shakeID<u32>
-charProc<32>[4]
-charParamZero[4]
-charParamOne[4]
-charParamTwo[4]
-charParamThree[4]
-flags<u32>
+StartAnimID<u32>
+AnimID<u32>
+HeadEffect<32>
+ChestEffect<32>
+BaseEffect<32>
+LeftHandEffect<32>
+RightHandEffect<32>
+BreathEffect<32>
+LeftWeaponEffect<32>
+RightWeaponEffect<32>
+SpecialEffect<32>[3]
+WorldEffect<32>
+SoundID<u32>
+ShakeID<u32>
+CharProc<32>[4]
+CharParamZero[4]
+CharParamOne[4]
+CharParamTwo[4]
+CharParamThree[4]
+Flags<u32>
 
 BUILD 3.0.1.8391-3.1.0.9757
 $id$ID<32>
-kitType<32>
-startAnimID<u32>
-animID<u32>
-headEffect<32>
-chestEffect<32>
-baseEffect<32>
-leftHandEffect<32>
-rightHandEffect<32>
-breathEffect<32>
-leftWeaponEffect<32>
-rightWeaponEffect<32>
-specialEffect<32>[3]
-worldEffect<32>
-soundID<u32>
-shakeID<u32>
-charProc<32>[4]
-charParamZero[4]
-charParamOne[4]
-charParamTwo[4]
-charParamThree[4]
-flags<u32>
+KitType<32>
+StartAnimID<u32>
+AnimID<u32>
+HeadEffect<32>
+ChestEffect<32>
+BaseEffect<32>
+LeftHandEffect<32>
+RightHandEffect<32>
+BreathEffect<32>
+LeftWeaponEffect<32>
+RightWeaponEffect<32>
+SpecialEffect<32>[3]
+WorldEffect<32>
+SoundID<u32>
+ShakeID<u32>
+CharProc<32>[4]
+CharParamZero[4]
+CharParamOne[4]
+CharParamTwo[4]
+CharParamThree[4]
+Flags<u32>
 
 BUILD 2.1.0.6692-3.0.1.8334
 $id$ID<32>
-kitType<32>
-animID<u32>
-headEffect<32>
-chestEffect<32>
-baseEffect<32>
-leftHandEffect<32>
-rightHandEffect<32>
-breathEffect<32>
-leftWeaponEffect<32>
-rightWeaponEffect<32>
-specialEffect<32>[3]
-worldEffect<32>
-soundID<u32>
-shakeID<u32>
-charProc<32>[4]
-charParamZero[4]
-charParamOne[4]
-charParamTwo[4]
-charParamThree[4]
-flags<u32>
+KitType<32>
+AnimID<u32>
+HeadEffect<32>
+ChestEffect<32>
+BaseEffect<32>
+LeftHandEffect<32>
+RightHandEffect<32>
+BreathEffect<32>
+LeftWeaponEffect<32>
+RightWeaponEffect<32>
+SpecialEffect<32>[3]
+WorldEffect<32>
+SoundID<u32>
+ShakeID<u32>
+CharProc<32>[4]
+CharParamZero[4]
+CharParamOne[4]
+CharParamTwo[4]
+CharParamThree[4]
+Flags<u32>
 
 BUILD 2.0.3.6299-2.0.6.6337
 $id$ID<32>
-kitType<32>
-animID<u32>
-headEffect<32>
-chestEffect<32>
-baseEffect<32>
-leftHandEffect<32>
-rightHandEffect<32>
-breathEffect<32>
-leftWeaponEffect<32>
-rightWeaponEffect<32>
-specialEffect<32>[3]
-worldEffect<32>
-soundID<u32>
-shakeID<u32>
-charProc<32>[4]
-charParamZero[4]
-charParamOne[4]
-charParamTwo[4]
-charParamThree[4]
+KitType<32>
+AnimID<u32>
+HeadEffect<32>
+ChestEffect<32>
+BaseEffect<32>
+LeftHandEffect<32>
+RightHandEffect<32>
+BreathEffect<32>
+LeftWeaponEffect<32>
+RightWeaponEffect<32>
+SpecialEffect<32>[3]
+WorldEffect<32>
+SoundID<u32>
+ShakeID<u32>
+CharProc<32>[4]
+CharParamZero[4]
+CharParamOne[4]
+CharParamTwo[4]
+CharParamThree[4]
 
 BUILD 0.8.0.3734-2.0.3.6282
 $id$ID<32>
-kitType<32>
-animID<u32>
-headEffect<32>
-chestEffect<32>
-baseEffect<32>
-leftHandEffect<32>
-rightHandEffect<32>
-breathEffect<32>
-specialEffect<32>[3]
-worldEffect<32>
-soundID<u32>
-shakeID<u32>
-charProc<32>[4]
-charParamZero[4]
-charParamOne[4]
-charParamTwo[4]
-charParamThree[4]
+KitType<32>
+AnimID<u32>
+HeadEffect<32>
+ChestEffect<32>
+BaseEffect<32>
+LeftHandEffect<32>
+RightHandEffect<32>
+BreathEffect<32>
+SpecialEffect<32>[3]
+WorldEffect<32>
+SoundID<u32>
+ShakeID<u32>
+CharProc<32>[4]
+CharParamZero[4]
+CharParamOne[4]
+CharParamTwo[4]
+CharParamThree[4]
 
 BUILD 0.7.0.3694-0.7.6.3712
 $id$ID<32>
-kitType<32>
-animID<u32>
-headEffect<32>
-chestEffect<32>
-baseEffect<32>
-leftHandEffect<32>
-rightHandEffect<32>
-breathEffect<32>
-specialEffect<32>[3]
-soundID<u32>
-shakeID<u32>
-charProc<32>[4]
-charParamZero[4]
-charParamOne[4]
-charParamTwo[4]
-charParamThree[4]
+KitType<32>
+AnimID<u32>
+HeadEffect<32>
+ChestEffect<32>
+BaseEffect<32>
+LeftHandEffect<32>
+RightHandEffect<32>
+BreathEffect<32>
+SpecialEffect<32>[3]
+SoundID<u32>
+ShakeID<u32>
+CharProc<32>[4]
+CharParamZero[4]
+CharParamOne[4]
+CharParamTwo[4]
+CharParamThree[4]
 
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
-kitType<32>
-anim<32>
-headEffect<32>
-chestEffect<32>
-baseEffect<32>
-leftHandEffect<32>
-rightHandEffect<32>
-breathEffect<32>
-specialEffect<32>[3]
-characterProcedure<32>
-characterParam[4]
-soundID<u32>
-shakeID<u32>
+KitType<32>
+Anim<32>
+HeadEffect<32>
+ChestEffect<32>
+BaseEffect<32>
+LeftHandEffect<32>
+RightHandEffect<32>
+BreathEffect<32>
+SpecialEffect<32>[3]
+CharacterProcedure<32>
+CharacterParam[4]
+SoundID<u32>
+ShakeID<u32>

@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-int facingCasterFlags
-int<Faction::ID> minFactionID
-int minReputation
-int<AreaGroup::ID> requiredAreasID
-int requiredAuraVision
-int requiresSpellFocus
+int FacingCasterFlags
+int<Faction::ID> MinFactionID
+int MinReputation
+int<AreaGroup::ID> RequiredAreasID
+int RequiredAuraVision
+int RequiresSpellFocus
 
 BUILD 4.0.0.12232-6.2.4.21742
 $id$ID<32>
-facingCasterFlags<u32>
-minFactionID<u32>
-minReputation<32>
-requiredAreasID<u32>
-requiredAuraVision<32>
-requiresSpellFocus<32>
+FacingCasterFlags<u32>
+MinFactionID<u32>
+MinReputation<32>
+RequiredAreasID<u32>
+RequiredAuraVision<32>
+RequiresSpellFocus<32>

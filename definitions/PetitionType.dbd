@@ -1,9 +1,9 @@
 COLUMNS
 int ID?
-string name?
-int type? // 1 - guild, 3 - arena team
+string Name?
+int Type? // 1 - guild, 3 - arena team
 
 BUILD 2.0.0.5610-4.2.0.14316
 $id$ID<32>
-name
-type<32>
+Name
+Type<32>

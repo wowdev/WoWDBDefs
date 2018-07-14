@@ -1,28 +1,28 @@
 COLUMNS
 int ID
-int enemies
-int friend
-int<Faction::ID> faction
-int factionGroup
-int friendGroup
-int enemyGroup
-int flags
+int Enemies
+int Friend
+int<Faction::ID> Faction
+int FactionGroup
+int FriendGroup
+int EnemyGroup
+int Flags
 
 BUILD 0.5.3.3368-0.11.0.3925
 $id$ID<32>
-faction<32>
-factionGroup<32>
-friendGroup<32>
-enemyGroup<32>
-enemies<32>[4]
-friend<32>[4]
+Faction<32>
+FactionGroup<32>
+FriendGroup<32>
+EnemyGroup<32>
+Enemies<32>[4]
+Friend<32>[4]
 
 BUILD 0.12.0.3988-6.2.4.21742
 $id$ID<32>
-faction<32>
-flags<u32>
-factionGroup<32>
-friendGroup<32>
-enemyGroup<32>
-enemies<32>[4]
-friend<32>[4]
+Faction<32>
+Flags<u32>
+FactionGroup<32>
+FriendGroup<32>
+EnemyGroup<32>
+Enemies<32>[4]
+Friend<32>[4]

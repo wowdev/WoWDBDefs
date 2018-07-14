@@ -1,21 +1,21 @@
 COLUMNS
-int field_1057587075?
+int Field_1057587075?
 int ID
-int<BattlePetAbility::ID> abilityID
-int<BattlePetVisual::ID> visualID
-int duration
-int hasEffect
-int effect
+int<BattlePetAbility::ID> AbilityID
+int<BattlePetVisual::ID> VisualID
+int Duration
+int HasEffect
+int Effect
 
 BUILD 5.0.1.15544-5.4.8.18414
 $id$ID<32>
-abilityID<u32>
-visualID<u32>
-duration<32>
-hasEffect<32>
-effect<32>
+AbilityID<u32>
+VisualID<u32>
+Duration<32>
+HasEffect<32>
+Effect<32>
 
 BUILD 5.0.1.15464-5.0.1.15508
 $id$ID<32>
-abilityID<u32>
-field_1057587075<32>
+AbilityID<u32>
+Field_1057587075<32>

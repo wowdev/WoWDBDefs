@@ -1,22 +1,22 @@
 COLUMNS
 int ID
-float coefficient
-float variance
-float resourceCoefficient
-int spellEffectID
-float field_2013132642?
+float Coefficient
+float Variance
+float ResourceCoefficient
+int SpellEffectID
+float Field_2013132642?
 
 BUILD 5.0.1.15464-5.3.0.17116
 $id$ID<32>
-coefficient
-variance
-resourceCoefficient
-spellEffectID<u32>
+Coefficient
+Variance
+ResourceCoefficient
+SpellEffectID<u32>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-coefficient
-variance
-resourceCoefficient
-field_2013132642
-spellEffectID<u32>
+Coefficient
+Variance
+ResourceCoefficient
+Field_2013132642
+SpellEffectID<u32>

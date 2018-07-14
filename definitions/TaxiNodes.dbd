@@ -1,43 +1,43 @@
 COLUMNS
 int ID
-float pos
-int conditionID
-int<Map::ID> continentID
-locstring name_lang
-int mountCreatureID
-int flags
-float mapOffset
+float Pos
+int ConditionID
+int<Map::ID> ContinentID
+locstring Name_lang
+int MountCreatureID
+int Flags
+float MapOffset
 
 BUILD 5.2.0.16669-6.0.1.18179
 $id$ID<32>
-continentID<u32>
-pos[3]
-name_lang
-mountCreatureID<u32>[2]
-conditionID<u32>
-flags<u32>
-mapOffset[2]
+ContinentID<u32>
+Pos[3]
+Name_lang
+MountCreatureID<u32>[2]
+ConditionID<u32>
+Flags<u32>
+MapOffset[2]
 
 BUILD 4.1.0.13914-5.2.0.16650
 $id$ID<32>
-continentID<u32>
-pos[3]
-name_lang
-mountCreatureID<u32>[2]
-flags<u32>
-mapOffset[2]
+ContinentID<u32>
+Pos[3]
+Name_lang
+MountCreatureID<u32>[2]
+Flags<u32>
+MapOffset[2]
 
 BUILD 1.11.0.5344-2.0.0.5965
 BUILD 2.0.0.6022-4.1.0.13875
 $id$ID<32>
-continentID<u32>
-pos[3]
-name_lang
-mountCreatureID<u32>[2]
+ContinentID<u32>
+Pos[3]
+Name_lang
+MountCreatureID<u32>[2]
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368-1.10.2.5302
 $id$ID<32>
-continentID<u32>
-pos[3]
-name_lang
+ContinentID<u32>
+Pos[3]
+Name_lang

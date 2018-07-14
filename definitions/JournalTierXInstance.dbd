@@ -1,13 +1,13 @@
 COLUMNS
 int ID?
-int<JournalTier::ID> journalTierID
-int<JournalInstance::ID> journalInstanceID
+int<JournalTier::ID> JournalTierID
+int<JournalInstance::ID> JournalInstanceID
 
 BUILD 5.0.1.15464-5.3.0.17116
 $id$ID<32>
-journalTierID<u32>
-journalInstanceID<u32>
+JournalTierID<u32>
+JournalInstanceID<u32>
 
 BUILD 5.4.0.17266-5.4.8.18414
-journalTierID<u32>
-journalInstanceID<u32>
+JournalTierID<u32>
+JournalInstanceID<u32>

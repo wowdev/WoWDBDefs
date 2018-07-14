@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-locstring name_lang
-int flags
-int fizzleSoundID
+locstring Name_lang
+int Flags
+int FizzleSoundID
 
 BUILD 0.5.3.3368-5.4.8.18414
 $id$ID<32>
-flags<u32>
-fizzleSoundID<u32>
-name_lang
+Flags<u32>
+FizzleSoundID<u32>
+Name_lang

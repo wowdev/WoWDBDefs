@@ -1,213 +1,213 @@
 COLUMNS
 int ID
-int<SoundEntries::ID> soundExertionID
-int<SoundEntries::ID> soundExertionCriticalID
-int<SoundEntries::ID> soundInjuryID
-int<SoundEntries::ID> soundInjuryCriticalID
-int<SoundEntries::ID> soundInjuryCrushingBlowID
-int<SoundEntries::ID> soundDeathID
-int<SoundEntries::ID> soundStunID
-int<SoundEntries::ID> soundStandID
-int<FootstepTerrainLookup::creatureFootstepID> soundFootstepID
-int<SoundEntries::ID> soundAggroID
-int<SoundEntries::ID> soundWingFlapID
-int<SoundEntries::ID> soundWingGlideID
-int<SoundEntries::ID> soundAlertID
-int<SoundEntries::ID> soundFidget
-int<SoundEntries::ID> customAttack
-int<SoundEntries::ID> loopSoundID
-int creatureImpactType
-int<SoundEntries::ID> soundJumpStartID
-int<SoundEntries::ID> soundJumpEndID
-int<SoundEntries::ID> soundPetAttackID
-int<SoundEntries::ID> soundPetOrderID
-int<SoundEntries::ID> soundPetDismissID
-float fidgetDelaySecondsMin
-float fidgetDelaySecondsMax
-int<SoundEntries::ID> birthSoundID
-int<SoundEntries::ID> spellCastDirectedSoundID
-int<SoundEntries::ID> submergeSoundID
-int<SoundEntries::ID> submergedSoundID
-int<CreatureSoundData::ID> creatureSoundDataIDPet
-int<SoundEntries::ID> transformSoundID
-int<SoundEntries::ID> transformAnimatedSoundID
+int<SoundEntries::ID> SoundExertionID
+int<SoundEntries::ID> SoundExertionCriticalID
+int<SoundEntries::ID> SoundInjuryID
+int<SoundEntries::ID> SoundInjuryCriticalID
+int<SoundEntries::ID> SoundInjuryCrushingBlowID
+int<SoundEntries::ID> SoundDeathID
+int<SoundEntries::ID> SoundStunID
+int<SoundEntries::ID> SoundStandID
+int<FootstepTerrainLookup::CreatureFootstepID> SoundFootstepID
+int<SoundEntries::ID> SoundAggroID
+int<SoundEntries::ID> SoundWingFlapID
+int<SoundEntries::ID> SoundWingGlideID
+int<SoundEntries::ID> SoundAlertID
+int<SoundEntries::ID> SoundFidget
+int<SoundEntries::ID> CustomAttack
+int<SoundEntries::ID> LoopSoundID
+int CreatureImpactType
+int<SoundEntries::ID> SoundJumpStartID
+int<SoundEntries::ID> SoundJumpEndID
+int<SoundEntries::ID> SoundPetAttackID
+int<SoundEntries::ID> SoundPetOrderID
+int<SoundEntries::ID> SoundPetDismissID
+float FidgetDelaySecondsMin
+float FidgetDelaySecondsMax
+int<SoundEntries::ID> BirthSoundID
+int<SoundEntries::ID> SpellCastDirectedSoundID
+int<SoundEntries::ID> SubmergeSoundID
+int<SoundEntries::ID> SubmergedSoundID
+int<CreatureSoundData::ID> CreatureSoundDataIDPet
+int<SoundEntries::ID> TransformSoundID
+int<SoundEntries::ID> TransformAnimatedSoundID
 int<SoundEntries::ID> NPCSoundID
 
 BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>
-soundExertionID<u32>
-soundExertionCriticalID<u32>
-soundInjuryID<u32>
-soundInjuryCriticalID<u32>
-soundInjuryCrushingBlowID<u32>
-soundDeathID<u32>
-soundStunID<u32>
-soundStandID<u32>
-soundFootstepID<u32>
-soundAggroID<u32>
-soundWingFlapID<u32>
-soundWingGlideID<u32>
-soundAlertID<u32>
-soundFidget<32>[5]
-customAttack<32>[4]
+SoundExertionID<u32>
+SoundExertionCriticalID<u32>
+SoundInjuryID<u32>
+SoundInjuryCriticalID<u32>
+SoundInjuryCrushingBlowID<u32>
+SoundDeathID<u32>
+SoundStunID<u32>
+SoundStandID<u32>
+SoundFootstepID<u32>
+SoundAggroID<u32>
+SoundWingFlapID<u32>
+SoundWingGlideID<u32>
+SoundAlertID<u32>
+SoundFidget<32>[5]
+CustomAttack<32>[4]
 NPCSoundID<u32>
-loopSoundID<u32>
-creatureImpactType<32>
-soundJumpStartID<u32>
-soundJumpEndID<u32>
-soundPetAttackID<u32>
-soundPetOrderID<u32>
-soundPetDismissID<u32>
-fidgetDelaySecondsMin
-fidgetDelaySecondsMax
-birthSoundID<u32>
-spellCastDirectedSoundID<u32>
-submergeSoundID<u32>
-submergedSoundID<u32>
-creatureSoundDataIDPet<32>
-transformSoundID<u32>
-transformAnimatedSoundID<u32>
+LoopSoundID<u32>
+CreatureImpactType<32>
+SoundJumpStartID<u32>
+SoundJumpEndID<u32>
+SoundPetAttackID<u32>
+SoundPetOrderID<u32>
+SoundPetDismissID<u32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
+BirthSoundID<u32>
+SpellCastDirectedSoundID<u32>
+SubmergeSoundID<u32>
+SubmergedSoundID<u32>
+CreatureSoundDataIDPet<32>
+TransformSoundID<u32>
+TransformAnimatedSoundID<u32>
 
 BUILD 3.1.0.9767-3.3.5.12340
 $id$ID<32>
-soundExertionID<u32>
-soundExertionCriticalID<u32>
-soundInjuryID<u32>
-soundInjuryCriticalID<u32>
-soundInjuryCrushingBlowID<u32>
-soundDeathID<u32>
-soundStunID<u32>
-soundStandID<u32>
-soundFootstepID<u32>
-soundAggroID<u32>
-soundWingFlapID<u32>
-soundWingGlideID<u32>
-soundAlertID<u32>
-soundFidget<32>[5]
-customAttack<32>[4]
+SoundExertionID<u32>
+SoundExertionCriticalID<u32>
+SoundInjuryID<u32>
+SoundInjuryCriticalID<u32>
+SoundInjuryCrushingBlowID<u32>
+SoundDeathID<u32>
+SoundStunID<u32>
+SoundStandID<u32>
+SoundFootstepID<u32>
+SoundAggroID<u32>
+SoundWingFlapID<u32>
+SoundWingGlideID<u32>
+SoundAlertID<u32>
+SoundFidget<32>[5]
+CustomAttack<32>[4]
 NPCSoundID<u32>
-loopSoundID<u32>
-creatureImpactType<32>
-soundJumpStartID<u32>
-soundJumpEndID<u32>
-soundPetAttackID<u32>
-soundPetOrderID<u32>
-soundPetDismissID<u32>
-fidgetDelaySecondsMin
-fidgetDelaySecondsMax
-birthSoundID<u32>
-spellCastDirectedSoundID<u32>
-submergeSoundID<u32>
-submergedSoundID<u32>
-creatureSoundDataIDPet<32>
+LoopSoundID<u32>
+CreatureImpactType<32>
+SoundJumpStartID<u32>
+SoundJumpEndID<u32>
+SoundPetAttackID<u32>
+SoundPetOrderID<u32>
+SoundPetDismissID<u32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
+BirthSoundID<u32>
+SpellCastDirectedSoundID<u32>
+SubmergeSoundID<u32>
+SubmergedSoundID<u32>
+CreatureSoundDataIDPet<32>
 
 BUILD 2.1.0.6692-3.0.9.9551
 $id$ID<32>
-soundExertionID<u32>
-soundExertionCriticalID<u32>
-soundInjuryID<u32>
-soundInjuryCriticalID<u32>
-soundInjuryCrushingBlowID<u32>
-soundDeathID<u32>
-soundStunID<u32>
-soundStandID<u32>
-soundFootstepID<u32>
-soundAggroID<u32>
-soundWingFlapID<u32>
-soundWingGlideID<u32>
-soundAlertID<u32>
-soundFidget<32>[5]
-customAttack<32>[4]
+SoundExertionID<u32>
+SoundExertionCriticalID<u32>
+SoundInjuryID<u32>
+SoundInjuryCriticalID<u32>
+SoundInjuryCrushingBlowID<u32>
+SoundDeathID<u32>
+SoundStunID<u32>
+SoundStandID<u32>
+SoundFootstepID<u32>
+SoundAggroID<u32>
+SoundWingFlapID<u32>
+SoundWingGlideID<u32>
+SoundAlertID<u32>
+SoundFidget<32>[5]
+CustomAttack<32>[4]
 NPCSoundID<u32>
-loopSoundID<u32>
-creatureImpactType<32>
-soundJumpStartID<u32>
-soundJumpEndID<u32>
-soundPetAttackID<u32>
-soundPetOrderID<u32>
-soundPetDismissID<u32>
-fidgetDelaySecondsMin
-fidgetDelaySecondsMax
-birthSoundID<u32>
-spellCastDirectedSoundID<u32>
-submergeSoundID<u32>
-submergedSoundID<u32>
+LoopSoundID<u32>
+CreatureImpactType<32>
+SoundJumpStartID<u32>
+SoundJumpEndID<u32>
+SoundPetAttackID<u32>
+SoundPetOrderID<u32>
+SoundPetDismissID<u32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
+BirthSoundID<u32>
+SpellCastDirectedSoundID<u32>
+SubmergeSoundID<u32>
+SubmergedSoundID<u32>
 
 BUILD 2.0.3.6299-2.0.6.6337
 $id$ID<32>
-soundExertionID<u32>
-soundExertionCriticalID<u32>
-soundInjuryID<u32>
-soundInjuryCriticalID<u32>
-soundInjuryCrushingBlowID<u32>
-soundDeathID<u32>
-soundStunID<u32>
-soundStandID<u32>
-soundFootstepID<u32>
-soundAggroID<u32>
-soundWingFlapID<u32>
-soundWingGlideID<u32>
-soundAlertID<u32>
-soundFidget<32>[5]
-customAttack<32>[4]
+SoundExertionID<u32>
+SoundExertionCriticalID<u32>
+SoundInjuryID<u32>
+SoundInjuryCriticalID<u32>
+SoundInjuryCrushingBlowID<u32>
+SoundDeathID<u32>
+SoundStunID<u32>
+SoundStandID<u32>
+SoundFootstepID<u32>
+SoundAggroID<u32>
+SoundWingFlapID<u32>
+SoundWingGlideID<u32>
+SoundAlertID<u32>
+SoundFidget<32>[5]
+CustomAttack<32>[4]
 NPCSoundID<u32>
-loopSoundID<u32>
-creatureImpactType<32>
-soundJumpStartID<u32>
-soundJumpEndID<u32>
-soundPetAttackID<u32>
-soundPetOrderID<u32>
-soundPetDismissID<u32>
-fidgetDelaySecondsMin
-fidgetDelaySecondsMax
+LoopSoundID<u32>
+CreatureImpactType<32>
+SoundJumpStartID<u32>
+SoundJumpEndID<u32>
+SoundPetAttackID<u32>
+SoundPetOrderID<u32>
+SoundPetDismissID<u32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
 
 BUILD 1.11.0.5344-2.0.0.5965
 BUILD 2.0.0.6022-2.0.0.6080
 $id$ID<32>
-soundExertionID<u32>
-soundExertionCriticalID<u32>
-soundInjuryID<u32>
-soundInjuryCriticalID<u32>
-soundInjuryCrushingBlowID<u32>
-soundDeathID<u32>
-soundStunID<u32>
-soundStandID<u32>
-soundFootstepID<u32>
-soundAggroID<u32>
-soundWingFlapID<u32>
-soundWingGlideID<u32>
-soundAlertID<u32>
-soundFidget<32>[4]
-customAttack<32>[4]
+SoundExertionID<u32>
+SoundExertionCriticalID<u32>
+SoundInjuryID<u32>
+SoundInjuryCriticalID<u32>
+SoundInjuryCrushingBlowID<u32>
+SoundDeathID<u32>
+SoundStunID<u32>
+SoundStandID<u32>
+SoundFootstepID<u32>
+SoundAggroID<u32>
+SoundWingFlapID<u32>
+SoundWingGlideID<u32>
+SoundAlertID<u32>
+SoundFidget<32>[4]
+CustomAttack<32>[4]
 NPCSoundID<u32>
-loopSoundID<u32>
-creatureImpactType<32>
-soundJumpStartID<u32>
-soundJumpEndID<u32>
-soundPetAttackID<u32>
-soundPetOrderID<u32>
-soundPetDismissID<u32>
+LoopSoundID<u32>
+CreatureImpactType<32>
+SoundJumpStartID<u32>
+SoundJumpEndID<u32>
+SoundPetAttackID<u32>
+SoundPetOrderID<u32>
+SoundPetDismissID<u32>
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368-1.10.2.5302
 $id$ID<32>
-soundExertionID<u32>
-soundExertionCriticalID<u32>
-soundInjuryID<u32>
-soundInjuryCriticalID<u32>
-soundInjuryCrushingBlowID<u32>
-soundDeathID<u32>
-soundStunID<u32>
-soundStandID<u32>
-soundFootstepID<u32>
-soundAggroID<u32>
-soundWingFlapID<u32>
-soundWingGlideID<u32>
-soundAlertID<u32>
-soundFidget<32>[4]
-customAttack<32>[4]
+SoundExertionID<u32>
+SoundExertionCriticalID<u32>
+SoundInjuryID<u32>
+SoundInjuryCriticalID<u32>
+SoundInjuryCrushingBlowID<u32>
+SoundDeathID<u32>
+SoundStunID<u32>
+SoundStandID<u32>
+SoundFootstepID<u32>
+SoundAggroID<u32>
+SoundWingFlapID<u32>
+SoundWingGlideID<u32>
+SoundAlertID<u32>
+SoundFidget<32>[4]
+CustomAttack<32>[4]
 NPCSoundID<u32>
-loopSoundID<u32>
-creatureImpactType<32>
-soundJumpStartID<u32>
-soundJumpEndID<u32>
+LoopSoundID<u32>
+CreatureImpactType<32>
+SoundJumpStartID<u32>
+SoundJumpEndID<u32>

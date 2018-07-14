@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int skillCostsID
-int cost
+int SkillCostsID
+int Cost
 
 BUILD 0.6.0.3592-4.0.0.12319
 $id$ID<32>
-skillCostsID<u32>
-cost<32>[3]
+SkillCostsID<u32>
+Cost<32>[3]

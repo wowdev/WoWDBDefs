@@ -1,9 +1,9 @@
 COLUMNS
 int ID?
-int worldStateId?
-int cemeteryId?
+int WorldStateID?
+int CemeteryID?
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
-worldStateId<32>
-cemeteryId<32>
+WorldStateID<32>
+CemeteryID<32>

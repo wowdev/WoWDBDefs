@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-locstring stateName_lang
-int state? // state effect procedure?
+locstring StateName_lang
+int State? // state effect procedure?
 
 BUILD 1.8.0.4714-6.2.4.21742
 $id$ID<32>
-stateName_lang
+StateName_lang
 
 BUILD 1.1.2.4125-1.7.1.4695
 $id$ID<32>
-state<32>
+State<32>

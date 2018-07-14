@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-int<SceneScriptPackage::ID> sceneScriptPackageID
-int<SceneScript::ID> sceneScriptID
-int index
-int executeSceneScriptID
+int<SceneScriptPackage::ID> SceneScriptPackageID
+int<SceneScript::ID> SceneScriptID
+int Index
+int ExecuteSceneScriptID
 
 BUILD 5.0.1.15464
 $id$ID<32>
-sceneScriptPackageID<u32>
-sceneScriptID<u32>
-index<32>
+SceneScriptPackageID<u32>
+SceneScriptID<u32>
+Index<32>
 
 BUILD 5.0.1.15508-5.4.8.18414
 $id$ID<32>
-sceneScriptPackageID<u32>
-sceneScriptID<u32>
-index<32>
-executeSceneScriptID<u32>
+SceneScriptPackageID<u32>
+SceneScriptID<u32>
+Index<32>
+ExecuteSceneScriptID<u32>

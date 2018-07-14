@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int cost
-int value
+int Cost
+int Value
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-value<32>[16]
+Value<32>[16]
 
 BUILD 0.6.0.3592-4.3.4.15595
 $id$ID<32>
-cost<32>[16]
-value<32>[16]
+Cost<32>[16]
+Value<32>[16]

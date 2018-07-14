@@ -1,25 +1,25 @@
 COLUMNS
 int ID
-string terrainDesc
-int footstepSprayRun
-int footstepSprayWalk
-int<SoundEntries::ID> soundID
-int flags
-int terrainID
+string TerrainDesc
+int FootstepSprayRun
+int FootstepSprayWalk
+int<SoundEntries::ID> SoundID
+int Flags
+int TerrainID
 
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
-terrainID<u32>
-terrainDesc
-footstepSprayRun<32>
-footstepSprayWalk<32>
-soundID<u32>
-flags<u32>
+TerrainID<u32>
+TerrainDesc
+FootstepSprayRun<32>
+FootstepSprayWalk<32>
+SoundID<u32>
+Flags<u32>
 
 BUILD 0.5.3.3368-3.3.5.12340
-terrainID<u32>
-terrainDesc
-footstepSprayRun<32>
-footstepSprayWalk<32>
-soundID<u32>
-flags<u32>
+TerrainID<u32>
+TerrainDesc
+FootstepSprayRun<32>
+FootstepSprayWalk<32>
+SoundID<u32>
+Flags<u32>

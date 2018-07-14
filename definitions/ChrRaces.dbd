@@ -1,373 +1,373 @@
 COLUMNS
 int ID
-int flags
-int<FactionTemplate::ID> factionID
-int<CreatureType::ID> creatureType
-string clientFileString
-int<CinematicSequences::ID> cinematicSequenceID
-int alliance
-locstring name_lang
-locstring name_female_lang
-locstring name_male_lang
-string facialHairCustomization
-string hairCustomization
-int race_related
-int<ChrRaces::ID> unalteredVisualRaceID
-int<CreatureSoundData::ID> uaMaleCreatureSoundDataID
-int<CreatureSoundData::ID> uaFemaleCreatureSoundDataID
-int<CharComponentTextureLayouts::ID> charComponentTextureLayoutID
-int<ChrClasses::ID> defaultClassID
-int<FileData::ID> createScreenFileDataID
-int<FileData::ID> selectScreenFileDataID
-float maleCustomizeOffset
-float femaleCustomizeOffset
-int<ChrRaces::ID> neutralRaceID
-int<FileData::ID> lowResScreenFileDataID
-int<SoundEntries::ID> explorationSoundID
-int<CreatureDisplayInfo::ID> maleDisplayID
-int<CreatureDisplayInfo::ID> femaleDisplayID
-string clientPrefix
-int<Languages::ID> baseLanguage
-int<Spell::ID> resSicknessSpellID
-int<SoundEntries::ID> splashSoundID
-int required_expansion
-float mountScale
-int<Spell::ID> loginEffectSpellID
-int<Spell::ID> combatStunSpellID
-int startingTaxiNodes
+int Flags
+int<FactionTemplate::ID> FactionID
+int<CreatureType::ID> CreatureType
+string ClientFileString
+int<CinematicSequences::ID> CinematicSequenceID
+int Alliance
+locstring Name_lang
+locstring Name_female_lang
+locstring Name_male_lang
+string FacialHairCustomization
+string HairCustomization
+int Race_related
+int<ChrRaces::ID> UnalteredVisualRaceID
+int<CreatureSoundData::ID> UaMaleCreatureSoundDataID
+int<CreatureSoundData::ID> UaFemaleCreatureSoundDataID
+int<CharComponentTextureLayouts::ID> CharComponentTextureLayoutID
+int<ChrClasses::ID> DefaultClassID
+int<FileData::ID> CreateScreenFileDataID
+int<FileData::ID> SelectScreenFileDataID
+float MaleCustomizeOffset
+float FemaleCustomizeOffset
+int<ChrRaces::ID> NeutralRaceID
+int<FileData::ID> LowResScreenFileDataID
+int<SoundEntries::ID> ExplorationSoundID
+int<CreatureDisplayInfo::ID> MaleDisplayID
+int<CreatureDisplayInfo::ID> FemaleDisplayID
+string ClientPrefix
+int<Languages::ID> BaseLanguage
+int<Spell::ID> ResSicknessSpellID
+int<SoundEntries::ID> SplashSoundID
+int Required_expansion
+float MountScale
+int<Spell::ID> LoginEffectSpellID
+int<Spell::ID> CombatStunSpellID
+int StartingTaxiNodes
 
 BUILD 5.0.2.15827-5.4.8.18414
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-alliance<32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-race_related<32>
-unalteredVisualRaceID<u32>
-uaMaleCreatureSoundDataID<u32>
-uaFemaleCreatureSoundDataID<u32>
-charComponentTextureLayoutID<u32>
-defaultClassID<u32>
-createScreenFileDataID<u32>
-selectScreenFileDataID<u32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-neutralRaceID<u32>
-lowResScreenFileDataID<u32>
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Alliance<32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Race_related<32>
+UnalteredVisualRaceID<u32>
+UaMaleCreatureSoundDataID<u32>
+UaFemaleCreatureSoundDataID<u32>
+CharComponentTextureLayoutID<u32>
+DefaultClassID<u32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+NeutralRaceID<u32>
+LowResScreenFileDataID<u32>
 
 BUILD 5.0.1.15726-5.0.1.15799
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-alliance<32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-race_related<32>
-unalteredVisualRaceID<u32>
-uaMaleCreatureSoundDataID<u32>
-uaFemaleCreatureSoundDataID<u32>
-charComponentTextureLayoutID<u32>
-defaultClassID<u32>
-createScreenFileDataID<u32>
-selectScreenFileDataID<u32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-neutralRaceID<u32>
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Alliance<32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Race_related<32>
+UnalteredVisualRaceID<u32>
+UaMaleCreatureSoundDataID<u32>
+UaFemaleCreatureSoundDataID<u32>
+CharComponentTextureLayoutID<u32>
+DefaultClassID<u32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+NeutralRaceID<u32>
 
 BUILD 5.0.1.15668-5.0.1.15699
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-alliance<32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-race_related<32>
-unalteredVisualRaceID<u32>
-uaMaleCreatureSoundDataID<u32>
-uaFemaleCreatureSoundDataID<u32>
-charComponentTextureLayoutID<u32>
-createScreenFileDataID<u32>
-selectScreenFileDataID<u32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-neutralRaceID<u32>
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Alliance<32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Race_related<32>
+UnalteredVisualRaceID<u32>
+UaMaleCreatureSoundDataID<u32>
+UaFemaleCreatureSoundDataID<u32>
+CharComponentTextureLayoutID<u32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+NeutralRaceID<u32>
 
 BUILD 5.0.1.15464-5.0.1.15662
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-alliance<32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-race_related<32>
-unalteredVisualRaceID<u32>
-uaMaleCreatureSoundDataID<u32>
-uaFemaleCreatureSoundDataID<u32>
-charComponentTextureLayoutID<u32>
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Alliance<32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Race_related<32>
+UnalteredVisualRaceID<u32>
+UaMaleCreatureSoundDataID<u32>
+UaFemaleCreatureSoundDataID<u32>
+CharComponentTextureLayoutID<u32>
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-alliance<32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-race_related<32>
-unalteredVisualRaceID<u32>
-uaMaleCreatureSoundDataID<u32>
-uaFemaleCreatureSoundDataID<u32>
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Alliance<32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Race_related<32>
+UnalteredVisualRaceID<u32>
+UaMaleCreatureSoundDataID<u32>
+UaFemaleCreatureSoundDataID<u32>
 
 BUILD 4.0.0.11927-4.0.0.12319
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-alliance<32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-required_expansion<32>
-unalteredVisualRaceID<u32>
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Alliance<32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Required_expansion<32>
+UnalteredVisualRaceID<u32>
 
 BUILD 3.2.2.10482-3.3.5.12340
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-alliance<32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-required_expansion<32>
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Alliance<32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Required_expansion<32>
 
 BUILD 3.2.0.10192-3.2.0.10314
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-required_expansion<32>
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Required_expansion<32>
 
 BUILD 2.4.0.8089-3.1.3.9947
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-mountScale
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-required_expansion<32>
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+MountScale
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Required_expansion<32>
 
 BUILD 2.0.0.6080-2.3.3.7799
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-mountScale
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-name_lang
-facialHairCustomization[2]
-hairCustomization
-required_expansion<32>
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+MountScale
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Name_lang
+FacialHairCustomization[2]
+HairCustomization
+Required_expansion<32>
 
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-mountScale
-baseLanguage<32>
-creatureType<32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-clientFileString
-cinematicSequenceID<u32>
-name_lang
-facialHairCustomization[2]
-hairCustomization
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+MountScale
+BaseLanguage<32>
+CreatureType<32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+ClientFileString
+CinematicSequenceID<u32>
+Name_lang
+FacialHairCustomization[2]
+HairCustomization
 
 BUILD 2.0.0.5991
 BUILD 0.10.0.3892-1.12.2.6005
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-mountScale
-baseLanguage<32>
-creatureType<32>
-loginEffectSpellID<u32>
-combatStunSpellID<u32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-startingTaxiNodes<32>
-clientFileString
-cinematicSequenceID<u32>
-name_lang
-facialHairCustomization[2]
-hairCustomization
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+MountScale
+BaseLanguage<32>
+CreatureType<32>
+LoginEffectSpellID<u32>
+CombatStunSpellID<u32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+StartingTaxiNodes<32>
+ClientFileString
+CinematicSequenceID<u32>
+Name_lang
+FacialHairCustomization[2]
+HairCustomization
 
 BUILD 0.7.0.3694-0.9.1.3810
 $id$ID<32>
-flags<u32>
-factionID<u32>
-explorationSoundID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-mountScale
-baseLanguage<32>
-creatureType<32>
-loginEffectSpellID<u32>
-combatStunSpellID<u32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-startingTaxiNodes<32>
-clientFileString
-cinematicSequenceID<u32>
-name_lang
+Flags<u32>
+FactionID<u32>
+ExplorationSoundID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+MountScale
+BaseLanguage<32>
+CreatureType<32>
+LoginEffectSpellID<u32>
+CombatStunSpellID<u32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+StartingTaxiNodes<32>
+ClientFileString
+CinematicSequenceID<u32>
+Name_lang
 
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
-flags<u32>
-factionID<u32>
-maleDisplayID<u32>
-femaleDisplayID<u32>
-clientPrefix
-mountScale
-baseLanguage<32>
-creatureType<32>
-loginEffectSpellID<u32>
-combatStunSpellID<u32>
-resSicknessSpellID<u32>
-splashSoundID<u32>
-startingTaxiNodes<32>
-clientFileString
-cinematicSequenceID<u32>
-name_lang
+Flags<u32>
+FactionID<u32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+ClientPrefix
+MountScale
+BaseLanguage<32>
+CreatureType<32>
+LoginEffectSpellID<u32>
+CombatStunSpellID<u32>
+ResSicknessSpellID<u32>
+SplashSoundID<u32>
+StartingTaxiNodes<32>
+ClientFileString
+CinematicSequenceID<u32>
+Name_lang

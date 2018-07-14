@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-int<Spell::ID> spellID
-int<Difficulty::ID> difficultyID
-int auraInterruptFlags
-int channelInterruptFlags
-int interruptFlags
+int<Spell::ID> SpellID
+int<Difficulty::ID> DifficultyID
+int AuraInterruptFlags
+int ChannelInterruptFlags
+int InterruptFlags
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-spellID<u32>
-difficultyID<u32>
-auraInterruptFlags<u32>[2]
-channelInterruptFlags<u32>[2]
-interruptFlags<u32>
+SpellID<u32>
+DifficultyID<u32>
+AuraInterruptFlags<u32>[2]
+ChannelInterruptFlags<u32>[2]
+InterruptFlags<u32>
 
 BUILD 4.0.0.12232-5.0.1.15544
 $id$ID<32>
-auraInterruptFlags<u32>[2]
-channelInterruptFlags<u32>[2]
-interruptFlags<u32>
+AuraInterruptFlags<u32>[2]
+ChannelInterruptFlags<u32>[2]
+InterruptFlags<u32>

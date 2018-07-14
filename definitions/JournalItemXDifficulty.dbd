@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int<JournalEncounterItem::ID> journalEncounterItemID
-int<Difficulty::ID> difficultyID
+int<JournalEncounterItem::ID> JournalEncounterItemID
+int<Difficulty::ID> DifficultyID
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-journalEncounterItemID<u32>
-difficultyID<u32>
+JournalEncounterItemID<u32>
+DifficultyID<u32>

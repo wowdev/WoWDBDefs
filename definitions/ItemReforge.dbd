@@ -1,13 +1,13 @@
 COLUMNS
 int ID?
-int source_stat?
-float source_multiplier?
-int target_stat?
-float target_multiplier?
+int Source_stat?
+float Source_multiplier?
+int Target_stat?
+float Target_multiplier?
 
 BUILD 4.0.0.12025-5.4.8.18414
 $id$ID<32>
-source_stat<32>
-source_multiplier
-target_stat<32>
-target_multiplier
+Source_stat<32>
+Source_multiplier
+Target_stat<32>
+Target_multiplier

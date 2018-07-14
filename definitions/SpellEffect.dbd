@@ -1,122 +1,122 @@
 COLUMNS
 int ID
-int<Difficulty::ID> difficultyID
-int effect
-float effectAmplitude
-int effectAura
-int effectAuraPeriod
-int effectBasePoints
-float effectBonusCoefficient
-float effectChainAmplitude
-int effectChainTargets
-int effectDieSides
-int effectItemType
-int effectMechanic
-int effectMiscValue
-float effectPointsPerResource
-int effectRadiusIndex
-float effectRealPointsPerLevel
-int effectSpellClassMask
-int effectTriggerSpell
-float effectPos_facing
-int implicitTarget
-int<Spell::ID> spellID
-int effectIndex
-int effectAttributes
+int<Difficulty::ID> DifficultyID
+int Effect
+float EffectAmplitude
+int EffectAura
+int EffectAuraPeriod
+int EffectBasePoints
+float EffectBonusCoefficient
+float EffectChainAmplitude
+int EffectChainTargets
+int EffectDieSides
+int EffectItemType
+int EffectMechanic
+int EffectMiscValue
+float EffectPointsPerResource
+int EffectRadiusIndex
+float EffectRealPointsPerLevel
+int EffectSpellClassMask
+int EffectTriggerSpell
+float EffectPos_facing
+int ImplicitTarget
+int<Spell::ID> SpellID
+int EffectIndex
+int EffectAttributes
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-difficultyID<u32>
-effect<32>
-effectAmplitude
-effectAura<32>
-effectAuraPeriod<32>
-effectBasePoints<32>
-effectBonusCoefficient
-effectChainAmplitude
-effectChainTargets<32>
-effectDieSides<32>
-effectItemType<32>
-effectMechanic<32>
-effectMiscValue<32>[2]
-effectPointsPerResource
-effectRadiusIndex<32>[2]
-effectRealPointsPerLevel
-effectSpellClassMask<u32>[4]
-effectTriggerSpell<32>
-effectPos_facing
-implicitTarget<32>[2]
-spellID<u32>
-effectIndex<32>
-effectAttributes<32>
+DifficultyID<u32>
+Effect<32>
+EffectAmplitude
+EffectAura<32>
+EffectAuraPeriod<32>
+EffectBasePoints<32>
+EffectBonusCoefficient
+EffectChainAmplitude
+EffectChainTargets<32>
+EffectDieSides<32>
+EffectItemType<32>
+EffectMechanic<32>
+EffectMiscValue<32>[2]
+EffectPointsPerResource
+EffectRadiusIndex<32>[2]
+EffectRealPointsPerLevel
+EffectSpellClassMask<u32>[4]
+EffectTriggerSpell<32>
+EffectPos_facing
+ImplicitTarget<32>[2]
+SpellID<u32>
+EffectIndex<32>
+EffectAttributes<32>
 
 BUILD 5.0.1.15464-5.0.1.15544
 $id$ID<32>
-effect<32>
-effectAmplitude
-effectAura<32>
-effectAuraPeriod<32>
-effectBasePoints<32>
-effectBonusCoefficient
-effectChainAmplitude
-effectChainTargets<32>
-effectDieSides<32>
-effectItemType<32>
-effectMechanic<32>
-effectMiscValue<32>[2]
-effectPointsPerResource
-effectRadiusIndex<32>[2]
-effectRealPointsPerLevel
-effectSpellClassMask<u32>[4]
-effectTriggerSpell<32>
-implicitTarget<32>[2]
-spellID<u32>
-effectIndex<32>
-effectAttributes<32>
+Effect<32>
+EffectAmplitude
+EffectAura<32>
+EffectAuraPeriod<32>
+EffectBasePoints<32>
+EffectBonusCoefficient
+EffectChainAmplitude
+EffectChainTargets<32>
+EffectDieSides<32>
+EffectItemType<32>
+EffectMechanic<32>
+EffectMiscValue<32>[2]
+EffectPointsPerResource
+EffectRadiusIndex<32>[2]
+EffectRealPointsPerLevel
+EffectSpellClassMask<u32>[4]
+EffectTriggerSpell<32>
+ImplicitTarget<32>[2]
+SpellID<u32>
+EffectIndex<32>
+EffectAttributes<32>
 
 BUILD 4.2.0.14333-4.3.4.15595
 $id$ID<32>
-effect<32>
-effectAmplitude
-effectAura<32>
-effectAuraPeriod<32>
-effectBasePoints<32>
-effectBonusCoefficient
-effectChainAmplitude
-effectChainTargets<32>
-effectDieSides<32>
-effectItemType<32>
-effectMechanic<32>
-effectMiscValue<32>[2]
-effectPointsPerResource
-effectRadiusIndex<32>[2]
-effectRealPointsPerLevel
-effectSpellClassMask<u32>[3]
-effectTriggerSpell<32>
-implicitTarget<32>[2]
-spellID<u32>
-effectIndex<32>
-effectAttributes<32>
+Effect<32>
+EffectAmplitude
+EffectAura<32>
+EffectAuraPeriod<32>
+EffectBasePoints<32>
+EffectBonusCoefficient
+EffectChainAmplitude
+EffectChainTargets<32>
+EffectDieSides<32>
+EffectItemType<32>
+EffectMechanic<32>
+EffectMiscValue<32>[2]
+EffectPointsPerResource
+EffectRadiusIndex<32>[2]
+EffectRealPointsPerLevel
+EffectSpellClassMask<u32>[3]
+EffectTriggerSpell<32>
+ImplicitTarget<32>[2]
+SpellID<u32>
+EffectIndex<32>
+EffectAttributes<32>
 
 BUILD 4.0.0.12232-4.2.0.14316
 $id$ID<32>
-effect<32>
-effectAmplitude
-effectAura<32>
-effectAuraPeriod<32>
-effectBasePoints<32>
-effectBonusCoefficient
-effectChainAmplitude
-effectChainTargets<32>
-effectDieSides<32>
-effectItemType<32>
-effectMechanic<32>
-effectMiscValue<32>[2]
-effectPointsPerResource
-effectRadiusIndex<32>[2]
-effectRealPointsPerLevel
-effectSpellClassMask<u32>[3]
-effectTriggerSpell<32>
-implicitTarget<32>[2]
-spellID<u32>
-effectIndex<32>
+Effect<32>
+EffectAmplitude
+EffectAura<32>
+EffectAuraPeriod<32>
+EffectBasePoints<32>
+EffectBonusCoefficient
+EffectChainAmplitude
+EffectChainTargets<32>
+EffectDieSides<32>
+EffectItemType<32>
+EffectMechanic<32>
+EffectMiscValue<32>[2]
+EffectPointsPerResource
+EffectRadiusIndex<32>[2]
+EffectRealPointsPerLevel
+EffectSpellClassMask<u32>[3]
+EffectTriggerSpell<32>
+ImplicitTarget<32>[2]
+SpellID<u32>
+EffectIndex<32>

@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int oneShotDuration
-int<AnimKit::ID> oneShotStopAnimKitID
+int OneShotDuration
+int<AnimKit::ID> OneShotStopAnimKitID
 
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
-oneShotDuration<32>
-oneShotStopAnimKitID<u32>
+OneShotDuration<32>
+OneShotStopAnimKitID<u32>

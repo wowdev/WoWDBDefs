@@ -1,18 +1,18 @@
 COLUMNS
 int ID
-string name
-string content
-int firstSceneScript
-int nextSceneScript
+string Name
+string Content
+int FirstSceneScript
+int NextSceneScript
 
 BUILD 5.0.1.15464
 $id$ID<32>
-name
-content
+Name
+Content
 
 BUILD 5.0.1.15508-5.4.8.18414
 $id$ID<32>
-name
-content
-firstSceneScript<32>
-nextSceneScript<32>
+Name
+Content
+FirstSceneScript<32>
+NextSceneScript<32>

@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-int<JournalEncounter::ID> journalEncounterID
-int<CreatureDisplayInfo::ID> creatureDisplayInfoID
-int orderIndex
-int<FileData::ID> fileDataID
-locstring name_lang
-locstring description_lang
+int<JournalEncounter::ID> JournalEncounterID
+int<CreatureDisplayInfo::ID> CreatureDisplayInfoID
+int OrderIndex
+int<FileData::ID> FileDataID
+locstring Name_lang
+locstring Description_lang
 
 BUILD 4.2.0.14333-5.4.8.18414
 $id$ID<32>
-journalEncounterID<u32>
-creatureDisplayInfoID<u32>
-orderIndex<32>
-fileDataID<u32>
-name_lang
-description_lang
+JournalEncounterID<u32>
+CreatureDisplayInfoID<u32>
+OrderIndex<32>
+FileDataID<u32>
+Name_lang
+Description_lang

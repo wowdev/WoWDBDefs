@@ -1,16 +1,16 @@
 COLUMNS
 int ID
-int hasWideScreen
-string name
-string fileName
+int HasWideScreen
+string Name
+string FileName
 
 BUILD 0.9.0.3807-3.2.2.10505
 $id$ID<32>
-name
-fileName
+Name
+FileName
 
 BUILD 3.3.0.10958-6.2.4.21742
 $id$ID<32>
-name
-fileName
-hasWideScreen<32>
+Name
+FileName
+HasWideScreen<32>

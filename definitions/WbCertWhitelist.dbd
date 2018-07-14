@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-string domain
-int grantAccess
-int revokeAccess
-int wowEditInternal
-int padding_2996086065?
+string Domain
+int GrantAccess
+int RevokeAccess
+int WowEditInternal
+int Padding_2996086065?
 
 BUILD 5.3.0.16965-5.4.8.18414
 $id$ID<32>
-domain
-grantAccess<u8>
-revokeAccess<u8>
-padding_2996086065<u8>[2]
-wowEditInternal<32>
+Domain
+GrantAccess<u8>
+RevokeAccess<u8>
+Padding_2996086065<u8>[2]
+WowEditInternal<32>

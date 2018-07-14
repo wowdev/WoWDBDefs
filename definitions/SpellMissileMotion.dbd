@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-string name
-string scriptBody
-int flags
-int missileCount
+string Name
+string ScriptBody
+int Flags
+int MissileCount
 
 BUILD 2.0.3.6299-5.4.8.18273
 $id$ID<32>
-name
-scriptBody
-flags<u32>
-missileCount<32>
+Name
+ScriptBody
+Flags<u32>
+MissileCount<32>

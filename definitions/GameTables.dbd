@@ -1,16 +1,16 @@
 COLUMNS
-string name
-int numRows
-int numColumns
+string Name
+int NumRows
+int NumColumns
 int ID
 
 BUILD 4.0.0.11792-5.4.8.18414
 $id$ID<32>
-name
-numRows<32>
-numColumns<32>
+Name
+NumRows<32>
+NumColumns<32>
 
 BUILD 2.0.0.5991-3.3.5.12340
-name
-numRows<32>
-numColumns<32>
+Name
+NumRows<32>
+NumColumns<32>

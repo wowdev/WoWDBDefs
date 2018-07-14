@@ -1,46 +1,46 @@
 COLUMNS
 int ID
-int npcID?
-int iconID?
-int<Spell::ID> spellID?
-int<CreatureFamily::ID> familyID?
-int flags
-locstring source_Lang?
-locstring description_Lang?
-int source?
+int NpcID?
+int IconID?
+int<Spell::ID> SpellID?
+int<CreatureFamily::ID> FamilyID?
+int Flags
+locstring Source_Lang_lang?
+locstring Description_Lang_lang?
+int Source?
 
 BUILD 5.0.1.15464
 $id$ID<32>
-npcID<32>
-iconID<32>
-spellID<32>
-familyID<32>
+NpcID<32>
+IconID<32>
+SpellID<32>
+FamilyID<32>
 
 BUILD 5.0.1.15508-5.0.1.15589
 $id$ID<32>
-npcID<32>
-iconID<32>
-spellID<32>
-familyID<32>
-flags<u32>
+NpcID<32>
+IconID<32>
+SpellID<32>
+FamilyID<32>
+Flags<u32>
 
 BUILD 5.0.1.15640-5.0.1.15689
 $id$ID<32>
-npcID<32>
-iconID<32>
-spellID<32>
-familyID<32>
-flags<u32>
-source_Lang
-description_Lang
+NpcID<32>
+IconID<32>
+SpellID<32>
+FamilyID<32>
+Flags<u32>
+Source_Lang_lang
+Description_Lang_lang
 
 BUILD 5.0.1.15699-5.4.8.18414
 $id$ID<32>
-npcID<32>
-iconID<32>
-spellID<32>
-familyID<32>
-source<32>
-flags<u32>
-source_Lang
-description_Lang
+NpcID<32>
+IconID<32>
+SpellID<32>
+FamilyID<32>
+Source<32>
+Flags<u32>
+Source_Lang_lang
+Description_Lang_lang

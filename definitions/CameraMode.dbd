@@ -1,29 +1,29 @@
 COLUMNS
 int ID
-string name
-int type
-int flags
-float positionOffset
-float targetOffset
-float positionSmoothing
-float rotationSmoothing
-float fieldOfView
-int lockedPositionOffsetBase
-int lockedPositionOffsetDirection
-int lockedTargetOffsetBase
-int lockedTargetOffsetDirection
+string Name
+int Type
+int Flags
+float PositionOffset
+float TargetOffset
+float PositionSmoothing
+float RotationSmoothing
+float FieldOfView
+int LockedPositionOffsetBase
+int LockedPositionOffsetDirection
+int LockedTargetOffsetBase
+int LockedTargetOffsetDirection
 
 BUILD 4.0.0.12122-6.0.1.18297
 $id$ID<32>
-name
-type<32>
-flags<u32>
-positionOffset[3]
-targetOffset[3]
-positionSmoothing
-rotationSmoothing
-fieldOfView
-lockedPositionOffsetBase<32>
-lockedPositionOffsetDirection<32>
-lockedTargetOffsetBase<32>
-lockedTargetOffsetDirection<32>
+Name
+Type<32>
+Flags<u32>
+PositionOffset[3]
+TargetOffset[3]
+PositionSmoothing
+RotationSmoothing
+FieldOfView
+LockedPositionOffsetBase<32>
+LockedPositionOffsetDirection<32>
+LockedTargetOffsetBase<32>
+LockedTargetOffsetDirection<32>

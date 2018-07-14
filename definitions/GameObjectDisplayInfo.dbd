@@ -1,39 +1,39 @@
 COLUMNS
 int ID
-string modelName
-int sound
-float geoBoxMin
-float geoBoxMax
-int<ObjectEffectPackage::ID> objectEffectPackageID
-float overrideLootEffectScale
-float overrideNameScale
+string ModelName
+int Sound
+float GeoBoxMin
+float GeoBoxMax
+int<ObjectEffectPackage::ID> ObjectEffectPackageID
+float OverrideLootEffectScale
+float OverrideNameScale
 
 BUILD 4.0.6.13623-5.4.8.18414
 $id$ID<32>
-modelName
-sound<32>[10]
-geoBoxMin[3]
-geoBoxMax[3]
-objectEffectPackageID<u32>
-overrideLootEffectScale
-overrideNameScale
+ModelName
+Sound<32>[10]
+GeoBoxMin[3]
+GeoBoxMax[3]
+ObjectEffectPackageID<u32>
+OverrideLootEffectScale
+OverrideNameScale
 
 BUILD 3.0.1.8622-4.0.6.13596
 $id$ID<32>
-modelName
-sound<32>[10]
-geoBoxMin[3]
-geoBoxMax[3]
-objectEffectPackageID<u32>
+ModelName
+Sound<32>[10]
+GeoBoxMin[3]
+GeoBoxMax[3]
+ObjectEffectPackageID<u32>
 
 BUILD 2.0.0.6080-3.0.1.8471
 $id$ID<32>
-modelName
-sound<32>[10]
-geoBoxMin[3]
-geoBoxMax[3]
+ModelName
+Sound<32>[10]
+GeoBoxMin[3]
+GeoBoxMax[3]
 
 BUILD 0.5.3.3368-2.0.0.5991
 $id$ID<32>
-modelName
-sound<32>[10]
+ModelName
+Sound<32>[10]

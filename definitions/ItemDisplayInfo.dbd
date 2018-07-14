@@ -1,98 +1,98 @@
 COLUMNS
 int ID
-string modelName
-string modelTexture
-string inventoryIcon
-int geosetGroup
-int flags
-int<SpellVisual::ID> spellVisualID
-int groupSoundIndex
-string texture
-int itemVisual
-int<ParticleColor::ID> particleColorID
-int helmetGeosetVisID
-string groundModel
-int itemSize
+string ModelName
+string ModelTexture
+string InventoryIcon
+int GeosetGroup
+int Flags
+int<SpellVisual::ID> SpellVisualID
+int GroupSoundIndex
+string Texture
+int ItemVisual
+int<ParticleColor::ID> ParticleColorID
+int HelmetGeosetVisID
+string GroundModel
+int ItemSize
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-modelName[2]
-modelTexture[2]
-inventoryIcon[2]
-geosetGroup<32>[3]
-flags<u32>
-spellVisualID<u32>
-groupSoundIndex<32>
-helmetGeosetVisID<u32>[2]
-texture[9]
-itemVisual<32>
-particleColorID<u32>
+ModelName[2]
+ModelTexture[2]
+InventoryIcon[2]
+GeosetGroup<32>[3]
+Flags<u32>
+SpellVisualID<u32>
+GroupSoundIndex<32>
+HelmetGeosetVisID<u32>[2]
+Texture[9]
+ItemVisual<32>
+ParticleColorID<u32>
 
 BUILD 2.4.2.8278-4.3.4.15595
 $id$ID<32>
-modelName[2]
-modelTexture[2]
-inventoryIcon[2]
-geosetGroup<32>[3]
-flags<u32>
-spellVisualID<u32>
-groupSoundIndex<32>
-helmetGeosetVisID<u32>[2]
-texture[8]
-itemVisual<32>
-particleColorID<u32>
+ModelName[2]
+ModelTexture[2]
+InventoryIcon[2]
+GeosetGroup<32>[3]
+Flags<u32>
+SpellVisualID<u32>
+GroupSoundIndex<32>
+HelmetGeosetVisID<u32>[2]
+Texture[8]
+ItemVisual<32>
+ParticleColorID<u32>
 
 BUILD 2.4.0.8089-2.4.1.8125
 $id$ID<32>
-modelName[2]
-modelTexture[2]
-inventoryIcon
-geosetGroup<32>[3]
-flags<u32>
-spellVisualID<u32>
-groupSoundIndex<32>
-helmetGeosetVisID<u32>[2]
-texture[8]
-itemVisual<32>
-particleColorID<u32>
+ModelName[2]
+ModelTexture[2]
+InventoryIcon
+GeosetGroup<32>[3]
+Flags<u32>
+SpellVisualID<u32>
+GroupSoundIndex<32>
+HelmetGeosetVisID<u32>[2]
+Texture[8]
+ItemVisual<32>
+ParticleColorID<u32>
 
 BUILD 0.9.0.3807-2.3.3.7799
 $id$ID<32>
-modelName[2]
-modelTexture[2]
-inventoryIcon
-geosetGroup<32>[3]
-flags<u32>
-spellVisualID<u32>
-groupSoundIndex<32>
-helmetGeosetVisID<u32>[2]
-texture[8]
-itemVisual<32>
+ModelName[2]
+ModelTexture[2]
+InventoryIcon
+GeosetGroup<32>[3]
+Flags<u32>
+SpellVisualID<u32>
+GroupSoundIndex<32>
+HelmetGeosetVisID<u32>[2]
+Texture[8]
+ItemVisual<32>
 
 BUILD 0.6.0.3592-0.8.0.3734
 $id$ID<32>
-modelName[2]
-modelTexture[2]
-inventoryIcon
-geosetGroup<32>[3]
-flags<u32>
-spellVisualID<u32>
-groupSoundIndex<32>
-helmetGeosetVisID<u32>
-texture[8]
-itemVisual<32>
+ModelName[2]
+ModelTexture[2]
+InventoryIcon
+GeosetGroup<32>[3]
+Flags<u32>
+SpellVisualID<u32>
+GroupSoundIndex<32>
+HelmetGeosetVisID<u32>
+Texture[8]
+ItemVisual<32>
 
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
-modelName[2]
-modelTexture[2]
-inventoryIcon
-groundModel
-geosetGroup<32>[4]
-flags<u32>
-spellVisualID<u32>
-groupSoundIndex<32>
-itemSize<32>
-helmetGeosetVisID<u32>
-texture[8]
-itemVisual<32>
+ModelName[2]
+ModelTexture[2]
+InventoryIcon
+GroundModel
+GeosetGroup<32>[4]
+Flags<u32>
+SpellVisualID<u32>
+GroupSoundIndex<32>
+ItemSize<32>
+HelmetGeosetVisID<u32>
+Texture[8]
+ItemVisual<32>

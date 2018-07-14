@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int combatBloodSpurtFront
-int combatBloodSpurtBack
-string groundBlood
+int CombatBloodSpurtFront
+int CombatBloodSpurtBack
+string GroundBlood
 
 BUILD 0.5.3.3368-6.2.4.21742
 $id$ID<32>
-combatBloodSpurtFront<32>[2]
-combatBloodSpurtBack<32>[2]
-groundBlood[5]
+CombatBloodSpurtFront<32>[2]
+CombatBloodSpurtBack<32>[2]
+GroundBlood[5]

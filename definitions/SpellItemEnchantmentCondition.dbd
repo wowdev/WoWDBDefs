@@ -1,32 +1,32 @@
 COLUMNS
 int ID
-int lt_operandType
-int lt_operand
-int operator
-int rt_operandType
-int rt_operand
-int logic
-int padding_750691018?
-int padding_3998259041?
-int padding_371849722?
+int Lt_operandType
+int Lt_operand
+int Operator
+int Rt_operandType
+int Rt_operand
+int Logic
+int Padding_750691018?
+int Padding_3998259041?
+int Padding_371849722?
 
 BUILD 4.0.0.11792-6.2.4.21742
 $id$ID<32>
-lt_operandType<u8>[5]
-padding_750691018<u8>[3]
-lt_operand<32>[5]
-operator<u8>[5]
-rt_operandType<u8>[5]
-padding_3998259041<u8>[2]
-rt_operand<32>[5]
-logic<u8>[5]
-padding_371849722<u8>[3]
+Lt_operandType<u8>[5]
+Padding_750691018<u8>[3]
+Lt_operand<32>[5]
+Operator<u8>[5]
+Rt_operandType<u8>[5]
+Padding_3998259041<u8>[2]
+Rt_operand<32>[5]
+Logic<u8>[5]
+Padding_371849722<u8>[3]
 
 BUILD 2.0.0.5610-3.3.5.12340
 $id$ID<32>
-lt_operandType<u8>[5]
-lt_operand<32>[5]
-operator<u8>[5]
-rt_operandType<u8>[5]
-rt_operand<32>[5]
-logic<u8>[5]
+Lt_operandType<u8>[5]
+Lt_operand<32>[5]
+Operator<u8>[5]
+Rt_operandType<u8>[5]
+Rt_operand<32>[5]
+Logic<u8>[5]

@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-locstring description_lang
-int color
+locstring Description_lang
+int Color
 
 BUILD 4.2.0.14333-5.4.8.18414
 $id$ID<32>
-description_lang
-color<32>
+Description_lang
+Color<32>

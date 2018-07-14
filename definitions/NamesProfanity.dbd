@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-string name
-int language
+string Name
+int Language
 
 BUILD 2.0.0.6080-6.1.2.19865
 $id$ID<32>
-name
-language<32>
+Name
+Language<32>
 
 BUILD 0.5.3.3368-2.0.0.5991
 $id$ID<32>
-name
+Name

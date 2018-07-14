@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-float clothModifier
-float leatherModifier
-float chainModifier
-float plateModifier
+float ClothModifier
+float LeatherModifier
+float ChainModifier
+float PlateModifier
 
 BUILD 4.3.0.15005-5.4.8.18414
 $id$ID<32>
-clothModifier
-leatherModifier
-chainModifier
-plateModifier
+ClothModifier
+LeatherModifier
+ChainModifier
+PlateModifier

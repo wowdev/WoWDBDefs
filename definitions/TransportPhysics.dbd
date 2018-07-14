@@ -1,25 +1,25 @@
 COLUMNS
 int ID
-float waveAmp
-float waveTimeScale
-float rollAmp
-float rollTimeScale
-float pitchAmp
-float pitchTimeScale
-float maxBank
-float maxBankTurnSpeed
-float speedDampThresh
-float speedDamp
+float WaveAmp
+float WaveTimeScale
+float RollAmp
+float RollTimeScale
+float PitchAmp
+float PitchTimeScale
+float MaxBank
+float MaxBankTurnSpeed
+float SpeedDampThresh
+float SpeedDamp
 
 BUILD 2.3.0.7561-6.2.4.21742
 $id$ID<32>
-waveAmp
-waveTimeScale
-rollAmp
-rollTimeScale
-pitchAmp
-pitchTimeScale
-maxBank
-maxBankTurnSpeed
-speedDampThresh
-speedDamp
+WaveAmp
+WaveTimeScale
+RollAmp
+RollTimeScale
+PitchAmp
+PitchTimeScale
+MaxBank
+MaxBankTurnSpeed
+SpeedDampThresh
+SpeedDamp

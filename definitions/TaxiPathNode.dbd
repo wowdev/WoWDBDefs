@@ -1,38 +1,38 @@
 COLUMNS
 int ID
-int flags
-int delay
-int arrivalEventID
-int departureEventID
-int<TaxiPath::ID> pathID
-int nodeIndex
-int<Map::ID> continentID
-float loc
+int Flags
+int Delay
+int ArrivalEventID
+int DepartureEventID
+int<TaxiPath::ID> PathID
+int NodeIndex
+int<Map::ID> ContinentID
+float Loc
 
 BUILD 2.1.0.6692-6.2.4.21742
 $id$ID<32>
-pathID<u32>
-nodeIndex<32>
-continentID<u32>
-loc[3]
-flags<u32>
-delay<32>
-arrivalEventID<u32>
-departureEventID<u32>
+PathID<u32>
+NodeIndex<32>
+ContinentID<u32>
+Loc[3]
+Flags<u32>
+Delay<32>
+ArrivalEventID<u32>
+DepartureEventID<u32>
 
 BUILD 0.9.0.3807-2.0.6.6337
 $id$ID<32>
-pathID<u32>
-nodeIndex<32>
-continentID<u32>
-loc[3]
-flags<u32>
-delay<32>
+PathID<u32>
+NodeIndex<32>
+ContinentID<u32>
+Loc[3]
+Flags<u32>
+Delay<32>
 
 BUILD 0.5.3.3368-0.8.0.3734
 $id$ID<32>
-pathID<u32>
-nodeIndex<32>
-continentID<u32>
-loc[3]
-flags<u32>
+PathID<u32>
+NodeIndex<32>
+ContinentID<u32>
+Loc[3]
+Flags<u32>

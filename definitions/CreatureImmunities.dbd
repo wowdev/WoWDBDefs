@@ -1,59 +1,59 @@
 COLUMNS
 int ID
-int school
-int dispelType
-int mechanicsAllowed
-int mechanic
-int effectsAllowed
-int effect
-int statesAllowed
-int state
-int flags
+int School
+int DispelType
+int MechanicsAllowed
+int Mechanic
+int EffectsAllowed
+int Effect
+int StatesAllowed
+int State
+int Flags
 
 BUILD 5.4.8.18273-5.4.8.18414
 $id$ID<32>
-school<32>
-dispelType<32>
-mechanicsAllowed<32>
-mechanic<32>
-effectsAllowed<32>
-effect<32>[8]
-statesAllowed<32>
-state<32>[14]
-flags<u32>
+School<32>
+DispelType<32>
+MechanicsAllowed<32>
+Mechanic<32>
+EffectsAllowed<32>
+Effect<32>[8]
+StatesAllowed<32>
+State<32>[14]
+Flags<u32>
 
 BUILD 5.0.4.15929-5.4.7.18019
 $id$ID<32>
-school<32>
-dispelType<32>
-mechanicsAllowed<32>
-mechanic<32>
-effectsAllowed<32>
-effect<32>[7]
-statesAllowed<32>
-state<32>[14]
-flags<u32>
+School<32>
+DispelType<32>
+MechanicsAllowed<32>
+Mechanic<32>
+EffectsAllowed<32>
+Effect<32>[7]
+StatesAllowed<32>
+State<32>[14]
+Flags<u32>
 
 BUILD 5.0.1.15464-5.0.4.15913
 $id$ID<32>
-school<32>
-dispelType<32>
-mechanicsAllowed<32>
-mechanic<32>
-effectsAllowed<32>
-effect<32>[6]
-statesAllowed<32>
-state<32>[13]
-flags<u32>
+School<32>
+DispelType<32>
+MechanicsAllowed<32>
+Mechanic<32>
+EffectsAllowed<32>
+Effect<32>[6]
+StatesAllowed<32>
+State<32>[13]
+Flags<u32>
 
 BUILD 4.1.0.13914-4.3.4.15595
 $id$ID<32>
-school<32>
-dispelType<32>
-mechanicsAllowed<32>
-mechanic<32>
-effectsAllowed<32>
-effect<32>[6]
-statesAllowed<32>
-state<32>[12]
-flags<u32>
+School<32>
+DispelType<32>
+MechanicsAllowed<32>
+Mechanic<32>
+EffectsAllowed<32>
+Effect<32>[6]
+StatesAllowed<32>
+State<32>[12]
+Flags<u32>

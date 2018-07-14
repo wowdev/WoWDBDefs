@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-locstring name_lang
-int flags
-int type
+locstring Name_lang
+int Flags
+int Type
 
 BUILD 5.0.1.15464
 $id$ID<32>
-name_lang
+Name_lang
 
 BUILD 5.0.1.15589-5.3.0.17116
 $id$ID<32>
-name_lang
-flags<u32>
+Name_lang
+Flags<u32>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-name_lang
-flags<u32>
-type<32>
+Name_lang
+Flags<u32>
+Type<32>

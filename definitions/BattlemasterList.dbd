@@ -1,153 +1,153 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-int instanceType
-int groupsAllowed
-locstring name_lang
-int maxGroupSize
-int<WorldState::ID> holidayWorldState
-int minlevel
-int maxlevel
-int ratedPlayers
-int minPlayers
-int maxPlayers
-int flags
-int<FileData::ID> iconFileDataID
-locstring gametype_lang
-int field_3354886897?
-int field_4451966822?
-int field_3492759849?
-int field_8444340996?
+int<Map::ID> MapID
+int InstanceType
+int GroupsAllowed
+locstring Name_lang
+int MaxGroupSize
+int<WorldState::ID> HolidayWorldState
+int Minlevel
+int Maxlevel
+int RatedPlayers
+int MinPlayers
+int MaxPlayers
+int Flags
+int<FileData::ID> IconFileDataID
+locstring Gametype_lang
+int Field_3354886897?
+int Field_4451966822?
+int Field_3492759849?
+int Field_8444340996?
 
 BUILD 5.3.0.16844-5.4.8.18414
 $id$ID<32>
-mapID<u32>[16]
-instanceType<32>
-groupsAllowed<32>
-name_lang
-maxGroupSize<32>
-holidayWorldState<u32>
-minlevel<32>
-maxlevel<32>
-ratedPlayers<32>
-minPlayers<32>
-maxPlayers<32>
-flags<u32>
-iconFileDataID<u32>
-gametype_lang
+MapID<u32>[16]
+InstanceType<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<u32>
+Minlevel<32>
+Maxlevel<32>
+RatedPlayers<32>
+MinPlayers<32>
+MaxPlayers<32>
+Flags<u32>
+IconFileDataID<u32>
+Gametype_lang
 
 BUILD 5.0.1.15589
 $id$ID<32>
-mapID<u32>[10]
-instanceType<32>
-groupsAllowed<32>
-name_lang
-maxGroupSize<32>
-holidayWorldState<u32>
-minlevel<32>
-maxlevel<32>
-ratedPlayers<32>
-minPlayers<32>
-maxPlayers<32>
-flags<u32>
+MapID<u32>[10]
+InstanceType<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<u32>
+Minlevel<32>
+Maxlevel<32>
+RatedPlayers<32>
+MinPlayers<32>
+MaxPlayers<32>
+Flags<u32>
 
 BUILD 5.0.1.15640-5.2.0.16826
 $id$ID<32>
-mapID<u32>[10]
-instanceType<32>
-groupsAllowed<32>
-name_lang
-maxGroupSize<32>
-holidayWorldState<u32>
-minlevel<32>
-maxlevel<32>
-ratedPlayers<32>
-minPlayers<32>
-maxPlayers<32>
-flags<u32>
+MapID<u32>[10]
+InstanceType<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<u32>
+Minlevel<32>
+Maxlevel<32>
+RatedPlayers<32>
+MinPlayers<32>
+MaxPlayers<32>
+Flags<u32>
 
 BUILD 4.0.6.13623-5.0.1.15544
 $id$ID<32>
-mapID<u32>[8]
-instanceType<32>
-groupsAllowed<32>
-name_lang
-maxGroupSize<32>
-holidayWorldState<u32>
-minlevel<32>
-maxlevel<32>
-ratedPlayers<32>
-minPlayers<32>
-maxPlayers<32>
-flags<u32>
+MapID<u32>[8]
+InstanceType<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<u32>
+Minlevel<32>
+Maxlevel<32>
+RatedPlayers<32>
+MinPlayers<32>
+MaxPlayers<32>
+Flags<u32>
 
 BUILD 3.3.3.11685-4.0.6.13596
 $id$ID<32>
-mapID<u32>[8]
-instanceType<32>
-groupsAllowed<32>
-name_lang
-maxGroupSize<32>
-holidayWorldState<u32>
-minlevel<32>
-maxlevel<32>
+MapID<u32>[8]
+InstanceType<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<u32>
+Minlevel<32>
+Maxlevel<32>
 
 BUILD 3.3.0.10958-3.3.2.11403
 $id$ID<32>
-mapID<u32>[8]
-instanceType<32>
-field_8444340996<32>
-groupsAllowed<32>
-name_lang
-maxGroupSize<32>
-holidayWorldState<u32>
+MapID<u32>[8]
+InstanceType<32>
+Field_8444340996<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<u32>
 
 BUILD 3.1.0.9767-3.2.2.10505
 $id$ID<32>
-mapID<u32>[8]
-instanceType<32>
-minlevel<32>
-maxlevel<32>
-field_8444340996<32>
-field_3492759849<32>
-field_3354886897<32>
-groupsAllowed<32>
-name_lang
-field_4451966822<32>
-holidayWorldState<u32>
+MapID<u32>[8]
+InstanceType<32>
+Minlevel<32>
+Maxlevel<32>
+Field_8444340996<32>
+Field_3492759849<32>
+Field_3354886897<32>
+GroupsAllowed<32>
+Name_lang
+Field_4451966822<32>
+HolidayWorldState<u32>
 
 BUILD 3.0.3.9183-3.0.9.9551
 $id$ID<32>
-mapID<u32>[8]
-instanceType<32>
-minlevel<32>
-maxlevel<32>
-field_8444340996<32>
-field_3492759849<32>
-field_3354886897<32>
-groupsAllowed<32>
-name_lang
-field_4451966822<32>
+MapID<u32>[8]
+InstanceType<32>
+Minlevel<32>
+Maxlevel<32>
+Field_8444340996<32>
+Field_3492759849<32>
+Field_3354886897<32>
+GroupsAllowed<32>
+Name_lang
+Field_4451966822<32>
 
 BUILD 2.4.0.8089-3.0.2.9056
 $id$ID<32>
-mapID<u32>[8]
-instanceType<32>
-minlevel<32>
-maxlevel<32>
-field_8444340996<32>
-field_3492759849<32>
-groupsAllowed<32>
-name_lang
-field_3354886897<32>
+MapID<u32>[8]
+InstanceType<32>
+Minlevel<32>
+Maxlevel<32>
+Field_8444340996<32>
+Field_3492759849<32>
+GroupsAllowed<32>
+Name_lang
+Field_3354886897<32>
 
 BUILD 2.0.0.5610-2.3.3.7799
 $id$ID<32>
-mapID<u32>[8]
-instanceType<32>
-minlevel<32>
-maxlevel<32>
-field_8444340996<32>
-field_3492759849<32>
-groupsAllowed<32>
-name_lang
+MapID<u32>[8]
+InstanceType<32>
+Minlevel<32>
+Maxlevel<32>
+Field_8444340996<32>
+Field_3492759849<32>
+GroupsAllowed<32>
+Name_lang

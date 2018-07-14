@@ -1,11 +1,11 @@
 COLUMNS
 int ID?
-int condExtendedCost?
-int itemExtendedCostEntry?
-int arenaSeason?
+int CondExtendedCost?
+int ItemExtendedCostEntry?
+int ArenaSeason?
 
 BUILD 2.3.0.7561-4.2.0.14316
 $id$ID<32>
-condExtendedCost<32>
-itemExtendedCostEntry<32>
-arenaSeason<32>
+CondExtendedCost<32>
+ItemExtendedCostEntry<32>
+ArenaSeason<32>

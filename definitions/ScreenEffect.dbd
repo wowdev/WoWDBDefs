@@ -1,62 +1,62 @@
 COLUMNS
 int ID
-string name
-int effect
-int param
-int<LightParams::ID> lightParamsID
-int<SoundAmbience::ID> soundAmbienceID
-int<ZoneMusic::ID> zoneMusicID
-int timeOfDayOverride
-int lightParamsFadeIn
-int lightParamsFadeOut
-int effectMask
-int field_8128304746?
+string Name
+int Effect
+int Param
+int<LightParams::ID> LightParamsID
+int<SoundAmbience::ID> SoundAmbienceID
+int<ZoneMusic::ID> ZoneMusicID
+int TimeOfDayOverride
+int LightParamsFadeIn
+int LightParamsFadeOut
+int EffectMask
+int Field_8128304746?
 
 BUILD 5.0.1.15799-5.4.8.18414
 $id$ID<32>
-name
-effect<32>
-param<32>[4]
-lightParamsID<u32>
-lightParamsFadeIn<32>
-lightParamsFadeOut<32>
-soundAmbienceID<u32>
-zoneMusicID<u32>
-timeOfDayOverride<32>
-effectMask<u32>
+Name
+Effect<32>
+Param<32>[4]
+LightParamsID<u32>
+LightParamsFadeIn<32>
+LightParamsFadeOut<32>
+SoundAmbienceID<u32>
+ZoneMusicID<u32>
+TimeOfDayOverride<32>
+EffectMask<u32>
 
 BUILD 5.0.1.15762-5.0.1.15781
 $id$ID<32>
-name
-effect<32>
-param<32>[4]
-lightParamsID<u32>
-lightParamsFadeIn<32>
-lightParamsFadeOut<32>
-soundAmbienceID<u32>
-zoneMusicID<u32>
-timeOfDayOverride<32>
+Name
+Effect<32>
+Param<32>[4]
+LightParamsID<u32>
+LightParamsFadeIn<32>
+LightParamsFadeOut<32>
+SoundAmbienceID<u32>
+ZoneMusicID<u32>
+TimeOfDayOverride<32>
 
 BUILD 4.3.2.15211-5.0.1.15752
 $id$ID<32>
-name
-effect<32>
-param<32>[4]
-lightParamsID<u32>
-soundAmbienceID<u32>
-zoneMusicID<u32>
-timeOfDayOverride<32>
+Name
+Effect<32>
+Param<32>[4]
+LightParamsID<u32>
+SoundAmbienceID<u32>
+ZoneMusicID<u32>
+TimeOfDayOverride<32>
 
 BUILD 3.0.1.8622-4.3.0.15050
 $id$ID<32>
-name
-effect<32>
-param<32>[4]
-lightParamsID<u32>
-soundAmbienceID<u32>
-zoneMusicID<u32>
+Name
+Effect<32>
+Param<32>[4]
+LightParamsID<u32>
+SoundAmbienceID<u32>
+ZoneMusicID<u32>
 
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>
-field_8128304746<32>
-param<32>[4]
+Field_8128304746<32>
+Param<32>[4]

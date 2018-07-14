@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-int fontFileDataID
-int field_9456686214?
-int wowLocale
-int secondary
-int clientDisplayExpansion
+int FontFileDataID
+int Field_9456686214?
+int WowLocale
+int Secondary
+int ClientDisplayExpansion
 
 BUILD 5.0.1.15640-5.0.1.15799
 $id$ID<32>
-fontFileDataID<u32>
+FontFileDataID<u32>
 
 BUILD 5.0.2.15827-5.4.8.18414
 $id$ID<32>
-field_9456686214<32>
-wowLocale<32>
-secondary<32>
-fontFileDataID<u32>
-clientDisplayExpansion<32>
+Field_9456686214<32>
+WowLocale<32>
+Secondary<32>
+FontFileDataID<u32>
+ClientDisplayExpansion<32>

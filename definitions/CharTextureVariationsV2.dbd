@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-int<ChrRaces::ID> raceID
-int genderID
-int sectionID
-int variationID
-int colorID
-int isNPC
-string textureName
+int<ChrRaces::ID> RaceID
+int GenderID
+int SectionID
+int VariationID
+int ColorID
+int IsNPC
+string TextureName
 
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
-raceID<u32>
-genderID<u32>
-sectionID<u32>
-variationID<u32>
-colorID<u32>
-isNPC<32>
-textureName
+RaceID<u32>
+GenderID<u32>
+SectionID<u32>
+VariationID<u32>
+ColorID<u32>
+IsNPC<32>
+TextureName

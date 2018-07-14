@@ -1,31 +1,31 @@
 COLUMNS
 int ID
-locstring name_lang
-locstring description_lang
-int rarity
-int<ResearchBranch::ID> researchBranchID
-int<Spell::ID> spellID
-int numSockets
-string texture
-int requiredWeight
+locstring Name_lang
+locstring Description_lang
+int Rarity
+int<ResearchBranch::ID> ResearchBranchID
+int<Spell::ID> SpellID
+int NumSockets
+string Texture
+int RequiredWeight
 
 BUILD 4.0.0.12911-6.2.0.20338
 $id$ID<32>
-name_lang
-description_lang
-rarity<32>
-researchBranchID<u32>
-spellID<u32>
-numSockets<32>
-texture
-requiredWeight<32>
+Name_lang
+Description_lang
+Rarity<32>
+ResearchBranchID<u32>
+SpellID<u32>
+NumSockets<32>
+Texture
+RequiredWeight<32>
 
 BUILD 4.0.0.12319
 $id$ID<32>
-name_lang
-description_lang
-rarity<32>
-researchBranchID<u32>
-spellID<u32>
-numSockets<32>
-texture
+Name_lang
+Description_lang
+Rarity<32>
+ResearchBranchID<u32>
+SpellID<u32>
+NumSockets<32>
+Texture

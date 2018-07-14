@@ -1,22 +1,22 @@
 COLUMNS
 int ID
-int<JournalEncounter::ID> journalEncounterID
-int<Item::ID> itemID
-int difficultyMask
-int factionMask
-int flags
+int<JournalEncounter::ID> JournalEncounterID
+int<Item::ID> ItemID
+int DifficultyMask
+int FactionMask
+int Flags
 
 BUILD 4.2.0.14333-5.3.0.17116
 $id$ID<32>
-journalEncounterID<u32>
-itemID<u32>
-difficultyMask<u32>
-factionMask<u32>
+JournalEncounterID<u32>
+ItemID<u32>
+DifficultyMask<u32>
+FactionMask<u32>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-journalEncounterID<u32>
-itemID<u32>
-difficultyMask<u32>
-factionMask<u32>
-flags<u32>
+JournalEncounterID<u32>
+ItemID<u32>
+DifficultyMask<u32>
+FactionMask<u32>
+Flags<u32>

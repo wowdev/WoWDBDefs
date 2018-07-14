@@ -1,25 +1,25 @@
 COLUMNS
 int ID
-int actualType
-string globalStringBaseTag
-int red
-int green
-int blue
-int padding
+int ActualType
+string GlobalStringBaseTag
+int Red
+int Green
+int Blue
+int Padding
 
 BUILD 3.1.0.9767-3.3.5.12340
 $id$ID<32>
-actualType<32>
-globalStringBaseTag
-red<u8>
-green<u8>
-blue<u8>
+ActualType<32>
+GlobalStringBaseTag
+Red<u8>
+Green<u8>
+Blue<u8>
 
 BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>
-actualType<32>
-globalStringBaseTag
-red<u8>
-green<u8>
-blue<u8>
-padding<u8>
+ActualType<32>
+GlobalStringBaseTag
+Red<u8>
+Green<u8>
+Blue<u8>
+Padding<u8>

@@ -1,37 +1,37 @@
 COLUMNS
 int ID
-int<DungeonMap::ID> dungeonMapID
-int worldMapAreaID
-float map
-int firstSectionID
-int<JournalInstance::ID> journalInstanceID
-int orderIndex
-int difficultyMask
-locstring name_lang
-locstring description_lang
-int flags
+int<DungeonMap::ID> DungeonMapID
+int WorldMapAreaID
+float Map
+int FirstSectionID
+int<JournalInstance::ID> JournalInstanceID
+int OrderIndex
+int DifficultyMask
+locstring Name_lang
+locstring Description_lang
+int Flags
 
 BUILD 4.2.0.14333-5.0.1.15544
 $id$ID<32>
-dungeonMapID<u32>
-worldMapAreaID<u32>
-map[2]
-firstSectionID<u32>
-journalInstanceID<u32>
-orderIndex<32>
-difficultyMask<u32>
-name_lang
-description_lang
+DungeonMapID<u32>
+WorldMapAreaID<u32>
+Map[2]
+FirstSectionID<u32>
+JournalInstanceID<u32>
+OrderIndex<32>
+DifficultyMask<u32>
+Name_lang
+Description_lang
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-dungeonMapID<u32>
-worldMapAreaID<u32>
-map[2]
-firstSectionID<u32>
-journalInstanceID<u32>
-orderIndex<32>
-difficultyMask<u32>
-name_lang
-description_lang
-flags<u32>
+DungeonMapID<u32>
+WorldMapAreaID<u32>
+Map[2]
+FirstSectionID<u32>
+JournalInstanceID<u32>
+OrderIndex<32>
+DifficultyMask<u32>
+Name_lang
+Description_lang
+Flags<u32>

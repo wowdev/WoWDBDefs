@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-int<Spell::ID> spellID
-int<Difficulty::ID> difficultyID
-int baseLevel
-int maxLevel
-int spellLevel
+int<Spell::ID> SpellID
+int<Difficulty::ID> DifficultyID
+int BaseLevel
+int MaxLevel
+int SpellLevel
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-spellID<u32>
-difficultyID<u32>
-baseLevel<32>
-maxLevel<32>
-spellLevel<32>
+SpellID<u32>
+DifficultyID<u32>
+BaseLevel<32>
+MaxLevel<32>
+SpellLevel<32>
 
 BUILD 4.0.0.12232-5.0.1.15544
 $id$ID<32>
-baseLevel<32>
-maxLevel<32>
-spellLevel<32>
+BaseLevel<32>
+MaxLevel<32>
+SpellLevel<32>

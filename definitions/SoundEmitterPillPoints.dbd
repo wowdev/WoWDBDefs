@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int<SoundEmitters::ID> soundEmittersID
-float position
+int<SoundEmitters::ID> SoundEmittersID
+float Position
 
 BUILD 4.3.0.15005-5.4.8.18414
 $id$ID<32>
-soundEmittersID<u32>
-position[3]
+SoundEmittersID<u32>
+Position[3]

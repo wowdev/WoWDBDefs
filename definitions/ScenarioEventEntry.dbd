@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int triggerType
-int triggerAsset
+int TriggerType
+int TriggerAsset
 
 BUILD 5.0.1.15662-5.4.8.18414
 $id$ID<32>
-triggerType<32>
-triggerAsset<32>
+TriggerType<32>
+TriggerAsset<32>

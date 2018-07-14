@@ -1,21 +1,21 @@
 COLUMNS
-int<ChrRaces::ID> raceID
-int<ChrClasses::ID> classID
+int<ChrRaces::ID> RaceID
+int<ChrClasses::ID> ClassID
 int ID
-int padding_1450692957?
-int<ChrProficiency::ID> proficiency
+int Padding_1450692957?
+int<ChrProficiency::ID> Proficiency
 
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
-raceID<u8>
-classID<u8>
-padding_1450692957<u8>[2]
+RaceID<u8>
+ClassID<u8>
+Padding_1450692957<u8>[2]
 
 BUILD 0.7.0.3694-3.3.5.12340
-raceID<u8>
-classID<u8>
+RaceID<u8>
+ClassID<u8>
 
 BUILD 0.5.3.3368-0.6.0.3592
-raceID<u8>
-classID<u8>
-proficiency<32>
+RaceID<u8>
+ClassID<u8>
+Proficiency<32>

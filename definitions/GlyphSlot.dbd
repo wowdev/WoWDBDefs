@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int type
-int tooltip
+int Type
+int Tooltip
 
 BUILD 3.0.1.8770-5.4.8.18414
 $id$ID<32>
-type<32>
-tooltip<32>
+Type<32>
+Tooltip<32>
 
 BUILD 3.0.1.8303-3.0.1.8714
 $id$ID<32>
-type<32>
+Type<32>

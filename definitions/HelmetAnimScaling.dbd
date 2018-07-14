@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int<ChrRaces::ID> raceID
-float amount
-int helmetGeosetVisID
+int<ChrRaces::ID> RaceID
+float Amount
+int HelmetGeosetVisID
 
 BUILD 5.0.1.15762-5.4.8.18414
 $id$ID<32>
-helmetGeosetVisID<u32>
-raceID<u32>
-amount
+HelmetGeosetVisID<u32>
+RaceID<u32>
+Amount

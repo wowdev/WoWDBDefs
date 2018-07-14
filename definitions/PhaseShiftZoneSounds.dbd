@@ -1,31 +1,31 @@
 COLUMNS
 int ID
-int<Phase::ID> phaseID
-int<PhaseXPhaseGroup::phaseGroupID> phaseGroupID
-int phaseUseFlags
-int<ZoneMusic::ID> zoneMusicID
-int<SoundAmbience::ID> soundAmbienceID
-int<AreaTable::ID> areaID
-int<ZoneIntroMusicTable::ID> zoneIntroMusicID
-int<SoundProviderPreferences::ID> soundProviderPreferencesID
-int<ZoneIntroMusicTable::ID> uwZoneIntroMusicID
-int<ZoneMusic::ID> uwZoneMusicID
-int<SoundAmbience::ID> uwSoundAmbienceID
-int<SoundProviderPreferences::ID> uwSoundProviderPreferencesID
+int<Phase::ID> PhaseID
+int<PhaseXPhaseGroup::PhaseGroupID> PhaseGroupID
+int PhaseUseFlags
+int<ZoneMusic::ID> ZoneMusicID
+int<SoundAmbience::ID> SoundAmbienceID
+int<AreaTable::ID> AreaID
+int<ZoneIntroMusicTable::ID> ZoneIntroMusicID
+int<SoundProviderPreferences::ID> SoundProviderPreferencesID
+int<ZoneIntroMusicTable::ID> UwZoneIntroMusicID
+int<ZoneMusic::ID> UwZoneMusicID
+int<SoundAmbience::ID> UwSoundAmbienceID
+int<SoundProviderPreferences::ID> UwSoundProviderPreferencesID
 int<WMOAreaTable::ID> WMOAreaID
 
 BUILD 4.0.0.12319-6.2.4.21742
 $id$ID<32>
-areaID<u32>
+AreaID<u32>
 WMOAreaID<u32>
-phaseID<u32>
-phaseGroupID<u32>
-phaseUseFlags<u32>
-zoneIntroMusicID<u32>
-zoneMusicID<u32>
-soundAmbienceID<u32>
-soundProviderPreferencesID<u32>
-uwZoneIntroMusicID<u32>
-uwZoneMusicID<u32>
-uwSoundAmbienceID<u32>
-uwSoundProviderPreferencesID<u32>
+PhaseID<u32>
+PhaseGroupID<u32>
+PhaseUseFlags<u32>
+ZoneIntroMusicID<u32>
+ZoneMusicID<u32>
+SoundAmbienceID<u32>
+SoundProviderPreferencesID<u32>
+UwZoneIntroMusicID<u32>
+UwZoneMusicID<u32>
+UwSoundAmbienceID<u32>
+UwSoundProviderPreferencesID<u32>

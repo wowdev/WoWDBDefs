@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-string name
-int<Emotes::ID> emoteID
-int<EmotesTextData::ID> emoteText
+string Name
+int<Emotes::ID> EmoteID
+int<EmotesTextData::ID> EmoteText
 
 BUILD 0.5.3.3368-6.0.1.18179
 $id$ID<32>
-name
-emoteID<u32>
-emoteText<32>[16]
+Name
+EmoteID<u32>
+EmoteText<32>[16]

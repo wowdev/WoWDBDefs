@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int<SoundAmbience::ID> soundAmbienceID
-int soundEntriesIDDay
-int soundEntriesIDNight
+int<SoundAmbience::ID> SoundAmbienceID
+int SoundEntriesIDDay
+int SoundEntriesIDNight
 
 BUILD 4.1.0.13914-5.4.8.18414
 $id$ID<32>
-soundAmbienceID<u32>
-soundEntriesIDDay<32>
-soundEntriesIDNight<32>
+SoundAmbienceID<u32>
+SoundEntriesIDDay<32>
+SoundEntriesIDNight<32>

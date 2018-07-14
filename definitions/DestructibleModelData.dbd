@@ -1,113 +1,113 @@
 COLUMNS
 int ID
-int state0WMO
-int state0ImpactEffectDoodadSet
-int state0AmbientDoodadSet
-int state0NameSet
-int state1WMO
-int state1DestructionDoodadSet
-int state1ImpactEffectDoodadSet
-int state1AmbientDoodadSet
-int state1NameSet
-int state2WMO
-int state2DestructionDoodadSet
-int state2ImpactEffectDoodadSet
-int state2AmbientDoodadSet
-int state2NameSet
-int state3WMO
-int state3InitDoodadSet
-int state3AmbientDoodadSet
-int state3NameSet
-int ejectDirection
-int repairGroundFx
-int doNotHighlight
-int healEffect
-int healEffectSpeed
+int State0WMO
+int State0ImpactEffectDoodadSet
+int State0AmbientDoodadSet
+int State0NameSet
+int State1WMO
+int State1DestructionDoodadSet
+int State1ImpactEffectDoodadSet
+int State1AmbientDoodadSet
+int State1NameSet
+int State2WMO
+int State2DestructionDoodadSet
+int State2ImpactEffectDoodadSet
+int State2AmbientDoodadSet
+int State2NameSet
+int State3WMO
+int State3InitDoodadSet
+int State3AmbientDoodadSet
+int State3NameSet
+int EjectDirection
+int RepairGroundFx
+int DoNotHighlight
+int HealEffect
+int HealEffectSpeed
 
 BUILD 4.0.0.12319-6.2.4.21742
 $id$ID<32>
-state0WMO<32>
-state0ImpactEffectDoodadSet<32>
-state0AmbientDoodadSet<32>
-state0NameSet<32>
-state1WMO<32>
-state1DestructionDoodadSet<32>
-state1ImpactEffectDoodadSet<32>
-state1AmbientDoodadSet<32>
-state1NameSet<32>
-state2WMO<32>
-state2DestructionDoodadSet<32>
-state2ImpactEffectDoodadSet<32>
-state2AmbientDoodadSet<32>
-state2NameSet<32>
-state3WMO<32>
-state3InitDoodadSet<32>
-state3AmbientDoodadSet<32>
-state3NameSet<32>
-ejectDirection<32>
-repairGroundFx<32>
-doNotHighlight<32>
-healEffect<32>
-healEffectSpeed<32>
+State0WMO<32>
+State0ImpactEffectDoodadSet<32>
+State0AmbientDoodadSet<32>
+State0NameSet<32>
+State1WMO<32>
+State1DestructionDoodadSet<32>
+State1ImpactEffectDoodadSet<32>
+State1AmbientDoodadSet<32>
+State1NameSet<32>
+State2WMO<32>
+State2DestructionDoodadSet<32>
+State2ImpactEffectDoodadSet<32>
+State2AmbientDoodadSet<32>
+State2NameSet<32>
+State3WMO<32>
+State3InitDoodadSet<32>
+State3AmbientDoodadSet<32>
+State3NameSet<32>
+EjectDirection<32>
+RepairGroundFx<32>
+DoNotHighlight<32>
+HealEffect<32>
+HealEffectSpeed<32>
 
 BUILD 4.0.0.11927-4.0.0.12266
 $id$ID<32>
-state0WMO<32>
-state0ImpactEffectDoodadSet<32>
-state0AmbientDoodadSet<32>
-state1WMO<32>
-state1DestructionDoodadSet<32>
-state1ImpactEffectDoodadSet<32>
-state1AmbientDoodadSet<32>
-state2WMO<32>
-state2DestructionDoodadSet<32>
-state2ImpactEffectDoodadSet<32>
-state2AmbientDoodadSet<32>
-state3WMO<32>
-state3InitDoodadSet<32>
-state3AmbientDoodadSet<32>
-ejectDirection<32>
-repairGroundFx<32>
-doNotHighlight<32>
-healEffect<32>
-healEffectSpeed<32>
+State0WMO<32>
+State0ImpactEffectDoodadSet<32>
+State0AmbientDoodadSet<32>
+State1WMO<32>
+State1DestructionDoodadSet<32>
+State1ImpactEffectDoodadSet<32>
+State1AmbientDoodadSet<32>
+State2WMO<32>
+State2DestructionDoodadSet<32>
+State2ImpactEffectDoodadSet<32>
+State2AmbientDoodadSet<32>
+State3WMO<32>
+State3InitDoodadSet<32>
+State3AmbientDoodadSet<32>
+EjectDirection<32>
+RepairGroundFx<32>
+DoNotHighlight<32>
+HealEffect<32>
+HealEffectSpeed<32>
 
 BUILD 3.3.0.10958-3.3.5.12340
 $id$ID<32>
-state0ImpactEffectDoodadSet<32>
-state0AmbientDoodadSet<32>
-state1WMO<32>
-state1DestructionDoodadSet<32>
-state1ImpactEffectDoodadSet<32>
-state1AmbientDoodadSet<32>
-state2WMO<32>
-state2DestructionDoodadSet<32>
-state2ImpactEffectDoodadSet<32>
-state2AmbientDoodadSet<32>
-state3WMO<32>
-state3InitDoodadSet<32>
-state3AmbientDoodadSet<32>
-ejectDirection<32>
-repairGroundFx<32>
-doNotHighlight<32>
-healEffect<32>
-healEffectSpeed<32>
+State0ImpactEffectDoodadSet<32>
+State0AmbientDoodadSet<32>
+State1WMO<32>
+State1DestructionDoodadSet<32>
+State1ImpactEffectDoodadSet<32>
+State1AmbientDoodadSet<32>
+State2WMO<32>
+State2DestructionDoodadSet<32>
+State2ImpactEffectDoodadSet<32>
+State2AmbientDoodadSet<32>
+State3WMO<32>
+State3InitDoodadSet<32>
+State3AmbientDoodadSet<32>
+EjectDirection<32>
+RepairGroundFx<32>
+DoNotHighlight<32>
+HealEffect<32>
+HealEffectSpeed<32>
 
 BUILD 3.1.0.9767-3.2.2.10505
 $id$ID<32>
-state0ImpactEffectDoodadSet<32>
-state0AmbientDoodadSet<32>
-state1WMO<32>
-state1DestructionDoodadSet<32>
-state1ImpactEffectDoodadSet<32>
-state1AmbientDoodadSet<32>
-state2WMO<32>
-state2DestructionDoodadSet<32>
-state2ImpactEffectDoodadSet<32>
-state2AmbientDoodadSet<32>
-state3WMO<32>
-state3InitDoodadSet<32>
-state3AmbientDoodadSet<32>
-ejectDirection<32>
-repairGroundFx<32>
-doNotHighlight<32>
+State0ImpactEffectDoodadSet<32>
+State0AmbientDoodadSet<32>
+State1WMO<32>
+State1DestructionDoodadSet<32>
+State1ImpactEffectDoodadSet<32>
+State1AmbientDoodadSet<32>
+State2WMO<32>
+State2DestructionDoodadSet<32>
+State2ImpactEffectDoodadSet<32>
+State2AmbientDoodadSet<32>
+State3WMO<32>
+State3InitDoodadSet<32>
+State3AmbientDoodadSet<32>
+EjectDirection<32>
+RepairGroundFx<32>
+DoNotHighlight<32>

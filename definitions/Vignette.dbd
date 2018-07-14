@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-locstring name_lang
-int questFeedbackEffectID
-int flags
-float posX
-float posY
+locstring Name_lang
+int QuestFeedbackEffectID
+int Flags
+float PosX
+float PosY
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-name_lang
-questFeedbackEffectID<u32>
-flags<u32>
-posX
-posY
+Name_lang
+QuestFeedbackEffectID<u32>
+Flags<u32>
+PosX
+PosY

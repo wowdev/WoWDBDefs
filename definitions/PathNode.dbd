@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int<Path::ID> pathID
-int sequence
-int locationID
+int<Path::ID> PathID
+int Sequence
+int LocationID
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-pathID<u32>
-sequence<32>
-locationID<u32>
+PathID<u32>
+Sequence<32>
+LocationID<u32>

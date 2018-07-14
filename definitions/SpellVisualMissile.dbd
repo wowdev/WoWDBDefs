@@ -1,29 +1,29 @@
 COLUMNS
 int ID
-int spellVisualMissileSetID
-int<SpellVisualEffectName::ID> spellVisualEffectNameID
-int destinationAttachment
-int<SoundEntries::ID> soundEntriesID
-int attachment
-int field_2730632169?
-int followGroundDropSpeed
-int followGroundApproach
-int flags
-int<SpellMissileMotion::ID> spellMissileMotionID
-float impactOffset
-float castOffset
+int SpellVisualMissileSetID
+int<SpellVisualEffectName::ID> SpellVisualEffectNameID
+int DestinationAttachment
+int<SoundEntries::ID> SoundEntriesID
+int Attachment
+int Field_2730632169?
+int FollowGroundDropSpeed
+int FollowGroundApproach
+int Flags
+int<SpellMissileMotion::ID> SpellMissileMotionID
+float ImpactOffset
+float CastOffset
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-spellVisualMissileSetID<u32>
-spellVisualEffectNameID<u32>
-destinationAttachment<32>
-soundEntriesID<u32>
-attachment<32>
-field_2730632169<32>
-followGroundDropSpeed<32>
-followGroundApproach<32>
-flags<u32>
-spellMissileMotionID<u32>
-impactOffset[3]
-castOffset[3]
+SpellVisualMissileSetID<u32>
+SpellVisualEffectNameID<u32>
+DestinationAttachment<32>
+SoundEntriesID<u32>
+Attachment<32>
+Field_2730632169<32>
+FollowGroundDropSpeed<32>
+FollowGroundApproach<32>
+Flags<u32>
+SpellMissileMotionID<u32>
+ImpactOffset[3]
+CastOffset[3]

@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-locstring name_Lang_lang
-float damageModifier?
-int happinessThreshold
-float happinessDamage
+locstring Name_Lang_lang
+float DamageModifier?
+int HappinessThreshold
+float HappinessDamage
 
 BUILD 3.0.1.8622-4.2.0.14316
 $id$ID<32>
-name_Lang_lang
-happinessThreshold<32>[3]
-happinessDamage[3]
+Name_Lang_lang
+HappinessThreshold<32>[3]
+HappinessDamage[3]
 
 BUILD 0.9.0.3807-3.0.1.8471
 $id$ID<32>
-name_Lang_lang
-happinessThreshold<32>[3]
-happinessDamage[3]
-damageModifier[3]
+Name_Lang_lang
+HappinessThreshold<32>[3]
+HappinessDamage[3]
+DamageModifier[3]

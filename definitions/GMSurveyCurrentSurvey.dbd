@@ -1,7 +1,7 @@
 COLUMNS
-int langID
-int<GMSurveySurveys::ID> gmSurvey_ID
+int LangID
+int<GMSurveySurveys::ID> GmSurvey_ID
 
 BUILD 1.11.0.5344-5.4.8.18414
-langID<u32>
-gmSurvey_ID<u32>
+LangID<u32>
+GmSurvey_ID<u32>

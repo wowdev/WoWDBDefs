@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int flags
-int variable
-int op
-int value
+int Flags
+int Variable
+int Op
+int Value
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-flags<u32>
-variable<32>[8]
-op<32>[8]
-value<32>[8]
+Flags<u32>
+Variable<32>[8]
+Op<32>[8]
+Value<32>[8]

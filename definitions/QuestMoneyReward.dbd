@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int difficulty
+int Difficulty
 
 BUILD 5.3.0.16844-5.4.8.18414
 $id$ID<32>
-difficulty<32>[10]
+Difficulty<32>[10]

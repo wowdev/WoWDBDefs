@@ -1,360 +1,360 @@
 COLUMNS
-int field_2710747347?
-int field_2428198169?
-int field_3625367900?
-int field_7219658264?
-int field_347667662?
-int field_5132760575?
-int field_1872919691?
-int field_8451231413?
-int field_4471846513?
-int field_1633337131?
-int field_4845838786?
-int spellVisualMissileSetID
+int Field_2710747347?
+int Field_2428198169?
+int Field_3625367900?
+int Field_7219658264?
+int Field_347667662?
+int Field_5132760575?
+int Field_1872919691?
+int Field_8451231413?
+int Field_4471846513?
+int Field_1633337131?
+int Field_4845838786?
+int SpellVisualMissileSetID
 int ID
-int<SoundEntries::ID> animEventSoundID
-int flags
-int missileAttachment
-float missileCastOffset
-int missileDestinationAttachment
-float missileImpactOffset
-int missileTargetingKit
-int precastKit
-int castKit
-int impactKit
-int stateKit
-int stateDoneKit
-int channelKit
-int hasMissile
-int missileModel
-int missilePathType
-int missileSound
-int casterImpactKit
-int targetImpactKit
-int missileFollowGroundHeight
-int missileFollowGroundDropSpeed
-int missileFollowGroundApproach
-int missileFollowGroundFlags
-int missileMotion
-int instantAreaKit
-int impactAreaKit
-int persistentAreaKit
-float missileCastOffsetX
-float missileCastOffsetY
-float missileCastOffsetZ
-float missileImpactOffsetX
-float missileImpactOffsetY
-float missileImpactOffsetZ
-int hasAreaEffect
-int areaModel
-int areaKit
-int weaponTrailRed
-int weaponTrailGreen
-int weaponTrailBlue
-int weaponTrailAlpha
-int weaponTrailFadeoutRate
-int weaponTrailDuration
+int<SoundEntries::ID> AnimEventSoundID
+int Flags
+int MissileAttachment
+float MissileCastOffset
+int MissileDestinationAttachment
+float MissileImpactOffset
+int MissileTargetingKit
+int PrecastKit
+int CastKit
+int ImpactKit
+int StateKit
+int StateDoneKit
+int ChannelKit
+int HasMissile
+int MissileModel
+int MissilePathType
+int MissileSound
+int CasterImpactKit
+int TargetImpactKit
+int MissileFollowGroundHeight
+int MissileFollowGroundDropSpeed
+int MissileFollowGroundApproach
+int MissileFollowGroundFlags
+int MissileMotion
+int InstantAreaKit
+int ImpactAreaKit
+int PersistentAreaKit
+float MissileCastOffsetX
+float MissileCastOffsetY
+float MissileCastOffsetZ
+float MissileImpactOffsetX
+float MissileImpactOffsetY
+float MissileImpactOffsetZ
+int HasAreaEffect
+int AreaModel
+int AreaKit
+int WeaponTrailRed
+int WeaponTrailGreen
+int WeaponTrailBlue
+int WeaponTrailAlpha
+int WeaponTrailFadeoutRate
+int WeaponTrailDuration
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-field_2428198169<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-stateDoneKit<32>
-channelKit<32>
-missileDestinationAttachment<32>
-animEventSoundID<u32>
-field_1872919691<32>
-casterImpactKit<32>
-targetImpactKit<32>
-missileAttachment<32>
-missileMotion<32>
-missileTargetingKit<32>
-instantAreaKit<32>
-impactAreaKit<32>
-persistentAreaKit<32>
-missileCastOffset[3]
-missileImpactOffset[3]
-field_8451231413<32>
-field_4471846513<32>
-field_1633337131<32>
-field_4845838786<32>
-spellVisualMissileSetID<u32>
+Field_2428198169<32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+StateDoneKit<32>
+ChannelKit<32>
+MissileDestinationAttachment<32>
+AnimEventSoundID<u32>
+Field_1872919691<32>
+CasterImpactKit<32>
+TargetImpactKit<32>
+MissileAttachment<32>
+MissileMotion<32>
+MissileTargetingKit<32>
+InstantAreaKit<32>
+ImpactAreaKit<32>
+PersistentAreaKit<32>
+MissileCastOffset[3]
+MissileImpactOffset[3]
+Field_8451231413<32>
+Field_4471846513<32>
+Field_1633337131<32>
+Field_4845838786<32>
+SpellVisualMissileSetID<u32>
 
 BUILD 5.0.1.15668-5.3.0.17116
 $id$ID<32>
-field_2428198169<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-stateDoneKit<32>
-channelKit<32>
-hasMissile<32>
-missileModel<32>
-missilePathType<32>
-missileDestinationAttachment<32>
-missileSound<32>
-animEventSoundID<u32>
-flags<u32>
-casterImpactKit<32>
-targetImpactKit<32>
-missileAttachment<32>
-missileFollowGroundHeight<32>
-missileFollowGroundDropSpeed<32>
-missileFollowGroundApproach<32>
-field_3625367900<32>
-missileFollowGroundFlags<u32>
-missileMotion<32>
-missileTargetingKit<32>
-instantAreaKit<32>
-impactAreaKit<32>
-persistentAreaKit<32>
-missileCastOffset[3]
-missileImpactOffset[3]
-field_2710747347<32>
-field_7219658264<32>
-field_347667662<32>
-field_5132760575<32>
+Field_2428198169<32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+StateDoneKit<32>
+ChannelKit<32>
+HasMissile<32>
+MissileModel<32>
+MissilePathType<32>
+MissileDestinationAttachment<32>
+MissileSound<32>
+AnimEventSoundID<u32>
+Flags<u32>
+CasterImpactKit<32>
+TargetImpactKit<32>
+MissileAttachment<32>
+MissileFollowGroundHeight<32>
+MissileFollowGroundDropSpeed<32>
+MissileFollowGroundApproach<32>
+Field_3625367900<32>
+MissileFollowGroundFlags<u32>
+MissileMotion<32>
+MissileTargetingKit<32>
+InstantAreaKit<32>
+ImpactAreaKit<32>
+PersistentAreaKit<32>
+MissileCastOffset[3]
+MissileImpactOffset[3]
+Field_2710747347<32>
+Field_7219658264<32>
+Field_347667662<32>
+Field_5132760575<32>
 
 BUILD 5.0.1.15464-5.0.1.15662
 $id$ID<32>
-field_2428198169<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-stateDoneKit<32>
-channelKit<32>
-hasMissile<32>
-missileModel<32>
-missilePathType<32>
-missileDestinationAttachment<32>
-missileSound<32>
-animEventSoundID<u32>
-flags<u32>
-casterImpactKit<32>
-targetImpactKit<32>
-missileAttachment<32>
-missileFollowGroundHeight<32>
-missileFollowGroundDropSpeed<32>
-missileFollowGroundApproach<32>
-field_3625367900<32>
-missileFollowGroundFlags<u32>
-missileMotion<32>
-missileTargetingKit<32>
-instantAreaKit<32>
-impactAreaKit<32>
-persistentAreaKit<32>
-missileCastOffset[3]
-missileImpactOffset[3]
-field_2710747347<32>
+Field_2428198169<32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+StateDoneKit<32>
+ChannelKit<32>
+HasMissile<32>
+MissileModel<32>
+MissilePathType<32>
+MissileDestinationAttachment<32>
+MissileSound<32>
+AnimEventSoundID<u32>
+Flags<u32>
+CasterImpactKit<32>
+TargetImpactKit<32>
+MissileAttachment<32>
+MissileFollowGroundHeight<32>
+MissileFollowGroundDropSpeed<32>
+MissileFollowGroundApproach<32>
+Field_3625367900<32>
+MissileFollowGroundFlags<u32>
+MissileMotion<32>
+MissileTargetingKit<32>
+InstantAreaKit<32>
+ImpactAreaKit<32>
+PersistentAreaKit<32>
+MissileCastOffset[3]
+MissileImpactOffset[3]
+Field_2710747347<32>
 
 BUILD 4.1.0.13914-4.3.4.15595
 $id$ID<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-stateDoneKit<32>
-channelKit<32>
-hasMissile<32>
-missileModel<32>
-missilePathType<32>
-missileDestinationAttachment<32>
-missileSound<32>
-animEventSoundID<u32>
-flags<u32>
-casterImpactKit<32>
-targetImpactKit<32>
-missileAttachment<32>
-missileFollowGroundHeight<32>
-missileFollowGroundDropSpeed<32>
-missileFollowGroundApproach<32>
-missileFollowGroundFlags<u32>
-missileMotion<32>
-missileTargetingKit<32>
-instantAreaKit<32>
-impactAreaKit<32>
-persistentAreaKit<32>
-missileCastOffset[3]
-missileImpactOffset[3]
-field_2710747347<32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+StateDoneKit<32>
+ChannelKit<32>
+HasMissile<32>
+MissileModel<32>
+MissilePathType<32>
+MissileDestinationAttachment<32>
+MissileSound<32>
+AnimEventSoundID<u32>
+Flags<u32>
+CasterImpactKit<32>
+TargetImpactKit<32>
+MissileAttachment<32>
+MissileFollowGroundHeight<32>
+MissileFollowGroundDropSpeed<32>
+MissileFollowGroundApproach<32>
+MissileFollowGroundFlags<u32>
+MissileMotion<32>
+MissileTargetingKit<32>
+InstantAreaKit<32>
+ImpactAreaKit<32>
+PersistentAreaKit<32>
+MissileCastOffset[3]
+MissileImpactOffset[3]
+Field_2710747347<32>
 
 BUILD 3.2.0.10192-4.1.0.13875
 $id$ID<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-stateDoneKit<32>
-channelKit<32>
-hasMissile<32>
-missileModel<32>
-missilePathType<32>
-missileDestinationAttachment<32>
-missileSound<32>
-animEventSoundID<u32>
-flags<u32>
-casterImpactKit<32>
-targetImpactKit<32>
-missileAttachment<32>
-missileFollowGroundHeight<32>
-missileFollowGroundDropSpeed<32>
-missileFollowGroundApproach<32>
-missileFollowGroundFlags<u32>
-missileMotion<32>
-missileTargetingKit<32>
-instantAreaKit<32>
-impactAreaKit<32>
-persistentAreaKit<32>
-missileCastOffsetX
-missileCastOffsetY
-missileCastOffsetZ
-missileImpactOffsetX
-missileImpactOffsetY
-missileImpactOffsetZ
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+StateDoneKit<32>
+ChannelKit<32>
+HasMissile<32>
+MissileModel<32>
+MissilePathType<32>
+MissileDestinationAttachment<32>
+MissileSound<32>
+AnimEventSoundID<u32>
+Flags<u32>
+CasterImpactKit<32>
+TargetImpactKit<32>
+MissileAttachment<32>
+MissileFollowGroundHeight<32>
+MissileFollowGroundDropSpeed<32>
+MissileFollowGroundApproach<32>
+MissileFollowGroundFlags<u32>
+MissileMotion<32>
+MissileTargetingKit<32>
+InstantAreaKit<32>
+ImpactAreaKit<32>
+PersistentAreaKit<32>
+MissileCastOffsetX
+MissileCastOffsetY
+MissileCastOffsetZ
+MissileImpactOffsetX
+MissileImpactOffsetY
+MissileImpactOffsetZ
 
 BUILD 3.1.0.9767-3.1.3.9947
 $id$ID<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-stateDoneKit<32>
-channelKit<32>
-hasMissile<32>
-missileModel<32>
-missilePathType<32>
-missileDestinationAttachment<32>
-missileSound<32>
-animEventSoundID<u32>
-flags<u32>
-casterImpactKit<32>
-targetImpactKit<32>
-missileAttachment<32>
-missileFollowGroundHeight<32>
-missileFollowGroundDropSpeed<32>
-missileFollowGroundApproach<32>
-missileFollowGroundFlags<u32>
-missileMotion<32>
-missileTargetingKit<32>
-instantAreaKit<32>
-impactAreaKit<32>
-persistentAreaKit<32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+StateDoneKit<32>
+ChannelKit<32>
+HasMissile<32>
+MissileModel<32>
+MissilePathType<32>
+MissileDestinationAttachment<32>
+MissileSound<32>
+AnimEventSoundID<u32>
+Flags<u32>
+CasterImpactKit<32>
+TargetImpactKit<32>
+MissileAttachment<32>
+MissileFollowGroundHeight<32>
+MissileFollowGroundDropSpeed<32>
+MissileFollowGroundApproach<32>
+MissileFollowGroundFlags<u32>
+MissileMotion<32>
+MissileTargetingKit<32>
+InstantAreaKit<32>
+ImpactAreaKit<32>
+PersistentAreaKit<32>
 
 BUILD 2.4.0.8089-3.0.9.9551
 $id$ID<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-channelKit<32>
-hasMissile<32>
-missileModel<32>
-missilePathType<32>
-missileDestinationAttachment<32>
-missileSound<32>
-animEventSoundID<u32>
-flags<u32>
-casterImpactKit<32>
-targetImpactKit<32>
-missileAttachment<32>
-missileFollowGroundHeight<32>
-missileFollowGroundDropSpeed<32>
-missileFollowGroundApproach<32>
-missileFollowGroundFlags<u32>
-missileMotion<32>
-missileTargetingKit<32>
-instantAreaKit<32>
-impactAreaKit<32>
-persistentAreaKit<32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+ChannelKit<32>
+HasMissile<32>
+MissileModel<32>
+MissilePathType<32>
+MissileDestinationAttachment<32>
+MissileSound<32>
+AnimEventSoundID<u32>
+Flags<u32>
+CasterImpactKit<32>
+TargetImpactKit<32>
+MissileAttachment<32>
+MissileFollowGroundHeight<32>
+MissileFollowGroundDropSpeed<32>
+MissileFollowGroundApproach<32>
+MissileFollowGroundFlags<u32>
+MissileMotion<32>
+MissileTargetingKit<32>
+InstantAreaKit<32>
+ImpactAreaKit<32>
+PersistentAreaKit<32>
 
 BUILD 2.0.3.6299-2.3.3.7799
 $id$ID<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-channelKit<32>
-hasMissile<32>
-missileModel<32>
-missilePathType<32>
-missileDestinationAttachment<32>
-missileSound<32>
-hasAreaEffect<32>
-areaModel<32>
-areaKit<32>
-animEventSoundID<u32>
-flags<u32>
-casterImpactKit<32>
-targetImpactKit<32>
-missileAttachment<32>
-missileFollowGroundHeight<32>
-missileFollowGroundDropSpeed<32>
-missileFollowGroundApproach<32>
-missileFollowGroundFlags<u32>
-missileMotion<32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+ChannelKit<32>
+HasMissile<32>
+MissileModel<32>
+MissilePathType<32>
+MissileDestinationAttachment<32>
+MissileSound<32>
+HasAreaEffect<32>
+AreaModel<32>
+AreaKit<32>
+AnimEventSoundID<u32>
+Flags<u32>
+CasterImpactKit<32>
+TargetImpactKit<32>
+MissileAttachment<32>
+MissileFollowGroundHeight<32>
+MissileFollowGroundDropSpeed<32>
+MissileFollowGroundApproach<32>
+MissileFollowGroundFlags<u32>
+MissileMotion<32>
 
 BUILD 2.0.0.6080
 $id$ID<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-channelKit<32>
-hasMissile<32>
-missileModel<32>
-missilePathType<32>
-missileDestinationAttachment<32>
-missileSound<32>
-hasAreaEffect<32>
-areaModel<32>
-areaKit<32>
-animEventSoundID<u32>
-flags<u32>
-casterImpactKit<32>
-targetImpactKit<32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+ChannelKit<32>
+HasMissile<32>
+MissileModel<32>
+MissilePathType<32>
+MissileDestinationAttachment<32>
+MissileSound<32>
+HasAreaEffect<32>
+AreaModel<32>
+AreaKit<32>
+AnimEventSoundID<u32>
+Flags<u32>
+CasterImpactKit<32>
+TargetImpactKit<32>
 
 BUILD 0.7.0.3694-2.0.0.5991
 $id$ID<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-channelKit<32>
-hasMissile<32>
-missileModel<32>
-missilePathType<32>
-missileDestinationAttachment<32>
-missileSound<32>
-hasAreaEffect<32>
-areaModel<32>
-areaKit<32>
-animEventSoundID<u32>
-flags<u32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+ChannelKit<32>
+HasMissile<32>
+MissileModel<32>
+MissilePathType<32>
+MissileDestinationAttachment<32>
+MissileSound<32>
+HasAreaEffect<32>
+AreaModel<32>
+AreaKit<32>
+AnimEventSoundID<u32>
+Flags<u32>
 
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
-precastKit<32>
-castKit<32>
-impactKit<32>
-stateKit<32>
-channelKit<32>
-hasMissile<32>
-missileModel<32>
-missilePathType<32>
-missileDestinationAttachment<32>
-missileSound<32>
-hasAreaEffect<32>
-areaModel<32>
-areaKit<32>
-animEventSoundID<u32>
-weaponTrailRed<u8>
-weaponTrailGreen<u8>
-weaponTrailBlue<u8>
-weaponTrailAlpha<u8>
-weaponTrailFadeoutRate<u8>
-weaponTrailDuration<32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
+ChannelKit<32>
+HasMissile<32>
+MissileModel<32>
+MissilePathType<32>
+MissileDestinationAttachment<32>
+MissileSound<32>
+HasAreaEffect<32>
+AreaModel<32>
+AreaKit<32>
+AnimEventSoundID<u32>
+WeaponTrailRed<u8>
+WeaponTrailGreen<u8>
+WeaponTrailBlue<u8>
+WeaponTrailAlpha<u8>
+WeaponTrailFadeoutRate<u8>
+WeaponTrailDuration<32>

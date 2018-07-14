@@ -1,7 +1,7 @@
 COLUMNS
-int<AnimationData::ID> animID
-string animName
+int<AnimationData::ID> AnimID
+string AnimName
 
 BUILD 0.5.3.3368-6.2.0.20338
-$id$animID<32>
-animName
+$id$AnimID<32>
+AnimName

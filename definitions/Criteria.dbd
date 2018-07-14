@@ -1,27 +1,27 @@
 COLUMNS
 int ID
-int asset
-int start_event
-int start_asset
-int start_timer
-int fail_event
-int fail_asset
-int<ModifierTree::ID> modifier_tree_ID
-int<WorldState::ID> eligibility_world_state_ID
-int eligibility_world_state_value
-int type
-int flags
+int Asset
+int Start_event
+int Start_asset
+int Start_timer
+int Fail_event
+int Fail_asset
+int<ModifierTree::ID> Modifier_tree_ID
+int<WorldState::ID> Eligibility_world_state_ID
+int Eligibility_world_state_value
+int Type
+int Flags
 
 BUILD 5.0.1.15464-6.2.4.21742
 $id$ID<32>
-type<32>
-asset<32>
-start_event<32>
-start_asset<32>
-start_timer<32>
-fail_event<32>
-fail_asset<32>
-modifier_tree_ID<u32>
-flags<u32>
-eligibility_world_state_ID<u32>
-eligibility_world_state_value<32>
+Type<32>
+Asset<32>
+Start_event<32>
+Start_asset<32>
+Start_timer<32>
+Fail_event<32>
+Fail_asset<32>
+Modifier_tree_ID<u32>
+Flags<u32>
+Eligibility_world_state_ID<u32>
+Eligibility_world_state_value<32>

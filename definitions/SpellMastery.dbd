@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int<Spell::ID> spellID
-int page
-int classID
+int<Spell::ID> SpellID
+int Page
+int ClassID
 
 BUILD 4.0.0.11927-4.0.0.12319
 $id$ID<32>
-classID<u32>
-spellID<u32>
-page<32>
+ClassID<u32>
+SpellID<u32>
+Page<32>

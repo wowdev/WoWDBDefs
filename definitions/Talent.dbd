@@ -1,73 +1,73 @@
 COLUMNS
 int ID
-int specID
-int tierID
-int columnIndex
-int<Spell::ID> spellID
-int flags
-int categoryMask
-int classID
-int overridesSpellID
-locstring description_lang
-int tabID
-int spellRank
-int prereqTalent
-int prereqRank
-int<Spell::ID> requiredSpellID
+int SpecID
+int TierID
+int ColumnIndex
+int<Spell::ID> SpellID
+int Flags
+int CategoryMask
+int ClassID
+int OverridesSpellID
+locstring Description_lang
+int TabID
+int SpellRank
+int PrereqTalent
+int PrereqRank
+int<Spell::ID> RequiredSpellID
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-specID<u32>
-tierID<u32>
-columnIndex<32>
-spellID<u32>
-flags<u32>
-categoryMask<u32>[2]
-classID<u32>
-overridesSpellID<u32>
-description_lang
+SpecID<u32>
+TierID<u32>
+ColumnIndex<32>
+SpellID<u32>
+Flags<u32>
+CategoryMask<u32>[2]
+ClassID<u32>
+OverridesSpellID<u32>
+Description_lang
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
-tabID<u32>
-tierID<u32>
-columnIndex<32>
-spellRank<32>[5]
-prereqTalent<32>[3]
-prereqRank<32>[3]
-flags<u32>
-requiredSpellID<u32>
-categoryMask<u32>[2]
+TabID<u32>
+TierID<u32>
+ColumnIndex<32>
+SpellRank<32>[5]
+PrereqTalent<32>[3]
+PrereqRank<32>[3]
+Flags<u32>
+RequiredSpellID<u32>
+CategoryMask<u32>[2]
 
 BUILD 3.0.1.8622-4.0.0.12319
 $id$ID<32>
-tabID<u32>
-tierID<u32>
-columnIndex<32>
-spellRank<32>[9]
-prereqTalent<32>[3]
-prereqRank<32>[3]
-flags<u32>
-requiredSpellID<u32>
-categoryMask<u32>[2]
+TabID<u32>
+TierID<u32>
+ColumnIndex<32>
+SpellRank<32>[9]
+PrereqTalent<32>[3]
+PrereqRank<32>[3]
+Flags<u32>
+RequiredSpellID<u32>
+CategoryMask<u32>[2]
 
 BUILD 0.10.0.3892-3.0.1.8471
 $id$ID<32>
-tabID<u32>
-tierID<u32>
-columnIndex<32>
-spellRank<32>[9]
-prereqTalent<32>[3]
-prereqRank<32>[3]
-flags<u32>
-requiredSpellID<u32>
+TabID<u32>
+TierID<u32>
+ColumnIndex<32>
+SpellRank<32>[9]
+PrereqTalent<32>[3]
+PrereqRank<32>[3]
+Flags<u32>
+RequiredSpellID<u32>
 
 BUILD 0.7.0.3694-0.9.1.3810
 $id$ID<32>
-tabID<u32>
-tierID<u32>
-columnIndex<32>
-spellRank<32>[9]
-prereqTalent<32>[3]
-prereqRank<32>[3]
-flags<u32>
+TabID<u32>
+TierID<u32>
+ColumnIndex<32>
+SpellRank<32>[9]
+PrereqTalent<32>[3]
+PrereqRank<32>[3]
+Flags<u32>

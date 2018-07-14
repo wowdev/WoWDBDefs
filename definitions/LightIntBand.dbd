@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int num
-int time
-int data
+int Num
+int Time
+int Data
 
 BUILD 1.9.0.4937-4.3.4.15595
 $id$ID<32>
-num<32>
-time<32>[16]
-data<32>[16]
+Num<32>
+Time<32>[16]
+Data<32>[16]

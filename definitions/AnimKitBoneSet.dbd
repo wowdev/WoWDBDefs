@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-int boneDataID
-int<AnimKitBoneSet::ID> parentAnimKitBoneSetID
-int extraBoneCount
-int<AnimKitBoneSet::ID> altAnimKitBoneSetID
-string name
+int BoneDataID
+int<AnimKitBoneSet::ID> ParentAnimKitBoneSetID
+int ExtraBoneCount
+int<AnimKitBoneSet::ID> AltAnimKitBoneSetID
+string Name
 
 BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>
-name
-boneDataID<u32>
-parentAnimKitBoneSetID<u32>
-extraBoneCount<32>
-altAnimKitBoneSetID<u32>
+Name
+BoneDataID<u32>
+ParentAnimKitBoneSetID<u32>
+ExtraBoneCount<32>
+AltAnimKitBoneSetID<u32>

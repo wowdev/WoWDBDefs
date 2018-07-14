@@ -1,16 +1,16 @@
 COLUMNS
 int ID
-int field_9127761488?
-int field_4564812986?
-int field_4903173788?
-int field_89413602?
-float field_5139860564?
-int field_9425209015?
-int field_6743755609?
-int field_7470269043?
-float field_3098423207?
-float field_3369558972?
-int field_851597632?
+int Field_9127761488?
+int Field_4564812986?
+int Field_4903173788?
+int Field_89413602?
+float Field_5139860564?
+int Field_9425209015?
+int Field_6743755609?
+int Field_7470269043?
+float Field_3098423207?
+float Field_3369558972?
+int Field_851597632?
 int EAX2SampleRoom
 float EAX2SampleOcclusionLFRatio
 float EAX2SampleOcclusionRoomRatio
@@ -28,28 +28,28 @@ int EAX2SampleOutsideVolumeHF
 float EAX3SampleOcclusionDirectRatio
 float EAX3SampleExclusionLFRatio
 float EAX3SampleDopplerFactor
-float fast2DPredelayTime
-float fast2DDamping
-float fast2DReverbTime
+float Fast2DPredelayTime
+float Fast2DDamping
+float Fast2DReverbTime
 
 BUILD 0.6.0.3592-3.3.5.12340
 $id$ID<32>
-field_9127761488<32>
-field_4564812986<32>
+Field_9127761488<32>
+Field_4564812986<32>
 EAX2SampleRoom<32>
-field_4903173788<32>
-field_89413602<32>
-field_5139860564
-field_9425209015<32>
+Field_4903173788<32>
+Field_89413602<32>
+Field_5139860564
+Field_9425209015<32>
 EAX2SampleOcclusionLFRatio
 EAX2SampleOcclusionRoomRatio
-field_6743755609<32>
+Field_6743755609<32>
 EAX1EffectLevel
-field_7470269043<32>
-field_3098423207
+Field_7470269043<32>
+Field_3098423207
 EAX3SampleExclusion
-field_3369558972
-field_851597632<32>
+Field_3369558972
+Field_851597632<32>
 
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
@@ -70,6 +70,6 @@ EAX3SampleOcclusionDirectRatio
 EAX3SampleExclusion
 EAX3SampleExclusionLFRatio
 EAX3SampleDopplerFactor
-fast2DPredelayTime
-fast2DDamping
-fast2DReverbTime
+Fast2DPredelayTime
+Fast2DDamping
+Fast2DReverbTime

@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int inputType
-int mapType
-int outputType
-float param
+int InputType
+int MapType
+int OutputType
+float Param
 
 BUILD 3.0.1.8622-5.4.8.18414
 $id$ID<32>
-inputType<32>
-mapType<32>
-outputType<32>
-param[4]
+InputType<32>
+MapType<32>
+OutputType<32>
+Param[4]

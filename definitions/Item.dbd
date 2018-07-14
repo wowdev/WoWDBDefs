@@ -1,25 +1,25 @@
 COLUMNS
 int ID
-int<ItemClass::ID> classID
-int<ItemSubClass::ID> subclassID
-int sound_override_subclassID
-int material
-int displayInfoID
-int inventoryType
-int sheatheType
+int<ItemClass::ID> ClassID
+int<ItemSubClass::ID> SubclassID
+int Sound_override_subclassID
+int Material
+int DisplayInfoID
+int InventoryType
+int SheatheType
 
 BUILD 3.0.2.9056-5.4.8.18414
 $id$ID<32>
-classID<u32>
-subclassID<u32>
-sound_override_subclassID<u32>
-material<32>
-displayInfoID<u32>
-inventoryType<32>
-sheatheType<32>
+ClassID<u32>
+SubclassID<u32>
+Sound_override_subclassID<u32>
+Material<32>
+DisplayInfoID<u32>
+InventoryType<32>
+SheatheType<32>
 
 BUILD 2.4.0.8089-3.0.1.8885
 $id$ID<32>
-displayInfoID<u32>
-inventoryType<32>
-sheatheType<32>
+DisplayInfoID<u32>
+InventoryType<32>
+SheatheType<32>

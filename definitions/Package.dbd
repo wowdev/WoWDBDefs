@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-string icon
-int cost
-locstring name_lang
+string Icon
+int Cost
+locstring Name_lang
 
 BUILD 0.7.0.3694-6.1.2.19865
 $id$ID<32>
-icon
-cost<32>
-name_lang
+Icon
+Cost<32>
+Name_lang

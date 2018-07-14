@@ -1,41 +1,41 @@
 COLUMNS
 int ID
-int<ItemClass::ID> classID
-int subclassMapID
-int flags
-locstring className_lang
-float priceModifier
+int<ItemClass::ID> ClassID
+int SubclassMapID
+int Flags
+locstring ClassName_lang
+float PriceModifier
 
 BUILD 5.0.1.15726-5.4.8.18414
-classID<u32>
-flags<u32>
-priceModifier
-className_lang
+ClassID<u32>
+Flags<u32>
+PriceModifier
+ClassName_lang
 
 BUILD 4.3.2.15211-4.3.4.15595
 $id$ID<32>
-classID<u32>
-subclassMapID<u32>
-flags<u32>
-priceModifier
-className_lang
+ClassID<u32>
+SubclassMapID<u32>
+Flags<u32>
+PriceModifier
+ClassName_lang
 
 BUILD 5.0.1.15464-5.0.1.15699
 $id$ID<32>
-classID<u32>
-flags<u32>
-priceModifier
-className_lang
+ClassID<u32>
+Flags<u32>
+PriceModifier
+ClassName_lang
 
 BUILD 4.0.0.11792-4.3.0.15050
 $id$ID<32>
-classID<u32>
-subclassMapID<u32>
-flags<u32>
-className_lang
+ClassID<u32>
+SubclassMapID<u32>
+Flags<u32>
+ClassName_lang
 
 BUILD 0.5.3.3368-3.3.5.12340
 $id$ID<32>
-classID<u32>
-flags<u32>
-className_lang
+ClassID<u32>
+Flags<u32>
+ClassName_lang

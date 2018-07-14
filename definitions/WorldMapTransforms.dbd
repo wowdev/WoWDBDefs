@@ -1,88 +1,88 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-float regionMin
-float regionMax
-int<Map::ID> newMapID
-float regionOffset
-int<DungeonMap::ID> newDungeonMapID
-int flags
-int<AreaTable::ID> newAreaID
-float regionScale
-float regionMinX
-float regionMinY
-float regionMaxX
-float regionMaxY
-float regionOffsetX
-float regionOffsetY
+int<Map::ID> MapID
+float RegionMin
+float RegionMax
+int<Map::ID> NewMapID
+float RegionOffset
+int<DungeonMap::ID> NewDungeonMapID
+int Flags
+int<AreaTable::ID> NewAreaID
+float RegionScale
+float RegionMinX
+float RegionMinY
+float RegionMaxX
+float RegionMaxY
+float RegionOffsetX
+float RegionOffsetY
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-mapID<u32>
-regionMin[3]
-regionMax[3]
-newMapID<u32>
-regionOffset[2]
-newDungeonMapID<u32>
-flags<u32>
-newAreaID<u32>
-regionScale
+MapID<u32>
+RegionMin[3]
+RegionMax[3]
+NewMapID<u32>
+RegionOffset[2]
+NewDungeonMapID<u32>
+Flags<u32>
+NewAreaID<u32>
+RegionScale
 
 BUILD 5.2.0.16516-5.3.0.17116
 $id$ID<32>
-mapID<u32>
-regionMin[2]
-regionMax[2]
-newMapID<u32>
-regionOffset[2]
-newDungeonMapID<u32>
-flags<u32>
-newAreaID<u32>
-regionScale
+MapID<u32>
+RegionMin[2]
+RegionMax[2]
+NewMapID<u32>
+RegionOffset[2]
+NewDungeonMapID<u32>
+Flags<u32>
+NewAreaID<u32>
+RegionScale
 
 BUILD 4.1.0.13914-5.1.0.16357
 $id$ID<32>
-mapID<u32>
-regionMin[2]
-regionMax[2]
-newMapID<u32>
-regionOffset[2]
-newDungeonMapID<u32>
-flags<u32>
-newAreaID<u32>
+MapID<u32>
+RegionMin[2]
+RegionMax[2]
+NewMapID<u32>
+RegionOffset[2]
+NewDungeonMapID<u32>
+Flags<u32>
+NewAreaID<u32>
 
 BUILD 4.0.6.13623
 $id$ID<32>
-mapID<u32>
-regionMinX
-regionMinY
-regionMaxX
-regionMaxY
-newMapID<u32>
-regionOffsetX
-regionOffsetY
-newDungeonMapID<u32>
-flags<u32>
+MapID<u32>
+RegionMinX
+RegionMinY
+RegionMaxX
+RegionMaxY
+NewMapID<u32>
+RegionOffsetX
+RegionOffsetY
+NewDungeonMapID<u32>
+Flags<u32>
 
 BUILD 3.1.0.9767-4.0.6.13596
 $id$ID<32>
-mapID<u32>
-regionMinX
-regionMinY
-regionMaxX
-regionMaxY
-newMapID<u32>
-regionOffsetX
-regionOffsetY
-newDungeonMapID<u32>
+MapID<u32>
+RegionMinX
+RegionMinY
+RegionMaxX
+RegionMaxY
+NewMapID<u32>
+RegionOffsetX
+RegionOffsetY
+NewDungeonMapID<u32>
 
 BUILD 2.0.0.5665-3.0.9.9551
 $id$ID<32>
-mapID<u32>
-regionMinX
-regionMinY
-regionMaxX
-regionMaxY
-newMapID<u32>
-regionOffsetX
-regionOffsetY
+MapID<u32>
+RegionMinX
+RegionMinY
+RegionMaxX
+RegionMaxY
+NewMapID<u32>
+RegionOffsetX
+RegionOffsetY

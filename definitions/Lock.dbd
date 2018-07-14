@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-int type
-int index
-int skill
-int action
+int Type
+int Index
+int Skill
+int Action
 
 BUILD 0.5.3.3368-0.9.1.3810
 $id$ID<32>
-type<32>[4]
-index<32>[4]
-skill<32>[4]
-action<32>[4]
+Type<32>[4]
+Index<32>[4]
+Skill<32>[4]
+Action<32>[4]
 
 BUILD 0.10.0.3892-6.2.4.21742
 $id$ID<32>
-type<32>[8]
-index<32>[8]
-skill<32>[8]
-action<32>[8]
+Type<32>[8]
+Index<32>[8]
+Skill<32>[8]
+Action<32>[8]

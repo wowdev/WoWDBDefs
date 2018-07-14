@@ -1,160 +1,160 @@
 COLUMNS
 int ID
-int skillLine
-int spell
-int raceMask
-int classMask
-int minSkillLineRank
-int supercedesSpell
-int acquireMethod
-int trivialSkillLineRankHigh
-int trivialSkillLineRankLow
-int numSkillUps
-int uniqueBit
-int<TradeSkillCategory::ID> tradeSkillCategoryID
-int supercededBySpell
-int excludeRace
-int excludeClass
-int field_1257850807? // only set on [Plate Mail] in 0.5.5
-int characterPoints
-int abandonable
+int SkillLine
+int Spell
+int RaceMask
+int ClassMask
+int MinSkillLineRank
+int SupercedesSpell
+int AcquireMethod
+int TrivialSkillLineRankHigh
+int TrivialSkillLineRankLow
+int NumSkillUps
+int UniqueBit
+int<TradeSkillCategory::ID> TradeSkillCategoryID
+int SupercededBySpell
+int ExcludeRace
+int ExcludeClass
+int Field_1257850807? // only set on [Plate Mail] in 0.5.5
+int CharacterPoints
+int Abandonable
 
 BUILD 5.0.1.15650-5.0.1.15657
 BUILD 5.0.1.15668-5.4.8.18414
 $id$ID<32>
-skillLine<32>
-spell<32>
-raceMask<u32>
-classMask<u32>
-minSkillLineRank<32>
-supercedesSpell<32>
-acquireMethod<32>
-trivialSkillLineRankHigh<32>
-trivialSkillLineRankLow<32>
-numSkillUps<32>
-uniqueBit<32>
-tradeSkillCategoryID<u32>
+SkillLine<32>
+Spell<32>
+RaceMask<u32>
+ClassMask<u32>
+MinSkillLineRank<32>
+SupercedesSpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+NumSkillUps<32>
+UniqueBit<32>
+TradeSkillCategoryID<u32>
 
 BUILD 5.0.1.15662
 BUILD 5.0.1.15464-5.0.1.15640
 $id$ID<32>
-skillLine<32>
-spell<32>
-raceMask<u32>
-classMask<u32>
-minSkillLineRank<32>
-supercedesSpell<32>
-acquireMethod<32>
-trivialSkillLineRankHigh<32>
-trivialSkillLineRankLow<32>
-numSkillUps<32>
-uniqueBit<32>
+SkillLine<32>
+Spell<32>
+RaceMask<u32>
+ClassMask<u32>
+MinSkillLineRank<32>
+SupercedesSpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+NumSkillUps<32>
+UniqueBit<32>
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
-skillLine<32>
-spell<32>
-raceMask<u32>
-classMask<u32>
-excludeRace<32>
-excludeClass<32>
-minSkillLineRank<32>
-supercededBySpell<32>
-acquireMethod<32>
-trivialSkillLineRankHigh<32>
-trivialSkillLineRankLow<32>
-numSkillUps<32>
-uniqueBit<32>
+SkillLine<32>
+Spell<32>
+RaceMask<u32>
+ClassMask<u32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+NumSkillUps<32>
+UniqueBit<32>
 
 BUILD 4.0.0.12266-4.0.0.12319
 $id$ID<32>
-skillLine<32>
-spell<32>
-raceMask<u32>
-classMask<u32>
-excludeRace<32>
-excludeClass<32>
-minSkillLineRank<32>
-supercededBySpell<32>
-acquireMethod<32>
-trivialSkillLineRankHigh<32>
-trivialSkillLineRankLow<32>
-characterPoints<32>[2]
-numSkillUps<32>
-uniqueBit<32>
+SkillLine<32>
+Spell<32>
+RaceMask<u32>
+ClassMask<u32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+CharacterPoints<32>[2]
+NumSkillUps<32>
+UniqueBit<32>
 
 BUILD 4.0.0.11927-4.0.0.12232
 $id$ID<32>
-skillLine<32>
-spell<32>
-raceMask<u32>
-classMask<u32>
-excludeRace<32>
-excludeClass<32>
-minSkillLineRank<32>
-supercededBySpell<32>
-acquireMethod<32>
-trivialSkillLineRankHigh<32>
-trivialSkillLineRankLow<32>
-characterPoints<32>[2]
-numSkillUps<32>
+SkillLine<32>
+Spell<32>
+RaceMask<u32>
+ClassMask<u32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+CharacterPoints<32>[2]
+NumSkillUps<32>
 
 BUILD 3.0.1.8788-3.3.5.12340
 $id$ID<32>
-skillLine<32>
-spell<32>
-raceMask<u32>
-classMask<u32>
-excludeRace<32>
-excludeClass<32>
-minSkillLineRank<32>
-supercededBySpell<32>
-acquireMethod<32>
-trivialSkillLineRankHigh<32>
-trivialSkillLineRankLow<32>
-characterPoints<32>[2]
+SkillLine<32>
+Spell<32>
+RaceMask<u32>
+ClassMask<u32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+CharacterPoints<32>[2]
 
 BUILD 0.10.0.3892-3.0.1.8770
 $id$ID<32>
-skillLine<32>
-spell<32>
-raceMask<u32>
-classMask<u32>
-excludeRace<32>
-excludeClass<32>
-minSkillLineRank<32>
-supercededBySpell<32>
-acquireMethod<32>
-trivialSkillLineRankHigh<32>
-trivialSkillLineRankLow<32>
-characterPoints<32>[2]
-numSkillUps<32>
+SkillLine<32>
+Spell<32>
+RaceMask<u32>
+ClassMask<u32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+CharacterPoints<32>[2]
+NumSkillUps<32>
 
 BUILD 0.5.5.3494-0.9.1.3810
 $id$ID<32>
-skillLine<32>
-spell<32>
-raceMask<u32>
-classMask<u32>
-excludeRace<32>
-excludeClass<32>
-minSkillLineRank<32>
-supercededBySpell<32>
-acquireMethod<32>
-trivialSkillLineRankHigh<32>
-trivialSkillLineRankLow<32>
-field_1257850807<32>
+SkillLine<32>
+Spell<32>
+RaceMask<u32>
+ClassMask<u32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+Field_1257850807<32>
 
 BUILD 0.5.3.3368
 $id$ID<32>
-skillLine<32>
-spell<32>
-raceMask<u32>
-classMask<u32>
-excludeRace<32>
-excludeClass<32>
-minSkillLineRank<32>
-supercededBySpell<32>
-trivialSkillLineRankHigh<32>
-trivialSkillLineRankLow<32>
-abandonable<32>
+SkillLine<32>
+Spell<32>
+RaceMask<u32>
+ClassMask<u32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+Abandonable<32>

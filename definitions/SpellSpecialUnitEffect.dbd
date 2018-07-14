@@ -1,7 +1,7 @@
 COLUMNS
-int enumID
-int<SpellVisualEffectName::ID> spellVisualEffectNameID
+int EnumID
+int<SpellVisualEffectName::ID> SpellVisualEffectNameID
 
 BUILD 4.2.0.14333-5.4.8.18414
-$id$enumID<32>
-spellVisualEffectNameID<u32>
+$id$EnumID<32>
+SpellVisualEffectNameID<u32>

@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int<TalentTab::ID> talentTabID?
-int<Spell::ID> spellID?
-int field_4770519884?
+int<TalentTab::ID> TalentTabID?
+int<Spell::ID> SpellID?
+int Field_4770519884?
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
-talentTabID<u32>
-spellID<u32>
-field_4770519884<32>
+TalentTabID<u32>
+SpellID<u32>
+Field_4770519884<32>

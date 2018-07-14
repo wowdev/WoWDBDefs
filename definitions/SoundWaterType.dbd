@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int soundType
-int soundSubtype
-int<SoundEntries::ID> soundID
+int SoundType
+int SoundSubtype
+int<SoundEntries::ID> SoundID
 
 BUILD 0.5.3.3368-3.3.5.12340
 $id$ID<32>
-soundType<32>
-soundSubtype<32>
-soundID<u32>
+SoundType<32>
+SoundSubtype<32>
+SoundID<u32>

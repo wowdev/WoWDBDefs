@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-int itemUpgradePath
-int itemLevelUpgrade
-int precItemUpgradeID
-int currencyID
-int currencyCost
+int ItemUpgradePath
+int ItemLevelUpgrade
+int PrecItemUpgradeID
+int CurrencyID
+int CurrencyCost
 
 BUILD 5.0.1.15464-5.0.1.15662
 $id$ID<32>
-itemUpgradePath<32>
-itemLevelUpgrade<32>
-precItemUpgradeID<u32>
+ItemUpgradePath<32>
+ItemLevelUpgrade<32>
+PrecItemUpgradeID<u32>
 
 BUILD 5.0.1.15668-5.4.8.18414
 $id$ID<32>
-itemUpgradePath<32>
-itemLevelUpgrade<32>
-precItemUpgradeID<u32>
-currencyID<u32>
-currencyCost<32>
+ItemUpgradePath<32>
+ItemLevelUpgrade<32>
+PrecItemUpgradeID<u32>
+CurrencyID<u32>
+CurrencyCost<32>

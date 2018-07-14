@@ -1,68 +1,68 @@
 COLUMNS
 int ID
-int bonusActionBar
-locstring name_lang
-int flags
-int creatureType
-int<SpellIcon::ID> attackIconID
-int combatRoundTime
-int creatureDisplayID
-int<Spell::ID> presetSpellID
-int mountTypeID
-int<SoundEntries::ID> exitSoundEntriesID
+int BonusActionBar
+locstring Name_lang
+int Flags
+int CreatureType
+int<SpellIcon::ID> AttackIconID
+int CombatRoundTime
+int CreatureDisplayID
+int<Spell::ID> PresetSpellID
+int MountTypeID
+int<SoundEntries::ID> ExitSoundEntriesID
 
 BUILD 4.0.6.13623-6.2.4.21742
 $id$ID<32>
-bonusActionBar<32>
-name_lang
-flags<u32>
-creatureType<32>
-attackIconID<u32>
-combatRoundTime<32>
-creatureDisplayID<u32>[4]
-presetSpellID<u32>[8]
-mountTypeID<u32>
-exitSoundEntriesID<u32>
+BonusActionBar<32>
+Name_lang
+Flags<u32>
+CreatureType<32>
+AttackIconID<u32>
+CombatRoundTime<32>
+CreatureDisplayID<u32>[4]
+PresetSpellID<u32>[8]
+MountTypeID<u32>
+ExitSoundEntriesID<u32>
 
 BUILD 2.3.0.7561-4.0.6.13596
 $id$ID<32>
-bonusActionBar<32>
-name_lang
-flags<u32>
-creatureType<32>
-attackIconID<u32>
-combatRoundTime<32>
-creatureDisplayID<u32>[4]
-presetSpellID<u32>[8]
+BonusActionBar<32>
+Name_lang
+Flags<u32>
+CreatureType<32>
+AttackIconID<u32>
+CombatRoundTime<32>
+CreatureDisplayID<u32>[4]
+PresetSpellID<u32>[8]
 
 BUILD 2.0.0.5610-2.0.0.5965
 BUILD 2.0.0.6022-2.2.0.7272
 $id$ID<32>
-bonusActionBar<32>
-name_lang
-flags<u32>
-creatureType<32>
-attackIconID<u32>
-combatRoundTime<32>
+BonusActionBar<32>
+Name_lang
+Flags<u32>
+CreatureType<32>
+AttackIconID<u32>
+CombatRoundTime<32>
 
 BUILD 2.0.0.5991
 BUILD 0.9.0.3807-1.12.2.6005
 $id$ID<32>
-bonusActionBar<32>
-name_lang
-flags<u32>
-creatureType<32>
-attackIconID<u32>
+BonusActionBar<32>
+Name_lang
+Flags<u32>
+CreatureType<32>
+AttackIconID<u32>
 
 BUILD 0.6.0.3592-0.8.0.3734
 $id$ID<32>
-bonusActionBar<32>
-name_lang
-flags<u32>
-creatureType<32>
+BonusActionBar<32>
+Name_lang
+Flags<u32>
+CreatureType<32>
 
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
-bonusActionBar<32>
-name_lang
-flags<u32>
+BonusActionBar<32>
+Name_lang
+Flags<u32>

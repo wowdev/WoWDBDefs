@@ -1,36 +1,36 @@
 COLUMNS
 int ID
-int worldMapContinentID
-int chunkX
-int chunkY
-int subchunkX
-int subchunkY
-int zoneIntroMusicID
-int<ZoneMusic::ID> zoneMusicID
-int<SoundAmbience::ID> soundAmbienceID
-int<SoundProviderPreferences::ID> soundProviderPreferencesID
+int WorldMapContinentID
+int ChunkX
+int ChunkY
+int SubchunkX
+int SubchunkY
+int ZoneIntroMusicID
+int<ZoneMusic::ID> ZoneMusicID
+int<SoundAmbience::ID> SoundAmbienceID
+int<SoundProviderPreferences::ID> SoundProviderPreferencesID
 
-COMMENT completely unvalidated
 BUILD 4.0.0.11927-5.4.8.18414
-$id$ID<32>
-worldMapContinentID<u32>
-chunkX<32>
-chunkY<32>
-subchunkX<32>
-subchunkY<32>
-zoneIntroMusicID<u32>
-zoneMusicID<u32>
-soundAmbienceID<u32>
-soundProviderPreferencesID<u32>
-
 COMMENT completely unvalidated
-BUILD 3.0.1.8303-3.3.5.12340
 $id$ID<32>
-chunkX<32>
-chunkY<32>
-subchunkX<32>
-subchunkY<32>
-zoneIntroMusicID<u32>
-zoneMusicID<u32>
-soundAmbienceID<u32>
-soundProviderPreferencesID<u32>
+WorldMapContinentID<u32>
+ChunkX<32>
+ChunkY<32>
+SubchunkX<32>
+SubchunkY<32>
+ZoneIntroMusicID<u32>
+ZoneMusicID<u32>
+SoundAmbienceID<u32>
+SoundProviderPreferencesID<u32>
+
+BUILD 3.0.1.8303-3.3.5.12340
+COMMENT completely unvalidated
+$id$ID<32>
+ChunkX<32>
+ChunkY<32>
+SubchunkX<32>
+SubchunkY<32>
+ZoneIntroMusicID<u32>
+ZoneMusicID<u32>
+SoundAmbienceID<u32>
+SoundProviderPreferencesID<u32>

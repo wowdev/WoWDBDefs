@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int proficiency_minLevel
-int proficiency_acquireMethod
-int proficiency_itemClass
-int proficiency_itemSubClassMask
+int Proficiency_minLevel
+int Proficiency_acquireMethod
+int Proficiency_itemClass
+int Proficiency_itemSubClassMask
 
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
-proficiency_minLevel<32>[16]
-proficiency_acquireMethod<32>[16]
-proficiency_itemClass<32>[16]
-proficiency_itemSubClassMask<u32>[16]
+Proficiency_minLevel<32>[16]
+Proficiency_acquireMethod<32>[16]
+Proficiency_itemClass<32>[16]
+Proficiency_itemSubClassMask<u32>[16]

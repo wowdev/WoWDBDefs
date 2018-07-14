@@ -1,451 +1,451 @@
 COLUMNS
 int ID
-int maxPlayers
-int<Map::ID> parentMapID
-int raidOffset
-int<AreaTable::ID> areaTableID
-float minimapIconScale
-int timeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
-int expansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
-int<Map::ID> corpseMapID
-float corpse // Array of CorpsePosX/CorpsePosY
-float corpseX
-float corpseY
-int mapType? // flags2?
-string directory // reference to World\Map\ [...] \
-int instanceType // Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: none (official from "IsInInstance()")
-int flags? // probaby same as isBattleground
+int MaxPlayers
+int<Map::ID> ParentMapID
+int RaidOffset
+int<AreaTable::ID> AreaTableID
+float MinimapIconScale
+int TimeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
+int ExpansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
+int<Map::ID> CorpseMapID
+float Corpse // Array of CorpsePosX/CorpsePosY
+float CorpseX
+float CorpseY
+int MapType? // flags2?
+string Directory // reference to World\Map\ [...] \
+int InstanceType // Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: none (official from "IsInInstance()")
+int Flags? // probaby same as isBattleground
 int PVP
-locstring mapName_lang
-locstring mapDescription0_lang // Horde
-locstring mapDescription1_lang // Alliance
-int<LoadingScreens::ID> loadingScreenID
-float field_4964484313?
-float field_9587872023?
-int field_2247165847?
-int field_9255427126?
-int field_1503292080?
-int field_5912426507?
-int field_5921303111?
-int field_9536626911?
-int field_3987832993?
-int field_4273480476?
-locstring field_8675488386_lang?
-locstring field_7024529058_lang?
-locstring field_7024529059_lang?
-int field_1361911791?
-int field_8095063021?
-int field_5264554435?
-int isInMap
+locstring MapName_lang
+locstring MapDescription0_lang // Horde
+locstring MapDescription1_lang // Alliance
+int<LoadingScreens::ID> LoadingScreenID
+float Field_4964484313?
+float Field_9587872023?
+int Field_2247165847?
+int Field_9255427126?
+int Field_1503292080?
+int Field_5912426507?
+int Field_5921303111?
+int Field_9536626911?
+int Field_3987832993?
+int Field_4273480476?
+locstring Field_8675488386_lang?
+locstring Field_7024529058_lang?
+locstring Field_7024529059_lang?
+int Field_1361911791?
+int Field_8095063021?
+int Field_5264554435?
+int IsInMap
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-directory
-instanceType<32>
-flags<32>
-mapType<32>
-mapName_lang
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-minimapIconScale
-corpseMapID<u32>
-corpseX
-corpseY
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
-maxPlayers<32>
-parentMapID<u32>
+Directory
+InstanceType<32>
+Flags<32>
+MapType<32>
+MapName_lang
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+MinimapIconScale
+CorpseMapID<u32>
+CorpseX
+CorpseY
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<u32>
 
 BUILD 4.0.6.13623-5.0.1.15544
 $id$ID<32>
-directory
-instanceType<32>
-flags<32>
-mapType<32>
+Directory
+InstanceType<32>
+Flags<32>
+MapType<32>
 PVP<32>
-mapName_lang
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-minimapIconScale
-corpseMapID<u32>
-corpse[2]
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
-maxPlayers<32>
-parentMapID<u32>
+MapName_lang
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+MinimapIconScale
+CorpseMapID<u32>
+Corpse[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<u32>
 
 BUILD 4.0.0.11927-4.0.6.13596
 $id$ID<32>
-directory
-instanceType<32>
-flags<32>
+Directory
+InstanceType<32>
+Flags<32>
 PVP<32>
-mapName_lang
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-minimapIconScale
-corpseMapID<u32>
-corpse[2]
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
-maxPlayers<32>
-parentMapID<u32>
+MapName_lang
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+MinimapIconScale
+CorpseMapID<u32>
+Corpse[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<u32>
 
 BUILD 3.3.0.10958-3.3.5.12340
 $id$ID<32>
-directory
-instanceType<32>
-flags<32>
+Directory
+InstanceType<32>
+Flags<32>
 PVP<32>
-mapName_lang
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-minimapIconScale
-corpseMapID<u32>
-corpse[2]
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
-maxPlayers<32>
+MapName_lang
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+MinimapIconScale
+CorpseMapID<u32>
+Corpse[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
 
 BUILD 3.2.0.10192-3.2.2.10505
 $id$ID<32>
-directory
-instanceType<32>
+Directory
+InstanceType<32>
 PVP<32>
-mapName_lang
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-minimapIconScale
-corpseMapID<u32>
-corpse[2]
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
-maxPlayers<32>
+MapName_lang
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+MinimapIconScale
+CorpseMapID<u32>
+Corpse[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
 
 BUILD 3.0.3.9183-3.1.3.9947
 $id$ID<32>
-directory
-instanceType<32>
+Directory
+InstanceType<32>
 PVP<32>
-mapName_lang
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-minimapIconScale
-field_8675488386_lang
-field_7024529058_lang
-field_7024529059_lang
-corpseMapID<u32>
-corpse[2]
-field_1361911791<32>
-field_5912426507<32>
-field_5921303111<32>
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
+MapName_lang
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+MinimapIconScale
+Field_8675488386_lang
+Field_7024529058_lang
+Field_7024529059_lang
+CorpseMapID<u32>
+Corpse[2]
+Field_1361911791<32>
+Field_5912426507<32>
+Field_5921303111<32>
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
 
 BUILD 3.0.2.9056
 $id$ID<32>
-directory
-instanceType<32>
+Directory
+InstanceType<32>
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_9536626911<32>
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-field_3987832993<32>
-field_4273480476<32>
-minimapIconScale
-field_8675488386_lang
-field_7024529058_lang
-field_7024529059_lang
-corpseMapID<u32>
-corpse[2]
-field_1361911791<32>
-field_8095063021<32>
-field_5264554435<32>
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_9536626911<32>
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+Field_3987832993<32>
+Field_4273480476<32>
+MinimapIconScale
+Field_8675488386_lang
+Field_7024529058_lang
+Field_7024529059_lang
+CorpseMapID<u32>
+Corpse[2]
+Field_1361911791<32>
+Field_8095063021<32>
+Field_5264554435<32>
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
 
 BUILD 3.0.1.8788, 3.0.1.8820, 3.0.1.8874, 3.0.1.8885
 $id$ID<32>
-directory
-instanceType<32>
+Directory
+InstanceType<32>
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_9536626911<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-field_1361911791<32>
-field_5264554435<32>
-minimapIconScale
-field_8675488386_lang
-field_7024529058_lang
-field_7024529059_lang
-corpseMapID<u32>
-corpse[2]
-field_2247165847<32>
-field_9255427126<32>
-field_1503292080<32>
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_9536626911<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+Field_1361911791<32>
+Field_5264554435<32>
+MinimapIconScale
+Field_8675488386_lang
+Field_7024529058_lang
+Field_7024529059_lang
+CorpseMapID<u32>
+Corpse[2]
+Field_2247165847<32>
+Field_9255427126<32>
+Field_1503292080<32>
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
 
 BUILD 2.4.0.8089-3.0.1.8770
 $id$ID<32>
-directory
-instanceType<32>
+Directory
+InstanceType<32>
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_9536626911<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-field_1361911791<32>
-field_5264554435<32>
-minimapIconScale
-field_8675488386_lang
-field_7024529058_lang
-field_7024529059_lang
-corpseMapID<u32>
-corpse[2]
-field_2247165847<32>
-field_9255427126<32>
-field_1503292080<32>
-timeOfDayOverride<32>
-expansionID<32>
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_9536626911<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+Field_1361911791<32>
+Field_5264554435<32>
+MinimapIconScale
+Field_8675488386_lang
+Field_7024529058_lang
+Field_7024529059_lang
+CorpseMapID<u32>
+Corpse[2]
+Field_2247165847<32>
+Field_9255427126<32>
+Field_1503292080<32>
+TimeOfDayOverride<32>
+ExpansionID<32>
 
 BUILD 2.0.3.6299-2.3.3.7799
 $id$ID<32>
-directory
-instanceType<32>
+Directory
+InstanceType<32>
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_9536626911<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-field_1361911791<32>
-field_5264554435<32>
-minimapIconScale
-field_8675488386_lang
-field_7024529058_lang
-field_7024529059_lang
-corpseMapID<u32>
-corpse[2]
-field_2247165847<32>
-field_9255427126<32>
-field_1503292080<32>
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_9536626911<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+Field_1361911791<32>
+Field_5264554435<32>
+MinimapIconScale
+Field_8675488386_lang
+Field_7024529058_lang
+Field_7024529059_lang
+CorpseMapID<u32>
+Corpse[2]
+Field_2247165847<32>
+Field_9255427126<32>
+Field_1503292080<32>
 
 BUILD 2.0.0.6080
 $id$ID<32>
-directory
-instanceType<32>
+Directory
+InstanceType<32>
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_9536626911<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-field_1361911791<32>
-field_5264554435<32>
-minimapIconScale
-field_8675488386_lang
-field_7024529058_lang
-field_7024529059_lang
-corpseMapID<u32>
-corpse[2]
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_9536626911<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+Field_1361911791<32>
+Field_5264554435<32>
+MinimapIconScale
+Field_8675488386_lang
+Field_7024529058_lang
+Field_7024529059_lang
+CorpseMapID<u32>
+Corpse[2]
 
 BUILD 1.11.0.5344-1.12.0.5595
 BUILD 1.12.1.5875-1.12.2.6005
 $id$ID<32>
-directory
-instanceType<32>
+Directory
+InstanceType<32>
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_9536626911<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-field_1361911791<32>
-field_5264554435<32>
-minimapIconScale
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_9536626911<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+Field_1361911791<32>
+Field_5264554435<32>
+MinimapIconScale
 
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>
-directory
-instanceType<32>
+Directory
+InstanceType<32>
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_9536626911<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-field_1361911791<32>
-field_5264554435<32>
-minimapIconScale
-field_8675488386_lang
-field_7024529058_lang
-field_7024529059_lang
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_9536626911<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+Field_1361911791<32>
+Field_5264554435<32>
+MinimapIconScale
+Field_8675488386_lang
+Field_7024529058_lang
+Field_7024529059_lang
 
 BUILD 2.0.0.5991
 BUILD 1.8.0.4735-1.10.2.5302
 $id$ID<32>
-directory
+Directory
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_9536626911<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-field_1361911791<32>
-field_5264554435<32>
-minimapIconScale
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_9536626911<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+Field_1361911791<32>
+Field_5264554435<32>
+MinimapIconScale
 
 BUILD 1.7.0.4671-1.8.0.4714
 $id$ID<32>
-directory
+Directory
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_9536626911<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-field_1361911791<32>
-field_5264554435<32>
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_9536626911<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+Field_1361911791<32>
+Field_5264554435<32>
 
 BUILD 1.5.0.4442-1.6.1.4544
 $id$ID<32>
-directory
+Directory
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_9536626911<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
-field_1361911791<32>
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_9536626911<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
+Field_1361911791<32>
 
 BUILD 0.9.0.3807-1.4.2.4375
 $id$ID<32>
-directory
+Directory
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
-loadingScreenID<u32>
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<u32>
 
 BUILD 0.8.0.3734
 $id$ID<32>
-directory
+Directory
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-areaTableID<u32>
-mapDescription0_lang
-mapDescription1_lang
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+AreaTableID<u32>
+MapDescription0_lang
+MapDescription1_lang
 
 BUILD 0.7.0.3694-0.7.6.3712
 $id$ID<32>
-directory
+Directory
 PVP<32>
-mapName_lang
-field_5912426507<32>
-field_5921303111<32>
-field_3987832993<32>
-field_4964484313
-field_9587872023
-mapDescription0_lang
-mapDescription1_lang
+MapName_lang
+Field_5912426507<32>
+Field_5921303111<32>
+Field_3987832993<32>
+Field_4964484313
+Field_9587872023
+MapDescription0_lang
+MapDescription1_lang
 
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
-directory
+Directory
 PVP<32>
-isInMap<32>
-mapName_lang
+IsInMap<32>
+MapName_lang

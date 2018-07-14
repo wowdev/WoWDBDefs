@@ -1,387 +1,387 @@
 COLUMNS
 int ID
-int flags
-int factionGroupMask
-int<LiquidType::ID> liquidTypeID
-float minElevation
-float ambient_multiplier
-int<Light::ID> lightID
-int mountFlags
-int<ZoneIntroMusicTable::ID> uwIntroSound
-int<ZoneMusic::ID> uwZoneMusic
-int<SoundAmbience::ID> uwAmbience
-int world_pvp_ID
-int<WorldState::ID> pvpCombatWorldStateID
-int wildBattlePetLevelMin
-int wildBattlePetLevelMax
-int<Map::ID> continentID
-int<AreaTable::ID> parentAreaID
-int areaBit
-int<SoundProviderPreferences::ID> soundProviderPref
-int<SoundProviderPreferences::ID> soundProviderPrefUnderwater
-int<SoundAmbience::ID> ambienceID
-int<ZoneMusic::ID> zoneMusic
-int<ZoneIntroMusicTable::ID> introSound
-int explorationLevel
-locstring areaName_lang
-string zoneName
-int introPriority
+int Flags
+int FactionGroupMask
+int<LiquidType::ID> LiquidTypeID
+float MinElevation
+float Ambient_multiplier
+int<Light::ID> LightID
+int MountFlags
+int<ZoneIntroMusicTable::ID> UwIntroSound
+int<ZoneMusic::ID> UwZoneMusic
+int<SoundAmbience::ID> UwAmbience
+int World_pvp_ID
+int<WorldState::ID> PvpCombatWorldStateID
+int WildBattlePetLevelMin
+int WildBattlePetLevelMax
+int<Map::ID> ContinentID
+int<AreaTable::ID> ParentAreaID
+int AreaBit
+int<SoundProviderPreferences::ID> SoundProviderPref
+int<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
+int<SoundAmbience::ID> AmbienceID
+int<ZoneMusic::ID> ZoneMusic
+int<ZoneIntroMusicTable::ID> IntroSound
+int ExplorationLevel
+locstring AreaName_lang
+string ZoneName
+int IntroPriority
 int MIDIAmbience
 int MIDIAmbienceUnderwater
-int areaNumber
-int<AreaTable::ID> parentAreaNum
+int AreaNumber
+int<AreaTable::ID> ParentAreaNum
 
 BUILD 5.1.0.16309-5.4.8.18414
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>[2]
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-zoneName
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
-ambient_multiplier
-lightID<u32>
-mountFlags<u32>
-uwIntroSound<32>
-uwZoneMusic<32>
-uwAmbience<32>
-world_pvp_ID<u32>
-pvpCombatWorldStateID<u32>
-wildBattlePetLevelMin<32>
-wildBattlePetLevelMax<32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>[2]
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+ZoneName
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
+Ambient_multiplier
+LightID<u32>
+MountFlags<u32>
+UwIntroSound<32>
+UwZoneMusic<32>
+UwAmbience<32>
+World_pvp_ID<u32>
+PvpCombatWorldStateID<u32>
+WildBattlePetLevelMin<32>
+WildBattlePetLevelMax<32>
 
 BUILD 5.0.1.15739-5.0.5.16135
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>[2]
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-zoneName
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
-ambient_multiplier
-lightID<u32>
-mountFlags<u32>
-uwIntroSound<32>
-uwZoneMusic<32>
-uwAmbience<32>
-world_pvp_ID<u32>
-pvpCombatWorldStateID<u32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>[2]
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+ZoneName
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
+Ambient_multiplier
+LightID<u32>
+MountFlags<u32>
+UwIntroSound<32>
+UwZoneMusic<32>
+UwAmbience<32>
+World_pvp_ID<u32>
+PvpCombatWorldStateID<u32>
 
 BUILD 5.0.1.15464-5.0.1.15726
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-zoneName
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
-ambient_multiplier
-lightID<u32>
-mountFlags<u32>
-uwIntroSound<32>
-uwZoneMusic<32>
-uwAmbience<32>
-world_pvp_ID<u32>
-pvpCombatWorldStateID<u32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+ZoneName
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
+Ambient_multiplier
+LightID<u32>
+MountFlags<u32>
+UwIntroSound<32>
+UwZoneMusic<32>
+UwAmbience<32>
+World_pvp_ID<u32>
+PvpCombatWorldStateID<u32>
 
 BUILD 4.2.0.14333
 BUILD 4.2.2.14522-4.3.4.15595
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
-ambient_multiplier
-lightID<u32>
-mountFlags<u32>
-uwIntroSound<32>
-uwZoneMusic<32>
-uwAmbience<32>
-world_pvp_ID<u32>
-pvpCombatWorldStateID<u32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
+Ambient_multiplier
+LightID<u32>
+MountFlags<u32>
+UwIntroSound<32>
+UwZoneMusic<32>
+UwAmbience<32>
+World_pvp_ID<u32>
+PvpCombatWorldStateID<u32>
 
 BUILD 4.0.6.13623-4.1.0.14007
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
-ambient_multiplier
-lightID<u32>
-mountFlags<u32>
-uwIntroSound<32>
-uwZoneMusic<32>
-uwAmbience<32>
-pvpCombatWorldStateID<u32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
+Ambient_multiplier
+LightID<u32>
+MountFlags<u32>
+UwIntroSound<32>
+UwZoneMusic<32>
+UwAmbience<32>
+PvpCombatWorldStateID<u32>
 
 BUILD 4.0.0.12319-4.0.6.13596
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
-ambient_multiplier
-lightID<u32>
-mountFlags<u32>
-uwIntroSound<32>
-uwZoneMusic<32>
-uwAmbience<32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
+Ambient_multiplier
+LightID<u32>
+MountFlags<u32>
+UwIntroSound<32>
+UwZoneMusic<32>
+UwAmbience<32>
 
 BUILD 4.0.0.12266
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
-ambient_multiplier
-lightID<u32>
-mountFlags<u32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
+Ambient_multiplier
+LightID<u32>
+MountFlags<u32>
 
 BUILD 4.0.0.11927-4.0.0.12232
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
-ambient_multiplier
-lightID<u32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
+Ambient_multiplier
+LightID<u32>
 
 BUILD 3.0.1.8622-3.3.5.12340
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
-ambient_multiplier
-lightID<u32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
+Ambient_multiplier
+LightID<u32>
 
 BUILD 2.0.0.6080-3.0.1.8471
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
-ambient_multiplier
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
+Ambient_multiplier
 
 BUILD 2.0.0.5991
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
 
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
-minElevation
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
+MinElevation
 
 BUILD 1.11.0.5344-1.12.2.6005
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
-liquidTypeID<u32>[4]
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
+LiquidTypeID<u32>[4]
 
 BUILD 0.9.0.3807-1.10.2.5302
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
+ContinentID<u32>
+ParentAreaID<u32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
 
 BUILD 0.7.0.3694-0.8.0.3734
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
-ambienceID<u32>
-zoneMusic<32>
-introSound<32>
-introPriority<32>
-explorationLevel<32>
-areaName_lang
-factionGroupMask<u32>
+ContinentID<u32>
+ParentAreaID<u32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<u32>
+ZoneMusic<32>
+IntroSound<32>
+IntroPriority<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<u32>
 
 BUILD 0.6.0.3592
 $id$ID<32>
-continentID<u32>
-parentAreaID<u32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
+ContinentID<u32>
+ParentAreaID<u32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
 MIDIAmbience<32>
 MIDIAmbienceUnderwater<32>
-zoneMusic<32>
-introSound<32>
-introPriority<32>
-explorationLevel<32>
-areaName_lang
+ZoneMusic<32>
+IntroSound<32>
+IntroPriority<32>
+ExplorationLevel<32>
+AreaName_lang
 
 BUILD 0.5.5.3494
 $id$ID<32>
-areaNumber<32>
-continentID<u32>
-parentAreaNum<32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
+AreaNumber<32>
+ContinentID<u32>
+ParentAreaNum<32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
 MIDIAmbience<32>
 MIDIAmbienceUnderwater<32>
-zoneMusic<32>
-introSound<32>
-introPriority<32>
-explorationLevel<32>
-areaName_lang
+ZoneMusic<32>
+IntroSound<32>
+IntroPriority<32>
+ExplorationLevel<32>
+AreaName_lang
 
 BUILD 0.5.3.3368
 $id$ID<32>
-areaNumber<32>
-continentID<u32>
-parentAreaNum<32>
-areaBit<32>
-flags<u32>
-soundProviderPref<32>
-soundProviderPrefUnderwater<32>
+AreaNumber<32>
+ContinentID<u32>
+ParentAreaNum<32>
+AreaBit<32>
+Flags<u32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
 MIDIAmbience<32>
 MIDIAmbienceUnderwater<32>
-zoneMusic<32>
-introSound<32>
-introPriority<32>
-areaName_lang
+ZoneMusic<32>
+IntroSound<32>
+IntroPriority<32>
+AreaName_lang

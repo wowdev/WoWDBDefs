@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-locstring name_lang
-int areaPOIIconEnum
-int questPOIBlobID
+int<Map::ID> MapID
+locstring Name_lang
+int AreaPOIIconEnum
+int QuestPOIBlobID
 
 BUILD 4.0.0.12911-5.4.8.18414
 $id$ID<32>
-mapID<u32>
-questPOIBlobID<u32>
-name_lang
-areaPOIIconEnum<32>
+MapID<u32>
+QuestPOIBlobID<u32>
+Name_lang
+AreaPOIIconEnum<32>
