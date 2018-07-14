@@ -6,7 +6,7 @@ int NormalSoundID
 int PissedSoundID
 int classID
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
 vocalUIEnum<32>
 raceID<32>
@@ -20,10 +20,3 @@ vocalUIEnum<u8>
 raceID<u8>
 classID<u8>
 NormalSoundID<u32>[2]
-
-BUILD 0.5.3.3368
-$id$ID<32>
-vocalUIEnum<32>
-raceID<32>
-NormalSoundID<32>[2]
-PissedSoundID<32>[2]
