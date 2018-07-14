@@ -1,16 +1,4 @@
 COLUMNS
-int Field_2062080633?
-int Field_895647863?
-int Field_3378167693?
-int Field_604167671?
-int Field_302453145?
-int Field_1716104810?
-int Field_4064523471?
-int Field_3242744262?
-float Field_2409654209?
-float Field_2626330532?
-int Field_752352413?
-float Field_3042231609?
 int ID
 int AltPowerBarID
 int ManaCost
@@ -40,24 +28,24 @@ int Field_1335777086
 int Field_277899929
 int Field_1849230511
 int Field_4567976787?
-float Field_7962234177?
 int DifficultyID?
 float Field_3005919490?
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-Field_2062080633<32>
-Field_895647863<32>
-Field_3378167693<32>
-Field_604167671<32>
-Field_302453145<32>
-Field_1716104810<32>
-Field_4064523471<32>
-Field_3242744262<32>
-Field_2409654209
-Field_2626330532
-Field_752352413<32>
-Field_3042231609
+SpellID<32>
+DifficultyID<32>
+PowerType<32>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+PowerDisplayID<32>
+AltPowerBarID<32>
+PowerCostPct
+Field_3005919490
+RequiredAuraSpellID<32>
+PowerCostMaxPct
 
 LAYOUT 8E5E46EC
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -110,21 +98,6 @@ Field_1335777086<32>
 Field_277899929<u32>
 $noninline,relation$Field_1849230511<32>
 
-BUILD 5.0.1.15589-5.4.8.18414
-$id$ID<32>
-SpellID<u32>
-DifficultyID<32>
-PowerType<32>
-ManaCost<32>
-ManaCostPerLevel<32>
-ManaPerSecond<32>
-PowerDisplayID<u32>
-AltPowerBarID<32>
-PowerCostPct
-Field_3005919490
-RequiredAuraSpellID<u32>
-PowerCostMaxPct
-
 BUILD 5.0.1.15464-5.0.1.15544
 $id$ID<32>
 PowerType<32>
@@ -134,7 +107,7 @@ ManaPerSecond<32>
 PowerDisplayID<u32>
 AltPowerBarID<32>
 PowerCostPct
-Field_7962234177
+Field_3005919490
 RequiredAuraSpellID<u32>
 SpellID<u32>
 
