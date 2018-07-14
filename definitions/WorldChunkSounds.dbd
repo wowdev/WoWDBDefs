@@ -12,7 +12,7 @@ int<SoundProviderPreferences::ID> soundProviderPreferencesID
 
 COMMENT completely unvalidated
 BUILD 4.0.0.11927-5.4.8.18414
-$id$ID
+$id$ID<32>
 worldMapContinentID<u32>
 chunkX<32>
 chunkY<32>

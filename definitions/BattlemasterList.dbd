@@ -26,7 +26,7 @@ instanceType<32>
 groupsAllowed<32>
 name_lang
 maxGroupSize<32>
-holidayWorldState<32>
+holidayWorldState<u32>
 minlevel<32>
 maxlevel<32>
 ratedPlayers<32>
@@ -43,7 +43,7 @@ instanceType<32>
 groupsAllowed<32>
 name_lang
 maxGroupSize<32>
-holidayWorldState<32>
+holidayWorldState<u32>
 minlevel<32>
 maxlevel<32>
 ratedPlayers<32>
@@ -58,7 +58,7 @@ instanceType<32>
 groupsAllowed<32>
 name_lang
 maxGroupSize<32>
-holidayWorldState<32>
+holidayWorldState<u32>
 minlevel<32>
 maxlevel<32>
 ratedPlayers<32>
@@ -73,7 +73,7 @@ instanceType<32>
 groupsAllowed<32>
 name_lang
 maxGroupSize<32>
-holidayWorldState<32>
+holidayWorldState<u32>
 minlevel<32>
 maxlevel<32>
 ratedPlayers<32>
@@ -88,7 +88,7 @@ instanceType<32>
 groupsAllowed<32>
 name_lang
 maxGroupSize<32>
-holidayWorldState<32>
+holidayWorldState<u32>
 minlevel<32>
 maxlevel<32>
 
@@ -100,7 +100,7 @@ field_8444340996<32>
 groupsAllowed<32>
 name_lang
 maxGroupSize<32>
-holidayWorldState<32>
+holidayWorldState<u32>
 
 BUILD 3.1.0.9767-3.2.2.10505
 $id$ID<32>
@@ -114,7 +114,7 @@ field_3354886897<32>
 groupsAllowed<32>
 name_lang
 field_4451966822<32>
-holidayWorldState
+holidayWorldState<u32>
 
 BUILD 3.0.3.9183-3.0.9.9551
 $id$ID<32>
