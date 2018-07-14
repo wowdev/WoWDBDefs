@@ -1,13 +1,114 @@
 COLUMNS
 int ID
 int<Map::ID> MapID
-int Difficulty
+int<Difficulty::ID> DifficultyID
 locstring Message_lang
 int RaidDuration
 int MaxPlayers
-string Difficultystring
-int<Difficulty::ID> DifficultyID
 int<Lock::ID> LockID
+int Flags
+int ItemContext
+int ItemContextPickerID
+int ResetInterval
+int Difficulty
+string Difficultystring
+int Field_4001413544?
+locstring Field_1055113062_lang
+int Field_855937208
+int Field_881099931
+int Field_1115388082
+int Field_1653221040
+int Field_122606935
+int Field_251720579
+int Field_2081637855
+int Field_183643775
+int Field_1927128673
+
+BUILD 6.0.1.18179
+$id$ID<32>
+MapID<32>
+DifficultyID<32>
+Message_lang
+RaidDuration<32>
+MaxPlayers<32>
+LockID<32>
+
+LAYOUT 2B3B759E
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+$noninline,id$ID<32>
+Message_lang
+DifficultyID<u8>
+ResetInterval<u8>
+MaxPlayers<u8>
+LockID<u8>
+Flags<u8>
+ItemContext<u8>
+ItemContextPickerID<u32>
+$noninline,relation$MapID<u16>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+MapID<32>
+Difficulty<32>
+Message_lang
+RaidDuration<32>
+MaxPlayers<32>
+Difficultystring
+
+LAYOUT A3A48EFC
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+$noninline,id$ID<32>
+Message_lang
+DifficultyID<8>
+LockID<8>
+ResetInterval<8>
+MaxPlayers<8>
+ItemContext<8>
+Flags<8>
+ItemContextPickerID<32>
+$noninline,relation$MapID<16>
+
+LAYOUT DD36F940
+BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+$noninline,id$ID<32>
+Message_lang
+Field_4001413544<32>
+DifficultyID<8>
+LockID<8>
+ResetInterval<8>
+MaxPlayers<8>
+ItemContext<8>
+Flags<8>
+ItemContextPickerID<32>
+$noninline,relation$MapID<16>
+
+LAYOUT 4B65E4A8
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+Message_lang
+DifficultyID<8>
+LockID<8>
+ResetInterval<8>
+MaxPlayers<8>
+ItemContext<8>
+Flags<8>
+ItemContextPickerID<32>
+Field_4001413544<32>
+$noninline,relation$MapID<16>
+
+LAYOUT F876E8BA
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_1055113062_lang
+Field_855937208<u32>
+Field_881099931<32>
+Field_1115388082<u8>
+Field_1653221040<u8>
+Field_122606935<u8>
+Field_251720579<u8>
+Field_2081637855<u8>
+Field_183643775<u8>
+$noninline,relation$Field_1927128673<u16>
 
 BUILD 5.1.0.16309-5.4.8.18414
 $id$ID<32>

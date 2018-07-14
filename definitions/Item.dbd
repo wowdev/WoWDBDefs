@@ -1,12 +1,89 @@
 COLUMNS
 int ID
+int Field_1009734166?
+int Field_1306660829?
+int Field_2243280257?
+int Field_1155602326?
+int Field_3876564188?
+int Field_1308729234?
+int Field_1229869982?
+int Field_3628018924?
+int Field_2427487154?
 int<ItemClass::ID> ClassID
-int<ItemSubClass::ID> SubclassID
-int Sound_override_subclassID
-int Material
-int DisplayInfoID
+int IconFileDataID
 int InventoryType
+int ItemGroupSoundsID
+int Material
 int SheatheType
+int Sound_override_subclassID
+int<ItemSubClass::ID> SubclassID
+int DisplayInfoID
+int Field_362441897
+int Field_1992017063
+int Field_2046887642
+int Field_1055164010
+int Field_105420859
+int Field_2106147525
+int Field_295986837
+int Field_048575329
+
+BUILD 6.0.1.18179
+$id$ID<32>
+Field_1009734166<32>
+Field_1306660829<32>
+Field_2243280257<32>
+Field_1155602326<32>
+Field_3876564188<32>
+Field_1308729234<32>
+Field_1229869982<32>
+Field_3628018924<32>
+Field_2427487154<32>
+
+LAYOUT 0DFCC83D
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+$noninline,id$ID<32>
+IconFileDataID<32>
+ClassID<u8>
+SubclassID<u8>
+Sound_override_subclassID<8>
+Material<u8>
+InventoryType<u8>
+SheatheType<u8>
+ItemGroupSoundsID<u8>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+ClassID<32>
+SubclassID<32>
+Sound_override_subclassID<32>
+Material<32>
+DisplayInfoID<32>
+InventoryType<32>
+SheatheType<32>
+
+LAYOUT 38F7149F
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+IconFileDataID<32>
+ClassID<8>
+SubclassID<8>
+Material<8>
+InventoryType<8>
+SheatheType<8>
+Sound_override_subclassID<8>
+ItemGroupSoundsID<8>
+
+LAYOUT F9600007
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_362441897<u8>
+Field_1992017063<u8>
+Field_2046887642<u8>
+Field_1055164010<8>
+Field_105420859<u8>
+Field_2106147525<8>
+Field_295986837<32>
+Field_048575329<u8>
 
 BUILD 3.0.2.9056-5.4.8.18414
 $id$ID<32>

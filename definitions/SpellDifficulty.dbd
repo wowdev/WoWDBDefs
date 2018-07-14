@@ -2,6 +2,10 @@ COLUMNS
 int ID
 int<Spell::ID> DifficultySpellID
 
+BUILD 4.0.0.11792
+$id$ID<32>
+DifficultySpellID<32>[4]
+
 BUILD 3.3.0.10958-5.0.1.15544
 $id$ID<32>
 DifficultySpellID<u32>[4]

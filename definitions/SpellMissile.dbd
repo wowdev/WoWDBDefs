@@ -1,19 +1,145 @@
 COLUMNS
+int Field_2021239687?
+float Field_451101305?
+float Field_2066006080?
+float Field_4034116632?
+float Field_3174524113?
+float Field_1735079500?
+float Field_4027610607?
+float Field_222004878?
+float Field_1868516262?
+float Field_2156948826?
+float Field_2962381428?
+float Field_1232887234?
+float Field_3644763280?
+float Field_1251441557?
 int ID
-int Flags
-float DefaultPitchMin
+float CollisionRadius
 float DefaultPitchMax
-float DefaultSpeedMin
+float DefaultPitchMin
 float DefaultSpeedMax
-float RandomizeFacingMin
-float RandomizeFacingMax
-float RandomizePitchMin
-float RandomizePitchMax
-float RandomizeSpeedMin
-float RandomizeSpeedMax
+float DefaultSpeedMin
+int Flags
 float Gravity
 float MaxDuration
-float CollisionRadius
+float RandomizeFacingMax
+float RandomizeFacingMin
+float RandomizePitchMax
+float RandomizePitchMin
+float RandomizeSpeedMax
+float RandomizeSpeedMin
+int SpellID
+int Field_712213264
+int Field_240495249
+float Field_1081549605
+float Field_2035218689
+float Field_390906011
+float Field_1267331655
+float Field_283031383
+float Field_1853432170
+float Field_823173347
+float Field_1596072957
+float Field_1777144874
+float Field_1385923892
+float Field_745235920
+float Field_578888802
+float Field_679866065
+
+BUILD 6.0.1.18179
+$id$ID<32>
+Field_2021239687<32>
+Field_451101305
+Field_2066006080
+Field_4034116632
+Field_3174524113
+Field_1735079500
+Field_4027610607
+Field_222004878
+Field_1868516262
+Field_2156948826
+Field_2962381428
+Field_1232887234
+Field_3644763280
+Field_1251441557
+
+LAYOUT 1D35645E, 7E961832
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+SpellID<32>
+DefaultPitchMin
+DefaultPitchMax
+DefaultSpeedMin
+DefaultSpeedMax
+RandomizeFacingMin
+RandomizeFacingMax
+RandomizePitchMin
+RandomizePitchMax
+RandomizeSpeedMin
+RandomizeSpeedMax
+Gravity
+MaxDuration
+CollisionRadius
+Flags<u8>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+Flags<32>
+DefaultPitchMin
+DefaultPitchMax
+DefaultSpeedMin
+DefaultSpeedMax
+RandomizeFacingMin
+RandomizeFacingMax
+RandomizePitchMin
+RandomizePitchMax
+RandomizeSpeedMin
+RandomizeSpeedMax
+Gravity
+MaxDuration
+CollisionRadius
+
+BUILD 3.0.1.8303
+$id$ID<32>
+Flags<32>
+DefaultPitchMin
+DefaultPitchMax
+DefaultSpeedMin
+DefaultSpeedMax
+
+BUILD 3.0.2.8885, 3.0.8.9328
+$id$ID<32>
+Flags<32>
+DefaultPitchMin
+DefaultPitchMax
+DefaultSpeedMin
+DefaultSpeedMax
+RandomizeFacingMin
+RandomizeFacingMax
+RandomizePitchMin
+RandomizePitchMax
+RandomizeSpeedMin
+RandomizeSpeedMax
+Gravity
+MaxDuration
+
+LAYOUT AF286A50
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_712213264<32>
+Field_240495249<u8>
+Field_1081549605
+Field_2035218689
+Field_390906011
+Field_1267331655
+Field_283031383
+Field_1853432170
+Field_823173347
+Field_1596072957
+Field_1777144874
+Field_1385923892
+Field_745235920
+Field_578888802
+Field_679866065
 
 BUILD 3.1.0.9767-6.2.4.21742
 $id$ID<32>

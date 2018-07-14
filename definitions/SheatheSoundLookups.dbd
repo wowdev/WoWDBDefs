@@ -1,16 +1,25 @@
 COLUMNS
 int ID
 int<ItemSubClass::ClassID> ClassID
-int<ItemSubClass::SubClassID> SubClassID
-int<Material::ID> Material
-int CheckMaterial
+int<ItemSubClass::SubClassID> SubclassID
+int<Material::ID> Material // always if 1 then PARRYMATERIAL_METAL else PARRYMATERIAL_WOOD
+int CheckMaterial // If set, the explicit class/subclass/material combinations are used and missing materials are not assigned a sound. If not set, entries are created for all DB/Material with the same class, subclass and sounds as the record. Used in <code>InitializeSheatheSounds()</code>.
 int SheatheSound
 int UnsheatheSound
+
+BUILD 0.5.3.3368, 1.12.1.5875, 3.3.5.12340
+$id$ID<32>
+ClassID<32>
+SubclassID<32>
+Material<32>
+CheckMaterial<32>
+SheatheSound<32>
+UnsheatheSound<32>
 
 BUILD 0.5.3.3368-3.3.5.12340
 $id$ID<32>
 ClassID<u32>
-SubClassID<u32>
+SubclassID<u32>
 Material<32>
 CheckMaterial<32>
 SheatheSound<32>

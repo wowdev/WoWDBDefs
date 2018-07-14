@@ -1,0 +1,63 @@
+COLUMNS
+int ID
+int AllowableClass
+int AllowableRace
+locstring Display_lang
+int ExpansionID
+int Flags
+int ItemLevel
+int MinFactionID
+int MinReputation
+int OverallQualityID
+int RequiredAbility
+int RequiredLevel
+int RequiredSkill
+int RequiredSkillRank
+int Field_306979410
+locstring Field_658019281_lang
+int Field_721187128
+int Field_1199386365
+int Field_1737723924
+int Field_476135733
+int Field_878382358
+int Field_1529554139
+int Field_1618478213
+int Field_1444356333
+int Field_852270949
+int Field_365024814
+int Field_048211349
+int Field_136884131
+
+LAYOUT 2D4B72FA, 251C9AAA
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+AllowableRace<64>
+Display_lang
+$id$ID<32>
+Flags<32>[3]
+ItemLevel<u16>
+OverallQualityID<u8>
+ExpansionID<u8>
+RequiredLevel<8>
+MinFactionID<u16>
+MinReputation<u8>
+AllowableClass<32>
+RequiredSkill<u16>
+RequiredSkillRank<u16>
+RequiredAbility<u32>
+
+LAYOUT F0940AFC
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+Field_306979410<64>
+Field_658019281_lang
+$id$Field_721187128<32>
+Field_1199386365<u8>
+Field_1737723924<u8>
+Field_476135733<u16>
+Field_878382358<u8>
+Field_1529554139<32>
+Field_1618478213<8>
+Field_1444356333<u16>
+Field_852270949<u16>
+Field_365024814<u32>
+Field_048211349<u16>
+Field_136884131<32>[3]

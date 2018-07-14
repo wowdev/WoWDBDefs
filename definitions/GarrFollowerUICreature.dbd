@@ -1,0 +1,44 @@
+COLUMNS
+int ID
+int CreatureID
+int FactionIndex
+int Flags
+int GarrFollowerID
+int OrderIndex
+float Scale
+int Field_1906107645
+int Field_1426450512
+int Field_280961857
+float Field_923219050
+int Field_787890669
+int Field_1359358370
+
+LAYOUT 7E275E96
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+$noninline,id$ID<32>
+CreatureID<32>
+Scale
+FactionIndex<u8>
+OrderIndex<u8>
+Flags<u8>
+$noninline,relation$GarrFollowerID<u16>
+
+LAYOUT 92277292
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+CreatureID<32>
+Scale
+OrderIndex<8>
+FactionIndex<8>
+Flags<8>
+$noninline,relation$GarrFollowerID<16>
+
+LAYOUT 93A1FAA6
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_1906107645<u8>
+Field_1426450512<u8>
+Field_280961857<32>
+Field_923219050
+Field_787890669<u8>
+$noninline,relation$Field_1359358370<u16>

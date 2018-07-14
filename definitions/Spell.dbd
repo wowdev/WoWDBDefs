@@ -106,7 +106,7 @@ int StartRecoveryTime
 int MaxTargetLevel
 int SpellClassSet
 int SpellClassMask
-int Maxtargets
+int MaxTargets
 int DefenseType
 int PreventionType
 int StanceBarOrder
@@ -114,7 +114,7 @@ float EffectChainAmplitude
 int<Faction::ID> MinFactionID
 int MinReputation
 int RequiredAuraVision
-int<TotemCategory::ID> RequiredTotemcategoryID
+int<TotemCategory::ID> RequiredTotemCategoryID
 int<AreaGroup::ID> RequiredAreasID
 int SchoolMask
 int<PowerDisplay::ID> PowerDisplayID
@@ -125,10 +125,10 @@ int ManaPerSecondPerLevel
 int EffectBaseDice
 int EffectDicePerLevel
 int SpellPriority
+int RequiredAreaID
 int School
 int ProcFlags
 int Field_8124015288?
-int MaxTargets
 int Field_8635953305?
 int Field_1678044335?
 int Field_9846539460?
@@ -142,10 +142,427 @@ int Field_6231371558?
 int Field_648665177?
 int Field_5174478849?
 int Field_5062727222?
-int<TotemCategory::ID> RequiredTotemCategoryID
 int Field_3196624630?
 int Field_7342164282?
 int Field_7026905970?
+
+BUILD 6.0.1.18179
+$id$ID<32>
+Name_lang
+NameSubtext_lang
+Description_lang
+AuraDescription_lang
+RuneCostID<32>
+SpellMissileID<32>
+DescriptionVariablesID<32>
+ScalingID<32>
+AuraOptionsID<32>
+AuraRestrictionsID<32>
+CastingRequirementsID<32>
+CategoriesID<32>
+ClassOptionsID<32>
+CooldownsID<32>
+EquippedItemsID<32>
+InterruptsID<32>
+LevelsID<32>
+ReagentsID<32>
+ShapeshiftID<32>
+TargetRestrictionsID<32>
+TotemsID<32>
+RequiredProjectID<32>
+MiscID<32>
+
+LAYOUT 2273DFFF, 60BB6C3F
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
+$noninline,id$ID<32>
+Name_lang
+NameSubtext_lang
+Description_lang
+AuraDescription_lang
+
+BUILD 4.0.0.11792
+$id$ID<32>
+Category<32>
+DispelType<32>
+Mechanic<32>
+Attributes<32>
+AttributesEx<32>
+AttributesExB<32>
+AttributesExC<32>
+AttributesExD<32>
+AttributesExE<32>
+AttributesExF<32>
+AttributesExG<32>
+AttributesExH<32>
+ShapeshiftMask<32>[2]
+ShapeshiftExclude<32>[2]
+Targets<32>
+TargetCreatureType<32>
+RequiresSpellFocus<32>
+FacingCasterFlags<32>
+CasterAuraState<32>
+TargetAuraState<32>
+ExcludeCasterAuraState<32>
+ExcludeTargetAuraState<32>
+CasterAuraSpell<32>
+TargetAuraSpell<32>
+ExcludeCasterAuraSpell<32>
+ExcludeTargetAuraSpell<32>
+CastingTimeIndex<32>
+RecoveryTime<32>
+CategoryRecoveryTime<32>
+InterruptFlags<32>
+AuraInterruptFlags<32>[2]
+ChannelInterruptFlags<32>[2]
+ProcTypeMask<32>
+ProcChance<32>
+ProcCharges<32>
+MaxLevel<32>
+BaseLevel<32>
+SpellLevel<32>
+DurationIndex<32>
+PowerType<32>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+RangeIndex<32>
+Speed
+ModalNextSpell<32>
+CumulativeAura<32>
+Totem<32>[2]
+Reagent<32>[8]
+ReagentCount<32>[8]
+EquippedItemClass<32>
+EquippedItemSubclass<32>
+EquippedItemInvTypes<32>
+Effect<32>[3]
+EffectDieSides<32>[3]
+EffectRealPointsPerLevel[3]
+EffectBasePoints<32>[3]
+EffectMechanic<32>[3]
+ImplicitTargetA<32>[3]
+ImplicitTargetB<32>[3]
+EffectRadiusIndex<32>[3]
+EffectRadiusIndexB<32>[3]
+EffectAura<32>[3]
+EffectAuraPeriod<32>[3]
+EffectAmplitude[3]
+EffectChainTargets<32>[3]
+EffectItemType<32>[3]
+EffectMiscValue<32>[3]
+EffectMiscValueB<32>[3]
+EffectTriggerSpell<32>[3]
+EffectPointsPerCombo[3]
+EffectSpellClassMaskA<32>[3]
+EffectSpellClassMaskB<32>[3]
+EffectSpellClassMaskC<32>[3]
+SpellVisualID<32>[2]
+SpellIconID<32>
+ActiveIconID<32>
+Name_lang
+NameSubtext_lang
+Description_lang
+AuraDescription_lang
+ManaCostPct<32>
+StartRecoveryCategory<32>
+StartRecoveryTime<32>
+MaxTargetLevel<32>
+SpellClassSet<32>
+SpellClassMask<32>[3]
+MaxTargets<32>
+DefenseType<32>
+PreventionType<32>
+StanceBarOrder<32>
+EffectChainAmplitude[3]
+MinFactionID<32>
+MinReputation<32>
+RequiredAuraVision<32>
+RequiredTotemCategoryID<32>[2]
+RequiredAreasID<32>
+SchoolMask<32>
+RuneCostID<32>
+SpellMissileID<32>
+PowerDisplayID<32>
+EffectBonusCoefficient[3]
+DescriptionVariablesID<32>
+Difficulty<32>
+ScalingID<32>
+
+BUILD 3.0.1.8303
+$id$ID<32>
+Category<32>
+CastUI<32>
+DispelType<32>
+Mechanic<32>
+Attributes<32>
+AttributesEx<32>
+AttributesExB<32>
+AttributesExC<32>
+AttributesExD<32>
+AttributesExE<32>
+AttributesExF<32>
+ShapeshiftMask<32>
+ShapeshiftExclude<32>
+Targets<32>
+TargetCreatureType<32>
+RequiresSpellFocus<32>
+FacingCasterFlags<32>
+CasterAuraState<32>
+TargetAuraState<32>
+ExcludeCasterAuraState<32>
+ExcludeTargetAuraState<32>
+CastingTimeIndex<32>
+RecoveryTime<32>
+CategoryRecoveryTime<32>
+InterruptFlags<32>
+AuraInterruptFlags<32>
+ChannelInterruptFlags<32>
+ProcTypeMask<32>
+ProcChance<32>
+ProcCharges<32>
+MaxLevel<32>
+BaseLevel<32>
+SpellLevel<32>
+DurationIndex<32>
+PowerType<32>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+ManaPerSecondPerLevel<32>
+RangeIndex<32>
+Speed
+ModalNextSpell<32>
+CumulativeAura<32>
+Totem<32>[2]
+Reagent<32>[8]
+ReagentCount<32>[8]
+EquippedItemClass<32>
+EquippedItemSubclass<32>
+EquippedItemInvTypes<32>
+Effect<32>[3]
+EffectDieSides<32>[3]
+EffectBaseDice<32>[3]
+EffectDicePerLevel<32>[3]
+EffectRealPointsPerLevel[3]
+EffectBasePoints<32>[3]
+EffectMechanic<32>[3]
+ImplicitTargetA<32>[3]
+ImplicitTargetB<32>[3]
+EffectRadiusIndex<32>[3]
+EffectAura<32>[3]
+EffectAuraPeriod<32>[3]
+EffectAmplitude[3]
+EffectChainTargets<32>[3]
+EffectItemType<32>[3]
+EffectMiscValue<32>[3]
+EffectMiscValueB<32>[3]
+EffectTriggerSpell<32>[3]
+EffectPointsPerCombo[3]
+SpellVisualID<32>[2]
+SpellIconID<32>
+ActiveIconID<32>
+SpellPriority<32>
+Name_lang
+NameSubtext_lang
+Description_lang
+AuraDescription_lang
+ManaCostPct<32>
+StartRecoveryCategory<32>
+StartRecoveryTime<32>
+MaxTargetLevel<32>
+SpellClassSet<32>
+SpellClassMask<32>[2]
+MaxTargets<32>
+DefenseType<32>
+PreventionType<32>
+StanceBarOrder<32>
+EffectChainAmplitude[3]
+MinFactionID<32>
+MinReputation<32>
+RequiredAuraVision<32>
+RequiredTotemCategoryID<32>[2]
+RequiredAreaID<32>
+SchoolMask<32>
+RuneCostID<32>
+SpellMissileID<32>
+
+BUILD 3.0.2.8885, 3.0.8.9328
+$id$ID<32>
+Category<32>
+DispelType<32>
+Mechanic<32>
+Attributes<32>
+AttributesEx<32>
+AttributesExB<32>
+AttributesExC<32>
+AttributesExD<32>
+AttributesExE<32>
+AttributesExF<32>
+ShapeshiftMask<32>
+ShapeshiftExclude<32>
+Targets<32>
+TargetCreatureType<32>
+RequiresSpellFocus<32>
+FacingCasterFlags<32>
+CasterAuraState<32>
+TargetAuraState<32>
+ExcludeCasterAuraState<32>
+ExcludeTargetAuraState<32>
+CasterAuraSpell<32>
+TargetAuraSpell<32>
+ExcludeCasterAuraSpell<32>
+ExcludeTargetAuraSpell<32>
+CastingTimeIndex<32>
+RecoveryTime<32>
+CategoryRecoveryTime<32>
+InterruptFlags<32>
+AuraInterruptFlags<32>
+ChannelInterruptFlags<32>
+ProcTypeMask<32>
+ProcChance<32>
+ProcCharges<32>
+MaxLevel<32>
+BaseLevel<32>
+SpellLevel<32>
+DurationIndex<32>
+PowerType<32>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+ManaPerSecondPerLevel<32>
+RangeIndex<32>
+Speed
+ModalNextSpell<32>
+CumulativeAura<32>
+Totem<32>[2]
+Reagent<32>[8]
+ReagentCount<32>[8]
+EquippedItemClass<32>
+EquippedItemSubclass<32>
+EquippedItemInvTypes<32>
+Effect<32>[3]
+EffectDieSides<32>[3]
+EffectBaseDice<32>[3]
+EffectDicePerLevel<32>[3]
+EffectRealPointsPerLevel[3]
+EffectBasePoints<32>[3]
+EffectMechanic<32>[3]
+ImplicitTargetA<32>[3]
+ImplicitTargetB<32>[3]
+EffectRadiusIndex<32>[3]
+EffectAura<32>[3]
+EffectAuraPeriod<32>[3]
+EffectAmplitude[3]
+EffectChainTargets<32>[3]
+EffectItemType<32>[3]
+EffectMiscValue<32>[3]
+EffectMiscValueB<32>[3]
+EffectTriggerSpell<32>[3]
+EffectPointsPerCombo[3]
+EffectSpellClassMaskA<32>[3]
+EffectSpellClassMaskB<32>[3]
+EffectSpellClassMaskC<32>[3]
+SpellVisualID<32>[2]
+SpellIconID<32>
+ActiveIconID<32>
+SpellPriority<32>
+Name_lang
+NameSubtext_lang
+Description_lang
+AuraDescription_lang
+ManaCostPct<32>
+StartRecoveryCategory<32>
+StartRecoveryTime<32>
+MaxTargetLevel<32>
+SpellClassSet<32>
+SpellClassMask<32>[3]
+MaxTargets<32>
+DefenseType<32>
+PreventionType<32>
+StanceBarOrder<32>
+EffectChainAmplitude[3]
+MinFactionID<32>
+MinReputation<32>
+RequiredAuraVision<32>
+RequiredTotemCategoryID<32>[2]
+RequiredAreasID<32>
+SchoolMask<32>
+RuneCostID<32>
+SpellMissileID<32>
+
+BUILD 0.5.3.3368
+$id$ID<32>
+School<32>
+Category<32>
+CastUI<32>
+Attributes<32>
+AttributesEx<32>
+ShapeshiftMask<32>
+Targets<32>
+TargetCreatureType<32>
+RequiresSpellFocus<32>
+CasterAuraState<32>
+TargetAuraState<32>
+CastingTimeIndex<32>
+RecoveryTime<32>
+CategoryRecoveryTime<32>
+InterruptFlags<32>
+AuraInterruptFlags<32>
+ChannelInterruptFlags<32>
+ProcFlags<32>
+ProcChance<32>
+ProcCharges<32>
+MaxLevel<32>
+BaseLevel<32>
+SpellLevel<32>
+DurationIndex<32>
+PowerType<32>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+ManaPerSecondPerLevel<32>
+RangeIndex<32>
+Speed
+ModalNextSpell<32>
+Totem<32>[2]
+Reagent<32>[8]
+ReagentCount<32>[8]
+EquippedItemClass<32>
+EquippedItemSubclass<32>
+Effect<32>[3]
+EffectDieSides<32>[3]
+EffectBaseDice<32>[3]
+EffectDicePerLevel<32>[3]
+EffectRealPointsPerLevel[3]
+EffectBasePoints<32>[3]
+ImplicitTargetA<32>[3]
+ImplicitTargetB<32>[3]
+EffectRadiusIndex<32>[3]
+EffectAura<32>[3]
+EffectAuraPeriod<32>[3]
+EffectAmplitude[3]
+EffectChainTargets<32>[3]
+EffectItemType<32>[3]
+EffectMiscValue<32>[3]
+EffectTriggerSpell<32>[3]
+SpellVisualID<32>
+SpellIconID<32>
+ActiveIconID<32>
+SpellPriority<32>
+Name_lang
+NameSubtext_lang
+Description_lang
+ManaCostPct<32>
+StartRecoveryCategory<32>
+StartRecoveryTime<32>
+
+LAYOUT FFF1DA38
+BUILD 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+COMMENT table is sparse
+$noninline,id$ID<32>
+NameSubtext_lang
+Description_lang
+AuraDescription_lang
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
@@ -678,7 +1095,7 @@ StartRecoveryTime<32>
 MaxTargetLevel<32>
 SpellClassSet<32>
 SpellClassMask<u32>[3]
-Maxtargets<32>
+MaxTargets<32>
 DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
@@ -686,7 +1103,7 @@ EffectChainAmplitude[3]
 MinFactionID<u32>
 MinReputation<32>
 RequiredAuraVision<32>
-RequiredTotemcategoryID<u32>[2]
+RequiredTotemCategoryID<u32>[2]
 RequiredAreasID<u32>
 SchoolMask<u32>
 RuneCostID<u32>
@@ -787,7 +1204,7 @@ StartRecoveryTime<32>
 MaxTargetLevel<32>
 SpellClassSet<32>
 SpellClassMask<u32>[3]
-Maxtargets<32>
+MaxTargets<32>
 DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
@@ -795,7 +1212,7 @@ EffectChainAmplitude[3]
 MinFactionID<u32>
 MinReputation<32>
 RequiredAuraVision<32>
-RequiredTotemcategoryID<u32>[2]
+RequiredTotemCategoryID<u32>[2]
 RequiredAreasID<u32>
 SchoolMask<u32>
 RuneCostID<u32>
@@ -896,7 +1313,7 @@ StartRecoveryTime<32>
 MaxTargetLevel<32>
 SpellClassSet<32>
 SpellClassMask<u32>[3]
-Maxtargets<32>
+MaxTargets<32>
 DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
@@ -904,7 +1321,7 @@ EffectChainAmplitude[3]
 MinFactionID<u32>
 MinReputation<32>
 RequiredAuraVision<32>
-RequiredTotemcategoryID<u32>[2]
+RequiredTotemCategoryID<u32>[2]
 RequiredAreasID<u32>
 SchoolMask<u32>
 RuneCostID<u32>
@@ -1003,7 +1420,7 @@ StartRecoveryTime<32>
 MaxTargetLevel<32>
 SpellClassSet<32>
 SpellClassMask<u32>[3]
-Maxtargets<32>
+MaxTargets<32>
 DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
@@ -1011,7 +1428,7 @@ EffectChainAmplitude[3]
 MinFactionID<u32>
 MinReputation<32>
 RequiredAuraVision<32>
-RequiredTotemcategoryID<u32>[2]
+RequiredTotemCategoryID<u32>[2]
 RequiredAreasID<u32>
 SchoolMask<u32>
 RuneCostID<u32>
@@ -1108,7 +1525,7 @@ StartRecoveryTime<32>
 MaxTargetLevel<32>
 SpellClassSet<32>
 SpellClassMask<u32>[3]
-Maxtargets<32>
+MaxTargets<32>
 DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
@@ -1116,7 +1533,7 @@ EffectChainAmplitude[3]
 MinFactionID<u32>
 MinReputation<32>
 RequiredAuraVision<32>
-RequiredTotemcategoryID<u32>[2]
+RequiredTotemCategoryID<u32>[2]
 RequiredAreasID<u32>
 SchoolMask<u32>
 RuneCostID<u32>
@@ -1504,7 +1921,7 @@ StartRecoveryTime<32>
 MaxTargetLevel<32>
 SpellClassSet<32>
 SpellClassMask<u32>[2]
-Maxtargets<32>
+MaxTargets<32>
 DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
@@ -1512,7 +1929,7 @@ EffectChainAmplitude[3]
 MinFactionID<u32>
 MinReputation<32>
 RequiredAuraVision<32>
-RequiredTotemcategoryID<u32>[2]
+RequiredTotemCategoryID<u32>[2]
 RequiredAreasID<u32>
 SchoolMask<u32>
 RuneCostID<u32>
@@ -2893,72 +3310,6 @@ Name_lang
 NameSubtext_lang
 Description_lang
 AuraDescription_lang
-ManaCostPct<32>
-StartRecoveryCategory<32>
-StartRecoveryTime<32>
-
-BUILD 0.5.3.3368
-$id$ID<32>
-School<32>
-Category<32>
-CastUI<32>
-Attributes<32>
-AttributesEx<32>
-ShapeshiftMask<u32>
-Targets<32>
-TargetCreatureType<32>
-RequiresSpellFocus<32>
-CasterAuraState<32>
-TargetAuraState<32>
-CastingTimeIndex<32>
-RecoveryTime<32>
-CategoryRecoveryTime<32>
-InterruptFlags<u32>
-AuraInterruptFlags<u32>
-ChannelInterruptFlags<u32>
-ProcFlags<u32>
-ProcChance<32>
-ProcCharges<32>
-MaxLevel<32>
-BaseLevel<32>
-SpellLevel<32>
-DurationIndex<32>
-PowerType<32>
-ManaCost<32>
-ManaCostPerLevel<32>
-ManaPerSecond<32>
-ManaPerSecondPerLevel<32>
-RangeIndex<32>
-Speed
-ModalNextSpell<32>
-Totem<32>[2]
-Reagent<32>[8]
-ReagentCount<32>[8]
-EquippedItemClass<32>
-EquippedItemSubclass<32>
-Effect<32>[3]
-EffectDieSides<32>[3]
-EffectBaseDice<32>[3]
-EffectDicePerLevel<32>[3]
-EffectRealPointsPerLevel[3]
-EffectBasePoints<32>[3]
-ImplicitTargetA<32>[3]
-ImplicitTargetB<32>[3]
-EffectRadiusIndex<32>[3]
-EffectAura<32>[3]
-EffectAuraPeriod<32>[3]
-EffectAmplitude[3]
-EffectChainTargets<32>[3]
-EffectItemType<32>[3]
-EffectMiscValue<32>[3]
-EffectTriggerSpell<32>[3]
-SpellVisualID<u32>
-SpellIconID<u32>
-ActiveIconID<u32>
-SpellPriority<32>
-Name_lang
-NameSubtext_lang
-Description_lang
 ManaCostPct<32>
 StartRecoveryCategory<32>
 StartRecoveryTime<32>

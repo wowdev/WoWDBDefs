@@ -8,14 +8,102 @@ locstring Description_lang
 int<Achievement_Category::ID> Category
 int Points
 int Ui_order
-int Field_2003222025? // possibly ui_order
 int Flags
 int<SpellIcon::ID> IconID
 locstring Reward_lang
 int Minimum_criteria
 int<Achievement::ID> Shares_criteria
 int Criteria_tree
+int IconFileID
+int Field_2003222025? // possibly ui_order
 int Field_5134826755?
+
+BUILD 6.0.1.18179
+$id$ID<32>
+Faction<32>
+Instance_ID<32>
+Supercedes<32>
+Title_lang
+Description_lang
+Category<32>
+Points<32>
+Ui_order<32>
+Flags<32>
+IconID<32>
+Reward_lang
+Minimum_criteria<32>
+Shares_criteria<32>
+Criteria_tree<32>
+
+LAYOUT 2C4BE18C
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+Title_lang
+Description_lang
+Reward_lang
+Flags<32>
+Instance_ID<16>
+Supercedes<16>
+Category<16>
+$relation$Ui_order<16>
+Shares_criteria<16>
+Faction<8>
+Points<8>
+Minimum_criteria<8>
+$id$ID<32>
+IconFileID<32>
+Criteria_tree<u32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+Faction<32>
+Instance_ID<32>
+Supercedes<32>
+Title_lang
+Description_lang
+Category<32>
+Points<32>
+Ui_order<32>
+Flags<32>
+IconID<32>
+Reward_lang
+Minimum_criteria<32>
+Shares_criteria<32>
+
+LAYOUT 9BDEE75C
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+Description_lang
+Title_lang
+Reward_lang
+Flags<32>
+Instance_ID<16>
+Supercedes<16>
+Category<16>
+$relation$Ui_order<16>
+Shares_criteria<16>
+Faction<8>
+Minimum_criteria<8>
+Points<8>
+$id$ID<32>
+IconFileID<32>
+Criteria_tree<32>
+
+LAYOUT 13CB7BEE
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+Description_lang
+Title_lang
+Reward_lang
+$id$ID<32>
+Instance_ID<16>
+Faction<8>
+Supercedes<16>
+Category<16>
+Minimum_criteria<8>
+Points<8>
+Flags<32>
+$relation$Ui_order<16>
+IconFileID<32>
+Criteria_tree<u32>
+Shares_criteria<16>
 
 BUILD 3.0.1.8622-4.3.4.15595
 $id$ID<32>

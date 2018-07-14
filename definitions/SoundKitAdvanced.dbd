@@ -1,0 +1,347 @@
+COLUMNS
+int ID
+float ChanceToPlay
+int DelayMax
+int DelayMin
+float DuckToAmbience
+float DuckToDialog
+float DuckToMusic
+float DuckToSFX
+float DuckToSuppressors
+float InnerRadius2D
+float InnerRadiusOfInfluence
+float InsideAngle
+int MaxInstancesBehavior
+int MaxRandomPosOffset
+int MinRandomPosOffset
+int MsOffset
+float OuterRadius2D
+float OuterRadiusOfInfluence
+float OutsideAngle
+float OutsideVolume
+int RandomOffsetRange
+int SoundKitID
+int TimeA
+int TimeB
+int TimeC
+int TimeCooldownMax
+int TimeCooldownMin
+int TimeD
+int TimeIntervalMax
+int TimeIntervalMin
+int TimeToDuck
+int TimeToUnduck
+int Usage
+int VolumeControlType
+int VolumeFadeInCurveID
+int VolumeFadeInTimeMax
+int VolumeFadeInTimeMin
+int VolumeFadeOutCurveID
+int VolumeFadeOutTimeMax
+int VolumeFadeOutTimeMin
+int VolumeSliderCategory
+int Field_1730747559
+int Field_488409397
+float Field_1315661566
+float Field_1513453820
+int Field_1962682983
+int Field_142762535
+int Field_1404316282
+int Field_783898927
+int Field_079016501
+int Field_262597441
+int Field_385930608
+int Field_1093155364
+int Field_980425639
+int Field_1233473904
+int Field_1373244072
+float Field_2115901610
+float Field_1471439705
+float Field_1980808049
+float Field_1115226039
+float Field_240955861
+float Field_2082595134
+float Field_532984479
+int Field_134567807
+int Field_881451686
+float Field_117788940
+float Field_313918790
+float Field_811878767
+int Field_311744382
+int Field_2055105884
+int Field_771890597
+int Field_1594356421
+int Field_1317985873
+int Field_1222936424
+int Field_037156544
+int Field_1068502026
+int Field_1047247286
+int Field_110765741
+int Field_1660652047
+int Field_006146053
+int Field_1710717520
+float Field_408586761
+int Field_1826585228
+int Field_432654696
+float Field_731141016
+float Field_2005445091
+int Field_767513532
+int Field_1031030946
+int Field_1267234031
+int Field_066167386
+int Field_497272350
+int Field_1094525700
+int Field_1977788334
+int Field_1963026171
+int Field_1420845870
+int Field_1613164010
+int Field_2086106249
+float Field_1576998033
+float Field_1893829829
+float Field_2028236982
+float Field_959975708
+float Field_562740885
+float Field_2032336183
+float Field_1901411065
+float Field_1803135075
+float Field_2121191409
+int Field_1789515069
+int Field_1750375548
+float Field_467382633
+float Field_251809395
+float Field_1909663826
+int Field_1777424180
+int Field_1490131040
+int Field_061845751
+int Field_042376593
+int Field_1380712174
+int Field_1456140671
+int Field_915241337
+int Field_1918845929
+int Field_022712221
+int Field_1677678449
+int Field_982640092
+int Field_110646473
+int Field_670541845
+float Field_434646008
+
+LAYOUT 5F920928
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+$id$ID<32>
+InnerRadius2D
+DuckToSFX
+DuckToMusic
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<32>
+TimeToUnduck<32>
+OuterRadius2D
+Usage<8>
+SoundKitID<32>
+TimeA<32>
+TimeB<32>
+TimeC<32>
+TimeD<32>
+RandomOffsetRange<32>
+TimeIntervalMin<32>
+TimeIntervalMax<32>
+DelayMin<32>
+DelayMax<32>
+VolumeSliderCategory<8>
+DuckToAmbience
+InsideAngle
+OutsideAngle
+OutsideVolume
+MinRandomPosOffset<8>
+MaxRandomPosOffset<16>
+DuckToDialog
+DuckToSuppressors
+MsOffset<32>
+TimeCooldownMin<32>
+TimeCooldownMax<32>
+MaxInstancesBehavior<8>
+VolumeControlType<8>
+VolumeFadeInTimeMin<32>
+VolumeFadeInTimeMax<32>
+VolumeFadeInCurveID<32>
+VolumeFadeOutTimeMin<32>
+VolumeFadeOutTimeMax<32>
+VolumeFadeOutCurveID<32>
+ChanceToPlay
+
+LAYOUT 4933AC10
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$id$ID<32>
+InnerRadius2D
+OuterRadius2D
+DuckToSFX
+DuckToMusic
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<32>
+TimeToUnduck<32>
+Usage<8>
+SoundKitID<32>
+TimeA<32>
+TimeB<32>
+TimeC<32>
+TimeD<32>
+RandomOffsetRange<32>
+TimeIntervalMin<32>
+TimeIntervalMax<32>
+DelayMin<32>
+DelayMax<32>
+VolumeSliderCategory<8>
+DuckToAmbience
+DuckToDialog
+DuckToSuppressors
+InsideAngle
+OutsideAngle
+OutsideVolume
+MinRandomPosOffset<8>
+MaxRandomPosOffset<16>
+MsOffset<32>
+TimeCooldownMin<32>
+TimeCooldownMax<32>
+MaxInstancesBehavior<8>
+VolumeControlType<8>
+VolumeFadeInTimeMin<32>
+VolumeFadeInTimeMax<32>
+VolumeFadeInCurveID<32>
+VolumeFadeOutTimeMin<32>
+VolumeFadeOutTimeMax<32>
+VolumeFadeOutCurveID<32>
+ChanceToPlay
+
+LAYOUT 73F6F023
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+$id$ID<32>
+InnerRadius2D
+DuckToSFX
+DuckToMusic
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<u32>
+TimeToUnduck<u32>
+OuterRadius2D
+Usage<u8>
+SoundKitID<u32>
+TimeA<u32>
+TimeB<u32>
+TimeC<u32>
+TimeD<u32>
+RandomOffsetRange<32>
+TimeIntervalMin<u32>
+TimeIntervalMax<u32>
+DelayMin<u32>
+DelayMax<u32>
+VolumeSliderCategory<u8>
+DuckToAmbience
+InsideAngle
+OutsideAngle
+OutsideVolume
+MinRandomPosOffset<u8>
+MaxRandomPosOffset<u16>
+DuckToDialog
+DuckToSuppressors
+MsOffset<32>
+TimeCooldownMin<u32>
+TimeCooldownMax<u32>
+MaxInstancesBehavior<u8>
+VolumeControlType<u8>
+VolumeFadeInTimeMin<32>
+VolumeFadeInTimeMax<32>
+VolumeFadeInCurveID<u32>
+VolumeFadeOutTimeMin<32>
+VolumeFadeOutTimeMax<32>
+VolumeFadeOutCurveID<u32>
+
+LAYOUT F5CB60B2
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926
+$id$Field_1730747559<32>
+Field_488409397<u32>
+Field_1315661566
+Field_1513453820
+Field_1962682983<u32>
+Field_142762535<u32>
+Field_1404316282<u32>
+Field_783898927<u32>
+Field_079016501<32>
+Field_262597441<8>
+Field_385930608<u32>
+Field_1093155364<u32>
+Field_980425639<u32>
+Field_1233473904<u32>
+Field_1373244072<u8>
+Field_2115901610
+Field_1471439705
+Field_1980808049
+Field_1115226039
+Field_240955861
+Field_2082595134
+Field_532984479
+Field_134567807<u32>
+Field_881451686<u32>
+Field_117788940
+Field_313918790
+Field_811878767
+Field_311744382<u8>
+Field_2055105884<u16>
+Field_771890597<32>
+Field_1594356421<u32>
+Field_1317985873<u32>
+Field_1222936424<u8>
+Field_037156544<u8>
+Field_1068502026<32>
+Field_1047247286<32>
+Field_110765741<u32>
+Field_1660652047<32>
+Field_006146053<32>
+Field_1710717520<u32>
+Field_408586761
+
+LAYOUT 6EAFA63E
+BUILD 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$id$Field_1826585228<32>
+Field_432654696<u32>
+Field_731141016
+Field_2005445091
+Field_767513532<u32>
+Field_1031030946<u32>
+Field_1267234031<u32>
+Field_066167386<u32>
+Field_497272350<32>
+Field_1094525700<8>
+Field_1977788334<u32>
+Field_1963026171<u32>
+Field_1420845870<u32>
+Field_1613164010<u32>
+Field_2086106249<u8>
+Field_1576998033
+Field_1893829829
+Field_2028236982
+Field_959975708
+Field_562740885
+Field_2032336183
+Field_1901411065
+Field_1803135075
+Field_2121191409
+Field_1789515069<u32>
+Field_1750375548<u32>
+Field_467382633
+Field_251809395
+Field_1909663826
+Field_1777424180<u8>
+Field_1490131040<u16>
+Field_061845751<32>
+Field_042376593<u32>
+Field_1380712174<u32>
+Field_1456140671<u8>
+Field_915241337<u8>
+Field_1918845929<32>
+Field_022712221<32>
+Field_1677678449<u32>
+Field_982640092<32>
+Field_110646473<32>
+Field_670541845<u32>
+Field_434646008

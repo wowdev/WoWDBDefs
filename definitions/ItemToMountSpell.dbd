@@ -1,6 +1,11 @@
 COLUMNS
+int ItemID?
+int<Spell::ID> SpellID?
 int ID
-int<Spell::ID> SpellID
+
+BUILD 6.0.1.18179
+ItemID<32>
+SpellID<32>
 
 BUILD 5.4.2.17645-5.4.8.18414
 $id$ID<32>

@@ -1,14 +1,11 @@
 COLUMNS
 int ID
-int Padding_3020562985?
-int Padding_596171098?
 float AvgSegLen
 float Width
 float NoiseScale
 float TexCoordScale
 int SegDuration
 int SegDelay
-string Texture
 int Flags
 int JointCount
 float JointOffsetRadius
@@ -45,11 +42,380 @@ int Red
 int Green
 int Blue
 int BlendMode
-string Combo
+int Padding_3020562985?
 int RenderLayer
 float TextureLength
 float WavePhase
 int SpellChainEffectID
+string Texture
+float EndWidth
+int NumFlipFramesU
+int NumFlipFramesV
+float ParticleEmissionRateMultiplier
+float ParticleScaleMultiplier
+int SoundKitID
+float StartWidth
+float TextureCoordScaleU
+float TextureCoordScaleV
+int TextureFileDataID
+int TextureParticleFileDataID
+float TextureRepeatLengthU
+float TextureRepeatLengthV
+float TimePerFlipFrame
+float VariancePerFlipFrame
+int WidthScaleCurveID
+int Padding_596171098?
+string Combo
+float Field_1429814486
+float Field_355380994
+float Field_1724567424
+int Field_1885592332
+int Field_1417247768
+int Field_1370383204
+int Field_1386773895
+float Field_964104065
+int Field_1391964646
+int Field_2096391900
+float Field_332351235
+float Field_395954789
+float Field_383483196
+float Field_940843343
+float Field_944456235
+float Field_462956890
+float Field_702963472
+float Field_1056014810
+float Field_283702093
+float Field_1519479648
+float Field_595893636
+float Field_2036749092
+float Field_1776556833
+float Field_2018222593
+float Field_693405696
+float Field_1824039508
+float Field_264987167
+float Field_504865507
+float Field_232350105
+float Field_1463498508
+float Field_669522090
+float Field_305619239
+float Field_482483897
+float Field_842135654
+float Field_866322203
+float Field_2133272653
+int Field_1743545545
+int Field_842379670
+int Field_553550751
+int Field_089512745
+int Field_1807293970
+int Field_729695617
+float Field_913413778
+float Field_1430882550
+float Field_1837119290
+int Field_929594246
+float Field_1022434129
+float Field_1426528982
+int Field_1676015403
+int Field_1987117970
+int Field_1361315873
+int Field_791969325
+float Field_2142614903
+float Field_267952464
+int Field_1591242191
+float Field_952660940
+float Field_138419707
+float Field_1265940377
+float Field_604298535
+int Field_1152803806
+
+BUILD 6.0.1.18179
+$id$ID<32>
+AvgSegLen
+Width
+NoiseScale
+TexCoordScale
+SegDuration<32>
+SegDelay<32>
+Flags<32>
+JointCount<32>
+JointOffsetRadius
+JointsPerMinorJoint<32>
+MinorJointsPerMajorJoint<32>
+MinorJointScale
+MajorJointScale
+JointMoveSpeed
+JointSmoothness
+MinDurationBetweenJointJumps
+MaxDurationBetweenJointJumps
+WaveHeight
+WaveFreq
+WaveSpeed
+MinWaveAngle
+MaxWaveAngle
+MinWaveSpin
+MaxWaveSpin
+ArcHeight
+MinArcAngle
+MaxArcAngle
+MinArcSpin
+MaxArcSpin
+DelayBetweenEffects
+MinFlickerOnDuration
+MaxFlickerOnDuration
+MinFlickerOffDuration
+MaxFlickerOffDuration
+PulseSpeed
+PulseOnLength
+PulseFadeLength
+Alpha<8>
+Red<8>
+Green<8>
+Blue<8>
+BlendMode<8>
+Padding_3020562985<8>[3]
+RenderLayer<32>
+TextureLength
+WavePhase
+SpellChainEffectID<32>[11]
+Texture
+
+LAYOUT 4E8FF369, BC798B79
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+AvgSegLen
+NoiseScale
+TexCoordScale
+SegDuration<u32>
+Flags<u32>
+JointOffsetRadius
+MinorJointScale
+MajorJointScale
+JointMoveSpeed
+JointSmoothness
+MinDurationBetweenJointJumps
+MaxDurationBetweenJointJumps
+WaveHeight
+WaveFreq
+WaveSpeed
+MinWaveAngle
+MaxWaveAngle
+MinWaveSpin
+MaxWaveSpin
+ArcHeight
+MinArcAngle
+MaxArcAngle
+MinArcSpin
+MaxArcSpin
+DelayBetweenEffects
+MinFlickerOnDuration
+MaxFlickerOnDuration
+MinFlickerOffDuration
+MaxFlickerOffDuration
+PulseSpeed
+PulseOnLength
+PulseFadeLength
+WavePhase
+TimePerFlipFrame
+VariancePerFlipFrame
+TextureCoordScaleU[3]
+TextureCoordScaleV[3]
+TextureRepeatLengthU[3]
+TextureRepeatLengthV[3]
+TextureParticleFileDataID<u32>
+StartWidth
+EndWidth
+ParticleScaleMultiplier
+ParticleEmissionRateMultiplier
+SegDelay<u16>
+JointCount<u16>
+SpellChainEffectID<u16>[11]
+WidthScaleCurveID<u16>
+JointsPerMinorJoint<u8>
+MinorJointsPerMajorJoint<u8>
+Alpha<u8>
+Red<u8>
+Green<u8>
+Blue<u8>
+BlendMode<u8>
+RenderLayer<u8>
+NumFlipFramesU<u8>
+NumFlipFramesV<u8>
+SoundKitID<u32>
+TextureFileDataID<32>[3]
+
+BUILD 4.0.0.11792
+$id$ID<32>
+AvgSegLen
+Width
+NoiseScale
+TexCoordScale
+SegDuration<32>
+SegDelay<32>
+Texture
+Flags<32>
+JointCount<32>
+JointOffsetRadius
+JointsPerMinorJoint<32>
+MinorJointsPerMajorJoint<32>
+MinorJointScale
+MajorJointScale
+JointMoveSpeed
+JointSmoothness
+MinDurationBetweenJointJumps
+MaxDurationBetweenJointJumps
+WaveHeight
+WaveFreq
+WaveSpeed
+MinWaveAngle
+MaxWaveAngle
+MinWaveSpin
+MaxWaveSpin
+ArcHeight
+MinArcAngle
+MaxArcAngle
+MinArcSpin
+MaxArcSpin
+DelayBetweenEffects
+MinFlickerOnDuration
+MaxFlickerOnDuration
+MinFlickerOffDuration
+MaxFlickerOffDuration
+PulseSpeed
+PulseOnLength
+PulseFadeLength
+Alpha<8>
+Red<8>
+Green<8>
+Blue<8>
+BlendMode<8>
+Padding_596171098<8>[3]
+Combo
+RenderLayer<32>
+TextureLength
+WavePhase
+
+BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
+$id$ID<32>
+AvgSegLen
+Width
+NoiseScale
+TexCoordScale
+SegDuration<32>
+SegDelay<32>
+Texture
+Flags<32>
+JointCount<32>
+JointOffsetRadius
+JointsPerMinorJoint<32>
+MinorJointsPerMajorJoint<32>
+MinorJointScale
+MajorJointScale
+JointMoveSpeed
+JointSmoothness
+MinDurationBetweenJointJumps
+MaxDurationBetweenJointJumps
+WaveHeight
+WaveFreq
+WaveSpeed
+MinWaveAngle
+MaxWaveAngle
+MinWaveSpin
+MaxWaveSpin
+ArcHeight
+MinArcAngle
+MaxArcAngle
+MinArcSpin
+MaxArcSpin
+DelayBetweenEffects
+MinFlickerOnDuration
+MaxFlickerOnDuration
+MinFlickerOffDuration
+MaxFlickerOffDuration
+PulseSpeed
+PulseOnLength
+PulseFadeLength
+Alpha<8>
+Red<8>
+Green<8>
+Blue<8>
+BlendMode<8>
+Combo
+RenderLayer<32>
+TextureLength
+
+BUILD 0.5.3.3368
+BUILD 0.5.3.3368-2.0.6.6337
+$id$ID<32>
+AvgSegLen
+Width
+NoiseScale
+TexCoordScale
+SegDuration<32>
+SegDelay<32>
+Texture
+
+LAYOUT 461F9829
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_1429814486
+Field_355380994
+Field_1724567424
+Field_1885592332<u32>
+Field_1417247768<u16>
+Field_1370383204<u32>
+Field_1386773895<u16>
+Field_964104065
+Field_1391964646<u8>
+Field_2096391900<u8>
+Field_332351235
+Field_395954789
+Field_383483196
+Field_940843343
+Field_944456235
+Field_462956890
+Field_702963472
+Field_1056014810
+Field_283702093
+Field_1519479648
+Field_595893636
+Field_2036749092
+Field_1776556833
+Field_2018222593
+Field_693405696
+Field_1824039508
+Field_264987167
+Field_504865507
+Field_232350105
+Field_1463498508
+Field_669522090
+Field_305619239
+Field_482483897
+Field_842135654
+Field_866322203
+Field_2133272653
+Field_1743545545<u8>
+Field_842379670<u8>
+Field_553550751<u8>
+Field_089512745<u8>
+Field_1807293970<u8>
+Field_729695617<u8>
+Field_913413778
+Field_1430882550
+Field_1837119290
+Field_929594246<u32>
+Field_1022434129
+Field_1426528982
+Field_1676015403<u16>
+Field_1987117970<u8>
+Field_1361315873<u8>
+Field_791969325<u32>
+Field_2142614903
+Field_267952464
+Field_1591242191<u16>[11]
+Field_952660940[3]
+Field_138419707[3]
+Field_1265940377[3]
+Field_604298535[3]
+Field_1152803806<32>[3]
 
 BUILD 5.3.0.16965-6.0.1.18179
 $id$ID<32>
@@ -350,13 +716,3 @@ Blue<u8>
 BlendMode<u8>
 Combo
 RenderLayer<32>
-
-BUILD 0.5.3.3368-2.0.6.6337
-$id$ID<32>
-AvgSegLen
-Width
-NoiseScale
-TexCoordScale
-SegDuration<32>
-SegDelay<32>
-Texture

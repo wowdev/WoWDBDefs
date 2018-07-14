@@ -17,9 +17,202 @@ int ItemLevel
 int ScalingClass
 int ScalingClassRestricted
 float EffectScalingPoints
+locstring HordeName_lang
+int IconFileDataID
+int TransmogCost
+int TransmogPlayerConditionID
 int EffectPointsMax
+locstring Field_1918625157_lang
+locstring Field_1956129720_lang
+int Field_2023740563
+float Field_1967688595
+int Field_1942267757
+int Field_563800122
+int Field_1194832329
+int Field_1713939469
+int Field_161492134
+int Field_1487722776
+int Field_663437665
+int Field_2044682534
+int Field_1234247771
+int Field_2016412625
+int Field_770694976
+int Field_1573269627
+int Field_1201305411
+int Field_1978842619
+int Field_1962346921
+int Field_1579900102
 int Field_8502539376? // maybe scalingClassRestricted
 float Field_6960512468? // maybe effectScalingPoints
+
+BUILD 6.0.1.18179
+$id$ID<32>
+Charges<32>
+Effect<32>[3]
+EffectPointsMin<32>[3]
+EffectArg<32>[3]
+Name_lang
+ItemVisual<32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
+RequiredSkillRank<32>
+MinLevel<32>
+MaxLevel<32>
+ItemLevel<32>
+ScalingClass<32>
+ScalingClassRestricted<32>
+EffectScalingPoints[3]
+
+LAYOUT F8B0881A
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+$noninline,id$ID<32>
+Name_lang
+HordeName_lang
+EffectArg<32>[3]
+EffectScalingPoints[3]
+TransmogCost<32>
+IconFileDataID<32>
+EffectPointsMin<16>[3]
+ItemVisual<16>
+Flags<16>
+RequiredSkillID<16>
+RequiredSkillRank<16>
+ItemLevel<16>
+Charges<8>
+Effect<8>[3]
+Condition_ID<8>
+MinLevel<8>
+MaxLevel<8>
+ScalingClass<8>
+ScalingClassRestricted<8>
+TransmogPlayerConditionID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+Charges<32>
+Effect<32>[3]
+EffectPointsMin<32>[3]
+EffectPointsMax<32>[3]
+EffectArg<32>[3]
+Name_lang
+ItemVisual<32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
+RequiredSkillRank<32>
+MinLevel<32>
+ItemLevel<32>
+
+BUILD 3.0.1.8303
+$id$ID<32>
+Charges<32>
+Effect<32>[3]
+EffectPointsMin<32>[3]
+EffectPointsMax<32>[3]
+EffectArg<32>[3]
+Name_lang
+ItemVisual<32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+
+BUILD 3.0.2.8885, 3.0.8.9328
+$id$ID<32>
+Charges<32>
+Effect<32>[3]
+EffectPointsMin<32>[3]
+EffectPointsMax<32>[3]
+EffectArg<32>[3]
+Name_lang
+ItemVisual<32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
+RequiredSkillRank<32>
+
+BUILD 0.5.3.3368
+$id$ID<32>
+Effect<32>[3]
+EffectPointsMin<32>[3]
+EffectPointsMax<32>[3]
+EffectArg<32>[3]
+Name_lang
+ItemVisual<32>
+
+LAYOUT DF71600C
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+Name_lang
+HordeName_lang
+EffectArg<32>[3]
+EffectScalingPoints[3]
+TransmogCost<32>
+IconFileDataID<32>
+EffectPointsMin<16>[3]
+ItemVisual<16>
+Flags<16>
+RequiredSkillID<16>
+RequiredSkillRank<16>
+ItemLevel<16>
+Charges<8>
+Effect<8>[3]
+ScalingClass<8>
+ScalingClassRestricted<8>
+Condition_ID<8>
+MinLevel<8>
+MaxLevel<8>
+TransmogPlayerConditionID<32>
+
+LAYOUT 80DEA734
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+$noninline,id$ID<32>
+Name_lang
+EffectArg<u32>[3]
+EffectScalingPoints[3]
+TransmogCost<u32>
+IconFileDataID<u32>
+EffectPointsMin<16>[3]
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>
+ScalingClass<8>
+ScalingClassRestricted<8>
+TransmogPlayerConditionID<u32>
+
+LAYOUT 96D1828E
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_1918625157_lang
+Field_1956129720_lang
+Field_2023740563<u32>[3]
+Field_1967688595[3]
+Field_1942267757<u32>
+Field_563800122<u32>
+Field_1194832329<u32>
+Field_1713939469<16>[3]
+Field_161492134<u16>
+Field_1487722776<u16>
+Field_663437665<u16>
+Field_2044682534<u16>
+Field_1234247771<u16>
+Field_2016412625<u8>
+Field_770694976<u8>[3]
+Field_1573269627<8>
+Field_1201305411<8>
+Field_1978842619<u8>
+Field_1962346921<u8>
+Field_1579900102<u8>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
@@ -109,19 +302,6 @@ Condition_ID<u32>
 RequiredSkillID<u32>
 RequiredSkillRank<32>
 
-BUILD 3.0.1.8303
-$id$ID<32>
-Charges<32>
-Effect<32>[3]
-EffectPointsMin<32>[3]
-EffectPointsMax<32>[3]
-EffectArg<32>[3]
-Name_lang
-ItemVisual<32>
-Flags<u32>
-Src_itemID<u32>
-Condition_ID<u32>
-
 BUILD 2.0.0.5610-2.0.0.5965
 BUILD 2.0.0.6022-2.4.3.8606
 $id$ID<32>
@@ -145,12 +325,3 @@ EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
 Flags<u32>
-
-BUILD 0.5.3.3368
-$id$ID<32>
-Effect<32>[3]
-EffectPointsMin<32>[3]
-EffectPointsMax<32>[3]
-EffectArg<32>[3]
-Name_lang
-ItemVisual<32>

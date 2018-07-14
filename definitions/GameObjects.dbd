@@ -1,13 +1,81 @@
 COLUMNS
 int ID
-int OwnerID
 int DisplayID
+locstring Name_lang
+int OwnerID
+int PhaseGroupID
+int PhaseID
+int PhaseUseFlags
 float Pos
+int PropValue
 float Rot
 float Scale
 int TypeID
-int PropValue
+int Field_919378280
+int Field_2086491574
+int Field_1997246591
+int Field_1611906542
+int Field_1622611767
 string Name
+
+BUILD 6.0.1.18179
+$id$ID<32>
+OwnerID<32>
+DisplayID<32>
+Pos[3]
+Rot[4]
+Scale
+PhaseUseFlags<32>
+PhaseID<32>
+PhaseGroupID<32>
+TypeID<32>
+PropValue<32>[8]
+Name_lang
+
+LAYOUT 597E8643
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+Name_lang
+Pos[3]
+Rot[4]
+Scale
+PropValue<32>[8]
+$relation$OwnerID<u16>
+DisplayID<u16>
+PhaseID<u16>
+PhaseGroupID<u16>
+PhaseUseFlags<u8>
+TypeID<u8>
+$id$ID<32>
+
+LAYOUT 1247CA16
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+Name_lang
+Pos[3]
+Rot[4]
+Scale
+PropValue<32>[8]
+$relation$OwnerID<16>
+DisplayID<16>
+PhaseID<16>
+PhaseGroupID<16>
+TypeID<8>
+PhaseUseFlags<8>
+$id$ID<32>
+
+LAYOUT 0995B956
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+Name_lang
+Pos[3]
+Rot[4]
+$id$ID<32>
+$relation$OwnerID<u16>
+Field_919378280<u16>
+Scale
+Field_2086491574<u8>
+Field_1997246591<u8>
+Field_1611906542<u16>
+Field_1622611767<u16>
+PropValue<32>[8]
 
 BUILD 5.0.1.15640-5.4.8.18414
 $id$ID<32>

@@ -1,5 +1,4 @@
 COLUMNS
-int Field_1789367167? // either minPlayers or maxPlayers
 int ID
 int<Difficulty::ID> FallbackDifficultyID
 int InstanceType
@@ -12,7 +11,87 @@ int<Curve::ID> GroupSizeHealthCurveID
 int<Curve::ID> GroupSizeDmgCurveID
 int<Curve::ID> GroupSizeSpellPointsCurveID
 locstring Name_lang
+int ItemContext
+int OrderIndex
+int Field_2064999243
+int Field_258458661
+int Field_000659242
+int Field_759637513
+int Field_009065987
+int Field_692126542
+int Field_2121189277
+int Field_1478061563
+int Field_571319785
+int Field_2089936590
+int Field_1729580554
+int Field_1214798562
+int Field_1789367167? // either minPlayers or maxPlayers
 int Field_9688170710?
+
+BUILD 6.0.1.18179
+$id$ID<32>
+FallbackDifficultyID<32>
+InstanceType<32>
+MinPlayers<32>
+MaxPlayers<32>
+OldEnumValue<32>
+Flags<32>
+ToggleDifficultyID<32>
+GroupSizeHealthCurveID<32>
+GroupSizeDmgCurveID<32>
+GroupSizeSpellPointsCurveID<32>
+Name_lang
+
+LAYOUT 92302BB8
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+$noninline,id$ID<32>
+Name_lang
+GroupSizeHealthCurveID<u16>
+GroupSizeDmgCurveID<u16>
+GroupSizeSpellPointsCurveID<u16>
+FallbackDifficultyID<u8>
+InstanceType<u8>
+MinPlayers<u8>
+MaxPlayers<u8>
+OldEnumValue<8>
+Flags<u8>
+ToggleDifficultyID<u8>
+ItemContext<u8>
+OrderIndex<u8>
+
+LAYOUT F0C26A80
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+Name_lang
+GroupSizeHealthCurveID<16>
+GroupSizeDmgCurveID<16>
+GroupSizeSpellPointsCurveID<16>
+InstanceType<8>
+OrderIndex<8>
+OldEnumValue<8>
+FallbackDifficultyID<8>
+MinPlayers<8>
+MaxPlayers<8>
+Flags<8>
+ItemContext<8>
+ToggleDifficultyID<8>
+
+LAYOUT 29FC158C
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Name_lang
+Field_2064999243<u8>
+Field_258458661<u8>
+Field_000659242<8>
+Field_759637513<u8>
+Field_009065987<u8>
+Field_692126542<u8>
+Field_2121189277<u8>
+Field_1478061563<u8>
+Field_571319785<u8>
+Field_2089936590<u16>
+Field_1729580554<u16>
+Field_1214798562<u16>
 
 BUILD 5.4.0.17266-6.0.1.18179
 $id$ID<32>

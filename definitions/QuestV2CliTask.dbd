@@ -1,0 +1,263 @@
+COLUMNS
+int BreadCrumbID
+locstring BulletText_lang
+int ConditionID
+int FiltActiveQuest
+int FiltClasses
+int FiltCompletedQuest
+int FiltCompletedQuestLogic
+int FiltMaxFactionID
+int FiltMaxFactionValue
+int FiltMaxLevel
+int FiltMinFactionID
+int FiltMinFactionValue
+int FiltMinLevel
+int FiltMinSkillID
+int FiltMinSkillValue
+int FiltNonActiveQuest
+int FiltRaces
+int ID
+int QuestInfoID
+locstring QuestTitle_lang
+int SandboxScalingID
+int StartItem
+int UniqueBitFlag
+int WorldStateExpressionID
+int ContentTuningID
+int Field_1136273850?
+int Field_1384206764?
+int Field_1469310973?
+int Field_1681981264?
+int Field_1871739164?
+int Field_1931767329?
+int Field_1932906175?
+int Field_2117192374?
+int Field_2211985194?
+int Field_2727228087?
+int Field_2792711813?
+int Field_2908119989?
+int Field_2993674258?
+int Field_3276042368?
+int Field_3315313174?
+int Field_3620721704?
+int Field_3753254511?
+int Field_3799979310?
+locstring Field_4013373207_lang?
+int Field_4146051830?
+int Field_4254090452?
+int Field_498969295?
+int Field_675357935?
+locstring Field_872425833_lang?
+int Field_059962822
+locstring Field_645808592_lang
+locstring Field_1011173150_lang
+int Field_979290810
+int Field_062142066
+int Field_246261961
+int Field_072893227
+int Field_194364272
+int Field_536282793
+int Field_1812140884
+int Field_951364210
+int Field_1584998981
+int Field_2027020682
+int Field_800870143
+int Field_783989315
+int Field_1176949993
+int Field_952796611
+int Field_1901842090
+int Field_346428951
+int Field_1555039571
+int Field_1959129566
+int Field_1850832940
+int Field_172423304
+int Field_1990669642
+
+LAYOUT 3F026A14
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26287
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+StartItem<32>
+UniqueBitFlag<u16>
+ConditionID<u16>
+FiltClasses<16>
+FiltCompletedQuest<u16>[3]
+FiltMinSkillID<u16>
+WorldStateExpressionID<16>
+FiltActiveQuest<u8>
+FiltCompletedQuestLogic<u8>
+FiltMaxFactionID<u8>
+FiltMaxFactionValue<u8>
+FiltMaxLevel<u8>
+FiltMinFactionID<u8>
+FiltMinFactionValue<u8>
+FiltMinLevel<u8>
+FiltMinSkillValue<u8>
+FiltNonActiveQuest<u8>
+$id$ID<u32>
+BreadCrumbID<u32>
+QuestInfoID<u32>
+SandboxScalingID<32>
+
+LAYOUT FE5B5478
+BUILD 8.0.1.26175, 8.0.1.26231
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+StartItem<32>
+UniqueBitFlag<16>
+ConditionID<16>
+FiltClasses<16>
+FiltCompletedQuest<16>[3]
+FiltMinSkillID<16>
+WorldStateExpressionID<16>
+FiltActiveQuest<8>
+FiltCompletedQuestLogic<8>
+FiltMaxFactionID<8>
+FiltMaxFactionValue<8>
+FiltMaxLevel<8>
+FiltMinFactionID<8>
+FiltMinFactionValue<8>
+FiltMinLevel<8>
+FiltMinSkillValue<8>
+FiltNonActiveQuest<8>
+$id$ID<32>
+BreadCrumbID<32>
+QuestInfoID<32>
+ContentTuningID<32>
+
+LAYOUT 5A9EE4A6
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+FiltCompletedQuestLogic<32>
+StartItem<32>
+UniqueBitFlag<16>
+ConditionID<16>
+FiltClasses<16>
+FiltCompletedQuest<16>[3]
+FiltMinSkillID<16>
+WorldStateExpressionID<16>
+FiltActiveQuest<8>
+FiltMaxFactionID<8>
+FiltMaxFactionValue<8>
+FiltMaxLevel<8>
+FiltMinFactionID<8>
+FiltMinFactionValue<8>
+FiltMinLevel<8>
+FiltMinSkillValue<8>
+FiltNonActiveQuest<8>
+$id$ID<32>
+BreadCrumbID<32>
+QuestInfoID<32>
+ContentTuningID<32>
+
+LAYOUT 31B30038
+BUILD 8.0.1.26367
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+ConditionID<32>
+FiltCompletedQuestLogic<32>
+StartItem<32>
+UniqueBitFlag<16>
+FiltClasses<16>
+FiltCompletedQuest<16>[3]
+FiltMinSkillID<16>
+WorldStateExpressionID<16>
+FiltActiveQuest<8>
+FiltMaxFactionID<8>
+FiltMaxFactionValue<8>
+FiltMaxLevel<8>
+FiltMinFactionID<8>
+FiltMinFactionValue<8>
+FiltMinLevel<8>
+FiltMinSkillValue<8>
+FiltNonActiveQuest<8>
+$id$ID<32>
+BreadCrumbID<32>
+QuestInfoID<32>
+ContentTuningID<32>
+
+LAYOUT 2580D576
+BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+ConditionID<32>
+UniqueBitFlag<16>
+FiltClasses<16>
+WorldStateExpressionID<16>
+$id$ID<32>
+FiltActiveQuest<32>
+FiltCompletedQuestLogic<32>
+FiltMaxFactionID<32>
+FiltMaxFactionValue<32>
+FiltMaxLevel<32>
+FiltMinFactionID<32>
+FiltMinFactionValue<32>
+FiltMinLevel<32>
+FiltMinSkillID<32>
+FiltMinSkillValue<32>
+FiltNonActiveQuest<32>
+BreadCrumbID<32>
+StartItem<32>
+QuestInfoID<32>
+ContentTuningID<32>
+FiltCompletedQuest<32>[3]
+
+LAYOUT 4D000496
+BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+Field_2792711813<64>
+Field_4013373207_lang
+Field_872425833_lang
+Field_675357935<32>
+Field_1469310973<16>
+Field_4254090452<16>
+Field_1871739164<16>
+$id$Field_1931767329<32>
+Field_2993674258<32>
+Field_2117192374<32>
+Field_2727228087<32>
+Field_1932906175<32>
+Field_2908119989<32>
+Field_3620721704<32>
+Field_1681981264<32>
+Field_498969295<32>
+Field_3276042368<32>
+Field_4146051830<32>
+Field_1384206764<32>
+Field_1136273850<32>
+Field_3315313174<32>
+Field_2211985194<32>
+Field_3753254511<32>
+Field_3799979310<32>[3]
+
+LAYOUT C0387D4E
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+Field_059962822<64>
+Field_645808592_lang
+Field_1011173150_lang
+$id$Field_979290810<u32>
+Field_062142066<u16>
+Field_246261961<u32>
+Field_072893227<u32>
+Field_194364272<16>
+Field_536282793<u32>
+Field_1812140884<u32>
+Field_951364210<u32>
+Field_1584998981<u32>
+Field_2027020682<u32>
+Field_800870143<u32>
+Field_783989315<u32>
+Field_1176949993<u32>
+Field_952796611<u32>
+Field_1901842090<u32>
+Field_346428951<u32>
+Field_1555039571<32>
+Field_1959129566<16>
+Field_1850832940<u32>
+Field_172423304<32>
+Field_1990669642<u32>[3]

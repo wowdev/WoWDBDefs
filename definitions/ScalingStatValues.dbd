@@ -1,6 +1,19 @@
 COLUMNS
 int ID
 int Charlevel
+int EffectiveLevel
+int WeaponDPS1H
+int WeaponDPS2H
+int SpellcasterDPS1H
+int SpellcasterDPS2H
+int RangedDPS
+int WandDPS
+int SpellPower
+int BudgetPrimary
+int BudgetSecondary
+int BudgetTertiary
+int BudgetSub
+int BudgetTrivial
 int ArmorShoulder
 int ArmorChest
 int ArmorHead
@@ -9,6 +22,23 @@ int ArmorFeet
 int ArmorWaist
 int ArmorHands
 int ArmorWrists
+int ArmorBack
+int ArmorShield
+int ShoulderBudget
+int TrinketBudget
+int WeaponBudget1H
+int RangedBudget
+int ClothShoulderArmor
+int LeatherShoulderArmor
+int MailShoulderArmor
+int PlateShoulderArmor
+int PrimaryBudget
+int TertiaryBudget
+int ClothCloakArmor
+int ClothChestArmor
+int LeatherChestArmor
+int MailChestArmor
+int PlateChestArmor
 int Field_6388439771?
 int Field_5878580131?
 int Field_4085337218?
@@ -45,39 +75,66 @@ int Field_6238094603?
 int Field_6022189239?
 int Field_2797011035?
 int Field_3457889120?
-int TrinketBudget
-int WeaponBudget1H
-int PrimaryBudget
-int RangedBudget
-int ClothShoulderArmor
-int LeatherShoulderArmor
-int MailShoulderArmor
-int PlateShoulderArmor
-int WeaponDPS1H
-int WeaponDPS2H
-int SpellcasterDPS1H
-int SpellcasterDPS2H
-int RangedDPS
-int WandDPS
 int Field_1011251905?
 int Field_8918504393?
 int Field_4836647950?
-int SpellPower
 int Field_2157006595?
 int Field_6034262881?
 int Field_9395693246?
-int ClothCloakArmor
-int ClothChestArmor
-int LeatherChestArmor
-int MailChestArmor
-int PlateChestArmor
-int ShoulderBudget
-int TertiaryBudget
-int EffectiveLevel
-int BudgetPrimary
-int BudgetSecondary
-int BudgetTertiary
-int BudgetTrivial
+
+BUILD 6.0.1.18179
+$id$ID<32>
+Charlevel<32>
+EffectiveLevel<32>
+WeaponDPS1H<32>
+WeaponDPS2H<32>
+SpellcasterDPS1H<32>
+SpellcasterDPS2H<32>
+RangedDPS<32>
+WandDPS<32>
+SpellPower<32>
+BudgetPrimary<32>
+BudgetSecondary<32>
+BudgetTertiary<32>
+BudgetSub<32>
+BudgetTrivial<32>
+ArmorShoulder<32>[4]
+ArmorChest<32>[4]
+ArmorHead<32>[4]
+ArmorLegs<32>[4]
+ArmorFeet<32>[4]
+ArmorWaist<32>[4]
+ArmorHands<32>[4]
+ArmorWrists<32>[4]
+ArmorBack<32>
+ArmorShield<32>
+
+BUILD 4.0.0.11792
+BUILD 3.3.5.12213-4.0.0.12319
+$id$ID<32>
+Charlevel<32>
+ShoulderBudget<32>
+TrinketBudget<32>
+WeaponBudget1H<32>
+RangedBudget<32>
+ClothShoulderArmor<32>
+LeatherShoulderArmor<32>
+MailShoulderArmor<32>
+PlateShoulderArmor<32>
+WeaponDPS1H<32>
+WeaponDPS2H<32>
+SpellcasterDPS1H<32>
+SpellcasterDPS2H<32>
+RangedDPS<32>
+WandDPS<32>
+SpellPower<32>
+PrimaryBudget<32>
+TertiaryBudget<32>
+ClothCloakArmor<32>
+ClothChestArmor<32>
+LeatherChestArmor<32>
+MailChestArmor<32>
+PlateChestArmor<32>
 
 BUILD 5.3.0.16844-5.4.8.18414
 $id$ID<32>
@@ -156,32 +213,6 @@ ArmorWaist<32>[4]
 ArmorHands<32>[4]
 ArmorWrists<32>[4]
 Field_7440211408<32>
-
-BUILD 3.3.5.12213-4.0.0.12319
-$id$ID<32>
-Charlevel<32>
-ShoulderBudget<32>
-TrinketBudget<32>
-WeaponBudget1H<32>
-RangedBudget<32>
-ClothShoulderArmor<32>
-LeatherShoulderArmor<32>
-MailShoulderArmor<32>
-PlateShoulderArmor<32>
-WeaponDPS1H<32>
-WeaponDPS2H<32>
-SpellcasterDPS1H<32>
-SpellcasterDPS2H<32>
-RangedDPS<32>
-WandDPS<32>
-SpellPower<32>
-PrimaryBudget<32>
-TertiaryBudget<32>
-ClothCloakArmor<32>
-ClothChestArmor<32>
-LeatherChestArmor<32>
-MailChestArmor<32>
-PlateChestArmor<32>
 
 BUILD 3.2.0.10192-3.3.3.11723
 $id$ID<32>

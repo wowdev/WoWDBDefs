@@ -8,15 +8,186 @@ locstring AlternateVerb_lang
 int CanLink
 int<SkillLine::ID> ParentSkillLineID
 int Flags
+locstring HordeDisplayName_lang
+int ParentTierIndex
+int SpellIconFileID
+int SkillCostsID
 int RaceMask
 int ClassMask
 int ExcludeRace
 int ExcludeClass
-int SkillType
+int SkillType // 0: Class, 1: Special, 2: Racial, 3: Primary Profession (Talent Tree), 4: Secondary Profession
 int MinCharLevel
 int MaxRank
 int Abandonable
-int SkillCostsID
+string NeutralDisplayName
+locstring Field_201830540_lang
+locstring Field_1325187612_lang
+locstring Field_1212239847_lang
+locstring Field_1430421346_lang
+string Field_1481447808
+int Field_258761031
+int Field_1397028014
+int Field_1012798067
+int Field_537225331
+int Field_1634475971
+int Field_2094832182
+int Field_1069689410
+locstring Field_2048772316_lang
+locstring Field_1711177019_lang
+locstring Field_2066999690_lang
+locstring Field_1069469357_lang
+string Field_1682890961
+int Field_2112186379
+int Field_1750360293
+int Field_2055805965
+int Field_1647765954
+int Field_236996372
+int Field_1327516766
+int Field_1508678044
+int Field_1863254740
+
+BUILD 6.0.1.18179
+$id$ID<32>
+CategoryID<32>
+DisplayName_lang
+Description_lang
+SpellIconID<32>
+AlternateVerb_lang
+CanLink<32>
+ParentSkillLineID<32>
+Flags<32>
+
+LAYOUT F0E77964
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+$noninline,id$ID<32>
+DisplayName_lang
+HordeDisplayName_lang
+Description_lang
+AlternateVerb_lang
+Flags<16>
+CategoryID<8>
+CanLink<8>
+SpellIconFileID<32>
+ParentSkillLineID<32>
+ParentTierIndex<32>
+
+BUILD 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
+$id$ID<32>
+CategoryID<32>
+SkillCostsID<32>
+DisplayName_lang
+Description_lang
+SpellIconID<32>
+AlternateVerb_lang
+CanLink<32>
+
+BUILD 3.0.1.8303
+$id$ID<32>
+CategoryID<32>
+SkillCostsID<32>
+DisplayName_lang
+Description_lang
+SpellIconID<32>
+
+BUILD 0.5.3.3368
+$id$ID<32>
+RaceMask<32>
+ClassMask<32>
+ExcludeRace<32>
+ExcludeClass<32>
+CategoryID<32>
+SkillType<32>
+MinCharLevel<32>
+MaxRank<32>
+Abandonable<32>
+DisplayName_lang
+
+LAYOUT 9C1D6E2E
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
+$noninline,id$ID<32>
+DisplayName_lang
+AlternateVerb_lang
+Description_lang
+HordeDisplayName_lang
+Flags<16>
+CategoryID<8>
+CanLink<8>
+SpellIconFileID<32>
+ParentSkillLineID<32>
+ParentTierIndex<32>
+
+LAYOUT 3A71246C
+BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+DisplayName_lang
+AlternateVerb_lang
+Description_lang
+HordeDisplayName_lang
+$id$ID<32>
+Flags<16>
+CategoryID<8>
+CanLink<8>
+SpellIconFileID<32>
+ParentSkillLineID<32>
+ParentTierIndex<32>
+
+LAYOUT 8C8C1F69
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+DisplayName_lang
+AlternateVerb_lang
+Description_lang
+HordeDisplayName_lang
+NeutralDisplayName
+$id$ID<32>
+Flags<16>
+CategoryID<8>
+CanLink<8>
+SpellIconFileID<32>
+ParentSkillLineID<32>
+ParentTierIndex<32>
+
+LAYOUT 3F7E88AF
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+$noninline,id$ID<32>
+DisplayName_lang
+Description_lang
+AlternateVerb_lang
+Flags<u16>
+CategoryID<8>
+CanLink<8>
+SpellIconFileID<32>
+ParentSkillLineID<u32>
+
+LAYOUT 5826EC3B
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838
+Field_201830540_lang
+Field_1325187612_lang
+Field_1212239847_lang
+Field_1430421346_lang
+Field_1481447808
+$id$Field_258761031<32>
+Field_1397028014<8>
+Field_1012798067<32>
+Field_537225331<8>
+Field_1634475971<u32>
+Field_2094832182<32>
+Field_1069689410<u16>
+
+LAYOUT EC83FE8A
+BUILD 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+Field_2048772316_lang
+Field_1711177019_lang
+Field_2066999690_lang
+Field_1069469357_lang
+Field_1682890961
+$id$Field_2112186379<32>
+Field_1750360293<8>
+Field_2055805965<32>
+Field_1647765954<8>
+Field_236996372<u32>
+Field_1327516766<32>
+Field_1508678044<u16>
+Field_1863254740<32>
 
 BUILD 5.1.0.16309-5.4.8.18414
 $id$ID<32>

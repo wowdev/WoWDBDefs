@@ -1,5 +1,25 @@
 COLUMNS
 int ID
+float EAX1EffectLevel
+int EAX2SampleDirect
+int EAX2SampleDirectHF
+int EAX2SampleRoom
+int EAX2SampleRoomHF
+float EAX2SampleObstruction
+float EAX2SampleObstructionLFRatio
+float EAX2SampleOcclusion
+float EAX2SampleOcclusionLFRatio
+float EAX2SampleOcclusionRoomRatio
+float EAX2SampleRoomRolloff
+float EAX2SampleAirAbsorption
+int EAX2SampleOutsideVolumeHF
+float EAX3SampleOcclusionDirectRatio
+float EAX3SampleExclusion
+float EAX3SampleExclusionLFRatio
+float EAX3SampleDopplerFactor
+float Fast2DPredelayTime
+float Fast2DDamping
+float Fast2DReverbTime
 int Field_9127761488?
 int Field_4564812986?
 int Field_4903173788?
@@ -11,46 +31,8 @@ int Field_7470269043?
 float Field_3098423207?
 float Field_3369558972?
 int Field_851597632?
-int EAX2SampleRoom
-float EAX2SampleOcclusionLFRatio
-float EAX2SampleOcclusionRoomRatio
-float EAX1EffectLevel
-float EAX3SampleExclusion
-int EAX2SampleDirect
-int EAX2SampleDirectHF
-int EAX2SampleRoomHF
-float EAX2SampleObstruction
-float EAX2SampleObstructionLFRatio
-float EAX2SampleOcclusion
-float EAX2SampleRoomRolloff
-float EAX2SampleAirAbsorption
-int EAX2SampleOutsideVolumeHF
-float EAX3SampleOcclusionDirectRatio
-float EAX3SampleExclusionLFRatio
-float EAX3SampleDopplerFactor
-float Fast2DPredelayTime
-float Fast2DDamping
-float Fast2DReverbTime
 
-BUILD 0.6.0.3592-3.3.5.12340
-$id$ID<32>
-Field_9127761488<32>
-Field_4564812986<32>
-EAX2SampleRoom<32>
-Field_4903173788<32>
-Field_89413602<32>
-Field_5139860564
-Field_9425209015<32>
-EAX2SampleOcclusionLFRatio
-EAX2SampleOcclusionRoomRatio
-Field_6743755609<32>
-EAX1EffectLevel
-Field_7470269043<32>
-Field_3098423207
-EAX3SampleExclusion
-Field_3369558972
-Field_851597632<32>
-
+BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
 EAX1EffectLevel
@@ -73,3 +55,22 @@ EAX3SampleDopplerFactor
 Fast2DPredelayTime
 Fast2DDamping
 Fast2DReverbTime
+
+BUILD 0.6.0.3592-3.3.5.12340
+$id$ID<32>
+Field_9127761488<32>
+Field_4564812986<32>
+EAX2SampleRoom<32>
+Field_4903173788<32>
+Field_89413602<32>
+Field_5139860564
+Field_9425209015<32>
+EAX2SampleOcclusionLFRatio
+EAX2SampleOcclusionRoomRatio
+Field_6743755609<32>
+EAX1EffectLevel
+Field_7470269043<32>
+Field_3098423207
+EAX3SampleExclusion
+Field_3369558972
+Field_851597632<32>

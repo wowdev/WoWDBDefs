@@ -12,12 +12,176 @@ int TrivialSkillLineRankLow
 int NumSkillUps
 int UniqueBit
 int<TradeSkillCategory::ID> TradeSkillCategoryID
-int SupercededBySpell
+int Flags
+int SkillupSkillLineID
 int ExcludeRace
 int ExcludeClass
-int Field_1257850807? // only set on [Plate Mail] in 0.5.5
+int SupercededBySpell
 int CharacterPoints
 int Abandonable
+int Field_578240292
+int Field_1658843798
+int Field_872585139
+int Field_366225498
+int Field_1655880674
+int Field_1996185136
+int Field_1050310833
+int Field_717866732
+int Field_155152069
+int Field_488054273
+int Field_422154495
+int Field_545445438
+int Field_1645237729
+int Field_1470672893
+int Field_307857935
+int Field_1257850807? // only set on [Plate Mail] in 0.5.5
+
+BUILD 6.0.1.18179
+$id$ID<32>
+SkillLine<32>
+Spell<32>
+RaceMask<32>
+ClassMask<32>
+MinSkillLineRank<32>
+SupercedesSpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+NumSkillUps<32>
+UniqueBit<32>
+TradeSkillCategoryID<32>
+
+LAYOUT 54D478F8
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+RaceMask<64>
+$id$ID<32>
+Spell<32>
+SupercedesSpell<32>
+$relation$SkillLine<16>
+TrivialSkillLineRankHigh<16>
+TrivialSkillLineRankLow<16>
+UniqueBit<16>
+TradeSkillCategoryID<16>
+NumSkillUps<8>
+ClassMask<32>
+MinSkillLineRank<16>
+AcquireMethod<8>
+Flags<8>
+SkillupSkillLineID<16>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+SkillLine<32>
+Spell<32>
+RaceMask<32>
+ClassMask<32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+CharacterPoints<32>[2]
+NumSkillUps<32>
+
+BUILD 3.0.1.8303
+$id$ID<32>
+SkillLine<32>
+Spell<32>
+RaceMask<32>
+ClassMask<32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+Abandonable<32>
+CharacterPoints<32>[2]
+
+BUILD 3.0.2.8885, 3.0.8.9328
+$id$ID<32>
+SkillLine<32>
+Spell<32>
+RaceMask<32>
+ClassMask<32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+CharacterPoints<32>[2]
+
+BUILD 0.5.3.3368
+$id$ID<32>
+SkillLine<32>
+Spell<32>
+RaceMask<32>
+ClassMask<32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+Abandonable<32>
+
+LAYOUT 2379779C
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+RaceMask<64>
+$id$ID<32>
+Spell<32>
+SupercedesSpell<32>
+$relation$SkillLine<16>
+TrivialSkillLineRankHigh<16>
+TrivialSkillLineRankLow<16>
+UniqueBit<16>
+TradeSkillCategoryID<16>
+NumSkillUps<8>
+MinSkillLineRank<16>
+ClassMask<32>
+AcquireMethod<8>
+Flags<8>
+SkillupSkillLineID<16>
+
+LAYOUT 97B5A653
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+RaceMask<64>
+$id$ID<32>
+Spell<32>
+SupercedesSpell<32>
+$relation$SkillLine<16>
+TrivialSkillLineRankHigh<16>
+TrivialSkillLineRankLow<16>
+UniqueBit<16>
+TradeSkillCategoryID<16>
+NumSkillUps<8>
+ClassMask<32>
+MinSkillLineRank<16>
+AcquireMethod<8>
+Flags<8>
+
+LAYOUT A38AD072
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+Field_578240292<64>
+$id$Field_1658843798<32>
+$relation$Field_872585139<16>
+Field_366225498<32>
+Field_1655880674<16>
+Field_1996185136<32>
+Field_1050310833<32>
+Field_717866732<8>
+Field_155152069<16>
+Field_488054273<16>
+Field_422154495<8>
+Field_545445438<8>
+Field_1645237729<16>
+Field_1470672893<16>
+Field_307857935<16>
 
 BUILD 5.0.1.15650-5.0.1.15657
 BUILD 5.0.1.15668-5.4.8.18414
@@ -144,17 +308,3 @@ AcquireMethod<32>
 TrivialSkillLineRankHigh<32>
 TrivialSkillLineRankLow<32>
 Field_1257850807<32>
-
-BUILD 0.5.3.3368
-$id$ID<32>
-SkillLine<32>
-Spell<32>
-RaceMask<u32>
-ClassMask<u32>
-ExcludeRace<32>
-ExcludeClass<32>
-MinSkillLineRank<32>
-SupercededBySpell<32>
-TrivialSkillLineRankHigh<32>
-TrivialSkillLineRankLow<32>
-Abandonable<32>

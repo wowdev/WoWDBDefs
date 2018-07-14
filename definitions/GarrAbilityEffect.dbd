@@ -1,0 +1,80 @@
+COLUMNS
+int Field_1848318171?
+int ID
+int AbilityAction
+int AbilityTargetType
+int ActionHours
+int ActionRace
+int ActionRecordID
+float ActionValueFlat
+float CombatWeightBase
+float CombatWeightMax
+int Flags
+int GarrAbilityID
+int GarrMechanicTypeID
+int Field_1096564021
+int Field_1838633660
+int Field_777345925
+float Field_346015355
+float Field_1345331277
+float Field_257122878
+int Field_1609473971
+int Field_1438661586
+int Field_1746083035
+int Field_721669374
+
+BUILD 6.0.1.18179
+$id$ID<32>
+AbilityAction<32>
+GarrAbilityID<32>
+AbilityTargetType<32>
+GarrMechanicTypeID<32>
+Field_1848318171<32>
+CombatWeightBase
+CombatWeightMax
+ActionValueFlat
+
+LAYOUT E6A6CB99
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+CombatWeightBase
+CombatWeightMax
+ActionValueFlat
+ActionRecordID<32>
+$relation$GarrAbilityID<u16>
+AbilityAction<u8>
+AbilityTargetType<u8>
+GarrMechanicTypeID<u8>
+Flags<u8>
+ActionRace<u8>
+ActionHours<u8>
+$id$ID<32>
+
+LAYOUT 86CA039B
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+CombatWeightBase
+CombatWeightMax
+ActionValueFlat
+ActionRecordID<32>
+$relation$GarrAbilityID<16>
+AbilityAction<8>
+AbilityTargetType<8>
+GarrMechanicTypeID<8>
+ActionRace<8>
+ActionHours<8>
+Flags<8>
+$id$ID<32>
+
+LAYOUT 682EE0E1
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$id$ID<32>
+$relation$GarrAbilityID<u16>
+Field_1096564021<u8>
+Field_1838633660<u8>
+Field_777345925<u8>
+Field_346015355
+Field_1345331277
+Field_257122878
+Field_1609473971<u8>
+Field_1438661586<u8>
+Field_1746083035<32>
+Field_721669374<u8>

@@ -3,14 +3,58 @@ int ID
 int<WorldStateExpression::ID> WorldStateExpressionID
 int<UnitCondition::ID> SelfConditionID
 int<UnitCondition::ID> TargetConditionID
-int FriendConditionID
+int<UnitCondition::ID> FriendConditionID
 int FriendConditionOp
 int FriendConditionCount
 int FriendConditionLogic
-int EnemyConditionID
+int<UnitCondition::ID> EnemyConditionID
 int EnemyConditionOp
 int EnemyConditionCount
 int EnemyConditionLogic
+
+BUILD 6.0.1.18179
+$id$ID<32>
+WorldStateExpressionID<32>
+SelfConditionID<32>
+TargetConditionID<32>
+FriendConditionID<32>[2]
+FriendConditionOp<32>[2]
+FriendConditionCount<32>[2]
+FriendConditionLogic<32>
+EnemyConditionID<32>[2]
+EnemyConditionOp<32>[2]
+EnemyConditionCount<32>[2]
+EnemyConditionLogic<32>
+
+LAYOUT 28D253C6, 81607E0A
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+WorldStateExpressionID<u16>
+SelfConditionID<u16>
+TargetConditionID<u16>
+FriendConditionID<u16>[2]
+EnemyConditionID<u16>[2]
+FriendConditionOp<u8>[2]
+FriendConditionCount<u8>[2]
+FriendConditionLogic<u8>
+EnemyConditionOp<u8>[2]
+EnemyConditionCount<u8>[2]
+EnemyConditionLogic<u8>
+
+LAYOUT 75A29044
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+WorldStateExpressionID<u16>
+SelfConditionID<u16>
+TargetConditionID<u16>
+FriendConditionLogic<u8>
+EnemyConditionLogic<u8>
+FriendConditionID<u16>[2]
+FriendConditionOp<u8>[2]
+FriendConditionCount<u8>[2]
+EnemyConditionID<u16>[2]
+EnemyConditionOp<u8>[2]
+EnemyConditionCount<u8>[2]
 
 BUILD 5.0.1.15464-6.2.4.21742
 $id$ID<32>

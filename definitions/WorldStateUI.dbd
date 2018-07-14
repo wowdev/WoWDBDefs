@@ -14,8 +14,151 @@ string DynamicIcon
 locstring DynamicTooltip_lang
 string ExtendedUI
 int ExtendedUIStateVariable
+int DynamicFlashIconFileID
+int DynamicIconFileID
+int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
+string Field_1780015728
+locstring Field_1586698208_lang
+locstring Field_084854354_lang
+locstring Field_649034880_lang
+string Field_650110249
+int Field_1867949595
+int Field_649053501
+int Field_705925423
+int Field_1491806186
+int Field_570583305
+int Field_1038183579
+int Field_643149059
+int Field_1046488185
+int Field_123440419
+int Field_1568074154
+int Field_1267108740
+int Field_1583851419
+
+BUILD 6.0.1.18179
+$id$ID<32>
+MapID<32>
+AreaID<32>
+PhaseUseFlags<32>
+PhaseID<32>
+PhaseGroupID<32>
+Icon
+String_lang
+Tooltip_lang
+StateVariable<32>
+Type<32>
+DynamicIcon
+DynamicTooltip_lang
+ExtendedUI
+ExtendedUIStateVariable<32>[3]
+
+LAYOUT 70808977
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+Icon
+ExtendedUI
+DynamicTooltip_lang
+String_lang
+Tooltip_lang
+$relation$MapID<16>
+AreaID<u16>
+PhaseID<u16>
+PhaseGroupID<u16>
+StateVariable<u16>
+ExtendedUIStateVariable<u16>[3]
+OrderIndex<u8>
+PhaseUseFlags<u8>
+Type<u8>
+$id$ID<32>
+DynamicIconFileID<32>
+DynamicFlashIconFileID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+MapID<32>
+AreaID<32>
+PhaseShift<32>
+Icon
+String_lang
+Tooltip_lang
+StateVariable<32>
+Type<32>
+DynamicIcon
+DynamicTooltip_lang
+ExtendedUI
+ExtendedUIStateVariable<32>[3]
+
+BUILD 3.0.1.8303
+$id$ID<32>
+MapID<32>
+AreaID<32>
+Icon
+String_lang
+Tooltip_lang
+FactionID<32>
+StateVariable<32>
+Type<32>
+DynamicIcon
+DynamicTooltip_lang
+ExtendedUI
+ExtendedUIStateVariable<32>[3]
+
+BUILD 3.0.2.8885, 3.0.8.9328
+$id$ID<32>
+MapID<32>
+AreaID<32>
+PhaseShift<32>
+Icon
+String_lang
+Tooltip_lang
+FactionID<32>
+StateVariable<32>
+Type<32>
+DynamicIcon
+DynamicTooltip_lang
+ExtendedUI
+ExtendedUIStateVariable<32>[3]
+
+LAYOUT AD4D9EE6
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+Icon
+String_lang
+Tooltip_lang
+DynamicTooltip_lang
+ExtendedUI
+$relation$MapID<16>
+AreaID<16>
+StateVariable<16>
+ExtendedUIStateVariable<16>[3]
+PhaseID<16>
+PhaseGroupID<16>
+Type<8>
+OrderIndex<8>
+PhaseUseFlags<8>
+$id$ID<32>
+DynamicIconFileID<32>
+DynamicFlashIconFileID<32>
+
+LAYOUT E1F042FE
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+Field_1780015728
+Field_1586698208_lang
+Field_084854354_lang
+Field_649034880_lang
+Field_650110249
+$id$Field_1867949595<32>
+$relation$Field_649053501<16>
+Field_705925423<u16>
+Field_1491806186<u16>
+Field_570583305<u8>
+Field_1038183579<32>
+Field_643149059<32>
+Field_1046488185<u8>
+Field_123440419<u8>
+Field_1568074154<u16>
+Field_1267108740<u16>
+Field_1583851419<u16>[3]
 
 BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>

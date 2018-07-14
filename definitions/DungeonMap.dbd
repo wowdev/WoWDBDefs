@@ -6,6 +6,41 @@ float Min
 float Max
 int<AreaTable::ID> ParentWorldMapID
 int Flags
+int RelativeHeightIndex
+float MinX
+float MaxX
+float MinY
+float MaxY
+
+BUILD 6.0.1.18179
+$id$ID<32>
+MapID<32>
+FloorIndex<32>
+Min[2]
+Max[2]
+ParentWorldMapID<32>
+Flags<32>
+
+LAYOUT B5A245F4, 65C8690C
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
+Min[2]
+Max[2]
+$relation$MapID<16>
+ParentWorldMapID<16>
+FloorIndex<8>
+RelativeHeightIndex<8>
+Flags<8>
+$id$ID<32>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+MapID<32>
+FloorIndex<32>
+MinX
+MaxX
+MinY
+MaxY
+ParentWorldMapID<32>
 
 BUILD 5.0.4.15929-5.4.8.18414
 $id$ID<32>

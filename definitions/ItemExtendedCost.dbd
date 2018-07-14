@@ -1,25 +1,123 @@
 COLUMNS
+int Field_3615618157?
+int Field_3717139135?
+int Field_3511030426?
+int Field_3775578813?
+int Field_2678491412?
+int Field_3662134429?
+int Field_1272793744?
+int Field_1265918367?
+int Field_3804329500?
+int Field_3649393156?
+int Field_2691620509?
+int Field_3895199457?
+int Field_974013196?
+int Field_4236132424?
 int ID
+int ArenaBracket
+int CurrencyCount
+int CurrencyID
+int Flags
+int ItemCount
+int ItemID
+int MinFactionID
+int MinReputation
+int RequiredAchievement
+int RequiredArenaRating
+int HonorPoints
+int ArenaPoints
+int ItemPurchaseGroup
+int Field_1500091862
+int Field_625559976
+int Field_2004410337
+int Field_559274784
+int Field_425855966
+int Field_560012321
+int Field_1639747773
+int Field_1964957362
+int Field_064686730
+int Field_808875171
 int RequiredHonorPoints
 int RequiredArenaPoints
 int RequiredArenaSlot
 int RequiredItems
 int RequiredItemCount
 int RequiredPersonalArenaRating
-int ItemPurchaseGroup
 int RequiredCurrency
 int RequiredCurrencyCount
 int<Faction::ID> RequiredFactionID
 int RequiredFactionStanding
 int RequirementFlags
-int RequiredAchievement
 int RequiredMoney
-int RequiredArenaRating
-int HonorPoints
-int ArenaPoints
-int ArenaBracket
-int ItemID
-int ItemCount
+
+BUILD 6.0.1.18179
+$id$ID<32>
+Field_3615618157<32>
+Field_3717139135<32>
+Field_3511030426<32>
+Field_3775578813<32>[5]
+Field_2678491412<32>[5]
+Field_3662134429<32>
+Field_1272793744<32>
+Field_1265918367<32>[5]
+Field_3804329500<32>[5]
+Field_3649393156<32>
+Field_2691620509<32>
+Field_3895199457<32>
+Field_974013196<32>
+Field_4236132424<32>
+
+LAYOUT C31F4DEF
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+$noninline,id$ID<32>
+ItemID<32>[5]
+CurrencyCount<u32>[5]
+ItemCount<u16>[5]
+RequiredArenaRating<u16>
+CurrencyID<u16>[5]
+ArenaBracket<u8>
+MinFactionID<u8>
+MinReputation<u8>
+Flags<u8>
+RequiredAchievement<u8>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+HonorPoints<32>
+ArenaPoints<32>
+ArenaBracket<32>
+ItemID<32>[5]
+ItemCount<32>[5]
+RequiredArenaRating<32>
+ItemPurchaseGroup<32>
+
+LAYOUT ADD09693
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+ItemID<32>[5]
+CurrencyCount<32>[5]
+RequiredArenaRating<16>
+ItemCount<16>[5]
+CurrencyID<16>[5]
+ArenaBracket<8>
+Flags<8>
+MinFactionID<8>
+MinReputation<8>
+RequiredAchievement<8>
+
+LAYOUT 2AC5BE11
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_1500091862<u16>
+Field_625559976<8>
+Field_2004410337<u8>
+Field_559274784<u8>
+Field_425855966<u8>
+Field_560012321<u8>
+Field_1639747773<32>[5]
+Field_1964957362<u16>[5]
+Field_064686730<u16>[5]
+Field_808875171<u32>[5]
 
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>

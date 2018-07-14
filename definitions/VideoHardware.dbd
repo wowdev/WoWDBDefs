@@ -25,6 +25,52 @@ int Atlasdisable
 int OglPixelShader
 int D3dPixelShader
 
+BUILD 4.0.0.11792, 6.0.1.18179
+$id$ID<32>
+VendorID<32>
+DeviceID<32>
+FarclipIdx<32>
+TerrainLODDistIdx<32>
+TerrainShadowLOD<32>
+DetailDoodadDensityIdx<32>
+DetailDoodadAlpha<32>
+AnimatingDoodadIdx<32>
+Trilinear<32>
+NumLights<32>
+Specularity<32>
+WaterLODIdx<32>
+ParticleDensityIdx<32>
+UnitDrawDistIdx<32>
+SmallCullDistIdx<32>
+ResolutionIdx<32>
+BaseMipLevel<32>
+OglOverrides
+D3dOverrides
+FixLag<32>
+Multisample<32>
+Atlasdisable<32>
+
+BUILD 0.5.3.3368
+VendorID<32>
+DeviceID<32>
+FarclipIdx<32>
+TerrainLODDistIdx<32>
+TerrainShadowLOD<32>
+DetailDoodadDensityIdx<32>
+DetailDoodadAlpha<32>
+AnimatingDoodadIdx<32>
+Trilinear<32>
+NumLights<32>
+Specularity<32>
+WaterLODIdx<32>
+ParticleDensityIdx<32>
+UnitDrawDistIdx<32>
+SmallCullDistIdx<32>
+ResolutionIdx<32>
+BaseMipLevel<32>
+OglPixelShader<32>
+D3dPixelShader<32>
+
 BUILD 2.1.0.6692-6.2.4.21742
 $id$ID<32>
 VendorID<u32>

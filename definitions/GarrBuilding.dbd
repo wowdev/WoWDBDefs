@@ -1,0 +1,165 @@
+COLUMNS
+int Field_3306722499?
+int Field_4210797641?
+int Field_2675108016?
+int Field_1038973225?
+int Field_4197582690?
+int Field_1003070737?
+int Field_2240183979?
+int Field_3505732336?
+int Field_1025260385?
+int ID
+int AllianceGameObjectID
+locstring AllianceName_lang
+int AllianceSceneScriptPackageID
+int AllianceUiTextureKitID
+int BonusGarrAbilityID
+int BuildSeconds
+int BuildingType
+int CurrencyQty
+int CurrencyTypeID
+locstring Description_lang
+int Flags
+int GarrAbilityID
+int GarrSiteID
+int GarrTypeID
+int GoldCost
+int HordeGameObjectID
+locstring HordeName_lang
+int HordeSceneScriptPackageID
+int HordeUiTextureKitID
+int IconFileDataID
+int MaxAssignments
+int ShipmentCapacity
+locstring Tooltip_lang
+int UpgradeLevel
+locstring Field_572161295_lang
+locstring Field_1448371431_lang
+locstring Field_1889258682_lang
+locstring Field_685113586_lang
+int Field_1310544907
+int Field_341907242
+int Field_1438757388
+int Field_1325315549
+int Field_1183755621
+int Field_1964896134
+int Field_1245564775
+int Field_485593566
+int Field_721296401
+int Field_1040312240
+int Field_1341572263
+int Field_776934099
+int Field_448267928
+int Field_1667660264
+int Field_668097137
+int Field_1368604227
+int Field_977699018
+int Field_1622230132
+int Field_1915108543
+int Field_1231754462
+
+BUILD 6.0.1.18179
+$id$ID<32>
+HordeGameObjectID<32>
+AllianceGameObjectID<32>
+Field_3306722499<32>
+BuildingType<32>
+UpgradeLevel<32>
+AllianceName_lang
+HordeName_lang
+Description_lang
+Tooltip_lang
+Field_4210797641<32>
+CurrencyTypeID<32>
+Field_2675108016<32>
+Field_1038973225<32>
+Field_4197582690<32>
+IconFileDataID<32>
+Field_1003070737<32>
+Field_2240183979<32>
+Field_3505732336<32>
+Field_1025260385<32>
+
+LAYOUT 200F9858
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+$noninline,id$ID<32>
+AllianceName_lang
+HordeName_lang
+Description_lang
+Tooltip_lang
+HordeGameObjectID<32>
+AllianceGameObjectID<32>
+IconFileDataID<32>
+CurrencyTypeID<u16>
+HordeUiTextureKitID<u16>
+AllianceUiTextureKitID<u16>
+AllianceSceneScriptPackageID<u16>
+HordeSceneScriptPackageID<u16>
+GarrAbilityID<u16>
+BonusGarrAbilityID<u16>
+GoldCost<u16>
+GarrSiteID<u8>
+BuildingType<u8>
+UpgradeLevel<u8>
+Flags<u8>
+ShipmentCapacity<u8>
+GarrTypeID<u8>
+BuildSeconds<32>
+CurrencyQty<32>
+MaxAssignments<32>
+
+LAYOUT F4DF1FA6
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+HordeName_lang
+AllianceName_lang
+Description_lang
+Tooltip_lang
+HordeGameObjectID<32>
+AllianceGameObjectID<32>
+IconFileDataID<32>
+CurrencyTypeID<16>
+HordeUiTextureKitID<16>
+AllianceUiTextureKitID<16>
+AllianceSceneScriptPackageID<16>
+HordeSceneScriptPackageID<16>
+GarrAbilityID<16>
+BonusGarrAbilityID<16>
+GoldCost<16>
+GarrTypeID<8>
+BuildingType<8>
+GarrSiteID<8>
+UpgradeLevel<8>
+ShipmentCapacity<8>
+Flags<8>
+BuildSeconds<32>
+CurrencyQty<32>
+MaxAssignments<32>
+
+LAYOUT 158D48D4
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_572161295_lang
+Field_1448371431_lang
+Field_1889258682_lang
+Field_685113586_lang
+Field_1310544907<u8>
+Field_341907242<u8>
+Field_1438757388<32>
+Field_1325315549<32>
+Field_1183755621<u8>
+Field_1964896134<u8>
+Field_1245564775<32>
+Field_485593566<u16>
+Field_721296401<32>
+Field_1040312240<u16>
+Field_1341572263<u16>
+Field_776934099<32>
+Field_448267928<u16>
+Field_1667660264<u16>
+Field_668097137<32>
+Field_1368604227<u8>
+Field_977699018<u16>
+Field_1622230132<u16>
+Field_1915108543<u16>
+Field_1231754462<u8>

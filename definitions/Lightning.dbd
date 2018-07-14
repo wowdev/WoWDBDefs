@@ -1,0 +1,247 @@
+COLUMNS
+int ID
+float BoltBrightnessScalar
+int BoltColor
+float BoltDirection
+float BoltDirectionVariance
+float Brightness
+float CloudBrightnessScalar
+int FlashColor
+float GroundBrightnessScalar
+float MaxBoltHeight
+float MaxBoltWidth
+float MaxCloudDepth
+float MaxConvergenceSpeed
+float MaxDivergence
+float MaxEndTime
+float MaxFadeInStrength
+float MaxFadeTime
+int MaxSegmentCount
+float MaxStrikeStrength
+float MaxStrikeTime
+float MinBoltHeight
+float MinBoltWidth
+float MinCloudDepth
+float MinConvergenceSpeed
+float MinDivergence
+float MinEndTime
+float MinFadeInStrength
+float MinFadeTime
+float MinStrikeStrength
+float MinStrikeTime
+float SegmentSize
+float SoundEmitterDistance
+int SoundKitID
+int Field_9858915126? // Maybe soundKitID
+float Field_805015313
+int Field_1618960165
+float Field_1555572520
+float Field_1519126077
+float Field_1817073436
+float Field_1419051314
+float Field_1419348593
+float Field_1297582700
+float Field_625734523
+float Field_1962100636
+float Field_1379893375
+float Field_422116327
+int Field_282083040
+float Field_1239496092
+float Field_1714627149
+float Field_1804930629
+float Field_2048693146
+float Field_487912883
+float Field_1690995122
+int Field_1836386526
+int Field_781710957
+float Field_516143539
+float Field_021386062
+float Field_1297220893
+float Field_1987484157
+float Field_055902780
+float Field_843676298
+float Field_369157816
+float Field_104024917
+float Field_1591302849
+float Field_2094129136
+float Field_1988178936
+float Field_2051523809
+int Field_422575709
+float Field_308347507
+float Field_972996526
+float Field_1366001858
+float Field_1872824237
+float Field_2128894996
+float Field_585296472
+float Field_890626332
+float Field_888654397
+float Field_490583035
+float Field_2015170661
+int Field_1722774727
+float Field_1077758511
+float Field_1714098975
+float Field_949679062
+float Field_804011979
+float Field_224833972
+float Field_1148911282
+float Field_2019126589
+float Field_002241990
+int Field_1623661041
+int Field_1441981234
+float Field_1007341528
+float Field_2025066168
+float Field_1035152344
+float Field_1922029606
+float Field_1853910171
+float Field_661621958
+float Field_311495196
+float Field_1107619125
+float Field_565891807
+float Field_523219248
+float Field_1276323087
+
+LAYOUT C0E38C34
+BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+$noninline,id$ID<32>
+BoltDirection[2]
+BoltDirectionVariance
+MinDivergence
+MaxDivergence
+MinConvergenceSpeed
+MaxConvergenceSpeed
+SegmentSize
+MinBoltWidth
+MaxBoltWidth
+MinBoltHeight
+MaxBoltHeight
+MaxSegmentCount<32>
+MinStrikeTime
+MaxStrikeTime
+MinEndTime
+MaxEndTime
+MinFadeTime
+MaxFadeTime
+FlashColor<32>
+BoltColor<32>
+Brightness
+MinCloudDepth
+MaxCloudDepth
+MinFadeInStrength
+MaxFadeInStrength
+MinStrikeStrength
+MaxStrikeStrength
+GroundBrightnessScalar
+BoltBrightnessScalar
+CloudBrightnessScalar
+SoundKitID<32>
+SoundEmitterDistance
+
+LAYOUT A2F80A84
+BUILD 8.0.1.26734
+$noninline,id$ID<32>
+BoltDirection[2]
+BoltDirectionVariance
+MinDivergence
+MaxDivergence
+MinConvergenceSpeed
+MaxConvergenceSpeed
+SegmentSize
+MinBoltWidth
+MaxBoltWidth
+MinBoltHeight
+MaxBoltHeight
+MaxSegmentCount<32>
+MinStrikeTime
+MaxStrikeTime
+MinEndTime
+MaxEndTime
+MinFadeTime
+MaxFadeTime
+FlashColor<32>
+BoltColor<32>
+Brightness
+MinCloudDepth
+MaxCloudDepth
+MinFadeInStrength
+MaxFadeInStrength
+MinStrikeStrength
+MaxStrikeStrength
+GroundBrightnessScalar
+BoltBrightnessScalar
+CloudBrightnessScalar
+SoundEmitterDistance
+Field_9858915126<32>[3]
+
+LAYOUT D9393B0A
+BUILD 8.0.1.26788, 8.0.1.26806
+$noninline,id$ID<32>
+Field_805015313[2]
+Field_1618960165<32>[3]
+Field_1555572520
+Field_1519126077
+Field_1817073436
+Field_1419051314
+Field_1419348593
+Field_1297582700
+Field_625734523
+Field_1962100636
+Field_1379893375
+Field_422116327
+Field_282083040<32>
+Field_1239496092
+Field_1714627149
+Field_1804930629
+Field_2048693146
+Field_487912883
+Field_1690995122
+Field_1836386526<32>
+Field_781710957<32>
+Field_516143539
+Field_021386062
+Field_1297220893
+Field_1987484157
+Field_055902780
+Field_843676298
+Field_369157816
+Field_104024917
+Field_1591302849
+Field_2094129136
+Field_1988178936
+
+LAYOUT 8B6D192C
+BUILD 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_2051523809[2]
+Field_422575709<32>[3]
+Field_308347507
+Field_972996526
+Field_1366001858
+Field_1872824237
+Field_2128894996
+Field_585296472
+Field_890626332
+Field_888654397
+Field_490583035
+Field_2015170661
+Field_1722774727<32>
+Field_1077758511
+Field_1714098975
+Field_949679062
+Field_804011979
+Field_224833972
+Field_1148911282
+Field_2019126589
+Field_002241990
+Field_1623661041<32>
+Field_1441981234<32>
+Field_1007341528
+Field_2025066168
+Field_1035152344
+Field_1922029606
+Field_1853910171
+Field_661621958
+Field_311495196
+Field_1107619125
+Field_565891807
+Field_523219248
+Field_1276323087

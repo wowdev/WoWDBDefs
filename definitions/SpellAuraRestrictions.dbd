@@ -1,15 +1,72 @@
 COLUMNS
+int Field_375105213?
+int Field_710674707?
+int Field_2995613535?
+int Field_3664651641?
+int Field_517330213?
+int Field_4275692418?
+int Field_4288900431?
+int Field_657001117?
 int ID
-int ExcludeCasterAuraState
-int ExcludeTargetAuraState
 int CasterAuraSpell
-int TargetAuraSpell
-int ExcludeCasterAuraSpell
-int ExcludeTargetAuraSpell
 int CasterAuraState
+int<Difficulty::ID> DifficultyID
+int ExcludeCasterAuraSpell
+int ExcludeCasterAuraState
+int ExcludeTargetAuraSpell
+int ExcludeTargetAuraState
+int<Spell::ID> SpellID
+int TargetAuraSpell
 int TargetAuraState
-int<Spell::ID> SpellID?
-int<Difficulty::ID> DifficultyID?
+int Field_1784801535
+int Field_799478653
+int Field_1852214331
+int Field_1949278685
+int Field_1407814467
+int Field_1733134024
+int Field_071293649
+int Field_111071623
+int Field_570593716
+int Field_492054885
+
+BUILD 6.0.1.18179
+$id$ID<32>
+Field_375105213<32>
+Field_710674707<32>
+Field_2995613535<32>
+Field_3664651641<32>
+Field_517330213<32>
+Field_4275692418<32>
+Field_4288900431<32>
+Field_657001117<32>
+
+LAYOUT 7CDF3311, 64858129
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+CasterAuraSpell<32>
+TargetAuraSpell<32>
+ExcludeCasterAuraSpell<32>
+ExcludeTargetAuraSpell<32>
+DifficultyID<u8>
+CasterAuraState<u8>
+TargetAuraState<u8>
+ExcludeCasterAuraState<u8>
+ExcludeTargetAuraState<u8>
+$noninline,relation$SpellID<32>
+
+LAYOUT D7479271
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_1784801535<u8>
+Field_799478653<u8>
+Field_1852214331<u8>
+Field_1949278685<u8>
+Field_1407814467<u8>
+Field_1733134024<32>
+Field_071293649<32>
+Field_111071623<32>
+Field_570593716<32>
+$noninline,relation$Field_492054885<32>
 
 BUILD 5.0.1.15589-6.0.1.18156
 $id$ID<32>

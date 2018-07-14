@@ -1,19 +1,65 @@
 COLUMNS
+int Field_1683061916?
+int Field_549682438?
+int Field_1233177259?
+float Field_1338716497?
+float Field_2058994150?
+float Field_1168030651?
 int ID
-string Name
-int Flags
-int Lifetime
 float EmissionRate
-float Spacing
-float ModelScale
+int Flags
+int LifeTime
 int ModelFileDataID
+float ModelScale
+float Spacing
+string Name
 int EnumID
+int Field_748867669
+int Field_432222562
+int Field_877633480
+float Field_2003742592
+float Field_1178184722
+float Field_1465838725
+
+BUILD 6.0.1.18179
+$id$ID<32>
+Field_1683061916<32>
+Field_549682438<32>
+Field_1233177259<32>
+Field_1338716497
+Field_2058994150
+Field_1168030651
+
+LAYOUT BE76E593, 9DCD5A0B
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+ModelFileDataID<32>
+EmissionRate
+Spacing
+ModelScale
+LifeTime<u16>
+Flags<u8>
+
+BUILD 4.0.0.11792
+$id$ID<32>
+Name
+EnumID<32>
+
+LAYOUT 34C79353
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_748867669<32>
+Field_432222562<u8>
+Field_877633480<u16>
+Field_2003742592
+Field_1178184722
+Field_1465838725
 
 BUILD 5.0.1.15799-5.4.8.18414
 $id$ID<32>
 ModelFileDataID<u32>
 Flags<u32>
-Lifetime<32>
+LifeTime<32>
 EmissionRate
 Spacing
 ModelScale
@@ -22,7 +68,7 @@ BUILD 4.2.0.14333-5.0.1.15781
 $id$ID<32>
 Name
 Flags<u32>
-Lifetime<32>
+LifeTime<32>
 EmissionRate
 Spacing
 ModelScale

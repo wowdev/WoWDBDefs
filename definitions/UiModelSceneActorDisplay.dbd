@@ -1,0 +1,57 @@
+COLUMNS
+int ID
+float Alpha
+float AnimSpeed
+int AnimationID
+float Scale
+int SequenceVariation
+int Field_1242589761
+int Field_1339942285
+float Field_1573226661
+float Field_750376264
+float Field_950248886
+int Field_1311141709
+int Field_1249186566
+int Field_1366921632
+int Field_1313162383
+float Field_724992740
+float Field_793811354
+float Field_667572641
+
+LAYOUT 6137F4BE
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+$noninline,id$ID<32>
+AnimSpeed
+Alpha
+Scale
+AnimationID<u32>
+SequenceVariation<u32>
+
+LAYOUT 4CA75E36
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$noninline,id$ID<32>
+Alpha
+Scale
+AnimSpeed
+AnimationID<32>
+SequenceVariation<32>
+
+LAYOUT C285C45C
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26918
+$noninline,id$ID<32>
+Field_1242589761<u32>
+Field_1339942285<u32>
+Field_1573226661
+Field_750376264
+Field_950248886
+
+LAYOUT DD1DD903
+BUILD 8.0.1.26903, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$noninline,id$ID<32>
+Field_1311141709<u32>
+Field_1249186566<u32>
+Field_1366921632<u32>
+Field_1313162383<u32>
+Field_724992740
+Field_793811354
+Field_667572641

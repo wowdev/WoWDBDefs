@@ -1,0 +1,91 @@
+COLUMNS
+int ID
+int ActiveIconFileID
+int CasterPlayerConditionID
+int CasterUnitConditionID
+int DifficultyID
+int Flags
+int Priority
+float Probability
+int SpellID
+int SpellIconFileID
+int SpellVisualID
+int ViewerPlayerConditionID
+int ViewerUnitConditionID
+int Field_744429169
+int Field_025058462
+int Field_795325320
+float Field_1056705739
+int Field_478084256
+int Field_1795564365
+int Field_204015201
+int Field_1885988250
+int Field_947231085
+int Field_064611760
+int Field_1255902678
+int Field_559086916
+int Field_993580677
+
+LAYOUT 4F4B8A2A
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+SpellVisualID<u32>
+$id$ID<32>
+Probability
+CasterPlayerConditionID<u16>
+CasterUnitConditionID<u16>
+ViewerPlayerConditionID<u16>
+ViewerUnitConditionID<u16>
+SpellIconFileID<32>
+ActiveIconFileID<32>
+Flags<u8>
+DifficultyID<u8>
+Priority<u8>
+$noninline,relation$SpellID<32>
+
+LAYOUT EFCEFD14
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
+SpellVisualID<32>
+$id$ID<32>
+DifficultyID<8>
+Probability
+Flags<8>
+Priority<8>
+SpellIconFileID<32>
+ActiveIconFileID<32>
+ViewerUnitConditionID<16>
+ViewerPlayerConditionID<16>
+CasterUnitConditionID<16>
+CasterPlayerConditionID<16>
+$noninline,relation$SpellID<32>
+
+LAYOUT 84E875D4
+BUILD 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+SpellVisualID<32>
+$id$ID<32>
+DifficultyID<8>
+Probability
+Flags<8>
+Priority<8>
+SpellIconFileID<32>
+ActiveIconFileID<32>
+ViewerUnitConditionID<16>
+ViewerPlayerConditionID<32>
+CasterUnitConditionID<16>
+CasterPlayerConditionID<32>
+$noninline,relation$SpellID<32>
+
+LAYOUT CDAF2854
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+$id$Field_744429169<32>
+Field_025058462<u8>
+Field_795325320<u32>
+Field_1056705739
+Field_478084256<u8>
+Field_1795564365<u8>
+Field_204015201<32>
+Field_1885988250<32>
+Field_947231085<u16>
+Field_064611760<u32>
+Field_1255902678<u16>
+Field_559086916<u32>
+$noninline,relation$Field_993580677<32>

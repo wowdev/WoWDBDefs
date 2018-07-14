@@ -3,6 +3,11 @@ int ID
 int SkillCostsID
 int Cost
 
+BUILD 4.0.0.11792
+$id$ID<32>
+SkillCostsID<32>
+Cost<32>[3]
+
 BUILD 0.6.0.3592-4.0.0.12319
 $id$ID<32>
 SkillCostsID<u32>

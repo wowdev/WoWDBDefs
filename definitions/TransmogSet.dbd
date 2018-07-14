@@ -1,0 +1,55 @@
+COLUMNS
+int ID
+int ClassMask
+int ExpansionID
+int Flags
+int ItemNameDescriptionID
+locstring Name_lang
+int ParentTransmogSetID
+int TrackingQuestID
+int TransmogSetGroupID
+int UiOrder
+int Field_583337663
+int Field_827894296
+int Field_2073948481
+int Field_716579579
+int Field_805443280
+
+LAYOUT BEDFD7D1
+BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
+Name_lang
+$relation$ParentTransmogSetID<u16>
+UiOrder<16>
+ExpansionID<u8>
+$id$ID<u32>
+Flags<32>
+TrackingQuestID<u32>
+ClassMask<32>
+ItemNameDescriptionID<32>
+TransmogSetGroupID<u32>
+
+LAYOUT AED33097
+BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+Name_lang
+$relation$ParentTransmogSetID<16>
+UiOrder<16>
+ExpansionID<8>
+$id$ID<32>
+ClassMask<32>
+TrackingQuestID<32>
+Flags<32>
+TransmogSetGroupID<32>
+ItemNameDescriptionID<32>
+
+LAYOUT 3F0E4AEF
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+Name_lang
+$id$ID<u32>
+Field_583337663<32>
+Field_827894296<u32>
+Field_2073948481<32>
+Field_716579579<u32>
+Field_805443280<32>
+$relation$ParentTransmogSetID<u16>
+ExpansionID<u8>
+UiOrder<16>

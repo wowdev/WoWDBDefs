@@ -1,0 +1,34 @@
+COLUMNS
+int ID
+int ChildUiMapID
+int OrderIndex
+int ParentUiMapID
+float UiMax
+float UiMin
+
+LAYOUT C4F972FE
+BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+$id$ID<32>
+$relation$ParentUiMapID<32>
+OrderIndex<32>
+UiMin[2]
+UiMax[2]
+ChildUiMapID<32>
+
+LAYOUT 3D3D61E6
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+$id$ID<32>
+UiMin[2]
+UiMax[2]
+ChildUiMapID<32>
+$relation$ParentUiMapID<32>
+OrderIndex<32>
+
+LAYOUT 1A2F1836
+BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
+UiMin[2]
+UiMax[2]
+$id$ID<32>
+$relation$ParentUiMapID<32>
+OrderIndex<32>
+ChildUiMapID<32>
