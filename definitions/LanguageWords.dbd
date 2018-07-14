@@ -3,7 +3,7 @@ int ID
 int<Languages::ID> languageID
 string word
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
 languageID<32>
 word
@@ -13,8 +13,3 @@ BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.261
 $noninline,id$ID<32>
 word
 languageID<u8>
-
-BUILD 0.5.3.3368
-ID<32>
-languageID<32>
-word

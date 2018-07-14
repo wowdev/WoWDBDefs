@@ -317,8 +317,6 @@ namespace DBDefsLib
                                 break;
                             }
                         }
-
-                        if (found) break;
                     }
 
                     if (!found)

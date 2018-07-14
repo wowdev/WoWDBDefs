@@ -5,7 +5,7 @@ int Index
 int Skill
 int Action
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
 Type<32>[8]
 Index<32>[8]
@@ -20,15 +20,8 @@ Skill<u16>[8]
 Type<u8>[8]
 Action<u8>[8]
 
-BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
-ID<32>
-Type<32>[8]
-Index<32>[8]
-Skill<32>[8]
-Action<32>[8]
-
 BUILD 0.5.3.3368
-ID<32>
+$id$ID<32>
 Type<32>[4]
 Index<32>[4]
 Skill<32>[4]

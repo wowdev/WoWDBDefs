@@ -10,7 +10,7 @@ int playerHitBloodSpurtID
 int playerOmniCritBloodSpurtID
 int playerOmniHitBloodSpurtID
 
-BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
 CombatBloodSpurtFront<32>[2]
 CombatBloodSpurtBack<32>[2]
@@ -25,9 +25,3 @@ defaultBloodSpurtID<u32>
 playerOmniCritBloodSpurtID<u32>
 playerOmniHitBloodSpurtID<u32>
 defaultOmniBloodSpurtID<u32>
-
-BUILD 0.5.3.3368
-ID<32>
-CombatBloodSpurtFront<32>[2]
-CombatBloodSpurtBack<32>[2]
-GroundBlood[5]

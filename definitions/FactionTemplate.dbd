@@ -30,7 +30,7 @@ friendGroup<u8>
 enemyGroup<u8>
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
-ID<32>
+$id$ID<32>
 faction<32>
 flags<32>
 factionGroup<32>
@@ -40,7 +40,7 @@ enemies<32>[4]
 friend<32>[4]
 
 BUILD 0.5.3.3368
-ID<32>
+$id$ID<32>
 faction<32>
 factionGroup<32>
 friendGroup<32>
