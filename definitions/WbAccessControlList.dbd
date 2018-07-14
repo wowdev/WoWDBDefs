@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-int flags
-int flags2
-int restricted
+int grantFlags
+int revokeFlags
+int restricted?
 int region
 string url
 
 BUILD 5.3.0.16965-5.4.8.18414
 $id$ID<32>
 url
-flags<u32>
-flags2<u32>
+grantFlags<u32>
+revokeFlags<u32>
 restricted<32>
 region<32>

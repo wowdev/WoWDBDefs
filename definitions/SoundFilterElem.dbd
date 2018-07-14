@@ -3,27 +3,11 @@ int ID
 int soundFilterID
 int orderIndex
 int filterType
-float params1
-float params2
-float params3
-float params4
-float params5
-float params6
-float params7
-float params8
-float params9
+float params
 
 BUILD 3.0.1.8681-6.2.4.21742
 $id$ID<32>
 soundFilterID<u32>
 orderIndex<32>
 filterType<32>
-params1
-params2
-params3
-params4
-params5
-params6
-params7
-params8
-params9
+params[9]

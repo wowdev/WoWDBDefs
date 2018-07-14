@@ -1,35 +1,11 @@
 COLUMNS
 int ID
-int epic1
-int epic2
-int epic3
-int epic4
-int epic5
-int superior1
-int superior2
-int superior3
-int superior4
-int superior5
-int good1
-int good2
-int good3
-int good4
-int good5
+int epic
+int superior
+int good
 
 BUILD 2.0.0.5665-6.2.4.21742
 $id$ID<32>
-epic1<32>
-epic2<32>
-epic3<32>
-epic4<32>
-epic5<32>
-superior1<32>
-superior2<32>
-superior3<32>
-superior4<32>
-superior5<32>
-good1<32>
-good2<32>
-good3<32>
-good4<32>
-good5<32>
+epic<32>[5]
+superior<32>[5]
+good<32>[5]

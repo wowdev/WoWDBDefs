@@ -1,21 +1,9 @@
 COLUMNS
 int ID
-float quality1
-float quality2
-float quality3
-float quality4
-float quality5
-float quality6
-float quality7
+float quality
 int itemLevel
 
 BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>
-quality1
-quality2
-quality3
-quality4
-quality5
-quality6
-quality7
+quality[7]
 itemLevel<32>

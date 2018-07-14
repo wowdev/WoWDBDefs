@@ -1,23 +1,11 @@
 COLUMNS
 int ID
-int combatBloodSpurtFront1
-int combatBloodSpurtFront2
-int combatBloodSpurtBack1
-int combatBloodSpurtBack2
-string groundBlood1
-string groundBlood2
-string groundBlood3
-string groundBlood4
-string groundBlood5
+int combatBloodSpurtFront
+int combatBloodSpurtBack
+string groundBlood
 
 BUILD 0.5.3.3368-6.2.4.21742
 $id$ID<32>
-combatBloodSpurtFront1<32>
-combatBloodSpurtFront2<32>
-combatBloodSpurtBack1<32>
-combatBloodSpurtBack2<32>
-groundBlood1
-groundBlood2
-groundBlood3
-groundBlood4
-groundBlood5
+combatBloodSpurtFront<32>[2]
+combatBloodSpurtBack<32>[2]
+groundBlood[5]
