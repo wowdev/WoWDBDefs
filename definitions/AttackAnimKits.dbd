@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<ItemSubClass::ID> itemSubclassID
-int<AttackAnimTypes::AnimID> animTypeID
+int<AttackAnimTypes::animID> animTypeID
 int animFrequency
 int whichHand
 

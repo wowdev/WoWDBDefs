@@ -8,7 +8,7 @@ int<SoundEntries::ID> soundInjuryCrushingBlowID
 int<SoundEntries::ID> soundDeathID
 int<SoundEntries::ID> soundStunID
 int<SoundEntries::ID> soundStandID
-int<FootstepTerrainLookup::CreatureFootstepID> soundFootstepID
+int<FootstepTerrainLookup::creatureFootstepID> soundFootstepID
 int<SoundEntries::ID> soundAggroID
 int<SoundEntries::ID> soundWingFlapID
 int<SoundEntries::ID> soundWingGlideID
