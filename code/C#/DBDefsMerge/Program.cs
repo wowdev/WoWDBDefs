@@ -295,7 +295,59 @@ namespace DBDefsMerge
             var writer = new DBDWriter();
             foreach (var entry in newDefinitions)
             {
-                writer.Save(entry.Value, Path.Combine(targetDir, entry.Key + ".dbd"));
+                var definitionCopy = entry.Value;
+                var versionDefinitionCopy = definitionCopy.versionDefinitions.ToList();
+                for (var i = 0; i < versionDefinitionCopy.Count(); i++)
+                {
+                    for (var j = 0; j < versionDefinitionCopy.Count(); j++)
+                    {
+                        if (i == j) continue; // Do not compare same entry
+
+                        if (versionDefinitionCopy[i].definitions.SequenceEqual(versionDefinitionCopy[j].definitions))
+                        {
+                            if (versionDefinitionCopy[i].layoutHashes.Length > 0 && versionDefinitionCopy[j].layoutHashes.Length > 0 && !versionDefinitionCopy[i].layoutHashes.SequenceEqual(versionDefinitionCopy[j].layoutHashes))
+                            {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.WriteLine(Path.GetFileNameWithoutExtension(entry.Key) + " has 2 identical version definitions (" + (i + 1) + " and " + (j + 1) + ") but two different layouthashes, ignoring...");
+                                Console.ResetColor();
+                            }
+                            else
+                            {
+                                // Make list from current builds
+                                var curBuilds = versionDefinitionCopy[i].builds.ToList();
+                                curBuilds.AddRange(versionDefinitionCopy[j].builds.ToList());
+
+                                // Make list from current build ranges
+                                var curBuildRanges = versionDefinitionCopy[i].buildRanges.ToList();
+                                curBuildRanges.AddRange(versionDefinitionCopy[j].buildRanges.ToList());
+
+                                // Make list of current layouthashes
+                                var curLayouthashes = versionDefinitionCopy[i].layoutHashes.ToList();
+                                curLayouthashes.AddRange(versionDefinitionCopy[j].layoutHashes.ToList());
+
+                                // Create temporary version object based of newVersion
+                                var tempVersion = versionDefinitionCopy[i];
+
+                                // Override builds with new list
+                                tempVersion.builds = curBuilds.Distinct().ToArray();
+
+                                // Override buildranges with new list
+                                tempVersion.buildRanges = curBuildRanges.Distinct().ToArray();
+
+                                // Override layoutHashes with new list
+                                tempVersion.layoutHashes = curLayouthashes.Distinct().ToArray();
+
+                                // Override newVersion with temporary version object
+                                versionDefinitionCopy[i] = tempVersion;
+                                versionDefinitionCopy.RemoveAt(j);
+
+                                definitionCopy.versionDefinitions = versionDefinitionCopy.ToArray();
+                            }
+                        }
+                    }
+                }
+
+                writer.Save(definitionCopy, Path.Combine(targetDir, entry.Key + ".dbd"));
             }
 
             //Console.ReadLine();
