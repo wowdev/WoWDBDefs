@@ -101,6 +101,69 @@ namespace DBDefsMerge
                                     }
                                     Console.ResetColor();
                                 }
+
+                                // Merge comments
+                                if(columnDefinition2.Value.comment != columnDefinition1.Value.comment)
+                                {
+                                    for (var i = 0; i < secondFile.versionDefinitions.Length; i++)
+                                    {
+                                        for (var j = 0; j < secondFile.versionDefinitions[i].definitions.Length; j++)
+                                        {
+                                            if (secondFile.versionDefinitions[i].definitions[j].name == columnDefinition2.Key)
+                                            {
+                                                var colDef = newDefinition.columnDefinitions[columnDefinition1.Key];
+
+                                                if (columnDefinition2.Value.comment == null)
+                                                {
+                                                    colDef.comment = columnDefinition1.Value.comment;
+                                                }
+                                                else if (columnDefinition1.Value.comment == null)
+                                                {
+                                                    colDef.comment = columnDefinition2.Value.comment;
+                                                }
+                                                else
+                                                {
+                                                    throw new Exception("Do not support merging 2 comments yet!");
+                                                }
+
+                                                newDefinition.columnDefinitions[columnDefinition1.Key] = colDef;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                // Merge foreignTable/foreignKey
+                                if(columnDefinition2.Value.foreignTable != columnDefinition1.Value.foreignTable || columnDefinition2.Value.foreignColumn != columnDefinition1.Value.foreignColumn)
+                                {
+                                    for (var i = 0; i < secondFile.versionDefinitions.Length; i++)
+                                    {
+                                        for (var j = 0; j < secondFile.versionDefinitions[i].definitions.Length; j++)
+                                        {
+                                            if (secondFile.versionDefinitions[i].definitions[j].name == columnDefinition2.Key)
+                                            {
+                                                var colDef = newDefinition.columnDefinitions[columnDefinition1.Key];
+
+                                                if (columnDefinition2.Value.foreignTable == null && columnDefinition2.Value.foreignColumn == null)
+                                                {
+                                                    colDef.foreignTable = columnDefinition1.Value.foreignTable;
+                                                    colDef.foreignColumn = columnDefinition1.Value.foreignColumn;
+                                                }
+                                                else if (columnDefinition1.Value.foreignTable == null && columnDefinition1.Value.foreignColumn == null)
+                                                {
+                                                    colDef.foreignTable = columnDefinition2.Value.foreignTable;
+                                                    colDef.foreignColumn = columnDefinition2.Value.foreignColumn;
+                                                }
+                                                else
+                                                {
+                                                    throw new Exception("Do not support merging 2 FKs yet!");
+                                                }
+
+                                                newDefinition.columnDefinitions[columnDefinition1.Key] = colDef;
+                                            }
+                                        }
+                                    }
+                                }
+
                                 break;
                             }
                         }
