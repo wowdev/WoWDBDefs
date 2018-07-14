@@ -5,8 +5,8 @@ int IconID?
 int<Spell::ID> SpellID?
 int<CreatureFamily::ID> FamilyID?
 int Flags
-locstring Source_Lang_lang?
-locstring Description_Lang_lang?
+locstring Source_lang?
+locstring Description_lang?
 int Source?
 
 BUILD 5.0.1.15464
@@ -31,8 +31,8 @@ IconID<32>
 SpellID<32>
 FamilyID<32>
 Flags<u32>
-Source_Lang_lang
-Description_Lang_lang
+Source_lang
+Description_lang
 
 BUILD 5.0.1.15699-5.4.8.18414
 $id$ID<32>
@@ -42,5 +42,5 @@ SpellID<32>
 FamilyID<32>
 Source<32>
 Flags<u32>
-Source_Lang_lang
-Description_Lang_lang
+Source_lang
+Description_lang

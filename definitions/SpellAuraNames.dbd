@@ -2,10 +2,10 @@ COLUMNS
 int EnumID
 int SpecialMiscValue
 string Globalstrings_tag
-locstring Name_Lang_lang
+locstring Name_lang
 
 BUILD 0.5.3.3368-2.0.0.5991
 $id$EnumID<32>
 SpecialMiscValue<32>
 Globalstrings_tag
-Name_Lang_lang
+Name_lang

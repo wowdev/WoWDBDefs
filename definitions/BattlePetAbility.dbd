@@ -5,7 +5,7 @@ int Flags
 int<CreatureFamily::ID> FamilyID
 int IconID
 locstring Name_lang
-locstring Description_Lang_lang
+locstring Description_lang
 int Cooldown
 
 BUILD 5.0.1.15640-6.0.1.18179
@@ -16,7 +16,7 @@ Cooldown<32>
 VisualID<u32>
 Flags<u32>
 Name_lang
-Description_Lang_lang
+Description_lang
 
 BUILD 5.0.1.15508-5.0.1.15589
 BUILD 5.0.1.15650-5.0.1.15657
@@ -27,7 +27,7 @@ IconID<u32>
 Cooldown<32>
 VisualID<u32>
 Name_lang
-Description_Lang_lang
+Description_lang
 
 BUILD 5.0.1.15464
 $id$ID<32>
@@ -35,4 +35,4 @@ FamilyID<u32>
 IconID<u32>
 Cooldown<32>
 Name_lang
-Description_Lang_lang
+Description_lang
