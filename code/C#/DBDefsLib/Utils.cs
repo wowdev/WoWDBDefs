@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using static DBDefsLib.Structs;
 
 namespace DBDefsLib
 {
@@ -19,7 +17,7 @@ namespace DBDefsLib
             return build.ToString();
         }
 
-        public static string NormalizeColumn(string col, bool fixFirst = false)
+        public static string NormalizeColumn(string col, bool fixFirst = true)
         {
             var thingsToUpperCase = new List<string> { "ID", "WMO" };
 

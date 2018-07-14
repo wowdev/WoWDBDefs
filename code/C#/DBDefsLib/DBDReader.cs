@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using static DBDefsLib.Structs;
 
 namespace DBDefsLib
@@ -317,8 +318,6 @@ namespace DBDefsLib
                                 break;
                             }
                         }
-
-                        if (found) break;
                     }
 
                     if (!found)
@@ -361,17 +360,41 @@ namespace DBDefsLib
                         }
                     }
 
-                    // Check if int/uint columns have sizes set
+                    // Check if int/uint columns have sizes set or the other way around
                     foreach (var definition in version.definitions)
                     {
                         if ((columnDefinitionDictionary[definition.name].type == "int" || columnDefinitionDictionary[definition.name].type == "uint") && definition.size == 0)
                         {
                             throw new Exception("Version definition " + definition.name + " is an int/uint but is missing size in file " + file + "!");
                         }
+
+                        if ((columnDefinitionDictionary[definition.name].type != "int" && columnDefinitionDictionary[definition.name].type != "uint") && definition.size != 0){
+                            throw new Exception("Version definition " + definition.name + " is NOT an int/uint but has size in file " + file + "!");
+                        }
+                    }
+                }
+
+                for (var i = 0; i < versionDefinitions.Count; i++)
+                {
+                    for (var j = 0; j < versionDefinitions.Count; j++)
+                    {
+                        if (i == j) continue; // Do not compare same entry
+
+                        if(versionDefinitions[i].definitions.SequenceEqual(versionDefinitions[j].definitions))
+                        {
+                            if (versionDefinitions[i].layoutHashes.Length > 0 && versionDefinitions[j].layoutHashes.Length > 0 && !versionDefinitions[i].layoutHashes.SequenceEqual(versionDefinitions[j].layoutHashes)){
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.WriteLine(Path.GetFileNameWithoutExtension(file) + " has 2 identical version definitions (" + (i + 1) + " and " + (j + 1) + ") but two different layouthashes, ignoring...");
+                                Console.ResetColor();
+                            }
+                            else
+                            {
+                                throw new Exception(Path.GetFileNameWithoutExtension(file) + " has 2 identical version definitions (" + (i + 1) + " and " + (j + 1) + ")!");
+                            }
+                        }
                     }
                 }
             }
-
 
             return new DBDefinition
             {

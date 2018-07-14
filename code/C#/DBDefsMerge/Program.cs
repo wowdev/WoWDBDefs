@@ -101,6 +101,69 @@ namespace DBDefsMerge
                                     }
                                     Console.ResetColor();
                                 }
+
+                                // Merge comments
+                                if(columnDefinition2.Value.comment != columnDefinition1.Value.comment)
+                                {
+                                    for (var i = 0; i < secondFile.versionDefinitions.Length; i++)
+                                    {
+                                        for (var j = 0; j < secondFile.versionDefinitions[i].definitions.Length; j++)
+                                        {
+                                            if (secondFile.versionDefinitions[i].definitions[j].name == columnDefinition2.Key)
+                                            {
+                                                var colDef = newDefinition.columnDefinitions[columnDefinition1.Key];
+
+                                                if (columnDefinition2.Value.comment == null)
+                                                {
+                                                    colDef.comment = columnDefinition1.Value.comment;
+                                                }
+                                                else if (columnDefinition1.Value.comment == null)
+                                                {
+                                                    colDef.comment = columnDefinition2.Value.comment;
+                                                }
+                                                else
+                                                {
+                                                    throw new Exception("Do not support merging 2 comments yet!");
+                                                }
+
+                                                newDefinition.columnDefinitions[columnDefinition1.Key] = colDef;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                // Merge foreignTable/foreignKey
+                                if(columnDefinition2.Value.foreignTable != columnDefinition1.Value.foreignTable || columnDefinition2.Value.foreignColumn != columnDefinition1.Value.foreignColumn)
+                                {
+                                    for (var i = 0; i < secondFile.versionDefinitions.Length; i++)
+                                    {
+                                        for (var j = 0; j < secondFile.versionDefinitions[i].definitions.Length; j++)
+                                        {
+                                            if (secondFile.versionDefinitions[i].definitions[j].name == columnDefinition2.Key)
+                                            {
+                                                var colDef = newDefinition.columnDefinitions[columnDefinition1.Key];
+
+                                                if (columnDefinition2.Value.foreignTable == null && columnDefinition2.Value.foreignColumn == null)
+                                                {
+                                                    colDef.foreignTable = columnDefinition1.Value.foreignTable;
+                                                    colDef.foreignColumn = columnDefinition1.Value.foreignColumn;
+                                                }
+                                                else if (columnDefinition1.Value.foreignTable == null && columnDefinition1.Value.foreignColumn == null)
+                                                {
+                                                    colDef.foreignTable = columnDefinition2.Value.foreignTable;
+                                                    colDef.foreignColumn = columnDefinition2.Value.foreignColumn;
+                                                }
+                                                else
+                                                {
+                                                    throw new Exception("Do not support merging 2 FKs yet!");
+                                                }
+
+                                                newDefinition.columnDefinitions[columnDefinition1.Key] = colDef;
+                                            }
+                                        }
+                                    }
+                                }
+
                                 break;
                             }
                         }
@@ -147,17 +210,26 @@ namespace DBDefsMerge
                                     }
                                 }
 
+                                // Stop checking if build already exists
+                                if (foundVersion)
+                                {
+                                    break;
+                                }
+
                                 foreach (var buildranges1 in versionDefinition1.buildRanges)
                                 {
-                                    if(build2.expansion == buildranges1.minBuild.expansion && build2.major == buildranges1.minBuild.major && build2.minor == buildranges1.minBuild.minor)
+                                    if (buildranges1.Contains(build2))
                                     {
-                                        if (build2.build >= buildranges1.minBuild.build && build2.build <= buildranges1.maxBuild.build)
-                                        {
-                                            //Console.WriteLine("Build match? Build " + Utils.BuildToString(build2) + " seem to match with " + Utils.BuildToString(buildranges1.minBuild) + "-" + Utils.BuildToString(buildranges1.maxBuild));
-                                            foundVersion = true;
-                                            break;
-                                        }
+                                        Console.WriteLine(build2.ToString() + " is in build range " + buildranges1.ToString());
+                                        foundVersion = true;
+                                        break;
                                     }
+                                }
+
+                                // Stop checking if build exists in ranges
+                                if (foundVersion)
+                                {
+                                    break;
                                 }
                             }
                         }
@@ -177,6 +249,10 @@ namespace DBDefsMerge
                                     var curBuilds = newVersions[i].builds.ToList();
                                     curBuilds.AddRange(versionDefinition2.builds.ToList());
 
+                                    // Make list from current build ranges
+                                    var curBuildRanges = newVersions[i].buildRanges.ToList();
+                                    curBuildRanges.AddRange(versionDefinition2.buildRanges.ToList());
+
                                     // Make list of current layouthashes
                                     var curLayouthashes = newVersions[i].layoutHashes.ToList();
                                     curLayouthashes.AddRange(versionDefinition2.layoutHashes.ToList());
@@ -186,6 +262,9 @@ namespace DBDefsMerge
 
                                     // Override builds with new list
                                     tempVersion.builds = curBuilds.Distinct().ToArray();
+
+                                    // Override buildranges with new list
+                                    tempVersion.buildRanges = curBuildRanges.Distinct().ToArray();
 
                                     // Override layoutHashes with new list
                                     tempVersion.layoutHashes = curLayouthashes.Distinct().ToArray();
@@ -219,6 +298,10 @@ namespace DBDefsMerge
                                         var curBuilds = newVersions[i].builds.ToList();
                                         curBuilds.AddRange(versionDefinition2.builds.ToList());
 
+                                        // Make list from current build ranges
+                                        var curBuildRanges = newVersions[i].buildRanges.ToList();
+                                        curBuildRanges.AddRange(versionDefinition2.buildRanges.ToList());
+
                                         // Make list of current layouthashes
                                         var curLayouthashes = newVersions[i].layoutHashes.ToList();
                                         curLayouthashes.AddRange(versionDefinition2.layoutHashes.ToList());
@@ -229,8 +312,20 @@ namespace DBDefsMerge
                                         // Override builds with new list
                                         tempVersion.builds = curBuilds.Distinct().ToArray();
 
+                                        // Override buildranges with new list
+                                        tempVersion.buildRanges = curBuildRanges.Distinct().ToArray();
+
                                         // Override layoutHashes with new list
                                         tempVersion.layoutHashes = curLayouthashes.Distinct().ToArray();
+
+                                        for (var j = 0; j < versionDefinition2.definitions.Count(); j++)
+                                        {
+                                            // Merge signedness from second file if it is different from current
+                                            if (versionDefinition2.definitions[j].isSigned != tempVersion.definitions[j].isSigned)
+                                            {
+                                                tempVersion.definitions[j].isSigned = versionDefinition2.definitions[j].isSigned;
+                                            }
+                                        }
 
                                         // Override newVersion with temporary version object
                                         newVersions[i] = tempVersion;
@@ -263,7 +358,59 @@ namespace DBDefsMerge
             var writer = new DBDWriter();
             foreach (var entry in newDefinitions)
             {
-                writer.Save(entry.Value, Path.Combine(targetDir, entry.Key + ".dbd"));
+                var definitionCopy = entry.Value;
+                var versionDefinitionCopy = definitionCopy.versionDefinitions.ToList();
+                for (var i = 0; i < versionDefinitionCopy.Count(); i++)
+                {
+                    for (var j = 0; j < versionDefinitionCopy.Count(); j++)
+                    {
+                        if (i == j) continue; // Do not compare same entry
+
+                        if (versionDefinitionCopy[i].definitions.SequenceEqual(versionDefinitionCopy[j].definitions))
+                        {
+                            if (versionDefinitionCopy[i].layoutHashes.Length > 0 && versionDefinitionCopy[j].layoutHashes.Length > 0 && !versionDefinitionCopy[i].layoutHashes.SequenceEqual(versionDefinitionCopy[j].layoutHashes))
+                            {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.WriteLine(Path.GetFileNameWithoutExtension(entry.Key) + " has 2 identical version definitions (" + (i + 1) + " and " + (j + 1) + ") but two different layouthashes, ignoring...");
+                                Console.ResetColor();
+                            }
+                            else
+                            {
+                                // Make list from current builds
+                                var curBuilds = versionDefinitionCopy[i].builds.ToList();
+                                curBuilds.AddRange(versionDefinitionCopy[j].builds.ToList());
+
+                                // Make list from current build ranges
+                                var curBuildRanges = versionDefinitionCopy[i].buildRanges.ToList();
+                                curBuildRanges.AddRange(versionDefinitionCopy[j].buildRanges.ToList());
+
+                                // Make list of current layouthashes
+                                var curLayouthashes = versionDefinitionCopy[i].layoutHashes.ToList();
+                                curLayouthashes.AddRange(versionDefinitionCopy[j].layoutHashes.ToList());
+
+                                // Create temporary version object based of newVersion
+                                var tempVersion = versionDefinitionCopy[i];
+
+                                // Override builds with new list
+                                tempVersion.builds = curBuilds.Distinct().ToArray();
+
+                                // Override buildranges with new list
+                                tempVersion.buildRanges = curBuildRanges.Distinct().ToArray();
+
+                                // Override layoutHashes with new list
+                                tempVersion.layoutHashes = curLayouthashes.Distinct().ToArray();
+
+                                // Override newVersion with temporary version object
+                                versionDefinitionCopy[i] = tempVersion;
+                                versionDefinitionCopy.RemoveAt(j);
+
+                                definitionCopy.versionDefinitions = versionDefinitionCopy.ToArray();
+                            }
+                        }
+                    }
+                }
+
+                writer.Save(definitionCopy, Path.Combine(targetDir, entry.Key + ".dbd"));
             }
 
             //Console.ReadLine();

@@ -38,7 +38,9 @@ namespace DBDefsDumper
         public long string_ref_offs;
         public long field_encrypted;
         public long sql_query;
-        public long dbFilename;
+        public long dbFilenameOffs;
+        public int siblingTableHash;
+        public long namesInFileOffs;
         /* 
         //probs not in osx
         const char** field_names_in_file; 

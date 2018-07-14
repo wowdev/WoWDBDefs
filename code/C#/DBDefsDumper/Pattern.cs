@@ -19,7 +19,7 @@ namespace DBDefsDumper
         // Utilities
         public Pattern Append(params string[] args)
         {
-            foreach(var arg in args)
+            foreach (var arg in args)
             {
                 this.cur_pattern += arg + " ";
                 this.cur_pos += 1;
@@ -29,7 +29,7 @@ namespace DBDefsDumper
 
         public Pattern PadTo(int align)
         {
-            while(this.cur_pos % align != 0)
+            while (this.cur_pos % align != 0)
             {
                 this.Append("00");
             }
@@ -130,6 +130,7 @@ namespace DBDefsDumper
         public const string FIELD_NAMES_IN_FILE = "names in file";
         public const string FLAGS_58_21 = "flags 58: 2|1";
         public const string TABLE_HASH = "table";
+        public const string SIBLING_TABLE_HASH = "the sparse, or non-sparse equivalent";
         public const string LAYOUT_HASH = "layout";
         public const string FLAGS_68_421 = "flags 68: 4|2|1";
         public const string FIELD_NUM_IDX_INT = "nbUniqueIdxByInt";
@@ -144,5 +145,11 @@ namespace DBDefsDumper
         public const string CONVERT_STRINGREFS = "convert stringrefs";
         public const string FIELD_ENCRYPTED = "encrypted";
         public const string SQL_QUERY = "sql query";
+        public const string UNK_BOOL_601_x24 = "unknown bool, always true";
+        public const string UNK_FLAGS_601_x48_421 = "possibly flags: 4|2|1"; // todo is this FLAGS_68_421?
+        public const string UNK_BOOL_601dbc_x38 = "unkown bool x38 6.0.1";
+        public const string UNK_BOOL_601dbc_x39 = "unkown bool x39 6.0.1";
+        public const string UNK_BOOL_601dbc_x3a = "unkown bool x3a 6.0.1, always false";
+        public const string UNK_BOOL_601dbc_x3b = "unkown bool x3b 6.0.1";
     }
 }

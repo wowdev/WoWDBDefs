@@ -10,55 +10,11 @@ namespace DBDefsDumper
 {
     class Program
     {
-        [StructLayout(LayoutKind.Sequential, Pack = 1)]
-        public struct Header
-        {
-            public UInt32 magic;
-            public UInt32 cpu;
-            public UInt32 subtype;
-
-            public UInt32 fileType;
-
-            public UInt32 commandsCount;
-
-            public UInt32 commandsSize;
-            public UInt32 flags;
-
-            public UInt32 reserved;
-        }
-
-        [StructLayout(LayoutKind.Sequential, Pack = 1)]
-        public struct Command
-        {
-            public UInt32 id;
-            public UInt32 size;
-        }
-
-        struct Map
-        {
-            public UInt64 memoryStart;
-            public UInt64 memoryEnd;
-            public UInt64 fileStart;
-            public UInt64 fileEnd;
-
-            public UInt64 translateMemoryToFile(UInt64 offset)
-            {
-                if (offset < memoryStart || offset > memoryEnd)
-                {
-                    return 0x0;
-                }
-
-                var delta = offset - memoryStart;
-
-                return fileStart + delta;
-            }
-        }
-
         static void Main(string[] args)
         {
-            if (args.Length < 1)
+            if (args.Length < 2)
             {
-                throw new ArgumentException("Not enough arguments! Required: file");
+                throw new ArgumentException("Not enough arguments! Required: file, outdir");
             }
 
             if (!File.Exists(args[0]))
@@ -67,52 +23,17 @@ namespace DBDefsDumper
             }
 
             var file = MemoryMappedFile.CreateFromFile(args[0], FileMode.Open);
-            var stream = file.CreateViewAccessor();
 
-            #region BinaryMagic 
-            long offset = 0;
+            var maps = EXEParsing.GenerateMap(file.CreateViewAccessor());
 
-            stream.Read(offset, out Header header);
-            offset += Marshal.SizeOf(header);
-
-            var maps = new List<Map>();
-
-            for (var i = 0; i < header.commandsCount; i++)
-            {
-                stream.Read(offset, out Command command);
-
-                if (command.id == 25)
-                {
-                    var segmentOffset = offset + 4 + 4 + 16; // Segment start + id + size + name; 
-                    var vmemOffs = stream.ReadUInt64(segmentOffset);
-                    var vmemSize = stream.ReadUInt64(segmentOffset + 8);
-                    var fileOffs = stream.ReadUInt64(segmentOffset + 16);
-                    var fileSize = stream.ReadUInt64(segmentOffset + 24);
-
-                    var map = new Map
-                    {
-                        memoryStart = vmemOffs,
-                        memoryEnd = vmemOffs + vmemSize,
-                        fileStart = fileOffs,
-                        fileEnd = fileOffs + fileSize
-                    };
-
-                    maps.Add(map);
-                }
-
-                offset += command.size;
-            }
-
-
-            Func<UInt64, UInt64> translate = search => maps.Select(map => map.translateMemoryToFile(search)).FirstOrDefault(r => r != 0x0);
-            #endregion
+            ulong translate(ulong search) => maps.Select(map => map.translateMemoryToFile(search)).FirstOrDefault(r => r != 0x0);
 
             using (var bin = new BinaryReader(file.CreateViewStream()))
             {
                 var chunkSize = 1024;
 
                 // Find version
-                var buildPattern = new byte?[] { 0x20, 0x5B, 0x42, 0x75, 0x69, 0x6C, 0x64, 0x20, null, null, null, null, null, 0x20, 0x28, null, null, null, null, null, 0x29, 0x20, 0x28 };
+                var buildPattern = new byte?[] { 0x42, 0x75, 0x69, 0x6C, 0x64, 0x20, null, null, null, null, null, 0x20, 0x28, null, null, null, null, null, 0x29, 0x20, 0x28 };
                 var buildPatternLength = buildPattern.Length;
 
                 var build = "";
@@ -131,7 +52,7 @@ namespace DBDefsDumper
                         var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
 
                         bin.BaseStream.Position = matchPos;
-                        bin.ReadBytes(8);
+                        bin.ReadBytes(6);
                         var buildNumber = new string(bin.ReadChars(5));
                         bin.ReadBytes(2);
                         var patch = new string(bin.ReadChars(5));
@@ -146,7 +67,74 @@ namespace DBDefsDumper
 
                 if (build == "")
                 {
-                    throw new Exception("Build was not found!");
+                    // Retry with backup pattern (crash log output)
+                    bin.BaseStream.Position = 0;
+
+                    buildPattern = new byte?[] { 0x00, 0x3C, 0x56, 0x65, 0x72, 0x73, 0x69, 0x6F, 0x6E, 0x3E, 0x20 }; // <Version> 
+                    buildPatternLength = buildPattern.Length;
+
+                    while (true)
+                    {
+                        if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
+                        {
+                            break;
+                        }
+
+                        var posInStack = Search(bin.ReadBytes(chunkSize), buildPattern);
+
+                        if (posInStack != chunkSize)
+                        {
+                            var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
+
+                            bin.BaseStream.Position = matchPos;
+                            bin.ReadBytes(11);
+                            build = new string(bin.ReadChars(11));
+                        }
+                        else
+                        {
+                            bin.BaseStream.Position = bin.BaseStream.Position - buildPatternLength;
+                        }
+                    }
+                }
+
+                if (build == "")
+                {
+                    // Retry with RenderService pattern..
+                    bin.BaseStream.Position = 0;
+
+                    buildPattern = new byte?[] { 0x52, 0x65, 0x6e, 0x64, 0x65, 0x72, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x20, null, null, null, null, null, 0x00 }; // <Version> 
+                    buildPatternLength = buildPattern.Length;
+
+                    while (true)
+                    {
+                        if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
+                        {
+                            break;
+                        }
+
+                        var posInStack = Search(bin.ReadBytes(chunkSize), buildPattern);
+
+                        if (posInStack != chunkSize)
+                        {
+                            var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
+
+                            bin.BaseStream.Position = matchPos;
+                            bin.ReadBytes(14);
+                            build = new string(bin.ReadChars(5));
+                            Console.WriteLine("Expansion, major and minor version not found in binary. Please enter it in this format X.X.X: ");
+                            build = Console.ReadLine() + "." + build;
+                        }
+                        else
+                        {
+                            bin.BaseStream.Position = bin.BaseStream.Position - buildPatternLength;
+                        }
+                    }
+                }
+
+                if (build == "")
+                {
+                    Console.WriteLine("Build was not found! Please enter a build in this format: X.X.X.XXXXX");
+                    build = Console.ReadLine();
                 }
 
                 // Reset position for DBMeta reading
@@ -188,6 +176,7 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.FDID];
                                 if(bin.ReadUInt32() < 53183)
                                 {
+                                    Console.WriteLine("Invalid filedataid, skipping match..");
                                     continue;
                                 }
                             }
@@ -197,6 +186,7 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.RECORD_SIZE];
                                 if (bin.ReadUInt32() == 0)
                                 {
+                                    Console.WriteLine("Record size is 0, skipping match..");
                                     continue;
                                 }
                             }
@@ -206,6 +196,7 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_NAME];
                                 if (bin.ReadUInt32() < 10)
                                 {
+                                    Console.WriteLine("Name offset is invalid, skipping match..");
                                     continue;
                                 }
 
@@ -213,6 +204,7 @@ namespace DBDefsDumper
                                 var targetOffset = (long)translate(bin.ReadUInt64());
                                 if (targetOffset > bin.BaseStream.Length)
                                 {
+                                    Console.WriteLine("Name offset is out of range of file, skipping match..");
                                     continue;
                                 }
                             }
@@ -222,6 +214,7 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_FILENAME];
                                 if (bin.ReadUInt32() < 10)
                                 {
+                                    Console.WriteLine("Name offset is invalid, skipping match..");
                                     continue;
                                 }
 
@@ -229,6 +222,7 @@ namespace DBDefsDumper
                                 var targetOffset = (long)translate(bin.ReadUInt64());
                                 if (targetOffset > bin.BaseStream.Length)
                                 {
+                                    Console.WriteLine("Name offset is out of range of file, skipping match..");
                                     continue;
                                 }
                             }
@@ -238,6 +232,7 @@ namespace DBDefsDumper
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.NUM_FIELD_IN_FILE];
                                 if (bin.ReadUInt32() > 5000)
                                 {
+                                    Console.WriteLine("Num fields in file is over 5000, skipping match..");
                                     continue;
                                 }
 
@@ -250,14 +245,35 @@ namespace DBDefsDumper
                                 var fieldSizesInFileOffs = bin.ReadInt64();
                                 if(fieldTypesInFile == fieldSizesInFileOffs)
                                 {
+                                    Console.WriteLine("Field types in file offset == field sizes in file offset, skipping match..");
+                                    continue;
+                                }
+                            }
+
+                            if (pattern.offsets.ContainsKey(Name.DB_CACHE_FILENAME))
+                            {
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_CACHE_FILENAME];
+                                var name = bin.ReadCString();
+                                if (!name.EndsWith("adb"))
+                                {
+                                    Console.WriteLine("ADB filename does not end in adb, skipping match..");
                                     continue;
                                 }
                             }
 
                             bin.BaseStream.Position = matchPos;
                             var meta = ReadMeta(bin, pattern);
-                            bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                            metas.TryAdd(bin.ReadCString(), meta);
+
+                            if (pattern.offsets.ContainsKey(Name.DB_NAME))
+                            {
+                                bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
+                                metas.TryAdd(bin.ReadCString(), meta);
+                            }else if (pattern.offsets.ContainsKey(Name.DB_FILENAME))
+                            {
+                                bin.BaseStream.Position = (long)translate((ulong)meta.dbFilenameOffs);
+                                var name = bin.ReadCString();
+                                metas.TryAdd(Path.GetFileNameWithoutExtension(name), meta);
+                            }
                             
                             bin.BaseStream.Position = matchPos + patternLength;
                         }
@@ -270,7 +286,7 @@ namespace DBDefsDumper
                     bin.BaseStream.Position = 0;
                 }
 
-                var outputDirectory = "definitions_" + build;
+                var outputDirectory = Path.Combine(args[1], build);
 
                 if (!Directory.Exists(outputDirectory))
                 {
@@ -292,56 +308,24 @@ namespace DBDefsDumper
 
                     Console.Write("Writing " + meta.Key + ".dbd..");
 
-                    var field_offsets = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_offsets_offs);
-
-                    for (var i = 0; i < meta.Value.num_fields; i++)
+                    var fieldCount = 0;
+                    if(meta.Value.num_fields == 0 && meta.Value.num_fields_in_file != 0)
                     {
-                        field_offsets.Add(bin.ReadInt32());
+                        fieldCount = meta.Value.num_fields_in_file;
+                    }
+                    else
+                    {
+                        fieldCount = meta.Value.num_fields;
                     }
 
-                    var field_sizes = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_sizes_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_sizes.Add(bin.ReadInt32());
-                    }
-
-                    var field_types = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_types_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_types.Add(bin.ReadInt32());
-                    }
-
-                    var field_flags = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_flags_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_flags.Add(bin.ReadInt32());
-                    }
-
-                    var field_sizes_in_file = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_sizes_in_file_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_sizes_in_file.Add(bin.ReadInt32());
-                    }
-
-                    var field_types_in_file = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_types_in_file_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_types_in_file.Add(bin.ReadInt32());
-                    }
-
-                    // Read field flags in file
-                    var field_flags_in_file = new List<int>();
-                    bin.BaseStream.Position = (long)translate((ulong)meta.Value.field_flags_in_file_offs);
-                    for (var i = 0; i < meta.Value.num_fields; i++)
-                    {
-                        field_flags_in_file.Add(bin.ReadInt32());
-                    }
+                    var field_offsets = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_offsets_offs));
+                    var field_sizes = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_sizes_offs));
+                    var field_types = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_types_offs));
+                    var field_flags = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_flags_offs));
+                    var field_sizes_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_sizes_in_file_offs));
+                    var field_types_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_types_in_file_offs));
+                    var field_flags_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_flags_in_file_offs));
+                    var field_names_in_file = ReadFieldOffsetArray(bin, fieldCount, (long)translate((ulong)meta.Value.namesInFileOffs));
 
                     if (meta.Value.id_column == -1)
                     {
@@ -353,17 +337,32 @@ namespace DBDefsDumper
 
                     for(var i = 0; i < meta.Value.num_fields_in_file; i++)
                     {
-                        columnTypeFlags.Add(new Tuple<int, int>(field_types_in_file[i], field_flags_in_file[i]));
+                        if (field_flags_in_file.Count == 0)
+                        {
+                            columnTypeFlags.Add(new Tuple<int, int>(field_types_in_file[i], 0));
+                        }
+                        else
+                        {
+                            columnTypeFlags.Add(new Tuple<int, int>(field_types_in_file[i], field_flags_in_file[i]));
+                        }
                     }
 
-                    if (meta.Value.num_fields_in_file != meta.Value.num_fields)
+                    if (meta.Value.num_fields != 0 && (meta.Value.num_fields_in_file != meta.Value.num_fields))
                     {
                         columnTypeFlags.Add(new Tuple<int, int>(field_types[meta.Value.num_fields_in_file], field_flags[meta.Value.num_fields_in_file]));
                     }
 
                     for(var i = 0; i < columnTypeFlags.Count; i++)
                     {
-                        columnNames.Add("field_" + new Random().Next(1, int.MaxValue).ToString().PadLeft(9, '0'));
+                        if(field_names_in_file.Count > 0)
+                        {
+                            bin.BaseStream.Position = (long)translate(field_names_in_file[i]);
+                            columnNames.Add(CleanRealName(bin.ReadCString()));
+                        }
+                        else
+                        {
+                            columnNames.Add(GenerateName(i, meta.Value.layout_hash, build));
+                        }
 
                         var t = TypeToT(columnTypeFlags[i].Item1, (FieldFlags)columnTypeFlags[i].Item2);
                         if(t.Item1 == "locstring")
@@ -385,7 +384,11 @@ namespace DBDefsDumper
 
                     writer.WriteLine();
 
-                    writer.WriteLine("LAYOUT " + meta.Value.layout_hash.ToString("X8").ToUpper());
+                    if(meta.Value.layout_hash != 0)
+                    {
+                        writer.WriteLine("LAYOUT " + meta.Value.layout_hash.ToString("X8").ToUpper());
+                    }
+
                     writer.WriteLine("BUILD " + build);
 
                     if(meta.Value.sparseTable == 1)
@@ -400,9 +403,18 @@ namespace DBDefsDumper
 
                     for (var i = 0; i < meta.Value.num_fields_in_file; i++)
                     {
-                        var typeFlags = TypeToT(field_types_in_file[i], (FieldFlags)field_flags_in_file[i]);
+                        var typeFlags = ("int", 32);
 
-                        if(meta.Value.id_column == i)
+                        if(field_flags_in_file.Count == 0)
+                        {
+                            typeFlags = TypeToT(field_types_in_file[i], 0);
+                        }
+                        else
+                        {
+                            typeFlags = TypeToT(field_types_in_file[i], (FieldFlags)field_flags_in_file[i]);
+                        }
+
+                        if (meta.Value.id_column == i)
                         {
                             writer.Write("$id$");
                         }
@@ -440,13 +452,36 @@ namespace DBDefsDumper
 
                         if(field_sizes_in_file[i] != 1)
                         {
-                            writer.Write("[" + field_sizes_in_file[i] + "]");
+                            // 6.0.1 has sizes in bytes
+                            if (build.StartsWith("6.0.1"))
+                            {
+                                var supposedSize = 0;
+                                
+                                if((typeFlags.Item1 == "uint" || typeFlags.Item1 == "int") && typeFlags.Item2 != 32)
+                                {
+                                    supposedSize = typeFlags.Item2 / 8;
+                                }
+                                else
+                                {
+                                    supposedSize = 4;
+                                }
+
+                                var fixedSize = field_sizes_in_file[i] / supposedSize;
+                                if(fixedSize > 1)
+                                {
+                                    writer.Write("[" + fixedSize + "]");
+                                }
+                            }
+                            else
+                            {
+                                writer.Write("[" + field_sizes_in_file[i] + "]");
+                            }
                         }
 
                         writer.WriteLine();
                     }
 
-                    if (meta.Value.num_fields_in_file != meta.Value.num_fields)
+                    if (meta.Value.num_fields != 0 && (meta.Value.num_fields_in_file != meta.Value.num_fields))
                     {
                         var i = meta.Value.num_fields_in_file;
                         var typeFlags = TypeToT(field_types[i], (FieldFlags)field_flags[i]);
@@ -464,7 +499,7 @@ namespace DBDefsDumper
                             {
                                 writer.Write("<u" + typeFlags.Item2 + ">");
                             }
-                            else
+                            else if(typeFlags.Item1 == "int")
                             {
                                 writer.Write("<" + typeFlags.Item2 + ">");
                             }
@@ -484,6 +519,65 @@ namespace DBDefsDumper
             }
 
             Environment.Exit(0);
+        }
+
+        private static List<int> ReadFieldArray(BinaryReader bin, int fieldCount, long offset)
+        {
+            var returnList = new List<int>();
+
+            if(offset != 0)
+            {
+                bin.BaseStream.Position = offset;
+                for (var i = 0; i < fieldCount; i++)
+                {
+                    returnList.Add(bin.ReadInt32());
+                }
+            }
+
+            return returnList;
+        }
+
+        private static List<ulong> ReadFieldOffsetArray(BinaryReader bin, int fieldCount, long offset)
+        {
+            var returnList = new List<ulong>();
+
+            if (offset != 0)
+            {
+                bin.BaseStream.Position = offset;
+                for (var i = 0; i < fieldCount; i++)
+                {
+                    returnList.Add(bin.ReadUInt64());
+                }
+            }
+
+            return returnList;
+        }
+
+        private static string GenerateName(int fieldIndex, int layoutHash, string build)
+        {
+            // TODO: This function should generate a name that is the same between dumps of the same build.
+            // We can base this off layoutHash in builds that have it, but need to figure something out for builds that don't.
+            // For now, just name them randomly.
+
+            if (layoutHash < 0)
+            {
+                layoutHash = layoutHash * -1;
+            }
+
+            //return "Field_" + (layoutHash + fieldIndex).ToString().PadLeft(9, '0');
+            return "Field_" + new Random().Next(1, int.MaxValue).ToString().PadLeft(9, '0');
+        }
+
+        private static string CleanRealName(string name)
+        {
+            if (name.Substring(0, 2) == "m_")
+            {
+                return name.Remove(0, 2);
+            }
+            else
+            {
+                return name;
+            }
         }
 
         private static DBMeta ReadMeta(BinaryReader bin, Pattern pattern)
@@ -584,13 +678,27 @@ namespace DBDefsDumper
                         meta.string_ref_offs = bin.ReadInt64();
                         break;
                     case Name.DB_FILENAME:
-                        meta.dbFilename = bin.ReadInt64();
+                        meta.dbFilenameOffs = bin.ReadInt64();
                         break;
                     case Name.FIELD_ENCRYPTED:
                         meta.field_encrypted = bin.ReadInt64();
                         break;
                     case Name.SQL_QUERY:
                         meta.sql_query = bin.ReadInt64();
+                        break;
+                    case Name.SIBLING_TABLE_HASH:
+                        meta.siblingTableHash = bin.ReadInt32();
+                        break;
+                    case Name.FIELD_NAMES_IN_FILE:
+                        meta.namesInFileOffs = bin.ReadInt64();
+                        break;
+                    case Name.UNK_BOOL_601_x24:
+                    case Name.UNK_BOOL_601dbc_x38:
+                    case Name.UNK_BOOL_601dbc_x39:
+                    case Name.UNK_BOOL_601dbc_x3a:
+                    case Name.UNK_BOOL_601dbc_x3b:
+                    case Name.UNK_FLAGS_601_x48_421:
+                        bin.ReadByte();
                         break;
                     default:
                         throw new Exception("Unknown name: " + offset.Key);
