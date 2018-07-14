@@ -13,6 +13,13 @@ namespace DBDefsLib
             this.maxBuild = maxBuild;
         }
 
+        public BuildRange(string buildRange)
+        {
+            var split = buildRange.Split('-');
+            this.minBuild = new Build(split[0]);
+            this.maxBuild = new Build(split[1]);
+        }
+
         public override string ToString()
         {
             return minBuild.ToString() + "-" + maxBuild.ToString();
@@ -21,6 +28,11 @@ namespace DBDefsLib
         public override bool Equals(object obj)
         {
             return Equals(obj as BuildRange);
+        }
+
+        public bool Equals(BuildRange buildRange)
+        {
+            return minBuild.Equals(buildRange.minBuild) && maxBuild.Equals(buildRange.maxBuild);
         }
 
         private int CombineHashes(Object obj, int current = 0)
