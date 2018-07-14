@@ -361,12 +361,16 @@ namespace DBDefsLib
                         }
                     }
 
-                    // Check if int/uint columns have sizes set
+                    // Check if int/uint columns have sizes set or the other way around
                     foreach (var definition in version.definitions)
                     {
                         if ((columnDefinitionDictionary[definition.name].type == "int" || columnDefinitionDictionary[definition.name].type == "uint") && definition.size == 0)
                         {
                             throw new Exception("Version definition " + definition.name + " is an int/uint but is missing size in file " + file + "!");
+                        }
+
+                        if ((columnDefinitionDictionary[definition.name].type != "int" && columnDefinitionDictionary[definition.name].type != "uint") && definition.size != 0){
+                            throw new Exception("Version definition " + definition.name + " is NOT an int/uint but has size in file " + file + "!");
                         }
                     }
                 }

@@ -499,7 +499,7 @@ namespace DBDefsDumper
                             {
                                 writer.Write("<u" + typeFlags.Item2 + ">");
                             }
-                            else
+                            else if(typeFlags.Item1 == "int")
                             {
                                 writer.Write("<" + typeFlags.Item2 + ">");
                             }
