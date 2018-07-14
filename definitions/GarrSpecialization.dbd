@@ -1,59 +1,59 @@
 COLUMNS
-int field_2868601272?
-int field_880672811?
-int field_2790666691?
-int field_4087175377?
-float field_3128635205?
-string field_2085341704?
-string field_1385528309?
+int Field_2868601272?
+int Field_880672811?
+int Field_2790666691?
+int Field_4087175377?
+float Field_3128635205?
+string Field_2085341704?
+string Field_1385528309?
 int ID
-int buildingType
-int iconFileDataID
-locstring name_lang
-float param
-int requiredUpgradeLevel
-int specType
-locstring tooltip_lang
+int BuildingType
+int IconFileDataID
+locstring Name_lang
+float Param
+int RequiredUpgradeLevel
+int SpecType
+locstring Tooltip_lang
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_2868601272<32>
-field_880672811<32>
-field_2790666691<32>
-field_4087175377<32>
-field_3128635205[2]
-field_2085341704
-field_1385528309
+Field_2868601272<32>
+Field_880672811<32>
+Field_2790666691<32>
+Field_4087175377<32>
+Field_3128635205[2]
+Field_2085341704
+Field_1385528309
 
 LAYOUT 797A0F2F
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-name_lang
-tooltip_lang
-iconFileDataID<32>
-param[2]
-buildingType<u8>
-specType<u8>
-requiredUpgradeLevel<u8>
+Name_lang
+Tooltip_lang
+IconFileDataID<32>
+Param[2]
+BuildingType<u8>
+SpecType<u8>
+RequiredUpgradeLevel<u8>
 
 LAYOUT 375EA95D
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-name_lang
-tooltip_lang
-param[2]
-iconFileDataID<32>
-buildingType<8>
-specType<8>
-requiredUpgradeLevel<8>
+Name_lang
+Tooltip_lang
+Param[2]
+IconFileDataID<32>
+BuildingType<8>
+SpecType<8>
+RequiredUpgradeLevel<8>
 
 LAYOUT 8400A7E7
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-name_lang
-tooltip_lang
-buildingType<u8>
-specType<u8>
-requiredUpgradeLevel<u8>
-iconFileDataID<32>
-param[2]
+Name_lang
+Tooltip_lang
+BuildingType<u8>
+SpecType<u8>
+RequiredUpgradeLevel<u8>
+IconFileDataID<32>
+Param[2]

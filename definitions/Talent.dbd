@@ -1,88 +1,88 @@
 COLUMNS
 int ID
-int specID
-int tierID
-int columnIndex
-int spellID
-int flags
-int categoryMask
-int classID
-int overridesSpellID
-locstring description_lang
-int tabID
-int spellRank
-int prereqTalent
-int prereqRank
-int requiredSpellID
-locstring field_749057414_lang
-int field_1017518825
-int field_1503170430
-int field_035543493
-int field_818289684
-int field_821176271
-int field_589227419
-int field_1655887955
-int field_2127549662
+int SpecID
+int TierID
+int ColumnIndex
+int SpellID
+int Flags
+int CategoryMask
+int ClassID
+int OverridesSpellID
+locstring Description_lang
+int TabID
+int SpellRank
+int PrereqTalent
+int PrereqRank
+int RequiredSpellID
+locstring Field_749057414_lang
+int Field_1017518825
+int Field_1503170430
+int Field_035543493
+int Field_818289684
+int Field_821176271
+int Field_589227419
+int Field_1655887955
+int Field_2127549662
 
 BUILD 6.0.1.18179
 $id$ID<32>
-specID<32>
-tierID<32>
-columnIndex<32>
-spellID<32>
-flags<32>
-categoryMask<32>[2]
-classID<32>
-overridesSpellID<32>
-description_lang
+SpecID<32>
+TierID<32>
+ColumnIndex<32>
+SpellID<32>
+Flags<32>
+CategoryMask<32>[2]
+ClassID<32>
+OverridesSpellID<32>
+Description_lang
 
 LAYOUT E8850B48
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-description_lang
-spellID<u32>
-overridesSpellID<u32>
-specID<u16>
-tierID<u8>
-columnIndex<u8>
-flags<u8>
-categoryMask<u8>[2]
-classID<u8>
+Description_lang
+SpellID<u32>
+OverridesSpellID<u32>
+SpecID<u16>
+TierID<u8>
+ColumnIndex<u8>
+Flags<u8>
+CategoryMask<u8>[2]
+ClassID<u8>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-tabID<32>
-tierID<32>
-columnIndex<32>
-spellRank<32>[9]
-prereqTalent<32>[3]
-prereqRank<32>[3]
-flags<32>
-requiredSpellID<32>
-categoryMask<32>[2]
+TabID<32>
+TierID<32>
+ColumnIndex<32>
+SpellRank<32>[9]
+PrereqTalent<32>[3]
+PrereqRank<32>[3]
+Flags<32>
+RequiredSpellID<32>
+CategoryMask<32>[2]
 
 LAYOUT 5AC30D6A
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-description_lang
-spellID<32>
-overridesSpellID<32>
-specID<16>
-tierID<8>
-flags<8>
-columnIndex<8>
-categoryMask<8>[2]
-classID<8>
+Description_lang
+SpellID<32>
+OverridesSpellID<32>
+SpecID<16>
+TierID<8>
+Flags<8>
+ColumnIndex<8>
+CategoryMask<8>[2]
+ClassID<8>
 
 LAYOUT 2661E6C2
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_749057414_lang
-field_1017518825<u8>
-field_1503170430<u8>
-field_035543493<u8>
-field_818289684<u8>
-field_821176271<u16>
-field_589227419<u32>
-field_1655887955<u32>
-field_2127549662<u8>[2]
+Field_749057414_lang
+Field_1017518825<u8>
+Field_1503170430<u8>
+Field_035543493<u8>
+Field_818289684<u8>
+Field_821176271<u16>
+Field_589227419<u32>
+Field_1655887955<u32>
+Field_2127549662<u8>[2]

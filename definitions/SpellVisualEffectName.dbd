@@ -1,130 +1,130 @@
 COLUMNS
-int padding_229586292?
+int Padding_229586292?
 int ID
-float alpha
-float baseMissileSpeed
-int dissolveEffectID
-float effectRadius
-int flags
-int genericID
-float maxAllowedScale
-float minAllowedScale
-int modelFileDataID
-int ribbonQualityID
-float scale
-int textureFileDataID
-int type
-string name
-string fileName
-float areaEffectSize
+float Alpha
+float BaseMissileSpeed
+int DissolveEffectID
+float EffectRadius
+int Flags
+int GenericID
+float MaxAllowedScale
+float MinAllowedScale
+int ModelFileDataID
+int RibbonQualityID
+float Scale
+int TextureFileDataID
+int Type
+string Name
+string FileName
+float AreaEffectSize
 int VisualEffectNameFlags // <code>UnitEffectIsAuraWorldObject</code>
-int modelPosition
-int specialID
-int specialAttachPoint
+int ModelPosition
+int SpecialID
+int SpecialAttachPoint
 
 BUILD 6.0.1.18179
 $id$ID<32>
-fileName
-effectRadius
-scale
-minAllowedScale
-maxAllowedScale
-type<8>
-padding_229586292<8>[3]
-alpha
-flags<32>
-genericID<32>
+FileName
+EffectRadius
+Scale
+MinAllowedScale
+MaxAllowedScale
+Type<8>
+Padding_229586292<8>[3]
+Alpha
+Flags<32>
+GenericID<32>
 
 LAYOUT 2A02639A
 BUILD 8.0.1.26095, 8.0.1.26287
 $noninline,id$ID<32>
-modelFileDataID<32>
-effectRadius
-baseMissileSpeed
-scale
-minAllowedScale
-maxAllowedScale
-alpha
-flags<32>
-type<32>
-genericID<32>
-textureFileDataID<32>
-ribbonQualityID<32>
-dissolveEffectID<32>
+ModelFileDataID<32>
+EffectRadius
+BaseMissileSpeed
+Scale
+MinAllowedScale
+MaxAllowedScale
+Alpha
+Flags<32>
+Type<32>
+GenericID<32>
+TextureFileDataID<32>
+RibbonQualityID<32>
+DissolveEffectID<32>
 
 BUILD 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
 $id$ID<32>
-name
-fileName
-areaEffectSize
-scale
-minAllowedScale
-maxAllowedScale
+Name
+FileName
+AreaEffectSize
+Scale
+MinAllowedScale
+MaxAllowedScale
 
 BUILD 3.0.1.8303
 $id$ID<32>
-name
-fileName
-areaEffectSize
-scale
+Name
+FileName
+AreaEffectSize
+Scale
 
 BUILD 0.5.3.3368
 $id$ID<32>
-fileName
-specialID<32>
-specialAttachPoint<32>
-areaEffectSize
+FileName
+SpecialID<32>
+SpecialAttachPoint<32>
+AreaEffectSize
 VisualEffectNameFlags<32>
 
 LAYOUT 81C922D3
 BUILD 8.0.1.26175, 8.0.1.26231
 $noninline,id$ID<32>
-modelFileDataID<32>
-effectRadius
-baseMissileSpeed
-scale
-minAllowedScale
-maxAllowedScale
-alpha
-flags<32>
-type<32>
-genericID<32>
-textureFileDataID<32>
-ribbonQualityID<32>
-dissolveEffectID<32>
-modelPosition<32>
+ModelFileDataID<32>
+EffectRadius
+BaseMissileSpeed
+Scale
+MinAllowedScale
+MaxAllowedScale
+Alpha
+Flags<32>
+Type<32>
+GenericID<32>
+TextureFileDataID<32>
+RibbonQualityID<32>
+DissolveEffectID<32>
+ModelPosition<32>
 
 LAYOUT 10206967
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-modelFileDataID<32>
-baseMissileSpeed
-scale
-minAllowedScale
-maxAllowedScale
-alpha
-flags<u32>
-textureFileDataID<32>
-effectRadius
-type<u32>
-genericID<32>
-ribbonQualityID<u32>
-dissolveEffectID<32>
-modelPosition<32>
+ModelFileDataID<32>
+BaseMissileSpeed
+Scale
+MinAllowedScale
+MaxAllowedScale
+Alpha
+Flags<u32>
+TextureFileDataID<32>
+EffectRadius
+Type<u32>
+GenericID<32>
+RibbonQualityID<u32>
+DissolveEffectID<32>
+ModelPosition<32>
 
 LAYOUT B930A934
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
 $noninline,id$ID<32>
-effectRadius
-baseMissileSpeed
-scale
-minAllowedScale
-maxAllowedScale
-alpha
-flags<u32>
-genericID<32>
-textureFileDataID<32>
-type<u8>
-modelFileDataID<32>
-ribbonQualityID<u32>
-dissolveEffectID<32>
+EffectRadius
+BaseMissileSpeed
+Scale
+MinAllowedScale
+MaxAllowedScale
+Alpha
+Flags<u32>
+GenericID<32>
+TextureFileDataID<32>
+Type<u8>
+ModelFileDataID<32>
+RibbonQualityID<u32>
+DissolveEffectID<32>

@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-int type
-int param
-int fallback
-int racemask
+int Type
+int Param
+int Fallback
+int Racemask
 string Internal_name
 locstring Name_lang
-int lockID
+int LockID
 
 BUILD 4.0.0.11792
 $id$ID<32>
-type<32>
-param<32>
-fallback<32>
-racemask<32>
+Type<32>
+Param<32>
+Fallback<32>
+Racemask<32>
 Internal_name
 Name_lang
-lockID<32>
+LockID<32>

@@ -1,90 +1,90 @@
 COLUMNS
 int ID
-int baseCapacity
-int completeSpellVisualID
-int crossFactionID
-locstring description_lang
-int faction
-int garrBuildingType
-int garrTypeID
-int largeDisplayInfoID
-int largeThreshold
-int mediumDisplayInfoID
-int mediumThreshold
-locstring pendingText_lang
-int smallDisplayInfoID
-int uiTextureKitID
-int workingDisplayInfoID
-int workingSpellVisualID
+int BaseCapacity
+int CompleteSpellVisualID
+int CrossFactionID
+locstring Description_lang
+int Faction
+int GarrBuildingType
+int GarrTypeID
+int LargeDisplayInfoID
+int LargeThreshold
+int MediumDisplayInfoID
+int MediumThreshold
+locstring PendingText_lang
+int SmallDisplayInfoID
+int UiTextureKitID
+int WorkingDisplayInfoID
+int WorkingSpellVisualID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-baseCapacity<32>
-garrBuildingType<32>
-pendingText_lang
-uiTextureKitID<32>
-smallDisplayInfoID<32>
-mediumDisplayInfoID<32>
-largeDisplayInfoID<32>
-mediumThreshold<32>
-largeThreshold<32>
+BaseCapacity<32>
+GarrBuildingType<32>
+PendingText_lang
+UiTextureKitID<32>
+SmallDisplayInfoID<32>
+MediumDisplayInfoID<32>
+LargeDisplayInfoID<32>
+MediumThreshold<32>
+LargeThreshold<32>
 
 LAYOUT 194896E3
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-pendingText_lang
-description_lang
-workingSpellVisualID<u32>
-uiTextureKitID<u16>
-workingDisplayInfoID<u16>
-smallDisplayInfoID<u16>
-mediumDisplayInfoID<u16>
-largeDisplayInfoID<u16>
-crossFactionID<u16>
-baseCapacity<u8>
-garrBuildingType<u8>
-garrTypeID<u8>
-mediumThreshold<u8>
-largeThreshold<u8>
-faction<8>
-completeSpellVisualID<u32>
+PendingText_lang
+Description_lang
+WorkingSpellVisualID<u32>
+UiTextureKitID<u16>
+WorkingDisplayInfoID<u16>
+SmallDisplayInfoID<u16>
+MediumDisplayInfoID<u16>
+LargeDisplayInfoID<u16>
+CrossFactionID<u16>
+BaseCapacity<u8>
+GarrBuildingType<u8>
+GarrTypeID<u8>
+MediumThreshold<u8>
+LargeThreshold<u8>
+Faction<8>
+CompleteSpellVisualID<u32>
 
 LAYOUT F55F5E87
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-description_lang
-pendingText_lang
-workingSpellVisualID<32>
-uiTextureKitID<16>
-smallDisplayInfoID<16>
-mediumDisplayInfoID<16>
-largeDisplayInfoID<16>
-workingDisplayInfoID<16>
-crossFactionID<16>
-garrTypeID<8>
-garrBuildingType<8>
-baseCapacity<8>
-mediumThreshold<8>
-largeThreshold<8>
-faction<8>
-completeSpellVisualID<32>
+Description_lang
+PendingText_lang
+WorkingSpellVisualID<32>
+UiTextureKitID<16>
+SmallDisplayInfoID<16>
+MediumDisplayInfoID<16>
+LargeDisplayInfoID<16>
+WorkingDisplayInfoID<16>
+CrossFactionID<16>
+GarrTypeID<8>
+GarrBuildingType<8>
+BaseCapacity<8>
+MediumThreshold<8>
+LargeThreshold<8>
+Faction<8>
+CompleteSpellVisualID<32>
 
 LAYOUT 13048703
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-description_lang
-pendingText_lang
-uiTextureKitID<u16>
-garrTypeID<u8>
-garrBuildingType<u8>
-baseCapacity<u8>
-smallDisplayInfoID<u16>
-mediumDisplayInfoID<u16>
-largeDisplayInfoID<u16>
-workingDisplayInfoID<u16>
-workingSpellVisualID<u32>
-completeSpellVisualID<u32>
-mediumThreshold<u8>
-largeThreshold<u8>
-faction<8>
-crossFactionID<u16>
+Description_lang
+PendingText_lang
+UiTextureKitID<u16>
+GarrTypeID<u8>
+GarrBuildingType<u8>
+BaseCapacity<u8>
+SmallDisplayInfoID<u16>
+MediumDisplayInfoID<u16>
+LargeDisplayInfoID<u16>
+WorkingDisplayInfoID<u16>
+WorkingSpellVisualID<u32>
+CompleteSpellVisualID<u32>
+MediumThreshold<u8>
+LargeThreshold<u8>
+Faction<8>
+CrossFactionID<u16>

@@ -1,74 +1,74 @@
 COLUMNS
-int field_1203811381?
-int field_1914305138?
-int field_2508543345?
-int field_374087848?
+int Field_1203811381?
+int Field_1914305138?
+int Field_2508543345?
+int Field_374087848?
 int ID
-int garrLevel
-int garrSiteID
-int mapID
-int maxBuildingLevel
-float townHallUiPos
-int uiTextureKitID
-int upgradeCost
-int upgradeGoldCost
-int upgradeMovieID
+int GarrLevel
+int GarrSiteID
+int MapID
+int MaxBuildingLevel
+float TownHallUiPos
+int UiTextureKitID
+int UpgradeCost
+int UpgradeGoldCost
+int UpgradeMovieID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_1203811381<32>
-field_1914305138<32>
-field_2508543345<32>
-field_374087848<32>
+Field_1203811381<32>
+Field_1914305138<32>
+Field_2508543345<32>
+Field_374087848<32>
 
 LAYOUT D3979C38
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-townHallUiPos[2]
-mapID<u16>
-uiTextureKitID<u16>
-upgradeMovieID<u16>
-upgradeCost<u16>
-upgradeGoldCost<u16>
-garrLevel<u8>
-garrSiteID<u8>
-maxBuildingLevel<u8>
+TownHallUiPos[2]
+MapID<u16>
+UiTextureKitID<u16>
+UpgradeMovieID<u16>
+UpgradeCost<u16>
+UpgradeGoldCost<u16>
+GarrLevel<u8>
+GarrSiteID<u8>
+MaxBuildingLevel<u8>
 
 LAYOUT 628B2320
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-townHallUiPos[2]
-mapID<16>
-upgradeMovieID<16>
-uiTextureKitID<16>
-upgradeCost<16>
-upgradeGoldCost<16>
-garrSiteID<8>
-garrLevel<8>
-maxBuildingLevel<8>
+TownHallUiPos[2]
+MapID<16>
+UpgradeMovieID<16>
+UiTextureKitID<16>
+UpgradeCost<16>
+UpgradeGoldCost<16>
+GarrSiteID<8>
+GarrLevel<8>
+MaxBuildingLevel<8>
 
 LAYOUT D1F839BC
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-townHallUiPos[2]
-mapID<16>
-upgradeMovieID<16>
-uiTextureKitID<16>
-upgradeCost<16>
-upgradeGoldCost<16>
-garrLevel<8>
-maxBuildingLevel<8>
-garrSiteID<32>
+TownHallUiPos[2]
+MapID<16>
+UpgradeMovieID<16>
+UiTextureKitID<16>
+UpgradeCost<16>
+UpgradeGoldCost<16>
+GarrLevel<8>
+MaxBuildingLevel<8>
+GarrSiteID<32>
 
 LAYOUT 4D823E68
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-townHallUiPos[2]
-garrSiteID<u32>
-garrLevel<u8>
-mapID<u16>
-upgradeMovieID<u16>
-uiTextureKitID<u16>
-maxBuildingLevel<u8>
-upgradeCost<u16>
-upgradeGoldCost<u16>
+TownHallUiPos[2]
+GarrSiteID<u32>
+GarrLevel<u8>
+MapID<u16>
+UpgradeMovieID<u16>
+UiTextureKitID<u16>
+MaxBuildingLevel<u8>
+UpgradeCost<u16>
+UpgradeGoldCost<u16>

@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-int<ChrRaces::ID> field_6196993_race?
-int field_0398928_gender?
-int field_118879370_mayberacemask?
-int field_70049839_the_x_in_hair_xy_blp? // Maybe the * of Hair*_x.blp?
-int field_345983495834?
-int field_120396383312?
+int<ChrRaces::ID> Field_6196993_race?
+int Field_0398928_gender?
+int Field_118879370_mayberacemask?
+int Field_70049839_the_x_in_hair_xy_blp? // Maybe the * of Hair*_x.blp?
+int Field_345983495834?
+int Field_120396383312?
 
 BUILD 3.0.2.8905
 $id$ID<32>
-field_6196993_race<32>
-field_0398928_gender<32>
-field_118879370_mayberacemask<32>
-field_70049839_the_x_in_hair_xy_blp<32>
-field_345983495834<32>
-field_120396383312<32>
+Field_6196993_race<32>
+Field_0398928_gender<32>
+Field_118879370_mayberacemask<32>
+Field_70049839_the_x_in_hair_xy_blp<32>
+Field_345983495834<32>
+Field_120396383312<32>

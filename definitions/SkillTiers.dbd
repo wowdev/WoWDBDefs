@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int value
-int cost
+int Value
+int Cost
 
 BUILD 6.0.1.18179
 $id$ID<32>
-value<32>[16]
+Value<32>[16]
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
 $id$ID<32>
-cost<32>[16]
-value<32>[16]
+Cost<32>[16]
+Value<32>[16]

@@ -1,81 +1,81 @@
 COLUMNS
 int ID
-locstring name_lang
-int minLevel
-int maxLevel
-int target_level
-int target_level_min
-int target_level_max
-int mapID
-int difficultyID
-int flags
-int typeID
-int faction
-string textureFilename
-int expansionLevel
-int order_index
-int group_ID
-locstring description_lang
-int random_ID
-int count_tank
-int count_healer
-int count_damage
-int min_count_tank
-int min_count_healer
-int min_count_damage
-int scenarioID
-int subtype
-int bonus_reputation_amount
-int mentorCharLevel
-int mentorItemLevel
-int difficulty
+locstring Name_lang
+int MinLevel
+int MaxLevel
+int Target_level
+int Target_level_min
+int Target_level_max
+int MapID
+int DifficultyID
+int Flags
+int TypeID
+int Faction
+string TextureFilename
+int ExpansionLevel
+int Order_index
+int Group_ID
+locstring Description_lang
+int Random_ID
+int Count_tank
+int Count_healer
+int Count_damage
+int Min_count_tank
+int Min_count_healer
+int Min_count_damage
+int ScenarioID
+int Subtype
+int Bonus_reputation_amount
+int MentorCharLevel
+int MentorItemLevel
+int Difficulty
 
 BUILD 6.0.1.18179
 $id$ID<32>
-name_lang
-minLevel<32>
-maxLevel<32>
-target_level<32>
-target_level_min<32>
-target_level_max<32>
-mapID<32>
-difficultyID<32>
-flags<32>
-typeID<32>
-faction<32>
-textureFilename
-expansionLevel<32>
-order_index<32>
-group_ID<32>
-description_lang
-random_ID<32>
-count_tank<32>
-count_healer<32>
-count_damage<32>
-min_count_tank<32>
-min_count_healer<32>
-min_count_damage<32>
-scenarioID<32>
-subtype<32>
-bonus_reputation_amount<32>
-mentorCharLevel<32>
-mentorItemLevel<32>
+Name_lang
+MinLevel<32>
+MaxLevel<32>
+Target_level<32>
+Target_level_min<32>
+Target_level_max<32>
+MapID<32>
+DifficultyID<32>
+Flags<32>
+TypeID<32>
+Faction<32>
+TextureFilename
+ExpansionLevel<32>
+Order_index<32>
+Group_ID<32>
+Description_lang
+Random_ID<32>
+Count_tank<32>
+Count_healer<32>
+Count_damage<32>
+Min_count_tank<32>
+Min_count_healer<32>
+Min_count_damage<32>
+ScenarioID<32>
+Subtype<32>
+Bonus_reputation_amount<32>
+MentorCharLevel<32>
+MentorItemLevel<32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-name_lang
-minLevel<32>
-maxLevel<32>
-target_level<32>
-target_level_min<32>
-target_level_max<32>
-mapID<32>
-difficulty<32>
-flags<32>
-typeID<32>
-faction<32>
-textureFilename
-expansionLevel<32>
-order_index<32>
-group_ID<32>
-description_lang
+Name_lang
+MinLevel<32>
+MaxLevel<32>
+Target_level<32>
+Target_level_min<32>
+Target_level_max<32>
+MapID<32>
+Difficulty<32>
+Flags<32>
+TypeID<32>
+Faction<32>
+TextureFilename
+ExpansionLevel<32>
+Order_index<32>
+Group_ID<32>
+Description_lang

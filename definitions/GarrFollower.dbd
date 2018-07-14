@@ -1,203 +1,203 @@
 COLUMNS
-int field_3344665917?
-int field_263110037?
-int field_2341785278?
-int field_4284947872?
-int field_721452295?
-int field_2054766262?
-int field_398665856?
-int field_4214031279?
-int field_3938450527?
-int field_767537361?
-int field_2337283541?
-int field_4022270752?
-int field_1918779027?
-int field_2382526395?
-int field_2003574378?
+int Field_3344665917?
+int Field_263110037?
+int Field_2341785278?
+int Field_4284947872?
+int Field_721452295?
+int Field_2054766262?
+int Field_398665856?
+int Field_4214031279?
+int Field_3938450527?
+int Field_767537361?
+int Field_2337283541?
+int Field_4022270752?
+int Field_1918779027?
+int Field_2382526395?
+int Field_2003574378?
 int ID
-int allianceCreatureID
-int allianceFlavorGarrStringID
-int allianceGarrClassSpecID
-int allianceGarrFollItemSetID
-int allianceGarrFollRaceID
-int allianceIconFileDataID
-locstring allianceSourceText_lang
-int allianceSourceTypeEnum
-int allianceUITextureKitID
-int allySlottingBroadcastTextID
-int chrClassID
-int flags
-int followerLevel
-int garrFollowerTypeID
-int garrTypeID
-int gender
-int hordeCreatureID
-int hordeFlavorGarrStringID
-int hordeGarrClassSpecID
-int hordeGarrFollItemSetID
-int hordeGarrFollRaceID
-int hordeIconFileDataID
-int hordeSlottingBroadcastTextID
-locstring hordeSourceText_lang
-int hordeSourceTypeEnum
-int hordeUITextureKitID
-int itemLevelArmor
-int itemLevelWeapon
-int quality
-locstring titleName_lang
-int vitality
-locstring field_1944523407_lang
-locstring field_172290952_lang
-locstring field_1474363347_lang
-int field_643377850
-int field_022818236
-int field_145902578
-int field_884228378
-int field_746346335
-int field_202761153
-int field_890092743
-int field_1807174230
-int field_1851567903
-int field_262541874
-int field_1004847425
-int field_1658589318
-int field_2138095063
-int field_1066497781
-int field_949559497
-int field_350838725
-int field_1328681027
-int field_176560615
-int field_1881985665
-int field_1636225367
-int field_2141690275
-int field_2064047353
-int field_107705091
-int field_731664056
-int field_1813731286
-int field_1951484470
-int field_1920945990
-int field_1368512515
-int field_2001572246
+int AllianceCreatureID
+int AllianceFlavorGarrStringID
+int AllianceGarrClassSpecID
+int AllianceGarrFollItemSetID
+int AllianceGarrFollRaceID
+int AllianceIconFileDataID
+locstring AllianceSourceText_lang
+int AllianceSourceTypeEnum
+int AllianceUITextureKitID
+int AllySlottingBroadcastTextID
+int ChrClassID
+int Flags
+int FollowerLevel
+int GarrFollowerTypeID
+int GarrTypeID
+int Gender
+int HordeCreatureID
+int HordeFlavorGarrStringID
+int HordeGarrClassSpecID
+int HordeGarrFollItemSetID
+int HordeGarrFollRaceID
+int HordeIconFileDataID
+int HordeSlottingBroadcastTextID
+locstring HordeSourceText_lang
+int HordeSourceTypeEnum
+int HordeUITextureKitID
+int ItemLevelArmor
+int ItemLevelWeapon
+int Quality
+locstring TitleName_lang
+int Vitality
+locstring Field_1944523407_lang
+locstring Field_172290952_lang
+locstring Field_1474363347_lang
+int Field_643377850
+int Field_022818236
+int Field_145902578
+int Field_884228378
+int Field_746346335
+int Field_202761153
+int Field_890092743
+int Field_1807174230
+int Field_1851567903
+int Field_262541874
+int Field_1004847425
+int Field_1658589318
+int Field_2138095063
+int Field_1066497781
+int Field_949559497
+int Field_350838725
+int Field_1328681027
+int Field_176560615
+int Field_1881985665
+int Field_1636225367
+int Field_2141690275
+int Field_2064047353
+int Field_107705091
+int Field_731664056
+int Field_1813731286
+int Field_1951484470
+int Field_1920945990
+int Field_1368512515
+int Field_2001572246
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_3344665917<32>
-field_263110037<32>
-field_2341785278<32>
-field_4284947872<32>
-field_721452295<32>
-field_2054766262<32>
-field_398665856<32>
-field_4214031279<32>
-field_3938450527<32>
-field_767537361<32>
-field_2337283541<32>
-field_4022270752<32>
-field_1918779027<32>
-field_2382526395<32>
-field_2003574378<32>
+Field_3344665917<32>
+Field_263110037<32>
+Field_2341785278<32>
+Field_4284947872<32>
+Field_721452295<32>
+Field_2054766262<32>
+Field_398665856<32>
+Field_4214031279<32>
+Field_3938450527<32>
+Field_767537361<32>
+Field_2337283541<32>
+Field_4022270752<32>
+Field_1918779027<32>
+Field_2382526395<32>
+Field_2003574378<32>
 
 LAYOUT AAB75E04
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-hordeSourceText_lang
-allianceSourceText_lang
-titleName_lang
-hordeCreatureID<32>
-allianceCreatureID<32>
-hordeIconFileDataID<32>
-allianceIconFileDataID<32>
-hordeSlottingBroadcastTextID<u32>
-allySlottingBroadcastTextID<u32>
-hordeGarrFollItemSetID<u16>
-allianceGarrFollItemSetID<u16>
-itemLevelWeapon<u16>
-itemLevelArmor<u16>
-hordeUITextureKitID<u16>
-allianceUITextureKitID<u16>
-garrFollowerTypeID<u8>
-hordeGarrFollRaceID<u8>
-allianceGarrFollRaceID<u8>
-quality<u8>
-hordeGarrClassSpecID<u8>
-allianceGarrClassSpecID<u8>
-followerLevel<u8>
-gender<u8>
-flags<u8>
-hordeSourceTypeEnum<8>
-allianceSourceTypeEnum<8>
-garrTypeID<u8>
-vitality<u8>
-chrClassID<u8>
-hordeFlavorGarrStringID<u8>
-allianceFlavorGarrStringID<u8>
+HordeSourceText_lang
+AllianceSourceText_lang
+TitleName_lang
+HordeCreatureID<32>
+AllianceCreatureID<32>
+HordeIconFileDataID<32>
+AllianceIconFileDataID<32>
+HordeSlottingBroadcastTextID<u32>
+AllySlottingBroadcastTextID<u32>
+HordeGarrFollItemSetID<u16>
+AllianceGarrFollItemSetID<u16>
+ItemLevelWeapon<u16>
+ItemLevelArmor<u16>
+HordeUITextureKitID<u16>
+AllianceUITextureKitID<u16>
+GarrFollowerTypeID<u8>
+HordeGarrFollRaceID<u8>
+AllianceGarrFollRaceID<u8>
+Quality<u8>
+HordeGarrClassSpecID<u8>
+AllianceGarrClassSpecID<u8>
+FollowerLevel<u8>
+Gender<u8>
+Flags<u8>
+HordeSourceTypeEnum<8>
+AllianceSourceTypeEnum<8>
+GarrTypeID<u8>
+Vitality<u8>
+ChrClassID<u8>
+HordeFlavorGarrStringID<u8>
+AllianceFlavorGarrStringID<u8>
 $id$ID<32>
 
 LAYOUT B3236709
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-hordeSourceText_lang
-allianceSourceText_lang
-titleName_lang
-hordeCreatureID<32>
-allianceCreatureID<32>
-hordeIconFileDataID<32>
-allianceIconFileDataID<32>
-hordeSlottingBroadcastTextID<32>
-allySlottingBroadcastTextID<32>
-itemLevelWeapon<16>
-itemLevelArmor<16>
-hordeGarrFollItemSetID<16>
-allianceGarrFollItemSetID<16>
-hordeUITextureKitID<16>
-allianceUITextureKitID<16>
-garrTypeID<8>
-garrFollowerTypeID<8>
-hordeGarrFollRaceID<8>
-allianceGarrFollRaceID<8>
-hordeGarrClassSpecID<8>
-allianceGarrClassSpecID<8>
-quality<8>
-followerLevel<8>
-hordeSourceTypeEnum<8>
-allianceSourceTypeEnum<8>
-vitality<8>
-hordeFlavorGarrStringID<8>
-allianceFlavorGarrStringID<8>
-chrClassID<8>
-flags<8>
-gender<8>
+HordeSourceText_lang
+AllianceSourceText_lang
+TitleName_lang
+HordeCreatureID<32>
+AllianceCreatureID<32>
+HordeIconFileDataID<32>
+AllianceIconFileDataID<32>
+HordeSlottingBroadcastTextID<32>
+AllySlottingBroadcastTextID<32>
+ItemLevelWeapon<16>
+ItemLevelArmor<16>
+HordeGarrFollItemSetID<16>
+AllianceGarrFollItemSetID<16>
+HordeUITextureKitID<16>
+AllianceUITextureKitID<16>
+GarrTypeID<8>
+GarrFollowerTypeID<8>
+HordeGarrFollRaceID<8>
+AllianceGarrFollRaceID<8>
+HordeGarrClassSpecID<8>
+AllianceGarrClassSpecID<8>
+Quality<8>
+FollowerLevel<8>
+HordeSourceTypeEnum<8>
+AllianceSourceTypeEnum<8>
+Vitality<8>
+HordeFlavorGarrStringID<8>
+AllianceFlavorGarrStringID<8>
+ChrClassID<8>
+Flags<8>
+Gender<8>
 $id$ID<32>
 
 LAYOUT 7C5C19F1
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-field_1944523407_lang
-field_172290952_lang
-field_1474363347_lang
-$id$field_643377850<32>
-field_022818236<u8>
-field_145902578<u8>
-field_884228378<32>
-field_746346335<32>
-field_202761153<u8>
-field_890092743<u8>
-field_1807174230<u8>
-field_1851567903<u8>
-field_262541874<u8>
-field_1004847425<u8>
-field_1658589318<u16>
-field_2138095063<u16>
-field_1066497781<8>
-field_949559497<8>
-field_350838725<32>
-field_1328681027<32>
-field_176560615<u16>
-field_1881985665<u16>
-field_1636225367<u16>
-field_2141690275<u16>
-field_2064047353<u8>
-field_107705091<u8>
-field_731664056<u8>
-field_1813731286<u32>
-field_1951484470<u32>
-field_1920945990<u8>
-field_1368512515<u8>
-field_2001572246<u8>
+Field_1944523407_lang
+Field_172290952_lang
+Field_1474363347_lang
+$id$Field_643377850<32>
+Field_022818236<u8>
+Field_145902578<u8>
+Field_884228378<32>
+Field_746346335<32>
+Field_202761153<u8>
+Field_890092743<u8>
+Field_1807174230<u8>
+Field_1851567903<u8>
+Field_262541874<u8>
+Field_1004847425<u8>
+Field_1658589318<u16>
+Field_2138095063<u16>
+Field_1066497781<8>
+Field_949559497<8>
+Field_350838725<32>
+Field_1328681027<32>
+Field_176560615<u16>
+Field_1881985665<u16>
+Field_1636225367<u16>
+Field_2141690275<u16>
+Field_2064047353<u8>
+Field_107705091<u8>
+Field_731664056<u8>
+Field_1813731286<u32>
+Field_1951484470<u32>
+Field_1920945990<u8>
+Field_1368512515<u8>
+Field_2001572246<u8>

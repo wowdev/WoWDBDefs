@@ -4,18 +4,18 @@ int<TaxiPath::ID> PathID
 int NodeIndex
 int<Map::ID> ContinentID
 float Loc
-int flags
-int delay
-int arrivalEventID
-int departureEventID
+int Flags
+int Delay
+int ArrivalEventID
+int DepartureEventID
 float LocX
 float LocY
 float LocZ
-int field_1559777242
-int field_1090324703
-int field_1492673239
-int field_320321232
-int field_294171656
+int Field_1559777242
+int Field_1090324703
+int Field_1492673239
+int Field_320321232
+int Field_294171656
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -23,10 +23,10 @@ PathID<32>
 NodeIndex<32>
 ContinentID<32>
 Loc[3]
-flags<32>
-delay<32>
-arrivalEventID<32>
-departureEventID<32>
+Flags<32>
+Delay<32>
+ArrivalEventID<32>
+DepartureEventID<32>
 
 LAYOUT D38E8C01, A5604F55
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
@@ -35,10 +35,10 @@ $relation$PathID<u16>
 ContinentID<u16>
 NodeIndex<u8>
 $id$ID<32>
-flags<u8>
-delay<u32>
-arrivalEventID<u16>
-departureEventID<u16>
+Flags<u8>
+Delay<u32>
+ArrivalEventID<u16>
+DepartureEventID<u16>
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
 $id$ID<32>
@@ -48,10 +48,10 @@ ContinentID<32>
 LocX
 LocY
 LocZ
-flags<32>
-delay<32>
-arrivalEventID<32>
-departureEventID<32>
+Flags<32>
+Delay<32>
+ArrivalEventID<32>
+DepartureEventID<32>
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -61,7 +61,7 @@ ContinentID<32>
 LocX
 LocY
 LocZ
-flags<32>
+Flags<32>
 
 LAYOUT B2102B34
 BUILD 8.0.1.26734
@@ -70,19 +70,19 @@ $relation$PathID<16>
 ContinentID<16>
 $id$ID<32>
 NodeIndex<32>
-flags<8>
-delay<32>
-arrivalEventID<16>
-departureEventID<16>
+Flags<8>
+Delay<32>
+ArrivalEventID<16>
+DepartureEventID<16>
 
 LAYOUT E28C3360
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 Loc[3]
 $id$ID<32>
 $relation$PathID<u16>
-field_1559777242<32>
-field_1090324703<u16>
-flags<u8>
-field_1492673239<u32>
-field_320321232<u16>
-field_294171656<u16>
+Field_1559777242<32>
+Field_1090324703<u16>
+Flags<u8>
+Field_1492673239<u32>
+Field_320321232<u16>
+Field_294171656<u16>

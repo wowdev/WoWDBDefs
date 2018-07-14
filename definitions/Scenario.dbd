@@ -1,55 +1,55 @@
 COLUMNS
 int ID
-locstring name_lang
-int flags
-int areaTableID
-int type
-int field_1469310973?
-locstring field_2792711813_lang?
-int field_4013373207?
-int field_675357935?
-int field_872425833?
-locstring field_418027040_lang
-int field_002326529
-int field_564158060
-int field_1246164601
-int field_103900121
+locstring Name_lang
+int Flags
+int AreaTableID
+int Type
+int Field_1469310973?
+locstring Field_2792711813_lang?
+int Field_4013373207?
+int Field_675357935?
+int Field_872425833?
+locstring Field_418027040_lang
+int Field_002326529
+int Field_564158060
+int Field_1246164601
+int Field_103900121
 
 BUILD 6.0.1.18179
 $id$ID<32>
-name_lang
-flags<32>
+Name_lang
+Flags<32>
 
 LAYOUT D052232A
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-name_lang
-areaTableID<u16>
-flags<u8>
-type<u8>
+Name_lang
+AreaTableID<u16>
+Flags<u8>
+Type<u8>
 
 LAYOUT AF31343E
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683
 $noninline,id$ID<32>
-name_lang
-areaTableID<16>
-type<8>
-flags<8>
+Name_lang
+AreaTableID<16>
+Type<8>
+Flags<8>
 
 LAYOUT FF074FEE
 BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-field_2792711813_lang
-field_4013373207<32>
-field_872425833<16>
-field_675357935<8>
-field_1469310973<8>
+Field_2792711813_lang
+Field_4013373207<32>
+Field_872425833<16>
+Field_675357935<8>
+Field_1469310973<8>
 
 LAYOUT 0857765A
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_418027040_lang
-field_002326529<u16>
-field_564158060<u8>
-field_1246164601<u8>
-field_103900121<u32>
+Field_418027040_lang
+Field_002326529<u16>
+Field_564158060<u8>
+Field_1246164601<u8>
+Field_103900121<u32>

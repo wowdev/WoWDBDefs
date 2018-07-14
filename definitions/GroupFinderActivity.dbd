@@ -1,107 +1,107 @@
 COLUMNS
-int field_168393376?
-int field_4290326651?
-int field_91068462?
-int field_2334433385?
-int field_2250257069?
-int field_4013676685?
-string field_3904792460?
-string field_3671730565?
+int Field_168393376?
+int Field_4290326651?
+int Field_91068462?
+int Field_2334433385?
+int Field_2250257069?
+int Field_4013676685?
+string Field_3904792460?
+string Field_3671730565?
 int ID
-int areaID
-int difficultyID
-int displayType
-int flags
-locstring fullName_lang
-int groupFinderActivityGrpID
-int groupFinderCategoryID
-int mapID
-int maxLevelSuggestion
-int maxPlayers
-int minGearLevelSuggestion
-int minLevel
-int orderIndex
-locstring shortName_lang
+int AreaID
+int DifficultyID
+int DisplayType
+int Flags
+locstring FullName_lang
+int GroupFinderActivityGrpID
+int GroupFinderCategoryID
+int MapID
+int MaxLevelSuggestion
+int MaxPlayers
+int MinGearLevelSuggestion
+int MinLevel
+int OrderIndex
+locstring ShortName_lang
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_168393376<32>
-field_4290326651<32>
-field_91068462<32>
-field_2334433385<32>
-field_2250257069<32>
-field_4013676685<32>
-field_3904792460
-field_3671730565
+Field_168393376<32>
+Field_4290326651<32>
+Field_91068462<32>
+Field_2334433385<32>
+Field_2250257069<32>
+Field_4013676685<32>
+Field_3904792460
+Field_3671730565
 
 LAYOUT 3EF2F3BD
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-fullName_lang
-shortName_lang
-minGearLevelSuggestion<u16>
-mapID<u16>
-areaID<u16>
-groupFinderCategoryID<u8>
-groupFinderActivityGrpID<u8>
-orderIndex<8>
-minLevel<u8>
-maxLevelSuggestion<u8>
-difficultyID<u8>
-flags<u8>
-displayType<u8>
-maxPlayers<u8>
+FullName_lang
+ShortName_lang
+MinGearLevelSuggestion<u16>
+MapID<u16>
+AreaID<u16>
+GroupFinderCategoryID<u8>
+GroupFinderActivityGrpID<u8>
+OrderIndex<8>
+MinLevel<u8>
+MaxLevelSuggestion<u8>
+DifficultyID<u8>
+Flags<u8>
+DisplayType<u8>
+MaxPlayers<u8>
 
 LAYOUT 8E47EE91
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-fullName_lang
-shortName_lang
-minGearLevelSuggestion<16>
-mapID<16>
-areaID<16>
-groupFinderCategoryID<8>
-orderIndex<8>
-groupFinderActivityGrpID<8>
-minLevel<8>
-maxLevelSuggestion<8>
-flags<8>
-difficultyID<8>
-maxPlayers<8>
-displayType<8>
+FullName_lang
+ShortName_lang
+MinGearLevelSuggestion<16>
+MapID<16>
+AreaID<16>
+GroupFinderCategoryID<8>
+OrderIndex<8>
+GroupFinderActivityGrpID<8>
+MinLevel<8>
+MaxLevelSuggestion<8>
+Flags<8>
+DifficultyID<8>
+MaxPlayers<8>
+DisplayType<8>
 
 LAYOUT 009D2F0F
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-fullName_lang
-shortName_lang
-minGearLevelSuggestion<16>
-mapID<16>
-areaID<16>
-groupFinderCategoryID<8>
-orderIndex<8>
-groupFinderActivityGrpID<8>
-minLevel<8>
-maxLevelSuggestion<8>
-difficultyID<8>
-maxPlayers<8>
-displayType<8>
-flags<32>
+FullName_lang
+ShortName_lang
+MinGearLevelSuggestion<16>
+MapID<16>
+AreaID<16>
+GroupFinderCategoryID<8>
+OrderIndex<8>
+GroupFinderActivityGrpID<8>
+MinLevel<8>
+MaxLevelSuggestion<8>
+DifficultyID<8>
+MaxPlayers<8>
+DisplayType<8>
+Flags<32>
 
 LAYOUT EC40E4B1
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-fullName_lang
-shortName_lang
-groupFinderCategoryID<u8>
-orderIndex<8>
-groupFinderActivityGrpID<u8>
-minLevel<u8>
-maxLevelSuggestion<u8>
-flags<u32>
-minGearLevelSuggestion<u16>
-mapID<u16>
-difficultyID<u8>
-areaID<u16>
-maxPlayers<u8>
-displayType<u8>
+FullName_lang
+ShortName_lang
+GroupFinderCategoryID<u8>
+OrderIndex<8>
+GroupFinderActivityGrpID<u8>
+MinLevel<u8>
+MaxLevelSuggestion<u8>
+Flags<u32>
+MinGearLevelSuggestion<u16>
+MapID<u16>
+DifficultyID<u8>
+AreaID<u16>
+MaxPlayers<u8>
+DisplayType<u8>

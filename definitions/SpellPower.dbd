@@ -1,107 +1,107 @@
 COLUMNS
-int field_2062080633?
-int field_895647863?
-int field_3378167693?
-int field_604167671?
-int field_302453145?
-int field_1716104810?
-int field_4064523471?
-int field_3242744262?
-float field_2409654209?
-float field_2626330532?
-int field_752352413?
-float field_3042231609?
+int Field_2062080633?
+int Field_895647863?
+int Field_3378167693?
+int Field_604167671?
+int Field_302453145?
+int Field_1716104810?
+int Field_4064523471?
+int Field_3242744262?
+float Field_2409654209?
+float Field_2626330532?
+int Field_752352413?
+float Field_3042231609?
 int ID
-int altPowerBarID
-int manaCost
-int manaCostPerLevel
-int manaPerSecond
-int optionalCost
-int orderIndex
-float powerCostMaxPct
-float powerCostPct
-int powerDisplayID
-float powerPctPerSecond
-int powerType
-int requiredAuraSpellID
-int spellID
-int field_1918783764
-int field_1492331161
-int field_1767505220
-int field_433406149
-int field_801213775
-int field_1299179811
-int field_459926339
-float field_1619890638
-float field_1738331073
-float field_1935781870
-int field_1965009538
-int field_1335777086
-int field_277899929
-int field_1849230511
+int AltPowerBarID
+int ManaCost
+int ManaCostPerLevel
+int ManaPerSecond
+int OptionalCost
+int OrderIndex
+float PowerCostMaxPct
+float PowerCostPct
+int PowerDisplayID
+float PowerPctPerSecond
+int PowerType
+int RequiredAuraSpellID
+int SpellID
+int Field_1918783764
+int Field_1492331161
+int Field_1767505220
+int Field_433406149
+int Field_801213775
+int Field_1299179811
+int Field_459926339
+float Field_1619890638
+float Field_1738331073
+float Field_1935781870
+int Field_1965009538
+int Field_1335777086
+int Field_277899929
+int Field_1849230511
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_2062080633<32>
-field_895647863<32>
-field_3378167693<32>
-field_604167671<32>
-field_302453145<32>
-field_1716104810<32>
-field_4064523471<32>
-field_3242744262<32>
-field_2409654209
-field_2626330532
-field_752352413<32>
-field_3042231609
+Field_2062080633<32>
+Field_895647863<32>
+Field_3378167693<32>
+Field_604167671<32>
+Field_302453145<32>
+Field_1716104810<32>
+Field_4064523471<32>
+Field_3242744262<32>
+Field_2409654209
+Field_2626330532
+Field_752352413<32>
+Field_3042231609
 
 LAYOUT 8E5E46EC
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-manaCost<32>
-powerCostPct
-powerPctPerSecond
-requiredAuraSpellID<32>
-powerCostMaxPct
-orderIndex<u8>
-powerType<8>
+ManaCost<32>
+PowerCostPct
+PowerPctPerSecond
+RequiredAuraSpellID<32>
+PowerCostMaxPct
+OrderIndex<u8>
+PowerType<8>
 $id$ID<32>
-manaCostPerLevel<32>
-manaPerSecond<32>
-optionalCost<u32>
-powerDisplayID<u32>
-altPowerBarID<32>
-$noninline,relation$spellID<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+OptionalCost<u32>
+PowerDisplayID<u32>
+AltPowerBarID<32>
+$noninline,relation$SpellID<32>
 
 LAYOUT F3C96414
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-manaCost<32>
-powerCostPct
-powerCostMaxPct
-powerPctPerSecond
-requiredAuraSpellID<32>
-orderIndex<8>
-powerType<8>
+ManaCost<32>
+PowerCostPct
+PowerCostMaxPct
+PowerPctPerSecond
+RequiredAuraSpellID<32>
+OrderIndex<8>
+PowerType<8>
 $id$ID<32>
-manaCostPerLevel<32>
-manaPerSecond<32>
-powerDisplayID<32>
-altPowerBarID<32>
-optionalCost<32>
-$noninline,relation$spellID<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+PowerDisplayID<32>
+AltPowerBarID<32>
+OptionalCost<32>
+$noninline,relation$SpellID<32>
 
 LAYOUT 12ED7A99
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-$id$field_1918783764<32>
-field_1492331161<u8>
-field_1767505220<32>
-field_433406149<32>
-field_801213775<32>
-field_1299179811<u32>
-field_459926339<32>
-field_1619890638
-field_1738331073
-field_1935781870
-field_1965009538<8>
-field_1335777086<32>
-field_277899929<u32>
-$noninline,relation$field_1849230511<32>
+$id$Field_1918783764<32>
+Field_1492331161<u8>
+Field_1767505220<32>
+Field_433406149<32>
+Field_801213775<32>
+Field_1299179811<u32>
+Field_459926339<32>
+Field_1619890638
+Field_1738331073
+Field_1935781870
+Field_1965009538<8>
+Field_1335777086<32>
+Field_277899929<u32>
+$noninline,relation$Field_1849230511<32>

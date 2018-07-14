@@ -1,34 +1,34 @@
 COLUMNS
 int ID
-int artifactXPCategoryID
-int artifactXPDifficulty
-float artifactXPMultiplier
-int charTitleID
-int money
-int treasurePickerID
-int field_1705297844
-int field_1272243562
-int field_808459154
-float field_1899952039
-int field_1543333843
-int field_1830616191
+int ArtifactXPCategoryID
+int ArtifactXPDifficulty
+float ArtifactXPMultiplier
+int CharTitleID
+int Money
+int TreasurePickerID
+int Field_1705297844
+int Field_1272243562
+int Field_808459154
+float Field_1899952039
+int Field_1543333843
+int Field_1830616191
 
 LAYOUT DB6CC0AB, ADCBB963
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-money<u32>
-artifactXPMultiplier
-artifactXPDifficulty<8>
-artifactXPCategoryID<u8>
-charTitleID<32>
-treasurePickerID<u32>
+Money<u32>
+ArtifactXPMultiplier
+ArtifactXPDifficulty<8>
+ArtifactXPCategoryID<u8>
+CharTitleID<32>
+TreasurePickerID<u32>
 
 LAYOUT B0527FA7
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1705297844<32>
-field_1272243562<u32>
-field_808459154<8>
-field_1899952039
-field_1543333843<u8>
-field_1830616191<u32>
+Field_1705297844<32>
+Field_1272243562<u32>
+Field_808459154<8>
+Field_1899952039
+Field_1543333843<u8>
+Field_1830616191<u32>

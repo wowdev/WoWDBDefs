@@ -1,71 +1,71 @@
 COLUMNS
 int ID
-int<FileData::ID> fileDataID
+int<FileData::ID> FileDataID
 int Sound
-float geoBoxMin
-float geoBoxMax
-int<ObjectEffectPackage::ID> objectEffectPackageID
-float overrideLootEffectScale
-float overrideNameScale
-float geoBox
-string modelName
-float geoBoxMinX
-float geoBoxMinY
-float geoBoxMinZ
-float geoBoxMaxX
-float geoBoxMaxY
-float geoBoxMaxZ
+float GeoBoxMin
+float GeoBoxMax
+int<ObjectEffectPackage::ID> ObjectEffectPackageID
+float OverrideLootEffectScale
+float OverrideNameScale
+float GeoBox
+string ModelName
+float GeoBoxMinX
+float GeoBoxMinY
+float GeoBoxMinZ
+float GeoBoxMaxX
+float GeoBoxMaxY
+float GeoBoxMaxZ
 
 BUILD 6.0.1.18179
 $id$ID<32>
-fileDataID<32>
+FileDataID<32>
 Sound<32>[10]
-geoBoxMin[3]
-geoBoxMax[3]
-objectEffectPackageID<32>
-overrideLootEffectScale
-overrideNameScale
+GeoBoxMin[3]
+GeoBoxMax[3]
+ObjectEffectPackageID<32>
+OverrideLootEffectScale
+OverrideNameScale
 
 LAYOUT 9F2098D1
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-fileDataID<32>
-geoBox[6]
-overrideLootEffectScale
-overrideNameScale
-objectEffectPackageID<16>
+FileDataID<32>
+GeoBox[6]
+OverrideLootEffectScale
+OverrideNameScale
+ObjectEffectPackageID<16>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-modelName
+ModelName
 Sound<32>[10]
-geoBoxMinX
-geoBoxMinY
-geoBoxMinZ
-geoBoxMaxX
-geoBoxMaxY
-geoBoxMaxZ
-objectEffectPackageID<32>
+GeoBoxMinX
+GeoBoxMinY
+GeoBoxMinZ
+GeoBoxMaxX
+GeoBoxMaxY
+GeoBoxMaxZ
+ObjectEffectPackageID<32>
 
 BUILD 0.5.3.3368
 $id$ID<32>
-modelName
+ModelName
 Sound<32>[10]
 
 LAYOUT E4251795
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-fileDataID<32>
-overrideLootEffectScale
-overrideNameScale
-geoBox[6]
-objectEffectPackageID<16>
+FileDataID<32>
+OverrideLootEffectScale
+OverrideNameScale
+GeoBox[6]
+ObjectEffectPackageID<16>
 
 LAYOUT 7A816799
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-geoBox[6]
-fileDataID<32>
-objectEffectPackageID<16>
-overrideLootEffectScale
-overrideNameScale
+GeoBox[6]
+FileDataID<32>
+ObjectEffectPackageID<16>
+OverrideLootEffectScale
+OverrideNameScale

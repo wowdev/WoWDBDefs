@@ -1,127 +1,127 @@
 COLUMNS
 int ID?
-int field_85113701?
-int flags?
-float priceRandomValue?
-float priceVariance?
-int field_1945240228?
-int buyPrice?
-int sellPrice?
-int inventoryType?
-int field_514685157?
-int field_2663575155?
-int itemLevel?
-int requiredLevel?
-int field_299203893?
-int field_1264414202?
-int field_2040428939?
-int field_2480618032?
-int field_3302435531?
-int field_257696662?
-int field_2993334035?
-int field_2181026206?
-int field_4289021652?
-int containerSlots?
-int statModifier_bonusStat?
-int field_3202128834?
-int field_2114667447?
-float field_125043488?
-int field_1734823141?
-int field_3291969551?
-int field_2318507122?
-float field_3947227407?
-int field_3550802381?
-string display_lang?
-string display1_lang?
-string display2_lang?
-string display3_lang?
-string description_lang?
-int field_3867816149?
-int field_3256070177?
-int field_428357259?
-int field_416700452?
-int lockID?
-int field_2893859578?
-int field_948348196?
-int field_3728066713?
-int field_1798584895?
-int field_1038156044?
-int field_4071798376?
-int field_4106619565?
-int field_3720651168?
-int field_1611951755?
-int field_2210446709?
-int field_4257717931?
-int field_1103298443?
-float field_2067056911?
-int field_2597940134?
-int field_1689678458?
-int field_3965634150?
-float dmgVariance?
-int field_2466366482?
-int field_1047274353?
-int field_1764876857?
+int Field_85113701?
+int Flags?
+float PriceRandomValue?
+float PriceVariance?
+int Field_1945240228?
+int BuyPrice?
+int SellPrice?
+int InventoryType?
+int Field_514685157?
+int Field_2663575155?
+int ItemLevel?
+int RequiredLevel?
+int Field_299203893?
+int Field_1264414202?
+int Field_2040428939?
+int Field_2480618032?
+int Field_3302435531?
+int Field_257696662?
+int Field_2993334035?
+int Field_2181026206?
+int Field_4289021652?
+int ContainerSlots?
+int StatModifier_bonusStat?
+int Field_3202128834?
+int Field_2114667447?
+float Field_125043488?
+int Field_1734823141?
+int Field_3291969551?
+int Field_2318507122?
+float Field_3947227407?
+int Field_3550802381?
+string Display_lang?
+string Display1_lang?
+string Display2_lang?
+string Display3_lang?
+string Description_lang?
+int Field_3867816149?
+int Field_3256070177?
+int Field_428357259?
+int Field_416700452?
+int LockID?
+int Field_2893859578?
+int Field_948348196?
+int Field_3728066713?
+int Field_1798584895?
+int Field_1038156044?
+int Field_4071798376?
+int Field_4106619565?
+int Field_3720651168?
+int Field_1611951755?
+int Field_2210446709?
+int Field_4257717931?
+int Field_1103298443?
+float Field_2067056911?
+int Field_2597940134?
+int Field_1689678458?
+int Field_3965634150?
+float DmgVariance?
+int Field_2466366482?
+int Field_1047274353?
+int Field_1764876857?
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_85113701<32>
-flags<32>[3]
-priceRandomValue
-priceVariance
-field_1945240228<32>
-buyPrice<32>
-sellPrice<32>
-inventoryType<32>
-field_514685157<32>
-field_2663575155<32>
-itemLevel<32>
-requiredLevel<32>
-field_299203893<32>
-field_1264414202<32>
-field_2040428939<32>
-field_2480618032<32>
-field_3302435531<32>
-field_257696662<32>
-field_2993334035<32>
-field_2181026206<32>
-field_4289021652<32>
-containerSlots<32>
-statModifier_bonusStat<32>[10]
-field_3202128834<32>[10]
-field_2114667447<32>[10]
-field_125043488[10]
-field_1734823141<32>
-field_3291969551<32>
-field_2318507122<32>
-field_3947227407
-field_3550802381<32>
-display_lang
-display1_lang
-display2_lang
-display3_lang
-description_lang
-field_3867816149<32>
-field_3256070177<32>
-field_428357259<32>
-field_416700452<32>
-lockID<32>
-field_2893859578<32>
-field_948348196<32>
-field_3728066713<32>
-field_1798584895<32>
-field_1038156044<32>
-field_4071798376<32>
-field_4106619565<32>
-field_3720651168<32>
-field_1611951755<32>
-field_2210446709<32>[3]
-field_4257717931<32>
-field_1103298443<32>
-field_2067056911
-field_2597940134<32>
-field_1689678458<32>
-field_3965634150<32>
-dmgVariance
-field_2466366482<32>
-field_1047274353<32>
-field_1764876857<32>
+Field_85113701<32>
+Flags<32>[3]
+PriceRandomValue
+PriceVariance
+Field_1945240228<32>
+BuyPrice<32>
+SellPrice<32>
+InventoryType<32>
+Field_514685157<32>
+Field_2663575155<32>
+ItemLevel<32>
+RequiredLevel<32>
+Field_299203893<32>
+Field_1264414202<32>
+Field_2040428939<32>
+Field_2480618032<32>
+Field_3302435531<32>
+Field_257696662<32>
+Field_2993334035<32>
+Field_2181026206<32>
+Field_4289021652<32>
+ContainerSlots<32>
+StatModifier_bonusStat<32>[10]
+Field_3202128834<32>[10]
+Field_2114667447<32>[10]
+Field_125043488[10]
+Field_1734823141<32>
+Field_3291969551<32>
+Field_2318507122<32>
+Field_3947227407
+Field_3550802381<32>
+Display_lang
+Display1_lang
+Display2_lang
+Display3_lang
+Description_lang
+Field_3867816149<32>
+Field_3256070177<32>
+Field_428357259<32>
+Field_416700452<32>
+LockID<32>
+Field_2893859578<32>
+Field_948348196<32>
+Field_3728066713<32>
+Field_1798584895<32>
+Field_1038156044<32>
+Field_4071798376<32>
+Field_4106619565<32>
+Field_3720651168<32>
+Field_1611951755<32>
+Field_2210446709<32>[3]
+Field_4257717931<32>
+Field_1103298443<32>
+Field_2067056911
+Field_2597940134<32>
+Field_1689678458<32>
+Field_3965634150<32>
+DmgVariance
+Field_2466366482<32>
+Field_1047274353<32>
+Field_1764876857<32>

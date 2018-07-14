@@ -1,92 +1,92 @@
 COLUMNS
-int field_3409545797?
-string field_4173975148?
+int Field_3409545797?
+string Field_4173975148?
 int ID
 int AlwaysItem
-int classification
-int creatureFamily
-int creatureType
-int displayID
-float displayProbability
-int mountCreatureID
-locstring name_lang
-locstring nameAlt_lang
-int startAnimState
-locstring title_lang
-locstring titleAlt_lang
+int Classification
+int CreatureFamily
+int CreatureType
+int DisplayID
+float DisplayProbability
+int MountCreatureID
+locstring Name_lang
+locstring NameAlt_lang
+int StartAnimState
+locstring Title_lang
+locstring TitleAlt_lang
 
 BUILD 6.0.1.18179
 $id$ID<32>
-creatureType<32>
+CreatureType<32>
 AlwaysItem<32>[3]
-field_3409545797<32>
-displayID<32>[4]
-displayProbability[4]
-name_lang
-title_lang
-field_4173975148
-classification<32>
-startAnimState<32>
+Field_3409545797<32>
+DisplayID<32>[4]
+DisplayProbability[4]
+Name_lang
+Title_lang
+Field_4173975148
+Classification<32>
+StartAnimState<32>
 
 LAYOUT CFB508A9
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-name_lang
-nameAlt_lang
-title_lang
-titleAlt_lang
+Name_lang
+NameAlt_lang
+Title_lang
+TitleAlt_lang
 AlwaysItem<32>[3]
-mountCreatureID<32>
-displayID<32>[4]
-displayProbability[4]
-creatureType<u8>
-creatureFamily<u8>
-classification<u8>
-startAnimState<u8>
+MountCreatureID<32>
+DisplayID<32>[4]
+DisplayProbability[4]
+CreatureType<u8>
+CreatureFamily<u8>
+Classification<u8>
+StartAnimState<u8>
 
 LAYOUT 2FC7F691
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-name_lang
-nameAlt_lang
-title_lang
-titleAlt_lang
-displayID<32>[4]
-displayProbability[4]
+Name_lang
+NameAlt_lang
+Title_lang
+TitleAlt_lang
+DisplayID<32>[4]
+DisplayProbability[4]
 AlwaysItem<32>[3]
-mountCreatureID<32>
-classification<8>
-creatureType<8>
-creatureFamily<8>
-startAnimState<8>
+MountCreatureID<32>
+Classification<8>
+CreatureType<8>
+CreatureFamily<8>
+StartAnimState<8>
 
 LAYOUT 379FF533, FADCD203
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-name_lang
-nameAlt_lang
-title_lang
-titleAlt_lang
-displayID<32>[4]
-displayProbability[4]
+Name_lang
+NameAlt_lang
+Title_lang
+TitleAlt_lang
+DisplayID<32>[4]
+DisplayProbability[4]
 AlwaysItem<32>[3]
-mountCreatureID<32>
-creatureFamily<16>
-classification<8>
-creatureType<8>
-startAnimState<8>
+MountCreatureID<32>
+CreatureFamily<16>
+Classification<8>
+CreatureType<8>
+StartAnimState<8>
 
 LAYOUT 0D492BF3
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-name_lang
-nameAlt_lang
-title_lang
-titleAlt_lang
-classification<8>
-creatureType<u8>
-creatureFamily<u16>
-startAnimState<u8>
-displayID<32>[4]
-displayProbability[4]
+Name_lang
+NameAlt_lang
+Title_lang
+TitleAlt_lang
+Classification<8>
+CreatureType<u8>
+CreatureFamily<u16>
+StartAnimState<u8>
+DisplayID<32>[4]
+DisplayProbability[4]
 AlwaysItem<32>[3]

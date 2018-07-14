@@ -1,49 +1,49 @@
 COLUMNS
 int ID
-int flags
-int garrTypeID
-int itemLevelRangeBias
-int levelRangeBias
-int maxFollowerBuildingType
-int maxFollowers
-int maxItemLevel
-int field_1982891526
-int field_1988200429
-int field_694755532
-int field_1987237371
-int field_698166559
-int field_1746070754
-int field_1184893877
+int Flags
+int GarrTypeID
+int ItemLevelRangeBias
+int LevelRangeBias
+int MaxFollowerBuildingType
+int MaxFollowers
+int MaxItemLevel
+int Field_1982891526
+int Field_1988200429
+int Field_694755532
+int Field_1987237371
+int Field_698166559
+int Field_1746070754
+int Field_1184893877
 
 LAYOUT D676FBC0
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-maxItemLevel<u16>
-maxFollowers<u8>
-maxFollowerBuildingType<u8>
-garrTypeID<u8>
-levelRangeBias<u8>
-itemLevelRangeBias<u8>
-flags<u8>
+MaxItemLevel<u16>
+MaxFollowers<u8>
+MaxFollowerBuildingType<u8>
+GarrTypeID<u8>
+LevelRangeBias<u8>
+ItemLevelRangeBias<u8>
+Flags<u8>
 
 LAYOUT 656DB172
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-maxItemLevel<16>
-garrTypeID<8>
-maxFollowers<8>
-maxFollowerBuildingType<8>
-levelRangeBias<8>
-itemLevelRangeBias<8>
-flags<8>
+MaxItemLevel<16>
+GarrTypeID<8>
+MaxFollowers<8>
+MaxFollowerBuildingType<8>
+LevelRangeBias<8>
+ItemLevelRangeBias<8>
+Flags<8>
 
 LAYOUT B4B34EF0
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1982891526<u8>
-field_1988200429<u8>
-field_694755532<u8>
-field_1987237371<u16>
-field_698166559<u8>
-field_1746070754<u8>
-field_1184893877<u8>
+Field_1982891526<u8>
+Field_1988200429<u8>
+Field_694755532<u8>
+Field_1987237371<u16>
+Field_698166559<u8>
+Field_1746070754<u8>
+Field_1184893877<u8>

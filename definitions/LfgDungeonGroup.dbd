@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-locstring name_lang
-int order_index
-int parent_group_ID
-int typeID
+locstring Name_lang
+int Order_index
+int Parent_group_ID
+int TypeID
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
-name_lang
-order_index<32>
-parent_group_ID<32>
-typeID<32>
+Name_lang
+Order_index<32>
+Parent_group_ID<32>
+TypeID<32>

@@ -1,96 +1,96 @@
 COLUMNS
 int ID
-int bonusActionBar
-locstring name_lang
-int flags
-int creatureType
-int attackIconID
-int combatRoundTime
-int creatureDisplayID
-int presetSpellID
-int mountTypeID
-int exitSoundEntriesID
-int attackIconFileID
-float damageVariance
-locstring field_911356844_lang
-int field_1096288927
-int field_239600990
-int field_970156193
-int field_1524677815
-int field_100563675
-float field_683652071
-int field_715036656
-int field_788622153
-int field_987733738
+int BonusActionBar
+locstring Name_lang
+int Flags
+int CreatureType
+int AttackIconID
+int CombatRoundTime
+int CreatureDisplayID
+int PresetSpellID
+int MountTypeID
+int ExitSoundEntriesID
+int AttackIconFileID
+float DamageVariance
+locstring Field_911356844_lang
+int Field_1096288927
+int Field_239600990
+int Field_970156193
+int Field_1524677815
+int Field_100563675
+float Field_683652071
+int Field_715036656
+int Field_788622153
+int Field_987733738
 
 BUILD 6.0.1.18179
 $id$ID<32>
-bonusActionBar<32>
-name_lang
-flags<32>
-creatureType<32>
-attackIconID<32>
-combatRoundTime<32>
-creatureDisplayID<32>[4]
-presetSpellID<32>[8]
-mountTypeID<32>
-exitSoundEntriesID<32>
+BonusActionBar<32>
+Name_lang
+Flags<32>
+CreatureType<32>
+AttackIconID<32>
+CombatRoundTime<32>
+CreatureDisplayID<32>[4]
+PresetSpellID<32>[8]
+MountTypeID<32>
+ExitSoundEntriesID<32>
 
 LAYOUT 130819AF
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-name_lang
-damageVariance
-flags<32>
-combatRoundTime<16>
-mountTypeID<u16>
-creatureType<8>
-bonusActionBar<8>
-attackIconFileID<32>
-creatureDisplayID<u32>[4]
-presetSpellID<u32>[8]
+Name_lang
+DamageVariance
+Flags<32>
+CombatRoundTime<16>
+MountTypeID<u16>
+CreatureType<8>
+BonusActionBar<8>
+AttackIconFileID<32>
+CreatureDisplayID<u32>[4]
+PresetSpellID<u32>[8]
 
 BUILD 4.0.0.11792
 $id$ID<32>
-bonusActionBar<32>
-name_lang
-flags<32>
-creatureType<32>
-attackIconID<32>
-combatRoundTime<32>
-creatureDisplayID<32>[4]
-presetSpellID<32>[8]
+BonusActionBar<32>
+Name_lang
+Flags<32>
+CreatureType<32>
+AttackIconID<32>
+CombatRoundTime<32>
+CreatureDisplayID<32>[4]
+PresetSpellID<32>[8]
 
 BUILD 0.5.3.3368
 $id$ID<32>
-bonusActionBar<32>
-name_lang
-flags<32>
+BonusActionBar<32>
+Name_lang
+Flags<32>
 
 LAYOUT 177786C6
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-name_lang
-flags<32>
-damageVariance
-combatRoundTime<16>
-mountTypeID<16>
-creatureType<8>
-bonusActionBar<8>
-attackIconFileID<32>
-creatureDisplayID<32>[4]
-presetSpellID<32>[8]
+Name_lang
+Flags<32>
+DamageVariance
+CombatRoundTime<16>
+MountTypeID<16>
+CreatureType<8>
+BonusActionBar<8>
+AttackIconFileID<32>
+CreatureDisplayID<32>[4]
+PresetSpellID<32>[8]
 
 LAYOUT 7082136E
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_911356844_lang
-field_1096288927<8>
-field_239600990<32>
-field_970156193<32>
-field_1524677815<8>
-field_100563675<16>
-field_683652071
-field_715036656<u16>
-field_788622153<u32>[4]
-field_987733738<u32>[8]
+Field_911356844_lang
+Field_1096288927<8>
+Field_239600990<32>
+Field_970156193<32>
+Field_1524677815<8>
+Field_100563675<16>
+Field_683652071
+Field_715036656<u16>
+Field_788622153<u32>[4]
+Field_987733738<u32>[8]

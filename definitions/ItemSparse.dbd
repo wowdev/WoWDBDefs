@@ -1,341 +1,341 @@
 COLUMNS
 int ID
-int allowableClass
-int allowableRace
-int artifactID
-int bagFamily
-int bonding
-int buyPrice
-int containerSlots
-int damage_damageType
-locstring description_lang
-locstring display_lang
-locstring display1_lang
-locstring display2_lang
-locstring display3_lang
-float dmgVariance
-int durationInInventory
-int expansionID
-int flags
-int gem_properties
-int instanceBound
-int inventoryType
-int itemDelay
-int itemLevel
-int itemNameDescriptionID
-int itemRandomSuffixGroupID
-float itemRange
-int itemSet
-int languageID
-int limitCategory
-int lockID
-int material
-int maxCount
-int minFactionID
-int minReputation
-int overallQualityID
-int pageID
-int pageMaterialID
-float priceRandomValue
-float priceVariance
-float qualityModifier
-int randomSelect
-int requiredAbility
-int requiredHoliday
-int requiredLevel
-int requiredPVPMedal
-int requiredPVPRank
-int requiredSkill
-int requiredSkillRank
-int requiredTransmogHoliday
-int scalingStatDistributionID
-int sellPrice
-int sheatheType
-int socketType
-int socket_match_enchantment_ID
-int spellWeight
-int spellWeightCategory
-int stackable
-int startQuestID
-int statModifier_bonusStat
-int statPercentEditor
-float statPercentageOfSocket
-int totemCategoryID
-int vendorStackCount
-int zoneBound
-int oppositeFactionItemID?
-int field_1177770545
+int AllowableClass
+int AllowableRace
+int ArtifactID
+int BagFamily
+int Bonding
+int BuyPrice
+int ContainerSlots
+int Damage_damageType
+locstring Description_lang
+locstring Display_lang
+locstring Display1_lang
+locstring Display2_lang
+locstring Display3_lang
+float DmgVariance
+int DurationInInventory
+int ExpansionID
+int Flags
+int Gem_properties
+int InstanceBound
+int InventoryType
+int ItemDelay
+int ItemLevel
+int ItemNameDescriptionID
+int ItemRandomSuffixGroupID
+float ItemRange
+int ItemSet
+int LanguageID
+int LimitCategory
+int LockID
+int Material
+int MaxCount
+int MinFactionID
+int MinReputation
+int OverallQualityID
+int PageID
+int PageMaterialID
+float PriceRandomValue
+float PriceVariance
+float QualityModifier
+int RandomSelect
+int RequiredAbility
+int RequiredHoliday
+int RequiredLevel
+int RequiredPVPMedal
+int RequiredPVPRank
+int RequiredSkill
+int RequiredSkillRank
+int RequiredTransmogHoliday
+int ScalingStatDistributionID
+int SellPrice
+int SheatheType
+int SocketType
+int Socket_match_enchantment_ID
+int SpellWeight
+int SpellWeightCategory
+int Stackable
+int StartQuestID
+int StatModifier_bonusStat
+int StatPercentEditor
+float StatPercentageOfSocket
+int TotemCategoryID
+int VendorStackCount
+int ZoneBound
+int OppositeFactionItemID?
+int Field_1177770545
 
 LAYOUT 350149D8
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 COMMENT table is sparse
 $noninline,id$ID<32>
-allowableRace<64>
-display_lang
-display1_lang
-display2_lang
-display3_lang
-description_lang
-flags<32>[4]
-priceRandomValue
-priceVariance
-vendorStackCount<32>
-buyPrice<32>
-sellPrice<32>
-requiredAbility<32>
-maxCount<32>
-stackable<32>
-statPercentEditor<32>[10]
-statPercentageOfSocket[10]
-itemRange
-bagFamily<32>
-qualityModifier
-durationInInventory<32>
-dmgVariance
-allowableClass<16>
-itemLevel<16>
-requiredSkill<16>
-requiredSkillRank<16>
-minFactionID<16>
-scalingStatDistributionID<16>
-itemDelay<16>
-pageID<16>
-startQuestID<16>
-lockID<16>
-randomSelect<16>
-itemRandomSuffixGroupID<16>
-itemSet<16>
-zoneBound<16>
-instanceBound<16>
-totemCategoryID<16>
-socket_match_enchantment_ID<16>
-gem_properties<16>
-limitCategory<16>
-requiredHoliday<16>
-requiredTransmogHoliday<16>
-itemNameDescriptionID<16>
-overallQualityID<8>
-inventoryType<8>
-requiredLevel<8>
-requiredPVPRank<8>
-requiredPVPMedal<8>
-minReputation<8>
-containerSlots<8>
-statModifier_bonusStat<8>[10]
-damage_damageType<8>
-bonding<8>
-languageID<8>
-pageMaterialID<8>
-material<8>
-sheatheType<8>
-socketType<8>[3]
-spellWeightCategory<8>
-spellWeight<8>
-artifactID<8>
-expansionID<8>
+AllowableRace<64>
+Display_lang
+Display1_lang
+Display2_lang
+Display3_lang
+Description_lang
+Flags<32>[4]
+PriceRandomValue
+PriceVariance
+VendorStackCount<32>
+BuyPrice<32>
+SellPrice<32>
+RequiredAbility<32>
+MaxCount<32>
+Stackable<32>
+StatPercentEditor<32>[10]
+StatPercentageOfSocket[10]
+ItemRange
+BagFamily<32>
+QualityModifier
+DurationInInventory<32>
+DmgVariance
+AllowableClass<16>
+ItemLevel<16>
+RequiredSkill<16>
+RequiredSkillRank<16>
+MinFactionID<16>
+ScalingStatDistributionID<16>
+ItemDelay<16>
+PageID<16>
+StartQuestID<16>
+LockID<16>
+RandomSelect<16>
+ItemRandomSuffixGroupID<16>
+ItemSet<16>
+ZoneBound<16>
+InstanceBound<16>
+TotemCategoryID<16>
+Socket_match_enchantment_ID<16>
+Gem_properties<16>
+LimitCategory<16>
+RequiredHoliday<16>
+RequiredTransmogHoliday<16>
+ItemNameDescriptionID<16>
+OverallQualityID<8>
+InventoryType<8>
+RequiredLevel<8>
+RequiredPVPRank<8>
+RequiredPVPMedal<8>
+MinReputation<8>
+ContainerSlots<8>
+StatModifier_bonusStat<8>[10]
+Damage_damageType<8>
+Bonding<8>
+LanguageID<8>
+PageMaterialID<8>
+Material<8>
+SheatheType<8>
+SocketType<8>[3]
+SpellWeightCategory<8>
+SpellWeight<8>
+ArtifactID<8>
+ExpansionID<8>
 
 LAYOUT CDD13D2C
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683
 COMMENT table is sparse
 $noninline,id$ID<32>
-allowableRace<64>
-description_lang
-display3_lang
-display2_lang
-display1_lang
-display_lang
-dmgVariance
-durationInInventory<32>
-qualityModifier
-bagFamily<32>
-itemRange
-statPercentageOfSocket[10]
-statPercentEditor<32>[10]
-stackable<32>
-maxCount<32>
-requiredAbility<32>
-sellPrice<32>
-buyPrice<32>
-vendorStackCount<32>
-priceVariance
-priceRandomValue
-flags<32>[4]
-itemNameDescriptionID<16>
-requiredTransmogHoliday<16>
-requiredHoliday<16>
-limitCategory<16>
-gem_properties<16>
-socket_match_enchantment_ID<16>
-totemCategoryID<16>
-instanceBound<16>
-zoneBound<16>
-itemSet<16>
-itemRandomSuffixGroupID<16>
-randomSelect<16>
-lockID<16>
-startQuestID<16>
-pageID<16>
-itemDelay<16>
-scalingStatDistributionID<16>
-minFactionID<16>
-requiredSkillRank<16>
-requiredSkill<16>
-itemLevel<16>
-allowableClass<16>
-expansionID<8>
-artifactID<8>
-spellWeight<8>
-spellWeightCategory<8>
-socketType<8>[3]
-sheatheType<8>
-material<8>
-pageMaterialID<8>
-languageID<8>
-bonding<8>
-damage_damageType<8>
-statModifier_bonusStat<8>[10]
-containerSlots<8>
-minReputation<8>
-requiredPVPMedal<8>
-requiredPVPRank<8>
-requiredLevel<8>
-inventoryType<8>
-overallQualityID<8>
+AllowableRace<64>
+Description_lang
+Display3_lang
+Display2_lang
+Display1_lang
+Display_lang
+DmgVariance
+DurationInInventory<32>
+QualityModifier
+BagFamily<32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
+RequiredAbility<32>
+SellPrice<32>
+BuyPrice<32>
+VendorStackCount<32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
+ItemNameDescriptionID<16>
+RequiredTransmogHoliday<16>
+RequiredHoliday<16>
+LimitCategory<16>
+Gem_properties<16>
+Socket_match_enchantment_ID<16>
+TotemCategoryID<16>
+InstanceBound<16>
+ZoneBound<16>
+ItemSet<16>
+ItemRandomSuffixGroupID<16>
+RandomSelect<16>
+LockID<16>
+StartQuestID<16>
+PageID<16>
+ItemDelay<16>
+ScalingStatDistributionID<16>
+MinFactionID<16>
+RequiredSkillRank<16>
+RequiredSkill<16>
+ItemLevel<16>
+AllowableClass<16>
+ExpansionID<8>
+ArtifactID<8>
+SpellWeight<8>
+SpellWeightCategory<8>
+SocketType<8>[3]
+SheatheType<8>
+Material<8>
+PageMaterialID<8>
+LanguageID<8>
+Bonding<8>
+Damage_damageType<8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<8>
+MinReputation<8>
+RequiredPVPMedal<8>
+RequiredPVPRank<8>
+RequiredLevel<8>
+InventoryType<8>
+OverallQualityID<8>
 
 LAYOUT F9021F01
 BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 COMMENT table is sparse
 $noninline,id$ID<32>
-allowableRace<64>
-description_lang
-display3_lang
-display2_lang
-display1_lang
-display_lang
-dmgVariance
-durationInInventory<u32>
-qualityModifier
-bagFamily<u32>
-itemRange
-statPercentageOfSocket[10]
-statPercentEditor<32>[10]
-stackable<32>
-maxCount<32>
-requiredAbility<u32>
-sellPrice<u32>
-buyPrice<u32>
-vendorStackCount<u32>
-priceVariance
-priceRandomValue
-flags<32>[4]
-oppositeFactionItemID<32>
-itemNameDescriptionID<u16>
-requiredTransmogHoliday<u16>
-requiredHoliday<u16>
-limitCategory<u16>
-gem_properties<u16>
-socket_match_enchantment_ID<u16>
-totemCategoryID<u16>
-instanceBound<u16>
-zoneBound<u16>
-itemSet<u16>
-itemRandomSuffixGroupID<u16>
-randomSelect<u16>
-lockID<u16>
-startQuestID<u16>
-pageID<u16>
-itemDelay<u16>
-scalingStatDistributionID<u16>
-minFactionID<u16>
-requiredSkillRank<u16>
-requiredSkill<u16>
-itemLevel<u16>
-allowableClass<16>
-expansionID<u8>
-artifactID<u8>
-spellWeight<u8>
-spellWeightCategory<u8>
-socketType<u8>[3]
-sheatheType<u8>
-material<u8>
-pageMaterialID<u8>
-languageID<u8>
-bonding<u8>
-damage_damageType<u8>
-statModifier_bonusStat<8>[10]
-containerSlots<u8>
-minReputation<u8>
-requiredPVPMedal<u8>
-requiredPVPRank<u8>
-requiredLevel<8>
-inventoryType<u8>
-overallQualityID<u8>
+AllowableRace<64>
+Description_lang
+Display3_lang
+Display2_lang
+Display1_lang
+Display_lang
+DmgVariance
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
+RequiredAbility<u32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
+OppositeFactionItemID<32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+LimitCategory<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>
+ItemSet<u16>
+ItemRandomSuffixGroupID<u16>
+RandomSelect<u16>
+LockID<u16>
+StartQuestID<u16>
+PageID<u16>
+ItemDelay<u16>
+ScalingStatDistributionID<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ExpansionID<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+Damage_damageType<u8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<u8>
+MinReputation<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+RequiredLevel<8>
+InventoryType<u8>
+OverallQualityID<u8>
 
 LAYOUT 4007DE16
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
 COMMENT table is sparse
 $noninline,id$ID<32>
-allowableRace<64>
-display_lang
-display1_lang
-display2_lang
-display3_lang
-description_lang
-flags<32>[4]
-priceRandomValue
-priceVariance
-vendorStackCount<u32>
-buyPrice<u32>
-sellPrice<u32>
-requiredAbility<u32>
-maxCount<32>
-stackable<32>
-statPercentEditor<32>[10]
-statPercentageOfSocket[10]
-itemRange
-bagFamily<u32>
-qualityModifier
-durationInInventory<u32>
-dmgVariance
-allowableClass<16>
-itemLevel<u16>
-requiredSkill<u16>
-requiredSkillRank<u16>
-minFactionID<u16>
-field_1177770545<16>[10]
-scalingStatDistributionID<u16>
-itemDelay<u16>
-pageID<u16>
-startQuestID<u16>
-lockID<u16>
-randomSelect<u16>
-itemRandomSuffixGroupID<u16>
-itemSet<u16>
-zoneBound<u16>
-instanceBound<u16>
-totemCategoryID<u16>
-socket_match_enchantment_ID<u16>
-gem_properties<u16>
-limitCategory<u16>
-requiredHoliday<u16>
-requiredTransmogHoliday<u16>
-itemNameDescriptionID<u16>
-overallQualityID<u8>
-inventoryType<u8>
-requiredLevel<8>
-requiredPVPRank<u8>
-requiredPVPMedal<u8>
-minReputation<u8>
-containerSlots<u8>
-statModifier_bonusStat<8>[10]
-damage_damageType<u8>
-bonding<u8>
-languageID<u8>
-pageMaterialID<u8>
-material<u8>
-sheatheType<u8>
-socketType<u8>[3]
-spellWeightCategory<u8>
-spellWeight<u8>
-artifactID<u8>
-expansionID<u8>
+AllowableRace<64>
+Display_lang
+Display1_lang
+Display2_lang
+Display3_lang
+Description_lang
+Flags<32>[4]
+PriceRandomValue
+PriceVariance
+VendorStackCount<u32>
+BuyPrice<u32>
+SellPrice<u32>
+RequiredAbility<u32>
+MaxCount<32>
+Stackable<32>
+StatPercentEditor<32>[10]
+StatPercentageOfSocket[10]
+ItemRange
+BagFamily<u32>
+QualityModifier
+DurationInInventory<u32>
+DmgVariance
+AllowableClass<16>
+ItemLevel<u16>
+RequiredSkill<u16>
+RequiredSkillRank<u16>
+MinFactionID<u16>
+Field_1177770545<16>[10]
+ScalingStatDistributionID<u16>
+ItemDelay<u16>
+PageID<u16>
+StartQuestID<u16>
+LockID<u16>
+RandomSelect<u16>
+ItemRandomSuffixGroupID<u16>
+ItemSet<u16>
+ZoneBound<u16>
+InstanceBound<u16>
+TotemCategoryID<u16>
+Socket_match_enchantment_ID<u16>
+Gem_properties<u16>
+LimitCategory<u16>
+RequiredHoliday<u16>
+RequiredTransmogHoliday<u16>
+ItemNameDescriptionID<u16>
+OverallQualityID<u8>
+InventoryType<u8>
+RequiredLevel<8>
+RequiredPVPRank<u8>
+RequiredPVPMedal<u8>
+MinReputation<u8>
+ContainerSlots<u8>
+StatModifier_bonusStat<8>[10]
+Damage_damageType<u8>
+Bonding<u8>
+LanguageID<u8>
+PageMaterialID<u8>
+Material<u8>
+SheatheType<u8>
+SocketType<u8>[3]
+SpellWeightCategory<u8>
+SpellWeight<u8>
+ArtifactID<u8>
+ExpansionID<u8>

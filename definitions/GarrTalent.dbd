@@ -1,90 +1,90 @@
 COLUMNS
 int ID
-locstring description_lang
-int flags
-int garrAbilityID
-int garrTalentTreeID
-int iconFileDataID
-locstring name_lang
-int perkPlayerConditionID
-int perkSpellID
-int playerConditionID
-int researchCost
-int researchCostCurrencyTypesID
-int researchDurationSecs
-int researchGoldCost
-int respecCost
-int respecCostCurrencyTypesID
-int respecDurationSecs
-int respecGoldCost
-int tier
-int uiOrder
+locstring Description_lang
+int Flags
+int GarrAbilityID
+int GarrTalentTreeID
+int IconFileDataID
+locstring Name_lang
+int PerkPlayerConditionID
+int PerkSpellID
+int PlayerConditionID
+int ResearchCost
+int ResearchCostCurrencyTypesID
+int ResearchDurationSecs
+int ResearchGoldCost
+int RespecCost
+int RespecCostCurrencyTypesID
+int RespecDurationSecs
+int RespecGoldCost
+int Tier
+int UiOrder
 
 LAYOUT 53D5FD16
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-name_lang
-description_lang
-iconFileDataID<32>
-researchDurationSecs<32>
-tier<8>
-uiOrder<8>
-flags<8>
+Name_lang
+Description_lang
+IconFileDataID<32>
+ResearchDurationSecs<32>
+Tier<8>
+UiOrder<8>
+Flags<8>
 $id$ID<32>
-$relation$garrTalentTreeID<u32>
-garrAbilityID<u32>
-playerConditionID<u32>
-researchCost<32>
-researchCostCurrencyTypesID<u32>
-researchGoldCost<32>
-perkSpellID<u32>
-perkPlayerConditionID<u32>
-respecCost<32>
-respecCostCurrencyTypesID<u32>
-respecDurationSecs<32>
-respecGoldCost<32>
+$relation$GarrTalentTreeID<u32>
+GarrAbilityID<u32>
+PlayerConditionID<u32>
+ResearchCost<32>
+ResearchCostCurrencyTypesID<u32>
+ResearchGoldCost<32>
+PerkSpellID<u32>
+PerkPlayerConditionID<u32>
+RespecCost<32>
+RespecCostCurrencyTypesID<u32>
+RespecDurationSecs<32>
+RespecGoldCost<32>
 
 LAYOUT F4497320
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-name_lang
-description_lang
-iconFileDataID<32>
-researchDurationSecs<32>
-tier<8>
-uiOrder<8>
-flags<8>
+Name_lang
+Description_lang
+IconFileDataID<32>
+ResearchDurationSecs<32>
+Tier<8>
+UiOrder<8>
+Flags<8>
 $id$ID<32>
-$relation$garrTalentTreeID<32>
-playerConditionID<32>
-garrAbilityID<32>
-perkSpellID<32>
-perkPlayerConditionID<32>
-researchGoldCost<32>
-researchCost<32>
-researchCostCurrencyTypesID<32>
-respecDurationSecs<32>
-respecGoldCost<32>
-respecCost<32>
-respecCostCurrencyTypesID<32>
+$relation$GarrTalentTreeID<32>
+PlayerConditionID<32>
+GarrAbilityID<32>
+PerkSpellID<32>
+PerkPlayerConditionID<32>
+ResearchGoldCost<32>
+ResearchCost<32>
+ResearchCostCurrencyTypesID<32>
+RespecDurationSecs<32>
+RespecGoldCost<32>
+RespecCost<32>
+RespecCostCurrencyTypesID<32>
 
 LAYOUT 96BE787E
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-name_lang
-description_lang
+Name_lang
+Description_lang
 $id$ID<32>
-$relation$garrTalentTreeID<u32>
-tier<8>
-uiOrder<8>
-iconFileDataID<32>
-playerConditionID<u32>
-garrAbilityID<u32>
-perkSpellID<u32>
-perkPlayerConditionID<u32>
-researchDurationSecs<32>
-researchGoldCost<32>
-researchCost<32>
-researchCostCurrencyTypesID<u32>
-respecDurationSecs<32>
-respecGoldCost<32>
-respecCost<32>
-respecCostCurrencyTypesID<u32>
-flags<8>
+$relation$GarrTalentTreeID<u32>
+Tier<8>
+UiOrder<8>
+IconFileDataID<32>
+PlayerConditionID<u32>
+GarrAbilityID<u32>
+PerkSpellID<u32>
+PerkPlayerConditionID<u32>
+ResearchDurationSecs<32>
+ResearchGoldCost<32>
+ResearchCost<32>
+ResearchCostCurrencyTypesID<u32>
+RespecDurationSecs<32>
+RespecGoldCost<32>
+RespecCost<32>
+RespecCostCurrencyTypesID<u32>
+Flags<8>

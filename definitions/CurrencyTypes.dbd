@@ -1,94 +1,94 @@
 COLUMNS
 int ID
-int<CurrencyCategory::ID> categoryID
-locstring name_lang
-string inventoryIcon
-int spellWeight
-int spellCategory
-int maxQty
-int maxEarnablePerWeek
-int flags
-int quality
-locstring description_lang
-int inventoryIconFileID
-int itemID
-int bitIndex
-int field_874371232
-int field_112097594
-int field_2020783315
-int field_997197214
-int field_454073460
-int field_1322901458
-int field_321503036
-int field_958034873
-int field_1430767211
-int field_526815784
-int field_166718714
-int field_1582123975
-int field_851108977
-int field_784385737
-int field_2124686595
-int field_1937613511
-int field_1560101015
+int<CurrencyCategory::ID> CategoryID
+locstring Name_lang
+string InventoryIcon
+int SpellWeight
+int SpellCategory
+int MaxQty
+int MaxEarnablePerWeek
+int Flags
+int Quality
+locstring Description_lang
+int InventoryIconFileID
+int ItemID
+int BitIndex
+int Field_874371232
+int Field_112097594
+int Field_2020783315
+int Field_997197214
+int Field_454073460
+int Field_1322901458
+int Field_321503036
+int Field_958034873
+int Field_1430767211
+int Field_526815784
+int Field_166718714
+int Field_1582123975
+int Field_851108977
+int Field_784385737
+int Field_2124686595
+int Field_1937613511
+int Field_1560101015
 
 BUILD 6.0.1.18179
 $id$ID<32>
-categoryID<32>
-name_lang
-inventoryIcon[2]
-spellWeight<32>
-spellCategory<32>
-maxQty<32>
-maxEarnablePerWeek<32>
-flags<32>
-quality<32>
-description_lang
+CategoryID<32>
+Name_lang
+InventoryIcon[2]
+SpellWeight<32>
+SpellCategory<32>
+MaxQty<32>
+MaxEarnablePerWeek<32>
+Flags<32>
+Quality<32>
+Description_lang
 
 LAYOUT 6CC25CBF, 261E0A50
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-name_lang
-description_lang
-maxQty<u32>
-maxEarnablePerWeek<u32>
-flags<u32>
-categoryID<u8>
-spellCategory<u8>
-quality<u8>
-inventoryIconFileID<32>
-spellWeight<u32>
+Name_lang
+Description_lang
+MaxQty<u32>
+MaxEarnablePerWeek<u32>
+Flags<u32>
+CategoryID<u8>
+SpellCategory<u8>
+Quality<u8>
+InventoryIconFileID<32>
+SpellWeight<u32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-itemID<32>
-categoryID<32>
-bitIndex<32>
+ItemID<32>
+CategoryID<32>
+BitIndex<32>
 
 LAYOUT 77A6C524
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949
 $noninline,id$ID<32>
-name_lang
-description_lang
-field_874371232<u8>
-field_112097594<32>
-field_2020783315<u32>
-field_997197214<u8>
-field_454073460<u32>
-field_1322901458<u32>
-field_321503036<u32>
-field_958034873<8>
+Name_lang
+Description_lang
+Field_874371232<u8>
+Field_112097594<32>
+Field_2020783315<u32>
+Field_997197214<u8>
+Field_454073460<u32>
+Field_1322901458<u32>
+Field_321503036<u32>
+Field_958034873<8>
 
 LAYOUT 998F0AAA
 BUILD 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-name_lang
-description_lang
-field_1430767211<u8>
-field_526815784<32>
-field_166718714<u32>
-field_1582123975<u8>
-field_851108977<u32>
-field_784385737<u32>
-field_2124686595<u32>
-field_1937613511<8>
-field_1560101015<32>
+Name_lang
+Description_lang
+Field_1430767211<u8>
+Field_526815784<32>
+Field_166718714<u32>
+Field_1582123975<u8>
+Field_851108977<u32>
+Field_784385737<u32>
+Field_2124686595<u32>
+Field_1937613511<8>
+Field_1560101015<32>

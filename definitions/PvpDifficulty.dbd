@@ -1,22 +1,22 @@
 COLUMNS
 int ID
-int mapID
-int rangeIndex
-int minLevel
-int maxLevel
-int difficulty
+int MapID
+int RangeIndex
+int MinLevel
+int MaxLevel
+int Difficulty
 
 BUILD 6.0.1.18179
 $id$ID<32>
-mapID<32>
-rangeIndex<32>
-minLevel<32>
-maxLevel<32>
+MapID<32>
+RangeIndex<32>
+MinLevel<32>
+MaxLevel<32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-mapID<32>
-rangeIndex<32>
-minLevel<32>
-maxLevel<32>
-difficulty<32>
+MapID<32>
+RangeIndex<32>
+MinLevel<32>
+MaxLevel<32>
+Difficulty<32>

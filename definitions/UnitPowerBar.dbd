@@ -1,93 +1,93 @@
 COLUMNS
 int ID
-int minPower
-int maxPower
-int startPower
-int centerPower
-float regenerationPeace
-float regenerationCombat
-int barType
-int<FileData::ID> fileDataID
-int color
-int flags
-locstring name_lang
-locstring cost_lang
-locstring outOfError_lang
-locstring toolTip_lang
-float startInset
-float endInset
-locstring field_695026553_lang
-locstring field_756181686_lang
-locstring field_360857060_lang
-locstring field_241183899_lang
-int field_473790105
-int field_1279902483
-int field_1048814958
-int field_909583545
-float field_350676074
-float field_1820794992
-int field_307315588
-int field_692441626
-float field_1205798464
-float field_023113440
-int field_811470203
-int field_1567866213
+int MinPower
+int MaxPower
+int StartPower
+int CenterPower
+float RegenerationPeace
+float RegenerationCombat
+int BarType
+int<FileData::ID> FileDataID
+int Color
+int Flags
+locstring Name_lang
+locstring Cost_lang
+locstring OutOfError_lang
+locstring ToolTip_lang
+float StartInset
+float EndInset
+locstring Field_695026553_lang
+locstring Field_756181686_lang
+locstring Field_360857060_lang
+locstring Field_241183899_lang
+int Field_473790105
+int Field_1279902483
+int Field_1048814958
+int Field_909583545
+float Field_350676074
+float Field_1820794992
+int Field_307315588
+int Field_692441626
+float Field_1205798464
+float Field_023113440
+int Field_811470203
+int Field_1567866213
 
 BUILD 6.0.1.18179
 $id$ID<32>
-minPower<32>
-maxPower<32>
-startPower<32>
-centerPower<32>
-regenerationPeace
-regenerationCombat
-barType<32>
-fileDataID<32>[6]
-color<32>[6]
-flags<32>
-name_lang
-cost_lang
-outOfError_lang
-toolTip_lang
-startInset
-endInset
+MinPower<32>
+MaxPower<32>
+StartPower<32>
+CenterPower<32>
+RegenerationPeace
+RegenerationCombat
+BarType<32>
+FileDataID<32>[6]
+Color<32>[6]
+Flags<32>
+Name_lang
+Cost_lang
+OutOfError_lang
+ToolTip_lang
+StartInset
+EndInset
 
 LAYOUT 626C94CD, 5B12106B
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-name_lang
-cost_lang
-outOfError_lang
-toolTip_lang
-regenerationPeace
-regenerationCombat
-fileDataID<32>[6]
-color<32>[6]
-startInset
-endInset
-startPower<u16>
-flags<u16>
-centerPower<u8>
-barType<u8>
-minPower<u32>
-maxPower<u32>
+Name_lang
+Cost_lang
+OutOfError_lang
+ToolTip_lang
+RegenerationPeace
+RegenerationCombat
+FileDataID<32>[6]
+Color<32>[6]
+StartInset
+EndInset
+StartPower<u16>
+Flags<u16>
+CenterPower<u8>
+BarType<u8>
+MinPower<u32>
+MaxPower<u32>
 
 LAYOUT 2640852D
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_695026553_lang
-field_756181686_lang
-field_360857060_lang
-field_241183899_lang
-field_473790105<u32>
-field_1279902483<u32>
-field_1048814958<u16>
-field_909583545<u8>
-field_350676074
-field_1820794992
-field_307315588<u8>
-field_692441626<u16>
-field_1205798464
-field_023113440
-field_811470203<32>[6]
-field_1567866213<32>[6]
+Field_695026553_lang
+Field_756181686_lang
+Field_360857060_lang
+Field_241183899_lang
+Field_473790105<u32>
+Field_1279902483<u32>
+Field_1048814958<u16>
+Field_909583545<u8>
+Field_350676074
+Field_1820794992
+Field_307315588<u8>
+Field_692441626<u16>
+Field_1205798464
+Field_023113440
+Field_811470203<32>[6]
+Field_1567866213<32>[6]

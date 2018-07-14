@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-int<ChrClasses::ID> classID
-int<ChrRaces::ID> raceID
-int sexID
-int leftHandItemType
-int rightHandItemType
-int<AnimKit::ID> animKitID
-int<SpellVisualKit::ID> spellVisualKitID
+int<ChrClasses::ID> ClassID
+int<ChrRaces::ID> RaceID
+int SexID
+int LeftHandItemType
+int RightHandItemType
+int<AnimKit::ID> AnimKitID
+int<SpellVisualKit::ID> SpellVisualKitID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-classID<32>
-raceID<32>
-sexID<32>
-leftHandItemType<32>
-rightHandItemType<32>
-animKitID<32>
-spellVisualKitID<32>
+ClassID<32>
+RaceID<32>
+SexID<32>
+LeftHandItemType<32>
+RightHandItemType<32>
+AnimKitID<32>
+SpellVisualKitID<32>

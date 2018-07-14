@@ -1,475 +1,475 @@
 COLUMNS
 int ID
-int flags
-int<FactionTemplate::ID> factionID
+int Flags
+int<FactionTemplate::ID> FactionID
 int<SoundEntries::ID> ExplorationSoundID
 int<CreatureDisplayInfo::ID> MaleDisplayID
 int<CreatureDisplayInfo::ID> FemaleDisplayID
 string ClientPrefix
 int<Languages::ID> BaseLanguage
-int<CreatureType::ID> creatureType
+int<CreatureType::ID> CreatureType
 int<Spell::ID> ResSicknessSpellID
 int<SoundEntries::ID> SplashSoundID
-string clientFileString
-int<CinematicSequences::ID> cinematicSequenceID
-int alliance
-locstring name_lang
-locstring name_female_lang
-locstring name_male_lang
-string facialHairCustomization
-string hairCustomization
-int race_related
-int<ChrRaces::ID> unalteredVisualRaceID
-int<CreatureSoundData::ID> uaMaleCreatureSoundDataID
-int<CreatureSoundData::ID> uaFemaleCreatureSoundDataID
-int<CharComponentTextureLayouts::ID> charComponentTextureLayoutID
-int<ChrClasses::ID> defaultClassID
-int<FileData::ID> createScreenFileDataID
-int<FileData::ID> selectScreenFileDataID
-float maleCustomizeOffset
-float femaleCustomizeOffset
-int<ChrRaces::ID> neutralRaceID
-int<FileData::ID> lowResScreenFileDataID
+string ClientFileString
+int<CinematicSequences::ID> CinematicSequenceID
+int Alliance
+locstring Name_lang
+locstring Name_female_lang
+locstring Name_male_lang
+string FacialHairCustomization
+string HairCustomization
+int Race_related
+int<ChrRaces::ID> UnalteredVisualRaceID
+int<CreatureSoundData::ID> UaMaleCreatureSoundDataID
+int<CreatureSoundData::ID> UaFemaleCreatureSoundDataID
+int<CharComponentTextureLayouts::ID> CharComponentTextureLayoutID
+int<ChrClasses::ID> DefaultClassID
+int<FileData::ID> CreateScreenFileDataID
+int<FileData::ID> SelectScreenFileDataID
+float MaleCustomizeOffset
+float FemaleCustomizeOffset
+int<ChrRaces::ID> NeutralRaceID
+int<FileData::ID> LowResScreenFileDataID
 int<CreatureDisplayInfo::ID> HighResMaleDisplayID
 int<CreatureDisplayInfo::ID> HighResFemaleDisplayID
-int<CharComponentTextureLayouts::ID> charComponentTexLayoutHiResID
-int alteredFormFinishVisualKitID
-int alteredFormStartVisualKitID
-int displayRaceID
-int femaleSkeletonFileDataID
-int heritageArmorAchievementID
-int maleSkeletonFileDataID
-locstring name_female_lowercase_lang
-locstring name_lowercase_lang
-int startingLevel
-int uiDisplayOrder
-int required_expansion
+int<CharComponentTextureLayouts::ID> CharComponentTexLayoutHiResID
+int AlteredFormFinishVisualKitID
+int AlteredFormStartVisualKitID
+int DisplayRaceID
+int FemaleSkeletonFileDataID
+int HeritageArmorAchievementID
+int MaleSkeletonFileDataID
+locstring Name_female_lowercase_lang
+locstring Name_lowercase_lang
+int StartingLevel
+int UiDisplayOrder
+int Required_expansion
 float MountScale
 int LoginEffectSpellID
 int CombatStunSpellID
-int startingTaxiNodes
-float femaleModelFallbackArmor2Scale
-int femaleModelFallbackRaceID
-int femaleModelFallbackSex
-int femaleTextureFallbackRaceID
-int femaleTextureFallbackSex
-float maleModelFallbackArmor2Scale
-int maleModelFallbackRaceID
-int maleModelFallbackSex
-int maleTextureFallbackRaceID
-int maleTextureFallbackSex
-int<ChrRaces::ID> baseRaceID?
+int StartingTaxiNodes
+float FemaleModelFallbackArmor2Scale
+int FemaleModelFallbackRaceID
+int FemaleModelFallbackSex
+int FemaleTextureFallbackRaceID
+int FemaleTextureFallbackSex
+float MaleModelFallbackArmor2Scale
+int MaleModelFallbackRaceID
+int MaleModelFallbackSex
+int MaleTextureFallbackRaceID
+int MaleTextureFallbackSex
+int<ChrRaces::ID> BaseRaceID?
 
 BUILD 6.0.1.18179
 $id$ID<32>
-flags<32>
-factionID<32>
+Flags<32>
+FactionID<32>
 ExplorationSoundID<32>
 MaleDisplayID<32>
 FemaleDisplayID<32>
 ClientPrefix
 BaseLanguage<32>
-creatureType<32>
+CreatureType<32>
 ResSicknessSpellID<32>
 SplashSoundID<32>
-clientFileString
-cinematicSequenceID<32>
-alliance<32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-race_related<32>
-unalteredVisualRaceID<32>
-uaMaleCreatureSoundDataID<32>
-uaFemaleCreatureSoundDataID<32>
-charComponentTextureLayoutID<32>
-defaultClassID<32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-neutralRaceID<32>
-lowResScreenFileDataID<32>
+ClientFileString
+CinematicSequenceID<32>
+Alliance<32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Race_related<32>
+UnalteredVisualRaceID<32>
+UaMaleCreatureSoundDataID<32>
+UaFemaleCreatureSoundDataID<32>
+CharComponentTextureLayoutID<32>
+DefaultClassID<32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+NeutralRaceID<32>
+LowResScreenFileDataID<32>
 HighResMaleDisplayID<32>
 HighResFemaleDisplayID<32>
-charComponentTexLayoutHiResID<32>
+CharComponentTexLayoutHiResID<32>
 
 LAYOUT 51C511F9
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26287
 ClientPrefix
-clientFileString
-name_lang
-name_female_lang
-name_lowercase_lang
-name_female_lowercase_lang
-flags<32>
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Flags<32>
 MaleDisplayID<u32>
 FemaleDisplayID<u32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-lowResScreenFileDataID<32>
-startingLevel<32>
-uiDisplayOrder<32>
-factionID<16>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+FactionID<16>
 ResSicknessSpellID<16>
 SplashSoundID<16>
-cinematicSequenceID<16>
+CinematicSequenceID<16>
 BaseLanguage<8>
-creatureType<8>
-alliance<8>
-race_related<8>
-unalteredVisualRaceID<8>
-charComponentTextureLayoutID<8>
-defaultClassID<8>
-neutralRaceID<8>
-displayRaceID<8>
-charComponentTexLayoutHiResID<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+DisplayRaceID<8>
+CharComponentTexLayoutHiResID<8>
 $id$ID<32>
 HighResMaleDisplayID<u32>
 HighResFemaleDisplayID<u32>
-heritageArmorAchievementID<32>
-maleSkeletonFileDataID<32>
-femaleSkeletonFileDataID<32>
-alteredFormStartVisualKitID<u32>[3]
-alteredFormFinishVisualKitID<u32>[3]
+HeritageArmorAchievementID<32>
+MaleSkeletonFileDataID<32>
+FemaleSkeletonFileDataID<32>
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
 
 BUILD 4.0.0.11792
 $id$ID<32>
-flags<32>
-factionID<32>
+Flags<32>
+FactionID<32>
 ExplorationSoundID<32>
 MaleDisplayID<32>
 FemaleDisplayID<32>
 ClientPrefix
 BaseLanguage<32>
-creatureType<32>
+CreatureType<32>
 ResSicknessSpellID<32>
 SplashSoundID<32>
-clientFileString
-cinematicSequenceID<32>
-alliance<32>
-name_lang
-name_female_lang
-name_male_lang
-facialHairCustomization[2]
-hairCustomization
-required_expansion<32>
-unalteredVisualRaceID<32>
+ClientFileString
+CinematicSequenceID<32>
+Alliance<32>
+Name_lang
+Name_female_lang
+Name_male_lang
+FacialHairCustomization[2]
+HairCustomization
+Required_expansion<32>
+UnalteredVisualRaceID<32>
 
 BUILD 0.5.3.3368
 $id$ID<32>
-flags<32>
-factionID<32>
+Flags<32>
+FactionID<32>
 MaleDisplayID<32>
 FemaleDisplayID<32>
 ClientPrefix
 MountScale
 BaseLanguage<32>
-creatureType<32>
+CreatureType<32>
 LoginEffectSpellID<32>
 CombatStunSpellID<32>
 ResSicknessSpellID<32>
 SplashSoundID<32>
-startingTaxiNodes<32>
-clientFileString
-cinematicSequenceID<32>
-name_lang
+StartingTaxiNodes<32>
+ClientFileString
+CinematicSequenceID<32>
+Name_lang
 
 LAYOUT 7E728145
 BUILD 8.0.1.26231
 ClientPrefix
-clientFileString
-name_lang
-name_female_lang
-name_lowercase_lang
-name_female_lowercase_lang
-flags<32>
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Flags<32>
 MaleDisplayID<32>
 FemaleDisplayID<32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-lowResScreenFileDataID<32>
-startingLevel<32>
-uiDisplayOrder<32>
-maleModelFallbackArmor2Scale
-femaleModelFallbackArmor2Scale
-factionID<16>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+MaleModelFallbackArmor2Scale
+FemaleModelFallbackArmor2Scale
+FactionID<16>
 ResSicknessSpellID<16>
 SplashSoundID<16>
-cinematicSequenceID<16>
+CinematicSequenceID<16>
 BaseLanguage<8>
-creatureType<8>
-alliance<8>
-race_related<8>
-unalteredVisualRaceID<8>
-charComponentTextureLayoutID<8>
-defaultClassID<8>
-neutralRaceID<8>
-charComponentTexLayoutHiResID<8>
-maleModelFallbackRaceID<8>
-maleModelFallbackSex<8>
-femaleModelFallbackRaceID<8>
-femaleModelFallbackSex<8>
-maleTextureFallbackRaceID<8>
-maleTextureFallbackSex<8>
-femaleTextureFallbackRaceID<8>
-femaleTextureFallbackSex<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+CharComponentTexLayoutHiResID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
 $id$ID<32>
 HighResMaleDisplayID<32>
 HighResFemaleDisplayID<32>
-heritageArmorAchievementID<32>
-maleSkeletonFileDataID<32>
-femaleSkeletonFileDataID<32>
-alteredFormStartVisualKitID<32>[3]
-alteredFormFinishVisualKitID<32>[3]
+HeritageArmorAchievementID<32>
+MaleSkeletonFileDataID<32>
+FemaleSkeletonFileDataID<32>
+AlteredFormStartVisualKitID<32>[3]
+AlteredFormFinishVisualKitID<32>[3]
 
 LAYOUT 7AC8831B
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
 ClientPrefix
-clientFileString
-name_lang
-name_female_lang
-name_lowercase_lang
-name_female_lowercase_lang
-flags<32>
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Flags<32>
 MaleDisplayID<32>
 FemaleDisplayID<32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-lowResScreenFileDataID<32>
-startingLevel<32>
-uiDisplayOrder<32>
-maleModelFallbackArmor2Scale
-femaleModelFallbackArmor2Scale
-factionID<16>
-cinematicSequenceID<16>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+MaleModelFallbackArmor2Scale
+FemaleModelFallbackArmor2Scale
+FactionID<16>
+CinematicSequenceID<16>
 ResSicknessSpellID<16>
 SplashSoundID<16>
 BaseLanguage<8>
-creatureType<8>
-alliance<8>
-race_related<8>
-unalteredVisualRaceID<8>
-charComponentTextureLayoutID<8>
-charComponentTexLayoutHiResID<8>
-defaultClassID<8>
-neutralRaceID<8>
-maleModelFallbackRaceID<8>
-maleModelFallbackSex<8>
-femaleModelFallbackRaceID<8>
-femaleModelFallbackSex<8>
-maleTextureFallbackRaceID<8>
-maleTextureFallbackSex<8>
-femaleTextureFallbackRaceID<8>
-femaleTextureFallbackSex<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+CharComponentTexLayoutHiResID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
 $id$ID<32>
 HighResMaleDisplayID<32>
 HighResFemaleDisplayID<32>
-heritageArmorAchievementID<32>
-femaleSkeletonFileDataID<32>
-maleSkeletonFileDataID<32>
-alteredFormStartVisualKitID<32>[3]
-alteredFormFinishVisualKitID<32>[3]
+HeritageArmorAchievementID<32>
+FemaleSkeletonFileDataID<32>
+MaleSkeletonFileDataID<32>
+AlteredFormStartVisualKitID<32>[3]
+AlteredFormFinishVisualKitID<32>[3]
 
 LAYOUT BCC93784
 BUILD 8.0.1.26433
 ClientPrefix
-clientFileString
-name_lang
-name_female_lang
-name_lowercase_lang
-name_female_lowercase_lang
-flags<32>
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Flags<32>
 MaleDisplayID<32>
 FemaleDisplayID<32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-lowResScreenFileDataID<32>
-startingLevel<32>
-uiDisplayOrder<32>
-factionID<16>
-cinematicSequenceID<16>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+FactionID<16>
+CinematicSequenceID<16>
 ResSicknessSpellID<16>
 SplashSoundID<16>
 BaseLanguage<8>
-creatureType<8>
-alliance<8>
-race_related<8>
-unalteredVisualRaceID<8>
-charComponentTextureLayoutID<8>
-charComponentTexLayoutHiResID<8>
-defaultClassID<8>
-neutralRaceID<8>
-maleModelFallbackRaceID<8>
-maleModelFallbackSex<8>
-femaleModelFallbackRaceID<8>
-femaleModelFallbackSex<8>
-maleTextureFallbackRaceID<8>
-maleTextureFallbackSex<8>
-femaleTextureFallbackRaceID<8>
-femaleTextureFallbackSex<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+CharComponentTexLayoutHiResID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
 $id$ID<32>
 HighResMaleDisplayID<32>
 HighResFemaleDisplayID<32>
-heritageArmorAchievementID<32>
-femaleSkeletonFileDataID<32>
-maleSkeletonFileDataID<32>
-alteredFormStartVisualKitID<32>[3]
-alteredFormFinishVisualKitID<32>[3]
+HeritageArmorAchievementID<32>
+FemaleSkeletonFileDataID<32>
+MaleSkeletonFileDataID<32>
+AlteredFormStartVisualKitID<32>[3]
+AlteredFormFinishVisualKitID<32>[3]
 
 LAYOUT E7078C91
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 ClientPrefix
-clientFileString
-name_lang
-name_female_lang
-name_lowercase_lang
-name_female_lowercase_lang
-flags<32>
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Flags<32>
 MaleDisplayID<32>
 FemaleDisplayID<32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-lowResScreenFileDataID<32>
-startingLevel<32>
-uiDisplayOrder<32>
-baseRaceID<32>
-factionID<16>
-cinematicSequenceID<16>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+BaseRaceID<32>
+FactionID<16>
+CinematicSequenceID<16>
 ResSicknessSpellID<16>
 SplashSoundID<16>
 BaseLanguage<8>
-creatureType<8>
-alliance<8>
-race_related<8>
-unalteredVisualRaceID<8>
-charComponentTextureLayoutID<8>
-charComponentTexLayoutHiResID<8>
-defaultClassID<8>
-neutralRaceID<8>
-maleModelFallbackRaceID<8>
-maleModelFallbackSex<8>
-femaleModelFallbackRaceID<8>
-femaleModelFallbackSex<8>
-maleTextureFallbackRaceID<8>
-maleTextureFallbackSex<8>
-femaleTextureFallbackRaceID<8>
-femaleTextureFallbackSex<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+CharComponentTexLayoutHiResID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
 $id$ID<32>
 HighResMaleDisplayID<32>
 HighResFemaleDisplayID<32>
-heritageArmorAchievementID<32>
-femaleSkeletonFileDataID<32>
-maleSkeletonFileDataID<32>
-alteredFormStartVisualKitID<32>[3]
-alteredFormFinishVisualKitID<32>[3]
+HeritageArmorAchievementID<32>
+FemaleSkeletonFileDataID<32>
+MaleSkeletonFileDataID<32>
+AlteredFormStartVisualKitID<32>[3]
+AlteredFormFinishVisualKitID<32>[3]
 
 LAYOUT 2B2A4FD3
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 ClientPrefix
-clientFileString
-name_lang
-name_female_lang
-name_lowercase_lang
-name_female_lowercase_lang
-flags<32>
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Flags<32>
 MaleDisplayID<32>
 FemaleDisplayID<32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-lowResScreenFileDataID<32>
-uiDisplayOrder<32>
-baseRaceID<32>
-factionID<16>
-cinematicSequenceID<16>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+UiDisplayOrder<32>
+BaseRaceID<32>
+FactionID<16>
+CinematicSequenceID<16>
 ResSicknessSpellID<16>
 SplashSoundID<16>
 BaseLanguage<8>
-creatureType<8>
-alliance<8>
-race_related<8>
-unalteredVisualRaceID<8>
-charComponentTextureLayoutID<8>
-charComponentTexLayoutHiResID<8>
-defaultClassID<8>
-neutralRaceID<8>
-maleModelFallbackRaceID<8>
-maleModelFallbackSex<8>
-femaleModelFallbackRaceID<8>
-femaleModelFallbackSex<8>
-maleTextureFallbackRaceID<8>
-maleTextureFallbackSex<8>
-femaleTextureFallbackRaceID<8>
-femaleTextureFallbackSex<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+CharComponentTexLayoutHiResID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
 $id$ID<32>
 HighResMaleDisplayID<32>
 HighResFemaleDisplayID<32>
-heritageArmorAchievementID<32>
-startingLevel<32>
-femaleSkeletonFileDataID<32>
-maleSkeletonFileDataID<32>
-alteredFormStartVisualKitID<32>[3]
-alteredFormFinishVisualKitID<32>[3]
+HeritageArmorAchievementID<32>
+StartingLevel<32>
+FemaleSkeletonFileDataID<32>
+MaleSkeletonFileDataID<32>
+AlteredFormStartVisualKitID<32>[3]
+AlteredFormFinishVisualKitID<32>[3]
 
 LAYOUT C8BCDC89
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 ClientPrefix
-clientFileString
-name_lang
-name_female_lang
-name_lowercase_lang
-name_female_lowercase_lang
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
 $id$ID<32>
-flags<32>
+Flags<32>
 MaleDisplayID<u32>
 FemaleDisplayID<u32>
 HighResMaleDisplayID<u32>
 HighResFemaleDisplayID<u32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-maleCustomizeOffset[3]
-femaleCustomizeOffset[3]
-lowResScreenFileDataID<32>
-alteredFormStartVisualKitID<u32>[3]
-alteredFormFinishVisualKitID<u32>[3]
-heritageArmorAchievementID<32>
-startingLevel<32>
-uiDisplayOrder<32>
-femaleSkeletonFileDataID<32>
-maleSkeletonFileDataID<32>
-baseRaceID<32>
-factionID<16>
-cinematicSequenceID<16>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
+HeritageArmorAchievementID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+FemaleSkeletonFileDataID<32>
+MaleSkeletonFileDataID<32>
+BaseRaceID<32>
+FactionID<16>
+CinematicSequenceID<16>
 ResSicknessSpellID<16>
 SplashSoundID<16>
 BaseLanguage<8>
-creatureType<8>
-alliance<8>
-race_related<8>
-unalteredVisualRaceID<8>
-charComponentTextureLayoutID<8>
-charComponentTexLayoutHiResID<8>
-defaultClassID<8>
-neutralRaceID<8>
-maleModelFallbackRaceID<8>
-maleModelFallbackSex<8>
-femaleModelFallbackRaceID<8>
-femaleModelFallbackSex<8>
-maleTextureFallbackRaceID<8>
-maleTextureFallbackSex<8>
-femaleTextureFallbackRaceID<8>
-femaleTextureFallbackSex<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+CharComponentTexLayoutHiResID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>

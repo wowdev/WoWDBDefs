@@ -1,47 +1,47 @@
 COLUMNS
 int ID
 int<Map::ID> ContinentID
-float pos
+float Pos
 locstring Name_lang
 int MountCreatureID
-int conditionID
+int ConditionID
 int Flags
 float MapOffset
-int characterBitNumber
-float facing
-float flightMapOffset
-int specialIconConditionID
-int uiTextureKitID
+int CharacterBitNumber
+float Facing
+float FlightMapOffset
+int SpecialIconConditionID
+int UiTextureKitID
 float X
 float Y
 float Z
-float field_754523819
-float field_861202115
-int field_622514936
-int field_195874888
-int field_213619813
-int field_991276813
-float field_1074583245
-int field_1361650732
-float field_1470259960
-float field_959632948
-float field_1559469990
-int field_2029197564
-int field_1850824109
-int field_754767089
-int field_014529966
-float field_1362126764
-int field_508286136
-int field_1138164662
-int field_1844406007
+float Field_754523819
+float Field_861202115
+int Field_622514936
+int Field_195874888
+int Field_213619813
+int Field_991276813
+float Field_1074583245
+int Field_1361650732
+float Field_1470259960
+float Field_959632948
+float Field_1559469990
+int Field_2029197564
+int Field_1850824109
+int Field_754767089
+int Field_014529966
+float Field_1362126764
+int Field_508286136
+int Field_1138164662
+int Field_1844406007
 
 BUILD 6.0.1.18179
 $id$ID<32>
 ContinentID<32>
-pos[3]
+Pos[3]
 Name_lang
 MountCreatureID<32>[2]
-conditionID<32>
+ConditionID<32>
 Flags<32>
 MapOffset[2]
 
@@ -49,17 +49,17 @@ LAYOUT B46C6A8B, E96BA283
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
 Name_lang
-pos[3]
+Pos[3]
 MountCreatureID<32>[2]
 MapOffset[2]
-facing
-flightMapOffset[2]
+Facing
+FlightMapOffset[2]
 ContinentID<u16>
-conditionID<u16>
-characterBitNumber<u16>
+ConditionID<u16>
+CharacterBitNumber<u16>
 Flags<u8>
-uiTextureKitID<32>
-specialIconConditionID<u32>
+UiTextureKitID<32>
+SpecialIconConditionID<u32>
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
 $id$ID<32>
@@ -82,47 +82,47 @@ LAYOUT 9F773045
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 Name_lang
 $id$ID<32>
-pos[3]
+Pos[3]
 MountCreatureID<32>[2]
 MapOffset[2]
-facing
-flightMapOffset[2]
+Facing
+FlightMapOffset[2]
 $relation$ContinentID<16>
-conditionID<16>
-characterBitNumber<16>
+ConditionID<16>
+CharacterBitNumber<16>
 Flags<8>
-uiTextureKitID<32>
-specialIconConditionID<32>
+UiTextureKitID<32>
+SpecialIconConditionID<32>
 
 LAYOUT 0E9F99C5
 BUILD 8.0.1.26788, 8.0.1.26806
 Name_lang
-pos[3]
-field_754523819[2]
-field_861202115[2]
+Pos[3]
+Field_754523819[2]
+Field_861202115[2]
 $id$ID<32>
 $relation$ContinentID<16>
-field_622514936<16>
-field_195874888<16>
-field_213619813<8>
-field_991276813<32>
-field_1074583245
-field_1361650732<32>
+Field_622514936<16>
+Field_195874888<16>
+Field_213619813<8>
+Field_991276813<32>
+Field_1074583245
+Field_1361650732<32>
 MountCreatureID<32>[2]
 
 LAYOUT 91ADBF11
 BUILD 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 Name_lang
-field_1470259960[3]
-field_959632948[2]
-field_1559469990[2]
+Field_1470259960[3]
+Field_959632948[2]
+Field_1559469990[2]
 $id$ID<32>
 $relation$ContinentID<u16>
-field_2029197564<u16>
-field_1850824109<u16>
-field_754767089<u8>
-field_014529966<32>
-field_1362126764
-field_508286136<u32>
-field_1138164662<u32>
-field_1844406007<32>[2]
+Field_2029197564<u16>
+Field_1850824109<u16>
+Field_754767089<u8>
+Field_014529966<32>
+Field_1362126764
+Field_508286136<u32>
+Field_1138164662<u32>
+Field_1844406007<32>[2]

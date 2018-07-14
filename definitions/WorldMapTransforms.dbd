@@ -1,58 +1,58 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-float regionMin
-float regionMax
-int<Map::ID> newMapID
-float regionOffset
-int<DungeonMap::ID> newDungeonMapID
-int flags
-int<AreaTable::ID> newAreaID
-float regionScale
-int areaID
-int priority
-float region
-float regionMinX
-float regionMinY
-float regionMaxX
-float regionMaxY
-float regionOffsetX
-float regionOffsetY
+int<Map::ID> MapID
+float RegionMin
+float RegionMax
+int<Map::ID> NewMapID
+float RegionOffset
+int<DungeonMap::ID> NewDungeonMapID
+int Flags
+int<AreaTable::ID> NewAreaID
+float RegionScale
+int AreaID
+int Priority
+float Region
+float RegionMinX
+float RegionMinY
+float RegionMaxX
+float RegionMaxY
+float RegionOffsetX
+float RegionOffsetY
 
 BUILD 6.0.1.18179
 $id$ID<32>
-mapID<32>
-regionMin[3]
-regionMax[3]
-newMapID<32>
-regionOffset[2]
-newDungeonMapID<32>
-flags<32>
-newAreaID<32>
-regionScale
+MapID<32>
+RegionMin[3]
+RegionMax[3]
+NewMapID<32>
+RegionOffset[2]
+NewDungeonMapID<32>
+Flags<32>
+NewAreaID<32>
+RegionScale
 
 LAYOUT 99FB4B71, 8A2E7B01
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
-region[6]
-regionOffset[2]
-regionScale
-$relation$mapID<u16>
-areaID<u16>
-newMapID<u16>
-newDungeonMapID<u16>
-newAreaID<u16>
-flags<u8>
-priority<32>
+Region[6]
+RegionOffset[2]
+RegionScale
+$relation$MapID<u16>
+AreaID<u16>
+NewMapID<u16>
+NewDungeonMapID<u16>
+NewAreaID<u16>
+Flags<u8>
+Priority<32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-mapID<32>
-regionMinX
-regionMinY
-regionMaxX
-regionMaxY
-newMapID<32>
-regionOffsetX
-regionOffsetY
-newDungeonMapID<32>
+MapID<32>
+RegionMinX
+RegionMinY
+RegionMaxX
+RegionMaxY
+NewMapID<32>
+RegionOffsetX
+RegionOffsetY
+NewDungeonMapID<32>

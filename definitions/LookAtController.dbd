@@ -1,82 +1,82 @@
 COLUMNS
 int ID
-int flags
-float headSpeedFactor
-int maxHeadPitch
-int maxHeadYaw
-int maxTorsoPitchDown
-int maxTorsoPitchUp
-int maxTorsoYaw
-int maxTorsoYawWhileMoving
-float reactionEnableDistance
-int reactionEnableFOVDeg
-float reactionGiveupDistance
-int reactionGiveupFOVDeg
-int reactionGiveupTimeMS
-int reactionIgnoreTimeMaxMS
-int reactionIgnoreTimeMinMS
-int reactionWarmUpTimeMSMax
-int reactionWarmUpTimeMSMin
-float torsoSpeedFactor
-float field_1900231016
-int field_615427890
-int field_147919984
-int field_1151334527
-float field_1178766159
-int field_885351178
-int field_1328840772
-int field_299810205
-int field_1884272182
-int field_1565277033
-int field_1619601402
-int field_1752679361
-int field_912470665
-int field_670075321
-int field_2010951243
-float field_1215792018
-float field_475378857
-int field_1996576661
+int Flags
+float HeadSpeedFactor
+int MaxHeadPitch
+int MaxHeadYaw
+int MaxTorsoPitchDown
+int MaxTorsoPitchUp
+int MaxTorsoYaw
+int MaxTorsoYawWhileMoving
+float ReactionEnableDistance
+int ReactionEnableFOVDeg
+float ReactionGiveupDistance
+int ReactionGiveupFOVDeg
+int ReactionGiveupTimeMS
+int ReactionIgnoreTimeMaxMS
+int ReactionIgnoreTimeMinMS
+int ReactionWarmUpTimeMSMax
+int ReactionWarmUpTimeMSMin
+float TorsoSpeedFactor
+float Field_1900231016
+int Field_615427890
+int Field_147919984
+int Field_1151334527
+float Field_1178766159
+int Field_885351178
+int Field_1328840772
+int Field_299810205
+int Field_1884272182
+int Field_1565277033
+int Field_1619601402
+int Field_1752679361
+int Field_912470665
+int Field_670075321
+int Field_2010951243
+float Field_1215792018
+float Field_475378857
+int Field_1996576661
 
 LAYOUT 543C0D56, FD444016
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-reactionEnableDistance
-reactionGiveupDistance
-torsoSpeedFactor
-headSpeedFactor
-reactionEnableFOVDeg<u16>
-reactionGiveupTimeMS<u16>
-reactionIgnoreTimeMinMS<u16>
-reactionIgnoreTimeMaxMS<u16>
-maxTorsoYaw<u8>
-maxTorsoYawWhileMoving<u8>
-maxHeadYaw<u8>
-maxHeadPitch<u8>
-flags<u8>
-reactionWarmUpTimeMSMin<u32>
-reactionWarmUpTimeMSMax<u32>
-reactionGiveupFOVDeg<u32>
-maxTorsoPitchUp<u32>
-maxTorsoPitchDown<u32>
+ReactionEnableDistance
+ReactionGiveupDistance
+TorsoSpeedFactor
+HeadSpeedFactor
+ReactionEnableFOVDeg<u16>
+ReactionGiveupTimeMS<u16>
+ReactionIgnoreTimeMinMS<u16>
+ReactionIgnoreTimeMaxMS<u16>
+MaxTorsoYaw<u8>
+MaxTorsoYawWhileMoving<u8>
+MaxHeadYaw<u8>
+MaxHeadPitch<u8>
+Flags<u8>
+ReactionWarmUpTimeMSMin<u32>
+ReactionWarmUpTimeMSMax<u32>
+ReactionGiveupFOVDeg<u32>
+MaxTorsoPitchUp<u32>
+MaxTorsoPitchDown<u32>
 
 LAYOUT 2E077E56
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1900231016
-field_615427890<u32>
-field_147919984<u32>
-field_1151334527<u16>
-field_1178766159
-field_885351178<u32>
-field_1328840772<u16>
-field_299810205<u16>
-field_1884272182<u16>
-field_1565277033<u8>
-field_1619601402<u8>
-field_1752679361<u32>
-field_912470665<u32>
-field_670075321<u8>
-field_2010951243<u8>
-field_1215792018
-field_475378857
-field_1996576661<u8>
+Field_1900231016
+Field_615427890<u32>
+Field_147919984<u32>
+Field_1151334527<u16>
+Field_1178766159
+Field_885351178<u32>
+Field_1328840772<u16>
+Field_299810205<u16>
+Field_1884272182<u16>
+Field_1565277033<u8>
+Field_1619601402<u8>
+Field_1752679361<u32>
+Field_912470665<u32>
+Field_670075321<u8>
+Field_2010951243<u8>
+Field_1215792018
+Field_475378857
+Field_1996576661<u8>

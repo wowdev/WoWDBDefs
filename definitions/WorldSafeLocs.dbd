@@ -1,24 +1,24 @@
 COLUMNS
 int ID
-int<Map::ID> continent
-float loc
-float facing
-locstring areaName_lang
-float locX
-float locY
-float locZ
+int<Map::ID> Continent
+float Loc
+float Facing
+locstring AreaName_lang
+float LocX
+float LocY
+float LocZ
 
 BUILD 6.0.1.18179
 $id$ID<32>
-continent<32>
-loc[3]
-facing
-areaName_lang
+Continent<32>
+Loc[3]
+Facing
+AreaName_lang
 
 BUILD 0.5.3.3368, 4.0.0.11792
 $id$ID<32>
-continent<32>
-locX
-locY
-locZ
-areaName_lang
+Continent<32>
+LocX
+LocY
+LocZ
+AreaName_lang

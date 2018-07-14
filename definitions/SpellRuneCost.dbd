@@ -1,22 +1,22 @@
 COLUMNS
 int ID
-int blood
-int unholy
-int frost
-int chromatic
-int runicPower
+int Blood
+int Unholy
+int Frost
+int Chromatic
+int RunicPower
 
 BUILD 6.0.1.18179
 $id$ID<32>
-blood<32>
-unholy<32>
-frost<32>
-chromatic<32>
-runicPower<32>
+Blood<32>
+Unholy<32>
+Frost<32>
+Chromatic<32>
+RunicPower<32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-blood<32>
-unholy<32>
-frost<32>
-runicPower<32>
+Blood<32>
+Unholy<32>
+Frost<32>
+RunicPower<32>

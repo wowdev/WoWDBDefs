@@ -1,49 +1,49 @@
 COLUMNS
 int ID
-int flags
-int reqRidingSkill
-int reqAreaID
-int reqSpellAuraID
-int reqSpellKnownID
-int modSpellAuraID
-int reqMapID
-int field_1118556362
-int field_840430369
-int field_901664129
-int field_387553510
-int field_1986292814
-int field_1500079257
-int field_472735130
-int field_838467446
+int Flags
+int ReqRidingSkill
+int ReqAreaID
+int ReqSpellAuraID
+int ReqSpellKnownID
+int ModSpellAuraID
+int ReqMapID
+int Field_1118556362
+int Field_840430369
+int Field_901664129
+int Field_387553510
+int Field_1986292814
+int Field_1500079257
+int Field_472735130
+int Field_838467446
 
 BUILD 6.0.1.18179
 $id$ID<32>
-flags<32>
-reqRidingSkill<32>
-reqAreaID<32>
-reqSpellAuraID<32>
-reqSpellKnownID<32>
-modSpellAuraID<32>
-reqMapID<32>
+Flags<32>
+ReqRidingSkill<32>
+ReqAreaID<32>
+ReqSpellAuraID<32>
+ReqSpellKnownID<32>
+ModSpellAuraID<32>
+ReqMapID<32>
 
 LAYOUT B0D11D52, A2B1CDEA
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-reqSpellKnownID<32>
-modSpellAuraID<32>
-reqRidingSkill<u16>
-reqAreaID<u16>
-reqMapID<16>
-flags<u8>
+ReqSpellKnownID<32>
+ModSpellAuraID<32>
+ReqRidingSkill<u16>
+ReqAreaID<u16>
+ReqMapID<16>
+Flags<u8>
 $id$ID<32>
-reqSpellAuraID<u32>
+ReqSpellAuraID<u32>
 
 LAYOUT D8A906D6
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-$id$field_1118556362<32>
-field_840430369<u8>
-field_901664129<u16>
-field_387553510<u16>
-field_1986292814<u32>
-field_1500079257<32>
-field_472735130<32>
-field_838467446<16>
+$id$Field_1118556362<32>
+Field_840430369<u8>
+Field_901664129<u16>
+Field_387553510<u16>
+Field_1986292814<u32>
+Field_1500079257<32>
+Field_472735130<32>
+Field_838467446<16>

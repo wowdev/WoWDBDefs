@@ -3,7 +3,7 @@ int ID
 int<Map::ID> ContinentID
 int<AreaTable::ID> ParentAreaID
 int AreaBit
-int flags
+int Flags
 int<SoundProviderPreferences::ID> SoundProviderPref
 int<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
 int<SoundAmbience::ID> AmbienceID
@@ -12,20 +12,20 @@ string ZoneName
 int<ZoneIntroMusicTable::ID> IntroSound
 int ExplorationLevel
 locstring AreaName_lang
-int factionGroupMask
-int<LiquidType::ID> liquidTypeID
-float minElevation
-float ambient_multiplier
-int<Light::ID> lightID
-int mountFlags
-int<ZoneIntroMusicTable::ID> uwIntroSound
-int<ZoneMusic::ID> uwZoneMusic
-int<SoundAmbience::ID> uwAmbience
-int world_pvp_ID
-int<WorldState::ID> pvpCombatWorldStateID
-int wildBattlePetLevelMin
-int wildBattlePetLevelMax
-int<WindSettings::ID> windSettingsID
+int FactionGroupMask
+int<LiquidType::ID> LiquidTypeID
+float MinElevation
+float Ambient_multiplier
+int<Light::ID> LightID
+int MountFlags
+int<ZoneIntroMusicTable::ID> UwIntroSound
+int<ZoneMusic::ID> UwZoneMusic
+int<SoundAmbience::ID> UwAmbience
+int World_pvp_ID
+int<WorldState::ID> PvpCombatWorldStateID
+int WildBattlePetLevelMin
+int WildBattlePetLevelMax
+int<WindSettings::ID> WindSettingsID
 int AreaNumber // area  = (m_AreaNumber >> 16), subarea = (m_AreaNumber & 0xFFFF)
 int<AreaTable::ID> ParentAreaNum
 int MIDIAmbience
@@ -37,7 +37,7 @@ $id$ID<32>
 ContinentID<32>
 ParentAreaID<32>
 AreaBit<32>
-flags<32>[2]
+Flags<32>[2]
 SoundProviderPref<32>
 SoundProviderPrefUnderwater<32>
 AmbienceID<32>
@@ -46,54 +46,54 @@ ZoneName
 IntroSound<32>
 ExplorationLevel<32>
 AreaName_lang
-factionGroupMask<32>
-liquidTypeID<32>[4]
-minElevation
-ambient_multiplier
-lightID<32>
-mountFlags<32>
-uwIntroSound<32>
-uwZoneMusic<32>
-uwAmbience<32>
-world_pvp_ID<32>
-pvpCombatWorldStateID<32>
-wildBattlePetLevelMin<32>
-wildBattlePetLevelMax<32>
-windSettingsID<32>
+FactionGroupMask<32>
+LiquidTypeID<32>[4]
+MinElevation
+Ambient_multiplier
+LightID<32>
+MountFlags<32>
+UwIntroSound<32>
+UwZoneMusic<32>
+UwAmbience<32>
+World_pvp_ID<32>
+PvpCombatWorldStateID<32>
+WildBattlePetLevelMin<32>
+WildBattlePetLevelMax<32>
+WindSettingsID<32>
 
 LAYOUT 0CA01129
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
 ZoneName
 AreaName_lang
-flags<32>[2]
-ambient_multiplier
+Flags<32>[2]
+Ambient_multiplier
 ContinentID<u16>
 ParentAreaID<u16>
 AreaBit<16>
 AmbienceID<u16>
 ZoneMusic<u16>
 IntroSound<u16>
-liquidTypeID<u16>[4]
-uwZoneMusic<u16>
-uwAmbience<u16>
-pvpCombatWorldStateID<16>
+LiquidTypeID<u16>[4]
+UwZoneMusic<u16>
+UwAmbience<u16>
+PvpCombatWorldStateID<16>
 SoundProviderPref<u8>
 SoundProviderPrefUnderwater<u8>
 ExplorationLevel<8>
-factionGroupMask<u8>
-mountFlags<u8>
-wildBattlePetLevelMin<u8>
-wildBattlePetLevelMax<u8>
-windSettingsID<u8>
-uwIntroSound<u32>
+FactionGroupMask<u8>
+MountFlags<u8>
+WildBattlePetLevelMin<u8>
+WildBattlePetLevelMax<u8>
+WindSettingsID<u8>
+UwIntroSound<u32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
 ContinentID<32>
 ParentAreaID<32>
 AreaBit<32>
-flags<32>
+Flags<32>
 SoundProviderPref<32>
 SoundProviderPrefUnderwater<32>
 AmbienceID<32>
@@ -101,11 +101,11 @@ ZoneMusic<32>
 IntroSound<32>
 ExplorationLevel<32>
 AreaName_lang
-factionGroupMask<32>
-liquidTypeID<32>[4]
-minElevation
-ambient_multiplier
-lightID<32>
+FactionGroupMask<32>
+LiquidTypeID<32>[4]
+MinElevation
+Ambient_multiplier
+LightID<32>
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -113,7 +113,7 @@ AreaNumber<32>
 ContinentID<32>
 ParentAreaNum<32>
 AreaBit<32>
-flags<32>
+Flags<32>
 SoundProviderPref<32>
 SoundProviderPrefUnderwater<32>
 MIDIAmbience<32>
@@ -128,27 +128,27 @@ BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.264
 $noninline,id$ID<32>
 ZoneName
 AreaName_lang
-flags<32>[2]
-ambient_multiplier
+Flags<32>[2]
+Ambient_multiplier
 ContinentID<16>
 ParentAreaID<16>
 AreaBit<16>
 AmbienceID<16>
-uwAmbience<16>
+UwAmbience<16>
 ZoneMusic<16>
-uwZoneMusic<16>
+UwZoneMusic<16>
 IntroSound<16>
-liquidTypeID<16>[4]
-pvpCombatWorldStateID<16>
+LiquidTypeID<16>[4]
+PvpCombatWorldStateID<16>
 SoundProviderPref<8>
 SoundProviderPrefUnderwater<8>
 ExplorationLevel<8>
-factionGroupMask<8>
-mountFlags<8>
-wildBattlePetLevelMin<8>
-wildBattlePetLevelMax<8>
-windSettingsID<8>
-uwIntroSound<32>
+FactionGroupMask<8>
+MountFlags<8>
+WildBattlePetLevelMin<8>
+WildBattlePetLevelMax<8>
+WindSettingsID<8>
+UwIntroSound<32>
 
 LAYOUT 22229BE7
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
@@ -161,18 +161,18 @@ AreaBit<16>
 SoundProviderPref<u8>
 SoundProviderPrefUnderwater<u8>
 AmbienceID<u16>
-uwAmbience<u16>
+UwAmbience<u16>
 ZoneMusic<u16>
-uwZoneMusic<u16>
+UwZoneMusic<u16>
 ExplorationLevel<8>
 IntroSound<u16>
-uwIntroSound<u32>
-factionGroupMask<u8>
-ambient_multiplier
-mountFlags<u8>
-pvpCombatWorldStateID<16>
-wildBattlePetLevelMin<u8>
-wildBattlePetLevelMax<u8>
-windSettingsID<u8>
-flags<32>[2]
-liquidTypeID<u16>[4]
+UwIntroSound<u32>
+FactionGroupMask<u8>
+Ambient_multiplier
+MountFlags<u8>
+PvpCombatWorldStateID<16>
+WildBattlePetLevelMin<u8>
+WildBattlePetLevelMax<u8>
+WindSettingsID<u8>
+Flags<32>[2]
+LiquidTypeID<u16>[4]

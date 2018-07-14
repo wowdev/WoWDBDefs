@@ -1,30 +1,30 @@
 COLUMNS
 int ID
-int artifactPowerID
-int artifactPowerLabel
-int flags
-int pVal
-int type
-int field_800251018
-int field_905929348
-int field_1110787437
-int field_1448017255
-int field_1587863126
+int ArtifactPowerID
+int ArtifactPowerLabel
+int Flags
+int PVal
+int Type
+int Field_800251018
+int Field_905929348
+int Field_1110787437
+int Field_1448017255
+int Field_1587863126
 
 LAYOUT 7A5963FD, 0C2B5459
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-artifactPowerID<u16>
-artifactPowerLabel<u8>
-type<32>
-pVal<32>
-flags<32>
+ArtifactPowerID<u16>
+ArtifactPowerLabel<u8>
+Type<32>
+PVal<32>
+Flags<32>
 
 LAYOUT 8BEAE937
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_800251018<32>
-field_905929348<u16>
-field_1110787437<u8>
-field_1448017255<32>
-field_1587863126<32>
+Field_800251018<32>
+Field_905929348<u16>
+Field_1110787437<u8>
+Field_1448017255<32>
+Field_1587863126<32>

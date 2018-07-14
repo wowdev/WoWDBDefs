@@ -8,18 +8,18 @@ int<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
 int<SoundAmbience::ID> AmbienceID
 int<ZoneMusic::ID> ZoneMusic
 int<ZoneIntroMusicTable::ID> IntroSound
-int flags
+int Flags
 int<AreaTable::ID> AreaTableID
 locstring AreaName_lang
-int<ZoneIntroMusicTable::ID> uwIntroSound
-int<ZoneMusic::ID> uwZoneMusic
-int<SoundAmbience::ID> uwAmbience
+int<ZoneIntroMusicTable::ID> UwIntroSound
+int<ZoneMusic::ID> UwZoneMusic
+int<SoundAmbience::ID> UwAmbience
 int DayAmbienceSoundID
 int NightAmbienceSoundID
 int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
-int inlineWMOID
+int InlineWMOID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -31,12 +31,12 @@ SoundProviderPrefUnderwater<32>
 AmbienceID<32>
 ZoneMusic<32>
 IntroSound<32>
-flags<32>
+Flags<32>
 AreaTableID<32>
 AreaName_lang
-uwIntroSound<32>
-uwZoneMusic<32>
-uwAmbience<32>
+UwIntroSound<32>
+UwZoneMusic<32>
+UwAmbience<32>
 
 LAYOUT 30A78709
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -47,14 +47,14 @@ AmbienceID<16>
 ZoneMusic<16>
 IntroSound<16>
 AreaTableID<16>
-uwIntroSound<16>
-uwAmbience<16>
+UwIntroSound<16>
+UwAmbience<16>
 NameSetID<8>
 SoundProviderPref<8>
 SoundProviderPrefUnderwater<8>
-flags<8>
+Flags<8>
 $id$ID<32>
-uwZoneMusic<32>
+UwZoneMusic<32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -66,7 +66,7 @@ SoundProviderPrefUnderwater<32>
 AmbienceID<32>
 ZoneMusic<32>
 IntroSound<32>
-flags<32>
+Flags<32>
 AreaTableID<32>
 AreaName_lang
 
@@ -84,7 +84,7 @@ MIDIAmbienceUnderwater<32>
 ZoneMusic<32>
 IntroSound<32>
 IntroPriority<32>
-flags<32>
+Flags<32>
 AreaName_lang
 
 LAYOUT 2D2A3D3D
@@ -93,17 +93,17 @@ AreaName_lang
 WMOGroupID<32>
 $relation$WMOID<16>
 AmbienceID<16>
-uwAmbience<16>
+UwAmbience<16>
 ZoneMusic<16>
 IntroSound<16>
-uwIntroSound<16>
+UwIntroSound<16>
 AreaTableID<16>
 NameSetID<8>
 SoundProviderPref<8>
 SoundProviderPrefUnderwater<8>
-flags<8>
+Flags<8>
 $id$ID<32>
-uwZoneMusic<32>
+UwZoneMusic<32>
 
 LAYOUT 4616C893
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
@@ -113,14 +113,14 @@ AmbienceID<u16>
 ZoneMusic<u16>
 IntroSound<u16>
 AreaTableID<u16>
-uwIntroSound<u16>
+UwIntroSound<u16>
 NameSetID<u16>
 SoundProviderPref<u8>
 SoundProviderPrefUnderwater<u8>
-flags<u8>
-uwZoneMusic<u8>
+Flags<u8>
+UwZoneMusic<u8>
 $id$ID<32>
-inlineWMOID<u32>
+InlineWMOID<u32>
 $noninline,relation$WMOID<u16>
 
 LAYOUT 60EC930B
@@ -133,10 +133,10 @@ WMOGroupID<32>
 SoundProviderPref<u8>
 SoundProviderPrefUnderwater<u8>
 AmbienceID<u16>
-uwAmbience<u16>
+UwAmbience<u16>
 ZoneMusic<u16>
-uwZoneMusic<u32>
+UwZoneMusic<u32>
 IntroSound<u16>
-uwIntroSound<u16>
+UwIntroSound<u16>
 AreaTableID<u16>
-flags<u8>
+Flags<u8>

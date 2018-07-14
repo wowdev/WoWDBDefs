@@ -1,115 +1,115 @@
 COLUMNS
 int ID
-int<WorldMapArea::ID> mapAreaID
-int<AreaTable::ID> areaID
-string textureName
-int textureWidth
-int textureHeight
-int offsetX
-int offsetY
-int hitRectTop
-int hitRectLeft
-int hitRectBottom
-int hitRectRight
-int playerConditionID
-int flags
-int mapPointX
-int mapPointY
-int uiMapArtID
+int<WorldMapArea::ID> MapAreaID
+int<AreaTable::ID> AreaID
+string TextureName
+int TextureWidth
+int TextureHeight
+int OffsetX
+int OffsetY
+int HitRectTop
+int HitRectLeft
+int HitRectBottom
+int HitRectRight
+int PlayerConditionID
+int Flags
+int MapPointX
+int MapPointY
+int UiMapArtID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-mapAreaID<32>
-areaID<32>[4]
-textureName
-textureWidth<32>
-textureHeight<32>
-offsetX<32>
-offsetY<32>
-hitRectTop<32>
-hitRectLeft<32>
-hitRectBottom<32>
-hitRectRight<32>
-playerConditionID<32>
+MapAreaID<32>
+AreaID<32>[4]
+TextureName
+TextureWidth<32>
+TextureHeight<32>
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectLeft<32>
+HitRectBottom<32>
+HitRectRight<32>
+PlayerConditionID<32>
 
 LAYOUT DC4B6AF3
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-textureName
+TextureName
 $id$ID<32>
-textureWidth<u16>
-textureHeight<u16>
-$relation$mapAreaID<u32>
-offsetX<32>
-offsetY<32>
-hitRectTop<32>
-hitRectLeft<32>
-hitRectBottom<32>
-hitRectRight<32>
-playerConditionID<u32>
-flags<u32>
-areaID<u32>[4]
+TextureWidth<u16>
+TextureHeight<u16>
+$relation$MapAreaID<u32>
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectLeft<32>
+HitRectBottom<32>
+HitRectRight<32>
+PlayerConditionID<u32>
+Flags<u32>
+AreaID<u32>[4]
 
 BUILD 4.0.0.11792
 $id$ID<32>
-mapAreaID<32>
-areaID<32>[4]
-mapPointX<32>
-mapPointY<32>
-textureName
-textureWidth<32>
-textureHeight<32>
-offsetX<32>
-offsetY<32>
-hitRectTop<32>
-hitRectLeft<32>
-hitRectBottom<32>
-hitRectRight<32>
+MapAreaID<32>
+AreaID<32>[4]
+MapPointX<32>
+MapPointY<32>
+TextureName
+TextureWidth<32>
+TextureHeight<32>
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectLeft<32>
+HitRectBottom<32>
+HitRectRight<32>
 
 LAYOUT 76440FD7
 BUILD 8.0.1.26297
-textureName
+TextureName
 $id$ID<32>
-textureWidth<16>
-textureHeight<16>
-$relation$mapAreaID<32>
-offsetX<32>
-offsetY<32>
-hitRectTop<32>
-hitRectBottom<32>
-hitRectLeft<32>
-hitRectRight<32>
-playerConditionID<32>
-flags<32>
-areaID<32>[4]
+TextureWidth<16>
+TextureHeight<16>
+$relation$MapAreaID<32>
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectBottom<32>
+HitRectLeft<32>
+HitRectRight<32>
+PlayerConditionID<32>
+Flags<32>
+AreaID<32>[4]
 
 LAYOUT 3F9FB482
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $id$ID<32>
-textureWidth<16>
-textureHeight<16>
-$relation$uiMapArtID<32>
-offsetX<32>
-offsetY<32>
-hitRectTop<32>
-hitRectBottom<32>
-hitRectLeft<32>
-hitRectRight<32>
-playerConditionID<32>
-flags<32>
-areaID<32>[4]
+TextureWidth<16>
+TextureHeight<16>
+$relation$UiMapArtID<32>
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectBottom<32>
+HitRectLeft<32>
+HitRectRight<32>
+PlayerConditionID<32>
+Flags<32>
+AreaID<32>[4]
 
 LAYOUT 837A3DAA
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $id$ID<32>
-$relation$uiMapArtID<u32>
-textureWidth<u16>
-textureHeight<u16>
-offsetX<32>
-offsetY<32>
-hitRectTop<32>
-hitRectBottom<32>
-hitRectLeft<32>
-hitRectRight<32>
-playerConditionID<u32>
-flags<u32>
-areaID<u32>[4]
+$relation$UiMapArtID<u32>
+TextureWidth<u16>
+TextureHeight<u16>
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectBottom<32>
+HitRectLeft<32>
+HitRectRight<32>
+PlayerConditionID<u32>
+Flags<u32>
+AreaID<u32>[4]

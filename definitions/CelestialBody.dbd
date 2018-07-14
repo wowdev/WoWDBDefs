@@ -1,83 +1,83 @@
 COLUMNS
 int ID
-int atmosphericMaskFileDataID
-float atmosphericMaskScale
-int atmosphericModifiedFileDataID
-int baseFileDataID
-float bodyBaseScale
-int glowMaskFileDataID
-float glowMaskScale
-int glowModifiedFileDataID
-int lightMaskFileDataID
-float position
-float rotateRate
-float scrollURate
-float scrollVRate
-int skyArrayBand
-int field_992072222
-float field_1034706330
-int field_255574889
-int field_652766455
-float field_1760603271
-float field_763975765
-int field_1864648438
-int field_1682584886
-float field_1261151942
-int field_997242837
-float field_543080817
-float field_1456533453
-int field_1359476940
+int AtmosphericMaskFileDataID
+float AtmosphericMaskScale
+int AtmosphericModifiedFileDataID
+int BaseFileDataID
+float BodyBaseScale
+int GlowMaskFileDataID
+float GlowMaskScale
+int GlowModifiedFileDataID
+int LightMaskFileDataID
+float Position
+float RotateRate
+float ScrollURate
+float ScrollVRate
+int SkyArrayBand
+int Field_992072222
+float Field_1034706330
+int Field_255574889
+int Field_652766455
+float Field_1760603271
+float Field_763975765
+int Field_1864648438
+int Field_1682584886
+float Field_1261151942
+int Field_997242837
+float Field_543080817
+float Field_1456533453
+int Field_1359476940
 
 LAYOUT D09BE31C
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-baseFileDataID<32>
-lightMaskFileDataID<32>
-glowMaskFileDataID<32>[2]
-atmosphericMaskFileDataID<32>
-atmosphericModifiedFileDataID<32>
-glowModifiedFileDataID<32>[2]
-scrollURate[2]
-scrollVRate[2]
-rotateRate
-glowMaskScale[2]
-atmosphericMaskScale
-position[3]
-bodyBaseScale
-skyArrayBand<16>
+BaseFileDataID<32>
+LightMaskFileDataID<32>
+GlowMaskFileDataID<32>[2]
+AtmosphericMaskFileDataID<32>
+AtmosphericModifiedFileDataID<32>
+GlowModifiedFileDataID<32>[2]
+ScrollURate[2]
+ScrollVRate[2]
+RotateRate
+GlowMaskScale[2]
+AtmosphericMaskScale
+Position[3]
+BodyBaseScale
+SkyArrayBand<16>
 $id$ID<32>
 
 LAYOUT 840A53AC
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-baseFileDataID<32>
-bodyBaseScale
-position[3]
-glowMaskFileDataID<32>[2]
-glowMaskScale[2]
-glowModifiedFileDataID<32>[2]
-atmosphericMaskFileDataID<32>
-atmosphericModifiedFileDataID<32>
-scrollURate[2]
-scrollVRate[2]
-rotateRate
-atmosphericMaskScale
-lightMaskFileDataID<32>
-skyArrayBand<16>
+BaseFileDataID<32>
+BodyBaseScale
+Position[3]
+GlowMaskFileDataID<32>[2]
+GlowMaskScale[2]
+GlowModifiedFileDataID<32>[2]
+AtmosphericMaskFileDataID<32>
+AtmosphericModifiedFileDataID<32>
+ScrollURate[2]
+ScrollVRate[2]
+RotateRate
+AtmosphericMaskScale
+LightMaskFileDataID<32>
+SkyArrayBand<16>
 $id$ID<32>
 
 LAYOUT FC417DCA
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-position[3]
+Position[3]
 $id$ID<32>
-field_992072222<32>
-field_1034706330
-field_255574889<32>
-field_652766455<32>
-field_1760603271
-field_763975765
-field_1359476940<16>
-field_1864648438<32>
-field_1682584886<32>[2]
-field_1261151942[2]
-field_997242837<32>[2]
-field_543080817[2]
-field_1456533453[2]
+Field_992072222<32>
+Field_1034706330
+Field_255574889<32>
+Field_652766455<32>
+Field_1760603271
+Field_763975765
+Field_1359476940<16>
+Field_1864648438<32>
+Field_1682584886<32>[2]
+Field_1261151942[2]
+Field_997242837<32>[2]
+Field_543080817[2]
+Field_1456533453[2]

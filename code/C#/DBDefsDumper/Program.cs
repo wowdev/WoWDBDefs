@@ -564,8 +564,8 @@ namespace DBDefsDumper
                 layoutHash = layoutHash * -1;
             }
 
-            //return "field_" + (layoutHash + fieldIndex).ToString().PadLeft(9, '0');
-            return "field_" + new Random().Next(1, int.MaxValue).ToString().PadLeft(9, '0');
+            //return "Field_" + (layoutHash + fieldIndex).ToString().PadLeft(9, '0');
+            return "Field_" + new Random().Next(1, int.MaxValue).ToString().PadLeft(9, '0');
         }
 
         private static string CleanRealName(string name)

@@ -1,90 +1,90 @@
 COLUMNS
 int EAXDef
 int ID
-int busOverwriteID
-int dialogType
-float distanceCutoff
-int flags
-int maxInstances
-float minDistance
-float pitchAdjust
-float pitchVariationMinus
-float pitchVariationPlus
-int soundKitAdvancedID
-int soundType
-float volumeFloat
-float volumeVariationMinus
-float volumeVariationPlus
-int field_2047784050
-int field_1634472319
-float field_134204136
-int field_745782878
-float field_1967678904
-float field_609874979
-int field_1913437136
-int field_1993805426
-float field_807776779
-float field_1060876092
-float field_890479314
-float field_504683799
-int field_288388589
-float field_866721450
-int field_227836566
-int field_627540281
+int BusOverwriteID
+int DialogType
+float DistanceCutoff
+int Flags
+int MaxInstances
+float MinDistance
+float PitchAdjust
+float PitchVariationMinus
+float PitchVariationPlus
+int SoundKitAdvancedID
+int SoundType
+float VolumeFloat
+float VolumeVariationMinus
+float VolumeVariationPlus
+int Field_2047784050
+int Field_1634472319
+float Field_134204136
+int Field_745782878
+float Field_1967678904
+float Field_609874979
+int Field_1913437136
+int Field_1993805426
+float Field_807776779
+float Field_1060876092
+float Field_890479314
+float Field_504683799
+int Field_288388589
+float Field_866721450
+int Field_227836566
+int Field_627540281
 
 LAYOUT 59B08254, FCE1F864
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $id$ID<32>
-volumeFloat
-minDistance
-distanceCutoff
-flags<16>
-soundType<8>
-dialogType<8>
+VolumeFloat
+MinDistance
+DistanceCutoff
+Flags<16>
+SoundType<8>
+DialogType<8>
 EAXDef<8>
-soundKitAdvancedID<32>
-volumeVariationPlus
-volumeVariationMinus
-pitchVariationPlus
-pitchVariationMinus
-pitchAdjust
-busOverwriteID<16>
-maxInstances<8>
+SoundKitAdvancedID<32>
+VolumeVariationPlus
+VolumeVariationMinus
+PitchVariationPlus
+PitchVariationMinus
+PitchAdjust
+BusOverwriteID<16>
+MaxInstances<8>
 
 LAYOUT 0E9CB7AE
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
 $id$ID<32>
-volumeFloat
-minDistance
-distanceCutoff
-flags<u16>
-soundKitAdvancedID<u16>
-soundType<u8>
-dialogType<u8>
+VolumeFloat
+MinDistance
+DistanceCutoff
+Flags<u16>
+SoundKitAdvancedID<u16>
+SoundType<u8>
+DialogType<u8>
 EAXDef<u8>
-volumeVariationPlus
-volumeVariationMinus
-pitchVariationPlus
-pitchVariationMinus
-pitchAdjust
-busOverwriteID<u16>
-maxInstances<u8>
+VolumeVariationPlus
+VolumeVariationMinus
+PitchVariationPlus
+PitchVariationMinus
+PitchAdjust
+BusOverwriteID<u16>
+MaxInstances<u8>
 
 LAYOUT AF055926
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-$id$field_2047784050<32>
-field_1634472319<u8>
-field_134204136
-field_745782878<u16>
-field_1967678904
-field_609874979
-field_1913437136<u8>
-field_1993805426<u32>
-field_807776779
-field_1060876092
-field_890479314
-field_504683799
-field_288388589<8>
-field_866721450
-field_227836566<u16>
-field_627540281<u8>
+$id$Field_2047784050<32>
+Field_1634472319<u8>
+Field_134204136
+Field_745782878<u16>
+Field_1967678904
+Field_609874979
+Field_1913437136<u8>
+Field_1993805426<u32>
+Field_807776779
+Field_1060876092
+Field_890479314
+Field_504683799
+Field_288388589<8>
+Field_866721450
+Field_227836566<u16>
+Field_627540281<u8>

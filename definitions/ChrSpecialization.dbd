@@ -1,83 +1,83 @@
 COLUMNS
 int ID
-string backgroundFile
-int<ChrClasses::ID> classID
-int<Spell::ID> masterySpellID
-int orderIndex
-int petTalentType
-int role
-int spellIconID
-int raidBuffs
-int flags
-locstring name_lang
-locstring description_lang
-int maxBuffs
-int primaryStatOrder
-int animReplacements
-locstring femaleName_lang
-int primaryStatPriority
-int spellIconFileID
+string BackgroundFile
+int<ChrClasses::ID> ClassID
+int<Spell::ID> MasterySpellID
+int OrderIndex
+int PetTalentType
+int Role
+int SpellIconID
+int RaidBuffs
+int Flags
+locstring Name_lang
+locstring Description_lang
+int MaxBuffs
+int PrimaryStatOrder
+int AnimReplacements
+locstring FemaleName_lang
+int PrimaryStatPriority
+int SpellIconFileID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-backgroundFile
-classID<32>
-masterySpellID<32>[2]
-orderIndex<32>
-petTalentType<32>
-role<32>
-spellIconID<32>
-raidBuffs<32>
-flags<32>
-name_lang
-description_lang
-maxBuffs<32>
-primaryStatOrder<32>[3]
+BackgroundFile
+ClassID<32>
+MasterySpellID<32>[2]
+OrderIndex<32>
+PetTalentType<32>
+Role<32>
+SpellIconID<32>
+RaidBuffs<32>
+Flags<32>
+Name_lang
+Description_lang
+MaxBuffs<32>
+PrimaryStatOrder<32>[3]
 
 LAYOUT 3D86B8F7
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-name_lang
-femaleName_lang
-description_lang
-masterySpellID<32>[2]
-$relation$classID<8>
-orderIndex<8>
-petTalentType<8>
-role<8>
-primaryStatPriority<8>
+Name_lang
+FemaleName_lang
+Description_lang
+MasterySpellID<32>[2]
+$relation$ClassID<8>
+OrderIndex<8>
+PetTalentType<8>
+Role<8>
+PrimaryStatPriority<8>
 $id$ID<32>
-spellIconFileID<32>
-flags<u32>
-animReplacements<32>
+SpellIconFileID<32>
+Flags<u32>
+AnimReplacements<32>
 
 LAYOUT 2ADA8045
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-name_lang
-femaleName_lang
-description_lang
-masterySpellID<32>[2]
-$relation$classID<8>
-orderIndex<8>
-petTalentType<8>
-role<8>
-primaryStatPriority<8>
+Name_lang
+FemaleName_lang
+Description_lang
+MasterySpellID<32>[2]
+$relation$ClassID<8>
+OrderIndex<8>
+PetTalentType<8>
+Role<8>
+PrimaryStatPriority<8>
 $id$ID<32>
-flags<32>
-spellIconFileID<32>
-animReplacements<32>
+Flags<32>
+SpellIconFileID<32>
+AnimReplacements<32>
 
 LAYOUT FF9DD5DD
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-name_lang
-femaleName_lang
-description_lang
+Name_lang
+FemaleName_lang
+Description_lang
 $id$ID<32>
-$relation$classID<8>
-orderIndex<8>
-petTalentType<8>
-role<8>
-flags<u32>
-spellIconFileID<32>
-primaryStatPriority<8>
-animReplacements<32>
-masterySpellID<32>[2]
+$relation$ClassID<8>
+OrderIndex<8>
+PetTalentType<8>
+Role<8>
+Flags<u32>
+SpellIconFileID<32>
+PrimaryStatPriority<8>
+AnimReplacements<32>
+MasterySpellID<32>[2]

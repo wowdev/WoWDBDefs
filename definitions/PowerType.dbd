@@ -1,58 +1,58 @@
 COLUMNS
 int ID
-int centerPower
-string costGlobalStringTag
-int defaultPower
-int displayModifier
-int flags
-int maxBasePower
-int minPower
-string nameGlobalStringTag
-int powerTypeEnum
-float regenCombat
-int regenInterruptTimeMS
-float regenPeace
-string field_1584900022
-string field_1339054220
-int field_108639436
-int field_1930584714
-int field_376393415
-int field_1478002112
-int field_1676396563
-int field_1782734182
-int field_1105428202
-float field_458003744
-float field_1913061300
-int field_866491724
+int CenterPower
+string CostGlobalStringTag
+int DefaultPower
+int DisplayModifier
+int Flags
+int MaxBasePower
+int MinPower
+string NameGlobalStringTag
+int PowerTypeEnum
+float RegenCombat
+int RegenInterruptTimeMS
+float RegenPeace
+string Field_1584900022
+string Field_1339054220
+int Field_108639436
+int Field_1930584714
+int Field_376393415
+int Field_1478002112
+int Field_1676396563
+int Field_1782734182
+int Field_1105428202
+float Field_458003744
+float Field_1913061300
+int Field_866491724
 
 LAYOUT 0C3844E1, DAE0AE89
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-nameGlobalStringTag
-costGlobalStringTag
-regenPeace
-regenCombat
-maxBasePower<16>
-regenInterruptTimeMS<16>
-flags<16>
-powerTypeEnum<8>
-minPower<8>
-centerPower<8>
-defaultPower<8>
-displayModifier<8>
+NameGlobalStringTag
+CostGlobalStringTag
+RegenPeace
+RegenCombat
+MaxBasePower<16>
+RegenInterruptTimeMS<16>
+Flags<16>
+PowerTypeEnum<8>
+MinPower<8>
+CenterPower<8>
+DefaultPower<8>
+DisplayModifier<8>
 
 LAYOUT 6D438CB5
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1584900022
-field_1339054220
-field_108639436<8>
-field_1930584714<8>
-field_376393415<16>
-field_1478002112<8>
-field_1676396563<8>
-field_1782734182<8>
-field_1105428202<16>
-field_458003744
-field_1913061300
-field_866491724<16>
+Field_1584900022
+Field_1339054220
+Field_108639436<8>
+Field_1930584714<8>
+Field_376393415<16>
+Field_1478002112<8>
+Field_1676396563<8>
+Field_1782734182<8>
+Field_1105428202<16>
+Field_458003744
+Field_1913061300
+Field_866491724<16>

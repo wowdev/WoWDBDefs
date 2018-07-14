@@ -1,50 +1,50 @@
 COLUMNS
 int ID
-int areaID
-int<Map::ID> mapID
-int orderIndex
-float region
-int<UiMap::ID> uiMapID
-float uiMax
-float uiMin
+int AreaID
+int<Map::ID> MapID
+int OrderIndex
+float Region
+int<UiMap::ID> UiMapID
+float UiMax
+float UiMin
 int WMODoodadPlacementID
 int WMOGroupID
 
 LAYOUT FEC56AE4
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $id$ID<32>
-$relation$uiMapID<32>
-orderIndex<32>
-uiMin[2]
-uiMax[2]
-mapID<32>
-areaID<32>
+$relation$UiMapID<32>
+OrderIndex<32>
+UiMin[2]
+UiMax[2]
+MapID<32>
+AreaID<32>
 WMODoodadPlacementID<32>
 WMOGroupID<32>
-region[6]
+Region[6]
 
 LAYOUT 4D9CBBCA
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $id$ID<32>
-uiMin[2]
-uiMax[2]
-mapID<32>
-areaID<32>
+UiMin[2]
+UiMax[2]
+MapID<32>
+AreaID<32>
 WMODoodadPlacementID<32>
 WMOGroupID<32>
-region[6]
-$relation$uiMapID<32>
-orderIndex<32>
+Region[6]
+$relation$UiMapID<32>
+OrderIndex<32>
 
 LAYOUT FA919770
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-uiMin[2]
-uiMax[2]
-region[6]
+UiMin[2]
+UiMax[2]
+Region[6]
 $id$ID<32>
-$relation$uiMapID<32>
-orderIndex<32>
-mapID<32>
-areaID<32>
+$relation$UiMapID<32>
+OrderIndex<32>
+MapID<32>
+AreaID<32>
 WMODoodadPlacementID<32>
 WMOGroupID<32>

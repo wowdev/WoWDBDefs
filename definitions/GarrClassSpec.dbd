@@ -1,48 +1,48 @@
 COLUMNS
-string field_2562876151?
-int field_2330270230?
-int field_4069933785?
+string Field_2562876151?
+int Field_2330270230?
+int Field_4069933785?
 int ID
-locstring classSpec_lang
-locstring classSpec_Female_lang
-locstring classSpec_Male_lang
-int flags
-int followerClassLimit
-int garrFollItemSetID
-int uiTextureAtlasMemberID
-locstring field_1188022850_lang
-locstring field_577921910_lang
-locstring field_698836847_lang
-int field_1271104612
-int field_278612190
-int field_1857307150
-int field_392006238
-int field_1835572522
+locstring ClassSpec_lang
+locstring ClassSpec_Female_lang
+locstring ClassSpec_Male_lang
+int Flags
+int FollowerClassLimit
+int GarrFollItemSetID
+int UiTextureAtlasMemberID
+locstring Field_1188022850_lang
+locstring Field_577921910_lang
+locstring Field_698836847_lang
+int Field_1271104612
+int Field_278612190
+int Field_1857307150
+int Field_392006238
+int Field_1835572522
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_2562876151
-field_2330270230<32>
-field_4069933785<32>
+Field_2562876151
+Field_2330270230<32>
+Field_4069933785<32>
 
 LAYOUT 194CD478, C54FBDB0
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-classSpec_lang
-classSpec_Male_lang
-classSpec_Female_lang
-uiTextureAtlasMemberID<u16>
-garrFollItemSetID<u16>
-followerClassLimit<u8>
-flags<u8>
+ClassSpec_lang
+ClassSpec_Male_lang
+ClassSpec_Female_lang
+UiTextureAtlasMemberID<u16>
+GarrFollItemSetID<u16>
+FollowerClassLimit<u8>
+Flags<u8>
 $id$ID<u32>
 
 LAYOUT 644E1AC4
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-field_1188022850_lang
-field_577921910_lang
-field_698836847_lang
-$id$field_1271104612<u32>
-field_278612190<u16>
-field_1857307150<u16>
-field_392006238<u8>
-field_1835572522<u8>
+Field_1188022850_lang
+Field_577921910_lang
+Field_698836847_lang
+$id$Field_1271104612<u32>
+Field_278612190<u16>
+Field_1857307150<u16>
+Field_392006238<u8>
+Field_1835572522<u8>

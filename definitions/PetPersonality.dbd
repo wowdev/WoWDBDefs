@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-locstring name_lang
-int happinessThreshold
-float happinessDamage
+locstring Name_lang
+int HappinessThreshold
+float HappinessDamage
 
 BUILD 4.0.0.11792
 $id$ID<32>
-name_lang
-happinessThreshold<32>[3]
-happinessDamage[3]
+Name_lang
+HappinessThreshold<32>[3]
+HappinessDamage[3]

@@ -1,110 +1,110 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-int instanceType
-int groupsAllowed
-locstring name_lang
-int maxGroupSize
-int<WorldState::ID> holidayWorldState
-int minlevel
-int maxlevel
-int ratedPlayers
-int minPlayers
-int maxPlayers
-int flags
-int<FileData::ID> iconFileDataID
-locstring gametype_lang
-locstring longDescription_lang
-int required_Player_Condition_ID
-locstring shortDescription_lang
+int<Map::ID> MapID
+int InstanceType
+int GroupsAllowed
+locstring Name_lang
+int MaxGroupSize
+int<WorldState::ID> HolidayWorldState
+int Minlevel
+int Maxlevel
+int RatedPlayers
+int MinPlayers
+int MaxPlayers
+int Flags
+int<FileData::ID> IconFileDataID
+locstring Gametype_lang
+locstring LongDescription_lang
+int Required_Player_Condition_ID
+locstring ShortDescription_lang
 
 BUILD 6.0.1.18179
 $id$ID<32>
-mapID<32>[16]
-instanceType<32>
-groupsAllowed<32>
-name_lang
-maxGroupSize<32>
-holidayWorldState<32>
-minlevel<32>
-maxlevel<32>
-ratedPlayers<32>
-minPlayers<32>
-maxPlayers<32>
-flags<32>
-iconFileDataID<32>
-gametype_lang
+MapID<32>[16]
+InstanceType<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<32>
+Minlevel<32>
+Maxlevel<32>
+RatedPlayers<32>
+MinPlayers<32>
+MaxPlayers<32>
+Flags<32>
+IconFileDataID<32>
+Gametype_lang
 
 LAYOUT D8AAA088
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-name_lang
-gametype_lang
-shortDescription_lang
-longDescription_lang
-iconFileDataID<32>
-mapID<16>[16]
-holidayWorldState<16>
-required_Player_Condition_ID<16>
-instanceType<8>
-groupsAllowed<8>
-maxGroupSize<8>
-minlevel<8>
-maxlevel<8>
-ratedPlayers<8>
-minPlayers<8>
-maxPlayers<8>
-flags<8>
+Name_lang
+Gametype_lang
+ShortDescription_lang
+LongDescription_lang
+IconFileDataID<32>
+MapID<16>[16]
+HolidayWorldState<16>
+Required_Player_Condition_ID<16>
+InstanceType<8>
+GroupsAllowed<8>
+MaxGroupSize<8>
+Minlevel<8>
+Maxlevel<8>
+RatedPlayers<8>
+MinPlayers<8>
+MaxPlayers<8>
+Flags<8>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-mapID<32>[8]
-instanceType<32>
-groupsAllowed<32>
-name_lang
-maxGroupSize<32>
-holidayWorldState<32>
-minlevel<32>
-maxlevel<32>
+MapID<32>[8]
+InstanceType<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<32>
+Minlevel<32>
+Maxlevel<32>
 
 LAYOUT 2A752EB2
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-name_lang
-gametype_lang
-shortDescription_lang
-longDescription_lang
-iconFileDataID<32>
-mapID<16>[16]
-holidayWorldState<16>
-required_Player_Condition_ID<16>
-instanceType<8>
-minlevel<8>
-maxlevel<8>
-ratedPlayers<8>
-minPlayers<8>
-maxPlayers<8>
-groupsAllowed<8>
-maxGroupSize<8>
-flags<8>
+Name_lang
+Gametype_lang
+ShortDescription_lang
+LongDescription_lang
+IconFileDataID<32>
+MapID<16>[16]
+HolidayWorldState<16>
+Required_Player_Condition_ID<16>
+InstanceType<8>
+Minlevel<8>
+Maxlevel<8>
+RatedPlayers<8>
+MinPlayers<8>
+MaxPlayers<8>
+GroupsAllowed<8>
+MaxGroupSize<8>
+Flags<8>
 
 LAYOUT 167284E8
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-name_lang
-gametype_lang
-shortDescription_lang
-longDescription_lang
-instanceType<8>
-minlevel<8>
-maxlevel<8>
-ratedPlayers<8>
-minPlayers<8>
-maxPlayers<8>
-groupsAllowed<8>
-maxGroupSize<8>
-holidayWorldState<16>
-flags<8>
-iconFileDataID<32>
-required_Player_Condition_ID<16>
-mapID<16>[16]
+Name_lang
+Gametype_lang
+ShortDescription_lang
+LongDescription_lang
+InstanceType<8>
+Minlevel<8>
+Maxlevel<8>
+RatedPlayers<8>
+MinPlayers<8>
+MaxPlayers<8>
+GroupsAllowed<8>
+MaxGroupSize<8>
+HolidayWorldState<16>
+Flags<8>
+IconFileDataID<32>
+Required_Player_Condition_ID<16>
+MapID<16>[16]

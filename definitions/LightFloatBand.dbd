@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int num
-int time
-float data
+int Num
+int Time
+float Data
 
 BUILD 4.0.0.11792
 COMMENT unknown_flag=1
 $id$ID<32>
-num<32>
-time<32>[16]
-data[16]
+Num<32>
+Time<32>[16]
+Data[16]

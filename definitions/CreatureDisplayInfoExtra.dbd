@@ -8,13 +8,13 @@ int HairStyleID
 int HairColorID
 int FacialHairID
 int<ItemDisplayInfo::ID> NPCItemDisplay
-int flags
-int<FileData::ID> fileDataID
-int<FileData::ID> hdFileDataID
+int Flags
+int<FileData::ID> FileDataID
+int<FileData::ID> HdFileDataID
 int HDBakeMaterialResourcesID
-int bakeMaterialResourcesID
-int customDisplayOption
-int displayClassID
+int BakeMaterialResourcesID
+int CustomDisplayOption
+int DisplayClassID
 string BakeName
 
 BUILD 6.0.1.18179
@@ -27,25 +27,25 @@ HairStyleID<32>
 HairColorID<32>
 FacialHairID<32>
 NPCItemDisplay<32>[11]
-flags<32>
-fileDataID<32>
-hdFileDataID<32>
+Flags<32>
+FileDataID<32>
+HdFileDataID<32>
 
 LAYOUT 6DF98EF6, 48377C9E
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-bakeMaterialResourcesID<32>
+BakeMaterialResourcesID<32>
 HDBakeMaterialResourcesID<32>
 DisplayRaceID<8>
 DisplaySexID<8>
-displayClassID<8>
+DisplayClassID<8>
 SkinID<8>
 FaceID<8>
 HairStyleID<8>
 HairColorID<8>
 FacialHairID<8>
-customDisplayOption<u8>[3]
-flags<8>
+CustomDisplayOption<u8>[3]
+Flags<8>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -57,7 +57,7 @@ HairStyleID<32>
 HairColorID<32>
 FacialHairID<32>
 NPCItemDisplay<32>[11]
-flags<32>
+Flags<32>
 BakeName
 
 BUILD 0.5.3.3368
@@ -77,13 +77,13 @@ BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.268
 $noninline,id$ID<32>
 DisplayRaceID<8>
 DisplaySexID<8>
-displayClassID<8>
+DisplayClassID<8>
 SkinID<8>
 FaceID<8>
 HairStyleID<8>
 HairColorID<8>
 FacialHairID<8>
-flags<8>
-bakeMaterialResourcesID<32>
+Flags<8>
+BakeMaterialResourcesID<32>
 HDBakeMaterialResourcesID<32>
-customDisplayOption<u8>[3]
+CustomDisplayOption<u8>[3]

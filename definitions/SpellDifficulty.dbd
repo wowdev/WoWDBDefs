@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int difficultySpellID
+int DifficultySpellID
 
 BUILD 4.0.0.11792
 $id$ID<32>
-difficultySpellID<32>[4]
+DifficultySpellID<32>[4]

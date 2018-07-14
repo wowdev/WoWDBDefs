@@ -1,42 +1,42 @@
 COLUMNS
 int ID
-int badgeTextureFileDataID
-int flags
-locstring name_lang
-int prestigeLevel
-int field_1053376238?
-locstring field_1838711077_lang?
-int field_1874725257?
-int field_1905686843?
-int field_3219317051?
-locstring field_065372841_lang
-int field_2066016471
-int field_1610208812
-int field_1207277579
-int field_1598122339
+int BadgeTextureFileDataID
+int Flags
+locstring Name_lang
+int PrestigeLevel
+int Field_1053376238?
+locstring Field_1838711077_lang?
+int Field_1874725257?
+int Field_1905686843?
+int Field_3219317051?
+locstring Field_065372841_lang
+int Field_2066016471
+int Field_1610208812
+int Field_1207277579
+int Field_1598122339
 
 LAYOUT A7B2D559, 101C7EF9
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-name_lang
-badgeTextureFileDataID<32>
-prestigeLevel<u8>
-flags<u8>
+Name_lang
+BadgeTextureFileDataID<32>
+PrestigeLevel<u8>
+Flags<u8>
 
 LAYOUT BB6777DD
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-field_1838711077_lang
-field_1053376238<32>
-field_3219317051<32>
-field_1905686843<8>
-field_1874725257<32>
+Field_1838711077_lang
+Field_1053376238<32>
+Field_3219317051<32>
+Field_1905686843<8>
+Field_1874725257<32>
 
 LAYOUT 31BD813F
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_065372841_lang
-field_2066016471<32>
-field_1610208812<32>
-field_1207277579<u8>
-field_1598122339<32>
+Field_065372841_lang
+Field_2066016471<32>
+Field_1610208812<32>
+Field_1207277579<u8>
+Field_1598122339<32>

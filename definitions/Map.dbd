@@ -8,50 +8,50 @@ int InstanceType // Integer 0: none, 1: party, 2: raid, 3: pvp, 4: arena, >=5: n
 int MapType
 int MinLevel
 int MaxLevel
-int maxPlayers
-int unk0?
-int unk1?
-int unk2?
-int<Map::ID> parentMapID
+int MaxPlayers
+int Unk0?
+int Unk1?
+int Unk2?
+int<Map::ID> ParentMapID
 locstring MapDescription0_lang // Horde
 locstring MapDescription1_lang // Alliance
 int<LoadingScreens::ID> LoadingScreenID
-int raidOffset
-int continentname?
-int unk3?
-int<AreaTable::ID> areaTableID
-float minimapIconScale
-int unk4?
-int timeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
-int expansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
-int unk5? // Another resettime? Is the same as the heroic one for some entries.
+int RaidOffset
+int Continentname?
+int Unk3?
+int<AreaTable::ID> AreaTableID
+float MinimapIconScale
+int Unk4?
+int TimeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
+int ExpansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
+int Unk5? // Another resettime? Is the same as the heroic one for some entries.
 int Flags? // probaby same as isBattleground
-int<Map::ID> corpseMapID
+int<Map::ID> CorpseMapID
 float CorpsePosX?
 float CorpsePosY?
-float corpse // Array of CorpsePosX/CorpsePosY
-int<Map::ID> cosmeticParentMapID
-int timeOffset
+float Corpse // Array of CorpsePosX/CorpsePosY
+int<Map::ID> CosmeticParentMapID
+int TimeOffset
 int<WindSettings::ID> WindSettingsID
 locstring PvpShortDescription_lang
 locstring PvpLongDescription_lang
-float corpseX
-float corpseY
-int zmpFileDataID
-int field_2090129712
-int field_1778819221
-int field_399808840
-int field_546616973
-int field_539990556
-int field_1045699054
-int field_1018945417
-int field_211416088
-int field_1681684665
-float field_1881958792
-int field_1538714857
-int field_1857385420
-int field_163350789
-int field_775554925
+float CorpseX
+float CorpseY
+int ZmpFileDataID
+int Field_2090129712
+int Field_1778819221
+int Field_399808840
+int Field_546616973
+int Field_539990556
+int Field_1045699054
+int Field_1018945417
+int Field_211416088
+int Field_1681684665
+float Field_1881958792
+int Field_1538714857
+int Field_1857385420
+int Field_163350789
+int Field_775554925
 
 LAYOUT F568DF12
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -65,20 +65,20 @@ MapDescription1_lang
 PvpShortDescription_lang
 PvpLongDescription_lang
 Flags<32>[2]
-minimapIconScale
-corpse[2]
-areaTableID<u16>
+MinimapIconScale
+Corpse[2]
+AreaTableID<u16>
 LoadingScreenID<16>
-corpseMapID<16>
-timeOfDayOverride<16>
-parentMapID<16>
-cosmeticParentMapID<16>
+CorpseMapID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
 WindSettingsID<16>
 InstanceType<u8>
 MapType<u8>
-expansionID<u8>
-maxPlayers<u8>
-timeOffset<u8>
+ExpansionID<u8>
+MaxPlayers<u8>
+TimeOffset<u8>
 
 LAYOUT C34CD39B, AFAFB470, A37A2830
 BUILD 7.2.0.23530-7.2.0.23937
@@ -88,25 +88,25 @@ BUILD 7.3.2.25135-7.3.2.25549
 $noninline,id$ID<32>
 Directory
 Flags<32>[2]
-minimapIconScale
-corpse[2]
+MinimapIconScale
+Corpse[2]
 MapName_lang
 MapDescription0_lang
 MapDescription1_lang
 PvpShortDescription_lang
 PvpLongDescription_lang
-areaTableID<16>
+AreaTableID<16>
 LoadingScreenID<16>
-corpseMapID<16>
-timeOfDayOverride<16>
-parentMapID<16>
-cosmeticParentMapID<16>
+CorpseMapID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
 WindSettingsID<16>
 InstanceType<8>
 MapType<8>
-expansionID<8>
-maxPlayers<8>
-timeOffset<8>
+ExpansionID<8>
+MaxPlayers<8>
+TimeOffset<8>
 
 LAYOUT B32E648C, F7CF2DA2, BDBE8188, 98BE9895
 BUILD 7.0.3.21796-7.0.3.22747
@@ -116,68 +116,68 @@ BUILD 7.2.0.23436-7.2.0.23514
 $noninline,id$ID<32>
 Directory
 Flags<32>[2]
-minimapIconScale
-corpse[2]
+MinimapIconScale
+Corpse[2]
 MapName_lang
 MapDescription0_lang
 MapDescription1_lang
-areaTableID<16>
+AreaTableID<16>
 LoadingScreenID<16>
-corpseMapID<16>
-timeOfDayOverride<16>
-parentMapID<16>
-cosmeticParentMapID<16>
+CorpseMapID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
 WindSettingsID<16>
 InstanceType<8>
 MapType<8>
-expansionID<8>
-maxPlayers<8>
-timeOffset<8>
+ExpansionID<8>
+MaxPlayers<8>
+TimeOffset<8>
 
 LAYOUT 27D77AEF
 BUILD 7.0.3.21473-7.0.3.21737
 $noninline,id$ID<32>
 Directory
 Flags<32>[2]
-minimapIconScale
-corpse[2]
+MinimapIconScale
+Corpse[2]
 MapName_lang
 MapDescription0_lang
 MapDescription1_lang
-areaTableID<16>
+AreaTableID<16>
 LoadingScreenID<16>
-corpseMapID<16>
-timeOfDayOverride<16>
-parentMapID<16>
-cosmeticParentMapID<16>
+CorpseMapID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
 InstanceType<8>
 MapType<8>
-expansionID<8>
-maxPlayers<8>
-timeOffset<8>
+ExpansionID<8>
+MaxPlayers<8>
+TimeOffset<8>
 
 BUILD 6.0.2.18837
 $id$ID<32>
 Directory
 InstanceType<32>
-unk0<32>
+Unk0<32>
 Flags<32>
 MapType<32>
 MapName_lang
-areaTableID<32>
+AreaTableID<32>
 MapDescription0_lang
 MapDescription1_lang
 LoadingScreenID<32>
-minimapIconScale
-corpseMapID<32>
-corpse[2]
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
-maxPlayers<32>
-parentMapID<32>
-cosmeticParentMapID<32>
-timeOffset<32>
+MinimapIconScale
+CorpseMapID<32>
+Corpse[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<32>
+CosmeticParentMapID<32>
+TimeOffset<32>
 
 BUILD 6.0.1.18125-6.0.2.18833
 $id$ID<32>
@@ -186,20 +186,20 @@ InstanceType<32>
 Flags<32>
 MapType<32>
 MapName_lang
-areaTableID<32>
+AreaTableID<32>
 MapDescription0_lang
 MapDescription1_lang
 LoadingScreenID<32>
-minimapIconScale
-corpseMapID<32>
-corpse[2]
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
-maxPlayers<32>
-parentMapID<32>
-cosmeticParentMapID<32>
-timeOffset<32>
+MinimapIconScale
+CorpseMapID<32>
+Corpse[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<32>
+CosmeticParentMapID<32>
+TimeOffset<32>
 
 BUILD 4.0.1.12911
 $id$ID<32>
@@ -208,19 +208,19 @@ InstanceType<32>
 Flags<32>
 PVP<32>
 MapName_lang
-areaTableID<32>
+AreaTableID<32>
 MapDescription0_lang
 MapDescription1_lang
 LoadingScreenID<32>
-minimapIconScale
-corpseMapID<32>
+MinimapIconScale
+CorpseMapID<32>
 CorpsePosX
 CorpsePosY
-unk2<32>
-expansionID<32>
-unk3<32>
-unk4<32>
-unk5<32>
+Unk2<32>
+ExpansionID<32>
+Unk3<32>
+Unk4<32>
+Unk5<32>
 
 BUILD 1.12.1.5875
 $id$ID<32>
@@ -230,17 +230,17 @@ MapType<32>
 MapName_lang
 MinLevel<32>
 MaxLevel<32>
-maxPlayers<32>
-unk0<32>
-unk1<32>
-unk2<32>
-parentMapID<32>
+MaxPlayers<32>
+Unk0<32>
+Unk1<32>
+Unk2<32>
+ParentMapID<32>
 MapDescription0_lang
 MapDescription1_lang
 LoadingScreenID<32>
-raidOffset<32>
-continentname<32>
-unk4<32>
+RaidOffset<32>
+Continentname<32>
+Unk4<32>
 
 BUILD 0.9.1.3810
 $id$ID<32>
@@ -249,13 +249,13 @@ PVP<32>
 MapName_lang
 MinLevel<32>
 MaxLevel<32>
-unk0<32>
-unk1<32>
-unk2<32>
-unk3<32>
+Unk0<32>
+Unk1<32>
+Unk2<32>
+Unk3<32>
 MapDescription0_lang
 MapDescription1_lang
-unk4<32>
+Unk4<32>
 
 BUILD 0.7.0.3694, 0.7.1.3702, 0.7.6.3712
 $id$ID<32>
@@ -264,9 +264,9 @@ PVP<32>
 MapName_lang
 MinLevel<32>
 MaxLevel<32>
-unk0<32>
-unk1<32>
-unk2<32>
+Unk0<32>
+Unk1<32>
+Unk2<32>
 MapDescription0_lang
 MapDescription1_lang
 
@@ -284,19 +284,19 @@ InstanceType<32>
 Flags<32>
 PVP<32>
 MapName_lang
-areaTableID<32>
+AreaTableID<32>
 MapDescription0_lang
 MapDescription1_lang
 LoadingScreenID<32>
-minimapIconScale
-corpseMapID<32>
-corpseX
-corpseY
-timeOfDayOverride<32>
-expansionID<32>
-raidOffset<32>
-maxPlayers<32>
-parentMapID<32>
+MinimapIconScale
+CorpseMapID<32>
+CorpseX
+CorpseY
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<32>
 
 LAYOUT 72DD596B
 BUILD 8.0.1.26297
@@ -308,20 +308,20 @@ MapDescription1_lang
 PvpShortDescription_lang
 PvpLongDescription_lang
 Flags<32>[2]
-minimapIconScale
-corpse[2]
-areaTableID<16>
+MinimapIconScale
+Corpse[2]
+AreaTableID<16>
 LoadingScreenID<16>
-timeOfDayOverride<16>
-parentMapID<16>
-cosmeticParentMapID<16>
-corpseMapID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+CorpseMapID<16>
 WindSettingsID<16>
 MapType<8>
 InstanceType<8>
-expansionID<8>
-timeOffset<8>
-maxPlayers<8>
+ExpansionID<8>
+TimeOffset<8>
+MaxPlayers<8>
 
 LAYOUT 1CFE0E06
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -333,21 +333,21 @@ MapDescription1_lang
 PvpShortDescription_lang
 PvpLongDescription_lang
 Flags<32>[2]
-minimapIconScale
-corpse[2]
-zmpFileDataID<32>
-areaTableID<16>
+MinimapIconScale
+Corpse[2]
+ZmpFileDataID<32>
+AreaTableID<16>
 LoadingScreenID<16>
-timeOfDayOverride<16>
-parentMapID<16>
-cosmeticParentMapID<16>
-corpseMapID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+CorpseMapID<16>
 WindSettingsID<16>
 MapType<8>
 InstanceType<8>
-expansionID<8>
-timeOffset<8>
-maxPlayers<8>
+ExpansionID<8>
+TimeOffset<8>
+MaxPlayers<8>
 
 LAYOUT 503A3E58
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
@@ -358,19 +358,19 @@ MapDescription0_lang
 MapDescription1_lang
 PvpShortDescription_lang
 PvpLongDescription_lang
-corpse[2]
-field_2090129712<u8>
-field_1778819221<8>
-field_399808840<u8>
-field_546616973<u16>
-field_539990556<16>
-field_1045699054<16>
-field_1018945417<16>
-field_211416088<16>
-field_1681684665<u8>
-field_1881958792
-field_1538714857<16>
-field_1857385420<u8>
-field_163350789<16>
-field_775554925<32>
+Corpse[2]
+Field_2090129712<u8>
+Field_1778819221<8>
+Field_399808840<u8>
+Field_546616973<u16>
+Field_539990556<16>
+Field_1045699054<16>
+Field_1018945417<16>
+Field_211416088<16>
+Field_1681684665<u8>
+Field_1881958792
+Field_1538714857<16>
+Field_1857385420<u8>
+Field_163350789<16>
+Field_775554925<32>
 Flags<32>[2]

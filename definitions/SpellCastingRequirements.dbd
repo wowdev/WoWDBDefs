@@ -1,47 +1,47 @@
 COLUMNS
 int ID
-int facingCasterFlags
-int minFactionID
-int minReputation
-int requiredAreasID
-int requiredAuraVision
-int requiresSpellFocus
-int spellID
-int field_474016118
-int field_1361676462
-int field_510956016
-int field_852226114
-int field_886758133
-int field_964914469
-int field_424275316
+int FacingCasterFlags
+int MinFactionID
+int MinReputation
+int RequiredAreasID
+int RequiredAuraVision
+int RequiresSpellFocus
+int SpellID
+int Field_474016118
+int Field_1361676462
+int Field_510956016
+int Field_852226114
+int Field_886758133
+int Field_964914469
+int Field_424275316
 
 BUILD 6.0.1.18179
 $id$ID<32>
-facingCasterFlags<32>
-minFactionID<32>
-minReputation<32>
-requiredAreasID<32>
-requiredAuraVision<32>
-requiresSpellFocus<32>
+FacingCasterFlags<32>
+MinFactionID<32>
+MinReputation<32>
+RequiredAreasID<32>
+RequiredAuraVision<32>
+RequiresSpellFocus<32>
 
 LAYOUT D8B56E5D, 2ACD4ED9
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-spellID<32>
-minFactionID<u16>
-requiredAreasID<u16>
-requiresSpellFocus<u16>
-facingCasterFlags<u8>
-minReputation<8>
-requiredAuraVision<u8>
+SpellID<32>
+MinFactionID<u16>
+RequiredAreasID<u16>
+RequiresSpellFocus<u16>
+FacingCasterFlags<u8>
+MinReputation<8>
+RequiredAuraVision<u8>
 
 LAYOUT C6D7C649
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_474016118<32>
-field_1361676462<u8>
-field_510956016<u16>
-field_852226114<8>
-field_886758133<u16>
-field_964914469<u8>
-field_424275316<u16>
+Field_474016118<32>
+Field_1361676462<u8>
+Field_510956016<u16>
+Field_852226114<8>
+Field_886758133<u16>
+Field_964914469<u8>
+Field_424275316<u16>

@@ -1,76 +1,76 @@
 COLUMNS
 int ID
-int collisionHull
-float facing
-int flags
-int gameEventID
-int gameObjectID
-int multiPropertiesID
-float offset
-int stateIndex
-int transitionInID
-int transitionOutID
-float field_094909778
-int field_164844277
-int field_2115015440
-int field_929250662
-float field_220401636
-int field_1307275185
-int field_370170754
-int field_389823965
-int field_2094790122
-int field_1038963388
-float field_1719017955
-int field_1844131858
-int field_2026844831
-int field_264120658
-float field_1452301615
-int field_415160286
-int field_075280213
-int field_644817815
-int field_896723031
-int field_1769717391
-int field_1745528148
+int CollisionHull
+float Facing
+int Flags
+int GameEventID
+int GameObjectID
+int MultiPropertiesID
+float Offset
+int StateIndex
+int TransitionInID
+int TransitionOutID
+float Field_094909778
+int Field_164844277
+int Field_2115015440
+int Field_929250662
+float Field_220401636
+int Field_1307275185
+int Field_370170754
+int Field_389823965
+int Field_2094790122
+int Field_1038963388
+float Field_1719017955
+int Field_1844131858
+int Field_2026844831
+int Field_264120658
+float Field_1452301615
+int Field_415160286
+int Field_075280213
+int Field_644817815
+int Field_896723031
+int Field_1769717391
+int Field_1745528148
 
 LAYOUT E44B382C, D06E1904
 BUILD 8.0.1.26175, 8.0.1.26231, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-offset[3]
-stateIndex<8>
-gameObjectID<32>
-gameEventID<32>
-facing
-transitionInID<32>
-transitionOutID<32>
-collisionHull<32>
-flags<32>
-$noninline,relation$multiPropertiesID<32>
+Offset[3]
+StateIndex<8>
+GameObjectID<32>
+GameEventID<32>
+Facing
+TransitionInID<32>
+TransitionOutID<32>
+CollisionHull<32>
+Flags<32>
+$noninline,relation$MultiPropertiesID<32>
 
 LAYOUT 1646DB5C
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838
 $noninline,id$ID<32>
-field_094909778[3]
-field_164844277<32>
-field_2115015440<u8>
-field_929250662<32>
-field_220401636
-field_1307275185<32>
-field_370170754<32>
-field_389823965<32>
-field_2094790122<u32>
-$noninline,relation$field_1038963388<32>
+Field_094909778[3]
+Field_164844277<32>
+Field_2115015440<u8>
+Field_929250662<32>
+Field_220401636
+Field_1307275185<32>
+Field_370170754<32>
+Field_389823965<32>
+Field_2094790122<u32>
+$noninline,relation$Field_1038963388<32>
 
 LAYOUT 50BB5EDC
 BUILD 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1719017955[3]
-field_1844131858<32>
-field_2026844831<u8>
-field_264120658<32>
-field_1452301615
-field_415160286<32>
-field_075280213<32>
-field_644817815<32>
-field_896723031<u32>
-field_1769717391<32>
-$noninline,relation$field_1745528148<32>
+Field_1719017955[3]
+Field_1844131858<32>
+Field_2026844831<u8>
+Field_264120658<32>
+Field_1452301615
+Field_415160286<32>
+Field_075280213<32>
+Field_644817815<32>
+Field_896723031<u32>
+Field_1769717391<32>
+$noninline,relation$Field_1745528148<32>

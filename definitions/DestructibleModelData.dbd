@@ -1,173 +1,173 @@
 COLUMNS
 int ID
-int state0WMO
-int state0ImpactEffectDoodadSet
-int state0AmbientDoodadSet
-int state0NameSet
-int state1WMO
-int state1DestructionDoodadSet
-int state1ImpactEffectDoodadSet
-int state1AmbientDoodadSet
-int state1NameSet
-int state2WMO
-int state2DestructionDoodadSet
-int state2ImpactEffectDoodadSet
-int state2AmbientDoodadSet
-int state2NameSet
-int state3WMO
-int state3InitDoodadSet
-int state3AmbientDoodadSet
-int state3NameSet
-int ejectDirection
-int repairGroundFx
-int doNotHighlight
-int healEffect
-int healEffectSpeed
-int field_1223739298
-int field_1811979594
-int field_2053102413
-int field_262660641
-int field_386574869
-int field_1715850669
-int field_983993555
-int field_1048495907
-int field_1639174436
-int field_371401706
-int field_1340227118
-int field_810782199
-int field_1720993178
-int field_1655050907
-int field_440143965
-int field_1208939916
-int field_624790910
-int field_2106217340
-int field_853971437
-int field_609201335
-int field_2069839283
-int field_1104970106
+int State0WMO
+int State0ImpactEffectDoodadSet
+int State0AmbientDoodadSet
+int State0NameSet
+int State1WMO
+int State1DestructionDoodadSet
+int State1ImpactEffectDoodadSet
+int State1AmbientDoodadSet
+int State1NameSet
+int State2WMO
+int State2DestructionDoodadSet
+int State2ImpactEffectDoodadSet
+int State2AmbientDoodadSet
+int State2NameSet
+int State3WMO
+int State3InitDoodadSet
+int State3AmbientDoodadSet
+int State3NameSet
+int EjectDirection
+int RepairGroundFx
+int DoNotHighlight
+int HealEffect
+int HealEffectSpeed
+int Field_1223739298
+int Field_1811979594
+int Field_2053102413
+int Field_262660641
+int Field_386574869
+int Field_1715850669
+int Field_983993555
+int Field_1048495907
+int Field_1639174436
+int Field_371401706
+int Field_1340227118
+int Field_810782199
+int Field_1720993178
+int Field_1655050907
+int Field_440143965
+int Field_1208939916
+int Field_624790910
+int Field_2106217340
+int Field_853971437
+int Field_609201335
+int Field_2069839283
+int Field_1104970106
 
 BUILD 6.0.1.18179
 $id$ID<32>
-state0WMO<32>
-state0ImpactEffectDoodadSet<32>
-state0AmbientDoodadSet<32>
-state0NameSet<32>
-state1WMO<32>
-state1DestructionDoodadSet<32>
-state1ImpactEffectDoodadSet<32>
-state1AmbientDoodadSet<32>
-state1NameSet<32>
-state2WMO<32>
-state2DestructionDoodadSet<32>
-state2ImpactEffectDoodadSet<32>
-state2AmbientDoodadSet<32>
-state2NameSet<32>
-state3WMO<32>
-state3InitDoodadSet<32>
-state3AmbientDoodadSet<32>
-state3NameSet<32>
-ejectDirection<32>
-repairGroundFx<32>
-doNotHighlight<32>
-healEffect<32>
-healEffectSpeed<32>
+State0WMO<32>
+State0ImpactEffectDoodadSet<32>
+State0AmbientDoodadSet<32>
+State0NameSet<32>
+State1WMO<32>
+State1DestructionDoodadSet<32>
+State1ImpactEffectDoodadSet<32>
+State1AmbientDoodadSet<32>
+State1NameSet<32>
+State2WMO<32>
+State2DestructionDoodadSet<32>
+State2ImpactEffectDoodadSet<32>
+State2AmbientDoodadSet<32>
+State2NameSet<32>
+State3WMO<32>
+State3InitDoodadSet<32>
+State3AmbientDoodadSet<32>
+State3NameSet<32>
+EjectDirection<32>
+RepairGroundFx<32>
+DoNotHighlight<32>
+HealEffect<32>
+HealEffectSpeed<32>
 
 LAYOUT 1092C9AF
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-state0WMO<u16>
-state1WMO<u16>
-state2WMO<u16>
-state3WMO<u16>
-healEffectSpeed<u16>
-state0ImpactEffectDoodadSet<8>
-state0AmbientDoodadSet<u8>
-state0NameSet<8>
-state1DestructionDoodadSet<8>
-state1ImpactEffectDoodadSet<8>
-state1AmbientDoodadSet<u8>
-state1NameSet<8>
-state2DestructionDoodadSet<8>
-state2ImpactEffectDoodadSet<8>
-state2AmbientDoodadSet<u8>
-state2NameSet<8>
-state3InitDoodadSet<u8>
-state3AmbientDoodadSet<u8>
-state3NameSet<8>
-ejectDirection<u8>
-doNotHighlight<u8>
-healEffect<u8>
+State0WMO<u16>
+State1WMO<u16>
+State2WMO<u16>
+State3WMO<u16>
+HealEffectSpeed<u16>
+State0ImpactEffectDoodadSet<8>
+State0AmbientDoodadSet<u8>
+State0NameSet<8>
+State1DestructionDoodadSet<8>
+State1ImpactEffectDoodadSet<8>
+State1AmbientDoodadSet<u8>
+State1NameSet<8>
+State2DestructionDoodadSet<8>
+State2ImpactEffectDoodadSet<8>
+State2AmbientDoodadSet<u8>
+State2NameSet<8>
+State3InitDoodadSet<u8>
+State3AmbientDoodadSet<u8>
+State3NameSet<8>
+EjectDirection<u8>
+DoNotHighlight<u8>
+HealEffect<u8>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-state0WMO<32>
-state0ImpactEffectDoodadSet<32>
-state0AmbientDoodadSet<32>
-state1WMO<32>
-state1DestructionDoodadSet<32>
-state1ImpactEffectDoodadSet<32>
-state1AmbientDoodadSet<32>
-state2WMO<32>
-state2DestructionDoodadSet<32>
-state2ImpactEffectDoodadSet<32>
-state2AmbientDoodadSet<32>
-state3WMO<32>
-state3InitDoodadSet<32>
-state3AmbientDoodadSet<32>
-ejectDirection<32>
-repairGroundFx<32>
-doNotHighlight<32>
-healEffect<32>
-healEffectSpeed<32>
+State0WMO<32>
+State0ImpactEffectDoodadSet<32>
+State0AmbientDoodadSet<32>
+State1WMO<32>
+State1DestructionDoodadSet<32>
+State1ImpactEffectDoodadSet<32>
+State1AmbientDoodadSet<32>
+State2WMO<32>
+State2DestructionDoodadSet<32>
+State2ImpactEffectDoodadSet<32>
+State2AmbientDoodadSet<32>
+State3WMO<32>
+State3InitDoodadSet<32>
+State3AmbientDoodadSet<32>
+EjectDirection<32>
+RepairGroundFx<32>
+DoNotHighlight<32>
+HealEffect<32>
+HealEffectSpeed<32>
 
 LAYOUT 9AB21573
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-state1WMO<16>
-state2WMO<16>
-state3WMO<16>
-state0WMO<16>
-healEffectSpeed<16>
-state0ImpactEffectDoodadSet<8>
-state0AmbientDoodadSet<8>
-state1DestructionDoodadSet<8>
-state1ImpactEffectDoodadSet<8>
-state1AmbientDoodadSet<8>
-state2DestructionDoodadSet<8>
-state2ImpactEffectDoodadSet<8>
-state2AmbientDoodadSet<8>
-state3InitDoodadSet<8>
-state3AmbientDoodadSet<8>
-ejectDirection<8>
-doNotHighlight<8>
-healEffect<8>
-state0NameSet<8>
-state1NameSet<8>
-state2NameSet<8>
-state3NameSet<8>
+State1WMO<16>
+State2WMO<16>
+State3WMO<16>
+State0WMO<16>
+HealEffectSpeed<16>
+State0ImpactEffectDoodadSet<8>
+State0AmbientDoodadSet<8>
+State1DestructionDoodadSet<8>
+State1ImpactEffectDoodadSet<8>
+State1AmbientDoodadSet<8>
+State2DestructionDoodadSet<8>
+State2ImpactEffectDoodadSet<8>
+State2AmbientDoodadSet<8>
+State3InitDoodadSet<8>
+State3AmbientDoodadSet<8>
+EjectDirection<8>
+DoNotHighlight<8>
+HealEffect<8>
+State0NameSet<8>
+State1NameSet<8>
+State2NameSet<8>
+State3NameSet<8>
 
 LAYOUT F245BA93
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1223739298<8>
-field_1811979594<u8>
-field_2053102413<u16>
-field_262660641<8>
-field_386574869<8>
-field_1715850669<u8>
-field_983993555<u16>
-field_1048495907<8>
-field_1639174436<8>
-field_371401706<u8>
-field_1340227118<u16>
-field_810782199<u8>
-field_1720993178<u8>
-field_1655050907<u8>
-field_440143965<u8>
-field_1208939916<u16>
-field_624790910<u8>
-field_2106217340<u16>
-field_853971437<8>
-field_609201335<8>
-field_2069839283<8>
-field_1104970106<8>
+Field_1223739298<8>
+Field_1811979594<u8>
+Field_2053102413<u16>
+Field_262660641<8>
+Field_386574869<8>
+Field_1715850669<u8>
+Field_983993555<u16>
+Field_1048495907<8>
+Field_1639174436<8>
+Field_371401706<u8>
+Field_1340227118<u16>
+Field_810782199<u8>
+Field_1720993178<u8>
+Field_1655050907<u8>
+Field_440143965<u8>
+Field_1208939916<u16>
+Field_624790910<u8>
+Field_2106217340<u16>
+Field_853971437<8>
+Field_609201335<8>
+Field_2069839283<8>
+Field_1104970106<8>

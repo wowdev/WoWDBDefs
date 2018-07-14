@@ -1,28 +1,28 @@
 COLUMNS
 int ID
-int dissolveEffectID
-int dstCreatureDisplayInfoID
-int finishVisualKitID
-float maxTime
-int srcCreatureDisplayInfoID
-int startVisualKitID
+int DissolveEffectID
+int DstCreatureDisplayInfoID
+int FinishVisualKitID
+float MaxTime
+int SrcCreatureDisplayInfoID
+int StartVisualKitID
 
 LAYOUT 8E687740, F384A100, 2DF308A0
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-dstCreatureDisplayInfoID<32>
-maxTime
-dissolveEffectID<32>
-startVisualKitID<u32>
-finishVisualKitID<u32>
-$noninline,relation$srcCreatureDisplayInfoID<32>
+DstCreatureDisplayInfoID<32>
+MaxTime
+DissolveEffectID<32>
+StartVisualKitID<u32>
+FinishVisualKitID<u32>
+$noninline,relation$SrcCreatureDisplayInfoID<32>
 
 LAYOUT C3E28858
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-dstCreatureDisplayInfoID<32>
-dissolveEffectID<u32>
-startVisualKitID<u32>
-maxTime
-finishVisualKitID<32>
-$noninline,relation$srcCreatureDisplayInfoID<32>
+DstCreatureDisplayInfoID<32>
+DissolveEffectID<u32>
+StartVisualKitID<u32>
+MaxTime
+FinishVisualKitID<32>
+$noninline,relation$SrcCreatureDisplayInfoID<32>

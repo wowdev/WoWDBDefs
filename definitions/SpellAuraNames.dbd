@@ -1,11 +1,11 @@
 COLUMNS
 int EnumID
-int specialMiscValue // todo: enum
-string globalstrings_tag
-locstring name_lang
+int SpecialMiscValue // todo: enum
+string Globalstrings_tag
+locstring Name_lang
 
 BUILD 0.5.3.3368, 1.12.1.5875
 EnumID<32>
-specialMiscValue<32>
-globalstrings_tag
-name_lang
+SpecialMiscValue<32>
+Globalstrings_tag
+Name_lang

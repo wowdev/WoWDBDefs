@@ -1,70 +1,70 @@
 COLUMNS
 int ID
-int accumulationAmountPerMinute
-int accumulationStateTargetValue
-int currentStageWorldStateID
-int depletionAmountPerMinute
-int depletionStateTargetValue
-int downTimeSecs
-int occurrencesWorldStateID
-int progressWorldStateID
-int upTimeSecs
-int field_1537790254
-int field_2102704413
-int field_691360763
-int field_1030314115
-int field_1779642497
-int field_1006239732
-int field_1467287516
-int field_1714893924
-int field_1956453800
-int field_1669118305
-int field_884611236
-int field_959454403
-int field_1809568480
-int field_442753590
-int field_1714806991
-int field_1393533545
-int field_1464712483
-int field_167927206
-int field_898277803
-int field_142454862
+int AccumulationAmountPerMinute
+int AccumulationStateTargetValue
+int CurrentStageWorldStateID
+int DepletionAmountPerMinute
+int DepletionStateTargetValue
+int DownTimeSecs
+int OccurrencesWorldStateID
+int ProgressWorldStateID
+int UpTimeSecs
+int Field_1537790254
+int Field_2102704413
+int Field_691360763
+int Field_1030314115
+int Field_1779642497
+int Field_1006239732
+int Field_1467287516
+int Field_1714893924
+int Field_1956453800
+int Field_1669118305
+int Field_884611236
+int Field_959454403
+int Field_1809568480
+int Field_442753590
+int Field_1714806991
+int Field_1393533545
+int Field_1464712483
+int Field_167927206
+int Field_898277803
+int Field_142454862
 
 LAYOUT BA06FC33, 61C45023
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-currentStageWorldStateID<32>
-progressWorldStateID<32>
-upTimeSecs<u32>
-downTimeSecs<u32>
-occurrencesWorldStateID<32>
-accumulationStateTargetValue<32>
-depletionStateTargetValue<32>
-accumulationAmountPerMinute<32>
-depletionAmountPerMinute<32>
+CurrentStageWorldStateID<32>
+ProgressWorldStateID<32>
+UpTimeSecs<u32>
+DownTimeSecs<u32>
+OccurrencesWorldStateID<32>
+AccumulationStateTargetValue<32>
+DepletionStateTargetValue<32>
+AccumulationAmountPerMinute<32>
+DepletionAmountPerMinute<32>
 $id$ID<32>
 
 LAYOUT A11B5327
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838
-$id$field_1537790254<32>
-field_2102704413<32>
-field_691360763<32>
-field_1030314115<u32>
-field_1779642497<u32>
-field_1006239732<32>
-field_1467287516<32>
-field_1714893924<32>
-field_1956453800<32>
-field_1669118305<32>
+$id$Field_1537790254<32>
+Field_2102704413<32>
+Field_691360763<32>
+Field_1030314115<u32>
+Field_1779642497<u32>
+Field_1006239732<32>
+Field_1467287516<32>
+Field_1714893924<32>
+Field_1956453800<32>
+Field_1669118305<32>
 
 LAYOUT 043BFC8F
 BUILD 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-$id$field_884611236<32>
-field_959454403<32>
-field_1809568480<32>
-field_442753590<u32>
-field_1714806991<u32>
-field_1393533545<32>
-field_1464712483<32>
-field_167927206<32>
-field_898277803<32>
-field_142454862<32>[4]
+$id$Field_884611236<32>
+Field_959454403<32>
+Field_1809568480<32>
+Field_442753590<u32>
+Field_1714806991<u32>
+Field_1393533545<32>
+Field_1464712483<32>
+Field_167927206<32>
+Field_898277803<32>
+Field_142454862<32>[4]

@@ -1,68 +1,68 @@
 COLUMNS
 int ID
-int artifactCategoryID
-int chrSpecializationID
-int flags
-locstring name_lang
-int spellVisualKitID
-int uiBarBackgroundColor
-int uiBarOverlayColor
-int uiModelSceneID
-int uiNameColor
-int uiTextureKitID
+int ArtifactCategoryID
+int ChrSpecializationID
+int Flags
+locstring Name_lang
+int SpellVisualKitID
+int UiBarBackgroundColor
+int UiBarOverlayColor
+int UiModelSceneID
+int UiNameColor
+int UiTextureKitID
 
 LAYOUT 76CF31A8
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-name_lang
-uiBarOverlayColor<32>
-uiBarBackgroundColor<32>
-uiNameColor<32>
-uiTextureKitID<u16>
-chrSpecializationID<u16>
-artifactCategoryID<u8>
-flags<u8>
-uiModelSceneID<u32>
-spellVisualKitID<u32>
+Name_lang
+UiBarOverlayColor<32>
+UiBarBackgroundColor<32>
+UiNameColor<32>
+UiTextureKitID<u16>
+ChrSpecializationID<u16>
+ArtifactCategoryID<u8>
+Flags<u8>
+UiModelSceneID<u32>
+SpellVisualKitID<u32>
 
 LAYOUT E9CABE8C
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-name_lang
-uiNameColor<32>
-uiBarOverlayColor<32>
-uiBarBackgroundColor<32>
-uiTextureKitID<16>
-chrSpecializationID<16>
-flags<8>
-artifactCategoryID<8>
-uiModelSceneID<32>
-spellVisualKitID<32>
+Name_lang
+UiNameColor<32>
+UiBarOverlayColor<32>
+UiBarBackgroundColor<32>
+UiTextureKitID<16>
+ChrSpecializationID<16>
+Flags<8>
+ArtifactCategoryID<8>
+UiModelSceneID<32>
+SpellVisualKitID<32>
 
 LAYOUT CC614F2E
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-name_lang
+Name_lang
 $id$ID<32>
-uiNameColor<32>
-uiBarOverlayColor<32>
-uiBarBackgroundColor<32>
-uiTextureKitID<16>
-chrSpecializationID<16>
-flags<8>
-artifactCategoryID<8>
-uiModelSceneID<32>
-spellVisualKitID<32>
+UiNameColor<32>
+UiBarOverlayColor<32>
+UiBarBackgroundColor<32>
+UiTextureKitID<16>
+ChrSpecializationID<16>
+Flags<8>
+ArtifactCategoryID<8>
+UiModelSceneID<32>
+SpellVisualKitID<32>
 
 LAYOUT 780D61EA
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-name_lang
+Name_lang
 $id$ID<32>
-uiTextureKitID<u16>
-uiNameColor<32>
-uiBarOverlayColor<32>
-uiBarBackgroundColor<32>
-chrSpecializationID<u16>
-flags<u8>
-artifactCategoryID<u8>
-uiModelSceneID<u32>
-spellVisualKitID<u32>
+UiTextureKitID<u16>
+UiNameColor<32>
+UiBarOverlayColor<32>
+UiBarBackgroundColor<32>
+ChrSpecializationID<u16>
+Flags<u8>
+ArtifactCategoryID<u8>
+UiModelSceneID<u32>
+SpellVisualKitID<u32>

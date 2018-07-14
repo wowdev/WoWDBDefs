@@ -1,160 +1,160 @@
 COLUMNS
 int ID
 int DisplayPower
-string petNameToken
-locstring name_lang
-locstring name_female_lang
-locstring name_male_lang
-string filename
-int spellClassSet
-int flags
-int<CinematicSequences::ID> cinematicSequenceID
-int attackPowerPerStrength
-int attackPowerPerAgility
-int rangedAttackPowerPerAgility
-int defaultSpec
-int<FileData::ID> createScreenFileDataID
-int<FileData::ID> selectScreenFileDataID
-int<FileData::ID> lowResScreenFileDataID
-int<FileData::ID> iconFileDataID
-int primaryStatPriority
-int startingLevel
-int required_expansion
+string PetNameToken
+locstring Name_lang
+locstring Name_female_lang
+locstring Name_male_lang
+string Filename
+int SpellClassSet
+int Flags
+int<CinematicSequences::ID> CinematicSequenceID
+int AttackPowerPerStrength
+int AttackPowerPerAgility
+int RangedAttackPowerPerAgility
+int DefaultSpec
+int<FileData::ID> CreateScreenFileDataID
+int<FileData::ID> SelectScreenFileDataID
+int<FileData::ID> LowResScreenFileDataID
+int<FileData::ID> IconFileDataID
+int PrimaryStatPriority
+int StartingLevel
+int Required_expansion
 int PlayerClass
 int DamageBonusStat
 
 BUILD 6.0.1.18179
 $id$ID<32>
 DisplayPower<32>
-petNameToken
-name_lang
-name_female_lang
-name_male_lang
-filename
-spellClassSet<32>
-flags<32>
-cinematicSequenceID<32>
-attackPowerPerStrength<32>
-attackPowerPerAgility<32>
-rangedAttackPowerPerAgility<32>
-defaultSpec<32>
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-lowResScreenFileDataID<32>
-iconFileDataID<32>
+PetNameToken
+Name_lang
+Name_female_lang
+Name_male_lang
+Filename
+SpellClassSet<32>
+Flags<32>
+CinematicSequenceID<32>
+AttackPowerPerStrength<32>
+AttackPowerPerAgility<32>
+RangedAttackPowerPerAgility<32>
+DefaultSpec<32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+LowResScreenFileDataID<32>
+IconFileDataID<32>
 
 LAYOUT 6F7AB8E7
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-petNameToken
-name_lang
-name_female_lang
-name_male_lang
-filename
-createScreenFileDataID<u32>
-selectScreenFileDataID<u32>
-lowResScreenFileDataID<u32>
-iconFileDataID<u32>
-startingLevel<32>
-flags<u16>
-cinematicSequenceID<u16>
-defaultSpec<u16>
+PetNameToken
+Name_lang
+Name_female_lang
+Name_male_lang
+Filename
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+LowResScreenFileDataID<u32>
+IconFileDataID<u32>
+StartingLevel<32>
+Flags<u16>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
 DisplayPower<u8>
-spellClassSet<u8>
-attackPowerPerStrength<u8>
-attackPowerPerAgility<u8>
-rangedAttackPowerPerAgility<u8>
-primaryStatPriority<u8>
+SpellClassSet<u8>
+AttackPowerPerStrength<u8>
+AttackPowerPerAgility<u8>
+RangedAttackPowerPerAgility<u8>
+PrimaryStatPriority<u8>
 $id$ID<32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
 DisplayPower<32>
-petNameToken
-name_lang
-name_female_lang
-name_male_lang
-filename
-spellClassSet<32>
-flags<32>
-cinematicSequenceID<32>
-required_expansion<32>
-attackPowerPerStrength<32>
-attackPowerPerAgility<32>
-rangedAttackPowerPerAgility<32>
+PetNameToken
+Name_lang
+Name_female_lang
+Name_male_lang
+Filename
+SpellClassSet<32>
+Flags<32>
+CinematicSequenceID<32>
+Required_expansion<32>
+AttackPowerPerStrength<32>
+AttackPowerPerAgility<32>
+RangedAttackPowerPerAgility<32>
 
 BUILD 0.5.3.3368
 $id$ID<32>
 PlayerClass<32>
 DamageBonusStat<32>
 DisplayPower<32>
-petNameToken
-name_lang
+PetNameToken
+Name_lang
 
 LAYOUT 25B63E14
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
-name_lang
-filename
-name_male_lang
-name_female_lang
-petNameToken
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-iconFileDataID<32>
-lowResScreenFileDataID<32>
-startingLevel<32>
-flags<16>
-cinematicSequenceID<16>
-defaultSpec<16>
-primaryStatPriority<8>
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+IconFileDataID<32>
+LowResScreenFileDataID<32>
+StartingLevel<32>
+Flags<16>
+CinematicSequenceID<16>
+DefaultSpec<16>
+PrimaryStatPriority<8>
 DisplayPower<8>
-rangedAttackPowerPerAgility<8>
-attackPowerPerAgility<8>
-attackPowerPerStrength<8>
-spellClassSet<8>
+RangedAttackPowerPerAgility<8>
+AttackPowerPerAgility<8>
+AttackPowerPerStrength<8>
+SpellClassSet<8>
 $id$ID<32>
 
 LAYOUT F6E46F38
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-name_lang
-filename
-name_male_lang
-name_female_lang
-petNameToken
-createScreenFileDataID<32>
-selectScreenFileDataID<32>
-iconFileDataID<32>
-lowResScreenFileDataID<32>
-flags<16>
-cinematicSequenceID<16>
-defaultSpec<16>
-primaryStatPriority<8>
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+IconFileDataID<32>
+LowResScreenFileDataID<32>
+Flags<16>
+CinematicSequenceID<16>
+DefaultSpec<16>
+PrimaryStatPriority<8>
 DisplayPower<8>
-rangedAttackPowerPerAgility<8>
-attackPowerPerAgility<8>
-attackPowerPerStrength<8>
-spellClassSet<8>
+RangedAttackPowerPerAgility<8>
+AttackPowerPerAgility<8>
+AttackPowerPerStrength<8>
+SpellClassSet<8>
 $id$ID<32>
-startingLevel<32>
+StartingLevel<32>
 
 LAYOUT 2CD115AC
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-name_lang
-filename
-name_male_lang
-name_female_lang
-petNameToken
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
 $id$ID<32>
-createScreenFileDataID<u32>
-selectScreenFileDataID<u32>
-iconFileDataID<u32>
-lowResScreenFileDataID<u32>
-startingLevel<32>
-flags<u16>
-cinematicSequenceID<u16>
-defaultSpec<u16>
-primaryStatPriority<u8>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+IconFileDataID<u32>
+LowResScreenFileDataID<u32>
+StartingLevel<32>
+Flags<u16>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+PrimaryStatPriority<u8>
 DisplayPower<u8>
-rangedAttackPowerPerAgility<u8>
-attackPowerPerAgility<u8>
-attackPowerPerStrength<u8>
-spellClassSet<u8>
+RangedAttackPowerPerAgility<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
+SpellClassSet<u8>

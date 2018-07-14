@@ -1,37 +1,37 @@
 COLUMNS
-int field_3241661258?
-int field_3668653094?
-int field_2344307634?
-int field_1451174222?
+int Field_3241661258?
+int Field_3668653094?
+int Field_2344307634?
+int Field_1451174222?
 int ID
-int garrFollItemSetID
-int itemID
-int itemSlot
-int minItemLevel
-int field_609523333
-int field_1071019675
-int field_1308872896
-int field_332377786
+int GarrFollItemSetID
+int ItemID
+int ItemSlot
+int MinItemLevel
+int Field_609523333
+int Field_1071019675
+int Field_1308872896
+int Field_332377786
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_3241661258<32>
-field_3668653094<32>
-field_2344307634<32>
-field_1451174222<32>
+Field_3241661258<32>
+Field_3668653094<32>
+Field_2344307634<32>
+Field_1451174222<32>
 
 LAYOUT CA1C4CBF, 3AE49777
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-itemID<32>
-minItemLevel<u16>
-itemSlot<u8>
-$noninline,relation$garrFollItemSetID<u16>
+ItemID<32>
+MinItemLevel<u16>
+ItemSlot<u8>
+$noninline,relation$GarrFollItemSetID<u16>
 
 LAYOUT 9166B16F
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_609523333<32>
-field_1071019675<u8>
-field_1308872896<u16>
-$noninline,relation$field_332377786<u16>
+Field_609523333<32>
+Field_1071019675<u8>
+Field_1308872896<u16>
+$noninline,relation$Field_332377786<u16>

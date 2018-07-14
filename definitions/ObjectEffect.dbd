@@ -1,72 +1,72 @@
 COLUMNS
 int ID
-string name
-int objectEffectGroupID
-int triggerType
-int eventType
-int effectRecType
-int effectRecID
-int attachment
-float offset
-int objectEffectModifierID
-float offsetX
-float offsetY
-float offsetZ
-float field_1495726339
-int field_1833001103
-int field_1242277214
-int field_1518830893
-int field_1204581922
-int field_1628755543
-int field_169821730
-int field_080834822
+string Name
+int ObjectEffectGroupID
+int TriggerType
+int EventType
+int EffectRecType
+int EffectRecID
+int Attachment
+float Offset
+int ObjectEffectModifierID
+float OffsetX
+float OffsetY
+float OffsetZ
+float Field_1495726339
+int Field_1833001103
+int Field_1242277214
+int Field_1518830893
+int Field_1204581922
+int Field_1628755543
+int Field_169821730
+int Field_080834822
 
 BUILD 6.0.1.18179
 $id$ID<32>
-name
-objectEffectGroupID<32>
-triggerType<32>
-eventType<32>
-effectRecType<32>
-effectRecID<32>
-attachment<32>
-offset[3]
-objectEffectModifierID<32>
+Name
+ObjectEffectGroupID<32>
+TriggerType<32>
+EventType<32>
+EffectRecType<32>
+EffectRecID<32>
+Attachment<32>
+Offset[3]
+ObjectEffectModifierID<32>
 
 LAYOUT 6A0CF743, E2032F3B
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-offset[3]
-objectEffectGroupID<u16>
-triggerType<u8>
-eventType<u8>
-effectRecType<u8>
-attachment<8>
-effectRecID<u32>
-objectEffectModifierID<u32>
+Offset[3]
+ObjectEffectGroupID<u16>
+TriggerType<u8>
+EventType<u8>
+EffectRecType<u8>
+Attachment<8>
+EffectRecID<u32>
+ObjectEffectModifierID<u32>
 
 BUILD 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
 $id$ID<32>
-name
-objectEffectGroupID<32>
-triggerType<32>
-eventType<32>
-effectRecType<32>
-effectRecID<32>
-attachment<32>
-offsetX
-offsetY
-offsetZ
-objectEffectModifierID<32>
+Name
+ObjectEffectGroupID<32>
+TriggerType<32>
+EventType<32>
+EffectRecType<32>
+EffectRecID<32>
+Attachment<32>
+OffsetX
+OffsetY
+OffsetZ
+ObjectEffectModifierID<32>
 
 LAYOUT 48D89FCF
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1495726339[3]
-field_1833001103<u16>
-field_1242277214<u8>
-field_1518830893<u8>
-field_1204581922<u8>
-field_1628755543<u32>
-field_169821730<8>
-field_080834822<u32>
+Field_1495726339[3]
+Field_1833001103<u16>
+Field_1242277214<u8>
+Field_1518830893<u8>
+Field_1204581922<u8>
+Field_1628755543<u32>
+Field_169821730<8>
+Field_080834822<u32>

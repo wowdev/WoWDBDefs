@@ -1,42 +1,42 @@
 COLUMNS
 int ID
-int dungeonMapID
-int flags
-int journalEncounterID
-float map
-int mapDisplayConditionID
-int worldMapAreaID
-int uiMapID
-float field_594457038
-int field_290057313
-int field_1841575021
-int field_458196389
-int field_245455957
+int DungeonMapID
+int Flags
+int JournalEncounterID
+float Map
+int MapDisplayConditionID
+int WorldMapAreaID
+int UiMapID
+float Field_594457038
+int Field_290057313
+int Field_1841575021
+int Field_458196389
+int Field_245455957
 
 LAYOUT 430540E4, E7EC7104
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
-map[2]
-flags<u8>
-journalEncounterID<32>
-dungeonMapID<32>
-mapDisplayConditionID<32>
-$noninline,relation$worldMapAreaID<32>
+Map[2]
+Flags<u8>
+JournalEncounterID<32>
+DungeonMapID<32>
+MapDisplayConditionID<32>
+$noninline,relation$WorldMapAreaID<32>
 
 LAYOUT 3BD132BF
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-map[2]
-flags<8>
-journalEncounterID<32>
-mapDisplayConditionID<32>
-$noninline,relation$uiMapID<32>
+Map[2]
+Flags<8>
+JournalEncounterID<32>
+MapDisplayConditionID<32>
+$noninline,relation$UiMapID<32>
 
 LAYOUT BCE56697
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_594457038[2]
-field_290057313<32>
-field_1841575021<32>
-field_458196389<u8>
-$noninline,relation$field_245455957<32>
+Field_594457038[2]
+Field_290057313<32>
+Field_1841575021<32>
+Field_458196389<u8>
+$noninline,relation$Field_245455957<32>

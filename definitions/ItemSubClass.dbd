@@ -1,96 +1,96 @@
 COLUMNS
-int classID
-int subClassID
-int prerequisiteProficiency
-int postrequisiteProficiency
-int flags
-int displayFlags
-int weaponParrySeq
-int weaponReadySeq
-int weaponAttackSeq
+int ClassID
+int SubClassID
+int PrerequisiteProficiency
+int PostrequisiteProficiency
+int Flags
+int DisplayFlags
+int WeaponParrySeq
+int WeaponReadySeq
+int WeaponAttackSeq
 int WeaponSwingSize
-locstring displayName_lang
-locstring verboseName_lang
+locstring DisplayName_lang
+locstring VerboseName_lang
 int ID
-int auctionHouseSortOrder
-locstring field_1483859116_lang
-locstring field_183018712_lang
-int field_1795606813
-int field_233891718
-int field_1817608860
-int field_096291179
-int field_249257621
-int field_1171481844
-int field_549241009
-int field_291038121
+int AuctionHouseSortOrder
+locstring Field_1483859116_lang
+locstring Field_183018712_lang
+int Field_1795606813
+int Field_233891718
+int Field_1817608860
+int Field_096291179
+int Field_249257621
+int Field_1171481844
+int Field_549241009
+int Field_291038121
 
 LAYOUT DAD92A67
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-displayName_lang
-verboseName_lang
-flags<16>
-$relation$classID<8>
-subClassID<8>
-prerequisiteProficiency<8>
-postrequisiteProficiency<8>
-displayFlags<8>
+DisplayName_lang
+VerboseName_lang
+Flags<16>
+$relation$ClassID<8>
+SubClassID<8>
+PrerequisiteProficiency<8>
+PostrequisiteProficiency<8>
+DisplayFlags<8>
 WeaponSwingSize<8>
-auctionHouseSortOrder<u8>
+AuctionHouseSortOrder<u8>
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
-classID<32>
-subClassID<32>
-prerequisiteProficiency<32>
-postrequisiteProficiency<32>
-flags<32>
-displayFlags<32>
-weaponParrySeq<32>
-weaponReadySeq<32>
-weaponAttackSeq<32>
+ClassID<32>
+SubClassID<32>
+PrerequisiteProficiency<32>
+PostrequisiteProficiency<32>
+Flags<32>
+DisplayFlags<32>
+WeaponParrySeq<32>
+WeaponReadySeq<32>
+WeaponAttackSeq<32>
 WeaponSwingSize<32>
-displayName_lang
-verboseName_lang
+DisplayName_lang
+VerboseName_lang
 
 BUILD 0.5.3.3368
-classID<32>
-subClassID<32>
-prerequisiteProficiency<32>
-postrequisiteProficiency<32>
-flags<32>
-displayFlags<32>
-weaponParrySeq<32>
-weaponReadySeq<32>
-weaponAttackSeq<32>
+ClassID<32>
+SubClassID<32>
+PrerequisiteProficiency<32>
+PostrequisiteProficiency<32>
+Flags<32>
+DisplayFlags<32>
+WeaponParrySeq<32>
+WeaponReadySeq<32>
+WeaponAttackSeq<32>
 WeaponSwingSize<32>
-displayName_lang
-verboseName_lang
+DisplayName_lang
+VerboseName_lang
 
 LAYOUT 898D236B
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-displayName_lang
-verboseName_lang
-flags<16>
-$relation$classID<8>
-subClassID<8>
-auctionHouseSortOrder<8>
-prerequisiteProficiency<8>
-displayFlags<8>
+DisplayName_lang
+VerboseName_lang
+Flags<16>
+$relation$ClassID<8>
+SubClassID<8>
+AuctionHouseSortOrder<8>
+PrerequisiteProficiency<8>
+DisplayFlags<8>
 WeaponSwingSize<8>
-postrequisiteProficiency<8>
+PostrequisiteProficiency<8>
 
 LAYOUT C7178B11
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1483859116_lang
-field_183018712_lang
-$relation$field_1795606813<8>
-field_233891718<8>
-field_1817608860<u8>
-field_096291179<8>
-field_249257621<16>
-field_1171481844<8>
-field_549241009<8>
-field_291038121<8>
+Field_1483859116_lang
+Field_183018712_lang
+$relation$Field_1795606813<8>
+Field_233891718<8>
+Field_1817608860<u8>
+Field_096291179<8>
+Field_249257621<16>
+Field_1171481844<8>
+Field_549241009<8>
+Field_291038121<8>

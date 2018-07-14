@@ -1,43 +1,43 @@
 COLUMNS
 int ID
-int<Map::ID> mapID
-int floorIndex
-float min
-float max
-int<AreaTable::ID> parentWorldMapID
-int flags
-int relativeHeightIndex
-float minX
-float maxX
-float minY
-float maxY
+int<Map::ID> MapID
+int FloorIndex
+float Min
+float Max
+int<AreaTable::ID> ParentWorldMapID
+int Flags
+int RelativeHeightIndex
+float MinX
+float MaxX
+float MinY
+float MaxY
 
 BUILD 6.0.1.18179
 $id$ID<32>
-mapID<32>
-floorIndex<32>
-min[2]
-max[2]
-parentWorldMapID<32>
-flags<32>
+MapID<32>
+FloorIndex<32>
+Min[2]
+Max[2]
+ParentWorldMapID<32>
+Flags<32>
 
 LAYOUT B5A245F4, 65C8690C
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
-min[2]
-max[2]
-$relation$mapID<16>
-parentWorldMapID<16>
-floorIndex<8>
-relativeHeightIndex<8>
-flags<8>
+Min[2]
+Max[2]
+$relation$MapID<16>
+ParentWorldMapID<16>
+FloorIndex<8>
+RelativeHeightIndex<8>
+Flags<8>
 $id$ID<32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-mapID<32>
-floorIndex<32>
-minX
-maxX
-minY
-maxY
-parentWorldMapID<32>
+MapID<32>
+FloorIndex<32>
+MinX
+MaxX
+MinY
+MaxY
+ParentWorldMapID<32>

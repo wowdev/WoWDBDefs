@@ -1,101 +1,101 @@
 COLUMNS
 int ID
-int<AnimKit::ID> parentAnimKitID
-int orderIndex
-int animID
-int animStartTime
-int<AnimKitConfig::ID> animKitConfigID
-int startCondition
-int startConditionParam
-int startConditionDelay
-int endCondition
-int endConditionParam
-int endConditionDelay
-float speed
-int segmentFlags
-int forcedVariation
-int overrideConfigFlags
-int loopToSegmentIndex
-int blendInTimeMs
-int blendOutTimeMs
+int<AnimKit::ID> ParentAnimKitID
+int OrderIndex
+int AnimID
+int AnimStartTime
+int<AnimKitConfig::ID> AnimKitConfigID
+int StartCondition
+int StartConditionParam
+int StartConditionDelay
+int EndCondition
+int EndConditionParam
+int EndConditionDelay
+float Speed
+int SegmentFlags
+int ForcedVariation
+int OverrideConfigFlags
+int LoopToSegmentIndex
+int BlendInTimeMs
+int BlendOutTimeMs
 
 BUILD 6.0.1.18179
 $id$ID<32>
-parentAnimKitID<32>
-orderIndex<32>
-animID<32>
-animStartTime<32>
-animKitConfigID<32>
-startCondition<32>
-startConditionParam<32>
-startConditionDelay<32>
-endCondition<32>
-endConditionParam<32>
-endConditionDelay<32>
-speed
-segmentFlags<32>
-forcedVariation<32>
-overrideConfigFlags<32>
-loopToSegmentIndex<32>
+ParentAnimKitID<32>
+OrderIndex<32>
+AnimID<32>
+AnimStartTime<32>
+AnimKitConfigID<32>
+StartCondition<32>
+StartConditionParam<32>
+StartConditionDelay<32>
+EndCondition<32>
+EndConditionParam<32>
+EndConditionDelay<32>
+Speed
+SegmentFlags<32>
+ForcedVariation<32>
+OverrideConfigFlags<32>
+LoopToSegmentIndex<32>
 
 LAYOUT 08F09B89, 2C2032A1
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-animStartTime<u32>
-endConditionParam<u32>
-endConditionDelay<u32>
-speed
-overrideConfigFlags<32>
-$relation$parentAnimKitID<u16>
-animID<u16>
-animKitConfigID<u16>
-segmentFlags<u16>
-blendInTimeMs<u16>
-blendOutTimeMs<u16>
-orderIndex<u8>
-startCondition<u8>
-startConditionParam<u8>
-endCondition<u8>
-forcedVariation<u8>
-loopToSegmentIndex<8>
-startConditionDelay<u32>
+AnimStartTime<u32>
+EndConditionParam<u32>
+EndConditionDelay<u32>
+Speed
+OverrideConfigFlags<32>
+$relation$ParentAnimKitID<u16>
+AnimID<u16>
+AnimKitConfigID<u16>
+SegmentFlags<u16>
+BlendInTimeMs<u16>
+BlendOutTimeMs<u16>
+OrderIndex<u8>
+StartCondition<u8>
+StartConditionParam<u8>
+EndCondition<u8>
+ForcedVariation<u8>
+LoopToSegmentIndex<8>
+StartConditionDelay<u32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-parentAnimKitID<32>
-animID<32>
-animStartTime<32>
-animKitConfigID<32>
-startCondition<32>
-startConditionParam<32>
-startConditionDelay<32>
-endCondition<32>
-endConditionParam<32>
-endConditionDelay<32>
-speed
-segmentFlags<32>
-forcedVariation<32>
-overrideConfigFlags<32>
-loopToSegmentIndex<32>
+ParentAnimKitID<32>
+AnimID<32>
+AnimStartTime<32>
+AnimKitConfigID<32>
+StartCondition<32>
+StartConditionParam<32>
+StartConditionDelay<32>
+EndCondition<32>
+EndConditionParam<32>
+EndConditionDelay<32>
+Speed
+SegmentFlags<32>
+ForcedVariation<32>
+OverrideConfigFlags<32>
+LoopToSegmentIndex<32>
 
 LAYOUT EBF796F5
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-$relation$parentAnimKitID<u16>
-orderIndex<u8>
-animID<u16>
-animStartTime<u32>
-animKitConfigID<u16>
-startCondition<u8>
-startConditionParam<u8>
-startConditionDelay<u32>
-endCondition<u8>
-endConditionParam<u32>
-endConditionDelay<u32>
-speed
-segmentFlags<u16>
-forcedVariation<u8>
-overrideConfigFlags<32>
-loopToSegmentIndex<8>
-blendInTimeMs<u16>
-blendOutTimeMs<u16>
+$relation$ParentAnimKitID<u16>
+OrderIndex<u8>
+AnimID<u16>
+AnimStartTime<u32>
+AnimKitConfigID<u16>
+StartCondition<u8>
+StartConditionParam<u8>
+StartConditionDelay<u32>
+EndCondition<u8>
+EndConditionParam<u32>
+EndConditionDelay<u32>
+Speed
+SegmentFlags<u16>
+ForcedVariation<u8>
+OverrideConfigFlags<32>
+LoopToSegmentIndex<8>
+BlendInTimeMs<u16>
+BlendOutTimeMs<u16>

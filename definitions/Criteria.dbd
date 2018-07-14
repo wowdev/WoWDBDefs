@@ -1,83 +1,83 @@
 COLUMNS
 int ID
-int type
-int asset
-int start_event
-int start_asset
-int start_timer
-int fail_event
-int fail_asset
-int<ModifierTree::ID> modifier_tree_ID
-int flags
-int<WorldState::ID> eligibility_world_state_ID
-int eligibility_world_state_value
-int field_1436493153
-int field_1994396891
-int field_182540281
-int field_467098989
-int field_897642771
-int field_536263198
-int field_188518967
-int field_1206761374
-int field_1623854607
-int field_1397485817
-int field_1672786115
+int Type
+int Asset
+int Start_event
+int Start_asset
+int Start_timer
+int Fail_event
+int Fail_asset
+int<ModifierTree::ID> Modifier_tree_ID
+int Flags
+int<WorldState::ID> Eligibility_world_state_ID
+int Eligibility_world_state_value
+int Field_1436493153
+int Field_1994396891
+int Field_182540281
+int Field_467098989
+int Field_897642771
+int Field_536263198
+int Field_188518967
+int Field_1206761374
+int Field_1623854607
+int Field_1397485817
+int Field_1672786115
 
 BUILD 6.0.1.18179
 $id$ID<32>
-type<32>
-asset<32>
-start_event<32>
-start_asset<32>
-start_timer<32>
-fail_event<32>
-fail_asset<32>
-modifier_tree_ID<32>
-flags<32>
-eligibility_world_state_ID<32>
-eligibility_world_state_value<32>
+Type<32>
+Asset<32>
+Start_event<32>
+Start_asset<32>
+Start_timer<32>
+Fail_event<32>
+Fail_asset<32>
+Modifier_tree_ID<32>
+Flags<32>
+Eligibility_world_state_ID<32>
+Eligibility_world_state_value<32>
 
 LAYOUT A87A5BB9
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-asset<32>
-start_asset<32>
-fail_asset<32>
-modifier_tree_ID<u32>
-start_timer<u16>
-eligibility_world_state_ID<16>
-type<u8>
-start_event<u8>
-fail_event<u8>
-flags<u8>
-eligibility_world_state_value<8>
+Asset<32>
+Start_asset<32>
+Fail_asset<32>
+Modifier_tree_ID<u32>
+Start_timer<u16>
+Eligibility_world_state_ID<16>
+Type<u8>
+Start_event<u8>
+Fail_event<u8>
+Flags<u8>
+Eligibility_world_state_value<8>
 
 LAYOUT DEFBA3DD
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-asset<32>
-modifier_tree_ID<32>
-start_asset<32>
-fail_asset<32>
-start_timer<16>
-eligibility_world_state_ID<16>
-type<8>
-start_event<8>
-fail_event<8>
-flags<8>
-eligibility_world_state_value<8>
+Asset<32>
+Modifier_tree_ID<32>
+Start_asset<32>
+Fail_asset<32>
+Start_timer<16>
+Eligibility_world_state_ID<16>
+Type<8>
+Start_event<8>
+Fail_event<8>
+Flags<8>
+Eligibility_world_state_value<8>
 
 LAYOUT 754DDF45
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1436493153<16>
-field_1994396891<32>
-field_182540281<u32>
-field_467098989<u8>
-field_897642771<32>
-field_536263198<u16>
-field_188518967<u8>
-field_1206761374<32>
-field_1623854607<u8>
-field_1397485817<16>
-field_1672786115<8>
+Field_1436493153<16>
+Field_1994396891<32>
+Field_182540281<u32>
+Field_467098989<u8>
+Field_897642771<32>
+Field_536263198<u16>
+Field_188518967<u8>
+Field_1206761374<32>
+Field_1623854607<u8>
+Field_1397485817<16>
+Field_1672786115<8>

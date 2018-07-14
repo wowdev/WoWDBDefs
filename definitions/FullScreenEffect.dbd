@@ -1,184 +1,184 @@
 COLUMNS
 int ID
-float blurIntensity
-float blurMultiplier
-float blurOffsetY
-float blurPower
-float colorAdditionBlue
-float colorAdditionGreen
-float colorAdditionMultiplier
-float colorAdditionOffsetY
-float colorAdditionPower
-float colorAdditionRed
-float colorMultiplyBlue
-float colorMultiplyGreen
-float colorMultiplyMultiplier
-float colorMultiplyOffsetY
-float colorMultiplyPower
-float colorMultiplyRed
-int effectFadeInMs
-int effectFadeOutMs
-int flags
-float gammaBlue
-float gammaGreen
-float gammaRed
-float maskOffsetY
-float maskPower
-float maskSizeMultiplier
-float saturation
-int textureBlendSetID
-int field_714392848?
-int field_915543385
-float field_1772050694
-float field_056977920
-float field_415021573
-float field_1592057233
-float field_751450935
-float field_925802344
-float field_1574123808
-float field_795678462
-float field_1838737303
-float field_1460900862
-float field_2023135213
-float field_561890476
-float field_449567173
-float field_2093196748
-float field_827498198
-float field_292173749
-float field_599417976
-float field_675598103
-float field_689361700
-int field_351914598
-float field_765339235
-float field_125616848
-float field_253757263
-float field_1281304019
-int field_955905821
-int field_1944949446
-int field_1395404910
+float BlurIntensity
+float BlurMultiplier
+float BlurOffsetY
+float BlurPower
+float ColorAdditionBlue
+float ColorAdditionGreen
+float ColorAdditionMultiplier
+float ColorAdditionOffsetY
+float ColorAdditionPower
+float ColorAdditionRed
+float ColorMultiplyBlue
+float ColorMultiplyGreen
+float ColorMultiplyMultiplier
+float ColorMultiplyOffsetY
+float ColorMultiplyPower
+float ColorMultiplyRed
+int EffectFadeInMs
+int EffectFadeOutMs
+int Flags
+float GammaBlue
+float GammaGreen
+float GammaRed
+float MaskOffsetY
+float MaskPower
+float MaskSizeMultiplier
+float Saturation
+int TextureBlendSetID
+int Field_714392848?
+int Field_915543385
+float Field_1772050694
+float Field_056977920
+float Field_415021573
+float Field_1592057233
+float Field_751450935
+float Field_925802344
+float Field_1574123808
+float Field_795678462
+float Field_1838737303
+float Field_1460900862
+float Field_2023135213
+float Field_561890476
+float Field_449567173
+float Field_2093196748
+float Field_827498198
+float Field_292173749
+float Field_599417976
+float Field_675598103
+float Field_689361700
+int Field_351914598
+float Field_765339235
+float Field_125616848
+float Field_253757263
+float Field_1281304019
+int Field_955905821
+int Field_1944949446
+int Field_1395404910
 
 LAYOUT 5CBF1D1B
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 $noninline,id$ID<32>
-saturation
-gammaRed
-gammaGreen
-gammaBlue
-maskOffsetY
-maskSizeMultiplier
-maskPower
-colorMultiplyRed
-colorMultiplyGreen
-colorMultiplyBlue
-colorMultiplyOffsetY
-colorMultiplyMultiplier
-colorMultiplyPower
-colorAdditionRed
-colorAdditionGreen
-colorAdditionBlue
-colorAdditionOffsetY
-colorAdditionMultiplier
-colorAdditionPower
-blurIntensity
-blurOffsetY
-blurMultiplier
-blurPower
-flags<u32>
-textureBlendSetID<u32>
-effectFadeInMs<u32>
-effectFadeOutMs<u32>
+Saturation
+GammaRed
+GammaGreen
+GammaBlue
+MaskOffsetY
+MaskSizeMultiplier
+MaskPower
+ColorMultiplyRed
+ColorMultiplyGreen
+ColorMultiplyBlue
+ColorMultiplyOffsetY
+ColorMultiplyMultiplier
+ColorMultiplyPower
+ColorAdditionRed
+ColorAdditionGreen
+ColorAdditionBlue
+ColorAdditionOffsetY
+ColorAdditionMultiplier
+ColorAdditionPower
+BlurIntensity
+BlurOffsetY
+BlurMultiplier
+BlurPower
+Flags<u32>
+TextureBlendSetID<u32>
+EffectFadeInMs<u32>
+EffectFadeOutMs<u32>
 
 LAYOUT 85B3706F
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
 $noninline,id$ID<32>
-saturation
-gammaRed
-gammaGreen
-gammaBlue
-maskOffsetY
-maskSizeMultiplier
-maskPower
-colorMultiplyRed
-colorMultiplyGreen
-colorMultiplyBlue
-colorMultiplyOffsetY
-colorMultiplyMultiplier
-colorMultiplyPower
-colorAdditionRed
-colorAdditionGreen
-colorAdditionBlue
-colorAdditionOffsetY
-colorAdditionMultiplier
-colorAdditionPower
-blurIntensity
-blurOffsetY
-blurMultiplier
-blurPower
-flags<32>
-effectFadeInMs<32>
-effectFadeOutMs<32>
-textureBlendSetID<32>
+Saturation
+GammaRed
+GammaGreen
+GammaBlue
+MaskOffsetY
+MaskSizeMultiplier
+MaskPower
+ColorMultiplyRed
+ColorMultiplyGreen
+ColorMultiplyBlue
+ColorMultiplyOffsetY
+ColorMultiplyMultiplier
+ColorMultiplyPower
+ColorAdditionRed
+ColorAdditionGreen
+ColorAdditionBlue
+ColorAdditionOffsetY
+ColorAdditionMultiplier
+ColorAdditionPower
+BlurIntensity
+BlurOffsetY
+BlurMultiplier
+BlurPower
+Flags<32>
+EffectFadeInMs<32>
+EffectFadeOutMs<32>
+TextureBlendSetID<32>
 
 LAYOUT 801B4DD0
 BUILD 8.0.1.26734
 $noninline,id$ID<32>
-saturation
-gammaRed
-gammaGreen
-gammaBlue
-maskOffsetY
-maskSizeMultiplier
-maskPower
-colorMultiplyRed
-colorMultiplyGreen
-colorMultiplyBlue
-colorMultiplyOffsetY
-colorMultiplyMultiplier
-colorMultiplyPower
-colorAdditionRed
-colorAdditionGreen
-colorAdditionBlue
-colorAdditionOffsetY
-colorAdditionMultiplier
-colorAdditionPower
-field_714392848<32>
-blurIntensity
-blurOffsetY
-blurMultiplier
-blurPower
-flags<32>
-effectFadeInMs<32>
-effectFadeOutMs<32>
-textureBlendSetID<32>
+Saturation
+GammaRed
+GammaGreen
+GammaBlue
+MaskOffsetY
+MaskSizeMultiplier
+MaskPower
+ColorMultiplyRed
+ColorMultiplyGreen
+ColorMultiplyBlue
+ColorMultiplyOffsetY
+ColorMultiplyMultiplier
+ColorMultiplyPower
+ColorAdditionRed
+ColorAdditionGreen
+ColorAdditionBlue
+ColorAdditionOffsetY
+ColorAdditionMultiplier
+ColorAdditionPower
+Field_714392848<32>
+BlurIntensity
+BlurOffsetY
+BlurMultiplier
+BlurPower
+Flags<32>
+EffectFadeInMs<32>
+EffectFadeOutMs<32>
+TextureBlendSetID<32>
 
 LAYOUT 9854A6AC
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_915543385<u32>
-field_1772050694
-field_056977920
-field_415021573
-field_1592057233
-field_751450935
-field_925802344
-field_1574123808
-field_795678462
-field_1838737303
-field_1460900862
-field_2023135213
-field_561890476
-field_449567173
-field_2093196748
-field_827498198
-field_292173749
-field_599417976
-field_675598103
-field_689361700
-field_351914598<32>
-field_765339235
-field_125616848
-field_253757263
-field_1281304019
-field_955905821<u32>
-field_1944949446<u32>
-field_1395404910<u32>
+Field_915543385<u32>
+Field_1772050694
+Field_056977920
+Field_415021573
+Field_1592057233
+Field_751450935
+Field_925802344
+Field_1574123808
+Field_795678462
+Field_1838737303
+Field_1460900862
+Field_2023135213
+Field_561890476
+Field_449567173
+Field_2093196748
+Field_827498198
+Field_292173749
+Field_599417976
+Field_675598103
+Field_689361700
+Field_351914598<32>
+Field_765339235
+Field_125616848
+Field_253757263
+Field_1281304019
+Field_955905821<u32>
+Field_1944949446<u32>
+Field_1395404910<u32>

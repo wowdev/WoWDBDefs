@@ -1,30 +1,30 @@
 COLUMNS
 int ID
-int colIndex
-int fileDataID
-int layerIndex
-int rowIndex
-int worldMapOverlayID
-int field_1457727990
-int field_693501127
-int field_1448349881
-int field_274500429
-int field_1220887927
+int ColIndex
+int FileDataID
+int LayerIndex
+int RowIndex
+int WorldMapOverlayID
+int Field_1457727990
+int Field_693501127
+int Field_1448349881
+int Field_274500429
+int Field_1220887927
 
 LAYOUT 49FF1B46
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-fileDataID<32>
-rowIndex<8>
-colIndex<8>
-layerIndex<8>
-$noninline,relation$worldMapOverlayID<32>
+FileDataID<32>
+RowIndex<8>
+ColIndex<8>
+LayerIndex<8>
+$noninline,relation$WorldMapOverlayID<32>
 
 LAYOUT C4DCC916
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1457727990<u8>
-field_693501127<u8>
-field_1448349881<u8>
-field_274500429<32>
-$noninline,relation$field_1220887927<32>
+Field_1457727990<u8>
+Field_693501127<u8>
+Field_1448349881<u8>
+Field_274500429<32>
+$noninline,relation$Field_1220887927<32>

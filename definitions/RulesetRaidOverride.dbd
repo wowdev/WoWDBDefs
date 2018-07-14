@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-int mapID
-int difficultyID
-int rulesetID
-int sharedLock
-int raidduration
+int MapID
+int DifficultyID
+int RulesetID
+int SharedLock
+int Raidduration
 
 BUILD 6.0.1.18179
 $id$ID<32>
-mapID<32>
-difficultyID<32>
-rulesetID<32>
-sharedLock<32>
-raidduration<32>
+MapID<32>
+DifficultyID<32>
+RulesetID<32>
+SharedLock<32>
+Raidduration<32>

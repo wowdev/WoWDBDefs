@@ -1,43 +1,43 @@
 COLUMNS
 int ID
-int boostLevel
-int boostType
-int expansion
-int flags
-locstring flowTitle_lang
-int iconFileDataID
-locstring popupDescription_lang
-locstring popupTitle_lang
-int popupUITextureKitID
-int priority
-int professionLevel
+int BoostLevel
+int BoostType
+int Expansion
+int Flags
+locstring FlowTitle_lang
+int IconFileDataID
+locstring PopupDescription_lang
+locstring PopupTitle_lang
+int PopupUITextureKitID
+int Priority
+int ProfessionLevel
 
 LAYOUT ADE120EF, C263D77C
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-flowTitle_lang
-popupTitle_lang
-popupDescription_lang
-boostType<32>
-iconFileDataID<32>
-priority<32>
-flags<u32>
-professionLevel<32>
-boostLevel<32>
-expansion<32>
-popupUITextureKitID<32>
+FlowTitle_lang
+PopupTitle_lang
+PopupDescription_lang
+BoostType<32>
+IconFileDataID<32>
+Priority<32>
+Flags<u32>
+ProfessionLevel<32>
+BoostLevel<32>
+Expansion<32>
+PopupUITextureKitID<32>
 
 LAYOUT 371E296E
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-flowTitle_lang
-popupTitle_lang
-popupDescription_lang
-iconFileDataID<32>
-priority<32>
-professionLevel<32>
-boostLevel<32>
-expansion<32>
-popupUITextureKitID<32>
-boostType<32>
-flags<32>
+FlowTitle_lang
+PopupTitle_lang
+PopupDescription_lang
+IconFileDataID<32>
+Priority<32>
+ProfessionLevel<32>
+BoostLevel<32>
+Expansion<32>
+PopupUITextureKitID<32>
+BoostType<32>
+Flags<32>

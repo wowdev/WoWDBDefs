@@ -1,59 +1,59 @@
 COLUMNS
 int ID
-int castTimeMin
-int castTimeMax
-int castTimeMaxLevel
-int class
-float nerfFactor
-int nerfMaxLevel
-int maxScalingLevel
-int scalesFromItemLevel
-int minScalingLevel
-int spellID
-float coefficient
-float variance
-float comboPointsCoefficient
-int field_1207036563
-int field_104295856
-int field_1477245846
-int field_417759355
-int field_1819891417
+int CastTimeMin
+int CastTimeMax
+int CastTimeMaxLevel
+int Class
+float NerfFactor
+int NerfMaxLevel
+int MaxScalingLevel
+int ScalesFromItemLevel
+int MinScalingLevel
+int SpellID
+float Coefficient
+float Variance
+float ComboPointsCoefficient
+int Field_1207036563
+int Field_104295856
+int Field_1477245846
+int Field_417759355
+int Field_1819891417
 
 BUILD 6.0.1.18179
 $id$ID<32>
-castTimeMin<32>
-castTimeMax<32>
-castTimeMaxLevel<32>
-class<32>
-nerfFactor
-nerfMaxLevel<32>
-maxScalingLevel<32>
-scalesFromItemLevel<32>
+CastTimeMin<32>
+CastTimeMax<32>
+CastTimeMaxLevel<32>
+Class<32>
+NerfFactor
+NerfMaxLevel<32>
+MaxScalingLevel<32>
+ScalesFromItemLevel<32>
 
 LAYOUT F67A5719, 0D8E1465
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-spellID<32>
-scalesFromItemLevel<16>
-class<32>
-minScalingLevel<u32>
-maxScalingLevel<u32>
+SpellID<32>
+ScalesFromItemLevel<16>
+Class<32>
+MinScalingLevel<u32>
+MaxScalingLevel<u32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-castTimeMin<32>
-castTimeMax<32>
-castTimeMaxLevel<32>
-class<32>
-coefficient[3]
-variance[3]
-comboPointsCoefficient[3]
+CastTimeMin<32>
+CastTimeMax<32>
+CastTimeMaxLevel<32>
+Class<32>
+Coefficient[3]
+Variance[3]
+ComboPointsCoefficient[3]
 
 LAYOUT 4B0C2E65
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-field_1207036563<32>
-field_104295856<32>
-field_1477245846<u32>
-field_417759355<u32>
-field_1819891417<16>
+Field_1207036563<32>
+Field_104295856<32>
+Field_1477245846<u32>
+Field_417759355<u32>
+Field_1819891417<16>

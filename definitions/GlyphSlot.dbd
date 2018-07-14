@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int type
-int tooltip
+int Type
+int Tooltip
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
-type<32>
-tooltip<32>
+Type<32>
+Tooltip<32>

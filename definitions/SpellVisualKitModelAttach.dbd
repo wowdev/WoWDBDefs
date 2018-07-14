@@ -1,119 +1,119 @@
 COLUMNS
-int field_1527471279?
-int field_1071707664?
-int field_472427780?
-float field_693568880?
-float field_386755604?
-float field_516301411?
-float field_890187431?
-int field_3489582336?
-int field_1208124387?
-int field_1648180473?
-int field_736616457?
-int field_646046202?
-int field_4222230091?
-int field_2504596630?
+int Field_1527471279?
+int Field_1071707664?
+int Field_472427780?
+float Field_693568880?
+float Field_386755604?
+float Field_516301411?
+float Field_890187431?
+int Field_3489582336?
+int Field_1208124387?
+int Field_1648180473?
+int Field_736616457?
+int Field_646046202?
+int Field_4222230091?
+int Field_2504596630?
 int ID
-int animID
-int animKitID
-int attachmentID
-int endAnimID
-int flags
-int lowDefModelAttachID
-float offset
-float offsetVariation
-int parentSpellVisualKitID
-float pitch
-float pitchVariation
-int positionerID
-float roll
-float rollVariation
-float scale
-float scaleVariation
-int spellVisualEffectNameID
-int startAnimID
-float startDelay
-float yaw
-float yawVariation
-float offsetX
-float offsetY
-float offsetZ
+int AnimID
+int AnimKitID
+int AttachmentID
+int EndAnimID
+int Flags
+int LowDefModelAttachID
+float Offset
+float OffsetVariation
+int ParentSpellVisualKitID
+float Pitch
+float PitchVariation
+int PositionerID
+float Roll
+float RollVariation
+float Scale
+float ScaleVariation
+int SpellVisualEffectNameID
+int StartAnimID
+float StartDelay
+float Yaw
+float YawVariation
+float OffsetX
+float OffsetY
+float OffsetZ
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_1527471279<32>
-field_1071707664<32>
-field_472427780<32>
-field_693568880[3]
-field_386755604
-field_516301411
-field_890187431
-field_3489582336<32>
-field_1208124387<32>
-field_1648180473<32>
-field_736616457<32>
-field_646046202<32>
-field_4222230091<32>
-field_2504596630<32>
+Field_1527471279<32>
+Field_1071707664<32>
+Field_472427780<32>
+Field_693568880[3]
+Field_386755604
+Field_516301411
+Field_890187431
+Field_3489582336<32>
+Field_1208124387<32>
+Field_1648180473<32>
+Field_736616457<32>
+Field_646046202<32>
+Field_4222230091<32>
+Field_2504596630<32>
 
 LAYOUT BCE18649
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-offset[3]
-offsetVariation[3]
+Offset[3]
+OffsetVariation[3]
 $id$ID<32>
-spellVisualEffectNameID<u16>
-attachmentID<8>
-flags<u8>
-positionerID<u16>
-yaw
-pitch
-roll
-yawVariation
-pitchVariation
-rollVariation
-scale
-scaleVariation
-startAnimID<16>
-animID<16>
-endAnimID<16>
-animKitID<u16>
-lowDefModelAttachID<u32>
-startDelay
-$noninline,relation$parentSpellVisualKitID<32>
+SpellVisualEffectNameID<u16>
+AttachmentID<8>
+Flags<u8>
+PositionerID<u16>
+Yaw
+Pitch
+Roll
+YawVariation
+PitchVariation
+RollVariation
+Scale
+ScaleVariation
+StartAnimID<16>
+AnimID<16>
+EndAnimID<16>
+AnimKitID<u16>
+LowDefModelAttachID<u32>
+StartDelay
+$noninline,relation$ParentSpellVisualKitID<32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
-parentSpellVisualKitID<32>
-spellVisualEffectNameID<32>
-attachmentID<32>
-offsetX
-offsetY
-offsetZ
-yaw
-pitch
-roll
+ParentSpellVisualKitID<32>
+SpellVisualEffectNameID<32>
+AttachmentID<32>
+OffsetX
+OffsetY
+OffsetZ
+Yaw
+Pitch
+Roll
 
 LAYOUT 75650E39
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-offset[3]
-offsetVariation[3]
+Offset[3]
+OffsetVariation[3]
 $id$ID<32>
-spellVisualEffectNameID<u16>
-attachmentID<8>
-positionerID<u16>
-yaw
-pitch
-roll
-yawVariation
-pitchVariation
-rollVariation
-scale
-scaleVariation
-startAnimID<16>
-animID<16>
-endAnimID<16>
-animKitID<u16>
-flags<u8>
-lowDefModelAttachID<u32>
-startDelay
-$noninline,relation$parentSpellVisualKitID<32>
+SpellVisualEffectNameID<u16>
+AttachmentID<8>
+PositionerID<u16>
+Yaw
+Pitch
+Roll
+YawVariation
+PitchVariation
+RollVariation
+Scale
+ScaleVariation
+StartAnimID<16>
+AnimID<16>
+EndAnimID<16>
+AnimKitID<u16>
+Flags<u8>
+LowDefModelAttachID<u32>
+StartDelay
+$noninline,relation$ParentSpellVisualKitID<32>

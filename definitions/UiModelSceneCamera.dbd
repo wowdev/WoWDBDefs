@@ -1,90 +1,90 @@
 COLUMNS
 int ID
-int cameraType
-int flags
-float maxZoomDistance
-float minZoomDistance
-float pitch
-float roll
-string scriptTag
-float target
-int uiModelSceneID
-float yaw
-float zoomDistance
-float zoomedPitchOffset
-float zoomedRollOffset
-float zoomedTargetOffset
-float zoomedYawOffset
-string field_1854152786
-float field_743656063
-float field_1346609378
-int field_143639425
-int field_2086059912
-int field_1632652864
-float field_165408877
-float field_1759559261
-float field_534366605
-float field_1167103142
-float field_1810274194
-float field_1611997592
-float field_1246788303
-float field_606945312
-float field_1467142502
-int field_446740166
+int CameraType
+int Flags
+float MaxZoomDistance
+float MinZoomDistance
+float Pitch
+float Roll
+string ScriptTag
+float Target
+int UiModelSceneID
+float Yaw
+float ZoomDistance
+float ZoomedPitchOffset
+float ZoomedRollOffset
+float ZoomedTargetOffset
+float ZoomedYawOffset
+string Field_1854152786
+float Field_743656063
+float Field_1346609378
+int Field_143639425
+int Field_2086059912
+int Field_1632652864
+float Field_165408877
+float Field_1759559261
+float Field_534366605
+float Field_1167103142
+float Field_1810274194
+float Field_1611997592
+float Field_1246788303
+float Field_606945312
+float Field_1467142502
+int Field_446740166
 
 LAYOUT C58AA5EC
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-scriptTag
-target[3]
-zoomedTargetOffset[3]
-yaw
-pitch
-roll
-zoomedYawOffset
-zoomedPitchOffset
-zoomedRollOffset
-zoomDistance
-minZoomDistance
-maxZoomDistance
-flags<u8>
-cameraType<u8>
+ScriptTag
+Target[3]
+ZoomedTargetOffset[3]
+Yaw
+Pitch
+Roll
+ZoomedYawOffset
+ZoomedPitchOffset
+ZoomedRollOffset
+ZoomDistance
+MinZoomDistance
+MaxZoomDistance
+Flags<u8>
+CameraType<u8>
 $id$ID<32>
-$noninline,relation$uiModelSceneID<32>
+$noninline,relation$UiModelSceneID<32>
 
 LAYOUT 20E80284
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-scriptTag
-target[3]
-yaw
-pitch
-roll
-zoomedTargetOffset[3]
-zoomedYawOffset
-zoomedPitchOffset
-zoomedRollOffset
-zoomDistance
-minZoomDistance
-maxZoomDistance
-flags<8>
-cameraType<8>
+ScriptTag
+Target[3]
+Yaw
+Pitch
+Roll
+ZoomedTargetOffset[3]
+ZoomedYawOffset
+ZoomedPitchOffset
+ZoomedRollOffset
+ZoomDistance
+MinZoomDistance
+MaxZoomDistance
+Flags<8>
+CameraType<8>
 $id$ID<32>
-$noninline,relation$uiModelSceneID<32>
+$noninline,relation$UiModelSceneID<32>
 
 LAYOUT EDFBD5A2
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-field_1854152786
-field_743656063[3]
-field_1346609378[3]
-$id$field_143639425<32>
-field_2086059912<u8>
-field_1632652864<u8>
-field_165408877
-field_1759559261
-field_534366605
-field_1167103142
-field_1810274194
-field_1611997592
-field_1246788303
-field_606945312
-field_1467142502
-$noninline,relation$field_446740166<32>
+Field_1854152786
+Field_743656063[3]
+Field_1346609378[3]
+$id$Field_143639425<32>
+Field_2086059912<u8>
+Field_1632652864<u8>
+Field_165408877
+Field_1759559261
+Field_534366605
+Field_1167103142
+Field_1810274194
+Field_1611997592
+Field_1246788303
+Field_606945312
+Field_1467142502
+$noninline,relation$Field_446740166<32>

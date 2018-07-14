@@ -1,255 +1,255 @@
 COLUMNS
-int field_1850409221?
-int field_1439790070?
-int field_2946560066?
-int field_2718524442?
-int field_1966184731?
-int field_916300497?
-int field_1036438268?
-int field_3618478135?
-int field_809722809?
-int field_110675906?
-int field_666340515?
-int field_2036890685?
-int field_1982180108?
-int field_2868106235?
-int field_1219432611?
-string field_3174321644?
-string field_805352722?
-string field_2386078249?
+int Field_1850409221?
+int Field_1439790070?
+int Field_2946560066?
+int Field_2718524442?
+int Field_1966184731?
+int Field_916300497?
+int Field_1036438268?
+int Field_3618478135?
+int Field_809722809?
+int Field_110675906?
+int Field_666340515?
+int Field_2036890685?
+int Field_1982180108?
+int Field_2868106235?
+int Field_1219432611?
+string Field_3174321644?
+string Field_805352722?
+string Field_2386078249?
 int ID
-int areaID
-int baseCompletionChance
-int baseFollowerXP
-locstring description_lang
-int envGarrMechanicID
-int envGarrMechanicTypeID
-int flags
-int followerDeathChance
-int garrFollowerTypeID
-int garrMissionSetID
-int garrMissionTypeID
-int garrTypeID
-locstring location_lang
-float mapPos
-int maxFollowers
-int missionCost
-int missionCostCurrencyTypesID
-int missionDuration
-locstring name_lang
-int offerDuration
-int offeredGarrMissionTextureID
-int overmaxRewardPackID
-int playerConditionID
-int targetItemLevel
-int targetLevel
-int travelDuration
-int uiTextureKitID
-float worldPos
-locstring field_1053376238_lang?
-int field_1075352947?
-int field_1334787408?
-int field_1336462998?
-int field_1367035623?
-int field_1532576006?
-int field_1555716787?
-int field_1678764757?
-int field_1778117193?
-int field_1809580897?
-locstring field_1838711077_lang?
-int field_1874725257?
-int field_1905686843?
-float field_1933042534?
-int field_2390938800?
-int field_239910350?
-int field_242207475?
-int field_2633153277?
-int field_2699733778?
-int field_2715635810?
-locstring field_3219317051_lang?
-int field_3319152767?
-int field_383478397?
-float field_3898499771?
-int field_3956182989?
-int field_4083046615?
-int field_737839365?
-int field_943015025?
-int field_997989291?
-locstring field_1368267919_lang
-locstring field_581551445_lang
-locstring field_1229984435_lang
-float field_855451430
-float field_638855956
-int field_1810988484
-int field_164363517
-int field_1703382696
-int field_1977532163
-int field_2015130699
-int field_767375409
-int field_630583124
-int field_688268583
-int field_307942267
-int field_664671652
-int field_1428859044
-int field_1753110703
-int field_760205360
-int field_971719747
-int field_1342623636
-int field_922836433
-int field_1734053104
-int field_1920353784
-int field_1304651197
-int field_1362082460
-int field_1260423227
-int field_783053414
-int field_184348585
-int field_2114396785
+int AreaID
+int BaseCompletionChance
+int BaseFollowerXP
+locstring Description_lang
+int EnvGarrMechanicID
+int EnvGarrMechanicTypeID
+int Flags
+int FollowerDeathChance
+int GarrFollowerTypeID
+int GarrMissionSetID
+int GarrMissionTypeID
+int GarrTypeID
+locstring Location_lang
+float MapPos
+int MaxFollowers
+int MissionCost
+int MissionCostCurrencyTypesID
+int MissionDuration
+locstring Name_lang
+int OfferDuration
+int OfferedGarrMissionTextureID
+int OvermaxRewardPackID
+int PlayerConditionID
+int TargetItemLevel
+int TargetLevel
+int TravelDuration
+int UiTextureKitID
+float WorldPos
+locstring Field_1053376238_lang?
+int Field_1075352947?
+int Field_1334787408?
+int Field_1336462998?
+int Field_1367035623?
+int Field_1532576006?
+int Field_1555716787?
+int Field_1678764757?
+int Field_1778117193?
+int Field_1809580897?
+locstring Field_1838711077_lang?
+int Field_1874725257?
+int Field_1905686843?
+float Field_1933042534?
+int Field_2390938800?
+int Field_239910350?
+int Field_242207475?
+int Field_2633153277?
+int Field_2699733778?
+int Field_2715635810?
+locstring Field_3219317051_lang?
+int Field_3319152767?
+int Field_383478397?
+float Field_3898499771?
+int Field_3956182989?
+int Field_4083046615?
+int Field_737839365?
+int Field_943015025?
+int Field_997989291?
+locstring Field_1368267919_lang
+locstring Field_581551445_lang
+locstring Field_1229984435_lang
+float Field_855451430
+float Field_638855956
+int Field_1810988484
+int Field_164363517
+int Field_1703382696
+int Field_1977532163
+int Field_2015130699
+int Field_767375409
+int Field_630583124
+int Field_688268583
+int Field_307942267
+int Field_664671652
+int Field_1428859044
+int Field_1753110703
+int Field_760205360
+int Field_971719747
+int Field_1342623636
+int Field_922836433
+int Field_1734053104
+int Field_1920353784
+int Field_1304651197
+int Field_1362082460
+int Field_1260423227
+int Field_783053414
+int Field_184348585
+int Field_2114396785
 
 BUILD 6.0.1.18179
 $id$ID<32>
-field_1850409221<32>
-field_1439790070<32>
-field_2946560066<32>
-field_2718524442<32>
-field_1966184731<32>
-field_916300497<32>
-field_1036438268<32>
-field_3618478135<32>
-field_809722809<32>[3]
-field_110675906<32>
-field_666340515<32>
-field_2036890685<32>[3]
-field_1982180108<32>[3]
-field_2868106235<32>
-field_1219432611<32>
-field_3174321644
-field_805352722
-field_2386078249
+Field_1850409221<32>
+Field_1439790070<32>
+Field_2946560066<32>
+Field_2718524442<32>
+Field_1966184731<32>
+Field_916300497<32>
+Field_1036438268<32>
+Field_3618478135<32>
+Field_809722809<32>[3]
+Field_110675906<32>
+Field_666340515<32>
+Field_2036890685<32>[3]
+Field_1982180108<32>[3]
+Field_2868106235<32>
+Field_1219432611<32>
+Field_3174321644
+Field_805352722
+Field_2386078249
 
 LAYOUT DDD70490
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
-name_lang
-description_lang
-location_lang
-missionDuration<32>
-offerDuration<u32>
-mapPos[2]
-worldPos[2]
-targetItemLevel<u16>
-uiTextureKitID<u16>
-missionCostCurrencyTypesID<u16>
-targetLevel<8>
-envGarrMechanicTypeID<u8>
-maxFollowers<u8>
-offeredGarrMissionTextureID<u8>
-garrMissionTypeID<u8>
-garrFollowerTypeID<u8>
-baseCompletionChance<u8>
-followerDeathChance<u8>
-garrTypeID<u8>
+Name_lang
+Description_lang
+Location_lang
+MissionDuration<32>
+OfferDuration<u32>
+MapPos[2]
+WorldPos[2]
+TargetItemLevel<u16>
+UiTextureKitID<u16>
+MissionCostCurrencyTypesID<u16>
+TargetLevel<8>
+EnvGarrMechanicTypeID<u8>
+MaxFollowers<u8>
+OfferedGarrMissionTextureID<u8>
+GarrMissionTypeID<u8>
+GarrFollowerTypeID<u8>
+BaseCompletionChance<u8>
+FollowerDeathChance<u8>
+GarrTypeID<u8>
 $id$ID<32>
-travelDuration<32>
-playerConditionID<u32>
-missionCost<u32>
-flags<u32>
-baseFollowerXP<u32>
-areaID<u32>
-overmaxRewardPackID<u32>
-envGarrMechanicID<u32>
-$noninline,relation$garrMissionSetID<u32>
+TravelDuration<32>
+PlayerConditionID<u32>
+MissionCost<u32>
+Flags<u32>
+BaseFollowerXP<u32>
+AreaID<u32>
+OvermaxRewardPackID<u32>
+EnvGarrMechanicID<u32>
+$noninline,relation$GarrMissionSetID<u32>
 
 LAYOUT 934C4D3C
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
-name_lang
-location_lang
-description_lang
-missionDuration<32>
-offerDuration<32>
-mapPos[2]
-worldPos[2]
-missionCostCurrencyTypesID<16>
-uiTextureKitID<16>
-targetItemLevel<16>
-garrTypeID<8>
-garrMissionTypeID<8>
-garrFollowerTypeID<8>
-maxFollowers<8>
-offeredGarrMissionTextureID<8>
-envGarrMechanicTypeID<8>
-targetLevel<8>
-baseCompletionChance<8>
-followerDeathChance<8>
+Name_lang
+Location_lang
+Description_lang
+MissionDuration<32>
+OfferDuration<32>
+MapPos[2]
+WorldPos[2]
+MissionCostCurrencyTypesID<16>
+UiTextureKitID<16>
+TargetItemLevel<16>
+GarrTypeID<8>
+GarrMissionTypeID<8>
+GarrFollowerTypeID<8>
+MaxFollowers<8>
+OfferedGarrMissionTextureID<8>
+EnvGarrMechanicTypeID<8>
+TargetLevel<8>
+BaseCompletionChance<8>
+FollowerDeathChance<8>
 $id$ID<32>
-missionCost<32>
-envGarrMechanicID<32>
-playerConditionID<32>
-travelDuration<32>
-baseFollowerXP<32>
-overmaxRewardPackID<32>
-areaID<32>
-flags<32>
-$noninline,relation$garrMissionSetID<32>
+MissionCost<32>
+EnvGarrMechanicID<32>
+PlayerConditionID<32>
+TravelDuration<32>
+BaseFollowerXP<32>
+OvermaxRewardPackID<32>
+AreaID<32>
+Flags<32>
+$noninline,relation$GarrMissionSetID<32>
 
 LAYOUT F0ADAC5D
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-field_1838711077_lang
-field_1053376238_lang
-field_3219317051_lang
-field_1905686843<32>
-field_1874725257<32>
-field_3898499771[2]
-field_1933042534[2]
-field_1532576006<16>
-field_1334787408<16>
-field_4083046615<16>
-field_1336462998<8>
-field_2699733778<8>
-field_1367035623<8>
-field_3956182989<8>
-field_2715635810<8>
-field_242207475<8>
-field_737839365<8>
-field_383478397<8>
-field_2633153277<8>
-$id$field_1555716787<32>
-field_1778117193<32>
-field_943015025<32>
-field_2390938800<32>
-field_1075352947<32>
-field_239910350<32>
-field_3319152767<32>
-field_1678764757<32>
-field_1809580897<32>
-$noninline,relation$field_997989291<32>
+Field_1838711077_lang
+Field_1053376238_lang
+Field_3219317051_lang
+Field_1905686843<32>
+Field_1874725257<32>
+Field_3898499771[2]
+Field_1933042534[2]
+Field_1532576006<16>
+Field_1334787408<16>
+Field_4083046615<16>
+Field_1336462998<8>
+Field_2699733778<8>
+Field_1367035623<8>
+Field_3956182989<8>
+Field_2715635810<8>
+Field_242207475<8>
+Field_737839365<8>
+Field_383478397<8>
+Field_2633153277<8>
+$id$Field_1555716787<32>
+Field_1778117193<32>
+Field_943015025<32>
+Field_2390938800<32>
+Field_1075352947<32>
+Field_239910350<32>
+Field_3319152767<32>
+Field_1678764757<32>
+Field_1809580897<32>
+$noninline,relation$Field_997989291<32>
 
 LAYOUT 00777205
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
-field_1368267919_lang
-field_581551445_lang
-field_1229984435_lang
-field_855451430[2]
-field_638855956[2]
-$id$field_1810988484<32>
-field_164363517<u8>
-field_1703382696<u8>
-field_1977532163<u8>
-field_2015130699<u8>
-field_767375409<u32>
-field_630583124<u16>
-field_688268583<u8>
-field_307942267<u16>
-field_664671652<u32>
-field_1428859044<u8>
-field_1753110703<u32>
-field_760205360<8>
-field_971719747<u16>
-field_1342623636<32>
-field_922836433<32>
-field_1734053104<u32>
-field_1920353784<u8>
-field_1304651197<u32>
-field_1362082460<u32>
-field_1260423227<u8>
-field_783053414<u32>
-field_184348585<u32>
-$noninline,relation$field_2114396785<32>
+Field_1368267919_lang
+Field_581551445_lang
+Field_1229984435_lang
+Field_855451430[2]
+Field_638855956[2]
+$id$Field_1810988484<32>
+Field_164363517<u8>
+Field_1703382696<u8>
+Field_1977532163<u8>
+Field_2015130699<u8>
+Field_767375409<u32>
+Field_630583124<u16>
+Field_688268583<u8>
+Field_307942267<u16>
+Field_664671652<u32>
+Field_1428859044<u8>
+Field_1753110703<u32>
+Field_760205360<8>
+Field_971719747<u16>
+Field_1342623636<32>
+Field_922836433<32>
+Field_1734053104<u32>
+Field_1920353784<u8>
+Field_1304651197<u32>
+Field_1362082460<u32>
+Field_1260423227<u8>
+Field_783053414<u32>
+Field_184348585<u32>
+$noninline,relation$Field_2114396785<32>
