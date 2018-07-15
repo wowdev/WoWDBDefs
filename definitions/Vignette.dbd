@@ -15,16 +15,6 @@ float Field_1719630549
 float Field_1522058327
 int Field_1101694034
 int Field_1300493228
-float PosX
-float PosY
-
-BUILD 6.0.1.18179
-$id$ID<32>
-Name_lang
-QuestFeedbackEffectID<32>
-Flags<32>
-MaxHeight
-MinHeight
 
 LAYOUT 52E3B381
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -61,10 +51,11 @@ Field_1522058327
 Field_1101694034<8>
 Field_1300493228<32>
 
-BUILD 5.4.0.17266-5.4.8.18414
+BUILD 5.4.0.17266-6.0.1.18179
+BUILD 6.0.1.18179
 $id$ID<32>
 Name_lang
 QuestFeedbackEffectID<32>
 Flags<32>
-PosX
-PosY
+MaxHeight
+MinHeight

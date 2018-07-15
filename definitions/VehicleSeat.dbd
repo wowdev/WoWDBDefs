@@ -61,13 +61,7 @@ int<AnimKit::ID> VehicleExitAnimKitID
 int<CameraMode::ID> CameraModeID
 int FlagsC
 int<FileData::ID> UiSkinFileDataID
-float AttachmentOffsetX
-float AttachmentOffsetY
-float AttachmentOffsetZ
 int UiSkin
-float CameraOffsetX
-float CameraOffsetY
-float CameraOffsetZ
 float Field_232420222
 float Field_1905230915
 int Field_1142999849
@@ -308,9 +302,7 @@ BUILD 4.0.0.11927-4.0.0.12065
 $id$ID<32>
 Flags<32>
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 EnterPreDelay
 EnterSpeed
 EnterGravity
@@ -355,9 +347,7 @@ CameraEnteringDelay
 CameraEnteringDuration
 CameraExitingDelay
 CameraExitingDuration
-CameraOffsetX
-CameraOffsetY
-CameraOffsetZ
+CameraOffset[3]
 CameraPosChaseRate
 CameraFacingChaseRate
 CameraEnteringZoom
@@ -375,9 +365,7 @@ BUILD 3.0.1.8303-3.0.1.8391
 $id$ID<32>
 Flags<32>
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 EnterPreDelay
 EnterSpeed
 EnterGravity
@@ -407,9 +395,7 @@ BUILD 3.0.1.8885-3.0.9.9551
 $id$ID<32>
 Flags<32>
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 EnterPreDelay
 EnterSpeed
 EnterGravity
@@ -712,9 +698,7 @@ BUILD 3.3.5.12213-3.3.5.12340
 $id$ID<32>
 Field_8937663584
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 Field_8259927992
 EnterSpeed
 EnterGravity
@@ -772,9 +756,7 @@ BUILD 3.1.0.9767-3.3.3.11723
 $id$ID<32>
 Field_9738530311
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 Field_982420482
 EnterSpeed
 EnterGravity
@@ -832,9 +814,7 @@ BUILD 3.0.1.8770-3.0.1.8874
 $id$ID<32>
 Flags<32>
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 EnterPreDelay
 EnterSpeed
 EnterGravity
@@ -879,9 +859,7 @@ BUILD 3.0.1.8622-3.0.1.8714
 $id$ID<32>
 Flags<32>
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 EnterPreDelay
 EnterSpeed
 EnterGravity
@@ -923,9 +901,7 @@ BUILD 3.0.1.8471
 $id$ID<32>
 Flags<32>
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 EnterPreDelay
 EnterSpeed
 EnterGravity

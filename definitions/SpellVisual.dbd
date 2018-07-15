@@ -59,12 +59,6 @@ int MissileMotion
 int InstantAreaKit
 int ImpactAreaKit
 int PersistentAreaKit
-float MissileCastOffsetX
-float MissileCastOffsetY
-float MissileCastOffsetZ
-float MissileImpactOffsetX
-float MissileImpactOffsetY
-float MissileImpactOffsetZ
 int HasAreaEffect
 int AreaModel
 int AreaKit
@@ -161,12 +155,8 @@ MissileTargetingKit<32>
 InstantAreaKit<32>
 ImpactAreaKit<32>
 PersistentAreaKit<32>
-MissileCastOffsetX
-MissileCastOffsetY
-MissileCastOffsetZ
-MissileImpactOffsetX
-MissileImpactOffsetY
-MissileImpactOffsetZ
+MissileCastOffset[3]
+MissileImpactOffset[3]
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
 BUILD 2.4.0.8089-3.0.9.9551

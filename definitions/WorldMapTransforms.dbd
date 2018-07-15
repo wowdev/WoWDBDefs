@@ -12,12 +12,6 @@ float RegionScale
 int AreaID
 int Priority
 float Region
-float RegionMinX
-float RegionMinY
-float RegionMaxX
-float RegionMaxY
-float RegionOffsetX
-float RegionOffsetY
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
@@ -50,13 +44,10 @@ BUILD 4.0.0.11792
 BUILD 3.1.0.9767-4.0.6.13596
 $id$ID<32>
 MapID<32>
-RegionMinX
-RegionMinY
-RegionMaxX
-RegionMaxY
+RegionMin[2]
+RegionMax[2]
 NewMapID<32>
-RegionOffsetX
-RegionOffsetY
+RegionOffset[2]
 NewDungeonMapID<32>
 
 BUILD 5.2.0.16516-5.3.0.17116
@@ -85,23 +76,17 @@ NewAreaID<32>
 BUILD 4.0.6.13623
 $id$ID<32>
 MapID<32>
-RegionMinX
-RegionMinY
-RegionMaxX
-RegionMaxY
+RegionMin[2]
+RegionMax[2]
 NewMapID<32>
-RegionOffsetX
-RegionOffsetY
+RegionOffset[2]
 NewDungeonMapID<32>
 Flags<32>
 
 BUILD 2.0.0.5665-3.0.9.9551
 $id$ID<32>
 MapID<32>
-RegionMinX
-RegionMinY
-RegionMaxX
-RegionMaxY
+RegionMin[2]
+RegionMax[2]
 NewMapID<32>
-RegionOffsetX
-RegionOffsetY
+RegionOffset[2]

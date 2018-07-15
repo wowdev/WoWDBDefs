@@ -33,12 +33,6 @@ int DeathThudCameraEffectID
 int FootstepCameraEffectID
 float GeoBox
 string ModelName
-float GeoBoxMinX
-float GeoBoxMinY
-float GeoBoxMinZ
-float GeoBoxMaxX
-float GeoBoxMaxY
-float GeoBoxMaxZ
 string AnimModelName
 int Field_1659896616
 int Field_1265991841
@@ -151,12 +145,7 @@ SoundID<32>
 CollisionWidth
 CollisionHeight
 MountHeight
-GeoBoxMinX
-GeoBoxMinY
-GeoBoxMinZ
-GeoBoxMaxX
-GeoBoxMaxY
-GeoBoxMaxZ
+GeoBox[6]
 WorldEffectScale
 AttachedEffectScale
 MissileCollisionRadius
@@ -183,12 +172,7 @@ SoundID<32>
 CollisionWidth
 CollisionHeight
 MountHeight
-GeoBoxMinX
-GeoBoxMinY
-GeoBoxMinZ
-GeoBoxMaxX
-GeoBoxMaxY
-GeoBoxMaxZ
+GeoBox[6]
 WorldEffectScale
 AttachedEffectScale
 
@@ -442,12 +426,7 @@ SoundID<32>
 CollisionWidth
 CollisionHeight
 MountHeight
-GeoBoxMinX
-GeoBoxMinY
-GeoBoxMinZ
-GeoBoxMaxX
-GeoBoxMaxY
-GeoBoxMaxZ
+GeoBox[6]
 AttachedEffectScale
 
 BUILD 2.1.0.6692-2.4.3.8606
@@ -468,12 +447,7 @@ SoundID<32>
 CollisionWidth
 CollisionHeight
 MountHeight
-GeoBoxMinX
-GeoBoxMinY
-GeoBoxMinZ
-GeoBoxMaxX
-GeoBoxMaxY
-GeoBoxMaxZ
+GeoBox[6]
 AttachedEffectScale
 
 BUILD 2.0.3.6299-2.0.6.6337
@@ -494,12 +468,7 @@ SoundID<32>
 CollisionWidth
 CollisionHeight
 MountHeight
-GeoBoxMinX
-GeoBoxMinY
-GeoBoxMinZ
-GeoBoxMaxX
-GeoBoxMaxY
-GeoBoxMaxZ
+GeoBox[6]
 
 BUILD 2.0.0.5665-2.0.0.5965
 BUILD 2.0.0.6022-2.0.0.6080
