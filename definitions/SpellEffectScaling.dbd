@@ -18,7 +18,7 @@ $id$ID<32>
 Coefficient
 Variance
 ResourceCoefficient
-SpellEffectID<u32>
+SpellEffectID<32>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
@@ -26,4 +26,4 @@ Coefficient
 Variance
 ResourceCoefficient
 Field_2013132642
-SpellEffectID<u32>
+SpellEffectID<32>

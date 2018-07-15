@@ -15,9 +15,9 @@ JournalInstanceID<u16>
 
 BUILD 5.0.1.15464-5.3.0.17116
 $id$ID<32>
-JournalTierID<u32>
-JournalInstanceID<u32>
+JournalTierID<32>
+JournalInstanceID<32>
 
 BUILD 5.4.0.17266-5.4.8.18414
-JournalTierID<u32>
-JournalInstanceID<u32>
+JournalTierID<32>
+JournalInstanceID<32>

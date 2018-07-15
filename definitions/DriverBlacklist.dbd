@@ -42,10 +42,10 @@ Flags<u8>
 
 BUILD 5.4.2.17645-6.2.4.21742
 $id$ID<32>
-VendorID<u32>
-DeviceID<u32>
+VendorID<32>
+DeviceID<32>
 DriverVersionHigh<32>
 DriverVersionLow<32>
 OsVersion<32>
 OsBits<32>
-Flags<u32>
+Flags<32>

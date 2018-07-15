@@ -79,16 +79,16 @@ Field_570191532<u8>
 
 BUILD 4.0.0.12319-6.2.4.21742
 $id$ID<32>
-AreaID<u32>
-WMOAreaID<u32>
-PhaseID<u32>
-PhaseGroupID<u32>
-PhaseUseFlags<u32>
-ZoneIntroMusicID<u32>
-ZoneMusicID<u32>
-SoundAmbienceID<u32>
-SoundProviderPreferencesID<u32>
-UWZoneIntroMusicID<u32>
-UWZoneMusicID<u32>
-UWSoundAmbienceID<u32>
-UWSoundProviderPreferencesID<u32>
+AreaID<32>
+WMOAreaID<32>
+PhaseID<32>
+PhaseGroupID<32>
+PhaseUseFlags<32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>
+UWZoneIntroMusicID<32>
+UWZoneMusicID<32>
+UWSoundAmbienceID<32>
+UWSoundProviderPreferencesID<32>

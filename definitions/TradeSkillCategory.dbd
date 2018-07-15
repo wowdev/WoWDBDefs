@@ -56,8 +56,8 @@ Flags<u8>
 
 BUILD 5.0.1.15640-5.4.8.18414
 $id$ID<32>
-SkilllineID<u32>
-ParenttradeskillcategoryID<u32>
+SkilllineID<32>
+ParenttradeskillcategoryID<32>
 Orderindex<32>
 Name_lang
-Flags<u32>
+Flags<32>

@@ -35,17 +35,17 @@ Flags<32>
 
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
-TerrainID<u32>
+TerrainID<32>
 TerrainDesc
 FootstepSprayRun<32>
 FootstepSprayWalk<32>
-SoundID<u32>
-Flags<u32>
+SoundID<32>
+Flags<32>
 
 BUILD 0.5.3.3368-3.3.5.12340
-TerrainID<u32>
+TerrainID<32>
 TerrainDesc
 FootstepSprayRun<32>
 FootstepSprayWalk<32>
-SoundID<u32>
-Flags<u32>
+SoundID<32>
+Flags<32>

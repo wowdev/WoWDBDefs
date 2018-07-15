@@ -79,11 +79,11 @@ PropValue<32>[8]
 
 BUILD 5.0.1.15640-5.4.8.18414
 $id$ID<32>
-OwnerID<u32>
-DisplayID<u32>
+OwnerID<32>
+DisplayID<32>
 Pos[3]
 Rot[4]
 Scale
-TypeID<u32>
+TypeID<32>
 PropValue<32>[4]
 Name

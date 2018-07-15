@@ -77,7 +77,7 @@ ModelName
 Sound<32>[10]
 GeoBoxMin[3]
 GeoBoxMax[3]
-ObjectEffectPackageID<u32>
+ObjectEffectPackageID<32>
 OverrideLootEffectScale
 OverrideNameScale
 
@@ -87,7 +87,7 @@ ModelName
 Sound<32>[10]
 GeoBoxMin[3]
 GeoBoxMax[3]
-ObjectEffectPackageID<u32>
+ObjectEffectPackageID<32>
 
 BUILD 2.0.0.6080-3.0.1.8471
 $id$ID<32>

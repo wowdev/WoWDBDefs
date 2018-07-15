@@ -251,7 +251,7 @@ $noninline,relation$Field_1675666556<32>
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-DifficultyID<u32>
+DifficultyID<32>
 Effect<32>
 EffectAmplitude
 EffectAura<32>
@@ -267,11 +267,11 @@ EffectMiscValue<32>[2]
 EffectPointsPerResource
 EffectRadiusIndex<32>[2]
 EffectRealPointsPerLevel
-EffectSpellClassMask<u32>[4]
+EffectSpellClassMask<32>[4]
 EffectTriggerSpell<32>
 EffectPos_facing
 ImplicitTarget<32>[2]
-SpellID<u32>
+SpellID<32>
 EffectIndex<32>
 EffectAttributes<32>
 
@@ -292,10 +292,10 @@ EffectMiscValue<32>[2]
 EffectPointsPerResource
 EffectRadiusIndex<32>[2]
 EffectRealPointsPerLevel
-EffectSpellClassMask<u32>[4]
+EffectSpellClassMask<32>[4]
 EffectTriggerSpell<32>
 ImplicitTarget<32>[2]
-SpellID<u32>
+SpellID<32>
 EffectIndex<32>
 EffectAttributes<32>
 
@@ -316,10 +316,10 @@ EffectMiscValue<32>[2]
 EffectPointsPerResource
 EffectRadiusIndex<32>[2]
 EffectRealPointsPerLevel
-EffectSpellClassMask<u32>[3]
+EffectSpellClassMask<32>[3]
 EffectTriggerSpell<32>
 ImplicitTarget<32>[2]
-SpellID<u32>
+SpellID<32>
 EffectIndex<32>
 EffectAttributes<32>
 
@@ -340,8 +340,8 @@ EffectMiscValue<32>[2]
 EffectPointsPerResource
 EffectRadiusIndex<32>[2]
 EffectRealPointsPerLevel
-EffectSpellClassMask<u32>[3]
+EffectSpellClassMask<32>[3]
 EffectTriggerSpell<32>
 ImplicitTarget<32>[2]
-SpellID<u32>
+SpellID<32>
 EffectIndex<32>

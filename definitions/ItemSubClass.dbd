@@ -97,12 +97,12 @@ Field_291038121<8>
 
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
-ClassID<u32>
-SubClassID<u32>
+ClassID<32>
+SubClassID<32>
 PrerequisiteProficiency<32>
 PostrequisiteProficiency<32>
-Flags<u32>
-DisplayFlags<u32>
+Flags<32>
+DisplayFlags<32>
 WeaponParrySeq<32>
 WeaponReadySeq<32>
 WeaponAttackSeq<32>
@@ -111,12 +111,12 @@ DisplayName_lang
 VerboseName_lang
 
 BUILD 0.5.3.3368-3.3.5.12340
-ClassID<u32>
-SubClassID<u32>
+ClassID<32>
+SubClassID<32>
 PrerequisiteProficiency<32>
 PostrequisiteProficiency<32>
-Flags<u32>
-DisplayFlags<u32>
+Flags<32>
+DisplayFlags<32>
 WeaponParrySeq<32>
 WeaponReadySeq<32>
 WeaponAttackSeq<32>

@@ -74,11 +74,11 @@ Field_080834822<u32>
 BUILD 3.0.1.8622-6.0.3.19342
 $id$ID<32>
 Name
-ObjectEffectGroupID<u32>
+ObjectEffectGroupID<32>
 TriggerType<32>
 EventType<32>
 EffectRecType<32>
-EffectRecID<u32>
+EffectRecID<32>
 Attachment<32>
 Offset[3]
-ObjectEffectModifierID<u32>
+ObjectEffectModifierID<32>

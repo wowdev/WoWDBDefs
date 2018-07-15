@@ -96,25 +96,25 @@ Field_1830337902<8>
 
 BUILD 4.2.0.14333-5.0.1.15544
 $id$ID<32>
-DungeonMapID<u32>
-WorldMapAreaID<u32>
+DungeonMapID<32>
+WorldMapAreaID<32>
 Map[2]
-FirstSectionID<u32>
-JournalInstanceID<u32>
+FirstSectionID<32>
+JournalInstanceID<32>
 OrderIndex<32>
-DifficultyMask<u32>
+DifficultyMask<32>
 Name_lang
 Description_lang
 
 BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
-DungeonMapID<u32>
-WorldMapAreaID<u32>
+DungeonMapID<32>
+WorldMapAreaID<32>
 Map[2]
-FirstSectionID<u32>
-JournalInstanceID<u32>
+FirstSectionID<32>
+JournalInstanceID<32>
 OrderIndex<32>
-DifficultyMask<u32>
+DifficultyMask<32>
 Name_lang
 Description_lang
-Flags<u32>
+Flags<32>

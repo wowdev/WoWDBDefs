@@ -101,9 +101,9 @@ CenterPower<32>
 RegenerationPeace
 RegenerationCombat
 BarType<32>
-FileDataID<u32>[6]
+FileDataID<32>[6]
 Color<32>[6]
-Flags<u32>
+Flags<32>
 Name_lang
 Cost_lang
 OutOfError_lang
@@ -120,9 +120,9 @@ CenterPower<32>
 RegenerationPeace
 RegenerationCombat
 BarType<32>
-FileDataID<u32>[5]
+FileDataID<32>[5]
 Color<32>[5]
-Flags<u32>
+Flags<32>
 Name_lang
 Cost_lang
 OutOfError_lang

@@ -108,15 +108,15 @@ Shares_criteria<16>
 BUILD 3.0.1.8622-4.3.4.15595
 $id$ID<32>
 Faction<32>
-Instance_ID<u32>
+Instance_ID<32>
 Supercedes<32>
 Title_lang
 Description_lang
 Category<32>
 Points<32>
 Ui_order<32>
-Flags<u32>
-IconID<u32>
+Flags<32>
+IconID<32>
 Reward_lang
 Minimum_criteria<32>
 Shares_criteria<32>
@@ -124,15 +124,15 @@ Shares_criteria<32>
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 Faction<32>
-Instance_ID<u32>
+Instance_ID<32>
 Supercedes<32>
 Title_lang
 Description_lang
 Category<32>
 Points<32>
 Ui_order<32>
-Flags<u32>
-IconID<u32>
+Flags<32>
+IconID<32>
 Reward_lang
 Minimum_criteria<32>
 Shares_criteria<32>
@@ -141,7 +141,7 @@ Criteria_tree<32>
 BUILD 3.0.1.8471
 $id$ID<32>
 Faction<32>
-Instance_ID<u32>
+Instance_ID<32>
 Title_lang
 Description_lang
 Category<32>
@@ -151,7 +151,7 @@ Field_2003222025<32>
 BUILD 3.0.1.8334-3.0.1.8391
 $id$ID<32>
 Faction<32>
-Instance_ID<u32>
+Instance_ID<32>
 Title_lang
 Description_lang
 Category<32>
@@ -161,7 +161,7 @@ BUILD 3.0.1.8303
 $id$ID<32>
 Faction<32>
 Field_5134826755<32>
-Instance_ID<u32>
+Instance_ID<32>
 Title_lang
 Description_lang
 Category<32>

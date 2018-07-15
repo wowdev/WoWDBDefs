@@ -28,21 +28,21 @@ Flags<u8>
 
 BUILD 5.0.1.15464-5.0.1.15668
 $id$ID<32>
-FileDataID<u32>
+FileDataID<32>
 AttachPoint<32>
 Minimapobject<32>
 
 BUILD 5.0.1.15677-5.0.1.15752
 $id$ID<32>
-FileDataID<u32>
+FileDataID<32>
 AttachPoint<32>
 Minimapobject<32>
 Priority<32>
 
 BUILD 5.0.1.15762-5.4.8.18414
 $id$ID<32>
-FileDataID<u32>
+FileDataID<32>
 AttachPoint<32>
 Minimapobject<32>
 Priority<32>
-Flags<u32>
+Flags<32>

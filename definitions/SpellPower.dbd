@@ -104,12 +104,12 @@ PowerType<32>
 ManaCost<32>
 ManaCostPerLevel<32>
 ManaPerSecond<32>
-PowerDisplayID<u32>
+PowerDisplayID<32>
 AltPowerBarID<32>
 PowerCostPct
 Field_3005919490
-RequiredAuraSpellID<u32>
-SpellID<u32>
+RequiredAuraSpellID<32>
+SpellID<32>
 
 BUILD 4.3.2.15211-4.3.4.15595
 $id$ID<32>
@@ -117,7 +117,7 @@ ManaCost<32>
 ManaCostPerLevel<32>
 PowerType<32>
 ManaPerSecond<32>
-PowerDisplayID<u32>
+PowerDisplayID<32>
 AltPowerBarID<32>
 PowerCostPct
 
@@ -127,7 +127,7 @@ ManaCost<32>
 ManaCostPerLevel<32>
 PowerType<32>
 ManaPerSecond<32>
-PowerDisplayID<u32>
+PowerDisplayID<32>
 Field_4567976787<32>
 
 BUILD 4.0.0.12232-4.0.0.12319
@@ -136,4 +136,4 @@ ManaCost<32>
 ManaCostPerLevel<32>
 PowerType<32>
 ManaPerSecond<32>
-PowerDisplayID<u32>
+PowerDisplayID<32>

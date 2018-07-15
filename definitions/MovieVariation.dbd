@@ -24,11 +24,11 @@ FileDataID<32>
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
-MovieID<u32>
-FileDataID<u32>
-OverlayFileDataID<u32>
+MovieID<32>
+FileDataID<32>
+OverlayFileDataID<32>
 
 BUILD 3.0.1.8471-4.3.4.15595
 $id$ID<32>
-MovieID<u32>
-FileDataID<u32>
+MovieID<32>
+FileDataID<32>

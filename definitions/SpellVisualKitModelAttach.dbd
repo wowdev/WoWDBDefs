@@ -121,38 +121,38 @@ $noninline,relation$ParentSpellVisualKitID<32>
 
 BUILD 5.0.1.15650-5.4.8.18414
 $id$ID<32>
-ParentSpellVisualKitID<u32>
-SpellVisualEffectNameID<u32>
-AttachmentID<u32>
+ParentSpellVisualKitID<32>
+SpellVisualEffectNameID<32>
+AttachmentID<32>
 Offset[3]
 Yaw
 Pitch
 Roll
 Field_3205223131<32>
-StartAnimID<u32>
-AnimID<u32>
-EndAnimID<u32>
+StartAnimID<32>
+AnimID<32>
+EndAnimID<32>
 AnimKitID<32>
 
 BUILD 4.0.6.13623-5.0.1.15640
 $id$ID<32>
-ParentSpellVisualKitID<u32>
-SpellVisualEffectNameID<u32>
-AttachmentID<u32>
+ParentSpellVisualKitID<32>
+SpellVisualEffectNameID<32>
+AttachmentID<32>
 Offset[3]
 Yaw
 Pitch
 Roll
 Field_3205223131<32>
-StartAnimID<u32>
-AnimID<u32>
-EndAnimID<u32>
+StartAnimID<32>
+AnimID<32>
+EndAnimID<32>
 
 BUILD 3.2.0.10192-4.0.6.13596
 $id$ID<32>
-ParentSpellVisualKitID<u32>
-SpellVisualEffectNameID<u32>
-AttachmentID<u32>
+ParentSpellVisualKitID<32>
+SpellVisualEffectNameID<32>
+AttachmentID<32>
 Offset[3]
 Yaw
 Pitch

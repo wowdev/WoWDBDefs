@@ -70,8 +70,8 @@ $noninline,relation$Field_492054885<32>
 
 BUILD 5.0.1.15589-6.0.1.18156
 $id$ID<32>
-SpellID<u32>
-DifficultyID<u32>
+SpellID<32>
+DifficultyID<32>
 CasterAuraState<32>
 TargetAuraState<32>
 ExcludeCasterAuraState<32>

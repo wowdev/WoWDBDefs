@@ -102,76 +102,76 @@ VisibilityPlayerConditionID<32>
 
 BUILD 4.3.2.15148-5.4.8.18414
 $id$ID<32>
-MapID<u32>
-AreaID<u32>
+MapID<32>
+AreaID<32>
 AreaName
 LocLeft
 LocRight
 LocTop
 LocBottom
-DisplayMapID<u32>
+DisplayMapID<32>
 DefaultDungeonFloor<32>
-ParentWorldMapID<u32>
-Flags<u32>
+ParentWorldMapID<32>
+Flags<32>
 LevelRangeMin<32>
 LevelRangeMax<32>
 
 BUILD 4.0.0.12232-4.3.0.15050
 $id$ID<32>
-MapID<u32>
-AreaID<u32>
+MapID<32>
+AreaID<32>
 AreaName
 LocLeft
 LocRight
 LocTop
 LocBottom
-DisplayMapID<u32>
+DisplayMapID<32>
 DefaultDungeonFloor<32>
-ParentWorldMapID<u32>
-Flags<u32>
+ParentWorldMapID<32>
+Flags<32>
 
 BUILD 3.2.0.10192-4.0.0.12164
 $id$ID<32>
-MapID<u32>
-AreaID<u32>
+MapID<32>
+AreaID<32>
 AreaName
 LocLeft
 LocRight
 LocTop
 LocBottom
-DisplayMapID<u32>
+DisplayMapID<32>
 DefaultDungeonFloor<32>
-ParentWorldMapID<u32>
+ParentWorldMapID<32>
 
 BUILD 3.0.1.8622-3.1.3.9947
 $id$ID<32>
-MapID<u32>
-AreaID<u32>
+MapID<32>
+AreaID<32>
 AreaName
 LocLeft
 LocRight
 LocTop
 LocBottom
-DisplayMapID<u32>
+DisplayMapID<32>
 DefaultDungeonFloor<32>
 
 BUILD 2.0.0.5665-2.0.0.5965
 BUILD 2.0.0.6022-3.0.1.8471
 $id$ID<32>
-MapID<u32>
-AreaID<u32>
+MapID<32>
+AreaID<32>
 AreaName
 LocLeft
 LocRight
 LocTop
 LocBottom
-DisplayMapID<u32>
+DisplayMapID<32>
 
 BUILD 2.0.0.5991
 BUILD 0.5.5.3494-2.0.0.5610
 $id$ID<32>
-MapID<u32>
-AreaID<u32>
+MapID<32>
+AreaID<32>
 AreaName
 LocLeft
 LocRight

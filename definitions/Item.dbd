@@ -87,16 +87,16 @@ Field_048575329<u8>
 
 BUILD 3.0.2.9056-5.4.8.18414
 $id$ID<32>
-ClassID<u32>
-SubclassID<u32>
-Sound_override_subclassID<u32>
+ClassID<32>
+SubclassID<32>
+Sound_override_subclassID<32>
 Material<32>
-DisplayInfoID<u32>
+DisplayInfoID<32>
 InventoryType<32>
 SheatheType<32>
 
 BUILD 2.4.0.8089-3.0.1.8885
 $id$ID<32>
-DisplayInfoID<u32>
+DisplayInfoID<32>
 InventoryType<32>
 SheatheType<32>

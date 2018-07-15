@@ -63,13 +63,13 @@ Duration<32>[10]
 Date<32>[26]
 Region<32>
 Looping<32>
-CalendarFlags<u32>[10]
-HolidayNameID<u32>
-HolidayDescriptionID<u32>
+CalendarFlags<32>[10]
+HolidayNameID<32>
+HolidayDescriptionID<32>
 TextureFilename
 Priority<32>
 CalendarFilterType<32>
-Flags<u32>
+Flags<32>
 
 BUILD 3.0.1.8770-3.1.1.9835
 $id$ID<32>
@@ -77,9 +77,9 @@ Duration<32>[10]
 Date<32>[26]
 Region<32>
 Looping<32>
-CalendarFlags<u32>[10]
-HolidayNameID<u32>
-HolidayDescriptionID<u32>
+CalendarFlags<32>[10]
+HolidayNameID<32>
+HolidayDescriptionID<32>
 TextureFilename
 Priority<32>
 CalendarFilterType<32>
@@ -90,9 +90,9 @@ Duration<32>[10]
 Date<32>[26]
 Region<32>
 Looping<32>
-CalendarFlags<u32>[10]
-HolidayNameID<u32>
-HolidayDescriptionID<u32>
+CalendarFlags<32>[10]
+HolidayNameID<32>
+HolidayDescriptionID<32>
 TextureFilename
 Priority<32>
 
@@ -102,9 +102,9 @@ Duration<32>[10]
 Date<32>[26]
 Region<32>
 Looping<32>
-CalendarFlags<u32>[10]
-HolidayNameID<u32>
-HolidayDescriptionID<u32>
+CalendarFlags<32>[10]
+HolidayNameID<32>
+HolidayDescriptionID<32>
 TextureFilename
 
 BUILD 3.0.1.8303
@@ -113,6 +113,6 @@ Duration<32>[10]
 Date<32>[26]
 Region<32>
 Looping<32>
-CalendarFlags<u32>[10]
-HolidayNameID<u32>
-HolidayDescriptionID<u32>
+CalendarFlags<32>[10]
+HolidayNameID<32>
+HolidayDescriptionID<32>

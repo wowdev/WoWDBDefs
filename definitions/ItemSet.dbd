@@ -60,8 +60,8 @@ BUILD 1.11.0.5344-2.0.0.5965
 BUILD 2.0.0.6022-5.4.8.18273
 $id$ID<32>
 Name_lang
-ItemID<u32>[17]
-SetSpellID<u32>[8]
+ItemID<32>[17]
+SetSpellID<32>[8]
 SetThreshold<32>[8]
 RequiredSkill<32>
 RequiredSkillRank<32>
@@ -70,8 +70,8 @@ BUILD 2.0.0.5991
 BUILD 1.7.0.4671-1.10.2.5302
 $id$ID<32>
 Name_lang
-ItemID<u32>[56]
-SetSpellID<u32>[8]
+ItemID<32>[56]
+SetSpellID<32>[8]
 SetThreshold<32>[8]
 RequiredSkill<32>
 RequiredSkillRank<32>
@@ -79,6 +79,6 @@ RequiredSkillRank<32>
 BUILD 0.10.0.3892-1.6.1.4544
 $id$ID<32>
 Name_lang
-ItemID<u32>[56]
-SetSpellID<u32>[8]
+ItemID<32>[56]
+SetSpellID<32>[8]
 SetThreshold<32>[8]

@@ -26,6 +26,6 @@ $noninline,relation$BattlePetAbilityID<u16>
 
 BUILD 5.0.4.16016-6.2.4.21742
 $id$ID<32>
-BattlePetAbilityID<u32>
-BattlePetStateID<u32>
+BattlePetAbilityID<32>
+BattlePetStateID<32>
 Value<32>

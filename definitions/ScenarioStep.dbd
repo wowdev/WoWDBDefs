@@ -110,23 +110,23 @@ Field_236697928<u16>
 
 BUILD 5.0.1.15508
 $id$ID<32>
-CriteriatreeID<u32>
-ScenarioID<u32>
+CriteriatreeID<32>
+ScenarioID<32>
 OrderIndex<32>
 
 BUILD 5.0.1.15544-5.2.0.16826
 $id$ID<32>
-CriteriatreeID<u32>
-ScenarioID<u32>
+CriteriatreeID<32>
+ScenarioID<32>
 OrderIndex<32>
 Description_lang
 Title_lang
 
 BUILD 5.3.0.16844-5.4.8.18414
 $id$ID<32>
-CriteriatreeID<u32>
-ScenarioID<u32>
+CriteriatreeID<32>
+ScenarioID<32>
 OrderIndex<32>
 Description_lang
 Title_lang
-Flags<u32>
+Flags<32>

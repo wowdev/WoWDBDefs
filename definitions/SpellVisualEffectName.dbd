@@ -139,10 +139,10 @@ AreaEffectSize
 Scale
 MinAllowedScale
 MaxAllowedScale
-Type<u8>
-Padding_229586292<u8>[3]
+Type<8>
+Padding_229586292<8>[3]
 Alpha
-Flags<u32>
+Flags<32>
 
 BUILD 5.0.1.15589-5.3.0.17116
 $id$ID<32>
@@ -154,7 +154,7 @@ MinAllowedScale
 MaxAllowedScale
 Type<32>
 Alpha
-Flags<u32>
+Flags<32>
 
 BUILD 4.1.0.13914-5.0.1.15544
 $id$ID<32>
@@ -186,15 +186,15 @@ BUILD 0.7.0.3694-0.7.6.3712
 $id$ID<32>
 Name
 FileName
-SpecialID<u32>
+SpecialID<32>
 SpecialAttachPoint<32>
 AreaEffectSize
-VisualEffectNameFlags<u32>
+VisualEffectNameFlags<32>
 
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
 FileName
-SpecialID<u32>
+SpecialID<32>
 SpecialAttachPoint<32>
 AreaEffectSize
-VisualEffectNameFlags<u32>
+VisualEffectNameFlags<32>

@@ -129,34 +129,34 @@ Field_1844406007<32>[2]
 
 BUILD 5.2.0.16669-6.0.1.18179
 $id$ID<32>
-ContinentID<u32>
+ContinentID<32>
 Pos[3]
 Name_lang
-MountCreatureID<u32>[2]
-ConditionID<u32>
-Flags<u32>
+MountCreatureID<32>[2]
+ConditionID<32>
+Flags<32>
 MapOffset[2]
 
 BUILD 4.1.0.13914-5.2.0.16650
 $id$ID<32>
-ContinentID<u32>
+ContinentID<32>
 Pos[3]
 Name_lang
-MountCreatureID<u32>[2]
-Flags<u32>
+MountCreatureID<32>[2]
+Flags<32>
 MapOffset[2]
 
 BUILD 1.11.0.5344-2.0.0.5965
 BUILD 2.0.0.6022-4.1.0.13875
 $id$ID<32>
-ContinentID<u32>
+ContinentID<32>
 Pos[3]
 Name_lang
-MountCreatureID<u32>[2]
+MountCreatureID<32>[2]
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368-1.10.2.5302
 $id$ID<32>
-ContinentID<u32>
+ContinentID<32>
 Pos[3]
 Name_lang

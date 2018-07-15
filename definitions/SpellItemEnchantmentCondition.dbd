@@ -74,21 +74,21 @@ Field_212406710<u8>[5]
 
 BUILD 4.0.0.11792-6.2.4.21742
 $id$ID<32>
-Lt_operandType<u8>[5]
-Padding_750691018<u8>[3]
+Lt_operandType<8>[5]
+Padding_750691018<8>[3]
 Lt_operand<32>[5]
-Operator<u8>[5]
-Rt_operandType<u8>[5]
-Padding_3998259041<u8>[2]
+Operator<8>[5]
+Rt_operandType<8>[5]
+Padding_3998259041<8>[2]
 Rt_operand<32>[5]
-Logic<u8>[5]
-Padding_371849722<u8>[3]
+Logic<8>[5]
+Padding_371849722<8>[3]
 
 BUILD 2.0.0.5610-3.3.5.12340
 $id$ID<32>
-Lt_operandType<u8>[5]
+Lt_operandType<8>[5]
 Lt_operand<32>[5]
-Operator<u8>[5]
-Rt_operandType<u8>[5]
+Operator<8>[5]
+Rt_operandType<8>[5]
 Rt_operand<32>[5]
-Logic<u8>[5]
+Logic<8>[5]

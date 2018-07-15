@@ -42,12 +42,12 @@ Field_796248661<u32>
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 Volume<32>
-KeyID<u32>
-AudioFileDataID<u32>
-SubtitleFileDataID<u32>
+KeyID<32>
+AudioFileDataID<32>
+SubtitleFileDataID<32>
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
 Filename
 Volume<32>
-KeyID<u32>
+KeyID<32>

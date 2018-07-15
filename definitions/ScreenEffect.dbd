@@ -102,24 +102,24 @@ $id$ID<32>
 Name
 Effect<32>
 Param<32>[4]
-LightParamsID<u32>
+LightParamsID<32>
 LightParamsFadeIn<32>
 LightParamsFadeOut<32>
-SoundAmbienceID<u32>
-ZoneMusicID<u32>
+SoundAmbienceID<32>
+ZoneMusicID<32>
 TimeOfDayOverride<32>
-EffectMask<u32>
+EffectMask<32>
 
 BUILD 5.0.1.15762-5.0.1.15781
 $id$ID<32>
 Name
 Effect<32>
 Param<32>[4]
-LightParamsID<u32>
+LightParamsID<32>
 LightParamsFadeIn<32>
 LightParamsFadeOut<32>
-SoundAmbienceID<u32>
-ZoneMusicID<u32>
+SoundAmbienceID<32>
+ZoneMusicID<32>
 TimeOfDayOverride<32>
 
 BUILD 4.3.2.15211-5.0.1.15752
@@ -127,9 +127,9 @@ $id$ID<32>
 Name
 Effect<32>
 Param<32>[4]
-LightParamsID<u32>
-SoundAmbienceID<u32>
-ZoneMusicID<u32>
+LightParamsID<32>
+SoundAmbienceID<32>
+ZoneMusicID<32>
 TimeOfDayOverride<32>
 
 BUILD 3.0.1.8622-4.3.0.15050
@@ -137,9 +137,9 @@ $id$ID<32>
 Name
 Effect<32>
 Param<32>[4]
-LightParamsID<u32>
-SoundAmbienceID<u32>
-ZoneMusicID<u32>
+LightParamsID<32>
+SoundAmbienceID<32>
+ZoneMusicID<32>
 
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>

@@ -81,11 +81,11 @@ EmoteDelay<u16>[3]
 
 BUILD 5.0.1.15650-6.2.4.21742
 $id$ID<32>
-LanguageID<u32>
+LanguageID<32>
 MaleText
 FemaleText
-EmoteID<u32>[3]
+EmoteID<32>[3]
 EmoteDelay<32>[3]
-SoundEntriesID<u32>
-EndEmoteID<u32>
+SoundEntriesID<32>
+EndEmoteID<32>
 Flags<32>

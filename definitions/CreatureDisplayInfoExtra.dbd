@@ -90,25 +90,25 @@ CustomDisplayOption<u8>[3]
 
 BUILD 2.0.0.6080-5.4.8.18273
 $id$ID<32>
-DisplayRaceID<u32>
-DisplaySexID<u32>
-SkinID<u32>
-FaceID<u32>
-HairStyleID<u32>
-HairColorID<u32>
-FacialHairID<u32>
+DisplayRaceID<32>
+DisplaySexID<32>
+SkinID<32>
+FaceID<32>
+HairStyleID<32>
+HairColorID<32>
+FacialHairID<32>
 NPCItemDisplay<32>[11]
-Flags<u32>
+Flags<32>
 BakeName
 
 BUILD 0.5.3.3368-2.0.0.5991
 $id$ID<32>
-DisplayRaceID<u32>
-DisplaySexID<u32>
-SkinID<u32>
-FaceID<u32>
-HairStyleID<u32>
-HairColorID<u32>
-FacialHairID<u32>
+DisplayRaceID<32>
+DisplaySexID<32>
+SkinID<32>
+FaceID<32>
+HairStyleID<32>
+HairColorID<32>
+FacialHairID<32>
 NPCItemDisplay<32>[10]
 BakeName

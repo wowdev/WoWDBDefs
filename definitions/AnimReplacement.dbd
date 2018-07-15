@@ -29,6 +29,6 @@ $noninline,relation$ParentAnimReplacementSetID<u16>
 
 BUILD 4.0.0.11927-6.0.3.19342
 $id$ID<32>
-SrcAnimID<u32>
-DstAnimID<u32>
-ParentAnimReplacementSetID<u32>
+SrcAnimID<32>
+DstAnimID<32>
+ParentAnimReplacementSetID<32>

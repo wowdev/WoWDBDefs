@@ -16,5 +16,5 @@ $noninline,relation$JournalEncounterID<u16>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-JournalEncounterID<u32>
-DifficultyID<u32>
+JournalEncounterID<32>
+DifficultyID<32>

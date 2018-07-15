@@ -115,75 +115,75 @@ MapID<16>[16]
 
 BUILD 5.3.0.16844-5.4.8.18414
 $id$ID<32>
-MapID<u32>[16]
+MapID<32>[16]
 InstanceType<32>
 GroupsAllowed<32>
 Name_lang
 MaxGroupSize<32>
-HolidayWorldState<u32>
+HolidayWorldState<32>
 Minlevel<32>
 Maxlevel<32>
 RatedPlayers<32>
 MinPlayers<32>
 MaxPlayers<32>
-Flags<u32>
-IconFileDataID<u32>
+Flags<32>
+IconFileDataID<32>
 Gametype_lang
 
 BUILD 5.0.1.15589-5.2.0.16826
 $id$ID<32>
-MapID<u32>[10]
+MapID<32>[10]
 InstanceType<32>
 GroupsAllowed<32>
 Name_lang
 MaxGroupSize<32>
-HolidayWorldState<u32>
+HolidayWorldState<32>
 Minlevel<32>
 Maxlevel<32>
 RatedPlayers<32>
 MinPlayers<32>
 MaxPlayers<32>
-Flags<u32>
+Flags<32>
 
 BUILD 4.0.6.13623-5.0.1.15544
 $id$ID<32>
-MapID<u32>[8]
+MapID<32>[8]
 InstanceType<32>
 GroupsAllowed<32>
 Name_lang
 MaxGroupSize<32>
-HolidayWorldState<u32>
+HolidayWorldState<32>
 Minlevel<32>
 Maxlevel<32>
 RatedPlayers<32>
 MinPlayers<32>
 MaxPlayers<32>
-Flags<u32>
+Flags<32>
 
 BUILD 3.3.3.11685-4.0.6.13596
 $id$ID<32>
-MapID<u32>[8]
+MapID<32>[8]
 InstanceType<32>
 GroupsAllowed<32>
 Name_lang
 MaxGroupSize<32>
-HolidayWorldState<u32>
+HolidayWorldState<32>
 Minlevel<32>
 Maxlevel<32>
 
 BUILD 3.3.0.10958-3.3.2.11403
 $id$ID<32>
-MapID<u32>[8]
+MapID<32>[8]
 InstanceType<32>
 Field_8444340996<32>
 GroupsAllowed<32>
 Name_lang
 MaxGroupSize<32>
-HolidayWorldState<u32>
+HolidayWorldState<32>
 
 BUILD 3.1.0.9767-3.2.2.10505
 $id$ID<32>
-MapID<u32>[8]
+MapID<32>[8]
 InstanceType<32>
 Minlevel<32>
 Maxlevel<32>
@@ -193,11 +193,11 @@ Field_3354886897<32>
 GroupsAllowed<32>
 Name_lang
 Field_4451966822<32>
-HolidayWorldState<u32>
+HolidayWorldState<32>
 
 BUILD 3.0.3.9183-3.0.9.9551
 $id$ID<32>
-MapID<u32>[8]
+MapID<32>[8]
 InstanceType<32>
 Minlevel<32>
 Maxlevel<32>
@@ -210,7 +210,7 @@ Field_4451966822<32>
 
 BUILD 2.4.0.8089-3.0.2.9056
 $id$ID<32>
-MapID<u32>[8]
+MapID<32>[8]
 InstanceType<32>
 Minlevel<32>
 Maxlevel<32>
@@ -222,7 +222,7 @@ Field_3354886897<32>
 
 BUILD 2.0.0.5610-2.3.3.7799
 $id$ID<32>
-MapID<u32>[8]
+MapID<32>[8]
 InstanceType<32>
 Minlevel<32>
 Maxlevel<32>

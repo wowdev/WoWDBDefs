@@ -95,33 +95,33 @@ Field_1214798562<u16>
 
 BUILD 5.4.0.17266-6.0.1.18179
 $id$ID<32>
-FallbackDifficultyID<u32>
+FallbackDifficultyID<32>
 InstanceType<32>
 MinPlayers<32>
 MaxPlayers<32>
 OldEnumValue<32>
-Flags<u32>
-ToggleDifficultyID<u32>
-GroupSizeHealthCurveID<u32>
-GroupSizeDmgCurveID<u32>
-GroupSizeSpellPointsCurveID<u32>
+Flags<32>
+ToggleDifficultyID<32>
+GroupSizeHealthCurveID<32>
+GroupSizeDmgCurveID<32>
+GroupSizeSpellPointsCurveID<32>
 Name_lang
 
 BUILD 5.2.0.16516-5.3.0.17116
 $id$ID<32>
-FallbackDifficultyID<u32>
+FallbackDifficultyID<32>
 InstanceType<32>
 MinPlayers<32>
 OldEnumValue<32>
 Field_9688170710<32>
-ToggleDifficultyID<u32>
+ToggleDifficultyID<32>
 Name_lang
 
 BUILD 5.0.1.15589-5.1.0.16357
 $id$ID<32>
-FallbackDifficultyID<u32>
+FallbackDifficultyID<32>
 InstanceType<32>
 Field_1789367167<32>
 OldEnumValue<32>
-Flags<u32>
+Flags<32>
 Name_lang

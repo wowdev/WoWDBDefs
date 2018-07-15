@@ -38,13 +38,13 @@ BattlePetVisualID<u16>
 
 BUILD 5.0.1.15544-5.4.8.18414
 $id$ID<32>
-BattlePetAbilityID<u32>
-BattlePetVisualID<u32>
+BattlePetAbilityID<32>
+BattlePetVisualID<32>
 Duration<32>
 HasEffect<32>
 Effect<32>
 
 BUILD 5.0.1.15464-5.0.1.15508
 $id$ID<32>
-BattlePetAbilityID<u32>
+BattlePetAbilityID<32>
 Field_1057587075<32>

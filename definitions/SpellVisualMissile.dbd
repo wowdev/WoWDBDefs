@@ -100,15 +100,15 @@ $noninline,relation$Field_1986408782<u16>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-SpellVisualMissileSetID<u32>
-SpellVisualEffectNameID<u32>
+SpellVisualMissileSetID<32>
+SpellVisualEffectNameID<32>
 DestinationAttachment<32>
-SoundEntriesID<u32>
+SoundEntriesID<32>
 Attachment<32>
 Field_2730632169<32>
 FollowGroundDropSpeed<32>
 FollowGroundApproach<32>
-Flags<u32>
-SpellMissileMotionID<u32>
+Flags<32>
+SpellMissileMotionID<32>
 ImpactOffset[3]
 CastOffset[3]

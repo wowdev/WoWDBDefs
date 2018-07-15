@@ -57,8 +57,8 @@ Field_1465838725
 
 BUILD 5.0.1.15799-5.4.8.18414
 $id$ID<32>
-ModelFileDataID<u32>
-Flags<u32>
+ModelFileDataID<32>
+Flags<32>
 LifeTime<32>
 EmissionRate
 Spacing
@@ -67,7 +67,7 @@ ModelScale
 BUILD 4.2.0.14333-5.0.1.15781
 $id$ID<32>
 Name
-Flags<u32>
+Flags<32>
 LifeTime<32>
 EmissionRate
 Spacing
@@ -76,4 +76,4 @@ ModelScale
 BUILD 3.1.0.9767-4.2.0.14316
 $id$ID<32>
 Name
-EnumID<u32>
+EnumID<32>

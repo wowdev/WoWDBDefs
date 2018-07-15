@@ -91,7 +91,7 @@ Start_asset<32>
 Start_timer<32>
 Fail_event<32>
 Fail_asset<32>
-Modifier_tree_ID<u32>
-Flags<u32>
-Eligibility_world_state_ID<u32>
+Modifier_tree_ID<32>
+Flags<32>
+Eligibility_world_state_ID<32>
 Eligibility_world_state_value<32>

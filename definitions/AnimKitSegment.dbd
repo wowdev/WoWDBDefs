@@ -102,10 +102,10 @@ BlendOutTimeMs<u16>
 
 BUILD 4.0.0.11927-5.4.8.18273
 $id$ID<32>
-ParentAnimKitID<u32>
-AnimID<u32>
+ParentAnimKitID<32>
+AnimID<32>
 AnimStartTime<32>
-AnimKitConfigID<u32>
+AnimKitConfigID<32>
 StartCondition<32>
 StartConditionParam<32>
 StartConditionDelay<32>
@@ -113,7 +113,7 @@ EndCondition<32>
 EndConditionParam<32>
 EndConditionDelay<32>
 Speed
-SegmentFlags<u32>
+SegmentFlags<32>
 ForcedVariation<32>
-OverrideConfigFlags<u32>
+OverrideConfigFlags<32>
 LoopToSegmentIndex<32>

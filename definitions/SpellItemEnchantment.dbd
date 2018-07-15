@@ -222,10 +222,10 @@ EffectPointsMin<32>[3]
 EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
-Flags<u32>
-Src_itemID<u32>
-Condition_ID<u32>
-RequiredSkillID<u32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
 RequiredSkillRank<32>
 MinLevel<32>
 MaxLevel<32>
@@ -243,10 +243,10 @@ EffectPointsMin<32>[3]
 EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
-Flags<u32>
-Src_itemID<u32>
-Condition_ID<u32>
-RequiredSkillID<u32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
 RequiredSkillRank<32>
 MinLevel<32>
 MaxLevel<32>
@@ -263,10 +263,10 @@ EffectPointsMax<32>[3]
 EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
-Flags<u32>
-Src_itemID<u32>
-Condition_ID<u32>
-RequiredSkillID<u32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
 RequiredSkillRank<32>
 MinLevel<32>
 ItemLevel<32>
@@ -280,10 +280,10 @@ EffectPointsMax<32>[3]
 EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
-Flags<u32>
-Src_itemID<u32>
-Condition_ID<u32>
-RequiredSkillID<u32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
 RequiredSkillRank<32>
 MinLevel<32>
 
@@ -296,10 +296,10 @@ EffectPointsMax<32>[3]
 EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
-Flags<u32>
-Src_itemID<u32>
-Condition_ID<u32>
-RequiredSkillID<u32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
 RequiredSkillRank<32>
 
 BUILD 2.0.0.5610-2.0.0.5965
@@ -311,9 +311,9 @@ EffectPointsMax<32>[3]
 EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
-Flags<u32>
-Src_itemID<u32>
-Condition_ID<u32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
 
 BUILD 2.0.0.5991
 BUILD 0.5.5.3494-1.12.2.6005
@@ -324,4 +324,4 @@ EffectPointsMax<32>[3]
 EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
-Flags<u32>
+Flags<32>

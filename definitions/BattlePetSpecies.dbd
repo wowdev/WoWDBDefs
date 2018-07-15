@@ -78,7 +78,7 @@ CreatureID<32>
 IconID<32>
 SummonSpellID<32>
 PetTypeEnum<32>
-Flags<u32>
+Flags<32>
 
 BUILD 5.0.1.15640-5.0.1.15689
 $id$ID<32>
@@ -86,7 +86,7 @@ CreatureID<32>
 IconID<32>
 SummonSpellID<32>
 PetTypeEnum<32>
-Flags<u32>
+Flags<32>
 SourceText_lang
 Description_lang
 
@@ -97,6 +97,6 @@ IconID<32>
 SummonSpellID<32>
 PetTypeEnum<32>
 SourceTypeEnum<32>
-Flags<u32>
+Flags<32>
 SourceText_lang
 Description_lang

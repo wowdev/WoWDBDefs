@@ -107,43 +107,43 @@ Flags<8>
 
 BUILD 5.0.2.15827-5.4.8.18414
 $id$ID<32>
-ContinentID<u32>
+ContinentID<32>
 Pos[3]
-PhaseUseFlags<u32>
-PhaseID<u32>
-PhaseGroupID<u32>
+PhaseUseFlags<32>
+PhaseID<32>
+PhaseGroupID<32>
 Radius
 Box_length
 Box_width
 Box_height
 Box_yaw
 ShapeType<32>
-ShapeID<u32>
-AreaTriggerActionSetID<u32>
+ShapeID<32>
+AreaTriggerActionSetID<32>
 
 BUILD 5.0.1.15650-5.0.1.15799
 $id$ID<32>
-ContinentID<u32>
+ContinentID<32>
 Pos[3]
-PhaseUseFlags<u32>
-PhaseID<u32>
-PhaseGroupID<u32>
+PhaseUseFlags<32>
+PhaseID<32>
+PhaseGroupID<32>
 Radius
 Box_length
 Box_width
 Box_height
 Box_yaw
 ShapeType<32>
-ShapeID<u32>
+ShapeID<32>
 
 BUILD 5.0.1.15662
 BUILD 4.0.0.11927-5.0.1.15640
 $id$ID<32>
-ContinentID<u32>
+ContinentID<32>
 Pos[3]
-PhaseUseFlags<u32>
-PhaseID<u32>
-PhaseGroupID<u32>
+PhaseUseFlags<32>
+PhaseID<32>
+PhaseGroupID<32>
 Radius
 Box_length
 Box_width
@@ -152,7 +152,7 @@ Box_yaw
 
 BUILD 0.10.0.3892-3.3.5.12340
 $id$ID<32>
-ContinentID<u32>
+ContinentID<32>
 Pos[3]
 Radius
 Box_length
@@ -162,6 +162,6 @@ Box_yaw
 
 BUILD 0.5.3.3368-0.9.1.3810
 $id$ID<32>
-ContinentID<u32>
+ContinentID<32>
 Pos[3]
 Radius

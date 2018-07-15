@@ -49,15 +49,15 @@ Field_600915378<8>
 
 BUILD 4.2.0.14333-5.3.0.17116
 $id$ID<32>
-JournalEncounterID<u32>
-ItemID<u32>
-DifficultyMask<u32>
-FactionMask<u32>
+JournalEncounterID<32>
+ItemID<32>
+DifficultyMask<32>
+FactionMask<32>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-JournalEncounterID<u32>
-ItemID<u32>
-DifficultyMask<u32>
-FactionMask<u32>
-Flags<u32>
+JournalEncounterID<32>
+ItemID<32>
+DifficultyMask<32>
+FactionMask<32>
+Flags<32>

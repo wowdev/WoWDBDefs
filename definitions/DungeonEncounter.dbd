@@ -64,30 +64,30 @@ Field_1547698716<32>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
-MapID<u32>
-DifficultyID<u32>
+MapID<32>
+DifficultyID<32>
 OrderIndex<32>
 Bit<32>
 Name_lang
-CreatureDisplayID<u32>
-SpellIconID<u32>
-Flags<u32>
+CreatureDisplayID<32>
+SpellIconID<32>
+Flags<32>
 
 BUILD 4.0.0.12911-5.3.0.17116
 $id$ID<32>
-MapID<u32>
-DifficultyID<u32>
+MapID<32>
+DifficultyID<32>
 OrderIndex<32>
 Bit<32>
 Name_lang
-CreatureDisplayID<u32>
-SpellIconID<u32>
+CreatureDisplayID<32>
+SpellIconID<32>
 
 BUILD 3.3.0.10958-4.0.0.12319
 $id$ID<32>
-MapID<u32>
-DifficultyID<u32>
+MapID<32>
+DifficultyID<32>
 OrderIndex<32>
 Bit<32>
 Name_lang
-SpellIconID<u32>
+SpellIconID<32>
