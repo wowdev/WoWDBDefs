@@ -1,13 +1,7 @@
 COLUMNS
 int ID
 string Name?
-locstring Value_lang?
 locstring Description_lang
-
-BUILD 1.12.1.5875
-$id$ID<32>
-Name
-Value_lang
 
 BUILD 1.1.2.4125-6.2.0.20338
 $id$ID<32>
