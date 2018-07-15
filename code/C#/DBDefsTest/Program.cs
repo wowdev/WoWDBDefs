@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Security.Cryptography;
 using static DBDefsLib.Structs;
 
@@ -23,33 +24,17 @@ namespace DBDTest
 
             var definitionDir = args[0];
 
-            var buildList = new List<string>();
-
             foreach (var file in Directory.GetFiles(definitionDir))
             {
                 var reader = new DBDReader();
                 definitionCache.Add(Path.GetFileNameWithoutExtension(file).ToLower(), reader.Read(file));
-
-                foreach (var versionDef in definitionCache[Path.GetFileNameWithoutExtension(file).ToLower()].versionDefinitions)
-                {
-                    foreach (var versionBuild in versionDef.builds)
-                    {
-                        var buildString = versionBuild.ToString();
-                        if (!buildList.Contains(buildString)){
-                            buildList.Add(buildString);
-                        }
-                    }
-                }
             }
 
             foreach (var dir in Directory.GetDirectories("Z:/DBCs/"))
             {
                 var buildDir = dir.Replace("Z:/DBCs/", "");
-                if (!buildList.Contains(buildDir))
-                {
-                    continue;
-                }
 
+                Console.WriteLine("Checking " + buildDir + "..");
                 if (Directory.Exists(Path.Combine(dir, "DBFilesClient"))){
                     foreach (var file in Directory.GetFiles(Path.Combine(dir, "DBFilesClient")))
                     {
@@ -188,109 +173,136 @@ namespace DBDTest
                 }
 
                 var dbd = definitionCache[Path.GetFileNameWithoutExtension(filename).ToLower()];
+                var dbChecked = false;
+
                 foreach (var versionDef in dbd.versionDefinitions)
                 {
-                    foreach (var versionBuild in versionDef.builds)
+                    var versionDefMatches = false;
+
+                    foreach (var buildRange in versionDef.buildRanges)
                     {
-                        if (versionBuild.ToString() == buildDir)
+                        if (buildRange.Contains(new Build(buildDir)))
                         {
-                            // Check field sizes
-                            var fields = versionDef.definitions.Length;
-                            foreach (var definition in versionDef.definitions)
+                            versionDefMatches = true;
+                        }
+                    }
+
+                    if (versionDef.builds.Contains(new Build(buildDir)))
+                    {
+                        versionDefMatches = true;
+                    }
+
+                    if (versionDefMatches)
+                    {
+                        // Check field sizes
+                        var fields = 0;
+                        foreach (var definition in versionDef.definitions)
+                        {
+                            if (definition.name.StartsWith("Padding_") || definition.isNonInline)
+                                continue;
+
+                            int arrLength = Math.Max(definition.arrLength, 1);
+
+                            if (definition.isRelation)
                             {
-                                if (definition.arrLength > 0)
-                                {
-                                    fields += definition.arrLength;
-                                    fields -= 1;
-                                }
-
-                                if (definition.isNonInline)
-                                {
-                                    fields -= 1;
-                                }
-
-                                if (definition.isRelation)
-                                {
-                                    fields -= 1;
-                                }
-
-                                if (dbd.columnDefinitions[definition.name].type == "locstring")
-                                {
-                                    var tempBuild = new Build(buildDir);
-                                    if (tempBuild.build < 6692)
-                                    {
-                                        fields += 8;
-                                    }
-                                    else if (tempBuild.build > 6692 && (tempBuild.expansion < 4 && tempBuild.build < 11927))
-                                    {
-                                        fields += 16;
-                                    }
-                                }
-                            }
-                            if (fieldCount != fields)
-                            {
-                                foundError = true;
-                                Console.ForegroundColor = ConsoleColor.Red;
-                                Console.WriteLine("[" + buildDir + "][" + Path.GetFileNameWithoutExtension(filename) + "] Field count wrong! DBC: " + fieldCount + ", DBD: " + fields);
-                                Console.ResetColor();
+                                fields++;
+                                continue;
                             }
 
-                            // Check record sizes
-                            var dbdRecordSize = 0;
-                            foreach (var definition in versionDef.definitions)
+                            if (dbd.columnDefinitions[definition.name].type == "locstring")
                             {
-                                if (definition.isNonInline || definition.isRelation) continue;
-
-                                var fieldSize = 0;
-                                switch (dbd.columnDefinitions[definition.name].type)
+                                var tempBuild = new Build(buildDir);
+                                if (tempBuild.build < 6692)
                                 {
-                                    case "int":
-                                    case "uint":
-                                        fieldSize = definition.size;
-                                        break;
-                                    case "string":
-                                    case "float":
-                                        fieldSize = 32;
-                                        break;
-                                    case "locstring":
-                                        var tempBuild = new Build(buildDir);
-                                        if (tempBuild.build < 6692)
-                                        {
-                                            fieldSize = 32 * 9;
-                                        }
-                                        else if (tempBuild.build > 6692 && (tempBuild.expansion < 4 && tempBuild.build < 11927))
-                                        {
-                                            fieldSize = 32 * 17;
-                                        }
-                                        else
-                                        {
-                                            fieldSize = 32;
-                                        }
-                                        break;
-                                    default:
-                                        throw new Exception("Unknown type: " + dbd.columnDefinitions[definition.name].type + "!");
+                                    fields += (9 * arrLength);
                                 }
-
-                                if(definition.arrLength > 0)
+                                else if (tempBuild.build > 6692 && (tempBuild.expansion < 4 && tempBuild.build < 11927))
                                 {
-                                    dbdRecordSize += (fieldSize / 8) * definition.arrLength;
+                                    fields += (17 * arrLength);
                                 }
                                 else
                                 {
-
-                                    dbdRecordSize += (fieldSize / 8);
+                                    fields += arrLength;
                                 }
                             }
-
-                            if (recordSize != 0 && recordSize != dbdRecordSize)
+                            else
                             {
-                                foundError = true;
-                                Console.ForegroundColor = ConsoleColor.Red;
-                                Console.WriteLine("[" + buildDir + "][" + Path.GetFileNameWithoutExtension(filename) + "] Record size wrong! DBC: " + recordSize + ", DBD: " + dbdRecordSize);
-                                Console.ResetColor();
+                                fields += arrLength;
                             }
                         }
+
+                        if (fieldCount != fields)
+                        {
+                            foundError = true;
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("[" + buildDir + "][" + Path.GetFileNameWithoutExtension(filename) + "] Field count wrong! DBC: " + fieldCount + ", DBD: " + fields);
+                            Console.ResetColor();
+                        }
+
+                        // Check record sizes
+                        var dbdRecordSize = 0;
+                        foreach (var definition in versionDef.definitions)
+                        {
+                            if (definition.isNonInline || definition.isRelation) continue;
+
+                            var fieldSize = 0;
+                            switch (dbd.columnDefinitions[definition.name].type)
+                            {
+                                case "int":
+                                case "uint":
+                                    fieldSize = definition.size;
+                                    break;
+                                case "string":
+                                case "float":
+                                    fieldSize = 32;
+                                    break;
+                                case "locstring":
+                                    var tempBuild = new Build(buildDir);
+                                    if (tempBuild.build < 6692)
+                                    {
+                                        fieldSize = 32 * 9;
+                                    }
+                                    else if (tempBuild.build > 6692 && (tempBuild.expansion < 4 && tempBuild.build < 11927))
+                                    {
+                                        fieldSize = 32 * 17;
+                                    }
+                                    else
+                                    {
+                                        fieldSize = 32;
+                                    }
+                                    break;
+                                default:
+                                    throw new Exception("Unknown type: " + dbd.columnDefinitions[definition.name].type + "!");
+                            }
+
+                            if (definition.arrLength > 0)
+                            {
+                                dbdRecordSize += (fieldSize / 8) * definition.arrLength;
+                            }
+                            else
+                            {
+
+                                dbdRecordSize += (fieldSize / 8);
+                            }
+                        }
+
+                        if (recordSize != 0 && recordSize != dbdRecordSize)
+                        {
+                            foundError = true;
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("[" + buildDir + "][" + Path.GetFileNameWithoutExtension(filename) + "] Record size wrong! DBC: " + recordSize + ", DBD: " + dbdRecordSize);
+                            Console.ResetColor();
+                        }
+
+                        dbChecked = true;
+
+                        break;
                     }
+                }
+
+                if (!dbChecked)
+                {
+                    Console.WriteLine("Unable to find definitions for " + Path.GetFileNameWithoutExtension(filename) + " - " + buildDir);
                 }
 
                 //Console.WriteLine("[" + buildDir + "][" + name + "] magic: " + magic + ", fieldcount: " + fieldCount + ", recordcount: " + recordCount + ", build: " + build + ", layoutHash: " + layoutHash);
@@ -308,7 +320,7 @@ namespace DBDTest
                             }
                         }
                     }
-                    if (!found) { foundError = true; Console.WriteLine("   Unable to find layoutHash " + layoutHash + " in definitions!"); }
+                    if (!found) { foundError = true; Console.WriteLine("[" + name.ToLower() + "]   Unable to find layoutHash " + layoutHash + " in definitions!"); }
                 }
             }
         }
