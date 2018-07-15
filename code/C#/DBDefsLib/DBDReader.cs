@@ -380,7 +380,26 @@ namespace DBDefsLib
                     {
                         if (i == j) continue; // Do not compare same entry
 
-                        if(versionDefinitions[i].definitions.SequenceEqual(versionDefinitions[j].definitions))
+                        for (var b = 0; b < versionDefinitions[i].buildRanges.Length; b++)
+                        {
+                            for (var c = 0; c < versionDefinitions[j].builds.Length; c++)
+                            {
+                                if (versionDefinitions[i].buildRanges[b].Contains(versionDefinitions[j].builds[c]))
+                                {
+                                    throw new Exception("Build " + versionDefinitions[j].builds[c] + " conflicts with " + versionDefinitions[i].buildRanges[b] + "!");
+                                }
+                            }
+
+                            for (var c = 0; c < versionDefinitions[j].buildRanges.Length; c++)
+                            {
+                                if (versionDefinitions[i].buildRanges[b].Contains(versionDefinitions[j].buildRanges[c].minBuild) || versionDefinitions[i].buildRanges[b].Contains(versionDefinitions[j].buildRanges[c].maxBuild))
+                                {
+                                    throw new Exception("Build " + versionDefinitions[j].buildRanges[c] + " conflicts with " + versionDefinitions[i].buildRanges[b] + "!");
+                                }
+                            }
+                        }
+
+                        if (versionDefinitions[i].definitions.SequenceEqual(versionDefinitions[j].definitions))
                         {
                             if (versionDefinitions[i].layoutHashes.Length > 0 && versionDefinitions[j].layoutHashes.Length > 0 && !versionDefinitions[i].layoutHashes.SequenceEqual(versionDefinitions[j].layoutHashes)){
                                 Console.ForegroundColor = ConsoleColor.Yellow;
