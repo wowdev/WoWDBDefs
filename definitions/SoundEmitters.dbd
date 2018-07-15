@@ -60,26 +60,20 @@ SoundEntriesID<u32>
 PhaseGroupID<u32>
 $noninline,relation$MapID<16>
 
+BUILD 4.0.0.11792-4.3.0.15050
 BUILD 4.0.0.11792
 $id$ID<32>
-PositionX
-PositionY
-PositionZ
-DirectionX
-DirectionY
-DirectionZ
+Position[3]
+Direction[3]
 SoundEntriesID<32>
 MapID<32>
 Name
 
+BUILD 3.0.1.8770-3.3.5.12340
 BUILD 3.0.2.8885, 3.0.8.9328
 $id$ID<32>
-PositionX
-PositionY
-PositionZ
-DirectionX
-DirectionY
-DirectionZ
+Position[3]
+Direction[3]
 SoundEntryAdvancedID<32>
 MapID<32>
 Name
@@ -107,11 +101,3 @@ SoundEntriesID<32>
 MapID<32>
 Name
 EmitterType<32>
-
-BUILD 3.0.1.8770-4.3.0.15050
-$id$ID<32>
-Position[3]
-Direction[3]
-SoundEntriesID<32>
-MapID<32>
-Name

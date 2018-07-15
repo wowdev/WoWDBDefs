@@ -43,8 +43,8 @@ int Field_8426551352?
 int Field_4723707192?
 int Field_1615717677?
 
+BUILD 5.0.1.15464-6.0.1.18179
 BUILD 6.0.1.18179
-BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 Flags<32>
 FlagsB<32>
@@ -98,8 +98,8 @@ FlagsB<u8>
 UiLocomotionType<u8>
 MissileTargetingID<32>
 
-BUILD 4.0.0.11792
 BUILD 3.1.0.9767-4.3.4.15595
+BUILD 4.0.0.11792
 $id$ID<32>
 Flags<32>
 TurnSpeed
@@ -130,8 +130,8 @@ MsslTrgtImpactTexRadius
 VehicleUIIndicatorID<32>
 PowerDisplayID<32>[3]
 
-BUILD 3.0.1.8303
 BUILD 3.0.1.8303-3.0.1.8471
+BUILD 3.0.1.8303
 $id$ID<32>
 Flags<32>
 TurnSpeed
@@ -139,38 +139,6 @@ PitchSpeed
 PitchMin
 PitchMax
 SeatID<32>[8]
-
-BUILD 3.0.2.8885, 3.0.8.9328
-$id$ID<32>
-Flags<32>
-TurnSpeed
-PitchSpeed
-PitchMin
-PitchMax
-SeatID<32>[8]
-MouseLookOffsetPitch
-CameraFadeDistScalarMin
-CameraFadeDistScalarMax
-CameraPitchOffset
-PowerType<32>[3]
-PowerToken[3]
-FacingLimitRight
-FacingLimitLeft
-MsslTrgtTurnLingering
-MsslTrgtPitchLingering
-MsslTrgtMouseLingering
-MsslTrgtEndOpacity
-MsslTrgtArcSpeed
-MsslTrgtArcRepeat
-MsslTrgtArcWidth
-MsslTrgtImpactRadius[2]
-MsslTrgtArcTexture
-MsslTrgtImpactTexture
-MsslTrgtImpactModel[2]
-CameraYawOffset
-UiLocomotionType<32>
-MsslTrgtImpactTexRadius
-UiSeatIndicatorType<32>
 
 LAYOUT 965DC622
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -217,6 +185,7 @@ SeatID<u16>[8]
 PowerDisplayID<u16>[3]
 
 BUILD 3.0.1.8820-3.0.9.9551
+BUILD 3.0.2.8885, 3.0.8.9328
 $id$ID<32>
 Flags<32>
 TurnSpeed
@@ -228,12 +197,8 @@ MouseLookOffsetPitch
 CameraFadeDistScalarMin
 CameraFadeDistScalarMax
 CameraPitchOffset
-Field_2678807812<32>
-Field_3403091958<32>
-Field_3434693493<32>
-Field_8426551352<32>
-Field_4723707192<32>
-Field_1615717677<32>
+PowerType<32>[3]
+PowerToken[3]
 FacingLimitRight
 FacingLimitLeft
 MsslTrgtTurnLingering
@@ -250,7 +215,7 @@ MsslTrgtImpactModel[2]
 CameraYawOffset
 UiLocomotionType<32>
 MsslTrgtImpactTexRadius
-VehicleUIIndicatorID<32>
+UiSeatIndicatorType<32>
 
 BUILD 3.0.1.8788
 $id$ID<32>
