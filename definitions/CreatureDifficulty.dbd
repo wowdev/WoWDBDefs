@@ -10,6 +10,7 @@ int ContentTuningID
 int Field_8134554260?
 
 BUILD 6.0.1.18179
+BUILD 5.4.0.17266-6.2.4.21742
 $id$ID<32>
 CreatureID<32>
 FactionID<32>
@@ -49,15 +50,6 @@ FactionID<u16>
 ContentTuningID<32>
 Flags<32>[7]
 $noninline,relation$CreatureID<32>
-
-BUILD 5.4.0.17266-6.2.4.21742
-$id$ID<32>
-CreatureID<32>
-FactionID<32>
-ExpansionID<32>
-MinLevel<32>
-MaxLevel<32>
-Flags<32>[5]
 
 BUILD 5.0.1.15589-5.3.0.17116
 $id$ID<32>

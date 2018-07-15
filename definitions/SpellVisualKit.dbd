@@ -87,92 +87,6 @@ DelayMin<u16>
 DelayMax<u16>
 
 BUILD 4.0.0.11792
-$id$ID<32>
-StartAnimID<32>
-AnimID<32>
-AnimKitID<32>
-HeadEffect<32>
-ChestEffect<32>
-BaseEffect<32>
-LeftHandEffect<32>
-RightHandEffect<32>
-BreathEffect<32>
-LeftWeaponEffect<32>
-RightWeaponEffect<32>
-SpecialEffect<32>[3]
-WorldEffect<32>
-SoundID<32>
-ShakeID<32>
-CharProc<32>[4]
-CharParamZero[4]
-CharParamOne[4]
-CharParamTwo[4]
-CharParamThree[4]
-Flags<32>
-
-BUILD 3.0.1.8303
-$id$ID<32>
-KitType<32>
-AnimID<32>
-HeadEffect<32>
-ChestEffect<32>
-BaseEffect<32>
-LeftHandEffect<32>
-RightHandEffect<32>
-BreathEffect<32>
-LeftWeaponEffect<32>
-RightWeaponEffect<32>
-SpecialEffect<32>[3]
-WorldEffect<32>
-SoundID<32>
-ShakeID<32>
-CharProc<32>[4]
-CharParamZero[4]
-CharParamOne[4]
-CharParamTwo[4]
-CharParamThree[4]
-Flags<32>
-
-BUILD 3.0.2.8885, 3.0.8.9328
-$id$ID<32>
-KitType<32>
-StartAnimID<32>
-AnimID<32>
-HeadEffect<32>
-ChestEffect<32>
-BaseEffect<32>
-LeftHandEffect<32>
-RightHandEffect<32>
-BreathEffect<32>
-LeftWeaponEffect<32>
-RightWeaponEffect<32>
-SpecialEffect<32>[3]
-WorldEffect<32>
-SoundID<32>
-ShakeID<32>
-CharProc<32>[4]
-CharParamZero[4]
-CharParamOne[4]
-CharParamTwo[4]
-CharParamThree[4]
-Flags<32>
-
-BUILD 0.5.3.3368
-$id$ID<32>
-KitType<32>
-Anim<32>
-HeadEffect<32>
-ChestEffect<32>
-BaseEffect<32>
-LeftHandEffect<32>
-RightHandEffect<32>
-BreathEffect<32>
-SpecialEffect<32>[3]
-CharacterProcedure<32>
-CharacterParam[4]
-SoundID<32>
-ShakeID<32>
-
 BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
 StartAnimID<32>
@@ -197,9 +111,10 @@ CharParamTwo[4]
 CharParamThree[4]
 Flags<32>
 
-BUILD 3.1.0.9767-3.3.5.12340
+BUILD 3.0.1.8303
+BUILD 2.1.0.6692-3.0.1.8334
 $id$ID<32>
-StartAnimID<32>
+KitType<32>
 AnimID<32>
 HeadEffect<32>
 ChestEffect<32>
@@ -220,6 +135,7 @@ CharParamTwo[4]
 CharParamThree[4]
 Flags<32>
 
+BUILD 3.0.2.8885, 3.0.8.9328
 BUILD 3.0.1.8391-3.1.0.9757
 $id$ID<32>
 KitType<32>
@@ -244,9 +160,26 @@ CharParamTwo[4]
 CharParamThree[4]
 Flags<32>
 
-BUILD 2.1.0.6692-3.0.1.8334
+BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
 KitType<32>
+Anim<32>
+HeadEffect<32>
+ChestEffect<32>
+BaseEffect<32>
+LeftHandEffect<32>
+RightHandEffect<32>
+BreathEffect<32>
+SpecialEffect<32>[3]
+CharacterProcedure<32>
+CharacterParam[4]
+SoundID<32>
+ShakeID<32>
+
+BUILD 3.1.0.9767-3.3.5.12340
+$id$ID<32>
+StartAnimID<32>
 AnimID<32>
 HeadEffect<32>
 ChestEffect<32>
@@ -327,19 +260,3 @@ CharParamZero[4]
 CharParamOne[4]
 CharParamTwo[4]
 CharParamThree[4]
-
-BUILD 0.5.3.3368-0.6.0.3592
-$id$ID<32>
-KitType<32>
-Anim<32>
-HeadEffect<32>
-ChestEffect<32>
-BaseEffect<32>
-LeftHandEffect<32>
-RightHandEffect<32>
-BreathEffect<32>
-SpecialEffect<32>[3]
-CharacterProcedure<32>
-CharacterParam[4]
-SoundID<32>
-ShakeID<32>

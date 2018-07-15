@@ -22,6 +22,7 @@ int Field_169821730
 int Field_080834822
 
 BUILD 6.0.1.18179
+BUILD 3.0.1.8622-6.0.3.19342
 $id$ID<32>
 Name
 ObjectEffectGroupID<32>
@@ -70,15 +71,3 @@ Field_1204581922<u8>
 Field_1628755543<u32>
 Field_169821730<8>
 Field_080834822<u32>
-
-BUILD 3.0.1.8622-6.0.3.19342
-$id$ID<32>
-Name
-ObjectEffectGroupID<32>
-TriggerType<32>
-EventType<32>
-EffectRecType<32>
-EffectRecID<32>
-Attachment<32>
-Offset[3]
-ObjectEffectModifierID<32>

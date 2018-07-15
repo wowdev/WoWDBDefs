@@ -86,6 +86,7 @@ DissolveEffectID<32>
 TextureVariationFileDataID<32>[3]
 
 BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.3.4.15595
 $id$ID<32>
 ModelID<32>
 SoundID<32>
@@ -103,6 +104,7 @@ ObjectEffectPackageID<32>
 AnimReplacementSetID<32>
 
 BUILD 3.0.2.8885, 3.0.8.9328
+BUILD 3.0.1.8820-3.3.5.12340
 $id$ID<32>
 ModelID<32>
 SoundID<32>
@@ -119,6 +121,7 @@ CreatureGeosetData<32>
 ObjectEffectPackageID<32>
 
 BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
 ModelID<32>
 SoundID<32>
@@ -293,39 +296,6 @@ ObjectEffectPackageID<32>
 AnimReplacementSetID<32>
 Flags<32>
 
-BUILD 4.0.0.11927-4.3.4.15595
-$id$ID<32>
-ModelID<32>
-SoundID<32>
-ExtendedDisplayInfoID<32>
-CreatureModelScale
-CreatureModelAlpha<32>
-TextureVariation[3]
-PortraitTextureName
-SizeClass<32>
-BloodID<32>
-NPCSoundID<32>
-ParticleColorID<32>
-CreatureGeosetData<32>
-ObjectEffectPackageID<32>
-AnimReplacementSetID<32>
-
-BUILD 3.0.1.8820-3.3.5.12340
-$id$ID<32>
-ModelID<32>
-SoundID<32>
-ExtendedDisplayInfoID<32>
-CreatureModelScale
-CreatureModelAlpha<32>
-TextureVariation[3]
-PortraitTextureName
-SizeClass<32>
-BloodID<32>
-NPCSoundID<32>
-ParticleColorID<32>
-CreatureGeosetData<32>
-ObjectEffectPackageID<32>
-
 BUILD 3.0.1.8622-3.0.1.8788
 $id$ID<32>
 ModelID<32>
@@ -397,14 +367,4 @@ CreatureModelScale
 CreatureModelAlpha<32>
 TextureVariation[3]
 SizeClass<32>
-BloodID<32>
-
-BUILD 0.5.3.3368-0.5.5.3494
-$id$ID<32>
-ModelID<32>
-SoundID<32>
-ExtendedDisplayInfoID<32>
-CreatureModelScale
-CreatureModelAlpha<32>
-TextureVariation[3]
 BloodID<32>

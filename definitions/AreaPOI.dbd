@@ -24,6 +24,7 @@ float Z
 int UiWidgetParentSetID?
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 Importance<32>
 Icon<32>[9]
@@ -185,22 +186,6 @@ WorldStateID<u16>
 UiWidgetParentSetID<u16>
 Importance<u8>
 Icon<u8>
-
-BUILD 5.0.1.15464-5.4.8.18414
-$id$ID<32>
-Importance<32>
-Icon<32>[9]
-FactionID<32>
-Pos[2]
-ContinentID<32>
-Flags<32>
-AreaID<32>
-Name_lang
-Description_lang
-WorldStateID<32>
-PlayerConditionID<32>
-WorldMapLink<32>
-PortLocID<32>
 
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>

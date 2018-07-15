@@ -39,6 +39,7 @@ WeaponSwingSize<8>
 AuctionHouseSortOrder<u8>
 
 BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
 ClassID<32>
 SubClassID<32>
@@ -54,6 +55,7 @@ DisplayName_lang
 VerboseName_lang
 
 BUILD 0.5.3.3368
+BUILD 0.5.3.3368-3.3.5.12340
 ClassID<32>
 SubClassID<32>
 PrerequisiteProficiency<32>
@@ -94,32 +96,3 @@ Field_249257621<16>
 Field_1171481844<8>
 Field_549241009<8>
 Field_291038121<8>
-
-BUILD 4.0.0.11927-5.4.8.18414
-$id$ID<32>
-ClassID<32>
-SubClassID<32>
-PrerequisiteProficiency<32>
-PostrequisiteProficiency<32>
-Flags<32>
-DisplayFlags<32>
-WeaponParrySeq<32>
-WeaponReadySeq<32>
-WeaponAttackSeq<32>
-WeaponSwingSize<32>
-DisplayName_lang
-VerboseName_lang
-
-BUILD 0.5.3.3368-3.3.5.12340
-ClassID<32>
-SubClassID<32>
-PrerequisiteProficiency<32>
-PostrequisiteProficiency<32>
-Flags<32>
-DisplayFlags<32>
-WeaponParrySeq<32>
-WeaponReadySeq<32>
-WeaponAttackSeq<32>
-WeaponSwingSize<32>
-DisplayName_lang
-VerboseName_lang

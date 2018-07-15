@@ -9,6 +9,7 @@ int<SceneScriptPackage::ID> SceneScriptPackageID
 int<SpellVisual::ID> SpellVisualID
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15508-6.2.4.21742
 $id$ID<32>
 SpellVisualID<32>
 CastMilliSeconds<32>
@@ -39,13 +40,3 @@ ImpactMilliSeconds<u16>
 RangeTypeEnum<8>
 Flags<u8>
 SceneScriptPackageID<u16>
-
-BUILD 5.0.1.15508-6.2.4.21742
-$id$ID<32>
-SpellVisualID<32>
-CastMilliSeconds<32>
-ImpactMilliSeconds<32>
-RangeTypeEnum<32>
-Flags<32>
-SceneScriptPackageID<32>
-SceneScriptFunction

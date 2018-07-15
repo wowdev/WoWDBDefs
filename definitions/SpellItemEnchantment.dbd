@@ -46,6 +46,7 @@ int Field_8502539376? // maybe scalingClassRestricted
 float Field_6960512468? // maybe effectScalingPoints
 
 BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 Charges<32>
 Effect<32>[3]
@@ -90,6 +91,7 @@ ScalingClassRestricted<8>
 TransmogPlayerConditionID<32>
 
 BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.3.4.15595
 $id$ID<32>
 Charges<32>
 Effect<32>[3]
@@ -120,6 +122,7 @@ Src_itemID<32>
 Condition_ID<32>
 
 BUILD 3.0.2.8885, 3.0.8.9328
+BUILD 3.0.1.8334-3.0.9.9551
 $id$ID<32>
 Charges<32>
 Effect<32>[3]
@@ -214,26 +217,6 @@ Field_1978842619<u8>
 Field_1962346921<u8>
 Field_1579900102<u8>
 
-BUILD 5.4.0.17266-5.4.8.18414
-$id$ID<32>
-Charges<32>
-Effect<32>[3]
-EffectPointsMin<32>[3]
-EffectArg<32>[3]
-Name_lang
-ItemVisual<32>
-Flags<32>
-Src_itemID<32>
-Condition_ID<32>
-RequiredSkillID<32>
-RequiredSkillRank<32>
-MinLevel<32>
-MaxLevel<32>
-ItemLevel<32>
-ScalingClass<32>
-ScalingClassRestricted<32>
-EffectScalingPoints[3]
-
 BUILD 5.0.1.15464-5.0.1.15650
 BUILD 5.0.1.15657-5.3.0.17116
 $id$ID<32>
@@ -254,23 +237,6 @@ ItemLevel<32>
 Field_8502539376<32>
 Field_6960512468[3]
 
-BUILD 4.0.0.11927-4.3.4.15595
-$id$ID<32>
-Charges<32>
-Effect<32>[3]
-EffectPointsMin<32>[3]
-EffectPointsMax<32>[3]
-EffectArg<32>[3]
-Name_lang
-ItemVisual<32>
-Flags<32>
-Src_itemID<32>
-Condition_ID<32>
-RequiredSkillID<32>
-RequiredSkillRank<32>
-MinLevel<32>
-ItemLevel<32>
-
 BUILD 3.1.0.9767-3.3.5.12340
 $id$ID<32>
 Charges<32>
@@ -286,21 +252,6 @@ Condition_ID<32>
 RequiredSkillID<32>
 RequiredSkillRank<32>
 MinLevel<32>
-
-BUILD 3.0.1.8334-3.0.9.9551
-$id$ID<32>
-Charges<32>
-Effect<32>[3]
-EffectPointsMin<32>[3]
-EffectPointsMax<32>[3]
-EffectArg<32>[3]
-Name_lang
-ItemVisual<32>
-Flags<32>
-Src_itemID<32>
-Condition_ID<32>
-RequiredSkillID<32>
-RequiredSkillRank<32>
 
 BUILD 2.0.0.5610-2.0.0.5965
 BUILD 2.0.0.6022-2.4.3.8606

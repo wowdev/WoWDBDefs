@@ -128,6 +128,7 @@ float Field_604298535
 int Field_1152803806
 
 BUILD 6.0.1.18179
+BUILD 5.3.0.16965-6.0.1.18179
 $id$ID<32>
 AvgSegLen
 Width
@@ -243,6 +244,7 @@ SoundKitID<u32>
 TextureFileDataID<32>[3]
 
 BUILD 4.0.0.11792
+BUILD 4.0.0.11927-5.0.3.15851
 $id$ID<32>
 AvgSegLen
 Width
@@ -294,6 +296,7 @@ TextureLength
 WavePhase
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
+BUILD 2.4.0.8089-3.1.3.9947
 $id$ID<32>
 AvgSegLen
 Width
@@ -417,57 +420,6 @@ Field_1265940377[3]
 Field_604298535[3]
 Field_1152803806<32>[3]
 
-BUILD 5.3.0.16965-6.0.1.18179
-$id$ID<32>
-AvgSegLen
-Width
-NoiseScale
-TexCoordScale
-SegDuration<32>
-SegDelay<32>
-Flags<32>
-JointCount<32>
-JointOffsetRadius
-JointsPerMinorJoint<32>
-MinorJointsPerMajorJoint<32>
-MinorJointScale
-MajorJointScale
-JointMoveSpeed
-JointSmoothness
-MinDurationBetweenJointJumps
-MaxDurationBetweenJointJumps
-WaveHeight
-WaveFreq
-WaveSpeed
-MinWaveAngle
-MaxWaveAngle
-MinWaveSpin
-MaxWaveSpin
-ArcHeight
-MinArcAngle
-MaxArcAngle
-MinArcSpin
-MaxArcSpin
-DelayBetweenEffects
-MinFlickerOnDuration
-MaxFlickerOnDuration
-MinFlickerOffDuration
-MaxFlickerOffDuration
-PulseSpeed
-PulseOnLength
-PulseFadeLength
-Alpha<8>
-Red<8>
-Green<8>
-Blue<8>
-BlendMode<8>
-Padding_3020562985<8>[3]
-RenderLayer<32>
-TextureLength
-WavePhase
-SpellChainEffectID<32>[11]
-Texture
-
 BUILD 5.0.3.15882-5.3.0.16844
 $id$ID<32>
 AvgSegLen
@@ -519,57 +471,6 @@ TextureLength
 WavePhase
 SpellChainEffectID<32>[11]
 
-BUILD 4.0.0.11927-5.0.3.15851
-$id$ID<32>
-AvgSegLen
-Width
-NoiseScale
-TexCoordScale
-SegDuration<32>
-SegDelay<32>
-Texture
-Flags<32>
-JointCount<32>
-JointOffsetRadius
-JointsPerMinorJoint<32>
-MinorJointsPerMajorJoint<32>
-MinorJointScale
-MajorJointScale
-JointMoveSpeed
-JointSmoothness
-MinDurationBetweenJointJumps
-MaxDurationBetweenJointJumps
-WaveHeight
-WaveFreq
-WaveSpeed
-MinWaveAngle
-MaxWaveAngle
-MinWaveSpin
-MaxWaveSpin
-ArcHeight
-MinArcAngle
-MaxArcAngle
-MinArcSpin
-MaxArcSpin
-DelayBetweenEffects
-MinFlickerOnDuration
-MaxFlickerOnDuration
-MinFlickerOffDuration
-MaxFlickerOffDuration
-PulseSpeed
-PulseOnLength
-PulseFadeLength
-Alpha<8>
-Red<8>
-Green<8>
-Blue<8>
-BlendMode<8>
-Padding_596171098<8>[3]
-Combo
-RenderLayer<32>
-TextureLength
-WavePhase
-
 BUILD 3.2.0.10192-3.3.5.12340
 $id$ID<32>
 AvgSegLen
@@ -619,55 +520,6 @@ Combo
 RenderLayer<32>
 TextureLength
 WavePhase
-
-BUILD 2.4.0.8089-3.1.3.9947
-$id$ID<32>
-AvgSegLen
-Width
-NoiseScale
-TexCoordScale
-SegDuration<32>
-SegDelay<32>
-Texture
-Flags<32>
-JointCount<32>
-JointOffsetRadius
-JointsPerMinorJoint<32>
-MinorJointsPerMajorJoint<32>
-MinorJointScale
-MajorJointScale
-JointMoveSpeed
-JointSmoothness
-MinDurationBetweenJointJumps
-MaxDurationBetweenJointJumps
-WaveHeight
-WaveFreq
-WaveSpeed
-MinWaveAngle
-MaxWaveAngle
-MinWaveSpin
-MaxWaveSpin
-ArcHeight
-MinArcAngle
-MaxArcAngle
-MinArcSpin
-MaxArcSpin
-DelayBetweenEffects
-MinFlickerOnDuration
-MaxFlickerOnDuration
-MinFlickerOffDuration
-MaxFlickerOffDuration
-PulseSpeed
-PulseOnLength
-PulseFadeLength
-Alpha<8>
-Red<8>
-Green<8>
-Blue<8>
-BlendMode<8>
-Combo
-RenderLayer<32>
-TextureLength
 
 BUILD 2.1.0.6692-2.3.3.7799
 $id$ID<32>

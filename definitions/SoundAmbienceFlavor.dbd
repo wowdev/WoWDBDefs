@@ -5,6 +5,7 @@ int SoundEntriesIDDay
 int SoundEntriesIDNight
 
 BUILD 6.0.1.18179
+BUILD 4.1.0.13914-5.4.8.18414
 $id$ID<32>
 SoundAmbienceID<32>
 SoundEntriesIDDay<32>
@@ -16,9 +17,3 @@ $noninline,id$ID<32>
 SoundEntriesIDDay<u32>
 SoundEntriesIDNight<u32>
 $noninline,relation$SoundAmbienceID<u16>
-
-BUILD 4.1.0.13914-5.4.8.18414
-$id$ID<32>
-SoundAmbienceID<32>
-SoundEntriesIDDay<32>
-SoundEntriesIDNight<32>

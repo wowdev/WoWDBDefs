@@ -6,6 +6,7 @@ int<ItemDisplayInfo::ID> ItemDisplayInfoID
 int ItemInventoryType
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15464-6.0.1.18179
 $id$ID<32>
 CharacterLoadoutID<32>
 ItemID<32>
@@ -23,10 +24,3 @@ BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.268
 $noninline,id$ID<32>
 $relation$CharacterLoadoutID<u16>
 ItemID<u32>
-
-BUILD 5.0.1.15464-6.0.1.18179
-$id$ID<32>
-CharacterLoadoutID<32>
-ItemID<32>
-ItemDisplayInfoID<32>
-ItemInventoryType<32>

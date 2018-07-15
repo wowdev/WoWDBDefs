@@ -17,6 +17,7 @@ int ParagonFactionID
 int ReputationMax
 
 BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 ReputationIndex<32>
 ReputationRaceMask<32>[4]
@@ -52,6 +53,7 @@ Flags<8>
 FriendshipRepID<8>
 
 BUILD 4.0.0.11792
+BUILD 3.3.0.10958-3.3.5.12340
 $id$ID<32>
 ReputationIndex<32>
 ReputationRaceMask<32>[4]
@@ -76,6 +78,7 @@ Name_lang
 Description_lang
 
 BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.9.1.3810
 $id$ID<32>
 ReputationIndex<32>
 ReputationRaceMask<32>[4]
@@ -140,22 +143,6 @@ ReputationMax<32>[4]
 ParentFactionMod[2]
 ParentFactionCap<u8>[2]
 
-BUILD 5.4.0.17266-5.4.8.18414
-$id$ID<32>
-ReputationIndex<32>
-ReputationRaceMask<32>[4]
-ReputationClassMask<32>[4]
-ReputationBase<32>[4]
-ReputationFlags<32>[4]
-ParentFactionID<32>
-ParentFactionMod[2]
-ParentFactionCap<32>[2]
-Name_lang
-Description_lang
-Expansion<32>
-Flags<32>
-FriendshipRepID<32>
-
 BUILD 5.2.0.16516-5.3.0.17116
 $id$ID<32>
 ReputationIndex<32>
@@ -185,19 +172,6 @@ Name_lang
 Description_lang
 Expansion<32>
 
-BUILD 3.3.0.10958-3.3.5.12340
-$id$ID<32>
-ReputationIndex<32>
-ReputationRaceMask<32>[4]
-ReputationClassMask<32>[4]
-ReputationBase<32>[4]
-ReputationFlags<32>[4]
-ParentFactionID<32>
-ParentFactionMod[2]
-ParentFactionCap<32>[2]
-Name_lang
-Description_lang
-
 BUILD 1.4.0.4341-3.2.2.10505
 $id$ID<32>
 ReputationIndex<32>
@@ -226,12 +200,4 @@ ReputationRaceMask<32>[4]
 ReputationClassMask<32>[4]
 ReputationBase<32>[4]
 ParentFactionID<32>
-Name_lang
-
-BUILD 0.5.3.3368-0.9.1.3810
-$id$ID<32>
-ReputationIndex<32>
-ReputationRaceMask<32>[4]
-ReputationClassMask<32>[4]
-ReputationBase<32>[4]
 Name_lang

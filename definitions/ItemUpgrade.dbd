@@ -7,6 +7,7 @@ int ItemUpgradePathID
 int PrerequisiteID
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15668-5.4.8.18414
 $id$ID<32>
 ItemUpgradePathID<32>
 ItemLevelIncrement<32>
@@ -37,11 +38,3 @@ $id$ID<32>
 ItemUpgradePathID<32>
 ItemLevelIncrement<32>
 PrerequisiteID<32>
-
-BUILD 5.0.1.15668-5.4.8.18414
-$id$ID<32>
-ItemUpgradePathID<32>
-ItemLevelIncrement<32>
-PrerequisiteID<32>
-CurrencyType<32>
-CurrencyAmount<32>

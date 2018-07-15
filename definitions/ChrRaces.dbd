@@ -138,6 +138,7 @@ AlteredFormStartVisualKitID<u32>[3]
 AlteredFormFinishVisualKitID<u32>[3]
 
 BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.0.0.12319
 $id$ID<32>
 Flags<32>
 FactionID<32>
@@ -161,6 +162,7 @@ Required_expansion<32>
 UnalteredVisualRaceID<32>
 
 BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
 Flags<32>
 FactionID<32>
@@ -621,29 +623,6 @@ UnalteredVisualRaceID<32>
 UaMaleCreatureSoundDataID<32>
 UaFemaleCreatureSoundDataID<32>
 
-BUILD 4.0.0.11927-4.0.0.12319
-$id$ID<32>
-Flags<32>
-FactionID<32>
-ExplorationSoundID<32>
-MaleDisplayID<32>
-FemaleDisplayID<32>
-ClientPrefix
-BaseLanguage<32>
-CreatureType<32>
-ResSicknessSpellID<32>
-SplashSoundID<32>
-ClientFileString
-CinematicSequenceID<32>
-Alliance<32>
-Name_lang
-Name_female_lang
-Name_male_lang
-FacialHairCustomization[2]
-HairCustomization
-Required_expansion<32>
-UnalteredVisualRaceID<32>
-
 BUILD 3.2.2.10482-3.3.5.12340
 $id$ID<32>
 Flags<32>
@@ -776,25 +755,6 @@ $id$ID<32>
 Flags<32>
 FactionID<32>
 ExplorationSoundID<32>
-MaleDisplayID<32>
-FemaleDisplayID<32>
-ClientPrefix
-MountScale
-BaseLanguage<32>
-CreatureType<32>
-LoginEffectSpellID<32>
-CombatStunSpellID<32>
-ResSicknessSpellID<32>
-SplashSoundID<32>
-StartingTaxiNodes<32>
-ClientFileString
-CinematicSequenceID<32>
-Name_lang
-
-BUILD 0.5.3.3368-0.6.0.3592
-$id$ID<32>
-Flags<32>
-FactionID<32>
 MaleDisplayID<32>
 FemaleDisplayID<32>
 ClientPrefix

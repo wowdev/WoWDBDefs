@@ -134,6 +134,7 @@ CasterSpellVisualID<u32>
 LowViolenceSpellVisualID<u32>
 
 BUILD 4.0.0.11792
+BUILD 3.2.0.10192-4.1.0.13875
 $id$ID<32>
 PrecastKit<32>
 CastKit<32>
@@ -168,6 +169,7 @@ MissileImpactOffsetY
 MissileImpactOffsetZ
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
+BUILD 2.4.0.8089-3.0.9.9551
 $id$ID<32>
 PrecastKit<32>
 CastKit<32>
@@ -195,6 +197,7 @@ ImpactAreaKit<32>
 PersistentAreaKit<32>
 
 BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
 PrecastKit<32>
 CastKit<32>
@@ -382,40 +385,6 @@ MissileCastOffset[3]
 MissileImpactOffset[3]
 Field_2710747347<32>
 
-BUILD 3.2.0.10192-4.1.0.13875
-$id$ID<32>
-PrecastKit<32>
-CastKit<32>
-ImpactKit<32>
-StateKit<32>
-StateDoneKit<32>
-ChannelKit<32>
-HasMissile<32>
-MissileModel<32>
-MissilePathType<32>
-MissileDestinationAttachment<32>
-MissileSound<32>
-AnimEventSoundID<32>
-Flags<32>
-CasterImpactKit<32>
-TargetImpactKit<32>
-MissileAttachment<32>
-MissileFollowGroundHeight<32>
-MissileFollowGroundDropSpeed<32>
-MissileFollowGroundApproach<32>
-MissileFollowGroundFlags<32>
-MissileMotion<32>
-MissileTargetingKit<32>
-InstantAreaKit<32>
-ImpactAreaKit<32>
-PersistentAreaKit<32>
-MissileCastOffsetX
-MissileCastOffsetY
-MissileCastOffsetZ
-MissileImpactOffsetX
-MissileImpactOffsetY
-MissileImpactOffsetZ
-
 BUILD 3.1.0.9767-3.1.3.9947
 $id$ID<32>
 PrecastKit<32>
@@ -423,33 +392,6 @@ CastKit<32>
 ImpactKit<32>
 StateKit<32>
 StateDoneKit<32>
-ChannelKit<32>
-HasMissile<32>
-MissileModel<32>
-MissilePathType<32>
-MissileDestinationAttachment<32>
-MissileSound<32>
-AnimEventSoundID<32>
-Flags<32>
-CasterImpactKit<32>
-TargetImpactKit<32>
-MissileAttachment<32>
-MissileFollowGroundHeight<32>
-MissileFollowGroundDropSpeed<32>
-MissileFollowGroundApproach<32>
-MissileFollowGroundFlags<32>
-MissileMotion<32>
-MissileTargetingKit<32>
-InstantAreaKit<32>
-ImpactAreaKit<32>
-PersistentAreaKit<32>
-
-BUILD 2.4.0.8089-3.0.9.9551
-$id$ID<32>
-PrecastKit<32>
-CastKit<32>
-ImpactKit<32>
-StateKit<32>
 ChannelKit<32>
 HasMissile<32>
 MissileModel<32>
@@ -534,26 +476,3 @@ AreaModel<32>
 AreaKit<32>
 AnimEventSoundID<32>
 Flags<32>
-
-BUILD 0.5.3.3368-0.6.0.3592
-$id$ID<32>
-PrecastKit<32>
-CastKit<32>
-ImpactKit<32>
-StateKit<32>
-ChannelKit<32>
-HasMissile<32>
-MissileModel<32>
-MissilePathType<32>
-MissileDestinationAttachment<32>
-MissileSound<32>
-HasAreaEffect<32>
-AreaModel<32>
-AreaKit<32>
-AnimEventSoundID<32>
-WeaponTrailRed<8>
-WeaponTrailGreen<8>
-WeaponTrailBlue<8>
-WeaponTrailAlpha<8>
-WeaponTrailFadeoutRate<8>
-WeaponTrailDuration<32>

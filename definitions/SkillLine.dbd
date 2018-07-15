@@ -48,6 +48,7 @@ int Field_1508678044
 int Field_1863254740
 
 BUILD 6.0.1.18179
+BUILD 5.1.0.16309-5.4.8.18414
 $id$ID<32>
 CategoryID<32>
 DisplayName_lang
@@ -73,6 +74,7 @@ ParentSkillLineID<32>
 ParentTierIndex<32>
 
 BUILD 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
+BUILD 3.0.1.8391-4.0.6.13623
 $id$ID<32>
 CategoryID<32>
 SkillCostsID<32>
@@ -83,6 +85,7 @@ AlternateVerb_lang
 CanLink<32>
 
 BUILD 3.0.1.8303
+BUILD 0.11.0.3925-3.0.1.8303
 $id$ID<32>
 CategoryID<32>
 SkillCostsID<32>
@@ -91,6 +94,7 @@ Description_lang
 SpellIconID<32>
 
 BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
 RaceMask<32>
 ClassMask<32>
@@ -189,17 +193,6 @@ Field_1327516766<32>
 Field_1508678044<u16>
 Field_1863254740<32>
 
-BUILD 5.1.0.16309-5.4.8.18414
-$id$ID<32>
-CategoryID<32>
-DisplayName_lang
-Description_lang
-SpellIconID<32>
-AlternateVerb_lang
-CanLink<32>
-ParentSkillLineID<32>
-Flags<32>
-
 BUILD 5.0.1.15464-5.0.5.16135
 $id$ID<32>
 CategoryID<32>
@@ -219,16 +212,6 @@ SpellIconID<32>
 AlternateVerb_lang
 CanLink<32>
 
-BUILD 3.0.1.8391-4.0.6.13623
-$id$ID<32>
-CategoryID<32>
-SkillCostsID<32>
-DisplayName_lang
-Description_lang
-SpellIconID<32>
-AlternateVerb_lang
-CanLink<32>
-
 BUILD 3.0.1.8334
 $id$ID<32>
 CategoryID<32>
@@ -237,14 +220,6 @@ DisplayName_lang
 Description_lang
 SpellIconID<32>
 AlternateVerb_lang
-
-BUILD 0.11.0.3925-3.0.1.8303
-$id$ID<32>
-CategoryID<32>
-SkillCostsID<32>
-DisplayName_lang
-Description_lang
-SpellIconID<32>
 
 BUILD 0.8.0.3734-0.10.0.3892
 $id$ID<32>
@@ -257,17 +232,4 @@ BUILD 0.6.0.3592-0.7.6.3712
 $id$ID<32>
 CategoryID<32>
 SkillCostsID<32>
-DisplayName_lang
-
-BUILD 0.5.3.3368-0.5.5.3494
-$id$ID<32>
-RaceMask<32>
-ClassMask<32>
-ExcludeRace<32>
-ExcludeClass<32>
-CategoryID<32>
-SkillType<32>
-MinCharLevel<32>
-MaxRank<32>
-Abandonable<32>
 DisplayName_lang

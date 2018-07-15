@@ -4,10 +4,6 @@ int<AreaTable::ID> AreaID
 int<AreaGroup::ID> NextAreaID
 
 BUILD 4.0.0.11792, 6.0.1.18179
-$id$ID<32>
-AreaID<32>[6]
-NextAreaID<32>
-
 BUILD 3.0.1.8622-6.0.3.19342
 $id$ID<32>
 AreaID<32>[6]

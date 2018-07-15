@@ -38,6 +38,7 @@ SubchunkY<u8>
 SoundOverrideID<u8>
 
 BUILD 4.0.0.11792
+BUILD 4.0.0.11927-5.4.8.18414
 $id$ID<32>
 WorldMapContinentID<32>
 ChunkX<32>
@@ -68,19 +69,6 @@ Field_1309609699<u8>
 Field_1273669126<u8>
 Field_1339244112<u8>
 Field_1591258669<u8>
-
-BUILD 4.0.0.11927-5.4.8.18414
-COMMENT completely unvalidated
-$id$ID<32>
-WorldMapContinentID<32>
-ChunkX<32>
-ChunkY<32>
-SubchunkX<32>
-SubchunkY<32>
-ZoneIntroMusicID<32>
-ZoneMusicID<32>
-SoundAmbienceID<32>
-SoundProviderPreferencesID<32>
 
 BUILD 3.0.1.8303-3.3.5.12340
 COMMENT completely unvalidated

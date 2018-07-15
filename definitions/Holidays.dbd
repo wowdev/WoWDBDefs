@@ -14,6 +14,7 @@ int Flags
 int TextureFileDataID
 
 BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 3.1.2.9901-6.0.1.18179
 $id$ID<32>
 Duration<32>[10]
 Date<32>[26]
@@ -56,20 +57,6 @@ Duration<u16>[10]
 Date<u32>[16]
 CalendarFlags<u8>[10]
 TextureFileDataID<32>[3]
-
-BUILD 3.1.2.9901-6.0.1.18179
-$id$ID<32>
-Duration<32>[10]
-Date<32>[26]
-Region<32>
-Looping<32>
-CalendarFlags<32>[10]
-HolidayNameID<32>
-HolidayDescriptionID<32>
-TextureFilename
-Priority<32>
-CalendarFilterType<32>
-Flags<32>
 
 BUILD 3.0.1.8770-3.1.1.9835
 $id$ID<32>

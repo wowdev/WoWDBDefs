@@ -6,6 +6,7 @@ int RequiredLevel
 int SlotEnum
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15650-5.4.8.18414
 $id$ID<32>
 BattlePetSpeciesID<32>
 BattlePetAbilityID<32>
@@ -19,13 +20,6 @@ BattlePetAbilityID<u16>
 RequiredLevel<u8>
 SlotEnum<8>
 $noninline,relation$BattlePetSpeciesID<u16>
-
-BUILD 5.0.1.15650-5.4.8.18414
-$id$ID<32>
-BattlePetSpeciesID<32>
-BattlePetAbilityID<32>
-RequiredLevel<32>
-SlotEnum<32>
 
 BUILD 5.0.1.15464-5.0.1.15589
 $id$ID<32>

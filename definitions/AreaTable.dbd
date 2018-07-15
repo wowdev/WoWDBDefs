@@ -89,6 +89,7 @@ WindSettingsID<u8>
 UwIntroSound<u32>
 
 BUILD 4.0.0.11792
+BUILD 3.0.1.8622-4.0.0.12232
 $id$ID<32>
 ContinentID<32>
 ParentAreaID<32>
@@ -349,25 +350,6 @@ MinElevation
 Ambient_multiplier
 LightID<32>
 MountFlags<32>
-
-BUILD 3.0.1.8622-4.0.0.12232
-$id$ID<32>
-ContinentID<32>
-ParentAreaID<32>
-AreaBit<32>
-Flags<32>
-SoundProviderPref<32>
-SoundProviderPrefUnderwater<32>
-AmbienceID<32>
-ZoneMusic<32>
-IntroSound<32>
-ExplorationLevel<32>
-AreaName_lang
-FactionGroupMask<32>
-LiquidTypeID<32>[4]
-MinElevation
-Ambient_multiplier
-LightID<32>
 
 BUILD 2.0.0.6080-3.0.1.8471
 $id$ID<32>

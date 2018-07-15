@@ -25,6 +25,7 @@ int Field_1655887955
 int Field_2127549662
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 SpecID<32>
 TierID<32>
@@ -50,6 +51,7 @@ CategoryMask<u8>[2]
 ClassID<u8>
 
 BUILD 4.0.0.11792
+BUILD 3.0.1.8622-4.0.0.12319
 $id$ID<32>
 TabID<32>
 TierID<32>
@@ -87,36 +89,12 @@ Field_589227419<u32>
 Field_1655887955<u32>
 Field_2127549662<u8>[2]
 
-BUILD 5.0.1.15464-5.4.8.18414
-$id$ID<32>
-SpecID<32>
-TierID<32>
-ColumnIndex<32>
-SpellID<32>
-Flags<32>
-CategoryMask<32>[2]
-ClassID<32>
-OverridesSpellID<32>
-Description_lang
-
 BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
 TabID<32>
 TierID<32>
 ColumnIndex<32>
 SpellRank<32>[5]
-PrereqTalent<32>[3]
-PrereqRank<32>[3]
-Flags<32>
-RequiredSpellID<32>
-CategoryMask<32>[2]
-
-BUILD 3.0.1.8622-4.0.0.12319
-$id$ID<32>
-TabID<32>
-TierID<32>
-ColumnIndex<32>
-SpellRank<32>[9]
 PrereqTalent<32>[3]
 PrereqRank<32>[3]
 Flags<32>

@@ -61,6 +61,7 @@ LoopToSegmentIndex<8>
 StartConditionDelay<u32>
 
 BUILD 4.0.0.11792
+BUILD 4.0.0.11927-5.4.8.18273
 $id$ID<32>
 ParentAnimKitID<32>
 AnimID<32>
@@ -99,21 +100,3 @@ OverrideConfigFlags<32>
 LoopToSegmentIndex<8>
 BlendInTimeMs<u16>
 BlendOutTimeMs<u16>
-
-BUILD 4.0.0.11927-5.4.8.18273
-$id$ID<32>
-ParentAnimKitID<32>
-AnimID<32>
-AnimStartTime<32>
-AnimKitConfigID<32>
-StartCondition<32>
-StartConditionParam<32>
-StartConditionDelay<32>
-EndCondition<32>
-EndConditionParam<32>
-EndConditionDelay<32>
-Speed
-SegmentFlags<32>
-ForcedVariation<32>
-OverrideConfigFlags<32>
-LoopToSegmentIndex<32>

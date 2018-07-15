@@ -17,6 +17,7 @@ int SpellIconFileDataID
 float Field_1532576006?
 
 BUILD 6.0.1.18179
+BUILD 5.4.8.18273-5.4.8.18291
 $id$ID<32>
 SpellID<32>
 DifficultyID<32>
@@ -109,20 +110,6 @@ $id$ID<32>
 SpellID<32>
 DifficultyID<32>
 Attributes<32>[13]
-CastingTimeIndex<32>
-DurationIndex<32>
-RangeIndex<32>
-Speed
-SpellVisualID<32>[2]
-SpellIconID<32>
-ActiveIconID<32>
-SchoolMask<32>
-
-BUILD 5.4.8.18273-5.4.8.18291
-$id$ID<32>
-SpellID<32>
-DifficultyID<32>
-Attributes<32>[14]
 CastingTimeIndex<32>
 DurationIndex<32>
 RangeIndex<32>

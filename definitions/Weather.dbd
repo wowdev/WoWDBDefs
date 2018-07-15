@@ -78,6 +78,7 @@ AmbienceID<32>
 EffectTextureFileDataID<32>
 
 BUILD 4.0.0.11792
+BUILD 3.3.0.10958-4.3.4.15595
 $id$ID<32>
 AmbienceID<32>
 EffectType<32>
@@ -86,6 +87,7 @@ EffectColor[3]
 EffectTexture
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
+BUILD 2.1.0.6692-3.2.2.10505
 $id$ID<32>
 AmbienceID<32>
 EffectType<32>
@@ -220,20 +222,5 @@ Type<32>
 EffectType<32>
 Intensity[2]
 TransitionSkyBox
-EffectColor[3]
-EffectTexture
-
-BUILD 3.3.0.10958-4.3.4.15595
-$id$ID<32>
-AmbienceID<32>
-EffectType<32>
-TransitionSkyBox
-EffectColor[3]
-EffectTexture
-
-BUILD 2.1.0.6692-3.2.2.10505
-$id$ID<32>
-AmbienceID<32>
-EffectType<32>
 EffectColor[3]
 EffectTexture

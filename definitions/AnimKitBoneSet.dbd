@@ -7,6 +7,7 @@ int ExtraBoneCount
 int<AnimKitBoneSet::ID> AltAnimKitBoneSetID
 
 BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 4.0.0.11927-6.2.4.21742
 $id$ID<32>
 Name
 BoneDataID<32>
@@ -22,11 +23,3 @@ BoneDataID<8>
 ParentAnimKitBoneSetID<8>
 ExtraBoneCount<u8>
 AltAnimKitBoneSetID<8>
-
-BUILD 4.0.0.11927-6.2.4.21742
-$id$ID<32>
-Name
-BoneDataID<32>
-ParentAnimKitBoneSetID<32>
-ExtraBoneCount<32>
-AltAnimKitBoneSetID<32>

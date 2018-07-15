@@ -5,6 +5,7 @@ int ID
 int PositionerID
 
 BUILD 6.0.1.18179
+BUILD 4.2.0.14333-5.4.8.18414
 $id$EnumID<32>
 SpellVisualEffectNameID<32>
 
@@ -13,7 +14,3 @@ BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.261
 $noninline,id$ID<32>
 SpellVisualEffectNameID<u16>
 PositionerID<u32>
-
-BUILD 4.2.0.14333-5.4.8.18414
-$id$EnumID<32>
-SpellVisualEffectNameID<32>

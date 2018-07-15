@@ -37,6 +37,8 @@ int Field_307857935
 int Field_1257850807? // only set on [Plate Mail] in 0.5.5
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15650-5.0.1.15657
+BUILD 5.0.1.15668-5.4.8.18414
 $id$ID<32>
 SkillLine<32>
 Spell<32>
@@ -70,6 +72,7 @@ Flags<8>
 SkillupSkillLineID<16>
 
 BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.0.0.12232
 $id$ID<32>
 SkillLine<32>
 Spell<32>
@@ -102,6 +105,7 @@ Abandonable<32>
 CharacterPoints<32>[2]
 
 BUILD 3.0.2.8885, 3.0.8.9328
+BUILD 3.0.1.8788-3.3.5.12340
 $id$ID<32>
 SkillLine<32>
 Spell<32>
@@ -183,22 +187,6 @@ Field_1645237729<16>
 Field_1470672893<16>
 Field_307857935<16>
 
-BUILD 5.0.1.15650-5.0.1.15657
-BUILD 5.0.1.15668-5.4.8.18414
-$id$ID<32>
-SkillLine<32>
-Spell<32>
-RaceMask<32>
-ClassMask<32>
-MinSkillLineRank<32>
-SupercedesSpell<32>
-AcquireMethod<32>
-TrivialSkillLineRankHigh<32>
-TrivialSkillLineRankLow<32>
-NumSkillUps<32>
-UniqueBit<32>
-TradeSkillCategoryID<32>
-
 BUILD 5.0.1.15662
 BUILD 5.0.1.15464-5.0.1.15640
 $id$ID<32>
@@ -246,37 +234,6 @@ TrivialSkillLineRankLow<32>
 CharacterPoints<32>[2]
 NumSkillUps<32>
 UniqueBit<32>
-
-BUILD 4.0.0.11927-4.0.0.12232
-$id$ID<32>
-SkillLine<32>
-Spell<32>
-RaceMask<32>
-ClassMask<32>
-ExcludeRace<32>
-ExcludeClass<32>
-MinSkillLineRank<32>
-SupercededBySpell<32>
-AcquireMethod<32>
-TrivialSkillLineRankHigh<32>
-TrivialSkillLineRankLow<32>
-CharacterPoints<32>[2]
-NumSkillUps<32>
-
-BUILD 3.0.1.8788-3.3.5.12340
-$id$ID<32>
-SkillLine<32>
-Spell<32>
-RaceMask<32>
-ClassMask<32>
-ExcludeRace<32>
-ExcludeClass<32>
-MinSkillLineRank<32>
-SupercededBySpell<32>
-AcquireMethod<32>
-TrivialSkillLineRankHigh<32>
-TrivialSkillLineRankLow<32>
-CharacterPoints<32>[2]
 
 BUILD 0.10.0.3892-3.0.1.8770
 $id$ID<32>

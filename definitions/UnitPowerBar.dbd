@@ -34,6 +34,7 @@ int Field_811470203
 int Field_1567866213
 
 BUILD 6.0.1.18179
+BUILD 4.3.2.15148-5.4.8.18414
 $id$ID<32>
 MinPower<32>
 MaxPower<32>
@@ -91,25 +92,6 @@ Field_1205798464
 Field_023113440
 Field_811470203<32>[6]
 Field_1567866213<32>[6]
-
-BUILD 4.3.2.15148-5.4.8.18414
-$id$ID<32>
-MinPower<32>
-MaxPower<32>
-StartPower<32>
-CenterPower<32>
-RegenerationPeace
-RegenerationCombat
-BarType<32>
-FileDataID<32>[6]
-Color<32>[6]
-Flags<32>
-Name_lang
-Cost_lang
-OutOfError_lang
-ToolTip_lang
-StartInset
-EndInset
 
 BUILD 4.0.0.12911-4.3.0.15050
 $id$ID<32>

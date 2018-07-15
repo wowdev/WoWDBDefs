@@ -5,6 +5,7 @@ int FileDataID
 int OverlayFileDataID
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 MovieID<32>
 FileDataID<32>
@@ -18,16 +19,6 @@ OverlayFileDataID<u32>
 $noninline,relation$MovieID<u16>
 
 BUILD 4.0.0.11792
-$id$ID<32>
-MovieID<32>
-FileDataID<32>
-
-BUILD 5.0.1.15464-5.4.8.18414
-$id$ID<32>
-MovieID<32>
-FileDataID<32>
-OverlayFileDataID<32>
-
 BUILD 3.0.1.8471-4.3.4.15595
 $id$ID<32>
 MovieID<32>

@@ -6,6 +6,7 @@ int<AnimReplacementSet::ID> ParentAnimReplacementSetID
 int Flags
 
 BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 4.0.0.11927-6.0.3.19342
 $id$ID<32>
 SrcAnimID<32>
 DstAnimID<32>
@@ -26,9 +27,3 @@ SrcAnimID<u16>
 DstAnimID<u16>
 Flags<u16>
 $noninline,relation$ParentAnimReplacementSetID<u16>
-
-BUILD 4.0.0.11927-6.0.3.19342
-$id$ID<32>
-SrcAnimID<32>
-DstAnimID<32>
-ParentAnimReplacementSetID<32>

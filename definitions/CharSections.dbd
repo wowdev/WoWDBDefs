@@ -10,6 +10,7 @@ int ColorIndex
 int MaterialResourcesID
 
 BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 3.0.1.8681-5.4.8.18414
 $id$ID<32>
 RaceID<32>
 SexID<32>
@@ -40,16 +41,6 @@ VariationIndex<8>
 ColorIndex<8>
 Flags<16>
 MaterialResourcesID<32>[3]
-
-BUILD 3.0.1.8681-5.4.8.18414
-$id$ID<32>
-RaceID<32>
-SexID<32>
-BaseSection<32>
-TextureName[3]
-Flags<32>
-VariationIndex<32>
-ColorIndex<32>
 
 BUILD 0.6.0.3592-3.0.1.8634
 $id$ID<32>

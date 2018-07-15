@@ -25,6 +25,7 @@ int DamageBonusStat
 int Field_9880622150?
 
 BUILD 6.0.1.18179
+BUILD 5.0.4.16016-5.4.8.18414
 $id$ID<32>
 DisplayPower<32>
 PetNameToken
@@ -68,6 +69,7 @@ PrimaryStatPriority<u8>
 $id$ID<32>
 
 BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.3.4.15595
 $id$ID<32>
 DisplayPower<32>
 PetNameToken
@@ -160,26 +162,6 @@ AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
 
-BUILD 5.0.4.16016-5.4.8.18414
-$id$ID<32>
-DisplayPower<32>
-PetNameToken
-Name_lang
-Name_female_lang
-Name_male_lang
-Filename
-SpellClassSet<32>
-Flags<32>
-CinematicSequenceID<32>
-AttackPowerPerStrength<32>
-AttackPowerPerAgility<32>
-RangedAttackPowerPerAgility<32>
-DefaultSpec<32>
-CreateScreenFileDataID<32>
-SelectScreenFileDataID<32>
-LowResScreenFileDataID<32>
-IconFileDataID<32>
-
 BUILD 5.0.1.15668-5.0.4.15890
 $id$ID<32>
 DisplayPower<32>
@@ -215,22 +197,6 @@ AttackPowerPerStrength<32>
 AttackPowerPerAgility<32>
 RangedAttackPowerPerAgility<32>
 DefaultSpec<32>
-
-BUILD 4.0.0.11927-4.3.4.15595
-$id$ID<32>
-DisplayPower<32>
-PetNameToken
-Name_lang
-Name_female_lang
-Name_male_lang
-Filename
-SpellClassSet<32>
-Flags<32>
-CinematicSequenceID<32>
-Required_expansion<32>
-AttackPowerPerStrength<32>
-AttackPowerPerAgility<32>
-RangedAttackPowerPerAgility<32>
 
 BUILD 3.0.1.8681-3.3.5.12340
 $id$ID<32>
