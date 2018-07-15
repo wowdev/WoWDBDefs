@@ -89,7 +89,8 @@ WindSettingsID<u8>
 UwIntroSound<u32>
 
 BUILD 4.0.0.11792
-BUILD 3.0.1.8622-4.0.0.12232
+BUILD 3.0.1.8622-3.3.5.12340
+BUILD 4.0.0.11792-4.0.0.12232
 $id$ID<32>
 ContinentID<32>
 ParentAreaID<32>
@@ -351,7 +352,8 @@ Ambient_multiplier
 LightID<32>
 MountFlags<32>
 
-BUILD 2.0.0.6080-3.0.1.8471
+BUILD 2.0.0.6080-2.4.3.8606
+BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>
 ContinentID<32>
 ParentAreaID<32>
@@ -403,7 +405,8 @@ FactionGroupMask<32>
 LiquidTypeID<32>[4]
 
 BUILD 2.0.0.5991
-BUILD 0.9.0.3807-1.10.2.5302
+BUILD 0.9.0.3807-0.12.0.3988
+BUILD 1.0.0.3980-1.10.2.5302
 $id$ID<32>
 ContinentID<32>
 ParentAreaID<32>
