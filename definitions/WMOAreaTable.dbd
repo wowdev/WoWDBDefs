@@ -20,7 +20,7 @@ int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
 int InlineWMOID
-int Field_5955553788?
+int Field_5955553788? // looks like an old flag map
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.12319-6.2.4.21742
@@ -57,21 +57,6 @@ SoundProviderPrefUnderwater<8>
 Flags<8>
 $id$ID<32>
 UwZoneMusic<32>
-
-BUILD 4.0.0.11792
-BUILD 0.7.0.3694-0.7.0.3712
-$id$ID<32>
-WMOID<32>
-NameSetID<32>
-WMOGroupID<32>
-SoundProviderPref<32>
-SoundProviderPrefUnderwater<32>
-AmbienceID<32>
-ZoneMusic<32>
-IntroSound<32>
-Flags<32>
-AreaTableID<32>
-AreaName_lang
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -144,6 +129,35 @@ IntroSound<u16>
 UwIntroSound<u16>
 AreaTableID<u16>
 Flags<u8>
+
+BUILD 4.0.0.11792-4.0.0.12266
+BUILD 4.0.0.11792
+$id$ID<32>
+WMOID<32>
+NameSetID<32>
+WMOGroupID<32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<32>
+ZoneMusic<32>
+IntroSound<32>
+Flags<32>
+AreaTableID<32>
+AreaName_lang
+
+BUILD 0.9.0.3807-3.3.5.12340
+$id$ID<32>
+WMOID<32>
+NameSetID<32>
+WMOGroupID<32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<32>
+ZoneMusic<32>
+IntroSound<32>
+Flags<32>
+AreaTableID<32>
+AreaName_lang
 
 BUILD 0.8.0.3734
 $id$ID<32>
