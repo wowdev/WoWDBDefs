@@ -5,7 +5,6 @@ int Create_charsetMask
 int Existing_charsetMask
 int Flags
 locstring Name_lang
-int CharsetMask
 int Field_7811103257?
 int Region?
 
@@ -28,12 +27,6 @@ Existing_charsetMask<u8>
 Flags<u8>
 
 BUILD 4.0.0.11792
-$id$ID<32>
-LocaleMask<32>
-CharsetMask<32>
-Flags<32>
-Name_lang
-
 BUILD 2.4.0.8089-4.3.0.15050
 $id$ID<32>
 LocaleMask<32>

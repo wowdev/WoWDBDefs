@@ -10,25 +10,17 @@ int MinLevel
 int MaxLevel
 int MaxPlayers
 int Unk0?
-int Unk1?
-int Unk2?
 int<Map::ID> ParentMapID
 locstring MapDescription0_lang // Horde
 locstring MapDescription1_lang // Alliance
 int<LoadingScreens::ID> LoadingScreenID
 int RaidOffset
-int Continentname?
-int Unk3?
 int<AreaTable::ID> AreaTableID
 float MinimapIconScale
-int Unk4?
 int TimeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
 int ExpansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
-int Unk5? // Another resettime? Is the same as the heroic one for some entries.
 int Flags? // probaby same as isBattleground
 int<Map::ID> CorpseMapID
-float CorpsePosX?
-float CorpsePosY?
 float Corpse // Array of CorpsePosX/CorpsePosY
 int<Map::ID> CosmeticParentMapID
 int TimeOffset
@@ -217,75 +209,6 @@ ParentMapID<32>
 CosmeticParentMapID<32>
 TimeOffset<32>
 
-BUILD 4.0.1.12911
-$id$ID<32>
-Directory
-InstanceType<32>
-Flags<32>
-PVP<32>
-MapName_lang
-AreaTableID<32>
-MapDescription0_lang
-MapDescription1_lang
-LoadingScreenID<32>
-MinimapIconScale
-CorpseMapID<32>
-CorpsePosX
-CorpsePosY
-Unk2<32>
-ExpansionID<32>
-Unk3<32>
-Unk4<32>
-Unk5<32>
-
-BUILD 1.12.1.5875
-$id$ID<32>
-Directory
-InstanceType<32>
-MapType<32>
-MapName_lang
-MinLevel<32>
-MaxLevel<32>
-MaxPlayers<32>
-Unk0<32>
-Unk1<32>
-Unk2<32>
-ParentMapID<32>
-MapDescription0_lang
-MapDescription1_lang
-LoadingScreenID<32>
-RaidOffset<32>
-Continentname<32>
-Unk4<32>
-
-BUILD 0.9.1.3810
-$id$ID<32>
-Directory
-PVP<32>
-MapName_lang
-MinLevel<32>
-MaxLevel<32>
-Unk0<32>
-Unk1<32>
-Unk2<32>
-Unk3<32>
-MapDescription0_lang
-MapDescription1_lang
-Unk4<32>
-
-BUILD 0.7.0.3694, 0.7.1.3702, 0.7.6.3712
-$id$ID<32>
-Directory
-PVP<32>
-MapName_lang
-MinLevel<32>
-MaxLevel<32>
-Unk0<32>
-Unk1<32>
-Unk2<32>
-MapDescription0_lang
-MapDescription1_lang
-
 BUILD 0.5.3.3368, 0.5.3.3494, 0.6.0.3592
 BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
@@ -434,6 +357,7 @@ RaidOffset<32>
 MaxPlayers<32>
 ParentMapID<32>
 
+BUILD 4.0.1.12911
 BUILD 4.0.0.11927-4.0.6.13596
 $id$ID<32>
 Directory
@@ -656,6 +580,7 @@ Field_7024529059_lang
 CorpseMapID<32>
 Corpse[2]
 
+BUILD 1.12.1.5875
 BUILD 1.11.0.5344-1.12.0.5595
 BUILD 1.12.1.5875-1.12.2.6005
 $id$ID<32>
@@ -663,9 +588,9 @@ Directory
 InstanceType<32>
 PVP<32>
 MapName_lang
-Field_5912426507<32>
-Field_5921303111<32>
-Field_9536626911<32>
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
 Field_3987832993<32>
 Field_4964484313
 Field_9587872023
@@ -755,13 +680,14 @@ MapDescription1_lang
 LoadingScreenID<32>
 Field_1361911791<32>
 
+BUILD 0.9.1.3810
 BUILD 0.9.0.3807-1.4.2.4375
 $id$ID<32>
 Directory
 PVP<32>
 MapName_lang
-Field_5912426507<32>
-Field_5921303111<32>
+MinLevel<32>
+MaxLevel<32>
 Field_3987832993<32>
 Field_4964484313
 Field_9587872023
@@ -784,13 +710,14 @@ AreaTableID<32>
 MapDescription0_lang
 MapDescription1_lang
 
+BUILD 0.7.0.3694, 0.7.1.3702, 0.7.6.3712
 BUILD 0.7.0.3694-0.7.6.3712
 $id$ID<32>
 Directory
 PVP<32>
 MapName_lang
-Field_5912426507<32>
-Field_5921303111<32>
+MinLevel<32>
+MaxLevel<32>
 Field_3987832993<32>
 Field_4964484313
 Field_9587872023

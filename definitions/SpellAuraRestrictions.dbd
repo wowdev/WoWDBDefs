@@ -1,12 +1,4 @@
 COLUMNS
-int Field_375105213?
-int Field_710674707?
-int Field_2995613535?
-int Field_3664651641?
-int Field_517330213?
-int Field_4275692418?
-int Field_4288900431?
-int Field_657001117?
 int ID
 int CasterAuraSpell
 int CasterAuraState
@@ -70,9 +62,9 @@ TargetAuraSpell<32>
 ExcludeCasterAuraSpell<32>
 ExcludeTargetAuraSpell<32>
 
+BUILD 6.0.1.18179
 BUILD 4.0.0.12232-5.0.1.15544
 BUILD 6.0.1.18164-6.2.4.21742
-BUILD 6.0.1.18179
 $id$ID<32>
 CasterAuraState<32>
 TargetAuraState<32>

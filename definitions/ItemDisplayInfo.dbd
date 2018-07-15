@@ -56,21 +56,6 @@ GeosetGroup<32>[4]
 AttachmentGeosetGroup<32>[4]
 HelmetGeosetVis<32>[2]
 
-BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
-COMMENT unknown_flag=1
-$id$ID<32>
-ModelName[2]
-ModelTexture[2]
-InventoryIcon[2]
-GeosetGroup<32>[3]
-Flags<32>
-SpellVisualID<32>
-GroupSoundIndex<32>
-HelmetGeosetVis<32>[2]
-Texture[8]
-ItemVisual<32>
-ParticleColorID<32>
-
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
@@ -120,7 +105,9 @@ Texture[9]
 ItemVisual<32>
 ParticleColorID<32>
 
+BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
 BUILD 2.4.2.8278-4.3.4.15595
+COMMENT unknown_flag=1
 $id$ID<32>
 ModelName[2]
 ModelTexture[2]

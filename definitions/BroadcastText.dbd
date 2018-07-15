@@ -5,25 +5,11 @@ int<Emotes::ID> EmoteID
 int<SoundEntries::ID> SoundEntriesID
 int ConditionID
 int EmoteDelay
-int EmotesID
+int EmotesID // Also known as EndEmoteID
 int Flags
-locstring Text_lang
-locstring Text1_lang
+locstring Text_lang // Male?
+locstring Text1_lang // Female?
 int Field_1336462998?
-string MaleText // Same as Text_lang?
-string FemaleText // Same as Text1_lang?
-int EndEmoteID // Same as EmotesID?
-
-BUILD 6.0.1.18179
-$id$ID<32>
-LanguageID<32>
-Text_lang
-Text1_lang
-EmoteID<32>[3]
-EmoteDelay<32>[3]
-SoundEntriesID<32>
-EmotesID<32>
-Flags<32>
 
 LAYOUT 51BF0C33
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -79,13 +65,14 @@ SoundEntriesID<u32>[2]
 EmoteID<u16>[3]
 EmoteDelay<u16>[3]
 
+BUILD 6.0.1.18179
 BUILD 5.0.1.15650-6.2.4.21742
 $id$ID<32>
 LanguageID<32>
-MaleText
-FemaleText
+Text_lang
+Text1_lang
 EmoteID<32>[3]
 EmoteDelay<32>[3]
 SoundEntriesID<32>
-EndEmoteID<32>
+EmotesID<32>
 Flags<32>

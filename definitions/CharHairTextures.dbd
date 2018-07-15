@@ -4,15 +4,11 @@ int Field_118879370_mayberacemask?
 int Field_70049839_the_x_in_hair_xy_blp? // Maybe the * of Hair*_x.blp?
 int Field_345983495834?
 int Field_120396383312?
-int Field4
-int Field5
-int Field6
-int Field7
-int Field8
 int<ChrRaces::ID> RaceID
 int GenderID
 
 BUILD 3.0.2.8905
+BUILD 0.5.3.3368-3.3.5.12340
 $id$ID<32>
 RaceID<32>
 GenderID<32>
@@ -20,13 +16,3 @@ Field_118879370_mayberacemask<32>
 Field_70049839_the_x_in_hair_xy_blp<32>
 Field_345983495834<32>
 Field_120396383312<32>
-
-BUILD 0.5.3.3368-3.3.5.12340
-$id$ID<32>
-RaceID<32>
-GenderID<32>
-Field4<32>
-Field5<32>
-Field6<32>
-Field7<32>
-Field8<32>
