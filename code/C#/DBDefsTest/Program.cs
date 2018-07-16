@@ -16,13 +16,25 @@ namespace DBDTest
         
         static void Main(string[] args)
         {
-            if (args.Length < 1)
+            if (args.Length < 2)
             {
-                Console.WriteLine("Usage: <definitionsdir>");
+                Console.WriteLine("Usage: <definitionsdir> <dbcdir>");
                 Environment.Exit(1);
             }
 
             var definitionDir = args[0];
+
+            if (!Directory.Exists(definitionDir))
+            {
+                throw new DirectoryNotFoundException("Directory " + definitionDir + " does not exist!");
+            }
+
+            var dbcDir = args[1];
+
+            if (!Directory.Exists(dbcDir))
+            {
+                throw new DirectoryNotFoundException("Directory " + dbcDir + " does not exist!");
+            }
 
             foreach (var file in Directory.GetFiles(definitionDir))
             {
@@ -30,20 +42,28 @@ namespace DBDTest
                 definitionCache.Add(Path.GetFileNameWithoutExtension(file).ToLower(), reader.Read(file));
             }
 
-            foreach (var dir in Directory.GetDirectories("Z:/DBCs/"))
-            {
-                var buildDir = dir.Replace("Z:/DBCs/", "");
+            var builds = new List<Build>();
 
-                Console.WriteLine("Checking " + buildDir + "..");
-                if (Directory.Exists(Path.Combine(dir, "DBFilesClient"))){
-                    foreach (var file in Directory.GetFiles(Path.Combine(dir, "DBFilesClient")))
+            foreach (var dir in Directory.GetDirectories(dbcDir))
+            {
+                builds.Add(new Build(dir.Replace(dbcDir, "")));
+            }
+
+            builds.Sort();
+
+            foreach(var build in builds)
+            {
+                Console.WriteLine("Checking " + build + "..");
+                if (Directory.Exists(Path.Combine(dbcDir, build.ToString(), "DBFilesClient")))
+                {
+                    foreach (var file in Directory.GetFiles(Path.Combine(dbcDir, build.ToString(), "DBFilesClient")))
                     {
                         LoadDBC(file);
                     }
                 }
                 else
                 {
-                    foreach (var file in Directory.GetFiles(dir))
+                    foreach (var file in Directory.GetFiles(Path.Combine(dbcDir, build.ToString())))
                     {
                         LoadDBC(file);
                     }
@@ -174,6 +194,7 @@ namespace DBDTest
 
                 var dbd = definitionCache[Path.GetFileNameWithoutExtension(filename).ToLower()];
                 var dbChecked = false;
+                var layoutHashFound = false;
 
                 foreach (var versionDef in dbd.versionDefinitions)
                 {
@@ -190,6 +211,15 @@ namespace DBDTest
                     if (versionDef.builds.Contains(new Build(buildDir)))
                     {
                         versionDefMatches = true;
+                    }
+
+                    foreach (var versionLayoutHash in versionDef.layoutHashes)
+                    {
+                        if (layoutHash != "" && versionLayoutHash == layoutHash)
+                        {
+                            layoutHashFound = true;
+                            versionDefMatches = true;
+                        }
                     }
 
                     if (versionDefMatches)
@@ -245,6 +275,8 @@ namespace DBDTest
                         {
                             if (definition.isNonInline || definition.isRelation) continue;
 
+                            int arrLength = Math.Max(definition.arrLength, 1);
+
                             var fieldSize = 0;
                             switch (dbd.columnDefinitions[definition.name].type)
                             {
@@ -260,11 +292,11 @@ namespace DBDTest
                                     var tempBuild = new Build(buildDir);
                                     if (tempBuild.build < 6692)
                                     {
-                                        fieldSize = 32 * 9;
+                                        fieldSize = (32 * 9) * arrLength;
                                     }
-                                    else if (tempBuild.build > 6692 && (tempBuild.expansion < 4 && tempBuild.build < 11927))
+                                    else if (tempBuild.build >= 6692 && (tempBuild.expansion < 4 && tempBuild.build < 11927))
                                     {
-                                        fieldSize = 32 * 17;
+                                        fieldSize = (32 * 17) * arrLength;
                                     }
                                     else
                                     {
@@ -281,7 +313,6 @@ namespace DBDTest
                             }
                             else
                             {
-
                                 dbdRecordSize += (fieldSize / 8);
                             }
                         }
@@ -300,27 +331,20 @@ namespace DBDTest
                     }
                 }
 
-                if (!dbChecked)
+                if (!layoutHashFound && layoutHash != "")
                 {
-                    Console.WriteLine("Unable to find definitions for " + Path.GetFileNameWithoutExtension(filename) + " - " + buildDir);
+                    foundError = true;
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("[" + buildDir + "][" + Path.GetFileNameWithoutExtension(filename) + "] Unable to find layouthash in definitions!");
+                    Console.ResetColor();
                 }
 
-                //Console.WriteLine("[" + buildDir + "][" + name + "] magic: " + magic + ", fieldcount: " + fieldCount + ", recordcount: " + recordCount + ", build: " + build + ", layoutHash: " + layoutHash);
-
-                if(layoutHash != "")
+                if (!dbChecked)
                 {
-                    var found = false;
-                    foreach (var version in definitionCache[name.ToLower()].versionDefinitions)
-                    {
-                        foreach (var layouthash in version.layoutHashes)
-                        {
-                            if(layouthash == layoutHash)
-                            {
-                                found = true;
-                            }
-                        }
-                    }
-                    if (!found) { foundError = true; Console.WriteLine("[" + name.ToLower() + "]   Unable to find layoutHash " + layoutHash + " in definitions!"); }
+                    foundError = true;
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("[" + buildDir + "][" + Path.GetFileNameWithoutExtension(filename) + "] Unable to find applicable definitions!");
+                    Console.ResetColor();
                 }
             }
         }
