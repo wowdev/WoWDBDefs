@@ -216,7 +216,7 @@ namespace DBDTest
                                 {
                                     fields += (9 * arrLength);
                                 }
-                                else if (tempBuild.build > 6692 && (tempBuild.expansion < 4 && tempBuild.build < 11927))
+                                else if (tempBuild.build >= 6692 && (tempBuild.expansion < 4 && tempBuild.build < 11927))
                                 {
                                     fields += (17 * arrLength);
                                 }
