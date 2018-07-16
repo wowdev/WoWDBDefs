@@ -23,28 +23,15 @@ float OverrideOpacity
 float VolumeEdgeFadeStart
 int VolumeFlags
 float OverrideColorIntensity
-int Field_717348174
-float Field_1120222978
-int Field_1500732071
-int Field_289505266
 int Field_1948425555
 int Field_555766786
-int Field_1725044172
-float Field_1976809273
 float Field_1940229071
 float Field_1084837074
-float Field_840487085
-float Field_351198427
 int Field_1679049751
 float Field_1465170183
-int Field_1898633724
 float Field_1385879049
 float Field_961428944
 float Field_1275839559
-int Field_1258535005
-int Field_1850049625
-float Field_1720455423
-float Field_523409829
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -190,25 +177,25 @@ EffectTextureFileDataID<32>
 LAYOUT 784E91E0
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075
 $noninline,id$ID<32>
-Field_717348174<u8>
-Field_1120222978
-Field_1500732071<u32>
-Field_289505266<u16>
+Type<u8>
+TransitionSkyBox
+AmbienceID<u32>
+SoundAmbienceID<u16>
 Field_1948425555<u8>
 Field_555766786<32>
-Field_1725044172<u8>
-Field_1976809273
+WindSettingsID<u8>
+Scale
 Field_1940229071
 Field_1084837074
-Field_840487085
-Field_351198427
+FallModifier
+RotationalSpeed
 Field_1679049751<32>
 Field_1465170183
-Field_1898633724<32>
+OverrideColor<32>
 Field_1385879049
 Field_961428944
 Field_1275839559
-Field_1258535005<32>
-Field_1850049625<32>
-Field_1720455423[2]
-Field_523409829[3]
+VolumeFlags<32>
+LightningID<32>
+Intensity[2]
+EffectColor[3]
