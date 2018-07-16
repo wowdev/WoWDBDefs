@@ -28,20 +28,20 @@ int<WindSettings::ID> WindSettingsID
 locstring PvpShortDescription_lang
 locstring PvpLongDescription_lang
 int ZmpFileDataID
-int Field_2090129712
-int Field_1778819221
-int Field_399808840
-int Field_546616973
-int Field_539990556
-int Field_1045699054
-int Field_1018945417
-int Field_211416088
-int Field_1681684665
-float Field_1881958792
-int Field_1538714857
-int Field_1857385420
-int Field_163350789
-int Field_775554925
+int Field_2090129712?
+int Field_1778819221?
+int Field_399808840?
+int Field_546616973?
+int Field_539990556?
+int Field_1045699054?
+int Field_1018945417?
+int Field_211416088?
+int Field_1681684665?
+float Field_1881958792?
+int Field_1538714857?
+int Field_1857385420?
+int Field_163350789?
+int Field_775554925?
 float Field_4964484313?
 float Field_9587872023?
 int Field_2247165847?
@@ -215,26 +215,6 @@ PVP<32>
 IsInMap<32>
 MapName_lang
 
-BUILD 4.0.0.11792
-$id$ID<32>
-Directory
-InstanceType<32>
-Flags<32>
-PVP<32>
-MapName_lang
-AreaTableID<32>
-MapDescription0_lang
-MapDescription1_lang
-LoadingScreenID<32>
-MinimapIconScale
-CorpseMapID<32>
-Corpse[2]
-TimeOfDayOverride<32>
-ExpansionID<32>
-RaidOffset<32>
-MaxPlayers<32>
-ParentMapID<32>
-
 LAYOUT 72DD596B
 BUILD 8.0.1.26297
 $noninline,id$ID<32>
@@ -354,7 +334,7 @@ RaidOffset<32>
 MaxPlayers<32>
 ParentMapID<32>
 
-BUILD 4.0.1.12911
+BUILD 4.0.0.11792, 4.0.1.12911
 BUILD 4.0.0.11927-4.0.6.13596
 $id$ID<32>
 Directory
