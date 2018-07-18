@@ -7,12 +7,6 @@ float MinHeight
 int PlayerConditionID
 int QuestFeedbackEffectID
 int VisibleTrackingQuestID
-int Field_191509569?
-int Field_1344456894?
-int Field_512381856?
-int Field_1708293090?
-float Field_1719630549?
-float Field_1522058327?
 int Field_1101694034?
 int Field_1300493228?
 
@@ -42,12 +36,12 @@ LAYOUT E70E083E
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101
 $noninline,id$ID<32>
 Name_lang
-Field_191509569<u32>
-Field_1344456894<u32>
-Field_512381856<u32>
-Field_1708293090<u32>
-Field_1719630549
-Field_1522058327
+PlayerConditionID<u32>
+VisibleTrackingQuestID<u32>
+QuestFeedbackEffectID<u32>
+Flags<u32>
+MaxHeight
+MinHeight
 Field_1101694034<8>
 Field_1300493228<32>
 
