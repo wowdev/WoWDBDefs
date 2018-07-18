@@ -27,16 +27,6 @@ int RequiredArenaRating
 int HonorPoints
 int ArenaPoints
 int ItemPurchaseGroup
-int Field_1500091862?
-int Field_625559976?
-int Field_2004410337?
-int Field_559274784?
-int Field_425855966?
-int Field_560012321?
-int Field_1639747773?
-int Field_1964957362?
-int Field_064686730?
-int Field_808875171?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -96,13 +86,13 @@ RequiredAchievement<8>
 LAYOUT 2AC5BE11
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101
 $noninline,id$ID<32>
-Field_1500091862<u16>
-Field_625559976<8>
-Field_2004410337<u8>
-Field_559274784<u8>
-Field_425855966<u8>
-Field_560012321<u8>
-Field_1639747773<32>[5]
-Field_1964957362<u16>[5]
-Field_064686730<u16>[5]
-Field_808875171<u32>[5]
+RequiredArenaRating<u16>
+ArenaBracket<8>
+Flags<u8>
+MinFactionID<8>
+MinReputation<8>
+RequiredAchievement<8>
+ItemID<32>[5]
+ItemCount<u16>[5]
+CurrencyID<u16>[5]
+CurrencyCount<u32>[5]

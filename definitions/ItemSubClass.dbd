@@ -13,16 +13,6 @@ locstring DisplayName_lang
 locstring VerboseName_lang
 int ID
 int AuctionHouseSortOrder
-locstring Field_1483859116_lang?
-locstring Field_183018712_lang?
-int Field_1795606813?
-int Field_233891718?
-int Field_1817608860?
-int Field_096291179?
-int Field_249257621?
-int Field_1171481844?
-int Field_549241009?
-int Field_291038121?
 
 LAYOUT DAD92A67
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -84,13 +74,13 @@ PostrequisiteProficiency<8>
 LAYOUT C7178B11
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101
 $noninline,id$ID<32>
-Field_1483859116_lang
-Field_183018712_lang
-$relation$Field_1795606813<8>
-Field_233891718<8>
-Field_1817608860<u8>
-Field_096291179<8>
-Field_249257621<16>
-Field_1171481844<8>
-Field_549241009<8>
-Field_291038121<8>
+DisplayName_lang
+VerboseName_lang
+$relation$ClassID<8>
+SubClassID<8>
+AuctionHouseSortOrder<u8>
+PrerequisiteProficiency<8>
+Flags<16>
+DisplayFlags<8>
+WeaponSwingSize<8>
+PostrequisiteProficiency<8>
