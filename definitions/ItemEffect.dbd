@@ -9,15 +9,6 @@ int ParentItemID
 int SpellCategoryID
 int SpellID
 int TriggerType
-int Field_1831450437?
-int Field_755080547?
-int Field_1243253202?
-int Field_631169851?
-int Field_591825773?
-int Field_1586381621?
-int Field_2019473478?
-int Field_1205279725?
-int Field_1541932278?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -59,12 +50,12 @@ $noninline,relation$ParentItemID<32>
 LAYOUT 46818AA6
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101
 $noninline,id$ID<32>
-Field_1831450437<u8>
-Field_755080547<8>
-Field_1243253202<16>
-Field_631169851<32>
-Field_591825773<32>
-Field_1586381621<u16>
-Field_2019473478<32>
-Field_1205279725<u16>
-$noninline,relation$Field_1541932278<32>
+LegacySlotIndex<u8>
+TriggerType<8>
+Charges<16>
+CoolDownMSec<32>
+CategoryCoolDownMSec<32>
+SpellCategoryID<u16>
+SpellID<32>
+ChrSpecializationID<u16>
+$noninline,relation$ParentItemID<32>

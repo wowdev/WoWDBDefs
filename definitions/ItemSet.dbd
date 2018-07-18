@@ -7,11 +7,6 @@ int RequiredSkillRank
 int SetFlags
 int<Spell::ID> SetSpellID
 int SetThreshold
-locstring Field_925162017_lang?
-int Field_281653324?
-int Field_975103351?
-int Field_399460745?
-int Field_892110966?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -56,11 +51,11 @@ RequiredSkill<32>
 LAYOUT B02A9041
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101
 $noninline,id$ID<32>
-Field_925162017_lang
-Field_281653324<u32>
-Field_975103351<u32>
-Field_399460745<u16>
-Field_892110966<u32>[17]
+Name_lang
+SetFlags<u32>
+RequiredSkill<u32>
+RequiredSkillRank<u16>
+ItemID<u32>[17]
 
 BUILD 2.0.0.5991
 BUILD 1.7.0.4671-1.10.2.5302

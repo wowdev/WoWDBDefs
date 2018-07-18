@@ -6,12 +6,6 @@ int ItemType
 int PrimaryStat
 int SecondaryStat
 int SpecializationID
-int Field_303988176?
-int Field_2136037446?
-int Field_1932517895?
-int Field_1314484452?
-int Field_1972125145?
-int Field_278681441?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -36,9 +30,9 @@ SecondaryStat<u8>
 LAYOUT EB138F8E
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101
 $noninline,id$ID<32>
-Field_303988176<u8>
-Field_2136037446<u8>
-$relation$Field_1932517895<u8>
-Field_1314484452<u8>
-Field_1972125145<u8>
-Field_278681441<u16>
+MinLevel<u8>
+MaxLevel<u8>
+$relation$ItemType<u8>
+PrimaryStat<u8>
+SecondaryStat<u8>
+SpecializationID<u16>

@@ -5,8 +5,6 @@ float PriceModifier
 locstring ClassName_lang
 int ID
 int SubclassMapID
-int Field_1685484439?
-int Field_119926889?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15726-5.4.8.18414
@@ -35,9 +33,9 @@ LAYOUT B6C67A3D
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101
 $noninline,id$ID<32>
 ClassName_lang
-Field_1685484439<8>
+ClassID<8>
 PriceModifier
-Field_119926889<u8>
+Flags<u8>
 
 BUILD 4.3.2.15211-4.3.4.15595
 $id$ID<32>
