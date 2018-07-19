@@ -72,22 +72,86 @@ namespace DBDefsLib
 
         public bool Contains(Build build)
         {
-            return 
-                build.expansion >= minBuild.expansion && build.expansion <= maxBuild.expansion && 
-                build.major >= minBuild.major && build.major <= maxBuild.major && 
+            return
+                build.expansion >= minBuild.expansion && build.expansion <= maxBuild.expansion &&
+                build.major >= minBuild.major && build.major <= maxBuild.major &&
                 build.build >= minBuild.build && build.build <= maxBuild.build;
         }
 
-        public static bool operator ==(BuildRange x, BuildRange y) => x.Equals(y);
+        public bool Union(BuildRange buildRange, out BuildRange unionedRange)
+        {
+            unionedRange = null;
 
-        public static bool operator !=(BuildRange x, BuildRange y) => !x.Equals(y);
+            if (buildRange.Contains(minBuild) || 
+                buildRange.Contains(maxBuild) || 
+                Contains(buildRange.minBuild) || 
+                Contains(buildRange.maxBuild))
+            {
+                Build min = minBuild, max = maxBuild;
 
-        public static bool operator <(BuildRange x, BuildRange y) => x.CompareTo(y) < 0;
+                if (buildRange.minBuild < min)
+                    min = buildRange.minBuild;
+                if (buildRange.maxBuild > max)
+                    max = buildRange.maxBuild;
 
-        public static bool operator >(BuildRange x, BuildRange y) => x.CompareTo(y) > 0;
+                unionedRange = new BuildRange(min, max);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
-        public static bool operator <=(BuildRange x, BuildRange y) => x.CompareTo(y) <= 0;
+        #region Operators
 
-        public static bool operator >=(BuildRange x, BuildRange y) => x.CompareTo(y) >= 0;
+        public static bool operator ==(BuildRange x, BuildRange y)
+        {
+            if (x is null && y is null)
+                return true;
+            if (x is null || y is null)
+                return false;
+
+            return x.Equals(y);
+        }
+
+        public static bool operator !=(BuildRange x, BuildRange y)
+        {
+            return !(x == y);
+        }
+
+        public static bool operator <(BuildRange x, BuildRange y)
+        {
+            if (x is null || y is null)
+                throw new ArgumentNullException();
+
+            return x.CompareTo(y) < 0;
+        }
+
+        public static bool operator >(BuildRange x, BuildRange y)
+        {
+            if (x is null || y is null)
+                throw new ArgumentNullException();
+
+            return x.CompareTo(y) > 0;
+        }
+
+        public static bool operator <=(BuildRange x, BuildRange y)
+        {
+            if (x == y)
+                return true;
+
+            return x < y;
+        }
+
+        public static bool operator >=(BuildRange x, BuildRange y)
+        {
+            if (x == y)
+                return true;
+
+            return x > y;
+        }
+
+        #endregion
     }
 }
