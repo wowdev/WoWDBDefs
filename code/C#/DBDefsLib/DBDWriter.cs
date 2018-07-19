@@ -7,16 +7,19 @@ namespace DBDefsLib
 {
     public class DBDWriter
     {
-        public void Save(DBDefinition definition, string target)
+        public void Save(DBDefinition definition, string target, bool sort = false)
         {
             if (!Directory.Exists(Path.GetDirectoryName(target)))
             {
                 Directory.CreateDirectory(Path.GetDirectoryName(target));
             }
 
-            var sortedDBDefinitions = definition.versionDefinitions.ToList();
-            sortedDBDefinitions.Sort(new DBDVersionsComparer(false));
-            definition.versionDefinitions = sortedDBDefinitions.ToArray();
+            if(sort)
+            {
+                var sortedDBDefinitions = definition.versionDefinitions.ToList();
+                sortedDBDefinitions.Sort(new DBDVersionsComparer(false));
+                definition.versionDefinitions = sortedDBDefinitions.ToArray();
+            }
 
             using (StreamWriter writer = new StreamWriter(target))
             {
@@ -93,7 +96,14 @@ namespace DBDefsLib
                     {
                         var sortedBuildRangeList = new List<BuildRange>();
                         sortedBuildRangeList.AddRange(versionDefinition.buildRanges);
-                        sortedBuildRangeList.Sort((x, y) => x.CompareTo(y) * -1); // invert build ranges to follow def sort
+                        if(sort)
+                        {
+                            sortedBuildRangeList.Sort((x, y) => x.CompareTo(y) * -1); // invert build ranges to follow def sort
+                        }
+                        else
+                        {
+                            sortedBuildRangeList.Sort();
+                        }                        
                         versionDefinition.buildRanges = sortedBuildRangeList.ToArray();
                         foreach(var buildRange in versionDefinition.buildRanges)
                         {
