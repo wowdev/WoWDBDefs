@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using static DBDefsLib.Structs;
 
 namespace DBDefsLib
@@ -12,6 +13,10 @@ namespace DBDefsLib
             {
                 Directory.CreateDirectory(Path.GetDirectoryName(target));
             }
+
+            var sortedDBDefinitions = definition.versionDefinitions.ToList();
+            sortedDBDefinitions.Sort(new DBDVersionsComparer(false));
+            definition.versionDefinitions = sortedDBDefinitions.ToArray();
 
             using (StreamWriter writer = new StreamWriter(target))
             {
@@ -88,7 +93,7 @@ namespace DBDefsLib
                     {
                         var sortedBuildRangeList = new List<BuildRange>();
                         sortedBuildRangeList.AddRange(versionDefinition.buildRanges);
-                        sortedBuildRangeList.Sort();
+                        sortedBuildRangeList.Sort((x, y) => x.CompareTo(y) * -1); // invert build ranges to follow def sort
                         versionDefinition.buildRanges = sortedBuildRangeList.ToArray();
                         foreach(var buildRange in versionDefinition.buildRanges)
                         {
@@ -176,6 +181,31 @@ namespace DBDefsLib
 
                 writer.Flush();
                 writer.Close();
+            }
+        }
+
+        internal class DBDVersionsComparer : IComparer<VersionDefinitions>
+        {
+            private readonly bool _asc;
+
+            public DBDVersionsComparer(bool ascending = true)
+            {
+                _asc = ascending;
+            }
+
+            public int Compare(VersionDefinitions x, VersionDefinitions y)
+            {
+                var xmax = x.buildRanges.Select(b => b.minBuild).Concat(x.builds).OrderBy(b => b).FirstOrDefault();
+                var ymax = y.buildRanges.Select(b => b.minBuild).Concat(y.builds).OrderBy(b => b).FirstOrDefault();
+
+                int result = 0;
+                if (xmax != null && ymax != null)
+                    result = xmax.CompareTo(ymax);
+
+                if (!_asc)
+                    result *= -1;
+
+                return result;
             }
         }
     }
