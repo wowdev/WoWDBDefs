@@ -75,6 +75,18 @@ namespace DBDefsLib
                 throw new ArgumentException("Object is not a valid build!");
             }
         }
+
+        public static bool operator ==(Build x, Build y) => x.Equals(y);
+
+        public static bool operator !=(Build x, Build y) => !x.Equals(y);
+
+        public static bool operator <(Build x, Build y) => x.CompareTo(y) < 0;
+
+        public static bool operator >(Build x, Build y) => x.CompareTo(y) > 0;
+
+        public static bool operator <=(Build x, Build y) => x.CompareTo(y) <= 0;
+
+        public static bool operator >=(Build x, Build y) => x.CompareTo(y) >= 0;
     }
 }
 

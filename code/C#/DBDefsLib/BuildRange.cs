@@ -77,5 +77,17 @@ namespace DBDefsLib
                 build.major >= minBuild.major && build.major <= maxBuild.major && 
                 build.build >= minBuild.build && build.build <= maxBuild.build;
         }
+
+        public static bool operator ==(BuildRange x, BuildRange y) => x.Equals(y);
+
+        public static bool operator !=(BuildRange x, BuildRange y) => !x.Equals(y);
+
+        public static bool operator <(BuildRange x, BuildRange y) => x.CompareTo(y) < 0;
+
+        public static bool operator >(BuildRange x, BuildRange y) => x.CompareTo(y) > 0;
+
+        public static bool operator <=(BuildRange x, BuildRange y) => x.CompareTo(y) <= 0;
+
+        public static bool operator >=(BuildRange x, BuildRange y) => x.CompareTo(y) >= 0;
     }
 }
