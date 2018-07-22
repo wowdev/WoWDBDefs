@@ -35,9 +35,6 @@ int StartAnimID
 float StartDelay
 float Yaw
 float YawVariation
-float OffsetX
-float OffsetY
-float OffsetZ
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -86,9 +83,7 @@ $id$ID<32>
 ParentSpellVisualKitID<32>
 SpellVisualEffectNameID<32>
 AttachmentID<32>
-OffsetX
-OffsetY
-OffsetZ
+Offset[3]
 Yaw
 Pitch
 Roll

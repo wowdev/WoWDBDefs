@@ -7,7 +7,6 @@ locstring Name_lang
 int MaxCharges
 int ChargeRecoveryTime
 int TypeMask
-locstring Field_2116368525_lang?
 int Field_1622996365?
 int Field_655517420?
 int Field_733064564?
@@ -40,7 +39,7 @@ Flags<32>
 LAYOUT 53EB1CD3
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144
 $noninline,id$ID<32>
-Field_2116368525_lang
+Name_lang
 Field_1622996365<8>
 Field_655517420<u8>
 Field_733064564<8>

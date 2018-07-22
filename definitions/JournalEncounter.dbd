@@ -12,9 +12,6 @@ locstring Description_lang
 int Flags
 int MapDisplayConditionID
 int UiMapID
-locstring Field_732429143_lang?
-locstring Field_062544216_lang?
-float Field_988722291?
 int Field_1576144794?
 int Field_583344701?
 int Field_1785929303?
@@ -83,9 +80,9 @@ MapDisplayConditionID<32>
 LAYOUT 5E057FAD
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144
 $noninline,id$ID<32>
-Field_732429143_lang
-Field_062544216_lang
-Field_988722291[2]
+Name_lang
+Description_lang
+Map[2]
 Field_1576144794<u16>
 Field_583344701<u32>
 Field_1785929303<u16>

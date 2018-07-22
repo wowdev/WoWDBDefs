@@ -1,6 +1,4 @@
 COLUMNS
-int Field_1845451628?
-int Field_936851303?
 int Field_2285471969?
 int Field_2502177600?
 int ID
@@ -10,8 +8,8 @@ int SpellID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-Field_1845451628<32>[8]
-Field_936851303<32>[8]
+Reagent<32>[8]
+ReagentCount<32>[8]
 Field_2285471969<32>
 Field_2502177600<32>
 

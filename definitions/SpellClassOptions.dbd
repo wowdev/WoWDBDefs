@@ -8,8 +8,6 @@ int SpellClassSet
 int SpellID
 int Field_250786075?
 int Field_2124025470?
-int Field_2134258516?
-int Field_477932138?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -30,5 +28,5 @@ BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.268
 $noninline,id$ID<32>
 Field_250786075<32>
 Field_2124025470<u32>
-Field_2134258516<u8>
-Field_477932138<32>[4]
+SpellClassSet<u8>
+SpellClassMask<32>[4]

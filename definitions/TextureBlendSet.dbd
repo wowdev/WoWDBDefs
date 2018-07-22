@@ -10,16 +10,6 @@ float TextureScaleU
 float TextureScaleV
 float TextureScrollRateU
 float TextureScrollRateV
-int Field_1753784894?
-int Field_1271781224?
-int Field_1425793565?
-int Field_535447213?
-int Field_1905269829?
-float Field_1740698849?
-float Field_1323406996?
-float Field_213717278?
-float Field_398053731?
-float Field_388445650?
 
 LAYOUT A2323E0C, 3879BF6C
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
@@ -38,13 +28,13 @@ SwizzleAlpha<u8>
 LAYOUT F2AFFE4C
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144
 $noninline,id$ID<32>
-Field_1753784894<32>[3]
-Field_1271781224<u8>
-Field_1425793565<u8>
-Field_535447213<u8>
-Field_1905269829<u8>
-Field_1740698849[3]
-Field_1323406996[3]
-Field_213717278[3]
-Field_398053731[3]
-Field_388445650[4]
+TextureFileDataID<32>[3]
+SwizzleRed<u8>
+SwizzleGreen<u8>
+SwizzleBlue<u8>
+SwizzleAlpha<u8>
+TextureScrollRateU[3]
+TextureScrollRateV[3]
+TextureScaleU[3]
+TextureScaleV[3]
+ModX[4]

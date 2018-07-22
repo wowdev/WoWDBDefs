@@ -14,8 +14,6 @@ int Field_853392595?
 int Field_073037297?
 int Field_193661342?
 int Field_1301427073?
-int Field_774939558?
-int Field_739006312?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -61,5 +59,5 @@ Field_853392595<32>
 Field_073037297<u8>
 Field_193661342<32>
 Field_1301427073<u16>
-Field_774939558<32>[2]
-$noninline,relation$Field_739006312<32>
+ProcTypeMask<32>[2]
+$noninline,relation$SpellID<32>

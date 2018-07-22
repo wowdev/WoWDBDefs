@@ -4,10 +4,6 @@ string Name
 int Flags
 int CelestialSkyboxFileDataID
 int SkyboxFileDataID
-string Field_018017252?
-int Field_547139360?
-int Field_1390923373?
-int Field_1586749238?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -33,7 +29,7 @@ Flags<8>
 LAYOUT 757E9EB6
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144
 $noninline,id$ID<32>
-Field_018017252
-Field_547139360<u8>
-Field_1390923373<32>
-Field_1586749238<32>
+Name
+Flags<u8>
+SkyboxFileDataID<32>
+CelestialSkyboxFileDataID<32>

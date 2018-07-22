@@ -11,11 +11,6 @@ int DepartureEventID
 float LocX
 float LocY
 float LocZ
-int Field_1559777242?
-int Field_1090324703?
-int Field_1492673239?
-int Field_320321232?
-int Field_294171656?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -80,9 +75,9 @@ BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.268
 Loc[3]
 $id$ID<32>
 $relation$PathID<u16>
-Field_1559777242<32>
-Field_1090324703<u16>
+NodeIndex<32>
+ContinentID<u16>
 Flags<u8>
-Field_1492673239<u32>
-Field_320321232<u16>
-Field_294171656<u16>
+Delay<u32>
+ArrivalEventID<u16>
+DepartureEventID<u16>
