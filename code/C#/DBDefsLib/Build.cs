@@ -75,6 +75,58 @@ namespace DBDefsLib
                 throw new ArgumentException("Object is not a valid build!");
             }
         }
+
+
+        #region Operators
+
+        public static bool operator ==(Build x, Build y)
+        {
+            if (x is null && y is null)
+                return true;
+            if (x is null || y is null)
+                return false;
+
+            return x.Equals(y);
+        }
+
+        public static bool operator !=(Build x, Build y)
+        {
+            return !(x == y);
+        }
+
+        public static bool operator <(Build x, Build y)
+        {
+            if (x is null || y is null)
+                throw new ArgumentNullException();
+
+            return x.CompareTo(y) < 0;
+        }
+
+        public static bool operator >(Build x, Build y)
+        {
+            if (x is null || y is null)
+                throw new ArgumentNullException();
+
+            return x.CompareTo(y) > 0;
+        }
+
+        public static bool operator <=(Build x, Build y)
+        {
+            if (x == y)
+                return true;
+
+            return x < y;
+        }
+
+        public static bool operator >=(Build x, Build y)
+        {
+            if (x == y)
+                return true;
+
+            return x > y;
+        }
+
+        #endregion
     }
 }
 
