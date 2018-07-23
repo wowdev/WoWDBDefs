@@ -47,7 +47,7 @@ Line starts with ```COMMENT```, only for humans. Can appear only once.
 ##### Ranges
 ```BUILD 7.2.0.23436-7.2.0.23514```.
 
-Ranges should be specified per minor version to not conflict with other branches. Example:
+Ranges for current expansions should be specified per minor version to not conflict with other branches. Example:
 ```
 BUILD 7.2.0.23436-7.2.0.23514
 BUILD 7.1.5.23038-7.1.5.23420
@@ -55,17 +55,18 @@ BUILD 7.1.0.22578-7.1.0.22996
 BUILD 7.0.3.21846-7.0.3.22747
 ```
 
-As no more builds/branch conflicts are expected for anything older than the current expansion, ranges are allowed to span multiple expansions. Example:
+As no more builds/branch conflicts are expected for anything older than the current expansion, ranges are allowed to span a full expansion. Example:
 ```
-BUILD 4.0.0.11927-6.2.4.21742
+BUILD 4.0.0.11792-4.3.4.15595
+BUILD 3.0.1.8622-3.3.5.12340
 ```
 
-When doing this, please confirm that it is correct by verifying the version definition for all public builds in the specified range.
+When using ranges, please confirm that the range is correct by verifying the version definition for all public builds included in it.
 
 ##### Multiple exact builds
 ```BUILD 0.7.0.3694, 0.7.1.3702, 0.7.6.3712```
 
-##### Single build
+##### Single exact build
 ```BUILD 0.9.1.3810```
 
 #### Columns
