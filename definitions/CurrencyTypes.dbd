@@ -13,22 +13,6 @@ locstring Description_lang
 int InventoryIconFileID
 int ItemID
 int BitIndex
-int Field_874371232?
-int Field_112097594?
-int Field_2020783315?
-int Field_997197214?
-int Field_454073460?
-int Field_1322901458?
-int Field_321503036?
-int Field_958034873?
-int Field_1430767211?
-int Field_526815784?
-int Field_166718714?
-int Field_1582123975?
-int Field_851108977?
-int Field_784385737?
-int Field_2124686595?
-int Field_1937613511?
 int Field_1560101015?
 
 BUILD 6.0.1.18179
@@ -69,26 +53,26 @@ BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.268
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-Field_874371232<u8>
-Field_112097594<32>
-Field_2020783315<u32>
-Field_997197214<u8>
-Field_454073460<u32>
-Field_1322901458<u32>
-Field_321503036<u32>
-Field_958034873<8>
+CategoryID<u8>
+InventoryIconFileID<32>
+SpellWeight<u32>
+SpellCategory<u8>
+MaxQty<u32>
+MaxEarnablePerWeek<u32>
+Flags<u32>
+Quality<8>
 
 LAYOUT 998F0AAA
 BUILD 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-Field_1430767211<u8>
-Field_526815784<32>
-Field_166718714<u32>
-Field_1582123975<u8>
-Field_851108977<u32>
-Field_784385737<u32>
-Field_2124686595<u32>
-Field_1937613511<8>
+CategoryID<u8>
+InventoryIconFileID<32>
+SpellWeight<u32>
+SpellCategory<u8>
+MaxQty<u32>
+MaxEarnablePerWeek<u32>
+Flags<u32>
+Quality<8>
 Field_1560101015<32>

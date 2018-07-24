@@ -2,8 +2,8 @@ COLUMNS
 int ID
 int Field_1308584285?
 int Field_217353192?
-locstring Field_2889316524_lang?
-locstring Field_2996302600_lang?
+locstring Name_lang?
+locstring Subtitle_lang?
 int Field_3120953011?
 int Field_3923147172?
 int Field_839647839?
@@ -11,8 +11,8 @@ int Field_839647839?
 LAYOUT 799AE511
 BUILD 8.0.1.26734, 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144
 $noninline,id$ID<32>
-Field_2996302600_lang
-Field_2889316524_lang
+Name_lang
+Subtitle_lang
 Field_839647839<32>
 Field_3120953011<u32>
 Field_217353192<32>

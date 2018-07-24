@@ -10,14 +10,6 @@ int<SpellVisualKit::ID> SpellVisualKitID
 int ClassMask
 int RaceMask
 int<AnimationData::ID> EmoteAnimID
-int Field_1338640157?
-int Field_029937861?
-int Field_443310326?
-int Field_765949197?
-int Field_1461514162?
-int Field_987298305?
-int Field_1293227351?
-int Field_088129167?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -74,12 +66,12 @@ ClassMask<32>
 LAYOUT A909E182
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144
 $noninline,id$ID<32>
-Field_1338640157<64>
+RaceMask<64>
 EmoteSlashCommand
-Field_029937861<32>
-Field_443310326<u32>
-Field_765949197<u8>
-Field_1461514162<u32>
-Field_987298305<u32>
-Field_1293227351<u32>
-Field_088129167<32>
+AnimID<32>
+EmoteFlags<u32>
+EmoteSpecProc<u8>
+EmoteSpecProcParam<u32>
+EventSoundID<u32>
+SpellVisualKitID<u32>
+ClassMask<32>
