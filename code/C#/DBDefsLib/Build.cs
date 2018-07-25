@@ -26,7 +26,13 @@ namespace DBDefsLib
 
         public override bool Equals(object obj)
         {
-            return Equals(obj as Build);
+            var build = obj as Build;
+            if (build == null)
+            {
+                return false;
+            }
+
+            return Equals(build);
         }
 
         public override int GetHashCode()

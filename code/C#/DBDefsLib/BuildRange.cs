@@ -27,7 +27,13 @@ namespace DBDefsLib
 
         public override bool Equals(object obj)
         {
-            return Equals(obj as BuildRange);
+            var buildRange = obj as BuildRange;
+            if (buildRange == null)
+            {
+                return false;
+            }
+
+            return Equals(buildRange);
         }
 
         public bool Equals(BuildRange buildRange)
