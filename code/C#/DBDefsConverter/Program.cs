@@ -10,9 +10,9 @@ namespace DBDefsConverter
     {
         static void Main(string[] args)
         {
-            if(args.Length != 1 || args.Length > 3)
+            if(args.Length < 1 || args.Length > 3)
             {
-                throw new ArgumentException("Invalid argument count, need at least 1 argument: indbdfile/indbddir (outdir, default current dir) (json/xml, default:json)");
+                throw new ArgumentException("Invalid argument count, need at least 1 argument: indbdfile/indbddir (outdir, default current dir) (json)");
             }
 
             var inFile = args[0];
@@ -30,13 +30,13 @@ namespace DBDefsConverter
 
             if (args.Length == 3)
             {
-                if (args[2] == "json" || args[2] == "xml")
+                if (args[2] == "json")
                 {
                     exportFormat = args[2];
                 }
                 else
                 {
-                    throw new ArgumentException("Export format should be either json or xml");
+                    throw new ArgumentException("Export format should be json");
                 }
             }
 
@@ -51,11 +51,6 @@ namespace DBDefsConverter
                         var target = Path.Combine(outDir, Path.GetFileNameWithoutExtension(file) + ".json"); ;
                         ExportJSON(reader.Read(file), target);
                     }
-                    else if (exportFormat == "xml")
-                    {
-                        var target = Path.Combine(outDir, Path.GetFileNameWithoutExtension(file) + ".xml"); ;
-                        ExportXML(reader.Read(file), target);
-                    }
                 }
             }
             else if (File.Exists(args[0]))
@@ -66,11 +61,6 @@ namespace DBDefsConverter
                 {
                     var target = Path.Combine(outDir, Path.GetFileNameWithoutExtension(args[0]) + ".json"); ;
                     ExportJSON(reader.Read(args[0]), target);
-                }
-                else if (exportFormat == "xml")
-                {
-                    var target = Path.Combine(outDir, Path.GetFileNameWithoutExtension(args[0]) + ".xml"); ;
-                    ExportXML(reader.Read(args[0]), target);
                 }
             }
             else
@@ -88,11 +78,6 @@ namespace DBDefsConverter
                 serializer.NullValueHandling = NullValueHandling.Ignore;
                 serializer.Serialize(file, definition);
             }
-        }
-
-        private static void ExportXML(DBDefinition definition, string target)
-        {
-            throw new NotImplementedException();
         }
     }
 }
