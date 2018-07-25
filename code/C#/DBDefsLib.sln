@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBDefsMerge", "DBDefsMerge\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBDefsDumper", "DBDefsDumper\DBDefsDumper.csproj", "{56664B3B-9A60-4A5D-B9B3-AF30C5E21F04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDefsCoverage", "DBDefsCoverage\DBDefsCoverage.csproj", "{B8D8BC4B-48B2-407E-B472-5D6FD34BD90D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBDefsCoverage", "DBDefsCoverage\DBDefsCoverage.csproj", "{B8D8BC4B-48B2-407E-B472-5D6FD34BD90D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBDefsConverter", "DBDefsConverter\DBDefsConverter.csproj", "{33BB901D-38E5-477D-B76B-B2ED31283183}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B8D8BC4B-48B2-407E-B472-5D6FD34BD90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D8BC4B-48B2-407E-B472-5D6FD34BD90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D8BC4B-48B2-407E-B472-5D6FD34BD90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33BB901D-38E5-477D-B76B-B2ED31283183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BB901D-38E5-477D-B76B-B2ED31283183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BB901D-38E5-477D-B76B-B2ED31283183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BB901D-38E5-477D-B76B-B2ED31283183}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
