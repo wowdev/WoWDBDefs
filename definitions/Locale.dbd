@@ -1,26 +1,18 @@
 COLUMNS
 int Field_767576318?
-int Field_848689145?
-int Field_3628750783?
-int Field_1662039940?
-int Field_862845563?
 int ID
 int ClientDisplayExpansion
 int FontFileDataID
 int Secondary
 int WowLocale
-int Field_128559438?
-int Field_1416666068?
-int Field_629249587?
-int Field_516871715?
 
 BUILD 6.0.1.18179
 $id$ID<32>
 Field_767576318<32>
-Field_848689145<32>
-Field_3628750783<32>
-Field_1662039940<32>
-Field_862845563<32>
+WowLocale<32>
+Secondary<32>
+FontFileDataID<32>
+ClientDisplayExpansion<32>
 
 LAYOUT 592AE13B
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -41,7 +33,7 @@ Secondary<8>
 LAYOUT 65638FD5
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165
 $noninline,id$ID<32>
-Field_128559438<u8>
-Field_1416666068<32>
-Field_629249587<u8>
-Field_516871715<u8>
+WowLocale<u8>
+FontFileDataID<32>
+ClientDisplayExpansion<u8>
+Secondary<u8>
