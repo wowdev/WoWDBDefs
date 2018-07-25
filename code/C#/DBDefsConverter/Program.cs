@@ -45,7 +45,7 @@ namespace DBDefsConverter
                 foreach (var file in Directory.GetFiles(args[0]))
                 {
                     var reader = new DBDReader();
-                    Console.WriteLine("Exporting " + args[0]);
+                    Console.WriteLine("Exporting " + file);
                     if (exportFormat == "json")
                     {
                         var target = Path.Combine(outDir, Path.GetFileNameWithoutExtension(file) + ".json"); ;
@@ -81,9 +81,11 @@ namespace DBDefsConverter
 
         private static void ExportJSON(DBDefinition definition, string target)
         {
+            Console.WriteLine("Saving JSON to " + target);
             using (StreamWriter file = File.CreateText(target))
             {
                 JsonSerializer serializer = new JsonSerializer();
+                serializer.NullValueHandling = NullValueHandling.Ignore;
                 serializer.Serialize(file, definition);
             }
         }
