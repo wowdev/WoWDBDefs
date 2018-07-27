@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-int SpellID
+int<Spell::ID> SpellID
 int DifficultyID
 int Attributes
 int CastingTimeIndex
 int DurationIndex
 int RangeIndex
 float Speed
-int SpellVisualID
-int SpellIconID
+int<SpellVisual::ID> SpellVisualID
+int<SpellIcon::ID> SpellIconID
 int ActiveIconID
 int SchoolMask
-int ActiveIconFileDataID
+int<FileData::ID> ActiveIconFileDataID
 float LaunchDelay
-int SpellIconFileDataID
+int<FileData::ID> SpellIconFileDataID
 float Field_1532576006?
 
 BUILD 6.0.1.18179
