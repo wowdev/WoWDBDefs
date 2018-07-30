@@ -7,13 +7,6 @@ int LevelRangeBias
 int MaxFollowerBuildingType
 int MaxFollowers
 int MaxItemLevel
-int Field_1982891526?
-int Field_1988200429?
-int Field_694755532?
-int Field_1987237371?
-int Field_698166559?
-int Field_1746070754?
-int Field_1184893877?
 
 LAYOUT D676FBC0
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -40,10 +33,10 @@ Flags<8>
 LAYOUT B4B34EF0
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178
 $noninline,id$ID<32>
-Field_1982891526<u8>
-Field_1988200429<u8>
-Field_694755532<u8>
-Field_1987237371<u16>
-Field_698166559<u8>
-Field_1746070754<u8>
-Field_1184893877<u8>
+GarrTypeID<u8>
+MaxFollowers<u8>
+MaxFollowerBuildingType<u8>
+MaxItemLevel<u16>
+LevelRangeBias<u8>
+ItemLevelRangeBias<u8>
+Flags<u8>

@@ -46,64 +46,11 @@ int TargetLevel
 int TravelDuration
 int UiTextureKitID
 float WorldPos
-locstring Field_1053376238_lang?
-int Field_1075352947?
-int Field_1334787408?
-int Field_1336462998?
-int Field_1367035623?
-int Field_1532576006?
-int Field_1555716787?
-int Field_1678764757?
-int Field_1778117193?
-int Field_1809580897?
-locstring Field_1838711077_lang?
-int Field_1874725257?
-int Field_1905686843?
-float Field_1933042534?
-int Field_2390938800?
-int Field_239910350?
-int Field_242207475?
-int Field_2633153277?
-int Field_2699733778?
-int Field_2715635810?
-locstring Field_3219317051_lang?
-int Field_3319152767?
-int Field_383478397?
-float Field_3898499771?
-int Field_3956182989?
-int Field_4083046615?
-int Field_737839365?
-int Field_943015025?
-int Field_997989291?
-locstring Field_1368267919_lang?
-locstring Field_581551445_lang?
-locstring Field_1229984435_lang?
-float Field_855451430?
-float Field_638855956?
-int Field_1810988484?
-int Field_164363517?
-int Field_1703382696?
-int Field_1977532163?
-int Field_2015130699?
-int Field_767375409?
-int Field_630583124?
 int Field_688268583?
-int Field_307942267?
 int Field_664671652?
-int Field_1428859044?
-int Field_1753110703?
-int Field_760205360?
-int Field_971719747?
-int Field_1342623636?
 int Field_922836433?
-int Field_1734053104?
-int Field_1920353784?
-int Field_1304651197?
-int Field_1362082460?
 int Field_1260423227?
-int Field_783053414?
 int Field_184348585?
-int Field_2114396785?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -192,64 +139,64 @@ $noninline,relation$GarrMissionSetID<32>
 
 LAYOUT F0ADAC5D
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-Field_1838711077_lang
-Field_1053376238_lang
-Field_3219317051_lang
-Field_1905686843<32>
-Field_1874725257<32>
-Field_3898499771[2]
-Field_1933042534[2]
-Field_1532576006<16>
-Field_1334787408<16>
-Field_4083046615<16>
-Field_1336462998<8>
-Field_2699733778<8>
-Field_1367035623<8>
-Field_3956182989<8>
-Field_2715635810<8>
-Field_242207475<8>
-Field_737839365<8>
-Field_383478397<8>
-Field_2633153277<8>
-$id$Field_1555716787<32>
-Field_1778117193<32>
-Field_943015025<32>
-Field_2390938800<32>
-Field_1075352947<32>
-Field_239910350<32>
-Field_3319152767<32>
-Field_1678764757<32>
-Field_1809580897<32>
-$noninline,relation$Field_997989291<32>
+Name_lang
+Location_lang
+Description_lang
+MissionDuration<32>
+OfferDuration<32>
+MapPos[2]
+WorldPos[2]
+MissionCostCurrencyTypesID<16>
+UiTextureKitID<16>
+TargetItemLevel<16>
+GarrTypeID<8>
+GarrMissionTypeID<8>
+GarrFollowerTypeID<8>
+MaxFollowers<8>
+OfferedGarrMissionTextureID<8>
+EnvGarrMechanicTypeID<8>
+TargetLevel<8>
+BaseCompletionChance<8>
+FollowerDeathChance<8>
+$id$ID<32>
+MissionCost<32>
+EnvGarrMechanicID<32>
+PlayerConditionID<32>
+TravelDuration<32>
+BaseFollowerXP<32>
+OvermaxRewardPackID<32>
+AreaID<32>
+Flags<32>
+$noninline,relation$GarrMissionSetID<32>
 
 LAYOUT 00777205
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178
-Field_1368267919_lang
-Field_581551445_lang
-Field_1229984435_lang
-Field_855451430[2]
-Field_638855956[2]
-$id$Field_1810988484<32>
-Field_164363517<u8>
-Field_1703382696<u8>
-Field_1977532163<u8>
-Field_2015130699<u8>
-Field_767375409<u32>
-Field_630583124<u16>
+Name_lang
+Location_lang
+Description_lang
+MapPos[2]
+WorldPos[2]
+$id$ID<32>
+GarrTypeID<u8>
+GarrMissionTypeID<u8>
+GarrFollowerTypeID<u8>
+MaxFollowers<u8>
+MissionCost<u32>
+MissionCostCurrencyTypesID<u16>
 Field_688268583<u8>
-Field_307942267<u16>
+UiTextureKitID<u16>
 Field_664671652<u32>
-Field_1428859044<u8>
-Field_1753110703<u32>
-Field_760205360<8>
-Field_971719747<u16>
-Field_1342623636<32>
+EnvGarrMechanicTypeID<u8>
+PlayerConditionID<u32>
+TargetLevel<8>
+TargetItemLevel<u16>
+MissionDuration<32>
 Field_922836433<32>
-Field_1734053104<u32>
-Field_1920353784<u8>
-Field_1304651197<u32>
-Field_1362082460<u32>
+OfferDuration<u32>
+BaseCompletionChance<u8>
+BaseFollowerXP<u32>
+OvermaxRewardPackID<u32>
 Field_1260423227<u8>
-Field_783053414<u32>
+AreaID<u32>
 Field_184348585<u32>
-$noninline,relation$Field_2114396785<32>
+$noninline,relation$GarrMissionSetID<32>

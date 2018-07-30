@@ -3,10 +3,6 @@ int ID
 int X
 int Y
 int QuestPOIBlobID
-int Field_1053376238?
-int Field_1838711077?
-int Field_1905686843?
-int Field_3219317051?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -23,7 +19,7 @@ $noninline,relation$QuestPOIBlobID<32>
 
 LAYOUT F0F17EC1
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-Field_1838711077<16>
-Field_1053376238<16>
-$id$Field_3219317051<32>
-$noninline,relation$Field_1905686843<32>
+X<16>
+Y<16>
+$id$ID<32>
+$noninline,relation$QuestPOIBlobID<32>

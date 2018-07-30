@@ -40,7 +40,6 @@ int VolumeFadeOutCurveID
 int VolumeFadeOutTimeMax
 int VolumeFadeOutTimeMin
 int VolumeSliderCategory
-int Field_1730747559?
 int Field_488409397?
 float Field_1315661566?
 float Field_1513453820?
@@ -81,7 +80,6 @@ int Field_1660652047?
 int Field_006146053?
 int Field_1710717520?
 float Field_408586761?
-int Field_1826585228?
 int Field_432654696?
 float Field_731141016?
 float Field_2005445091?
@@ -258,7 +256,7 @@ VolumeFadeOutCurveID<u32>
 
 LAYOUT F5CB60B2
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926
-$id$Field_1730747559<32>
+$id$ID<32>
 Field_488409397<u32>
 Field_1315661566
 Field_1513453820
@@ -302,7 +300,7 @@ Field_408586761
 
 LAYOUT 6EAFA63E
 BUILD 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178
-$id$Field_1826585228<32>
+$id$ID<32>
 Field_432654696<u32>
 Field_731141016
 Field_2005445091

@@ -12,16 +12,6 @@ float CombatWeightMax
 int Flags
 int GarrAbilityID
 int GarrMechanicTypeID
-int Field_1096564021?
-int Field_1838633660?
-int Field_777345925?
-float Field_346015355?
-float Field_1345331277?
-float Field_257122878?
-int Field_1609473971?
-int Field_1438661586?
-int Field_1746083035?
-int Field_721669374?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -68,13 +58,13 @@ LAYOUT 682EE0E1
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178
 $id$ID<32>
 $relation$GarrAbilityID<u16>
-Field_1096564021<u8>
-Field_1838633660<u8>
-Field_777345925<u8>
-Field_346015355
-Field_1345331277
-Field_257122878
-Field_1609473971<u8>
-Field_1438661586<u8>
-Field_1746083035<32>
-Field_721669374<u8>
+AbilityAction<u8>
+AbilityTargetType<u8>
+GarrMechanicTypeID<u8>
+CombatWeightBase
+CombatWeightMax
+ActionValueFlat
+ActionRace<u8>
+ActionHours<u8>
+ActionRecordID<32>
+Flags<u8>

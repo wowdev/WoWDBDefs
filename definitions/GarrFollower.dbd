@@ -46,20 +46,6 @@ int ItemLevelWeapon
 int Quality
 locstring TitleName_lang
 int Vitality
-locstring Field_1944523407_lang?
-locstring Field_172290952_lang?
-locstring Field_1474363347_lang?
-int Field_643377850?
-int Field_022818236?
-int Field_145902578?
-int Field_884228378?
-int Field_746346335?
-int Field_202761153?
-int Field_890092743?
-int Field_1807174230?
-int Field_1851567903?
-int Field_262541874?
-int Field_1004847425?
 int Field_1658589318?
 int Field_2138095063?
 int Field_1066497781?
@@ -76,8 +62,6 @@ int Field_731664056?
 int Field_1813731286?
 int Field_1951484470?
 int Field_1920945990?
-int Field_1368512515?
-int Field_2001572246?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -169,20 +153,20 @@ $id$ID<32>
 
 LAYOUT 7C5C19F1
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178
-Field_1944523407_lang
-Field_172290952_lang
-Field_1474363347_lang
-$id$Field_643377850<32>
-Field_022818236<u8>
-Field_145902578<u8>
-Field_884228378<32>
-Field_746346335<32>
-Field_202761153<u8>
-Field_890092743<u8>
-Field_1807174230<u8>
-Field_1851567903<u8>
-Field_262541874<u8>
-Field_1004847425<u8>
+HordeSourceText_lang
+AllianceSourceText_lang
+TitleName_lang
+$id$ID<32>
+GarrTypeID<u8>
+GarrFollowerTypeID<u8>
+HordeCreatureID<32>
+AllianceCreatureID<32>
+HordeIconFileDataID<u8>
+AllianceIconFileDataID<u8>
+HordeGarrClassSpecID<u8>
+AllianceGarrClassSpecID<u8>
+Quality<u8>
+FollowerLevel<u8>
 Field_1658589318<u16>
 Field_2138095063<u16>
 Field_1066497781<8>
@@ -199,5 +183,5 @@ Field_731664056<u8>
 Field_1813731286<u32>
 Field_1951484470<u32>
 Field_1920945990<u8>
-Field_1368512515<u8>
-Field_2001572246<u8>
+Flags<u8>
+Gender<u8>

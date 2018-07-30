@@ -10,14 +10,6 @@ int Flags
 int FollowerClassLimit
 int GarrFollItemSetID
 int UiTextureAtlasMemberID
-locstring Field_1188022850_lang?
-locstring Field_577921910_lang?
-locstring Field_698836847_lang?
-int Field_1271104612?
-int Field_278612190?
-int Field_1857307150?
-int Field_392006238?
-int Field_1835572522?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -38,11 +30,11 @@ $id$ID<u32>
 
 LAYOUT 644E1AC4
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178
-Field_1188022850_lang
-Field_577921910_lang
-Field_698836847_lang
-$id$Field_1271104612<u32>
-Field_278612190<u16>
-Field_1857307150<u16>
-Field_392006238<u8>
-Field_1835572522<u8>
+ClassSpec_lang
+ClassSpec_Male_lang
+ClassSpec_Female_lang
+$id$ID<u32>
+UiTextureAtlasMemberID<u16>
+GarrFollItemSetID<u16>
+FollowerClassLimit<u8>
+Flags<u8>

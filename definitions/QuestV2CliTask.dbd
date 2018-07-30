@@ -29,29 +29,20 @@ int Field_1384206764?
 int Field_1469310973?
 int Field_1681981264?
 int Field_1871739164?
-int Field_1931767329?
 int Field_1932906175?
 int Field_2117192374?
 int Field_2211985194?
 int Field_2727228087?
-int Field_2792711813?
 int Field_2908119989?
 int Field_2993674258?
 int Field_3276042368?
 int Field_3315313174?
 int Field_3620721704?
 int Field_3753254511?
-int Field_3799979310?
-locstring Field_4013373207_lang?
 int Field_4146051830?
 int Field_4254090452?
 int Field_498969295?
 int Field_675357935?
-locstring Field_872425833_lang?
-int Field_059962822?
-locstring Field_645808592_lang?
-locstring Field_1011173150_lang?
-int Field_979290810?
 int Field_062142066?
 int Field_246261961?
 int Field_072893227?
@@ -71,7 +62,6 @@ int Field_1555039571?
 int Field_1959129566?
 int Field_1850832940?
 int Field_172423304?
-int Field_1990669642?
 
 LAYOUT 3F026A14
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26287
@@ -210,14 +200,14 @@ FiltCompletedQuest<32>[3]
 
 LAYOUT 4D000496
 BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
-Field_2792711813<64>
-Field_4013373207_lang
-Field_872425833_lang
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
 Field_675357935<32>
 Field_1469310973<16>
 Field_4254090452<16>
 Field_1871739164<16>
-$id$Field_1931767329<32>
+$id$ID<32>
 Field_2993674258<32>
 Field_2117192374<32>
 Field_2727228087<32>
@@ -233,14 +223,14 @@ Field_1136273850<32>
 Field_3315313174<32>
 Field_2211985194<32>
 Field_3753254511<32>
-Field_3799979310<32>[3]
+FiltCompletedQuest<32>[3]
 
 LAYOUT C0387D4E
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178
-Field_059962822<64>
-Field_645808592_lang
-Field_1011173150_lang
-$id$Field_979290810<u32>
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+$id$ID<u32>
 Field_062142066<u16>
 Field_246261961<u32>
 Field_072893227<u32>
@@ -260,4 +250,4 @@ Field_1555039571<32>
 Field_1959129566<16>
 Field_1850832940<u32>
 Field_172423304<32>
-Field_1990669642<u32>[3]
+FiltCompletedQuest<u32>[3]
