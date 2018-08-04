@@ -36,42 +36,6 @@ int HorizonAmbientColor
 float SunFogAngle
 int SunFogColor
 float Field_19051348?
-int Field_197424862?
-int Field_1117146672?
-int Field_1957128451?
-int Field_770166688?
-int Field_872001732?
-int Field_939634206?
-int Field_1075903802?
-int Field_451153985?
-int Field_1267755290?
-int Field_1087122887?
-int Field_373929172?
-int Field_955055932?
-int Field_796020579?
-int Field_900289568?
-int Field_2001781715?
-int Field_1781765886?
-int Field_1709799696?
-int Field_1058545745?
-int Field_1362816203?
-int Field_693313100?
-float Field_048263311?
-float Field_366097035?
-float Field_1089992980?
-float Field_564225037?
-float Field_710802069?
-float Field_876024758?
-float Field_980103675?
-float Field_818425912?
-int Field_591698217?
-int Field_1408002243?
-int Field_1349135733?
-int Field_1307790195?
-float Field_552550842?
-int Field_975722750?
-float Field_2037768787?
-int Field_1131810574?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -260,39 +224,39 @@ $noninline,relation$LightParamID<u16>
 LAYOUT E7CA3F85
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178, 8.0.1.27219
 $noninline,id$ID<32>
-$relation$Field_197424862<u16>
-Field_1117146672<u16>
-Field_1957128451<32>
-Field_770166688<32>
-Field_872001732<32>
-Field_939634206<32>
-Field_1075903802<32>
-Field_451153985<32>
-Field_1267755290<32>
-Field_1087122887<32>
-Field_373929172<32>
-Field_955055932<32>
-Field_796020579<32>
-Field_900289568<32>
-Field_2001781715<32>
-Field_1781765886<32>
-Field_1709799696<32>
-Field_1058545745<32>
-Field_1362816203<32>
-Field_693313100<32>
-Field_048263311
-Field_366097035
-Field_1089992980
-Field_564225037
-Field_710802069
-Field_876024758
-Field_980103675
-Field_818425912
-Field_591698217<u32>
-Field_1408002243<32>
-Field_1349135733<32>
-Field_1307790195<u32>
-Field_552550842
-Field_975722750<u32>
-Field_2037768787
-Field_1131810574<u32>
+$relation$LightParamID<u16>
+Time<u16>
+DirectColor<32>
+AmbientColor<32>
+SkyTopColor<32>
+SkyMiddleColor<32>
+SkyBand1Color<32>
+SkyBand2Color<32>
+SkySmogColor<32>
+SkyFogColor<32>
+SunColor<32>
+CloudSunColor<32>
+CloudEmissiveColor<32>
+CloudLayer1AmbientColor<32>
+CloudLayer2AmbientColor<32>
+OceanCloseColor<32>
+OceanFarColor<32>
+RiverCloseColor<32>
+RiverFarColor<32>
+ShadowOpacity<32>
+FogEnd
+FogScaler
+FogDensity
+FogHeight
+FogHeightScaler
+FogHeightDensity
+SunFogAngle
+CloudDensity
+ColorGradingFileDataID<u32>
+HorizonAmbientColor<32>
+GroundAmbientColor<32>
+EndFogColor<u32>
+EndFogColorDistance
+SunFogColor<u32>
+Field_19051348
+FogHeightColor<u32>
