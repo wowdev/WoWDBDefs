@@ -1,80 +1,57 @@
 COLUMNS
 int ID
 locstring Name_lang?
-int Field_2149342792?
-int Field_2648883694?
-int Field_2653650999?
-int Field_3466805358?
-int Field_402312216?
-int Field_465202428?
-int Field_1053376238?
-int Field_1532576006?
-locstring Field_1838711077_lang?
-int Field_1874725257?
-int Field_1905686843?
-int Field_1933042534?
-int Field_3219317051?
-int Field_3898499771?
-locstring Field_1071756936_lang?
-int Field_344859937?
-int Field_672795693?
-int Field_1932976220?
-int Field_164398671?
-int Field_808270932?
-int Field_1935083011?
-int Field_1053907683?
-locstring Field_539936571_lang?
-int Field_226340592?
-int Field_840028015?
-int Field_260209074?
-int Field_447437694?
-int Field_722818556?
-int Field_1844051531?
-int Field_1373243932?
+int<PvpTier::ID> PrevTier?
+int<PvpTier::ID> NextTier?
+int MinRating?
+int MaxRating?
+int<PVPBracketTypes::BracketID> BracketID?
+int Rank?
+int RankIcon?
 
 LAYOUT 070D6F9D
 BUILD 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
 Name_lang
-Field_3466805358<32>
-Field_2149342792<32>
-Field_2653650999<16>
-Field_465202428<16>
-$relation$Field_2648883694<8>
-Field_402312216<8>
+MinRating<32>
+MaxRating<32>
+PrevTier<16>
+NextTier<16>
+$relation$BracketID<8>
+Rank<8>
 
 LAYOUT 57A2CE7A
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-Field_1838711077_lang
-Field_1053376238<32>
-Field_3219317051<32>
-Field_1905686843<32>
-Field_1874725257<16>
-Field_3898499771<16>
-$relation$Field_1933042534<8>
-Field_1532576006<8>
+Name_lang
+MinRating<32>
+MaxRating<32>
+RankIcon<32>
+PrevTier<16>
+NextTier<16>
+$relation$BracketID<8>
+Rank<8>
 
 LAYOUT 031419E1
 BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
-Field_1071756936_lang
-Field_344859937<16>
-Field_672795693<16>
-Field_1932976220<32>
-Field_164398671<32>
-$relation$Field_808270932<8>
-Field_1935083011<8>
-Field_1053907683<32>
+Name_lang
+PrevTier<16>
+NextTier<16>
+MinRating<32>
+MaxRating<32>
+$relation$BracketID<8>
+Rank<8>
+RankIcon<32>
 
 LAYOUT 689983C8
 BUILD 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178, 8.0.1.27219
 $noninline,id$ID<32>
-Field_539936571_lang
-Field_226340592<16>
-Field_840028015<16>
-Field_260209074<32>
-Field_447437694<32>
-$relation$Field_722818556<8>
-Field_1844051531<8>
-Field_1373243932<32>
+Name_lang
+PrevTier<16>
+NextTier<16>
+MinRating<32>
+MaxRating<32>
+$relation$BracketID<8>
+Rank<8>
+RankIcon<32>
