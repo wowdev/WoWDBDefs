@@ -23,28 +23,6 @@ int RepairGroundFx
 int DoNotHighlight
 int HealEffect
 int HealEffectSpeed
-int Field_1223739298?
-int Field_1811979594?
-int Field_2053102413?
-int Field_262660641?
-int Field_386574869?
-int Field_1715850669?
-int Field_983993555?
-int Field_1048495907?
-int Field_1639174436?
-int Field_371401706?
-int Field_1340227118?
-int Field_810782199?
-int Field_1720993178?
-int Field_1655050907?
-int Field_440143965?
-int Field_1208939916?
-int Field_624790910?
-int Field_2106217340?
-int Field_853971437?
-int Field_609201335?
-int Field_2069839283?
-int Field_1104970106?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -149,25 +127,25 @@ State3NameSet<8>
 LAYOUT F245BA93
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178, 8.0.1.27219
 $noninline,id$ID<32>
-Field_1223739298<8>
-Field_1811979594<u8>
-Field_2053102413<u16>
-Field_262660641<8>
-Field_386574869<8>
-Field_1715850669<u8>
-Field_983993555<u16>
-Field_1048495907<8>
-Field_1639174436<8>
-Field_371401706<u8>
-Field_1340227118<u16>
-Field_810782199<u8>
-Field_1720993178<u8>
-Field_1655050907<u8>
-Field_440143965<u8>
-Field_1208939916<u16>
-Field_624790910<u8>
-Field_2106217340<u16>
-Field_853971437<8>
-Field_609201335<8>
-Field_2069839283<8>
-Field_1104970106<8>
+State0ImpactEffectDoodadSet<8>
+State0AmbientDoodadSet<u8>
+State1WMO<u16>
+State1DestructionDoodadSet<8>
+State1ImpactEffectDoodadSet<8>
+State1AmbientDoodadSet<u8>
+State2WMO<u16>
+State2DestructionDoodadSet<8>
+State2ImpactEffectDoodadSet<8>
+State2AmbientDoodadSet<u8>
+State3WMO<u16>
+State3InitDoodadSet<u8>
+State3AmbientDoodadSet<u8>
+EjectDirection<u8>
+DoNotHighlight<u8>
+State0WMO<u16>
+HealEffect<u8>
+HealEffectSpeed<u16>
+State0NameSet<8>
+State1NameSet<8>
+State2NameSet<8>
+State3NameSet<8>
