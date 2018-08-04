@@ -61,74 +61,7 @@ int<AnimKit::ID> VehicleExitAnimKitID
 int CameraModeID
 int FlagsC
 int<FileData::ID> UiSkinFileDataID
-float AttachmentOffsetX
-float AttachmentOffsetY
-float AttachmentOffsetZ
 int UiSkin
-float CameraOffsetX
-float CameraOffsetY
-float CameraOffsetZ
-float Field_232420222?
-float Field_1905230915?
-int Field_1142999849?
-int Field_1040616595?
-int Field_620744028?
-int Field_1489215088?
-float Field_841128422?
-float Field_2115316732?
-float Field_1430738238?
-float Field_1684235794?
-float Field_608236826?
-float Field_183226221?
-float Field_1957638249?
-int Field_1135150112?
-int Field_1566104791?
-int Field_2133159454?
-int Field_1062248482?
-int Field_1487261183?
-int Field_1435406699?
-float Field_1455491024?
-float Field_980573106?
-float Field_732617471?
-float Field_1451462900?
-float Field_793359381?
-float Field_1727600800?
-float Field_542594836?
-int Field_389277706?
-int Field_726815836?
-int Field_452558064?
-int Field_1241178517?
-int Field_1634837275?
-int Field_553980080?
-int Field_682693539?
-int Field_1178240579?
-int Field_1350288764?
-int Field_465834834?
-float Field_1984461910?
-float Field_902213479?
-float Field_1524798402?
-float Field_1893308211?
-float Field_1714593342?
-int Field_1937947694?
-int Field_1650861936?
-int Field_739674084?
-int Field_2078451945?
-float Field_1449547970?
-float Field_1092748112?
-float Field_727182110?
-float Field_1875085423?
-float Field_1443057119?
-float Field_1166440167?
-float Field_1817887626?
-float Field_1437119901?
-float Field_1673448155?
-int Field_018692224?
-int Field_1059398297?
-int Field_2013363561?
-int Field_1909236014?
-int Field_872611341?
-int Field_1637744738?
-int Field_512049281?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -263,9 +196,7 @@ BUILD 4.0.0.11792
 $id$ID<32>
 Flags<32>
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 EnterPreDelay
 EnterSpeed
 EnterGravity
@@ -310,9 +241,7 @@ CameraEnteringDelay
 CameraEnteringDuration
 CameraExitingDelay
 CameraExitingDuration
-CameraOffsetX
-CameraOffsetY
-CameraOffsetZ
+CameraOffset[3]
 CameraPosChaseRate
 CameraFacingChaseRate
 CameraEnteringZoom
@@ -329,9 +258,7 @@ BUILD 3.0.1.8303
 $id$ID<32>
 Flags<32>
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 EnterPreDelay
 EnterSpeed
 EnterGravity
@@ -360,9 +287,7 @@ BUILD 3.0.2.8885, 3.0.8.9328
 $id$ID<32>
 Flags<32>
 AttachmentID<32>
-AttachmentOffsetX
-AttachmentOffsetY
-AttachmentOffsetZ
+AttachmentOffset[3]
 EnterPreDelay
 EnterSpeed
 EnterGravity
@@ -472,64 +397,64 @@ ExitUISoundID<32>
 LAYOUT 7AB200FA
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178, 8.0.1.27219
 $noninline,id$ID<32>
-Field_232420222[3]
-Field_1905230915[3]
-Field_1142999849<32>
-Field_1040616595<32>
-Field_620744028<32>
-Field_1489215088<8>
-Field_841128422
-Field_2115316732
-Field_1430738238
-Field_1684235794
-Field_608236826
-Field_183226221
-Field_1957638249
-Field_1135150112<32>
-Field_1566104791<32>
-Field_2133159454<32>
-Field_1062248482<32>
-Field_1487261183<32>
-Field_1435406699<32>
-Field_1455491024
-Field_980573106
-Field_732617471
-Field_1451462900
-Field_793359381
-Field_1727600800
-Field_542594836
-Field_389277706<32>
-Field_726815836<32>
-Field_452558064<32>
-Field_1241178517<16>
-Field_1634837275<8>
-Field_553980080<16>
-Field_682693539<8>
-Field_1178240579<16>
-Field_1350288764<8>
-Field_465834834<8>
-Field_1984461910
-Field_902213479
-Field_1524798402
-Field_1893308211
-Field_1714593342
-Field_1937947694<8>
-Field_1650861936<u32>
-Field_739674084<u32>
-Field_2078451945<32>
-Field_1449547970
-Field_1092748112
-Field_727182110
-Field_1875085423
-Field_1443057119
-Field_1166440167
-Field_1817887626
-Field_1437119901
-Field_1673448155
-Field_018692224<16>
-Field_1059398297<16>
-Field_2013363561<16>
-Field_1909236014<16>
-Field_872611341<16>
-Field_1637744738<16>
-Field_512049281<16>
+AttachmentOffset[3]
+CameraOffset[3]
+Flags<32>
+FlagsB<32>
+FlagsC<32>
+AttachmentID<8>
+EnterPreDelay
+EnterSpeed
+EnterGravity
+EnterMinDuration
+EnterMaxDuration
+EnterMinArcHeight
+EnterMaxArcHeight
+EnterAnimStart<32>
+EnterAnimLoop<32>
+RideAnimStart<32>
+RideAnimLoop<32>
+RideUpperAnimStart<32>
+RideUpperAnimLoop<32>
+ExitPreDelay
+ExitSpeed
+ExitGravity
+ExitMinDuration
+ExitMaxDuration
+ExitMinArcHeight
+ExitMaxArcHeight
+ExitAnimStart<32>
+ExitAnimLoop<32>
+ExitAnimEnd<32>
+VehicleEnterAnim<16>
+VehicleEnterAnimBone<8>
+VehicleExitAnim<16>
+VehicleExitAnimBone<8>
+VehicleRideAnimLoop<16>
+VehicleRideAnimLoopBone<8>
+PassengerAttachmentID<8>
+PassengerYaw
+PassengerPitch
+PassengerRoll
+VehicleEnterAnimDelay
+VehicleExitAnimDelay
+VehicleAbilityDisplay<8>
+EnterUISoundID<u32>
+ExitUISoundID<u32>
+UiSkinFileDataID<32>
+CameraEnteringDelay
+CameraEnteringDuration
+CameraExitingDelay
+CameraExitingDuration
+CameraPosChaseRate
+CameraFacingChaseRate
+CameraEnteringZoom
+CameraSeatZoomMin
+CameraSeatZoomMax
+EnterAnimKitID<16>
+RideAnimKitID<16>
+ExitAnimKitID<16>
+VehicleEnterAnimKitID<16>
+VehicleRideAnimKitID<16>
+VehicleExitAnimKitID<16>
+CameraModeID<16>
