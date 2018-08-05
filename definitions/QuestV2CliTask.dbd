@@ -24,25 +24,14 @@ int StartItem
 int UniqueBitFlag
 int WorldStateExpressionID
 int ContentTuningID
-int Field_062142066?
-int Field_246261961?
 int Field_072893227?
-int Field_194364272?
 int Field_536282793?
 int Field_1812140884?
 int Field_951364210?
-int Field_1584998981?
 int Field_2027020682?
 int Field_800870143?
-int Field_783989315?
-int Field_1176949993?
-int Field_952796611?
 int Field_1901842090?
 int Field_346428951?
-int Field_1555039571?
-int Field_1959129566?
-int Field_1850832940?
-int Field_172423304?
 
 LAYOUT 3F026A14
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26287
@@ -212,23 +201,23 @@ FiltRaces<64>
 QuestTitle_lang
 BulletText_lang
 $id$ID<u32>
-Field_062142066<u16>
-Field_246261961<u32>
+UniqueBitFlag<u16>
+ConditionID<u32>
 Field_072893227<u32>
-Field_194364272<16>
+FiltClasses<16>
 Field_536282793<u32>
 Field_1812140884<u32>
 Field_951364210<u32>
-Field_1584998981<u32>
+FiltMaxLevel<u32>
 Field_2027020682<u32>
 Field_800870143<u32>
-Field_783989315<u32>
-Field_1176949993<u32>
-Field_952796611<u32>
+FiltMinLevel<u32>
+FiltMinSkillID<u32>
+FiltMinSkillValue<u32>
 Field_1901842090<u32>
 Field_346428951<u32>
-Field_1555039571<32>
-Field_1959129566<16>
-Field_1850832940<u32>
-Field_172423304<32>
+StartItem<32>
+WorldStateExpressionID<16>
+QuestInfoID<u32>
+ContentTuningID<32>
 FiltCompletedQuest<u32>[3]
