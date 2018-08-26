@@ -38,20 +38,6 @@ locstring PvpLongDescription_lang
 float CorpseX
 float CorpseY
 int ZmpFileDataID
-int Field_2090129712?
-int Field_1778819221?
-int Field_399808840?
-int Field_546616973?
-int Field_539990556?
-int Field_1045699054?
-int Field_1018945417?
-int Field_211416088?
-int Field_1681684665?
-float Field_1881958792?
-int Field_1538714857?
-int Field_1857385420?
-int Field_163350789?
-int Field_775554925?
 
 LAYOUT F568DF12
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -359,18 +345,18 @@ MapDescription1_lang
 PvpShortDescription_lang
 PvpLongDescription_lang
 Corpse[2]
-Field_2090129712<u8>
-Field_1778819221<8>
-Field_399808840<u8>
-Field_546616973<u16>
-Field_539990556<16>
-Field_1045699054<16>
-Field_1018945417<16>
-Field_211416088<16>
-Field_1681684665<u8>
-Field_1881958792
-Field_1538714857<16>
-Field_1857385420<u8>
-Field_163350789<16>
-Field_775554925<32>
+MapType<u8>
+InstanceType<8>
+ExpansionID<u8>
+AreaTableID<u16>
+LoadingScreenID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+TimeOffset<u8>
+MinimapIconScale
+CorpseMapID<16>
+MaxPlayers<u8>
+WindSettingsID<16>
+ZmpFileDataID<32>
 Flags<32>[2]
