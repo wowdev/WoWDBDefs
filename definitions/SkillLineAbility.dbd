@@ -19,17 +19,6 @@ int ExcludeClass
 int SupercededBySpell
 int CharacterPoints
 int Abandonable
-int Field_366225498?
-int Field_1655880674?
-int Field_1996185136?
-int Field_1050310833?
-int Field_717866732?
-int Field_155152069?
-int Field_488054273?
-int Field_422154495?
-int Field_545445438?
-int Field_1645237729?
-int Field_1470672893?
 int Field_307857935?
 
 BUILD 6.0.1.18179
@@ -166,15 +155,15 @@ BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.268
 RaceMask<64>
 $id$ID<32>
 $relation$SkillLine<16>
-Field_366225498<32>
-Field_1655880674<16>
-Field_1996185136<32>
-Field_1050310833<32>
-Field_717866732<8>
-Field_155152069<16>
-Field_488054273<16>
-Field_422154495<8>
-Field_545445438<8>
-Field_1645237729<16>
-Field_1470672893<16>
+Spell<32>
+MinSkillLineRank<16>
+ClassMask<32>
+SupercedesSpell<32>
+AcquireMethod<8>
+TrivialSkillLineRankHigh<16>
+TrivialSkillLineRankLow<16>
+Flags<8>
+NumSkillUps<8>
+UniqueBit<16>
+TradeSkillCategoryID<16>
 Field_307857935<16>
