@@ -24,6 +24,9 @@ namespace DBDefsMerge
             var firstDirFiles = new DirectoryInfo(firstDir).GetFiles().Select(o => o.Name).ToList();
             var secondDirFiles = new DirectoryInfo(secondDir).GetFiles().Select(o => o.Name).ToList();
 
+            var firstDirFilesLC = new DirectoryInfo(firstDir).GetFiles().Select(o => o.Name.ToLower()).ToList();
+            var secondDirFilesLC = new DirectoryInfo(secondDir).GetFiles().Select(o => o.Name.ToLower()).ToList();
+
             var newDefinitions = new Dictionary<string, DBDefinition>();
 
             var reader = new DBDReader();
@@ -31,7 +34,7 @@ namespace DBDefsMerge
             foreach (var file in secondDirFiles)
             {
                 var dbName = Path.GetFileNameWithoutExtension(file);
-                if (firstDirFiles.Contains(file))
+                if (firstDirFilesLC.Contains(file.ToLower()))
                 {
                     // Both directories have this file. Merge!
                     var firstFile = reader.Read(Path.Combine(firstDir, file));
@@ -348,7 +351,7 @@ namespace DBDefsMerge
 
             foreach(var file in firstDirFiles)
             {
-                if (!secondDirFiles.Contains(file))
+                if (!secondDirFilesLC.Contains(file.ToLower()))
                 {
                     // Only 1st dir has this file, use that
                     newDefinitions.Add(Path.GetFileNameWithoutExtension(file), reader.Read(Path.Combine(firstDir, file)));
