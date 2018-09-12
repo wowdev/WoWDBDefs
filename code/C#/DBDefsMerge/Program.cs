@@ -174,8 +174,6 @@ namespace DBDefsMerge
                         if (!foundCol)
                         {
                             // Column was not found, add it
-                            Console.WriteLine(dbName + "::" + columnDefinition2.Key + " was not found found in first file!");
-
                             newDefinition.columnDefinitions.Add(columnDefinition2.Key, columnDefinition2.Value);
                         }
                     }
@@ -410,6 +408,28 @@ namespace DBDefsMerge
                                 definitionCopy.versionDefinitions = versionDefinitionCopy.ToArray();
                             }
                         }
+                    }
+                }
+
+                // Run through column definitions to see if there's any unused columns 
+                var columnDefinitionsCopy = definitionCopy.columnDefinitions.ToList();
+                foreach (var columnDefinition in columnDefinitionsCopy)
+                {
+                    var columnUsed = false;
+                    foreach(var versionDefinition in definitionCopy.versionDefinitions)
+                    {
+                        foreach(var definition in versionDefinition.definitions)
+                        {
+                            if(definition.name == columnDefinition.Key)
+                            {
+                                columnUsed = true;
+                            }
+                        }
+                    }
+
+                    if (!columnUsed)
+                    {
+                        definitionCopy.columnDefinitions.Remove(columnDefinition.Key);
                     }
                 }
 
