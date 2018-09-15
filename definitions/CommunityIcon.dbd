@@ -1,5 +1,5 @@
 COLUMNS
-int IconFileDataID?
+int<FileData::ID> IconFileDataID?
 int ID?
 int OrderIndex?
 

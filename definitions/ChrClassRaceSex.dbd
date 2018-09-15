@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ClassID
+int<ChrClasses::ID> ClassID
 int Flags
 int RaceID
 int Sex

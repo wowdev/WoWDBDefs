@@ -1,19 +1,19 @@
 COLUMNS
 int ID
-int AreaTableID
+int<AreaTable::ID> AreaTableID
 locstring Description_lang
-int DungeonMapID
-int LfgDungeonID
-int PlayerConditionID
-int QuestID
-int RewardItemID
+int<DungeonMap::ID> DungeonMapID
+int<LFGDungeons::ID> LfgDungeonID
+int<PlayerCondition::ID> PlayerConditionID
+int<QuestV2::ID> QuestID
+int<Item::ID> RewardItemID
 locstring Title_lang
 int Type
-int UiTextureAtlasMemberID
-int UiTextureKitID
-int WorldMapAreaID
+int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
+int<UiTextureKit::ID> UiTextureKitID
+int<WorldMapArea::ID> WorldMapAreaID
 float WorldPosition
-int MapID
+int<Map::ID> MapID
 
 LAYOUT 0C288A82, A454AF76
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297

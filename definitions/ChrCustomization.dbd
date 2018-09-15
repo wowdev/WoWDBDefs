@@ -4,7 +4,7 @@ int BaseSection
 int ComponentSection
 int Flags
 locstring Name_lang
-int RaceID
+int<ChrRaces::ID> RaceID
 int Sex
 int UiCustomizationType
 

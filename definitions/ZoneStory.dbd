@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int DisplayAchievementID
-int DisplayWorldMapAreaID
-int PlayerFactionGroupID
-int PlayerWorldMapAreaID
+int<Achievement::ID> DisplayAchievementID
+int<WorldMapArea::ID> DisplayWorldMapAreaID
+int<FactionGroup::ID> PlayerFactionGroupID
+int<WorldMapArea::ID> PlayerWorldMapAreaID
 int<UiMap::ID> DisplayUIMapID?
 int<UiMap::ID> PlayerUIMapID?
 

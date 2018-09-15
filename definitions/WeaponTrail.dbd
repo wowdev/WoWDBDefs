@@ -4,10 +4,10 @@ int Field_3757773438?
 float Field_4205570622?
 float Field_2343723469?
 float Field_477369767?
-int FileDataID
+int<FileData::ID> FileDataID
 float Pitch
 float Roll
-int TextureFileDataID
+int<FileData::ID> TextureFileDataID
 float TextureScaleU
 float TextureScaleV
 float TextureScrollRateU

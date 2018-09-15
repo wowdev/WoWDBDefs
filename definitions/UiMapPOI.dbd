@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int ContinentID
+int<Map::ID> ContinentID
 int Flags
 int PoiData
 int PoiDataType
-int UiTextureAtlasMemberID
+int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 float WorldLoc
 
 LAYOUT 559E1F11, 457C62A9

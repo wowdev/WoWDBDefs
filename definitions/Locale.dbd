@@ -2,7 +2,7 @@ COLUMNS
 int Field_767576318?
 int ID
 int ClientDisplayExpansion
-int FontFileDataID
+int<FileData::ID> FontFileDataID
 int Secondary
 int WowLocale
 

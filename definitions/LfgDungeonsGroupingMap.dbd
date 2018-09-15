@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int LfgDungeonsID
-int Random_lfgDungeonsID
+int<LFGDungeons::ID> LfgDungeonsID
+int<LFGDungeons::ID> Random_lfgDungeonsID
 int Group_ID
 
 BUILD 6.0.1.18179

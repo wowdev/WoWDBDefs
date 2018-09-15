@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int ChildUiMapID
+int<UiMap::ID> ChildUiMapID
 int OrderIndex
-int ParentUiMapID
+int<UiMap::ID> ParentUiMapID
 float UiMax
 float UiMin
 

@@ -1,8 +1,8 @@
 COLUMNS
 int ID?
-int PlayerConditionID
+int<PlayerCondition::ID> PlayerConditionID
 int RoleType
-int LfgDungeonsID
+int<LFGDungeons::ID> LfgDungeonsID
 int Field_2080179608?
 int Field_4291932301?
 int Field_1731074343?

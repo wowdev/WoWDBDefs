@@ -15,7 +15,7 @@ int Flags
 int<FileData::ID> IconFileDataID
 locstring Gametype_lang
 locstring LongDescription_lang
-int Required_Player_Condition_ID
+int<PlayerCondition::ID> Required_Player_Condition_ID
 locstring ShortDescription_lang
 
 BUILD 6.0.1.18179

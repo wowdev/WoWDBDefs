@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int MapID
+int<Map::ID> MapID
 float Pos
 
 LAYOUT EFD540EF, F552D58F

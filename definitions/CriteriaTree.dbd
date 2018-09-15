@@ -3,7 +3,7 @@ int ID
 int<Criteria::ID> CriteriaID
 int Amount
 int Operator
-int Parent
+int<CriteriaTree::ID> Parent
 int Flags
 locstring Description_lang
 int OrderIndex

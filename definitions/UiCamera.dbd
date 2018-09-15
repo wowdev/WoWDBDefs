@@ -7,7 +7,7 @@ int Flags
 float LookAt
 string Name
 float Pos
-int UiCameraTypeID
+int<UiCameraType::ID> UiCameraTypeID
 float Up
 
 LAYOUT CA6C98D4, 6ED36760

@@ -35,9 +35,6 @@ int PopupBgTextureFileID
 int Required_player_condition_ID
 int RewardsBgTextureFileID
 int Difficulty
-locstring Field_1838711077_lang
-locstring Field_620273216_lang
-locstring Field_1444946392_lang
 int Field_211656515
 int Field_1991415839
 int Field_1067035029
@@ -69,8 +66,6 @@ int Field_1009787272
 int Field_865896076
 int Field_539067456
 int Field_079446878
-locstring Field_436051185_lang
-locstring Field_632441451_lang
 int Field_641997719
 float Field_1674622191
 int Field_897486118
@@ -102,7 +97,6 @@ int Field_1139740022
 int Field_1687076210
 int Field_1146523320
 int Field_405916841
-locstring Field_1053376238_lang?
 int Field_1075352947?
 int Field_1334787408?
 int Field_1336462998?
@@ -188,8 +182,8 @@ MentorItemLevel<32>
 LAYOUT F02081A0
 BUILD 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
 $noninline,id$ID<32>
-Field_436051185_lang
-Field_632441451_lang
+Name_lang
+Description_lang
 Field_641997719<u32>
 Field_1674622191
 Field_897486118<u16>
@@ -336,8 +330,8 @@ PopupBgTextureFileID<32>
 LAYOUT FA779A47
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-Field_1838711077_lang
-Field_1053376238_lang
+Name_lang
+Description_lang
 Field_3219317051<32>
 Field_1905686843
 Field_1874725257<u16>
@@ -373,8 +367,8 @@ Field_19051348<u32>
 LAYOUT D9B678AD
 BUILD 8.0.1.26788, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27219, 8.0.1.27291, 8.0.1.27326, 8.0.1.27353, 8.0.1.27355, 8.0.1.27356, 8.0.1.27366, 8.0.1.27377, 8.0.1.27404, 8.0.1.27547, 8.0.1.27602
 $noninline,id$ID<32>
-Field_620273216_lang
-Field_1444946392_lang
+Name_lang
+Description_lang
 Field_211656515<u8>
 Field_1991415839<u16>
 Field_1067035029<u8>

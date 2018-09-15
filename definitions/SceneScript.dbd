@@ -2,8 +2,8 @@ COLUMNS
 string Name?
 string Script?
 int ID
-int FirstSceneScriptID
-int NextSceneScriptID
+int<SceneScript::ID> FirstSceneScriptID
+int<SceneScript::ID> NextSceneScriptID
 
 BUILD 6.0.1.18179
 $id$ID<32>

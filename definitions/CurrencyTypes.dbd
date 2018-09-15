@@ -10,8 +10,8 @@ int MaxEarnablePerWeek
 int Flags
 int Quality
 locstring Description_lang
-int InventoryIconFileID
-int ItemID
+int<FileData::ID> InventoryIconFileID
+int<Item::ID> ItemID
 int BitIndex
 int Field_1560101015?
 

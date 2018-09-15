@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ChrClassID
+int<ChrClasses::ID> ChrClassID
 int Gender
 locstring Name_lang
 

@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 locstring ContainerDescription_lang
-int ContainerIconID
+int<FileData::ID> ContainerIconID
 locstring ContainerName_lang
 int ContainerQuality
-int CurrencyTypeID
+int<CurrencyTypes::ID> CurrencyTypeID
 int MaxAmount
 int MinAmount
 int Field_402312216?

@@ -1,5 +1,5 @@
 COLUMNS
-int ID
+int<FileData::ID> ID
 string FilePath
 
 BUILD 6.0.1.18179

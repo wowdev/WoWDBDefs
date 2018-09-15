@@ -4,7 +4,7 @@ int PathID
 float Locx
 float Locy
 int LegIndex
-int LoadingScreenID
+int<LoadingScreens::ID> LoadingScreenID
 int Field_1175385270?
 int Field_2139820712?
 int Field_149605623?

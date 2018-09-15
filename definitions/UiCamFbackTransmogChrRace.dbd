@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int ChrRaceID
+int<ChrRaces::ID> ChrRaceID
 int Gender
 int InventoryType
-int UiCameraID
+int<UiCamera::ID> UiCameraID
 int Variation
 
 LAYOUT 9FB4CC78, 5A44EF5C

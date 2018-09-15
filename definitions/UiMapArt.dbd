@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int HighlightFileDataID
+int<FileData::ID> HighlightFileDataID
 int UiMapArtStyleID
 int Field_245529414?
 

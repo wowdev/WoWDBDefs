@@ -1,5 +1,5 @@
 COLUMNS
-int FileDataID
+int<FileData::ID> FileDataID
 int Flags
 int LodCount
 int ModelResourcesID
