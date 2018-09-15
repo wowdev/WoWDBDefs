@@ -35,99 +35,6 @@ int PopupBgTextureFileID
 int Required_player_condition_ID
 int RewardsBgTextureFileID
 int Difficulty
-int Field_211656515
-int Field_1991415839
-int Field_1067035029
-int Field_1577725214
-int Field_1157202589
-int Field_002314321
-int Field_896604598
-int Field_272263742
-int Field_411966047
-int Field_565158241
-int Field_1278766102
-float Field_1750394602
-int Field_286483858
-int Field_269200870
-int Field_1021642043
-int Field_484575109
-int Field_382430116
-int Field_2119637542
-int Field_1834978594
-int Field_1194287631
-int Field_1314227455
-int Field_1411566199
-int Field_1157731921
-int Field_233193806
-int Field_1265928186
-int Field_221427292
-int Field_1479787955
-int Field_1009787272
-int Field_865896076
-int Field_539067456
-int Field_079446878
-int Field_641997719
-float Field_1674622191
-int Field_897486118
-int Field_1711727662
-int Field_1324742165
-int Field_703220931
-int Field_2129000198
-int Field_2100854076
-int Field_1542645716
-int Field_055089993
-int Field_1515190665
-int Field_1826482563
-int Field_129901937
-int Field_1099941552
-int Field_815520322
-int Field_2107119120
-int Field_899489427
-int Field_2147407981
-int Field_701692648
-int Field_1586119933
-int Field_1438317448
-int Field_857441885
-int Field_1449291774
-int Field_1720646162
-int Field_667170985
-int Field_1875424473
-int Field_206772853
-int Field_1139740022
-int Field_1687076210
-int Field_1146523320
-int Field_405916841
-int Field_1075352947?
-int Field_1334787408?
-int Field_1336462998?
-int Field_1367035623?
-int Field_1532576006?
-int Field_1555716787?
-int Field_1606565291?
-int Field_1678764757?
-int Field_1778117193?
-int Field_1809580897?
-int Field_1874725257?
-int Field_19051348?
-float Field_1905686843?
-int Field_1933042534?
-int Field_2390938800?
-int Field_239910350?
-int Field_242207475?
-int Field_2633153277?
-int Field_2699733778?
-int Field_2715635810?
-int Field_3219317051?
-int Field_3319152767?
-int Field_3438058308?
-int Field_3479798075?
-int Field_383478397?
-int Field_3898499771?
-int Field_3956182989?
-int Field_4083046615?
-int Field_737839365?
-int Field_943015025?
-int Field_997989291?
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -184,37 +91,37 @@ BUILD 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-Field_641997719<u32>
-Field_1674622191
-Field_897486118<u16>
-Field_1711727662<u16>
-Field_1324742165<16>
-Field_703220931<u16>
-Field_2129000198<u16>
-Field_2100854076<u16>
-Field_1542645716<u16>
-Field_055089993<u16>
-Field_1515190665<u16>
-Field_1826482563<u8>
-Field_129901937<u8>
-Field_1099941552<u8>
-Field_815520322<u8>
-Field_2107119120<u8>
-Field_899489427<8>
-Field_2147407981<u8>
-Field_701692648<u8>
-Field_1586119933<u8>
-Field_1438317448<u8>
-Field_857441885<u8>
-Field_1449291774<u8>
-Field_1720646162<u8>
-Field_667170985<u8>
-Field_1875424473<u8>
-Field_206772853<u8>
-Field_1139740022<u8>
-Field_1687076210<32>
-Field_1146523320<32>
-Field_405916841<32>
+Flags<u32>
+MinGear
+MaxLevel<u16>
+Target_level_max<u16>
+MapID<16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+Required_player_condition_ID<u16>
+MinLevel<u8>
+Target_level<u8>
+Target_level_min<u8>
+DifficultyID<u8>
+TypeID<u8>
+Faction<8>
+ExpansionLevel<u8>
+Order_index<u8>
+Group_ID<u8>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Subtype<u8>
+MentorCharLevel<u8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
 
 LAYOUT 99DD60ED
 BUILD 8.0.1.26287
@@ -332,71 +239,71 @@ BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.267
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-Field_3219317051<32>
-Field_1905686843
-Field_1874725257<u16>
-Field_3898499771<16>
-Field_1933042534<u16>
-Field_1532576006<u16>
-Field_1334787408<u16>
-Field_4083046615<u16>
-Field_1336462998<u16>
-Field_2699733778<u16>
-Field_1367035623<u8>
-Field_3956182989<u8>
-Field_2715635810<u8>
-Field_242207475<8>
-Field_737839365<u8>
-Field_383478397<u8>
-Field_2633153277<u8>
-Field_1555716787<u8>
-Field_1778117193<u8>
-Field_943015025<u8>
-Field_2390938800<u8>
-Field_1075352947<u8>
-Field_239910350<u8>
-Field_3319152767<u8>
-Field_1678764757<u8>
-Field_1809580897<u8>
-Field_997989291<u8>
-Field_3438058308<32>
-Field_3479798075<32>
-Field_1606565291<32>
-Field_19051348<u32>
+Flags<32>
+MinGear
+MaxLevel<u16>
+MapID<16>
+Target_level_max<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MinLevel<u8>
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+ExpansionLevel<u8>
+DifficultyID<u8>
+Group_ID<u8>
+Order_index<u8>
+Target_level<u8>
+Target_level_min<u8>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+MentorCharLevel<u8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+Required_player_condition_ID<u32>
 
 LAYOUT D9B678AD
 BUILD 8.0.1.26788, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27219, 8.0.1.27291, 8.0.1.27326, 8.0.1.27353, 8.0.1.27355, 8.0.1.27356, 8.0.1.27366, 8.0.1.27377, 8.0.1.27404, 8.0.1.27547, 8.0.1.27602
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-Field_211656515<u8>
-Field_1991415839<u16>
-Field_1067035029<u8>
-Field_1577725214<u8>
-Field_1157202589<8>
-Field_002314321<32>
-Field_896604598<32>
-Field_272263742<32>
-Field_411966047<u8>
-Field_565158241<16>
-Field_1278766102<u8>
-Field_1750394602
-Field_286483858<u8>
-Field_269200870<u8>
-Field_1021642043<u32>
-Field_484575109<u8>
-Field_382430116<u8>
-Field_2119637542<u16>
-Field_1834978594<u16>
-Field_1194287631<u16>
-Field_1314227455<u16>
-Field_1411566199<u8>
-Field_1157731921<u8>
-Field_233193806<u8>
-Field_1265928186<u8>
-Field_221427292<u8>
-Field_1479787955<u8>
-Field_1009787272<u16>
-Field_865896076<u16>
-Field_539067456<u8>
-Field_079446878<32>[2]
+MinLevel<u8>
+MaxLevel<u16>
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
+MinGear
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
+Target_level<u8>
+Target_level_min<u8>
+Target_level_max<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MentorCharLevel<u8>
+Flags<32>[2]
