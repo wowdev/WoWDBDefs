@@ -1,18 +1,18 @@
 COLUMNS
 int ID
-int BkgFileDataID
+int<FileData::ID> BkgFileDataID
 int BountyDisplayLocation
-int BountySetID
+int<BountySet::ID> BountySetID
 int Flags
 int HelpTextPosition
 int LevelRangeMax
 int LevelRangeMin
 locstring Name_lang
-int ParentUiMapID
+int<UiMap::ID> ParentUiMapID
 int System
 int Type
-int VisibilityPlayerConditionID
-int BkgAtlasID
+int<PlayerCondition::ID> VisibilityPlayerConditionID
+int<UiTextureAtlasElement::ID> BkgAtlasID
 
 LAYOUT 2C161494
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367

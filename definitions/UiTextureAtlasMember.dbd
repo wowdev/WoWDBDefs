@@ -6,9 +6,9 @@ int CommittedLeft
 string CommittedName
 int CommittedRight
 int CommittedTop
-int UiTextureAtlasID
-int UiCanvasID
-int UiTextureAtlasElementID
+int<UiTextureAtlas::ID> UiTextureAtlasID
+int<UiCanvas::ID> UiCanvasID
+int<UiTextureAtlasElement::ID> UiTextureAtlasElementID
 
 BUILD 6.0.1.18179
 $id$ID<32>
