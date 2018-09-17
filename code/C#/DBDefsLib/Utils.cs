@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using static DBDefsLib.Structs;
+using System.Linq;
 
 namespace DBDefsLib
 {
@@ -15,6 +17,45 @@ namespace DBDefsLib
         public static string BuildToString(Build build)
         {
             return build.ToString();
+        }
+        
+        public static bool GetVersionDefinitionByLayoutHash(DBDefinition definition, string layoutHash, out VersionDefinitions? versionToUse)
+        {
+            foreach(var versionDefinition in definition.versionDefinitions)
+            {
+                if (versionDefinition.layoutHashes.Contains(layoutHash))
+                {
+                    versionToUse = versionDefinition;
+                    return true;
+                }
+            }
+
+            versionToUse = null;
+            return false;
+        }
+
+        public static bool GetVersionDefinitionByBuild(DBDefinition definition, Build build, out VersionDefinitions? versionToUse)
+        {
+            foreach (var versionDefinition in definition.versionDefinitions)
+            {
+                if (versionDefinition.builds.Contains(build))
+                {
+                    versionToUse = versionDefinition;
+                    return true;
+                }
+
+                foreach(var range in versionDefinition.buildRanges)
+                {
+                    if (range.Contains(build))
+                    {
+                        versionToUse = versionDefinition;
+                        return true;
+                    }
+                }
+            }
+
+            versionToUse = null;
+            return false;
         }
 
         public static string NormalizeColumn(string col, bool fixFirst = true)
