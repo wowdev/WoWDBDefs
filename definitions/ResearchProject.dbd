@@ -9,12 +9,6 @@ int NumSockets
 string Texture
 int RequiredWeight
 int TextureFileID
-int Field_215447282?
-int Field_720304804?
-int Field_944104372?
-int Field_1916209075?
-int Field_2032980834?
-int Field_580099054?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -44,9 +38,9 @@ BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.268
 Name_lang
 Description_lang
 $id$ID<32>
-Field_215447282<u8>
-Field_720304804<32>
-Field_944104372<u16>
-Field_1916209075<u8>
-Field_2032980834<32>
-Field_580099054<u32>
+Rarity<u8>
+SpellID<32>
+ResearchBranchID<u16>
+NumSockets<u8>
+TextureFileID<32>
+RequiredWeight<u32>
