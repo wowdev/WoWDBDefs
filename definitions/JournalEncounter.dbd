@@ -12,13 +12,6 @@ locstring Description_lang
 int Flags
 int MapDisplayConditionID
 int UiMapID
-int Field_1576144794?
-int Field_583344701?
-int Field_1785929303?
-int Field_1861729112?
-int Field_1454116163?
-int Field_869823054?
-int Field_1830337902?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -83,10 +76,10 @@ $noninline,id$ID<32>
 Name_lang
 Description_lang
 Map[2]
-Field_1576144794<u16>
-Field_583344701<u32>
-Field_1785929303<u16>
-Field_1861729112<u16>
-Field_1454116163<u32>
-Field_869823054<u8>
-Field_1830337902<8>
+JournalInstanceID<u16>
+OrderIndex<u32>
+FirstSectionID<u16>
+UiMapID<u16>
+MapDisplayConditionID<u32>
+Flags<u8>
+DifficultyMask<8>
