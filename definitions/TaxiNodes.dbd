@@ -15,7 +15,6 @@ int UiTextureKitID
 float X
 float Y
 float Z
-int Field_1138164662?
 int MinimapAtlasMemberID
 int VisibilityConditionID
 
@@ -108,7 +107,7 @@ Flags<u8>
 UiTextureKitID<32>
 Facing
 SpecialIconConditionID<u32>
-Field_1138164662<u32>
+VisibilityConditionID<u32>
 MountCreatureID<32>[2]
 
 LAYOUT 179AF3CF

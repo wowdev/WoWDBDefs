@@ -35,7 +35,6 @@ int GroundAmbientColor
 int HorizonAmbientColor
 float SunFogAngle
 int SunFogColor
-float Field_19051348?
 float SunFogStrength
 float FogHeightCoefficients
 
@@ -179,7 +178,7 @@ GroundAmbientColor<32>
 EndFogColor<32>
 EndFogColorDistance
 SunFogColor<32>
-Field_19051348
+SunFogStrength
 FogHeightColor<32>
 $relation$LightParamID<16>
 Time<16>
@@ -260,7 +259,7 @@ GroundAmbientColor<32>
 EndFogColor<u32>
 EndFogColorDistance
 SunFogColor<u32>
-Field_19051348
+SunFogStrength
 FogHeightColor<u32>
 
 LAYOUT FCED593A

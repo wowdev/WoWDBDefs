@@ -15,9 +15,6 @@ int<CreatureDisplayInfo::ID> IconCreatureDisplayInfoID
 int<Spell::ID> SpellID
 int<FileData::ID> IconFileDataID
 int UiModelSceneID
-int Field_560509133?
-int Field_155774915?
-int Field_413734191?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -105,9 +102,9 @@ FirstChildSectionID<u16>
 NextSiblingSectionID<u16>
 Type<u8>
 IconCreatureDisplayInfoID<u32>
-Field_560509133<32>
+UiModelSceneID<32>
 SpellID<32>
-Field_155774915<32>
-Field_413734191<u16>
+IconFileDataID<32>
+Flags<u16>
 IconFlags<u16>
 DifficultyMask<8>

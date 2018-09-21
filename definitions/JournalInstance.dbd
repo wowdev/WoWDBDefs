@@ -2,30 +2,22 @@ COLUMNS
 int ID
 int<Map::ID> MapID
 int<AreaTable::ID> AreaID
-int<FileData::ID> ButtonFiledataID
+int<FileData::ID> ButtonFileDataID
 int<FileData::ID> ButtonSmallFileDataID
-int<FileData::ID> BackgroundFiledataID
+int<FileData::ID> BackgroundFileDataID
 int<FileData::ID> LoreFileDataID
 locstring Name_lang
 locstring Description_lang
 int Flags
 int OrderIndex
-int Field_1056379070?
-int Field_1183527291?
-int Field_324120717?
-int Field_321046860?
-int Field_143652809?
-int Field_975634288?
-int Field_907090548?
-int Field_159345853?
 
 BUILD 6.0.1.18179
 $id$ID<32>
 MapID<32>
 AreaID<32>
-ButtonFiledataID<32>
+ButtonFileDataID<32>
 ButtonSmallFileDataID<32>
-BackgroundFiledataID<32>
+BackgroundFileDataID<32>
 LoreFileDataID<32>
 Name_lang
 Description_lang
@@ -34,9 +26,9 @@ LAYOUT 1691CC3D
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
 Name_lang
 Description_lang
-ButtonFiledataID<32>
+ButtonFileDataID<32>
 ButtonSmallFileDataID<32>
-BackgroundFiledataID<32>
+BackgroundFileDataID<32>
 LoreFileDataID<32>
 MapID<u16>
 AreaID<u16>
@@ -48,8 +40,8 @@ LAYOUT 690E1D43
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 Name_lang
 Description_lang
-BackgroundFiledataID<32>
-ButtonFiledataID<32>
+BackgroundFileDataID<32>
+ButtonFileDataID<32>
 ButtonSmallFileDataID<32>
 LoreFileDataID<32>
 MapID<16>
@@ -63,11 +55,11 @@ BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.268
 Name_lang
 Description_lang
 $id$ID<32>
-Field_1056379070<u16>
-Field_1183527291<32>
-Field_324120717<32>
-Field_321046860<32>
-Field_143652809<32>
-Field_975634288<u8>
-Field_907090548<u8>
-Field_159345853<u16>
+MapID<u16>
+BackgroundFileDataID<32>
+ButtonFileDataID<32>
+ButtonSmallFileDataID<32>
+LoreFileDataID<32>
+OrderIndex<u8>
+Flags<u8>
+AreaID<u16>

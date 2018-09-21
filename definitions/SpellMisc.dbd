@@ -14,7 +14,7 @@ int SchoolMask
 int<FileData::ID> ActiveIconFileDataID
 float LaunchDelay
 int<FileData::ID> SpellIconFileDataID
-float Field_1532576006?
+float MinDuration
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -70,7 +70,7 @@ RangeIndex<u16>
 SchoolMask<u8>
 Speed
 LaunchDelay
-Field_1532576006
+MinDuration
 SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
 Attributes<32>[14]

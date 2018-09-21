@@ -19,7 +19,6 @@ int ExcludeClass
 int SupercededBySpell
 int CharacterPoints
 int Abandonable
-int Field_307857935?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -166,4 +165,4 @@ Flags<8>
 NumSkillUps<8>
 UniqueBit<16>
 TradeSkillCategoryID<16>
-Field_307857935<16>
+SkillupSkillLineID<16>

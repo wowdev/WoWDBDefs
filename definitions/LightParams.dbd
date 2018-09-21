@@ -10,7 +10,6 @@ float OceanShallowAlpha
 float OceanDeepAlpha
 int Flags
 float OverrideCelestialSphere
-int Field_1501227822?
 int SsaoSettingsID
 
 BUILD 4.0.0.11792, 6.0.1.18179
@@ -47,7 +46,7 @@ WaterDeepAlpha
 OceanShallowAlpha
 OceanDeepAlpha
 OverrideCelestialSphere[3]
-Field_1501227822<32>
+SsaoSettingsID<32>
 LightSkyboxID<16>
 HighlightSky<8>
 CloudTypeID<8>
@@ -67,7 +66,7 @@ WaterDeepAlpha
 OceanShallowAlpha
 OceanDeepAlpha
 Flags<8>
-Field_1501227822<32>
+SsaoSettingsID<32>
 
 LAYOUT 92B4D392
 BUILD 8.1.0.27826

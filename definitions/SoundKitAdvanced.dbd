@@ -40,8 +40,6 @@ int VolumeFadeOutCurveID
 int VolumeFadeOutTimeMax
 int VolumeFadeOutTimeMin
 int VolumeSliderCategory
-float Field_2032336183?
-float Field_1901411065?
 float DuckToCinematicSFX
 float DuckToCinematicMusic
 int RolloffType
@@ -244,8 +242,8 @@ DuckToMusic
 DuckToAmbience
 DuckToDialog
 DuckToSuppressors
-Field_2032336183
-Field_1901411065
+DuckToCinematicSFX
+DuckToCinematicMusic
 InnerRadiusOfInfluence
 OuterRadiusOfInfluence
 TimeToDuck<u32>

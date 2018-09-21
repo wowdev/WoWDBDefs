@@ -80,7 +80,6 @@ int CurrentPvpFaction
 int ModifierTreeID
 int MovementFlags
 int WeaponSubclassMask
-int Field_488524744?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -373,7 +372,7 @@ MaxAvgEquippedItemLevel<u16>
 PhaseUseFlags<u8>
 PhaseID<u16>
 PhaseGroupID<u32>
-Field_488524744<u8>
+Flags<u8>
 ChrSpecializationIndex<8>
 ChrSpecializationRole<8>
 ModifierTreeID<u32>

@@ -16,7 +16,7 @@ int Priority
 float Rim
 float Scale
 int TopTextureBlendSetID
-float Field_1336462998?
+float ArbitraryBoxHeight
 
 LAYOUT DD48C72A
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -70,7 +70,7 @@ Gain
 Scale
 FadeIn
 FadeOut
-Field_1336462998
+ArbitraryBoxHeight
 Priority<8>
 BlendMode<8>
 TopTextureBlendSetID<32>
@@ -98,4 +98,4 @@ Priority<u8>
 BlendMode<u8>
 GameFlags<32>
 CasterDecalPropertiesID<32>
-Field_1336462998
+ArbitraryBoxHeight

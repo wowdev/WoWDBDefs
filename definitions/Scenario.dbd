@@ -4,7 +4,7 @@ locstring Name_lang
 int Flags
 int AreaTableID
 int Type
-int Field_103900121?
+int UiTextureKitID?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -31,7 +31,7 @@ LAYOUT FF074FEE
 BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
 Name_lang
-Field_103900121<32>
+UiTextureKitID<32>
 AreaTableID<16>
 Type<8>
 Flags<8>
@@ -43,4 +43,4 @@ Name_lang
 AreaTableID<u16>
 Type<u8>
 Flags<u8>
-Field_103900121<u32>
+UiTextureKitID<u32>

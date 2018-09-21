@@ -27,7 +27,7 @@ float MaskPower
 float MaskSizeMultiplier
 float Saturation
 int TextureBlendSetID
-int Field_714392848?
+int OverlayTextureFileDataID
 
 LAYOUT 5CBF1D1B
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -113,7 +113,7 @@ ColorAdditionBlue
 ColorAdditionOffsetY
 ColorAdditionMultiplier
 ColorAdditionPower
-Field_714392848<32>
+OverlayTextureFileDataID<32>
 BlurIntensity
 BlurOffsetY
 BlurMultiplier
@@ -146,7 +146,7 @@ ColorAdditionBlue
 ColorAdditionOffsetY
 ColorAdditionMultiplier
 ColorAdditionPower
-Field_714392848<32>
+OverlayTextureFileDataID<32>
 BlurIntensity
 BlurOffsetY
 BlurMultiplier

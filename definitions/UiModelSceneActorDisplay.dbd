@@ -5,8 +5,8 @@ float AnimSpeed
 int AnimationID
 float Scale
 int SequenceVariation
-int Field_1366921632?
-int Field_1313162383?
+int AnimKitID
+int SpellVisualKitID
 
 LAYOUT 6137F4BE
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -40,8 +40,8 @@ BUILD 8.0.1.26903, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.269
 $noninline,id$ID<32>
 AnimationID<u32>
 SequenceVariation<u32>
-Field_1366921632<u32>
-Field_1313162383<u32>
+AnimKitID<u32>
+SpellVisualKitID<u32>
 Alpha
 Scale
 AnimSpeed

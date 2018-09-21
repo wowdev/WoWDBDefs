@@ -10,7 +10,7 @@ int RelatedStep
 int Supersedes
 int RewardQuestID
 int VisibilityPlayerConditionID
-int Field_4254090452?
+int WidgetSetID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -60,7 +60,7 @@ Title_lang
 $relation$ScenarioID<16>
 RewardQuestID<16>
 Supersedes<16>
-Field_4254090452<16>
+WidgetSetID<16>
 OrderIndex<8>
 Flags<8>
 CriteriatreeID<32>
@@ -93,4 +93,4 @@ Supersedes<u16>
 OrderIndex<u8>
 Flags<u8>
 VisibilityPlayerConditionID<u32>
-Field_4254090452<u16>
+WidgetSetID<u16>

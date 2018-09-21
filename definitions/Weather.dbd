@@ -23,15 +23,6 @@ float OverrideOpacity
 float VolumeEdgeFadeStart
 int VolumeFlags
 float OverrideColorIntensity
-int Field_1948425555?
-int Field_555766786?
-float Field_1940229071?
-float Field_1084837074?
-int Field_1679049751?
-float Field_1465170183?
-float Field_1385879049?
-float Field_961428944?
-float Field_1275839559?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -181,20 +172,20 @@ Type<u8>
 TransitionSkyBox
 AmbienceID<u32>
 SoundAmbienceID<u16>
-Field_1948425555<u8>
-Field_555766786<32>
+EffectType<u8>
+EffectTextureFileDataID<32>
 WindSettingsID<u8>
 Scale
-Field_1940229071
-Field_1084837074
+Volatility
+TwinkleIntensity
 FallModifier
 RotationalSpeed
-Field_1679049751<32>
-Field_1465170183
+ParticulateFileDataID<32>
+VolumeEdgeFadeStart
 OverrideColor<32>
-Field_1385879049
-Field_961428944
-Field_1275839559
+OverrideColorIntensity
+OverrideCount
+OverrideOpacity
 VolumeFlags<32>
 LightningID<32>
 Intensity[2]

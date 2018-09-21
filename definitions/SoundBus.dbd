@@ -11,8 +11,6 @@ int DefaultPlaybackLimit
 int RaidPlaybackLimit
 int BusEnumID
 int Flags
-int Field_1881657465?
-int Field_1463019375?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -56,6 +54,6 @@ DefaultPriority<u8>
 DefaultPriorityPenalty<u8>
 DefaultPlaybackLimit<u8>
 DefaultVolume
-Field_1881657465<u8>
-Field_1463019375<8>
+DefaultPlaybackLimit<u8>
+BusEnumID<8>
 $noninline,relation$Parent<u16>

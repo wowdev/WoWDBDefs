@@ -24,14 +24,6 @@ int StartItem
 int UniqueBitFlag
 int WorldStateExpressionID
 int ContentTuningID
-int Field_072893227?
-int Field_536282793?
-int Field_1812140884?
-int Field_951364210?
-int Field_2027020682?
-int Field_800870143?
-int Field_1901842090?
-int Field_346428951?
 
 LAYOUT 3F026A14
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26287
@@ -203,19 +195,19 @@ BulletText_lang
 $id$ID<u32>
 UniqueBitFlag<u16>
 ConditionID<u32>
-Field_072893227<u32>
+FiltActiveQuest<u32>
 FiltClasses<16>
-Field_536282793<u32>
-Field_1812140884<u32>
-Field_951364210<u32>
+FiltCompletedQuestLogic<u32>
+FiltMaxFactionID<u32>
+FiltMaxFactionValue<u32>
 FiltMaxLevel<u32>
-Field_2027020682<u32>
-Field_800870143<u32>
+FiltMinFactionID<u32>
+FiltMinFactionValue<u32>
 FiltMinLevel<u32>
 FiltMinSkillID<u32>
 FiltMinSkillValue<u32>
-Field_1901842090<u32>
-Field_346428951<u32>
+FiltNonActiveQuest<u32>
+BreadCrumbID<u32>
 StartItem<32>
 WorldStateExpressionID<16>
 QuestInfoID<u32>

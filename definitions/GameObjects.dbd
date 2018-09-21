@@ -11,11 +11,6 @@ int PropValue
 float Rot
 float Scale
 int TypeID
-int Field_919378280?
-int Field_2086491574?
-int Field_1997246591?
-int Field_1611906542?
-int Field_1622611767?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -68,10 +63,10 @@ Pos[3]
 Rot[4]
 $id$ID<32>
 $relation$OwnerID<u16>
-Field_919378280<u16>
+DisplayID<u16>
 Scale
-Field_2086491574<u8>
-Field_1997246591<u8>
-Field_1611906542<u16>
-Field_1622611767<u16>
+TypeID<u8>
+PhaseUseFlags<u8>
+PhaseID<u16>
+PhaseGroupID<u16>
 PropValue<32>[8]

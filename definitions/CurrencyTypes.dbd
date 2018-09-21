@@ -13,7 +13,7 @@ locstring Description_lang
 int<FileData::ID> InventoryIconFileID
 int<Item::ID> ItemID
 int BitIndex
-int Field_1560101015?
+int FactionID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -75,4 +75,4 @@ MaxQty<u32>
 MaxEarnablePerWeek<u32>
 Flags<u32>
 Quality<8>
-Field_1560101015<32>
+FactionID<32>
