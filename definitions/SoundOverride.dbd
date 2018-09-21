@@ -6,11 +6,7 @@ int ZoneIntroMusicID
 int ZoneMusicID
 int SoundAmbienceID
 int SoundProviderPreferencesID
-int Field_931229337?
-int Field_1815127996?
-int Field_1168962256?
-int Field_124856455?
-int Field_1930674198?
+int Flags
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -32,8 +28,8 @@ SoundProviderPreferencesID<u8>
 LAYOUT 4EC15243
 BUILD 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178, 8.0.1.27219, 8.0.1.27291, 8.0.1.27326, 8.0.1.27353, 8.0.1.27355, 8.0.1.27356, 8.0.1.27366, 8.0.1.27377, 8.0.1.27404, 8.0.1.27481, 8.0.1.27547, 8.0.1.27602, 8.0.1.27791, 8.1.0.27826
 $noninline,id$ID<32>
-Field_931229337<u16>
-Field_1815127996<u16>
-Field_1168962256<u16>
-Field_124856455<u8>
-Field_1930674198<u8>
+ZoneIntroMusicID<u16>
+ZoneMusicID<u16>
+SoundAmbienceID<u16>
+SoundProviderPreferencesID<u8>
+Flags<u8>

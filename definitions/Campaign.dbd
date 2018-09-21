@@ -4,7 +4,7 @@ string FactionTitle?
 locstring Description_lang?
 int ID?
 int<UiTextureKit::ID> UiTextureKitID?
-int Field_1313613340?
+int RewardQuestID
 int<PlayerCondition::ID> PlayerConditionID?
 
 LAYOUT 0B271FD9
@@ -14,7 +14,7 @@ FactionTitle
 Description_lang
 $id$ID<32>
 UiTextureKitID<32>
-Field_1313613340<32>
+RewardQuestID<32>
 PlayerConditionID<32>
 
 LAYOUT 2D49AABD
@@ -24,5 +24,5 @@ FactionTitle
 Description_lang
 $id$ID<u32>
 UiTextureKitID<u32>
-Field_1313613340<u32>
+RewardQuestID<u32>
 PlayerConditionID<u32>
