@@ -42,6 +42,10 @@ int VolumeFadeOutTimeMin
 int VolumeSliderCategory
 float Field_2032336183?
 float Field_1901411065?
+float DuckToCinematicSFX
+float DuckToCinematicMusic
+int RolloffType
+float RolloffParam0
 
 LAYOUT 5F920928
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -263,3 +267,51 @@ VolumeFadeOutTimeMin<32>
 VolumeFadeOutTimeMax<32>
 VolumeFadeOutCurveID<u32>
 ChanceToPlay
+
+LAYOUT BB12AB0C
+BUILD 8.1.0.27826
+$id$ID<32>
+SoundKitID<u32>
+InnerRadius2D
+OuterRadius2D
+TimeA<u32>
+TimeB<u32>
+TimeC<u32>
+TimeD<u32>
+RandomOffsetRange<32>
+Usage<8>
+TimeIntervalMin<u32>
+TimeIntervalMax<u32>
+DelayMin<u32>
+DelayMax<u32>
+VolumeSliderCategory<u8>
+DuckToSFX
+DuckToMusic
+DuckToAmbience
+DuckToDialog
+DuckToSuppressors
+DuckToCinematicSFX
+DuckToCinematicMusic
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<u32>
+TimeToUnduck<u32>
+InsideAngle
+OutsideAngle
+OutsideVolume
+MinRandomPosOffset<u8>
+MaxRandomPosOffset<u16>
+MsOffset<32>
+TimeCooldownMin<u32>
+TimeCooldownMax<u32>
+MaxInstancesBehavior<u8>
+VolumeControlType<u8>
+VolumeFadeInTimeMin<32>
+VolumeFadeInTimeMax<32>
+VolumeFadeInCurveID<u32>
+VolumeFadeOutTimeMin<32>
+VolumeFadeOutTimeMax<32>
+VolumeFadeOutCurveID<u32>
+ChanceToPlay
+RolloffType<32>
+RolloffParam0

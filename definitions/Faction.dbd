@@ -139,3 +139,22 @@ ReputationBase<32>[4]
 ReputationMax<32>[4]
 ParentFactionMod[2]
 ParentFactionCap<u8>[2]
+
+LAYOUT B6C3CC81
+BUILD 8.1.0.27826
+ReputationRaceMask<64>[4]
+Name_lang
+Description_lang
+$id$ID<32>
+ReputationIndex<16>
+ParentFactionID<u16>
+Expansion<u8>
+FriendshipRepID<u32>
+Flags<u8>
+ParagonFactionID<u16>
+ReputationClassMask<16>[4]
+ReputationFlags<u16>[4]
+ReputationBase<32>[4]
+ReputationMax<32>[4]
+ParentFactionMod[2]
+ParentFactionCap<u8>[2]

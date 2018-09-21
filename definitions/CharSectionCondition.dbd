@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int BaseSection
+int Sex
+int VariationIndex
+int ColorIndex
+int AchievementID
+int RaceID
+
+LAYOUT 4C843BC5
+BUILD 8.1.0.27826
+$noninline,id$ID<32>
+BaseSection<8>
+Sex<8>
+VariationIndex<8>
+ColorIndex<8>
+AchievementID<32>
+$noninline,relation$RaceID<8>

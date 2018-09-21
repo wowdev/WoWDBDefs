@@ -36,6 +36,8 @@ int HorizonAmbientColor
 float SunFogAngle
 int SunFogColor
 float Field_19051348?
+float SunFogStrength
+float FogHeightCoefficients
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -260,3 +262,44 @@ EndFogColorDistance
 SunFogColor<u32>
 Field_19051348
 FogHeightColor<u32>
+
+LAYOUT FCED593A
+BUILD 8.1.0.27826
+$noninline,id$ID<32>
+LightParamID<u16>
+Time<u16>
+DirectColor<32>
+AmbientColor<32>
+SkyTopColor<32>
+SkyMiddleColor<32>
+SkyBand1Color<32>
+SkyBand2Color<32>
+SkySmogColor<32>
+SkyFogColor<32>
+SunColor<32>
+CloudSunColor<32>
+CloudEmissiveColor<32>
+CloudLayer1AmbientColor<32>
+CloudLayer2AmbientColor<32>
+OceanCloseColor<32>
+OceanFarColor<32>
+RiverCloseColor<32>
+RiverFarColor<32>
+ShadowOpacity<32>
+FogEnd
+FogScaler
+FogDensity
+FogHeight
+FogHeightScaler
+FogHeightDensity
+SunFogAngle
+CloudDensity
+ColorGradingFileDataID<u32>
+HorizonAmbientColor<32>
+GroundAmbientColor<32>
+EndFogColor<u32>
+EndFogColorDistance
+SunFogColor<u32>
+SunFogStrength
+FogHeightColor<u32>
+FogHeightCoefficients[4]

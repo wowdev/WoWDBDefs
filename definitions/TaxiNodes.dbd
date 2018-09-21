@@ -16,6 +16,8 @@ float X
 float Y
 float Z
 int Field_1138164662?
+int MinimapAtlasMemberID
+int VisibilityConditionID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -107,4 +109,22 @@ UiTextureKitID<32>
 Facing
 SpecialIconConditionID<u32>
 Field_1138164662<u32>
+MountCreatureID<32>[2]
+
+LAYOUT 179AF3CF
+BUILD 8.1.0.27826
+Name_lang
+Pos[3]
+MapOffset[2]
+FlightMapOffset[2]
+$id$ID<32>
+ContinentID<u16>
+ConditionID<u16>
+CharacterBitNumber<u16>
+Flags<u8>
+UiTextureKitID<32>
+MinimapAtlasMemberID<32>
+Facing
+SpecialIconConditionID<u32>
+VisibilityConditionID<u32>
 MountCreatureID<32>[2]

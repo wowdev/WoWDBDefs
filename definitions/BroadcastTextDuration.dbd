@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int BroadcastTextID
+int Locale
+int DurationMS
+
+LAYOUT 6466B673
+BUILD 8.1.0.27826
+$noninline,id$ID<32>
+BroadcastTextID<32>
+Locale<32>
+DurationMS<32>

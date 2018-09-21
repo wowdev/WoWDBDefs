@@ -10,3 +10,10 @@ $noninline,id$ID<32>
 ChildItemID<32>
 ChildItemEquipSlot<u8>
 $noninline,relation$ParentItemID<32>
+
+LAYOUT 50B8B75E
+BUILD 8.1.0.27826
+$noninline,id$ID<32>
+ParentItemID<32>
+ChildItemID<32>
+ChildItemEquipSlot<u8>

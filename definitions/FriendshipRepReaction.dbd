@@ -23,3 +23,10 @@ $noninline,id$ID<32>
 Reaction_lang
 $relation$FriendshipRepID<u8>
 ReactionThreshold<u16>
+
+LAYOUT 81C2BAAB
+BUILD 8.1.0.27826
+$noninline,id$ID<32>
+Reaction_lang
+FriendshipRepID<u32>
+ReactionThreshold<u16>

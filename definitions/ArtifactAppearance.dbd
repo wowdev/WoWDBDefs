@@ -14,6 +14,7 @@ float UiModelOpacity
 float UiModelSaturation
 int UiSwatchColor
 int UnlockPlayerConditionID
+int UsablePlayerConditionID
 
 LAYOUT AEED7395
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287
@@ -68,3 +69,22 @@ UiItemAppearanceID<u32>
 UiAltItemAppearanceID<u32>
 Flags<u8>
 UiCameraID<u16>
+
+LAYOUT A4ABF40A
+BUILD 8.1.0.27826
+Name_lang
+$id$ID<32>
+ArtifactAppearanceSetID<u16>
+DisplayIndex<u8>
+UnlockPlayerConditionID<u32>
+ItemAppearanceModifierID<u8>
+UiSwatchColor<32>
+UiModelSaturation
+UiModelOpacity
+OverrideShapeshiftFormID<u8>
+OverrideShapeshiftDisplayID<u32>
+UiItemAppearanceID<u32>
+UiAltItemAppearanceID<u32>
+Flags<u8>
+UiCameraID<u16>
+UsablePlayerConditionID<u32>

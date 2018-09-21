@@ -72,3 +72,22 @@ DialogType<8>
 PitchAdjust
 BusOverwriteID<u16>
 MaxInstances<u8>
+
+LAYOUT 17C44133
+BUILD 8.1.0.27826
+$id$ID<32>
+SoundType<32>
+VolumeFloat
+Flags<u16>
+MinDistance
+DistanceCutoff
+EAXDef<u8>
+SoundKitAdvancedID<u32>
+VolumeVariationPlus
+VolumeVariationMinus
+PitchVariationPlus
+PitchVariationMinus
+DialogType<8>
+PitchAdjust
+BusOverwriteID<u16>
+MaxInstances<u8>
