@@ -8,6 +8,12 @@ int PathID
 int PropertyIndex
 int Sequence
 int Value
+int Field_2135123832
+int Field_838120586
+int Field_015108818
+int Field_1258126091
+int Field_105038018
+int Field_500237795
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -31,3 +37,12 @@ PathID<u16>
 Sequence<u16>
 PropertyIndex<u8>
 Value<32>
+
+LAYOUT 496C7404
+BUILD 8.1.0.27934
+$id$Field_2135123832<32>
+Field_838120586<u16>
+Field_015108818<u16>
+Field_1258126091<32>
+Field_105038018<u8>
+Field_500237795<32>
