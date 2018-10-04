@@ -27,6 +27,23 @@ int SoundEntriesID
 int SpellMissileMotionID
 int SpellVisualEffectNameID
 int SpellVisualMissileSetID
+float Field_386487314
+float Field_385415111
+int Field_455482319
+int Field_569087334
+int Field_1284268228
+int Field_485421418
+int Field_1043381221
+int Field_433158549
+int Field_1371105128
+int Field_155664834
+int Field_1884499387
+int Field_401092406
+int Field_1214164327
+int Field_1790235284
+int Field_1075985164
+int Field_1915719207
+int Field_1101243142
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -80,3 +97,23 @@ Flags<u32>
 SpellMissileMotionID<u16>
 AnimKitID<u32>
 $noninline,relation$SpellVisualMissileSetID<u16>
+
+LAYOUT 9B2241BE
+BUILD 8.1.0.27985
+Field_386487314[3]
+Field_385415111[3]
+$id$Field_455482319<32>
+Field_569087334<u16>
+Field_1284268228<u32>
+Field_485421418<8>
+Field_1043381221<8>
+Field_433158549<u16>
+Field_1371105128<u16>
+Field_155664834<32>
+Field_1884499387<u32>
+Field_401092406<u16>
+Field_1214164327<u32>
+Field_1790235284<u16>
+Field_1075985164<u32>
+Field_1915719207<8>
+$noninline,relation$Field_1101243142<u16>

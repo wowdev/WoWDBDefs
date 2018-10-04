@@ -11,6 +11,15 @@ int DepartureEventID
 float LocX
 float LocY
 float LocZ
+float Field_517667966
+int Field_324929658
+int Field_1637493477
+int Field_009965554
+int Field_1888481286
+int Field_1271889973
+int Field_435539220
+int Field_890350492
+int Field_016161770
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -81,3 +90,15 @@ Flags<u8>
 Delay<u32>
 ArrivalEventID<u16>
 DepartureEventID<u16>
+
+LAYOUT 7CC528A4
+BUILD 8.1.0.27985
+Field_517667966[3]
+$id$Field_324929658<32>
+Field_1637493477<u16>
+Field_009965554<32>
+Field_1888481286<u16>
+Field_1271889973<u8>
+Field_435539220<u32>
+Field_890350492<32>
+Field_016161770<32>

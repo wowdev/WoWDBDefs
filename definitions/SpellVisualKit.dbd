@@ -51,6 +51,11 @@ int KitType
 int Anim
 float CharacterParam
 int CharacterProcedure
+int Field_1398977458
+int Field_2046646234
+int Field_1513714695
+int Field_1057093851
+int Field_870749870
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -172,3 +177,12 @@ CharacterProcedure<32>
 CharacterParam[4]
 SoundID<32>
 ShakeID<32>
+
+LAYOUT CD23B4AF
+BUILD 8.1.0.27985
+$noninline,id$ID<32>
+Field_1398977458<32>
+Field_2046646234<8>
+Field_1513714695<u32>
+Field_1057093851<u16>
+Field_870749870<u16>
