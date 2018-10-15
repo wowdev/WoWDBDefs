@@ -372,6 +372,11 @@ namespace DBDefsLib
                             throw new Exception("Version definition " + definition.name + " is NOT an int/uint but has size in file " + file + "!");
                         }
                     }
+
+                    if(version.definitions.GroupBy(n => n.name).Any(c => c.Count() > 1))
+                    {
+                        throw new Exception("Version definitions contains multiple columns of the same name!");
+                    }
                 }
 
                 for (var i = 0; i < versionDefinitions.Count; i++)

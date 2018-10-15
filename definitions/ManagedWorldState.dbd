@@ -33,7 +33,7 @@ DownTimeSecs<u32>
 OccurrencesWorldStateID<32>
 AccumulationStateTargetValue<32>
 DepletionStateTargetValue<32>
-AccumulationStateTargetValue<32>
+AccumulationAmountPerMinute<32>
 DepletionAmountPerMinute<32>
 
 LAYOUT 043BFC8F
