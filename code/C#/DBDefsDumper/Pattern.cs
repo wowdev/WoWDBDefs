@@ -124,10 +124,12 @@ namespace DBDefsDumper
         public const string FIELD_SIZES = "sizes";
         public const string FIELD_TYPES = "types";
         public const string FIELD_FLAGS = "flags";
+        public const string FIELD_NAMES = "field names";
         public const string FIELD_SIZES_IN_FILE = "sizes in file";
         public const string FIELD_TYPES_IN_FILE = "types in file";
         public const string FIELD_FLAGS_IN_FILE = "flags in file";
         public const string FIELD_NAMES_IN_FILE = "names in file";
+        public const string DB_NAME_DUPLICATE = "duplicate name";
         public const string FLAGS_58_21 = "flags 58: 2|1";
         public const string TABLE_HASH = "table";
         public const string SIBLING_TABLE_HASH = "the sparse, or non-sparse equivalent";

@@ -419,7 +419,7 @@ namespace DBDefsDumper
                             writer.Write("$id$");
                         }
 
-                        if(build.StartsWith("7.3.5") || build.StartsWith("8.0.1"))
+                        if(build.StartsWith("7.3.5") || build.StartsWith("8"))
                         {
                             if (meta.Value.column_8C == i)
                             {
@@ -570,7 +570,7 @@ namespace DBDefsDumper
 
         private static string CleanRealName(string name)
         {
-            if (name.Substring(0, 2) == "m_")
+            if (name.Length > 2 && name.Substring(0, 2) == "m_")
             {
                 return name.Remove(0, 2);
             }
@@ -689,8 +689,14 @@ namespace DBDefsDumper
                     case Name.SIBLING_TABLE_HASH:
                         meta.siblingTableHash = bin.ReadInt32();
                         break;
+                    case Name.FIELD_NAMES:
+                        bin.ReadInt64();
+                        break;
                     case Name.FIELD_NAMES_IN_FILE:
                         meta.namesInFileOffs = bin.ReadInt64();
+                        break;
+                    case Name.DB_NAME_DUPLICATE:
+                        bin.ReadInt64();
                         break;
                     case Name.UNK_BOOL_601_x24:
                     case Name.UNK_BOOL_601dbc_x38:
