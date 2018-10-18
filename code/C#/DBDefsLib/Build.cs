@@ -9,6 +9,11 @@ namespace DBDefsLib
         public short minor;
         public uint build;
 
+        /// <summary>
+        /// Serialization requirement.
+        /// </summary>
+        private Build() { }
+
         public Build(string buildString)
         {
             var split = buildString.Split('.');
