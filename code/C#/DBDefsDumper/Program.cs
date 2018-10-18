@@ -361,7 +361,7 @@ namespace DBDefsDumper
                         }
                         else
                         {
-                            columnNames.Add(GenerateName(i, meta.Value.layout_hash, build));
+                            columnNames.Add(GenerateName(i, build));
                         }
 
                         var t = TypeToT(columnTypeFlags[i].Item1, (FieldFlags)columnTypeFlags[i].Item2);
@@ -553,19 +553,11 @@ namespace DBDefsDumper
             return returnList;
         }
 
-        private static string GenerateName(int fieldIndex, int layoutHash, string build)
+        private static string GenerateName(int fieldIndex, string build)
         {
-            // TODO: This function should generate a name that is the same between dumps of the same build.
-            // We can base this off layoutHash in builds that have it, but need to figure something out for builds that don't.
-            // For now, just name them randomly.
+            // This function should generate a name that is the same between dumps of the same build
 
-            if (layoutHash < 0)
-            {
-                layoutHash = layoutHash * -1;
-            }
-
-            //return "Field_" + (layoutHash + fieldIndex).ToString().PadLeft(9, '0');
-            return "Field_" + new Random().Next(1, int.MaxValue).ToString().PadLeft(9, '0');
+            return "Field_" + build.Replace(".", string.Empty) + "_" + fieldIndex.ToString().PadLeft(3, '0');
         }
 
         private static string CleanRealName(string name)
