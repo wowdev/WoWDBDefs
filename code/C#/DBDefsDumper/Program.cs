@@ -148,8 +148,21 @@ namespace DBDefsDumper
                 foreach(var pattern in patternBuilder.patterns)
                 {
                     // Skip versions of the pattern that aren't for this expansion
-                    if(build[0] != pattern.name[0])
+                    if(!pattern.compatiblePatches.Contains(build.Substring(0, 5)))
                     {
+                        Console.WriteLine("Skipping " + pattern.name + " as it does not list " + build + " as compatible!");
+                        continue;
+                    }
+
+                    if(pattern.minBuild != 0 && pattern.minBuild > int.Parse(build.Substring(6)))
+                    {
+                        Console.WriteLine("Skipping " + pattern.name + " as minimum build " + pattern.minBuild + " exceeds build of " + build.Substring(6));
+                        continue;
+                    }
+
+                    if (pattern.maxBuild != 0 && int.Parse(build.Substring(6)) > pattern.maxBuild)
+                    {
+                        Console.WriteLine("Skipping " + pattern.name + " as maximum build " + pattern.maxBuild + " exceeds build of " + build.Substring(6));
                         continue;
                     }
 
@@ -556,8 +569,7 @@ namespace DBDefsDumper
         private static string GenerateName(int fieldIndex, string build)
         {
             // This function should generate a name that is the same between dumps of the same build
-
-            return "Field_" + build.Replace(".", string.Empty) + "_" + fieldIndex.ToString().PadLeft(3, '0');
+            return "Field_" + build.Replace(".", "_") + "_" + fieldIndex.ToString().PadLeft(3, '0');
         }
 
         private static string CleanRealName(string name)

@@ -5,15 +5,31 @@ namespace DBDefsDumper
     class Pattern
     {
         public string name;
+        public List<string> compatiblePatches;
         public int cur_pos;
         public string cur_pattern;
+        public int minBuild;
+        public int maxBuild;
         public Dictionary<string, int> offsets = new Dictionary<string, int>();
 
-        public Pattern(string name)
+        public Pattern(string name, List<string> compatiblePatches, int minBuild, int maxBuild)
         {
             this.name = name;
+            this.compatiblePatches = compatiblePatches;
             this.cur_pos = 0;
             this.cur_pattern = "";
+            this.minBuild = minBuild;
+            this.maxBuild = maxBuild;
+        }
+
+        public Pattern(string name, List<string> compatiblePatches)
+        {
+            this.name = name;
+            this.compatiblePatches = compatiblePatches;
+            this.cur_pos = 0;
+            this.cur_pattern = "";
+            this.minBuild = 0;
+            this.maxBuild = 0;
         }
 
         // Utilities

@@ -8,43 +8,43 @@ namespace DBDefsDumper
 
         public PatternBuilder()
         {
-            //patterns.Add(
-            //new Pattern("8.1.0-internal")
-            //    .Pointer(Name.DB_NAME)
-            //    .FileDataID(Name.FDID)
-            //    .FieldReference(Name.NUM_FIELD_IN_FILE)
-            //    .RecordSize(Name.RECORD_SIZE)
-            //    .FieldReference(Name.NUM_FIELD)
-            //    .OptionalFieldReference(Name.ID_COLUMN)
-            //    .Boolean(Name.SPARSE_TABLE)
-            //    .Pointer(Name.FIELD_OFFSETS)
-            //    .Pointer(Name.FIELD_SIZES)
-            //    .Pointer(Name.FIELD_TYPES)
-            //    .Pointer(Name.FIELD_FLAGS)
-            //    .Pointer(Name.FIELD_SIZES_IN_FILE)
-            //    .Pointer(Name.FIELD_TYPES_IN_FILE)
-            //    .Pointer(Name.FIELD_FLAGS_IN_FILE)
-            //    .Uint8(Name.FLAGS_58_21)
-            //    .Hash(Name.TABLE_HASH)
-            //    .Append("00", "00", "00", "00")
-            //    .Hash(Name.LAYOUT_HASH)
-            //    .Uint8(Name.FLAGS_68_421)
-            //    .FieldReference(Name.FIELD_NUM_IDX_INT)
-            //    .FieldReference(Name.FIELD_NUM_IDX_STRING)
-            //    .OptionalPointer(Name.FIELD_IDX_INT)
-            //    .OptionalPointer(Name.FIELD_IDX_STRING)
-            //    .Boolean(Name.UNK88)
-            //    .OptionalFieldReference(Name.FIELD_RELATION)
-            //    .OptionalFieldReference(Name.FIELD_RELATION_IN_FILE)
-            //    .OptionalPointer(Name.SORT_FUNC)
-            //    .OptionalPointer(Name.DB_NAME_DUPLICATE)
-            //    .OptionalPointer(Name.FIELD_NAMES)
-            //    .OptionalPointer(Name.FIELD_NAMES_IN_FILE)
-            //    .OptionalPointer(Name.SQL_QUERY)
-            //);
+            patterns.Add(
+            new Pattern("8.1.0-internal", new List<string> { "8.1.0" })
+                .Pointer(Name.DB_NAME)
+                .FileDataID(Name.FDID)
+                .FieldReference(Name.NUM_FIELD_IN_FILE)
+                .RecordSize(Name.RECORD_SIZE)
+                .FieldReference(Name.NUM_FIELD)
+                .OptionalFieldReference(Name.ID_COLUMN)
+                .Boolean(Name.SPARSE_TABLE)
+                .Pointer(Name.FIELD_OFFSETS)
+                .Pointer(Name.FIELD_SIZES)
+                .Pointer(Name.FIELD_TYPES)
+                .Pointer(Name.FIELD_FLAGS)
+                .Pointer(Name.FIELD_SIZES_IN_FILE)
+                .Pointer(Name.FIELD_TYPES_IN_FILE)
+                .Pointer(Name.FIELD_FLAGS_IN_FILE)
+                .Uint8(Name.FLAGS_58_21)
+                .Hash(Name.TABLE_HASH)
+                .Append("00", "00", "00", "00")
+                .Hash(Name.LAYOUT_HASH)
+                .Uint8(Name.FLAGS_68_421)
+                .FieldReference(Name.FIELD_NUM_IDX_INT)
+                .FieldReference(Name.FIELD_NUM_IDX_STRING)
+                .OptionalPointer(Name.FIELD_IDX_INT)
+                .OptionalPointer(Name.FIELD_IDX_STRING)
+                .Boolean(Name.UNK88)
+                .OptionalFieldReference(Name.FIELD_RELATION)
+                .OptionalFieldReference(Name.FIELD_RELATION_IN_FILE)
+                .OptionalPointer(Name.SORT_FUNC)
+                .OptionalPointer(Name.DB_NAME_DUPLICATE)
+                .OptionalPointer(Name.FIELD_NAMES)
+                .OptionalPointer(Name.FIELD_NAMES_IN_FILE)
+                .OptionalPointer(Name.SQL_QUERY)
+            );
 
             patterns.Add(
-            new Pattern("8.0.1")
+            new Pattern("8.0.1", new List<string> { "8.1.0", "8.0.1" })
                 .Pointer(Name.DB_NAME)
                 .FileDataID(Name.FDID)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
@@ -76,7 +76,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-            new Pattern("7.3.5-release")
+            new Pattern("7.3.5-release", new List<string> { "7.3.5" }, 25875, 26972)
                 .Pointer(Name.DB_NAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
                 .RecordSize(Name.RECORD_SIZE)
@@ -107,7 +107,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-            new Pattern("7.3.5-ptr")
+            new Pattern("7.3.5-ptr", new List<string> { "7.3.5" }, 25600, 25864)
                 .Pointer(Name.DB_NAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
                 .RecordSize(Name.RECORD_SIZE)
@@ -137,7 +137,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("7.{2.5,3.{0,2}}-release") // note: also matches release-7.3.5 even though different struct
+                new Pattern("7.{2.5,3.{0,2}}-release", new List<string> { "7.2.5", "7.3.0", "7.3.2" }) // note: also matches release-7.3.5 even though different struct
                 .Pointer(Name.DB_NAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
                 .RecordSize(Name.RECORD_SIZE)
@@ -167,7 +167,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("6.0.1-db2-internal") // note: conflicts with internal-6.0.1-dbc
+                new Pattern("6.0.1-db2-internal", new List<string> { "6.0.1" }) // note: conflicts with internal-6.0.1-dbc
                .Pointer(Name.DB_FILENAME)
                .Pointer(Name.DB_CACHE_FILENAME)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
@@ -192,7 +192,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("6.0.1-dbc-internal") // note: conflicts with internal-6.0.1-db2
+                new Pattern("6.0.1-dbc-internal", new List<string> { "6.0.1" }) // note: conflicts with internal-6.0.1-db2
                .Pointer(Name.DB_FILENAME)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
                .RecordSize(Name.RECORD_SIZE)
@@ -211,7 +211,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("5.0.1-dbc-internal") // note: subset of internal-6.0.1-dbc, so conflicts with that
+                new Pattern("5.0.1-dbc-internal", new List<string> { "5.0.1" }) // note: subset of internal-6.0.1-dbc, so conflicts with that
                .Pointer(Name.DB_FILENAME)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
                .RecordSize(Name.RECORD_SIZE)
@@ -224,7 +224,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("5.0.1-db2-internal") // note: subset of internal-6.0.1-db2, so conflicts with that and internal-5.0.1-dbc
+                new Pattern("5.0.1-db2-internal", new List<string> { "5.0.1" }) // note: subset of internal-6.0.1-db2, so conflicts with that and internal-5.0.1-dbc
                .Pointer(Name.DB_FILENAME)
                .Pointer(Name.DB_CACHE_FILENAME)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
