@@ -10,9 +10,9 @@ namespace DBDefsConverter
     {
         static void Main(string[] args)
         {
-            if(args.Length < 1 || args.Length > 3)
+            if (args.Length < 1 || args.Length > 3)
             {
-                throw new ArgumentException("Invalid argument count, need at least 1 argument: indbdfile/indbddir (outdir, default current dir) (json)");
+                throw new ArgumentException("Invalid argument count, need at least 1 argument: indbdfile/indbddir (outdir, default current dir) (json, xml)");
             }
 
             var inFile = args[0];
@@ -30,38 +30,25 @@ namespace DBDefsConverter
 
             if (args.Length == 3)
             {
-                if (args[2] == "json")
+                switch (args[2])
                 {
-                    exportFormat = args[2];
-                }
-                else
-                {
-                    throw new ArgumentException("Export format should be json");
+                    case "json":
+                    case "xml":
+                        exportFormat = args[2];
+                        break;
+                    default:
+                        throw new ArgumentException("Export format should be json");
                 }
             }
 
             if (Directory.Exists(args[0]))
             {
-                foreach (var file in Directory.GetFiles(args[0]))
-                {
-                    var reader = new DBDReader();
-                    Console.WriteLine("Exporting " + file);
-                    if (exportFormat == "json")
-                    {
-                        var target = Path.Combine(outDir, Path.GetFileNameWithoutExtension(file) + ".json"); ;
-                        ExportJSON(reader.Read(file), target);
-                    }
-                }
+                var files = Directory.GetFiles(args[0]);
+                DoExport(exportFormat, outDir, files);
             }
             else if (File.Exists(args[0]))
             {
-                var reader = new DBDReader();
-                Console.WriteLine("Exporting " + args[0]);
-                if (exportFormat == "json")
-                {
-                    var target = Path.Combine(outDir, Path.GetFileNameWithoutExtension(args[0]) + ".json"); ;
-                    ExportJSON(reader.Read(args[0]), target);
-                }
+                DoExport(exportFormat, outDir, args[0]);
             }
             else
             {
@@ -69,14 +56,31 @@ namespace DBDefsConverter
             }
         }
 
-        private static void ExportJSON(DBDefinition definition, string target)
+        private static void DoExport(string exportFormat, string outDir, params string[] files)
         {
-            Console.WriteLine("Saving JSON to " + target);
-            using (StreamWriter file = File.CreateText(target))
+            JsonSerializer jsonserializer = new JsonSerializer { NullValueHandling = NullValueHandling.Ignore };
+            DBDXMLSerializer xmlserializer = new DBDXMLSerializer();
+
+            foreach (var file in files)
             {
-                JsonSerializer serializer = new JsonSerializer();
-                serializer.NullValueHandling = NullValueHandling.Ignore;
-                serializer.Serialize(file, definition);
+                Console.WriteLine("Exporting " + file);
+
+                var reader = new DBDReader();
+                var target = Path.Combine(outDir, Path.ChangeExtension(Path.GetFileName(file), exportFormat));
+
+                Console.WriteLine($"Saving {exportFormat.ToUpper()} to {target}");
+                using (StreamWriter writer = File.CreateText(target))
+                {
+                    switch (exportFormat)
+                    {
+                        case "json":
+                            jsonserializer.Serialize(writer, reader.Read(file));
+                            break;
+                        case "xml":
+                            xmlserializer.Serialize(writer, reader.Read(file));
+                            break;
+                    }
+                }
             }
         }
     }

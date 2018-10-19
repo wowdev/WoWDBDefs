@@ -7,6 +7,11 @@ namespace DBDefsLib
         public Build minBuild;
         public Build maxBuild;
 
+        /// <summary>
+        /// Serialization requirement.
+        /// </summary>
+        private BuildRange() { }
+
         public BuildRange(Build minBuild, Build maxBuild)
         {
             this.minBuild = minBuild;
@@ -88,9 +93,9 @@ namespace DBDefsLib
         {
             unionedRange = null;
 
-            if (buildRange.Contains(minBuild) || 
-                buildRange.Contains(maxBuild) || 
-                Contains(buildRange.minBuild) || 
+            if (buildRange.Contains(minBuild) ||
+                buildRange.Contains(maxBuild) ||
+                Contains(buildRange.minBuild) ||
                 Contains(buildRange.maxBuild))
             {
                 Build min = minBuild, max = maxBuild;
