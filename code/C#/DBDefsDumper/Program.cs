@@ -14,7 +14,7 @@ namespace DBDefsDumper
         {
             if (args.Length < 2)
             {
-                throw new ArgumentException("Not enough arguments! Required: file, outdir");
+                throw new ArgumentException("Not enough arguments! Required: file, outdir, (build in x.x.x format)");
             }
 
             if (!File.Exists(args[0]))
@@ -121,8 +121,15 @@ namespace DBDefsDumper
                             bin.BaseStream.Position = matchPos;
                             bin.ReadBytes(14);
                             build = new string(bin.ReadChars(5));
-                            Console.WriteLine("Expansion, major and minor version not found in binary. Please enter it in this format X.X.X: ");
-                            build = Console.ReadLine() + "." + build;
+                            if(args.Length == 3)
+                            {
+                                build = args[2] + "." + build;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Expansion, major and minor version not found in binary. Please enter it in this format X.X.X: ");
+                                build = Console.ReadLine() + "." + build;
+                            }
                         }
                         else
                         {
