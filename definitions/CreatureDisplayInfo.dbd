@@ -119,23 +119,23 @@ TextureVariation[3]
 BloodID<32>
 
 LAYOUT 5D6823C8
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
 $id$ID<32>
 CreatureModelScale
-ModelID<16>
-NPCSoundID<16>
+ModelID<u16>
+NPCSoundID<u16>
 SizeClass<8>
-Flags<8>
+Flags<u8>
 Gender<8>
-SoundID<16>
-CreatureModelAlpha<8>
-BloodID<8>
+SoundID<u16>
+CreatureModelAlpha<u8>
+BloodID<u8>
 ExtendedDisplayInfoID<32>
-ParticleColorID<16>
+ParticleColorID<u16>
 PortraitCreatureDisplayInfoID<32>
 PortraitTextureFileDataID<32>
-ObjectEffectPackageID<16>
-AnimReplacementSetID<16>
+ObjectEffectPackageID<u16>
+AnimReplacementSetID<u16>
 StateSpellVisualKitID<32>
 PlayerOverrideScale
 PetInstanceScale

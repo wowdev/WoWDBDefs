@@ -85,7 +85,7 @@ CurrencyQty<32>
 MaxAssignments<32>
 
 LAYOUT F4DF1FA6
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
 HordeName_lang
 AllianceName_lang
@@ -94,20 +94,20 @@ Tooltip_lang
 HordeGameObjectID<32>
 AllianceGameObjectID<32>
 IconFileDataID<32>
-CurrencyTypeID<16>
-HordeUiTextureKitID<16>
-AllianceUiTextureKitID<16>
-AllianceSceneScriptPackageID<16>
-HordeSceneScriptPackageID<16>
-GarrAbilityID<16>
-BonusGarrAbilityID<16>
-GoldCost<16>
-GarrTypeID<8>
-BuildingType<8>
-GarrSiteID<8>
-UpgradeLevel<8>
-ShipmentCapacity<8>
-Flags<8>
+CurrencyTypeID<u16>
+HordeUiTextureKitID<u16>
+AllianceUiTextureKitID<u16>
+AllianceSceneScriptPackageID<u16>
+HordeSceneScriptPackageID<u16>
+GarrAbilityID<u16>
+BonusGarrAbilityID<u16>
+GoldCost<u16>
+GarrTypeID<u8>
+BuildingType<u8>
+GarrSiteID<u8>
+UpgradeLevel<u8>
+ShipmentCapacity<u8>
+Flags<u8>
 BuildSeconds<32>
 CurrencyQty<32>
 MaxAssignments<32>

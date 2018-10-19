@@ -122,28 +122,28 @@ Name_lang
 ItemVisual<32>
 
 LAYOUT DF71600C
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
 Name_lang
 HordeName_lang
-EffectArg<32>[3]
+EffectArg<u32>[3]
 EffectScalingPoints[3]
-TransmogCost<32>
-IconFileDataID<32>
+TransmogCost<u32>
+IconFileDataID<u32>
 EffectPointsMin<16>[3]
-ItemVisual<16>
-Flags<16>
-RequiredSkillID<16>
-RequiredSkillRank<16>
-ItemLevel<16>
-Charges<8>
-Effect<8>[3]
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
 ScalingClass<8>
 ScalingClassRestricted<8>
-Condition_ID<8>
-MinLevel<8>
-MaxLevel<8>
-TransmogPlayerConditionID<32>
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>
+TransmogPlayerConditionID<u32>
 
 LAYOUT 80DEA734
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972

@@ -81,21 +81,21 @@ BottomBoundary<32>
 AreaName
 
 LAYOUT 4B66A859
-BUILD 8.0.1.26297
+BUILD 8.0.1.26287, 8.0.1.26297
 AreaName
 LocLeft
 LocTop
 LocRight
 LocBottom
-Flags<32>
+Flags<u32>
 MapID<16>
 DisplayMapID<16>
-AreaID<16>
-DefaultDungeonFloor<16>
-ParentWorldMapID<16>
-LevelRangeMin<8>
-LevelRangeMax<8>
-BountySetID<8>
-BountyDisplayLocation<8>
+AreaID<u16>
+DefaultDungeonFloor<u16>
+ParentWorldMapID<u16>
+LevelRangeMin<u8>
+LevelRangeMax<u8>
+BountySetID<u8>
+BountyDisplayLocation<u8>
 $id$ID<32>
-VisibilityPlayerConditionID<32>
+VisibilityPlayerConditionID<u32>

@@ -91,26 +91,26 @@ PetNameToken
 Name_lang
 
 LAYOUT 25B63E14
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 Name_lang
 Filename
 Name_male_lang
 Name_female_lang
 PetNameToken
-CreateScreenFileDataID<32>
-SelectScreenFileDataID<32>
-IconFileDataID<32>
-LowResScreenFileDataID<32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+IconFileDataID<u32>
+LowResScreenFileDataID<u32>
 StartingLevel<32>
-Flags<16>
-CinematicSequenceID<16>
-DefaultSpec<16>
-PrimaryStatPriority<8>
-DisplayPower<8>
-RangedAttackPowerPerAgility<8>
-AttackPowerPerAgility<8>
-AttackPowerPerStrength<8>
-SpellClassSet<8>
+Flags<u16>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+PrimaryStatPriority<u8>
+DisplayPower<u8>
+RangedAttackPowerPerAgility<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
+SpellClassSet<u8>
 $id$ID<32>
 
 LAYOUT F6E46F38

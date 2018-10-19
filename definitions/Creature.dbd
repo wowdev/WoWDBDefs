@@ -45,7 +45,7 @@ Classification<u8>
 StartAnimState<u8>
 
 LAYOUT 2FC7F691
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
 Name_lang
 NameAlt_lang
@@ -55,10 +55,10 @@ DisplayID<32>[4]
 DisplayProbability[4]
 AlwaysItem<32>[3]
 MountCreatureID<32>
-Classification<8>
-CreatureType<8>
-CreatureFamily<8>
-StartAnimState<8>
+Classification<u8>
+CreatureType<u8>
+CreatureFamily<u8>
+StartAnimState<u8>
 
 LAYOUT 379FF533, FADCD203
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734

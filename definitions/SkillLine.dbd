@@ -91,17 +91,17 @@ Abandonable<32>
 DisplayName_lang
 
 LAYOUT 9C1D6E2E
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
 $noninline,id$ID<32>
 DisplayName_lang
 AlternateVerb_lang
 Description_lang
 HordeDisplayName_lang
-Flags<16>
+Flags<u16>
 CategoryID<8>
 CanLink<8>
 SpellIconFileID<32>
-ParentSkillLineID<32>
+ParentSkillLineID<u32>
 ParentTierIndex<32>
 
 LAYOUT 3A71246C

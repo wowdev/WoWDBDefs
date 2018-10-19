@@ -92,11 +92,11 @@ ImplicitTarget<32>[2]
 $noninline,relation$SpellID<32>
 
 LAYOUT EC349C1D
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
 $noninline,id$ID<32>
 DifficultyID<32>
 EffectIndex<32>
-Effect<32>
+Effect<u32>
 EffectAmplitude
 EffectAttributes<32>
 EffectAura<32>
@@ -119,9 +119,9 @@ Variance
 ResourceCoefficient
 GroupSizeBasePointsCoefficient
 EffectMiscValue<32>[2]
-EffectRadiusIndex<32>[2]
+EffectRadiusIndex<u32>[2]
 EffectSpellClassMask<32>[4]
-ImplicitTarget<32>[2]
+ImplicitTarget<u32>[2]
 $noninline,relation$SpellID<32>
 
 LAYOUT C8B79FF8

@@ -99,26 +99,26 @@ HealEffect<32>
 HealEffectSpeed<32>
 
 LAYOUT 9AB21573
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $noninline,id$ID<32>
-State1WMO<16>
-State2WMO<16>
-State3WMO<16>
-State0WMO<16>
-HealEffectSpeed<16>
+State1WMO<u16>
+State2WMO<u16>
+State3WMO<u16>
+State0WMO<u16>
+HealEffectSpeed<u16>
 State0ImpactEffectDoodadSet<8>
-State0AmbientDoodadSet<8>
+State0AmbientDoodadSet<u8>
 State1DestructionDoodadSet<8>
 State1ImpactEffectDoodadSet<8>
-State1AmbientDoodadSet<8>
+State1AmbientDoodadSet<u8>
 State2DestructionDoodadSet<8>
 State2ImpactEffectDoodadSet<8>
-State2AmbientDoodadSet<8>
-State3InitDoodadSet<8>
-State3AmbientDoodadSet<8>
-EjectDirection<8>
-DoNotHighlight<8>
-HealEffect<8>
+State2AmbientDoodadSet<u8>
+State3InitDoodadSet<u8>
+State3AmbientDoodadSet<u8>
+EjectDirection<u8>
+DoNotHighlight<u8>
+HealEffect<u8>
 State0NameSet<8>
 State1NameSet<8>
 State2NameSet<8>

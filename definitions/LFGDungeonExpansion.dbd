@@ -7,6 +7,13 @@ int Hard_level_min
 int Hard_level_max
 int Target_level_min
 int Target_level_max
+int Field_8_0_1_26287_000
+int Field_8_0_1_26287_001
+int Field_8_0_1_26287_002
+int Field_8_0_1_26287_003
+int Field_8_0_1_26287_004
+int Field_8_0_1_26287_005
+int Field_8_0_1_26287_006
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -39,3 +46,14 @@ Hard_level_max<u8>
 Target_level_min<32>
 Target_level_max<32>
 $noninline,relation$Lfg_ID<u16>
+
+LAYOUT E4E357A5
+BUILD 8.0.1.26287
+$noninline,id$ID<32>
+Field_8_0_1_26287_000<u16>
+Field_8_0_1_26287_001<u8>
+Field_8_0_1_26287_002<u8>
+Field_8_0_1_26287_003<u8>
+Field_8_0_1_26287_004<32>
+Field_8_0_1_26287_005<32>
+$noninline,relation$Field_8_0_1_26287_006<u16>

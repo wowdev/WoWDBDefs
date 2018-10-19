@@ -46,13 +46,13 @@ Attributes<32>[14]
 $noninline,relation$SpellID<32>
 
 LAYOUT 9CC2DC91
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
-DifficultyID<8>
-CastingTimeIndex<16>
-DurationIndex<16>
-RangeIndex<16>
-SchoolMask<8>
+DifficultyID<u8>
+CastingTimeIndex<u16>
+DurationIndex<u16>
+RangeIndex<u16>
+SchoolMask<u8>
 Speed
 LaunchDelay
 SpellIconFileDataID<32>

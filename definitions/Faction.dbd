@@ -84,7 +84,7 @@ ReputationBase<32>[4]
 Name_lang
 
 LAYOUT 7D7A0425
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 ReputationRaceMask<64>[4]
 Name_lang
 Description_lang
@@ -94,13 +94,13 @@ ReputationMax<32>[4]
 ParentFactionMod[2]
 ReputationIndex<16>
 ReputationClassMask<16>[4]
-ReputationFlags<16>[4]
-ParentFactionID<16>
-ParagonFactionID<16>
-ParentFactionCap<8>[2]
-Expansion<8>
-FriendshipRepID<8>
-Flags<8>
+ReputationFlags<u16>[4]
+ParentFactionID<u16>
+ParagonFactionID<u16>
+ParentFactionCap<u8>[2]
+Expansion<u8>
+FriendshipRepID<u8>
+Flags<u8>
 
 LAYOUT 6BFE8737
 BUILD 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972

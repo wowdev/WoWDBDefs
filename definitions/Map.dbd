@@ -285,7 +285,7 @@ MaxPlayers<32>
 ParentMapID<32>
 
 LAYOUT 72DD596B
-BUILD 8.0.1.26297
+BUILD 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
 Directory
 MapName_lang
@@ -296,18 +296,18 @@ PvpLongDescription_lang
 Flags<32>[2]
 MinimapIconScale
 Corpse[2]
-AreaTableID<16>
+AreaTableID<u16>
 LoadingScreenID<16>
 TimeOfDayOverride<16>
 ParentMapID<16>
 CosmeticParentMapID<16>
 CorpseMapID<16>
 WindSettingsID<16>
-MapType<8>
-InstanceType<8>
-ExpansionID<8>
-TimeOffset<8>
-MaxPlayers<8>
+MapType<u8>
+InstanceType<u8>
+ExpansionID<u8>
+TimeOffset<u8>
+MaxPlayers<u8>
 
 LAYOUT 1CFE0E06
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734

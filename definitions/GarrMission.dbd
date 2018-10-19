@@ -101,36 +101,36 @@ EnvGarrMechanicID<u32>
 $noninline,relation$GarrMissionSetID<u32>
 
 LAYOUT 934C4D3C
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 Name_lang
 Location_lang
 Description_lang
 MissionDuration<32>
-OfferDuration<32>
+OfferDuration<u32>
 MapPos[2]
 WorldPos[2]
-MissionCostCurrencyTypesID<16>
-UiTextureKitID<16>
-TargetItemLevel<16>
-GarrTypeID<8>
-GarrMissionTypeID<8>
-GarrFollowerTypeID<8>
-MaxFollowers<8>
-OfferedGarrMissionTextureID<8>
-EnvGarrMechanicTypeID<8>
+MissionCostCurrencyTypesID<u16>
+UiTextureKitID<u16>
+TargetItemLevel<u16>
+GarrTypeID<u8>
+GarrMissionTypeID<u8>
+GarrFollowerTypeID<u8>
+MaxFollowers<u8>
+OfferedGarrMissionTextureID<u8>
+EnvGarrMechanicTypeID<u8>
 TargetLevel<8>
-BaseCompletionChance<8>
-FollowerDeathChance<8>
+BaseCompletionChance<u8>
+FollowerDeathChance<u8>
 $id$ID<32>
-MissionCost<32>
-EnvGarrMechanicID<32>
-PlayerConditionID<32>
+MissionCost<u32>
+EnvGarrMechanicID<u32>
+PlayerConditionID<u32>
 TravelDuration<32>
-BaseFollowerXP<32>
-OvermaxRewardPackID<32>
-AreaID<32>
-Flags<32>
-$noninline,relation$GarrMissionSetID<32>
+BaseFollowerXP<u32>
+OvermaxRewardPackID<u32>
+AreaID<u32>
+Flags<u32>
+$noninline,relation$GarrMissionSetID<u32>
 
 LAYOUT F0ADAC5D
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734

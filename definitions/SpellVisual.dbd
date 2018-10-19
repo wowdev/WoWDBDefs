@@ -207,22 +207,22 @@ WeaponTrailFadeoutRate<8>
 WeaponTrailDuration<32>
 
 LAYOUT 8B390BA8
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
 $noninline,id$ID<32>
 Flags<32>
 MissileCastOffset[3]
 MissileImpactOffset[3]
-SpellVisualMissileSetID<16>
+SpellVisualMissileSetID<u16>
 MissileAttachment<8>
 MissileDestinationAttachment<8>
-AnimEventSoundID<32>
-MissileCastPositionerID<32>
-MissileImpactPositionerID<32>
+AnimEventSoundID<u32>
+MissileCastPositionerID<u32>
+MissileImpactPositionerID<u32>
 MissileTargetingKit<32>
-HostileSpellVisualID<32>
-CasterSpellVisualID<32>
-DamageNumberDelay<16>
-LowViolenceSpellVisualID<32>
+HostileSpellVisualID<u32>
+CasterSpellVisualID<u32>
+DamageNumberDelay<u16>
+LowViolenceSpellVisualID<u32>
 
 LAYOUT 514F85ED
 BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27026, 8.0.1.27075, 8.0.1.27101, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178, 8.0.1.27219, 8.0.1.27291, 8.0.1.27326, 8.0.1.27353, 8.0.1.27355, 8.0.1.27356, 8.0.1.27366, 8.0.1.27377, 8.0.1.27404, 8.0.1.27481, 8.0.1.27547, 8.0.1.27602, 8.0.1.27791, 8.0.1.27843, 8.0.1.28153, 8.1.0.27826, 8.1.0.27934, 8.1.0.27985, 8.1.0.28048, 8.1.0.28085, 8.1.0.28151, 8.1.0.28186

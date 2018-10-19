@@ -31,10 +31,10 @@ DungeonMapID<32>
 MinZ
 
 LAYOUT B101DEC3
-BUILD 8.0.1.26297
+BUILD 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
-DoodadPlacementID<32>
+DoodadPlacementID<u32>
 MinZ
-$relation$MapID<16>
-WMOGroupID<16>
-DungeonMapID<16>
+$relation$MapID<u16>
+WMOGroupID<u16>
+DungeonMapID<u16>

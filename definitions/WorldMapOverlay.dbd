@@ -66,21 +66,21 @@ HitRectBottom<32>
 HitRectRight<32>
 
 LAYOUT 76440FD7
-BUILD 8.0.1.26297
+BUILD 8.0.1.26287, 8.0.1.26297
 TextureName
 $id$ID<32>
-TextureWidth<16>
-TextureHeight<16>
-$relation$MapAreaID<32>
+TextureWidth<u16>
+TextureHeight<u16>
+$relation$MapAreaID<u32>
 OffsetX<32>
 OffsetY<32>
 HitRectTop<32>
 HitRectBottom<32>
 HitRectLeft<32>
 HitRectRight<32>
-PlayerConditionID<32>
-Flags<32>
-AreaID<32>[4]
+PlayerConditionID<u32>
+Flags<u32>
+AreaID<u32>[4]
 
 LAYOUT 3F9FB482
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734

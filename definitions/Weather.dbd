@@ -37,7 +37,7 @@ SoundAmbienceID<32>
 WindSettingsID<32>
 
 LAYOUT 1FBCCDF1, BA9E1015
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
 $noninline,id$ID<32>
 Intensity[2]
 TransitionSkyBox
@@ -48,11 +48,11 @@ TwinkleIntensity
 FallModifier
 RotationalSpeed
 ParticulateFileDataID<32>
-SoundAmbienceID<16>
-Type<8>
-EffectType<8>
-WindSettingsID<8>
-AmbienceID<32>
+SoundAmbienceID<u16>
+Type<u8>
+EffectType<u8>
+WindSettingsID<u8>
+AmbienceID<u32>
 EffectTextureFileDataID<32>
 
 BUILD 4.0.0.11792

@@ -61,7 +61,7 @@ EffectFadeInMs<u32>
 EffectFadeOutMs<u32>
 
 LAYOUT 85B3706F
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
 $noninline,id$ID<32>
 Saturation
 GammaRed
@@ -86,10 +86,10 @@ BlurIntensity
 BlurOffsetY
 BlurMultiplier
 BlurPower
-Flags<32>
-EffectFadeInMs<32>
-EffectFadeOutMs<32>
-TextureBlendSetID<32>
+Flags<u32>
+EffectFadeInMs<u32>
+EffectFadeOutMs<u32>
+TextureBlendSetID<u32>
 
 LAYOUT 801B4DD0
 BUILD 8.0.1.26734

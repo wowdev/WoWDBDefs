@@ -90,7 +90,7 @@ VolumeFadeOutCurveID<32>
 ChanceToPlay
 
 LAYOUT 4933AC10
-BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734
 $id$ID<32>
 InnerRadius2D
 OuterRadius2D
@@ -98,39 +98,39 @@ DuckToSFX
 DuckToMusic
 InnerRadiusOfInfluence
 OuterRadiusOfInfluence
-TimeToDuck<32>
-TimeToUnduck<32>
-Usage<8>
-SoundKitID<32>
-TimeA<32>
-TimeB<32>
-TimeC<32>
-TimeD<32>
+TimeToDuck<u32>
+TimeToUnduck<u32>
+Usage<u8>
+SoundKitID<u32>
+TimeA<u32>
+TimeB<u32>
+TimeC<u32>
+TimeD<u32>
 RandomOffsetRange<32>
-TimeIntervalMin<32>
-TimeIntervalMax<32>
-DelayMin<32>
-DelayMax<32>
-VolumeSliderCategory<8>
+TimeIntervalMin<u32>
+TimeIntervalMax<u32>
+DelayMin<u32>
+DelayMax<u32>
+VolumeSliderCategory<u8>
 DuckToAmbience
 DuckToDialog
 DuckToSuppressors
 InsideAngle
 OutsideAngle
 OutsideVolume
-MinRandomPosOffset<8>
-MaxRandomPosOffset<16>
+MinRandomPosOffset<u8>
+MaxRandomPosOffset<u16>
 MsOffset<32>
-TimeCooldownMin<32>
-TimeCooldownMax<32>
-MaxInstancesBehavior<8>
-VolumeControlType<8>
+TimeCooldownMin<u32>
+TimeCooldownMax<u32>
+MaxInstancesBehavior<u8>
+VolumeControlType<u8>
 VolumeFadeInTimeMin<32>
 VolumeFadeInTimeMax<32>
-VolumeFadeInCurveID<32>
+VolumeFadeInCurveID<u32>
 VolumeFadeOutTimeMin<32>
 VolumeFadeOutTimeMax<32>
-VolumeFadeOutCurveID<32>
+VolumeFadeOutCurveID<u32>
 ChanceToPlay
 
 LAYOUT 73F6F023

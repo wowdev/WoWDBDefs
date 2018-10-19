@@ -88,22 +88,22 @@ Flags<32>
 Name_lang
 
 LAYOUT 78061B4D
-BUILD 8.0.1.26297
+BUILD 8.0.1.26287, 8.0.1.26297
 $noninline,id$ID<32>
 Name_lang
 Description_lang
 Pos[3]
-Flags<32>
+Flags<u32>
 PoiDataType<32>
 PoiData<32>
-ContinentID<16>
+ContinentID<u16>
 AreaID<16>
-WorldStateID<16>
-Importance<8>
-Icon<8>
+WorldStateID<u16>
+Importance<u8>
+Icon<u8>
 PortLocID<32>
-PlayerConditionID<32>
-UiTextureAtlasMemberID<32>
+PlayerConditionID<u32>
+UiTextureAtlasMemberID<u32>
 MapFloor<32>
 WMOGroupID<32>
 
