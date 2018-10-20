@@ -5,7 +5,7 @@ Features:
 - Updated definitions for all World of Warcraft builds between 7.3.5.26654 and current
 - New builds added soon after release (as long as there are no major DBC format changes)
 - Human readable
-- Machine readable ([C#](https://github.com/wowdev/WoWDBDefs/tree/master/code/C%23) and [Python](https://github.com/wowdev/WoWDBDefs/tree/master/code/Python3) code available as well as [a tool to convert DBD to JSON](https://github.com/wowdev/WoWDBDefs/tree/master/code/C%23/DBDefsConverter))
+- Machine readable ([C#](https://github.com/wowdev/WoWDBDefs/tree/master/code/C%23) and [Python](https://github.com/wowdev/WoWDBDefs/tree/master/code/Python3) code available as well as [a tool to convert DBD to JSON/XML](https://github.com/wowdev/WoWDBDefs/tree/master/code/C%23/DBDefsConverter))
 
 Project goals:
 - Updated database definitions for all versions of World of Warcraft (work ongoing, some already available)
