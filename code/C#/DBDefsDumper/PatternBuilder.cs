@@ -62,7 +62,7 @@ namespace DBDefsDumper
                 .Pointer(Name.FIELD_FLAGS_IN_FILE)
                 .Uint8(Name.FLAGS_58_21)
                 .Hash(Name.TABLE_HASH)
-                .Append("00", "00", "00", "00")
+                .Hash(Name.SIBLING_TABLE_HASH)
                 .Hash(Name.LAYOUT_HASH)
                 .Uint8(Name.FLAGS_68_421)
                 .FieldReference(Name.FIELD_NUM_IDX_INT)
@@ -93,7 +93,7 @@ namespace DBDefsDumper
                 .Pointer(Name.FIELD_FLAGS_IN_FILE)
                 .Uint8(Name.FLAGS_58_21)
                 .Hash(Name.TABLE_HASH)
-                .Append("00", "00", "00", "00")
+                .Hash(Name.SIBLING_TABLE_HASH)
                 .Hash(Name.LAYOUT_HASH)
                 .Uint8(Name.FLAGS_68_421)
                 .FieldReference(Name.FIELD_NUM_IDX_INT)
@@ -123,7 +123,7 @@ namespace DBDefsDumper
                 .Pointer(Name.FIELD_FLAGS_IN_FILE)
                 .Uint8(Name.FLAGS_58_21)
                 .Hash(Name.TABLE_HASH)
-                .Append("00", "00", "00", "00")
+                .Hash(Name.SIBLING_TABLE_HASH)
                 .Hash(Name.LAYOUT_HASH)
                 .Uint8(Name.FLAGS_68_421)
                 .FieldReference(Name.FIELD_NUM_IDX_INT)
@@ -154,7 +154,7 @@ namespace DBDefsDumper
                 .Pointer(Name.FIELD_FLAGS_IN_FILE)
                 .Uint8(Name.FLAGS_58_21)
                 .Hash(Name.TABLE_HASH)
-                .Append("00", "00", "00", "00")
+                .Hash(Name.SIBLING_TABLE_HASH)
                 .Hash(Name.LAYOUT_HASH)
                 .Uint8(Name.FLAGS_68_421)
                 .FieldReference(Name.FIELD_NUM_IDX_INT)
@@ -167,26 +167,24 @@ namespace DBDefsDumper
                 .Boolean(Name.UNKC0)
             );
 
-            // Unfinished
-            //patterns.Add(
-            //    new Pattern("7.1.5-release", new List<string> { "7.1.5" })
-            //    .Pointer(Name.DB_NAME)
-            //    .Pointer(Name.DB_CACHE_FILENAME)
-            //    .FieldReference(Name.NUM_FIELD_IN_FILE)
-            //    .RecordSize(Name.RECORD_SIZE)
-            //    .OptionalFieldReference(Name.ID_COLUMN)
-            //    .Append("?", "?", "?", "?") // sparse table in here?
-            //    .Pointer(Name.FIELD_SIZES)
-            //    .Pointer(Name.FIELD_TYPES)
-            //    .Pointer(Name.FIELD_FLAGS)
-            //    .Pointer(Name.FIELD_FLAGS_IN_FILE)
-            //    .Append("?", "?", "?", "?")
-            //    .Append("?", "?", "?", "?")
-            //    .Hash(Name.TABLE_HASH)
-            //    .Append("00", "00", "00", "00")
-            //    .Hash(Name.LAYOUT_HASH)
-            //    .Uint8(Name.FLAGS_68_421)
-            //);
+            patterns.Add(
+                new Pattern("7.1.5-release", new List<string> { "7.1.5" })
+                .Pointer(Name.DB_NAME)
+                .Pointer(Name.DB_CACHE_FILENAME)
+                .FieldReference(Name.NUM_FIELD_IN_FILE)
+                .RecordSize(Name.RECORD_SIZE)
+                .OptionalFieldReference(Name.ID_COLUMN)
+                .Boolean(Name.SPARSE_TABLE)
+                .Pointer(Name.FIELD_OFFSETS)
+                .Pointer(Name.FIELD_SIZES_IN_FILE)
+                .Pointer(Name.FIELD_TYPES_IN_FILE)
+                .Pointer(Name.FIELD_FLAGS)
+                .Uint8(Name.FLAGS_58_21)
+                .Hash(Name.TABLE_HASH)
+                .Hash(Name.SIBLING_TABLE_HASH)
+                .Hash(Name.LAYOUT_HASH)
+                .Uint8(Name.FLAGS_68_421)
+            );
 
             patterns.Add(
                 new Pattern("6.0.1-db2-internal", new List<string> { "6.0.1" }, 18179, 18179) // note: conflicts with internal-6.0.1-dbc

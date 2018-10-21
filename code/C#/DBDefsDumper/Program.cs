@@ -274,8 +274,11 @@ namespace DBDefsDumper
                             {
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_CACHE_FILENAME];
                                 bin.BaseStream.Position = (long)translate((ulong)bin.ReadInt64());
+                                var adbname = bin.ReadCString();
 
-                                if (!bin.ReadCString().EndsWith("adb"))
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_CACHE_FILENAME];
+
+                                if (!adbname.EndsWith("adb"))
                                 {
                                     Console.WriteLine("ADB filename does not end in adb, skipping match..");
                                     continue;
@@ -288,7 +291,7 @@ namespace DBDefsDumper
                             if (pattern.offsets.ContainsKey(Name.DB_NAME))
                             {
                                 bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                                metas.TryAdd(bin.ReadCString(), meta);
+                                metas.TryAdd(Path.GetFileNameWithoutExtension(bin.ReadCString()), meta);
                             }else if (pattern.offsets.ContainsKey(Name.DB_FILENAME))
                             {
                                 bin.BaseStream.Position = (long)translate((ulong)meta.dbFilenameOffs);
