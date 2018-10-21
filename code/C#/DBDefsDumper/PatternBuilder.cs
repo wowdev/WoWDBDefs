@@ -138,7 +138,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("7.{0,2.5,3.{0,2}}-release", new List<string> { "7.2.0", "7.2.5", "7.3.0", "7.3.2" }) // note: also matches release-7.3.5 even though different struct
+                new Pattern("7.{0,2.5,3.{0,2}}-release", new List<string> { "7.2.0", "7.2.5", "7.3.0", "7.3.2" }, 23514, 25549) // note: also matches release-7.3.5 even though different struct
                 .Pointer(Name.DB_NAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
                 .RecordSize(Name.RECORD_SIZE)
@@ -168,7 +168,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("7.{0,1}.{0,5}-release", new List<string> { "7.0.3", "7.1.0", "7.1.5" })
+                new Pattern("7.{0,1}.{0,5}-release", new List<string> { "7.0.3", "7.1.0", "7.1.5", "7.2.0" }, 0, 23476) //todo: find minbuild
                 .Pointer(Name.DB_NAME)
                 .Pointer(Name.DB_CACHE_FILENAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
