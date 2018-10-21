@@ -291,7 +291,13 @@ namespace DBDefsDumper
                             if (pattern.offsets.ContainsKey(Name.DB_NAME))
                             {
                                 bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
-                                metas.TryAdd(Path.GetFileNameWithoutExtension(bin.ReadCString()), meta);
+                                var filename = bin.ReadCString();
+                                if(filename.Contains("DBFilesClient"))
+                                {
+                                    filename = filename.Substring(filename.IndexOf("\\") + 1);
+                                }
+
+                                metas.TryAdd(Path.GetFileNameWithoutExtension(filename), meta);
                             }else if (pattern.offsets.ContainsKey(Name.DB_FILENAME))
                             {
                                 bin.BaseStream.Position = (long)translate((ulong)meta.dbFilenameOffs);

@@ -168,7 +168,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("7.1.5-release", new List<string> { "7.1.5" })
+                new Pattern("7.{0,1}.{0,5}-release", new List<string> { "7.0.3", "7.1.0", "7.1.5" })
                 .Pointer(Name.DB_NAME)
                 .Pointer(Name.DB_CACHE_FILENAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
