@@ -38,6 +38,11 @@ namespace DBDefsDumper
 
                 var build = "";
 
+                if (args.Length == 3)
+                {
+                    build = args[2];
+                }
+
                 while (true)
                 {
                     if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
@@ -123,7 +128,7 @@ namespace DBDefsDumper
                             build = new string(bin.ReadChars(5));
                             if(args.Length == 3)
                             {
-                                build = args[2] + "." + build;
+                                build = args[2];
                             }
                             else
                             {
@@ -155,22 +160,57 @@ namespace DBDefsDumper
                 foreach(var pattern in patternBuilder.patterns)
                 {
                     // Skip versions of the pattern that aren't for this expansion
-                    if(!pattern.compatiblePatches.Contains(build.Substring(0, 5)))
+                    if (build.StartsWith("1"))
                     {
-                        Console.WriteLine("Skipping " + pattern.name + " as it does not list " + build + " as compatible!");
-                        continue;
-                    }
+                        if (!pattern.compatiblePatches.Contains(build.Substring(0, 6)))
+                        {
+                            Console.WriteLine("Skipping " + pattern.name + " as it does not list " + build + " as compatible!");
+                            continue;
+                        }
 
-                    if(pattern.minBuild != 0 && pattern.minBuild > int.Parse(build.Substring(6)))
-                    {
-                        Console.WriteLine("Skipping " + pattern.name + " as minimum build " + pattern.minBuild + " exceeds build of " + build.Substring(6));
-                        continue;
-                    }
+                        if (!pattern.compatiblePatches.Contains(build.Substring(0, 6)))
+                        {
+                            Console.WriteLine("Skipping " + pattern.name + " as it does not list " + build + " as compatible!");
+                            continue;
+                        }
 
-                    if (pattern.maxBuild != 0 && int.Parse(build.Substring(6)) > pattern.maxBuild)
+                        if (pattern.minBuild != 0 && pattern.minBuild > int.Parse(build.Substring(7)))
+                        {
+                            Console.WriteLine("Skipping " + pattern.name + " as minimum build " + pattern.minBuild + " exceeds build of " + build.Substring(6));
+                            continue;
+                        }
+
+                        if (pattern.maxBuild != 0 && int.Parse(build.Substring(7)) > pattern.maxBuild)
+                        {
+                            Console.WriteLine("Skipping " + pattern.name + " as maximum build " + pattern.maxBuild + " exceeds build of " + build.Substring(6));
+                            continue;
+                        }
+                    }
+                    else
                     {
-                        Console.WriteLine("Skipping " + pattern.name + " as maximum build " + pattern.maxBuild + " exceeds build of " + build.Substring(6));
-                        continue;
+                        if (!pattern.compatiblePatches.Contains(build.Substring(0, 5)))
+                        {
+                            Console.WriteLine("Skipping " + pattern.name + " as it does not list " + build + " as compatible!");
+                            continue;
+                        }
+
+                        if (!pattern.compatiblePatches.Contains(build.Substring(0, 5)))
+                        {
+                            Console.WriteLine("Skipping " + pattern.name + " as it does not list " + build + " as compatible!");
+                            continue;
+                        }
+
+                        if (pattern.minBuild != 0 && pattern.minBuild > int.Parse(build.Substring(6)))
+                        {
+                            Console.WriteLine("Skipping " + pattern.name + " as minimum build " + pattern.minBuild + " exceeds build of " + build.Substring(6));
+                            continue;
+                        }
+
+                        if (pattern.maxBuild != 0 && int.Parse(build.Substring(6)) > pattern.maxBuild)
+                        {
+                            Console.WriteLine("Skipping " + pattern.name + " as maximum build " + pattern.maxBuild + " exceeds build of " + build.Substring(6));
+                            continue;
+                        }
                     }
 
                     var patternBytes = ParsePattern(pattern.cur_pattern).ToArray();
