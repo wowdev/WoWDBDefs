@@ -3,6 +3,10 @@ int ID
 int FileDataID
 int OrderIndex
 int LiquidTypeID
+int Field_8_1_0_28202_000
+int Field_8_1_0_28202_001
+int Field_8_1_0_28202_002
+int Field_8_1_0_28202_003
 
 LAYOUT 7DADCCB8
 BUILD 8.1.0.27826, 8.1.0.27934, 8.1.0.27985, 8.1.0.28048, 8.1.0.28085, 8.1.0.28151, 8.1.0.28186
@@ -10,3 +14,11 @@ $noninline,id$ID<32>
 FileDataID<32>
 OrderIndex<32>
 $noninline,relation$LiquidTypeID<32>
+
+LAYOUT 6182D296
+BUILD 8.1.0.28202
+$noninline,id$ID<32>
+Field_8_1_0_28202_000<32>
+Field_8_1_0_28202_001<32>
+Field_8_1_0_28202_002<8>
+$noninline,relation$Field_8_1_0_28202_003<32>
