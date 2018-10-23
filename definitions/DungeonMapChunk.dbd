@@ -5,6 +5,11 @@ int<WMOAreaTable::WMOGroupID> WMOGroupID
 int<DungeonMap::ID> DungeonMapID
 float MinZ
 int DoodadPlacementID
+int Field_1_13_0_28211_000
+float Field_1_13_0_28211_001
+int Field_1_13_0_28211_002
+int Field_1_13_0_28211_003
+int Field_1_13_0_28211_004
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -38,3 +43,12 @@ MinZ
 $relation$MapID<u16>
 WMOGroupID<u16>
 DungeonMapID<u16>
+
+LAYOUT F1BD499A
+BUILD 1.13.0.28211
+$noninline,id$ID<32>
+Field_1_13_0_28211_000<32>
+Field_1_13_0_28211_001
+Field_1_13_0_28211_002<u32>
+Field_1_13_0_28211_003<u16>
+Field_1_13_0_28211_004<u16>

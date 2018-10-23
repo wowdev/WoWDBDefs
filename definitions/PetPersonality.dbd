@@ -3,9 +3,21 @@ int ID
 locstring Name_lang
 int HappinessThreshold
 float HappinessDamage
+int Field_1_13_0_28211_000
+float Field_1_13_0_28211_001
+float Field_1_13_0_28211_002
+float Field_1_13_0_28211_003
 
 BUILD 4.0.0.11792
 $id$ID<32>
 Name_lang
 HappinessThreshold<32>[3]
 HappinessDamage[3]
+
+LAYOUT 74E3A027
+BUILD 1.13.0.28211
+$noninline,id$ID<32>
+Field_1_13_0_28211_000<32>[3]
+Field_1_13_0_28211_001[3]
+Field_1_13_0_28211_002[3]
+Field_1_13_0_28211_003[8]

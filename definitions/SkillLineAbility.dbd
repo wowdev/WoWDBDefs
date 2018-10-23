@@ -19,6 +19,21 @@ int ExcludeClass
 int SupercededBySpell
 int CharacterPoints
 int Abandonable
+int Field_1_13_0_28211_000
+int Field_1_13_0_28211_001
+int Field_1_13_0_28211_002
+int Field_1_13_0_28211_003
+int Field_1_13_0_28211_004
+int Field_1_13_0_28211_005
+int Field_1_13_0_28211_006
+int Field_1_13_0_28211_007
+int Field_1_13_0_28211_008
+int Field_1_13_0_28211_009
+int Field_1_13_0_28211_010
+int Field_1_13_0_28211_011
+int Field_1_13_0_28211_012
+int Field_1_13_0_28211_013
+int Field_1_13_0_28211_014
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -166,3 +181,21 @@ NumSkillUps<8>
 UniqueBit<16>
 TradeSkillCategoryID<16>
 SkillupSkillLineID<16>
+
+LAYOUT 049CC4A6
+BUILD 1.13.0.28211
+Field_1_13_0_28211_000<64>
+$id$Field_1_13_0_28211_001<32>
+Field_1_13_0_28211_002<32>
+Field_1_13_0_28211_003<32>
+Field_1_13_0_28211_004<32>[2]
+Field_1_13_0_28211_005<16>
+Field_1_13_0_28211_006<16>
+Field_1_13_0_28211_007<16>
+Field_1_13_0_28211_008<16>
+Field_1_13_0_28211_009<16>
+Field_1_13_0_28211_010<8>
+Field_1_13_0_28211_011<32>
+Field_1_13_0_28211_012<16>
+Field_1_13_0_28211_013<8>
+Field_1_13_0_28211_014<8>

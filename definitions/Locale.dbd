@@ -10,6 +10,9 @@ int Field_571168383
 int Field_356258335
 int Field_176256544
 int Field_1319430174
+int Field_1_13_0_28211_000
+int Field_1_13_0_28211_001
+int Field_1_13_0_28211_002
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -51,3 +54,10 @@ Field_571168383<32>
 Field_356258335<u8>
 Field_176256544<u8>
 Field_1319430174<u8>
+
+LAYOUT FC7AA031
+BUILD 1.13.0.28211
+$noninline,id$ID<32>
+Field_1_13_0_28211_000<32>
+Field_1_13_0_28211_001<u8>
+Field_1_13_0_28211_002<u8>

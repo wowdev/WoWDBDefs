@@ -18,6 +18,15 @@ int SheatheType
 int Sound_override_subclassID
 int SubclassID
 int DisplayInfoID
+int Field_1_13_0_28211_000
+int Field_1_13_0_28211_001
+int Field_1_13_0_28211_002
+int Field_1_13_0_28211_003
+int Field_1_13_0_28211_004
+int Field_1_13_0_28211_005
+int Field_1_13_0_28211_006
+int Field_1_13_0_28211_007
+int Field_1_13_0_28211_008
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -76,3 +85,16 @@ SheatheType<u8>
 Sound_override_subclassID<8>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
+
+LAYOUT 92F85B98
+BUILD 1.13.0.28211
+$noninline,id$ID<32>
+Field_1_13_0_28211_000<32>
+Field_1_13_0_28211_001<u16>
+Field_1_13_0_28211_002<u8>
+Field_1_13_0_28211_003<u8>
+Field_1_13_0_28211_004<8>
+Field_1_13_0_28211_005<u8>
+Field_1_13_0_28211_006<u8>
+Field_1_13_0_28211_007<u8>
+Field_1_13_0_28211_008<u8>

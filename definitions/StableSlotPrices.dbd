@@ -1,7 +1,13 @@
 COLUMNS
 int ID
 int Cost
+int Field_1_13_0_28211_000
 
 BUILD 4.0.0.11792
 $id$ID<32>
 Cost<32>
+
+LAYOUT 68DA8C08
+BUILD 1.13.0.28211
+$noninline,id$ID<32>
+Field_1_13_0_28211_000<u16>

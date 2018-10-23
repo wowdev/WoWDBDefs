@@ -9,6 +9,10 @@ int ZoneID
 int TextureID
 string TextureName
 int Datestamp
+int Field_1_13_0_28211_000
+int Field_1_13_0_28211_001
+int Field_1_13_0_28211_002
+int Field_1_13_0_28211_003
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -43,3 +47,11 @@ Density<u32>
 Sound<u8>
 DoodadID<u16>[4]
 DoodadWeight<8>[4]
+
+LAYOUT 53D257EE
+BUILD 1.13.0.28211
+$noninline,id$ID<32>
+Field_1_13_0_28211_000<u16>[4]
+Field_1_13_0_28211_001<u8>
+Field_1_13_0_28211_002<u32>
+Field_1_13_0_28211_003<8>[4]
