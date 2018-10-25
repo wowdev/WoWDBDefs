@@ -22,10 +22,6 @@ int StartingLevel
 int Required_expansion
 int PlayerClass
 int DamageBonusStat
-string Field_1_13_0_28211_000
-locstring Field_1_13_0_28211_001_lang
-locstring Field_1_13_0_28211_002_lang
-locstring Field_1_13_0_28211_003_lang
 string Field_1_13_0_28211_004
 int Field_1_13_0_28211_005
 int Field_1_13_0_28211_006
@@ -36,13 +32,11 @@ int Field_1_13_0_28211_010
 int Field_1_13_0_28211_011
 int Field_1_13_0_28211_012
 int Field_1_13_0_28211_013
-int Field_1_13_0_28211_014
 int Field_1_13_0_28211_015
 int Field_1_13_0_28211_016
 int Field_1_13_0_28211_017
 int Field_1_13_0_28211_018
 int Field_1_13_0_28211_019
-int Field_1_13_0_28211_020
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -182,10 +176,10 @@ SpellClassSet<u8>
 
 LAYOUT 984EC914
 BUILD 1.13.0.28211
-Field_1_13_0_28211_000
-Field_1_13_0_28211_001_lang
-Field_1_13_0_28211_002_lang
-Field_1_13_0_28211_003_lang
+PetNameToken
+Name_lang
+Name_female_lang
+Name_male_lang
 Field_1_13_0_28211_004
 Field_1_13_0_28211_005<u32>
 Field_1_13_0_28211_006<u32>
@@ -196,10 +190,10 @@ Field_1_13_0_28211_010<u16>
 Field_1_13_0_28211_011<u16>
 Field_1_13_0_28211_012<u16>
 Field_1_13_0_28211_013<u8>
-Field_1_13_0_28211_014<u8>
+SpellClassSet<u8>
 Field_1_13_0_28211_015<u8>
 Field_1_13_0_28211_016<u8>
 Field_1_13_0_28211_017<u8>
 Field_1_13_0_28211_018<u8>
 Field_1_13_0_28211_019<u8>
-$id$Field_1_13_0_28211_020<32>
+$id$ID<32>
