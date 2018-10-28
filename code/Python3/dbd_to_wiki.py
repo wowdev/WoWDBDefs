@@ -78,7 +78,7 @@ for name, parsed in dbds.items():
       def wiki_format_type():
         print (meta.type, entry.column, name)
         if meta.type in ["uint", "int"]:
-          type = wiki_format_raw("{}{}_t", meta.type, entry.int_width if entry.int_width else 32)
+          type = wiki_format_raw("{}{}_t", meta.type if not entry.is_unsigned else "uint", entry.int_width if entry.int_width else 32)
           if meta.foreign:
             return wiki_format_template("ForeignKey", type[0], meta.foreign.table, "m_{}".format(meta.foreign.column))
           return type
