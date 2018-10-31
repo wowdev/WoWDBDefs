@@ -9,6 +9,18 @@ int ParentTransmogSetID
 int TrackingQuestID
 int TransmogSetGroupID
 int UiOrder
+locstring Field_8_1_0_28294_000_lang
+int Field_8_1_0_28294_001
+int Field_8_1_0_28294_002
+int Field_8_1_0_28294_003
+int Field_8_1_0_28294_004
+int Field_8_1_0_28294_005
+int Field_8_1_0_28294_006
+int Field_8_1_0_28294_007
+int Field_8_1_0_28294_008
+int Field_8_1_0_28294_009
+int Field_8_1_0_28294_010
+int Field_8_1_0_28294_011
 
 LAYOUT BEDFD7D1
 BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
@@ -48,3 +60,18 @@ ItemNameDescriptionID<32>
 $relation$ParentTransmogSetID<u16>
 ExpansionID<u8>
 UiOrder<16>
+
+LAYOUT FA89DA93
+BUILD 8.1.0.28294
+Field_8_1_0_28294_000_lang
+$id$Field_8_1_0_28294_001<u32>
+Field_8_1_0_28294_002<32>
+Field_8_1_0_28294_003<u32>
+Field_8_1_0_28294_004<32>
+Field_8_1_0_28294_005<u32>
+Field_8_1_0_28294_006<32>
+$relation$Field_8_1_0_28294_007<u16>
+Field_8_1_0_28294_008<u8>
+Field_8_1_0_28294_009<u8>
+Field_8_1_0_28294_010<32>
+Field_8_1_0_28294_011<16>
