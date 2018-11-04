@@ -3,8 +3,11 @@ int ID
 int<Spell::ID> Spells
 int Flags
 int<FileData::ID> PlayerActionbarFileDataID
+string PlayerActionbar?
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
+BUILD 6.0.1.18125-6.2.4.21742
 $id$ID<32>
 Spells<32>[10]
 Flags<32>
@@ -18,6 +21,14 @@ PlayerActionbarFileDataID<32>
 Flags<u8>
 
 BUILD 4.0.0.11792
+BUILD 3.1.0.9767-3.3.5.12340
+BUILD 4.0.0.11792-4.0.0.12319
 $id$ID<32>
 Spells<32>[10]
 Flags<32>
+
+BUILD 4.0.0.12911-4.3.4.15595
+$id$ID<32>
+Spells<32>[10]
+Flags<32>
+PlayerActionbar

@@ -7,6 +7,7 @@ int SubtitleFileDataID
 string Filename
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 Volume<32>
 KeyID<32>
@@ -22,6 +23,8 @@ Volume<u8>
 KeyID<u8>
 
 BUILD 4.0.0.11792
+BUILD 3.0.1.8303-3.3.5.12340
+BUILD 4.0.0.11792-4.0.0.12319
 $id$ID<32>
 Filename
 Volume<32>
@@ -33,3 +36,9 @@ Volume<u8>
 KeyID<u8>
 AudioFileDataID<u32>
 SubtitleFileDataID<u32>
+
+BUILD 4.0.0.12911-4.3.4.15595
+$id$ID<32>
+Filename
+Volume<32>
+KeyID<32>

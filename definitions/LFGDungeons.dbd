@@ -6,8 +6,8 @@ int MaxLevel
 int Target_level
 int Target_level_min
 int Target_level_max
-int MapID
-int DifficultyID
+int<Map::ID> MapID
+int<Difficulty::ID> DifficultyID
 int Flags
 int TypeID
 int Faction
@@ -23,7 +23,7 @@ int Count_damage
 int Min_count_tank
 int Min_count_healer
 int Min_count_damage
-int ScenarioID
+int<Scenario::ID> ScenarioID
 int Subtype
 int Bonus_reputation_amount
 int MentorCharLevel
@@ -37,6 +37,8 @@ int RewardsBgTextureFileID
 int Difficulty
 
 BUILD 4.0.0.11792
+BUILD 3.3.3.11685-3.3.5.12340
+BUILD 4.0.0.11792-4.0.6.13623
 $id$ID<32>
 Name_lang
 MinLevel<32>

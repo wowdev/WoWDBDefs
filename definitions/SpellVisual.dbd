@@ -59,12 +59,6 @@ int MissileMotion
 int InstantAreaKit
 int ImpactAreaKit
 int PersistentAreaKit
-float MissileCastOffsetX
-float MissileCastOffsetY
-float MissileCastOffsetZ
-float MissileImpactOffsetX
-float MissileImpactOffsetY
-float MissileImpactOffsetZ
 int HasAreaEffect
 int AreaModel
 int AreaKit
@@ -138,6 +132,8 @@ CasterSpellVisualID<u32>
 LowViolenceSpellVisualID<u32>
 
 BUILD 4.0.0.11792
+BUILD 3.2.0.10192-3.3.5.12340
+BUILD 4.0.0.11792-4.1.0.13875
 $id$ID<32>
 PrecastKit<32>
 CastKit<32>
@@ -164,12 +160,8 @@ MissileTargetingKit<32>
 InstantAreaKit<32>
 ImpactAreaKit<32>
 PersistentAreaKit<32>
-MissileCastOffsetX
-MissileCastOffsetY
-MissileCastOffsetZ
-MissileImpactOffsetX
-MissileImpactOffsetY
-MissileImpactOffsetZ
+MissileCastOffset[3]
+MissileImpactOffset[3]
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328
 $id$ID<32>

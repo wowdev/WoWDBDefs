@@ -39,6 +39,7 @@ int Field_1_13_0_28211_018
 int Field_1_13_0_28211_019
 
 BUILD 6.0.1.18179
+BUILD 5.0.4.16016-5.4.8.18414
 $id$ID<32>
 DisplayPower<32>
 PetNameToken
@@ -81,7 +82,32 @@ RangedAttackPowerPerAgility<u8>
 PrimaryStatPriority<u8>
 $id$ID<32>
 
+LAYOUT 984EC914
+BUILD 1.13.0.28211
+PetNameToken
+Name_lang
+Name_female_lang
+Name_male_lang
+Field_1_13_0_28211_004
+Field_1_13_0_28211_005<u32>
+Field_1_13_0_28211_006<u32>
+Field_1_13_0_28211_007<u32>
+Field_1_13_0_28211_008<u32>
+Field_1_13_0_28211_009<32>
+Field_1_13_0_28211_010<u16>
+Field_1_13_0_28211_011<u16>
+Field_1_13_0_28211_012<u16>
+Field_1_13_0_28211_013<u8>
+SpellClassSet<u8>
+Field_1_13_0_28211_015<u8>
+Field_1_13_0_28211_016<u8>
+Field_1_13_0_28211_017<u8>
+Field_1_13_0_28211_018<u8>
+Field_1_13_0_28211_019<u8>
+$id$ID<32>
+
 BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.3.4.15595
 $id$ID<32>
 DisplayPower<32>
 PetNameToken
@@ -174,26 +200,16 @@ AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
 
-LAYOUT 984EC914
-BUILD 1.13.0.28211
+BUILD 3.0.1.8681-3.3.5.12340
+$id$ID<32>
+DamageBonusStat<32>
+DisplayPower<32>
 PetNameToken
 Name_lang
 Name_female_lang
 Name_male_lang
-Field_1_13_0_28211_004
-Field_1_13_0_28211_005<u32>
-Field_1_13_0_28211_006<u32>
-Field_1_13_0_28211_007<u32>
-Field_1_13_0_28211_008<u32>
-Field_1_13_0_28211_009<32>
-Field_1_13_0_28211_010<u16>
-Field_1_13_0_28211_011<u16>
-Field_1_13_0_28211_012<u16>
-Field_1_13_0_28211_013<u8>
-SpellClassSet<u8>
-Field_1_13_0_28211_015<u8>
-Field_1_13_0_28211_016<u8>
-Field_1_13_0_28211_017<u8>
-Field_1_13_0_28211_018<u8>
-Field_1_13_0_28211_019<u8>
-$id$ID<32>
+Filename
+SpellClassSet<32>
+Flags<32>
+CinematicSequenceID<32>
+Required_expansion<32>

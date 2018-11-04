@@ -24,6 +24,7 @@ int TransmogPlayerConditionID
 int EffectPointsMax
 
 BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 Charges<32>
 Effect<32>[3]
@@ -42,6 +43,22 @@ ItemLevel<32>
 ScalingClass<32>
 ScalingClassRestricted<32>
 EffectScalingPoints[3]
+
+BUILD 3.1.0.9767-3.3.5.12340
+$id$ID<32>
+Charges<32>
+Effect<32>[3]
+EffectPointsMin<32>[3]
+EffectPointsMax<32>[3]
+EffectArg<32>[3]
+Name_lang
+ItemVisual<32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
+RequiredSkillRank<32>
+MinLevel<32>
 
 LAYOUT F8B0881A
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231

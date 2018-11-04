@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int PathID
+int<TaxiPath::ID> PathID
 float Locx
 float Locy
 int LegIndex
@@ -24,6 +24,11 @@ LoadingScreenID<u16>
 LegIndex<u8>
 
 BUILD 4.0.0.11792
+BUILD 0.9.0.3807-0.12.0.3988
+BUILD 1.0.0.3980-1.12.3.6141
+BUILD 2.0.0.5610-2.4.3.8606
+BUILD 3.0.1.8303-3.3.5.12340
+BUILD 4.0.0.11792-4.3.4.15595
 $id$ID<32>
 PathID<32>
 Locx[8]
@@ -38,3 +43,11 @@ LegIndex<u8>
 LoadingScreenID<u16>
 Locx[10]
 Locy[10]
+
+BUILD 5.0.1.15464-5.0.5.16135
+$id$ID<32>
+PathID<32>
+Locx[8]
+Locy[8]
+LegIndex<32>
+LoadingScreenID<32>

@@ -68,6 +68,8 @@ int Padding_596171098?
 string Combo
 
 BUILD 6.0.1.18179
+BUILD 5.3.0.16965-5.4.8.18414
+BUILD 6.0.1.18125-6.0.1.18179
 $id$ID<32>
 AvgSegLen
 Width
@@ -281,6 +283,56 @@ BlendMode<8>
 Combo
 RenderLayer<32>
 TextureLength
+
+BUILD 3.2.0.10192-3.3.5.12340
+$id$ID<32>
+AvgSegLen
+Width
+NoiseScale
+TexCoordScale
+SegDuration<32>
+SegDelay<32>
+Texture
+Flags<32>
+JointCount<32>
+JointOffsetRadius
+JointsPerMinorJoint<32>
+MinorJointsPerMajorJoint<32>
+MinorJointScale
+MajorJointScale
+JointMoveSpeed
+JointSmoothness
+MinDurationBetweenJointJumps
+MaxDurationBetweenJointJumps
+WaveHeight
+WaveFreq
+WaveSpeed
+MinWaveAngle
+MaxWaveAngle
+MinWaveSpin
+MaxWaveSpin
+ArcHeight
+MinArcAngle
+MaxArcAngle
+MinArcSpin
+MaxArcSpin
+DelayBetweenEffects
+MinFlickerOnDuration
+MaxFlickerOnDuration
+MinFlickerOffDuration
+MaxFlickerOffDuration
+PulseSpeed
+PulseOnLength
+PulseFadeLength
+Alpha<8>
+Red<8>
+Green<8>
+Blue<8>
+BlendMode<8>
+Combo
+RenderLayer<32>
+TextureLength
+WavePhase
 
 BUILD 0.5.3.3368
 $id$ID<32>

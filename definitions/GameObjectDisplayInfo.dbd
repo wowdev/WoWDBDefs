@@ -9,12 +9,6 @@ float OverrideLootEffectScale
 float OverrideNameScale
 float GeoBox
 string ModelName
-float GeoBoxMinX
-float GeoBoxMinY
-float GeoBoxMinZ
-float GeoBoxMaxX
-float GeoBoxMaxY
-float GeoBoxMaxZ
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -36,15 +30,13 @@ OverrideNameScale
 ObjectEffectPackageID<16>
 
 BUILD 4.0.0.11792
+BUILD 3.0.1.8622-3.3.5.12340
+BUILD 4.0.0.11792-4.0.6.13596
 $id$ID<32>
 ModelName
 Sound<32>[10]
-GeoBoxMinX
-GeoBoxMinY
-GeoBoxMinZ
-GeoBoxMaxX
-GeoBoxMaxY
-GeoBoxMaxZ
+GeoBoxMin[3]
+GeoBoxMax[3]
 ObjectEffectPackageID<32>
 
 BUILD 0.5.3.3368

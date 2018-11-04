@@ -11,6 +11,10 @@ string TextureName
 int Datestamp
 
 BUILD 4.0.0.11792, 6.0.1.18179
+BUILD 3.0.1.8681-3.3.5.12340
+BUILD 4.0.0.11792-4.3.4.15595
+BUILD 5.0.1.15464-5.4.8.18414
+BUILD 6.0.1.18125-6.2.4.21742
 $id$ID<32>
 DoodadID<32>[4]
 DoodadWeight<32>[4]
@@ -26,6 +30,7 @@ Sound<u8>
 Density<u32>
 
 BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
 Datestamp<32>
 ContinentID<32>
@@ -51,3 +56,33 @@ DoodadID<u16>[4]
 Sound<u8>
 Density<u32>
 DoodadWeight<8>[4]
+
+BUILD 1.11.0.5428-1.12.3.6141
+BUILD 2.0.0.5610-2.0.0.5965
+BUILD 2.0.0.6022-2.4.3.8606
+BUILD 3.0.1.8303-3.0.1.8634
+$id$ID<32>
+DoodadID<32>[4]
+Density<32>
+Sound<32>
+
+BUILD 1.11.0.5344
+$id$ID<32>
+Datestamp<32>
+ContinentID<32>
+TextureName
+DoodadID<32>[4]
+Density<32>
+Sound<32>
+
+BUILD 2.0.0.5991
+BUILD 0.6.0.3592-0.12.0.3988
+BUILD 1.0.0.3980-1.10.2.5302
+$id$ID<32>
+Datestamp<32>
+ContinentID<32>
+TextureID<32>
+TextureName
+DoodadID<32>[4]
+Density<32>
+Sound<32>

@@ -58,10 +58,32 @@ int<AnimKit::ID> ExitAnimKitID
 int<AnimKit::ID> VehicleEnterAnimKitID
 int<AnimKit::ID> VehicleRideAnimKitID
 int<AnimKit::ID> VehicleExitAnimKitID
-int CameraModeID
+int<CameraMode::ID> CameraModeID
 int FlagsC
 int<FileData::ID> UiSkinFileDataID
 int UiSkin
+float Field_8937663584?
+float Field_8259927992?
+float Field_2082923167?
+float Field_3338456839?
+float Field_1902202452?
+int Field_827055476?
+float Field_8186022782?
+float Field_9859262923?
+int Field_4842545899?
+float Field_2130223993?
+float Field_8977034007?
+float Field_3509354755?
+int Field_9754146821?
+float Field_6686025921?
+float Field_6605586231?
+float Field_6090622793?
+float Field_1160305869?
+float Field_2360499590?
+float Field_1880240520?
+float Field_7331797204?
+float Field_3435685626?
+float Field_9231563745?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -126,6 +148,64 @@ VehicleExitAnimKitID<32>
 CameraModeID<32>
 FlagsC<32>
 UiSkinFileDataID<32>
+
+BUILD 3.3.5.12213-3.3.5.12340
+$id$ID<32>
+Field_8937663584
+AttachmentID<32>
+AttachmentOffset[3]
+Field_8259927992
+EnterSpeed
+EnterGravity
+EnterMinDuration
+EnterMaxDuration
+EnterMinArcHeight
+EnterMaxArcHeight
+EnterAnimStart<32>
+EnterAnimLoop<32>
+RideAnimStart<32>
+RideAnimLoop<32>
+RideUpperAnimStart<32>
+RideUpperAnimLoop<32>
+Field_2082923167
+ExitSpeed
+ExitGravity
+ExitMinDuration
+ExitMaxDuration
+ExitMinArcHeight
+ExitMaxArcHeight
+ExitAnimStart<32>
+ExitAnimLoop<32>
+ExitAnimEnd<32>
+Field_3338456839
+PassengerPitch
+Field_1902202452
+PassengerAttachmentID<32>
+VehicleEnterAnim<32>
+VehicleExitAnim<32>
+VehicleRideAnimLoop<32>
+Field_827055476<32>
+VehicleExitAnimBone<32>
+VehicleEnterAnimBone<32>
+Field_8186022782
+Field_9859262923
+VehicleAbilityDisplay<32>
+EnterUISoundID<32>
+Field_4842545899<32>
+UiSkin<32>
+Field_2130223993
+Field_8977034007
+Field_3509354755
+Field_9754146821<32>
+Field_6686025921
+Field_6605586231
+Field_6090622793
+Field_1160305869
+Field_2360499590
+Field_1880240520
+Field_7331797204
+Field_3435685626
+Field_9231563745
 
 LAYOUT 242E0ECD
 BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.26095, 8.0.1.26175, 8.0.1.26231

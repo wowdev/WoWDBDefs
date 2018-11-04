@@ -10,9 +10,6 @@ int<SpellIcon::ID> SpellIconID
 int Flags
 int SpellIconFileID
 int Difficulty
-locstring Field_8_1_0_28294_000_lang
-int Field_8_1_0_28294_001
-int Field_8_1_0_28294_002
 int Field_8_1_0_28294_003
 int Field_8_1_0_28294_004
 int Field_8_1_0_28294_005
@@ -45,6 +42,8 @@ OrderIndex<32>
 SpellIconFileID<32>
 
 BUILD 4.0.0.11792
+BUILD 3.3.0.10958-3.3.5.12340
+BUILD 4.0.0.11792-4.0.0.12319
 $id$ID<32>
 MapID<32>
 Difficulty<32>
@@ -67,9 +66,9 @@ SpellIconFileID<32>
 
 LAYOUT 52FBB33B
 BUILD 8.1.0.28294
-Field_8_1_0_28294_000_lang
-$id$Field_8_1_0_28294_001<32>
-$relation$Field_8_1_0_28294_002<16>
+Name_lang
+$id$ID<32>
+$relation$MapID<16>
 Field_8_1_0_28294_003<8>
 Field_8_1_0_28294_004<32>
 Field_8_1_0_28294_005<8>

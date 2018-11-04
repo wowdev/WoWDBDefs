@@ -4,11 +4,9 @@ int<Map::ID> Continent
 float Loc
 float Facing
 locstring AreaName_lang
-float LocX
-float LocY
-float LocZ
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15726-5.4.8.18273
 $id$ID<32>
 Continent<32>
 Loc[3]
@@ -16,11 +14,15 @@ Facing
 AreaName_lang
 
 BUILD 0.5.3.3368, 4.0.0.11792
+BUILD 0.5.3.3368-0.12.0.3988
+BUILD 1.0.0.3980-1.12.3.6141
+BUILD 2.0.0.5610-2.4.3.8606
+BUILD 3.0.1.8303-3.3.5.12340
+BUILD 4.0.0.11792-4.3.4.15595
+BUILD 5.0.1.15464-5.0.1.15699
 $id$ID<32>
 Continent<32>
-LocX
-LocY
-LocZ
+Loc[3]
 AreaName_lang
 
 LAYOUT 6BF0D7EC
