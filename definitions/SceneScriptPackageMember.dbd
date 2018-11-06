@@ -8,6 +8,10 @@ int<SceneScriptPackage::ID> ChildSceneScriptPackageID
 int OrderIndex
 int<SceneScript::ID> SceneScriptID
 int<SceneScriptPackage::ID> SceneScriptPackageID
+int Field_8_1_0_28366_000
+int Field_8_1_0_28366_001
+int Field_8_1_0_28366_002
+int Field_8_1_0_28366_003
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -23,3 +27,11 @@ $relation$SceneScriptPackageID<u16>
 SceneScriptID<u16>
 ChildSceneScriptPackageID<u16>
 OrderIndex<u8>
+
+LAYOUT 897D1A4B
+BUILD 8.1.0.28366
+$noninline,id$ID<32>
+$relation$Field_8_1_0_28366_000<32>
+Field_8_1_0_28366_001<32>
+Field_8_1_0_28366_002<32>
+Field_8_1_0_28366_003<32>
