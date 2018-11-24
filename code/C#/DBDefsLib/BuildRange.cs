@@ -16,6 +16,9 @@ namespace DBDefsLib
         {
             this.minBuild = minBuild;
             this.maxBuild = maxBuild;
+
+            if (minBuild.expansion != maxBuild.expansion)
+                throw new Exception("Expansion differs across build range. This is not allowed!");
         }
 
         public BuildRange(string buildRange)
@@ -23,6 +26,9 @@ namespace DBDefsLib
             var split = buildRange.Split('-');
             this.minBuild = new Build(split[0]);
             this.maxBuild = new Build(split[1]);
+
+            if (minBuild.expansion != maxBuild.expansion)
+                throw new Exception("Expansion differs across build range. This is not allowed!");
         }
 
         public override string ToString()
