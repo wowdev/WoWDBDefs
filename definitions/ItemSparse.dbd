@@ -64,76 +64,13 @@ int TotemCategoryID
 int VendorStackCount
 int ZoneBound
 int OppositeFactionItemID?
-int Field_1177770545?
-int Field_1_13_0_28211_000
-locstring Field_1_13_0_28211_001_lang
-locstring Field_1_13_0_28211_002_lang
-locstring Field_1_13_0_28211_003_lang
-locstring Field_1_13_0_28211_004_lang
-locstring Field_1_13_0_28211_005_lang
-int Field_1_13_0_28211_006
-float Field_1_13_0_28211_007
-float Field_1_13_0_28211_008
-int Field_1_13_0_28211_009
-int Field_1_13_0_28211_010
-int Field_1_13_0_28211_011
-int Field_1_13_0_28211_012
-int Field_1_13_0_28211_013
-int Field_1_13_0_28211_014
-int Field_1_13_0_28211_015
-int Field_1_13_0_28211_016
-float Field_1_13_0_28211_017
-float Field_1_13_0_28211_018
-int Field_1_13_0_28211_019
-float Field_1_13_0_28211_020
-int Field_1_13_0_28211_021
-float Field_1_13_0_28211_022
-int Field_1_13_0_28211_023
-int Field_1_13_0_28211_024
-int Field_1_13_0_28211_025
-int Field_1_13_0_28211_026
-int Field_1_13_0_28211_027
-int Field_1_13_0_28211_028
-int Field_1_13_0_28211_029
-int Field_1_13_0_28211_030
-int Field_1_13_0_28211_031
-int Field_1_13_0_28211_032
-int Field_1_13_0_28211_033
-int Field_1_13_0_28211_034
-int Field_1_13_0_28211_035
-int Field_1_13_0_28211_036
-int Field_1_13_0_28211_037
-int Field_1_13_0_28211_038
-int Field_1_13_0_28211_039
-int Field_1_13_0_28211_040
-int Field_1_13_0_28211_041
-int Field_1_13_0_28211_042
-int Field_1_13_0_28211_043
-int Field_1_13_0_28211_044
-int Field_1_13_0_28211_045
-int Field_1_13_0_28211_046
-int Field_1_13_0_28211_047
-int Field_1_13_0_28211_048
-int Field_1_13_0_28211_049
-int Field_1_13_0_28211_050
-int Field_1_13_0_28211_051
-int Field_1_13_0_28211_052
-int Field_1_13_0_28211_053
-int Field_1_13_0_28211_054
-int Field_1_13_0_28211_055
-int Field_1_13_0_28211_056
-int Field_1_13_0_28211_057
-int Field_1_13_0_28211_058
-int Field_1_13_0_28211_059
-int Field_1_13_0_28211_060
-int Field_1_13_0_28211_061
-int Field_1_13_0_28211_062
-int Field_1_13_0_28211_063
-int Field_1_13_0_28211_064
-int Field_1_13_0_28211_065
-int Field_1_13_0_28211_066
-int Field_1_13_0_28211_067
-int Field_1_13_0_28211_068
+int StatValue?
+int MaxDurability?
+int DamageMin?
+int DamageMax?
+int DefensiveStats?
+int AmmoType?
+int DamageType?
 
 LAYOUT 350149D8
 BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
@@ -371,7 +308,7 @@ ItemLevel<u16>
 RequiredSkill<u16>
 RequiredSkillRank<u16>
 MinFactionID<u16>
-Field_1177770545<16>[10]
+StatValue<16>[10]
 ScalingStatDistributionID<u16>
 ItemDelay<u16>
 PageID<u16>
@@ -413,72 +350,72 @@ LAYOUT 5272360F
 BUILD 1.13.0.28211
 COMMENT table is sparse
 $noninline,id$ID<32>
-Field_1_13_0_28211_000<64>
-Field_1_13_0_28211_001_lang
-Field_1_13_0_28211_002_lang
-Field_1_13_0_28211_003_lang
-Field_1_13_0_28211_004_lang
-Field_1_13_0_28211_005_lang
-Field_1_13_0_28211_006<32>[4]
-Field_1_13_0_28211_007
-Field_1_13_0_28211_008
-Field_1_13_0_28211_009<u32>
-Field_1_13_0_28211_010<u32>
-Field_1_13_0_28211_011<u32>
-Field_1_13_0_28211_012<u32>
-Field_1_13_0_28211_013<u32>
-Field_1_13_0_28211_014<32>
-Field_1_13_0_28211_015<32>
-Field_1_13_0_28211_016<32>[10]
-Field_1_13_0_28211_017[10]
-Field_1_13_0_28211_018
-Field_1_13_0_28211_019<u32>
-Field_1_13_0_28211_020
-Field_1_13_0_28211_021<u32>
-Field_1_13_0_28211_022
-Field_1_13_0_28211_023<16>
-Field_1_13_0_28211_024<u16>
-Field_1_13_0_28211_025<u16>
-Field_1_13_0_28211_026<u16>
-Field_1_13_0_28211_027<u16>
-Field_1_13_0_28211_028<16>[10]
-Field_1_13_0_28211_029<u16>
-Field_1_13_0_28211_030<u16>[5]
-Field_1_13_0_28211_031<u16>[5]
-Field_1_13_0_28211_032<16>[7]
-Field_1_13_0_28211_033<u16>
-Field_1_13_0_28211_034<u16>
-Field_1_13_0_28211_035<u16>
-Field_1_13_0_28211_036<u16>
-Field_1_13_0_28211_037<u16>
-Field_1_13_0_28211_038<u16>
-Field_1_13_0_28211_039<u16>
-Field_1_13_0_28211_040<u16>
-Field_1_13_0_28211_041<u16>
-Field_1_13_0_28211_042<u16>
-Field_1_13_0_28211_043<u16>
-Field_1_13_0_28211_044<u16>
-Field_1_13_0_28211_045<u16>
-Field_1_13_0_28211_046<u16>
-Field_1_13_0_28211_047<u16>
-Field_1_13_0_28211_048<u16>
-Field_1_13_0_28211_049<u8>
-Field_1_13_0_28211_050<u8>
-Field_1_13_0_28211_051<8>
-Field_1_13_0_28211_052<u8>
-Field_1_13_0_28211_053<u8>
-Field_1_13_0_28211_054<u8>
-Field_1_13_0_28211_055<u8>
-Field_1_13_0_28211_056<8>[10]
-Field_1_13_0_28211_057<u8>[5]
-Field_1_13_0_28211_058<u8>
-Field_1_13_0_28211_059<u8>
-Field_1_13_0_28211_060<u8>
-Field_1_13_0_28211_061<u8>
-Field_1_13_0_28211_062<u8>
-Field_1_13_0_28211_063<u8>
-Field_1_13_0_28211_064<u8>[3]
-Field_1_13_0_28211_065<u8>
-Field_1_13_0_28211_066<u8>
-Field_1_13_0_28211_067<u8>
-Field_1_13_0_28211_068<u8>
+AllowableRace<64>
+Display_lang
+Display1_lang
+Display2_lang
+Display3_lang
+Description_lang
+Flags<32>[4]
+PriceRandomValue
+PriceVariance
+VendorStackCount<u32>
+MaxDurability<u32>
+BuyPrice<u32>
+SellPrice<u32>
+RequiredAbility<u32>
+MaxCount<32>
+Stackable<32>
+StatPercentEditor<32>[10]
+StatPercentageOfSocket[10]
+ItemRange
+BagFamily<u32>
+QualityModifier
+DurationInInventory<u32>
+DmgVariance
+AllowableClass<16>
+ItemLevel<u16>
+RequiredSkill<u16>
+RequiredSkillRank<u16>
+MinFactionID<u16>
+StatValue<16>[10]
+ScalingStatDistributionID<u16>
+DamageMin<u16>[5]
+DamageMax<u16>[5]
+DefensiveStats<16>[7]
+ItemDelay<u16>
+PageID<u16>
+StartQuestID<u16>
+LockID<u16>
+RandomSelect<u16>
+ItemRandomSuffixGroupID<u16>
+ItemSet<u16>
+ZoneBound<u16>
+InstanceBound<u16>
+TotemCategoryID<u16>
+Socket_match_enchantment_ID<u16>
+Gem_properties<u16>
+LimitCategory<u16>
+RequiredHoliday<u16>
+RequiredTransmogHoliday<u16>
+ItemNameDescriptionID<u16>
+OverallQualityID<u8>
+InventoryType<u8>
+RequiredLevel<8>
+RequiredPVPRank<u8>
+RequiredPVPMedal<u8>
+MinReputation<u8>
+ContainerSlots<u8>
+StatModifier_bonusStat<8>[10]
+DamageType<u8>[5]
+AmmoType<u8>
+Bonding<u8>
+LanguageID<u8>
+PageMaterialID<u8>
+Material<u8>
+SheatheType<u8>
+SocketType<u8>[3]
+SpellWeightCategory<u8>
+SpellWeight<u8>
+ArtifactID<u8>
+ExpansionID<u8>
