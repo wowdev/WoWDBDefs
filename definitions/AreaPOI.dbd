@@ -37,22 +37,22 @@ WorldMapLink<32>
 PortLocID<32>
 
 LAYOUT 22F9B807
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-Flags<32>
+Flags<u32>
 Pos[3]
 PoiDataType<32>
 PoiData<32>
-ContinentID<16>
+ContinentID<u16>
 AreaID<16>
-WorldStateID<16>
-Importance<8>
-Icon<8>
-PlayerConditionID<32>
+WorldStateID<u16>
+Importance<u8>
+Icon<u8>
+PlayerConditionID<u32>
 PortLocID<32>
-UiTextureAtlasMemberID<32>
+UiTextureAtlasMemberID<u32>
 MapFloor<32>
 WMOGroupID<32>
 

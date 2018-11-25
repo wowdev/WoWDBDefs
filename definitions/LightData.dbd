@@ -66,7 +66,7 @@ CloudDensity
 FogDensity
 
 LAYOUT 98BC17CE
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
 $noninline,id$ID<32>
 DirectColor<32>
 AmbientColor<32>
@@ -95,14 +95,14 @@ FogHeightScaler
 FogHeightDensity
 SunFogAngle
 EndFogColorDistance
-SunFogColor<32>
-EndFogColor<32>
-FogHeightColor<32>
-ColorGradingFileDataID<32>
+SunFogColor<u32>
+EndFogColor<u32>
+FogHeightColor<u32>
+ColorGradingFileDataID<u32>
 HorizonAmbientColor<32>
 GroundAmbientColor<32>
-$relation$LightParamID<16>
-Time<16>
+$relation$LightParamID<u16>
+Time<u16>
 
 LAYOUT 34231474
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557

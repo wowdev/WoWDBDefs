@@ -34,7 +34,7 @@ Flags<32>
 FriendshipRepID<32>
 
 LAYOUT C0CBCBC8
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
 ReputationRaceMask<64>[4]
 Name_lang
 Description_lang
@@ -44,13 +44,13 @@ ParentFactionMod[2]
 ReputationMax<32>[4]
 ReputationIndex<16>
 ReputationClassMask<16>[4]
-ReputationFlags<16>[4]
-ParentFactionID<16>
-ParagonFactionID<16>
-ParentFactionCap<8>[2]
-Expansion<8>
-Flags<8>
-FriendshipRepID<8>
+ReputationFlags<u16>[4]
+ParentFactionID<u16>
+ParagonFactionID<u16>
+ParentFactionCap<u8>[2]
+Expansion<u8>
+Flags<u8>
+FriendshipRepID<u8>
 
 BUILD 4.0.0.11792
 BUILD 3.3.0.10958-3.3.5.12340
@@ -106,7 +106,7 @@ FriendshipRepID<u8>
 Flags<u8>
 
 LAYOUT 6BFE8737
-BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902
 ReputationRaceMask<64>[4]
 Name_lang
 Description_lang

@@ -50,24 +50,24 @@ Gender<32>
 StateSpellVisualKitID<32>
 
 LAYOUT C285819E
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
 $id$ID<32>
 CreatureModelScale
-ModelID<16>
-NPCSoundID<16>
+ModelID<u16>
+NPCSoundID<u16>
 SizeClass<8>
-Flags<8>
+Flags<u8>
 Gender<8>
 ExtendedDisplayInfoID<32>
 PortraitTextureFileDataID<32>
-CreatureModelAlpha<8>
-SoundID<16>
+CreatureModelAlpha<u8>
+SoundID<u16>
 PlayerOverrideScale
 PortraitCreatureDisplayInfoID<32>
-BloodID<8>
-ParticleColorID<16>
-ObjectEffectPackageID<16>
-AnimReplacementSetID<16>
+BloodID<u8>
+ParticleColorID<u16>
+ObjectEffectPackageID<u16>
+AnimReplacementSetID<u16>
 UnarmedWeaponType<8>
 StateSpellVisualKitID<32>
 PetInstanceScale

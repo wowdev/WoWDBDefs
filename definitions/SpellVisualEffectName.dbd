@@ -37,7 +37,7 @@ Flags<32>
 GenericID<32>
 
 LAYOUT 2A02639A
-BUILD 8.0.1.26095
+BUILD 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095
 $noninline,id$ID<32>
 ModelFileDataID<32>
 EffectRadius
@@ -46,11 +46,11 @@ Scale
 MinAllowedScale
 MaxAllowedScale
 Alpha
-Flags<32>
-Type<32>
+Flags<u32>
+Type<u32>
 GenericID<32>
 TextureFileDataID<32>
-RibbonQualityID<32>
+RibbonQualityID<u32>
 DissolveEffectID<32>
 
 BUILD 3.0.2.8885, 3.0.8.9328, 4.0.0.11792
@@ -83,7 +83,7 @@ AreaEffectSize
 VisualEffectNameFlags<32>
 
 LAYOUT 81C922D3
-BUILD 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
 $noninline,id$ID<32>
 ModelFileDataID<32>
 EffectRadius
@@ -92,11 +92,11 @@ Scale
 MinAllowedScale
 MaxAllowedScale
 Alpha
-Flags<32>
-Type<32>
+Flags<u32>
+Type<u32>
 GenericID<32>
 TextureFileDataID<32>
-RibbonQualityID<32>
+RibbonQualityID<u32>
 DissolveEffectID<32>
 ModelPosition<32>
 
@@ -119,7 +119,7 @@ DissolveEffectID<32>
 ModelPosition<32>
 
 LAYOUT B930A934
-BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902
 $noninline,id$ID<32>
 EffectRadius
 BaseMissileSpeed

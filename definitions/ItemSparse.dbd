@@ -73,7 +73,7 @@ int AmmoType?
 int DamageType?
 
 LAYOUT 350149D8
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
 COMMENT table is sparse
 $noninline,id$ID<32>
 AllowableRace<64>
@@ -85,60 +85,60 @@ Description_lang
 Flags<32>[4]
 PriceRandomValue
 PriceVariance
-VendorStackCount<32>
-BuyPrice<32>
-SellPrice<32>
-RequiredAbility<32>
+VendorStackCount<u32>
+BuyPrice<u32>
+SellPrice<u32>
+RequiredAbility<u32>
 MaxCount<32>
 Stackable<32>
 StatPercentEditor<32>[10]
 StatPercentageOfSocket[10]
 ItemRange
-BagFamily<32>
+BagFamily<u32>
 QualityModifier
-DurationInInventory<32>
+DurationInInventory<u32>
 DmgVariance
 AllowableClass<16>
-ItemLevel<16>
-RequiredSkill<16>
-RequiredSkillRank<16>
-MinFactionID<16>
-ScalingStatDistributionID<16>
-ItemDelay<16>
-PageID<16>
-StartQuestID<16>
-LockID<16>
-RandomSelect<16>
-ItemRandomSuffixGroupID<16>
-ItemSet<16>
-ZoneBound<16>
-InstanceBound<16>
-TotemCategoryID<16>
-Socket_match_enchantment_ID<16>
-Gem_properties<16>
-LimitCategory<16>
-RequiredHoliday<16>
-RequiredTransmogHoliday<16>
-ItemNameDescriptionID<16>
-OverallQualityID<8>
-InventoryType<8>
+ItemLevel<u16>
+RequiredSkill<u16>
+RequiredSkillRank<u16>
+MinFactionID<u16>
+ScalingStatDistributionID<u16>
+ItemDelay<u16>
+PageID<u16>
+StartQuestID<u16>
+LockID<u16>
+RandomSelect<u16>
+ItemRandomSuffixGroupID<u16>
+ItemSet<u16>
+ZoneBound<u16>
+InstanceBound<u16>
+TotemCategoryID<u16>
+Socket_match_enchantment_ID<u16>
+Gem_properties<u16>
+LimitCategory<u16>
+RequiredHoliday<u16>
+RequiredTransmogHoliday<u16>
+ItemNameDescriptionID<u16>
+OverallQualityID<u8>
+InventoryType<u8>
 RequiredLevel<8>
-RequiredPVPRank<8>
-RequiredPVPMedal<8>
-MinReputation<8>
-ContainerSlots<8>
+RequiredPVPRank<u8>
+RequiredPVPMedal<u8>
+MinReputation<u8>
+ContainerSlots<u8>
 StatModifier_bonusStat<8>[10]
-Damage_damageType<8>
-Bonding<8>
-LanguageID<8>
-PageMaterialID<8>
-Material<8>
-SheatheType<8>
-SocketType<8>[3]
-SpellWeightCategory<8>
-SpellWeight<8>
-ArtifactID<8>
-ExpansionID<8>
+Damage_damageType<u8>
+Bonding<u8>
+LanguageID<u8>
+PageMaterialID<u8>
+Material<u8>
+SheatheType<u8>
+SocketType<u8>[3]
+SpellWeightCategory<u8>
+SpellWeight<u8>
+ArtifactID<u8>
+ExpansionID<u8>
 
 LAYOUT CDD13D2C
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683

@@ -12,9 +12,31 @@ int ClassID
 int Field_1149400225?
 int Field_408242832?
 int Field_019797176?
+locstring Field_8_0_1_25976_000_lang
+int Field_8_0_1_25976_001
+int Field_8_0_1_25976_002
+int Field_8_0_1_25976_003
+int Field_8_0_1_25976_004
+int Field_8_0_1_25976_005
+int Field_8_0_1_25976_006
+int Field_8_0_1_25976_007
+int Field_8_0_1_25976_008
+int Field_8_0_1_25976_009
+int Field_8_0_1_25976_010
+locstring Field_8_0_1_26032_000_lang
+int Field_8_0_1_26032_001
+int Field_8_0_1_26032_002
+int Field_8_0_1_26032_003
+int Field_8_0_1_26032_004
+int Field_8_0_1_26032_005
+int Field_8_0_1_26032_006
+int Field_8_0_1_26032_007
+int Field_8_0_1_26032_008
+int Field_8_0_1_26032_009
+int Field_8_0_1_26032_010
 
 LAYOUT 78CA6E33
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
 Description_lang
 $id$ID<32>
 SpellID<32>
@@ -50,7 +72,7 @@ PvpTalentCategoryID<32>
 LevelRequired<32>
 
 LAYOUT 6EB51740
-BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902
 $noninline,id$ID<32>
 Description_lang
 SpellID<32>
@@ -62,3 +84,33 @@ Flags<32>
 ClassID<32>
 SpecID<32>
 Field_019797176<32>
+
+LAYOUT 68F825BE
+BUILD 8.0.1.25976, 8.0.1.26010
+$noninline,id$ID<32>
+Field_8_0_1_25976_000_lang
+Field_8_0_1_25976_001<32>
+Field_8_0_1_25976_002<32>
+Field_8_0_1_25976_003<32>
+Field_8_0_1_25976_004<32>
+Field_8_0_1_25976_005<32>
+Field_8_0_1_25976_006<32>
+Field_8_0_1_25976_007<32>
+Field_8_0_1_25976_008<32>
+Field_8_0_1_25976_009<32>
+Field_8_0_1_25976_010<32>
+
+LAYOUT 7428FDEA
+BUILD 8.0.1.26032
+$noninline,id$ID<32>
+Field_8_0_1_26032_000_lang
+Field_8_0_1_26032_001<32>
+Field_8_0_1_26032_002<32>
+Field_8_0_1_26032_003<32>
+Field_8_0_1_26032_004<32>
+Field_8_0_1_26032_005<32>
+Field_8_0_1_26032_006<32>
+Field_8_0_1_26032_007<32>
+Field_8_0_1_26032_008<32>
+Field_8_0_1_26032_009<32>
+Field_8_0_1_26032_010<32>

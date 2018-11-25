@@ -34,21 +34,21 @@ SpellID<32>
 IconFileDataID<32>
 
 LAYOUT 60BB3520
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
 $noninline,id$ID<32>
 Title_lang
 BodyText_lang
-IconCreatureDisplayInfoID<32>
+IconCreatureDisplayInfoID<u32>
 SpellID<32>
 IconFileDataID<32>
-JournalEncounterID<16>
-NextSiblingSectionID<16>
-FirstChildSectionID<16>
-ParentSectionID<16>
-Flags<16>
-IconFlags<16>
-OrderIndex<8>
-Type<8>
+JournalEncounterID<u16>
+NextSiblingSectionID<u16>
+FirstChildSectionID<u16>
+ParentSectionID<u16>
+Flags<u16>
+IconFlags<u16>
+OrderIndex<u8>
+Type<u8>
 DifficultyMask<8>
 UiModelSceneID<32>
 
@@ -72,7 +72,7 @@ DifficultyMask<8>
 UiModelSceneID<32>
 
 LAYOUT 13E56B12
-BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902, 8.0.1.25976, 8.0.1.26010
 $noninline,id$ID<32>
 Title_lang
 BodyText_lang

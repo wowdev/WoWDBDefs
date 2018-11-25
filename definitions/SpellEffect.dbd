@@ -59,9 +59,9 @@ EffectAttributes<32>
 BonusCoefficientFromAP
 
 LAYOUT 0DEC6C81
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
 $noninline,id$ID<32>
-Effect<32>
+Effect<u32>
 EffectBasePoints<32>
 EffectIndex<32>
 EffectAura<32>
@@ -87,8 +87,8 @@ ResourceCoefficient
 GroupSizeBasePointsCoefficient
 EffectSpellClassMask<32>[4]
 EffectMiscValue<32>[2]
-EffectRadiusIndex<32>[2]
-ImplicitTarget<32>[2]
+EffectRadiusIndex<u32>[2]
+ImplicitTarget<u32>[2]
 $noninline,relation$SpellID<32>
 
 LAYOUT EC349C1D

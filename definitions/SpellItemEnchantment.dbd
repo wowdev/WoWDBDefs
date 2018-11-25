@@ -61,28 +61,28 @@ RequiredSkillRank<32>
 MinLevel<32>
 
 LAYOUT F8B0881A
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+BUILD 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
 $noninline,id$ID<32>
 Name_lang
 HordeName_lang
-EffectArg<32>[3]
+EffectArg<u32>[3]
 EffectScalingPoints[3]
-TransmogCost<32>
-IconFileDataID<32>
+TransmogCost<u32>
+IconFileDataID<u32>
 EffectPointsMin<16>[3]
-ItemVisual<16>
-Flags<16>
-RequiredSkillID<16>
-RequiredSkillRank<16>
-ItemLevel<16>
-Charges<8>
-Effect<8>[3]
-Condition_ID<8>
-MinLevel<8>
-MaxLevel<8>
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>
 ScalingClass<8>
 ScalingClassRestricted<8>
-TransmogPlayerConditionID<32>
+TransmogPlayerConditionID<u32>
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -163,7 +163,7 @@ MaxLevel<u8>
 TransmogPlayerConditionID<u32>
 
 LAYOUT 80DEA734
-BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032
 $noninline,id$ID<32>
 Name_lang
 EffectArg<u32>[3]
