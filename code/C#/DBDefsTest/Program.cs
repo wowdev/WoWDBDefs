@@ -188,6 +188,13 @@ namespace DBDTest
                         fieldCount = dc2header.fieldCount;
                         layoutHash = dc2header.layoutHash.ToString("X8");
                         break;
+                    case "WDC3":
+                        var dc3header = bin.Read<Structs.WDC3Header>();
+                        recordCount = dc3header.recordCount;
+                        recordSize = 0; // TODO: Bit shit
+                        fieldCount = dc3header.fieldCount;
+                        layoutHash = dc3header.layoutHash.ToString("X8");
+                        break;
                     default:
                         throw new Exception("Unknown DBC type " + magic + " encountered!");
                 }
@@ -228,12 +235,14 @@ namespace DBDTest
                         var fields = 0;
                         foreach (var definition in versionDef.definitions)
                         {
+                            var tempBuild = new Build(buildDir);
+
                             if (definition.name.StartsWith("Padding_") || definition.isNonInline)
                                 continue;
 
                             int arrLength = Math.Max(definition.arrLength, 1);
 
-                            if (definition.isRelation)
+                            if (definition.isRelation || tempBuild.build > 21478) // As of WDB5, DBC field_count counts arrays as 1
                             {
                                 fields++;
                                 continue;
@@ -241,7 +250,6 @@ namespace DBDTest
 
                             if (dbd.columnDefinitions[definition.name].type == "locstring")
                             {
-                                var tempBuild = new Build(buildDir);
                                 if (tempBuild.build < 6692)
                                 {
                                     fields += (9 * arrLength);

@@ -108,7 +108,28 @@
         public uint stringTableSize;
         public uint tableHash;
         public uint layoutHash;
-        public uint timestampLastWritten;
+        public uint minID;
+        public uint maxID;
+        public uint locale;
+        public ushort flags;
+        public ushort idIndex;
+        public uint totalFieldCount;
+        public uint bitpackedDataOffset;
+        public uint lookupColumnCount;
+        public uint fieldStorageInfoSize;
+        public uint commonDataSize;
+        public uint palletDataSize;
+        public uint sectionCount;
+    }
+
+    public struct WDC3Header
+    {
+        public uint recordCount;
+        public uint fieldCount;
+        public uint recordSize;
+        public uint stringTableSize;
+        public uint tableHash;
+        public uint layoutHash;
         public uint minID;
         public uint maxID;
         public uint locale;

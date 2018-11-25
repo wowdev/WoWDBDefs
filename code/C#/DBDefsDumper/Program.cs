@@ -234,9 +234,10 @@ namespace DBDefsDumper
                             if (pattern.offsets.ContainsKey(Name.FDID))
                             {
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.FDID];
-                                if(bin.ReadUInt32() < 53183)
+                                var fdid = bin.ReadUInt32();
+                                if (fdid < 53183)
                                 {
-                                    Console.WriteLine("Invalid filedataid, skipping match..");
+                                    Console.WriteLine("Invalid filedataid " + fdid + ", skipping match..");
                                     continue;
                                 }
                             }
