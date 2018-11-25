@@ -1,5 +1,20 @@
 ﻿namespace DBDTest.Structs
 {
+    public struct FileDefinition
+    {
+        public uint fieldCount;
+        public uint recordSize;
+        public uint build;
+        public string layoutHash;
+        public FieldStructure[] fields;
+    }
+
+    public struct FieldStructure
+    {
+        public uint fieldSizeBits;
+        public uint arrayCount;
+    }
+
     public struct WDBCHeader
     {
         public uint recordCount;
