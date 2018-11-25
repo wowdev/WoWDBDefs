@@ -13,6 +13,8 @@
     {
         public uint fieldSizeBits;
         public uint arrayCount;
+        public ushort fieldSize;
+        public ushort fieldOffset;
     }
 
     public struct WDBCHeader

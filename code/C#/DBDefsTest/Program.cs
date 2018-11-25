@@ -15,6 +15,8 @@ namespace DBDTest
         public static Dictionary<string, List<string>> duplicateFileLookup = new Dictionary<string, List<string>>();
         public static bool foundError = false;
         
+        private static string dbcDir;
+
         static void Main(string[] args)
         {
             if (args.Length < 2)
@@ -30,7 +32,7 @@ namespace DBDTest
                 throw new DirectoryNotFoundException("Directory " + definitionDir + " does not exist!");
             }
 
-            var dbcDir = args[1];
+            dbcDir = args[1];
 
             if (!Directory.Exists(dbcDir))
             {
@@ -47,7 +49,7 @@ namespace DBDTest
 
             foreach (var dir in Directory.GetDirectories(dbcDir))
             {
-                builds.Add(new Build(dir.Replace(dbcDir, "")));
+                builds.Add(new Build(dir.Replace(dbcDir + "\\", "")));
             }
 
             builds.Sort();
@@ -88,7 +90,7 @@ namespace DBDTest
                 return;
             }
 
-            var buildDir = Path.GetDirectoryName(filename).Replace("Z:\\DBCs\\", "").Replace("\\DBFilesClient", "");
+            var buildDir = Path.GetDirectoryName(filename).Replace(dbcDir + "\\", "").Replace("\\DBFilesClient", "");
 
             using (var md5 = MD5.Create())
             {
@@ -199,6 +201,20 @@ namespace DBDTest
                         {
                             throw new Exception("WDC3 field count (" + dc3header.fieldCount + ") and total field count (" + dc3header.totalFieldCount + " ) do not match!");
                         }
+
+                        bin.BaseStream.Position += (40 * dc3header.sectionCount);
+
+                        for (var i = 0; i < fileDef.fieldCount; i++)
+                        {
+                            Console.WriteLine("[Structure][Field " + i + "] Size: " + bin.ReadUInt16() + ", Offset: " + bin.ReadUInt16());
+                        }
+
+                        for(var i = 0; i < dc3header.fieldStorageInfoSize / 24; i++)
+                        {
+                            Console.WriteLine("[Storage][Field " + i + "] OFfset: " + bin.ReadUInt16() + ", Size: " + bin.ReadUInt16() + ", Additional Data Size: " + bin.ReadUInt32() + ", Type: " + bin.ReadUInt32());
+                            Console.WriteLine("[Storage][Field " + i + "] " + bin.ReadUInt32() + ", " + bin.ReadUInt32() + ", " + bin.ReadUInt32());
+                        }
+
                         break;
                     default:
                         throw new Exception("Unknown DBC type " + magic + " encountered!");
