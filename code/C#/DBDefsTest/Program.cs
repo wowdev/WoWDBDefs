@@ -56,7 +56,7 @@ namespace DBDTest
 
             foreach(var build in builds)
             {
-                if (build.expansion != 8) continue;
+                if (build.expansion != 8 || build.major != 1) continue;
 
                 Console.WriteLine("Checking " + build + "..");
                 if (Directory.Exists(Path.Combine(dbcDir, build.ToString(), "DBFilesClient")))
@@ -206,13 +206,26 @@ namespace DBDTest
 
                         for (var i = 0; i < fileDef.fieldCount; i++)
                         {
-                            Console.WriteLine("[Structure][Field " + i + "] Size: " + bin.ReadUInt16() + ", Offset: " + bin.ReadUInt16());
+                            var size = bin.ReadUInt16();
+                            var offset = bin.ReadUInt16();
+                            //Console.WriteLine("[Structure][Field " + i + "] Size: " + size + ", Offset: " + offset);
                         }
 
                         for(var i = 0; i < dc3header.fieldStorageInfoSize / 24; i++)
                         {
-                            Console.WriteLine("[Storage][Field " + i + "] OFfset: " + bin.ReadUInt16() + ", Size: " + bin.ReadUInt16() + ", Additional Data Size: " + bin.ReadUInt32() + ", Type: " + bin.ReadUInt32());
-                            Console.WriteLine("[Storage][Field " + i + "] " + bin.ReadUInt32() + ", " + bin.ReadUInt32() + ", " + bin.ReadUInt32());
+                            var offset = bin.ReadUInt16();
+                            var size = bin.ReadUInt16();
+                            var additionalDataSize = bin.ReadUInt32();
+                            var type = bin.ReadUInt32();
+                            //Console.WriteLine("[Storage][Field " + i + "] Offset: " + bin.ReadUInt16() + ", Size: " + bin.ReadUInt16() + ", Additional Data Size: " + bin.ReadUInt32() + ", Type: " + bin.ReadUInt32());
+                            var val1 = bin.ReadUInt32();
+                            var val2 = bin.ReadUInt32();
+                            var val3 = bin.ReadUInt32();
+                            if (type == 4)
+                            {
+                                fileDef.fields[i].arrayCount = val3;
+                            }
+                            //Console.WriteLine("[Storage][Field " + i + "] " + val1 + ", " + val2 + ", " + val3);
                         }
 
                         break;
@@ -300,11 +313,24 @@ namespace DBDTest
 
                         // Check record sizes
                         var dbdRecordSize = 0;
+                        var i = 0;
                         foreach (var definition in versionDef.definitions)
                         {
                             if (definition.isNonInline || definition.isRelation) continue;
 
                             int arrLength = Math.Max(definition.arrLength, 1);
+
+                            if(arrLength > 1)
+                            {
+                                if(fileDef.fields[i].arrayCount != 0 && fileDef.fields[i].arrayCount != arrLength)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine("[" + buildDir + "][" + Path.GetFileNameWithoutExtension(filename) + "] Array length for field " + definition.name + " wrong! DBC: " + fileDef.fields[i].arrayCount + ", DBD: " + arrLength);
+                                    Console.ResetColor();
+                                }
+                            }
+
+                            i++;
 
                             var fieldSize = 0;
                             switch (dbd.columnDefinitions[definition.name].type)
