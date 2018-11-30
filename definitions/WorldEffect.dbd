@@ -6,6 +6,12 @@ int<QuestFeedbackEffect::ID> QuestFeedbackEffectID
 int PlayerConditionID
 int CombatConditionID
 int WhenToDisplay
+int Field_8_1_0_28616_000
+int Field_8_1_0_28616_001
+int Field_8_1_0_28616_002
+int Field_8_1_0_28616_003
+int Field_8_1_0_28616_004
+int Field_8_1_0_28616_005
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -45,3 +51,13 @@ TargetType<u8>
 TargetAsset<32>
 PlayerConditionID<u32>
 CombatConditionID<u16>
+
+LAYOUT 8A7EC767
+BUILD 8.1.0.28616
+$noninline,id$ID<32>
+Field_8_1_0_28616_000<u32>
+Field_8_1_0_28616_001<u8>
+Field_8_1_0_28616_002<8>
+Field_8_1_0_28616_003<32>
+Field_8_1_0_28616_004<u32>
+Field_8_1_0_28616_005<u16>
