@@ -44,6 +44,53 @@ float DuckToCinematicSFX
 float DuckToCinematicMusic
 int RolloffType
 float RolloffParam0
+int Field_8_1_5_28938_000
+int Field_8_1_5_28938_001
+float Field_8_1_5_28938_002
+float Field_8_1_5_28938_003
+int Field_8_1_5_28938_004
+int Field_8_1_5_28938_005
+int Field_8_1_5_28938_006
+int Field_8_1_5_28938_007
+int Field_8_1_5_28938_008
+int Field_8_1_5_28938_009
+int Field_8_1_5_28938_010
+int Field_8_1_5_28938_011
+int Field_8_1_5_28938_012
+int Field_8_1_5_28938_013
+int Field_8_1_5_28938_014
+float Field_8_1_5_28938_015
+float Field_8_1_5_28938_016
+float Field_8_1_5_28938_017
+float Field_8_1_5_28938_018
+float Field_8_1_5_28938_019
+float Field_8_1_5_28938_020
+float Field_8_1_5_28938_021
+float Field_8_1_5_28938_022
+float Field_8_1_5_28938_023
+int Field_8_1_5_28938_024
+int Field_8_1_5_28938_025
+float Field_8_1_5_28938_026
+float Field_8_1_5_28938_027
+float Field_8_1_5_28938_028
+int Field_8_1_5_28938_029
+int Field_8_1_5_28938_030
+int Field_8_1_5_28938_031
+int Field_8_1_5_28938_032
+int Field_8_1_5_28938_033
+int Field_8_1_5_28938_034
+int Field_8_1_5_28938_035
+int Field_8_1_5_28938_036
+int Field_8_1_5_28938_037
+int Field_8_1_5_28938_038
+int Field_8_1_5_28938_039
+int Field_8_1_5_28938_040
+int Field_8_1_5_28938_041
+float Field_8_1_5_28938_042
+int Field_8_1_5_28938_043
+float Field_8_1_5_28938_044
+float Field_8_1_5_28938_045
+float Field_8_1_5_28938_046
 
 LAYOUT 5F920928
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -313,3 +360,53 @@ VolumeFadeOutCurveID<u32>
 ChanceToPlay
 RolloffType<32>
 RolloffParam0
+
+LAYOUT F64439CE
+BUILD 8.1.5.28938
+$id$Field_8_1_5_28938_000<32>
+Field_8_1_5_28938_001<u32>
+Field_8_1_5_28938_002
+Field_8_1_5_28938_003
+Field_8_1_5_28938_004<u32>
+Field_8_1_5_28938_005<u32>
+Field_8_1_5_28938_006<u32>
+Field_8_1_5_28938_007<u32>
+Field_8_1_5_28938_008<32>
+Field_8_1_5_28938_009<8>
+Field_8_1_5_28938_010<u32>
+Field_8_1_5_28938_011<u32>
+Field_8_1_5_28938_012<u32>
+Field_8_1_5_28938_013<u32>
+Field_8_1_5_28938_014<u8>
+Field_8_1_5_28938_015
+Field_8_1_5_28938_016
+Field_8_1_5_28938_017
+Field_8_1_5_28938_018
+Field_8_1_5_28938_019
+Field_8_1_5_28938_020
+Field_8_1_5_28938_021
+Field_8_1_5_28938_022
+Field_8_1_5_28938_023
+Field_8_1_5_28938_024<u32>
+Field_8_1_5_28938_025<u32>
+Field_8_1_5_28938_026
+Field_8_1_5_28938_027
+Field_8_1_5_28938_028
+Field_8_1_5_28938_029<u8>
+Field_8_1_5_28938_030<u16>
+Field_8_1_5_28938_031<32>
+Field_8_1_5_28938_032<u32>
+Field_8_1_5_28938_033<u32>
+Field_8_1_5_28938_034<u8>
+Field_8_1_5_28938_035<u8>
+Field_8_1_5_28938_036<32>
+Field_8_1_5_28938_037<32>
+Field_8_1_5_28938_038<u32>
+Field_8_1_5_28938_039<32>
+Field_8_1_5_28938_040<32>
+Field_8_1_5_28938_041<u32>
+Field_8_1_5_28938_042
+Field_8_1_5_28938_043<32>
+Field_8_1_5_28938_044
+Field_8_1_5_28938_045
+Field_8_1_5_28938_046

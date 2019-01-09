@@ -6,6 +6,13 @@ int FlavorSoundFilterID
 int SoundFilterID
 int AmbienceStartID
 int AmbienceStopID
+int Field_8_1_5_28938_000
+int Field_8_1_5_28938_001
+int Field_8_1_5_28938_002
+int Field_8_1_5_28938_003
+int Field_8_1_5_28938_004
+int Field_8_1_5_28938_005
+int Field_8_1_5_28938_006
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -39,3 +46,14 @@ FlavorSoundFilterID<u32>
 AmbienceID<u32>[2]
 AmbienceStartID<u32>[2]
 AmbienceStopID<u32>[2]
+
+LAYOUT DC7D52F2
+BUILD 8.1.5.28938
+$noninline,id$ID<32>
+Field_8_1_5_28938_000<u8>
+Field_8_1_5_28938_001<u32>
+Field_8_1_5_28938_002<u32>
+Field_8_1_5_28938_003<u32>[2]
+Field_8_1_5_28938_004<u32>[2]
+Field_8_1_5_28938_005<u32>[2]
+Field_8_1_5_28938_006<u32>[2]

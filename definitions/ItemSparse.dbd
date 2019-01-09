@@ -71,6 +71,68 @@ int DamageMax?
 int DefensiveStats?
 int AmmoType?
 int DamageType?
+int Field_8_1_5_28938_000
+locstring Field_8_1_5_28938_001_lang
+locstring Field_8_1_5_28938_002_lang
+locstring Field_8_1_5_28938_003_lang
+locstring Field_8_1_5_28938_004_lang
+locstring Field_8_1_5_28938_005_lang
+float Field_8_1_5_28938_006
+int Field_8_1_5_28938_007
+float Field_8_1_5_28938_008
+int Field_8_1_5_28938_009
+float Field_8_1_5_28938_010
+float Field_8_1_5_28938_011
+int Field_8_1_5_28938_012
+int Field_8_1_5_28938_013
+int Field_8_1_5_28938_014
+int Field_8_1_5_28938_015
+int Field_8_1_5_28938_016
+int Field_8_1_5_28938_017
+int Field_8_1_5_28938_018
+float Field_8_1_5_28938_019
+float Field_8_1_5_28938_020
+int Field_8_1_5_28938_021
+int Field_8_1_5_28938_022
+int Field_8_1_5_28938_023
+int Field_8_1_5_28938_024
+int Field_8_1_5_28938_025
+int Field_8_1_5_28938_026
+int Field_8_1_5_28938_027
+int Field_8_1_5_28938_028
+int Field_8_1_5_28938_029
+int Field_8_1_5_28938_030
+int Field_8_1_5_28938_031
+int Field_8_1_5_28938_032
+int Field_8_1_5_28938_033
+int Field_8_1_5_28938_034
+int Field_8_1_5_28938_035
+int Field_8_1_5_28938_036
+int Field_8_1_5_28938_037
+int Field_8_1_5_28938_038
+int Field_8_1_5_28938_039
+int Field_8_1_5_28938_040
+int Field_8_1_5_28938_041
+int Field_8_1_5_28938_042
+int Field_8_1_5_28938_043
+int Field_8_1_5_28938_044
+int Field_8_1_5_28938_045
+int Field_8_1_5_28938_046
+int Field_8_1_5_28938_047
+int Field_8_1_5_28938_048
+int Field_8_1_5_28938_049
+int Field_8_1_5_28938_050
+int Field_8_1_5_28938_051
+int Field_8_1_5_28938_052
+int Field_8_1_5_28938_053
+int Field_8_1_5_28938_054
+int Field_8_1_5_28938_055
+int Field_8_1_5_28938_056
+int Field_8_1_5_28938_057
+int Field_8_1_5_28938_058
+int Field_8_1_5_28938_059
+int Field_8_1_5_28938_060
+int Field_8_1_5_28938_061
 
 LAYOUT 350149D8
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -419,3 +481,70 @@ SpellWeightCategory<u8>
 SpellWeight<u8>
 ArtifactID<u8>
 ExpansionID<u8>
+
+LAYOUT F8931063
+BUILD 8.1.5.28938
+COMMENT table is sparse
+$noninline,id$ID<32>
+Field_8_1_5_28938_000<64>
+Field_8_1_5_28938_001_lang
+Field_8_1_5_28938_002_lang
+Field_8_1_5_28938_003_lang
+Field_8_1_5_28938_004_lang
+Field_8_1_5_28938_005_lang
+Field_8_1_5_28938_006
+Field_8_1_5_28938_007<u32>
+Field_8_1_5_28938_008
+Field_8_1_5_28938_009<u32>
+Field_8_1_5_28938_010
+Field_8_1_5_28938_011[10]
+Field_8_1_5_28938_012<32>[10]
+Field_8_1_5_28938_013<32>
+Field_8_1_5_28938_014<32>
+Field_8_1_5_28938_015<u32>
+Field_8_1_5_28938_016<u32>
+Field_8_1_5_28938_017<u32>
+Field_8_1_5_28938_018<u32>
+Field_8_1_5_28938_019
+Field_8_1_5_28938_020
+Field_8_1_5_28938_021<32>[4]
+Field_8_1_5_28938_022<32>
+Field_8_1_5_28938_023<u16>
+Field_8_1_5_28938_024<u16>
+Field_8_1_5_28938_025<u16>
+Field_8_1_5_28938_026<u16>
+Field_8_1_5_28938_027<u16>
+Field_8_1_5_28938_028<u16>
+Field_8_1_5_28938_029<u16>
+Field_8_1_5_28938_030<u16>
+Field_8_1_5_28938_031<u16>
+Field_8_1_5_28938_032<u16>
+Field_8_1_5_28938_033<u16>
+Field_8_1_5_28938_034<u16>
+Field_8_1_5_28938_035<u16>
+Field_8_1_5_28938_036<u16>
+Field_8_1_5_28938_037<u16>
+Field_8_1_5_28938_038<u16>
+Field_8_1_5_28938_039<u16>
+Field_8_1_5_28938_040<u16>
+Field_8_1_5_28938_041<u16>
+Field_8_1_5_28938_042<16>
+Field_8_1_5_28938_043<u8>
+Field_8_1_5_28938_044<u8>
+Field_8_1_5_28938_045<u8>
+Field_8_1_5_28938_046<u8>
+Field_8_1_5_28938_047<u8>[3]
+Field_8_1_5_28938_048<u8>
+Field_8_1_5_28938_049<u8>
+Field_8_1_5_28938_050<u8>
+Field_8_1_5_28938_051<u8>
+Field_8_1_5_28938_052<u8>
+Field_8_1_5_28938_053<u8>
+Field_8_1_5_28938_054<8>[10]
+Field_8_1_5_28938_055<u8>
+Field_8_1_5_28938_056<u8>
+Field_8_1_5_28938_057<u8>
+Field_8_1_5_28938_058<u8>
+Field_8_1_5_28938_059<8>
+Field_8_1_5_28938_060<u8>
+Field_8_1_5_28938_061<u8>
