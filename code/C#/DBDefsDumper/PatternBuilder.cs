@@ -45,7 +45,7 @@ namespace DBDefsDumper
             //);
 
             patterns.Add(
-            new Pattern("8.0.1", new List<string> { "8.1.0", "8.0.1" }, 26232, 0)
+            new Pattern("8.0.1", new List<string> { "8.1.5", "8.1.0", "8.0.1" }, 26232, 0)
                 .Pointer(Name.DB_NAME)
                 .FileDataID(Name.FDID)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
