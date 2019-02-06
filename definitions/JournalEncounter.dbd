@@ -12,6 +12,17 @@ locstring Description_lang
 int Flags
 int MapDisplayConditionID
 int UiMapID
+locstring Field_8_1_5_29281_000_lang
+locstring Field_8_1_5_29281_001_lang
+float Field_8_1_5_29281_002
+int Field_8_1_5_29281_003
+int Field_8_1_5_29281_004
+int Field_8_1_5_29281_005
+int Field_8_1_5_29281_006
+int Field_8_1_5_29281_007
+int Field_8_1_5_29281_008
+int Field_8_1_5_29281_009
+int Field_8_1_5_29281_010
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -83,3 +94,18 @@ UiMapID<u16>
 MapDisplayConditionID<u32>
 Flags<u8>
 DifficultyMask<8>
+
+LAYOUT 9C7CB433
+BUILD 8.1.5.29281
+$noninline,id$ID<32>
+Field_8_1_5_29281_000_lang
+Field_8_1_5_29281_001_lang
+Field_8_1_5_29281_002[2]
+Field_8_1_5_29281_003<u16>
+Field_8_1_5_29281_004<u16>
+Field_8_1_5_29281_005<u32>
+Field_8_1_5_29281_006<u16>
+Field_8_1_5_29281_007<u16>
+Field_8_1_5_29281_008<u32>
+Field_8_1_5_29281_009<u8>
+Field_8_1_5_29281_010<8>
