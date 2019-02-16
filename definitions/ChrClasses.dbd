@@ -37,6 +37,27 @@ int Field_1_13_0_28211_016
 int Field_1_13_0_28211_017
 int Field_1_13_0_28211_018
 int Field_1_13_0_28211_019
+locstring Field_8_1_5_29418_000_lang
+string Field_8_1_5_29418_001
+locstring Field_8_1_5_29418_002_lang
+locstring Field_8_1_5_29418_003_lang
+string Field_8_1_5_29418_004
+int Field_8_1_5_29418_005
+int Field_8_1_5_29418_006
+int Field_8_1_5_29418_007
+int Field_8_1_5_29418_008
+int Field_8_1_5_29418_009
+int Field_8_1_5_29418_010
+int Field_8_1_5_29418_011
+int Field_8_1_5_29418_012
+int Field_8_1_5_29418_013
+int Field_8_1_5_29418_014
+int Field_8_1_5_29418_015
+int Field_8_1_5_29418_016
+int Field_8_1_5_29418_017
+int Field_8_1_5_29418_018
+int Field_8_1_5_29418_019
+int Field_8_1_5_29418_020
 
 BUILD 6.0.1.18179
 BUILD 5.0.4.16016-5.4.8.18414
@@ -213,3 +234,27 @@ SpellClassSet<32>
 Flags<32>
 CinematicSequenceID<32>
 Required_expansion<32>
+
+LAYOUT 16C686A5
+BUILD 8.1.5.29418
+Field_8_1_5_29418_000_lang
+Field_8_1_5_29418_001
+Field_8_1_5_29418_002_lang
+Field_8_1_5_29418_003_lang
+Field_8_1_5_29418_004
+$id$Field_8_1_5_29418_005<32>
+Field_8_1_5_29418_006<u32>
+Field_8_1_5_29418_007<u32>
+Field_8_1_5_29418_008<u32>
+Field_8_1_5_29418_009<u32>
+Field_8_1_5_29418_010<32>
+Field_8_1_5_29418_011<u32>
+Field_8_1_5_29418_012<u16>
+Field_8_1_5_29418_013<u16>
+Field_8_1_5_29418_014<u16>
+Field_8_1_5_29418_015<u8>
+Field_8_1_5_29418_016<u8>
+Field_8_1_5_29418_017<u8>
+Field_8_1_5_29418_018<u8>
+Field_8_1_5_29418_019<u8>
+Field_8_1_5_29418_020<u8>
