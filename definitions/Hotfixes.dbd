@@ -3,7 +3,6 @@ int ID
 int Flags
 int Object_ID
 string Tablename
-string Field_8_1_5_28938_000
 int Field_8_1_5_28938_001
 int Field_8_1_5_28938_002
 int Field_8_1_5_28938_003
@@ -18,7 +17,7 @@ Flags<32>
 LAYOUT 5AA7BA84
 BUILD 8.1.5.28938, 8.1.5.29141, 8.1.5.29220, 8.1.5.29281, 8.1.5.29310, 8.1.5.29352, 8.1.5.29385, 8.1.5.29418
 $noninline,id$ID<32>
-Field_8_1_5_28938_000
+Tablename
 Field_8_1_5_28938_001<32>
 Field_8_1_5_28938_002<32>
 Field_8_1_5_28938_003<32>

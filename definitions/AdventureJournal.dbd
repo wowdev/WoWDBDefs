@@ -23,28 +23,6 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
-locstring Field_8_1_0_28440_000_lang
-locstring Field_8_1_0_28440_001_lang
-locstring Field_8_1_0_28440_002_lang
-locstring Field_8_1_0_28440_003_lang
-locstring Field_8_1_0_28440_004_lang
-int Field_8_1_0_28440_005
-int Field_8_1_0_28440_006
-int Field_8_1_0_28440_007
-int Field_8_1_0_28440_008
-int Field_8_1_0_28440_009
-int Field_8_1_0_28440_010
-int Field_8_1_0_28440_011
-int Field_8_1_0_28440_012
-int Field_8_1_0_28440_013
-int Field_8_1_0_28440_014
-int Field_8_1_0_28440_015
-int Field_8_1_0_28440_016
-int Field_8_1_0_28440_017
-int Field_8_1_0_28440_018
-int Field_8_1_0_28440_019
-int Field_8_1_0_28440_020
-int Field_8_1_0_28440_021
 
 LAYOUT B2FFA8DD, 2C723565
 BUILD 1.13.0.28211, 7.3.5.26654, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
@@ -179,25 +157,25 @@ BonusValue<u8>[2]
 LAYOUT 4FEAA1F0
 BUILD 8.1.0.28440, 8.1.0.28485, 8.1.0.28616, 8.1.0.28657, 8.1.0.28710, 8.1.0.28724, 8.1.0.28768, 8.1.0.28807, 8.1.0.28822, 8.1.5.28938, 8.1.5.29141, 8.1.5.29220, 8.1.5.29281, 8.1.5.29310, 8.1.5.29352, 8.1.5.29385, 8.1.5.29418
 $noninline,id$ID<32>
-Field_8_1_0_28440_000_lang
-Field_8_1_0_28440_001_lang
-Field_8_1_0_28440_002_lang
-Field_8_1_0_28440_003_lang
-Field_8_1_0_28440_004_lang
-Field_8_1_0_28440_005<u8>
-Field_8_1_0_28440_006<u32>
-Field_8_1_0_28440_007<u8>
-Field_8_1_0_28440_008<u8>
-Field_8_1_0_28440_009<32>
-Field_8_1_0_28440_010<u16>
-Field_8_1_0_28440_011<u16>
-Field_8_1_0_28440_012<u16>
-Field_8_1_0_28440_013<u8>
-Field_8_1_0_28440_014<u8>
-Field_8_1_0_28440_015<32>
-Field_8_1_0_28440_016<u32>
-Field_8_1_0_28440_017<u16>
-Field_8_1_0_28440_018<u32>
-Field_8_1_0_28440_019<u16>
-Field_8_1_0_28440_020<u32>[2]
-Field_8_1_0_28440_021<u8>[2]
+Name_lang
+Description_lang
+ButtonText_lang
+RewardDescription_lang
+ContinueDescription_lang
+Type<u8>
+PlayerConditionID<u32>
+Flags<u8>
+ButtonActionType<u8>
+TextureFileDataID<32>
+LfgDungeonID<u16>
+QuestID<u16>
+BattleMasterListID<u16>
+PriorityMin<u8>
+PriorityMax<u8>
+ItemID<32>
+ItemQuantity<u32>
+CurrencyType<u16>
+CurrencyQuantity<u32>
+UIMapID<u16>
+BonusPlayerConditionID<u32>[2]
+BonusValue<u8>[2]

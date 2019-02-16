@@ -10,16 +10,6 @@ int Showscalp
 int ColorIndex
 int CustomGeoFileDataID
 int HdCustomGeoFileDataID
-int Field_8_1_0_28616_000
-int Field_8_1_0_28616_001
-int Field_8_1_0_28616_002
-int Field_8_1_0_28616_003
-int Field_8_1_0_28616_004
-int Field_8_1_0_28616_005
-int Field_8_1_0_28616_006
-int Field_8_1_0_28616_007
-int Field_8_1_0_28616_008
-int Field_8_1_0_28616_009
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -91,13 +81,13 @@ HdCustomGeoFileDataID<32>
 LAYOUT C1638C2C
 BUILD 8.1.0.28616, 8.1.0.28657, 8.1.0.28710, 8.1.0.28724, 8.1.0.28768, 8.1.0.28807, 8.1.0.28822, 8.1.5.28938, 8.1.5.29141, 8.1.5.29220, 8.1.5.29281, 8.1.5.29310, 8.1.5.29352, 8.1.5.29385, 8.1.5.29418
 $noninline,id$ID<32>
-$relation$Field_8_1_0_28616_000<u8>
-Field_8_1_0_28616_001<u8>
-Field_8_1_0_28616_002<8>
-Field_8_1_0_28616_003<8>
-Field_8_1_0_28616_004<u8>
-Field_8_1_0_28616_005<8>
-Field_8_1_0_28616_006<8>
-Field_8_1_0_28616_007<8>
-Field_8_1_0_28616_008<32>
-Field_8_1_0_28616_009<32>
+$relation$RaceID<u8>
+SexID<u8>
+VariationID<8>
+GeosetID<8>
+Showscalp<u8>
+VariationType<8>
+GeosetType<8>
+ColorIndex<8>
+CustomGeoFileDataID<32>
+HdCustomGeoFileDataID<32>

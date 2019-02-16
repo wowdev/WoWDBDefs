@@ -10,24 +10,8 @@ int<SpellIcon::ID> SpellIconID
 int Flags
 int SpellIconFileID
 int Difficulty
-int Field_8_1_0_28294_003
-int Field_8_1_0_28294_004
-int Field_8_1_0_28294_005
-int Field_8_1_0_28294_006
-int Field_8_1_0_28294_007
-int Field_8_1_0_28294_008
 int Field_8_1_0_28294_009
-locstring Field_8_1_5_29281_000_lang
-int Field_8_1_5_29281_001
-int Field_8_1_5_29281_002
-int Field_8_1_5_29281_003
-int Field_8_1_5_29281_004
 int Field_8_1_5_29281_005
-int Field_8_1_5_29281_006
-int Field_8_1_5_29281_007
-int Field_8_1_5_29281_008
-int Field_8_1_5_29281_009
-int Field_8_1_5_29281_010
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -80,24 +64,24 @@ BUILD 8.1.0.28294, 8.1.0.28366, 8.1.0.28440, 8.1.0.28485, 8.1.0.28616, 8.1.0.286
 Name_lang
 $id$ID<32>
 $relation$MapID<16>
-Field_8_1_0_28294_003<8>
-Field_8_1_0_28294_004<32>
-Field_8_1_0_28294_005<8>
-Field_8_1_0_28294_006<32>
-Field_8_1_0_28294_007<u8>
-Field_8_1_0_28294_008<32>
+DifficultyID<8>
+OrderIndex<32>
+Bit<8>
+CreatureDisplayID<32>
+Flags<u8>
+SpellIconFileID<32>
 Field_8_1_0_28294_009<32>
 
 LAYOUT 1FD23060
 BUILD 8.1.5.29281, 8.1.5.29310, 8.1.5.29352, 8.1.5.29385, 8.1.5.29418
-Field_8_1_5_29281_000_lang
-$id$Field_8_1_5_29281_001<32>
-$relation$Field_8_1_5_29281_002<16>
-Field_8_1_5_29281_003<8>
-Field_8_1_5_29281_004<32>
+Name_lang
+$id$ID<32>
+$relation$MapID<16>
+DifficultyID<8>
+OrderIndex<32>
 Field_8_1_5_29281_005<32>
-Field_8_1_5_29281_006<8>
-Field_8_1_5_29281_007<32>
-Field_8_1_5_29281_008<u8>
-Field_8_1_5_29281_009<32>
-Field_8_1_5_29281_010<32>
+Bit<8>
+CreatureDisplayID<32>
+Flags<u8>
+SpellIconFileID<32>
+Field_8_1_0_28294_009<32>
