@@ -14,18 +14,7 @@ int<FileData::ID> InventoryIconFileID
 int<Item::ID> ItemID
 int BitIndex
 int FactionID
-locstring Field_8_1_5_29418_000_lang
-locstring Field_8_1_5_29418_001_lang
-int Field_8_1_5_29418_002
-int Field_8_1_5_29418_003
-int Field_8_1_5_29418_004
-int Field_8_1_5_29418_005
-int Field_8_1_5_29418_006
-int Field_8_1_5_29418_007
-int Field_8_1_5_29418_008
-int Field_8_1_5_29418_009
-int Field_8_1_5_29418_010
-int Field_8_1_5_29418_011
+int Field_8_1_5_29352_011
 
 BUILD 6.0.1.18179
 BUILD 5.2.0.16516-5.4.8.18414
@@ -94,15 +83,15 @@ FactionID<32>
 LAYOUT C6A4670A
 BUILD 8.1.5.29352, 8.1.5.29385, 8.1.5.29418
 $noninline,id$ID<32>
-Field_8_1_5_29418_000_lang
-Field_8_1_5_29418_001_lang
-Field_8_1_5_29418_002<u8>
-Field_8_1_5_29418_003<32>
-Field_8_1_5_29418_004<u32>
-Field_8_1_5_29418_005<u8>
-Field_8_1_5_29418_006<u32>
-Field_8_1_5_29418_007<u32>
-Field_8_1_5_29418_008<u32>
-Field_8_1_5_29418_009<8>
-Field_8_1_5_29418_010<32>
-Field_8_1_5_29418_011<32>
+Name_lang
+Description_lang
+CategoryID<u8>
+InventoryIconFileID<32>
+SpellWeight<u32>
+SpellCategory<u8>
+MaxQty<u32>
+MaxEarnablePerWeek<u32>
+Flags<u32>
+Quality<8>
+FactionID<32>
+Field_8_1_5_29352_011<32>
