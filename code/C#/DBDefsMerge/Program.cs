@@ -17,6 +17,8 @@ namespace DBDefsMerge
                 Environment.Exit(1);
             }
 
+            var numLayoutsAdded = 0;
+            
             var firstDir = args[0];
             var secondDir = args[1];
             var targetDir = args[2];
@@ -280,6 +282,7 @@ namespace DBDefsMerge
                             {
                                 // Version was not found/merged, add it!
                                 newVersions.Add(versionDefinition2);
+                                numLayoutsAdded++;
                             }
 
                             newDefinition.versionDefinitions = newVersions.ToArray();
@@ -435,7 +438,7 @@ namespace DBDefsMerge
 
                 writer.Save(definitionCopy, Path.Combine(targetDir, entry.Key + ".dbd"));
             }
-
+            Console.WriteLine("Done, " + numLayoutsAdded + " new layouts added!");
             //Console.ReadLine();
         }
     }
