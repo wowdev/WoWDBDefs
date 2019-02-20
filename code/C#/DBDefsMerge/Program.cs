@@ -39,7 +39,7 @@ namespace DBDefsMerge
                 if (firstDirFilesLC.Contains(file.ToLower()))
                 {
                     // Both directories have this file. Merge!
-                    var firstFile = reader.Read(Path.Combine(firstDir, file));
+                    var firstFile = reader.Read(Path.Combine(firstDir, firstDirFiles.ElementAt(firstDirFilesLC.IndexOf(file.ToLower()))));
                     var secondFile = reader.Read(Path.Combine(secondDir, file));
 
                     var newDefinition = firstFile;
