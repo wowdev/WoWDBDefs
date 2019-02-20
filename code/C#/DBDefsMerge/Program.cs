@@ -39,7 +39,8 @@ namespace DBDefsMerge
                 if (firstDirFilesLC.Contains(file.ToLower()))
                 {
                     // Both directories have this file. Merge!
-                    var firstFile = reader.Read(Path.Combine(firstDir, firstDirFiles.ElementAt(firstDirFilesLC.IndexOf(file.ToLower()))));
+                    var firstFileName = Path.Combine(firstDir, firstDirFiles.ElementAt(firstDirFilesLC.IndexOf(file.ToLower())));
+                    var firstFile = reader.Read(firstFileName);
                     var secondFile = reader.Read(Path.Combine(secondDir, file));
 
                     var newDefinition = firstFile;
@@ -341,7 +342,7 @@ namespace DBDefsMerge
                         }
                     }
 
-                    newDefinitions.Add(dbName, newDefinition);
+                    newDefinitions.Add(Path.GetFileNameWithoutExtension(firstFileName), newDefinition);
                 }
                 else
                 {
