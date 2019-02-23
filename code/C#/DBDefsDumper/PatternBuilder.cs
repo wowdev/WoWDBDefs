@@ -108,7 +108,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-            new Pattern("7.3.5-release", new List<string> { "7.3.5" }, 25875, 26972)
+            new Pattern("1.13.0-retail", new List<string> { "1.13.0" }, 28211, 28211)
                 .Pointer(Name.DB_NAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
                 .RecordSize(Name.RECORD_SIZE)
@@ -139,7 +139,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-            new Pattern("1.13.0-retail", new List<string> { "1.13.0" }, 28211, 28211)
+            new Pattern("7.3.5-release", new List<string> { "7.3.5" }, 25875, 26972)
                 .Pointer(Name.DB_NAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
                 .RecordSize(Name.RECORD_SIZE)

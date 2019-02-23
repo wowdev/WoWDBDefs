@@ -420,7 +420,14 @@ namespace DBDefsDumper
 
                     if (meta.Value.num_fields != 0 && (meta.Value.num_fields_in_file != meta.Value.num_fields))
                     {
-                        columnTypeFlags.Add(new Tuple<int, int>(field_types[meta.Value.num_fields_in_file], field_flags[meta.Value.num_fields_in_file]));
+                        if(meta.Value.num_fields_in_file > field_flags.Count())
+                        {
+                            columnTypeFlags.Add(new Tuple<int, int>(field_types[meta.Value.num_fields_in_file], 0));
+                        }
+                        else
+                        {
+                            columnTypeFlags.Add(new Tuple<int, int>(field_types[meta.Value.num_fields_in_file], field_flags[meta.Value.num_fields_in_file]));
+                        }
                     }
 
                     for(var i = 0; i < columnTypeFlags.Count; i++)
@@ -555,7 +562,7 @@ namespace DBDefsDumper
                     if (meta.Value.num_fields != 0 && (meta.Value.num_fields_in_file != meta.Value.num_fields))
                     {
                         var i = meta.Value.num_fields_in_file;
-                        var typeFlags = TypeToT(field_types[i], (FieldFlags)field_flags[i]);
+                        var typeFlags = TypeToT(columnTypeFlags[i].Item1, (FieldFlags)columnTypeFlags[i].Item2);
 
                         writer.Write("$noninline,relation$" + columnNames[i]);
 
