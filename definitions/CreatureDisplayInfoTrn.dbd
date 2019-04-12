@@ -12,9 +12,9 @@ BUILD 1.13.0.28211, 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25
 $noninline,id$ID<32>
 DstCreatureDisplayInfoID<32>
 MaxTime
-DissolveEffectID<u32>
+DissolveEffectID<32>
 StartVisualKitID<u32>
-FinishVisualKitID<32>
+FinishVisualKitID<u32>
 $noninline,relation$SrcCreatureDisplayInfoID<32>
 
 LAYOUT C3E28858
