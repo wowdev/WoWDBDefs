@@ -149,6 +149,11 @@ namespace DBDefsDumper
                     build = Console.ReadLine();
                 }
 
+                if (build == "8.0.1.26321")
+                {
+                    Console.WriteLine("Build 8.0.1.26321 has incorrect DBMeta, skipping..");
+                    return;
+                }
                 // Reset position for DBMeta reading
                 bin.BaseStream.Position = 0;
 
