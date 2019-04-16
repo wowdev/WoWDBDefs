@@ -4,6 +4,13 @@ int TextureKit
 int VisType
 int FrameTextureKit
 int WidgetWidth
+string Field_8_2_0_30080_000
+int Field_8_2_0_30080_001
+int Field_8_2_0_30080_002
+int Field_8_2_0_30080_003
+int Field_8_2_0_30080_004
+int Field_8_2_0_30080_005
+int Field_8_2_0_30080_006
 
 LAYOUT B10C7348
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
@@ -33,3 +40,14 @@ VisType<8>
 TextureKit<32>
 FrameTextureKit<32>
 WidgetWidth<16>
+
+LAYOUT AE507BB8
+BUILD 8.2.0.30080, 8.2.0.30093
+$noninline,id$ID<32>
+Field_8_2_0_30080_000
+Field_8_2_0_30080_001<8>
+Field_8_2_0_30080_002<32>
+Field_8_2_0_30080_003<32>
+Field_8_2_0_30080_004<16>
+Field_8_2_0_30080_005<32>
+Field_8_2_0_30080_006<32>

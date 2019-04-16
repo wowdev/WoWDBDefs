@@ -4,6 +4,11 @@ int Epic
 int Superior
 int Good
 int DamageReplaceStat
+int Field_8_2_0_30080_000
+int Field_8_2_0_30080_001
+int Field_8_2_0_30080_002
+int Field_8_2_0_30080_003
+int Field_8_2_0_30080_004
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 2.0.0.5665-2.4.3.8606
@@ -30,3 +35,12 @@ DamageReplaceStat<32>
 Epic<u32>[5]
 Superior<u32>[5]
 Good<u32>[5]
+
+LAYOUT D5752348
+BUILD 8.2.0.30080, 8.2.0.30093
+$noninline,id$ID<32>
+Field_8_2_0_30080_000<32>
+Field_8_2_0_30080_001<32>
+Field_8_2_0_30080_002<u32>[5]
+Field_8_2_0_30080_003<u32>[5]
+Field_8_2_0_30080_004<u32>[5]

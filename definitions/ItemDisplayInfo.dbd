@@ -24,6 +24,21 @@ int GroupSoundIndex
 string GroundModel
 int ItemSize
 int HelmetGeosetVisID
+int Field_8_2_0_30080_000
+int Field_8_2_0_30080_001
+int Field_8_2_0_30080_002
+int Field_8_2_0_30080_003
+int Field_8_2_0_30080_004
+int Field_8_2_0_30080_005
+int Field_8_2_0_30080_006
+int Field_8_2_0_30080_007
+int Field_8_2_0_30080_008
+int Field_8_2_0_30080_009
+int Field_8_2_0_30080_010
+int Field_8_2_0_30080_011
+int Field_8_2_0_30080_012
+int Field_8_2_0_30080_013
+int Field_8_2_0_30080_014
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -164,3 +179,22 @@ GroupSoundIndex<32>
 HelmetGeosetVisID<32>
 Texture[8]
 ItemVisual<32>
+
+LAYOUT 6F891B61
+BUILD 8.2.0.30080, 8.2.0.30093
+$noninline,id$ID<32>
+Field_8_2_0_30080_000<32>
+Field_8_2_0_30080_001<32>
+Field_8_2_0_30080_002<u32>
+Field_8_2_0_30080_003<u32>
+Field_8_2_0_30080_004<32>
+Field_8_2_0_30080_005<32>
+Field_8_2_0_30080_006<32>
+Field_8_2_0_30080_007<u32>
+Field_8_2_0_30080_008<32>
+Field_8_2_0_30080_009<u32>[2]
+Field_8_2_0_30080_010<32>[2]
+Field_8_2_0_30080_011<u8>[2]
+Field_8_2_0_30080_012<32>[6]
+Field_8_2_0_30080_013<32>[6]
+Field_8_2_0_30080_014<32>[2]
