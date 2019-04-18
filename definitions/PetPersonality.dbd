@@ -8,6 +8,10 @@ int Field_1_13_0_28211_000
 float Field_1_13_0_28211_001
 float Field_1_13_0_28211_002
 float Field_1_13_0_28211_003
+float Field_1_13_2_30073_000
+int Field_1_13_2_30073_001
+float Field_1_13_2_30073_002
+float Field_1_13_2_30073_003
 
 BUILD 4.0.0.11792
 BUILD 3.0.1.8622-3.3.5.12340
@@ -34,3 +38,11 @@ Name_lang
 HappinessThreshold<32>[3]
 HappinessDamage[3]
 DamageModifier[3]
+
+LAYOUT AD28FFCD
+BUILD 1.13.2.30073
+$noninline,id$ID<32>
+Field_1_13_2_30073_000[3]
+Field_1_13_2_30073_001<32>[3]
+Field_1_13_2_30073_002[3]
+Field_1_13_2_30073_003[8]
