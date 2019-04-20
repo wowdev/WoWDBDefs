@@ -2,11 +2,11 @@ COLUMNS
 locstring Name_lang?
 locstring Description_lang?
 int ID
-int Field_8_2_0_30080_003
+int<SpecSetMember::SpecSet> SpecSetID?
 
 LAYOUT 3239408B
 BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123
 Name_lang
 Description_lang
 $id$ID<32>
-Field_8_2_0_30080_003<32>
+SpecSetID<32>
