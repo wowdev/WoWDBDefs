@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int TextureKit
-int VisType
-int FrameTextureKit
+int<UiTextureKit::ID> TextureKit
+int<UiWidgetVisTypeDataReq::VisType> VisType
+int<UiTextureKit::ID> FrameTextureKit
 int WidgetWidth
 string Name?
 int Field_8_2_0_30080_005

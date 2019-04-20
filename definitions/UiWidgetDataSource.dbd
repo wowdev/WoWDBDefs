@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int ParentWidgetID
-int ReqID
-int SourceID
+int<UiWidget::ID> ParentWidgetID
+int<UiWidgetVisTypeDataReq::ID> ReqID
+int SourceID // Foreign Table depends on SourceType
 int SourceType
 
 LAYOUT 5C2251CD

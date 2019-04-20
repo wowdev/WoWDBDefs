@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int ParentWidgetID
-int ReqID
+int<UiWidget::ID> ParentWidgetID
+int<UiWidgetVisTypeDataReq::ID> ReqID
 int Value
 
 LAYOUT 005558D3

@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int MapID
+int<Map::ID> MapID
 int OrderIndex
 int ParentSetID
-int PlayerConditionID
-int VisID
+int<PlayerCondition::ID> PlayerConditionID
+int<UiWidgetVisualization::ID> VisID
 string WidgetTag
 
 LAYOUT AA1F4096
