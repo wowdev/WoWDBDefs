@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int FileDataID
+int<FileData::ID> FileDataID
 int OrderIndex
-int LiquidTypeID
+int<LiquidType::ID> LiquidTypeID
 int Field_8_1_0_28202_002 // something with a type or separator. there are -1 everywhere when fdid is 0 and upcoming "order"s are special textures
 
 LAYOUT 7DADCCB8
