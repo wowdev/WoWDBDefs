@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-int Field_8_2_0_30080_000
-int Field_8_2_0_30080_001
+int<Item::ID> Item?
+int<Spell::ID> BuffSpell?
 int Field_8_2_0_30080_002
-int Field_8_2_0_30080_003
+int<Spell::ID> LearnedBySpell?
 
 LAYOUT 5182BFF6
 BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123
 $noninline,id$ID<32>
-Field_8_2_0_30080_000<32>
-Field_8_2_0_30080_001<32>
+Item<32>
+BuffSpell<32>
 Field_8_2_0_30080_002<32>
-$noninline,relation$Field_8_2_0_30080_003<32>
+$noninline,relation$LearnedBySpell<32>
