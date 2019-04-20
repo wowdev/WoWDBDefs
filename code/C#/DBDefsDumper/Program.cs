@@ -448,19 +448,40 @@ namespace DBDefsDumper
                         }
 
                         var t = TypeToT(columnTypeFlags[i].Item1, (FieldFlags)columnTypeFlags[i].Item2);
-                        if(t.Item1 == "locstring")
+                        if (field_names_in_file.Count > 0)
                         {
-                            writer.WriteLine(t.Item1 + " " + columnNames[i]+ "_lang");
-                        }
-                        else
-                        {
-                            if(t.Item1 == "uint")
+                            if (t.Item1 == "locstring")
                             {
-                                writer.WriteLine("int " + columnNames[i]);
+                                writer.WriteLine(t.Item1 + " " + columnNames[i] + "_lang");
                             }
                             else
                             {
-                                writer.WriteLine(t.Item1 + " " + columnNames[i]);
+                                if (t.Item1 == "uint")
+                                {
+                                    writer.WriteLine("int " + columnNames[i]);
+                                }
+                                else
+                                {
+                                    writer.WriteLine(t.Item1 + " " + columnNames[i]);
+                                }
+                            }
+                        }
+                        else
+                        {
+                            if (t.Item1 == "locstring")
+                            {
+                                writer.WriteLine(t.Item1 + " " + columnNames[i] + "_lang?");
+                            }
+                            else
+                            {
+                                if (t.Item1 == "uint")
+                                {
+                                    writer.WriteLine("int " + columnNames[i] + "?");
+                                }
+                                else
+                                {
+                                    writer.WriteLine(t.Item1 + " " + columnNames[i] + "?");
+                                }
                             }
                         }
                     }
