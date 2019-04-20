@@ -4,8 +4,8 @@ string Name
 int<Map::ID> MapID
 int<Light::ID> LightID
 int Flags
-float zmin?
-float zmax?
+float Zmin?
+float Zmax?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -35,5 +35,5 @@ Name
 MapID<u16>
 LightID<u16>
 Flags<u8>
-zmin
-zmax
+Zmin
+Zmax
