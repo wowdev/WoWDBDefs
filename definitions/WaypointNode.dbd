@@ -2,12 +2,9 @@ COLUMNS
 locstring Name_lang
 int ID
 int<WaypointSafeLocs::ID> SafeLocID?
+int<PlayerCondition::ID> PlayerConditionID?
 int Field_8_1_5_29281_003
 int Field_8_1_5_29281_004
-locstring Field_8_2_0_30080_000_lang
-int Field_8_2_0_30080_001
-int Field_8_2_0_30080_002
-int Field_8_2_0_30080_003
 int Field_8_2_0_30080_004
 int Field_8_2_0_30080_005
 int Field_8_2_0_30080_006
@@ -22,10 +19,10 @@ Field_8_1_5_29281_004<32>
 
 LAYOUT 67728573
 BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123
-Field_8_2_0_30080_000_lang
-$id$Field_8_2_0_30080_001<32>
-Field_8_2_0_30080_002<32>
-Field_8_2_0_30080_003<32>
+Name_lang
+$id$ID<32>
+SafeLocID<32>
+PlayerConditionID<32>
 Field_8_2_0_30080_004<32>
 Field_8_2_0_30080_005<32>
 Field_8_2_0_30080_006<32>

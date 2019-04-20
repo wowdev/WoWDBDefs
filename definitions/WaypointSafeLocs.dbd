@@ -1,5 +1,5 @@
 COLUMNS
-int ID
+int<WorldSafeLoc::ID> ID // These seem to be mirrored, so link for extra info
 float Pos
 int<Map::ID> MapID?
 
