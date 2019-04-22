@@ -18,7 +18,7 @@ int DurationInInventory
 int ExpansionID
 int Flags
 int Gem_properties
-int InstanceBound
+int<Map::ID> InstanceBound
 int InventoryType
 int ItemDelay
 int ItemLevel
@@ -62,8 +62,8 @@ int StatPercentEditor
 float StatPercentageOfSocket
 int TotemCategoryID
 int VendorStackCount
-int ZoneBound
-int OppositeFactionItemID?
+int<AreaTable::ID> ZoneBound
+int<Item::ID> OppositeFactionItemID?
 int StatValue?
 int MaxDurability?
 int DamageMin?
@@ -71,51 +71,6 @@ int DamageMax?
 int DefensiveStats?
 int AmmoType?
 int DamageType?
-int Field_1_13_2_30073_022
-int Field_1_13_2_30073_023
-int Field_1_13_2_30073_024
-int Field_1_13_2_30073_025
-int Field_1_13_2_30073_026
-int Field_1_13_2_30073_027
-int Field_1_13_2_30073_028
-int Field_1_13_2_30073_029
-int Field_1_13_2_30073_030
-int Field_1_13_2_30073_031
-int Field_1_13_2_30073_032
-int Field_1_13_2_30073_033
-int Field_1_13_2_30073_034
-int Field_1_13_2_30073_035
-int Field_1_13_2_30073_036
-int Field_1_13_2_30073_037
-int Field_1_13_2_30073_038
-int Field_1_13_2_30073_039
-int Field_1_13_2_30073_043
-int Field_1_13_2_30073_044
-int Field_1_13_2_30073_045
-int Field_1_13_2_30073_046
-int Field_1_13_2_30073_047
-int Field_1_13_2_30073_048
-int Field_1_13_2_30073_049
-int Field_1_13_2_30073_050
-int Field_1_13_2_30073_051
-int Field_1_13_2_30073_052
-int Field_1_13_2_30073_053
-int Field_1_13_2_30073_054
-int Field_1_13_2_30073_055
-int Field_1_13_2_30073_056
-int Field_1_13_2_30073_057
-int Field_1_13_2_30073_058
-int Field_1_13_2_30073_059
-int Field_1_13_2_30073_060
-int Field_1_13_2_30073_061
-int Field_1_13_2_30073_062
-int Field_1_13_2_30073_063
-int Field_1_13_2_30073_064
-int Field_1_13_2_30073_065
-int Field_1_13_2_30073_066
-int Field_1_13_2_30073_067
-int Field_1_13_2_30073_068
-int Field_1_13_2_30073_069
 
 LAYOUT 350149D8
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -558,51 +513,51 @@ VendorStackCount<u32>
 PriceVariance
 PriceRandomValue
 Flags<32>[4]
-Field_1_13_2_30073_022<32>
-Field_1_13_2_30073_023<u32>
-Field_1_13_2_30073_024<u16>
-Field_1_13_2_30073_025<u16>
-Field_1_13_2_30073_026<u16>
-Field_1_13_2_30073_027<u16>
-Field_1_13_2_30073_028<u16>
-Field_1_13_2_30073_029<u16>
-Field_1_13_2_30073_030<u16>
-Field_1_13_2_30073_031<u16>
-Field_1_13_2_30073_032<u16>
-Field_1_13_2_30073_033<u16>
-Field_1_13_2_30073_034<u16>
-Field_1_13_2_30073_035<u16>
-Field_1_13_2_30073_036<u16>
-Field_1_13_2_30073_037<u16>
-Field_1_13_2_30073_038<u16>
-Field_1_13_2_30073_039<u16>
+OppositeFactionItemID<32>
+MaxDurability<u32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+LimitCategory<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>
+ItemSet<u16>
+ItemRandomSuffixGroupID<u16>
+RandomSelect<u16>
+LockID<u16>
+StartQuestID<u16>
+PageID<u16>
+ItemDelay<u16>
 DamageMin<u16>[5]
 DamageMax<u16>[5]
 DefensiveStats<16>[7]
-Field_1_13_2_30073_043<u16>
-Field_1_13_2_30073_044<u16>
-Field_1_13_2_30073_045<u16>
-Field_1_13_2_30073_046<u16>
-Field_1_13_2_30073_047<u16>
-Field_1_13_2_30073_048<16>
-Field_1_13_2_30073_049<u8>
-Field_1_13_2_30073_050<u8>
-Field_1_13_2_30073_051<u8>
-Field_1_13_2_30073_052<u8>
-Field_1_13_2_30073_053<u8>[3]
-Field_1_13_2_30073_054<u8>
-Field_1_13_2_30073_055<u8>
-Field_1_13_2_30073_056<u8>
-Field_1_13_2_30073_057<u8>
-Field_1_13_2_30073_058<u8>
-Field_1_13_2_30073_059<u8>
-Field_1_13_2_30073_060<u8>[5]
-Field_1_13_2_30073_061<8>[10]
-Field_1_13_2_30073_062<8>[10]
-Field_1_13_2_30073_063<u8>
-Field_1_13_2_30073_064<u8>
-Field_1_13_2_30073_065<u8>
-Field_1_13_2_30073_066<u8>
-Field_1_13_2_30073_067<8>
-Field_1_13_2_30073_068<u8>
-Field_1_13_2_30073_069<u8>
+ScalingStatDistributionID<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ExpansionID<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+AmmoType<u8>
+DamageType<u8>[5]
+StatModifier_bonusStat<8>[10]
+StatValue<8>[10]
+ContainerSlots<u8>
+MinReputation<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+RequiredLevel<8>
+InventoryType<u8>
+OverallQualityID<u8>
