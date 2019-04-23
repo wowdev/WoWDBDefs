@@ -46,6 +46,38 @@ int ItemLevelWeapon
 int Quality
 locstring TitleName_lang
 int Vitality
+locstring Field_8_2_0_30168_000_lang?
+locstring Field_8_2_0_30168_001_lang?
+locstring Field_8_2_0_30168_002_lang?
+int Field_8_2_0_30168_003?
+int Field_8_2_0_30168_004?
+int Field_8_2_0_30168_005?
+int Field_8_2_0_30168_006?
+int Field_8_2_0_30168_007?
+int Field_8_2_0_30168_008?
+int Field_8_2_0_30168_009?
+int Field_8_2_0_30168_010?
+int Field_8_2_0_30168_011?
+int Field_8_2_0_30168_012?
+int Field_8_2_0_30168_013?
+int Field_8_2_0_30168_014?
+int Field_8_2_0_30168_015?
+int Field_8_2_0_30168_016?
+int Field_8_2_0_30168_017?
+int Field_8_2_0_30168_018?
+int Field_8_2_0_30168_019?
+int Field_8_2_0_30168_020?
+int Field_8_2_0_30168_021?
+int Field_8_2_0_30168_022?
+int Field_8_2_0_30168_023?
+int Field_8_2_0_30168_024?
+int Field_8_2_0_30168_025?
+int Field_8_2_0_30168_026?
+int Field_8_2_0_30168_027?
+int Field_8_2_0_30168_028?
+int Field_8_2_0_30168_029?
+int Field_8_2_0_30168_030?
+int Field_8_2_0_30168_031?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -169,3 +201,38 @@ AllySlottingBroadcastTextID<u32>
 ChrClassID<u8>
 Flags<u8>
 Gender<u8>
+
+LAYOUT 4938E823
+BUILD 8.2.0.30168
+Field_8_2_0_30168_000_lang
+Field_8_2_0_30168_001_lang
+Field_8_2_0_30168_002_lang
+$id$Field_8_2_0_30168_003<32>
+Field_8_2_0_30168_004<u8>
+Field_8_2_0_30168_005<u8>
+Field_8_2_0_30168_006<32>
+Field_8_2_0_30168_007<32>
+Field_8_2_0_30168_008<u8>
+Field_8_2_0_30168_009<u8>
+Field_8_2_0_30168_010<32>
+Field_8_2_0_30168_011<32>
+Field_8_2_0_30168_012<u8>
+Field_8_2_0_30168_013<u8>
+Field_8_2_0_30168_014<u16>
+Field_8_2_0_30168_015<u16>
+Field_8_2_0_30168_016<8>
+Field_8_2_0_30168_017<8>
+Field_8_2_0_30168_018<32>
+Field_8_2_0_30168_019<32>
+Field_8_2_0_30168_020<u16>
+Field_8_2_0_30168_021<u16>
+Field_8_2_0_30168_022<u16>
+Field_8_2_0_30168_023<u16>
+Field_8_2_0_30168_024<u8>
+Field_8_2_0_30168_025<u8>
+Field_8_2_0_30168_026<u8>
+Field_8_2_0_30168_027<u32>
+Field_8_2_0_30168_028<u32>
+Field_8_2_0_30168_029<u8>
+Field_8_2_0_30168_030<u8>
+Field_8_2_0_30168_031<u8>
