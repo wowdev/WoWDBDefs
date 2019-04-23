@@ -432,14 +432,14 @@ Flags<32>[2]
 LAYOUT 0E84A21C
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128
 $noninline,id$ID<32>
-Field_1_13_2_30073_000
-Field_1_13_2_30073_001_lang
-Field_1_13_2_30073_002_lang
-Field_1_13_2_30073_003_lang
-Field_1_13_2_30073_004_lang
-Field_1_13_2_30073_005_lang
-Field_1_13_2_30073_006<u8>
-Field_1_13_2_30073_007<8>
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
+MapType<u8>
+InstanceType<8>
 Field_1_13_2_30073_008<u8>
 Field_1_13_2_30073_009<u16>
 Field_1_13_2_30073_010<16>
