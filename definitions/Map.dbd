@@ -448,8 +448,8 @@ Field_1_13_2_30073_012<16>
 Field_1_13_2_30073_013<16>
 Field_1_13_2_30073_014<u8>
 Field_1_13_2_30073_015
-Field_1_13_2_30073_016<16>
-Field_1_13_2_30073_017<u8>
-Field_1_13_2_30073_018<16>
-Field_1_13_2_30073_019<32>
-Field_1_13_2_30073_020<32>[2]
+CorpseMapID<16>
+MaxPlayers<u8>
+WindSettingsID<16>
+ZmpFileDataID<32>
+Flags<32>[2]
