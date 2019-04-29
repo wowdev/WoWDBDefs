@@ -4,13 +4,7 @@ locstring Name_lang
 int HappinessThreshold
 float HappinessDamage
 float DamageModifier?
-int Field_1_13_0_28211_000
-float Field_1_13_0_28211_001
-float Field_1_13_0_28211_002
 float Field_1_13_0_28211_003
-float Field_1_13_2_30073_000
-int Field_1_13_2_30073_001
-float Field_1_13_2_30073_002
 float Field_1_13_2_30073_003
 
 BUILD 4.0.0.11792
@@ -42,7 +36,7 @@ DamageModifier[3]
 LAYOUT AD28FFCD
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172
 $noninline,id$ID<32>
-Field_1_13_2_30073_000[3]
+HappinessDamage[3]
 HappinessThreshold<32>[3]
 DamageModifier[3]
 Field_1_13_2_30073_003[8]
