@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ArtifactPowerID
+int<ArtifactPower::ID> ArtifactPowerID
 int ArtifactPowerLabel
 int Flags
 int PVal

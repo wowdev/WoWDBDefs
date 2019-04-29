@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 locstring Description_lang
-int FiledataID
+int<FileData::ID> FiledataID
 locstring Name_lang
 
 LAYOUT 1BCB46AA, 50306D85

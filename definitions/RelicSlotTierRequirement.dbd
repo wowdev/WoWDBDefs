@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int PlayerConditionID
+int<PlayerCondition::ID> PlayerConditionID
 int RelicIndex
 int RelicTier
 
