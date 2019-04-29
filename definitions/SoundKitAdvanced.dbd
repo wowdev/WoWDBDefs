@@ -20,7 +20,7 @@ float OuterRadiusOfInfluence
 float OutsideAngle
 float OutsideVolume
 int RandomOffsetRange
-int SoundKitID
+int<SoundKit::ID> SoundKitID
 int TimeA
 int TimeB
 int TimeC
@@ -33,10 +33,10 @@ int TimeToDuck
 int TimeToUnduck
 int Usage
 int VolumeControlType
-int VolumeFadeInCurveID
+int<Curve::ID> VolumeFadeInCurveID
 int VolumeFadeInTimeMax
 int VolumeFadeInTimeMin
-int VolumeFadeOutCurveID
+int<Curve::ID> VolumeFadeOutCurveID
 int VolumeFadeOutTimeMax
 int VolumeFadeOutTimeMin
 int VolumeSliderCategory
@@ -44,98 +44,8 @@ float DuckToCinematicSFX
 float DuckToCinematicMusic
 int RolloffType
 float RolloffParam0
-int Field_8_1_5_28938_000
-int Field_8_1_5_28938_001
-float Field_8_1_5_28938_002
-float Field_8_1_5_28938_003
-int Field_8_1_5_28938_004
-int Field_8_1_5_28938_005
-int Field_8_1_5_28938_006
-int Field_8_1_5_28938_007
-int Field_8_1_5_28938_008
-int Field_8_1_5_28938_009
-int Field_8_1_5_28938_010
-int Field_8_1_5_28938_011
-int Field_8_1_5_28938_012
-int Field_8_1_5_28938_013
-int Field_8_1_5_28938_014
-float Field_8_1_5_28938_015
-float Field_8_1_5_28938_016
-float Field_8_1_5_28938_017
-float Field_8_1_5_28938_018
-float Field_8_1_5_28938_019
-float Field_8_1_5_28938_020
-float Field_8_1_5_28938_021
-float Field_8_1_5_28938_022
-float Field_8_1_5_28938_023
-int Field_8_1_5_28938_024
-int Field_8_1_5_28938_025
-float Field_8_1_5_28938_026
-float Field_8_1_5_28938_027
-float Field_8_1_5_28938_028
-int Field_8_1_5_28938_029
-int Field_8_1_5_28938_030
-int Field_8_1_5_28938_031
-int Field_8_1_5_28938_032
-int Field_8_1_5_28938_033
-int Field_8_1_5_28938_034
-int Field_8_1_5_28938_035
-int Field_8_1_5_28938_036
-int Field_8_1_5_28938_037
-int Field_8_1_5_28938_038
-int Field_8_1_5_28938_039
-int Field_8_1_5_28938_040
-int Field_8_1_5_28938_041
-float Field_8_1_5_28938_042
-int Field_8_1_5_28938_043
-float Field_8_1_5_28938_044
 float Field_8_1_5_28938_045
 float Field_8_1_5_28938_046
-int Field_8_2_0_30080_000
-int Field_8_2_0_30080_001
-float Field_8_2_0_30080_002
-float Field_8_2_0_30080_003
-int Field_8_2_0_30080_004
-int Field_8_2_0_30080_005
-int Field_8_2_0_30080_006
-int Field_8_2_0_30080_007
-int Field_8_2_0_30080_008
-int Field_8_2_0_30080_009
-int Field_8_2_0_30080_010
-int Field_8_2_0_30080_011
-int Field_8_2_0_30080_012
-int Field_8_2_0_30080_013
-int Field_8_2_0_30080_014
-float Field_8_2_0_30080_015
-float Field_8_2_0_30080_016
-float Field_8_2_0_30080_017
-float Field_8_2_0_30080_018
-float Field_8_2_0_30080_019
-float Field_8_2_0_30080_020
-float Field_8_2_0_30080_021
-float Field_8_2_0_30080_022
-float Field_8_2_0_30080_023
-int Field_8_2_0_30080_024
-int Field_8_2_0_30080_025
-float Field_8_2_0_30080_026
-float Field_8_2_0_30080_027
-float Field_8_2_0_30080_028
-int Field_8_2_0_30080_029
-int Field_8_2_0_30080_030
-int Field_8_2_0_30080_031
-int Field_8_2_0_30080_032
-int Field_8_2_0_30080_033
-int Field_8_2_0_30080_034
-int Field_8_2_0_30080_035
-int Field_8_2_0_30080_036
-int Field_8_2_0_30080_037
-int Field_8_2_0_30080_038
-int Field_8_2_0_30080_039
-int Field_8_2_0_30080_040
-int Field_8_2_0_30080_041
-float Field_8_2_0_30080_042
-int Field_8_2_0_30080_043
-float Field_8_2_0_30080_044
 float Field_8_2_0_30080_045
 float Field_8_2_0_30080_046
 int Field_8_2_0_30080_047
@@ -412,101 +322,101 @@ RolloffParam0
 
 LAYOUT F64439CE
 BUILD 8.1.5.28938, 8.1.5.29141, 8.1.5.29220, 8.1.5.29281, 8.1.5.29310, 8.1.5.29352, 8.1.5.29385, 8.1.5.29418, 8.1.5.29484, 8.1.5.29495, 8.1.5.29558, 8.1.5.29599, 8.1.5.29620, 8.1.5.29634, 8.1.5.29664, 8.1.5.29683, 8.1.5.29701, 8.1.5.29704, 8.1.5.29705, 8.1.5.29718, 8.1.5.29732, 8.1.5.29737, 8.1.5.29814, 8.1.5.29869, 8.1.5.29896, 8.1.5.29981
-$id$Field_8_1_5_28938_000<32>
-Field_8_1_5_28938_001<u32>
-Field_8_1_5_28938_002
-Field_8_1_5_28938_003
-Field_8_1_5_28938_004<u32>
-Field_8_1_5_28938_005<u32>
-Field_8_1_5_28938_006<u32>
-Field_8_1_5_28938_007<u32>
-Field_8_1_5_28938_008<32>
-Field_8_1_5_28938_009<8>
-Field_8_1_5_28938_010<u32>
-Field_8_1_5_28938_011<u32>
-Field_8_1_5_28938_012<u32>
-Field_8_1_5_28938_013<u32>
-Field_8_1_5_28938_014<u8>
-Field_8_1_5_28938_015
-Field_8_1_5_28938_016
-Field_8_1_5_28938_017
-Field_8_1_5_28938_018
-Field_8_1_5_28938_019
-Field_8_1_5_28938_020
-Field_8_1_5_28938_021
-Field_8_1_5_28938_022
-Field_8_1_5_28938_023
-Field_8_1_5_28938_024<u32>
-Field_8_1_5_28938_025<u32>
-Field_8_1_5_28938_026
-Field_8_1_5_28938_027
-Field_8_1_5_28938_028
-Field_8_1_5_28938_029<u8>
-Field_8_1_5_28938_030<u16>
-Field_8_1_5_28938_031<32>
-Field_8_1_5_28938_032<u32>
-Field_8_1_5_28938_033<u32>
-Field_8_1_5_28938_034<u8>
-Field_8_1_5_28938_035<u8>
-Field_8_1_5_28938_036<32>
-Field_8_1_5_28938_037<32>
-Field_8_1_5_28938_038<u32>
-Field_8_1_5_28938_039<32>
-Field_8_1_5_28938_040<32>
-Field_8_1_5_28938_041<u32>
-Field_8_1_5_28938_042
-Field_8_1_5_28938_043<32>
-Field_8_1_5_28938_044
+$id$ID<32>
+SoundKitID<u32>
+InnerRadius2D
+OuterRadius2D
+TimeA<u32>
+TimeB<u32>
+TimeC<u32>
+TimeD<u32>
+RandomOffsetRange<32>
+Usage<8>
+TimeIntervalMin<u32>
+TimeIntervalMax<u32>
+DelayMin<u32>
+DelayMax<u32>
+VolumeSliderCategory<u8>
+DuckToSFX
+DuckToMusic
+DuckToAmbience
+DuckToDialog
+DuckToSuppressors
+DuckToCinematicSFX
+DuckToCinematicMusic
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<u32>
+TimeToUnduck<u32>
+InsideAngle
+OutsideAngle
+OutsideVolume
+MinRandomPosOffset<u8>
+MaxRandomPosOffset<u16>
+MsOffset<32>
+TimeCooldownMin<u32>
+TimeCooldownMax<u32>
+MaxInstancesBehavior<u8>
+VolumeControlType<u8>
+VolumeFadeInTimeMin<32>
+VolumeFadeInTimeMax<32>
+VolumeFadeInCurveID<u32>
+VolumeFadeOutTimeMin<32>
+VolumeFadeOutTimeMax<32>
+VolumeFadeOutCurveID<u32>
+ChanceToPlay
+RolloffType<32>
+RolloffParam0
 Field_8_1_5_28938_045
 Field_8_1_5_28938_046
 
 LAYOUT 2B12658B
 BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.30168, 8.2.0.30170, 8.2.0.30203
-$id$Field_8_2_0_30080_000<32>
-Field_8_2_0_30080_001<u32>
-Field_8_2_0_30080_002
-Field_8_2_0_30080_003
-Field_8_2_0_30080_004<u32>
-Field_8_2_0_30080_005<u32>
-Field_8_2_0_30080_006<u32>
-Field_8_2_0_30080_007<u32>
-Field_8_2_0_30080_008<32>
-Field_8_2_0_30080_009<8>
-Field_8_2_0_30080_010<u32>
-Field_8_2_0_30080_011<u32>
-Field_8_2_0_30080_012<u32>
-Field_8_2_0_30080_013<u32>
-Field_8_2_0_30080_014<u8>
-Field_8_2_0_30080_015
-Field_8_2_0_30080_016
-Field_8_2_0_30080_017
-Field_8_2_0_30080_018
-Field_8_2_0_30080_019
-Field_8_2_0_30080_020
-Field_8_2_0_30080_021
-Field_8_2_0_30080_022
-Field_8_2_0_30080_023
-Field_8_2_0_30080_024<u32>
-Field_8_2_0_30080_025<u32>
-Field_8_2_0_30080_026
-Field_8_2_0_30080_027
-Field_8_2_0_30080_028
-Field_8_2_0_30080_029<u8>
-Field_8_2_0_30080_030<u16>
-Field_8_2_0_30080_031<32>
-Field_8_2_0_30080_032<u32>
-Field_8_2_0_30080_033<u32>
-Field_8_2_0_30080_034<u8>
-Field_8_2_0_30080_035<u8>
-Field_8_2_0_30080_036<32>
-Field_8_2_0_30080_037<32>
-Field_8_2_0_30080_038<u32>
-Field_8_2_0_30080_039<32>
-Field_8_2_0_30080_040<32>
-Field_8_2_0_30080_041<u32>
-Field_8_2_0_30080_042
-Field_8_2_0_30080_043<32>
-Field_8_2_0_30080_044
+$id$ID<32>
+SoundKitID<u32>
+InnerRadius2D
+OuterRadius2D
+TimeA<u32>
+TimeB<u32>
+TimeC<u32>
+TimeD<u32>
+RandomOffsetRange<32>
+Usage<8>
+TimeIntervalMin<u32>
+TimeIntervalMax<u32>
+DelayMin<u32>
+DelayMax<u32>
+VolumeSliderCategory<u8>
+DuckToSFX
+DuckToMusic
+DuckToAmbience
+DuckToDialog
+DuckToSuppressors
+DuckToCinematicSFX
+DuckToCinematicMusic
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<u32>
+TimeToUnduck<u32>
+InsideAngle
+OutsideAngle
+OutsideVolume
+MinRandomPosOffset<u8>
+MaxRandomPosOffset<u16>
+MsOffset<32>
+TimeCooldownMin<u32>
+TimeCooldownMax<u32>
+MaxInstancesBehavior<u8>
+VolumeControlType<u8>
+VolumeFadeInTimeMin<32>
+VolumeFadeInTimeMax<32>
+VolumeFadeInCurveID<u32>
+VolumeFadeOutTimeMin<32>
+VolumeFadeOutTimeMax<32>
+VolumeFadeOutCurveID<u32>
+ChanceToPlay
+RolloffType<32>
+RolloffParam0
 Field_8_2_0_30080_045
 Field_8_2_0_30080_046
 Field_8_2_0_30080_047<32>

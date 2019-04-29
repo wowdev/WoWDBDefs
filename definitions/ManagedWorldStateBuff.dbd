@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int BuffSpellID
+int<Spell::ID> BuffSpellID
 int<ManagedWorldState::ID> ManagedWorldStateID
 int OccurrenceValue
 int<PlayerCondition::ID> PlayerConditionID

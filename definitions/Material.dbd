@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 int Flags
-int FoleySoundID
-int SheatheSoundID
-int UnsheatheSoundID
+int<SoundKit::ID> FoleySoundID
+int<SoundKit::ID> SheatheSoundID
+int<SoundKit::ID> UnsheatheSoundID
 int MaterialID
 
 BUILD 4.0.0.11792, 6.0.1.18179

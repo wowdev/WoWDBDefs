@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int FileDataID
+int<FileData::ID> FileDataID
+int<SoundKit::ID> SoundKitID
 int Frequency
-int SoundKitID
 float Volume
 
 LAYOUT 6ED6E26F, CBC66B5F

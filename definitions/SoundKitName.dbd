@@ -1,5 +1,5 @@
 COLUMNS
-int ID
+int<SoundKit::ID> ID
 string Name
 
 LAYOUT 96663ABF, F6F6B04B

@@ -1,6 +1,6 @@
 COLUMNS
 int EAXDef
-int ID
+int<SoundKitName::ID> ID
 int BusOverwriteID
 int DialogType
 float DistanceCutoff
