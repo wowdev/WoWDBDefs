@@ -32,7 +32,6 @@ int Field_1_13_0_28211_012
 int Field_1_13_0_28211_015
 int Field_1_13_0_28211_016
 int Field_1_13_0_28211_017
-int Field_1_13_0_28211_018
 int Field_1_13_0_28211_019
 int SpellTextureBlobFileDataID?
 int Field_1_13_2_30073_006
@@ -46,7 +45,6 @@ int Field_1_13_2_30073_014
 int Field_1_13_2_30073_016
 int Field_1_13_2_30073_017
 int Field_1_13_2_30073_018
-int Field_1_13_2_30073_020
 
 BUILD 6.0.1.18179
 BUILD 5.0.4.16016-5.4.8.18414
@@ -112,7 +110,7 @@ SpellClassSet<u8>
 Field_1_13_0_28211_015<u8>
 Field_1_13_0_28211_016<u8>
 Field_1_13_0_28211_017<u8>
-Field_1_13_0_28211_018<u8>
+Flags<u8>
 Field_1_13_0_28211_019<u8>
 $id$ID<32>
 
@@ -270,4 +268,4 @@ Field_1_13_2_30073_016<u8>
 Field_1_13_2_30073_017<u8>
 Field_1_13_2_30073_018<u8>
 SpellClassSet<u8>
-Field_1_13_2_30073_020<u8>
+Flags<u8>

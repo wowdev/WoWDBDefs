@@ -128,7 +128,6 @@ int SpellPriority
 int RequiredAreaID
 int School
 int ProcFlags
-int Field_1_13_0_28211_004
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -662,4 +661,4 @@ Name_lang
 NameSubtext_lang
 Description_lang
 AuraDescription_lang
-Field_1_13_0_28211_004<32>
+CastUI<32>

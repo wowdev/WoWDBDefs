@@ -20,7 +20,6 @@ int SupercededBySpell
 int CharacterPoints
 int Abandonable
 int Field_1_13_0_28211_003
-int Field_1_13_0_28211_004
 int Field_1_13_0_28211_008
 int Field_1_13_0_28211_009
 int Field_1_13_0_28211_010
@@ -32,7 +31,6 @@ int Field_1_13_2_30073_011
 int Field_1_13_2_30073_012
 int Field_1_13_2_30073_013
 int Field_1_13_2_30073_014
-int Field_1_13_2_30073_015
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -188,7 +186,7 @@ RaceMask<64>
 $id$ID<32>
 Spell<32>
 Field_1_13_0_28211_003<32>
-Field_1_13_0_28211_004<32>[2]
+NumSkillUps<32>[2]
 SkillLine<16>
 TrivialSkillLineRankHigh<16>
 TrivialSkillLineRankLow<16>
@@ -217,4 +215,4 @@ Field_1_13_2_30073_011<8>
 Field_1_13_2_30073_012<16>
 Field_1_13_2_30073_013<16>
 Field_1_13_2_30073_014<16>
-Field_1_13_2_30073_015<32>[2]
+NumSkillUps<32>[2]

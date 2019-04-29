@@ -6,8 +6,6 @@ int FootstepSprayRun
 int FootstepSprayWalk
 int SoundID
 int Flags
-int Field_1_13_0_28211_001
-int Field_1_13_2_30073_005
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 4.0.0.11927-4.3.4.15595
@@ -45,7 +43,7 @@ LAYOUT 4BE35F10
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
 TerrainDesc
-Field_1_13_0_28211_001<32>
+TerrainID<32>
 FootstepSprayRun<u16>
 FootstepSprayWalk<u16>
 SoundID<u8>
@@ -59,4 +57,4 @@ FootstepSprayRun<u16>
 FootstepSprayWalk<u16>
 SoundID<u8>
 Flags<u8>
-Field_1_13_2_30073_005<32>
+TerrainID<32>

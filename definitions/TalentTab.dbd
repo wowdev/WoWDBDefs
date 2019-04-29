@@ -7,17 +7,7 @@ int ClassMask
 int PetTalentMask
 int OrderIndex
 string BackgroundFile
-locstring Field_1_13_0_28211_000_lang
-string Field_1_13_0_28211_001
-int Field_1_13_0_28211_002
-int Field_1_13_0_28211_003
-int Field_1_13_0_28211_004
 int CategoryEnumID?
-locstring Field_1_13_2_30073_000_lang
-string Field_1_13_2_30073_001
-int Field_1_13_2_30073_002
-int Field_1_13_2_30073_003
-int Field_1_13_2_30073_004
 
 BUILD 3.0.1.8622-3.3.5.12340
 $id$ID<32>
@@ -42,17 +32,17 @@ BackgroundFile
 LAYOUT 19A631D6
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
-Field_1_13_0_28211_000_lang
-Field_1_13_0_28211_001
-Field_1_13_0_28211_002<32>
-Field_1_13_0_28211_003<32>
-Field_1_13_0_28211_004<32>
+Name_lang
+BackgroundFile
+RaceMask<32>
+ClassMask<32>
+OrderIndex<32>
 
 LAYOUT 3BEC1184
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172
 $noninline,id$ID<32>
-Field_1_13_2_30073_000_lang
-Field_1_13_2_30073_001
-Field_1_13_2_30073_002<32>
-Field_1_13_2_30073_003<32>
-Field_1_13_2_30073_004<32>
+Name_lang
+BackgroundFile
+OrderIndex<32>
+RaceMask<32>
+ClassMask<32>
