@@ -19,31 +19,14 @@ int ExcludeClass
 int SupercededBySpell
 int CharacterPoints
 int Abandonable
-int Field_1_13_0_28211_000
-int Field_1_13_0_28211_001
-int Field_1_13_0_28211_002
 int Field_1_13_0_28211_003
 int Field_1_13_0_28211_004
-int Field_1_13_0_28211_005
-int Field_1_13_0_28211_006
-int Field_1_13_0_28211_007
 int Field_1_13_0_28211_008
 int Field_1_13_0_28211_009
 int Field_1_13_0_28211_010
-int Field_1_13_0_28211_011
 int Field_1_13_0_28211_012
-int Field_1_13_0_28211_013
 int Field_1_13_0_28211_014
-int Field_1_13_2_30073_000
-int Field_1_13_2_30073_001
-int Field_1_13_2_30073_002
-int Field_1_13_2_30073_003
-int Field_1_13_2_30073_004
-int Field_1_13_2_30073_005
 int Field_1_13_2_30073_006
-int Field_1_13_2_30073_007
-int Field_1_13_2_30073_008
-int Field_1_13_2_30073_009
 int Field_1_13_2_30073_010
 int Field_1_13_2_30073_011
 int Field_1_13_2_30073_012
@@ -201,34 +184,34 @@ SkillupSkillLineID<16>
 
 LAYOUT 049CC4A6
 BUILD 1.13.0.28211
-Field_1_13_0_28211_000<64>
-$id$Field_1_13_0_28211_001<32>
-Field_1_13_0_28211_002<32>
+RaceMask<64>
+$id$ID<32>
+Spell<32>
 Field_1_13_0_28211_003<32>
 Field_1_13_0_28211_004<32>[2]
-Field_1_13_0_28211_005<16>
-Field_1_13_0_28211_006<16>
-Field_1_13_0_28211_007<16>
+SkillLine<16>
+TrivialSkillLineRankHigh<16>
+TrivialSkillLineRankLow<16>
 Field_1_13_0_28211_008<16>
 Field_1_13_0_28211_009<16>
 Field_1_13_0_28211_010<8>
-Field_1_13_0_28211_011<32>
+ClassMask<32>
 Field_1_13_0_28211_012<16>
-Field_1_13_0_28211_013<8>
+AcquireMethod<8>
 Field_1_13_0_28211_014<8>
 
 LAYOUT F5F07EA1
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172
-Field_1_13_2_30073_000<64>
-$id$Field_1_13_2_30073_001<32>
-Field_1_13_2_30073_002<16>
-Field_1_13_2_30073_003<32>
-Field_1_13_2_30073_004<16>
-Field_1_13_2_30073_005<32>
+RaceMask<64>
+$id$ID<32>
+SkillLine<16>
+Spell<32>
+MinSkillLineRank<16>
+ClassMask<32>
 Field_1_13_2_30073_006<32>
-Field_1_13_2_30073_007<8>
-Field_1_13_2_30073_008<16>
-Field_1_13_2_30073_009<16>
+AcquireMethod<8>
+TrivialSkillLineRankHigh<16>
+TrivialSkillLineRankLow<16>
 Field_1_13_2_30073_010<8>
 Field_1_13_2_30073_011<8>
 Field_1_13_2_30073_012<16>

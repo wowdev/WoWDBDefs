@@ -39,27 +39,14 @@ float CorpseX
 float CorpseY
 int<FileData::ID> ZmpFileDataID
 int<FileData::ID> WdtFileDataID?
-string Field_1_13_2_30073_000
-locstring Field_1_13_2_30073_001_lang
-locstring Field_1_13_2_30073_002_lang
-locstring Field_1_13_2_30073_003_lang
 locstring Field_1_13_2_30073_004_lang
 locstring Field_1_13_2_30073_005_lang
-int Field_1_13_2_30073_006
-int Field_1_13_2_30073_007
 int Field_1_13_2_30073_008
-int Field_1_13_2_30073_009
-int Field_1_13_2_30073_010
 int Field_1_13_2_30073_011
 int Field_1_13_2_30073_012
 int Field_1_13_2_30073_013
 int Field_1_13_2_30073_014
-float Field_1_13_2_30073_015
-int Field_1_13_2_30073_016
-int Field_1_13_2_30073_017
 int Field_1_13_2_30073_018
-int Field_1_13_2_30073_019
-int Field_1_13_2_30073_020
 
 LAYOUT F568DF12
 BUILD 1.13.0.28211, 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -432,24 +419,24 @@ Flags<32>[2]
 LAYOUT 0E84A21C
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172
 $noninline,id$ID<32>
-Field_1_13_2_30073_000
-Field_1_13_2_30073_001_lang
-Field_1_13_2_30073_002_lang
-Field_1_13_2_30073_003_lang
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
 Field_1_13_2_30073_004_lang
 Field_1_13_2_30073_005_lang
-Field_1_13_2_30073_006<u8>
-Field_1_13_2_30073_007<8>
+MapType<u8>
+InstanceType<8>
 Field_1_13_2_30073_008<u8>
-Field_1_13_2_30073_009<u16>
-Field_1_13_2_30073_010<16>
+AreaTableID<u16>
+LoadingScreenID<16>
 Field_1_13_2_30073_011<16>
 Field_1_13_2_30073_012<16>
 Field_1_13_2_30073_013<16>
 Field_1_13_2_30073_014<u8>
-Field_1_13_2_30073_015
-Field_1_13_2_30073_016<16>
-Field_1_13_2_30073_017<u8>
+MinimapIconScale
+CorpseMapID<16>
+MaxPlayers<u8>
 Field_1_13_2_30073_018<16>
-Field_1_13_2_30073_019<32>
-Field_1_13_2_30073_020<32>[2]
+ZmpFileDataID<32>
+Flags<32>[2]

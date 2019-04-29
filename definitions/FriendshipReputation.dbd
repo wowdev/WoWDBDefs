@@ -3,10 +3,6 @@ int ID
 int FactionID
 int TextureFileID
 locstring Description_lang
-locstring Field_8_2_0_30168_000_lang?
-int Field_8_2_0_30168_001?
-int Field_8_2_0_30168_002?
-int Field_8_2_0_30168_003?
 int Field_8_2_0_30168_004?
 
 BUILD 6.0.1.18179
@@ -31,8 +27,8 @@ TextureFileID<32>
 
 LAYOUT E183154F
 BUILD 8.2.0.30168, 8.2.0.30170
-Field_8_2_0_30168_000_lang
-$id$Field_8_2_0_30168_001<u32>
-Field_8_2_0_30168_002<32>
-Field_8_2_0_30168_003<32>
+Description_lang
+$id$ID<u32>
+FactionID<32>
+TextureFileID<32>
 Field_8_2_0_30168_004<32>

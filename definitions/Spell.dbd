@@ -128,10 +128,6 @@ int SpellPriority
 int RequiredAreaID
 int School
 int ProcFlags
-locstring Field_1_13_0_28211_000_lang
-locstring Field_1_13_0_28211_001_lang
-locstring Field_1_13_0_28211_002_lang
-locstring Field_1_13_0_28211_003_lang
 int Field_1_13_0_28211_004
 
 BUILD 6.0.1.18179
@@ -662,8 +658,8 @@ AuraDescription_lang
 LAYOUT 4B36D701
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
-Field_1_13_0_28211_000_lang
-Field_1_13_0_28211_001_lang
-Field_1_13_0_28211_002_lang
-Field_1_13_0_28211_003_lang
+Name_lang
+NameSubtext_lang
+Description_lang
+AuraDescription_lang
 Field_1_13_0_28211_004<32>
