@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int FriendshipRepID
+int<FriendshipReputation::ID> FriendshipRepID
 int ReactionThreshold
 locstring Reaction_lang
 
