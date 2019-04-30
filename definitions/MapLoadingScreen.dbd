@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int LoadingScreenID
+int<LoadingScreen::ID> LoadingScreenID
 int MapID
 float Max
 float Min
