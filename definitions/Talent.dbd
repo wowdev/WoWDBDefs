@@ -14,14 +14,6 @@ int SpellRank
 int PrereqTalent
 int PrereqRank
 int RequiredSpellID
-int Field_1_13_0_28211_001
-int Field_1_13_0_28211_002
-int Field_1_13_0_28211_005
-int Field_1_13_0_28211_013
-int Field_1_13_2_30073_004
-int Field_1_13_2_30073_005
-int Field_1_13_2_30073_006
-int Field_1_13_2_30073_007
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -92,11 +84,11 @@ LAYOUT C4D2EA85
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
 Description_lang
-Field_1_13_0_28211_001<u32>
-Field_1_13_0_28211_002<u32>
+SpellID<u32>
+OverridesSpellID<u32>
 SpellRank<u32>[9]
 RequiredSpellID<32>
-Field_1_13_0_28211_005<u16>
+SpecID<u16>
 TabID<u16>
 PrereqTalent<u16>[3]
 PrereqRank<u16>[3]
@@ -104,7 +96,7 @@ TierID<u8>
 ColumnIndex<u8>
 Flags<u8>
 CategoryMask<u8>[2]
-Field_1_13_0_28211_013<u8>
+ClassID<u8>
 
 LAYOUT 05BF97D0
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172
@@ -113,10 +105,10 @@ Description_lang
 TierID<u8>
 Flags<u8>
 ColumnIndex<u8>
-Field_1_13_2_30073_004<u8>
-Field_1_13_2_30073_005<u16>
-Field_1_13_2_30073_006<u32>
-Field_1_13_2_30073_007<u32>
+ClassID<u8>
+SpecID<u16>
+SpellID<u32>
+OverridesSpellID<u32>
 TabID<u16>
 RequiredSpellID<u32>
 CategoryMask<u8>[2]
