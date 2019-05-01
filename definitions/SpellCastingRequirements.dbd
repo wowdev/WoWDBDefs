@@ -6,7 +6,7 @@ int MinReputation
 int RequiredAreasID
 int RequiredAuraVision
 int RequiresSpellFocus
-int SpellID
+int<Spell::ID> SpellID
 
 BUILD 6.0.1.18179
 $id$ID<32>

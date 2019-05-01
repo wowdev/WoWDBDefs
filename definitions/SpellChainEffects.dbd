@@ -53,7 +53,7 @@ int NumFlipFramesU
 int NumFlipFramesV
 float ParticleEmissionRateMultiplier
 float ParticleScaleMultiplier
-int SoundKitID
+int<SoundKit::ID> SoundKitID
 float StartWidth
 float TextureCoordScaleU
 float TextureCoordScaleV

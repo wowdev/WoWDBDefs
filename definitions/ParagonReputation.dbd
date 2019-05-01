@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int FactionID
+int<Faction::ID> FactionID
 int LevelThreshold
 int QuestID
 

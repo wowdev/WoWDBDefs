@@ -13,7 +13,7 @@ int<Light::ID> LightID
 float ParticleScale
 int ParticleMovement
 int ParticleTexSlots
-int MaterialID
+int<Material::ID> MaterialID
 string Texture
 int Color
 float Float

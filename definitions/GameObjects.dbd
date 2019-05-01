@@ -4,7 +4,7 @@ int DisplayID
 locstring Name_lang
 int OwnerID
 int PhaseGroupID
-int PhaseID
+int<Phase::ID> PhaseID
 int PhaseUseFlags
 float Pos
 int PropValue

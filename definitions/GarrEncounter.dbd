@@ -4,12 +4,12 @@ string Field_747518826?
 float Field_1016454637?
 float Field_3397428592?
 int ID
-int CreatureID
+int<Creature::ID> CreatureID
 locstring Name_lang
 int PortraitFileDataID
 float UiAnimHeight
 float UiAnimScale
-int UiTextureKitID
+int<UiTextureKit::ID> UiTextureKitID
 locstring Field_125020606_lang
 int Field_334910928
 int Field_329696781

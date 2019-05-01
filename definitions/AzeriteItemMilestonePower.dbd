@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int AzeritePowerID
+int<AzeritePower::ID> AzeritePowerID
 int RequiredLevel
 int Field_8_2_0_30080_001
 int Field_8_2_0_30080_002

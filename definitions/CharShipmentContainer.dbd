@@ -6,14 +6,14 @@ int CrossFactionID
 locstring Description_lang
 int Faction
 int GarrBuildingType
-int GarrTypeID
+int<GarrType::ID> GarrTypeID
 int LargeDisplayInfoID
 int LargeThreshold
 int MediumDisplayInfoID
 int MediumThreshold
 locstring PendingText_lang
 int SmallDisplayInfoID
-int UiTextureKitID
+int<UiTextureKit::ID> UiTextureKitID
 int WorkingDisplayInfoID
 int WorkingSpellVisualID
 

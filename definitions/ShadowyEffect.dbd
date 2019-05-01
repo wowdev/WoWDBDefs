@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int AttachPos
-int CurveID
+int<Curve::ID> CurveID
 float Duration
 float FadeInTime
 float FadeOutTime

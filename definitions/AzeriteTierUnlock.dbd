@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int AzeriteLevel
-int AzeriteTierUnlockSetID
+int<AzeriteTierUnlockSet::ID> AzeriteTierUnlockSetID
 int ItemCreationContext
 int Tier
 

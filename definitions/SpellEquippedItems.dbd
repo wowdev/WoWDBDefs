@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int SpellID
-int DifficultyID
+int<Spell::ID> SpellID
+int<Difficulty::ID> DifficultyID
 int EquippedItemClass
 int EquippedItemInvTypes
 int EquippedItemSubclass

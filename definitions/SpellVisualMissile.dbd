@@ -12,7 +12,7 @@ int Field_3403288926?
 float Field_1323958623?
 float Field_4071969856?
 int ID
-int AnimKitID
+int<AnimKit::ID> AnimKitID
 int Attachment
 float CastOffset
 int CastPositionerID
@@ -23,9 +23,9 @@ int FollowGroundDropSpeed
 int FollowGroundHeight
 float ImpactOffset
 int ImpactPositionerID
-int SoundEntriesID
-int SpellMissileMotionID
-int SpellVisualEffectNameID
+int<SoundEntries::ID> SoundEntriesID
+int<SpellMissileMotion::ID> SpellMissileMotionID
+int<SpellVisualEffectName::ID> SpellVisualEffectNameID
 int SpellVisualMissileSetID
 float Field_386487314
 float Field_385415111

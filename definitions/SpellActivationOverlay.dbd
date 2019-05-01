@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int SpellID
+int<Spell::ID> SpellID
 int OverlayFileDataID
-int ScreenLocationID
+int<ScreenLocation::ID> ScreenLocationID
 int Color
 float Scale
 int IconHighlightSpellClassMask
 int TriggerType
-int SoundEntriesID
+int<SoundEntries::ID> SoundEntriesID
 int Field_8_1_0_28202_008
 
 BUILD 6.0.1.18179

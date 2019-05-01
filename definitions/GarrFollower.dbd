@@ -28,8 +28,8 @@ int AllySlottingBroadcastTextID
 int ChrClassID
 int Flags
 int FollowerLevel
-int GarrFollowerTypeID
-int GarrTypeID
+int<GarrFollowerType::ID> GarrFollowerTypeID
+int<GarrType::ID> GarrTypeID
 int Gender
 int HordeCreatureID
 int HordeFlavorGarrStringID

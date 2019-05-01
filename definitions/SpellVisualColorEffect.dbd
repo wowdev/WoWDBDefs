@@ -8,7 +8,7 @@ float Duration
 int Flags
 int GreenCurveID
 int OpacityCurveID
-int PositionerID
+int<Positioner::ID> PositionerID
 int RedCurveID
 int Type
 

@@ -3,8 +3,8 @@ int Field_3687509195?
 int Field_3973556185?
 int Field_3532671216?
 int ID
-int GarrPlotInstanceID
-int GarrSiteLevelID
+int<GarrPlotInstance::ID> GarrPlotInstanceID
+int<GarrSiteLevel::ID> GarrSiteLevelID
 float UiMarkerPos
 int UiMarkerSize
 

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int HighlightSky
-int LightSkyboxID
+int<LightSkybox::ID> LightSkyboxID
 int CloudTypeID
 float Glow
 float WaterShallowAlpha

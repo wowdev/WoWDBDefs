@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int Flags
-int GarrTypeID
+int<GarrType::ID> GarrTypeID
 int ItemLevelRangeBias
 int LevelRangeBias
 int MaxFollowerBuildingType

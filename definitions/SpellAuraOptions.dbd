@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int SpellID
-int DifficultyID
+int<Spell::ID> SpellID
+int<Difficulty::ID> DifficultyID
 int CumulativeAura
 int ProcChance
 int ProcCharges
 int ProcTypeMask
 int ProcCategoryRecovery
-int SpellProcsPerMinuteID
+int<SpellProcsPerMinute::ID> SpellProcsPerMinuteID
 
 BUILD 6.0.1.18179
 $id$ID<32>

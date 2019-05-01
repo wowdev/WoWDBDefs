@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ItemID
+int<Item::ID> ItemID
 string Texture
 int Flags
 int TextureFileDataID

@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int CreatureDisplayInfoID
+int<CreatureDisplayInfo::ID> CreatureDisplayInfoID
 int GeosetIndex
 int GeosetValue
 

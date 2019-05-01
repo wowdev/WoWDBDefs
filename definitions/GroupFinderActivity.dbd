@@ -9,13 +9,13 @@ string Field_3904792460?
 string Field_3671730565?
 int ID
 int AreaID
-int DifficultyID
+int<Difficulty::ID> DifficultyID
 int DisplayType
 int Flags
 locstring FullName_lang
-int GroupFinderActivityGrpID
-int GroupFinderCategoryID
-int MapID
+int<GroupFinderActivityGrp::ID> GroupFinderActivityGrpID
+int<GroupFinderCategory::ID> GroupFinderCategoryID
+int<Map::ID> MapID
 int MaxLevelSuggestion
 int MaxPlayers
 int MinGearLevelSuggestion

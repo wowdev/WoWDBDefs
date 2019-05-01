@@ -1,6 +1,6 @@
 COLUMNS
 int ID?
-int ItemID
+int<Item::ID> ItemID
 int ItemLevelDelta
 int Field_2953747686?
 int Field_2229138675?

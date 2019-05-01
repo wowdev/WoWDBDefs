@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int ArtifactID
-int ItemBonusListID
-int PlayerConditionID
+int<Artifact::ID> ArtifactID
+int<ItemBonusList::ID> ItemBonusListID
+int<PlayerCondition::ID> PlayerConditionID
 int PowerID
 int PowerRank
 

@@ -2,7 +2,7 @@ COLUMNS
 int ID
 string Name
 int Flags
-int MapID
+int<Map::ID> MapID
 int PhaseShift
 int ChildMap
 

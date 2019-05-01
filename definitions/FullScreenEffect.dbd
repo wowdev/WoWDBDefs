@@ -26,7 +26,7 @@ float MaskOffsetY
 float MaskPower
 float MaskSizeMultiplier
 float Saturation
-int TextureBlendSetID
+int<TextureBlendSet::ID> TextureBlendSetID
 int OverlayTextureFileDataID
 
 LAYOUT 5CBF1D1B

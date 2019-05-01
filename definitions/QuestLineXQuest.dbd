@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int OrderIndex
 int QuestID
-int QuestLineID
+int<QuestLine::ID> QuestLineID
 
 BUILD 6.0.1.18179
 $id$ID<32>

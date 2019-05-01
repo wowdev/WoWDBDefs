@@ -8,7 +8,7 @@ int AttackIconID
 int CombatRoundTime
 int CreatureDisplayID
 int PresetSpellID
-int MountTypeID
+int<MountType::ID> MountTypeID
 int ExitSoundEntriesID
 int AttackIconFileID
 float DamageVariance

@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ArtifactAppearanceSetID
+int<ArtifactAppearanceSet::ID> ArtifactAppearanceSetID
 int DisplayIndex
 int Flags
 int ItemAppearanceModifierID
@@ -8,7 +8,7 @@ locstring Name_lang
 int OverrideShapeshiftDisplayID
 int OverrideShapeshiftFormID
 int UiAltItemAppearanceID
-int UiCameraID
+int<UiCamera::ID> UiCameraID
 int UiItemAppearanceID
 float UiModelOpacity
 float UiModelSaturation

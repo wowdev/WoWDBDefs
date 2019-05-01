@@ -3,14 +3,14 @@ int Padding_229586292?
 int ID
 float Alpha
 float BaseMissileSpeed
-int DissolveEffectID
+int<DissolveEffect::ID> DissolveEffectID
 float EffectRadius
 int Flags
 int GenericID
 float MaxAllowedScale
 float MinAllowedScale
 int ModelFileDataID
-int RibbonQualityID
+int<RibbonQuality::ID> RibbonQualityID
 float Scale
 int TextureFileDataID
 int Type

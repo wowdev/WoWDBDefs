@@ -5,9 +5,9 @@ int Field_2799832687?
 int Field_516438342?
 int Field_3478340450?
 int ID
-int ItemAppearanceID
+int<ItemAppearance::ID> ItemAppearanceID
 int ItemAppearanceModifierID
-int ItemID
+int<Item::ID> ItemID
 int OrderIndex
 int TransmogSourceTypeEnum
 

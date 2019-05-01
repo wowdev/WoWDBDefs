@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int AllianceSpellID
-int GarrFollowerID
+int<GarrFollower::ID> GarrFollowerID
 int HordeSpellID
 int OrderIndex
 

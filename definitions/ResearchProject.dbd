@@ -3,8 +3,8 @@ int ID
 locstring Name_lang
 locstring Description_lang
 int Rarity
-int ResearchBranchID
-int SpellID
+int<ResearchBranch::ID> ResearchBranchID
+int<Spell::ID> SpellID
 int NumSockets
 string Texture
 int RequiredWeight

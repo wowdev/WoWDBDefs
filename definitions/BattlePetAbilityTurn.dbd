@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int BattlePetAbilityID
-int BattlePetVisualID
+int<BattlePetAbility::ID> BattlePetAbilityID
+int<BattlePetVisual::ID> BattlePetVisualID
 int EventTypeEnum
 int OrderIndex
 int TurnTypeEnum

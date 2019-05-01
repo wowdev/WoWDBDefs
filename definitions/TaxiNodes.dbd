@@ -11,7 +11,7 @@ int CharacterBitNumber
 float Facing
 float FlightMapOffset
 int SpecialIconConditionID
-int UiTextureKitID
+int<UiTextureKit::ID> UiTextureKitID
 int MinimapAtlasMemberID
 int VisibilityConditionID
 

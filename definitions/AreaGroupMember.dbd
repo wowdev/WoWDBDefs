@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int AreaGroupID
+int<AreaGroup::ID> AreaGroupID
 int AreaID
 
 LAYOUT 50AA43EE, 27C84A16

@@ -1,12 +1,12 @@
 COLUMNS
 int ID
 int AdditionalDuration
-int AnimKitID
-int BroadcastTextID
+int<AnimKit::ID> AnimKitID
+int<BroadcastText::ID> BroadcastTextID
 int EndAnimation
 int NextConversationLineID
 int SpeechType
-int SpellVisualKitID
+int<SpellVisualKit::ID> SpellVisualKitID
 int StartAnimation
 
 LAYOUT 032B137B, 227B5003

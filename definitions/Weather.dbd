@@ -7,8 +7,8 @@ float Intensity
 float TransitionSkyBox
 float EffectColor
 string EffectTexture
-int SoundAmbienceID
-int WindSettingsID
+int<SoundAmbience::ID> SoundAmbienceID
+int<WindSettings::ID> WindSettingsID
 int EffectTextureFileDataID
 float FallModifier
 int ParticulateFileDataID

@@ -3,13 +3,13 @@ int ID
 int ActiveIconFileID
 int CasterPlayerConditionID
 int CasterUnitConditionID
-int DifficultyID
+int<Difficulty::ID> DifficultyID
 int Flags
 int Priority
 float Probability
-int SpellID
+int<Spell::ID> SpellID
 int SpellIconFileID
-int SpellVisualID
+int<SpellVisual::ID> SpellVisualID
 int ViewerPlayerConditionID
 int ViewerUnitConditionID
 

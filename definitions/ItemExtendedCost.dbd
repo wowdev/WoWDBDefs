@@ -19,7 +19,7 @@ int CurrencyCount
 int CurrencyID
 int Flags
 int ItemCount
-int ItemID
+int<Item::ID> ItemID
 int MinFactionID
 int MinReputation
 int RequiredAchievement

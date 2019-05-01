@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int PvpScalingEffectTypeID
+int<PvpScalingEffectType::ID> PvpScalingEffectTypeID
 int SpecializationID
 float Value
 

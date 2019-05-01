@@ -4,7 +4,7 @@ int BaseSection
 int Sex
 int VariationIndex
 int ColorIndex
-int AchievementID
+int<Achievement::ID> AchievementID
 int RaceID
 
 LAYOUT 4C843BC5

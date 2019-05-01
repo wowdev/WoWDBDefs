@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int AreaTableID
+int<AreaTable::ID> AreaTableID
 float IconLocation
 int InvasionEnabledWorldStateID
 locstring Name_lang
-int ScenarioID
-int UiTextureAtlasMemberID
+int<Scenario::ID> ScenarioID
+int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int WorldQuestID
-int WorldStateID
+int<WorldState::ID> WorldStateID
 int WorldStateValue
 
 LAYOUT 4C93379F, 04FC0B4F

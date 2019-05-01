@@ -3,7 +3,7 @@ int ID
 int AmbienceID
 int Flags
 int FlavorSoundFilterID
-int SoundFilterID
+int<SoundFilter::ID> SoundFilterID
 int AmbienceStartID
 int AmbienceStopID
 int Field_8_1_5_28938_006

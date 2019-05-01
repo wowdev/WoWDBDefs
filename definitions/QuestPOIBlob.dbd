@@ -1,13 +1,13 @@
 COLUMNS
 int ID
 int NumPoints
-int MapID
-int WorldMapAreaID
+int<Map::ID> MapID
+int<WorldMapArea::ID> WorldMapAreaID
 int Floor
 int ObjectiveIndex
 int QuestID
-int PlayerConditionID
-int UiMapID
+int<PlayerCondition::ID> PlayerConditionID
+int<UiMap::ID> UiMapID
 
 BUILD 6.0.1.18179
 $id$ID<32>

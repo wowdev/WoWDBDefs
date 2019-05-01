@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int GroupFinderActivityID
+int<GroupFinderActivity::ID> GroupFinderActivityID
 int QuestID
 
 LAYOUT 06CC45D3, AA88A593

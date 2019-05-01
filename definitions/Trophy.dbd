@@ -3,10 +3,10 @@ int Field_3183308249?
 int Field_396419682?
 int Field_247355975?
 int ID
-int GameObjectDisplayInfoID
+int<GameObjectDisplayInfo::ID> GameObjectDisplayInfoID
 locstring Name_lang
-int PlayerConditionID
-int TrophyTypeID
+int<PlayerCondition::ID> PlayerConditionID
+int<TrophyType::ID> TrophyTypeID
 
 BUILD 6.0.1.18179
 $id$ID<32>

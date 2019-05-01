@@ -3,11 +3,11 @@ int ID
 int ClassMask
 int ExpansionID
 int Flags
-int ItemNameDescriptionID
+int<ItemNameDescription::ID> ItemNameDescriptionID
 locstring Name_lang
 int ParentTransmogSetID
 int TrackingQuestID
-int TransmogSetGroupID
+int<TransmogSetGroup::ID> TransmogSetGroupID
 int UiOrder
 int Field_8_1_0_28294_008
 int Field_8_1_0_28294_010

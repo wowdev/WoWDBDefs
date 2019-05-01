@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int AlliedRaceID
+int<AlliedRace::ID> AlliedRaceID
 locstring Description_lang
 int IconFileDataID
 locstring Name_lang

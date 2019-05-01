@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int GameObjectsID
+int<GameObjects::ID> GameObjectsID
 int TimeIndex
 float Rot
 

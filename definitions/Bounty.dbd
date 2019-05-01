@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int BountySetID
-int FactionID
+int<BountySet::ID> BountySetID
+int<Faction::ID> FactionID
 int IconFileDataID
 int QuestID
 int TurninPlayerConditionID

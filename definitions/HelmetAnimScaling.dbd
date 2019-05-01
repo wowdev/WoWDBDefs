@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int HelmetGeosetVisDataID
+int<HelmetGeosetVisData::ID> HelmetGeosetVisDataID
 int<ChrRaces::ID> RaceID
 float Amount
 

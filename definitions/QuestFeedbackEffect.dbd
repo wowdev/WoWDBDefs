@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int FileDataID
+int<FileData::ID> FileDataID
 int AttachPoint
 int Minimapobject
 int Priority

@@ -3,7 +3,7 @@ int ID
 int ShapeshiftExclude
 int ShapeshiftMask
 int StanceBarOrder
-int SpellID
+int<Spell::ID> SpellID
 
 BUILD 6.0.1.18179
 $id$ID<32>

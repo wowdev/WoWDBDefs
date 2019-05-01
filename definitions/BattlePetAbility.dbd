@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int BattlePetVisualID
+int<BattlePetVisual::ID> BattlePetVisualID
 int Cooldown
 locstring Description_lang
 int Flags

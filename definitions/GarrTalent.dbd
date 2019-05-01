@@ -2,13 +2,13 @@ COLUMNS
 int ID
 locstring Description_lang
 int Flags
-int GarrAbilityID
-int GarrTalentTreeID
+int<GarrAbility::ID> GarrAbilityID
+int<GarrTalentTree::ID> GarrTalentTreeID
 int IconFileDataID
 locstring Name_lang
 int PerkPlayerConditionID
 int PerkSpellID
-int PlayerConditionID
+int<PlayerCondition::ID> PlayerConditionID
 int ResearchCost
 int ResearchCostCurrencyTypesID
 int ResearchDurationSecs

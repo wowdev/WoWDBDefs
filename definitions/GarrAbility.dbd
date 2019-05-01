@@ -4,8 +4,8 @@ int ID
 locstring Description_lang
 int FactionChangeGarrAbilityID
 int Flags
-int GarrAbilityCategoryID
-int GarrFollowerTypeID
+int<GarrAbilityCategory::ID> GarrAbilityCategoryID
+int<GarrFollowerType::ID> GarrFollowerTypeID
 int IconFileDataID
 locstring Name_lang
 

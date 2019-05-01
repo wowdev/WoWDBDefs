@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ItemLevelSelectorQualitySetID
+int<ItemLevelSelectorQualitySet::ID> ItemLevelSelectorQualitySetID
 int MinItemLevel
 int Field_8_1_0_28440_002
 

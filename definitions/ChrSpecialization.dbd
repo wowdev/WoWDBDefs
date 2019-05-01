@@ -6,7 +6,7 @@ int<Spell::ID> MasterySpellID
 int OrderIndex
 int PetTalentType
 int Role
-int SpellIconID
+int<SpellIcon::ID> SpellIconID
 int RaidBuffs
 int Flags
 locstring Name_lang

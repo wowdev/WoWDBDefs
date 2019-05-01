@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 int ClassID
-int GarrTypeID
+int<GarrType::ID> GarrTypeID
 int MaxTiers
 int UiOrder
-int UiTextureKitID
+int<UiTextureKit::ID> UiTextureKitID
 locstring Title_lang
 int Flags
 

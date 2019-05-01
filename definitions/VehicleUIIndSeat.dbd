@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int VehicleUIIndicatorID
+int<VehicleUIIndicator::ID> VehicleUIIndicatorID
 int VirtualSeatIndex
 float XPos
 float YPos

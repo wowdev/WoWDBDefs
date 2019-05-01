@@ -18,7 +18,7 @@ int<AnimReplacementSet::ID> AnimReplacementSetID
 int Flags
 int Gender
 int<SpellVisualKit::ID> StateSpellVisualKitID
-int DissolveEffectID
+int<DissolveEffect::ID> DissolveEffectID
 int MountPoofSpellVisualKitID
 float PetInstanceScale
 float PlayerOverrideScale

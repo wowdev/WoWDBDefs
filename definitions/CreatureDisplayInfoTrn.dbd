@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int DissolveEffectID
+int<DissolveEffect::ID> DissolveEffectID
 int DstCreatureDisplayInfoID
 int FinishVisualKitID
 float MaxTime

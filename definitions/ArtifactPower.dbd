@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ArtifactID
+int<Artifact::ID> ArtifactID
 float DisplayPos
 int Flags
 int Label

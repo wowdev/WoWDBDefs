@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int AbilityCount
 int ClassSpecID
-int GarrFollowerTypeID
+int<GarrFollowerType::ID> GarrFollowerTypeID
 int Quality
 int ShipmentXP
 int TraitCount

@@ -11,7 +11,7 @@ int AcceptButtonTexture
 string AcceptURL
 int AdTexture
 int DeclineButtonTexture
-int LocaleID
+int<Locale::ID> LocaleID
 int LogoTexture
 int PromotionID
 

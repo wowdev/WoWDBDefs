@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 locstring Name_lang
-int ResearchFieldID
+int<ResearchField::ID> ResearchFieldID
 int CurrencyID
 string Texture
-int ItemID
+int<Item::ID> ItemID
 int BigTextureFileID
 int TextureFileID
 

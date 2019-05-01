@@ -10,7 +10,7 @@ string Texture
 int ItemVisual
 int<ParticleColor::ID> ParticleColorID
 int AttachmentGeosetGroup
-int ItemRangedDisplayInfoID
+int<ItemRangedDisplayInfo::ID> ItemRangedDisplayInfoID
 int ModelMaterialResourcesID
 int ModelResourcesID
 int ModelType1

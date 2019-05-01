@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int CurveID
+int<Curve::ID> CurveID
 int DecayIndex
 int EnvelopeType
 int Flags
 int ReleaseIndex
-int SoundKitID
+int<SoundKit::ID> SoundKitID
 int SustainIndex
 
 LAYOUT 5B78031C, D942E808

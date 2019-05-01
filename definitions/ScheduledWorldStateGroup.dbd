@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int Flags
 int Priority
-int ScheduledIntervalID
+int<ScheduledInterval::ID> ScheduledIntervalID
 int SelectionCount
 int SelectionType
 

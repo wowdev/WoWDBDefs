@@ -20,9 +20,9 @@ int CurrencyQty
 int CurrencyTypeID
 locstring Description_lang
 int Flags
-int GarrAbilityID
+int<GarrAbility::ID> GarrAbilityID
 int GarrSiteID
-int GarrTypeID
+int<GarrType::ID> GarrTypeID
 int GoldCost
 int HordeGameObjectID
 locstring HordeName_lang

@@ -31,7 +31,7 @@ float MinStrikeStrength
 float MinStrikeTime
 float SegmentSize
 float SoundEmitterDistance
-int SoundKitID
+int<SoundKit::ID> SoundKitID
 float Field_2019126589?
 float Field_002241990?
 

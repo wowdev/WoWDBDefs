@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int AreaPoiID
+int<AreaPOI::ID> AreaPoiID
 locstring Description_lang
 int IconEnumValue
-int UiTextureAtlasMemberID
+int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int WorldStateValue
 
 LAYOUT 673BDA80, EB8CA12C

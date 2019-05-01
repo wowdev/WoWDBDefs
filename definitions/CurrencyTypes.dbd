@@ -13,7 +13,7 @@ locstring Description_lang
 int<FileData::ID> InventoryIconFileID
 int<Item::ID> ItemID
 int BitIndex
-int FactionID
+int<Faction::ID> FactionID
 int Field_8_1_5_29352_011
 
 BUILD 6.0.1.18179

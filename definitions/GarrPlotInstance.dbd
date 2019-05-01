@@ -1,7 +1,7 @@
 COLUMNS
 string Name
 int ID
-int GarrPlotID
+int<GarrPlot::ID> GarrPlotID
 
 BUILD 6.0.1.18179
 $id$ID<32>

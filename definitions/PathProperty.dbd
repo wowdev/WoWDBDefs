@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int PathID
+int<Path::ID> PathID
 int PropertyIndex
 int Value
 

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int CardUIModelSceneID
-int CreatureID
+int<Creature::ID> CreatureID
 locstring Description_lang
 int Flags
 int IconFileDataID

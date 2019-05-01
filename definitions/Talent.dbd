@@ -3,7 +3,7 @@ int ID
 int SpecID
 int TierID
 int ColumnIndex
-int SpellID
+int<Spell::ID> SpellID
 int Flags
 int CategoryMask
 int ClassID

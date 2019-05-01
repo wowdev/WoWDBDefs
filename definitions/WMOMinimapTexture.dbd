@@ -3,7 +3,7 @@ int ID
 int WMOID
 int BlockX
 int BlockY
-int FileDataID
+int<FileData::ID> FileDataID
 int GroupNum
 
 LAYOUT 8F4AE3C0, 56C82A0C

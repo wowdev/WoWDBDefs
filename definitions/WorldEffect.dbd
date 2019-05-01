@@ -3,8 +3,8 @@ int ID
 int TargetType
 int TargetAsset
 int<QuestFeedbackEffect::ID> QuestFeedbackEffectID
-int PlayerConditionID
-int CombatConditionID
+int<PlayerCondition::ID> PlayerConditionID
+int<CombatCondition::ID> CombatConditionID
 int WhenToDisplay
 
 BUILD 6.0.1.18179

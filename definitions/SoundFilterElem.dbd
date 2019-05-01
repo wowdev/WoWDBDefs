@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int SoundFilterID
+int<SoundFilter::ID> SoundFilterID
 int OrderIndex
 int FilterType
 float Params

@@ -12,7 +12,7 @@ int Field_2427487154?
 int<ItemClass::ID> ClassID
 int IconFileDataID
 int InventoryType
-int ItemGroupSoundsID
+int<ItemGroupSounds::ID> ItemGroupSoundsID
 int Material
 int SheatheType
 int Sound_override_subclassID

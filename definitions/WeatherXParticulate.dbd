@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int FileDataID
+int<FileData::ID> FileDataID
 int ParentWeatherID
 
 LAYOUT A22D715D, 791A7865

@@ -1,8 +1,8 @@
 COLUMNS
 int ID
 int ClassMask
-int CreatureDisplayInfoID
-int CreatureModelDataID
+int<CreatureDisplayInfo::ID> CreatureDisplayInfoID
+int<CreatureModelData::ID> CreatureModelDataID
 int CustomOption0_Mask
 int CustomOption1_Mask
 int CustomOption2_Mask

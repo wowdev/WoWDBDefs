@@ -25,7 +25,7 @@ float OffsetVariation
 int<SpellVisualKit::ID> ParentSpellVisualKitID
 float Pitch
 float PitchVariation
-int PositionerID
+int<Positioner::ID> PositionerID
 float Roll
 float RollVariation
 float Scale

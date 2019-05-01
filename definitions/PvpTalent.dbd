@@ -5,9 +5,9 @@ locstring Description_lang
 int Flags
 int LevelRequired
 int OverridesSpellID
-int PvpTalentCategoryID
+int<PvpTalentCategory::ID> PvpTalentCategoryID
 int SpecID
-int SpellID
+int<Spell::ID> SpellID
 int ClassID
 int Field_1149400225?
 int Field_408242832?

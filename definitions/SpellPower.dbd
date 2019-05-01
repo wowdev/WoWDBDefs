@@ -20,11 +20,11 @@ int OptionalCost
 int OrderIndex
 float PowerCostMaxPct
 float PowerCostPct
-int PowerDisplayID
+int<PowerDisplay::ID> PowerDisplayID
 float PowerPctPerSecond
 int PowerType
 int RequiredAuraSpellID
-int SpellID
+int<Spell::ID> SpellID
 
 BUILD 6.0.1.18179
 $id$ID<32>

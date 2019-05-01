@@ -3,9 +3,9 @@ int ID
 int Field_4013373207?
 int Field_675357935?
 int Field_872425833?
-int PathID
+int<Path::ID> PathID
 int Sequence
-int LocationID
+int<Location::ID> LocationID
 
 LAYOUT 80473F80
 BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
