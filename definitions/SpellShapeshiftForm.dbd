@@ -6,11 +6,11 @@ int Flags
 int CreatureType
 int AttackIconID
 int CombatRoundTime
-int CreatureDisplayID
-int PresetSpellID
+int<CreatureDisplayInfo::ID> CreatureDisplayID
+int<Spell::ID> PresetSpellID
 int<MountType::ID> MountTypeID
 int ExitSoundEntriesID
-int AttackIconFileID
+int<FileData::ID> AttackIconFileID
 float DamageVariance
 
 BUILD 6.0.1.18179

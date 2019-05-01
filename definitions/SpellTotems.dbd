@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int RequiredTotemCategoryID
+int<TotemCategory::ID> RequiredTotemCategoryID
 int Totem
 int<Spell::ID> SpellID
 

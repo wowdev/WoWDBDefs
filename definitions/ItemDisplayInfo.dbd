@@ -16,9 +16,9 @@ int ModelResourcesID
 int ModelType1
 int OverrideSwooshSoundKitID
 int SheatheTransformMatrixID
-int SheathedSpellVisualKitID
-int StateSpellVisualKitID
-int UnsheathedSpellVisualKitID
+int<SpellVisualKit::ID> SheathedSpellVisualKitID
+int<SpellVisualKit::ID> StateSpellVisualKitID
+int<SpellVisualKit::ID> UnsheathedSpellVisualKitID
 string InventoryIcon
 int GroupSoundIndex
 string GroundModel

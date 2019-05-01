@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Movie::ID> MovieID
 int<FileData::ID> FileDataID
-int OverlayFileDataID
+int<FileData::ID> OverlayFileDataID
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414

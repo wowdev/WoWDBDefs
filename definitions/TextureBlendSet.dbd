@@ -5,7 +5,7 @@ int SwizzleAlpha
 int SwizzleBlue
 int SwizzleGreen
 int SwizzleRed
-int TextureFileDataID
+int<FileData::ID> TextureFileDataID
 float TextureScaleU
 float TextureScaleV
 float TextureScrollRateU

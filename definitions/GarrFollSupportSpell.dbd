@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int AllianceSpellID
+int<Spell::ID> AllianceSpellID
 int<GarrFollower::ID> GarrFollowerID
-int HordeSpellID
+int<Spell::ID> HordeSpellID
 int OrderIndex
 
 LAYOUT B7DBA2D1

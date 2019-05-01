@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-int AlphaCurveID
-int BlueCurveID
+int<Curve::ID> AlphaCurveID
+int<Curve::ID> BlueCurveID
 int Color
 float ColorMultiplier
 float Duration
 int Flags
-int GreenCurveID
-int OpacityCurveID
+int<Curve::ID> GreenCurveID
+int<Curve::ID> OpacityCurveID
 int<Positioner::ID> PositionerID
-int RedCurveID
+int<Curve::ID> RedCurveID
 int Type
 
 LAYOUT 7E5B2E66, E150405A

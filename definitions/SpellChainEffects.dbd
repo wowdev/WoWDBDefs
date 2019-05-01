@@ -57,13 +57,13 @@ int<SoundKit::ID> SoundKitID
 float StartWidth
 float TextureCoordScaleU
 float TextureCoordScaleV
-int TextureFileDataID
-int TextureParticleFileDataID
+int<FileData::ID> TextureFileDataID
+int<FileData::ID> TextureParticleFileDataID
 float TextureRepeatLengthU
 float TextureRepeatLengthV
 float TimePerFlipFrame
 float VariancePerFlipFrame
-int WidthScaleCurveID
+int<Curve::ID> WidthScaleCurveID
 int Padding_596171098?
 string Combo
 

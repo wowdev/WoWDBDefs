@@ -9,9 +9,9 @@ float EffectColor
 string EffectTexture
 int<SoundAmbience::ID> SoundAmbienceID
 int<WindSettings::ID> WindSettingsID
-int EffectTextureFileDataID
+int<FileData::ID> EffectTextureFileDataID
 float FallModifier
-int ParticulateFileDataID
+int<FileData::ID> ParticulateFileDataID
 float RotationalSpeed
 float Scale
 float TwinkleIntensity

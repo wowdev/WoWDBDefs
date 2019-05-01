@@ -4,8 +4,8 @@ int DurationMs
 int DelayMs
 int FadeInTimeMs
 int FadeOutTimeMs
-int StateSpellVisualKitID
-int StartSpellVisualKitID
+int<SpellVisualKit::ID> StateSpellVisualKitID
+int<SpellVisualKit::ID> StartSpellVisualKitID
 int OffsetMatrixID
 int Flags
 

@@ -4,7 +4,7 @@ int CardUIModelSceneID
 int<Creature::ID> CreatureID
 locstring Description_lang
 int Flags
-int IconFileDataID
+int<FileData::ID> IconFileDataID
 int LoadoutUIModelSceneID
 int PetTypeEnum
 locstring SourceText_lang

@@ -34,7 +34,7 @@ locstring Location_lang
 float MapPos
 int MaxFollowers
 int MissionCost
-int MissionCostCurrencyTypesID
+int<CurrencyTypes::ID> MissionCostCurrencyTypesID
 int MissionDuration
 locstring Name_lang
 int OfferDuration

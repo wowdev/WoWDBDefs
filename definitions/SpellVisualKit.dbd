@@ -25,7 +25,7 @@ float Field_3896634149?
 int DelayMax
 int DelayMin
 float FallbackPriority
-int FallbackSpellVisualKitID
+int<SpellVisualKit::ID> FallbackSpellVisualKitID
 int Flags
 int<AnimationData::ID> StartAnimID
 int<AnimationData::ID> AnimID

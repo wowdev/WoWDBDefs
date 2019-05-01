@@ -7,13 +7,13 @@ int<Spell::ID> SpellID
 int Flags
 int CategoryMask
 int ClassID
-int OverridesSpellID
+int<Spell::ID> OverridesSpellID
 locstring Description_lang
 int TabID
 int SpellRank
 int PrereqTalent
 int PrereqRank
-int RequiredSpellID
+int<Spell::ID> RequiredSpellID
 
 BUILD 6.0.1.18179
 $id$ID<32>

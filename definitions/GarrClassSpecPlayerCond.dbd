@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int FlavorGarrStringID
 int<GarrClassSpec::ID> GarrClassSpecID
-int IconFileDataID
+int<FileData::ID> IconFileDataID
 locstring Name_lang
 int OrderIndex
 int<PlayerCondition::ID> PlayerConditionID

@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int BoneSetFileDataID
+int<FileData::ID> BoneSetFileDataID
 int FaceVariationIndex
 int RaceID
 int Resolution
 int SexID
-int ModelFileDataID
+int<FileData::ID> ModelFileDataID
 
 LAYOUT 1C634076, 6EF85FBA
 BUILD 1.13.0.28211, 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321

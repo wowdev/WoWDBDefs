@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int BadgeTextureFileDataID
+int<FileData::ID> BadgeTextureFileDataID
 int Flags
 locstring Name_lang
 int PrestigeLevel

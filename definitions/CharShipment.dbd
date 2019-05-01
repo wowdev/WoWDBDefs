@@ -7,7 +7,7 @@ int Duration
 int Flags
 int<GarrFollower::ID> GarrFollowerID
 int MaxShipments
-int OnCompleteSpellID
+int<Spell::ID> OnCompleteSpellID
 int<Spell::ID> SpellID
 int TreasureID
 

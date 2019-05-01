@@ -2,8 +2,8 @@ COLUMNS
 int ID
 string TextureVariation
 string AttachModel
-int AttachModelFileID
-int TextureVariationFileID
+int<FileData::ID> AttachModelFileID
+int<FileData::ID> TextureVariationFileID
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 1.12.0.5595-1.12.3.6141

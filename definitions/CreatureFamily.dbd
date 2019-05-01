@@ -10,7 +10,7 @@ int PetTalentType
 int CategoryEnumID
 locstring Name_lang
 string IconFile
-int IconFileID
+int<FileData::ID> IconFileID
 
 BUILD 3.0.2.8885, 3.0.8.9328, 4.0.0.11792, 6.0.1.18179
 BUILD 3.0.1.8622-3.3.5.12340

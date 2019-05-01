@@ -37,7 +37,7 @@ int ItemFlags
 int Explored
 int Time
 int AuraSpellLogic
-int AuraSpellID
+int<Spell::ID> AuraSpellID
 int<WorldStateExpression::ID> WorldStateExpressionID
 int<Weather::ID> WeatherID
 int PartyStatus
@@ -51,7 +51,7 @@ int LfgValue
 int AreaLogic
 int AreaID
 int CurrencyLogic
-int CurrencyID
+int<CurrencyTypes::ID> CurrencyID
 int CurrencyCount
 int QuestKillID
 int QuestKillLogic

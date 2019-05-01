@@ -20,7 +20,7 @@ int AllianceFlavorGarrStringID
 int AllianceGarrClassSpecID
 int AllianceGarrFollItemSetID
 int AllianceGarrFollRaceID
-int AllianceIconFileDataID
+int<FileData::ID> AllianceIconFileDataID
 locstring AllianceSourceText_lang
 int AllianceSourceTypeEnum
 int AllianceUITextureKitID
@@ -36,7 +36,7 @@ int HordeFlavorGarrStringID
 int HordeGarrClassSpecID
 int HordeGarrFollItemSetID
 int HordeGarrFollRaceID
-int HordeIconFileDataID
+int<FileData::ID> HordeIconFileDataID
 int HordeSlottingBroadcastTextID
 locstring HordeSourceText_lang
 int HordeSourceTypeEnum

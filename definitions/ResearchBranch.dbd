@@ -2,11 +2,11 @@ COLUMNS
 int ID
 locstring Name_lang
 int<ResearchField::ID> ResearchFieldID
-int CurrencyID
+int<CurrencyTypes::ID> CurrencyID
 string Texture
 int<Item::ID> ItemID
-int BigTextureFileID
-int TextureFileID
+int<FileData::ID> BigTextureFileID
+int<FileData::ID> TextureFileID
 
 BUILD 6.0.1.18179
 $id$ID<32>

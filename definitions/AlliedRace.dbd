@@ -2,8 +2,8 @@ COLUMNS
 int ID
 int BannerColor
 int CrestTextureID
-int FemaleCreatureDisplayID
-int MaleCreatureDisplayID
+int<CreatureDisplayInfo::ID> FemaleCreatureDisplayID
+int<CreatureDisplayInfo::ID> MaleCreatureDisplayID
 int ModelBackgroundTextureID
 int RaceID
 int Ui_unlockAchievementID

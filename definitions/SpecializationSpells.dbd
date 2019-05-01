@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int SpecID
 int<Spell::ID> SpellID
-int OverridesSpellID
+int<Spell::ID> OverridesSpellID
 locstring Description_lang
 int DisplayOrder
 

@@ -10,7 +10,7 @@ int ParentSkillLineID
 int Flags
 locstring HordeDisplayName_lang
 int ParentTierIndex
-int SpellIconFileID
+int<FileData::ID> SpellIconFileID
 int SkillCostsID
 int RaceMask
 int ClassMask

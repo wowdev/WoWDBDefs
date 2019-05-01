@@ -14,8 +14,8 @@ string DynamicIcon
 locstring DynamicTooltip_lang
 string ExtendedUI
 int ExtendedUIStateVariable
-int DynamicFlashIconFileID
-int DynamicIconFileID
+int<FileData::ID> DynamicFlashIconFileID
+int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID

@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int ActionBarSpellID
+int<Spell::ID> ActionBarSpellID
 locstring Description_lang
 int Flags
 int LevelRequired
-int OverridesSpellID
+int<Spell::ID> OverridesSpellID
 int<PvpTalentCategory::ID> PvpTalentCategoryID
 int SpecID
 int<Spell::ID> SpellID

@@ -1,7 +1,7 @@
 COLUMNS
 int Field_96468899?
 int ID
-int DefaultIconFileDataID
+int<FileData::ID> DefaultIconFileDataID
 int DisplayType
 int<ItemDisplayInfo::ID> ItemDisplayInfoID
 int UiOrder

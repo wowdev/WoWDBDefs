@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<Spell::ID> SpellID
-int OverlayFileDataID
+int<FileData::ID> OverlayFileDataID
 int<ScreenLocation::ID> ScreenLocationID
 int Color
 float Scale

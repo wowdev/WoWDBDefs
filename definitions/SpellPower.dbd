@@ -23,7 +23,7 @@ float PowerCostPct
 int<PowerDisplay::ID> PowerDisplayID
 float PowerPctPerSecond
 int PowerType
-int RequiredAuraSpellID
+int<Spell::ID> RequiredAuraSpellID
 int<Spell::ID> SpellID
 
 BUILD 6.0.1.18179

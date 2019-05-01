@@ -9,7 +9,7 @@ float MountFlyRideHeight
 int<MountType::ID> MountTypeID
 locstring Name_lang
 int<PlayerCondition::ID> PlayerConditionID
-int SourceSpellID
+int<Spell::ID> SourceSpellID
 locstring SourceText_lang
 int SourceTypeEnum
 int<UiModelScene::ID> UiModelSceneID

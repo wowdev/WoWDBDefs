@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int CurrencyTypeID
+int<CurrencyTypes::ID> CurrencyTypeID
 int Quantity
 int<RewardPack::ID> RewardPackID
 

@@ -3,8 +3,8 @@ int ID
 int MaskID
 string InternalName
 locstring Name_lang
-int ConquestCurrencyTextureFileID
-int HonorCurrencyTextureFileID
+int<FileData::ID> ConquestCurrencyTextureFileID
+int<FileData::ID> HonorCurrencyTextureFileID
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.3.3368-0.12.0.3988

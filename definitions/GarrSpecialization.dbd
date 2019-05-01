@@ -8,7 +8,7 @@ string Field_2085341704?
 string Field_1385528309?
 int ID
 int BuildingType
-int IconFileDataID
+int<FileData::ID> IconFileDataID
 locstring Name_lang
 float Param
 int RequiredUpgradeLevel

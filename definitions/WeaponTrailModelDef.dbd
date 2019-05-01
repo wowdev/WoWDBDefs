@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int AnimEnumID
-int LowDefFileDataID
+int<FileData::ID> LowDefFileDataID
 int<WeaponTrail::ID> WeaponTrailID
 
 LAYOUT 7DE7C508, CE7AD194

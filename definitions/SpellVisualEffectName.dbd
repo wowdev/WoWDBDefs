@@ -9,10 +9,10 @@ int Flags
 int GenericID
 float MaxAllowedScale
 float MinAllowedScale
-int ModelFileDataID
+int<FileData::ID> ModelFileDataID
 int<RibbonQuality::ID> RibbonQualityID
 float Scale
-int TextureFileDataID
+int<FileData::ID> TextureFileDataID
 int Type
 string Name
 string FileName

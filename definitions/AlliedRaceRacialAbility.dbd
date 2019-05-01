@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<AlliedRace::ID> AlliedRaceID
 locstring Description_lang
-int IconFileDataID
+int<FileData::ID> IconFileDataID
 locstring Name_lang
 int OrderIndex
 
