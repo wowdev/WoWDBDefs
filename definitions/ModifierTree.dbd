@@ -7,13 +7,6 @@ int Operator
 int Amount
 int Parent
 int TertiaryAsset
-int Field_8_2_0_30080_000
-int Field_8_2_0_30080_001
-int Field_8_2_0_30080_002
-int Field_8_2_0_30080_003
-int Field_8_2_0_30080_004
-int Field_8_2_0_30080_005
-int Field_8_2_0_30080_006
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -60,10 +53,10 @@ TertiaryAsset<8>
 LAYOUT FF7054B3
 BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.30168, 8.2.0.30170, 8.2.0.30203
 $noninline,id$ID<32>
-Field_8_2_0_30080_000<u32>
-Field_8_2_0_30080_001<8>
-Field_8_2_0_30080_002<8>
-Field_8_2_0_30080_003<32>
-Field_8_2_0_30080_004<32>
-Field_8_2_0_30080_005<32>
-Field_8_2_0_30080_006<8>
+Parent<u32>
+Operator<8>
+Amount<8>
+Type<32>
+Asset<32>
+SecondaryAsset<32>
+TertiaryAsset<8>

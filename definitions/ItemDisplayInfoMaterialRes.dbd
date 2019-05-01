@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int ComponentSection
-int ItemDisplayInfoID
+int<ItemDisplayInfo::ID> ItemDisplayInfoID
 int MaterialResourcesID
 
 LAYOUT DEE4ED7B, 307E038F

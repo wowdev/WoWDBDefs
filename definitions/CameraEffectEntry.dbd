@@ -2,9 +2,9 @@ COLUMNS
 int ID
 float Amplitude
 float AmplitudeB
-int AmplitudeCurveID
+int<Curve::ID> AmplitudeCurveID
 int AttenuationType
-int CameraEffectID
+int<CameraEffect::ID> CameraEffectID
 float Delay
 int DirectionType
 float Duration

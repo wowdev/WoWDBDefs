@@ -6,13 +6,6 @@ int FootstepSprayRun
 int FootstepSprayWalk
 int SoundID
 int Flags
-int Field_1_13_0_28211_001
-string Field_1_13_2_30073_000
-int Field_1_13_2_30073_001
-int Field_1_13_2_30073_002
-int Field_1_13_2_30073_003
-int Field_1_13_2_30073_004
-int Field_1_13_2_30073_005
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 4.0.0.11927-4.3.4.15595
@@ -50,7 +43,7 @@ LAYOUT 4BE35F10
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
 TerrainDesc
-Field_1_13_0_28211_001<32>
+TerrainID<32>
 FootstepSprayRun<u16>
 FootstepSprayWalk<u16>
 SoundID<u8>
@@ -59,9 +52,9 @@ Flags<u8>
 LAYOUT 4C8C5C80
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13.2.30232, 1.13.2.30265
 $noninline,id$ID<32>
-Field_1_13_2_30073_000
-Field_1_13_2_30073_001<u16>
-Field_1_13_2_30073_002<u16>
-Field_1_13_2_30073_003<u8>
-Field_1_13_2_30073_004<u8>
-Field_1_13_2_30073_005<32>
+TerrainDesc
+FootstepSprayRun<u16>
+FootstepSprayWalk<u16>
+SoundID<u8>
+Flags<u8>
+TerrainID<32>

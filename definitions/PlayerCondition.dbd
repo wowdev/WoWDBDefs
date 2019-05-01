@@ -29,17 +29,17 @@ int CurrQuestID
 int CurrentCompletedQuestLogic
 int CurrentCompletedQuestID
 int SpellLogic
-int SpellID
+int<Spell::ID> SpellID
 int ItemLogic
-int ItemID
+int<Item::ID> ItemID
 int ItemCount
 int ItemFlags
 int Explored
 int Time
 int AuraSpellLogic
-int AuraSpellID
-int WorldStateExpressionID
-int WeatherID
+int<Spell::ID> AuraSpellID
+int<WorldStateExpression::ID> WorldStateExpressionID
+int<Weather::ID> WeatherID
 int PartyStatus
 int LifetimeMaxPVPRank
 int AchievementLogic
@@ -51,7 +51,7 @@ int LfgValue
 int AreaLogic
 int AreaID
 int CurrencyLogic
-int CurrencyID
+int<CurrencyTypes::ID> CurrencyID
 int CurrencyCount
 int QuestKillID
 int QuestKillLogic
@@ -63,7 +63,7 @@ int MaxExpansionTier
 int MinGuildLevel
 int MaxGuildLevel
 int PhaseUseFlags
-int PhaseID
+int<Phase::ID> PhaseID
 int PhaseGroupID
 int MinAvgItemLevel
 int MaxAvgItemLevel
@@ -77,7 +77,7 @@ int PowerTypeComp
 int PowerTypeValue
 int AuraStacks
 int CurrentPvpFaction
-int ModifierTreeID
+int<ModifierTree::ID> ModifierTreeID
 int MovementFlags
 int WeaponSubclassMask
 

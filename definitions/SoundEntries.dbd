@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int SoundType
 string Name
-int FileDataID
+int<FileData::ID> FileDataID
 int Freq
 float VolumeFloat
 int Flags

@@ -2,9 +2,9 @@ COLUMNS
 int Field_3150583433?
 int Field_2447358156?
 int ID
-int GarrEncounterID
+int<GarrEncounter::ID> GarrEncounterID
 int GarrEncounterSetID
-int GarrMissionID
+int<GarrMission::ID> GarrMissionID
 int OrderIndex
 
 BUILD 6.0.1.18179

@@ -5,12 +5,6 @@ int OrderIndex
 int<UiMap::ID> ParentUiMapID
 float UiMax
 float UiMin
-float Field_8_2_0_30168_000?
-float Field_8_2_0_30168_001?
-int Field_8_2_0_30168_002?
-int Field_8_2_0_30168_003?
-int Field_8_2_0_30168_004?
-int Field_8_2_0_30168_005?
 int Field_8_2_0_30168_006?
 
 LAYOUT C4F972FE
@@ -42,10 +36,10 @@ ChildUiMapID<32>
 
 LAYOUT F1C8036F
 BUILD 8.2.0.30168, 8.2.0.30170, 8.2.0.30203
-Field_8_2_0_30168_000[2]
-Field_8_2_0_30168_001[2]
-$id$Field_8_2_0_30168_002<32>
-$relation$Field_8_2_0_30168_003<32>
-Field_8_2_0_30168_004<32>
-Field_8_2_0_30168_005<32>
+UiMin[2]
+UiMax[2]
+$id$ID<32>
+$relation$ParentUiMapID<32>
+OrderIndex<32>
+ChildUiMapID<32>
 Field_8_2_0_30168_006<32>

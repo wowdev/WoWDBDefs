@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int CreatureID
+int<Creature::ID> CreatureID
 int FactionIndex
 int Flags
-int GarrFollowerID
+int<GarrFollower::ID> GarrFollowerID
 int OrderIndex
 float Scale
 

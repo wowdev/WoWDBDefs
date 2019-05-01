@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int<LoadingScreen::ID> LoadingScreenID
-int MapID
+int<LoadingScreens::ID> LoadingScreenID
+int<Map::ID> MapID
 float Max
 float Min
 int OrderIndex

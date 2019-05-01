@@ -9,8 +9,6 @@ int PointsSign
 int SchoolMask
 int SpellEffectType
 int TargetType
-locstring Field_8_0_1_25902_000_lang
-locstring Field_8_0_1_25902_001_lang
 int Field_8_0_1_25902_002
 int Field_8_0_1_25902_003
 int Field_8_0_1_25902_004
@@ -60,8 +58,8 @@ AuraOrderIndex<32>
 LAYOUT 2DDC7B6B
 BUILD 8.0.1.25902
 $noninline,id$ID<32>
-Field_8_0_1_25902_000_lang
-Field_8_0_1_25902_001_lang
+EffectDescription_lang
+AuraDescription_lang
 Field_8_0_1_25902_002<32>
 Field_8_0_1_25902_003<32>
 Field_8_0_1_25902_004<32>

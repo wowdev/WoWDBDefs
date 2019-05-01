@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int BattlePetAbilityID
-int BattlePetSpeciesID
+int<BattlePetAbility::ID> BattlePetAbilityID
+int<BattlePetSpecies::ID> BattlePetSpeciesID
 int RequiredLevel
 int SlotEnum
 

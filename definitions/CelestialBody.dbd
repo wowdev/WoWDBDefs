@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-int AtmosphericMaskFileDataID
+int<FileData::ID> AtmosphericMaskFileDataID
 float AtmosphericMaskScale
-int AtmosphericModifiedFileDataID
-int BaseFileDataID
+int<FileData::ID> AtmosphericModifiedFileDataID
+int<FileData::ID> BaseFileDataID
 float BodyBaseScale
-int GlowMaskFileDataID
+int<FileData::ID> GlowMaskFileDataID
 float GlowMaskScale
-int GlowModifiedFileDataID
-int LightMaskFileDataID
+int<FileData::ID> GlowModifiedFileDataID
+int<FileData::ID> LightMaskFileDataID
 float Position
 float RotateRate
 float ScrollURate

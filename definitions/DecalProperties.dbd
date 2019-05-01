@@ -5,7 +5,7 @@ int BotTextureBlendSetID
 int CasterDecalPropertiesID
 float FadeIn
 float FadeOut
-int FileDataID
+int<FileData::ID> FileDataID
 int Flags
 float Gain
 int GameFlags

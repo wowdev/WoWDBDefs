@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int AllowableClass
 int AllowableRace
-int ArtifactID
+int<Artifact::ID> ArtifactID
 int BagFamily
 int Bonding
 int BuyPrice
@@ -22,13 +22,13 @@ int<Map::ID> InstanceBound
 int InventoryType
 int ItemDelay
 int ItemLevel
-int ItemNameDescriptionID
+int<ItemNameDescription::ID> ItemNameDescriptionID
 int ItemRandomSuffixGroupID
 float ItemRange
 int ItemSet
 int LanguageID
 int LimitCategory
-int LockID
+int<Lock::ID> LockID
 int Material
 int MaxCount
 int MinFactionID
@@ -48,7 +48,7 @@ int RequiredPVPRank
 int RequiredSkill
 int RequiredSkillRank
 int RequiredTransmogHoliday
-int ScalingStatDistributionID
+int<ScalingStatDistribution::ID> ScalingStatDistributionID
 int SellPrice
 int SheatheType
 int SocketType
@@ -60,7 +60,7 @@ int StartQuestID
 int StatModifier_bonusStat
 int StatPercentEditor
 float StatPercentageOfSocket
-int TotemCategoryID
+int<TotemCategory::ID> TotemCategoryID
 int VendorStackCount
 int<AreaTable::ID> ZoneBound
 int<Item::ID> OppositeFactionItemID?

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int GameObjectDiffAnimID
-int DifficultyID
+int<Difficulty::ID> DifficultyID
 int Animation
 int AttachmentDisplayID
 

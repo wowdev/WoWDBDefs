@@ -14,7 +14,7 @@ int DifficultyMask
 int<CreatureDisplayInfo::ID> IconCreatureDisplayInfoID
 int<Spell::ID> SpellID
 int<FileData::ID> IconFileDataID
-int UiModelSceneID
+int<UiModelScene::ID> UiModelSceneID
 
 BUILD 6.0.1.18179
 $id$ID<32>

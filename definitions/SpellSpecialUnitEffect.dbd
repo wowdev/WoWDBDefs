@@ -1,8 +1,8 @@
 COLUMNS
 int EnumID
-int SpellVisualEffectNameID
+int<SpellVisualEffectName::ID> SpellVisualEffectNameID
 int ID
-int PositionerID
+int<Positioner::ID> PositionerID
 
 BUILD 6.0.1.18179
 $id$EnumID<32>

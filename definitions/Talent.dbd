@@ -3,45 +3,17 @@ int ID
 int SpecID
 int TierID
 int ColumnIndex
-int SpellID
+int<Spell::ID> SpellID
 int Flags
 int CategoryMask
 int ClassID
-int OverridesSpellID
+int<Spell::ID> OverridesSpellID
 locstring Description_lang
 int TabID
 int SpellRank
 int PrereqTalent
 int PrereqRank
-int RequiredSpellID
-locstring Field_1_13_0_28211_000_lang
-int Field_1_13_0_28211_001
-int Field_1_13_0_28211_002
-int Field_1_13_0_28211_003
-int Field_1_13_0_28211_004
-int Field_1_13_0_28211_005
-int Field_1_13_0_28211_006
-int Field_1_13_0_28211_007
-int Field_1_13_0_28211_008
-int Field_1_13_0_28211_009
-int Field_1_13_0_28211_010
-int Field_1_13_0_28211_011
-int Field_1_13_0_28211_012
-int Field_1_13_0_28211_013
-locstring Field_1_13_2_30073_000_lang
-int Field_1_13_2_30073_001
-int Field_1_13_2_30073_002
-int Field_1_13_2_30073_003
-int Field_1_13_2_30073_004
-int Field_1_13_2_30073_005
-int Field_1_13_2_30073_006
-int Field_1_13_2_30073_007
-int Field_1_13_2_30073_008
-int Field_1_13_2_30073_009
-int Field_1_13_2_30073_010
-int Field_1_13_2_30073_011
-int Field_1_13_2_30073_012
-int Field_1_13_2_30073_013
+int<Spell::ID> RequiredSpellID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -111,35 +83,35 @@ CategoryMask<u8>[2]
 LAYOUT C4D2EA85
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
-Field_1_13_0_28211_000_lang
-Field_1_13_0_28211_001<u32>
-Field_1_13_0_28211_002<u32>
-Field_1_13_0_28211_003<u32>[9]
-Field_1_13_0_28211_004<32>
-Field_1_13_0_28211_005<u16>
-Field_1_13_0_28211_006<u16>
-Field_1_13_0_28211_007<u16>[3]
-Field_1_13_0_28211_008<u16>[3]
-Field_1_13_0_28211_009<u8>
-Field_1_13_0_28211_010<u8>
-Field_1_13_0_28211_011<u8>
-Field_1_13_0_28211_012<u8>[2]
-Field_1_13_0_28211_013<u8>
+Description_lang
+SpellID<u32>
+OverridesSpellID<u32>
+SpellRank<u32>[9]
+RequiredSpellID<32>
+SpecID<u16>
+TabID<u16>
+PrereqTalent<u16>[3]
+PrereqRank<u16>[3]
+TierID<u8>
+ColumnIndex<u8>
+Flags<u8>
+CategoryMask<u8>[2]
+ClassID<u8>
 
 LAYOUT 05BF97D0
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13.2.30232, 1.13.2.30265
 $noninline,id$ID<32>
-Field_1_13_2_30073_000_lang
-Field_1_13_2_30073_001<u8>
-Field_1_13_2_30073_002<u8>
-Field_1_13_2_30073_003<u8>
-Field_1_13_2_30073_004<u8>
-Field_1_13_2_30073_005<u16>
-Field_1_13_2_30073_006<u32>
-Field_1_13_2_30073_007<u32>
-Field_1_13_2_30073_008<u16>
-Field_1_13_2_30073_009<u32>
-Field_1_13_2_30073_010<u8>[2]
-Field_1_13_2_30073_011<u32>[9]
-Field_1_13_2_30073_012<u16>[3]
-Field_1_13_2_30073_013<u16>[3]
+Description_lang
+TierID<u8>
+Flags<u8>
+ColumnIndex<u8>
+ClassID<u8>
+SpecID<u16>
+SpellID<u32>
+OverridesSpellID<u32>
+TabID<u16>
+RequiredSpellID<u32>
+CategoryMask<u8>[2]
+SpellRank<u32>[9]
+PrereqTalent<u16>[3]
+PrereqRank<u16>[3]

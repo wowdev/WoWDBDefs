@@ -9,9 +9,6 @@ float OverrideLootEffectScale
 float OverrideNameScale
 float GeoBox
 string ModelName
-string Field_1_13_2_30128_000
-float Field_1_13_2_30128_001
-int Field_1_13_2_30128_002
 int Field_1_13_2_30128_003
 float Field_1_13_2_30128_004
 float Field_1_13_2_30128_005
@@ -71,9 +68,9 @@ OverrideNameScale
 LAYOUT F4E1764F
 BUILD 1.13.2.30128, 1.13.2.30172, 1.13.2.30232, 1.13.2.30265
 $noninline,id$ID<32>
-Field_1_13_2_30128_000
-Field_1_13_2_30128_001[6]
-Field_1_13_2_30128_002<32>
+ModelName
+GeoBox[6]
+FileDataID<32>
 Field_1_13_2_30128_003<16>
 Field_1_13_2_30128_004
 Field_1_13_2_30128_005

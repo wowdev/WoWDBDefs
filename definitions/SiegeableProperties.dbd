@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int DamageSpellVisualKitID
+int<SpellVisualKit::ID> DamageSpellVisualKitID
 int Flags
-int HealingSpellVisualKitID
+int<SpellVisualKit::ID> HealingSpellVisualKitID
 int Health
 
 LAYOUT C220B087, 98E42A9F

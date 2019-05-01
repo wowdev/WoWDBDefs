@@ -3,7 +3,7 @@ int ID
 int CurrencyAmount
 int CurrencyType
 int ItemLevelIncrement
-int ItemUpgradePathID
+int<ItemUpgradePath::ID> ItemUpgradePathID
 int PrerequisiteID
 
 BUILD 6.0.1.18179

@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int CreatureID
+int<Creature::ID> CreatureID
 int ExpansionID
-int FactionID
+int<Faction::ID> FactionID
 int Flags
 int MaxLevel
 int MinLevel
-int ContentTuningID
+int<ContentTuning::ID> ContentTuningID
 
 BUILD 6.0.1.18179
 $id$ID<32>

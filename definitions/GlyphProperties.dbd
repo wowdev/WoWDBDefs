@@ -5,10 +5,7 @@ int GlyphType
 int<SpellIcon::ID> SpellIconID
 int<GlyphExclusiveCategory::ID> GlyphExclusiveCategoryID
 int GlyphSlotFlags
-int Field_8_2_0_30080_000
-int Field_8_2_0_30080_001
-int Field_8_2_0_30080_002
-int Field_8_2_0_30080_003
+int SpellIconFileDataID?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -42,7 +39,7 @@ GlyphSlotFlags<32>
 LAYOUT 041F7972
 BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.30168, 8.2.0.30170, 8.2.0.30203
 $noninline,id$ID<32>
-Field_8_2_0_30080_000<u32>
-Field_8_2_0_30080_001<u8>
-Field_8_2_0_30080_002<u8>
-Field_8_2_0_30080_003<32>
+SpellID<u32>
+GlyphType<u8>
+GlyphExclusiveCategoryID<u8>
+SpellIconFileDataID<32>

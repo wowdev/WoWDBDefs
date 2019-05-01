@@ -15,7 +15,7 @@ int LevelRangeMin
 int LevelRangeMax
 int BountyDisplayLocation
 int<BountySet::ID> BountySetID
-int VisibilityPlayerConditionID
+int<PlayerCondition::ID> VisibilityPlayerConditionID
 int LeftBoundary
 int RightBoundary
 int TopBoundary

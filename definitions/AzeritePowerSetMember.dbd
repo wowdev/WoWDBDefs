@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int Class
-int AzeritePowerID
+int<AzeritePower::ID> AzeritePowerID
 int AzeritePowerSetID
 int OrderIndex
 int Tier

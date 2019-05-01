@@ -12,9 +12,6 @@ int PowerTypeEnum
 float RegenCombat
 int RegenInterruptTimeMS
 float RegenPeace
-int Field_1_13_0_28211_005
-int Field_1_13_0_28211_006
-int Field_1_13_0_28211_007
 int Field_1_13_0_28211_009
 int Field_1_13_0_28211_010
 int Field_1_13_2_30073_003 // Field_1_13_0_28211_009 probably
@@ -60,9 +57,9 @@ CostGlobalStringTag
 MaxBasePower<u32>
 RegenPeace
 RegenCombat
-Field_1_13_0_28211_005<u16>
-Field_1_13_0_28211_006<16>
-Field_1_13_0_28211_007<16>
+DisplayModifier<u16>
+RegenInterruptTimeMS<16>
+Flags<16>
 PowerTypeEnum<8>
 Field_1_13_0_28211_009<8>
 Field_1_13_0_28211_010<8>
@@ -78,8 +75,8 @@ Field_1_13_2_30073_003<8>
 MaxBasePower<u32>
 Field_1_13_2_30073_005<8>
 DefaultPower<8>
-Field_1_13_0_28211_005<u16>
-Field_1_13_0_28211_006<16>
+DisplayModifier<u16>
+RegenInterruptTimeMS<16>
 RegenPeace
 RegenCombat
-Field_1_13_0_28211_007<16>
+Flags<16>

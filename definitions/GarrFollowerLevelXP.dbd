@@ -3,7 +3,7 @@ int Field_3455184649?
 int Field_2909046062?
 int ID
 int FollowerLevel
-int GarrFollowerTypeID
+int<GarrFollowerType::ID> GarrFollowerTypeID
 int ShipmentXP
 int XpToNextLevel
 

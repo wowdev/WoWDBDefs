@@ -6,10 +6,10 @@ int Field_374087848?
 int ID
 int GarrLevel
 int GarrSiteID
-int MapID
+int<Map::ID> MapID
 int MaxBuildingLevel
 float TownHallUiPos
-int UiTextureKitID
+int<UiTextureKit::ID> UiTextureKitID
 int UpgradeCost
 int UpgradeGoldCost
 int UpgradeMovieID

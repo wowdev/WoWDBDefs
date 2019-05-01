@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int GarrEncounterID
+int<GarrEncounter::ID> GarrEncounterID
 int GarrEncounterSetID
 
 LAYOUT 3AA64423, CA7143E7

@@ -16,10 +16,10 @@ int Field_4236132424?
 int ID
 int ArenaBracket
 int CurrencyCount
-int CurrencyID
+int<CurrencyTypes::ID> CurrencyID
 int Flags
 int ItemCount
-int ItemID
+int<Item::ID> ItemID
 int MinFactionID
 int MinReputation
 int RequiredAchievement

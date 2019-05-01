@@ -6,7 +6,7 @@ int Field_3290697847?
 int Field_204285456?
 int ID
 int AllianceDoodadSet
-int GarrBuildingID
+int<GarrBuilding::ID> GarrBuildingID
 int HordeDoodadSet
 int SpecializationID
 int Type

@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int DifficultyID
+int<Difficulty::ID> DifficultyID
 int Effect
 float EffectAmplitude
 int EffectAura
@@ -20,7 +20,7 @@ int EffectSpellClassMask
 int EffectTriggerSpell
 float EffectPos_facing
 int ImplicitTarget
-int SpellID
+int<Spell::ID> SpellID
 int EffectIndex
 int EffectAttributes
 float BonusCoefficientFromAP

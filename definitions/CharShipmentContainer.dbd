@@ -1,21 +1,21 @@
 COLUMNS
 int ID
 int BaseCapacity
-int CompleteSpellVisualID
+int<SpellVisual::ID> CompleteSpellVisualID
 int CrossFactionID
 locstring Description_lang
 int Faction
 int GarrBuildingType
-int GarrTypeID
+int<GarrType::ID> GarrTypeID
 int LargeDisplayInfoID
 int LargeThreshold
 int MediumDisplayInfoID
 int MediumThreshold
 locstring PendingText_lang
 int SmallDisplayInfoID
-int UiTextureKitID
+int<UiTextureKit::ID> UiTextureKitID
 int WorkingDisplayInfoID
-int WorkingSpellVisualID
+int<SpellVisual::ID> WorkingSpellVisualID
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int CurveID
+int<Curve::ID> CurveID
 float Duration
 float FadeIn
 float FadeOut

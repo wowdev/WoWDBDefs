@@ -2,12 +2,12 @@ COLUMNS
 int ID
 int CategoryCoolDownMSec
 int Charges
-int ChrSpecializationID
+int<ChrSpecialization::ID> ChrSpecializationID
 int CoolDownMSec
 int LegacySlotIndex
 int ParentItemID
-int SpellCategoryID
-int SpellID
+int<SpellCategory::ID> SpellCategoryID
+int<Spell::ID> SpellID
 int TriggerType
 
 BUILD 6.0.1.18179

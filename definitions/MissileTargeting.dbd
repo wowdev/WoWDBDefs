@@ -2,13 +2,13 @@ COLUMNS
 int ID
 float ArcRepeat
 float ArcSpeed
-int ArcTextureFileID
+int<FileData::ID> ArcTextureFileID
 float ArcWidth
 float EndOpacity
-int ImpactModelFileID
+int<FileData::ID> ImpactModelFileID
 float ImpactRadius
 float ImpactTexRadius
-int ImpactTextureFileID
+int<FileData::ID> ImpactTextureFileID
 float MouseLingering
 float PitchLingering
 float TurnLingering

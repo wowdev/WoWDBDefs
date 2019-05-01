@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int GarrFollowerID
+int<GarrFollower::ID> GarrFollowerID
 int GarrFollowerSetID
 
 LAYOUT DB0E0A17, 621C60FF

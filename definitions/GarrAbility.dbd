@@ -4,9 +4,9 @@ int ID
 locstring Description_lang
 int FactionChangeGarrAbilityID
 int Flags
-int GarrAbilityCategoryID
-int GarrFollowerTypeID
-int IconFileDataID
+int<GarrAbilityCategory::ID> GarrAbilityCategoryID
+int<GarrFollowerType::ID> GarrFollowerTypeID
+int<FileData::ID> IconFileDataID
 locstring Name_lang
 
 BUILD 6.0.1.18179

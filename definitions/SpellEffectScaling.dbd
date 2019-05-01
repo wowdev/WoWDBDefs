@@ -3,7 +3,7 @@ int ID
 float Coefficient
 float Variance
 float ResourceCoefficient
-int SpellEffectID
+int<SpellEffect::ID> SpellEffectID
 
 BUILD 6.0.1.18179
 $id$ID<32>

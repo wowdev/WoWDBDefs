@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int BroadcastTextID
+int<BroadcastText::ID> BroadcastTextID
 int Locale
 int DurationMS
 

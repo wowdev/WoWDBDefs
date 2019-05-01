@@ -5,9 +5,9 @@ int Field_1272915570?
 int Field_2443205156?
 int ID
 int DisplayType
-int ItemID
+int<Item::ID> ItemID
 int ItemQuantity
-int PackageID
+int<Package::ID> PackageID
 
 BUILD 6.0.1.18179
 $id$ID<32>

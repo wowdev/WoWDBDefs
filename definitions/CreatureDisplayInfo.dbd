@@ -18,12 +18,12 @@ int<AnimReplacementSet::ID> AnimReplacementSetID
 int Flags
 int Gender
 int<SpellVisualKit::ID> StateSpellVisualKitID
-int DissolveEffectID
-int MountPoofSpellVisualKitID
+int<DissolveEffect::ID> DissolveEffectID
+int<SpellVisualKit::ID> MountPoofSpellVisualKitID
 float PetInstanceScale
 float PlayerOverrideScale
-int PortraitTextureFileDataID
-int TextureVariationFileDataID
+int<FileData::ID> PortraitTextureFileDataID
+int<FileData::ID> TextureVariationFileDataID
 int UnarmedWeaponType
 int CreatureModelMinLod
 int DissolveOutEffectID

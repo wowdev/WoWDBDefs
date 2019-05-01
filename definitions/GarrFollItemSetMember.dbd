@@ -4,8 +4,8 @@ int Field_3668653094?
 int Field_2344307634?
 int Field_1451174222?
 int ID
-int GarrFollItemSetID
-int ItemID
+int<GarrFollItemSet::ID> GarrFollItemSetID
+int<Item::ID> ItemID
 int ItemSlot
 int MinItemLevel
 

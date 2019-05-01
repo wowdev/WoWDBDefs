@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int BattlePetSpeciesID
-int CreatureDisplayInfoID
-int PlayerConditionID
+int<BattlePetSpecies::ID> BattlePetSpeciesID
+int<CreatureDisplayInfo::ID> CreatureDisplayInfoID
+int<PlayerCondition::ID> PlayerConditionID
 int PriorityCategory
 
 LAYOUT DE5129EA, 6F9CB092

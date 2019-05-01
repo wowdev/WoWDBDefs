@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int BattlePetSpeciesID
-int BattlePetStateID
+int<BattlePetSpecies::ID> BattlePetSpeciesID
+int<BattlePetState::ID> BattlePetStateID
 int Value
 
 BUILD 6.0.1.18179

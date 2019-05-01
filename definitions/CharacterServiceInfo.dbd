@@ -5,7 +5,7 @@ int BoostType
 int Expansion
 int Flags
 locstring FlowTitle_lang
-int IconFileDataID
+int<FileData::ID> IconFileDataID
 locstring PopupDescription_lang
 locstring PopupTitle_lang
 int PopupUITextureKitID

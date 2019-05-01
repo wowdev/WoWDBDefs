@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int GarrMechanicID
+int<GarrMechanic::ID> GarrMechanicID
 int GarrMechanicSetID
 
 LAYOUT 59514F7B, 6055F027

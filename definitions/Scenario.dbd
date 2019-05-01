@@ -2,7 +2,7 @@ COLUMNS
 int ID
 locstring Name_lang
 int Flags
-int AreaTableID
+int<AreaTable::ID> AreaTableID
 int Type
 int UiTextureKitID?
 

@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int CurveID
+int<Curve::ID> CurveID
 int DstType
 int DstVal
 int DstValType

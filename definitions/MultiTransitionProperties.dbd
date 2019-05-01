@@ -3,8 +3,8 @@ int ID
 int DurationMS
 int TransitionType
 int Flags
-int StartSpellVisualKitID
-int EndSpellVisualKitID
+int<SpellVisualKit::ID> StartSpellVisualKitID
+int<SpellVisualKit::ID> EndSpellVisualKitID
 int Field_3466805358?
 int Field_2149342792?
 int Field_1405830813?

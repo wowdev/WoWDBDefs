@@ -5,8 +5,8 @@ int CastMilliSeconds
 int Flags
 int ImpactMilliSeconds
 int RangeTypeEnum
-int SceneScriptPackageID
-int SpellVisualID
+int<SceneScriptPackage::ID> SceneScriptPackageID
+int<SpellVisual::ID> SpellVisualID
 
 BUILD 6.0.1.18179
 $id$ID<32>

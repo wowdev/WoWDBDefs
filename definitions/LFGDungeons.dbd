@@ -29,11 +29,11 @@ int Bonus_reputation_amount
 int MentorCharLevel
 int MentorItemLevel
 int FinalEncounterID
-int IconTextureFileID
+int<FileData::ID> IconTextureFileID
 float MinGear
-int PopupBgTextureFileID
+int<FileData::ID> PopupBgTextureFileID
 int Required_player_condition_ID
-int RewardsBgTextureFileID
+int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 
 BUILD 4.0.0.11792

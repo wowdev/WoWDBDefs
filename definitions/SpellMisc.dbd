@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<Spell::ID> SpellID
-int DifficultyID
+int<Difficulty::ID> DifficultyID
 int Attributes
 int CastingTimeIndex
 int DurationIndex

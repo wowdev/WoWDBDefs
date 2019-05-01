@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 locstring Text_lang
-int EmotesTextID
+int<EmotesText::ID> EmotesTextID
 int RelationshipFlags
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179

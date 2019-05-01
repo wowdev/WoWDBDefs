@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int GarrClassSpecID
-int SpellVisualID
+int<GarrClassSpec::ID> GarrClassSpecID
+int<SpellVisual::ID> SpellVisualID
 int MovementType
 float ImpactDelaySecs
 int CastKit

@@ -3,12 +3,12 @@ int ID
 locstring Name_lang
 locstring Description_lang
 int Rarity
-int ResearchBranchID
-int SpellID
+int<ResearchBranch::ID> ResearchBranchID
+int<Spell::ID> SpellID
 int NumSockets
 string Texture
 int RequiredWeight
-int TextureFileID
+int<FileData::ID> TextureFileID
 
 BUILD 6.0.1.18179
 $id$ID<32>

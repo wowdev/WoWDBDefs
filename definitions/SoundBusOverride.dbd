@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 int PlaybackLimit
-int PlayerConditionID
+int<PlayerCondition::ID> PlayerConditionID
 int Priority
 int PriorityPenalty
-int SoundBusID
+int<SoundBus::ID> SoundBusID
 float Volume
 
 LAYOUT 6D887F48, D0A073E4

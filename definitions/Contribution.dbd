@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 locstring Description_lang
-int ManagedWorldStateInputID
+int<ManagedWorldStateInput::ID> ManagedWorldStateInputID
 locstring Name_lang
 int OrderIndex
-int UiTextureAtlasMemberID
+int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int ContributionStyleContainer
 
 LAYOUT 8EDF6090, AE5BA348

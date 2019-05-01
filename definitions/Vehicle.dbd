@@ -27,9 +27,9 @@ string MsslTrgtImpactModel
 float CameraYawOffset
 int UiLocomotionType
 float MsslTrgtImpactTexRadius
-int VehicleUIIndicatorID
+int<VehicleUIIndicator::ID> VehicleUIIndicatorID
 int<PowerDisplay::ID> PowerDisplayID
-int MissileTargetingID
+int<MissileTargeting::ID> MissileTargetingID
 int PowerType
 string PowerToken
 int UiSeatIndicatorType

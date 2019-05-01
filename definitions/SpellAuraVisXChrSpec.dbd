@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int SpellAuraVisibilityID
-int ChrSpecializationID
+int<SpellAuraVisibility::ID> SpellAuraVisibilityID
+int<ChrSpecialization::ID> ChrSpecializationID
 
 BUILD 6.0.1.18179
 $id$ID<32>

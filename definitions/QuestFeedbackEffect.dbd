@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int FileDataID
+int<FileData::ID> FileDataID
 int AttachPoint
 int Minimapobject
 int Priority
@@ -8,12 +8,6 @@ int Flags
 int MinimapAtlasMemberID
 int PassiveHighlightColorType
 string Field_8_1_5_29281_000
-int Field_8_1_5_29281_001
-int Field_8_1_5_29281_002
-int Field_8_1_5_29281_003
-int Field_8_1_5_29281_004
-int Field_8_1_5_29281_005
-int Field_8_1_5_29281_006
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -37,9 +31,9 @@ LAYOUT E253C9FB
 BUILD 8.1.5.29281, 8.1.5.29310, 8.1.5.29352, 8.1.5.29385, 8.1.5.29418, 8.1.5.29484, 8.1.5.29495, 8.1.5.29558, 8.1.5.29599, 8.1.5.29620, 8.1.5.29634, 8.1.5.29664, 8.1.5.29683, 8.1.5.29701, 8.1.5.29704, 8.1.5.29705, 8.1.5.29718, 8.1.5.29732, 8.1.5.29737, 8.1.5.29814, 8.1.5.29869, 8.1.5.29896, 8.1.5.29981, 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.30168, 8.2.0.30170, 8.2.0.30203
 $noninline,id$ID<32>
 Field_8_1_5_29281_000
-Field_8_1_5_29281_001<u32>
-Field_8_1_5_29281_002<u16>
-Field_8_1_5_29281_003<u8>
-Field_8_1_5_29281_004<u8>
-Field_8_1_5_29281_005<u8>
-Field_8_1_5_29281_006<u8>
+FileDataID<u32>
+MinimapAtlasMemberID<u16>
+AttachPoint<u8>
+PassiveHighlightColorType<u8>
+Priority<u8>
+Flags<u8>

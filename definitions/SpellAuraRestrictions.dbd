@@ -10,12 +10,12 @@ int Field_657001117?
 int ID
 int CasterAuraSpell
 int CasterAuraState
-int DifficultyID
+int<Difficulty::ID> DifficultyID
 int ExcludeCasterAuraSpell
 int ExcludeCasterAuraState
 int ExcludeTargetAuraSpell
 int ExcludeTargetAuraState
-int SpellID
+int<Spell::ID> SpellID
 int TargetAuraSpell
 int TargetAuraState
 

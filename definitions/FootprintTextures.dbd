@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 string FootstepFilename
-int FileDataID
+int<FileData::ID> FileDataID
 int Flags
-int TextureBlendsetID
+int<TextureBlendSet::ID> TextureBlendsetID
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.3.3368-0.12.0.3988

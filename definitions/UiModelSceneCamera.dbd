@@ -8,7 +8,7 @@ float Pitch
 float Roll
 string ScriptTag
 float Target
-int UiModelSceneID
+int<UiModelScene::ID> UiModelSceneID
 float Yaw
 float ZoomDistance
 float ZoomedPitchOffset

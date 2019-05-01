@@ -5,7 +5,7 @@ int<Emotes::ID> EmoteID
 int<SoundEntries::ID> SoundEntriesID
 int ConditionID
 int EmoteDelay
-int EmotesID
+int<Emotes::ID> EmotesID
 int Flags
 locstring Text_lang
 locstring Text1_lang

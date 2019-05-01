@@ -4,8 +4,8 @@ int ID
 int Flags
 float MaxHeight
 float MinHeight
-int PlayerConditionID
-int QuestFeedbackEffectID
+int<PlayerCondition::ID> PlayerConditionID
+int<QuestFeedbackEffect::ID> QuestFeedbackEffectID
 int VisibleTrackingQuestID
 int VignetteType
 int RewardQuestID

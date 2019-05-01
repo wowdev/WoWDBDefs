@@ -4,7 +4,7 @@ int Field_2502177600?
 int ID
 int Reagent
 int ReagentCount
-int SpellID
+int<Spell::ID> SpellID
 
 BUILD 6.0.1.18179
 $id$ID<32>

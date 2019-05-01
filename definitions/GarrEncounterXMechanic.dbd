@@ -2,8 +2,8 @@ COLUMNS
 int Field_2870310628?
 int Field_188044474?
 int ID
-int GarrEncounterID
-int GarrMechanicID
+int<GarrEncounter::ID> GarrEncounterID
+int<GarrMechanic::ID> GarrMechanicID
 int GarrMechanicSetID
 
 BUILD 6.0.1.18179

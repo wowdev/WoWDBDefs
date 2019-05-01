@@ -10,7 +10,7 @@ int ParentSkillLineID
 int Flags
 locstring HordeDisplayName_lang
 int ParentTierIndex
-int SpellIconFileID
+int<FileData::ID> SpellIconFileID
 int SkillCostsID
 int RaceMask
 int ClassMask
@@ -33,15 +33,6 @@ int Field_1634475971?
 int Field_2094832182?
 int Field_1069689410?
 int SpellBookSpellID?
-locstring Field_8_0_1_25902_000_lang
-locstring Field_8_0_1_25902_001_lang
-locstring Field_8_0_1_25902_002_lang
-int Field_8_0_1_25902_003
-int Field_8_0_1_25902_004
-int Field_8_0_1_25902_005
-int Field_8_0_1_25902_006
-int Field_8_0_1_25902_007
-int Field_8_0_1_25902_008
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -188,12 +179,12 @@ SpellBookSpellID<32>
 LAYOUT 96FC7012
 BUILD 8.0.1.25902
 $noninline,id$ID<32>
-Field_8_0_1_25902_000_lang
-Field_8_0_1_25902_001_lang
-Field_8_0_1_25902_002_lang
-Field_8_0_1_25902_003<u16>
-Field_8_0_1_25902_004<8>
-Field_8_0_1_25902_005<8>
-Field_8_0_1_25902_006<32>
-Field_8_0_1_25902_007<u32>
-Field_8_0_1_25902_008<32>
+DisplayName_lang
+Description_lang
+AlternateVerb_lang
+Flags<u16>
+CategoryID<8>
+CanLink<8>
+SpellIconFileID<32>
+ParentSkillLineID<u32>
+ParentTierIndex<32>

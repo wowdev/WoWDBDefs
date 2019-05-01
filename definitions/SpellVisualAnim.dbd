@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int AnimKitID
+int<AnimKit::ID> AnimKitID
 int InitialAnimID
 int LoopAnimID
 

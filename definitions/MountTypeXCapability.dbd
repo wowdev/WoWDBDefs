@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int MountCapabilityID
-int MountTypeID
+int<MountCapability::ID> MountCapabilityID
+int<MountType::ID> MountTypeID
 int OrderIndex
 
 LAYOUT A34A8445, 613701E9

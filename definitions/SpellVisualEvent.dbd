@@ -3,8 +3,8 @@ int ID
 int EndEvent
 int EndMaxOffsetMs
 int EndMinOffsetMs
-int SpellVisualID
-int SpellVisualKitID
+int<SpellVisual::ID> SpellVisualID
+int<SpellVisualKit::ID> SpellVisualKitID
 int StartEvent
 int StartMaxOffsetMs
 int StartMinOffsetMs

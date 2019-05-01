@@ -24,7 +24,7 @@ float FogEnd
 float FogScaler
 float CloudDensity
 float FogDensity
-int ColorGradingFileDataID
+int<FileData::ID> ColorGradingFileDataID
 int EndFogColor
 float EndFogColorDistance
 float FogHeight

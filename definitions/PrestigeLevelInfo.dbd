@@ -1,16 +1,12 @@
 COLUMNS
 int ID
-int BadgeTextureFileDataID
+int<FileData::ID> BadgeTextureFileDataID
 int Flags
 locstring Name_lang
 int PrestigeLevel
 int HonorLevel?
 int AwardedAchievementID
-locstring Field_8_0_1_26567_000_lang
-int Field_8_0_1_26567_001
 int Field_8_0_1_26567_002
-int Field_8_0_1_26567_003
-int Field_8_0_1_26567_004
 
 LAYOUT A7B2D559, 101C7EF9
 BUILD 1.13.0.28211, 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
@@ -41,8 +37,8 @@ AwardedAchievementID<32>
 LAYOUT 8573A354
 BUILD 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
 $noninline,id$ID<32>
-Field_8_0_1_26567_000_lang
-Field_8_0_1_26567_001<32>
+Name_lang
+BadgeTextureFileDataID<32>
 Field_8_0_1_26567_002<32>
-Field_8_0_1_26567_003<u8>
-Field_8_0_1_26567_004<u8>
+PrestigeLevel<u8>
+Flags<u8>

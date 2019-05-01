@@ -11,8 +11,7 @@ string TextureFilename
 int Priority
 int CalendarFilterType
 int Flags
-int TextureFileDataID
-int Field_1_13_2_30073_000
+int<FileData::ID> TextureFileDataID
 int Field_1_13_2_30073_001
 int Field_1_13_2_30073_002
 int Field_1_13_2_30073_003
@@ -21,10 +20,6 @@ int Field_1_13_2_30073_005
 int Field_1_13_2_30073_006
 int Field_1_13_2_30073_007
 int Field_1_13_2_30073_008
-int Field_1_13_2_30073_009
-int Field_1_13_2_30073_010
-int Field_1_13_2_30073_011
-int Field_1_13_2_30073_012
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -72,7 +67,7 @@ TextureFileDataID<32>[3]
 
 LAYOUT DC1A500C
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13.2.30232, 1.13.2.30265
-$id$Field_1_13_2_30073_000<32>
+$id$ID<32>
 Field_1_13_2_30073_001<u16>
 Field_1_13_2_30073_002<u8>
 Field_1_13_2_30073_003<u32>
@@ -81,7 +76,7 @@ Field_1_13_2_30073_005<u8>
 Field_1_13_2_30073_006<8>
 Field_1_13_2_30073_007<u8>
 Field_1_13_2_30073_008<u32>
-Field_1_13_2_30073_009<u16>[10]
-Field_1_13_2_30073_010<u32>[16]
-Field_1_13_2_30073_011<u8>[10]
-Field_1_13_2_30073_012<32>[3]
+Duration<u16>[10]
+Date<u32>[16]
+CalendarFlags<u8>[10]
+TextureFileDataID<32>[3]

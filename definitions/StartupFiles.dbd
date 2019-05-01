@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int BytesRequired
-int FileDataID
+int<FileData::ID> FileDataID
 int Locale
 
 LAYOUT 51FEBBB5, F1381769

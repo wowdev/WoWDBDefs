@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int SpellID
+int<Spell::ID> SpellID
 int Type
 int Flags
 

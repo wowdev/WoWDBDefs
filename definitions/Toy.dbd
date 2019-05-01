@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int Flags
-int ItemID
+int<Item::ID> ItemID
 locstring SourceText_lang
 int SourceTypeEnum
 

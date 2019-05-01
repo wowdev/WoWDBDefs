@@ -6,7 +6,7 @@ int OrderIndex
 int<FileData::ID> FileDataID
 locstring Name_lang
 locstring Description_lang
-int UiModelSceneID
+int<UiModelScene::ID> UiModelSceneID
 
 BUILD 6.0.1.18179
 $id$ID<32>

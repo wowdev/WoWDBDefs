@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 int DurationSecs
-int GarrAbilityID
-int GarrFollowerTypeID
-int GarrMissionTextureID
+int<GarrAbility::ID> GarrAbilityID
+int<GarrFollowerType::ID> GarrFollowerTypeID
+int<GarrMissionTexture::ID> GarrMissionTextureID
 float Radius
 
 LAYOUT 35F5AE92, 3E340996

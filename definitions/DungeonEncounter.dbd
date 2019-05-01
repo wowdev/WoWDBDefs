@@ -8,7 +8,7 @@ locstring Name_lang
 int<CreatureDisplayInfo::ID> CreatureDisplayID
 int<SpellIcon::ID> SpellIconID
 int Flags
-int SpellIconFileID
+int<FileData::ID> SpellIconFileID
 int Difficulty
 int Field_8_1_0_28294_009
 int Field_8_1_5_29281_005

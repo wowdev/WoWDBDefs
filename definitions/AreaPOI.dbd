@@ -16,7 +16,7 @@ int<WorldSafeLocs::ID> PortLocID
 int MapFloor
 int PoiData
 int PoiDataType
-int UiTextureAtlasMemberID
+int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int WMOGroupID
 int UiWidgetParentSetID?
 int Field_8_1_5_28938_015

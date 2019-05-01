@@ -9,7 +9,7 @@ int ID
 float EmissionRate
 int Flags
 int LifeTime
-int ModelFileDataID
+int<FileData::ID> ModelFileDataID
 float ModelScale
 float Spacing
 string Name

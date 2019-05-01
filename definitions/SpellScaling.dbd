@@ -9,7 +9,7 @@ int NerfMaxLevel
 int MaxScalingLevel
 int ScalesFromItemLevel
 int MinScalingLevel
-int SpellID
+int<Spell::ID> SpellID
 float Coefficient
 float Variance
 float ComboPointsCoefficient

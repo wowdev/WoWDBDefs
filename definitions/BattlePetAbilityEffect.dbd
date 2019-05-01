@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 int AuraBattlePetAbilityID
-int BattlePetAbilityTurnID
-int BattlePetEffectPropertiesID
-int BattlePetVisualID
+int<BattlePetAbilityTurn::ID> BattlePetAbilityTurnID
+int<BattlePetEffectProperties::ID> BattlePetEffectPropertiesID
+int<BattlePetVisual::ID> BattlePetVisualID
 int OrderIndex
 int Param
 

@@ -22,43 +22,29 @@ int StartingLevel
 int Required_expansion
 int PlayerClass
 int DamageBonusStat
-string Field_1_13_0_28211_004
 int Field_1_13_0_28211_005
 int Field_1_13_0_28211_006
 int Field_1_13_0_28211_007
 int Field_1_13_0_28211_008
-int Field_1_13_0_28211_009
 int Field_1_13_0_28211_010
 int Field_1_13_0_28211_011
 int Field_1_13_0_28211_012
-int Field_1_13_0_28211_013
 int Field_1_13_0_28211_015
 int Field_1_13_0_28211_016
 int Field_1_13_0_28211_017
-int Field_1_13_0_28211_018
 int Field_1_13_0_28211_019
 int SpellTextureBlobFileDataID?
-locstring Field_1_13_2_30073_000_lang
-string Field_1_13_2_30073_001
-locstring Field_1_13_2_30073_002_lang
-locstring Field_1_13_2_30073_003_lang
-string Field_1_13_2_30073_004
-int Field_1_13_2_30073_005
 int Field_1_13_2_30073_006
 int Field_1_13_2_30073_007
 int Field_1_13_2_30073_008
 int Field_1_13_2_30073_009
-int Field_1_13_2_30073_010
 int Field_1_13_2_30073_011
 int Field_1_13_2_30073_012
 int Field_1_13_2_30073_013
 int Field_1_13_2_30073_014
-int Field_1_13_2_30073_015
 int Field_1_13_2_30073_016
 int Field_1_13_2_30073_017
 int Field_1_13_2_30073_018
-int Field_1_13_2_30073_019
-int Field_1_13_2_30073_020
 
 BUILD 6.0.1.18179
 BUILD 5.0.4.16016-5.4.8.18414
@@ -110,21 +96,21 @@ PetNameToken
 Name_lang
 Name_female_lang
 Name_male_lang
-Field_1_13_0_28211_004
+Filename
 Field_1_13_0_28211_005<u32>
 Field_1_13_0_28211_006<u32>
 Field_1_13_0_28211_007<u32>
 Field_1_13_0_28211_008<u32>
-Field_1_13_0_28211_009<32>
+StartingLevel<32>
 Field_1_13_0_28211_010<u16>
 Field_1_13_0_28211_011<u16>
 Field_1_13_0_28211_012<u16>
-Field_1_13_0_28211_013<u8>
+DisplayPower<u8>
 SpellClassSet<u8>
 Field_1_13_0_28211_015<u8>
 Field_1_13_0_28211_016<u8>
 Field_1_13_0_28211_017<u8>
-Field_1_13_0_28211_018<u8>
+Flags<u8>
 Field_1_13_0_28211_019<u8>
 $id$ID<32>
 
@@ -262,24 +248,24 @@ SpellClassSet<u8>
 
 LAYOUT 9A959A79
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13.2.30232, 1.13.2.30265
-Field_1_13_2_30073_000_lang
-Field_1_13_2_30073_001
-Field_1_13_2_30073_002_lang
-Field_1_13_2_30073_003_lang
-Field_1_13_2_30073_004
-$id$Field_1_13_2_30073_005<32>
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
+$id$ID<32>
 Field_1_13_2_30073_006<u32>
 Field_1_13_2_30073_007<u32>
 Field_1_13_2_30073_008<u32>
 Field_1_13_2_30073_009<u32>
-Field_1_13_2_30073_010<32>
+StartingLevel<32>
 Field_1_13_2_30073_011<u16>
 Field_1_13_2_30073_012<u16>
 Field_1_13_2_30073_013<u16>
 Field_1_13_2_30073_014<u8>
-Field_1_13_2_30073_015<u8>
+DisplayPower<u8>
 Field_1_13_2_30073_016<u8>
 Field_1_13_2_30073_017<u8>
 Field_1_13_2_30073_018<u8>
-Field_1_13_2_30073_019<u8>
-Field_1_13_2_30073_020<u8>
+SpellClassSet<u8>
+Flags<u8>

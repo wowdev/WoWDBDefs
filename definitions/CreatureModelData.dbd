@@ -29,8 +29,8 @@ float OverrideSelectionRadius
 float TamedPetBaseScale
 int CreatureGeosetDataID
 float HoverHeight
-int DeathThudCameraEffectID
-int FootstepCameraEffectID
+int<CameraEffect::ID> DeathThudCameraEffectID
+int<CameraEffect::ID> FootstepCameraEffectID
 float GeoBox
 string ModelName
 float GeoBoxMinX

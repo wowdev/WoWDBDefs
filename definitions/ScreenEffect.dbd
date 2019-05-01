@@ -3,15 +3,15 @@ int ID
 string Name
 int Effect
 int Param
-int LightParamsID
+int<LightParams::ID> LightParamsID
 int LightParamsFadeIn
 int LightParamsFadeOut
 int LightFlags
-int SoundAmbienceID
-int ZoneMusicID
+int<SoundAmbience::ID> SoundAmbienceID
+int<ZoneMusic::ID> ZoneMusicID
 int TimeOfDayOverride
 int EffectMask
-int FullScreenEffectID
+int<FullScreenEffect::ID> FullScreenEffectID
 
 BUILD 6.0.1.18179
 $id$ID<32>

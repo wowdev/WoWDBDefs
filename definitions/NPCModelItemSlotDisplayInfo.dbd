@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ItemDisplayInfoID
+int<ItemDisplayInfo::ID> ItemDisplayInfoID
 int ItemSlot
 int NpcModelID
 
