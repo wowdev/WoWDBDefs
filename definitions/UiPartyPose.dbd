@@ -3,8 +3,8 @@ int ID
 int<Map::ID> MapID
 int<UiModelScene::ID> UiModelSceneID
 int UiWidgetSetID
-int VictoryUiModelSceneID
-int DefeatUiModelSceneID
+int<UiModelScene::ID> VictoryUiModelSceneID
+int<UiModelScene::ID> DefeatUiModelSceneID
 int VictorySoundKitID
 int DefeatSoundKitID
 

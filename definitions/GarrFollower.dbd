@@ -15,7 +15,7 @@ int Field_1918779027?
 int Field_2382526395?
 int Field_2003574378?
 int ID
-int AllianceCreatureID
+int<Creature::ID> AllianceCreatureID
 int AllianceFlavorGarrStringID
 int AllianceGarrClassSpecID
 int AllianceGarrFollItemSetID
@@ -23,7 +23,7 @@ int AllianceGarrFollRaceID
 int<FileData::ID> AllianceIconFileDataID
 locstring AllianceSourceText_lang
 int AllianceSourceTypeEnum
-int AllianceUITextureKitID
+int<UiTextureKit::ID> AllianceUITextureKitID
 int AllySlottingBroadcastTextID
 int ChrClassID
 int Flags
@@ -31,7 +31,7 @@ int FollowerLevel
 int<GarrFollowerType::ID> GarrFollowerTypeID
 int<GarrType::ID> GarrTypeID
 int Gender
-int HordeCreatureID
+int<Creature::ID> HordeCreatureID
 int HordeFlavorGarrStringID
 int HordeGarrClassSpecID
 int HordeGarrFollItemSetID
@@ -40,7 +40,7 @@ int<FileData::ID> HordeIconFileDataID
 int HordeSlottingBroadcastTextID
 locstring HordeSourceText_lang
 int HordeSourceTypeEnum
-int HordeUITextureKitID
+int<UiTextureKit::ID> HordeUITextureKitID
 int ItemLevelArmor
 int ItemLevelWeapon
 int Quality

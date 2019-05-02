@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Item::ID> Item?
 int<Spell::ID> BuffSpell?
-int Field_8_2_0_30080_002
+int Field_8_2_0_30080_002?
 int<Spell::ID> LearnedBySpell?
 
 LAYOUT 5182BFF6

@@ -1,7 +1,7 @@
 COLUMNS
 locstring Name_lang
 int ID
-int TrackingQuestID
+int<QuestV2::ID> TrackingQuestID
 
 BUILD 6.0.1.18179
 $id$ID<32>

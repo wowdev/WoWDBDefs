@@ -6,9 +6,9 @@ float MaxHeight
 float MinHeight
 int<PlayerCondition::ID> PlayerConditionID
 int<QuestFeedbackEffect::ID> QuestFeedbackEffectID
-int VisibleTrackingQuestID
+int<QuestV2::ID> VisibleTrackingQuestID
 int VignetteType
-int RewardQuestID
+int<QuestV2::ID> RewardQuestID
 
 BUILD 6.0.1.18179
 $id$ID<32>

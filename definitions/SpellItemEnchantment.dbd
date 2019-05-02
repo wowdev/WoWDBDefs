@@ -9,7 +9,7 @@ int ItemVisual
 int Flags
 int Src_itemID
 int Condition_ID
-int RequiredSkillID
+int<SkillLine::ID> RequiredSkillID
 int RequiredSkillRank
 int MinLevel
 int MaxLevel

@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int ExpansionID
 int Flags
-int MapIDs
+int<Map::ID> MapIDs
 int<CurrencyTypes::ID> PrimaryCurrencyTypeID
 int<CurrencyTypes::ID> SecondaryCurrencyTypeID
 

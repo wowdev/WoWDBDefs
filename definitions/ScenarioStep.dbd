@@ -6,9 +6,9 @@ int OrderIndex
 locstring Description_lang
 locstring Title_lang
 int Flags
-int RelatedStep
-int Supersedes
-int RewardQuestID
+int<ScenarioStep::ID> RelatedStep
+int<ScenarioStep::ID> Supersedes
+int<QuestV2::ID> RewardQuestID
 int<PlayerCondition::ID> VisibilityPlayerConditionID
 int WidgetSetID
 

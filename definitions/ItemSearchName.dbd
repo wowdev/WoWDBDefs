@@ -6,12 +6,12 @@ locstring Display_lang
 int ExpansionID
 int Flags
 int ItemLevel
-int MinFactionID
+int<Faction::ID> MinFactionID
 int MinReputation
 int OverallQualityID
 int RequiredAbility
 int RequiredLevel
-int RequiredSkill
+int<SkillLine::ID> RequiredSkill
 int RequiredSkillRank
 
 LAYOUT 2D4B72FA, 251C9AAA

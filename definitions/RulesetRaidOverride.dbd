@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int MapID
-int DifficultyID
+int<Map::ID> MapID
+int<Difficulty::ID> DifficultyID
 int RulesetID
 int SharedLock
 int Raidduration

@@ -3,7 +3,7 @@ int ID
 int BonusActionBar
 locstring Name_lang
 int Flags
-int CreatureType
+int<CreatureType::ID> CreatureType
 int AttackIconID
 int CombatRoundTime
 int<CreatureDisplayInfo::ID> CreatureDisplayID

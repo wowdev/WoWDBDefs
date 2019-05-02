@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int Volume
-int KeyID
+int<TactKey::ID> KeyID
 int<FileData::ID> AudioFileDataID
 int<FileData::ID> SubtitleFileDataID
 string Filename

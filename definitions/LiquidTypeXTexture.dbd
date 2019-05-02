@@ -3,7 +3,7 @@ int ID
 int<FileData::ID> FileDataID
 int OrderIndex
 int<LiquidType::ID> LiquidTypeID
-int Field_8_1_0_28202_002 // something with a type or separator. there are -1 everywhere when fdid is 0 and upcoming "order"s are special textures
+int Field_8_1_0_28202_002? // something with a type or separator. there are -1 everywhere when fdid is 0 and upcoming "order"s are special textures
 
 LAYOUT 7DADCCB8
 BUILD 8.1.0.27826, 8.1.0.27934, 8.1.0.27985, 8.1.0.28048, 8.1.0.28085, 8.1.0.28151, 8.1.0.28186

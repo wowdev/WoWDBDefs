@@ -111,7 +111,7 @@ int DefenseType
 int PreventionType
 int StanceBarOrder
 float EffectChainAmplitude
-int MinFactionID
+int<Faction::ID> MinFactionID
 int MinReputation
 int RequiredAuraVision
 int<TotemCategory::ID> RequiredTotemCategoryID

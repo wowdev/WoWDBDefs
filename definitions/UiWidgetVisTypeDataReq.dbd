@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int VisType? // 0=IconAndText, 1=CaptureBar, 3=DoubleStatusBar, …
 int ValueType? // 0=int, 1=string
-int Field_8_1_5_28938_002
+int Field_8_1_5_28938_002?
 string Name?
 int Default?
 

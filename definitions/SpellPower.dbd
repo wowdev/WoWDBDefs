@@ -22,7 +22,7 @@ float PowerCostMaxPct
 float PowerCostPct
 int<PowerDisplay::ID> PowerDisplayID
 float PowerPctPerSecond
-int PowerType
+int<PowerType::PowerTypeEnum> PowerType
 int<Spell::ID> RequiredAuraSpellID
 int<Spell::ID> SpellID
 

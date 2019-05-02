@@ -10,7 +10,7 @@ int<Map::ID> MapID
 int<Difficulty::ID> DifficultyID
 int Flags
 int TypeID
-int Faction
+int<Faction::ID> Faction
 string TextureFilename
 int ExpansionLevel
 int Order_index

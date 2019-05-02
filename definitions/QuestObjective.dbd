@@ -5,7 +5,7 @@ locstring Description_lang
 int Flags
 int ObjectID
 int OrderIndex
-int QuestID
+int<QuestV2::ID> QuestID
 int StorageIndex
 int Type
 

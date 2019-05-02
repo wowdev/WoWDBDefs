@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int OrderIndex
-int QuestID
+int<QuestV2::ID> QuestID
 int<QuestLine::ID> QuestLineID
 
 BUILD 6.0.1.18179

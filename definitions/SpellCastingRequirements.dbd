@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int FacingCasterFlags
-int MinFactionID
+int<Faction::ID> MinFactionID
 int MinReputation
 int RequiredAreasID
 int RequiredAuraVision

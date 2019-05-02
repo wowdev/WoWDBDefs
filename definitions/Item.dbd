@@ -13,19 +13,19 @@ int<ItemClass::ID> ClassID
 int<FileData::ID> IconFileDataID
 int InventoryType
 int<ItemGroupSounds::ID> ItemGroupSoundsID
-int Material
+int<Material::ID> Material
 int SheatheType
 int Sound_override_subclassID
 int SubclassID
 int DisplayInfoID
-int Field_1_13_0_28211_001
-int Field_1_13_2_30073_004
-int Field_1_13_2_30073_005
-int Field_1_13_2_30073_010
-int Field_1_13_2_30073_011
-int Field_1_13_2_30073_012
-int Field_1_13_2_30073_013
-int Field_1_13_2_30073_014
+int Field_1_13_0_28211_001?
+int Field_1_13_2_30073_004?
+int Field_1_13_2_30073_005?
+int Field_1_13_2_30073_010?
+int Field_1_13_2_30073_011?
+int Field_1_13_2_30073_012?
+int Field_1_13_2_30073_013?
+int Field_1_13_2_30073_014?
 
 BUILD 6.0.1.18179
 $id$ID<32>

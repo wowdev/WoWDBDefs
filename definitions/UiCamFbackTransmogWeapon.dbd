@@ -1,8 +1,8 @@
 COLUMNS
 int ID
 int InventoryType
-int ItemClass
-int ItemSubclass
+int<ItemClass::ID> ItemClass
+int<ItemSubClass::ID> ItemSubclass
 int<UiCamera::ID> UiCameraID
 
 LAYOUT 020890B7, 62B21407

@@ -3,7 +3,7 @@ int ID
 int<BountySet::ID> BountySetID
 int<Faction::ID> FactionID
 int<FileData::ID> IconFileDataID
-int QuestID
+int<QuestV2::ID> QuestID
 int<PlayerCondition::ID> TurninPlayerConditionID
 
 LAYOUT E76E716C, A0B353D0

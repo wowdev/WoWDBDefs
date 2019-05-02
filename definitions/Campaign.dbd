@@ -4,7 +4,7 @@ string FactionTitle?
 locstring Description_lang?
 int ID?
 int<UiTextureKit::ID> UiTextureKitID?
-int RewardQuestID
+int<QuestV2::ID> RewardQuestID
 int<PlayerCondition::ID> PlayerConditionID?
 
 LAYOUT 0B271FD9
