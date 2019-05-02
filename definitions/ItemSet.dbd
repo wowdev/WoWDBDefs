@@ -2,7 +2,7 @@ COLUMNS
 int ID
 locstring Name_lang
 int<Item::ID> ItemID
-int RequiredSkill
+int<SkillLine::ID> RequiredSkill
 int RequiredSkillRank
 int SetFlags
 int<Spell::ID> SetSpellID

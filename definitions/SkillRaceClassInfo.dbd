@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int SkillID
+int<SkillLine::ID> SkillID
 int RaceMask
 int ClassMask
 int Flags

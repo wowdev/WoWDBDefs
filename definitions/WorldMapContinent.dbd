@@ -9,7 +9,7 @@ float ContinentOffset
 float Scale
 float TaxiMin
 float TaxiMax
-int WorldMapID
+int<WorldMapArea::ID> WorldMapID
 int Flags
 float ContinentOffsetX
 float ContinentOffsetY

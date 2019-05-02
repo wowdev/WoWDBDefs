@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Faction::ID> Faction
 int Flags
-int FactionGroup
+int<FactionGroup::ID> FactionGroup
 int FriendGroup
 int EnemyGroup
 int<Faction::ID> Enemies

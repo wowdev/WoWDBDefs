@@ -4,11 +4,11 @@ string Field_4173975148?
 int ID
 int AlwaysItem
 int Classification
-int CreatureFamily
-int CreatureType
-int DisplayID
+int<CreatureFamily::ID> CreatureFamily
+int<CreatureType::ID> CreatureType
+int<CreatureDisplayInfo::ID> DisplayID
 float DisplayProbability
-int MountCreatureID
+int<Creature::ID> MountCreatureID
 locstring Name_lang
 locstring NameAlt_lang
 int StartAnimState

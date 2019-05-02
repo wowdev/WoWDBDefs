@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Faction
+int<Faction::ID> Faction
 int<Map::ID> Instance_ID
 int<Achievement::ID> Supercedes
 locstring Title_lang
@@ -15,7 +15,7 @@ int Minimum_criteria
 int<Achievement::ID> Shares_criteria
 int<CriteriaTree::ID> Criteria_tree
 int<FileData::ID> IconFileID
-int Field_8_1_0_28616_013
+int Field_8_1_0_28616_013?
 
 BUILD 6.0.1.18179
 $id$ID<32>

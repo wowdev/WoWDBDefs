@@ -3,7 +3,7 @@ int ID
 int<Map::ID> ContinentID
 float Pos
 locstring Name_lang
-int MountCreatureID
+int<Creature::ID> MountCreatureID
 int ConditionID
 int Flags
 float MapOffset

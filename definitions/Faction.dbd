@@ -13,7 +13,7 @@ locstring Description_lang
 int Expansion
 int Flags
 int<FriendshipReputation::ID> FriendshipRepID
-int ParagonFactionID
+int<Faction::ID> ParagonFactionID
 int ReputationMax
 
 BUILD 6.0.1.18179

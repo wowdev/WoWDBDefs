@@ -1,7 +1,7 @@
 COLUMNS
 locstring Name_lang
 int ID
-int QuestID?
+int<QuestV2::ID> QuestID?
 locstring Description_lang?
 
 BUILD 6.0.1.18179

@@ -5,7 +5,7 @@ int<Map::ID> MapID
 int<WorldMapArea::ID> WorldMapAreaID
 int Floor
 int ObjectiveIndex
-int QuestID
+int<QuestV2::ID> QuestID
 int<PlayerCondition::ID> PlayerConditionID
 int<UiMap::ID> UiMapID
 

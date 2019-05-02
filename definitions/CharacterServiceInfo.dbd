@@ -8,7 +8,7 @@ locstring FlowTitle_lang
 int<FileData::ID> IconFileDataID
 locstring PopupDescription_lang
 locstring PopupTitle_lang
-int PopupUITextureKitID
+int<UiTextureKit::ID> PopupUITextureKitID
 int Priority
 int ProfessionLevel
 

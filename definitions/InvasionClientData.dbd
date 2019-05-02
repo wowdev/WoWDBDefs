@@ -6,7 +6,7 @@ int InvasionEnabledWorldStateID
 locstring Name_lang
 int<Scenario::ID> ScenarioID
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
-int WorldQuestID
+int<QuestV2::ID> WorldQuestID
 int<WorldState::ID> WorldStateID
 int WorldStateValue
 

@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-int CardUIModelSceneID
+int<UiModelScene::ID> CardUIModelSceneID
 int<Creature::ID> CreatureID
 locstring Description_lang
 int Flags
 int<FileData::ID> IconFileDataID
-int LoadoutUIModelSceneID
+int<UiModelScene::ID> LoadoutUIModelSceneID
 int PetTypeEnum
 locstring SourceText_lang
 int SourceTypeEnum
-int SummonSpellID
+int<Spell::ID> SummonSpellID
 
 BUILD 6.0.1.18179
 $id$ID<32>

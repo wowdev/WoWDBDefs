@@ -1,6 +1,6 @@
 COLUMNS
 int<ChrClasses::ID> ClassID
-int PowerType
+int<PowerType::PowerTypeEnum> PowerType
 int ID
 
 BUILD 6.0.1.18179
