@@ -3,7 +3,7 @@ int ID
 int Flags
 int RaceMask
 int ClassMask
-int SpellIconID
+int<SpellIcon::ID> SpellIconID
 locstring Name_lang
 locstring Description_lang
 int<FileData::ID> SpellIconFileID

@@ -29,8 +29,8 @@ int AnimEventSoundID
 int CasterSpellVisualID
 int DamageNumberDelay
 int Flags
-int HostileSpellVisualID
-int LowViolenceSpellVisualID
+int<SpellVisual::ID> HostileSpellVisualID
+int<SpellVisual::ID> LowViolenceSpellVisualID
 int MissileAttachment
 float MissileCastOffset
 int MissileCastPositionerID

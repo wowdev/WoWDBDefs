@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 locstring Name_lang
-int SpellIconID
+int<SpellIcon::ID> SpellIconID
 int RaceMask
 int ClassMask
 int PetTalentMask

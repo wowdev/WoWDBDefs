@@ -30,9 +30,6 @@ float PvpMultiplier
 float ResourceCoefficient
 float Variance
 float EffectBasePointsF
-int Field_1_13_2_30073_000?
-int Field_1_13_2_30073_001?
-int Field_1_13_2_30073_002?
 float Field_1_13_2_30073_003?
 int Field_1_13_2_30073_004?
 int Field_1_13_2_30073_005?
@@ -47,7 +44,6 @@ int Field_1_13_2_30073_013?
 float Field_1_13_2_30073_014?
 float Field_1_13_2_30073_015?
 float Field_1_13_2_30073_016?
-int Field_1_13_2_30073_017?
 float Field_1_13_2_30073_018?
 float Field_1_13_2_30073_019?
 float Field_1_13_2_30073_020?
@@ -57,8 +53,6 @@ float Field_1_13_2_30073_023?
 int Field_1_13_2_30073_024?
 int Field_1_13_2_30073_025?
 int Field_1_13_2_30073_026?
-int Field_1_13_2_30073_027?
-int Field_1_13_2_30073_028?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -253,9 +247,9 @@ $noninline,relation$SpellID<32>
 LAYOUT D6EA6A1A
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13.2.30232, 1.13.2.30265, 1.13.2.30287
 $noninline,id$ID<32>
-Field_1_13_2_30073_000<32>
-Field_1_13_2_30073_001<32>
-Field_1_13_2_30073_002<u32>
+DifficultyID<32>
+EffectIndex<32>
+Effect<u32>
 Field_1_13_2_30073_003
 Field_1_13_2_30073_004<32>
 Field_1_13_2_30073_005<16>
@@ -270,7 +264,7 @@ Field_1_13_2_30073_013<32>
 Field_1_13_2_30073_014
 Field_1_13_2_30073_015
 Field_1_13_2_30073_016
-Field_1_13_2_30073_017<32>
+EffectTriggerSpell<32>
 Field_1_13_2_30073_018
 Field_1_13_2_30073_019
 Field_1_13_2_30073_020
@@ -280,5 +274,5 @@ Field_1_13_2_30073_023
 Field_1_13_2_30073_024<32>[2]
 Field_1_13_2_30073_025<u32>[2]
 Field_1_13_2_30073_026<32>[4]
-Field_1_13_2_30073_027<16>[2]
-$noninline,relation$Field_1_13_2_30073_028<32>
+ImplicitTarget<16>[2]
+$noninline,relation$SpellID<32>
