@@ -46,7 +46,7 @@ int Padding_3020562985?
 int RenderLayer
 float TextureLength
 float WavePhase
-int SpellChainEffectID
+int<SpellChainEffects::ID> SpellChainEffectID
 string Texture
 float EndWidth
 int NumFlipFramesU

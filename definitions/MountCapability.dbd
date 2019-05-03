@@ -2,10 +2,10 @@ COLUMNS
 int ID
 int Flags
 int ReqRidingSkill
-int ReqAreaID
-int ReqSpellAuraID
-int ReqSpellKnownID
-int ModSpellAuraID
+int<AreaTable::ID> ReqAreaID
+int<Spell::ID> ReqSpellAuraID
+int<Spell::ID> ReqSpellKnownID
+int<Spell::ID> ModSpellAuraID
 int<Map::ID> ReqMapID
 
 BUILD 6.0.1.18179

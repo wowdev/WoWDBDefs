@@ -6,7 +6,7 @@ locstring Description_lang
 int SpellIconID
 locstring AlternateVerb_lang
 int CanLink
-int ParentSkillLineID
+int<SkillLine::ID> ParentSkillLineID
 int Flags
 locstring HordeDisplayName_lang
 int ParentTierIndex
