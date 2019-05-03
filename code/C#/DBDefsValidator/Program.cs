@@ -12,7 +12,7 @@ namespace DBDefsTest
 
         static void Main(string[] args)
         {
-            if(args.Length < 1)
+            if (args.Length < 1)
             {
                 Console.WriteLine("Usage: <definitionsdir>");
                 Environment.Exit(1);
@@ -21,14 +21,12 @@ namespace DBDefsTest
             var definitionDir = args[0];
 
             var rewrite = false;
+            var verbose = true;
 
-            if (args.Length == 2)
-            {
-                if (args[1] == "true")
-                {
-                    rewrite = true;
-                }
-            }
+            if (args.Length >= 2 && args[1] == "true")
+                rewrite = true;
+            if (args.Length >= 3 && args[2] == "false")
+                verbose = false;
 
             foreach (var file in Directory.GetFiles(definitionDir))
             {
@@ -37,7 +35,9 @@ namespace DBDefsTest
                 var reader = new DBDReader();
                 definitionCache.Add(dbName, reader.Read(file, true));
 
-                Console.WriteLine("Read " + definitionCache[dbName].versionDefinitions.Length + " versions and " + definitionCache[dbName].columnDefinitions.Count + " columns for " + dbName);
+                if (verbose)
+                    Console.WriteLine("Read " + definitionCache[dbName].versionDefinitions.Length + " versions and " + definitionCache[dbName].columnDefinitions.Count + " columns for " + dbName);
+
                 if (rewrite)
                 {
                     var writer = new DBDWriter();
@@ -50,13 +50,13 @@ namespace DBDefsTest
             var errorEncountered = false;
 
             var foreignKeys = 0;
-            foreach(var definition in definitionCache)
+            foreach (var definition in definitionCache)
             {
-                foreach(var columnDefinition in definition.Value.columnDefinitions)
+                foreach (var columnDefinition in definition.Value.columnDefinitions)
                 {
                     if (!string.IsNullOrEmpty(columnDefinition.Value.foreignTable) || !string.IsNullOrEmpty(columnDefinition.Value.foreignColumn))
                     {
-                        if(definitionCache.ContainsKey(columnDefinition.Value.foreignTable) && definitionCache[columnDefinition.Value.foreignTable].columnDefinitions.ContainsKey(columnDefinition.Value.foreignColumn))
+                        if (definitionCache.ContainsKey(columnDefinition.Value.foreignTable) && definitionCache[columnDefinition.Value.foreignTable].columnDefinitions.ContainsKey(columnDefinition.Value.foreignColumn))
                         {
                             Console.ForegroundColor = ConsoleColor.Green;
                             //Console.WriteLine(definition.Key + "." + columnDefinition.Key + " has a foreign key to " + columnDefinition.Value.foreignTable + "." + columnDefinition.Value.foreignColumn);
