@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int Field_8_2_0_30080_000?
+int<UITextureAtlasElement::ID> UITextureAtlasElementID?
 
 LAYOUT 20426A95
 BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.30168, 8.2.0.30170, 8.2.0.30203, 8.2.0.30262, 8.2.0.30329
 $noninline,id$ID<32>
-Field_8_2_0_30080_000<32>[10]
+UITextureAtlasElementID<32>[10] # [BottomOuter, BottomInner, BottomFill, LeftBookend, LeftBackground, LeftInner, RightBackground, SideFill, Gradient, BottomLeftInner]
