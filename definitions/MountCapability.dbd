@@ -7,6 +7,15 @@ int<Spell::ID> ReqSpellAuraID
 int<Spell::ID> ReqSpellKnownID
 int<Spell::ID> ModSpellAuraID
 int<Map::ID> ReqMapID
+int Field_8_2_0_30430_000?
+int Field_8_2_0_30430_001?
+int Field_8_2_0_30430_002?
+int Field_8_2_0_30430_003?
+int Field_8_2_0_30430_004?
+int Field_8_2_0_30430_005?
+int Field_8_2_0_30430_006?
+int Field_8_2_0_30430_007?
+int Field_8_2_0_30430_008?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -39,3 +48,15 @@ ReqSpellAuraID<u32>
 ReqSpellKnownID<32>
 ModSpellAuraID<32>
 ReqMapID<16>
+
+LAYOUT 46ED6D7E
+BUILD 8.2.0.30430
+$id$Field_8_2_0_30430_000<32>
+Field_8_2_0_30430_001<u8>
+Field_8_2_0_30430_002<u16>
+Field_8_2_0_30430_003<u16>
+Field_8_2_0_30430_004<u32>
+Field_8_2_0_30430_005<32>
+Field_8_2_0_30430_006<32>
+Field_8_2_0_30430_007<16>
+Field_8_2_0_30430_008<32>
