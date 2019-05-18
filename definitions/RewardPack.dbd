@@ -3,7 +3,7 @@ int ID
 int ArtifactXPCategoryID
 int ArtifactXPDifficulty
 float ArtifactXPMultiplier
-int CharTitleID
+int<CharTitles::ID> CharTitleID
 int Money
 int TreasurePickerID
 

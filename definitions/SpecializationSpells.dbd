@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int SpecID
+int<ChrSpecialization::ID> SpecID
 int<Spell::ID> SpellID
 int<Spell::ID> OverridesSpellID
 locstring Description_lang

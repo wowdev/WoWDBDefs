@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int Flags
-int FizzleSoundID
+int<SoundKit::ID> FizzleSoundID
 locstring Name_lang
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179

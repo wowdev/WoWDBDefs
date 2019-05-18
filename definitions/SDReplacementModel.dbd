@@ -1,5 +1,5 @@
 COLUMNS
-int ID
+int<FileData::ID> ID
 int<FileData::ID> SdFileDataID
 
 LAYOUT E1F906C2, D9C05976
