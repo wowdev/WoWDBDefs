@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int Flags
+int Flags // 4: Non-Scaling? 8: BfA Horde Zones?, 16: BfA Alliance Zones?
 int MaxLevel
 int MinLevel
-int<ExpectedStatMod::ID> ExpectedStatModID
+int<ExpectedStatMod::ID> ExpectedStatModID // moved to table ContentTuningXExpected
 int DifficultyESMID
 
 LAYOUT 70C53E15

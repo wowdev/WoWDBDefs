@@ -1,5 +1,5 @@
 COLUMNS
-int ID
+int<ContentTuning::ID> ID
 string Description?
 
 LAYOUT 27547E6E
