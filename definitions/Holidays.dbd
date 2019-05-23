@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int Duration
 int Date
-int Region
+int Region // a mask of Cfg_Region's Region_group_mask bits, i.e. 0x001=us, 0x002=kr, 0x004=eu, 0x008=tw, 0x010=cn, 0x020=pv, 0x040=at, 0x080=xx, 0x100=qa, 0x200=some other qa, 0x400=bl
 int Looping
 int CalendarFlags
 int<HolidayNames::ID> HolidayNameID
