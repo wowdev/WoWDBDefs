@@ -6,9 +6,9 @@ int HasWideScreen
 int<FileData::ID> NarrowScreenFileDataID
 int<FileData::ID> WideScreen169FileDataID
 int<FileData::ID> WideScreenFileDataID
-int Field_8_1_5_28938_003?
-int Field_8_1_5_28938_004?
-int Field_8_1_5_28938_005?
+int<LoadingScreenSkin::ID> LoadingScreenSkinID?
+int<FileData::ID> MainImageFileDataID?
+int<FileData::ID> LogoFileDataID?
 float Field_8_1_5_28938_006?
 float Field_8_1_5_28938_007?
 float Field_8_1_5_28938_008?
@@ -45,9 +45,9 @@ $noninline,id$ID<32>
 NarrowScreenFileDataID<32>
 WideScreenFileDataID<32>
 WideScreen169FileDataID<32>
-Field_8_1_5_28938_003<32>
-Field_8_1_5_28938_004<32>
-Field_8_1_5_28938_005<32>
+LoadingScreenSkinID<32>
+MainImageFileDataID<32>
+LogoFileDataID<32>
 Field_8_1_5_28938_006
 Field_8_1_5_28938_007
 Field_8_1_5_28938_008
