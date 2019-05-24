@@ -6,12 +6,6 @@ int<UiMap::ID> ParentUiMapID
 float UiMax
 float UiMin
 int Field_8_2_0_30168_006?
-float Field_8_2_0_30495_000?
-float Field_8_2_0_30495_001?
-int Field_8_2_0_30495_002?
-int Field_8_2_0_30495_003?
-int Field_8_2_0_30495_004?
-int Field_8_2_0_30495_005?
 int Field_8_2_0_30495_006?
 int Field_8_2_0_30495_007?
 
@@ -54,11 +48,11 @@ Field_8_2_0_30168_006<32>
 
 LAYOUT 27E875F3
 BUILD 8.2.0.30495
-Field_8_2_0_30495_000[2]
-Field_8_2_0_30495_001[2]
-$id$Field_8_2_0_30495_002<32>
-$relation$Field_8_2_0_30495_003<32>
-Field_8_2_0_30495_004<32>
-Field_8_2_0_30495_005<32>
+UiMin[2]
+UiMax[2]
+$id$ID<32>
+$relation$ParentUiMapID<32>
+OrderIndex<32>
+ChildUiMapID<32>
 Field_8_2_0_30495_006<32>
 Field_8_2_0_30495_007<32>
