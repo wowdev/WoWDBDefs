@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int Spells
 int Availability
-int Field_1_13_2_30550_000?
-int Field_1_13_2_30550_001?
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792, 6.0.1.18179
 BUILD 1.8.0.4714-1.12.3.6141
@@ -19,5 +17,5 @@ Availability<32>[4]
 LAYOUT BF9BD65D
 BUILD 1.13.2.30550
 $noninline,id$ID<32>
-Field_1_13_2_30550_000<32>[4]
-Field_1_13_2_30550_001<32>[4]
+Spells<32>[4]
+Availability<32>[4]
