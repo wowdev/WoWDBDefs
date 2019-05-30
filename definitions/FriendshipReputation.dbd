@@ -4,12 +4,8 @@ int<Faction::ID> FactionID
 int<FileData::ID> TextureFileID
 locstring Description_lang
 int Field_8_2_0_30168_004?
-locstring Field_8_2_0_30613_000_lang?
 locstring Field_8_2_0_30613_001_lang?
 locstring Field_8_2_0_30613_002_lang?
-int Field_8_2_0_30613_003?
-int Field_8_2_0_30613_004?
-int Field_8_2_0_30613_005?
 int Field_8_2_0_30613_006?
 
 BUILD 6.0.1.18179
@@ -42,10 +38,10 @@ Field_8_2_0_30168_004<32>
 
 LAYOUT D2DB04A4
 BUILD 8.2.0.30613, 8.2.0.30634
-Field_8_2_0_30613_000_lang
+Description_lang
 Field_8_2_0_30613_001_lang
 Field_8_2_0_30613_002_lang
-$id$Field_8_2_0_30613_003<u32>
-Field_8_2_0_30613_004<32>
-Field_8_2_0_30613_005<32>
+$id$ID<u32>
+FactionID<32>
+TextureFileID<32>
 Field_8_2_0_30613_006<32>
