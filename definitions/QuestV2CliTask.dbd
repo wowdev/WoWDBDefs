@@ -24,6 +24,31 @@ int StartItem
 int UniqueBitFlag
 int<WorldStateExpression::ID> WorldStateExpressionID
 int<ContentTuning::ID> ContentTuningID
+int Field_8_2_0_30774_000?
+locstring Field_8_2_0_30774_001_lang?
+locstring Field_8_2_0_30774_002_lang?
+int Field_8_2_0_30774_003?
+int Field_8_2_0_30774_004?
+int Field_8_2_0_30774_005?
+int Field_8_2_0_30774_006?
+int Field_8_2_0_30774_007?
+int Field_8_2_0_30774_008?
+int Field_8_2_0_30774_009?
+int Field_8_2_0_30774_010?
+int Field_8_2_0_30774_011?
+int Field_8_2_0_30774_012?
+int Field_8_2_0_30774_013?
+int Field_8_2_0_30774_014?
+int Field_8_2_0_30774_015?
+int Field_8_2_0_30774_016?
+int Field_8_2_0_30774_017?
+int Field_8_2_0_30774_018?
+int Field_8_2_0_30774_019?
+int Field_8_2_0_30774_020?
+int Field_8_2_0_30774_021?
+int Field_8_2_0_30774_022?
+int Field_8_2_0_30774_023?
+int Field_8_2_0_30774_024?
 
 LAYOUT 3F026A14
 BUILD 1.13.0.28211, 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141
@@ -213,3 +238,31 @@ WorldStateExpressionID<16>
 QuestInfoID<u32>
 ContentTuningID<32>
 FiltCompletedQuest<u32>[3]
+
+LAYOUT D17937F0
+BUILD 8.2.0.30774
+Field_8_2_0_30774_000<64>
+Field_8_2_0_30774_001_lang
+Field_8_2_0_30774_002_lang
+$id$Field_8_2_0_30774_003<u32>
+Field_8_2_0_30774_004<u16>
+Field_8_2_0_30774_005<u32>
+Field_8_2_0_30774_006<u32>
+Field_8_2_0_30774_007<16>
+Field_8_2_0_30774_008<u32>
+Field_8_2_0_30774_009<u32>
+Field_8_2_0_30774_010<u32>
+Field_8_2_0_30774_011<u32>
+Field_8_2_0_30774_012<u32>
+Field_8_2_0_30774_013<u32>
+Field_8_2_0_30774_014<u32>
+Field_8_2_0_30774_015<u32>
+Field_8_2_0_30774_016<u32>
+Field_8_2_0_30774_017<u32>
+Field_8_2_0_30774_018<u32>
+Field_8_2_0_30774_019<32>
+Field_8_2_0_30774_020<16>
+Field_8_2_0_30774_021<u32>
+Field_8_2_0_30774_022<32>
+Field_8_2_0_30774_023<32>[3]
+Field_8_2_0_30774_024<u32>[3]

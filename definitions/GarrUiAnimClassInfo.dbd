@@ -7,6 +7,12 @@ float ImpactDelaySecs
 int CastKit
 int ImpactKit
 int TargetImpactKit
+int Field_8_2_0_30774_000?
+int Field_8_2_0_30774_001?
+float Field_8_2_0_30774_002?
+int Field_8_2_0_30774_003?
+int Field_8_2_0_30774_004?
+int Field_8_2_0_30774_005?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -34,3 +40,13 @@ ImpactDelaySecs
 CastKit<u32>
 ImpactKit<u32>
 TargetImpactKit<u32>
+
+LAYOUT 189AB008
+BUILD 8.2.0.30774
+$noninline,id$ID<32>
+Field_8_2_0_30774_000<32>
+Field_8_2_0_30774_001<u8>
+Field_8_2_0_30774_002
+Field_8_2_0_30774_003<u32>
+Field_8_2_0_30774_004<u32>
+Field_8_2_0_30774_005<u32>
