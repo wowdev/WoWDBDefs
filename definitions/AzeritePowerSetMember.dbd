@@ -5,10 +5,6 @@ int<AzeritePower::ID> AzeritePowerID
 int AzeritePowerSetID
 int OrderIndex
 int Tier
-int Field_8_2_0_30774_000?
-int Field_8_2_0_30774_001?
-int Field_8_2_0_30774_002?
-int Field_8_2_0_30774_003?
 int Field_8_2_0_30774_004?
 
 LAYOUT A5515E8D, DB24A281
@@ -40,8 +36,8 @@ Tier<32>
 LAYOUT 40886320
 BUILD 8.2.0.30774
 $noninline,id$ID<32>
-$relation$Field_8_2_0_30774_000<32>
-Field_8_2_0_30774_001<32>
-Field_8_2_0_30774_002<32>
-Field_8_2_0_30774_003<32>
+$relation$AzeritePowerSetID<32>
+AzeritePowerID<32>
+Class<32>
+Tier<32>
 Field_8_2_0_30774_004<32>
