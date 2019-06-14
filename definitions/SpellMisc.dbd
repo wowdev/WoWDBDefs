@@ -15,6 +15,19 @@ int<FileData::ID> ActiveIconFileDataID
 float LaunchDelay
 int<FileData::ID> SpellIconFileDataID
 float MinDuration
+int Field_8_2_0_30827_000?
+int Field_8_2_0_30827_001?
+int Field_8_2_0_30827_002?
+int Field_8_2_0_30827_003?
+int Field_8_2_0_30827_004?
+float Field_8_2_0_30827_005?
+float Field_8_2_0_30827_006?
+float Field_8_2_0_30827_007?
+int Field_8_2_0_30827_008?
+int Field_8_2_0_30827_009?
+int Field_8_2_0_30827_010?
+int Field_8_2_0_30827_011?
+int Field_8_2_0_30827_012?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -75,3 +88,20 @@ SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
 Attributes<32>[14]
 $noninline,relation$SpellID<32>
+
+LAYOUT 99BBFB8B
+BUILD 8.2.0.30827
+$noninline,id$ID<32>
+Field_8_2_0_30827_000<u8>
+Field_8_2_0_30827_001<u16>
+Field_8_2_0_30827_002<u16>
+Field_8_2_0_30827_003<u16>
+Field_8_2_0_30827_004<u8>
+Field_8_2_0_30827_005
+Field_8_2_0_30827_006
+Field_8_2_0_30827_007
+Field_8_2_0_30827_008<32>
+Field_8_2_0_30827_009<32>
+Field_8_2_0_30827_010<32>
+Field_8_2_0_30827_011<32>[14]
+$noninline,relation$Field_8_2_0_30827_012<32>
