@@ -5,10 +5,6 @@ int MaxLevel
 int MinLevel
 int<ExpectedStatMod::ID> ExpectedStatModID // moved to table ContentTuningXExpected
 int DifficultyESMID
-int Field_8_2_0_30827_000?
-int Field_8_2_0_30827_001?
-int Field_8_2_0_30827_002?
-int Field_8_2_0_30827_003?
 int Field_8_2_0_30827_004?
 
 LAYOUT 70C53E15
@@ -53,8 +49,8 @@ Flags<32>
 
 LAYOUT 7B846412
 BUILD 8.2.0.30827
-$id$Field_8_2_0_30827_000<32>
-Field_8_2_0_30827_001<32>
-Field_8_2_0_30827_002<32>
-Field_8_2_0_30827_003<32>
+$id$ID<32>
+MinLevel<32>
+MaxLevel<32>
+Flags<32>
 Field_8_2_0_30827_004<32>
