@@ -11,8 +11,8 @@ int<ItemDisplayInfo::ID> NPCItemDisplay
 int Flags
 int<FileData::ID> FileDataID
 int<FileData::ID> HdFileDataID
-int HDBakeMaterialResourcesID
-int BakeMaterialResourcesID
+int<TextureFileData::MaterialResourcesID> HDBakeMaterialResourcesID
+int<TextureFileData::MaterialResourcesID> BakeMaterialResourcesID
 int CustomDisplayOption
 int DisplayClassID
 string BakeName
