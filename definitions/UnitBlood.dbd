@@ -9,8 +9,6 @@ int PlayerCritBloodSpurtID
 int PlayerHitBloodSpurtID
 int PlayerOmniCritBloodSpurtID
 int PlayerOmniHitBloodSpurtID
-int Field_1_13_2_30979_000?
-int Field_1_13_2_30979_001?
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.3.3368-0.12.0.3988
@@ -38,5 +36,5 @@ DefaultOmniBloodSpurtID<u32>
 LAYOUT 7C4875FB
 BUILD 1.13.2.30979
 $noninline,id$ID<32>
-Field_1_13_2_30979_000<u32>[2]
-Field_1_13_2_30979_001<u32>[2]
+CombatBloodSpurtFront<u32>[2]
+CombatBloodSpurtBack<u32>[2]
