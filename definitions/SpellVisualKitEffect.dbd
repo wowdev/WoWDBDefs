@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Effect
+int<SpellVisualKitModelAttach::ID> Effect
 int EffectType
 int<SpellVisualKit::ID> ParentSpellVisualKitID
 
