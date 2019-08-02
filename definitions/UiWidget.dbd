@@ -6,12 +6,6 @@ int ParentSetID
 int<PlayerCondition::ID> PlayerConditionID
 int<UiWidgetVisualization::ID> VisID
 string WidgetTag
-string Field_8_2_5_31337_000?
-int Field_8_2_5_31337_001?
-int Field_8_2_5_31337_002?
-int Field_8_2_5_31337_003?
-int Field_8_2_5_31337_004?
-int Field_8_2_5_31337_005?
 int Field_8_2_5_31337_006?
 
 LAYOUT AA1F4096
@@ -66,10 +60,10 @@ OrderIndex<u32>
 LAYOUT B7E65C22
 BUILD 8.2.5.31337
 $noninline,id$ID<32>
-Field_8_2_5_31337_000
-Field_8_2_5_31337_001<32>
-Field_8_2_5_31337_002<32>
-Field_8_2_5_31337_003<32>
-Field_8_2_5_31337_004<32>
-Field_8_2_5_31337_005<u32>
+WidgetTag
+ParentSetID<32>
+VisID<32>
+MapID<32>
+PlayerConditionID<32>
+OrderIndex<u32>
 Field_8_2_5_31337_006<32>
