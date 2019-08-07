@@ -92,10 +92,6 @@ int Field_1_13_2_30073_013?
 int Field_1_13_2_30073_014?
 float Field_1_13_2_31402_000?
 float Field_1_13_2_31402_001?
-int Field_1_13_2_31402_002?
-int Field_1_13_2_31402_003?
-int Field_1_13_2_31402_004?
-int Field_1_13_2_31402_005?
 int Field_1_13_2_31402_006?
 int Field_1_13_2_31402_007?
 int Field_1_13_2_31402_008?
@@ -105,7 +101,6 @@ int Field_1_13_2_31402_011?
 int Field_1_13_2_31402_012?
 int Field_1_13_2_31402_013?
 int Field_1_13_2_31402_014?
-int Field_1_13_2_31402_015?
 int Field_1_13_2_31402_016?
 
 BUILD 6.0.1.18179
@@ -317,10 +312,10 @@ BUILD 1.13.2.31402
 $noninline,id$ID<32>
 Field_1_13_2_31402_000[3]
 Field_1_13_2_31402_001[3]
-Field_1_13_2_31402_002<u32>
-Field_1_13_2_31402_003<32>
-Field_1_13_2_31402_004<8>
-Field_1_13_2_31402_005<8>
+CasterImpactKit<u32>
+TargetImpactKit<32>
+MissileAttachment<8>
+MissileDestinationAttachment<8>
 Field_1_13_2_31402_006<u32>
 Field_1_13_2_31402_007<u32>
 Field_1_13_2_31402_008<32>
@@ -330,5 +325,5 @@ Field_1_13_2_31402_011<u16>
 Field_1_13_2_31402_012<u16>
 Field_1_13_2_31402_013<u32>
 Field_1_13_2_31402_014<u32>
-Field_1_13_2_31402_015<u16>
+AnimEventSoundID<u16>
 Field_1_13_2_31402_016<8>
