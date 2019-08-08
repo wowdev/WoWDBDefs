@@ -15,7 +15,7 @@ int Minimum_criteria
 int<Achievement::ID> Shares_criteria
 int<CriteriaTree::ID> Criteria_tree
 int<FileData::ID> IconFileID
-int Field_8_1_0_28616_013?
+int RewardItemId?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -121,6 +121,6 @@ Points<8>
 Flags<32>
 $relation$Ui_order<16>
 IconFileID<32>
-Field_8_1_0_28616_013<32>
+RewardItemId<32>
 Criteria_tree<u32>
 Shares_criteria<16>
