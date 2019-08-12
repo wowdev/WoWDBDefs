@@ -12,7 +12,7 @@ locstring Description_lang
 int Flags
 int MapDisplayConditionID
 int<UiMap::ID> UiMapID
-int Field_8_1_5_29281_004?
+int<DungeonEncounter::ID> DungeonEncounterID?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -92,7 +92,7 @@ Name_lang
 Description_lang
 Map[2]
 JournalInstanceID<u16>
-Field_8_1_5_29281_004<u16>
+DungeonEncounterID<u16>
 OrderIndex<u32>
 FirstSectionID<u16>
 UiMapID<u16>
