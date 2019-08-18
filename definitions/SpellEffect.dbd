@@ -30,29 +30,6 @@ float PvpMultiplier
 float ResourceCoefficient
 float Variance
 float EffectBasePointsF
-float Field_1_13_2_30073_003?
-int Field_1_13_2_30073_004?
-int Field_1_13_2_30073_005?
-int Field_1_13_2_30073_006?
-int Field_1_13_2_30073_007?
-float Field_1_13_2_30073_008?
-float Field_1_13_2_30073_009?
-int Field_1_13_2_30073_010?
-int Field_1_13_2_30073_011?
-int Field_1_13_2_30073_012?
-int Field_1_13_2_30073_013?
-float Field_1_13_2_30073_014?
-float Field_1_13_2_30073_015?
-float Field_1_13_2_30073_016?
-float Field_1_13_2_30073_018?
-float Field_1_13_2_30073_019?
-float Field_1_13_2_30073_020?
-float Field_1_13_2_30073_021?
-float Field_1_13_2_30073_022?
-float Field_1_13_2_30073_023?
-int Field_1_13_2_30073_024?
-int Field_1_13_2_30073_025?
-int Field_1_13_2_30073_026?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -250,30 +227,30 @@ $noninline,id$ID<32>
 DifficultyID<32>
 EffectIndex<32>
 Effect<u32>
-Field_1_13_2_30073_003
-Field_1_13_2_30073_004<32>
-Field_1_13_2_30073_005<16>
-Field_1_13_2_30073_006<32>
-Field_1_13_2_30073_007<32>
-Field_1_13_2_30073_008
-Field_1_13_2_30073_009
-Field_1_13_2_30073_010<32>
-Field_1_13_2_30073_011<32>
-Field_1_13_2_30073_012<32>
-Field_1_13_2_30073_013<32>
-Field_1_13_2_30073_014
-Field_1_13_2_30073_015
-Field_1_13_2_30073_016
+EffectAmplitude
+EffectAttributes<32>
+EffectAura<16>
+EffectAuraPeriod<32>
+EffectBasePoints<32>
+EffectBonusCoefficient
+EffectChainAmplitude
+EffectChainTargets<32>
+EffectDieSides<32>
+EffectItemType<32>
+EffectMechanic<32>
+EffectPointsPerResource
+EffectPos_facing
+EffectRealPointsPerLevel
 EffectTriggerSpell<32>
-Field_1_13_2_30073_018
-Field_1_13_2_30073_019
-Field_1_13_2_30073_020
-Field_1_13_2_30073_021
-Field_1_13_2_30073_022
-Field_1_13_2_30073_023
-Field_1_13_2_30073_024<32>[2]
-Field_1_13_2_30073_025<u32>[2]
-Field_1_13_2_30073_026<32>[4]
+BonusCoefficientFromAP
+PvpMultiplier
+Coefficient
+Variance
+ResourceCoefficient
+GroupSizeBasePointsCoefficient
+EffectMiscValue<32>[2]
+EffectRadiusIndex<u32>[2]
+EffectSpellClassMask<32>[4]
 ImplicitTarget<16>[2]
 $noninline,relation$SpellID<32>
 
