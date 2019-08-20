@@ -11,18 +11,6 @@ int<TransmogSetGroup::ID> TransmogSetGroupID
 int UiOrder
 int Field_8_1_0_28294_008?
 int Field_8_1_0_28294_010?
-locstring Field_8_2_5_31521_000_lang?
-int Field_8_2_5_31521_001?
-int Field_8_2_5_31521_002?
-int Field_8_2_5_31521_003?
-int Field_8_2_5_31521_004?
-int Field_8_2_5_31521_005?
-int Field_8_2_5_31521_006?
-int Field_8_2_5_31521_007?
-int Field_8_2_5_31521_008?
-int Field_8_2_5_31521_009?
-int Field_8_2_5_31521_010?
-int Field_8_2_5_31521_011?
 int Field_8_2_5_31521_012?
 
 LAYOUT BEDFD7D1
@@ -81,16 +69,16 @@ UiOrder<16>
 
 LAYOUT 8BEEE3C1
 BUILD 8.2.5.31521
-Field_8_2_5_31521_000_lang
-$id$Field_8_2_5_31521_001<u32>
-Field_8_2_5_31521_002<32>
-Field_8_2_5_31521_003<u32>
-Field_8_2_5_31521_004<32>
-Field_8_2_5_31521_005<u32>
-Field_8_2_5_31521_006<32>
-$relation$Field_8_2_5_31521_007<u16>
-Field_8_2_5_31521_008<u8>
-Field_8_2_5_31521_009<u8>
-Field_8_2_5_31521_010<32>
-Field_8_2_5_31521_011<16>
+Name_lang
+$id$ID<u32>
+ClassMask<32>
+TrackingQuestID<u32>
+Flags<32>
+TransmogSetGroupID<u32>
+ItemNameDescriptionID<32>
+$relation$ParentTransmogSetID<u16>
+Field_8_1_0_28294_008<u8>
+ExpansionID<u8>
+Field_8_1_0_28294_010<32>
+UiOrder<16>
 Field_8_2_5_31521_012<32>
