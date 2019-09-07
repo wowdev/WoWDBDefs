@@ -3,9 +3,9 @@ int ID
 int Charges
 int Effect
 int EffectPointsMin
-int EffectArg
+int<Spell::ID> EffectArg
 locstring Name_lang
-int ItemVisual
+int<ItemVisuals::ID> ItemVisual
 int Flags
 int Src_itemID
 int Condition_ID

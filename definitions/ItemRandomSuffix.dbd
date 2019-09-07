@@ -2,7 +2,7 @@ COLUMNS
 int ID
 locstring Name_lang
 string InternalName
-int Enchantment
+int<SpellItemEnchantment::ID> Enchantment
 int AllocationPct
 
 LAYOUT 95CAB825, ABCC4871

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 string Name
-int Enchantment
+int<SpellItemEnchantment::ID> Enchantment
 locstring Name_lang
 
 LAYOUT B67375F8, BDA8BFCD
