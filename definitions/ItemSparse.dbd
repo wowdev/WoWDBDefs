@@ -421,7 +421,7 @@ ArtifactID<u8>
 ExpansionID<u8>
 
 LAYOUT F8931063
-BUILD 8.1.5.28938, 8.1.5.29141, 8.1.5.29220, 8.1.5.29281, 8.1.5.29310, 8.1.5.29352, 8.1.5.29385, 8.1.5.29418, 8.1.5.29484, 8.1.5.29495, 8.1.5.29558, 8.1.5.29599, 8.1.5.29620, 8.1.5.29634, 8.1.5.29664, 8.1.5.29683, 8.1.5.29701, 8.1.5.29704, 8.1.5.29705, 8.1.5.29718, 8.1.5.29732, 8.1.5.29737, 8.1.5.29814, 8.1.5.29869, 8.1.5.29896, 8.1.5.29981, 8.1.5.30477, 8.1.5.30706, 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.30168, 8.2.0.30170, 8.2.0.30203, 8.2.0.30262, 8.2.0.30329, 8.2.0.30430, 8.2.0.30495, 8.2.0.30613, 8.2.0.30634, 8.2.0.30669, 8.2.0.30774, 8.2.0.30827, 8.2.0.30888, 8.2.0.30898, 8.2.0.30918, 8.2.0.30920, 8.2.0.30948, 8.2.0.30993, 8.2.0.31229, 8.2.0.31429, 8.2.0.31478, 8.2.5.31337, 8.2.5.31401, 8.2.5.31521, 8.2.5.31599, 8.2.5.31812, 8.2.5.31884, 8.2.5.31919, 8.2.5.31921, 8.2.5.31958, 8.2.5.31960, 8.2.5.31961
+BUILD 8.1.5.28938, 8.1.5.29141, 8.1.5.29220, 8.1.5.29281, 8.1.5.29310, 8.1.5.29352, 8.1.5.29385, 8.1.5.29418, 8.1.5.29484, 8.1.5.29495, 8.1.5.29558, 8.1.5.29599, 8.1.5.29620, 8.1.5.29634, 8.1.5.29664, 8.1.5.29683, 8.1.5.29701, 8.1.5.29704, 8.1.5.29705, 8.1.5.29718, 8.1.5.29732, 8.1.5.29737, 8.1.5.29814, 8.1.5.29869, 8.1.5.29896, 8.1.5.29981, 8.1.5.30477, 8.1.5.30706, 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.30168, 8.2.0.30170, 8.2.0.30203, 8.2.0.30262, 8.2.0.30329, 8.2.0.30430, 8.2.0.30495, 8.2.0.30613, 8.2.0.30634, 8.2.0.30669, 8.2.0.30774, 8.2.0.30827, 8.2.0.30888, 8.2.0.30898, 8.2.0.30918, 8.2.0.30920, 8.2.0.30948, 8.2.0.30993, 8.2.0.31229, 8.2.0.31429, 8.2.0.31478, 8.2.5.31337
 COMMENT table is sparse
 $noninline,id$ID<32>
 AllowableRace<64>
@@ -456,6 +456,72 @@ Socket_match_enchantment_ID<u16>
 TotemCategoryID<u16>
 InstanceBound<u16>
 ZoneBound<u16>
+ItemSet<u16>
+LockID<u16>
+StartQuestID<u16>
+PageID<u16>
+ItemDelay<u16>
+ScalingStatDistributionID<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ExpansionID<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+DamageType<u8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<u8>
+MinReputation<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+RequiredLevel<8>
+InventoryType<u8>
+OverallQualityID<u8>
+
+BUILD 8.2.5.31401, 8.2.5.31521, 8.2.5.31599, 8.2.5.31812, 8.2.5.31884, 8.2.5.31919, 8.2.5.31921, 8.2.5.31958, 8.2.5.31960, 8.2.5.31961
+COMMENT table is sparse
+$noninline,id$ID<32>
+AllowableRace<64>
+Description_lang
+Display3_lang
+Display2_lang
+Display1_lang
+Display_lang
+DmgVariance
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
+RequiredAbility<u32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
+OppositeFactionItemID<32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+LimitCategory<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
 ItemSet<u16>
 LockID<u16>
 StartQuestID<u16>
