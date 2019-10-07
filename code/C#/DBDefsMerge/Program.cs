@@ -20,6 +20,7 @@ class ProductComparer : IEqualityComparer<Structs.Definition>
             && x.isID == y.isID
             && x.arrLength == y.arrLength
             && x.size == y.size
+            && (x.name == y.name || (y.name.StartsWith ("Field_")))
             ;
     }
 
