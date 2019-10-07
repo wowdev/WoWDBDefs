@@ -22,6 +22,26 @@ int<FileData::ID> IconFileDataID
 int TransmogCost
 int<PlayerCondition::ID> TransmogPlayerConditionID
 int EffectPointsMax
+locstring Field_8_3_0_32044_000_lang?
+locstring Field_8_3_0_32044_001_lang?
+int Field_8_3_0_32044_002?
+float Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+int Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
+int Field_8_3_0_32044_015?
+int Field_8_3_0_32044_016?
+int Field_8_3_0_32044_017?
+int Field_8_3_0_32044_018?
+int Field_8_3_0_32044_019?
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
@@ -208,3 +228,27 @@ ScalingClassRestricted<8>
 Condition_ID<u8>
 MinLevel<u8>
 MaxLevel<u8>
+
+LAYOUT 3933F488
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001_lang
+Field_8_3_0_32044_002<u32>[3]
+Field_8_3_0_32044_003[3]
+Field_8_3_0_32044_004<u32>
+Field_8_3_0_32044_005<u32>
+Field_8_3_0_32044_006<u32>
+Field_8_3_0_32044_007<16>[3]
+Field_8_3_0_32044_008<u16>
+Field_8_3_0_32044_009<u16>
+Field_8_3_0_32044_010<u16>
+Field_8_3_0_32044_011<u16>
+Field_8_3_0_32044_012<u16>
+Field_8_3_0_32044_013<u8>
+Field_8_3_0_32044_014<u8>[3]
+Field_8_3_0_32044_015<8>
+Field_8_3_0_32044_016<8>
+Field_8_3_0_32044_017<u8>
+Field_8_3_0_32044_018<u8>
+Field_8_3_0_32044_019<u8>

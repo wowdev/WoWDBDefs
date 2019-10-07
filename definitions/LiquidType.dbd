@@ -24,6 +24,27 @@ int MinimapStaticCol
 int MinDetail
 int LoDetail_ID
 int HiDetail_ID
+string Field_8_3_0_32044_000?
+string Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+float Field_8_3_0_32044_006?
+float Field_8_3_0_32044_007?
+float Field_8_3_0_32044_008?
+float Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+float Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
+int Field_8_3_0_32044_015?
+int Field_8_3_0_32044_016?
+int Field_8_3_0_32044_017?
+float Field_8_3_0_32044_018?
+int Field_8_3_0_32044_019?
+float Field_8_3_0_32044_020?
 
 BUILD 6.0.1.18179
 BUILD 3.1.0.9767-3.3.5.12340
@@ -145,3 +166,28 @@ Color<32>[2]
 Float[18]
 Int<u32>[4]
 Coefficient[4]
+
+LAYOUT D4966711
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001[6]
+Field_8_3_0_32044_002<u16>
+Field_8_3_0_32044_003<u8>
+Field_8_3_0_32044_004<u32>
+Field_8_3_0_32044_005<u32>
+Field_8_3_0_32044_006
+Field_8_3_0_32044_007
+Field_8_3_0_32044_008
+Field_8_3_0_32044_009
+Field_8_3_0_32044_010<u16>
+Field_8_3_0_32044_011
+Field_8_3_0_32044_012<u8>
+Field_8_3_0_32044_013<u8>
+Field_8_3_0_32044_014<u8>
+Field_8_3_0_32044_015<32>
+Field_8_3_0_32044_016<u8>[6]
+Field_8_3_0_32044_017<32>[2]
+Field_8_3_0_32044_018[18]
+Field_8_3_0_32044_019<u32>[4]
+Field_8_3_0_32044_020[4]

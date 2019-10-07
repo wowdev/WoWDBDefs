@@ -8,6 +8,14 @@ int MaxRating?
 int<PVPBracketTypes::BracketID> BracketID?
 int Rank?
 int RankIcon?
+locstring Field_8_3_0_32044_000_lang?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
 
 LAYOUT 070D6F9D
 BUILD 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
@@ -55,3 +63,15 @@ MaxRating<32>
 $relation$BracketID<8>
 Rank<8>
 RankIcon<32>
+
+LAYOUT 223746BF
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001<16>
+Field_8_3_0_32044_002<16>
+Field_8_3_0_32044_003<32>
+Field_8_3_0_32044_004<32>
+$relation$Field_8_3_0_32044_005<8>
+Field_8_3_0_32044_006<8>
+Field_8_3_0_32044_007<32>

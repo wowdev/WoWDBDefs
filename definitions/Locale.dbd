@@ -6,6 +6,11 @@ int<FileData::ID> FontFileDataID
 int Secondary
 int WowLocale
 int Field_1319430174?
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -61,3 +66,12 @@ $noninline,id$ID<32>
 WowLocale<u8>
 FontFileDataID<32>
 Secondary<u8>
+
+LAYOUT 7BC8CF7F
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u8>
+Field_8_3_0_32044_001<32>
+Field_8_3_0_32044_002<u8>
+Field_8_3_0_32044_003<u8>
+Field_8_3_0_32044_004<u8>

@@ -14,6 +14,21 @@ int SpecialIconConditionID
 int<UiTextureKit::ID> UiTextureKitID
 int MinimapAtlasMemberID
 int VisibilityConditionID
+locstring Field_8_3_0_32044_000_lang?
+float Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+float Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+float Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -143,3 +158,21 @@ Facing
 SpecialIconConditionID<u32>
 VisibilityConditionID<u32>
 MountCreatureID<32>[2]
+
+LAYOUT 890762DD
+BUILD 8.3.0.32044
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001[3]
+Field_8_3_0_32044_002[2]
+Field_8_3_0_32044_003[2]
+$id$Field_8_3_0_32044_004<32>
+$relation$Field_8_3_0_32044_005<u16>
+Field_8_3_0_32044_006<32>
+Field_8_3_0_32044_007<u16>
+Field_8_3_0_32044_008<u8>
+Field_8_3_0_32044_009<32>
+Field_8_3_0_32044_010<32>
+Field_8_3_0_32044_011
+Field_8_3_0_32044_012<u32>
+Field_8_3_0_32044_013<u32>
+Field_8_3_0_32044_014<32>[2]

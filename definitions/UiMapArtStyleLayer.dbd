@@ -9,6 +9,15 @@ float MinScale
 int TileHeight
 int TileWidth
 int UiMapArtStyleID
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+float Field_8_3_0_32044_005?
+float Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
 
 LAYOUT 15D83644
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
@@ -48,3 +57,16 @@ MinScale
 MaxScale
 AdditionalZoomSteps<32>
 $noninline,relation$UiMapArtStyleID<32>
+
+LAYOUT 22F1C1C7
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u8>
+Field_8_3_0_32044_001<u16>
+Field_8_3_0_32044_002<u16>
+Field_8_3_0_32044_003<u16>
+Field_8_3_0_32044_004<u16>
+Field_8_3_0_32044_005
+Field_8_3_0_32044_006
+Field_8_3_0_32044_007<32>
+$noninline,relation$Field_8_3_0_32044_008<32>

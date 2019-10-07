@@ -7,6 +7,11 @@ int Challenge_origin
 int Raidorigin
 int Region_ID
 int Field_1050259473?
+string Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -41,3 +46,12 @@ Raidorigin<u32>
 Region_group_mask<u8>
 Challenge_origin<u32>
 Field_1050259473<32>
+
+LAYOUT DA5ACA56
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001<u16>
+Field_8_3_0_32044_002<u32>
+Field_8_3_0_32044_003<u8>
+Field_8_3_0_32044_004<u32>

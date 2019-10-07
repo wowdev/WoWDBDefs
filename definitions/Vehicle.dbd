@@ -33,6 +33,24 @@ int<MissileTargeting::ID> MissileTargetingID
 int PowerType
 string PowerToken
 int UiSeatIndicatorType
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+float Field_8_3_0_32044_003?
+float Field_8_3_0_32044_004?
+float Field_8_3_0_32044_005?
+float Field_8_3_0_32044_006?
+float Field_8_3_0_32044_007?
+float Field_8_3_0_32044_008?
+float Field_8_3_0_32044_009?
+float Field_8_3_0_32044_010?
+float Field_8_3_0_32044_011?
+float Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
+int Field_8_3_0_32044_015?
+int Field_8_3_0_32044_016?
+int Field_8_3_0_32044_017?
 
 BUILD 4.0.0.11792
 BUILD 3.1.0.9767-3.3.5.12340
@@ -205,3 +223,25 @@ VehicleUIIndicatorID<u16>
 MissileTargetingID<32>
 SeatID<u16>[8]
 PowerDisplayID<u16>[3]
+
+LAYOUT 51C0ABAB
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<32>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002
+Field_8_3_0_32044_003
+Field_8_3_0_32044_004
+Field_8_3_0_32044_005
+Field_8_3_0_32044_006
+Field_8_3_0_32044_007
+Field_8_3_0_32044_008
+Field_8_3_0_32044_009
+Field_8_3_0_32044_010
+Field_8_3_0_32044_011
+Field_8_3_0_32044_012
+Field_8_3_0_32044_013<u8>
+Field_8_3_0_32044_014<u16>
+Field_8_3_0_32044_015<32>
+Field_8_3_0_32044_016<u16>[8]
+Field_8_3_0_32044_017<u16>[3]

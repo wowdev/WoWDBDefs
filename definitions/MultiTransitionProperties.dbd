@@ -5,6 +5,11 @@ int TransitionType
 int Flags
 int<SpellVisualKit::ID> StartSpellVisualKitID
 int<SpellVisualKit::ID> EndSpellVisualKitID
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
 
 LAYOUT 8B70AEB6, 4F3BB0CE
 BUILD 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491
@@ -27,3 +32,12 @@ DurationMS<u32>
 Flags<u32>
 StartSpellVisualKitID<32>
 EndSpellVisualKitID<32>
+
+LAYOUT 044B192D
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u32>
+Field_8_3_0_32044_001<u32>
+Field_8_3_0_32044_002<u32>
+Field_8_3_0_32044_003<32>
+Field_8_3_0_32044_004<32>

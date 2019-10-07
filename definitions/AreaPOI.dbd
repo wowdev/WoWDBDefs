@@ -20,6 +20,24 @@ int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int WMOGroupID
 int UiWidgetParentSetID?
 int Field_8_1_5_28938_015?
+locstring Field_8_3_0_32044_000_lang?
+locstring Field_8_3_0_32044_001_lang?
+int Field_8_3_0_32044_002?
+float Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+int Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
+int Field_8_3_0_32044_015?
+int Field_8_3_0_32044_016?
+int Field_8_3_0_32044_017?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -202,3 +220,24 @@ UiWidgetParentSetID<u16>
 Field_8_1_5_28938_015<u16>
 Importance<u8>
 Icon<u8>
+
+LAYOUT D546D302
+BUILD 8.3.0.32044
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001_lang
+$id$Field_8_3_0_32044_002<32>
+Field_8_3_0_32044_003[3]
+Field_8_3_0_32044_004<32>
+Field_8_3_0_32044_005<u32>
+Field_8_3_0_32044_006<u32>
+Field_8_3_0_32044_007<u32>
+Field_8_3_0_32044_008<32>
+Field_8_3_0_32044_009<32>
+Field_8_3_0_32044_010<32>
+$relation$Field_8_3_0_32044_011<u16>
+Field_8_3_0_32044_012<16>
+Field_8_3_0_32044_013<u16>
+Field_8_3_0_32044_014<u16>
+Field_8_3_0_32044_015<u16>
+Field_8_3_0_32044_016<u8>
+Field_8_3_0_32044_017<u8>

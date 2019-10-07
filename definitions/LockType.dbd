@@ -4,6 +4,11 @@ locstring Name_lang
 locstring ResourceName_lang
 locstring Verb_lang
 string CursorName
+locstring Field_8_3_0_32044_000_lang?
+locstring Field_8_3_0_32044_001_lang?
+locstring Field_8_3_0_32044_002_lang?
+string Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -25,3 +30,11 @@ $id$ID<32>
 Name_lang
 ResourceName_lang
 Verb_lang
+
+LAYOUT 1BCEC060
+BUILD 8.3.0.32044
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001_lang
+Field_8_3_0_32044_002_lang
+Field_8_3_0_32044_003
+$id$Field_8_3_0_32044_004<32>

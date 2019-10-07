@@ -3,6 +3,9 @@ int ID
 int<GameObjects::ID> GameObjectsID
 int TimeIndex
 float Rot
+float Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 3.1.0.9767-3.3.5.12340
@@ -27,3 +30,10 @@ $noninline,id$ID<32>
 Rot[4]
 TimeIndex<u32>
 $noninline,relation$GameObjectsID<32>
+
+LAYOUT 4D88AA07
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000[4]
+Field_8_3_0_32044_001<u32>
+$noninline,relation$Field_8_3_0_32044_002<32>

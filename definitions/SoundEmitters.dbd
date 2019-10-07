@@ -12,6 +12,18 @@ int PhaseUseFlags
 int Flags
 int<WorldStateExpression::ID> WorldStateExpressionID
 int<SoundEntriesAdvanced::ID> SoundEntryAdvancedID
+string Field_8_3_0_32044_000?
+float Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+int Field_8_3_0_32044_011?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -73,3 +85,18 @@ PhaseGroupID<u32>
 PhaseUseFlags<u8>
 Flags<u8>
 $noninline,relation$MapID<16>
+
+LAYOUT 8AACF468
+BUILD 8.3.0.32044
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001[3]
+Field_8_3_0_32044_002[3]
+$id$Field_8_3_0_32044_003<32>
+Field_8_3_0_32044_004<u32>
+Field_8_3_0_32044_005<u16>
+Field_8_3_0_32044_006<u8>
+Field_8_3_0_32044_007<u16>
+Field_8_3_0_32044_008<u32>
+Field_8_3_0_32044_009<u8>
+Field_8_3_0_32044_010<u8>
+$noninline,relation$Field_8_3_0_32044_011<16>

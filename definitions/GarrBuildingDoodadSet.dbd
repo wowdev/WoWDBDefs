@@ -10,6 +10,11 @@ int<GarrBuilding::ID> GarrBuildingID
 int HordeDoodadSet
 int SpecializationID
 int Type
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -36,3 +41,12 @@ Type<u8>
 HordeDoodadSet<u8>
 AllianceDoodadSet<u8>
 SpecializationID<u8>
+
+LAYOUT CBC85802
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u8>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<u8>
+Field_8_3_0_32044_003<u8>
+Field_8_3_0_32044_004<u8>

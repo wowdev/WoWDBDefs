@@ -4,6 +4,10 @@ int<Faction::ID> FactionID
 int DepositRate
 int ConsignmentRate
 locstring Name_lang
+locstring Field_8_3_0_32044_000_lang?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 0.8.0.3734-0.12.0.3988
@@ -26,3 +30,11 @@ Name_lang
 FactionID<u16>
 DepositRate<u8>
 ConsignmentRate<u8>
+
+LAYOUT 05DD4C81
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001<u16>
+Field_8_3_0_32044_002<u8>
+Field_8_3_0_32044_003<u8>

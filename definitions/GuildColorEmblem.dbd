@@ -5,6 +5,9 @@ int Green
 int Blue
 int Padding_1593844084?
 int ID
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
 
 BUILD 6.0.1.18179
 $id$ColorID<32>
@@ -26,3 +29,10 @@ $noninline,id$ID<32>
 Red<u8>
 Blue<u8>
 Green<u8>
+
+LAYOUT 252CEA28
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u8>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<u8>

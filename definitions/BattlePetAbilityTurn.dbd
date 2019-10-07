@@ -5,6 +5,12 @@ int<BattlePetVisual::ID> BattlePetVisualID
 int EventTypeEnum
 int OrderIndex
 int TurnTypeEnum
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -31,3 +37,12 @@ OrderIndex<u8>
 TurnTypeEnum<u8>
 EventTypeEnum<8>
 BattlePetVisualID<u16>
+
+LAYOUT B7645CF1
+BUILD 8.3.0.32044
+$id$Field_8_3_0_32044_000<32>
+$relation$Field_8_3_0_32044_001<u16>
+Field_8_3_0_32044_002<u8>
+Field_8_3_0_32044_003<u8>
+Field_8_3_0_32044_004<8>
+Field_8_3_0_32044_005<u16>

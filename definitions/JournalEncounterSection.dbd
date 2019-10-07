@@ -15,6 +15,21 @@ int<CreatureDisplayInfo::ID> IconCreatureDisplayInfoID
 int<Spell::ID> SpellID
 int<FileData::ID> IconFileDataID
 int<UiModelScene::ID> UiModelSceneID
+locstring Field_8_3_0_32044_000_lang?
+locstring Field_8_3_0_32044_001_lang?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+int Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -108,3 +123,22 @@ IconFileDataID<32>
 Flags<u16>
 IconFlags<u16>
 DifficultyMask<8>
+
+LAYOUT D11DFA43
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001_lang
+Field_8_3_0_32044_002<u16>
+Field_8_3_0_32044_003<u8>
+Field_8_3_0_32044_004<u16>
+Field_8_3_0_32044_005<u16>
+Field_8_3_0_32044_006<u16>
+Field_8_3_0_32044_007<u8>
+Field_8_3_0_32044_008<u32>
+Field_8_3_0_32044_009<32>
+Field_8_3_0_32044_010<32>
+Field_8_3_0_32044_011<32>
+Field_8_3_0_32044_012<u16>
+Field_8_3_0_32044_013<u16>
+Field_8_3_0_32044_014<8>

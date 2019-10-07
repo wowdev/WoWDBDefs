@@ -5,6 +5,11 @@ int<FileData::ID> FileDataID
 int LayerIndex
 int RowIndex
 int<WorldMapOverlay::ID> WorldMapOverlayID
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
 
 LAYOUT 49FF1B46
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -23,3 +28,12 @@ ColIndex<u8>
 LayerIndex<u8>
 FileDataID<32>
 $noninline,relation$WorldMapOverlayID<32>
+
+LAYOUT 8F27B8DB
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u8>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<u8>
+Field_8_3_0_32044_003<32>
+$noninline,relation$Field_8_3_0_32044_004<32>

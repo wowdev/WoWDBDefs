@@ -3,6 +3,9 @@ string ParamLabel
 int ParamTypeEnum
 int ID
 int<BattlePetVisual::ID> BattlePetVisualID
+string Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -16,3 +19,10 @@ $noninline,id$ID<32>
 ParamLabel[6]
 BattlePetVisualID<u16>
 ParamTypeEnum<u8>[6]
+
+LAYOUT 5CA97862
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000[6]
+Field_8_3_0_32044_001<u16>
+Field_8_3_0_32044_002<u8>[6]

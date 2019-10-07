@@ -6,6 +6,13 @@ int Orderindex
 locstring Name_lang
 int Flags
 locstring HordeName_lang
+locstring Field_8_3_0_32044_000_lang?
+locstring Field_8_3_0_32044_001_lang?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -53,3 +60,13 @@ SkilllineID<u16>
 ParenttradeskillcategoryID<u16>
 Orderindex<16>
 Flags<u8>
+
+LAYOUT EACBC3D4
+BUILD 8.3.0.32044
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001_lang
+$id$Field_8_3_0_32044_002<32>
+Field_8_3_0_32044_003<u16>
+Field_8_3_0_32044_004<u16>
+Field_8_3_0_32044_005<16>
+Field_8_3_0_32044_006<u8>

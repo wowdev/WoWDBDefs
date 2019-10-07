@@ -7,6 +7,13 @@ int Field_8_2_0_30168_004?
 locstring Field_8_2_0_30613_001_lang?
 locstring Field_8_2_0_30613_002_lang?
 int Field_8_2_0_30613_006?
+locstring Field_8_3_0_32044_000_lang?
+locstring Field_8_3_0_32044_001_lang?
+locstring Field_8_3_0_32044_002_lang?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -45,3 +52,13 @@ $id$ID<u32>
 FactionID<32>
 TextureFileID<32>
 Field_8_2_0_30613_006<32>
+
+LAYOUT 64BEFE10
+BUILD 8.3.0.32044
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001_lang
+Field_8_3_0_32044_002_lang
+$id$Field_8_3_0_32044_003<u32>
+Field_8_3_0_32044_004<32>
+Field_8_3_0_32044_005<32>
+Field_8_3_0_32044_006<32>

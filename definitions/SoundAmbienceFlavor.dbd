@@ -3,6 +3,9 @@ int ID
 int<SoundAmbience::ID> SoundAmbienceID
 int SoundEntriesIDDay
 int SoundEntriesIDNight
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
 
 BUILD 6.0.1.18179
 BUILD 4.1.0.13914-4.3.4.15595
@@ -18,3 +21,10 @@ $noninline,id$ID<32>
 SoundEntriesIDDay<u32>
 SoundEntriesIDNight<u32>
 $noninline,relation$SoundAmbienceID<u16>
+
+LAYOUT A09607B2
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u32>
+Field_8_3_0_32044_001<u32>
+$noninline,relation$Field_8_3_0_32044_002<u16>

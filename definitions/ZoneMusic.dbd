@@ -9,6 +9,10 @@ string MusicFile // NUM_AMBIENCES
 int SegmentLength // NUM_AMBIENCES
 int SegmentPlayMin // NUM_AMBIENCES
 int SegmentPlayMax // NUM_AMBIENCES
+string Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 0.7.0.3694-0.12.0.3988
@@ -51,3 +55,11 @@ MusicFile[2]
 SilenceIntervalMin<32>[2]
 SilenceIntervalMax<32>[2]
 Sounds<32>[2]
+
+LAYOUT FE595EDE
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001<u32>[2]
+Field_8_3_0_32044_002<u32>[2]
+Field_8_3_0_32044_003<u32>[2]

@@ -3,6 +3,9 @@ int ID
 int SwingType
 int Crit
 int<SoundEntries::ID> SoundID
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.3.3368-0.12.0.3988
@@ -23,3 +26,10 @@ $noninline,id$ID<32>
 SwingType<u8>
 Crit<u8>
 SoundID<u32>
+
+LAYOUT 8066E81A
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u8>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<u32>

@@ -9,6 +9,16 @@ float UiMax
 float UiMin
 int WMODoodadPlacementID
 int WMOGroupID
+float Field_8_3_0_32044_000?
+float Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
 
 LAYOUT FEC56AE4
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
@@ -48,3 +58,16 @@ MapID<32>
 AreaID<32>
 WMODoodadPlacementID<32>
 WMOGroupID<32>
+
+LAYOUT AA730213
+BUILD 8.3.0.32044
+Field_8_3_0_32044_000[2]
+Field_8_3_0_32044_001[2]
+Field_8_3_0_32044_002[6]
+$id$Field_8_3_0_32044_003<32>
+$relation$Field_8_3_0_32044_004<32>
+Field_8_3_0_32044_005<32>
+Field_8_3_0_32044_006<32>
+Field_8_3_0_32044_007<32>
+Field_8_3_0_32044_008<32>
+Field_8_3_0_32044_009<32>

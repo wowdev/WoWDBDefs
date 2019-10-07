@@ -2,6 +2,8 @@ COLUMNS
 int ID
 locstring Name_lang
 int Flags
+locstring Field_8_3_0_32044_000_lang?
+int Field_8_3_0_32044_001?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.5.3494-0.12.0.3988
@@ -24,3 +26,9 @@ Flags<u8>
 BUILD 0.5.3.3368
 $id$ID<32>
 Name_lang
+
+LAYOUT D40201AB
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001<u8>

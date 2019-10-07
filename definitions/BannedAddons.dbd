@@ -6,6 +6,9 @@ int LastModified
 int Flags
 string Name
 string Version
+string Field_8_3_0_32044_000?
+string Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 3.1.0.9767-3.3.5.12340
@@ -30,3 +33,10 @@ $noninline,id$ID<32>
 Name
 Version
 Flags<u8>
+
+LAYOUT F3F45B96
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001
+Field_8_3_0_32044_002<u8>

@@ -7,6 +7,11 @@ int<ZoneMusic::ID> ZoneMusicID
 int<SoundAmbience::ID> SoundAmbienceID
 int<SoundProviderPreferences::ID> SoundProviderPreferencesID
 int Flags
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -33,3 +38,12 @@ ZoneMusicID<u16>
 SoundAmbienceID<u16>
 SoundProviderPreferencesID<u8>
 Flags<u8>
+
+LAYOUT 932609E8
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u16>
+Field_8_3_0_32044_001<u16>
+Field_8_3_0_32044_002<u16>
+Field_8_3_0_32044_003<u8>
+Field_8_3_0_32044_004<u8>

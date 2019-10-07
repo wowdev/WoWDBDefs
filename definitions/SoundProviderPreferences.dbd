@@ -25,6 +25,29 @@ float EAX3HFReference
 float EAX3LFReference
 float EAXEffectVolume
 float EAXDamping
+string Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+float Field_8_3_0_32044_003?
+float Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+float Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+float Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+float Field_8_3_0_32044_011?
+float Field_8_3_0_32044_012?
+float Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
+float Field_8_3_0_32044_015?
+float Field_8_3_0_32044_016?
+float Field_8_3_0_32044_017?
+float Field_8_3_0_32044_018?
+float Field_8_3_0_32044_019?
+float Field_8_3_0_32044_020?
+float Field_8_3_0_32044_021?
+int Field_8_3_0_32044_022?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 0.7.0.3694-0.12.0.3988
@@ -167,3 +190,30 @@ EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
 Flags<u16>
+
+LAYOUT FE1AD33D
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001<8>
+Field_8_3_0_32044_002
+Field_8_3_0_32044_003
+Field_8_3_0_32044_004
+Field_8_3_0_32044_005<16>
+Field_8_3_0_32044_006<16>
+Field_8_3_0_32044_007
+Field_8_3_0_32044_008<16>
+Field_8_3_0_32044_009
+Field_8_3_0_32044_010<16>
+Field_8_3_0_32044_011
+Field_8_3_0_32044_012
+Field_8_3_0_32044_013
+Field_8_3_0_32044_014<8>
+Field_8_3_0_32044_015
+Field_8_3_0_32044_016
+Field_8_3_0_32044_017
+Field_8_3_0_32044_018
+Field_8_3_0_32044_019
+Field_8_3_0_32044_020
+Field_8_3_0_32044_021
+Field_8_3_0_32044_022<u16>

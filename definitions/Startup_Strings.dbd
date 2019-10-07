@@ -2,6 +2,8 @@ COLUMNS
 int ID
 string Name
 locstring Message_lang
+string Field_8_3_0_32044_000?
+locstring Field_8_3_0_32044_001_lang?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 1.0.0.3980-1.12.3.6141
@@ -19,3 +21,9 @@ BUILD 1.13.0.28211, 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13
 $noninline,id$ID<32>
 Name
 Message_lang
+
+LAYOUT F6EA05C9
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001_lang

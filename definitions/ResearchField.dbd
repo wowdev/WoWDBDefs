@@ -2,6 +2,9 @@ COLUMNS
 int ID
 locstring Name_lang
 int Slot
+locstring Field_8_3_0_32044_000_lang?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -19,3 +22,9 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 Name_lang
 $id$ID<32>
 Slot<u8>
+
+LAYOUT 19E8D6A8
+BUILD 8.3.0.32044
+Field_8_3_0_32044_000_lang
+$id$Field_8_3_0_32044_001<32>
+Field_8_3_0_32044_002<u8>

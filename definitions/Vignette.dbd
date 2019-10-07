@@ -9,6 +9,15 @@ int<QuestFeedbackEffect::ID> QuestFeedbackEffectID
 int<QuestV2::ID> VisibleTrackingQuestID
 int VignetteType
 int<QuestV2::ID> RewardQuestID
+locstring Field_8_3_0_32044_000_lang?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+float Field_8_3_0_32044_005?
+float Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -52,3 +61,16 @@ MaxHeight
 MinHeight
 VignetteType<8>
 RewardQuestID<32>
+
+LAYOUT 4AC89FFC
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001<u32>
+Field_8_3_0_32044_002<u32>
+Field_8_3_0_32044_003<u32>
+Field_8_3_0_32044_004<u32>
+Field_8_3_0_32044_005
+Field_8_3_0_32044_006
+Field_8_3_0_32044_007<8>
+Field_8_3_0_32044_008<32>

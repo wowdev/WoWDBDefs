@@ -6,6 +6,10 @@ int Roleplaying
 int PlayerAttackSpeedBase
 float MaxDamageReductionPctPhysical
 int GeneratedID
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+float Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 $id$GeneratedID<32>
@@ -47,3 +51,11 @@ PlayerKillingAllowed<u8>
 Roleplaying<u8>
 PlayerAttackSpeedBase<u16>
 MaxDamageReductionPctPhysical
+
+LAYOUT CB5833EB
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u8>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<u16>
+Field_8_3_0_32044_003

@@ -11,6 +11,17 @@ int<ScenarioStep::ID> Supersedes
 int<QuestV2::ID> RewardQuestID
 int<PlayerCondition::ID> VisibilityPlayerConditionID
 int WidgetSetID
+locstring Field_8_3_0_32044_000_lang?
+locstring Field_8_3_0_32044_001_lang?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -94,3 +105,18 @@ OrderIndex<u8>
 Flags<u8>
 VisibilityPlayerConditionID<u32>
 WidgetSetID<u16>
+
+LAYOUT 9FD44A1F
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001_lang
+$relation$Field_8_3_0_32044_002<u16>
+Field_8_3_0_32044_003<u32>
+Field_8_3_0_32044_004<u16>
+Field_8_3_0_32044_005<32>
+Field_8_3_0_32044_006<u16>
+Field_8_3_0_32044_007<u8>
+Field_8_3_0_32044_008<u8>
+Field_8_3_0_32044_009<u32>
+Field_8_3_0_32044_010<u16>

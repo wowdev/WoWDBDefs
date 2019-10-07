@@ -7,6 +7,12 @@ string Texture
 int<Item::ID> ItemID
 int<FileData::ID> BigTextureFileID
 int<FileData::ID> TextureFileID
+locstring Field_8_3_0_32044_000_lang?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -35,3 +41,13 @@ CurrencyID<u16>
 TextureFileID<32>
 BigTextureFileID<32>
 ItemID<32>
+
+LAYOUT E71C50A8
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<u16>
+Field_8_3_0_32044_003<32>
+Field_8_3_0_32044_004<32>
+Field_8_3_0_32044_005<32>

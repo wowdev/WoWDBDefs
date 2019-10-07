@@ -6,6 +6,9 @@ int Field_105378439?
 int<FileData::ID> FileDataID
 int MaterialResourcesID
 int UsageType
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
 
 BUILD 6.0.1.18179
 Field_1864415641<32>
@@ -24,3 +27,9 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 $id$FileDataID<32>
 UsageType<u8>
 $relation$MaterialResourcesID<32>
+
+LAYOUT 9082651D
+BUILD 8.3.0.32044
+$id$Field_8_3_0_32044_000<32>
+Field_8_3_0_32044_001<u8>
+$relation$Field_8_3_0_32044_002<32>

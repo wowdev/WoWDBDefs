@@ -8,6 +8,10 @@ string Domain
 int GrantAccess
 int RevokeAccess
 int WowEditInternal
+string Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -32,3 +36,11 @@ GrantAccess<8>
 RevokeAccess<8>
 Padding_2996086065<8>[2]
 WowEditInternal<32>
+
+LAYOUT EDDFD030
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<u8>
+Field_8_3_0_32044_003<u8>

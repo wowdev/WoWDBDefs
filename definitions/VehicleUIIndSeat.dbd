@@ -4,6 +4,10 @@ int<VehicleUIIndicator::ID> VehicleUIIndicatorID
 int VirtualSeatIndex
 float XPos
 float YPos
+int Field_8_3_0_32044_000?
+float Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 3.3.0.10958-3.3.5.12340
@@ -31,3 +35,11 @@ VirtualSeatIndex<u8>
 XPos
 YPos
 $noninline,relation$VehicleUIIndicatorID<u16>
+
+LAYOUT CD2727A6
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u8>
+Field_8_3_0_32044_001
+Field_8_3_0_32044_002
+$noninline,relation$Field_8_3_0_32044_003<u16>

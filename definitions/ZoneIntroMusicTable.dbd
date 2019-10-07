@@ -4,6 +4,10 @@ string Name
 int<SoundEntries::ID> SoundID
 int Priority
 int MinDelayMinutes
+string Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 0.9.0.3807-0.12.0.3988
@@ -34,3 +38,11 @@ Name
 SoundID<u32>
 Priority<u8>
 MinDelayMinutes<u16>
+
+LAYOUT 6FE3ADE9
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001<u32>
+Field_8_3_0_32044_002<u8>
+Field_8_3_0_32044_003<u16>

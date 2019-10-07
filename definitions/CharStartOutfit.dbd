@@ -9,6 +9,13 @@ int DisplayItemID
 int InventoryType
 int PetDisplayID
 int PetFamilyID
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.12025-4.3.4.15595
@@ -70,3 +77,14 @@ PetDisplayID<u32>
 PetFamilyID<u8>
 ItemID<32>[24]
 $noninline,relation$RaceID<u8>
+
+LAYOUT 3B34251C
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u8>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<u8>
+Field_8_3_0_32044_003<u32>
+Field_8_3_0_32044_004<u8>
+Field_8_3_0_32044_005<32>[24]
+$noninline,relation$Field_8_3_0_32044_006<u8>

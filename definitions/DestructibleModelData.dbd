@@ -23,6 +23,28 @@ int RepairGroundFx
 int DoNotHighlight
 int HealEffect
 int HealEffectSpeed
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+int Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
+int Field_8_3_0_32044_015?
+int Field_8_3_0_32044_016?
+int Field_8_3_0_32044_017?
+int Field_8_3_0_32044_018?
+int Field_8_3_0_32044_019?
+int Field_8_3_0_32044_020?
+int Field_8_3_0_32044_021?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.12319-4.3.4.15595
@@ -193,3 +215,29 @@ EjectDirection<32>
 RepairGroundFx<32>
 DoNotHighlight<32>
 
+
+LAYOUT 1E0D0E51
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<8>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<u16>
+Field_8_3_0_32044_003<8>
+Field_8_3_0_32044_004<8>
+Field_8_3_0_32044_005<u8>
+Field_8_3_0_32044_006<u16>
+Field_8_3_0_32044_007<8>
+Field_8_3_0_32044_008<8>
+Field_8_3_0_32044_009<u8>
+Field_8_3_0_32044_010<u16>
+Field_8_3_0_32044_011<u8>
+Field_8_3_0_32044_012<u8>
+Field_8_3_0_32044_013<u8>
+Field_8_3_0_32044_014<u8>
+Field_8_3_0_32044_015<u16>
+Field_8_3_0_32044_016<u8>
+Field_8_3_0_32044_017<u16>
+Field_8_3_0_32044_018<8>
+Field_8_3_0_32044_019<8>
+Field_8_3_0_32044_020<8>
+Field_8_3_0_32044_021<8>

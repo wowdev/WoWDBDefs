@@ -14,6 +14,17 @@ locstring NameAlt_lang
 int StartAnimState
 locstring Title_lang
 locstring TitleAlt_lang
+locstring Field_8_3_0_32044_000_lang?
+locstring Field_8_3_0_32044_001_lang?
+locstring Field_8_3_0_32044_002_lang?
+locstring Field_8_3_0_32044_003_lang?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+float Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -90,3 +101,18 @@ StartAnimState<u8>
 DisplayID<32>[4]
 DisplayProbability[4]
 AlwaysItem<32>[3]
+
+LAYOUT 589E5A4C
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001_lang
+Field_8_3_0_32044_002_lang
+Field_8_3_0_32044_003_lang
+Field_8_3_0_32044_004<8>
+Field_8_3_0_32044_005<u8>
+Field_8_3_0_32044_006<u16>
+Field_8_3_0_32044_007<u8>
+Field_8_3_0_32044_008<32>[4]
+Field_8_3_0_32044_009[4]
+Field_8_3_0_32044_010<32>[3]

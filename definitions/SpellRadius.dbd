@@ -4,6 +4,10 @@ float Radius
 float RadiusPerLevel
 float RadiusMin
 float RadiusMax
+float Field_8_3_0_32044_000?
+float Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+float Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15589-5.4.8.18414
@@ -32,3 +36,11 @@ $id$ID<32>
 Radius
 RadiusPerLevel
 RadiusMax
+
+LAYOUT 6BD6FF9E
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001
+Field_8_3_0_32044_002
+Field_8_3_0_32044_003

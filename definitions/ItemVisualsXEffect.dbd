@@ -5,6 +5,11 @@ int Field_8_2_5_31337_001?
 int Field_8_2_5_31337_002?
 int<FileData::ID> ModelFileID?
 int<ItemVisuals::ID> ItemVisualsID?
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
 
 LAYOUT C819EA7E
 BUILD 8.2.5.31337, 8.2.5.31401, 8.2.5.31521, 8.2.5.31599, 8.2.5.31812, 8.2.5.31884, 8.2.5.31919, 8.2.5.31921, 8.2.5.31958, 8.2.5.31960, 8.2.5.31961, 8.2.5.31984, 8.2.5.32028, 8.2.5.32079
@@ -14,3 +19,12 @@ Field_8_2_5_31337_001<8>
 Field_8_2_5_31337_002<32>
 ModelFileID<32>
 $noninline,relation$ItemVisualsID<32>
+
+LAYOUT 9DEA5E99
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<8>
+Field_8_3_0_32044_001<8>
+Field_8_3_0_32044_002<32>
+Field_8_3_0_32044_003<32>
+$noninline,relation$Field_8_3_0_32044_004<32>

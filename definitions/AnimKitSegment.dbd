@@ -18,6 +18,24 @@ int OverrideConfigFlags
 int LoopToSegmentIndex
 int BlendInTimeMs
 int BlendOutTimeMs
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+float Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
+int Field_8_3_0_32044_015?
+int Field_8_3_0_32044_016?
+int Field_8_3_0_32044_017?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -99,3 +117,25 @@ OverrideConfigFlags<32>
 LoopToSegmentIndex<8>
 BlendInTimeMs<u16>
 BlendOutTimeMs<u16>
+
+LAYOUT 827B9DD7
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+$relation$Field_8_3_0_32044_000<u16>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<u16>
+Field_8_3_0_32044_003<u32>
+Field_8_3_0_32044_004<u16>
+Field_8_3_0_32044_005<u8>
+Field_8_3_0_32044_006<u8>
+Field_8_3_0_32044_007<u32>
+Field_8_3_0_32044_008<u8>
+Field_8_3_0_32044_009<u32>
+Field_8_3_0_32044_010<u32>
+Field_8_3_0_32044_011
+Field_8_3_0_32044_012<u16>
+Field_8_3_0_32044_013<u8>
+Field_8_3_0_32044_014<32>
+Field_8_3_0_32044_015<8>
+Field_8_3_0_32044_016<u16>
+Field_8_3_0_32044_017<u16>

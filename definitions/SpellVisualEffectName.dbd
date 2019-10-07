@@ -22,6 +22,20 @@ int ModelPosition
 int SpecialID
 int SpecialAttachPoint
 int Field_1436216259?
+int Field_8_3_0_32044_000?
+float Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+float Field_8_3_0_32044_003?
+float Field_8_3_0_32044_004?
+float Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+float Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+int Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -196,3 +210,21 @@ SpecialID<32>
 SpecialAttachPoint<32>
 AreaEffectSize
 VisualEffectNameFlags<32>
+
+LAYOUT 8AA2AAED
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<32>
+Field_8_3_0_32044_001
+Field_8_3_0_32044_002
+Field_8_3_0_32044_003
+Field_8_3_0_32044_004
+Field_8_3_0_32044_005
+Field_8_3_0_32044_006<u32>
+Field_8_3_0_32044_007<32>
+Field_8_3_0_32044_008
+Field_8_3_0_32044_009<u32>
+Field_8_3_0_32044_010<32>
+Field_8_3_0_32044_011<u32>
+Field_8_3_0_32044_012<32>
+Field_8_3_0_32044_013<32>

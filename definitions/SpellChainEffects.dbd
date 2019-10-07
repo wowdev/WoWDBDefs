@@ -66,6 +66,66 @@ float VariancePerFlipFrame
 int<Curve::ID> WidthScaleCurveID
 int Padding_596171098?
 string Combo
+float Field_8_3_0_32044_000?
+float Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+float Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+float Field_8_3_0_32044_010?
+float Field_8_3_0_32044_011?
+float Field_8_3_0_32044_012?
+float Field_8_3_0_32044_013?
+float Field_8_3_0_32044_014?
+float Field_8_3_0_32044_015?
+float Field_8_3_0_32044_016?
+float Field_8_3_0_32044_017?
+float Field_8_3_0_32044_018?
+float Field_8_3_0_32044_019?
+float Field_8_3_0_32044_020?
+float Field_8_3_0_32044_021?
+float Field_8_3_0_32044_022?
+float Field_8_3_0_32044_023?
+float Field_8_3_0_32044_024?
+float Field_8_3_0_32044_025?
+float Field_8_3_0_32044_026?
+float Field_8_3_0_32044_027?
+float Field_8_3_0_32044_028?
+float Field_8_3_0_32044_029?
+float Field_8_3_0_32044_030?
+float Field_8_3_0_32044_031?
+float Field_8_3_0_32044_032?
+float Field_8_3_0_32044_033?
+float Field_8_3_0_32044_034?
+float Field_8_3_0_32044_035?
+int Field_8_3_0_32044_036?
+int Field_8_3_0_32044_037?
+int Field_8_3_0_32044_038?
+int Field_8_3_0_32044_039?
+int Field_8_3_0_32044_040?
+int Field_8_3_0_32044_041?
+float Field_8_3_0_32044_042?
+float Field_8_3_0_32044_043?
+float Field_8_3_0_32044_044?
+int Field_8_3_0_32044_045?
+float Field_8_3_0_32044_046?
+float Field_8_3_0_32044_047?
+int Field_8_3_0_32044_048?
+int Field_8_3_0_32044_049?
+int Field_8_3_0_32044_050?
+int Field_8_3_0_32044_051?
+float Field_8_3_0_32044_052?
+float Field_8_3_0_32044_053?
+int Field_8_3_0_32044_054?
+float Field_8_3_0_32044_055?
+float Field_8_3_0_32044_056?
+float Field_8_3_0_32044_057?
+float Field_8_3_0_32044_058?
+int Field_8_3_0_32044_059?
 
 BUILD 6.0.1.18179
 BUILD 5.3.0.16965-5.4.8.18414
@@ -407,3 +467,67 @@ TextureCoordScaleV[3]
 TextureRepeatLengthU[3]
 TextureRepeatLengthV[3]
 TextureFileDataID<32>[3]
+
+LAYOUT 31DC7CA9
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001
+Field_8_3_0_32044_002
+Field_8_3_0_32044_003<u32>
+Field_8_3_0_32044_004<u16>
+Field_8_3_0_32044_005<u32>
+Field_8_3_0_32044_006<u16>
+Field_8_3_0_32044_007
+Field_8_3_0_32044_008<u8>
+Field_8_3_0_32044_009<u8>
+Field_8_3_0_32044_010
+Field_8_3_0_32044_011
+Field_8_3_0_32044_012
+Field_8_3_0_32044_013
+Field_8_3_0_32044_014
+Field_8_3_0_32044_015
+Field_8_3_0_32044_016
+Field_8_3_0_32044_017
+Field_8_3_0_32044_018
+Field_8_3_0_32044_019
+Field_8_3_0_32044_020
+Field_8_3_0_32044_021
+Field_8_3_0_32044_022
+Field_8_3_0_32044_023
+Field_8_3_0_32044_024
+Field_8_3_0_32044_025
+Field_8_3_0_32044_026
+Field_8_3_0_32044_027
+Field_8_3_0_32044_028
+Field_8_3_0_32044_029
+Field_8_3_0_32044_030
+Field_8_3_0_32044_031
+Field_8_3_0_32044_032
+Field_8_3_0_32044_033
+Field_8_3_0_32044_034
+Field_8_3_0_32044_035
+Field_8_3_0_32044_036<u8>
+Field_8_3_0_32044_037<u8>
+Field_8_3_0_32044_038<u8>
+Field_8_3_0_32044_039<u8>
+Field_8_3_0_32044_040<u8>
+Field_8_3_0_32044_041<u8>
+Field_8_3_0_32044_042
+Field_8_3_0_32044_043
+Field_8_3_0_32044_044
+Field_8_3_0_32044_045<u32>
+Field_8_3_0_32044_046
+Field_8_3_0_32044_047
+Field_8_3_0_32044_048<u16>
+Field_8_3_0_32044_049<u8>
+Field_8_3_0_32044_050<u8>
+Field_8_3_0_32044_051<u32>
+Field_8_3_0_32044_052
+Field_8_3_0_32044_053
+Field_8_3_0_32044_054<u16>[11]
+Field_8_3_0_32044_055[3]
+Field_8_3_0_32044_056[3]
+Field_8_3_0_32044_057[3]
+Field_8_3_0_32044_058[3]
+Field_8_3_0_32044_059<32>[3]

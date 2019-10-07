@@ -31,6 +31,29 @@ int<AreaTable::ID> ParentAreaNum
 int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
+string Field_8_3_0_32044_000?
+locstring Field_8_3_0_32044_001_lang?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+int Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
+float Field_8_3_0_32044_015?
+int Field_8_3_0_32044_016?
+int Field_8_3_0_32044_017?
+int Field_8_3_0_32044_018?
+int Field_8_3_0_32044_019?
+int Field_8_3_0_32044_020?
+int Field_8_3_0_32044_021?
+int Field_8_3_0_32044_022?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -178,3 +201,30 @@ WildBattlePetLevelMax<u8>
 WindSettingsID<u8>
 Flags<32>[2]
 LiquidTypeID<u16>[4]
+
+LAYOUT 9944A57F
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001_lang
+Field_8_3_0_32044_002<u16>
+Field_8_3_0_32044_003<u16>
+Field_8_3_0_32044_004<16>
+Field_8_3_0_32044_005<u8>
+Field_8_3_0_32044_006<u8>
+Field_8_3_0_32044_007<u16>
+Field_8_3_0_32044_008<u16>
+Field_8_3_0_32044_009<u16>
+Field_8_3_0_32044_010<u16>
+Field_8_3_0_32044_011<8>
+Field_8_3_0_32044_012<u16>
+Field_8_3_0_32044_013<u32>
+Field_8_3_0_32044_014<u8>
+Field_8_3_0_32044_015
+Field_8_3_0_32044_016<u8>
+Field_8_3_0_32044_017<16>
+Field_8_3_0_32044_018<u8>
+Field_8_3_0_32044_019<u8>
+Field_8_3_0_32044_020<u8>
+Field_8_3_0_32044_021<32>[2]
+Field_8_3_0_32044_022<u16>[4]

@@ -3,6 +3,10 @@ int ID
 int X
 int Y
 int<QuestPOIBlob::ID> QuestPOIBlobID
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -23,3 +27,10 @@ X<16>
 Y<16>
 $id$ID<32>
 $noninline,relation$QuestPOIBlobID<32>
+
+LAYOUT CCABC187
+BUILD 8.3.0.32044
+$id$Field_8_3_0_32044_000<32>
+Field_8_3_0_32044_001<16>
+Field_8_3_0_32044_002<16>
+$noninline,relation$Field_8_3_0_32044_003<32>

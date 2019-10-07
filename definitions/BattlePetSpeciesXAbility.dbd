@@ -4,6 +4,10 @@ int<BattlePetAbility::ID> BattlePetAbilityID
 int<BattlePetSpecies::ID> BattlePetSpeciesID
 int RequiredLevel
 int SlotEnum
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -19,3 +23,11 @@ BattlePetAbilityID<u16>
 RequiredLevel<u8>
 SlotEnum<8>
 $noninline,relation$BattlePetSpeciesID<u16>
+
+LAYOUT E27BBDC8
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<u16>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<8>
+$noninline,relation$Field_8_3_0_32044_003<u16>

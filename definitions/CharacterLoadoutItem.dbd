@@ -4,6 +4,8 @@ int<CharacterLoadout::ID> CharacterLoadoutID
 int<Item::ID> ItemID
 int<ItemDisplayInfo::ID> ItemDisplayInfoID
 int ItemInventoryType
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -23,3 +25,9 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 $noninline,id$ID<32>
 $relation$CharacterLoadoutID<u16>
 ItemID<u32>
+
+LAYOUT FE6D6D4D
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+$relation$Field_8_3_0_32044_000<u16>
+Field_8_3_0_32044_001<u32>

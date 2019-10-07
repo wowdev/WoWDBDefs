@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<SoundEmitters::ID> SoundEmittersID
 float Position
+float Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -13,3 +15,9 @@ BUILD 1.13.0.28211, 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13
 $noninline,id$ID<32>
 Position[3]
 $relation$SoundEmittersID<u16>
+
+LAYOUT 3F03ED1B
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000[3]
+$relation$Field_8_3_0_32044_001<u16>

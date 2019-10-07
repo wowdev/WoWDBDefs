@@ -34,6 +34,40 @@ float SoundEmitterDistance
 int<SoundKit::ID> SoundKitID
 float Field_2019126589?
 float Field_002241990?
+float Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+float Field_8_3_0_32044_003?
+float Field_8_3_0_32044_004?
+float Field_8_3_0_32044_005?
+float Field_8_3_0_32044_006?
+float Field_8_3_0_32044_007?
+float Field_8_3_0_32044_008?
+float Field_8_3_0_32044_009?
+float Field_8_3_0_32044_010?
+float Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+float Field_8_3_0_32044_013?
+float Field_8_3_0_32044_014?
+float Field_8_3_0_32044_015?
+float Field_8_3_0_32044_016?
+float Field_8_3_0_32044_017?
+float Field_8_3_0_32044_018?
+float Field_8_3_0_32044_019?
+float Field_8_3_0_32044_020?
+int Field_8_3_0_32044_021?
+int Field_8_3_0_32044_022?
+float Field_8_3_0_32044_023?
+float Field_8_3_0_32044_024?
+float Field_8_3_0_32044_025?
+float Field_8_3_0_32044_026?
+float Field_8_3_0_32044_027?
+float Field_8_3_0_32044_028?
+float Field_8_3_0_32044_029?
+float Field_8_3_0_32044_030?
+float Field_8_3_0_32044_031?
+float Field_8_3_0_32044_032?
+float Field_8_3_0_32044_033?
 
 LAYOUT C0E38C34
 BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
@@ -180,3 +214,41 @@ GroundBrightnessScalar
 BoltBrightnessScalar
 CloudBrightnessScalar
 SoundEmitterDistance
+
+LAYOUT 5CA01131
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000[2]
+Field_8_3_0_32044_001<32>[3]
+Field_8_3_0_32044_002
+Field_8_3_0_32044_003
+Field_8_3_0_32044_004
+Field_8_3_0_32044_005
+Field_8_3_0_32044_006
+Field_8_3_0_32044_007
+Field_8_3_0_32044_008
+Field_8_3_0_32044_009
+Field_8_3_0_32044_010
+Field_8_3_0_32044_011
+Field_8_3_0_32044_012<32>
+Field_8_3_0_32044_013
+Field_8_3_0_32044_014
+Field_8_3_0_32044_015
+Field_8_3_0_32044_016
+Field_8_3_0_32044_017
+Field_8_3_0_32044_018
+Field_8_3_0_32044_019
+Field_8_3_0_32044_020
+Field_8_3_0_32044_021<32>
+Field_8_3_0_32044_022<32>
+Field_8_3_0_32044_023
+Field_8_3_0_32044_024
+Field_8_3_0_32044_025
+Field_8_3_0_32044_026
+Field_8_3_0_32044_027
+Field_8_3_0_32044_028
+Field_8_3_0_32044_029
+Field_8_3_0_32044_030
+Field_8_3_0_32044_031
+Field_8_3_0_32044_032
+Field_8_3_0_32044_033

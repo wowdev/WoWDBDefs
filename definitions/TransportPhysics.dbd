@@ -10,6 +10,16 @@ float MaxBank
 float MaxBankTurnSpeed
 float SpeedDampThresh
 float SpeedDamp
+float Field_8_3_0_32044_000?
+float Field_8_3_0_32044_001?
+float Field_8_3_0_32044_002?
+float Field_8_3_0_32044_003?
+float Field_8_3_0_32044_004?
+float Field_8_3_0_32044_005?
+float Field_8_3_0_32044_006?
+float Field_8_3_0_32044_007?
+float Field_8_3_0_32044_008?
+float Field_8_3_0_32044_009?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 2.3.0.7561-2.4.3.8606
@@ -42,3 +52,17 @@ MaxBank
 MaxBankTurnSpeed
 SpeedDampThresh
 SpeedDamp
+
+LAYOUT 1096CC46
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000
+Field_8_3_0_32044_001
+Field_8_3_0_32044_002
+Field_8_3_0_32044_003
+Field_8_3_0_32044_004
+Field_8_3_0_32044_005
+Field_8_3_0_32044_006
+Field_8_3_0_32044_007
+Field_8_3_0_32044_008
+Field_8_3_0_32044_009

@@ -3,6 +3,9 @@ int ID
 int<SpellFlyout::ID> SpellFlyoutID
 int<Spell::ID> SpellID
 int Slot
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -16,3 +19,10 @@ $noninline,id$ID<32>
 SpellID<32>
 Slot<u8>
 $noninline,relation$SpellFlyoutID<u8>
+
+LAYOUT 81D71684
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<32>
+Field_8_3_0_32044_001<u8>
+$noninline,relation$Field_8_3_0_32044_002<u8>

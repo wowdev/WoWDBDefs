@@ -5,6 +5,10 @@ int<Difficulty::ID> DifficultyID
 int EquippedItemClass
 int EquippedItemInvTypes
 int EquippedItemSubclass
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -29,3 +33,11 @@ SpellID<32>
 EquippedItemClass<8>
 EquippedItemInvTypes<32>
 EquippedItemSubclass<32>
+
+LAYOUT E6040358
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000<32>
+Field_8_3_0_32044_001<8>
+Field_8_3_0_32044_002<32>
+Field_8_3_0_32044_003<32>

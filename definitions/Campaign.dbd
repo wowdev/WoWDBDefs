@@ -7,6 +7,14 @@ int<UiTextureKit::ID> UiTextureKitID?
 int<QuestV2::ID> RewardQuestID
 int<PlayerCondition::ID> PlayerConditionID?
 int Field_8_2_5_31401_007?
+locstring Field_8_3_0_32044_000_lang?
+string Field_8_3_0_32044_001?
+locstring Field_8_3_0_32044_002_lang?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
 
 LAYOUT 0B271FD9
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -38,3 +46,14 @@ UiTextureKitID<u32>
 RewardQuestID<u32>
 PlayerConditionID<u32>
 Field_8_2_5_31401_007<u32>
+
+LAYOUT 9794A9C1
+BUILD 8.3.0.32044
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001
+Field_8_3_0_32044_002_lang
+$id$Field_8_3_0_32044_003<u32>
+Field_8_3_0_32044_004<u32>
+Field_8_3_0_32044_005<u32>
+Field_8_3_0_32044_006<u32>
+Field_8_3_0_32044_007<u32>

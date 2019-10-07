@@ -23,6 +23,28 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
+locstring Field_8_3_0_32044_000_lang?
+locstring Field_8_3_0_32044_001_lang?
+locstring Field_8_3_0_32044_002_lang?
+locstring Field_8_3_0_32044_003_lang?
+locstring Field_8_3_0_32044_004_lang?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
+int Field_8_3_0_32044_011?
+int Field_8_3_0_32044_012?
+int Field_8_3_0_32044_013?
+int Field_8_3_0_32044_014?
+int Field_8_3_0_32044_015?
+int Field_8_3_0_32044_016?
+int Field_8_3_0_32044_017?
+int Field_8_3_0_32044_018?
+int Field_8_3_0_32044_019?
+int Field_8_3_0_32044_020?
+int Field_8_3_0_32044_021?
 
 LAYOUT B2FFA8DD, 2C723565
 BUILD 1.13.0.28211, 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
@@ -179,3 +201,29 @@ CurrencyQuantity<u32>
 UIMapID<u16>
 BonusPlayerConditionID<u32>[2]
 BonusValue<u8>[2]
+
+LAYOUT 76736DC1
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+Field_8_3_0_32044_000_lang
+Field_8_3_0_32044_001_lang
+Field_8_3_0_32044_002_lang
+Field_8_3_0_32044_003_lang
+Field_8_3_0_32044_004_lang
+Field_8_3_0_32044_005<u8>
+Field_8_3_0_32044_006<u32>
+Field_8_3_0_32044_007<u8>
+Field_8_3_0_32044_008<u8>
+Field_8_3_0_32044_009<32>
+Field_8_3_0_32044_010<u16>
+Field_8_3_0_32044_011<u16>
+Field_8_3_0_32044_012<u16>
+Field_8_3_0_32044_013<u8>
+Field_8_3_0_32044_014<u8>
+Field_8_3_0_32044_015<32>
+Field_8_3_0_32044_016<u32>
+Field_8_3_0_32044_017<u16>
+Field_8_3_0_32044_018<u32>
+Field_8_3_0_32044_019<u16>
+Field_8_3_0_32044_020<u32>[2]
+Field_8_3_0_32044_021<u8>[2]
