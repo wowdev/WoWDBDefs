@@ -3,10 +3,6 @@ int ID?
 int<Map::ID> MapID?
 float Pos?
 float Rot
-float Field_8_3_0_32044_000?
-float Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 LAYOUT BA7B612A
 BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -21,10 +17,3 @@ Pos[3]
 Rot[3]
 $id$ID<32>
 MapID<32>
-
-LAYOUT AC2ED558
-BUILD 8.3.0.32044
-Field_8_3_0_32044_000[3]
-Field_8_3_0_32044_001[3]
-$id$Field_8_3_0_32044_002<32>
-Field_8_3_0_32044_003<32>

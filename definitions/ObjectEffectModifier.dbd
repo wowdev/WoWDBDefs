@@ -4,10 +4,6 @@ int InputType
 int MapType
 int OutputType
 float Param
-float Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 3.0.2.8885, 3.0.8.9328, 4.0.0.11792, 6.0.1.18179
 BUILD 3.0.1.8622-3.3.5.12340
@@ -26,11 +22,3 @@ Param[4]
 InputType<u8>
 MapType<u8>
 OutputType<u8>
-
-LAYOUT 918E2238
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000[4]
-Field_8_3_0_32044_001<u8>
-Field_8_3_0_32044_002<u8>
-Field_8_3_0_32044_003<u8>

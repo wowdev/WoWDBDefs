@@ -10,13 +10,6 @@ int Flags
 int HordeConstructObjID
 int PlotType
 int UiCategoryID
-string Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -58,14 +51,3 @@ AllianceConstructObjID<32>
 Flags<u8>
 UiCategoryID<u8>
 UpgradeRequirement<u32>[2]
-
-LAYOUT 3729D438
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000
-Field_8_3_0_32044_001<u8>
-Field_8_3_0_32044_002<32>
-Field_8_3_0_32044_003<32>
-Field_8_3_0_32044_004<u8>
-Field_8_3_0_32044_005<u8>
-Field_8_3_0_32044_006<u32>[2]

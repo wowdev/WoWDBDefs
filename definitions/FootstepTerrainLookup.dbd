@@ -4,10 +4,6 @@ int CreatureFootstepID
 int<TerrainType::ID> TerrainSoundID
 int<SoundEntries::ID> SoundID
 int<SoundEntries::ID> SoundIDSplash
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.3.3368-0.12.0.3988
@@ -30,11 +26,3 @@ CreatureFootstepID<u16>
 TerrainSoundID<8>
 SoundID<u32>
 SoundIDSplash<u32>
-
-LAYOUT 3A1114BC
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u16>
-Field_8_3_0_32044_001<8>
-Field_8_3_0_32044_002<u32>
-Field_8_3_0_32044_003<u32>

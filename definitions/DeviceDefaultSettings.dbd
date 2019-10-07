@@ -3,9 +3,6 @@ int ID
 int DefaultSetting
 int DeviceID
 int VendorID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -26,10 +23,3 @@ $noninline,id$ID<32>
 VendorID<u16>
 DeviceID<u16>
 DefaultSetting<8>
-
-LAYOUT 605C20D9
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u16>
-Field_8_3_0_32044_001<u16>
-Field_8_3_0_32044_002<8>

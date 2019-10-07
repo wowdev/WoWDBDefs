@@ -59,52 +59,6 @@ int MaleModelFallbackSex
 int MaleTextureFallbackRaceID
 int MaleTextureFallbackSex
 int<ChrRaces::ID> BaseRaceID?
-string Field_8_3_0_32044_000?
-string Field_8_3_0_32044_001?
-locstring Field_8_3_0_32044_002_lang?
-locstring Field_8_3_0_32044_003_lang?
-locstring Field_8_3_0_32044_004_lang?
-locstring Field_8_3_0_32044_005_lang?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
-int Field_8_3_0_32044_011?
-int Field_8_3_0_32044_012?
-int Field_8_3_0_32044_013?
-float Field_8_3_0_32044_014?
-float Field_8_3_0_32044_015?
-int Field_8_3_0_32044_016?
-int Field_8_3_0_32044_017?
-int Field_8_3_0_32044_018?
-int Field_8_3_0_32044_019?
-int Field_8_3_0_32044_020?
-int Field_8_3_0_32044_021?
-int Field_8_3_0_32044_022?
-int Field_8_3_0_32044_023?
-int Field_8_3_0_32044_024?
-int Field_8_3_0_32044_025?
-int Field_8_3_0_32044_026?
-int Field_8_3_0_32044_027?
-int Field_8_3_0_32044_028?
-int Field_8_3_0_32044_029?
-int Field_8_3_0_32044_030?
-int Field_8_3_0_32044_031?
-int Field_8_3_0_32044_032?
-int Field_8_3_0_32044_033?
-int Field_8_3_0_32044_034?
-int Field_8_3_0_32044_035?
-int Field_8_3_0_32044_036?
-int Field_8_3_0_32044_037?
-int Field_8_3_0_32044_038?
-int Field_8_3_0_32044_039?
-int Field_8_3_0_32044_040?
-int Field_8_3_0_32044_041?
-int Field_8_3_0_32044_042?
-int Field_8_3_0_32044_043?
-int Field_8_3_0_32044_044?
-int Field_8_3_0_32044_045?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -519,52 +473,3 @@ MaleTextureFallbackRaceID<8>
 MaleTextureFallbackSex<8>
 FemaleTextureFallbackRaceID<8>
 FemaleTextureFallbackSex<8>
-
-LAYOUT C0CADF15
-BUILD 8.3.0.32044
-Field_8_3_0_32044_000
-Field_8_3_0_32044_001
-Field_8_3_0_32044_002_lang
-Field_8_3_0_32044_003_lang
-Field_8_3_0_32044_004_lang
-Field_8_3_0_32044_005_lang
-$id$Field_8_3_0_32044_006<32>
-Field_8_3_0_32044_007<32>
-Field_8_3_0_32044_008<u32>
-Field_8_3_0_32044_009<u32>
-Field_8_3_0_32044_010<u32>
-Field_8_3_0_32044_011<u32>
-Field_8_3_0_32044_012<32>
-Field_8_3_0_32044_013<32>
-Field_8_3_0_32044_014[3]
-Field_8_3_0_32044_015[3]
-Field_8_3_0_32044_016<32>
-Field_8_3_0_32044_017<u32>[3]
-Field_8_3_0_32044_018<u32>[3]
-Field_8_3_0_32044_019<32>
-Field_8_3_0_32044_020<32>
-Field_8_3_0_32044_021<32>
-Field_8_3_0_32044_022<32>
-Field_8_3_0_32044_023<32>
-Field_8_3_0_32044_024<32>
-Field_8_3_0_32044_025<16>
-Field_8_3_0_32044_026<16>
-Field_8_3_0_32044_027<16>
-Field_8_3_0_32044_028<16>
-Field_8_3_0_32044_029<8>
-Field_8_3_0_32044_030<8>
-Field_8_3_0_32044_031<8>
-Field_8_3_0_32044_032<8>
-Field_8_3_0_32044_033<8>
-Field_8_3_0_32044_034<8>
-Field_8_3_0_32044_035<8>
-Field_8_3_0_32044_036<8>
-Field_8_3_0_32044_037<8>
-Field_8_3_0_32044_038<8>
-Field_8_3_0_32044_039<8>
-Field_8_3_0_32044_040<8>
-Field_8_3_0_32044_041<8>
-Field_8_3_0_32044_042<8>
-Field_8_3_0_32044_043<8>
-Field_8_3_0_32044_044<8>
-Field_8_3_0_32044_045<8>

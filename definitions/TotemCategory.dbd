@@ -3,9 +3,6 @@ int ID
 locstring Name_lang
 int TotemCategoryType
 int TotemCategoryMask
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 2.0.0.5610-2.4.3.8606
@@ -31,10 +28,3 @@ $noninline,id$ID<32>
 Name_lang
 TotemCategoryType<u8>
 TotemCategoryMask<32>
-
-LAYOUT FF4D821C
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001<u8>
-Field_8_3_0_32044_002<32>

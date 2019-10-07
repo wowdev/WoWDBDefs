@@ -20,21 +20,6 @@ int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
 int InlineWMOID
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
-int Field_8_3_0_32044_011?
-int Field_8_3_0_32044_012?
-int Field_8_3_0_32044_013?
-int Field_8_3_0_32044_014?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.12319-4.3.4.15595
@@ -163,21 +148,3 @@ IntroSound<u16>
 UwIntroSound<u16>
 AreaTableID<u16>
 Flags<u8>
-
-LAYOUT CC3C73FF
-BUILD 8.3.0.32044
-Field_8_3_0_32044_000_lang
-$id$Field_8_3_0_32044_001<32>
-$relation$Field_8_3_0_32044_002<u16>
-Field_8_3_0_32044_003<u8>
-Field_8_3_0_32044_004<32>
-Field_8_3_0_32044_005<u8>
-Field_8_3_0_32044_006<u8>
-Field_8_3_0_32044_007<u16>
-Field_8_3_0_32044_008<u16>
-Field_8_3_0_32044_009<u16>
-Field_8_3_0_32044_010<u32>
-Field_8_3_0_32044_011<u16>
-Field_8_3_0_32044_012<u16>
-Field_8_3_0_32044_013<u16>
-Field_8_3_0_32044_014<u8>

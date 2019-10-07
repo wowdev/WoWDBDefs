@@ -6,13 +6,6 @@ int<BattlePetEffectProperties::ID> BattlePetEffectPropertiesID
 int<BattlePetVisual::ID> BattlePetVisualID
 int OrderIndex
 int Param
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -52,13 +45,3 @@ BattlePetEffectPropertiesID<u16>
 AuraBattlePetAbilityID<u16>
 BattlePetVisualID<u16>
 Param<16>[6]
-
-LAYOUT 44578ACF
-BUILD 8.3.0.32044
-$id$Field_8_3_0_32044_000<32>
-$relation$Field_8_3_0_32044_001<u16>
-Field_8_3_0_32044_002<u8>
-Field_8_3_0_32044_003<u16>
-Field_8_3_0_32044_004<u16>
-Field_8_3_0_32044_005<u16>
-Field_8_3_0_32044_006<16>[6]

@@ -5,10 +5,6 @@ float PriceModifier
 locstring ClassName_lang
 int ID
 int SubclassMapID
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-float Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15726-5.4.8.18414
@@ -65,11 +61,3 @@ ClassName_lang
 ClassID<8>
 PriceModifier
 Flags<u8>
-
-LAYOUT 560AF57A
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001<8>
-Field_8_3_0_32044_002
-Field_8_3_0_32044_003<u8>

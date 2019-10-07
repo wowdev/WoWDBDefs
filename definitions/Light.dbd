@@ -5,11 +5,6 @@ int<LightParams::ID> LightParamsID
 float GameCoords
 float GameFalloffEnd
 float GameFalloffStart
-float Field_8_3_0_32044_000?
-float Field_8_3_0_32044_001?
-float Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 3.0.1.8622-3.3.5.12340
@@ -41,12 +36,3 @@ GameCoords[3]
 GameFalloffStart
 GameFalloffEnd
 LightParamsID<32>[5]
-
-LAYOUT 9088A2A3
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000[3]
-Field_8_3_0_32044_001
-Field_8_3_0_32044_002
-Field_8_3_0_32044_003<16>
-Field_8_3_0_32044_004<u16>[8]

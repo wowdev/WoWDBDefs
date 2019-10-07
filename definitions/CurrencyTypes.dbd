@@ -15,18 +15,6 @@ int<Item::ID> ItemID
 int BitIndex
 int<Faction::ID> FactionID
 int Field_8_1_5_29352_011?
-locstring Field_8_3_0_32044_000_lang?
-locstring Field_8_3_0_32044_001_lang?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
-int Field_8_3_0_32044_011?
 
 BUILD 6.0.1.18179
 BUILD 5.2.0.16516-5.4.8.18414
@@ -107,19 +95,3 @@ Flags<u32>
 Quality<8>
 FactionID<32>
 Field_8_1_5_29352_011<32>
-
-LAYOUT 591EBA32
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001_lang
-Field_8_3_0_32044_002<u8>
-Field_8_3_0_32044_003<32>
-Field_8_3_0_32044_004<u32>
-Field_8_3_0_32044_005<u8>
-Field_8_3_0_32044_006<u32>
-Field_8_3_0_32044_007<u32>
-Field_8_3_0_32044_008<u32>
-Field_8_3_0_32044_009<8>
-Field_8_3_0_32044_010<32>
-Field_8_3_0_32044_011<32>

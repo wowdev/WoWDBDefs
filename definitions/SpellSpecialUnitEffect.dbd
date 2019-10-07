@@ -3,8 +3,6 @@ int EnumID
 int<SpellVisualEffectName::ID> SpellVisualEffectNameID
 int ID
 int<Positioner::ID> PositionerID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
 
 BUILD 6.0.1.18179
 $id$EnumID<32>
@@ -15,9 +13,3 @@ BUILD 1.13.0.28211, 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13
 $noninline,id$ID<32>
 SpellVisualEffectNameID<u16>
 PositionerID<u32>
-
-LAYOUT BD6355C5
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u16>
-Field_8_3_0_32044_001<u32>

@@ -4,11 +4,6 @@ int SrcAnimID
 int DstAnimID
 int<AnimReplacementSet::ID> ParentAnimReplacementSetID
 int Flags
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -31,11 +26,3 @@ SrcAnimID<u16>
 DstAnimID<u16>
 Flags<u16>
 $noninline,relation$ParentAnimReplacementSetID<u16>
-
-LAYOUT E3973DD4
-BUILD 8.3.0.32044
-$id$Field_8_3_0_32044_000<32>
-Field_8_3_0_32044_001<u16>
-Field_8_3_0_32044_002<u16>
-Field_8_3_0_32044_003<u16>
-$noninline,relation$Field_8_3_0_32044_004<u16>

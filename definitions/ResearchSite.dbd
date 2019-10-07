@@ -4,10 +4,6 @@ int<Map::ID> MapID
 int<QuestPOIBlob::ID> QuestPOIBlobID
 locstring Name_lang
 int AreaPOIIconEnum
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -31,11 +27,3 @@ Name_lang
 MapID<16>
 QuestPOIBlobID<32>
 AreaPOIIconEnum<u32>
-
-LAYOUT D726A6EE
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001<16>
-Field_8_3_0_32044_002<32>
-Field_8_3_0_32044_003<u32>

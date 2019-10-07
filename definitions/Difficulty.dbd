@@ -16,19 +16,6 @@ int OrderIndex
 int Field_671037085?
 int Field_1499908958?
 int Field_964067792?
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
-int Field_8_3_0_32044_011?
-int Field_8_3_0_32044_012?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -111,20 +98,3 @@ ToggleDifficultyID<u8>
 Field_671037085<u16>
 Field_1499908958<u16>
 Field_964067792<u16>
-
-LAYOUT 7B0916B2
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001<u8>
-Field_8_3_0_32044_002<u8>
-Field_8_3_0_32044_003<8>
-Field_8_3_0_32044_004<u8>
-Field_8_3_0_32044_005<u8>
-Field_8_3_0_32044_006<u8>
-Field_8_3_0_32044_007<u16>
-Field_8_3_0_32044_008<u8>
-Field_8_3_0_32044_009<u8>
-Field_8_3_0_32044_010<u16>
-Field_8_3_0_32044_011<u16>
-Field_8_3_0_32044_012<u16>

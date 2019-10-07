@@ -4,10 +4,6 @@ int Flags
 int FactionGroup
 locstring Name_lang
 locstring Shortcut_lang
-locstring Field_8_3_0_32044_000_lang?
-locstring Field_8_3_0_32044_001_lang?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.5.3494-0.12.0.3988
@@ -30,11 +26,3 @@ Name_lang
 Shortcut_lang
 Flags<32>
 FactionGroup<8>
-
-LAYOUT 66E15E36
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001_lang
-Field_8_3_0_32044_002<32>
-Field_8_3_0_32044_003<8>

@@ -3,9 +3,6 @@ string LuaName
 int ID
 int<BattlePetVisual::ID> BattlePetVisualID
 int Flags
-string Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -26,10 +23,3 @@ $noninline,id$ID<32>
 LuaName
 Flags<u16>
 BattlePetVisualID<u16>
-
-LAYOUT EED9BB1F
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000
-Field_8_3_0_32044_001<u16>
-Field_8_3_0_32044_002<u16>

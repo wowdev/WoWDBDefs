@@ -3,9 +3,6 @@ int ID
 int<UiWidget::ID> ParentWidgetID
 int<UiWidgetVisTypeDataReq::ID> ReqID
 int Value
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
 
 LAYOUT 005558D3
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -27,10 +24,3 @@ $noninline,id$ID<32>
 ReqID<u16>
 Value<32>
 $noninline,relation$ParentWidgetID<32>
-
-LAYOUT 2B8A65DD
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u16>
-Field_8_3_0_32044_001<32>
-$noninline,relation$Field_8_3_0_32044_002<32>

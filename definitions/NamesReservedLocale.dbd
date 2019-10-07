@@ -2,8 +2,6 @@ COLUMNS
 int ID
 string Name
 int LocaleMask
-string Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -15,9 +13,3 @@ BUILD 1.13.0.28211, 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13
 $noninline,id$ID<32>
 Name
 LocaleMask<u8>
-
-LAYOUT 5144468F
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000
-Field_8_3_0_32044_001<u8>

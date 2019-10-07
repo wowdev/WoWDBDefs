@@ -3,9 +3,6 @@ int ID
 int<FriendshipReputation::ID> FriendshipRepID
 int ReactionThreshold
 locstring Reaction_lang
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -33,10 +30,3 @@ $noninline,id$ID<32>
 Reaction_lang
 FriendshipRepID<u32>
 ReactionThreshold<u16>
-
-LAYOUT 78A33CF1
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-$relation$Field_8_3_0_32044_001<u32>
-Field_8_3_0_32044_002<u16>

@@ -14,12 +14,6 @@ float ModelScale
 float Spacing
 string Name
 int EnumID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-float Field_8_3_0_32044_003?
-float Field_8_3_0_32044_004?
-float Field_8_3_0_32044_005?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -75,13 +69,3 @@ LifeTime<32>
 EmissionRate
 Spacing
 ModelScale
-
-LAYOUT 45686FDD
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<32>
-Field_8_3_0_32044_001<u8>
-Field_8_3_0_32044_002<u16>
-Field_8_3_0_32044_003
-Field_8_3_0_32044_004
-Field_8_3_0_32044_005

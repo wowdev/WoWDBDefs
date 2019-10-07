@@ -6,10 +6,6 @@ int ID
 int ModalNextSpell
 int SpellClassSet
 int<Spell::ID> SpellID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -32,11 +28,3 @@ SpellID<32>
 ModalNextSpell<u32>
 SpellClassSet<u8>
 SpellClassMask<32>[4]
-
-LAYOUT F6EF2BD9
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<32>
-Field_8_3_0_32044_001<u32>
-Field_8_3_0_32044_002<u8>
-Field_8_3_0_32044_003<32>[4]

@@ -27,16 +27,6 @@ int RequiredArenaRating
 int HonorPoints
 int ArenaPoints
 int<ItemPurchaseGroup::ID> ItemPurchaseGroup
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -107,17 +97,3 @@ ItemID<32>[5]
 ItemCount<u16>[5]
 CurrencyID<u16>[5]
 CurrencyCount<u32>[5]
-
-LAYOUT AE07F513
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u16>
-Field_8_3_0_32044_001<8>
-Field_8_3_0_32044_002<u8>
-Field_8_3_0_32044_003<u8>
-Field_8_3_0_32044_004<u8>
-Field_8_3_0_32044_005<u8>
-Field_8_3_0_32044_006<32>[5]
-Field_8_3_0_32044_007<u16>[5]
-Field_8_3_0_32044_008<u16>[5]
-Field_8_3_0_32044_009<u32>[5]

@@ -3,9 +3,6 @@ int ID
 int<DeclinedWord::ID> DeclinedWordID
 int CaseIndex
 string DeclinedWord
-string Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 2.4.0.8089-2.4.3.8606
@@ -24,10 +21,3 @@ $noninline,id$ID<32>
 DeclinedWord
 CaseIndex<8>
 $noninline,relation$DeclinedWordID<32>
-
-LAYOUT FD4E7262
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000
-Field_8_3_0_32044_001<8>
-$noninline,relation$Field_8_3_0_32044_002<32>

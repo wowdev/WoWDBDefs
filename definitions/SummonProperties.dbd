@@ -5,11 +5,6 @@ int Faction
 int Title
 int Slot
 int Flags
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 3.0.1.8303-3.3.5.12340
@@ -41,12 +36,3 @@ Title<32>
 Slot<32>
 Flags<32>
 
-
-LAYOUT E3512881
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<32>
-Field_8_3_0_32044_001<32>
-Field_8_3_0_32044_002<32>
-Field_8_3_0_32044_003<32>
-Field_8_3_0_32044_004<32>

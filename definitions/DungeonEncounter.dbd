@@ -12,17 +12,6 @@ int<FileData::ID> SpellIconFileID
 int Difficulty
 int Field_8_1_0_28294_009?
 int Field_8_1_5_29281_005?
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -96,17 +85,3 @@ CreatureDisplayID<32>
 Flags<u8>
 SpellIconFileID<32>
 Field_8_1_0_28294_009<32>
-
-LAYOUT FED52D20
-BUILD 8.3.0.32044
-Field_8_3_0_32044_000_lang
-$id$Field_8_3_0_32044_001<32>
-$relation$Field_8_3_0_32044_002<16>
-Field_8_3_0_32044_003<8>
-Field_8_3_0_32044_004<32>
-Field_8_3_0_32044_005<32>
-Field_8_3_0_32044_006<8>
-Field_8_3_0_32044_007<32>
-Field_8_3_0_32044_008<u8>
-Field_8_3_0_32044_009<32>
-Field_8_3_0_32044_010<32>

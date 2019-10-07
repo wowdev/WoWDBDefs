@@ -16,19 +16,6 @@ int Flags
 int MapPointX
 int MapPointY
 int<UiMapArt::ID> UiMapArtID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
-int Field_8_3_0_32044_011?
-int Field_8_3_0_32044_012?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15668-5.4.8.18414
@@ -132,19 +119,3 @@ HitRectRight<32>
 PlayerConditionID<u32>
 Flags<u32>
 AreaID<u32>[4]
-
-LAYOUT 40F7DB0A
-BUILD 8.3.0.32044
-$id$Field_8_3_0_32044_000<32>
-$relation$Field_8_3_0_32044_001<u32>
-Field_8_3_0_32044_002<u16>
-Field_8_3_0_32044_003<u16>
-Field_8_3_0_32044_004<32>
-Field_8_3_0_32044_005<32>
-Field_8_3_0_32044_006<32>
-Field_8_3_0_32044_007<32>
-Field_8_3_0_32044_008<32>
-Field_8_3_0_32044_009<32>
-Field_8_3_0_32044_010<u32>
-Field_8_3_0_32044_011<u32>
-Field_8_3_0_32044_012<u32>[4]

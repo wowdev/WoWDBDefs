@@ -4,10 +4,6 @@ int SizeClass
 int<TerrainTypeSounds::ID> TerrainTypeSoundID
 int<SoundEntries::ID> SoundEntryID
 int<SoundEntries::ID> SoundEntryIDWater
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.3.3368-0.12.0.3988
@@ -30,11 +26,3 @@ SizeClass<u8>
 TerrainTypeSoundID<u8>
 SoundEntryID<u32>
 SoundEntryIDWater<u32>
-
-LAYOUT A8BEE9BE
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u8>
-Field_8_3_0_32044_001<u8>
-Field_8_3_0_32044_002<u32>
-Field_8_3_0_32044_003<u32>

@@ -5,11 +5,6 @@ int<Creature::ID> CreatureID
 float Probability
 float Scale
 int OrderIndex
-int Field_8_3_0_32044_000?
-float Field_8_3_0_32044_001?
-float Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
 
 LAYOUT BB3E4A30
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175
@@ -27,12 +22,3 @@ Probability
 Scale
 OrderIndex<u8>
 $noninline,relation$CreatureID<32>
-
-LAYOUT 4BE9138D
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<32>
-Field_8_3_0_32044_001
-Field_8_3_0_32044_002
-Field_8_3_0_32044_003<u8>
-$noninline,relation$Field_8_3_0_32044_004<32>

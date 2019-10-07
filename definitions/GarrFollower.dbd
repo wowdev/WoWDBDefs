@@ -46,38 +46,6 @@ int ItemLevelWeapon
 int Quality
 locstring TitleName_lang
 int Vitality
-locstring Field_8_3_0_32044_000_lang?
-locstring Field_8_3_0_32044_001_lang?
-locstring Field_8_3_0_32044_002_lang?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
-int Field_8_3_0_32044_011?
-int Field_8_3_0_32044_012?
-int Field_8_3_0_32044_013?
-int Field_8_3_0_32044_014?
-int Field_8_3_0_32044_015?
-int Field_8_3_0_32044_016?
-int Field_8_3_0_32044_017?
-int Field_8_3_0_32044_018?
-int Field_8_3_0_32044_019?
-int Field_8_3_0_32044_020?
-int Field_8_3_0_32044_021?
-int Field_8_3_0_32044_022?
-int Field_8_3_0_32044_023?
-int Field_8_3_0_32044_024?
-int Field_8_3_0_32044_025?
-int Field_8_3_0_32044_026?
-int Field_8_3_0_32044_027?
-int Field_8_3_0_32044_028?
-int Field_8_3_0_32044_029?
-int Field_8_3_0_32044_030?
-int Field_8_3_0_32044_031?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -236,38 +204,3 @@ AllySlottingBroadcastTextID<u32>
 ChrClassID<u8>
 Flags<u8>
 Gender<u8>
-
-LAYOUT 1651FD00
-BUILD 8.3.0.32044
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001_lang
-Field_8_3_0_32044_002_lang
-$id$Field_8_3_0_32044_003<32>
-Field_8_3_0_32044_004<u8>
-Field_8_3_0_32044_005<u8>
-Field_8_3_0_32044_006<32>
-Field_8_3_0_32044_007<32>
-Field_8_3_0_32044_008<u8>
-Field_8_3_0_32044_009<u8>
-Field_8_3_0_32044_010<32>
-Field_8_3_0_32044_011<32>
-Field_8_3_0_32044_012<u8>
-Field_8_3_0_32044_013<u8>
-Field_8_3_0_32044_014<u16>
-Field_8_3_0_32044_015<u16>
-Field_8_3_0_32044_016<8>
-Field_8_3_0_32044_017<8>
-Field_8_3_0_32044_018<32>
-Field_8_3_0_32044_019<32>
-Field_8_3_0_32044_020<u16>
-Field_8_3_0_32044_021<u16>
-Field_8_3_0_32044_022<u16>
-Field_8_3_0_32044_023<u16>
-Field_8_3_0_32044_024<u8>
-Field_8_3_0_32044_025<u8>
-Field_8_3_0_32044_026<u8>
-Field_8_3_0_32044_027<u32>
-Field_8_3_0_32044_028<u32>
-Field_8_3_0_32044_029<u8>
-Field_8_3_0_32044_030<u8>
-Field_8_3_0_32044_031<u8>

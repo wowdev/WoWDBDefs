@@ -4,10 +4,6 @@ locstring InfoName_lang
 int Modifiers
 int Profession
 int Type
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 0.5.3.3368, 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.3.3368-0.12.0.3988
@@ -35,11 +31,3 @@ InfoName_lang
 Type<8>
 Modifiers<u8>
 Profession<u16>
-
-LAYOUT 54A97E8C
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001<8>
-Field_8_3_0_32044_002<u8>
-Field_8_3_0_32044_003<u16>

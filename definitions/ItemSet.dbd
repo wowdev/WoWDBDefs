@@ -7,11 +7,6 @@ int RequiredSkillRank
 int SetFlags
 int<Spell::ID> SetSpellID
 int SetThreshold
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -79,12 +74,3 @@ Name_lang
 ItemID<32>[56]
 SetSpellID<32>[8]
 SetThreshold<32>[8]
-
-LAYOUT 189535BF
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001<u32>
-Field_8_3_0_32044_002<u32>
-Field_8_3_0_32044_003<u16>
-Field_8_3_0_32044_004<u32>[17]

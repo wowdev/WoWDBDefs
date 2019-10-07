@@ -11,17 +11,6 @@ float PlayerMana
 float PlayerPrimaryStat
 float PlayerSecondaryStat
 float CreatureSpellDamage
-int Field_8_3_0_32044_000?
-float Field_8_3_0_32044_001?
-float Field_8_3_0_32044_002?
-float Field_8_3_0_32044_003?
-float Field_8_3_0_32044_004?
-float Field_8_3_0_32044_005?
-float Field_8_3_0_32044_006?
-float Field_8_3_0_32044_007?
-float Field_8_3_0_32044_008?
-float Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
 
 LAYOUT 8CE309AD
 BUILD 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141
@@ -51,18 +40,3 @@ PlayerSecondaryStat
 ArmorConstant
 CreatureSpellDamage
 $noninline,relation$Lvl<32>
-
-LAYOUT 5243495A
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<32>
-Field_8_3_0_32044_001
-Field_8_3_0_32044_002
-Field_8_3_0_32044_003
-Field_8_3_0_32044_004
-Field_8_3_0_32044_005
-Field_8_3_0_32044_006
-Field_8_3_0_32044_007
-Field_8_3_0_32044_008
-Field_8_3_0_32044_009
-$noninline,relation$Field_8_3_0_32044_010<32>

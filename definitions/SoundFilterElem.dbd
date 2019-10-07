@@ -4,9 +4,6 @@ int<SoundFilter::ID> SoundFilterID
 int OrderIndex
 int FilterType
 float Params
-float Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 3.0.1.8681-3.3.5.12340
@@ -25,10 +22,3 @@ $noninline,id$ID<32>
 Params[9]
 FilterType<8>
 $noninline,relation$SoundFilterID<8>
-
-LAYOUT B82801CC
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000[9]
-Field_8_3_0_32044_001<8>
-$noninline,relation$Field_8_3_0_32044_002<8>

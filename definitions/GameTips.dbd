@@ -4,10 +4,6 @@ locstring Text_lang
 int Min_level
 int Max_level
 int SortIndex
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.12911-4.3.4.15595
@@ -41,11 +37,3 @@ Text_lang
 SortIndex<u8>
 Min_level<u16>
 Max_level<u16>
-
-LAYOUT AC5C7C88
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001<u8>
-Field_8_3_0_32044_002<u16>
-Field_8_3_0_32044_003<u16>

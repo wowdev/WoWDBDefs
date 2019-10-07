@@ -9,12 +9,6 @@ int PlayerCritBloodSpurtID
 int PlayerHitBloodSpurtID
 int PlayerOmniCritBloodSpurtID
 int PlayerOmniHitBloodSpurtID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.3.3368-0.12.0.3988
@@ -44,13 +38,3 @@ BUILD 1.13.2.30979, 1.13.2.31043, 1.13.2.31118, 1.13.2.31209, 1.13.2.31402, 1.13
 $noninline,id$ID<32>
 CombatBloodSpurtFront<u32>[2]
 CombatBloodSpurtBack<u32>[2]
-
-LAYOUT 69E1F3A8
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u32>
-Field_8_3_0_32044_001<u32>
-Field_8_3_0_32044_002<u32>
-Field_8_3_0_32044_003<u32>
-Field_8_3_0_32044_004<u32>
-Field_8_3_0_32044_005<u32>

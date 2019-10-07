@@ -7,13 +7,6 @@ int Battle_populate_time
 int Min_level
 int Max_level
 int Map_ID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -45,14 +38,3 @@ Battle_populate_time<u16>
 Min_level<u8>
 Max_level<u8>
 Map_ID<16>
-
-LAYOUT 783DEE60
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u16>
-Field_8_3_0_32044_001<u16>
-Field_8_3_0_32044_002<u16>
-Field_8_3_0_32044_003<u16>
-Field_8_3_0_32044_004<u8>
-Field_8_3_0_32044_005<u8>
-Field_8_3_0_32044_006<16>

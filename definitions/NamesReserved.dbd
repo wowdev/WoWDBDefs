@@ -2,7 +2,6 @@ COLUMNS
 int ID
 string Name
 int Language
-string Field_8_3_0_32044_000?
 
 BUILD 0.5.3.3368, 6.0.1.18179
 $id$ID<32>
@@ -17,8 +16,3 @@ BUILD 4.0.0.11792
 $id$ID<32>
 Name
 Language<32>
-
-LAYOUT E722960A
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000

@@ -2,8 +2,6 @@ COLUMNS
 int ID
 float Quality
 int ItemLevel
-int Field_8_3_0_32044_000?
-float Field_8_3_0_32044_001?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 $id$ID<32>
@@ -21,9 +19,3 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 $noninline,id$ID<32>
 ItemLevel<u16>
 Quality[7]
-
-LAYOUT F2F36529
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u16>
-Field_8_3_0_32044_001[7]

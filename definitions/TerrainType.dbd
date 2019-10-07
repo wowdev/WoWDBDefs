@@ -6,11 +6,6 @@ int FootstepSprayRun
 int FootstepSprayWalk
 int SoundID
 int Flags
-string Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 4.0.0.11927-4.3.4.15595
@@ -63,12 +58,3 @@ FootstepSprayWalk<u16>
 SoundID<u8>
 Flags<u8>
 TerrainID<32>
-
-LAYOUT 7CE432CE
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000
-Field_8_3_0_32044_001<u16>
-Field_8_3_0_32044_002<u16>
-Field_8_3_0_32044_003<u8>
-Field_8_3_0_32044_004<u8>

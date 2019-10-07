@@ -2,8 +2,6 @@ COLUMNS
 int<JournalTier::ID> JournalTierID
 int<JournalInstance::ID> JournalInstanceID
 int ID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
 
 BUILD 6.0.1.18179
 JournalTierID<32>
@@ -14,9 +12,3 @@ BUILD 1.13.0.28211, 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13
 $noninline,id$ID<32>
 $relation$JournalTierID<u16>
 JournalInstanceID<u16>
-
-LAYOUT 88DBB128
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-$relation$Field_8_3_0_32044_000<u16>
-Field_8_3_0_32044_001<u16>

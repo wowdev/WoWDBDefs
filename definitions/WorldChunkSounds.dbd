@@ -11,12 +11,6 @@ int ZoneIntroMusicID
 int<ZoneMusic::ID> ZoneMusicID
 int<SoundAmbience::ID> SoundAmbienceID
 int<SoundProviderPreferences::ID> SoundProviderPreferencesID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -70,13 +64,3 @@ ChunkX<u8>
 ChunkY<u8>
 SubchunkX<u8>
 SubchunkY<u8>
-
-LAYOUT 67C4FB37
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u16>
-Field_8_3_0_32044_001<32>
-Field_8_3_0_32044_002<u8>
-Field_8_3_0_32044_003<u8>
-Field_8_3_0_32044_004<u8>
-Field_8_3_0_32044_005<u8>

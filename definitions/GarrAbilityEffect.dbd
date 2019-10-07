@@ -12,18 +12,6 @@ float CombatWeightMax
 int Flags
 int<GarrAbility::ID> GarrAbilityID
 int<GarrMechanicType::ID> GarrMechanicTypeID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-float Field_8_3_0_32044_005?
-float Field_8_3_0_32044_006?
-float Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
-int Field_8_3_0_32044_011?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -95,18 +83,3 @@ ActionRace<u8>
 ActionHours<u8>
 ActionRecordID<32>
 Flags<u8>
-
-LAYOUT F92DD786
-BUILD 8.3.0.32044
-$id$Field_8_3_0_32044_000<32>
-$relation$Field_8_3_0_32044_001<u16>
-Field_8_3_0_32044_002<u8>
-Field_8_3_0_32044_003<u8>
-Field_8_3_0_32044_004<32>
-Field_8_3_0_32044_005
-Field_8_3_0_32044_006
-Field_8_3_0_32044_007
-Field_8_3_0_32044_008<u8>
-Field_8_3_0_32044_009<u8>
-Field_8_3_0_32044_010<32>
-Field_8_3_0_32044_011<u8>

@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int EnumID
 int<SpellVisualKit::ID> VisualkitID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.5.3494-0.12.0.3988
@@ -28,9 +26,3 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 $noninline,id$ID<32>
 EnumID<u8>
 VisualkitID<u16>
-
-LAYOUT 7E47BDEE
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u8>
-Field_8_3_0_32044_001<u16>

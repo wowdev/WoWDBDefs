@@ -5,10 +5,6 @@ int RangeIndex
 int MinLevel
 int MaxLevel
 int Difficulty
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 4.0.0.11792
 BUILD 3.3.0.10958-3.3.5.12340
@@ -43,11 +39,3 @@ RangeIndex<u8>
 MinLevel<u8>
 MaxLevel<u8>
 $noninline,relation$MapID<u16>
-
-LAYOUT 8D90498B
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u8>
-Field_8_3_0_32044_001<u8>
-Field_8_3_0_32044_002<u8>
-$noninline,relation$Field_8_3_0_32044_003<u16>

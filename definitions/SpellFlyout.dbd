@@ -7,12 +7,6 @@ int<SpellIcon::ID> SpellIconID
 locstring Name_lang
 locstring Description_lang
 int<FileData::ID> SpellIconFileID
-int Field_8_3_0_32044_000?
-locstring Field_8_3_0_32044_001_lang?
-locstring Field_8_3_0_32044_002_lang?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -32,13 +26,3 @@ Description_lang
 Flags<u8>
 ClassMask<32>
 SpellIconFileID<32>
-
-LAYOUT 2EAF1C11
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<64>
-Field_8_3_0_32044_001_lang
-Field_8_3_0_32044_002_lang
-Field_8_3_0_32044_003<u8>
-Field_8_3_0_32044_004<32>
-Field_8_3_0_32044_005<32>

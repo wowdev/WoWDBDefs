@@ -3,9 +3,6 @@ int ID
 int Start
 int MID
 int End
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 2.4.0.8089-2.4.3.8606
@@ -24,10 +21,3 @@ $noninline,id$ID<32>
 Start<32>[3]
 MID<32>[3]
 End<32>[3]
-
-LAYOUT 218FDF1C
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<32>[3]
-Field_8_3_0_32044_001<32>[3]
-Field_8_3_0_32044_002<32>[3]

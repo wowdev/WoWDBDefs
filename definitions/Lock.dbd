@@ -4,10 +4,6 @@ int Type
 int Index
 int Skill
 int Action
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 3.0.1.8303, 3.0.2.8885, 3.0.8.9328, 4.0.0.11792, 6.0.1.18179
 BUILD 0.10.0.3892-0.12.0.3988
@@ -38,11 +34,3 @@ Type<32>[4]
 Index<32>[4]
 Skill<32>[4]
 Action<32>[4]
-
-LAYOUT 2BD710C7
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<32>[8]
-Field_8_3_0_32044_001<u16>[8]
-Field_8_3_0_32044_002<u8>[8]
-Field_8_3_0_32044_003<u8>[8]

@@ -7,14 +7,6 @@ float Cost_Modifier
 int<ChrRaces::ID> Race
 int Sex
 int Data
-locstring Field_8_3_0_32044_000_lang?
-locstring Field_8_3_0_32044_001_lang?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-float Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 3.0.1.8334-3.3.5.12340
@@ -51,14 +43,3 @@ Cost_Modifier
 Race<u8>
 Sex<u8>
 Data<u8>
-
-LAYOUT 4AA6B25C
-BUILD 8.3.0.32044
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001_lang
-$id$Field_8_3_0_32044_002<32>
-Field_8_3_0_32044_003<u8>
-Field_8_3_0_32044_004
-Field_8_3_0_32044_005<u8>
-Field_8_3_0_32044_006<u8>
-Field_8_3_0_32044_007<u8>

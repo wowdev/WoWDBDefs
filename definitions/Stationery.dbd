@@ -4,9 +4,6 @@ int<Item::ID> ItemID
 string Texture
 int Flags
 int<FileData::ID> TextureFileDataID
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 0.7.0.3694-0.12.0.3988
@@ -34,10 +31,3 @@ $noninline,id$ID<32>
 ItemID<u32>
 Flags<u8>
 TextureFileDataID<32>[2]
-
-LAYOUT 9BA3EF05
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u32>
-Field_8_3_0_32044_001<u8>
-Field_8_3_0_32044_002<32>[2]

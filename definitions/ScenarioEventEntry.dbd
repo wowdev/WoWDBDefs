@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int TriggerType
 int TriggerAsset
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -27,9 +25,3 @@ BUILD 1.13.0.28211, 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25
 $noninline,id$ID<32>
 TriggerAsset<u16>
 TriggerType<u8>
-
-LAYOUT 23EC2227
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u8>
-Field_8_3_0_32044_001<u32>

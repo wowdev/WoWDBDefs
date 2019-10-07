@@ -4,10 +4,6 @@ locstring Name_lang
 int Order_index
 int Parent_group_ID
 int TypeID
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 4.0.0.11792, 6.0.1.18179
 BUILD 3.3.0.10958-3.3.5.12340
@@ -42,11 +38,3 @@ Name_lang
 TypeID<u8>
 Parent_group_ID<u8>
 Order_index<u16>
-
-LAYOUT FDF860DD
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001<u8>
-Field_8_3_0_32044_002<u8>
-Field_8_3_0_32044_003<u16>

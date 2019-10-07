@@ -3,10 +3,6 @@ int ID
 int<Location::ID> LocationID
 int<Path::ID> PathID
 int Sequence
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -27,10 +23,3 @@ $id$ID<32>
 PathID<u16>
 Sequence<16>
 LocationID<32>
-
-LAYOUT 899EA7B8
-BUILD 8.3.0.32044
-$id$Field_8_3_0_32044_000<32>
-Field_8_3_0_32044_001<u16>
-Field_8_3_0_32044_002<16>
-Field_8_3_0_32044_003<32>

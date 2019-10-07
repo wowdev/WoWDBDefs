@@ -11,17 +11,6 @@ int<ModifierTree::ID> Modifier_tree_ID
 int Flags
 int<WorldState::ID> Eligibility_world_state_ID
 int Eligibility_world_state_value
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -81,18 +70,3 @@ Fail_asset<32>
 Flags<u8>
 Eligibility_world_state_ID<16>
 Eligibility_world_state_value<8>
-
-LAYOUT 6FD42706
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<16>
-Field_8_3_0_32044_001<32>
-Field_8_3_0_32044_002<u32>
-Field_8_3_0_32044_003<u8>
-Field_8_3_0_32044_004<32>
-Field_8_3_0_32044_005<u16>
-Field_8_3_0_32044_006<u8>
-Field_8_3_0_32044_007<32>
-Field_8_3_0_32044_008<u8>
-Field_8_3_0_32044_009<16>
-Field_8_3_0_32044_010<8>

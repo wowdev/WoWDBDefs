@@ -3,9 +3,6 @@ int ID
 int BackgroundAtlasID
 int MaskAtlasID
 float MaskScalar
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-float Field_8_3_0_32044_002?
 
 LAYOUT F787FB01
 BUILD 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -20,10 +17,3 @@ $noninline,id$ID<32>
 BackgroundAtlasID<u32>
 MaskAtlasID<u32>
 MaskScalar
-
-LAYOUT F107011A
-BUILD 8.3.0.32044
-$noninline,id$ID<32>
-Field_8_3_0_32044_000<u32>
-Field_8_3_0_32044_001<u32>
-Field_8_3_0_32044_002

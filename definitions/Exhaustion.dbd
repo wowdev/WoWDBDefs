@@ -7,14 +7,6 @@ float InnHours
 locstring Name_lang
 float Threshold
 string CombatLogText
-locstring Field_8_3_0_32044_000_lang?
-string Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-float Field_8_3_0_32044_004?
-float Field_8_3_0_32044_005?
-float Field_8_3_0_32044_006?
-float Field_8_3_0_32044_007?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -70,14 +62,3 @@ Factor
 OutdoorHours
 InnHours
 Name_lang
-
-LAYOUT 5C1273E4
-BUILD 8.3.0.32044
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001
-$id$Field_8_3_0_32044_002<32>
-Field_8_3_0_32044_003<32>
-Field_8_3_0_32044_004
-Field_8_3_0_32044_005
-Field_8_3_0_32044_006
-Field_8_3_0_32044_007
