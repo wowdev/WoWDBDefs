@@ -10,6 +10,17 @@ int Showscalp
 int ColorIndex
 int<FileData::ID> CustomGeoFileDataID
 int<FileData::ID> HdCustomGeoFileDataID
+int Field_8_3_0_32044_000?
+int Field_8_3_0_32044_001?
+int Field_8_3_0_32044_002?
+int Field_8_3_0_32044_003?
+int Field_8_3_0_32044_004?
+int Field_8_3_0_32044_005?
+int Field_8_3_0_32044_006?
+int Field_8_3_0_32044_007?
+int Field_8_3_0_32044_008?
+int Field_8_3_0_32044_009?
+int Field_8_3_0_32044_010?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -91,3 +102,18 @@ GeosetType<8>
 ColorIndex<8>
 CustomGeoFileDataID<32>
 HdCustomGeoFileDataID<32>
+
+LAYOUT 8CB4C7C2
+BUILD 8.3.0.32044
+$noninline,id$ID<32>
+$relation$Field_8_3_0_32044_000<u8>
+Field_8_3_0_32044_001<u8>
+Field_8_3_0_32044_002<8>
+Field_8_3_0_32044_003<8>
+Field_8_3_0_32044_004<u8>
+Field_8_3_0_32044_005<8>
+Field_8_3_0_32044_006<8>
+Field_8_3_0_32044_007<8>
+Field_8_3_0_32044_008<32>
+Field_8_3_0_32044_009<32>
+Field_8_3_0_32044_010<8>
