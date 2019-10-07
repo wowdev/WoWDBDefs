@@ -9,6 +9,27 @@ namespace DBDefsMerge
 {
     class Program
     {
+class ProductComparer : IEqualityComparer<Structs.Definition>
+{
+    public bool Equals(Structs.Definition x, Structs.Definition y)
+    {
+       return x.comment == y.comment
+            && x.isSigned == y.isSigned
+            && x.isNonInline == y.isNonInline
+            && x.isRelation == y.isRelation
+            && x.isID == y.isID
+            && x.arrLength == y.arrLength
+            && x.size == y.size
+            ;
+    }
+
+    public int GetHashCode(Structs.Definition x)
+    {
+        return 0;
+    }
+
+}
+
         static void Main(string[] args)
         {
             if(args.Length < 3)
@@ -246,7 +267,7 @@ namespace DBDefsMerge
 
                             for(var i = 0; i < newVersions.Count; i++)
                             {
-                                if (newVersions[i].definitions.SequenceEqual(versionDefinition2.definitions))
+                                if (newVersions[i].definitions.SequenceEqual(versionDefinition2.definitions, new ProductComparer() ))
                                 {
                                     Console.WriteLine("Looks like these two definition arrays are the same!");
                                     // Make list from current builds
