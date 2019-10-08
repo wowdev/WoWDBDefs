@@ -7,13 +7,6 @@ int UiOrder
 int<UiTextureKit::ID> UiTextureKitID
 locstring Title_lang
 int Flags
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
 int Field_8_3_0_32044_007?
 
 LAYOUT 676CBC04
@@ -57,11 +50,11 @@ UiTextureKitID<u16>
 LAYOUT 80231E11
 BUILD 8.3.0.32044
 $noninline,id$ID<32>
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001<32>
-Field_8_3_0_32044_002<32>
-Field_8_3_0_32044_003<8>
-Field_8_3_0_32044_004<8>
-Field_8_3_0_32044_005<8>
-Field_8_3_0_32044_006<u16>
+Title_lang
+GarrTypeID<32>
+ClassID<32>
+MaxTiers<8>
+UiOrder<8>
+Flags<8>
+UiTextureKitID<u16>
 Field_8_3_0_32044_007<32>

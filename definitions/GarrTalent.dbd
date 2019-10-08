@@ -19,15 +19,6 @@ int RespecDurationSecs
 int RespecGoldCost
 int Tier
 int UiOrder
-locstring Field_8_3_0_32044_000_lang?
-locstring Field_8_3_0_32044_001_lang?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
 int Field_8_3_0_32044_009?
 int Field_8_3_0_32044_010?
 
@@ -102,14 +93,14 @@ Flags<8>
 
 LAYOUT 443AE1E4
 BUILD 8.3.0.32044
-Field_8_3_0_32044_000_lang
-Field_8_3_0_32044_001_lang
-$id$Field_8_3_0_32044_002<32>
-$relation$Field_8_3_0_32044_003<u32>
-Field_8_3_0_32044_004<8>
-Field_8_3_0_32044_005<8>
-Field_8_3_0_32044_006<32>
-Field_8_3_0_32044_007<u32>
-Field_8_3_0_32044_008<u32>
+Name_lang
+Description_lang
+$id$ID<32>
+$relation$GarrTalentTreeID<u32>
+Tier<8>
+UiOrder<8>
+IconFileDataID<32>
+PlayerConditionID<u32>
+GarrAbilityID<u32>
 Field_8_3_0_32044_009<8>
 Field_8_3_0_32044_010<32>

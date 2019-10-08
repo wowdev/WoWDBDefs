@@ -13,19 +13,6 @@ int System
 int Type
 int<PlayerCondition::ID> VisibilityPlayerConditionID
 int<UiTextureAtlasElement::ID> BkgAtlasID
-locstring Field_8_3_0_32044_000_lang?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
-int Field_8_3_0_32044_011?
-int Field_8_3_0_32044_012?
 int Field_8_3_0_32044_013?
 
 LAYOUT 2C161494
@@ -78,17 +65,17 @@ BkgAtlasID<32>
 
 LAYOUT F982A2E5
 BUILD 8.3.0.32044
-Field_8_3_0_32044_000_lang
-$id$Field_8_3_0_32044_001<32>
-$relation$Field_8_3_0_32044_002<32>
-Field_8_3_0_32044_003<32>
-Field_8_3_0_32044_004<32>
-Field_8_3_0_32044_005<32>
-Field_8_3_0_32044_006<u32>
-Field_8_3_0_32044_007<u32>
-Field_8_3_0_32044_008<32>
-Field_8_3_0_32044_009<u32>
-Field_8_3_0_32044_010<32>
-Field_8_3_0_32044_011<8>
-Field_8_3_0_32044_012<32>
+Name_lang
+$id$ID<32>
+$relation$ParentUiMapID<32>
+Flags<32>
+System<32>
+Type<32>
+LevelRangeMin<u32>
+LevelRangeMax<u32>
+BountySetID<32>
+BountyDisplayLocation<u32>
+VisibilityPlayerConditionID<32>
+HelpTextPosition<8>
+BkgAtlasID<32>
 Field_8_3_0_32044_013<32>

@@ -37,43 +37,6 @@ float SunFogAngle
 int SunFogColor
 float SunFogStrength
 float FogHeightCoefficients
-int Field_8_3_0_32044_000?
-int Field_8_3_0_32044_001?
-int Field_8_3_0_32044_002?
-int Field_8_3_0_32044_003?
-int Field_8_3_0_32044_004?
-int Field_8_3_0_32044_005?
-int Field_8_3_0_32044_006?
-int Field_8_3_0_32044_007?
-int Field_8_3_0_32044_008?
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
-int Field_8_3_0_32044_011?
-int Field_8_3_0_32044_012?
-int Field_8_3_0_32044_013?
-int Field_8_3_0_32044_014?
-int Field_8_3_0_32044_015?
-int Field_8_3_0_32044_016?
-int Field_8_3_0_32044_017?
-int Field_8_3_0_32044_018?
-int Field_8_3_0_32044_019?
-float Field_8_3_0_32044_020?
-float Field_8_3_0_32044_021?
-float Field_8_3_0_32044_022?
-float Field_8_3_0_32044_023?
-float Field_8_3_0_32044_024?
-float Field_8_3_0_32044_025?
-float Field_8_3_0_32044_026?
-float Field_8_3_0_32044_027?
-int Field_8_3_0_32044_028?
-int Field_8_3_0_32044_029?
-int Field_8_3_0_32044_030?
-int Field_8_3_0_32044_031?
-float Field_8_3_0_32044_032?
-int Field_8_3_0_32044_033?
-float Field_8_3_0_32044_034?
-int Field_8_3_0_32044_035?
-float Field_8_3_0_32044_036?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -343,40 +306,40 @@ FogHeightCoefficients[4]
 LAYOUT 07423F4E
 BUILD 8.3.0.32044
 $noninline,id$ID<32>
-$relation$Field_8_3_0_32044_000<u16>
-Field_8_3_0_32044_001<u16>
-Field_8_3_0_32044_002<32>
-Field_8_3_0_32044_003<32>
-Field_8_3_0_32044_004<32>
-Field_8_3_0_32044_005<32>
-Field_8_3_0_32044_006<32>
-Field_8_3_0_32044_007<32>
-Field_8_3_0_32044_008<32>
-Field_8_3_0_32044_009<32>
-Field_8_3_0_32044_010<32>
-Field_8_3_0_32044_011<32>
-Field_8_3_0_32044_012<32>
-Field_8_3_0_32044_013<32>
-Field_8_3_0_32044_014<32>
-Field_8_3_0_32044_015<32>
-Field_8_3_0_32044_016<32>
-Field_8_3_0_32044_017<32>
-Field_8_3_0_32044_018<32>
-Field_8_3_0_32044_019<32>
-Field_8_3_0_32044_020
-Field_8_3_0_32044_021
-Field_8_3_0_32044_022
-Field_8_3_0_32044_023
-Field_8_3_0_32044_024
-Field_8_3_0_32044_025
-Field_8_3_0_32044_026
-Field_8_3_0_32044_027
-Field_8_3_0_32044_028<u32>
-Field_8_3_0_32044_029<32>
-Field_8_3_0_32044_030<32>
-Field_8_3_0_32044_031<u32>
-Field_8_3_0_32044_032
-Field_8_3_0_32044_033<u32>
-Field_8_3_0_32044_034
-Field_8_3_0_32044_035<u32>
-Field_8_3_0_32044_036[4]
+$relation$LightParamID<u16>
+Time<u16>
+DirectColor<32>
+AmbientColor<32>
+SkyTopColor<32>
+SkyMiddleColor<32>
+SkyBand1Color<32>
+SkyBand2Color<32>
+SkySmogColor<32>
+SkyFogColor<32>
+SunColor<32>
+CloudSunColor<32>
+CloudEmissiveColor<32>
+CloudLayer1AmbientColor<32>
+CloudLayer2AmbientColor<32>
+OceanCloseColor<32>
+OceanFarColor<32>
+RiverCloseColor<32>
+RiverFarColor<32>
+ShadowOpacity<32>
+FogEnd
+FogScaler
+FogDensity
+FogHeight
+FogHeightScaler
+FogHeightDensity
+SunFogAngle
+CloudDensity
+ColorGradingFileDataID<u32>
+HorizonAmbientColor<32>
+GroundAmbientColor<32>
+EndFogColor<u32>
+EndFogColorDistance
+SunFogColor<u32>
+SunFogStrength
+FogHeightColor<u32>
+FogHeightCoefficients[4]
