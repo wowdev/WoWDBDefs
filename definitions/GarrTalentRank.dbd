@@ -9,14 +9,14 @@ int<CurrencyTypes::ID> RespecCostCurrencyTypesID
 int<GarrTalent::ID> GarrTalentID
 int<PlayerCondition::ID> PerkPlayerConditionID
 int<Spell::ID> PerkSpellID
-int Field_8_3_0_32044_000?
+int Rank?
 int Field_8_3_0_32044_005?
 int Field_8_3_0_32044_009?
 
 LAYOUT 572E1310
 BUILD 8.3.0.32044
 $noninline,id$ID<32>
-Field_8_3_0_32044_000<32>
+Rank<32>
 PerkSpellID<32>
 PerkPlayerConditionID<32>
 ResearchCost<32>
