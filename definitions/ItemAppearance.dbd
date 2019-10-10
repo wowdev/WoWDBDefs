@@ -5,11 +5,7 @@ int<FileData::ID> DefaultIconFileDataID
 int DisplayType
 int<ItemDisplayInfo::ID> ItemDisplayInfoID
 int UiOrder
-int Field_8_2_5_31812_001?
-int Field_8_3_0_32151_000?
-int Field_8_3_0_32151_001?
-int Field_8_3_0_32151_002?
-int Field_8_3_0_32151_003?
+int<ItemSubClass::SubClassID> Field_8_2_5_31812_001? // with ClassID == 2
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -43,7 +39,7 @@ UiOrder<32>
 LAYOUT 83D2C1C9
 BUILD 8.3.0.32151
 $noninline,id$ID<32>
-Field_8_3_0_32151_000<u8>
-Field_8_3_0_32151_001<32>
-Field_8_3_0_32151_002<32>
-Field_8_3_0_32151_003<32>
+DisplayType<u8>
+ItemDisplayInfoID<32>
+DefaultIconFileDataID<32>
+UiOrder<32>

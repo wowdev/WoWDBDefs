@@ -21,18 +21,7 @@ int Tier
 int UiOrder
 int Field_8_3_0_32044_009?
 int Field_8_3_0_32044_010?
-locstring Field_8_3_0_32151_000_lang?
-locstring Field_8_3_0_32151_001_lang?
-int Field_8_3_0_32151_002?
-int Field_8_3_0_32151_003?
-int Field_8_3_0_32151_004?
-int Field_8_3_0_32151_005?
-int Field_8_3_0_32151_006?
-int Field_8_3_0_32151_007?
-int Field_8_3_0_32151_008?
-int Field_8_3_0_32151_009?
-int Field_8_3_0_32151_010?
-int Field_8_3_0_32151_011?
+int<GarrTalent::ID> Field_8_3_0_32151_011?
 int Field_8_3_0_32151_012?
 
 LAYOUT 53D5FD16
@@ -120,16 +109,16 @@ Field_8_3_0_32044_010<32>
 
 LAYOUT 9A9E08BC
 BUILD 8.3.0.32151
-Field_8_3_0_32151_000_lang
-Field_8_3_0_32151_001_lang
-$id$Field_8_3_0_32151_002<32>
-$relation$Field_8_3_0_32151_003<u32>
-Field_8_3_0_32151_004<8>
-Field_8_3_0_32151_005<8>
-Field_8_3_0_32151_006<32>
-Field_8_3_0_32151_007<u32>
-Field_8_3_0_32151_008<u32>
-Field_8_3_0_32151_009<8>
-Field_8_3_0_32151_010<32>
+Name_lang
+Description_lang
+$id$ID<32>
+$relation$GarrTalentTreeID<u32>
+Tier<8>
+UiOrder<8>
+IconFileDataID<32>
+PlayerConditionID<u32>
+GarrAbilityID<u32>
+Field_8_3_0_32044_009<8>
+Field_8_3_0_32044_010<32>
 Field_8_3_0_32151_011<32>
 Field_8_3_0_32151_012<32>
