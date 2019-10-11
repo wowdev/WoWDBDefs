@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 locstring FeatureDescription_lang
-int FeatureIcon
+int<FileData::ID> FeatureIcon
 int ParentID
 
 LAYOUT 331022F2, C9B51E5D, 2C3DA03F
