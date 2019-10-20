@@ -3,12 +3,12 @@ int ID
 int CombatBloodSpurtFront
 int CombatBloodSpurtBack
 string GroundBlood
-int DefaultBloodSpurtID
-int DefaultOmniBloodSpurtID
-int PlayerCritBloodSpurtID
-int PlayerHitBloodSpurtID
-int PlayerOmniCritBloodSpurtID
-int PlayerOmniHitBloodSpurtID
+int<SpellVisualKit::ID> DefaultBloodSpurtID
+int<SpellVisualKit::ID> DefaultOmniBloodSpurtID
+int<SpellVisualKit::ID> PlayerCritBloodSpurtID
+int<SpellVisualKit::ID> PlayerHitBloodSpurtID
+int<SpellVisualKit::ID> PlayerOmniCritBloodSpurtID
+int<SpellVisualKit::ID> PlayerOmniHitBloodSpurtID
 
 BUILD 0.5.3.3368, 4.0.0.11792, 6.0.1.18179
 BUILD 0.5.3.3368-0.12.0.3988
