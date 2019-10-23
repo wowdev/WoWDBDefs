@@ -3,6 +3,7 @@ int ID
 int<Languages::ID> LanguageID
 int<Emotes::ID> EmoteID
 int<SoundEntries::ID> SoundEntriesID
+int<SoundKit::ID> SoundKitID
 int ConditionID
 int EmoteDelay
 int<Emotes::ID> EmotesID
@@ -33,14 +34,14 @@ EmotesID<u16>
 LanguageID<u8>
 Flags<u8>
 ConditionID<32>
-SoundEntriesID<u32>[2]
+SoundKitID<u32>[2]
 
 LAYOUT 5E60145F
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
 Text_lang
 Text1_lang
 $id$ID<32>
-SoundEntriesID<u32>[2]
+SoundKitID<u32>[2]
 EmotesID<u16>
 EmoteID<u16>[3]
 EmoteDelay<u16>[3]
@@ -53,7 +54,7 @@ BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.267
 Text_lang
 Text1_lang
 $id$ID<32>
-SoundEntriesID<u32>[2]
+SoundKitID<u32>[2]
 EmotesID<u16>
 EmoteID<u16>[3]
 EmoteDelay<u16>[3]
@@ -72,6 +73,6 @@ ConditionID<32>
 EmotesID<u16>
 Flags<u8>
 ChatBubbleDurationMs<u32>
-SoundEntriesID<u32>[2]
+SoundKitID<u32>[2]
 EmoteID<u16>[3]
 EmoteDelay<u16>[3]
