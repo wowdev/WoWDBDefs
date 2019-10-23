@@ -5,7 +5,7 @@ int<UiModelScene::ID> UiModelSceneID
 int UiWidgetSetID
 int<UiModelScene::ID> VictoryUiModelSceneID
 int<UiModelScene::ID> DefeatUiModelSceneID
-int VictorySoundKitID
+int<SoundKit::ID> VictorySoundKitID
 int DefeatSoundKitID
 
 LAYOUT AC308DC0
