@@ -15,6 +15,19 @@ int<Item::ID> ItemID
 int BitIndex
 int<Faction::ID> FactionID
 int Field_8_1_5_29352_011?
+locstring Field_8_3_0_32272_000_lang?
+locstring Field_8_3_0_32272_001_lang?
+int Field_8_3_0_32272_002?
+int Field_8_3_0_32272_003?
+int Field_8_3_0_32272_004?
+int Field_8_3_0_32272_005?
+int Field_8_3_0_32272_006?
+int Field_8_3_0_32272_007?
+int Field_8_3_0_32272_008?
+int Field_8_3_0_32272_009?
+int Field_8_3_0_32272_010?
+int Field_8_3_0_32272_011?
+int Field_8_3_0_32272_012?
 
 BUILD 6.0.1.18179
 BUILD 5.2.0.16516-5.4.8.18414
@@ -95,3 +108,20 @@ Flags<u32>
 Quality<8>
 FactionID<32>
 Field_8_1_5_29352_011<32>
+
+LAYOUT B88BBB0F
+BUILD 8.3.0.32272
+$noninline,id$ID<32>
+Field_8_3_0_32272_000_lang
+Field_8_3_0_32272_001_lang
+Field_8_3_0_32272_002<u8>
+Field_8_3_0_32272_003<32>
+Field_8_3_0_32272_004<u32>
+Field_8_3_0_32272_005<u8>
+Field_8_3_0_32272_006<u32>
+Field_8_3_0_32272_007<u32>
+Field_8_3_0_32272_008<u32>
+Field_8_3_0_32272_009<8>
+Field_8_3_0_32272_010<32>
+Field_8_3_0_32272_011<32>
+Field_8_3_0_32272_012<32>

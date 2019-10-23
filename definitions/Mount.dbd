@@ -13,6 +13,18 @@ int<Spell::ID> SourceSpellID
 locstring SourceText_lang
 int SourceTypeEnum
 int<UiModelScene::ID> UiModelSceneID
+locstring Field_8_3_0_32272_000_lang?
+locstring Field_8_3_0_32272_001_lang?
+locstring Field_8_3_0_32272_002_lang?
+int Field_8_3_0_32272_003?
+int Field_8_3_0_32272_004?
+int Field_8_3_0_32272_005?
+int Field_8_3_0_32272_006?
+int Field_8_3_0_32272_007?
+int Field_8_3_0_32272_008?
+float Field_8_3_0_32272_009?
+int Field_8_3_0_32272_010?
+int Field_8_3_0_32272_011?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -66,3 +78,18 @@ SourceSpellID<32>
 PlayerConditionID<u32>
 MountFlyRideHeight
 UiModelSceneID<32>
+
+LAYOUT A0C2CDD5
+BUILD 8.3.0.32272
+Field_8_3_0_32272_000_lang
+Field_8_3_0_32272_001_lang
+Field_8_3_0_32272_002_lang
+$id$Field_8_3_0_32272_003<32>
+Field_8_3_0_32272_004<u16>
+Field_8_3_0_32272_005<u16>
+Field_8_3_0_32272_006<8>
+Field_8_3_0_32272_007<32>
+Field_8_3_0_32272_008<u32>
+Field_8_3_0_32272_009
+Field_8_3_0_32272_010<32>
+Field_8_3_0_32272_011<32>
