@@ -6,7 +6,7 @@ int FlavorSoundFilterID
 int<SoundFilter::ID> SoundFilterID
 int AmbienceStartID
 int AmbienceStopID
-int Field_8_1_5_28938_006?
+int<SoundKit::ID> SoundKitID? // WindSoundKitID? All sound entries are wind loops
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -50,4 +50,4 @@ FlavorSoundFilterID<u32>
 AmbienceID<u32>[2]
 AmbienceStartID<u32>[2]
 AmbienceStopID<u32>[2]
-Field_8_1_5_28938_006<u32>[2]
+SoundKitID<u32>[2]
