@@ -81,15 +81,15 @@ UiModelSceneID<32>
 
 LAYOUT A0C2CDD5
 BUILD 8.3.0.32272
-Field_8_3_0_32272_000_lang
-Field_8_3_0_32272_001_lang
-Field_8_3_0_32272_002_lang
-$id$Field_8_3_0_32272_003<32>
-Field_8_3_0_32272_004<u16>
-Field_8_3_0_32272_005<u16>
-Field_8_3_0_32272_006<8>
-Field_8_3_0_32272_007<32>
-Field_8_3_0_32272_008<u32>
-Field_8_3_0_32272_009
-Field_8_3_0_32272_010<32>
+Name_lang
+SourceText_lang
+Description_lang
+$id$ID<32>
+MountTypeID<u16>
+Flags<u16>
+SourceTypeEnum<8>
+SourceSpellID<32>
+PlayerConditionID<u32>
+MountFlyRideHeight
+UiModelSceneID<32>
 Field_8_3_0_32272_011<32>
