@@ -2,11 +2,11 @@ COLUMNS
 int ID
 int<GarrTalentTree::ID> GarrTalentTreeID?
 int<GarrTalentResearch::ID> GarrTalentResearchID?
-int Field_8_3_0_32272_002?
+int OrderIndex?
 
 LAYOUT 0FB0BA8A
 BUILD 8.3.0.32272
 $noninline,id$ID<32>
 GarrTalentTreeID<32>
 GarrTalentResearchID<32>
-Field_8_3_0_32272_002<32>
+OrderIndex<32>
