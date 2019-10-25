@@ -8,7 +8,7 @@ float Scale
 int IconHighlightSpellClassMask
 int TriggerType
 int<SoundEntries::ID> SoundEntriesID
-int Field_8_1_0_28202_008?
+int<Spell::ID> TriggerSpell?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -56,4 +56,4 @@ SoundEntriesID<u32>
 Color<32>
 Scale
 TriggerType<8>
-Field_8_1_0_28202_008<32>
+TriggerSpell<32>

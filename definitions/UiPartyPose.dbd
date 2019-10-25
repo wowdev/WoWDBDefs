@@ -6,7 +6,7 @@ int UiWidgetSetID
 int<UiModelScene::ID> VictoryUiModelSceneID
 int<UiModelScene::ID> DefeatUiModelSceneID
 int<SoundKit::ID> VictorySoundKitID
-int DefeatSoundKitID
+int<SoundKit::ID> DefeatSoundKitID
 
 LAYOUT AC308DC0
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
