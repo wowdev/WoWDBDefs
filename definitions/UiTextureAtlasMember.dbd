@@ -9,18 +9,8 @@ int CommittedTop
 int<UiTextureAtlas::ID> UiTextureAtlasID
 int<UiCanvas::ID> UiCanvasID
 int<UiTextureAtlasElement::ID> UiTextureAtlasElementID
-string Field_8_3_0_32414_000?
-int Field_8_3_0_32414_001?
-int Field_8_3_0_32414_002?
-int Field_8_3_0_32414_003?
-int Field_8_3_0_32414_004?
-int Field_8_3_0_32414_005?
-int Field_8_3_0_32414_006?
-int Field_8_3_0_32414_007?
 int Field_8_3_0_32414_008?
 int Field_8_3_0_32414_009?
-int Field_8_3_0_32414_010?
-int Field_8_3_0_32414_011?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -71,15 +61,15 @@ UiCanvasID<u8>
 
 LAYOUT EBC1E9DA
 BUILD 8.3.0.32414
-Field_8_3_0_32414_000
-$id$Field_8_3_0_32414_001<32>
-Field_8_3_0_32414_002<u16>
-Field_8_3_0_32414_003<16>
-Field_8_3_0_32414_004<16>
-Field_8_3_0_32414_005<16>
-Field_8_3_0_32414_006<16>
-$relation$Field_8_3_0_32414_007<u16>
+CommittedName
+$id$ID<32>
+UiTextureAtlasID<u16>
+CommittedLeft<16>
+CommittedRight<16>
+CommittedTop<16>
+CommittedBottom<16>
+$relation$UiTextureAtlasElementID<u16>
 Field_8_3_0_32414_008<16>
 Field_8_3_0_32414_009<16>
-Field_8_3_0_32414_010<8>
-Field_8_3_0_32414_011<u8>
+CommittedFlags<8>
+UiCanvasID<u8>
