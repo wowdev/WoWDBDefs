@@ -5,7 +5,7 @@ int Field_4287333908?
 int Field_690162968?
 int ID
 int OrderIndex
-int ParentItemBonusListID
+int<ItemBonusList::ID> ParentItemBonusListID
 int Type
 int Value
 

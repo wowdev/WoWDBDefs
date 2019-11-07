@@ -1,5 +1,5 @@
 COLUMNS
-int ID
+int<ItemBonusList::ID> ID
 int ItemLevelDelta
 
 LAYOUT DFBF5AC9, 819C0CC1, B7C13761

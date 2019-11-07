@@ -16,19 +16,6 @@ int BitIndex
 int<Faction::ID> FactionID
 int Field_8_1_5_29352_011?
 int Field_8_3_0_32272_012?
-locstring Field_8_3_0_32414_000_lang?
-locstring Field_8_3_0_32414_001_lang?
-int Field_8_3_0_32414_002?
-int Field_8_3_0_32414_003?
-int Field_8_3_0_32414_004?
-int Field_8_3_0_32414_005?
-int Field_8_3_0_32414_006?
-int Field_8_3_0_32414_007?
-int Field_8_3_0_32414_008?
-int Field_8_3_0_32414_009?
-int Field_8_3_0_32414_010?
-int Field_8_3_0_32414_011?
-int Field_8_3_0_32414_012?
 int Field_8_3_0_32414_013?
 
 BUILD 6.0.1.18179
@@ -131,17 +118,17 @@ Field_8_3_0_32272_012<32>
 LAYOUT 16E369D6
 BUILD 8.3.0.32414
 $noninline,id$ID<32>
-Field_8_3_0_32414_000_lang
-Field_8_3_0_32414_001_lang
-Field_8_3_0_32414_002<u8>
-Field_8_3_0_32414_003<32>
-Field_8_3_0_32414_004<u32>
-Field_8_3_0_32414_005<u8>
-Field_8_3_0_32414_006<u32>
-Field_8_3_0_32414_007<u32>
-Field_8_3_0_32414_008<u32>
-Field_8_3_0_32414_009<8>
-Field_8_3_0_32414_010<32>
-Field_8_3_0_32414_011<32>
-Field_8_3_0_32414_012<32>
+Name_lang
+Description_lang
+CategoryID<u8>
+InventoryIconFileID<32>
+SpellWeight<u32>
+SpellCategory<u8>
+MaxQty<u32>
+MaxEarnablePerWeek<u32>
+Flags<u32>
+Quality<8>
+FactionID<32>
+Field_8_1_5_29352_011<32>
+Field_8_3_0_32272_012<32>
 Field_8_3_0_32414_013<32>

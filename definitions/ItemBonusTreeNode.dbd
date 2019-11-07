@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ChildItemBonusListID
+int<ItemBonusList::ID> ChildItemBonusListID
 int ChildItemBonusTreeID
 int ChildItemLevelSelectorID
 int ItemContext
