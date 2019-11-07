@@ -2,6 +2,7 @@ COLUMNS
 int ID?
 int<SoundKit::ID> CloseSoundKitID
 int<SoundKit::ID> OpenSoundKitID
+int<Spell::ID> InteractionSpellID?
 int<UiTextureKit::ID> UiTextureKitID
 locstring ButtonText_lang
 locstring Description_lang?
@@ -9,9 +10,8 @@ locstring TitleText_lang
 locstring TutorialText_lang?
 int Field_8_3_0_32414_008?
 int Field_8_3_0_32414_009? // one of the 0 columns: int FrameType (0 = cleanse)
-int Field_8_3_0_32414_010? // somewhere: int CurrencyTypeID
 int Field_8_3_0_32414_011? // somewhere: int Cost
-int Field_8_3_0_32414_012?
+int Field_8_3_0_32414_012? // somewhere: int CurrencyTypeID
 
 LAYOUT 600AB900
 BUILD 8.3.0.32414
@@ -25,6 +25,6 @@ OpenSoundKitID<32>
 CloseSoundKitID<32>
 Field_8_3_0_32414_008<32>
 Field_8_3_0_32414_009<8>
-Field_8_3_0_32414_010<32>
+InteractionSpellID<32>
 Field_8_3_0_32414_011<32>
 Field_8_3_0_32414_012<8>
