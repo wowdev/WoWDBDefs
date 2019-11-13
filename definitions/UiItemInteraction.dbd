@@ -8,10 +8,10 @@ locstring ButtonText_lang
 locstring Description_lang?
 locstring TitleText_lang
 locstring TutorialText_lang?
-int Field_8_3_0_32414_008?
-int Field_8_3_0_32414_009? // one of the 0 columns: int FrameType (0 = cleanse)
-int Field_8_3_0_32414_011? // somewhere: int Cost
-int Field_8_3_0_32414_012? // somewhere: int CurrencyTypeID
+int Cost?
+int ItemInteractionFrameType? // ItemInteractionUI.ItemInteractionFrameType. 0 = CleanseCorruption
+int<CurrencyTypes::ID> CurrencyTypeID?
+int Field_8_3_0_32414_012?
 
 LAYOUT 600AB900
 BUILD 8.3.0.32414, 8.3.0.32489
@@ -23,8 +23,8 @@ $id$ID<32>
 UiTextureKitID<32>
 OpenSoundKitID<32>
 CloseSoundKitID<32>
-Field_8_3_0_32414_008<32>
-Field_8_3_0_32414_009<8>
+Cost<32>
+ItemInteractionFrameType<8>
 InteractionSpellID<32>
-Field_8_3_0_32414_011<32>
+CurrencyTypeID<32>
 Field_8_3_0_32414_012<8>
