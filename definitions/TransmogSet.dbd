@@ -10,8 +10,8 @@ int<QuestV2::ID> TrackingQuestID
 int<TransmogSetGroup::ID> TransmogSetGroupID
 int UiOrder
 int Field_8_1_0_28294_008?
-int Field_8_1_0_28294_010?
-int Field_8_2_5_31521_012?
+int PatchIntroduced? // in '%d%02d%02d' % (major, minor, patch) form
+int<PlayerCondition::ID> ConditionID?
 
 LAYOUT BEDFD7D1
 BUILD 1.13.0.28211, 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972, 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -64,7 +64,7 @@ ItemNameDescriptionID<32>
 $relation$ParentTransmogSetID<u16>
 Field_8_1_0_28294_008<u8>
 ExpansionID<u8>
-Field_8_1_0_28294_010<32>
+PatchIntroduced<32>
 UiOrder<16>
 
 LAYOUT 8BEEE3C1, 502F4275
@@ -79,6 +79,6 @@ ItemNameDescriptionID<32>
 $relation$ParentTransmogSetID<u16>
 Field_8_1_0_28294_008<u8>
 ExpansionID<u8>
-Field_8_1_0_28294_010<32>
+PatchIntroduced<32>
 UiOrder<16>
-Field_8_2_5_31521_012<32>
+ConditionID<32>
