@@ -13,7 +13,7 @@ int System
 int Type
 int<PlayerCondition::ID> VisibilityPlayerConditionID
 int<UiTextureAtlasElement::ID> BkgAtlasID
-int Field_8_3_0_32044_013?
+int PhasePriorityThingey?
 
 LAYOUT 2C161494
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
@@ -78,4 +78,4 @@ BountyDisplayLocation<u32>
 VisibilityPlayerConditionID<32>
 HelpTextPosition<8>
 BkgAtlasID<32>
-Field_8_3_0_32044_013<32>
+PhasePriorityThingey<32>
