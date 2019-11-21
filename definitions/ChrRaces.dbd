@@ -59,53 +59,7 @@ int MaleModelFallbackSex
 int MaleTextureFallbackRaceID
 int MaleTextureFallbackSex
 int<ChrRaces::ID> BaseRaceID?
-string Field_8_3_0_32593_000?
-string Field_8_3_0_32593_001?
-locstring Field_8_3_0_32593_002_lang?
-locstring Field_8_3_0_32593_003_lang?
-locstring Field_8_3_0_32593_004_lang?
-locstring Field_8_3_0_32593_005_lang?
-int Field_8_3_0_32593_006?
-int Field_8_3_0_32593_007?
-int Field_8_3_0_32593_008?
-int Field_8_3_0_32593_009?
-int Field_8_3_0_32593_010?
-int Field_8_3_0_32593_011?
-int Field_8_3_0_32593_012?
-int Field_8_3_0_32593_013?
-float Field_8_3_0_32593_014?
-float Field_8_3_0_32593_015?
-int Field_8_3_0_32593_016?
-int Field_8_3_0_32593_017?
-int Field_8_3_0_32593_018?
-int Field_8_3_0_32593_019?
-int Field_8_3_0_32593_020?
-int Field_8_3_0_32593_021?
-int Field_8_3_0_32593_022?
-int Field_8_3_0_32593_023?
-int Field_8_3_0_32593_024?
 int Field_8_3_0_32593_025?
-int Field_8_3_0_32593_026?
-int Field_8_3_0_32593_027?
-int Field_8_3_0_32593_028?
-int Field_8_3_0_32593_029?
-int Field_8_3_0_32593_030?
-int Field_8_3_0_32593_031?
-int Field_8_3_0_32593_032?
-int Field_8_3_0_32593_033?
-int Field_8_3_0_32593_034?
-int Field_8_3_0_32593_035?
-int Field_8_3_0_32593_036?
-int Field_8_3_0_32593_037?
-int Field_8_3_0_32593_038?
-int Field_8_3_0_32593_039?
-int Field_8_3_0_32593_040?
-int Field_8_3_0_32593_041?
-int Field_8_3_0_32593_042?
-int Field_8_3_0_32593_043?
-int Field_8_3_0_32593_044?
-int Field_8_3_0_32593_045?
-int Field_8_3_0_32593_046?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -523,50 +477,50 @@ FemaleTextureFallbackSex<8>
 
 LAYOUT C1BC2966
 BUILD 8.3.0.32593
-Field_8_3_0_32593_000
-Field_8_3_0_32593_001
-Field_8_3_0_32593_002_lang
-Field_8_3_0_32593_003_lang
-Field_8_3_0_32593_004_lang
-Field_8_3_0_32593_005_lang
-$id$Field_8_3_0_32593_006<32>
-Field_8_3_0_32593_007<32>
-Field_8_3_0_32593_008<u32>
-Field_8_3_0_32593_009<u32>
-Field_8_3_0_32593_010<u32>
-Field_8_3_0_32593_011<u32>
-Field_8_3_0_32593_012<32>
-Field_8_3_0_32593_013<32>
-Field_8_3_0_32593_014[3]
-Field_8_3_0_32593_015[3]
-Field_8_3_0_32593_016<32>
-Field_8_3_0_32593_017<u32>[3]
-Field_8_3_0_32593_018<u32>[3]
-Field_8_3_0_32593_019<32>
-Field_8_3_0_32593_020<32>
-Field_8_3_0_32593_021<32>
-Field_8_3_0_32593_022<32>
-Field_8_3_0_32593_023<32>
-Field_8_3_0_32593_024<32>
+ClientPrefix
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+$id$ID<32>
+Flags<32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
+HeritageArmorAchievementID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+FemaleSkeletonFileDataID<32>
+MaleSkeletonFileDataID<32>
+BaseRaceID<32>
 Field_8_3_0_32593_025<32>
-Field_8_3_0_32593_026<16>
-Field_8_3_0_32593_027<16>
-Field_8_3_0_32593_028<16>
-Field_8_3_0_32593_029<16>
-Field_8_3_0_32593_030<8>
-Field_8_3_0_32593_031<8>
-Field_8_3_0_32593_032<8>
-Field_8_3_0_32593_033<8>
-Field_8_3_0_32593_034<8>
-Field_8_3_0_32593_035<8>
-Field_8_3_0_32593_036<8>
-Field_8_3_0_32593_037<8>
-Field_8_3_0_32593_038<8>
-Field_8_3_0_32593_039<8>
-Field_8_3_0_32593_040<8>
-Field_8_3_0_32593_041<8>
-Field_8_3_0_32593_042<8>
-Field_8_3_0_32593_043<8>
-Field_8_3_0_32593_044<8>
-Field_8_3_0_32593_045<8>
-Field_8_3_0_32593_046<8>
+FactionID<16>
+CinematicSequenceID<16>
+ResSicknessSpellID<16>
+SplashSoundID<16>
+BaseLanguage<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+CharComponentTexLayoutHiResID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
