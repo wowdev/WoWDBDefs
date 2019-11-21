@@ -8,6 +8,13 @@ int Flags
 locstring Description_lang
 int OrderIndex
 int Padding_2173460021?
+locstring Field_8_3_0_32593_000_lang?
+int Field_8_3_0_32593_001?
+int Field_8_3_0_32593_002?
+int Field_8_3_0_32593_003?
+int Field_8_3_0_32593_004?
+int Field_8_3_0_32593_005?
+int Field_8_3_0_32593_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -52,3 +59,14 @@ Operator<8>
 CriteriaID<u32>
 OrderIndex<32>
 Flags<16>
+
+LAYOUT 43A55770
+BUILD 8.3.0.32593
+$noninline,id$ID<32>
+Field_8_3_0_32593_000_lang
+Field_8_3_0_32593_001<u32>
+Field_8_3_0_32593_002<u32>
+Field_8_3_0_32593_003<8>
+Field_8_3_0_32593_004<u32>
+Field_8_3_0_32593_005<32>
+Field_8_3_0_32593_006<32>
