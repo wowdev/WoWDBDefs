@@ -14,18 +14,6 @@ locstring SourceText_lang
 int SourceTypeEnum
 int<UiModelScene::ID> UiModelSceneID
 int Field_8_3_0_32272_011?
-locstring Field_8_3_0_32712_000_lang?
-locstring Field_8_3_0_32712_001_lang?
-locstring Field_8_3_0_32712_002_lang?
-int Field_8_3_0_32712_003?
-int Field_8_3_0_32712_004?
-int Field_8_3_0_32712_005?
-int Field_8_3_0_32712_006?
-int Field_8_3_0_32712_007?
-int Field_8_3_0_32712_008?
-float Field_8_3_0_32712_009?
-int Field_8_3_0_32712_010?
-int Field_8_3_0_32712_011?
 int Field_8_3_0_32712_012?
 
 BUILD 6.0.1.18179
@@ -98,16 +86,16 @@ Field_8_3_0_32272_011<32>
 
 LAYOUT A199A80C
 BUILD 8.3.0.32712
-Field_8_3_0_32712_000_lang
-Field_8_3_0_32712_001_lang
-Field_8_3_0_32712_002_lang
-$id$Field_8_3_0_32712_003<32>
-Field_8_3_0_32712_004<u16>
-Field_8_3_0_32712_005<u16>
-Field_8_3_0_32712_006<8>
-Field_8_3_0_32712_007<32>
-Field_8_3_0_32712_008<u32>
-Field_8_3_0_32712_009
-Field_8_3_0_32712_010<32>
-Field_8_3_0_32712_011<32>
+Name_lang
+SourceText_lang
+Description_lang
+$id$ID<32>
+MountTypeID<u16>
+Flags<u16>
+SourceTypeEnum<8>
+SourceSpellID<32>
+PlayerConditionID<u32>
+MountFlyRideHeight
+UiModelSceneID<32>
+Field_8_3_0_32272_011<32>
 Field_8_3_0_32712_012<32>
