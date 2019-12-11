@@ -6,12 +6,6 @@ int Existing_charsetMask
 int Flags
 locstring Name_lang
 int Field_8_3_0_32151_005?
-locstring Field_1_13_3_32790_000_lang?
-int Field_1_13_3_32790_001?
-int Field_1_13_3_32790_002?
-int Field_1_13_3_32790_003?
-int Field_1_13_3_32790_004?
-int Field_1_13_3_32790_005?
 
 BUILD 6.0.1.18179
 BUILD 4.3.2.15148-4.3.4.15595
@@ -55,9 +49,9 @@ Field_8_3_0_32151_005<8>
 LAYOUT D75C2A0B
 BUILD 1.13.3.32790
 $noninline,id$ID<32>
-Field_1_13_3_32790_000_lang
-Field_1_13_3_32790_001<u16>
-Field_1_13_3_32790_002<u8>
-Field_1_13_3_32790_003<u8>
-Field_1_13_3_32790_004<u8>
-Field_1_13_3_32790_005<8>
+Name_lang
+LocaleMask<u16>
+Create_charsetMask<u8>
+Existing_charsetMask<u8>
+Flags<u8>
+Field_8_3_0_32151_005<8>
