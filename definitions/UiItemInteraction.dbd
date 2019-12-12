@@ -12,6 +12,21 @@ int Cost?
 int ItemInteractionFrameType? // ItemInteractionUI.ItemInteractionFrameType. 0 = CleanseCorruption
 int<CurrencyTypes::ID> CurrencyTypeID?
 int Field_8_3_0_32414_012?
+locstring Field_8_3_0_32805_000_lang?
+locstring Field_8_3_0_32805_001_lang?
+locstring Field_8_3_0_32805_002_lang?
+locstring Field_8_3_0_32805_003_lang?
+int Field_8_3_0_32805_004?
+int Field_8_3_0_32805_005?
+int Field_8_3_0_32805_006?
+int Field_8_3_0_32805_007?
+int Field_8_3_0_32805_008?
+int Field_8_3_0_32805_009?
+int Field_8_3_0_32805_010?
+int Field_8_3_0_32805_011?
+int Field_8_3_0_32805_012?
+int Field_8_3_0_32805_013?
+int Field_8_3_0_32805_014?
 
 LAYOUT 600AB900
 BUILD 8.3.0.32414, 8.3.0.32489, 8.3.0.32593, 8.3.0.32712
@@ -28,3 +43,21 @@ ItemInteractionFrameType<8>
 InteractionSpellID<32>
 CurrencyTypeID<32>
 Field_8_3_0_32414_012<8>
+
+LAYOUT 32F22391
+BUILD 8.3.0.32805
+Field_8_3_0_32805_000_lang
+Field_8_3_0_32805_001_lang
+Field_8_3_0_32805_002_lang
+Field_8_3_0_32805_003_lang
+$id$Field_8_3_0_32805_004<32>
+Field_8_3_0_32805_005<32>
+Field_8_3_0_32805_006<32>
+Field_8_3_0_32805_007<32>
+Field_8_3_0_32805_008<32>
+Field_8_3_0_32805_009<8>
+Field_8_3_0_32805_010<32>
+Field_8_3_0_32805_011<32>
+Field_8_3_0_32805_012<8>
+Field_8_3_0_32805_013<32>
+Field_8_3_0_32805_014<32>
