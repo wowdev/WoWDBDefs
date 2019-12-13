@@ -8,14 +8,6 @@ int<ZoneIntroMusicTable::ID> ZoneIntroMusicID
 int<ZoneMusic::ID> ZoneMusicID
 int<SoundAmbience::ID> SoundAmbienceID
 int<SoundProviderPreferences::ID> SoundProviderPreferencesID
-int Field_8_3_0_32805_000?
-int Field_8_3_0_32805_001?
-int Field_8_3_0_32805_002?
-int Field_8_3_0_32805_003?
-int Field_8_3_0_32805_004?
-int Field_8_3_0_32805_005?
-int Field_8_3_0_32805_006?
-int Field_8_3_0_32805_007?
 int Field_8_3_0_32805_008?
 
 BUILD 4.0.0.11792, 6.0.1.18179
@@ -70,12 +62,12 @@ SoundProviderPreferencesID<32>
 LAYOUT ED7C3739
 BUILD 8.3.0.32805
 $noninline,id$ID<32>
-Field_8_3_0_32805_000<u16>
-Field_8_3_0_32805_001<u16>
-Field_8_3_0_32805_002<u16>
-Field_8_3_0_32805_003<u32>
-Field_8_3_0_32805_004<u16>
-Field_8_3_0_32805_005<u16>
-Field_8_3_0_32805_006<u16>
-Field_8_3_0_32805_007<u8>
+WorldStateID<u16>
+WorldStateValue<u16>
+AreaID<u16>
+WMOAreaID<u32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>
 Field_8_3_0_32805_008<32>
