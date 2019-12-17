@@ -60,14 +60,14 @@ SoundAmbienceID<32>
 SoundProviderPreferencesID<32>
 
 LAYOUT ED7C3739
-BUILD 8.3.0.32805
+BUILD 8.3.0.32805, 8.3.0.32846
 $noninline,id$ID<32>
 WorldStateID<u16>
 WorldStateValue<u16>
 AreaID<u16>
 WMOAreaID<u32>
-ZoneIntroMusicID<32>
-ZoneMusicID<32>
-SoundAmbienceID<32>
-SoundProviderPreferencesID<32>
+ZoneIntroMusicID<u32>
+ZoneMusicID<u32>
+SoundAmbienceID<u32>
+SoundProviderPreferencesID<u32>
 Field_8_3_0_32805_008<32>
