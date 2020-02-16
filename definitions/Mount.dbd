@@ -13,8 +13,8 @@ int<Spell::ID> SourceSpellID
 locstring SourceText_lang
 int SourceTypeEnum
 int<UiModelScene::ID> UiModelSceneID
-int Field_8_3_0_32272_011?
-int Field_8_3_0_32712_012?
+int<AnimKit::ID> MountSpecialRiderAnimKitID?
+int<SpellVisualKit::ID> MountSpecialSpellVisualKitID?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -82,7 +82,7 @@ SourceSpellID<32>
 PlayerConditionID<u32>
 MountFlyRideHeight
 UiModelSceneID<32>
-Field_8_3_0_32272_011<32>
+MountSpecialRiderAnimKitID<32>
 
 LAYOUT A199A80C
 BUILD 8.3.0.32712, 8.3.0.32805, 8.3.0.32846, 8.3.0.32861, 8.3.0.32976, 8.3.0.33010, 8.3.0.33051, 8.3.0.33062, 8.3.0.33073, 8.3.0.33084, 8.3.0.33095, 8.3.0.33115, 8.3.0.33169, 8.3.0.33183, 8.3.0.33237, 8.3.0.33369
@@ -97,5 +97,5 @@ SourceSpellID<32>
 PlayerConditionID<u32>
 MountFlyRideHeight
 UiModelSceneID<32>
-Field_8_3_0_32272_011<32>
-Field_8_3_0_32712_012<32>
+MountSpecialRiderAnimKitID<32>
+MountSpecialSpellVisualKitID<32>
