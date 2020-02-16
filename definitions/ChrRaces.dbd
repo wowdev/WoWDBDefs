@@ -59,7 +59,7 @@ int MaleModelFallbackSex
 int MaleTextureFallbackRaceID
 int MaleTextureFallbackSex
 int<ChrRaces::ID> BaseRaceID?
-int Field_8_3_0_32593_025?
+int TransmogrifyDisabledSlotMask?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -502,7 +502,7 @@ UiDisplayOrder<32>
 FemaleSkeletonFileDataID<32>
 MaleSkeletonFileDataID<32>
 BaseRaceID<32>
-Field_8_3_0_32593_025<32>
+TransmogrifyDisabledSlotMask<32>
 FactionID<16>
 CinematicSequenceID<16>
 ResSicknessSpellID<16>
