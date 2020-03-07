@@ -76,20 +76,38 @@ namespace DBDefsLib
 
                     if(versionDefinition.builds.Length > 0)
                     {
-                        writer.Write("BUILD ");
                         var sortedVersionlist = new List<Build>();
                         sortedVersionlist.AddRange(versionDefinition.builds);
                         sortedVersionlist.Sort();
+                        sortedVersionlist.Reverse();
                         versionDefinition.builds = sortedVersionlist.ToArray();
-                        for(var b = 0; b < versionDefinition.builds.Length; b++)
+
+                        var buildsByMajor = new Dictionary<string, List<Build>>();
+                        for (var b = 0; b < versionDefinition.builds.Length; b++)
                         {
-                            writer.Write(versionDefinition.builds[b].ToString());
-                            if(b + 1 < versionDefinition.builds.Length)
+                            var major = versionDefinition.builds[b].expansion + "." + versionDefinition.builds[b].major + "." + versionDefinition.builds[b].minor;
+                            if (!buildsByMajor.ContainsKey(major))
                             {
-                                writer.Write(", ");
+                                buildsByMajor.Add(major, new List<Build>());
                             }
+
+                            buildsByMajor[major].Add(versionDefinition.builds[b]);
                         }
-                        writer.Write(writer.NewLine);
+
+                        foreach(var buildList in buildsByMajor)
+                        {
+                            buildList.Value.Reverse();
+                            writer.Write("BUILD ");
+                            for (var b = 0; b < buildList.Value.Count; b++)
+                            {
+                                writer.Write(buildList.Value[b].ToString());
+                                if (b + 1 < buildList.Value.Count)
+                                {
+                                    writer.Write(", ");
+                                }
+                            }
+                            writer.Write(writer.NewLine);
+                        }
                     }
 
                     if (versionDefinition.buildRanges.Length > 0)
