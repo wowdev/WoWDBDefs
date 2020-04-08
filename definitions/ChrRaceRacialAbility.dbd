@@ -1,16 +1,16 @@
 COLUMNS
 int ID
-locstring Field_9_0_1_33978_000_lang?
-locstring Field_9_0_1_33978_001_lang?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
+locstring Name_lang?
+locstring Description_lang?
+int<FileData::ID> Icon?
+int Order?
+int<ChrRaces::ID> ChrRacesID?
 
 LAYOUT 7C695867
 BUILD 9.0.1.33978
 $noninline,id$ID<32>
-Field_9_0_1_33978_000_lang
-Field_9_0_1_33978_001_lang
-Field_9_0_1_33978_002<32>
-Field_9_0_1_33978_003<32>
-$noninline,relation$Field_9_0_1_33978_004<32>
+Name_lang
+Description_lang
+Icon<32>
+Order<32>
+$noninline,relation$ChrRacesID<32>
