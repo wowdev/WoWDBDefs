@@ -102,16 +102,16 @@ AlternateUiMapGroup<32>
 
 LAYOUT 18361012
 BUILD 9.0.1.33978
-Field_9_0_1_33978_000_lang
-$id$Field_9_0_1_33978_001<32>
-Field_9_0_1_33978_002<32>
-Field_9_0_1_33978_003<32>
-Field_9_0_1_33978_004<32>
-Field_9_0_1_33978_005<32>
-Field_9_0_1_33978_006<32>
-Field_9_0_1_33978_007<u32>
-Field_9_0_1_33978_008<32>
+Name_lang
+$id$ID<32>
+ParentUiMapID<32>
+Flags<32>
+System<32>
+Type<32>
+BountySetID<32>
+BountyDisplayLocation<u32>
+VisibilityPlayerConditionID<32>
 Field_9_0_1_33978_009<8>
-Field_9_0_1_33978_010<32>
+BkgAtlasID<32>
 Field_9_0_1_33978_011<32>
 Field_9_0_1_33978_012<32>
