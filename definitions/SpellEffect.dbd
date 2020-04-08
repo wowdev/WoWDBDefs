@@ -17,7 +17,7 @@ float EffectPointsPerResource
 int EffectRadiusIndex
 float EffectRealPointsPerLevel
 int EffectSpellClassMask
-int EffectTriggerSpell
+int<Spell::ID> EffectTriggerSpell
 float EffectPos_facing
 int ImplicitTarget
 int<Spell::ID> SpellID
