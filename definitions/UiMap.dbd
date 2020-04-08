@@ -14,6 +14,19 @@ int Type
 int<PlayerCondition::ID> VisibilityPlayerConditionID
 int<UiTextureAtlasElement::ID> BkgAtlasID
 int AlternateUiMapGroup?
+locstring Field_9_0_1_33978_000_lang?
+int Field_9_0_1_33978_001?
+int Field_9_0_1_33978_002?
+int Field_9_0_1_33978_003?
+int Field_9_0_1_33978_004?
+int Field_9_0_1_33978_005?
+int Field_9_0_1_33978_006?
+int Field_9_0_1_33978_007?
+int Field_9_0_1_33978_008?
+int Field_9_0_1_33978_009?
+int Field_9_0_1_33978_010?
+int Field_9_0_1_33978_011?
+int Field_9_0_1_33978_012?
 
 LAYOUT 2C161494
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
@@ -86,3 +99,19 @@ VisibilityPlayerConditionID<32>
 HelpTextPosition<8>
 BkgAtlasID<32>
 AlternateUiMapGroup<32>
+
+LAYOUT 18361012
+BUILD 9.0.1.33978
+Field_9_0_1_33978_000_lang
+$id$Field_9_0_1_33978_001<32>
+Field_9_0_1_33978_002<32>
+Field_9_0_1_33978_003<32>
+Field_9_0_1_33978_004<32>
+Field_9_0_1_33978_005<32>
+Field_9_0_1_33978_006<32>
+Field_9_0_1_33978_007<u32>
+Field_9_0_1_33978_008<32>
+Field_9_0_1_33978_009<8>
+Field_9_0_1_33978_010<32>
+Field_9_0_1_33978_011<32>
+Field_9_0_1_33978_012<32>

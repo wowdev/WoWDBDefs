@@ -60,6 +60,62 @@ int MaleTextureFallbackRaceID
 int MaleTextureFallbackSex
 int<ChrRaces::ID> BaseRaceID?
 int TransmogrifyDisabledSlotMask?
+string Field_9_0_1_33978_000?
+string Field_9_0_1_33978_001?
+locstring Field_9_0_1_33978_002_lang?
+locstring Field_9_0_1_33978_003_lang?
+locstring Field_9_0_1_33978_004_lang?
+locstring Field_9_0_1_33978_005_lang?
+locstring Field_9_0_1_33978_006_lang?
+locstring Field_9_0_1_33978_007_lang?
+locstring Field_9_0_1_33978_008_lang?
+locstring Field_9_0_1_33978_009_lang?
+locstring Field_9_0_1_33978_010_lang?
+locstring Field_9_0_1_33978_011_lang?
+locstring Field_9_0_1_33978_012_lang?
+locstring Field_9_0_1_33978_013_lang?
+int Field_9_0_1_33978_014?
+int Field_9_0_1_33978_015?
+int Field_9_0_1_33978_016?
+int Field_9_0_1_33978_017?
+int Field_9_0_1_33978_018?
+int Field_9_0_1_33978_019?
+int Field_9_0_1_33978_020?
+int Field_9_0_1_33978_021?
+float Field_9_0_1_33978_022?
+float Field_9_0_1_33978_023?
+int Field_9_0_1_33978_024?
+int Field_9_0_1_33978_025?
+int Field_9_0_1_33978_026?
+int Field_9_0_1_33978_027?
+int Field_9_0_1_33978_028?
+int Field_9_0_1_33978_029?
+int Field_9_0_1_33978_030?
+int Field_9_0_1_33978_031?
+int Field_9_0_1_33978_032?
+int Field_9_0_1_33978_033?
+int Field_9_0_1_33978_034?
+int Field_9_0_1_33978_035?
+int Field_9_0_1_33978_036?
+int Field_9_0_1_33978_037?
+int Field_9_0_1_33978_038?
+int Field_9_0_1_33978_039?
+int Field_9_0_1_33978_040?
+int Field_9_0_1_33978_041?
+int Field_9_0_1_33978_042?
+int Field_9_0_1_33978_043?
+int Field_9_0_1_33978_044?
+int Field_9_0_1_33978_045?
+int Field_9_0_1_33978_046?
+int Field_9_0_1_33978_047?
+int Field_9_0_1_33978_048?
+int Field_9_0_1_33978_049?
+int Field_9_0_1_33978_050?
+int Field_9_0_1_33978_051?
+int Field_9_0_1_33978_052?
+int Field_9_0_1_33978_053?
+int Field_9_0_1_33978_054?
+int Field_9_0_1_33978_055?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -534,3 +590,62 @@ MaleTextureFallbackRaceID<8>
 MaleTextureFallbackSex<8>
 FemaleTextureFallbackRaceID<8>
 FemaleTextureFallbackSex<8>
+
+LAYOUT 76D456C2
+BUILD 9.0.1.33978
+Field_9_0_1_33978_000
+Field_9_0_1_33978_001
+Field_9_0_1_33978_002_lang
+Field_9_0_1_33978_003_lang
+Field_9_0_1_33978_004_lang
+Field_9_0_1_33978_005_lang
+Field_9_0_1_33978_006_lang
+Field_9_0_1_33978_007_lang
+Field_9_0_1_33978_008_lang
+Field_9_0_1_33978_009_lang
+Field_9_0_1_33978_010_lang
+Field_9_0_1_33978_011_lang
+Field_9_0_1_33978_012_lang
+Field_9_0_1_33978_013_lang
+$id$Field_9_0_1_33978_014<32>
+Field_9_0_1_33978_015<32>
+Field_9_0_1_33978_016<u32>
+Field_9_0_1_33978_017<u32>
+Field_9_0_1_33978_018<u32>
+Field_9_0_1_33978_019<u32>
+Field_9_0_1_33978_020<32>
+Field_9_0_1_33978_021<32>
+Field_9_0_1_33978_022[3]
+Field_9_0_1_33978_023[3]
+Field_9_0_1_33978_024<32>
+Field_9_0_1_33978_025<u32>[3]
+Field_9_0_1_33978_026<u32>[3]
+Field_9_0_1_33978_027<32>
+Field_9_0_1_33978_028<32>
+Field_9_0_1_33978_029<32>
+Field_9_0_1_33978_030<32>
+Field_9_0_1_33978_031<32>
+Field_9_0_1_33978_032<32>
+Field_9_0_1_33978_033<32>
+Field_9_0_1_33978_034<32>
+Field_9_0_1_33978_035<16>
+Field_9_0_1_33978_036<16>
+Field_9_0_1_33978_037<16>
+Field_9_0_1_33978_038<16>
+Field_9_0_1_33978_039<8>
+Field_9_0_1_33978_040<8>
+Field_9_0_1_33978_041<8>
+Field_9_0_1_33978_042<8>
+Field_9_0_1_33978_043<8>
+Field_9_0_1_33978_044<8>
+Field_9_0_1_33978_045<8>
+Field_9_0_1_33978_046<8>
+Field_9_0_1_33978_047<8>
+Field_9_0_1_33978_048<8>
+Field_9_0_1_33978_049<8>
+Field_9_0_1_33978_050<8>
+Field_9_0_1_33978_051<8>
+Field_9_0_1_33978_052<8>
+Field_9_0_1_33978_053<8>
+Field_9_0_1_33978_054<8>
+Field_9_0_1_33978_055<8>

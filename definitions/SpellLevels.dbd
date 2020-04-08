@@ -6,6 +6,12 @@ int BaseLevel
 int MaxLevel
 int SpellLevel
 int MaxPassiveAuraLevel
+int Field_9_0_1_33978_000?
+int Field_9_0_1_33978_001?
+int Field_9_0_1_33978_002?
+int Field_9_0_1_33978_003?
+int Field_9_0_1_33978_004?
+int Field_9_0_1_33978_005?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -44,3 +50,13 @@ MaxLevel<16>
 SpellLevel<16>
 MaxPassiveAuraLevel<u8>
 $noninline,relation$SpellID<32>
+
+LAYOUT 79D1C0A1
+BUILD 9.0.1.33978
+$noninline,id$ID<32>
+Field_9_0_1_33978_000<u8>
+Field_9_0_1_33978_001<16>
+Field_9_0_1_33978_002<u8>
+Field_9_0_1_33978_003<32>
+Field_9_0_1_33978_004<32>
+$noninline,relation$Field_9_0_1_33978_005<32>

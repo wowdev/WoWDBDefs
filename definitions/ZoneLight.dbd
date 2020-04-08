@@ -6,6 +6,13 @@ int<Light::ID> LightID
 int Flags
 float Zmin?
 float Zmax?
+string Field_9_0_1_33978_000?
+int Field_9_0_1_33978_001?
+int Field_9_0_1_33978_002?
+int Field_9_0_1_33978_003?
+float Field_9_0_1_33978_004?
+float Field_9_0_1_33978_005?
+int Field_9_0_1_33978_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -45,3 +52,14 @@ LightID<u16>
 Flags<u8>
 Zmin
 Zmax
+
+LAYOUT 1065A739
+BUILD 9.0.1.33978
+$noninline,id$ID<32>
+Field_9_0_1_33978_000
+Field_9_0_1_33978_001<u16>
+Field_9_0_1_33978_002<u16>
+Field_9_0_1_33978_003<u8>
+Field_9_0_1_33978_004
+Field_9_0_1_33978_005
+Field_9_0_1_33978_006<u16>

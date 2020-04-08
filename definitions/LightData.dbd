@@ -37,6 +37,46 @@ float SunFogAngle
 int SunFogColor
 float SunFogStrength
 float FogHeightCoefficients
+int Field_9_0_1_33978_000?
+int Field_9_0_1_33978_001?
+int Field_9_0_1_33978_002?
+int Field_9_0_1_33978_003?
+int Field_9_0_1_33978_004?
+int Field_9_0_1_33978_005?
+int Field_9_0_1_33978_006?
+int Field_9_0_1_33978_007?
+int Field_9_0_1_33978_008?
+int Field_9_0_1_33978_009?
+int Field_9_0_1_33978_010?
+int Field_9_0_1_33978_011?
+int Field_9_0_1_33978_012?
+int Field_9_0_1_33978_013?
+int Field_9_0_1_33978_014?
+int Field_9_0_1_33978_015?
+int Field_9_0_1_33978_016?
+int Field_9_0_1_33978_017?
+int Field_9_0_1_33978_018?
+int Field_9_0_1_33978_019?
+float Field_9_0_1_33978_020?
+float Field_9_0_1_33978_021?
+float Field_9_0_1_33978_022?
+float Field_9_0_1_33978_023?
+float Field_9_0_1_33978_024?
+float Field_9_0_1_33978_025?
+float Field_9_0_1_33978_026?
+float Field_9_0_1_33978_027?
+float Field_9_0_1_33978_028?
+int Field_9_0_1_33978_029?
+int Field_9_0_1_33978_030?
+int Field_9_0_1_33978_031?
+int Field_9_0_1_33978_032?
+int Field_9_0_1_33978_033?
+float Field_9_0_1_33978_034?
+int Field_9_0_1_33978_035?
+float Field_9_0_1_33978_036?
+int Field_9_0_1_33978_037?
+float Field_9_0_1_33978_038?
+float Field_9_0_1_33978_039?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -350,3 +390,47 @@ SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
 FogHeightCoefficients[4]
+
+LAYOUT 14259798
+BUILD 9.0.1.33978
+$noninline,id$ID<32>
+Field_9_0_1_33978_000<u16>
+Field_9_0_1_33978_001<u16>
+Field_9_0_1_33978_002<32>
+Field_9_0_1_33978_003<32>
+Field_9_0_1_33978_004<32>
+Field_9_0_1_33978_005<32>
+Field_9_0_1_33978_006<32>
+Field_9_0_1_33978_007<32>
+Field_9_0_1_33978_008<32>
+Field_9_0_1_33978_009<32>
+Field_9_0_1_33978_010<32>
+Field_9_0_1_33978_011<32>
+Field_9_0_1_33978_012<32>
+Field_9_0_1_33978_013<32>
+Field_9_0_1_33978_014<32>
+Field_9_0_1_33978_015<32>
+Field_9_0_1_33978_016<32>
+Field_9_0_1_33978_017<32>
+Field_9_0_1_33978_018<32>
+Field_9_0_1_33978_019<32>
+Field_9_0_1_33978_020
+Field_9_0_1_33978_021
+Field_9_0_1_33978_022
+Field_9_0_1_33978_023
+Field_9_0_1_33978_024
+Field_9_0_1_33978_025
+Field_9_0_1_33978_026
+Field_9_0_1_33978_027
+Field_9_0_1_33978_028
+Field_9_0_1_33978_029<u32>
+Field_9_0_1_33978_030<u32>
+Field_9_0_1_33978_031<32>
+Field_9_0_1_33978_032<32>
+Field_9_0_1_33978_033<u32>
+Field_9_0_1_33978_034
+Field_9_0_1_33978_035<u32>
+Field_9_0_1_33978_036
+Field_9_0_1_33978_037<u32>
+Field_9_0_1_33978_038[4]
+Field_9_0_1_33978_039[4]

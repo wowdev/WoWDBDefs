@@ -25,6 +25,30 @@ int UniqueBitFlag
 int<WorldStateExpression::ID> WorldStateExpressionID
 int<ContentTuning::ID> ContentTuningID
 int Field_8_2_0_30774_023?
+int Field_9_0_1_33978_000?
+locstring Field_9_0_1_33978_001_lang?
+locstring Field_9_0_1_33978_002_lang?
+int Field_9_0_1_33978_003?
+int Field_9_0_1_33978_004?
+int Field_9_0_1_33978_005?
+int Field_9_0_1_33978_006?
+int Field_9_0_1_33978_007?
+int Field_9_0_1_33978_008?
+int Field_9_0_1_33978_009?
+int Field_9_0_1_33978_010?
+int Field_9_0_1_33978_011?
+int Field_9_0_1_33978_012?
+int Field_9_0_1_33978_013?
+int Field_9_0_1_33978_014?
+int Field_9_0_1_33978_015?
+int Field_9_0_1_33978_016?
+int Field_9_0_1_33978_017?
+int Field_9_0_1_33978_018?
+int Field_9_0_1_33978_019?
+int Field_9_0_1_33978_020?
+int Field_9_0_1_33978_021?
+int Field_9_0_1_33978_022?
+int Field_9_0_1_33978_023?
 
 LAYOUT 3F026A14
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141
@@ -252,3 +276,30 @@ QuestInfoID<u32>
 ContentTuningID<32>
 Field_8_2_0_30774_023<32>[3]
 FiltCompletedQuest<u32>[3]
+
+LAYOUT 3C29F627
+BUILD 9.0.1.33978
+Field_9_0_1_33978_000<64>
+Field_9_0_1_33978_001_lang
+Field_9_0_1_33978_002_lang
+$id$Field_9_0_1_33978_003<u32>
+Field_9_0_1_33978_004<u16>
+Field_9_0_1_33978_005<u32>
+Field_9_0_1_33978_006<u32>
+Field_9_0_1_33978_007<16>
+Field_9_0_1_33978_008<u32>
+Field_9_0_1_33978_009<u32>
+Field_9_0_1_33978_010<u32>
+Field_9_0_1_33978_011<u32>
+Field_9_0_1_33978_012<u32>
+Field_9_0_1_33978_013<u32>
+Field_9_0_1_33978_014<u32>
+Field_9_0_1_33978_015<u32>
+Field_9_0_1_33978_016<u32>
+Field_9_0_1_33978_017<32>
+Field_9_0_1_33978_018<16>
+Field_9_0_1_33978_019<u32>
+Field_9_0_1_33978_020<32>
+Field_9_0_1_33978_021<32>
+Field_9_0_1_33978_022<32>[3]
+Field_9_0_1_33978_023<u32>[3]

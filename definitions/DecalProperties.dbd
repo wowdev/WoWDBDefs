@@ -17,6 +17,28 @@ float Rim
 float Scale
 int TopTextureBlendSetID
 float ArbitraryBoxHeight
+int Field_9_0_1_33978_000?
+int Field_9_0_1_33978_001?
+int Field_9_0_1_33978_002?
+int Field_9_0_1_33978_003?
+float Field_9_0_1_33978_004?
+float Field_9_0_1_33978_005?
+float Field_9_0_1_33978_006?
+float Field_9_0_1_33978_007?
+float Field_9_0_1_33978_008?
+int Field_9_0_1_33978_009?
+float Field_9_0_1_33978_010?
+float Field_9_0_1_33978_011?
+float Field_9_0_1_33978_012?
+int Field_9_0_1_33978_013?
+int Field_9_0_1_33978_014?
+int Field_9_0_1_33978_015?
+int Field_9_0_1_33978_016?
+float Field_9_0_1_33978_017?
+int Field_9_0_1_33978_018?
+int Field_9_0_1_33978_019?
+float Field_9_0_1_33978_020?
+float Field_9_0_1_33978_021?
 
 LAYOUT DD48C72A
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -109,3 +131,28 @@ BlendMode<u8>
 GameFlags<32>
 CasterDecalPropertiesID<32>
 ArbitraryBoxHeight
+
+LAYOUT F090CC1E
+BUILD 9.0.1.33978
+$id$Field_9_0_1_33978_000<32>
+Field_9_0_1_33978_001<32>
+Field_9_0_1_33978_002<32>
+Field_9_0_1_33978_003<32>
+Field_9_0_1_33978_004
+Field_9_0_1_33978_005
+Field_9_0_1_33978_006
+Field_9_0_1_33978_007
+Field_9_0_1_33978_008
+Field_9_0_1_33978_009<32>
+Field_9_0_1_33978_010
+Field_9_0_1_33978_011
+Field_9_0_1_33978_012
+Field_9_0_1_33978_013<u8>
+Field_9_0_1_33978_014<u8>
+Field_9_0_1_33978_015<32>
+Field_9_0_1_33978_016<32>
+Field_9_0_1_33978_017
+Field_9_0_1_33978_018<32>
+Field_9_0_1_33978_019<32>
+Field_9_0_1_33978_020[4]
+Field_9_0_1_33978_021[4]

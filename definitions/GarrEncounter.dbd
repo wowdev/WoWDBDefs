@@ -11,6 +11,15 @@ float UiAnimHeight
 float UiAnimScale
 int<UiTextureKit::ID> UiTextureKitID
 int Field_1359072287?
+locstring Field_9_0_1_33978_000_lang?
+int Field_9_0_1_33978_001?
+int Field_9_0_1_33978_002?
+int Field_9_0_1_33978_003?
+int Field_9_0_1_33978_004?
+float Field_9_0_1_33978_005?
+float Field_9_0_1_33978_006?
+int Field_9_0_1_33978_007?
+int Field_9_0_1_33978_008?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -69,3 +78,15 @@ UiTextureKitID<u32>
 UiAnimScale
 UiAnimHeight
 Field_1359072287<32>
+
+LAYOUT 785239C5
+BUILD 9.0.1.33978
+Field_9_0_1_33978_000_lang
+$id$Field_9_0_1_33978_001<32>
+Field_9_0_1_33978_002<32>
+Field_9_0_1_33978_003<32>
+Field_9_0_1_33978_004<u32>
+Field_9_0_1_33978_005
+Field_9_0_1_33978_006
+Field_9_0_1_33978_007<32>
+Field_9_0_1_33978_008<32>

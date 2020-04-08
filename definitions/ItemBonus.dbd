@@ -8,6 +8,10 @@ int OrderIndex
 int<ItemBonusList::ID> ParentItemBonusListID
 int Type
 int Value
+int Field_9_0_1_33978_000?
+int Field_9_0_1_33978_001?
+int Field_9_0_1_33978_002?
+int Field_9_0_1_33978_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -33,3 +37,11 @@ Value<32>[3]
 $relation$ParentItemBonusListID<u16>
 Type<u8>
 OrderIndex<u8>
+
+LAYOUT 84110DA5
+BUILD 9.0.1.33978
+$noninline,id$ID<32>
+Field_9_0_1_33978_000<32>[4]
+Field_9_0_1_33978_001<u16>
+Field_9_0_1_33978_002<u8>
+Field_9_0_1_33978_003<u8>

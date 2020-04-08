@@ -46,6 +46,38 @@ int TargetLevel
 int TravelDuration
 int<UiTextureKit::ID> UiTextureKitID
 float WorldPos
+locstring Field_9_0_1_33978_000_lang?
+locstring Field_9_0_1_33978_001_lang?
+locstring Field_9_0_1_33978_002_lang?
+float Field_9_0_1_33978_003?
+float Field_9_0_1_33978_004?
+int Field_9_0_1_33978_005?
+int Field_9_0_1_33978_006?
+int Field_9_0_1_33978_007?
+int Field_9_0_1_33978_008?
+int Field_9_0_1_33978_009?
+int Field_9_0_1_33978_010?
+int Field_9_0_1_33978_011?
+int Field_9_0_1_33978_012?
+int Field_9_0_1_33978_013?
+int Field_9_0_1_33978_014?
+int Field_9_0_1_33978_015?
+int Field_9_0_1_33978_016?
+int Field_9_0_1_33978_017?
+int Field_9_0_1_33978_018?
+int Field_9_0_1_33978_019?
+int Field_9_0_1_33978_020?
+int Field_9_0_1_33978_021?
+int Field_9_0_1_33978_022?
+int Field_9_0_1_33978_023?
+int Field_9_0_1_33978_024?
+int Field_9_0_1_33978_025?
+int Field_9_0_1_33978_026?
+int Field_9_0_1_33978_027?
+float Field_9_0_1_33978_028?
+int Field_9_0_1_33978_029?
+int Field_9_0_1_33978_030?
+int Field_9_0_1_33978_031?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -205,3 +237,38 @@ FollowerDeathChance<u8>
 AreaID<u32>
 Flags<u32>
 $noninline,relation$GarrMissionSetID<32>
+
+LAYOUT 906E75DA
+BUILD 9.0.1.33978
+Field_9_0_1_33978_000_lang
+Field_9_0_1_33978_001_lang
+Field_9_0_1_33978_002_lang
+Field_9_0_1_33978_003[2]
+Field_9_0_1_33978_004[2]
+$id$Field_9_0_1_33978_005<32>
+Field_9_0_1_33978_006<u8>
+Field_9_0_1_33978_007<u8>
+Field_9_0_1_33978_008<u8>
+Field_9_0_1_33978_009<u8>
+Field_9_0_1_33978_010<u32>
+Field_9_0_1_33978_011<u16>
+Field_9_0_1_33978_012<u8>
+Field_9_0_1_33978_013<u16>
+Field_9_0_1_33978_014<u32>
+Field_9_0_1_33978_015<u8>
+Field_9_0_1_33978_016<u32>
+Field_9_0_1_33978_017<8>
+Field_9_0_1_33978_018<u16>
+Field_9_0_1_33978_019<32>
+Field_9_0_1_33978_020<32>
+Field_9_0_1_33978_021<u32>
+Field_9_0_1_33978_022<u8>
+Field_9_0_1_33978_023<u32>
+Field_9_0_1_33978_024<u32>
+Field_9_0_1_33978_025<u8>
+Field_9_0_1_33978_026<u32>
+Field_9_0_1_33978_027<u32>
+Field_9_0_1_33978_028
+Field_9_0_1_33978_029<32>
+Field_9_0_1_33978_030<32>
+$noninline,relation$Field_9_0_1_33978_031<32>
