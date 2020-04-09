@@ -1,18 +1,18 @@
 COLUMNS
-locstring Field_9_0_1_33978_000_lang?
-locstring Field_9_0_1_33978_001_lang?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
+locstring Name_lang?
+locstring Description_lang?
+int ID?
+int<Spell::ID> SpellID?
+int<UiTextureAtlasElement::ID> BannerAlliance?
+int<UiTextureAtlasElement::ID> BannerHorde?
 int Field_9_0_1_33978_006?
 
 LAYOUT 774183A9
 BUILD 9.0.1.33978
-Field_9_0_1_33978_000_lang
-Field_9_0_1_33978_001_lang
-$id$Field_9_0_1_33978_002<32>
-Field_9_0_1_33978_003<32>
-Field_9_0_1_33978_004<32>
-Field_9_0_1_33978_005<32>
+Name_lang
+Description_lang
+$id$ID<32>
+SpellID<32>
+BannerAlliance<32>
+BannerHorde<32>
 Field_9_0_1_33978_006<32>
