@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ParticulateID
+int<Particulate::ID> ParticulateID
 int DaySound
 int NightSound
 int EnterSound

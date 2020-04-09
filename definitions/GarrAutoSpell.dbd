@@ -1,7 +1,7 @@
 COLUMNS
-locstring Field_9_0_1_33978_000_lang?
-locstring Field_9_0_1_33978_001_lang?
-int Field_9_0_1_33978_002?
+locstring Name_lang?
+locstring Description_lang?
+int ID?
 int Field_9_0_1_33978_003?
 int Field_9_0_1_33978_004?
 int Field_9_0_1_33978_005?
@@ -10,9 +10,9 @@ int Field_9_0_1_33978_007?
 
 LAYOUT DFD06B4A
 BUILD 9.0.1.33978
-Field_9_0_1_33978_000_lang
-Field_9_0_1_33978_001_lang
-$id$Field_9_0_1_33978_002<32>
+Name_lang
+Description_lang
+$id$ID<32>
 Field_9_0_1_33978_003<32>
 Field_9_0_1_33978_004<32>
 Field_9_0_1_33978_005<32>

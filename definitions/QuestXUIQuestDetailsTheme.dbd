@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_9_0_1_33978_000?
-int Field_9_0_1_33978_001?
+int<QuestV2::ID> QuestID?
+int<UiQuestDetailsTheme::ID> UiQuestDetailsThemeID?
 
 LAYOUT E5F50D56
 BUILD 9.0.1.33978
 $noninline,id$ID<32>
-Field_9_0_1_33978_000<32>
-Field_9_0_1_33978_001<32>
+QuestID<32>
+UiQuestDetailsThemeID<32>
