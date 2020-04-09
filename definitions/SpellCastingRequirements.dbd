@@ -3,7 +3,7 @@ int ID
 int FacingCasterFlags
 int<Faction::ID> MinFactionID
 int MinReputation
-int RequiredAreasID
+int<AreaGroup::ID> RequiredAreasID
 int RequiredAuraVision
 int RequiresSpellFocus
 int<Spell::ID> SpellID
