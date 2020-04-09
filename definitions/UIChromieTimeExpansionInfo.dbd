@@ -5,7 +5,7 @@ int ID?
 int<Spell::ID> SpellID?
 int<UiTextureAtlasElement::ID> BannerAlliance?
 int<UiTextureAtlasElement::ID> BannerHorde?
-int Field_9_0_1_33978_006?
+int<PlayerCondition::ID> ConditionID?
 
 LAYOUT 774183A9
 BUILD 9.0.1.33978, 9.0.1.34003
@@ -15,4 +15,4 @@ $id$ID<32>
 SpellID<32>
 BannerAlliance<32>
 BannerHorde<32>
-Field_9_0_1_33978_006<32>
+ConditionID<32>

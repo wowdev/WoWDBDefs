@@ -1,8 +1,8 @@
 COLUMNS
 locstring Field_9_0_1_33978_000_lang?
 int ID?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
+int<Soulbind::ID> SoulbindID?
+int<SpellVisual::ID> SpellVisualID?
 int Field_9_0_1_33978_004?
 int<UiTextureAtlasElement::ID> ShotTexture?
 
@@ -10,7 +10,7 @@ LAYOUT C41BBE90
 BUILD 9.0.1.33978, 9.0.1.34003
 Field_9_0_1_33978_000_lang
 $id$ID<32>
-Field_9_0_1_33978_002<32>
-Field_9_0_1_33978_003<32>
+SoulbindID<32>
+SpellVisualID<32>
 Field_9_0_1_33978_004<32>
 ShotTexture<32>

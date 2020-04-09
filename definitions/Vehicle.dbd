@@ -33,24 +33,7 @@ int<MissileTargeting::ID> MissileTargetingID
 int PowerType
 string PowerToken
 int UiSeatIndicatorType
-int Field_9_0_1_33978_000?
-int Field_9_0_1_33978_001?
-float Field_9_0_1_33978_002?
-float Field_9_0_1_33978_003?
-float Field_9_0_1_33978_004?
-float Field_9_0_1_33978_005?
-float Field_9_0_1_33978_006?
-float Field_9_0_1_33978_007?
-float Field_9_0_1_33978_008?
-float Field_9_0_1_33978_009?
-float Field_9_0_1_33978_010?
-float Field_9_0_1_33978_011?
-float Field_9_0_1_33978_012?
-int Field_9_0_1_33978_013?
-int Field_9_0_1_33978_014?
 int Field_9_0_1_33978_015?
-int Field_9_0_1_33978_016?
-int Field_9_0_1_33978_017?
 
 BUILD 4.0.0.11792
 BUILD 3.1.0.9767-3.3.5.12340
@@ -238,21 +221,21 @@ PowerDisplayID<u16>[3]
 LAYOUT F04F7E8F
 BUILD 9.0.1.33978, 9.0.1.34003
 $noninline,id$ID<32>
-Field_9_0_1_33978_000<32>
-Field_9_0_1_33978_001<u8>
-Field_9_0_1_33978_002
-Field_9_0_1_33978_003
-Field_9_0_1_33978_004
-Field_9_0_1_33978_005
-Field_9_0_1_33978_006
-Field_9_0_1_33978_007
-Field_9_0_1_33978_008
-Field_9_0_1_33978_009
-Field_9_0_1_33978_010
-Field_9_0_1_33978_011
-Field_9_0_1_33978_012
-Field_9_0_1_33978_013<u16>
-Field_9_0_1_33978_014<32>
+Flags<32>
+FlagsB<u8>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+MouseLookOffsetPitch
+CameraFadeDistScalarMin
+CameraFadeDistScalarMax
+CameraPitchOffset
+FacingLimitRight
+FacingLimitLeft
+CameraYawOffset
+VehicleUIIndicatorID<u16>
+MissileTargetingID<32>
 Field_9_0_1_33978_015<u16>
-Field_9_0_1_33978_016<u16>[8]
-Field_9_0_1_33978_017<u16>[3]
+SeatID<u16>[8]
+PowerDisplayID<u16>[3]

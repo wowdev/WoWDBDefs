@@ -5,7 +5,7 @@ int ID?
 int Field_9_0_1_33978_003?
 int Field_9_0_1_33978_004?
 int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
+int SpellSchoolMask? // 1: Physical, 2: Holy, 4: Fire, 8: Nature, 16: Frost, 32: Shadow, 64: Arcane
 int Field_9_0_1_33978_007?
 
 LAYOUT DFD06B4A
@@ -16,5 +16,5 @@ $id$ID<32>
 Field_9_0_1_33978_003<32>
 Field_9_0_1_33978_004<32>
 Field_9_0_1_33978_005<32>
-Field_9_0_1_33978_006<32>
+SpellSchoolMask<32>
 Field_9_0_1_33978_007<32>

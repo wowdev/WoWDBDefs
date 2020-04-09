@@ -4,10 +4,10 @@ int Field_9_0_1_33978_001?
 int Field_9_0_1_33978_002?
 int Field_9_0_1_33978_003?
 int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
-int Field_9_0_1_33978_007?
-int Field_9_0_1_33978_008?
+int<GarrAutoSpell::ID> Slot1?
+int<GarrAutoSpell::ID> Slot2?
+int<GarrAutoSpell::ID> Slot3?
+int<GarrAutoSpell::ID> Slot4?
 int Field_9_0_1_33978_009?
 
 LAYOUT BC77BB9B
@@ -17,8 +17,8 @@ Field_9_0_1_33978_001<32>
 Field_9_0_1_33978_002<32>
 Field_9_0_1_33978_003<32>
 Field_9_0_1_33978_004<32>
-Field_9_0_1_33978_005<32>
-Field_9_0_1_33978_006<32>
-Field_9_0_1_33978_007<32>
-Field_9_0_1_33978_008<32>
+Slot1<32>
+Slot2<32>
+Slot3<32>
+Slot4<32>
 Field_9_0_1_33978_009<32>

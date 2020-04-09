@@ -61,14 +61,14 @@ int MaleTextureFallbackSex
 int<ChrRaces::ID> BaseRaceID?
 int TransmogrifyDisabledSlotMask?
 locstring Field_9_0_1_33978_006_lang?
-locstring Field_9_0_1_33978_007_lang?
-locstring Field_9_0_1_33978_008_lang?
-locstring Field_9_0_1_33978_009_lang?
+locstring Field_9_0_1_33978_006_female_lang?
+locstring Field_9_0_1_33978_006_lowercase_lang?
+locstring Field_9_0_1_33978_006_female_lowercase_lang?
 locstring Field_9_0_1_33978_010_lang?
-locstring Field_9_0_1_33978_011_lang?
-locstring Field_9_0_1_33978_012_lang?
-locstring Field_9_0_1_33978_013_lang?
-int Field_9_0_1_33978_030?
+locstring Field_9_0_1_33978_010_female_lang?
+locstring Field_9_0_1_33978_010_lowercase_lang?
+locstring Field_9_0_1_33978_010_female_lowercase_lang?
+int PlayableRaceBit?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -553,13 +553,13 @@ Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
 Field_9_0_1_33978_006_lang
-Field_9_0_1_33978_007_lang
-Field_9_0_1_33978_008_lang
-Field_9_0_1_33978_009_lang
+Field_9_0_1_33978_006_female_lang
+Field_9_0_1_33978_006_lowercase_lang
+Field_9_0_1_33978_006_female_lowercase_lang
 Field_9_0_1_33978_010_lang
-Field_9_0_1_33978_011_lang
-Field_9_0_1_33978_012_lang
-Field_9_0_1_33978_013_lang
+Field_9_0_1_33978_010_female_lang
+Field_9_0_1_33978_010_lowercase_lang
+Field_9_0_1_33978_010_female_lowercase_lang
 $id$ID<32>
 Flags<32>
 MaleDisplayID<u32>
@@ -576,7 +576,7 @@ AlteredFormFinishVisualKitID<u32>[3]
 HeritageArmorAchievementID<32>
 StartingLevel<32>
 UiDisplayOrder<32>
-Field_9_0_1_33978_030<32>
+PlayableRaceBit<32>
 FemaleSkeletonFileDataID<32>
 MaleSkeletonFileDataID<32>
 BaseRaceID<32>

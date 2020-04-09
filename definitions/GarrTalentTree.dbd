@@ -8,10 +8,9 @@ int<UiTextureKit::ID> UiTextureKitID
 locstring Title_lang
 int Flags
 int Field_8_3_0_32044_007?
-int Field_9_0_1_33978_008?
-int Field_9_0_1_33978_009?
-int Field_9_0_1_33978_010?
-int Field_9_0_1_33978_011?
+int<PlayerCondition::ID> ConditionID?
+int PerTypeLevelOrGroup?
+int PerTypeSubtreeOrSomething?
 
 LAYOUT 676CBC04
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -94,7 +93,7 @@ MaxTiers<8>
 UiOrder<8>
 Flags<8>
 UiTextureKitID<u16>
-Field_9_0_1_33978_008<32>
-Field_9_0_1_33978_009<32>
-Field_9_0_1_33978_010<32>
-Field_9_0_1_33978_011<32>
+Field_8_3_0_32044_007<32>
+ConditionID<32>
+PerTypeLevelOrGroup<32>
+PerTypeSubtreeOrSomething<32>

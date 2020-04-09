@@ -2,7 +2,6 @@ COLUMNS
 int ID
 int ExpansionID
 int Characterlevel
-int Field_9_0_1_33978_000?
 int Field_9_0_1_33978_001?
 
 LAYOUT 81205938, 5B2F3204
@@ -18,5 +17,5 @@ Characterlevel<32>
 LAYOUT C7625152
 BUILD 9.0.1.33978, 9.0.1.34003
 $noninline,id$ID<32>
-Field_9_0_1_33978_000<8>
+ExpansionID<8>
 Field_9_0_1_33978_001<32>

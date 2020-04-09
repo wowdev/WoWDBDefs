@@ -1,16 +1,16 @@
 COLUMNS
 locstring Name_lang?
 int ID?
-int Field_9_0_1_33978_002?
+int<Covenant::ID> CovenantID?
 int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
+int<Creature::ID> CreatureID?
+int<GarrFollower::ID> GarrFollowerID?
 
 LAYOUT F8A4AE1D
 BUILD 9.0.1.33978, 9.0.1.34003
 Name_lang
 $id$ID<32>
-Field_9_0_1_33978_002<32>
+CovenantID<32>
 Field_9_0_1_33978_003<32>
-Field_9_0_1_33978_004<32>
-Field_9_0_1_33978_005<32>
+CreatureID<32>
+GarrFollowerID<32>

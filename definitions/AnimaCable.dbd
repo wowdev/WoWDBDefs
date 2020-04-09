@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Field_9_0_1_33978_000?
+int<FileData::ID> MissileModel?
 float Field_9_0_1_33978_001?
 float Field_9_0_1_33978_002?
 int Field_9_0_1_33978_003?
@@ -37,7 +37,7 @@ float Field_9_0_1_33978_032?
 LAYOUT E902730F
 BUILD 9.0.1.33978, 9.0.1.34003
 $noninline,id$ID<32>
-Field_9_0_1_33978_000<32>
+MissileModel<32>
 Field_9_0_1_33978_001
 Field_9_0_1_33978_002
 Field_9_0_1_33978_003<32>

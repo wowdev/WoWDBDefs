@@ -1,16 +1,16 @@
 COLUMNS
-int Field_9_0_1_33978_000?
+int ID?
 int<LoreText::ID> LoreTextID?
-int Field_9_0_1_33978_002?
+int<PlayerCondition::ID> ConditionID?
 int Field_9_0_1_33978_003?
 int Order?
 int Field_9_0_1_33978_005?
 
 LAYOUT 19A70CF2
 BUILD 9.0.1.33978, 9.0.1.34003
-$id$Field_9_0_1_33978_000<32>
+$id$ID<32>
 LoreTextID<32>
-Field_9_0_1_33978_002<32>
+ConditionID<32>
 Field_9_0_1_33978_003<u8>
 Order<32>
 $noninline,relation$Field_9_0_1_33978_005<32>

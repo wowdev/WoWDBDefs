@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-int Field_9_0_1_33978_000?
-int Field_9_0_1_33978_001?
+int<AnimaCable::ID> AnimaCableID?
+int<AnimaMaterial::ID> AnimaMaterialID?
 float Field_9_0_1_33978_002?
 float Field_9_0_1_33978_003?
 int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
+int Order? // per AnimaCableID
 int Field_9_0_1_33978_006?
 
 LAYOUT 033E8736
 BUILD 9.0.1.33978, 9.0.1.34003
 $noninline,id$ID<32>
-Field_9_0_1_33978_000<32>
-Field_9_0_1_33978_001<32>
+AnimaCableID<32>
+AnimaMaterialID<32>
 Field_9_0_1_33978_002
 Field_9_0_1_33978_003
 Field_9_0_1_33978_004<32>
-Field_9_0_1_33978_005<32>
+Order<32>
 Field_9_0_1_33978_006<32>

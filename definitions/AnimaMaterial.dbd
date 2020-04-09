@@ -24,13 +24,13 @@ float Field_9_0_1_33978_020?
 float Field_9_0_1_33978_021?
 float Field_9_0_1_33978_022?
 float Field_9_0_1_33978_023?
-int Field_9_0_1_33978_024?
+int<FileData::ID> RibbonTexture?
 float Field_9_0_1_33978_025?
 float Field_9_0_1_33978_026?
 int Field_9_0_1_33978_027?
 int Field_9_0_1_33978_028?
 float Field_9_0_1_33978_029?
-int Field_9_0_1_33978_030?
+int<FileData::ID> EffectTexture?
 
 LAYOUT 23D776A4
 BUILD 9.0.1.33978, 9.0.1.34003
@@ -59,10 +59,10 @@ Field_9_0_1_33978_020
 Field_9_0_1_33978_021
 Field_9_0_1_33978_022
 Field_9_0_1_33978_023
-Field_9_0_1_33978_024<32>
+RibbonTexture<32>
 Field_9_0_1_33978_025
 Field_9_0_1_33978_026
 Field_9_0_1_33978_027<32>
 Field_9_0_1_33978_028<32>
 Field_9_0_1_33978_029
-Field_9_0_1_33978_030<32>[3]
+EffectTexture<32>[3]
