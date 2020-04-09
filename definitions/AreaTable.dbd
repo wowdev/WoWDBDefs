@@ -31,7 +31,7 @@ int<AreaTable::ID> ParentAreaNum
 int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
-int Field_9_0_1_33978_020?
+int<ContentTuning::ID> ContentTuningID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -213,6 +213,6 @@ PvpCombatWorldStateID<16>
 WildBattlePetLevelMin<u8>
 WildBattlePetLevelMax<u8>
 WindSettingsID<u8>
-Field_9_0_1_33978_020<32>
+ContentTuningID<32>
 Flags<32>[2]
 LiquidTypeID<u16>[4]
