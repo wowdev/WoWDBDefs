@@ -35,7 +35,7 @@ int<FileData::ID> PopupBgTextureFileID
 int Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
-int Field_9_0_1_33978_027?
+int<ContentTuning::ID> ContentTuningID
 
 BUILD 4.0.0.11792
 BUILD 3.3.3.11685-3.3.5.12340
@@ -350,5 +350,5 @@ Min_count_damage<u8>
 Bonus_reputation_amount<u16>
 MentorItemLevel<u16>
 MentorCharLevel<u8>
-Field_9_0_1_33978_027<32>
+ContentTuningID<32>
 Flags<32>[2]
