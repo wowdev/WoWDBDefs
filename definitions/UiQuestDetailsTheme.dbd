@@ -1,8 +1,8 @@
 COLUMNS
 int ID
 locstring Sender_lang?
-int<UiTextureAltasElement::ID> BackgroundTexture?
-int<UiTextureAltasElement::ID> SealTextures?
+int<UiTextureAtlasElement::ID> BackgroundTexture?
+int<UiTextureAtlasElement::ID> SealTextures?
 
 LAYOUT DFF2A61D
 BUILD 9.0.1.33978
