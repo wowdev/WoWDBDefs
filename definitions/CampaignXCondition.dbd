@@ -4,11 +4,7 @@ int<PlayerCondition::ID> PlayerConditionID?
 int OrderIndex?
 int<Campaign::ID> CampaignID?
 int Field_8_2_0_30669_002?
-locstring Field_9_0_1_33978_000_lang?
-int Field_9_0_1_33978_001?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
+locstring Description_lang?
 
 LAYOUT 638FC159
 BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.30168, 8.2.0.30170, 8.2.0.30203, 8.2.0.30262, 8.2.0.30329, 8.2.0.30430, 8.2.0.30495, 8.2.0.30613, 8.2.0.30634
@@ -36,8 +32,8 @@ $noninline,relation$CampaignID<32>
 LAYOUT C7C42FAD
 BUILD 9.0.1.33978
 $noninline,id$ID<32>
-Field_9_0_1_33978_000_lang
-Field_9_0_1_33978_001<32>
-Field_9_0_1_33978_002<32>
-Field_9_0_1_33978_003<32>
-$noninline,relation$Field_9_0_1_33978_004<32>
+Description_lang?
+PlayerConditionID<32>
+OrderIndex<32>
+Field_8_2_0_30669_002<32>
+$noninline,relation$CampaignID<32>

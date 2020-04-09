@@ -45,29 +45,8 @@ int Field_1_13_2_30073_014?
 int Field_1_13_2_30073_016?
 int Field_1_13_2_30073_017?
 int Field_1_13_2_30073_018?
-locstring Field_9_0_1_33978_000_lang?
-string Field_9_0_1_33978_001?
-locstring Field_9_0_1_33978_002_lang?
-locstring Field_9_0_1_33978_003_lang?
-string Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
-int Field_9_0_1_33978_007?
-int Field_9_0_1_33978_008?
-int Field_9_0_1_33978_009?
-int Field_9_0_1_33978_010?
-int Field_9_0_1_33978_011?
-int Field_9_0_1_33978_012?
 int Field_9_0_1_33978_013?
 int Field_9_0_1_33978_014?
-int Field_9_0_1_33978_015?
-int Field_9_0_1_33978_016?
-int Field_9_0_1_33978_017?
-int Field_9_0_1_33978_018?
-int Field_9_0_1_33978_019?
-int Field_9_0_1_33978_020?
-int Field_9_0_1_33978_021?
-int Field_9_0_1_33978_022?
 int Field_9_0_1_33978_023?
 int Field_9_0_1_33978_024?
 int Field_9_0_1_33978_025?
@@ -306,29 +285,29 @@ Flags<u8>
 
 LAYOUT 70C4356F
 BUILD 9.0.1.33978
-Field_9_0_1_33978_000_lang
-Field_9_0_1_33978_001
-Field_9_0_1_33978_002_lang
-Field_9_0_1_33978_003_lang
-Field_9_0_1_33978_004
-$id$Field_9_0_1_33978_005<32>
-Field_9_0_1_33978_006<u32>
-Field_9_0_1_33978_007<u32>
-Field_9_0_1_33978_008<u32>
-Field_9_0_1_33978_009<u32>
-Field_9_0_1_33978_010<u32>
-Field_9_0_1_33978_011<32>
-Field_9_0_1_33978_012<u32>
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
+$id$ID<32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+IconFileDataID<u32>
+LowResScreenFileDataID<u32>
+Flags<u32>
+StartingLevel<32>
+SpellTextureBlobFileDataID<u32>
 Field_9_0_1_33978_013<u32>
 Field_9_0_1_33978_014<u32>
-Field_9_0_1_33978_015<u16>
-Field_9_0_1_33978_016<u16>
-Field_9_0_1_33978_017<u8>
-Field_9_0_1_33978_018<u8>
-Field_9_0_1_33978_019<u8>
-Field_9_0_1_33978_020<u8>
-Field_9_0_1_33978_021<u8>
-Field_9_0_1_33978_022<u8>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+PrimaryStatPriority<u8>
+DisplayPower<u8>
+RangedAttackPowerPerAgility<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
+SpellClassSet<u8>
 Field_9_0_1_33978_023<u8>
 Field_9_0_1_33978_024<u8>
 Field_9_0_1_33978_025<u8>

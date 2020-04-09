@@ -31,29 +31,7 @@ int<AreaTable::ID> ParentAreaNum
 int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
-string Field_9_0_1_33978_000?
-locstring Field_9_0_1_33978_001_lang?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
-int Field_9_0_1_33978_007?
-int Field_9_0_1_33978_008?
-int Field_9_0_1_33978_009?
-int Field_9_0_1_33978_010?
-int Field_9_0_1_33978_011?
-int Field_9_0_1_33978_012?
-int Field_9_0_1_33978_013?
-float Field_9_0_1_33978_014?
-int Field_9_0_1_33978_015?
-int Field_9_0_1_33978_016?
-int Field_9_0_1_33978_017?
-int Field_9_0_1_33978_018?
-int Field_9_0_1_33978_019?
 int Field_9_0_1_33978_020?
-int Field_9_0_1_33978_021?
-int Field_9_0_1_33978_022?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -215,26 +193,26 @@ LiquidTypeID<u16>[4]
 LAYOUT 7EF13BBB
 BUILD 9.0.1.33978
 $noninline,id$ID<32>
-Field_9_0_1_33978_000
-Field_9_0_1_33978_001_lang
-Field_9_0_1_33978_002<u16>
-Field_9_0_1_33978_003<u16>
-Field_9_0_1_33978_004<16>
-Field_9_0_1_33978_005<u8>
-Field_9_0_1_33978_006<u8>
-Field_9_0_1_33978_007<u16>
-Field_9_0_1_33978_008<u16>
-Field_9_0_1_33978_009<u16>
-Field_9_0_1_33978_010<u16>
-Field_9_0_1_33978_011<u16>
-Field_9_0_1_33978_012<u32>
-Field_9_0_1_33978_013<u8>
-Field_9_0_1_33978_014
-Field_9_0_1_33978_015<u8>
-Field_9_0_1_33978_016<16>
-Field_9_0_1_33978_017<u8>
-Field_9_0_1_33978_018<u8>
-Field_9_0_1_33978_019<u8>
+ZoneName
+AreaName_lang
+ContinentID<u16>
+ParentAreaID<u16>
+AreaBit<16>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+AmbienceID<u16>
+UwAmbience<u16>
+ZoneMusic<u16>
+UwZoneMusic<u16>
+IntroSound<u16>
+UwIntroSound<u32>
+FactionGroupMask<u8>
+Ambient_multiplier
+MountFlags<u8>
+PvpCombatWorldStateID<16>
+WildBattlePetLevelMin<u8>
+WildBattlePetLevelMax<u8>
+WindSettingsID<u8>
 Field_9_0_1_33978_020<32>
-Field_9_0_1_33978_021<32>[2]
-Field_9_0_1_33978_022<u16>[4]
+Flags<32>[2]
+LiquidTypeID<u16>[4]

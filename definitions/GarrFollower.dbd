@@ -46,38 +46,6 @@ int ItemLevelWeapon
 int Quality
 locstring TitleName_lang
 int Vitality
-locstring Field_9_0_1_33978_000_lang?
-locstring Field_9_0_1_33978_001_lang?
-locstring Field_9_0_1_33978_002_lang?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
-int Field_9_0_1_33978_007?
-int Field_9_0_1_33978_008?
-int Field_9_0_1_33978_009?
-int Field_9_0_1_33978_010?
-int Field_9_0_1_33978_011?
-int Field_9_0_1_33978_012?
-int Field_9_0_1_33978_013?
-int Field_9_0_1_33978_014?
-int Field_9_0_1_33978_015?
-int Field_9_0_1_33978_016?
-int Field_9_0_1_33978_017?
-int Field_9_0_1_33978_018?
-int Field_9_0_1_33978_019?
-int Field_9_0_1_33978_020?
-int Field_9_0_1_33978_021?
-int Field_9_0_1_33978_022?
-int Field_9_0_1_33978_023?
-int Field_9_0_1_33978_024?
-int Field_9_0_1_33978_025?
-int Field_9_0_1_33978_026?
-int Field_9_0_1_33978_027?
-int Field_9_0_1_33978_028?
-int Field_9_0_1_33978_029?
-int Field_9_0_1_33978_030?
-int Field_9_0_1_33978_031?
 int Field_9_0_1_33978_032?
 
 BUILD 6.0.1.18179
@@ -250,36 +218,36 @@ Gender<u8>
 
 LAYOUT 0B2987AF
 BUILD 9.0.1.33978
-Field_9_0_1_33978_000_lang
-Field_9_0_1_33978_001_lang
-Field_9_0_1_33978_002_lang
-$id$Field_9_0_1_33978_003<32>
-Field_9_0_1_33978_004<u8>
-Field_9_0_1_33978_005<u8>
-Field_9_0_1_33978_006<32>
-Field_9_0_1_33978_007<32>
-Field_9_0_1_33978_008<u8>
-Field_9_0_1_33978_009<u8>
-Field_9_0_1_33978_010<32>
-Field_9_0_1_33978_011<32>
-Field_9_0_1_33978_012<u8>
-Field_9_0_1_33978_013<u8>
-Field_9_0_1_33978_014<u16>
-Field_9_0_1_33978_015<u16>
-Field_9_0_1_33978_016<8>
-Field_9_0_1_33978_017<8>
-Field_9_0_1_33978_018<32>
-Field_9_0_1_33978_019<32>
-Field_9_0_1_33978_020<u16>
-Field_9_0_1_33978_021<u16>
-Field_9_0_1_33978_022<u16>
-Field_9_0_1_33978_023<u16>
-Field_9_0_1_33978_024<u8>
-Field_9_0_1_33978_025<u8>
-Field_9_0_1_33978_026<u8>
-Field_9_0_1_33978_027<u32>
-Field_9_0_1_33978_028<u32>
-Field_9_0_1_33978_029<u8>
-Field_9_0_1_33978_030<u8>
-Field_9_0_1_33978_031<u8>
+HordeSourceText_lang
+AllianceSourceText_lang
+TitleName_lang
+$id$ID<32>
+GarrTypeID<u8>
+GarrFollowerTypeID<u8>
+HordeCreatureID<32>
+AllianceCreatureID<32>
+HordeGarrFollRaceID<u8>
+AllianceGarrFollRaceID<u8>
+HordeGarrClassSpecID<32>
+AllianceGarrClassSpecID<32>
+Quality<u8>
+FollowerLevel<u8>
+ItemLevelWeapon<u16>
+ItemLevelArmor<u16>
+HordeSourceTypeEnum<8>
+AllianceSourceTypeEnum<8>
+HordeIconFileDataID<32>
+AllianceIconFileDataID<32>
+HordeGarrFollItemSetID<u16>
+AllianceGarrFollItemSetID<u16>
+HordeUITextureKitID<u16>
+AllianceUITextureKitID<u16>
+Vitality<u8>
+HordeFlavorGarrStringID<u8>
+AllianceFlavorGarrStringID<u8>
+HordeSlottingBroadcastTextID<u32>
+AllySlottingBroadcastTextID<u32>
+ChrClassID<u8>
+Flags<u8>
+Gender<u8>
 Field_9_0_1_33978_032<32>

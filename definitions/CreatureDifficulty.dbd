@@ -7,13 +7,6 @@ int Flags
 int MaxLevel
 int MinLevel
 int<ContentTuning::ID> ContentTuningID
-int Field_9_0_1_33978_000?
-int Field_9_0_1_33978_001?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -69,10 +62,10 @@ $noninline,relation$CreatureID<32>
 LAYOUT 350B7496
 BUILD 9.0.1.33978
 $noninline,id$ID<32>
-Field_9_0_1_33978_000<8>
-Field_9_0_1_33978_001<8>
-Field_9_0_1_33978_002<8>
-Field_9_0_1_33978_003<u16>
-Field_9_0_1_33978_004<32>
-Field_9_0_1_33978_005<32>[8]
-$noninline,relation$Field_9_0_1_33978_006<32>
+ExpansionID<8>
+MinLevel<8>
+MaxLevel<8>
+FactionID<u16>
+ContentTuningID<32>
+Flags<32>[8]
+$noninline,relation$CreatureID<32>

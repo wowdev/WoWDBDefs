@@ -7,14 +7,6 @@ int<UiTextureKit::ID> UiTextureKitID?
 int<QuestV2::ID> RewardQuestID
 int<PlayerCondition::ID> PlayerConditionID?
 int<PlayerCondition::ID> Field_8_2_5_31401_007?
-locstring Field_9_0_1_33978_000_lang?
-string Field_9_0_1_33978_001?
-locstring Field_9_0_1_33978_002_lang?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
-int Field_9_0_1_33978_007?
 int Field_9_0_1_33978_008?
 int Field_9_0_1_33978_009?
 
@@ -59,13 +51,13 @@ Field_8_2_5_31401_007<u32>
 
 LAYOUT 344076BD
 BUILD 9.0.1.33978
-Field_9_0_1_33978_000_lang
-Field_9_0_1_33978_001
-Field_9_0_1_33978_002_lang
-$id$Field_9_0_1_33978_003<u32>
-Field_9_0_1_33978_004<u32>
-Field_9_0_1_33978_005<u32>
-Field_9_0_1_33978_006<u32>
-Field_9_0_1_33978_007<u32>
+Title_lang
+FactionTitle
+Description_lang
+$id$ID<u32>
+UiTextureKitID<u32>
+RewardQuestID<u32>
+PlayerConditionID<u32>
+Field_8_2_5_31401_007<u32>
 Field_9_0_1_33978_008<32>
 Field_9_0_1_33978_009<u32>
