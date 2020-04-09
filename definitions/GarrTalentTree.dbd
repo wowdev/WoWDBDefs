@@ -8,14 +8,6 @@ int<UiTextureKit::ID> UiTextureKitID
 locstring Title_lang
 int Flags
 int Field_8_3_0_32044_007?
-locstring Field_9_0_1_33978_000_lang?
-int Field_9_0_1_33978_001?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
-int Field_9_0_1_33978_007?
 int Field_9_0_1_33978_008?
 int Field_9_0_1_33978_009?
 int Field_9_0_1_33978_010?
@@ -94,14 +86,14 @@ Field_8_3_0_32044_007<32>
 
 LAYOUT A9265795
 BUILD 9.0.1.33978
-Field_9_0_1_33978_000_lang
-$id$Field_9_0_1_33978_001<32>
-Field_9_0_1_33978_002<32>
-Field_9_0_1_33978_003<32>
-Field_9_0_1_33978_004<8>
-Field_9_0_1_33978_005<8>
-Field_9_0_1_33978_006<8>
-Field_9_0_1_33978_007<u16>
+Title_lang
+$id$ID<32>
+GarrTypeID<32>
+ClassID<32>
+MaxTiers<8>
+UiOrder<8>
+Flags<8>
+UiTextureKitID<u16>
 Field_9_0_1_33978_008<32>
 Field_9_0_1_33978_009<32>
 Field_9_0_1_33978_010<32>

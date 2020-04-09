@@ -8,14 +8,7 @@ int ObjectiveIndex
 int<QuestV2::ID> QuestID
 int<PlayerCondition::ID> PlayerConditionID
 int<UiMap::ID> UiMapID
-int Field_9_0_1_33978_000?
-int Field_9_0_1_33978_001?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
-int Field_9_0_1_33978_007?
+int ObjectiveID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -73,11 +66,11 @@ PlayerConditionID<u32>
 
 LAYOUT 61D58277
 BUILD 9.0.1.33978
-$id$Field_9_0_1_33978_000<32>
-Field_9_0_1_33978_001<16>
-Field_9_0_1_33978_002<32>
-Field_9_0_1_33978_003<u8>
-Field_9_0_1_33978_004<u32>
-Field_9_0_1_33978_005<32>
-Field_9_0_1_33978_006<32>
-Field_9_0_1_33978_007<u32>
+$id$ID<32>
+MapID<16>
+UiMapID<32>
+NumPoints<u8>
+QuestID<u32>
+ObjectiveIndex<32>
+ObjectiveID<32>
+PlayerConditionID<u32>

@@ -35,35 +35,7 @@ int<FileData::ID> PopupBgTextureFileID
 int Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
-locstring Field_9_0_1_33978_000_lang?
-locstring Field_9_0_1_33978_001_lang?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
-int Field_9_0_1_33978_007?
-int Field_9_0_1_33978_008?
-int Field_9_0_1_33978_009?
-int Field_9_0_1_33978_010?
-float Field_9_0_1_33978_011?
-int Field_9_0_1_33978_012?
-int Field_9_0_1_33978_013?
-int Field_9_0_1_33978_014?
-int Field_9_0_1_33978_015?
-int Field_9_0_1_33978_016?
-int Field_9_0_1_33978_017?
-int Field_9_0_1_33978_018?
-int Field_9_0_1_33978_019?
-int Field_9_0_1_33978_020?
-int Field_9_0_1_33978_021?
-int Field_9_0_1_33978_022?
-int Field_9_0_1_33978_023?
-int Field_9_0_1_33978_024?
-int Field_9_0_1_33978_025?
-int Field_9_0_1_33978_026?
 int Field_9_0_1_33978_027?
-int Field_9_0_1_33978_028?
 
 BUILD 4.0.0.11792
 BUILD 3.3.3.11685-3.3.5.12340
@@ -351,32 +323,32 @@ Flags<32>[2]
 LAYOUT 0BAF7AF1
 BUILD 9.0.1.33978
 $noninline,id$ID<32>
-Field_9_0_1_33978_000_lang
-Field_9_0_1_33978_001_lang
-Field_9_0_1_33978_002<u8>
-Field_9_0_1_33978_003<u8>
-Field_9_0_1_33978_004<8>
-Field_9_0_1_33978_005<32>
-Field_9_0_1_33978_006<32>
-Field_9_0_1_33978_007<32>
-Field_9_0_1_33978_008<u8>
-Field_9_0_1_33978_009<16>
-Field_9_0_1_33978_010<u8>
-Field_9_0_1_33978_011
-Field_9_0_1_33978_012<u8>
-Field_9_0_1_33978_013<u8>
-Field_9_0_1_33978_014<u32>
-Field_9_0_1_33978_015<u16>
-Field_9_0_1_33978_016<u16>
-Field_9_0_1_33978_017<u16>
-Field_9_0_1_33978_018<u8>
-Field_9_0_1_33978_019<u8>
-Field_9_0_1_33978_020<u8>
-Field_9_0_1_33978_021<u8>
-Field_9_0_1_33978_022<u8>
-Field_9_0_1_33978_023<u8>
-Field_9_0_1_33978_024<u16>
-Field_9_0_1_33978_025<u16>
-Field_9_0_1_33978_026<u8>
+Name_lang
+Description_lang
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
+MinGear
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MentorCharLevel<u8>
 Field_9_0_1_33978_027<32>
-Field_9_0_1_33978_028<32>[2]
+Flags<32>[2]
