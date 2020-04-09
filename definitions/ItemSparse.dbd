@@ -71,70 +71,9 @@ int DamageMax?
 int DefensiveStats?
 int AmmoType?
 int DamageType?
-int Field_9_0_1_33978_000?
-locstring Field_9_0_1_33978_001_lang?
-locstring Field_9_0_1_33978_002_lang?
-locstring Field_9_0_1_33978_003_lang?
-locstring Field_9_0_1_33978_004_lang?
-locstring Field_9_0_1_33978_005_lang?
-float Field_9_0_1_33978_006?
-int Field_9_0_1_33978_007?
-float Field_9_0_1_33978_008?
-int Field_9_0_1_33978_009?
-float Field_9_0_1_33978_010?
-float Field_9_0_1_33978_011?
-int Field_9_0_1_33978_012?
-int Field_9_0_1_33978_013?
-int Field_9_0_1_33978_014?
-int Field_9_0_1_33978_015?
-int Field_9_0_1_33978_016?
-int Field_9_0_1_33978_017?
-int Field_9_0_1_33978_018?
-float Field_9_0_1_33978_019?
-float Field_9_0_1_33978_020?
-int Field_9_0_1_33978_021?
-int Field_9_0_1_33978_022?
 int Field_9_0_1_33978_023?
 int Field_9_0_1_33978_024?
 int Field_9_0_1_33978_025?
-int Field_9_0_1_33978_026?
-int Field_9_0_1_33978_027?
-int Field_9_0_1_33978_028?
-int Field_9_0_1_33978_029?
-int Field_9_0_1_33978_030?
-int Field_9_0_1_33978_031?
-int Field_9_0_1_33978_032?
-int Field_9_0_1_33978_033?
-int Field_9_0_1_33978_034?
-int Field_9_0_1_33978_035?
-int Field_9_0_1_33978_036?
-int Field_9_0_1_33978_037?
-int Field_9_0_1_33978_038?
-int Field_9_0_1_33978_039?
-int Field_9_0_1_33978_040?
-int Field_9_0_1_33978_041?
-int Field_9_0_1_33978_042?
-int Field_9_0_1_33978_043?
-int Field_9_0_1_33978_044?
-int Field_9_0_1_33978_045?
-int Field_9_0_1_33978_046?
-int Field_9_0_1_33978_047?
-int Field_9_0_1_33978_048?
-int Field_9_0_1_33978_049?
-int Field_9_0_1_33978_050?
-int Field_9_0_1_33978_051?
-int Field_9_0_1_33978_052?
-int Field_9_0_1_33978_053?
-int Field_9_0_1_33978_054?
-int Field_9_0_1_33978_055?
-int Field_9_0_1_33978_056?
-int Field_9_0_1_33978_057?
-int Field_9_0_1_33978_058?
-int Field_9_0_1_33978_059?
-int Field_9_0_1_33978_060?
-int Field_9_0_1_33978_061?
-int Field_9_0_1_33978_062?
-int Field_9_0_1_33978_063?
 
 LAYOUT 350149D8
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -703,67 +642,67 @@ LAYOUT 12CC2F52
 BUILD 9.0.1.33978
 COMMENT table is sparse
 $noninline,id$ID<32>
-Field_9_0_1_33978_000<64>
-Field_9_0_1_33978_001_lang
-Field_9_0_1_33978_002_lang
-Field_9_0_1_33978_003_lang
-Field_9_0_1_33978_004_lang
-Field_9_0_1_33978_005_lang
-Field_9_0_1_33978_006
-Field_9_0_1_33978_007<u32>
-Field_9_0_1_33978_008
-Field_9_0_1_33978_009<u32>
-Field_9_0_1_33978_010
-Field_9_0_1_33978_011[10]
-Field_9_0_1_33978_012<32>[10]
-Field_9_0_1_33978_013<32>
-Field_9_0_1_33978_014<32>
-Field_9_0_1_33978_015<u32>
-Field_9_0_1_33978_016<u32>
-Field_9_0_1_33978_017<u32>
-Field_9_0_1_33978_018<u32>
-Field_9_0_1_33978_019
-Field_9_0_1_33978_020
-Field_9_0_1_33978_021<32>[4]
-Field_9_0_1_33978_022<32>
+AllowableRace<64>
+Description_lang
+Display3_lang
+Display2_lang
+Display1_lang
+Display_lang
+DmgVariance
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
+RequiredAbility<u32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
+OppositeFactionItemID<32>
 Field_9_0_1_33978_023<32>
 Field_9_0_1_33978_024<32>
 Field_9_0_1_33978_025<32>
-Field_9_0_1_33978_026<u16>
-Field_9_0_1_33978_027<u16>
-Field_9_0_1_33978_028<u16>
-Field_9_0_1_33978_029<u16>
-Field_9_0_1_33978_030<u16>
-Field_9_0_1_33978_031<u16>
-Field_9_0_1_33978_032<u16>
-Field_9_0_1_33978_033<u16>
-Field_9_0_1_33978_034<u16>[2]
-Field_9_0_1_33978_035<u16>
-Field_9_0_1_33978_036<u16>
-Field_9_0_1_33978_037<u16>
-Field_9_0_1_33978_038<u16>
-Field_9_0_1_33978_039<u16>
-Field_9_0_1_33978_040<u16>
-Field_9_0_1_33978_041<u16>
-Field_9_0_1_33978_042<u16>
-Field_9_0_1_33978_043<u16>
-Field_9_0_1_33978_044<16>
-Field_9_0_1_33978_045<u8>
-Field_9_0_1_33978_046<u8>
-Field_9_0_1_33978_047<u8>
-Field_9_0_1_33978_048<u8>
-Field_9_0_1_33978_049<u8>[3]
-Field_9_0_1_33978_050<u8>
-Field_9_0_1_33978_051<u8>
-Field_9_0_1_33978_052<u8>
-Field_9_0_1_33978_053<u8>
-Field_9_0_1_33978_054<u8>
-Field_9_0_1_33978_055<u8>
-Field_9_0_1_33978_056<8>[10]
-Field_9_0_1_33978_057<u8>
-Field_9_0_1_33978_058<u8>
-Field_9_0_1_33978_059<u8>
-Field_9_0_1_33978_060<u8>
-Field_9_0_1_33978_061<8>
-Field_9_0_1_33978_062<u8>
-Field_9_0_1_33978_063<u8>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+LimitCategory<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
+ItemSet<u16>
+LockID<u16>
+StartQuestID<u16>
+PageID<u16>
+ItemDelay<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ExpansionID<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+DamageType<u8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<u8>
+MinReputation<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+RequiredLevel<8>
+InventoryType<u8>
+OverallQualityID<u8>
