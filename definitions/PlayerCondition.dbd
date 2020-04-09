@@ -80,7 +80,7 @@ int CurrentPvpFaction
 int<ModifierTree::ID> ModifierTreeID
 int MovementFlags
 int WeaponSubclassMask
-int Field_9_0_1_33978_055?
+int<ContentTuning::ID> ContentTuningID
 int Field_9_0_1_33978_056?
 
 BUILD 6.0.1.18179
@@ -480,7 +480,7 @@ MaxExpansionTier<8>
 MinExpansionTier<8>
 MinPVPRank<u8>
 MaxPVPRank<u8>
-Field_9_0_1_33978_055<32>
+ContentTuningID<32>
 Field_9_0_1_33978_056<32>
 SkillID<u16>[4]
 MinSkill<u16>[4]
