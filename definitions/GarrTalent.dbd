@@ -21,12 +21,8 @@ int Tier
 int UiOrder
 int Field_8_3_0_32044_009?
 int Field_8_3_0_32044_010?
-int<GarrTalent::ID> Field_8_3_0_32151_011?
+int<GarrTalent::ID> PrerequisiteTalentID?
 int Field_8_3_0_32151_012?
-int Field_9_0_1_33978_009?
-int Field_9_0_1_33978_010?
-int Field_9_0_1_33978_011?
-int Field_9_0_1_33978_012?
 int Field_9_0_1_33978_013?
 
 LAYOUT 53D5FD16
@@ -134,7 +130,7 @@ PlayerConditionID<u32>
 GarrAbilityID<u32>
 Field_8_3_0_32044_009<8>
 Field_8_3_0_32044_010<32>
-Field_8_3_0_32151_011<32>
+PrerequisiteTalentID<32>
 Field_8_3_0_32151_012<32>
 
 LAYOUT E09FCDBA
@@ -148,8 +144,8 @@ UiOrder<8>
 IconFileDataID<32>
 PlayerConditionID<u32>
 GarrAbilityID<u32>
-Field_9_0_1_33978_009<8>
-Field_9_0_1_33978_010<32>
-Field_9_0_1_33978_011<32>
-Field_9_0_1_33978_012<32>
+Field_8_3_0_32044_009<8>
+Field_8_3_0_32044_010<32>
+PrerequisiteTalentID<32>
+Field_8_3_0_32151_012<32>
 Field_9_0_1_33978_013<32>

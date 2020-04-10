@@ -2,8 +2,8 @@ COLUMNS
 locstring Name_lang?
 locstring Description_lang?
 int ID?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
+int Cooldown?
+int Duration?
 int Field_9_0_1_33978_005?
 int SpellSchoolMask? // 1: Physical, 2: Holy, 4: Fire, 8: Nature, 16: Frost, 32: Shadow, 64: Arcane
 int<FileData::ID> IconFileDataID?
@@ -13,8 +13,8 @@ BUILD 9.0.1.33978, 9.0.1.34003
 Name_lang
 Description_lang
 $id$ID<32>
-Field_9_0_1_33978_003<32>
-Field_9_0_1_33978_004<32>
+Cooldown<32>
+Duration<32>
 Field_9_0_1_33978_005<32>
 SpellSchoolMask<32>
 IconFileDataID<32>
