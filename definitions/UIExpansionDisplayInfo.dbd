@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int ExpansionBanner
+int<UiTextureAtlasMember::ID> ExpansionBanner
 int ExpansionLevel
-int ExpansionLogo
+int<FileData::ID> ExpansionLogo
 
 LAYOUT 73DFDEC5, CD407FA1, 4638120A
 BUILD 9.0.1.33978, 9.0.1.34003

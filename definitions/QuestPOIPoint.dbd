@@ -3,7 +3,7 @@ int ID
 int X
 int Y
 int<QuestPOIBlob::ID> QuestPOIBlobID
-int Field_9_0_1_33978_003?
+int Z?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -36,5 +36,5 @@ BUILD 9.0.1.33978, 9.0.1.34003
 $id$ID<32>
 X<16>
 Y<16>
-Field_9_0_1_33978_003<16>
+Z<16>
 $noninline,relation$QuestPOIBlobID<32>
