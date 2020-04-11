@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<AreaGroup::ID> AreaGroupID
-int AreaID
+int<AreaTable::ID> AreaID
 
 LAYOUT 50AA43EE, 27C84A16, 5C03C8AC
 BUILD 9.0.1.33978, 9.0.1.34003
