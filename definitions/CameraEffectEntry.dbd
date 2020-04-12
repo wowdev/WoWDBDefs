@@ -8,7 +8,7 @@ int<CameraEffect::ID> CameraEffectID
 float Delay
 int DirectionType
 float Duration
-int EffectType
+int EffectType // 0: rotation, 1: translation, 2: fov
 int Flags
 float Frequency
 int MovementType
