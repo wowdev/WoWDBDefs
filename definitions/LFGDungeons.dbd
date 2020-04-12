@@ -32,7 +32,7 @@ int FinalEncounterID
 int<FileData::ID> IconTextureFileID
 float MinGear
 int<FileData::ID> PopupBgTextureFileID
-int Required_player_condition_ID
+int<PlayerCondition::ID> Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
