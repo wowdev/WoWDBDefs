@@ -7,7 +7,7 @@ string TextureName
 int Flags
 int VariationIndex
 int ColorIndex
-int MaterialResourcesID
+int<TextureFileData::MaterialResourcesID> MaterialResourcesID
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
