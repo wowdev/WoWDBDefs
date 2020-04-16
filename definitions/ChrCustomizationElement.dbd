@@ -1,20 +1,20 @@
 COLUMNS
-int Field_9_0_1_34081_000?
-int Field_9_0_1_34081_001?
+int ID?
+int<ChrCustomizationChoice::ID> ChrCustomizationChoiceID?
 int Field_9_0_1_34081_002?
-int Field_9_0_1_34081_003?
-int Field_9_0_1_34081_004?
-int Field_9_0_1_34081_005?
-int Field_9_0_1_34081_006?
-int Field_9_0_1_34081_007?
+int<ChrCustomizationGeoset::ID> ChrCustomizationGeosetID? // exclusive with ChrCustomizationSkinnedModelID, ChrCustomizationMaterialID, ChrCustomizationBoneSetID, ChrCustomizationCondModelID: only one of them is non-0 at a time
+int<ChrCustomizationSkinnedModel::ID> ChrCustomizationSkinnedModelID?
+int<ChrCustomizationMaterial::ID> ChrCustomizationMaterialID?
+int<ChrCustomizationBoneSet::ID> ChrCustomizationBoneSetID?
+int<ChrCustomizationCondModel::ID> ChrCustomizationCondModelID?
 
 LAYOUT 155D0538
 BUILD 9.0.1.34081
-$id$Field_9_0_1_34081_000<32>
-Field_9_0_1_34081_001<32>
+$id$ID<32>
+ChrCustomizationChoiceID<32>
 Field_9_0_1_34081_002<32>
-Field_9_0_1_34081_003<32>
-Field_9_0_1_34081_004<32>
-Field_9_0_1_34081_005<32>
-Field_9_0_1_34081_006<32>
-Field_9_0_1_34081_007<32>
+ChrCustomizationGeosetID<32>
+ChrCustomizationSkinnedModelID<32>
+ChrCustomizationMaterialID<32>
+ChrCustomizationBoneSetID<32>
+ChrCustomizationCondModelID<32>

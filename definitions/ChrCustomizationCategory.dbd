@@ -3,9 +3,9 @@ locstring CategoryName_lang
 int ID
 int<UiTextureAtlasElement::ID> CustomizeIcon
 int<UiTextureAtlasElement::ID> CustomizeIconSelected
-int Field_9_0_1_34081_004?
+int OrderIndex?
 int Field_9_0_1_34081_005?
-int Field_9_0_1_34081_006?
+int Flags? // 1 = UndressModel
 
 LAYOUT E5D63E94
 BUILD 9.0.1.34081
@@ -13,6 +13,6 @@ CategoryName_lang
 $id$ID<32>
 CustomizeIcon<32>
 CustomizeIconSelected<32>
-Field_9_0_1_34081_004<32>
+OrderIndex<32>
 Field_9_0_1_34081_005<32>
-Field_9_0_1_34081_006<32>
+Flags<32>

@@ -1,14 +1,14 @@
 COLUMNS
 locstring Field_9_0_1_34081_000_lang?
 int ID
-int Field_9_0_1_34081_002?
+int<ChrCustomizationOption::ID> ChrCustomizationOptionID?
 int Field_9_0_1_34081_003?
-int Field_9_0_1_34081_004?
+int OrderIndex? // per ChrCustomizationOptionID
 
 LAYOUT 9DC934CE
 BUILD 9.0.1.34081
 Field_9_0_1_34081_000_lang
 $id$ID<32>
-Field_9_0_1_34081_002<32>
+ChrCustomizationOptionID<32>
 Field_9_0_1_34081_003<32>
-Field_9_0_1_34081_004<32>
+OrderIndex<32>
