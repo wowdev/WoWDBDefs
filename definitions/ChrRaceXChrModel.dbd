@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_9_0_1_34081_000?
-int Field_9_0_1_34081_001?
+int<ChrModel::ID> ChrModelID
+int<ChrRaces::ID> ChrRacesID
 
 LAYOUT 07C5BAE4
 BUILD 9.0.1.34081
 $noninline,id$ID<32>
-Field_9_0_1_34081_000<32>
-$noninline,relation$Field_9_0_1_34081_001<32>
+ChrModelID<32>
+$noninline,relation$ChrRacesID<32>

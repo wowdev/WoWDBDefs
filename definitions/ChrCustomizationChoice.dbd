@@ -1,6 +1,6 @@
 COLUMNS
 locstring Field_9_0_1_34081_000_lang?
-int Field_9_0_1_34081_001?
+int ID
 int Field_9_0_1_34081_002?
 int Field_9_0_1_34081_003?
 int Field_9_0_1_34081_004?
@@ -8,7 +8,7 @@ int Field_9_0_1_34081_004?
 LAYOUT 9DC934CE
 BUILD 9.0.1.34081
 Field_9_0_1_34081_000_lang
-$id$Field_9_0_1_34081_001<32>
+$id$ID<32>
 Field_9_0_1_34081_002<32>
 Field_9_0_1_34081_003<32>
 Field_9_0_1_34081_004<32>
