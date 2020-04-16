@@ -1,8 +1,8 @@
 COLUMNS
 int Field_1403783413?
 int ID
-int ContainerID
-int DummyItemID
+int<CharShipmentContainer::ID> ContainerID
+int<Item::ID> DummyItemID
 int Duration
 int Flags
 int<GarrFollower::ID> GarrFollowerID
