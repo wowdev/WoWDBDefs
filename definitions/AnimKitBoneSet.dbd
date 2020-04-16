@@ -5,6 +5,11 @@ int BoneDataID
 int<AnimKitBoneSet::ID> ParentAnimKitBoneSetID
 int ExtraBoneCount
 int<AnimKitBoneSet::ID> AltAnimKitBoneSetID
+string Field_9_0_1_34081_000?
+int Field_9_0_1_34081_001?
+int Field_9_0_1_34081_002?
+int Field_9_0_1_34081_003?
+int Field_9_0_1_34081_004?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -43,3 +48,12 @@ Name
 BoneDataID<8>
 ParentAnimKitBoneSetID<8>
 AltAnimKitBoneSetID<8>
+
+LAYOUT 48CA2284
+BUILD 9.0.1.34081
+$noninline,id$ID<32>
+Field_9_0_1_34081_000
+Field_9_0_1_34081_001<32>
+Field_9_0_1_34081_002<8>
+Field_9_0_1_34081_003<8>
+Field_9_0_1_34081_004<32>
