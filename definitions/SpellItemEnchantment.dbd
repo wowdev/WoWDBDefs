@@ -22,28 +22,8 @@ int<FileData::ID> IconFileDataID
 int TransmogCost
 int<PlayerCondition::ID> TransmogPlayerConditionID
 int EffectPointsMax
-locstring Field_9_0_1_34081_000_lang?
-locstring Field_9_0_1_34081_001_lang?
-int Field_9_0_1_34081_002?
-float Field_9_0_1_34081_003?
-int Field_9_0_1_34081_004?
-int Field_9_0_1_34081_005?
-int Field_9_0_1_34081_006?
 int Field_9_0_1_34081_007?
 int Field_9_0_1_34081_008?
-int Field_9_0_1_34081_009?
-int Field_9_0_1_34081_010?
-int Field_9_0_1_34081_011?
-int Field_9_0_1_34081_012?
-int Field_9_0_1_34081_013?
-int Field_9_0_1_34081_014?
-int Field_9_0_1_34081_015?
-int Field_9_0_1_34081_016?
-int Field_9_0_1_34081_017?
-int Field_9_0_1_34081_018?
-int Field_9_0_1_34081_019?
-int Field_9_0_1_34081_020?
-int Field_9_0_1_34081_021?
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
@@ -272,25 +252,25 @@ MaxLevel<u8>
 LAYOUT 43A9B8BA
 BUILD 9.0.1.34081
 $noninline,id$ID<32>
-Field_9_0_1_34081_000_lang
-Field_9_0_1_34081_001_lang
-Field_9_0_1_34081_002<u32>[3]
-Field_9_0_1_34081_003[3]
-Field_9_0_1_34081_004<u32>
-Field_9_0_1_34081_005<u32>
-Field_9_0_1_34081_006<u32>
+Name_lang
+HordeName_lang
+EffectArg<u32>[3]
+EffectScalingPoints[3]
+TransmogPlayerConditionID<u32>
+TransmogCost<u32>
+IconFileDataID<u32>
 Field_9_0_1_34081_007<32>
 Field_9_0_1_34081_008<32>
-Field_9_0_1_34081_009<16>[3]
-Field_9_0_1_34081_010<u16>
-Field_9_0_1_34081_011<u16>
-Field_9_0_1_34081_012<u16>
-Field_9_0_1_34081_013<u16>
-Field_9_0_1_34081_014<u16>
-Field_9_0_1_34081_015<u8>
-Field_9_0_1_34081_016<u8>[3]
-Field_9_0_1_34081_017<8>
-Field_9_0_1_34081_018<8>
-Field_9_0_1_34081_019<u8>
-Field_9_0_1_34081_020<u8>
-Field_9_0_1_34081_021<u8>
+EffectPointsMin<16>[3]
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+ScalingClass<8>
+ScalingClassRestricted<8>
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>

@@ -50,35 +50,9 @@ int Field_9_0_1_33978_014?
 int Field_9_0_1_33978_023?
 int Field_9_0_1_33978_024?
 int Field_9_0_1_33978_025?
-locstring Field_9_0_1_34081_000_lang?
-string Field_9_0_1_34081_001?
-locstring Field_9_0_1_34081_002_lang?
-locstring Field_9_0_1_34081_003_lang?
-string Field_9_0_1_34081_004?
-locstring Field_9_0_1_34081_005_lang?
-locstring Field_9_0_1_34081_006_lang?
-locstring Field_9_0_1_34081_007_lang?
-int Field_9_0_1_34081_008?
-int Field_9_0_1_34081_009?
-int Field_9_0_1_34081_010?
-int Field_9_0_1_34081_011?
-int Field_9_0_1_34081_012?
-int Field_9_0_1_34081_013?
-int Field_9_0_1_34081_014?
-int Field_9_0_1_34081_015?
-int Field_9_0_1_34081_016?
-int Field_9_0_1_34081_017?
-int Field_9_0_1_34081_018?
-int Field_9_0_1_34081_019?
-int Field_9_0_1_34081_020?
-int Field_9_0_1_34081_021?
-int Field_9_0_1_34081_022?
-int Field_9_0_1_34081_023?
-int Field_9_0_1_34081_024?
-int Field_9_0_1_34081_025?
-int Field_9_0_1_34081_026?
-int Field_9_0_1_34081_027?
-int Field_9_0_1_34081_028?
+locstring ClassFantasyDescription_lang?
+locstring Roles_lang?
+locstring RequirementsFail_lang?
 
 BUILD 6.0.1.18179
 BUILD 5.0.4.16016-5.4.8.18414
@@ -344,32 +318,32 @@ Field_9_0_1_33978_025<u8>
 
 LAYOUT 0AB8D350
 BUILD 9.0.1.34081
-Field_9_0_1_34081_000_lang
-Field_9_0_1_34081_001
-Field_9_0_1_34081_002_lang
-Field_9_0_1_34081_003_lang
-Field_9_0_1_34081_004
-Field_9_0_1_34081_005_lang
-Field_9_0_1_34081_006_lang
-Field_9_0_1_34081_007_lang
-$id$Field_9_0_1_34081_008<32>
-Field_9_0_1_34081_009<u32>
-Field_9_0_1_34081_010<u32>
-Field_9_0_1_34081_011<u32>
-Field_9_0_1_34081_012<u32>
-Field_9_0_1_34081_013<u32>
-Field_9_0_1_34081_014<32>
-Field_9_0_1_34081_015<u32>
-Field_9_0_1_34081_016<u32>
-Field_9_0_1_34081_017<u32>
-Field_9_0_1_34081_018<u16>
-Field_9_0_1_34081_019<u16>
-Field_9_0_1_34081_020<u8>
-Field_9_0_1_34081_021<u8>
-Field_9_0_1_34081_022<u8>
-Field_9_0_1_34081_023<u8>
-Field_9_0_1_34081_024<u8>
-Field_9_0_1_34081_025<u8>
-Field_9_0_1_34081_026<u8>
-Field_9_0_1_34081_027<u8>
-Field_9_0_1_34081_028<u8>
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
+ClassFantasyDescription_lang
+Roles_lang
+RequirementsFail_lang
+$id$ID<32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+IconFileDataID<u32>
+LowResScreenFileDataID<u32>
+Flags<u32>
+StartingLevel<32>
+SpellTextureBlobFileDataID<u32>
+Field_9_0_1_33978_013<u32>
+Field_9_0_1_33978_014<u32>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+PrimaryStatPriority<u8>
+DisplayPower<u8>
+RangedAttackPowerPerAgility<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
+SpellClassSet<u8>
+Field_9_0_1_33978_023<u8>
+Field_9_0_1_33978_024<u8>
+Field_9_0_1_33978_025<u8>

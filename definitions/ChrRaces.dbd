@@ -69,53 +69,7 @@ locstring Field_9_0_1_33978_010_female_lang?
 locstring Field_9_0_1_33978_010_lowercase_lang?
 locstring Field_9_0_1_33978_010_female_lowercase_lang?
 int PlayableRaceBit?
-string Field_9_0_1_34081_000?
-string Field_9_0_1_34081_001?
-locstring Field_9_0_1_34081_002_lang?
-locstring Field_9_0_1_34081_003_lang?
-locstring Field_9_0_1_34081_004_lang?
-locstring Field_9_0_1_34081_005_lang?
-locstring Field_9_0_1_34081_006_lang?
-locstring Field_9_0_1_34081_007_lang?
-locstring Field_9_0_1_34081_008_lang?
-locstring Field_9_0_1_34081_009_lang?
-locstring Field_9_0_1_34081_010_lang?
-locstring Field_9_0_1_34081_011_lang?
-locstring Field_9_0_1_34081_012_lang?
-locstring Field_9_0_1_34081_013_lang?
-locstring Field_9_0_1_34081_014_lang?
-int Field_9_0_1_34081_015?
-int Field_9_0_1_34081_016?
-int Field_9_0_1_34081_017?
-int Field_9_0_1_34081_018?
-int Field_9_0_1_34081_019?
-int Field_9_0_1_34081_020?
-int Field_9_0_1_34081_021?
-int Field_9_0_1_34081_022?
-int Field_9_0_1_34081_023?
-int Field_9_0_1_34081_024?
-int Field_9_0_1_34081_025?
-int Field_9_0_1_34081_026?
-int Field_9_0_1_34081_027?
-int Field_9_0_1_34081_028?
-int Field_9_0_1_34081_029?
-int Field_9_0_1_34081_030?
-int Field_9_0_1_34081_031?
-int Field_9_0_1_34081_032?
-int Field_9_0_1_34081_033?
-int Field_9_0_1_34081_034?
-int Field_9_0_1_34081_035?
-int Field_9_0_1_34081_036?
-int Field_9_0_1_34081_037?
-int Field_9_0_1_34081_038?
-int Field_9_0_1_34081_039?
-int Field_9_0_1_34081_040?
-int Field_9_0_1_34081_041?
-int Field_9_0_1_34081_042?
-int Field_9_0_1_34081_043?
-int Field_9_0_1_34081_044?
-int Field_9_0_1_34081_045?
-int Field_9_0_1_34081_046?
+locstring RaceFantasyDescription_lang?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -653,50 +607,50 @@ FemaleTextureFallbackSex<8>
 
 LAYOUT 6692653E
 BUILD 9.0.1.34081
-Field_9_0_1_34081_000
-Field_9_0_1_34081_001
-Field_9_0_1_34081_002_lang
-Field_9_0_1_34081_003_lang
-Field_9_0_1_34081_004_lang
-Field_9_0_1_34081_005_lang
-Field_9_0_1_34081_006_lang
-Field_9_0_1_34081_007_lang
-Field_9_0_1_34081_008_lang
-Field_9_0_1_34081_009_lang
-Field_9_0_1_34081_010_lang
-Field_9_0_1_34081_011_lang
-Field_9_0_1_34081_012_lang
-Field_9_0_1_34081_013_lang
-Field_9_0_1_34081_014_lang
-$id$Field_9_0_1_34081_015<32>
-Field_9_0_1_34081_016<32>
-Field_9_0_1_34081_017<32>
-Field_9_0_1_34081_018<32>
-Field_9_0_1_34081_019<32>
-Field_9_0_1_34081_020<u32>[3]
-Field_9_0_1_34081_021<u32>[3]
-Field_9_0_1_34081_022<32>
-Field_9_0_1_34081_023<32>
-Field_9_0_1_34081_024<32>
-Field_9_0_1_34081_025<32>
-Field_9_0_1_34081_026<32>
-Field_9_0_1_34081_027<32>
-Field_9_0_1_34081_028<16>
-Field_9_0_1_34081_029<16>
-Field_9_0_1_34081_030<16>
-Field_9_0_1_34081_031<16>
-Field_9_0_1_34081_032<8>
-Field_9_0_1_34081_033<8>
-Field_9_0_1_34081_034<8>
-Field_9_0_1_34081_035<8>
-Field_9_0_1_34081_036<8>
-Field_9_0_1_34081_037<8>
-Field_9_0_1_34081_038<8>
-Field_9_0_1_34081_039<8>
-Field_9_0_1_34081_040<8>
-Field_9_0_1_34081_041<8>
-Field_9_0_1_34081_042<8>
-Field_9_0_1_34081_043<8>
-Field_9_0_1_34081_044<8>
-Field_9_0_1_34081_045<8>
-Field_9_0_1_34081_046<8>
+ClientPrefix
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Field_9_0_1_33978_006_lang
+Field_9_0_1_33978_006_female_lang
+Field_9_0_1_33978_006_lowercase_lang
+Field_9_0_1_33978_006_female_lowercase_lang
+RaceFantasyDescription_lang
+Field_9_0_1_33978_010_lang
+Field_9_0_1_33978_010_female_lang
+Field_9_0_1_33978_010_lowercase_lang
+Field_9_0_1_33978_010_female_lowercase_lang
+$id$ID<32>
+Flags<32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+LowResScreenFileDataID<32>
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
+HeritageArmorAchievementID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+PlayableRaceBit<32>
+BaseRaceID<32>
+TransmogrifyDisabledSlotMask<32>
+FactionID<16>
+CinematicSequenceID<16>
+ResSicknessSpellID<16>
+SplashSoundID<16>
+BaseLanguage<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>

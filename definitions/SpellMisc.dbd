@@ -16,20 +16,7 @@ float LaunchDelay
 int<FileData::ID> SpellIconFileDataID
 float MinDuration
 int Field_8_2_0_30827_010?
-int Field_9_0_1_34081_000?
-int Field_9_0_1_34081_001?
-int Field_9_0_1_34081_002?
-int Field_9_0_1_34081_003?
-int Field_9_0_1_34081_004?
-int Field_9_0_1_34081_005?
-float Field_9_0_1_34081_006?
-float Field_9_0_1_34081_007?
-float Field_9_0_1_34081_008?
-int Field_9_0_1_34081_009?
-int Field_9_0_1_34081_010?
-int Field_9_0_1_34081_011?
 int Field_9_0_1_34081_012?
-int Field_9_0_1_34081_013?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -139,17 +126,17 @@ $noninline,relation$SpellID<32>
 LAYOUT 4E9EAC3A
 BUILD 9.0.1.34081
 $noninline,id$ID<32>
-Field_9_0_1_34081_000<32>[14]
-Field_9_0_1_34081_001<u8>
-Field_9_0_1_34081_002<u16>
-Field_9_0_1_34081_003<u16>
-Field_9_0_1_34081_004<u16>
-Field_9_0_1_34081_005<u8>
-Field_9_0_1_34081_006
-Field_9_0_1_34081_007
-Field_9_0_1_34081_008
-Field_9_0_1_34081_009<32>
-Field_9_0_1_34081_010<32>
-Field_9_0_1_34081_011<32>
+Attributes<32>[14]
+DifficultyID<u8>
+CastingTimeIndex<u16>
+DurationIndex<u16>
+RangeIndex<u16>
+SchoolMask<u8>
+Speed
+LaunchDelay
+MinDuration
+SpellIconFileDataID<32>
+ActiveIconFileDataID<32>
+Field_8_2_0_30827_010<32>
 Field_9_0_1_34081_012<32>
-$noninline,relation$Field_9_0_1_34081_013<32>
+$noninline,relation$SpellID<32>
