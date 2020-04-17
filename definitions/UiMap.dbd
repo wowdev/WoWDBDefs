@@ -9,8 +9,8 @@ int LevelRangeMax
 int LevelRangeMin
 locstring Name_lang
 int<UiMap::ID> ParentUiMapID
-int System
-int Type
+int System // 0 = World, 1 = Taxi, 2 = Adventure
+int Type // 0 = Cosmic, 1 = World, 2 = Continent, 3 = Zone, 4 = Dungeon, 5 = Micro, 6 = Orphan
 int<PlayerCondition::ID> VisibilityPlayerConditionID
 int<UiTextureAtlasElement::ID> BkgAtlasID
 int AlternateUiMapGroup?

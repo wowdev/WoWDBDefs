@@ -7,7 +7,7 @@ float MinHeight
 int<PlayerCondition::ID> PlayerConditionID
 int<QuestFeedbackEffect::ID> QuestFeedbackEffectID
 int<QuestV2::ID> VisibleTrackingQuestID
-int VignetteType
+int VignetteType // 0 = Normal, 1 = PvpBounty
 int<QuestV2::ID> RewardQuestID
 int UiWidgetSetID?
 

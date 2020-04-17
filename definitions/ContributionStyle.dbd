@@ -3,7 +3,7 @@ int ID
 locstring StateName_lang
 locstring TooltipLine_lang
 int StateColor
-int Flags
+int Flags // 1 = TooltipUseTimeRemaining
 int StatusBarAtlas
 int BorderAtlas
 int BannerAtlas

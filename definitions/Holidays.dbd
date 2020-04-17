@@ -4,13 +4,13 @@ int Duration
 int Date
 int Region // a mask of Cfg_Region's Region_group_mask bits, i.e. 0x001=us, 0x002=kr, 0x004=eu, 0x008=tw, 0x010=cn, 0x020=pv, 0x040=at, 0x080=xx, 0x100=qa, 0x200=some other qa, 0x400=bl
 int Looping
-int CalendarFlags
+int CalendarFlags // 1 = Alliance, 2 = Horde
 int<HolidayNames::ID> HolidayNameID
 int<HolidayDescriptions::ID> HolidayDescriptionID
 string TextureFilename
 int Priority
 int CalendarFilterType
-int Flags
+int Flags // 1 = IsRegionwide, 2 = DontShowInCalendar, 4 = DontDisplayEnd, 8 = DontDisplayBanner
 int<FileData::ID> TextureFileDataID
 int Field_1_13_2_30073_001?
 int Field_1_13_2_30073_002?
