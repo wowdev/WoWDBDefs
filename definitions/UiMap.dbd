@@ -14,7 +14,7 @@ int Type // 0 = Cosmic, 1 = World, 2 = Continent, 3 = Zone, 4 = Dungeon, 5 = Mic
 int<PlayerCondition::ID> VisibilityPlayerConditionID
 int<UiTextureAtlasElement::ID> BkgAtlasID
 int AlternateUiMapGroup?
-int Field_9_0_1_33978_012_something_levelish?
+int<ContentTuning::ID> ContentTuningID?
 
 LAYOUT 2C161494
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
