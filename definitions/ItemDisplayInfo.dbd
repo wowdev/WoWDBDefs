@@ -11,7 +11,7 @@ int ItemVisual
 int<ParticleColor::ID> ParticleColorID
 int AttachmentGeosetGroup
 int<ItemRangedDisplayInfo::ID> ItemRangedDisplayInfoID
-int ModelMaterialResourcesID
+int<ModelFileData::ModelResourcesID> ModelMaterialResourcesID
 int ModelResourcesID
 int ModelType1
 int OverrideSwooshSoundKitID
