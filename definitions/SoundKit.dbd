@@ -4,14 +4,14 @@ int<SoundKitName::ID> ID
 int BusOverwriteID
 int DialogType
 float DistanceCutoff
-int Flags
+int Flags // 0x20: no duplicates, 0x200: looping, 0x400: vary pitch, 0x800: vary volume
 int MaxInstances
 float MinDistance
 float PitchAdjust
 float PitchVariationMinus
 float PitchVariationPlus
 int<SoundKitAdvanced::ID> SoundKitAdvancedID
-int SoundType
+int SoundType // 0: Unused/Miscellaneous, 1: Spells, 2: UI, 3: Footsteps, 4: Weapons/Impact, 6: Weapons/Miss, 7: Greetings, 8: Casting, 9: Pick Up/Put Down, 10: NPC Combat, 12: Errors, 13: Ambient FX, 14: Objects, 16: Death, 17: NPC Greetings, 18: Test/Temporary, 19: Armor/Foley, 20: Footsteps, 21: Water/Character, 22: Water/Liquid, 23: Tradeskills, 24: Misc. FX, 25: Doodads, 26: Spell Fizzle, 27: NPC Loops, 28: Zone Music, 29: Emotes, 30: Narration Music, 31: Narration, 50: Zone Ambience, 52: Zone Emitters, 53: Vehicle
 float VolumeFloat
 float VolumeVariationMinus
 float VolumeVariationPlus

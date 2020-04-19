@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 string BaseTag
-int Flags
+int Flags // 0x1: FrameXML, 0x2: GlueXML
 locstring TagText_lang
 
 LAYOUT 2CA3EA1E, 843675FD, 9F2B05C5
