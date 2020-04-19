@@ -2,11 +2,11 @@ COLUMNS
 locstring Name_lang
 int ID
 int Field_9_0_1_34081_002?
-int Field_9_0_1_34081_003? // 1 = Tattoo/Pattern, 2 = Skin/Hair Color, 3 = Skin/Tattoo Color
+int Field_9_0_1_34081_003? // 1 = Tattoo/Pattern, 2 = Skin/Hair Color, 3 = Skin/Tattoo Color, possibly flags
 int OrderIndex? // per ChrModelID
 int<ChrCustomizationCategory::ID> ChrCustomizationCategoryID?
 int OptionType? // 0 = Slider, 1 = Checkbox
-int Field_9_0_1_34081_007?
+int ChrCustomizationID?
 int<ChrModel::ID> ChrModelID?
 
 LAYOUT 3F99DF9F
@@ -18,5 +18,5 @@ Field_9_0_1_34081_003<32>
 OrderIndex<32>
 ChrCustomizationCategoryID<32>
 OptionType<32>
-Field_9_0_1_34081_007<32>
+ChrCustomizationID<32>
 $noninline,relation$ChrModelID<32>
