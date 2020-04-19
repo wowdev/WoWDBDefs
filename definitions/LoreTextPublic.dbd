@@ -1,6 +1,6 @@
 COLUMNS
-int ID?
 int<LoreText::ID> LoreTextID?
+int<Campaign::ID> CampaignID?
 int<PlayerCondition::ID> ConditionID?
 int Field_9_0_1_33978_003?
 int Order?
@@ -8,8 +8,8 @@ int Field_9_0_1_33978_005?
 
 LAYOUT 19A70CF2
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
-$id$ID<32>
-LoreTextID<32>
+$id$LoreTextID<32>
+CampaignID<32>
 ConditionID<32>
 Field_9_0_1_33978_003<u8>
 Order<32>
