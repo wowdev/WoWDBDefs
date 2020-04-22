@@ -17,6 +17,20 @@ int<Faction::ID> FactionID
 int<ItemGroupSounds::ID> ItemGroupSoundsID?
 int ConvertToPlayerExperience?
 int<PlayerCondition::ID> PlayerConditionID?
+locstring Field_9_0_1_34137_000_lang?
+locstring Field_9_0_1_34137_001_lang?
+int Field_9_0_1_34137_002?
+int Field_9_0_1_34137_003?
+int Field_9_0_1_34137_004?
+int Field_9_0_1_34137_005?
+int Field_9_0_1_34137_006?
+int Field_9_0_1_34137_007?
+int Field_9_0_1_34137_008?
+int Field_9_0_1_34137_009?
+int Field_9_0_1_34137_010?
+int Field_9_0_1_34137_011?
+int Field_9_0_1_34137_012?
+int Field_9_0_1_34137_013?
 
 BUILD 6.0.1.18179
 BUILD 5.2.0.16516-5.4.8.18414
@@ -144,3 +158,21 @@ FactionID<32>
 ItemGroupSoundsID<32>
 ConvertToPlayerExperience<32>
 PlayerConditionID<32>
+
+LAYOUT 42D341CB
+BUILD 9.0.1.34137
+$noninline,id$ID<32>
+Field_9_0_1_34137_000_lang
+Field_9_0_1_34137_001_lang
+Field_9_0_1_34137_002<u8>
+Field_9_0_1_34137_003<32>
+Field_9_0_1_34137_004<u32>
+Field_9_0_1_34137_005<u8>
+Field_9_0_1_34137_006<u32>
+Field_9_0_1_34137_007<u32>
+Field_9_0_1_34137_008<32>
+Field_9_0_1_34137_009<8>
+Field_9_0_1_34137_010<32>
+Field_9_0_1_34137_011<32>
+Field_9_0_1_34137_012<32>
+Field_9_0_1_34137_013<32>

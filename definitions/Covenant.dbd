@@ -2,9 +2,20 @@ COLUMNS
 locstring Name_lang?
 locstring Description_lang?
 int ID?
+locstring Field_9_0_1_34137_000_lang?
+locstring Field_9_0_1_34137_001_lang?
+int Field_9_0_1_34137_002?
+int Field_9_0_1_34137_003?
 
 LAYOUT 0CA77A5C
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
 Name_lang
 Description_lang
 $id$ID<32>
+
+LAYOUT 60D12FEA
+BUILD 9.0.1.34137
+Field_9_0_1_34137_000_lang
+Field_9_0_1_34137_001_lang
+$id$Field_9_0_1_34137_002<32>
+Field_9_0_1_34137_003<32>
