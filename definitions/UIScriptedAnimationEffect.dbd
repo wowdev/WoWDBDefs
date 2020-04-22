@@ -6,8 +6,8 @@ int Duration?
 int Trajectory? // 0 = AtSource, 1 = AtTarget, 2 = Straight, 3 = CurveLeft, 4 = CurveRight, 5 = CurveRandom
 int<SoundKit::ID> XxxSoundKitID? // start or finish?
 int<SoundKit::ID> YyySoundKitID?
-int XxxBehavior? // start or finish?
-int YyyBehavior? // 0 = None, 1 = TargetShake, 2 = TargetKnockBack, 3 = SourceRecoil, 4 = SourceCollideWithTarget
+int StartBehavior? // 0 = None, 1 = TargetShake, 2 = TargetKnockBack, 3 = SourceRecoil, 4 = SourceCollideWithTarget
+int FinishBehavior? // same enum as StartBehavior
 int<UIScriptedAnimationEffect::ID> FinishEffectID?
 
 LAYOUT EA6DD175
@@ -19,6 +19,6 @@ Duration<32>
 Trajectory<32>
 XxxSoundKitID<32>
 YyySoundKitID<32>
-XxxBehavior<32>
-YyyBehavior<32>
+StartBehavior<32>
+FinishBehavior<32>
 FinishEffectID<32>

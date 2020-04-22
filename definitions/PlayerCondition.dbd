@@ -82,87 +82,6 @@ int MovementFlags
 int WeaponSubclassMask
 int<ContentTuning::ID> ContentTuningID
 int Field_9_0_1_33978_056?
-int Field_9_0_1_34137_000?
-locstring Field_9_0_1_34137_001_lang?
-int Field_9_0_1_34137_002?
-int Field_9_0_1_34137_003?
-int Field_9_0_1_34137_004?
-int Field_9_0_1_34137_005?
-int Field_9_0_1_34137_006?
-int Field_9_0_1_34137_007?
-int Field_9_0_1_34137_008?
-int Field_9_0_1_34137_009?
-int Field_9_0_1_34137_010?
-int Field_9_0_1_34137_011?
-int Field_9_0_1_34137_012?
-int Field_9_0_1_34137_013?
-int Field_9_0_1_34137_014?
-int Field_9_0_1_34137_015?
-int Field_9_0_1_34137_016?
-int Field_9_0_1_34137_017?
-int Field_9_0_1_34137_018?
-int Field_9_0_1_34137_019?
-int Field_9_0_1_34137_020?
-int Field_9_0_1_34137_021?
-int Field_9_0_1_34137_022?
-int Field_9_0_1_34137_023?
-int Field_9_0_1_34137_024?
-int Field_9_0_1_34137_025?
-int Field_9_0_1_34137_026?
-int Field_9_0_1_34137_027?
-int Field_9_0_1_34137_028?
-int Field_9_0_1_34137_029?
-int Field_9_0_1_34137_030?
-int Field_9_0_1_34137_031?
-int Field_9_0_1_34137_032?
-int Field_9_0_1_34137_033?
-int Field_9_0_1_34137_034?
-int Field_9_0_1_34137_035?
-int Field_9_0_1_34137_036?
-int Field_9_0_1_34137_037?
-int Field_9_0_1_34137_038?
-int Field_9_0_1_34137_039?
-int Field_9_0_1_34137_040?
-int Field_9_0_1_34137_041?
-int Field_9_0_1_34137_042?
-int Field_9_0_1_34137_043?
-int Field_9_0_1_34137_044?
-int Field_9_0_1_34137_045?
-int Field_9_0_1_34137_046?
-int Field_9_0_1_34137_047?
-int Field_9_0_1_34137_048?
-int Field_9_0_1_34137_049?
-int Field_9_0_1_34137_050?
-int Field_9_0_1_34137_051?
-int Field_9_0_1_34137_052?
-int Field_9_0_1_34137_053?
-int Field_9_0_1_34137_054?
-int Field_9_0_1_34137_055?
-int Field_9_0_1_34137_056?
-int Field_9_0_1_34137_057?
-int Field_9_0_1_34137_058?
-int Field_9_0_1_34137_059?
-int Field_9_0_1_34137_060?
-int Field_9_0_1_34137_061?
-int Field_9_0_1_34137_062?
-int Field_9_0_1_34137_063?
-int Field_9_0_1_34137_064?
-int Field_9_0_1_34137_065?
-int Field_9_0_1_34137_066?
-int Field_9_0_1_34137_067?
-int Field_9_0_1_34137_068?
-int Field_9_0_1_34137_069?
-int Field_9_0_1_34137_070?
-int Field_9_0_1_34137_071?
-int Field_9_0_1_34137_072?
-int Field_9_0_1_34137_073?
-int Field_9_0_1_34137_074?
-int Field_9_0_1_34137_075?
-int Field_9_0_1_34137_076?
-int Field_9_0_1_34137_077?
-int Field_9_0_1_34137_078?
-int Field_9_0_1_34137_079?
-int Field_9_0_1_34137_080?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -591,84 +510,84 @@ MovementFlags<32>[2]
 
 LAYOUT 1CB31C9F
 BUILD 9.0.1.34137
-Field_9_0_1_34137_000<64>
-Field_9_0_1_34137_001_lang
-$id$Field_9_0_1_34137_002<32>
-Field_9_0_1_34137_003<32>
-Field_9_0_1_34137_004<u32>
-Field_9_0_1_34137_005<u8>
-Field_9_0_1_34137_006<u8>
-Field_9_0_1_34137_007<32>
-Field_9_0_1_34137_008<u16>
-Field_9_0_1_34137_009<u8>
-Field_9_0_1_34137_010<u32>
-Field_9_0_1_34137_011<8>
-Field_9_0_1_34137_012<u8>
-Field_9_0_1_34137_013<u32>
-Field_9_0_1_34137_014<u32>
-Field_9_0_1_34137_015<u32>
-Field_9_0_1_34137_016<u32>
-Field_9_0_1_34137_017<u32>
-Field_9_0_1_34137_018<u8>
-Field_9_0_1_34137_019<u32>
-Field_9_0_1_34137_020<u16>
-Field_9_0_1_34137_021<u8>
-Field_9_0_1_34137_022<u8>
-Field_9_0_1_34137_023<u8>
-Field_9_0_1_34137_024<u32>
-Field_9_0_1_34137_025<8>
-Field_9_0_1_34137_026<8>
-Field_9_0_1_34137_027<u32>
-Field_9_0_1_34137_028<u32>
-Field_9_0_1_34137_029<u32>
-Field_9_0_1_34137_030<u16>
-Field_9_0_1_34137_031<u32>
-Field_9_0_1_34137_032<8>
-Field_9_0_1_34137_033<8>
-Field_9_0_1_34137_034<32>
-Field_9_0_1_34137_035<32>
-Field_9_0_1_34137_036<u16>
-Field_9_0_1_34137_037<u16>
-Field_9_0_1_34137_038<u8>
-Field_9_0_1_34137_039<u16>
-Field_9_0_1_34137_040<u32>
-Field_9_0_1_34137_041<32>
-Field_9_0_1_34137_042<8>
-Field_9_0_1_34137_043<8>
-Field_9_0_1_34137_044<u32>
-Field_9_0_1_34137_045<8>
-Field_9_0_1_34137_046<u8>
-Field_9_0_1_34137_047<u8>
-Field_9_0_1_34137_048<32>
-Field_9_0_1_34137_049<u8>
-Field_9_0_1_34137_050<u8>
-Field_9_0_1_34137_051<8>
-Field_9_0_1_34137_052<8>
-Field_9_0_1_34137_053<u8>
-Field_9_0_1_34137_054<u8>
-Field_9_0_1_34137_055<32>
-Field_9_0_1_34137_056<32>
-Field_9_0_1_34137_057<u16>[4]
-Field_9_0_1_34137_058<u16>[4]
-Field_9_0_1_34137_059<u16>[4]
-Field_9_0_1_34137_060<u32>[3]
-Field_9_0_1_34137_061<u8>[3]
-Field_9_0_1_34137_062<u16>[4]
-Field_9_0_1_34137_063<u16>[4]
-Field_9_0_1_34137_064<u16>[4]
-Field_9_0_1_34137_065<32>[4]
-Field_9_0_1_34137_066<32>[4]
-Field_9_0_1_34137_067<u32>[4]
-Field_9_0_1_34137_068<u16>[2]
-Field_9_0_1_34137_069<u32>[2]
-Field_9_0_1_34137_070<32>[4]
-Field_9_0_1_34137_071<u8>[4]
-Field_9_0_1_34137_072<u16>[4]
-Field_9_0_1_34137_073<u16>[4]
-Field_9_0_1_34137_074<u8>[4]
-Field_9_0_1_34137_075<u8>[4]
-Field_9_0_1_34137_076<u32>[4]
-Field_9_0_1_34137_077<u32>[4]
-Field_9_0_1_34137_078<u32>[4]
-Field_9_0_1_34137_079<u32>[6]
-Field_9_0_1_34137_080<32>[2]
+RaceMask<64>
+Failure_description_lang
+$id$ID<32>
+ClassMask<32>
+SkillLogic<u32>
+LanguageID<u8>
+MinLanguage<u8>
+MaxLanguage<32>
+MaxFactionID<u16>
+MaxReputation<u8>
+ReputationLogic<u32>
+CurrentPvpFaction<8>
+PvpMedal<u8>
+PrevQuestLogic<u32>
+CurrQuestLogic<u32>
+CurrentCompletedQuestLogic<u32>
+SpellLogic<u32>
+ItemLogic<u32>
+ItemFlags<u8>
+AuraSpellLogic<u32>
+WorldStateExpressionID<u16>
+WeatherID<u8>
+PartyStatus<u8>
+LifetimeMaxPVPRank<u8>
+AchievementLogic<u32>
+Gender<8>
+NativeGender<8>
+AreaLogic<u32>
+LfgLogic<u32>
+CurrencyLogic<u32>
+QuestKillID<u16>
+QuestKillLogic<u32>
+MinExpansionLevel<8>
+MaxExpansionLevel<8>
+MinAvgItemLevel<32>
+MaxAvgItemLevel<32>
+MinAvgEquippedItemLevel<u16>
+MaxAvgEquippedItemLevel<u16>
+PhaseUseFlags<u8>
+PhaseID<u16>
+PhaseGroupID<u32>
+Flags<32>
+ChrSpecializationIndex<8>
+ChrSpecializationRole<8>
+ModifierTreeID<u32>
+PowerType<8>
+PowerTypeComp<u8>
+PowerTypeValue<u8>
+WeaponSubclassMask<32>
+MaxGuildLevel<u8>
+MinGuildLevel<u8>
+MaxExpansionTier<8>
+MinExpansionTier<8>
+MinPVPRank<u8>
+MaxPVPRank<u8>
+ContentTuningID<32>
+Field_9_0_1_33978_056<32>
+SkillID<u16>[4]
+MinSkill<u16>[4]
+MaxSkill<u16>[4]
+MinFactionID<u32>[3]
+MinReputation<u8>[3]
+PrevQuestID<u16>[4]
+CurrQuestID<u16>[4]
+CurrentCompletedQuestID<u16>[4]
+SpellID<32>[4]
+ItemID<32>[4]
+ItemCount<u32>[4]
+Explored<u16>[2]
+Time<u32>[2]
+AuraSpellID<32>[4]
+AuraStacks<u8>[4]
+Achievement<u16>[4]
+AreaID<u16>[4]
+LfgStatus<u8>[4]
+LfgCompare<u8>[4]
+LfgValue<u32>[4]
+CurrencyID<u32>[4]
+CurrencyCount<u32>[4]
+QuestKillMonster<u32>[6]
+MovementFlags<32>[2]
