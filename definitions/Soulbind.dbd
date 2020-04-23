@@ -2,7 +2,7 @@ COLUMNS
 locstring Name_lang?
 int ID?
 int<Covenant::ID> CovenantID?
-int Field_9_0_1_33978_003?
+int<GarrTalentTree::ID> GarrTalentTreeID?
 int<Creature::ID> CreatureID?
 int<GarrFollower::ID> GarrFollowerID?
 
@@ -11,6 +11,6 @@ BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137
 Name_lang
 $id$ID<32>
 CovenantID<32>
-Field_9_0_1_33978_003<32>
+GarrTalentTreeID<32>
 CreatureID<32>
 GarrFollowerID<32>
