@@ -9,13 +9,13 @@ int RangeIndex
 float Speed
 int<SpellVisual::ID> SpellVisualID
 int<SpellIcon::ID> SpellIconID
-int ActiveIconID
+int<SpellIcon::ID> ActiveIconID
 int SchoolMask
 int<FileData::ID> ActiveIconFileDataID
 float LaunchDelay
 int<FileData::ID> SpellIconFileDataID
 float MinDuration
-int Field_8_2_0_30827_010?
+int<ContentTuning::ID> ContentTuningID
 int Field_9_0_1_34081_012?
 
 BUILD 6.0.1.18179
@@ -100,7 +100,7 @@ LaunchDelay
 MinDuration
 SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
-Field_8_2_0_30827_010<32>
+ContentTuningID<32>
 Attributes<32>[14]
 $noninline,relation$SpellID<32>
 
@@ -120,7 +120,7 @@ LaunchDelay
 MinDuration
 SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
-Field_8_2_0_30827_010<32>
+ContentTuningID<32>
 $noninline,relation$SpellID<32>
 
 LAYOUT 4E9EAC3A
@@ -137,6 +137,6 @@ LaunchDelay
 MinDuration
 SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
-Field_8_2_0_30827_010<32>
+ContentTuningID<32>
 Field_9_0_1_34081_012<32>
 $noninline,relation$SpellID<32>
