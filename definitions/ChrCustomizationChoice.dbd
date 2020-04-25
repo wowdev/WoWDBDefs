@@ -2,7 +2,7 @@ COLUMNS
 locstring Field_9_0_1_34081_000_lang?
 int ID
 int<ChrCustomizationOption::ID> ChrCustomizationOptionID?
-int ChrCustomizationReqID?
+int<ChrCustomizationReq::ID> ChrCustomizationReqID?
 int OrderIndex? // per ChrCustomizationOptionID
 int Field_9_0_1_34137_005?
 int Color?
