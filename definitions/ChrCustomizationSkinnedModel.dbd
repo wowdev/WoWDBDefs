@@ -1,14 +1,14 @@
 COLUMNS
 int ID
 int<FileData::ID> CollectionsFileDataID
-int Field_9_0_1_34081_001?
-int Field_9_0_1_34081_002?
+int GeosetType?
+int GeosetID?
 int Field_9_0_1_34081_003?
 
 LAYOUT 0A19C75E
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137
 $noninline,id$ID<32>
 CollectionsFileDataID<32>
-Field_9_0_1_34081_001<32>
-Field_9_0_1_34081_002<32>
+GeosetType<32>
+GeosetID<32>
 Field_9_0_1_34081_003<32>
