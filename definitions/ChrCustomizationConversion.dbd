@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<ChrRaces::ID> ChrRacesID?
 int Sex?
-int UICustomizationType?
+int UICustomizationType? // 1 = Skin Color, 2 = Face, 3 = Hair Style, 4 = Hair Color, 5 = Features
 int Index?
 int<ChrCustomizationChoice::ID> ChrCustomizationChoiceID?
 
