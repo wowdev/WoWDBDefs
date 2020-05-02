@@ -3,8 +3,6 @@ int ID
 int Duration
 int DurationPerLevel
 int MaxDuration
-int Field_9_0_1_33978_000?
-int Field_9_0_1_33978_001?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -49,5 +47,5 @@ MaxDuration<32>
 LAYOUT 8C317431
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
 $noninline,id$ID<32>
-Field_9_0_1_33978_000<32>
-Field_9_0_1_33978_001<32>
+Duration<32>
+DurationPerLevel<32>
