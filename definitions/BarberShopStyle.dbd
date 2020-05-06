@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Type
+int Type // 1: hair style, 2: hair color, 3: facial hair, 4: skin, 5: face, 6: custom display 1, 7: custom display 2, 8: custom display 3, 9: custom display 4
 locstring DisplayName_lang
 locstring Description_lang
 float Cost_Modifier

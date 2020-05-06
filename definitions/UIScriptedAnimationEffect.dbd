@@ -1,31 +1,21 @@
 COLUMNS
 int ID
 int<FileData::ID> VisualModelFileDataID
-int VisualScale?
-int Duration?
-int Trajectory? // 0 = AtSource, 1 = AtTarget, 2 = Straight, 3 = CurveLeft, 4 = CurveRight, 5 = CurveRandom
+int VisualScale
+int Duration
+int Trajectory // 0 = AtSource, 1 = AtTarget, 2 = Straight, 3 = CurveLeft, 4 = CurveRight, 5 = CurveRandom
 int<SoundKit::ID> XxxSoundKitID? // start or finish?
 int<SoundKit::ID> YyySoundKitID?
-int StartBehavior? // 0 = None, 1 = TargetShake, 2 = TargetKnockBack, 3 = SourceRecoil, 4 = SourceCollideWithTarget
-int FinishBehavior? // same enum as StartBehavior
+int StartBehavior // 0 = None, 1 = TargetShake, 2 = TargetKnockBack, 3 = SourceRecoil, 4 = SourceCollideWithTarget
+int FinishBehavior // same enum as StartBehavior
 int<UIScriptedAnimationEffect::ID> FinishEffectID?
-int Field_9_0_1_34278_000?
-int Field_9_0_1_34278_001?
-int Field_9_0_1_34278_002?
-int Field_9_0_1_34278_003?
-int Field_9_0_1_34278_004?
-int Field_9_0_1_34278_005?
-int Field_9_0_1_34278_006?
-int Field_9_0_1_34278_007?
-int Field_9_0_1_34278_008?
-int Field_9_0_1_34278_009?
-float Field_9_0_1_34278_010?
-float Field_9_0_1_34278_011?
-float Field_9_0_1_34278_012?
-float Field_9_0_1_34278_013?
-float Field_9_0_1_34278_014?
-float Field_9_0_1_34278_015?
-float Field_9_0_1_34278_016?
+float Field_9_0_1_34278_010? // yawRadians
+float Field_9_0_1_34278_011? // pitchRadians
+float Field_9_0_1_34278_012? // rollRadians
+float Field_9_0_1_34278_013? // offsetX
+float Field_9_0_1_34278_014? // offsetY
+float Field_9_0_1_34278_015? // offsetZ
+float AnimationSpeed
 
 LAYOUT EA6DD175
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
@@ -42,20 +32,19 @@ FinishEffectID<32>
 
 LAYOUT BBA9C412
 BUILD 9.0.1.34278
-$id$Field_9_0_1_34278_000<32>
-Field_9_0_1_34278_001<32>
-Field_9_0_1_34278_002<32>
-Field_9_0_1_34278_003<32>
-Field_9_0_1_34278_004<32>
-Field_9_0_1_34278_005<32>
-Field_9_0_1_34278_006<32>
-Field_9_0_1_34278_007<32>
-Field_9_0_1_34278_008<32>
-Field_9_0_1_34278_009<32>
+$id$ID<32>
+VisualModelFileDataID<32>
+VisualScale<32>
+Duration<32>
+Trajectory<32>
+XxxSoundKitID<32>
+YyySoundKitID<32>
+StartBehavior<32>
+FinishBehavior<32>
 Field_9_0_1_34278_010
 Field_9_0_1_34278_011
 Field_9_0_1_34278_012
 Field_9_0_1_34278_013
 Field_9_0_1_34278_014
 Field_9_0_1_34278_015
-Field_9_0_1_34278_016
+AnimationSpeed

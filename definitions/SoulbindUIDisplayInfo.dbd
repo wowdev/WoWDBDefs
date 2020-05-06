@@ -4,13 +4,8 @@ int ID?
 int<Soulbind::ID> SoulbindID?
 int<SpellVisual::ID> SpellVisualID?
 int Field_9_0_1_33978_004?
-int<UiTextureAtlasElement::ID> ShotTexture?
-locstring Field_9_0_1_34278_000_lang?
-int Field_9_0_1_34278_001?
-int Field_9_0_1_34278_002?
-int Field_9_0_1_34278_003?
-int Field_9_0_1_34278_004?
-int Field_9_0_1_34278_005?
+int<UiTextureAtlasElement::ID> Portrait
+int<UiTextureKit::ID> TextureKitID
 
 LAYOUT C41BBE90
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
@@ -19,13 +14,13 @@ $id$ID<32>
 SoulbindID<32>
 SpellVisualID<32>
 Field_9_0_1_33978_004<32>
-ShotTexture<32>
+Portrait<32>
 
 LAYOUT 3A2EC9B6
 BUILD 9.0.1.34278
-Field_9_0_1_34278_000_lang
-$id$Field_9_0_1_34278_001<32>
-Field_9_0_1_34278_002<32>
-Field_9_0_1_34278_003<32>
-Field_9_0_1_34278_004<32>
-Field_9_0_1_34278_005<32>
+Field_9_0_1_33978_000_lang
+$id$ID<32>
+SoulbindID<32>
+SpellVisualID<32>
+Field_9_0_1_33978_004<32>
+TextureKitID<32>

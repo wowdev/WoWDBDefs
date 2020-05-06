@@ -18,24 +18,6 @@ int OverrideConfigFlags
 int LoopToSegmentIndex
 int BlendInTimeMs
 int BlendOutTimeMs
-int Field_9_0_1_34278_000?
-int Field_9_0_1_34278_001?
-int Field_9_0_1_34278_002?
-int Field_9_0_1_34278_003?
-int Field_9_0_1_34278_004?
-int Field_9_0_1_34278_005?
-int Field_9_0_1_34278_006?
-int Field_9_0_1_34278_007?
-int Field_9_0_1_34278_008?
-int Field_9_0_1_34278_009?
-int Field_9_0_1_34278_010?
-float Field_9_0_1_34278_011?
-int Field_9_0_1_34278_012?
-int Field_9_0_1_34278_013?
-int Field_9_0_1_34278_014?
-int Field_9_0_1_34278_015?
-int Field_9_0_1_34278_016?
-int Field_9_0_1_34278_017?
 float Field_9_0_1_34278_018?
 
 BUILD 6.0.1.18179
@@ -134,22 +116,22 @@ BlendOutTimeMs<u16>
 LAYOUT 3099BD1B
 BUILD 9.0.1.34278
 $noninline,id$ID<32>
-Field_9_0_1_34278_000<u16>
-Field_9_0_1_34278_001<u8>
-Field_9_0_1_34278_002<u16>
-Field_9_0_1_34278_003<u32>
-Field_9_0_1_34278_004<u16>
-Field_9_0_1_34278_005<u8>
-Field_9_0_1_34278_006<u8>
-Field_9_0_1_34278_007<u32>
-Field_9_0_1_34278_008<u8>
-Field_9_0_1_34278_009<u32>
-Field_9_0_1_34278_010<u32>
-Field_9_0_1_34278_011
-Field_9_0_1_34278_012<u16>
-Field_9_0_1_34278_013<u8>
-Field_9_0_1_34278_014<32>
-Field_9_0_1_34278_015<8>
-Field_9_0_1_34278_016<u16>
-Field_9_0_1_34278_017<u16>
+ParentAnimKitID<u16>
+OrderIndex<u8>
+AnimID<u16>
+AnimStartTime<u32>
+AnimKitConfigID<u16>
+StartCondition<u8>
+StartConditionParam<u8>
+StartConditionDelay<u32>
+EndCondition<u8>
+EndConditionParam<u32>
+EndConditionDelay<u32>
+Speed
+SegmentFlags<u16>
+ForcedVariation<u8>
+OverrideConfigFlags<32>
+LoopToSegmentIndex<8>
+BlendInTimeMs<u16>
+BlendOutTimeMs<u16>
 Field_9_0_1_34278_018
