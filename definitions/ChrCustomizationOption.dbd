@@ -8,6 +8,16 @@ int<ChrCustomizationCategory::ID> ChrCustomizationCategoryID?
 int OptionType? // 0 = Slider, 1 = Checkbox
 int ChrCustomizationID?
 int<ChrModel::ID> ChrModelID?
+locstring Field_9_0_1_34278_000_lang?
+int Field_9_0_1_34278_001?
+int Field_9_0_1_34278_002?
+int Field_9_0_1_34278_003?
+int Field_9_0_1_34278_004?
+int Field_9_0_1_34278_005?
+int Field_9_0_1_34278_006?
+float Field_9_0_1_34278_007?
+int Field_9_0_1_34278_008?
+int Field_9_0_1_34278_009?
 
 LAYOUT 3F99DF9F
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
@@ -20,3 +30,16 @@ ChrCustomizationCategoryID<32>
 OptionType<32>
 ChrCustomizationID<32>
 $noninline,relation$ChrModelID<32>
+
+LAYOUT 5C340158
+BUILD 9.0.1.34278
+Field_9_0_1_34278_000_lang
+$id$Field_9_0_1_34278_001<32>
+Field_9_0_1_34278_002<32>
+Field_9_0_1_34278_003<32>
+Field_9_0_1_34278_004<32>
+Field_9_0_1_34278_005<32>
+Field_9_0_1_34278_006<32>
+Field_9_0_1_34278_007
+Field_9_0_1_34278_008<32>
+$noninline,relation$Field_9_0_1_34278_009<32>
