@@ -16,11 +16,6 @@ int<AreaTriggerActionSet::ID> AreaTriggerActionSetID
 int Flags
 int PhaseShift
 locstring Field_1_13_2_30073_000_lang?
-int Field_1_13_2_30073_004?
-int Field_1_13_2_30073_005?
-int Field_1_13_2_30073_006?
-int Field_1_13_2_30073_013?
-int Field_1_13_2_30073_015?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -125,15 +120,15 @@ Field_1_13_2_30073_000_lang
 Pos[3]
 $id$ID<32>
 ContinentID<16>
-Field_1_13_2_30073_004<8>
-Field_1_13_2_30073_005<16>
-Field_1_13_2_30073_006<16>
+PhaseUseFlags<8>
+PhaseID<16>
+PhaseGroupID<16>
 Radius
 Box_length
 Box_width
 Box_height
 Box_yaw
 ShapeType<8>
-Field_1_13_2_30073_013<16>
+ShapeID<16>
 AreaTriggerActionSetID<16>
-Field_1_13_2_30073_015<8>
+Flags<8>

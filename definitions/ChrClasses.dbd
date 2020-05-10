@@ -34,17 +34,7 @@ int Field_1_13_0_28211_016?
 int Field_1_13_0_28211_017?
 int Field_1_13_0_28211_019?
 int SpellTextureBlobFileDataID?
-int Field_1_13_2_30073_006?
-int Field_1_13_2_30073_007?
-int Field_1_13_2_30073_008?
-int Field_1_13_2_30073_009?
-int Field_1_13_2_30073_011?
-int Field_1_13_2_30073_012?
-int Field_1_13_2_30073_013?
-int Field_1_13_2_30073_014?
-int Field_1_13_2_30073_016?
-int Field_1_13_2_30073_017?
-int Field_1_13_2_30073_018?
+int Field_1_13_2_30073_020?
 int Field_9_0_1_33978_013?
 int Field_9_0_1_33978_014?
 int Field_9_0_1_33978_023?
@@ -271,21 +261,21 @@ Name_male_lang
 Name_female_lang
 PetNameToken
 $id$ID<32>
-Field_1_13_2_30073_006<u32>
-Field_1_13_2_30073_007<u32>
-Field_1_13_2_30073_008<u32>
-Field_1_13_2_30073_009<u32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+IconFileDataID<u32>
+LowResScreenFileDataID<u32>
 StartingLevel<32>
-Field_1_13_2_30073_011<u16>
-Field_1_13_2_30073_012<u16>
-Field_1_13_2_30073_013<u16>
-Field_1_13_2_30073_014<u8>
+Flags<u16>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+PrimaryStatPriority<u8>
 DisplayPower<u8>
-Field_1_13_2_30073_016<u8>
-Field_1_13_2_30073_017<u8>
-Field_1_13_2_30073_018<u8>
+RangedAttackPowerPerAgility<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-Flags<u8>
+Field_1_13_2_30073_020<u8>
 
 LAYOUT 70C4356F
 BUILD 9.0.1.33978, 9.0.1.34003
