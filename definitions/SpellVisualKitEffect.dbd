@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<SpellVisualKitModelAttach::ID> Effect
+int Effect // 2: SpellVisualKitModelAttachID, 5: SoundKitID, 6: SpellVisualAnimID
 int EffectType
 int<SpellVisualKit::ID> ParentSpellVisualKitID
 
