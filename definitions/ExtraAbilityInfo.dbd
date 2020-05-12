@@ -3,7 +3,7 @@ locstring TutorialText_lang?
 int ID?
 int<Spell::ID> SpellID?
 int<Spell::ID> ActionBarOverrideSpellID?
-int<SpellLabel::ID> PossiblySpellLabel?
+int<SpellLabel::ID> SpellLabelID?
 int<UiTextureKit::ID> UiTextureKitID?
 int UiPriority?
 
