@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int Type
-int Asset
+int Asset // 107: SpellLabel::ID
 int SecondaryAsset
 int Operator
 int Amount
