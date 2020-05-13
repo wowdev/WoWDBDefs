@@ -4,7 +4,7 @@ int<PlayerCondition::ID> PlayerConditionID
 int SkySceneID?
 
 LAYOUT BF5812B6
-BUILD 9.0.1.34278, 9.0.1.34324
+BUILD 9.0.1.34278, 9.0.1.34324, 9.0.1.34365
 $noninline,id$ID<32>
 PlayerConditionID<32>
 $noninline,relation$SkySceneID<32>
