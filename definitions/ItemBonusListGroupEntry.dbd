@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 int<ItemBonusList::ID> ItemBonusListID?
-int Field_8_2_0_30613_001?
-int Field_8_2_0_30613_002?
-int Field_8_2_0_30613_003?
-int Field_8_2_0_30613_004?
+int<ItemLevelSelector::ID> ItemLevelSelectorID?
+int OrderIndex?
+int<ItemExtendedCost::ID> ItemExtendedCostID?
+int Field_8_2_0_30613_004? // GroupID?
 
 LAYOUT 87A0CA78, CA17B2FF
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324
@@ -13,7 +13,7 @@ BUILD 8.2.5.31337, 8.2.5.31401, 8.2.5.31521, 8.2.5.31599, 8.2.5.31812, 8.2.5.318
 BUILD 8.2.0.30613, 8.2.0.30634, 8.2.0.30669, 8.2.0.30774, 8.2.0.30827, 8.2.0.30888, 8.2.0.30898, 8.2.0.30918, 8.2.0.30920, 8.2.0.30948, 8.2.0.30993, 8.2.0.31229, 8.2.0.31429, 8.2.0.31478
 $noninline,id$ID<32>
 ItemBonusListID<32>
-Field_8_2_0_30613_001<32>
-Field_8_2_0_30613_002<32>
-Field_8_2_0_30613_003<32>
+ItemLevelSelectorID<32>
+OrderIndex<32>
+ItemExtendedCostID<32>
 $noninline,relation$Field_8_2_0_30613_004<32>
