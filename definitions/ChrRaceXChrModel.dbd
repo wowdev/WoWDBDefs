@@ -4,7 +4,7 @@ int<ChrModel::ID> ChrModelID
 int<ChrRaces::ID> ChrRacesID
 
 LAYOUT 07C5BAE4
-BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365
+BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
 $noninline,id$ID<32>
 ChrModelID<32>
 $noninline,relation$ChrRacesID<32>
