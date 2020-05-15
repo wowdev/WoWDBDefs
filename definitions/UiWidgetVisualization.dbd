@@ -7,14 +7,6 @@ int WidgetWidth
 string Name?
 int Field_8_2_0_30080_005?
 int Field_8_2_0_30080_006?
-string Field_9_0_1_34365_000?
-int Field_9_0_1_34365_001?
-int Field_9_0_1_34365_002?
-int Field_9_0_1_34365_003?
-int Field_9_0_1_34365_004?
-int Field_9_0_1_34365_005?
-int Field_9_0_1_34365_006?
-int Field_9_0_1_34365_007?
 int Field_9_0_1_34365_008?
 
 LAYOUT B10C7348
@@ -78,12 +70,12 @@ Field_8_2_0_30080_006<32>
 
 LAYOUT 6089B8EF
 BUILD 9.0.1.34365, 9.0.1.34392
-Field_9_0_1_34365_000
-$id$Field_9_0_1_34365_001<32>
-Field_9_0_1_34365_002<8>
-Field_9_0_1_34365_003<32>
-Field_9_0_1_34365_004<32>
-Field_9_0_1_34365_005<16>
-Field_9_0_1_34365_006<32>
-Field_9_0_1_34365_007<32>
+Name
+$id$ID<32>
+VisType<8>
+TextureKit<32>
+FrameTextureKit<32>
+WidgetWidth<16>
+Field_8_2_0_30080_005<32>
+Field_8_2_0_30080_006<32>
 Field_9_0_1_34365_008<8>

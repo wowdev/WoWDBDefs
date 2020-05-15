@@ -1,22 +1,22 @@
 COLUMNS
-int Field_9_0_1_34365_000?
+int ID
 int Field_9_0_1_34365_001?
-int Field_9_0_1_34365_002?
+int UniqueAscendingPerLayout?
 int Field_9_0_1_34365_003?
-int Field_9_0_1_34365_004?
-int Field_9_0_1_34365_005?
+int Flags?
+int ProbablyTextureTargetID?
 int Field_9_0_1_34365_006?
-int Field_9_0_1_34365_007?
-int Field_9_0_1_34365_008?
+int SizeOverrideIsh? // powers of 2 or -1
+int<CharComponentTextureLayouts::ID> CharComponentTextureLayoutsID
 
 LAYOUT 5BDD8C6A
 BUILD 9.0.1.34365, 9.0.1.34392
-$id$Field_9_0_1_34365_000<32>
+$id$ID<32>
 Field_9_0_1_34365_001<32>
-Field_9_0_1_34365_002<32>
+UniqueAscendingPerLayout<32>
 Field_9_0_1_34365_003<32>
-Field_9_0_1_34365_004<32>
-Field_9_0_1_34365_005<32>
+Flags<32>
+ProbablyTextureTargetID<32>
 Field_9_0_1_34365_006<32>
-Field_9_0_1_34365_007<32>
-$noninline,relation$Field_9_0_1_34365_008<32>
+SizeOverrideIsh<32>
+$noninline,relation$CharComponentTextureLayoutsID<32>

@@ -30,34 +30,6 @@ float PvpMultiplier
 float ResourceCoefficient
 float Variance
 float EffectBasePointsF
-int Field_9_0_1_34365_000?
-int Field_9_0_1_34365_001?
-int Field_9_0_1_34365_002?
-int Field_9_0_1_34365_003?
-float Field_9_0_1_34365_004?
-int Field_9_0_1_34365_005?
-int Field_9_0_1_34365_006?
-float Field_9_0_1_34365_007?
-float Field_9_0_1_34365_008?
-int Field_9_0_1_34365_009?
-int Field_9_0_1_34365_010?
-int Field_9_0_1_34365_011?
-float Field_9_0_1_34365_012?
-float Field_9_0_1_34365_013?
-float Field_9_0_1_34365_014?
-int Field_9_0_1_34365_015?
-float Field_9_0_1_34365_016?
-float Field_9_0_1_34365_017?
-float Field_9_0_1_34365_018?
-float Field_9_0_1_34365_019?
-float Field_9_0_1_34365_020?
-float Field_9_0_1_34365_021?
-float Field_9_0_1_34365_022?
-int Field_9_0_1_34365_023?
-int Field_9_0_1_34365_024?
-int Field_9_0_1_34365_025?
-int Field_9_0_1_34365_026?
-int Field_9_0_1_34365_027?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -326,31 +298,31 @@ $noninline,relation$SpellID<32>
 LAYOUT 8E2EAEB1
 BUILD 9.0.1.34365, 9.0.1.34392
 $noninline,id$ID<32>
-Field_9_0_1_34365_000<16>
-Field_9_0_1_34365_001<32>
-Field_9_0_1_34365_002<32>
-Field_9_0_1_34365_003<32>
-Field_9_0_1_34365_004
-Field_9_0_1_34365_005<32>
-Field_9_0_1_34365_006<32>
-Field_9_0_1_34365_007
-Field_9_0_1_34365_008
-Field_9_0_1_34365_009<32>
-Field_9_0_1_34365_010<32>
-Field_9_0_1_34365_011<32>
-Field_9_0_1_34365_012
-Field_9_0_1_34365_013
-Field_9_0_1_34365_014
-Field_9_0_1_34365_015<32>
-Field_9_0_1_34365_016
-Field_9_0_1_34365_017
-Field_9_0_1_34365_018
-Field_9_0_1_34365_019
-Field_9_0_1_34365_020
-Field_9_0_1_34365_021
-Field_9_0_1_34365_022
-Field_9_0_1_34365_023<32>[2]
-Field_9_0_1_34365_024<u32>[2]
-Field_9_0_1_34365_025<32>[4]
-Field_9_0_1_34365_026<16>[2]
-$noninline,relation$Field_9_0_1_34365_027<32>
+EffectAura<16>
+DifficultyID<32>
+EffectIndex<32>
+Effect<32>
+EffectAmplitude
+EffectAttributes<32>
+EffectAuraPeriod<32>
+EffectBonusCoefficient
+EffectChainAmplitude
+EffectChainTargets<32>
+EffectItemType<32>
+EffectMechanic<32>
+EffectPointsPerResource
+EffectPos_facing
+EffectRealPointsPerLevel
+EffectTriggerSpell<32>
+BonusCoefficientFromAP
+PvpMultiplier
+Coefficient
+Variance
+ResourceCoefficient
+GroupSizeBasePointsCoefficient
+EffectBasePointsF
+EffectMiscValue<32>[2]
+EffectRadiusIndex<u32>[2]
+EffectSpellClassMask<32>[4]
+ImplicitTarget<16>[2]
+$noninline,relation$SpellID<32>

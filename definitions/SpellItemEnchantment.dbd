@@ -24,29 +24,7 @@ int<PlayerCondition::ID> TransmogPlayerConditionID
 int EffectPointsMax
 int Field_9_0_1_34081_007?
 int Field_9_0_1_34081_008?
-locstring Field_9_0_1_34365_000_lang?
-locstring Field_9_0_1_34365_001_lang?
-int Field_9_0_1_34365_002?
-int Field_9_0_1_34365_003?
-float Field_9_0_1_34365_004?
-int Field_9_0_1_34365_005?
-int Field_9_0_1_34365_006?
-int Field_9_0_1_34365_007?
 int Field_9_0_1_34365_008?
-int Field_9_0_1_34365_009?
-int Field_9_0_1_34365_010?
-int Field_9_0_1_34365_011?
-int Field_9_0_1_34365_012?
-int Field_9_0_1_34365_013?
-int Field_9_0_1_34365_014?
-int Field_9_0_1_34365_015?
-int Field_9_0_1_34365_016?
-int Field_9_0_1_34365_017?
-int Field_9_0_1_34365_018?
-int Field_9_0_1_34365_019?
-int Field_9_0_1_34365_020?
-int Field_9_0_1_34365_021?
-int Field_9_0_1_34365_022?
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
@@ -300,26 +278,26 @@ MaxLevel<u8>
 
 LAYOUT 9E09787D
 BUILD 9.0.1.34365, 9.0.1.34392
-Field_9_0_1_34365_000_lang
-Field_9_0_1_34365_001_lang
-$id$Field_9_0_1_34365_002<32>
-Field_9_0_1_34365_003<u32>[3]
-Field_9_0_1_34365_004[3]
-Field_9_0_1_34365_005<u32>
-Field_9_0_1_34365_006<32>
-Field_9_0_1_34365_007<32>
+Name_lang
+HordeName_lang
+$id$ID<32>
+EffectArg<u32>[3]
+EffectScalingPoints[3]
+IconFileDataID<u32>
+Field_9_0_1_34081_007<32>
+Field_9_0_1_34081_008<32>
 Field_9_0_1_34365_008<u32>
-Field_9_0_1_34365_009<u32>
-Field_9_0_1_34365_010<16>[3]
-Field_9_0_1_34365_011<u16>
-Field_9_0_1_34365_012<u16>
-Field_9_0_1_34365_013<u16>
-Field_9_0_1_34365_014<u16>
-Field_9_0_1_34365_015<u16>
-Field_9_0_1_34365_016<u8>
-Field_9_0_1_34365_017<u8>[3]
-Field_9_0_1_34365_018<8>
-Field_9_0_1_34365_019<8>
-Field_9_0_1_34365_020<u8>
-Field_9_0_1_34365_021<u8>
-Field_9_0_1_34365_022<u8>
+TransmogCost<u32>
+EffectPointsMin<16>[3]
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+ScalingClass<8>
+ScalingClassRestricted<8>
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>

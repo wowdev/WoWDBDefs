@@ -9,7 +9,7 @@ locstring Title_lang
 int Flags
 int Field_8_3_0_32044_007?
 int<PlayerCondition::ID> ConditionID?
-int FeatureType? // 0: Generic, 1: AnimaDiversion, 2: TravelPortals, 3: Adventures, 4: ReservoirUpgrades, 5: SanctumUnique, 6: SoulBinds
+int FeatureType? // 0: Generic, 1: AnimaDiversion, 2: TravelPortals, 3: Adventures, 4: ReservoirUpgrades, 5: SanctumUnique, 6: SoulBinds, 7: AnimaDiversionMap
 int FeatureSubtype? // 0: Generic, 1: Bastion, 2: Revendreth, 3: Maldraxxus, 4: Ardenweald
 
 LAYOUT 676CBC04
