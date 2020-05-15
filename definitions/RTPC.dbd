@@ -1,8 +1,8 @@
 COLUMNS
 int ID?
-int<SoundParameter::ID> SoundParameterID? // Guess! Also added in 9.0.1 and related to the sound system.
-int<GameParameter::ID> GameParameterID? // Guess! Also added in 9.0.1, WWISE RTPC manual refers to something called Game Parameters.
-int Field_9_0_1_33978_003?
+int<SoundParameter::ID> SoundParameterID
+int<GameParameter::ID> GameParameterID
+int<Curve::ID> CurveID?
 int Field_9_0_1_33978_004?
 int<SoundKit::ID> SoundKitID? // Guess! Assumes RTPC stands for Real Time Parameter Control (WWISE). Specified soundkits could make sense as test sounds.
 
@@ -11,6 +11,6 @@ BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.341
 $id$ID<32>
 SoundParameterID<32>
 GameParameterID<32>
-Field_9_0_1_33978_003<32>
+CurveID<32>
 Field_9_0_1_33978_004<32>
 SoundKitID<32>

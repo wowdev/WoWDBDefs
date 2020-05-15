@@ -1,5 +1,5 @@
 COLUMNS
-locstring Field_9_0_1_34081_000_lang?
+locstring Name_lang
 int ID
 int<ChrCustomizationOption::ID> ChrCustomizationOptionID?
 int<ChrCustomizationReq::ID> ChrCustomizationReqID?
@@ -9,7 +9,7 @@ int Color?
 
 LAYOUT 9DC934CE
 BUILD 9.0.1.34081, 9.0.1.34098
-Field_9_0_1_34081_000_lang
+Name_lang
 $id$ID<32>
 ChrCustomizationOptionID<32>
 ChrCustomizationReqID<32>
@@ -17,7 +17,7 @@ OrderIndex<32>
 
 LAYOUT 2BBAB38E
 BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
-Field_9_0_1_34081_000_lang
+Name_lang
 $id$ID<32>
 ChrCustomizationOptionID<32>
 ChrCustomizationReqID<32>

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<Path::ID> PathID
-int PropertyIndex
+int PropertyIndex // 2: PlayerConditionID
 int Value
 
 BUILD 6.0.1.18179

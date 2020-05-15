@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int Field_9_0_1_33978_000?
-int Field_9_0_1_33978_001?
+int Field_9_0_1_33978_000? // 0: require Field_9_0_1_33978_001 <= 6, 1: require Field_9_0_1_33978_001 = 7 || 0
+int Field_9_0_1_33978_001? // Determines RTPC curve interpretation, 0: pow(10, v * 0.05), 1: pow (2^(1/12), v), else: v
 float Field_9_0_1_33978_002?
 float Field_9_0_1_33978_003?
 int Field_9_0_1_33978_004?
