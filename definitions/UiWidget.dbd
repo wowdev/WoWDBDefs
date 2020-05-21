@@ -7,6 +7,15 @@ int<PlayerCondition::ID> PlayerConditionID
 int<UiWidgetVisualization::ID> VisID
 string WidgetTag
 int Field_8_2_5_31337_006?
+string Field_9_0_1_34490_000?
+int Field_9_0_1_34490_001?
+int Field_9_0_1_34490_002?
+int Field_9_0_1_34490_003?
+int Field_9_0_1_34490_004?
+int Field_9_0_1_34490_005?
+int Field_9_0_1_34490_006?
+int Field_9_0_1_34490_007?
+int Field_9_0_1_34490_008?
 
 LAYOUT AA1F4096
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
@@ -85,3 +94,15 @@ MapID<32>
 PlayerConditionID<32>
 OrderIndex<32>
 Field_8_2_5_31337_006<32>
+
+LAYOUT BCC7B06B
+BUILD 9.0.1.34490
+Field_9_0_1_34490_000
+$id$Field_9_0_1_34490_001<32>
+Field_9_0_1_34490_002<32>
+Field_9_0_1_34490_003<32>
+Field_9_0_1_34490_004<32>
+Field_9_0_1_34490_005<32>
+Field_9_0_1_34490_006<32>
+Field_9_0_1_34490_007<32>
+Field_9_0_1_34490_008<8>
