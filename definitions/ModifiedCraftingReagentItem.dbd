@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-locstring Field_9_0_1_33978_000_lang?
+locstring Description_lang
 int<ModifiedCraftingCategory::ID> ModifiedCraftingCategoryID?
 int Field_9_0_1_33978_002?
 int Field_9_0_1_33978_003?
@@ -8,7 +8,7 @@ int Field_9_0_1_33978_003?
 LAYOUT CC09E623
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
 $noninline,id$ID<32>
-Field_9_0_1_33978_000_lang
+Description_lang
 ModifiedCraftingCategoryID<32>
 Field_9_0_1_33978_002<32>
 Field_9_0_1_33978_003<32>
