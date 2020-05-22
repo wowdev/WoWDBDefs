@@ -3,7 +3,7 @@ int ID
 int<FileData::ID> CollectionsFileDataID
 int GeosetType?
 int GeosetID?
-int Field_9_0_1_34081_003?
+int Modifier?
 
 LAYOUT 0A19C75E
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -11,4 +11,4 @@ $noninline,id$ID<32>
 CollectionsFileDataID<32>
 GeosetType<32>
 GeosetID<32>
-Field_9_0_1_34081_003<32>
+Modifier<32>

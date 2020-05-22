@@ -2,20 +2,20 @@ COLUMNS
 locstring Name_lang
 int ID
 int Field_9_0_1_34081_002?
-int Field_9_0_1_34081_003? // 1 = Tattoo/Pattern, 2 = Skin/Hair Color, 3 = Skin/Tattoo Color, possibly flags
+int Flags? // 1 = Tattoo/Pattern, 2 = Skin/Hair Color, 3 = Skin/Tattoo Color, possibly flags
 int OrderIndex? // per ChrModelID
 int<ChrCustomizationCategory::ID> ChrCustomizationCategoryID?
 int OptionType? // 0 = Slider, 1 = Checkbox
 int ChrCustomizationID?
 int<ChrModel::ID> ChrModelID?
-float Field_9_0_1_34278_007?
+float CameraZoom?
 
 LAYOUT 3F99DF9F
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
 Name_lang
 $id$ID<32>
 Field_9_0_1_34081_002<32>
-Field_9_0_1_34081_003<32>
+Flags<32>
 OrderIndex<32>
 ChrCustomizationCategoryID<32>
 OptionType<32>
@@ -27,10 +27,10 @@ BUILD 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
 Name_lang
 $id$ID<32>
 Field_9_0_1_34081_002<32>
-Field_9_0_1_34081_003<32>
+Flags<32>
 OrderIndex<32>
 ChrCustomizationCategoryID<32>
 OptionType<32>
-Field_9_0_1_34278_007
+CameraZoom
 ChrCustomizationID<32>
 $noninline,relation$ChrModelID<32>
