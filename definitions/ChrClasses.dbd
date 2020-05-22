@@ -43,37 +43,8 @@ int Field_9_0_1_33978_025?
 locstring ClassFantasyDescription_lang?
 locstring Roles_lang?
 locstring RequirementsFail_lang?
-locstring Field_9_0_1_34490_000_lang?
-string Field_9_0_1_34490_001?
-locstring Field_9_0_1_34490_002_lang?
-locstring Field_9_0_1_34490_003_lang?
-string Field_9_0_1_34490_004?
-locstring Field_9_0_1_34490_005_lang?
-locstring Field_9_0_1_34490_006_lang?
-locstring Field_9_0_1_34490_007_lang?
-int Field_9_0_1_34490_008?
-int Field_9_0_1_34490_009?
-int Field_9_0_1_34490_010?
-int Field_9_0_1_34490_011?
-int Field_9_0_1_34490_012?
-int Field_9_0_1_34490_013?
-int Field_9_0_1_34490_014?
-int Field_9_0_1_34490_015?
-int Field_9_0_1_34490_016?
-int Field_9_0_1_34490_017?
 int Field_9_0_1_34490_018?
 int Field_9_0_1_34490_019?
-int Field_9_0_1_34490_020?
-int Field_9_0_1_34490_021?
-int Field_9_0_1_34490_022?
-int Field_9_0_1_34490_023?
-int Field_9_0_1_34490_024?
-int Field_9_0_1_34490_025?
-int Field_9_0_1_34490_026?
-int Field_9_0_1_34490_027?
-int Field_9_0_1_34490_028?
-int Field_9_0_1_34490_029?
-int Field_9_0_1_34490_030?
 
 BUILD 6.0.1.18179
 BUILD 5.0.4.16016-5.4.8.18414
@@ -371,34 +342,34 @@ Field_9_0_1_33978_025<u8>
 
 LAYOUT 419E747D
 BUILD 9.0.1.34490
-Field_9_0_1_34490_000_lang
-Field_9_0_1_34490_001
-Field_9_0_1_34490_002_lang
-Field_9_0_1_34490_003_lang
-Field_9_0_1_34490_004
-Field_9_0_1_34490_005_lang
-Field_9_0_1_34490_006_lang
-Field_9_0_1_34490_007_lang
-$id$Field_9_0_1_34490_008<32>
-Field_9_0_1_34490_009<u32>
-Field_9_0_1_34490_010<u32>
-Field_9_0_1_34490_011<u32>
-Field_9_0_1_34490_012<u32>
-Field_9_0_1_34490_013<u32>
-Field_9_0_1_34490_014<32>
-Field_9_0_1_34490_015<u32>
-Field_9_0_1_34490_016<u32>
-Field_9_0_1_34490_017<u32>
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
+ClassFantasyDescription_lang
+Roles_lang
+RequirementsFail_lang
+$id$ID<32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+IconFileDataID<u32>
+LowResScreenFileDataID<u32>
+Flags<u32>
+StartingLevel<32>
+SpellTextureBlobFileDataID<u32>
+Field_9_0_1_33978_013<u32>
+Field_9_0_1_33978_014<u32>
 Field_9_0_1_34490_018<32>
 Field_9_0_1_34490_019<32>
-Field_9_0_1_34490_020<u16>
-Field_9_0_1_34490_021<u16>
-Field_9_0_1_34490_022<u8>
-Field_9_0_1_34490_023<u8>
-Field_9_0_1_34490_024<u8>
-Field_9_0_1_34490_025<u8>
-Field_9_0_1_34490_026<u8>
-Field_9_0_1_34490_027<u8>
-Field_9_0_1_34490_028<u8>
-Field_9_0_1_34490_029<u8>
-Field_9_0_1_34490_030<u8>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+PrimaryStatPriority<u8>
+DisplayPower<u8>
+RangedAttackPowerPerAgility<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
+SpellClassSet<u8>
+Field_9_0_1_33978_023<u8>
+Field_9_0_1_33978_024<u8>
+Field_9_0_1_33978_025<u8>
