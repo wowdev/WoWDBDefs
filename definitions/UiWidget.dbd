@@ -6,8 +6,8 @@ int ParentSetID
 int<PlayerCondition::ID> PlayerConditionID
 int<UiWidgetVisualization::ID> VisID
 string WidgetTag
-int Field_8_2_5_31337_006?
-int Field_9_0_1_34490_008?
+int Field_8_2_5_31337_006? // flag? 1: UniversalWidget
+int Field_9_0_1_34490_008? // layout direction? 0: Default, 1: Vertical, 2: Horizontal
 
 LAYOUT AA1F4096
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
