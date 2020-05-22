@@ -8,7 +8,7 @@ int ObjectiveIndex
 int<QuestV2::ID> QuestID
 int<PlayerCondition::ID> PlayerConditionID
 int<UiMap::ID> UiMapID
-int ObjectiveID
+int<QuestObjective::ID> ObjectiveID // Not all available in client.
 int Field_9_0_1_34490_008?
 
 BUILD 6.0.1.18179
