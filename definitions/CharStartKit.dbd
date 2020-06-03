@@ -5,12 +5,8 @@ int<ChrClasses::ID> ChrClassesID?
 int<UiTextureAtlasElement::ID> ZoneImageAtlas
 int<ChrRaces::ID> ChrRacesID?
 int Field_9_0_1_34490_003?
-locstring Field_9_0_1_34615_000_lang?
-int Field_9_0_1_34615_001?
-int Field_9_0_1_34615_002?
 int Field_9_0_1_34615_003?
 int Field_9_0_1_34615_004?
-int Field_9_0_1_34615_005?
 
 LAYOUT CC89E761
 BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
@@ -32,9 +28,9 @@ $noninline,relation$ChrRacesID<8>
 LAYOUT 1DE3D407
 BUILD 9.0.1.34615
 $noninline,id$ID<32>
-Field_9_0_1_34615_000_lang
-Field_9_0_1_34615_001<8>
-Field_9_0_1_34615_002<32>
+ZoneName_lang
+ChrClassesID<8>
+ZoneImageAtlas<32>
 Field_9_0_1_34615_003<32>
 Field_9_0_1_34615_004<32>
-$noninline,relation$Field_9_0_1_34615_005<8>
+$noninline,relation$ChrRacesID<8>
