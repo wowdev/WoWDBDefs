@@ -8,7 +8,7 @@ int<GarrAutoSpell::ID> Slot1?
 int<GarrAutoSpell::ID> Slot2?
 int<GarrAutoSpell::ID> Slot3?
 int<GarrAutoSpell::ID> Slot4?
-int Field_9_0_1_33978_009?
+int Role? // 0: None, 1: Melee, 2: RangedPhysical, 3: RangedMagic, 4: HealSupport, 5: Tank
 
 LAYOUT BC77BB9B
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615
@@ -21,4 +21,4 @@ Slot1<32>
 Slot2<32>
 Slot3<32>
 Slot4<32>
-Field_9_0_1_33978_009<32>
+Role<32>
