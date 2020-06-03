@@ -9,6 +9,17 @@ int<FileData::ID> SkeletonFileDataID
 int Field_9_0_1_34081_007?
 int Field_9_0_1_34081_008?
 int<ChrModel::ID> BaseRaceChrModelID?
+float Field_9_0_1_34615_000?
+int Field_9_0_1_34615_001?
+int Field_9_0_1_34615_002?
+int Field_9_0_1_34615_003?
+int Field_9_0_1_34615_004?
+int Field_9_0_1_34615_005?
+int Field_9_0_1_34615_006?
+int Field_9_0_1_34615_007?
+int Field_9_0_1_34615_008?
+int Field_9_0_1_34615_009?
+float Field_9_0_1_34615_010?
 
 LAYOUT 6FB2BE38
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -22,3 +33,17 @@ SkeletonFileDataID<32>
 Field_9_0_1_34081_007<32>
 Field_9_0_1_34081_008<32>
 BaseRaceChrModelID<32>
+
+LAYOUT 9B20D847
+BUILD 9.0.1.34615
+Field_9_0_1_34615_000[3]
+$id$Field_9_0_1_34615_001<32>
+Field_9_0_1_34615_002<32>
+Field_9_0_1_34615_003<32>
+Field_9_0_1_34615_004<32>
+Field_9_0_1_34615_005<32>
+Field_9_0_1_34615_006<32>
+Field_9_0_1_34615_007<32>
+Field_9_0_1_34615_008<32>
+Field_9_0_1_34615_009<32>
+Field_9_0_1_34615_010

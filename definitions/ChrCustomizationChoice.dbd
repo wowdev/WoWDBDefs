@@ -6,6 +6,13 @@ int<ChrCustomizationReq::ID> ChrCustomizationReqID?
 int OrderIndex? // per ChrCustomizationOptionID
 int Flags?
 int Color?
+locstring Field_9_0_1_34615_000_lang?
+int Field_9_0_1_34615_001?
+int Field_9_0_1_34615_002?
+int Field_9_0_1_34615_003?
+int Field_9_0_1_34615_004?
+int Field_9_0_1_34615_005?
+int Field_9_0_1_34615_006?
 
 LAYOUT 9DC934CE
 BUILD 9.0.1.34081, 9.0.1.34098
@@ -24,3 +31,13 @@ ChrCustomizationReqID<32>
 OrderIndex<32>
 Flags<32>
 Color<32>
+
+LAYOUT CFC62441
+BUILD 9.0.1.34615
+Field_9_0_1_34615_000_lang
+$id$Field_9_0_1_34615_001<32>
+Field_9_0_1_34615_002<32>
+Field_9_0_1_34615_003<32>
+Field_9_0_1_34615_004<u16>
+Field_9_0_1_34615_005<32>
+Field_9_0_1_34615_006<32>

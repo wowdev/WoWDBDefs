@@ -7,6 +7,15 @@ int<ChrCustomizationSkinnedModel::ID> ChrCustomizationSkinnedModelID?
 int<ChrCustomizationMaterial::ID> ChrCustomizationMaterialID?
 int<ChrCustomizationBoneSet::ID> ChrCustomizationBoneSetID?
 int<ChrCustomizationCondModel::ID> ChrCustomizationCondModelID?
+int Field_9_0_1_34615_000?
+int Field_9_0_1_34615_001?
+int Field_9_0_1_34615_002?
+int Field_9_0_1_34615_003?
+int Field_9_0_1_34615_004?
+int Field_9_0_1_34615_005?
+int Field_9_0_1_34615_006?
+int Field_9_0_1_34615_007?
+int Field_9_0_1_34615_008?
 
 LAYOUT 155D0538
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -18,3 +27,15 @@ ChrCustomizationSkinnedModelID<32>
 ChrCustomizationMaterialID<32>
 ChrCustomizationBoneSetID<32>
 ChrCustomizationCondModelID<32>
+
+LAYOUT 29E7E6E9
+BUILD 9.0.1.34615
+$id$Field_9_0_1_34615_000<32>
+Field_9_0_1_34615_001<32>
+Field_9_0_1_34615_002<32>
+Field_9_0_1_34615_003<32>
+Field_9_0_1_34615_004<32>
+Field_9_0_1_34615_005<32>
+Field_9_0_1_34615_006<32>
+Field_9_0_1_34615_007<32>
+Field_9_0_1_34615_008<32>
