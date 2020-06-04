@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 int OverrideItemBonusTreeID
-int Type
-int Level
+int Type // 0 = MythicPlus, 1 = PvP
+int Level // Type == MythicPlus => keystone level, Type == Pvp => PvpTier
 int<MythicPlusSeason::ID> MythicPlusSeasonID
-int<PvpSeason::ID> PvpSeasonID
+int<PvpSeason::ID> PvPSeasonID
 int ParentItemBonusTreeID
 
 LAYOUT 95841908, D948D3F0
