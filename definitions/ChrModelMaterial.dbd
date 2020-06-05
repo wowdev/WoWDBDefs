@@ -4,8 +4,8 @@ int<CharComponentTextureLayouts::ID> CharComponentTextureLayoutsID?
 int TextureType?
 int Width?
 int Height?
-int Field_9_0_1_34615_005?
-int Field_9_0_1_34615_006?
+int SkinType? // 0 = Primary Skin, 1 = Secondary Skin
+int Field_9_0_1_34615_006? // Set to 2,3,4 if SkinType is 1, otherwise -1
 
 LAYOUT D4ED338C
 BUILD 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -22,5 +22,5 @@ CharComponentTextureLayoutsID<32>
 TextureType<32>
 Width<32>
 Height<32>
-Field_9_0_1_34615_005<32>
+SkinType<32>
 Field_9_0_1_34615_006<32>
