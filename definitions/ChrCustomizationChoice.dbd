@@ -6,7 +6,6 @@ int<ChrCustomizationReq::ID> ChrCustomizationReqID?
 int OrderIndex? // per ChrCustomizationOptionID
 int Flags?
 int Color?
-locstring Field_9_0_1_34714_000_lang?
 int OrderIndex2? // Same values as OrderIndex???
 
 LAYOUT 9DC934CE
