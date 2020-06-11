@@ -6,7 +6,7 @@ int Flags? // 1 = Tattoo/Pattern, 2 = Skin/Hair Color, 3 = Skin/Tattoo Color, po
 int OrderIndex? // per ChrModelID
 int<ChrCustomizationCategory::ID> ChrCustomizationCategoryID?
 int OptionType? // 0 = Slider, 1 = Checkbox
-int ChrCustomizationID?
+int<ChrCustomization::ID> ChrCustomizationID?
 int<ChrModel::ID> ChrModelID?
 float CameraZoom?
 int Field_9_0_1_34615_010?
