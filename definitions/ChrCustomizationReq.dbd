@@ -2,34 +2,29 @@ COLUMNS
 int ID
 int ReqType? // 1: Class req
 int ReqValue? // Class mask if ReqType is 1
-int Field_9_0_1_34081_002?
+int<Achievement::ID> ReqAchievementID?
 int LocaleMask? // checked first
-int Field_9_0_1_34714_000?
-int Field_9_0_1_34714_001?
-int Field_9_0_1_34714_002?
-int Field_9_0_1_34714_003?
-int Field_9_0_1_34714_004?
 
 LAYOUT AA163FDE
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137
 $noninline,id$ID<32>
 ReqType<32>
 ReqValue<32>
-Field_9_0_1_34081_002<32>
+ReqAchievementID<32>
 
 LAYOUT 489C75AF
 BUILD 9.0.1.34199, 9.0.1.34278, 9.0.1.34324
 $id$ID<32>
 ReqType<32>
 ReqValue<32>
-Field_9_0_1_34081_002<32>
+ReqAchievementID<32>
 
 LAYOUT 9AE57897
 BUILD 9.0.1.34365, 9.0.1.34392
 $id$ID<32>
 ReqType<32>
 ReqValue<32>
-Field_9_0_1_34081_002<32>
+ReqAchievementID<32>
 LocaleMask<32>
 
 LAYOUT 6BA210DE
@@ -37,13 +32,13 @@ BUILD 9.0.1.34490, 9.0.1.34615
 $id$ID<32>
 ReqType<32>
 ReqValue<32>
-Field_9_0_1_34081_002<32>
+ReqAchievementID<32>
 LocaleMask<32>
 
 LAYOUT 91642276
 BUILD 9.0.1.34714
-$id$Field_9_0_1_34714_000<32>
-Field_9_0_1_34714_001<32>
-Field_9_0_1_34714_002<32>
-Field_9_0_1_34714_003<32>
-Field_9_0_1_34714_004<32>
+$id$ID<32>
+ReqType<32>
+ReqValue<32>
+ReqAchievementID<32>
+LocaleMask<32>

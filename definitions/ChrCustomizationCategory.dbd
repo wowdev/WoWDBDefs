@@ -6,15 +6,8 @@ int<UiTextureAtlasElement::ID> CustomizeIconSelected
 int OrderIndex?
 int Field_9_0_1_34081_005?
 int Flags? // 1 = UndressModel
-int Field_9_0_1_34615_007?
-locstring Field_9_0_1_34714_000_lang?
-int Field_9_0_1_34714_001?
-int Field_9_0_1_34714_002?
-int Field_9_0_1_34714_003?
-int Field_9_0_1_34714_004?
-int Field_9_0_1_34714_005?
 int Field_9_0_1_34714_006?
-int Field_9_0_1_34714_007?
+int<SpellShapeshiftForm::ID> SpellShapeshiftFormID?
 float Field_9_0_1_34714_008?
 
 LAYOUT E5D63E94
@@ -40,12 +33,12 @@ Field_9_0_1_34615_007<32>
 
 LAYOUT 69C90AAA
 BUILD 9.0.1.34714
-Field_9_0_1_34714_000_lang
-$id$Field_9_0_1_34714_001<32>
-Field_9_0_1_34714_002<32>
-Field_9_0_1_34714_003<32>
-Field_9_0_1_34714_004<32>
-Field_9_0_1_34714_005<32>
-Field_9_0_1_34714_006<32>
-Field_9_0_1_34714_007<32>
+CategoryName_lang
+$id$ID<32>
+CustomizeIcon<32>
+CustomizeIconSelected<32>
+OrderIndex<32>
+Field_9_0_1_34081_005<32>
+Flags<32>
+SpellShapeshiftFormID<32>
 Field_9_0_1_34714_008
