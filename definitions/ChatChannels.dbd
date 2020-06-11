@@ -4,7 +4,7 @@ int Flags
 int FactionGroup
 locstring Name_lang
 locstring Shortcut_lang
-int Ruleset? // 1 for Mentor Chat
+int Ruleset // 0: None, 1: Mentor
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
