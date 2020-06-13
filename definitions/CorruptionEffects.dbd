@@ -2,8 +2,8 @@ COLUMNS
 int ID
 float MinimumCorruption?
 int<Spell::ID> Aura?
-int Field_8_3_0_32414_002?
-int Field_8_3_0_32414_003?
+int<PlayerCondition::ID> PlayerConditionId?
+int Flags?
 
 LAYOUT A2A27BB2
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714
@@ -11,5 +11,5 @@ BUILD 8.3.0.32414, 8.3.0.32489, 8.3.0.32593, 8.3.0.32712, 8.3.0.32805, 8.3.0.328
 $noninline,id$ID<32>
 MinimumCorruption
 Aura<32>
-Field_8_3_0_32414_002<32>
-Field_8_3_0_32414_003<32>
+PlayerConditionId<32>
+Flags<32>
