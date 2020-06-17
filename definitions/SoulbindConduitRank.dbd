@@ -3,7 +3,7 @@ int ID
 int Field_9_0_1_34821_000?
 int Field_9_0_1_34821_001?
 float Field_9_0_1_34821_002?
-int Field_9_0_1_34821_003?
+int<SoulbindConduit::ID> SoulbindConduitID?
 
 LAYOUT E97AAA36
 BUILD 9.0.1.34821
@@ -11,4 +11,4 @@ $noninline,id$ID<32>
 Field_9_0_1_34821_000<32>
 Field_9_0_1_34821_001<32>
 Field_9_0_1_34821_002
-$noninline,relation$Field_9_0_1_34821_003<32>
+$noninline,relation$SoulbindConduitID<32>
