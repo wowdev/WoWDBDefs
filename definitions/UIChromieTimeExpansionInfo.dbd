@@ -6,10 +6,6 @@ int<Spell::ID> SpellID?
 int<UiTextureAtlasElement::ID> BannerAlliance?
 int<UiTextureAtlasElement::ID> BannerHorde?
 int<PlayerCondition::ID> ConditionID?
-locstring Field_9_0_1_34821_000_lang?
-locstring Field_9_0_1_34821_001_lang?
-int Field_9_0_1_34821_002?
-int Field_9_0_1_34821_003?
 int Field_9_0_1_34821_004?
 int Field_9_0_1_34821_005?
 int Field_9_0_1_34821_006?
@@ -27,10 +23,10 @@ ConditionID<32>
 
 LAYOUT F44C9B44
 BUILD 9.0.1.34821
-Field_9_0_1_34821_000_lang
-Field_9_0_1_34821_001_lang
-$id$Field_9_0_1_34821_002<32>
-Field_9_0_1_34821_003<32>
+Name_lang
+Description_lang
+$id$ID<32>
+SpellID<32>
 Field_9_0_1_34821_004<32>
 Field_9_0_1_34821_005<32>
 Field_9_0_1_34821_006<32>
