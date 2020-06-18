@@ -11,18 +11,6 @@ int PropValue
 float Rot
 float Scale
 int TypeID
-locstring Field_9_0_1_34821_000_lang?
-float Field_9_0_1_34821_001?
-float Field_9_0_1_34821_002?
-int Field_9_0_1_34821_003?
-int Field_9_0_1_34821_004?
-int Field_9_0_1_34821_005?
-float Field_9_0_1_34821_006?
-int Field_9_0_1_34821_007?
-int Field_9_0_1_34821_008?
-int Field_9_0_1_34821_009?
-int Field_9_0_1_34821_010?
-int Field_9_0_1_34821_011?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -97,15 +85,15 @@ PropValue<32>[8]
 
 LAYOUT 816F3855
 BUILD 9.0.1.34821
-Field_9_0_1_34821_000_lang
-Field_9_0_1_34821_001[3]
-Field_9_0_1_34821_002[4]
-$id$Field_9_0_1_34821_003<32>
-Field_9_0_1_34821_004<32>
-Field_9_0_1_34821_005<32>
-Field_9_0_1_34821_006
-Field_9_0_1_34821_007<32>
-Field_9_0_1_34821_008<32>
-Field_9_0_1_34821_009<32>
-Field_9_0_1_34821_010<32>
-Field_9_0_1_34821_011<32>[8]
+Name_lang
+Pos[3]
+Rot[4]
+$id$ID<32>
+OwnerID<32>
+DisplayID<32>
+Scale
+TypeID<32>
+PhaseUseFlags<32>
+PhaseID<32>
+PhaseGroupID<32>
+PropValue<32>[8]
