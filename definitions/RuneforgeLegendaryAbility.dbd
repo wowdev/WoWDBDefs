@@ -2,15 +2,15 @@ COLUMNS
 locstring Name_lang?
 int ID?
 int<SpecSetMember::SpecSet> SpecSetID
-int Field_9_0_1_33978_003?
+int InventoryTypeMask?
 int<Spell::ID> SpellID
-int Field_9_0_1_33978_005?
+int<ItemBonusList::ID> ItemBonusListID?
 
 LAYOUT 368D0C5F
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821
 Name_lang
 $id$ID<32>
 SpecSetID<32>
-Field_9_0_1_33978_003<32>
+InventoryTypeMask<32>
 SpellID<32>
-Field_9_0_1_33978_005<32>
+ItemBonusListID<32>
