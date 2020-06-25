@@ -10,18 +10,7 @@ int PetTypeEnum
 locstring SourceText_lang
 int SourceTypeEnum
 int<Spell::ID> SummonSpellID
-locstring Field_9_0_1_34902_000_lang?
-locstring Field_9_0_1_34902_001_lang?
-int Field_9_0_1_34902_002?
-int Field_9_0_1_34902_003?
-int Field_9_0_1_34902_004?
-int Field_9_0_1_34902_005?
-int Field_9_0_1_34902_006?
-int Field_9_0_1_34902_007?
-int Field_9_0_1_34902_008?
-int Field_9_0_1_34902_009?
-int Field_9_0_1_34902_010?
-int Field_9_0_1_34902_011?
+int<Covenant::ID> CovenantID?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -91,15 +80,15 @@ LoadoutUIModelSceneID<32>
 
 LAYOUT 33F39540
 BUILD 9.0.1.34902
-Field_9_0_1_34902_000_lang
-Field_9_0_1_34902_001_lang
-$id$Field_9_0_1_34902_002<32>
-Field_9_0_1_34902_003<32>
-Field_9_0_1_34902_004<32>
-Field_9_0_1_34902_005<32>
-Field_9_0_1_34902_006<u8>
-Field_9_0_1_34902_007<u16>
-Field_9_0_1_34902_008<8>
-Field_9_0_1_34902_009<32>
-Field_9_0_1_34902_010<32>
-Field_9_0_1_34902_011<32>
+Description_lang
+SourceText_lang
+$id$ID<32>
+CreatureID<32>
+SummonSpellID<32>
+IconFileDataID<32>
+PetTypeEnum<u8>
+Flags<u16>
+SourceTypeEnum<8>
+CardUIModelSceneID<32>
+LoadoutUIModelSceneID<32>
+CovenantID<32>
