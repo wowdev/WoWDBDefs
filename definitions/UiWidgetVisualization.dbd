@@ -7,7 +7,7 @@ int WidgetWidth
 string Name?
 int Field_8_2_0_30080_005?
 int Field_8_2_0_30080_006?
-int Field_9_0_1_34365_008?
+int WidgetScale?
 
 LAYOUT B10C7348
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
@@ -79,4 +79,4 @@ FrameTextureKit<32>
 WidgetWidth<16>
 Field_8_2_0_30080_005<32>
 Field_8_2_0_30080_006<32>
-Field_9_0_1_34365_008<8>
+WidgetScale<8>
