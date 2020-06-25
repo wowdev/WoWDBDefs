@@ -5,6 +5,13 @@ int<SpecSetMember::SpecSet> SpecSetID
 int InventoryTypeMask?
 int<Spell::ID> SpellID
 int<ItemBonusList::ID> ItemBonusListID?
+locstring Field_9_0_1_34902_000_lang?
+int Field_9_0_1_34902_001?
+int Field_9_0_1_34902_002?
+int Field_9_0_1_34902_003?
+int Field_9_0_1_34902_004?
+int Field_9_0_1_34902_005?
+int Field_9_0_1_34902_006?
 
 LAYOUT 368D0C5F
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821
@@ -14,3 +21,13 @@ SpecSetID<32>
 InventoryTypeMask<32>
 SpellID<32>
 ItemBonusListID<32>
+
+LAYOUT 53F9052C
+BUILD 9.0.1.34902
+Field_9_0_1_34902_000_lang
+$id$Field_9_0_1_34902_001<32>
+Field_9_0_1_34902_002<32>
+Field_9_0_1_34902_003<32>
+Field_9_0_1_34902_004<32>
+Field_9_0_1_34902_005<32>
+Field_9_0_1_34902_006<32>

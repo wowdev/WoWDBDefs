@@ -1,6 +1,8 @@
 COLUMNS
 int ID
 locstring Name_lang
+locstring Field_9_0_1_34902_000_lang?
+int Field_9_0_1_34902_001?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -23,3 +25,9 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
 Name_lang
+
+LAYOUT BD0C2DC1
+BUILD 9.0.1.34902
+$noninline,id$ID<32>
+Field_9_0_1_34902_000_lang
+Field_9_0_1_34902_001<32>
