@@ -3,7 +3,7 @@ locstring Field_9_0_1_33978_000_lang?
 int ID?
 int<Soulbind::ID> SoulbindID
 int<CreatureDisplayInfo::ID> CreatureDisplayInfoID
-int<UiModelSceneActorID> ModelSceneActorID
+int<UiModelSceneActor::ID> ModelSceneActorID
 int<UiTextureAtlasElement::ID> Portrait
 int<UiTextureKit::ID> TextureKitID
 
