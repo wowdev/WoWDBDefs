@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int Rank?
+int Rank
 int<Spell::ID> SpellID?
 float Field_9_0_1_34821_002?
-int<SoulbindConduit::ID> SoulbindConduitID?
+int<SoulbindConduit::ID> SoulbindConduitID
 
 LAYOUT E97AAA36
 BUILD 9.0.1.34821, 9.0.1.34902

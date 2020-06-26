@@ -33,7 +33,7 @@ int<MissileTargeting::ID> MissileTargetingID
 int PowerType
 string PowerToken
 int UiSeatIndicatorType
-int Field_9_0_1_33978_015?
+int<VehiclePOIType::ID> VehiclePOITypeID
 
 BUILD 4.0.0.11792
 BUILD 3.1.0.9767-3.3.5.12340
@@ -238,6 +238,6 @@ FacingLimitLeft
 CameraYawOffset
 VehicleUIIndicatorID<u16>
 MissileTargetingID<32>
-Field_9_0_1_33978_015<u16>
+VehiclePOITypeID<u16>
 SeatID<u16>[8]
 PowerDisplayID<u16>[3]

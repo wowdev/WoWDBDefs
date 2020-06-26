@@ -6,12 +6,8 @@ int BaseLevel
 int MaxLevel
 int SpellLevel
 int MaxPassiveAuraLevel
-int Field_9_0_1_33978_000?
-int Field_9_0_1_33978_001?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
-int Field_9_0_1_33978_005?
+int Field_9_0_1_33978_003? // BaseLevel?
+int Field_9_0_1_33978_004? // SpellLevel?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -56,9 +52,9 @@ $noninline,relation$SpellID<32>
 LAYOUT 79D1C0A1
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
 $noninline,id$ID<32>
-Field_9_0_1_33978_000<u8>
-Field_9_0_1_33978_001<16>
-Field_9_0_1_33978_002<u8>
+DifficultyID<u8>
+MaxLevel<16>
+MaxPassiveAuraLevel<u8>
 Field_9_0_1_33978_003<32>
 Field_9_0_1_33978_004<32>
-$noninline,relation$Field_9_0_1_33978_005<32>
+$noninline,relation$SpellID<32>

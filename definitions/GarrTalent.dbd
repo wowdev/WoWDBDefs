@@ -22,23 +22,9 @@ int UiOrder
 int Field_8_3_0_32044_009?
 int Field_8_3_0_32044_010?
 int<GarrTalent::ID> PrerequisiteTalentID?
-int Field_8_3_0_32151_012?
+int ResearchCostSource // 0: Talent, 1: Tree
 int Field_9_0_1_33978_013?
-locstring Field_9_0_1_34714_000_lang?
-locstring Field_9_0_1_34714_001_lang?
-int Field_9_0_1_34714_002?
-int Field_9_0_1_34714_003?
-int Field_9_0_1_34714_004?
-int Field_9_0_1_34714_005?
-int Field_9_0_1_34714_006?
-int Field_9_0_1_34714_007?
-int Field_9_0_1_34714_008?
-int Field_9_0_1_34714_009?
-int Field_9_0_1_34714_010?
-int Field_9_0_1_34714_011?
-int Field_9_0_1_34714_012?
-int Field_9_0_1_34714_013?
-int Field_9_0_1_34714_014?
+int<GarrTalentSocketProperties::ID> GarrTalentSocketPropertiesID
 
 LAYOUT 53D5FD16
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -148,7 +134,7 @@ GarrAbilityID<u32>
 Field_8_3_0_32044_009<8>
 Field_8_3_0_32044_010<32>
 PrerequisiteTalentID<32>
-Field_8_3_0_32151_012<32>
+ResearchCostSource<32>
 
 LAYOUT E09FCDBA
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615
@@ -164,23 +150,23 @@ GarrAbilityID<u32>
 Field_8_3_0_32044_009<8>
 Field_8_3_0_32044_010<32>
 PrerequisiteTalentID<32>
-Field_8_3_0_32151_012<32>
+ResearchCostSource<32>
 Field_9_0_1_33978_013<32>
 
 LAYOUT E4B665DF
 BUILD 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
-Field_9_0_1_34714_000_lang
-Field_9_0_1_34714_001_lang
-$id$Field_9_0_1_34714_002<32>
-Field_9_0_1_34714_003<u32>
-Field_9_0_1_34714_004<8>
-Field_9_0_1_34714_005<8>
-Field_9_0_1_34714_006<32>
-Field_9_0_1_34714_007<u32>
-Field_9_0_1_34714_008<u32>
-Field_9_0_1_34714_009<8>
-Field_9_0_1_34714_010<32>
-Field_9_0_1_34714_011<32>
-Field_9_0_1_34714_012<32>
-Field_9_0_1_34714_013<32>
-Field_9_0_1_34714_014<32>
+Name_lang
+Description_lang
+$id$ID<32>
+GarrTalentTreeID<u32>
+Tier<8>
+UiOrder<8>
+IconFileDataID<32>
+PlayerConditionID<u32>
+GarrAbilityID<u32>
+Field_8_3_0_32044_009<8>
+Field_8_3_0_32044_010<32>
+PrerequisiteTalentID<32>
+ResearchCostSource<32>
+Field_9_0_1_33978_013<32>
+GarrTalentSocketPropertiesID<32>

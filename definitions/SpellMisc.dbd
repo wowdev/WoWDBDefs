@@ -3,7 +3,7 @@ int ID
 int<Spell::ID> SpellID
 int<Difficulty::ID> DifficultyID
 int Attributes
-int CastingTimeIndex
+int<SpellCastTimes::ID> CastingTimeIndex
 int DurationIndex
 int RangeIndex
 float Speed
@@ -16,7 +16,7 @@ float LaunchDelay
 int<FileData::ID> SpellIconFileDataID
 float MinDuration
 int<ContentTuning::ID> ContentTuningID
-int Field_9_0_1_34081_012?
+int<PlayerCondition::ID> PlayerConditionID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -139,5 +139,5 @@ MinDuration
 SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
 ContentTuningID<32>
-Field_9_0_1_34081_012<32>
+PlayerConditionID<32>
 $noninline,relation$SpellID<32>

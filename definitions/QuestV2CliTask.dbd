@@ -25,11 +25,6 @@ int UniqueBitFlag
 int<WorldStateExpression::ID> WorldStateExpressionID
 int<ContentTuning::ID> ContentTuningID
 int Field_8_2_0_30774_023?
-int Field_9_0_1_33978_009?
-int Field_9_0_1_33978_010?
-int Field_9_0_1_33978_011?
-int Field_9_0_1_33978_012?
-int Field_9_0_1_33978_020?
 int Field_9_0_1_33978_021?
 
 LAYOUT 3F026A14
@@ -272,10 +267,10 @@ ConditionID<u32>
 FiltActiveQuest<u32>
 FiltClasses<16>
 FiltCompletedQuestLogic<u32>
-Field_9_0_1_33978_009<u32>
-Field_9_0_1_33978_010<u32>
-Field_9_0_1_33978_011<u32>
-Field_9_0_1_33978_012<u32>
+FiltMaxFactionID<u32>
+FiltMaxFactionValue<u32>
+FiltMinFactionID<u32>
+FiltMinFactionValue<u32>
 FiltMinSkillID<u32>
 FiltMinSkillValue<u32>
 FiltNonActiveQuest<u32>
@@ -283,7 +278,7 @@ BreadCrumbID<u32>
 StartItem<32>
 WorldStateExpressionID<16>
 QuestInfoID<u32>
-Field_9_0_1_33978_020<32>
+ContentTuningID<32>
 Field_9_0_1_33978_021<32>
 Field_8_2_0_30774_023<32>[3]
 FiltCompletedQuest<u32>[3]

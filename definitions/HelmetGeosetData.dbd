@@ -3,7 +3,7 @@ int ID
 int<ChrRaces::ID> RaceID?
 int HideGeosetGroup?
 int HelmetGeosetVisDataID? // this is equivalent to HelmetGeosetVisData::ID, which is still how this table is referenced.
-int Field_9_0_1_33978_002?
+int RaceBitSelection? // instead of using race id, use playable race bit to select; 0: none, 1: Alliance, 2: Horde, 3: any playable
 
 LAYOUT A88423BF, 4C7DCA12
 BUILD 8.3.7.34872
@@ -21,5 +21,5 @@ BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.341
 $noninline,id$ID<32>
 RaceID<32>
 HideGeosetGroup<8>
-Field_9_0_1_33978_002<u8>
+RaceBitSelection<u8>
 $noninline,relation$HelmetGeosetVisDataID<32>

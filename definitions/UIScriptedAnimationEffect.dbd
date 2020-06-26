@@ -1,31 +1,31 @@
 COLUMNS
 int ID
-int<FileData::ID> VisualModelFileDataID
+int<FileData::ID> Visual
 int VisualScale
 int Duration
 int Trajectory // 0 = AtSource, 1 = AtTarget, 2 = Straight, 3 = CurveLeft, 4 = CurveRight, 5 = CurveRandom
-int<SoundKit::ID> XxxSoundKitID? // start or finish?
-int<SoundKit::ID> YyySoundKitID?
+int<SoundKit::ID> StartSoundKitID
+int<SoundKit::ID> FinishSoundKitID
 int StartBehavior // 0 = None, 1 = TargetShake, 2 = TargetKnockBack, 3 = SourceRecoil, 4 = SourceCollideWithTarget
 int FinishBehavior // same enum as StartBehavior
-int<UIScriptedAnimationEffect::ID> FinishEffectID?
-float Field_9_0_1_34278_010? // yawRadians
-float Field_9_0_1_34278_011? // pitchRadians
-float Field_9_0_1_34278_012? // rollRadians
-float Field_9_0_1_34278_013? // offsetX
-float Field_9_0_1_34278_014? // offsetY
-float Field_9_0_1_34278_015? // offsetZ
+int<UIScriptedAnimationEffect::ID> FinishEffectID
+float YawRadians
+float PitchRadians
+float RollRadians
+float OffsetX
+float OffsetY
+float OffsetZ
 float AnimationSpeed
 
 LAYOUT EA6DD175
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
 $id$ID<32>
-VisualModelFileDataID<32>
+Visual<32>
 VisualScale<32>
 Duration<32>
 Trajectory<32>
-XxxSoundKitID<32>
-YyySoundKitID<32>
+StartSoundKitID<32>
+FinishSoundKitID<32>
 StartBehavior<32>
 FinishBehavior<32>
 FinishEffectID<32>
@@ -33,19 +33,19 @@ FinishEffectID<32>
 LAYOUT BBA9C412
 BUILD 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
 $id$ID<32>
-VisualModelFileDataID<32>
+Visual<32>
 VisualScale<32>
 Duration<32>
 Trajectory<32>
-XxxSoundKitID<32>
-YyySoundKitID<32>
+StartSoundKitID<32>
+FinishSoundKitID<32>
 StartBehavior<32>
 FinishBehavior<32>
 FinishEffectID<32>
-Field_9_0_1_34278_010
-Field_9_0_1_34278_011
-Field_9_0_1_34278_012
-Field_9_0_1_34278_013
-Field_9_0_1_34278_014
-Field_9_0_1_34278_015
+YawRadians
+PitchRadians
+RollRadians
+OffsetX
+OffsetY
+OffsetZ
 AnimationSpeed

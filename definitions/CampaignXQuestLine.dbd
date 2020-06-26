@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<Campaign::ID> CampaignID?
+int<Campaign::ID> CampaignID
 int<QuestLine::ID> QuestLineID?
 int OrderIndex?
 

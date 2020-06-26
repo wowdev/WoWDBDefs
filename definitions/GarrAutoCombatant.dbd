@@ -1,22 +1,22 @@
 COLUMNS
 int ID?
-int Field_9_0_1_33978_001?
-int Field_9_0_1_33978_002?
-int Field_9_0_1_33978_003?
-int Field_9_0_1_33978_004?
+int HealthBase
+int HealthMultiplier
+int BBase?
+int BMultiplier?
 int<GarrAutoSpell::ID> Slot1?
 int<GarrAutoSpell::ID> Slot2?
 int<GarrAutoSpell::ID> Slot3?
 int<GarrAutoSpell::ID> Slot4?
-int Role? // 0: None, 1: Melee, 2: RangedPhysical, 3: RangedMagic, 4: HealSupport, 5: Tank
+int Role // 0: None, 1: Melee, 2: RangedPhysical, 3: RangedMagic, 4: HealSupport, 5: Tank
 
 LAYOUT BC77BB9B
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
 $id$ID<32>
-Field_9_0_1_33978_001<32>
-Field_9_0_1_33978_002<32>
-Field_9_0_1_33978_003<32>
-Field_9_0_1_33978_004<32>
+HealthBase<32>
+HealthMultiplier<32>
+BBase<32>
+BMultiplier<32>
 Slot1<32>
 Slot2<32>
 Slot3<32>

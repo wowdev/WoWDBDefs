@@ -5,9 +5,9 @@ locstring Description_lang?
 int ID?
 int<UiTextureKit::ID> UiTextureKitID?
 int<QuestV2::ID> RewardQuestID
-int<PlayerCondition::ID> PlayerConditionID?
-int<PlayerCondition::ID> Field_8_2_5_31401_007?
-int Field_9_0_1_33978_008?
+int<PlayerCondition::ID> RequiredPlayerConditionID? // require met
+int<PlayerCondition::ID> ForbiddenPlayerConditionID? // require not met
+int<UiQuestDetailsTheme::ID> UiQuestDetailsThemeID?
 int Field_9_0_1_33978_009?
 
 LAYOUT 0B271FD9
@@ -18,7 +18,7 @@ Description_lang
 $id$ID<u32>
 UiTextureKitID<u32>
 RewardQuestID<u32>
-PlayerConditionID<u32>
+RequiredPlayerConditionID<u32>
 
 LAYOUT 2D49AABD
 BUILD 8.2.5.31337
@@ -36,7 +36,7 @@ Description_lang
 $id$ID<u32>
 UiTextureKitID<u32>
 RewardQuestID<u32>
-PlayerConditionID<u32>
+RequiredPlayerConditionID<u32>
 
 LAYOUT 84DC679F, 9794A9C1
 BUILD 8.3.7.34872
@@ -48,8 +48,8 @@ Description_lang
 $id$ID<u32>
 UiTextureKitID<u32>
 RewardQuestID<u32>
-PlayerConditionID<u32>
-Field_8_2_5_31401_007<u32>
+RequiredPlayerConditionID<u32>
+ForbiddenPlayerConditionID<u32>
 
 LAYOUT 344076BD
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
@@ -59,7 +59,7 @@ Description_lang
 $id$ID<u32>
 UiTextureKitID<u32>
 RewardQuestID<u32>
-PlayerConditionID<u32>
-Field_8_2_5_31401_007<u32>
-Field_9_0_1_33978_008<32>
+RequiredPlayerConditionID<u32>
+ForbiddenPlayerConditionID<u32>
+UiQuestDetailsThemeID<32>
 Field_9_0_1_33978_009<u32>

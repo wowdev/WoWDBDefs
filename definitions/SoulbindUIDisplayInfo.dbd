@@ -1,9 +1,9 @@
 COLUMNS
 locstring Field_9_0_1_33978_000_lang?
 int ID?
-int<Soulbind::ID> SoulbindID?
-int<SpellVisual::ID> SpellVisualID?
-int Field_9_0_1_33978_004?
+int<Soulbind::ID> SoulbindID
+int<CreatureDisplayInfo::ID> CreatureDisplayInfoID
+int<UiModelSceneActorID> ModelSceneActorID
 int<UiTextureAtlasElement::ID> Portrait
 int<UiTextureKit::ID> TextureKitID
 
@@ -12,8 +12,8 @@ BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.341
 Field_9_0_1_33978_000_lang
 $id$ID<32>
 SoulbindID<32>
-SpellVisualID<32>
-Field_9_0_1_33978_004<32>
+CreatureDisplayInfoID<32>
+ModelSceneActorID<32>
 Portrait<32>
 
 LAYOUT 3A2EC9B6
@@ -21,6 +21,6 @@ BUILD 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.346
 Field_9_0_1_33978_000_lang
 $id$ID<32>
 SoulbindID<32>
-SpellVisualID<32>
-Field_9_0_1_33978_004<32>
+CreatureDisplayInfoID<32>
+ModelSceneActorID<32>
 TextureKitID<32>

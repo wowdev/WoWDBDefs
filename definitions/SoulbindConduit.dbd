@@ -1,15 +1,15 @@
 COLUMNS
 int ID
 int Field_9_0_1_34714_000?
-int Field_9_0_1_34714_001?
+int Type // 0: Finesse, 1: Potency, 2: Endurance
 
 LAYOUT 40A0815A
 BUILD 9.0.1.34714
 $noninline,id$ID<32>
 Field_9_0_1_34714_000<32>
-Field_9_0_1_34714_001<32>
+Type<32>
 
 LAYOUT B38B84FE
 BUILD 9.0.1.34821, 9.0.1.34902
 $id$ID<32>
-Field_9_0_1_34714_001<32>
+Type<32>

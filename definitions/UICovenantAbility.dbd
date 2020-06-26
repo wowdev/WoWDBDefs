@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<Covenant::ID> CovenantID?
+int<Covenant::ID> CovenantID? // seems to be uicovenantpreview::id, as per client
 int<Spell::ID> SpellID?
 int AbilityType? // 0 = Class, 1 = Race
 

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 locstring Name_lang
-int Field_9_0_1_34902_001?
+int<PlayerCondition::ID> PlayerConditionID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -29,4 +29,4 @@ LAYOUT BD0C2DC1
 BUILD 9.0.1.34902
 $noninline,id$ID<32>
 Name_lang
-Field_9_0_1_34902_001<32>
+PlayerConditionID<32>

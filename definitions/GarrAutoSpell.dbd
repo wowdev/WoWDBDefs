@@ -4,7 +4,7 @@ locstring Description_lang?
 int ID?
 int Cooldown?
 int Duration?
-int Field_9_0_1_33978_005?
+int Flags? // &1: ???
 int SpellSchoolMask? // 1: Physical, 2: Holy, 4: Fire, 8: Nature, 16: Frost, 32: Shadow, 64: Arcane
 int<FileData::ID> IconFileDataID?
 
@@ -15,6 +15,6 @@ Description_lang
 $id$ID<32>
 Cooldown<32>
 Duration<32>
-Field_9_0_1_33978_005<32>
+Flags<32>
 SpellSchoolMask<32>
 IconFileDataID<32>

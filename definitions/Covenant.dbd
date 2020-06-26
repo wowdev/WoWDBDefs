@@ -1,8 +1,8 @@
 COLUMNS
-locstring Name_lang?
-locstring Description_lang?
-int ID?
-int Field_9_0_1_34137_003? // Should probably be CampaignID, but then the currently only value (Kyrian -> Revendreth) would be bugged. So it probably is.
+locstring Name_lang
+locstring Description_lang
+int ID
+int<BountySet::ID> BountySetID
 
 LAYOUT 0CA77A5C
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
@@ -15,4 +15,4 @@ BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.343
 Name_lang
 Description_lang
 $id$ID<32>
-Field_9_0_1_34137_003<32>
+BountySetID<32>

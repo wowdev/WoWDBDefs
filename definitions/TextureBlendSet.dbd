@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 float ModX
-int SwizzleAlpha
+int SwizzleAlpha // all swizzle < 4
 int SwizzleBlue
 int SwizzleGreen
 int SwizzleRed
@@ -10,7 +10,7 @@ float TextureScaleU
 float TextureScaleV
 float TextureScrollRateU
 float TextureScrollRateV
-int Field_9_0_1_33978_005?
+int Flags? // &1: ???, &2: ???, &4: ???
 
 LAYOUT A2323E0C, 3879BF6C
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -60,7 +60,7 @@ SwizzleRed<u8>
 SwizzleGreen<u8>
 SwizzleBlue<u8>
 SwizzleAlpha<u8>
-Field_9_0_1_33978_005<32>
+Flags<32>
 TextureScrollRateU[3]
 TextureScrollRateV[3]
 TextureScaleU[3]

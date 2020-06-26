@@ -6,11 +6,11 @@ float Animscale
 float Pushscale
 int<FileData::ID> ModelFileID
 int DoodadIdTag
-float Size_variation_min?
-float Size_variation_max?
-float Field_9_0_1_33978_006?
-float Field_9_0_1_33978_007?
-int Field_9_0_1_33978_008?
+float Size_variation_min
+float Size_variation_max
+float Rotation_variation_min // in degrees
+float Rotation_variation_max // in degrees
+int<TerrainColorGradingRamp::ID> TerrainColorGradingRampID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -83,6 +83,6 @@ Animscale
 Pushscale
 Size_variation_min
 Size_variation_max
-Field_9_0_1_33978_006
-Field_9_0_1_33978_007
-Field_9_0_1_33978_008<32>
+Rotation_variation_min
+Rotation_variation_max
+TerrainColorGradingRampID<32>

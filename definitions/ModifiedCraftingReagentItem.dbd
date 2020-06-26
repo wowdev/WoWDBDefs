@@ -3,7 +3,7 @@ int ID
 locstring Description_lang
 int<ModifiedCraftingCategory::ID> ModifiedCraftingCategoryID
 int<ItemBonusTreeNode::ParentItemBonusTreeID> ItemBonusTreeID // todo: add virtual tables to dbd
-int Field_9_0_1_33978_003?
+int Flags? &1: ???
 
 LAYOUT CC09E623
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
@@ -11,4 +11,4 @@ $noninline,id$ID<32>
 Description_lang
 ModifiedCraftingCategoryID<32>
 ItemBonusTreeID<32>
-Field_9_0_1_33978_003<32>
+Flags<32>

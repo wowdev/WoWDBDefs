@@ -1,8 +1,8 @@
 COLUMNS
-int<LoreText::ID> LoreTextID?
+int<LoreText::ID> LoreTextID
 int<Campaign::ID> CampaignID?
-int<PlayerCondition::ID> ConditionID?
-int Field_9_0_1_33978_003?
+int<PlayerCondition::ID> ConditionID
+int Flags? &1: Hide?
 int Order?
 int Field_9_0_1_33978_005?
 
@@ -11,6 +11,6 @@ BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.341
 $id$LoreTextID<32>
 CampaignID<32>
 ConditionID<32>
-Field_9_0_1_33978_003<u8>
+Flags<u8>
 Order<32>
 $noninline,relation$Field_9_0_1_33978_005<32>

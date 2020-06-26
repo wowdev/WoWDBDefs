@@ -28,7 +28,7 @@ int<SpellMissileMotion::ID> SpellMissileMotionID
 int<SpellVisualEffectName::ID> SpellVisualEffectNameID
 int SpellVisualMissileSetID
 int Field_1915719207?
-int Field_9_0_1_33978_016?
+int Field_9_0_1_33978_016? // default 5000, if no missile record
 
 BUILD 6.0.1.18179
 $id$ID<32>
