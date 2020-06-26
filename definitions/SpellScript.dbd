@@ -1,8 +1,8 @@
 COLUMNS
-string Name?
-string Script?
-string Author?
-int ID?
+string Name
+string Script // If empty: Use SceneScriptText instead.
+string Author
+int ID
 int Field_9_0_1_33978_004?
 int Field_9_0_1_33978_005?
 
