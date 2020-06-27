@@ -7,7 +7,7 @@ int<Spell::ID> ReqSpellAuraID
 int<Spell::ID> ReqSpellKnownID
 int<Spell::ID> ModSpellAuraID
 int<Map::ID> ReqMapID
-int Field_8_2_0_30430_008? // PlayerCondition or ModifierTree idk
+int<PlayerCondition::ID> PlayerConditionID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -64,4 +64,4 @@ ReqSpellAuraID<u32>
 ReqSpellKnownID<32>
 ModSpellAuraID<32>
 ReqMapID<16>
-Field_8_2_0_30430_008<32>
+PlayerConditionID<32>

@@ -7,7 +7,7 @@ int UiOrder
 int<UiTextureKit::ID> UiTextureKitID
 locstring Title_lang
 int Flags
-int Field_8_3_0_32044_007?
+int GarrTalentTreeType // 0: Tiers, 1: Classic
 int<PlayerCondition::ID> ConditionID?
 int FeatureType? // 0: Generic, 1: AnimaDiversion, 2: TravelPortals, 3: Adventures, 4: ReservoirUpgrades, 5: SanctumUnique, 6: SoulBinds, 7: AnimaDiversionMap
 int FeatureSubtype? // 0: Generic, 1: Bastion, 2: Revendreth, 3: Maldraxxus, 4: Ardenweald
@@ -70,7 +70,7 @@ MaxTiers<8>
 UiOrder<8>
 Flags<8>
 UiTextureKitID<u16>
-Field_8_3_0_32044_007<32>
+GarrTalentTreeType<32>
 
 LAYOUT 8DF3F074
 BUILD 8.3.7.34872
@@ -83,7 +83,7 @@ MaxTiers<8>
 UiOrder<8>
 Flags<8>
 UiTextureKitID<u16>
-Field_8_3_0_32044_007<32>
+GarrTalentTreeType<32>
 
 LAYOUT A9265795
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
@@ -95,7 +95,7 @@ MaxTiers<8>
 UiOrder<8>
 Flags<8>
 UiTextureKitID<u16>
-Field_8_3_0_32044_007<32>
+GarrTalentTreeType<32>
 ConditionID<32>
 FeatureType<32>
 FeatureSubtype<32>

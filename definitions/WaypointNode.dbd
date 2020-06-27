@@ -5,7 +5,7 @@ int<WaypointSafeLocs::ID> SafeLocID?
 int<PlayerCondition::ID> PlayerConditionID?
 int Field_8_1_5_29281_003?
 int Field_8_1_5_29281_004?
-int Field_8_2_0_30080_004?
+int Flags? // &1: ???, &8: ???
 int Field_8_2_0_30080_005?
 int Field_8_2_0_30080_006?
 
@@ -27,6 +27,6 @@ Name_lang
 $id$ID<32>
 SafeLocID<32>
 PlayerConditionID<32>
-Field_8_2_0_30080_004<32>
+Flags<32>
 Field_8_2_0_30080_005<32>
 Field_8_2_0_30080_006<32>

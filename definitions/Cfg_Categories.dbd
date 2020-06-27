@@ -5,7 +5,7 @@ int Create_charsetMask
 int Existing_charsetMask
 int Flags
 locstring Name_lang
-int Field_8_3_0_32151_005?
+int Order // GetAvailableCategories(): smaller goes first. if equal, sort by ID.
 
 BUILD 6.0.1.18179
 BUILD 4.3.2.15148-4.3.4.15595
@@ -54,7 +54,7 @@ LocaleMask<u16>
 Create_charsetMask<u8>
 Existing_charsetMask<u8>
 Flags<u8>
-Field_8_3_0_32151_005<8>
+Order<8>
 
 LAYOUT D75C2A0B
 BUILD 1.13.5.34000, 1.13.5.34097, 1.13.5.34138, 1.13.5.34713, 1.13.5.34911
@@ -66,4 +66,4 @@ LocaleMask<u16>
 Create_charsetMask<u8>
 Existing_charsetMask<u8>
 Flags<u8>
-Field_8_3_0_32151_005<8>
+Order<8>

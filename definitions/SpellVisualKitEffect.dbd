@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Effect // 2: SpellVisualKitModelAttachID, 5: SoundKitID, 6: SpellVisualAnimID
+int Effect // 1: SpellProceduralEffectID, 2: SpellVisualKitModelAttachID, 3: CameraEffectID, 4: also camera related, 5: SoundKitID, 6: SpellVisualAnimID, 7: ShadowyEffectID, 8: SpellEffectEmissionID, 9: OutlineEffectID, 10: unit sound id?, 11: DissolveEffectID, 12: EdgeFlowEffectID, 13: BeamEffectID, 14: ClientSceneEffectID, 15: CloneEffectID, 16: GradientEffectID, 17: BarrageEffectID, 18: RopeEffectID, 19: SpellVisualScreenEffectID
 int EffectType
 int<SpellVisualKit::ID> ParentSpellVisualKitID
 

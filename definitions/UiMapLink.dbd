@@ -6,7 +6,7 @@ int<UiMap::ID> ParentUiMapID
 float UiMax
 float UiMin
 int<FileData::ID> HighlightFdID?
-int Field_8_2_0_30495_007?
+int<UiTextureAtlasMember::ID> Field_8_2_0_30495_007?
 
 LAYOUT C4F972FE
 BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610

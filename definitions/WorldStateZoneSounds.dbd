@@ -8,7 +8,7 @@ int<ZoneIntroMusicTable::ID> ZoneIntroMusicID
 int<ZoneMusic::ID> ZoneMusicID
 int<SoundAmbience::ID> SoundAmbienceID
 int<SoundProviderPreferences::ID> SoundProviderPreferencesID
-int Field_8_3_0_32805_008?
+int OrderBy
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -84,4 +84,4 @@ ZoneIntroMusicID<u32>
 ZoneMusicID<u32>
 SoundAmbienceID<u32>
 SoundProviderPreferencesID<u32>
-Field_8_3_0_32805_008<32>
+OrderBy<32>
