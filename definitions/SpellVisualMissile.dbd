@@ -27,7 +27,7 @@ int<SoundEntries::ID> SoundEntriesID
 int<SpellMissileMotion::ID> SpellMissileMotionID
 int<SpellVisualEffectName::ID> SpellVisualEffectNameID
 int SpellVisualMissileSetID
-int Field_1915719207?
+int ClutterLevel // See SpellVisualKit::ClutterLevel.
 int Field_9_0_1_33978_016? // default 5000, if no missile record
 
 BUILD 6.0.1.18179
@@ -112,7 +112,7 @@ FollowGroundApproach<u16>
 Flags<u32>
 SpellMissileMotionID<u16>
 AnimKitID<u32>
-Field_1915719207<8>
+ClutterLevel<8>
 $noninline,relation$SpellVisualMissileSetID<u16>
 
 LAYOUT 68D6B039
@@ -132,6 +132,6 @@ FollowGroundApproach<u16>
 Flags<u32>
 SpellMissileMotionID<u16>
 AnimKitID<u32>
-Field_1915719207<8>
+ClutterLevel<8>
 Field_9_0_1_33978_016<32>
 $noninline,relation$SpellVisualMissileSetID<u16>

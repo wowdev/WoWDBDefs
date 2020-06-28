@@ -32,8 +32,8 @@ float MinStrikeTime
 float SegmentSize
 float SoundEmitterDistance
 int<SoundKit::ID> SoundKitID
-float Field_2019126589?
-float Field_002241990?
+float MinField_2019126589?
+float MaxField_2019126589?
 
 LAYOUT C0E38C34
 BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
@@ -176,8 +176,8 @@ MinEndTime
 MaxEndTime
 MinFadeTime
 MaxFadeTime
-Field_2019126589
-Field_002241990
+MinField_2019126589
+MaxField_2019126589
 FlashColor<32>
 BoltColor<32>
 Brightness

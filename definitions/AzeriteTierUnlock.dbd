@@ -3,7 +3,7 @@ int ID
 int AzeriteLevel
 int<AzeriteTierUnlockSet::ID> AzeriteTierUnlockSetID
 int ItemCreationContext
-int Tier
+int Tier // 0..4
 
 LAYOUT 0F6FDEA9, 2B04F059, D2BEFD49
 BUILD 8.3.7.34872

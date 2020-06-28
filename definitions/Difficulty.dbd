@@ -5,7 +5,7 @@ int InstanceType
 int MinPlayers
 int MaxPlayers
 int OldEnumValue
-int Flags
+int Flags // &1: ???
 int<Difficulty::ID> ToggleDifficultyID
 int<Curve::ID> GroupSizeHealthCurveID
 int<Curve::ID> GroupSizeDmgCurveID
