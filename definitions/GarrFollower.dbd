@@ -47,6 +47,40 @@ int Quality
 locstring TitleName_lang
 int Vitality
 int<GarrAutoCombatant::ID> GarrAutoCombatantID?
+locstring Field_9_0_1_34972_000_lang?
+locstring Field_9_0_1_34972_001_lang?
+locstring Field_9_0_1_34972_002_lang?
+int Field_9_0_1_34972_003?
+int Field_9_0_1_34972_004?
+int Field_9_0_1_34972_005?
+int Field_9_0_1_34972_006?
+int Field_9_0_1_34972_007?
+int Field_9_0_1_34972_008?
+int Field_9_0_1_34972_009?
+int Field_9_0_1_34972_010?
+int Field_9_0_1_34972_011?
+int Field_9_0_1_34972_012?
+int Field_9_0_1_34972_013?
+int Field_9_0_1_34972_014?
+int Field_9_0_1_34972_015?
+int Field_9_0_1_34972_016?
+int Field_9_0_1_34972_017?
+int Field_9_0_1_34972_018?
+int Field_9_0_1_34972_019?
+int Field_9_0_1_34972_020?
+int Field_9_0_1_34972_021?
+int Field_9_0_1_34972_022?
+int Field_9_0_1_34972_023?
+int Field_9_0_1_34972_024?
+int Field_9_0_1_34972_025?
+int Field_9_0_1_34972_026?
+int Field_9_0_1_34972_027?
+int Field_9_0_1_34972_028?
+int Field_9_0_1_34972_029?
+int Field_9_0_1_34972_030?
+int Field_9_0_1_34972_031?
+int Field_9_0_1_34972_032?
+int Field_9_0_1_34972_033?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -253,3 +287,40 @@ ChrClassID<u8>
 Flags<u8>
 Gender<u8>
 GarrAutoCombatantID<32>
+
+LAYOUT 712646FC
+BUILD 9.0.1.34972
+Field_9_0_1_34972_000_lang
+Field_9_0_1_34972_001_lang
+Field_9_0_1_34972_002_lang
+$id$Field_9_0_1_34972_003<32>
+Field_9_0_1_34972_004<u8>
+Field_9_0_1_34972_005<u8>
+Field_9_0_1_34972_006<32>
+Field_9_0_1_34972_007<32>
+Field_9_0_1_34972_008<u8>
+Field_9_0_1_34972_009<u8>
+Field_9_0_1_34972_010<32>
+Field_9_0_1_34972_011<32>
+Field_9_0_1_34972_012<u8>
+Field_9_0_1_34972_013<u8>
+Field_9_0_1_34972_014<u16>
+Field_9_0_1_34972_015<u16>
+Field_9_0_1_34972_016<8>
+Field_9_0_1_34972_017<8>
+Field_9_0_1_34972_018<32>
+Field_9_0_1_34972_019<32>
+Field_9_0_1_34972_020<u16>
+Field_9_0_1_34972_021<u16>
+Field_9_0_1_34972_022<u16>
+Field_9_0_1_34972_023<u16>
+Field_9_0_1_34972_024<u8>
+Field_9_0_1_34972_025<u8>
+Field_9_0_1_34972_026<u8>
+Field_9_0_1_34972_027<u32>
+Field_9_0_1_34972_028<u32>
+Field_9_0_1_34972_029<u8>
+Field_9_0_1_34972_030<u8>
+Field_9_0_1_34972_031<u8>
+Field_9_0_1_34972_032<32>
+Field_9_0_1_34972_033<32>

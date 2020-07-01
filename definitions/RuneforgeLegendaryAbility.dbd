@@ -6,6 +6,14 @@ int InventoryTypeMask?
 int<Spell::ID> SpellID
 int<ItemBonusList::ID> ItemBonusListID?
 int<PlayerCondition::ID> PlayerConditionID
+locstring Field_9_0_1_34972_000_lang?
+int Field_9_0_1_34972_001?
+int Field_9_0_1_34972_002?
+int Field_9_0_1_34972_003?
+int Field_9_0_1_34972_004?
+int Field_9_0_1_34972_005?
+int Field_9_0_1_34972_006?
+int Field_9_0_1_34972_007?
 
 LAYOUT 368D0C5F
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821
@@ -25,3 +33,14 @@ InventoryTypeMask<32>
 SpellID<32>
 ItemBonusListID<32>
 PlayerConditionID<32>
+
+LAYOUT F3B2FAE8
+BUILD 9.0.1.34972
+Field_9_0_1_34972_000_lang
+$id$Field_9_0_1_34972_001<32>
+Field_9_0_1_34972_002<32>
+Field_9_0_1_34972_003<32>
+Field_9_0_1_34972_004<32>
+Field_9_0_1_34972_005<32>
+Field_9_0_1_34972_006<32>
+Field_9_0_1_34972_007<32>

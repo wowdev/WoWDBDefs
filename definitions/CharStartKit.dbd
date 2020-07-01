@@ -11,6 +11,17 @@ int<SpellVisualKit::ID> Field_9_0_1_34821_006?
 int<SpellVisualKit::ID> Field_9_0_1_34821_007?
 int<SpellVisualKit::ID> Field_9_0_1_34821_008?
 int<SpellVisualKit::ID> Field_9_0_1_34821_009?
+locstring Field_9_0_1_34972_000_lang?
+int Field_9_0_1_34972_001?
+int Field_9_0_1_34972_002?
+int Field_9_0_1_34972_003?
+int Field_9_0_1_34972_004?
+int Field_9_0_1_34972_005?
+int Field_9_0_1_34972_006?
+int Field_9_0_1_34972_007?
+int Field_9_0_1_34972_008?
+int Field_9_0_1_34972_009?
+int Field_9_0_1_34972_010?
 
 LAYOUT CC89E761
 BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
@@ -53,3 +64,18 @@ Field_9_0_1_34821_007<32>
 Field_9_0_1_34821_008<32>
 Field_9_0_1_34821_009<32>
 $noninline,relation$ChrRacesID<8>
+
+LAYOUT 6379DBB8
+BUILD 9.0.1.34972
+$noninline,id$ID<32>
+Field_9_0_1_34972_000_lang
+Field_9_0_1_34972_001<u8>
+Field_9_0_1_34972_002<32>
+Field_9_0_1_34972_003<32>
+Field_9_0_1_34972_004<32>
+Field_9_0_1_34972_005<32>
+Field_9_0_1_34972_006<32>
+Field_9_0_1_34972_007<32>
+Field_9_0_1_34972_008<32>
+Field_9_0_1_34972_009<32>
+$noninline,relation$Field_9_0_1_34972_010<u8>
