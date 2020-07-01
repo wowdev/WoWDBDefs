@@ -6,7 +6,6 @@ int InventoryTypeMask?
 int<Spell::ID> SpellID
 int<ItemBonusList::ID> ItemBonusListID?
 int<PlayerCondition::ID> PlayerConditionID
-locstring Field_9_0_1_34972_000_lang?
 int Field_9_0_1_34972_007?
 
 LAYOUT 368D0C5F
