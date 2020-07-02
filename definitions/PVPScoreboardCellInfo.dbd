@@ -1,5 +1,5 @@
 COLUMNS
-int ID?
+int ID
 int<PVPScoreboardColumnHeader::ID> PVPScoreboardColumnHeaderID
 int<UiTextureAtlasElement::ID> Icon
 int Team? // -1 if independent, or 0/1

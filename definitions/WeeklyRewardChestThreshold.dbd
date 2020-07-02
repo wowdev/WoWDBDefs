@@ -1,18 +1,18 @@
 COLUMNS
-int ID
-int Field_9_0_1_34278_000?
-int Field_9_0_1_34278_001?
-int Field_9_0_1_34972_001?
+int ID // base for WeeklyRewardActivityInfo objects. as of 34902 the thresholds are hardcoded and matched to this db by type+index. while there are multiple entries for those pairs, it seems to take the first only. thresholds by type and index: 1: [1, 5, 15], 2: [100, 150, 250], 3: [3, 7, 10]
+int Type
+int Index
+int Threshold? // also new column in this build: "level", but the values of this column match the hardcoded thresholds from previous build
 
 LAYOUT F9A1BB19
 BUILD 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
 $noninline,id$ID<32>
-Field_9_0_1_34278_000<32>
-Field_9_0_1_34278_001<32>
+Type<32>
+Index<32>
 
 LAYOUT 73C0E8B4
 BUILD 9.0.1.34972
 $noninline,id$ID<32>
-Field_9_0_1_34278_000<32>
-Field_9_0_1_34972_001<32>
-Field_9_0_1_34278_001<32>
+Type<32>
+Threshold<32>
+Index<32>

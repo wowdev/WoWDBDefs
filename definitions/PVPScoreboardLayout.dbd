@@ -1,5 +1,5 @@
 COLUMNS
-int ID?
+int ID
 int<PVPStat::ID> PVPStatID
 int<PVPScoreboardColumnHeader::ID> PVPScoreboardColumnHeaderID
 int OrderIndex
