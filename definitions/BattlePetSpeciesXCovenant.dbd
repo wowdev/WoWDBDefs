@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int<Covenant::ID> CovenantID?
-int<BattlePetSpecies::ID> BattlePetSpeciesID?
+int<Covenant::ID> CovenantID
+int<BattlePetSpecies::ID> BattlePetSpeciesID
 
 LAYOUT ABBC028A
 BUILD 9.0.1.34972

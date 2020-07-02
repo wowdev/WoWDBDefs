@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int Field_9_0_1_34972_001?
-int Field_9_0_1_34972_002?
-int Field_9_0_1_34972_003?
+int<ChrRaces::ID> ChrRacesID // 0: race-independent fallback
+int Sex // 0: Male, 1: Female, 3: fallback
+int<ChrClasses::ID> ChrClassesID
 
 LAYOUT 5D06AB00
 BUILD 9.0.1.34972
 $id$ID<32>
-Field_9_0_1_34972_001<32>
-Field_9_0_1_34972_002<32>
-$noninline,relation$Field_9_0_1_34972_003<32>
+ChrRacesID<32>
+Sex<32>
+$noninline,relation$ChrClassesID<32>

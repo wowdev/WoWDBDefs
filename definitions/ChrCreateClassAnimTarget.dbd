@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-float Field_9_0_1_34972_000?
-float Field_9_0_1_34972_001?
-float Field_9_0_1_34972_002?
-int Field_9_0_1_34972_003?
+float TargetPositionX?
+float TargetPositionY?
+float TargetPositionZ?
+int TimeStamp?
 int Field_9_0_1_34972_004?
 int Field_9_0_1_34972_005?
-int ChrCreateClassAnimTargetInfoID?
+int<ChrCreateClassAnimTargetInfo::ID> ChrCreateClassAnimTargetInfoID
 
 LAYOUT BA3B39ED
 BUILD 9.0.1.34972
 $noninline,id$ID<32>
-Field_9_0_1_34972_000
-Field_9_0_1_34972_001
-Field_9_0_1_34972_002
-Field_9_0_1_34972_003<32>
+TargetPositionX
+TargetPositionY
+TargetPositionZ
+TimeStamp<32>
 Field_9_0_1_34972_004<32>
 Field_9_0_1_34972_005<32>
 $noninline,relation$ChrCreateClassAnimTargetInfoID<32>
