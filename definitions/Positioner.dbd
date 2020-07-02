@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int FirstStateID
-int Flags
+int<PositionerState::ID> FirstStateID
+int Flags // &2: ignore some begin, end given, probably some time thing from a parent?
 float StartLife
 int StartLifePercent
 

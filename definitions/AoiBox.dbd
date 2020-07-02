@@ -2,7 +2,7 @@ COLUMNS
 int ID
 float Bounds
 int Flags
-int EncounterID
+int<DungeonEncounter::ID> EncounterID
 int<WorldState::ID> WorldStateID
 int<Map::ID> MapID
 string InternalName?

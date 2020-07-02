@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Flags
+int Flags // &0x8: ignore player Y > 0, &0x10: ignore player flag X
 
 BUILD 6.0.1.18179
 $id$ID<32>

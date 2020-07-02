@@ -1,8 +1,8 @@
 COLUMNS
 int ID?
-int<PVPScoreboardColumnHeader::ID> PVPScoreboardColumnHeaderID?
-int<WorldStateExpression::ID> WorldStateExpressionID?
-int Field_8_2_0_30430_003? // -1, 0, 1
+int<PVPScoreboardColumnHeader::ID> PVPScoreboardColumnHeaderID
+int<UiTextureAtlasElement::ID> Icon
+int Team? // -1 if independent, or 0/1
 
 LAYOUT CD07D7DD, D73FB2BF
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
@@ -12,5 +12,5 @@ BUILD 8.2.5.31337, 8.2.5.31401, 8.2.5.31521, 8.2.5.31599, 8.2.5.31812, 8.2.5.318
 BUILD 8.2.0.30430, 8.2.0.30495, 8.2.0.30613, 8.2.0.30634, 8.2.0.30669, 8.2.0.30774, 8.2.0.30827, 8.2.0.30888, 8.2.0.30898, 8.2.0.30918, 8.2.0.30920, 8.2.0.30948, 8.2.0.30993, 8.2.0.31229, 8.2.0.31429, 8.2.0.31478
 $id$ID<32>
 $relation$PVPScoreboardColumnHeaderID<32>
-WorldStateExpressionID<32>
-Field_8_2_0_30430_003<32>
+Icon<32>
+Team<32>

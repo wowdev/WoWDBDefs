@@ -3,10 +3,10 @@ int ID
 float EndLife
 int EndLifePercent
 int Flags
-int NextStateID
-int PosEntryID
-int RotEntryID
-int ScaleEntryID
+int<PositionerState::ID> NextStateID
+int<PositionerStateEntry::ID> PosEntryID
+int<PositionerStateEntry::ID> RotEntryID
+int<PositionerStateEntry::ID> ScaleEntryID
 int<TransformMatrix::ID> TransformMatrixID
 
 LAYOUT 6C975DF4, CB40214C

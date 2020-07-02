@@ -1,8 +1,8 @@
 COLUMNS
 int ID?
-int<PVPStat::ID> PVPStatID?
-int<PVPScoreboardColumnHeader::ID> PVPScoreboardColumnHeaderID?
-int Field_8_2_0_30430_003? // 0, 1, 2, 3, 4, 7 => bitmask
+int<PVPStat::ID> PVPStatID
+int<PVPScoreboardColumnHeader::ID> PVPScoreboardColumnHeaderID
+int OrderIndex
 
 LAYOUT 6C8594A3, 3E838DFD
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
@@ -13,4 +13,4 @@ BUILD 8.2.0.30430, 8.2.0.30495, 8.2.0.30613, 8.2.0.30634, 8.2.0.30669, 8.2.0.307
 $id$ID<32>
 $relation$PVPStatID<32>
 PVPScoreboardColumnHeaderID<32>
-Field_8_2_0_30430_003<32>
+OrderIndex<32>
