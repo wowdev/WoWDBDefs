@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<ItemLevelSelectorQualitySet::ID> ItemLevelSelectorQualitySetID
 int MinItemLevel
-int Field_8_1_0_28440_002?
+int<AzeriteUnlockMapping::Field_8_1_0_28440_004> AzeriteUnlockMappingField_8_1_0_28440_004?
 
 LAYOUT 8143060E, 3112276E
 BUILD 8.1.0.27826, 8.1.0.27934, 8.1.0.27985, 8.1.0.28048, 8.1.0.28085, 8.1.0.28151, 8.1.0.28186, 8.1.0.28202, 8.1.0.28294, 8.1.0.28366
@@ -28,4 +28,4 @@ BUILD 8.1.0.28440, 8.1.0.28485, 8.1.0.28616, 8.1.0.28657, 8.1.0.28710, 8.1.0.287
 $noninline,id$ID<32>
 MinItemLevel<u16>
 ItemLevelSelectorQualitySetID<u16>
-Field_8_1_0_28440_002<u16>
+AzeriteUnlockMappingField_8_1_0_28440_004<u16>

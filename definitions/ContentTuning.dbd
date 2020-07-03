@@ -1,16 +1,16 @@
 COLUMNS
 int ID
-int Flags // 4: Non-Scaling? 8: BfA Horde Zones?, 16: BfA Alliance Zones?
+int Flags // &2: add account's expansion's max level to MaxLevel, &4: Non-Scaling, &8: FavorsHorde (use max level instead of target if Alliance), &0x10: FavorsAlliance (use max level instead of target if Horde), &0x20: ???
 int MaxLevel
 int MinLevel
 int<ExpectedStatMod::ID> ExpectedStatModID // moved to table ContentTuningXExpected
 int DifficultyESMID
-int Field_8_2_0_30827_004?
-int Field_9_0_1_33978_005?
-int Field_9_0_1_33978_006?
+int ExpansionLevel?
+int LowerBoundSemantics? // when reading MinLevel, modify as per 0: +0, 1: +1, 2: +account's expansion's min level
+int UpperBoundSemantics? // independent of Flags&2, when reading MaxLevel, modify as per 0: +0, 1: +1, 2: +account's expansion's max level
 int Field_9_0_1_34490_007?
-int Field_9_0_1_34615_007?
-int Field_9_0_1_34714_008?
+int TargetLevelDelta?
+int TargetLevelMaxDelta // add to effective MaxLevel to get TargetLevelMax
 
 LAYOUT 70C53E15
 BUILD 8.0.1.26175
@@ -68,48 +68,48 @@ $id$ID<32>
 MinLevel<32>
 MaxLevel<32>
 Flags<32>
-Field_8_2_0_30827_004<32>
+ExpansionLevel<32>
 
 LAYOUT B496B217
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
 $id$ID<32>
 Flags<32>
-Field_8_2_0_30827_004<32>
+ExpansionLevel<32>
 MinLevel<32>
 MaxLevel<32>
-Field_9_0_1_33978_005<32>
-Field_9_0_1_33978_006<32>
+LowerBoundSemantics<32>
+UpperBoundSemantics<32>
 
 LAYOUT 1BDC59D4
 BUILD 9.0.1.34490
 $id$ID<32>
 Flags<32>
-Field_8_2_0_30827_004<32>
+ExpansionLevel<32>
 MinLevel<32>
 MaxLevel<32>
-Field_9_0_1_33978_005<32>
-Field_9_0_1_33978_006<32>
+LowerBoundSemantics<32>
+UpperBoundSemantics<32>
 Field_9_0_1_34490_007<32>
 
 LAYOUT EB95D5A2
 BUILD 9.0.1.34615
 $id$ID<32>
 Flags<32>
-Field_8_2_0_30827_004<32>
+ExpansionLevel<32>
 MinLevel<32>
 MaxLevel<32>
-Field_9_0_1_33978_005<32>
-Field_9_0_1_33978_006<32>
-Field_9_0_1_34615_007<32>
+LowerBoundSemantics<32>
+UpperBoundSemantics<32>
+TargetLevelDelta<32>
 
 LAYOUT B6BB9E09
 BUILD 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
 $id$ID<32>
 Flags<32>
-Field_8_2_0_30827_004<32>
+ExpansionLevel<32>
 MinLevel<32>
 MaxLevel<32>
-Field_9_0_1_33978_005<32>
-Field_9_0_1_33978_006<32>
-Field_9_0_1_34615_007<32>
-Field_9_0_1_34714_008<32>
+LowerBoundSemantics<32>
+UpperBoundSemantics<32>
+TargetLevelDelta<32>
+TargetLevelMaxDelta<32>

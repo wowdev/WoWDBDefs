@@ -3,9 +3,8 @@ int ID
 int Class
 int<AzeritePower::ID> AzeritePowerID
 int AzeritePowerSetID
-int OrderIndex
+int OrderIndex // within set x tier x class
 int Tier
-int Field_8_2_0_30774_004?
 
 LAYOUT A5515E8D, DB24A281
 BUILD 8.1.0.27826, 8.1.0.27934, 8.1.0.27985, 8.1.0.28048, 8.1.0.28085, 8.1.0.28151, 8.1.0.28186, 8.1.0.28202
@@ -51,4 +50,4 @@ $relation$AzeritePowerSetID<32>
 AzeritePowerID<32>
 Class<32>
 Tier<32>
-Field_8_2_0_30774_004<32>
+OrderIndex<32>

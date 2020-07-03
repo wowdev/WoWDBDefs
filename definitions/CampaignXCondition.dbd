@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int<PlayerCondition::ID> PlayerConditionID?
-int OrderIndex?
-int<Campaign::ID> CampaignID?
-int Field_8_2_0_30669_002?
-locstring Description_lang?
+int<PlayerCondition::ID> PlayerConditionID
+int OrderIndex
+int<Campaign::ID> CampaignID
+int Flags // &1: PreferIfOnNoStepRightNow?
+locstring FailureReason_lang // Alternative to the PlayerCondition's reason.
 
 LAYOUT 638FC159
 BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.30168, 8.2.0.30170, 8.2.0.30203, 8.2.0.30262, 8.2.0.30329, 8.2.0.30430, 8.2.0.30495, 8.2.0.30613, 8.2.0.30634
@@ -28,14 +28,14 @@ BUILD 8.2.0.30669, 8.2.0.30774, 8.2.0.30827, 8.2.0.30888, 8.2.0.30898, 8.2.0.309
 $noninline,id$ID<32>
 PlayerConditionID<32>
 OrderIndex<32>
-Field_8_2_0_30669_002<32>
+Flags<32>
 $noninline,relation$CampaignID<32>
 
 LAYOUT C7C42FAD
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
 $noninline,id$ID<32>
-Description_lang
+FailureReason_lang
 PlayerConditionID<32>
 OrderIndex<32>
-Field_8_2_0_30669_002<32>
+Flags<32>
 $noninline,relation$CampaignID<32>
