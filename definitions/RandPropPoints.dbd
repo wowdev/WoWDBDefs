@@ -5,9 +5,6 @@ int Superior
 int Good
 int DamageReplaceStat
 int Field_8_2_0_30080_001?
-int Field_8_2_0_30080_002?
-int Field_8_2_0_30080_003?
-int Field_8_2_0_30080_004?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -53,6 +50,6 @@ BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.301
 $noninline,id$ID<32>
 DamageReplaceStat<32>
 Field_8_2_0_30080_001<32>
-Field_8_2_0_30080_002<u32>[5]
-Field_8_2_0_30080_003<u32>[5]
-Field_8_2_0_30080_004<u32>[5]
+Epic<u32>[5]
+Superior<u32>[5]
+Good<u32>[5]

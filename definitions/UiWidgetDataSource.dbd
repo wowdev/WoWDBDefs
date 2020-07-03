@@ -2,8 +2,8 @@ COLUMNS
 int ID
 int<UiWidget::ID> ParentWidgetID
 int<UiWidgetVisTypeDataReq::ID> ReqID
-int SourceID // Foreign Table depends on SourceType
-int SourceType
+int SourceID // 0: WorldStateID, 1: WorldStateExpressionID, [2, 3]: CurrencyTypesID, [4, 5, 6, 7]: ContributionID, [8, 9, 10, 11, 12, 13, 14, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62]: SpellID, [15, 16, 17, 18, 24]: QuestID, [25, 26, 27, 28, 29, 30, 31, 32]: FactionID, [39, 41, 42, 43]: ScenarioID, [47, 48, 49, 50, 51]: PowerTypeID
+int SourceType // 0: value, 1: eval result, 2: amount, 3: MaxQty, 4: percentage complete, 5: time until next state change, 6: time of next state change relative to start time, 7: state, 8:
 
 LAYOUT 5C2251CD
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
