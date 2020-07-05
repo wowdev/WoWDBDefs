@@ -20,21 +20,6 @@ int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
 int InlineWMOID
-int Field_7_3_2_25549_000?
-locstring Field_7_3_2_25549_001_lang?
-int Field_7_3_2_25549_002?
-int Field_7_3_2_25549_003?
-int Field_7_3_2_25549_004?
-int Field_7_3_2_25549_005?
-int Field_7_3_2_25549_006?
-int Field_7_3_2_25549_007?
-int Field_7_3_2_25549_008?
-int Field_7_3_2_25549_009?
-int Field_7_3_2_25549_010?
-int Field_7_3_2_25549_011?
-int Field_7_3_2_25549_012?
-int Field_7_3_2_25549_013?
-int Field_7_3_2_25549_014?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.12319-4.3.4.15595
@@ -178,18 +163,18 @@ Flags<u8>
 
 LAYOUT 5FA51AD5
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
-Field_7_3_2_25549_000<32>
-Field_7_3_2_25549_001_lang
-Field_7_3_2_25549_002<u16>
-Field_7_3_2_25549_003<u16>
-Field_7_3_2_25549_004<u16>
-Field_7_3_2_25549_005<u16>
-Field_7_3_2_25549_006<u16>
-Field_7_3_2_25549_007<u16>
-Field_7_3_2_25549_008<u16>
-Field_7_3_2_25549_009<u8>
-Field_7_3_2_25549_010<u8>
-Field_7_3_2_25549_011<u8>
-Field_7_3_2_25549_012<u8>
-$id$Field_7_3_2_25549_013<32>
-Field_7_3_2_25549_014<u32>
+WMOGroupID<32>
+AreaName_lang
+WMOID<u16>
+AmbienceID<u16>
+ZoneMusic<u16>
+IntroSound<u16>
+AreaTableID<u16>
+UwIntroSound<u16>
+NameSetID<u16>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+Flags<u8>
+UwZoneMusic<u8>
+$id$ID<32>
+InlineWMOID<u32>
