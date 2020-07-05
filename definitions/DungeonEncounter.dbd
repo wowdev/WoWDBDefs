@@ -10,8 +10,8 @@ int<SpellIcon::ID> SpellIconID
 int Flags
 int<FileData::ID> SpellIconFileID
 int Difficulty
-int Field_8_1_0_28294_009?
-int Field_8_1_5_29281_005?
+int Faction // -1: any, 0: Horde, 1: Alliance
+int<WorldState::ID> IsEncounterComplete
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -79,7 +79,7 @@ Bit<8>
 CreatureDisplayID<32>
 Flags<u8>
 SpellIconFileID<32>
-Field_8_1_0_28294_009<32>
+Faction<32>
 
 LAYOUT 1FD23060, FED52D20
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
@@ -93,9 +93,9 @@ $id$ID<32>
 $relation$MapID<16>
 DifficultyID<8>
 OrderIndex<32>
-Field_8_1_5_29281_005<32>
+IsEncounterComplete<32>
 Bit<8>
 CreatureDisplayID<32>
 Flags<u8>
 SpellIconFileID<32>
-Field_8_1_0_28294_009<32>
+Faction<32>
