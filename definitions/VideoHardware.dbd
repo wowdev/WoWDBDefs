@@ -24,6 +24,28 @@ int Multisample
 int Atlasdisable
 int OglPixelShader
 int D3dPixelShader
+string Field_7_3_0_24473_000?
+string Field_7_3_0_24473_001?
+int Field_7_3_0_24473_002?
+int Field_7_3_0_24473_003?
+int Field_7_3_0_24473_004?
+int Field_7_3_0_24473_005?
+int Field_7_3_0_24473_006?
+int Field_7_3_0_24473_007?
+int Field_7_3_0_24473_008?
+int Field_7_3_0_24473_009?
+int Field_7_3_0_24473_010?
+int Field_7_3_0_24473_011?
+int Field_7_3_0_24473_012?
+int Field_7_3_0_24473_013?
+int Field_7_3_0_24473_014?
+int Field_7_3_0_24473_015?
+int Field_7_3_0_24473_016?
+int Field_7_3_0_24473_017?
+int Field_7_3_0_24473_018?
+int Field_7_3_0_24473_019?
+int Field_7_3_0_24473_020?
+int Field_7_3_0_24473_021?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -76,3 +98,28 @@ ResolutionIdx<32>
 BaseMipLevel<32>
 OglPixelShader<32>
 D3dPixelShader<32>
+
+LAYOUT ED25EC53
+BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
+Field_7_3_0_24473_000
+Field_7_3_0_24473_001
+Field_7_3_0_24473_002<u16>
+Field_7_3_0_24473_003<u16>
+Field_7_3_0_24473_004<8>
+Field_7_3_0_24473_005<8>
+Field_7_3_0_24473_006<8>
+Field_7_3_0_24473_007<8>
+Field_7_3_0_24473_008<8>
+Field_7_3_0_24473_009<8>
+Field_7_3_0_24473_010<8>
+Field_7_3_0_24473_011<8>
+Field_7_3_0_24473_012<8>
+Field_7_3_0_24473_013<8>
+$id$Field_7_3_0_24473_014<32>
+Field_7_3_0_24473_015<32>
+Field_7_3_0_24473_016<32>
+Field_7_3_0_24473_017<32>
+Field_7_3_0_24473_018<32>
+Field_7_3_0_24473_019<32>
+Field_7_3_0_24473_020<32>
+Field_7_3_0_24473_021<32>
