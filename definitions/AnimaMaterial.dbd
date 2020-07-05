@@ -16,9 +16,9 @@ float Field_9_0_1_33978_012?
 float Field_9_0_1_33978_013?
 float Field_9_0_1_33978_014?
 float Field_9_0_1_33978_015?
-float Field_9_0_1_33978_016?
-float Field_9_0_1_33978_017?
-float Field_9_0_1_33978_018?
+float Field_9_0_1_33978_016? // multiplied with Field_9_0_1_33978_020
+float Field_9_0_1_33978_017? // multiplied with Field_9_0_1_33978_021
+float Field_9_0_1_33978_018? // multiplied with Field_9_0_1_33978_022
 float Field_9_0_1_33978_019?
 float Field_9_0_1_33978_020?
 float Field_9_0_1_33978_021?
@@ -27,7 +27,7 @@ float Field_9_0_1_33978_023?
 int<FileData::ID> RibbonTexture?
 float Field_9_0_1_33978_025?
 float Field_9_0_1_33978_026?
-int Field_9_0_1_33978_027?
+int Flags? // &4: randomize float_pairs
 int Field_9_0_1_33978_028?
 float Field_9_0_1_33978_029?
 int<FileData::ID> EffectTexture?
@@ -62,7 +62,7 @@ Field_9_0_1_33978_023
 RibbonTexture<32>
 Field_9_0_1_33978_025
 Field_9_0_1_33978_026
-Field_9_0_1_33978_027<32>
+Flags<32>
 Field_9_0_1_33978_028<32>
 Field_9_0_1_33978_029
 EffectTexture<32>[3]

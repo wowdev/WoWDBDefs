@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<FileData::ID> MissileModel?
+int<FileData::ID> ParticleModel?
 float Field_9_0_1_33978_001?
 float Field_9_0_1_33978_002?
 int Field_9_0_1_33978_003?
@@ -10,7 +10,7 @@ int<SoundKit::ID> Field_9_0_1_33978_006?
 int Field_9_0_1_33978_007?
 int Field_9_0_1_33978_008?
 int Field_9_0_1_33978_009?
-int Field_9_0_1_33978_010?
+int Flags? // &1: use 6 instead of 1 positions per node
 float Field_9_0_1_33978_011?
 float Field_9_0_1_33978_012?
 float Field_9_0_1_33978_013?
@@ -41,7 +41,7 @@ float Field_9_0_1_34972_034?
 LAYOUT E902730F
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137
 $noninline,id$ID<32>
-MissileModel<32>
+ParticleModel<32>
 Field_9_0_1_33978_001
 Field_9_0_1_33978_002
 Field_9_0_1_33978_003<32>
@@ -51,7 +51,7 @@ Field_9_0_1_33978_006<32>
 Field_9_0_1_33978_007<32>
 Field_9_0_1_33978_008<32>
 Field_9_0_1_33978_009<32>
-Field_9_0_1_33978_010<32>
+Flags<32>
 Field_9_0_1_33978_011
 Field_9_0_1_33978_012
 Field_9_0_1_33978_013
@@ -78,7 +78,7 @@ Field_9_0_1_33978_032
 LAYOUT 45B5BC54
 BUILD 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
 $noninline,id$ID<32>
-MissileModel<32>
+ParticleModel<32>
 Field_9_0_1_33978_001
 Field_9_0_1_33978_002
 Field_9_0_1_33978_003<32>
@@ -88,7 +88,7 @@ Field_9_0_1_33978_006<32>
 Field_9_0_1_33978_007<32>
 Field_9_0_1_33978_008<32>
 Field_9_0_1_33978_009<32>
-Field_9_0_1_33978_010<32>
+Flags<32>
 Field_9_0_1_33978_011
 Field_9_0_1_33978_012
 Field_9_0_1_33978_013
@@ -118,7 +118,7 @@ Field_9_0_1_34199_035
 LAYOUT 9793BF2B
 BUILD 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
 $noninline,id$ID<32>
-MissileModel<32>
+ParticleModel<32>
 Field_9_0_1_33978_001
 Field_9_0_1_33978_002
 Field_9_0_1_33978_003<32>
@@ -128,7 +128,7 @@ Field_9_0_1_33978_006<32>
 Field_9_0_1_33978_007<32>
 Field_9_0_1_33978_008<32>
 Field_9_0_1_33978_009<32>
-Field_9_0_1_33978_010<32>
+Flags<32>
 Field_9_0_1_33978_011
 Field_9_0_1_33978_012
 Field_9_0_1_33978_013
@@ -156,7 +156,7 @@ Field_9_0_1_34199_033<32>
 LAYOUT BA340158
 BUILD 9.0.1.34972
 $noninline,id$ID<32>
-MissileModel<32>
+ParticleModel<32>
 Field_9_0_1_33978_001
 Field_9_0_1_33978_002
 Field_9_0_1_33978_003<32>
@@ -166,7 +166,7 @@ Field_9_0_1_33978_006<32>
 Field_9_0_1_33978_007<32>
 Field_9_0_1_33978_008<32>
 Field_9_0_1_33978_009<32>
-Field_9_0_1_33978_010<32>
+Flags<32>
 Field_9_0_1_33978_011
 Field_9_0_1_33978_012
 Field_9_0_1_33978_013
