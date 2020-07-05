@@ -5,6 +5,11 @@ float RangeMax
 int Flags
 locstring DisplayName_lang
 locstring DisplayNameShort_lang
+float Field_7_3_2_25549_000?
+float Field_7_3_2_25549_001?
+locstring Field_7_3_2_25549_002_lang?
+locstring Field_7_3_2_25549_003_lang?
+int Field_7_3_2_25549_004?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -68,3 +73,12 @@ DisplayNameShort_lang
 Flags<u8>
 RangeMin[2]
 RangeMax[2]
+
+LAYOUT 1A6155F2
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000[2]
+Field_7_3_2_25549_001[2]
+Field_7_3_2_25549_002_lang
+Field_7_3_2_25549_003_lang
+Field_7_3_2_25549_004<u8>

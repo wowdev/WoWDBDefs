@@ -14,6 +14,15 @@ int SpellRank
 int<Talent::ID> PrereqTalent
 int PrereqRank
 int<Spell::ID> RequiredSpellID
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+locstring Field_7_3_2_25549_002_lang?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -126,3 +135,16 @@ CategoryMask<u8>[2]
 SpellRank<u32>[9]
 PrereqTalent<u16>[3]
 PrereqRank<u16>[3]
+
+LAYOUT 21A2F524
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<u32>
+Field_7_3_2_25549_001<u32>
+Field_7_3_2_25549_002_lang
+Field_7_3_2_25549_003<u16>
+Field_7_3_2_25549_004<u8>
+Field_7_3_2_25549_005<u8>
+Field_7_3_2_25549_006<u8>
+Field_7_3_2_25549_007<u8>[2]
+Field_7_3_2_25549_008<u8>

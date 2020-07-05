@@ -8,6 +8,13 @@ int Flags
 locstring Description_lang
 int OrderIndex
 int Padding_2173460021?
+int Field_7_3_2_25549_000?
+locstring Field_7_3_2_25549_001_lang?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -76,3 +83,14 @@ Operator<8>
 CriteriaID<u32>
 OrderIndex<32>
 Flags<32>
+
+LAYOUT CEDCC5E4
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<32>
+Field_7_3_2_25549_001_lang
+Field_7_3_2_25549_002<16>
+Field_7_3_2_25549_003<8>
+Field_7_3_2_25549_004<u32>
+Field_7_3_2_25549_005<u32>
+Field_7_3_2_25549_006<32>

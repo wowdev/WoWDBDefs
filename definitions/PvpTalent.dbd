@@ -12,6 +12,16 @@ int<ChrClasses::ID> ClassID
 int Field_1149400225?
 int Field_408242832?
 int Field_019797176?
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+locstring Field_7_3_2_25549_002_lang?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
+int Field_7_3_2_25549_009?
 
 LAYOUT 6EB51740
 BUILD 8.0.1.25902
@@ -105,3 +115,17 @@ Flags<32>
 ActionBarSpellID<32>
 PvpTalentCategoryID<32>
 LevelRequired<32>
+
+LAYOUT D3A8CFAC
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<32>
+Field_7_3_2_25549_001<32>
+Field_7_3_2_25549_002_lang
+Field_7_3_2_25549_003<32>
+Field_7_3_2_25549_004<32>
+Field_7_3_2_25549_005<32>
+Field_7_3_2_25549_006<32>
+Field_7_3_2_25549_007<32>
+Field_7_3_2_25549_008<32>
+Field_7_3_2_25549_009<32>

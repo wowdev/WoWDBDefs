@@ -16,6 +16,22 @@ locstring OutOfError_lang
 locstring ToolTip_lang
 float StartInset
 float EndInset
+float Field_7_3_2_25549_000?
+float Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+locstring Field_7_3_2_25549_004_lang?
+locstring Field_7_3_2_25549_005_lang?
+locstring Field_7_3_2_25549_006_lang?
+locstring Field_7_3_2_25549_007_lang?
+float Field_7_3_2_25549_008?
+float Field_7_3_2_25549_009?
+int Field_7_3_2_25549_010?
+int Field_7_3_2_25549_011?
+int Field_7_3_2_25549_012?
+int Field_7_3_2_25549_013?
+int Field_7_3_2_25549_014?
+int Field_7_3_2_25549_015?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -107,3 +123,23 @@ StartInset
 EndInset
 FileDataID<32>[6]
 Color<32>[6]
+
+LAYOUT 3D064961
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000
+Field_7_3_2_25549_001
+Field_7_3_2_25549_002<32>[6]
+Field_7_3_2_25549_003<32>[6]
+Field_7_3_2_25549_004_lang
+Field_7_3_2_25549_005_lang
+Field_7_3_2_25549_006_lang
+Field_7_3_2_25549_007_lang
+Field_7_3_2_25549_008
+Field_7_3_2_25549_009
+Field_7_3_2_25549_010<u16>
+Field_7_3_2_25549_011<u16>
+Field_7_3_2_25549_012<u8>
+Field_7_3_2_25549_013<u8>
+Field_7_3_2_25549_014<u32>
+Field_7_3_2_25549_015<u32>

@@ -71,6 +71,7 @@ MaxPlayers<u8>
 TimeOffset<u8>
 
 LAYOUT C34CD39B, AFAFB470, A37A2830
+BUILD 7.3.2.25549
 BUILD 7.2.0.23530-7.2.0.23937
 BUILD 7.2.5.23910-7.2.5.24393
 BUILD 7.3.0.24473-7.3.0.25195
@@ -85,18 +86,18 @@ MapDescription0_lang
 MapDescription1_lang
 PvpShortDescription_lang
 PvpLongDescription_lang
-AreaTableID<16>
+AreaTableID<u16>
 LoadingScreenID<16>
 CorpseMapID<16>
 TimeOfDayOverride<16>
 ParentMapID<16>
 CosmeticParentMapID<16>
 WindSettingsID<16>
-InstanceType<8>
-MapType<8>
-ExpansionID<8>
-MaxPlayers<8>
-TimeOffset<8>
+InstanceType<u8>
+MapType<u8>
+ExpansionID<u8>
+MaxPlayers<u8>
+TimeOffset<u8>
 
 LAYOUT B32E648C, F7CF2DA2, BDBE8188, 98BE9895
 BUILD 7.0.3.21796-7.0.3.22747

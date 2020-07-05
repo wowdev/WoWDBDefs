@@ -3,6 +3,9 @@ int ID
 int AddQuantity
 int ParentItemLimitCategoryID
 int<PlayerCondition::ID> PlayerConditionID
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
 
 LAYOUT DE8EAD49, 7F847085, 904A7192
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
@@ -23,3 +26,10 @@ $noninline,id$ID<32>
 AddQuantity<8>
 PlayerConditionID<u32>
 $noninline,relation$ParentItemLimitCategoryID<32>
+
+LAYOUT 9F1DFE83
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<8>
+Field_7_3_2_25549_001<32>
+Field_7_3_2_25549_002<u32>

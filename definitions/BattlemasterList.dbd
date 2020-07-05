@@ -18,6 +18,23 @@ locstring LongDescription_lang
 int<PlayerCondition::ID> Required_Player_Condition_ID
 locstring ShortDescription_lang
 int Field_1_13_2_30073_015?
+locstring Field_7_3_2_25549_000_lang?
+int Field_7_3_2_25549_001?
+locstring Field_7_3_2_25549_002_lang?
+locstring Field_7_3_2_25549_003_lang?
+locstring Field_7_3_2_25549_004_lang?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
+int Field_7_3_2_25549_009?
+int Field_7_3_2_25549_010?
+int Field_7_3_2_25549_011?
+int Field_7_3_2_25549_012?
+int Field_7_3_2_25549_013?
+int Field_7_3_2_25549_014?
+int Field_7_3_2_25549_015?
+int Field_7_3_2_25549_016?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -144,3 +161,24 @@ Flags<8>
 IconFileDataID<32>
 Field_1_13_2_30073_015<32>
 MapID<16>[16]
+
+LAYOUT 4A89A6B2
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000_lang
+Field_7_3_2_25549_001<32>
+Field_7_3_2_25549_002_lang
+Field_7_3_2_25549_003_lang
+Field_7_3_2_25549_004_lang
+Field_7_3_2_25549_005<16>[16]
+Field_7_3_2_25549_006<16>
+Field_7_3_2_25549_007<16>
+Field_7_3_2_25549_008<8>
+Field_7_3_2_25549_009<8>
+Field_7_3_2_25549_010<8>
+Field_7_3_2_25549_011<8>
+Field_7_3_2_25549_012<8>
+Field_7_3_2_25549_013<8>
+Field_7_3_2_25549_014<8>
+Field_7_3_2_25549_015<8>
+Field_7_3_2_25549_016<8>

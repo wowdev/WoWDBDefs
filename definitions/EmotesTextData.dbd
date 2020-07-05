@@ -3,6 +3,9 @@ int ID
 locstring Text_lang
 int<EmotesText::ID> EmotesTextID
 int RelationshipFlags
+locstring Field_7_3_2_25549_000_lang?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -35,3 +38,10 @@ $noninline,id$ID<32>
 Text_lang
 RelationshipFlags<u8>
 $noninline,relation$EmotesTextID<u16>
+
+LAYOUT 2682E49B
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000_lang
+Field_7_3_2_25549_001<u16>
+Field_7_3_2_25549_002<u8>

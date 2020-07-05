@@ -23,6 +23,28 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
+locstring Field_7_3_2_25549_000_lang?
+locstring Field_7_3_2_25549_001_lang?
+locstring Field_7_3_2_25549_002_lang?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
+locstring Field_7_3_2_25549_005_lang?
+locstring Field_7_3_2_25549_006_lang?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
+int Field_7_3_2_25549_009?
+int Field_7_3_2_25549_010?
+int Field_7_3_2_25549_011?
+int Field_7_3_2_25549_012?
+int Field_7_3_2_25549_013?
+int Field_7_3_2_25549_014?
+int Field_7_3_2_25549_015?
+int Field_7_3_2_25549_016?
+int Field_7_3_2_25549_017?
+int Field_7_3_2_25549_018?
+int Field_7_3_2_25549_019?
+int Field_7_3_2_25549_020?
+int Field_7_3_2_25549_021?
 
 LAYOUT B2FFA8DD, 2C723565
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
@@ -192,3 +214,29 @@ CurrencyQuantity<u32>
 UIMapID<u16>
 BonusPlayerConditionID<u32>[2]
 BonusValue<u8>[2]
+
+LAYOUT F07172ED
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000_lang
+Field_7_3_2_25549_001_lang
+Field_7_3_2_25549_002_lang
+Field_7_3_2_25549_003<32>
+Field_7_3_2_25549_004<32>
+Field_7_3_2_25549_005_lang
+Field_7_3_2_25549_006_lang
+Field_7_3_2_25549_007<u16>
+Field_7_3_2_25549_008<u16>
+Field_7_3_2_25549_009<u16>
+Field_7_3_2_25549_010<u16>[2]
+Field_7_3_2_25549_011<u16>
+Field_7_3_2_25549_012<u16>
+Field_7_3_2_25549_013<u8>
+Field_7_3_2_25549_014<u8>
+Field_7_3_2_25549_015<u8>
+Field_7_3_2_25549_016<u8>
+Field_7_3_2_25549_017<u8>
+Field_7_3_2_25549_018<u8>[2]
+Field_7_3_2_25549_019<u8>
+Field_7_3_2_25549_020<u32>
+Field_7_3_2_25549_021<u32>

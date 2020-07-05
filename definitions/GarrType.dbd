@@ -6,6 +6,11 @@ int<Map::ID> MapIDs
 int<CurrencyTypes::ID> PrimaryCurrencyTypeID
 int<CurrencyTypes::ID> SecondaryCurrencyTypeID
 float Field_9_0_1_33978_004?
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
 
 LAYOUT 7C52F3B7
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -46,3 +51,12 @@ ExpansionID<u32>
 Flags<u32>
 Field_9_0_1_33978_004
 MapIDs<32>[2]
+
+LAYOUT 06CD7733
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<u32>
+Field_7_3_2_25549_001<u32>
+Field_7_3_2_25549_002<u32>
+Field_7_3_2_25549_003<u32>
+Field_7_3_2_25549_004<32>[2]

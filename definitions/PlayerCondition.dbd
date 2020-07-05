@@ -82,6 +82,36 @@ int MovementFlags
 int WeaponSubclassMask
 int<ContentTuning::ID> ContentTuningID
 int Field_9_0_1_33978_056?
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+locstring Field_7_3_2_25549_004_lang?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
+int Field_7_3_2_25549_009?
+int Field_7_3_2_25549_010?
+int Field_7_3_2_25549_011?
+int Field_7_3_2_25549_012?
+int Field_7_3_2_25549_013?
+int Field_7_3_2_25549_014?
+int Field_7_3_2_25549_015?
+int Field_7_3_2_25549_016?
+int Field_7_3_2_25549_017?
+int Field_7_3_2_25549_018?
+int Field_7_3_2_25549_019?
+int Field_7_3_2_25549_020?
+int Field_7_3_2_25549_021?
+int Field_7_3_2_25549_022?
+int Field_7_3_2_25549_023?
+int Field_7_3_2_25549_024?
+int Field_7_3_2_25549_025?
+int Field_7_3_2_25549_026?
+int Field_7_3_2_25549_027?
+int Field_7_3_2_25549_028?
+int Field_7_3_2_25549_029?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -592,3 +622,36 @@ CurrencyID<u32>[4]
 CurrencyCount<u32>[4]
 QuestKillMonster<u32>[6]
 MovementFlags<32>[2]
+
+LAYOUT 9C80F621
+BUILD 7.3.2.25549
+$id$Field_7_3_2_25549_000<32>
+Field_7_3_2_25549_001<32>
+Field_7_3_2_25549_002<u32>[2]
+Field_7_3_2_25549_003<32>[4]
+Field_7_3_2_25549_004_lang
+Field_7_3_2_25549_005<u16>[4]
+Field_7_3_2_25549_006<u16>[4]
+Field_7_3_2_25549_007<u16>[4]
+Field_7_3_2_25549_008<u16>[4]
+Field_7_3_2_25549_009<u16>[4]
+Field_7_3_2_25549_010<u16>[4]
+Field_7_3_2_25549_011<u16>[2]
+Field_7_3_2_25549_012<u16>[4]
+Field_7_3_2_25549_013<u16>[4]
+Field_7_3_2_25549_014<u8>
+Field_7_3_2_25549_015<u8>[3]
+Field_7_3_2_25549_016<u8>[4]
+Field_7_3_2_25549_017<u8>[4]
+Field_7_3_2_25549_018<u8>[4]
+Field_7_3_2_25549_019<u8>[4]
+Field_7_3_2_25549_020<32>
+Field_7_3_2_25549_021<u32>[3]
+Field_7_3_2_25549_022<32>[4]
+Field_7_3_2_25549_023<32>[4]
+Field_7_3_2_25549_024<u32>[4]
+Field_7_3_2_25549_025<u32>[4]
+Field_7_3_2_25549_026<u32>[4]
+Field_7_3_2_25549_027<u32>[6]
+Field_7_3_2_25549_028<32>[2]
+$noninline,relation$Field_7_3_2_25549_029<16>

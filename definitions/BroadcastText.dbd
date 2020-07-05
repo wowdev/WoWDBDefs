@@ -11,6 +11,15 @@ int Flags
 locstring Text_lang
 locstring Text1_lang
 int ChatBubbleDurationMs
+locstring Field_7_3_2_25549_000_lang?
+locstring Field_7_3_2_25549_001_lang?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -89,3 +98,16 @@ ChatBubbleDurationMs<u32>
 SoundKitID<u32>[2]
 EmoteID<u16>[3]
 EmoteDelay<u16>[3]
+
+LAYOUT C5965DBB
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000_lang
+Field_7_3_2_25549_001_lang
+Field_7_3_2_25549_002<u16>[3]
+Field_7_3_2_25549_003<u16>[3]
+Field_7_3_2_25549_004<u16>
+Field_7_3_2_25549_005<u8>
+Field_7_3_2_25549_006<u8>
+Field_7_3_2_25549_007<u32>[2]
+Field_7_3_2_25549_008<32>

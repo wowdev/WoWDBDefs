@@ -7,6 +7,13 @@ int<SoundEntries::ID> CritImpactSoundID
 int ImpactSource
 int PierceCritImpactSoundID
 int PierceImpactSoundID
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -47,3 +54,14 @@ ImpactSoundID<u32>[11]
 CritImpactSoundID<u32>[11]
 PierceImpactSoundID<u32>[11]
 PierceCritImpactSoundID<u32>[11]
+
+LAYOUT F0A4FF52
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<u8>
+Field_7_3_2_25549_001<u8>
+Field_7_3_2_25549_002<u8>
+Field_7_3_2_25549_003<u32>[11]
+Field_7_3_2_25549_004<u32>[11]
+Field_7_3_2_25549_005<u32>[11]
+Field_7_3_2_25549_006<u32>[11]

@@ -5,6 +5,10 @@ int FactionGroup
 locstring Name_lang
 locstring Shortcut_lang
 int Ruleset // 0: None, 1: Mentor
+int Field_7_3_2_25549_000?
+locstring Field_7_3_2_25549_001_lang?
+locstring Field_7_3_2_25549_002_lang?
+int Field_7_3_2_25549_003?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -50,3 +54,11 @@ Shortcut_lang
 Flags<32>
 FactionGroup<8>
 Ruleset<32>
+
+LAYOUT C97ED7F6
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<32>
+Field_7_3_2_25549_001_lang
+Field_7_3_2_25549_002_lang
+Field_7_3_2_25549_003<8>

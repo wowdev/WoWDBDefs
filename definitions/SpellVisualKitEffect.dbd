@@ -3,6 +3,9 @@ int ID
 int Effect // 1: SpellProceduralEffectID, 2: SpellVisualKitModelAttachID, 3: CameraEffectID, 4: also camera related, 5: SoundKitID, 6: SpellVisualAnimID, 7: ShadowyEffectID, 8: SpellEffectEmissionID, 9: OutlineEffectID, 10: unit sound id?, 11: DissolveEffectID, 12: EdgeFlowEffectID, 13: BeamEffectID, 14: ClientSceneEffectID, 15: CloneEffectID, 16: GradientEffectID, 17: BarrageEffectID, 18: RopeEffectID, 19: SpellVisualScreenEffectID
 int EffectType
 int<SpellVisualKit::ID> ParentSpellVisualKitID
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
 
 LAYOUT B78084B7, F104E59F
 BUILD 8.1.0.27826, 8.1.0.27934
@@ -30,3 +33,10 @@ $noninline,id$ID<32>
 EffectType<32>
 Effect<32>
 $noninline,relation$ParentSpellVisualKitID<32>
+
+LAYOUT D7C9ED1B
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<32>
+Field_7_3_2_25549_001<32>
+Field_7_3_2_25549_002<32>

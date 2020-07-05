@@ -29,6 +29,22 @@ int<SpellVisualEffectName::ID> SpellVisualEffectNameID
 int SpellVisualMissileSetID
 int ClutterLevel // See SpellVisualKit::ClutterLevel.
 int Field_9_0_1_33978_016? // default 5000, if no missile record
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+float Field_7_3_2_25549_003?
+float Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
+int Field_7_3_2_25549_009?
+int Field_7_3_2_25549_010?
+int Field_7_3_2_25549_011?
+int Field_7_3_2_25549_012?
+int Field_7_3_2_25549_013?
+int Field_7_3_2_25549_014?
+int Field_7_3_2_25549_015?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -135,3 +151,22 @@ AnimKitID<u32>
 ClutterLevel<8>
 Field_9_0_1_33978_016<32>
 $noninline,relation$SpellVisualMissileSetID<u16>
+
+LAYOUT DC228F29
+BUILD 7.3.2.25549
+Field_7_3_2_25549_000<32>
+Field_7_3_2_25549_001<u32>
+Field_7_3_2_25549_002<u32>
+Field_7_3_2_25549_003[3]
+Field_7_3_2_25549_004[3]
+Field_7_3_2_25549_005<u16>
+Field_7_3_2_25549_006<u16>
+Field_7_3_2_25549_007<u16>
+Field_7_3_2_25549_008<u16>
+Field_7_3_2_25549_009<u16>
+Field_7_3_2_25549_010<u16>
+Field_7_3_2_25549_011<8>
+Field_7_3_2_25549_012<8>
+$id$Field_7_3_2_25549_013<32>
+Field_7_3_2_25549_014<u32>
+Field_7_3_2_25549_015<u32>

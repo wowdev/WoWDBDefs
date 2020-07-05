@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<GarrEncounter::ID> GarrEncounterID
 int GarrEncounterSetID
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
 
 LAYOUT 3AA64423, CA7143E7, 9DFCF560
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
@@ -21,3 +23,9 @@ BUILD 1.13.0.28211
 $id$ID<32>
 GarrEncounterID<u32>
 $noninline,relation$GarrEncounterSetID<u32>
+
+LAYOUT 18E38A05
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<u32>
+Field_7_3_2_25549_001<u32>

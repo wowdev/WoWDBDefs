@@ -18,6 +18,16 @@ int<ItemGroupSounds::ID> ItemGroupSoundsID?
 int ConvertToPlayerExperience?
 int<PlayerCondition::ID> PlayerConditionID?
 int Field_9_0_1_34972_013?
+locstring Field_7_3_2_25549_000_lang?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+locstring Field_7_3_2_25549_004_lang?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
+int Field_7_3_2_25549_009?
 
 BUILD 6.0.1.18179
 BUILD 5.2.0.16516-5.4.8.18414
@@ -183,3 +193,17 @@ ConvertToPlayerExperience<32>
 PlayerConditionID<32>
 Field_9_0_1_34972_013<32>
 Flags<32>[2]
+
+LAYOUT 3683A671
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000_lang
+Field_7_3_2_25549_001<u32>
+Field_7_3_2_25549_002<u32>
+Field_7_3_2_25549_003<u32>
+Field_7_3_2_25549_004_lang
+Field_7_3_2_25549_005<u8>
+Field_7_3_2_25549_006<u8>
+Field_7_3_2_25549_007<u8>
+Field_7_3_2_25549_008<32>
+Field_7_3_2_25549_009<u32>

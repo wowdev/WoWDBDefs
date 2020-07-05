@@ -5,6 +5,10 @@ int RaceID
 int NormalSoundID
 int PissedSoundID
 int ClassID
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -42,3 +46,11 @@ VocalUIEnum<u8>
 RaceID<u8>
 ClassID<u8>
 NormalSoundID<u32>[2]
+
+LAYOUT 62CE4C2D
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<u8>
+Field_7_3_2_25549_001<u8>
+Field_7_3_2_25549_002<u8>
+Field_7_3_2_25549_003<u32>[2]

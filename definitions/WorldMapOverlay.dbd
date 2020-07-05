@@ -16,6 +16,19 @@ int Flags
 int MapPointX
 int MapPointY
 int<UiMapArt::ID> UiMapArtID
+int Field_7_3_2_25549_000?
+string Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
+int Field_7_3_2_25549_009?
+int Field_7_3_2_25549_010?
+int Field_7_3_2_25549_011?
+int Field_7_3_2_25549_012?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15668-5.4.8.18414
@@ -132,3 +145,19 @@ HitRectRight<32>
 PlayerConditionID<u32>
 Flags<u32>
 AreaID<u32>[4]
+
+LAYOUT 0D2DACAF
+BUILD 7.3.2.25549
+$id$Field_7_3_2_25549_000<32>
+Field_7_3_2_25549_001
+Field_7_3_2_25549_002<u16>
+Field_7_3_2_25549_003<u16>
+Field_7_3_2_25549_004<u32>
+Field_7_3_2_25549_005<u32>[4]
+Field_7_3_2_25549_006<32>
+Field_7_3_2_25549_007<32>
+Field_7_3_2_25549_008<32>
+Field_7_3_2_25549_009<32>
+Field_7_3_2_25549_010<32>
+Field_7_3_2_25549_011<32>
+$noninline,relation$Field_7_3_2_25549_012<32>

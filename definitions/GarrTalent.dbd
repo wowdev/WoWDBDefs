@@ -25,6 +25,26 @@ int<GarrTalent::ID> PrerequisiteTalentID?
 int ResearchCostSource // 0: Talent, 1: Tree
 int Field_9_0_1_33978_013?
 int<GarrTalentSocketProperties::ID> GarrTalentSocketPropertiesID
+int Field_7_3_2_25549_000?
+locstring Field_7_3_2_25549_001_lang?
+locstring Field_7_3_2_25549_002_lang?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
+int Field_7_3_2_25549_009?
+int Field_7_3_2_25549_010?
+int Field_7_3_2_25549_011?
+int Field_7_3_2_25549_012?
+int Field_7_3_2_25549_013?
+int Field_7_3_2_25549_014?
+int Field_7_3_2_25549_015?
+int Field_7_3_2_25549_016?
+int Field_7_3_2_25549_017?
+int Field_7_3_2_25549_018?
+int Field_7_3_2_25549_019?
 
 LAYOUT 53D5FD16
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -170,3 +190,26 @@ PrerequisiteTalentID<32>
 ResearchCostSource<32>
 Field_9_0_1_33978_013<32>
 GarrTalentSocketPropertiesID<32>
+
+LAYOUT FA331244
+BUILD 7.3.2.25549
+Field_7_3_2_25549_000<32>
+Field_7_3_2_25549_001_lang
+Field_7_3_2_25549_002_lang
+Field_7_3_2_25549_003<32>
+Field_7_3_2_25549_004<8>
+Field_7_3_2_25549_005<8>
+Field_7_3_2_25549_006<8>
+$id$Field_7_3_2_25549_007<32>
+Field_7_3_2_25549_008<u32>
+Field_7_3_2_25549_009<u32>
+Field_7_3_2_25549_010<u32>
+Field_7_3_2_25549_011<32>
+Field_7_3_2_25549_012<u32>
+Field_7_3_2_25549_013<32>
+Field_7_3_2_25549_014<u32>
+Field_7_3_2_25549_015<u32>
+Field_7_3_2_25549_016<32>
+Field_7_3_2_25549_017<u32>
+Field_7_3_2_25549_018<32>
+Field_7_3_2_25549_019<32>

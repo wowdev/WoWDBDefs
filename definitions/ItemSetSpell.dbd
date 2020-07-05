@@ -4,6 +4,10 @@ int<ItemSet::ID> ItemSetID
 int<Spell::ID> SpellID
 int Threshold
 int ChrSpecID
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -40,3 +44,11 @@ ChrSpecID<u16>
 SpellID<u32>
 Threshold<u8>
 $noninline,relation$ItemSetID<u16>
+
+LAYOUT F65DE520
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<u32>
+Field_7_3_2_25549_001<u16>
+Field_7_3_2_25549_002<u16>
+Field_7_3_2_25549_003<u8>

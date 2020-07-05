@@ -5,6 +5,11 @@ int ChildItemBonusTreeID
 int ChildItemLevelSelectorID
 int ItemContext
 int ParentItemBonusTreeID
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
 
 LAYOUT 84FE93B7, 6F36F1F3
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -36,3 +41,12 @@ ChildItemBonusTreeID<u16>
 ChildItemBonusListID<u16>
 ChildItemLevelSelectorID<u16>
 $noninline,relation$ParentItemBonusTreeID<u16>
+
+LAYOUT 6149BC4B
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<u16>
+Field_7_3_2_25549_001<u16>
+Field_7_3_2_25549_002<u16>
+Field_7_3_2_25549_003<u16>
+Field_7_3_2_25549_004<u8>

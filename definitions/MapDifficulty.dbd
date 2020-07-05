@@ -13,6 +13,15 @@ int ResetInterval
 int Difficulty
 string Difficultystring
 int<ContentTuning::ID> ContentTuningID
+locstring Field_7_3_2_25549_000_lang?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -129,3 +138,16 @@ ItemContextPickerID<32>
 Flags<32>
 ContentTuningID<32>
 $noninline,relation$MapID<32>
+
+LAYOUT 910C00B6
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000_lang
+Field_7_3_2_25549_001<u16>
+Field_7_3_2_25549_002<u8>
+Field_7_3_2_25549_003<u8>
+Field_7_3_2_25549_004<u8>
+Field_7_3_2_25549_005<u8>
+Field_7_3_2_25549_006<u8>
+Field_7_3_2_25549_007<u8>
+Field_7_3_2_25549_008<u32>

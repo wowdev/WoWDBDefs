@@ -9,6 +9,16 @@ int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int<QuestV2::ID> WorldQuestID
 int<WorldState::ID> WorldStateID
 int WorldStateValue
+locstring Field_7_3_2_25549_000_lang?
+float Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+int Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
+int Field_7_3_2_25549_007?
+int Field_7_3_2_25549_008?
+int Field_7_3_2_25549_009?
 
 LAYOUT 4C93379F, 04FC0B4F, B3195B9D
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
@@ -35,3 +45,16 @@ WorldQuestID<u32>
 WorldStateValue<32>
 InvasionEnabledWorldStateID<32>
 $noninline,relation$AreaTableID<32>
+
+LAYOUT 3781B0B1
+BUILD 7.3.2.25549
+Field_7_3_2_25549_000_lang
+Field_7_3_2_25549_001[2]
+$id$Field_7_3_2_25549_002<32>
+Field_7_3_2_25549_003<32>
+Field_7_3_2_25549_004<32>
+Field_7_3_2_25549_005<32>
+Field_7_3_2_25549_006<32>
+Field_7_3_2_25549_007<u32>
+Field_7_3_2_25549_008<32>
+Field_7_3_2_25549_009<32>

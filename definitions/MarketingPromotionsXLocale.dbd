@@ -14,6 +14,13 @@ int DeclineButtonTexture
 int<Locale::ID> LocaleID
 int LogoTexture
 int PromotionID
+int Field_7_3_2_25549_000?
+int Field_7_3_2_25549_001?
+int Field_7_3_2_25549_002?
+int Field_7_3_2_25549_003?
+string Field_7_3_2_25549_004?
+int Field_7_3_2_25549_005?
+int Field_7_3_2_25549_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -59,3 +66,14 @@ AdTexture<32>
 LogoTexture<32>
 AcceptButtonTexture<32>
 DeclineButtonTexture<32>
+
+LAYOUT D0976347
+BUILD 7.3.2.25549
+$noninline,id$ID<32>
+Field_7_3_2_25549_000<32>
+Field_7_3_2_25549_001<32>
+Field_7_3_2_25549_002<32>
+Field_7_3_2_25549_003<32>
+Field_7_3_2_25549_004
+Field_7_3_2_25549_005<u8>
+Field_7_3_2_25549_006<8>
