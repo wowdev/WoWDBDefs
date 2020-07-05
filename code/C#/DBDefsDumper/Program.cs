@@ -414,7 +414,7 @@ namespace DBDefsDumper
                     var field_types = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_types_offs));
 
                     var field_flags = new List<int>();
-                    if (build.StartsWith("7.3.2.") && (long)translate((ulong)meta.Value.field_flags_offs) > bin.BaseStream.Length)
+                    if ((build.StartsWith("7.3.0.") || build.StartsWith("7.3.2.")) && (long)translate((ulong)meta.Value.field_flags_offs) > bin.BaseStream.Length)
                     {
                         for(var fc = 0; fc < fieldCount; fc++)
                         {
