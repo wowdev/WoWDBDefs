@@ -389,7 +389,7 @@ namespace DBDefsDumper
                 {
                     if((long)translate((ulong)meta.Value.field_offsets_offs) > bin.BaseStream.Length)
                     {
-                        Console.WriteLine("Skipping reading of " + meta.Key + " because first offset is way out of range!");
+                        Console.WriteLine("Skipping reading of " + meta.Key + " because field offset (" + (long)translate((ulong)meta.Value.field_offsets_offs)  + ") is outside of file range (" + bin.BaseStream.Length + ")!");
                         continue;
                     }
 
@@ -409,15 +409,27 @@ namespace DBDefsDumper
                         fieldCount = meta.Value.num_fields;
                     }
 
-                    var field_offsets = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_offsets_offs));
+                    var field_offsets = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_offsets_offs)); // TODO: Field offsets is currently unused, use to verify sizes
                     var field_sizes = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_sizes_offs));
                     var field_types = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_types_offs));
-                    var field_flags = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_flags_offs));
+
+                    var field_flags = new List<int>();
+                    if (build.StartsWith("7.3.2.") && (long)translate((ulong)meta.Value.field_flags_offs) > bin.BaseStream.Length)
+                    {
+                        for(var fc = 0; fc < fieldCount; fc++)
+                        {
+                            field_flags.Add(0);
+                        }
+                    }
+                    else
+                    {
+                        field_flags = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_flags_offs));
+                    }
                     var field_sizes_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_sizes_in_file_offs));
                     var field_types_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_types_in_file_offs));
                     var field_flags_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_flags_in_file_offs));
                     var field_names_in_file = ReadFieldOffsetArray(bin, fieldCount, (long)translate((ulong)meta.Value.namesInFileOffs));
-
+                
                     if (meta.Value.id_column == -1)
                     {
                         writer.WriteLine("int ID");
