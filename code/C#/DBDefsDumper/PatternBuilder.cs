@@ -230,7 +230,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("7.{0,2.5,3.{0,2}}-release", new List<string> { "7.2.0", "7.2.5", "7.3.0" }, 23514, 25195) // note: also matches release-7.3.5 even though different struct
+                new Pattern("7.{0,2.5,3.0}-release", new List<string> { "7.2.0", "7.2.5", "7.3.0" }, 23514, 25195) // note: also matches release-7.3.5 even though different struct
                 .Pointer(Name.DB_NAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
                 .RecordSize(Name.RECORD_SIZE)
