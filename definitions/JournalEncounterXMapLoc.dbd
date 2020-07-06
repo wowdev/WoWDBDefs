@@ -7,12 +7,16 @@ float Map
 int MapDisplayConditionID
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UiMapID
-float Field_7_3_2_25549_000?
-int Field_7_3_2_25549_001?
-int Field_7_3_2_25549_002?
-int Field_7_3_2_25549_003?
-int Field_7_3_2_25549_004?
-int Field_7_3_2_25549_005?
+
+LAYOUT 93A7D7CA
+BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
+$noninline,id$ID<32>
+Map[2]
+Flags<u8>
+JournalEncounterID<32>
+WorldMapAreaID<32>
+DungeonMapID<32>
+MapDisplayConditionID<32>
 
 LAYOUT 430540E4, E7EC7104
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297
@@ -54,13 +58,3 @@ JournalEncounterID<32>
 MapDisplayConditionID<32>
 Flags<u8>
 $noninline,relation$UiMapID<32>
-
-LAYOUT 93A7D7CA
-BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
-$noninline,id$ID<32>
-Field_7_3_2_25549_000[2]
-Field_7_3_2_25549_001<u8>
-Field_7_3_2_25549_002<32>
-Field_7_3_2_25549_003<32>
-Field_7_3_2_25549_004<32>
-Field_7_3_2_25549_005<32>
