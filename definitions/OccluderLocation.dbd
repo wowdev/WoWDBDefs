@@ -1,8 +1,8 @@
 COLUMNS
 int ID?
-int<Map::ID> MapID?
-float Pos?
-float Rot
+int<Map::ID> MapID
+float Pos
+float Rot?
 
 LAYOUT BA7B612A
 BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
