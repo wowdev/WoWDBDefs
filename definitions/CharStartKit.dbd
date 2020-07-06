@@ -4,12 +4,12 @@ locstring ZoneName_lang
 int<ChrClasses::ID> ChrClassesID
 int<UiTextureAtlasElement::ID> ZoneImageAtlas
 int<ChrRaces::ID> ChrRacesID?
-int<SpellVisualKit::ID> Field_9_0_1_34490_003?
+int<SpellVisualKit::ID> SpellVisualKitID? // fall back to column in ChrClasses if not set
 int<SpellVisualKit::ID> Field_9_0_1_34615_004?
-int<SpellVisualKit::ID> Field_9_0_1_34821_005?
-int<SpellVisualKit::ID> Field_9_0_1_34821_006?
+int<SpellVisualKit::ID> SpellVisualKitID_Female? // fall back to SpellVisualKitID if not set
+int<SpellVisualKit::ID> Field_9_0_1_34615_004_Female?
 int<SpellVisualKit::ID> Field_9_0_1_34821_007?
-int<SpellVisualKit::ID> Field_9_0_1_34821_008?
+int<SpellVisualKit::ID> GroundSpellVisualKitID? // fall back to column in ChrClasses if not set
 int<SpellVisualKit::ID> Field_9_0_1_34821_009?
 
 LAYOUT CC89E761
@@ -26,7 +26,7 @@ $noninline,id$ID<32>
 ZoneName_lang
 ChrClassesID<8>
 ZoneImageAtlas<32>
-Field_9_0_1_34490_003<32>
+SpellVisualKitID<32>
 $noninline,relation$ChrRacesID<8>
 
 LAYOUT 1DE3D407
@@ -35,7 +35,7 @@ $noninline,id$ID<32>
 ZoneName_lang
 ChrClassesID<8>
 ZoneImageAtlas<32>
-Field_9_0_1_34490_003<32>
+SpellVisualKitID<32>
 Field_9_0_1_34615_004<32>
 $noninline,relation$ChrRacesID<8>
 
@@ -45,12 +45,12 @@ $noninline,id$ID<32>
 ZoneName_lang
 ChrClassesID<8>
 ZoneImageAtlas<32>
-Field_9_0_1_34490_003<32>
+SpellVisualKitID<32>
 Field_9_0_1_34615_004<32>
-Field_9_0_1_34821_005<32>
-Field_9_0_1_34821_006<32>
+SpellVisualKitID_Female<32>
+Field_9_0_1_34615_004_Female<32>
 Field_9_0_1_34821_007<32>
-Field_9_0_1_34821_008<32>
+GroundSpellVisualKitID<32>
 Field_9_0_1_34821_009<32>
 $noninline,relation$ChrRacesID<8>
 
@@ -60,11 +60,11 @@ $noninline,id$ID<32>
 ZoneName_lang
 ChrClassesID<u8>
 ZoneImageAtlas<32>
-Field_9_0_1_34490_003<32>
+SpellVisualKitID<32>
 Field_9_0_1_34615_004<32>
-Field_9_0_1_34821_005<32>
-Field_9_0_1_34821_006<32>
+SpellVisualKitID_Female<32>
+Field_9_0_1_34615_004_Female<32>
 Field_9_0_1_34821_007<32>
-Field_9_0_1_34821_008<32>
+GroundSpellVisualKitID<32>
 Field_9_0_1_34821_009<32>
 $noninline,relation$ChrRacesID<u8>
