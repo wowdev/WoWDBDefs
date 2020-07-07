@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 string Name
-int Flags
-int<AnimationData::ID> Fallback
-int BehaviorID
-int BehaviorTier
+int Flags // &0x10: fallback-related,  &0x20: fallback-related, &0x80: fallback-related
+int<AnimationData::ID> Fallback // visual equivalent
+int<AnimationData::ID> BehaviorID // semantic equivalent
+int BehaviorTier // 0: Normal, 3: Flying
 int Weaponflags
 int Bodyflags
 
