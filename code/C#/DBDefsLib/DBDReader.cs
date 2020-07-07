@@ -23,7 +23,7 @@ namespace DBDefsLib
             if (lines[0].StartsWith("COLUMNS"))
             {
                 lineNumber++;
-                while (true)
+                while (lineNumber < lines.Count())
                 {
                     var line = lines[lineNumber++];
 
