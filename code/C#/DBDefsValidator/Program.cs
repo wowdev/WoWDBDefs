@@ -28,7 +28,7 @@ namespace DBDefsTest
             if (args.Length >= 3 && args[2] == "false")
                 verbose = false;
 
-            var errorEncountered = false;
+            var errorEncountered = new List<string>();
 
             foreach (var file in Directory.GetFiles(definitionDir))
             {
@@ -50,7 +50,7 @@ namespace DBDefsTest
                 }
                 catch (Exception ex)
                 {
-                  errorEncountered = true;
+                  errorEncountered.Add(dbName);
                   Console.ForegroundColor = ConsoleColor.Red;
                   Console.WriteLine("Failed to read " + dbName + ": " + ex);
                   Console.ResetColor();
@@ -73,7 +73,7 @@ namespace DBDefsTest
                         }
                         else
                         {
-                            errorEncountered = true;
+                            errorEncountered.Add(definition.Key);
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine(definition.Key + "." + columnDefinition.Key + " has a foreign key to " + columnDefinition.Value.foreignTable + "." + columnDefinition.Value.foreignColumn + " WHICH DOES NOT EXIST!");
                         }
@@ -87,10 +87,12 @@ namespace DBDefsTest
 
             Console.WriteLine("Checked " + foreignKeys + " foreign keys!");
 
-            if (errorEncountered)
+            if (errorEncountered.Count != 0)
             {
               Console.ForegroundColor = ConsoleColor.Red;
-              Console.WriteLine("Done: There have been errors!");
+              Console.WriteLine("There have been errors in the following dbds:");
+              foreach (var dbName in errorEncountered)
+                Console.WriteLine (" - " + dbName);
               Environment.Exit(1);
             }
             else
