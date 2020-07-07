@@ -1,8 +1,8 @@
 COLUMNS
 int ID
 int Rank
-int<Spell::ID> SpellID?
-float Field_9_0_1_34821_002?
+int<Spell::ID> SpellID
+float SpellModifier
 int<SoulbindConduit::ID> SoulbindConduitID
 
 LAYOUT E97AAA36
@@ -10,5 +10,5 @@ BUILD 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
 $noninline,id$ID<32>
 Rank<32>
 SpellID<32>
-Field_9_0_1_34821_002
+SpellModifier
 $noninline,relation$SoulbindConduitID<32>

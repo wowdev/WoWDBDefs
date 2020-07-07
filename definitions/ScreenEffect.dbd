@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 string Name
-int Effect
+int Effect // 6: ColorGrading
 int Param
 int<LightParams::ID> LightParamsID
 int LightParamsFadeIn

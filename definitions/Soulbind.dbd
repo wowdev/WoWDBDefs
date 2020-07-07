@@ -1,6 +1,6 @@
 COLUMNS
-locstring Name_lang?
-int ID?
+locstring Name_lang
+int ID
 int<Covenant::ID> CovenantID
 int<GarrTalentTree::ID> GarrTalentTreeID
 int<Creature::ID> CreatureID?

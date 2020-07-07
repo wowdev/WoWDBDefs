@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<Item::ID> ItemID?
+int<Item::ID> ItemID
 int<SoulbindConduit::ID> SoulbindConduitID
 
 LAYOUT A64372DE

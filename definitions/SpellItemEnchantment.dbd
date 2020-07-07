@@ -22,8 +22,8 @@ int<FileData::ID> IconFileDataID
 int TransmogCost
 int<PlayerCondition::ID> TransmogPlayerConditionID
 int EffectPointsMax
-int Field_9_0_1_34081_007?
-int Field_9_0_1_34081_008?
+int ItemLevelMin
+int ItemLevelMax
 int Field_9_0_1_34365_008?
 int Field_7_3_2_25549_000?
 locstring Field_7_3_2_25549_001_lang?
@@ -299,8 +299,8 @@ EffectScalingPoints[3]
 TransmogPlayerConditionID<u32>
 TransmogCost<u32>
 IconFileDataID<u32>
-Field_9_0_1_34081_007<32>
-Field_9_0_1_34081_008<32>
+ItemLevelMin<32>
+ItemLevelMax<32>
 EffectPointsMin<16>[3]
 ItemVisual<u16>
 Flags<u16>
@@ -323,8 +323,8 @@ $id$ID<32>
 EffectArg<u32>[3]
 EffectScalingPoints[3]
 IconFileDataID<u32>
-Field_9_0_1_34081_007<32>
-Field_9_0_1_34081_008<32>
+ItemLevelMin<32>
+ItemLevelMax<32>
 Field_9_0_1_34365_008<u32>
 TransmogCost<u32>
 EffectPointsMin<16>[3]

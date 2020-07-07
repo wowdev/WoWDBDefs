@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int BlendMode
 int BotTextureBlendSetID
-int CasterDecalPropertiesID
+int<DecalProperties::ID> CasterDecalPropertiesID
 float FadeIn
 float FadeOut
 int<FileData::ID> FileDataID
