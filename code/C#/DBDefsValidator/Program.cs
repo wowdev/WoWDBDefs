@@ -28,26 +28,36 @@ namespace DBDefsTest
             if (args.Length >= 3 && args[2] == "false")
                 verbose = false;
 
+            var errorEncountered = false;
+
             foreach (var file in Directory.GetFiles(definitionDir))
             {
                 var dbName = Path.GetFileNameWithoutExtension(file);
 
                 var reader = new DBDReader();
-                definitionCache.Add(dbName, reader.Read(file, true));
+                try
+                {
+                  definitionCache.Add(dbName, reader.Read(file, true));
 
-                if (verbose)
+                  if (verbose)
                     Console.WriteLine("Read " + definitionCache[dbName].versionDefinitions.Length + " versions and " + definitionCache[dbName].columnDefinitions.Count + " columns for " + dbName);
 
-                if (rewrite)
-                {
+                  if (rewrite)
+                  {
                     var writer = new DBDWriter();
                     writer.Save(definitionCache[dbName], Path.Combine(definitionDir, dbName + ".dbd"));
+                  }
+                }
+                catch (Exception ex)
+                {
+                  errorEncountered = true;
+                  Console.ForegroundColor = ConsoleColor.Red;
+                  Console.WriteLine("Failed to read " + dbName + ": " + ex);
+                  Console.ResetColor();
                 }
             }
 
             Console.WriteLine("Read " + definitionCache.Count + " database definitions!");
-
-            var errorEncountered = false;
 
             var foreignKeys = 0;
             foreach (var definition in definitionCache)
