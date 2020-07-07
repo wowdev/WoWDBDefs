@@ -1,0 +1,30 @@
+name: Validate & Deploy
+
+on: [push, pull_request]
+
+jobs:
+  Validate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 2.1
+    - name: Run Validator
+      run: dotnet run --project $PWD/code/C#/DBDefsValidator/ --configuration Release -- $PWD/definitions/
+      env:
+        DOTNET_NOLOGO: 1
+        DOTNET_CLI_TELEMETRY_OPTOUT: 1
+        DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
+
+  Deploy:
+    needs: [Validate]
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to wow.tools
+      uses: jasongitmail/fast-webhook@v1.1.2
+      with:
+        url: ${{ secrets.WOW_TOOLS_WEBHOOK_URL }}
+        json: ${{ secrets.WOW_TOOLS_WEBHOOK_SECRET }}
