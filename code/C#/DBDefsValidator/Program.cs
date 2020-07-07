@@ -76,11 +76,16 @@ namespace DBDefsTest
             }
 
             Console.WriteLine("Checked " + foreignKeys + " foreign keys!");
-            Console.WriteLine("Done");
 
             if (errorEncountered)
             {
-                Environment.Exit(1);
+              Console.ForegroundColor = ConsoleColor.Red;
+              Console.WriteLine("Done: There have been errors!");
+              Environment.Exit(1);
+            }
+            else
+            {
+              Console.WriteLine("Done");
             }
         }
     }
