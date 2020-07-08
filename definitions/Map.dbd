@@ -25,7 +25,7 @@ int Unk4?
 int TimeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
 int ExpansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
 int Unk5? // Another resettime? Is the same as the heroic one for some entries.
-int Flags? // probaby same as isBattleground
+int Flags? // &0x100: CanChangeDifficulty
 int<Map::ID> CorpseMapID
 float CorpsePosX?
 float CorpsePosY?

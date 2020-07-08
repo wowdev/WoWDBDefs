@@ -1,14 +1,14 @@
 COLUMNS
 int ID
 int<PlayerCondition::ID> PlayerConditionID
-float WhenTrue?
-float WhenFalse?
-int Field_9_0_1_34365_003?
+float WhenFalse
+float WhenTrue
+int VFOG_uid // uid in a WDT's VFOG chunk
 
 LAYOUT 93FE029C
 BUILD 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
 $noninline,id$ID<32>
 PlayerConditionID<32>
-WhenTrue
 WhenFalse
-$noninline,relation$Field_9_0_1_34365_003<32>
+WhenTrue
+$noninline,relation$VFOG_uid<32>

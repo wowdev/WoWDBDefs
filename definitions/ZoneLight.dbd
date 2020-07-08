@@ -4,8 +4,8 @@ string Name
 int<Map::ID> MapID
 int<Light::ID> LightID
 int Flags
-float Zmin?
-float Zmax?
+float Zmin
+float Zmax
 int Field_9_0_1_33978_006?
 
 BUILD 6.0.1.18179
