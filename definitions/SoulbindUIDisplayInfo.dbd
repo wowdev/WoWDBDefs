@@ -6,7 +6,7 @@ int<CreatureDisplayInfo::ID> CreatureDisplayInfoID
 int<UiModelSceneActor::ID> ModelSceneActorID
 int<UiTextureAtlasElement::ID> Portrait
 int<UiTextureKit::ID> TextureKitID
-int Field_9_0_1_35078_006?
+int OrderIndex // per covenant
 
 LAYOUT C41BBE90
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
@@ -34,4 +34,4 @@ SoulbindID<32>
 CreatureDisplayInfoID<32>
 ModelSceneActorID<32>
 TextureKitID<32>
-Field_9_0_1_35078_006<32>
+OrderIndex<32>
