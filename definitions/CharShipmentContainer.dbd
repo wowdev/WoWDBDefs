@@ -16,6 +16,22 @@ int SmallDisplayInfoID
 int<UiTextureKit::ID> UiTextureKitID
 int WorkingDisplayInfoID
 int<SpellVisual::ID> WorkingSpellVisualID
+locstring Field_9_0_1_35078_000_lang?
+locstring Field_9_0_1_35078_001_lang?
+int Field_9_0_1_35078_002?
+int Field_9_0_1_35078_003?
+int Field_9_0_1_35078_004?
+int Field_9_0_1_35078_005?
+int Field_9_0_1_35078_006?
+int Field_9_0_1_35078_007?
+int Field_9_0_1_35078_008?
+int Field_9_0_1_35078_009?
+int Field_9_0_1_35078_010?
+int Field_9_0_1_35078_011?
+int Field_9_0_1_35078_012?
+int Field_9_0_1_35078_013?
+int Field_9_0_1_35078_014?
+int Field_9_0_1_35078_015?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -103,3 +119,23 @@ MediumThreshold<u8>
 LargeThreshold<u8>
 Faction<8>
 CrossFactionID<u16>
+
+LAYOUT 2278DB5A
+BUILD 9.0.1.35078
+$noninline,id$ID<32>
+Field_9_0_1_35078_000_lang
+Field_9_0_1_35078_001_lang
+Field_9_0_1_35078_002<u16>
+Field_9_0_1_35078_003<u8>
+Field_9_0_1_35078_004<u8>
+Field_9_0_1_35078_005<u8>
+Field_9_0_1_35078_006<u16>
+Field_9_0_1_35078_007<u16>
+Field_9_0_1_35078_008<u16>
+Field_9_0_1_35078_009<32>
+Field_9_0_1_35078_010<u32>
+Field_9_0_1_35078_011<u32>
+Field_9_0_1_35078_012<u8>
+Field_9_0_1_35078_013<u8>
+Field_9_0_1_35078_014<8>
+Field_9_0_1_35078_015<u16>

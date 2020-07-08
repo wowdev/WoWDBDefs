@@ -2,6 +2,8 @@ COLUMNS
 locstring Name_lang
 int ID
 int<QuestV2::ID> TrackingQuestID
+locstring Field_9_0_1_35078_000_lang?
+int Field_9_0_1_35078_001?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -28,3 +30,9 @@ BUILD 1.13.0.28211
 $noninline,id$ID<32>
 Name_lang
 TrackingQuestID<u16>
+
+LAYOUT DBCC9926
+BUILD 9.0.1.35078
+$noninline,id$ID<32>
+Field_9_0_1_35078_000_lang
+Field_9_0_1_35078_001<32>
