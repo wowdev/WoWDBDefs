@@ -57,30 +57,6 @@ int Field_7_3_2_25549_020?
 int Field_7_3_2_25549_021?
 int Field_7_3_2_25549_022?
 int Field_7_3_2_25549_023?
-locstring Field_9_0_1_35078_000_lang?
-locstring Field_9_0_1_35078_001_lang?
-locstring Field_9_0_1_35078_002_lang?
-locstring Field_9_0_1_35078_003_lang?
-int Field_9_0_1_35078_004?
-int Field_9_0_1_35078_005?
-int Field_9_0_1_35078_006?
-int Field_9_0_1_35078_007?
-int Field_9_0_1_35078_008?
-int Field_9_0_1_35078_009?
-int Field_9_0_1_35078_010?
-int Field_9_0_1_35078_011?
-int Field_9_0_1_35078_012?
-int Field_9_0_1_35078_013?
-int Field_9_0_1_35078_014?
-int Field_9_0_1_35078_015?
-int Field_9_0_1_35078_016?
-int Field_9_0_1_35078_017?
-int Field_9_0_1_35078_018?
-int Field_9_0_1_35078_019?
-int Field_9_0_1_35078_020?
-int Field_9_0_1_35078_021?
-int Field_9_0_1_35078_022?
-int Field_9_0_1_35078_023?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -233,27 +209,27 @@ Field_7_3_2_25549_023<32>
 LAYOUT 69CFEA8D
 BUILD 9.0.1.35078
 $noninline,id$ID<32>
-Field_9_0_1_35078_000_lang
-Field_9_0_1_35078_001_lang
-Field_9_0_1_35078_002_lang
-Field_9_0_1_35078_003_lang
-Field_9_0_1_35078_004<u8>
-Field_9_0_1_35078_005<u8>
-Field_9_0_1_35078_006<32>
-Field_9_0_1_35078_007<32>
-Field_9_0_1_35078_008<32>
-Field_9_0_1_35078_009<u8>
-Field_9_0_1_35078_010<32>
-Field_9_0_1_35078_011<u16>
-Field_9_0_1_35078_012<32>
-Field_9_0_1_35078_013<u16>
-Field_9_0_1_35078_014<u16>
-Field_9_0_1_35078_015<32>
-Field_9_0_1_35078_016<u16>
-Field_9_0_1_35078_017<u16>
-Field_9_0_1_35078_018<32>
-Field_9_0_1_35078_019<u8>
-Field_9_0_1_35078_020<u16>
-Field_9_0_1_35078_021<u16>
-Field_9_0_1_35078_022<u16>
-Field_9_0_1_35078_023<u8>
+HordeName_lang
+AllianceName_lang
+Description_lang
+Tooltip_lang
+GarrTypeID<u8>
+BuildingType<u8>
+HordeGameObjectID<32>
+AllianceGameObjectID<32>
+GarrSiteID<32>
+UpgradeLevel<u8>
+BuildSeconds<32>
+CurrencyTypeID<u16>
+CurrencyQty<32>
+HordeUiTextureKitID<u16>
+AllianceUiTextureKitID<u16>
+IconFileDataID<32>
+AllianceSceneScriptPackageID<u16>
+HordeSceneScriptPackageID<u16>
+MaxAssignments<32>
+ShipmentCapacity<u8>
+GarrAbilityID<u16>
+BonusGarrAbilityID<u16>
+GoldCost<u16>
+Flags<u8>

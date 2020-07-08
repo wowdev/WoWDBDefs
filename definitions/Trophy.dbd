@@ -7,10 +7,6 @@ int<GameObjectDisplayInfo::ID> GameObjectDisplayInfoID
 locstring Name_lang
 int<PlayerCondition::ID> PlayerConditionID
 int<TrophyType::ID> TrophyTypeID
-locstring Field_9_0_1_35078_000_lang?
-int Field_9_0_1_35078_001?
-int Field_9_0_1_35078_002?
-int Field_9_0_1_35078_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -52,7 +48,7 @@ PlayerConditionID<u32>
 LAYOUT 27A846CD
 BUILD 9.0.1.35078
 $noninline,id$ID<32>
-Field_9_0_1_35078_000_lang
-Field_9_0_1_35078_001<u8>
-Field_9_0_1_35078_002<32>
-Field_9_0_1_35078_003<u32>
+Name_lang
+TrophyTypeID<u8>
+GameObjectDisplayInfoID<32>
+PlayerConditionID<u32>

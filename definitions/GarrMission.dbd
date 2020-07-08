@@ -78,38 +78,6 @@ int Field_7_3_2_25549_025?
 int Field_7_3_2_25549_026?
 int Field_7_3_2_25549_027?
 int Field_7_3_2_25549_028?
-locstring Field_9_0_1_35078_000_lang?
-locstring Field_9_0_1_35078_001_lang?
-locstring Field_9_0_1_35078_002_lang?
-float Field_9_0_1_35078_003?
-float Field_9_0_1_35078_004?
-int Field_9_0_1_35078_005?
-int Field_9_0_1_35078_006?
-int Field_9_0_1_35078_007?
-int Field_9_0_1_35078_008?
-int Field_9_0_1_35078_009?
-int Field_9_0_1_35078_010?
-int Field_9_0_1_35078_011?
-int Field_9_0_1_35078_012?
-int Field_9_0_1_35078_013?
-int Field_9_0_1_35078_014?
-int Field_9_0_1_35078_015?
-int Field_9_0_1_35078_016?
-int Field_9_0_1_35078_017?
-int Field_9_0_1_35078_018?
-int Field_9_0_1_35078_019?
-int Field_9_0_1_35078_020?
-int Field_9_0_1_35078_021?
-int Field_9_0_1_35078_022?
-int Field_9_0_1_35078_023?
-int Field_9_0_1_35078_024?
-int Field_9_0_1_35078_025?
-int Field_9_0_1_35078_026?
-int Field_9_0_1_35078_027?
-float Field_9_0_1_35078_028?
-int Field_9_0_1_35078_029?
-int Field_9_0_1_35078_030?
-int Field_9_0_1_35078_031?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -342,35 +310,35 @@ Field_7_3_2_25549_028<u32>
 
 LAYOUT 7F09A539
 BUILD 9.0.1.35078
-Field_9_0_1_35078_000_lang
-Field_9_0_1_35078_001_lang
-Field_9_0_1_35078_002_lang
-Field_9_0_1_35078_003[2]
-Field_9_0_1_35078_004[2]
-$id$Field_9_0_1_35078_005<32>
-Field_9_0_1_35078_006<u8>
-Field_9_0_1_35078_007<u8>
-Field_9_0_1_35078_008<u8>
-Field_9_0_1_35078_009<u8>
-Field_9_0_1_35078_010<u32>
-Field_9_0_1_35078_011<u16>
-Field_9_0_1_35078_012<u8>
-Field_9_0_1_35078_013<u16>
-Field_9_0_1_35078_014<u32>
-Field_9_0_1_35078_015<32>
-Field_9_0_1_35078_016<u32>
-Field_9_0_1_35078_017<8>
-Field_9_0_1_35078_018<u16>
-Field_9_0_1_35078_019<32>
-Field_9_0_1_35078_020<32>
-Field_9_0_1_35078_021<u32>
-Field_9_0_1_35078_022<u8>
-Field_9_0_1_35078_023<u32>
-Field_9_0_1_35078_024<u32>
-Field_9_0_1_35078_025<u8>
-Field_9_0_1_35078_026<u32>
-Field_9_0_1_35078_027<u32>
-Field_9_0_1_35078_028
-Field_9_0_1_35078_029<32>
-Field_9_0_1_35078_030<32>
-$noninline,relation$Field_9_0_1_35078_031<32>
+Name_lang
+Location_lang
+Description_lang
+MapPos[2]
+WorldPos[2]
+$id$ID<32>
+GarrTypeID<u8>
+GarrMissionTypeID<u8>
+GarrFollowerTypeID<u8>
+MaxFollowers<u8>
+MissionCost<u32>
+MissionCostCurrencyTypesID<u16>
+OfferedGarrMissionTextureID<u8>
+UiTextureKitID<u16>
+EnvGarrMechanicID<u32>
+EnvGarrMechanicTypeID<32>
+PlayerConditionID<u32>
+TargetLevel<8>
+TargetItemLevel<u16>
+MissionDuration<32>
+TravelDuration<32>
+OfferDuration<u32>
+BaseCompletionChance<u8>
+BaseFollowerXP<u32>
+OvermaxRewardPackID<u32>
+FollowerDeathChance<u8>
+AreaID<u32>
+Flags<u32>
+Field_9_0_1_33978_028
+Field_9_0_1_33978_029<32>
+Field_9_0_1_33978_030<32>
+$noninline,relation$GarrMissionSetID<32>

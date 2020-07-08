@@ -49,30 +49,6 @@ int Field_7_3_2_25549_019?
 int Field_7_3_2_25549_020?
 int Field_7_3_2_25549_021?
 int Field_7_3_2_25549_022?
-int Field_9_0_1_35078_000?
-locstring Field_9_0_1_35078_001_lang?
-locstring Field_9_0_1_35078_002_lang?
-int Field_9_0_1_35078_003?
-int Field_9_0_1_35078_004?
-int Field_9_0_1_35078_005?
-int Field_9_0_1_35078_006?
-int Field_9_0_1_35078_007?
-int Field_9_0_1_35078_008?
-int Field_9_0_1_35078_009?
-int Field_9_0_1_35078_010?
-int Field_9_0_1_35078_011?
-int Field_9_0_1_35078_012?
-int Field_9_0_1_35078_013?
-int Field_9_0_1_35078_014?
-int Field_9_0_1_35078_015?
-int Field_9_0_1_35078_016?
-int Field_9_0_1_35078_017?
-int Field_9_0_1_35078_018?
-int Field_9_0_1_35078_019?
-int Field_9_0_1_35078_020?
-int Field_9_0_1_35078_021?
-int Field_9_0_1_35078_022?
-int Field_9_0_1_35078_023?
 
 LAYOUT 3F026A14
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141
@@ -359,27 +335,27 @@ Field_7_3_2_25549_022<u32>
 
 LAYOUT B6932999
 BUILD 9.0.1.35078
-Field_9_0_1_35078_000<64>
-Field_9_0_1_35078_001_lang
-Field_9_0_1_35078_002_lang
-$id$Field_9_0_1_35078_003<u32>
-Field_9_0_1_35078_004<u16>
-Field_9_0_1_35078_005<u32>
-Field_9_0_1_35078_006<u32>
-Field_9_0_1_35078_007<16>
-Field_9_0_1_35078_008<u32>
-Field_9_0_1_35078_009<u32>
-Field_9_0_1_35078_010<u32>
-Field_9_0_1_35078_011<u32>
-Field_9_0_1_35078_012<u32>
-Field_9_0_1_35078_013<u32>
-Field_9_0_1_35078_014<u32>
-Field_9_0_1_35078_015<u32>
-Field_9_0_1_35078_016<u32>
-Field_9_0_1_35078_017<32>
-Field_9_0_1_35078_018<32>
-Field_9_0_1_35078_019<u32>
-Field_9_0_1_35078_020<32>
-Field_9_0_1_35078_021<32>
-Field_9_0_1_35078_022<32>[3]
-Field_9_0_1_35078_023<u32>[3]
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+$id$ID<u32>
+UniqueBitFlag<u16>
+ConditionID<u32>
+FiltActiveQuest<u32>
+FiltClasses<16>
+FiltCompletedQuestLogic<u32>
+FiltMaxFactionID<u32>
+FiltMaxFactionValue<u32>
+FiltMinFactionID<u32>
+FiltMinFactionValue<u32>
+FiltMinSkillID<u32>
+FiltMinSkillValue<u32>
+FiltNonActiveQuest<u32>
+BreadCrumbID<u32>
+StartItem<32>
+WorldStateExpressionID<32>
+QuestInfoID<u32>
+ContentTuningID<32>
+Field_9_0_1_33978_021<32>
+Field_8_2_0_30774_023<32>[3]
+FiltCompletedQuest<u32>[3]
