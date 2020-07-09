@@ -239,7 +239,7 @@ class definition_entry(Grammar):
     grammar_tags = ["ENTRY"]
 
 
-class definition(Grammar):
+class definitions(Grammar):
     grammar = (ONE_OR_MORE(G(definition_BUILD | definition_LAYOUT | definition_COMMENT, EOL, name="definition_header")),
                REPEAT(definition_entry, EOL)
               )
@@ -263,16 +263,15 @@ class definition(Grammar):
 
 
 class dbd_file(Grammar):
-    grammar = (L("COLUMNS"),
-               EOL,
-               REPEAT(column_definition, EOL),
-               EOL,
-               REPEAT(definition, EOF | EOL)
+    grammar = (L("COLUMNS"), EOL,
+               ONE_OR_MORE(column_definition, EOL),
+               ZERO_OR_MORE(ONE_OR_MORE(EOL), definitions),
+               ZERO_OR_MORE(EOL), EOF
                )
 
     def grammar_elem_init(self, sessiondata):
         self.columns = [x[0] for x in self.elements[2]]
-        self.definitions = [x[0] for x in self.elements[4]]
+        self.definitions = [x[1] for x in self.elements[3]]
 
 
 dbd_parser = dbd_file.parser()
