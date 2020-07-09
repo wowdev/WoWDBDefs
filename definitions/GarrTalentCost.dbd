@@ -1,13 +1,13 @@
 COLUMNS
 int GoldCost?
-int ID?
-int<GarrTalentTree::ID> GarrTalentTreeID?
-int<GarrTalent::ID> GarrTalentID?
+int ID
+int<GarrTalentTree::ID> GarrTalentTreeID
+int<GarrTalent::ID> GarrTalentID
 int NthTalentChoice? // instead of giving cost per GarrTalentID and GarrTalentRankID, give cost depending on number of chosen talents in this tree
-int<GarrTalentRank::ID> GarrTalentRankID?
-int CostType // 0: Initial, 1: Respec, 2: MakePermanent
-int<CurrencyTypes::ID> CurrencyTypeID?
-int CurrencyQuantity?
+int<GarrTalentRank::ID> GarrTalentRankID
+int CostType // 0: Initial, 1: Respec, 2: MakePermanent, 3: TreeReset (soulbinds)
+int<CurrencyTypes::ID> CurrencyTypeID
+int CurrencyQuantity
 
 LAYOUT A5152E26
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078
