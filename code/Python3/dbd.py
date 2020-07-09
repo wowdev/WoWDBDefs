@@ -36,8 +36,11 @@ def parse_dbd(content):
 
 
 def parse_dbd_file(path):
-    with open(path) as f:
-        return parse_dbd(f.read())
+    try:
+        with open(path) as f:
+            return parse_dbd(f.read())
+    except Exception as ex:
+        raise Exception('failed to parse dbd file "{}"'.format (path)) from ex
 
 
 file_suffix = ".dbd"
