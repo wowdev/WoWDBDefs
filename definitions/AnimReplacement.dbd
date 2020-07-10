@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int<Animation::ID> SrcAnimID
-int<Animation::ID> DstAnimID
+int<AnimationData::ID> SrcAnimID
+int<AnimationData::ID> DstAnimID
 int<AnimReplacementSet::ID> ParentAnimReplacementSetID
 int ConditionalFlags
 
