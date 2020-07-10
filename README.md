@@ -12,7 +12,6 @@ Project goals:
 
 Cool stuff we might end up doing if this gets enough traction:
 - Repository will feed automated updates on WoWDev.wiki
-- Pull requests are automatically checked for validity
 - More? Open an issue if you have any ideas
 
 ## DBD Format
