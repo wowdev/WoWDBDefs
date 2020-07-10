@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<ItemBonusList::ID> ItemBonusListID
 int<Spell::ID> SpellID
-int SpecSetID
+int<SpecSetMember::SpecSet> SpecSetID
 int Flags
 
 LAYOUT 840FEE59, 338E0601

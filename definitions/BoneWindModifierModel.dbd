@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int BoneWindModifierID
+int<BoneWindModifiers::ID> BoneWindModifierID
 int<FileData::ID> FileDataID
 
 LAYOUT 577A0772, 77B007CA, 7672F976

@@ -4,7 +4,7 @@ int Condition_ID
 locstring Name_lang
 locstring Name1_lang
 int Mask_ID
-int Flags
+int Flags // &1: npc-only, &4: suppress earned/lost chat message
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11927-4.3.4.15595

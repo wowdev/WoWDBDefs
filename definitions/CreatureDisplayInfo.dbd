@@ -9,7 +9,7 @@ string TextureVariation
 string PortraitTextureName
 int<CreatureDisplayInfo::ID> PortraitCreatureDisplayInfoID
 int SizeClass
-int BloodID
+int<UnitBlood::ID> BloodID
 int<NPCSounds::ID> NPCSoundID
 int<ParticleColor::ID> ParticleColorID
 int CreatureGeosetData
@@ -26,7 +26,7 @@ int<FileData::ID> PortraitTextureFileDataID
 int<FileData::ID> TextureVariationFileDataID
 int UnarmedWeaponType
 int CreatureModelMinLod
-int DissolveOutEffectID
+int<DissolveEffect::ID> DissolveOutEffectID
 int Field_7_3_2_25549_000?
 float Field_7_3_2_25549_001?
 int Field_7_3_2_25549_002?

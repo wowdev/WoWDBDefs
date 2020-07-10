@@ -4,7 +4,7 @@ int<Languages::ID> LanguageID
 int<Emotes::ID> EmoteID
 int<SoundEntries::ID> SoundEntriesID
 int<SoundKit::ID> SoundKitID
-int ConditionID
+int<PlayerCondition::ID> ConditionID
 int EmoteDelay
 int<Emotes::ID> EmotesID
 int Flags

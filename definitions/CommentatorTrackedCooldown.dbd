@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ChrSpecID
+int<ChrSpecialization::ID> ChrSpecID
 int Flags
 int Priority
 int<Spell::ID> SpellID

@@ -17,7 +17,7 @@ int<Faction::ID> FactionID
 int<ItemGroupSounds::ID> ItemGroupSoundsID?
 int ConvertToPlayerExperience?
 int<PlayerCondition::ID> PlayerConditionID?
-int Field_9_0_1_34972_013?
+int Field_9_0_1_34972_013? // key into data sent by the server
 locstring Field_7_3_2_25549_000_lang?
 int Field_7_3_2_25549_001?
 int Field_7_3_2_25549_002?

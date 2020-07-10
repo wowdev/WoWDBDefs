@@ -13,7 +13,7 @@ locstring Name_lang
 locstring Description_lang
 int MaxBuffs
 int PrimaryStatOrder
-int AnimReplacements
+int<AnimReplacementSet::ID> AnimReplacements
 locstring FemaleName_lang
 int PrimaryStatPriority
 int<FileData::ID> SpellIconFileID

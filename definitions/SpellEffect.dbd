@@ -12,7 +12,7 @@ int EffectChainTargets
 int EffectDieSides
 int EffectItemType
 int EffectMechanic
-int EffectMiscValue
+int EffectMiscValue // EA=313: AnimReplacementSetID
 float EffectPointsPerResource
 int EffectRadiusIndex
 float EffectRealPointsPerLevel

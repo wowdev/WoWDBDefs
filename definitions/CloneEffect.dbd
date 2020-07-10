@@ -6,7 +6,7 @@ int FadeInTimeMs
 int FadeOutTimeMs
 int<SpellVisualKit::ID> StateSpellVisualKitID
 int<SpellVisualKit::ID> StartSpellVisualKitID
-int OffsetMatrixID
+int<TransformMatrix::ID> OffsetMatrixID
 int Flags
 
 LAYOUT 2F946F74, E91DA548

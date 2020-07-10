@@ -15,7 +15,7 @@ int Minimum_criteria
 int<Achievement::ID> Shares_criteria
 int<CriteriaTree::ID> Criteria_tree
 int<FileData::ID> IconFileID
-int RewardItemID?
+int<Item::ID> RewardItemID
 locstring Field_7_3_0_24473_000_lang?
 locstring Field_7_3_0_24473_001_lang?
 int Field_7_3_0_24473_002?

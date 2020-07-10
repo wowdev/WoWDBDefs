@@ -1,6 +1,6 @@
 COLUMNS
 string ParamLabel
-int ParamTypeEnum
+int ParamTypeEnum // 1: param is BattlePetAbilityID
 int ID
 int<BattlePetVisual::ID> BattlePetVisualID
 

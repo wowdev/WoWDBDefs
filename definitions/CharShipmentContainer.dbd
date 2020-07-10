@@ -2,20 +2,20 @@ COLUMNS
 int ID
 int BaseCapacity
 int<SpellVisual::ID> CompleteSpellVisualID
-int CrossFactionID
+int<CharShipmentContainer::ID> CrossFactionID // the corresponding container on the other faction
 locstring Description_lang
-int Faction
-int GarrBuildingType
+int Faction // -1 for both, 0: Horde, 1: Alliance
+int<GarrBuilding::BuildingType> GarrBuildingType // also used to map to hardcoded list of quests (eg 16 -> 37568/36641)
 int<GarrType::ID> GarrTypeID
-int LargeDisplayInfoID
+int<GameObjectDisplayInfo::ID> LargeDisplayInfoID
 int LargeThreshold
-int MediumDisplayInfoID
+int<GameObjectDisplayInfo::ID> MediumDisplayInfoID
 int MediumThreshold
 locstring PendingText_lang
-int SmallDisplayInfoID
+int<GameObjectDisplayInfo::ID> SmallDisplayInfoID
 int<UiTextureKit::ID> UiTextureKitID
-int WorkingDisplayInfoID
-int<SpellVisual::ID> WorkingSpellVisualID
+int<GameObjectDisplayInfo::ID> WorkingDisplayInfoID // used by gameobject code to determine if in "in progress" state...
+int<SpellVisual::ID> WorkingSpellVisualID // if both are same as in gameobject mirrors, it is in progress
 
 BUILD 6.0.1.18179
 $id$ID<32>

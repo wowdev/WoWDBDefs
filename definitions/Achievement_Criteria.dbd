@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Achievement_ID
+int<Achievement::ID> Achievement_ID
 int Type
 int Asset_ID
 int Quantity

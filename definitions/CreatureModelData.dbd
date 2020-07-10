@@ -4,12 +4,12 @@ int Flags
 int<FileData::ID> FileDataID
 int SizeClass
 float ModelScale
-int BloodID
+int<UnitBlood::ID> BloodID
 int<FootprintTextures::ID> FootprintTextureID
 float FootprintTextureLength
 float FootprintTextureWidth
 float FootprintParticleScale
-int FoleyMaterialID
+int<Material::ID> FoleyMaterialID
 int FootstepShakeSize
 int DeathThudShakeSize
 int<CreatureSoundData::ID> SoundID
@@ -27,7 +27,7 @@ float OverrideLootEffectScale
 float OverrideNameScale
 float OverrideSelectionRadius
 float TamedPetBaseScale
-int CreatureGeosetDataID
+int CreatureGeosetDataID // unshipped, used as indicator to scan CreatureDisplayInfoGeosetData for this model
 float HoverHeight
 int<CameraEffect::ID> DeathThudCameraEffectID
 int<CameraEffect::ID> FootstepCameraEffectID

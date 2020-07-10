@@ -18,7 +18,7 @@ int PoiData
 int PoiDataType
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int WMOGroupID
-int UiWidgetParentSetID?
+int<UiWidgetSet::ID> UiWidgetSetID
 int Field_8_1_5_28938_015?
 int Field_7_3_2_25549_000?
 float Field_7_3_2_25549_001?
@@ -165,7 +165,7 @@ PoiData<32>
 $relation$ContinentID<u16>
 AreaID<16>
 WorldStateID<u16>
-UiWidgetParentSetID<u16>
+UiWidgetSetID<u16>
 Importance<u8>
 Icon<u8>
 PortLocID<32>
@@ -215,7 +215,7 @@ PoiData<32>
 $relation$ContinentID<u16>
 AreaID<16>
 WorldStateID<u16>
-UiWidgetParentSetID<u16>
+UiWidgetSetID<u16>
 Importance<u8>
 Icon<u8>
 
@@ -240,7 +240,7 @@ PoiData<32>
 $relation$ContinentID<u16>
 AreaID<16>
 WorldStateID<u16>
-UiWidgetParentSetID<u16>
+UiWidgetSetID<u16>
 Field_8_1_5_28938_015<u16>
 Importance<u8>
 Icon<u8>

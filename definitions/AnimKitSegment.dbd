@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<AnimKit::ID> ParentAnimKitID
 int OrderIndex
-int AnimID
+int<AnimationData::ID> AnimID
 int AnimStartTime
 int<AnimKitConfig::ID> AnimKitConfigID
 int StartCondition

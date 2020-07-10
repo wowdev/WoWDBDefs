@@ -1,6 +1,6 @@
 COLUMNS
-int ID?
-int<Covenant::ID> CovenantID?
+int ID
+int<Covenant::ID> CovenantID
 int<UiMap::ID> UiMapID // used for zone name
 int<UiTextureAtlasElement::ID> Crest
 int<TransmogSet::ID> TransmogSetID0 // whatever set is the first the player can use wins
@@ -9,7 +9,7 @@ int<TransmogSet::ID> TransmogSetID2 // whatever set is the first the player can 
 int<TransmogSet::ID> TransmogSetID3 // whatever set is the first the player can use wins
 int<UiTextureKit::ID> TextureKit
 int<Mount::ID> MountID
-int Field_9_0_1_33978_007?
+int PlayerChoiceResponseID
 int Field_9_0_1_33978_008?
 int Field_9_0_1_34902_009?
 
@@ -22,7 +22,7 @@ Crest<32>
 TransmogSetID0<32>
 TextureKit<32>
 MountID<32>
-Field_9_0_1_33978_007<32>
+PlayerChoiceResponseID<32>
 Field_9_0_1_33978_008<32>
 
 LAYOUT A815C8C7
@@ -34,7 +34,7 @@ Crest<32>
 TransmogSetID0<32>
 TextureKit<32>
 MountID<32>
-Field_9_0_1_33978_007<32>
+PlayerChoiceResponseID<32>
 Field_9_0_1_33978_008<32>
 Field_9_0_1_34902_009<32>
 TransmogSetID1<32>

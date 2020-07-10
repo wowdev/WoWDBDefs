@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int AreaID
-int Flags
+int<AreaTable::ID> AreaID
+int Flags // &1: s_globals &= ~0x2000, &2: s_globals &= ~0x182
 float MinFarClip
 float MinHorizonStart
 
