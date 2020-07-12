@@ -2,10 +2,10 @@ COLUMNS
 int ID
 string Name
 int<ObjectEffectGroup::ID> ObjectEffectGroupID
-int TriggerType
+int TriggerType // 1: ???, 2: ???, 3: ???, 4: ???
 int EventType
-int EffectRecType
-int EffectRecID
+int EffectRecType // 1: LoopingSound
+int<SoundKit::ID> EffectRecID // ERT == 1: SoundKitID; as that's the only type present, made it a fk for now.
 int Attachment
 float Offset
 int<ObjectEffectModifier::ID> ObjectEffectModifierID

@@ -1,10 +1,10 @@
 COLUMNS
-locstring Name_lang?
-int ID?
+locstring Name_lang
+int ID
 int<SpecSetMember::SpecSet> SpecSetID
-int InventoryTypeMask?
+int InventoryTypeMask // 1 << Item::InventoryType
 int<Spell::ID> SpellID
-int<ItemBonusList::ID> ItemBonusListID?
+int<ItemBonusTreeNode::ParentItemBonusTreeID> ItemBonusTreeID
 int<PlayerCondition::ID> PlayerConditionID
 int Field_9_0_1_34972_007?
 
@@ -15,7 +15,7 @@ $id$ID<32>
 SpecSetID<32>
 InventoryTypeMask<32>
 SpellID<32>
-ItemBonusListID<32>
+ItemBonusTreeID<32>
 
 LAYOUT 53F9052C
 BUILD 9.0.1.34902
@@ -24,7 +24,7 @@ $id$ID<32>
 SpecSetID<32>
 InventoryTypeMask<32>
 SpellID<32>
-ItemBonusListID<32>
+ItemBonusTreeID<32>
 PlayerConditionID<32>
 
 LAYOUT F3B2FAE8
@@ -34,6 +34,6 @@ $id$ID<32>
 SpecSetID<32>
 InventoryTypeMask<32>
 SpellID<32>
-ItemBonusListID<32>
+ItemBonusTreeID<32>
 PlayerConditionID<32>
 Field_9_0_1_34972_007<32>

@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int CollisionHull
+int<FileData::ID> CollisionHull?
 float Facing
 int Flags
 int GameEventID
@@ -8,8 +8,8 @@ int GameObjectID
 int MultiPropertiesID
 float Offset
 int StateIndex
-int TransitionInID
-int TransitionOutID
+int<MultiTransitionProperties::ID> TransitionInID
+int<MultiTransitionProperties::ID> TransitionOutID
 int<SpellVisualKit::ID> SpellVisualKitID
 
 LAYOUT E44B382C, D06E1904
