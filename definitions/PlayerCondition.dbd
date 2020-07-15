@@ -658,13 +658,13 @@ Field_7_3_2_25549_028<32>[2]
 $noninline,relation$Field_7_3_2_25549_029<16>
 
 LAYOUT 19151309
-BUILD 9.0.1.35078
+BUILD 9.0.1.35078, 9.0.1.35167
 RaceMask<64>
 Failure_description_lang
 $id$ID<32>
 ClassMask<32>
 SkillLogic<u32>
-LanguageID<u8>
+LanguageID<8>
 MinLanguage<u8>
 MaxLanguage<32>
 MaxFactionID<u16>
@@ -689,7 +689,7 @@ NativeGender<8>
 AreaLogic<u32>
 LfgLogic<u32>
 CurrencyLogic<u32>
-QuestKillID<u16>
+QuestKillID<16>
 QuestKillLogic<u32>
 MinExpansionLevel<8>
 MaxExpansionLevel<8>
