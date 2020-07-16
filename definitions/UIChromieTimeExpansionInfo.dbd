@@ -8,13 +8,6 @@ int<UiTextureAtlasElement::ID> UiTextureAtlasElementSmall?
 int<PlayerCondition::ID> ConditionID?
 int Mask_9_0_1_34821_007? // The way ModifierTree references these, type 301.
 locstring Field_9_0_1_35167_000_lang?
-locstring Field_9_0_1_35167_001_lang?
-int Field_9_0_1_35167_002?
-int Field_9_0_1_35167_003?
-int Field_9_0_1_35167_004?
-int Field_9_0_1_35167_005?
-int Field_9_0_1_35167_006?
-int Field_9_0_1_35167_007?
 int Field_9_0_1_35167_008?
 
 LAYOUT 774183A9
@@ -41,11 +34,11 @@ Mask_9_0_1_34821_007<32>
 LAYOUT BD07FADF
 BUILD 9.0.1.35167
 Field_9_0_1_35167_000_lang
-Field_9_0_1_35167_001_lang
-$id$Field_9_0_1_35167_002<32>
-Field_9_0_1_35167_003<32>
-Field_9_0_1_35167_004<32>
-Field_9_0_1_35167_005<32>
-Field_9_0_1_35167_006<32>
-Field_9_0_1_35167_007<32>
+Name_lang
+$id$ID<32>
+SpellID<32>
+UiTextureAtlasElementLarge<32>
+UiTextureAtlasElementSmall<32>
+ConditionID<32>
+Mask_9_0_1_34821_007<32>
 Field_9_0_1_35167_008<32>

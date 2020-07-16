@@ -104,56 +104,8 @@ int Field_7_3_2_25549_029?
 int Field_7_3_2_25549_030?
 int Field_7_3_2_25549_031?
 int Field_7_3_2_25549_032?
-string Field_9_0_1_35167_000?
-string Field_9_0_1_35167_001?
-locstring Field_9_0_1_35167_002_lang?
-locstring Field_9_0_1_35167_003_lang?
-locstring Field_9_0_1_35167_004_lang?
-locstring Field_9_0_1_35167_005_lang?
-locstring Field_9_0_1_35167_006_lang?
-locstring Field_9_0_1_35167_007_lang?
-locstring Field_9_0_1_35167_008_lang?
-locstring Field_9_0_1_35167_009_lang?
-locstring Field_9_0_1_35167_010_lang?
-locstring Field_9_0_1_35167_011_lang?
-locstring Field_9_0_1_35167_012_lang?
-locstring Field_9_0_1_35167_013_lang?
-locstring Field_9_0_1_35167_014_lang?
-int Field_9_0_1_35167_015?
-int Field_9_0_1_35167_016?
-int Field_9_0_1_35167_017?
-int Field_9_0_1_35167_018?
-int Field_9_0_1_35167_019?
-int Field_9_0_1_35167_020?
-int Field_9_0_1_35167_021?
-int Field_9_0_1_35167_022?
-int Field_9_0_1_35167_023?
-int Field_9_0_1_35167_024?
-int Field_9_0_1_35167_025?
-int Field_9_0_1_35167_026?
-int Field_9_0_1_35167_027?
-int Field_9_0_1_35167_028?
-int Field_9_0_1_35167_029?
-int Field_9_0_1_35167_030?
 float Field_9_0_1_35167_031?
 float Field_9_0_1_35167_032?
-int Field_9_0_1_35167_033?
-int Field_9_0_1_35167_034?
-int Field_9_0_1_35167_035?
-int Field_9_0_1_35167_036?
-int Field_9_0_1_35167_037?
-int Field_9_0_1_35167_038?
-int Field_9_0_1_35167_039?
-int Field_9_0_1_35167_040?
-int Field_9_0_1_35167_041?
-int Field_9_0_1_35167_042?
-int Field_9_0_1_35167_043?
-int Field_9_0_1_35167_044?
-int Field_9_0_1_35167_045?
-int Field_9_0_1_35167_046?
-int Field_9_0_1_35167_047?
-int Field_9_0_1_35167_048?
-int Field_9_0_1_35167_049?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -882,53 +834,53 @@ Field_9_0_1_34714_047<8>
 
 LAYOUT 85A50CA9
 BUILD 9.0.1.35167
-Field_9_0_1_35167_000
-Field_9_0_1_35167_001
-Field_9_0_1_35167_002_lang
-Field_9_0_1_35167_003_lang
-Field_9_0_1_35167_004_lang
-Field_9_0_1_35167_005_lang
-Field_9_0_1_35167_006_lang
-Field_9_0_1_35167_007_lang
-Field_9_0_1_35167_008_lang
-Field_9_0_1_35167_009_lang
-Field_9_0_1_35167_010_lang
-Field_9_0_1_35167_011_lang
-Field_9_0_1_35167_012_lang
-Field_9_0_1_35167_013_lang
-Field_9_0_1_35167_014_lang
-$id$Field_9_0_1_35167_015<32>
-Field_9_0_1_35167_016<32>
-Field_9_0_1_35167_017<32>
-Field_9_0_1_35167_018<32>
-Field_9_0_1_35167_019<32>
-Field_9_0_1_35167_020<32>
-Field_9_0_1_35167_021<32>
-Field_9_0_1_35167_022<32>
-Field_9_0_1_35167_023<u32>[3]
-Field_9_0_1_35167_024<u32>[3]
-Field_9_0_1_35167_025<32>
-Field_9_0_1_35167_026<32>
-Field_9_0_1_35167_027<32>
-Field_9_0_1_35167_028<32>
-Field_9_0_1_35167_029<32>
-Field_9_0_1_35167_030<32>
+ClientPrefix
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Name_RS_lang
+Name_RS_female_lang
+Name_RS_lowercase_lang
+Name_RS_female_lowercase_lang
+RaceFantasyDescription_lang
+Name_RL_lang
+Name_RL_female_lang
+Name_RL_lowercase_lang
+Name_RL_female_lowercase_lang
+$id$ID<32>
+Flags<32>
+BaseLanguage<32>
+ResSicknessSpellID<32>
+SplashSoundID<32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+LowResScreenFileDataID<32>
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
+HeritageArmorAchievementID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+PlayableRaceBit<32>
+BaseRaceID<32>
+TransmogrifyDisabledSlotMask<32>
 Field_9_0_1_35167_031[3]
 Field_9_0_1_35167_032
-Field_9_0_1_35167_033<16>
-Field_9_0_1_35167_034<16>
-Field_9_0_1_35167_035<8>
-Field_9_0_1_35167_036<8>
-Field_9_0_1_35167_037<8>
-Field_9_0_1_35167_038<8>
-Field_9_0_1_35167_039<8>
-Field_9_0_1_35167_040<8>
-Field_9_0_1_35167_041<8>
-Field_9_0_1_35167_042<8>
-Field_9_0_1_35167_043<8>
-Field_9_0_1_35167_044<8>
-Field_9_0_1_35167_045<8>
-Field_9_0_1_35167_046<8>
-Field_9_0_1_35167_047<8>
-Field_9_0_1_35167_048<8>
-Field_9_0_1_35167_049<8>
+FactionID<16>
+CinematicSequenceID<16>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
+Field_9_0_1_34714_047<8>
