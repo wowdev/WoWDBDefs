@@ -1,13 +1,13 @@
 COLUMNS
-locstring Name_lang?
-locstring Description_lang?
-int ID?
-int<Spell::ID> SpellID?
-int<UiTextureAtlasElement::ID> UiTextureAtlasElementLarge?
-int<UiTextureAtlasElement::ID> UiTextureAtlasElementSmall?
-int<PlayerCondition::ID> ConditionID?
+locstring Name_lang
+locstring Description_lang
+int ID
+int<Spell::ID> SpellID
+int<UiTextureAtlasElement::ID> UiTextureAtlasElementLarge
+int<UiTextureAtlasElement::ID> UiTextureAtlasElementSmall
+int<PlayerCondition::ID> ConditionID
 int Mask_9_0_1_34821_007? // The way ModifierTree references these, type 301.
-int Field_9_0_1_35167_008?
+int<ContentTuning::ID> ContentTuningID
 
 LAYOUT 774183A9
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714
@@ -40,4 +40,4 @@ UiTextureAtlasElementLarge<32>
 UiTextureAtlasElementSmall<32>
 ConditionID<32>
 Mask_9_0_1_34821_007<32>
-Field_9_0_1_35167_008<32>
+ContentTuningID<32>
