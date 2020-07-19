@@ -7,7 +7,7 @@ int<PlayerCondition::ID> PlayerConditionID
 int<UiWidgetVisualization::ID> VisID
 string WidgetTag
 int Field_8_2_5_31337_006? // flag? 1: UniversalWidget
-int Field_9_0_1_34490_008? // layout direction? 0: Default, 1: Vertical, 2: Horizontal
+int LayoutDirection // layout direction? 0: Default, 1: Vertical, 2: Horizontal, 3: Overlap
 
 LAYOUT AA1F4096
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
@@ -98,4 +98,4 @@ MapID<32>
 PlayerConditionID<32>
 OrderIndex<32>
 Field_8_2_5_31337_006<32>
-Field_9_0_1_34490_008<8>
+LayoutDirection<8>
