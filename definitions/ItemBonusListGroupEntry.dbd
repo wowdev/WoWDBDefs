@@ -5,12 +5,7 @@ int<ItemLevelSelector::ID> ItemLevelSelectorID?
 int OrderIndex?
 int<ItemExtendedCost::ID> ItemExtendedCostID?
 int ItemBonusListGroupID?
-int Field_9_0_1_35256_000?
-int Field_9_0_1_35256_001?
-int Field_9_0_1_35256_002?
-int Field_9_0_1_35256_003?
-int Field_9_0_1_35256_004?
-int Field_9_0_1_35256_005?
+int<PlayerCondition::ID> UnlockCondition?
 
 LAYOUT 87A0CA78, CA17B2FF
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213
@@ -28,9 +23,9 @@ $noninline,relation$ItemBonusListGroupID<32>
 LAYOUT F4AE1EB0
 BUILD 9.0.1.35256
 $noninline,id$ID<32>
-Field_9_0_1_35256_000<32>
-Field_9_0_1_35256_001<32>
-Field_9_0_1_35256_002<32>
-Field_9_0_1_35256_003<32>
-Field_9_0_1_35256_004<32>
-$noninline,relation$Field_9_0_1_35256_005<32>
+ItemBonusListID<32>
+ItemLevelSelectorID<32>
+OrderIndex<32>
+ItemExtendedCostID<32>
+UnlockCondition<32>
+$noninline,relation$ItemBonusListGroupID<32>

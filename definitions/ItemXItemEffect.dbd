@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_9_0_1_35256_000?
-int Field_9_0_1_35256_001?
+int<ItemEffect::ID> ItemEffectID
+int<Item::ID> ItemID
 
 LAYOUT 5D602214
 BUILD 9.0.1.35256
 $noninline,id$ID<32>
-Field_9_0_1_35256_000<32>
-$noninline,relation$Field_9_0_1_35256_001<32>
+ItemEffectID<32>
+$noninline,relation$ItemID<32>
