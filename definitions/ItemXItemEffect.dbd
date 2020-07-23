@@ -4,7 +4,7 @@ int<ItemEffect::ID> ItemEffectID
 int<Item::ID> ItemID
 
 LAYOUT 5D602214
-BUILD 9.0.1.35256
+BUILD 9.0.1.35256, 9.0.1.35282
 $noninline,id$ID<32>
 ItemEffectID<32>
 $noninline,relation$ItemID<32>
