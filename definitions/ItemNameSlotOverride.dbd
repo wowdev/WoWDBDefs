@@ -8,5 +8,5 @@ LAYOUT 3333801A
 BUILD 9.0.1.35256, 9.0.1.35282
 $noninline,id$ID<32>
 Description_lang
-InventoryType<u32>
+InventoryTypeMask<u32>
 $noninline,relation$ItemNameDescriptionID<32>
