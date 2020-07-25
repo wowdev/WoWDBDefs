@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-locstring Description_lang?
-int Field_9_0_1_35256_001?
-int<ItemNameDescription::ID> ItemNameDescriptionID?
+locstring Description_lang
+int InventoryTypeMask // 1 << Item::InventoryType
+int<ItemNameDescription::ID> ItemNameDescriptionID
 
 LAYOUT 3333801A
 BUILD 9.0.1.35256, 9.0.1.35282
 $noninline,id$ID<32>
 Description_lang
-Field_9_0_1_35256_001<u32>
+InventoryType<u32>
 $noninline,relation$ItemNameDescriptionID<32>

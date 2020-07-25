@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int RecipeProgressionGroupID?
-int<SkillLineAbility::ID> SkillLineAbilityID?
+int<SkillLineAbility::ID> SkillLineAbilityID
 int Order? // ascending per group
 int Field_9_0_1_35256_003?
 int Field_9_0_1_35256_004?
