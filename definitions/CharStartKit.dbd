@@ -15,6 +15,22 @@ float Field_9_0_1_35167_001?
 float Field_9_0_1_35167_011?
 float Field_9_0_1_35256_002?
 float Field_9_0_1_35256_003?
+locstring Field_9_0_1_35360_000_lang?
+float Field_9_0_1_35360_001?
+float Field_9_0_1_35360_002?
+float Field_9_0_1_35360_003?
+int Field_9_0_1_35360_004?
+int Field_9_0_1_35360_005?
+int Field_9_0_1_35360_006?
+int Field_9_0_1_35360_007?
+int Field_9_0_1_35360_008?
+int Field_9_0_1_35360_009?
+int Field_9_0_1_35360_010?
+int Field_9_0_1_35360_011?
+int Field_9_0_1_35360_012?
+float Field_9_0_1_35360_013?
+int Field_9_0_1_35360_014?
+int Field_9_0_1_35360_015?
 
 LAYOUT CC89E761
 BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
@@ -108,3 +124,23 @@ GroundSpellVisualKitID<32>
 Field_9_0_1_34821_009<32>
 Field_9_0_1_35167_011
 $noninline,relation$ChrRacesID<u8>
+
+LAYOUT 25F9934B
+BUILD 9.0.1.35360
+$noninline,id$ID<32>
+Field_9_0_1_35360_000_lang
+Field_9_0_1_35360_001[3]
+Field_9_0_1_35360_002[3]
+Field_9_0_1_35360_003[3]
+Field_9_0_1_35360_004<u8>
+Field_9_0_1_35360_005<32>
+Field_9_0_1_35360_006<32>
+Field_9_0_1_35360_007<32>
+Field_9_0_1_35360_008<32>
+Field_9_0_1_35360_009<32>
+Field_9_0_1_35360_010<32>
+Field_9_0_1_35360_011<32>
+Field_9_0_1_35360_012<32>
+Field_9_0_1_35360_013
+Field_9_0_1_35360_014<32>
+$noninline,relation$Field_9_0_1_35360_015<u8>
