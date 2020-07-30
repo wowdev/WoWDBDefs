@@ -1,22 +1,22 @@
 COLUMNS
 int ID
-locstring Name_lang?
-int<PvpTier::ID> PrevTier?
-int<PvpTier::ID> NextTier?
-int MinRating?
-int MaxRating?
-int<PVPBracketTypes::BracketID> BracketID?
-int Rank?
-int RankIcon?
+locstring Name_lang
+int<PvpTier::ID> PrevTier
+int<PvpTier::ID> NextTier
+int MinRating // If below, go to PrevTier
+int MaxRating // If above, go to NextTier
+int<PVPBracketTypes::BracketID> BracketID // 0: 2v2, 1: 3v3, 2: 5v5, 3: RatedBG
+int Rank
+int<FileData::ID> RankIcon
 
 LAYOUT 070D6F9D
 BUILD 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
 $noninline,id$ID<32>
 Name_lang
-MinRating<32>
-MaxRating<32>
 PrevTier<16>
 NextTier<16>
+MinRating<32>
+MaxRating<32>
 $relation$BracketID<8>
 Rank<8>
 
@@ -24,11 +24,11 @@ LAYOUT 57A2CE7A
 BUILD 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
 $noninline,id$ID<32>
 Name_lang
-MinRating<32>
-MaxRating<32>
-RankIcon<32>
 PrevTier<16>
 NextTier<16>
+RankIcon<32>
+MinRating<32>
+MaxRating<32>
 $relation$BracketID<8>
 Rank<8>
 
@@ -36,10 +36,10 @@ LAYOUT 031419E1
 BUILD 8.0.1.26788, 8.0.1.26806
 $noninline,id$ID<32>
 Name_lang
-PrevTier<16>
-NextTier<16>
 MinRating<32>
 MaxRating<32>
+PrevTier<16>
+NextTier<16>
 $relation$BracketID<8>
 Rank<8>
 RankIcon<32>
@@ -57,10 +57,10 @@ BUILD 1.13.3.32790, 1.13.3.32836, 1.13.3.32887, 1.13.3.33155, 1.13.3.33302, 1.13
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13.2.30232, 1.13.2.30265, 1.13.2.30287, 1.13.2.30406, 1.13.2.30550, 1.13.2.30682, 1.13.2.30786, 1.13.2.30862, 1.13.2.30901, 1.13.2.30979, 1.13.2.31043, 1.13.2.31118, 1.13.2.31209, 1.13.2.31402, 1.13.2.31407, 1.13.2.31446, 1.13.2.31650, 1.13.2.31687, 1.13.2.31727, 1.13.2.31830, 1.13.2.31882, 1.13.2.32089, 1.13.2.32421, 1.13.2.32600
 $noninline,id$ID<32>
 Name_lang
-PrevTier<16>
-NextTier<16>
 MinRating<32>
 MaxRating<32>
+PrevTier<16>
+NextTier<16>
 $relation$BracketID<8>
 Rank<8>
 RankIcon<32>
@@ -71,10 +71,10 @@ BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284
 BUILD 8.3.0.32861, 8.3.0.32976, 8.3.0.33010, 8.3.0.33051, 8.3.0.33062, 8.3.0.33073, 8.3.0.33084, 8.3.0.33095, 8.3.0.33115, 8.3.0.33169, 8.3.0.33183, 8.3.0.33237, 8.3.0.33369, 8.3.0.33528, 8.3.0.33724, 8.3.0.33775, 8.3.0.33941, 8.3.0.34220, 8.3.0.34601, 8.3.0.34769, 8.3.0.34963
 Name_lang
 $id$ID<32>
-PrevTier<16>
-NextTier<16>
 MinRating<32>
 MaxRating<32>
+PrevTier<16>
+NextTier<16>
 $relation$BracketID<8>
 Rank<8>
 RankIcon<32>

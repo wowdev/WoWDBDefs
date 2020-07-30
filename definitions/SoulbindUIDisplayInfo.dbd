@@ -7,7 +7,7 @@ int<UiModelSceneActor::ID> ModelSceneActorID
 int<UiTextureAtlasElement::ID> Portrait
 int<UiTextureKit::ID> TextureKitID
 int OrderIndex // per covenant
-int GlobalOrderIndex? // across covenants, might be an enum as well
+int GlobalOrderIndex? // across covenants, might be cvarIndex
 
 LAYOUT C41BBE90
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199

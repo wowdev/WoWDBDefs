@@ -9,7 +9,7 @@ int<PlayerCondition::ID> RequiredPlayerConditionID? // require met
 int<PlayerCondition::ID> ForbiddenPlayerConditionID? // require not met
 int<UiQuestDetailsTheme::ID> UiQuestDetailsThemeID?
 int Field_9_0_1_33978_009?
-int Field_9_0_1_35360_008?
+int Field_9_0_1_35360_008? // useNormalQuestIcons?
 
 LAYOUT 0B271FD9
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
