@@ -7,13 +7,6 @@ int<UiModelSceneActor::ID> ModelSceneActorID
 int<UiTextureAtlasElement::ID> Portrait
 int<UiTextureKit::ID> TextureKitID
 int OrderIndex // per covenant
-locstring Field_9_0_1_35360_000_lang?
-int Field_9_0_1_35360_001?
-int Field_9_0_1_35360_002?
-int Field_9_0_1_35360_003?
-int Field_9_0_1_35360_004?
-int Field_9_0_1_35360_005?
-int Field_9_0_1_35360_006?
 int Field_9_0_1_35360_007?
 
 LAYOUT C41BBE90
@@ -46,11 +39,11 @@ OrderIndex<32>
 
 LAYOUT CB862D54
 BUILD 9.0.1.35360
-Field_9_0_1_35360_000_lang
-$id$Field_9_0_1_35360_001<32>
-Field_9_0_1_35360_002<32>
-Field_9_0_1_35360_003<32>
-Field_9_0_1_35360_004<32>
-Field_9_0_1_35360_005<32>
-Field_9_0_1_35360_006<32>
+Description_lang
+$id$ID<32>
+SoulbindID<32>
+CreatureDisplayInfoID<32>
+ModelSceneActorID<32>
+TextureKitID<32>
+OrderIndex<32>
 Field_9_0_1_35360_007<32>
