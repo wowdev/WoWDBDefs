@@ -70,43 +70,7 @@ int Field_7_3_2_25549_015?
 int Field_7_3_2_25549_016?
 int Field_7_3_2_25549_017?
 int Field_7_3_2_25549_018?
-locstring Field_9_0_1_35360_000_lang?
-string Field_9_0_1_35360_001?
-locstring Field_9_0_1_35360_002_lang?
-locstring Field_9_0_1_35360_003_lang?
-string Field_9_0_1_35360_004?
-locstring Field_9_0_1_35360_005_lang?
-locstring Field_9_0_1_35360_006_lang?
-locstring Field_9_0_1_35360_007_lang?
-int Field_9_0_1_35360_008?
-int Field_9_0_1_35360_009?
-int Field_9_0_1_35360_010?
-int Field_9_0_1_35360_011?
-int Field_9_0_1_35360_012?
-int Field_9_0_1_35360_013?
-int Field_9_0_1_35360_014?
-int Field_9_0_1_35360_015?
-int Field_9_0_1_35360_016?
-int Field_9_0_1_35360_017?
-int Field_9_0_1_35360_018?
-int Field_9_0_1_35360_019?
-int Field_9_0_1_35360_020?
-int Field_9_0_1_35360_021?
-int Field_9_0_1_35360_022?
-int Field_9_0_1_35360_023?
-int Field_9_0_1_35360_024?
 int Field_9_0_1_35360_025?
-int Field_9_0_1_35360_026?
-int Field_9_0_1_35360_027?
-int Field_9_0_1_35360_028?
-int Field_9_0_1_35360_029?
-int Field_9_0_1_35360_030?
-int Field_9_0_1_35360_031?
-int Field_9_0_1_35360_032?
-int Field_9_0_1_35360_033?
-int Field_9_0_1_35360_034?
-int Field_9_0_1_35360_035?
-int Field_9_0_1_35360_036?
 
 BUILD 6.0.1.18179
 BUILD 5.0.4.16016-5.4.8.18414
@@ -576,40 +540,40 @@ ChatColorB<u8>
 
 LAYOUT 76A114BC
 BUILD 9.0.1.35360
-Field_9_0_1_35360_000_lang
-Field_9_0_1_35360_001
-Field_9_0_1_35360_002_lang
-Field_9_0_1_35360_003_lang
-Field_9_0_1_35360_004
-Field_9_0_1_35360_005_lang
-Field_9_0_1_35360_006_lang
-Field_9_0_1_35360_007_lang
-$id$Field_9_0_1_35360_008<32>
-Field_9_0_1_35360_009<u32>
-Field_9_0_1_35360_010<u32>
-Field_9_0_1_35360_011<u32>
-Field_9_0_1_35360_012<u32>
-Field_9_0_1_35360_013<u32>
-Field_9_0_1_35360_014<u32>
-Field_9_0_1_35360_015<u32>
-Field_9_0_1_35360_016<u32>
-Field_9_0_1_35360_017<32>
-Field_9_0_1_35360_018<32>
-Field_9_0_1_35360_019<32>
-Field_9_0_1_35360_020<32>
-Field_9_0_1_35360_021<32>
-Field_9_0_1_35360_022<32>
-Field_9_0_1_35360_023<32>
-Field_9_0_1_35360_024<32>
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
+ClassFantasyDescription_lang
+Roles_lang
+RequirementsFail_lang
+$id$ID<32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+IconFileDataID<u32>
+LowResScreenFileDataID<u32>
+Flags<u32>
+SpellTextureBlobFileDataID<u32>
+RolesMask<u32>
+Field_9_0_1_33978_014<u32>
+Field_9_0_1_34490_018<32>
+CharStartKit_SpellVisualKitID_Fallback<32>
+CharStartKit_Field_9_0_1_34615_004_Fallback<32>
+CharStartKit_SpellVisualKitID_Female_Fallback<32>
+CharStartKit_Field_9_0_1_34615_004_Female_Fallback<32>
+Field_9_0_1_34821_023<32>
+CharStartKit_GroundSpellVisualKitID_Fallback<32>
+Field_9_0_1_34821_025<32>
 Field_9_0_1_35360_025<32>
-Field_9_0_1_35360_026<u16>
-Field_9_0_1_35360_027<u16>
-Field_9_0_1_35360_028<u8>
-Field_9_0_1_35360_029<u8>
-Field_9_0_1_35360_030<u8>
-Field_9_0_1_35360_031<u8>
-Field_9_0_1_35360_032<u8>
-Field_9_0_1_35360_033<u8>
-Field_9_0_1_35360_034<u8>
-Field_9_0_1_35360_035<u8>
-Field_9_0_1_35360_036<u8>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+PrimaryStatPriority<u8>
+DisplayPower<u8>
+RangedAttackPowerPerAgility<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
+SpellClassSet<u8>
+ChatColorR<u8>
+ChatColorG<u8>
+ChatColorB<u8>
