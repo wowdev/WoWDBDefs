@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Type // lua WeeklyRewardChestThresholdType: 1: MythicPlus (#completed), 2: RankedPVP (conquest points), 3: Raid (bosses)
+int Type // lua WeeklyRewardChestThresholdType: 0: None, 1: MythicPlus (#completed), 2: RankedPVP (conquest points), 3: Raid (bosses), 4: AlsoReceive, 5: Concession
 int Index // for some reason, these are not unique. It appears that the *last* entry is used in game.
 int Threshold // prior to 34972, this column was hardcoded: by type and index: 1: [1, 5, 15], 2: [100, 150, 250], 3: [3, 7, 10]
 
