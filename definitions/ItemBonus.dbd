@@ -1,8 +1,5 @@
 COLUMNS
 int Field_1438740998?
-int Field_3683876691?
-int Field_4287333908?
-int Field_690162968?
 int ID
 int OrderIndex
 int<ItemBonusList::ID> ParentItemBonusListID
@@ -12,9 +9,9 @@ int Value
 BUILD 6.0.1.18179
 $id$ID<32>
 Field_1438740998<32>
-Field_3683876691<32>
-Field_4287333908<32>[2]
-Field_690162968<32>
+Type<32>
+Value<32>[2]
+OrderIndex<32>
 
 LAYOUT E12FB1A0, B96C1748, E119360C
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284

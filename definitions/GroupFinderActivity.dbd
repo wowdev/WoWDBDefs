@@ -1,12 +1,5 @@
 COLUMNS
-int Field_168393376?
-int Field_4290326651?
-int Field_91068462?
-int Field_2334433385?
-int Field_2250257069?
 int Field_4013676685?
-string Field_3904792460?
-string Field_3671730565?
 int ID
 int AreaID
 int<Difficulty::ID> DifficultyID
@@ -27,14 +20,14 @@ int<ContentTuning::ID> OverrideContentTuningID // If not set, via Area, and if t
 
 BUILD 6.0.1.18179
 $id$ID<32>
-Field_168393376<32>
-Field_4290326651<32>
-Field_91068462<32>
-Field_2334433385<32>
-Field_2250257069<32>
+GroupFinderCategoryID<32>
+GroupFinderActivityGrpID<32>
+OrderIndex<32>
+MaxLevelSuggestion<32>
+MinGearLevelSuggestion<32>
 Field_4013676685<32>
-Field_3904792460
-Field_3671730565
+FullName_lang
+ShortName_lang
 
 LAYOUT 3EF2F3BD
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

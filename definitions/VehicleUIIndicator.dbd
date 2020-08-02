@@ -2,7 +2,6 @@ COLUMNS
 int ID
 string BackgroundTexture
 int<FileData::ID> BackgroundTextureFileID
-string Field_7_3_0_24473_000?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -36,4 +35,4 @@ BackgroundTextureFileID<32>
 LAYOUT 97C113B5
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563
 $noninline,id$ID<32>
-Field_7_3_0_24473_000
+BackgroundTexture

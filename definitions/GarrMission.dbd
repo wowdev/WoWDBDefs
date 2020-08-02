@@ -1,11 +1,9 @@
 COLUMNS
-int Field_1850409221?
 int Field_1439790070?
 int Field_2946560066?
 int Field_2718524442?
 int Field_1966184731?
 int Field_916300497?
-int Field_1036438268?
 int Field_3618478135?
 int Field_809722809?
 int Field_110675906?
@@ -14,9 +12,6 @@ int Field_2036890685?
 int Field_1982180108?
 int Field_2868106235?
 int Field_1219432611?
-string Field_3174321644?
-string Field_805352722?
-string Field_2386078249?
 int ID
 int AreaID
 int BaseCompletionChance
@@ -81,13 +76,13 @@ int Field_7_3_2_25549_028?
 
 BUILD 6.0.1.18179
 $id$ID<32>
-Field_1850409221<32>
+TargetLevel<32>
 Field_1439790070<32>
 Field_2946560066<32>
 Field_2718524442<32>
 Field_1966184731<32>
 Field_916300497<32>
-Field_1036438268<32>
+OfferDuration<32>
 Field_3618478135<32>
 Field_809722809<32>[3]
 Field_110675906<32>
@@ -96,9 +91,9 @@ Field_2036890685<32>[3]
 Field_1982180108<32>[3]
 Field_2868106235<32>
 Field_1219432611<32>
-Field_3174321644
-Field_805352722
-Field_2386078249
+Name_lang
+Description_lang
+Location_lang
 
 LAYOUT DDD70490
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

@@ -1,8 +1,4 @@
 COLUMNS
-int Field_193840778?
-int Field_2016730086?
-int Field_596947073?
-int Field_3488546287?
 int ID
 int<SceneScriptPackage::ID> ChildSceneScriptPackageID
 int OrderIndex
@@ -11,10 +7,10 @@ int<SceneScriptPackage::ID> SceneScriptPackageID
 
 BUILD 6.0.1.18179
 $id$ID<32>
-Field_193840778<32>
-Field_2016730086<32>
-Field_596947073<32>
-Field_3488546287<32>
+SceneScriptPackageID<32>
+SceneScriptID<32>
+OrderIndex<32>
+ChildSceneScriptPackageID<32>
 
 LAYOUT 787A715F, 9E18D06F
 BUILD 8.1.0.27826, 8.1.0.27934, 8.1.0.27985, 8.1.0.28048, 8.1.0.28085, 8.1.0.28151, 8.1.0.28186, 8.1.0.28202, 8.1.0.28294

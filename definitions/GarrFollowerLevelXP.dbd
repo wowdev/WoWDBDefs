@@ -1,6 +1,4 @@
 COLUMNS
-int Field_3455184649?
-int Field_2909046062?
 int ID
 int FollowerLevel
 int<GarrFollowerType::ID> GarrFollowerTypeID
@@ -9,8 +7,8 @@ int XpToNextLevel
 
 BUILD 6.0.1.18179
 $id$ID<32>
-Field_3455184649<32>
-Field_2909046062<32>
+FollowerLevel<32>
+XpToNextLevel<32>
 
 LAYOUT 1ED485E2
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

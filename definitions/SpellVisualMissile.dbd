@@ -1,16 +1,4 @@
 COLUMNS
-int Field_664904741?
-int Field_1963334970?
-int Field_4117941756?
-int Field_4116482101?
-int Field_3457968092?
-int Field_3020954251?
-int Field_3982232677?
-int Field_512703686?
-int Field_2999706085?
-int Field_3403288926?
-float Field_1323958623?
-float Field_4071969856?
 int ID
 int<AnimKit::ID> AnimKitID
 int Attachment
@@ -29,37 +17,21 @@ int<SpellVisualEffectName::ID> SpellVisualEffectNameID
 int SpellVisualMissileSetID
 int ClutterLevel // See SpellVisualKit::ClutterLevel.
 int Field_9_0_1_33978_016? // default 5000, if no missile record
-int Field_7_3_2_25549_000?
-int Field_7_3_2_25549_001?
-int Field_7_3_2_25549_002?
-float Field_7_3_2_25549_003?
-float Field_7_3_2_25549_004?
-int Field_7_3_2_25549_005?
-int Field_7_3_2_25549_006?
-int Field_7_3_2_25549_007?
-int Field_7_3_2_25549_008?
-int Field_7_3_2_25549_009?
-int Field_7_3_2_25549_010?
-int Field_7_3_2_25549_011?
-int Field_7_3_2_25549_012?
-int Field_7_3_2_25549_013?
-int Field_7_3_2_25549_014?
-int Field_7_3_2_25549_015?
 
 BUILD 6.0.1.18179
 $id$ID<32>
-Field_664904741<32>
-Field_1963334970<32>
-Field_4117941756<32>
-Field_4116482101<32>
-Field_3457968092<32>
-Field_3020954251<32>
-Field_3982232677<32>
-Field_512703686<32>
-Field_2999706085<32>
-Field_3403288926<32>
-Field_1323958623[3]
-Field_4071969856[3]
+SpellVisualMissileSetID<32>
+SpellVisualEffectNameID<32>
+DestinationAttachment<32>
+SoundEntriesID<32>
+Attachment<32>
+FollowGroundHeight<32>
+FollowGroundDropSpeed<32>
+FollowGroundApproach<32>
+Flags<32>
+SpellMissileMotionID<32>
+CastOffset[3]
+ImpactOffset[3]
 
 LAYOUT 00BA67A5, 5670800D
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -155,19 +127,19 @@ $noninline,relation$SpellVisualMissileSetID<u16>
 LAYOUT DC228F29
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
-Field_7_3_2_25549_000<32>
-Field_7_3_2_25549_001<u32>
-Field_7_3_2_25549_002<u32>
-Field_7_3_2_25549_003[3]
-Field_7_3_2_25549_004[3]
-Field_7_3_2_25549_005<u16>
-Field_7_3_2_25549_006<u16>
-Field_7_3_2_25549_007<u16>
-Field_7_3_2_25549_008<u16>
-Field_7_3_2_25549_009<u16>
-Field_7_3_2_25549_010<u16>
-Field_7_3_2_25549_011<8>
-Field_7_3_2_25549_012<8>
-$id$Field_7_3_2_25549_013<32>
-Field_7_3_2_25549_014<u32>
-Field_7_3_2_25549_015<u32>
+FollowGroundHeight<32>
+FollowGroundDropSpeed<u32>
+Flags<u32>
+CastOffset[3]
+ImpactOffset[3]
+SpellVisualMissileSetID<u16>
+SpellVisualEffectNameID<u16>
+CastPositionerID<u16>
+ImpactPositionerID<u16>
+FollowGroundApproach<u16>
+SpellMissileMotionID<u16>
+Attachment<8>
+DestinationAttachment<8>
+$id$ID<32>
+SoundEntriesID<u32>
+AnimKitID<u32>

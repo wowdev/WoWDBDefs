@@ -1,9 +1,4 @@
 COLUMNS
-int Field_564209819?
-int Field_3357986906?
-int Field_3732929255?
-int Field_3290697847?
-int Field_204285456?
 int ID
 int AllianceDoodadSet
 int<GarrBuilding::ID> GarrBuildingID
@@ -13,11 +8,11 @@ int Type
 
 BUILD 6.0.1.18179
 $id$ID<32>
-Field_564209819<32>
-Field_3357986906<32>
-Field_3732929255<32>
-Field_3290697847<32>
-Field_204285456<32>
+GarrBuildingID<32>
+Type<32>
+AllianceDoodadSet<32>
+HordeDoodadSet<32>
+SpecializationID<32>
 
 LAYOUT 2A861C7F
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

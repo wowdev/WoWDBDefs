@@ -1,12 +1,7 @@
 COLUMNS
 int Field_2471851980?
-int Field_739230400?
-int Field_1061240657?
-int Field_4117380960?
-int Field_945747275?
 int Field_740989245?
 int Field_2013714106?
-int Field_1837165031?
 int Field_3662697718?
 int Field_2523454085?
 int Field_2740640073?
@@ -77,42 +72,21 @@ int Field_1_13_0_28211_011?
 int Field_1_13_0_28211_012?
 int Field_1_13_0_28211_013?
 int Field_1_13_0_28211_014?
-float Field_7_3_2_25549_000?
-float Field_7_3_2_25549_001?
-int Field_7_3_2_25549_002?
-int Field_7_3_2_25549_003?
-int Field_7_3_2_25549_004?
 int Field_7_3_2_25549_005?
 int Field_7_3_0_24473_000?
-float Field_7_3_0_24473_001?
-float Field_7_3_0_24473_002?
-int Field_7_3_0_24473_003?
-int Field_7_3_0_24473_004?
-int Field_7_3_0_24473_005?
-int Field_7_3_0_24473_006?
-int Field_7_3_0_24473_007?
-int Field_7_3_0_24473_008?
 int Field_7_3_0_24473_009?
-float Field_7_3_0_24539_000?
-float Field_7_3_0_24539_001?
-int Field_7_3_0_24539_002?
-int Field_7_3_0_24539_003?
-int Field_7_3_0_24539_004?
-int Field_7_3_0_24539_005?
-int Field_7_3_0_24539_006?
-int Field_7_3_0_24539_007?
 int Field_7_3_0_24539_008?
 
 BUILD 6.0.1.18179
 $id$ID<32>
 Field_2471851980<32>
-Field_739230400<32>
-Field_1061240657<32>
-Field_4117380960<32>
-Field_945747275<32>
+PrecastKit<32>
+CastKit<32>
+ImpactKit<32>
+StateKit<32>
 Field_740989245<32>
 Field_2013714106<32>
-Field_1837165031<32>
+MissileDestinationAttachment<32>
 Field_3662697718<32>
 Field_2523454085<32>
 Field_2740640073<32>
@@ -344,34 +318,34 @@ HasMissile<8>
 LAYOUT AC810A44
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
 BUILD 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
-Field_7_3_2_25549_000[3]
-Field_7_3_2_25549_001[3]
-Field_7_3_2_25549_002<8>
-Field_7_3_2_25549_003<8>
-$id$Field_7_3_2_25549_004<32>
+MissileCastOffset[3]
+MissileImpactOffset[3]
+MissileDestinationAttachment<8>
+MissileAttachment<8>
+$id$ID<32>
 $noninline,relation$Field_7_3_2_25549_005<32>
 
 LAYOUT 77E0E98C
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500
 Field_7_3_0_24473_000<32>
-Field_7_3_0_24473_001[3]
-Field_7_3_0_24473_002[3]
-Field_7_3_0_24473_003<u16>
-Field_7_3_0_24473_004<u16>
-Field_7_3_0_24473_005<8>
-Field_7_3_0_24473_006<8>
-$id$Field_7_3_0_24473_007<32>
-Field_7_3_0_24473_008<u32>
+MissileCastOffset[3]
+MissileImpactOffset[3]
+SpellVisualMissileSetID<u16>
+DamageNumberDelay<u16>
+MissileAttachment<8>
+MissileDestinationAttachment<8>
+$id$ID<32>
+AnimEventSoundID<u32>
 $noninline,relation$Field_7_3_0_24473_009<32>
 
 LAYOUT 2E4CE47C
 BUILD 7.3.0.24539, 7.3.0.24563
-Field_7_3_0_24539_000[3]
-Field_7_3_0_24539_001[3]
-Field_7_3_0_24539_002<u16>
-Field_7_3_0_24539_003<u16>
-Field_7_3_0_24539_004<8>
-Field_7_3_0_24539_005<8>
-$id$Field_7_3_0_24539_006<32>
-Field_7_3_0_24539_007<u32>
+MissileCastOffset[3]
+MissileImpactOffset[3]
+SpellVisualMissileSetID<u16>
+DamageNumberDelay<u16>
+MissileAttachment<8>
+MissileDestinationAttachment<8>
+$id$ID<32>
+AnimEventSoundID<u32>
 $noninline,relation$Field_7_3_0_24539_008<32>

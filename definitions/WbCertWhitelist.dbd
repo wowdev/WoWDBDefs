@@ -1,8 +1,6 @@
 COLUMNS
-int Field_3431074259?
-int Field_1355241947?
 int Padding_2996086065?
-int Field_3863714581?
+int Field_3863714581? // possibly WowEditInternal
 int ID
 string Domain
 int GrantAccess
@@ -12,8 +10,8 @@ int WowEditInternal
 BUILD 6.0.1.18179
 $id$ID<32>
 Domain
-Field_3431074259<8>
-Field_1355241947<8>
+GrantAccess<8>
+RevokeAccess<8>
 Padding_2996086065<8>[2]
 Field_3863714581<32>
 

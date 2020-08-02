@@ -16,21 +16,6 @@ int<Achievement::ID> Shares_criteria
 int<CriteriaTree::ID> Criteria_tree
 int<FileData::ID> IconFileID
 int<Item::ID> RewardItemID
-locstring Field_7_3_0_24473_000_lang?
-locstring Field_7_3_0_24473_001_lang?
-int Field_7_3_0_24473_002?
-locstring Field_7_3_0_24473_003_lang?
-int Field_7_3_0_24473_004?
-int Field_7_3_0_24473_005?
-int Field_7_3_0_24473_006?
-int Field_7_3_0_24473_007?
-int Field_7_3_0_24473_008?
-int Field_7_3_0_24473_009?
-int Field_7_3_0_24473_010?
-int Field_7_3_0_24473_011?
-int Field_7_3_0_24473_012?
-int Field_7_3_0_24473_013?
-int Field_7_3_0_24473_014?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -174,18 +159,18 @@ Criteria_tree<u32>
 
 LAYOUT A73A9D44
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
-Field_7_3_0_24473_000_lang
-Field_7_3_0_24473_001_lang
-Field_7_3_0_24473_002<32>
-Field_7_3_0_24473_003_lang
-Field_7_3_0_24473_004<16>
-Field_7_3_0_24473_005<16>
-Field_7_3_0_24473_006<16>
-Field_7_3_0_24473_007<16>
-Field_7_3_0_24473_008<16>
-Field_7_3_0_24473_009<8>
-Field_7_3_0_24473_010<8>
-Field_7_3_0_24473_011<8>
-$id$Field_7_3_0_24473_012<32>
-Field_7_3_0_24473_013<32>
-Field_7_3_0_24473_014<u32>
+Title_lang
+Description_lang
+Flags<32>
+Reward_lang
+Instance_ID<16>
+Supercedes<16>
+Category<16>
+Ui_order<16>
+Shares_criteria<16>
+Faction<8>
+Points<8>
+Minimum_criteria<8>
+$id$ID<32>
+IconFileID<32>
+Criteria_tree<u32>
