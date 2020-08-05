@@ -1,10 +1,10 @@
 COLUMNS
-locstring Field_9_0_1_35432_000_lang?
-locstring Field_9_0_1_35432_001_lang?
-int Field_9_0_1_35432_002?
+locstring Name_lang?
+locstring Description_lang?
+int ID?
 int Field_9_0_1_35432_003?
 int Field_9_0_1_35432_004?
-int Field_9_0_1_35432_005?
+int<FileData::ID> Icon?
 int Field_9_0_1_35432_006?
 int Field_9_0_1_35432_007?
 int Field_9_0_1_35432_008?
@@ -19,12 +19,12 @@ int Field_9_0_1_35432_016?
 
 LAYOUT D5E4583A
 BUILD 9.0.1.35432
-Field_9_0_1_35432_000_lang
-Field_9_0_1_35432_001_lang
-$id$Field_9_0_1_35432_002<32>
+Name_lang
+Description_lang
+$id$ID<32>
 Field_9_0_1_35432_003<32>
 Field_9_0_1_35432_004<32>
-Field_9_0_1_35432_005<32>
+Icon<32>
 Field_9_0_1_35432_006<32>
 Field_9_0_1_35432_007<32>
 Field_9_0_1_35432_008<32>
