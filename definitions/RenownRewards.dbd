@@ -1,21 +1,21 @@
 COLUMNS
+int ID
 locstring Name_lang
 locstring Description_lang
-int ID
-int<Covenant::ID> CovenantID
 int Level
-int<FileData::ID> Icon?
-int Flags? // &0x1: covenant specific?, &0x2: ???
-int Order // per Level and CovenantID, may have multiple entries with same Order, e.g. male+female titles
-int<Item::ID> ItemID
-int Field_9_0_1_35432_009?
-int<Mount::ID> MountID
-int<ItemModifiedAppearance::ID> ItemModifiedAppearanceID
-int Field_9_0_1_35432_012?
+int<Covenant::ID> CovenantID
+int Flags // &0x1: covenant specific (lost if changing)?, &0x2: isCapstone; GetRenownMilestones requires one of the two being set
+int UiOrder // per Level and CovenantID, may have multiple entries with same UiOrder, e.g. male+female titles
+int<FileData::ID> Icon
 int<CharTitles::ID> CharTitlesID
 int<GarrFollower::ID> GarrFollowerID
+int<Item::ID> ItemID
+int<Mount::ID> MountID
+int<Spell::ID> SpellID
+int<ItemModifiedAppearance::ID> TransmogID
 int<TransmogIllusion::ID> TransmogIllusionID
-int Field_9_0_1_35432_016?
+int<TransmogSet::ID> TransmogSetID
+int Field_9_0_1_35432_016? // unused in client as of 35432
 
 LAYOUT D5E4583A
 BUILD 9.0.1.35432
@@ -26,12 +26,12 @@ CovenantID<32>
 Level<32>
 Icon<32>
 Flags<32>
-Order<32>
+UiOrder<32>
 ItemID<32>
-Field_9_0_1_35432_009<32>
+SpellID<32>
 MountID<32>
-ItemModifiedAppearanceID<32>
-Field_9_0_1_35432_012<32>
+TransmogID<32>
+TransmogSetID<32>
 CharTitlesID<32>
 GarrFollowerID<32>
 TransmogIllusionID<32>
