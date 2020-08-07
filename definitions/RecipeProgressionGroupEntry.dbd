@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int RecipeProgressionGroupID?
+int RecipeProgressionGroupID // given a SkillLineAbilityID, get all records with same group id for the other levels
 int<SkillLineAbility::ID> SkillLineAbilityID
 int Order? // ascending per group
-int Field_9_0_1_35256_003?
-int Field_9_0_1_35256_004?
+int RequiredRecipeExperience
+int EarnedExperienceMask
 int Field_9_0_1_35256_005?
 
 LAYOUT 6D84AC24
@@ -13,6 +13,6 @@ $noninline,id$ID<32>
 RecipeProgressionGroupID<32>
 SkillLineAbilityID<32>
 Order<32>
-Field_9_0_1_35256_003<32>
-Field_9_0_1_35256_004<32>
+RequiredRecipeExperience<32>
+EarnedExperienceMask<32>
 Field_9_0_1_35256_005<32>
