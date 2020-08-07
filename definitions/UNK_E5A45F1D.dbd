@@ -3,9 +3,9 @@ int ID
 int Field_9_0_1_33978_001?
 int<QuestV2::ID> QuestID
 int<BroadcastText::ID> BroadcastTextID?
-int Field_9_0_1_33978_004?
-float Field_9_0_1_33978_005?
 int<WorldEffect::ID> WorldEffectID?
+float Field_9_0_1_33978_005?
+int Field_9_0_1_33978_006?
 int<PlayerCondition::ID> PlayerConditionID
 int<Creature::ID> CreatureID?
 
@@ -16,8 +16,8 @@ $noninline,id$ID<32>
 Field_9_0_1_33978_001<32>
 QuestID<32>
 BroadcastTextID<32>
-Field_9_0_1_33978_004<32>
-Field_9_0_1_33978_005
 WorldEffectID<32>
+Field_9_0_1_33978_005
+Field_9_0_1_33978_006<32>
 PlayerConditionID<32>
 $noninline,relation$CreatureID<32>
