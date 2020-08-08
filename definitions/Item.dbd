@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<ItemClass::ID> ClassID
+int<ItemClass::ClassID> ClassID
 int<FileData::ID> IconFileDataID
 int InventoryType
 int<ItemGroupSounds::ID> ItemGroupSoundsID
