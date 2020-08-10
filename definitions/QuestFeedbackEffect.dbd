@@ -6,7 +6,7 @@ int Minimapobject
 int Priority
 int Flags
 int<UiTextureAtlasMember::ID> MinimapAtlasMemberID // display on minimap
-int PassiveHighlightColorType
+int<HighlightColor::Type> PassiveHighlightColorType
 string InteractCursor? // display on cursor
 int<Spell::ID> SpellID?
 
