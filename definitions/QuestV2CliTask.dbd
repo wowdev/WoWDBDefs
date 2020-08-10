@@ -1,14 +1,14 @@
 COLUMNS
-int<Quest::ID> ID
+int<QuestV2::ID> ID
 int BreadCrumbID
 locstring QuestTitle_lang
 locstring BulletText_lang
 int<PlayerCondition::ID> ConditionID
 int FiltClasses // ChrClasses mask
 int FiltRaces // ChrRaces mask
-int<Quest::ID> FiltActiveQuest
-int<Quest::ID> FiltNonActiveQuest
-int<Quest::ID> FiltCompletedQuest
+int<QuestV2::ID> FiltActiveQuest
+int<QuestV2::ID> FiltNonActiveQuest
+int<QuestV2::ID> FiltCompletedQuest
 int FiltCompletedQuestLogic // &0x1: ???, &0x2: one of, &0x4: ???, &0x20000: ???
 int FiltMaxFactionID
 int FiltMaxFactionValue
