@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int TargetType
-int TargetAsset
+int TargetAsset // depending on TargetType: 1: CreatureID, 2: GameObjectID
 int<QuestFeedbackEffect::ID> QuestFeedbackEffectID
 int<PlayerCondition::ID> PlayerConditionID
 int<CombatCondition::ID> CombatConditionID
