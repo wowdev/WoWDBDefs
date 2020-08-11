@@ -13,11 +13,9 @@ int<SpellVisualKit::ID> GroundSpellVisualKitID? // fall back to column in ChrCla
 int<SpellVisualKit::ID> Field_9_0_1_34821_009?
 float Field_9_0_1_35167_001?
 float Field_9_0_1_35167_011?
-float Field_9_0_1_35256_002?
-float Field_9_0_1_35256_003?
+float Field_9_0_1_35256_002? // moved to ChrClassUIChrModelInfo
+float Field_9_0_1_35256_002_Female? // moved to ChrClassUIChrModelInfo
 int Field_9_0_1_35360_014?
-int Field_9_0_1_35522_010?
-int Field_9_0_1_35522_012?
 
 LAYOUT CC89E761
 BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
@@ -99,7 +97,7 @@ $noninline,id$ID<32>
 ZoneName_lang
 Field_9_0_1_35167_001[3]
 Field_9_0_1_35256_002[3]
-Field_9_0_1_35256_003[3]
+Field_9_0_1_35256_002_Female[3]
 ChrClassesID<u8>
 ZoneImageAtlas<32>
 SpellVisualKitID<32>
@@ -118,7 +116,7 @@ $noninline,id$ID<32>
 ZoneName_lang
 Field_9_0_1_35167_001[3]
 Field_9_0_1_35256_002[3]
-Field_9_0_1_35256_003[3]
+Field_9_0_1_35256_002_Female[3]
 ChrClassesID<u8>
 ZoneImageAtlas<32>
 SpellVisualKitID<32>
@@ -145,7 +143,7 @@ SpellVisualKitID_Female<32>
 Field_9_0_1_34615_004_Female<32>
 Field_9_0_1_34821_007<32>
 GroundSpellVisualKitID<32>
-Field_9_0_1_35522_010<32>
+Field_9_0_1_34821_009<32>
 Field_9_0_1_35167_011
-Field_9_0_1_35522_012<32>
+Field_9_0_1_35360_014<32>
 $noninline,relation$ChrRacesID<u8>

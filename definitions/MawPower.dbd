@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<Spell::ID> SpellID
-int Field_9_0_1_35522_002?
+int<MawPowerRarity::ID> MawPowerRarityID
 
 LAYOUT F1DCAFC6
 BUILD 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482
@@ -12,4 +12,4 @@ LAYOUT EE3C69AF
 BUILD 9.0.1.35522
 $id$ID<32>
 SpellID<32>
-Field_9_0_1_35522_002<32>
+MawPowerRarityID<32>
