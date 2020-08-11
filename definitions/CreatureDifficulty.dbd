@@ -13,15 +13,8 @@ int Field_7_3_2_25549_002?
 int Field_7_3_2_25549_003?
 int Field_7_3_2_25549_004?
 int Field_7_3_2_25549_005?
-int Field_9_0_1_35522_000?
-int Field_9_0_1_35522_001?
-int Field_9_0_1_35522_002?
 int Field_9_0_1_35522_003?
 int Field_9_0_1_35522_004?
-int Field_9_0_1_35522_005?
-int Field_9_0_1_35522_006?
-int Field_9_0_1_35522_007?
-int Field_9_0_1_35522_008?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -101,12 +94,12 @@ Field_7_3_2_25549_005<8>
 LAYOUT 592C0350
 BUILD 9.0.1.35522
 $noninline,id$ID<32>
-Field_9_0_1_35522_000<8>
-Field_9_0_1_35522_001<8>
-Field_9_0_1_35522_002<8>
+ExpansionID<8>
+MinLevel<8>
+MaxLevel<8>
 Field_9_0_1_35522_003<32>
 Field_9_0_1_35522_004<32>
-Field_9_0_1_35522_005<u16>
-Field_9_0_1_35522_006<32>
-Field_9_0_1_35522_007<32>[8]
-$noninline,relation$Field_9_0_1_35522_008<32>
+FactionID<u16>
+ContentTuningID<32>
+Flags<32>[8]
+$noninline,relation$CreatureID<32>
