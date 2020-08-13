@@ -138,6 +138,34 @@ namespace DBDefsLib
         }
 
         #endregion
+
+        public static bool TryParse(string value, out Build result)
+        {
+            result = null;
+
+            var split = value.Split('.');
+            if (split.Length != 4)
+                return false;
+
+            if (!short.TryParse(split[0], out var expansion))
+                return false;
+            if (!short.TryParse(split[1], out var major))
+                return false;
+            if (!short.TryParse(split[2], out var minor))
+                return false;
+            if (!uint.TryParse(split[3], out var build))
+                return false;
+
+            result = new Build()
+            {
+                build = build,
+                expansion = expansion,
+                major = major,
+                minor = minor
+            };
+
+            return true;
+        }
     }
 }
 
