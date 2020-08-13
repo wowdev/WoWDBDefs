@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-float CharStartKit_Field_9_0_1_35256_002? // todo: also retro-update CSK field
+float ChrModel_9_0_1_35522_001Override? // ChrModel::Field_9_0_1_35522_001
 int<ChrModel::ID> ChrModelID
 int<ChrClasses::ID> ChrClassesID
-float Field_9_0_1_35522_003?
+float ChrCreateFacingOverride // ChrModel::ChrCreateFacing
 
 LAYOUT EC04FE04
 BUILD 9.0.1.35522
 $noninline,id$ID<32>
-CharStartKit_Field_9_0_1_35256_002[3]
+ChrModel_9_0_1_35522_001Override[3]
 ChrModelID<32>
 ChrClassesID<32>
-Field_9_0_1_35522_003
+ChrCreateFacingOverride
