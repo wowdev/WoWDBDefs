@@ -11,7 +11,7 @@ int Field_9_0_1_34081_008?
 int<ChrModel::ID> BaseRaceChrModelID?
 float Field_9_0_1_34615_010?
 float Field_9_0_1_35522_001?
-float Field_9_0_1_35522_012?
+float ChrCreateFacing // in radians
 
 LAYOUT 6FB2BE38
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -54,4 +54,4 @@ Field_9_0_1_34081_007<32>
 Field_9_0_1_34081_008<32>
 BaseRaceChrModelID<32>
 Field_9_0_1_34615_010
-Field_9_0_1_35522_012
+ChrCreateFacing

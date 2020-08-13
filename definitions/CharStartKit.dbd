@@ -13,8 +13,8 @@ int<SpellVisualKit::ID> GroundSpellVisualKitID? // fall back to column in ChrCla
 int<SpellVisualKit::ID> Field_9_0_1_34821_009?
 float Field_9_0_1_35167_001?
 float Field_9_0_1_35167_011?
-float Field_9_0_1_35256_002? // moved to ChrClassUIChrModelInfo
-float Field_9_0_1_35256_002_Female? // moved to ChrClassUIChrModelInfo
+float ChrModel_9_0_1_35522_001Override? // moved to ChrClassUIChrModelInfo
+float ChrModel_9_0_1_35522_001Override_Female? // moved to ChrClassUIChrModelInfo
 int Field_9_0_1_35360_014?
 
 LAYOUT CC89E761
@@ -96,8 +96,8 @@ BUILD 9.0.1.35256, 9.0.1.35282
 $noninline,id$ID<32>
 ZoneName_lang
 Field_9_0_1_35167_001[3]
-Field_9_0_1_35256_002[3]
-Field_9_0_1_35256_002_Female[3]
+ChrModel_9_0_1_35522_001Override[3]
+ChrModel_9_0_1_35522_001Override_Female[3]
 ChrClassesID<u8>
 ZoneImageAtlas<32>
 SpellVisualKitID<32>
@@ -115,8 +115,8 @@ BUILD 9.0.1.35360, 9.0.1.35432, 9.0.1.35482
 $noninline,id$ID<32>
 ZoneName_lang
 Field_9_0_1_35167_001[3]
-Field_9_0_1_35256_002[3]
-Field_9_0_1_35256_002_Female[3]
+ChrModel_9_0_1_35522_001Override[3]
+ChrModel_9_0_1_35522_001Override_Female[3]
 ChrClassesID<u8>
 ZoneImageAtlas<32>
 SpellVisualKitID<32>

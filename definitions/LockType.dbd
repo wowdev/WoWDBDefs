@@ -4,7 +4,7 @@ locstring Name_lang
 locstring ResourceName_lang
 locstring Verb_lang
 string CursorName
-int Field_9_0_1_35360_005? // probably a secondary ID in an enum
+int EnumID? // Something in player struct with 64 slots. 6.0.1.18179
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -50,4 +50,4 @@ ResourceName_lang
 Verb_lang
 CursorName
 $id$ID<32>
-Field_9_0_1_35360_005<32>
+EnumID<32>
