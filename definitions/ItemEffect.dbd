@@ -5,7 +5,7 @@ int Charges
 int<ChrSpecialization::ID> ChrSpecializationID
 int CoolDownMSec
 int LegacySlotIndex
-int ParentItemID
+int<Item::ID> ParentItemID
 int<SpellCategory::ID> SpellCategoryID
 int<Spell::ID> SpellID
 int TriggerType
