@@ -7,13 +7,6 @@ int Operator
 int Amount
 int Parent
 int TertiaryAsset
-int Field_7_3_0_24473_000?
-int Field_7_3_0_24473_001?
-int Field_7_3_0_24473_002?
-int Field_7_3_0_24473_003?
-int Field_7_3_0_24473_004?
-int Field_7_3_0_24473_005?
-int Field_7_3_0_24473_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -85,10 +78,10 @@ TertiaryAsset<8>
 LAYOUT 8D3D8CE2
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
 $noninline,id$ID<32>
-Field_7_3_0_24473_000<32>
-Field_7_3_0_24473_001<32>
-Field_7_3_0_24473_002<u32>
-Field_7_3_0_24473_003<u8>
-Field_7_3_0_24473_004<8>
-Field_7_3_0_24473_005<8>
-Field_7_3_0_24473_006<8>
+Asset<32>
+SecondaryAsset<32>
+Parent<u32>
+Type<u8>
+TertiaryAsset<8>
+Operator<8>
+Amount<8>

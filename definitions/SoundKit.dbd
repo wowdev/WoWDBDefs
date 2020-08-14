@@ -15,15 +15,6 @@ int SoundType // 0: Unused/Miscellaneous, 1: Spells, 2: UI, 3: Footsteps, 4: Wea
 float VolumeFloat
 float VolumeVariationMinus
 float VolumeVariationPlus
-int Field_1_13_0_28211_004?
-int Field_7_3_0_24473_000?
-float Field_7_3_0_24473_001?
-float Field_7_3_0_24473_002?
-float Field_7_3_0_24473_003?
-int Field_7_3_0_24473_004?
-int Field_7_3_0_24473_005?
-int Field_7_3_0_24473_006?
-int Field_7_3_0_24473_007?
 int Field_7_3_0_24473_008?
 
 LAYOUT 59B08254, FCE1F864
@@ -120,7 +111,7 @@ $id$ID<32>
 VolumeFloat
 MinDistance
 DistanceCutoff
-Field_1_13_0_28211_004<u32>
+SoundKitAdvancedID<u32>
 Flags<u16>
 SoundType<u8>
 DialogType<u8>
@@ -135,12 +126,12 @@ MaxInstances<u8>
 
 LAYOUT 0A51CACE
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
-$id$Field_7_3_0_24473_000<32>
-Field_7_3_0_24473_001
-Field_7_3_0_24473_002
-Field_7_3_0_24473_003
-Field_7_3_0_24473_004<u16>
-Field_7_3_0_24473_005<u16>
-Field_7_3_0_24473_006<u8>
-Field_7_3_0_24473_007<u8>
+$id$ID<32>
+VolumeFloat
+MinDistance
+DistanceCutoff
+Flags<u16>
+SoundKitAdvancedID<u16>
+SoundType<u8>
+DialogType<u8>
 $noninline,relation$Field_7_3_0_24473_008<8>

@@ -7,16 +7,6 @@ string Texture
 int<Item::ID> ItemID
 int<FileData::ID> BigTextureFileID
 int<FileData::ID> TextureFileID
-locstring Field_7_3_0_24473_000_lang?
-string Field_7_3_0_24473_001?
-int Field_7_3_0_24473_002?
-int Field_7_3_0_24473_003?
-int Field_7_3_0_24473_004?
-locstring Field_7_3_0_24539_000_lang?
-int Field_7_3_0_24539_001?
-int Field_7_3_0_24539_002?
-int Field_7_3_0_24539_003?
-int Field_7_3_0_24539_004?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -64,17 +54,17 @@ ItemID<32>
 LAYOUT F9B4B4A4
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500
 $noninline,id$ID<32>
-Field_7_3_0_24473_000_lang
-Field_7_3_0_24473_001
-Field_7_3_0_24473_002<32>
-Field_7_3_0_24473_003<u16>
-Field_7_3_0_24473_004<u8>
+Name_lang
+Texture
+ItemID<32>
+CurrencyID<u16>
+ResearchFieldID<u8>
 
 LAYOUT 5D23B25B
 BUILD 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
 $noninline,id$ID<32>
-Field_7_3_0_24539_000_lang
-Field_7_3_0_24539_001<32>
-Field_7_3_0_24539_002<u16>
-Field_7_3_0_24539_003<u8>
-Field_7_3_0_24539_004<32>
+Name_lang
+ItemID<32>
+CurrencyID<u16>
+ResearchFieldID<u8>
+TextureFileID<32>

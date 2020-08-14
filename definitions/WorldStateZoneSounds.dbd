@@ -9,14 +9,6 @@ int<ZoneMusic::ID> ZoneMusicID
 int<SoundAmbience::ID> SoundAmbienceID
 int<SoundProviderPreferences::ID> SoundProviderPreferencesID
 int OrderBy
-int Field_7_3_0_24473_000?
-int Field_7_3_0_24473_001?
-int Field_7_3_0_24473_002?
-int Field_7_3_0_24473_003?
-int Field_7_3_0_24473_004?
-int Field_7_3_0_24473_005?
-int Field_7_3_0_24473_006?
-int Field_7_3_0_24473_007?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -99,11 +91,11 @@ OrderBy<32>
 LAYOUT A009CB7D
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
 $noninline,id$ID<32>
-Field_7_3_0_24473_000<u32>
-Field_7_3_0_24473_001<u16>
-Field_7_3_0_24473_002<u16>
-Field_7_3_0_24473_003<u16>
-Field_7_3_0_24473_004<u16>
-Field_7_3_0_24473_005<u16>
-Field_7_3_0_24473_006<u16>
-Field_7_3_0_24473_007<u8>
+WMOAreaID<u32>
+WorldStateID<u16>
+WorldStateValue<u16>
+AreaID<u16>
+ZoneIntroMusicID<u16>
+ZoneMusicID<u16>
+SoundAmbienceID<u16>
+SoundProviderPreferencesID<u8>

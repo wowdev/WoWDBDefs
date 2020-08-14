@@ -32,29 +32,6 @@ int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
 int<ContentTuning::ID> ContentTuningID
-int Field_7_3_2_25549_000?
-string Field_7_3_2_25549_001?
-float Field_7_3_2_25549_002?
-locstring Field_7_3_2_25549_003_lang?
-int Field_7_3_2_25549_004?
-int Field_7_3_2_25549_005?
-int Field_7_3_2_25549_006?
-int Field_7_3_2_25549_007?
-int Field_7_3_2_25549_008?
-int Field_7_3_2_25549_009?
-int Field_7_3_2_25549_010?
-int Field_7_3_2_25549_011?
-int Field_7_3_2_25549_012?
-int Field_7_3_2_25549_013?
-int Field_7_3_2_25549_014?
-int Field_7_3_2_25549_015?
-int Field_7_3_2_25549_016?
-int Field_7_3_2_25549_017?
-int Field_7_3_2_25549_018?
-int Field_7_3_2_25549_019?
-int Field_7_3_2_25549_020?
-int Field_7_3_2_25549_021?
-int Field_7_3_2_25549_022?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -246,26 +223,26 @@ LAYOUT 81DA5CCB
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
 $noninline,id$ID<32>
-Field_7_3_2_25549_000<32>[2]
-Field_7_3_2_25549_001
-Field_7_3_2_25549_002
-Field_7_3_2_25549_003_lang
-Field_7_3_2_25549_004<u16>
-Field_7_3_2_25549_005<u16>
-Field_7_3_2_25549_006<16>
-Field_7_3_2_25549_007<u16>
-Field_7_3_2_25549_008<u16>
-Field_7_3_2_25549_009<u16>
-Field_7_3_2_25549_010<u16>[4]
-Field_7_3_2_25549_011<u16>
-Field_7_3_2_25549_012<u16>
-Field_7_3_2_25549_013<16>
-Field_7_3_2_25549_014<u8>
-Field_7_3_2_25549_015<u8>
-Field_7_3_2_25549_016<8>
-Field_7_3_2_25549_017<u8>
-Field_7_3_2_25549_018<u8>
-Field_7_3_2_25549_019<u8>
-Field_7_3_2_25549_020<u8>
-Field_7_3_2_25549_021<u8>
-Field_7_3_2_25549_022<u32>
+Flags<32>[2]
+ZoneName
+Ambient_multiplier
+AreaName_lang
+ContinentID<u16>
+ParentAreaID<u16>
+AreaBit<16>
+AmbienceID<u16>
+ZoneMusic<u16>
+IntroSound<u16>
+LiquidTypeID<u16>[4]
+UwZoneMusic<u16>
+UwAmbience<u16>
+PvpCombatWorldStateID<16>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+ExplorationLevel<8>
+FactionGroupMask<u8>
+MountFlags<u8>
+WildBattlePetLevelMin<u8>
+WildBattlePetLevelMax<u8>
+WindSettingsID<u8>
+UwIntroSound<u32>

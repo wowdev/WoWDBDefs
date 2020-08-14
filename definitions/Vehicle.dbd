@@ -34,35 +34,6 @@ int PowerType
 string PowerToken
 int UiSeatIndicatorType
 int<VehiclePOIType::ID> VehiclePOITypeID
-int Field_7_3_0_24473_000?
-float Field_7_3_0_24473_001?
-float Field_7_3_0_24473_002?
-float Field_7_3_0_24473_003?
-float Field_7_3_0_24473_004?
-float Field_7_3_0_24473_005?
-float Field_7_3_0_24473_006?
-float Field_7_3_0_24473_007?
-float Field_7_3_0_24473_008?
-float Field_7_3_0_24473_009?
-float Field_7_3_0_24473_010?
-float Field_7_3_0_24473_011?
-float Field_7_3_0_24473_012?
-float Field_7_3_0_24473_013?
-float Field_7_3_0_24473_014?
-float Field_7_3_0_24473_015?
-float Field_7_3_0_24473_016?
-float Field_7_3_0_24473_017?
-float Field_7_3_0_24473_018?
-string Field_7_3_0_24473_019?
-string Field_7_3_0_24473_020?
-string Field_7_3_0_24473_021?
-float Field_7_3_0_24473_022?
-float Field_7_3_0_24473_023?
-int Field_7_3_0_24473_024?
-int Field_7_3_0_24473_025?
-int Field_7_3_0_24473_026?
-int Field_7_3_0_24473_027?
-int Field_7_3_0_24473_028?
 
 BUILD 4.0.0.11792
 BUILD 3.1.0.9767-3.3.5.12340
@@ -276,32 +247,32 @@ PowerDisplayID<u16>[3]
 LAYOUT E6398321
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563
 $noninline,id$ID<32>
-Field_7_3_0_24473_000<32>
-Field_7_3_0_24473_001
-Field_7_3_0_24473_002
-Field_7_3_0_24473_003
-Field_7_3_0_24473_004
-Field_7_3_0_24473_005
-Field_7_3_0_24473_006
-Field_7_3_0_24473_007
-Field_7_3_0_24473_008
-Field_7_3_0_24473_009
-Field_7_3_0_24473_010
-Field_7_3_0_24473_011
-Field_7_3_0_24473_012
-Field_7_3_0_24473_013
-Field_7_3_0_24473_014
-Field_7_3_0_24473_015
-Field_7_3_0_24473_016
-Field_7_3_0_24473_017
-Field_7_3_0_24473_018[2]
-Field_7_3_0_24473_019
-Field_7_3_0_24473_020
-Field_7_3_0_24473_021[2]
-Field_7_3_0_24473_022
-Field_7_3_0_24473_023
-Field_7_3_0_24473_024<u16>[8]
-Field_7_3_0_24473_025<u16>
-Field_7_3_0_24473_026<u16>[3]
-Field_7_3_0_24473_027<u8>
-Field_7_3_0_24473_028<u8>
+Flags<32>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+MouseLookOffsetPitch
+CameraFadeDistScalarMin
+CameraFadeDistScalarMax
+CameraPitchOffset
+FacingLimitRight
+FacingLimitLeft
+MsslTrgtTurnLingering
+MsslTrgtPitchLingering
+MsslTrgtMouseLingering
+MsslTrgtEndOpacity
+MsslTrgtArcSpeed
+MsslTrgtArcRepeat
+MsslTrgtArcWidth
+MsslTrgtImpactRadius[2]
+MsslTrgtArcTexture
+MsslTrgtImpactTexture
+MsslTrgtImpactModel[2]
+MsslTrgtImpactTexRadius
+CameraYawOffset
+SeatID<u16>[8]
+VehicleUIIndicatorID<u16>
+PowerDisplayID<u16>[3]
+FlagsB<u8>
+UiLocomotionType<u8>

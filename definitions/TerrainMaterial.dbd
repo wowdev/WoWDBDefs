@@ -5,13 +5,6 @@ int Shader
 string EnvMapPath
 int<FileData::ID> EnvMapDiffuseFileID
 int<FileData::ID> EnvMapSpecularFileID
-string Field_7_3_0_24473_000?
-string Field_7_3_0_24473_001?
-int Field_7_3_0_24473_002?
-string Field_7_3_0_24608_000?
-int Field_7_3_0_24608_001?
-int Field_7_3_0_24608_002?
-int Field_7_3_0_24608_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -44,14 +37,14 @@ EnvMapSpecularFileID<32>
 LAYOUT EF220095
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563
 $noninline,id$ID<32>
-Field_7_3_0_24473_000
-Field_7_3_0_24473_001
-Field_7_3_0_24473_002<u8>
+Name
+EnvMapPath
+Shader<u8>
 
 LAYOUT 91C43D59
 BUILD 7.3.0.24608
 $noninline,id$ID<32>
-Field_7_3_0_24608_000
-Field_7_3_0_24608_001<u8>
-Field_7_3_0_24608_002<32>
-Field_7_3_0_24608_003<32>
+Name
+Shader<u8>
+EnvMapDiffuseFileID<32>
+EnvMapSpecularFileID<32>

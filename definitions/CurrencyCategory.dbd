@@ -3,9 +3,6 @@ int ID
 int Flags
 locstring Name_lang
 int ExpansionID
-locstring Field_7_3_0_24473_000_lang?
-int Field_7_3_0_24473_001?
-int Field_7_3_0_24473_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -41,6 +38,6 @@ ExpansionID<u8>
 LAYOUT 9433B396
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
 $noninline,id$ID<32>
-Field_7_3_0_24473_000_lang
-Field_7_3_0_24473_001<u8>
-Field_7_3_0_24473_002<u8>
+Name_lang
+Flags<u8>
+ExpansionID<u8>

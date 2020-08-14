@@ -33,30 +33,6 @@ int MaxAssignments
 int ShipmentCapacity
 locstring Tooltip_lang
 int UpgradeLevel
-int Field_7_3_2_25549_000?
-int Field_7_3_2_25549_001?
-locstring Field_7_3_2_25549_002_lang?
-locstring Field_7_3_2_25549_003_lang?
-locstring Field_7_3_2_25549_004_lang?
-locstring Field_7_3_2_25549_005_lang?
-int Field_7_3_2_25549_006?
-int Field_7_3_2_25549_007?
-int Field_7_3_2_25549_008?
-int Field_7_3_2_25549_009?
-int Field_7_3_2_25549_010?
-int Field_7_3_2_25549_011?
-int Field_7_3_2_25549_012?
-int Field_7_3_2_25549_013?
-int Field_7_3_2_25549_014?
-int Field_7_3_2_25549_015?
-int Field_7_3_2_25549_016?
-int Field_7_3_2_25549_017?
-int Field_7_3_2_25549_018?
-int Field_7_3_2_25549_019?
-int Field_7_3_2_25549_020?
-int Field_7_3_2_25549_021?
-int Field_7_3_2_25549_022?
-int Field_7_3_2_25549_023?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -181,30 +157,30 @@ LAYOUT 04EFAE46
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
 $noninline,id$ID<32>
-Field_7_3_2_25549_000<32>
-Field_7_3_2_25549_001<32>
-Field_7_3_2_25549_002_lang
-Field_7_3_2_25549_003_lang
-Field_7_3_2_25549_004_lang
-Field_7_3_2_25549_005_lang
-Field_7_3_2_25549_006<32>
-Field_7_3_2_25549_007<u16>
-Field_7_3_2_25549_008<u16>
-Field_7_3_2_25549_009<u16>
-Field_7_3_2_25549_010<u16>
-Field_7_3_2_25549_011<u16>
-Field_7_3_2_25549_012<u16>
-Field_7_3_2_25549_013<u16>
-Field_7_3_2_25549_014<u16>
-Field_7_3_2_25549_015<u8>
-Field_7_3_2_25549_016<u8>
-Field_7_3_2_25549_017<u8>
-Field_7_3_2_25549_018<u8>
-Field_7_3_2_25549_019<u8>
-Field_7_3_2_25549_020<u8>
-Field_7_3_2_25549_021<32>
-Field_7_3_2_25549_022<32>
-Field_7_3_2_25549_023<32>
+HordeGameObjectID<32>
+AllianceGameObjectID<32>
+AllianceName_lang
+HordeName_lang
+Description_lang
+Tooltip_lang
+IconFileDataID<32>
+CurrencyTypeID<u16>
+HordeUiTextureKitID<u16>
+AllianceUiTextureKitID<u16>
+AllianceSceneScriptPackageID<u16>
+HordeSceneScriptPackageID<u16>
+GarrAbilityID<u16>
+BonusGarrAbilityID<u16>
+GoldCost<u16>
+GarrSiteID<u8>
+BuildingType<u8>
+UpgradeLevel<u8>
+Flags<u8>
+ShipmentCapacity<u8>
+GarrTypeID<u8>
+BuildSeconds<32>
+CurrencyQty<32>
+MaxAssignments<32>
 
 LAYOUT 69CFEA8D
 BUILD 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522

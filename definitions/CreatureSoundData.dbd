@@ -39,43 +39,7 @@ int ChargeSoundID
 int TauntSoundID
 int WindupCriticalSoundID
 int WindupSoundID
-float Field_7_3_2_25549_000?
-float Field_7_3_2_25549_001?
-int Field_7_3_2_25549_002?
-int Field_7_3_2_25549_003?
-int Field_7_3_2_25549_004?
-int Field_7_3_2_25549_005?
-int Field_7_3_2_25549_006?
-int Field_7_3_2_25549_007?
-int Field_7_3_2_25549_008?
-int Field_7_3_2_25549_009?
-int Field_7_3_2_25549_010?
-int Field_7_3_2_25549_011?
-int Field_7_3_2_25549_012?
-int Field_7_3_2_25549_013?
-int Field_7_3_2_25549_014?
-int Field_7_3_2_25549_015?
-int Field_7_3_2_25549_016?
-int Field_7_3_2_25549_017?
-int Field_7_3_2_25549_018?
-int Field_7_3_2_25549_019?
-int Field_7_3_2_25549_020?
-int Field_7_3_2_25549_021?
-int Field_7_3_2_25549_022?
-int Field_7_3_2_25549_023?
-int Field_7_3_2_25549_024?
-int Field_7_3_2_25549_025?
-int Field_7_3_2_25549_026?
-int Field_7_3_2_25549_027?
-int Field_7_3_2_25549_028?
-int Field_7_3_2_25549_029?
-int Field_7_3_2_25549_030?
-int Field_7_3_2_25549_031?
-int Field_7_3_2_25549_032?
-int Field_7_3_2_25549_033?
-int Field_7_3_2_25549_034?
-int Field_7_3_2_25549_035?
-int Field_7_3_2_25549_036?
+
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -406,40 +370,40 @@ LAYOUT DC142D11
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
 $noninline,id$ID<32>
-Field_7_3_2_25549_000
-Field_7_3_2_25549_001
-Field_7_3_2_25549_002<u8>
-Field_7_3_2_25549_003<u32>
-Field_7_3_2_25549_004<u32>
-Field_7_3_2_25549_005<u32>
-Field_7_3_2_25549_006<u32>
-Field_7_3_2_25549_007<u32>
-Field_7_3_2_25549_008<u32>
-Field_7_3_2_25549_009<u32>
-Field_7_3_2_25549_010<u32>
-Field_7_3_2_25549_011<u32>
-Field_7_3_2_25549_012<u32>
-Field_7_3_2_25549_013<u32>
-Field_7_3_2_25549_014<u32>
-Field_7_3_2_25549_015<u32>
-Field_7_3_2_25549_016<u32>[5]
-Field_7_3_2_25549_017<u32>[4]
-Field_7_3_2_25549_018<u32>
-Field_7_3_2_25549_019<u32>
-Field_7_3_2_25549_020<u32>
-Field_7_3_2_25549_021<u32>
-Field_7_3_2_25549_022<u32>
-Field_7_3_2_25549_023<u32>
-Field_7_3_2_25549_024<u32>
-Field_7_3_2_25549_025<u32>
-Field_7_3_2_25549_026<u32>
-Field_7_3_2_25549_027<u32>
-Field_7_3_2_25549_028<u32>
-Field_7_3_2_25549_029<u32>
-Field_7_3_2_25549_030<u32>
-Field_7_3_2_25549_031<u32>
-Field_7_3_2_25549_032<u32>
-Field_7_3_2_25549_033<u32>
-Field_7_3_2_25549_034<u32>
-Field_7_3_2_25549_035<u32>
-Field_7_3_2_25549_036<u32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
+CreatureImpactType<u8>
+SoundExertionID<u32>
+SoundExertionCriticalID<u32>
+SoundInjuryID<u32>
+SoundInjuryCriticalID<u32>
+SoundInjuryCrushingBlowID<u32>
+SoundDeathID<u32>
+SoundStunID<u32>
+SoundStandID<u32>
+SoundFootstepID<u32>
+SoundAggroID<u32>
+SoundWingFlapID<u32>
+SoundWingGlideID<u32>
+SoundAlertID<u32>
+SoundFidget<u32>[5]
+CustomAttack<u32>[4]
+NPCSoundID<u32>
+LoopSoundID<u32>
+SoundJumpStartID<u32>
+SoundJumpEndID<u32>
+SoundPetAttackID<u32>
+SoundPetOrderID<u32>
+SoundPetDismissID<u32>
+BirthSoundID<u32>
+SpellCastDirectedSoundID<u32>
+SubmergeSoundID<u32>
+SubmergedSoundID<u32>
+CreatureSoundDataIDPet<u32>
+WindupSoundID<u32>
+WindupCriticalSoundID<u32>
+ChargeSoundID<u32>
+ChargeCriticalSoundID<u32>
+BattleShoutSoundID<u32>
+BattleShoutCriticalSoundID<u32>
+TauntSoundID<u32>

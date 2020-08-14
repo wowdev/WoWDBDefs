@@ -25,26 +25,6 @@ int<GarrTalent::ID> PrerequisiteTalentID?
 int ResearchCostSource // 0: Talent, 1: Tree
 int Field_9_0_1_33978_013?
 int<GarrTalentSocketProperties::ID> GarrTalentSocketPropertiesID
-int Field_7_3_2_25549_000?
-locstring Field_7_3_2_25549_001_lang?
-locstring Field_7_3_2_25549_002_lang?
-int Field_7_3_2_25549_003?
-int Field_7_3_2_25549_004?
-int Field_7_3_2_25549_005?
-int Field_7_3_2_25549_006?
-int Field_7_3_2_25549_007?
-int Field_7_3_2_25549_008?
-int Field_7_3_2_25549_009?
-int Field_7_3_2_25549_010?
-int Field_7_3_2_25549_011?
-int Field_7_3_2_25549_012?
-int Field_7_3_2_25549_013?
-int Field_7_3_2_25549_014?
-int Field_7_3_2_25549_015?
-int Field_7_3_2_25549_016?
-int Field_7_3_2_25549_017?
-int Field_7_3_2_25549_018?
-int Field_7_3_2_25549_019?
 
 LAYOUT 53D5FD16
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -194,23 +174,23 @@ GarrTalentSocketPropertiesID<32>
 LAYOUT FA331244
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
-Field_7_3_2_25549_000<32>
-Field_7_3_2_25549_001_lang
-Field_7_3_2_25549_002_lang
-Field_7_3_2_25549_003<32>
-Field_7_3_2_25549_004<8>
-Field_7_3_2_25549_005<8>
-Field_7_3_2_25549_006<8>
-$id$Field_7_3_2_25549_007<32>
-Field_7_3_2_25549_008<u32>
-Field_7_3_2_25549_009<u32>
-Field_7_3_2_25549_010<u32>
-Field_7_3_2_25549_011<32>
-Field_7_3_2_25549_012<u32>
-Field_7_3_2_25549_013<32>
-Field_7_3_2_25549_014<u32>
-Field_7_3_2_25549_015<u32>
-Field_7_3_2_25549_016<32>
-Field_7_3_2_25549_017<u32>
-Field_7_3_2_25549_018<32>
-Field_7_3_2_25549_019<32>
+IconFileDataID<32>
+Name_lang
+Description_lang
+ResearchDurationSecs<32>
+Tier<8>
+UiOrder<8>
+Flags<8>
+$id$ID<32>
+GarrTalentTreeID<u32>
+GarrAbilityID<u32>
+PlayerConditionID<u32>
+ResearchCost<32>
+ResearchCostCurrencyTypesID<u32>
+ResearchGoldCost<32>
+PerkSpellID<u32>
+PerkPlayerConditionID<u32>
+RespecCost<32>
+RespecCostCurrencyTypesID<u32>
+RespecDurationSecs<32>
+RespecGoldCost<32>

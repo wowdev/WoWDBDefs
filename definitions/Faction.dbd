@@ -15,38 +15,6 @@ int Flags
 int<FriendshipReputation::ID> FriendshipRepID
 int<Faction::ID> ParagonFactionID
 int ReputationMax
-int Field_7_3_2_25549_000?
-int Field_7_3_2_25549_001?
-int Field_7_3_2_25549_002?
-float Field_7_3_2_25549_003?
-locstring Field_7_3_2_25549_004_lang?
-locstring Field_7_3_2_25549_005_lang?
-int Field_7_3_2_25549_006?
-int Field_7_3_2_25549_007?
-int Field_7_3_2_25549_008?
-int Field_7_3_2_25549_009?
-int Field_7_3_2_25549_010?
-int Field_7_3_2_25549_011?
-int Field_7_3_2_25549_012?
-int Field_7_3_2_25549_013?
-int Field_7_3_2_25549_014?
-int Field_7_3_2_25549_015?
-int Field_7_3_0_24473_000?
-int Field_7_3_0_24473_001?
-int Field_7_3_0_24473_002?
-float Field_7_3_0_24473_003?
-locstring Field_7_3_0_24473_004_lang?
-locstring Field_7_3_0_24473_005_lang?
-int Field_7_3_0_24473_006?
-int Field_7_3_0_24473_007?
-int Field_7_3_0_24473_008?
-int Field_7_3_0_24473_009?
-int Field_7_3_0_24473_010?
-int Field_7_3_0_24473_011?
-int Field_7_3_0_24473_012?
-int Field_7_3_0_24473_013?
-int Field_7_3_0_24473_014?
-int Field_7_3_0_24473_015?
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
@@ -211,38 +179,38 @@ ParentFactionCap<u8>[2]
 LAYOUT 4208D7B7
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
 BUILD 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
-$id$Field_7_3_2_25549_000<32>
-Field_7_3_2_25549_001<32>[4]
-Field_7_3_2_25549_002<32>[4]
-Field_7_3_2_25549_003[2]
-Field_7_3_2_25549_004_lang
-Field_7_3_2_25549_005_lang
-Field_7_3_2_25549_006<32>[4]
-Field_7_3_2_25549_007<16>
-Field_7_3_2_25549_008<u16>[4]
-Field_7_3_2_25549_009<u16>[4]
-Field_7_3_2_25549_010<u16>
-Field_7_3_2_25549_011<u16>
-Field_7_3_2_25549_012<u8>[2]
-Field_7_3_2_25549_013<u8>
-Field_7_3_2_25549_014<u8>
-Field_7_3_2_25549_015<u8>
+$id$ID<32>
+ReputationRaceMask<32>[4]
+ReputationBase<32>[4]
+ParentFactionMod[2]
+Name_lang
+Description_lang
+ReputationMax<32>[4]
+ReputationIndex<16>
+ReputationClassMask<u16>[4]
+ReputationFlags<u16>[4]
+ParentFactionID<u16>
+ParagonFactionID<u16>
+ParentFactionCap<u8>[2]
+Expansion<u8>
+FriendshipRepID<u8>
+Flags<u8>
 
 LAYOUT B9B47D44
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715
-$id$Field_7_3_0_24473_000<32>
-Field_7_3_0_24473_001<u32>[4]
-Field_7_3_0_24473_002<32>[4]
-Field_7_3_0_24473_003[2]
-Field_7_3_0_24473_004_lang
-Field_7_3_0_24473_005_lang
-Field_7_3_0_24473_006<32>[4]
-Field_7_3_0_24473_007<16>
-Field_7_3_0_24473_008<u16>[4]
-Field_7_3_0_24473_009<u16>[4]
-Field_7_3_0_24473_010<u16>
-Field_7_3_0_24473_011<u16>
-Field_7_3_0_24473_012<u8>[2]
-Field_7_3_0_24473_013<u8>
-Field_7_3_0_24473_014<u8>
-Field_7_3_0_24473_015<u8>
+$id$ID<32>
+ReputationRaceMask<u32>[4]
+ReputationBase<32>[4]
+ParentFactionMod[2]
+Name_lang
+Description_lang
+ReputationMax<32>[4]
+ReputationIndex<16>
+ReputationClassMask<u16>[4]
+ReputationFlags<u16>[4]
+ParentFactionID<u16>
+ParagonFactionID<u16>
+ParentFactionCap<u8>[2]
+Expansion<u8>
+FriendshipRepID<u8>
+Flags<u8>

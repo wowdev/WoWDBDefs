@@ -72,10 +72,7 @@ int Field_1_13_0_28211_011?
 int Field_1_13_0_28211_012?
 int Field_1_13_0_28211_013?
 int Field_1_13_0_28211_014?
-int Field_7_3_2_25549_005?
-int Field_7_3_0_24473_000?
 int Field_7_3_0_24473_009?
-int Field_7_3_0_24539_008?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -323,11 +320,11 @@ MissileImpactOffset[3]
 MissileDestinationAttachment<8>
 MissileAttachment<8>
 $id$ID<32>
-$noninline,relation$Field_7_3_2_25549_005<32>
+$noninline,relation$Field_7_3_0_24473_009<32>
 
 LAYOUT 77E0E98C
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500
-Field_7_3_0_24473_000<32>
+Field_2523454085<32>
 MissileCastOffset[3]
 MissileImpactOffset[3]
 SpellVisualMissileSetID<u16>
@@ -348,4 +345,4 @@ MissileAttachment<8>
 MissileDestinationAttachment<8>
 $id$ID<32>
 AnimEventSoundID<u32>
-$noninline,relation$Field_7_3_0_24539_008<32>
+$noninline,relation$Field_7_3_0_24473_009<32>

@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int<SoundKit::ID> ParentSoundKitID
 int<SoundKit::ID> SoundKitID
-int Field_7_3_0_24473_000?
-int Field_7_3_0_24473_001?
 
 LAYOUT 2827A3B5
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -35,5 +33,5 @@ $relation$ParentSoundKitID<u32>
 LAYOUT F01D2375
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
 $noninline,id$ID<32>
-Field_7_3_0_24473_000<u32>
-Field_7_3_0_24473_001<u32>
+ParentSoundKitID<u32>
+SoundKitID<u32>

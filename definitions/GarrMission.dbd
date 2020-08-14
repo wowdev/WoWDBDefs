@@ -44,35 +44,6 @@ float WorldPos
 float Field_9_0_1_33978_028?
 int Field_9_0_1_33978_029?
 int<GarrAutoCombatant::ID> Field_9_0_1_33978_030?
-int Field_7_3_2_25549_000?
-int Field_7_3_2_25549_001?
-locstring Field_7_3_2_25549_002_lang?
-locstring Field_7_3_2_25549_003_lang?
-locstring Field_7_3_2_25549_004_lang?
-float Field_7_3_2_25549_005?
-float Field_7_3_2_25549_006?
-int Field_7_3_2_25549_007?
-int Field_7_3_2_25549_008?
-int Field_7_3_2_25549_009?
-int Field_7_3_2_25549_010?
-int Field_7_3_2_25549_011?
-int Field_7_3_2_25549_012?
-int Field_7_3_2_25549_013?
-int Field_7_3_2_25549_014?
-int Field_7_3_2_25549_015?
-int Field_7_3_2_25549_016?
-int Field_7_3_2_25549_017?
-int Field_7_3_2_25549_018?
-int Field_7_3_2_25549_019?
-int Field_7_3_2_25549_020?
-int Field_7_3_2_25549_021?
-int Field_7_3_2_25549_022?
-int Field_7_3_2_25549_023?
-int Field_7_3_2_25549_024?
-int Field_7_3_2_25549_025?
-int Field_7_3_2_25549_026?
-int Field_7_3_2_25549_027?
-int Field_7_3_2_25549_028?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -273,35 +244,35 @@ $noninline,relation$GarrMissionSetID<32>
 LAYOUT AC978C1E
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
-Field_7_3_2_25549_000<32>
-Field_7_3_2_25549_001<u32>
-Field_7_3_2_25549_002_lang
-Field_7_3_2_25549_003_lang
-Field_7_3_2_25549_004_lang
-Field_7_3_2_25549_005[2]
-Field_7_3_2_25549_006[2]
-Field_7_3_2_25549_007<u16>
-Field_7_3_2_25549_008<u16>
-Field_7_3_2_25549_009<u16>
-Field_7_3_2_25549_010<8>
-Field_7_3_2_25549_011<u8>
-Field_7_3_2_25549_012<u8>
-Field_7_3_2_25549_013<u8>
-Field_7_3_2_25549_014<u8>
-Field_7_3_2_25549_015<u8>
-Field_7_3_2_25549_016<u8>
-Field_7_3_2_25549_017<u8>
-Field_7_3_2_25549_018<u8>
-$id$Field_7_3_2_25549_019<32>
-Field_7_3_2_25549_020<32>
-Field_7_3_2_25549_021<u32>
-Field_7_3_2_25549_022<u32>
-Field_7_3_2_25549_023<u32>
-Field_7_3_2_25549_024<u32>
-Field_7_3_2_25549_025<u32>
-Field_7_3_2_25549_026<u32>
-Field_7_3_2_25549_027<u32>
-Field_7_3_2_25549_028<u32>
+MissionDuration<32>
+OfferDuration<u32>
+Name_lang
+Description_lang
+Location_lang
+MapPos[2]
+WorldPos[2]
+TargetItemLevel<u16>
+UiTextureKitID<u16>
+MissionCostCurrencyTypesID<u16>
+TargetLevel<8>
+EnvGarrMechanicTypeID<u8>
+MaxFollowers<u8>
+OfferedGarrMissionTextureID<u8>
+GarrMissionTypeID<u8>
+GarrFollowerTypeID<u8>
+BaseCompletionChance<u8>
+FollowerDeathChance<u8>
+GarrTypeID<u8>
+$id$ID<32>
+TravelDuration<32>
+PlayerConditionID<u32>
+GarrMissionSetID<u32>
+MissionCost<u32>
+Flags<u32>
+BaseFollowerXP<u32>
+AreaID<u32>
+OvermaxRewardPackID<u32>
+EnvGarrMechanicID<u32>
 
 LAYOUT 7F09A539
 BUILD 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522

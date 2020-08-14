@@ -19,22 +19,6 @@ int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
-string Field_7_3_0_24473_000?
-string Field_7_3_0_24473_001?
-string Field_7_3_0_24473_002?
-locstring Field_7_3_0_24473_003_lang?
-locstring Field_7_3_0_24473_004_lang?
-locstring Field_7_3_0_24473_005_lang?
-int Field_7_3_0_24473_006?
-int Field_7_3_0_24473_007?
-int Field_7_3_0_24473_008?
-int Field_7_3_0_24473_009?
-int Field_7_3_0_24473_010?
-int Field_7_3_0_24473_011?
-int Field_7_3_0_24473_012?
-int Field_7_3_0_24473_013?
-int Field_7_3_0_24473_014?
-int Field_7_3_0_24473_015?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11927-4.3.4.15595
@@ -177,19 +161,19 @@ ExtendedUIStateVariable<u16>[3]
 
 LAYOUT 033421FA
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715
-Field_7_3_0_24473_000
-Field_7_3_0_24473_001
-Field_7_3_0_24473_002
-Field_7_3_0_24473_003_lang
-Field_7_3_0_24473_004_lang
-Field_7_3_0_24473_005_lang
-Field_7_3_0_24473_006<16>
-Field_7_3_0_24473_007<u16>
-Field_7_3_0_24473_008<u16>
-Field_7_3_0_24473_009<u16>
-Field_7_3_0_24473_010<u16>
-Field_7_3_0_24473_011<u16>[3]
-Field_7_3_0_24473_012<u8>
-Field_7_3_0_24473_013<u8>
-Field_7_3_0_24473_014<u8>
-$id$Field_7_3_0_24473_015<32>
+Icon
+ExtendedUI
+DynamicIcon
+DynamicTooltip_lang
+String_lang
+Tooltip_lang
+MapID<16>
+AreaID<u16>
+PhaseID<u16>
+PhaseGroupID<u16>
+StateVariable<u16>
+ExtendedUIStateVariable<u16>[3]
+OrderIndex<u8>
+PhaseUseFlags<u8>
+Type<u8>
+$id$ID<32>

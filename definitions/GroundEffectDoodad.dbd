@@ -11,10 +11,6 @@ float Size_variation_max
 float Rotation_variation_min // in degrees
 float Rotation_variation_max // in degrees
 int<TerrainColorGradingRamp::ID> TerrainColorGradingRampID
-float Field_7_3_0_24473_000?
-float Field_7_3_0_24473_001?
-int Field_7_3_0_24473_002?
-int Field_7_3_0_24473_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -96,7 +92,7 @@ TerrainColorGradingRampID<32>
 LAYOUT 89572776
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
 $noninline,id$ID<32>
-Field_7_3_0_24473_000
-Field_7_3_0_24473_001
-Field_7_3_0_24473_002<u8>
-Field_7_3_0_24473_003<32>
+Animscale
+Pushscale
+Flags<u8>
+ModelFileID<32>

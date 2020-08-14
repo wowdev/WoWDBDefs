@@ -20,23 +20,6 @@ int LeftBoundary
 int RightBoundary
 int TopBoundary
 int BottomBoundary
-string Field_7_3_0_24473_000?
-float Field_7_3_0_24473_001?
-float Field_7_3_0_24473_002?
-float Field_7_3_0_24473_003?
-float Field_7_3_0_24473_004?
-int Field_7_3_0_24473_005?
-int Field_7_3_0_24473_006?
-int Field_7_3_0_24473_007?
-int Field_7_3_0_24473_008?
-int Field_7_3_0_24473_009?
-int Field_7_3_0_24473_010?
-int Field_7_3_0_24473_011?
-int Field_7_3_0_24473_012?
-int Field_7_3_0_24473_013?
-int Field_7_3_0_24473_014?
-int Field_7_3_0_24473_015?
-int Field_7_3_0_24473_016?
 
 BUILD 6.0.1.18179
 BUILD 4.3.2.15148-4.3.4.15595
@@ -127,20 +110,20 @@ VisibilityPlayerConditionID<u32>
 
 LAYOUT B32332C3
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24759
-Field_7_3_0_24473_000
-Field_7_3_0_24473_001
-Field_7_3_0_24473_002
-Field_7_3_0_24473_003
-Field_7_3_0_24473_004
-Field_7_3_0_24473_005<16>
-Field_7_3_0_24473_006<u16>
-Field_7_3_0_24473_007<16>
-Field_7_3_0_24473_008<u16>
-Field_7_3_0_24473_009<u16>
-Field_7_3_0_24473_010<u16>
-Field_7_3_0_24473_011<u8>
-Field_7_3_0_24473_012<u8>
-Field_7_3_0_24473_013<u8>
-Field_7_3_0_24473_014<u8>
-$id$Field_7_3_0_24473_015<32>
-Field_7_3_0_24473_016<u32>
+AreaName
+LocLeft
+LocRight
+LocTop
+LocBottom
+MapID<16>
+AreaID<u16>
+DisplayMapID<16>
+DefaultDungeonFloor<u16>
+ParentWorldMapID<u16>
+Flags<u16>
+LevelRangeMin<u8>
+LevelRangeMax<u8>
+BountySetID<u8>
+BountyDisplayLocation<u8>
+$id$ID<32>
+VisibilityPlayerConditionID<u32>
