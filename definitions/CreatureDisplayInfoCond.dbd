@@ -96,7 +96,6 @@ HairStyleMask<u32>
 FaceStyleMask<u32>
 FacialHairStyleMask<u32>
 CreatureModelDataID<32>
-CreatureModelDataID<32>
 TextureVariationFileDataID<32>[3]
 
 LAYOUT 3A7D6AEA
@@ -115,6 +114,5 @@ HairColorMask<u32>
 HairStyleMask<u32>
 FaceStyleMask<u32>
 FacialHairStyleMask<u32>
-CreatureModelDataID<32>
 CreatureModelDataID<32>
 TextureVariationFileDataID<32>[3]
