@@ -3,8 +3,8 @@ int ID
 int Base
 int PerLevel
 int Minimum
-int Field_9_0_1_33978_000? // if >= col_1, use col_0, else col_1
-int Field_9_0_1_33978_001?
+int Field_9_0_1_33978_000? // if >= col_1, use col_0, else col_1, Base
+int Field_9_0_1_33978_001? // Minimum
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
