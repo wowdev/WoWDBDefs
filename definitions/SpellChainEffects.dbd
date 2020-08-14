@@ -42,7 +42,7 @@ int Red
 int Green
 int Blue
 int BlendMode
-int Padding_3020562985?
+int Padding_5_3_0_16965_043?
 int RenderLayer
 float TextureLength
 float WavePhase
@@ -64,7 +64,7 @@ float TextureRepeatLengthV
 float TimePerFlipFrame
 float VariancePerFlipFrame
 int<Curve::ID> WidthScaleCurveID
-int Padding_596171098?
+int Padding_4_0_0_11792_044?
 string Combo
 
 BUILD 6.0.1.18179
@@ -113,7 +113,7 @@ Red<8>
 Green<8>
 Blue<8>
 BlendMode<8>
-Padding_3020562985<8>[3]
+Padding_5_3_0_16965_043<8>[3]
 RenderLayer<32>
 TextureLength
 WavePhase
@@ -231,7 +231,7 @@ Red<8>
 Green<8>
 Blue<8>
 BlendMode<8>
-Padding_596171098<8>[3]
+Padding_4_0_0_11792_044<8>[3]
 Combo
 RenderLayer<32>
 TextureLength

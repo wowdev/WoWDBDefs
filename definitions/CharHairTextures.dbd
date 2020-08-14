@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int<ChrRaces::ID> Field_6196993_race?
-int Field_0398928_gender?
-int Field_118879370_mayberacemask?
-int Field_70049839_the_x_in_hair_xy_blp? // Maybe the * of Hair*_x.blp?
-int Field_345983495834?
-int Field_120396383312?
+int<ChrRaces::ID> Field_0_5_3_3368_001_race?
+int Field_0_5_3_3368_002_gender?
+int Field_0_5_3_3368_003_mayberacemask?
+int Field_0_5_3_3368_004_the_x_in_hair_xy_blp? // Maybe the * of Hair*_x.blp?
+int Field_0_5_3_3368_005?
+int Field_0_5_3_3368_006?
 
 BUILD 3.0.2.8905
 BUILD 0.5.3.3368-0.12.0.3988
@@ -13,9 +13,9 @@ BUILD 1.0.0.3980-1.12.3.6141
 BUILD 2.0.0.5610-2.4.3.8606
 BUILD 3.0.1.8303-3.3.5.12340
 $id$ID<32>
-Field_6196993_race<32>
-Field_0398928_gender<32>
-Field_118879370_mayberacemask<32>
-Field_70049839_the_x_in_hair_xy_blp<32>
-Field_345983495834<32>
-Field_120396383312<32>
+Field_0_5_3_3368_001_race<32>
+Field_0_5_3_3368_002_gender<32>
+Field_0_5_3_3368_003_mayberacemask<32>
+Field_0_5_3_3368_004_the_x_in_hair_xy_blp<32>
+Field_0_5_3_3368_005<32>
+Field_0_5_3_3368_006<32>
