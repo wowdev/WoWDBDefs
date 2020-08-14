@@ -1,7 +1,7 @@
 COLUMNS
-int Field_3489582336?
-int Field_4222230091?
-int Field_2504596630?
+int Field_6_0_1_18179_008?
+int Field_6_0_1_18179_013?
+int Field_6_0_1_18179_014?
 int ID
 int<AnimationData::ID> AnimID
 int<AnimKit::ID> AnimKitID
@@ -24,7 +24,7 @@ int<AnimationData::ID> StartAnimID
 float StartDelay
 float Yaw
 float YawVariation
-int Field_3205223131?
+int Field_4_0_6_13623_008?
 float Field_9_0_1_33978_021?
 int Field_7_3_2_25549_000? // always matches ParentSpellVisualKitID relation?
 
@@ -37,13 +37,13 @@ Offset[3]
 Yaw
 Pitch
 Roll
-Field_3489582336<32>
+Field_6_0_1_18179_008<32>
 StartAnimID<32>
 AnimID<32>
 EndAnimID<32>
 AnimKitID<32>
-Field_4222230091<32>
-Field_2504596630<32>
+Field_6_0_1_18179_013<32>
+Field_6_0_1_18179_014<32>
 
 LAYOUT BCE18649
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -128,7 +128,7 @@ Offset[3]
 Yaw
 Pitch
 Roll
-Field_3205223131<32>
+Field_4_0_6_13623_008<32>
 StartAnimID<32>
 AnimID<32>
 EndAnimID<32>
@@ -144,7 +144,7 @@ Offset[3]
 Yaw
 Pitch
 Roll
-Field_3205223131<32>
+Field_4_0_6_13623_008<32>
 StartAnimID<32>
 AnimID<32>
 EndAnimID<32>

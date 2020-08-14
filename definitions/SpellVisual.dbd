@@ -1,24 +1,24 @@
 COLUMNS
-int Field_2471851980?
-int Field_740989245?
-int Field_2013714106?
-int Field_3662697718?
-int Field_2523454085?
-int Field_2740640073?
-int Field_1819773205?
-int Field_4195437028?
-int Field_3119697537?
-int Field_2684464822?
-int Field_3728393584?
-int Field_469002402?
-int Field_1754748671?
-float Field_2080864359?
-float Field_1742445114?
-int Field_921879523?
-int Field_2343287703?
-int Field_423883166?
-int Field_3650477862?
-int Field_3380890489?
+int Field_6_0_1_18179_001?
+int Field_6_0_1_18179_006?
+int Field_6_0_1_18179_007?
+int Field_6_0_1_18179_009?
+int Field_6_0_1_18179_010?
+int Field_6_0_1_18179_011?
+int Field_6_0_1_18179_012?
+int Field_6_0_1_18179_013?
+int Field_6_0_1_18179_014?
+int Field_6_0_1_18179_015?
+int Field_6_0_1_18179_016?
+int Field_6_0_1_18179_017?
+int Field_6_0_1_18179_018?
+float Field_6_0_1_18179_019?
+float Field_6_0_1_18179_020?
+int Field_6_0_1_18179_021?
+int Field_6_0_1_18179_022?
+int Field_6_0_1_18179_023?
+int Field_6_0_1_18179_024?
+int Field_6_0_1_18179_025?
 int ID
 int AnimEventSoundID
 int CasterSpellVisualID
@@ -68,31 +68,31 @@ int Field_7_3_0_24473_009?
 
 BUILD 6.0.1.18179
 $id$ID<32>
-Field_2471851980<32>
+Field_6_0_1_18179_001<32>
 PrecastKit<32>
 CastKit<32>
 ImpactKit<32>
 StateKit<32>
-Field_740989245<32>
-Field_2013714106<32>
+Field_6_0_1_18179_006<32>
+Field_6_0_1_18179_007<32>
 MissileDestinationAttachment<32>
-Field_3662697718<32>
-Field_2523454085<32>
-Field_2740640073<32>
-Field_1819773205<32>
-Field_4195437028<32>
-Field_3119697537<32>
-Field_2684464822<32>
-Field_3728393584<32>
-Field_469002402<32>
-Field_1754748671<32>
-Field_2080864359[3]
-Field_1742445114[3]
-Field_921879523<32>
-Field_2343287703<32>
-Field_423883166<32>
-Field_3650477862<32>
-Field_3380890489<32>
+Field_6_0_1_18179_009<32>
+Field_6_0_1_18179_010<32>
+Field_6_0_1_18179_011<32>
+Field_6_0_1_18179_012<32>
+Field_6_0_1_18179_013<32>
+Field_6_0_1_18179_014<32>
+Field_6_0_1_18179_015<32>
+Field_6_0_1_18179_016<32>
+Field_6_0_1_18179_017<32>
+Field_6_0_1_18179_018<32>
+Field_6_0_1_18179_019[3]
+Field_6_0_1_18179_020[3]
+Field_6_0_1_18179_021<32>
+Field_6_0_1_18179_022<32>
+Field_6_0_1_18179_023<32>
+Field_6_0_1_18179_024<32>
+Field_6_0_1_18179_025<32>
 
 LAYOUT 1C1301D2
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -316,7 +316,7 @@ $noninline,relation$Field_7_3_0_24473_009<32>
 
 LAYOUT 77E0E98C
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500
-Field_2523454085<32>
+Field_6_0_1_18179_010<32>
 MissileCastOffset[3]
 MissileImpactOffset[3]
 SpellVisualMissileSetID<u16>

@@ -1,11 +1,11 @@
 COLUMNS
-int Field_3615618157?
-int Field_3717139135?
-int Field_1272793744?
-int Field_3649393156?
-int Field_2691620509?
-int Field_974013196?
-int Field_4236132424?
+int Field_6_0_1_18179_001?
+int Field_6_0_1_18179_002?
+int Field_6_0_1_18179_007?
+int Field_6_0_1_18179_010?
+int Field_6_0_1_18179_011?
+int Field_6_0_1_18179_013?
+int Field_6_0_1_18179_014?
 int ID
 int ArenaBracket
 int CurrencyCount
@@ -23,20 +23,20 @@ int<ItemPurchaseGroup::ID> ItemPurchaseGroup
 
 BUILD 6.0.1.18179
 $id$ID<32>
-Field_3615618157<32>
-Field_3717139135<32>
+Field_6_0_1_18179_001<32>
+Field_6_0_1_18179_002<32>
 ArenaBracket<32>
 ItemID<32>[5]
 ItemCount<32>[5]
 RequiredArenaRating<32>
-Field_1272793744<32>
+Field_6_0_1_18179_007<32>
 CurrencyID<32>[5]
 CurrencyCount<32>[5]
-Field_3649393156<32>
-Field_2691620509<32>
+Field_6_0_1_18179_010<32>
+Field_6_0_1_18179_011<32>
 Flags<32>
-Field_974013196<32>
-Field_4236132424<32>
+Field_6_0_1_18179_013<32>
+Field_6_0_1_18179_014<32>
 
 LAYOUT C31F4DEF
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

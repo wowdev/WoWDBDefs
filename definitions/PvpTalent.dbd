@@ -9,9 +9,9 @@ int<PvpTalentCategory::ID> PvpTalentCategoryID
 int<ChrSpecialization::ID> SpecID
 int<Spell::ID> SpellID
 int<ChrClasses::ID> ClassID
-int Field_1149400225?
-int Field_408242832?
-int Field_019797176?
+int Field_1_13_0_28211_005?
+int Field_1_13_0_28211_006?
+int Field_1_13_0_28211_010?
 
 LAYOUT E009F30C
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
@@ -20,12 +20,12 @@ SpellID<32>
 OverridesSpellID<32>
 Description_lang
 ActionBarSpellID<32>
-Field_1149400225<32>
-Field_408242832<32>
+Field_1_13_0_28211_005<32>
+Field_1_13_0_28211_006<32>
 Flags<32>
 ClassID<32>
 SpecID<32>
-Field_019797176<32>
+Field_1_13_0_28211_010<32>
 
 LAYOUT D3A8CFAC
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -35,12 +35,12 @@ SpellID<32>
 OverridesSpellID<32>
 Description_lang
 ActionBarSpellID<32>
-Field_1149400225<32>
-Field_408242832<32>
+Field_1_13_0_28211_005<32>
+Field_1_13_0_28211_006<32>
 Flags<32>
 ClassID<32>
 SpecID<32>
-Field_019797176<32>
+Field_1_13_0_28211_010<32>
 
 LAYOUT 6EB51740
 BUILD 8.0.1.25902
@@ -51,12 +51,12 @@ Description_lang
 SpellID<32>
 OverridesSpellID<32>
 ActionBarSpellID<32>
-Field_1149400225<32>
-Field_408242832<32>
+Field_1_13_0_28211_005<32>
+Field_1_13_0_28211_006<32>
 Flags<32>
 ClassID<32>
 SpecID<32>
-Field_019797176<32>
+Field_1_13_0_28211_010<32>
 
 LAYOUT 68F825BE
 BUILD 8.0.1.25976, 8.0.1.26010
@@ -66,24 +66,24 @@ SpellID<32>
 OverridesSpellID<32>
 ActionBarSpellID<32>
 PvpTalentCategoryID<32>
-Field_1149400225<32>
-Field_408242832<32>
+Field_1_13_0_28211_005<32>
+Field_1_13_0_28211_006<32>
 Flags<32>
 ClassID<32>
 SpecID<32>
-Field_019797176<32>
+Field_1_13_0_28211_010<32>
 
 LAYOUT 7428FDEA
 BUILD 8.0.1.26032
 $noninline,id$ID<32>
 Description_lang
 SpellID<32>
-Field_1149400225<32>
-Field_408242832<32>
+Field_1_13_0_28211_005<32>
+Field_1_13_0_28211_006<32>
 Flags<32>
 ClassID<32>
 SpecID<32>
-Field_019797176<32>
+Field_1_13_0_28211_010<32>
 OverridesSpellID<32>
 ActionBarSpellID<32>
 PvpTalentCategoryID<32>

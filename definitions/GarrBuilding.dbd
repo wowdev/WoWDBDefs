@@ -1,13 +1,13 @@
 COLUMNS
-int Field_3306722499?
-int Field_4210797641?
-int Field_2675108016?
-int Field_1038973225?
-int Field_4197582690?
-int Field_1003070737?
-int Field_2240183979?
-int Field_3505732336?
-int Field_1025260385?
+int Field_6_0_1_18179_003?
+int Field_6_0_1_18179_010?
+int Field_6_0_1_18179_012?
+int Field_6_0_1_18179_013?
+int Field_6_0_1_18179_014?
+int Field_6_0_1_18179_016?
+int Field_6_0_1_18179_017?
+int Field_6_0_1_18179_018?
+int Field_6_0_1_18179_019?
 int ID
 int<GameObjects::ID> AllianceGameObjectID
 locstring AllianceName_lang
@@ -38,23 +38,23 @@ BUILD 6.0.1.18179
 $id$ID<32>
 HordeGameObjectID<32>
 AllianceGameObjectID<32>
-Field_3306722499<32>
+Field_6_0_1_18179_003<32>
 BuildingType<32>
 UpgradeLevel<32>
 AllianceName_lang
 HordeName_lang
 Description_lang
 Tooltip_lang
-Field_4210797641<32>
+Field_6_0_1_18179_010<32>
 CurrencyTypeID<32>
-Field_2675108016<32>
-Field_1038973225<32>
-Field_4197582690<32>
+Field_6_0_1_18179_012<32>
+Field_6_0_1_18179_013<32>
+Field_6_0_1_18179_014<32>
 IconFileDataID<32>
-Field_1003070737<32>
-Field_2240183979<32>
-Field_3505732336<32>
-Field_1025260385<32>
+Field_6_0_1_18179_016<32>
+Field_6_0_1_18179_017<32>
+Field_6_0_1_18179_018<32>
+Field_6_0_1_18179_019<32>
 
 LAYOUT 200F9858
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
