@@ -17,7 +17,6 @@ locstring Gametype_lang
 locstring LongDescription_lang
 int<PlayerCondition::ID> Required_Player_Condition_ID
 locstring ShortDescription_lang
-int Field_1_13_2_30073_015?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -142,7 +141,7 @@ MaxGroupSize<8>
 HolidayWorldState<16>
 Flags<8>
 IconFileDataID<32>
-Field_1_13_2_30073_015<32>
+Required_Player_Condition_ID<32>
 MapID<16>[16]
 
 LAYOUT 4A89A6B2

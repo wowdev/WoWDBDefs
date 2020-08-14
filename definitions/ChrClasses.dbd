@@ -22,19 +22,8 @@ int StartingLevel
 int Required_expansion
 int PlayerClass
 int DamageBonusStat
-int Field_1_13_0_28211_005?
-int Field_1_13_0_28211_006?
-int Field_1_13_0_28211_007?
-int Field_1_13_0_28211_008?
-int Field_1_13_0_28211_010?
-int Field_1_13_0_28211_011?
-int Field_1_13_0_28211_012?
-int Field_1_13_0_28211_015?
-int Field_1_13_0_28211_016?
-int Field_1_13_0_28211_017?
 int Field_1_13_0_28211_019?
 int SpellTextureBlobFileDataID?
-int Field_1_13_2_30073_020?
 int RolesMask // (&1: group leader), &2: tank, &4: heal, &8: dps
 int Field_9_0_1_33978_014?
 int ChatColorR?
@@ -105,20 +94,20 @@ Name_lang
 Name_female_lang
 Name_male_lang
 Filename
-Field_1_13_0_28211_005<u32>
-Field_1_13_0_28211_006<u32>
-Field_1_13_0_28211_007<u32>
-Field_1_13_0_28211_008<u32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+LowResScreenFileDataID<u32>
+IconFileDataID<u32>
 StartingLevel<32>
-Field_1_13_0_28211_010<u16>
-Field_1_13_0_28211_011<u16>
-Field_1_13_0_28211_012<u16>
+Flags<u16>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
 DisplayPower<u8>
 SpellClassSet<u8>
-Field_1_13_0_28211_015<u8>
-Field_1_13_0_28211_016<u8>
-Field_1_13_0_28211_017<u8>
-Flags<u8>
+AttackPowerPerStrength<u8>
+AttackPowerPerAgility<u8>
+RangedAttackPowerPerAgility<u8>
+PrimaryStatPriority<u8>
 Field_1_13_0_28211_019<u8>
 $id$ID<32>
 
@@ -285,7 +274,7 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-Field_1_13_2_30073_020<u8>
+Field_1_13_0_28211_019<u8>
 
 LAYOUT 70C4356F
 BUILD 9.0.1.33978, 9.0.1.34003
