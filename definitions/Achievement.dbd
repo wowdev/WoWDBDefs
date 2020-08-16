@@ -16,7 +16,7 @@ int<Achievement::ID> Shares_criteria
 int<CriteriaTree::ID> Criteria_tree
 int<FileData::ID> IconFileID
 int<Item::ID> RewardItemID
-int<ContentTuning::ID> ContentTuningID
+int<Covenant::ID> CovenantID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -194,4 +194,4 @@ IconFileID<32>
 RewardItemID<32>
 Criteria_tree<u32>
 Shares_criteria<16>
-ContentTuningID<32>
+CovenantID<32>

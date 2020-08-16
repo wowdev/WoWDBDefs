@@ -25,7 +25,7 @@ int UniqueBitFlag
 int<WorldStateExpression::ID> WorldStateExpressionID
 int<ContentTuning::ID> ContentTuningID
 int Field_8_2_0_30774_023?
-int Field_9_0_1_33978_021?
+int<Covenant::ID> CovenantID
 
 LAYOUT 3F026A14
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141
@@ -279,7 +279,7 @@ StartItem<32>
 WorldStateExpressionID<16>
 QuestInfoID<u32>
 ContentTuningID<32>
-Field_9_0_1_33978_021<32>
+CovenantID<32>
 Field_8_2_0_30774_023<32>[3]
 FiltCompletedQuest<u32>[3]
 
@@ -333,6 +333,6 @@ StartItem<32>
 WorldStateExpressionID<32>
 QuestInfoID<u32>
 ContentTuningID<32>
-Field_9_0_1_33978_021<32>
+CovenantID<32>
 Field_8_2_0_30774_023<32>[3]
 FiltCompletedQuest<u32>[3]

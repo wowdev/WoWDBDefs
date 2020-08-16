@@ -2,14 +2,14 @@ COLUMNS
 int ID
 int DoodadID
 int DoodadWeight
-int Density
+int Density // 8..24
 int Sound
 int ContinentID
 int ZoneID
 int TextureID
 string TextureName
 int Datestamp
-int Field_9_0_1_35432_004?
+int SplatDensity?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -118,4 +118,4 @@ Density<u32>
 Sound<u8>
 DoodadID<u16>[4]
 DoodadWeight<8>[4]
-Field_9_0_1_35432_004<8>[4]
+SplatDensity<8>[4]

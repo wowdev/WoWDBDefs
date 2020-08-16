@@ -3,7 +3,7 @@ int ID
 int<UiModelScene::ID> CardUIModelSceneID
 int<Creature::ID> CreatureID
 locstring Description_lang
-int Flags
+int Flags // &0x8: use WorldEffectID 1012 instead of 1337
 int<FileData::ID> IconFileDataID
 int<UiModelScene::ID> LoadoutUIModelSceneID
 int PetTypeEnum
