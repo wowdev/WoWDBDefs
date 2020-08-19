@@ -14,7 +14,7 @@ int EffectItemType
 int EffectMechanic
 int EffectMiscValue // EA=313: AnimReplacementSetID
 float EffectPointsPerResource
-int EffectRadiusIndex
+int<SpellRadius::ID> EffectRadiusIndex
 float EffectRealPointsPerLevel
 int EffectSpellClassMask
 int<Spell::ID> EffectTriggerSpell
