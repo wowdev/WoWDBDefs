@@ -11,15 +11,6 @@ int UpperBoundSemantics? // independent of Flags&2, when reading MaxLevel, modif
 int Field_9_0_1_34490_007?
 int TargetLevelDelta?
 int TargetLevelMaxDelta // add to effective MaxLevel to get TargetLevelMax
-int Field_9_0_1_35598_000?
-int Field_9_0_1_35598_001?
-int Field_9_0_1_35598_002?
-int Field_9_0_1_35598_003?
-int Field_9_0_1_35598_004?
-int Field_9_0_1_35598_005?
-int Field_9_0_1_35598_006?
-int Field_9_0_1_35598_007?
-int Field_9_0_1_35598_008?
 int Field_9_0_1_35598_009?
 int Field_9_0_1_35598_010?
 
@@ -127,14 +118,14 @@ TargetLevelMaxDelta<32>
 
 LAYOUT 61BAD0A5
 BUILD 9.0.1.35598
-$id$Field_9_0_1_35598_000<32>
-Field_9_0_1_35598_001<32>
-Field_9_0_1_35598_002<32>
-Field_9_0_1_35598_003<32>
-Field_9_0_1_35598_004<32>
-Field_9_0_1_35598_005<32>
-Field_9_0_1_35598_006<32>
-Field_9_0_1_35598_007<32>
-Field_9_0_1_35598_008<32>
+$id$ID<32>
+Flags<32>
+ExpansionLevel<32>
+MinLevel<32>
+MaxLevel<32>
+LowerBoundSemantics<32>
+UpperBoundSemantics<32>
+TargetLevelDelta<32>
+TargetLevelMaxDelta<32>
 Field_9_0_1_35598_009<32>
 Field_9_0_1_35598_010<32>
