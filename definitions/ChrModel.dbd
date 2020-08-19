@@ -12,6 +12,20 @@ int<ChrModel::ID> BaseRaceChrModelID?
 float Field_9_0_1_34615_010?
 float Field_9_0_1_35522_001?
 float ChrCreateFacing // in radians
+float Field_9_0_1_35598_000?
+float Field_9_0_1_35598_001?
+int Field_9_0_1_35598_002?
+int Field_9_0_1_35598_003?
+int Field_9_0_1_35598_004?
+int Field_9_0_1_35598_005?
+int Field_9_0_1_35598_006?
+int Field_9_0_1_35598_007?
+int Field_9_0_1_35598_008?
+int Field_9_0_1_35598_009?
+int Field_9_0_1_35598_010?
+float Field_9_0_1_35598_011?
+float Field_9_0_1_35598_012?
+float Field_9_0_1_35598_013?
 
 LAYOUT 6FB2BE38
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -55,3 +69,20 @@ Field_9_0_1_34081_008<32>
 BaseRaceChrModelID<32>
 Field_9_0_1_34615_010
 ChrCreateFacing
+
+LAYOUT 762AF641
+BUILD 9.0.1.35598
+Field_9_0_1_35598_000[3]
+Field_9_0_1_35598_001[3]
+$id$Field_9_0_1_35598_002<32>
+Field_9_0_1_35598_003<32>
+Field_9_0_1_35598_004<32>
+Field_9_0_1_35598_005<32>
+Field_9_0_1_35598_006<32>
+Field_9_0_1_35598_007<32>
+Field_9_0_1_35598_008<32>
+Field_9_0_1_35598_009<32>
+Field_9_0_1_35598_010<32>
+Field_9_0_1_35598_011
+Field_9_0_1_35598_012
+Field_9_0_1_35598_013
