@@ -11,6 +11,7 @@ int Targets
 float ConeDegrees
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
 SpellID<32>
 DifficultyID<32>
@@ -82,3 +83,19 @@ TargetCreatureType<16>
 DifficultyID<u8>
 MaxTargets<u8>
 MaxTargetLevel<u32>
+
+BUILD 4.2.0.14333-4.3.4.15595
+BUILD 5.0.1.15464-5.0.1.15544
+$id$ID<32>
+ConeAngle
+Width
+MaxTargetLevel<32>
+TargetCreatureType<32>
+Targets<32>
+
+BUILD 4.0.0.12232-4.2.0.14316
+$id$ID<32>
+MaxTargets<32>
+MaxTargetLevel<32>
+TargetCreatureType<32>
+Targets<32>

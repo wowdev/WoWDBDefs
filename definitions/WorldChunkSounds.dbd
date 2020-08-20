@@ -89,3 +89,15 @@ ChunkY<u8>
 SubchunkX<u8>
 SubchunkY<u8>
 SoundOverrideID<u8>
+
+BUILD 3.0.1.8303-3.3.5.12340
+COMMENT completely unvalidated
+$id$ID<32>
+ChunkX<32>
+ChunkY<32>
+SubchunkX<32>
+SubchunkY<32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>

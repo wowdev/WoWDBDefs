@@ -12,6 +12,7 @@ int<ZoneMusic::ID> ZoneMusicID
 int TimeOfDayOverride
 int EffectMask
 int<FullScreenEffect::ID> FullScreenEffectID
+int Field_3_0_1_8303_001?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -100,3 +101,44 @@ ZoneMusicID<u32>
 TimeOfDayOverride<16>
 EffectMask<8>
 LightFlags<u8>
+
+BUILD 5.0.1.15799-5.4.8.18414
+$id$ID<32>
+Name
+Effect<32>
+Param<32>[4]
+LightParamsID<32>
+LightParamsFadeIn<32>
+LightParamsFadeOut<32>
+SoundAmbienceID<32>
+ZoneMusicID<32>
+TimeOfDayOverride<32>
+EffectMask<32>
+
+BUILD 5.0.1.15762-5.0.1.15781
+$id$ID<32>
+Name
+Effect<32>
+Param<32>[4]
+LightParamsID<32>
+LightParamsFadeIn<32>
+LightParamsFadeOut<32>
+SoundAmbienceID<32>
+ZoneMusicID<32>
+TimeOfDayOverride<32>
+
+BUILD 4.3.2.15211-4.3.4.15595
+BUILD 5.0.1.15464-5.0.1.15752
+$id$ID<32>
+Name
+Effect<32>
+Param<32>[4]
+LightParamsID<32>
+SoundAmbienceID<32>
+ZoneMusicID<32>
+TimeOfDayOverride<32>
+
+BUILD 3.0.1.8303-3.0.1.8471
+$id$ID<32>
+Field_3_0_1_8303_001<32>
+Param<32>[4]

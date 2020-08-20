@@ -15,6 +15,7 @@ float Variance
 float ComboPointsCoefficient
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 CastTimeMin<32>
 CastTimeMax<32>
@@ -39,6 +40,7 @@ MinScalingLevel<u32>
 MaxScalingLevel<u32>
 
 BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.0.0.12164
 $id$ID<32>
 CastTimeMin<32>
 CastTimeMax<32>
@@ -67,3 +69,15 @@ Class<32>
 MinScalingLevel<u32>
 MaxScalingLevel<u32>
 ScalesFromItemLevel<16>
+
+BUILD 4.0.0.12232-4.3.4.15595
+$id$ID<32>
+CastTimeMin<32>
+CastTimeMax<32>
+CastTimeMaxLevel<32>
+Class<32>
+Coefficient[3]
+Variance[3]
+ComboPointsCoefficient[3]
+NerfFactor
+NerfMaxLevel<32>

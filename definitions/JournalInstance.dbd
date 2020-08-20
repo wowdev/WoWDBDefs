@@ -10,6 +10,7 @@ locstring Name_lang
 locstring Description_lang
 int Flags
 int OrderIndex
+int Field_4_2_0_14333_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -105,3 +106,25 @@ AreaID<u16>
 OrderIndex<u8>
 Flags<u8>
 $id$ID<32>
+
+BUILD 5.0.1.15689-5.4.8.18414
+$id$ID<32>
+MapID<32>
+AreaID<32>
+ButtonFileDataID<32>
+BackgroundFileDataID<32>
+LoreFileDataID<32>
+Name_lang
+Description_lang
+
+BUILD 4.2.0.14333-4.3.4.15595
+BUILD 5.0.1.15464-5.0.1.15677
+$id$ID<32>
+MapID<32>
+AreaID<32>
+ButtonFileDataID<32>
+BackgroundFileDataID<32>
+LoreFileDataID<32>
+Field_4_2_0_14333_006<32>
+Name_lang
+Description_lang

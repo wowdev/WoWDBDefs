@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int RaceID
+int<ChrRaces::ID> RaceID
 int SexID
 int SectionID // CHARTEXTURESECTIONID
 int VariationID
@@ -10,6 +10,7 @@ string TextureName
 
 BUILD 0.5.5.3494
 BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
 RaceID<32>
 SexID<32>

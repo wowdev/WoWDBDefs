@@ -17,8 +17,13 @@ locstring Gametype_lang
 locstring LongDescription_lang
 int<PlayerCondition::ID> Required_Player_Condition_ID
 locstring ShortDescription_lang
+int Field_2_4_0_8089_009?
+int Field_3_0_3_9183_010?
+int Field_2_0_0_5610_006?
+int Field_2_0_0_5610_005?
 
 BUILD 6.0.1.18179
+BUILD 5.3.0.16844-5.4.8.18414
 $id$ID<32>
 MapID<32>[16]
 InstanceType<32>
@@ -207,3 +212,95 @@ Flags<8>
 IconFileDataID<32>
 Required_Player_Condition_ID<32>
 MapID<16>[16]
+
+BUILD 5.0.1.15589-5.2.0.16826
+$id$ID<32>
+MapID<32>[10]
+InstanceType<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<32>
+Minlevel<32>
+Maxlevel<32>
+RatedPlayers<32>
+MinPlayers<32>
+MaxPlayers<32>
+Flags<32>
+
+BUILD 4.0.6.13623-4.3.4.15595
+BUILD 5.0.1.15464-5.0.1.15544
+$id$ID<32>
+MapID<32>[8]
+InstanceType<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<32>
+Minlevel<32>
+Maxlevel<32>
+RatedPlayers<32>
+MinPlayers<32>
+MaxPlayers<32>
+Flags<32>
+
+BUILD 3.3.0.10958-3.3.2.11403
+$id$ID<32>
+MapID<32>[8]
+InstanceType<32>
+Field_2_0_0_5610_005<32>
+GroupsAllowed<32>
+Name_lang
+MaxGroupSize<32>
+HolidayWorldState<32>
+
+BUILD 3.1.0.9767-3.2.2.10505
+$id$ID<32>
+MapID<32>[8]
+InstanceType<32>
+Minlevel<32>
+Maxlevel<32>
+Field_2_0_0_5610_005<32>
+Field_2_0_0_5610_006<32>
+Field_2_4_0_8089_009<32>
+GroupsAllowed<32>
+Name_lang
+Field_3_0_3_9183_010<32>
+HolidayWorldState<32>
+
+BUILD 3.0.3.9183-3.0.9.9551
+$id$ID<32>
+MapID<32>[8]
+InstanceType<32>
+Minlevel<32>
+Maxlevel<32>
+Field_2_0_0_5610_005<32>
+Field_2_0_0_5610_006<32>
+Field_2_4_0_8089_009<32>
+GroupsAllowed<32>
+Name_lang
+Field_3_0_3_9183_010<32>
+
+BUILD 2.4.0.8089-2.4.3.8606
+BUILD 3.0.1.8303-3.0.2.9056
+$id$ID<32>
+MapID<32>[8]
+InstanceType<32>
+Minlevel<32>
+Maxlevel<32>
+Field_2_0_0_5610_005<32>
+Field_2_0_0_5610_006<32>
+GroupsAllowed<32>
+Name_lang
+Field_2_4_0_8089_009<32>
+
+BUILD 2.0.0.5610-2.3.3.7799
+$id$ID<32>
+MapID<32>[8]
+InstanceType<32>
+Minlevel<32>
+Maxlevel<32>
+Field_2_0_0_5610_005<32>
+Field_2_0_0_5610_006<32>
+GroupsAllowed<32>
+Name_lang

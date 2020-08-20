@@ -13,6 +13,7 @@ int<Spell::ID> SummonSpellID
 int<Covenant::ID> CovenantID?
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15699-5.4.8.18414
 $id$ID<32>
 CreatureID<32>
 IconFileDataID<32>
@@ -107,3 +108,28 @@ SourceTypeEnum<8>
 $id$ID<32>
 CardUIModelSceneID<32>
 LoadoutUIModelSceneID<32>
+
+BUILD 5.0.1.15640-5.0.1.15689
+$id$ID<32>
+CreatureID<32>
+IconFileDataID<32>
+SummonSpellID<32>
+PetTypeEnum<32>
+Flags<32>
+SourceText_lang
+Description_lang
+
+BUILD 5.0.1.15508-5.0.1.15589
+$id$ID<32>
+CreatureID<32>
+IconFileDataID<32>
+SummonSpellID<32>
+PetTypeEnum<32>
+Flags<32>
+
+BUILD 5.0.1.15464
+$id$ID<32>
+CreatureID<32>
+IconFileDataID<32>
+SummonSpellID<32>
+PetTypeEnum<32>

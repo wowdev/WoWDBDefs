@@ -7,6 +7,9 @@ int Flags
 int<Map::ID> MapID
 locstring Name_lang
 int ExpansionLevel?
+int Field_5_0_1_15464_002?
+int Field_5_0_1_15464_003?
+int Field_5_0_1_15464_004?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -60,3 +63,11 @@ Name_lang
 MapID<u16>
 CriteriaCount<16>[3]
 Flags<u8>
+
+BUILD 5.0.1.15464-5.4.8.18414
+$id$ID<32>
+MapID<32>
+Field_5_0_1_15464_002<32>
+Field_5_0_1_15464_003<32>
+Field_5_0_1_15464_004<32>
+CriteriaCount<32>[5]

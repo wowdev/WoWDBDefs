@@ -14,6 +14,7 @@ int Faction // -1: any, 0: Horde, 1: Alliance
 int<WorldState::ID> IsEncounterComplete
 
 BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 MapID<32>
 DifficultyID<32>
@@ -114,3 +115,15 @@ CreatureDisplayID<32>
 Flags<u8>
 SpellIconFileID<32>
 Faction<32>
+
+BUILD 4.0.0.12911-4.3.4.15595
+BUILD 5.0.1.15464-5.3.0.17116
+$id$ID<32>
+MapID<32>
+DifficultyID<32>
+OrderIndex<32>
+Bit<32>
+Name_lang
+CreatureDisplayID<32>
+SpellIconID<32>
+

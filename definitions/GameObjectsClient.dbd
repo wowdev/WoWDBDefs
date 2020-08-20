@@ -1,0 +1,21 @@
+COLUMNS
+int ID
+int OwnerID
+int DisplayID
+float Pos
+float Rot
+float Scale
+int TypeID
+int PropValue
+string Name
+
+BUILD 5.0.1.15464-5.0.1.15589
+$id$ID<32>
+OwnerID<32>
+DisplayID<32>
+Pos[3]
+Rot[4]
+Scale
+TypeID<32>
+PropValue<32>[4]
+Name

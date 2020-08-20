@@ -15,6 +15,7 @@ string Difficultystring
 int<ContentTuning::ID> ContentTuningID
 
 BUILD 6.0.1.18179
+BUILD 5.1.0.16309-5.4.8.18414
 $id$ID<32>
 MapID<32>
 DifficultyID<32>
@@ -143,3 +144,11 @@ LockID<u8>
 Flags<u8>
 ItemContext<u8>
 ItemContextPickerID<u32>
+
+BUILD 5.0.2.15827-5.0.5.16135
+$id$ID<32>
+MapID<32>
+Difficulty<32>
+Message_lang
+RaidDuration<32>
+MaxPlayers<32>
