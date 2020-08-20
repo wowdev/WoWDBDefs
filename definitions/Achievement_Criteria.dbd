@@ -65,10 +65,11 @@ $id$ID<32>
 Achievement_ID<32>
 Type<32>
 Asset_ID<32>
-Quantity<64>
+Quantity<32>
 Start_event<32>
 Start_asset<32>
 Fail_event<32>
+Fail_asset<32>
 Description_lang
 Flags<32>
 Timer_start_event<32>
@@ -80,15 +81,16 @@ Field_4_0_0_12911_015<32>
 AdditionalConditionType<32>[3]
 AdditionalConditionValue<32>[3]
 
-BUILD 4.0.0.12911-4.0.6.13596
+BUILD 4.0.0.12539-4.0.6.13596
 $id$ID<32>
 Achievement_ID<32>
 Type<32>
 Asset_ID<32>
-Quantity<64>
+Quantity<32>
 Start_event<32>
 Start_asset<32>
 Fail_event<32>
+Fail_asset<32>
 Description_lang
 Flags<32>
 Timer_start_event<32>
