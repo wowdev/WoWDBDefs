@@ -1,5 +1,4 @@
 COLUMNS
-int Field_6_0_1_18179_002?
 float Field_6_0_1_18179_012? // HealthCostPercentage?
 int ID
 int AltPowerBarID
@@ -19,7 +18,7 @@ int<Spell::ID> SpellID
 BUILD 6.0.1.18179
 $id$ID<32>
 SpellID<32>
-Field_6_0_1_18179_002<32>
+OrderIndex<32>
 PowerType<32>
 ManaCost<32>
 ManaCostPerLevel<32>
