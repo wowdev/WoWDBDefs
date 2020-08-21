@@ -1,6 +1,5 @@
 COLUMNS
 int Padding_5_3_0_16965_004?
-int Field_6_0_1_18179_005? // possibly WowEditInternal
 int ID
 string Domain
 int GrantAccess
@@ -8,12 +7,13 @@ int RevokeAccess
 int WowEditInternal
 
 BUILD 6.0.1.18179
+BUILD 5.3.0.16965-5.4.8.18414
 $id$ID<32>
 Domain
 GrantAccess<8>
 RevokeAccess<8>
 Padding_5_3_0_16965_004<8>[2]
-Field_6_0_1_18179_005<32>
+WowEditInternal<32>
 
 LAYOUT 01D13030, 1524F278, EDDFD030
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598
@@ -37,11 +37,3 @@ Domain
 GrantAccess<u8>
 RevokeAccess<u8>
 WowEditInternal<u8>
-
-BUILD 5.3.0.16965-5.4.8.18414
-$id$ID<32>
-Domain
-GrantAccess<8>
-RevokeAccess<8>
-Padding_5_3_0_16965_004<8>[2]
-WowEditInternal<32>
