@@ -7,6 +7,7 @@ int RevokeAccess
 int WowEditInternal
 
 BUILD 6.0.1.18179
+BUILD 5.3.0.16965-5.4.8.18414
 $id$ID<32>
 Domain
 GrantAccess<8>
@@ -36,11 +37,3 @@ Domain
 GrantAccess<u8>
 RevokeAccess<u8>
 WowEditInternal<u8>
-
-BUILD 5.3.0.16965-5.4.8.18414
-$id$ID<32>
-Domain
-GrantAccess<8>
-RevokeAccess<8>
-Padding_5_3_0_16965_004<8>[2]
-WowEditInternal<32>
