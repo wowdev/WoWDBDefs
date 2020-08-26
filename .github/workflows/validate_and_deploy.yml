@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Deploy to wow.tools
-      uses: bloerwald/fast-webhook@master
+      uses: jasongitmail/fast-webhook@v1.1.2
       with:
         url: ${{ secrets.WOW_TOOLS_WEBHOOK_URL }}
         json: ${{ secrets.WOW_TOOLS_WEBHOOK_SECRET }}
