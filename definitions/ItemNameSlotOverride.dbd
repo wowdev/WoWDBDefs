@@ -5,7 +5,7 @@ int InventoryTypeMask // 1 << Item::InventoryType
 int<ItemNameDescription::ID> ItemNameDescriptionID
 
 LAYOUT 3333801A
-BUILD 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598
+BUILD 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679
 $noninline,id$ID<32>
 Description_lang
 InventoryTypeMask<u32>
