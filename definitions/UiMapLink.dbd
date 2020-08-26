@@ -7,14 +7,6 @@ float UiMax
 float UiMin
 int<FileData::ID> HighlightFdID?
 int<UiTextureAtlasMember::ID> Field_8_2_0_30495_007?
-float Field_9_0_1_35679_000?
-float Field_9_0_1_35679_001?
-int Field_9_0_1_35679_002?
-int Field_9_0_1_35679_003?
-int Field_9_0_1_35679_004?
-int Field_9_0_1_35679_005?
-int Field_9_0_1_35679_006?
-int Field_9_0_1_35679_007?
 int Field_9_0_1_35679_008?
 
 LAYOUT C4F972FE
@@ -78,12 +70,12 @@ Field_8_2_0_30495_007<32>
 
 LAYOUT 90B080E2
 BUILD 9.0.1.35679
-Field_9_0_1_35679_000[2]
-Field_9_0_1_35679_001[2]
-$id$Field_9_0_1_35679_002<32>
-Field_9_0_1_35679_003<32>
-Field_9_0_1_35679_004<32>
-Field_9_0_1_35679_005<32>
-Field_9_0_1_35679_006<32>
-Field_9_0_1_35679_007<32>
+UiMin[2]
+UiMax[2]
+$id$ID<32>
+ParentUiMapID<32>
+OrderIndex<32>
+ChildUiMapID<32>
+HighlightFdID<32>
+Field_8_2_0_30495_007<32>
 Field_9_0_1_35679_008<32>

@@ -17,22 +17,8 @@ int<FileData::ID> SpellIconFileDataID
 float MinDuration
 int<ContentTuning::ID> ContentTuningID
 int<PlayerCondition::ID> PlayerConditionID
-int Field_9_0_1_35679_000?
-int Field_9_0_1_35679_001?
-int Field_9_0_1_35679_002?
-int Field_9_0_1_35679_003?
-int Field_9_0_1_35679_004?
-int Field_9_0_1_35679_005?
-float Field_9_0_1_35679_006?
-float Field_9_0_1_35679_007?
-float Field_9_0_1_35679_008?
-int Field_9_0_1_35679_009?
-int Field_9_0_1_35679_010?
-int Field_9_0_1_35679_011?
-int Field_9_0_1_35679_012?
 int Field_9_0_1_35679_013?
 int Field_9_0_1_35679_014?
-int Field_9_0_1_35679_015?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -193,19 +179,19 @@ $noninline,relation$SpellID<32>
 LAYOUT B252FDD7
 BUILD 9.0.1.35679
 $noninline,id$ID<32>
-Field_9_0_1_35679_000<32>[15]
-Field_9_0_1_35679_001<u8>
-Field_9_0_1_35679_002<u16>
-Field_9_0_1_35679_003<u16>
-Field_9_0_1_35679_004<u16>
-Field_9_0_1_35679_005<u8>
-Field_9_0_1_35679_006
-Field_9_0_1_35679_007
-Field_9_0_1_35679_008
-Field_9_0_1_35679_009<32>
-Field_9_0_1_35679_010<32>
-Field_9_0_1_35679_011<32>
-Field_9_0_1_35679_012<32>
+Attributes<32>[15]
+DifficultyID<u8>
+CastingTimeIndex<u16>
+DurationIndex<u16>
+RangeIndex<u16>
+SchoolMask<u8>
+Speed
+LaunchDelay
+MinDuration
+SpellIconFileDataID<32>
+ActiveIconFileDataID<32>
+ContentTuningID<32>
+PlayerConditionID<32>
 Field_9_0_1_35679_013<32>
 Field_9_0_1_35679_014<32>
-$noninline,relation$Field_9_0_1_35679_015<32>
+$noninline,relation$SpellID<32>

@@ -5,10 +5,6 @@ int Index
 int Skill
 int Action
 int Field_9_0_1_35679_000?
-int Field_9_0_1_35679_001?
-int Field_9_0_1_35679_002?
-int Field_9_0_1_35679_003?
-int Field_9_0_1_35679_004?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -63,7 +59,7 @@ LAYOUT 2EDD6B10
 BUILD 9.0.1.35679
 $noninline,id$ID<32>
 Field_9_0_1_35679_000<32>
-Field_9_0_1_35679_001<32>[8]
-Field_9_0_1_35679_002<u16>[8]
-Field_9_0_1_35679_003<u8>[8]
-Field_9_0_1_35679_004<u8>[8]
+Index<32>[8]
+Skill<u16>[8]
+Type<u8>[8]
+Action<u8>[8]
