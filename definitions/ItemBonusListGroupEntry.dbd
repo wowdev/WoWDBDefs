@@ -4,7 +4,7 @@ int<ItemBonusList::ID> ItemBonusListID?
 int<ItemLevelSelector::ID> ItemLevelSelectorID?
 int OrderIndex?
 int<ItemExtendedCost::ID> ItemExtendedCostID?
-int ItemBonusListGroupID?
+int<ItemBonusListGroup::ID> ItemBonusListGroupID?
 int<PlayerCondition::ID> UnlockCondition?
 
 LAYOUT 87A0CA78, CA17B2FF
