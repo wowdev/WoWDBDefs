@@ -1,7 +1,7 @@
 COLUMNS
 int SpellClassMask
 int ID
-int ModalNextSpell
+int<Spell::ID> ModalNextSpell
 int SpellClassSet
 int<Spell::ID> SpellID
 
