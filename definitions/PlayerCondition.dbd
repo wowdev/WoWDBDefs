@@ -660,7 +660,7 @@ NativeGender<8>
 AreaLogic<u32>
 LfgLogic<u32>
 CurrencyLogic<u32>
-QuestKillID<16>
+QuestKillID<32>
 QuestKillLogic<u32>
 MinExpansionLevel<8>
 MaxExpansionLevel<8>
