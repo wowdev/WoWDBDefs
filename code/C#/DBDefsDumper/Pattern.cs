@@ -155,7 +155,7 @@ namespace DBDefsDumper
         public const string FIELD_NUM_IDX_STRING = "nbUniqueIdxByString";
         public const string FIELD_IDX_INT = "uniqueIdxByInt";
         public const string FIELD_IDX_STRING = "uniqueIdxByString";
-        public const string UNK88 = "unk88";
+        public const string HAS_RELATION = "has relation field";
         public const string FIELD_RELATION = "relation";
         public const string FIELD_RELATION_IN_FILE = "relation in file";
         public const string SORT_FUNC = "sort function";

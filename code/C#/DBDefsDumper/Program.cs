@@ -550,14 +550,14 @@ namespace DBDefsDumper
                             writer.Write("$id$");
                         }
 
-                        if(build.StartsWith("7.3.5") || build.StartsWith("8"))
+                        if (meta.Value.has_relation != 0)
                         {
-                            if (meta.Value.column_8C == i)
+                            if (meta.Value.relation_col == i)
                             {
                                 writer.Write("$relation$");
-                                if (meta.Value.column_90 != i)
+                                if (meta.Value.relation_col_in_file != i)
                                 {
-                                    throw new Exception("No column_90 but there is column_8C send help!");
+                                    throw new Exception("No relation_col_in_file but there is relation_col send help!");
                                 }
                             }
                         }
@@ -775,14 +775,14 @@ namespace DBDefsDumper
                     case Name.FIELD_IDX_STRING:
                         meta.uniqueIdxByString = bin.ReadInt32();
                         break;
-                    case Name.UNK88:
-                        meta.bool_88 = bin.ReadByte();
+                    case Name.HAS_RELATION:
+                        meta.has_relation = bin.ReadByte();
                         break;
                     case Name.FIELD_RELATION:
-                        meta.column_8C = bin.ReadInt32();
+                        meta.relation_col = bin.ReadInt32();
                         break;
                     case Name.FIELD_RELATION_IN_FILE:
-                        meta.column_90 = bin.ReadInt32();
+                        meta.relation_col_in_file = bin.ReadInt32();
                         break;
                     case Name.SORT_FUNC:
                         meta.sortFunctionOffs = bin.ReadInt64();

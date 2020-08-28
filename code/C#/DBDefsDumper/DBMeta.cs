@@ -29,9 +29,9 @@ namespace DBDefsDumper
         public int nbUniqueIdxByString;
         public long uniqueIdxByInt;
         public long uniqueIdxByString;
-        public byte bool_88;
-        public int column_8C;
-        public int column_90;
+        public byte has_relation;
+        public int relation_col;
+        public int relation_col_in_file;
         public long sortFunctionOffs;
         public long table_name;
         public byte bool_C0;
