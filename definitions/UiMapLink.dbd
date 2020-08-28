@@ -5,9 +5,9 @@ int OrderIndex
 int<UiMap::ID> ParentUiMapID
 float UiMax
 float UiMin
-int<FileData::ID> HighlightFdID?
-int<UiTextureAtlasMember::ID> Field_8_2_0_30495_007?
-int Field_9_0_1_35679_008?
+int<FileData::ID> OverrideHighlightFdID
+int<UiTextureAtlasMember::ID> OverrideHighlightAtlasID
+int Flags // &0x1: force continuing to parent regardless of coords
 
 LAYOUT C4F972FE
 BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
@@ -51,7 +51,7 @@ $id$ID<32>
 $relation$ParentUiMapID<32>
 OrderIndex<32>
 ChildUiMapID<32>
-HighlightFdID<32>
+OverrideHighlightFdID<32>
 
 LAYOUT 27E875F3, 033167B1
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598
@@ -65,17 +65,17 @@ $id$ID<32>
 $relation$ParentUiMapID<32>
 OrderIndex<32>
 ChildUiMapID<32>
-HighlightFdID<32>
-Field_8_2_0_30495_007<32>
+OverrideHighlightFdID<32>
+OverrideHighlightAtlasID<32>
 
 LAYOUT 90B080E2
 BUILD 9.0.1.35679, 9.0.1.35707
 UiMin[2]
 UiMax[2]
 $id$ID<32>
-ParentUiMapID<32>
+$relation$ParentUiMapID<32>
 OrderIndex<32>
 ChildUiMapID<32>
-HighlightFdID<32>
-Field_8_2_0_30495_007<32>
-Field_9_0_1_35679_008<32>
+OverrideHighlightFdID<32>
+OverrideHighlightAtlasID<32>
+Flags<32>
