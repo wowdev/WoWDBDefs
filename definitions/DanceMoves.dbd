@@ -18,5 +18,5 @@ Param<32>
 Fallback<32>
 Racemask<32>
 Internal_name
-Name_lang
+Name_lang // pre-8622 this uses the old 9 locale locstring format
 LockID<32>

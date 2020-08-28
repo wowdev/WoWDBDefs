@@ -17,8 +17,11 @@ int<CriteriaTree::ID> Criteria_tree
 int<FileData::ID> IconFileID
 int<Item::ID> RewardItemID
 int<Covenant::ID> CovenantID
+int Field_3_0_1_8471_007? // possibly ui_order
+int Field_3_0_1_8303_002?
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 Faction<32>
 Instance_ID<32>
@@ -195,3 +198,31 @@ RewardItemID<32>
 Criteria_tree<u32>
 Shares_criteria<16>
 CovenantID<32>
+
+BUILD 3.0.1.8471
+$id$ID<32>
+Faction<32>
+Instance_ID<32>
+Title_lang
+Description_lang
+Category<32>
+Points<32>
+Field_3_0_1_8471_007<32>
+
+BUILD 3.0.1.8334-3.0.1.8391
+$id$ID<32>
+Faction<32>
+Instance_ID<32>
+Title_lang
+Description_lang
+Category<32>
+Points<32>
+
+BUILD 3.0.1.8303
+$id$ID<32>
+Faction<32>
+Field_3_0_1_8303_002<32>
+Instance_ID<32>
+Title_lang
+Description_lang
+Category<32>

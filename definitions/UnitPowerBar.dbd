@@ -18,6 +18,8 @@ float StartInset
 float EndInset
 
 BUILD 6.0.1.18179
+BUILD 4.3.2.15148-4.3.4.15595
+BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
 MinPower<32>
 MaxPower<32>
@@ -128,3 +130,22 @@ CenterPower<u8>
 BarType<u8>
 MinPower<u32>
 MaxPower<u32>
+
+BUILD 4.0.0.12911-4.3.0.15050
+$id$ID<32>
+MinPower<32>
+MaxPower<32>
+StartPower<32>
+CenterPower<32>
+RegenerationPeace
+RegenerationCombat
+BarType<32>
+FileDataID<32>[5]
+Color<32>[5]
+Flags<32>
+Name_lang
+Cost_lang
+OutOfError_lang
+ToolTip_lang
+StartInset
+EndInset

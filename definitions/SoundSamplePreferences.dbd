@@ -20,6 +20,17 @@ float EAX3SampleDopplerFactor
 float Fast2DPredelayTime
 float Fast2DDamping
 float Fast2DReverbTime
+int Field_0_6_0_3592_001?
+int Field_0_6_0_3592_002?
+int Field_0_6_0_3592_004?
+int Field_0_6_0_3592_005?
+float Field_0_6_0_3592_006?
+int Field_0_6_0_3592_007?
+int Field_0_6_0_3592_010?
+int Field_0_6_0_3592_012?
+float Field_0_6_0_3592_013?
+float Field_0_6_0_3592_015?
+int Field_0_6_0_3592_016?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -44,3 +55,25 @@ EAX3SampleDopplerFactor
 Fast2DPredelayTime
 Fast2DDamping
 Fast2DReverbTime
+
+BUILD 0.6.0.3592-0.12.0.3988
+BUILD 1.0.0.3980-1.12.3.6141
+BUILD 2.0.0.5610-2.4.3.8606
+BUILD 3.0.1.8303-3.3.5.12340
+$id$ID<32>
+Field_0_6_0_3592_001<32>
+Field_0_6_0_3592_002<32>
+EAX2SampleRoom<32>
+Field_0_6_0_3592_004<32>
+Field_0_6_0_3592_005<32>
+Field_0_6_0_3592_006
+Field_0_6_0_3592_007<32>
+EAX2SampleOcclusionLFRatio
+EAX2SampleOcclusionRoomRatio
+Field_0_6_0_3592_010<32>
+EAX1EffectLevel
+Field_0_6_0_3592_012<32>
+Field_0_6_0_3592_013
+EAX3SampleExclusion
+Field_0_6_0_3592_015
+Field_0_6_0_3592_016<32>

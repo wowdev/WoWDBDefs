@@ -74,3 +74,51 @@ Flags<u8>
 DispelType<u32>
 Effect<u32>[8]
 State<u32>[16]
+
+BUILD 5.4.8.18273-5.4.8.18414
+$id$ID<32>
+School<32>
+DispelType<32>
+MechanicsAllowed<32>
+Mechanic<32>
+EffectsAllowed<32>
+Effect<32>[8]
+StatesAllowed<32>
+State<32>[14]
+Flags<32>
+
+BUILD 5.0.4.15929-5.4.7.18019
+$id$ID<32>
+School<32>
+DispelType<32>
+MechanicsAllowed<32>
+Mechanic<32>
+EffectsAllowed<32>
+Effect<32>[7]
+StatesAllowed<32>
+State<32>[14]
+Flags<32>
+
+BUILD 5.0.1.15464-5.0.4.15913
+$id$ID<32>
+School<32>
+DispelType<32>
+MechanicsAllowed<32>
+Mechanic<32>
+EffectsAllowed<32>
+Effect<32>[6]
+StatesAllowed<32>
+State<32>[13]
+Flags<32>
+
+BUILD 4.1.0.13914-4.3.4.15595
+$id$ID<32>
+School<32>
+DispelType<32>
+MechanicsAllowed<32>
+Mechanic<32>
+EffectsAllowed<32>
+Effect<32>[6]
+StatesAllowed<32>
+State<32>[12]
+Flags<32>

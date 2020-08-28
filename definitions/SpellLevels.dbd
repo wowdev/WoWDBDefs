@@ -10,6 +10,7 @@ int Field_9_0_1_33978_003? // BaseLevel?
 int Field_9_0_1_33978_004? // SpellLevel?
 
 BUILD 6.0.1.18179
+BUILD 5.0.1.15589-5.4.8.18414
 $id$ID<32>
 SpellID<32>
 DifficultyID<32>
@@ -69,3 +70,10 @@ MaxLevel<16>
 SpellLevel<16>
 DifficultyID<u8>
 MaxPassiveAuraLevel<u8>
+
+BUILD 4.0.0.12232-4.3.4.15595
+BUILD 5.0.1.15464-5.0.1.15544
+$id$ID<32>
+BaseLevel<32>
+MaxLevel<32>
+SpellLevel<32>

@@ -6,6 +6,8 @@ int Existing_charsetMask
 int Flags
 locstring Name_lang
 int Order // GetAvailableCategories(): smaller goes first. if equal, sort by ID.
+int Field_0_10_0_3892_000?
+int Region_ID?
 
 BUILD 6.0.1.18179
 BUILD 4.3.2.15148-4.3.4.15595
@@ -69,3 +71,10 @@ Create_charsetMask<u8>
 Existing_charsetMask<u8>
 Flags<u8>
 Order<8>
+
+BUILD 0.10.0.3892-0.12.0.3988
+BUILD 1.0.0.3980-1.12.3.6141
+BUILD 2.0.0.5610-2.3.3.7799
+Field_0_10_0_3892_000<32>
+Region_ID<32>
+Name_lang

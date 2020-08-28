@@ -20,6 +20,7 @@ int RequiredArenaRating
 int HonorPoints
 int ArenaPoints
 int<ItemPurchaseGroup::ID> ItemPurchaseGroup
+int Field_4_0_0_11927_012?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -105,3 +106,46 @@ ItemID<32>[5]
 ItemCount<u16>[5]
 CurrencyID<u16>[5]
 CurrencyCount<u32>[5]
+
+BUILD 4.0.0.11927-4.3.4.15595
+BUILD 5.0.1.15464-5.4.8.18414
+$id$ID<32>
+HonorPoints<32>
+RequiredArenaRating<32>
+ArenaBracket<32>
+ItemID<32>[5]
+ItemCount<32>[5]
+ArenaPoints<32>
+ItemPurchaseGroup<32>
+CurrencyID<32>[5]
+CurrencyCount<32>[5]
+MinFactionID<32>
+MinReputation<32>
+Flags<32>
+RequiredAchievement<32>
+Field_4_0_0_11927_012<32>
+
+BUILD 3.0.1.8471-3.1.3.9947
+$id$ID<32>
+HonorPoints<32>
+ArenaPoints<32>
+ItemID<32>[5]
+ItemCount<32>[5]
+RequiredArenaRating<32>
+ItemPurchaseGroup<32>
+
+BUILD 2.3.0.7561-2.4.3.8606
+BUILD 3.0.1.8303-3.0.1.8391
+$id$ID<32>
+HonorPoints<32>
+ArenaPoints<32>
+ItemID<32>[5]
+ItemCount<32>[5]
+RequiredArenaRating<32>
+
+BUILD 2.0.0.5610-2.2.0.7272
+$id$ID<32>
+HonorPoints<32>
+ArenaPoints<32>
+ItemID<32>[5]
+ItemCount<32>[5]

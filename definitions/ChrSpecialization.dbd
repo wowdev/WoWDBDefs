@@ -17,6 +17,7 @@ int<AnimReplacementSet::ID> AnimReplacements
 locstring FemaleName_lang
 int PrimaryStatPriority
 int<FileData::ID> SpellIconFileID
+int Field_5_0_1_15650_008? // some form of flags?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -111,3 +112,57 @@ $id$ID<32>
 SpellIconFileID<32>
 Flags<u32>
 AnimReplacements<32>
+
+BUILD 5.0.4.15961-5.4.8.18414
+$id$ID<32>
+BackgroundFile
+ClassID<32>
+MasterySpellID<32>[2]
+OrderIndex<32>
+PetTalentType<32>
+Role<32>
+SpellIconID<32>
+RaidBuffs<32>
+Flags<32>
+Name_lang
+Description_lang
+MaxBuffs<32>
+
+BUILD 5.0.1.15699-5.0.4.15952
+$id$ID<32>
+BackgroundFile
+ClassID<32>
+MasterySpellID<32>[2]
+OrderIndex<32>
+PetTalentType<32>
+Role<32>
+SpellIconID<32>
+RaidBuffs<32>
+Name_lang
+Description_lang
+MaxBuffs<32>
+
+BUILD 5.0.1.15650-5.0.1.15689
+$id$ID<32>
+BackgroundFile
+ClassID<32>
+MasterySpellID<32>[2]
+OrderIndex<32>
+PetTalentType<32>
+Role<32>
+SpellIconID<32>
+Field_5_0_1_15650_008<32>
+Name_lang
+Description_lang
+
+BUILD 5.0.1.15464-5.0.1.15640
+$id$ID<32>
+BackgroundFile
+ClassID<32>
+MasterySpellID<32>[2]
+OrderIndex<32>
+PetTalentType<32>
+Role<32>
+SpellIconID<32>
+Name_lang
+Description_lang

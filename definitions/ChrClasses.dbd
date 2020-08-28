@@ -41,6 +41,7 @@ int Field_9_0_1_34821_023?
 int<SpellVisualKit::ID> CharStartKit_GroundSpellVisualKitID_Fallback?
 int<SpellVisualKit::ID> Field_9_0_1_34821_025?
 int Field_9_0_1_35360_025?
+int Field_2_0_0_6080_009?
 
 BUILD 6.0.1.18179
 BUILD 5.0.4.16016-5.4.8.18414
@@ -547,3 +548,120 @@ SpellClassSet<u8>
 ChatColorR<u8>
 ChatColorG<u8>
 ChatColorB<u8>
+
+BUILD 5.0.1.15668-5.0.4.15890
+$id$ID<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Name_female_lang
+Name_male_lang
+Filename
+SpellClassSet<32>
+Flags<32>
+CinematicSequenceID<32>
+Required_expansion<32>
+AttackPowerPerStrength<32>
+AttackPowerPerAgility<32>
+RangedAttackPowerPerAgility<32>
+DefaultSpec<32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+
+BUILD 5.0.1.15464-5.0.1.15662
+$id$ID<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Name_female_lang
+Name_male_lang
+Filename
+SpellClassSet<32>
+Flags<32>
+CinematicSequenceID<32>
+Required_expansion<32>
+AttackPowerPerStrength<32>
+AttackPowerPerAgility<32>
+RangedAttackPowerPerAgility<32>
+DefaultSpec<32>
+
+BUILD 3.0.1.8622-3.0.1.8634
+$id$ID<32>
+DamageBonusStat<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Name_female_lang
+Name_male_lang
+Filename
+SpellClassSet<32>
+Flags<32>
+CinematicSequenceID<32>
+
+BUILD 2.4.0.8089-2.4.3.8606
+BUILD 3.0.1.8303-3.0.1.8471
+$id$ID<32>
+DamageBonusStat<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Name_female_lang
+Name_male_lang
+Filename
+SpellClassSet<32>
+Flags<32>
+
+BUILD 2.1.0.6692-2.3.3.7799
+$id$ID<32>
+DamageBonusStat<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Filename
+SpellClassSet<32>
+Flags<32>
+
+BUILD 2.0.0.6080-2.0.6.6337
+$id$ID<32>
+PlayerClass<32>
+DamageBonusStat<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Filename
+SpellClassSet<32>
+Flags<32>
+Field_2_0_0_6080_009<32>
+
+BUILD 1.10.0.5195-1.12.3.6141
+BUILD 2.0.0.5610-2.0.0.5666
+$id$ID<32>
+PlayerClass<32>
+DamageBonusStat<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Filename
+SpellClassSet<32>
+Flags<32>
+
+BUILD 2.0.0.5991
+BUILD 1.1.2.4125-1.9.4.5086
+$id$ID<32>
+PlayerClass<32>
+DamageBonusStat<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Filename
+SpellClassSet<32>
+
+BUILD 1.0.0.3980
+BUILD 0.5.5.3494-0.12.0.3988
+$id$ID<32>
+PlayerClass<32>
+DamageBonusStat<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Filename

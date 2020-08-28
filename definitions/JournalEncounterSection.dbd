@@ -140,3 +140,20 @@ IconFlags<u16>
 OrderIndex<u8>
 Type<u8>
 DifficultyMask<8>
+
+BUILD 4.2.0.14333-4.3.4.15595
+BUILD 5.0.1.15464-5.4.8.18414
+$id$ID<32>
+JournalEncounterID<32>
+NextSiblingSectionID<32>
+FirstChildSectionID<32>
+ParentSectionID<32>
+OrderIndex<32>
+Type<32>
+Flags<32>
+IconFlags<32>
+Title_lang
+BodyText_lang
+DifficultyMask<32>
+IconCreatureDisplayInfoID<32>
+IconFileDataID<32>

@@ -24,11 +24,8 @@ float MinimapIconScale
 int Unk4?
 int TimeOfDayOverride // Set to -1 for everything but Orgrimmar and Dalaran arena. For those, the time of day will change to this.
 int ExpansionID // Vanilla: 0, BC: 1, WotLK: 2 # todo enum
-int Unk5? // Another resettime? Is the same as the heroic one for some entries.
 int Flags? // &0x100: CanChangeDifficulty
 int<Map::ID> CorpseMapID
-float CorpsePosX?
-float CorpsePosY?
 float Corpse // Array of CorpsePosX/CorpsePosY
 int<Map::ID> CosmeticParentMapID
 int TimeOffset
@@ -40,6 +37,22 @@ float CorpseY
 int<FileData::ID> ZmpFileDataID
 int<FileData::ID> WdtFileDataID?
 string Field_9_0_1_33978_002?
+float Field_0_7_0_3694_007?
+float Field_0_7_0_3694_008?
+int Field_2_0_3_6299_023?
+int Field_2_0_3_6299_024?
+int Field_2_0_3_6299_025?
+int Field_0_8_0_3734_004?
+int Field_0_8_0_3734_005?
+int Field_1_5_0_4442_006?
+int Field_0_7_0_3694_006?
+int Field_3_0_2_9056_013?
+locstring Field_2_0_0_5610_018_lang?
+locstring Field_2_0_0_5610_019_lang?
+locstring Field_2_0_0_5610_020_lang?
+int Field_1_5_0_4442_014?
+int Field_3_0_2_9056_021?
+int Field_1_7_0_4671_015?
 
 LAYOUT F568DF12
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -194,6 +207,8 @@ CosmeticParentMapID<32>
 TimeOffset<32>
 
 BUILD 4.0.1.12911
+BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.0.6.13596
 $id$ID<32>
 Directory
 InstanceType<32>
@@ -206,15 +221,17 @@ MapDescription1_lang
 LoadingScreenID<32>
 MinimapIconScale
 CorpseMapID<32>
-CorpsePosX
-CorpsePosY
-Unk2<32>
+CorpseX
+CorpseY
+TimeOfDayOverride<32>
 ExpansionID<32>
-Unk3<32>
-Unk4<32>
-Unk5<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<32>
 
 BUILD 1.12.1.5875
+BUILD 1.11.0.5344-1.12.0.5595
+BUILD 1.12.1.5875-1.12.2.6005
 $id$ID<32>
 Directory
 InstanceType<32>
@@ -224,17 +241,19 @@ MinLevel<32>
 MaxLevel<32>
 MaxPlayers<32>
 Unk0<32>
-Unk1<32>
-Unk2<32>
+Unk1<u32>
+Unk2<u32>
 ParentMapID<32>
 MapDescription0_lang
 MapDescription1_lang
 LoadingScreenID<32>
 RaidOffset<32>
 Continentname<32>
-Unk4<32>
+Unk4<u32>
 
 BUILD 0.9.1.3810
+BUILD 0.9.0.3807-0.12.0.3988
+BUILD 1.0.0.3980-1.4.2.4375
 $id$ID<32>
 Directory
 PVP<32>
@@ -242,8 +261,8 @@ MapName_lang
 MinLevel<32>
 MaxLevel<32>
 Unk0<32>
-Unk1<32>
-Unk2<32>
+Unk1<u32>
+Unk2<u32>
 Unk3<32>
 MapDescription0_lang
 MapDescription1_lang
@@ -252,6 +271,7 @@ Unk4<32>
 BUILD 0.7.6.3712
 BUILD 0.7.1.3702
 BUILD 0.7.0.3694
+BUILD 0.7.0.3694-0.7.6.3712
 $id$ID<32>
 Directory
 PVP<32>
@@ -259,13 +279,14 @@ MapName_lang
 MinLevel<32>
 MaxLevel<32>
 Unk0<32>
-Unk1<32>
-Unk2<32>
+Unk1<u32>
+Unk2<u32>
 MapDescription0_lang
 MapDescription1_lang
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
+BUILD 0.5.3.3368-0.6.0.3592
 $id$ID<32>
 Directory
 PVP<32>
@@ -290,27 +311,6 @@ TimeOfDayOverride<32>
 ExpansionID<32>
 RaidOffset<32>
 MaxPlayers<32>
-
-BUILD 4.0.0.11792
-$id$ID<32>
-Directory
-InstanceType<32>
-Flags<32>
-PVP<32>
-MapName_lang
-AreaTableID<32>
-MapDescription0_lang
-MapDescription1_lang
-LoadingScreenID<32>
-MinimapIconScale
-CorpseMapID<32>
-CorpseX
-CorpseY
-TimeOfDayOverride<32>
-ExpansionID<32>
-RaidOffset<32>
-MaxPlayers<32>
-ParentMapID<32>
 
 LAYOUT 72DD596B
 BUILD 8.0.1.26287, 8.0.1.26297
@@ -476,3 +476,321 @@ WindSettingsID<16>
 ZmpFileDataID<32>
 WdtFileDataID<32>
 Flags<32>[2]
+
+BUILD 5.0.1.15589-5.4.8.18414
+$id$ID<32>
+Directory
+InstanceType<32>
+Flags<32>
+MapType<32>
+MapName_lang
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+MinimapIconScale
+CorpseMapID<32>
+Corpse[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<32>
+
+BUILD 4.0.6.13623-4.3.4.15595
+BUILD 5.0.1.15464-5.0.1.15544
+$id$ID<32>
+Directory
+InstanceType<32>
+Flags<32>
+MapType<32>
+PVP<32>
+MapName_lang
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+MinimapIconScale
+CorpseMapID<32>
+Corpse[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+ParentMapID<32>
+
+BUILD 3.2.0.10192-3.2.2.10505
+$id$ID<32>
+Directory
+InstanceType<32>
+PVP<32>
+MapName_lang
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+MinimapIconScale
+CorpseMapID<32>
+Corpse[2]
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+MaxPlayers<32>
+
+BUILD 3.0.3.9183-3.1.3.9947
+$id$ID<32>
+Directory
+InstanceType<32>
+PVP<32>
+MapName_lang
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+MinimapIconScale
+Field_2_0_0_5610_018_lang
+Field_2_0_0_5610_019_lang
+Field_2_0_0_5610_020_lang
+CorpseMapID<32>
+Corpse[2]
+Field_1_5_0_4442_014<32>
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+
+BUILD 3.0.2.9056
+$id$ID<32>
+Directory
+InstanceType<32>
+PVP<32>
+MapName_lang
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+Field_1_5_0_4442_006<32>
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+Field_0_7_0_3694_006<32>
+Field_3_0_2_9056_013<32>
+MinimapIconScale
+Field_2_0_0_5610_018_lang
+Field_2_0_0_5610_019_lang
+Field_2_0_0_5610_020_lang
+CorpseMapID<32>
+Corpse[2]
+Field_1_5_0_4442_014<32>
+Field_3_0_2_9056_021<32>
+Field_1_7_0_4671_015<32>
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+
+BUILD 3.0.1.8788, 3.0.1.8820, 3.0.1.8874, 3.0.1.8885
+$id$ID<32>
+Directory
+InstanceType<32>
+PVP<32>
+MapName_lang
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+Field_1_5_0_4442_006<32>
+Field_0_7_0_3694_006<32>
+Field_0_7_0_3694_007
+Field_0_7_0_3694_008
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+Field_1_5_0_4442_014<32>
+Field_1_7_0_4671_015<32>
+MinimapIconScale
+Field_2_0_0_5610_018_lang
+Field_2_0_0_5610_019_lang
+Field_2_0_0_5610_020_lang
+CorpseMapID<32>
+Corpse[2]
+Field_2_0_3_6299_023<32>
+Field_2_0_3_6299_024<32>
+Field_2_0_3_6299_025<32>
+TimeOfDayOverride<32>
+ExpansionID<32>
+RaidOffset<32>
+
+BUILD 2.4.0.8089-2.4.3.8606
+BUILD 3.0.1.8303-3.0.1.8770
+$id$ID<32>
+Directory
+InstanceType<32>
+PVP<32>
+MapName_lang
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+Field_1_5_0_4442_006<32>
+Field_0_7_0_3694_006<32>
+Field_0_7_0_3694_007
+Field_0_7_0_3694_008
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+Field_1_5_0_4442_014<32>
+Field_1_7_0_4671_015<32>
+MinimapIconScale
+Field_2_0_0_5610_018_lang
+Field_2_0_0_5610_019_lang
+Field_2_0_0_5610_020_lang
+CorpseMapID<32>
+Corpse[2]
+Field_2_0_3_6299_023<32>
+Field_2_0_3_6299_024<32>
+Field_2_0_3_6299_025<32>
+TimeOfDayOverride<32>
+ExpansionID<32>
+
+BUILD 2.0.3.6299-2.3.3.7799
+$id$ID<32>
+Directory
+InstanceType<32>
+PVP<32>
+MapName_lang
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+Field_1_5_0_4442_006<32>
+Field_0_7_0_3694_006<32>
+Field_0_7_0_3694_007
+Field_0_7_0_3694_008
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+Field_1_5_0_4442_014<32>
+Field_1_7_0_4671_015<32>
+MinimapIconScale
+Field_2_0_0_5610_018_lang
+Field_2_0_0_5610_019_lang
+Field_2_0_0_5610_020_lang
+CorpseMapID<32>
+Corpse[2]
+Field_2_0_3_6299_023<32>
+Field_2_0_3_6299_024<32>
+Field_2_0_3_6299_025<32>
+
+BUILD 2.0.0.6080
+$id$ID<32>
+Directory
+InstanceType<32>
+PVP<32>
+MapName_lang
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+Field_1_5_0_4442_006<32>
+Field_0_7_0_3694_006<32>
+Field_0_7_0_3694_007
+Field_0_7_0_3694_008
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+Field_1_5_0_4442_014<32>
+Field_1_7_0_4671_015<32>
+MinimapIconScale
+Field_2_0_0_5610_018_lang
+Field_2_0_0_5610_019_lang
+Field_2_0_0_5610_020_lang
+CorpseMapID<32>
+Corpse[2]
+
+BUILD 2.0.0.5610-2.0.0.5666
+$id$ID<32>
+Directory
+InstanceType<32>
+PVP<32>
+MapName_lang
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+Field_1_5_0_4442_006<32>
+Field_0_7_0_3694_006<32>
+Field_0_7_0_3694_007
+Field_0_7_0_3694_008
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+Field_1_5_0_4442_014<32>
+Field_1_7_0_4671_015<32>
+MinimapIconScale
+Field_2_0_0_5610_018_lang
+Field_2_0_0_5610_019_lang
+Field_2_0_0_5610_020_lang
+
+BUILD 2.0.0.5991
+BUILD 1.8.0.4735-1.10.2.5302
+$id$ID<32>
+Directory
+PVP<32>
+MapName_lang
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+Field_1_5_0_4442_006<32>
+Field_0_7_0_3694_006<32>
+Field_0_7_0_3694_007
+Field_0_7_0_3694_008
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+Field_1_5_0_4442_014<32>
+Field_1_7_0_4671_015<32>
+MinimapIconScale
+
+BUILD 1.7.0.4671-1.8.0.4714
+$id$ID<32>
+Directory
+PVP<32>
+MapName_lang
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+Field_1_5_0_4442_006<32>
+Field_0_7_0_3694_006<32>
+Field_0_7_0_3694_007
+Field_0_7_0_3694_008
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+Field_1_5_0_4442_014<32>
+Field_1_7_0_4671_015<32>
+
+BUILD 1.5.0.4442-1.6.1.4544
+$id$ID<32>
+Directory
+PVP<32>
+MapName_lang
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+Field_1_5_0_4442_006<32>
+Field_0_7_0_3694_006<32>
+Field_0_7_0_3694_007
+Field_0_7_0_3694_008
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang
+LoadingScreenID<32>
+Field_1_5_0_4442_014<32>
+
+BUILD 0.8.0.3734
+$id$ID<32>
+Directory
+PVP<32>
+MapName_lang
+Field_0_8_0_3734_004<32>
+Field_0_8_0_3734_005<32>
+Field_0_7_0_3694_006<32>
+Field_0_7_0_3694_007
+Field_0_7_0_3694_008
+AreaTableID<32>
+MapDescription0_lang
+MapDescription1_lang

@@ -4,6 +4,7 @@ int ID
 int<Spell::ID> ModalNextSpell
 int SpellClassSet
 int<Spell::ID> SpellID
+locstring Description_lang?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -41,3 +42,29 @@ SpellID<32>
 ModalNextSpell<u32>
 SpellClassSet<u8>
 SpellClassMask<32>[4]
+
+BUILD 5.0.1.15640-5.4.8.18414
+$id$ID<32>
+ModalNextSpell<32>
+SpellClassMask<32>[4]
+SpellClassSet<32>
+
+BUILD 5.0.1.15464-5.0.1.15589
+$id$ID<32>
+ModalNextSpell<32>
+SpellClassMask<32>[4]
+SpellClassSet<32>
+Description_lang
+
+BUILD 4.0.0.12911-4.3.4.15595
+$id$ID<32>
+ModalNextSpell<32>
+SpellClassMask<32>[3]
+SpellClassSet<32>
+Description_lang
+
+BUILD 4.0.0.12232-4.0.0.12539
+$id$ID<32>
+ModalNextSpell<32>
+SpellClassMask<32>[3]
+SpellClassSet<32>

@@ -28,6 +28,15 @@ int UnarmedWeaponType
 int CreatureModelMinLod
 int<DissolveEffect::ID> DissolveOutEffectID
 int Field_7_3_2_25549_010?
+int Field_2_1_0_6692_010?
+int Field_2_1_0_6692_011?
+int Field_2_1_0_6692_012?
+int Field_2_1_0_6692_013?
+int Field_2_1_0_6692_014?
+int Field_2_1_0_6692_015?
+int Field_2_1_0_6692_016?
+int Field_2_1_0_6692_017?
+int Field_2_1_0_6692_018?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -113,6 +122,7 @@ CreatureGeosetData<32>
 ObjectEffectPackageID<32>
 
 BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.5.5.3494
 $id$ID<32>
 ModelID<32>
 SoundID<32>
@@ -256,3 +266,136 @@ ExtendedDisplayInfoID<32>
 TextureVariationFileDataID<32>[3]
 PortraitTextureFileDataID<32>
 $noninline,relation$Field_7_3_2_25549_010<8>
+
+BUILD 5.4.0.17266-5.4.8.18414
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+PortraitTextureName
+SizeClass<32>
+BloodID<32>
+NPCSoundID<32>
+ParticleColorID<32>
+CreatureGeosetData<32>
+ObjectEffectPackageID<32>
+AnimReplacementSetID<32>
+Flags<32>
+Gender<32>
+StateSpellVisualKitID<32>
+
+BUILD 5.0.1.15762-5.3.0.17116
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+PortraitTextureName
+SizeClass<32>
+BloodID<32>
+NPCSoundID<32>
+ParticleColorID<32>
+CreatureGeosetData<32>
+ObjectEffectPackageID<32>
+AnimReplacementSetID<32>
+Flags<32>
+Gender<32>
+
+BUILD 5.0.1.15464-5.0.1.15752
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+PortraitTextureName
+SizeClass<32>
+BloodID<32>
+NPCSoundID<32>
+ParticleColorID<32>
+CreatureGeosetData<32>
+ObjectEffectPackageID<32>
+AnimReplacementSetID<32>
+Flags<32>
+
+BUILD 3.0.1.8622-3.0.1.8788
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+PortraitTextureName
+SizeClass<32>
+BloodID<32>
+NPCSoundID<32>
+ParticleColorID<32>
+CreatureGeosetData<32>
+
+BUILD 2.4.0.8089-2.4.3.8606
+BUILD 3.0.1.8303-3.0.1.8471
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+PortraitTextureName
+SizeClass<32>
+BloodID<32>
+NPCSoundID<32>
+ParticleColorID<32>
+
+BUILD 2.1.0.6692-2.3.3.7799
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+SizeClass<32>
+BloodID<32>
+NPCSoundID<32>
+Field_2_1_0_6692_010<32>
+Field_2_1_0_6692_011<32>
+Field_2_1_0_6692_012<32>
+Field_2_1_0_6692_013<32>
+Field_2_1_0_6692_014<32>
+Field_2_1_0_6692_015<32>
+Field_2_1_0_6692_016<32>
+Field_2_1_0_6692_017<32>
+Field_2_1_0_6692_018<32>
+
+BUILD 0.10.0.3892-0.12.0.3988
+BUILD 1.0.0.3980-1.12.3.6141
+BUILD 2.0.0.5610-2.0.6.6337
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+SizeClass<32>
+BloodID<32>
+NPCSoundID<32>
+
+BUILD 0.6.0.3592-0.9.1.3810
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+SizeClass<32>
+BloodID<32>

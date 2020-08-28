@@ -84,6 +84,7 @@ Box_height
 Box_yaw
 
 BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.9.1.3810
 $id$ID<32>
 ContinentID<32>
 Pos[3]
@@ -135,3 +136,48 @@ ShapeType<8>
 ShapeID<16>
 AreaTriggerActionSetID<16>
 Flags<8>
+
+BUILD 5.0.2.15827-5.4.8.18414
+$id$ID<32>
+ContinentID<32>
+Pos[3]
+PhaseUseFlags<32>
+PhaseID<32>
+PhaseGroupID<32>
+Radius
+Box_length
+Box_width
+Box_height
+Box_yaw
+ShapeType<32>
+ShapeID<32>
+AreaTriggerActionSetID<32>
+
+BUILD 5.0.1.15650-5.0.1.15799
+$id$ID<32>
+ContinentID<32>
+Pos[3]
+PhaseUseFlags<32>
+PhaseID<32>
+PhaseGroupID<32>
+Radius
+Box_length
+Box_width
+Box_height
+Box_yaw
+ShapeType<32>
+ShapeID<32>
+
+BUILD 4.0.0.11927-4.3.4.15595
+BUILD 5.0.1.15464-5.0.1.15640
+$id$ID<32>
+ContinentID<32>
+Pos[3]
+PhaseUseFlags<32>
+PhaseID<32>
+PhaseGroupID<32>
+Radius
+Box_length
+Box_width
+Box_height
+Box_yaw

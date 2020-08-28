@@ -12,6 +12,9 @@ int TargetAuraSpell
 int TargetAuraState
 
 BUILD 6.0.1.18179
+BUILD 4.0.0.12232-4.3.4.15595
+BUILD 5.0.1.15464-5.0.1.15544
+BUILD 6.0.1.18164-6.2.4.21742
 $id$ID<32>
 CasterAuraState<32>
 TargetAuraState<32>
@@ -77,3 +80,17 @@ CasterAuraState<u8>
 TargetAuraState<u8>
 ExcludeCasterAuraState<u8>
 ExcludeTargetAuraState<u8>
+
+BUILD 5.0.1.15589-5.4.8.18414
+BUILD 6.0.1.18125-6.0.1.18156
+$id$ID<32>
+SpellID<32>
+DifficultyID<32>
+CasterAuraState<32>
+TargetAuraState<32>
+ExcludeCasterAuraState<32>
+ExcludeTargetAuraState<32>
+CasterAuraSpell<32>
+TargetAuraSpell<32>
+ExcludeCasterAuraSpell<32>
+ExcludeTargetAuraSpell<32>
