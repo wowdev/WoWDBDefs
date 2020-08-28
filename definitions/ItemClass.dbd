@@ -1,5 +1,5 @@
 COLUMNS
-int<ItemClass::ID> ClassID
+int ClassID
 int Flags
 float PriceModifier
 locstring ClassName_lang

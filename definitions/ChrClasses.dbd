@@ -7,7 +7,7 @@ locstring Name_female_lang
 locstring Name_male_lang
 string Filename
 int SpellClassSet
-int Flags // &0x800: !allowBoost, &0x2000: earlyFactionChoice
+int Flags // &0x10: Mail, &0x20: Plate, &0x800: !allowBoost, &0x2000: earlyFactionChoice
 int<CinematicSequences::ID> CinematicSequenceID
 int AttackPowerPerStrength
 int AttackPowerPerAgility
@@ -25,7 +25,7 @@ int DamageBonusStat
 int Field_1_13_0_28211_019?
 int<FileData::ID> SpellTextureBlobFileDataID?
 int RolesMask // (&1: group leader), &2: tank, &4: heal, &8: dps
-int Field_9_0_1_33978_014?
+int ArmorTypeMask // 1 << ItemSubClass::SubClassID where ItemSubClass::ClassID == 4
 int ChatColorR?
 int ChatColorG?
 int ChatColorB?
@@ -293,7 +293,7 @@ Flags<u32>
 StartingLevel<32>
 SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
-Field_9_0_1_33978_014<u32>
+ArmorTypeMask<u32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>
@@ -325,7 +325,7 @@ Flags<u32>
 StartingLevel<32>
 SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
-Field_9_0_1_33978_014<u32>
+ArmorTypeMask<u32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>
@@ -357,7 +357,7 @@ Flags<u32>
 StartingLevel<32>
 SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
-Field_9_0_1_33978_014<u32>
+ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
 CharStartKit_SpellVisualKitID_Fallback<32>
 CinematicSequenceID<u16>
@@ -391,7 +391,7 @@ Flags<u32>
 StartingLevel<32>
 SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
-Field_9_0_1_33978_014<u32>
+ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
 CharStartKit_SpellVisualKitID_Fallback<32>
 CharStartKit_Field_9_0_1_34615_004_Fallback<32>
@@ -426,7 +426,7 @@ Flags<u32>
 StartingLevel<32>
 SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
-Field_9_0_1_33978_014<u32>
+ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
 CharStartKit_SpellVisualKitID_Fallback<32>
 CharStartKit_Field_9_0_1_34615_004_Fallback<32>
@@ -488,7 +488,7 @@ LowResScreenFileDataID<u32>
 Flags<u32>
 SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
-Field_9_0_1_33978_014<u32>
+ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
 CharStartKit_SpellVisualKitID_Fallback<32>
 CharStartKit_Field_9_0_1_34615_004_Fallback<32>
@@ -527,7 +527,7 @@ LowResScreenFileDataID<u32>
 Flags<u32>
 SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
-Field_9_0_1_33978_014<u32>
+ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
 CharStartKit_SpellVisualKitID_Fallback<32>
 CharStartKit_Field_9_0_1_34615_004_Fallback<32>

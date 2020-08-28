@@ -1,5 +1,5 @@
 COLUMNS
-int ClassID
+int<ItemClass::ClassID> ClassID
 int SubClassID
 int PrerequisiteProficiency
 int PostrequisiteProficiency
