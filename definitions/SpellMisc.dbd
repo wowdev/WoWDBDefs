@@ -17,7 +17,7 @@ int<FileData::ID> SpellIconFileDataID
 float MinDuration
 int<ContentTuning::ID> ContentTuningID
 int<PlayerCondition::ID> PlayerConditionID
-int Field_9_0_1_35679_013?
+int SpellVisualScript? // for some reason shipped but if != 0, client errors.
 int Field_9_0_1_35679_014?
 
 BUILD 6.0.1.18179
@@ -192,6 +192,6 @@ SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
 ContentTuningID<32>
 PlayerConditionID<32>
-Field_9_0_1_35679_013<32>
+SpellVisualScript<32>
 Field_9_0_1_35679_014<32>
 $noninline,relation$SpellID<32>
