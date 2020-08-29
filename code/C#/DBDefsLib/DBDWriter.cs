@@ -223,22 +223,15 @@ namespace DBDefsLib
 
             public int Compare(VersionDefinitions x, VersionDefinitions y)
             {
-                Build xmax, ymax;
-
-                if (_asc)
-                {
-                    xmax = x.buildRanges.Select(b => b.minBuild).Concat(x.builds).OrderBy(b => b).FirstOrDefault();
-                    ymax = y.buildRanges.Select(b => b.minBuild).Concat(y.builds).OrderBy(b => b).FirstOrDefault();
-                }
-                else
-                {
-                    xmax = x.buildRanges.Select(b => b.maxBuild).Concat(x.builds).OrderByDescending(b => b).FirstOrDefault();
-                    ymax = y.buildRanges.Select(b => b.maxBuild).Concat(y.builds).OrderByDescending(b => b).FirstOrDefault();
-                }
+                var xmax = x.buildRanges.Select(b => b.minBuild).Concat(x.builds).OrderBy(b => b).FirstOrDefault();
+                var ymax = y.buildRanges.Select(b => b.minBuild).Concat(y.builds).OrderBy(b => b).FirstOrDefault();
 
                 int result = 0;
                 if (xmax != null && ymax != null)
                     result = xmax.CompareTo(ymax);
+
+                if (!_asc)
+                    result *= -1;
 
                 return result;
             }
