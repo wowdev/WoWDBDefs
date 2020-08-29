@@ -1,15 +1,15 @@
 COLUMNS
-locstring Title_lang?
+locstring Title_lang
 string InternalTitle?
-locstring Description_lang?
-int ID?
+locstring Description_lang
+int ID
 int<UiTextureKit::ID> UiTextureKitID?
 int<QuestV2::ID> RewardQuestID
-int<PlayerCondition::ID> RequiredPlayerConditionID? // require met
-int<PlayerCondition::ID> ForbiddenPlayerConditionID? // require not met
-int<UiQuestDetailsTheme::ID> UiQuestDetailsThemeID?
-int Field_9_0_1_33978_009?
-int<PlayerCondition::ID> UnimportantPlayerConditionID // if met, useNormalQuestIcons?
+int<PlayerCondition::ID> Prerequisite
+int<PlayerCondition::ID> Completed
+int<UiQuestDetailsTheme::ID> UiQuestDetailsThemeID
+int Flags // &0x01: useNormalQuestIcons
+int<PlayerCondition::ID> OnlyStallIf // if given and evals to false, don't mark as stalled.
 
 LAYOUT 0B271FD9
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -19,7 +19,7 @@ Description_lang
 $id$ID<u32>
 UiTextureKitID<u32>
 RewardQuestID<u32>
-RequiredPlayerConditionID<u32>
+Prerequisite<u32>
 
 LAYOUT 2D49AABD
 BUILD 8.2.5.31337
@@ -37,7 +37,7 @@ Description_lang
 $id$ID<u32>
 UiTextureKitID<u32>
 RewardQuestID<u32>
-RequiredPlayerConditionID<u32>
+Prerequisite<u32>
 
 LAYOUT 84DC679F, 9794A9C1
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662
@@ -49,8 +49,8 @@ Description_lang
 $id$ID<u32>
 UiTextureKitID<u32>
 RewardQuestID<u32>
-RequiredPlayerConditionID<u32>
-ForbiddenPlayerConditionID<u32>
+Prerequisite<u32>
+Completed<u32>
 
 LAYOUT 344076BD
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282
@@ -60,10 +60,10 @@ Description_lang
 $id$ID<u32>
 UiTextureKitID<u32>
 RewardQuestID<u32>
-RequiredPlayerConditionID<u32>
-ForbiddenPlayerConditionID<u32>
+Prerequisite<u32>
+Completed<u32>
 UiQuestDetailsThemeID<32>
-Field_9_0_1_33978_009<u32>
+Flags<u32>
 
 LAYOUT D7F2E74F
 BUILD 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
@@ -73,8 +73,8 @@ Description_lang
 $id$ID<u32>
 UiTextureKitID<32>
 RewardQuestID<32>
-RequiredPlayerConditionID<32>
-ForbiddenPlayerConditionID<32>
-UnimportantPlayerConditionID<32>
+Prerequisite<32>
+Completed<32>
+OnlyStallIf<32>
 UiQuestDetailsThemeID<32>
-Field_9_0_1_33978_009<u32>
+Flags<u32>

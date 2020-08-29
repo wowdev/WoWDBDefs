@@ -12,7 +12,7 @@ int EffectChainTargets
 int EffectDieSides
 int EffectItemType
 int EffectMechanic
-int EffectMiscValue // EA=313: AnimReplacementSetID
+int EffectMiscValue // EA=260: [ScreenEffectID, ScreenEffectTypeID], EA=313: [AnimReplacementSetID, 0]
 float EffectPointsPerResource
 int<SpellRadius::ID> EffectRadiusIndex
 float EffectRealPointsPerLevel
