@@ -12,47 +12,20 @@ int SourceTypeEnum
 int<Spell::ID> SummonSpellID
 int<Covenant::ID> CovenantID?
 
-BUILD 6.0.1.18179
-BUILD 5.0.1.15699-5.4.8.18414
+LAYOUT 33F39540
+BUILD 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
+Description_lang
+SourceText_lang
 $id$ID<32>
 CreatureID<32>
-IconFileDataID<32>
 SummonSpellID<32>
-PetTypeEnum<32>
-SourceTypeEnum<32>
-Flags<32>
-SourceText_lang
-Description_lang
-
-LAYOUT 8A3D97A4
-BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
-BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
-BUILD 1.13.0.28211
-SourceText_lang
-Description_lang
-CreatureID<32>
 IconFileDataID<32>
-SummonSpellID<32>
-Flags<u16>
 PetTypeEnum<u8>
+Flags<u16>
 SourceTypeEnum<8>
-$id$ID<32>
 CardUIModelSceneID<32>
 LoadoutUIModelSceneID<32>
-
-LAYOUT B0ED8D66
-BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
-Description_lang
-SourceText_lang
-CreatureID<32>
-SummonSpellID<32>
-IconFileDataID<32>
-Flags<u16>
-PetTypeEnum<u8>
-SourceTypeEnum<8>
-$id$ID<32>
-CardUIModelSceneID<32>
-LoadoutUIModelSceneID<32>
+CovenantID<32>
 
 LAYOUT 78A6B928, D48B948B
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821
@@ -79,20 +52,35 @@ SourceTypeEnum<8>
 CardUIModelSceneID<32>
 LoadoutUIModelSceneID<32>
 
-LAYOUT 33F39540
-BUILD 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
+LAYOUT B0ED8D66
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
 Description_lang
 SourceText_lang
-$id$ID<32>
 CreatureID<32>
 SummonSpellID<32>
 IconFileDataID<32>
-PetTypeEnum<u8>
 Flags<u16>
+PetTypeEnum<u8>
 SourceTypeEnum<8>
+$id$ID<32>
 CardUIModelSceneID<32>
 LoadoutUIModelSceneID<32>
-CovenantID<32>
+
+LAYOUT 8A3D97A4
+BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
+BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+BUILD 1.13.0.28211
+SourceText_lang
+Description_lang
+CreatureID<32>
+IconFileDataID<32>
+SummonSpellID<32>
+Flags<u16>
+PetTypeEnum<u8>
+SourceTypeEnum<8>
+$id$ID<32>
+CardUIModelSceneID<32>
+LoadoutUIModelSceneID<32>
 
 LAYOUT 4B260652
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -108,6 +96,18 @@ SourceTypeEnum<8>
 $id$ID<32>
 CardUIModelSceneID<32>
 LoadoutUIModelSceneID<32>
+
+BUILD 6.0.1.18179
+BUILD 5.0.1.15699-5.4.8.18414
+$id$ID<32>
+CreatureID<32>
+IconFileDataID<32>
+SummonSpellID<32>
+PetTypeEnum<32>
+SourceTypeEnum<32>
+Flags<32>
+SourceText_lang
+Description_lang
 
 BUILD 5.0.1.15640-5.0.1.15689
 $id$ID<32>

@@ -9,8 +9,8 @@ int Flags? // 1 = UndressModel
 int<SpellShapeshiftForm::ID> SpellShapeshiftFormID?
 float Field_9_0_1_34714_008?
 
-LAYOUT E5D63E94
-BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
+LAYOUT 69C90AAA
+BUILD 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 CategoryName_lang
 $id$ID<32>
 CustomizeIcon<32>
@@ -18,6 +18,8 @@ CustomizeIconSelected<32>
 OrderIndex<32>
 Field_9_0_1_34081_005<32>
 Flags<32>
+SpellShapeshiftFormID<32>
+Field_9_0_1_34714_008
 
 LAYOUT DDD14B64
 BUILD 9.0.1.34615
@@ -30,8 +32,8 @@ Field_9_0_1_34081_005<32>
 Flags<32>
 SpellShapeshiftFormID<32>
 
-LAYOUT 69C90AAA
-BUILD 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
+LAYOUT E5D63E94
+BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
 CategoryName_lang
 $id$ID<32>
 CustomizeIcon<32>
@@ -39,5 +41,3 @@ CustomizeIconSelected<32>
 OrderIndex<32>
 Field_9_0_1_34081_005<32>
 Flags<32>
-SpellShapeshiftFormID<32>
-Field_9_0_1_34714_008

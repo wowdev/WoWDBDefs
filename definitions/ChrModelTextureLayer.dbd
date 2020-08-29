@@ -9,18 +9,6 @@ int Field_9_0_1_34365_006?
 int TextureSectionTypeBitMask? // -1 for non section texture or bit of CharComponentTextureSections::SectionType
 int<CharComponentTextureLayouts::ID> CharComponentTextureLayoutsID
 
-LAYOUT 5BDD8C6A
-BUILD 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598
-$id$ID<32>
-TextureType<32>
-Layer<32>
-Flags<32>
-Field_9_0_1_34365_004<32>
-ChrModelTextureTargetID<32>
-Field_9_0_1_34365_006<32>
-TextureSectionTypeBitMask<32>
-$noninline,relation$CharComponentTextureLayoutsID<32>
-
 LAYOUT B6E31714
 BUILD 9.0.1.35679, 9.0.1.35707
 $id$ID<32>
@@ -31,4 +19,16 @@ Field_9_0_1_34365_004<32>
 TextureSectionTypeBitMask<32>
 Field_9_0_1_34365_006<32>[3]
 ChrModelTextureTargetID<32>[2]
+$noninline,relation$CharComponentTextureLayoutsID<32>
+
+LAYOUT 5BDD8C6A
+BUILD 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598
+$id$ID<32>
+TextureType<32>
+Layer<32>
+Flags<32>
+Field_9_0_1_34365_004<32>
+ChrModelTextureTargetID<32>
+Field_9_0_1_34365_006<32>
+TextureSectionTypeBitMask<32>
 $noninline,relation$CharComponentTextureLayoutsID<32>

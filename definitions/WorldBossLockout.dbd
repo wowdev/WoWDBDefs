@@ -3,8 +3,9 @@ locstring Name_lang
 int ID
 int<QuestV2::ID> TrackingQuestID
 
-BUILD 6.0.1.18179
-$id$ID<32>
+LAYOUT DBCC9926
+BUILD 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
+$noninline,id$ID<32>
 Name_lang
 TrackingQuestID<32>
 
@@ -29,8 +30,7 @@ $noninline,id$ID<32>
 Name_lang
 TrackingQuestID<u16>
 
-LAYOUT DBCC9926
-BUILD 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
-$noninline,id$ID<32>
+BUILD 6.0.1.18179
+$id$ID<32>
 Name_lang
 TrackingQuestID<32>

@@ -17,19 +17,6 @@ float OffsetY
 float OffsetZ
 float AnimationSpeed
 
-LAYOUT EA6DD175
-BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
-$id$ID<32>
-Visual<32>
-VisualScale<32>
-Duration<32>
-Trajectory<32>
-StartSoundKitID<32>
-FinishSoundKitID<32>
-StartBehavior<32>
-FinishBehavior<32>
-FinishEffectID<32>
-
 LAYOUT BBA9C412
 BUILD 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 $id$ID<32>
@@ -49,3 +36,16 @@ OffsetX
 OffsetY
 OffsetZ
 AnimationSpeed
+
+LAYOUT EA6DD175
+BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
+$id$ID<32>
+Visual<32>
+VisualScale<32>
+Duration<32>
+Trajectory<32>
+StartSoundKitID<32>
+FinishSoundKitID<32>
+StartBehavior<32>
+FinishBehavior<32>
+FinishEffectID<32>

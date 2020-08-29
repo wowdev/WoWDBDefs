@@ -4,16 +4,16 @@ int<FileData::ID> FileDataID
 string FileName
 string FilePath
 
-LAYOUT DD9776DD
-BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
-$noninline,id$ID<32>
-FileName
-FilePath
-FileDataID<32>
-
 LAYOUT 3F1B2369
 BUILD 8.1.0.27826
 BUILD 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433
 $noninline,id$ID<32>
 FileName
 FilePath
+
+LAYOUT DD9776DD
+BUILD 8.0.1.26095, 8.0.1.26175, 8.0.1.26231
+$noninline,id$ID<32>
+FileName
+FilePath
+FileDataID<32>

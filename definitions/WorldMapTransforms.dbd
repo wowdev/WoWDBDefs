@@ -13,19 +13,6 @@ int AreaID
 int Priority
 float Region
 
-BUILD 6.0.1.18179
-BUILD 5.4.0.17266-5.4.8.18414
-$id$ID<32>
-MapID<32>
-RegionMin[3]
-RegionMax[3]
-NewMapID<32>
-RegionOffset[2]
-NewDungeonMapID<32>
-Flags<32>
-NewAreaID<32>
-RegionScale
-
 LAYOUT 99FB4B71, 8A2E7B01
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26321
 BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
@@ -44,17 +31,6 @@ NewAreaID<u16>
 Flags<u8>
 Priority<32>
 
-BUILD 4.0.0.11792
-BUILD 3.1.0.9767-3.3.5.12340
-BUILD 4.0.0.11792-4.0.6.13596
-$id$ID<32>
-MapID<32>
-RegionMin[2]
-RegionMax[2]
-NewMapID<32>
-RegionOffset[2]
-NewDungeonMapID<32>
-
 LAYOUT EFD8D412
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24759
 $noninline,id$ID<32>
@@ -67,6 +43,19 @@ NewMapID<u16>
 NewDungeonMapID<u16>
 NewAreaID<u16>
 Flags<u8>
+
+BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
+$id$ID<32>
+MapID<32>
+RegionMin[3]
+RegionMax[3]
+NewMapID<32>
+RegionOffset[2]
+NewDungeonMapID<32>
+Flags<32>
+NewAreaID<32>
+RegionScale
 
 BUILD 5.2.0.16516-5.3.0.17116
 $id$ID<32>
@@ -101,6 +90,17 @@ NewMapID<32>
 RegionOffset[2]
 NewDungeonMapID<32>
 Flags<32>
+
+BUILD 4.0.0.11792
+BUILD 3.1.0.9767-3.3.5.12340
+BUILD 4.0.0.11792-4.0.6.13596
+$id$ID<32>
+MapID<32>
+RegionMin[2]
+RegionMax[2]
+NewMapID<32>
+RegionOffset[2]
+NewDungeonMapID<32>
 
 BUILD 2.0.0.5665-2.4.3.8606
 BUILD 3.0.1.8303-3.0.9.9551

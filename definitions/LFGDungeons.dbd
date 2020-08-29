@@ -37,244 +37,38 @@ int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
 
-BUILD 4.0.0.11792
-BUILD 3.3.3.11685-3.3.5.12340
-BUILD 4.0.0.11792-4.0.6.13623
-$id$ID<32>
-Name_lang
-MinLevel<32>
-MaxLevel<32>
-Target_level<32>
-Target_level_min<32>
-Target_level_max<32>
-MapID<32>
-Difficulty<32>
-Flags<32>
-TypeID<32>
-Faction<32>
-TextureFilename
-ExpansionLevel<32>
-Order_index<32>
-Group_ID<32>
-Description_lang
-
-BUILD 6.0.1.18179
-BUILD 5.4.0.17266-5.4.8.18414
-$id$ID<32>
-Name_lang
-MinLevel<32>
-MaxLevel<32>
-Target_level<32>
-Target_level_min<32>
-Target_level_max<32>
-MapID<32>
-DifficultyID<32>
-Flags<32>
-TypeID<32>
-Faction<32>
-TextureFilename
-ExpansionLevel<32>
-Order_index<32>
-Group_ID<32>
-Description_lang
-Random_ID<32>
-Count_tank<32>
-Count_healer<32>
-Count_damage<32>
-Min_count_tank<32>
-Min_count_healer<32>
-Min_count_damage<32>
-ScenarioID<32>
-Subtype<32>
-Bonus_reputation_amount<32>
-MentorCharLevel<32>
-MentorItemLevel<32>
-
-LAYOUT F02081A0
-BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
-BUILD 1.13.0.28211
+LAYOUT 0BAF7AF1
+BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-Flags<u32>
-MinGear
-MaxLevel<u16>
-Target_level_max<u16>
-MapID<16>
-Random_ID<u16>
-ScenarioID<u16>
-FinalEncounterID<u16>
-Bonus_reputation_amount<u16>
-MentorItemLevel<u16>
-Required_player_condition_ID<u16>
-MinLevel<u8>
-Target_level<u8>
-Target_level_min<u8>
-DifficultyID<u8>
-TypeID<u8>
-Faction<8>
-ExpansionLevel<u8>
-Order_index<u8>
-Group_ID<u8>
-Count_tank<u8>
-Count_healer<u8>
-Count_damage<u8>
-Min_count_tank<u8>
-Min_count_healer<u8>
-Min_count_damage<u8>
-Subtype<u8>
-MentorCharLevel<u8>
-IconTextureFileID<32>
-RewardsBgTextureFileID<32>
-PopupBgTextureFileID<32>
-
-LAYOUT 99DD60ED
-BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
-$noninline,id$ID<32>
-Name_lang
-Description_lang
-Flags<32>
-MinGear
-MaxLevel<u16>
-Target_level_max<u16>
-MapID<16>
-Random_ID<u16>
-ScenarioID<u16>
-FinalEncounterID<u16>
-Bonus_reputation_amount<u16>
-MentorItemLevel<u16>
-Required_player_condition_ID<u16>
-MinLevel<u8>
-Target_level<u8>
-Target_level_min<u8>
-DifficultyID<u8>
-TypeID<u8>
-Faction<8>
-ExpansionLevel<u8>
-Order_index<u8>
-Group_ID<u8>
-Count_tank<u8>
-Count_healer<u8>
-Count_damage<u8>
-Min_count_tank<u8>
-Min_count_healer<u8>
-Min_count_damage<u8>
-Subtype<u8>
-MentorCharLevel<u8>
-IconTextureFileID<32>
-RewardsBgTextureFileID<32>
-PopupBgTextureFileID<32>
-
-LAYOUT 27775621
-BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
-$noninline,id$ID<32>
-Name_lang
-Description_lang
-Flags<32>
-MinGear
-MaxLevel<u16>
-MapID<16>
-Required_player_condition_ID<u16>
-Target_level_max<u16>
-Random_ID<u16>
-ScenarioID<u16>
-FinalEncounterID<u16>
-Bonus_reputation_amount<u16>
-MentorItemLevel<u16>
-MinLevel<u8>
 TypeID<u8>
 Subtype<u8>
 Faction<8>
-ExpansionLevel<u8>
-DifficultyID<u8>
-Group_ID<u8>
-Order_index<u8>
-Target_level<u8>
-Target_level_min<u8>
-Count_tank<u8>
-Count_healer<u8>
-Count_damage<u8>
-Min_count_tank<u8>
-Min_count_healer<u8>
-Min_count_damage<u8>
-MentorCharLevel<u8>
 IconTextureFileID<32>
 RewardsBgTextureFileID<32>
 PopupBgTextureFileID<32>
-
-LAYOUT 86C44D31
-BUILD 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
-$noninline,id$ID<32>
-Name_lang
-Description_lang
-Flags<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
 MinGear
+Group_ID<u8>
+Order_index<u8>
 Required_player_condition_ID<u32>
-MaxLevel<u16>
-MapID<16>
-Target_level_max<u16>
 Random_ID<u16>
 ScenarioID<u16>
 FinalEncounterID<u16>
-Bonus_reputation_amount<u16>
-MentorItemLevel<u16>
-MinLevel<u8>
-TypeID<u8>
-Subtype<u8>
-Faction<8>
-ExpansionLevel<u8>
-DifficultyID<u8>
-Group_ID<u8>
-Order_index<u8>
-Target_level<u8>
-Target_level_min<u8>
 Count_tank<u8>
 Count_healer<u8>
 Count_damage<u8>
 Min_count_tank<u8>
 Min_count_healer<u8>
 Min_count_damage<u8>
-MentorCharLevel<u8>
-IconTextureFileID<32>
-RewardsBgTextureFileID<32>
-PopupBgTextureFileID<32>
-
-LAYOUT FA779A47
-BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
-$noninline,id$ID<32>
-Name_lang
-Description_lang
-Flags<32>
-MinGear
-MaxLevel<u16>
-MapID<16>
-Target_level_max<u16>
-Random_ID<u16>
-ScenarioID<u16>
-FinalEncounterID<u16>
 Bonus_reputation_amount<u16>
 MentorItemLevel<u16>
-MinLevel<u8>
-TypeID<u8>
-Subtype<u8>
-Faction<8>
-ExpansionLevel<u8>
-DifficultyID<u8>
-Group_ID<u8>
-Order_index<u8>
-Target_level<u8>
-Target_level_min<u8>
-Count_tank<u8>
-Count_healer<u8>
-Count_damage<u8>
-Min_count_tank<u8>
-Min_count_healer<u8>
-Min_count_damage<u8>
 MentorCharLevel<u8>
-IconTextureFileID<32>
-RewardsBgTextureFileID<32>
-PopupBgTextureFileID<32>
-Required_player_condition_ID<u32>
+ContentTuningID<32>
+Flags<32>[2]
 
 LAYOUT D9B678AD, 4D903335
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662
@@ -323,38 +117,191 @@ MentorItemLevel<u16>
 MentorCharLevel<u8>
 Flags<32>[2]
 
-LAYOUT 0BAF7AF1
-BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
+LAYOUT FA779A47
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-TypeID<u8>
-Subtype<u8>
-Faction<8>
-IconTextureFileID<32>
-RewardsBgTextureFileID<32>
-PopupBgTextureFileID<32>
-ExpansionLevel<u8>
-MapID<16>
-DifficultyID<u8>
+Flags<32>
 MinGear
-Group_ID<u8>
-Order_index<u8>
-Required_player_condition_ID<u32>
+MaxLevel<u16>
+MapID<16>
+Target_level_max<u16>
 Random_ID<u16>
 ScenarioID<u16>
 FinalEncounterID<u16>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MinLevel<u8>
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+ExpansionLevel<u8>
+DifficultyID<u8>
+Group_ID<u8>
+Order_index<u8>
+Target_level<u8>
+Target_level_min<u8>
 Count_tank<u8>
 Count_healer<u8>
 Count_damage<u8>
 Min_count_tank<u8>
 Min_count_healer<u8>
 Min_count_damage<u8>
+MentorCharLevel<u8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+Required_player_condition_ID<u32>
+
+LAYOUT 86C44D31
+BUILD 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+Flags<32>
+MinGear
+Required_player_condition_ID<u32>
+MaxLevel<u16>
+MapID<16>
+Target_level_max<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
 Bonus_reputation_amount<u16>
 MentorItemLevel<u16>
+MinLevel<u8>
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+ExpansionLevel<u8>
+DifficultyID<u8>
+Group_ID<u8>
+Order_index<u8>
+Target_level<u8>
+Target_level_min<u8>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
 MentorCharLevel<u8>
-ContentTuningID<32>
-Flags<32>[2]
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+
+LAYOUT 27775621
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+Flags<32>
+MinGear
+MaxLevel<u16>
+MapID<16>
+Required_player_condition_ID<u16>
+Target_level_max<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MinLevel<u8>
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+ExpansionLevel<u8>
+DifficultyID<u8>
+Group_ID<u8>
+Order_index<u8>
+Target_level<u8>
+Target_level_min<u8>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+MentorCharLevel<u8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+
+LAYOUT 99DD60ED
+BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+Flags<32>
+MinGear
+MaxLevel<u16>
+Target_level_max<u16>
+MapID<16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+Required_player_condition_ID<u16>
+MinLevel<u8>
+Target_level<u8>
+Target_level_min<u8>
+DifficultyID<u8>
+TypeID<u8>
+Faction<8>
+ExpansionLevel<u8>
+Order_index<u8>
+Group_ID<u8>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Subtype<u8>
+MentorCharLevel<u8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+
+LAYOUT F02081A0
+BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+BUILD 1.13.0.28211
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+Flags<u32>
+MinGear
+MaxLevel<u16>
+Target_level_max<u16>
+MapID<16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+Required_player_condition_ID<u16>
+MinLevel<u8>
+Target_level<u8>
+Target_level_min<u8>
+DifficultyID<u8>
+TypeID<u8>
+Faction<8>
+ExpansionLevel<u8>
+Order_index<u8>
+Group_ID<u8>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Subtype<u8>
+MentorCharLevel<u8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
 
 LAYOUT 3E611AC0
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -430,6 +377,38 @@ MentorCharLevel<u8>
 IconTextureFileID<32>
 RewardsBgTextureFileID<32>
 PopupBgTextureFileID<32>
+
+BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
+$id$ID<32>
+Name_lang
+MinLevel<32>
+MaxLevel<32>
+Target_level<32>
+Target_level_min<32>
+Target_level_max<32>
+MapID<32>
+DifficultyID<32>
+Flags<32>
+TypeID<32>
+Faction<32>
+TextureFilename
+ExpansionLevel<32>
+Order_index<32>
+Group_ID<32>
+Description_lang
+Random_ID<32>
+Count_tank<32>
+Count_healer<32>
+Count_damage<32>
+Min_count_tank<32>
+Min_count_healer<32>
+Min_count_damage<32>
+ScenarioID<32>
+Subtype<32>
+Bonus_reputation_amount<32>
+MentorCharLevel<32>
+MentorItemLevel<32>
 
 BUILD 5.2.0.16516-5.3.0.17116
 $id$ID<32>
@@ -525,6 +504,27 @@ Order_index<32>
 Group_ID<32>
 Description_lang
 Random_ID<32>
+
+BUILD 4.0.0.11792
+BUILD 3.3.3.11685-3.3.5.12340
+BUILD 4.0.0.11792-4.0.6.13623
+$id$ID<32>
+Name_lang
+MinLevel<32>
+MaxLevel<32>
+Target_level<32>
+Target_level_min<32>
+Target_level_max<32>
+MapID<32>
+Difficulty<32>
+Flags<32>
+TypeID<32>
+Faction<32>
+TextureFilename
+ExpansionLevel<32>
+Order_index<32>
+Group_ID<32>
+Description_lang
 
 BUILD 3.3.0.10958-3.3.2.11403
 $id$ID<32>

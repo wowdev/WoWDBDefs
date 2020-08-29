@@ -11,14 +11,14 @@ int Field_1_13_0_28211_002?
 int Field_1_13_0_28211_003?
 int Field_1_13_0_28211_004?
 
-BUILD 6.0.1.18179
-BUILD 5.0.1.15464-5.4.8.18414
-$id$ID<32>
-MapID<32>
-WMOGroupID<32>
-DungeonMapID<32>
+LAYOUT B101DEC3
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26321
+$noninline,id$ID<32>
+DoodadPlacementID<u32>
 MinZ
-DoodadPlacementID<32>
+$relation$MapID<u16>
+WMOGroupID<u16>
+DungeonMapID<u16>
 
 LAYOUT 7927A3A7
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -32,6 +32,15 @@ $relation$MapID<u16>
 WMOGroupID<u16>
 DungeonMapID<u16>
 
+BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
+$id$ID<32>
+MapID<32>
+WMOGroupID<32>
+DungeonMapID<32>
+MinZ
+DoodadPlacementID<32>
+
 BUILD 4.0.0.11792
 BUILD 3.0.1.8303-3.3.5.12340
 BUILD 4.0.0.11792-4.3.4.15595
@@ -40,15 +49,6 @@ MapID<32>
 WMOGroupID<32>
 DungeonMapID<32>
 MinZ
-
-LAYOUT B101DEC3
-BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26321
-$noninline,id$ID<32>
-DoodadPlacementID<u32>
-MinZ
-$relation$MapID<u16>
-WMOGroupID<u16>
-DungeonMapID<u16>
 
 LAYOUT F1BD499A
 BUILD 1.13.0.28211
