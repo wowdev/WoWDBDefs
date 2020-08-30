@@ -42,7 +42,7 @@ int<WorldStateExpression::ID> WorldStateExpressionID
 int<Weather::ID> WeatherID
 int PartyStatus
 int LifetimeMaxPVPRank
-int AchievementLogic // for all Logics: 1) bits 16 and up: invert whether criteria 0..count completed. 2) in two bit steps, combine criteria 1..count, bits 0 and up: &1: or, &2: and, neither: ignore. ex: 0x00 = #0. 0x01 = #0 or #1. 0x02 = #0 and #1. 0x10000 = not #0. 0x1001 = (not #0) or #1. 0x4002 = (not #0) and (not #1).
+int AchievementLogic // for all Logics: 1) bits 16 and up: invert whether criteria 0..count completed. 2) in two bit steps, combine criteria 1..count, bits 0 and up: &1: and, &2: or, neither: ignore. ex: 0x00 = #0. 0x01 = #0 and #1. 0x02 = #0 or #1. 0x10000 = not #0. 0x10001 = (not #0) and #1. 0x30002 = (not #0) or (not #1).
 int<Achievement::ID> Achievement
 int LfgLogic
 int LfgStatus

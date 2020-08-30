@@ -24,7 +24,7 @@ int<Item::ID> StartItem
 int UniqueBitFlag
 int<WorldStateExpression::ID> WorldStateExpressionID
 int<ContentTuning::ID> ContentTuningID
-int Field_8_2_0_30774_023?
+int Flags // [2].9 = isQuestStart; [2].13 = don't return anything in lua GetTaskInfo; ([0].12 || [0].15 || [1].15) = isDaily
 int<Covenant::ID> CovenantID
 
 LAYOUT 3F026A14
@@ -253,7 +253,7 @@ StartItem<32>
 WorldStateExpressionID<16>
 QuestInfoID<u32>
 ContentTuningID<32>
-Field_8_2_0_30774_023<32>[3]
+Flags<32>[3]
 FiltCompletedQuest<u32>[3]
 
 LAYOUT 3C29F627
@@ -280,7 +280,7 @@ WorldStateExpressionID<16>
 QuestInfoID<u32>
 ContentTuningID<32>
 CovenantID<32>
-Field_8_2_0_30774_023<32>[3]
+Flags<32>[3]
 FiltCompletedQuest<u32>[3]
 
 LAYOUT C02750A8
@@ -334,5 +334,5 @@ WorldStateExpressionID<32>
 QuestInfoID<u32>
 ContentTuningID<32>
 CovenantID<32>
-Field_8_2_0_30774_023<32>[3]
+Flags<32>[3]
 FiltCompletedQuest<u32>[3]
