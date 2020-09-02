@@ -1,0 +1,10 @@
+COLUMNS
+int ID
+int<ContentTuning::ID> ContentTuningID?
+int<ExpectedStatMod::ID> ExpectedStatModID?
+
+LAYOUT A87DE567
+BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123
+$noninline,id$ID<32>
+ExpectedStatModID<32>
+$noninline,relation$ContentTuningID<32>

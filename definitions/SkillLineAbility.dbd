@@ -20,6 +20,21 @@ int<Spell::ID> SupercededBySpell
 int CharacterPoints
 int Abandonable
 int Field_0_5_5_3494_012? // only set on [Plate Mail] in 0.5.5
+int Field_9_0_1_35755_000?
+int Field_9_0_1_35755_001?
+int Field_9_0_1_35755_002?
+int Field_9_0_1_35755_003?
+int Field_9_0_1_35755_004?
+int Field_9_0_1_35755_005?
+int Field_9_0_1_35755_006?
+int Field_9_0_1_35755_007?
+int Field_9_0_1_35755_008?
+int Field_9_0_1_35755_009?
+int Field_9_0_1_35755_010?
+int Field_9_0_1_35755_011?
+int Field_9_0_1_35755_012?
+int Field_9_0_1_35755_013?
+int Field_9_0_1_35755_014?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15650-5.0.1.15657
@@ -304,3 +319,21 @@ AcquireMethod<32>
 TrivialSkillLineRankHigh<32>
 TrivialSkillLineRankLow<32>
 Field_0_5_5_3494_012<32>
+
+LAYOUT 765222E5
+BUILD 9.0.1.35755
+Field_9_0_1_35755_000<64>
+$id$Field_9_0_1_35755_001<32>
+$relation$Field_9_0_1_35755_002<16>
+Field_9_0_1_35755_003<32>
+Field_9_0_1_35755_004<16>
+Field_9_0_1_35755_005<32>
+Field_9_0_1_35755_006<32>
+Field_9_0_1_35755_007<8>
+Field_9_0_1_35755_008<16>
+Field_9_0_1_35755_009<16>
+Field_9_0_1_35755_010<32>
+Field_9_0_1_35755_011<8>
+Field_9_0_1_35755_012<16>
+Field_9_0_1_35755_013<16>
+Field_9_0_1_35755_014<16>

@@ -1,0 +1,232 @@
+COLUMNS
+int ID
+int SoundType
+string Name
+int<FileData::ID> FileDataID
+int Freq
+float VolumeFloat
+int Flags
+float MinDistance
+float DistanceCutoff
+int EAXDef
+int<SoundEntriesAdvanced::ID> SoundEntriesAdvancedID
+float Volumevariationplus
+float Volumevariationminus
+float Pitchvariationplus
+float Pitchvariationminus
+float PitchAdjust
+int Dialogtype
+int BusOverwriteID
+string File
+string DirectoryBase
+float Pitch
+float PitchVariation
+int Priority
+int Channel
+float MaxDistance
+
+BUILD 6.0.1.18179
+$id$ID<32>
+SoundType<32>
+Name
+FileDataID<32>[20]
+Freq<32>[20]
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<32>
+SoundEntriesAdvancedID<32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+PitchAdjust
+Dialogtype<32>
+BusOverwriteID<32>
+
+BUILD 4.0.0.11792
+BUILD 3.1.0.9767-3.3.5.12340
+BUILD 4.0.0.11792-4.0.0.12065
+$id$ID<32>
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<32>
+SoundEntriesAdvancedID<32>
+
+BUILD 3.0.8.9328
+BUILD 3.0.2.8885
+BUILD 3.0.1.8303
+BUILD 0.9.0.3807-0.12.0.3988
+BUILD 1.0.0.3980-1.12.3.6141
+BUILD 2.0.0.5610-2.4.3.8606
+BUILD 3.0.1.8303-3.0.9.9551
+$id$ID<32>
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<32>
+
+BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.6.0.3592
+$id$ID<32>
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Pitch
+PitchVariation
+Priority<32>
+Channel<32>
+Flags<32>
+MinDistance
+MaxDistance
+DistanceCutoff
+EAXDef<32>
+
+BUILD 5.3.0.16844-5.4.8.18414
+$id$ID<32>
+SoundType<32>
+Name
+FileDataID<32>[10]
+Freq<32>[10]
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<32>
+SoundEntriesAdvancedID<32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+PitchAdjust
+Dialogtype<32>
+
+BUILD 5.0.1.15699-5.2.0.16650
+$id$ID<32>
+SoundType<32>
+Name
+FileDataID<32>[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<32>
+SoundEntriesAdvancedID<32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+PitchAdjust
+Dialogtype<32>
+
+BUILD 5.0.1.15650, 5.0.1.15657
+BUILD 5.0.1.15668-5.0.1.15689
+$id$ID<32>
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<32>
+SoundEntriesAdvancedID<32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+PitchAdjust
+Dialogtype<32>
+
+BUILD 5.0.1.15662
+BUILD 5.0.1.15464-5.0.1.15640
+$id$ID<32>
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<32>
+SoundEntriesAdvancedID<32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+Dialogtype<32>
+
+BUILD 4.3.2.15211-4.3.4.15595
+$id$ID<32>
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<32>
+SoundEntriesAdvancedID<32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+PitchAdjust
+
+BUILD 4.0.0.12122-4.3.0.15050
+$id$ID<32>
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<32>
+SoundEntriesAdvancedID<32>
+Volumevariationplus
+Volumevariationminus
+Pitchvariationplus
+Pitchvariationminus
+
+BUILD 0.7.0.3694-0.8.0.3734
+$id$ID<32>
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Pitch
+PitchVariation
+Flags<32>
+MinDistance
+MaxDistance
+EAXDef<32>

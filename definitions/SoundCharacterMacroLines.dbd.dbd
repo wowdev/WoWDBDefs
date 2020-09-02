@@ -1,0 +1,17 @@
+COLUMNS
+int ID
+int Category // 0 = help, 1 = inc, 2 = charge, 3 = flee, 4 = attack, 5 = oom, 6 = fol, 7 = wait, 8 = heal, 9 = cheer, 10 = fire, 11 = hello; 1+: 12 = bye, 13 = rasp, 14 = yes, 15 = no, 16 = thanks, 17 = welcome, 18 = congrats, 19 = flirt, 20 = silly
+int Sex
+int<ChrRaces::ID> Race
+int<SoundEntries::ID> SoundID
+
+BUILD 1.12.1.5875
+BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.12.0.3988
+BUILD 1.0.0.3980-1.12.3.6141
+BUILD 2.0.0.5610-2.0.0.5991
+$id$ID<32>
+Category<32>
+Sex<32>
+Race<32>
+SoundID<32>

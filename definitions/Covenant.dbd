@@ -3,6 +3,11 @@ locstring Name_lang
 locstring Description_lang
 int ID
 int<BountySet::ID> BountySetID
+locstring Field_9_0_1_35755_000_lang?
+locstring Field_9_0_1_35755_001_lang?
+int Field_9_0_1_35755_002?
+int Field_9_0_1_35755_003?
+int Field_9_0_1_35755_004?
 
 LAYOUT 0CA77A5C
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
@@ -16,3 +21,11 @@ Name_lang
 Description_lang
 $id$ID<32>
 BountySetID<32>
+
+LAYOUT 795A954E
+BUILD 9.0.1.35755
+Field_9_0_1_35755_000_lang
+Field_9_0_1_35755_001_lang
+$id$Field_9_0_1_35755_002<32>
+Field_9_0_1_35755_003<32>
+Field_9_0_1_35755_004<32>

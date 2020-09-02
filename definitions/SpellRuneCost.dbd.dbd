@@ -1,0 +1,35 @@
+COLUMNS
+int ID
+int Blood
+int Unholy
+int Frost
+int Chromatic
+int RunicPower
+int Field_3_0_1_8303_004? // could be chromatic
+
+BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
+BUILD 6.0.1.18125-6.2.4.21742
+$id$ID<32>
+Blood<32>
+Unholy<32>
+Frost<32>
+Chromatic<32>
+RunicPower<32>
+
+BUILD 4.0.0.11792
+BUILD 3.0.1.8714-3.3.5.12340
+BUILD 4.0.0.11792-4.3.4.15595
+$id$ID<32>
+Blood<32>
+Unholy<32>
+Frost<32>
+RunicPower<32>
+
+BUILD 3.0.1.8303-3.0.1.8681
+$id$ID<32>
+Blood<32>
+Unholy<32>
+Frost<32>
+Field_3_0_1_8303_004<32>
+RunicPower<32>
