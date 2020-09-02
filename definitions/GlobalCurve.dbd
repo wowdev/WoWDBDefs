@@ -4,7 +4,7 @@ int<Curve::ID> CurveID
 int Type // 0: CombatRatingBonus for CR_CRIT_MELEE, CR_CRIT_RANGED, CR_CRIT_SPELL; 1: CombatRatingBonus for CR_MASTERY; 2: CombatRatingBonus for CR_HASTE_SPELL; 3: CombatRatingBonus for CR_SPEED; 4: CombatRatingBonus for CR_AVOIDANCE; 5: CombatRatingBonus for CR_UNKNOWN_30, CR_VERSATILITY_DAMAGE_DONE, CR_VERSATILITY_DAMAGE_TAKEN; 6: CombatRatingBonus for CR_LIFESTEAL; 7: CombatRatingBonus for CR_DODGE; 8: CombatRatingBonus for CR_BLOCK; 9: CombatRatingBonus for CR_PARRY;
 
 LAYOUT 6EE9627F
-BUILD 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755
+BUILD 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 $noninline,id$ID<32>
 CurveID<32>
 Type<32>
