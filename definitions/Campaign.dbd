@@ -10,18 +10,7 @@ int<PlayerCondition::ID> Completed
 int<UiQuestDetailsTheme::ID> UiQuestDetailsThemeID
 int Flags // &0x01: useNormalQuestIcons
 int<PlayerCondition::ID> OnlyStallIf // if given and evals to false, don't mark as stalled.
-locstring Field_9_0_1_35755_000_lang?
-string Field_9_0_1_35755_001?
-locstring Field_9_0_1_35755_002_lang?
-int Field_9_0_1_35755_003?
-int Field_9_0_1_35755_004?
-int Field_9_0_1_35755_005?
-int Field_9_0_1_35755_006?
-int Field_9_0_1_35755_007?
-int Field_9_0_1_35755_008?
-int Field_9_0_1_35755_009?
-int Field_9_0_1_35755_010?
-int Field_9_0_1_35755_011?
+int<PlayerCondition::ID> Field_9_0_1_35755_007?
 
 LAYOUT 0B271FD9
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -93,15 +82,15 @@ Flags<u32>
 
 LAYOUT A6065A95
 BUILD 9.0.1.35755
-Field_9_0_1_35755_000_lang
-Field_9_0_1_35755_001
-Field_9_0_1_35755_002_lang
-$id$Field_9_0_1_35755_003<u32>
-Field_9_0_1_35755_004<32>
-Field_9_0_1_35755_005<32>
-Field_9_0_1_35755_006<32>
+Title_lang
+InternalTitle
+Description_lang
+$id$ID<u32>
+UiTextureKitID<32>
+RewardQuestID<32>
+Prerequisite<32>
 Field_9_0_1_35755_007<32>
-Field_9_0_1_35755_008<32>
-Field_9_0_1_35755_009<32>
-Field_9_0_1_35755_010<32>
-Field_9_0_1_35755_011<u32>
+Completed<32>
+OnlyStallIf<32>
+UiQuestDetailsThemeID<32>
+Flags<u32>

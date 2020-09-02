@@ -2,11 +2,8 @@ COLUMNS
 locstring Name_lang
 int ID
 int<QuestV2::ID> QuestID?
-locstring Description_lang?
-locstring Field_9_0_1_35755_000_lang?
-locstring Field_9_0_1_35755_001_lang?
-int Field_9_0_1_35755_002?
-int Field_9_0_1_35755_003?
+locstring Description_lang
+int Field_9_0_1_35755_003? // 99% PlayerCondition
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -42,7 +39,7 @@ QuestID<u32>
 LAYOUT 20DB8520
 BUILD 9.0.1.35755
 $noninline,id$ID<32>
-Field_9_0_1_35755_000_lang
-Field_9_0_1_35755_001_lang
-Field_9_0_1_35755_002<u32>
+Name_lang
+Description_lang
+QuestID<u32>
 Field_9_0_1_35755_003<32>
