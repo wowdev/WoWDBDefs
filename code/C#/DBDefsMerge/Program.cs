@@ -23,8 +23,11 @@ namespace DBDefsMerge
             var secondDir = args[1];
             var targetDir = args[2];
 
-            var firstDirFiles = Directory.GetFiles(firstDir).ToDictionary(x => Path.GetFileName(x), StringComparer.OrdinalIgnoreCase);
-            var secondDirFiles = Directory.GetFiles(secondDir).ToDictionary(x => Path.GetFileName(x), StringComparer.OrdinalIgnoreCase);
+            var firstDirFiles = new DirectoryInfo(firstDir).GetFiles().Select(o => o.Name).ToList();
+            var secondDirFiles = new DirectoryInfo(secondDir).GetFiles().Select(o => o.Name).ToList();
+
+            var firstDirFilesLC = new DirectoryInfo(firstDir).GetFiles().Select(o => o.Name.ToLower()).ToList();
+            var secondDirFilesLC = new DirectoryInfo(secondDir).GetFiles().Select(o => o.Name.ToLower()).ToList();
 
             var newDefinitions = new Dictionary<string, DBDefinition>();
 
@@ -32,13 +35,13 @@ namespace DBDefsMerge
 
             foreach (var file in secondDirFiles)
             {
-                var dbName = file.Key;
-                if (firstDirFiles.ContainsKey(dbName))
+                var dbName = Path.GetFileNameWithoutExtension(file);
+                if (firstDirFilesLC.Contains(file.ToLower()))
                 {
                     // Both directories have this file. Merge!
-                    var firstFileName = firstDirFiles[dbName];
+                    var firstFileName = Path.Combine(firstDir, firstDirFiles.ElementAt(firstDirFilesLC.IndexOf(file.ToLower())));
                     var firstFile = reader.Read(firstFileName);
-                    var secondFile = reader.Read(file.Value);
+                    var secondFile = reader.Read(Path.Combine(secondDir, file));
 
                     var newDefinition = firstFile;
 
@@ -344,16 +347,16 @@ namespace DBDefsMerge
                 else
                 {
                     // Only 2nd dir has this file, use that
-                    newDefinitions.Add(dbName, reader.Read(file.Value));
+                    newDefinitions.Add(dbName, reader.Read(Path.Combine(secondDir, file)));
                 }
             }
 
             foreach(var file in firstDirFiles)
             {
-                if (!secondDirFiles.ContainsKey(file.Key))
+                if (!secondDirFilesLC.Contains(file.ToLower()))
                 {
                     // Only 1st dir has this file, use that
-                    newDefinitions.Add(file.Key, reader.Read(file.Value));
+                    newDefinitions.Add(Path.GetFileNameWithoutExtension(file), reader.Read(Path.Combine(firstDir, file)));
                 }
             }
 
