@@ -5,6 +5,13 @@ int<GarrSiteLevel::ID> GarrSiteLevelID
 float UiMarkerPos
 int UiMarkerSize
 
+BUILD 6.0.1.18179
+$id$ID<32>
+GarrSiteLevelID<32>
+GarrPlotInstanceID<32>
+UiMarkerPos[2]
+UiMarkerSize<32>
+
 LAYOUT C4E74201, A3DF8AD1, 7BE32B9A
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662
@@ -27,10 +34,3 @@ UiMarkerPos[2]
 $relation$GarrSiteLevelID<u16>
 GarrPlotInstanceID<u8>
 UiMarkerSize<u8>
-
-BUILD 6.0.1.18179
-$id$ID<32>
-GarrSiteLevelID<32>
-GarrPlotInstanceID<32>
-UiMarkerPos[2]
-UiMarkerSize<32>

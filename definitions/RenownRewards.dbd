@@ -18,6 +18,26 @@ int<TransmogSet::ID> TransmogSetID
 int<QuestV2::ID> QuestID?
 int<PlayerCondition::ID> PlayerConditionID
 
+LAYOUT D5E4583A
+BUILD 9.0.1.35432, 9.0.1.35482
+Name_lang
+Description_lang
+$id$ID<32>
+CovenantID<32>
+Level<32>
+Icon<32>
+Flags<32>
+UiOrder<32>
+ItemID<32>
+SpellID<32>
+MountID<32>
+TransmogID<32>
+TransmogSetID<32>
+CharTitlesID<32>
+GarrFollowerID<32>
+TransmogIllusionID<32>
+QuestID<32>
+
 LAYOUT D11D0B83
 BUILD 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 Name_lang
@@ -38,23 +58,3 @@ GarrFollowerID<32>
 TransmogIllusionID<32>
 QuestID<32>
 PlayerConditionID<32>
-
-LAYOUT D5E4583A
-BUILD 9.0.1.35432, 9.0.1.35482
-Name_lang
-Description_lang
-$id$ID<32>
-CovenantID<32>
-Level<32>
-Icon<32>
-Flags<32>
-UiOrder<32>
-ItemID<32>
-SpellID<32>
-MountID<32>
-TransmogID<32>
-TransmogSetID<32>
-CharTitlesID<32>
-GarrFollowerID<32>
-TransmogIllusionID<32>
-QuestID<32>

@@ -5,15 +5,6 @@ float Loc
 float Facing
 locstring AreaName_lang
 
-LAYOUT 6BF0D7EC
-BUILD 1.13.0.28211-1.13.2.31882
-BUILD 8.1.0.27826-8.2.5.31337
-$noninline,id$ID<32>
-AreaName_lang
-Loc[3]
-Continent<u16>
-Facing
-
 BUILD 6.0.1.18179
 BUILD 5.0.1.15726-5.4.8.18273
 $id$ID<32>
@@ -34,3 +25,12 @@ $id$ID<32>
 Continent<32>
 Loc[3]
 AreaName_lang
+
+LAYOUT 6BF0D7EC
+BUILD 1.13.0.28211-1.13.2.31882
+BUILD 8.1.0.27826-8.2.5.31337
+$noninline,id$ID<32>
+AreaName_lang
+Loc[3]
+Continent<u16>
+Facing

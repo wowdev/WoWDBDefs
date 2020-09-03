@@ -10,6 +10,32 @@ int<SpellVisualKit::ID> PlayerHitBloodSpurtID
 int<SpellVisualKit::ID> PlayerOmniCritBloodSpurtID
 int<SpellVisualKit::ID> PlayerOmniHitBloodSpurtID
 
+BUILD 6.0.1.18179
+BUILD 4.0.0.11792
+BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.12.0.3988
+BUILD 1.0.0.3980-1.12.3.6141
+BUILD 2.0.0.5610-2.4.3.8606
+BUILD 3.0.1.8303-3.3.5.12340
+BUILD 4.0.0.11792-4.3.4.15595
+BUILD 5.0.1.15464-5.4.8.18414
+BUILD 6.0.1.18125-6.2.4.21742
+$id$ID<32>
+CombatBloodSpurtFront<32>[2]
+CombatBloodSpurtBack<32>[2]
+GroundBlood[5]
+
+LAYOUT 290342C2
+BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563
+$noninline,id$ID<32>
+GroundBlood[5]
+PlayerCritBloodSpurtID<u32>
+PlayerHitBloodSpurtID<u32>
+DefaultBloodSpurtID<u32>
+PlayerOmniCritBloodSpurtID<u32>
+PlayerOmniHitBloodSpurtID<u32>
+DefaultOmniBloodSpurtID<u32>
+
 LAYOUT 4689A9A0, 007ED968, 69E1F3A8
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662
@@ -31,32 +57,6 @@ DefaultBloodSpurtID<u32>
 PlayerOmniCritBloodSpurtID<u32>
 PlayerOmniHitBloodSpurtID<u32>
 DefaultOmniBloodSpurtID<u32>
-
-LAYOUT 290342C2
-BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563
-$noninline,id$ID<32>
-GroundBlood[5]
-PlayerCritBloodSpurtID<u32>
-PlayerHitBloodSpurtID<u32>
-DefaultBloodSpurtID<u32>
-PlayerOmniCritBloodSpurtID<u32>
-PlayerOmniHitBloodSpurtID<u32>
-DefaultOmniBloodSpurtID<u32>
-
-BUILD 6.0.1.18179
-BUILD 4.0.0.11792
-BUILD 0.5.3.3368
-BUILD 0.5.3.3368-0.12.0.3988
-BUILD 1.0.0.3980-1.12.3.6141
-BUILD 2.0.0.5610-2.4.3.8606
-BUILD 3.0.1.8303-3.3.5.12340
-BUILD 4.0.0.11792-4.3.4.15595
-BUILD 5.0.1.15464-5.4.8.18414
-BUILD 6.0.1.18125-6.2.4.21742
-$id$ID<32>
-CombatBloodSpurtFront<32>[2]
-CombatBloodSpurtBack<32>[2]
-GroundBlood[5]
 
 LAYOUT 7C4875FB
 BUILD 1.13.5.34000, 1.13.5.34097, 1.13.5.34138, 1.13.5.34713, 1.13.5.34911, 1.13.5.35000, 1.13.5.35186, 1.13.5.35395, 1.13.5.35663, 1.13.5.35705

@@ -12,19 +12,60 @@ locstring Text_lang
 locstring Text1_lang
 int ChatBubbleDurationMs
 
-LAYOUT 762EC396
-BUILD 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
+BUILD 6.0.1.18179
+BUILD 5.0.1.15650-5.4.8.18414
+BUILD 6.0.1.18125-6.2.4.21742
+$id$ID<32>
+LanguageID<32>
+Text_lang
+Text1_lang
+EmoteID<32>[3]
+EmoteDelay<32>[3]
+SoundEntriesID<32>
+EmotesID<32>
+Flags<32>
+
+LAYOUT 51BF0C33
+BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
+BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+BUILD 1.13.0.28211
+$noninline,id$ID<32>
+Text_lang
+Text1_lang
+EmoteID<u16>[3]
+EmoteDelay<u16>[3]
+EmotesID<u16>
+LanguageID<u8>
+Flags<u8>
+ConditionID<32>
+SoundKitID<u32>[2]
+
+LAYOUT 5E60145F
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
 Text_lang
 Text1_lang
 $id$ID<32>
-LanguageID<32>
-ConditionID<32>
-EmotesID<u16>
-Flags<u8>
-ChatBubbleDurationMs<u32>
 SoundKitID<u32>[2]
+EmotesID<u16>
 EmoteID<u16>[3]
 EmoteDelay<u16>[3]
+LanguageID<u8>
+Flags<u8>
+ConditionID<32>
+
+LAYOUT 189E5081
+BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
+Text_lang
+Text1_lang
+$id$ID<32>
+SoundKitID<u32>[2]
+EmotesID<u16>
+EmoteID<u16>[3]
+EmoteDelay<u16>[3]
+LanguageID<u8>
+Flags<u8>
+ConditionID<32>
+ChatBubbleDurationMs<u32>
 
 LAYOUT 6318993B, 1EDED3E1
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972
@@ -50,48 +91,6 @@ ChatBubbleDurationMs<u32>
 SoundKitID<u32>[2]
 EmoteID<u16>[3]
 EmoteDelay<u16>[3]
-
-LAYOUT 189E5081
-BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
-Text_lang
-Text1_lang
-$id$ID<32>
-SoundKitID<u32>[2]
-EmotesID<u16>
-EmoteID<u16>[3]
-EmoteDelay<u16>[3]
-LanguageID<u8>
-Flags<u8>
-ConditionID<32>
-ChatBubbleDurationMs<u32>
-
-LAYOUT 5E60145F
-BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
-Text_lang
-Text1_lang
-$id$ID<32>
-SoundKitID<u32>[2]
-EmotesID<u16>
-EmoteID<u16>[3]
-EmoteDelay<u16>[3]
-LanguageID<u8>
-Flags<u8>
-ConditionID<32>
-
-LAYOUT 51BF0C33
-BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
-BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
-BUILD 1.13.0.28211
-$noninline,id$ID<32>
-Text_lang
-Text1_lang
-EmoteID<u16>[3]
-EmoteDelay<u16>[3]
-EmotesID<u16>
-LanguageID<u8>
-Flags<u8>
-ConditionID<32>
-SoundKitID<u32>[2]
 
 LAYOUT C5965DBB
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -120,15 +119,16 @@ Flags<u8>
 SoundKitID<u32>[2]
 ConditionID<32>
 
-BUILD 6.0.1.18179
-BUILD 5.0.1.15650-5.4.8.18414
-BUILD 6.0.1.18125-6.2.4.21742
-$id$ID<32>
-LanguageID<32>
+LAYOUT 762EC396
+BUILD 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 Text_lang
 Text1_lang
-EmoteID<32>[3]
-EmoteDelay<32>[3]
-SoundEntriesID<32>
-EmotesID<32>
-Flags<32>
+$id$ID<32>
+LanguageID<32>
+ConditionID<32>
+EmotesID<u16>
+Flags<u8>
+ChatBubbleDurationMs<u32>
+SoundKitID<u32>[2]
+EmoteID<u16>[3]
+EmoteDelay<u16>[3]

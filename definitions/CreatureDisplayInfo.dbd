@@ -38,6 +38,181 @@ int Field_2_1_0_6692_016?
 int Field_2_1_0_6692_017?
 int Field_2_1_0_6692_018?
 
+BUILD 6.0.1.18179
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+PortraitTextureName
+PortraitCreatureDisplayInfoID<32>
+SizeClass<32>
+BloodID<32>
+NPCSoundID<32>
+ParticleColorID<32>
+CreatureGeosetData<32>
+ObjectEffectPackageID<32>
+AnimReplacementSetID<32>
+Flags<32>
+Gender<32>
+StateSpellVisualKitID<32>
+
+LAYOUT C285819E
+BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
+$id$ID<32>
+CreatureModelScale
+ModelID<u16>
+NPCSoundID<u16>
+SizeClass<8>
+Flags<u8>
+Gender<8>
+ExtendedDisplayInfoID<32>
+PortraitTextureFileDataID<32>
+CreatureModelAlpha<u8>
+SoundID<u16>
+PlayerOverrideScale
+PortraitCreatureDisplayInfoID<32>
+BloodID<u8>
+ParticleColorID<u16>
+ObjectEffectPackageID<u16>
+AnimReplacementSetID<u16>
+UnarmedWeaponType<8>
+StateSpellVisualKitID<32>
+PetInstanceScale
+MountPoofSpellVisualKitID<32>
+DissolveEffectID<32>
+TextureVariationFileDataID<32>[3]
+
+BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.3.4.15595
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+PortraitTextureName
+SizeClass<32>
+BloodID<32>
+NPCSoundID<32>
+ParticleColorID<32>
+CreatureGeosetData<32>
+ObjectEffectPackageID<32>
+AnimReplacementSetID<32>
+
+BUILD 3.0.8.9328
+BUILD 3.0.2.8885
+BUILD 3.0.1.8820-3.3.5.12340
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+PortraitTextureName
+SizeClass<32>
+BloodID<32>
+NPCSoundID<32>
+ParticleColorID<32>
+CreatureGeosetData<32>
+ObjectEffectPackageID<32>
+
+BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.5.5.3494
+$id$ID<32>
+ModelID<32>
+SoundID<32>
+ExtendedDisplayInfoID<32>
+CreatureModelScale
+CreatureModelAlpha<32>
+TextureVariation[3]
+BloodID<32>
+
+LAYOUT 5D6823C8
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
+$id$ID<32>
+CreatureModelScale
+ModelID<u16>
+NPCSoundID<u16>
+SizeClass<8>
+Flags<u8>
+Gender<8>
+SoundID<u16>
+CreatureModelAlpha<u8>
+BloodID<u8>
+ExtendedDisplayInfoID<32>
+ParticleColorID<u16>
+PortraitCreatureDisplayInfoID<32>
+PortraitTextureFileDataID<32>
+ObjectEffectPackageID<u16>
+AnimReplacementSetID<u16>
+StateSpellVisualKitID<32>
+PlayerOverrideScale
+PetInstanceScale
+UnarmedWeaponType<8>
+MountPoofSpellVisualKitID<32>
+DissolveEffectID<32>
+TextureVariationFileDataID<32>[3]
+
+LAYOUT 7589F3F0
+BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
+$id$ID<32>
+CreatureModelScale
+ModelID<u16>
+NPCSoundID<u16>
+SizeClass<8>
+Flags<u8>
+Gender<8>
+SoundID<u16>
+CreatureModelAlpha<u8>
+BloodID<u8>
+ExtendedDisplayInfoID<32>
+ParticleColorID<u16>
+PortraitCreatureDisplayInfoID<32>
+PortraitTextureFileDataID<32>
+ObjectEffectPackageID<u16>
+AnimReplacementSetID<u16>
+StateSpellVisualKitID<32>
+PlayerOverrideScale
+PetInstanceScale
+UnarmedWeaponType<8>
+MountPoofSpellVisualKitID<32>
+DissolveEffectID<32>
+DissolveOutEffectID<32>
+CreatureModelMinLod<8>
+TextureVariationFileDataID<32>[3]
+
+LAYOUT 406268DF
+BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+BUILD 1.13.0.28211
+$id$ID<32>
+CreatureModelScale
+ModelID<u16>
+NPCSoundID<u16>
+SizeClass<8>
+Flags<u8>
+Gender<8>
+ExtendedDisplayInfoID<32>
+PortraitTextureFileDataID<32>
+CreatureModelAlpha<u8>
+SoundID<u16>
+PlayerOverrideScale
+PortraitCreatureDisplayInfoID<32>
+BloodID<u8>
+ParticleColorID<u16>
+CreatureGeosetData<32>
+ObjectEffectPackageID<u16>
+AnimReplacementSetID<u16>
+UnarmedWeaponType<8>
+StateSpellVisualKitID<32>
+PetInstanceScale
+MountPoofSpellVisualKitID<32>
+TextureVariationFileDataID<32>[3]
+
 LAYOUT 613413D1, 96D440DE
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662
@@ -77,113 +252,6 @@ DissolveOutEffectID<32>
 CreatureModelMinLod<8>
 TextureVariationFileDataID<32>[3]
 
-LAYOUT 7589F3F0
-BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
-$id$ID<32>
-CreatureModelScale
-ModelID<u16>
-NPCSoundID<u16>
-SizeClass<8>
-Flags<u8>
-Gender<8>
-SoundID<u16>
-CreatureModelAlpha<u8>
-BloodID<u8>
-ExtendedDisplayInfoID<32>
-ParticleColorID<u16>
-PortraitCreatureDisplayInfoID<32>
-PortraitTextureFileDataID<32>
-ObjectEffectPackageID<u16>
-AnimReplacementSetID<u16>
-StateSpellVisualKitID<32>
-PlayerOverrideScale
-PetInstanceScale
-UnarmedWeaponType<8>
-MountPoofSpellVisualKitID<32>
-DissolveEffectID<32>
-DissolveOutEffectID<32>
-CreatureModelMinLod<8>
-TextureVariationFileDataID<32>[3]
-
-LAYOUT 5D6823C8
-BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367
-$id$ID<32>
-CreatureModelScale
-ModelID<u16>
-NPCSoundID<u16>
-SizeClass<8>
-Flags<u8>
-Gender<8>
-SoundID<u16>
-CreatureModelAlpha<u8>
-BloodID<u8>
-ExtendedDisplayInfoID<32>
-ParticleColorID<u16>
-PortraitCreatureDisplayInfoID<32>
-PortraitTextureFileDataID<32>
-ObjectEffectPackageID<u16>
-AnimReplacementSetID<u16>
-StateSpellVisualKitID<32>
-PlayerOverrideScale
-PetInstanceScale
-UnarmedWeaponType<8>
-MountPoofSpellVisualKitID<32>
-DissolveEffectID<32>
-TextureVariationFileDataID<32>[3]
-
-LAYOUT C285819E
-BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
-$id$ID<32>
-CreatureModelScale
-ModelID<u16>
-NPCSoundID<u16>
-SizeClass<8>
-Flags<u8>
-Gender<8>
-ExtendedDisplayInfoID<32>
-PortraitTextureFileDataID<32>
-CreatureModelAlpha<u8>
-SoundID<u16>
-PlayerOverrideScale
-PortraitCreatureDisplayInfoID<32>
-BloodID<u8>
-ParticleColorID<u16>
-ObjectEffectPackageID<u16>
-AnimReplacementSetID<u16>
-UnarmedWeaponType<8>
-StateSpellVisualKitID<32>
-PetInstanceScale
-MountPoofSpellVisualKitID<32>
-DissolveEffectID<32>
-TextureVariationFileDataID<32>[3]
-
-LAYOUT 406268DF
-BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
-BUILD 1.13.0.28211
-$id$ID<32>
-CreatureModelScale
-ModelID<u16>
-NPCSoundID<u16>
-SizeClass<8>
-Flags<u8>
-Gender<8>
-ExtendedDisplayInfoID<32>
-PortraitTextureFileDataID<32>
-CreatureModelAlpha<u8>
-SoundID<u16>
-PlayerOverrideScale
-PortraitCreatureDisplayInfoID<32>
-BloodID<u8>
-ParticleColorID<u16>
-CreatureGeosetData<32>
-ObjectEffectPackageID<u16>
-AnimReplacementSetID<u16>
-UnarmedWeaponType<8>
-StateSpellVisualKitID<32>
-PetInstanceScale
-MountPoofSpellVisualKitID<32>
-TextureVariationFileDataID<32>[3]
-
 LAYOUT CFD2D5EF
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
@@ -198,27 +266,6 @@ ExtendedDisplayInfoID<32>
 TextureVariationFileDataID<32>[3]
 PortraitTextureFileDataID<32>
 $noninline,relation$Field_7_3_2_25549_010<8>
-
-BUILD 6.0.1.18179
-$id$ID<32>
-ModelID<32>
-SoundID<32>
-ExtendedDisplayInfoID<32>
-CreatureModelScale
-CreatureModelAlpha<32>
-TextureVariation[3]
-PortraitTextureName
-PortraitCreatureDisplayInfoID<32>
-SizeClass<32>
-BloodID<32>
-NPCSoundID<32>
-ParticleColorID<32>
-CreatureGeosetData<32>
-ObjectEffectPackageID<32>
-AnimReplacementSetID<32>
-Flags<32>
-Gender<32>
-StateSpellVisualKitID<32>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
@@ -276,42 +323,6 @@ CreatureGeosetData<32>
 ObjectEffectPackageID<32>
 AnimReplacementSetID<32>
 Flags<32>
-
-BUILD 4.0.0.11792
-BUILD 4.0.0.11927-4.3.4.15595
-$id$ID<32>
-ModelID<32>
-SoundID<32>
-ExtendedDisplayInfoID<32>
-CreatureModelScale
-CreatureModelAlpha<32>
-TextureVariation[3]
-PortraitTextureName
-SizeClass<32>
-BloodID<32>
-NPCSoundID<32>
-ParticleColorID<32>
-CreatureGeosetData<32>
-ObjectEffectPackageID<32>
-AnimReplacementSetID<32>
-
-BUILD 3.0.8.9328
-BUILD 3.0.2.8885
-BUILD 3.0.1.8820-3.3.5.12340
-$id$ID<32>
-ModelID<32>
-SoundID<32>
-ExtendedDisplayInfoID<32>
-CreatureModelScale
-CreatureModelAlpha<32>
-TextureVariation[3]
-PortraitTextureName
-SizeClass<32>
-BloodID<32>
-NPCSoundID<32>
-ParticleColorID<32>
-CreatureGeosetData<32>
-ObjectEffectPackageID<32>
 
 BUILD 3.0.1.8622-3.0.1.8788
 $id$ID<32>
@@ -387,15 +398,4 @@ CreatureModelScale
 CreatureModelAlpha<32>
 TextureVariation[3]
 SizeClass<32>
-BloodID<32>
-
-BUILD 0.5.3.3368
-BUILD 0.5.3.3368-0.5.5.3494
-$id$ID<32>
-ModelID<32>
-SoundID<32>
-ExtendedDisplayInfoID<32>
-CreatureModelScale
-CreatureModelAlpha<32>
-TextureVariation[3]
 BloodID<32>

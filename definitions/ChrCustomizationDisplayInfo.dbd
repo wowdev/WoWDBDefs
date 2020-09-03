@@ -4,15 +4,15 @@ int<SpellShapeshiftForm::ID> SpellShapeshiftFormID?
 int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
 float Field_9_0_1_34714_003? // Scale maybe? 1.0 except 0.8 for ID 41
 
+LAYOUT F4065FDC
+BUILD 9.0.1.34615
+$id$ID<32>
+SpellShapeshiftFormID<32>
+CreatureDisplayInfoID<32>
+
 LAYOUT BD6510E6
 BUILD 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 $id$ID<32>
 SpellShapeshiftFormID<32>
 CreatureDisplayInfoID<32>
 Field_9_0_1_34714_003
-
-LAYOUT F4065FDC
-BUILD 9.0.1.34615
-$id$ID<32>
-SpellShapeshiftFormID<32>
-CreatureDisplayInfoID<32>

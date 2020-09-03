@@ -17,8 +17,65 @@ float ChrModel_9_0_1_35522_001Override? // moved to ChrClassUIChrModelInfo
 float ChrModel_9_0_1_35522_001Override_Female? // moved to ChrClassUIChrModelInfo
 int Field_9_0_1_35360_014?
 
-LAYOUT F22C193E
-BUILD 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
+LAYOUT CC89E761
+BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
+$noninline,id$ID<32>
+ZoneName_lang
+ChrClassesID<8>
+ZoneImageAtlas<32>
+$noninline,relation$ChrRacesID<8>
+
+LAYOUT 63B891C1
+BUILD 9.0.1.34490
+$noninline,id$ID<32>
+ZoneName_lang
+ChrClassesID<8>
+ZoneImageAtlas<32>
+SpellVisualKitID<32>
+$noninline,relation$ChrRacesID<8>
+
+LAYOUT 1DE3D407
+BUILD 9.0.1.34615, 9.0.1.34714
+$noninline,id$ID<32>
+ZoneName_lang
+ChrClassesID<8>
+ZoneImageAtlas<32>
+SpellVisualKitID<32>
+Field_9_0_1_34615_004<32>
+$noninline,relation$ChrRacesID<8>
+
+LAYOUT DC9F44EE
+BUILD 9.0.1.34821, 9.0.1.34902
+$noninline,id$ID<32>
+ZoneName_lang
+ChrClassesID<8>
+ZoneImageAtlas<32>
+SpellVisualKitID<32>
+Field_9_0_1_34615_004<32>
+SpellVisualKitID_Female<32>
+Field_9_0_1_34615_004_Female<32>
+Field_9_0_1_34821_007<32>
+GroundSpellVisualKitID<32>
+Field_9_0_1_34821_009<32>
+$noninline,relation$ChrRacesID<8>
+
+LAYOUT 6379DBB8
+BUILD 9.0.1.34972, 9.0.1.35078
+$noninline,id$ID<32>
+ZoneName_lang
+ChrClassesID<u8>
+ZoneImageAtlas<32>
+SpellVisualKitID<32>
+Field_9_0_1_34615_004<32>
+SpellVisualKitID_Female<32>
+Field_9_0_1_34615_004_Female<32>
+Field_9_0_1_34821_007<32>
+GroundSpellVisualKitID<32>
+Field_9_0_1_34821_009<32>
+$noninline,relation$ChrRacesID<u8>
+
+LAYOUT 1D45CF3E
+BUILD 9.0.1.35167, 9.0.1.35213
 $noninline,id$ID<32>
 ZoneName_lang
 Field_9_0_1_35167_001[3]
@@ -32,7 +89,25 @@ Field_9_0_1_34821_007<32>
 GroundSpellVisualKitID<32>
 Field_9_0_1_34821_009<32>
 Field_9_0_1_35167_011
-Field_9_0_1_35360_014<32>
+$noninline,relation$ChrRacesID<u8>
+
+LAYOUT E8A3784B
+BUILD 9.0.1.35256, 9.0.1.35282
+$noninline,id$ID<32>
+ZoneName_lang
+Field_9_0_1_35167_001[3]
+ChrModel_9_0_1_35522_001Override[3]
+ChrModel_9_0_1_35522_001Override_Female[3]
+ChrClassesID<u8>
+ZoneImageAtlas<32>
+SpellVisualKitID<32>
+Field_9_0_1_34615_004<32>
+SpellVisualKitID_Female<32>
+Field_9_0_1_34615_004_Female<32>
+Field_9_0_1_34821_007<32>
+GroundSpellVisualKitID<32>
+Field_9_0_1_34821_009<32>
+Field_9_0_1_35167_011
 $noninline,relation$ChrRacesID<u8>
 
 LAYOUT 25F9934B
@@ -55,27 +130,8 @@ Field_9_0_1_35167_011
 Field_9_0_1_35360_014<32>
 $noninline,relation$ChrRacesID<u8>
 
-LAYOUT E8A3784B
-BUILD 9.0.1.35256, 9.0.1.35282
-$noninline,id$ID<32>
-ZoneName_lang
-Field_9_0_1_35167_001[3]
-ChrModel_9_0_1_35522_001Override[3]
-ChrModel_9_0_1_35522_001Override_Female[3]
-ChrClassesID<u8>
-ZoneImageAtlas<32>
-SpellVisualKitID<32>
-Field_9_0_1_34615_004<32>
-SpellVisualKitID_Female<32>
-Field_9_0_1_34615_004_Female<32>
-Field_9_0_1_34821_007<32>
-GroundSpellVisualKitID<32>
-Field_9_0_1_34821_009<32>
-Field_9_0_1_35167_011
-$noninline,relation$ChrRacesID<u8>
-
-LAYOUT 1D45CF3E
-BUILD 9.0.1.35167, 9.0.1.35213
+LAYOUT F22C193E
+BUILD 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707
 $noninline,id$ID<32>
 ZoneName_lang
 Field_9_0_1_35167_001[3]
@@ -89,61 +145,5 @@ Field_9_0_1_34821_007<32>
 GroundSpellVisualKitID<32>
 Field_9_0_1_34821_009<32>
 Field_9_0_1_35167_011
+Field_9_0_1_35360_014<32>
 $noninline,relation$ChrRacesID<u8>
-
-LAYOUT 6379DBB8
-BUILD 9.0.1.34972, 9.0.1.35078
-$noninline,id$ID<32>
-ZoneName_lang
-ChrClassesID<u8>
-ZoneImageAtlas<32>
-SpellVisualKitID<32>
-Field_9_0_1_34615_004<32>
-SpellVisualKitID_Female<32>
-Field_9_0_1_34615_004_Female<32>
-Field_9_0_1_34821_007<32>
-GroundSpellVisualKitID<32>
-Field_9_0_1_34821_009<32>
-$noninline,relation$ChrRacesID<u8>
-
-LAYOUT DC9F44EE
-BUILD 9.0.1.34821, 9.0.1.34902
-$noninline,id$ID<32>
-ZoneName_lang
-ChrClassesID<8>
-ZoneImageAtlas<32>
-SpellVisualKitID<32>
-Field_9_0_1_34615_004<32>
-SpellVisualKitID_Female<32>
-Field_9_0_1_34615_004_Female<32>
-Field_9_0_1_34821_007<32>
-GroundSpellVisualKitID<32>
-Field_9_0_1_34821_009<32>
-$noninline,relation$ChrRacesID<8>
-
-LAYOUT 1DE3D407
-BUILD 9.0.1.34615, 9.0.1.34714
-$noninline,id$ID<32>
-ZoneName_lang
-ChrClassesID<8>
-ZoneImageAtlas<32>
-SpellVisualKitID<32>
-Field_9_0_1_34615_004<32>
-$noninline,relation$ChrRacesID<8>
-
-LAYOUT 63B891C1
-BUILD 9.0.1.34490
-$noninline,id$ID<32>
-ZoneName_lang
-ChrClassesID<8>
-ZoneImageAtlas<32>
-SpellVisualKitID<32>
-$noninline,relation$ChrRacesID<8>
-
-LAYOUT CC89E761
-BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
-$noninline,id$ID<32>
-ZoneName_lang
-ChrClassesID<8>
-ZoneImageAtlas<32>
-$noninline,relation$ChrRacesID<8>
