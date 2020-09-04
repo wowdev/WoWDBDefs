@@ -437,7 +437,7 @@ namespace DBDefsMerge
                     }
                 }
 
-                writer.Save(definitionCopy, Path.Combine(targetDir, entry.Key + ".dbd"));
+                writer.Save(definitionCopy, Path.Combine(targetDir, entry.Key + ".dbd"), true);
             }
             Console.WriteLine("Done, " + numLayoutsAdded + " new layouts added!");
             //Console.ReadLine();

@@ -45,7 +45,7 @@ namespace DBDefsTest
                   if (rewrite)
                   {
                     var writer = new DBDWriter();
-                    writer.Save(definitionCache[dbName], Path.Combine(definitionDir, dbName + ".dbd"));
+                    writer.Save(definitionCache[dbName], Path.Combine(definitionDir, dbName + ".dbd"), true);
                   }
                 }
                 catch (Exception ex)
