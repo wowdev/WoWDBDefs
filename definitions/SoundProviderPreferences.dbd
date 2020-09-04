@@ -26,15 +26,71 @@ float EAX3LFReference
 float EAXEffectVolume
 float EAXDamping
 
+BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.5.5.3494
+$id$ID<32>
+Description
+Flags<32>
+EAXEnvironmentSelection<32>
+EAXEffectVolume
+EAXDecayTime
+EAXDamping
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2Room<32>
+EAX2RoomHF<32>
+EAX2DecayHFRatio
+EAX2Reflections<32>
+EAX2ReflectionsDelay
+EAX2Reverb<32>
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3RoomLF<32>
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference
+
+BUILD 0.6.0.3592
+$id$ID<32>
+Description
+Flags<32>
+EAXEnvironmentSelection<32>
+EAXDecayTime
+EAXDamping
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2Room<32>
+EAX2RoomHF<32>
+EAX2DecayHFRatio
+EAX2Reflections<32>
+EAX2ReflectionsDelay
+EAX2Reverb<32>
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3RoomLF<32>
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference
+
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
-BUILD 0.7.0.3694-0.12.0.3988
-BUILD 1.0.0.3980-1.12.3.6141
-BUILD 2.0.0.5610-2.4.3.8606
-BUILD 3.0.1.8303-3.3.5.12340
-BUILD 4.0.0.11792-4.3.4.15595
-BUILD 5.0.1.15464-5.4.8.18414
 BUILD 6.0.1.18125-6.2.4.21742
+BUILD 5.0.1.15464-5.4.8.18414
+BUILD 4.0.0.11792-4.3.4.15595
+BUILD 3.0.1.8303-3.3.5.12340
+BUILD 2.0.0.5610-2.4.3.8606
+BUILD 1.0.0.3980-1.12.3.6141
+BUILD 0.7.0.3694-0.12.0.3988
 $id$ID<32>
 Description
 Flags<32>
@@ -90,35 +146,6 @@ EAX2Reflections<16>
 EAX2Reverb<16>
 EAXEnvironmentSelection<8>
 EAX3RoomLF<8>
-
-BUILD 0.5.3.3368
-BUILD 0.5.3.3368-0.5.5.3494
-$id$ID<32>
-Description
-Flags<32>
-EAXEnvironmentSelection<32>
-EAXEffectVolume
-EAXDecayTime
-EAXDamping
-EAX2EnvironmentSize
-EAX2EnvironmentDiffusion
-EAX2Room<32>
-EAX2RoomHF<32>
-EAX2DecayHFRatio
-EAX2Reflections<32>
-EAX2ReflectionsDelay
-EAX2Reverb<32>
-EAX2ReverbDelay
-EAX2RoomRolloff
-EAX2AirAbsorption
-EAX3RoomLF<32>
-EAX3DecayLFRatio
-EAX3EchoTime
-EAX3EchoDepth
-EAX3ModulationTime
-EAX3ModulationDepth
-EAX3HFReference
-EAX3LFReference
 
 LAYOUT C15849C6
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -184,30 +211,3 @@ EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
 Flags<u16>
-
-BUILD 0.6.0.3592
-$id$ID<32>
-Description
-Flags<32>
-EAXEnvironmentSelection<32>
-EAXDecayTime
-EAXDamping
-EAX2EnvironmentSize
-EAX2EnvironmentDiffusion
-EAX2Room<32>
-EAX2RoomHF<32>
-EAX2DecayHFRatio
-EAX2Reflections<32>
-EAX2ReflectionsDelay
-EAX2Reverb<32>
-EAX2ReverbDelay
-EAX2RoomRolloff
-EAX2AirAbsorption
-EAX3RoomLF<32>
-EAX3DecayLFRatio
-EAX3EchoTime
-EAX3EchoDepth
-EAX3ModulationTime
-EAX3ModulationDepth
-EAX3HFReference
-EAX3LFReference

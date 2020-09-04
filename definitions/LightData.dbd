@@ -41,6 +41,32 @@ float Field_9_0_1_33978_026?
 int<FileData::ID> DarkerColorGradingFileDataID?
 float Field_9_0_1_33978_039?
 
+BUILD 5.0.1.15464-5.4.8.18414
+$id$ID<32>
+LightParamID<32>
+Time<32>
+DirectColor<32>
+AmbientColor<32>
+SkyTopColor<32>
+SkyMiddleColor<32>
+SkyBand1Color<32>
+SkyBand2Color<32>
+SkySmogColor<32>
+SkyFogColor<32>
+SunColor<32>
+CloudSunColor<32>
+CloudEmissiveColor<32>
+CloudLayer1AmbientColor<32>
+CloudLayer2AmbientColor<32>
+OceanCloseColor<32>
+OceanFarColor<32>
+RiverCloseColor<32>
+RiverFarColor<32>
+ShadowOpacity<32>
+FogEnd
+FogScaler
+CloudDensity
+
 BUILD 6.0.1.18179
 $id$ID<32>
 LightParamID<32>
@@ -67,6 +93,46 @@ FogEnd
 FogScaler
 CloudDensity
 FogDensity
+
+LAYOUT 2D2BA7FA
+BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
+BUILD 1.13.0.28211
+$noninline,id$ID<32>
+DirectColor<32>
+AmbientColor<32>
+SkyTopColor<32>
+SkyMiddleColor<32>
+SkyBand1Color<32>
+SkyBand2Color<32>
+SkySmogColor<32>
+SkyFogColor<32>
+SunColor<32>
+CloudSunColor<32>
+CloudEmissiveColor<32>
+CloudLayer1AmbientColor<32>
+CloudLayer2AmbientColor<32>
+OceanCloseColor<32>
+OceanFarColor<32>
+RiverCloseColor<32>
+RiverFarColor<32>
+ShadowOpacity<32>
+FogEnd
+FogScaler
+CloudDensity
+FogDensity
+FogHeight
+FogHeightScaler
+FogHeightDensity
+SunFogAngle
+EndFogColorDistance
+SunFogColor<u32>
+EndFogColor<u32>
+FogHeightColor<u32>
+ColorGradingFileDataID<u32>
+HorizonAmbientColor<32>
+GroundAmbientColor<32>
+Time<u16>
+$noninline,relation$LightParamID<u16>
 
 LAYOUT 98BC17CE
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -187,46 +253,6 @@ SunFogStrength
 FogHeightColor<u32>
 $relation$LightParamID<u16>
 Time<u16>
-
-LAYOUT 2D2BA7FA
-BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
-BUILD 1.13.0.28211
-$noninline,id$ID<32>
-DirectColor<32>
-AmbientColor<32>
-SkyTopColor<32>
-SkyMiddleColor<32>
-SkyBand1Color<32>
-SkyBand2Color<32>
-SkySmogColor<32>
-SkyFogColor<32>
-SunColor<32>
-CloudSunColor<32>
-CloudEmissiveColor<32>
-CloudLayer1AmbientColor<32>
-CloudLayer2AmbientColor<32>
-OceanCloseColor<32>
-OceanFarColor<32>
-RiverCloseColor<32>
-RiverFarColor<32>
-ShadowOpacity<32>
-FogEnd
-FogScaler
-CloudDensity
-FogDensity
-FogHeight
-FogHeightScaler
-FogHeightDensity
-SunFogAngle
-EndFogColorDistance
-SunFogColor<u32>
-EndFogColor<u32>
-FogHeightColor<u32>
-ColorGradingFileDataID<u32>
-HorizonAmbientColor<32>
-GroundAmbientColor<32>
-Time<u16>
-$noninline,relation$LightParamID<u16>
 
 LAYOUT E7CA3F85
 BUILD 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26903, 8.0.1.26918, 8.0.1.26926, 8.0.1.26936, 8.0.1.26949, 8.0.1.26970, 8.0.1.26999, 8.0.1.27004, 8.0.1.27009, 8.0.1.27019, 8.0.1.27026, 8.0.1.27075, 8.0.1.27089, 8.0.1.27101, 8.0.1.27138, 8.0.1.27144, 8.0.1.27165, 8.0.1.27178, 8.0.1.27219, 8.0.1.27291, 8.0.1.27326, 8.0.1.27353, 8.0.1.27355, 8.0.1.27356, 8.0.1.27366, 8.0.1.27377, 8.0.1.27404, 8.0.1.27481, 8.0.1.27547, 8.0.1.27602, 8.0.1.27791, 8.0.1.27843, 8.0.1.27980, 8.0.1.28153
@@ -401,29 +427,3 @@ SunFogStrength
 FogHeightColor<u32>
 FogHeightCoefficients[4]
 Field_9_0_1_33978_039[4]
-
-BUILD 5.0.1.15464-5.4.8.18414
-$id$ID<32>
-LightParamID<32>
-Time<32>
-DirectColor<32>
-AmbientColor<32>
-SkyTopColor<32>
-SkyMiddleColor<32>
-SkyBand1Color<32>
-SkyBand2Color<32>
-SkySmogColor<32>
-SkyFogColor<32>
-SunColor<32>
-CloudSunColor<32>
-CloudEmissiveColor<32>
-CloudLayer1AmbientColor<32>
-CloudLayer2AmbientColor<32>
-OceanCloseColor<32>
-OceanFarColor<32>
-RiverCloseColor<32>
-RiverFarColor<32>
-ShadowOpacity<32>
-FogEnd
-FogScaler
-CloudDensity

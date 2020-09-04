@@ -27,6 +27,56 @@ int Field_5_0_1_15650_003?
 int Field_5_0_1_15650_004?
 int Field_5_4_0_17266_002?
 
+BUILD 5.0.1.15589
+$id$ID<32>
+AlwaysItem<32>[3]
+Field_5_0_1_15589_002<32>
+Field_5_0_1_15589_003<32>
+Field_5_0_1_15589_004<32>
+DisplayID<32>[4]
+DisplayProbability[4]
+Field_5_0_1_15464_009<32>
+Name_lang
+StartAnimState<32>
+
+BUILD 5.0.1.15640
+BUILD 5.0.1.15464-5.0.1.15544
+$id$ID<32>
+Field_5_0_1_15464_001<32>
+Field_5_0_1_15464_002<32>
+AlwaysItem<32>[3]
+Field_5_0_1_15464_004<32>
+Field_5_0_1_15464_005<32>
+Field_5_0_1_15464_006<32>
+DisplayID<32>[4]
+DisplayProbability[4]
+Field_5_0_1_15464_009<32>
+Name_lang
+StartAnimState<32>
+
+BUILD 5.0.1.15650-5.3.0.17116
+$id$ID<32>
+AlwaysItem<32>[3]
+Field_5_0_1_15650_002<32>
+Field_5_0_1_15650_003<32>
+Field_5_0_1_15650_004<32>
+DisplayID<32>[4]
+DisplayProbability[4]
+Name_lang
+StartAnimState<32>
+
+BUILD 5.4.0.17266-5.4.8.18414
+$id$ID<32>
+AlwaysItem<32>[3]
+Field_5_4_0_17266_002<32>
+DisplayID<32>[4]
+DisplayProbability[4]
+Title_lang
+TitleAlt_lang
+CreatureFamily<32>
+Classification<32>
+StartAnimState<32>
+
 BUILD 6.0.1.18179
 $id$ID<32>
 CreatureType<32>
@@ -132,53 +182,3 @@ StartAnimState<u8>
 DisplayID<32>[4]
 DisplayProbability[4]
 AlwaysItem<32>[3]
-
-BUILD 5.4.0.17266-5.4.8.18414
-$id$ID<32>
-AlwaysItem<32>[3]
-Field_5_4_0_17266_002<32>
-DisplayID<32>[4]
-DisplayProbability[4]
-Title_lang
-TitleAlt_lang
-CreatureFamily<32>
-Classification<32>
-StartAnimState<32>
-
-BUILD 5.0.1.15650-5.3.0.17116
-$id$ID<32>
-AlwaysItem<32>[3]
-Field_5_0_1_15650_002<32>
-Field_5_0_1_15650_003<32>
-Field_5_0_1_15650_004<32>
-DisplayID<32>[4]
-DisplayProbability[4]
-Name_lang
-StartAnimState<32>
-
-BUILD 5.0.1.15589
-$id$ID<32>
-AlwaysItem<32>[3]
-Field_5_0_1_15589_002<32>
-Field_5_0_1_15589_003<32>
-Field_5_0_1_15589_004<32>
-DisplayID<32>[4]
-DisplayProbability[4]
-Field_5_0_1_15464_009<32>
-Name_lang
-StartAnimState<32>
-
-BUILD 5.0.1.15640
-BUILD 5.0.1.15464-5.0.1.15544
-$id$ID<32>
-Field_5_0_1_15464_001<32>
-Field_5_0_1_15464_002<32>
-AlwaysItem<32>[3]
-Field_5_0_1_15464_004<32>
-Field_5_0_1_15464_005<32>
-Field_5_0_1_15464_006<32>
-DisplayID<32>[4]
-DisplayProbability[4]
-Field_5_0_1_15464_009<32>
-Name_lang
-StartAnimState<32>

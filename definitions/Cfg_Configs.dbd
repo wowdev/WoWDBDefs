@@ -7,6 +7,43 @@ int PlayerAttackSpeedBase
 float MaxDamageReductionPctPhysical
 int GeneratedID
 
+BUILD 0.10.0.3892-0.11.0.3925
+$id$ID<32>
+RealmType<32>
+PlayerKillingAllowed<32>
+
+BUILD 0.12.0.3988
+BUILD 3.0.1.8303-3.3.5.12340
+BUILD 2.0.0.5610-2.4.3.8606
+BUILD 1.0.0.3980-1.12.3.6141
+$id$ID<32>
+RealmType<32>
+PlayerKillingAllowed<32>
+Roleplaying<32>
+
+BUILD 4.0.0.11792
+$id$GeneratedID<32>
+ID<32>
+RealmType<32>
+PlayerKillingAllowed<32>
+Roleplaying<32>
+
+BUILD 5.0.1.15464-5.0.1.15589
+BUILD 4.0.0.11927-4.3.4.15595
+$id$ID<32>
+RealmType<32>
+PlayerKillingAllowed<32>
+Roleplaying<32>
+PlayerAttackSpeedBase<32>
+
+BUILD 5.0.1.15640-5.4.8.18414
+$id$ID<32>
+RealmType<32>
+PlayerKillingAllowed<32>
+Roleplaying<32>
+PlayerAttackSpeedBase<32>
+MaxDamageReductionPctPhysical
+
 BUILD 6.0.1.18179
 $id$GeneratedID<32>
 ID<32>
@@ -28,22 +65,6 @@ PlayerAttackSpeedBase<u16>
 PlayerKillingAllowed<u8>
 Roleplaying<u8>
 
-BUILD 4.0.0.11792
-$id$GeneratedID<32>
-ID<32>
-RealmType<32>
-PlayerKillingAllowed<32>
-Roleplaying<32>
-
-BUILD 0.12.0.3988
-BUILD 1.0.0.3980-1.12.3.6141
-BUILD 2.0.0.5610-2.4.3.8606
-BUILD 3.0.1.8303-3.3.5.12340
-$id$ID<32>
-RealmType<32>
-PlayerKillingAllowed<32>
-Roleplaying<32>
-
 LAYOUT A275539B, CB5833EB
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662
@@ -62,24 +83,3 @@ PlayerKillingAllowed<u8>
 Roleplaying<u8>
 PlayerAttackSpeedBase<u16>
 MaxDamageReductionPctPhysical
-
-BUILD 5.0.1.15640-5.4.8.18414
-$id$ID<32>
-RealmType<32>
-PlayerKillingAllowed<32>
-Roleplaying<32>
-PlayerAttackSpeedBase<32>
-MaxDamageReductionPctPhysical
-
-BUILD 4.0.0.11927-4.3.4.15595
-BUILD 5.0.1.15464-5.0.1.15589
-$id$ID<32>
-RealmType<32>
-PlayerKillingAllowed<32>
-Roleplaying<32>
-PlayerAttackSpeedBase<32>
-
-BUILD 0.10.0.3892-0.11.0.3925
-$id$ID<32>
-RealmType<32>
-PlayerKillingAllowed<32>

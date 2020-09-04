@@ -8,9 +8,13 @@ int Min_level
 int Max_level
 int Map_ID
 
+BUILD 4.0.0.12164-4.0.0.12319
+$id$ID<32>
+Area_ID<32>
+
 BUILD 6.0.1.18179
-BUILD 4.0.0.12911-4.3.4.15595
 BUILD 5.0.1.15464-5.4.8.18414
+BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
 Area_ID<32>
 Next_time_worldstate<32>
@@ -55,7 +59,3 @@ Battle_populate_time<u16>
 Min_level<u8>
 Max_level<u8>
 Map_ID<16>
-
-BUILD 4.0.0.12164-4.0.0.12319
-$id$ID<32>
-Area_ID<32>

@@ -17,6 +17,38 @@ int CustomDisplayOption
 int DisplayClassID
 string BakeName
 
+BUILD 0.5.3.3368
+BUILD 2.0.0.5610-2.0.0.5991
+BUILD 1.0.0.3980-1.12.3.6141
+BUILD 0.5.3.3368-0.12.0.3988
+$id$ID<32>
+DisplayRaceID<32>
+DisplaySexID<32>
+SkinID<32>
+FaceID<32>
+HairStyleID<32>
+HairColorID<32>
+FacialHairID<32>
+NPCItemDisplay<32>[10]
+BakeName
+
+BUILD 4.0.0.11792
+BUILD 5.0.1.15464-5.4.8.18273
+BUILD 4.0.0.11792-4.3.4.15595
+BUILD 3.0.1.8303-3.3.5.12340
+BUILD 2.0.0.6080-2.4.3.8606
+$id$ID<32>
+DisplayRaceID<32>
+DisplaySexID<32>
+SkinID<32>
+FaceID<32>
+HairStyleID<32>
+HairColorID<32>
+FacialHairID<32>
+NPCItemDisplay<32>[11]
+Flags<32>
+BakeName
+
 BUILD 6.0.1.18179
 $id$ID<32>
 DisplayRaceID<32>
@@ -50,38 +82,6 @@ HairColorID<8>
 FacialHairID<8>
 CustomDisplayOption<u8>[3]
 Flags<8>
-
-BUILD 4.0.0.11792
-BUILD 2.0.0.6080-2.4.3.8606
-BUILD 3.0.1.8303-3.3.5.12340
-BUILD 4.0.0.11792-4.3.4.15595
-BUILD 5.0.1.15464-5.4.8.18273
-$id$ID<32>
-DisplayRaceID<32>
-DisplaySexID<32>
-SkinID<32>
-FaceID<32>
-HairStyleID<32>
-HairColorID<32>
-FacialHairID<32>
-NPCItemDisplay<32>[11]
-Flags<32>
-BakeName
-
-BUILD 0.5.3.3368
-BUILD 0.5.3.3368-0.12.0.3988
-BUILD 1.0.0.3980-1.12.3.6141
-BUILD 2.0.0.5610-2.0.0.5991
-$id$ID<32>
-DisplayRaceID<32>
-DisplaySexID<32>
-SkinID<32>
-FaceID<32>
-HairStyleID<32>
-HairColorID<32>
-FacialHairID<32>
-NPCItemDisplay<32>[10]
-BakeName
 
 LAYOUT 89E31B13, C4CF4823
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482

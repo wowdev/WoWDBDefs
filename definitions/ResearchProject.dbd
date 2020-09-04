@@ -11,10 +11,20 @@ int RequiredWeight
 int<FileData::ID> TextureFileID
 string Field_7_3_0_24473_003?
 
+BUILD 4.0.0.12319
+$id$ID<32>
+Name_lang
+Description_lang
+Rarity<32>
+ResearchBranchID<32>
+SpellID<32>
+NumSockets<32>
+Texture
+
 BUILD 6.0.1.18179
-BUILD 4.0.0.12539-4.3.4.15595
-BUILD 5.0.1.15464-5.4.8.18414
 BUILD 6.0.1.18125-6.2.0.20338
+BUILD 5.0.1.15464-5.4.8.18414
+BUILD 4.0.0.12539-4.3.4.15595
 $id$ID<32>
 Name_lang
 Description_lang
@@ -24,6 +34,18 @@ SpellID<32>
 NumSockets<32>
 Texture
 RequiredWeight<32>
+
+LAYOUT FBF7CC48
+BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500
+Name_lang
+Description_lang
+SpellID<32>
+Field_7_3_0_24473_003
+ResearchBranchID<u16>
+Rarity<u8>
+NumSockets<u8>
+$id$ID<32>
+RequiredWeight<u32>
 
 LAYOUT B1CAB80B, 04761ACF
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -63,25 +85,3 @@ ResearchBranchID<u16>
 NumSockets<u8>
 TextureFileID<32>
 RequiredWeight<u32>
-
-LAYOUT FBF7CC48
-BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500
-Name_lang
-Description_lang
-SpellID<32>
-Field_7_3_0_24473_003
-ResearchBranchID<u16>
-Rarity<u8>
-NumSockets<u8>
-$id$ID<32>
-RequiredWeight<u32>
-
-BUILD 4.0.0.12319
-$id$ID<32>
-Name_lang
-Description_lang
-Rarity<32>
-ResearchBranchID<32>
-SpellID<32>
-NumSockets<32>
-Texture

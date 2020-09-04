@@ -7,9 +7,33 @@ int<BattlePetVisual::ID> BattlePetVisualID
 int OrderIndex
 int Param
 
+BUILD 5.0.1.15508
+$id$ID<32>
+BattlePetAbilityTurnID<32>
+BattlePetVisualID<32>
+Param<32>[3]
+AuraBattlePetAbilityID<32>
+
+BUILD 5.0.1.15544-5.0.1.15589
+$id$ID<32>
+BattlePetAbilityTurnID<32>
+BattlePetVisualID<32>
+Param<32>[3]
+AuraBattlePetAbilityID<32>
+OrderIndex<32>
+
+BUILD 5.0.1.15640-5.0.1.15799
+$id$ID<32>
+BattlePetAbilityTurnID<32>
+BattlePetVisualID<32>
+Param<32>[3]
+AuraBattlePetAbilityID<32>
+BattlePetEffectPropertiesID<32>
+OrderIndex<32>
+
 BUILD 6.0.1.18179
-BUILD 5.0.2.15827-5.4.8.18414
 BUILD 6.0.1.18125-6.2.4.21742
+BUILD 5.0.2.15827-5.4.8.18414
 $id$ID<32>
 BattlePetAbilityTurnID<32>
 BattlePetVisualID<32>
@@ -62,27 +86,3 @@ BattlePetEffectPropertiesID<u16>
 AuraBattlePetAbilityID<u16>
 BattlePetVisualID<u16>
 Param<16>[6]
-
-BUILD 5.0.1.15640-5.0.1.15799
-$id$ID<32>
-BattlePetAbilityTurnID<32>
-BattlePetVisualID<32>
-Param<32>[3]
-AuraBattlePetAbilityID<32>
-BattlePetEffectPropertiesID<32>
-OrderIndex<32>
-
-BUILD 5.0.1.15544-5.0.1.15589
-$id$ID<32>
-BattlePetAbilityTurnID<32>
-BattlePetVisualID<32>
-Param<32>[3]
-AuraBattlePetAbilityID<32>
-OrderIndex<32>
-
-BUILD 5.0.1.15508
-$id$ID<32>
-BattlePetAbilityTurnID<32>
-BattlePetVisualID<32>
-Param<32>[3]
-AuraBattlePetAbilityID<32>

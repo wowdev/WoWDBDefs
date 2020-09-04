@@ -41,11 +41,161 @@ int WindupCriticalSoundID
 int WindupSoundID
 
 
+BUILD 2.0.0.5991
+BUILD 0.5.3.3368
+BUILD 1.0.0.3980-1.10.2.5302
+BUILD 0.5.3.3368-0.12.0.3988
+$id$ID<32>
+SoundExertionID<32>
+SoundExertionCriticalID<32>
+SoundInjuryID<32>
+SoundInjuryCriticalID<32>
+SoundInjuryCrushingBlowID<32>
+SoundDeathID<32>
+SoundStunID<32>
+SoundStandID<32>
+SoundFootstepID<32>
+SoundAggroID<32>
+SoundWingFlapID<32>
+SoundWingGlideID<32>
+SoundAlertID<32>
+SoundFidget<32>[4]
+CustomAttack<32>[4]
+NPCSoundID<32>
+LoopSoundID<32>
+CreatureImpactType<32>
+SoundJumpStartID<32>
+SoundJumpEndID<32>
+
+BUILD 2.0.0.6022-2.0.0.6080
+BUILD 2.0.0.5610-2.0.0.5965
+BUILD 1.11.0.5344-1.12.3.6141
+$id$ID<32>
+SoundExertionID<32>
+SoundExertionCriticalID<32>
+SoundInjuryID<32>
+SoundInjuryCriticalID<32>
+SoundInjuryCrushingBlowID<32>
+SoundDeathID<32>
+SoundStunID<32>
+SoundStandID<32>
+SoundFootstepID<32>
+SoundAggroID<32>
+SoundWingFlapID<32>
+SoundWingGlideID<32>
+SoundAlertID<32>
+SoundFidget<32>[4]
+CustomAttack<32>[4]
+NPCSoundID<32>
+LoopSoundID<32>
+CreatureImpactType<32>
+SoundJumpStartID<32>
+SoundJumpEndID<32>
+SoundPetAttackID<32>
+SoundPetOrderID<32>
+SoundPetDismissID<32>
+
+BUILD 2.0.3.6299-2.0.6.6337
+$id$ID<32>
+SoundExertionID<32>
+SoundExertionCriticalID<32>
+SoundInjuryID<32>
+SoundInjuryCriticalID<32>
+SoundInjuryCrushingBlowID<32>
+SoundDeathID<32>
+SoundStunID<32>
+SoundStandID<32>
+SoundFootstepID<32>
+SoundAggroID<32>
+SoundWingFlapID<32>
+SoundWingGlideID<32>
+SoundAlertID<32>
+SoundFidget<32>[5]
+CustomAttack<32>[4]
+NPCSoundID<32>
+LoopSoundID<32>
+CreatureImpactType<32>
+SoundJumpStartID<32>
+SoundJumpEndID<32>
+SoundPetAttackID<32>
+SoundPetOrderID<32>
+SoundPetDismissID<32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
+
+BUILD 3.0.8.9328
+BUILD 3.0.2.8885
+BUILD 3.0.1.8303-3.0.9.9551
+BUILD 2.1.0.6692-2.4.3.8606
+$id$ID<32>
+SoundExertionID<32>
+SoundExertionCriticalID<32>
+SoundInjuryID<32>
+SoundInjuryCriticalID<32>
+SoundInjuryCrushingBlowID<32>
+SoundDeathID<32>
+SoundStunID<32>
+SoundStandID<32>
+SoundFootstepID<32>
+SoundAggroID<32>
+SoundWingFlapID<32>
+SoundWingGlideID<32>
+SoundAlertID<32>
+SoundFidget<32>[5]
+CustomAttack<32>[4]
+NPCSoundID<32>
+LoopSoundID<32>
+CreatureImpactType<32>
+SoundJumpStartID<32>
+SoundJumpEndID<32>
+SoundPetAttackID<32>
+SoundPetOrderID<32>
+SoundPetDismissID<32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
+BirthSoundID<32>
+SpellCastDirectedSoundID<32>
+SubmergeSoundID<32>
+SubmergedSoundID<32>
+
+BUILD 3.1.0.9767-3.3.5.12340
+$id$ID<32>
+SoundExertionID<32>
+SoundExertionCriticalID<32>
+SoundInjuryID<32>
+SoundInjuryCriticalID<32>
+SoundInjuryCrushingBlowID<32>
+SoundDeathID<32>
+SoundStunID<32>
+SoundStandID<32>
+SoundFootstepID<32>
+SoundAggroID<32>
+SoundWingFlapID<32>
+SoundWingGlideID<32>
+SoundAlertID<32>
+SoundFidget<32>[5]
+CustomAttack<32>[4]
+NPCSoundID<32>
+LoopSoundID<32>
+CreatureImpactType<32>
+SoundJumpStartID<32>
+SoundJumpEndID<32>
+SoundPetAttackID<32>
+SoundPetOrderID<32>
+SoundPetDismissID<32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
+BirthSoundID<32>
+SpellCastDirectedSoundID<32>
+SubmergeSoundID<32>
+SubmergedSoundID<32>
+CreatureSoundDataIDPet<32>
+
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
-BUILD 4.0.0.11927-4.3.4.15595
-BUILD 5.0.1.15464-5.4.8.18414
 BUILD 6.0.1.18125-6.2.4.21742
+BUILD 5.0.1.15464-5.4.8.18414
+BUILD 4.0.0.11927-4.3.4.15595
 $id$ID<32>
 SoundExertionID<32>
 SoundExertionCriticalID<32>
@@ -79,6 +229,48 @@ SubmergedSoundID<32>
 CreatureSoundDataIDPet<32>
 TransformSoundID<32>
 TransformAnimatedSoundID<32>
+
+LAYOUT DC142D11
+BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
+BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
+$noninline,id$ID<32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
+CreatureImpactType<u8>
+SoundExertionID<u32>
+SoundExertionCriticalID<u32>
+SoundInjuryID<u32>
+SoundInjuryCriticalID<u32>
+SoundInjuryCrushingBlowID<u32>
+SoundDeathID<u32>
+SoundStunID<u32>
+SoundStandID<u32>
+SoundFootstepID<u32>
+SoundAggroID<u32>
+SoundWingFlapID<u32>
+SoundWingGlideID<u32>
+SoundAlertID<u32>
+SoundFidget<u32>[5]
+CustomAttack<u32>[4]
+NPCSoundID<u32>
+LoopSoundID<u32>
+SoundJumpStartID<u32>
+SoundJumpEndID<u32>
+SoundPetAttackID<u32>
+SoundPetOrderID<u32>
+SoundPetDismissID<u32>
+BirthSoundID<u32>
+SpellCastDirectedSoundID<u32>
+SubmergeSoundID<u32>
+SubmergedSoundID<u32>
+CreatureSoundDataIDPet<u32>
+WindupSoundID<u32>
+WindupCriticalSoundID<u32>
+ChargeSoundID<u32>
+ChargeCriticalSoundID<u32>
+BattleShoutSoundID<u32>
+BattleShoutCriticalSoundID<u32>
+TauntSoundID<u32>
 
 LAYOUT 7C3C39B9
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -122,67 +314,6 @@ BattleShoutCriticalSoundID<u32>
 TauntSoundID<u32>
 SoundFidget<u32>[5]
 CustomAttack<u32>[4]
-
-BUILD 3.0.8.9328
-BUILD 3.0.2.8885
-BUILD 2.1.0.6692-2.4.3.8606
-BUILD 3.0.1.8303-3.0.9.9551
-$id$ID<32>
-SoundExertionID<32>
-SoundExertionCriticalID<32>
-SoundInjuryID<32>
-SoundInjuryCriticalID<32>
-SoundInjuryCrushingBlowID<32>
-SoundDeathID<32>
-SoundStunID<32>
-SoundStandID<32>
-SoundFootstepID<32>
-SoundAggroID<32>
-SoundWingFlapID<32>
-SoundWingGlideID<32>
-SoundAlertID<32>
-SoundFidget<32>[5]
-CustomAttack<32>[4]
-NPCSoundID<32>
-LoopSoundID<32>
-CreatureImpactType<32>
-SoundJumpStartID<32>
-SoundJumpEndID<32>
-SoundPetAttackID<32>
-SoundPetOrderID<32>
-SoundPetDismissID<32>
-FidgetDelaySecondsMin
-FidgetDelaySecondsMax
-BirthSoundID<32>
-SpellCastDirectedSoundID<32>
-SubmergeSoundID<32>
-SubmergedSoundID<32>
-
-BUILD 2.0.0.5991
-BUILD 0.5.3.3368
-BUILD 0.5.3.3368-0.12.0.3988
-BUILD 1.0.0.3980-1.10.2.5302
-$id$ID<32>
-SoundExertionID<32>
-SoundExertionCriticalID<32>
-SoundInjuryID<32>
-SoundInjuryCriticalID<32>
-SoundInjuryCrushingBlowID<32>
-SoundDeathID<32>
-SoundStunID<32>
-SoundStandID<32>
-SoundFootstepID<32>
-SoundAggroID<32>
-SoundWingFlapID<32>
-SoundWingGlideID<32>
-SoundAlertID<32>
-SoundFidget<32>[4]
-CustomAttack<32>[4]
-NPCSoundID<32>
-LoopSoundID<32>
-CreatureImpactType<32>
-SoundJumpStartID<32>
-SoundJumpEndID<32>
 
 LAYOUT 50BCD365
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -276,134 +407,3 @@ CreatureImpactType<u8>
 NPCSoundID<u32>
 SoundFidget<u32>[5]
 CustomAttack<u32>[4]
-
-BUILD 3.1.0.9767-3.3.5.12340
-$id$ID<32>
-SoundExertionID<32>
-SoundExertionCriticalID<32>
-SoundInjuryID<32>
-SoundInjuryCriticalID<32>
-SoundInjuryCrushingBlowID<32>
-SoundDeathID<32>
-SoundStunID<32>
-SoundStandID<32>
-SoundFootstepID<32>
-SoundAggroID<32>
-SoundWingFlapID<32>
-SoundWingGlideID<32>
-SoundAlertID<32>
-SoundFidget<32>[5]
-CustomAttack<32>[4]
-NPCSoundID<32>
-LoopSoundID<32>
-CreatureImpactType<32>
-SoundJumpStartID<32>
-SoundJumpEndID<32>
-SoundPetAttackID<32>
-SoundPetOrderID<32>
-SoundPetDismissID<32>
-FidgetDelaySecondsMin
-FidgetDelaySecondsMax
-BirthSoundID<32>
-SpellCastDirectedSoundID<32>
-SubmergeSoundID<32>
-SubmergedSoundID<32>
-CreatureSoundDataIDPet<32>
-
-BUILD 2.0.3.6299-2.0.6.6337
-$id$ID<32>
-SoundExertionID<32>
-SoundExertionCriticalID<32>
-SoundInjuryID<32>
-SoundInjuryCriticalID<32>
-SoundInjuryCrushingBlowID<32>
-SoundDeathID<32>
-SoundStunID<32>
-SoundStandID<32>
-SoundFootstepID<32>
-SoundAggroID<32>
-SoundWingFlapID<32>
-SoundWingGlideID<32>
-SoundAlertID<32>
-SoundFidget<32>[5]
-CustomAttack<32>[4]
-NPCSoundID<32>
-LoopSoundID<32>
-CreatureImpactType<32>
-SoundJumpStartID<32>
-SoundJumpEndID<32>
-SoundPetAttackID<32>
-SoundPetOrderID<32>
-SoundPetDismissID<32>
-FidgetDelaySecondsMin
-FidgetDelaySecondsMax
-
-BUILD 1.11.0.5344-1.12.3.6141
-BUILD 2.0.0.5610-2.0.0.5965
-BUILD 2.0.0.6022-2.0.0.6080
-$id$ID<32>
-SoundExertionID<32>
-SoundExertionCriticalID<32>
-SoundInjuryID<32>
-SoundInjuryCriticalID<32>
-SoundInjuryCrushingBlowID<32>
-SoundDeathID<32>
-SoundStunID<32>
-SoundStandID<32>
-SoundFootstepID<32>
-SoundAggroID<32>
-SoundWingFlapID<32>
-SoundWingGlideID<32>
-SoundAlertID<32>
-SoundFidget<32>[4]
-CustomAttack<32>[4]
-NPCSoundID<32>
-LoopSoundID<32>
-CreatureImpactType<32>
-SoundJumpStartID<32>
-SoundJumpEndID<32>
-SoundPetAttackID<32>
-SoundPetOrderID<32>
-SoundPetDismissID<32>
-
-LAYOUT DC142D11
-BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
-BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
-$noninline,id$ID<32>
-FidgetDelaySecondsMin
-FidgetDelaySecondsMax
-CreatureImpactType<u8>
-SoundExertionID<u32>
-SoundExertionCriticalID<u32>
-SoundInjuryID<u32>
-SoundInjuryCriticalID<u32>
-SoundInjuryCrushingBlowID<u32>
-SoundDeathID<u32>
-SoundStunID<u32>
-SoundStandID<u32>
-SoundFootstepID<u32>
-SoundAggroID<u32>
-SoundWingFlapID<u32>
-SoundWingGlideID<u32>
-SoundAlertID<u32>
-SoundFidget<u32>[5]
-CustomAttack<u32>[4]
-NPCSoundID<u32>
-LoopSoundID<u32>
-SoundJumpStartID<u32>
-SoundJumpEndID<u32>
-SoundPetAttackID<u32>
-SoundPetOrderID<u32>
-SoundPetDismissID<u32>
-BirthSoundID<u32>
-SpellCastDirectedSoundID<u32>
-SubmergeSoundID<u32>
-SubmergedSoundID<u32>
-CreatureSoundDataIDPet<u32>
-WindupSoundID<u32>
-WindupCriticalSoundID<u32>
-ChargeSoundID<u32>
-ChargeCriticalSoundID<u32>
-BattleShoutSoundID<u32>
-BattleShoutCriticalSoundID<u32>
-TauntSoundID<u32>

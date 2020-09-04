@@ -16,6 +16,95 @@ int<FriendshipReputation::ID> FriendshipRepID
 int<Faction::ID> ParagonFactionID
 int ReputationMax
 
+BUILD 0.5.3.3368
+BUILD 0.5.3.3368-0.9.1.3810
+$id$ID<32>
+ReputationIndex<32>
+ReputationRaceMask<32>[4]
+ReputationClassMask<32>[4]
+ReputationBase<32>[4]
+Name_lang
+
+BUILD 1.0.0.3980-1.1.2.4125
+BUILD 0.10.0.3892-0.12.0.3988
+$id$ID<32>
+ReputationIndex<32>
+ReputationRaceMask<32>[4]
+ReputationClassMask<32>[4]
+ReputationBase<32>[4]
+ParentFactionID<32>
+Name_lang
+
+BUILD 1.2.0.4147-1.3.0.4284
+$id$ID<32>
+ReputationIndex<32>
+ReputationRaceMask<32>[4]
+ReputationClassMask<32>[4]
+ReputationBase<32>[4]
+ReputationFlags<32>[4]
+ParentFactionID<32>
+Description_lang
+
+BUILD 3.0.8.9328
+BUILD 3.0.2.8885
+BUILD 3.0.1.8303
+BUILD 3.0.1.8303-3.2.2.10505
+BUILD 2.0.0.5610-2.4.3.8606
+BUILD 1.4.0.4341-1.12.3.6141
+$id$ID<32>
+ReputationIndex<32>
+ReputationRaceMask<32>[4]
+ReputationClassMask<32>[4]
+ReputationBase<32>[4]
+ReputationFlags<32>[4]
+ParentFactionID<32>
+Name_lang
+Description_lang
+
+BUILD 4.0.0.11792
+BUILD 3.3.0.10958-3.3.5.12340
+$id$ID<32>
+ReputationIndex<32>
+ReputationRaceMask<32>[4]
+ReputationClassMask<32>[4]
+ReputationBase<32>[4]
+ReputationFlags<32>[4]
+ParentFactionID<32>
+ParentFactionMod[2]
+ParentFactionCap<32>[2]
+Name_lang
+Description_lang
+
+BUILD 5.0.1.15464-5.1.0.16357
+BUILD 4.0.0.11927-4.3.4.15595
+$id$ID<32>
+ReputationIndex<32>
+ReputationRaceMask<32>[4]
+ReputationClassMask<32>[4]
+ReputationBase<32>[4]
+ReputationFlags<32>[4]
+ParentFactionID<32>
+ParentFactionMod[2]
+ParentFactionCap<32>[2]
+Name_lang
+Description_lang
+Expansion<32>
+
+BUILD 5.2.0.16516-5.3.0.17116
+$id$ID<32>
+ReputationIndex<32>
+ReputationRaceMask<32>[4]
+ReputationClassMask<32>[4]
+ReputationBase<32>[4]
+ReputationFlags<32>[4]
+ParentFactionID<32>
+ParentFactionMod[2]
+ParentFactionCap<32>[2]
+Name_lang
+Description_lang
+Expansion<32>
+Flags<32>
+
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
@@ -33,75 +122,37 @@ Expansion<32>
 Flags<32>
 FriendshipRepID<32>
 
-LAYOUT C0CBCBC8
-BUILD 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
-ReputationRaceMask<64>[4]
-Name_lang
-Description_lang
+LAYOUT B9B47D44
+BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715
 $id$ID<32>
+ReputationRaceMask<u32>[4]
 ReputationBase<32>[4]
 ParentFactionMod[2]
+Name_lang
+Description_lang
 ReputationMax<32>[4]
 ReputationIndex<16>
-ReputationClassMask<16>[4]
+ReputationClassMask<u16>[4]
 ReputationFlags<u16>[4]
 ParentFactionID<u16>
 ParagonFactionID<u16>
 ParentFactionCap<u8>[2]
 Expansion<u8>
-Flags<u8>
 FriendshipRepID<u8>
+Flags<u8>
 
-BUILD 4.0.0.11792
-BUILD 3.3.0.10958-3.3.5.12340
+LAYOUT 4208D7B7
+BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
+BUILD 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
 $id$ID<32>
-ReputationIndex<32>
 ReputationRaceMask<32>[4]
-ReputationClassMask<32>[4]
 ReputationBase<32>[4]
-ReputationFlags<32>[4]
-ParentFactionID<32>
 ParentFactionMod[2]
-ParentFactionCap<32>[2]
 Name_lang
 Description_lang
-
-BUILD 3.0.8.9328
-BUILD 3.0.2.8885
-BUILD 3.0.1.8303
-BUILD 1.4.0.4341-1.12.3.6141
-BUILD 2.0.0.5610-2.4.3.8606
-BUILD 3.0.1.8303-3.2.2.10505
-$id$ID<32>
-ReputationIndex<32>
-ReputationRaceMask<32>[4]
-ReputationClassMask<32>[4]
-ReputationBase<32>[4]
-ReputationFlags<32>[4]
-ParentFactionID<32>
-Name_lang
-Description_lang
-
-BUILD 0.5.3.3368
-BUILD 0.5.3.3368-0.9.1.3810
-$id$ID<32>
-ReputationIndex<32>
-ReputationRaceMask<32>[4]
-ReputationClassMask<32>[4]
-ReputationBase<32>[4]
-Name_lang
-
-LAYOUT 7D7A0425
-BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
-ReputationRaceMask<64>[4]
-Name_lang
-Description_lang
-$id$ID<32>
-ReputationBase<32>[4]
 ReputationMax<32>[4]
-ParentFactionMod[2]
 ReputationIndex<16>
-ReputationClassMask<16>[4]
+ReputationClassMask<u16>[4]
 ReputationFlags<u16>[4]
 ParentFactionID<u16>
 ParagonFactionID<u16>
@@ -123,6 +174,44 @@ ParentFactionMod[2]
 ReputationMax<32>[4]
 ReputationIndex<16>
 ReputationClassMask<u16>[4]
+ReputationFlags<u16>[4]
+ParentFactionID<u16>
+ParagonFactionID<u16>
+ParentFactionCap<u8>[2]
+Expansion<u8>
+FriendshipRepID<u8>
+Flags<u8>
+
+LAYOUT C0CBCBC8
+BUILD 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
+ReputationRaceMask<64>[4]
+Name_lang
+Description_lang
+$id$ID<32>
+ReputationBase<32>[4]
+ParentFactionMod[2]
+ReputationMax<32>[4]
+ReputationIndex<16>
+ReputationClassMask<16>[4]
+ReputationFlags<u16>[4]
+ParentFactionID<u16>
+ParagonFactionID<u16>
+ParentFactionCap<u8>[2]
+Expansion<u8>
+Flags<u8>
+FriendshipRepID<u8>
+
+LAYOUT 7D7A0425
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
+ReputationRaceMask<64>[4]
+Name_lang
+Description_lang
+$id$ID<32>
+ReputationBase<32>[4]
+ReputationMax<32>[4]
+ParentFactionMod[2]
+ReputationIndex<16>
+ReputationClassMask<16>[4]
 ReputationFlags<u16>[4]
 ParentFactionID<u16>
 ParagonFactionID<u16>
@@ -178,92 +267,3 @@ ReputationBase<32>[4]
 ReputationMax<32>[4]
 ParentFactionMod[2]
 ParentFactionCap<u8>[2]
-
-LAYOUT 4208D7B7
-BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
-BUILD 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
-$id$ID<32>
-ReputationRaceMask<32>[4]
-ReputationBase<32>[4]
-ParentFactionMod[2]
-Name_lang
-Description_lang
-ReputationMax<32>[4]
-ReputationIndex<16>
-ReputationClassMask<u16>[4]
-ReputationFlags<u16>[4]
-ParentFactionID<u16>
-ParagonFactionID<u16>
-ParentFactionCap<u8>[2]
-Expansion<u8>
-FriendshipRepID<u8>
-Flags<u8>
-
-LAYOUT B9B47D44
-BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715
-$id$ID<32>
-ReputationRaceMask<u32>[4]
-ReputationBase<32>[4]
-ParentFactionMod[2]
-Name_lang
-Description_lang
-ReputationMax<32>[4]
-ReputationIndex<16>
-ReputationClassMask<u16>[4]
-ReputationFlags<u16>[4]
-ParentFactionID<u16>
-ParagonFactionID<u16>
-ParentFactionCap<u8>[2]
-Expansion<u8>
-FriendshipRepID<u8>
-Flags<u8>
-
-BUILD 5.2.0.16516-5.3.0.17116
-$id$ID<32>
-ReputationIndex<32>
-ReputationRaceMask<32>[4]
-ReputationClassMask<32>[4]
-ReputationBase<32>[4]
-ReputationFlags<32>[4]
-ParentFactionID<32>
-ParentFactionMod[2]
-ParentFactionCap<32>[2]
-Name_lang
-Description_lang
-Expansion<32>
-Flags<32>
-
-BUILD 4.0.0.11927-4.3.4.15595
-BUILD 5.0.1.15464-5.1.0.16357
-$id$ID<32>
-ReputationIndex<32>
-ReputationRaceMask<32>[4]
-ReputationClassMask<32>[4]
-ReputationBase<32>[4]
-ReputationFlags<32>[4]
-ParentFactionID<32>
-ParentFactionMod[2]
-ParentFactionCap<32>[2]
-Name_lang
-Description_lang
-Expansion<32>
-
-BUILD 1.2.0.4147-1.3.0.4284
-$id$ID<32>
-ReputationIndex<32>
-ReputationRaceMask<32>[4]
-ReputationClassMask<32>[4]
-ReputationBase<32>[4]
-ReputationFlags<32>[4]
-ParentFactionID<32>
-Description_lang
-
-BUILD 0.10.0.3892-0.12.0.3988
-BUILD 1.0.0.3980-1.1.2.4125
-$id$ID<32>
-ReputationIndex<32>
-ReputationRaceMask<32>[4]
-ReputationClassMask<32>[4]
-ReputationBase<32>[4]
-ParentFactionID<32>
-Name_lang

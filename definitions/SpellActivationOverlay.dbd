@@ -11,6 +11,40 @@ int<SoundEntries::ID> SoundEntriesID
 int<Spell::ID> TriggerSpell?
 int Field_4_0_0_12911_007?
 
+BUILD 4.0.0.12911-4.1.0.13875
+$id$ID<32>
+SpellID<32>
+OverlayFileDataID<32>
+ScreenLocationID<32>
+Color<32>
+Scale
+IconHighlightSpellClassMask<32>[2]
+Field_4_0_0_12911_007<32>
+TriggerType<32>
+
+BUILD 4.1.0.13914-4.2.0.14480
+$id$ID<32>
+SpellID<32>
+OverlayFileDataID<32>
+ScreenLocationID<32>
+Color<32>
+Scale
+IconHighlightSpellClassMask<32>[2]
+Field_4_0_0_12911_007<32>
+TriggerType<32>
+SoundEntriesID<32>
+
+BUILD 4.2.0.14522-4.3.4.15595
+$id$ID<32>
+SpellID<32>
+OverlayFileDataID<32>
+ScreenLocationID<32>
+Color<32>
+Scale
+IconHighlightSpellClassMask<32>[3]
+TriggerType<32>
+SoundEntriesID<32>
+
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
@@ -74,37 +108,3 @@ Color<32>
 Scale
 TriggerType<8>
 TriggerSpell<32>
-
-BUILD 4.2.0.14522-4.3.4.15595
-$id$ID<32>
-SpellID<32>
-OverlayFileDataID<32>
-ScreenLocationID<32>
-Color<32>
-Scale
-IconHighlightSpellClassMask<32>[3]
-TriggerType<32>
-SoundEntriesID<32>
-
-BUILD 4.1.0.13914-4.2.0.14480
-$id$ID<32>
-SpellID<32>
-OverlayFileDataID<32>
-ScreenLocationID<32>
-Color<32>
-Scale
-IconHighlightSpellClassMask<32>[2]
-Field_4_0_0_12911_007<32>
-TriggerType<32>
-SoundEntriesID<32>
-
-BUILD 4.0.0.12911-4.1.0.13875
-$id$ID<32>
-SpellID<32>
-OverlayFileDataID<32>
-ScreenLocationID<32>
-Color<32>
-Scale
-IconHighlightSpellClassMask<32>[2]
-Field_4_0_0_12911_007<32>
-TriggerType<32>

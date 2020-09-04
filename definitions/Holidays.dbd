@@ -14,12 +14,77 @@ int Flags // 1 = IsRegionwide, 2 = DontShowInCalendar, 4 = DontDisplayEnd, 8 = D
 int<FileData::ID> TextureFileDataID
 int Field_1_13_2_30073_008?
 
+LAYOUT DC1A500C
+BUILD 1.13.5.34000, 1.13.5.34097, 1.13.5.34138, 1.13.5.34713, 1.13.5.34911, 1.13.5.35000, 1.13.5.35186, 1.13.5.35395, 1.13.5.35663, 1.13.5.35705, 1.13.5.35753
+BUILD 1.13.4.33491, 1.13.4.33598, 1.13.4.33645, 1.13.4.33728, 1.13.4.33920, 1.13.4.34219, 1.13.4.34266, 1.13.4.34600, 1.13.4.34835
+BUILD 1.13.3.32790, 1.13.3.32836, 1.13.3.32887, 1.13.3.33155, 1.13.3.33302, 1.13.3.33485, 1.13.3.33526
+BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13.2.30232, 1.13.2.30265, 1.13.2.30287, 1.13.2.30406, 1.13.2.30550, 1.13.2.30682, 1.13.2.30786, 1.13.2.30862, 1.13.2.30901, 1.13.2.30979, 1.13.2.31043, 1.13.2.31118, 1.13.2.31209, 1.13.2.31402, 1.13.2.31407, 1.13.2.31446, 1.13.2.31650, 1.13.2.31687, 1.13.2.31727, 1.13.2.31830, 1.13.2.31882, 1.13.2.32089, 1.13.2.32421, 1.13.2.32600
+$id$ID<32>
+Region<u16>
+Looping<u8>
+HolidayNameID<u32>
+HolidayDescriptionID<u32>
+Priority<u8>
+CalendarFilterType<8>
+Flags<u8>
+Field_1_13_2_30073_008<u32>
+Duration<u16>[10]
+Date<u32>[16]
+CalendarFlags<u8>[10]
+TextureFileDataID<32>[3]
+
+BUILD 3.0.1.8303
+$id$ID<32>
+Duration<32>[10]
+Date<32>[26]
+Region<32>
+Looping<32>
+CalendarFlags<32>[10]
+HolidayNameID<32>
+HolidayDescriptionID<32>
+
+BUILD 3.0.1.8334-3.0.1.8471
+$id$ID<32>
+Duration<32>[10]
+Date<32>[26]
+Region<32>
+Looping<32>
+CalendarFlags<32>[10]
+HolidayNameID<32>
+HolidayDescriptionID<32>
+TextureFilename
+
+BUILD 3.0.1.8622-3.0.1.8714
+$id$ID<32>
+Duration<32>[10]
+Date<32>[26]
+Region<32>
+Looping<32>
+CalendarFlags<32>[10]
+HolidayNameID<32>
+HolidayDescriptionID<32>
+TextureFilename
+Priority<32>
+
+BUILD 3.0.1.8770-3.1.1.9835
+$id$ID<32>
+Duration<32>[10]
+Date<32>[26]
+Region<32>
+Looping<32>
+CalendarFlags<32>[10]
+HolidayNameID<32>
+HolidayDescriptionID<32>
+TextureFilename
+Priority<32>
+CalendarFilterType<32>
+
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
-BUILD 3.1.2.9901-3.3.5.12340
-BUILD 4.0.0.11792-4.3.4.15595
-BUILD 5.0.1.15464-5.4.8.18414
 BUILD 6.0.1.18125-6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
+BUILD 4.0.0.11792-4.3.4.15595
+BUILD 3.1.2.9901-3.3.5.12340
 $id$ID<32>
 Duration<32>[10]
 Date<32>[26]
@@ -82,25 +147,6 @@ Date<u32>[16]
 CalendarFlags<u8>[10]
 TextureFileDataID<32>[3]
 
-LAYOUT DC1A500C
-BUILD 1.13.5.34000, 1.13.5.34097, 1.13.5.34138, 1.13.5.34713, 1.13.5.34911, 1.13.5.35000, 1.13.5.35186, 1.13.5.35395, 1.13.5.35663, 1.13.5.35705, 1.13.5.35753
-BUILD 1.13.4.33491, 1.13.4.33598, 1.13.4.33645, 1.13.4.33728, 1.13.4.33920, 1.13.4.34219, 1.13.4.34266, 1.13.4.34600, 1.13.4.34835
-BUILD 1.13.3.32790, 1.13.3.32836, 1.13.3.32887, 1.13.3.33155, 1.13.3.33302, 1.13.3.33485, 1.13.3.33526
-BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13.2.30232, 1.13.2.30265, 1.13.2.30287, 1.13.2.30406, 1.13.2.30550, 1.13.2.30682, 1.13.2.30786, 1.13.2.30862, 1.13.2.30901, 1.13.2.30979, 1.13.2.31043, 1.13.2.31118, 1.13.2.31209, 1.13.2.31402, 1.13.2.31407, 1.13.2.31446, 1.13.2.31650, 1.13.2.31687, 1.13.2.31727, 1.13.2.31830, 1.13.2.31882, 1.13.2.32089, 1.13.2.32421, 1.13.2.32600
-$id$ID<32>
-Region<u16>
-Looping<u8>
-HolidayNameID<u32>
-HolidayDescriptionID<u32>
-Priority<u8>
-CalendarFilterType<8>
-Flags<u8>
-Field_1_13_2_30073_008<u32>
-Duration<u16>[10]
-Date<u32>[16]
-CalendarFlags<u8>[10]
-TextureFileDataID<32>[3]
-
 LAYOUT 07DF2D39
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662
@@ -121,49 +167,3 @@ Duration<u16>[10]
 Date<u32>[26]
 CalendarFlags<u8>[10]
 TextureFileDataID<32>[3]
-
-BUILD 3.0.1.8770-3.1.1.9835
-$id$ID<32>
-Duration<32>[10]
-Date<32>[26]
-Region<32>
-Looping<32>
-CalendarFlags<32>[10]
-HolidayNameID<32>
-HolidayDescriptionID<32>
-TextureFilename
-Priority<32>
-CalendarFilterType<32>
-
-BUILD 3.0.1.8622-3.0.1.8714
-$id$ID<32>
-Duration<32>[10]
-Date<32>[26]
-Region<32>
-Looping<32>
-CalendarFlags<32>[10]
-HolidayNameID<32>
-HolidayDescriptionID<32>
-TextureFilename
-Priority<32>
-
-BUILD 3.0.1.8334-3.0.1.8471
-$id$ID<32>
-Duration<32>[10]
-Date<32>[26]
-Region<32>
-Looping<32>
-CalendarFlags<32>[10]
-HolidayNameID<32>
-HolidayDescriptionID<32>
-TextureFilename
-
-BUILD 3.0.1.8303
-$id$ID<32>
-Duration<32>[10]
-Date<32>[26]
-Region<32>
-Looping<32>
-CalendarFlags<32>[10]
-HolidayNameID<32>
-HolidayDescriptionID<32>

@@ -8,6 +8,19 @@ int<Spell::ID> SpellID
 int CurrencyID?
 int CurrencyCount?
 
+BUILD 5.0.1.15464
+BUILD 4.0.0.12232-4.3.4.15595
+$id$ID<32>
+Reagent<32>[8]
+ReagentCount<32>[8]
+
+BUILD 5.0.1.15508-5.4.8.18414
+$id$ID<32>
+Reagent<32>[8]
+ReagentCount<32>[8]
+CurrencyID<32>
+CurrencyCount<32>
+
 BUILD 6.0.1.18179
 $id$ID<32>
 Reagent<32>[8]
@@ -36,16 +49,3 @@ $noninline,id$ID<32>
 SpellID<32>
 Reagent<32>[8]
 ReagentCount<16>[8]
-
-BUILD 5.0.1.15508-5.4.8.18414
-$id$ID<32>
-Reagent<32>[8]
-ReagentCount<32>[8]
-CurrencyID<32>
-CurrencyCount<32>
-
-BUILD 5.0.1.15464
-BUILD 4.0.0.12232-4.3.4.15595
-$id$ID<32>
-Reagent<32>[8]
-ReagentCount<32>[8]

@@ -13,6 +13,28 @@ int Difficulty
 int Faction // -1: any, 0: Horde, 1: Alliance
 int<WorldState::ID> IsEncounterComplete
 
+BUILD 4.0.0.11792
+BUILD 4.0.0.11792-4.0.0.12539
+BUILD 3.3.0.10958-3.3.5.12340
+$id$ID<32>
+MapID<32>
+Difficulty<32>
+OrderIndex<32>
+Bit<32>
+Name_lang
+SpellIconID<32>
+
+BUILD 5.0.1.15464-5.3.0.17116
+BUILD 4.0.0.12911-4.3.4.15595
+$id$ID<32>
+MapID<32>
+DifficultyID<32>
+OrderIndex<32>
+Bit<32>
+Name_lang
+CreatureDisplayID<32>
+SpellIconID<32>
+
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
@@ -40,17 +62,6 @@ Flags<u8>
 $id$ID<32>
 OrderIndex<32>
 SpellIconFileID<32>
-
-BUILD 4.0.0.11792
-BUILD 3.3.0.10958-3.3.5.12340
-BUILD 4.0.0.11792-4.0.0.12539
-$id$ID<32>
-MapID<32>
-Difficulty<32>
-OrderIndex<32>
-Bit<32>
-Name_lang
-SpellIconID<32>
 
 LAYOUT 6E5C2332
 BUILD 8.1.0.27826, 8.1.0.27934, 8.1.0.27985, 8.1.0.28048, 8.1.0.28085, 8.1.0.28151, 8.1.0.28186, 8.1.0.28202
@@ -115,15 +126,4 @@ CreatureDisplayID<32>
 Flags<u8>
 SpellIconFileID<32>
 Faction<32>
-
-BUILD 4.0.0.12911-4.3.4.15595
-BUILD 5.0.1.15464-5.3.0.17116
-$id$ID<32>
-MapID<32>
-DifficultyID<32>
-OrderIndex<32>
-Bit<32>
-Name_lang
-CreatureDisplayID<32>
-SpellIconID<32>
 

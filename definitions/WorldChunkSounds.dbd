@@ -12,6 +12,32 @@ int<ZoneMusic::ID> ZoneMusicID
 int<SoundAmbience::ID> SoundAmbienceID
 int<SoundProviderPreferences::ID> SoundProviderPreferencesID
 
+BUILD 3.0.1.8303-3.3.5.12340
+COMMENT completely unvalidated
+$id$ID<32>
+ChunkX<32>
+ChunkY<32>
+SubchunkX<32>
+SubchunkY<32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>
+
+BUILD 4.0.0.11792
+BUILD 5.0.1.15464-5.4.8.18414
+BUILD 4.0.0.11927-4.3.4.15595
+$id$ID<32>
+WorldMapContinentID<32>
+ChunkX<32>
+ChunkY<32>
+SubchunkX<32>
+SubchunkY<32>
+ZoneIntroMusicID<32>
+ZoneMusicID<32>
+SoundAmbienceID<32>
+SoundProviderPreferencesID<32>
+
 BUILD 6.0.1.18179
 $id$ID<32>
 MapID<32>
@@ -20,6 +46,16 @@ ChunkY<32>
 SubchunkX<32>
 SubchunkY<32>
 SoundOverrideID<32>
+
+LAYOUT F258ABA6
+BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
+$noninline,id$ID<32>
+MapID<u16>
+ChunkX<u8>
+ChunkY<u8>
+SubchunkX<u8>
+SubchunkY<u8>
+SoundOverrideID<u8>
 
 LAYOUT D06AA126
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -34,20 +70,6 @@ ChunkY<u8>
 SubchunkX<u8>
 SubchunkY<u8>
 SoundOverrideID<u8>
-
-BUILD 4.0.0.11792
-BUILD 4.0.0.11927-4.3.4.15595
-BUILD 5.0.1.15464-5.4.8.18414
-$id$ID<32>
-WorldMapContinentID<32>
-ChunkX<32>
-ChunkY<32>
-SubchunkX<32>
-SubchunkY<32>
-ZoneIntroMusicID<32>
-ZoneMusicID<32>
-SoundAmbienceID<32>
-SoundProviderPreferencesID<32>
 
 LAYOUT 6ECC5A62
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766, 8.0.1.26788, 8.0.1.26806, 8.0.1.26812, 8.0.1.26838, 8.0.1.26871, 8.0.1.26877, 8.0.1.26892, 8.0.1.26918
@@ -79,25 +101,3 @@ ChunkX<u8>
 ChunkY<u8>
 SubchunkX<u8>
 SubchunkY<u8>
-
-LAYOUT F258ABA6
-BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
-$noninline,id$ID<32>
-MapID<u16>
-ChunkX<u8>
-ChunkY<u8>
-SubchunkX<u8>
-SubchunkY<u8>
-SoundOverrideID<u8>
-
-BUILD 3.0.1.8303-3.3.5.12340
-COMMENT completely unvalidated
-$id$ID<32>
-ChunkX<32>
-ChunkY<32>
-SubchunkX<32>
-SubchunkY<32>
-ZoneIntroMusicID<32>
-ZoneMusicID<32>
-SoundAmbienceID<32>
-SoundProviderPreferencesID<32>

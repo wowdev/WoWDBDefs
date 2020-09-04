@@ -14,6 +14,29 @@ float Coefficient
 float Variance
 float ComboPointsCoefficient
 
+BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.0.0.12164
+$id$ID<32>
+CastTimeMin<32>
+CastTimeMax<32>
+CastTimeMaxLevel<32>
+Class<32>
+Coefficient[3]
+Variance[3]
+ComboPointsCoefficient[3]
+
+BUILD 4.0.0.12232-4.3.4.15595
+$id$ID<32>
+CastTimeMin<32>
+CastTimeMax<32>
+CastTimeMaxLevel<32>
+Class<32>
+Coefficient[3]
+Variance[3]
+ComboPointsCoefficient[3]
+NerfFactor
+NerfMaxLevel<32>
+
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
@@ -39,17 +62,6 @@ Class<32>
 MinScalingLevel<u32>
 MaxScalingLevel<u32>
 
-BUILD 4.0.0.11792
-BUILD 4.0.0.11927-4.0.0.12164
-$id$ID<32>
-CastTimeMin<32>
-CastTimeMax<32>
-CastTimeMaxLevel<32>
-Class<32>
-Coefficient[3]
-Variance[3]
-ComboPointsCoefficient[3]
-
 LAYOUT 4B0C2E65, 732DE96C
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662
@@ -69,15 +81,3 @@ Class<32>
 MinScalingLevel<u32>
 MaxScalingLevel<u32>
 ScalesFromItemLevel<16>
-
-BUILD 4.0.0.12232-4.3.4.15595
-$id$ID<32>
-CastTimeMin<32>
-CastTimeMax<32>
-CastTimeMaxLevel<32>
-Class<32>
-Coefficient[3]
-Variance[3]
-ComboPointsCoefficient[3]
-NerfFactor
-NerfMaxLevel<32>

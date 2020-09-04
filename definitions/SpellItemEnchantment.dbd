@@ -28,30 +28,30 @@ int Field_9_0_1_34365_008?
 int Field_5_0_1_15464_015? // maybe scalingClassRestricted
 float Field_5_0_1_15464_016? // maybe effectScalingPoints
 
-BUILD 6.0.1.18179
-BUILD 5.4.0.17266-5.4.8.18414
+BUILD 0.5.3.3368
 $id$ID<32>
-Charges<32>
 Effect<32>[3]
 EffectPointsMin<32>[3]
+EffectPointsMax<32>[3]
+EffectArg<32>[3]
+Name_lang
+ItemVisual<32>
+
+BUILD 2.0.0.5991
+BUILD 1.0.0.3980-1.12.2.6005
+BUILD 0.5.5.3494-0.12.0.3988
+$id$ID<32>
+Effect<32>[3]
+EffectPointsMin<32>[3]
+EffectPointsMax<32>[3]
 EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
 Flags<32>
-Src_itemID<32>
-Condition_ID<32>
-RequiredSkillID<32>
-RequiredSkillRank<32>
-MinLevel<32>
-MaxLevel<32>
-ItemLevel<32>
-ScalingClass<32>
-ScalingClassRestricted<32>
-EffectScalingPoints[3]
 
-BUILD 3.1.0.9767-3.3.5.12340
+BUILD 2.0.0.6022-2.4.3.8606
+BUILD 2.0.0.5610-2.0.0.5965
 $id$ID<32>
-Charges<32>
 Effect<32>[3]
 EffectPointsMin<32>[3]
 EffectPointsMax<32>[3]
@@ -61,51 +61,6 @@ ItemVisual<32>
 Flags<32>
 Src_itemID<32>
 Condition_ID<32>
-RequiredSkillID<32>
-RequiredSkillRank<32>
-MinLevel<32>
-
-LAYOUT F8B0881A
-BUILD 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
-$noninline,id$ID<32>
-Name_lang
-HordeName_lang
-EffectArg<u32>[3]
-EffectScalingPoints[3]
-TransmogCost<u32>
-IconFileDataID<u32>
-EffectPointsMin<16>[3]
-ItemVisual<u16>
-Flags<u16>
-RequiredSkillID<u16>
-RequiredSkillRank<u16>
-ItemLevel<u16>
-Charges<u8>
-Effect<u8>[3]
-Condition_ID<u8>
-MinLevel<u8>
-MaxLevel<u8>
-ScalingClass<8>
-ScalingClassRestricted<8>
-TransmogPlayerConditionID<u32>
-
-BUILD 4.0.0.11792
-BUILD 4.0.0.11927-4.3.4.15595
-$id$ID<32>
-Charges<32>
-Effect<32>[3]
-EffectPointsMin<32>[3]
-EffectPointsMax<32>[3]
-EffectArg<32>[3]
-Name_lang
-ItemVisual<32>
-Flags<32>
-Src_itemID<32>
-Condition_ID<32>
-RequiredSkillID<32>
-RequiredSkillRank<32>
-MinLevel<32>
-ItemLevel<32>
 
 BUILD 3.0.1.8303
 $id$ID<32>
@@ -137,9 +92,9 @@ Condition_ID<32>
 RequiredSkillID<32>
 RequiredSkillRank<32>
 
-BUILD 2.0.0.5610-2.0.0.5965
-BUILD 2.0.0.6022-2.4.3.8606
+BUILD 3.1.0.9767-3.3.5.12340
 $id$ID<32>
+Charges<32>
 Effect<32>[3]
 EffectPointsMin<32>[3]
 EffectPointsMax<32>[3]
@@ -149,11 +104,14 @@ ItemVisual<32>
 Flags<32>
 Src_itemID<32>
 Condition_ID<32>
+RequiredSkillID<32>
+RequiredSkillRank<32>
+MinLevel<32>
 
-BUILD 2.0.0.5991
-BUILD 0.5.5.3494-0.12.0.3988
-BUILD 1.0.0.3980-1.12.2.6005
+BUILD 4.0.0.11792
+BUILD 4.0.0.11927-4.3.4.15595
 $id$ID<32>
+Charges<32>
 Effect<32>[3]
 EffectPointsMin<32>[3]
 EffectPointsMax<32>[3]
@@ -161,22 +119,59 @@ EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
 Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
+RequiredSkillRank<32>
+MinLevel<32>
+ItemLevel<32>
 
-BUILD 0.5.3.3368
+BUILD 5.0.1.15657-5.3.0.17116
+BUILD 5.0.1.15464-5.0.1.15650
 $id$ID<32>
+Charges<32>
 Effect<32>[3]
 EffectPointsMin<32>[3]
-EffectPointsMax<32>[3]
 EffectArg<32>[3]
 Name_lang
 ItemVisual<32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
+RequiredSkillRank<32>
+MinLevel<32>
+MaxLevel<32>
+ItemLevel<32>
+Field_5_0_1_15464_015<32>
+Field_5_0_1_15464_016[3]
 
-LAYOUT DF71600C
-BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
-$noninline,id$ID<32>
+BUILD 6.0.1.18179
+BUILD 5.4.0.17266-5.4.8.18414
+$id$ID<32>
+Charges<32>
+Effect<32>[3]
+EffectPointsMin<32>[3]
+EffectArg<32>[3]
 Name_lang
-HordeName_lang
+ItemVisual<32>
+Flags<32>
+Src_itemID<32>
+Condition_ID<32>
+RequiredSkillID<32>
+RequiredSkillRank<32>
+MinLevel<32>
+MaxLevel<32>
+ItemLevel<32>
+ScalingClass<32>
+ScalingClassRestricted<32>
+EffectScalingPoints[3]
+
+LAYOUT 645FB5AC
+BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
+$noninline,id$ID<32>
 EffectArg<u32>[3]
+Name_lang
 EffectScalingPoints[3]
 TransmogCost<u32>
 IconFileDataID<u32>
@@ -188,11 +183,35 @@ RequiredSkillRank<u16>
 ItemLevel<u16>
 Charges<u8>
 Effect<u8>[3]
-ScalingClass<8>
-ScalingClassRestricted<8>
 Condition_ID<u8>
 MinLevel<u8>
 MaxLevel<u8>
+ScalingClass<8>
+ScalingClassRestricted<8>
+TransmogPlayerConditionID<u32>
+
+LAYOUT 48ACBC6C
+BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
+BUILD 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
+$noninline,id$ID<32>
+EffectArg<u32>[3]
+Name_lang
+EffectScalingPoints[3]
+TransmogCost<u32>
+IconFileDataID<u32>
+EffectPointsMin<16>[3]
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>
+ScalingClass<8>
+ScalingClassRestricted<8>
 TransmogPlayerConditionID<u32>
 
 LAYOUT 80DEA734
@@ -218,6 +237,54 @@ MinLevel<u8>
 MaxLevel<u8>
 ScalingClass<8>
 ScalingClassRestricted<8>
+TransmogPlayerConditionID<u32>
+
+LAYOUT F8B0881A
+BUILD 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
+$noninline,id$ID<32>
+Name_lang
+HordeName_lang
+EffectArg<u32>[3]
+EffectScalingPoints[3]
+TransmogCost<u32>
+IconFileDataID<u32>
+EffectPointsMin<16>[3]
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>
+ScalingClass<8>
+ScalingClassRestricted<8>
+TransmogPlayerConditionID<u32>
+
+LAYOUT DF71600C
+BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
+$noninline,id$ID<32>
+Name_lang
+HordeName_lang
+EffectArg<u32>[3]
+EffectScalingPoints[3]
+TransmogCost<u32>
+IconFileDataID<u32>
+EffectPointsMin<16>[3]
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+ScalingClass<8>
+ScalingClassRestricted<8>
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>
 TransmogPlayerConditionID<u32>
 
 LAYOUT 96D1828E, 3933F488
@@ -306,70 +373,3 @@ ScalingClassRestricted<8>
 Condition_ID<u8>
 MinLevel<u8>
 MaxLevel<u8>
-
-LAYOUT 48ACBC6C
-BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
-BUILD 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
-$noninline,id$ID<32>
-EffectArg<u32>[3]
-Name_lang
-EffectScalingPoints[3]
-TransmogCost<u32>
-IconFileDataID<u32>
-EffectPointsMin<16>[3]
-ItemVisual<u16>
-Flags<u16>
-RequiredSkillID<u16>
-RequiredSkillRank<u16>
-ItemLevel<u16>
-Charges<u8>
-Effect<u8>[3]
-Condition_ID<u8>
-MinLevel<u8>
-MaxLevel<u8>
-ScalingClass<8>
-ScalingClassRestricted<8>
-TransmogPlayerConditionID<u32>
-
-LAYOUT 645FB5AC
-BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
-$noninline,id$ID<32>
-EffectArg<u32>[3]
-Name_lang
-EffectScalingPoints[3]
-TransmogCost<u32>
-IconFileDataID<u32>
-EffectPointsMin<16>[3]
-ItemVisual<u16>
-Flags<u16>
-RequiredSkillID<u16>
-RequiredSkillRank<u16>
-ItemLevel<u16>
-Charges<u8>
-Effect<u8>[3]
-Condition_ID<u8>
-MinLevel<u8>
-MaxLevel<u8>
-ScalingClass<8>
-ScalingClassRestricted<8>
-TransmogPlayerConditionID<u32>
-
-BUILD 5.0.1.15464-5.0.1.15650
-BUILD 5.0.1.15657-5.3.0.17116
-$id$ID<32>
-Charges<32>
-Effect<32>[3]
-EffectPointsMin<32>[3]
-EffectArg<32>[3]
-Name_lang
-ItemVisual<32>
-Flags<32>
-Src_itemID<32>
-Condition_ID<32>
-RequiredSkillID<32>
-RequiredSkillRank<32>
-MinLevel<32>
-MaxLevel<32>
-ItemLevel<32>
-Field_5_0_1_15464_015<32>
-Field_5_0_1_15464_016[3]

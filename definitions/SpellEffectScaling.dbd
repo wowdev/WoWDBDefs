@@ -6,6 +6,14 @@ float ResourceCoefficient
 int<SpellEffect::ID> SpellEffectID
 float Field_5_4_0_17266_004?
 
+BUILD 5.4.0.17266-5.4.8.18414
+$id$ID<32>
+Coefficient
+Variance
+ResourceCoefficient
+Field_5_4_0_17266_004
+SpellEffectID<32>
+
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.3.0.17116
 $id$ID<32>
@@ -21,12 +29,4 @@ $noninline,id$ID<32>
 Coefficient
 Variance
 ResourceCoefficient
-SpellEffectID<32>
-
-BUILD 5.4.0.17266-5.4.8.18414
-$id$ID<32>
-Coefficient
-Variance
-ResourceCoefficient
-Field_5_4_0_17266_004
 SpellEffectID<32>

@@ -26,16 +26,43 @@ int LoDetail_ID
 int HiDetail_ID
 int Field_3_0_1_8334_006? // matches old water particulate rendering values?
 
-BUILD 6.0.1.18179
-BUILD 3.1.0.9767-3.3.5.12340
-BUILD 4.0.0.12025-4.3.4.15595
-BUILD 5.0.1.15464-5.4.8.18414
+BUILD 3.0.1.8303
+BUILD 2.0.0.5610-2.4.3.8606
+BUILD 1.11.0.5344-1.12.3.6141
+$id$ID<32>
+Name
+Flags<32>
+SpellID<32>
+
+BUILD 3.0.1.8334-3.0.1.8471
 $id$ID<32>
 Name
 Flags<32>
 SoundBank<32>
 SoundID<32>
 SpellID<32>
+Field_3_0_1_8334_006<32>
+MaxDarkenDepth
+FogDarkenIntensity
+AmbDarkenIntensity
+DirDarkenIntensity
+LightID<32>
+ParticleScale
+ParticleMovement<32>
+ParticleTexSlots<32>
+MaterialID<32>
+Texture[4]
+Float[4]
+Int<32>[2]
+
+BUILD 3.0.1.8622-3.0.9.9551
+$id$ID<32>
+Name
+Flags<32>
+SoundBank<32>
+SoundID<32>
+SpellID<32>
+Field_3_0_1_8334_006<32>
 MaxDarkenDepth
 FogDarkenIntensity
 AmbDarkenIntensity
@@ -49,31 +76,6 @@ Texture[6]
 Color<32>[2]
 Float[18]
 Int<32>[4]
-
-LAYOUT 63469432, 0FF9AFCE
-BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
-$noninline,id$ID<32>
-Name
-Texture[6]
-SpellID<u32>
-MaxDarkenDepth
-FogDarkenIntensity
-AmbDarkenIntensity
-DirDarkenIntensity
-ParticleScale
-MinimapStaticCol<32>
-Color<32>[2]
-Float[18]
-Int<u32>[4]
-Coefficient[4]
-Flags<u16>
-LightID<u16>
-SoundBank<u8>
-ParticleMovement<u8>
-ParticleTexSlots<u8>
-MaterialID<u8>
-FrameCountTexture<u8>[6]
-SoundID<u32>
 
 BUILD 4.0.0.11792, 4.0.0.11927
 $id$ID<32>
@@ -99,6 +101,54 @@ Color<32>[2]
 Float[18]
 Int<32>[4]
 
+BUILD 6.0.1.18179
+BUILD 5.0.1.15464-5.4.8.18414
+BUILD 4.0.0.12025-4.3.4.15595
+BUILD 3.1.0.9767-3.3.5.12340
+$id$ID<32>
+Name
+Flags<32>
+SoundBank<32>
+SoundID<32>
+SpellID<32>
+MaxDarkenDepth
+FogDarkenIntensity
+AmbDarkenIntensity
+DirDarkenIntensity
+LightID<32>
+ParticleScale
+ParticleMovement<32>
+ParticleTexSlots<32>
+MaterialID<32>
+Texture[6]
+Color<32>[2]
+Float[18]
+Int<32>[4]
+
+LAYOUT BBB8B593
+BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
+BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
+$noninline,id$ID<32>
+Name
+SpellID<u32>
+MaxDarkenDepth
+FogDarkenIntensity
+AmbDarkenIntensity
+DirDarkenIntensity
+ParticleScale
+Texture[6]
+Color<32>[2]
+Float[18]
+Int<u32>[4]
+Flags<u16>
+LightID<u16>
+SoundBank<u8>
+ParticleMovement<u8>
+ParticleTexSlots<u8>
+MaterialID<u8>
+FrameCountTexture<u8>[6]
+SoundID<u32>
+
 LAYOUT 3313BBF3
 BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
 BUILD 1.13.0.28211
@@ -114,6 +164,31 @@ ParticleScale
 Color<32>[2]
 Float[18]
 Int<u32>[4]
+Flags<u16>
+LightID<u16>
+SoundBank<u8>
+ParticleMovement<u8>
+ParticleTexSlots<u8>
+MaterialID<u8>
+FrameCountTexture<u8>[6]
+SoundID<u32>
+
+LAYOUT 63469432, 0FF9AFCE
+BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
+$noninline,id$ID<32>
+Name
+Texture[6]
+SpellID<u32>
+MaxDarkenDepth
+FogDarkenIntensity
+AmbDarkenIntensity
+DirDarkenIntensity
+ParticleScale
+MinimapStaticCol<32>
+Color<32>[2]
+Float[18]
+Int<u32>[4]
+Coefficient[4]
 Flags<u16>
 LightID<u16>
 SoundBank<u8>
@@ -158,78 +233,3 @@ Color<32>[2]
 Float[18]
 Int<u32>[4]
 Coefficient[4]
-
-LAYOUT BBB8B593
-BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
-BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
-$noninline,id$ID<32>
-Name
-SpellID<u32>
-MaxDarkenDepth
-FogDarkenIntensity
-AmbDarkenIntensity
-DirDarkenIntensity
-ParticleScale
-Texture[6]
-Color<32>[2]
-Float[18]
-Int<u32>[4]
-Flags<u16>
-LightID<u16>
-SoundBank<u8>
-ParticleMovement<u8>
-ParticleTexSlots<u8>
-MaterialID<u8>
-FrameCountTexture<u8>[6]
-SoundID<u32>
-
-BUILD 3.0.1.8622-3.0.9.9551
-$id$ID<32>
-Name
-Flags<32>
-SoundBank<32>
-SoundID<32>
-SpellID<32>
-Field_3_0_1_8334_006<32>
-MaxDarkenDepth
-FogDarkenIntensity
-AmbDarkenIntensity
-DirDarkenIntensity
-LightID<32>
-ParticleScale
-ParticleMovement<32>
-ParticleTexSlots<32>
-MaterialID<32>
-Texture[6]
-Color<32>[2]
-Float[18]
-Int<32>[4]
-
-BUILD 3.0.1.8334-3.0.1.8471
-$id$ID<32>
-Name
-Flags<32>
-SoundBank<32>
-SoundID<32>
-SpellID<32>
-Field_3_0_1_8334_006<32>
-MaxDarkenDepth
-FogDarkenIntensity
-AmbDarkenIntensity
-DirDarkenIntensity
-LightID<32>
-ParticleScale
-ParticleMovement<32>
-ParticleTexSlots<32>
-MaterialID<32>
-Texture[4]
-Float[4]
-Int<32>[2]
-
-BUILD 3.0.1.8303
-BUILD 1.11.0.5344-1.12.3.6141
-BUILD 2.0.0.5610-2.4.3.8606
-$id$ID<32>
-Name
-Flags<32>
-SpellID<32>

@@ -12,6 +12,26 @@ float MaxX
 float MinY
 float MaxY
 
+BUILD 3.0.1.8303-3.0.1.8471
+$id$ID<32>
+MapID<32>
+FloorIndex<32>
+Min[2]
+Max[2]
+
+BUILD 4.0.0.11792
+BUILD 5.0.1.15464-5.0.4.15913
+BUILD 4.0.0.11792-4.3.4.15595
+BUILD 3.0.1.8622-3.3.5.12340
+$id$ID<32>
+MapID<32>
+FloorIndex<32>
+MinX
+MaxX
+MinY
+MaxY
+ParentWorldMapID<32>
+
 BUILD 6.0.1.18179
 BUILD 5.0.4.15929-5.4.8.18414
 $id$ID<32>
@@ -36,23 +56,3 @@ FloorIndex<8>
 RelativeHeightIndex<8>
 Flags<8>
 $id$ID<32>
-
-BUILD 4.0.0.11792
-BUILD 3.0.1.8622-3.3.5.12340
-BUILD 4.0.0.11792-4.3.4.15595
-BUILD 5.0.1.15464-5.0.4.15913
-$id$ID<32>
-MapID<32>
-FloorIndex<32>
-MinX
-MaxX
-MinY
-MaxY
-ParentWorldMapID<32>
-
-BUILD 3.0.1.8303-3.0.1.8471
-$id$ID<32>
-MapID<32>
-FloorIndex<32>
-Min[2]
-Max[2]

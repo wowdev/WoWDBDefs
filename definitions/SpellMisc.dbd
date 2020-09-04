@@ -20,6 +20,48 @@ int<PlayerCondition::ID> PlayerConditionID
 int SpellVisualScript? // for some reason shipped but if != 0, client errors.
 int Field_9_0_1_35679_014?
 
+BUILD 5.0.1.15589-5.0.1.15662
+$id$ID<32>
+SpellID<32>
+DifficultyID<32>
+Attributes<32>[11]
+CastingTimeIndex<32>
+DurationIndex<32>
+RangeIndex<32>
+Speed
+SpellVisualID<32>[2]
+SpellIconID<32>
+ActiveIconID<32>
+SchoolMask<32>
+
+BUILD 5.0.1.15668-5.1.0.16357
+$id$ID<32>
+SpellID<32>
+DifficultyID<32>
+Attributes<32>[12]
+CastingTimeIndex<32>
+DurationIndex<32>
+RangeIndex<32>
+Speed
+SpellVisualID<32>[2]
+SpellIconID<32>
+ActiveIconID<32>
+SchoolMask<32>
+
+BUILD 5.2.0.16516-5.4.7.18019
+$id$ID<32>
+SpellID<32>
+DifficultyID<32>
+Attributes<32>[13]
+CastingTimeIndex<32>
+DurationIndex<32>
+RangeIndex<32>
+Speed
+SpellVisualID<32>[2]
+SpellIconID<32>
+ActiveIconID<32>
+SchoolMask<32>
+
 BUILD 6.0.1.18179
 BUILD 5.4.8.18273-5.4.8.18291
 $id$ID<32>
@@ -34,6 +76,20 @@ SpellVisualID<32>[2]
 SpellIconID<32>
 ActiveIconID<32>
 SchoolMask<32>
+
+LAYOUT 4DF9B9DB
+BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
+BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
+$noninline,id$ID<32>
+Attributes<32>[14]
+Speed
+LaunchDelay
+CastingTimeIndex<u16>
+DurationIndex<u16>
+RangeIndex<u16>
+SchoolMask<u8>
+SpellIconFileDataID<32>
+ActiveIconFileDataID<32>
 
 LAYOUT CDC114D5
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -145,20 +201,6 @@ ContentTuningID<32>
 PlayerConditionID<32>
 $noninline,relation$SpellID<32>
 
-LAYOUT 4DF9B9DB
-BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
-BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24758, 7.3.0.24759, 7.3.0.24781, 7.3.0.24793, 7.3.0.24829, 7.3.0.24834, 7.3.0.24843, 7.3.0.24845, 7.3.0.24852, 7.3.0.24853, 7.3.0.24864, 7.3.0.24878, 7.3.0.24887, 7.3.0.24896, 7.3.0.24904, 7.3.0.24920, 7.3.0.24931, 7.3.0.24956, 7.3.0.24970, 7.3.0.24974, 7.3.0.25021, 7.3.0.25195
-$noninline,id$ID<32>
-Attributes<32>[14]
-Speed
-LaunchDelay
-CastingTimeIndex<u16>
-DurationIndex<u16>
-RangeIndex<u16>
-SchoolMask<u8>
-SpellIconFileDataID<32>
-ActiveIconFileDataID<32>
-
 LAYOUT F6F6A9AD
 BUILD 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598
 $noninline,id$ID<32>
@@ -196,45 +238,3 @@ PlayerConditionID<32>
 SpellVisualScript<32>
 Field_9_0_1_35679_014<32>
 $noninline,relation$SpellID<32>
-
-BUILD 5.2.0.16516-5.4.7.18019
-$id$ID<32>
-SpellID<32>
-DifficultyID<32>
-Attributes<32>[13]
-CastingTimeIndex<32>
-DurationIndex<32>
-RangeIndex<32>
-Speed
-SpellVisualID<32>[2]
-SpellIconID<32>
-ActiveIconID<32>
-SchoolMask<32>
-
-BUILD 5.0.1.15668-5.1.0.16357
-$id$ID<32>
-SpellID<32>
-DifficultyID<32>
-Attributes<32>[12]
-CastingTimeIndex<32>
-DurationIndex<32>
-RangeIndex<32>
-Speed
-SpellVisualID<32>[2]
-SpellIconID<32>
-ActiveIconID<32>
-SchoolMask<32>
-
-BUILD 5.0.1.15589-5.0.1.15662
-$id$ID<32>
-SpellID<32>
-DifficultyID<32>
-Attributes<32>[11]
-CastingTimeIndex<32>
-DurationIndex<32>
-RangeIndex<32>
-Speed
-SpellVisualID<32>[2]
-SpellIconID<32>
-ActiveIconID<32>
-SchoolMask<32>
