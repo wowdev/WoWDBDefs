@@ -15,7 +15,7 @@ int<TextureFileData::MaterialResourcesID> ModelMaterialResourcesID
 int<ModelFileData::ModelResourcesID> ModelResourcesID
 int ModelType1
 int OverrideSwooshSoundKitID
-int SheatheTransformMatrixID
+int<TransformMatrix::ID> SheatheTransformMatrixID
 int<SpellVisualKit::ID> SheathedSpellVisualKitID
 int<SpellVisualKit::ID> StateSpellVisualKitID
 int<SpellVisualKit::ID> UnsheathedSpellVisualKitID
