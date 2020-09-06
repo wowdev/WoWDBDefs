@@ -95,9 +95,10 @@ namespace DBDefsTest
 
             Console.WriteLine("Checked " + foreignKeys + " foreign keys!");
 
-            Console.WriteLine("Checking for differences between raw definitions and target definitions (limited to 9.0+)");
             if (checkRaw)
             {
+                Console.WriteLine("Checking for differences between raw definitions and target definitions (limited to 9.0+)");
+
                 if (!Directory.Exists(rawRepoDir))
                 {
                     throw new DirectoryNotFoundException("Could not find WoWDBDefsRaw repository");
