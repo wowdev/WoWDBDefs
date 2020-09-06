@@ -94,8 +94,8 @@ WorldStateID<u16>
 WorldStateValue<u16>
 AreaID<u16>
 WMOAreaID<u32>
-ZoneIntroMusicID<u32>
-ZoneMusicID<u32>
-SoundAmbienceID<u32>
-SoundProviderPreferencesID<u32>
+ZoneIntroMusicID<u16>
+ZoneMusicID<u16>
+SoundAmbienceID<u16>
+SoundProviderPreferencesID<u8>
 OrderBy<32>
