@@ -157,6 +157,13 @@ namespace DBDefsTest
                                     errorEncountered.Add(definition.Key);
                                 }
 
+                                if (rawColDef.isRelation != targetColDef.isRelation)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine("[" + definition.Key + "] [" + build + "] " + rawColDef.name + " <-> " + targetColDef.name + " relation mismatch: " + rawColDef.isRelation + " <-> " + targetColDef.isRelation);
+                                    errorEncountered.Add(definition.Key);
+                                }
+
                                 Console.ResetColor();
                             }
                         }
