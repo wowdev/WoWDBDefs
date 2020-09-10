@@ -7,14 +7,6 @@ int<Spell::ID> SpellID
 int<ItemBonusList::ID> ItemBonusListID
 int<PlayerCondition::ID> PlayerConditionID
 int Field_9_0_1_34972_007?
-locstring Field_9_0_2_35854_000_lang?
-int Field_9_0_2_35854_001?
-int Field_9_0_2_35854_002?
-int Field_9_0_2_35854_003?
-int Field_9_0_2_35854_004?
-int Field_9_0_2_35854_005?
-int Field_9_0_2_35854_006?
-int Field_9_0_2_35854_007?
 int Field_9_0_2_35854_008?
 
 LAYOUT 368D0C5F
@@ -50,12 +42,12 @@ Field_9_0_1_34972_007<32>
 LAYOUT 61DAAC70
 BUILD 9.0.2.35854
 BUILD 9.0.1.35853
-Field_9_0_2_35854_000_lang
-$id$Field_9_0_2_35854_001<32>
-Field_9_0_2_35854_002<32>
-Field_9_0_2_35854_003<32>
-Field_9_0_2_35854_004<32>
-Field_9_0_2_35854_005<32>
-Field_9_0_2_35854_006<32>
-Field_9_0_2_35854_007<32>
+Name_lang
+$id$ID<32>
+SpecSetID<32>
+InventoryTypeMask<32>
+SpellID<32>
+ItemBonusListID<32>
+PlayerConditionID<32>
+Field_9_0_1_34972_007<32>
 Field_9_0_2_35854_008<32>
