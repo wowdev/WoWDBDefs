@@ -17,6 +17,25 @@ int<TransmogIllusion::ID> TransmogIllusionID
 int<TransmogSet::ID> TransmogSetID
 int<QuestV2::ID> QuestID?
 int<PlayerCondition::ID> PlayerConditionID
+locstring Field_9_0_2_35854_000_lang?
+locstring Field_9_0_2_35854_001_lang?
+locstring Field_9_0_2_35854_002_lang?
+int Field_9_0_2_35854_003?
+int Field_9_0_2_35854_004?
+int Field_9_0_2_35854_005?
+int Field_9_0_2_35854_006?
+int Field_9_0_2_35854_007?
+int Field_9_0_2_35854_008?
+int Field_9_0_2_35854_009?
+int Field_9_0_2_35854_010?
+int Field_9_0_2_35854_011?
+int Field_9_0_2_35854_012?
+int Field_9_0_2_35854_013?
+int Field_9_0_2_35854_014?
+int Field_9_0_2_35854_015?
+int Field_9_0_2_35854_016?
+int Field_9_0_2_35854_017?
+int Field_9_0_2_35854_018?
 
 LAYOUT D5E4583A
 BUILD 9.0.1.35432, 9.0.1.35482
@@ -58,3 +77,25 @@ GarrFollowerID<32>
 TransmogIllusionID<32>
 QuestID<32>
 PlayerConditionID<32>
+
+LAYOUT E58AA7BC
+BUILD 9.0.2.35854
+Field_9_0_2_35854_000_lang
+Field_9_0_2_35854_001_lang
+Field_9_0_2_35854_002_lang
+$id$Field_9_0_2_35854_003<32>
+$relation$Field_9_0_2_35854_004<32>
+Field_9_0_2_35854_005<32>
+Field_9_0_2_35854_006<32>
+Field_9_0_2_35854_007<32>
+Field_9_0_2_35854_008<32>
+Field_9_0_2_35854_009<32>
+Field_9_0_2_35854_010<32>
+Field_9_0_2_35854_011<32>
+Field_9_0_2_35854_012<32>
+Field_9_0_2_35854_013<32>
+Field_9_0_2_35854_014<32>
+Field_9_0_2_35854_015<32>
+Field_9_0_2_35854_016<32>
+Field_9_0_2_35854_017<32>
+Field_9_0_2_35854_018<32>
