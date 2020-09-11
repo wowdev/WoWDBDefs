@@ -17,7 +17,7 @@ int<TransmogIllusion::ID> TransmogIllusionID
 int<TransmogSet::ID> TransmogSetID
 int<QuestV2::ID> QuestID?
 int<PlayerCondition::ID> PlayerConditionID
-locstring Toast_lang?
+locstring ToastDescription_lang
 
 LAYOUT D5E4583A
 BUILD 9.0.1.35432, 9.0.1.35482
@@ -65,7 +65,7 @@ BUILD 9.0.2.35854
 BUILD 9.0.1.35853
 Name_lang
 Description_lang
-Toast_lang
+ToastDescription_lang
 $id$ID<32>
 $relation$CovenantID<32>
 Level<32>

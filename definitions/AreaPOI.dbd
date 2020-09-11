@@ -19,7 +19,7 @@ int PoiDataType
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int WMOGroupID
 int<UiWidgetSet::ID> UiWidgetSetID
-int Field_8_1_5_28938_015?
+int<UiTextureKit::ID> UiTextureKitID
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -323,6 +323,6 @@ $relation$ContinentID<u16>
 AreaID<16>
 WorldStateID<u16>
 UiWidgetSetID<u16>
-Field_8_1_5_28938_015<u16>
+UiTextureKitID<u16>
 Importance<u8>
 Icon<u8>
