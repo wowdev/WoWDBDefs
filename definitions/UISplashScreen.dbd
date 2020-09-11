@@ -13,7 +13,7 @@ int ScreenType // 0: WhatsNew, 1: SeasonRollOver
 int<UiTextureKit::ID> TextureKitID
 int<SoundKit::ID> SoundKitID
 int<PlayerCondition::ID> PlayerConditionID // Whether to show quest, not the splash screen.
-int Field_9_0_1_33978_014? // MinDisplayCharLevel?
+int<PlayerCondition::ID> Field_9_0_1_33978_014? // MinDisplayCharLevel? DisplayConditionID?
 int Field_9_0_1_33978_015? // MinQuestDisplayLevel?
 
 LAYOUT CB8F573D
