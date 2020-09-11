@@ -5,7 +5,7 @@ int Asset // 107: SpellLabel::ID
 int SecondaryAsset
 int Operator
 int Amount
-int Parent
+int<ModifierTree::ID> Parent
 int TertiaryAsset
 
 BUILD 5.0.1.15464-5.0.5.16135
