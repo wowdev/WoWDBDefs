@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 int<ItemBonusList::ID> ChildItemBonusListID
-int ChildItemBonusTreeID
+int<ItemBonusTree::ID> ChildItemBonusTreeID
 int ChildItemLevelSelectorID
 int ItemContext
-int ParentItemBonusTreeID
+int<ItemBonusTree::ID> ParentItemBonusTreeID
 
 LAYOUT 6149BC4B
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

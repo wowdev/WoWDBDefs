@@ -2,7 +2,7 @@ COLUMNS
 int ID
 locstring Description_lang
 int<ModifiedCraftingCategory::ID> ModifiedCraftingCategoryID
-int<ItemBonusTreeNode::ParentItemBonusTreeID> ItemBonusTreeID // todo: add virtual tables to dbd
+int<ItemBonusTree::ID> ItemBonusTreeID
 int Flags?
 
 LAYOUT CC09E623
