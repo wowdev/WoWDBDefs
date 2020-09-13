@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-int AreaID
+int<AreaTable::ID> AreaID
 int<Map::ID> MapID
 int OrderIndex
 float Region
 int<UiMap::ID> UiMapID
 float UiMax
 float UiMin
-int WMODoodadPlacementID
-int WMOGroupID
+int WMODoodadPlacementID // ADT's MODS uniqueId
+int WMOGroupID // WMO's group ID
 
 LAYOUT FEC56AE4
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
