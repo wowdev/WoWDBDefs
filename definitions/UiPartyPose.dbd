@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Map::ID> MapID
 int<UiModelScene::ID> UiModelSceneID
-int UiWidgetSetID
+int<UiWidgetSet::ID> UiWidgetSetID
 int<UiModelScene::ID> VictoryUiModelSceneID
 int<UiModelScene::ID> DefeatUiModelSceneID
 int<SoundKit::ID> VictorySoundKitID

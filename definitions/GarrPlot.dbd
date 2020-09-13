@@ -2,9 +2,9 @@ COLUMNS
 string Name
 int UpgradeRequirement
 int ID
-int AllianceConstructObjID
+int<GameObjects::ID> AllianceConstructObjID
 int Flags
-int HordeConstructObjID
+int<GameObjects::ID> HordeConstructObjID
 int PlotType
 int UiCategoryID
 

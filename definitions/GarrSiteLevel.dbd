@@ -8,7 +8,7 @@ float TownHallUiPos
 int<UiTextureKit::ID> UiTextureKitID
 int UpgradeCost
 int UpgradeGoldCost
-int UpgradeMovieID
+int<Movie::ID> UpgradeMovieID
 
 BUILD 6.0.1.18179
 $id$ID<32>

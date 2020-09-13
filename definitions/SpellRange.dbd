@@ -2,7 +2,7 @@ COLUMNS
 int ID
 float RangeMin
 float RangeMax
-int Flags
+int Flags // &1: Melee (ignore RangeMin, set to 0); &2: Ranged (add 5 to RangeMin)
 locstring DisplayName_lang
 locstring DisplayNameShort_lang
 

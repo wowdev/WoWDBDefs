@@ -2,9 +2,9 @@ COLUMNS
 int ID
 float Alpha
 float AnimSpeed
-int AnimationID
+int<AnimationData::ID> AnimationID
 float Scale
-int SequenceVariation
+int SequenceVariation // index into the M2's sequences with the given animation id
 int<AnimKit::ID> AnimKitID
 int<SpellVisualKit::ID> SpellVisualKitID
 

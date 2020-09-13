@@ -1,6 +1,6 @@
 COLUMNS
-int ID?
-int MovieID
+int ID
+int<Movie::ID> MovieID
 int LocaleMask
 int OverlayRangeBegin
 int OverlayRangeEnd
