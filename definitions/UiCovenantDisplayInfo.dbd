@@ -2,6 +2,10 @@ COLUMNS
 int ID?
 int<Covenant::ID> CovenantID
 int<UiTextureKit::ID> UiTextureKitID
+int Field_9_0_2_35938_000?
+int Field_9_0_2_35938_001?
+int Field_9_0_2_35938_002?
+int Field_9_0_2_35938_003?
 
 LAYOUT 2F97ADFB
 BUILD 9.0.2.35854
@@ -9,3 +13,10 @@ BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.341
 $id$ID<32>
 CovenantID<32>
 UiTextureKitID<32>
+
+LAYOUT FE3773FF
+BUILD 9.0.2.35938
+$id$Field_9_0_2_35938_000<32>
+Field_9_0_2_35938_001<32>
+Field_9_0_2_35938_002<32>
+Field_9_0_2_35938_003<32>
