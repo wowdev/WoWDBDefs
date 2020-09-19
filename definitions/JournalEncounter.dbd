@@ -12,7 +12,7 @@ locstring Description_lang
 int Flags
 int MapDisplayConditionID
 int<UiMap::ID> UiMapID
-int<DungeonEncounter::ID> DungeonEncounterID?
+int<DungeonEncounter::ID> DungeonEncounterID
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.2.0.14333-4.3.4.15595

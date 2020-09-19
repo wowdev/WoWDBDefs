@@ -16,7 +16,7 @@ int BitIndex
 int<Faction::ID> FactionID
 int<ItemGroupSounds::ID> ItemGroupSoundsID?
 int ConvertToPlayerExperience?
-int<PlayerCondition::ID> PlayerConditionID?
+int<PlayerCondition::ID> AwardConditionID
 int Field_9_0_1_34972_013? // key into data sent by the server
 
 BUILD 4.0.0.11792
@@ -209,7 +209,7 @@ Quality<8>
 FactionID<32>
 ItemGroupSoundsID<32>
 ConvertToPlayerExperience<32>
-PlayerConditionID<32>
+AwardConditionID<32>
 
 LAYOUT 42D341CB
 BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
@@ -227,7 +227,7 @@ Quality<8>
 FactionID<32>
 ItemGroupSoundsID<32>
 ConvertToPlayerExperience<32>
-PlayerConditionID<32>
+AwardConditionID<32>
 
 LAYOUT F8D65430
 BUILD 9.0.1.34972
@@ -244,7 +244,7 @@ Quality<8>
 FactionID<32>
 ItemGroupSoundsID<32>
 ConvertToPlayerExperience<32>
-PlayerConditionID<32>
+AwardConditionID<32>
 Field_9_0_1_34972_013<32>
 Flags<32>[2]
 
@@ -264,6 +264,6 @@ Quality<8>
 FactionID<32>
 ItemGroupSoundsID<32>
 ConvertToPlayerExperience<32>
-PlayerConditionID<32>
+AwardConditionID<32>
 Field_9_0_1_34972_013<32>
 Flags<32>[2]

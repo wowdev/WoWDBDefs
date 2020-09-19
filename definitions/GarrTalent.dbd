@@ -19,9 +19,8 @@ int RespecDurationSecs
 int RespecGoldCost
 int Tier
 int UiOrder
-int Field_8_3_0_32044_009?
-int Field_8_3_0_32044_010?
-int<GarrTalent::ID> PrerequisiteTalentID?
+int TalentType
+int<GarrTalent::ID> PrerequisiteTalentID
 int ResearchCostSource // 0: Talent, 1: Tree
 int Field_9_0_1_33978_013?
 int<GarrTalentSocketProperties::ID> GarrTalentSocketPropertiesID
@@ -140,8 +139,8 @@ UiOrder<8>
 IconFileDataID<32>
 PlayerConditionID<u32>
 GarrAbilityID<u32>
-Field_8_3_0_32044_009<8>
-Field_8_3_0_32044_010<32>
+Flags<8>
+TalentType<32>
 
 LAYOUT 9A9E08BC
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662
@@ -155,8 +154,8 @@ UiOrder<8>
 IconFileDataID<32>
 PlayerConditionID<u32>
 GarrAbilityID<u32>
-Field_8_3_0_32044_009<8>
-Field_8_3_0_32044_010<32>
+Flags<8>
+TalentType<32>
 PrerequisiteTalentID<32>
 ResearchCostSource<32>
 
@@ -171,8 +170,8 @@ UiOrder<8>
 IconFileDataID<32>
 PlayerConditionID<u32>
 GarrAbilityID<u32>
-Field_8_3_0_32044_009<8>
-Field_8_3_0_32044_010<32>
+Flags<8>
+TalentType<32>
 PrerequisiteTalentID<32>
 ResearchCostSource<32>
 Field_9_0_1_33978_013<32>
@@ -189,8 +188,8 @@ UiOrder<8>
 IconFileDataID<32>
 PlayerConditionID<u32>
 GarrAbilityID<u32>
-Field_8_3_0_32044_009<8>
-Field_8_3_0_32044_010<32>
+Flags<8>
+TalentType<32>
 PrerequisiteTalentID<32>
 ResearchCostSource<32>
 Field_9_0_1_33978_013<32>

@@ -7,7 +7,7 @@ int Looping
 int CalendarFlags // 1 = Alliance, 2 = Horde
 int<HolidayNames::ID> HolidayNameID
 int<HolidayDescriptions::ID> HolidayDescriptionID
-string TextureFilename
+string TextureFileName
 int Priority
 int CalendarFilterType
 int Flags // 1 = IsRegionwide, 2 = DontShowInCalendar, 4 = DontDisplayEnd, 8 = DontDisplayBanner
@@ -52,7 +52,7 @@ Looping<32>
 CalendarFlags<32>[10]
 HolidayNameID<32>
 HolidayDescriptionID<32>
-TextureFilename
+TextureFileName
 
 BUILD 3.0.1.8622-3.0.1.8714
 $id$ID<32>
@@ -63,7 +63,7 @@ Looping<32>
 CalendarFlags<32>[10]
 HolidayNameID<32>
 HolidayDescriptionID<32>
-TextureFilename
+TextureFileName
 Priority<32>
 
 BUILD 3.0.1.8770-3.1.1.9835
@@ -75,7 +75,7 @@ Looping<32>
 CalendarFlags<32>[10]
 HolidayNameID<32>
 HolidayDescriptionID<32>
-TextureFilename
+TextureFileName
 Priority<32>
 CalendarFilterType<32>
 
@@ -93,7 +93,7 @@ Looping<32>
 CalendarFlags<32>[10]
 HolidayNameID<32>
 HolidayDescriptionID<32>
-TextureFilename
+TextureFileName
 Priority<32>
 CalendarFilterType<32>
 Flags<32>

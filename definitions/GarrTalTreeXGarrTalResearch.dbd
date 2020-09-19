@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int<GarrTalentTree::ID> GarrTalentTreeID?
-int<GarrTalentResearch::ID> GarrTalentResearchID?
-int OrderIndex?
+int<GarrTalentTree::ID> GarrTalentTreeID
+int<GarrTalentResearch::ID> GarrTalentResearchID
+int OrderIndex
 
 LAYOUT 0FB0BA8A
 BUILD 9.0.2.35854, 9.0.2.35938

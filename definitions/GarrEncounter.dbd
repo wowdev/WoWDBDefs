@@ -6,7 +6,7 @@ int<FileData::ID> PortraitFileDataID
 float UiAnimHeight
 float UiAnimScale
 int<UiTextureKit::ID> UiTextureKitID
-int Field_8_1_0_27985_007?
+int Flags
 int<GarrAutoCombatant::ID> GarrAutoCombatantID?
 
 BUILD 6.0.1.18179
@@ -78,7 +78,7 @@ PortraitFileDataID<32>
 UiTextureKitID<u32>
 UiAnimScale
 UiAnimHeight
-Field_8_1_0_27985_007<32>
+Flags<32>
 
 LAYOUT 785239C5
 BUILD 9.0.2.35854, 9.0.2.35938
@@ -90,5 +90,5 @@ PortraitFileDataID<32>
 UiTextureKitID<u32>
 UiAnimScale
 UiAnimHeight
-Field_8_1_0_27985_007<32>
+Flags<32>
 GarrAutoCombatantID<32>
