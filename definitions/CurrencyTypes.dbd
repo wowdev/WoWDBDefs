@@ -7,7 +7,7 @@ int SpellWeight
 int SpellCategory
 int MaxQty
 int MaxEarnablePerWeek
-int Flags // &8: divide by 100 when showing
+int Flags // &8: scalar100: divide by 100 when showing
 int Quality
 locstring Description_lang
 int<FileData::ID> InventoryIconFileID

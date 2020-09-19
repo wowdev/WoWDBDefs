@@ -4,7 +4,7 @@ int SubClassID
 int PrerequisiteProficiency
 int PostrequisiteProficiency
 int Flags
-int DisplayFlags
+int DisplayFlags // ITEM_SUBCLASS_DISPLAY_FLAG: &0x1: HIDE_SUBCLASS_IN_TOOLTIP; &0x2: HIDE_SUBCLASS_IN_AUCTION; &0x4: SHOW_ITEM_COUNT
 int WeaponParrySeq
 int WeaponReadySeq
 int WeaponAttackSeq

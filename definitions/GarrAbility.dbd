@@ -2,7 +2,7 @@ COLUMNS
 int ID
 locstring Description_lang
 int<GarrAbility::ID> FactionChangeGarrAbilityID
-int Flags
+int Flags // GARR_ABILITY_FLAGS: &0x1: IS_TRAIT; &0x2: NO_RANDOM_SELECTION; &0x4: HORDE_ONLY; &0x8: ALLIANCE_ONLY; &0x10: NO_REROLL; &0x20: FIRST_SLOT_ONLY; &0x40: SINGLE_MISSION_DURATION; &0x80: ACTIVE_ONLY_ON_ZONE_SUPPORT; &0x100: APPLY_TO_FIRST_MISSION; &0x200: IS_SPECIALIZATION; &0x400: IS_EMPTY_SLOT
 int<GarrAbilityCategory::ID> GarrAbilityCategoryID
 int<GarrFollowerType::ID> GarrFollowerTypeID
 int<FileData::ID> IconFileDataID

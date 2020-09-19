@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<GarrFollItemSet::ID> GarrFollItemSetID
 int<Item::ID> ItemID
-int ItemSlot
+int ItemSlot // GARR_FOLLOWER_ITEM_SLOT: 0: Mainhand; 1: Offhand; 2: Armor
 int MinItemLevel
 
 BUILD 6.0.1.18179
