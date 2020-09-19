@@ -1,11 +1,11 @@
 COLUMNS
 int ID
-int CasterAuraSpell
+int<Spell::ID> CasterAuraSpell
 int CasterAuraState
 int<Difficulty::ID> DifficultyID
-int ExcludeCasterAuraSpell
+int<Spell::ID> ExcludeCasterAuraSpell
 int ExcludeCasterAuraState
-int ExcludeTargetAuraSpell
+int<Spell::ID> ExcludeTargetAuraSpell
 int ExcludeTargetAuraState
 int<Spell::ID> SpellID
 int TargetAuraSpell
