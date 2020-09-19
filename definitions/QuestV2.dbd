@@ -1,6 +1,13 @@
 COLUMNS
 int ID
 int UniqueBitFlag
+string QuestTitle
+string Description
+string LogDescription
+string RewardText
+int QuestSortID
+int QuestInfoID
+int AreaID
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
