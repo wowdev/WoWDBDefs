@@ -1,11 +1,11 @@
 COLUMNS
 int ID
 string Tag
-int Region_group_mask
+int Region_group_mask // 1: US, 2: KR, 3: EU, 4: TW, 5: CN, 6: events, 7: test/automation, 8: third party test (ptr, vendors, censor), 9: development, 10: QA, 11: QA/CS?
 int RulesetID
 int Challenge_origin
 int Raidorigin
-int Region_ID
+int Region_ID // uint8, except for 666 (Dead Realm Graveyard) and 1038 (zzOLD QA Armory 1)
 int Field_8_1_0_28048_006?
 string Name
 

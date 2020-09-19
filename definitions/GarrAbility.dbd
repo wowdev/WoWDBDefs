@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 locstring Description_lang
-int FactionChangeGarrAbilityID
+int<GarrAbility::ID> FactionChangeGarrAbilityID
 int Flags
 int<GarrAbilityCategory::ID> GarrAbilityCategoryID
 int<GarrFollowerType::ID> GarrFollowerTypeID

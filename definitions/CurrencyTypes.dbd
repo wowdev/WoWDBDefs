@@ -15,9 +15,9 @@ int<Item::ID> ItemID
 int BitIndex
 int<Faction::ID> FactionID
 int<ItemGroupSounds::ID> ItemGroupSoundsID?
-int ConvertToPlayerExperience?
 int<PlayerCondition::ID> AwardConditionID
 int Field_9_0_1_34972_013? // key into data sent by the server
+int XpQuestDifficulty? // Correct if 2 for ID 1566. ConvertToPlayerExperience?
 
 BUILD 4.0.0.11792
 BUILD 3.0.1.8622-3.3.5.12340
@@ -189,7 +189,7 @@ Flags<u32>
 Quality<8>
 FactionID<32>
 ItemGroupSoundsID<32>
-ConvertToPlayerExperience<32>
+XpQuestDifficulty<32>
 
 LAYOUT 16E369D6
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
@@ -208,7 +208,7 @@ Flags<u32>
 Quality<8>
 FactionID<32>
 ItemGroupSoundsID<32>
-ConvertToPlayerExperience<32>
+XpQuestDifficulty<32>
 AwardConditionID<32>
 
 LAYOUT 42D341CB
@@ -226,7 +226,7 @@ Flags<32>
 Quality<8>
 FactionID<32>
 ItemGroupSoundsID<32>
-ConvertToPlayerExperience<32>
+XpQuestDifficulty<32>
 AwardConditionID<32>
 
 LAYOUT F8D65430
@@ -243,7 +243,7 @@ MaxEarnablePerWeek<u32>
 Quality<8>
 FactionID<32>
 ItemGroupSoundsID<32>
-ConvertToPlayerExperience<32>
+XpQuestDifficulty<32>
 AwardConditionID<32>
 Field_9_0_1_34972_013<32>
 Flags<32>[2]
@@ -263,7 +263,7 @@ MaxEarnablePerWeek<u32>
 Quality<8>
 FactionID<32>
 ItemGroupSoundsID<32>
-ConvertToPlayerExperience<32>
+XpQuestDifficulty<32>
 AwardConditionID<32>
 Field_9_0_1_34972_013<32>
 Flags<32>[2]
