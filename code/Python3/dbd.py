@@ -97,6 +97,8 @@ class foreign_identifier (Grammar):
     def __str__(self):
         return "{}::{}".format(self.table, self.column)
 
+def stru(elem):
+    return u'{}'.format(elem)
 
 class column_definition (Grammar):
     grammar = ( column_type, OPTIONAL(foreign_identifier)
@@ -110,10 +112,10 @@ class column_definition (Grammar):
         self.foreign = self.elements[1]
         self.name = str(self.elements[3])
         self.is_confirmed_name = not self.elements[4]
-        self.comment = str(self.elements[5]).strip() if self.elements[5] else None
+        self.comment = stru(self.elements[5]).strip() if self.elements[5] else None
 
     def __str__(self):
-        return "type={} fk={} name={} confirmed={} comment={}".format(self.type, self.foreign, self.name, self.is_confirmed_name, self.comment)
+        return u"type={} fk={} name={} confirmed={} comment={}".format(self.type, self.foreign, self.name, self.is_confirmed_name, self.comment)
 
 
 class build_version (Grammar):
@@ -232,10 +234,10 @@ class definition_entry(Grammar):
             self.int_width = int(int_width)
 
         self.array_size = int(str(self.elements[3])) if self.elements[3] else None
-        self.comment = str(self.elements[4]).strip() if self.elements[4] else None
+        self.comment = stru(self.elements[4]).strip() if self.elements[4] else None
 
     def __str__(self):
-        return "column={} int_width={} array_size={} annotation={} comment={}".format(self.column, self.int_width, self.array_size, self.annotation, self.comment)
+        return u"column={} int_width={} array_size={} annotation={} comment={}".format(self.column, self.int_width, self.array_size, self.annotation, self.comment)
 
     grammar_tags = ["ENTRY"]
 
@@ -259,7 +261,7 @@ class definitions(Grammar):
         self.builds = list(chain.from_iterable(([builds.builds for builds in self.find_all("BUILD")])))
         # self.builds = list(flatten([builds.builds for builds in self.find_all("BUILD")]))
         self.layouts = list(flatten([layouts.layouts for layouts in self.find_all("LAYOUT")]))
-        self.comments = [str(comment) for comment in self.find_all("COMMENT")]
+        self.comments = [stru(comment) for comment in self.find_all("COMMENT")]
         self.entries = [entry for entry in self.find_all("ENTRY")]
 
 
