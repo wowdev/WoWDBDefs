@@ -40,7 +40,7 @@ def parse_dbd_file(path):
         with open(path) as f:
             return parse_dbd(f.read())
     except Exception as ex:
-        raise Exception('failed to parse dbd file "{}"'.format (path)) from ex
+        raise Exception(u'failed to parse dbd file "{}": {}'.format (path, ex))
 
 
 file_suffix = ".dbd"
