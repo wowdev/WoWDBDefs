@@ -33,7 +33,8 @@ parser.add_argument( '--only', dest="only", action='append'
                    , help='if given, a list of tables to dump')
 args = parser.parse_args()
 
-os.makedirs (args.output, exist_ok=True)
+if not os.path.isdir (args.output):
+  os.makedirs (args.output)
 
 dbds = {}
 if args.only:
