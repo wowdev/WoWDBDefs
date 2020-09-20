@@ -264,7 +264,7 @@ class definitions(Grammar):
 
 class dbd_file(Grammar):
     grammar = (L("COLUMNS"), EOL,
-               ONE_OR_MORE(column_definition, EOL),
+               ZERO_OR_MORE(column_definition, EOL),
                ZERO_OR_MORE(ONE_OR_MORE(EOL), definitions),
                ZERO_OR_MORE(EOL), EOF
                )
