@@ -3,6 +3,7 @@
 from modgrammar import *
 from itertools import chain
 import os
+import codecs
 
 # parses a given dbd (as string) and returns an object with
 #
@@ -37,7 +38,7 @@ def parse_dbd(content):
 
 def parse_dbd_file(path):
     try:
-        with open(path) as f:
+        with codecs.open(path, encoding=u'utf-8') as f:
             return parse_dbd(f.read())
     except Exception as ex:
         raise Exception(u'failed to parse dbd file "{}": {}'.format (path, ex))
