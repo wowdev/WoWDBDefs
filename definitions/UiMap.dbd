@@ -3,7 +3,7 @@ int ID
 int<FileData::ID> BkgFileDataID
 int BountyDisplayLocation
 int<BountySet::ID> BountySetID
-int Flags // &0x1: NoHighlight, &0x2: ShowOverlays, &0x4: ShowTaxiNodes, &0x8: GarrisonMap, &0x10: FallbackToParentMap, &0x20: NoHighlightTexture, &0x40: ShowTaskObjectives, &0x80: NoWorldPositions, &0x100: HideArchaeologyDigs, &0x200: ??? (Deprecated), &0x400: HideIcons, &0x800: HideVignettes, &0x1000: ForceAllOverlayExplored, &0x2000: FlightMapShowZoomOut, &0x4000: FlightMapAutoZoom
+int Flags // &0x1: NoHighlight, &0x2: ShowOverlays, &0x4: ShowTaxiNodes, &0x8: GarrisonMap, &0x10: FallbackToParentMap, &0x20: NoHighlightTexture, &0x40: ShowTaskObjectives, &0x80: NoWorldPositions, &0x100: HideArchaeologyDigs, &0x200: ??? (Deprecated), &0x400: HideIcons, &0x800: HideVignettes, &0x1000: ForceAllOverlayExplored, &0x2000: FlightMapShowZoomOut, &0x4000: FlightMapAutoZoom, &0x8000: ForceOnNavbar
 int HelpTextPosition
 int LevelRangeMax
 int LevelRangeMin
