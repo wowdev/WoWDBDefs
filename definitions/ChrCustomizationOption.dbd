@@ -1,22 +1,22 @@
 COLUMNS
 locstring Name_lang
 int ID
-int Field_9_0_1_34081_002?
-int Flags? // 1 = Tattoo/Pattern, 2 = Skin/Hair Color, 3 = Skin/Tattoo Color, possibly flags
-int OrderIndex? // per ChrModelID
-int<ChrCustomizationCategory::ID> ChrCustomizationCategoryID?
-int OptionType? // 0 = Slider, 1 = Checkbox
-int<ChrCustomization::ID> ChrCustomizationID?
+int SecondaryID? // likely fk somewhere: has less holes than ID
 int<ChrModel::ID> ChrModelID?
+int<ChrCustomization::ID> ChrCustomizationID?
+int<ChrCustomizationCategory::ID> ChrCustomizationCategoryID?
+int OrderIndex? // per ChrModelID
+int SecondaryOrderIndex? // also per ChrModelID, but often Skin Color and Face options swapped
+int Flags? // 1 = Tattoo/Pattern, 2 = Skin/Hair Color, 3 = Skin/Tattoo Color, possibly flags
+int OptionType? // 0 = Slider, 1 = Checkbox
 float CameraZoom?
 int Field_9_0_1_34615_010?
-int Field_9_0_1_35989_OrderIndex2?
 
 LAYOUT 3F99DF9F
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
 Name_lang
 $id$ID<32>
-Field_9_0_1_34081_002<32>
+SecondaryID<32>
 Flags<32>
 OrderIndex<32>
 ChrCustomizationCategoryID<32>
@@ -28,7 +28,7 @@ LAYOUT 5C340158
 BUILD 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
 Name_lang
 $id$ID<32>
-Field_9_0_1_34081_002<32>
+SecondaryID<32>
 Flags<32>
 OrderIndex<32>
 ChrCustomizationCategoryID<32>
@@ -41,7 +41,7 @@ LAYOUT EB7143AC
 BUILD 9.0.1.35989
 Name_lang
 $id$ID<32>
-Field_9_0_1_34081_002<u16>
+SecondaryID<u16>
 Flags<32>
 $relation$ChrModelID<32>
 OrderIndex<32>
@@ -50,14 +50,14 @@ OptionType<32>
 CameraZoom
 ChrCustomizationID<32>
 Field_9_0_1_34615_010<32>
-Field_9_0_1_35989_OrderIndex2<32>
+SecondaryOrderIndex<32>
 
 LAYOUT 2B7BF5B8
 BUILD 9.0.2.35854, 9.0.2.35938
 BUILD 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755, 9.0.1.35789, 9.0.1.35828, 9.0.1.35853, 9.0.1.35897, 9.0.1.35917, 9.0.1.35944
 Name_lang
 $id$ID<32>
-Field_9_0_1_34081_002<u16>
+SecondaryID<u16>
 Flags<32>
 $relation$ChrModelID<32>
 OrderIndex<32>
