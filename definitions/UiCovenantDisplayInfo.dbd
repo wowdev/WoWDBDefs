@@ -3,11 +3,11 @@ int ID
 int<Covenant::ID> CovenantID
 int<UiTextureKit::ID> UiTextureKitID
 int<SoundKit::ID> CelebrationSoundKitID?
-int Field_9_0_2_35978_004?
-int Field_9_0_2_35978_005?
-int Field_9_0_2_35978_006?
-int Field_9_0_2_35978_007?
-int Field_9_0_2_35978_008?
+int<SoundKit::ID> Field_9_0_2_35978_004?
+int<SoundKit::ID> Field_9_0_2_35978_005?
+int<SoundKit::ID> Field_9_0_2_35978_006?
+int<SoundKit::ID> Field_9_0_2_35978_007?
+int<SoundKit::ID> Field_9_0_2_35978_008?
 
 LAYOUT 2F97ADFB
 BUILD 9.0.2.35854
