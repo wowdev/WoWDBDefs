@@ -37,21 +37,6 @@ CameraZoom
 ChrCustomizationID<32>
 $noninline,relation$ChrModelID<32>
 
-LAYOUT EB7143AC
-BUILD 9.0.1.35989
-Name_lang
-$id$ID<32>
-SecondaryID<u16>
-Flags<32>
-$relation$ChrModelID<32>
-OrderIndex<32>
-ChrCustomizationCategoryID<32>
-OptionType<32>
-CameraZoom
-ChrCustomizationID<32>
-Field_9_0_1_34615_010<32>
-SecondaryOrderIndex<32>
-
 LAYOUT 2B7BF5B8
 BUILD 9.0.2.35854, 9.0.2.35938
 BUILD 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755, 9.0.1.35789, 9.0.1.35828, 9.0.1.35853, 9.0.1.35897, 9.0.1.35917, 9.0.1.35944
@@ -66,3 +51,19 @@ OptionType<32>
 CameraZoom
 ChrCustomizationID<32>
 Field_9_0_1_34615_010<32>
+
+LAYOUT EB7143AC
+BUILD 9.0.2.35978
+BUILD 9.0.1.35989
+Name_lang
+$id$ID<32>
+SecondaryID<u16>
+Flags<32>
+$relation$ChrModelID<32>
+OrderIndex<32>
+ChrCustomizationCategoryID<32>
+OptionType<32>
+CameraZoom
+ChrCustomizationID<32>
+Field_9_0_1_34615_010<32>
+SecondaryOrderIndex<32>

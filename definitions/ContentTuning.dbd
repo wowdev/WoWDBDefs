@@ -13,6 +13,18 @@ int TargetLevelDelta?
 int TargetLevelMaxDelta // add to effective MaxLevel to get TargetLevelMax
 int Field_9_0_1_35598_LevelMin?
 int Field_9_0_1_35598_LevelMax?
+int Field_9_0_2_35978_000?
+int Field_9_0_2_35978_001?
+int Field_9_0_2_35978_002?
+int Field_9_0_2_35978_003?
+int Field_9_0_2_35978_004?
+int Field_9_0_2_35978_005?
+int Field_9_0_2_35978_006?
+int Field_9_0_2_35978_007?
+int Field_9_0_2_35978_008?
+int Field_9_0_2_35978_009?
+int Field_9_0_2_35978_010?
+int Field_9_0_2_35978_011?
 
 LAYOUT 70C53E15
 BUILD 8.0.1.26175
@@ -130,3 +142,18 @@ TargetLevelDelta<32>
 TargetLevelMaxDelta<32>
 Field_9_0_1_35598_LevelMin<32>
 Field_9_0_1_35598_LevelMax<32>
+
+LAYOUT 7802E330
+BUILD 9.0.2.35978
+$id$Field_9_0_2_35978_000<32>
+Field_9_0_2_35978_001<32>
+Field_9_0_2_35978_002<32>
+Field_9_0_2_35978_003<32>
+Field_9_0_2_35978_004<32>
+Field_9_0_2_35978_005<32>
+Field_9_0_2_35978_006<32>
+Field_9_0_2_35978_007<32>
+Field_9_0_2_35978_008<32>
+Field_9_0_2_35978_009<32>
+Field_9_0_2_35978_010<32>
+Field_9_0_2_35978_011<32>
