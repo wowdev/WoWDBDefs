@@ -8,14 +8,6 @@ int<UiTextureAtlasElement::ID> Portrait
 int<UiTextureKit::ID> TextureKitID
 int OrderIndex // per covenant
 int GlobalOrderIndex? // across covenants, might be cvarIndex
-locstring Field_9_0_2_35978_000_lang?
-int Field_9_0_2_35978_001?
-int Field_9_0_2_35978_002?
-int Field_9_0_2_35978_003?
-int Field_9_0_2_35978_004?
-int Field_9_0_2_35978_005?
-int Field_9_0_2_35978_006?
-int Field_9_0_2_35978_007?
 int Field_9_0_2_35978_008?
 
 LAYOUT C41BBE90
@@ -60,12 +52,12 @@ GlobalOrderIndex<32>
 
 LAYOUT 58274CBA
 BUILD 9.0.2.35978
-Field_9_0_2_35978_000_lang
-$id$Field_9_0_2_35978_001<32>
-Field_9_0_2_35978_002<32>
-Field_9_0_2_35978_003<32>
-Field_9_0_2_35978_004<32>
-Field_9_0_2_35978_005<32>
-Field_9_0_2_35978_006<32>
-Field_9_0_2_35978_007<32>
+Description_lang
+$id$ID<32>
+SoulbindID<32>
+CreatureDisplayInfoID<32>
+ModelSceneActorID<32>
+TextureKitID<32>
+OrderIndex<32>
+GlobalOrderIndex<32>
 Field_9_0_2_35978_008<32>
