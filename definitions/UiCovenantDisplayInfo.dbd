@@ -3,11 +3,11 @@ int ID
 int<Covenant::ID> CovenantID
 int<UiTextureKit::ID> UiTextureKitID
 int<SoundKit::ID> CelebrationSoundKitID?
-int<SoundKit::ID> Field_9_0_2_35978_004?
-int<SoundKit::ID> Field_9_0_2_35978_005?
-int<SoundKit::ID> Field_9_0_2_35978_006?
-int<SoundKit::ID> Field_9_0_2_35978_007?
-int<SoundKit::ID> Field_9_0_2_35978_008?
+int<SoundKit::ID> AnimaChannelSelectSoundKitID?
+int<SoundKit::ID> AnimaChannelActiveSoundKitID?
+int<SoundKit::ID> AnimaGemsFullSoundKitID?
+int<SoundKit::ID> AnimaNewGemSoundKitID?
+int<SoundKit::ID> AnimaReinforceSelectSoundKitID?
 
 LAYOUT 2F97ADFB
 BUILD 9.0.2.35854
@@ -29,8 +29,8 @@ $id$ID<32>
 CovenantID<32>
 UiTextureKitID<32>
 CelebrationSoundKitID<32>
-Field_9_0_2_35978_004<32>
-Field_9_0_2_35978_005<32>
-Field_9_0_2_35978_006<32>
-Field_9_0_2_35978_007<32>
-Field_9_0_2_35978_008<32>
+AnimaChannelSelectSoundKitID<32>
+AnimaChannelActiveSoundKitID<32>
+AnimaGemsFullSoundKitID<32>
+AnimaNewGemSoundKitID<32>
+AnimaReinforceSelectSoundKitID<32>
