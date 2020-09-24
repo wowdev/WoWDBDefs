@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int AmbienceID
+int<SoundKit::ID> AmbienceID
 int Flags
 int FlavorSoundFilterID
 int<SoundFilter::ID> SoundFilterID
