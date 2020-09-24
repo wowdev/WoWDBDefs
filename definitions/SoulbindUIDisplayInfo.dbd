@@ -8,7 +8,7 @@ int<UiTextureAtlasElement::ID> Portrait
 int<UiTextureKit::ID> TextureKitID
 int OrderIndex // per covenant
 int GlobalOrderIndex? // across covenants, might be cvarIndex
-int Field_9_0_2_35978_008?
+int<SoundKit::ID> ActivationSoundKitID
 
 LAYOUT C41BBE90
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
@@ -60,4 +60,4 @@ ModelSceneActorID<32>
 TextureKitID<32>
 OrderIndex<32>
 GlobalOrderIndex<32>
-Field_9_0_2_35978_008<32>
+ActivationSoundKitID<32>
