@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Spell::ID> SpellID
 int<Difficulty::ID> DifficultyID
-int Category
+int<SpellCategory::ID> Category
 int DefenseType
 int DispelType
 int Mechanic
