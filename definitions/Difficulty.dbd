@@ -15,7 +15,7 @@ int ItemContext
 int OrderIndex
 int Field_8_1_0_28151_011?
 int Field_8_1_0_28151_012?
-int Field_8_1_0_28151_013?
+int<Curve::ID> Field_8_1_0_28151_013?
 int Field_5_0_1_15589_003? // either minPlayers or maxPlayers
 int Field_5_2_0_16516_005?
 

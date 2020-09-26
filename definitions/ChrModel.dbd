@@ -12,9 +12,9 @@ int<ChrModel::ID> BaseRaceChrModelID?
 float Field_9_0_1_34615_010?
 float Field_9_0_1_35522_001?
 float ChrCreateFacing // in radians
-float Field_9_0_1_35598_013?
+float CameraDistanceOffset
 float Field_9_0_2_35854_014?
-float Field_9_0_2_35854_015?
+float Field_9_0_2_35854_015? // in radians, rotated by 180°?!
 
 LAYOUT 6FB2BE38
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -74,7 +74,7 @@ Field_9_0_1_34081_008<32>
 BaseRaceChrModelID<32>
 Field_9_0_1_34615_010
 ChrCreateFacing
-Field_9_0_1_35598_013
+CameraDistanceOffset
 
 LAYOUT E62BB49C
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037
@@ -92,6 +92,6 @@ Field_9_0_1_34081_008<32>
 BaseRaceChrModelID<32>
 Field_9_0_1_34615_010
 ChrCreateFacing
-Field_9_0_1_35598_013
+CameraDistanceOffset
 Field_9_0_2_35854_014
 Field_9_0_2_35854_015

@@ -6,7 +6,7 @@ int BaseLevel
 int MaxLevel
 int SpellLevel
 int MaxPassiveAuraLevel
-int Field_9_0_1_33978_003? // BaseLevel?
+int LearnLevel // Player level thisis learned at.
 int Field_9_0_1_33978_004? // SpellLevel?
 
 BUILD 5.0.1.15464-5.0.1.15544
@@ -75,6 +75,6 @@ $noninline,id$ID<32>
 DifficultyID<u8>
 MaxLevel<16>
 MaxPassiveAuraLevel<u8>
-Field_9_0_1_33978_003<32>
+LearnLevel<32>
 Field_9_0_1_33978_004<32>
 $noninline,relation$SpellID<32>

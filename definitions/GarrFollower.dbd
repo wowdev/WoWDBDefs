@@ -47,7 +47,7 @@ int Quality
 locstring TitleName_lang
 int Vitality
 int<GarrAutoCombatant::ID> GarrAutoCombatantID?
-int Field_9_0_1_34972_033?
+int<Covenant::ID> CovenantID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -327,4 +327,4 @@ ChrClassID<u8>
 Flags<u8>
 Gender<u8>
 GarrAutoCombatantID<32>
-Field_9_0_1_34972_033<32>
+CovenantID<32>
