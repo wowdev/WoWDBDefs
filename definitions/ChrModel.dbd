@@ -6,8 +6,8 @@ int<CreatureDisplayInfo::ID> DisplayID
 int<CharComponentTextureLayouts::ID> CharComponentTextureLayoutID?
 int Flags?
 int<FileData::ID> SkeletonFileDataID
-int Field_9_0_1_34081_007?
-int Field_9_0_1_34081_008?
+int<ChrModel::ID> Field_9_0_1_34081_007?
+int<ChrModel::ID> Field_9_0_1_34081_008?
 int<ChrModel::ID> BaseRaceChrModelID?
 float Field_9_0_1_34615_010?
 float Field_9_0_1_35522_001?
