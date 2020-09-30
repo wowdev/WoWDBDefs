@@ -3,6 +3,10 @@ int ID
 int<Covenant::ID> CovenantID? // seems to be uicovenantpreview::id, as per client
 int<Spell::ID> SpellID?
 int AbilityType? // 0 = Class, 1 = Race/Signature
+int Field_9_0_2_36086_000?
+int Field_9_0_2_36086_001?
+int Field_9_0_2_36086_002?
+int Field_9_0_2_36086_003?
 
 LAYOUT 740E35EC
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037
@@ -11,3 +15,11 @@ $noninline,id$ID<32>
 $relation$CovenantID<32>
 SpellID<32>
 AbilityType<8>
+
+LAYOUT 7286CBAB
+BUILD 9.0.2.36086
+$noninline,id$ID<32>
+$relation$Field_9_0_2_36086_000<32>
+Field_9_0_2_36086_001<32>
+Field_9_0_2_36086_002<8>
+Field_9_0_2_36086_003<32>
