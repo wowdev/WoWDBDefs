@@ -10,7 +10,7 @@ int<HolidayDescriptions::ID> HolidayDescriptionID
 string TextureFileName
 int Priority
 int CalendarFilterType
-int Flags // 1 = IsRegionwide, 2 = DontShowInCalendar, 4 = DontDisplayEnd, 8 = DontDisplayBanner
+int Flags // &1: IsRegionwide; &2: DontShowInCalendar; &4: DontDisplayEnd; &8: DontDisplayBanner; &0x10: NotAvailableClientSide
 int<FileData::ID> TextureFileDataID
 int Field_1_13_2_30073_008?
 
