@@ -12,22 +12,9 @@ int<Mount::ID> MountID
 int PlayerChoiceResponseID
 int Field_9_0_1_33978_008?
 int Field_9_0_1_34902_009?
-locstring Field_9_0_2_36086_000_lang?
-locstring Field_9_0_2_36086_001_lang?
-int Field_9_0_2_36086_002?
-int Field_9_0_2_36086_003?
-int Field_9_0_2_36086_004?
-int Field_9_0_2_36086_005?
-int Field_9_0_2_36086_006?
-int Field_9_0_2_36086_007?
-int Field_9_0_2_36086_008?
-int Field_9_0_2_36086_009?
-int Field_9_0_2_36086_010?
-int Field_9_0_2_36086_011?
-int Field_9_0_2_36086_012?
-int Field_9_0_2_36086_013?
-int Field_9_0_2_36086_014?
-int Field_9_0_2_36086_015?
+locstring Field_9_0_2_36086_000_lang? // feature name?
+locstring Field_9_0_2_36086_001_lang? // feature descrition?
+int Field_9_0_2_36086_015? // feature texture id?
 
 LAYOUT 0BFCF660
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821
@@ -62,17 +49,17 @@ LAYOUT 09E1B4C7
 BUILD 9.0.2.36086
 Field_9_0_2_36086_000_lang
 Field_9_0_2_36086_001_lang
-$id$Field_9_0_2_36086_002<32>
-Field_9_0_2_36086_003<32>
-Field_9_0_2_36086_004<32>
-Field_9_0_2_36086_005<32>
-Field_9_0_2_36086_006<32>
-Field_9_0_2_36086_007<32>
-Field_9_0_2_36086_008<32>
-Field_9_0_2_36086_009<32>
-Field_9_0_2_36086_010<32>
-Field_9_0_2_36086_011<32>
-Field_9_0_2_36086_012<32>
-Field_9_0_2_36086_013<32>
-Field_9_0_2_36086_014<32>
+$id$ID<32>
+CovenantID<32>
+UiMapID<32>
+Crest<32>
+TransmogSetID0<32>
+TextureKit<32>
+MountID<32>
+PlayerChoiceResponseID<32>
+Field_9_0_1_33978_008<32>
+Field_9_0_1_34902_009<32>
+TransmogSetID1<32>
+TransmogSetID2<32>
+TransmogSetID3<32>
 Field_9_0_2_36086_015<32>
