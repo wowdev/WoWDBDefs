@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-float RangeMin
-float RangeMax
+float RangeMin // RangeMin[0] = Enemy, RangeMin[1] Friendly
+float RangeMax // RangeMax[0] = Enemy, RangeMax[1] Friendly
 int Flags // &1: Melee (ignore RangeMin, set to 0); &2: Ranged (add 5 to RangeMin)
 locstring DisplayName_lang
 locstring DisplayNameShort_lang
