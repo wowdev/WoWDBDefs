@@ -1,7 +1,7 @@
 COLUMNS
-int ID?
+int ID
 int CondExtendedCost?
-int ItemExtendedCostEntry?
+int<ItemExtendedCost::ID> ItemExtendedCostEntry
 int ArenaSeason?
 
 BUILD 4.0.0.11792-4.2.0.14316

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int InventoryType
-int<ItemClass::ID> ItemClass
+int<ItemClass::ClassID> ItemClass
 int<ItemSubClass::ID> ItemSubclass
 int<UiCamera::ID> UiCameraID
 
