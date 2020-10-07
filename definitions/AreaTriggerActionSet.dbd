@@ -1,6 +1,7 @@
 COLUMNS
 int ID
 int Flags // &0x8: ignore player Y > 0, &0x10: ignore player flag X
+int Field_9_0_2_36165_000?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -28,3 +29,8 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
 Flags<16>
+
+LAYOUT D7673266
+BUILD 9.0.2.36165
+$noninline,id$ID<32>
+Field_9_0_2_36165_000<32>

@@ -5,6 +5,14 @@ int ID
 int<BountySet::ID> BountySetID
 int Field_9_0_1_35755_004?
 int<Spell::ID> TeleportSpell?
+locstring Field_9_0_2_36165_000_lang?
+locstring Field_9_0_2_36165_001_lang?
+int Field_9_0_2_36165_002?
+int Field_9_0_2_36165_003?
+int Field_9_0_2_36165_004?
+int Field_9_0_2_36165_005?
+int Field_9_0_2_36165_006?
+int Field_9_0_2_36165_007?
 
 LAYOUT 0CA77A5C
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
@@ -36,3 +44,14 @@ $id$ID<32>
 BountySetID<32>
 Field_9_0_1_35755_004<32>
 TeleportSpell<32>
+
+LAYOUT 551DD981
+BUILD 9.0.2.36165
+Field_9_0_2_36165_000_lang
+Field_9_0_2_36165_001_lang
+$id$Field_9_0_2_36165_002<32>
+Field_9_0_2_36165_003<32>
+Field_9_0_2_36165_004<32>
+Field_9_0_2_36165_005<32>
+Field_9_0_2_36165_006<32>
+Field_9_0_2_36165_007<32>
