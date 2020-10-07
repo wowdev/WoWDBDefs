@@ -4,8 +4,8 @@ int<Spell::ID> SpellID
 int<Difficulty::ID> DifficultyID
 int Attributes
 int<SpellCastTimes::ID> CastingTimeIndex
-int DurationIndex
-int RangeIndex
+int<SpellDuration::ID> DurationIndex
+int<SpellRange::ID> RangeIndex
 float Speed
 int<SpellVisual::ID> SpellVisualID
 int<SpellIcon::ID> SpellIconID
