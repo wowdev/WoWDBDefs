@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int<Covenant::ID> CovenantID? // seems to be uicovenantpreview::id, as per client
+int<UICovenantPreview::ID> CovenantPreviewID
 int<Spell::ID> SpellID
 int AbilityType // 0 = Class, 1 = Race/Signature, 2 = Soulbind
-int Field_9_0_2_36086_003?
+int<SoulbindUIDisplayInfo::ID> SoulbindDisplayInfoID
 
 LAYOUT 740E35EC
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037
@@ -19,4 +19,4 @@ $noninline,id$ID<32>
 $relation$CovenantID<32>
 SpellID<32>
 AbilityType<8>
-Field_9_0_2_36086_003<32>
+SoulbindDisplayInfoID<32>

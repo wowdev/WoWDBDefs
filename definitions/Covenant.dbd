@@ -5,8 +5,8 @@ int ID
 int<BountySet::ID> BountySetID
 int Field_9_0_1_35755_004?
 int<Spell::ID> TeleportSpell?
-int Field_9_0_2_36165_006? // Spell?
-int Field_9_0_2_36165_007? // Spell?
+int<Spell::ID> Field_9_0_2_36165_006?
+int<Spell::ID> Field_9_0_2_36165_007?
 
 LAYOUT 0CA77A5C
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
