@@ -10,7 +10,7 @@ int SecondaryOrderIndex? // also per ChrModelID, but often Skin Color and Face o
 int Flags? // 1 = Tattoo/Pattern, 2 = Skin/Hair Color, 3 = Skin/Tattoo Color, possibly flags
 int OptionType? // 0 = Slider, 1 = Checkbox
 float CameraZoom?
-int Field_9_0_1_34615_010?
+int<ChrCustomizationReq::ID> Requirement
 
 LAYOUT 3F99DF9F
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
@@ -50,7 +50,7 @@ ChrCustomizationCategoryID<32>
 OptionType<32>
 CameraZoom
 ChrCustomizationID<32>
-Field_9_0_1_34615_010<32>
+Requirement<32>
 
 LAYOUT EB7143AC
 BUILD 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.36165
@@ -65,5 +65,5 @@ ChrCustomizationCategoryID<32>
 OptionType<32>
 CameraZoom
 ChrCustomizationID<32>
-Field_9_0_1_34615_010<32>
+Requirement<32>
 SecondaryOrderIndex<32>

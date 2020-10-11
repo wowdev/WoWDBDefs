@@ -39,8 +39,8 @@ int<SpellVisualKit::ID> CharStartKit_SpellVisualKitID_Female_Fallback? // fall b
 int<SpellVisualKit::ID> CharStartKit_Field_9_0_1_34615_004_Female_Fallback? // fall back to CharStartKit_Field_9_0_1_34615_004_Fallback if not set
 int Field_9_0_1_34821_023?
 int<SpellVisualKit::ID> CharStartKit_GroundSpellVisualKitID_Fallback?
-int<SpellVisualKit::ID> Field_9_0_1_34821_025?
-int Field_9_0_1_35360_025?
+int<SpellVisualKit::ID> CharStartKit_Field_9_0_1_34821_009_Fallback?
+int CharStartKit_AnimLoopWaitTimeMs_Fallback?
 int Field_2_0_0_6080_009?
 locstring Name_male_wrapping_lang? // same as Name_x_lang, but with dashes and newlines for very long words
 locstring Name_female_wrapping_lang?
@@ -576,7 +576,7 @@ CharStartKit_SpellVisualKitID_Female_Fallback<32>
 CharStartKit_Field_9_0_1_34615_004_Female_Fallback<32>
 Field_9_0_1_34821_023<32>
 CharStartKit_GroundSpellVisualKitID_Fallback<32>
-Field_9_0_1_34821_025<32>
+CharStartKit_Field_9_0_1_34821_009_Fallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>
@@ -615,7 +615,7 @@ CharStartKit_SpellVisualKitID_Female_Fallback<32>
 CharStartKit_Field_9_0_1_34615_004_Female_Fallback<32>
 Field_9_0_1_34821_023<32>
 CharStartKit_GroundSpellVisualKitID_Fallback<32>
-Field_9_0_1_34821_025<32>
+CharStartKit_Field_9_0_1_34821_009_Fallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>
@@ -654,8 +654,8 @@ CharStartKit_SpellVisualKitID_Female_Fallback<32>
 CharStartKit_Field_9_0_1_34615_004_Female_Fallback<32>
 Field_9_0_1_34821_023<32>
 CharStartKit_GroundSpellVisualKitID_Fallback<32>
-Field_9_0_1_34821_025<32>
-Field_9_0_1_35360_025<32>
+CharStartKit_Field_9_0_1_34821_009_Fallback<32>
+CharStartKit_AnimLoopWaitTimeMs_Fallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>
@@ -697,8 +697,8 @@ CharStartKit_SpellVisualKitID_Female_Fallback<32>
 CharStartKit_Field_9_0_1_34615_004_Female_Fallback<32>
 Field_9_0_1_34821_023<32>
 CharStartKit_GroundSpellVisualKitID_Fallback<32>
-Field_9_0_1_34821_025<32>
-Field_9_0_1_35360_025<32>
+CharStartKit_Field_9_0_1_34821_009_Fallback<32>
+CharStartKit_AnimLoopWaitTimeMs_Fallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>

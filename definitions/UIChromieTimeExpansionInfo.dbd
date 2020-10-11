@@ -6,7 +6,7 @@ int<Spell::ID> SpellID
 int<UiTextureAtlasElement::ID> UiTextureAtlasElementLarge
 int<UiTextureAtlasElement::ID> UiTextureAtlasElementSmall
 int<PlayerCondition::ID> AlreadyOn
-int Mask_9_0_1_34821_007? // The way ModifierTree references these, type 301.
+int ExpansionLevelMask? // The way ModifierTree references these, type 301.
 int<ContentTuning::ID> ContentTuningID
 int<PlayerCondition::ID> Completed
 
@@ -29,7 +29,7 @@ SpellID<32>
 UiTextureAtlasElementLarge<32>
 UiTextureAtlasElementSmall<32>
 AlreadyOn<32>
-Mask_9_0_1_34821_007<32>
+ExpansionLevelMask<32>
 
 LAYOUT BD07FADF
 BUILD 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522
@@ -40,7 +40,7 @@ SpellID<32>
 UiTextureAtlasElementLarge<32>
 UiTextureAtlasElementSmall<32>
 AlreadyOn<32>
-Mask_9_0_1_34821_007<32>
+ExpansionLevelMask<32>
 ContentTuningID<32>
 
 LAYOUT 3EEBBD91
@@ -53,6 +53,6 @@ SpellID<32>
 UiTextureAtlasElementLarge<32>
 UiTextureAtlasElementSmall<32>
 AlreadyOn<32>
-Mask_9_0_1_34821_007<32>
+ExpansionLevelMask<32>
 ContentTuningID<32>
 Completed<32>

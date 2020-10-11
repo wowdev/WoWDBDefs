@@ -15,7 +15,7 @@ float Field_9_0_1_35167_001?
 float Field_9_0_1_35167_011?
 float ChrModel_9_0_1_35522_001Override? // moved to ChrClassUIChrModelInfo
 float ChrModel_9_0_1_35522_001Override_Female? // moved to ChrClassUIChrModelInfo
-int Field_9_0_1_35360_014?
+int AnimLoopWaitTimeMs // fall back to column in ChrClasses if notset
 
 LAYOUT CC89E761
 BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
@@ -127,7 +127,7 @@ Field_9_0_1_34821_007<32>
 GroundSpellVisualKitID<32>
 Field_9_0_1_34821_009<32>
 Field_9_0_1_35167_011
-Field_9_0_1_35360_014<32>
+AnimLoopWaitTimeMs<32>
 $noninline,relation$ChrRacesID<u8>
 
 LAYOUT F22C193E
@@ -146,5 +146,5 @@ Field_9_0_1_34821_007<32>
 GroundSpellVisualKitID<32>
 Field_9_0_1_34821_009<32>
 Field_9_0_1_35167_011
-Field_9_0_1_35360_014<32>
+AnimLoopWaitTimeMs<32>
 $noninline,relation$ChrRacesID<u8>
