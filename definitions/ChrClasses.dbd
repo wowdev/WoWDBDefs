@@ -30,8 +30,8 @@ int ChatColorR?
 int ChatColorG?
 int ChatColorB?
 locstring ClassFantasyDescription_lang?
-locstring Roles_lang?
-locstring RequirementsFail_lang?
+locstring Roles_lang
+locstring RequirementsFail_lang
 int Field_9_0_1_34490_018?
 int<SpellVisualKit::ID> CharStartKit_SpellVisualKitID_Fallback?
 int<SpellVisualKit::ID> CharStartKit_Field_9_0_1_34615_004_Fallback?
@@ -42,8 +42,8 @@ int<SpellVisualKit::ID> CharStartKit_GroundSpellVisualKitID_Fallback?
 int<SpellVisualKit::ID> Field_9_0_1_34821_025?
 int Field_9_0_1_35360_025?
 int Field_2_0_0_6080_009?
-locstring Field_9_0_2_35854_008_lang?
-locstring Field_9_0_2_35854_009_lang?
+locstring Name_male_wrapping_lang? // same as Name_x_lang, but with dashes and newlines for very long words
+locstring Name_female_wrapping_lang?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -679,8 +679,8 @@ PetNameToken
 ClassFantasyDescription_lang
 Roles_lang
 RequirementsFail_lang
-Field_9_0_2_35854_008_lang
-Field_9_0_2_35854_009_lang
+Name_male_wrapping_lang
+Name_female_wrapping_lang
 $id$ID<32>
 CreateScreenFileDataID<u32>
 SelectScreenFileDataID<u32>
