@@ -2,7 +2,7 @@ COLUMNS
 int ID
 locstring InfoName_lang
 int Modifiers
-int Profession
+int<SkillLine::ID> Profession
 int Type // 0 = Tag, 1 = Profession, 2 = Normal, 3 = Pvp, 4 = PetBattle, 5 = Bounty, 6 = Dungeon, 7 = Invasion, 8 = Raid, 9 = Contribution, 10 = RatedReward, 11 = InvasionWrapper, 12 = FactionAssault, 13 = Islands, 14 = Threat
 
 BUILD 6.0.1.18179
