@@ -3,7 +3,7 @@ int ID
 string BackgroundFile
 int<ChrClasses::ID> ClassID
 int<Spell::ID> MasterySpellID
-int OrderIndex
+~CharSpecOrderIndex OrderIndex
 int PetTalentType
 int Role
 int<SpellIcon::ID> SpellIconID

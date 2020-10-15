@@ -2,10 +2,10 @@ COLUMNS
 int ID?
 int<GarrAutoSpell::ID> GarrAutoSpellID?
 int Order?
-int EffectType? // 0: ?, 1: DealAutoDamage, 2: Heal, 3: DealDamage, 4: Heal, 5: like-7, 6: like-7, 7: Dot, 8: Hot, 9: like-10, 10: taunt/become untargetable, 11: like-12, 12: damage dealt multiplier, 13: like-12, 14: damage taken multiplier, 15: JasonTest Passive, 16: like-15, 17: JasonTest Ability Spell, 18: increase max health
+~GarrAutoSpellEffect EffectType
 float Amount?
-int Targets? // 2|4: all allies; 1|4: farthest enemy, 1|2|4|8: all enemies in melee range; 1|2: the closest enemy; 1|4: all enemies at range; 1|8: adjacent enemies; 2: closest ally, 1: self, 2: closest ally, 1|2: melee, 1|4: ranged, 1|8: all adjacent enemies, 16: all ranged allies, 2|4: all allies and self, 16|1: all ranged enemies, 1|2|4: all enemies
-int Flags? // &1: ???, &2: ???
+~GarrAutoSpellTarget Targets
+~GarrAutoSpellEffectFlags Flags
 int RepeatFrequency? // 2: "every other round"
 
 LAYOUT 8A09C203

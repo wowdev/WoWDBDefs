@@ -4,7 +4,7 @@ int ID
 int<CharShipmentContainer::ID> ContainerID
 int<Item::ID> DummyItemID
 int Duration
-int Flags
+~CharShipmentFlags Flags
 int<GarrFollower::ID> GarrFollowerID
 int MaxShipments
 int<Spell::ID> OnCompleteSpellID

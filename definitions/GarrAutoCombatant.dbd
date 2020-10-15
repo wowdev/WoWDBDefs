@@ -8,7 +8,7 @@ int<GarrAutoSpell::ID> Slot1?
 int<GarrAutoSpell::ID> Slot2?
 int<GarrAutoSpell::ID> Slot3?
 int<GarrAutoSpell::ID> Slot4?
-int Role // 0: None, 1: Melee, 2: RangedPhysical, 3: RangedMagic, 4: HealSupport, 5: Tank
+~GarrAutoCombatantRole Role
 
 LAYOUT BC77BB9B
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037

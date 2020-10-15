@@ -15,11 +15,11 @@ int<SceneScriptPackage::ID> AllianceSceneScriptPackageID
 int<UiTextureKit::ID> AllianceUiTextureKitID
 int BonusGarrAbilityID
 int BuildSeconds
-int BuildingType
+~GarrisonBuildingType BuildingType
 int CurrencyQty
 int<CurrencyTypes::ID> CurrencyTypeID
 locstring Description_lang
-int Flags
+~GarrBuildingFlags Flags
 int<GarrAbility::ID> GarrAbilityID
 int GarrSiteID
 int<GarrType::ID> GarrTypeID

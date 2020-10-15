@@ -6,7 +6,7 @@ int<FileData::ID> PortraitFileDataID
 float UiAnimHeight
 float UiAnimScale
 int<UiTextureKit::ID> UiTextureKitID
-int Flags
+~GarrEncounterFlags Flags
 int<GarrAutoCombatant::ID> GarrAutoCombatantID?
 
 BUILD 6.0.1.18179

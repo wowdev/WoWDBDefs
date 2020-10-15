@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Category // GARR_MECHANIC_CATEGORY: 0: Environment; 1: EnemyRace; 2: Encounter
+~GarrMechanicCategory Category
 locstring Description_lang
 int<FileData::ID> IconFileDataID
 locstring Name_lang

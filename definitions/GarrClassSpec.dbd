@@ -3,7 +3,7 @@ int ID
 locstring ClassSpec_lang
 locstring ClassSpec_Female_lang
 locstring ClassSpec_Male_lang
-int Flags
+~GarrClassSpecFlags Flags
 int FollowerClassLimit
 int<GarrFollItemSet::ID> GarrFollItemSetID
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID

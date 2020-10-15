@@ -3,7 +3,7 @@ int ID
 int AbilityCount
 int ClassSpecID
 int<GarrFollowerType::ID> GarrFollowerTypeID
-int Quality // GARR_FOLLOWER_QUALITY: 0: None; 1: Common; 2: Uncommon; 3: Rare; 4: Epic; 5: Legendary; 6: Title
+~GarrFollowerQuality Quality
 int ShipmentXP
 int TraitCount
 int XpToNextQuality

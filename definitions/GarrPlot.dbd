@@ -3,7 +3,7 @@ string Name
 int UpgradeRequirement
 int ID
 int<GameObjects::ID> AllianceConstructObjID
-int Flags
+~GarrPlotFlags Flags
 int<GameObjects::ID> HordeConstructObjID
 int PlotType
 int UiCategoryID

@@ -18,7 +18,7 @@ int BaseFollowerXP
 locstring Description_lang
 int EnvGarrMechanicID
 int EnvGarrMechanicTypeID
-int Flags // GARR_MISSION_FLAGS: &0x1: isRare; &0x2: isElite; &0x4: appliesFatigue; &0x8: alwaysFail; &0x10: isZoneSupport
+~GarrMissionFlags Flags
 int FollowerDeathChance
 int<GarrFollowerType::ID> GarrFollowerTypeID
 int GarrMissionSetID

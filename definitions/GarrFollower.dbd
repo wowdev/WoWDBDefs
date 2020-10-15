@@ -26,7 +26,7 @@ int AllianceSourceTypeEnum
 int<UiTextureKit::ID> AllianceUITextureKitID
 int AllySlottingBroadcastTextID
 int ChrClassID
-int Flags
+~GarrFollowerFlags Flags
 int FollowerLevel
 int<GarrFollowerType::ID> GarrFollowerTypeID
 int<GarrType::ID> GarrTypeID

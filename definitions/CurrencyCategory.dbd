@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Flags
+~CurrencyTokenCategoryFlags Flags
 locstring Name_lang
 int ExpansionID
 
