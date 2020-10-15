@@ -37,7 +37,7 @@ namespace DBDefsConverter
                         exportFormat = args[2];
                         break;
                     default:
-                        throw new ArgumentException("Export format should be json");
+                        throw new ArgumentException("Export format should be json or xml");
                 }
             }
 
