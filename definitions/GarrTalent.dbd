@@ -22,7 +22,7 @@ int UiOrder
 int TalentType
 int<GarrTalent::ID> PrerequisiteTalentID
 int ResearchCostSource // 0: Talent, 1: Tree
-int Field_9_0_1_33978_013?
+int ActiveDurationSecs
 int<GarrTalentSocketProperties::ID> GarrTalentSocketPropertiesID
 
 LAYOUT FA331244
@@ -175,7 +175,7 @@ Flags<8>
 TalentType<32>
 PrerequisiteTalentID<32>
 ResearchCostSource<32>
-Field_9_0_1_33978_013<32>
+ActiveDurationSecs<32>
 
 LAYOUT E4B665DF
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.36165
@@ -193,5 +193,5 @@ Flags<8>
 TalentType<32>
 PrerequisiteTalentID<32>
 ResearchCostSource<32>
-Field_9_0_1_33978_013<32>
+ActiveDurationSecs<32>
 GarrTalentSocketPropertiesID<32>

@@ -1,12 +1,12 @@
 COLUMNS
-locstring Name_lang?
-locstring Description_lang?
-int ID?
-int Cooldown?
-int Duration?
-int Flags? // &1: ???
-int SpellSchoolMask? // 1: Physical, 2: Holy, 4: Fire, 8: Nature, 16: Frost, 32: Shadow, 64: Arcane
-int<FileData::ID> IconFileDataID?
+locstring Name_lang
+locstring Description_lang
+int ID
+int Cooldown
+int Duration
+int Flags // &1: ???
+int SchoolMask // 1: Physical, 2: Holy, 4: Fire, 8: Nature, 16: Frost, 32: Shadow, 64: Arcane
+int<FileData::ID> IconFileDataID
 
 LAYOUT DFD06B4A
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.36165
@@ -17,5 +17,5 @@ $id$ID<32>
 Cooldown<32>
 Duration<32>
 Flags<32>
-SpellSchoolMask<32>
+SchoolMask<32>
 IconFileDataID<32>

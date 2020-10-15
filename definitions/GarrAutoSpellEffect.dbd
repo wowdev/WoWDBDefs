@@ -1,21 +1,21 @@
 COLUMNS
 int ID?
-int<GarrAutoSpell::ID> GarrAutoSpellID?
-int Order?
-int EffectType? // 0: ?, 1: DealAutoDamage, 2: Heal, 3: DealDamage, 4: Heal, 5: like-7, 6: like-7, 7: Dot, 8: Hot, 9: like-10, 10: taunt/become untargetable, 11: like-12, 12: damage dealt multiplier, 13: like-12, 14: damage taken multiplier, 15: JasonTest Passive, 16: like-15, 17: JasonTest Ability Spell, 18: increase max health
-float Amount?
-int Targets? // 2|4: all allies; 1|4: farthest enemy, 1|2|4|8: all enemies in melee range; 1|2: the closest enemy; 1|4: all enemies at range; 1|8: adjacent enemies; 2: closest ally, 1: self, 2: closest ally, 1|2: melee, 1|4: ranged, 1|8: all adjacent enemies, 16: all ranged allies, 2|4: all allies and self, 16|1: all ranged enemies, 1|2|4: all enemies
-int Flags? // &1: ???, &2: ???
-int RepeatFrequency? // 2: "every other round"
+int<GarrAutoSpell::ID> SpellID
+int EffectIndex
+int Effect // 0: ?, 1: DealAutoDamage, 2: Heal, 3: DealDamage, 4: Heal, 5: like-7, 6: like-7, 7: Dot, 8: Hot, 9: like-10, 10: taunt/become untargetable, 11: like-12, 12: damage dealt multiplier, 13: like-12, 14: damage taken multiplier, 15: JasonTest Passive, 16: like-15, 17: JasonTest Ability Spell, 18: increase max health
+float Points
+int TargetType // 2|4: all allies; 1|4: farthest enemy, 1|2|4|8: all enemies in melee range; 1|2: the closest enemy; 1|4: all enemies at range; 1|8: adjacent enemies; 2: closest ally, 1: self, 2: closest ally, 1|2: melee, 1|4: ranged, 1|8: all adjacent enemies, 16: all ranged allies, 2|4: all allies and self, 16|1: all ranged enemies, 1|2|4: all enemies
+int Flags // &1: ???, &2: ???
+int Period // 2: "every other round"
 
 LAYOUT 8A09C203
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.36165
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755, 9.0.1.35789, 9.0.1.35828, 9.0.1.35853, 9.0.1.35897, 9.0.1.35917, 9.0.1.35944, 9.0.1.35989, 9.0.1.36021, 9.0.1.36036, 9.0.1.36074, 9.0.1.36131, 9.0.1.36163, 9.0.1.36200, 9.0.1.36216, 9.0.1.36228, 9.0.1.36230, 9.0.1.36247
 $id$ID<32>
-$relation$GarrAutoSpellID<32>
-Order<u8>
-EffectType<32>
-Amount
-Targets<32>
+$relation$SpellID<32>
+EffectIndex<u8>
+Effect<32>
+Points
+TargetType<32>
 Flags<32>
-RepeatFrequency<32>
+Period<32>

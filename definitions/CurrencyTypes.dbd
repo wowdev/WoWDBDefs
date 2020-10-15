@@ -16,8 +16,8 @@ int BitIndex
 int<Faction::ID> FactionID
 int<ItemGroupSounds::ID> ItemGroupSoundsID?
 int<PlayerCondition::ID> AwardConditionID
-int Field_9_0_1_34972_013? // key into data sent by the server
-int XpQuestDifficulty? // Correct if 2 for ID 1566. ConvertToPlayerExperience?
+int MaxQtyWorldStateID // key into data sent by the server
+int XpQuestDifficulty // Correct if 2 for ID 1566. ConvertToPlayerExperience?
 
 BUILD 4.0.0.11792
 BUILD 3.0.1.8622-3.3.5.12340
@@ -246,7 +246,7 @@ FactionID<32>
 ItemGroupSoundsID<32>
 XpQuestDifficulty<32>
 AwardConditionID<32>
-Field_9_0_1_34972_013<32>
+MaxQtyWorldStateID<32>
 Flags<32>[2]
 
 LAYOUT 33B2E0C5
@@ -266,5 +266,5 @@ FactionID<32>
 ItemGroupSoundsID<32>
 XpQuestDifficulty<32>
 AwardConditionID<32>
-Field_9_0_1_34972_013<32>
+MaxQtyWorldStateID<32>
 Flags<32>[2]

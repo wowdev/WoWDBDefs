@@ -46,7 +46,7 @@ int ItemLevelWeapon
 int Quality
 locstring TitleName_lang
 int Vitality
-int<GarrAutoCombatant::ID> GarrAutoCombatantID?
+int<GarrAutoCombatant::ID> AutoCombatantID
 int<Covenant::ID> CovenantID
 
 BUILD 6.0.1.18179
@@ -290,7 +290,7 @@ AllySlottingBroadcastTextID<u32>
 ChrClassID<u8>
 Flags<u8>
 Gender<u8>
-GarrAutoCombatantID<32>
+AutoCombatantID<32>
 
 LAYOUT 712646FC
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.36165
@@ -327,5 +327,5 @@ AllySlottingBroadcastTextID<u32>
 ChrClassID<u8>
 Flags<u8>
 Gender<u8>
-GarrAutoCombatantID<32>
+AutoCombatantID<32>
 CovenantID<32>

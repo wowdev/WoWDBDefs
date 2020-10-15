@@ -3,8 +3,8 @@ locstring Name_lang
 locstring Description_lang
 int ID
 int<BountySet::ID> BountySetID
-int Field_9_0_1_35755_004?
-int<Spell::ID> TeleportSpell?
+int<SkillLine::ID> SkillLineID
+int<Spell::ID> DeathTeleportSpellID
 int<Spell::ID> Field_9_0_2_36165_006?
 int<Spell::ID> Field_9_0_2_36165_007?
 
@@ -27,7 +27,7 @@ Name_lang
 Description_lang
 $id$ID<32>
 BountySetID<32>
-Field_9_0_1_35755_004<32>
+SkillLineID<32>
 
 LAYOUT 734897E4
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037, 9.0.2.36086
@@ -36,8 +36,8 @@ Name_lang
 Description_lang
 $id$ID<32>
 BountySetID<32>
-Field_9_0_1_35755_004<32>
-TeleportSpell<32>
+SkillLineID<32>
+DeathTeleportSpellID<32>
 
 LAYOUT 551DD981
 BUILD 9.0.2.36165
@@ -45,7 +45,7 @@ Name_lang
 Description_lang
 $id$ID<32>
 BountySetID<32>
-Field_9_0_1_35755_004<32>
-TeleportSpell<32>
+SkillLineID<32>
+DeathTeleportSpellID<32>
 Field_9_0_2_36165_006<32>
 Field_9_0_2_36165_007<32>

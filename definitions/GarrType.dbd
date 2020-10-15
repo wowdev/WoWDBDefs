@@ -5,7 +5,7 @@ int Flags
 int<Map::ID> MapIDs
 int<CurrencyTypes::ID> PrimaryCurrencyTypeID
 int<CurrencyTypes::ID> SecondaryCurrencyTypeID
-float AdventurerSelfHealRate?
+float AutoFollowerHealRate
 int<Curve::ID> MissionCostCurveID?
 
 LAYOUT 40A23048
@@ -65,7 +65,7 @@ PrimaryCurrencyTypeID<u32>
 SecondaryCurrencyTypeID<u32>
 ExpansionID<u32>
 Flags<u32>
-AdventurerSelfHealRate
+AutoFollowerHealRate
 MapIDs<32>[2]
 
 LAYOUT 955ACFDF
@@ -76,6 +76,6 @@ PrimaryCurrencyTypeID<u32>
 SecondaryCurrencyTypeID<u32>
 ExpansionID<u32>
 Flags<u32>
-AdventurerSelfHealRate
+AutoFollowerHealRate
 MissionCostCurveID<32>
 MapIDs<32>[2]

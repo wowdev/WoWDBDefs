@@ -29,9 +29,9 @@ int ArmorTypeMask // 1 << ItemSubClass::SubClassID where ItemSubClass::ClassID =
 int ChatColorR?
 int ChatColorG?
 int ChatColorB?
-locstring ClassFantasyDescription_lang?
-locstring Roles_lang
-locstring RequirementsFail_lang
+locstring Description_lang?
+locstring RoleInfoString_lang
+locstring DisabledString_lang
 int Field_9_0_1_34490_018?
 int<SpellVisualKit::ID> CharStartKit_SpellVisualKitID_Fallback?
 int<SpellVisualKit::ID> CharStartKit_Field_9_0_1_34615_004_Fallback?
@@ -42,8 +42,8 @@ int<SpellVisualKit::ID> CharStartKit_GroundSpellVisualKitID_Fallback?
 int<SpellVisualKit::ID> CharStartKit_Field_9_0_1_34821_009_Fallback?
 int CharStartKit_AnimLoopWaitTimeMs_Fallback?
 int Field_2_0_0_6080_009?
-locstring Name_male_wrapping_lang? // same as Name_x_lang, but with dashes and newlines for very long words
-locstring Name_female_wrapping_lang?
+locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
+locstring Hyphenated_name_female_lang?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -456,9 +456,9 @@ Filename
 Name_male_lang
 Name_female_lang
 PetNameToken
-ClassFantasyDescription_lang
-Roles_lang
-RequirementsFail_lang
+Description_lang
+RoleInfoString_lang
+DisabledString_lang
 $id$ID<32>
 CreateScreenFileDataID<u32>
 SelectScreenFileDataID<u32>
@@ -488,9 +488,9 @@ Filename
 Name_male_lang
 Name_female_lang
 PetNameToken
-ClassFantasyDescription_lang
-Roles_lang
-RequirementsFail_lang
+Description_lang
+RoleInfoString_lang
+DisabledString_lang
 $id$ID<32>
 CreateScreenFileDataID<u32>
 SelectScreenFileDataID<u32>
@@ -522,9 +522,9 @@ Filename
 Name_male_lang
 Name_female_lang
 PetNameToken
-ClassFantasyDescription_lang
-Roles_lang
-RequirementsFail_lang
+Description_lang
+RoleInfoString_lang
+DisabledString_lang
 $id$ID<32>
 CreateScreenFileDataID<u32>
 SelectScreenFileDataID<u32>
@@ -557,9 +557,9 @@ Filename
 Name_male_lang
 Name_female_lang
 PetNameToken
-ClassFantasyDescription_lang
-Roles_lang
-RequirementsFail_lang
+Description_lang
+RoleInfoString_lang
+DisabledString_lang
 $id$ID<32>
 CreateScreenFileDataID<u32>
 SelectScreenFileDataID<u32>
@@ -597,9 +597,9 @@ Filename
 Name_male_lang
 Name_female_lang
 PetNameToken
-ClassFantasyDescription_lang
-Roles_lang
-RequirementsFail_lang
+Description_lang
+RoleInfoString_lang
+DisabledString_lang
 $id$ID<32>
 CreateScreenFileDataID<u32>
 SelectScreenFileDataID<u32>
@@ -636,9 +636,9 @@ Filename
 Name_male_lang
 Name_female_lang
 PetNameToken
-ClassFantasyDescription_lang
-Roles_lang
-RequirementsFail_lang
+Description_lang
+RoleInfoString_lang
+DisabledString_lang
 $id$ID<32>
 CreateScreenFileDataID<u32>
 SelectScreenFileDataID<u32>
@@ -677,11 +677,11 @@ Filename
 Name_male_lang
 Name_female_lang
 PetNameToken
-ClassFantasyDescription_lang
-Roles_lang
-RequirementsFail_lang
-Name_male_wrapping_lang
-Name_female_wrapping_lang
+Description_lang
+RoleInfoString_lang
+DisabledString_lang
+Hyphenated_name_male_lang
+Hyphenated_name_female_lang
 $id$ID<32>
 CreateScreenFileDataID<u32>
 SelectScreenFileDataID<u32>

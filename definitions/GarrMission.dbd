@@ -40,9 +40,9 @@ int TargetLevel
 int TravelDuration
 int<UiTextureKit::ID> UiTextureKitID
 float WorldPos
-float Field_9_0_1_33978_028?
-int Field_9_0_1_33978_029?
-int<GarrAutoCombatant::ID> Field_9_0_1_33978_030?
+float AutoMissionScalar
+int AutoMissionScalarCurveID
+int<GarrAutoCombatant::ID> AutoCombatantEnvCasterID
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -269,9 +269,9 @@ OvermaxRewardPackID<u32>
 FollowerDeathChance<u8>
 AreaID<u32>
 Flags<u32>
-Field_9_0_1_33978_028
-Field_9_0_1_33978_029<32>
-Field_9_0_1_33978_030<32>
+AutoMissionScalar
+AutoMissionScalarCurveID<32>
+AutoCombatantEnvCasterID<32>
 $noninline,relation$GarrMissionSetID<32>
 
 LAYOUT 7F09A539
@@ -305,7 +305,7 @@ OvermaxRewardPackID<u32>
 FollowerDeathChance<u8>
 AreaID<u32>
 Flags<u32>
-Field_9_0_1_33978_028
-Field_9_0_1_33978_029<32>
-Field_9_0_1_33978_030<32>
+AutoMissionScalar
+AutoMissionScalarCurveID<32>
+AutoCombatantEnvCasterID<32>
 $noninline,relation$GarrMissionSetID<32>

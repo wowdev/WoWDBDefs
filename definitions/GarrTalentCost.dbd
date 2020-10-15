@@ -3,7 +3,7 @@ int GoldCost?
 int ID
 int<GarrTalentTree::ID> GarrTalentTreeID
 int<GarrTalent::ID> GarrTalentID
-int NthTalentChoice? // instead of giving cost per GarrTalentID and GarrTalentRankID, give cost depending on number of chosen talents in this tree
+int RankIndex // instead of giving cost per GarrTalentID and GarrTalentRankID, give cost depending on number of chosen talents in this tree
 int<GarrTalentRank::ID> GarrTalentRankID
 int CostType // 0: Initial, 1: Respec, 2: MakePermanent, 3: TreeReset (soulbinds)
 int<CurrencyTypes::ID> CurrencyTypeID
@@ -16,7 +16,7 @@ GoldCost<u64>
 $id$ID<32>
 $relation$GarrTalentTreeID<u32>
 GarrTalentID<32>
-NthTalentChoice<32>
+RankIndex<32>
 GarrTalentRankID<32>
 CostType<32>
 CurrencyTypeID<32>
