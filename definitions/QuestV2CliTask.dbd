@@ -26,6 +26,31 @@ int<WorldStateExpression::ID> WorldStateExpressionID
 int<ContentTuning::ID> ContentTuningID
 int Flags // [2].9 = isQuestStart; [2].13 = don't return anything in lua GetTaskInfo; ([0].12 || [0].15 || [1].15) = isDaily
 int<Covenant::ID> CovenantID
+int Field_9_0_2_36206_000?
+locstring Field_9_0_2_36206_001_lang?
+locstring Field_9_0_2_36206_002_lang?
+int Field_9_0_2_36206_003?
+int Field_9_0_2_36206_004?
+int Field_9_0_2_36206_005?
+int Field_9_0_2_36206_006?
+int Field_9_0_2_36206_007?
+int Field_9_0_2_36206_008?
+int Field_9_0_2_36206_009?
+int Field_9_0_2_36206_010?
+int Field_9_0_2_36206_011?
+int Field_9_0_2_36206_012?
+int Field_9_0_2_36206_013?
+int Field_9_0_2_36206_014?
+int Field_9_0_2_36206_015?
+int Field_9_0_2_36206_016?
+int Field_9_0_2_36206_017?
+int Field_9_0_2_36206_018?
+int Field_9_0_2_36206_019?
+int Field_9_0_2_36206_020?
+int Field_9_0_2_36206_021?
+int Field_9_0_2_36206_022?
+int Field_9_0_2_36206_023?
+int Field_9_0_2_36206_024?
 
 LAYOUT C02750A8
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -338,3 +363,31 @@ ContentTuningID<32>
 CovenantID<32>
 Flags<32>[3]
 FiltCompletedQuest<u32>[3]
+
+LAYOUT 7AE578CB
+BUILD 9.0.2.36206
+Field_9_0_2_36206_000<64>
+Field_9_0_2_36206_001_lang
+Field_9_0_2_36206_002_lang
+$id$Field_9_0_2_36206_003<u32>
+Field_9_0_2_36206_004<u16>
+Field_9_0_2_36206_005<u32>
+Field_9_0_2_36206_006<u32>
+Field_9_0_2_36206_007<16>
+Field_9_0_2_36206_008<u32>
+Field_9_0_2_36206_009<u32>
+Field_9_0_2_36206_010<u32>
+Field_9_0_2_36206_011<u32>
+Field_9_0_2_36206_012<u32>
+Field_9_0_2_36206_013<u32>
+Field_9_0_2_36206_014<u32>
+Field_9_0_2_36206_015<u32>
+Field_9_0_2_36206_016<u32>
+Field_9_0_2_36206_017<32>
+Field_9_0_2_36206_018<32>
+Field_9_0_2_36206_019<u32>
+Field_9_0_2_36206_020<32>
+Field_9_0_2_36206_021<32>
+Field_9_0_2_36206_022<32>
+Field_9_0_2_36206_023<32>[3]
+Field_9_0_2_36206_024<u32>[3]
