@@ -23,28 +23,6 @@ int RepairGroundFx
 int DoNotHighlight
 int HealEffect
 int HealEffectSpeed
-int Field_9_0_2_36206_000?
-int Field_9_0_2_36206_001?
-int Field_9_0_2_36206_002?
-int Field_9_0_2_36206_003?
-int Field_9_0_2_36206_004?
-int Field_9_0_2_36206_005?
-int Field_9_0_2_36206_006?
-int Field_9_0_2_36206_007?
-int Field_9_0_2_36206_008?
-int Field_9_0_2_36206_009?
-int Field_9_0_2_36206_010?
-int Field_9_0_2_36206_011?
-int Field_9_0_2_36206_012?
-int Field_9_0_2_36206_013?
-int Field_9_0_2_36206_014?
-int Field_9_0_2_36206_015?
-int Field_9_0_2_36206_016?
-int Field_9_0_2_36206_017?
-int Field_9_0_2_36206_018?
-int Field_9_0_2_36206_019?
-int Field_9_0_2_36206_020?
-int Field_9_0_2_36206_021?
 
 BUILD 3.1.0.9767-3.2.2.10505
 $id$ID<32>
@@ -237,25 +215,25 @@ State3NameSet<8>
 LAYOUT FFFAFB89
 BUILD 9.0.2.36206, 9.0.2.36267
 $noninline,id$ID<32>
-Field_9_0_2_36206_000<8>
-Field_9_0_2_36206_001<u8>
-Field_9_0_2_36206_002<32>
-Field_9_0_2_36206_003<8>
-Field_9_0_2_36206_004<8>
-Field_9_0_2_36206_005<u8>
-Field_9_0_2_36206_006<32>
-Field_9_0_2_36206_007<8>
-Field_9_0_2_36206_008<8>
-Field_9_0_2_36206_009<u8>
-Field_9_0_2_36206_010<32>
-Field_9_0_2_36206_011<u8>
-Field_9_0_2_36206_012<u8>
-Field_9_0_2_36206_013<u8>
-Field_9_0_2_36206_014<u8>
-Field_9_0_2_36206_015<32>
-Field_9_0_2_36206_016<u8>
-Field_9_0_2_36206_017<u16>
-Field_9_0_2_36206_018<8>
-Field_9_0_2_36206_019<8>
-Field_9_0_2_36206_020<8>
-Field_9_0_2_36206_021<8>
+State0ImpactEffectDoodadSet<8>
+State0AmbientDoodadSet<u8>
+State1WMO<32>
+State1DestructionDoodadSet<8>
+State1ImpactEffectDoodadSet<8>
+State1AmbientDoodadSet<u8>
+State2WMO<32>
+State2DestructionDoodadSet<8>
+State2ImpactEffectDoodadSet<8>
+State2AmbientDoodadSet<u8>
+State3WMO<32>
+State3InitDoodadSet<u8>
+State3AmbientDoodadSet<u8>
+EjectDirection<u8>
+DoNotHighlight<u8>
+State0WMO<32>
+HealEffect<u8>
+HealEffectSpeed<u16>
+State0NameSet<8>
+State1NameSet<8>
+State2NameSet<8>
+State3NameSet<8>
