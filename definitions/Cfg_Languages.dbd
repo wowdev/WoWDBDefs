@@ -1,2 +1,4 @@
 COLUMNS
-
+int ID
+int wowlocale_ID // TextWowEnum
+string wowlocale_code // enUS, koKR, ...

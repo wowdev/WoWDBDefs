@@ -16,6 +16,16 @@ int DamageMax?
 int DamageType?
 int DefensiveStats?
 int Field_9_0_1_33978_008?
+int ItemLevel
+int Bonding
+int Flags
+int RequiredLevel
+int OverallQualityID
+string Display
+string Description
+int StatModifier_bonus
+int StatModifier_bonusStat
+int ItemNameDescriptionID
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
