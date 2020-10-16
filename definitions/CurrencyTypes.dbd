@@ -18,6 +18,7 @@ int<ItemGroupSounds::ID> ItemGroupSoundsID?
 int<PlayerCondition::ID> AwardConditionID
 int MaxQtyWorldStateID // key into data sent by the server
 int XpQuestDifficulty // Correct if 2 for ID 1566. ConvertToPlayerExperience?
+int Divisor
 
 BUILD 4.0.0.11792
 BUILD 3.0.1.8622-3.3.5.12340
