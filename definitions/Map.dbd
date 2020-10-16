@@ -36,7 +36,7 @@ float CorpseX
 float CorpseY
 int<FileData::ID> ZmpFileDataID
 int<FileData::ID> WdtFileDataID?
-string Field_9_0_1_33978_002?
+string InternalName
 float Field_0_7_0_3694_007?
 float Field_0_7_0_3694_008?
 int Field_2_0_3_6299_023?
@@ -774,7 +774,7 @@ BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.341
 $noninline,id$ID<32>
 Directory
 MapName_lang
-Field_9_0_1_33978_002
+InternalName
 MapDescription0_lang
 MapDescription1_lang
 PvpShortDescription_lang

@@ -5,7 +5,7 @@ int ClientDisplayExpansion
 int<FileData::ID> FontFileDataID
 int Secondary
 int WowLocale
-int Region
+int<Cfg_Regions::ID> Cfg_regionsID
 int Field_5_0_2_15827_001?
 
 LAYOUT FC7AA031
@@ -88,4 +88,4 @@ WowLocale<u8>
 FontFileDataID<32>
 ClientDisplayExpansion<u8>
 Secondary<u8>
-Region<u8>
+Cfg_regionsID<u8>
