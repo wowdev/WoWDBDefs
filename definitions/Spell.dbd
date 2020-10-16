@@ -137,7 +137,7 @@ int Field_3_0_1_8622_024?
 int Field_4_0_0_12911_036?
 int AttributesExI
 int AttributesExJ
-float Field_4_0_0_11927_104?
+float BonusCoefficient? // see dbd issue#70 for info
 float Field_5_0_1_15589_008?
 int Field_4_0_0_12232_044?
 int Field_4_0_0_12232_035?
@@ -2859,7 +2859,7 @@ PowerDisplayID<32>
 EffectBonusCoefficient[3]
 DescriptionVariablesID<32>
 Difficulty<32>
-Field_4_0_0_11927_104
+BonusCoefficient
 ScalingID<32>
 Field_4_0_0_11927_106<32>
 Field_4_0_0_11927_107<32>
@@ -2893,7 +2893,7 @@ RuneCostID<32>
 SpellMissileID<32>
 DescriptionVariablesID<32>
 Difficulty<32>
-Field_4_0_0_11927_104
+BonusCoefficient
 ScalingID<32>
 AuraOptionsID<32>
 AuraRestrictionsID<32>
@@ -2942,7 +2942,7 @@ RuneCostID<32>
 SpellMissileID<32>
 DescriptionVariablesID<32>
 Difficulty<32>
-Field_4_0_0_11927_104
+BonusCoefficient
 ScalingID<32>
 AuraOptionsID<32>
 AuraRestrictionsID<32>
@@ -2990,7 +2990,7 @@ RuneCostID<32>
 SpellMissileID<32>
 DescriptionVariablesID<32>
 Difficulty<32>
-Field_4_0_0_11927_104
+BonusCoefficient
 ScalingID<32>
 AuraOptionsID<32>
 AuraRestrictionsID<32>
@@ -3039,7 +3039,7 @@ RuneCostID<32>
 SpellMissileID<32>
 DescriptionVariablesID<32>
 Difficulty<32>
-Field_4_0_0_11927_104
+BonusCoefficient
 ScalingID<32>
 AuraOptionsID<32>
 AuraRestrictionsID<32>
@@ -3087,7 +3087,7 @@ RuneCostID<32>
 SpellMissileID<32>
 DescriptionVariablesID<32>
 Difficulty<32>
-Field_4_0_0_11927_104
+BonusCoefficient
 ScalingID<32>
 AuraOptionsID<32>
 AuraRestrictionsID<32>
