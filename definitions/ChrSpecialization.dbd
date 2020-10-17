@@ -17,7 +17,6 @@ int<AnimReplacementSet::ID> AnimReplacements
 locstring FemaleName_lang
 int PrimaryStatPriority
 int<FileData::ID> SpellIconFileID
-int Field_5_0_1_15650_008? // some form of flags?
 
 BUILD 5.0.1.15464-5.0.1.15640
 $id$ID<32>
@@ -40,7 +39,7 @@ OrderIndex<32>
 PetTalentType<32>
 Role<32>
 SpellIconID<32>
-Field_5_0_1_15650_008<32>
+RaidBuffs<32>
 Name_lang
 Description_lang
 
