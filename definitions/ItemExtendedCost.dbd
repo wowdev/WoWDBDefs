@@ -10,7 +10,7 @@ int ID
 int ArenaBracket
 int CurrencyCount
 int<CurrencyTypes::ID> CurrencyID
-int Flags
+int Flags // &0x1: player requires guild, &0x2 - &0x20 index disables
 int ItemCount
 int<Item::ID> ItemID
 int<Faction::ID> MinFactionID
@@ -20,7 +20,7 @@ int RequiredArenaRating
 int HonorPoints
 int ArenaPoints
 int<ItemPurchaseGroup::ID> ItemPurchaseGroup
-int Field_4_0_0_11927_012?
+int RequiredGuildLevel?
 
 BUILD 2.0.0.5610-2.2.0.7272
 $id$ID<32>
@@ -73,8 +73,8 @@ CurrencyCount<32>[5]
 MinFactionID<32>
 MinReputation<32>
 Flags<32>
+RequiredGuildLevel<32>
 RequiredAchievement<32>
-Field_4_0_0_11927_012<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>

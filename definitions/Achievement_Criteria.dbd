@@ -16,8 +16,8 @@ int Timer_time
 int Ui_order
 int AdditionalConditionType?
 int AdditionalConditionValue?
-int Field_4_0_0_12911_014?
-int Field_4_0_0_12911_015?
+int<WorldState::ID> WorldStateID?
+int RequiredWorldStateStatus?
 
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>
@@ -80,8 +80,8 @@ Timer_start_event<32>
 Timer_asset_ID<32>
 Timer_time<32>
 Ui_order<32>
-Field_4_0_0_12911_014<32>
-Field_4_0_0_12911_015<32>
+WorldStateID<32>
+RequiredWorldStateStatus<32>
 
 BUILD 4.0.6.13623
 $id$ID<32>
@@ -99,8 +99,8 @@ Timer_start_event<32>
 Timer_asset_ID<32>
 Timer_time<32>
 Ui_order<32>
-Field_4_0_0_12911_014<32>
-Field_4_0_0_12911_015<32>
+WorldStateID<32>
+RequiredWorldStateStatus<32>
 AdditionalConditionType<32>[3]
 AdditionalConditionValue<32>[3]
 
@@ -121,7 +121,7 @@ Timer_start_event<32>
 Timer_asset_ID<32>
 Timer_time<32>
 Ui_order<32>
-Field_4_0_0_12911_014<32>
-Field_4_0_0_12911_015<32>
+WorldStateID<32>
+RequiredWorldStateStatus<32>
 AdditionalConditionType<32>[3]
 AdditionalConditionValue<32>[3]
