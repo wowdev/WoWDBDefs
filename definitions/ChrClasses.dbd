@@ -44,6 +44,7 @@ int CharStartKit_AnimLoopWaitTimeMs_Fallback?
 int Field_2_0_0_6080_009?
 locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
 locstring Hyphenated_name_female_lang?
+int MobileGatingQuestID
 
 BUILD 0.5.3.3368
 $id$ID<32>
