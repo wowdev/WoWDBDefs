@@ -11,7 +11,6 @@ int<UiCanvas::ID> UiCanvasID
 int<UiTextureAtlasElement::ID> UiTextureAtlasElementID
 int OverrideWidth // if > 0, use instead of right - left
 int OverrideHeight // if > 0, use instead of bottom - top
-int Priority
 
 BUILD 6.0.1.18179
 $id$ID<32>
