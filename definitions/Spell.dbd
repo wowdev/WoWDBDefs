@@ -138,7 +138,6 @@ int Field_4_0_0_12911_036?
 int AttributesExI
 int AttributesExJ
 float BonusCoefficient? // see dbd issue#70 for info
-float Field_5_0_1_15589_008?
 int Field_4_0_0_12232_044?
 int Field_4_0_0_12232_035?
 int Field_4_0_0_12232_045?
@@ -3113,7 +3112,7 @@ AuraDescription_lang
 RuneCostID<32>
 SpellMissileID<32>
 DescriptionVariablesID<32>
-Field_5_0_1_15589_008
+BonusCoefficient
 ScalingID<32>
 AuraOptionsID<32>
 AuraRestrictionsID<32>
