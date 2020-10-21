@@ -43,38 +43,6 @@ float WorldPos
 float AutoMissionScalar
 int AutoMissionScalarCurveID
 int<GarrAutoCombatant::ID> AutoCombatantEnvCasterID
-locstring Field_9_0_2_36294_000_lang?
-locstring Field_9_0_2_36294_001_lang?
-locstring Field_9_0_2_36294_002_lang?
-float Field_9_0_2_36294_003?
-float Field_9_0_2_36294_004?
-int Field_9_0_2_36294_005?
-int Field_9_0_2_36294_006?
-int Field_9_0_2_36294_007?
-int Field_9_0_2_36294_008?
-int Field_9_0_2_36294_009?
-int Field_9_0_2_36294_010?
-int Field_9_0_2_36294_011?
-int Field_9_0_2_36294_012?
-int Field_9_0_2_36294_013?
-int Field_9_0_2_36294_014?
-int Field_9_0_2_36294_015?
-int Field_9_0_2_36294_016?
-int Field_9_0_2_36294_017?
-int Field_9_0_2_36294_018?
-int Field_9_0_2_36294_019?
-int Field_9_0_2_36294_020?
-int Field_9_0_2_36294_021?
-int Field_9_0_2_36294_022?
-int Field_9_0_2_36294_023?
-int Field_9_0_2_36294_024?
-int Field_9_0_2_36294_025?
-int Field_9_0_2_36294_026?
-int Field_9_0_2_36294_027?
-int Field_9_0_2_36294_028?
-float Field_9_0_2_36294_029?
-int Field_9_0_2_36294_030?
-int Field_9_0_2_36294_031?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -344,35 +312,35 @@ $noninline,relation$GarrMissionSetID<32>
 
 LAYOUT 09B91DB9
 BUILD 9.0.2.36294
-Field_9_0_2_36294_000_lang
-Field_9_0_2_36294_001_lang
-Field_9_0_2_36294_002_lang
-Field_9_0_2_36294_003[2]
-Field_9_0_2_36294_004[2]
-$id$Field_9_0_2_36294_005<32>
-Field_9_0_2_36294_006<u8>
-Field_9_0_2_36294_007<u8>
-Field_9_0_2_36294_008<u8>
-Field_9_0_2_36294_009<u8>
-Field_9_0_2_36294_010<u32>
-Field_9_0_2_36294_011<u16>
-Field_9_0_2_36294_012<u8>
-Field_9_0_2_36294_013<u16>
-Field_9_0_2_36294_014<u32>
-Field_9_0_2_36294_015<32>
-Field_9_0_2_36294_016<u32>
-$relation$Field_9_0_2_36294_017<32>
-Field_9_0_2_36294_018<8>
-Field_9_0_2_36294_019<u16>
-Field_9_0_2_36294_020<32>
-Field_9_0_2_36294_021<32>
-Field_9_0_2_36294_022<u32>
-Field_9_0_2_36294_023<u8>
-Field_9_0_2_36294_024<u32>
-Field_9_0_2_36294_025<u32>
-Field_9_0_2_36294_026<u8>
-Field_9_0_2_36294_027<u32>
-Field_9_0_2_36294_028<u32>
-Field_9_0_2_36294_029
-Field_9_0_2_36294_030<32>
-Field_9_0_2_36294_031<32>
+Name_lang
+Location_lang
+Description_lang
+MapPos[2]
+WorldPos[2]
+$id$ID<32>
+GarrTypeID<u8>
+GarrMissionTypeID<u8>
+GarrFollowerTypeID<u8>
+MaxFollowers<u8>
+MissionCost<u32>
+MissionCostCurrencyTypesID<u16>
+OfferedGarrMissionTextureID<u8>
+UiTextureKitID<u16>
+EnvGarrMechanicID<u32>
+EnvGarrMechanicTypeID<32>
+PlayerConditionID<u32>
+$relation$GarrMissionSetID<32>
+TargetLevel<8>
+TargetItemLevel<u16>
+MissionDuration<32>
+TravelDuration<32>
+OfferDuration<u32>
+BaseCompletionChance<u8>
+BaseFollowerXP<u32>
+OvermaxRewardPackID<u32>
+FollowerDeathChance<u8>
+AreaID<u32>
+Flags<u32>
+AutoMissionScalar
+AutoMissionScalarCurveID<32>
+AutoCombatantEnvCasterID<32>

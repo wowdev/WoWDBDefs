@@ -13,17 +13,6 @@ locstring DisplayName_lang
 locstring VerboseName_lang
 int ID
 int AuctionHouseSortOrder
-locstring Field_9_0_2_36294_000_lang?
-locstring Field_9_0_2_36294_001_lang?
-int Field_9_0_2_36294_002?
-int Field_9_0_2_36294_003?
-int Field_9_0_2_36294_004?
-int Field_9_0_2_36294_005?
-int Field_9_0_2_36294_006?
-int Field_9_0_2_36294_007?
-int Field_9_0_2_36294_008?
-int Field_9_0_2_36294_009?
-int Field_9_0_2_36294_010?
 
 BUILD 0.5.3.3368
 BUILD 3.0.1.8303-3.3.5.12340
@@ -122,14 +111,14 @@ PostrequisiteProficiency<8>
 
 LAYOUT 2EDFDAA6
 BUILD 9.0.2.36294
-Field_9_0_2_36294_000_lang
-Field_9_0_2_36294_001_lang
-$id$Field_9_0_2_36294_002<32>
-$relation$Field_9_0_2_36294_003<8>
-Field_9_0_2_36294_004<8>
-Field_9_0_2_36294_005<u8>
-Field_9_0_2_36294_006<8>
-Field_9_0_2_36294_007<16>
-Field_9_0_2_36294_008<8>
-Field_9_0_2_36294_009<8>
-Field_9_0_2_36294_010<8>
+DisplayName_lang
+VerboseName_lang
+$id$ID<32>
+$relation$ClassID<8>
+SubClassID<8>
+AuctionHouseSortOrder<u8>
+PrerequisiteProficiency<8>
+Flags<16>
+DisplayFlags<8>
+WeaponSwingSize<8>
+PostrequisiteProficiency<8>

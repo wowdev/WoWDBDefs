@@ -7,14 +7,6 @@ int<CreatureDisplayInfo::ID> MaleCreatureDisplayID
 int<UiTextureAtlasMember::ID> ModelBackgroundTextureID
 int<ChrRaces::ID> RaceID
 int<Achievement::ID> Ui_unlockAchievementID
-int Field_9_0_2_36294_000?
-int Field_9_0_2_36294_001?
-int Field_9_0_2_36294_002?
-int Field_9_0_2_36294_003?
-int Field_9_0_2_36294_004?
-int Field_9_0_2_36294_005?
-int Field_9_0_2_36294_006?
-int Field_9_0_2_36294_007?
 int Field_9_0_2_36294_008?
 
 LAYOUT B13ABE04, 15783ACC
@@ -66,12 +58,12 @@ Ui_unlockAchievementID<32>
 
 LAYOUT CAF97110
 BUILD 9.0.2.36294
-$id$Field_9_0_2_36294_000<32>
-Field_9_0_2_36294_001<32>
-Field_9_0_2_36294_002<32>
-Field_9_0_2_36294_003<32>
-Field_9_0_2_36294_004<32>
-Field_9_0_2_36294_005<32>
-Field_9_0_2_36294_006<32>
-Field_9_0_2_36294_007<32>
+$id$ID<32>
+RaceID<32>
+BannerColor<32>
+CrestTextureID<32>
+ModelBackgroundTextureID<32>
+MaleCreatureDisplayID<32>
+FemaleCreatureDisplayID<32>
+Ui_unlockAchievementID<32>
 Field_9_0_2_36294_008<32>
