@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int<GarrType::ID> GarrTypeID?
+int<GarrType::ID> GarrTypeID
 int Field_9_0_2_36294_001?
-int Field_9_0_2_36294_002?
-int Field_9_0_2_36294_003?
-int Field_9_0_2_36294_004?
+int CooldownSeconds
+int<PlayerCondition::ID> Condition_9_0_2_36294_003?
+int Field_9_0_2_36294_004? // related to which table? 176 = Shipyard; 336 = Legionfall; 337 = Argus; 339 = Legion ???; 347 = Legion ???; 464 = BfA ???
 int Field_9_0_2_36294_005?
 
 LAYOUT 62B4E01D
@@ -12,7 +12,7 @@ BUILD 9.0.2.36294
 $noninline,id$ID<32>
 GarrTypeID<32>
 Field_9_0_2_36294_001<32>
-Field_9_0_2_36294_002<32>
-Field_9_0_2_36294_003<32>
+CooldownSeconds<32>
+Condition_9_0_2_36294_003<32>
 Field_9_0_2_36294_004<32>
 Field_9_0_2_36294_005<32>
