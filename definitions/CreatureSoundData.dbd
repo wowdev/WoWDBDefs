@@ -32,13 +32,13 @@ int<SoundEntries::ID> SubmergedSoundID
 int<CreatureSoundData::ID> CreatureSoundDataIDPet
 int<SoundEntries::ID> TransformSoundID
 int<SoundEntries::ID> TransformAnimatedSoundID
-int BattleShoutCriticalSoundID
-int BattleShoutSoundID
-int ChargeCriticalSoundID
-int ChargeSoundID
-int TauntSoundID
-int WindupCriticalSoundID
-int WindupSoundID
+int<SoundEntries::ID> BattleShoutCriticalSoundID
+int<SoundEntries::ID> BattleShoutSoundID
+int<SoundEntries::ID> ChargeCriticalSoundID
+int<SoundEntries::ID> ChargeSoundID
+int<SoundEntries::ID> TauntSoundID
+int<SoundEntries::ID> WindupCriticalSoundID
+int<SoundEntries::ID> WindupSoundID
 
 
 BUILD 2.0.0.5991
