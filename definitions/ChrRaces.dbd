@@ -70,11 +70,12 @@ locstring Name_RL_lowercase_lang? // quest text $rl
 locstring Name_RL_female_lowercase_lang? // quest text $rl
 int PlayableRaceBit?
 locstring RaceFantasyDescription_lang?
-int Field_9_0_1_34714_047?
-float Field_9_0_1_35167_031? // probably: fallback for CharStartKit::Field_9_0_1_35167_001
-float Field_9_0_1_35167_032? // probably: fallback for CharStartKit::Field_9_0_1_35167_011
+int<ChrRaces::ID> UnalteredVisualCustomizationRaceID?
+float AlteredFormCustomizeOffset? // probably: fallback for CharStartKit::Field_9_0_1_35167_001
+float AlteredFormCustomizeRotation? // probably: fallback for CharStartKit::Field_9_0_1_35167_011
 float Field_9_0_1_35256_033? // probably: fallback for CharStartKit::Field_9_0_1_35256_002
 float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1_35256_003
+int<ChrRaces::ID> HelmetAnimScalingRaceID?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -924,7 +925,7 @@ UiDisplayOrder<32>
 PlayableRaceBit<32>
 FemaleSkeletonFileDataID<32>
 MaleSkeletonFileDataID<32>
-BaseRaceID<32>
+HelmetAnimScalingRaceID<32>
 TransmogrifyDisabledSlotMask<32>
 FactionID<16>
 CinematicSequenceID<16>
@@ -976,7 +977,7 @@ HeritageArmorAchievementID<32>
 StartingLevel<32>
 UiDisplayOrder<32>
 PlayableRaceBit<32>
-BaseRaceID<32>
+HelmetAnimScalingRaceID<32>
 TransmogrifyDisabledSlotMask<32>
 FactionID<16>
 CinematicSequenceID<16>
@@ -1026,7 +1027,7 @@ HeritageArmorAchievementID<32>
 StartingLevel<32>
 UiDisplayOrder<32>
 PlayableRaceBit<32>
-BaseRaceID<32>
+HelmetAnimScalingRaceID<32>
 TransmogrifyDisabledSlotMask<32>
 FactionID<16>
 CinematicSequenceID<16>
@@ -1047,7 +1048,7 @@ MaleTextureFallbackRaceID<8>
 MaleTextureFallbackSex<8>
 FemaleTextureFallbackRaceID<8>
 FemaleTextureFallbackSex<8>
-Field_9_0_1_34714_047<8>
+UnalteredVisualCustomizationRaceID<8>
 
 LAYOUT 04D6D8BD
 BUILD 9.0.1.35078
@@ -1080,7 +1081,7 @@ HeritageArmorAchievementID<32>
 StartingLevel<32>
 UiDisplayOrder<32>
 PlayableRaceBit<32>
-BaseRaceID<32>
+HelmetAnimScalingRaceID<32>
 TransmogrifyDisabledSlotMask<32>
 FactionID<16>
 CinematicSequenceID<16>
@@ -1098,7 +1099,7 @@ MaleTextureFallbackRaceID<8>
 MaleTextureFallbackSex<8>
 FemaleTextureFallbackRaceID<8>
 FemaleTextureFallbackSex<8>
-Field_9_0_1_34714_047<8>
+UnalteredVisualCustomizationRaceID<8>
 
 LAYOUT A21EDF78
 BUILD 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482
@@ -1131,10 +1132,10 @@ HeritageArmorAchievementID<32>
 StartingLevel<32>
 UiDisplayOrder<32>
 PlayableRaceBit<32>
-BaseRaceID<32>
+HelmetAnimScalingRaceID<32>
 TransmogrifyDisabledSlotMask<32>
-Field_9_0_1_35167_031[3]
-Field_9_0_1_35167_032
+AlteredFormCustomizeOffset[3]
+AlteredFormCustomizeRotation
 Field_9_0_1_35256_033[3]
 Field_9_0_1_35256_034[3]
 FactionID<16>
@@ -1153,7 +1154,7 @@ MaleTextureFallbackRaceID<8>
 MaleTextureFallbackSex<8>
 FemaleTextureFallbackRaceID<8>
 FemaleTextureFallbackSex<8>
-Field_9_0_1_34714_047<8>
+UnalteredVisualCustomizationRaceID<8>
 
 LAYOUT 85A50CA9
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.36165, 9.0.2.36206, 9.0.2.36267, 9.0.2.36294, 9.0.2.36401, 9.0.2.36512, 9.0.2.36532, 9.0.2.36599, 9.0.2.36639
@@ -1187,10 +1188,10 @@ HeritageArmorAchievementID<32>
 StartingLevel<32>
 UiDisplayOrder<32>
 PlayableRaceBit<32>
-BaseRaceID<32>
+HelmetAnimScalingRaceID<32>
 TransmogrifyDisabledSlotMask<32>
-Field_9_0_1_35167_031[3]
-Field_9_0_1_35167_032
+AlteredFormCustomizeOffset[3]
+AlteredFormCustomizeRotation
 FactionID<16>
 CinematicSequenceID<16>
 CreatureType<8>
@@ -1207,4 +1208,4 @@ MaleTextureFallbackRaceID<8>
 MaleTextureFallbackSex<8>
 FemaleTextureFallbackRaceID<8>
 FemaleTextureFallbackSex<8>
-Field_9_0_1_34714_047<8>
+UnalteredVisualCustomizationRaceID<8>

@@ -2,19 +2,19 @@ COLUMNS
 int ID
 int<ChrRaces::ID> ChrRacesID?
 int Sex?
-int UICustomizationType? // 1 = Skin Color, 2 = Face, 3 = Hair Style, 4 = Hair Color, 5 = Features
-int Index?
+int OptionID? // 1 = Skin Color, 2 = Face, 3 = Hair Style, 4 = Hair Color, 5 = Features, 6 = CustomDisplayOption1, 7 = CustomDisplayOption2, 8 = CustomDisplayOption3
+int Data?
 int<ChrCustomizationChoice::ID> ChrCustomizationChoiceID?
-int Field_9_0_2_35854_005?
-int Field_9_0_2_35854_006?
+int DependentOptionID?
+int DependentData?
 
 LAYOUT B6793EBA
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755, 9.0.1.35789
 $noninline,id$ID<32>
 ChrRacesID<32>
 Sex<32>
-UICustomizationType<32>
-Index<32>
+OptionID<32>
+Data<32>
 $relation$ChrCustomizationChoiceID<32>
 
 LAYOUT 1D1B187B
@@ -23,8 +23,8 @@ BUILD 9.0.1.35828, 9.0.1.35853, 9.0.1.35897, 9.0.1.35917, 9.0.1.35944, 9.0.1.359
 $noninline,id$ID<32>
 ChrRacesID<32>
 Sex<32>
-UICustomizationType<32>
-Index<32>
+OptionID<32>
+Data<32>
 $relation$ChrCustomizationChoiceID<32>
-Field_9_0_2_35854_005<32>
-Field_9_0_2_35854_006<32>
+DependentOptionID<32>
+DependentData<32>

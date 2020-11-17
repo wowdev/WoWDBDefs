@@ -15,7 +15,7 @@ int DamageMin?
 int DamageMax?
 int DamageType?
 int DefensiveStats?
-int Field_9_0_1_33978_008?
+int<ModifiedCraftingReagentItem::ID> ModifiedCraftingReagentItemID?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -154,4 +154,4 @@ SheatheType<u8>
 Sound_override_subclassID<8>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
-Field_9_0_1_33978_008<32>
+ModifiedCraftingReagentItemID<32>

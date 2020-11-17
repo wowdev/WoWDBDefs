@@ -11,8 +11,8 @@ int UpperBoundSemantics? // independent of Flags&2, when reading MaxLevel, modif
 int Field_9_0_1_34490_007?
 int TargetLevelDelta?
 int TargetLevelMaxDelta // add to effective MaxLevel to get TargetLevelMax
-int Field_9_0_1_35598_LevelMin?
-int Field_9_0_1_35598_LevelMax?
+int TargetLevelMin?
+int TargetLevelMax?
 int Field_9_0_2_35978_011?
 
 LAYOUT 70C53E15
@@ -130,8 +130,8 @@ LowerBoundSemantics<32>
 UpperBoundSemantics<32>
 TargetLevelDelta<32>
 TargetLevelMaxDelta<32>
-Field_9_0_1_35598_LevelMin<32>
-Field_9_0_1_35598_LevelMax<32>
+TargetLevelMin<32>
+TargetLevelMax<32>
 
 LAYOUT 7802E330
 BUILD 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.36165, 9.0.2.36206, 9.0.2.36267, 9.0.2.36294, 9.0.2.36401, 9.0.2.36512, 9.0.2.36532, 9.0.2.36599, 9.0.2.36639
@@ -144,6 +144,6 @@ LowerBoundSemantics<32>
 UpperBoundSemantics<32>
 TargetLevelDelta<32>
 TargetLevelMaxDelta<32>
-Field_9_0_1_35598_LevelMin<32>
-Field_9_0_1_35598_LevelMax<32>
+TargetLevelMin<32>
+TargetLevelMax<32>
 Field_9_0_2_35978_011<32>

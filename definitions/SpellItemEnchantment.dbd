@@ -20,11 +20,10 @@ float EffectScalingPoints
 locstring HordeName_lang
 int<FileData::ID> IconFileDataID
 int TransmogCost
-int<PlayerCondition::ID> TransmogPlayerConditionID
+int<PlayerCondition::ID> TransmogPlayerConditionID // pre-9.0: condition to unlock as transmog illusion; post-9.0: condition to use as transmog illusion after unlocking
 int EffectPointsMax
 int ItemLevelMin
 int ItemLevelMax
-int Field_9_0_1_34365_008?
 int Field_5_0_1_15464_015? // maybe scalingClassRestricted
 float Field_5_0_1_15464_016? // maybe effectScalingPoints
 
@@ -360,7 +359,7 @@ EffectScalingPoints[3]
 IconFileDataID<u32>
 ItemLevelMin<32>
 ItemLevelMax<32>
-Field_9_0_1_34365_008<u32>
+TransmogPlayerConditionID<u32>
 TransmogCost<u32>
 EffectPointsMin<16>[3]
 ItemVisual<u16>

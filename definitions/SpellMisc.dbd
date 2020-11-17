@@ -16,9 +16,9 @@ float LaunchDelay
 int<FileData::ID> SpellIconFileDataID
 float MinDuration
 int<ContentTuning::ID> ContentTuningID
-int<PlayerCondition::ID> PlayerConditionID
+int<PlayerCondition::ID> ShowFutureSpellPlayerConditionID
 int SpellVisualScript? // for some reason shipped but if != 0, client errors.
-int Field_9_0_1_35679_014?
+int ActiveSpellVisualScript?
 
 BUILD 5.0.1.15589-5.0.1.15662
 $id$ID<32>
@@ -199,7 +199,7 @@ MinDuration
 SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
 ContentTuningID<32>
-PlayerConditionID<32>
+ShowFutureSpellPlayerConditionID<32>
 $noninline,relation$SpellID<32>
 
 LAYOUT F6F6A9AD
@@ -217,7 +217,7 @@ MinDuration
 SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
 ContentTuningID<32>
-PlayerConditionID<32>
+ShowFutureSpellPlayerConditionID<32>
 $noninline,relation$SpellID<32>
 
 LAYOUT B252FDD7
@@ -236,7 +236,7 @@ MinDuration
 SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
 ContentTuningID<32>
-PlayerConditionID<32>
+ShowFutureSpellPlayerConditionID<32>
 SpellVisualScript<32>
-Field_9_0_1_35679_014<32>
+ActiveSpellVisualScript<32>
 $noninline,relation$SpellID<32>
