@@ -33,14 +33,16 @@ locstring Description_lang?
 locstring RoleInfoString_lang
 locstring DisabledString_lang
 int Field_9_0_1_34490_018?
-int<SpellVisualKit::ID> MaleCharacterCreationSpellVisualKitID?
-int<SpellVisualKit::ID> MaleCharacterCreationIdleSpellVisualKitID?
-int<SpellVisualKit::ID> FemaleCharacterCreationSpellVisualKitID? // fall back to MaleCharacterCreationSpellVisualKitID if not set
-int<SpellVisualKit::ID> FemaleCharacterCreationIdleSpellVisualKitID? // fall back to MaleCharacterCreationIdleSpellVisualKitID if not set
-int<SpellVisualKit::ID> CharacterCreationIdleGroundSpellVisualKitID?
-int<SpellVisualKit::ID> CharacterCreationGroundSpellVisualKitID?
-int<SpellVisualKit::ID> AlteredFormCharacterCreationIdleSpellVisualKitID?
-int CharacterCreationAnimLoopWaitTimeMs?
+int<SpellVisualKit::ID> CharacterCreationVisualFallback?
+int<SpellVisualKit::ID> CharacterCreationIdleVisualFallback?
+int<SpellVisualKit::ID> MaleCharacterCreationVisualFallback?
+int<SpellVisualKit::ID> MaleCharacterCreationIdleVisualFallback?
+int<SpellVisualKit::ID> FemaleCharacterCreationVisualFallback? // fall back to MaleCharacterCreationVisualFallback if not set
+int<SpellVisualKit::ID> FemaleCharacterCreationIdleVisualFallback? // fall back to MaleCharacterCreationIdleVisualFallback if not set
+int<SpellVisualKit::ID> CharacterCreationIdleGroundVisualFallback?
+int<SpellVisualKit::ID> CharacterCreationGroundVisualFallback?
+int<SpellVisualKit::ID> AlteredFormCharacterCreationIdleVisualFallback?
+int CharacterCreationAnimLoopWaitTimeMsFallback?
 int Field_2_0_0_6080_009?
 locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
 locstring Hyphenated_name_female_lang?
@@ -502,7 +504,7 @@ SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
 ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
-MaleCharacterCreationSpellVisualKitID<32>
+CharacterCreationVisualFallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>
@@ -536,8 +538,8 @@ SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
 ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
-MaleCharacterCreationSpellVisualKitID<32>
-MaleCharacterCreationIdleSpellVisualKitID<32>
+CharacterCreationVisualFallback<32>
+CharacterCreationIdleVisualFallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>
@@ -571,13 +573,13 @@ SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
 ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
-MaleCharacterCreationSpellVisualKitID<32>
-MaleCharacterCreationIdleSpellVisualKitID<32>
-FemaleCharacterCreationSpellVisualKitID<32>
-FemaleCharacterCreationIdleSpellVisualKitID<32>
-CharacterCreationIdleGroundSpellVisualKitID<32>
-CharacterCreationGroundSpellVisualKitID<32>
-AlteredFormCharacterCreationIdleSpellVisualKitID<32>
+MaleCharacterCreationVisualFallback<32>
+MaleCharacterCreationIdleVisualFallback<32>
+FemaleCharacterCreationVisualFallback<32>
+FemaleCharacterCreationIdleVisualFallback<32>
+CharacterCreationIdleGroundVisualFallback<32>
+CharacterCreationGroundVisualFallback<32>
+AlteredFormCharacterCreationIdleVisualFallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>
@@ -610,13 +612,13 @@ SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
 ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
-MaleCharacterCreationSpellVisualKitID<32>
-MaleCharacterCreationIdleSpellVisualKitID<32>
-FemaleCharacterCreationSpellVisualKitID<32>
-FemaleCharacterCreationIdleSpellVisualKitID<32>
-CharacterCreationIdleGroundSpellVisualKitID<32>
-CharacterCreationGroundSpellVisualKitID<32>
-AlteredFormCharacterCreationIdleSpellVisualKitID<32>
+MaleCharacterCreationVisualFallback<32>
+MaleCharacterCreationIdleVisualFallback<32>
+FemaleCharacterCreationVisualFallback<32>
+FemaleCharacterCreationIdleVisualFallback<32>
+CharacterCreationIdleGroundVisualFallback<32>
+CharacterCreationGroundVisualFallback<32>
+AlteredFormCharacterCreationIdleVisualFallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>
@@ -649,14 +651,14 @@ SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
 ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
-MaleCharacterCreationSpellVisualKitID<32>
-MaleCharacterCreationIdleSpellVisualKitID<32>
-FemaleCharacterCreationSpellVisualKitID<32>
-FemaleCharacterCreationIdleSpellVisualKitID<32>
-CharacterCreationIdleGroundSpellVisualKitID<32>
-CharacterCreationGroundSpellVisualKitID<32>
-AlteredFormCharacterCreationIdleSpellVisualKitID<32>
-CharacterCreationAnimLoopWaitTimeMs<32>
+MaleCharacterCreationVisualFallback<32>
+MaleCharacterCreationIdleVisualFallback<32>
+FemaleCharacterCreationVisualFallback<32>
+FemaleCharacterCreationIdleVisualFallback<32>
+CharacterCreationIdleGroundVisualFallback<32>
+CharacterCreationGroundVisualFallback<32>
+AlteredFormCharacterCreationIdleVisualFallback<32>
+CharacterCreationAnimLoopWaitTimeMsFallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>
@@ -692,14 +694,14 @@ SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
 ArmorTypeMask<u32>
 Field_9_0_1_34490_018<32>
-MaleCharacterCreationSpellVisualKitID<32>
-MaleCharacterCreationIdleSpellVisualKitID<32>
-FemaleCharacterCreationSpellVisualKitID<32>
-FemaleCharacterCreationIdleSpellVisualKitID<32>
-CharacterCreationIdleGroundSpellVisualKitID<32>
-CharacterCreationGroundSpellVisualKitID<32>
-AlteredFormCharacterCreationIdleSpellVisualKitID<32>
-CharacterCreationAnimLoopWaitTimeMs<32>
+MaleCharacterCreationVisualFallback<32>
+MaleCharacterCreationIdleVisualFallback<32>
+FemaleCharacterCreationVisualFallback<32>
+FemaleCharacterCreationIdleVisualFallback<32>
+CharacterCreationIdleGroundVisualFallback<32>
+CharacterCreationGroundVisualFallback<32>
+AlteredFormCharacterCreationIdleVisualFallback<32>
+CharacterCreationAnimLoopWaitTimeMsFallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 PrimaryStatPriority<u8>

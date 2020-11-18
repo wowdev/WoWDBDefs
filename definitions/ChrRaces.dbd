@@ -71,8 +71,8 @@ locstring Name_RL_female_lowercase_lang? // quest text $rl
 int PlayableRaceBit?
 locstring RaceFantasyDescription_lang?
 int<ChrRaces::ID> UnalteredVisualCustomizationRaceID?
-float AlteredFormCustomizeOffset? // probably: fallback for CharStartKit::Field_9_0_1_35167_001
-float AlteredFormCustomizeRotation? // probably: fallback for CharStartKit::Field_9_0_1_35167_011
+float AlteredFormCustomizeOffsetFallback? //  fallback for CharStartKit::AlteredFormCustomizeOffset
+float AlteredFormCustomizeRotationFallback? // fallback for CharStartKit::AlteredFormCustomizeRotation
 float Field_9_0_1_35256_033? // probably: fallback for CharStartKit::Field_9_0_1_35256_002
 float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1_35256_003
 int<ChrRaces::ID> HelmetAnimScalingRaceID?
@@ -1134,8 +1134,8 @@ UiDisplayOrder<32>
 PlayableRaceBit<32>
 HelmetAnimScalingRaceID<32>
 TransmogrifyDisabledSlotMask<32>
-AlteredFormCustomizeOffset[3]
-AlteredFormCustomizeRotation
+AlteredFormCustomizeOffsetFallback[3]
+AlteredFormCustomizeRotationFallback
 Field_9_0_1_35256_033[3]
 Field_9_0_1_35256_034[3]
 FactionID<16>
@@ -1190,8 +1190,8 @@ UiDisplayOrder<32>
 PlayableRaceBit<32>
 HelmetAnimScalingRaceID<32>
 TransmogrifyDisabledSlotMask<32>
-AlteredFormCustomizeOffset[3]
-AlteredFormCustomizeRotation
+AlteredFormCustomizeOffsetFallback[3]
+AlteredFormCustomizeRotationFallback
 FactionID<16>
 CinematicSequenceID<16>
 CreatureType<8>
