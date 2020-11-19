@@ -16,6 +16,21 @@ int DamageMax?
 int DamageType?
 int DefensiveStats?
 int Field_9_0_1_33978_008?
+int Field_1_13_6_36670_000?
+int Field_1_13_6_36670_001?
+int Field_1_13_6_36670_002?
+int Field_1_13_6_36670_003?
+int Field_1_13_6_36670_004?
+int Field_1_13_6_36670_005?
+int Field_1_13_6_36670_006?
+int Field_1_13_6_36670_007?
+int Field_1_13_6_36670_008?
+int Field_1_13_6_36670_009?
+int Field_1_13_6_36670_010?
+int Field_1_13_6_36670_011?
+int Field_1_13_6_36670_012?
+int Field_1_13_6_36670_013?
+int Field_1_13_6_36670_014?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -52,6 +67,25 @@ DamageMin<u16>[5]
 DamageMax<u16>[5]
 DamageType<u8>[5]
 DefensiveStats<16>[7]
+
+LAYOUT 0AB5F2C6
+BUILD 1.13.6.36670
+$noninline,id$ID<32>
+Field_1_13_6_36670_000<u8>
+Field_1_13_6_36670_001<u8>
+Field_1_13_6_36670_002<u8>
+Field_1_13_6_36670_003<8>
+Field_1_13_6_36670_004<u32>
+Field_1_13_6_36670_005<u8>
+Field_1_13_6_36670_006<u8>
+Field_1_13_6_36670_007<8>
+Field_1_13_6_36670_008<32>
+Field_1_13_6_36670_009<u8>
+Field_1_13_6_36670_010<u32>
+Field_1_13_6_36670_011<u16>[5]
+Field_1_13_6_36670_012<u16>[5]
+Field_1_13_6_36670_013<u8>[5]
+Field_1_13_6_36670_014<16>[7]
 
 BUILD 3.0.1.8303-3.0.1.8885
 BUILD 2.4.0.8089-2.4.3.8606
