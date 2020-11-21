@@ -2,8 +2,8 @@ COLUMNS
 int ID?
 int<SpellShapeshiftForm::ID> SpellShapeshiftFormID?
 int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
-float Field_9_0_1_34714_003? // Scale maybe? 1.0 except 0.8 for ID 41
-float Field_9_0_2_35854_004?
+float BarberShopMinCameraDistance?
+float BarberShopHeightOffset?
 
 LAYOUT F4065FDC
 BUILD 9.0.1.34615
@@ -16,7 +16,7 @@ BUILD 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.351
 $id$ID<32>
 SpellShapeshiftFormID<32>
 CreatureDisplayInfoID<32>
-Field_9_0_1_34714_003
+BarberShopMinCameraDistance
 
 LAYOUT E662481C
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.36165, 9.0.2.36206, 9.0.2.36267, 9.0.2.36294, 9.0.2.36401, 9.0.2.36512, 9.0.2.36532, 9.0.2.36599, 9.0.2.36639, 9.0.2.36665, 9.0.2.36671, 9.0.2.36710
@@ -24,5 +24,5 @@ BUILD 9.0.1.35828, 9.0.1.35853, 9.0.1.35897, 9.0.1.35917, 9.0.1.35944, 9.0.1.359
 $id$ID<32>
 SpellShapeshiftFormID<32>
 CreatureDisplayInfoID<32>
-Field_9_0_1_34714_003
-Field_9_0_2_35854_004
+BarberShopMinCameraDistance
+BarberShopHeightOffset

@@ -20,11 +20,11 @@ float EffectScalingPoints
 locstring HordeName_lang
 int<FileData::ID> IconFileDataID
 int TransmogCost
-int<PlayerCondition::ID> TransmogPlayerConditionID
+int<PlayerCondition::ID> TransmogUnlockConditionID
+int<PlayerCondition::ID> TransmogUseConditionID
 int EffectPointsMax
 int ItemLevelMin
 int ItemLevelMax
-int Field_9_0_1_34365_008?
 int Field_5_0_1_15464_015? // maybe scalingClassRestricted
 float Field_5_0_1_15464_016? // maybe effectScalingPoints
 
@@ -188,7 +188,7 @@ MinLevel<u8>
 MaxLevel<u8>
 ScalingClass<8>
 ScalingClassRestricted<8>
-TransmogPlayerConditionID<u32>
+TransmogUnlockConditionID<u32>
 
 LAYOUT 48ACBC6C
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -212,7 +212,7 @@ MinLevel<u8>
 MaxLevel<u8>
 ScalingClass<8>
 ScalingClassRestricted<8>
-TransmogPlayerConditionID<u32>
+TransmogUnlockConditionID<u32>
 
 LAYOUT 80DEA734
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032
@@ -237,7 +237,7 @@ MinLevel<u8>
 MaxLevel<u8>
 ScalingClass<8>
 ScalingClassRestricted<8>
-TransmogPlayerConditionID<u32>
+TransmogUnlockConditionID<u32>
 
 LAYOUT F8B0881A
 BUILD 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -261,7 +261,7 @@ MinLevel<u8>
 MaxLevel<u8>
 ScalingClass<8>
 ScalingClassRestricted<8>
-TransmogPlayerConditionID<u32>
+TransmogUnlockConditionID<u32>
 
 LAYOUT DF71600C
 BUILD 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -285,7 +285,7 @@ ScalingClassRestricted<8>
 Condition_ID<u8>
 MinLevel<u8>
 MaxLevel<u8>
-TransmogPlayerConditionID<u32>
+TransmogUnlockConditionID<u32>
 
 LAYOUT 96D1828E, 3933F488
 BUILD 9.0.1.33978, 9.0.1.34003
@@ -306,7 +306,7 @@ Name_lang
 HordeName_lang
 EffectArg<u32>[3]
 EffectScalingPoints[3]
-TransmogPlayerConditionID<u32>
+TransmogUnlockConditionID<u32>
 TransmogCost<u32>
 IconFileDataID<u32>
 EffectPointsMin<16>[3]
@@ -330,7 +330,7 @@ Name_lang
 HordeName_lang
 EffectArg<u32>[3]
 EffectScalingPoints[3]
-TransmogPlayerConditionID<u32>
+TransmogUnlockConditionID<u32>
 TransmogCost<u32>
 IconFileDataID<u32>
 ItemLevelMin<32>
@@ -360,7 +360,7 @@ EffectScalingPoints[3]
 IconFileDataID<u32>
 ItemLevelMin<32>
 ItemLevelMax<32>
-Field_9_0_1_34365_008<u32>
+TransmogUseConditionID<u32>
 TransmogCost<u32>
 EffectPointsMin<16>[3]
 ItemVisual<u16>
