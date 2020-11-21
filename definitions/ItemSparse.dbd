@@ -72,7 +72,7 @@ int DefensiveStats?
 int AmmoType?
 int DamageType?
 int<ModifiedCraftingReagentItem::ID> ModifiedCraftingReagentItemID?
-int Field_9_0_1_33978_024?
+int<ContentTuning::ID> ContentTuningID?
 int<Curve::ID> PlayerLevelToItemLevelCurveID?
 int Field_7_3_2_25549_048? // probably RequiredPVPRank
 int Field_7_3_2_25549_049? // probably RequiredPVPMedal
@@ -742,7 +742,7 @@ PriceRandomValue
 Flags<32>[4]
 OppositeFactionItemID<32>
 ModifiedCraftingReagentItemID<32>
-Field_9_0_1_33978_024<32>
+ContentTuningID<32>
 PlayerLevelToItemLevelCurveID<32>
 ItemNameDescriptionID<u16>
 RequiredTransmogHoliday<u16>
