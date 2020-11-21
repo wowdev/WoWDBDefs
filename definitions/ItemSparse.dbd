@@ -71,7 +71,7 @@ int DamageMax?
 int DefensiveStats?
 int AmmoType?
 int DamageType?
-int Field_9_0_1_33978_023?
+int<ModifiedCraftingReagentItem::ID> ModifiedCraftingReagentItemID?
 int Field_9_0_1_33978_024?
 int<Curve::ID> PlayerLevelToItemLevelCurveID?
 int Field_7_3_2_25549_048? // probably RequiredPVPRank
@@ -741,7 +741,7 @@ PriceVariance
 PriceRandomValue
 Flags<32>[4]
 OppositeFactionItemID<32>
-Field_9_0_1_33978_023<32>
+ModifiedCraftingReagentItemID<32>
 Field_9_0_1_33978_024<32>
 PlayerLevelToItemLevelCurveID<32>
 ItemNameDescriptionID<u16>
