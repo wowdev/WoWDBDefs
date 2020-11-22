@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int AreaModelID
+int<SpellVisualKitAreaModel::ID> AreaModelID
 float EmissionRate
 int Flags
 float ModelScale
