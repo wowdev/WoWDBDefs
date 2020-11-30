@@ -6,14 +6,14 @@ int MinLevel
 int<ExpectedStatMod::ID> ExpectedStatModID // moved to table ContentTuningXExpected
 int DifficultyESMID
 int ExpansionLevel?
-int LowerBoundSemantics? // when reading MinLevel, modify as per 0: +0, 1: +1, 2: +account's expansion's min level
-int UpperBoundSemantics? // independent of Flags&2, when reading MaxLevel, modify as per 0: +0, 1: +1, 2: +account's expansion's max level
+int LowerBoundSemantics? // when reading MinLevel, modify as per 0: +0, 1: +1, 2: +server's expansion's min level
+int UpperBoundSemantics? // independent of Flags&2, when reading MaxLevel, modify as per 0: +0, 1: +1, 2: +server's expansion's max level
 int Field_9_0_1_34490_007?
 int TargetLevelDelta?
 int TargetLevelMaxDelta // add to effective MaxLevel to get TargetLevelMax
 int TargetLevelMin?
 int TargetLevelMax?
-int Field_9_0_2_35978_011?
+int MinItemLevel? // overrides LfgDungeons::MinGear if set
 
 LAYOUT 70C53E15
 BUILD 8.0.1.26175
@@ -146,4 +146,4 @@ TargetLevelDelta<32>
 TargetLevelMaxDelta<32>
 TargetLevelMin<32>
 TargetLevelMax<32>
-Field_9_0_2_35978_011<32>
+MinItemLevel<32>
