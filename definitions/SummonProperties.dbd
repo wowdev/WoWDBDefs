@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int Control
-int Faction
+int<FactionTemplate::ID> Faction
 int Title
 int Slot
 int Flags
