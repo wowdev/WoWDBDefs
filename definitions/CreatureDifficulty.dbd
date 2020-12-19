@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Creature::ID> CreatureID
 int ExpansionID
-int<Faction::ID> FactionID
+int<FactionTemplate::ID> FactionID
 int Flags
 int MaxLevel
 int MinLevel
