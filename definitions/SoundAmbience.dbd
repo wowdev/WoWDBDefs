@@ -4,8 +4,8 @@ int<SoundKit::ID> AmbienceID
 int Flags
 int FlavorSoundFilterID
 int<SoundFilter::ID> SoundFilterID
-int AmbienceStartID
-int AmbienceStopID
+int<SoundKit::ID> AmbienceStartID
+int<SoundKit::ID> AmbienceStopID
 int<SoundKit::ID> SoundKitID? // WindSoundKitID? All sound entries are wind loops
 
 BUILD 4.0.0.11792
