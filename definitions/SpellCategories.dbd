@@ -5,7 +5,7 @@ int<Difficulty::ID> DifficultyID
 int<SpellCategory::ID> Category
 int DefenseType // = damage class; 0: none, 1: magic, 2: melee, 3: ranged
 int DispelType // 0: none, 1: magic, 2: curse, 3: disease, 4: poison, 5: stealth, 6: invisibility, 7: all, 8: spe npc only, 9: enrage, 10: zg ticket, 11: unused
-int Mechanic
+int<SpellMechanic::ID> Mechanic
 int PreventionType // &1: silence, &2: pacify, &4: no actions
 int<SpellCategory::ID> StartRecoveryCategory
 int<SpellCategory::ID> ChargeCategory
