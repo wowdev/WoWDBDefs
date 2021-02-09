@@ -5,6 +5,13 @@ int<ItemBonusTree::ID> ChildItemBonusTreeID
 int ChildItemLevelSelectorID
 int ItemContext
 int<ItemBonusTree::ID> ParentItemBonusTreeID
+int Field_9_0_5_37503_000?
+int Field_9_0_5_37503_001?
+int Field_9_0_5_37503_002?
+int Field_9_0_5_37503_003?
+int Field_9_0_5_37503_004?
+int Field_9_0_5_37503_005?
+int Field_9_0_5_37503_006?
 
 LAYOUT 6149BC4B
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -49,3 +56,14 @@ ChildItemBonusTreeID<u16>
 ChildItemBonusListID<u16>
 ChildItemLevelSelectorID<u16>
 $noninline,relation$ParentItemBonusTreeID<u16>
+
+LAYOUT C2E0B160
+BUILD 9.0.5.37503
+$noninline,id$ID<32>
+Field_9_0_5_37503_000<u8>
+Field_9_0_5_37503_001<u16>
+Field_9_0_5_37503_002<u16>
+Field_9_0_5_37503_003<u16>
+Field_9_0_5_37503_004<32>
+Field_9_0_5_37503_005<32>
+$noninline,relation$Field_9_0_5_37503_006<u16>
