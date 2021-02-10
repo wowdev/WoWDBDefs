@@ -4,10 +4,6 @@ int<Spell::ID> SpellID
 int ConduitType // 0: Finesse, 1: Potency, 2: Endurance
 int<Covenant::ID> CovenantID
 int<SpecSetMember::SpecSet> SpecSetID
-int Field_9_0_5_37503_000?
-int Field_9_0_5_37503_001?
-int Field_9_0_5_37503_002?
-int Field_9_0_5_37503_003?
 int Field_9_0_5_37503_004?
 
 LAYOUT 40A0815A
@@ -31,8 +27,8 @@ SpecSetID<32>
 
 LAYOUT 6F7E0B02
 BUILD 9.0.5.37503
-$id$Field_9_0_5_37503_000<32>
-Field_9_0_5_37503_001<32>
-Field_9_0_5_37503_002<32>
-Field_9_0_5_37503_003<32>
+$id$ID<32>
+ConduitType<32>
+CovenantID<32>
+SpecSetID<32>
 Field_9_0_5_37503_004<32>

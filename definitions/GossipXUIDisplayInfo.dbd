@@ -2,10 +2,7 @@ COLUMNS
 int ID?
 int GossipMenuID? // but probably not GossipMenuID
 int<UiTextureKit::ID> UiTextureKitID?
-locstring Field_9_0_5_37503_000_lang?
-int Field_9_0_5_37503_001?
-int Field_9_0_5_37503_002?
-int Field_9_0_5_37503_003?
+locstring CustomGossipDescriptionString_lang
 
 LAYOUT C9A649B0
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.36165, 9.0.2.36206, 9.0.2.36267, 9.0.2.36294, 9.0.2.36401, 9.0.2.36512, 9.0.2.36532, 9.0.2.36599, 9.0.2.36639, 9.0.2.36665, 9.0.2.36671, 9.0.2.36710, 9.0.2.36734, 9.0.2.36751, 9.0.2.36753, 9.0.2.36839, 9.0.2.36949, 9.0.2.37106, 9.0.2.37130, 9.0.2.37142, 9.0.2.37176, 9.0.2.37415, 9.0.2.37474
@@ -16,7 +13,7 @@ UiTextureKitID<32>
 
 LAYOUT DD005226
 BUILD 9.0.5.37503
-Field_9_0_5_37503_000_lang
-$id$Field_9_0_5_37503_001<32>
-Field_9_0_5_37503_002<32>
-Field_9_0_5_37503_003<32>
+CustomGossipDescriptionString_lang
+$id$ID<32>
+GossipMenuID<32>
+UiTextureKitID<32>

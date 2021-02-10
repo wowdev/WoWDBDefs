@@ -8,16 +8,7 @@ int<ChrCustomizationMaterial::ID> ChrCustomizationMaterialID?
 int<ChrCustomizationBoneSet::ID> ChrCustomizationBoneSetID?
 int<ChrCustomizationCondModel::ID> ChrCustomizationCondModelID?
 int<ChrCustomizationDisplayInfo::ID> ChrCustomizationDisplayInfoID?
-int Field_9_0_5_37503_000?
-int Field_9_0_5_37503_001?
-int Field_9_0_5_37503_002?
-int Field_9_0_5_37503_003?
-int Field_9_0_5_37503_004?
-int Field_9_0_5_37503_005?
-int Field_9_0_5_37503_006?
-int Field_9_0_5_37503_007?
-int Field_9_0_5_37503_008?
-int Field_9_0_5_37503_009?
+int<ChrCustItemGeoModify::ID> ChrCustItemGeoModifyID
 
 LAYOUT 155D0538
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -45,13 +36,13 @@ ChrCustomizationDisplayInfoID<32>
 
 LAYOUT 23DA3D78
 BUILD 9.0.5.37503
-$id$Field_9_0_5_37503_000<32>
-Field_9_0_5_37503_001<32>
-Field_9_0_5_37503_002<32>
-Field_9_0_5_37503_003<32>
-Field_9_0_5_37503_004<32>
-Field_9_0_5_37503_005<32>
-Field_9_0_5_37503_006<32>
-Field_9_0_5_37503_007<32>
-Field_9_0_5_37503_008<32>
-Field_9_0_5_37503_009<32>
+$id$ID<32>
+ChrCustomizationChoiceID<32>
+RelatedChrCustomizationChoiceID<32>
+ChrCustomizationGeosetID<32>
+ChrCustomizationSkinnedModelID<32>
+ChrCustomizationMaterialID<32>
+ChrCustomizationBoneSetID<32>
+ChrCustomizationCondModelID<32>
+ChrCustomizationDisplayInfoID<32>
+ChrCustItemGeoModifyID<32>

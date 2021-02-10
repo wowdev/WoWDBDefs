@@ -5,16 +5,11 @@ int Superior
 int Good
 int DamageReplaceStat
 int DamageSecondary?
-float Field_9_0_5_37503_000?
-float Field_9_0_5_37503_001?
-int Field_9_0_5_37503_002?
-int Field_9_0_5_37503_003?
-float Field_9_0_5_37503_004?
-float Field_9_0_5_37503_005?
-float Field_9_0_5_37503_006?
-int Field_9_0_5_37503_007?
-int Field_9_0_5_37503_008?
-int Field_9_0_5_37503_009?
+float DamageReplaceStatF?
+float DamageSecondaryF?
+float EpicF?
+float SuperiorF?
+float GoodF?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -78,13 +73,13 @@ Good<u32>[5]
 LAYOUT 0E4AE36D
 BUILD 9.0.5.37503
 $noninline,id$ID<32>
-Field_9_0_5_37503_000
-Field_9_0_5_37503_001
-Field_9_0_5_37503_002<32>
-Field_9_0_5_37503_003<32>
-Field_9_0_5_37503_004[5]
-Field_9_0_5_37503_005[5]
-Field_9_0_5_37503_006[5]
-Field_9_0_5_37503_007<u32>[5]
-Field_9_0_5_37503_008<u32>[5]
-Field_9_0_5_37503_009<u32>[5]
+DamageReplaceStatF
+DamageSecondaryF
+DamageReplaceStat<32>
+DamageSecondary<32>
+EpicF[5]
+SuperiorF[5]
+GoodF[5]
+Epic<u32>[5]
+Superior<u32>[5]
+Good<u32>[5]

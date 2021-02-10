@@ -5,7 +5,7 @@ int Icon
 int<FactionTemplate::ID> FactionID
 float Pos
 int<Map::ID> ContinentID
-int Flags
+int Flags // &0x100000: ShouldGlow
 int<AreaTable::ID> AreaID
 locstring Name_lang
 locstring Description_lang
