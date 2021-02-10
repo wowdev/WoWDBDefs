@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Field_9_0_5_37503_000?
+int<SpellVisualKitPicker::ID> SpellVisualKitPickerID
 int Field_9_0_5_37503_001?
 int Field_9_0_5_37503_002?
 int Field_9_0_5_37503_003?
@@ -9,7 +9,7 @@ int<Mount::ID> MountID
 LAYOUT 61187DC1
 BUILD 9.0.5.37503
 $noninline,id$ID<32>
-Field_9_0_5_37503_000<32>
+SpellVisualKitPickerID<32>
 Field_9_0_5_37503_001<32>
 Field_9_0_5_37503_002<32>
 Field_9_0_5_37503_003<32>

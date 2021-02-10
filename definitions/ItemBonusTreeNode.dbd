@@ -5,7 +5,7 @@ int<ItemBonusTree::ID> ChildItemBonusTreeID
 int ChildItemLevelSelectorID
 int ItemContext
 int<ItemBonusTree::ID> ParentItemBonusTreeID
-int Field_9_0_5_37503_004?
+int<ItemBonusListGroup::ID> ItemBonusListGroupID?
 int Field_9_0_5_37503_005?
 
 LAYOUT 6149BC4B
@@ -59,6 +59,6 @@ ItemContext<u8>
 ChildItemBonusTreeID<u16>
 ChildItemBonusListID<u16>
 ChildItemLevelSelectorID<u16>
-Field_9_0_5_37503_004<32>
+ItemBonusListGroupID<32>
 Field_9_0_5_37503_005<32>
 $noninline,relation$ParentItemBonusTreeID<u16>
