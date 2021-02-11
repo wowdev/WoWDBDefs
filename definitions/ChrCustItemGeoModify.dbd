@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int Field_9_0_5_37503_000?
+int GeosetType?
 int Original?
 int Override?
 
 LAYOUT FA0A7F36
 BUILD 9.0.5.37503
 $noninline,id$ID<32>
-Field_9_0_5_37503_000<32>
+GeosetType<32>
 Original<32>
 Override<32>
