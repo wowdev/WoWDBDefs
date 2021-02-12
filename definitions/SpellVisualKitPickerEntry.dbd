@@ -1,12 +1,12 @@
 COLUMNS
 int ID
 int<SpellVisualKit::ID> SpellVisualKitID
-float Field_9_0_5_37503_002?
+float Probability?
 int<SpellVisualKitPicker::ID> SpellVisualKitPickerID
 
 LAYOUT 94FA5841
 BUILD 9.0.5.37503
 $id$ID<32>
 SpellVisualKitID<32>
-Field_9_0_5_37503_002
+Probability
 $noninline,relation$SpellVisualKitPickerID<32>
