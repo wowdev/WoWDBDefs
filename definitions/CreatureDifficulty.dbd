@@ -9,12 +9,12 @@ int MinLevel
 int<ContentTuning::ID> ContentTuningID
 int Field_9_0_1_35522_003Min? // Level randomness?
 int Field_9_0_1_35522_003Max?
-int Field_5_0_1_15589_002?
+int<Difficulty::ID> DifficultyID
 
 BUILD 5.0.1.15589-5.3.0.17116
 $id$ID<32>
 CreatureID<32>
-Field_5_0_1_15589_002<32>
+DifficultyID<32>
 MinLevel<32>
 MaxLevel<32>
 Flags<32>
