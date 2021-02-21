@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Control
+int Control // 2: Pet?; 3: Controllable
 int<FactionTemplate::ID> Faction
-int Title
-int Slot
-int Flags
+int Title // UNITNAME_SUMMON_TITLE%d
+int Slot // A summoner (e.g. player) has a list of slots for summons, one per slot. Pet = 0, Totem = 1..4, BattlePetCompanion = 5, Quest = 6.
+int Flags // &0x00000010: visible to summoner only; &0x00000020: PetCanBeDismissed; &0x00200000: IsBattlePetCompanion; &0x00800000: selection highlight color = dead?; &0x20000000: no title/summoned-by; &0x40000000: related to unit reaction
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
