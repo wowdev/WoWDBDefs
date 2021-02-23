@@ -13,6 +13,18 @@ int Flags
 int MapDisplayConditionID
 int<UiMap::ID> UiMapID
 int<DungeonEncounter::ID> DungeonEncounterID
+locstring Field_9_0_5_37705_000_lang?
+locstring Field_9_0_5_37705_001_lang?
+float Field_9_0_5_37705_002?
+int Field_9_0_5_37705_003?
+int Field_9_0_5_37705_004?
+int Field_9_0_5_37705_005?
+int Field_9_0_5_37705_006?
+int Field_9_0_5_37705_007?
+int Field_9_0_5_37705_008?
+int Field_9_0_5_37705_009?
+int Field_9_0_5_37705_010?
+int Field_9_0_5_37705_011?
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.2.0.14333-4.3.4.15595
@@ -146,3 +158,18 @@ UiMapID<u16>
 MapDisplayConditionID<u32>
 Flags<u8>
 DifficultyMask<8>
+
+LAYOUT 7D6A99D0
+BUILD 9.0.5.37705
+Field_9_0_5_37705_000_lang
+Field_9_0_5_37705_001_lang
+Field_9_0_5_37705_002[2]
+$id$Field_9_0_5_37705_003<32>
+Field_9_0_5_37705_004<u16>
+Field_9_0_5_37705_005<u16>
+Field_9_0_5_37705_006<u32>
+Field_9_0_5_37705_007<u16>
+Field_9_0_5_37705_008<u16>
+Field_9_0_5_37705_009<u32>
+Field_9_0_5_37705_010<u8>
+Field_9_0_5_37705_011<8>
