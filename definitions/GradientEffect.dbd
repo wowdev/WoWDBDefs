@@ -1,39 +1,39 @@
 COLUMNS
 int ID
-float Field_8_1_0_28440_000?
-float Field_8_1_0_28440_001?
-float Field_8_1_0_28440_002?
-float Field_8_1_0_28440_003?
-float Field_8_1_0_28440_004?
-float Field_8_1_0_28440_005?
-float Field_8_1_0_28440_006?
-float Field_8_1_0_28440_007?
-float Field_8_1_0_28440_008?
-float Field_8_1_0_28440_009?
-float Field_8_1_0_28440_010?
-float Field_8_1_0_28440_011?
-float Field_8_1_0_28440_012?
-float Field_8_1_0_28440_013?
+float colors0_r
+float colors0_g
+float colors0_b
+float colors1_r
+float colors1_g
+float colors1_b
+float colors2_r
+float colors2_g
+float colors2_b
+float alpha1?
+float alpha2?
+float edgeColor_r
+float edgeColor_g
+float edgeColor_b
 int Field_8_1_0_28440_014?
 int Field_8_1_0_28440_015?
 
 LAYOUT 7DE5F093
 BUILD 8.1.0.27985, 8.1.0.28048, 8.1.0.28085, 8.1.0.28151, 8.1.0.28186, 8.1.0.28202, 8.1.0.28294, 8.1.0.28366
 $noninline,id$ID<32>
-Field_8_1_0_28440_000
-Field_8_1_0_28440_001
-Field_8_1_0_28440_002
-Field_8_1_0_28440_003
-Field_8_1_0_28440_004
-Field_8_1_0_28440_005
-Field_8_1_0_28440_006
-Field_8_1_0_28440_007
-Field_8_1_0_28440_008
-Field_8_1_0_28440_009
-Field_8_1_0_28440_010
-Field_8_1_0_28440_011
-Field_8_1_0_28440_012
-Field_8_1_0_28440_013
+colors0_r
+colors0_g
+colors0_b
+colors1_r
+colors1_g
+colors1_b
+colors2_r
+colors2_g
+colors2_b
+alpha1
+alpha2
+edgeColor_r
+edgeColor_g
+edgeColor_b
 Field_8_1_0_28440_014<32>
 
 LAYOUT 730DC7A1, 05FC5907
@@ -47,19 +47,19 @@ BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.301
 BUILD 8.1.5.28938, 8.1.5.29141, 8.1.5.29220, 8.1.5.29281, 8.1.5.29310, 8.1.5.29352, 8.1.5.29385, 8.1.5.29418, 8.1.5.29484, 8.1.5.29495, 8.1.5.29558, 8.1.5.29599, 8.1.5.29620, 8.1.5.29634, 8.1.5.29664, 8.1.5.29683, 8.1.5.29701, 8.1.5.29704, 8.1.5.29705, 8.1.5.29718, 8.1.5.29732, 8.1.5.29737, 8.1.5.29814, 8.1.5.29869, 8.1.5.29896, 8.1.5.29981, 8.1.5.30477, 8.1.5.30706
 BUILD 8.1.0.28440, 8.1.0.28485, 8.1.0.28616, 8.1.0.28657, 8.1.0.28710, 8.1.0.28724, 8.1.0.28768, 8.1.0.28807, 8.1.0.28822, 8.1.0.28833, 8.1.0.29088, 8.1.0.29139, 8.1.0.29235, 8.1.0.29285, 8.1.0.29297, 8.1.0.29482, 8.1.0.29600, 8.1.0.29621
 $noninline,id$ID<32>
-Field_8_1_0_28440_000
-Field_8_1_0_28440_001
-Field_8_1_0_28440_002
-Field_8_1_0_28440_003
-Field_8_1_0_28440_004
-Field_8_1_0_28440_005
-Field_8_1_0_28440_006
-Field_8_1_0_28440_007
-Field_8_1_0_28440_008
-Field_8_1_0_28440_009
-Field_8_1_0_28440_010
-Field_8_1_0_28440_011
-Field_8_1_0_28440_012
-Field_8_1_0_28440_013
+colors0_r
+colors0_g
+colors0_b
+colors1_r
+colors1_g
+colors1_b
+colors2_r
+colors2_g
+colors2_b
+alpha1
+alpha2
+edgeColor_r
+edgeColor_g
+edgeColor_b
 Field_8_1_0_28440_014<32>
 Field_8_1_0_28440_015<32>
