@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int Rank?
-int ItemLevel?
-int<SoulbindConduit::ID> SoulbindConduitID?
+int Rank
+int ItemLevel
+int QualityID
 
 LAYOUT B2FCF094
 BUILD 9.0.5.37503, 9.0.5.37623, 9.0.5.37705, 9.0.5.37774, 9.0.5.37844, 9.0.5.37862, 9.0.5.37864, 9.0.5.37893, 9.0.5.37899
@@ -10,4 +10,4 @@ BUILD 9.0.2.36086, 9.0.2.36165, 9.0.2.36206, 9.0.2.36267, 9.0.2.36294, 9.0.2.364
 $noninline,id$ID<32>
 Rank<32>
 ItemLevel<32>
-SoulbindConduitID<32>
+QualityID<32>
