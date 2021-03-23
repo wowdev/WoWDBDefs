@@ -7,14 +7,13 @@ int Flags // &1: PreferIfOnNoStepRightNow?
 locstring FailureReason_lang // Alternative to the PlayerCondition's reason.
 int Field_2_5_1_38043_000?
 int Field_2_5_1_38043_001?
-int Field_2_5_1_38043_002?
 
 LAYOUT 05688FB4
 BUILD 2.5.1.38043
 $noninline,id$ID<32>
 Field_2_5_1_38043_000<u32>
 Field_2_5_1_38043_001<u32>
-$noninline,relation$Field_2_5_1_38043_002<u32>
+$noninline,relation$CampaignID<u32>
 
 LAYOUT 638FC159
 BUILD 8.2.0.30080, 8.2.0.30093, 8.2.0.30096, 8.2.0.30108, 8.2.0.30123, 8.2.0.30168, 8.2.0.30170, 8.2.0.30203, 8.2.0.30262, 8.2.0.30329, 8.2.0.30430, 8.2.0.30495, 8.2.0.30613, 8.2.0.30634

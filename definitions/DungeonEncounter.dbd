@@ -12,15 +12,6 @@ int<FileData::ID> SpellIconFileID
 int Difficulty
 int Faction // -1: any, 0: Horde, 1: Alliance
 int<WorldState::ID> IsEncounterComplete
-locstring Field_2_5_1_38043_000_lang?
-int Field_2_5_1_38043_001?
-int Field_2_5_1_38043_002?
-int Field_2_5_1_38043_003?
-int Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12539
@@ -143,12 +134,12 @@ Faction<32>
 
 LAYOUT B52C4A8C
 BUILD 2.5.1.38043
-Field_2_5_1_38043_000_lang
-$id$Field_2_5_1_38043_001<32>
-$relation$Field_2_5_1_38043_002<16>
-Field_2_5_1_38043_003<8>
-Field_2_5_1_38043_004<32>
-Field_2_5_1_38043_005<8>
-Field_2_5_1_38043_006<32>
-Field_2_5_1_38043_007<u8>
-Field_2_5_1_38043_008<32>
+Name_lang
+$id$ID<32>
+$relation$MapID<16>
+DifficultyID<8>
+OrderIndex<32>
+Bit<8>
+CreatureDisplayID<32>
+Flags<u8>
+SpellIconFileID<32>

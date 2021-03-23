@@ -3,16 +3,13 @@ int ID
 int<BattlePetSpecies::ID> BattlePetSpeciesID
 int<BattlePetState::ID> BattlePetStateID
 int Value
-int Field_2_5_1_38043_000?
-int Field_2_5_1_38043_001?
-int Field_2_5_1_38043_002?
 
 LAYOUT 6EB7DB8D
 BUILD 2.5.1.38043
 $noninline,id$ID<32>
-Field_2_5_1_38043_000<u8>
-Field_2_5_1_38043_001<32>
-$noninline,relation$Field_2_5_1_38043_002<u16>
+BattlePetStateID<u8>
+Value<32>
+$noninline,relation$BattlePetSpeciesID<u16>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

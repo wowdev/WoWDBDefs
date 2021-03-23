@@ -12,8 +12,6 @@ float CombatWeightMax
 int Flags // GARR_ABILITY_EFFECT_FLAGS: &1: NOT_BENEFICIAL
 int<GarrAbility::ID> GarrAbilityID
 int<GarrMechanicType::ID> GarrMechanicTypeID
-int Field_2_5_1_38043_000?
-int Field_2_5_1_38043_001?
 int Field_2_5_1_38043_002?
 int Field_2_5_1_38043_003?
 int Field_2_5_1_38043_004?
@@ -27,8 +25,8 @@ int Field_2_5_1_38043_011?
 
 LAYOUT 74140423
 BUILD 2.5.1.38043
-$id$Field_2_5_1_38043_000<32>
-$relation$Field_2_5_1_38043_001<u16>
+$id$ID<32>
+$relation$GarrAbilityID<u16>
 Field_2_5_1_38043_002<u8>
 Field_2_5_1_38043_003<u8>
 Field_2_5_1_38043_004<u8>

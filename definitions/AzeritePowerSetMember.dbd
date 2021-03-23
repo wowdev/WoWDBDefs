@@ -5,20 +5,18 @@ int<AzeritePower::ID> AzeritePowerID
 int AzeritePowerSetID
 int OrderIndex // within set x tier x class
 int Tier
-int Field_2_5_1_38043_000?
 int Field_2_5_1_38043_001?
 int Field_2_5_1_38043_002?
 int Field_2_5_1_38043_003?
-int Field_2_5_1_38043_004?
 
 LAYOUT A8760AC6
 BUILD 2.5.1.38043
 $noninline,id$ID<32>
-Field_2_5_1_38043_000<u16>
+AzeritePowerID<u16>
 Field_2_5_1_38043_001<u8>
 Field_2_5_1_38043_002<u8>
 Field_2_5_1_38043_003<u8>
-$noninline,relation$Field_2_5_1_38043_004<u16>
+$noninline,relation$AzeritePowerSetID<u16>
 
 LAYOUT A5515E8D, DB24A281
 BUILD 8.1.0.27826, 8.1.0.27934, 8.1.0.27985, 8.1.0.28048, 8.1.0.28085, 8.1.0.28151, 8.1.0.28186, 8.1.0.28202
