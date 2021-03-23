@@ -19,23 +19,6 @@ int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
-string Field_2_5_1_38043_000?
-locstring Field_2_5_1_38043_001_lang?
-locstring Field_2_5_1_38043_002_lang?
-locstring Field_2_5_1_38043_003_lang?
-string Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
-int Field_2_5_1_38043_010?
-int Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
-int Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
-int Field_2_5_1_38043_015?
-int Field_2_5_1_38043_016?
 
 BUILD 2.0.0.5991
 BUILD 1.5.0.4442-1.11.2.5464
@@ -52,23 +35,23 @@ DynamicTooltip_lang
 
 LAYOUT 894203A8
 BUILD 2.5.1.38043
-Field_2_5_1_38043_000
-Field_2_5_1_38043_001_lang
-Field_2_5_1_38043_002_lang
-Field_2_5_1_38043_003_lang
-Field_2_5_1_38043_004
-$id$Field_2_5_1_38043_005<32>
-$relation$Field_2_5_1_38043_006<16>
-Field_2_5_1_38043_007<u16>
-Field_2_5_1_38043_008<u16>
-Field_2_5_1_38043_009<u8>
-Field_2_5_1_38043_010<32>
-Field_2_5_1_38043_011<32>
-Field_2_5_1_38043_012<u8>
-Field_2_5_1_38043_013<u8>
-Field_2_5_1_38043_014<u16>
-Field_2_5_1_38043_015<u16>
-Field_2_5_1_38043_016<u16>[3]
+Icon
+String_lang
+Tooltip_lang
+DynamicTooltip_lang
+ExtendedUI
+$id$ID<32>
+$relation$MapID<16>
+AreaID<u16>
+StateVariable<u16>
+Type<u8>
+DynamicIconFileID<32>
+DynamicFlashIconFileID<32>
+OrderIndex<u8>
+PhaseUseFlags<u8>
+PhaseID<u16>
+PhaseGroupID<u16>
+ExtendedUIStateVariable<u16>[3]
 
 BUILD 3.0.1.8303
 BUILD 3.0.1.8303-3.0.1.8471
