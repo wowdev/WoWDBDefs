@@ -72,6 +72,23 @@ int Field_5_4_0_17266_022?
 int Field_5_4_0_17266_023?
 int Field_5_4_0_17266_024?
 int<SpellVisual::ID> ReducedUnexpectedCameraMovementSpellVisualID?
+float Field_2_5_1_38043_000?
+float Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
+int Field_2_5_1_38043_013?
+int Field_2_5_1_38043_014?
+int Field_2_5_1_38043_015?
+int Field_2_5_1_38043_016?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -227,6 +244,27 @@ MissileFollowGroundDropSpeed<32>
 MissileFollowGroundApproach<32>
 MissileFollowGroundFlags<32>
 MissileMotion<32>
+
+LAYOUT 4D81CB5D
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000[3]
+Field_2_5_1_38043_001[3]
+Field_2_5_1_38043_002<u32>
+Field_2_5_1_38043_003<32>
+Field_2_5_1_38043_004<8>
+Field_2_5_1_38043_005<8>
+Field_2_5_1_38043_006<u32>
+Field_2_5_1_38043_007<u32>
+Field_2_5_1_38043_008<32>
+Field_2_5_1_38043_009<u32>
+Field_2_5_1_38043_010<u32>
+Field_2_5_1_38043_011<u16>
+Field_2_5_1_38043_012<u16>
+Field_2_5_1_38043_013<u32>
+Field_2_5_1_38043_014<u32>
+Field_2_5_1_38043_015<u16>
+Field_2_5_1_38043_016<8>
 
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885

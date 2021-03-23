@@ -48,6 +48,73 @@ locstring TitleName_lang
 int Vitality
 int<GarrAutoCombatant::ID> AutoCombatantID
 int<Covenant::ID> CovenantID
+locstring Field_2_5_1_38043_000_lang?
+locstring Field_2_5_1_38043_001_lang?
+locstring Field_2_5_1_38043_002_lang?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
+int Field_2_5_1_38043_013?
+int Field_2_5_1_38043_014?
+int Field_2_5_1_38043_015?
+int Field_2_5_1_38043_016?
+int Field_2_5_1_38043_017?
+int Field_2_5_1_38043_018?
+int Field_2_5_1_38043_019?
+int Field_2_5_1_38043_020?
+int Field_2_5_1_38043_021?
+int Field_2_5_1_38043_022?
+int Field_2_5_1_38043_023?
+int Field_2_5_1_38043_024?
+int Field_2_5_1_38043_025?
+int Field_2_5_1_38043_026?
+int Field_2_5_1_38043_027?
+int Field_2_5_1_38043_028?
+int Field_2_5_1_38043_029?
+int Field_2_5_1_38043_030?
+int Field_2_5_1_38043_031?
+
+LAYOUT 88765B9E
+BUILD 2.5.1.38043
+Field_2_5_1_38043_000_lang
+Field_2_5_1_38043_001_lang
+Field_2_5_1_38043_002_lang
+$id$Field_2_5_1_38043_003<32>
+Field_2_5_1_38043_004<u8>
+Field_2_5_1_38043_005<u8>
+Field_2_5_1_38043_006<32>
+Field_2_5_1_38043_007<32>
+Field_2_5_1_38043_008<u8>
+Field_2_5_1_38043_009<u8>
+Field_2_5_1_38043_010<u8>
+Field_2_5_1_38043_011<u8>
+Field_2_5_1_38043_012<u8>
+Field_2_5_1_38043_013<u8>
+Field_2_5_1_38043_014<u16>
+Field_2_5_1_38043_015<u16>
+Field_2_5_1_38043_016<8>
+Field_2_5_1_38043_017<8>
+Field_2_5_1_38043_018<32>
+Field_2_5_1_38043_019<32>
+Field_2_5_1_38043_020<u16>
+Field_2_5_1_38043_021<u16>
+Field_2_5_1_38043_022<u16>
+Field_2_5_1_38043_023<u16>
+Field_2_5_1_38043_024<u8>
+Field_2_5_1_38043_025<u8>
+Field_2_5_1_38043_026<u8>
+Field_2_5_1_38043_027<u32>
+Field_2_5_1_38043_028<u32>
+Field_2_5_1_38043_029<u8>
+Field_2_5_1_38043_030<u8>
+Field_2_5_1_38043_031<u8>
 
 BUILD 6.0.1.18179
 $id$ID<32>

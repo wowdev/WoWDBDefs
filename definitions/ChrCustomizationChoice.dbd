@@ -8,6 +8,25 @@ int Flags?
 int SwatchColor1?
 int UiOrderIndex? // returned in lua
 int SwatchColor2?
+locstring Field_2_5_1_38043_000_lang?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+
+LAYOUT E8148293
+BUILD 2.5.1.38043
+Field_2_5_1_38043_000_lang
+$id$Field_2_5_1_38043_001<32>
+$relation$Field_2_5_1_38043_002<32>
+Field_2_5_1_38043_003<32>
+Field_2_5_1_38043_004<u16>
+Field_2_5_1_38043_005<u16>
+Field_2_5_1_38043_006<32>
+Field_2_5_1_38043_007<32>[2]
 
 LAYOUT 9DC934CE
 BUILD 9.0.1.34081, 9.0.1.34098

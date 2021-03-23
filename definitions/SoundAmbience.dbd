@@ -7,6 +7,22 @@ int<SoundFilter::ID> SoundFilterID
 int<SoundKit::ID> AmbienceStartID
 int<SoundKit::ID> AmbienceStopID
 int<SoundKit::ID> SoundKitID? // WindSoundKitID? All sound entries are wind loops
+int Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+
+LAYOUT 7C547DA0
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000<u8>
+Field_2_5_1_38043_001<u32>
+Field_2_5_1_38043_002<u32>
+Field_2_5_1_38043_003<u32>[2]
+Field_2_5_1_38043_004<u32>[2]
+Field_2_5_1_38043_005<u32>[2]
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18273

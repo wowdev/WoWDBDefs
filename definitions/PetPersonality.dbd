@@ -5,6 +5,10 @@ int HappinessThreshold
 float HappinessDamage
 float DamageModifier?
 float Field_1_13_0_28211_003?
+float Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+float Field_2_5_1_38043_002?
+float Field_2_5_1_38043_003?
 
 LAYOUT 74E3A027
 BUILD 1.13.0.28211
@@ -26,6 +30,14 @@ HappinessDamage[3]
 HappinessThreshold<32>[3]
 DamageModifier[3]
 Field_1_13_0_28211_003[8]
+
+LAYOUT 7882540A
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000[3]
+Field_2_5_1_38043_001<32>[3]
+Field_2_5_1_38043_002[3]
+Field_2_5_1_38043_003[8]
 
 BUILD 3.0.1.8303-3.0.1.8471
 BUILD 2.0.0.5610-2.4.3.8606

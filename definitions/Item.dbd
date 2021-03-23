@@ -16,6 +16,26 @@ int DamageMax?
 int DamageType?
 int DefensiveStats?
 int<ModifiedCraftingReagentItem::ID> ModifiedCraftingReagentItemID?
+int Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
+int Field_2_5_1_38043_013?
+int Field_2_5_1_38043_014?
+int Field_2_5_1_38043_015?
+int Field_2_5_1_38043_016?
+int Field_2_5_1_38043_017?
+int Field_2_5_1_38043_018?
+int Field_2_5_1_38043_019?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -72,6 +92,30 @@ DamageMin<u16>[5]
 DamageMax<u16>[5]
 DamageType<u8>[5]
 DefensiveStats<16>[7]
+
+LAYOUT B1C87EB0
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000<u8>
+Field_2_5_1_38043_001<u8>
+Field_2_5_1_38043_002<u8>
+Field_2_5_1_38043_003<8>
+Field_2_5_1_38043_004<32>
+Field_2_5_1_38043_005<u8>
+Field_2_5_1_38043_006<u8>
+Field_2_5_1_38043_007<u16>
+Field_2_5_1_38043_008<u16>
+Field_2_5_1_38043_009<8>
+Field_2_5_1_38043_010<u16>
+Field_2_5_1_38043_011<32>
+Field_2_5_1_38043_012<u8>
+Field_2_5_1_38043_013<32>
+Field_2_5_1_38043_014<u32>
+Field_2_5_1_38043_015<u8>
+Field_2_5_1_38043_016<u32>
+Field_2_5_1_38043_017<16>[7]
+Field_2_5_1_38043_018<u16>[5]
+Field_2_5_1_38043_019<u16>[5]
 
 BUILD 3.0.1.8303-3.0.1.8885
 BUILD 2.4.0.8089-2.4.3.8606

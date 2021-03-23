@@ -18,6 +18,41 @@ int SpellVisualMissileSetID
 int ClutterLevel // See SpellVisualKit::ClutterLevel.
 int Field_9_0_1_33978_016? // default 5000, if no missile record
 int Field_5_4_0_17266_006?
+float Field_2_5_1_38043_000?
+float Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
+int Field_2_5_1_38043_013?
+int Field_2_5_1_38043_014?
+int Field_2_5_1_38043_015?
+
+LAYOUT 0D13D0C7
+BUILD 2.5.1.38043
+Field_2_5_1_38043_000[3]
+Field_2_5_1_38043_001[3]
+$id$Field_2_5_1_38043_002<32>
+Field_2_5_1_38043_003<u16>
+Field_2_5_1_38043_004<u32>
+Field_2_5_1_38043_005<8>
+Field_2_5_1_38043_006<8>
+Field_2_5_1_38043_007<u16>
+Field_2_5_1_38043_008<u16>
+Field_2_5_1_38043_009<32>
+Field_2_5_1_38043_010<u32>
+Field_2_5_1_38043_011<u16>
+Field_2_5_1_38043_012<u32>
+Field_2_5_1_38043_013<u16>
+Field_2_5_1_38043_014<u32>
+$noninline,relation$Field_2_5_1_38043_015<u16>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>

@@ -13,6 +13,30 @@ int Flags
 int MapDisplayConditionID
 int<UiMap::ID> UiMapID
 int<DungeonEncounter::ID> DungeonEncounterID
+locstring Field_2_5_1_38043_000_lang?
+locstring Field_2_5_1_38043_001_lang?
+float Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+
+LAYOUT DFEDC272
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000_lang
+Field_2_5_1_38043_001_lang
+Field_2_5_1_38043_002[2]
+Field_2_5_1_38043_003<u16>
+Field_2_5_1_38043_004<u32>
+Field_2_5_1_38043_005<u16>
+Field_2_5_1_38043_006<u16>
+Field_2_5_1_38043_007<u32>
+Field_2_5_1_38043_008<u8>
+Field_2_5_1_38043_009<8>
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.2.0.14333-4.3.4.15595

@@ -16,6 +16,42 @@ locstring OutOfError_lang
 locstring ToolTip_lang
 float StartInset
 float EndInset
+locstring Field_2_5_1_38043_000_lang?
+locstring Field_2_5_1_38043_001_lang?
+locstring Field_2_5_1_38043_002_lang?
+locstring Field_2_5_1_38043_003_lang?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+float Field_2_5_1_38043_008?
+float Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+float Field_2_5_1_38043_012?
+float Field_2_5_1_38043_013?
+int Field_2_5_1_38043_014?
+int Field_2_5_1_38043_015?
+
+LAYOUT 491662FD
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000_lang
+Field_2_5_1_38043_001_lang
+Field_2_5_1_38043_002_lang
+Field_2_5_1_38043_003_lang
+Field_2_5_1_38043_004<u32>
+Field_2_5_1_38043_005<u32>
+Field_2_5_1_38043_006<u16>
+Field_2_5_1_38043_007<u8>
+Field_2_5_1_38043_008
+Field_2_5_1_38043_009
+Field_2_5_1_38043_010<u8>
+Field_2_5_1_38043_011<u16>
+Field_2_5_1_38043_012
+Field_2_5_1_38043_013
+Field_2_5_1_38043_014<32>[6]
+Field_2_5_1_38043_015<32>[6]
 
 BUILD 4.0.0.12911-4.3.0.15050
 $id$ID<32>

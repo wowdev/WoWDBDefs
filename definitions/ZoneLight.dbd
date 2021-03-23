@@ -7,6 +7,18 @@ int Flags
 float Zmin
 float Zmax
 int Field_9_0_1_33978_006?
+string Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+
+LAYOUT 337901C8
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000
+Field_2_5_1_38043_001<u16>
+Field_2_5_1_38043_002<u16>
+Field_2_5_1_38043_003<u8>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

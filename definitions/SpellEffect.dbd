@@ -31,6 +31,35 @@ float ResourceCoefficient
 float Variance
 float EffectBasePointsF
 int Field_7_3_2_25549_010?
+int Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+float Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+float Field_2_5_1_38043_008?
+float Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
+int Field_2_5_1_38043_013?
+float Field_2_5_1_38043_014?
+float Field_2_5_1_38043_015?
+float Field_2_5_1_38043_016?
+int Field_2_5_1_38043_017?
+float Field_2_5_1_38043_018?
+float Field_2_5_1_38043_019?
+float Field_2_5_1_38043_020?
+float Field_2_5_1_38043_021?
+float Field_2_5_1_38043_022?
+float Field_2_5_1_38043_023?
+int Field_2_5_1_38043_024?
+int Field_2_5_1_38043_025?
+int Field_2_5_1_38043_026?
+int Field_2_5_1_38043_027?
+int Field_2_5_1_38043_028?
 
 LAYOUT D6EA6A1A
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892
@@ -69,6 +98,39 @@ EffectRadiusIndex<u32>[2]
 EffectSpellClassMask<32>[4]
 ImplicitTarget<16>[2]
 $noninline,relation$SpellID<32>
+
+LAYOUT 9E9FF6CB
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000<32>
+Field_2_5_1_38043_001<32>
+Field_2_5_1_38043_002<u32>
+Field_2_5_1_38043_003
+Field_2_5_1_38043_004<32>
+Field_2_5_1_38043_005<16>
+Field_2_5_1_38043_006<32>
+Field_2_5_1_38043_007<32>
+Field_2_5_1_38043_008
+Field_2_5_1_38043_009
+Field_2_5_1_38043_010<32>
+Field_2_5_1_38043_011<32>
+Field_2_5_1_38043_012<32>
+Field_2_5_1_38043_013<32>
+Field_2_5_1_38043_014
+Field_2_5_1_38043_015
+Field_2_5_1_38043_016
+Field_2_5_1_38043_017<32>
+Field_2_5_1_38043_018
+Field_2_5_1_38043_019
+Field_2_5_1_38043_020
+Field_2_5_1_38043_021
+Field_2_5_1_38043_022
+Field_2_5_1_38043_023
+Field_2_5_1_38043_024<32>[2]
+Field_2_5_1_38043_025<u32>[2]
+Field_2_5_1_38043_026<32>[4]
+Field_2_5_1_38043_027<16>[2]
+$noninline,relation$Field_2_5_1_38043_028<32>
 
 BUILD 4.0.0.12232-4.2.0.14316
 $id$ID<32>

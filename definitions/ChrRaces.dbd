@@ -76,6 +76,64 @@ float AlteredFormCustomizeRotationFallback? // fallback for CharStartKit::Altere
 float Field_9_0_1_35256_033? // probably: fallback for CharStartKit::Field_9_0_1_35256_002
 float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1_35256_003
 int<ChrRaces::ID> HelmetAnimScalingRaceID?
+string Field_2_5_1_38043_000?
+string Field_2_5_1_38043_001?
+locstring Field_2_5_1_38043_002_lang?
+locstring Field_2_5_1_38043_003_lang?
+locstring Field_2_5_1_38043_004_lang?
+locstring Field_2_5_1_38043_005_lang?
+locstring Field_2_5_1_38043_006_lang?
+locstring Field_2_5_1_38043_007_lang?
+locstring Field_2_5_1_38043_008_lang?
+locstring Field_2_5_1_38043_009_lang?
+locstring Field_2_5_1_38043_010_lang?
+locstring Field_2_5_1_38043_011_lang?
+locstring Field_2_5_1_38043_012_lang?
+locstring Field_2_5_1_38043_013_lang?
+locstring Field_2_5_1_38043_014_lang?
+int Field_2_5_1_38043_015?
+int Field_2_5_1_38043_016?
+int Field_2_5_1_38043_017?
+int Field_2_5_1_38043_018?
+int Field_2_5_1_38043_019?
+int Field_2_5_1_38043_020?
+int Field_2_5_1_38043_021?
+int Field_2_5_1_38043_022?
+int Field_2_5_1_38043_023?
+int Field_2_5_1_38043_024?
+int Field_2_5_1_38043_025?
+int Field_2_5_1_38043_026?
+int Field_2_5_1_38043_027?
+int Field_2_5_1_38043_028?
+int Field_2_5_1_38043_029?
+int Field_2_5_1_38043_030?
+int Field_2_5_1_38043_031?
+int Field_2_5_1_38043_032?
+int Field_2_5_1_38043_033?
+int Field_2_5_1_38043_034?
+int Field_2_5_1_38043_035?
+float Field_2_5_1_38043_036?
+float Field_2_5_1_38043_037?
+float Field_2_5_1_38043_038?
+float Field_2_5_1_38043_039?
+int Field_2_5_1_38043_040?
+int Field_2_5_1_38043_041?
+int Field_2_5_1_38043_042?
+int Field_2_5_1_38043_043?
+int Field_2_5_1_38043_044?
+int Field_2_5_1_38043_045?
+int Field_2_5_1_38043_046?
+int Field_2_5_1_38043_047?
+int Field_2_5_1_38043_048?
+int Field_2_5_1_38043_049?
+int Field_2_5_1_38043_050?
+int Field_2_5_1_38043_051?
+int Field_2_5_1_38043_052?
+int Field_2_5_1_38043_053?
+int Field_2_5_1_38043_054?
+int Field_2_5_1_38043_055?
+int Field_2_5_1_38043_056?
+int Field_2_5_1_38043_057?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -179,6 +237,67 @@ Name_lang
 FacialHairCustomization[2]
 HairCustomization
 Required_expansion<32>
+
+LAYOUT 8BE33A75
+BUILD 2.5.1.38043
+Field_2_5_1_38043_000
+Field_2_5_1_38043_001
+Field_2_5_1_38043_002_lang
+Field_2_5_1_38043_003_lang
+Field_2_5_1_38043_004_lang
+Field_2_5_1_38043_005_lang
+Field_2_5_1_38043_006_lang
+Field_2_5_1_38043_007_lang
+Field_2_5_1_38043_008_lang
+Field_2_5_1_38043_009_lang
+Field_2_5_1_38043_010_lang
+Field_2_5_1_38043_011_lang
+Field_2_5_1_38043_012_lang
+Field_2_5_1_38043_013_lang
+Field_2_5_1_38043_014_lang
+$id$Field_2_5_1_38043_015<32>
+Field_2_5_1_38043_016<32>
+Field_2_5_1_38043_017<u32>
+Field_2_5_1_38043_018<u32>
+Field_2_5_1_38043_019<u32>
+Field_2_5_1_38043_020<u32>
+Field_2_5_1_38043_021<32>
+Field_2_5_1_38043_022<32>
+Field_2_5_1_38043_023<32>
+Field_2_5_1_38043_024<32>
+Field_2_5_1_38043_025<32>
+Field_2_5_1_38043_026<u32>[3]
+Field_2_5_1_38043_027<u32>[3]
+Field_2_5_1_38043_028<32>
+Field_2_5_1_38043_029<32>
+Field_2_5_1_38043_030<32>
+Field_2_5_1_38043_031<32>
+Field_2_5_1_38043_032<32>
+Field_2_5_1_38043_033<32>
+Field_2_5_1_38043_034<32>
+Field_2_5_1_38043_035<32>
+Field_2_5_1_38043_036[3]
+Field_2_5_1_38043_037
+Field_2_5_1_38043_038[3]
+Field_2_5_1_38043_039[3]
+Field_2_5_1_38043_040<16>
+Field_2_5_1_38043_041<16>
+Field_2_5_1_38043_042<8>
+Field_2_5_1_38043_043<8>
+Field_2_5_1_38043_044<8>
+Field_2_5_1_38043_045<8>
+Field_2_5_1_38043_046<8>
+Field_2_5_1_38043_047<8>
+Field_2_5_1_38043_048<8>
+Field_2_5_1_38043_049<8>
+Field_2_5_1_38043_050<8>
+Field_2_5_1_38043_051<8>
+Field_2_5_1_38043_052<8>
+Field_2_5_1_38043_053<8>
+Field_2_5_1_38043_054<8>
+Field_2_5_1_38043_055<8>
+Field_2_5_1_38043_056<8>
+Field_2_5_1_38043_057<8>
 
 BUILD 3.0.1.8303-3.1.3.9947
 BUILD 2.4.0.8089-2.4.3.8606

@@ -24,6 +24,49 @@ int<GarrTalent::ID> PrerequisiteTalentID
 int ResearchCostSource // 0: Talent, 1: Tree
 int ActiveDurationSecs
 int<GarrTalentSocketProperties::ID> GarrTalentSocketPropertiesID
+locstring Field_2_5_1_38043_000_lang?
+locstring Field_2_5_1_38043_001_lang?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
+int Field_2_5_1_38043_013?
+int Field_2_5_1_38043_014?
+int Field_2_5_1_38043_015?
+int Field_2_5_1_38043_016?
+int Field_2_5_1_38043_017?
+int Field_2_5_1_38043_018?
+int Field_2_5_1_38043_019?
+
+LAYOUT 2922ABC2
+BUILD 2.5.1.38043
+Field_2_5_1_38043_000_lang
+Field_2_5_1_38043_001_lang
+$id$Field_2_5_1_38043_002<32>
+$relation$Field_2_5_1_38043_003<u32>
+Field_2_5_1_38043_004<8>
+Field_2_5_1_38043_005<8>
+Field_2_5_1_38043_006<32>
+Field_2_5_1_38043_007<u32>
+Field_2_5_1_38043_008<u32>
+Field_2_5_1_38043_009<u32>
+Field_2_5_1_38043_010<u32>
+Field_2_5_1_38043_011<32>
+Field_2_5_1_38043_012<32>
+Field_2_5_1_38043_013<32>
+Field_2_5_1_38043_014<u32>
+Field_2_5_1_38043_015<32>
+Field_2_5_1_38043_016<32>
+Field_2_5_1_38043_017<32>
+Field_2_5_1_38043_018<u32>
+Field_2_5_1_38043_019<8>
 
 LAYOUT FA331244
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

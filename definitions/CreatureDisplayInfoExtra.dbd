@@ -16,6 +16,19 @@ int<TextureFileData::MaterialResourcesID> BakeMaterialResourcesID
 int CustomDisplayOption
 int DisplayClassID
 string BakeName
+int Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.0.5991
@@ -31,6 +44,22 @@ HairColorID<32>
 FacialHairID<32>
 NPCItemDisplay<32>[10]
 BakeName
+
+LAYOUT 192D8556
+BUILD 2.5.1.38043
+$id$Field_2_5_1_38043_000<32>
+Field_2_5_1_38043_001<8>
+Field_2_5_1_38043_002<8>
+Field_2_5_1_38043_003<8>
+Field_2_5_1_38043_004<8>
+Field_2_5_1_38043_005<8>
+Field_2_5_1_38043_006<8>
+Field_2_5_1_38043_007<8>
+Field_2_5_1_38043_008<8>
+Field_2_5_1_38043_009<8>
+Field_2_5_1_38043_010<32>
+Field_2_5_1_38043_011<32>
+Field_2_5_1_38043_012<u8>[3]
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18273

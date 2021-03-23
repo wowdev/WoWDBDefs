@@ -9,6 +9,12 @@ float OverrideLootEffectScale
 float OverrideNameScale
 float GeoBox
 string ModelName
+string Field_2_5_1_38043_000?
+float Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+float Field_2_5_1_38043_004?
+float Field_2_5_1_38043_005?
 
 LAYOUT F4E1764F
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892
@@ -32,6 +38,16 @@ BUILD 0.5.3.3368-0.12.0.3988
 $id$ID<32>
 ModelName
 Sound<32>[10]
+
+LAYOUT 21FD4DC2
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000
+Field_2_5_1_38043_001[6]
+Field_2_5_1_38043_002<32>
+Field_2_5_1_38043_003<16>
+Field_2_5_1_38043_004
+Field_2_5_1_38043_005
 
 BUILD 3.0.1.8303-3.0.1.8471
 BUILD 2.0.0.6080-2.4.3.8606

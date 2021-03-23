@@ -6,6 +6,12 @@ int FootstepSprayRun
 int FootstepSprayWalk
 int SoundID
 int Flags
+string Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
 
 LAYOUT 4BE35F10
 BUILD 1.13.0.28211
@@ -31,6 +37,16 @@ FootstepSprayWalk<u16>
 SoundID<u8>
 Flags<u8>
 TerrainID<32>
+
+LAYOUT 672C0BC4
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000
+Field_2_5_1_38043_001<u16>
+Field_2_5_1_38043_002<u16>
+Field_2_5_1_38043_003<u8>
+Field_2_5_1_38043_004<u8>
+Field_2_5_1_38043_005<32>
 
 BUILD 0.5.3.3368
 BUILD 3.0.1.8303-3.3.5.12340

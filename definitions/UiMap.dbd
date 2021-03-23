@@ -15,6 +15,35 @@ int<PlayerCondition::ID> VisibilityPlayerConditionID
 int<UiTextureAtlasElement::ID> BkgAtlasID
 int AlternateUiMapGroup?
 int<ContentTuning::ID> ContentTuningID?
+locstring Field_2_5_1_38043_000_lang?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
+
+LAYOUT F5EC37EE
+BUILD 2.5.1.38043
+Field_2_5_1_38043_000_lang
+$id$Field_2_5_1_38043_001<32>
+$relation$Field_2_5_1_38043_002<32>
+Field_2_5_1_38043_003<32>
+Field_2_5_1_38043_004<32>
+Field_2_5_1_38043_005<32>
+Field_2_5_1_38043_006<32>
+Field_2_5_1_38043_007<u32>
+Field_2_5_1_38043_008<32>
+Field_2_5_1_38043_009<8>
+Field_2_5_1_38043_010<32>
+Field_2_5_1_38043_011<u32>
+Field_2_5_1_38043_012<u32>
 
 LAYOUT 2C161494
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367

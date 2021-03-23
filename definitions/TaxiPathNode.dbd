@@ -8,6 +8,15 @@ int Flags
 int Delay
 int ArrivalEventID
 int DepartureEventID
+float Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -28,6 +37,18 @@ ContinentID<32>
 Loc[3]
 Flags<32>
 Delay<32>
+
+LAYOUT 40CF66AF
+BUILD 2.5.1.38043
+Field_2_5_1_38043_000[3]
+$id$Field_2_5_1_38043_001<32>
+$relation$Field_2_5_1_38043_002<u16>
+Field_2_5_1_38043_003<32>
+Field_2_5_1_38043_004<u16>
+Field_2_5_1_38043_005<u8>
+Field_2_5_1_38043_006<u32>
+Field_2_5_1_38043_007<u32>
+Field_2_5_1_38043_008<u32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

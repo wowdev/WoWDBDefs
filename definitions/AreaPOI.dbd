@@ -20,6 +20,23 @@ int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int WMOGroupID
 int<UiWidgetSet::ID> UiWidgetSetID
 int<UiTextureKit::ID> UiTextureKitID
+locstring Field_2_5_1_38043_000_lang?
+locstring Field_2_5_1_38043_001_lang?
+int Field_2_5_1_38043_002?
+float Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
+int Field_2_5_1_38043_013?
+int Field_2_5_1_38043_014?
+int Field_2_5_1_38043_015?
+int Field_2_5_1_38043_016?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -43,6 +60,26 @@ ContinentID<32>
 Flags<32>
 AreaID<32>
 Name_lang
+
+LAYOUT EDDE9CE9
+BUILD 2.5.1.38043
+Field_2_5_1_38043_000_lang
+Field_2_5_1_38043_001_lang
+$id$Field_2_5_1_38043_002<32>
+Field_2_5_1_38043_003[3]
+Field_2_5_1_38043_004<32>
+Field_2_5_1_38043_005<u32>
+Field_2_5_1_38043_006<u32>
+Field_2_5_1_38043_007<u32>
+Field_2_5_1_38043_008<32>
+Field_2_5_1_38043_009<32>
+Field_2_5_1_38043_010<32>
+$relation$Field_2_5_1_38043_011<u16>
+Field_2_5_1_38043_012<16>
+Field_2_5_1_38043_013<u16>
+Field_2_5_1_38043_014<u16>
+Field_2_5_1_38043_015<u8>
+Field_2_5_1_38043_016<u8>
 
 BUILD 3.0.1.8303-3.0.1.8471
 BUILD 2.0.0.5610-2.4.3.8606

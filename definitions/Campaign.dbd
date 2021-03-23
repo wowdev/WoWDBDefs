@@ -11,6 +11,23 @@ int<UiQuestDetailsTheme::ID> UiQuestDetailsThemeID
 int Flags // &0x01: useNormalQuestIcons
 int<PlayerCondition::ID> OnlyStallIf // if given and evals to false, don't mark as stalled.
 int<PlayerCondition::ID> Field_9_0_1_35755_007?
+locstring Field_2_5_1_38043_000_lang?
+string Field_2_5_1_38043_001?
+locstring Field_2_5_1_38043_002_lang?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+
+LAYOUT E317A3DC
+BUILD 2.5.1.38043
+Field_2_5_1_38043_000_lang
+Field_2_5_1_38043_001
+Field_2_5_1_38043_002_lang
+$id$Field_2_5_1_38043_003<u32>
+Field_2_5_1_38043_004<u32>
+Field_2_5_1_38043_005<u32>
+Field_2_5_1_38043_006<u32>
 
 LAYOUT 0B271FD9
 BUILD 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766

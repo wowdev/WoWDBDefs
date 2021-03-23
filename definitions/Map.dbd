@@ -53,6 +53,27 @@ locstring Field_2_0_0_5610_020_lang?
 int Field_1_5_0_4442_014?
 int Field_3_0_2_9056_021?
 int Field_1_7_0_4671_015?
+string Field_2_5_1_38043_000?
+locstring Field_2_5_1_38043_001_lang?
+locstring Field_2_5_1_38043_002_lang?
+locstring Field_2_5_1_38043_003_lang?
+locstring Field_2_5_1_38043_004_lang?
+locstring Field_2_5_1_38043_005_lang?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
+int Field_2_5_1_38043_013?
+int Field_2_5_1_38043_014?
+float Field_2_5_1_38043_015?
+int Field_2_5_1_38043_016?
+int Field_2_5_1_38043_017?
+int Field_2_5_1_38043_018?
+int Field_2_5_1_38043_019?
+int Field_2_5_1_38043_020?
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
@@ -292,6 +313,31 @@ Corpse[2]
 Field_2_0_3_6299_023<32>
 Field_2_0_3_6299_024<32>
 Field_2_0_3_6299_025<32>
+
+LAYOUT 67680F17
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000
+Field_2_5_1_38043_001_lang
+Field_2_5_1_38043_002_lang
+Field_2_5_1_38043_003_lang
+Field_2_5_1_38043_004_lang
+Field_2_5_1_38043_005_lang
+Field_2_5_1_38043_006<u8>
+Field_2_5_1_38043_007<8>
+Field_2_5_1_38043_008<u8>
+Field_2_5_1_38043_009<u16>
+Field_2_5_1_38043_010<16>
+Field_2_5_1_38043_011<16>
+Field_2_5_1_38043_012<16>
+Field_2_5_1_38043_013<16>
+Field_2_5_1_38043_014<u8>
+Field_2_5_1_38043_015
+Field_2_5_1_38043_016<16>
+Field_2_5_1_38043_017<u8>
+Field_2_5_1_38043_018<16>
+Field_2_5_1_38043_019<32>
+Field_2_5_1_38043_020<32>[2]
 
 BUILD 3.0.1.8303-3.0.1.8770
 BUILD 2.4.0.8089-2.4.3.8606

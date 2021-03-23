@@ -13,6 +13,19 @@ int CalendarFilterType
 int Flags // &1: IsRegionwide; &2: DontShowInCalendar; &4: DontDisplayEnd; &8: DontDisplayBanner; &0x10: NotAvailableClientSide
 int<FileData::ID> TextureFileDataID
 int Field_1_13_2_30073_008?
+int Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+int Field_2_5_1_38043_005?
+int Field_2_5_1_38043_006?
+int Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
 
 LAYOUT DC1A500C
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892
@@ -34,6 +47,22 @@ Duration<u16>[10]
 Date<u32>[16]
 CalendarFlags<u8>[10]
 TextureFileDataID<32>[3]
+
+LAYOUT 3C3EF0AA
+BUILD 2.5.1.38043
+$id$Field_2_5_1_38043_000<32>
+Field_2_5_1_38043_001<u16>
+Field_2_5_1_38043_002<u8>
+Field_2_5_1_38043_003<u32>
+Field_2_5_1_38043_004<u32>
+Field_2_5_1_38043_005<u8>
+Field_2_5_1_38043_006<8>
+Field_2_5_1_38043_007<u8>
+Field_2_5_1_38043_008<u32>
+Field_2_5_1_38043_009<u16>[10]
+Field_2_5_1_38043_010<u32>[16]
+Field_2_5_1_38043_011<u8>[10]
+Field_2_5_1_38043_012<32>[3]
 
 BUILD 3.0.1.8303
 $id$ID<32>

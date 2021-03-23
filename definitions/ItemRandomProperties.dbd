@@ -3,6 +3,14 @@ int ID
 string Name
 int<SpellItemEnchantment::ID> Enchantment
 locstring Name_lang
+locstring Field_2_5_1_38043_000_lang?
+int Field_2_5_1_38043_001?
+
+LAYOUT 3C106C78
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000_lang
+Field_2_5_1_38043_001<u16>[5]
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

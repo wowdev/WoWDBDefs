@@ -43,6 +43,34 @@ string AnimModelName
 int MountScaleOtherIndex? // self.CDI.scale * self.MountScaleSelf * otherCMD.MountScaleOther[MountScaleOtherIndex]
 float MountScaleSelf?
 float MountScaleOther?
+float Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+float Field_2_5_1_38043_005?
+float Field_2_5_1_38043_006?
+float Field_2_5_1_38043_007?
+int Field_2_5_1_38043_008?
+int Field_2_5_1_38043_009?
+int Field_2_5_1_38043_010?
+int Field_2_5_1_38043_011?
+int Field_2_5_1_38043_012?
+float Field_2_5_1_38043_013?
+float Field_2_5_1_38043_014?
+float Field_2_5_1_38043_015?
+int Field_2_5_1_38043_016?
+float Field_2_5_1_38043_017?
+float Field_2_5_1_38043_018?
+float Field_2_5_1_38043_019?
+float Field_2_5_1_38043_020?
+float Field_2_5_1_38043_021?
+float Field_2_5_1_38043_022?
+float Field_2_5_1_38043_023?
+float Field_2_5_1_38043_024?
+float Field_2_5_1_38043_025?
+float Field_2_5_1_38043_026?
+float Field_2_5_1_38043_027?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -141,6 +169,38 @@ CollisionHeight
 MountHeight
 GeoBox[6]
 AttachedEffectScale
+
+LAYOUT F41D4A3B
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000[6]
+Field_2_5_1_38043_001<u32>
+Field_2_5_1_38043_002<u32>
+Field_2_5_1_38043_003<u32>
+Field_2_5_1_38043_004<u32>
+Field_2_5_1_38043_005
+Field_2_5_1_38043_006
+Field_2_5_1_38043_007
+Field_2_5_1_38043_008<u32>
+Field_2_5_1_38043_009<u32>
+Field_2_5_1_38043_010<u32>
+Field_2_5_1_38043_011<u32>
+Field_2_5_1_38043_012<u32>
+Field_2_5_1_38043_013
+Field_2_5_1_38043_014
+Field_2_5_1_38043_015
+Field_2_5_1_38043_016<u32>
+Field_2_5_1_38043_017
+Field_2_5_1_38043_018
+Field_2_5_1_38043_019
+Field_2_5_1_38043_020
+Field_2_5_1_38043_021
+Field_2_5_1_38043_022
+Field_2_5_1_38043_023
+Field_2_5_1_38043_024
+Field_2_5_1_38043_025
+Field_2_5_1_38043_026
+Field_2_5_1_38043_027
 
 BUILD 3.0.1.8303-3.0.1.8788
 $id$ID<32>

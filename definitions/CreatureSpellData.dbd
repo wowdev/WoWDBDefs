@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<Spell::ID> Spells
 int Availability
+int Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
 
 LAYOUT BF9BD65D
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892
@@ -13,6 +15,12 @@ BUILD 1.13.2.30550, 1.13.2.30682, 1.13.2.30786, 1.13.2.30862, 1.13.2.30901, 1.13
 $noninline,id$ID<32>
 Spells<32>[4]
 Availability<32>[4]
+
+LAYOUT 1562577D
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000<32>[4]
+Field_2_5_1_38043_001<32>[4]
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

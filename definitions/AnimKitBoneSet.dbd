@@ -6,6 +6,20 @@ int<AnimKitBoneSet::ID> ParentAnimKitBoneSetID
 int ExtraBoneCount
 int<AnimKitBoneSet::ID> AltAnimKitBoneSetID
 int AltBoneDataID // If BoneDataID does not exist in model, use this instead.
+string Field_2_5_1_38043_000?
+int Field_2_5_1_38043_001?
+int Field_2_5_1_38043_002?
+int Field_2_5_1_38043_003?
+int Field_2_5_1_38043_004?
+
+LAYOUT 133B2F2E
+BUILD 2.5.1.38043
+$noninline,id$ID<32>
+Field_2_5_1_38043_000
+Field_2_5_1_38043_001<8>
+Field_2_5_1_38043_002<8>
+Field_2_5_1_38043_003<8>
+Field_2_5_1_38043_004<u8>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
