@@ -255,7 +255,7 @@ namespace DBDefsDumper
                             {
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.FDID];
                                 var fdid = bin.ReadUInt32();
-                                if (fdid < 53183)
+                                if (fdid < 53183 || fdid > (4058697 * 4) /*4x max at March 23 2021*/)
                                 {
                                     Console.WriteLine("Invalid filedataid " + fdid + ", skipping match..");
                                     continue;
