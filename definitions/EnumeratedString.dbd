@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+string Value?
+int Index?
+int Field_2_5_1_38043_003?
+int EnumID?
+
+LAYOUT 32ACB8A1
+BUILD 2.5.1.38043
+$id$ID<32>
+Value
+Index<16>
+Field_2_5_1_38043_003<u32>
+$relation$EnumID<16>
