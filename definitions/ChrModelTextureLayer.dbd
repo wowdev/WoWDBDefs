@@ -3,7 +3,7 @@ int ID
 int TextureType?
 int Layer?
 int Flags?
-int Field_9_0_1_34365_004?
+int BlendMode?
 int ChrModelTextureTargetID?
 int Field_9_0_1_34365_006?
 int TextureSectionTypeBitMask? // -1 for non section texture or bit of CharComponentTextureSections::SectionType
@@ -15,7 +15,7 @@ $id$ID<32>
 TextureType<32>
 Layer<32>
 Flags<32>
-Field_9_0_1_34365_004<32>
+BlendMode<32>
 ChrModelTextureTargetID<32>
 Field_9_0_1_34365_006<32>
 TextureSectionTypeBitMask<32>
@@ -30,7 +30,7 @@ $id$ID<32>
 TextureType<32>
 Layer<32>
 Flags<32>
-Field_9_0_1_34365_004<32>
+BlendMode<32>
 TextureSectionTypeBitMask<32>
 Field_9_0_1_34365_006<32>[3]
 ChrModelTextureTargetID<32>[2]
