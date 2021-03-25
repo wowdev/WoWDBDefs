@@ -83,7 +83,6 @@ int WeaponSubclassMask
 int<ContentTuning::ID> ContentTuningID
 int<Covenant::ID> CovenantID
 int Field_7_3_2_25549_029?
-int Field_2_5_1_38043_000?
 int Field_2_5_1_38043_003?
 int Field_2_5_1_38043_004?
 int Field_2_5_1_38043_006?
@@ -161,7 +160,7 @@ int Field_2_5_1_38043_080?
 
 LAYOUT C289B61E
 BUILD 2.5.1.38043
-Field_2_5_1_38043_000<64>
+RaceMask<64>
 Failure_description_lang
 $id$ID<32>
 Field_2_5_1_38043_003<u16>

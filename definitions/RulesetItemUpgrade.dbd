@@ -3,14 +3,12 @@ int Field_6_0_1_18179_001?
 int ID
 int<Item::ID> ItemID
 int<ItemUpgrade::ID> ItemUpgradeID
-int Field_2_5_1_38043_000?
-int Field_2_5_1_38043_001?
 
 LAYOUT DD8D5AD6
 BUILD 2.5.1.38043
 $noninline,id$ID<32>
-Field_2_5_1_38043_000<32>
-Field_2_5_1_38043_001<u16>
+ItemID<32>
+ItemUpgradeID<u16>
 
 BUILD 6.0.1.18179
 BUILD 5.1.0.16309-5.4.8.18414

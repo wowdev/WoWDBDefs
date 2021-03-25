@@ -24,10 +24,6 @@ int<GarrTalent::ID> PrerequisiteTalentID
 int ResearchCostSource // 0: Talent, 1: Tree
 int ActiveDurationSecs
 int<GarrTalentSocketProperties::ID> GarrTalentSocketPropertiesID
-locstring Field_2_5_1_38043_000_lang?
-locstring Field_2_5_1_38043_001_lang?
-int Field_2_5_1_38043_002?
-int Field_2_5_1_38043_003?
 int Field_2_5_1_38043_004?
 int Field_2_5_1_38043_005?
 int Field_2_5_1_38043_006?
@@ -47,10 +43,10 @@ int Field_2_5_1_38043_019?
 
 LAYOUT 2922ABC2
 BUILD 2.5.1.38043
-Field_2_5_1_38043_000_lang
-Field_2_5_1_38043_001_lang
-$id$Field_2_5_1_38043_002<32>
-$relation$Field_2_5_1_38043_003<u32>
+Name_lang
+Description_lang
+$id$ID<32>
+$relation$GarrTalentTreeID<u32>
 Field_2_5_1_38043_004<8>
 Field_2_5_1_38043_005<8>
 Field_2_5_1_38043_006<32>

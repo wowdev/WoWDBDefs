@@ -15,7 +15,6 @@ float UiModelSaturation
 int UiSwatchColor
 int<PlayerCondition::ID> UnlockPlayerConditionID
 int<PlayerCondition::ID> UsablePlayerConditionID
-locstring Field_2_5_1_38043_000_lang?
 int Field_2_5_1_38043_003?
 int Field_2_5_1_38043_004?
 int Field_2_5_1_38043_005?
@@ -31,7 +30,7 @@ int Field_2_5_1_38043_014?
 
 LAYOUT CDF315B7
 BUILD 2.5.1.38043
-Field_2_5_1_38043_000_lang
+Name_lang
 $id$ID<32>
 $relation$ArtifactAppearanceSetID<u16>
 Field_2_5_1_38043_003<u8>

@@ -5,14 +5,12 @@ int OrderIndex
 int<Campaign::ID> CampaignID
 int Flags // &1: PreferIfOnNoStepRightNow?
 locstring FailureReason_lang // Alternative to the PlayerCondition's reason.
-int Field_2_5_1_38043_000?
-int Field_2_5_1_38043_001?
 
 LAYOUT 05688FB4
 BUILD 2.5.1.38043
 $noninline,id$ID<32>
-Field_2_5_1_38043_000<u32>
-Field_2_5_1_38043_001<u32>
+PlayerConditionID<32>
+OrderIndex<32>
 $noninline,relation$CampaignID<u32>
 
 LAYOUT 638FC159

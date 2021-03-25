@@ -16,8 +16,6 @@ int<GameObjectDisplayInfo::ID> SmallDisplayInfoID
 int<UiTextureKit::ID> UiTextureKitID
 int<GameObjectDisplayInfo::ID> WorkingDisplayInfoID // used by gameobject code to determine if in "in progress" state...
 int<SpellVisual::ID> WorkingSpellVisualID // if both are same as in gameobject mirrors, it is in progress
-locstring Field_2_5_1_38043_000_lang?
-locstring Field_2_5_1_38043_001_lang?
 int Field_2_5_1_38043_002?
 int Field_2_5_1_38043_003?
 int Field_2_5_1_38043_004?
@@ -35,8 +33,8 @@ int Field_2_5_1_38043_015?
 LAYOUT 5369BFD6
 BUILD 2.5.1.38043
 $noninline,id$ID<32>
-Field_2_5_1_38043_000_lang
-Field_2_5_1_38043_001_lang
+Description_lang
+PendingText_lang
 Field_2_5_1_38043_002<u16>
 Field_2_5_1_38043_003<u8>
 Field_2_5_1_38043_004<u8>

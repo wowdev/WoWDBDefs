@@ -48,10 +48,6 @@ locstring TitleName_lang
 int Vitality
 int<GarrAutoCombatant::ID> AutoCombatantID
 int<Covenant::ID> CovenantID
-locstring Field_2_5_1_38043_000_lang?
-locstring Field_2_5_1_38043_001_lang?
-locstring Field_2_5_1_38043_002_lang?
-int Field_2_5_1_38043_003?
 int Field_2_5_1_38043_004?
 int Field_2_5_1_38043_005?
 int Field_2_5_1_38043_006?
@@ -83,10 +79,10 @@ int Field_2_5_1_38043_031?
 
 LAYOUT 88765B9E
 BUILD 2.5.1.38043
-Field_2_5_1_38043_000_lang
-Field_2_5_1_38043_001_lang
-Field_2_5_1_38043_002_lang
-$id$Field_2_5_1_38043_003<32>
+HordeSourceText_lang
+AllianceSourceText_lang
+TitleName_lang
+$id$ID<32>
 Field_2_5_1_38043_004<u8>
 Field_2_5_1_38043_005<u8>
 Field_2_5_1_38043_006<32>

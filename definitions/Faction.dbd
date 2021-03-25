@@ -15,10 +15,6 @@ int Flags
 int<FriendshipReputation::ID> FriendshipRepID
 int<Faction::ID> ParagonFactionID
 int ReputationMax
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -57,10 +53,10 @@ Description_lang
 $id$ID<32>
 ReputationIndex<16>
 ParentFactionID<u16>
-Field_2_5_1_38043_006<u8>
-Field_2_5_1_38043_007<u8>
-Field_2_5_1_38043_008<u8>
-Field_2_5_1_38043_009<u16>
+Expansion<u8>
+FriendshipRepID<u32>
+Flags<u8>
+ParagonFactionID<u16>
 ReputationClassMask<16>[4]
 ReputationFlags<u16>[4]
 ReputationBase<32>[4]

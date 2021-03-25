@@ -8,7 +8,6 @@ int<MythicPlusSeason::ID> MythicPlusSeasonID
 int Field_2_5_1_38043_000?
 int Field_2_5_1_38043_001?
 int Field_2_5_1_38043_002?
-int Field_2_5_1_38043_003?
 
 LAYOUT 4C011559
 BUILD 2.5.1.38043
@@ -16,7 +15,7 @@ $noninline,id$ID<32>
 Field_2_5_1_38043_000<32>
 Field_2_5_1_38043_001<32>
 Field_2_5_1_38043_002<32>
-$noninline,relation$Field_2_5_1_38043_003<32>
+$noninline,relation$Season<32>
 
 LAYOUT AD6A6D9F
 BUILD 8.1.0.27826, 8.1.0.27934, 8.1.0.27985, 8.1.0.28048, 8.1.0.28085

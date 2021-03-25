@@ -27,10 +27,6 @@ int<ContentTuning::ID> ContentTuningID
 int Flags // [2].9 = isQuestStart; [2].13 = don't return anything in lua GetTaskInfo; ([0].12 || [0].15 || [1].15) = isDaily
 int<Covenant::ID> CovenantID
 int Field_9_0_2_36206_022?
-int Field_2_5_1_38043_000?
-locstring Field_2_5_1_38043_001_lang?
-locstring Field_2_5_1_38043_002_lang?
-int Field_2_5_1_38043_003?
 int Field_2_5_1_38043_004?
 int Field_2_5_1_38043_005?
 int Field_2_5_1_38043_006?
@@ -50,14 +46,13 @@ int Field_2_5_1_38043_019?
 int Field_2_5_1_38043_020?
 int Field_2_5_1_38043_021?
 int Field_2_5_1_38043_022?
-int Field_2_5_1_38043_023?
 
 LAYOUT 9E9CB090
 BUILD 2.5.1.38043
-Field_2_5_1_38043_000<64>
-Field_2_5_1_38043_001_lang
-Field_2_5_1_38043_002_lang
-$id$Field_2_5_1_38043_003<u32>
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+$id$ID<u32>
 Field_2_5_1_38043_004<u16>
 Field_2_5_1_38043_005<u32>
 Field_2_5_1_38043_006<u32>
@@ -77,7 +72,7 @@ Field_2_5_1_38043_019<u32>
 Field_2_5_1_38043_020<32>
 Field_2_5_1_38043_021<u32>
 Field_2_5_1_38043_022<u32>
-Field_2_5_1_38043_023<u32>[3]
+FiltCompletedQuest<u32>[3]
 
 LAYOUT C02750A8
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

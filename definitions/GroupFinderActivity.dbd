@@ -17,8 +17,6 @@ int OrderIndex
 locstring ShortName_lang
 int<PlayerCondition::ID> PlayerConditionID
 int<ContentTuning::ID> OverrideContentTuningID // If not set, via Area, and if that's not set via Map+Difficulty
-locstring Field_2_5_1_38043_000_lang?
-locstring Field_2_5_1_38043_001_lang?
 int Field_2_5_1_38043_002?
 int Field_2_5_1_38043_003?
 int Field_2_5_1_38043_004?
@@ -35,8 +33,8 @@ int Field_2_5_1_38043_013?
 LAYOUT CAA26BD9
 BUILD 2.5.1.38043
 $noninline,id$ID<32>
-Field_2_5_1_38043_000_lang
-Field_2_5_1_38043_001_lang
+FullName_lang
+ShortName_lang
 Field_2_5_1_38043_002<u8>
 Field_2_5_1_38043_003<8>
 Field_2_5_1_38043_004<u8>

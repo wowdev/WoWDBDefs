@@ -12,29 +12,25 @@ int UiOrder
 int Field_8_1_0_28294_008?
 int PatchIntroduced? // in '%d%02d%02d' % (major, minor, patch) form
 int<PlayerCondition::ID> ConditionID?
-locstring Field_2_5_1_38043_000_lang?
-int Field_2_5_1_38043_001?
 int Field_2_5_1_38043_002?
 int Field_2_5_1_38043_003?
 int Field_2_5_1_38043_004?
 int Field_2_5_1_38043_005?
 int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
 int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
 
 LAYOUT 9DFDFC7E
 BUILD 2.5.1.38043
-Field_2_5_1_38043_000_lang
-$id$Field_2_5_1_38043_001<u32>
+Name_lang
+$id$ID<u32>
 Field_2_5_1_38043_002<32>
 Field_2_5_1_38043_003<u32>
 Field_2_5_1_38043_004<32>
 Field_2_5_1_38043_005<u32>
 Field_2_5_1_38043_006<32>
-$relation$Field_2_5_1_38043_007<u16>
+$relation$ParentTransmogSetID<u16>
 Field_2_5_1_38043_008<u8>
-Field_2_5_1_38043_009<16>
+UiOrder<16>
 
 LAYOUT BEDFD7D1
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
