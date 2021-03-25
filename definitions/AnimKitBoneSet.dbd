@@ -8,7 +8,7 @@ int<AnimKitBoneSet::ID> AltAnimKitBoneSetID
 int AltBoneDataID // If BoneDataID does not exist in model, use this instead.
 
 LAYOUT 133B2F2E
-BUILD 2.5.1.38043
+BUILD 2.5.1.38043, 2.5.1.38061
 $noninline,id$ID<32>
 Name
 BoneDataID<8>

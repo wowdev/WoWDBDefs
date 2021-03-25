@@ -5,7 +5,7 @@ int<Item::ID> ChildItemID
 int<Item::ID> ParentItemID
 
 LAYOUT E2F5DF51
-BUILD 2.5.1.38043
+BUILD 2.5.1.38043, 2.5.1.38061
 $noninline,id$ID<32>
 ChildItemID<32>
 ChildItemEquipSlot<u8>
