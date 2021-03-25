@@ -16,7 +16,6 @@ int OrderIndex
 int Field_8_1_0_28151_011?
 int Field_8_1_0_28151_012?
 int<Curve::ID> Field_8_1_0_28151_013?
-int Field_2_5_1_38043_009?
 int Field_2_5_1_38043_010?
 int Field_2_5_1_38043_011?
 int Field_2_5_1_38043_012?
@@ -33,7 +32,7 @@ MinPlayers<u8>
 MaxPlayers<u8>
 Flags<u8>
 ItemContext<u8>
-Field_2_5_1_38043_009<u8>
+ToggleDifficultyID<u8>
 Field_2_5_1_38043_010<u16>
 Field_2_5_1_38043_011<u16>
 Field_2_5_1_38043_012<u16>

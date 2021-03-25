@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int CastUI?
-int Field_2_5_1_38043_000?
 
 LAYOUT 98FA893B
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892
@@ -16,4 +15,4 @@ CastUI<8>
 LAYOUT 866062DA
 BUILD 2.5.1.38043
 $noninline,id$ID<32>
-Field_2_5_1_38043_000<8>
+CastUI<8>

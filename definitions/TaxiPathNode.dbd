@@ -8,8 +8,6 @@ int Flags
 int Delay
 int ArrivalEventID
 int DepartureEventID
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -40,8 +38,8 @@ NodeIndex<32>
 ContinentID<u16>
 Flags<u8>
 Delay<u32>
-Field_2_5_1_38043_007<u32>
-Field_2_5_1_38043_008<u32>
+ArrivalEventID<u32>
+DepartureEventID<u32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

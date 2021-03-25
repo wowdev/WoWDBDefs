@@ -18,7 +18,6 @@ int<ContentTuning::ID> ContentTuningID?
 int Field_2_5_1_38043_006?
 int Field_2_5_1_38043_007?
 int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
 int Field_2_5_1_38043_010?
 int Field_2_5_1_38043_011?
 int Field_2_5_1_38043_012?
@@ -34,7 +33,7 @@ Type<32>
 Field_2_5_1_38043_006<32>
 Field_2_5_1_38043_007<u32>
 Field_2_5_1_38043_008<32>
-Field_2_5_1_38043_009<8>
+HelpTextPosition<8>
 Field_2_5_1_38043_010<32>
 Field_2_5_1_38043_011<u32>
 Field_2_5_1_38043_012<u32>

@@ -14,9 +14,6 @@ int SpecialIconConditionID
 int<UiTextureKit::ID> UiTextureKitID
 int MinimapAtlasMemberID
 int VisibilityConditionID
-int Field_2_5_1_38043_009?
-int Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368
@@ -38,10 +35,10 @@ $relation$ContinentID<u32>
 ConditionID<u16>
 CharacterBitNumber<u16>
 Flags<u8>
-Field_2_5_1_38043_009<32>
+UiTextureKitID<32>
 Facing
-Field_2_5_1_38043_011<u32>
-Field_2_5_1_38043_012<u32>
+SpecialIconConditionID<u32>
+VisibilityConditionID<u32>
 MountCreatureID<32>[2]
 
 BUILD 4.0.0.11792

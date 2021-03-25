@@ -16,22 +16,6 @@ float VolumeFloat
 float VolumeVariationMinus
 float VolumeVariationPlus
 int Field_7_3_0_24473_008?
-int Field_2_5_1_38043_000?
-int Field_2_5_1_38043_001?
-float Field_2_5_1_38043_002?
-int Field_2_5_1_38043_003?
-float Field_2_5_1_38043_004?
-float Field_2_5_1_38043_005?
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-float Field_2_5_1_38043_008?
-float Field_2_5_1_38043_009?
-float Field_2_5_1_38043_010?
-float Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
-float Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
-int Field_2_5_1_38043_015?
 
 LAYOUT 972A2F98
 BUILD 1.13.0.28211
@@ -54,22 +38,22 @@ MaxInstances<u8>
 
 LAYOUT 1F4AF63A
 BUILD 2.5.1.38043
-$id$Field_2_5_1_38043_000<32>
-Field_2_5_1_38043_001<u8>
-Field_2_5_1_38043_002
-Field_2_5_1_38043_003<u16>
-Field_2_5_1_38043_004
-Field_2_5_1_38043_005
-Field_2_5_1_38043_006<u8>
-Field_2_5_1_38043_007<u32>
-Field_2_5_1_38043_008
-Field_2_5_1_38043_009
-Field_2_5_1_38043_010
-Field_2_5_1_38043_011
-Field_2_5_1_38043_012<8>
-Field_2_5_1_38043_013
-Field_2_5_1_38043_014<u16>
-Field_2_5_1_38043_015<u8>
+$id$ID<32>
+SoundType<u8>
+VolumeFloat
+Flags<u16>
+MinDistance
+DistanceCutoff
+EAXDef<u8>
+SoundKitAdvancedID<u32>
+VolumeVariationPlus
+VolumeVariationMinus
+PitchVariationPlus
+PitchVariationMinus
+DialogType<8>
+PitchAdjust
+BusOverwriteID<u16>
+MaxInstances<u8>
 
 LAYOUT 0A51CACE
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

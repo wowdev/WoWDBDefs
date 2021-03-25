@@ -2,8 +2,6 @@ COLUMNS
 int ID
 locstring Name_lang
 int SortIndex
-locstring Field_2_5_1_38043_000_lang?
-int Field_2_5_1_38043_001?
 
 LAYOUT A61DB5F3
 BUILD 1.13.0.28211
@@ -25,8 +23,8 @@ SortIndex<u8>
 LAYOUT D521FCDB
 BUILD 2.5.1.38043
 $noninline,id$ID<32>
-Field_2_5_1_38043_000_lang
-Field_2_5_1_38043_001<u8>
+Name_lang
+SortIndex<u8>
 
 BUILD 4.0.0.11792
 BUILD 3.0.8.9328

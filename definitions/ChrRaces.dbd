@@ -76,50 +76,14 @@ float AlteredFormCustomizeRotationFallback? // fallback for CharStartKit::Altere
 float Field_9_0_1_35256_033? // probably: fallback for CharStartKit::Field_9_0_1_35256_002
 float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1_35256_003
 int<ChrRaces::ID> HelmetAnimScalingRaceID?
-string Field_2_5_1_38043_000?
-string Field_2_5_1_38043_001?
-locstring Field_2_5_1_38043_002_lang?
-locstring Field_2_5_1_38043_003_lang?
-locstring Field_2_5_1_38043_004_lang?
-locstring Field_2_5_1_38043_005_lang?
-locstring Field_2_5_1_38043_006_lang?
-locstring Field_2_5_1_38043_007_lang?
-locstring Field_2_5_1_38043_008_lang?
-locstring Field_2_5_1_38043_009_lang?
-locstring Field_2_5_1_38043_010_lang?
-locstring Field_2_5_1_38043_011_lang?
-locstring Field_2_5_1_38043_012_lang?
-locstring Field_2_5_1_38043_013_lang?
-locstring Field_2_5_1_38043_014_lang?
-int Field_2_5_1_38043_016?
-int Field_2_5_1_38043_017?
-int Field_2_5_1_38043_018?
 int Field_2_5_1_38043_019?
 int Field_2_5_1_38043_020?
-int Field_2_5_1_38043_021?
-int Field_2_5_1_38043_022?
-int Field_2_5_1_38043_023?
-int Field_2_5_1_38043_024?
 int Field_2_5_1_38043_025?
-int Field_2_5_1_38043_026?
-int Field_2_5_1_38043_027?
 int Field_2_5_1_38043_028?
-int Field_2_5_1_38043_029?
-int Field_2_5_1_38043_030?
-int Field_2_5_1_38043_031?
-int Field_2_5_1_38043_032?
-int Field_2_5_1_38043_033?
 int Field_2_5_1_38043_034?
 int Field_2_5_1_38043_035?
-float Field_2_5_1_38043_036?
-float Field_2_5_1_38043_037?
 float Field_2_5_1_38043_038?
 float Field_2_5_1_38043_039?
-int Field_2_5_1_38043_040?
-int Field_2_5_1_38043_041?
-int Field_2_5_1_38043_042?
-int Field_2_5_1_38043_043?
-int Field_2_5_1_38043_044?
 int Field_2_5_1_38043_045?
 int Field_2_5_1_38043_046?
 int Field_2_5_1_38043_047?
@@ -239,51 +203,51 @@ Required_expansion<32>
 
 LAYOUT 8BE33A75
 BUILD 2.5.1.38043
-Field_2_5_1_38043_000
-Field_2_5_1_38043_001
-Field_2_5_1_38043_002_lang
-Field_2_5_1_38043_003_lang
-Field_2_5_1_38043_004_lang
-Field_2_5_1_38043_005_lang
-Field_2_5_1_38043_006_lang
-Field_2_5_1_38043_007_lang
-Field_2_5_1_38043_008_lang
-Field_2_5_1_38043_009_lang
-Field_2_5_1_38043_010_lang
-Field_2_5_1_38043_011_lang
-Field_2_5_1_38043_012_lang
-Field_2_5_1_38043_013_lang
-Field_2_5_1_38043_014_lang
+ClientPrefix
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Name_RS_lang
+Name_RS_female_lang
+Name_RS_lowercase_lang
+Name_RS_female_lowercase_lang
+RaceFantasyDescription_lang
+Name_RL_lang
+Name_RL_female_lang
+Name_RL_lowercase_lang
+Name_RL_female_lowercase_lang
 $id$ID<32>
-Field_2_5_1_38043_016<32>
-Field_2_5_1_38043_017<u32>
-Field_2_5_1_38043_018<u32>
+Flags<32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
 Field_2_5_1_38043_019<u32>
 Field_2_5_1_38043_020<u32>
-Field_2_5_1_38043_021<32>
-Field_2_5_1_38043_022<32>
-Field_2_5_1_38043_023<32>
-Field_2_5_1_38043_024<32>
+ResSicknessSpellID<32>
+SplashSoundID<32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
 Field_2_5_1_38043_025<32>
-Field_2_5_1_38043_026<u32>[3]
-Field_2_5_1_38043_027<u32>[3]
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
 Field_2_5_1_38043_028<32>
-Field_2_5_1_38043_029<32>
-Field_2_5_1_38043_030<32>
-Field_2_5_1_38043_031<32>
-Field_2_5_1_38043_032<32>
-Field_2_5_1_38043_033<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+PlayableRaceBit<32>
+FemaleSkeletonFileDataID<32>
+MaleSkeletonFileDataID<32>
 Field_2_5_1_38043_034<32>
 Field_2_5_1_38043_035<32>
-Field_2_5_1_38043_036[3]
-Field_2_5_1_38043_037
+AlteredFormCustomizeOffsetFallback[3]
+AlteredFormCustomizeRotationFallback
 Field_2_5_1_38043_038[3]
 Field_2_5_1_38043_039[3]
-Field_2_5_1_38043_040<16>
-Field_2_5_1_38043_041<16>
-Field_2_5_1_38043_042<8>
-Field_2_5_1_38043_043<8>
-Field_2_5_1_38043_044<8>
+FactionID<16>
+CinematicSequenceID<16>
+BaseLanguage<8>
+CreatureType<8>
+Alliance<8>
 Field_2_5_1_38043_045<8>
 Field_2_5_1_38043_046<8>
 Field_2_5_1_38043_047<8>

@@ -84,11 +84,8 @@ int<ContentTuning::ID> ContentTuningID
 int<Covenant::ID> CovenantID
 int Field_7_3_2_25549_029?
 int Field_2_5_1_38043_000?
-locstring Field_2_5_1_38043_001_lang?
-int Field_2_5_1_38043_002?
 int Field_2_5_1_38043_003?
 int Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
 int Field_2_5_1_38043_006?
 int Field_2_5_1_38043_007?
 int Field_2_5_1_38043_008?
@@ -105,7 +102,6 @@ int Field_2_5_1_38043_018?
 int Field_2_5_1_38043_019?
 int Field_2_5_1_38043_020?
 int Field_2_5_1_38043_021?
-int Field_2_5_1_38043_022?
 int Field_2_5_1_38043_023?
 int Field_2_5_1_38043_024?
 int Field_2_5_1_38043_025?
@@ -126,7 +122,6 @@ int Field_2_5_1_38043_039?
 int Field_2_5_1_38043_040?
 int Field_2_5_1_38043_041?
 int Field_2_5_1_38043_042?
-int Field_2_5_1_38043_043?
 int Field_2_5_1_38043_044?
 int Field_2_5_1_38043_045?
 int Field_2_5_1_38043_046?
@@ -156,7 +151,6 @@ int Field_2_5_1_38043_069?
 int Field_2_5_1_38043_070?
 int Field_2_5_1_38043_071?
 int Field_2_5_1_38043_072?
-int Field_2_5_1_38043_073?
 int Field_2_5_1_38043_074?
 int Field_2_5_1_38043_075?
 int Field_2_5_1_38043_076?
@@ -168,11 +162,11 @@ int Field_2_5_1_38043_080?
 LAYOUT C289B61E
 BUILD 2.5.1.38043
 Field_2_5_1_38043_000<64>
-Field_2_5_1_38043_001_lang
-$id$Field_2_5_1_38043_002<32>
+Failure_description_lang
+$id$ID<32>
 Field_2_5_1_38043_003<u16>
 Field_2_5_1_38043_004<u16>
-Field_2_5_1_38043_005<32>
+ClassMask<32>
 Field_2_5_1_38043_006<u32>
 Field_2_5_1_38043_007<u8>
 Field_2_5_1_38043_008<u8>
@@ -189,7 +183,7 @@ Field_2_5_1_38043_018<u32>
 Field_2_5_1_38043_019<u32>
 Field_2_5_1_38043_020<u8>
 Field_2_5_1_38043_021<u32>
-Field_2_5_1_38043_022<u16>
+WorldStateExpressionID<u16>
 Field_2_5_1_38043_023<u8>
 Field_2_5_1_38043_024<u8>
 Field_2_5_1_38043_025<u8>
@@ -210,7 +204,7 @@ Field_2_5_1_38043_039<u16>
 Field_2_5_1_38043_040<u8>
 Field_2_5_1_38043_041<u16>
 Field_2_5_1_38043_042<u32>
-Field_2_5_1_38043_043<u8>
+Flags<u8>
 Field_2_5_1_38043_044<8>
 Field_2_5_1_38043_045<8>
 Field_2_5_1_38043_046<u32>
@@ -240,7 +234,7 @@ Field_2_5_1_38043_069<u32>[2]
 Field_2_5_1_38043_070<32>[4]
 Field_2_5_1_38043_071<u8>[4]
 Field_2_5_1_38043_072<u16>[4]
-Field_2_5_1_38043_073<u16>[4]
+AreaID<u16>[4]
 Field_2_5_1_38043_074<u8>[4]
 Field_2_5_1_38043_075<u8>[4]
 Field_2_5_1_38043_076<u32>[4]

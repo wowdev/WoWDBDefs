@@ -76,58 +76,18 @@ int<ContentTuning::ID> ContentTuningID?
 int<Curve::ID> PlayerLevelToItemLevelCurveID?
 int Field_7_3_2_25549_048? // probably RequiredPVPRank
 int Field_7_3_2_25549_049? // probably RequiredPVPMedal
-locstring Field_2_5_1_38043_002_lang?
-locstring Field_2_5_1_38043_003_lang?
-locstring Field_2_5_1_38043_004_lang?
-float Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_009?
-float Field_2_5_1_38043_010?
-float Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
-int Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
 int Field_2_5_1_38043_015?
-int Field_2_5_1_38043_018?
-float Field_2_5_1_38043_019?
 int Field_2_5_1_38043_022?
 int Field_2_5_1_38043_024?
 int Field_2_5_1_38043_025?
 int Field_2_5_1_38043_026?
-int Field_2_5_1_38043_027?
-int Field_2_5_1_38043_028?
 int Field_2_5_1_38043_029?
-int Field_2_5_1_38043_030?
-int Field_2_5_1_38043_031?
-int Field_2_5_1_38043_032?
-int Field_2_5_1_38043_033?
-int Field_2_5_1_38043_034?
-int Field_2_5_1_38043_035?
-int Field_2_5_1_38043_036?
-int Field_2_5_1_38043_038?
-int Field_2_5_1_38043_039?
-int Field_2_5_1_38043_040?
-int Field_2_5_1_38043_042?
 int Field_2_5_1_38043_043?
-int Field_2_5_1_38043_044?
-int Field_2_5_1_38043_045?
-int Field_2_5_1_38043_046?
-int Field_2_5_1_38043_047?
 int Field_2_5_1_38043_048?
 int Field_2_5_1_38043_050?
 int Field_2_5_1_38043_051?
 int Field_2_5_1_38043_052?
-int Field_2_5_1_38043_056?
-int Field_2_5_1_38043_057?
-int Field_2_5_1_38043_058?
-int Field_2_5_1_38043_059?
-int Field_2_5_1_38043_061?
-int Field_2_5_1_38043_062?
-int Field_2_5_1_38043_063?
 int Field_2_5_1_38043_064?
-int Field_2_5_1_38043_066?
-int Field_2_5_1_38043_067?
-int Field_2_5_1_38043_068?
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -289,24 +249,24 @@ COMMENT table is sparse
 $noninline,id$ID<32>
 AllowableRace<64>
 Description_lang
-Field_2_5_1_38043_002_lang
-Field_2_5_1_38043_003_lang
-Field_2_5_1_38043_004_lang
+Display3_lang
+Display2_lang
+Display1_lang
 Display_lang
-Field_2_5_1_38043_006
-Field_2_5_1_38043_007<u32>
+DmgVariance
+DurationInInventory<u32>
 QualityModifier
-Field_2_5_1_38043_009<u32>
-Field_2_5_1_38043_010
-Field_2_5_1_38043_011[10]
-Field_2_5_1_38043_012<32>[10]
-Field_2_5_1_38043_013<32>
-Field_2_5_1_38043_014<32>
+BagFamily<u32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
 Field_2_5_1_38043_015<u32>
 SellPrice<u32>
 BuyPrice<u32>
-Field_2_5_1_38043_018<u32>
-Field_2_5_1_38043_019
+VendorStackCount<u32>
+PriceVariance
 PriceRandomValue
 Flags<32>[4]
 Field_2_5_1_38043_022<32>
@@ -314,27 +274,27 @@ MaxDurability<u32>
 Field_2_5_1_38043_024<u16>
 Field_2_5_1_38043_025<u16>
 Field_2_5_1_38043_026<u16>
-Field_2_5_1_38043_027<u16>
-Field_2_5_1_38043_028<u16>
+LimitCategory<u16>
+Gem_properties<u16>
 Field_2_5_1_38043_029<u16>
-Field_2_5_1_38043_030<u16>
-Field_2_5_1_38043_031<u16>
-Field_2_5_1_38043_032<u16>[2]
-Field_2_5_1_38043_033<u16>
-Field_2_5_1_38043_034<u16>
-Field_2_5_1_38043_035<u16>
-Field_2_5_1_38043_036<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
+ItemSet<u16>
+LockID<u16>
+StartQuestID<u16>
+PageID<u16>
 ItemDelay<u16>
-Field_2_5_1_38043_038<u16>
-Field_2_5_1_38043_039<u16>
-Field_2_5_1_38043_040<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
 ItemLevel<u16>
-Field_2_5_1_38043_042<16>
+AllowableClass<16>
 Field_2_5_1_38043_043<u16>
-Field_2_5_1_38043_044<u16>
-Field_2_5_1_38043_045<u16>[5]
-Field_2_5_1_38043_046<u16>[5]
-Field_2_5_1_38043_047<16>[7]
+RandomSelect<u16>
+DamageMin<u16>[5]
+DamageMax<u16>[5]
+DefensiveStats<16>[7]
 Field_2_5_1_38043_048<u16>
 ExpansionID<u8>
 Field_2_5_1_38043_050<u8>
@@ -343,19 +303,19 @@ Field_2_5_1_38043_052<u8>
 SocketType<u8>[3]
 SheatheType<u8>
 Material<u8>
-Field_2_5_1_38043_056<u8>
-Field_2_5_1_38043_057<u8>
-Field_2_5_1_38043_058<u8>
-Field_2_5_1_38043_059<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+DamageType<u8>
 StatModifier_bonusStat<8>[10]
-Field_2_5_1_38043_061<u8>
-Field_2_5_1_38043_062<u8>
-Field_2_5_1_38043_063<u8>
+ContainerSlots<u8>
+MinReputation<u8>
+RequiredPVPMedal<u8>
 Field_2_5_1_38043_064<u8>
 InventoryType<u8>
-Field_2_5_1_38043_066<u8>
-Field_2_5_1_38043_067<u8>
-Field_2_5_1_38043_068<8>[10]
+OverallQualityID<u8>
+AmmoType<u8>
+StatValue<8>[10]
 RequiredLevel<8>
 
 LAYOUT BB5BF754
