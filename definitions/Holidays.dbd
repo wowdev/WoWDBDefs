@@ -13,19 +13,6 @@ int CalendarFilterType
 int Flags // &1: IsRegionwide; &2: DontShowInCalendar; &4: DontDisplayEnd; &8: DontDisplayBanner; &0x10: NotAvailableClientSide
 int<FileData::ID> TextureFileDataID
 int Field_1_13_2_30073_008?
-int Field_2_5_1_38043_000?
-int Field_2_5_1_38043_001?
-int Field_2_5_1_38043_002?
-int Field_2_5_1_38043_003?
-int Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
-int Field_2_5_1_38043_010?
-int Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
 
 LAYOUT DC1A500C, 3C3EF0AA
 BUILD 2.5.1.38043
