@@ -78,25 +78,6 @@ float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1
 int<ChrRaces::ID> HelmetAnimScalingRaceID?
 int Field_2_5_1_38043_019?
 int Field_2_5_1_38043_020?
-int Field_2_5_1_38043_025?
-int Field_2_5_1_38043_028?
-int Field_2_5_1_38043_034?
-int Field_2_5_1_38043_035?
-float Field_2_5_1_38043_038?
-float Field_2_5_1_38043_039?
-int Field_2_5_1_38043_045?
-int Field_2_5_1_38043_046?
-int Field_2_5_1_38043_047?
-int Field_2_5_1_38043_048?
-int Field_2_5_1_38043_049?
-int Field_2_5_1_38043_050?
-int Field_2_5_1_38043_051?
-int Field_2_5_1_38043_052?
-int Field_2_5_1_38043_053?
-int Field_2_5_1_38043_054?
-int Field_2_5_1_38043_055?
-int Field_2_5_1_38043_056?
-int Field_2_5_1_38043_057?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -228,39 +209,39 @@ ResSicknessSpellID<32>
 SplashSoundID<32>
 CreateScreenFileDataID<32>
 SelectScreenFileDataID<32>
-Field_2_5_1_38043_025<32>
+LowResScreenFileDataID<32>
 AlteredFormStartVisualKitID<u32>[3]
 AlteredFormFinishVisualKitID<u32>[3]
-Field_2_5_1_38043_028<32>
+HeritageArmorAchievementID<32>
 StartingLevel<32>
 UiDisplayOrder<32>
 PlayableRaceBit<32>
 FemaleSkeletonFileDataID<32>
 MaleSkeletonFileDataID<32>
-Field_2_5_1_38043_034<32>
-Field_2_5_1_38043_035<32>
+HelmetAnimScalingRaceID<32>
+TransmogrifyDisabledSlotMask<32>
 AlteredFormCustomizeOffsetFallback[3]
 AlteredFormCustomizeRotationFallback
-Field_2_5_1_38043_038[3]
-Field_2_5_1_38043_039[3]
+Field_9_0_1_35256_033[3]
+Field_9_0_1_35256_034[3]
 FactionID<16>
 CinematicSequenceID<16>
 BaseLanguage<8>
 CreatureType<8>
 Alliance<8>
-Field_2_5_1_38043_045<8>
-Field_2_5_1_38043_046<8>
-Field_2_5_1_38043_047<8>
-Field_2_5_1_38043_048<8>
-Field_2_5_1_38043_049<8>
-Field_2_5_1_38043_050<8>
-Field_2_5_1_38043_051<8>
-Field_2_5_1_38043_052<8>
-Field_2_5_1_38043_053<8>
-Field_2_5_1_38043_054<8>
-Field_2_5_1_38043_055<8>
-Field_2_5_1_38043_056<8>
-Field_2_5_1_38043_057<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
+UnalteredVisualCustomizationRaceID<8>
 
 BUILD 3.0.1.8303-3.1.3.9947
 BUILD 2.4.0.8089-2.4.3.8606

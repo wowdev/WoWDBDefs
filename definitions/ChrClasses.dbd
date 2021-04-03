@@ -46,7 +46,6 @@ int CharacterCreationAnimLoopWaitTimeMsFallback?
 int Field_2_0_0_6080_009?
 locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
 locstring Hyphenated_name_female_lang?
-int Field_2_5_1_38043_009?
 int Field_2_5_1_38043_011?
 int Field_2_5_1_38043_013?
 int Field_2_5_1_38043_014?
@@ -183,7 +182,7 @@ $id$ID<32>
 CreateScreenFileDataID<u32>
 SelectScreenFileDataID<u32>
 IconFileDataID<u32>
-Field_2_5_1_38043_009<u32>
+LowResScreenFileDataID<u32>
 StartingLevel<32>
 Field_2_5_1_38043_011<u32>
 Flags<u16>

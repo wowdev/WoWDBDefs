@@ -23,21 +23,6 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
-int Field_2_5_1_38043_005?
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
-int Field_2_5_1_38043_010?
-int Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
-int Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
-int Field_2_5_1_38043_015?
-int Field_2_5_1_38043_016?
-int Field_2_5_1_38043_017?
-int Field_2_5_1_38043_018?
-int Field_2_5_1_38043_019?
 
 LAYOUT AF456C4F
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169
@@ -47,21 +32,21 @@ Description_lang
 ButtonText_lang
 RewardDescription_lang
 ContinueDescription_lang
-Field_2_5_1_38043_005<u8>
-Field_2_5_1_38043_006<u32>
-Field_2_5_1_38043_007<u8>
-Field_2_5_1_38043_008<u8>
-Field_2_5_1_38043_009<32>
-Field_2_5_1_38043_010<u16>
-Field_2_5_1_38043_011<u32>
-Field_2_5_1_38043_012<u16>
-Field_2_5_1_38043_013<u8>
-Field_2_5_1_38043_014<u8>
-Field_2_5_1_38043_015<32>
-Field_2_5_1_38043_016<u32>
-Field_2_5_1_38043_017<u16>
-Field_2_5_1_38043_018<u8>
-Field_2_5_1_38043_019<u16>
+Type<u8>
+PlayerConditionID<u32>
+Flags<u8>
+ButtonActionType<u8>
+TextureFileDataID<32>
+LfgDungeonID<u16>
+QuestID<u32>
+BattleMasterListID<u16>
+PriorityMin<u8>
+PriorityMax<u8>
+ItemID<32>
+ItemQuantity<u32>
+CurrencyType<u16>
+CurrencyQuantity<u8>
+UIMapID<u16>
 BonusPlayerConditionID<u32>[2]
 BonusValue<u8>[2]
 
