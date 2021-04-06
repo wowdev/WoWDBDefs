@@ -5,7 +5,7 @@ int<UiWidgetVisTypeDataReq::ID> ReqID
 locstring Value_lang // formatting patterns are '%\d+$fun' where $fun defines what is done and the digit is passed to that. funs are case insensitive, unless noted. mostly maps back to the UiWidgetDataSource types, but has some special ones. also has format types: d: integer, s: string, tr: relative time, th: time %h:%m:%s, tm: time %Hh:%m:%s or %m:%s. the following mappings are of form '$fun: $type$fmt' where $type is the equivalent in UiWidgetDataSource::SourceType and $fmt is the type as given above. mappings follow: a1: 12d, a2: 13d, a3: 14d, a4: 52d, a5: 53d, as: 9d, c: 2d, e: 1d, fl: 25d but +1, fm: 27d, fr: 25d, fs: 26d, fx: 28d, ib: 35d, ic: 36d, ji: 45d, jl: 46d, k: 0tr, m: 3d, oc: 19d, om: 20d, or: 34d, qc: 18d, qr: 33d, rc: 47d, rm: 48d, rx: 49d, sc: 42d, sn: 40d, sr: 41d, sz: 43d, t: 4d, u1: 58d, u2: 59d, u3: 60d, u4: 61d, u5: 62d, us: 55d, vn: 38d, vt: 38tm, w: 0d, x: 0th. additional functions all return format s: d: spell description(?), fn: faction standing, n: spell name, p: player condition failure desc, ud: some spell/quest text.
 
 LAYOUT 8CFB96D6
-BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169
+BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
 $noninline,id$ID<32>
 Value_lang
 ReqID<u16>
