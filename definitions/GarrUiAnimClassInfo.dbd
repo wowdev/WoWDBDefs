@@ -7,21 +7,16 @@ float ImpactDelaySecs
 int CastKit
 int ImpactKit
 int TargetImpactKit
-int Field_2_5_1_38043_000?
-int Field_2_5_1_38043_001?
-int Field_2_5_1_38043_003?
-int Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
 
 LAYOUT FBDFD3FD
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
 $noninline,id$ID<32>
-Field_2_5_1_38043_000<u8>
-Field_2_5_1_38043_001<u8>
+GarrClassSpecID<u8>
+MovementType<u8>
 ImpactDelaySecs
-Field_2_5_1_38043_003<u32>
-Field_2_5_1_38043_004<u32>
-Field_2_5_1_38043_005<u32>
+CastKit<u32>
+ImpactKit<u32>
+TargetImpactKit<u32>
 
 BUILD 6.0.1.18179
 $id$ID<32>

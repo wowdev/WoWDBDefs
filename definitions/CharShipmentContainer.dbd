@@ -16,39 +16,26 @@ int<GameObjectDisplayInfo::ID> SmallDisplayInfoID
 int<UiTextureKit::ID> UiTextureKitID
 int<GameObjectDisplayInfo::ID> WorkingDisplayInfoID // used by gameobject code to determine if in "in progress" state...
 int<SpellVisual::ID> WorkingSpellVisualID // if both are same as in gameobject mirrors, it is in progress
-int Field_2_5_1_38043_002?
-int Field_2_5_1_38043_003?
-int Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_010?
-int Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
-int Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
-int Field_2_5_1_38043_015?
 
 LAYOUT 5369BFD6
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
 $noninline,id$ID<32>
 Description_lang
 PendingText_lang
-Field_2_5_1_38043_002<u16>
-Field_2_5_1_38043_003<u8>
-Field_2_5_1_38043_004<u8>
-Field_2_5_1_38043_005<u8>
-Field_2_5_1_38043_006<u16>
-Field_2_5_1_38043_007<u16>
-Field_2_5_1_38043_008<u16>
+UiTextureKitID<u16>
+GarrTypeID<u8>
+GarrBuildingType<u8>
+BaseCapacity<u8>
+SmallDisplayInfoID<u16>
+MediumDisplayInfoID<u16>
+LargeDisplayInfoID<u16>
 WorkingDisplayInfoID<32>
-Field_2_5_1_38043_010<u32>
-Field_2_5_1_38043_011<u32>
-Field_2_5_1_38043_012<u8>
-Field_2_5_1_38043_013<u8>
-Field_2_5_1_38043_014<8>
-Field_2_5_1_38043_015<u16>
+WorkingSpellVisualID<u32>
+CompleteSpellVisualID<u32>
+MediumThreshold<u8>
+LargeThreshold<u8>
+Faction<8>
+CrossFactionID<u16>
 
 BUILD 6.0.1.18179
 $id$ID<32>

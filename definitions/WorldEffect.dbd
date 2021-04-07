@@ -6,19 +6,15 @@ int<QuestFeedbackEffect::ID> QuestFeedbackEffectID
 int<PlayerCondition::ID> PlayerConditionID
 int<CombatCondition::ID> CombatConditionID
 int WhenToDisplay // bitmask: &0x1: is_quest_objective_completeable, &0x2: is_quest_objective_complete, &0x4: ???, &0x8: ???, &0x10: ???
-int Field_2_5_1_38043_000?
-int Field_2_5_1_38043_001?
-int Field_2_5_1_38043_002?
-int Field_2_5_1_38043_004?
 
 LAYOUT 3D9AC39D
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
 $noninline,id$ID<32>
-Field_2_5_1_38043_000<u32>
-Field_2_5_1_38043_001<u8>
-Field_2_5_1_38043_002<u8>
+QuestFeedbackEffectID<u32>
+WhenToDisplay<u8>
+TargetType<u8>
 TargetAsset<32>
-Field_2_5_1_38043_004<u32>
+PlayerConditionID<u32>
 CombatConditionID<u16>
 
 BUILD 6.0.1.18179

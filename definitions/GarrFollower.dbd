@@ -48,34 +48,6 @@ locstring TitleName_lang
 int Vitality
 int<GarrAutoCombatant::ID> AutoCombatantID
 int<Covenant::ID> CovenantID
-int Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
-int Field_2_5_1_38043_010?
-int Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
-int Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
-int Field_2_5_1_38043_015?
-int Field_2_5_1_38043_016?
-int Field_2_5_1_38043_017?
-int Field_2_5_1_38043_018?
-int Field_2_5_1_38043_019?
-int Field_2_5_1_38043_020?
-int Field_2_5_1_38043_021?
-int Field_2_5_1_38043_022?
-int Field_2_5_1_38043_023?
-int Field_2_5_1_38043_024?
-int Field_2_5_1_38043_025?
-int Field_2_5_1_38043_026?
-int Field_2_5_1_38043_027?
-int Field_2_5_1_38043_028?
-int Field_2_5_1_38043_029?
-int Field_2_5_1_38043_030?
-int Field_2_5_1_38043_031?
 
 LAYOUT 88765B9E
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
@@ -83,34 +55,34 @@ HordeSourceText_lang
 AllianceSourceText_lang
 TitleName_lang
 $id$ID<32>
-Field_2_5_1_38043_004<u8>
-Field_2_5_1_38043_005<u8>
-Field_2_5_1_38043_006<32>
-Field_2_5_1_38043_007<32>
-Field_2_5_1_38043_008<u8>
-Field_2_5_1_38043_009<u8>
-Field_2_5_1_38043_010<u8>
-Field_2_5_1_38043_011<u8>
-Field_2_5_1_38043_012<u8>
-Field_2_5_1_38043_013<u8>
-Field_2_5_1_38043_014<u16>
-Field_2_5_1_38043_015<u16>
-Field_2_5_1_38043_016<8>
-Field_2_5_1_38043_017<8>
-Field_2_5_1_38043_018<32>
-Field_2_5_1_38043_019<32>
-Field_2_5_1_38043_020<u16>
-Field_2_5_1_38043_021<u16>
-Field_2_5_1_38043_022<u16>
-Field_2_5_1_38043_023<u16>
-Field_2_5_1_38043_024<u8>
-Field_2_5_1_38043_025<u8>
-Field_2_5_1_38043_026<u8>
-Field_2_5_1_38043_027<u32>
-Field_2_5_1_38043_028<u32>
-Field_2_5_1_38043_029<u8>
-Field_2_5_1_38043_030<u8>
-Field_2_5_1_38043_031<u8>
+GarrTypeID<u8>
+GarrFollowerTypeID<u8>
+HordeCreatureID<32>
+AllianceCreatureID<32>
+HordeGarrFollRaceID<u8>
+AllianceGarrFollRaceID<u8>
+HordeGarrClassSpecID<u8>
+AllianceGarrClassSpecID<u8>
+Quality<u8>
+FollowerLevel<u8>
+ItemLevelWeapon<u16>
+ItemLevelArmor<u16>
+HordeSourceTypeEnum<8>
+AllianceSourceTypeEnum<8>
+HordeIconFileDataID<32>
+AllianceIconFileDataID<32>
+HordeGarrFollItemSetID<u16>
+AllianceGarrFollItemSetID<u16>
+HordeUITextureKitID<u16>
+AllianceUITextureKitID<u16>
+Vitality<u8>
+HordeFlavorGarrStringID<u8>
+AllianceFlavorGarrStringID<u8>
+HordeSlottingBroadcastTextID<u32>
+AllySlottingBroadcastTextID<u32>
+ChrClassID<u8>
+Flags<u8>
+Gender<u8>
 
 BUILD 6.0.1.18179
 $id$ID<32>

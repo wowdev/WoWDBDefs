@@ -4,15 +4,13 @@ int<SceneScriptPackage::ID> ChildSceneScriptPackageID
 int OrderIndex
 int<SceneScript::ID> SceneScriptID
 int<SceneScriptPackage::ID> SceneScriptPackageID
-int Field_2_5_1_38043_001?
-int Field_2_5_1_38043_002?
 
 LAYOUT B7D9304D
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
 $noninline,id$ID<32>
 $relation$SceneScriptPackageID<u16>
-Field_2_5_1_38043_001<u16>
-Field_2_5_1_38043_002<u16>
+SceneScriptID<u16>
+ChildSceneScriptPackageID<u16>
 OrderIndex<u8>
 
 BUILD 5.0.1.15464

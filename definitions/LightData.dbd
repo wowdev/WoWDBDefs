@@ -40,17 +40,6 @@ float FogHeightCoefficients
 float Field_9_0_1_33978_026?
 int<FileData::ID> DarkerColorGradingFileDataID?
 float MainFogCoefficients?
-float Field_2_5_1_38043_022?
-float Field_2_5_1_38043_023?
-float Field_2_5_1_38043_024?
-float Field_2_5_1_38043_025?
-int Field_2_5_1_38043_028?
-int Field_2_5_1_38043_029?
-int Field_2_5_1_38043_030?
-int Field_2_5_1_38043_031?
-float Field_2_5_1_38043_032?
-int Field_2_5_1_38043_033?
-int Field_2_5_1_38043_035?
 
 LAYOUT 9E95F375
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
@@ -77,20 +66,20 @@ RiverFarColor<32>
 ShadowOpacity<32>
 FogEnd
 FogScaler
-Field_2_5_1_38043_022
-Field_2_5_1_38043_023
-Field_2_5_1_38043_024
-Field_2_5_1_38043_025
+FogDensity
+FogHeight
+FogHeightScaler
+FogHeightDensity
 SunFogAngle
 CloudDensity
-Field_2_5_1_38043_028<u32>
-Field_2_5_1_38043_029<32>
-Field_2_5_1_38043_030<32>
-Field_2_5_1_38043_031<u32>
-Field_2_5_1_38043_032
-Field_2_5_1_38043_033<u32>
+ColorGradingFileDataID<u32>
+HorizonAmbientColor<32>
+GroundAmbientColor<32>
+EndFogColor<u32>
+EndFogColorDistance
+SunFogColor<u32>
 SunFogStrength
-Field_2_5_1_38043_035<u32>
+FogHeightColor<u32>
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>

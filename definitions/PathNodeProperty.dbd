@@ -5,14 +5,12 @@ int PropertyIndex
 int Sequence
 int Value
 int Field_8_1_0_27934_003?
-int Field_2_5_1_38043_001?
-int Field_2_5_1_38043_002?
 
 LAYOUT 87ACB772
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
 $id$ID<32>
-Field_2_5_1_38043_001<u16>
-Field_2_5_1_38043_002<u16>
+PathID<u16>
+Sequence<u16>
 PropertyIndex<u8>
 Value<32>
 

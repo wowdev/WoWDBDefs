@@ -15,36 +15,24 @@ float UiModelSaturation
 int UiSwatchColor
 int<PlayerCondition::ID> UnlockPlayerConditionID
 int<PlayerCondition::ID> UsablePlayerConditionID
-int Field_2_5_1_38043_003?
-int Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
-int Field_2_5_1_38043_006?
-float Field_2_5_1_38043_007?
-float Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
-int Field_2_5_1_38043_010?
-int Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
-int Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
 
 LAYOUT CDF315B7
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
 Name_lang
 $id$ID<32>
 $relation$ArtifactAppearanceSetID<u16>
-Field_2_5_1_38043_003<u8>
-Field_2_5_1_38043_004<u32>
-Field_2_5_1_38043_005<u8>
-Field_2_5_1_38043_006<32>
-Field_2_5_1_38043_007
-Field_2_5_1_38043_008
-Field_2_5_1_38043_009<u8>
-Field_2_5_1_38043_010<u32>
-Field_2_5_1_38043_011<u32>
-Field_2_5_1_38043_012<u32>
-Field_2_5_1_38043_013<u8>
-Field_2_5_1_38043_014<u16>
+DisplayIndex<u8>
+UnlockPlayerConditionID<u32>
+ItemAppearanceModifierID<u8>
+UiSwatchColor<32>
+UiModelSaturation
+UiModelOpacity
+OverrideShapeshiftFormID<u8>
+OverrideShapeshiftDisplayID<u32>
+UiItemAppearanceID<u32>
+UiAltItemAppearanceID<u32>
+Flags<u8>
+UiCameraID<u16>
 
 LAYOUT AEED7395
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

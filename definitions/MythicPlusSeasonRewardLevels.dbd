@@ -5,16 +5,13 @@ int WeeklyRewardLevel
 int EndOfRunRewardLevel
 int Season // later moved to MythicPlusSeason
 int<MythicPlusSeason::ID> MythicPlusSeasonID
-int Field_2_5_1_38043_000?
-int Field_2_5_1_38043_001?
-int Field_2_5_1_38043_002?
 
 LAYOUT 4C011559
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
 $noninline,id$ID<32>
-Field_2_5_1_38043_000<32>
-Field_2_5_1_38043_001<32>
-Field_2_5_1_38043_002<32>
+DifficultyLevel<32>
+WeeklyRewardLevel<32>
+EndOfRunRewardLevel<32>
 $noninline,relation$Season<32>
 
 LAYOUT AD6A6D9F
