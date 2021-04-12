@@ -8,7 +8,7 @@ int<CombatCondition::ID> CombatConditionID
 int WhenToDisplay // bitmask: &0x1: is_quest_objective_completeable, &0x2: is_quest_objective_complete, &0x4: ???, &0x8: ???, &0x10: ???
 
 LAYOUT 3D9AC39D
-BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
+BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285
 $noninline,id$ID<32>
 QuestFeedbackEffectID<u32>
 WhenToDisplay<u8>
