@@ -7,6 +7,13 @@ int Flags // &1: hide aura, &2: no strong/weak hints in tooltips etc
 int<FileData::ID> IconFileDataID
 locstring Name_lang
 int PetTypeEnum
+locstring Field_9_1_0_38312_000_lang?
+locstring Field_9_1_0_38312_001_lang?
+int Field_9_1_0_38312_002?
+int Field_9_1_0_38312_003?
+int Field_9_1_0_38312_004?
+int Field_9_1_0_38312_005?
+int Field_9_1_0_38312_006?
 
 BUILD 5.0.1.15464
 $id$ID<32>
@@ -89,3 +96,14 @@ PetTypeEnum<8>
 Cooldown<u32>
 BattlePetVisualID<u16>
 Flags<u8>
+
+LAYOUT 1A4DC74F
+BUILD 9.1.0.38312
+$noninline,id$ID<32>
+Field_9_1_0_38312_000_lang
+Field_9_1_0_38312_001_lang
+Field_9_1_0_38312_002<32>
+Field_9_1_0_38312_003<8>
+Field_9_1_0_38312_004<u32>
+Field_9_1_0_38312_005<u16>
+Field_9_1_0_38312_006<u8>

@@ -6,6 +6,11 @@ int<ItemDisplayInfo::ID> ItemDisplayInfoID
 int UiOrder
 int<ItemSubClass::SubClassID> Field_8_2_5_31812_001? // with ClassID == 2
 int<PlayerCondition::ID> PlayerConditionID
+int Field_9_1_0_38312_000?
+int Field_9_1_0_38312_001?
+int Field_9_1_0_38312_002?
+int Field_9_1_0_38312_003?
+int Field_9_1_0_38312_004?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -72,3 +77,12 @@ ItemDisplayInfoID<32>
 DefaultIconFileDataID<32>
 UiOrder<32>
 PlayerConditionID<32>
+
+LAYOUT 50445CDB
+BUILD 9.1.0.38312
+$noninline,id$ID<32>
+Field_9_1_0_38312_000<u8>
+Field_9_1_0_38312_001<32>
+Field_9_1_0_38312_002<32>
+Field_9_1_0_38312_003<32>
+Field_9_1_0_38312_004<32>

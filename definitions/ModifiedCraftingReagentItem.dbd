@@ -4,6 +4,11 @@ locstring Description_lang
 int<ModifiedCraftingCategory::ID> ModifiedCraftingCategoryID
 int<ItemBonusTree::ID> ItemBonusTreeID
 int Flags?
+locstring Field_9_1_0_38312_000_lang?
+int Field_9_1_0_38312_001?
+int Field_9_1_0_38312_002?
+int Field_9_1_0_38312_003?
+int Field_9_1_0_38312_004?
 
 LAYOUT CC09E623
 BUILD 9.0.5.37503, 9.0.5.37623, 9.0.5.37705, 9.0.5.37774, 9.0.5.37844, 9.0.5.37862, 9.0.5.37864, 9.0.5.37893, 9.0.5.37899, 9.0.5.37988, 9.0.5.38134
@@ -14,3 +19,12 @@ Description_lang
 ModifiedCraftingCategoryID<32>
 ItemBonusTreeID<32>
 Flags<32>
+
+LAYOUT 9B484AEF
+BUILD 9.1.0.38312
+$noninline,id$ID<32>
+Field_9_1_0_38312_000_lang
+Field_9_1_0_38312_001<32>
+Field_9_1_0_38312_002<32>
+Field_9_1_0_38312_003<32>
+Field_9_1_0_38312_004<32>

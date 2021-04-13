@@ -13,17 +13,6 @@ int Field_2_5_1_38043_005? // OrderIndex or UiOrderIndex
 int Field_2_5_1_38043_006?
 int Field_2_5_1_38043_007?
 
-LAYOUT E8148293
-BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285
-Name_lang
-$id$ID<32>
-$relation$ChrCustomizationOptionID<32>
-ChrCustomizationReqID<32>
-Field_2_5_1_38043_004<u16>
-Field_2_5_1_38043_005<u16>
-Field_2_5_1_38043_006<32>
-Field_2_5_1_38043_007<32>[2]
-
 LAYOUT 9DC934CE
 BUILD 9.0.1.34081, 9.0.1.34098
 Name_lang
@@ -76,3 +65,15 @@ SwatchColor1<32>
 SwatchColor2<32>
 UiOrderIndex<u16>
 Flags<32>
+
+LAYOUT E8148293
+BUILD 9.1.0.38312
+BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285
+Name_lang
+$id$ID<32>
+$relation$ChrCustomizationOptionID<32>
+ChrCustomizationReqID<32>
+Field_2_5_1_38043_004<u16>
+Field_2_5_1_38043_005<u16>
+Field_2_5_1_38043_006<32>
+Field_2_5_1_38043_007<32>[2]

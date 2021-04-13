@@ -40,6 +40,51 @@ float FogHeightCoefficients
 float Field_9_0_1_33978_026?
 int<FileData::ID> DarkerColorGradingFileDataID?
 float MainFogCoefficients?
+int Field_9_1_0_38312_000?
+int Field_9_1_0_38312_001?
+int Field_9_1_0_38312_002?
+int Field_9_1_0_38312_003?
+int Field_9_1_0_38312_004?
+int Field_9_1_0_38312_005?
+int Field_9_1_0_38312_006?
+int Field_9_1_0_38312_007?
+int Field_9_1_0_38312_008?
+int Field_9_1_0_38312_009?
+int Field_9_1_0_38312_010?
+int Field_9_1_0_38312_011?
+int Field_9_1_0_38312_012?
+int Field_9_1_0_38312_013?
+int Field_9_1_0_38312_014?
+int Field_9_1_0_38312_015?
+int Field_9_1_0_38312_016?
+int Field_9_1_0_38312_017?
+int Field_9_1_0_38312_018?
+int Field_9_1_0_38312_019?
+float Field_9_1_0_38312_020?
+float Field_9_1_0_38312_021?
+float Field_9_1_0_38312_022?
+float Field_9_1_0_38312_023?
+float Field_9_1_0_38312_024?
+float Field_9_1_0_38312_025?
+float Field_9_1_0_38312_026?
+float Field_9_1_0_38312_027?
+float Field_9_1_0_38312_028?
+float Field_9_1_0_38312_029?
+float Field_9_1_0_38312_030?
+int Field_9_1_0_38312_031?
+int Field_9_1_0_38312_032?
+int Field_9_1_0_38312_033?
+int Field_9_1_0_38312_034?
+int Field_9_1_0_38312_035?
+float Field_9_1_0_38312_036?
+float Field_9_1_0_38312_037?
+int Field_9_1_0_38312_038?
+float Field_9_1_0_38312_039?
+int Field_9_1_0_38312_040?
+int Field_9_1_0_38312_041?
+float Field_9_1_0_38312_042?
+float Field_9_1_0_38312_043?
+float Field_9_1_0_38312_044?
 
 LAYOUT 9E95F375
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285
@@ -471,3 +516,52 @@ SunFogStrength
 FogHeightColor<u32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
+
+LAYOUT 79AC7C4B
+BUILD 9.1.0.38312
+$noninline,id$ID<32>
+$relation$Field_9_1_0_38312_000<u16>
+Field_9_1_0_38312_001<u16>
+Field_9_1_0_38312_002<32>
+Field_9_1_0_38312_003<32>
+Field_9_1_0_38312_004<32>
+Field_9_1_0_38312_005<32>
+Field_9_1_0_38312_006<32>
+Field_9_1_0_38312_007<32>
+Field_9_1_0_38312_008<32>
+Field_9_1_0_38312_009<32>
+Field_9_1_0_38312_010<32>
+Field_9_1_0_38312_011<32>
+Field_9_1_0_38312_012<32>
+Field_9_1_0_38312_013<32>
+Field_9_1_0_38312_014<32>
+Field_9_1_0_38312_015<32>
+Field_9_1_0_38312_016<32>
+Field_9_1_0_38312_017<32>
+Field_9_1_0_38312_018<32>
+Field_9_1_0_38312_019<32>
+Field_9_1_0_38312_020
+Field_9_1_0_38312_021
+Field_9_1_0_38312_022
+Field_9_1_0_38312_023
+Field_9_1_0_38312_024
+Field_9_1_0_38312_025
+Field_9_1_0_38312_026
+Field_9_1_0_38312_027
+Field_9_1_0_38312_028
+Field_9_1_0_38312_029
+Field_9_1_0_38312_030
+Field_9_1_0_38312_031<u32>
+Field_9_1_0_38312_032<u32>
+Field_9_1_0_38312_033<32>
+Field_9_1_0_38312_034<32>
+Field_9_1_0_38312_035<u32>
+Field_9_1_0_38312_036
+Field_9_1_0_38312_037
+Field_9_1_0_38312_038<u32>
+Field_9_1_0_38312_039
+Field_9_1_0_38312_040<u32>
+Field_9_1_0_38312_041<u32>
+Field_9_1_0_38312_042[4]
+Field_9_1_0_38312_043[4]
+Field_9_1_0_38312_044[4]

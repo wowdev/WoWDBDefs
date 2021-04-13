@@ -15,6 +15,23 @@ float CustomizeFacing // in radians
 float CameraDistanceOffset
 float BarberShopCameraOffsetScale?
 float BarberShopCameraRotationOffset? // in radians, rotated by 180°?! unsure, used in camera code
+float Field_9_1_0_38312_000?
+float Field_9_1_0_38312_001?
+int Field_9_1_0_38312_002?
+int Field_9_1_0_38312_003?
+int Field_9_1_0_38312_004?
+int Field_9_1_0_38312_005?
+int Field_9_1_0_38312_006?
+int Field_9_1_0_38312_007?
+int Field_9_1_0_38312_008?
+int Field_9_1_0_38312_009?
+int Field_9_1_0_38312_010?
+float Field_9_1_0_38312_011?
+float Field_9_1_0_38312_012?
+float Field_9_1_0_38312_013?
+float Field_9_1_0_38312_014?
+float Field_9_1_0_38312_015?
+float Field_9_1_0_38312_016?
 
 LAYOUT 6FB2BE38
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -97,3 +114,23 @@ CustomizeFacing
 CameraDistanceOffset
 BarberShopCameraOffsetScale
 BarberShopCameraRotationOffset
+
+LAYOUT A621ABEF
+BUILD 9.1.0.38312
+Field_9_1_0_38312_000[3]
+Field_9_1_0_38312_001[3]
+$id$Field_9_1_0_38312_002<32>
+Field_9_1_0_38312_003<32>
+Field_9_1_0_38312_004<32>
+Field_9_1_0_38312_005<32>
+Field_9_1_0_38312_006<32>
+Field_9_1_0_38312_007<32>
+Field_9_1_0_38312_008<32>
+Field_9_1_0_38312_009<32>
+Field_9_1_0_38312_010<32>
+Field_9_1_0_38312_011
+Field_9_1_0_38312_012
+Field_9_1_0_38312_013
+Field_9_1_0_38312_014
+Field_9_1_0_38312_015
+Field_9_1_0_38312_016
