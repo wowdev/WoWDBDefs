@@ -8,15 +8,6 @@ int<UiWidgetVisualization::ID> VisID
 string WidgetTag
 int Field_8_2_5_31337_006? // flag? 1: UniversalWidget
 int LayoutDirection // 0: Default, 1: Vertical, 2: Horizontal, 3: Overlap
-string Field_9_1_0_38312_000?
-int Field_9_1_0_38312_001?
-int Field_9_1_0_38312_002?
-int Field_9_1_0_38312_003?
-int Field_9_1_0_38312_004?
-int Field_9_1_0_38312_005?
-int Field_9_1_0_38312_006?
-int Field_9_1_0_38312_007?
-int Field_9_1_0_38312_008?
 
 LAYOUT E7AFC91F
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285
@@ -125,12 +116,12 @@ LayoutDirection<8>
 
 LAYOUT E0FFDA35
 BUILD 9.1.0.38312
-Field_9_1_0_38312_000
-$id$Field_9_1_0_38312_001<32>
-Field_9_1_0_38312_002<32>
-Field_9_1_0_38312_003<32>
-Field_9_1_0_38312_004<32>
-Field_9_1_0_38312_005<32>
-Field_9_1_0_38312_006<32>
-Field_9_1_0_38312_007<8>
-Field_9_1_0_38312_008<32>
+WidgetTag
+$id$ID<32>
+ParentSetID<32>
+VisID<32>
+MapID<32>
+PlayerConditionID<32>
+OrderIndex<32>
+LayoutDirection<8>
+Field_8_2_5_31337_006<32>

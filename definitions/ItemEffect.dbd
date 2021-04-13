@@ -9,14 +9,6 @@ int<Item::ID> ParentItemID
 int<SpellCategory::ID> SpellCategoryID
 int<Spell::ID> SpellID
 int TriggerType
-int Field_9_1_0_38312_000?
-int Field_9_1_0_38312_001?
-int Field_9_1_0_38312_002?
-int Field_9_1_0_38312_003?
-int Field_9_1_0_38312_004?
-int Field_9_1_0_38312_005?
-int Field_9_1_0_38312_006?
-int Field_9_1_0_38312_007?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -103,11 +95,11 @@ $noninline,relation$ParentItemID<32>
 LAYOUT 54C10519
 BUILD 9.1.0.38312
 $noninline,id$ID<32>
-Field_9_1_0_38312_000<u8>
-Field_9_1_0_38312_001<8>
-Field_9_1_0_38312_002<16>
-Field_9_1_0_38312_003<32>
-Field_9_1_0_38312_004<32>
-Field_9_1_0_38312_005<u16>
-Field_9_1_0_38312_006<32>
-Field_9_1_0_38312_007<u16>
+LegacySlotIndex<u8>
+TriggerType<8>
+Charges<16>
+CoolDownMSec<32>
+CategoryCoolDownMSec<32>
+SpellCategoryID<u16>
+SpellID<32>
+ChrSpecializationID<u16>

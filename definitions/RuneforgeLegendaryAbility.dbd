@@ -8,15 +8,6 @@ int<ItemBonusList::ID> ItemBonusListID
 int<PlayerCondition::ID> PlayerConditionID
 int Field_9_0_1_34972_007?
 int<Item::ID> UnlockItemID
-locstring Field_9_1_0_38312_000_lang?
-int Field_9_1_0_38312_001?
-int Field_9_1_0_38312_002?
-int Field_9_1_0_38312_003?
-int Field_9_1_0_38312_004?
-int Field_9_1_0_38312_005?
-int Field_9_1_0_38312_006?
-int Field_9_1_0_38312_007?
-int Field_9_1_0_38312_008?
 int Field_9_1_0_38312_009?
 
 LAYOUT 368D0C5F
@@ -65,13 +56,13 @@ UnlockItemID<32>
 
 LAYOUT 1351F7BF
 BUILD 9.1.0.38312
-Field_9_1_0_38312_000_lang
-$id$Field_9_1_0_38312_001<32>
-Field_9_1_0_38312_002<32>
-Field_9_1_0_38312_003<32>
-Field_9_1_0_38312_004<32>
-Field_9_1_0_38312_005<32>
-Field_9_1_0_38312_006<32>
-Field_9_1_0_38312_007<32>
-Field_9_1_0_38312_008<32>
+Name_lang
+$id$ID<32>
+SpecSetID<32>
+InventoryTypeMask<32>
+SpellID<32>
+ItemBonusListID<32>
+PlayerConditionID<32>
+Field_9_0_1_34972_007<32>
+UnlockItemID<32>
 Field_9_1_0_38312_009<32>

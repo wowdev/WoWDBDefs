@@ -4,10 +4,6 @@ int PvpFaction
 locstring SourceText_lang
 int SourceTypeEnum
 int<Spell::ID> SpellID
-locstring Field_9_1_0_38312_000_lang?
-int Field_9_1_0_38312_001?
-int Field_9_1_0_38312_002?
-int Field_9_1_0_38312_003?
 
 LAYOUT C3DF4AF7
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -55,7 +51,7 @@ $noninline,relation$SpellID<u32>
 LAYOUT A1A61C40
 BUILD 9.1.0.38312
 $noninline,id$ID<32>
-Field_9_1_0_38312_000_lang
-Field_9_1_0_38312_001<8>
-Field_9_1_0_38312_002<8>
-$noninline,relation$Field_9_1_0_38312_003<u32>
+SourceText_lang
+PvpFaction<8>
+SourceTypeEnum<8>
+$noninline,relation$SpellID<u32>

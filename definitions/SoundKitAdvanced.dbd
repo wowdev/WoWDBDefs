@@ -56,61 +56,6 @@ float Field_8_3_0_32044_051?
 float Field_8_3_0_32044_052?
 float Field_8_3_0_32044_053?
 float Field_8_3_0_32044_054?
-int Field_9_1_0_38312_000?
-int Field_9_1_0_38312_001?
-float Field_9_1_0_38312_002?
-float Field_9_1_0_38312_003?
-int Field_9_1_0_38312_004?
-int Field_9_1_0_38312_005?
-int Field_9_1_0_38312_006?
-int Field_9_1_0_38312_007?
-int Field_9_1_0_38312_008?
-int Field_9_1_0_38312_009?
-int Field_9_1_0_38312_010?
-int Field_9_1_0_38312_011?
-int Field_9_1_0_38312_012?
-int Field_9_1_0_38312_013?
-int Field_9_1_0_38312_014?
-float Field_9_1_0_38312_015?
-float Field_9_1_0_38312_016?
-float Field_9_1_0_38312_017?
-float Field_9_1_0_38312_018?
-float Field_9_1_0_38312_019?
-float Field_9_1_0_38312_020?
-float Field_9_1_0_38312_021?
-float Field_9_1_0_38312_022?
-float Field_9_1_0_38312_023?
-int Field_9_1_0_38312_024?
-int Field_9_1_0_38312_025?
-float Field_9_1_0_38312_026?
-float Field_9_1_0_38312_027?
-float Field_9_1_0_38312_028?
-int Field_9_1_0_38312_029?
-int Field_9_1_0_38312_030?
-int Field_9_1_0_38312_031?
-int Field_9_1_0_38312_032?
-int Field_9_1_0_38312_033?
-int Field_9_1_0_38312_034?
-int Field_9_1_0_38312_035?
-int Field_9_1_0_38312_036?
-int Field_9_1_0_38312_037?
-int Field_9_1_0_38312_038?
-int Field_9_1_0_38312_039?
-int Field_9_1_0_38312_040?
-int Field_9_1_0_38312_041?
-float Field_9_1_0_38312_042?
-int Field_9_1_0_38312_043?
-float Field_9_1_0_38312_044?
-float Field_9_1_0_38312_045?
-float Field_9_1_0_38312_046?
-int Field_9_1_0_38312_047?
-int Field_9_1_0_38312_048?
-float Field_9_1_0_38312_049?
-float Field_9_1_0_38312_050?
-float Field_9_1_0_38312_051?
-float Field_9_1_0_38312_052?
-float Field_9_1_0_38312_053?
-float Field_9_1_0_38312_054?
 float Field_9_1_0_38312_055?
 float Field_9_1_0_38312_056?
 
@@ -605,60 +550,60 @@ Field_8_3_0_32044_054
 
 LAYOUT 6F002464
 BUILD 9.1.0.38312
-$id$Field_9_1_0_38312_000<32>
-Field_9_1_0_38312_001<u32>
-Field_9_1_0_38312_002
-Field_9_1_0_38312_003
-Field_9_1_0_38312_004<u32>
-Field_9_1_0_38312_005<u32>
-Field_9_1_0_38312_006<u32>
-Field_9_1_0_38312_007<u32>
-Field_9_1_0_38312_008<32>
-Field_9_1_0_38312_009<8>
-Field_9_1_0_38312_010<u32>
-Field_9_1_0_38312_011<u32>
-Field_9_1_0_38312_012<u32>
-Field_9_1_0_38312_013<u32>
-Field_9_1_0_38312_014<u8>
-Field_9_1_0_38312_015
-Field_9_1_0_38312_016
-Field_9_1_0_38312_017
-Field_9_1_0_38312_018
-Field_9_1_0_38312_019
-Field_9_1_0_38312_020
-Field_9_1_0_38312_021
-Field_9_1_0_38312_022
-Field_9_1_0_38312_023
-Field_9_1_0_38312_024<u32>
-Field_9_1_0_38312_025<u32>
-Field_9_1_0_38312_026
-Field_9_1_0_38312_027
-Field_9_1_0_38312_028
-Field_9_1_0_38312_029<u8>
-Field_9_1_0_38312_030<u16>
-Field_9_1_0_38312_031<32>
-Field_9_1_0_38312_032<u32>
-Field_9_1_0_38312_033<u32>
-Field_9_1_0_38312_034<u8>
-Field_9_1_0_38312_035<u8>
-Field_9_1_0_38312_036<32>
-Field_9_1_0_38312_037<32>
-Field_9_1_0_38312_038<u32>
-Field_9_1_0_38312_039<32>
-Field_9_1_0_38312_040<32>
-Field_9_1_0_38312_041<u32>
-Field_9_1_0_38312_042
-Field_9_1_0_38312_043<32>
-Field_9_1_0_38312_044
-Field_9_1_0_38312_045
-Field_9_1_0_38312_046
-Field_9_1_0_38312_047<32>
-Field_9_1_0_38312_048<32>
-Field_9_1_0_38312_049
-Field_9_1_0_38312_050
-Field_9_1_0_38312_051
-Field_9_1_0_38312_052
-Field_9_1_0_38312_053
-Field_9_1_0_38312_054
+$id$ID<32>
+SoundKitID<u32>
+InnerRadius2D
+OuterRadius2D
+TimeA<u32>
+TimeB<u32>
+TimeC<u32>
+TimeD<u32>
+RandomOffsetRange<32>
+Usage<8>
+TimeIntervalMin<u32>
+TimeIntervalMax<u32>
+DelayMin<u32>
+DelayMax<u32>
+VolumeSliderCategory<u8>
+DuckToSFX
+DuckToMusic
+DuckToAmbience
+DuckToDialog
+DuckToSuppressors
+DuckToCinematicSFX
+DuckToCinematicMusic
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<u32>
+TimeToUnduck<u32>
+InsideAngle
+OutsideAngle
+OutsideVolume
+MinRandomPosOffset<u8>
+MaxRandomPosOffset<u16>
+MsOffset<32>
+TimeCooldownMin<u32>
+TimeCooldownMax<u32>
+MaxInstancesBehavior<u8>
+VolumeControlType<u8>
+VolumeFadeInTimeMin<32>
+VolumeFadeInTimeMax<32>
+VolumeFadeInCurveID<u32>
+VolumeFadeOutTimeMin<32>
+VolumeFadeOutTimeMax<32>
+VolumeFadeOutCurveID<u32>
+ChanceToPlay
+RolloffType<32>
+RolloffParam0
+Field_8_2_0_30080_045
+Field_8_2_0_30080_046
+Field_8_2_0_30080_047<32>
+Field_8_2_0_30080_048<32>
+Field_8_3_0_32044_049
+Field_8_3_0_32044_050
+Field_8_3_0_32044_051
+Field_8_3_0_32044_052
+Field_8_3_0_32044_053
+Field_8_3_0_32044_054
 Field_9_1_0_38312_055
 Field_9_1_0_38312_056

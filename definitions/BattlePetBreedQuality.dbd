@@ -2,8 +2,6 @@ COLUMNS
 float StateMultiplier
 int ID
 int QualityEnum
-float Field_9_1_0_38312_000?
-int Field_9_1_0_38312_001?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -41,5 +39,5 @@ QualityEnum<u8>
 LAYOUT 36ACF8C7
 BUILD 9.1.0.38312
 $noninline,id$ID<32>
-Field_9_1_0_38312_000
-Field_9_1_0_38312_001<8>
+StateMultiplier
+QualityEnum<8>

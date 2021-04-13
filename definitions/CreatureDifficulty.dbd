@@ -10,14 +10,6 @@ int<ContentTuning::ID> ContentTuningID
 int Field_9_0_1_35522_003Min? // Level randomness?
 int Field_9_0_1_35522_003Max?
 int<Difficulty::ID> DifficultyID
-int Field_9_1_0_38312_000?
-int Field_9_1_0_38312_001?
-int Field_9_1_0_38312_002?
-int Field_9_1_0_38312_003?
-int Field_9_1_0_38312_004?
-int Field_9_1_0_38312_005?
-int Field_9_1_0_38312_006?
-int Field_9_1_0_38312_007?
 
 BUILD 5.0.1.15589-5.3.0.17116
 $id$ID<32>
@@ -125,11 +117,11 @@ $noninline,relation$CreatureID<32>
 LAYOUT 201DC6D8
 BUILD 9.1.0.38312
 $noninline,id$ID<32>
-Field_9_1_0_38312_000<8>
-Field_9_1_0_38312_001<8>
-Field_9_1_0_38312_002<32>
-Field_9_1_0_38312_003<32>
-Field_9_1_0_38312_004<u16>
-Field_9_1_0_38312_005<32>
-Field_9_1_0_38312_006<32>[8]
-$noninline,relation$Field_9_1_0_38312_007<32>
+MinLevel<8>
+MaxLevel<8>
+Field_9_0_1_35522_003Min<32>
+Field_9_0_1_35522_003Max<32>
+FactionID<u16>
+ContentTuningID<32>
+Flags<32>[8]
+$noninline,relation$CreatureID<32>

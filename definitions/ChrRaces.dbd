@@ -78,58 +78,8 @@ float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1
 int<ChrRaces::ID> HelmetAnimScalingRaceID?
 int Field_2_5_1_38043_019?
 int Field_2_5_1_38043_020?
-string Field_9_1_0_38312_000?
-string Field_9_1_0_38312_001?
-locstring Field_9_1_0_38312_002_lang?
-locstring Field_9_1_0_38312_003_lang?
-locstring Field_9_1_0_38312_004_lang?
-locstring Field_9_1_0_38312_005_lang?
-locstring Field_9_1_0_38312_006_lang?
-locstring Field_9_1_0_38312_007_lang?
-locstring Field_9_1_0_38312_008_lang?
-locstring Field_9_1_0_38312_009_lang?
-locstring Field_9_1_0_38312_010_lang?
-locstring Field_9_1_0_38312_011_lang?
-locstring Field_9_1_0_38312_012_lang?
-locstring Field_9_1_0_38312_013_lang?
-locstring Field_9_1_0_38312_014_lang?
-int Field_9_1_0_38312_015?
-int Field_9_1_0_38312_016?
-int Field_9_1_0_38312_017?
-int Field_9_1_0_38312_018?
-int Field_9_1_0_38312_019?
-int Field_9_1_0_38312_020?
-int Field_9_1_0_38312_021?
-int Field_9_1_0_38312_022?
-int Field_9_1_0_38312_023?
-int Field_9_1_0_38312_024?
-int Field_9_1_0_38312_025?
-int Field_9_1_0_38312_026?
-int Field_9_1_0_38312_027?
-float Field_9_1_0_38312_028?
-float Field_9_1_0_38312_029?
 float Field_9_1_0_38312_030?
 float Field_9_1_0_38312_031?
-int Field_9_1_0_38312_032?
-int Field_9_1_0_38312_033?
-int Field_9_1_0_38312_034?
-int Field_9_1_0_38312_035?
-int Field_9_1_0_38312_036?
-int Field_9_1_0_38312_037?
-int Field_9_1_0_38312_038?
-int Field_9_1_0_38312_039?
-int Field_9_1_0_38312_040?
-int Field_9_1_0_38312_041?
-int Field_9_1_0_38312_042?
-int Field_9_1_0_38312_043?
-int Field_9_1_0_38312_044?
-int Field_9_1_0_38312_045?
-int Field_9_1_0_38312_046?
-int Field_9_1_0_38312_047?
-int Field_9_1_0_38312_048?
-int Field_9_1_0_38312_049?
-int Field_9_1_0_38312_050?
-int Field_9_1_0_38312_051?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -1329,55 +1279,55 @@ UnalteredVisualCustomizationRaceID<8>
 
 LAYOUT C0605CB2
 BUILD 9.1.0.38312
-Field_9_1_0_38312_000
-Field_9_1_0_38312_001
-Field_9_1_0_38312_002_lang
-Field_9_1_0_38312_003_lang
-Field_9_1_0_38312_004_lang
-Field_9_1_0_38312_005_lang
-Field_9_1_0_38312_006_lang
-Field_9_1_0_38312_007_lang
-Field_9_1_0_38312_008_lang
-Field_9_1_0_38312_009_lang
-Field_9_1_0_38312_010_lang
-Field_9_1_0_38312_011_lang
-Field_9_1_0_38312_012_lang
-Field_9_1_0_38312_013_lang
-Field_9_1_0_38312_014_lang
-$id$Field_9_1_0_38312_015<32>
-Field_9_1_0_38312_016<32>
-Field_9_1_0_38312_017<32>
-Field_9_1_0_38312_018<32>
-Field_9_1_0_38312_019<32>
-Field_9_1_0_38312_020<u32>[3]
-Field_9_1_0_38312_021<u32>[3]
-Field_9_1_0_38312_022<32>
-Field_9_1_0_38312_023<32>
-Field_9_1_0_38312_024<32>
-Field_9_1_0_38312_025<32>
-Field_9_1_0_38312_026<32>
-Field_9_1_0_38312_027<32>
-Field_9_1_0_38312_028[3]
-Field_9_1_0_38312_029
+ClientPrefix
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Name_RS_lang
+Name_RS_female_lang
+Name_RS_lowercase_lang
+Name_RS_female_lowercase_lang
+RaceFantasyDescription_lang
+Name_RL_lang
+Name_RL_female_lang
+Name_RL_lowercase_lang
+Name_RL_female_lowercase_lang
+$id$ID<32>
+Flags<32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+LowResScreenFileDataID<32>
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
+HeritageArmorAchievementID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+PlayableRaceBit<32>
+HelmetAnimScalingRaceID<32>
+TransmogrifyDisabledSlotMask<32>
+AlteredFormCustomizeOffsetFallback[3]
+AlteredFormCustomizeRotationFallback
 Field_9_1_0_38312_030[3]
 Field_9_1_0_38312_031[3]
-Field_9_1_0_38312_032<16>
-Field_9_1_0_38312_033<16>
-Field_9_1_0_38312_034<16>
-Field_9_1_0_38312_035<16>
-Field_9_1_0_38312_036<8>
-Field_9_1_0_38312_037<8>
-Field_9_1_0_38312_038<8>
-Field_9_1_0_38312_039<8>
-Field_9_1_0_38312_040<8>
-Field_9_1_0_38312_041<8>
-Field_9_1_0_38312_042<8>
-Field_9_1_0_38312_043<8>
-Field_9_1_0_38312_044<8>
-Field_9_1_0_38312_045<8>
-Field_9_1_0_38312_046<8>
-Field_9_1_0_38312_047<8>
-Field_9_1_0_38312_048<8>
-Field_9_1_0_38312_049<8>
-Field_9_1_0_38312_050<8>
-Field_9_1_0_38312_051<8>
+FactionID<16>
+CinematicSequenceID<16>
+ResSicknessSpellID<16>
+SplashSoundID<16>
+BaseLanguage<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
+UnalteredVisualCustomizationRaceID<8>
