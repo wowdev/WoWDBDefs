@@ -4,14 +4,11 @@ int ID
 int<ChrCustomizationOption::ID> ChrCustomizationOptionID?
 int<ChrCustomizationReq::ID> ChrCustomizationReqID?
 int OrderIndex? // per ChrCustomizationOptionID - used to sort internal structures
+int UiOrderIndex? // returned in lua
 int Flags?
 int SwatchColor1?
-int UiOrderIndex? // returned in lua
 int SwatchColor2?
-int Field_2_5_1_38043_004? // OrderIndex or UiOrderIndex
-int Field_2_5_1_38043_005? // OrderIndex or UiOrderIndex
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
+int SwatchColor?
 
 LAYOUT 9DC934CE
 BUILD 9.0.1.34081, 9.0.1.34098
@@ -73,7 +70,7 @@ Name_lang
 $id$ID<32>
 $relation$ChrCustomizationOptionID<32>
 ChrCustomizationReqID<32>
-Field_2_5_1_38043_004<u16>
-Field_2_5_1_38043_005<u16>
-Field_2_5_1_38043_006<32>
-Field_2_5_1_38043_007<32>[2]
+OrderIndex<u16>
+UiOrderIndex<u16>
+Flags<32>
+SwatchColor<32>[2]
