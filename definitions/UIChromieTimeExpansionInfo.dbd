@@ -9,7 +9,6 @@ int<PlayerCondition::ID> AlreadyOn
 int ExpansionLevelMask? // The way ModifierTree references these, type 301.
 int<ContentTuning::ID> ContentTuningID
 int<PlayerCondition::ID> Completed
-locstring Field_9_1_0_38312_001_lang?
 locstring Field_9_1_0_38312_002_lang?
 locstring Field_9_1_0_38312_003_lang?
 
@@ -64,7 +63,7 @@ Completed<32>
 LAYOUT 985C54D4
 BUILD 9.1.0.38312
 Name_lang
-Field_9_1_0_38312_001_lang
+Description_lang
 Field_9_1_0_38312_002_lang
 Field_9_1_0_38312_003_lang
 $id$ID<32>

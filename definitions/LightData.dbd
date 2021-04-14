@@ -44,7 +44,6 @@ float Field_9_1_0_38312_027?
 float Field_9_1_0_38312_028?
 float Field_9_1_0_38312_037?
 int Field_9_1_0_38312_041?
-float Field_9_1_0_38312_043?
 float Field_9_1_0_38312_044?
 
 LAYOUT 9E95F375
@@ -524,5 +523,5 @@ SunFogStrength
 FogHeightColor<u32>
 Field_9_1_0_38312_041<u32>
 FogHeightCoefficients[4]
-Field_9_1_0_38312_043[4]
+MainFogCoefficients[4]
 Field_9_1_0_38312_044[4]

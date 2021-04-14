@@ -16,16 +16,16 @@ float OffsetX
 float OffsetY
 float OffsetZ
 float AnimationSpeed
-int Field_9_1_0_38312_017?
-int Field_9_1_0_38312_018?
-int Field_9_1_0_38312_019?
-int Field_9_1_0_38312_020?
-int Field_9_1_0_38312_021?
-int Field_9_1_0_38312_022?
-int Field_9_1_0_38312_023?
-int Field_9_1_0_38312_024?
-int Field_9_1_0_38312_025?
-int Field_9_1_0_38312_026?
+int<AnimationData::ID> Animation?
+int AnimationStartOffset?
+int Alpha?
+int StartAlphaFade?
+int StartAlphaFadeDuration?
+int EndAlphaFade?
+int EndAlphaFadeDuration?
+int<SoundKit::ID> LoopingSoundKitID
+int ParticleOverrideScale?
+int Flags? // ScriptedAnimationFlags | &0x1: UseTargetAsSource
 
 LAYOUT EA6DD175
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
@@ -81,13 +81,13 @@ OffsetX
 OffsetY
 OffsetZ
 AnimationSpeed
-Field_9_1_0_38312_017<32>
-Field_9_1_0_38312_018<32>
-Field_9_1_0_38312_019<32>
-Field_9_1_0_38312_020<32>
-Field_9_1_0_38312_021<32>
-Field_9_1_0_38312_022<32>
-Field_9_1_0_38312_023<32>
-Field_9_1_0_38312_024<32>
-Field_9_1_0_38312_025<32>
-Field_9_1_0_38312_026<32>
+Animation<32>
+AnimationStartOffset<32>
+Alpha<32>
+StartAlphaFade<32>
+StartAlphaFadeDuration<32>
+EndAlphaFade<32>
+EndAlphaFadeDuration<32>
+LoopingSoundKitID<32>
+ParticleOverrideScale<32>
+Flags<32>

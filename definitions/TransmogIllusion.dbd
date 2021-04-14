@@ -3,7 +3,7 @@ int ID
 int<PlayerCondition::ID> UnlockConditionID
 int TransmogCost
 int<SpellItemEnchantment::ID> SpellItemEnchantmentID
-int Flags? // 1: ProbablyHideIfNotAcquired
+int Flags // TransmogIllisionFlags (sic) | HideUntilCollected: 1; PlayerConditionGrantsOnLogin: 2
 
 LAYOUT E579B752
 BUILD 9.1.0.38312

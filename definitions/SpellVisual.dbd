@@ -72,8 +72,6 @@ int Field_5_4_0_17266_022?
 int Field_5_4_0_17266_023?
 int Field_5_4_0_17266_024?
 int<SpellVisual::ID> ReducedUnexpectedCameraMovementSpellVisualID?
-int Field_9_1_0_38312_014?
-int Field_9_1_0_38312_015?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -635,5 +633,5 @@ CasterSpellVisualID<u32>
 SpellVisualMissileSetID<u16>
 DamageNumberDelay<u16>
 LowViolenceSpellVisualID<u32>
-Field_9_1_0_38312_014<u32>
-Field_9_1_0_38312_015<32>
+RaidSpellVisualMissileSetID<u32>
+ReducedUnexpectedCameraMovementSpellVisualID<32>

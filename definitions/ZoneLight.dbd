@@ -7,7 +7,7 @@ int Flags
 float Zmin
 float Zmax
 int Field_9_0_1_33978_006?
-int Field_9_1_0_38312_007?
+int<PlayerCondition::ID> PlayerConditionID
 
 LAYOUT 337901C8
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339
@@ -88,4 +88,4 @@ Flags<u8>
 Zmin
 Zmax
 Field_9_0_1_33978_006<u16>
-Field_9_1_0_38312_007<32>
+PlayerConditionID<32>
