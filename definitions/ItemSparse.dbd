@@ -81,7 +81,6 @@ int Field_2_5_1_38043_022?
 int Field_2_5_1_38043_024?
 int Field_2_5_1_38043_025?
 int Field_2_5_1_38043_026?
-int Field_2_5_1_38043_029?
 int Field_2_5_1_38043_043?
 int Field_2_5_1_38043_048?
 int Field_2_5_1_38043_050?
@@ -276,7 +275,7 @@ Field_2_5_1_38043_025<u16>
 Field_2_5_1_38043_026<u16>
 LimitCategory<u16>
 Gem_properties<u16>
-Field_2_5_1_38043_029<u16>
+Socket_match_enchantment_ID<u16>
 TotemCategoryID<u16>
 InstanceBound<u16>
 ZoneBound<u16>[2]
