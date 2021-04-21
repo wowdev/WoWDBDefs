@@ -13,6 +13,21 @@ int EventAsset? // EventType == PlayerAuraAdded: Spell::ID; == PlayerAuraRemoved
 int Field_9_1_0_38312_011? // 0
 int<FileData::ID> IconFileID?
 int<UiWidgetSet::ID> UiWidgetSetID
+locstring Field_9_1_0_38394_000_lang?
+locstring Field_9_1_0_38394_001_lang?
+locstring Field_9_1_0_38394_002_lang?
+locstring Field_9_1_0_38394_003_lang?
+int Field_9_1_0_38394_004?
+int Field_9_1_0_38394_005?
+int Field_9_1_0_38394_006?
+int Field_9_1_0_38394_007?
+int Field_9_1_0_38394_008?
+int Field_9_1_0_38394_009?
+int Field_9_1_0_38394_010?
+int Field_9_1_0_38394_011?
+int Field_9_1_0_38394_012?
+int Field_9_1_0_38394_013?
+int Field_9_1_0_38394_014?
 
 LAYOUT 4414294A
 BUILD 9.1.0.38312
@@ -30,3 +45,21 @@ EventAsset<32>
 Field_9_1_0_38312_011<32>
 IconFileID<32>
 UiWidgetSetID<32>
+
+LAYOUT 8A41756F
+BUILD 9.1.0.38394
+Field_9_1_0_38394_000_lang
+Field_9_1_0_38394_001_lang
+Field_9_1_0_38394_002_lang
+Field_9_1_0_38394_003_lang
+$id$Field_9_1_0_38394_004<32>
+Field_9_1_0_38394_005<32>
+Field_9_1_0_38394_006<32>
+Field_9_1_0_38394_007<32>
+Field_9_1_0_38394_008<32>
+Field_9_1_0_38394_009<32>
+Field_9_1_0_38394_010<32>
+Field_9_1_0_38394_011<32>
+Field_9_1_0_38394_012<32>
+Field_9_1_0_38394_013<32>
+Field_9_1_0_38394_014<32>
