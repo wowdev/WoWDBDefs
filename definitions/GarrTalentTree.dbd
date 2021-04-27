@@ -11,7 +11,7 @@ int GarrTalentTreeType // 0: Tiers, 1: Classic
 int<PlayerCondition::ID> PlayerConditionID?
 int FeatureTypeIndex // 0: Generic, 1: AnimaDiversion, 2: TravelPortals, 3: Adventures, 4: ReservoirUpgrades, 5: SanctumUnique, 6: SoulBinds, 7: AnimaDiversionMap
 int FeatureSubtypeIndex // 0: Generic, 1: Bastion, 2: Revendreth, 3: Maldraxxus, 4: Ardenweald
-int Field_9_1_0_38312_012?
+int<CurrencyTypes::ID> CurrencyID?
 
 LAYOUT C6C3E719
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453
@@ -132,4 +132,4 @@ GarrTalentTreeType<32>
 PlayerConditionID<32>
 FeatureTypeIndex<32>
 FeatureSubtypeIndex<32>
-Field_9_1_0_38312_012<32>
+CurrencyID<32>
