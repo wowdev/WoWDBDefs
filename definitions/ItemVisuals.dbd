@@ -2,6 +2,9 @@ COLUMNS
 int ID
 int Slot
 int<FileData::ID> ModelFileID
+int Field_9_1_0_38511_000?
+int Field_9_1_0_38511_001?
+int Field_9_1_0_38511_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -48,3 +51,10 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
 ModelFileID<32>[5]
+
+LAYOUT C4001121
+BUILD 9.1.0.38511
+$noninline,id$ID<32>
+Field_9_1_0_38511_000<32>
+Field_9_1_0_38511_001<32>
+Field_9_1_0_38511_002<32>[5]
