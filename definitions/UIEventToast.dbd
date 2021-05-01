@@ -8,12 +8,12 @@ int<PlayerCondition::ID> PlayerConditionID
 int Field_9_1_0_38312_006? // 12014, 12015
 int<UiTextureKit::ID> UiTextureKitID
 int EventType // EventToastEventType | LevelUp: 0; LevelUpSpell: 1; LevelUpDungeon: 2; LevelUpRaid: 3; LevelUpPvP: 4; PetBattleNewAbility: 5; PetBattleFinalRound: 6; PetBattleCapture: 7; BattlePetLevelChanged: 8; BattlePetLevelUpAbility: 9; QuestBossEmote: 10; MythicPlusWeeklyRecord: 11; QuestTurnedIn: 12; WorldStateChange: 13; Scenario: 14; LevelUpOther: 15; PlayerAuraAdded: 16; PlayerAuraRemoved: 17; SpellScript: 18
-int DisplayType // EventToastDisplayType | NormalSingleLine: 0; NormalBlockText: 1; NormalTitleAndSubTitle: 2; NormalTextWithIcon: 3; LargeTextWithIcon: 4; NormalTextWithIconAndRarity: 5; Scenario: 6; ChallengeMode: 7
+int DisplayType // EventToastDisplayType | NormalSingleLine: 0; NormalBlockText: 1; NormalTitleAndSubTitle: 2; NormalTextWithIcon: 3; LargeTextWithIcon: 4; NormalTextWithIconAndRarity: 5; Scenario: 6; ChallengeMode: 7; ScenarioClickExpand: 8
 int EventAsset? // EventType == PlayerAuraAdded: Spell::ID; == PlayerAuraRemoved: Spell::ID; == QuestTurnedIn: QuestV2::ID
 int Field_9_1_0_38312_011? // 0
 int<FileData::ID> IconFileID?
 int<UiWidgetSet::ID> UiWidgetSetID
-int<UiWidgetSet::ID> UiWidgetSetID2
+int<UiWidgetSet::ID> ExtraUiWidgetSetID
 
 LAYOUT 4414294A
 BUILD 9.1.0.38312
@@ -48,4 +48,4 @@ EventAsset<32>
 Field_9_1_0_38312_011<32>
 IconFileID<32>
 UiWidgetSetID<32>
-UiWidgetSetID2<32>
+ExtraUiWidgetSetID<32>
