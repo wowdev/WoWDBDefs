@@ -1,18 +1,18 @@
 COLUMNS
-int ID?
-int Field_9_1_0_38511_001?
-int Field_9_1_0_38511_002?
-int Field_9_1_0_38511_003?
-int Field_9_1_0_38511_004?
-int Field_9_1_0_38511_005?
-int Field_9_1_0_38511_006?
+int ID
+int ScoreColor
+int DungeonScoreMin
+int DungeonScoreMax
+int OrderIndex
+int KeystoneLevelMin
+int KeystoneLevelMax
 
 LAYOUT 81230D93
 BUILD 9.1.0.38511, 9.1.0.38524
 $id$ID<32>
-Field_9_1_0_38511_001<32>
-Field_9_1_0_38511_002<32>
-Field_9_1_0_38511_003<32>
-Field_9_1_0_38511_004<32>
-Field_9_1_0_38511_005<32>
-Field_9_1_0_38511_006<32>
+scoreColor<32>
+DungeonScoreMin<32>
+DungeonScoreMax<32>
+OrderIndex<32>
+KeystoneLevelMin<32>
+KeystoneLevelMax<32>
