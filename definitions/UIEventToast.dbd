@@ -14,6 +14,21 @@ int Field_9_1_0_38312_011? // 0
 int<FileData::ID> IconFileID?
 int<UiWidgetSet::ID> UiWidgetSetID
 int<UiWidgetSet::ID> ExtraUiWidgetSetID
+int ID
+locstring Field_9_1_0_38549_000_lang?
+locstring Field_9_1_0_38549_001_lang?
+locstring Field_9_1_0_38549_002_lang?
+locstring Field_9_1_0_38549_003_lang?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
+int Field_9_1_0_38549_007?
+int Field_9_1_0_38549_008?
+int Field_9_1_0_38549_009?
+int Field_9_1_0_38549_010?
+int Field_9_1_0_38549_011?
+int Field_9_1_0_38549_012?
+int Field_9_1_0_38549_013?
 
 LAYOUT 4414294A
 BUILD 9.1.0.38312
@@ -49,3 +64,21 @@ Field_9_1_0_38312_011<32>
 IconFileID<32>
 UiWidgetSetID<32>
 ExtraUiWidgetSetID<32>
+
+LAYOUT 2803ECA2
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000_lang
+Field_9_1_0_38549_001_lang
+Field_9_1_0_38549_002_lang
+Field_9_1_0_38549_003_lang
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+Field_9_1_0_38549_006<32>
+Field_9_1_0_38549_007<32>
+Field_9_1_0_38549_008<32>
+Field_9_1_0_38549_009<32>
+Field_9_1_0_38549_010<32>
+Field_9_1_0_38549_011<32>
+Field_9_1_0_38549_012<32>
+Field_9_1_0_38549_013<32>

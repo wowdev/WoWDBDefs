@@ -8,6 +8,14 @@ float UiAnimScale
 int<UiTextureKit::ID> UiTextureKitID
 int Flags
 int<GarrAutoCombatant::ID> AutoCombatantID
+locstring Field_9_1_0_38549_000_lang?
+int Field_9_1_0_38549_001?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+float Field_9_1_0_38549_004?
+float Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
+int Field_9_1_0_38549_007?
 
 LAYOUT DE33F3ED
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548
@@ -106,3 +114,15 @@ UiAnimScale
 UiAnimHeight
 Flags<32>
 AutoCombatantID<32>
+
+LAYOUT 8F348804
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000_lang
+Field_9_1_0_38549_001<32>
+Field_9_1_0_38549_002<32>
+Field_9_1_0_38549_003<u32>
+Field_9_1_0_38549_004
+Field_9_1_0_38549_005
+Field_9_1_0_38549_006<32>
+Field_9_1_0_38549_007<32>

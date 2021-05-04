@@ -26,6 +26,32 @@ int EndAlphaFadeDuration?
 int<SoundKit::ID> LoopingSoundKitID
 int ParticleOverrideScale?
 int Flags? // ScriptedAnimationFlags | &0x1: UseTargetAsSource
+int Field_9_1_0_38549_000?
+int Field_9_1_0_38549_001?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
+int Field_9_1_0_38549_007?
+int Field_9_1_0_38549_008?
+float Field_9_1_0_38549_009?
+float Field_9_1_0_38549_010?
+float Field_9_1_0_38549_011?
+float Field_9_1_0_38549_012?
+float Field_9_1_0_38549_013?
+float Field_9_1_0_38549_014?
+float Field_9_1_0_38549_015?
+int Field_9_1_0_38549_016?
+int Field_9_1_0_38549_017?
+int Field_9_1_0_38549_018?
+int Field_9_1_0_38549_019?
+int Field_9_1_0_38549_020?
+int Field_9_1_0_38549_021?
+int Field_9_1_0_38549_022?
+int Field_9_1_0_38549_023?
+int Field_9_1_0_38549_024?
+int Field_9_1_0_38549_025?
 
 LAYOUT EA6DD175
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
@@ -92,3 +118,33 @@ EndAlphaFadeDuration<32>
 LoopingSoundKitID<32>
 ParticleOverrideScale<32>
 Flags<32>
+
+LAYOUT FDE3E098
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000<32>
+Field_9_1_0_38549_001<32>
+Field_9_1_0_38549_002<32>
+Field_9_1_0_38549_003<32>
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+Field_9_1_0_38549_006<32>
+Field_9_1_0_38549_007<32>
+Field_9_1_0_38549_008<32>
+Field_9_1_0_38549_009
+Field_9_1_0_38549_010
+Field_9_1_0_38549_011
+Field_9_1_0_38549_012
+Field_9_1_0_38549_013
+Field_9_1_0_38549_014
+Field_9_1_0_38549_015
+Field_9_1_0_38549_016<32>
+Field_9_1_0_38549_017<32>
+Field_9_1_0_38549_018<32>
+Field_9_1_0_38549_019<32>
+Field_9_1_0_38549_020<32>
+Field_9_1_0_38549_021<32>
+Field_9_1_0_38549_022<32>
+Field_9_1_0_38549_023<32>
+Field_9_1_0_38549_024<32>
+Field_9_1_0_38549_025<32>

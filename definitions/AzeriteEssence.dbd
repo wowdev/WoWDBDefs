@@ -3,6 +3,9 @@ locstring Name_lang?
 locstring Description_lang?
 int ID
 int<SpecSetMember::SpecSet> SpecSetID?
+locstring Field_9_1_0_38549_000_lang?
+locstring Field_9_1_0_38549_001_lang?
+int Field_9_1_0_38549_002?
 
 LAYOUT 3239408B, F67EFD79
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -17,3 +20,10 @@ Name_lang
 Description_lang
 $id$ID<32>
 SpecSetID<32>
+
+LAYOUT EE17576C
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000_lang
+Field_9_1_0_38549_001_lang
+Field_9_1_0_38549_002<32>

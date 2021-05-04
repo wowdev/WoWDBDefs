@@ -8,6 +8,15 @@ int MaxRating // If above, go to NextTier
 int<PVPBracketTypes::BracketID> BracketID // 0: 2v2, 1: 3v3, 2: 5v5, 3: RatedBG
 int Rank
 int<FileData::ID> RankIcon
+locstring Field_9_1_0_38549_000_lang?
+int Field_9_1_0_38549_001?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
+int Field_9_1_0_38549_007?
+int Field_9_1_0_38549_008?
 
 LAYOUT 070D6F9D
 BUILD 8.0.1.26522, 8.0.1.26530, 8.0.1.26557
@@ -84,3 +93,15 @@ NextTier<32>
 $relation$BracketID<8>
 Rank<8>
 RankIcon<32>
+
+LAYOUT 242D9DC6
+BUILD 9.1.0.38549
+Field_9_1_0_38549_000_lang
+$id$Field_9_1_0_38549_001<32>
+Field_9_1_0_38549_002<16>
+Field_9_1_0_38549_003<16>
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+$relation$Field_9_1_0_38549_006<8>
+Field_9_1_0_38549_007<8>
+Field_9_1_0_38549_008<32>

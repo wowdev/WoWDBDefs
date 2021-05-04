@@ -5,6 +5,12 @@ int<Item::ID> ItemID
 int DifficultyMask
 int FactionMask
 int Flags
+int Field_9_1_0_38549_000?
+int Field_9_1_0_38549_001?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
 
 BUILD 5.0.1.15464-5.3.0.17116
 BUILD 4.2.0.14333-4.3.4.15595
@@ -70,3 +76,12 @@ ItemID<u32>
 FactionMask<8>
 Flags<u8>
 DifficultyMask<8>
+
+LAYOUT D9CA2B4E
+BUILD 9.1.0.38549
+$id$Field_9_1_0_38549_000<32>
+$relation$Field_9_1_0_38549_001<u16>
+Field_9_1_0_38549_002<u32>
+Field_9_1_0_38549_003<8>
+Field_9_1_0_38549_004<u8>
+Field_9_1_0_38549_005<8>

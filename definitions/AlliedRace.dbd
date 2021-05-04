@@ -8,6 +8,14 @@ int<UiTextureAtlasMember::ID> ModelBackgroundTextureID
 int<ChrRaces::ID> RaceID
 int<Achievement::ID> Ui_unlockAchievementID
 int<Achievement::ID> Ui_unlockSecondaryAchievementID?
+int Field_9_1_0_38549_000?
+int Field_9_1_0_38549_001?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
+int Field_9_1_0_38549_007?
 
 LAYOUT B13ABE04, 15783ACC
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -71,3 +79,15 @@ MaleCreatureDisplayID<32>
 FemaleCreatureDisplayID<32>
 Ui_unlockAchievementID<32>
 Ui_unlockSecondaryAchievementID<32>
+
+LAYOUT A1956399
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000<32>
+Field_9_1_0_38549_001<32>
+Field_9_1_0_38549_002<32>
+Field_9_1_0_38549_003<32>
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+Field_9_1_0_38549_006<32>
+Field_9_1_0_38549_007<32>

@@ -1,6 +1,7 @@
 COLUMNS
 int<Item::ID> ID
 int<Holidays::ID> RequiredTransmogHoliday
+int Field_9_1_0_38549_000?
 
 LAYOUT B420EB18, 6FC325A0, CDFBE4A2
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -27,3 +28,8 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 BUILD 1.13.0.28211
 $id$ID<32>
 RequiredTransmogHoliday<32>
+
+LAYOUT 23739B0B
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000<32>

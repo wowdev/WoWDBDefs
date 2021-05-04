@@ -9,6 +9,17 @@ int<PlayerCondition::ID> PlayerConditionID
 int Field_9_0_1_34972_007?
 int<Item::ID> UnlockItemID
 int<Covenant::ID> CovenantID
+locstring Field_9_1_0_38549_000_lang?
+int Field_9_1_0_38549_001?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
+int Field_9_1_0_38549_007?
+int Field_9_1_0_38549_008?
+int Field_9_1_0_38549_009?
+int Field_9_1_0_38549_010?
 
 LAYOUT 368D0C5F
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821
@@ -66,3 +77,17 @@ PlayerConditionID<32>
 Field_9_0_1_34972_007<32>
 UnlockItemID<32>
 CovenantID<32>
+
+LAYOUT 590C5444
+BUILD 9.1.0.38549
+Field_9_1_0_38549_000_lang
+$id$Field_9_1_0_38549_001<32>
+Field_9_1_0_38549_002<32>
+Field_9_1_0_38549_003<32>
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+Field_9_1_0_38549_006<32>
+Field_9_1_0_38549_007<32>
+Field_9_1_0_38549_008<32>
+Field_9_1_0_38549_009<32>
+Field_9_1_0_38549_010<32>

@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<PlayerCondition::ID> PlayerConditionID
 int Field_9_0_5_37503_002?
+int Field_9_1_0_38549_000?
+int Field_9_1_0_38549_001?
 
 LAYOUT C1AB1620
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -9,3 +11,9 @@ BUILD 9.0.5.37503, 9.0.5.37623, 9.0.5.37705, 9.0.5.37774, 9.0.5.37844, 9.0.5.378
 $id$ID<32>
 PlayerConditionID<32>
 Field_9_0_5_37503_002<32>
+
+LAYOUT 9E5A38AF
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000<32>
+Field_9_1_0_38549_001<32>

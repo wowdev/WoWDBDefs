@@ -3,6 +3,9 @@ int ID
 locstring Description_lang
 int<FileData::ID> FiledataID
 locstring Name_lang
+locstring Field_9_1_0_38549_000_lang?
+locstring Field_9_1_0_38549_001_lang?
+int Field_9_1_0_38549_002?
 
 LAYOUT 1BCB46AA, 50306D85
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491
@@ -38,3 +41,10 @@ Name_lang
 Description_lang
 $id$ID<32>
 FiledataID<32>
+
+LAYOUT F5F1EB34
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000_lang
+Field_9_1_0_38549_001_lang
+Field_9_1_0_38549_002<32>

@@ -7,6 +7,13 @@ int<SkillLine::ID> SkillLineID
 int<Spell::ID> DeathTeleportSpellID
 int<Spell::ID> Field_9_0_2_36165_006?
 int<Spell::ID> Field_9_0_2_36165_007?
+locstring Field_9_1_0_38549_000_lang?
+locstring Field_9_1_0_38549_001_lang?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
 
 LAYOUT 0CA77A5C
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
@@ -51,3 +58,14 @@ SkillLineID<32>
 DeathTeleportSpellID<32>
 Field_9_0_2_36165_006<32>
 Field_9_0_2_36165_007<32>
+
+LAYOUT A8A87274
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000_lang
+Field_9_1_0_38549_001_lang
+Field_9_1_0_38549_002<32>
+Field_9_1_0_38549_003<32>
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+Field_9_1_0_38549_006<32>

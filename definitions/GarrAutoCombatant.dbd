@@ -9,6 +9,15 @@ int<GarrAutoSpell::ID> AbilitySpellID
 int<GarrAutoSpell::ID> AbilitySpellID2
 int<GarrAutoSpell::ID> PassiveSpellID
 int Role // 0: None, 1: Melee, 2: RangedPhysical, 3: RangedMagic, 4: HealSupport, 5: Tank
+int Field_9_1_0_38549_000?
+int Field_9_1_0_38549_001?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
+int Field_9_1_0_38549_007?
+int Field_9_1_0_38549_008?
 
 LAYOUT BC77BB9B
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -25,3 +34,16 @@ AbilitySpellID<32>
 AbilitySpellID2<32>
 PassiveSpellID<32>
 Role<32>
+
+LAYOUT 9FDF8374
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000<32>
+Field_9_1_0_38549_001<32>
+Field_9_1_0_38549_002<32>
+Field_9_1_0_38549_003<32>
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+Field_9_1_0_38549_006<32>
+Field_9_1_0_38549_007<32>
+Field_9_1_0_38549_008<32>

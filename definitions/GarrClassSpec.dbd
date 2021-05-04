@@ -7,6 +7,13 @@ int Flags
 int FollowerClassLimit
 int<GarrFollItemSet::ID> GarrFollItemSetID
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
+locstring Field_9_1_0_38549_000_lang?
+locstring Field_9_1_0_38549_001_lang?
+locstring Field_9_1_0_38549_002_lang?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -56,3 +63,14 @@ UiTextureAtlasMemberID<u16>
 GarrFollItemSetID<u16>
 FollowerClassLimit<u8>
 Flags<u8>
+
+LAYOUT 43CB5203
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000_lang
+Field_9_1_0_38549_001_lang
+Field_9_1_0_38549_002_lang
+Field_9_1_0_38549_003<u16>
+Field_9_1_0_38549_004<u16>
+Field_9_1_0_38549_005<u8>
+Field_9_1_0_38549_006<u8>

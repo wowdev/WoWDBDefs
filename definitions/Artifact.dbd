@@ -10,6 +10,17 @@ int UiBarOverlayColor
 int<UiModelScene::ID> UiModelSceneID
 int UiNameColor
 int<UiTextureKit::ID> UiTextureKitID
+locstring Field_9_1_0_38549_000_lang?
+int Field_9_1_0_38549_001?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
+int Field_9_1_0_38549_007?
+int Field_9_1_0_38549_008?
+int Field_9_1_0_38549_009?
+int Field_9_1_0_38549_010?
 
 LAYOUT 76CF31A8
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -87,3 +98,17 @@ Flags<u8>
 ArtifactCategoryID<u8>
 UiModelSceneID<u32>
 SpellVisualKitID<u32>
+
+LAYOUT 0419BFC6
+BUILD 9.1.0.38549
+Field_9_1_0_38549_000_lang
+$id$Field_9_1_0_38549_001<32>
+Field_9_1_0_38549_002<u16>
+Field_9_1_0_38549_003<32>
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+Field_9_1_0_38549_006<u16>
+Field_9_1_0_38549_007<u8>
+Field_9_1_0_38549_008<u8>
+Field_9_1_0_38549_009<u32>
+Field_9_1_0_38549_010<u32>

@@ -9,6 +9,14 @@ int<UiTextureKit::ID> TextureKitID
 int OrderIndex // per covenant
 int GlobalOrderIndex? // across covenants, might be cvarIndex
 int<SoundKit::ID> ActivationSoundKitID
+locstring Field_9_1_0_38549_000_lang?
+int Field_9_1_0_38549_001?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
+int Field_9_1_0_38549_007?
 
 LAYOUT C41BBE90
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
@@ -63,3 +71,15 @@ TextureKitID<32>
 OrderIndex<32>
 GlobalOrderIndex<32>
 ActivationSoundKitID<32>
+
+LAYOUT E343AB5B
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000_lang
+Field_9_1_0_38549_001<32>
+Field_9_1_0_38549_002<32>
+Field_9_1_0_38549_003<32>
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+Field_9_1_0_38549_006<32>
+Field_9_1_0_38549_007<32>

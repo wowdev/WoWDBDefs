@@ -8,6 +8,14 @@ int<Spell::ID> ReqSpellKnownID
 int<Spell::ID> ModSpellAuraID
 int<Map::ID> ReqMapID
 int<PlayerCondition::ID> PlayerConditionID
+int Field_9_1_0_38549_000?
+int Field_9_1_0_38549_001?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
+int Field_9_1_0_38549_007?
 
 LAYOUT 930D52E4
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548
@@ -103,3 +111,15 @@ ReqSpellKnownID<32>
 ModSpellAuraID<32>
 ReqMapID<16>
 PlayerConditionID<32>
+
+LAYOUT 42F8FEA2
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000<u8>
+Field_9_1_0_38549_001<u16>
+Field_9_1_0_38549_002<u16>
+Field_9_1_0_38549_003<u32>
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+Field_9_1_0_38549_006<16>
+Field_9_1_0_38549_007<32>

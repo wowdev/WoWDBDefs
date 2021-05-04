@@ -7,6 +7,13 @@ int Duration
 int Flags // &1: ???
 int SchoolMask // 1: Physical, 2: Holy, 4: Fire, 8: Nature, 16: Frost, 32: Shadow, 64: Arcane
 int<FileData::ID> IconFileDataID
+locstring Field_9_1_0_38549_000_lang?
+locstring Field_9_1_0_38549_001_lang?
+int Field_9_1_0_38549_002?
+int Field_9_1_0_38549_003?
+int Field_9_1_0_38549_004?
+int Field_9_1_0_38549_005?
+int Field_9_1_0_38549_006?
 
 LAYOUT DFD06B4A
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -21,3 +28,14 @@ Duration<32>
 Flags<32>
 SchoolMask<32>
 IconFileDataID<32>
+
+LAYOUT EC12D90F
+BUILD 9.1.0.38549
+$noninline,id$ID<32>
+Field_9_1_0_38549_000_lang
+Field_9_1_0_38549_001_lang
+Field_9_1_0_38549_002<32>
+Field_9_1_0_38549_003<32>
+Field_9_1_0_38549_004<32>
+Field_9_1_0_38549_005<32>
+Field_9_1_0_38549_006<32>
