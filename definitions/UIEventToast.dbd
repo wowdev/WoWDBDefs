@@ -14,7 +14,6 @@ int Field_9_1_0_38312_011? // 0
 int<FileData::ID> IconFileID?
 int<UiWidgetSet::ID> UiWidgetSetID
 int<UiWidgetSet::ID> ExtraUiWidgetSetID
-int ID
 
 LAYOUT 4414294A
 BUILD 9.1.0.38312
@@ -53,7 +52,7 @@ ExtraUiWidgetSetID<32>
 
 LAYOUT 2803ECA2
 BUILD 9.1.0.38549
-$noninline,id$ID<32>
+$noninline,id$EventToastID<32>
 Title_lang
 Subtitle_lang
 InstructionText_lang
