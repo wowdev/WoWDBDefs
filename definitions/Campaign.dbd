@@ -10,7 +10,7 @@ int<PlayerCondition::ID> Completed
 int<UiQuestDetailsTheme::ID> UiQuestDetailsThemeID
 int Flags // &0x01: useNormalQuestIcons
 int<PlayerCondition::ID> OnlyStallIf // if given and evals to false, don't mark as stalled.
-int<PlayerCondition::ID> PlayerConditionID?
+int<PlayerCondition::ID> Field_9_0_1_35755_007?
 
 LAYOUT E317A3DC
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548
@@ -104,7 +104,7 @@ $id$ID<u32>
 UiTextureKitID<32>
 RewardQuestID<32>
 Prerequisite<32>
-PlayerConditionID<32>
+Field_9_0_1_35755_007<32>
 Completed<32>
 OnlyStallIf<32>
 UiQuestDetailsThemeID<32>
