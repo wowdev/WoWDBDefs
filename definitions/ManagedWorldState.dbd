@@ -10,16 +10,6 @@ int DepletionStateTargetValue
 int DownTimeSecs
 int UpTimeSecs
 int Field_8_1_5_29418_009? // Contribution State related, probably when to show or something (is active and under attack)
-int Field_9_1_0_38549_000?
-int Field_9_1_0_38549_001?
-int Field_9_1_0_38549_002?
-int Field_9_1_0_38549_003?
-int Field_9_1_0_38549_004?
-int Field_9_1_0_38549_005?
-int Field_9_1_0_38549_006?
-int Field_9_1_0_38549_007?
-int Field_9_1_0_38549_008?
-int Field_9_1_0_38549_009?
 
 LAYOUT EC75BD52
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561
@@ -110,13 +100,13 @@ OccurrencesWorldStateID<32>[4]
 LAYOUT DAF3789B
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000<32>
-Field_9_1_0_38549_001<32>
-Field_9_1_0_38549_002<u32>
-Field_9_1_0_38549_003<u32>
-Field_9_1_0_38549_004<32>
-Field_9_1_0_38549_005<32>
-Field_9_1_0_38549_006<32>
-Field_9_1_0_38549_007<32>
-Field_9_1_0_38549_008<8>
-Field_9_1_0_38549_009<32>[4]
+CurrentStageWorldStateID<32>
+ProgressWorldStateID<32>
+UpTimeSecs<u32>
+DownTimeSecs<u32>
+AccumulationStateTargetValue<32>
+DepletionStateTargetValue<32>
+AccumulationAmountPerMinute<32>
+DepletionAmountPerMinute<32>
+Field_8_1_5_29418_009<8>
+OccurrencesWorldStateID<32>[4]

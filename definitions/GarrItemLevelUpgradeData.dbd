@@ -4,10 +4,6 @@ int FollowerTypeID
 int MaxItemLevel
 int MinItemLevel
 int Operation
-int Field_9_1_0_38549_000?
-int Field_9_1_0_38549_001?
-int Field_9_1_0_38549_002?
-int Field_9_1_0_38549_003?
 
 LAYOUT 069F44E5, 6B8723A1, 13566AC6
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -41,7 +37,7 @@ FollowerTypeID<32>
 LAYOUT 16C36383
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000<32>
-Field_9_1_0_38549_001<32>
-Field_9_1_0_38549_002<32>
-Field_9_1_0_38549_003<32>
+Operation<32>
+MinItemLevel<32>
+MaxItemLevel<32>
+FollowerTypeID<32>

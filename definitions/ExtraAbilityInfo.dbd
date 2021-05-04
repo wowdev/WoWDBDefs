@@ -6,12 +6,6 @@ int<Spell::ID> ActionBarOverrideSpellID?
 int<SpellLabel::LabelID> SpellLabel?
 int<UiTextureKit::ID> UiTextureKitID?
 int UiPriority?
-locstring Field_9_1_0_38549_000_lang?
-int Field_9_1_0_38549_001?
-int Field_9_1_0_38549_002?
-int Field_9_1_0_38549_003?
-int Field_9_1_0_38549_004?
-int Field_9_1_0_38549_005?
 
 LAYOUT 1DEAB5A7
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -29,9 +23,9 @@ UiPriority<32>
 LAYOUT E6971680
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000_lang
-$relation$Field_9_1_0_38549_001<32>
-Field_9_1_0_38549_002<32>
-Field_9_1_0_38549_003<32>
-Field_9_1_0_38549_004<32>
-Field_9_1_0_38549_005<32>
+TutorialText_lang
+$relation$SpellID<32>
+ActionBarOverrideSpellID<32>
+SpellLabel<32>
+UiTextureKitID<32>
+UiPriority<32>

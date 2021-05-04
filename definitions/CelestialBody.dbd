@@ -14,20 +14,6 @@ float RotateRate
 float ScrollURate
 float ScrollVRate
 int SkyArrayBand
-float Field_9_1_0_38549_000?
-int Field_9_1_0_38549_001?
-float Field_9_1_0_38549_002?
-int Field_9_1_0_38549_003?
-int Field_9_1_0_38549_004?
-float Field_9_1_0_38549_005?
-float Field_9_1_0_38549_006?
-int Field_9_1_0_38549_007?
-int Field_9_1_0_38549_008?
-int Field_9_1_0_38549_009?
-float Field_9_1_0_38549_010?
-int Field_9_1_0_38549_011?
-float Field_9_1_0_38549_012?
-float Field_9_1_0_38549_013?
 
 LAYOUT D09BE31C
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -107,17 +93,17 @@ ScrollVRate[2]
 LAYOUT 2A19926D
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000[3]
-Field_9_1_0_38549_001<32>
-Field_9_1_0_38549_002
-Field_9_1_0_38549_003<32>
-Field_9_1_0_38549_004<32>
-Field_9_1_0_38549_005
-Field_9_1_0_38549_006
-Field_9_1_0_38549_007<16>
-Field_9_1_0_38549_008<32>
-Field_9_1_0_38549_009<32>[2]
-Field_9_1_0_38549_010[2]
-Field_9_1_0_38549_011<32>[2]
-Field_9_1_0_38549_012[2]
-Field_9_1_0_38549_013[2]
+Position[3]
+BaseFileDataID<32>
+BodyBaseScale
+AtmosphericMaskFileDataID<32>
+AtmosphericModifiedFileDataID<32>
+RotateRate
+AtmosphericMaskScale
+SkyArrayBand<16>
+LightMaskFileDataID<32>
+GlowMaskFileDataID<32>[2]
+GlowMaskScale[2]
+GlowModifiedFileDataID<32>[2]
+ScrollURate[2]
+ScrollVRate[2]

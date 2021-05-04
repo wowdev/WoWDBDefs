@@ -48,39 +48,6 @@ locstring TitleName_lang
 int Vitality
 int<GarrAutoCombatant::ID> AutoCombatantID
 int<Covenant::ID> CovenantID
-locstring Field_9_1_0_38549_000_lang?
-locstring Field_9_1_0_38549_001_lang?
-locstring Field_9_1_0_38549_002_lang?
-int Field_9_1_0_38549_003?
-int Field_9_1_0_38549_004?
-int Field_9_1_0_38549_005?
-int Field_9_1_0_38549_006?
-int Field_9_1_0_38549_007?
-int Field_9_1_0_38549_008?
-int Field_9_1_0_38549_009?
-int Field_9_1_0_38549_010?
-int Field_9_1_0_38549_011?
-int Field_9_1_0_38549_012?
-int Field_9_1_0_38549_013?
-int Field_9_1_0_38549_014?
-int Field_9_1_0_38549_015?
-int Field_9_1_0_38549_016?
-int Field_9_1_0_38549_017?
-int Field_9_1_0_38549_018?
-int Field_9_1_0_38549_019?
-int Field_9_1_0_38549_020?
-int Field_9_1_0_38549_021?
-int Field_9_1_0_38549_022?
-int Field_9_1_0_38549_023?
-int Field_9_1_0_38549_024?
-int Field_9_1_0_38549_025?
-int Field_9_1_0_38549_026?
-int Field_9_1_0_38549_027?
-int Field_9_1_0_38549_028?
-int Field_9_1_0_38549_029?
-int Field_9_1_0_38549_030?
-int Field_9_1_0_38549_031?
-int Field_9_1_0_38549_032?
 
 LAYOUT 88765B9E
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561
@@ -404,36 +371,36 @@ CovenantID<32>
 LAYOUT A8F69527
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000_lang
-Field_9_1_0_38549_001_lang
-Field_9_1_0_38549_002_lang
-Field_9_1_0_38549_003<u8>
-Field_9_1_0_38549_004<u8>
-Field_9_1_0_38549_005<32>
-Field_9_1_0_38549_006<32>
-Field_9_1_0_38549_007<u8>
-Field_9_1_0_38549_008<u8>
-Field_9_1_0_38549_009<32>
-Field_9_1_0_38549_010<32>
-Field_9_1_0_38549_011<u8>
-Field_9_1_0_38549_012<u8>
-Field_9_1_0_38549_013<u16>
-Field_9_1_0_38549_014<u16>
-Field_9_1_0_38549_015<8>
-Field_9_1_0_38549_016<8>
-Field_9_1_0_38549_017<32>
-Field_9_1_0_38549_018<32>
-Field_9_1_0_38549_019<u16>
-Field_9_1_0_38549_020<u16>
-Field_9_1_0_38549_021<u16>
-Field_9_1_0_38549_022<u16>
-Field_9_1_0_38549_023<u8>
-Field_9_1_0_38549_024<u8>
-Field_9_1_0_38549_025<u8>
-Field_9_1_0_38549_026<u32>
-Field_9_1_0_38549_027<u32>
-Field_9_1_0_38549_028<u8>
-Field_9_1_0_38549_029<u8>
-Field_9_1_0_38549_030<u8>
-Field_9_1_0_38549_031<32>
-Field_9_1_0_38549_032<32>
+HordeSourceText_lang
+AllianceSourceText_lang
+TitleName_lang
+GarrTypeID<u8>
+GarrFollowerTypeID<u8>
+HordeCreatureID<32>
+AllianceCreatureID<32>
+HordeGarrFollRaceID<u8>
+AllianceGarrFollRaceID<u8>
+HordeGarrClassSpecID<32>
+AllianceGarrClassSpecID<32>
+Quality<u8>
+FollowerLevel<u8>
+ItemLevelWeapon<u16>
+ItemLevelArmor<u16>
+HordeSourceTypeEnum<8>
+AllianceSourceTypeEnum<8>
+HordeIconFileDataID<32>
+AllianceIconFileDataID<32>
+HordeGarrFollItemSetID<u16>
+AllianceGarrFollItemSetID<u16>
+HordeUITextureKitID<u16>
+AllianceUITextureKitID<u16>
+Vitality<u8>
+HordeFlavorGarrStringID<u8>
+AllianceFlavorGarrStringID<u8>
+HordeSlottingBroadcastTextID<u32>
+AllySlottingBroadcastTextID<u32>
+ChrClassID<u8>
+Flags<u8>
+Gender<u8>
+AutoCombatantID<32>
+CovenantID<32>
