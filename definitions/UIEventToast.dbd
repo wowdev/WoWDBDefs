@@ -5,7 +5,7 @@ locstring InstructionText_lang
 locstring Field_9_1_0_38312_003_lang? // link?
 int EventToastID
 int<PlayerCondition::ID> PlayerConditionID
-int Field_9_1_0_38312_006? // 12014, 12015
+int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID?
 int<UiTextureKit::ID> UiTextureKitID
 int EventType // EventToastEventType | LevelUp: 0; LevelUpSpell: 1; LevelUpDungeon: 2; LevelUpRaid: 3; LevelUpPvP: 4; PetBattleNewAbility: 5; PetBattleFinalRound: 6; PetBattleCapture: 7; BattlePetLevelChanged: 8; BattlePetLevelUpAbility: 9; QuestBossEmote: 10; MythicPlusWeeklyRecord: 11; QuestTurnedIn: 12; WorldStateChange: 13; Scenario: 14; LevelUpOther: 15; PlayerAuraAdded: 16; PlayerAuraRemoved: 17; SpellScript: 18
 int DisplayType // EventToastDisplayType | NormalSingleLine: 0; NormalBlockText: 1; NormalTitleAndSubTitle: 2; NormalTextWithIcon: 3; LargeTextWithIcon: 4; NormalTextWithIconAndRarity: 5; Scenario: 6; ChallengeMode: 7; ScenarioClickExpand: 8
@@ -38,7 +38,7 @@ InstructionText_lang
 Field_9_1_0_38312_003_lang
 $id$EventToastID<32>
 PlayerConditionID<32>
-Field_9_1_0_38312_006<32>
+UiTextureAtlasMemberID<32>
 UiTextureKitID<32>
 EventType<32>
 DisplayType<32>
@@ -55,7 +55,7 @@ InstructionText_lang
 Field_9_1_0_38312_003_lang
 $id$EventToastID<32>
 PlayerConditionID<32>
-Field_9_1_0_38312_006<32>
+UiTextureAtlasMemberID<32>
 UiTextureKitID<32>
 EventType<32>
 DisplayType<32>
