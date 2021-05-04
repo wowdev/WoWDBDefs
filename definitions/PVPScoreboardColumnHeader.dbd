@@ -3,9 +3,6 @@ locstring Tooltip_lang
 locstring Name_lang
 int ID
 int Field_8_2_0_30430_003? // 8.2.0.30430: all 0
-locstring Field_9_1_0_38549_000_lang?
-locstring Field_9_1_0_38549_001_lang?
-int Field_9_1_0_38549_002?
 
 LAYOUT 910EEE06, B4340B7C
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -24,6 +21,6 @@ Field_8_2_0_30430_003<32>
 LAYOUT 72A806A9
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000_lang
-Field_9_1_0_38549_001_lang
-Field_9_1_0_38549_002<32>
+Tooltip_lang
+Name_lang
+Field_8_2_0_30430_003<32>

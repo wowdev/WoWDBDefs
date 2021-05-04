@@ -5,11 +5,6 @@ locstring Description_lang?
 locstring Objective_lang?
 int<BattlemasterList::ID> BattlemasterListID
 int<LFGDungeons::ID> LFGDungeonsID
-locstring Field_9_1_0_38549_000_lang?
-locstring Field_9_1_0_38549_001_lang?
-locstring Field_9_1_0_38549_002_lang?
-int Field_9_1_0_38549_003?
-int Field_9_1_0_38549_004?
 int Field_9_1_0_38549_005?
 
 LAYOUT B97DECC7, A3BF25B1
@@ -32,9 +27,9 @@ LFGDungeonsID<32>
 LAYOUT 965B1EFF
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000_lang
-Field_9_1_0_38549_001_lang
-Field_9_1_0_38549_002_lang
-Field_9_1_0_38549_003<32>
-Field_9_1_0_38549_004<32>
+Name_lang
+Description_lang
+Objective_lang
+BattlemasterListID<32>
+LFGDungeonsID<32>
 Field_9_1_0_38549_005<32>

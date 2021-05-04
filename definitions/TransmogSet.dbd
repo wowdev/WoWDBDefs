@@ -12,19 +12,6 @@ int UiOrder
 int Field_8_1_0_28294_008?
 int PatchIntroduced? // in '%d%02d%02d' % (major, minor, patch) form
 int<PlayerCondition::ID> ConditionID?
-locstring Field_9_1_0_38549_000_lang?
-int Field_9_1_0_38549_001?
-int Field_9_1_0_38549_002?
-int Field_9_1_0_38549_003?
-int Field_9_1_0_38549_004?
-int Field_9_1_0_38549_005?
-int Field_9_1_0_38549_006?
-int Field_9_1_0_38549_007?
-int Field_9_1_0_38549_008?
-int Field_9_1_0_38549_009?
-int Field_9_1_0_38549_010?
-int Field_9_1_0_38549_011?
-int Field_9_1_0_38549_012?
 
 LAYOUT 9DFDFC7E
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561
@@ -131,16 +118,16 @@ ConditionID<32>
 
 LAYOUT 9D7EC118
 BUILD 9.1.0.38549
-Field_9_1_0_38549_000_lang
-$id$Field_9_1_0_38549_001<32>
-Field_9_1_0_38549_002<32>
-Field_9_1_0_38549_003<u32>
-Field_9_1_0_38549_004<32>
-Field_9_1_0_38549_005<u32>
-Field_9_1_0_38549_006<32>
-$relation$Field_9_1_0_38549_007<u16>
-Field_9_1_0_38549_008<u8>
-Field_9_1_0_38549_009<u8>
-Field_9_1_0_38549_010<32>
-Field_9_1_0_38549_011<16>
-Field_9_1_0_38549_012<32>
+Name_lang
+$id$ID<32>
+ClassMask<32>
+TrackingQuestID<u32>
+Flags<32>
+TransmogSetGroupID<u32>
+ItemNameDescriptionID<32>
+$relation$ParentTransmogSetID<u16>
+Field_8_1_0_28294_008<u8>
+ExpansionID<u8>
+PatchIntroduced<32>
+UiOrder<16>
+ConditionID<32>

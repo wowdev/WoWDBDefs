@@ -3,9 +3,6 @@ int ID
 int<Occluder::ID> OccluderID
 int Sequence
 int<OccluderLocation::ID> LocationID
-int Field_9_1_0_38549_000?
-int Field_9_1_0_38549_001?
-int Field_9_1_0_38549_002?
 
 LAYOUT 80473F80
 BUILD 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -41,6 +38,6 @@ LocationID<32>
 LAYOUT C2344517
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000<u16>
-Field_9_1_0_38549_001<16>
-Field_9_1_0_38549_002<32>
+OccluderID<u16>
+Sequence<16>
+LocationID<32>

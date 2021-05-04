@@ -6,12 +6,6 @@ int OrderIndex
 locstring Name_lang
 int Flags
 locstring HordeName_lang
-locstring Field_9_1_0_38549_000_lang?
-locstring Field_9_1_0_38549_001_lang?
-int Field_9_1_0_38549_002?
-int Field_9_1_0_38549_003?
-int Field_9_1_0_38549_004?
-int Field_9_1_0_38549_005?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15640-5.4.8.18414
@@ -94,9 +88,9 @@ Flags<u8>
 LAYOUT 37BA768F
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000_lang
-Field_9_1_0_38549_001_lang
-Field_9_1_0_38549_002<u16>
-Field_9_1_0_38549_003<u16>
-Field_9_1_0_38549_004<16>
-Field_9_1_0_38549_005<u8>
+Name_lang
+HordeName_lang
+ParentTradeSkillCategoryID<u16>
+SkillLineID<u16>
+OrderIndex<16>
+Flags<u8>

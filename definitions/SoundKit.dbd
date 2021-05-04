@@ -16,21 +16,6 @@ float VolumeFloat
 float VolumeVariationMinus
 float VolumeVariationPlus
 int Field_7_3_0_24473_008?
-int Field_9_1_0_38549_000?
-float Field_9_1_0_38549_001?
-int Field_9_1_0_38549_002?
-float Field_9_1_0_38549_003?
-float Field_9_1_0_38549_004?
-int Field_9_1_0_38549_005?
-int Field_9_1_0_38549_006?
-float Field_9_1_0_38549_007?
-float Field_9_1_0_38549_008?
-float Field_9_1_0_38549_009?
-float Field_9_1_0_38549_010?
-int Field_9_1_0_38549_011?
-float Field_9_1_0_38549_012?
-int Field_9_1_0_38549_013?
-int Field_9_1_0_38549_014?
 
 LAYOUT 972A2F98
 BUILD 1.13.0.28211
@@ -178,18 +163,18 @@ MaxInstances<u8>
 LAYOUT F1254A02
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000<32>
-Field_9_1_0_38549_001
-Field_9_1_0_38549_002<u16>
-Field_9_1_0_38549_003
-Field_9_1_0_38549_004
-Field_9_1_0_38549_005<u8>
-Field_9_1_0_38549_006<u32>
-Field_9_1_0_38549_007
-Field_9_1_0_38549_008
-Field_9_1_0_38549_009
-Field_9_1_0_38549_010
-Field_9_1_0_38549_011<8>
-Field_9_1_0_38549_012
-Field_9_1_0_38549_013<u16>
-Field_9_1_0_38549_014<u8>
+SoundType<32>
+VolumeFloat
+Flags<u16>
+MinDistance
+DistanceCutoff
+EAXDef<u8>
+SoundKitAdvancedID<u32>
+VolumeVariationPlus
+VolumeVariationMinus
+PitchVariationPlus
+PitchVariationMinus
+DialogType<8>
+PitchAdjust
+BusOverwriteID<u16>
+MaxInstances<u8>

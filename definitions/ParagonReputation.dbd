@@ -3,9 +3,6 @@ int ID
 int<Faction::ID> FactionID
 int LevelThreshold
 int<QuestV2::ID> QuestID
-int Field_9_1_0_38549_000?
-int Field_9_1_0_38549_001?
-int Field_9_1_0_38549_002?
 
 LAYOUT 2ED74FB8
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
@@ -52,6 +49,6 @@ QuestID<32>
 LAYOUT A583D6E0
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000<32>
-Field_9_1_0_38549_001<32>
-Field_9_1_0_38549_002<32>
+FactionID<32>
+LevelThreshold<32>
+QuestID<32>

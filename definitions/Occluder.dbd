@@ -8,14 +8,6 @@ int Green
 int Blue
 int Alpha
 int Flags
-int Field_9_1_0_38549_000?
-int Field_9_1_0_38549_001?
-int Field_9_1_0_38549_002?
-int Field_9_1_0_38549_003?
-int Field_9_1_0_38549_004?
-int Field_9_1_0_38549_005?
-int Field_9_1_0_38549_006?
-int Field_9_1_0_38549_007?
 
 LAYOUT FEDCAAB3, 5BAE5E78
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -49,11 +41,11 @@ Flags<u8>
 LAYOUT D7DDC6E9
 BUILD 9.1.0.38549
 $noninline,id$ID<32>
-Field_9_1_0_38549_000<32>
-Field_9_1_0_38549_001<u8>
-Field_9_1_0_38549_002<u8>
-Field_9_1_0_38549_003<u8>
-Field_9_1_0_38549_004<u8>
-Field_9_1_0_38549_005<u8>
-Field_9_1_0_38549_006<u8>
-Field_9_1_0_38549_007<u8>
+MapID<32>
+Type<u8>
+SplineType<u8>
+Red<u8>
+Green<u8>
+Blue<u8>
+Alpha<u8>
+Flags<u8>
