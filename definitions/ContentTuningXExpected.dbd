@@ -2,8 +2,8 @@ COLUMNS
 int ID
 int<ContentTuning::ID> ContentTuningID?
 int<ExpectedStatMod::ID> ExpectedStatModID?
-int<MythicPlusSeason::ID> MythicPlusSeasonID?       // Either Min or Max MythicPlusSeasonID
-int<MythicPlusSeason::ID> MythicPlusSeasonID_2?     // Either Min or Max MythicPlusSeasonID
+int<MythicPlusSeason::ID> MythicPlusSeasonID? // Either Min or Max MythicPlusSeasonID
+int<MythicPlusSeason::ID> MythicPlusSeasonID_2? // Either Min or Max MythicPlusSeasonID
 
 LAYOUT A87DE567, 290CE275
 BUILD 8.3.0.32044, 8.3.0.32151, 8.3.0.32203, 8.3.0.32218, 8.3.0.32272
