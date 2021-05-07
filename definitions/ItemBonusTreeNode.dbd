@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<ItemBonusList::ID> ChildItemBonusListID
 int<ItemBonusTree::ID> ChildItemBonusTreeID
-int ChildItemLevelSelectorID
+int<ItemLevelSelector::ID> ChildItemLevelSelectorID
 int ItemContext
 int<ItemBonusTree::ID> ParentItemBonusTreeID
 int<ItemBonusListGroup::ID> ItemBonusListGroupID?
