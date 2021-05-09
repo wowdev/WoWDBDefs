@@ -131,6 +131,23 @@ RequiredAbility<u32>
 ItemLevel<u16>
 Flags<32>[4]
 
+LAYOUT D137733C
+BUILD 2.5.1.38598
+AllowableRace<64>
+Display_lang
+$id$ID<32>
+OverallQualityID<u8>
+ExpansionID<32>
+MinFactionID<u16>
+MinReputation<u8>
+AllowableClass<32>
+RequiredLevel<8>
+RequiredSkill<u16>
+RequiredSkillRank<u16>
+RequiredAbility<u32>
+ItemLevel<u16>
+Flags<32>[4]
+
 LAYOUT 91DAD283
 BUILD 9.1.0.38549, 9.1.0.38600
 $noninline,id$ID<32>
