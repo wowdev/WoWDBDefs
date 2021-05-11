@@ -16,23 +16,7 @@ int Field_9_1_0_38312_011?
 int Field_9_1_0_38312_012?
 int Field_9_1_0_38312_013?
 int Field_9_1_0_38312_014?
-int Field_9_1_0_38627_000?
-int Field_9_1_0_38627_001?
-int Field_9_1_0_38627_002?
 float Field_9_1_0_38627_003?
-int Field_9_1_0_38627_004?
-int Field_9_1_0_38627_005?
-int Field_9_1_0_38627_006?
-int Field_9_1_0_38627_007?
-int Field_9_1_0_38627_008?
-int Field_9_1_0_38627_009?
-int Field_9_1_0_38627_010?
-int Field_9_1_0_38627_011?
-int Field_9_1_0_38627_012?
-int Field_9_1_0_38627_013?
-int Field_9_1_0_38627_014?
-int Field_9_1_0_38627_015?
-int Field_9_1_0_38627_016?
 
 LAYOUT 572E1310
 BUILD 9.0.5.37503, 9.0.5.37623, 9.0.5.37705, 9.0.5.37774, 9.0.5.37844, 9.0.5.37862, 9.0.5.37864, 9.0.5.37893, 9.0.5.37899, 9.0.5.37988, 9.0.5.38134, 9.0.5.38556
@@ -77,20 +61,20 @@ $noninline,relation$GarrTalentID<32>
 LAYOUT 97D67140
 BUILD 9.1.0.38627
 $noninline,id$ID<32>
-Field_9_1_0_38627_000<32>
-Field_9_1_0_38627_001<32>
-Field_9_1_0_38627_002<32>
+Rank<32>
+PerkSpellID<32>
+PerkPlayerConditionID<32>
 Field_9_1_0_38627_003
-Field_9_1_0_38627_004<32>
-Field_9_1_0_38627_005<32>
-Field_9_1_0_38627_006<32>
-Field_9_1_0_38627_007<32>
-Field_9_1_0_38627_008<32>
-Field_9_1_0_38627_009<32>
-Field_9_1_0_38627_010<32>
-Field_9_1_0_38627_011<32>
-Field_9_1_0_38627_012<32>
-Field_9_1_0_38627_013<32>
-Field_9_1_0_38627_014<32>
-Field_9_1_0_38627_015<32>
-$noninline,relation$Field_9_1_0_38627_016<32>
+ResearchCost<32>
+ResearchCostCurrencyTypesID<32>
+ResearchGoldCost<32>
+ResearchDurationSecs<32>
+RespecCost<32>
+RespecCostCurrencyTypesID<32>
+RespecGoldCost<32>
+RespecDurationSecs<32>
+Field_9_1_0_38312_011<32>
+Field_9_1_0_38312_012<32>
+Field_9_1_0_38312_013<32>
+Field_9_1_0_38312_014<32>
+$noninline,relation$GarrTalentID<32>

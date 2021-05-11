@@ -6,13 +6,6 @@ int DungeonScoreMax
 int OrderIndex
 int KeystoneLevelMin
 int KeystoneLevelMax
-int Field_9_1_0_38627_000?
-int Field_9_1_0_38627_001?
-int Field_9_1_0_38627_002?
-int Field_9_1_0_38627_003?
-int Field_9_1_0_38627_004?
-int Field_9_1_0_38627_005?
-int Field_9_1_0_38627_006?
 int Field_9_1_0_38627_007?
 int Field_9_1_0_38627_008?
 
@@ -28,12 +21,12 @@ KeystoneLevelMax<32>
 
 LAYOUT DCF94CC5
 BUILD 9.1.0.38627
-$id$Field_9_1_0_38627_000<32>
-Field_9_1_0_38627_001<32>
-Field_9_1_0_38627_002<32>
-Field_9_1_0_38627_003<32>
-Field_9_1_0_38627_004<32>
-Field_9_1_0_38627_005<32>
-Field_9_1_0_38627_006<32>
+$id$ID<32>
+ScoreColor<32>
+DungeonScoreMin<32>
+DungeonScoreMax<32>
+OrderIndex<32>
+KeystoneLevelMin<32>
+KeystoneLevelMax<32>
 Field_9_1_0_38627_007<32>
 Field_9_1_0_38627_008<32>
