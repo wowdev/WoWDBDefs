@@ -3,7 +3,7 @@ int ID
 locstring Signature_lang
 int<UiTextureAtlasElement::ID> BackgroundTexture
 int<UiTextureAtlasElement::ID> SealTexture
-int Field_9_1_0_38627_003?
+int<UiTextureAtlasElement::ID> PoiIcon
 
 LAYOUT DFF2A61D
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524, 9.1.0.38549, 9.1.0.38600
@@ -21,4 +21,4 @@ $noninline,id$ID<32>
 Signature_lang
 BackgroundTexture<32>
 SealTexture<32>
-Field_9_1_0_38627_003<32>
+PoiIcon<32>

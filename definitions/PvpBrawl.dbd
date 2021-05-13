@@ -5,7 +5,7 @@ locstring Description_lang?
 locstring Objective_lang?
 int<BattlemasterList::ID> BattlemasterListID
 int<LFGDungeons::ID> LFGDungeonsID
-int Field_9_1_0_38549_005?
+int<QuestV2::ID> RewardsQuestID?
 
 LAYOUT B97DECC7, A3BF25B1
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -32,4 +32,4 @@ Description_lang
 Objective_lang
 BattlemasterListID<32>
 LFGDungeonsID<32>
-Field_9_1_0_38549_005<32>
+RewardsQuestID<32>

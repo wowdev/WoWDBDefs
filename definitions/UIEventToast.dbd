@@ -2,7 +2,7 @@ COLUMNS
 locstring Title_lang
 locstring Subtitle_lang
 locstring InstructionText_lang
-locstring Field_9_1_0_38312_003_lang? // link?
+locstring SubIcon_lang?
 int EventToastID
 int<PlayerCondition::ID> PlayerConditionID
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID?
@@ -20,7 +20,7 @@ BUILD 9.1.0.38312
 Title_lang
 Subtitle_lang
 InstructionText_lang
-Field_9_1_0_38312_003_lang
+SubIcon_lang
 $id$EventToastID<32>
 PlayerConditionID<32>
 UiTextureAtlasMemberID<32>
@@ -37,7 +37,7 @@ BUILD 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
 Title_lang
 Subtitle_lang
 InstructionText_lang
-Field_9_1_0_38312_003_lang
+SubIcon_lang
 $id$EventToastID<32>
 PlayerConditionID<32>
 UiTextureAtlasMemberID<32>
@@ -56,7 +56,7 @@ $noninline,id$EventToastID<32>
 Title_lang
 Subtitle_lang
 InstructionText_lang
-Field_9_1_0_38312_003_lang
+SubIcon_lang
 PlayerConditionID<32>
 UiTextureAtlasMemberID<32>
 UiTextureKitID<32>
