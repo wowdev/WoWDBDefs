@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int DisplayID
+int<GameObjectDisplayInfo::ID> DisplayID
 locstring Name_lang
-int OwnerID
-int PhaseGroupID
+int<Map::ID> OwnerID
+int<PhaseXPhaseGroup::PhaseGroupID> PhaseGroupID // actually PhaseGroup::ID, but unshipped
 int<Phase::ID> PhaseID
 int PhaseUseFlags
 float Pos
