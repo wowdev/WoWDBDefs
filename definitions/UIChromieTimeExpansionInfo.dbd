@@ -9,8 +9,8 @@ int<PlayerCondition::ID> AlreadyOn
 int ExpansionLevelMask? // The way ModifierTree references these, type 301.
 int<ContentTuning::ID> ContentTuningID
 int<PlayerCondition::ID> Completed
-locstring Field_9_1_0_38312_002_lang?
-locstring Field_9_1_0_38312_003_lang?
+locstring DescriptionAlliance_lang
+locstring DescriptionHorde_lang
 
 LAYOUT 774183A9
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714
@@ -64,8 +64,8 @@ LAYOUT 985C54D4
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
 Name_lang
 Description_lang
-Field_9_1_0_38312_002_lang
-Field_9_1_0_38312_003_lang
+DescriptionAlliance_lang
+DescriptionHorde_lang
 $id$ID<32>
 SpellID<32>
 UiTextureAtlasElementLarge<32>
@@ -80,8 +80,8 @@ BUILD 9.1.0.38549, 9.1.0.38600, 9.1.0.38627, 9.1.0.38709
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-Field_9_1_0_38312_002_lang
-Field_9_1_0_38312_003_lang
+DescriptionAlliance_lang
+DescriptionHorde_lang
 SpellID<32>
 UiTextureAtlasElementLarge<32>
 UiTextureAtlasElementSmall<32>
