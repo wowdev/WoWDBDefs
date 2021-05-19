@@ -5,9 +5,6 @@ int Data
 int Type
 int FunctionID? // s_functionOverrideIds
 int Field_5_0_1_15657_002?
-string Field_9_1_0_38709_000?
-int Field_9_1_0_38709_001?
-int Field_9_1_0_38709_002?
 int Field_9_1_0_38709_003?
 
 BUILD 5.0.1.15657-5.0.1.15662
@@ -68,7 +65,7 @@ Data<32>
 LAYOUT EBD9E8B2
 BUILD 9.1.0.38709
 $noninline,id$ID<32>
-Field_9_1_0_38709_000
-Field_9_1_0_38709_001<8>
-Field_9_1_0_38709_002<32>
+Function
+Type<8>
+Data<32>
 Field_9_1_0_38709_003<32>

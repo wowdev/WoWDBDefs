@@ -27,28 +27,6 @@ float YawVariation
 int Field_4_0_6_13623_008?
 float Field_9_0_1_33978_021?
 int Field_7_3_2_25549_000? // always matches ParentSpellVisualKitID relation?
-float Field_9_1_0_38709_000?
-float Field_9_1_0_38709_001?
-int Field_9_1_0_38709_002?
-int Field_9_1_0_38709_003?
-int Field_9_1_0_38709_004?
-float Field_9_1_0_38709_005?
-float Field_9_1_0_38709_006?
-float Field_9_1_0_38709_007?
-float Field_9_1_0_38709_008?
-float Field_9_1_0_38709_009?
-float Field_9_1_0_38709_010?
-float Field_9_1_0_38709_011?
-float Field_9_1_0_38709_012?
-int Field_9_1_0_38709_013?
-int Field_9_1_0_38709_014?
-int Field_9_1_0_38709_015?
-int Field_9_1_0_38709_016?
-int Field_9_1_0_38709_017?
-int Field_9_1_0_38709_018?
-float Field_9_1_0_38709_019?
-float Field_9_1_0_38709_020?
-int Field_9_1_0_38709_021?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13596
@@ -244,25 +222,25 @@ $noninline,relation$ParentSpellVisualKitID<32>
 LAYOUT FF64C814
 BUILD 9.1.0.38709
 $noninline,id$ID<32>
-Field_9_1_0_38709_000[3]
-Field_9_1_0_38709_001[3]
-Field_9_1_0_38709_002<32>
-Field_9_1_0_38709_003<32>
-Field_9_1_0_38709_004<32>
-Field_9_1_0_38709_005
-Field_9_1_0_38709_006
-Field_9_1_0_38709_007
-Field_9_1_0_38709_008
-Field_9_1_0_38709_009
-Field_9_1_0_38709_010
-Field_9_1_0_38709_011
-Field_9_1_0_38709_012
-Field_9_1_0_38709_013<32>
-Field_9_1_0_38709_014<32>
-Field_9_1_0_38709_015<32>
-Field_9_1_0_38709_016<32>
-Field_9_1_0_38709_017<32>
-Field_9_1_0_38709_018<32>
-Field_9_1_0_38709_019
-Field_9_1_0_38709_020
-$noninline,relation$Field_9_1_0_38709_021<32>
+Offset[3]
+OffsetVariation[3]
+SpellVisualEffectNameID<32>
+AttachmentID<32>
+PositionerID<32>
+Yaw
+Pitch
+Roll
+YawVariation
+PitchVariation
+RollVariation
+Scale
+ScaleVariation
+StartAnimID<32>
+AnimKitID<32>
+EndAnimID<32>
+AnimKitID<32>
+Flags<32>
+LowDefModelAttachID<32>
+StartDelay
+Field_9_0_1_33978_021
+$noninline,relation$ParentSpellVisualKitID<32>
