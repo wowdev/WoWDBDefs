@@ -24,6 +24,26 @@ int Field_2_5_1_38043_008?
 int Field_2_5_1_38043_009?
 int Field_2_5_1_38043_010?
 int Field_2_5_1_38043_014?
+locstring Field_9_1_0_38783_000_lang?
+locstring Field_9_1_0_38783_001_lang?
+int Field_9_1_0_38783_002?
+float Field_9_1_0_38783_003?
+int Field_9_1_0_38783_004?
+int Field_9_1_0_38783_005?
+int Field_9_1_0_38783_006?
+int Field_9_1_0_38783_007?
+int Field_9_1_0_38783_008?
+int Field_9_1_0_38783_009?
+int Field_9_1_0_38783_010?
+int Field_9_1_0_38783_011?
+int Field_9_1_0_38783_012?
+int Field_9_1_0_38783_013?
+int Field_9_1_0_38783_014?
+int Field_9_1_0_38783_015?
+int Field_9_1_0_38783_016?
+int Field_9_1_0_38783_017?
+int Field_9_1_0_38783_018?
+int Field_9_1_0_38783_019?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -375,3 +395,26 @@ UiWidgetSetID<u16>
 UiTextureKitID<u16>
 Importance<u8>
 Icon<u8>
+
+LAYOUT 5D6364F6
+BUILD 9.1.0.38783
+Field_9_1_0_38783_000_lang
+Field_9_1_0_38783_001_lang
+$id$Field_9_1_0_38783_002<32>
+Field_9_1_0_38783_003[3]
+Field_9_1_0_38783_004<32>
+Field_9_1_0_38783_005<u32>
+Field_9_1_0_38783_006<u32>
+Field_9_1_0_38783_007<u32>
+Field_9_1_0_38783_008<32>
+Field_9_1_0_38783_009<32>
+Field_9_1_0_38783_010<32>
+Field_9_1_0_38783_011<u32>
+$relation$Field_9_1_0_38783_012<u16>
+Field_9_1_0_38783_013<16>
+Field_9_1_0_38783_014<u16>
+Field_9_1_0_38783_015<u16>
+Field_9_1_0_38783_016<u16>
+Field_9_1_0_38783_017<u16>
+Field_9_1_0_38783_018<u8>
+Field_9_1_0_38783_019<u8>
