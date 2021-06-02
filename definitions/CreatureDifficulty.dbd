@@ -135,9 +135,9 @@ $noninline,relation$CreatureID<32>
 LAYOUT A9DFA592
 BUILD 9.1.0.38872
 $noninline,id$ID<32>
-Field_9_1_0_38872_000<32>
-Field_9_1_0_38872_001<32>
-Field_9_1_0_38872_002<u16>
-Field_9_1_0_38872_003<32>
-Field_9_1_0_38872_004<32>[8]
-$noninline,relation$Field_9_1_0_38872_005<32>
+Field_9_0_1_35522_003Min<32>
+Field_9_0_1_35522_003Max<32>
+FactionID<u16>
+ContentTuningID<32>
+Flags<32>[8]
+$noninline,relation$CreatureID<32>
