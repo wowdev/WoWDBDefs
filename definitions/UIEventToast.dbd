@@ -18,6 +18,27 @@ locstring TitleTooltip_lang?
 locstring SubtitleTooltip_lang?
 int TitleTooltipUiWidgetSetID?
 int SubtitleTooltipUiWidgetSetID?
+int ID
+locstring Field_9_1_0_38872_000_lang?
+locstring Field_9_1_0_38872_001_lang?
+locstring Field_9_1_0_38872_002_lang?
+locstring Field_9_1_0_38872_003_lang?
+locstring Field_9_1_0_38872_004_lang?
+locstring Field_9_1_0_38872_005_lang?
+int Field_9_1_0_38872_006?
+int Field_9_1_0_38872_007?
+int Field_9_1_0_38872_008?
+int Field_9_1_0_38872_009?
+int Field_9_1_0_38872_010?
+int Field_9_1_0_38872_011?
+int Field_9_1_0_38872_012?
+int Field_9_1_0_38872_013?
+int Field_9_1_0_38872_014?
+int Field_9_1_0_38872_015?
+int Field_9_1_0_38872_016?
+int Field_9_1_0_38872_017?
+int Field_9_1_0_38872_018?
+int Field_9_1_0_38872_019?
 
 LAYOUT 4414294A
 BUILD 9.1.0.38312
@@ -93,3 +114,27 @@ UiWidgetSetID<32>
 ExtraUiWidgetSetID<32>
 TitleTooltipUiWidgetSetID<32>
 SubtitleTooltipUiWidgetSetID<32>
+
+LAYOUT 47EA22ED
+BUILD 9.1.0.38872
+$noninline,id$ID<32>
+Field_9_1_0_38872_000_lang
+Field_9_1_0_38872_001_lang
+Field_9_1_0_38872_002_lang
+Field_9_1_0_38872_003_lang
+Field_9_1_0_38872_004_lang
+Field_9_1_0_38872_005_lang
+Field_9_1_0_38872_006<32>
+Field_9_1_0_38872_007<32>
+Field_9_1_0_38872_008<32>
+Field_9_1_0_38872_009<32>
+Field_9_1_0_38872_010<32>
+Field_9_1_0_38872_011<32>
+Field_9_1_0_38872_012<32>
+Field_9_1_0_38872_013<32>
+Field_9_1_0_38872_014<32>
+Field_9_1_0_38872_015<32>
+Field_9_1_0_38872_016<32>
+Field_9_1_0_38872_017<32>
+Field_9_1_0_38872_018<32>
+Field_9_1_0_38872_019<32>
