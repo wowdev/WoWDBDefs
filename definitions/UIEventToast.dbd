@@ -10,7 +10,7 @@ int<UiTextureKit::ID> UiTextureKitID
 int EventType // EventToastEventType | LevelUp: 0; LevelUpSpell: 1; LevelUpDungeon: 2; LevelUpRaid: 3; LevelUpPvP: 4; PetBattleNewAbility: 5; PetBattleFinalRound: 6; PetBattleCapture: 7; BattlePetLevelChanged: 8; BattlePetLevelUpAbility: 9; QuestBossEmote: 10; MythicPlusWeeklyRecord: 11; QuestTurnedIn: 12; WorldStateChange: 13; Scenario: 14; LevelUpOther: 15; PlayerAuraAdded: 16; PlayerAuraRemoved: 17; SpellScript: 18
 int DisplayType // EventToastDisplayType | NormalSingleLine: 0; NormalBlockText: 1; NormalTitleAndSubTitle: 2; NormalTextWithIcon: 3; LargeTextWithIcon: 4; NormalTextWithIconAndRarity: 5; Scenario: 6; ChallengeMode: 7; ScenarioClickExpand: 8
 int EventAsset? // EventType == PlayerAuraAdded: Spell::ID; == PlayerAuraRemoved: Spell::ID; == QuestTurnedIn: QuestV2::ID
-int Field_9_1_0_38312_011? // 0
+int Field_9_1_0_38312_011? // flags? hideDefaultAlias = 1?
 int<FileData::ID> IconFileID?
 int<UiWidgetSet::ID> UiWidgetSetID
 int<UiWidgetSet::ID> ExtraUiWidgetSetID
@@ -18,8 +18,8 @@ locstring TitleTooltip_lang?
 locstring SubtitleTooltip_lang?
 int TitleTooltipUiWidgetSetID?
 int SubtitleTooltipUiWidgetSetID?
-int Field_9_1_0_38872_018?
-int Field_9_1_0_38872_019?
+int<SoundKit::ID> ShowSoundKitID?
+int<SoundKit::ID> HideSoundKitID? // or the other way around? next soundkit id will be ExpandSoundKitID
 
 LAYOUT 4414294A
 BUILD 9.1.0.38312
@@ -117,5 +117,5 @@ UiWidgetSetID<32>
 ExtraUiWidgetSetID<32>
 TitleTooltipUiWidgetSetID<32>
 SubtitleTooltipUiWidgetSetID<32>
-Field_9_1_0_38872_018<32>
-Field_9_1_0_38872_019<32>
+ShowSoundKitID<32>
+HideSoundKitID<32>
