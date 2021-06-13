@@ -15,12 +15,6 @@ int<PlayerCondition::ID> VisibilityPlayerConditionID
 int<UiTextureAtlasElement::ID> BkgAtlasID
 int AlternateUiMapGroup?
 int<ContentTuning::ID> ContentTuningID?
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_010?
-int Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
 
 LAYOUT F5EC37EE
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988
@@ -30,13 +24,13 @@ $relation$ParentUiMapID<32>
 Flags<32>
 System<32>
 Type<32>
-Field_2_5_1_38043_006<32>
-Field_2_5_1_38043_007<u32>
-Field_2_5_1_38043_008<32>
+BountySetID<32>
+BountyDisplayLocation<u32>
+VisibilityPlayerConditionID<32>
 HelpTextPosition<8>
-Field_2_5_1_38043_010<32>
-Field_2_5_1_38043_011<u32>
-Field_2_5_1_38043_012<u32>
+BkgAtlasID<32>
+LevelRangeMin<u32>
+LevelRangeMax<u32>
 
 LAYOUT 2C161494
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367

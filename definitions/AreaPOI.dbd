@@ -20,10 +20,6 @@ int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int WMOGroupID
 int<UiWidgetSet::ID> UiWidgetSetID
 int<UiTextureKit::ID> UiTextureKitID
-int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
-int Field_2_5_1_38043_010?
-int Field_2_5_1_38043_014?
 int Field_9_1_0_38783_011?
 int Field_9_1_0_38783_017?
 
@@ -60,13 +56,13 @@ PortLocID<32>
 PlayerConditionID<u32>
 UiTextureAtlasMemberID<u32>
 Flags<u32>
-Field_2_5_1_38043_008<32>
-Field_2_5_1_38043_009<32>
-Field_2_5_1_38043_010<32>
+WMOGroupID<32>
+PoiDataType<32>
+PoiData<32>
 $relation$ContinentID<u16>
 AreaID<16>
 WorldStateID<u16>
-Field_2_5_1_38043_014<u16>
+UiWidgetSetID<u16>
 Importance<u8>
 Icon<u8>
 

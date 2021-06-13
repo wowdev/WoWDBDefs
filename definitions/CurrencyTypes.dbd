@@ -18,11 +18,6 @@ int<ItemGroupSounds::ID> ItemGroupSoundsID?
 int<PlayerCondition::ID> AwardConditionID
 int MaxQtyWorldStateID // key into data sent by the server
 int XpQuestDifficulty // Correct if 2 for ID 1566. ConvertToPlayerExperience?
-int Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_009?
-int Field_2_5_1_38043_010?
 
 LAYOUT 7A943838
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988
@@ -31,13 +26,13 @@ Name_lang
 Description_lang
 CategoryID<u8>
 InventoryIconFileID<32>
-Field_2_5_1_38043_004<u32>
-Field_2_5_1_38043_005<u8>
+SpellWeight<u32>
+SpellCategory<u8>
 MaxQty<u32>
-Field_2_5_1_38043_007<u32>
+MaxEarnablePerWeek<u32>
 Quality<8>
-Field_2_5_1_38043_009<32>
-Field_2_5_1_38043_010<u32>[2]
+FactionID<32>
+Flags<u32>[2]
 
 BUILD 4.0.0.11792
 BUILD 3.0.1.8622-3.3.5.12340

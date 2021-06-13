@@ -27,21 +27,6 @@ int<ContentTuning::ID> ContentTuningID
 int Flags // [2].9 = isQuestStart; [2].13 = don't return anything in lua GetTaskInfo; ([0].12 || [0].15 || [1].15) = isDaily
 int<Covenant::ID> CovenantID
 int Field_9_0_2_36206_022?
-int Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
-int Field_2_5_1_38043_006?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
-int Field_2_5_1_38043_010?
-int Field_2_5_1_38043_011?
-int Field_2_5_1_38043_012?
-int Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
-int Field_2_5_1_38043_015?
-int Field_2_5_1_38043_016?
-int Field_2_5_1_38043_017?
-int Field_2_5_1_38043_018?
 int Field_2_5_1_38043_019?
 int Field_2_5_1_38043_020?
 int Field_2_5_1_38043_021?
@@ -53,21 +38,21 @@ FiltRaces<64>
 QuestTitle_lang
 BulletText_lang
 $id$ID<u32>
-Field_2_5_1_38043_004<u16>
-Field_2_5_1_38043_005<u32>
-Field_2_5_1_38043_006<u32>
-Field_2_5_1_38043_007<16>
-Field_2_5_1_38043_008<u32>
-Field_2_5_1_38043_009<u32>
-Field_2_5_1_38043_010<u32>
-Field_2_5_1_38043_011<u32>
-Field_2_5_1_38043_012<u32>
-Field_2_5_1_38043_013<u32>
-Field_2_5_1_38043_014<u32>
-Field_2_5_1_38043_015<u32>
-Field_2_5_1_38043_016<u32>
-Field_2_5_1_38043_017<32>
-Field_2_5_1_38043_018<32>
+UniqueBitFlag<u16>
+ConditionID<u32>
+FiltActiveQuest<u32>
+FiltClasses<16>
+FiltCompletedQuestLogic<u32>
+FiltMaxFactionID<u32>
+FiltMaxFactionValue<u32>
+FiltMinFactionID<u32>
+FiltMinFactionValue<u32>
+FiltMinSkillID<u32>
+FiltMinSkillValue<u32>
+FiltNonActiveQuest<u32>
+BreadCrumbID<u32>
+StartItem<32>
+WorldStateExpressionID<32>
 Field_2_5_1_38043_019<u32>
 Field_2_5_1_38043_020<32>
 Field_2_5_1_38043_021<u32>

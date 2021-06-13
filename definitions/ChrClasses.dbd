@@ -22,7 +22,7 @@ int StartingLevel
 int Required_expansion
 int PlayerClass
 int DamageBonusStat
-int Field_1_13_0_28211_019?
+int HasRelicSlot?
 int<FileData::ID> SpellTextureBlobFileDataID?
 int RolesMask // (&1: group leader), &2: tank, &4: heal, &8: dps
 int ArmorTypeMask // 1 << ItemSubClass::SubClassID where ItemSubClass::ClassID == 4
@@ -47,13 +47,6 @@ int Field_2_0_0_6080_009?
 locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
 locstring Hyphenated_name_female_lang?
 int Field_2_5_1_38043_011?
-int Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
-int Field_2_5_1_38043_015?
-int Field_2_5_1_38043_016?
-int Field_2_5_1_38043_018?
-int Field_2_5_1_38043_019?
-int Field_2_5_1_38043_020?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -94,7 +87,7 @@ AttackPowerPerStrength<u8>
 AttackPowerPerAgility<u8>
 RangedAttackPowerPerAgility<u8>
 PrimaryStatPriority<u8>
-Field_1_13_0_28211_019<u8>
+HasRelicSlot<u8>
 $id$ID<32>
 
 LAYOUT 9A959A79
@@ -124,7 +117,7 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-Field_1_13_0_28211_019<u8>
+HasRelicSlot<u8>
 
 BUILD 2.0.0.5610-2.0.0.5666
 BUILD 1.10.0.5195-1.12.3.6141
@@ -186,17 +179,17 @@ LowResScreenFileDataID<u32>
 StartingLevel<32>
 Field_2_5_1_38043_011<u32>
 Flags<u16>
-Field_2_5_1_38043_013<u16>
-Field_2_5_1_38043_014<u16>
-Field_2_5_1_38043_015<u8>
-Field_2_5_1_38043_016<u8>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+Field_2_0_0_6080_009<u8>
+PrimaryStatPriority<u8>
 DisplayPower<u8>
-Field_2_5_1_38043_018<u8>
-Field_2_5_1_38043_019<u8>
-Field_2_5_1_38043_020<u8>
-SpellClassSet<u8>
 RangedAttackPowerPerAgility<u8>
-Field_1_13_0_28211_019<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
+SpellClassSet<u8>
+DamageBonusStat<u8>
+HasRelicSlot<u8>
 
 BUILD 3.0.1.8303-3.0.1.8471
 BUILD 2.4.0.8089-2.4.3.8606
