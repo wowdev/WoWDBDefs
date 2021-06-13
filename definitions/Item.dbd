@@ -16,15 +16,11 @@ int DamageMax?
 int DamageType?
 int DefensiveStats?
 int<ModifiedCraftingReagentItem::ID> ModifiedCraftingReagentItemID?
-int Field_2_5_1_38043_004?
-int Field_2_5_1_38043_005?
-int Field_2_5_1_38043_007?
-int Field_2_5_1_38043_008?
-int Field_2_5_1_38043_009?
+int RequiredLevel?
+int RandomSelect?
+int ItemRandomSuffixGroupID?
 int Field_2_5_1_38043_012?
 int Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
-int Field_2_5_1_38043_015?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -89,18 +85,18 @@ ClassID<u8>
 SubclassID<u8>
 Material<u8>
 InventoryType<8>
-Field_2_5_1_38043_004<32>
-Field_2_5_1_38043_005<u8>
+RequiredLevel<32>
+DamageType<u8>
 SheatheType<u8>
-Field_2_5_1_38043_007<u16>
-Field_2_5_1_38043_008<u16>
-Field_2_5_1_38043_009<8>
+RandomSelect<u16>
+ItemRandomSuffixGroupID<u16>
+Sound_override_subclassID<8>
 ModifiedCraftingReagentItemID<u16>
 IconFileDataID<32>
 Field_2_5_1_38043_012<u8>
 Field_2_5_1_38043_013<32>
-Field_2_5_1_38043_014<u32>
-Field_2_5_1_38043_015<u8>
+MaxDurability<u32>
+AmmoType<u8>
 DisplayInfoID<u32>
 DefensiveStats<16>[7]
 DamageMin<u16>[5]
@@ -113,18 +109,18 @@ ClassID<u8>
 SubclassID<u8>
 Material<u8>
 InventoryType<8>
-Field_2_5_1_38043_004<32>
-Field_2_5_1_38043_005<u8>
+RequiredLevel<32>
+DamageType<u8>
 SheatheType<u8>
-Field_2_5_1_38043_007<u16>
-Field_2_5_1_38043_008<u16>
-Field_2_5_1_38043_009<8>
+RandomSelect<u16>
+ItemRandomSuffixGroupID<u16>
+Sound_override_subclassID<8>
 ModifiedCraftingReagentItemID<u16>
 IconFileDataID<32>
 Field_2_5_1_38043_012<u8>
 Field_2_5_1_38043_013<32>
-Field_2_5_1_38043_014<u32>
-Field_2_5_1_38043_015<u8>
+MaxDurability<u32>
+AmmoType<u8>
 DefensiveStats<16>[7]
 DamageMin<u16>[5]
 DamageMax<u16>[5]
@@ -136,17 +132,17 @@ ClassID<u8>
 SubclassID<u8>
 Material<u8>
 InventoryType<8>
-Field_2_5_1_38043_004<32>
+RequiredLevel<32>
 SheatheType<u8>
-Field_2_5_1_38043_007<u16>
-Field_2_5_1_38043_008<u16>
-Field_2_5_1_38043_009<8>
+RandomSelect<u16>
+ItemRandomSuffixGroupID<u16>
+Sound_override_subclassID<8>
 ModifiedCraftingReagentItemID<u16>
 IconFileDataID<32>
 Field_2_5_1_38043_012<u8>
 Field_2_5_1_38043_013<32>
-Field_2_5_1_38043_014<u32>
-Field_2_5_1_38043_015<u8>
+MaxDurability<u32>
+AmmoType<u8>
 DamageType<u8>[5]
 DefensiveStats<16>[7]
 DamageMin<u16>[5]

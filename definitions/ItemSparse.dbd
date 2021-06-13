@@ -76,17 +76,6 @@ int<ContentTuning::ID> ContentTuningID?
 int<Curve::ID> PlayerLevelToItemLevelCurveID?
 int Field_7_3_2_25549_048? // probably RequiredPVPRank
 int Field_7_3_2_25549_049? // probably RequiredPVPMedal
-int Field_2_5_1_38043_015?
-int Field_2_5_1_38043_022?
-int Field_2_5_1_38043_024?
-int Field_2_5_1_38043_025?
-int Field_2_5_1_38043_026?
-int Field_2_5_1_38043_043?
-int Field_2_5_1_38043_048?
-int Field_2_5_1_38043_050?
-int Field_2_5_1_38043_051?
-int Field_2_5_1_38043_052?
-int Field_2_5_1_38043_064?
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -261,18 +250,18 @@ StatPercentageOfSocket[10]
 StatPercentEditor<32>[10]
 Stackable<32>
 MaxCount<32>
-Field_2_5_1_38043_015<u32>
+RequiredAbility<u32>
 SellPrice<u32>
 BuyPrice<u32>
 VendorStackCount<u32>
 PriceVariance
 PriceRandomValue
 Flags<32>[4]
-Field_2_5_1_38043_022<32>
+OppositeFactionItemID<32>
 MaxDurability<u32>
-Field_2_5_1_38043_024<u16>
-Field_2_5_1_38043_025<u16>
-Field_2_5_1_38043_026<u16>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
 LimitCategory<u16>
 Gem_properties<u16>
 Socket_match_enchantment_ID<u16>
@@ -289,16 +278,16 @@ RequiredSkillRank<u16>
 RequiredSkill<u16>
 ItemLevel<u16>
 AllowableClass<16>
-Field_2_5_1_38043_043<u16>
+ItemRandomSuffixGroupID<u16>
 RandomSelect<u16>
 DamageMin<u16>[5]
 DamageMax<u16>[5]
 DefensiveStats<16>[7]
-Field_2_5_1_38043_048<u16>
+ScalingStatDistributionID<u16>
 ExpansionID<u8>
-Field_2_5_1_38043_050<u8>
-Field_2_5_1_38043_051<u8>
-Field_2_5_1_38043_052<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
 SocketType<u8>[3]
 SheatheType<u8>
 Material<u8>
@@ -310,7 +299,7 @@ StatModifier_bonusStat<8>[10]
 ContainerSlots<u8>
 MinReputation<u8>
 RequiredPVPMedal<u8>
-Field_2_5_1_38043_064<u8>
+RequiredPVPRank<u8>
 InventoryType<u8>
 OverallQualityID<u8>
 AmmoType<u8>

@@ -43,46 +43,28 @@ int Field_3_0_1_8622_013?
 int Field_3_0_1_8622_014?
 int Field_3_0_1_8622_015?
 int Field_3_0_1_8622_016?
-int Field_2_5_1_38043_000?
-int Field_2_5_1_38043_001?
-float Field_2_5_1_38043_002?
-float Field_2_5_1_38043_003?
-float Field_2_5_1_38043_004?
-float Field_2_5_1_38043_005?
-float Field_2_5_1_38043_006?
-float Field_2_5_1_38043_007?
-float Field_2_5_1_38043_008?
-float Field_2_5_1_38043_009?
-float Field_2_5_1_38043_010?
-float Field_2_5_1_38043_011?
-float Field_2_5_1_38043_012?
-int Field_2_5_1_38043_013?
-int Field_2_5_1_38043_014?
-int Field_2_5_1_38043_015?
-int Field_2_5_1_38043_016?
-int Field_2_5_1_38043_017?
 
 LAYOUT 69788D5B
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988
 $noninline,id$ID<32>
-Field_2_5_1_38043_000<32>
-Field_2_5_1_38043_001<u8>
-Field_2_5_1_38043_002
-Field_2_5_1_38043_003
-Field_2_5_1_38043_004
-Field_2_5_1_38043_005
-Field_2_5_1_38043_006
-Field_2_5_1_38043_007
-Field_2_5_1_38043_008
-Field_2_5_1_38043_009
-Field_2_5_1_38043_010
-Field_2_5_1_38043_011
-Field_2_5_1_38043_012
-Field_2_5_1_38043_013<u16>
-Field_2_5_1_38043_014<32>
-Field_2_5_1_38043_015<u8>
-Field_2_5_1_38043_016<u16>[8]
-Field_2_5_1_38043_017<u16>[3]
+Flags<32>
+FlagsB<u8>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+MouseLookOffsetPitch
+CameraFadeDistScalarMin
+CameraFadeDistScalarMax
+CameraPitchOffset
+FacingLimitRight
+FacingLimitLeft
+CameraYawOffset
+VehicleUIIndicatorID<u16>
+MissileTargetingID<32>
+UiLocomotionType<u8>
+SeatID<u16>[8]
+PowerDisplayID<u16>[3]
 
 BUILD 3.0.1.8303
 BUILD 3.0.1.8303-3.0.1.8471

@@ -76,8 +76,6 @@ float AlteredFormCustomizeRotationFallback? // fallback for CharStartKit::Altere
 float Field_9_0_1_35256_033? // probably: fallback for CharStartKit::Field_9_0_1_35256_002
 float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1_35256_003
 int<ChrRaces::ID> HelmetAnimScalingRaceID?
-int Field_2_5_1_38043_019?
-int Field_2_5_1_38043_020?
 float Field_9_1_0_38312_030?
 float Field_9_1_0_38312_031?
 int Field_9_1_0_38783_022?
@@ -217,8 +215,8 @@ $id$ID<32>
 Flags<32>
 MaleDisplayID<u32>
 FemaleDisplayID<u32>
-Field_2_5_1_38043_019<u32>
-Field_2_5_1_38043_020<u32>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
 ResSicknessSpellID<32>
 SplashSoundID<32>
 CreateScreenFileDataID<32>
