@@ -28,7 +28,7 @@ int Subtype
 int Bonus_reputation_amount
 int MentorCharLevel
 int MentorItemLevel
-int FinalEncounterID
+int<JournalEncounter::ID> FinalEncounterID
 int<FileData::ID> IconTextureFileID
 float MinGear
 int<FileData::ID> PopupBgTextureFileID
