@@ -16,7 +16,7 @@ int Field_6_0_1_18179_023?
 int Field_6_0_1_18179_024?
 int ID
 int<SoundEntries::ID> AnimEventSoundID
-int CasterSpellVisualID
+int<SpellVisual::ID> CasterSpellVisualID
 int DamageNumberDelay
 int Flags
 int<SpellVisual::ID> HostileSpellVisualID
@@ -27,8 +27,8 @@ int MissileCastPositionerID
 int MissileDestinationAttachment
 float MissileImpactOffset
 int MissileImpactPositionerID
-int MissileTargetingKit
-int SpellVisualMissileSetID
+int<SpellVisualKit::ID> MissileTargetingKit
+int<SpellVisualMissile::SpellVisualMissileSetID> SpellVisualMissileSetID
 int PrecastKit
 int CastKit
 int ImpactKit
