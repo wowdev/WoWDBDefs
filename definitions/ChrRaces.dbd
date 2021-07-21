@@ -78,18 +78,6 @@ float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1
 int<ChrRaces::ID> HelmetAnimScalingRaceID?
 float Field_9_1_0_38312_030?
 float Field_9_1_0_38312_031?
-int Field_9_1_0_38783_022?
-int Field_9_1_0_38783_026?
-int Field_9_1_0_38783_033?
-int Field_9_1_0_38783_034?
-int Field_9_1_0_38783_035?
-int Field_9_1_0_38783_036?
-int Field_9_1_0_38783_038?
-int Field_9_1_0_38783_040?
-int Field_9_1_0_38783_047?
-int Field_9_1_0_38783_048?
-int Field_9_1_0_38783_049?
-int Field_9_1_0_38783_050?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -1422,32 +1410,32 @@ ResSicknessSpellID<32>
 SplashSoundID<32>
 Alliance<32>
 Race_related<32>
-Field_9_1_0_38783_022<32>
+UnalteredVisualRaceID<32>
 DefaultClassID<32>
 CreateScreenFileDataID<32>
 SelectScreenFileDataID<32>
-Field_9_1_0_38783_026<32>
+NeutralRaceID<32>
 LowResScreenFileDataID<32>
 AlteredFormStartVisualKitID<32>[3]
 AlteredFormFinishVisualKitID<32>[3]
 HeritageArmorAchievementID<32>
 StartingLevel<32>
 UiDisplayOrder<32>
-Field_9_1_0_38783_033<32>
-Field_9_1_0_38783_034<32>
-Field_9_1_0_38783_035<32>
-Field_9_1_0_38783_036<32>
+MaleModelFallbackRaceID<32>
+FemaleModelFallbackRaceID<32>
+MaleTextureFallbackRaceID<32>
+FemaleTextureFallbackRaceID<32>
 PlayableRaceBit<32>
-Field_9_1_0_38783_038<32>
+HelmetAnimScalingRaceID<32>
 TransmogrifyDisabledSlotMask<32>
-Field_9_1_0_38783_040<32>
+UnalteredVisualCustomizationRaceID<32>
 AlteredFormCustomizeOffsetFallback[3]
 AlteredFormCustomizeRotationFallback
 Field_9_1_0_38312_030[3]
 Field_9_1_0_38312_031[3]
 BaseLanguage<8>
 CreatureType<8>
-Field_9_1_0_38783_047<8>
-Field_9_1_0_38783_048<8>
-Field_9_1_0_38783_049<8>
-Field_9_1_0_38783_050<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackSex<8>
