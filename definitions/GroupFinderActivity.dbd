@@ -19,6 +19,21 @@ int<PlayerCondition::ID> PlayerConditionID
 int<ContentTuning::ID> OverrideContentTuningID // If not set, via Area, and if that's not set via Map+Difficulty
 int Field_2_5_1_38043_005? // Either MinLevel or MaxLevelSuggestion
 int Field_2_5_1_38043_013? // Either MinLevel or MaxLevelSuggestion
+locstring Field_2_5_2_39570_000_lang?
+locstring Field_2_5_2_39570_001_lang?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+int Field_2_5_2_39570_006?
+int Field_2_5_2_39570_007?
+int Field_2_5_2_39570_008?
+int Field_2_5_2_39570_009?
+int Field_2_5_2_39570_010?
+int Field_2_5_2_39570_011?
+int Field_2_5_2_39570_012?
+int Field_2_5_2_39570_013?
+int Field_2_5_2_39570_014?
 
 LAYOUT CAA26BD9
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475
@@ -37,6 +52,25 @@ AreaID<u16>
 MaxPlayers<u8>
 DisplayType<u8>
 Field_2_5_1_38043_013<u8>
+
+LAYOUT B3E41C65
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000_lang
+Field_2_5_2_39570_001_lang
+Field_2_5_2_39570_002<u8>
+Field_2_5_2_39570_003<8>
+Field_2_5_2_39570_004<u8>
+Field_2_5_2_39570_005<u8>
+Field_2_5_2_39570_006<u32>
+Field_2_5_2_39570_007<u16>
+Field_2_5_2_39570_008<u16>
+Field_2_5_2_39570_009<u8>
+Field_2_5_2_39570_010<u16>
+Field_2_5_2_39570_011<u8>
+Field_2_5_2_39570_012<u8>
+Field_2_5_2_39570_013<u8>
+Field_2_5_2_39570_014<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>

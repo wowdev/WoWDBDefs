@@ -5,6 +5,20 @@ int<ChrRaces::ID> RaceID
 int SexID
 int<SoundEntries::ID> SoundID
 int<ChrClasses::ID> ClassID
+int Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+
+LAYOUT DDB1DE6E
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<u8>
+Field_2_5_2_39570_001<u8>
+Field_2_5_2_39570_002<u8>
+Field_2_5_2_39570_003<u32>
+$noninline,relation$Field_2_5_2_39570_004<32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

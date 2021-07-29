@@ -12,6 +12,33 @@ int PhaseUseFlags
 int Flags
 int<WorldStateExpression::ID> WorldStateExpressionID
 int<SoundEntriesAdvanced::ID> SoundEntryAdvancedID
+string Field_2_5_2_39570_000?
+float Field_2_5_2_39570_001?
+float Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+int Field_2_5_2_39570_006?
+int Field_2_5_2_39570_007?
+int Field_2_5_2_39570_008?
+int Field_2_5_2_39570_009?
+int Field_2_5_2_39570_010?
+int Field_2_5_2_39570_011?
+
+LAYOUT 595EA255
+BUILD 2.5.2.39570
+Field_2_5_2_39570_000
+Field_2_5_2_39570_001[3]
+Field_2_5_2_39570_002[3]
+$id$Field_2_5_2_39570_003<32>
+Field_2_5_2_39570_004<u32>
+Field_2_5_2_39570_005<u16>
+Field_2_5_2_39570_006<u8>
+Field_2_5_2_39570_007<u16>
+Field_2_5_2_39570_008<u32>
+Field_2_5_2_39570_009<u8>
+Field_2_5_2_39570_010<u8>
+$noninline,relation$Field_2_5_2_39570_011<32>
 
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885

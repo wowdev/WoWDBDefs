@@ -3,6 +3,16 @@ string ParamLabel
 int ParamTypeEnum // 1: param is BattlePetAbilityID
 int ID
 int<BattlePetVisual::ID> BattlePetVisualID
+string Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+
+LAYOUT 1B17CCC2
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000[6]
+Field_2_5_2_39570_001<u16>
+Field_2_5_2_39570_002<u8>[6]
 
 BUILD 5.0.1.15640-5.0.1.15799
 $id$ID<32>

@@ -5,6 +5,18 @@ int RangeIndex
 int MinLevel
 int MaxLevel
 int Difficulty
+int Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+
+LAYOUT CB799A74
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<u8>
+Field_2_5_2_39570_001<u8>
+Field_2_5_2_39570_002<u8>
+$noninline,relation$Field_2_5_2_39570_003<32>
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18273

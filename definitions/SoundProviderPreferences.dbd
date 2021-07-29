@@ -25,6 +25,29 @@ float EAX3HFReference
 float EAX3LFReference
 float EAXEffectVolume
 float EAXDamping
+string Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+float Field_2_5_2_39570_002?
+float Field_2_5_2_39570_003?
+float Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+int Field_2_5_2_39570_006?
+float Field_2_5_2_39570_007?
+int Field_2_5_2_39570_008?
+float Field_2_5_2_39570_009?
+int Field_2_5_2_39570_010?
+float Field_2_5_2_39570_011?
+float Field_2_5_2_39570_012?
+float Field_2_5_2_39570_013?
+int Field_2_5_2_39570_014?
+float Field_2_5_2_39570_015?
+float Field_2_5_2_39570_016?
+float Field_2_5_2_39570_017?
+float Field_2_5_2_39570_018?
+float Field_2_5_2_39570_019?
+float Field_2_5_2_39570_020?
+float Field_2_5_2_39570_021?
+int Field_2_5_2_39570_022?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -81,6 +104,33 @@ EAX3ModulationTime
 EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
+
+LAYOUT 2D23257D
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000
+Field_2_5_2_39570_001<8>
+Field_2_5_2_39570_002
+Field_2_5_2_39570_003
+Field_2_5_2_39570_004
+Field_2_5_2_39570_005<16>
+Field_2_5_2_39570_006<16>
+Field_2_5_2_39570_007
+Field_2_5_2_39570_008<16>
+Field_2_5_2_39570_009
+Field_2_5_2_39570_010<16>
+Field_2_5_2_39570_011
+Field_2_5_2_39570_012
+Field_2_5_2_39570_013
+Field_2_5_2_39570_014<8>
+Field_2_5_2_39570_015
+Field_2_5_2_39570_016
+Field_2_5_2_39570_017
+Field_2_5_2_39570_018
+Field_2_5_2_39570_019
+Field_2_5_2_39570_020
+Field_2_5_2_39570_021
+Field_2_5_2_39570_022<u16>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

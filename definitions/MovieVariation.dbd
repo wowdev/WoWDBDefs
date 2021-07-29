@@ -3,6 +3,16 @@ int ID
 int<Movie::ID> MovieID
 int<FileData::ID> FileDataID
 int<FileData::ID> OverlayFileDataID
+int Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+
+LAYOUT F9F1832A
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<u32>
+Field_2_5_2_39570_001<u32>
+$noninline,relation$Field_2_5_2_39570_002<32>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.3.4.15595

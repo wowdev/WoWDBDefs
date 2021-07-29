@@ -53,6 +53,27 @@ locstring Field_2_0_0_5610_020_lang?
 int Field_1_5_0_4442_014?
 int Field_3_0_2_9056_021?
 int Field_1_7_0_4671_015?
+string Field_2_5_2_39570_000?
+locstring Field_2_5_2_39570_001_lang?
+locstring Field_2_5_2_39570_002_lang?
+locstring Field_2_5_2_39570_003_lang?
+locstring Field_2_5_2_39570_004_lang?
+locstring Field_2_5_2_39570_005_lang?
+int Field_2_5_2_39570_006?
+int Field_2_5_2_39570_007?
+int Field_2_5_2_39570_008?
+int Field_2_5_2_39570_009?
+int Field_2_5_2_39570_010?
+int Field_2_5_2_39570_011?
+int Field_2_5_2_39570_012?
+int Field_2_5_2_39570_013?
+int Field_2_5_2_39570_014?
+float Field_2_5_2_39570_015?
+int Field_2_5_2_39570_016?
+int Field_2_5_2_39570_017?
+int Field_2_5_2_39570_018?
+int Field_2_5_2_39570_019?
+int Field_2_5_2_39570_020?
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
@@ -317,6 +338,31 @@ MaxPlayers<u8>
 WindSettingsID<16>
 ZmpFileDataID<32>
 Flags<32>[2]
+
+LAYOUT C08A6797
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000
+Field_2_5_2_39570_001_lang
+Field_2_5_2_39570_002_lang
+Field_2_5_2_39570_003_lang
+Field_2_5_2_39570_004_lang
+Field_2_5_2_39570_005_lang
+Field_2_5_2_39570_006<u8>
+Field_2_5_2_39570_007<8>
+Field_2_5_2_39570_008<u8>
+Field_2_5_2_39570_009<u16>
+Field_2_5_2_39570_010<16>
+Field_2_5_2_39570_011<16>
+Field_2_5_2_39570_012<16>
+Field_2_5_2_39570_013<16>
+Field_2_5_2_39570_014<u8>
+Field_2_5_2_39570_015
+Field_2_5_2_39570_016<16>
+Field_2_5_2_39570_017<u8>
+Field_2_5_2_39570_018<16>
+Field_2_5_2_39570_019<32>
+Field_2_5_2_39570_020<32>[2]
 
 BUILD 3.0.1.8303-3.0.1.8770
 BUILD 2.4.0.8089-2.4.3.8606

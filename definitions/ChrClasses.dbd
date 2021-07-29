@@ -47,6 +47,30 @@ int Field_2_0_0_6080_009?
 locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
 locstring Hyphenated_name_female_lang?
 int Field_2_5_1_38043_011?
+locstring Field_2_5_2_39570_000_lang?
+string Field_2_5_2_39570_001?
+locstring Field_2_5_2_39570_002_lang?
+locstring Field_2_5_2_39570_003_lang?
+string Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+int Field_2_5_2_39570_006?
+int Field_2_5_2_39570_007?
+int Field_2_5_2_39570_008?
+int Field_2_5_2_39570_009?
+int Field_2_5_2_39570_010?
+int Field_2_5_2_39570_011?
+int Field_2_5_2_39570_012?
+int Field_2_5_2_39570_013?
+int Field_2_5_2_39570_014?
+int Field_2_5_2_39570_015?
+int Field_2_5_2_39570_016?
+int Field_2_5_2_39570_017?
+int Field_2_5_2_39570_018?
+int Field_2_5_2_39570_019?
+int Field_2_5_2_39570_020?
+int Field_2_5_2_39570_021?
+int Field_2_5_2_39570_022?
+int Field_2_5_2_39570_023?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -190,6 +214,33 @@ AttackPowerPerStrength<u8>
 SpellClassSet<u8>
 DamageBonusStat<u8>
 HasRelicSlot<u8>
+
+LAYOUT C9F80A6A
+BUILD 2.5.2.39570
+Field_2_5_2_39570_000_lang
+Field_2_5_2_39570_001
+Field_2_5_2_39570_002_lang
+Field_2_5_2_39570_003_lang
+Field_2_5_2_39570_004
+$id$Field_2_5_2_39570_005<32>
+Field_2_5_2_39570_006<u32>
+Field_2_5_2_39570_007<u32>
+Field_2_5_2_39570_008<u32>
+Field_2_5_2_39570_009<u32>
+Field_2_5_2_39570_010<32>
+Field_2_5_2_39570_011<u32>
+Field_2_5_2_39570_012<u16>
+Field_2_5_2_39570_013<u16>
+Field_2_5_2_39570_014<u16>
+Field_2_5_2_39570_015<u8>
+Field_2_5_2_39570_016<u8>
+Field_2_5_2_39570_017<u8>
+Field_2_5_2_39570_018<u8>
+Field_2_5_2_39570_019<u8>
+Field_2_5_2_39570_020<u8>
+Field_2_5_2_39570_021<u8>
+Field_2_5_2_39570_022<u8>
+Field_2_5_2_39570_023<u8>
 
 BUILD 3.0.1.8303-3.0.1.8471
 BUILD 2.4.0.8089-2.4.3.8606

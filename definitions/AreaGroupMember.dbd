@@ -2,6 +2,14 @@ COLUMNS
 int ID
 int<AreaGroup::ID> AreaGroupID
 int<AreaTable::ID> AreaID
+int Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+
+LAYOUT E55374B3
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<u16>
+$noninline,relation$Field_2_5_2_39570_001<32>
 
 LAYOUT 5090E5D2
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

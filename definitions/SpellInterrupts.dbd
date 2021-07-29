@@ -5,6 +5,20 @@ int<Difficulty::ID> DifficultyID
 int AuraInterruptFlags
 int ChannelInterruptFlags
 int InterruptFlags
+int Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+
+LAYOUT 62CE2641
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<u8>
+Field_2_5_2_39570_001<16>
+Field_2_5_2_39570_002<32>[2]
+Field_2_5_2_39570_003<32>[2]
+$noninline,relation$Field_2_5_2_39570_004<32>
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.0.0.12232-4.3.4.15595

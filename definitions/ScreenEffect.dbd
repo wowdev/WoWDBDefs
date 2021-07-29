@@ -13,6 +13,34 @@ int TimeOfDayOverride
 int EffectMask
 int<FullScreenEffect::ID> FullScreenEffectID
 int Field_3_0_1_8303_001?
+string Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+int Field_2_5_2_39570_006?
+int Field_2_5_2_39570_007?
+int Field_2_5_2_39570_008?
+int Field_2_5_2_39570_009?
+int Field_2_5_2_39570_010?
+int Field_2_5_2_39570_011?
+
+LAYOUT 82E76E04
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000
+Field_2_5_2_39570_001<32>[4]
+Field_2_5_2_39570_002<8>
+Field_2_5_2_39570_003<u32>
+Field_2_5_2_39570_004<u16>
+Field_2_5_2_39570_005<u16>
+Field_2_5_2_39570_006<u16>
+Field_2_5_2_39570_007<u32>
+Field_2_5_2_39570_008<u32>
+Field_2_5_2_39570_009<16>
+Field_2_5_2_39570_010<8>
+Field_2_5_2_39570_011<u8>
 
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>

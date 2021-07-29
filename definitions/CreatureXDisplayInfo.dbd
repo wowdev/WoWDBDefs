@@ -5,6 +5,20 @@ int<Creature::ID> CreatureID
 float Probability
 float Scale
 int OrderIndex
+int Field_2_5_2_39570_000?
+float Field_2_5_2_39570_001?
+float Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+
+LAYOUT 6153D141
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<32>
+Field_2_5_2_39570_001
+Field_2_5_2_39570_002
+Field_2_5_2_39570_003<u8>
+$noninline,relation$Field_2_5_2_39570_004<32>
 
 LAYOUT BB3E4A30
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175

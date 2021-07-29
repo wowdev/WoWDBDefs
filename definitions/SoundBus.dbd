@@ -11,6 +11,25 @@ int DefaultPlaybackLimit
 int RaidPlaybackLimit
 int BusEnumID
 int Flags
+int Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+float Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+int Field_2_5_2_39570_006?
+int Field_2_5_2_39570_007?
+
+LAYOUT 2F26A438
+BUILD 2.5.2.39570
+$id$Field_2_5_2_39570_000<32>
+Field_2_5_2_39570_001<u8>
+Field_2_5_2_39570_002<u8>
+Field_2_5_2_39570_003<u8>
+Field_2_5_2_39570_004
+Field_2_5_2_39570_005<u8>
+Field_2_5_2_39570_006<8>
+$noninline,relation$Field_2_5_2_39570_007<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>

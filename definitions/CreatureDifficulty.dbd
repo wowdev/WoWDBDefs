@@ -10,6 +10,24 @@ int<ContentTuning::ID> ContentTuningID
 int Field_9_0_1_35522_003Min? // Level randomness?
 int Field_9_0_1_35522_003Max?
 int<Difficulty::ID> DifficultyID
+int Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+int Field_2_5_2_39570_006?
+
+LAYOUT 833D355A
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<8>
+Field_2_5_2_39570_001<8>
+Field_2_5_2_39570_002<8>
+Field_2_5_2_39570_003<u16>
+Field_2_5_2_39570_004<32>
+Field_2_5_2_39570_005<32>[8]
+$noninline,relation$Field_2_5_2_39570_006<32>
 
 BUILD 5.0.1.15589-5.3.0.17116
 $id$ID<32>

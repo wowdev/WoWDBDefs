@@ -5,6 +5,18 @@ string Domain
 int GrantAccess
 int RevokeAccess
 int WowEditInternal
+string Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+
+LAYOUT 543DDD18
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000
+Field_2_5_2_39570_001<u8>
+Field_2_5_2_39570_002<u8>
+Field_2_5_2_39570_003<u8>
 
 BUILD 6.0.1.18179
 BUILD 5.3.0.16965-5.4.8.18414

@@ -10,6 +10,30 @@ int OverrideAttachBot
 int OverrideAttachTop
 float SmoothSampleAngle
 int<WeaponTrail::ID> WeaponTrailID
+int Field_2_5_2_39570_000?
+float Field_2_5_2_39570_001?
+float Field_2_5_2_39570_002?
+float Field_2_5_2_39570_003?
+float Field_2_5_2_39570_004?
+float Field_2_5_2_39570_005?
+int Field_2_5_2_39570_006?
+int Field_2_5_2_39570_007?
+int Field_2_5_2_39570_008?
+int Field_2_5_2_39570_009?
+
+LAYOUT 0AFAAF35
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<u8>
+Field_2_5_2_39570_001
+Field_2_5_2_39570_002
+Field_2_5_2_39570_003
+Field_2_5_2_39570_004
+Field_2_5_2_39570_005
+Field_2_5_2_39570_006<8>
+Field_2_5_2_39570_007<8>
+Field_2_5_2_39570_008<u8>
+$noninline,relation$Field_2_5_2_39570_009<32>
 
 LAYOUT D8440BEE
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

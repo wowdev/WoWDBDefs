@@ -5,6 +5,11 @@ int<Faction::ID> FactionID
 int<FileData::ID> IconFileDataID
 int<QuestV2::ID> QuestID
 int<PlayerCondition::ID> TurninPlayerConditionID
+int Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
 
 LAYOUT 5EBAD61B
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475
@@ -14,6 +19,15 @@ FactionID<u16>
 IconFileDataID<u32>
 TurninPlayerConditionID<u32>
 $noninline,relation$BountySetID<u8>
+
+LAYOUT F58B46A2
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<u32>
+Field_2_5_2_39570_001<u16>
+Field_2_5_2_39570_002<u32>
+Field_2_5_2_39570_003<u32>
+$noninline,relation$Field_2_5_2_39570_004<32>
 
 LAYOUT F2EF7A61
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

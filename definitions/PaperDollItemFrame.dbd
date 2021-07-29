@@ -4,6 +4,16 @@ string SlotIcon
 int SlotNumber
 int ID
 int<FileData::ID> SlotIconFileID
+string Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+
+LAYOUT 828E8A54
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000
+Field_2_5_2_39570_001<32>
+Field_2_5_2_39570_002<u8>
 
 BUILD 0.5.3.3368
 BUILD 3.0.1.8303-3.3.5.12340

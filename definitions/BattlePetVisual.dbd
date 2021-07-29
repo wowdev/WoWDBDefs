@@ -7,6 +7,24 @@ int ImpactMilliSeconds
 int RangeTypeEnum
 int<SceneScriptPackage::ID> SceneScriptPackageID
 int<SpellVisual::ID> SpellVisualID
+string Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+int Field_2_5_2_39570_006?
+
+LAYOUT 396EBE73
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000
+Field_2_5_2_39570_001<u32>
+Field_2_5_2_39570_002<u16>
+Field_2_5_2_39570_003<u16>
+Field_2_5_2_39570_004<8>
+Field_2_5_2_39570_005<u8>
+Field_2_5_2_39570_006<u16>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

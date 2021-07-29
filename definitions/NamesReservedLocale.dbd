@@ -2,6 +2,14 @@ COLUMNS
 int ID
 string Name
 int LocaleMask
+string Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+
+LAYOUT 939EBBCF
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000
+Field_2_5_2_39570_001<u8>
 
 BUILD 6.0.1.18179
 BUILD 5.2.0.16516-5.4.8.18414

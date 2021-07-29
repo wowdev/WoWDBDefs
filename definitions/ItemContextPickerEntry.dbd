@@ -6,6 +6,22 @@ int ItemCreationContext
 int OrderIndex
 int PVal
 int<PlayerCondition::ID> PlayerConditionID
+int Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+
+LAYOUT D8F88806
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<u8>
+Field_2_5_2_39570_001<u8>
+Field_2_5_2_39570_002<32>
+Field_2_5_2_39570_003<u32>
+Field_2_5_2_39570_004<u32>
+$noninline,relation$Field_2_5_2_39570_005<32>
 
 LAYOUT EEF82C36
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492

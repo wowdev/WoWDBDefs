@@ -15,6 +15,41 @@ float ZoomedPitchOffset
 float ZoomedRollOffset
 float ZoomedTargetOffset
 float ZoomedYawOffset
+string Field_2_5_2_39570_000?
+float Field_2_5_2_39570_001?
+float Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+float Field_2_5_2_39570_006?
+float Field_2_5_2_39570_007?
+float Field_2_5_2_39570_008?
+float Field_2_5_2_39570_009?
+float Field_2_5_2_39570_010?
+float Field_2_5_2_39570_011?
+float Field_2_5_2_39570_012?
+float Field_2_5_2_39570_013?
+float Field_2_5_2_39570_014?
+int Field_2_5_2_39570_015?
+
+LAYOUT 3580F257
+BUILD 2.5.2.39570
+Field_2_5_2_39570_000
+Field_2_5_2_39570_001[3]
+Field_2_5_2_39570_002[3]
+$id$Field_2_5_2_39570_003<32>
+Field_2_5_2_39570_004<u8>
+Field_2_5_2_39570_005<u8>
+Field_2_5_2_39570_006
+Field_2_5_2_39570_007
+Field_2_5_2_39570_008
+Field_2_5_2_39570_009
+Field_2_5_2_39570_010
+Field_2_5_2_39570_011
+Field_2_5_2_39570_012
+Field_2_5_2_39570_013
+Field_2_5_2_39570_014
+$noninline,relation$Field_2_5_2_39570_015<32>
 
 LAYOUT C58AA5EC
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

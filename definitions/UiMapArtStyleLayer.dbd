@@ -9,6 +9,28 @@ float MinScale
 int TileHeight
 int TileWidth
 int UiMapArtStyleID
+int Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+float Field_2_5_2_39570_005?
+float Field_2_5_2_39570_006?
+int Field_2_5_2_39570_007?
+int Field_2_5_2_39570_008?
+
+LAYOUT 7123828B
+BUILD 2.5.2.39570
+$noninline,id$ID<32>
+Field_2_5_2_39570_000<u8>
+Field_2_5_2_39570_001<u16>
+Field_2_5_2_39570_002<u16>
+Field_2_5_2_39570_003<u16>
+Field_2_5_2_39570_004<u16>
+Field_2_5_2_39570_005
+Field_2_5_2_39570_006
+Field_2_5_2_39570_007<32>
+$noninline,relation$Field_2_5_2_39570_008<32>
 
 LAYOUT 15D83644
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610

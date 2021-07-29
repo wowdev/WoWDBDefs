@@ -11,6 +11,33 @@ int<UiCanvas::ID> UiCanvasID
 int<UiTextureAtlasElement::ID> UiTextureAtlasElementID
 int OverrideWidth // if > 0, use instead of right - left
 int OverrideHeight // if > 0, use instead of bottom - top
+string Field_2_5_2_39570_000?
+int Field_2_5_2_39570_001?
+int Field_2_5_2_39570_002?
+int Field_2_5_2_39570_003?
+int Field_2_5_2_39570_004?
+int Field_2_5_2_39570_005?
+int Field_2_5_2_39570_006?
+int Field_2_5_2_39570_007?
+int Field_2_5_2_39570_008?
+int Field_2_5_2_39570_009?
+int Field_2_5_2_39570_010?
+int Field_2_5_2_39570_011?
+
+LAYOUT BD0C10F6
+BUILD 2.5.2.39570
+Field_2_5_2_39570_000
+$id$Field_2_5_2_39570_001<32>
+Field_2_5_2_39570_002<u16>
+Field_2_5_2_39570_003<16>
+Field_2_5_2_39570_004<16>
+Field_2_5_2_39570_005<16>
+Field_2_5_2_39570_006<16>
+$relation$Field_2_5_2_39570_007<u16>
+Field_2_5_2_39570_008<16>
+Field_2_5_2_39570_009<16>
+Field_2_5_2_39570_010<8>
+Field_2_5_2_39570_011<u8>
 
 BUILD 6.0.1.18179
 $id$ID<32>
