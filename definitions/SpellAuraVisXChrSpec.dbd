@@ -4,7 +4,7 @@ int<SpellAuraVisibility::ID> SpellAuraVisibilityID
 int<ChrSpecialization::ID> ChrSpecializationID
 
 LAYOUT 66548CBA
-BUILD 2.5.2.39570
+BUILD 2.5.2.39570, 2.5.2.39618
 $noninline,id$ID<32>
 ChrSpecializationID<16>
 $noninline,relation$SpellAuraVisibilityID<32>

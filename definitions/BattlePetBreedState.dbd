@@ -5,7 +5,7 @@ int<BattlePetState::ID> BattlePetStateID
 int Value
 
 LAYOUT 81A935E5
-BUILD 2.5.2.39570
+BUILD 2.5.2.39570, 2.5.2.39618
 $noninline,id$ID<32>
 BattlePetStateID<u8>
 Value<u16>

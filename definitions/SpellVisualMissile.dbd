@@ -39,7 +39,7 @@ AnimKitID<u32>
 $noninline,relation$SpellVisualMissileSetID<u16>
 
 LAYOUT E760A338
-BUILD 2.5.2.39570
+BUILD 2.5.2.39570, 2.5.2.39618
 CastOffset[3]
 ImpactOffset[3]
 $id$ID<32>
@@ -55,7 +55,7 @@ FollowGroundApproach<u16>
 Flags<u32>
 SpellMissileMotionID<u16>
 AnimKitID<u32>
-$noninline,relation$SpellVisualMissileSetID<u16>
+$noninline,relation$SpellVisualMissileSetID<16>
 
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>

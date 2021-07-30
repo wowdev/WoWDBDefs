@@ -4,7 +4,7 @@ int<FileData::ID> FileDataID
 int<RibbonQuality::ID> RibbonQualityID
 
 LAYOUT 71C06725
-BUILD 2.5.2.39570
+BUILD 2.5.2.39570, 2.5.2.39618
 $noninline,id$ID<32>
 RibbonQualityID<u8>
 $noninline,relation$FileDataID<32>
