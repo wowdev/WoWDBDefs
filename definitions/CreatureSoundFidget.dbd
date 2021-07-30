@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<SoundEntries::ID> Fidget?
+int<SoundKit::ID> Fidget?
 int Index?
 int<CreatureSoundData::ID> CreatureSoundDataID
 
