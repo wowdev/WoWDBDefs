@@ -5,20 +5,15 @@ float AuraPointsOverride
 int<ItemBonusList::ID> ItemBonusListID
 int RankIndex
 int<Spell::ID> SpellID
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-float Field_2_5_2_39570_003?
-int Field_2_5_2_39570_004?
 
 LAYOUT D992FCE6
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<u8>
-Field_2_5_2_39570_001<32>
-Field_2_5_2_39570_002<u16>
-Field_2_5_2_39570_003
-$noninline,relation$Field_2_5_2_39570_004<32>
+RankIndex<u8>
+SpellID<32>
+ItemBonusListID<u16>
+AuraPointsOverride
+$noninline,relation$ArtifactPowerID<32>
 
 LAYOUT 137FD462
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

@@ -32,29 +32,6 @@ int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
 int<ContentTuning::ID> ContentTuningID
-string Field_2_5_2_39570_000?
-locstring Field_2_5_2_39570_001_lang?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
-int Field_2_5_2_39570_004?
-int Field_2_5_2_39570_005?
-int Field_2_5_2_39570_006?
-int Field_2_5_2_39570_007?
-int Field_2_5_2_39570_008?
-int Field_2_5_2_39570_009?
-int Field_2_5_2_39570_010?
-int Field_2_5_2_39570_011?
-int Field_2_5_2_39570_012?
-int Field_2_5_2_39570_013?
-int Field_2_5_2_39570_014?
-float Field_2_5_2_39570_015?
-int Field_2_5_2_39570_016?
-int Field_2_5_2_39570_017?
-int Field_2_5_2_39570_018?
-int Field_2_5_2_39570_019?
-int Field_2_5_2_39570_020?
-int Field_2_5_2_39570_021?
-int Field_2_5_2_39570_022?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -172,29 +149,29 @@ FactionGroupMask<32>
 LAYOUT 2AFB00FF
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000
-Field_2_5_2_39570_001_lang
-Field_2_5_2_39570_002<u16>
-Field_2_5_2_39570_003<u16>
-Field_2_5_2_39570_004<16>
-Field_2_5_2_39570_005<u8>
-Field_2_5_2_39570_006<u8>
-Field_2_5_2_39570_007<u16>
-Field_2_5_2_39570_008<u16>
-Field_2_5_2_39570_009<u16>
-Field_2_5_2_39570_010<u16>
-Field_2_5_2_39570_011<8>
-Field_2_5_2_39570_012<u16>
-Field_2_5_2_39570_013<u32>
-Field_2_5_2_39570_014<u8>
-Field_2_5_2_39570_015
-Field_2_5_2_39570_016<u8>
-Field_2_5_2_39570_017<16>
-Field_2_5_2_39570_018<u8>
-Field_2_5_2_39570_019<u8>
-Field_2_5_2_39570_020<u8>
-Field_2_5_2_39570_021<32>[2]
-Field_2_5_2_39570_022<u16>[4]
+ZoneName
+AreaName_lang
+ContinentID<u16>
+ParentAreaID<u16>
+AreaBit<16>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+AmbienceID<u16>
+UwAmbience<u16>
+ZoneMusic<u16>
+UwZoneMusic<u16>
+ExplorationLevel<8>
+IntroSound<u16>
+UwIntroSound<u32>
+FactionGroupMask<u8>
+Ambient_multiplier
+MountFlags<u8>
+PvpCombatWorldStateID<16>
+WildBattlePetLevelMin<u8>
+WildBattlePetLevelMax<u8>
+WindSettingsID<u8>
+Flags<32>[2]
+LiquidTypeID<u16>[4]
 
 BUILD 3.0.1.8303-3.0.1.8471
 BUILD 2.0.0.6080-2.4.3.8606

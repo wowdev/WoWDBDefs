@@ -8,27 +8,18 @@ int Flags
 int ForgeAttachmentOverride
 locstring Name_lang
 int<UiCamera::ID> UiCameraID
-locstring Field_2_5_2_39570_000_lang?
-locstring Field_2_5_2_39570_001_lang?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
-int Field_2_5_2_39570_004?
-int Field_2_5_2_39570_005?
-int Field_2_5_2_39570_006?
-int Field_2_5_2_39570_007?
-int Field_2_5_2_39570_008?
 
 LAYOUT 69D89033
 BUILD 2.5.2.39570
-Field_2_5_2_39570_000_lang
-Field_2_5_2_39570_001_lang
-$id$Field_2_5_2_39570_002<u32>
-Field_2_5_2_39570_003<u8>
-Field_2_5_2_39570_004<u16>
-Field_2_5_2_39570_005<u16>
-Field_2_5_2_39570_006<8>
-Field_2_5_2_39570_007<u8>
-$noninline,relation$Field_2_5_2_39570_008<32>
+Name_lang
+Description_lang
+$id$ID<u32>
+DisplayIndex<u8>
+UiCameraID<u16>
+AltHandUICameraID<u16>
+ForgeAttachmentOverride<8>
+Flags<u8>
+$noninline,relation$ArtifactID<32>
 
 LAYOUT F3308990
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
