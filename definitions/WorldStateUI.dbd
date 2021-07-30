@@ -19,23 +19,6 @@ int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
-string Field_2_5_2_39570_000?
-locstring Field_2_5_2_39570_001_lang?
-locstring Field_2_5_2_39570_002_lang?
-locstring Field_2_5_2_39570_003_lang?
-string Field_2_5_2_39570_004?
-int Field_2_5_2_39570_005?
-int Field_2_5_2_39570_006?
-int Field_2_5_2_39570_007?
-int Field_2_5_2_39570_008?
-int Field_2_5_2_39570_009?
-int Field_2_5_2_39570_010?
-int Field_2_5_2_39570_011?
-int Field_2_5_2_39570_012?
-int Field_2_5_2_39570_013?
-int Field_2_5_2_39570_014?
-int Field_2_5_2_39570_015?
-int Field_2_5_2_39570_016?
 
 BUILD 2.0.0.5991
 BUILD 1.5.0.4442-1.11.2.5464
@@ -72,23 +55,23 @@ ExtendedUIStateVariable<u16>[3]
 
 LAYOUT B319BAE8
 BUILD 2.5.2.39570
-Field_2_5_2_39570_000
-Field_2_5_2_39570_001_lang
-Field_2_5_2_39570_002_lang
-Field_2_5_2_39570_003_lang
-Field_2_5_2_39570_004
-$id$Field_2_5_2_39570_005<32>
-$relation$Field_2_5_2_39570_006<16>
-Field_2_5_2_39570_007<u16>
-Field_2_5_2_39570_008<u16>
-Field_2_5_2_39570_009<u8>
-Field_2_5_2_39570_010<32>
-Field_2_5_2_39570_011<32>
-Field_2_5_2_39570_012<u8>
-Field_2_5_2_39570_013<u8>
-Field_2_5_2_39570_014<u16>
-Field_2_5_2_39570_015<u16>
-Field_2_5_2_39570_016<u16>[3]
+Icon
+String_lang
+Tooltip_lang
+DynamicTooltip_lang
+ExtendedUI
+$id$ID<32>
+$relation$MapID<16>
+AreaID<u16>
+StateVariable<u16>
+Type<u8>
+DynamicIconFileID<32>
+DynamicFlashIconFileID<32>
+OrderIndex<u8>
+PhaseUseFlags<u8>
+PhaseID<u16>
+PhaseGroupID<u16>
+ExtendedUIStateVariable<u16>[3]
 
 BUILD 3.0.1.8303
 BUILD 3.0.1.8303-3.0.1.8471

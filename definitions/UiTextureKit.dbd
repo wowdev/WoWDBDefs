@@ -1,12 +1,11 @@
 COLUMNS
 string KitPrefix
 int ID
-string Field_2_5_2_39570_000?
 
 LAYOUT D387CFB7
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000
+KitPrefix
 
 BUILD 6.0.1.18179
 $id$ID<32>

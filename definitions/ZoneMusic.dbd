@@ -9,10 +9,6 @@ string MusicFile // NUM_AMBIENCES
 int SegmentLength // NUM_AMBIENCES
 int SegmentPlayMin // NUM_AMBIENCES
 int SegmentPlayMax // NUM_AMBIENCES
-string Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -37,10 +33,10 @@ Sounds<32>[2]
 LAYOUT 491CF01E
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000
-Field_2_5_2_39570_001<u32>[2]
-Field_2_5_2_39570_002<u32>[2]
-Field_2_5_2_39570_003<u32>[2]
+SetName
+SilenceIntervalMin<u32>[2]
+SilenceIntervalMax<u32>[2]
+Sounds<u32>[2]
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

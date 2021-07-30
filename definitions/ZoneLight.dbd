@@ -8,10 +8,6 @@ float Zmin
 float Zmax
 int TransitionType?
 int<PlayerCondition::ID> PlayerConditionID
-string Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
 int Field_2_5_2_39570_004?
 
 LAYOUT 337901C8
@@ -25,10 +21,10 @@ Flags<u8>
 LAYOUT 8401424D
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000
-Field_2_5_2_39570_001<u16>
-Field_2_5_2_39570_002<u16>
-Field_2_5_2_39570_003<u8>
+Name
+MapID<u16>
+LightID<u16>
+Flags<u8>
 Field_2_5_2_39570_004<32>
 
 BUILD 6.0.1.18179

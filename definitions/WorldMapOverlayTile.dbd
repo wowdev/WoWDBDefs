@@ -5,20 +5,15 @@ int<FileData::ID> FileDataID
 int LayerIndex
 int RowIndex
 int<WorldMapOverlay::ID> WorldMapOverlayID
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
-int Field_2_5_2_39570_004?
 
 LAYOUT 40F5F817
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<u8>
-Field_2_5_2_39570_001<u8>
-Field_2_5_2_39570_002<u8>
-Field_2_5_2_39570_003<32>
-$noninline,relation$Field_2_5_2_39570_004<32>
+RowIndex<u8>
+ColIndex<u8>
+LayerIndex<u8>
+FileDataID<32>
+$noninline,relation$WorldMapOverlayID<32>
 
 LAYOUT 49FF1B46
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
