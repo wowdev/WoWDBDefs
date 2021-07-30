@@ -3,16 +3,13 @@ int ID
 int<GameObjects::ID> GameObjectsID
 int TimeIndex
 float Rot
-float Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
 
 LAYOUT 9BBA6ACB
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000[4]
-Field_2_5_2_39570_001<u32>
-$noninline,relation$Field_2_5_2_39570_002<32>
+Rot[4]
+TimeIndex<u32>
+$noninline,relation$GameObjectsID<32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

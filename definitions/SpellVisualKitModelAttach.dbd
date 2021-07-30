@@ -27,53 +27,31 @@ float YawVariation
 int Field_4_0_6_13623_008?
 float Field_9_0_1_33978_021?
 int Field_7_3_2_25549_000? // always matches ParentSpellVisualKitID relation?
-float Field_2_5_2_39570_000?
-float Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
-int Field_2_5_2_39570_004?
-int Field_2_5_2_39570_005?
-float Field_2_5_2_39570_006?
-float Field_2_5_2_39570_007?
-float Field_2_5_2_39570_008?
-float Field_2_5_2_39570_009?
-float Field_2_5_2_39570_010?
-float Field_2_5_2_39570_011?
-float Field_2_5_2_39570_012?
-float Field_2_5_2_39570_013?
-int Field_2_5_2_39570_014?
-int Field_2_5_2_39570_015?
-int Field_2_5_2_39570_016?
-int Field_2_5_2_39570_017?
-int Field_2_5_2_39570_018?
-int Field_2_5_2_39570_019?
-float Field_2_5_2_39570_020?
-int Field_2_5_2_39570_021?
 
 LAYOUT 6A8BE635
 BUILD 2.5.2.39570
-Field_2_5_2_39570_000[3]
-Field_2_5_2_39570_001[3]
-$id$Field_2_5_2_39570_002<32>
-Field_2_5_2_39570_003<u16>
-Field_2_5_2_39570_004<8>
-Field_2_5_2_39570_005<u16>
-Field_2_5_2_39570_006
-Field_2_5_2_39570_007
-Field_2_5_2_39570_008
-Field_2_5_2_39570_009
-Field_2_5_2_39570_010
-Field_2_5_2_39570_011
-Field_2_5_2_39570_012
-Field_2_5_2_39570_013
-Field_2_5_2_39570_014<16>
-Field_2_5_2_39570_015<16>
-Field_2_5_2_39570_016<16>
-Field_2_5_2_39570_017<u16>
-Field_2_5_2_39570_018<u8>
-Field_2_5_2_39570_019<u32>
-Field_2_5_2_39570_020
-$noninline,relation$Field_2_5_2_39570_021<32>
+Offset[3]
+OffsetVariation[3]
+$id$ID<32>
+SpellVisualEffectNameID<u16>
+AttachmentID<8>
+PositionerID<u16>
+Yaw
+Pitch
+Roll
+YawVariation
+PitchVariation
+RollVariation
+Scale
+ScaleVariation
+StartAnimID<16>
+AnimID<16>
+EndAnimID<16>
+AnimKitID<u16>
+Flags<u8>
+LowDefModelAttachID<u32>
+StartDelay
+$noninline,relation$ParentSpellVisualKitID<32>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13596
