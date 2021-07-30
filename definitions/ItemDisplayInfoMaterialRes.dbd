@@ -3,16 +3,13 @@ int ID
 int ComponentSection
 int<ItemDisplayInfo::ID> ItemDisplayInfoID
 int<TextureFileData::MaterialResourcesID> MaterialResourcesID
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
 
 LAYOUT C4DFD0DA
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<8>
-Field_2_5_2_39570_001<32>
-$noninline,relation$Field_2_5_2_39570_002<32>
+ComponentSection<8>
+MaterialResourcesID<32>
+$noninline,relation$ItemDisplayInfoID<32>
 
 LAYOUT 0B36789F
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

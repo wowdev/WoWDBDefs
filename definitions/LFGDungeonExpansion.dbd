@@ -7,24 +7,17 @@ int Hard_level_min
 int Hard_level_max
 int Target_level_min
 int Target_level_max
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
-int Field_2_5_2_39570_004?
-int Field_2_5_2_39570_005?
-int Field_2_5_2_39570_006?
 
 LAYOUT C96332BB
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<u8>
-Field_2_5_2_39570_001<u16>
-Field_2_5_2_39570_002<u8>
-Field_2_5_2_39570_003<u8>
-Field_2_5_2_39570_004<32>
-Field_2_5_2_39570_005<32>
-$noninline,relation$Field_2_5_2_39570_006<32>
+Expansion_level<u8>
+Random_ID<u16>
+Hard_level_min<u8>
+Hard_level_max<u8>
+Target_level_min<32>
+Target_level_max<32>
+$noninline,relation$Lfg_ID<32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

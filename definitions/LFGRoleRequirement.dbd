@@ -6,16 +6,13 @@ int<LFGDungeons::ID> LfgDungeonsID
 int Field_6_0_1_18179_001?
 int Field_6_0_1_18179_002?
 int Field_6_0_1_18179_003?
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
 
 LAYOUT CE4F29ED
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<8>
-Field_2_5_2_39570_001<u32>
-$noninline,relation$Field_2_5_2_39570_002<32>
+RoleType<8>
+PlayerConditionID<u32>
+$noninline,relation$LfgDungeonsID<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>
