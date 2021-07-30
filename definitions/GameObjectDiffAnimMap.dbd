@@ -4,18 +4,14 @@ int GameObjectDiffAnimID
 int<Difficulty::ID> DifficultyID
 int Animation
 int AttachmentDisplayID
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
 
 LAYOUT 55525850
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<u8>
-Field_2_5_2_39570_001<u8>
-Field_2_5_2_39570_002<u16>
-$noninline,relation$Field_2_5_2_39570_003<32>
+DifficultyID<u8>
+Animation<u8>
+AttachmentDisplayID<u16>
+$noninline,relation$GameObjectDiffAnimID<32>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

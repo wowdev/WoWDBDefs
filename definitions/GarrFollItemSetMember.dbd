@@ -4,18 +4,14 @@ int<GarrFollItemSet::ID> GarrFollItemSetID
 int<Item::ID> ItemID
 int ItemSlot // GARR_FOLLOWER_ITEM_SLOT: 0: Mainhand; 1: Offhand; 2: Armor
 int MinItemLevel
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
 
 LAYOUT 1E95C23A
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<32>
-Field_2_5_2_39570_001<u8>
-Field_2_5_2_39570_002<u16>
-$noninline,relation$Field_2_5_2_39570_003<32>
+ItemID<32>
+ItemSlot<u8>
+MinItemLevel<u16>
+$noninline,relation$GarrFollItemSetID<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>

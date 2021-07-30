@@ -1,13 +1,11 @@
 COLUMNS
 int ID
 string Word
-string Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
 
 LAYOUT 50B8E82D
 BUILD 2.5.2.39570
-Field_2_5_2_39570_000
-$id$Field_2_5_2_39570_001<32>
+Word
+$id$ID<32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
