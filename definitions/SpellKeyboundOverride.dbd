@@ -6,18 +6,14 @@ int Type
 int FunctionID? // s_functionOverrideIds
 int Field_5_0_1_15657_002?
 int Field_9_1_0_38709_003?
-string Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
 
 LAYOUT 11EB6252
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000
-Field_2_5_2_39570_001<8>
-Field_2_5_2_39570_002<32>
-Field_2_5_2_39570_003<32>
+Function
+Type<8>
+Data<32>
+Field_9_1_0_38709_003<32>
 
 BUILD 5.0.1.15657-5.0.1.15662
 $id$ID<32>

@@ -4,10 +4,6 @@ locstring Name_lang
 int Mask
 int ImmunityPossible
 string InternalName
-locstring Field_2_5_2_39570_000_lang?
-string Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.11.0.3925
@@ -32,10 +28,10 @@ InternalName
 LAYOUT C3F3F9A3
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000_lang
-Field_2_5_2_39570_001
-Field_2_5_2_39570_002<u8>
-Field_2_5_2_39570_003<u8>
+Name_lang
+InternalName
+ImmunityPossible<u8>
+Mask<u8>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

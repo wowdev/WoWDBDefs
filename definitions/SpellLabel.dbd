@@ -2,14 +2,12 @@ COLUMNS
 int ID
 int LabelID
 int<Spell::ID> SpellID
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
 
 LAYOUT 46008468
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<u32>
-$noninline,relation$Field_2_5_2_39570_001<32>
+LabelID<u32>
+$noninline,relation$SpellID<32>
 
 LAYOUT 3FC49F7C
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

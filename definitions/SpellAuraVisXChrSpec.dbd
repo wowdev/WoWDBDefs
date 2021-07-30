@@ -2,14 +2,12 @@ COLUMNS
 int ID
 int<SpellAuraVisibility::ID> SpellAuraVisibilityID
 int<ChrSpecialization::ID> ChrSpecializationID
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
 
 LAYOUT 66548CBA
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<16>
-$noninline,relation$Field_2_5_2_39570_001<32>
+ChrSpecializationID<16>
+$noninline,relation$SpellAuraVisibilityID<32>
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15640-5.4.8.18414

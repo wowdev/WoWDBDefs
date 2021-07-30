@@ -10,30 +10,20 @@ int ExcludeTargetAuraState
 int<Spell::ID> SpellID
 int TargetAuraSpell
 int TargetAuraState
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
-int Field_2_5_2_39570_004?
-int Field_2_5_2_39570_005?
-int Field_2_5_2_39570_006?
-int Field_2_5_2_39570_007?
-int Field_2_5_2_39570_008?
-int Field_2_5_2_39570_009?
 
 LAYOUT BF42FB43
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<u8>
-Field_2_5_2_39570_001<u8>
-Field_2_5_2_39570_002<u8>
-Field_2_5_2_39570_003<u8>
-Field_2_5_2_39570_004<u8>
-Field_2_5_2_39570_005<32>
-Field_2_5_2_39570_006<32>
-Field_2_5_2_39570_007<32>
-Field_2_5_2_39570_008<32>
-$noninline,relation$Field_2_5_2_39570_009<32>
+DifficultyID<u8>
+CasterAuraState<u8>
+TargetAuraState<u8>
+ExcludeCasterAuraState<u8>
+ExcludeTargetAuraState<u8>
+CasterAuraSpell<32>
+TargetAuraSpell<32>
+ExcludeCasterAuraSpell<32>
+ExcludeTargetAuraSpell<32>
+$noninline,relation$SpellID<32>
 
 BUILD 6.0.1.18125-6.0.1.18156
 BUILD 5.0.1.15589-5.4.8.18414
