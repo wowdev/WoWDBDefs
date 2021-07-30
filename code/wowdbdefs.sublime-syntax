@@ -1,0 +1,98 @@
+%YAML 1.2
+---
+name: WoWDBDefs definition
+file_extensions:
+  - dbd
+scope: source.wowdbdefs
+
+variables:
+  column_type: '(uint|int|locstring|string|float)'
+  identifier: '[A-Za-z_][A-Za-z0-9_]*'
+  integer: '\d+'
+  layout_hash: '\h\h\h\h\h\h\h\h'
+
+contexts:
+  main:
+    - match: '^COLUMNS$'
+      scope: keyword.control.wowdbdefs
+      set: column_definitions
+
+  column_definitions:
+    - match: '^$'
+      set: layouts
+    - match: '^(uint|int)'
+      scope: storage.type.wowdbdefs
+      set: maybe_foreign_identifier_then_cd2
+    - match: '^(locstring|string|float)'
+      scope: storage.type.wowdbdefs
+      set: maybe_foreign_identifier_is_error_then_cd2
+  column_definition_part2:
+    - match: '((Field_\d+_\d+_\d+_\d+_\d+(_lang)?)|{{identifier}})(\?)?'
+      captures:
+        1: entity.name.label.wowdbdefs
+        2: markup.error.wowdbdefs
+        4: markup.error.wowdbdefs
+      push: maybe_eol_c_comment
+    - match: '$'
+      set: column_definitions
+
+  layouts:
+    - match: '^COMMENT .*'
+      scope: comment.line.wowdbdefs
+    - match: '^(LAYOUT|BUILD) '
+      scope: keyword.control.conditional.switch.wowdbdefs
+      push:
+        - match: '\d+\.\d+\.\d+\.\d+'
+          scope: constant.numeric.value.wowdbdefs
+          captures:
+            1: constant.numeric.integer.decimal.wowdbdefs
+            2: punctuation.separator.decimal.wowdbdefs
+        - match: '{{layout_hash}}'
+          scope: constant.numeric.integer.hexadecimal.wowdbdefs
+        - match: ' *(,) *' # comma_list_separator
+          captures:
+            1: punctuation.separator.sequence.wowdbdefs
+        - match: '$'
+          pop: true
+    - match: '^\$'
+      scope: punctuation.definition.annotation.begin.wowdbdefs
+      push:
+        - match: '\w+'
+          scope: variable.annotation.wowdbdefs
+        - match: ','
+          scope: punctuation.separator.sequence.wowdbdefs
+        - match: '\$'
+          scope: punctuation.definition.annotation.end.wowdbdefs
+          pop: true
+    - match: '((Field_\d+_\d+_\d+_\d+_\d+(_lang)?)|{{identifier}})(<[0-9u]*>)?((\[)(\d+)(\]))?'
+      captures:
+        1: entity.name.constant.wowdbdefs
+        2: markup.error.wowdbdefs
+        4: storage.type.trait.wowdbdefs
+        6: punctuation.section.brackets.begin.wowdbdefs
+        7: constant.numeric.value.wowdbdefs
+        8: punctuation.section.brackets.begin.wowdbdefs
+      push: maybe_eol_c_comment
+
+  maybe_eol_c_comment:
+    - match: '( *(//)(.*))?$'
+      pop: true
+      captures:
+        2: punctuation.definition.comment.wowdbdefs
+        3: comment.line.wowdbdefs
+
+  maybe_foreign_identifier_then_cd2:
+    - match: '(<)({{identifier}}+)(::)({{identifier}}+)(>)'
+      captures:
+        1: punctuation.definition.generic.begin.wowdbdefs
+        2: keyword.import.from.wowdbdefs
+        3: punctuation.accessor.wowdbdefs
+        4: variable.other.wowdbdefs
+        5: punctuation.definition.generic.begin.wowdbdefs
+    - match: ' '
+      set: column_definition_part2
+  maybe_foreign_identifier_is_error_then_cd2:
+    - match: '(<[^>]*>)'
+      scope: invalid.illegal.wowdbdefs
+    - match: ' '
+      set: column_definition_part2
