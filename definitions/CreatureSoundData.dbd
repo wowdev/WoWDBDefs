@@ -39,45 +39,6 @@ int<SoundEntries::ID> ChargeSoundID
 int<SoundEntries::ID> TauntSoundID
 int<SoundEntries::ID> WindupCriticalSoundID
 int<SoundEntries::ID> WindupSoundID
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
-int Field_2_5_2_39570_004?
-int Field_2_5_2_39570_005?
-int Field_2_5_2_39570_006?
-int Field_2_5_2_39570_007?
-int Field_2_5_2_39570_008?
-int Field_2_5_2_39570_009?
-int Field_2_5_2_39570_010?
-int Field_2_5_2_39570_011?
-int Field_2_5_2_39570_012?
-int Field_2_5_2_39570_013?
-int Field_2_5_2_39570_014?
-int Field_2_5_2_39570_015?
-int Field_2_5_2_39570_016?
-int Field_2_5_2_39570_017?
-int Field_2_5_2_39570_018?
-int Field_2_5_2_39570_019?
-int Field_2_5_2_39570_020?
-int Field_2_5_2_39570_021?
-int Field_2_5_2_39570_022?
-int Field_2_5_2_39570_023?
-int Field_2_5_2_39570_024?
-int Field_2_5_2_39570_025?
-int Field_2_5_2_39570_026?
-int Field_2_5_2_39570_027?
-int Field_2_5_2_39570_028?
-int Field_2_5_2_39570_029?
-int Field_2_5_2_39570_030?
-int Field_2_5_2_39570_031?
-float Field_2_5_2_39570_032?
-float Field_2_5_2_39570_033?
-int Field_2_5_2_39570_034?
-int Field_2_5_2_39570_035?
-int Field_2_5_2_39570_036?
-int Field_2_5_2_39570_037?
-
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368
@@ -163,44 +124,44 @@ FidgetDelaySecondsMax
 
 LAYOUT 9C866B0C
 BUILD 2.5.2.39570
-$id$Field_2_5_2_39570_000<32>
-Field_2_5_2_39570_001<u32>
-Field_2_5_2_39570_002<u32>
-Field_2_5_2_39570_003<u32>
-Field_2_5_2_39570_004<u32>
-Field_2_5_2_39570_005<u32>
-Field_2_5_2_39570_006<u32>
-Field_2_5_2_39570_007<u32>
-Field_2_5_2_39570_008<u32>
-Field_2_5_2_39570_009<u32>
-Field_2_5_2_39570_010<u32>
-Field_2_5_2_39570_011<u32>
-Field_2_5_2_39570_012<u32>
-Field_2_5_2_39570_013<u32>
-Field_2_5_2_39570_014<u32>
-Field_2_5_2_39570_015<u32>
-Field_2_5_2_39570_016<u32>
-Field_2_5_2_39570_017<u32>
-Field_2_5_2_39570_018<u32>
-Field_2_5_2_39570_019<u32>
-Field_2_5_2_39570_020<u32>
-Field_2_5_2_39570_021<u32>
-Field_2_5_2_39570_022<u32>
-Field_2_5_2_39570_023<u32>
-Field_2_5_2_39570_024<u32>
-Field_2_5_2_39570_025<u32>
-Field_2_5_2_39570_026<u32>
-Field_2_5_2_39570_027<u32>
-Field_2_5_2_39570_028<u32>
-Field_2_5_2_39570_029<u32>
-Field_2_5_2_39570_030<u32>
-Field_2_5_2_39570_031<u32>
-Field_2_5_2_39570_032
-Field_2_5_2_39570_033
-Field_2_5_2_39570_034<u8>
-Field_2_5_2_39570_035<u32>
-Field_2_5_2_39570_036<u32>[5]
-Field_2_5_2_39570_037<u32>[4]
+$noninline,id$ID<32>
+SoundExertionID<u32>
+SoundExertionCriticalID<u32>
+SoundInjuryID<u32>
+SoundInjuryCriticalID<u32>
+SoundInjuryCrushingBlowID<u32>
+SoundDeathID<u32>
+SoundStunID<u32>
+SoundStandID<u32>
+SoundFootstepID<u32>
+SoundAggroID<u32>
+SoundWingFlapID<u32>
+SoundWingGlideID<u32>
+SoundAlertID<u32>
+SoundJumpStartID<u32>
+SoundJumpEndID<u32>
+SoundPetAttackID<u32>
+SoundPetOrderID<u32>
+SoundPetDismissID<u32>
+LoopSoundID<u32>
+BirthSoundID<u32>
+SpellCastDirectedSoundID<u32>
+SubmergeSoundID<u32>
+SubmergedSoundID<u32>
+WindupSoundID<u32>
+WindupCriticalSoundID<u32>
+ChargeSoundID<u32>
+ChargeCriticalSoundID<u32>
+BattleShoutSoundID<u32>
+BattleShoutCriticalSoundID<u32>
+TauntSoundID<u32>
+CreatureSoundDataIDPet<u32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
+CreatureImpactType<u8>
+NPCSoundID<u32>
+SoundFidget<u32>[5]
+CustomAttack<u32>[4]
 
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885

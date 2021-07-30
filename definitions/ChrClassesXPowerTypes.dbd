@@ -2,14 +2,12 @@ COLUMNS
 int<ChrClasses::ID> ClassID
 int<PowerType::PowerTypeEnum> PowerType
 int ID
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
 
 LAYOUT 0B71BB3C
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<8>
-$noninline,relation$Field_2_5_2_39570_001<32>
+PowerType<8>
+$noninline,relation$ClassID<32>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
