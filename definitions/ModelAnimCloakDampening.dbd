@@ -3,16 +3,13 @@ int ID
 int<AnimationData::ID> AnimationDataID
 int<CloakDampening::ID> CloakDampeningID
 int<FileData::ID> FileDataID
-int Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
 
 LAYOUT 17C2AF37
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000<u32>
-Field_2_5_2_39570_001<u32>
-$noninline,relation$Field_2_5_2_39570_002<32>
+AnimationDataID<u32>
+CloakDampeningID<u32>
+$noninline,relation$FileDataID<32>
 
 LAYOUT 5DF8E3B9
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

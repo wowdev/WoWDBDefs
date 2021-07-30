@@ -7,24 +7,17 @@ int DeclineButtonTexture
 int<Locale::ID> LocaleID
 int LogoTexture
 int PromotionID
-string Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
-int Field_2_5_2_39570_004?
-int Field_2_5_2_39570_005?
-int Field_2_5_2_39570_006?
 
 LAYOUT D951637F
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000
-Field_2_5_2_39570_001<u8>
-Field_2_5_2_39570_002<8>
-Field_2_5_2_39570_003<32>
-Field_2_5_2_39570_004<32>
-Field_2_5_2_39570_005<32>
-Field_2_5_2_39570_006<32>
+AcceptURL
+PromotionID<u8>
+LocaleID<8>
+AdTexture<32>
+LogoTexture<32>
+AcceptButtonTexture<32>
+DeclineButtonTexture<32>
 
 BUILD 6.0.1.18179
 BUILD 5.0.4.15913-5.4.8.18414

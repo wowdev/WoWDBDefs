@@ -4,18 +4,14 @@ locstring FailureDescription_lang
 int<MapDifficulty::ID> MapDifficultyID
 int OrderIndex
 int<PlayerCondition::ID> PlayerConditionID
-locstring Field_2_5_2_39570_000_lang?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
 
 LAYOUT 35ACEFCA
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000_lang
-Field_2_5_2_39570_001<u32>
-Field_2_5_2_39570_002<32>
-$noninline,relation$Field_2_5_2_39570_003<32>
+FailureDescription_lang
+PlayerConditionID<u32>
+OrderIndex<32>
+$noninline,relation$MapDifficultyID<32>
 
 LAYOUT 68BB0796
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

@@ -4,10 +4,6 @@ string Name
 int Flags
 int<FileData::ID> CelestialSkyboxFileDataID
 int<FileData::ID> SkyboxFileDataID
-string Field_2_5_2_39570_000?
-int Field_2_5_2_39570_001?
-int Field_2_5_2_39570_002?
-int Field_2_5_2_39570_003?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -17,10 +13,10 @@ Name
 LAYOUT D466A5C2
 BUILD 2.5.2.39570
 $noninline,id$ID<32>
-Field_2_5_2_39570_000
-Field_2_5_2_39570_001<u8>
-Field_2_5_2_39570_002<32>
-Field_2_5_2_39570_003<32>
+Name
+Flags<u8>
+SkyboxFileDataID<32>
+CelestialSkyboxFileDataID<32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
