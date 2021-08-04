@@ -11,7 +11,7 @@ int<Spell::ID> SpellID
 int TriggerType
 
 LAYOUT 95B79695
-BUILD 2.5.2.39570, 2.5.2.39618
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658
 $noninline,id$ID<32>
 LegacySlotIndex<u8>
 TriggerType<8>

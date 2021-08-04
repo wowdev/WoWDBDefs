@@ -4,7 +4,7 @@ int<GlyphProperties::ID> GlyphPropertiesID
 int<Spell::ID> SpellID
 
 LAYOUT 5A852AEA
-BUILD 2.5.2.39570, 2.5.2.39618
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658
 $noninline,id$ID<32>
 SpellID<32>
 $noninline,relation$GlyphPropertiesID<32>
