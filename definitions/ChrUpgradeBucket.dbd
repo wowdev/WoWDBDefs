@@ -4,7 +4,7 @@ int<ChrSpecialization::ID> ChrSpecializationID
 int<ChrUpgradeTier::ID> ChrUpgradeTierID
 
 LAYOUT 2BA3842E
-BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757
 $id$ID<32>
 ChrSpecializationID<u16>
 $noninline,relation$ChrUpgradeTierID<32>

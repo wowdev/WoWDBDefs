@@ -5,7 +5,7 @@ int<BattlePetVisual::ID> BattlePetVisualID
 int Flags // &0x004: Stat_Speed, &0x010: maxHealthBonus (+bonus * level), &0x020: Stat_Stamina, &0x100: Stat_Power, &0x200: secondary speed modifier (+speed2 * speed * 0.01)
 
 LAYOUT 0A2EE604
-BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757
 $noninline,id$ID<32>
 LuaName
 Flags<u16>
