@@ -4,7 +4,7 @@ int<Item::ID> ItemID
 int<ChrSpecialization::ID> SpecID
 
 LAYOUT A10DBD4A
-BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832
 $noninline,id$ID<32>
 SpecID<u16>
 $noninline,relation$ItemID<32>
