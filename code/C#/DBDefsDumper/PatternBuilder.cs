@@ -279,6 +279,35 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
+                new Pattern("6.x-db2-experimental", new List<string> { "6.0.1", "6.0.2", "6.0.3", "6.1.0", "6.1.2", "6.2.0", "6.2.1", "6.2.2", "6.2.3", "6.2.4" }, 18125, 21742) // note: subset of internal-6.0.1-dbc, so conflicts with that
+               .Pointer(Name.DB_FILENAME)
+               .Pointer(Name.DB_CACHE_FILENAME)
+               .FieldReference(Name.NUM_FIELD_IN_FILE)
+               .RecordSize(Name.RECORD_SIZE)
+               .Pointer(Name.CONVERT_STRINGREFS)
+               .Append("00", "00", "00", "00")
+               .Boolean(Name.UNK_BOOL_601_x24)
+               .Pointer(Name.FIELD_OFFSETS)
+               .Pointer(Name.FIELD_SIZES_IN_FILE)
+               .Pointer(Name.FIELD_TYPES_IN_FILE)
+            );
+
+            patterns.Add(
+                new Pattern("6.x-dbc-experimental", new List<string> { "6.0.1", "6.0.2", "6.0.3", "6.1.0", "6.1.2", "6.2.0", "6.2.1", "6.2.2", "6.2.3", "6.2.4" }, 18125, 21742) // note: subset of internal-6.0.1-dbc, so conflicts with that
+               .Pointer(Name.DB_FILENAME)
+               .FieldReference(Name.NUM_FIELD_IN_FILE)
+               .RecordSize(Name.RECORD_SIZE)
+               .Pointer(Name.CONVERT_STRINGREFS)
+               .Append("00", "00", "00", "00")
+               .Append("00", "00", "00", "00")
+               .Pointer(Name.FIELD_OFFSETS)
+               .Pointer(Name.FIELD_SIZES_IN_FILE)
+               .Pointer(Name.FIELD_TYPES_IN_FILE)
+               .Boolean(Name.UNK_BOOL_601dbc_x38)
+               .Boolean(Name.UNK_BOOL_601dbc_x39)
+            );
+
+            patterns.Add(
                 new Pattern("6.0.1-db2-internal", new List<string> { "6.0.1" }, 18179, 18179) // note: conflicts with internal-6.0.1-dbc
                .Pointer(Name.DB_FILENAME)
                .Pointer(Name.DB_CACHE_FILENAME)

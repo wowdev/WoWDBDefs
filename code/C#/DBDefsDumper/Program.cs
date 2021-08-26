@@ -584,7 +584,7 @@ namespace DBDefsDumper
                         if(field_sizes_in_file[i] != 1)
                         {
                             // 6.0.1 has sizes in bytes
-                            if (build.StartsWith("6.0.1"))
+                            if (build.StartsWith("6."))
                             {
                                 var supposedSize = 0;
                                 
