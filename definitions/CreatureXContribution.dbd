@@ -4,7 +4,7 @@ int<Contribution::ID> ContributionID
 int<Creature::ID> CreatureID
 
 LAYOUT 4626C791
-BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926
 $id$ID<32>
 ContributionID<32>
 $noninline,relation$CreatureID<32>
