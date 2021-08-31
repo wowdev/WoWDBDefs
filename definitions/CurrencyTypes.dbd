@@ -18,6 +18,32 @@ int<ItemGroupSounds::ID> ItemGroupSoundsID?
 int<PlayerCondition::ID> AwardConditionID
 int MaxQtyWorldStateID // key into data sent by the server
 int XpQuestDifficulty // Correct if 2 for ID 1566. ConvertToPlayerExperience?
+locstring Field_1_14_0_39802_000_lang?
+locstring Field_1_14_0_39802_001_lang?
+int Field_1_14_0_39802_002?
+int Field_1_14_0_39802_003?
+int Field_1_14_0_39802_004?
+int Field_1_14_0_39802_005?
+int Field_1_14_0_39802_006?
+int Field_1_14_0_39802_007?
+int Field_1_14_0_39802_008?
+int Field_1_14_0_39802_009?
+int Field_1_14_0_39802_010?
+
+LAYOUT FFEEE7A5
+BUILD 1.14.0.39802
+$noninline,id$ID<32>
+Field_1_14_0_39802_000_lang
+Field_1_14_0_39802_001_lang
+Field_1_14_0_39802_002<u8>
+Field_1_14_0_39802_003<32>
+Field_1_14_0_39802_004<u32>
+Field_1_14_0_39802_005<u8>
+Field_1_14_0_39802_006<u32>
+Field_1_14_0_39802_007<u32>
+Field_1_14_0_39802_008<8>
+Field_1_14_0_39802_009<32>
+Field_1_14_0_39802_010<32>[2]
 
 LAYOUT 7A943838
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926
