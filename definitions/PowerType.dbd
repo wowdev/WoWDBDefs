@@ -12,19 +12,6 @@ int PowerTypeEnum
 float RegenCombat
 int RegenInterruptTimeMS
 float RegenPeace
-string Field_9_1_5_39977_000?
-string Field_9_1_5_39977_001?
-int Field_9_1_5_39977_002?
-int Field_9_1_5_39977_003?
-int Field_9_1_5_39977_004?
-int Field_9_1_5_39977_005?
-int Field_9_1_5_39977_006?
-int Field_9_1_5_39977_007?
-int Field_9_1_5_39977_008?
-int Field_9_1_5_39977_009?
-float Field_9_1_5_39977_010?
-float Field_9_1_5_39977_011?
-int Field_9_1_5_39977_012?
 
 LAYOUT C55B6F11
 BUILD 1.13.0.28211
@@ -174,16 +161,16 @@ Flags<16>
 
 LAYOUT 60A61B4C
 BUILD 9.1.5.39977
-Field_9_1_5_39977_000
-Field_9_1_5_39977_001
-$id$Field_9_1_5_39977_002<32>
-Field_9_1_5_39977_003<8>
-Field_9_1_5_39977_004<8>
-Field_9_1_5_39977_005<16>
-Field_9_1_5_39977_006<8>
-Field_9_1_5_39977_007<8>
-Field_9_1_5_39977_008<8>
-Field_9_1_5_39977_009<16>
-Field_9_1_5_39977_010
-Field_9_1_5_39977_011
-Field_9_1_5_39977_012<16>
+NameGlobalStringTag
+CostGlobalStringTag
+$id$ID<32>
+PowerTypeEnum<8>
+MinPower<8>
+MaxBasePower<16>
+CenterPower<8>
+DefaultPower<8>
+DisplayModifier<8>
+RegenInterruptTimeMS<16>
+RegenPeace
+RegenCombat
+Flags<16>

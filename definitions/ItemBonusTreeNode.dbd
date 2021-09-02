@@ -7,13 +7,6 @@ int ItemContext
 int<ItemBonusTree::ID> ParentItemBonusTreeID
 int<ItemBonusListGroup::ID> ItemBonusListGroupID?
 int ParentItemBonusTreeNodeID? // assumption
-int Field_9_1_5_39977_000?
-int Field_9_1_5_39977_001?
-int Field_9_1_5_39977_002?
-int Field_9_1_5_39977_003?
-int Field_9_1_5_39977_004?
-int Field_9_1_5_39977_005?
-int Field_9_1_5_39977_006?
 
 LAYOUT 211E1FFB
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -85,10 +78,10 @@ $noninline,relation$ParentItemBonusTreeID<u16>
 LAYOUT 215AE1FF
 BUILD 9.1.5.39977
 $noninline,id$ID<32>
-Field_9_1_5_39977_000<u8>
-Field_9_1_5_39977_001<u16>
-Field_9_1_5_39977_002<u16>
-Field_9_1_5_39977_003<u16>
-Field_9_1_5_39977_004<32>
-Field_9_1_5_39977_005<32>
-$noninline,relation$Field_9_1_5_39977_006<32>
+ItemContext<u8>
+ChildItemBonusTreeID<u16>
+ChildItemBonusListID<u16>
+ChildItemLevelSelectorID<u16>
+ItemBonusListGroupID<32>
+ParentItemBonusTreeNodeID<32>
+$noninline,relation$ParentItemBonusTreeID<32>

@@ -7,13 +7,6 @@ float InnHours
 locstring Name_lang
 float Threshold
 string CombatLogText
-locstring Field_9_1_5_39977_000_lang?
-string Field_9_1_5_39977_001?
-int Field_9_1_5_39977_002?
-float Field_9_1_5_39977_003?
-float Field_9_1_5_39977_004?
-float Field_9_1_5_39977_005?
-float Field_9_1_5_39977_006?
 
 BUILD 0.6.0.3592
 $id$ID<32>
@@ -127,10 +120,10 @@ Threshold
 LAYOUT 8C07F74D
 BUILD 9.1.5.39977
 $noninline,id$ID<32>
-Field_9_1_5_39977_000_lang
-Field_9_1_5_39977_001
-Field_9_1_5_39977_002<32>
-Field_9_1_5_39977_003
-Field_9_1_5_39977_004
-Field_9_1_5_39977_005
-Field_9_1_5_39977_006
+Name_lang
+CombatLogText
+Xp<32>
+Factor
+OutdoorHours
+InnHours
+Threshold

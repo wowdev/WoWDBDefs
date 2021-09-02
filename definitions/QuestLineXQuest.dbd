@@ -3,9 +3,6 @@ int ID
 int OrderIndex
 int<QuestV2::ID> QuestID
 int<QuestLine::ID> QuestLineID
-int Field_9_1_5_39977_000?
-int Field_9_1_5_39977_001?
-int Field_9_1_5_39977_002?
 int Field_9_1_5_39977_003?
 
 BUILD 6.0.1.18179
@@ -67,7 +64,7 @@ OrderIndex<u32>
 LAYOUT F6975B65
 BUILD 9.1.5.39977
 $noninline,id$ID<32>
-$relation$Field_9_1_5_39977_000<u32>
-Field_9_1_5_39977_001<u32>
-Field_9_1_5_39977_002<u32>
+$relation$QuestLineID<u32>
+QuestID<u32>
+OrderIndex<u32>
 Field_9_1_5_39977_003<32>

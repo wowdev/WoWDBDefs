@@ -7,11 +7,8 @@ float Points
 int TargetType // 2|4: all allies; 1|4: farthest enemy, 1|2|4|8: all enemies in melee range; 1|2: the closest enemy; 1|4: all enemies at range; 1|8: adjacent enemies; 2: closest ally, 1: self, 2: closest ally, 1|2: melee, 1|4: ranged, 1|8: all adjacent enemies, 16: all ranged allies, 2|4: all allies and self, 16|1: all ranged enemies, 1|2|4: all enemies
 int Flags // &1: ???, &2: ???
 int Period // 2: "every other round"
-int Field_9_1_5_39977_000?
-int Field_9_1_5_39977_001?
 int Field_9_1_5_39977_002?
 int Field_9_1_5_39977_003?
-float Field_9_1_5_39977_004?
 int Field_9_1_5_39977_005?
 int Field_9_1_5_39977_006?
 int Field_9_1_5_39977_007?
@@ -32,11 +29,11 @@ Period<32>
 
 LAYOUT 315DE2BB
 BUILD 9.1.5.39977
-$id$Field_9_1_5_39977_000<32>
-$relation$Field_9_1_5_39977_001<32>
+$id$ID<32>
+$relation$SpellID<32>
 Field_9_1_5_39977_002<u8>
 Field_9_1_5_39977_003<u8>
-Field_9_1_5_39977_004
+Points
 Field_9_1_5_39977_005<u8>
 Field_9_1_5_39977_006<32>
 Field_9_1_5_39977_007<32>

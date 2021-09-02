@@ -22,19 +22,6 @@ int MaxRank
 int Abandonable
 string NeutralDisplayName
 int SpellBookSpellID?
-locstring Field_9_1_5_39977_000_lang?
-locstring Field_9_1_5_39977_001_lang?
-locstring Field_9_1_5_39977_002_lang?
-locstring Field_9_1_5_39977_003_lang?
-string Field_9_1_5_39977_004?
-int Field_9_1_5_39977_005?
-int Field_9_1_5_39977_006?
-int Field_9_1_5_39977_007?
-int Field_9_1_5_39977_008?
-int Field_9_1_5_39977_009?
-int Field_9_1_5_39977_010?
-int Field_9_1_5_39977_011?
-int Field_9_1_5_39977_012?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -296,16 +283,16 @@ SpellBookSpellID<32>
 
 LAYOUT 13763D15
 BUILD 9.1.5.39977
-Field_9_1_5_39977_000_lang
-Field_9_1_5_39977_001_lang
-Field_9_1_5_39977_002_lang
-Field_9_1_5_39977_003_lang
-Field_9_1_5_39977_004
-$id$Field_9_1_5_39977_005<32>
-Field_9_1_5_39977_006<8>
-Field_9_1_5_39977_007<32>
-Field_9_1_5_39977_008<8>
-Field_9_1_5_39977_009<u32>
-Field_9_1_5_39977_010<32>
-Field_9_1_5_39977_011<u16>
-Field_9_1_5_39977_012<32>
+DisplayName_lang
+AlternateVerb_lang
+Description_lang
+HordeDisplayName_lang
+NeutralDisplayName
+$id$ID<32>
+CategoryID<8>
+SpellIconFileID<32>
+CanLink<8>
+ParentSkillLineID<u32>
+ParentTierIndex<32>
+Flags<u16>
+SpellBookSpellID<32>

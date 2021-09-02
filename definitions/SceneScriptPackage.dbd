@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 string Name
-string Field_9_1_5_39977_000?
 int Field_9_1_5_39977_001?
 
 LAYOUT D7CC5A6A
@@ -44,5 +43,5 @@ Name
 LAYOUT 7A18CA1C
 BUILD 9.1.5.39977
 $noninline,id$ID<32>
-Field_9_1_5_39977_000
+Name
 Field_9_1_5_39977_001<32>

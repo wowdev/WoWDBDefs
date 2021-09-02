@@ -10,15 +10,6 @@ int MaxShipments
 int<Spell::ID> OnCompleteSpellID
 int<Spell::ID> SpellID
 int TreasureID
-int Field_9_1_5_39977_000?
-int Field_9_1_5_39977_001?
-int Field_9_1_5_39977_002?
-int Field_9_1_5_39977_003?
-int Field_9_1_5_39977_004?
-int Field_9_1_5_39977_005?
-int Field_9_1_5_39977_006?
-int Field_9_1_5_39977_007?
-int Field_9_1_5_39977_008?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -95,12 +86,12 @@ Flags<u8>
 LAYOUT AD22738D
 BUILD 9.1.5.39977
 $noninline,id$ID<32>
-$relation$Field_9_1_5_39977_000<u16>
-Field_9_1_5_39977_001<32>
-Field_9_1_5_39977_002<u32>
-Field_9_1_5_39977_003<32>
-Field_9_1_5_39977_004<32>
-Field_9_1_5_39977_005<u32>
-Field_9_1_5_39977_006<u8>
-Field_9_1_5_39977_007<u16>
-Field_9_1_5_39977_008<32>
+$relation$ContainerID<u16>
+DummyItemID<32>
+TreasureID<u32>
+SpellID<32>
+OnCompleteSpellID<32>
+Duration<u32>
+MaxShipments<u8>
+GarrFollowerID<u16>
+Flags<32>

@@ -8,14 +8,6 @@ int ProcCharges
 int ProcTypeMask
 int ProcCategoryRecovery
 int<SpellProcsPerMinute::ID> SpellProcsPerMinuteID
-int Field_9_1_5_39977_000?
-int Field_9_1_5_39977_001?
-int Field_9_1_5_39977_002?
-int Field_9_1_5_39977_003?
-int Field_9_1_5_39977_004?
-int Field_9_1_5_39977_005?
-int Field_9_1_5_39977_006?
-int Field_9_1_5_39977_007?
 
 LAYOUT F3B54642
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -132,11 +124,11 @@ $noninline,relation$SpellID<32>
 LAYOUT 7418EBE8
 BUILD 9.1.5.39977
 $noninline,id$ID<32>
-Field_9_1_5_39977_000<u8>
-Field_9_1_5_39977_001<u16>
-Field_9_1_5_39977_002<32>
-Field_9_1_5_39977_003<u8>
-Field_9_1_5_39977_004<32>
-Field_9_1_5_39977_005<u16>
-Field_9_1_5_39977_006<32>[2]
-$noninline,relation$Field_9_1_5_39977_007<32>
+DifficultyID<u8>
+CumulativeAura<u16>
+ProcCategoryRecovery<32>
+ProcChance<u8>
+ProcCharges<32>
+SpellProcsPerMinuteID<u16>
+ProcTypeMask<32>[2]
+$noninline,relation$SpellID<32>

@@ -4,9 +4,6 @@ int AnimEnumID
 int<FileData::ID> LowDefFileDataID
 int<WeaponTrail::ID> WeaponTrailID
 int<FileData::ID> ModelFileDataID? // Same as LowDefFileDataID but HD models
-int Field_9_1_5_39977_000?
-int Field_9_1_5_39977_001?
-int Field_9_1_5_39977_002?
 
 LAYOUT 4F7A4F20
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -60,6 +57,6 @@ $noninline,relation$AnimEnumID<u16>
 LAYOUT 702920B3
 BUILD 9.1.5.39977
 $noninline,id$ID<32>
-Field_9_1_5_39977_000<32>
-Field_9_1_5_39977_001<u16>
-$noninline,relation$Field_9_1_5_39977_002<32>
+ModelFileDataID<32>
+WeaponTrailID<u16>
+$noninline,relation$AnimEnumID<32>

@@ -11,17 +11,6 @@ int<UiQuestDetailsTheme::ID> UiQuestDetailsThemeID
 int Flags // &0x01: useNormalQuestIcons
 int<PlayerCondition::ID> OnlyStallIf // if given and evals to false, don't mark as stalled.
 int<PlayerCondition::ID> Field_9_0_1_35755_007?
-locstring Field_9_1_5_39977_000_lang?
-string Field_9_1_5_39977_001?
-locstring Field_9_1_5_39977_002_lang?
-int Field_9_1_5_39977_003?
-int Field_9_1_5_39977_004?
-int Field_9_1_5_39977_005?
-int Field_9_1_5_39977_006?
-int Field_9_1_5_39977_007?
-int Field_9_1_5_39977_008?
-int Field_9_1_5_39977_009?
-int Field_9_1_5_39977_010?
 
 LAYOUT E317A3DC
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475, 2.5.1.39603, 2.5.1.39640
@@ -150,14 +139,14 @@ Flags<u32>
 LAYOUT 07E99A2F
 BUILD 9.1.5.39977
 $noninline,id$ID<32>
-Field_9_1_5_39977_000_lang
-Field_9_1_5_39977_001
-Field_9_1_5_39977_002_lang
-Field_9_1_5_39977_003<32>
-Field_9_1_5_39977_004<32>
-Field_9_1_5_39977_005<32>
-Field_9_1_5_39977_006<32>
-Field_9_1_5_39977_007<32>
-Field_9_1_5_39977_008<32>
-Field_9_1_5_39977_009<32>
-Field_9_1_5_39977_010<u32>
+Title_lang
+InternalTitle
+Description_lang
+UiTextureKitID<32>
+RewardQuestID<32>
+Prerequisite<32>
+Field_9_0_1_35755_007<32>
+Completed<32>
+OnlyStallIf<32>
+UiQuestDetailsThemeID<32>
+Flags<u32>
