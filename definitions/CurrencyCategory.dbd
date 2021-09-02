@@ -7,13 +7,6 @@ locstring Field_1_14_0_39802_000_lang?
 int Field_1_14_0_39802_001?
 int Field_1_14_0_39802_002?
 
-LAYOUT D66BAB95
-BUILD 1.14.0.39802, 1.14.0.39958
-$noninline,id$ID<32>
-Field_1_14_0_39802_000_lang
-Field_1_14_0_39802_001<32>
-Field_1_14_0_39802_002<u8>
-
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18414
@@ -58,3 +51,11 @@ $noninline,id$ID<32>
 Name_lang
 Flags<u8>
 ExpansionID<u8>
+
+LAYOUT D66BAB95
+BUILD 9.1.5.39977
+BUILD 1.14.0.39802, 1.14.0.39958
+$noninline,id$ID<32>
+Field_1_14_0_39802_000_lang
+Field_1_14_0_39802_001<32>
+Field_1_14_0_39802_002<u8>

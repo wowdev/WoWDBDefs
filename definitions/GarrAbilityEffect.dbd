@@ -12,6 +12,18 @@ float CombatWeightMax
 int Flags // GARR_ABILITY_EFFECT_FLAGS: &1: NOT_BENEFICIAL
 int<GarrAbility::ID> GarrAbilityID
 int<GarrMechanicType::ID> GarrMechanicTypeID
+int Field_9_1_5_39977_000?
+int Field_9_1_5_39977_001?
+int Field_9_1_5_39977_002?
+int Field_9_1_5_39977_003?
+int Field_9_1_5_39977_004?
+float Field_9_1_5_39977_005?
+float Field_9_1_5_39977_006?
+float Field_9_1_5_39977_007?
+int Field_9_1_5_39977_008?
+int Field_9_1_5_39977_009?
+int Field_9_1_5_39977_010?
+int Field_9_1_5_39977_011?
 
 LAYOUT 74140423
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -119,3 +131,18 @@ ActionRace<u8>
 ActionHours<u8>
 ActionRecordID<32>
 Flags<u8>
+
+LAYOUT 7192C187
+BUILD 9.1.5.39977
+$id$Field_9_1_5_39977_000<32>
+$relation$Field_9_1_5_39977_001<u16>
+Field_9_1_5_39977_002<u8>
+Field_9_1_5_39977_003<u8>
+Field_9_1_5_39977_004<32>
+Field_9_1_5_39977_005
+Field_9_1_5_39977_006
+Field_9_1_5_39977_007
+Field_9_1_5_39977_008<u8>
+Field_9_1_5_39977_009<u8>
+Field_9_1_5_39977_010<32>
+Field_9_1_5_39977_011<32>

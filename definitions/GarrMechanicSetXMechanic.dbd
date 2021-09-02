@@ -2,6 +2,9 @@ COLUMNS
 int ID
 int<GarrMechanic::ID> GarrMechanicID
 int GarrMechanicSetID
+int Field_9_1_5_39977_000?
+int Field_9_1_5_39977_001?
+int Field_9_1_5_39977_002?
 
 LAYOUT A577ECDB
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -48,3 +51,9 @@ BUILD 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.353
 $id$ID<32>
 GarrMechanicID<32>
 $noninline,relation$GarrMechanicSetID<u32>
+
+LAYOUT 479C09EC
+BUILD 9.1.5.39977
+$id$Field_9_1_5_39977_000<32>
+Field_9_1_5_39977_001<32>
+$noninline,relation$Field_9_1_5_39977_002<32>

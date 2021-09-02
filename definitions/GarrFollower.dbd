@@ -48,6 +48,39 @@ locstring TitleName_lang
 int Vitality
 int<GarrAutoCombatant::ID> AutoCombatantID
 int<Covenant::ID> CovenantID
+locstring Field_9_1_5_39977_000_lang?
+locstring Field_9_1_5_39977_001_lang?
+locstring Field_9_1_5_39977_002_lang?
+int Field_9_1_5_39977_003?
+int Field_9_1_5_39977_004?
+int Field_9_1_5_39977_005?
+int Field_9_1_5_39977_006?
+int Field_9_1_5_39977_007?
+int Field_9_1_5_39977_008?
+int Field_9_1_5_39977_009?
+int Field_9_1_5_39977_010?
+int Field_9_1_5_39977_011?
+int Field_9_1_5_39977_012?
+int Field_9_1_5_39977_013?
+int Field_9_1_5_39977_014?
+int Field_9_1_5_39977_015?
+int Field_9_1_5_39977_016?
+int Field_9_1_5_39977_017?
+int Field_9_1_5_39977_018?
+int Field_9_1_5_39977_019?
+int Field_9_1_5_39977_020?
+int Field_9_1_5_39977_021?
+int Field_9_1_5_39977_022?
+int Field_9_1_5_39977_023?
+int Field_9_1_5_39977_024?
+int Field_9_1_5_39977_025?
+int Field_9_1_5_39977_026?
+int Field_9_1_5_39977_027?
+int Field_9_1_5_39977_028?
+int Field_9_1_5_39977_029?
+int Field_9_1_5_39977_030?
+int Field_9_1_5_39977_031?
+int Field_9_1_5_39977_032?
 
 LAYOUT 88765B9E
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -406,3 +439,40 @@ Flags<u8>
 Gender<u8>
 AutoCombatantID<32>
 CovenantID<32>
+
+LAYOUT 7982FA48
+BUILD 9.1.5.39977
+$noninline,id$ID<32>
+Field_9_1_5_39977_000_lang
+Field_9_1_5_39977_001_lang
+Field_9_1_5_39977_002_lang
+Field_9_1_5_39977_003<u8>
+Field_9_1_5_39977_004<u8>
+Field_9_1_5_39977_005<32>
+Field_9_1_5_39977_006<32>
+Field_9_1_5_39977_007<u8>
+Field_9_1_5_39977_008<u8>
+Field_9_1_5_39977_009<32>
+Field_9_1_5_39977_010<32>
+Field_9_1_5_39977_011<u8>
+Field_9_1_5_39977_012<u8>
+Field_9_1_5_39977_013<u16>
+Field_9_1_5_39977_014<u16>
+Field_9_1_5_39977_015<8>
+Field_9_1_5_39977_016<8>
+Field_9_1_5_39977_017<32>
+Field_9_1_5_39977_018<32>
+Field_9_1_5_39977_019<u16>
+Field_9_1_5_39977_020<u16>
+Field_9_1_5_39977_021<u16>
+Field_9_1_5_39977_022<u16>
+Field_9_1_5_39977_023<u8>
+Field_9_1_5_39977_024<u8>
+Field_9_1_5_39977_025<u8>
+Field_9_1_5_39977_026<u32>
+Field_9_1_5_39977_027<u32>
+Field_9_1_5_39977_028<u8>
+Field_9_1_5_39977_029<32>
+Field_9_1_5_39977_030<u8>
+Field_9_1_5_39977_031<32>
+Field_9_1_5_39977_032<32>

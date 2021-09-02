@@ -122,48 +122,6 @@ SoundPetDismissID<32>
 FidgetDelaySecondsMin
 FidgetDelaySecondsMax
 
-LAYOUT 9C866B0C
-BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
-BUILD 1.14.0.39802, 1.14.0.39958
-$noninline,id$ID<32>
-SoundExertionID<u32>
-SoundExertionCriticalID<u32>
-SoundInjuryID<u32>
-SoundInjuryCriticalID<u32>
-SoundInjuryCrushingBlowID<u32>
-SoundDeathID<u32>
-SoundStunID<u32>
-SoundStandID<u32>
-SoundFootstepID<u32>
-SoundAggroID<u32>
-SoundWingFlapID<u32>
-SoundWingGlideID<u32>
-SoundAlertID<u32>
-SoundJumpStartID<u32>
-SoundJumpEndID<u32>
-SoundPetAttackID<u32>
-SoundPetOrderID<u32>
-SoundPetDismissID<u32>
-LoopSoundID<u32>
-BirthSoundID<u32>
-SpellCastDirectedSoundID<u32>
-SubmergeSoundID<u32>
-SubmergedSoundID<u32>
-WindupSoundID<u32>
-WindupCriticalSoundID<u32>
-ChargeSoundID<u32>
-ChargeCriticalSoundID<u32>
-BattleShoutSoundID<u32>
-BattleShoutCriticalSoundID<u32>
-TauntSoundID<u32>
-CreatureSoundDataIDPet<u32>
-FidgetDelaySecondsMin
-FidgetDelaySecondsMax
-CreatureImpactType<u8>
-NPCSoundID<u32>
-SoundFidget<u32>[5]
-CustomAttack<u32>[4]
-
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885
 BUILD 3.0.1.8303-3.0.9.9551
@@ -416,6 +374,49 @@ BUILD 1.13.5.34000, 1.13.5.34097, 1.13.5.34138, 1.13.5.34713, 1.13.5.34911, 1.13
 BUILD 1.13.4.33491, 1.13.4.33598, 1.13.4.33645, 1.13.4.33728, 1.13.4.33920, 1.13.4.34219, 1.13.4.34266, 1.13.4.34600, 1.13.4.34835
 BUILD 1.13.3.32790, 1.13.3.32836, 1.13.3.32887, 1.13.3.33155, 1.13.3.33302, 1.13.3.33485, 1.13.3.33526
 BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13.2.30232, 1.13.2.30265, 1.13.2.30287, 1.13.2.30406, 1.13.2.30550, 1.13.2.30682, 1.13.2.30786, 1.13.2.30862, 1.13.2.30901, 1.13.2.30979, 1.13.2.31043, 1.13.2.31118, 1.13.2.31209, 1.13.2.31402, 1.13.2.31407, 1.13.2.31446, 1.13.2.31650, 1.13.2.31687, 1.13.2.31727, 1.13.2.31830, 1.13.2.31882, 1.13.2.32089, 1.13.2.32421, 1.13.2.32600
+$noninline,id$ID<32>
+SoundExertionID<u32>
+SoundExertionCriticalID<u32>
+SoundInjuryID<u32>
+SoundInjuryCriticalID<u32>
+SoundInjuryCrushingBlowID<u32>
+SoundDeathID<u32>
+SoundStunID<u32>
+SoundStandID<u32>
+SoundFootstepID<u32>
+SoundAggroID<u32>
+SoundWingFlapID<u32>
+SoundWingGlideID<u32>
+SoundAlertID<u32>
+SoundJumpStartID<u32>
+SoundJumpEndID<u32>
+SoundPetAttackID<u32>
+SoundPetOrderID<u32>
+SoundPetDismissID<u32>
+LoopSoundID<u32>
+BirthSoundID<u32>
+SpellCastDirectedSoundID<u32>
+SubmergeSoundID<u32>
+SubmergedSoundID<u32>
+WindupSoundID<u32>
+WindupCriticalSoundID<u32>
+ChargeSoundID<u32>
+ChargeCriticalSoundID<u32>
+BattleShoutSoundID<u32>
+BattleShoutCriticalSoundID<u32>
+TauntSoundID<u32>
+CreatureSoundDataIDPet<u32>
+FidgetDelaySecondsMin
+FidgetDelaySecondsMax
+CreatureImpactType<u8>
+NPCSoundID<u32>
+SoundFidget<u32>[5]
+CustomAttack<u32>[4]
+
+LAYOUT 9C866B0C
+BUILD 9.1.5.39977
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
+BUILD 1.14.0.39802, 1.14.0.39958
 $noninline,id$ID<32>
 SoundExertionID<u32>
 SoundExertionCriticalID<u32>

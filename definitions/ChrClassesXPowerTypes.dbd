@@ -3,13 +3,6 @@ int<ChrClasses::ID> ClassID
 int<PowerType::PowerTypeEnum> PowerType
 int ID
 
-LAYOUT 0B71BB3C
-BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
-BUILD 1.14.0.39802, 1.14.0.39958
-$noninline,id$ID<32>
-PowerType<8>
-$noninline,relation$ClassID<32>
-
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
 BUILD 5.0.1.15464-5.4.8.18414
@@ -55,3 +48,11 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 $noninline,id$ID<32>
 PowerType<8>
 $noninline,relation$ClassID<u8>
+
+LAYOUT 0B71BB3C
+BUILD 9.1.5.39977
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
+BUILD 1.14.0.39802, 1.14.0.39958
+$noninline,id$ID<32>
+PowerType<8>
+$noninline,relation$ClassID<32>

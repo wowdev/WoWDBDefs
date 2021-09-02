@@ -10,6 +10,12 @@ int ItemAppearanceModifierID
 int<Item::ID> ItemID
 int OrderIndex
 int TransmogSourceTypeEnum
+int Field_9_1_5_39977_000?
+int Field_9_1_5_39977_001?
+int Field_9_1_5_39977_002?
+int Field_9_1_5_39977_003?
+int Field_9_1_5_39977_004?
+int Field_9_1_5_39977_005?
 
 LAYOUT CB7953C8
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -75,3 +81,12 @@ ItemAppearanceModifierID<u8>
 ItemAppearanceID<u16>
 OrderIndex<u8>
 TransmogSourceTypeEnum<8>
+
+LAYOUT D768C49E
+BUILD 9.1.5.39977
+$id$Field_9_1_5_39977_000<32>
+$relation$Field_9_1_5_39977_001<32>
+Field_9_1_5_39977_002<u8>
+Field_9_1_5_39977_003<u16>
+Field_9_1_5_39977_004<u8>
+Field_9_1_5_39977_005<u8>

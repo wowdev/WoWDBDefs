@@ -9,6 +9,14 @@ int<UiTextureAtlasMember::ID> MinimapAtlasMemberID // display on minimap
 int<HighlightColor::Type> PassiveHighlightColorType
 string InteractCursor? // display on cursor
 int<Spell::ID> SpellID?
+string Field_9_1_5_39977_000?
+int Field_9_1_5_39977_001?
+int Field_9_1_5_39977_002?
+int Field_9_1_5_39977_003?
+int Field_9_1_5_39977_004?
+int Field_9_1_5_39977_005?
+int Field_9_1_5_39977_006?
+int Field_9_1_5_39977_007?
 
 LAYOUT C371A7DF
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -96,3 +104,15 @@ PassiveHighlightColorType<u8>
 Priority<u8>
 Flags<u8>
 SpellID<32>
+
+LAYOUT 6CA6256A
+BUILD 9.1.5.39977
+$noninline,id$ID<32>
+Field_9_1_5_39977_000
+Field_9_1_5_39977_001<u32>
+Field_9_1_5_39977_002<u16>
+Field_9_1_5_39977_003<u8>
+Field_9_1_5_39977_004<u8>
+Field_9_1_5_39977_005<u8>
+Field_9_1_5_39977_006<u8>
+Field_9_1_5_39977_007<32>

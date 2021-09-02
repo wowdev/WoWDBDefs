@@ -4,14 +4,6 @@ int<SpellFlyout::ID> SpellFlyoutID
 int<Spell::ID> SpellID
 int Slot
 
-LAYOUT EB06A5FD
-BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
-BUILD 1.14.0.39802, 1.14.0.39958
-$noninline,id$ID<32>
-SpellID<32>
-Slot<u8>
-$noninline,relation$SpellFlyoutID<32>
-
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
 BUILD 5.0.1.15464-5.4.8.18414
@@ -54,3 +46,12 @@ $noninline,id$ID<32>
 SpellID<32>
 Slot<u8>
 $noninline,relation$SpellFlyoutID<u8>
+
+LAYOUT EB06A5FD
+BUILD 9.1.5.39977
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
+BUILD 1.14.0.39802, 1.14.0.39958
+$noninline,id$ID<32>
+SpellID<32>
+Slot<u8>
+$noninline,relation$SpellFlyoutID<32>

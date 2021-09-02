@@ -36,6 +36,35 @@ int<PlayerCondition::ID> Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
+locstring Field_9_1_5_39977_000_lang?
+locstring Field_9_1_5_39977_001_lang?
+int Field_9_1_5_39977_002?
+int Field_9_1_5_39977_003?
+int Field_9_1_5_39977_004?
+int Field_9_1_5_39977_005?
+int Field_9_1_5_39977_006?
+int Field_9_1_5_39977_007?
+int Field_9_1_5_39977_008?
+int Field_9_1_5_39977_009?
+int Field_9_1_5_39977_010?
+float Field_9_1_5_39977_011?
+int Field_9_1_5_39977_012?
+int Field_9_1_5_39977_013?
+int Field_9_1_5_39977_014?
+int Field_9_1_5_39977_015?
+int Field_9_1_5_39977_016?
+int Field_9_1_5_39977_017?
+int Field_9_1_5_39977_018?
+int Field_9_1_5_39977_019?
+int Field_9_1_5_39977_020?
+int Field_9_1_5_39977_021?
+int Field_9_1_5_39977_022?
+int Field_9_1_5_39977_023?
+int Field_9_1_5_39977_024?
+int Field_9_1_5_39977_025?
+int Field_9_1_5_39977_026?
+int Field_9_1_5_39977_027?
+int Field_9_1_5_39977_028?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -571,3 +600,36 @@ MentorItemLevel<u16>
 MentorCharLevel<u8>
 ContentTuningID<32>
 Flags<32>[2]
+
+LAYOUT 4480A7C8
+BUILD 9.1.5.39977
+$noninline,id$ID<32>
+Field_9_1_5_39977_000_lang
+Field_9_1_5_39977_001_lang
+Field_9_1_5_39977_002<u8>
+Field_9_1_5_39977_003<u8>
+Field_9_1_5_39977_004<8>
+Field_9_1_5_39977_005<32>
+Field_9_1_5_39977_006<32>
+Field_9_1_5_39977_007<32>
+Field_9_1_5_39977_008<u8>
+Field_9_1_5_39977_009<16>
+Field_9_1_5_39977_010<u8>
+Field_9_1_5_39977_011
+Field_9_1_5_39977_012<u8>
+Field_9_1_5_39977_013<u8>
+Field_9_1_5_39977_014<u32>
+Field_9_1_5_39977_015<u16>
+Field_9_1_5_39977_016<u16>
+Field_9_1_5_39977_017<u16>
+Field_9_1_5_39977_018<u8>
+Field_9_1_5_39977_019<u8>
+Field_9_1_5_39977_020<u8>
+Field_9_1_5_39977_021<u8>
+Field_9_1_5_39977_022<u8>
+Field_9_1_5_39977_023<u8>
+Field_9_1_5_39977_024<u16>
+Field_9_1_5_39977_025<u16>
+Field_9_1_5_39977_026<u8>
+Field_9_1_5_39977_027<32>
+Field_9_1_5_39977_028<32>[2]

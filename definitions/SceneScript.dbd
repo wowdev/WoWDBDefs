@@ -4,6 +4,9 @@ string Script?
 int ID
 int<SceneScript::ID> FirstSceneScriptID
 int<SceneScript::ID> NextSceneScriptID
+int Field_9_1_5_39977_000?
+int Field_9_1_5_39977_001?
+int Field_9_1_5_39977_002?
 
 BUILD 5.0.1.15464
 $id$ID<32>
@@ -53,3 +56,10 @@ BUILD 1.13.0.28211
 $noninline,id$ID<32>
 FirstSceneScriptID<u16>
 NextSceneScriptID<u16>
+
+LAYOUT 3F190B4A
+BUILD 9.1.5.39977
+$noninline,id$ID<32>
+Field_9_1_5_39977_000<u16>
+Field_9_1_5_39977_001<u16>
+Field_9_1_5_39977_002<32>

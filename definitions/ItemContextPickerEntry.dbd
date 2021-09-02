@@ -7,17 +7,6 @@ int OrderIndex
 int PVal
 int<PlayerCondition::ID> PlayerConditionID
 
-LAYOUT D8F88806
-BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
-BUILD 1.14.0.39802, 1.14.0.39958
-$noninline,id$ID<32>
-ItemCreationContext<u8>
-OrderIndex<u8>
-PVal<32>
-Flags<u32>
-PlayerConditionID<u32>
-$noninline,relation$ItemContextPickerID<32>
-
 LAYOUT EEF82C36
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492
 $noninline,id$ID<32>
@@ -66,3 +55,15 @@ PVal<32>
 Flags<u32>
 PlayerConditionID<u32>
 $noninline,relation$ItemContextPickerID<u32>
+
+LAYOUT D8F88806
+BUILD 9.1.5.39977
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
+BUILD 1.14.0.39802, 1.14.0.39958
+$noninline,id$ID<32>
+ItemCreationContext<u8>
+OrderIndex<u8>
+PVal<32>
+Flags<u32>
+PlayerConditionID<u32>
+$noninline,relation$ItemContextPickerID<32>

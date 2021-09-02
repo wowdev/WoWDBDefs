@@ -8,6 +8,15 @@ int<CurrencyTypes::ID> SecondaryCurrencyTypeID
 float AutoFollowerHealRate
 int<Curve::ID> MissionCostCurveID?
 float Field_9_0_2_36512_006?
+int Field_9_1_5_39977_000?
+int Field_9_1_5_39977_001?
+int Field_9_1_5_39977_002?
+int Field_9_1_5_39977_003?
+int Field_9_1_5_39977_004?
+float Field_9_1_5_39977_005?
+int Field_9_1_5_39977_006?
+float Field_9_1_5_39977_007?
+int Field_9_1_5_39977_008?
 
 LAYOUT 40A23048
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
@@ -98,3 +107,15 @@ AutoFollowerHealRate
 MissionCostCurveID<32>
 Field_9_0_2_36512_006
 MapIDs<32>[2]
+
+LAYOUT 7CB2DDC5
+BUILD 9.1.5.39977
+$id$Field_9_1_5_39977_000<u8>
+Field_9_1_5_39977_001<u32>
+Field_9_1_5_39977_002<u32>
+Field_9_1_5_39977_003<u32>
+Field_9_1_5_39977_004<32>
+Field_9_1_5_39977_005
+Field_9_1_5_39977_006<32>
+Field_9_1_5_39977_007
+Field_9_1_5_39977_008<32>[2]

@@ -16,6 +16,22 @@ int<GameObjectDisplayInfo::ID> SmallDisplayInfoID
 int<UiTextureKit::ID> UiTextureKitID
 int<GameObjectDisplayInfo::ID> WorkingDisplayInfoID // used by gameobject code to determine if in "in progress" state...
 int<SpellVisual::ID> WorkingSpellVisualID // if both are same as in gameobject mirrors, it is in progress
+locstring Field_9_1_5_39977_000_lang?
+locstring Field_9_1_5_39977_001_lang?
+int Field_9_1_5_39977_002?
+int Field_9_1_5_39977_003?
+int Field_9_1_5_39977_004?
+int Field_9_1_5_39977_005?
+int Field_9_1_5_39977_006?
+int Field_9_1_5_39977_007?
+int Field_9_1_5_39977_008?
+int Field_9_1_5_39977_009?
+int Field_9_1_5_39977_010?
+int Field_9_1_5_39977_011?
+int Field_9_1_5_39977_012?
+int Field_9_1_5_39977_013?
+int Field_9_1_5_39977_014?
+int Field_9_1_5_39977_015?
 
 LAYOUT 5369BFD6
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -150,3 +166,23 @@ MediumThreshold<u8>
 LargeThreshold<u8>
 Faction<8>
 CrossFactionID<u16>
+
+LAYOUT 3E17FF9F
+BUILD 9.1.5.39977
+$noninline,id$ID<32>
+Field_9_1_5_39977_000_lang
+Field_9_1_5_39977_001_lang
+Field_9_1_5_39977_002<u16>
+Field_9_1_5_39977_003<u8>
+Field_9_1_5_39977_004<u8>
+Field_9_1_5_39977_005<u8>
+Field_9_1_5_39977_006<u16>
+Field_9_1_5_39977_007<u16>
+Field_9_1_5_39977_008<u16>
+Field_9_1_5_39977_009<32>
+Field_9_1_5_39977_010<u32>
+Field_9_1_5_39977_011<u32>
+Field_9_1_5_39977_012<u8>
+Field_9_1_5_39977_013<u8>
+Field_9_1_5_39977_014<8>
+Field_9_1_5_39977_015<u16>

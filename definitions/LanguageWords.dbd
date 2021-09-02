@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<Languages::ID> LanguageID
 string Word
+string Field_9_1_5_39977_000?
+int Field_9_1_5_39977_001?
 
 LAYOUT 275A6A49
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -56,3 +58,9 @@ BUILD 8.3.0.32414, 8.3.0.32489, 8.3.0.32593, 8.3.0.32712, 8.3.0.32805, 8.3.0.328
 $noninline,id$ID<32>
 Word
 LanguageID<u32>
+
+LAYOUT 8AF6E8C1
+BUILD 9.1.5.39977
+$noninline,id$ID<32>
+Field_9_1_5_39977_000
+Field_9_1_5_39977_001<u32>

@@ -7,6 +7,13 @@ int<GarrAbilityCategory::ID> GarrAbilityCategoryID
 int<GarrFollowerType::ID> GarrFollowerTypeID
 int<FileData::ID> IconFileDataID
 locstring Name_lang
+locstring Field_9_1_5_39977_000_lang?
+locstring Field_9_1_5_39977_001_lang?
+int Field_9_1_5_39977_002?
+int Field_9_1_5_39977_003?
+int Field_9_1_5_39977_004?
+int Field_9_1_5_39977_005?
+int Field_9_1_5_39977_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -81,3 +88,14 @@ GarrFollowerTypeID<u8>
 IconFileDataID<32>
 FactionChangeGarrAbilityID<u16>
 Flags<u16>
+
+LAYOUT 92AABEAD
+BUILD 9.1.5.39977
+$noninline,id$ID<32>
+Field_9_1_5_39977_000_lang
+Field_9_1_5_39977_001_lang
+Field_9_1_5_39977_002<u8>
+Field_9_1_5_39977_003<u8>
+Field_9_1_5_39977_004<32>
+Field_9_1_5_39977_005<u16>
+Field_9_1_5_39977_006<32>

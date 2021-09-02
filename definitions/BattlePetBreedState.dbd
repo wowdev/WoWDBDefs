@@ -3,6 +3,9 @@ int ID
 int BattlePetBreedID
 int<BattlePetState::ID> BattlePetStateID
 int Value
+int Field_9_1_5_39977_000?
+int Field_9_1_5_39977_001?
+int Field_9_1_5_39977_002?
 
 LAYOUT 81A935E5
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -67,3 +70,10 @@ $noninline,id$ID<32>
 BattlePetStateID<32>
 Value<u16>
 $noninline,relation$BattlePetBreedID<u8>
+
+LAYOUT 5572DEA2
+BUILD 9.1.5.39977
+$noninline,id$ID<32>
+Field_9_1_5_39977_000<32>
+Field_9_1_5_39977_001<u16>
+$noninline,relation$Field_9_1_5_39977_002<32>

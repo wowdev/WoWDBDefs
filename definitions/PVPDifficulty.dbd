@@ -6,15 +6,6 @@ int MinLevel
 int MaxLevel
 int Difficulty
 
-LAYOUT CB799A74
-BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
-BUILD 1.14.0.39802, 1.14.0.39958
-$noninline,id$ID<32>
-RangeIndex<u8>
-MinLevel<u8>
-MaxLevel<u8>
-$noninline,relation$MapID<32>
-
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18273
 BUILD 4.0.0.11792-4.3.4.15595
@@ -76,3 +67,13 @@ RangeIndex<u8>
 MinLevel<u8>
 MaxLevel<u8>
 $noninline,relation$MapID<u16>
+
+LAYOUT CB799A74
+BUILD 9.1.5.39977
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
+BUILD 1.14.0.39802, 1.14.0.39958
+$noninline,id$ID<32>
+RangeIndex<u8>
+MinLevel<u8>
+MaxLevel<u8>
+$noninline,relation$MapID<32>

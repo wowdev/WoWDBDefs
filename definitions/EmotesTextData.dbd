@@ -4,14 +4,6 @@ locstring Text_lang
 int<EmotesText::ID> EmotesTextID
 int RelationshipFlags
 
-LAYOUT 93E6D146
-BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
-BUILD 1.14.0.39802, 1.14.0.39958
-$noninline,id$ID<32>
-Text_lang
-RelationshipFlags<u8>
-$noninline,relation$EmotesTextID<32>
-
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
 BUILD 0.5.3.3368
@@ -57,3 +49,12 @@ $noninline,id$ID<32>
 Text_lang
 RelationshipFlags<u8>
 $noninline,relation$EmotesTextID<u16>
+
+LAYOUT 93E6D146
+BUILD 9.1.5.39977
+BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
+BUILD 1.14.0.39802, 1.14.0.39958
+$noninline,id$ID<32>
+Text_lang
+RelationshipFlags<u8>
+$noninline,relation$EmotesTextID<32>

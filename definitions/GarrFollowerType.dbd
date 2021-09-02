@@ -7,6 +7,13 @@ int LevelRangeBias
 int MaxFollowerBuildingType
 int MaxFollowers
 int MaxItemLevel
+int Field_9_1_5_39977_000?
+int Field_9_1_5_39977_001?
+int Field_9_1_5_39977_002?
+int Field_9_1_5_39977_003?
+int Field_9_1_5_39977_004?
+int Field_9_1_5_39977_005?
+int Field_9_1_5_39977_006?
 
 LAYOUT D676FBC0
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -63,3 +70,14 @@ MaxItemLevel<u16>
 LevelRangeBias<u8>
 ItemLevelRangeBias<u8>
 Flags<u8>
+
+LAYOUT 5D1949C4
+BUILD 9.1.5.39977
+$noninline,id$ID<32>
+Field_9_1_5_39977_000<u8>
+Field_9_1_5_39977_001<u8>
+Field_9_1_5_39977_002<u8>
+Field_9_1_5_39977_003<u16>
+Field_9_1_5_39977_004<u8>
+Field_9_1_5_39977_005<u8>
+Field_9_1_5_39977_006<32>
