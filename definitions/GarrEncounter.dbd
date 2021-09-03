@@ -8,14 +8,6 @@ float UiAnimScale
 int<UiTextureKit::ID> UiTextureKitID
 int Flags
 int<GarrAutoCombatant::ID> AutoCombatantID
-locstring Field_9_1_5_39977_000_lang?
-int Field_9_1_5_39977_001?
-int Field_9_1_5_39977_002?
-int Field_9_1_5_39977_003?
-float Field_9_1_5_39977_004?
-float Field_9_1_5_39977_005?
-int Field_9_1_5_39977_006?
-int Field_9_1_5_39977_007?
 
 LAYOUT DE33F3ED
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011
@@ -132,11 +124,11 @@ AutoCombatantID<32>
 LAYOUT 51A3E8E8
 BUILD 9.1.5.39977
 $noninline,id$ID<32>
-Field_9_1_5_39977_000_lang
-Field_9_1_5_39977_001<32>
-Field_9_1_5_39977_002<32>
-Field_9_1_5_39977_003<u32>
-Field_9_1_5_39977_004
-Field_9_1_5_39977_005
-Field_9_1_5_39977_006<32>
-Field_9_1_5_39977_007<32>
+Name_lang
+CreatureID<32>
+PortraitFileDataID<32>
+UiTextureKitID<u32>
+UiAnimScale
+UiAnimHeight
+Flags<32>
+AutoCombatantID<32>

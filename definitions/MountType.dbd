@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int Capability
-int Field_9_1_5_39977_000?
+int Type? // 0: Ground, 1: Flying, 2: Aquatic
 
 BUILD 4.0.0.12319-4.0.6.13596
 $id$ID<32>
@@ -17,5 +17,5 @@ Capability<32>[24]
 LAYOUT 22446F4F
 BUILD 9.1.5.39977
 $noninline,id$ID<32>
-Field_9_1_5_39977_000<32>
+Type<32>
 Capability<32>[24]
