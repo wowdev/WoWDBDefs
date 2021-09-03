@@ -9,16 +9,6 @@ int SourceTypeEnum
 int StaticUpgradedItemID
 int UpgradeItemBonusListID
 int UpgradeItemID
-locstring Field_1_14_0_39958_000_lang?
-int Field_1_14_0_39958_001?
-int Field_1_14_0_39958_002?
-int Field_1_14_0_39958_003?
-int Field_1_14_0_39958_004?
-int Field_1_14_0_39958_005?
-int Field_1_14_0_39958_006?
-int Field_1_14_0_39958_007?
-int Field_1_14_0_39958_008?
-int Field_1_14_0_39958_009?
 
 LAYOUT 72B50997
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -111,13 +101,13 @@ UpgradeItemBonusListID<u16>[4]
 LAYOUT ECAE6D6C
 BUILD 9.1.5.39977
 BUILD 1.14.0.39958
-Field_1_14_0_39958_000_lang
-$id$Field_1_14_0_39958_001<32>
-Field_1_14_0_39958_002<32>
-Field_1_14_0_39958_003<32>
-Field_1_14_0_39958_004<32>
-Field_1_14_0_39958_005<8>
-Field_1_14_0_39958_006<u8>
-Field_1_14_0_39958_007<32>
-Field_1_14_0_39958_008<32>[6]
-Field_1_14_0_39958_009<u16>[6]
+SourceText_lang
+$id$ID<32>
+ItemID<32>
+LegacyUpgradedItemID<32>
+StaticUpgradedItemID<32>
+SourceTypeEnum<8>
+Flags<u8>
+LegacyItemID<32>
+UpgradeItemID<32>[6]
+UpgradeItemBonusListID<u16>[6]
