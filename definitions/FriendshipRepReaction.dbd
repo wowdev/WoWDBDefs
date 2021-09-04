@@ -3,7 +3,7 @@ int ID
 int<FriendshipReputation::ID> FriendshipRepID
 int ReactionThreshold
 locstring Reaction_lang
-int Field_9_1_5_39977_003?
+int OverrideColor?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -68,4 +68,4 @@ $noninline,id$ID<32>
 Reaction_lang
 $relation$FriendshipRepID<u32>
 ReactionThreshold<u16>
-Field_9_1_5_39977_003<32>
+OverrideColor<32>
