@@ -59,7 +59,7 @@ GarrMechanicSetID<u8>
 $noninline,relation$GarrEncounterID<u16>
 
 LAYOUT 0A692AA6
-BUILD 9.1.5.39977
+BUILD 9.1.5.39977, 9.1.5.40071
 $noninline,id$ID<32>
 GarrMechanicID<32>
 GarrMechanicSetID<u8>

@@ -77,10 +77,10 @@ OrderIndex<u8>
 TransmogSourceTypeEnum<8>
 
 LAYOUT D768C49E
-BUILD 9.1.5.39977
+BUILD 9.1.5.39977, 9.1.5.40071
 $id$ID<32>
 $relation$ItemID<32>
 ItemAppearanceModifierID<u8>
 ItemAppearanceID<u16>
 OrderIndex<u8>
-TransmogSourceTypeEnum<8>
+TransmogSourceTypeEnum<u8>
