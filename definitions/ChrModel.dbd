@@ -15,7 +15,7 @@ float CustomizeFacing // in radians
 float CameraDistanceOffset
 float BarberShopCameraOffsetScale?
 float BarberShopCameraRotationOffset? // in radians, rotated by 180°?! unsure, used in camera code
-float Field_9_1_0_38312_015?
+float BarberShopCameraRotationFacing?
 
 LAYOUT 6FB2BE38
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -119,5 +119,5 @@ CustomizeScale
 CustomizeFacing
 CameraDistanceOffset
 BarberShopCameraOffsetScale
-Field_9_1_0_38312_015
+BarberShopCameraRotationFacing
 BarberShopCameraRotationOffset

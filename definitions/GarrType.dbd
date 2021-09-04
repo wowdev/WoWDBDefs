@@ -7,7 +7,7 @@ int<CurrencyTypes::ID> PrimaryCurrencyTypeID
 int<CurrencyTypes::ID> SecondaryCurrencyTypeID
 float AutoFollowerHealRate
 int<Curve::ID> MissionCostCurveID?
-float Field_9_0_2_36512_006?
+float Field_9_0_2_36512_006? // Related to stat scaling for garrison followers
 
 LAYOUT 40A23048
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
