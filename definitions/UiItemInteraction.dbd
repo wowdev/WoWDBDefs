@@ -14,6 +14,22 @@ int<CurrencyTypes::ID> CurrencyTypeID
 int Field_8_3_0_32414_012?
 int<SoundKit::ID> TakeOutSlotSoundKitID? // has GO_8FX_VISIONS_TITAN_CLEANSINGLIGHT_Close
 int<SoundKit::ID> DropInSlotSoundKitID // has GO_8BL_CultistChest_Open_TitanMagic
+locstring Field_9_1_5_40196_000_lang?
+locstring Field_9_1_5_40196_001_lang?
+locstring Field_9_1_5_40196_002_lang?
+locstring Field_9_1_5_40196_003_lang?
+locstring Field_9_1_5_40196_004_lang?
+locstring Field_9_1_5_40196_005_lang?
+int Field_9_1_5_40196_006?
+int Field_9_1_5_40196_007?
+int Field_9_1_5_40196_008?
+int Field_9_1_5_40196_009?
+int Field_9_1_5_40196_010?
+int Field_9_1_5_40196_011?
+int Field_9_1_5_40196_012?
+int Field_9_1_5_40196_013?
+int Field_9_1_5_40196_014?
+int Field_9_1_5_40196_015?
 
 LAYOUT 600AB900
 BUILD 8.3.0.32414, 8.3.0.32489, 8.3.0.32593, 8.3.0.32712
@@ -72,3 +88,23 @@ CurrencyTypeID<32>
 Field_8_3_0_32414_012<8>
 DropInSlotSoundKitID<32>
 TakeOutSlotSoundKitID<32>
+
+LAYOUT 122EB2F3
+BUILD 9.1.5.40196
+$noninline,id$ID<32>
+Field_9_1_5_40196_000_lang
+Field_9_1_5_40196_001_lang
+Field_9_1_5_40196_002_lang
+Field_9_1_5_40196_003_lang
+Field_9_1_5_40196_004_lang
+Field_9_1_5_40196_005_lang
+Field_9_1_5_40196_006<32>
+Field_9_1_5_40196_007<32>
+Field_9_1_5_40196_008<32>
+Field_9_1_5_40196_009<32>
+Field_9_1_5_40196_010<32>
+Field_9_1_5_40196_011<32>
+Field_9_1_5_40196_012<32>
+Field_9_1_5_40196_013<u8>
+Field_9_1_5_40196_014<32>
+Field_9_1_5_40196_015<32>
