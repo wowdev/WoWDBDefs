@@ -5,10 +5,6 @@ int<SoundEntries::ID> SoundID
 float Origin
 float OriginFacing
 int<FileData::ID> FileDataID
-float Field_9_1_5_40383_000?
-int Field_9_1_5_40383_001?
-float Field_9_1_5_40383_002?
-int Field_9_1_5_40383_003?
 int Field_9_1_5_40383_004?
 
 BUILD 6.0.1.18179
@@ -70,8 +66,8 @@ FileDataID<u32>
 LAYOUT C5F2F36C
 BUILD 9.1.5.40383
 $noninline,id$ID<32>
-Field_9_1_5_40383_000[3]
-Field_9_1_5_40383_001<u32>
-Field_9_1_5_40383_002
-Field_9_1_5_40383_003<u32>
+Origin[3]
+SoundID<u32>
+OriginFacing
+FileDataID<u32>
 Field_9_1_5_40383_004<32>
