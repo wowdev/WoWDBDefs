@@ -15,6 +15,23 @@ int<SkillLine::ID> RequiredSkill
 int RequiredSkillRank
 int Field_7_3_2_25549_009?
 
+LAYOUT 01A3B9F0
+BUILD 1.14.1.40487
+AllowableRace<64>
+Display_lang
+$id$ID<32>
+OverallQualityID<u8>
+ExpansionID<32>
+MinFactionID<u16>
+MinReputation<u8>
+AllowableClass<32>
+RequiredLevel<8>
+RequiredSkill<u16>
+RequiredSkillRank<u16>
+RequiredAbility<u32>
+ItemLevel<u16>
+Flags<32>[4]
+
 LAYOUT D137733C
 BUILD 2.5.1.38598
 AllowableRace<64>
@@ -167,27 +184,10 @@ ItemLevel<u16>
 Flags<32>[4]
 
 LAYOUT 616E8BCF
-BUILD 9.1.5.40196, 9.1.5.40290, 9.1.5.40383
+BUILD 9.1.5.40196, 9.1.5.40290, 9.1.5.40383, 9.1.5.40496
 $noninline,id$ID<32>
 AllowableRace<64>
 Display_lang
-OverallQualityID<u8>
-ExpansionID<32>
-MinFactionID<u16>
-MinReputation<u8>
-AllowableClass<32>
-RequiredLevel<8>
-RequiredSkill<u16>
-RequiredSkillRank<u16>
-RequiredAbility<u32>
-ItemLevel<u16>
-Flags<32>[4]
-
-LAYOUT 01A3B9F0
-BUILD 1.14.1.40487
-AllowableRace<64>
-Display_lang
-$id$ID<32>
 OverallQualityID<u8>
 ExpansionID<32>
 MinFactionID<u16>
