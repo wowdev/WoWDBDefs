@@ -11,6 +11,33 @@ int Flags
 locstring Text_lang
 locstring Text1_lang
 int ChatBubbleDurationMs
+locstring Field_1_14_1_40487_000_lang?
+locstring Field_1_14_1_40487_001_lang?
+int Field_1_14_1_40487_002?
+int Field_1_14_1_40487_003?
+int Field_1_14_1_40487_004?
+int Field_1_14_1_40487_005?
+int Field_1_14_1_40487_006?
+int Field_1_14_1_40487_007?
+int Field_1_14_1_40487_008?
+int Field_1_14_1_40487_009?
+int Field_1_14_1_40487_010?
+int Field_1_14_1_40487_011?
+
+LAYOUT 82D5CA77
+BUILD 1.14.1.40487
+Field_1_14_1_40487_000_lang
+Field_1_14_1_40487_001_lang
+$id$Field_1_14_1_40487_002<32>
+Field_1_14_1_40487_003<32>
+Field_1_14_1_40487_004<32>
+Field_1_14_1_40487_005<u16>
+Field_1_14_1_40487_006<u8>
+Field_1_14_1_40487_007<u32>
+Field_1_14_1_40487_008<32>
+Field_1_14_1_40487_009<u32>[2]
+Field_1_14_1_40487_010<u16>[3]
+Field_1_14_1_40487_011<u16>[3]
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
