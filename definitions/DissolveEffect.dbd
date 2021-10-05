@@ -14,20 +14,6 @@ float Ramp
 float Scale
 float StartValue
 int<TextureBlendSet::ID> TextureBlendSetID
-float Field_9_1_5_40496_000?
-float Field_9_1_5_40496_001?
-float Field_9_1_5_40496_002?
-float Field_9_1_5_40496_003?
-float Field_9_1_5_40496_004?
-float Field_9_1_5_40496_005?
-int Field_9_1_5_40496_006?
-int Field_9_1_5_40496_007?
-int Field_9_1_5_40496_008?
-float Field_9_1_5_40496_009?
-int Field_9_1_5_40496_010?
-int Field_9_1_5_40496_011?
-int Field_9_1_5_40496_012?
-float Field_9_1_5_40496_013?
 float Field_9_1_5_40496_014?
 float Field_9_1_5_40496_015?
 float Field_9_1_5_40496_016?
@@ -98,20 +84,20 @@ FresnelIntensity
 LAYOUT 3E1DB42B
 BUILD 9.1.5.40496
 $noninline,id$ID<32>
-Field_9_1_5_40496_000
-Field_9_1_5_40496_001
-Field_9_1_5_40496_002
-Field_9_1_5_40496_003
-Field_9_1_5_40496_004
-Field_9_1_5_40496_005
-Field_9_1_5_40496_006<8>
-Field_9_1_5_40496_007<8>
-Field_9_1_5_40496_008<32>
-Field_9_1_5_40496_009
-Field_9_1_5_40496_010<32>
-Field_9_1_5_40496_011<32>
-Field_9_1_5_40496_012<u32>
-Field_9_1_5_40496_013
+Ramp
+StartValue
+EndValue
+FadeInTime
+FadeOutTime
+Duration
+AttachID<8>
+ProjectionType<8>
+TextureBlendSetID<32>
+Scale
+Flags<32>
+CurveID<32>
+Priority<u32>
+FresnelIntensity
 Field_9_1_5_40496_014
 Field_9_1_5_40496_015
 Field_9_1_5_40496_016
