@@ -21,6 +21,16 @@ int RandomSelect?
 int ItemRandomSuffixGroupID?
 int Field_2_5_1_38043_012?
 int Field_2_5_1_38043_013?
+int Field_9_1_5_40622_000?
+int Field_9_1_5_40622_001?
+int Field_9_1_5_40622_002?
+int Field_9_1_5_40622_003?
+int Field_9_1_5_40622_004?
+int Field_9_1_5_40622_005?
+int Field_9_1_5_40622_006?
+int Field_9_1_5_40622_007?
+int Field_9_1_5_40622_008?
+int Field_9_1_5_40622_009?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -256,3 +266,17 @@ Sound_override_subclassID<8>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
 ModifiedCraftingReagentItemID<32>
+
+LAYOUT 96B908A5
+BUILD 9.1.5.40622
+$noninline,id$ID<32>
+Field_9_1_5_40622_000<u8>
+Field_9_1_5_40622_001<u8>
+Field_9_1_5_40622_002<u8>
+Field_9_1_5_40622_003<8>
+Field_9_1_5_40622_004<u8>
+Field_9_1_5_40622_005<8>
+Field_9_1_5_40622_006<32>
+Field_9_1_5_40622_007<u8>
+Field_9_1_5_40622_008<32>
+Field_9_1_5_40622_009<32>
