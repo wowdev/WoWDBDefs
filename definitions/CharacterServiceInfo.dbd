@@ -11,18 +11,7 @@ locstring PopupTitle_lang
 int<UiTextureKit::ID> PopupUITextureKitID
 int Priority
 int ProfessionLevel
-locstring Field_1_14_1_40666_000_lang?
-locstring Field_1_14_1_40666_001_lang?
-locstring Field_1_14_1_40666_002_lang?
 int Field_1_14_1_40666_003?
-int Field_1_14_1_40666_004?
-int Field_1_14_1_40666_005?
-int Field_1_14_1_40666_006?
-int Field_1_14_1_40666_007?
-int Field_1_14_1_40666_008?
-int Field_1_14_1_40666_009?
-int Field_1_14_1_40666_010?
-int Field_1_14_1_40666_011?
 
 LAYOUT 371E296E
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -81,15 +70,15 @@ LAYOUT EA8A1A38
 BUILD 9.1.5.40696
 BUILD 1.14.1.40666, 1.14.1.40688
 $noninline,id$ID<32>
-Field_1_14_1_40666_000_lang
-Field_1_14_1_40666_001_lang
-Field_1_14_1_40666_002_lang
+FlowTitle_lang
+PopupTitle_lang
+PopupDescription_lang
 Field_1_14_1_40666_003<32>
-Field_1_14_1_40666_004<32>
-Field_1_14_1_40666_005<32>
-Field_1_14_1_40666_006<32>
-Field_1_14_1_40666_007<u32>
-Field_1_14_1_40666_008<32>
-Field_1_14_1_40666_009<32>
-Field_1_14_1_40666_010<32>
-Field_1_14_1_40666_011<32>
+BoostType<32>
+IconFileDataID<32>
+Priority<32>
+Flags<u32>
+ProfessionLevel<32>
+BoostLevel<32>
+Expansion<32>
+PopupUITextureKitID<32>
