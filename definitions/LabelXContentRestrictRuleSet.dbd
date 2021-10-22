@@ -4,7 +4,7 @@ int<ContentRestrictionRuleSet::ID> ContentRestrictionRuleSetID?
 int<SpellLabel::LabelID> LabelID?
 
 LAYOUT 682EA64A
-BUILD 9.1.5.40622, 9.1.5.40696, 9.1.5.40738
+BUILD 9.1.5.40622, 9.1.5.40696, 9.1.5.40738, 9.1.5.40772
 $noninline,id$ID<32>
 ContentRestrictionRuleSetID<32>
 $noninline,relation$LabelID<32>
