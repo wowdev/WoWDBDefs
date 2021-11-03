@@ -11,7 +11,7 @@ int Flags
 int<FileData::ID> SpellIconFileID
 int Difficulty
 int Faction // -1: any, 0: Horde, 1: Alliance
-int<WorldState::ID> IsEncounterComplete
+int<WorldState::ID> CompleteWorldStateID
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12539
@@ -108,7 +108,7 @@ $id$ID<32>
 $relation$MapID<16>
 DifficultyID<8>
 OrderIndex<32>
-IsEncounterComplete<32>
+CompleteWorldStateID<32>
 Bit<8>
 CreatureDisplayID<32>
 Flags<u8>
@@ -124,7 +124,7 @@ $id$ID<32>
 $relation$MapID<16>
 DifficultyID<32>
 OrderIndex<32>
-IsEncounterComplete<32>
+CompleteWorldStateID<32>
 Bit<8>
 CreatureDisplayID<32>
 Flags<u8>
@@ -165,7 +165,7 @@ $id$ID<32>
 $relation$MapID<16>
 DifficultyID<32>
 OrderIndex<32>
-IsEncounterComplete<32>
+CompleteWorldStateID<32>
 Bit<8>
 CreatureDisplayID<32>
 Flags<32>
