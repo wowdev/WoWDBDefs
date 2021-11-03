@@ -13,9 +13,6 @@ int<Curve::ID> GroupSizeSpellPointsCurveID
 locstring Name_lang
 int ItemContext
 int OrderIndex
-int Field_8_1_0_28151_011?
-int Field_8_1_0_28151_012?
-int<Curve::ID> Field_8_1_0_28151_013?
 
 LAYOUT 21EAE538
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011, 2.5.2.40045, 2.5.2.40203, 2.5.2.40260, 2.5.2.40422, 2.5.2.40488, 2.5.2.40617, 2.5.2.40892
@@ -157,6 +154,6 @@ MaxPlayers<u8>
 Flags<u16>
 ItemContext<u8>
 ToggleDifficultyID<u8>
-Field_8_1_0_28151_011<u16>
-Field_8_1_0_28151_012<u16>
-Field_8_1_0_28151_013<u16>
+GroupSizeHealthCurveID<u16>
+GroupSizeDmgCurveID<u16>
+GroupSizeSpellPointsCurveID<u16>
