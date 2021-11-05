@@ -60,14 +60,14 @@ int MaleTextureFallbackRaceID
 int MaleTextureFallbackSex
 int<ChrRaces::ID> BaseRaceID?
 int TransmogrifyDisabledSlotMask?
-locstring Name_RS_lang? // quest text $RS
-locstring Name_RS_female_lang? // quest text $RS
-locstring Name_RS_lowercase_lang? // quest text $rs
-locstring Name_RS_female_lowercase_lang? // quest text $rs
-locstring Name_RL_lang? // quest text $RL
-locstring Name_RL_female_lang? // quest text $RL
-locstring Name_RL_lowercase_lang? // quest text $rl
-locstring Name_RL_female_lowercase_lang? // quest text $rl
+locstring Name_RS_lang? // quest text $RS, Short_name
+locstring Name_RS_female_lang? // quest text $RS, Short_name_female
+locstring Name_RS_lowercase_lang? // quest text $rs, Short_name_lower
+locstring Name_RS_female_lowercase_lang? // quest text $rs, Short_name_lower_female
+locstring Name_RL_lang? // quest text $RL, Lore_name
+locstring Name_RL_female_lang? // quest text $RL, Lore_name_female
+locstring Name_RL_lowercase_lang? // quest text $rl, Lore_name_lower
+locstring Name_RL_female_lowercase_lang? // quest text $rl, Lore_name_lower_female
 int PlayableRaceBit?
 locstring RaceFantasyDescription_lang?
 int<ChrRaces::ID> UnalteredVisualCustomizationRaceID?

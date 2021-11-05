@@ -26,9 +26,9 @@ int HasRelicSlot?
 int<FileData::ID> SpellTextureBlobFileDataID?
 int RolesMask // (&1: group leader), &2: tank, &4: heal, &8: dps
 int ArmorTypeMask // 1 << ItemSubClass::SubClassID where ItemSubClass::ClassID == 4
-int ChatColorR?
-int ChatColorG?
-int ChatColorB?
+int ClassColorR
+int ClassColorG
+int ClassColorB
 locstring Description_lang?
 locstring RoleInfoString_lang
 locstring DisabledString_lang
@@ -505,9 +505,9 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-ChatColorR<u8>
-ChatColorG<u8>
-ChatColorB<u8>
+ClassColorR<u8>
+ClassColorG<u8>
+ClassColorB<u8>
 
 LAYOUT 0AB8D350
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
@@ -537,9 +537,9 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-ChatColorR<u8>
-ChatColorG<u8>
-ChatColorB<u8>
+ClassColorR<u8>
+ClassColorG<u8>
+ClassColorB<u8>
 
 LAYOUT 419E747D
 BUILD 9.0.1.34490
@@ -571,9 +571,9 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-ChatColorR<u8>
-ChatColorG<u8>
-ChatColorB<u8>
+ClassColorR<u8>
+ClassColorG<u8>
+ClassColorB<u8>
 
 LAYOUT D7618A27
 BUILD 9.0.1.34615, 9.0.1.34714
@@ -606,9 +606,9 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-ChatColorR<u8>
-ChatColorG<u8>
-ChatColorB<u8>
+ClassColorR<u8>
+ClassColorG<u8>
+ClassColorB<u8>
 
 LAYOUT 504FF240
 BUILD 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078
@@ -646,9 +646,9 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-ChatColorR<u8>
-ChatColorG<u8>
-ChatColorB<u8>
+ClassColorR<u8>
+ClassColorG<u8>
+ClassColorB<u8>
 
 LAYOUT A853282C
 BUILD 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282
@@ -685,9 +685,9 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-ChatColorR<u8>
-ChatColorG<u8>
-ChatColorB<u8>
+ClassColorR<u8>
+ClassColorG<u8>
+ClassColorB<u8>
 
 LAYOUT 76A114BC
 BUILD 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755, 9.0.1.35789
@@ -725,9 +725,9 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-ChatColorR<u8>
-ChatColorG<u8>
-ChatColorB<u8>
+ClassColorR<u8>
+ClassColorG<u8>
+ClassColorB<u8>
 
 LAYOUT 7EF5ADB3
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524, 9.1.0.38549, 9.1.0.38600, 9.1.0.38627, 9.1.0.38709, 9.1.0.38783, 9.1.0.38802, 9.1.0.38872, 9.1.0.38950, 9.1.0.39015, 9.1.0.39069, 9.1.0.39121, 9.1.0.39136, 9.1.0.39172, 9.1.0.39185, 9.1.0.39226, 9.1.0.39229, 9.1.0.39262, 9.1.0.39282, 9.1.0.39289, 9.1.0.39291, 9.1.0.39318, 9.1.0.39335, 9.1.0.39413, 9.1.0.39427, 9.1.0.39497, 9.1.0.39498, 9.1.0.39584, 9.1.0.39617, 9.1.0.39653, 9.1.0.39804, 9.1.0.40000, 9.1.0.40120, 9.1.0.40443, 9.1.0.40593, 9.1.0.40725
@@ -770,9 +770,9 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-ChatColorR<u8>
-ChatColorG<u8>
-ChatColorB<u8>
+ClassColorR<u8>
+ClassColorG<u8>
+ClassColorB<u8>
 
 LAYOUT 090C9967
 BUILD 9.1.5.39977, 9.1.5.40071, 9.1.5.40078, 9.1.5.40196, 9.1.5.40290, 9.1.5.40383, 9.1.5.40496, 9.1.5.40622, 9.1.5.40696, 9.1.5.40738, 9.1.5.40772, 9.1.5.40843, 9.1.5.40871, 9.1.5.40906
@@ -812,6 +812,6 @@ RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
 SpellClassSet<u8>
-ChatColorR<u8>
-ChatColorG<u8>
-ChatColorB<u8>
+ClassColorR<u8>
+ClassColorG<u8>
+ClassColorB<u8>

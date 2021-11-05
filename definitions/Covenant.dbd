@@ -7,7 +7,7 @@ int<SkillLine::ID> SkillLineID
 int<Spell::ID> DeathTeleportSpellID
 int<Spell::ID> Field_9_0_2_36165_006?
 int<Spell::ID> Field_9_0_2_36165_007?
-int Field_9_1_0_38783_007?
+int<Faction::ID> FactionID
 
 LAYOUT 0CA77A5C
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
@@ -75,4 +75,4 @@ SkillLineID<32>
 DeathTeleportSpellID<32>
 Field_9_0_2_36165_006<32>
 Field_9_0_2_36165_007<32>
-Field_9_1_0_38783_007<32>
+FactionID<32>
