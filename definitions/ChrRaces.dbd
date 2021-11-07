@@ -60,16 +60,16 @@ int MaleTextureFallbackRaceID
 int MaleTextureFallbackSex
 int<ChrRaces::ID> BaseRaceID?
 int TransmogrifyDisabledSlotMask?
-locstring Name_RS_lang? // quest text $RS, Short_name
-locstring Name_RS_female_lang? // quest text $RS, Short_name_female
-locstring Name_RS_lowercase_lang? // quest text $rs, Short_name_lower
-locstring Name_RS_female_lowercase_lang? // quest text $rs, Short_name_lower_female
-locstring Name_RL_lang? // quest text $RL, Lore_name
-locstring Name_RL_female_lang? // quest text $RL, Lore_name_female
-locstring Name_RL_lowercase_lang? // quest text $rl, Lore_name_lower
-locstring Name_RL_female_lowercase_lang? // quest text $rl, Lore_name_lower_female
+locstring Lore_name_lang // quest text $RL
+locstring Lore_name_female_lang // quest text $RL
+locstring Lore_name_lower_lang // quest text $rl
+locstring Lore_name_lower_female_lang // quest text $rl
+locstring Short_name_lang // quest text $RS
+locstring Short_name_female_female_lang // quest text $RS
+locstring Short_name_lower_lang // quest text $rs
+locstring Short_name_lower_female_lang // quest text $rs
 int PlayableRaceBit?
-locstring RaceFantasyDescription_lang?
+locstring LoreDescription_lang
 int<ChrRaces::ID> UnalteredVisualCustomizationRaceID?
 float AlteredFormCustomizeOffsetFallback? // fallback for CharStartKit::AlteredFormCustomizeOffset
 float AlteredFormCustomizeRotationFallback? // fallback for CharStartKit::AlteredFormCustomizeRotation
@@ -190,15 +190,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 $id$ID<32>
 Flags<32>
 MaleDisplayID<u32>
@@ -254,15 +254,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 Flags<32>
 MaleDisplayID<u32>
 FemaleDisplayID<u32>
@@ -1025,14 +1025,14 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 $id$ID<32>
 Flags<32>
 MaleDisplayID<u32>
@@ -1084,15 +1084,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 $id$ID<32>
 Flags<32>
 CreateScreenFileDataID<32>
@@ -1134,15 +1134,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 $id$ID<32>
 Flags<32>
 CreateScreenFileDataID<32>
@@ -1185,15 +1185,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 $id$ID<32>
 Flags<32>
 BaseLanguage<32>
@@ -1236,15 +1236,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 $id$ID<32>
 Flags<32>
 BaseLanguage<32>
@@ -1293,15 +1293,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 $id$ID<32>
 Flags<32>
 BaseLanguage<32>
@@ -1346,15 +1346,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 $id$ID<32>
 Flags<32>
 CreateScreenFileDataID<32>
@@ -1402,15 +1402,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 Flags<32>
 CreateScreenFileDataID<32>
 SelectScreenFileDataID<32>
@@ -1457,15 +1457,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 Flags<32>
 FactionID<32>
 CinematicSequenceID<32>
@@ -1512,15 +1512,15 @@ Name_lang
 Name_female_lang
 Name_lowercase_lang
 Name_female_lowercase_lang
-Name_RS_lang
-Name_RS_female_lang
-Name_RS_lowercase_lang
-Name_RS_female_lowercase_lang
-RaceFantasyDescription_lang
-Name_RL_lang
-Name_RL_female_lang
-Name_RL_lowercase_lang
-Name_RL_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
 Flags<32>
 FactionID<32>
 CinematicSequenceID<32>
