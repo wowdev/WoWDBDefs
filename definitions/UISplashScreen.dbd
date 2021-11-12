@@ -13,8 +13,8 @@ int ScreenType // 0: WhatsNew, 1: SeasonRollOver
 int<UiTextureKit::ID> TextureKitID
 int<SoundKit::ID> SoundKitID
 int<PlayerCondition::ID> PlayerConditionID // Whether to show quest, not the splash screen.
-int<PlayerCondition::ID> Field_9_0_1_33978_014? // MinDisplayCharLevel? DisplayConditionID?
-int Field_9_0_1_33978_015? // MinQuestDisplayLevel?
+int<PlayerCondition::ID> CharLevelConditionID?
+int RequiredTimeEventPassed? // serverside TimeEvent table, same as Asset for ModifierTree Type 289 (TIME_EVENT_PASSED)
 
 LAYOUT CB8F573D
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -35,8 +35,8 @@ ScreenType<8>
 TextureKitID<32>
 SoundKitID<32>
 PlayerConditionID<32>
-Field_9_0_1_33978_014<32>
-Field_9_0_1_33978_015<32>
+CharLevelConditionID<32>
+RequiredTimeEventPassed<32>
 
 LAYOUT AA415970
 BUILD 9.1.5.39977, 9.1.5.40071, 9.1.5.40078, 9.1.5.40196, 9.1.5.40290, 9.1.5.40383, 9.1.5.40496, 9.1.5.40622, 9.1.5.40696, 9.1.5.40738, 9.1.5.40772, 9.1.5.40843, 9.1.5.40871, 9.1.5.40906, 9.1.5.40944, 9.1.5.40966, 9.1.5.41031
@@ -55,5 +55,5 @@ ScreenType<u8>
 TextureKitID<32>
 SoundKitID<32>
 PlayerConditionID<32>
-Field_9_0_1_33978_014<32>
-Field_9_0_1_33978_015<32>
+CharLevelConditionID<32>
+RequiredTimeEventPassed<32>
