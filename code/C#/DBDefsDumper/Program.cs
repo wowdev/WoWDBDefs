@@ -100,7 +100,21 @@ namespace DBDefsDumper
 
                             bin.BaseStream.Position = matchPos;
                             bin.ReadBytes(11);
-                            build = new string(bin.ReadChars(11));
+                            var sb = new StringBuilder();
+                            var buildPart = bin.ReadChar();
+                            var sanity = 0;
+                            while (buildPart != 0x0D)
+                            {
+                                sb.Append(buildPart);
+                                buildPart = bin.ReadChar();
+                                sanity++;
+                                if (sanity > 20)
+                                {
+                                    sb.Clear();
+                                    break;
+                                }
+                            }
+                            build = sb.ToString();
                         }
                         else
                         {
