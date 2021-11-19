@@ -146,70 +146,6 @@ int Field_1_14_1_40487_066?
 int Field_1_14_1_40487_067?
 int Field_1_14_1_40487_068?
 int Field_1_14_1_40487_069?
-int Field_9_2_0_41089_000?
-locstring Field_9_2_0_41089_001_lang?
-locstring Field_9_2_0_41089_002_lang?
-locstring Field_9_2_0_41089_003_lang?
-locstring Field_9_2_0_41089_004_lang?
-locstring Field_9_2_0_41089_005_lang?
-int Field_9_2_0_41089_006?
-float Field_9_2_0_41089_007?
-int Field_9_2_0_41089_008?
-int Field_9_2_0_41089_009?
-float Field_9_2_0_41089_010?
-int Field_9_2_0_41089_011?
-int Field_9_2_0_41089_012?
-float Field_9_2_0_41089_013?
-float Field_9_2_0_41089_014?
-int Field_9_2_0_41089_015?
-int Field_9_2_0_41089_016?
-int Field_9_2_0_41089_017?
-int Field_9_2_0_41089_018?
-int Field_9_2_0_41089_019?
-int Field_9_2_0_41089_020?
-int Field_9_2_0_41089_021?
-float Field_9_2_0_41089_022?
-float Field_9_2_0_41089_023?
-int Field_9_2_0_41089_024?
-int Field_9_2_0_41089_025?
-int Field_9_2_0_41089_026?
-int Field_9_2_0_41089_027?
-int Field_9_2_0_41089_028?
-int Field_9_2_0_41089_029?
-int Field_9_2_0_41089_030?
-int Field_9_2_0_41089_031?
-int Field_9_2_0_41089_032?
-int Field_9_2_0_41089_033?
-int Field_9_2_0_41089_034?
-int Field_9_2_0_41089_035?
-int Field_9_2_0_41089_036?
-int Field_9_2_0_41089_037?
-int Field_9_2_0_41089_038?
-int Field_9_2_0_41089_039?
-int Field_9_2_0_41089_040?
-int Field_9_2_0_41089_041?
-int Field_9_2_0_41089_042?
-int Field_9_2_0_41089_043?
-int Field_9_2_0_41089_044?
-int Field_9_2_0_41089_045?
-int Field_9_2_0_41089_046?
-int Field_9_2_0_41089_047?
-int Field_9_2_0_41089_048?
-int Field_9_2_0_41089_049?
-int Field_9_2_0_41089_050?
-int Field_9_2_0_41089_051?
-int Field_9_2_0_41089_052?
-int Field_9_2_0_41089_053?
-int Field_9_2_0_41089_054?
-int Field_9_2_0_41089_055?
-int Field_9_2_0_41089_056?
-int Field_9_2_0_41089_057?
-int Field_9_2_0_41089_058?
-int Field_9_2_0_41089_059?
-int Field_9_2_0_41089_060?
-int Field_9_2_0_41089_061?
-int Field_9_2_0_41089_062?
-int Field_9_2_0_41089_063?
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -1214,67 +1150,67 @@ LAYOUT D687FCE7
 BUILD 9.2.0.41089
 COMMENT table is sparse
 $noninline,id$ID<32>
-Field_9_2_0_41089_000<64>
-Field_9_2_0_41089_001_lang
-Field_9_2_0_41089_002_lang
-Field_9_2_0_41089_003_lang
-Field_9_2_0_41089_004_lang
-Field_9_2_0_41089_005_lang
-Field_9_2_0_41089_006<32>
-Field_9_2_0_41089_007
-Field_9_2_0_41089_008<32>
-Field_9_2_0_41089_009<u32>
-Field_9_2_0_41089_010
-Field_9_2_0_41089_011<u32>
-Field_9_2_0_41089_012<32>
-Field_9_2_0_41089_013
-Field_9_2_0_41089_014[10]
-Field_9_2_0_41089_015<32>[10]
-Field_9_2_0_41089_016<32>
-Field_9_2_0_41089_017<32>
-Field_9_2_0_41089_018<u32>
-Field_9_2_0_41089_019<u32>
-Field_9_2_0_41089_020<u32>
-Field_9_2_0_41089_021<u32>
-Field_9_2_0_41089_022
-Field_9_2_0_41089_023
-Field_9_2_0_41089_024<32>[4]
-Field_9_2_0_41089_025<32>
-Field_9_2_0_41089_026<32>
-Field_9_2_0_41089_027<32>
-Field_9_2_0_41089_028<32>
-Field_9_2_0_41089_029<u16>
-Field_9_2_0_41089_030<u16>
-Field_9_2_0_41089_031<u16>
-Field_9_2_0_41089_032<u16>
-Field_9_2_0_41089_033<u16>
-Field_9_2_0_41089_034<u16>
-Field_9_2_0_41089_035<u16>
-Field_9_2_0_41089_036<u16>[2]
-Field_9_2_0_41089_037<u16>
-Field_9_2_0_41089_038<u16>
-Field_9_2_0_41089_039<u16>
-Field_9_2_0_41089_040<u16>
-Field_9_2_0_41089_041<u16>
-Field_9_2_0_41089_042<u16>
-Field_9_2_0_41089_043<u16>
-Field_9_2_0_41089_044<u16>
-Field_9_2_0_41089_045<u16>
-Field_9_2_0_41089_046<16>
-Field_9_2_0_41089_047<u8>
-Field_9_2_0_41089_048<u8>
-Field_9_2_0_41089_049<u8>
-Field_9_2_0_41089_050<u8>[3]
-Field_9_2_0_41089_051<u8>
-Field_9_2_0_41089_052<u8>
-Field_9_2_0_41089_053<u8>
-Field_9_2_0_41089_054<u8>
-Field_9_2_0_41089_055<u8>
-Field_9_2_0_41089_056<8>[10]
-Field_9_2_0_41089_057<u8>
-Field_9_2_0_41089_058<u8>
-Field_9_2_0_41089_059<u8>
-Field_9_2_0_41089_060<u8>
-Field_9_2_0_41089_061<8>
-Field_9_2_0_41089_062<8>
-Field_9_2_0_41089_063<8>
+AllowableRace<64>
+Description_lang
+Display3_lang
+Display2_lang
+Display1_lang
+Display_lang
+ExpansionID<32>
+DmgVariance
+LimitCategory<32>
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+LanguageID<32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
+RequiredAbility<u32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
+OppositeFactionItemID<32>
+ModifiedCraftingReagentItemID<32>
+ContentTuningID<32>
+PlayerLevelToItemLevelCurveID<32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
+ItemSet<u16>
+LockID<u16>
+StartQuestID<u16>
+PageID<u16>
+ItemDelay<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+Bonding<u8>
+DamageType<u8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<u8>
+MinReputation<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+RequiredLevel<8>
+InventoryType<8>
+OverallQualityID<8>
