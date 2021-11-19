@@ -12,6 +12,18 @@ locstring Text_lang
 locstring Text1_lang
 int ChatBubbleDurationMs
 int Field_1_14_1_40487_008?
+locstring Field_9_2_0_41089_000_lang?
+locstring Field_9_2_0_41089_001_lang?
+int Field_9_2_0_41089_002?
+int Field_9_2_0_41089_003?
+int Field_9_2_0_41089_004?
+int Field_9_2_0_41089_005?
+int Field_9_2_0_41089_006?
+int Field_9_2_0_41089_007?
+int Field_9_2_0_41089_008?
+int Field_9_2_0_41089_009?
+int Field_9_2_0_41089_010?
+int Field_9_2_0_41089_011?
 
 LAYOUT 82D5CA77
 BUILD 1.14.1.40487, 1.14.1.40594, 1.14.1.40666, 1.14.1.40688, 1.14.1.40800, 1.14.1.40818, 1.14.1.40926, 1.14.1.40962, 1.14.1.41009, 1.14.1.41030, 1.14.1.41077, 1.14.1.41137
@@ -171,3 +183,18 @@ ChatBubbleDurationMs<u32>
 SoundKitID<u32>[2]
 EmoteID<u16>[3]
 EmoteDelay<u16>[3]
+
+LAYOUT 73D5C87B
+BUILD 9.2.0.41089
+Field_9_2_0_41089_000_lang
+Field_9_2_0_41089_001_lang
+$id$Field_9_2_0_41089_002<32>
+Field_9_2_0_41089_003<32>
+Field_9_2_0_41089_004<32>
+Field_9_2_0_41089_005<u16>
+Field_9_2_0_41089_006<u8>
+Field_9_2_0_41089_007<u32>
+Field_9_2_0_41089_008<32>
+Field_9_2_0_41089_009<u32>[2]
+Field_9_2_0_41089_010<u16>[3]
+Field_9_2_0_41089_011<u16>[3]
