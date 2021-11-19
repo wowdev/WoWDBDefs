@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 locstring Name_lang
-locstring Field_9_2_0_41089_000_lang?
 int Field_9_2_0_41089_001?
 int Field_9_2_0_41089_002?
 int Field_9_2_0_41089_003?
@@ -56,7 +55,7 @@ Name_lang
 LAYOUT BE3D3DBB
 BUILD 9.2.0.41089
 $noninline,id$ID<32>
-Field_9_2_0_41089_000_lang
+Name_lang
 Field_9_2_0_41089_001<32>
 Field_9_2_0_41089_002<32>
 Field_9_2_0_41089_003<32>
