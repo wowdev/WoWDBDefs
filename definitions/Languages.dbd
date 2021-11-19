@@ -2,7 +2,7 @@ COLUMNS
 int ID
 locstring Name_lang
 int Flags?
-int UiTextureKitID?
+int<UiTextureKit::ID> UiTextureKitID?
 int Field_9_2_0_41089_003?
 
 BUILD 6.0.1.18179

@@ -11,7 +11,7 @@ float Box_width
 float Box_height
 float Box_yaw
 int ShapeType // AREA_TRIGGER_$x: 0: SPHERE, 1: BOX, 2*: 2D_QUAD, 3: ARBITRARY_SHAPE, 4: CYLINDER, 5*: SCRIPT_SHAPE, 6*: FROM_UNIT_SHAPE; *=enum assignment guessed
-int ShapeID // depending on ShapeType: 0: AreaTriggerSphereID, 1: AreaTriggerBoxID, 3: PathID, 4: AreaTriggerCylinderID
+int ShapeID // depending on ShapeType: 0: AreaTriggerSphereID, 1: AreaTriggerBoxID, 3: PathID, 4: AreaTriggerCylinderID, 7: AreaTriggerDiskID
 int<AreaTriggerActionSet::ID> AreaTriggerActionSetID
 int Flags
 int PhaseShift

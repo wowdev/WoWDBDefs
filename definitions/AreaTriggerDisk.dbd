@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 float Field_9_2_0_41089_000?
-float Field_9_2_0_41089_001?
+float Radius?
 float Field_9_2_0_41089_002?
 float Field_9_2_0_41089_003?
 
@@ -9,6 +9,6 @@ LAYOUT 479EA96E
 BUILD 9.2.0.41089
 $noninline,id$ID<32>
 Field_9_2_0_41089_000
-Field_9_2_0_41089_001
+Radius
 Field_9_2_0_41089_002
 Field_9_2_0_41089_003
