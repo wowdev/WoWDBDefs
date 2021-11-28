@@ -158,10 +158,10 @@ namespace DBDefsLib
 
             result = new Build()
             {
-                build = build,
                 expansion = expansion,
                 major = major,
-                minor = minor
+                minor = minor,
+                build = build,
             };
 
             return true;

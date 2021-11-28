@@ -170,5 +170,30 @@ namespace DBDefsLib
         }
 
         #endregion
+
+        public static bool TryParse(string value, out BuildRange result)
+        {
+            result = null;
+
+            var parts = value.Split('-');
+            if (parts.Length != 2)
+                return false;
+
+            if (!Build.TryParse(parts[0], out var minBuild))
+                return false;
+            if (!Build.TryParse(parts[1], out var maxBuild))
+                return false;
+
+            if (minBuild.expansion != maxBuild.expansion)
+                throw new Exception("Expansion differs across build range. This is not allowed!");
+
+            result = new BuildRange()
+            {
+                minBuild = minBuild,
+                maxBuild = maxBuild
+            };
+
+            return true;
+        }
     }
 }

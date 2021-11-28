@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using static DBDefsLib.Structs;
 using System.Linq;
+using System.IO;
+using System.Text;
 
 namespace DBDefsLib
 {
-    public class Utils
+    public static class Utils
     {
         [Obsolete("Use of the Utils.ParseBuild() method is deprecated, it will be removed in an upcoming version. Use Build(build) instead.")]
         public static Build ParseBuild(string build)
@@ -18,10 +20,10 @@ namespace DBDefsLib
         {
             return build.ToString();
         }
-        
+
         public static bool GetVersionDefinitionByLayoutHash(DBDefinition definition, string layoutHash, out VersionDefinitions? versionToUse)
         {
-            foreach(var versionDefinition in definition.versionDefinitions)
+            foreach (var versionDefinition in definition.versionDefinitions)
             {
                 if (versionDefinition.layoutHashes.Contains(layoutHash))
                 {
@@ -44,7 +46,7 @@ namespace DBDefsLib
                     return true;
                 }
 
-                foreach(var range in versionDefinition.buildRanges)
+                foreach (var range in versionDefinition.buildRanges)
                 {
                     if (range.Contains(build))
                     {
@@ -67,7 +69,7 @@ namespace DBDefsLib
 
             var cleaned = col;
 
-            foreach(var thingToUpperCase in thingsToUpperCase)
+            foreach (var thingToUpperCase in thingsToUpperCase)
             {
                 if (filteredOut.Contains(col))
                 {
@@ -98,6 +100,18 @@ namespace DBDefsLib
             }
 
             return cleaned;
+        }
+
+        public static List<string> ReadLines(this StreamReader reader)
+        {
+            var list = new List<string>();
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                list.Add(line);
+            }
+
+            return list;
         }
     }
 }

@@ -14,7 +14,7 @@ namespace DBDefsLib
                 Directory.CreateDirectory(Path.GetDirectoryName(target));
             }
 
-            if(sort)
+            if (sort)
             {
                 var sortedDBDefinitions = definition.versionDefinitions.ToList();
                 sortedDBDefinitions.Sort(new DBDVersionsComparer(false));
@@ -26,9 +26,9 @@ namespace DBDefsLib
                 writer.NewLine = "\n";
 
                 writer.WriteLine("COLUMNS");
-                foreach(var columnDefinition in definition.columnDefinitions)
+                foreach (var columnDefinition in definition.columnDefinitions)
                 {
-                    if(columnDefinition.Value.type == "uint")
+                    if (columnDefinition.Value.type == "uint")
                     {
                         writer.Write("int");
                     }
@@ -74,7 +74,7 @@ namespace DBDefsLib
                         writer.WriteLine("LAYOUT " + string.Join(", ", versionDefinition.layoutHashes));
                     }
 
-                    if(versionDefinition.builds.Length > 0)
+                    if (versionDefinition.builds.Length > 0)
                     {
                         var sortedVersionlist = new List<Build>();
                         sortedVersionlist.AddRange(versionDefinition.builds);
@@ -94,7 +94,7 @@ namespace DBDefsLib
                             buildsByMajor[major].Add(versionDefinition.builds[b]);
                         }
 
-                        foreach(var buildList in buildsByMajor)
+                        foreach (var buildList in buildsByMajor)
                         {
                             buildList.Value.Reverse();
                             writer.Write("BUILD ");
@@ -114,16 +114,16 @@ namespace DBDefsLib
                     {
                         var sortedBuildRangeList = new List<BuildRange>();
                         sortedBuildRangeList.AddRange(versionDefinition.buildRanges);
-                        if(sort)
+                        if (sort)
                         {
                             sortedBuildRangeList.Sort((x, y) => x.CompareTo(y) * -1); // invert build ranges to follow def sort
                         }
                         else
                         {
                             sortedBuildRangeList.Sort();
-                        }                        
+                        }
                         versionDefinition.buildRanges = sortedBuildRangeList.ToArray();
-                        foreach(var buildRange in versionDefinition.buildRanges)
+                        foreach (var buildRange in versionDefinition.buildRanges)
                         {
                             writer.WriteLine("BUILD " + buildRange.ToString());
                         }
@@ -171,12 +171,12 @@ namespace DBDefsLib
                         writer.Write(normalizedColumnName);
 
                         // locstrings should always have _lang
-                        if(definition.columnDefinitions[column.name].type == "locstring" && !column.name.EndsWith("_lang"))
+                        if (definition.columnDefinitions[column.name].type == "locstring" && !column.name.EndsWith("_lang"))
                         {
                             writer.Write("_lang");
                         }
 
-                        if(column.size > 0)
+                        if (column.size > 0)
                         {
                             if (column.isSigned)
                             {
@@ -188,7 +188,7 @@ namespace DBDefsLib
                             }
                         }
 
-                        if(column.arrLength > 0)
+                        if (column.arrLength > 0)
                         {
                             writer.Write("[" + column.arrLength + "]");
                         }
