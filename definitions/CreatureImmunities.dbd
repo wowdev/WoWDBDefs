@@ -9,6 +9,15 @@ int Effect
 int StatesAllowed
 int State
 int Flags
+int Field_9_2_0_41257_000?
+int Field_9_2_0_41257_001?
+int Field_9_2_0_41257_002?
+int Field_9_2_0_41257_003?
+int Field_9_2_0_41257_004?
+int Field_9_2_0_41257_005?
+int Field_9_2_0_41257_006?
+int Field_9_2_0_41257_007?
+int Field_9_2_0_41257_008?
 
 BUILD 4.1.0.13914-4.3.4.15595
 $id$ID<32>
@@ -133,3 +142,16 @@ Flags<u8>
 Mechanic<32>[2]
 Effect<u32>[9]
 State<u32>[16]
+
+LAYOUT 70F0D55D
+BUILD 9.2.0.41257
+$noninline,id$ID<32>
+Field_9_2_0_41257_000<u8>
+Field_9_2_0_41257_001<u32>
+Field_9_2_0_41257_002<u8>
+Field_9_2_0_41257_003<u8>
+Field_9_2_0_41257_004<u8>
+Field_9_2_0_41257_005<u8>
+Field_9_2_0_41257_006<32>[2]
+Field_9_2_0_41257_007<u32>[10]
+Field_9_2_0_41257_008<u32>[16]
