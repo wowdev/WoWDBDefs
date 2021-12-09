@@ -18,17 +18,6 @@ int<ItemGroupSounds::ID> ItemGroupSoundsID?
 int<PlayerCondition::ID> AwardConditionID
 int MaxQtyWorldStateID // key into data sent by the server
 int XpQuestDifficulty // Correct if 2 for ID 1566. ConvertToPlayerExperience?
-locstring Field_1_14_0_39802_000_lang?
-locstring Field_1_14_0_39802_001_lang?
-int Field_1_14_0_39802_002?
-int Field_1_14_0_39802_003?
-int Field_1_14_0_39802_004?
-int Field_1_14_0_39802_005?
-int Field_1_14_0_39802_006?
-int Field_1_14_0_39802_007?
-int Field_1_14_0_39802_008?
-int Field_1_14_0_39802_009?
-int Field_1_14_0_39802_010?
 
 LAYOUT 7A943838
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011, 2.5.2.40045, 2.5.2.40203, 2.5.2.40260, 2.5.2.40422, 2.5.2.40488, 2.5.2.40617, 2.5.2.40892
@@ -51,17 +40,17 @@ BUILD 2.5.3.41402
 BUILD 1.14.1.40487, 1.14.1.40594, 1.14.1.40666, 1.14.1.40688, 1.14.1.40800, 1.14.1.40818, 1.14.1.40926, 1.14.1.40962, 1.14.1.41009, 1.14.1.41030, 1.14.1.41077, 1.14.1.41137, 1.14.1.41243
 BUILD 1.14.0.39802, 1.14.0.39958, 1.14.0.40140, 1.14.0.40179, 1.14.0.40237, 1.14.0.40347, 1.14.0.40441, 1.14.0.40618
 $noninline,id$ID<32>
-Field_1_14_0_39802_000_lang
-Field_1_14_0_39802_001_lang
-Field_1_14_0_39802_002<u8>
-Field_1_14_0_39802_003<32>
-Field_1_14_0_39802_004<u32>
-Field_1_14_0_39802_005<u8>
-Field_1_14_0_39802_006<u32>
-Field_1_14_0_39802_007<u32>
-Field_1_14_0_39802_008<8>
-Field_1_14_0_39802_009<32>
-Field_1_14_0_39802_010<32>[2]
+Name_lang
+Description_lang
+CategoryID<u8>
+InventoryIconFileID<32>
+SpellWeight<u32>
+SpellCategory<u8>
+MaxQty<u32>
+MaxEarnablePerWeek<u32>
+Quality<8>
+FactionID<32>
+Flags<32>[2]
 
 BUILD 4.0.0.11792
 BUILD 3.0.1.8622-3.3.5.12340
