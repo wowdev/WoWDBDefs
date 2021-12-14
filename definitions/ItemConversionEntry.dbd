@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_9_2_0_41462_000?
-int Field_9_2_0_41462_001?
+int<Item::ID> ItemID?
+int<ItemConversion::ID> ItemConversionID?
 
 LAYOUT FC502944
 BUILD 9.2.0.41462
 $noninline,id$ID<32>
-Field_9_2_0_41462_000<32>
-$noninline,relation$Field_9_2_0_41462_001<32>
+ItemID<32>
+$noninline,relation$ItemConversionID<32>
