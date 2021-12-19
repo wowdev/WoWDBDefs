@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int<PlayerCondition::ID> PlayerConditionID?
-int<GlobalPlayerConditionSet::ID> GlobalPlayerConditionSetID?
-int Field_9_2_0_41257_001?
+int<PlayerCondition::ID> PlayerConditionID
+int<GlobalPlayerConditionSet::ID> GlobalPlayerConditionSetID
+int InSetIndex? // Order? Tier?
 
 LAYOUT 8DFACE83
 BUILD 9.2.0.41089
@@ -16,5 +16,5 @@ LAYOUT 7D5C8DF9
 BUILD 9.2.0.41257, 9.2.0.41360, 9.2.0.41462
 $noninline,id$ID<32>
 PlayerConditionID<32>
-Field_9_2_0_41257_001<32>
+InSetIndex<32>
 $noninline,relation$GlobalPlayerConditionSetID<32>

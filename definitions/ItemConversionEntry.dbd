@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int<Item::ID> ItemID?
-int<ItemConversion::ID> ItemConversionID?
+int<Item::ID> ItemID
+int<ItemConversion::ID> ItemConversionID
 
 LAYOUT FC502944
 BUILD 9.2.0.41462
