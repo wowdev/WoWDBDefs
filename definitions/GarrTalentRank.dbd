@@ -17,24 +17,6 @@ int<CurrencyTypes::ID> AlternateResearchCostCurrencyTypesID?
 int AlternateResearchGoldCost?
 int AlternateResearchDurationSecs?
 float Points? // $p in GarrTalent description
-int Field_9_2_0_41726_000?
-int Field_9_2_0_41726_001?
-int Field_9_2_0_41726_002?
-int Field_9_2_0_41726_003?
-float Field_9_2_0_41726_004?
-int Field_9_2_0_41726_005?
-int Field_9_2_0_41726_006?
-int Field_9_2_0_41726_007?
-int Field_9_2_0_41726_008?
-int Field_9_2_0_41726_009?
-int Field_9_2_0_41726_010?
-int Field_9_2_0_41726_011?
-int Field_9_2_0_41726_012?
-int Field_9_2_0_41726_013?
-int Field_9_2_0_41726_014?
-int Field_9_2_0_41726_015?
-int Field_9_2_0_41726_016?
-int Field_9_2_0_41726_017?
 
 LAYOUT 572E1310
 BUILD 9.0.5.37503, 9.0.5.37623, 9.0.5.37705, 9.0.5.37774, 9.0.5.37844, 9.0.5.37862, 9.0.5.37864, 9.0.5.37893, 9.0.5.37899, 9.0.5.37988, 9.0.5.38134, 9.0.5.38556
@@ -101,21 +83,21 @@ $noninline,relation$GarrTalentID<32>
 
 LAYOUT 77242AAD
 BUILD 9.2.0.41726
-$id$Field_9_2_0_41726_000<32>
-Field_9_2_0_41726_001<32>
-Field_9_2_0_41726_002<32>
-Field_9_2_0_41726_003<32>
-Field_9_2_0_41726_004
-Field_9_2_0_41726_005<32>
-Field_9_2_0_41726_006<32>
-Field_9_2_0_41726_007<32>
-Field_9_2_0_41726_008<32>
-Field_9_2_0_41726_009<32>
-Field_9_2_0_41726_010<32>
-Field_9_2_0_41726_011<32>
-Field_9_2_0_41726_012<32>
-Field_9_2_0_41726_013<32>
-Field_9_2_0_41726_014<32>
-Field_9_2_0_41726_015<32>
-Field_9_2_0_41726_016<32>
-$noninline,relation$Field_9_2_0_41726_017<32>
+$id$ID<32>
+Rank<32>
+PerkSpellID<32>
+PerkPlayerConditionID<32>
+Points
+ResearchCost<32>
+ResearchCostCurrencyTypesID<32>
+ResearchGoldCost<32>
+ResearchDurationSecs<32>
+RespecCost<32>
+RespecCostCurrencyTypesID<32>
+RespecGoldCost<32>
+RespecDurationSecs<32>
+AlternateResearchCost<32>
+AlternateResearchCostCurrencyTypesID<32>
+AlternateResearchGoldCost<32>
+AlternateResearchDurationSecs<32>
+$noninline,relation$GarrTalentID<32>
