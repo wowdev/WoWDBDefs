@@ -9,133 +9,163 @@
 # I'm not particularly proud of most of this code.  --A
 
 import argparse
+import os
+import pickle
+import re
 import sys
-from typing import Dict, List, Set
+from typing import Dict, List, Optional, Set
 
-import dbd
-
-from ppretty import ppretty
+import dbdwrapper
+# from ppretty import ppretty
 
 
 def errout(msg: str) -> None:
     print(msg, file=sys.stderr)
 
 
-# Look through all our tables and find columns that are used as a reference
-# for a foreign key, so that we can add an index on them.
-def get_fk_cols(dbds: Dict[str, dbd.dbd_file]) -> Dict[str, bool]:
-    fks: Dict[str, bool] = {}
+def get_fk_cols(dbds: dbdwrapper.DbdDirectory) -> Set[str]:
+    """
+    Look through all our tables and find columns that are used as a reference
+    for a foreign key, so that we can add an index on them later.
+
+    :param dbds: The data structure from a dbd directory parsed by dbdwrapper
+    :type dbds: dbdwrapper.DbdDirectory
+    :return: A set containing the names of all FKs, in the format of `table.column`
+    :rtype: Set[str]
+    """
+    fks: Set[str] = set()
 
     for _, data in dbds.items():
-        for coldata in data.columns:
-            if coldata.foreign:
+        for _, coldata in data.columns.items():
+            if coldata.fk:
                 # FIXME: Maybe use a tuple as a key instead
-                key = f"{coldata.foreign.table}.{coldata.foreign.column}"
-                fks[f"{key}"] = True
+                key = f"{coldata.fk.table}.{coldata.fk.column}"
+                fks.add(key)
 
     return fks
 
 
-# For a given table, find the columns that are actually present in a speciifc
-# build (specified as a build number)
-def get_build_cols(dbd_data: dbd.dbd_file, use_build: int) -> List[str]:
-    for definition in dbd_data.definitions:
-        for build in definition.builds:
-            if getattr(build, "build", None) == use_build:
-                return [e.column for e in definition.entries]
+int_sizemap = {
+    8: "TINYINT",
+    16: "SMALLINT",
+    32: "INT",
+    64: "BIGINT",
+}
 
-    return []
+def coltype_string(column: dbdwrapper.DbdVersionedCol) -> str:
+    """
+    Generate the type string for a given column, based on DBD data
+
+    :param column: A versioned column struct from DBD data
+    :type column: dbdwrapper.DbdVersionedCol
+    :return: A string that can be used in a column of a `CREATE TABLE` statement
+    :rtype: str
+    """
+    annotations = ""
+    if len(column.annotation) > 0:
+        annotations = "(annotations: " + ", ".join(column.annotation) + ")"
+
+    # Theoretically column def or entry def could have a comment,
+    # but most/all seem to be on the global column def, so ... just use that.
+    comments = ""
+    if column.definition.comment is not None:
+        comments = column.definition.comment.replace("'", "\\'")
+
+    sql_comment_string = ""
+    if annotations or comments:
+        if annotations and comments:  # feels sloppy
+            sql_comment_string = f" COMMENT '{comments} {annotations}'"
+        else:
+            sql_comment_string = f" COMMENT '{comments}{annotations}'"
+
+    if column.definition.type == "int":
+        assert column.int_width is not None
+        int_string = int_sizemap.get(column.int_width, "INT")
+        if column.is_unsigned:
+            return f"  `{column.name}` {int_string} UNSIGNED{sql_comment_string}"
+        else:
+            return f"  `{column.name}` {int_string}{sql_comment_string}"
+
+    if column.definition.type == "float":
+        return f"  `{column.name}` FLOAT{sql_comment_string}"
+
+    if column.definition.type in ["string", "locstring"]:
+        return f"  `{column.name}` MEDIUMTEXT{sql_comment_string}"
+
+    raise ValueError(f"Unknown column type: {column.definition.type}")
 
 
-# Generate a list of the columns actually present in a specific build for
-# every table in our dataset.
-def getbuildcols(dbds: Dict[str, dbd.dbd_file], use_build: int) -> Dict[str, Set[str]]:
-    buildcols: Dict[str, Set[str]] = {}
+def dumpdbd(dbname: str, table: str, all_data: dbdwrapper.DbdVersionedView,
+            table_data: dbdwrapper.DbdVersionedCols, fkcols: Set[str]) -> List[str]:
+    """
+    Take the parsed data, the build-specific view, and a list of foreign keys,
+    and generate a bunch of MySQL `CREATE TABLE` statements. Returns a list of
+    statements to be executed in an `ALTER TABLE` after all of the tables are
+    created, since you can't do things like create foreign keys until
+    the tables they reference exist.
 
-    for table, data in dbds.items():
-        bc = set(get_build_cols(data, use_build))
+    :param dbname: [description]
+    :type dbname: str
+    :param table: [description]
+    :type table: str
+    :param all_data: [description]
+    :type all_data: dbdwrapper.DbdVersionedView
+    :param table_data: [description]
+    :type table_data: dbdwrapper.DbdVersionedCols
+    :param fkcols: [description]
+    :type fkcols: Set[str]
+    :return: [description]
+    :rtype: List[str]
+    """
 
-        if len(bc) > 0:
-            buildcols[table] = bc
-
-    return buildcols
-
-
-# take a given table's parsed data, a list of foreign keys, and a list of
-# present columns, and generate a bunch of MySQL `CREATE TABLE` statements.
-# Returns a list of statements to be executed in an `ALTER TABLE` after all
-# of the tables are created, since you can't do things like create foreign
-# keys until the tables they reference exist.
-def dumpdbd(dbname: str, table: str, dbd_data: dbd.dbd_file,
-            fkcols: Dict[str, bool], bcols: Dict[str, Set[str]]) -> List[str]:
     create_lines: List[str] = []  # lines for things we need to create
     create_idxs: List[str] = []  # lines for indexes
     deferred: List[str] = []  # lines to execute in an `ALTER` at the very end
 
-    # a table that has no columns in the current build doesn't exist in the
-    # current build
-    if table not in bcols:
-        return []
+    # So that we can find our PK as we iterate through the table
+    id_col = None
 
-    table_cols = {column.name for column in dbd_data.columns}
-    remaining_cols = table_cols.intersection(bcols[table])
+    # cycle through every column in our view and generate SQL
+    for _, column in table_data.items():
+        # id column?
+        if "id" in column.annotation:
+            id_col = column.name
 
-    # If we have no columns left after we filter out what's not present
-    # in this build, warn and do nothing.
-    if len(remaining_cols) == 0:
-        errout(f"WARNING: {table} exists in this build, but needed columns don't exist?!")
-        return []
+        # If this column is referenced by another table/column's foreign key,
+        # generate an index for it (unless this column is already the PK).
+        # Indexes get kept until the end so that we can stuff them at the
+        # bottom of the `CREATE` block
+        if column.name != id_col and f"{table}.{column.name}" in fkcols:
+            create_idxs.append(f"  INDEX `{column.name}_idx` (`{column.name}`)")
 
-    # Not sure everything is guaranteed to have a PK, so add one of our
-    # own if there's not an ID column
-    if "ID" not in remaining_cols:
-        create_lines.append("  _id INT UNSIGNED NOT NULL")
+        if column.definition.type in ["string", "locstring"]:
+            create_idxs.append(f"  FULLTEXT `{column.name}_idx` (`{column.name}`)")
 
-    # Iterate through all the parsed columns (the parser will generate a
-    # complete set, regardless of whether they exist in a given build)
-    for column in dbd_data.columns:
-        # skip columns not in this build
-        if column.name not in remaining_cols:
-            continue
+        create_lines.append(coltype_string(column))
 
-        # Create an index for FK-referenced columns (except for the PK, which
-        # gets handled separately). We're going to keep these separately and
-        # add them at the end of the `CREATE`
-        if column.name != "ID" and f"{table}.{column.name}" in fkcols:
-            create_idxs.append(column.name)
-
-        if column.type == "int":
-            create_lines.append(f"  `{column.name}` INT UNSIGNED")
-        elif column.type == "float":
-            create_lines.append(f"  `{column.name}` FLOAT")
-        elif column.type in ["string", "locstring"]:
-            create_lines.append(f"  `{column.name}` MEDIUMTEXT")
-        else:
-            errout(f"WARNING: Unknown type {column.type} for {table}.{column.name}")
-
-    # save all the indexes for the end of the `CREATE`
-    if "ID" in remaining_cols:
-        create_lines.append("  PRIMARY KEY(ID)")
-    else:
+    # Occasional things might not have a PK annotated, so make sure we still
+    # have a PK if not
+    if id_col is None:
+        create_lines.insert(0, "  _id INT UNSIGNED NOT NULL")
         create_lines.append("  PRIMARY KEY (_id)")
+    else:
+        create_lines.append(f"  PRIMARY KEY({id_col})")
 
-    for idx in create_idxs:
-        create_lines.append(f"  INDEX `{idx}_idx` (`{idx}`)")
+    # Add in any index creation we had stored for now
+    create_lines.extend(create_idxs)
 
     # Generate statements for appropriate foreign keys, which will be returned
     # from this function to be added at the end after all the tables have been
     # created.
-    for column in dbd_data.columns:
-        if column.name not in remaining_cols:
-            continue
-
-        if column.foreign:
-            t = str(column.foreign.table)
-            c = str(column.foreign.column)
+    for _, column in table_data.items():
+        if column.definition.fk is not None:
+            t = str(column.definition.fk.table)
+            c = str(column.definition.fk.column)
 
             # Don't complain about the FileData table not existing, since
-            # everything just uses FDIDs directly now and this FK is still
-            # everywhere because FK info isn't versioned in the dbd defs
+            # everything just uses FDIDs directly now, but the FK annotation
+            # still exists because it's a part of the defs structure that isn't
+            # versioned
             if t == "FileData":
                 continue
 
@@ -144,13 +174,13 @@ def dumpdbd(dbname: str, table: str, dbd_data: dbd.dbd_file,
                 t = "SoundKit"
 
             # Make sure the destination table of the FK exists in this build
-            if t not in bcols:
+            if t not in all_data:
                 errout(
                     f"WARNING: Foreign key for {table}.{column.name} references non-existent table {t}")
                 continue
 
             # Make sure the dsestination column of the FK exists in this build
-            if c not in bcols[t]:
+            if c not in all_data[t]:
                 errout(
                     f"WARNING: Foreign key {table}.{column.name} references non-existent column {t}.{c}")
                 continue
@@ -159,11 +189,19 @@ def dumpdbd(dbname: str, table: str, dbd_data: dbd.dbd_file,
                 f"  ADD CONSTRAINT `{table}_{column.name}` FOREIGN KEY (`{column.name}`) REFERENCES `{dbname}`.`{t}` (`{c}`)")
 
     # Generate the actual `CREATE` statement
+    # FIXME: include comment w/ layout hash(s), git source info, and file comments
     print(f"\nCREATE TABLE IF NOT EXISTS `{dbname}`.`{table}` (")
     print(",\n".join(create_lines))
     print(");")
 
     return deferred
+
+
+def build_string_regex(arg_value, pat=re.compile(r"^\d+\.\d+\.\d+\.\d+$")) -> str:
+    if not pat.match(arg_value):
+        raise argparse.ArgumentTypeError("invalid build string (try e.g. '9.1.5.41488')")
+
+    return arg_value
 
 
 def main() -> int:
@@ -172,11 +210,14 @@ def main() -> int:
         "--definitions", dest="definitions", type=str, action='store',
         default="../../definitions", help="location of .dbd files")
     parser.add_argument(
-        "--build", dest="build", type=int, default=41488,
-        help="build number (and only build number) to use for parsing")
+        "--build", dest="build", type=build_string_regex, default="9.1.5.41488",
+        help="full build number to use for parsing")
     parser.add_argument(
         "--dbname", dest="dbname", type=str, default="wowdbd",
         help="name of MySQL database to generate create statements for")
+    parser.add_argument(
+        "--no-pickle", dest="no_pickle", action='store_true', default=False,
+        help="don't use or create pickled data file")
 
     # --only is disabled for now, since using it will cause FKs to be wrong
     # if it's used to try to generate an updated schema w/o parsing everything
@@ -193,19 +234,36 @@ def main() -> int:
     # else:
     #   dbds = dbd.parse_dbd_directory(args.definitions)
 
-    dbds = dbd.parse_dbd_directory(args.definitions)
+    dbds = None
+    if not args.no_pickle and os.path.exists(os.path.join(args.definitions, "dbd_to_mysql.pickle")):
+        # FIXME: Can we make pickling (or other caching) automatic in dbdwrapper?
+        errout("NOTICE: Reading pickled dbd data from disk")
+        with open(os.path.join(args.definitions, "dbd_to_mysql.pickle"), "rb") as f:
+            try:
+                dbds = pickle.load(f)
+            except Exception as e:
+                errout("WARNING: failed to read pickled data from disk")
 
+    if dbds is None:
+        errout("NOTICE: Directly parsing dbd data and pickling to disk")
+        dbds = dbdwrapper.parse_dbd_directory(args.definitions)
+        if not args.no_pickle:
+            with open(os.path.join(args.definitions, "dbd_to_mysql.pickle"), "wb") as f:
+                pickle.dump(dbds, f)
+
+    build = dbdwrapper.BuildId.from_string(args.build)
+    view = dbds.get_view(build)
     fkcols = get_fk_cols(dbds)  # foreign key columns
-    bcols = getbuildcols(dbds, args.build)  # columns for specific build
 
-    deferred = {}  # deferred statements to add to `ALTER` at the end
+    # deferred statements to add to `ALTER` at the end
+    deferred = {}
 
     # No in-place updates -- just drop and recreate the entire database
     print(f"DROP DATABASE IF EXISTS {args.dbname};")
     print(f"CREATE DATABASE {args.dbname};")
 
-    for table, data in dbds.items():
-        deferred[table] = dumpdbd(args.dbname, table, data, fkcols, bcols)
+    for table, data in view.items():
+        deferred[table] = dumpdbd(args.dbname, table, view, data, fkcols)
 
     for table, lines in deferred.items():
         if len(lines) > 0:
