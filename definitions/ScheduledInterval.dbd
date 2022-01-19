@@ -5,6 +5,20 @@ int DurationSecs
 int Flags
 int OffsetSecs
 int RepeatType
+int Field_1_14_2_41959_000?
+int Field_1_14_2_41959_001?
+int Field_1_14_2_41959_002?
+int Field_1_14_2_41959_003?
+int Field_1_14_2_41959_004?
+
+LAYOUT 1FED7D54
+BUILD 1.14.2.41959
+$noninline,id$ID<32>
+Field_1_14_2_41959_000<32>
+Field_1_14_2_41959_001<32>
+Field_1_14_2_41959_002<32>
+Field_1_14_2_41959_003<32>
+Field_1_14_2_41959_004<32>
 
 LAYOUT 5DD2FF46, 0C287F7A, 51E48A73
 BUILD 9.2.0.41089, 9.2.0.41257, 9.2.0.41360, 9.2.0.41462, 9.2.0.41726, 9.2.0.41827
