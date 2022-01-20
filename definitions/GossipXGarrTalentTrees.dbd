@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int GarrTalentTreeID?
+int<GarrTalentTree::ID> GarrTalentTreeID?
 int GossipID?
 
 LAYOUT 04F15B82
