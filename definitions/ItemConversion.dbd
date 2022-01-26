@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int<ItemBonusListGroup::ID> ItemBonusListGroupID?
-int Field_9_2_0_42069_000?
 int Field_9_2_0_42069_001?
 
 LAYOUT C7738C36
@@ -12,5 +11,5 @@ ItemBonusListGroupID<32>
 LAYOUT 7A09B221
 BUILD 9.2.0.42069
 $noninline,id$ID<32>
-Field_9_2_0_42069_000<32>
+ItemBonusListGroupID<32>
 Field_9_2_0_42069_001<32>

@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int Season?
 int Field_9_2_0_41827_001?
-int Field_9_2_0_41827_002?
+int ExpansionID?
 
 LAYOUT CAAEA413
 BUILD 9.2.0.41089, 9.2.0.41257, 9.2.0.41360, 9.2.0.41462, 9.2.0.41726
@@ -15,4 +15,4 @@ BUILD 9.2.0.41827, 9.2.0.41962, 9.2.0.42069
 $noninline,id$ID<32>
 Season<32>
 Field_9_2_0_41827_001<32>
-Field_9_2_0_41827_002<32>
+ExpansionID<32>
