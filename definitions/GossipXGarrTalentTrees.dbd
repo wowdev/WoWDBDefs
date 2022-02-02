@@ -4,7 +4,7 @@ int<GarrTalentTree::ID> GarrTalentTreeID?
 int GossipID?
 
 LAYOUT 04F15B82
-BUILD 9.2.0.41962, 9.2.0.42069
+BUILD 9.2.0.41962, 9.2.0.42069, 9.2.0.42174
 $noninline,id$ID<32>
 GarrTalentTreeID<32>
 $noninline,relation$GossipID<32>
