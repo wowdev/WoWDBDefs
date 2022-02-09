@@ -5,7 +5,7 @@ int Field_9_2_0_41726_001?
 int Field_9_2_0_42257_000?
 int<PlayerCondition::ID> PlayerConditionID?
 float Field_9_2_0_42257_002?
-int GarrTalentRankGroupID?
+int<GarrTalentRankGroup::ID> GarrTalentRankGroupID?
 
 LAYOUT 2B2E7291
 BUILD 9.2.0.41726, 9.2.0.41827, 9.2.0.41962, 9.2.0.42069, 9.2.0.42174
