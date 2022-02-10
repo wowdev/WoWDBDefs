@@ -4,7 +4,7 @@ int<GarrTalentRankGroup::ID> GarrTalentRankGroupID?
 int<GarrTalentRank::ID> GarrTalentRankID?
 
 LAYOUT C1D26838
-BUILD 9.2.0.41726, 9.2.0.41827, 9.2.0.41962, 9.2.0.42069, 9.2.0.42174, 9.2.0.42257
+BUILD 9.2.0.41726, 9.2.0.41827, 9.2.0.41962, 9.2.0.42069, 9.2.0.42174, 9.2.0.42257, 9.2.0.42277
 $noninline,id$ID<32>
 GarrTalentRankGroupID<32>
 $noninline,relation$GarrTalentRankID<32>
