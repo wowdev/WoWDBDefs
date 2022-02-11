@@ -16,6 +16,7 @@ float MaxDivergence
 float MaxEndTime
 float MaxFadeInStrength
 float MaxFadeTime
+float MaxIntervalTime
 int MaxSegmentCount
 float MaxStrikeStrength
 float MaxStrikeTime
@@ -27,13 +28,12 @@ float MinDivergence
 float MinEndTime
 float MinFadeInStrength
 float MinFadeTime
+float MinIntervalTime
 float MinStrikeStrength
 float MinStrikeTime
 float SegmentSize
 float SoundEmitterDistance
 int<SoundKit::ID> SoundKitID
-float Field_1_13_2_30073_020Min?
-float Field_1_13_2_30073_021Max?
 
 LAYOUT C0E38C34
 BUILD 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715
@@ -189,8 +189,8 @@ MinEndTime
 MaxEndTime
 MinFadeTime
 MaxFadeTime
-Field_1_13_2_30073_020Min
-Field_1_13_2_30073_021Max
+MinIntervalTime
+MaxIntervalTime
 FlashColor<32>
 BoltColor<32>
 Brightness
