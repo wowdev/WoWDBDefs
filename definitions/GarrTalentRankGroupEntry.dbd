@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<GarrTalentRankGroup::ID> GarrTalentRankGroupID?
+int GarrTalentRankGroupID?
 int<GarrTalentRank::ID> GarrTalentRankID?
 
 LAYOUT C1D26838
