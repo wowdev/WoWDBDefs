@@ -4,6 +4,19 @@ locstring Name_lang
 int Flags?
 int<UiTextureKit::ID> UiTextureKitID?
 int UiTextureKitElementCount?
+locstring Field_2_5_4_42581_000_lang?
+int Field_2_5_4_42581_001?
+int Field_2_5_4_42581_002?
+int Field_2_5_4_42581_003?
+int Field_2_5_4_42581_004?
+
+LAYOUT 50E61379
+BUILD 2.5.4.42581
+Field_2_5_4_42581_000_lang
+$id$Field_2_5_4_42581_001<u32>
+Field_2_5_4_42581_002<32>
+Field_2_5_4_42581_003<32>
+Field_2_5_4_42581_004<32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

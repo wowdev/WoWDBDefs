@@ -5,6 +5,11 @@ int<FactionTemplate::ID> Faction
 int Title // UNITNAME_SUMMON_TITLE%d
 int Slot // A summoner (e.g. player) has a list of slots for summons, one per slot. Pet = 0, Totem = 1..4, BattlePetCompanion = 5, Quest = 6.
 int Flags // &0x00000010: visible to summoner only; &0x00000020: PetCanBeDismissed; &0x00200000: IsBattlePetCompanion; &0x00800000: selection highlight color = dead?; &0x20000000: no title/summoned-by; &0x40000000: related to unit reaction
+int Field_2_5_4_42581_000?
+int Field_2_5_4_42581_001?
+int Field_2_5_4_42581_002?
+int Field_2_5_4_42581_003?
+int Field_2_5_4_42581_004?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -66,3 +71,12 @@ Title<32>
 Slot<32>
 Flags<32>
 
+
+LAYOUT 7FDA3EAA
+BUILD 2.5.4.42581
+$noninline,id$ID<32>
+Field_2_5_4_42581_000<32>
+Field_2_5_4_42581_001<32>
+Field_2_5_4_42581_002<32>
+Field_2_5_4_42581_003<32>
+Field_2_5_4_42581_004<32>[2]

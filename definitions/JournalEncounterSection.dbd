@@ -15,6 +15,40 @@ int<CreatureDisplayInfo::ID> IconCreatureDisplayInfoID
 int<Spell::ID> SpellID
 int<FileData::ID> IconFileDataID
 int<UiModelScene::ID> UiModelSceneID
+locstring Field_2_5_4_42581_000_lang?
+locstring Field_2_5_4_42581_001_lang?
+int Field_2_5_4_42581_002?
+int Field_2_5_4_42581_003?
+int Field_2_5_4_42581_004?
+int Field_2_5_4_42581_005?
+int Field_2_5_4_42581_006?
+int Field_2_5_4_42581_007?
+int Field_2_5_4_42581_008?
+int Field_2_5_4_42581_009?
+int Field_2_5_4_42581_010?
+int Field_2_5_4_42581_011?
+int Field_2_5_4_42581_012?
+int Field_2_5_4_42581_013?
+int Field_2_5_4_42581_014?
+
+LAYOUT CB47DD35
+BUILD 2.5.4.42581
+$noninline,id$ID<32>
+Field_2_5_4_42581_000_lang
+Field_2_5_4_42581_001_lang
+Field_2_5_4_42581_002<u16>
+Field_2_5_4_42581_003<u8>
+Field_2_5_4_42581_004<u16>
+Field_2_5_4_42581_005<u16>
+Field_2_5_4_42581_006<u16>
+Field_2_5_4_42581_007<u8>
+Field_2_5_4_42581_008<u32>
+Field_2_5_4_42581_009<32>
+Field_2_5_4_42581_010<32>
+Field_2_5_4_42581_011<32>
+Field_2_5_4_42581_012<32>
+Field_2_5_4_42581_013<32>
+Field_2_5_4_42581_014<8>
 
 BUILD 5.0.1.15464-5.4.8.18414
 BUILD 4.2.0.14333-4.3.4.15595

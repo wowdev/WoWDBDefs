@@ -36,6 +36,39 @@ int<PlayerCondition::ID> Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
+locstring Field_2_5_4_42581_000_lang?
+locstring Field_2_5_4_42581_001_lang?
+int Field_2_5_4_42581_002?
+int Field_2_5_4_42581_003?
+int Field_2_5_4_42581_004?
+int Field_2_5_4_42581_005?
+int Field_2_5_4_42581_006?
+int Field_2_5_4_42581_007?
+int Field_2_5_4_42581_008?
+int Field_2_5_4_42581_009?
+int Field_2_5_4_42581_010?
+int Field_2_5_4_42581_011?
+int Field_2_5_4_42581_012?
+float Field_2_5_4_42581_013?
+int Field_2_5_4_42581_014?
+int Field_2_5_4_42581_015?
+int Field_2_5_4_42581_016?
+int Field_2_5_4_42581_017?
+int Field_2_5_4_42581_018?
+int Field_2_5_4_42581_019?
+int Field_2_5_4_42581_020?
+int Field_2_5_4_42581_021?
+int Field_2_5_4_42581_022?
+int Field_2_5_4_42581_023?
+int Field_2_5_4_42581_024?
+int Field_2_5_4_42581_025?
+int Field_2_5_4_42581_026?
+int Field_2_5_4_42581_027?
+int Field_2_5_4_42581_028?
+int Field_2_5_4_42581_029?
+int Field_2_5_4_42581_030?
+int Field_2_5_4_42581_031?
+int Field_2_5_4_42581_032?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -45,6 +78,43 @@ MinLevel<32>
 MaxLevel<32>
 TypeID<32>
 Faction<32>
+
+LAYOUT 9BC1F3F9
+BUILD 2.5.4.42581
+$noninline,id$ID<32>
+Field_2_5_4_42581_000_lang
+Field_2_5_4_42581_001_lang
+Field_2_5_4_42581_002<u8>
+Field_2_5_4_42581_003<u16>
+Field_2_5_4_42581_004<u8>
+Field_2_5_4_42581_005<u8>
+Field_2_5_4_42581_006<8>
+Field_2_5_4_42581_007<32>
+Field_2_5_4_42581_008<32>
+Field_2_5_4_42581_009<32>
+Field_2_5_4_42581_010<u8>
+Field_2_5_4_42581_011<16>
+Field_2_5_4_42581_012<u8>
+Field_2_5_4_42581_013
+Field_2_5_4_42581_014<u8>
+Field_2_5_4_42581_015<u8>
+Field_2_5_4_42581_016<u32>
+Field_2_5_4_42581_017<u8>
+Field_2_5_4_42581_018<u8>
+Field_2_5_4_42581_019<u16>
+Field_2_5_4_42581_020<u16>
+Field_2_5_4_42581_021<u16>
+Field_2_5_4_42581_022<u16>
+Field_2_5_4_42581_023<u8>
+Field_2_5_4_42581_024<u8>
+Field_2_5_4_42581_025<u8>
+Field_2_5_4_42581_026<u8>
+Field_2_5_4_42581_027<u8>
+Field_2_5_4_42581_028<u8>
+Field_2_5_4_42581_029<u16>
+Field_2_5_4_42581_030<u16>
+Field_2_5_4_42581_031<u8>
+Field_2_5_4_42581_032<32>[2]
 
 BUILD 3.0.1.8303-3.2.2.10505
 BUILD 2.0.0.6080-2.4.3.8606
