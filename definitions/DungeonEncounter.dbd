@@ -12,14 +12,6 @@ int<FileData::ID> SpellIconFileID
 int Difficulty
 int Faction // -1: any, 0: Horde, 1: Alliance
 int<WorldState::ID> CompleteWorldStateID
-locstring Field_2_5_4_42581_000_lang?
-int Field_2_5_4_42581_001?
-int Field_2_5_4_42581_002?
-int Field_2_5_4_42581_003?
-int Field_2_5_4_42581_004?
-int Field_2_5_4_42581_005?
-int Field_2_5_4_42581_006?
-int Field_2_5_4_42581_007?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12539
@@ -169,14 +161,14 @@ Flags<u8>
 
 LAYOUT 647FB7F3
 BUILD 2.5.4.42581
-Field_2_5_4_42581_000_lang
-$id$Field_2_5_4_42581_001<32>
-$relation$Field_2_5_4_42581_002<16>
-Field_2_5_4_42581_003<32>
-Field_2_5_4_42581_004<32>
-Field_2_5_4_42581_005<8>
-Field_2_5_4_42581_006<32>
-Field_2_5_4_42581_007<32>
+Name_lang
+$id$ID<32>
+$relation$MapID<16>
+DifficultyID<32>
+OrderIndex<32>
+Bit<8>
+CreatureDisplayID<32>
+Flags<32>
 
 LAYOUT 9BF480A9
 BUILD 9.2.0.41089, 9.2.0.41257, 9.2.0.41360, 9.2.0.41462, 9.2.0.41726, 9.2.0.41827, 9.2.0.41962, 9.2.0.42069, 9.2.0.42174, 9.2.0.42257, 9.2.0.42277, 9.2.0.42354, 9.2.0.42399, 9.2.0.42423, 9.2.0.42488, 9.2.0.42521, 9.2.0.42538, 9.2.0.42560, 9.2.0.42578

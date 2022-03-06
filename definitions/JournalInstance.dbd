@@ -11,31 +11,20 @@ locstring Description_lang
 int Flags
 int OrderIndex
 int Field_4_2_0_14333_006? // OrderIndex? used to sort records
-locstring Field_2_5_4_42581_000_lang?
-locstring Field_2_5_4_42581_001_lang?
-int Field_2_5_4_42581_002?
-int Field_2_5_4_42581_003?
-int Field_2_5_4_42581_004?
-int Field_2_5_4_42581_005?
-int Field_2_5_4_42581_006?
-int Field_2_5_4_42581_007?
-int Field_2_5_4_42581_008?
-int Field_2_5_4_42581_009?
-int Field_2_5_4_42581_010?
 
 LAYOUT 71413EF7
 BUILD 2.5.4.42581
-Field_2_5_4_42581_000_lang
-Field_2_5_4_42581_001_lang
-$id$Field_2_5_4_42581_002<32>
-Field_2_5_4_42581_003<u16>
-Field_2_5_4_42581_004<32>
-Field_2_5_4_42581_005<32>
-Field_2_5_4_42581_006<32>
-Field_2_5_4_42581_007<32>
-Field_2_5_4_42581_008<u8>
-Field_2_5_4_42581_009<32>
-Field_2_5_4_42581_010<u16>
+Name_lang
+Description_lang
+$id$ID<32>
+MapID<u16>
+BackgroundFileDataID<32>
+ButtonFileDataID<32>
+ButtonSmallFileDataID<32>
+LoreFileDataID<32>
+OrderIndex<u8>
+Flags<32>
+AreaID<u16>
 
 BUILD 5.0.1.15464-5.0.1.15677
 BUILD 4.2.0.14333-4.3.4.15595

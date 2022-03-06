@@ -23,28 +23,6 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
-locstring Field_2_5_4_42581_000_lang?
-locstring Field_2_5_4_42581_001_lang?
-locstring Field_2_5_4_42581_002_lang?
-locstring Field_2_5_4_42581_003_lang?
-locstring Field_2_5_4_42581_004_lang?
-int Field_2_5_4_42581_005?
-int Field_2_5_4_42581_006?
-int Field_2_5_4_42581_007?
-int Field_2_5_4_42581_008?
-int Field_2_5_4_42581_009?
-int Field_2_5_4_42581_010?
-int Field_2_5_4_42581_011?
-int Field_2_5_4_42581_012?
-int Field_2_5_4_42581_013?
-int Field_2_5_4_42581_014?
-int Field_2_5_4_42581_015?
-int Field_2_5_4_42581_016?
-int Field_2_5_4_42581_017?
-int Field_2_5_4_42581_018?
-int Field_2_5_4_42581_019?
-int Field_2_5_4_42581_020?
-int Field_2_5_4_42581_021?
 
 LAYOUT AF456C4F
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328
@@ -80,28 +58,28 @@ BonusValue<u8>[2]
 LAYOUT 1C4966AC
 BUILD 2.5.4.42581
 $noninline,id$ID<32>
-Field_2_5_4_42581_000_lang
-Field_2_5_4_42581_001_lang
-Field_2_5_4_42581_002_lang
-Field_2_5_4_42581_003_lang
-Field_2_5_4_42581_004_lang
-Field_2_5_4_42581_005<u8>
-Field_2_5_4_42581_006<u32>
-Field_2_5_4_42581_007<32>
-Field_2_5_4_42581_008<u8>
-Field_2_5_4_42581_009<32>
-Field_2_5_4_42581_010<u16>
-Field_2_5_4_42581_011<u32>
-Field_2_5_4_42581_012<u16>
-Field_2_5_4_42581_013<u8>
-Field_2_5_4_42581_014<u8>
-Field_2_5_4_42581_015<32>
-Field_2_5_4_42581_016<u32>
-Field_2_5_4_42581_017<u16>
-Field_2_5_4_42581_018<u8>
-Field_2_5_4_42581_019<u16>
-Field_2_5_4_42581_020<u32>[2]
-Field_2_5_4_42581_021<u8>[2]
+Name_lang
+Description_lang
+ButtonText_lang
+RewardDescription_lang
+ContinueDescription_lang
+Type<u8>
+PlayerConditionID<u32>
+Flags<32>
+ButtonActionType<u8>
+TextureFileDataID<32>
+LfgDungeonID<u16>
+QuestID<u32>
+BattleMasterListID<u16>
+PriorityMin<u8>
+PriorityMax<u8>
+ItemID<32>
+ItemQuantity<u32>
+CurrencyType<u16>
+CurrencyQuantity<u8>
+UIMapID<u16>
+BonusPlayerConditionID<u32>[2]
+BonusValue<u8>[2]
 
 LAYOUT F07172ED
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
