@@ -74,6 +74,29 @@ int Field_2_5_4_42581_017?
 int Field_2_5_4_42581_018?
 int Field_2_5_4_42581_019?
 int Field_2_5_4_42581_020?
+string Field_9_2_5_42850_000?
+locstring Field_9_2_5_42850_001_lang?
+locstring Field_9_2_5_42850_002_lang?
+locstring Field_9_2_5_42850_003_lang?
+locstring Field_9_2_5_42850_004_lang?
+locstring Field_9_2_5_42850_005_lang?
+float Field_9_2_5_42850_006?
+int Field_9_2_5_42850_007?
+int Field_9_2_5_42850_008?
+int Field_9_2_5_42850_009?
+int Field_9_2_5_42850_010?
+int Field_9_2_5_42850_011?
+int Field_9_2_5_42850_012?
+int Field_9_2_5_42850_013?
+int Field_9_2_5_42850_014?
+int Field_9_2_5_42850_015?
+float Field_9_2_5_42850_016?
+int Field_9_2_5_42850_017?
+int Field_9_2_5_42850_018?
+int Field_9_2_5_42850_019?
+int Field_9_2_5_42850_020?
+int Field_9_2_5_42850_021?
+int Field_9_2_5_42850_022?
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
@@ -929,3 +952,30 @@ WindSettingsID<16>
 ZmpFileDataID<32>
 WdtFileDataID<32>
 Flags<32>[2]
+
+LAYOUT 4CC6B21E
+BUILD 9.2.5.42850
+$noninline,id$ID<32>
+Field_9_2_5_42850_000
+Field_9_2_5_42850_001_lang
+Field_9_2_5_42850_002_lang
+Field_9_2_5_42850_003_lang
+Field_9_2_5_42850_004_lang
+Field_9_2_5_42850_005_lang
+Field_9_2_5_42850_006[2]
+Field_9_2_5_42850_007<u8>
+Field_9_2_5_42850_008<8>
+Field_9_2_5_42850_009<u8>
+Field_9_2_5_42850_010<u16>
+Field_9_2_5_42850_011<16>
+Field_9_2_5_42850_012<16>
+Field_9_2_5_42850_013<16>
+Field_9_2_5_42850_014<16>
+Field_9_2_5_42850_015<u8>
+Field_9_2_5_42850_016
+Field_9_2_5_42850_017<16>
+Field_9_2_5_42850_018<u8>
+Field_9_2_5_42850_019<16>
+Field_9_2_5_42850_020<32>
+Field_9_2_5_42850_021<32>
+Field_9_2_5_42850_022<32>[3]

@@ -10,6 +10,16 @@ int<QuestV2::ID> VisibleTrackingQuestID
 int VignetteType // 0 = Normal, 1 = PvpBounty, 2 = Torghast, 3 = Treasure
 int<QuestV2::ID> RewardQuestID
 int UiWidgetSetID?
+locstring Field_9_2_5_42850_000_lang?
+int Field_9_2_5_42850_001?
+int Field_9_2_5_42850_002?
+int Field_9_2_5_42850_003?
+int Field_9_2_5_42850_004?
+float Field_9_2_5_42850_005?
+float Field_9_2_5_42850_006?
+int Field_9_2_5_42850_007?
+int Field_9_2_5_42850_008?
+int Field_9_2_5_42850_009?
 
 LAYOUT DCB9DC5F
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800
@@ -120,3 +130,17 @@ MinHeight
 VignetteType<8>
 RewardQuestID<32>
 UiWidgetSetID<32>
+
+LAYOUT D3FBFC92
+BUILD 9.2.5.42850
+$noninline,id$ID<32>
+Field_9_2_5_42850_000_lang
+Field_9_2_5_42850_001<u32>
+Field_9_2_5_42850_002<u32>
+Field_9_2_5_42850_003<u32>
+Field_9_2_5_42850_004<32>
+Field_9_2_5_42850_005
+Field_9_2_5_42850_006
+Field_9_2_5_42850_007<8>
+Field_9_2_5_42850_008<32>
+Field_9_2_5_42850_009<32>
