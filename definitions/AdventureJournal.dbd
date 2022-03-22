@@ -23,8 +23,6 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
-int Field_9_2_5_42850_005?
-int Field_9_2_5_42850_006?
 
 LAYOUT AF456C4F
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -321,8 +319,8 @@ Description_lang
 ButtonText_lang
 RewardDescription_lang
 ContinueDescription_lang
-Field_9_2_5_42850_005<u8>
-Field_9_2_5_42850_006<u32>
+Type<u8>
+PlayerConditionID<u32>
 Flags<32>
 ButtonActionType<u8>
 TextureFileDataID<32>
