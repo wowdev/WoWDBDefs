@@ -76,143 +76,9 @@ int<ContentTuning::ID> ContentTuningID?
 int<Curve::ID> PlayerLevelToItemLevelCurveID?
 int Field_7_3_2_25549_048? // probably RequiredPVPRank
 int Field_7_3_2_25549_049? // probably RequiredPVPMedal
-float Field_1_14_1_40487_006?
-int Field_1_14_1_40487_007?
-float Field_1_14_1_40487_008?
-int Field_1_14_1_40487_009?
-float Field_1_14_1_40487_010?
-float Field_1_14_1_40487_011?
-int Field_1_14_1_40487_012?
-int Field_1_14_1_40487_013?
-int Field_1_14_1_40487_014?
-int Field_1_14_1_40487_015?
-int Field_1_14_1_40487_016?
-int Field_1_14_1_40487_017?
-int Field_1_14_1_40487_018?
-float Field_1_14_1_40487_019?
-float Field_1_14_1_40487_020?
-int Field_1_14_1_40487_021?
-int Field_1_14_1_40487_022?
-int Field_1_14_1_40487_023?
-int Field_1_14_1_40487_024?
-int Field_1_14_1_40487_025?
-int Field_1_14_1_40487_026?
-int Field_1_14_1_40487_027?
-int Field_1_14_1_40487_028?
-int Field_1_14_1_40487_029?
-int Field_1_14_1_40487_030?
-int Field_1_14_1_40487_031?
-int Field_1_14_1_40487_032?
-int Field_1_14_1_40487_033?
-int Field_1_14_1_40487_034?
-int Field_1_14_1_40487_035?
-int Field_1_14_1_40487_036?
-int Field_1_14_1_40487_037?
-int Field_1_14_1_40487_038?
-int Field_1_14_1_40487_039?
-int Field_1_14_1_40487_040?
-int Field_1_14_1_40487_041?
-int Field_1_14_1_40487_042?
-int Field_1_14_1_40487_043?
-int Field_1_14_1_40487_044?
-int Field_1_14_1_40487_045?
-int Field_1_14_1_40487_046?
-int Field_1_14_1_40487_047?
-int Field_1_14_1_40487_048?
-int Field_1_14_1_40487_049?
-int Field_1_14_1_40487_050?
-int Field_1_14_1_40487_051?
-int Field_1_14_1_40487_052?
-int Field_1_14_1_40487_053?
-int Field_1_14_1_40487_054?
-int Field_1_14_1_40487_055?
-int Field_1_14_1_40487_056?
-int Field_1_14_1_40487_057?
-int Field_1_14_1_40487_058?
-int Field_1_14_1_40487_059?
-int Field_1_14_1_40487_060?
-int Field_1_14_1_40487_061?
-int Field_1_14_1_40487_062?
-int Field_1_14_1_40487_063?
-int Field_1_14_1_40487_064?
-int Field_1_14_1_40487_065?
-int Field_1_14_1_40487_066?
-int Field_1_14_1_40487_067?
-int Field_1_14_1_40487_068?
-int Field_1_14_1_40487_069?
-int Field_2_5_4_42581_000?
-locstring Field_2_5_4_42581_001_lang?
-locstring Field_2_5_4_42581_002_lang?
-locstring Field_2_5_4_42581_003_lang?
-locstring Field_2_5_4_42581_004_lang?
-locstring Field_2_5_4_42581_005_lang?
-float Field_2_5_4_42581_006?
-int Field_2_5_4_42581_007?
-float Field_2_5_4_42581_008?
-int Field_2_5_4_42581_009?
-float Field_2_5_4_42581_010?
-float Field_2_5_4_42581_011?
-int Field_2_5_4_42581_012?
-int Field_2_5_4_42581_013?
-int Field_2_5_4_42581_014?
-int Field_2_5_4_42581_015?
-int Field_2_5_4_42581_016?
-int Field_2_5_4_42581_017?
-int Field_2_5_4_42581_018?
-float Field_2_5_4_42581_019?
-float Field_2_5_4_42581_020?
-int Field_2_5_4_42581_021?
 int Field_2_5_4_42581_022?
 int Field_2_5_4_42581_023?
 int Field_2_5_4_42581_024?
-int Field_2_5_4_42581_025?
-int Field_2_5_4_42581_026?
-int Field_2_5_4_42581_027?
-int Field_2_5_4_42581_028?
-int Field_2_5_4_42581_029?
-int Field_2_5_4_42581_030?
-int Field_2_5_4_42581_031?
-int Field_2_5_4_42581_032?
-int Field_2_5_4_42581_033?
-int Field_2_5_4_42581_034?
-int Field_2_5_4_42581_035?
-int Field_2_5_4_42581_036?
-int Field_2_5_4_42581_037?
-int Field_2_5_4_42581_038?
-int Field_2_5_4_42581_039?
-int Field_2_5_4_42581_040?
-int Field_2_5_4_42581_041?
-int Field_2_5_4_42581_042?
-int Field_2_5_4_42581_043?
-int Field_2_5_4_42581_044?
-int Field_2_5_4_42581_045?
-int Field_2_5_4_42581_046?
-int Field_2_5_4_42581_047?
-int Field_2_5_4_42581_048?
-int Field_2_5_4_42581_049?
-int Field_2_5_4_42581_050?
-int Field_2_5_4_42581_051?
-int Field_2_5_4_42581_052?
-int Field_2_5_4_42581_053?
-int Field_2_5_4_42581_054?
-int Field_2_5_4_42581_055?
-int Field_2_5_4_42581_056?
-int Field_2_5_4_42581_057?
-int Field_2_5_4_42581_058?
-int Field_2_5_4_42581_059?
-int Field_2_5_4_42581_060?
-int Field_2_5_4_42581_061?
-int Field_2_5_4_42581_062?
-int Field_2_5_4_42581_063?
-int Field_2_5_4_42581_064?
-int Field_2_5_4_42581_065?
-int Field_2_5_4_42581_066?
-int Field_2_5_4_42581_067?
-int Field_2_5_4_42581_068?
-int Field_2_5_4_42581_069?
-int Field_2_5_4_42581_070?
-int Field_2_5_4_42581_071?
-int Field_2_5_4_42581_072?
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -457,149 +323,149 @@ Display3_lang
 Display2_lang
 Display1_lang
 Display_lang
-Field_1_14_1_40487_006
-Field_1_14_1_40487_007<u32>
-Field_1_14_1_40487_008
-Field_1_14_1_40487_009<u32>
-Field_1_14_1_40487_010
-Field_1_14_1_40487_011[10]
-Field_1_14_1_40487_012<32>[10]
-Field_1_14_1_40487_013<32>
-Field_1_14_1_40487_014<32>
-Field_1_14_1_40487_015<u32>
-Field_1_14_1_40487_016<u32>
-Field_1_14_1_40487_017<u32>
-Field_1_14_1_40487_018<u32>
-Field_1_14_1_40487_019
-Field_1_14_1_40487_020
-Field_1_14_1_40487_021<32>[4]
-Field_1_14_1_40487_022<32>
-Field_1_14_1_40487_023<u32>
-Field_1_14_1_40487_024<u16>
-Field_1_14_1_40487_025<u16>
-Field_1_14_1_40487_026<u16>
-Field_1_14_1_40487_027<u16>
-Field_1_14_1_40487_028<u16>
-Field_1_14_1_40487_029<u16>
-Field_1_14_1_40487_030<u16>
-Field_1_14_1_40487_031<u16>
-Field_1_14_1_40487_032<u16>[2]
-Field_1_14_1_40487_033<u16>
-Field_1_14_1_40487_034<u16>
-Field_1_14_1_40487_035<u16>
-Field_1_14_1_40487_036<u16>
-Field_1_14_1_40487_037<u16>
-Field_1_14_1_40487_038<u16>
-Field_1_14_1_40487_039<u16>
-Field_1_14_1_40487_040<u16>
-Field_1_14_1_40487_041<u16>
-Field_1_14_1_40487_042<16>
-Field_1_14_1_40487_043<u16>
-Field_1_14_1_40487_044<u16>
-Field_1_14_1_40487_045<u16>[5]
-Field_1_14_1_40487_046<u16>[5]
-Field_1_14_1_40487_047<16>[7]
-Field_1_14_1_40487_048<u16>
-Field_1_14_1_40487_049<u8>
-Field_1_14_1_40487_050<u8>
-Field_1_14_1_40487_051<u8>
-Field_1_14_1_40487_052<u8>
-Field_1_14_1_40487_053<u8>[3]
-Field_1_14_1_40487_054<u8>
-Field_1_14_1_40487_055<u8>
-Field_1_14_1_40487_056<u8>
-Field_1_14_1_40487_057<u8>
-Field_1_14_1_40487_058<u8>
-Field_1_14_1_40487_059<u8>
-Field_1_14_1_40487_060<8>[10]
-Field_1_14_1_40487_061<u8>
-Field_1_14_1_40487_062<u8>
-Field_1_14_1_40487_063<u8>
-Field_1_14_1_40487_064<u8>
-Field_1_14_1_40487_065<8>
-Field_1_14_1_40487_066<8>
-Field_1_14_1_40487_067<u8>
-Field_1_14_1_40487_068<8>[10]
-Field_1_14_1_40487_069<8>
+DmgVariance
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
+RequiredAbility<u32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
+OppositeFactionItemID<32>
+MaxDurability<u32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+LimitCategory<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
+ItemSet<u16>
+LockID<u16>
+StartQuestID<u16>
+PageID<u16>
+ItemDelay<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ItemRandomSuffixGroupID<u16>
+RandomSelect<u16>
+DamageMin<u16>[5]
+DamageMax<u16>[5]
+DefensiveStats<16>[7]
+ScalingStatDistributionID<u16>
+ExpansionID<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+DamageType<u8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<u8>
+MinReputation<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+InventoryType<8>
+OverallQualityID<8>
+AmmoType<u8>
+StatValue<8>[10]
+RequiredLevel<8>
 
 LAYOUT 9C58EFE2
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873
 BUILD 1.14.3.42770
 COMMENT table is sparse
 $noninline,id$ID<32>
-Field_2_5_4_42581_000<64>
-Field_2_5_4_42581_001_lang
-Field_2_5_4_42581_002_lang
-Field_2_5_4_42581_003_lang
-Field_2_5_4_42581_004_lang
-Field_2_5_4_42581_005_lang
-Field_2_5_4_42581_006
-Field_2_5_4_42581_007<u32>
-Field_2_5_4_42581_008
-Field_2_5_4_42581_009<u32>
-Field_2_5_4_42581_010
-Field_2_5_4_42581_011[10]
-Field_2_5_4_42581_012<32>[10]
-Field_2_5_4_42581_013<32>
-Field_2_5_4_42581_014<32>
-Field_2_5_4_42581_015<u32>
-Field_2_5_4_42581_016<u32>
-Field_2_5_4_42581_017<u32>
-Field_2_5_4_42581_018<u32>
-Field_2_5_4_42581_019
-Field_2_5_4_42581_020
-Field_2_5_4_42581_021<32>[4]
+AllowableRace<64>
+Description_lang
+Display3_lang
+Display2_lang
+Display1_lang
+Display_lang
+DmgVariance
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
+RequiredAbility<u32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
 Field_2_5_4_42581_022<32>
 Field_2_5_4_42581_023<32>
 Field_2_5_4_42581_024<32>
-Field_2_5_4_42581_025<32>
-Field_2_5_4_42581_026<u32>
-Field_2_5_4_42581_027<u16>
-Field_2_5_4_42581_028<u16>
-Field_2_5_4_42581_029<u16>
-Field_2_5_4_42581_030<u16>
-Field_2_5_4_42581_031<u16>
-Field_2_5_4_42581_032<u16>
-Field_2_5_4_42581_033<u16>
-Field_2_5_4_42581_034<u16>
-Field_2_5_4_42581_035<u16>[2]
-Field_2_5_4_42581_036<u16>
-Field_2_5_4_42581_037<u16>
-Field_2_5_4_42581_038<u16>
-Field_2_5_4_42581_039<u16>
-Field_2_5_4_42581_040<u16>
-Field_2_5_4_42581_041<u16>
-Field_2_5_4_42581_042<u16>
-Field_2_5_4_42581_043<u16>
-Field_2_5_4_42581_044<u16>
-Field_2_5_4_42581_045<16>
-Field_2_5_4_42581_046<u16>
-Field_2_5_4_42581_047<u16>
-Field_2_5_4_42581_048<u16>[5]
-Field_2_5_4_42581_049<u16>[5]
-Field_2_5_4_42581_050<16>[7]
-Field_2_5_4_42581_051<u16>
-Field_2_5_4_42581_052<u8>
-Field_2_5_4_42581_053<u8>
-Field_2_5_4_42581_054<u8>
-Field_2_5_4_42581_055<u8>
-Field_2_5_4_42581_056<u8>[3]
-Field_2_5_4_42581_057<u8>
-Field_2_5_4_42581_058<u8>
-Field_2_5_4_42581_059<u8>
-Field_2_5_4_42581_060<u8>
-Field_2_5_4_42581_061<u8>
-Field_2_5_4_42581_062<u8>
-Field_2_5_4_42581_063<8>[10]
-Field_2_5_4_42581_064<u8>
-Field_2_5_4_42581_065<u8>
-Field_2_5_4_42581_066<u8>
-Field_2_5_4_42581_067<u8>
-Field_2_5_4_42581_068<8>
-Field_2_5_4_42581_069<8>
-Field_2_5_4_42581_070<u8>
-Field_2_5_4_42581_071<8>[10]
-Field_2_5_4_42581_072<8>
+OppositeFactionItemID<32>
+MaxDurability<u32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+LimitCategory<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
+ItemSet<u16>
+LockID<u16>
+StartQuestID<u16>
+PageID<u16>
+ItemDelay<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ItemRandomSuffixGroupID<u16>
+RandomSelect<u16>
+DamageMin<u16>[5]
+DamageMax<u16>[5]
+DefensiveStats<16>[7]
+ScalingStatDistributionID<u16>
+ExpansionID<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+DamageType<u8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<u8>
+MinReputation<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+InventoryType<8>
+OverallQualityID<8>
+AmmoType<u8>
+StatValue<8>[10]
+RequiredLevel<8>
 
 LAYOUT BB5BF754
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
