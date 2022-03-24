@@ -72,24 +72,6 @@ int Field_5_4_0_17266_022?
 int Field_5_4_0_17266_023?
 int Field_5_4_0_17266_024?
 int<SpellVisual::ID> ReducedUnexpectedCameraMovementSpellVisualID?
-float Field_2_5_4_42581_000?
-float Field_2_5_4_42581_001?
-int Field_2_5_4_42581_002?
-int Field_2_5_4_42581_003?
-int Field_2_5_4_42581_004?
-int Field_2_5_4_42581_005?
-int Field_2_5_4_42581_006?
-int Field_2_5_4_42581_007?
-int Field_2_5_4_42581_008?
-int Field_2_5_4_42581_009?
-int Field_2_5_4_42581_010?
-int Field_2_5_4_42581_011?
-int Field_2_5_4_42581_012?
-int Field_2_5_4_42581_013?
-int Field_2_5_4_42581_014?
-int Field_2_5_4_42581_015?
-int Field_2_5_4_42581_016?
-int Field_2_5_4_42581_017?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -276,24 +258,24 @@ LAYOUT E51C620D
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873
 BUILD 1.14.3.42770
 $noninline,id$ID<32>
-Field_2_5_4_42581_000[3]
-Field_2_5_4_42581_001[3]
-Field_2_5_4_42581_002<u32>
-Field_2_5_4_42581_003<32>
-Field_2_5_4_42581_004<8>
-Field_2_5_4_42581_005<8>
-Field_2_5_4_42581_006<u32>
-Field_2_5_4_42581_007<u32>
-Field_2_5_4_42581_008<32>
-Field_2_5_4_42581_009<u32>
-Field_2_5_4_42581_010<u32>
-Field_2_5_4_42581_011<u16>
-Field_2_5_4_42581_012<u16>
-Field_2_5_4_42581_013<u32>
-Field_2_5_4_42581_014<u32>
-Field_2_5_4_42581_015<32>
-Field_2_5_4_42581_016<u16>
-Field_2_5_4_42581_017<8>
+MissileCastOffset[3]
+MissileImpactOffset[3]
+AnimEventSoundID<u32>
+Flags<32>
+MissileAttachment<8>
+MissileDestinationAttachment<8>
+MissileCastPositionerID<u32>
+MissileImpactPositionerID<u32>
+MissileTargetingKit<32>
+HostileSpellVisualID<u32>
+CasterSpellVisualID<u32>
+SpellVisualMissileSetID<u16>
+DamageNumberDelay<u16>
+LowViolenceSpellVisualID<u32>
+RaidSpellVisualMissileSetID<u32>
+ReducedUnexpectedCameraMovementSpellVisualID<32>
+AreaModel<u16>
+HasMissile<8>
 
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885
