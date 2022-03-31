@@ -5,7 +5,7 @@ int<Spell::ID> Spell
 int RaceMask
 int ClassMask
 int MinSkillLineRank
-int SupercedesSpell
+int<Spell::ID> SupercedesSpell
 int AcquireMethod
 int TrivialSkillLineRankHigh
 int TrivialSkillLineRankLow
