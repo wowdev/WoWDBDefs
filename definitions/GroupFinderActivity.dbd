@@ -222,18 +222,18 @@ OverrideContentTuningID<32>
 LAYOUT B857AECE
 BUILD 9.2.5.43022
 $noninline,id$ID<32>
-Field_9_2_5_43022_000_lang
-Field_9_2_5_43022_001_lang
-Field_9_2_5_43022_002<u8>
-Field_9_2_5_43022_003<8>
-Field_9_2_5_43022_004<u16>
-Field_9_2_5_43022_005<u32>
-Field_9_2_5_43022_006<u16>
-Field_9_2_5_43022_007<32>
-Field_9_2_5_43022_008<u16>
-Field_9_2_5_43022_009<u8>
-Field_9_2_5_43022_010<u16>
-Field_9_2_5_43022_011<u8>
-Field_9_2_5_43022_012<u8>
-Field_9_2_5_43022_013<32>
+FullName_lang
+ShortName_lang
+GroupFinderCategoryID<u8>
+OrderIndex<8>
+GroupFinderActivityGrpID<u16>
+Flags<u32>
+MinGearLevelSuggestion<u16>
+PlayerConditionID<32>
+MapID<u16>
+DifficultyID<u8>
+AreaID<u16>
+MaxPlayers<u8>
+DisplayType<u8>
+OverrideContentTuningID<32>
 Field_9_2_5_43022_014<32>
