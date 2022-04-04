@@ -1,9 +1,9 @@
 COLUMNS
-int ID
-int Season?
-int Field_9_2_0_41827_001?
+int ID // GetCurrentSeasonValues.displaySeasonID
+int Season? // GetCurrentSeasonValues.milestoneSeasonID?
+int Field_9_2_0_41827_001? // GetCurrentSeasonValues.rewardSeasonID?
 int ExpansionID?
-locstring Field_9_2_0_42174_000_lang?
+locstring Field_9_2_0_42174_000_lang? // WeeklyRewardActivityInfo.raidString?
 
 LAYOUT CAAEA413
 BUILD 9.2.0.41089, 9.2.0.41257, 9.2.0.41360, 9.2.0.41462, 9.2.0.41726

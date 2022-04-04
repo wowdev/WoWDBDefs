@@ -1,22 +1,22 @@
 COLUMNS
 locstring Description_lang?
-locstring Field_9_2_5_42850_001_lang?
-int ID?
-int Field_9_2_5_42850_003?
-int Field_9_2_5_42850_004?
-int Field_9_2_5_42850_005?
-int Field_9_2_5_42850_006?
-int Field_9_2_5_42850_007?
+locstring SortedProperty_lang?
+int ID
+int<ItemClass::ID> ItemClass
+int<ItemSubClass::ID> ItemSubClass
+int InventoryType // C_Item.InventoryType
+int OrderIndex
+int DefaultAuctionHouseFilter? // guessed, seems to be off by one though, i.e. pre-9.2.5 enum
 int<AuctionHouseCategory::ID> ParentCategory?
 
 LAYOUT 68AEBFF6
 BUILD 9.2.5.42850, 9.2.5.43022
 Description_lang
-Field_9_2_5_42850_001_lang
+SortedProperty_lang
 $id$ID<32>
-Field_9_2_5_42850_003<32>
-Field_9_2_5_42850_004<32>
-Field_9_2_5_42850_005<32>
-Field_9_2_5_42850_006<32>
-Field_9_2_5_42850_007<u8>
+ItemClass<32>
+ItemSubClass<32>
+InventoryType<32>
+OrderIndex<32>
+DefaultAuctionHouseFilter<u8>
 $noninline,relation$ParentCategory<32>
