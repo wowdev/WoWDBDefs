@@ -25,10 +25,19 @@ Name_lang
 SpellIconID<32>
 
 BUILD 5.0.1.15464-5.3.0.17116
-BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
 MapID<32>
 DifficultyID<32>
+OrderIndex<32>
+Bit<32>
+Name_lang
+CreatureDisplayID<32>
+SpellIconID<32>
+
+BUILD 4.0.0.12911-4.3.4.15595
+$id$ID<32>
+MapID<32>
+Difficulty<32>
 OrderIndex<32>
 Bit<32>
 Name_lang
