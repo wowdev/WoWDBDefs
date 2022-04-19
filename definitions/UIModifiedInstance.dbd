@@ -2,10 +2,10 @@ COLUMNS
 int ID
 locstring Description_lang
 int<Map::ID> MapID
-int Field_9_2_5_43254_002?
-int Field_9_2_5_43254_003?
-int Field_9_2_5_43254_004?
-int Field_9_2_5_43254_005?
+int<ItemLevelSelector::ID> LFRItemLevel?
+int<ItemLevelSelector::ID> NormalItemLevel?
+int<ItemLevelSelector::ID> HeroicItemLevel?
+int<ItemLevelSelector::ID> MythicItemLevel?
 int<UiTextureKit::ID> UiTextureKitID
 int Field_9_2_5_43254_007?
 
@@ -14,9 +14,9 @@ BUILD 9.2.5.43254
 $noninline,id$ID<32>
 Description_lang
 MapID<32>
-Field_9_2_5_43254_002<32>
-Field_9_2_5_43254_003<32>
-Field_9_2_5_43254_004<32>
-Field_9_2_5_43254_005<32>
+LFRItemLevel<32>
+NormalItemLevel<32>
+HeroicItemLevel<32>
+MythicItemLevel<32>
 UiTextureKitID<32>
 Field_9_2_5_43254_007<32>
