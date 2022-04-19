@@ -1,22 +1,22 @@
 COLUMNS
 int ID
-locstring Field_9_2_5_43254_000_lang?
-int Field_9_2_5_43254_001?
+locstring Description_lang
+int<Map::ID> MapID
 int Field_9_2_5_43254_002?
 int Field_9_2_5_43254_003?
 int Field_9_2_5_43254_004?
 int Field_9_2_5_43254_005?
-int Field_9_2_5_43254_006?
+int<UiTextureKit::ID> UiTextureKitID
 int Field_9_2_5_43254_007?
 
 LAYOUT 85703E65
 BUILD 9.2.5.43254
 $noninline,id$ID<32>
-Field_9_2_5_43254_000_lang
-Field_9_2_5_43254_001<32>
+Description_lang
+MapID<32>
 Field_9_2_5_43254_002<32>
 Field_9_2_5_43254_003<32>
 Field_9_2_5_43254_004<32>
 Field_9_2_5_43254_005<32>
-Field_9_2_5_43254_006<32>
+UiTextureKitID<32>
 Field_9_2_5_43254_007<32>

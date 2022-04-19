@@ -148,20 +148,20 @@ BarberShopCameraRotationOffset
 
 LAYOUT AA2A5872
 BUILD 9.2.5.43254
-Field_9_2_5_43254_000[3]
-Field_9_2_5_43254_001[3]
-$id$Field_9_2_5_43254_002<32>
-Field_9_2_5_43254_003<8>
-Field_9_2_5_43254_004<32>
-Field_9_2_5_43254_005<32>
-Field_9_2_5_43254_006<32>
-Field_9_2_5_43254_007<32>
-Field_9_2_5_43254_008<32>
-Field_9_2_5_43254_009<32>
-Field_9_2_5_43254_010<32>
-Field_9_2_5_43254_011
-Field_9_2_5_43254_012
-Field_9_2_5_43254_013
-Field_9_2_5_43254_014
-Field_9_2_5_43254_015
-Field_9_2_5_43254_016
+FaceCustomizationOffset[3]
+CustomizeOffset[3]
+$id$ID<32>
+Sex<32>
+DisplayID<32>
+CharComponentTextureLayoutID<32>
+Flags<32>
+SkeletonFileDataID<32>
+ModelFallbackChrModelID<32>
+TextureFallbackChrModelID<32>
+HelmVisFallbackChrModelID<32>
+CustomizeScale
+CustomizeFacing
+CameraDistanceOffset
+BarberShopCameraOffsetScale
+BarberShopCameraRotationFacing
+BarberShopCameraRotationOffset

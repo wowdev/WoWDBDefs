@@ -57,9 +57,9 @@ VoiceSoundFilterID<u32>
 LAYOUT 3B143F4A
 BUILD 9.2.5.43254
 $noninline,id$ID<32>
-Field_9_2_5_43254_000<8>
-Field_9_2_5_43254_001<8>
-Field_9_2_5_43254_002<8>
-Field_9_2_5_43254_003<32>
-Field_9_2_5_43254_004<u32>
-Field_9_2_5_43254_005<u32>
+ClassID<8>
+RaceID<8>
+Sex<8>
+Flags<32>
+SoundID<u32>
+VoiceSoundFilterID<u32>
