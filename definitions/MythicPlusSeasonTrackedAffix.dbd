@@ -5,6 +5,11 @@ int Season? // 5 should be Shadowlands S1
 int Field_9_1_0_38511_003?
 int Field_9_1_0_38511_004?
 int<DisplaySeason::ID> DisplaySeasonID?
+int Field_9_2_5_43412_000?
+int Field_9_2_5_43412_001?
+int Field_9_2_5_43412_002?
+int Field_9_2_5_43412_003?
+int Field_9_2_5_43412_004?
 
 LAYOUT C4093695
 BUILD 9.1.5.39977, 9.1.5.40071, 9.1.5.40078, 9.1.5.40196, 9.1.5.40290, 9.1.5.40383, 9.1.5.40496, 9.1.5.40622
@@ -24,3 +29,11 @@ KeystoneAffixID<32>
 Field_9_1_0_38511_003<32>
 Field_9_1_0_38511_004<32>
 $noninline,relation$DisplaySeasonID<32>
+
+LAYOUT 6F3407A5
+BUILD 9.2.5.43412
+$id$Field_9_2_5_43412_000<32>
+Field_9_2_5_43412_001<32>
+Field_9_2_5_43412_002<32>
+Field_9_2_5_43412_003<32>
+$noninline,relation$Field_9_2_5_43412_004<32>

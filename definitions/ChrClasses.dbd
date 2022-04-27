@@ -851,7 +851,7 @@ ClassColorG<u8>
 ClassColorB<u8>
 
 LAYOUT 0E250ECA
-BUILD 9.2.5.43254
+BUILD 9.2.5.43254, 9.2.5.43412
 Name_lang
 Filename
 Name_male_lang
@@ -867,7 +867,7 @@ CreateScreenFileDataID<u32>
 SelectScreenFileDataID<u32>
 IconFileDataID<u32>
 LowResScreenFileDataID<u32>
-Flags<u32>
+Flags<32>
 SpellTextureBlobFileDataID<u32>
 RolesMask<u32>
 ArmorTypeMask<u32>
