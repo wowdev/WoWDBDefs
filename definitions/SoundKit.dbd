@@ -16,6 +16,21 @@ float VolumeFloat
 float VolumeVariationMinus
 float VolumeVariationPlus
 int Field_7_3_0_24473_008?
+int Field_9_2_5_43519_000?
+float Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+float Field_9_2_5_43519_003?
+float Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+float Field_9_2_5_43519_007?
+float Field_9_2_5_43519_008?
+float Field_9_2_5_43519_009?
+float Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+float Field_9_2_5_43519_012?
+int Field_9_2_5_43519_013?
+int Field_9_2_5_43519_014?
 
 LAYOUT 972A2F98
 BUILD 1.13.0.28211
@@ -188,3 +203,22 @@ DialogType<8>
 PitchAdjust
 BusOverwriteID<u16>
 MaxInstances<u8>
+
+LAYOUT 3FE1D132
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001
+Field_9_2_5_43519_002<u16>
+Field_9_2_5_43519_003
+Field_9_2_5_43519_004
+Field_9_2_5_43519_005<u8>
+Field_9_2_5_43519_006<u32>
+Field_9_2_5_43519_007
+Field_9_2_5_43519_008
+Field_9_2_5_43519_009
+Field_9_2_5_43519_010
+Field_9_2_5_43519_011<8>
+Field_9_2_5_43519_012
+Field_9_2_5_43519_013<u16>
+Field_9_2_5_43519_014<u8>

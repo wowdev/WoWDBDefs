@@ -5,6 +5,9 @@ int ID
 int<SceneScript::ID> FirstSceneScriptID
 int<SceneScript::ID> NextSceneScriptID
 int Field_9_1_5_39977_002?
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 BUILD 5.0.1.15464
 $id$ID<32>
@@ -68,3 +71,10 @@ $noninline,id$ID<32>
 FirstSceneScriptID<u16>
 NextSceneScriptID<u16>
 Field_9_1_5_39977_002<32>
+
+LAYOUT F24D5AEA
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u16>
+Field_9_2_5_43519_001<u16>
+Field_9_2_5_43519_002<32>

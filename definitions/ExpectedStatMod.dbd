@@ -9,6 +9,15 @@ float PlayerHealthMod
 float PlayerManaMod
 float PlayerPrimaryStatMod
 float PlayerSecondaryStatMod
+float Field_9_2_5_43519_000?
+float Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
+float Field_9_2_5_43519_003?
+float Field_9_2_5_43519_004?
+float Field_9_2_5_43519_005?
+float Field_9_2_5_43519_006?
+float Field_9_2_5_43519_007?
+float Field_9_2_5_43519_008?
 
 LAYOUT 689CC1B5, EA56E599, 955F5B02
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -49,3 +58,16 @@ PlayerPrimaryStatMod
 PlayerSecondaryStatMod
 ArmorConstantMod
 CreatureSpellDamageMod
+
+LAYOUT 462D65F2
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000
+Field_9_2_5_43519_001
+Field_9_2_5_43519_002
+Field_9_2_5_43519_003
+Field_9_2_5_43519_004
+Field_9_2_5_43519_005
+Field_9_2_5_43519_006
+Field_9_2_5_43519_007
+Field_9_2_5_43519_008

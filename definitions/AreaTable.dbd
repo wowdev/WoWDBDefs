@@ -32,6 +32,29 @@ int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
 int<ContentTuning::ID> ContentTuningID
+string Field_9_2_5_43519_000?
+locstring Field_9_2_5_43519_001_lang?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+int Field_9_2_5_43519_012?
+int Field_9_2_5_43519_013?
+float Field_9_2_5_43519_014?
+int Field_9_2_5_43519_015?
+int Field_9_2_5_43519_016?
+int Field_9_2_5_43519_017?
+int Field_9_2_5_43519_018?
+int Field_9_2_5_43519_019?
+int Field_9_2_5_43519_020?
+int Field_9_2_5_43519_021?
+int Field_9_2_5_43519_022?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -603,3 +626,30 @@ WindSettingsID<u8>
 ContentTuningID<32>
 Flags<32>[2]
 LiquidTypeID<u16>[4]
+
+LAYOUT 16AE706B
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000
+Field_9_2_5_43519_001_lang
+Field_9_2_5_43519_002<u16>
+Field_9_2_5_43519_003<u16>
+Field_9_2_5_43519_004<16>
+Field_9_2_5_43519_005<u8>
+Field_9_2_5_43519_006<u8>
+Field_9_2_5_43519_007<u16>
+Field_9_2_5_43519_008<u16>
+Field_9_2_5_43519_009<u16>
+Field_9_2_5_43519_010<u16>
+Field_9_2_5_43519_011<u16>
+Field_9_2_5_43519_012<u32>
+Field_9_2_5_43519_013<u8>
+Field_9_2_5_43519_014
+Field_9_2_5_43519_015<u8>
+Field_9_2_5_43519_016<16>
+Field_9_2_5_43519_017<u8>
+Field_9_2_5_43519_018<u8>
+Field_9_2_5_43519_019<u8>
+Field_9_2_5_43519_020<32>
+Field_9_2_5_43519_021<32>[2]
+Field_9_2_5_43519_022<u16>[4]

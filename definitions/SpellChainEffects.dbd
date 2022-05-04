@@ -66,6 +66,66 @@ float VariancePerFlipFrame
 int<Curve::ID> WidthScaleCurveID
 int Padding_4_0_0_11792_044?
 string Combo
+float Field_9_2_5_43519_000?
+float Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+float Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+float Field_9_2_5_43519_010?
+float Field_9_2_5_43519_011?
+float Field_9_2_5_43519_012?
+float Field_9_2_5_43519_013?
+float Field_9_2_5_43519_014?
+float Field_9_2_5_43519_015?
+float Field_9_2_5_43519_016?
+float Field_9_2_5_43519_017?
+float Field_9_2_5_43519_018?
+float Field_9_2_5_43519_019?
+float Field_9_2_5_43519_020?
+float Field_9_2_5_43519_021?
+float Field_9_2_5_43519_022?
+float Field_9_2_5_43519_023?
+float Field_9_2_5_43519_024?
+float Field_9_2_5_43519_025?
+float Field_9_2_5_43519_026?
+float Field_9_2_5_43519_027?
+float Field_9_2_5_43519_028?
+float Field_9_2_5_43519_029?
+float Field_9_2_5_43519_030?
+float Field_9_2_5_43519_031?
+float Field_9_2_5_43519_032?
+float Field_9_2_5_43519_033?
+float Field_9_2_5_43519_034?
+float Field_9_2_5_43519_035?
+int Field_9_2_5_43519_036?
+int Field_9_2_5_43519_037?
+int Field_9_2_5_43519_038?
+int Field_9_2_5_43519_039?
+int Field_9_2_5_43519_040?
+int Field_9_2_5_43519_041?
+float Field_9_2_5_43519_042?
+float Field_9_2_5_43519_043?
+float Field_9_2_5_43519_044?
+int Field_9_2_5_43519_045?
+float Field_9_2_5_43519_046?
+float Field_9_2_5_43519_047?
+int Field_9_2_5_43519_048?
+int Field_9_2_5_43519_049?
+int Field_9_2_5_43519_050?
+int Field_9_2_5_43519_051?
+float Field_9_2_5_43519_052?
+float Field_9_2_5_43519_053?
+int Field_9_2_5_43519_054?
+float Field_9_2_5_43519_055?
+float Field_9_2_5_43519_056?
+float Field_9_2_5_43519_057?
+float Field_9_2_5_43519_058?
+int Field_9_2_5_43519_059?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.6.6337
@@ -672,3 +732,67 @@ TextureCoordScaleV[3]
 TextureRepeatLengthU[3]
 TextureRepeatLengthV[3]
 TextureFileDataID<32>[3]
+
+LAYOUT 7FCAB519
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000
+Field_9_2_5_43519_001
+Field_9_2_5_43519_002
+Field_9_2_5_43519_003<u32>
+Field_9_2_5_43519_004<u16>
+Field_9_2_5_43519_005<u32>
+Field_9_2_5_43519_006<u16>
+Field_9_2_5_43519_007
+Field_9_2_5_43519_008<u8>
+Field_9_2_5_43519_009<u8>
+Field_9_2_5_43519_010
+Field_9_2_5_43519_011
+Field_9_2_5_43519_012
+Field_9_2_5_43519_013
+Field_9_2_5_43519_014
+Field_9_2_5_43519_015
+Field_9_2_5_43519_016
+Field_9_2_5_43519_017
+Field_9_2_5_43519_018
+Field_9_2_5_43519_019
+Field_9_2_5_43519_020
+Field_9_2_5_43519_021
+Field_9_2_5_43519_022
+Field_9_2_5_43519_023
+Field_9_2_5_43519_024
+Field_9_2_5_43519_025
+Field_9_2_5_43519_026
+Field_9_2_5_43519_027
+Field_9_2_5_43519_028
+Field_9_2_5_43519_029
+Field_9_2_5_43519_030
+Field_9_2_5_43519_031
+Field_9_2_5_43519_032
+Field_9_2_5_43519_033
+Field_9_2_5_43519_034
+Field_9_2_5_43519_035
+Field_9_2_5_43519_036<u8>
+Field_9_2_5_43519_037<u8>
+Field_9_2_5_43519_038<u8>
+Field_9_2_5_43519_039<u8>
+Field_9_2_5_43519_040<u8>
+Field_9_2_5_43519_041<u8>
+Field_9_2_5_43519_042
+Field_9_2_5_43519_043
+Field_9_2_5_43519_044
+Field_9_2_5_43519_045<u32>
+Field_9_2_5_43519_046
+Field_9_2_5_43519_047
+Field_9_2_5_43519_048<u16>
+Field_9_2_5_43519_049<u8>
+Field_9_2_5_43519_050<u8>
+Field_9_2_5_43519_051<u32>
+Field_9_2_5_43519_052
+Field_9_2_5_43519_053
+Field_9_2_5_43519_054<u16>[11]
+Field_9_2_5_43519_055[3]
+Field_9_2_5_43519_056[3]
+Field_9_2_5_43519_057[3]
+Field_9_2_5_43519_058[3]
+Field_9_2_5_43519_059<32>[3]

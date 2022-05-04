@@ -6,6 +6,12 @@ int<FileData::ID> Icon?
 int Order?
 int<ChrRaces::ID> ChrRacesID?
 locstring DescriptionShort_lang?
+locstring Field_9_2_5_43519_000_lang?
+locstring Field_9_2_5_43519_001_lang?
+locstring Field_9_2_5_43519_002_lang?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
 
 LAYOUT 7C695867
 BUILD 9.0.1.33978, 9.0.1.34003
@@ -31,3 +37,13 @@ DescriptionShort_lang
 Icon<32>
 Order<32>
 $noninline,relation$ChrRacesID<32>
+
+LAYOUT B6115535
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001_lang
+Field_9_2_5_43519_002_lang
+Field_9_2_5_43519_003<32>
+Field_9_2_5_43519_004<32>
+$noninline,relation$Field_9_2_5_43519_005<32>

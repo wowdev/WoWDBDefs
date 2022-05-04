@@ -4,6 +4,11 @@ int<PlayerCondition::ID> UnlockConditionID
 int TransmogCost
 int<SpellItemEnchantment::ID> SpellItemEnchantmentID
 int Flags // TransmogIllisionFlags (sic) | HideUntilCollected: 1; PlayerConditionGrantsOnLogin: 2
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
 
 LAYOUT E579B752
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -18,3 +23,11 @@ UnlockConditionID<32>
 TransmogCost<32>
 SpellItemEnchantmentID<32>
 Flags<32>
+
+LAYOUT 3DDD0672
+BUILD 9.2.5.43519
+$id$Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<32>
+Field_9_2_5_43519_004<32>

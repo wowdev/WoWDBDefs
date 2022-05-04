@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<SoundEntries::ID> SoundID
 int<CinematicCamera::ID> Camera
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -53,3 +55,9 @@ BUILD 1.13.0.28211
 $noninline,id$ID<32>
 SoundID<u32>
 Camera<u16>[8]
+
+LAYOUT 32B8FB41
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u32>
+Field_9_2_5_43519_001<u16>[8]

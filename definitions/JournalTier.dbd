@@ -3,6 +3,8 @@ int ID
 locstring Name_lang
 int<PlayerCondition::ID> PlayerConditionID
 int Expansion? // expansion indentifier
+locstring Field_9_2_5_43519_000_lang?
+int Field_9_2_5_43519_001?
 
 BUILD 5.0.1.15464-5.3.0.17116
 $id$ID<32>
@@ -55,3 +57,9 @@ BUILD 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.352
 $noninline,id$ID<32>
 Name_lang
 PlayerConditionID<32>
+
+LAYOUT 10E4DFC1
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001<32>

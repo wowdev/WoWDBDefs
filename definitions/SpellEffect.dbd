@@ -32,6 +32,35 @@ float Variance
 float EffectBasePointsF
 int Field_7_3_2_25549_010?
 int ScalingClass?
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+float Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+float Field_9_2_5_43519_007?
+float Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+float Field_9_2_5_43519_012?
+float Field_9_2_5_43519_013?
+float Field_9_2_5_43519_014?
+int Field_9_2_5_43519_015?
+float Field_9_2_5_43519_016?
+float Field_9_2_5_43519_017?
+float Field_9_2_5_43519_018?
+float Field_9_2_5_43519_019?
+float Field_9_2_5_43519_020?
+float Field_9_2_5_43519_021?
+float Field_9_2_5_43519_022?
+int Field_9_2_5_43519_023?
+int Field_9_2_5_43519_024?
+int Field_9_2_5_43519_025?
+int Field_9_2_5_43519_026?
+int Field_9_2_5_43519_027?
+int Field_9_2_5_43519_028?
 
 LAYOUT D6EA6A1A
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -522,3 +551,36 @@ EffectRadiusIndex<u32>[2]
 EffectSpellClassMask<32>[4]
 ImplicitTarget<16>[2]
 $noninline,relation$SpellID<32>
+
+LAYOUT 0ADBA46F
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<16>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<u32>
+Field_9_2_5_43519_004
+Field_9_2_5_43519_005<32>
+Field_9_2_5_43519_006<32>
+Field_9_2_5_43519_007
+Field_9_2_5_43519_008
+Field_9_2_5_43519_009<32>
+Field_9_2_5_43519_010<32>
+Field_9_2_5_43519_011<32>
+Field_9_2_5_43519_012
+Field_9_2_5_43519_013
+Field_9_2_5_43519_014
+Field_9_2_5_43519_015<32>
+Field_9_2_5_43519_016
+Field_9_2_5_43519_017
+Field_9_2_5_43519_018
+Field_9_2_5_43519_019
+Field_9_2_5_43519_020
+Field_9_2_5_43519_021
+Field_9_2_5_43519_022
+Field_9_2_5_43519_023<32>
+Field_9_2_5_43519_024<32>[2]
+Field_9_2_5_43519_025<u32>[2]
+Field_9_2_5_43519_026<32>[4]
+Field_9_2_5_43519_027<16>[2]
+$noninline,relation$Field_9_2_5_43519_028<32>

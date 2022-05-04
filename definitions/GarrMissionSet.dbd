@@ -6,6 +6,12 @@ int CooldownSeconds
 int<PlayerCondition::ID> Condition_9_0_2_36294_003?
 int Field_9_0_2_36294_004? // related to which table? 176 = Shipyard; 336 = Legionfall; 337 = Argus; 339 = Legion ???; 347 = Legion ???; 464 = BfA ???
 int Field_9_0_2_36294_005?
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
 
 LAYOUT 62B4E01D
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -21,3 +27,13 @@ CooldownSeconds<32>
 Condition_9_0_2_36294_003<32>
 Field_9_0_2_36294_004<32>
 Field_9_0_2_36294_005<32>
+
+LAYOUT 1858B6AD
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<32>
+Field_9_2_5_43519_004<32>
+Field_9_2_5_43519_005<32>

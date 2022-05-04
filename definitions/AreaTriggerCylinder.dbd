@@ -3,6 +3,9 @@ int ID
 float Radius
 float Height
 float ZOffset
+float Field_9_2_5_43519_000?
+float Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -46,3 +49,10 @@ $noninline,id$ID<32>
 Radius
 Height
 ZOffset
+
+LAYOUT AF2720AC
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000
+Field_9_2_5_43519_001
+Field_9_2_5_43519_002

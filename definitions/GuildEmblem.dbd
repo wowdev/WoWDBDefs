@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int EmblemID?
 int<FileData::ID> TextureFileDataID?
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 LAYOUT 58D7EB20, AFE5E47A
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -27,3 +29,9 @@ BUILD 1.14.0.39802, 1.14.0.39958, 1.14.0.40140, 1.14.0.40179, 1.14.0.40237, 1.14
 $noninline,id$ID<32>
 EmblemID<32>
 TextureFileDataID<32>
+
+LAYOUT FA4DFEEA
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>

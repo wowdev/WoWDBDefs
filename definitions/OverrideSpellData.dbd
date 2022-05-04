@@ -4,6 +4,9 @@ int<Spell::ID> Spells
 int Flags
 int<FileData::ID> PlayerActionbarFileDataID
 string PlayerActionbar?
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12319
@@ -70,3 +73,10 @@ $noninline,id$ID<32>
 Spells<32>[10]
 PlayerActionbarFileDataID<32>
 Flags<u8>
+
+LAYOUT DC04AC20
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>[10]
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<u8>

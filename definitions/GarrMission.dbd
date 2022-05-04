@@ -43,6 +43,37 @@ float WorldPos
 float AutoMissionScalar
 int AutoMissionScalarCurveID
 int<GarrAutoCombatant::ID> AutoCombatantEnvCasterID
+locstring Field_9_2_5_43519_000_lang?
+locstring Field_9_2_5_43519_001_lang?
+locstring Field_9_2_5_43519_002_lang?
+float Field_9_2_5_43519_003?
+float Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+int Field_9_2_5_43519_012?
+int Field_9_2_5_43519_013?
+int Field_9_2_5_43519_014?
+int Field_9_2_5_43519_015?
+int Field_9_2_5_43519_016?
+int Field_9_2_5_43519_017?
+int Field_9_2_5_43519_018?
+int Field_9_2_5_43519_019?
+int Field_9_2_5_43519_020?
+int Field_9_2_5_43519_021?
+int Field_9_2_5_43519_022?
+int Field_9_2_5_43519_023?
+int Field_9_2_5_43519_024?
+int Field_9_2_5_43519_025?
+int Field_9_2_5_43519_026?
+int Field_9_2_5_43519_027?
+float Field_9_2_5_43519_028?
+int Field_9_2_5_43519_029?
+int Field_9_2_5_43519_030?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -427,3 +458,38 @@ Flags<32>
 AutoMissionScalar
 AutoMissionScalarCurveID<32>
 AutoCombatantEnvCasterID<32>
+
+LAYOUT CA0E980C
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001_lang
+Field_9_2_5_43519_002_lang
+Field_9_2_5_43519_003[2]
+Field_9_2_5_43519_004[2]
+Field_9_2_5_43519_005<u8>
+Field_9_2_5_43519_006<u8>
+Field_9_2_5_43519_007<u8>
+Field_9_2_5_43519_008<u8>
+Field_9_2_5_43519_009<u32>
+Field_9_2_5_43519_010<u16>
+Field_9_2_5_43519_011<u8>
+Field_9_2_5_43519_012<u16>
+Field_9_2_5_43519_013<u32>
+Field_9_2_5_43519_014<32>
+Field_9_2_5_43519_015<u32>
+$relation$Field_9_2_5_43519_016<32>
+Field_9_2_5_43519_017<8>
+Field_9_2_5_43519_018<u16>
+Field_9_2_5_43519_019<32>
+Field_9_2_5_43519_020<32>
+Field_9_2_5_43519_021<u32>
+Field_9_2_5_43519_022<u8>
+Field_9_2_5_43519_023<u32>
+Field_9_2_5_43519_024<u32>
+Field_9_2_5_43519_025<u8>
+Field_9_2_5_43519_026<u32>
+Field_9_2_5_43519_027<32>
+Field_9_2_5_43519_028
+Field_9_2_5_43519_029<32>
+Field_9_2_5_43519_030<32>

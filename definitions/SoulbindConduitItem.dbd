@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<Item::ID> ItemID
 int<SoulbindConduit::ID> ConduitID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 LAYOUT A64372DE
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -14,3 +16,9 @@ BUILD 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.351
 $noninline,id$ID<32>
 ItemID<32>
 ConduitID<32>
+
+LAYOUT 0378426E
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>

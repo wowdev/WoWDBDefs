@@ -3,6 +3,9 @@ int ID
 int<Campaign::ID> CampaignID
 int<QuestLine::ID> QuestLineID?
 int OrderIndex?
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 LAYOUT 7303E0F9, DF3D2FCA
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -37,3 +40,10 @@ $noninline,id$ID<32>
 $relation$CampaignID<u32>
 QuestLineID<u32>
 OrderIndex<u32>
+
+LAYOUT 10BF2FCD
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+$relation$Field_9_2_5_43519_000<u32>
+Field_9_2_5_43519_001<u32>
+Field_9_2_5_43519_002<u32>

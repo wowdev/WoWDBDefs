@@ -5,6 +5,9 @@ int<Item::ID> Reagent
 int ReagentCount
 int<CurrencyTypes::ID> CurrencyID // Moved to SpellReagentsCurrency.
 int CurrencyCount
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 BUILD 5.0.1.15464
 BUILD 4.0.0.12232-4.3.4.15595
@@ -57,3 +60,10 @@ $noninline,id$ID<32>
 SpellID<32>
 Reagent<32>[8]
 ReagentCount<16>[8]
+
+LAYOUT F0E58683
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>[8]
+Field_9_2_5_43519_002<16>[8]

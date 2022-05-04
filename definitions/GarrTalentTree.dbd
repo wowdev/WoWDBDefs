@@ -12,6 +12,18 @@ int<PlayerCondition::ID> PlayerConditionID?
 int FeatureTypeIndex // 0: Generic, 1: AnimaDiversion, 2: TravelPortals, 3: Adventures, 4: ReservoirUpgrades, 5: SanctumUnique, 6: SoulBinds, 7: AnimaDiversionMap
 int FeatureSubtypeIndex // 0: Generic, 1: Bastion, 2: Revendreth, 3: Maldraxxus, 4: Ardenweald
 int<CurrencyTypes::ID> CurrencyID?
+locstring Field_9_2_5_43519_000_lang?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
 
 LAYOUT C6C3E719
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -190,3 +202,19 @@ PlayerConditionID<32>
 FeatureTypeIndex<u8>
 FeatureSubtypeIndex<u8>
 CurrencyID<32>
+
+LAYOUT C148F18E
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001<u8>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<8>
+Field_9_2_5_43519_004<8>
+Field_9_2_5_43519_005<32>
+Field_9_2_5_43519_006<u16>
+Field_9_2_5_43519_007<32>
+Field_9_2_5_43519_008<32>
+Field_9_2_5_43519_009<u8>
+Field_9_2_5_43519_010<u8>
+Field_9_2_5_43519_011<32>

@@ -5,6 +5,11 @@ int<ItemBonusList::ID> HeadBonus
 int<ItemBonusList::ID> ShoulderBonus
 int<ItemBonusList::ID> ChestBonus // also Robe
 int SetID? // used as index via ItemLevelSelector
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
 
 LAYOUT 102F3E5F, 35C3D000
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -26,3 +31,12 @@ HeadBonus<32>
 ShoulderBonus<32>
 ChestBonus<32>
 $noninline,relation$SetID<32>
+
+LAYOUT 22A21AA1
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<32>
+$noninline,relation$Field_9_2_5_43519_004<32>

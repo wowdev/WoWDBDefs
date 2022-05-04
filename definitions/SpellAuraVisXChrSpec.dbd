@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<SpellAuraVisibility::ID> SpellAuraVisibilityID
 int<ChrSpecialization::ID> ChrSpecializationID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15640-5.4.8.18414
@@ -55,3 +57,9 @@ BUILD 1.14.0.39802, 1.14.0.39958, 1.14.0.40140, 1.14.0.40179, 1.14.0.40237, 1.14
 $noninline,id$ID<32>
 ChrSpecializationID<16>
 $noninline,relation$SpellAuraVisibilityID<32>
+
+LAYOUT 6402EE2B
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<16>
+$noninline,relation$Field_9_2_5_43519_001<32>

@@ -3,6 +3,9 @@ int ID
 int<ChrClasses::ID> ChrClassID
 locstring Name_female_lang
 locstring Name_male_lang
+locstring Field_9_2_5_43519_000_lang?
+locstring Field_9_2_5_43519_001_lang?
+int Field_9_2_5_43519_002?
 
 LAYOUT C155DB2C, A01D47C8, 17144A39
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -41,3 +44,10 @@ $noninline,id$ID<32>
 Name_male_lang
 Name_female_lang
 ChrClassID<u8>
+
+LAYOUT 7F14E4E9
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001_lang
+Field_9_2_5_43519_002<u8>

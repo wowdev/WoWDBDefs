@@ -14,6 +14,21 @@ int SpecialIconConditionID
 int<UiTextureKit::ID> UiTextureKitID
 int MinimapAtlasMemberID
 int VisibilityConditionID
+locstring Field_9_2_5_43519_000_lang?
+float Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
+float Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+float Field_9_2_5_43519_011?
+int Field_9_2_5_43519_012?
+int Field_9_2_5_43519_013?
+int Field_9_2_5_43519_014?
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368
@@ -302,3 +317,21 @@ Facing
 SpecialIconConditionID<u32>
 VisibilityConditionID<u32>
 MountCreatureID<32>[2]
+
+LAYOUT 3F7CC8B2
+BUILD 9.2.5.43519
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001[3]
+Field_9_2_5_43519_002[2]
+Field_9_2_5_43519_003[2]
+$id$Field_9_2_5_43519_004<32>
+$relation$Field_9_2_5_43519_005<u16>
+Field_9_2_5_43519_006<32>
+Field_9_2_5_43519_007<u16>
+Field_9_2_5_43519_008<u16>
+Field_9_2_5_43519_009<32>
+Field_9_2_5_43519_010<32>
+Field_9_2_5_43519_011
+Field_9_2_5_43519_012<u32>
+Field_9_2_5_43519_013<u32>
+Field_9_2_5_43519_014<32>[2]

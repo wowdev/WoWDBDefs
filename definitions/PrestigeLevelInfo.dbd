@@ -6,6 +6,11 @@ locstring Name_lang
 int PrestigeLevel
 int HonorLevel?
 int<Achievement::ID> AwardedAchievementID
+locstring Field_9_2_5_43519_000_lang?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
 
 LAYOUT 1BCDA661
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -79,3 +84,12 @@ HonorLevel<32>
 BadgeTextureFileDataID<32>
 Flags<u8>
 AwardedAchievementID<32>
+
+LAYOUT B4AE6313
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<u8>
+Field_9_2_5_43519_004<32>

@@ -145,6 +145,9 @@ int Field_4_0_0_12232_046?
 int Field_4_0_0_11927_106?
 int Field_4_0_0_11927_107?
 int Field_4_0_0_11927_108?
+locstring Field_9_2_5_43519_000_lang?
+locstring Field_9_2_5_43519_001_lang?
+locstring Field_9_2_5_43519_002_lang?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -3210,3 +3213,11 @@ $noninline,id$ID<32>
 NameSubtext_lang
 Description_lang
 AuraDescription_lang
+
+LAYOUT E2395468
+BUILD 9.2.5.43519
+COMMENT table is sparse
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001_lang
+Field_9_2_5_43519_002_lang

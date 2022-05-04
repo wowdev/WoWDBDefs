@@ -5,6 +5,11 @@ int<ChrRaces::ID> RaceID
 int SexID
 int<SoundEntries::ID> SoundID
 int<ChrClasses::ID> ClassID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -84,3 +89,12 @@ ClassID<u8>
 SexID<u8>
 SoundID<u32>
 $noninline,relation$EmotesTextID<32>
+
+LAYOUT F058B2EF
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u8>
+Field_9_2_5_43519_001<u8>
+Field_9_2_5_43519_002<u8>
+Field_9_2_5_43519_003<u32>
+$noninline,relation$Field_9_2_5_43519_004<32>

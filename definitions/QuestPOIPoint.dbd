@@ -4,6 +4,11 @@ int X
 int Y
 int<QuestPOIBlob::ID> QuestPOIBlobID
 int Z?
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -77,3 +82,11 @@ X<16>
 Y<16>
 Z<16>
 $noninline,relation$QuestPOIBlobID<32>
+
+LAYOUT 38867756
+BUILD 9.2.5.43519
+$id$Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<16>
+Field_9_2_5_43519_002<16>
+Field_9_2_5_43519_003<16>
+$noninline,relation$Field_9_2_5_43519_004<32>

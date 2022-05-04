@@ -3,6 +3,9 @@ int ID
 int LevelXP
 int TotalLevelXP
 int ItemLevel // take difference between base heart ilvl and this col, look up in ItemBonusListLevelDelta for bonus id
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 LAYOUT EA8E31FC, AB15ACD1
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -21,3 +24,10 @@ $noninline,id$ID<32>
 LevelXP<u64>
 TotalLevelXP<u64>
 ItemLevel<32>
+
+LAYOUT FB87ABE1
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u64>
+Field_9_2_5_43519_001<u64>
+Field_9_2_5_43519_002<32>

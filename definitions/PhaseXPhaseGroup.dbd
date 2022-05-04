@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<Phase::ID> PhaseID
 int PhaseGroupID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -52,3 +54,9 @@ BUILD 1.14.0.39802, 1.14.0.39958, 1.14.0.40140, 1.14.0.40179, 1.14.0.40237, 1.14
 $noninline,id$ID<32>
 PhaseID<u16>
 $noninline,relation$PhaseGroupID<32>
+
+LAYOUT EC8D5E98
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u16>
+$noninline,relation$Field_9_2_5_43519_001<32>

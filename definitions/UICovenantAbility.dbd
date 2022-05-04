@@ -4,6 +4,10 @@ int<UICovenantPreview::ID> CovenantPreviewID
 int<Spell::ID> SpellID
 int AbilityType // 0 = Class, 1 = Race/Signature, 2 = Soulbind
 int<SoulbindUIDisplayInfo::ID> SoulbindDisplayInfoID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
 
 LAYOUT 740E35EC
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037
@@ -25,3 +29,11 @@ $relation$CovenantPreviewID<32>
 SpellID<32>
 AbilityType<u8>
 SoulbindDisplayInfoID<32>
+
+LAYOUT 11D03E08
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+$relation$Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<u8>
+Field_9_2_5_43519_003<32>

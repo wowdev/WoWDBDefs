@@ -5,6 +5,8 @@ int Maxcount_inv
 int Maxcount_item
 int Type
 int Min_item_level
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 BUILD 3.0.1.8303-3.3.5.12340
 BUILD 2.0.0.5610-2.4.3.8606
@@ -76,3 +78,9 @@ BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.343
 $noninline,id$ID<32>
 Enchant_ID<u16>
 Type<32>
+
+LAYOUT 61DF3B70
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u16>
+Field_9_2_5_43519_001<32>

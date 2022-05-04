@@ -14,6 +14,19 @@ int SourceTypeEnum
 int<UiModelScene::ID> UiModelSceneID
 int<AnimKit::ID> MountSpecialRiderAnimKitID?
 int<SpellVisualKit::ID> MountSpecialSpellVisualKitID?
+locstring Field_9_2_5_43519_000_lang?
+locstring Field_9_2_5_43519_001_lang?
+locstring Field_9_2_5_43519_002_lang?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+float Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+int Field_9_2_5_43519_012?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -142,3 +155,19 @@ MountFlyRideHeight
 UiModelSceneID<32>
 MountSpecialRiderAnimKitID<32>
 MountSpecialSpellVisualKitID<32>
+
+LAYOUT 7A9CE26C
+BUILD 9.2.5.43519
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001_lang
+Field_9_2_5_43519_002_lang
+$id$Field_9_2_5_43519_003<32>
+Field_9_2_5_43519_004<u16>
+Field_9_2_5_43519_005<u16>
+Field_9_2_5_43519_006<8>
+Field_9_2_5_43519_007<32>
+Field_9_2_5_43519_008<u32>
+Field_9_2_5_43519_009
+Field_9_2_5_43519_010<32>
+Field_9_2_5_43519_011<32>
+Field_9_2_5_43519_012<32>

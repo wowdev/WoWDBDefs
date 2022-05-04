@@ -23,6 +23,28 @@ int RepairGroundFx
 int DoNotHighlight
 int HealEffect
 int HealEffectSpeed
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+int Field_9_2_5_43519_012?
+int Field_9_2_5_43519_013?
+int Field_9_2_5_43519_014?
+int Field_9_2_5_43519_015?
+int Field_9_2_5_43519_016?
+int Field_9_2_5_43519_017?
+int Field_9_2_5_43519_018?
+int Field_9_2_5_43519_019?
+int Field_9_2_5_43519_020?
+int Field_9_2_5_43519_021?
 
 BUILD 3.1.0.9767-3.2.2.10505
 $id$ID<32>
@@ -276,3 +298,29 @@ State0NameSet<8>
 State1NameSet<8>
 State2NameSet<8>
 State3NameSet<8>
+
+LAYOUT 7BC9B1D9
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<8>
+Field_9_2_5_43519_001<u8>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<8>
+Field_9_2_5_43519_004<8>
+Field_9_2_5_43519_005<u8>
+Field_9_2_5_43519_006<32>
+Field_9_2_5_43519_007<8>
+Field_9_2_5_43519_008<8>
+Field_9_2_5_43519_009<u8>
+Field_9_2_5_43519_010<32>
+Field_9_2_5_43519_011<u8>
+Field_9_2_5_43519_012<u8>
+Field_9_2_5_43519_013<u8>
+Field_9_2_5_43519_014<u8>
+Field_9_2_5_43519_015<32>
+Field_9_2_5_43519_016<u8>
+Field_9_2_5_43519_017<u16>
+Field_9_2_5_43519_018<8>
+Field_9_2_5_43519_019<8>
+Field_9_2_5_43519_020<8>
+Field_9_2_5_43519_021<8>

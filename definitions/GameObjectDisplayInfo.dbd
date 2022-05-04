@@ -9,6 +9,11 @@ float OverrideLootEffectScale
 float OverrideNameScale
 float GeoBox
 string ModelName
+float Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+float Field_9_2_5_43519_003?
+float Field_9_2_5_43519_004?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.0.5991
@@ -124,3 +129,12 @@ FileDataID<32>
 ObjectEffectPackageID<16>
 OverrideLootEffectScale
 OverrideNameScale
+
+LAYOUT 7E33A93F
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000[6]
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<16>
+Field_9_2_5_43519_003
+Field_9_2_5_43519_004

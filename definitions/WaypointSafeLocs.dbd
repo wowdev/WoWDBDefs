@@ -2,6 +2,8 @@ COLUMNS
 int<WorldSafeLocs::ID> ID // These seem to be mirrored, so link for extra info
 float Pos
 int<Map::ID> MapID?
+float Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 LAYOUT 61C88F74, 8C6557FC
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -19,3 +21,9 @@ BUILD 8.1.5.29281, 8.1.5.29310, 8.1.5.29352, 8.1.5.29385, 8.1.5.29418, 8.1.5.294
 $noninline,id$ID<32>
 Pos[3]
 MapID<32>
+
+LAYOUT EB35FD5C
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000[3]
+Field_9_2_5_43519_001<32>

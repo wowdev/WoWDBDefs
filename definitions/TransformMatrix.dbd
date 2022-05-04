@@ -5,6 +5,11 @@ float Pos
 float Roll
 float Scale
 float Yaw
+float Field_9_2_5_43519_000?
+float Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
+float Field_9_2_5_43519_003?
+float Field_9_2_5_43519_004?
 
 LAYOUT B6A2C431, BA00B2FD, A90524CC
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -45,3 +50,12 @@ Yaw
 Pitch
 Roll
 Scale
+
+LAYOUT 92BCCC4C
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000[3]
+Field_9_2_5_43519_001
+Field_9_2_5_43519_002
+Field_9_2_5_43519_003
+Field_9_2_5_43519_004

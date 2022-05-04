@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int IlvlEpic
 int IlvlRare
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 LAYOUT 20055BA8, 89657A48, F46AC9F0
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -39,3 +41,9 @@ BUILD 1.13.0.28211
 $noninline,id$ID<32>
 IlvlRare<16>
 IlvlEpic<16>
+
+LAYOUT 4080CC90
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<16>
+Field_9_2_5_43519_001<16>

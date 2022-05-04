@@ -21,6 +21,21 @@ int MIDIAmbienceUnderwater
 int IntroPriority
 int InlineWMOID
 int Field_0_7_0_3694_010? // looks like an old flag map
+locstring Field_9_2_5_43519_000_lang?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+int Field_9_2_5_43519_012?
+int Field_9_2_5_43519_013?
+int Field_9_2_5_43519_014?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -226,3 +241,21 @@ IntroSound<u16>
 UwIntroSound<u16>
 AreaTableID<u16>
 Flags<u8>
+
+LAYOUT CD7AF6E0
+BUILD 9.2.5.43519
+Field_9_2_5_43519_000_lang
+$id$Field_9_2_5_43519_001<32>
+$relation$Field_9_2_5_43519_002<u16>
+Field_9_2_5_43519_003<u8>
+Field_9_2_5_43519_004<32>
+Field_9_2_5_43519_005<u8>
+Field_9_2_5_43519_006<u8>
+Field_9_2_5_43519_007<u16>
+Field_9_2_5_43519_008<u16>
+Field_9_2_5_43519_009<u16>
+Field_9_2_5_43519_010<u32>
+Field_9_2_5_43519_011<u16>
+Field_9_2_5_43519_012<u16>
+Field_9_2_5_43519_013<u16>
+Field_9_2_5_43519_014<u8>

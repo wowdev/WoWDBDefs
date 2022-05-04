@@ -11,6 +11,17 @@ int<ContentTuning::ID> ContentTuningID
 int<PlayerCondition::ID> Completed
 locstring DescriptionAlliance_lang
 locstring DescriptionHorde_lang
+locstring Field_9_2_5_43519_000_lang?
+locstring Field_9_2_5_43519_001_lang?
+locstring Field_9_2_5_43519_002_lang?
+locstring Field_9_2_5_43519_003_lang?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
 
 LAYOUT 774183A9
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714
@@ -92,3 +103,18 @@ AlreadyOn<32>
 ExpansionLevelMask<32>
 ContentTuningID<32>
 Completed<32>
+
+LAYOUT 53011113
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001_lang
+Field_9_2_5_43519_002_lang
+Field_9_2_5_43519_003_lang
+Field_9_2_5_43519_004<32>
+Field_9_2_5_43519_005<32>
+Field_9_2_5_43519_006<32>
+Field_9_2_5_43519_007<32>
+Field_9_2_5_43519_008<32>
+Field_9_2_5_43519_009<32>
+Field_9_2_5_43519_010<32>

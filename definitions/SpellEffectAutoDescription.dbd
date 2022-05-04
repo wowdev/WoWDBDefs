@@ -10,6 +10,15 @@ int SchoolMask
 int SpellEffectType
 int TargetType
 int OrderIndex?
+locstring Field_9_2_5_43519_000_lang?
+locstring Field_9_2_5_43519_001_lang?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
 
 LAYOUT 2DDC7B6B
 BUILD 8.0.1.25902
@@ -88,3 +97,16 @@ TargetType<8>
 SchoolMask<8>
 EffectOrderIndex<32>
 AuraOrderIndex<32>
+
+LAYOUT 6DCEA74D
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001_lang
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<32>
+Field_9_2_5_43519_004<8>
+Field_9_2_5_43519_005<8>
+Field_9_2_5_43519_006<8>
+Field_9_2_5_43519_007<32>
+Field_9_2_5_43519_008<32>

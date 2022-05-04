@@ -2,9 +2,17 @@ COLUMNS
 int ID
 int<MapChallengeMode::ID> MapChallengeModeID
 int<DisplaySeason::ID> DisplaySeasonID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 LAYOUT 67814426
 BUILD 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
 $noninline,id$ID<32>
 MapChallengeModeID<32>
 $noninline,relation$DisplaySeasonID<32>
+
+LAYOUT 5B26E537
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+$noninline,relation$Field_9_2_5_43519_001<32>

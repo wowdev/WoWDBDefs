@@ -3,6 +3,9 @@ int ID
 int AzeritePowerSetID
 int<AzeriteTierUnlockSet::ID> AzeriteTierUnlockSetID
 int<Item::ID> ItemID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 LAYOUT 56BBA841, 4078BECD, 611D9944
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -37,3 +40,10 @@ $noninline,id$ID<32>
 ItemID<32>
 AzeriteTierUnlockSetID<u32>
 AzeritePowerSetID<u32>
+
+LAYOUT A33729C4
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<u32>
+Field_9_2_5_43519_002<u32>

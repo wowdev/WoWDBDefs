@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<QuestV2::ID> LockedQuestID
 int<PlayerCondition::ID> VisiblePlayerConditionID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 LAYOUT D368532B
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -56,3 +58,9 @@ BUILD 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.353
 $noninline,id$ID<32>
 VisiblePlayerConditionID<u32>
 LockedQuestID<32>
+
+LAYOUT 501CD5A6
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u32>
+Field_9_2_5_43519_001<32>

@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<Item::ID> ItemID
 int<ChrSpecialization::ID> SpecID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -55,3 +57,9 @@ BUILD 1.14.0.39802, 1.14.0.39958, 1.14.0.40140, 1.14.0.40179, 1.14.0.40237, 1.14
 $noninline,id$ID<32>
 SpecID<u16>
 $noninline,relation$ItemID<32>
+
+LAYOUT D621A05B
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u16>
+$noninline,relation$Field_9_2_5_43519_001<32>

@@ -11,6 +11,15 @@ float Size_variation_max
 float Rotation_variation_min // in degrees
 float Rotation_variation_max // in degrees
 int<TerrainColorGradingRamp::ID> TerrainColorGradingRampID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
+float Field_9_2_5_43519_003?
+float Field_9_2_5_43519_004?
+float Field_9_2_5_43519_005?
+float Field_9_2_5_43519_006?
+float Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.4.3.8606
@@ -112,3 +121,16 @@ Size_variation_max
 Rotation_variation_min
 Rotation_variation_max
 TerrainColorGradingRampID<32>
+
+LAYOUT F592B773
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<u8>
+Field_9_2_5_43519_002
+Field_9_2_5_43519_003
+Field_9_2_5_43519_004
+Field_9_2_5_43519_005
+Field_9_2_5_43519_006
+Field_9_2_5_43519_007
+Field_9_2_5_43519_008<32>

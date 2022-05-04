@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<Item::ID> ItemID
 int<ItemConversion::ID> ItemConversionID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 LAYOUT FC502944
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -9,3 +11,9 @@ BUILD 9.2.0.41462, 9.2.0.41726, 9.2.0.41827, 9.2.0.41962, 9.2.0.42069, 9.2.0.421
 $noninline,id$ID<32>
 ItemID<32>
 $noninline,relation$ItemConversionID<32>
+
+LAYOUT FDC43755
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+$noninline,relation$Field_9_2_5_43519_001<32>

@@ -48,6 +48,45 @@ locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and
 locstring Hyphenated_name_female_lang?
 int Field_2_5_1_38043_011?
 int Field_2_5_4_42581_012?
+locstring Field_9_2_5_43519_000_lang?
+string Field_9_2_5_43519_001?
+locstring Field_9_2_5_43519_002_lang?
+locstring Field_9_2_5_43519_003_lang?
+string Field_9_2_5_43519_004?
+locstring Field_9_2_5_43519_005_lang?
+locstring Field_9_2_5_43519_006_lang?
+locstring Field_9_2_5_43519_007_lang?
+locstring Field_9_2_5_43519_008_lang?
+locstring Field_9_2_5_43519_009_lang?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+int Field_9_2_5_43519_012?
+int Field_9_2_5_43519_013?
+int Field_9_2_5_43519_014?
+int Field_9_2_5_43519_015?
+int Field_9_2_5_43519_016?
+int Field_9_2_5_43519_017?
+int Field_9_2_5_43519_018?
+int Field_9_2_5_43519_019?
+int Field_9_2_5_43519_020?
+int Field_9_2_5_43519_021?
+int Field_9_2_5_43519_022?
+int Field_9_2_5_43519_023?
+int Field_9_2_5_43519_024?
+int Field_9_2_5_43519_025?
+int Field_9_2_5_43519_026?
+int Field_9_2_5_43519_027?
+int Field_9_2_5_43519_028?
+int Field_9_2_5_43519_029?
+int Field_9_2_5_43519_030?
+int Field_9_2_5_43519_031?
+int Field_9_2_5_43519_032?
+int Field_9_2_5_43519_033?
+int Field_9_2_5_43519_034?
+int Field_9_2_5_43519_035?
+int Field_9_2_5_43519_036?
+int Field_9_2_5_43519_037?
+int Field_9_2_5_43519_038?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -891,3 +930,45 @@ SpellClassSet<u8>
 ClassColorR<u8>
 ClassColorG<u8>
 ClassColorB<u8>
+
+LAYOUT CD8CBEDA
+BUILD 9.2.5.43519
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001
+Field_9_2_5_43519_002_lang
+Field_9_2_5_43519_003_lang
+Field_9_2_5_43519_004
+Field_9_2_5_43519_005_lang
+Field_9_2_5_43519_006_lang
+Field_9_2_5_43519_007_lang
+Field_9_2_5_43519_008_lang
+Field_9_2_5_43519_009_lang
+$id$Field_9_2_5_43519_010<32>
+Field_9_2_5_43519_011<u32>
+Field_9_2_5_43519_012<u32>
+Field_9_2_5_43519_013<u32>
+Field_9_2_5_43519_014<u32>
+Field_9_2_5_43519_015<32>
+Field_9_2_5_43519_016<u32>
+Field_9_2_5_43519_017<u32>
+Field_9_2_5_43519_018<u32>
+Field_9_2_5_43519_019<32>
+Field_9_2_5_43519_020<32>
+Field_9_2_5_43519_021<32>
+Field_9_2_5_43519_022<32>
+Field_9_2_5_43519_023<32>
+Field_9_2_5_43519_024<32>
+Field_9_2_5_43519_025<32>
+Field_9_2_5_43519_026<32>
+Field_9_2_5_43519_027<32>
+Field_9_2_5_43519_028<u16>
+Field_9_2_5_43519_029<u16>
+Field_9_2_5_43519_030<u8>
+Field_9_2_5_43519_031<u8>
+Field_9_2_5_43519_032<u8>
+Field_9_2_5_43519_033<u8>
+Field_9_2_5_43519_034<u8>
+Field_9_2_5_43519_035<u8>
+Field_9_2_5_43519_036<u8>
+Field_9_2_5_43519_037<u8>
+Field_9_2_5_43519_038<u8>

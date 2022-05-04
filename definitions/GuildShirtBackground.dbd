@@ -4,6 +4,10 @@ int Component? // 0=au, 1=al, 3=tu, 4=tl
 int<FileData::ID> FileDataID?
 int ShirtID?
 int Color?
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
 
 LAYOUT 40AC6717, D833DA51
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -30,3 +34,11 @@ Component<32>
 FileDataID<32>
 ShirtID<32>
 $noninline,relation$Color<32>
+
+LAYOUT F7862CB0
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+$noninline,relation$Field_9_2_5_43519_003<32>

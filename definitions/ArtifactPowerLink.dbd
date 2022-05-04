@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int PowerA
 int PowerB
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 LAYOUT E179618C, BB7E3584, 823AE244
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -39,3 +41,9 @@ BUILD 1.13.0.28211
 $noninline,id$ID<32>
 PowerA<u16>
 PowerB<u16>
+
+LAYOUT D2E6E484
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u16>
+Field_9_2_5_43519_001<u16>

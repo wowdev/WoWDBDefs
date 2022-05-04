@@ -3,6 +3,9 @@ int ID
 int Type // lua WeeklyRewardChestThresholdType: 0: None, 1: MythicPlus (#completed), 2: RankedPVP (conquest points), 3: Raid (bosses), 4: AlsoReceive, 5: Concession
 int Index // for some reason, these are not unique. It appears that the *last* entry is used in game.
 int Threshold // prior to 34972, this column was hardcoded: by type and index: 1: [1, 5, 15], 2: [100, 150, 250], 3: [3, 7, 10]
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 LAYOUT F9A1BB19
 BUILD 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902
@@ -22,3 +25,10 @@ $noninline,id$ID<32>
 Type<32>
 Threshold<32>
 Index<32>
+
+LAYOUT BEF159C4
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>

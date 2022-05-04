@@ -2,6 +2,8 @@ COLUMNS
 int ID
 float Position?
 int<GarrTalent::ID> GarrTalentID?
+float Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 LAYOUT 11363DB5
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -14,3 +16,9 @@ BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.341
 $noninline,id$ID<32>
 Position[2]
 GarrTalentID<32>
+
+LAYOUT 75F07445
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000[2]
+Field_9_2_5_43519_001<32>

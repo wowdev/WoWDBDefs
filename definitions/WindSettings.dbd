@@ -10,6 +10,16 @@ float MaxStepMag
 float VarianceDir
 float VarianceMagOver
 float VarianceMagUnder
+float Field_9_2_5_43519_000?
+float Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
+float Field_9_2_5_43519_003?
+float Field_9_2_5_43519_004?
+float Field_9_2_5_43519_005?
+float Field_9_2_5_43519_006?
+float Field_9_2_5_43519_007?
+float Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -82,3 +92,17 @@ MaxStepMag
 Frequency
 Duration
 Flags<u8>
+
+LAYOUT E359B6F6
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000[3]
+Field_9_2_5_43519_001[3]
+Field_9_2_5_43519_002[3]
+Field_9_2_5_43519_003
+Field_9_2_5_43519_004
+Field_9_2_5_43519_005
+Field_9_2_5_43519_006
+Field_9_2_5_43519_007
+Field_9_2_5_43519_008
+Field_9_2_5_43519_009<u8>

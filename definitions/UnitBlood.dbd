@@ -9,6 +9,12 @@ int<SpellVisualKit::ID> PlayerCritBloodSpurtID
 int<SpellVisualKit::ID> PlayerHitBloodSpurtID
 int<SpellVisualKit::ID> PlayerOmniCritBloodSpurtID
 int<SpellVisualKit::ID> PlayerOmniHitBloodSpurtID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
 
 LAYOUT 7C4875FB
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -87,3 +93,13 @@ DefaultBloodSpurtID<u32>
 PlayerOmniCritBloodSpurtID<u32>
 PlayerOmniHitBloodSpurtID<u32>
 DefaultOmniBloodSpurtID<u32>
+
+LAYOUT 0FF08208
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u32>
+Field_9_2_5_43519_001<u32>
+Field_9_2_5_43519_002<u32>
+Field_9_2_5_43519_003<u32>
+Field_9_2_5_43519_004<u32>
+Field_9_2_5_43519_005<u32>

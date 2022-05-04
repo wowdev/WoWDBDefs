@@ -4,6 +4,10 @@ int<PositionerState::ID> FirstStateID
 int Flags // &2: ignore some begin, end given, probably some time thing from a parent?
 float StartLife
 int StartLifePercent
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
 
 LAYOUT E830F1B1, E9A6F641
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -51,3 +55,11 @@ FirstStateID<u16>
 Flags<u8>
 StartLife
 StartLifePercent<u8>
+
+LAYOUT CBBBBD15
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u16>
+Field_9_2_5_43519_001<u8>
+Field_9_2_5_43519_002
+Field_9_2_5_43519_003<u8>

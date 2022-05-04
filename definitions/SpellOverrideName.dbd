@@ -3,6 +3,9 @@ int ID
 locstring OverrideName_lang
 int Flags
 locstring Field_9_1_0_38709_001_lang?
+locstring Field_9_2_5_43519_000_lang?
+locstring Field_9_2_5_43519_001_lang?
+int Field_9_2_5_43519_002?
 
 LAYOUT 85E985A7, B6F641E6
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524, 9.1.0.38549, 9.1.0.38600, 9.1.0.38627
@@ -27,3 +30,10 @@ $noninline,id$ID<32>
 OverrideName_lang
 Field_9_1_0_38709_001_lang
 Flags<32>
+
+LAYOUT C38F6613
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001_lang
+Field_9_2_5_43519_002<32>

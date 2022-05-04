@@ -7,6 +7,12 @@ locstring Name_lang
 int MaxCharges
 int ChargeRecoveryTime
 int TypeMask
+locstring Field_9_2_5_43519_000_lang?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.1.0.13875
@@ -90,3 +96,13 @@ UsesPerWeek<u8>
 MaxCharges<8>
 ChargeRecoveryTime<32>
 TypeMask<32>
+
+LAYOUT 8C8A2CFC
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001<8>
+Field_9_2_5_43519_002<u8>
+Field_9_2_5_43519_003<8>
+Field_9_2_5_43519_004<32>
+Field_9_2_5_43519_005<32>

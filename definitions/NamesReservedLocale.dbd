@@ -2,6 +2,8 @@ COLUMNS
 int ID
 string Name
 int LocaleMask
+string Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 BUILD 6.0.1.18179
 BUILD 5.2.0.16516-5.4.8.18414
@@ -50,3 +52,9 @@ BUILD 1.14.0.39802, 1.14.0.39958, 1.14.0.40140, 1.14.0.40179, 1.14.0.40237, 1.14
 $noninline,id$ID<32>
 Name
 LocaleMask<u8>
+
+LAYOUT 4FC995DF
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000
+Field_9_2_5_43519_001<u8>

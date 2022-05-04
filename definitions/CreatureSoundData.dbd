@@ -39,6 +39,44 @@ int<SoundEntries::ID> ChargeSoundID
 int<SoundEntries::ID> TauntSoundID
 int<SoundEntries::ID> WindupCriticalSoundID
 int<SoundEntries::ID> WindupSoundID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+int Field_9_2_5_43519_012?
+int Field_9_2_5_43519_013?
+int Field_9_2_5_43519_014?
+int Field_9_2_5_43519_015?
+int Field_9_2_5_43519_016?
+int Field_9_2_5_43519_017?
+int Field_9_2_5_43519_018?
+int Field_9_2_5_43519_019?
+int Field_9_2_5_43519_020?
+int Field_9_2_5_43519_021?
+int Field_9_2_5_43519_022?
+int Field_9_2_5_43519_023?
+int Field_9_2_5_43519_024?
+int Field_9_2_5_43519_025?
+int Field_9_2_5_43519_026?
+int Field_9_2_5_43519_027?
+int Field_9_2_5_43519_028?
+int Field_9_2_5_43519_029?
+int Field_9_2_5_43519_030?
+int Field_9_2_5_43519_031?
+float Field_9_2_5_43519_032?
+float Field_9_2_5_43519_033?
+int Field_9_2_5_43519_034?
+int Field_9_2_5_43519_035?
+int Field_9_2_5_43519_036?
+int Field_9_2_5_43519_037?
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368
@@ -462,3 +500,44 @@ CreatureImpactType<u8>
 NPCSoundID<u32>
 SoundFidget<u32>[5]
 CustomAttack<u32>[4]
+
+LAYOUT 0FE7B1EC
+BUILD 9.2.5.43519
+$id$Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<u32>
+Field_9_2_5_43519_002<u32>
+Field_9_2_5_43519_003<u32>
+Field_9_2_5_43519_004<u32>
+Field_9_2_5_43519_005<u32>
+Field_9_2_5_43519_006<u32>
+Field_9_2_5_43519_007<u32>
+Field_9_2_5_43519_008<u32>
+Field_9_2_5_43519_009<u32>
+Field_9_2_5_43519_010<u32>
+Field_9_2_5_43519_011<u32>
+Field_9_2_5_43519_012<u32>
+Field_9_2_5_43519_013<u32>
+Field_9_2_5_43519_014<u32>
+Field_9_2_5_43519_015<u32>
+Field_9_2_5_43519_016<u32>
+Field_9_2_5_43519_017<u32>
+Field_9_2_5_43519_018<u32>
+Field_9_2_5_43519_019<u32>
+Field_9_2_5_43519_020<u32>
+Field_9_2_5_43519_021<u32>
+Field_9_2_5_43519_022<u32>
+Field_9_2_5_43519_023<u32>
+Field_9_2_5_43519_024<u32>
+Field_9_2_5_43519_025<u32>
+Field_9_2_5_43519_026<u32>
+Field_9_2_5_43519_027<u32>
+Field_9_2_5_43519_028<u32>
+Field_9_2_5_43519_029<u32>
+Field_9_2_5_43519_030<u32>
+Field_9_2_5_43519_031<u32>
+Field_9_2_5_43519_032
+Field_9_2_5_43519_033
+Field_9_2_5_43519_034<u8>
+Field_9_2_5_43519_035<u32>
+Field_9_2_5_43519_036<u32>[5]
+Field_9_2_5_43519_037<u32>[4]

@@ -2,6 +2,9 @@ COLUMNS
 int ID
 int<Spell::ID> SpellID
 int<MawPowerRarity::ID> MawPowerRarityID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 LAYOUT F1DCAFC6
 BUILD 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482
@@ -19,3 +22,9 @@ BUILD 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755, 9.0.1.357
 $id$ID<32>
 $relation$SpellID<32>
 MawPowerRarityID<32>
+
+LAYOUT E03BF02A
+BUILD 9.2.5.43519
+$id$Field_9_2_5_43519_000<32>
+$relation$Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>

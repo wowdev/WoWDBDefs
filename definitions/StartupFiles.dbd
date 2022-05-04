@@ -3,6 +3,9 @@ int ID
 int BytesRequired
 int<FileData::ID> FileDataID
 int Locale
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 LAYOUT 51FEBBB5, F1381769, 368EADE0
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -41,3 +44,10 @@ $noninline,id$ID<32>
 FileDataID<32>
 Locale<32>
 BytesRequired<32>
+
+LAYOUT 0DB4CD60
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>

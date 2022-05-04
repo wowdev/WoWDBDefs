@@ -3,6 +3,9 @@ int ID
 int<ObjectEffectPackage::ID> ObjectEffectPackageID
 int<ObjectEffectGroup::ID> ObjectEffectGroupID
 int StateType
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -54,3 +57,10 @@ $noninline,id$ID<32>
 ObjectEffectPackageID<u16>
 ObjectEffectGroupID<u16>
 StateType<u16>
+
+LAYOUT 4136FE8E
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u16>
+Field_9_2_5_43519_001<u16>
+Field_9_2_5_43519_002<u16>

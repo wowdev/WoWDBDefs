@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<Contribution::ID> ContributionID
 int<Creature::ID> CreatureID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
 
 LAYOUT 4626C791
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -55,3 +57,9 @@ BUILD 9.1.0.38549, 9.1.0.38600, 9.1.0.38627, 9.1.0.38709, 9.1.0.38783, 9.1.0.388
 $noninline,id$ID<32>
 ContributionID<32>
 $noninline,relation$CreatureID<32>
+
+LAYOUT 08F0A453
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+$noninline,relation$Field_9_2_5_43519_001<32>

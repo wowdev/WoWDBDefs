@@ -3,6 +3,9 @@ int ID
 int ItemLevel
 float Armor
 float Weapon
+int Field_9_2_5_43519_000?
+float Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -56,3 +59,10 @@ $noninline,id$ID<32>
 ItemLevel<u16>
 Armor
 Weapon
+
+LAYOUT AA32653C
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u16>
+Field_9_2_5_43519_001
+Field_9_2_5_43519_002

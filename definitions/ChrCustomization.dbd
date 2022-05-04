@@ -7,6 +7,13 @@ locstring Name_lang
 int<ChrRaces::ID> RaceID
 int Sex
 int UiCustomizationType
+locstring Field_9_2_5_43519_000_lang?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
 
 LAYOUT 71833CE5
 BUILD 8.0.1.25902, 8.0.1.25976
@@ -69,3 +76,14 @@ UiCustomizationType<32>
 Flags<32>
 ComponentSection<32>[3]
 $noninline,relation$RaceID<32>
+
+LAYOUT 3E81F9D4
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<32>
+Field_9_2_5_43519_004<32>
+Field_9_2_5_43519_005<32>[3]
+$noninline,relation$Field_9_2_5_43519_006<32>

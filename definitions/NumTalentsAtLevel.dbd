@@ -5,6 +5,9 @@ int NumTalentsDeathKnight
 int NumTalentsDemonHunter
 int Level?
 float NumberOfTalents? // NumTalents but type is different
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 BUILD 4.0.0.12539-4.3.4.15595
 Level<32>
@@ -50,3 +53,10 @@ $noninline,id$ID<32>
 NumTalents<32>
 NumTalentsDeathKnight<32>
 NumTalentsDemonHunter<32>
+
+LAYOUT C31BC15A
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>

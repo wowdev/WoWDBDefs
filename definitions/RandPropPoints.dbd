@@ -10,6 +10,16 @@ float DamageSecondaryF?
 float EpicF?
 float SuperiorF?
 float GoodF?
+float Field_9_2_5_43519_000?
+float Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+float Field_9_2_5_43519_004?
+float Field_9_2_5_43519_005?
+float Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
 
 LAYOUT 77DE4FE0
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -102,3 +112,17 @@ GoodF[5]
 Epic<u32>[5]
 Superior<u32>[5]
 Good<u32>[5]
+
+LAYOUT C35A699D
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000
+Field_9_2_5_43519_001
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<32>
+Field_9_2_5_43519_004[5]
+Field_9_2_5_43519_005[5]
+Field_9_2_5_43519_006[5]
+Field_9_2_5_43519_007<u32>[5]
+Field_9_2_5_43519_008<u32>[5]
+Field_9_2_5_43519_009<u32>[5]

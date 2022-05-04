@@ -1,6 +1,7 @@
 COLUMNS
 int ID
 int<GMSurveyQuestions::ID> Q
+int Field_9_2_5_43519_000?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.1.0.13875
@@ -52,3 +53,8 @@ BUILD 1.13.2.30073, 1.13.2.30112, 1.13.2.30113, 1.13.2.30128, 1.13.2.30172, 1.13
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
 Q<u8>[15]
+
+LAYOUT 808736D1
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u8>[15]

@@ -8,6 +8,14 @@ int<CurrencyTypes::ID> CurrencyTypeID
 int MaxAmount
 int MinAmount
 int<SpellVisualKit::ID> OnLootSpellVisualKitID
+locstring Field_9_2_5_43519_000_lang?
+locstring Field_9_2_5_43519_001_lang?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
 
 LAYOUT 1255E7A8, CDA1CC8C
 BUILD 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491
@@ -58,3 +66,15 @@ ContainerIconID<32>
 ContainerQuality<32>
 OnLootSpellVisualKitID<32>
 $noninline,relation$CurrencyTypeID<32>
+
+LAYOUT 43B60080
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001_lang
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<32>
+Field_9_2_5_43519_004<32>
+Field_9_2_5_43519_005<32>
+Field_9_2_5_43519_006<32>
+$noninline,relation$Field_9_2_5_43519_007<32>

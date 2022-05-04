@@ -3,6 +3,9 @@ int ID
 int Level
 float Min
 float Max
+int Field_9_2_5_43519_000?
+float Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
 
 LAYOUT D2F6D8BE, 3DAA93B7
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -22,3 +25,10 @@ $noninline,id$ID<32>
 Level<32>
 Min
 Max
+
+LAYOUT 722797C7
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001
+Field_9_2_5_43519_002

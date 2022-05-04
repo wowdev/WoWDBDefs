@@ -15,6 +15,12 @@ int Field_7_3_2_25549_002?
 int Field_7_3_2_25549_003?
 int Field_7_3_2_25549_004?
 int Field_7_3_2_25549_005?
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
 
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885
@@ -104,3 +110,13 @@ Operator<u8>[5]
 Rt_operandType<u8>[5]
 Rt_operand<u8>[5]
 Logic<u8>[5]
+
+LAYOUT C1340327
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<u8>[5]
+Field_9_2_5_43519_001<u32>[5]
+Field_9_2_5_43519_002<u8>[5]
+Field_9_2_5_43519_003<u8>[5]
+Field_9_2_5_43519_004<u8>[5]
+Field_9_2_5_43519_005<u8>[5]

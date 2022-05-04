@@ -18,6 +18,22 @@ float AlteredFormCustomizeRotation? // Fall back to ChrRaces if not set
 float ChrModel_9_0_1_35522_001Override? // moved to ChrClassUIChrModelInfo
 float ChrModel_9_0_1_35522_001Override_Female? // moved to ChrClassUIChrModelInfo
 int CharacterCreationAnimLoopWaitTimeMs // fall back to column in ChrClasses if notset
+locstring Field_9_2_5_43519_000_lang?
+float Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
+float Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+int Field_9_2_5_43519_012?
+float Field_9_2_5_43519_013?
+int Field_9_2_5_43519_014?
+int Field_9_2_5_43519_015?
 
 LAYOUT CC89E761
 BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
@@ -174,3 +190,23 @@ AlteredFormCharacterCreationIdleVisual<32>
 AlteredFormCustomizeRotation
 CharacterCreationAnimLoopWaitTimeMs<32>
 $noninline,relation$ChrRacesID<32>
+
+LAYOUT 00B44453
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001[3]
+Field_9_2_5_43519_002[3]
+Field_9_2_5_43519_003[3]
+Field_9_2_5_43519_004<u8>
+Field_9_2_5_43519_005<32>
+Field_9_2_5_43519_006<32>
+Field_9_2_5_43519_007<32>
+Field_9_2_5_43519_008<32>
+Field_9_2_5_43519_009<32>
+Field_9_2_5_43519_010<32>
+Field_9_2_5_43519_011<32>
+Field_9_2_5_43519_012<32>
+Field_9_2_5_43519_013
+Field_9_2_5_43519_014<32>
+$noninline,relation$Field_9_2_5_43519_015<32>

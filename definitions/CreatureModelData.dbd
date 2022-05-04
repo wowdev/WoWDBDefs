@@ -43,6 +43,37 @@ string AnimModelName
 int MountScaleOtherIndex? // self.CDI.scale * self.MountScaleSelf * otherCMD.MountScaleOther[MountScaleOtherIndex]
 float MountScaleSelf?
 float MountScaleOther?
+float Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+float Field_9_2_5_43519_005?
+float Field_9_2_5_43519_006?
+float Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
+int Field_9_2_5_43519_012?
+float Field_9_2_5_43519_013?
+float Field_9_2_5_43519_014?
+float Field_9_2_5_43519_015?
+int Field_9_2_5_43519_016?
+float Field_9_2_5_43519_017?
+float Field_9_2_5_43519_018?
+float Field_9_2_5_43519_019?
+float Field_9_2_5_43519_020?
+float Field_9_2_5_43519_021?
+float Field_9_2_5_43519_022?
+float Field_9_2_5_43519_023?
+float Field_9_2_5_43519_024?
+float Field_9_2_5_43519_025?
+float Field_9_2_5_43519_026?
+float Field_9_2_5_43519_027?
+int Field_9_2_5_43519_028?
+float Field_9_2_5_43519_029?
+float Field_9_2_5_43519_030?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -568,3 +599,38 @@ TamedPetBaseScale
 MountScaleOtherIndex<8>
 MountScaleSelf
 MountScaleOther[2]
+
+LAYOUT EDDF3253
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000[6]
+Field_9_2_5_43519_001<u32>
+Field_9_2_5_43519_002<u32>
+Field_9_2_5_43519_003<u32>
+Field_9_2_5_43519_004<u32>
+Field_9_2_5_43519_005
+Field_9_2_5_43519_006
+Field_9_2_5_43519_007
+Field_9_2_5_43519_008<u32>
+Field_9_2_5_43519_009<u32>
+Field_9_2_5_43519_010<u32>
+Field_9_2_5_43519_011<u32>
+Field_9_2_5_43519_012<u32>
+Field_9_2_5_43519_013
+Field_9_2_5_43519_014
+Field_9_2_5_43519_015
+Field_9_2_5_43519_016<u32>
+Field_9_2_5_43519_017
+Field_9_2_5_43519_018
+Field_9_2_5_43519_019
+Field_9_2_5_43519_020
+Field_9_2_5_43519_021
+Field_9_2_5_43519_022
+Field_9_2_5_43519_023
+Field_9_2_5_43519_024
+Field_9_2_5_43519_025
+Field_9_2_5_43519_026
+Field_9_2_5_43519_027
+Field_9_2_5_43519_028<8>
+Field_9_2_5_43519_029
+Field_9_2_5_43519_030[2]

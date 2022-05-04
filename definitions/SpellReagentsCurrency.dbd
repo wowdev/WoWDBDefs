@@ -3,6 +3,9 @@ int ID
 int CurrencyCount
 int<CurrencyTypes::ID> CurrencyTypesID
 int<Spell::ID> SpellID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
 
 LAYOUT 90A5E5D2, 4D3F01C6, 1D2927F1
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -41,3 +44,10 @@ $noninline,id$ID<32>
 $relation$SpellID<32>
 CurrencyTypesID<u16>
 CurrencyCount<u16>
+
+LAYOUT A7C3638C
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+$relation$Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<u16>
+Field_9_2_5_43519_002<u16>

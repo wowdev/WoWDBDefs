@@ -5,6 +5,12 @@ int<PlayerCondition::ID> ConditionID
 int Flags // &1: do not recurse
 int Order
 int<LoreTextPublic::LoreTextID> ParentID // if condition is not set or does not match or matches but flag 1 is not set, continue down
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
 
 LAYOUT 19A70CF2
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -20,3 +26,12 @@ ConditionID<32>
 Flags<u8>
 Order<32>
 $noninline,relation$ParentID<32>
+
+LAYOUT 54EE4E73
+BUILD 9.2.5.43519
+$id$Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<u8>
+Field_9_2_5_43519_004<32>
+$noninline,relation$Field_9_2_5_43519_005<32>

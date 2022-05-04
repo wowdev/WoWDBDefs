@@ -5,6 +5,10 @@ int<ExpectedStatMod::ID> ExpectedStatModID?
 int<MythicPlusSeason::ID> MythicPlusSeasonID?
 int<MythicPlusSeason::ID> MinMythicPlusSeasonID? // comparison to current season done using MythicPlusSeason::SubSeason field
 int<MythicPlusSeason::ID> MaxMythicPlusSeasonID? // comparison to current season done using MythicPlusSeason::SubSeason field
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
 
 LAYOUT A87DE567, 290CE275
 BUILD 8.3.0.32044, 8.3.0.32151, 8.3.0.32203, 8.3.0.32218, 8.3.0.32272
@@ -36,3 +40,11 @@ ExpectedStatModID<32>
 MinMythicPlusSeasonID<32>
 MaxMythicPlusSeasonID<32>
 $noninline,relation$ContentTuningID<32>
+
+LAYOUT 886CD205
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+$noninline,relation$Field_9_2_5_43519_003<32>

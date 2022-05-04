@@ -11,6 +11,18 @@ int PropValue
 float Rot
 float Scale
 int TypeID
+locstring Field_9_2_5_43519_000_lang?
+float Field_9_2_5_43519_001?
+float Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+float Field_9_2_5_43519_006?
+int Field_9_2_5_43519_007?
+int Field_9_2_5_43519_008?
+int Field_9_2_5_43519_009?
+int Field_9_2_5_43519_010?
+int Field_9_2_5_43519_011?
 
 LAYOUT 0FD961D7
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -155,3 +167,18 @@ PhaseUseFlags<32>
 PhaseID<32>
 PhaseGroupID<32>
 PropValue<32>[8]
+
+LAYOUT E1536F72
+BUILD 9.2.5.43519
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001[3]
+Field_9_2_5_43519_002[4]
+$id$Field_9_2_5_43519_003<32>
+$relation$Field_9_2_5_43519_004<32>
+Field_9_2_5_43519_005<32>
+Field_9_2_5_43519_006
+Field_9_2_5_43519_007<32>
+Field_9_2_5_43519_008<32>
+Field_9_2_5_43519_009<32>
+Field_9_2_5_43519_010<32>
+Field_9_2_5_43519_011<32>[8]

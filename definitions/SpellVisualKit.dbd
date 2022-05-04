@@ -53,6 +53,11 @@ float CharacterParam
 int CharacterProcedure
 int ClutterLevel // When displaying an effect, use this as an index into the correspondin SpellClutter* dbs.
 int Field_7_3_2_25549_001?
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -337,3 +342,12 @@ FallbackSpellVisualKitID<32>
 DelayMin<u16>
 DelayMax<u16>
 Flags<32>[2]
+
+LAYOUT A2B96B8A
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000<8>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<u16>
+Field_9_2_5_43519_003<u16>
+Field_9_2_5_43519_004<32>[2]

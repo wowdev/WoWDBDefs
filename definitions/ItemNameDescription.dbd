@@ -2,6 +2,8 @@ COLUMNS
 int ID
 locstring Description_lang
 int Color
+locstring Field_9_2_5_43519_000_lang?
+int Field_9_2_5_43519_001?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -46,3 +48,9 @@ BUILD 1.13.0.28211
 $noninline,id$ID<32>
 Description_lang
 Color<32>
+
+LAYOUT B60E60BD
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001<32>

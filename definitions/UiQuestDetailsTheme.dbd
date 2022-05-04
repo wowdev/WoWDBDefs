@@ -4,6 +4,10 @@ locstring Signature_lang
 int<UiTextureAtlasElement::ID> BackgroundTexture
 int<UiTextureAtlasElement::ID> SealTexture
 int<UiTextureAtlasElement::ID> PoiIcon
+locstring Field_9_2_5_43519_000_lang?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
 
 LAYOUT DFF2A61D
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524, 9.1.0.38549, 9.1.0.38600
@@ -25,3 +29,11 @@ Signature_lang
 BackgroundTexture<32>
 SealTexture<32>
 PoiIcon<32>
+
+LAYOUT AF517528
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<32>

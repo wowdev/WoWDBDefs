@@ -4,6 +4,10 @@ int GameObjectAnimGroupID
 int<GameObjects::ID> GameObjectID
 int Flags // &1: IsParentOfThisGroup; there has to be exactly one parent per group
 int<AnimationData::ID> AnimationID
+int Field_9_2_5_43519_000?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
 
 LAYOUT C165C488
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -18,3 +22,11 @@ $relation$GameObjectAnimGroupID<32>
 GameObjectID<32>
 Flags<u32>
 AnimationID<u32>
+
+LAYOUT 375C3387
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+$relation$Field_9_2_5_43519_000<32>
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<u32>
+Field_9_2_5_43519_003<u32>

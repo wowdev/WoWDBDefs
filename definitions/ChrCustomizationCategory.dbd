@@ -8,6 +8,14 @@ int CameraZoomLevel?
 int Flags? // 1 = UndressModel
 int<SpellShapeshiftForm::ID> SpellShapeshiftFormID?
 float CameraDistanceOffset?
+locstring Field_9_2_5_43519_000_lang?
+int Field_9_2_5_43519_001?
+int Field_9_2_5_43519_002?
+int Field_9_2_5_43519_003?
+int Field_9_2_5_43519_004?
+int Field_9_2_5_43519_005?
+int Field_9_2_5_43519_006?
+float Field_9_2_5_43519_007?
 
 LAYOUT E5D63E94
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -59,3 +67,15 @@ CameraZoomLevel<32>
 Flags<32>
 SpellShapeshiftFormID<32>
 CameraDistanceOffset
+
+LAYOUT 885434EF
+BUILD 9.2.5.43519
+$noninline,id$ID<32>
+Field_9_2_5_43519_000_lang
+Field_9_2_5_43519_001<32>
+Field_9_2_5_43519_002<32>
+Field_9_2_5_43519_003<32>
+Field_9_2_5_43519_004<32>
+Field_9_2_5_43519_005<32>
+Field_9_2_5_43519_006<32>
+Field_9_2_5_43519_007
