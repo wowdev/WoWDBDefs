@@ -3,9 +3,6 @@ int ID
 int GeosetType?
 int GeosetID?
 int Modifier?
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 LAYOUT F1B919BA
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -31,6 +28,6 @@ Modifier<32>
 LAYOUT 9D95412A
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
+GeosetType<32>
+GeosetID<32>
+Modifier<32>

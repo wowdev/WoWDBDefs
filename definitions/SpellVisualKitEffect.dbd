@@ -3,9 +3,6 @@ int ID
 int Effect // 1: SpellProceduralEffectID, 2: SpellVisualKitModelAttachID, 3: CameraEffectID, 4: also camera related, 5: SoundKitID, 6: SpellVisualAnimID, 7: ShadowyEffectID, 8: SpellEffectEmissionID, 9: OutlineEffectID, 10: unit sound id?, 11: DissolveEffectID, 12: EdgeFlowEffectID, 13: BeamEffectID, 14: ClientSceneEffectID, 15: CloneEffectID, 16: GradientEffectID, 17: BarrageEffectID, 18: RopeEffectID, 19: SpellVisualScreenEffectID
 int EffectType
 int<SpellVisualKit::ID> ParentSpellVisualKitID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 LAYOUT 8AD4C267
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475, 2.5.1.39603, 2.5.1.39640
@@ -67,6 +64,6 @@ $noninline,relation$ParentSpellVisualKitID<32>
 LAYOUT 5D2E222A
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-$noninline,relation$Field_9_2_5_43519_002<32>
+EffectType<32>
+Effect<32>
+$noninline,relation$ParentSpellVisualKitID<32>

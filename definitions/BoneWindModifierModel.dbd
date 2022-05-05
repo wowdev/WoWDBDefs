@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int<BoneWindModifiers::ID> BoneWindModifierID
 int<FileData::ID> FileDataID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 LAYOUT 577A0772, 77B007CA, 7672F976
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -45,5 +43,5 @@ BoneWindModifierID<32>
 LAYOUT 1487387B
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-$relation$Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
+$relation$FileDataID<32>
+BoneWindModifierID<32>

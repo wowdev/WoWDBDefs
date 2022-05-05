@@ -11,17 +11,6 @@ int<ScenarioStep::ID> Supersedes
 int<QuestV2::ID> RewardQuestID
 int<PlayerCondition::ID> VisibilityPlayerConditionID
 int WidgetSetID
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
 
 LAYOUT 2E81EBA9
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -191,14 +180,14 @@ WidgetSetID<u16>
 LAYOUT 12DAED63
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-$relation$Field_9_2_5_43519_002<u16>
-Field_9_2_5_43519_003<u32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<u16>
-Field_9_2_5_43519_007<u8>
-Field_9_2_5_43519_008<u8>
-Field_9_2_5_43519_009<u32>
-Field_9_2_5_43519_010<u16>
+Description_lang
+Title_lang
+$relation$ScenarioID<u16>
+CriteriatreeID<u32>
+RewardQuestID<32>
+RelatedStep<32>
+Supersedes<u16>
+OrderIndex<u8>
+Flags<u8>
+VisibilityPlayerConditionID<u32>
+WidgetSetID<u16>

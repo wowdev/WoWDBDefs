@@ -2,7 +2,6 @@ COLUMNS
 int ID
 int GuildLevel
 int<Spell::ID> SpellID
-int Field_9_2_5_43519_000?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -50,4 +49,4 @@ SpellID<32>
 LAYOUT 465F6F2A
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
+SpellID<32>

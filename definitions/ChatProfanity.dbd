@@ -2,8 +2,6 @@ COLUMNS
 int ID
 string Text
 int Language
-string Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.0.0.3980-1.12.3.6141
@@ -67,5 +65,5 @@ Language<8>
 LAYOUT F05E7E22
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000
-Field_9_2_5_43519_001<8>
+Text
+Language<8>

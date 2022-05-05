@@ -10,16 +10,6 @@ int OutAnimType
 int WidgetScale // UIWidgetScale 0 = OneHundred, 1 = Ninty, 2 = Eighty, 3 = Seventy, 4 = Sixty, 5 = Fifty
 int<UIScriptedAnimationEffect::ID> ScriptedAnimationEffectID
 int ModelSceneLayer // UIWidgetModelSceneLayer 0 = None, 1 = Front, 2 = Back
-string Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
 
 LAYOUT 6DCD2EF3
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -147,13 +137,13 @@ ModelSceneLayer<u8>
 LAYOUT C3CDAA95
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000
-Field_9_2_5_43519_001<u8>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<16>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<u8>
-Field_9_2_5_43519_008<32>
-Field_9_2_5_43519_009<u8>
+Name
+VisType<u8>
+TextureKit<32>
+FrameTextureKit<32>
+SizeSetting<16>
+InAnimType<32>
+OutAnimType<32>
+WidgetScale<u8>
+ScriptedAnimationEffectID<32>
+ModelSceneLayer<u8>

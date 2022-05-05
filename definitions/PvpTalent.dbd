@@ -12,15 +12,6 @@ int<ChrClasses::ID> ClassID
 int Field_1_13_0_28211_005?
 int Field_1_13_0_28211_006?
 int Field_1_13_0_28211_010?
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
 
 LAYOUT E009F30C
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
@@ -174,12 +165,12 @@ LevelRequired<32>
 
 LAYOUT 7150D804
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000_lang
-$id$Field_9_2_5_43519_001<32>
-$relation$Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<32>
+Description_lang
+$id$ID<32>
+$relation$SpecID<32>
+SpellID<32>
+OverridesSpellID<32>
+Flags<32>
+ActionBarSpellID<32>
+PvpTalentCategoryID<32>
+LevelRequired<32>

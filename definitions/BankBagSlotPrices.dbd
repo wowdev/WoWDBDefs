@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int Cost
-int Field_9_2_5_43519_000?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -55,4 +54,4 @@ Cost<u32>
 LAYOUT 972171FF
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u32>
+Cost<u32>

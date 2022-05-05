@@ -6,12 +6,6 @@ int PassiveHighlightColorID
 int Priority
 float Range
 int<UnitCondition::ID> UnitConditionID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-float Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
 
 LAYOUT 466B2BC4
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141
@@ -67,9 +61,9 @@ UnitConditionID<u32>[2]
 LAYOUT B94FB0E3
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u32>
-Field_9_2_5_43519_001<u32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004
-Field_9_2_5_43519_005<u32>[2]
+PassiveHighlightColorID<u32>
+HighlightColorID<u32>
+Priority<32>
+Flags<32>
+Range
+UnitConditionID<u32>[2]

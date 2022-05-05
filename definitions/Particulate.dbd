@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int<Map::ID> MapID?
 int<PlayerCondition::ID> PlayerConditionID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 LAYOUT 41991AD7
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -28,5 +26,5 @@ PlayerConditionID<32>
 LAYOUT 2203AD67
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
+MapID<32>
+PlayerConditionID<32>

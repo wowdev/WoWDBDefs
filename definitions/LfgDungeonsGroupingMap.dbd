@@ -3,9 +3,6 @@ int ID
 int<LFGDungeons::ID> LfgDungeonsID
 int<LFGDungeons::ID> Random_lfgDungeonsID
 int Group_ID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -68,6 +65,6 @@ $noninline,relation$LfgDungeonsID<32>
 LAYOUT 3538AE33
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u16>
-Field_9_2_5_43519_001<u8>
-$noninline,relation$Field_9_2_5_43519_002<32>
+Random_lfgDungeonsID<u16>
+Group_ID<u8>
+$noninline,relation$LfgDungeonsID<32>

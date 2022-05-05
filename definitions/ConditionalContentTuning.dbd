@@ -4,10 +4,6 @@ int OrderIndex
 int<ContentTuning::ID> ReplacementTuning
 int ConditionMask // Given a NormalTuning client checks for a given condition flag, first matching record determines ReplacementTuning, or fall back to NormalTuning if none exists.
 int<ContentTuning::ID> NormalTuning
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 LAYOUT 209DE3DD
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -26,7 +22,7 @@ $noninline,relation$NormalTuning<32>
 LAYOUT 8DF8B6EC
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-$noninline,relation$Field_9_2_5_43519_003<32>
+OrderIndex<32>
+ReplacementTuning<32>
+ConditionMask<32>
+$noninline,relation$NormalTuning<32>

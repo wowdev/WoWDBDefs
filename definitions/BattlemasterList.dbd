@@ -21,23 +21,6 @@ int Field_2_4_0_8089_009?
 int Field_3_0_3_9183_010?
 int Field_2_0_0_5610_006?
 int Field_2_0_0_5610_005?
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-locstring Field_9_2_5_43519_002_lang?
-locstring Field_9_2_5_43519_003_lang?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-int Field_9_2_5_43519_011?
-int Field_9_2_5_43519_012?
-int Field_9_2_5_43519_013?
-int Field_9_2_5_43519_014?
-int Field_9_2_5_43519_015?
-int Field_9_2_5_43519_016?
 
 LAYOUT 1DAAA212
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -382,20 +365,20 @@ MapID<16>[16]
 LAYOUT E162FCC0
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002_lang
-Field_9_2_5_43519_003_lang
-Field_9_2_5_43519_004<8>
-Field_9_2_5_43519_005<8>
-Field_9_2_5_43519_006<8>
-Field_9_2_5_43519_007<8>
-Field_9_2_5_43519_008<8>
-Field_9_2_5_43519_009<8>
-Field_9_2_5_43519_010<8>
-Field_9_2_5_43519_011<8>
-Field_9_2_5_43519_012<16>
-Field_9_2_5_43519_013<32>
-Field_9_2_5_43519_014<32>
-Field_9_2_5_43519_015<32>
-Field_9_2_5_43519_016<16>[16]
+Name_lang
+GameType_lang
+ShortDescription_lang
+LongDescription_lang
+InstanceType<8>
+MinLevel<8>
+MaxLevel<8>
+RatedPlayers<8>
+MinPlayers<8>
+MaxPlayers<8>
+GroupsAllowed<8>
+MaxGroupSize<8>
+HolidayWorldState<16>
+Flags<32>
+IconFileDataID<32>
+Required_Player_Condition_ID<32>
+MapID<16>[16]

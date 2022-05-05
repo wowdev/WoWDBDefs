@@ -14,18 +14,6 @@ float Range? // if 0 take from spell effect
 int Flags? // &2: use Positioner infrastructure for attachment? also M2 events are involved...
 float Field_8_1_0_28616_001Max? // >= Field_8_1_0_28616_001Min
 float Field_8_1_0_28616_001Min?
-int Field_9_2_5_43519_000?
-float Field_9_2_5_43519_001?
-float Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-float Field_9_2_5_43519_010?
-float Field_9_2_5_43519_011?
 
 LAYOUT EA7DFE82
 BUILD 8.1.0.28440, 8.1.0.28485
@@ -74,15 +62,15 @@ Range
 LAYOUT 26B3A638
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001
-Field_9_2_5_43519_002
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<8>
-Field_9_2_5_43519_009<32>
-Field_9_2_5_43519_010
-Field_9_2_5_43519_011
+Flags<32>
+Field_8_1_0_28616_001Max
+Field_8_1_0_28616_001Min
+Field_8_1_0_28440_003Max<32>
+Field_8_1_0_28440_003Min<32>
+Field_8_1_0_28440_005<32>
+ModelCountMax<32>
+ModelCountMin<32>
+AttachmentPoint<8>
+SpellVisualEffectNameID<32>
+ConeAngle
+Range

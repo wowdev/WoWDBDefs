@@ -3,9 +3,6 @@ int ID
 int Value
 int<CurrencyTypes::ID> CurrencyID
 int<Item::ID> ItemID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 LAYOUT 28EBA06A
 BUILD 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755, 9.0.1.35789
@@ -35,6 +32,6 @@ $noninline,relation$ItemID<32>
 LAYOUT 664B8E34
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>[4]
-$noninline,relation$Field_9_2_5_43519_002<32>
+Value<32>
+CurrencyID<32>[4]
+$noninline,relation$ItemID<32>

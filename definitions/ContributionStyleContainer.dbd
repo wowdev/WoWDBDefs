@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int<ContributionStyle::ID> ContributionStyleID?
-int Field_9_2_5_43519_000?
 
 LAYOUT 55DAA69B, 85ADF27E
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -38,4 +37,4 @@ ContributionStyleID<32>[5]
 LAYOUT BCE21C5E
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>[5]
+ContributionStyleID<32>[5]

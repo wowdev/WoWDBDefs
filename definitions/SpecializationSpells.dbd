@@ -6,12 +6,6 @@ int<Spell::ID> OverridesSpellID
 locstring Description_lang
 int DisplayOrder
 int Field_5_0_1_15464_004?
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
 
 BUILD 5.0.1.15464-5.4.8.18414
 $id$ID<32>
@@ -86,9 +80,9 @@ DisplayOrder<u8>
 
 LAYOUT A524AD21
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000_lang
-$id$Field_9_2_5_43519_001<32>
-$relation$Field_9_2_5_43519_002<u16>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<u8>
+Description_lang
+$id$ID<32>
+$relation$SpecID<u16>
+SpellID<32>
+OverridesSpellID<32>
+DisplayOrder<u8>

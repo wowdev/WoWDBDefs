@@ -10,17 +10,6 @@ int Field_9_0_1_34972_007?
 int<Item::ID> UnlockItemID
 int<Covenant::ID> CovenantID
 int Field_9_1_0_38549_010?
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
 
 LAYOUT 368D0C5F
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821
@@ -98,14 +87,14 @@ Field_9_1_0_38549_010<32>
 
 LAYOUT 35605374
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000_lang
-$id$Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<32>
-Field_9_2_5_43519_009<32>
-Field_9_2_5_43519_010<32>
+Name_lang
+$id$ID<32>
+SpecSetID<32>
+InventoryTypeMask<32>
+SpellID<32>
+ItemBonusListID<32>
+PlayerConditionID<32>
+Field_9_0_1_34972_007<32>
+UnlockItemID<32>
+CovenantID<32>
+Field_9_1_0_38549_010<32>

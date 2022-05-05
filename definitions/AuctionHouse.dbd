@@ -4,10 +4,6 @@ int<Faction::ID> FactionID
 int DepositRate
 int ConsignmentRate
 locstring Name_lang
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -66,7 +62,7 @@ ConsignmentRate<u8>
 LAYOUT 8925F061
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001<u16>
-Field_9_2_5_43519_002<u8>
-Field_9_2_5_43519_003<u8>
+Name_lang
+FactionID<u16>
+DepositRate<u8>
+ConsignmentRate<u8>

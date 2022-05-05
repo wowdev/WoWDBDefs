@@ -5,11 +5,6 @@ int<Map::ID> MapID
 float Max
 float Min
 int OrderIndex
-float Field_9_2_5_43519_000?
-float Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
 
 LAYOUT B7D5DEDE
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -62,8 +57,9 @@ $noninline,relation$MapID<32>
 LAYOUT 2769A380
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000[2]
-Field_9_2_5_43519_001[2]
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-$noninline,relation$Field_9_2_5_43519_004<32>
+Min[2]
+Max[2]
+LoadingScreenID<32>
+OrderIndex<32>
+$noninline,relation$MapID<32>
+

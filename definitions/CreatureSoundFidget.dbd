@@ -3,9 +3,6 @@ int ID
 int<SoundKit::ID> Fidget?
 int Index?
 int<CreatureSoundData::ID> CreatureSoundDataID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 LAYOUT B504137B
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -26,6 +23,6 @@ $noninline,relation$CreatureSoundDataID<32>
 LAYOUT ECFBE76A
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-$noninline,relation$Field_9_2_5_43519_002<32>
+Fidget<32>
+Index<32>
+$noninline,relation$CreatureSoundDataID<32>

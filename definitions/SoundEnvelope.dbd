@@ -7,13 +7,6 @@ int Flags
 int ReleaseIndex
 int<SoundKit::ID> SoundKitID
 int SustainIndex
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
 
 LAYOUT CFF2257C
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
@@ -82,10 +75,10 @@ ReleaseIndex<u16>
 LAYOUT 7C68FF4A
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-$relation$Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<u8>
-Field_9_2_5_43519_002<u32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<u16>
-Field_9_2_5_43519_005<u16>
-Field_9_2_5_43519_006<u16>
+$relation$SoundKitID<32>
+EnvelopeType<u8>
+Flags<u32>
+CurveID<32>
+DecayIndex<u16>
+SustainIndex<u16>
+ReleaseIndex<u16>

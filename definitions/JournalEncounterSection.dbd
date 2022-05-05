@@ -15,21 +15,6 @@ int<CreatureDisplayInfo::ID> IconCreatureDisplayInfoID
 int<Spell::ID> SpellID
 int<FileData::ID> IconFileDataID
 int<UiModelScene::ID> UiModelSceneID
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-int Field_9_2_5_43519_011?
-int Field_9_2_5_43519_012?
-int Field_9_2_5_43519_013?
-int Field_9_2_5_43519_014?
 
 BUILD 5.0.1.15464-5.4.8.18414
 BUILD 4.2.0.14333-4.3.4.15595
@@ -210,18 +195,18 @@ DifficultyMask<8>
 LAYOUT F617A4B5
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002<u16>
-Field_9_2_5_43519_003<u8>
-Field_9_2_5_43519_004<u16>
-Field_9_2_5_43519_005<u16>
-Field_9_2_5_43519_006<u16>
-Field_9_2_5_43519_007<u8>
-Field_9_2_5_43519_008<u32>
-Field_9_2_5_43519_009<32>
-Field_9_2_5_43519_010<32>
-Field_9_2_5_43519_011<32>
-Field_9_2_5_43519_012<32>
-Field_9_2_5_43519_013<32>
-Field_9_2_5_43519_014<8>
+Title_lang
+BodyText_lang
+JournalEncounterID<u16>
+OrderIndex<u8>
+ParentSectionID<u16>
+FirstChildSectionID<u16>
+NextSiblingSectionID<u16>
+Type<u8>
+IconCreatureDisplayInfoID<u32>
+UiModelSceneID<32>
+SpellID<32>
+IconFileDataID<32>
+Flags<32>
+IconFlags<32>
+DifficultyMask<8>

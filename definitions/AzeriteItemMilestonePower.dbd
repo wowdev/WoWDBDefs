@@ -4,10 +4,6 @@ int<AzeritePower::ID> AzeritePowerID
 int RequiredLevel
 int AzeriteEssenceType? // 0: heart essence (use spell 296208 instead of AzeritePowerID), [2, 3]: ??? (milestone spell via AzeritePowerID)
 int IsHeartEssenceUnlock?
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 LAYOUT 364A9789
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -77,7 +73,7 @@ IsHeartEssenceUnlock<32>
 LAYOUT 82DD9DC4
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
+RequiredLevel<32>
+AzeritePowerID<32>
+AzeriteEssenceType<32>
+IsHeartEssenceUnlock<32>

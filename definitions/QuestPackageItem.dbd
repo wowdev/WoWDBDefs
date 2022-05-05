@@ -4,10 +4,6 @@ int DisplayType
 int<Item::ID> ItemID
 int ItemQuantity
 int<Package::ID> PackageID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -67,7 +63,7 @@ DisplayType<u8>
 LAYOUT A2C252CF
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u16>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<u32>
-Field_9_2_5_43519_003<u8>
+PackageID<u16>
+ItemID<32>
+ItemQuantity<u32>
+DisplayType<u8>

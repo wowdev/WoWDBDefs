@@ -3,10 +3,6 @@ int ID
 int<PlayerCondition::ID> PlayerConditionID
 int<UiMapFogOfWarVisualization::ID> UiMapFogOfWarVisID
 int<UiMap::ID> UiMapID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 LAYOUT 257E044E, 3CC5A9B0
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -44,7 +40,7 @@ UiMapFogOfWarVisID<32>
 
 LAYOUT 437EAE73
 BUILD 9.2.5.43519
-$id$Field_9_2_5_43519_000<32>
-$relation$Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
+$id$ID<32>
+$relation$UiMapID<32>
+PlayerConditionID<32>
+UiMapFogOfWarVisID<32>

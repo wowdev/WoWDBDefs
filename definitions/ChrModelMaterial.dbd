@@ -6,13 +6,6 @@ int Width?
 int Height?
 int SkinType? // 0 = Primary Skin, 1 = Secondary Skin
 int Field_9_0_1_34615_006? // Set to 2,3,4 if SkinType is 1, otherwise -1
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
 
 LAYOUT D4ED338C
 BUILD 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -48,10 +41,10 @@ Field_9_0_1_34615_006<32>
 
 LAYOUT B4AB9DAB
 BUILD 9.2.5.43519
-$id$Field_9_2_5_43519_000<32>
-$relation$Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
+$id$ID<32>
+$relation$CharComponentTextureLayoutsID<32>
+TextureType<32>
+Width<32>
+Height<32>
+SkinType<32>
+Field_9_0_1_34615_006<32>

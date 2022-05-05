@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int ExecOrder
-int Field_9_2_5_43519_000?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -50,4 +49,4 @@ ExecOrder<u8>
 LAYOUT 54CC07B7
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u8>
+ExecOrder<u8>

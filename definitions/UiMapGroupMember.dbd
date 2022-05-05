@@ -5,11 +5,6 @@ locstring Name_lang
 int RelativeHeightIndex
 int UiMapGroupID
 int<UiMap::ID> UiMapID
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
 
 LAYOUT 5C811BF9
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -59,8 +54,8 @@ RelativeHeightIndex<8>
 LAYOUT BD83EBDC
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-$relation$Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<8>
+Name_lang
+$relation$UiMapGroupID<32>
+UiMapID<32>
+FloorIndex<32>
+RelativeHeightIndex<8>

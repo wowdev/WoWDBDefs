@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int Flags? // &1: allow defaulting to ItemCreationContext=0 entry, if correct context not found
-int Field_9_2_5_43519_000?
 
 LAYOUT 78F7B48B, 2598F32A
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -25,4 +24,4 @@ Flags<32>
 LAYOUT 0E377BCA
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
+Flags<32>

@@ -2,7 +2,6 @@ COLUMNS
 int<Item::ID> ItemID
 int<ModifiedCraftingReagentItem::ID> ModifiedCraftingReagentItemID
 int ID
-int Field_9_2_5_43519_000?
 
 LAYOUT 8CB2494F
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -23,4 +22,4 @@ ModifiedCraftingReagentItemID<32>
 LAYOUT 106F4AE2
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
+ModifiedCraftingReagentItemID<32>

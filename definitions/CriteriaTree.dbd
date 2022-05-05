@@ -8,13 +8,6 @@ int Flags
 locstring Description_lang
 int OrderIndex
 int Padding_6_0_1_18179_008?
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
 
 BUILD 5.0.1.15464-5.0.1.15544
 $id$ID<32>
@@ -137,10 +130,10 @@ Flags<32>
 LAYOUT 9C1C42E0
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001<u32>
-Field_9_2_5_43519_002<u32>
-Field_9_2_5_43519_003<8>
-Field_9_2_5_43519_004<u32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
+Description_lang
+Parent<u32>
+Amount<u32>
+Operator<8>
+CriteriaID<u32>
+OrderIndex<32>
+Flags<32>

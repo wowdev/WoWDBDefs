@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int Key
-int Field_9_2_5_43519_000?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -54,4 +53,4 @@ Key<u8>[32]
 LAYOUT 683DDBCE
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u8>[32]
+Key<u8>[32]

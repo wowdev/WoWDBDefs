@@ -16,23 +16,6 @@ float CameraDistanceOffset
 float BarberShopCameraOffsetScale?
 float BarberShopCameraRotationOffset? // in radians, rotated by 180°?! unsure, used in camera code
 float BarberShopCameraRotationFacing?
-float Field_9_2_5_43519_000?
-float Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-float Field_9_2_5_43519_011?
-float Field_9_2_5_43519_012?
-float Field_9_2_5_43519_013?
-float Field_9_2_5_43519_014?
-float Field_9_2_5_43519_015?
-float Field_9_2_5_43519_016?
 
 LAYOUT 6FB2BE38
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490
@@ -168,20 +151,20 @@ BarberShopCameraRotationOffset
 
 LAYOUT 3FE3E372
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000[3]
-Field_9_2_5_43519_001[3]
-$id$Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<8>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<32>
-Field_9_2_5_43519_009<32>
-Field_9_2_5_43519_010<32>
-Field_9_2_5_43519_011
-Field_9_2_5_43519_012
-Field_9_2_5_43519_013
-Field_9_2_5_43519_014
-Field_9_2_5_43519_015
-Field_9_2_5_43519_016
+FaceCustomizationOffset[3]
+CustomizeOffset[3]
+$id$ID<32>
+Sex<8>
+DisplayID<32>
+CharComponentTextureLayoutID<32>
+Flags<32>
+SkeletonFileDataID<32>
+ModelFallbackChrModelID<32>
+TextureFallbackChrModelID<32>
+HelmVisFallbackChrModelID<32>
+CustomizeScale
+CustomizeFacing
+CameraDistanceOffset
+BarberShopCameraOffsetScale
+BarberShopCameraRotationFacing
+BarberShopCameraRotationOffset

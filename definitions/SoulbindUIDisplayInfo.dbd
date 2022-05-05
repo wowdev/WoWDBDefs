@@ -9,14 +9,6 @@ int<UiTextureKit::ID> TextureKitID
 int OrderIndex // per covenant
 int GlobalOrderIndex? // across covenants, might be cvarIndex
 int<SoundKit::ID> ActivationSoundKitID
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
 
 LAYOUT C41BBE90
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
@@ -90,11 +82,11 @@ ActivationSoundKitID<32>
 LAYOUT CED83DDB
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
+Description_lang
+SoulbindID<32>
+CreatureDisplayInfoID<32>
+ModelSceneActorID<32>
+TextureKitID<32>
+OrderIndex<32>
+GlobalOrderIndex<32>
+ActivationSoundKitID<32>

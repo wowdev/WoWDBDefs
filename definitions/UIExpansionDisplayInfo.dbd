@@ -3,9 +3,6 @@ int ID
 int<UiTextureAtlasMember::ID> ExpansionBanner
 int ExpansionLevel
 int<FileData::ID> ExpansionLogo
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 LAYOUT 73DFDEC5, CD407FA1, 4638120A
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -47,6 +44,6 @@ ExpansionLevel<u32>
 LAYOUT F6D1CC7A
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<u32>
+ExpansionLogo<32>
+ExpansionBanner<32>
+ExpansionLevel<u32>

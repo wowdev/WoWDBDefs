@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int<ScreenEffect::ID> ScreenEffectID
 int<ScreenEffectType::ID> ScreenEffectTypeID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 LAYOUT 879B50D1
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -20,5 +18,5 @@ ScreenEffectTypeID<32>
 LAYOUT DBF829D1
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
+ScreenEffectID<32>
+ScreenEffectTypeID<32>

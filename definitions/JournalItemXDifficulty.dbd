@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int<JournalEncounterItem::ID> JournalEncounterItemID
 int<Difficulty::ID> DifficultyID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
@@ -61,5 +59,5 @@ $noninline,relation$JournalEncounterItemID<32>
 LAYOUT 19DEDAA3
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u8>
-$noninline,relation$Field_9_2_5_43519_001<32>
+DifficultyID<u8>
+$noninline,relation$JournalEncounterItemID<32>

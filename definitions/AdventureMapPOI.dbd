@@ -14,18 +14,6 @@ int<UiTextureKit::ID> UiTextureKitID
 int<WorldMapArea::ID> WorldMapAreaID
 float WorldPosition
 int<Map::ID> MapID
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-float Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-int Field_9_2_5_43519_011?
 
 LAYOUT 3B9015FC
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -142,15 +130,15 @@ AreaTableID<u32>
 LAYOUT 347D1163
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002[2]
-Field_9_2_5_43519_003<8>
-Field_9_2_5_43519_004<u32>
-Field_9_2_5_43519_005<u32>
-Field_9_2_5_43519_006<u32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<u32>
-Field_9_2_5_43519_009<u32>
-Field_9_2_5_43519_010<32>
-Field_9_2_5_43519_011<u32>
+Title_lang
+Description_lang
+WorldPosition[2]
+Type<8>
+PlayerConditionID<u32>
+QuestID<u32>
+LfgDungeonID<u32>
+RewardItemID<32>
+UiTextureAtlasMemberID<u32>
+UiTextureKitID<u32>
+MapID<32>
+AreaTableID<u32>

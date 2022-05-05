@@ -6,13 +6,6 @@ locstring Objective_lang?
 int<BattlemasterList::ID> BattlemasterListID
 int<LFGDungeons::ID> LFGDungeonsID
 int<QuestV2::ID> RewardsQuestID?
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-locstring Field_9_2_5_43519_002_lang?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
 
 LAYOUT B97DECC7, A3BF25B1
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -55,10 +48,10 @@ RewardsQuestID<32>
 
 LAYOUT 8D15C420
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002_lang
-$id$Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
+Name_lang
+Description_lang
+Objective_lang
+$id$ID<32>
+BattlemasterListID<32>
+LFGDungeonsID<32>
+RewardsQuestID<32>

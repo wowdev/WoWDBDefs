@@ -15,19 +15,6 @@ int<PlayerCondition::ID> VisibilityPlayerConditionID
 int<UiTextureAtlasElement::ID> BkgAtlasID
 int AlternateUiMapGroup?
 int<ContentTuning::ID> ContentTuningID?
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-int Field_9_2_5_43519_011?
-int Field_9_2_5_43519_012?
 
 LAYOUT F5EC37EE
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -167,16 +154,16 @@ ContentTuningID<32>
 
 LAYOUT 7A60CD63
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000_lang
-$id$Field_9_2_5_43519_001<32>
-$relation$Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<u32>
-Field_9_2_5_43519_005<u32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<u32>
-Field_9_2_5_43519_008<32>
-Field_9_2_5_43519_009<8>
-Field_9_2_5_43519_010<32>
-Field_9_2_5_43519_011<32>
-Field_9_2_5_43519_012<32>
+Name_lang
+$id$ID<32>
+$relation$ParentUiMapID<32>
+Flags<32>
+System<u32>
+Type<u32>
+BountySetID<32>
+BountyDisplayLocation<u32>
+VisibilityPlayerConditionID<32>
+HelpTextPosition<8>
+BkgAtlasID<32>
+AlternateUiMapGroup<32>
+ContentTuningID<32>

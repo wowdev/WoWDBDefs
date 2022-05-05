@@ -5,9 +5,6 @@ int Shader
 string EnvMapPath
 int<FileData::ID> EnvMapDiffuseFileID
 int<FileData::ID> EnvMapSpecularFileID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -74,6 +71,7 @@ EnvMapSpecularFileID<32>
 LAYOUT 499A04BC
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u8>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
+Shader<u8>
+EnvMapDiffuseFileID<32>
+EnvMapSpecularFileID<32>
+

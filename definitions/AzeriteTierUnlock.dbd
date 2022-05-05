@@ -4,10 +4,6 @@ int AzeriteLevel
 int<AzeriteTierUnlockSet::ID> AzeriteTierUnlockSetID
 int ItemCreationContext
 int Tier // 0..4
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 LAYOUT 698F6DD0
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -68,7 +64,7 @@ $noninline,relation$AzeriteTierUnlockSetID<32>
 LAYOUT 63D128C5
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u8>
-Field_9_2_5_43519_001<u8>
-Field_9_2_5_43519_002<u8>
-$noninline,relation$Field_9_2_5_43519_003<32>
+ItemCreationContext<u8>
+Tier<u8>
+AzeriteLevel<u8>
+$noninline,relation$AzeriteTierUnlockSetID<32>

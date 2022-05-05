@@ -14,17 +14,6 @@ int TargetLevelMaxDelta // add to effective MaxLevel to get TargetLevelMax
 int TargetLevelMin?
 int TargetLevelMax?
 int MinItemLevel? // overrides LfgDungeons::MinGear if set
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
 
 LAYOUT D0AEEA71
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -199,14 +188,14 @@ MinItemLevel<32>
 LAYOUT ACA848DF
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<32>
-Field_9_2_5_43519_009<32>
-Field_9_2_5_43519_010<32>
+Flags<32>
+ExpansionID<32>
+MinLevel<32>
+MaxLevel<32>
+LowerBoundSemantics<32>
+UpperBoundSemantics<32>
+TargetLevelDelta<32>
+TargetLevelMaxDelta<32>
+TargetLevelMin<32>
+TargetLevelMax<32>
+MinItemLevel<32>

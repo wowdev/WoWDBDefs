@@ -23,28 +23,6 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-locstring Field_9_2_5_43519_002_lang?
-locstring Field_9_2_5_43519_003_lang?
-locstring Field_9_2_5_43519_004_lang?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-int Field_9_2_5_43519_011?
-int Field_9_2_5_43519_012?
-int Field_9_2_5_43519_013?
-int Field_9_2_5_43519_014?
-int Field_9_2_5_43519_015?
-int Field_9_2_5_43519_016?
-int Field_9_2_5_43519_017?
-int Field_9_2_5_43519_018?
-int Field_9_2_5_43519_019?
-int Field_9_2_5_43519_020?
-int Field_9_2_5_43519_021?
 
 LAYOUT AF456C4F
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -362,25 +340,25 @@ BonusValue<u8>[2]
 LAYOUT C165B3AF
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002_lang
-Field_9_2_5_43519_003_lang
-Field_9_2_5_43519_004_lang
-Field_9_2_5_43519_005<u8>
-Field_9_2_5_43519_006<u32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<u8>
-Field_9_2_5_43519_009<32>
-Field_9_2_5_43519_010<u16>
-Field_9_2_5_43519_011<32>
-Field_9_2_5_43519_012<u16>
-Field_9_2_5_43519_013<u8>
-Field_9_2_5_43519_014<u8>
-Field_9_2_5_43519_015<32>
-Field_9_2_5_43519_016<u32>
-Field_9_2_5_43519_017<u16>
-Field_9_2_5_43519_018<u32>
-Field_9_2_5_43519_019<u16>
-Field_9_2_5_43519_020<u32>[2]
-Field_9_2_5_43519_021<u8>[2]
+Name_lang
+Description_lang
+ButtonText_lang
+RewardDescription_lang
+ContinueDescription_lang
+Type<u8>
+PlayerConditionID<u32>
+Flags<32>
+ButtonActionType<u8>
+TextureFileDataID<32>
+LfgDungeonID<u16>
+QuestID<32>
+BattleMasterListID<u16>
+PriorityMin<u8>
+PriorityMax<u8>
+ItemID<32>
+ItemQuantity<u32>
+CurrencyType<u16>
+CurrencyQuantity<u32>
+UIMapID<u16>
+BonusPlayerConditionID<u32>[2]
+BonusValue<u8>[2]

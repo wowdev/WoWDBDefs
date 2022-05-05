@@ -2,8 +2,6 @@ COLUMNS
 int ID
 string Name
 locstring Message_lang
-string Field_9_2_5_43519_000?
-locstring Field_9_2_5_43519_001_lang?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -63,5 +61,5 @@ Message_lang
 LAYOUT D81204F9
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000
-Field_9_2_5_43519_001_lang
+Name
+Message_lang

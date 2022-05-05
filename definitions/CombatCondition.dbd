@@ -11,17 +11,6 @@ int<UnitCondition::ID> EnemyConditionID
 int EnemyConditionOp
 int EnemyConditionCount
 int EnemyConditionLogic
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -103,14 +92,14 @@ EnemyConditionCount<u8>[2]
 LAYOUT 5CA63D01
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u16>
-Field_9_2_5_43519_001<u16>
-Field_9_2_5_43519_002<u16>
-Field_9_2_5_43519_003<u8>
-Field_9_2_5_43519_004<u8>
-Field_9_2_5_43519_005<u16>[2]
-Field_9_2_5_43519_006<u8>[2]
-Field_9_2_5_43519_007<u8>[2]
-Field_9_2_5_43519_008<u16>[2]
-Field_9_2_5_43519_009<u8>[2]
-Field_9_2_5_43519_010<u8>[2]
+WorldStateExpressionID<u16>
+SelfConditionID<u16>
+TargetConditionID<u16>
+FriendConditionLogic<u8>
+EnemyConditionLogic<u8>
+FriendConditionID<u16>[2]
+FriendConditionOp<u8>[2]
+FriendConditionCount<u8>[2]
+EnemyConditionID<u16>[2]
+EnemyConditionOp<u8>[2]
+EnemyConditionCount<u8>[2]

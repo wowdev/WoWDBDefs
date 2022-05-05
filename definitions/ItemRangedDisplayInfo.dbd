@@ -4,10 +4,6 @@ int<SpellVisual::ID> AutoAttackSpellVisualID
 int<SpellVisual::ID> CastSpellVisualID
 int<SpellVisualEffectName::ID> MissileSpellVisualEffectNameID
 int<FileData::ID> QuiverFileDataID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 LAYOUT 687A28D1
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -59,7 +55,7 @@ MissileSpellVisualEffectNameID<u32>
 LAYOUT 08C2EB5B
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u32>
-Field_9_2_5_43519_001<u32>
-Field_9_2_5_43519_002<u32>
-Field_9_2_5_43519_003<u32>
+CastSpellVisualID<u32>
+AutoAttackSpellVisualID<u32>
+QuiverFileDataID<u32>
+MissileSpellVisualEffectNameID<u32>

@@ -4,10 +4,6 @@ int Min? // x = (max == min) ? 16384.f : 1.f / (float) (max - min)
 int Max?
 int<FileData::ID> Texture0?
 int<FileData::ID> Texture1?
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 LAYOUT 2031C9AD
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -26,7 +22,7 @@ Texture1<32>
 LAYOUT 02B6E85D
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
+Min<32>
+Max<32>
+Texture0<32>
+Texture1<32>

@@ -5,10 +5,6 @@ int ConduitType // 0: Finesse, 1: Potency, 2: Endurance
 int<Covenant::ID> CovenantID
 int<SpecSetMember::SpecSet> SpecSetID
 int Flags
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 LAYOUT 40A0815A
 BUILD 9.0.1.34714
@@ -52,7 +48,7 @@ Flags<32>
 LAYOUT D87C19D7
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
+ConduitType<32>
+CovenantID<32>
+SpecSetID<32>
+Flags<32>

@@ -2,7 +2,6 @@ COLUMNS
 int ID
 locstring Subject_lang
 locstring Body_lang
-locstring Field_9_2_5_43519_000_lang?
 
 BUILD 2.0.0.5610-2.0.0.6080
 BUILD 1.10.0.5195-1.12.3.6141
@@ -59,4 +58,4 @@ Body_lang
 LAYOUT 7C454945
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
+Body_lang

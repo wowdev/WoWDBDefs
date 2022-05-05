@@ -5,10 +5,6 @@ int<Spell::ID> ModalNextSpell
 int SpellClassSet
 int<Spell::ID> SpellID
 locstring Description_lang?
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 BUILD 4.0.0.12232-4.0.0.12539
 $id$ID<32>
@@ -92,7 +88,7 @@ SpellClassMask<32>[4]
 LAYOUT 427E17F9
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<u32>
-Field_9_2_5_43519_002<u8>
-Field_9_2_5_43519_003<32>[4]
+SpellID<32>
+ModalNextSpell<u32>
+SpellClassSet<u8>
+SpellClassMask<32>[4]

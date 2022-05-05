@@ -3,9 +3,6 @@ int ID
 locstring FeatureDescription_lang
 int<FileData::ID> FeatureIcon
 int ParentID
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 LAYOUT 331022F2, C9B51E5D, 2C3DA03F
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -47,6 +44,6 @@ FeatureIcon<32>
 LAYOUT B5FB76BF
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
+FeatureDescription_lang
+ParentID<32>
+FeatureIcon<32>

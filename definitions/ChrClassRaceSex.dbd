@@ -6,12 +6,6 @@ int RaceID
 int Sex
 int SoundID
 int VoiceSoundFilterID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
 
 LAYOUT 5E29DFA1, 204BD561, C05CAB5B
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057
@@ -67,9 +61,9 @@ VoiceSoundFilterID<u32>
 LAYOUT CE5A498A
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<8>
-Field_9_2_5_43519_001<8>
-Field_9_2_5_43519_002<8>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<u32>
-Field_9_2_5_43519_005<u32>
+ClassID<8>
+RaceID<8>
+Sex<8>
+Flags<32>
+SoundID<u32>
+VoiceSoundFilterID<u32>

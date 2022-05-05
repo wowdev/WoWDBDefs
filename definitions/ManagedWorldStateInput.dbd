@@ -3,9 +3,6 @@ int ID
 int<ManagedWorldState::ID> ManagedWorldStateID
 int<QuestV2::ID> QuestID
 int<PlayerCondition::ID> ValidInputConditionID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 LAYOUT 0FC1A9B0, 21237CDC, F4514EDF
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -48,6 +45,6 @@ ValidInputConditionID<32>
 LAYOUT 271DEDDF
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
+ManagedWorldStateID<32>
+QuestID<32>
+ValidInputConditionID<32>

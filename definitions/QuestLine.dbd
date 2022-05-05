@@ -4,10 +4,6 @@ int ID
 int<QuestV2::ID> QuestID?
 locstring Description_lang
 int<PlayerCondition::ID> PlayerConditionID?
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -67,7 +63,7 @@ PlayerConditionID<32>
 LAYOUT 8972E620
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002<u32>
-Field_9_2_5_43519_003<32>
+Name_lang
+Description_lang
+QuestID<u32>
+PlayerConditionID<32>

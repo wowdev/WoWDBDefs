@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int Difficulty
-int Field_9_2_5_43519_000?
 
 BUILD 6.0.1.18179
 BUILD 5.3.0.16844-5.4.8.18414
@@ -47,4 +46,4 @@ Difficulty<u32>[10]
 LAYOUT BFB6413C
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u32>[10]
+Difficulty<u32>[10]

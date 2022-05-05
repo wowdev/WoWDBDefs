@@ -6,11 +6,6 @@ int GrantFlags
 int RegionID
 int RevokeFlags
 int WowEditInternal
-string Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
 
 BUILD 6.0.1.18179
 BUILD 5.3.0.16965-5.4.8.18414
@@ -72,8 +67,8 @@ RegionID<u8>
 LAYOUT F9DAF847
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000
-Field_9_2_5_43519_001<u16>
-Field_9_2_5_43519_002<u8>
-Field_9_2_5_43519_003<u8>
-Field_9_2_5_43519_004<u8>
+URL
+GrantFlags<u16>
+RevokeFlags<u8>
+WowEditInternal<u8>
+RegionID<u8>

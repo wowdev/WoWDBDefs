@@ -78,57 +78,6 @@ float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1
 int<ChrRaces::ID> HelmetAnimScalingRaceID?
 float Field_9_1_0_38312_030?
 float Field_9_1_0_38312_031?
-string Field_9_2_5_43519_000?
-string Field_9_2_5_43519_001?
-locstring Field_9_2_5_43519_002_lang?
-locstring Field_9_2_5_43519_003_lang?
-locstring Field_9_2_5_43519_004_lang?
-locstring Field_9_2_5_43519_005_lang?
-locstring Field_9_2_5_43519_006_lang?
-locstring Field_9_2_5_43519_007_lang?
-locstring Field_9_2_5_43519_008_lang?
-locstring Field_9_2_5_43519_009_lang?
-locstring Field_9_2_5_43519_010_lang?
-locstring Field_9_2_5_43519_011_lang?
-locstring Field_9_2_5_43519_012_lang?
-locstring Field_9_2_5_43519_013_lang?
-locstring Field_9_2_5_43519_014_lang?
-int Field_9_2_5_43519_015?
-int Field_9_2_5_43519_016?
-int Field_9_2_5_43519_017?
-int Field_9_2_5_43519_018?
-int Field_9_2_5_43519_019?
-int Field_9_2_5_43519_020?
-int Field_9_2_5_43519_021?
-int Field_9_2_5_43519_022?
-int Field_9_2_5_43519_023?
-int Field_9_2_5_43519_024?
-int Field_9_2_5_43519_025?
-int Field_9_2_5_43519_026?
-int Field_9_2_5_43519_027?
-int Field_9_2_5_43519_028?
-int Field_9_2_5_43519_029?
-int Field_9_2_5_43519_030?
-int Field_9_2_5_43519_031?
-int Field_9_2_5_43519_032?
-int Field_9_2_5_43519_033?
-int Field_9_2_5_43519_034?
-int Field_9_2_5_43519_035?
-int Field_9_2_5_43519_036?
-int Field_9_2_5_43519_037?
-int Field_9_2_5_43519_038?
-int Field_9_2_5_43519_039?
-int Field_9_2_5_43519_040?
-float Field_9_2_5_43519_041?
-float Field_9_2_5_43519_042?
-float Field_9_2_5_43519_043?
-float Field_9_2_5_43519_044?
-int Field_9_2_5_43519_045?
-int Field_9_2_5_43519_046?
-int Field_9_2_5_43519_047?
-int Field_9_2_5_43519_048?
-int Field_9_2_5_43519_049?
-int Field_9_2_5_43519_050?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -1619,54 +1568,54 @@ FemaleTextureFallbackSex<8>
 LAYOUT BAD9D8A9
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000
-Field_9_2_5_43519_001
-Field_9_2_5_43519_002_lang
-Field_9_2_5_43519_003_lang
-Field_9_2_5_43519_004_lang
-Field_9_2_5_43519_005_lang
-Field_9_2_5_43519_006_lang
-Field_9_2_5_43519_007_lang
-Field_9_2_5_43519_008_lang
-Field_9_2_5_43519_009_lang
-Field_9_2_5_43519_010_lang
-Field_9_2_5_43519_011_lang
-Field_9_2_5_43519_012_lang
-Field_9_2_5_43519_013_lang
-Field_9_2_5_43519_014_lang
-Field_9_2_5_43519_015<32>
-Field_9_2_5_43519_016<32>
-Field_9_2_5_43519_017<32>
-Field_9_2_5_43519_018<32>
-Field_9_2_5_43519_019<32>
-Field_9_2_5_43519_020<32>
-Field_9_2_5_43519_021<32>
-Field_9_2_5_43519_022<32>
-Field_9_2_5_43519_023<32>
-Field_9_2_5_43519_024<32>
-Field_9_2_5_43519_025<32>
-Field_9_2_5_43519_026<32>
-Field_9_2_5_43519_027<32>
-Field_9_2_5_43519_028<32>[3]
-Field_9_2_5_43519_029<32>[3]
-Field_9_2_5_43519_030<32>
-Field_9_2_5_43519_031<32>
-Field_9_2_5_43519_032<32>
-Field_9_2_5_43519_033<32>
-Field_9_2_5_43519_034<32>
-Field_9_2_5_43519_035<32>
-Field_9_2_5_43519_036<32>
-Field_9_2_5_43519_037<32>
-Field_9_2_5_43519_038<32>
-Field_9_2_5_43519_039<32>
-Field_9_2_5_43519_040<32>
-Field_9_2_5_43519_041[3]
-Field_9_2_5_43519_042
-Field_9_2_5_43519_043[3]
-Field_9_2_5_43519_044[3]
-Field_9_2_5_43519_045<8>
-Field_9_2_5_43519_046<8>
-Field_9_2_5_43519_047<8>
-Field_9_2_5_43519_048<8>
-Field_9_2_5_43519_049<8>
-Field_9_2_5_43519_050<8>
+ClientPrefix
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
+Flags<32>
+FactionID<32>
+CinematicSequenceID<32>
+ResSicknessSpellID<32>
+SplashSoundID<32>
+Alliance<32>
+Race_related<32>
+UnalteredVisualRaceID<32>
+DefaultClassID<32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+NeutralRaceID<32>
+LowResScreenFileDataID<32>
+AlteredFormStartVisualKitID<32>[3]
+AlteredFormFinishVisualKitID<32>[3]
+HeritageArmorAchievementID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+MaleModelFallbackRaceID<32>
+FemaleModelFallbackRaceID<32>
+MaleTextureFallbackRaceID<32>
+FemaleTextureFallbackRaceID<32>
+PlayableRaceBit<32>
+HelmetAnimScalingRaceID<32>
+TransmogrifyDisabledSlotMask<32>
+UnalteredVisualCustomizationRaceID<32>
+AlteredFormCustomizeOffsetFallback[3]
+AlteredFormCustomizeRotationFallback
+Field_9_1_0_38312_030[3]
+Field_9_1_0_38312_031[3]
+BaseLanguage<8>
+CreatureType<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackSex<8>

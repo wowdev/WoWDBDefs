@@ -3,9 +3,6 @@ int ID
 int<ItemLevelSelectorQualitySet::ID> ItemLevelSelectorQualitySetID
 int MinItemLevel
 int<AzeriteUnlockMapping::SetID> AzeriteUnlockMappingSetID?
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 LAYOUT 20DD80A4
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -59,6 +56,6 @@ AzeriteUnlockMappingSetID<u16>
 LAYOUT 25BC6A6B
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u16>
-Field_9_2_5_43519_001<u16>
-Field_9_2_5_43519_002<u16>
+MinItemLevel<u16>
+ItemLevelSelectorQualitySetID<u16>
+AzeriteUnlockMappingSetID<u16>

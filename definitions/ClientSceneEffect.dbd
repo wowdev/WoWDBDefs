@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int<SceneScriptPackage::ID> SceneScriptPackageID
-int Field_9_2_5_43519_000?
 
 LAYOUT 0DAA9E32, 00EE4486, A9E3C5F7
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -38,4 +37,4 @@ SceneScriptPackageID<32>
 LAYOUT 8C4BEE67
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
+SceneScriptPackageID<32>

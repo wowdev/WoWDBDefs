@@ -25,29 +25,6 @@ float EAX3HFReference
 float EAX3LFReference
 float EAXEffectVolume
 float EAXDamping
-string Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-float Field_9_2_5_43519_002?
-float Field_9_2_5_43519_003?
-float Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-float Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-float Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-float Field_9_2_5_43519_011?
-float Field_9_2_5_43519_012?
-float Field_9_2_5_43519_013?
-int Field_9_2_5_43519_014?
-float Field_9_2_5_43519_015?
-float Field_9_2_5_43519_016?
-float Field_9_2_5_43519_017?
-float Field_9_2_5_43519_018?
-float Field_9_2_5_43519_019?
-float Field_9_2_5_43519_020?
-float Field_9_2_5_43519_021?
-int Field_9_2_5_43519_022?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -280,26 +257,27 @@ Flags<u16>
 LAYOUT 06599A4D
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000
-Field_9_2_5_43519_001<8>
-Field_9_2_5_43519_002
-Field_9_2_5_43519_003
-Field_9_2_5_43519_004
-Field_9_2_5_43519_005<16>
-Field_9_2_5_43519_006<16>
-Field_9_2_5_43519_007
-Field_9_2_5_43519_008<16>
-Field_9_2_5_43519_009
-Field_9_2_5_43519_010<16>
-Field_9_2_5_43519_011
-Field_9_2_5_43519_012
-Field_9_2_5_43519_013
-Field_9_2_5_43519_014<8>
-Field_9_2_5_43519_015
-Field_9_2_5_43519_016
-Field_9_2_5_43519_017
-Field_9_2_5_43519_018
-Field_9_2_5_43519_019
-Field_9_2_5_43519_020
-Field_9_2_5_43519_021
-Field_9_2_5_43519_022<u16>
+Description
+EAXEnvironmentSelection<8>
+EAXDecayTime
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2Room<16>
+EAX2RoomHF<16>
+EAX2DecayHFRatio
+EAX2Reflections<16>
+EAX2ReflectionsDelay
+EAX2Reverb<16>
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3RoomLF<8>
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference
+Flags<u16>
+

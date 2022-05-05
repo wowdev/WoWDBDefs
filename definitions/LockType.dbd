@@ -5,11 +5,6 @@ locstring ResourceName_lang
 locstring Verb_lang
 string CursorName
 int EnumID? // Something in player struct with 64 slots. 6.0.1.18179
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-locstring Field_9_2_5_43519_002_lang?
-string Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -108,8 +103,8 @@ EnumID<32>
 LAYOUT 9C547CBC
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002_lang
-Field_9_2_5_43519_003
-Field_9_2_5_43519_004<32>
+Name_lang
+ResourceName_lang
+Verb_lang
+CursorName
+EnumID<32>

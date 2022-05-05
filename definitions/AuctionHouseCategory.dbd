@@ -8,15 +8,6 @@ int InventoryType // C_Item.InventoryType
 int OrderIndex
 int DefaultAuctionHouseFilter? // guessed, seems to be off by one though, i.e. pre-9.2.5 enum
 int<AuctionHouseCategory::ID> ParentCategory?
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
 
 LAYOUT 68AEBFF6
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -32,12 +23,12 @@ $noninline,relation$ParentCategory<32>
 
 LAYOUT B60740F7
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-$id$Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<u8>
-$noninline,relation$Field_9_2_5_43519_008<32>
+Description_lang
+SortedProperty_lang
+$id$ID<32>
+ItemClass<32>
+ItemSubClass<32>
+InventoryType<32>
+OrderIndex<32>
+DefaultAuctionHouseFilter<u8>
+$noninline,relation$ParentCategory<32>

@@ -5,10 +5,6 @@ int<Difficulty::ID> DifficultyID
 int EquippedItemClass
 int EquippedItemInvTypes
 int EquippedItemSubclass
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.0.0.12232-4.3.4.15595
@@ -76,7 +72,7 @@ EquippedItemSubclass<32>
 LAYOUT 9E98F8F8
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<8>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
+SpellID<32>
+EquippedItemClass<8>
+EquippedItemInvTypes<32>
+EquippedItemSubclass<32>

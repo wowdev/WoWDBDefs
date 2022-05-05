@@ -5,11 +5,6 @@ int<SoundKit::ID> DaySound
 int<SoundKit::ID> NightSound
 int<SoundKit::ID> EnterSound
 int<SoundKit::ID> ExitSound
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
 
 LAYOUT F60E0955, 7C953E18
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -50,8 +45,8 @@ ExitSound<32>
 LAYOUT 01C167D7
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-$relation$Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
+$relation$ParticulateID<32>
+DaySound<32>
+NightSound<32>
+EnterSound<32>
+ExitSound<32>

@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int Color
 int<UiTextureAtlasMember::ID> Border
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 LAYOUT 253C38FB
 BUILD 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755, 9.0.1.35789
@@ -25,5 +23,5 @@ Border<32>
 LAYOUT 7B5245E6
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
+Color<32>
+Border<32>

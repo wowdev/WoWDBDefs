@@ -36,35 +36,6 @@ int<PlayerCondition::ID> Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-float Field_9_2_5_43519_011?
-int Field_9_2_5_43519_012?
-int Field_9_2_5_43519_013?
-int Field_9_2_5_43519_014?
-int Field_9_2_5_43519_015?
-int Field_9_2_5_43519_016?
-int Field_9_2_5_43519_017?
-int Field_9_2_5_43519_018?
-int Field_9_2_5_43519_019?
-int Field_9_2_5_43519_020?
-int Field_9_2_5_43519_021?
-int Field_9_2_5_43519_022?
-int Field_9_2_5_43519_023?
-int Field_9_2_5_43519_024?
-int Field_9_2_5_43519_025?
-int Field_9_2_5_43519_026?
-int Field_9_2_5_43519_027?
-int Field_9_2_5_43519_028?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -712,32 +683,32 @@ Flags<32>[2]
 LAYOUT 11A21324
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002<u8>
-Field_9_2_5_43519_003<u8>
-Field_9_2_5_43519_004<8>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<u8>
-Field_9_2_5_43519_009<16>
-Field_9_2_5_43519_010<u8>
-Field_9_2_5_43519_011
-Field_9_2_5_43519_012<u8>
-Field_9_2_5_43519_013<u8>
-Field_9_2_5_43519_014<u32>
-Field_9_2_5_43519_015<u16>
-Field_9_2_5_43519_016<u16>
-Field_9_2_5_43519_017<u16>
-Field_9_2_5_43519_018<u8>
-Field_9_2_5_43519_019<u8>
-Field_9_2_5_43519_020<u8>
-Field_9_2_5_43519_021<u8>
-Field_9_2_5_43519_022<u8>
-Field_9_2_5_43519_023<u8>
-Field_9_2_5_43519_024<u16>
-Field_9_2_5_43519_025<u16>
-Field_9_2_5_43519_026<u8>
-Field_9_2_5_43519_027<32>
-Field_9_2_5_43519_028<32>[2]
+Name_lang
+Description_lang
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
+MinGear
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MentorCharLevel<u8>
+ContentTuningID<32>
+Flags<32>[2]

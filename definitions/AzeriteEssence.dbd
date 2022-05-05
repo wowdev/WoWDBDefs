@@ -3,9 +3,6 @@ locstring Name_lang?
 locstring Description_lang?
 int ID
 int<SpecSetMember::SpecSet> SpecSetID?
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-int Field_9_2_5_43519_002?
 
 LAYOUT 3239408B, F67EFD79
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -36,6 +33,6 @@ SpecSetID<32>
 LAYOUT 78739DBC
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002<32>
+Name_lang
+Description_lang
+SpecSetID<32>

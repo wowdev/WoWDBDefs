@@ -6,12 +6,6 @@ int<SpellVisualKit::ID> SpellVisualKitID?
 int<FileData::ID> AttachmentModelFileID?
 int<ItemVisuals::ID> ItemVisualsID?
 float Scale?
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-float Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
 
 LAYOUT C819EA7E, 9DEA5E99
 BUILD 8.3.0.32044, 8.3.0.32151, 8.3.0.32203, 8.3.0.32218, 8.3.0.32272, 8.3.0.32414, 8.3.0.32489
@@ -52,9 +46,9 @@ $noninline,relation$ItemVisualsID<32>
 LAYOUT E011E7C1
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<8>
-Field_9_2_5_43519_001<8>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004
-$noninline,relation$Field_9_2_5_43519_005<32>
+AttachmentID<8>
+DisplayWeaponSubclassID<8>
+SpellVisualKitID<32>
+AttachmentModelFileID<32>
+Scale
+$noninline,relation$ItemVisualsID<32>

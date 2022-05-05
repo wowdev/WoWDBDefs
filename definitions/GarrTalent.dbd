@@ -24,21 +24,6 @@ int<GarrTalent::ID> PrerequisiteTalentID
 int ResearchCostSource // 0: Talent, 1: Tree
 int ActiveDurationSecs
 int<GarrTalentSocketProperties::ID> GarrTalentSocketPropertiesID
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-int Field_9_2_5_43519_011?
-int Field_9_2_5_43519_012?
-int Field_9_2_5_43519_013?
-int Field_9_2_5_43519_014?
 
 LAYOUT 2922ABC2
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -267,18 +252,18 @@ GarrTalentSocketPropertiesID<32>
 
 LAYOUT EF4DB72A
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-$id$Field_9_2_5_43519_002<32>
-$relation$Field_9_2_5_43519_003<u32>
-Field_9_2_5_43519_004<8>
-Field_9_2_5_43519_005<8>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<u32>
-Field_9_2_5_43519_008<u32>
-Field_9_2_5_43519_009<32>
-Field_9_2_5_43519_010<32>
-Field_9_2_5_43519_011<32>
-Field_9_2_5_43519_012<32>
-Field_9_2_5_43519_013<32>
-Field_9_2_5_43519_014<32>
+Name_lang
+Description_lang
+$id$ID<32>
+$relation$GarrTalentTreeID<u32>
+Tier<8>
+UiOrder<8>
+IconFileDataID<32>
+PlayerConditionID<u32>
+GarrAbilityID<u32>
+Flags<32>
+TalentType<32>
+PrerequisiteTalentID<32>
+ResearchCostSource<32>
+ActiveDurationSecs<32>
+GarrTalentSocketPropertiesID<32>

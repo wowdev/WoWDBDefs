@@ -18,24 +18,6 @@ int<TransmogSet::ID> TransmogSetID
 int<QuestV2::ID> QuestID?
 int<PlayerCondition::ID> PlayerConditionID
 locstring ToastDescription_lang
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-locstring Field_9_2_5_43519_002_lang?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-int Field_9_2_5_43519_011?
-int Field_9_2_5_43519_012?
-int Field_9_2_5_43519_013?
-int Field_9_2_5_43519_014?
-int Field_9_2_5_43519_015?
-int Field_9_2_5_43519_016?
-int Field_9_2_5_43519_017?
 
 LAYOUT D5E4583A
 BUILD 9.0.1.35432, 9.0.1.35482
@@ -131,21 +113,21 @@ PlayerConditionID<32>
 LAYOUT B1FF79CA
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002_lang
-$relation$Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<32>
-Field_9_2_5_43519_009<32>
-Field_9_2_5_43519_010<32>
-Field_9_2_5_43519_011<32>
-Field_9_2_5_43519_012<32>
-Field_9_2_5_43519_013<32>
-Field_9_2_5_43519_014<32>
-Field_9_2_5_43519_015<32>
-Field_9_2_5_43519_016<32>
-Field_9_2_5_43519_017<32>
+Name_lang
+Description_lang
+ToastDescription_lang
+$relation$CovenantID<32>
+Level<32>
+Icon<32>
+Flags<32>
+UiOrder<32>
+ItemID<32>
+SpellID<32>
+MountID<32>
+TransmogID<32>
+TransmogSetID<32>
+CharTitlesID<32>
+GarrFollowerID<32>
+TransmogIllusionID<32>
+QuestID<32>
+PlayerConditionID<32>

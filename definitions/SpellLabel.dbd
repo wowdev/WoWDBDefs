@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int LabelID
 int<Spell::ID> SpellID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 LAYOUT 3FC49F7C
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -55,5 +53,5 @@ $noninline,relation$SpellID<32>
 LAYOUT 8FB85089
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u32>
-$noninline,relation$Field_9_2_5_43519_001<32>
+LabelID<u32>
+$noninline,relation$SpellID<32>

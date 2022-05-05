@@ -8,15 +8,6 @@ float UiMin
 int<FileData::ID> OverrideHighlightFdID
 int<UiTextureAtlasMember::ID> OverrideHighlightAtlasID
 int Flags // &0x1: force continuing to parent regardless of coords
-float Field_9_2_5_43519_000?
-float Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
 
 LAYOUT 91402E0C
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169
@@ -116,12 +107,12 @@ Flags<32>
 
 LAYOUT AB3E538F
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000[2]
-Field_9_2_5_43519_001[2]
-$id$Field_9_2_5_43519_002<32>
-$relation$Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<32>
+UiMin[2]
+UiMax[2]
+$id$ID<32>
+$relation$ParentUiMapID<32>
+OrderIndex<32>
+ChildUiMapID<32>
+OverrideHighlightFdID<32>
+OverrideHighlightAtlasID<32>
+Flags<32>

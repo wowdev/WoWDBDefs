@@ -4,10 +4,6 @@ int<Spell::ID> SpellID
 int Slot // unique-ascending per SpellID
 int<ModifiedCraftingReagentSlot::ID> ModifiedCraftingReagentSlotID
 int Field_9_0_1_35679_003?
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 LAYOUT 7774860A
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598
@@ -33,7 +29,7 @@ Field_9_0_1_35679_003<32>
 LAYOUT 4287A74D
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-$relation$Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
+$relation$SpellID<32>
+Slot<32>
+ModifiedCraftingReagentSlotID<32>
+Field_9_0_1_35679_003<32>

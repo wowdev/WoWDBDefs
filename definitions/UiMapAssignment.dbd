@@ -9,16 +9,6 @@ float UiMax
 float UiMin
 int WMODoodadPlacementID // ADT's MODS uniqueId
 int WMOGroupID // WMO's group ID
-float Field_9_2_5_43519_000?
-float Field_9_2_5_43519_001?
-float Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
 
 LAYOUT FEC56AE4
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
@@ -88,13 +78,14 @@ WMOGroupID<32>
 
 LAYOUT FA228778
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000[2]
-Field_9_2_5_43519_001[2]
-Field_9_2_5_43519_002[6]
-$id$Field_9_2_5_43519_003<32>
-$relation$Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
-Field_9_2_5_43519_008<32>
-Field_9_2_5_43519_009<32>
+UiMin[2]
+UiMax[2]
+Region[6]
+$id$ID<32>
+$relation$UiMapID<32>
+OrderIndex<32>
+MapID<32>
+AreaID<32>
+WMODoodadPlacementID<32>
+WMOGroupID<32>
+

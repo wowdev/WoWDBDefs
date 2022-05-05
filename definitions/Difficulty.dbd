@@ -13,19 +13,6 @@ int<Curve::ID> GroupSizeSpellPointsCurveID
 locstring Name_lang
 int ItemContext
 int OrderIndex
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-int Field_9_2_5_43519_011?
-int Field_9_2_5_43519_012?
 
 LAYOUT 21EAE538
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -180,16 +167,16 @@ GroupSizeSpellPointsCurveID<u16>
 LAYOUT 9B05F092
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001<u8>
-Field_9_2_5_43519_002<u8>
-Field_9_2_5_43519_003<8>
-Field_9_2_5_43519_004<u8>
-Field_9_2_5_43519_005<u8>
-Field_9_2_5_43519_006<u8>
-Field_9_2_5_43519_007<u16>
-Field_9_2_5_43519_008<u8>
-Field_9_2_5_43519_009<u8>
-Field_9_2_5_43519_010<u16>
-Field_9_2_5_43519_011<u16>
-Field_9_2_5_43519_012<u16>
+Name_lang
+InstanceType<u8>
+OrderIndex<u8>
+OldEnumValue<8>
+FallbackDifficultyID<u8>
+MinPlayers<u8>
+MaxPlayers<u8>
+Flags<u16>
+ItemContext<u8>
+ToggleDifficultyID<u8>
+GroupSizeHealthCurveID<u16>
+GroupSizeDmgCurveID<u16>
+GroupSizeSpellPointsCurveID<u16>

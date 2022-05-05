@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int<ChrSpecialization::ID> ChrSpecializationID
 int<GlyphProperties::ID> GlyphPropertiesID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -60,5 +58,5 @@ $noninline,relation$GlyphPropertiesID<32>
 LAYOUT CC301712
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u16>
-$noninline,relation$Field_9_2_5_43519_001<32>
+ChrSpecializationID<u16>
+$noninline,relation$GlyphPropertiesID<32>

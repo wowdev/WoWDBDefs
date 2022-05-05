@@ -2,8 +2,6 @@ COLUMNS
 int ID
 string Name
 string Script
-string Field_9_2_5_43519_000?
-string Field_9_2_5_43519_001?
 
 LAYOUT B9F8FDF1, DE6E2251, 2023785D
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -43,5 +41,5 @@ Script
 LAYOUT 8239EFCD
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000
-Field_9_2_5_43519_001
+Name
+Script

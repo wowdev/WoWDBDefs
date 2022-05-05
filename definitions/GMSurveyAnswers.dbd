@@ -3,9 +3,6 @@ int ID
 int Sort_Index
 int<GMSurveyQuestions::ID> GMSurveyQuestionID
 locstring Answer_lang
-locstring Field_9_2_5_43519_000_lang?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -64,6 +61,6 @@ $noninline,relation$GMSurveyQuestionID<32>
 LAYOUT 8C4F9BE3
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001<u8>
-$noninline,relation$Field_9_2_5_43519_002<32>
+Answer_lang
+Sort_Index<u8>
+$noninline,relation$GMSurveyQuestionID<32>

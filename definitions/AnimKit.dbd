@@ -3,9 +3,6 @@ int ID
 int OneShotDuration
 int<AnimKit::ID> OneShotStopAnimKitID
 int<AnimKit::ID> LowDefAnimKitID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18414
@@ -61,6 +58,6 @@ LowDefAnimKitID<u16>
 LAYOUT 6287EB21
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u32>
-Field_9_2_5_43519_001<u16>
-Field_9_2_5_43519_002<u16>
+OneShotDuration<u32>
+OneShotStopAnimKitID<u16>
+LowDefAnimKitID<u16>

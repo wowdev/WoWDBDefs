@@ -8,14 +8,6 @@ int RespecGoldCost
 int<CurrencyTypes::ID> RespecCurrencyTypesID
 int RespecCurrencyTypesCost
 int RespecDurationSecs
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
 
 LAYOUT 7E4FE81D
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -40,11 +32,11 @@ RespecDurationSecs<32>
 LAYOUT 8A171D9D
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<32>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<32>
+GoldCost<32>
+CurrencyTypesID<32>
+CurrencyTypesCost<32>
+DurationSecs<32>
+RespecGoldCost<32>
+RespecCurrencyTypesID<32>
+RespecCurrencyTypesCost<32>
+RespecDurationSecs<32>

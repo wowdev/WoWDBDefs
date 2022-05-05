@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int<Curve::ID> CurveID
 int Type // 0: CombatRatingBonus for CR_CRIT_MELEE, CR_CRIT_RANGED, CR_CRIT_SPELL; 1: CombatRatingBonus for CR_MASTERY; 2: CombatRatingBonus for CR_HASTE_SPELL; 3: CombatRatingBonus for CR_SPEED; 4: CombatRatingBonus for CR_AVOIDANCE; 5: CombatRatingBonus for CR_UNKNOWN_30, CR_VERSATILITY_DAMAGE_DONE, CR_VERSATILITY_DAMAGE_TAKEN; 6: CombatRatingBonus for CR_LIFESTEAL; 7: CombatRatingBonus for CR_DODGE; 8: CombatRatingBonus for CR_BLOCK; 9: CombatRatingBonus for CR_PARRY;
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 LAYOUT 6EE9627F
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -20,5 +18,5 @@ Type<32>
 LAYOUT 7EA5C3BF
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
+CurveID<32>
+Type<32>

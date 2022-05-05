@@ -3,9 +3,6 @@ int ID
 int Season?
 int<Achievement::ID> AllianceAchievementID?
 int<Achievement::ID> HordeAchievementID?
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
 
 LAYOUT C8DCB4C5, CEFB693B
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -37,6 +34,7 @@ HordeAchievementID<32>
 LAYOUT 8623DD7F
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
+Season<32>
+AllianceAchievementID<32>
+HordeAchievementID<32>
+

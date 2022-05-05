@@ -24,29 +24,6 @@ float VolumeEdgeFadeStart
 int VolumeFlags
 float OverrideColorIntensity
 int Field_9_0_1_33978_001? // if 1: set TransitionSkyBox to 1.0f
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-float Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-float Field_9_2_5_43519_008?
-float Field_9_2_5_43519_009?
-float Field_9_2_5_43519_010?
-float Field_9_2_5_43519_011?
-float Field_9_2_5_43519_012?
-int Field_9_2_5_43519_013?
-float Field_9_2_5_43519_014?
-int Field_9_2_5_43519_015?
-float Field_9_2_5_43519_016?
-float Field_9_2_5_43519_017?
-float Field_9_2_5_43519_018?
-int Field_9_2_5_43519_019?
-int Field_9_2_5_43519_020?
-float Field_9_2_5_43519_021?
-float Field_9_2_5_43519_022?
 
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885
@@ -308,26 +285,26 @@ EffectColor[3]
 LAYOUT 354627A5
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u8>
-Field_9_2_5_43519_001<u8>
-Field_9_2_5_43519_002
-Field_9_2_5_43519_003<u32>
-Field_9_2_5_43519_004<u16>
-Field_9_2_5_43519_005<u8>
-Field_9_2_5_43519_006<32>
-Field_9_2_5_43519_007<u8>
-Field_9_2_5_43519_008
-Field_9_2_5_43519_009
-Field_9_2_5_43519_010
-Field_9_2_5_43519_011
-Field_9_2_5_43519_012
-Field_9_2_5_43519_013<32>
-Field_9_2_5_43519_014
-Field_9_2_5_43519_015<32>
-Field_9_2_5_43519_016
-Field_9_2_5_43519_017
-Field_9_2_5_43519_018
-Field_9_2_5_43519_019<32>
-Field_9_2_5_43519_020<32>
-Field_9_2_5_43519_021[2]
-Field_9_2_5_43519_022[3]
+Type<u8>
+Field_9_0_1_33978_001<u8>
+TransitionSkyBox
+AmbienceID<u32>
+SoundAmbienceID<u16>
+EffectType<u8>
+EffectTextureFileDataID<32>
+WindSettingsID<u8>
+Scale
+Volatility
+TwinkleIntensity
+FallModifier
+RotationalSpeed
+ParticulateFileDataID<32>
+VolumeEdgeFadeStart
+OverrideColor<32>
+OverrideColorIntensity
+OverrideCount
+OverrideOpacity
+VolumeFlags<32>
+LightningID<32>
+Intensity[2]
+EffectColor[3]

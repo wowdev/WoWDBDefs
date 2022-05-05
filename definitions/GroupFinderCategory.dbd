@@ -5,10 +5,6 @@ int Flags
 int OrderIndex
 int Field_2_5_2_39570_003?
 locstring Description_lang?
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 LAYOUT B5DAE0F2
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -77,7 +73,7 @@ Flags<32>
 LAYOUT 9B053B0D
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
+Name_lang
+Description_lang
+OrderIndex<32>
+Flags<32>

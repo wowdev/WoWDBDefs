@@ -2,8 +2,6 @@ COLUMNS
 int ID
 float Pos
 float Rot
-float Field_9_2_5_43519_000?
-float Field_9_2_5_43519_001?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -51,5 +49,5 @@ Rot[3]
 LAYOUT B0561808
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000[3]
-Field_9_2_5_43519_001[3]
+Pos[3]
+Rot[3]

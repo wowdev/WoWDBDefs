@@ -28,34 +28,6 @@ float MaskSizeMultiplier
 float Saturation
 int<TextureBlendSet::ID> TextureBlendSetID
 int<FileData::ID> OverlayTextureFileDataID
-int Field_9_2_5_43519_000?
-float Field_9_2_5_43519_001?
-float Field_9_2_5_43519_002?
-float Field_9_2_5_43519_003?
-float Field_9_2_5_43519_004?
-float Field_9_2_5_43519_005?
-float Field_9_2_5_43519_006?
-float Field_9_2_5_43519_007?
-float Field_9_2_5_43519_008?
-float Field_9_2_5_43519_009?
-float Field_9_2_5_43519_010?
-float Field_9_2_5_43519_011?
-float Field_9_2_5_43519_012?
-float Field_9_2_5_43519_013?
-float Field_9_2_5_43519_014?
-float Field_9_2_5_43519_015?
-float Field_9_2_5_43519_016?
-float Field_9_2_5_43519_017?
-float Field_9_2_5_43519_018?
-float Field_9_2_5_43519_019?
-int Field_9_2_5_43519_020?
-float Field_9_2_5_43519_021?
-float Field_9_2_5_43519_022?
-float Field_9_2_5_43519_023?
-float Field_9_2_5_43519_024?
-int Field_9_2_5_43519_025?
-int Field_9_2_5_43519_026?
-int Field_9_2_5_43519_027?
 
 LAYOUT 5CBF1D1B
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -217,31 +189,31 @@ TextureBlendSetID<u32>
 LAYOUT 6D545850
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u32>
-Field_9_2_5_43519_001
-Field_9_2_5_43519_002
-Field_9_2_5_43519_003
-Field_9_2_5_43519_004
-Field_9_2_5_43519_005
-Field_9_2_5_43519_006
-Field_9_2_5_43519_007
-Field_9_2_5_43519_008
-Field_9_2_5_43519_009
-Field_9_2_5_43519_010
-Field_9_2_5_43519_011
-Field_9_2_5_43519_012
-Field_9_2_5_43519_013
-Field_9_2_5_43519_014
-Field_9_2_5_43519_015
-Field_9_2_5_43519_016
-Field_9_2_5_43519_017
-Field_9_2_5_43519_018
-Field_9_2_5_43519_019
-Field_9_2_5_43519_020<32>
-Field_9_2_5_43519_021
-Field_9_2_5_43519_022
-Field_9_2_5_43519_023
-Field_9_2_5_43519_024
-Field_9_2_5_43519_025<u32>
-Field_9_2_5_43519_026<u32>
-Field_9_2_5_43519_027<u32>
+Flags<u32>
+Saturation
+GammaRed
+GammaGreen
+GammaBlue
+MaskOffsetY
+MaskSizeMultiplier
+MaskPower
+ColorMultiplyRed
+ColorMultiplyGreen
+ColorMultiplyBlue
+ColorMultiplyOffsetY
+ColorMultiplyMultiplier
+ColorMultiplyPower
+ColorAdditionRed
+ColorAdditionGreen
+ColorAdditionBlue
+ColorAdditionOffsetY
+ColorAdditionMultiplier
+ColorAdditionPower
+OverlayTextureFileDataID<32>
+BlurIntensity
+BlurOffsetY
+BlurMultiplier
+BlurPower
+EffectFadeInMs<u32>
+EffectFadeOutMs<u32>
+TextureBlendSetID<u32>

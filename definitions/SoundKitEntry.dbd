@@ -5,9 +5,6 @@ int<SoundKit::ID> SoundKitID
 int Frequency
 float Volume
 int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-float Field_9_2_5_43519_003?
 
 LAYOUT ADC0D817
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
@@ -67,6 +64,6 @@ LAYOUT 962B1DCC
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
 $relation$Field_9_2_5_43519_000<u32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<u8>
-Field_9_2_5_43519_003
+FileDataID<32>
+Frequency<u8>
+Volume

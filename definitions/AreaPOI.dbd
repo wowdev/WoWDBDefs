@@ -22,26 +22,6 @@ int<UiWidgetSet::ID> UiWidgetSetID
 int<UiTextureKit::ID> UiTextureKitID
 int Field_9_1_0_38783_011?
 int Field_9_1_0_38783_017?
-locstring Field_9_2_5_43519_000_lang?
-locstring Field_9_2_5_43519_001_lang?
-int Field_9_2_5_43519_002?
-float Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
-int Field_9_2_5_43519_007?
-int Field_9_2_5_43519_008?
-int Field_9_2_5_43519_009?
-int Field_9_2_5_43519_010?
-int Field_9_2_5_43519_011?
-int Field_9_2_5_43519_012?
-int Field_9_2_5_43519_013?
-int Field_9_2_5_43519_014?
-int Field_9_2_5_43519_015?
-int Field_9_2_5_43519_016?
-int Field_9_2_5_43519_017?
-int Field_9_2_5_43519_018?
-int Field_9_2_5_43519_019?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -429,23 +409,23 @@ Icon<u8>
 
 LAYOUT F44FDD3B
 BUILD 9.2.5.43519
-Field_9_2_5_43519_000_lang
-Field_9_2_5_43519_001_lang
-$id$Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003[3]
-Field_9_2_5_43519_004<32>
-Field_9_2_5_43519_005<u32>
-Field_9_2_5_43519_006<u32>
-Field_9_2_5_43519_007<u32>
-Field_9_2_5_43519_008<32>
-Field_9_2_5_43519_009<32>
-Field_9_2_5_43519_010<32>
-Field_9_2_5_43519_011<u32>
-$relation$Field_9_2_5_43519_012<u16>
-Field_9_2_5_43519_013<16>
-Field_9_2_5_43519_014<u16>
-Field_9_2_5_43519_015<u16>
-Field_9_2_5_43519_016<u16>
-Field_9_2_5_43519_017<u16>
-Field_9_2_5_43519_018<u8>
-Field_9_2_5_43519_019<u8>
+Name_lang
+Description_lang
+$id$ID<32>
+Pos[3]
+PortLocID<32>
+PlayerConditionID<u32>
+UiTextureAtlasMemberID<u32>
+Flags<u32>
+WMOGroupID<32>
+PoiDataType<32>
+PoiData<32>
+Field_9_1_0_38783_011<u32>
+$relation$ContinentID<u16>
+AreaID<16>
+WorldStateID<u16>
+UiWidgetSetID<u16>
+UiTextureKitID<u16>
+Field_9_1_0_38783_017<u16>
+Importance<u8>
+Icon<u8>

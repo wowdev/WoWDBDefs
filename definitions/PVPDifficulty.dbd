@@ -5,10 +5,6 @@ int RangeIndex
 int MinLevel
 int MaxLevel
 int Difficulty
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18273
@@ -92,7 +88,7 @@ $noninline,relation$MapID<32>
 LAYOUT 6CAB5565
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<u8>
-Field_9_2_5_43519_001<u8>
-Field_9_2_5_43519_002<u8>
-$noninline,relation$Field_9_2_5_43519_003<32>
+RangeIndex<u8>
+MinLevel<u8>
+MaxLevel<u8>
+$noninline,relation$MapID<32>

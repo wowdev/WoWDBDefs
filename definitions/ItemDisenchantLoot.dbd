@@ -7,13 +7,6 @@ int MinLevel
 int MaxLevel
 int SkillRequired
 int ExpansionID
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
-int Field_9_2_5_43519_005?
-int Field_9_2_5_43519_006?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -102,10 +95,10 @@ $noninline,relation$Class<32>
 LAYOUT B1D813A9
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<8>
-Field_9_2_5_43519_001<u8>
-Field_9_2_5_43519_002<u16>
-Field_9_2_5_43519_003<u16>
-Field_9_2_5_43519_004<u16>
-Field_9_2_5_43519_005<8>
-$noninline,relation$Field_9_2_5_43519_006<32>
+Subclass<8>
+Quality<u8>
+MinLevel<u16>
+MaxLevel<u16>
+SkillRequired<u16>
+ExpansionID<8>
+$noninline,relation$Class<32>

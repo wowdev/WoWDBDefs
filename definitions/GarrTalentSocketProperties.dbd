@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int GarrTalentSocketType
 int GarrTalentSocketSubtype
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 LAYOUT 6EBDB6D1
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -20,5 +18,5 @@ GarrTalentSocketSubtype<32>
 LAYOUT DA437EE1
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
+GarrTalentSocketType<32>
+GarrTalentSocketSubtype<32>

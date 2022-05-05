@@ -5,11 +5,6 @@ int Field_9_0_1_33978_001?
 int<Creature::ID> CreatureID?
 int<Spell::ID> SpellID?
 int Field_9_0_1_33978_004?
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
-int Field_9_2_5_43519_002?
-int Field_9_2_5_43519_003?
-int Field_9_2_5_43519_004?
 
 LAYOUT 25A83DE9
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -29,8 +24,8 @@ Field_9_0_1_33978_004<32>
 LAYOUT FB37E702
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-$relation$Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
-Field_9_2_5_43519_002<32>
-Field_9_2_5_43519_003<32>
-Field_9_2_5_43519_004<32>
+$relation$RTPCID<32>
+Field_9_0_1_33978_001<32>
+CreatureID<32>
+SpellID<32>
+Field_9_0_1_33978_004<32>

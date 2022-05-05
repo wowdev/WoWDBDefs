@@ -2,8 +2,6 @@ COLUMNS
 int ID
 string InternalName
 int Flags? // 1: unused in 8.3.0.32414, 2: , 4: , 8: has LevelDelta, 16: , 32: has WarforgeLevelDelta, 64:
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 LAYOUT DBB90FDA, 27547E6E
 BUILD 8.1.0.27826
@@ -31,5 +29,5 @@ Flags<32>
 
 LAYOUT 31228AEF
 BUILD 9.2.5.43519
-$id$Field_9_2_5_43519_000<32>
-Field_9_2_5_43519_001<32>
+$id$ID<32>
+Flags<32>

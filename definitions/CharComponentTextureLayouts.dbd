@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int Width
 int Height
-int Field_9_2_5_43519_000?
-int Field_9_2_5_43519_001?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -52,5 +50,5 @@ Height<16>
 LAYOUT B4407510
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-Field_9_2_5_43519_000<16>
-Field_9_2_5_43519_001<16>
+Width<16>
+Height<16>
