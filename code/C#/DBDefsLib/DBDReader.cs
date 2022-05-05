@@ -326,7 +326,7 @@ namespace DBDefsLib
                     if (!found)
                     {
                         Console.WriteLine("Column definition " + column.Key + " is never used in version definitions!");
-                        // newColumnDefDict.Remove(column.Key);
+                        newColumnDefDict.Remove(column.Key);
                     }
                 }
 
