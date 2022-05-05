@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int<Item::ID> ItemID
-int Field_9_2_5_43519_000?
 
 LAYOUT A6BDFDC1
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400
@@ -53,4 +52,4 @@ $relation$ItemID<32>
 LAYOUT E55A34CC
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-$relation$Field_9_2_5_43519_000<32>
+$relation$ItemID<32>

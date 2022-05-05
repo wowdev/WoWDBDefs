@@ -2,7 +2,6 @@ COLUMNS
 int ID
 int<GarrTalentTree::ID> GarrTalentTreeID?
 int GossipID?
-int Field_9_2_5_43519_001?
 
 LAYOUT 04F15B82
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -15,4 +14,4 @@ LAYOUT 9BE63EB3
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
 GarrTalentTreeID<32>
-$noninline,relation$Field_9_2_5_43519_001<32>
+$noninline,relation$GossipID<32>

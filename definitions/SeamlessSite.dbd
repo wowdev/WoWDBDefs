@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int<Map::ID> MapID
-int Field_9_2_5_43519_000?
 
 LAYOUT BFE7B9D3, 9E36592F, 95763E0E
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -42,4 +41,4 @@ $relation$MapID<32>
 LAYOUT 60B3CFFF
 BUILD 9.2.5.43519
 $noninline,id$ID<32>
-$relation$Field_9_2_5_43519_000<32>
+$relation$MapID<32>
