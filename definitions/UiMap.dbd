@@ -15,19 +15,6 @@ int<PlayerCondition::ID> VisibilityPlayerConditionID
 int<UiTextureAtlasElement::ID> BkgAtlasID
 int AlternateUiMapGroup?
 int<ContentTuning::ID> ContentTuningID?
-locstring Field_3_4_0_43659_000_lang?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
 
 LAYOUT F5EC37EE
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -54,19 +41,19 @@ LevelRangeMax<u32>
 
 LAYOUT AFE9114B
 BUILD 3.4.0.43659
-Field_3_4_0_43659_000_lang
-$id$Field_3_4_0_43659_001<32>
-$relation$Field_3_4_0_43659_002<32>
-Field_3_4_0_43659_003<32>
-Field_3_4_0_43659_004<u32>
-Field_3_4_0_43659_005<u32>
-Field_3_4_0_43659_006<32>
-Field_3_4_0_43659_007<u32>
-Field_3_4_0_43659_008<32>
-Field_3_4_0_43659_009<8>
-Field_3_4_0_43659_010<32>
-Field_3_4_0_43659_011<u32>
-Field_3_4_0_43659_012<u32>
+Name_lang
+$id$ID<32>
+$relation$ParentUiMapID<32>
+Flags<32>
+System<u32>
+Type<u32>
+BountySetID<32>
+BountyDisplayLocation<u32>
+VisibilityPlayerConditionID<32>
+HelpTextPosition<8>
+BkgAtlasID<32>
+LevelRangeMin<u32>
+LevelRangeMax<u32>
 
 LAYOUT 2C161494
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367

@@ -53,27 +53,6 @@ locstring Field_2_0_0_5610_020_lang?
 int Field_1_5_0_4442_014?
 int Field_3_0_2_9056_021?
 int Field_1_7_0_4671_015?
-string Field_3_4_0_43659_000?
-locstring Field_3_4_0_43659_001_lang?
-locstring Field_3_4_0_43659_002_lang?
-locstring Field_3_4_0_43659_003_lang?
-locstring Field_3_4_0_43659_004_lang?
-locstring Field_3_4_0_43659_005_lang?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
-int Field_3_4_0_43659_013?
-int Field_3_4_0_43659_014?
-float Field_3_4_0_43659_015?
-int Field_3_4_0_43659_016?
-int Field_3_4_0_43659_017?
-int Field_3_4_0_43659_018?
-int Field_3_4_0_43659_019?
-int Field_3_4_0_43659_020?
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
@@ -547,27 +526,27 @@ MaxPlayers<32>
 LAYOUT A81BAFA6
 BUILD 3.4.0.43659
 $noninline,id$ID<32>
-Field_3_4_0_43659_000
-Field_3_4_0_43659_001_lang
-Field_3_4_0_43659_002_lang
-Field_3_4_0_43659_003_lang
-Field_3_4_0_43659_004_lang
-Field_3_4_0_43659_005_lang
-Field_3_4_0_43659_006<u8>
-Field_3_4_0_43659_007<8>
-Field_3_4_0_43659_008<u8>
-Field_3_4_0_43659_009<u16>
-Field_3_4_0_43659_010<16>
-Field_3_4_0_43659_011<16>
-Field_3_4_0_43659_012<16>
-Field_3_4_0_43659_013<16>
-Field_3_4_0_43659_014<u8>
-Field_3_4_0_43659_015
-Field_3_4_0_43659_016<16>
-Field_3_4_0_43659_017<u8>
-Field_3_4_0_43659_018<16>
-Field_3_4_0_43659_019<32>
-Field_3_4_0_43659_020<32>[3]
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
+MapType<u8>
+InstanceType<8>
+ExpansionID<u8>
+AreaTableID<u16>
+LoadingScreenID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+TimeOffset<u8>
+MinimapIconScale
+CorpseMapID<16>
+MaxPlayers<u8>
+WindSettingsID<16>
+ZmpFileDataID<32>
+Flags<32>[3]
 
 BUILD 4.0.1.12911
 BUILD 4.0.0.11792

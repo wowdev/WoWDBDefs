@@ -2,15 +2,12 @@ COLUMNS
 int ID
 int<Item::ID> ItemID
 int<Spell::ID> SpellID
-int Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
 
 LAYOUT 9BFC449E
 BUILD 3.4.0.43659
-$id$Field_3_4_0_43659_000<32>
-Field_3_4_0_43659_001<32>
-$noninline,relation$Field_3_4_0_43659_002<32>
+$id$ID<32>
+ItemID<32>
+$noninline,relation$SpellID<32>
 
 LAYOUT 8611CEBF
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524

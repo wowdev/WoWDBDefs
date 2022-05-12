@@ -16,22 +16,6 @@ int<AreaTriggerActionSet::ID> AreaTriggerActionSetID
 int Flags
 int PhaseShift
 locstring Message_lang?
-locstring Field_3_4_0_43659_000_lang?
-float Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-float Field_3_4_0_43659_007?
-float Field_3_4_0_43659_008?
-float Field_3_4_0_43659_009?
-float Field_3_4_0_43659_010?
-float Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
-int Field_3_4_0_43659_013?
-int Field_3_4_0_43659_014?
-int Field_3_4_0_43659_015?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -90,22 +74,22 @@ Box_yaw
 
 LAYOUT 3845397A
 BUILD 3.4.0.43659
-Field_3_4_0_43659_000_lang
-Field_3_4_0_43659_001[3]
-$id$Field_3_4_0_43659_002<32>
-$relation$Field_3_4_0_43659_003<16>
-Field_3_4_0_43659_004<8>
-Field_3_4_0_43659_005<16>
-Field_3_4_0_43659_006<16>
-Field_3_4_0_43659_007
-Field_3_4_0_43659_008
-Field_3_4_0_43659_009
-Field_3_4_0_43659_010
-Field_3_4_0_43659_011
-Field_3_4_0_43659_012<8>
-Field_3_4_0_43659_013<16>
-Field_3_4_0_43659_014<16>
-Field_3_4_0_43659_015<8>
+Message_lang
+Pos[3]
+$id$ID<32>
+ContinentID<16>
+PhaseUseFlags<8>
+PhaseID<16>
+PhaseGroupID<16>
+Radius
+Box_length
+Box_width
+Box_height
+Box_yaw
+ShapeType<8>
+ShapeID<16>
+AreaTriggerActionSetID<16>
+Flags<8>
 
 BUILD 4.0.0.11792
 $id$ID<32>

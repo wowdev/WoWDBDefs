@@ -16,19 +16,6 @@ int<TextureFileData::MaterialResourcesID> BakeMaterialResourcesID
 int CustomDisplayOption
 int DisplayClassID
 string BakeName
-int Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.0.5991
@@ -70,19 +57,19 @@ CustomDisplayOption<u8>[3]
 
 LAYOUT 03BFCF96
 BUILD 3.4.0.43659
-$id$Field_3_4_0_43659_000<32>
-Field_3_4_0_43659_001<8>
-Field_3_4_0_43659_002<8>
-Field_3_4_0_43659_003<8>
-Field_3_4_0_43659_004<8>
-Field_3_4_0_43659_005<8>
-Field_3_4_0_43659_006<8>
-Field_3_4_0_43659_007<8>
-Field_3_4_0_43659_008<8>
-Field_3_4_0_43659_009<8>
-Field_3_4_0_43659_010<32>
-Field_3_4_0_43659_011<32>
-Field_3_4_0_43659_012<u8>[3]
+$id$ID<32>
+DisplayRaceID<8>
+DisplaySexID<8>
+DisplayClassID<8>
+SkinID<8>
+FaceID<8>
+HairStyleID<8>
+HairColorID<8>
+FacialHairID<8>
+Flags<8>
+BakeMaterialResourcesID<32>
+HDBakeMaterialResourcesID<32>
+CustomDisplayOption<u8>[3]
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18273

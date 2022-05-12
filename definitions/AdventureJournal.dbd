@@ -23,28 +23,6 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
-locstring Field_3_4_0_43659_000_lang?
-locstring Field_3_4_0_43659_001_lang?
-locstring Field_3_4_0_43659_002_lang?
-locstring Field_3_4_0_43659_003_lang?
-locstring Field_3_4_0_43659_004_lang?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
-int Field_3_4_0_43659_013?
-int Field_3_4_0_43659_014?
-int Field_3_4_0_43659_015?
-int Field_3_4_0_43659_016?
-int Field_3_4_0_43659_017?
-int Field_3_4_0_43659_018?
-int Field_3_4_0_43659_019?
-int Field_3_4_0_43659_020?
-int Field_3_4_0_43659_021?
 
 LAYOUT AF456C4F
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -107,28 +85,28 @@ BonusValue<u8>[2]
 LAYOUT D04C194C
 BUILD 3.4.0.43659
 $noninline,id$ID<32>
-Field_3_4_0_43659_000_lang
-Field_3_4_0_43659_001_lang
-Field_3_4_0_43659_002_lang
-Field_3_4_0_43659_003_lang
-Field_3_4_0_43659_004_lang
-Field_3_4_0_43659_005<u8>
-Field_3_4_0_43659_006<u32>
-Field_3_4_0_43659_007<32>
-Field_3_4_0_43659_008<u8>
-Field_3_4_0_43659_009<32>
-Field_3_4_0_43659_010<u16>
-Field_3_4_0_43659_011<u32>
-Field_3_4_0_43659_012<u16>
-Field_3_4_0_43659_013<u8>
-Field_3_4_0_43659_014<u8>
-Field_3_4_0_43659_015<32>
-Field_3_4_0_43659_016<u32>
-Field_3_4_0_43659_017<u16>
-Field_3_4_0_43659_018<u8>
-Field_3_4_0_43659_019<u16>
-Field_3_4_0_43659_020<u32>[2]
-Field_3_4_0_43659_021<u8>[2]
+Name_lang
+Description_lang
+ButtonText_lang
+RewardDescription_lang
+ContinueDescription_lang
+Type<u8>
+PlayerConditionID<u32>
+Flags<32>
+ButtonActionType<u8>
+TextureFileDataID<32>
+LfgDungeonID<u16>
+QuestID<u32>
+BattleMasterListID<u16>
+PriorityMin<u8>
+PriorityMax<u8>
+ItemID<32>
+ItemQuantity<u32>
+CurrencyType<u16>
+CurrencyQuantity<u8>
+UIMapID<u16>
+BonusPlayerConditionID<u32>[2]
+BonusValue<u8>[2]
 
 LAYOUT F07172ED
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
