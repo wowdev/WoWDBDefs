@@ -4,6 +4,19 @@ int<ChrClasses::ID> ChrClassID
 int Purpose
 int Racemask
 int Field_2_5_1_38043_004?
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+
+LAYOUT 146E4AFA
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000<64>
+$id$Field_3_4_0_43659_001<32>
+Field_3_4_0_43659_002<8>
+Field_3_4_0_43659_003<8>
+Field_3_4_0_43659_004<8>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

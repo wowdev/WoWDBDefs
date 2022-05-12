@@ -27,6 +27,28 @@ float YawVariation
 int Field_4_0_6_13623_008?
 float Field_9_0_1_33978_021?
 int Field_7_3_2_25549_000? // always matches ParentSpellVisualKitID relation?
+float Field_3_4_0_43659_000?
+float Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+float Field_3_4_0_43659_006?
+float Field_3_4_0_43659_007?
+float Field_3_4_0_43659_008?
+float Field_3_4_0_43659_009?
+float Field_3_4_0_43659_010?
+float Field_3_4_0_43659_011?
+float Field_3_4_0_43659_012?
+float Field_3_4_0_43659_013?
+int Field_3_4_0_43659_014?
+int Field_3_4_0_43659_015?
+int Field_3_4_0_43659_016?
+int Field_3_4_0_43659_017?
+int Field_3_4_0_43659_018?
+int Field_3_4_0_43659_019?
+float Field_3_4_0_43659_020?
+int Field_3_4_0_43659_021?
 
 LAYOUT 6A8BE635
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -58,6 +80,31 @@ Flags<u8>
 LowDefModelAttachID<u32>
 StartDelay
 $noninline,relation$ParentSpellVisualKitID<32>
+
+LAYOUT 7025F954
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000[3]
+Field_3_4_0_43659_001[3]
+$id$Field_3_4_0_43659_002<32>
+Field_3_4_0_43659_003<u16>
+Field_3_4_0_43659_004<8>
+Field_3_4_0_43659_005<u16>
+Field_3_4_0_43659_006
+Field_3_4_0_43659_007
+Field_3_4_0_43659_008
+Field_3_4_0_43659_009
+Field_3_4_0_43659_010
+Field_3_4_0_43659_011
+Field_3_4_0_43659_012
+Field_3_4_0_43659_013
+Field_3_4_0_43659_014<16>
+Field_3_4_0_43659_015<16>
+Field_3_4_0_43659_016<16>
+Field_3_4_0_43659_017<u16>
+Field_3_4_0_43659_018<u8>
+Field_3_4_0_43659_019<u32>
+Field_3_4_0_43659_020
+$noninline,relation$Field_3_4_0_43659_021<32>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13596

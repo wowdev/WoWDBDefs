@@ -2,6 +2,14 @@ COLUMNS
 float StateMultiplier
 int ID
 int QualityEnum
+float Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+
+LAYOUT 15F18463
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000
+Field_3_4_0_43659_001<u8>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

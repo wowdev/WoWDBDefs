@@ -3,6 +3,9 @@ int ID
 float Factor
 int<GarrAbility::ID> GarrAbilityID
 int<GarrMechanicType::ID> GarrMechanicTypeID
+int Field_3_4_0_43659_000?
+float Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
 
 LAYOUT 404198A0
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -73,3 +76,10 @@ GarrMechanicTypeID<32>
 Factor
 GarrAbilityID<32>
 
+
+LAYOUT 755DA660
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<u8>
+Field_3_4_0_43659_001
+Field_3_4_0_43659_002<32>

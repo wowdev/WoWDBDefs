@@ -6,6 +6,17 @@ locstring Description_lang
 locstring StandingModified_lang? // +- diff
 locstring StandingChangedText_lang? // reached level
 int Flags // &1: ???, &2: NoModifiedEvents?, &4: NoChangedEvents?, &8: ???
+locstring Field_3_4_0_43659_000_lang?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+
+LAYOUT 460DC973
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000_lang
+$id$Field_3_4_0_43659_001<u32>
+Field_3_4_0_43659_002<u16>
+Field_3_4_0_43659_003<32>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

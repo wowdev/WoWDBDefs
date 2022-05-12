@@ -7,6 +7,19 @@ float Radius // default 1.85, World (view) space size of the occlusion sphere
 float ShadowMult // default 1.1, Shadow Multiplier [0.0, 5.0] Effect strength linear multiplier
 float ShadowPower // default 1.34, Shadow Power [0.5, 5.0] Effect strength pow modifier
 float ShadowClamp? // default 0.98, Shadow Clamp [0.0, 1.0]
+int Field_3_4_0_43659_000?
+float Field_3_4_0_43659_001?
+float Field_3_4_0_43659_002?
+float Field_3_4_0_43659_003?
+float Field_3_4_0_43659_004?
+
+LAYOUT C35ECCDC
+BUILD 3.4.0.43659
+$id$Field_3_4_0_43659_000<32>
+Field_3_4_0_43659_001
+Field_3_4_0_43659_002
+Field_3_4_0_43659_003
+Field_3_4_0_43659_004
 
 LAYOUT 7F7B7D5B, 20BC890C
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662

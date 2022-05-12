@@ -19,6 +19,21 @@ int<Item::ID> RewardItemID
 int<Covenant::ID> CovenantID
 int Field_3_0_1_8471_007? // possibly ui_order
 int Field_3_0_1_8303_002?
+locstring Field_3_4_0_43659_000_lang?
+locstring Field_3_4_0_43659_001_lang?
+locstring Field_3_4_0_43659_002_lang?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+int Field_3_4_0_43659_008?
+int Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+int Field_3_4_0_43659_011?
+int Field_3_4_0_43659_012?
+int Field_3_4_0_43659_013?
+int Field_3_4_0_43659_014?
 
 LAYOUT 19FCE7B0
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -72,6 +87,24 @@ Description_lang
 Category<32>
 Points<32>
 Field_3_0_1_8471_007<32>
+
+LAYOUT D5F6F3F9
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000_lang
+Field_3_4_0_43659_001_lang
+Field_3_4_0_43659_002_lang
+$id$Field_3_4_0_43659_003<32>
+Field_3_4_0_43659_004<16>
+Field_3_4_0_43659_005<8>
+Field_3_4_0_43659_006<16>
+Field_3_4_0_43659_007<16>
+Field_3_4_0_43659_008<8>
+Field_3_4_0_43659_009<8>
+Field_3_4_0_43659_010<32>
+$relation$Field_3_4_0_43659_011<16>
+Field_3_4_0_43659_012<32>
+Field_3_4_0_43659_013<u32>
+Field_3_4_0_43659_014<16>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.3.4.15595

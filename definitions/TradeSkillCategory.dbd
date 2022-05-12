@@ -6,6 +6,23 @@ int OrderIndex
 locstring Name_lang
 int Flags
 locstring HordeName_lang
+locstring Field_3_4_0_43659_000_lang?
+locstring Field_3_4_0_43659_001_lang?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+
+LAYOUT DF09A044
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000_lang
+Field_3_4_0_43659_001_lang
+$id$Field_3_4_0_43659_002<32>
+Field_3_4_0_43659_003<u16>
+Field_3_4_0_43659_004<u16>
+Field_3_4_0_43659_005<16>
+Field_3_4_0_43659_006<u8>
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15640-5.4.8.18414

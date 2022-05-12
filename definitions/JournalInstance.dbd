@@ -11,6 +11,17 @@ locstring Description_lang
 int Flags
 int OrderIndex
 int Field_4_2_0_14333_006? // OrderIndex? used to sort records
+locstring Field_3_4_0_43659_000_lang?
+locstring Field_3_4_0_43659_001_lang?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+int Field_3_4_0_43659_008?
+int Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
 
 LAYOUT 71413EF7
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -26,6 +37,20 @@ LoreFileDataID<32>
 OrderIndex<u8>
 Flags<32>
 AreaID<u16>
+
+LAYOUT B519A247
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000_lang
+Field_3_4_0_43659_001_lang
+$id$Field_3_4_0_43659_002<32>
+Field_3_4_0_43659_003<u16>
+Field_3_4_0_43659_004<32>
+Field_3_4_0_43659_005<32>
+Field_3_4_0_43659_006<32>
+Field_3_4_0_43659_007<32>
+Field_3_4_0_43659_008<u8>
+Field_3_4_0_43659_009<32>
+Field_3_4_0_43659_010<u16>
 
 BUILD 5.0.1.15464-5.0.1.15677
 BUILD 4.2.0.14333-4.3.4.15595

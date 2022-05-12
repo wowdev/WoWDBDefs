@@ -7,6 +7,24 @@ int Operator
 int Amount
 int<ModifierTree::ID> Parent
 int TertiaryAsset
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+
+LAYOUT CE6C3A86
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<u32>
+Field_3_4_0_43659_001<8>
+Field_3_4_0_43659_002<8>
+Field_3_4_0_43659_003<32>
+Field_3_4_0_43659_004<32>
+Field_3_4_0_43659_005<32>
+Field_3_4_0_43659_006<8>
 
 BUILD 5.0.1.15464-5.0.5.16135
 $id$ID<32>

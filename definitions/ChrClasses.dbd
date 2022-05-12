@@ -48,6 +48,31 @@ locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and
 locstring Hyphenated_name_female_lang?
 int Field_2_5_1_38043_011?
 int Field_2_5_4_42581_012?
+locstring Field_3_4_0_43659_000_lang?
+string Field_3_4_0_43659_001?
+locstring Field_3_4_0_43659_002_lang?
+locstring Field_3_4_0_43659_003_lang?
+string Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+int Field_3_4_0_43659_008?
+int Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+int Field_3_4_0_43659_011?
+int Field_3_4_0_43659_012?
+int Field_3_4_0_43659_013?
+int Field_3_4_0_43659_014?
+int Field_3_4_0_43659_015?
+int Field_3_4_0_43659_016?
+int Field_3_4_0_43659_017?
+int Field_3_4_0_43659_018?
+int Field_3_4_0_43659_019?
+int Field_3_4_0_43659_020?
+int Field_3_4_0_43659_021?
+int Field_3_4_0_43659_022?
+int Field_3_4_0_43659_023?
+int Field_3_4_0_43659_024?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -291,6 +316,34 @@ SpellClassSet<32>
 Flags<32>
 CinematicSequenceID<32>
 Required_expansion<32>
+
+LAYOUT D117207F
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000_lang
+Field_3_4_0_43659_001
+Field_3_4_0_43659_002_lang
+Field_3_4_0_43659_003_lang
+Field_3_4_0_43659_004
+$id$Field_3_4_0_43659_005<32>
+Field_3_4_0_43659_006<u32>
+Field_3_4_0_43659_007<u32>
+Field_3_4_0_43659_008<u32>
+Field_3_4_0_43659_009<u32>
+Field_3_4_0_43659_010<32>
+Field_3_4_0_43659_011<32>
+Field_3_4_0_43659_012<u32>
+Field_3_4_0_43659_013<u32>
+Field_3_4_0_43659_014<u16>
+Field_3_4_0_43659_015<u16>
+Field_3_4_0_43659_016<u8>
+Field_3_4_0_43659_017<u8>
+Field_3_4_0_43659_018<u8>
+Field_3_4_0_43659_019<u8>
+Field_3_4_0_43659_020<u8>
+Field_3_4_0_43659_021<u8>
+Field_3_4_0_43659_022<u8>
+Field_3_4_0_43659_023<u8>
+Field_3_4_0_43659_024<u8>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11927-4.3.4.15595

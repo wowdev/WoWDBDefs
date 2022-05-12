@@ -12,6 +12,13 @@ int<PlayerCondition::ID> PlayerConditionID?
 int FeatureTypeIndex // 0: Generic, 1: AnimaDiversion, 2: TravelPortals, 3: Adventures, 4: ReservoirUpgrades, 5: SanctumUnique, 6: SoulBinds, 7: AnimaDiversionMap
 int FeatureSubtypeIndex // 0: Generic, 1: Bastion, 2: Revendreth, 3: Maldraxxus, 4: Ardenweald
 int<CurrencyTypes::ID> CurrencyID?
+locstring Field_3_4_0_43659_000_lang?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
 
 LAYOUT C6C3E719
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -30,6 +37,17 @@ MaxTiers<8>
 UiOrder<8>
 Flags<8>
 UiTextureKitID<u16>
+
+LAYOUT C3477D19
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000_lang
+Field_3_4_0_43659_001<32>
+Field_3_4_0_43659_002<32>
+Field_3_4_0_43659_003<8>
+Field_3_4_0_43659_004<8>
+Field_3_4_0_43659_005<8>
+Field_3_4_0_43659_006<u16>
 
 LAYOUT 676CBC04
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

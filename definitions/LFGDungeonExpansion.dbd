@@ -7,6 +7,13 @@ int Hard_level_min
 int Hard_level_max
 int Target_level_min
 int Target_level_max
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
 
 LAYOUT C96332BB
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -24,6 +31,17 @@ Hard_level_max<u8>
 Target_level_min<32>
 Target_level_max<32>
 $noninline,relation$Lfg_ID<32>
+
+LAYOUT 6EA3052A
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<u8>
+Field_3_4_0_43659_001<u16>
+Field_3_4_0_43659_002<u8>
+Field_3_4_0_43659_003<u8>
+Field_3_4_0_43659_004<32>
+Field_3_4_0_43659_005<32>
+$noninline,relation$Field_3_4_0_43659_006<32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

@@ -14,6 +14,12 @@ int TargetLevelMaxDelta // add to effective MaxLevel to get TargetLevelMax
 int TargetLevelMin?
 int TargetLevelMax?
 int MinItemLevel? // overrides LfgDungeons::MinGear if set
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
 
 LAYOUT D0AEEA71
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -30,6 +36,15 @@ MaxLevel<32>
 Flags<32>
 ExpectedStatModID<32>
 DifficultyESMID<32>
+
+LAYOUT 7BE7E4B1
+BUILD 3.4.0.43659
+$id$Field_3_4_0_43659_000<32>
+Field_3_4_0_43659_001<32>
+Field_3_4_0_43659_002<32>
+Field_3_4_0_43659_003<32>
+Field_3_4_0_43659_004<32>
+Field_3_4_0_43659_005<32>
 
 LAYOUT 70C53E15
 BUILD 8.0.1.26175

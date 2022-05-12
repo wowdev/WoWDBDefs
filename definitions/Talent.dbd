@@ -14,6 +14,20 @@ int SpellRank
 int<Talent::ID> PrereqTalent
 int PrereqRank
 int<Spell::ID> RequiredSpellID
+locstring Field_3_4_0_43659_000_lang?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+int Field_3_4_0_43659_008?
+int Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+int Field_3_4_0_43659_011?
+int Field_3_4_0_43659_012?
+int Field_3_4_0_43659_013?
 
 BUILD 0.7.0.3694-0.9.1.3810
 $id$ID<32>
@@ -122,6 +136,24 @@ PrereqTalent<32>[3]
 PrereqRank<32>[3]
 Flags<32>
 RequiredSpellID<32>
+
+LAYOUT B681C62A
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000_lang
+Field_3_4_0_43659_001<u8>
+Field_3_4_0_43659_002<u8>
+Field_3_4_0_43659_003<u8>
+Field_3_4_0_43659_004<u16>
+Field_3_4_0_43659_005<u8>
+Field_3_4_0_43659_006<u16>
+Field_3_4_0_43659_007<32>
+Field_3_4_0_43659_008<32>
+Field_3_4_0_43659_009<32>
+Field_3_4_0_43659_010<u8>[2]
+Field_3_4_0_43659_011<32>[9]
+Field_3_4_0_43659_012<32>[3]
+Field_3_4_0_43659_013<32>[3]
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12319

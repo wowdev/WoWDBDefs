@@ -9,6 +9,14 @@ int<ZoneMusic::ID> ZoneMusicID
 int<SoundAmbience::ID> SoundAmbienceID
 int<SoundProviderPreferences::ID> SoundProviderPreferencesID
 int OrderBy
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
 
 BUILD 3.0.1.8303-3.3.5.12340
 BUILD 2.4.0.8089-2.4.3.8606
@@ -20,6 +28,18 @@ ZoneIntroMusicID<32>
 ZoneMusicID<32>
 SoundAmbienceID<32>
 SoundProviderPreferencesID<32>
+
+LAYOUT 91F574B9
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<u16>
+Field_3_4_0_43659_001<u16>
+Field_3_4_0_43659_002<u16>
+Field_3_4_0_43659_003<u32>
+Field_3_4_0_43659_004<u16>
+Field_3_4_0_43659_005<u16>
+Field_3_4_0_43659_006<u16>
+Field_3_4_0_43659_007<u8>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

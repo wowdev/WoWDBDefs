@@ -22,6 +22,23 @@ int<UiWidgetSet::ID> UiWidgetSetID
 int<UiTextureKit::ID> UiTextureKitID
 int Field_9_1_0_38783_011?
 int Field_9_1_0_38783_017?
+locstring Field_3_4_0_43659_000_lang?
+locstring Field_3_4_0_43659_001_lang?
+int Field_3_4_0_43659_002?
+float Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+int Field_3_4_0_43659_008?
+int Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+int Field_3_4_0_43659_011?
+int Field_3_4_0_43659_012?
+int Field_3_4_0_43659_013?
+int Field_3_4_0_43659_014?
+int Field_3_4_0_43659_015?
+int Field_3_4_0_43659_016?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -101,6 +118,26 @@ Name_lang
 Description_lang
 WorldStateID<32>
 WorldMapLink<32>
+
+LAYOUT 2223A72E
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000_lang
+Field_3_4_0_43659_001_lang
+$id$Field_3_4_0_43659_002<32>
+Field_3_4_0_43659_003[3]
+Field_3_4_0_43659_004<32>
+Field_3_4_0_43659_005<u32>
+Field_3_4_0_43659_006<u32>
+Field_3_4_0_43659_007<u32>
+Field_3_4_0_43659_008<32>
+Field_3_4_0_43659_009<32>
+Field_3_4_0_43659_010<32>
+$relation$Field_3_4_0_43659_011<u16>
+Field_3_4_0_43659_012<16>
+Field_3_4_0_43659_013<u16>
+Field_3_4_0_43659_014<u16>
+Field_3_4_0_43659_015<u8>
+Field_3_4_0_43659_016<u8>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.11927

@@ -32,6 +32,35 @@ float Variance
 float EffectBasePointsF
 int Field_7_3_2_25549_010?
 int ScalingClass?
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+float Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+float Field_3_4_0_43659_008?
+float Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+int Field_3_4_0_43659_011?
+int Field_3_4_0_43659_012?
+int Field_3_4_0_43659_013?
+float Field_3_4_0_43659_014?
+float Field_3_4_0_43659_015?
+float Field_3_4_0_43659_016?
+int Field_3_4_0_43659_017?
+float Field_3_4_0_43659_018?
+float Field_3_4_0_43659_019?
+float Field_3_4_0_43659_020?
+float Field_3_4_0_43659_021?
+float Field_3_4_0_43659_022?
+float Field_3_4_0_43659_023?
+int Field_3_4_0_43659_024?
+int Field_3_4_0_43659_025?
+int Field_3_4_0_43659_026?
+int Field_3_4_0_43659_027?
+int Field_3_4_0_43659_028?
 
 LAYOUT D6EA6A1A
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -110,6 +139,39 @@ EffectRadiusIndex<u32>[2]
 EffectSpellClassMask<32>[4]
 ImplicitTarget<16>[2]
 $noninline,relation$SpellID<32>
+
+LAYOUT 6B64DD7A
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<32>
+Field_3_4_0_43659_001<32>
+Field_3_4_0_43659_002<u32>
+Field_3_4_0_43659_003
+Field_3_4_0_43659_004<32>
+Field_3_4_0_43659_005<16>
+Field_3_4_0_43659_006<32>
+Field_3_4_0_43659_007<32>
+Field_3_4_0_43659_008
+Field_3_4_0_43659_009
+Field_3_4_0_43659_010<32>
+Field_3_4_0_43659_011<32>
+Field_3_4_0_43659_012<32>
+Field_3_4_0_43659_013<32>
+Field_3_4_0_43659_014
+Field_3_4_0_43659_015
+Field_3_4_0_43659_016
+Field_3_4_0_43659_017<32>
+Field_3_4_0_43659_018
+Field_3_4_0_43659_019
+Field_3_4_0_43659_020
+Field_3_4_0_43659_021
+Field_3_4_0_43659_022
+Field_3_4_0_43659_023
+Field_3_4_0_43659_024<32>[2]
+Field_3_4_0_43659_025<u32>[2]
+Field_3_4_0_43659_026<32>[4]
+Field_3_4_0_43659_027<16>[2]
+$noninline,relation$Field_3_4_0_43659_028<32>
 
 BUILD 4.0.0.12232-4.2.0.14316
 $id$ID<32>

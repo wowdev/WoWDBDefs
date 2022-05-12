@@ -23,6 +23,20 @@ int SpecialID
 int SpecialAttachPoint
 int Field_2_0_0_6080_003?
 int Field_9_1_0_38549_014?
+int Field_3_4_0_43659_000?
+float Field_3_4_0_43659_001?
+float Field_3_4_0_43659_002?
+float Field_3_4_0_43659_003?
+float Field_3_4_0_43659_004?
+float Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+float Field_3_4_0_43659_008?
+int Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+int Field_3_4_0_43659_011?
+int Field_3_4_0_43659_012?
+int Field_3_4_0_43659_013?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -67,6 +81,25 @@ Name
 FileName
 AreaEffectSize
 Scale
+
+
+LAYOUT 6F64D3DD
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<32>
+Field_3_4_0_43659_001
+Field_3_4_0_43659_002
+Field_3_4_0_43659_003
+Field_3_4_0_43659_004
+Field_3_4_0_43659_005
+Field_3_4_0_43659_006<u32>
+Field_3_4_0_43659_007<32>
+Field_3_4_0_43659_008
+Field_3_4_0_43659_009<u32>
+Field_3_4_0_43659_010<32>
+Field_3_4_0_43659_011<u32>
+Field_3_4_0_43659_012<32>
+Field_3_4_0_43659_013<32>
 
 BUILD 4.0.0.11792
 BUILD 3.0.8.9328
@@ -268,4 +301,3 @@ RibbonQualityID<u32>
 DissolveEffectID<32>
 ModelPosition<32>
 Field_9_1_0_38549_014<8>
-

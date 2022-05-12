@@ -11,6 +11,18 @@ float OceanDeepAlpha
 int Flags
 float OverrideCelestialSphere
 int<SSAOSettings::ID> SsaoSettingsID
+float Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+float Field_3_4_0_43659_005?
+float Field_3_4_0_43659_006?
+float Field_3_4_0_43659_007?
+float Field_3_4_0_43659_008?
+float Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+int Field_3_4_0_43659_011?
 
 BUILD 3.0.1.8303-3.3.5.12340
 BUILD 2.0.0.5610-2.4.3.8606
@@ -24,6 +36,21 @@ WaterDeepAlpha
 OceanShallowAlpha
 OceanDeepAlpha
 Flags<32>
+
+LAYOUT FA62F9B6
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000[3]
+$id$Field_3_4_0_43659_001<32>
+Field_3_4_0_43659_002<u8>
+Field_3_4_0_43659_003<u16>
+Field_3_4_0_43659_004<u8>
+Field_3_4_0_43659_005
+Field_3_4_0_43659_006
+Field_3_4_0_43659_007
+Field_3_4_0_43659_008
+Field_3_4_0_43659_009
+Field_3_4_0_43659_010<8>
+Field_3_4_0_43659_011<32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

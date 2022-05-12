@@ -5,6 +5,12 @@ int<Item::ID> ItemID
 int DifficultyMask
 int FactionMask
 int Flags
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
 
 LAYOUT D3499B0A
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -15,6 +21,15 @@ ItemID<u32>
 FactionMask<8>
 Flags<32>
 DifficultyMask<8>
+
+LAYOUT 13C68F9B
+BUILD 3.4.0.43659
+$id$Field_3_4_0_43659_000<u32>
+$relation$Field_3_4_0_43659_001<u16>
+Field_3_4_0_43659_002<u32>
+Field_3_4_0_43659_003<8>
+Field_3_4_0_43659_004<32>
+Field_3_4_0_43659_005<8>
 
 BUILD 5.0.1.15464-5.3.0.17116
 BUILD 4.2.0.14333-4.3.4.15595

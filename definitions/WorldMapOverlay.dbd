@@ -17,6 +17,19 @@ int MapPointX
 int MapPointY
 int<UiMapArt::ID> UiMapArtID
 int Field_7_3_2_25549_012?
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+int Field_3_4_0_43659_008?
+int Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+int Field_3_4_0_43659_011?
+int Field_3_4_0_43659_012?
 
 BUILD 0.5.5.3494
 $id$ID<32>
@@ -29,6 +42,22 @@ TextureWidth<32>
 TextureHeight<32>
 OffsetX<32>
 OffsetY<32>
+
+LAYOUT D73DE991
+BUILD 3.4.0.43659
+$id$Field_3_4_0_43659_000<32>
+$relation$Field_3_4_0_43659_001<u32>
+Field_3_4_0_43659_002<u16>
+Field_3_4_0_43659_003<u16>
+Field_3_4_0_43659_004<32>
+Field_3_4_0_43659_005<32>
+Field_3_4_0_43659_006<32>
+Field_3_4_0_43659_007<32>
+Field_3_4_0_43659_008<32>
+Field_3_4_0_43659_009<32>
+Field_3_4_0_43659_010<u32>
+Field_3_4_0_43659_011<u32>
+Field_3_4_0_43659_012<u32>[4]
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13596

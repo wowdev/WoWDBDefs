@@ -11,6 +11,14 @@ int<SoundEntries::ID> SoundEntriesID
 int<Spell::ID> TriggerSpell?
 int Field_4_0_0_12911_007?
 int Field_9_1_5_39977_006?
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+float Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
 
 LAYOUT 0FE8E80E
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -30,6 +38,18 @@ SoundEntriesID<u32>
 Color<32>
 Scale
 TriggerType<8>
+
+LAYOUT 55B33B2E
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<32>[4]
+Field_3_4_0_43659_001<32>
+Field_3_4_0_43659_002<32>
+Field_3_4_0_43659_003<8>
+Field_3_4_0_43659_004<u32>
+Field_3_4_0_43659_005<32>
+Field_3_4_0_43659_006
+Field_3_4_0_43659_007<8>
 
 BUILD 4.0.0.12911-4.1.0.13875
 $id$ID<32>

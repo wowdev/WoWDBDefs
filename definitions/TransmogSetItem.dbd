@@ -3,6 +3,17 @@ int ID
 int Flags
 int<ItemModifiedAppearance::ID> ItemModifiedAppearanceID
 int<TransmogSet::ID> TransmogSetID
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+
+LAYOUT EF36A899
+BUILD 3.4.0.43659
+$id$Field_3_4_0_43659_000<32>
+$relation$Field_3_4_0_43659_001<u32>
+Field_3_4_0_43659_002<u32>
+Field_3_4_0_43659_003<32>
 
 LAYOUT 0E96B3A2, 23855A82, 79E6E5F6
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524

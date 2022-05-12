@@ -9,6 +9,15 @@ int<Item::ID> ParentItemID
 int<SpellCategory::ID> SpellCategoryID
 int<Spell::ID> SpellID
 int TriggerType
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+int Field_3_4_0_43659_008?
 
 LAYOUT 95B79695
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -28,6 +37,19 @@ SpellCategoryID<u16>
 SpellID<32>
 ChrSpecializationID<u16>
 $noninline,relation$ParentItemID<32>
+
+LAYOUT F2A2E644
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<u8>
+Field_3_4_0_43659_001<8>
+Field_3_4_0_43659_002<16>
+Field_3_4_0_43659_003<32>
+Field_3_4_0_43659_004<32>
+Field_3_4_0_43659_005<u16>
+Field_3_4_0_43659_006<32>
+Field_3_4_0_43659_007<u16>
+$noninline,relation$Field_3_4_0_43659_008<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>

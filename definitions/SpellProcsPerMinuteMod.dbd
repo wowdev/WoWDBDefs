@@ -4,6 +4,10 @@ int Type
 int Param
 float Coeff
 int<SpellProcsPerMinute::ID> SpellProcsPerMinuteID
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+float Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
 
 LAYOUT A09AE996
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -18,6 +22,14 @@ Type<u8>
 Param<16>
 Coeff
 $noninline,relation$SpellProcsPerMinuteID<32>
+
+LAYOUT 4BFCB147
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<u8>
+Field_3_4_0_43659_001<16>
+Field_3_4_0_43659_002
+$noninline,relation$Field_3_4_0_43659_003<32>
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414

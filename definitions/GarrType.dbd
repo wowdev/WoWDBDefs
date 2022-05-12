@@ -8,6 +8,20 @@ int<CurrencyTypes::ID> SecondaryCurrencyTypeID
 float AutoFollowerHealRate
 int<Curve::ID> MissionCostCurveID?
 float AutoFollowerHealCostMult
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+
+LAYOUT BC0C747F
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<u32>
+Field_3_4_0_43659_001<u32>
+Field_3_4_0_43659_002<u32>
+Field_3_4_0_43659_003<u32>
+Field_3_4_0_43659_004<32>[2]
 
 LAYOUT 40A23048
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

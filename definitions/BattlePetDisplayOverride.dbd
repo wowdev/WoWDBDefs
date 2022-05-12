@@ -4,6 +4,18 @@ int<BattlePetSpecies::ID> BattlePetSpeciesID
 int<CreatureDisplayInfo::ID> CreatureDisplayInfoID
 int<PlayerCondition::ID> PlayerConditionID
 int PriorityCategory
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+
+LAYOUT 34CDCEE8
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<u32>
+Field_3_4_0_43659_001<u32>
+Field_3_4_0_43659_002<u32>
+Field_3_4_0_43659_003<u8>
 
 LAYOUT 454BAB0A
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766

@@ -5,6 +5,11 @@ int CurrencyType
 int ItemLevelIncrement
 int<ItemUpgradePath::ID> ItemUpgradePathID
 int PrerequisiteID
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
 
 LAYOUT 0B161BB8
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638
@@ -21,6 +26,15 @@ ItemLevelIncrement<u8>
 PrerequisiteID<u16>
 CurrencyType<u16>
 CurrencyAmount<u32>
+
+LAYOUT 6654AC08
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<u8>
+Field_3_4_0_43659_001<u8>
+Field_3_4_0_43659_002<u16>
+Field_3_4_0_43659_003<u16>
+Field_3_4_0_43659_004<u32>
 
 BUILD 5.0.1.15464-5.0.1.15662
 $id$ID<32>

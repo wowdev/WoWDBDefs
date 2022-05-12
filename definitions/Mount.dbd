@@ -14,6 +14,31 @@ int SourceTypeEnum
 int<UiModelScene::ID> UiModelSceneID
 int<AnimKit::ID> MountSpecialRiderAnimKitID?
 int<SpellVisualKit::ID> MountSpecialSpellVisualKitID?
+locstring Field_3_4_0_43659_000_lang?
+locstring Field_3_4_0_43659_001_lang?
+locstring Field_3_4_0_43659_002_lang?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+int Field_3_4_0_43659_008?
+float Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+
+LAYOUT E1D74D32
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000_lang
+Field_3_4_0_43659_001_lang
+Field_3_4_0_43659_002_lang
+$id$Field_3_4_0_43659_003<32>
+Field_3_4_0_43659_004<u16>
+Field_3_4_0_43659_005<u16>
+Field_3_4_0_43659_006<8>
+Field_3_4_0_43659_007<32>
+Field_3_4_0_43659_008<u32>
+Field_3_4_0_43659_009
+Field_3_4_0_43659_010<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -15,6 +15,22 @@ int Flags
 int<FriendshipReputation::ID> FriendshipRepID
 int<Faction::ID> ParagonFactionID
 int ReputationMax
+int Field_3_4_0_43659_000?
+locstring Field_3_4_0_43659_001_lang?
+locstring Field_3_4_0_43659_002_lang?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+int Field_3_4_0_43659_008?
+int Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+int Field_3_4_0_43659_011?
+int Field_3_4_0_43659_012?
+int Field_3_4_0_43659_013?
+float Field_3_4_0_43659_014?
+int Field_3_4_0_43659_015?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -86,6 +102,25 @@ ReputationFlags<32>[4]
 ParentFactionID<32>
 Name_lang
 Description_lang
+
+LAYOUT B7AB2004
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000<64>[4]
+Field_3_4_0_43659_001_lang
+Field_3_4_0_43659_002_lang
+$id$Field_3_4_0_43659_003<32>
+Field_3_4_0_43659_004<16>
+Field_3_4_0_43659_005<u16>
+Field_3_4_0_43659_006<u8>
+Field_3_4_0_43659_007<u8>
+Field_3_4_0_43659_008<u8>
+Field_3_4_0_43659_009<u16>
+Field_3_4_0_43659_010<16>[4]
+Field_3_4_0_43659_011<u16>[4]
+Field_3_4_0_43659_012<32>[4]
+Field_3_4_0_43659_013<32>[4]
+Field_3_4_0_43659_014[2]
+Field_3_4_0_43659_015<u8>[2]
 
 BUILD 4.0.0.11792
 BUILD 3.3.0.10958-3.3.5.12340

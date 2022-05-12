@@ -9,6 +9,13 @@ int<ItemDisplayInfo::ID> DisplayItemID
 int InventoryType
 int<CreatureDisplayInfo::ID> PetDisplayID
 int<CreatureFamily::ID> PetFamilyID
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.4.3.8606
@@ -39,6 +46,17 @@ PetDisplayID<u32>
 PetFamilyID<u8>
 ItemID<32>[24]
 $noninline,relation$RaceID<32>
+
+LAYOUT 3CF88584
+BUILD 3.4.0.43659
+$noninline,id$ID<32>
+Field_3_4_0_43659_000<u8>
+Field_3_4_0_43659_001<u8>
+Field_3_4_0_43659_002<u8>
+Field_3_4_0_43659_003<u32>
+Field_3_4_0_43659_004<u8>
+Field_3_4_0_43659_005<32>[24]
+$noninline,relation$Field_3_4_0_43659_006<32>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.11927

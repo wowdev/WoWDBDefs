@@ -12,6 +12,33 @@ int OptionType? // 0 = Slider, 1 = Checkbox
 float BarberShopCostModifier?
 int<ChrCustomizationReq::ID> Requirement
 int AddedInPatch?
+locstring Field_3_4_0_43659_000_lang?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+int Field_3_4_0_43659_005?
+int Field_3_4_0_43659_006?
+int Field_3_4_0_43659_007?
+float Field_3_4_0_43659_008?
+int Field_3_4_0_43659_009?
+int Field_3_4_0_43659_010?
+int Field_3_4_0_43659_011?
+
+LAYOUT 26DBFCD5
+BUILD 3.4.0.43659
+Field_3_4_0_43659_000_lang
+$id$Field_3_4_0_43659_001<32>
+Field_3_4_0_43659_002<u16>
+Field_3_4_0_43659_003<32>
+$relation$Field_3_4_0_43659_004<32>
+Field_3_4_0_43659_005<32>
+Field_3_4_0_43659_006<32>
+Field_3_4_0_43659_007<32>
+Field_3_4_0_43659_008
+Field_3_4_0_43659_009<32>
+Field_3_4_0_43659_010<32>
+Field_3_4_0_43659_011<32>
 
 LAYOUT 3F99DF9F
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199

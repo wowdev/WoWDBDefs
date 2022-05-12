@@ -5,6 +5,19 @@ int GarrEncounterSetID
 int<GarrMission::ID> GarrMissionID
 int OrderIndex
 int Field_9_0_1_33978_004? // AutoBattler index? slot?
+int Field_3_4_0_43659_000?
+int Field_3_4_0_43659_001?
+int Field_3_4_0_43659_002?
+int Field_3_4_0_43659_003?
+int Field_3_4_0_43659_004?
+
+LAYOUT FBEB9A41
+BUILD 3.4.0.43659
+$id$Field_3_4_0_43659_000<32>
+Field_3_4_0_43659_001<u32>
+Field_3_4_0_43659_002<u32>
+Field_3_4_0_43659_003<u8>
+$noninline,relation$Field_3_4_0_43659_004<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>
