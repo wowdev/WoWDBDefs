@@ -4,7 +4,7 @@ int<Item::ID> ItemID
 int<Spell::ID> SpellID
 
 LAYOUT 9BFC449E
-BUILD 3.4.0.43659
+BUILD 3.4.0.43659, 3.4.0.43682
 $id$ID<32>
 ItemID<32>
 $noninline,relation$SpellID<32>
