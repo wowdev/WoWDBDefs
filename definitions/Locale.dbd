@@ -7,10 +7,6 @@ int Secondary
 int WowLocale
 int<Cfg_Regions::ID> Cfg_regionsID
 int Field_5_0_2_15827_001?
-int Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
 
 LAYOUT FC7AA031
 BUILD 1.13.0.28211
@@ -49,10 +45,10 @@ Cfg_regionsID<u8>
 LAYOUT D7B62A14
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929
 $noninline,id$ID<32>
-Field_3_4_0_43659_000<u8>
-Field_3_4_0_43659_001<32>
-Field_3_4_0_43659_002<u8>
-Field_3_4_0_43659_003<u8>
+WowLocale<u8>
+FontFileDataID<32>
+Secondary<u8>
+Cfg_regionsID<u8>
 
 BUILD 5.0.1.15640-5.0.1.15799
 $id$ID<32>

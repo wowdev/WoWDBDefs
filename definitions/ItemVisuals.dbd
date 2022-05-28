@@ -4,12 +4,11 @@ int Slot
 int<FileData::ID> ModelFileID
 int<SpellVisualKit::ID> SpellVisualKitId1?
 int<SpellVisualKit::ID> SpellVisualKitId2?
-int Field_3_4_0_43659_000?
 
 LAYOUT B1112D93
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929
 $noninline,id$ID<32>
-Field_3_4_0_43659_000<32>[5]
+Slot<32>[5]
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

@@ -3,17 +3,13 @@ int ID
 locstring Description_lang
 int<FileData::ID> FiledataID
 locstring Name_lang
-locstring Field_3_4_0_43659_000_lang?
-locstring Field_3_4_0_43659_001_lang?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
 
 LAYOUT 264D2A97
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929
-Field_3_4_0_43659_000_lang
-Field_3_4_0_43659_001_lang
-$id$Field_3_4_0_43659_002<32>
-Field_3_4_0_43659_003<32>
+Name_lang
+Description_lang
+$id$ID<32>
+FiledataID<32>
 
 LAYOUT 1BCB46AA, 50306D85
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491

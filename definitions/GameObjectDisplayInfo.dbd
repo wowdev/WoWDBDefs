@@ -9,12 +9,6 @@ float OverrideLootEffectScale
 float OverrideNameScale
 float GeoBox
 string ModelName
-string Field_3_4_0_43659_000?
-float Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-float Field_3_4_0_43659_004?
-float Field_3_4_0_43659_005?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.0.5991
@@ -58,12 +52,12 @@ GeoBoxMax[3]
 LAYOUT B59CF0B2
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929
 $noninline,id$ID<32>
-Field_3_4_0_43659_000
-Field_3_4_0_43659_001[6]
-Field_3_4_0_43659_002<32>
-Field_3_4_0_43659_003<16>
-Field_3_4_0_43659_004
-Field_3_4_0_43659_005
+ModelName
+GeoBox[6]
+FileDataID<32>
+ObjectEffectPackageID<16>
+OverrideLootEffectScale
+OverrideNameScale
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13596
