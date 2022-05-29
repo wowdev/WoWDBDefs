@@ -7,24 +7,17 @@ int Flags // &1: hide aura, &2: no strong/weak hints in tooltips etc
 int<FileData::ID> IconFileDataID
 locstring Name_lang
 int PetTypeEnum
-locstring Field_3_4_0_43659_000_lang?
-locstring Field_3_4_0_43659_001_lang?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
 
 LAYOUT F9548A5A
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929
 $noninline,id$ID<32>
-Field_3_4_0_43659_000_lang
-Field_3_4_0_43659_001_lang
-Field_3_4_0_43659_002<32>
-Field_3_4_0_43659_003<8>
-Field_3_4_0_43659_004<u32>
-Field_3_4_0_43659_005<u16>
-Field_3_4_0_43659_006<u8>
+Name_lang
+Description_lang
+IconFileDataID<32>
+PetTypeEnum<8>
+Cooldown<u32>
+BattlePetVisualID<u16>
+Flags<u8>
 
 BUILD 5.0.1.15464
 $id$ID<32>
