@@ -5,7 +5,7 @@ int DisplayType
 int<ItemDisplayInfo::ID> ItemDisplayInfoID
 int UiOrder
 int<ItemSubClass::SubClassID> Field_8_2_5_31812_001? // with ClassID == 2
-int<PlayerCondition::ID> PlayerConditionID
+int<PlayerCondition::ID> TransmogPlayerConditionID
 int Field_3_4_0_43659_000?
 int Field_3_4_0_43659_001?
 int Field_3_4_0_43659_002?
@@ -90,7 +90,7 @@ DisplayType<u8>
 ItemDisplayInfoID<32>
 DefaultIconFileDataID<32>
 UiOrder<32>
-PlayerConditionID<32>
+TransmogPlayerConditionID<32>
 
 LAYOUT 50445CDB
 BUILD 9.1.5.39977, 9.1.5.40071, 9.1.5.40078
@@ -100,7 +100,7 @@ DisplayType<u8>
 ItemDisplayInfoID<32>
 DefaultIconFileDataID<32>
 UiOrder<32>
-PlayerConditionID<32>
+TransmogPlayerConditionID<32>
 
 LAYOUT BE2B504E
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -111,7 +111,7 @@ DisplayType<32>
 ItemDisplayInfoID<32>
 DefaultIconFileDataID<32>
 UiOrder<32>
-PlayerConditionID<32>
+TransmogPlayerConditionID<32>
 
 LAYOUT 33C9038E
 BUILD 9.2.5.43519, 9.2.5.43630, 9.2.5.43741, 9.2.5.43810, 9.2.5.43903, 9.2.5.43971
@@ -120,4 +120,4 @@ DisplayType<32>
 ItemDisplayInfoID<32>
 DefaultIconFileDataID<32>
 UiOrder<32>
-PlayerConditionID<32>
+TransmogPlayerConditionID<32>
