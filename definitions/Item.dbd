@@ -10,11 +10,11 @@ int Sound_override_subclassID
 int SubclassID
 int DisplayInfoID
 int MaxDurability?
-int AmmoType?
-int DamageMin?
-int DamageMax?
-int DamageType?
-int DefensiveStats?
+int AmmunitionType
+int MinDamage
+int MaxDamage
+int DamageType
+int Resistances
 int<ModifiedCraftingReagentItem::ID> ModifiedCraftingReagentItemID?
 int RequiredLevel?
 int RandomSelect?
@@ -67,16 +67,16 @@ SubclassID<u8>
 Material<u8>
 InventoryType<8>
 MaxDurability<u32>
-AmmoType<u8>
+AmmunitionType<u8>
 SheatheType<u8>
 Sound_override_subclassID<8>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
 DisplayInfoID<u16>
-DamageMin<u16>[5]
-DamageMax<u16>[5]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
 DamageType<u8>[5]
-DefensiveStats<16>[7]
+Resistances<16>[7]
 
 LAYOUT 0AB5F2C6
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -87,16 +87,16 @@ SubclassID<u8>
 Material<u8>
 InventoryType<8>
 MaxDurability<u32>
-AmmoType<u8>
+AmmunitionType<u8>
 SheatheType<u8>
 Sound_override_subclassID<8>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
 DisplayInfoID<u32>
-DamageMin<u16>[5]
-DamageMax<u16>[5]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
 DamageType<u8>[5]
-DefensiveStats<16>[7]
+Resistances<16>[7]
 
 LAYOUT B1C87EB0
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118
@@ -116,11 +116,11 @@ IconFileDataID<32>
 Field_2_5_1_38043_012<u8>
 Field_2_5_1_38043_013<32>
 MaxDurability<u32>
-AmmoType<u8>
+AmmunitionType<u8>
 DisplayInfoID<u32>
-DefensiveStats<16>[7]
-DamageMin<u16>[5]
-DamageMax<u16>[5]
+Resistances<16>[7]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
 
 LAYOUT 0965E8DC
 BUILD 2.5.1.38119, 2.5.1.38169
@@ -140,10 +140,10 @@ IconFileDataID<32>
 Field_2_5_1_38043_012<u8>
 Field_2_5_1_38043_013<32>
 MaxDurability<u32>
-AmmoType<u8>
-DefensiveStats<16>[7]
-DamageMin<u16>[5]
-DamageMax<u16>[5]
+AmmunitionType<u8>
+Resistances<16>[7]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
 
 LAYOUT A95A19EE
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861
@@ -169,11 +169,11 @@ IconFileDataID<32>
 Field_2_5_1_38043_012<u8>
 Field_2_5_1_38043_013<32>
 MaxDurability<u32>
-AmmoType<u8>
+AmmunitionType<u8>
 DamageType<u8>[5]
-DefensiveStats<16>[7]
-DamageMin<u16>[5]
-DamageMax<u16>[5]
+Resistances<16>[7]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
 
 BUILD 3.0.1.8303-3.0.1.8885
 BUILD 2.4.0.8089-2.4.3.8606

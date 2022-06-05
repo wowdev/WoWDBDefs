@@ -64,13 +64,13 @@ int<TotemCategory::ID> TotemCategoryID
 int VendorStackCount
 int<AreaTable::ID> ZoneBound
 int<Item::ID> OppositeFactionItemID?
-int StatValue?
+int StatModifier_bonusAmount
 int MaxDurability?
-int DamageMin?
-int DamageMax?
-int DefensiveStats?
-int AmmoType?
-int DamageType?
+int MinDamage
+int MaxDamage
+int Resistances
+int AmmunitionType
+int DamageType
 int<ModifiedCraftingReagentItem::ID> ModifiedCraftingReagentItemID?
 int<ContentTuning::ID> ContentTuningID?
 int<Curve::ID> PlayerLevelToItemLevelCurveID?
@@ -182,11 +182,11 @@ ItemLevel<u16>
 RequiredSkill<u16>
 RequiredSkillRank<u16>
 MinFactionID<u16>
-StatValue<16>[10]
+StatModifier_bonusAmount<16>[10]
 ScalingStatDistributionID<u16>
-DamageMin<u16>[5]
-DamageMax<u16>[5]
-DefensiveStats<16>[7]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
+Resistances<16>[7]
 ItemDelay<u16>
 PageID<u16>
 StartQuestID<u16>
@@ -212,7 +212,7 @@ MinReputation<u8>
 ContainerSlots<u8>
 StatModifier_bonusStat<8>[10]
 DamageType<u8>[5]
-AmmoType<u8>
+AmmunitionType<u8>
 Bonding<u8>
 LanguageID<u8>
 PageMaterialID<u8>
@@ -273,9 +273,9 @@ LockID<u16>
 StartQuestID<u16>
 PageID<u16>
 ItemDelay<u16>
-DamageMin<u16>[5]
-DamageMax<u16>[5]
-DefensiveStats<16>[7]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
+Resistances<16>[7]
 ScalingStatDistributionID<u16>
 MinFactionID<u16>
 RequiredSkillRank<u16>
@@ -292,10 +292,10 @@ Material<u8>
 PageMaterialID<u8>
 LanguageID<u8>
 Bonding<u8>
-AmmoType<u8>
+AmmunitionType<u8>
 DamageType<u8>[5]
 StatModifier_bonusStat<8>[10]
-StatValue<8>[10]
+StatModifier_bonusAmount<8>[10]
 ContainerSlots<u8>
 MinReputation<u8>
 RequiredPVPMedal<u8>
@@ -433,9 +433,9 @@ ItemLevel<u16>
 AllowableClass<16>
 ItemRandomSuffixGroupID<u16>
 RandomSelect<u16>
-DamageMin<u16>[5]
-DamageMax<u16>[5]
-DefensiveStats<16>[7]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
+Resistances<16>[7]
 ScalingStatDistributionID<u16>
 ExpansionID<u8>
 ArtifactID<u8>
@@ -455,8 +455,8 @@ RequiredPVPMedal<u8>
 RequiredPVPRank<u8>
 InventoryType<u8>
 OverallQualityID<u8>
-AmmoType<u8>
-StatValue<8>[10]
+AmmunitionType<u8>
+StatModifier_bonusAmount<8>[10]
 RequiredLevel<8>
 
 LAYOUT 01BB3273
@@ -510,9 +510,9 @@ ItemLevel<u16>
 AllowableClass<16>
 ItemRandomSuffixGroupID<u16>
 RandomSelect<u16>
-DamageMin<u16>[5]
-DamageMax<u16>[5]
-DefensiveStats<16>[7]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
+Resistances<16>[7]
 ScalingStatDistributionID<u16>
 ExpansionID<u8>
 ArtifactID<u8>
@@ -532,8 +532,8 @@ RequiredPVPMedal<u8>
 RequiredPVPRank<u8>
 InventoryType<8>
 OverallQualityID<8>
-AmmoType<u8>
-StatValue<8>[10]
+AmmunitionType<u8>
+StatModifier_bonusAmount<8>[10]
 RequiredLevel<8>
 
 LAYOUT 9C58EFE2
@@ -589,9 +589,9 @@ ItemLevel<u16>
 AllowableClass<16>
 ItemRandomSuffixGroupID<u16>
 RandomSelect<u16>
-DamageMin<u16>[5]
-DamageMax<u16>[5]
-DefensiveStats<16>[7]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
+Resistances<16>[7]
 ScalingStatDistributionID<u16>
 ExpansionID<u8>
 ArtifactID<u8>
@@ -611,8 +611,8 @@ RequiredPVPMedal<u8>
 RequiredPVPRank<u8>
 InventoryType<8>
 OverallQualityID<8>
-AmmoType<u8>
-StatValue<8>[10]
+AmmunitionType<u8>
+StatModifier_bonusAmount<8>[10]
 RequiredLevel<8>
 
 LAYOUT 3ADC9EC3
@@ -667,9 +667,9 @@ ItemLevel<u16>
 AllowableClass<16>
 ItemRandomSuffixGroupID<u16>
 RandomSelect<u16>
-DamageMin<u16>[5]
-DamageMax<u16>[5]
-DefensiveStats<16>[7]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
+Resistances<16>[7]
 ScalingStatDistributionID<u16>
 ExpansionID<u8>
 ArtifactID<u8>
@@ -689,8 +689,8 @@ RequiredPVPMedal<u8>
 RequiredPVPRank<u8>
 InventoryType<8>
 OverallQualityID<8>
-AmmoType<u8>
-StatValue<8>[10]
+AmmunitionType<u8>
+StatModifier_bonusAmount<8>[10]
 RequiredLevel<8>
 
 LAYOUT BB5BF754
@@ -725,7 +725,7 @@ ItemLevel<u16>
 RequiredSkill<u16>
 RequiredSkillRank<u16>
 MinFactionID<u16>
-StatValue<16>[10]
+StatModifier_bonusAmount<16>[10]
 ScalingStatDistributionID<u16>
 ItemDelay<u16>
 PageID<u16>
@@ -794,7 +794,7 @@ ItemLevel<u16>
 RequiredSkill<u16>
 RequiredSkillRank<u16>
 MinFactionID<u16>
-StatValue<16>[10]
+StatModifier_bonusAmount<16>[10]
 ScalingStatDistributionID<u16>
 ItemDelay<u16>
 PageID<u16>
