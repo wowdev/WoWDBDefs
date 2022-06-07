@@ -19,8 +19,6 @@ int<ModifiedCraftingReagentItem::ID> ModifiedCraftingReagentItemID?
 int RequiredLevel?
 int RandomSelect?
 int ItemRandomSuffixGroupID?
-int Field_2_5_1_38043_012?
-int Field_2_5_1_38043_013?
 int<ContentTuning::ID> ContentTuningID?
 int Field_3_4_0_43659_000?
 int Field_3_4_0_43659_001?
@@ -113,8 +111,8 @@ ItemRandomSuffixGroupID<u16>
 Sound_override_subclassID<8>
 ModifiedCraftingReagentItemID<u16>
 IconFileDataID<32>
-Field_2_5_1_38043_012<u8>
-Field_2_5_1_38043_013<32>
+ItemGroupSoundsID<u8>
+ContentTuningID<32>
 MaxDurability<u32>
 AmmunitionType<u8>
 DisplayInfoID<u32>
@@ -137,8 +135,8 @@ ItemRandomSuffixGroupID<u16>
 Sound_override_subclassID<8>
 ModifiedCraftingReagentItemID<u16>
 IconFileDataID<32>
-Field_2_5_1_38043_012<u8>
-Field_2_5_1_38043_013<32>
+ItemGroupSoundsID<u8>
+ContentTuningID<32>
 MaxDurability<u32>
 AmmunitionType<u8>
 Resistances<16>[7]
@@ -166,8 +164,8 @@ ItemRandomSuffixGroupID<u16>
 Sound_override_subclassID<8>
 ModifiedCraftingReagentItemID<u16>
 IconFileDataID<32>
-Field_2_5_1_38043_012<u8>
-Field_2_5_1_38043_013<32>
+ItemGroupSoundsID<u8>
+ContentTuningID<32>
 MaxDurability<u32>
 AmmunitionType<u8>
 DamageType<u8>[5]
