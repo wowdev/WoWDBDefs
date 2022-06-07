@@ -1,0 +1,15 @@
+{
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"containerEnv": {
+		"DOTNET_CLI_TELEMETRY_OPTOUT": "1",
+		"DOTNET_NOLOGO": "1",
+		"DOTNET_ROOT": "/opt/dotnet",
+		"DOTNET_SKIP_FIRST_TIME_EXPERIENCE": "1"
+	},
+	"features": {
+		"github-cli": {}
+	},
+	"name": "wowdev/wowdbdefs"
+}
