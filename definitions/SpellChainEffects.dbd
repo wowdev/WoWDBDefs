@@ -66,6 +66,66 @@ float VariancePerFlipFrame
 int<Curve::ID> WidthScaleCurveID
 int Padding_4_0_0_11792_044?
 string Combo
+float Field_3_4_0_44250_000?
+float Field_3_4_0_44250_001?
+float Field_3_4_0_44250_002?
+int Field_3_4_0_44250_003?
+int Field_3_4_0_44250_004?
+int Field_3_4_0_44250_005?
+int Field_3_4_0_44250_006?
+float Field_3_4_0_44250_007?
+int Field_3_4_0_44250_008?
+int Field_3_4_0_44250_009?
+float Field_3_4_0_44250_010?
+float Field_3_4_0_44250_011?
+float Field_3_4_0_44250_012?
+float Field_3_4_0_44250_013?
+float Field_3_4_0_44250_014?
+float Field_3_4_0_44250_015?
+float Field_3_4_0_44250_016?
+float Field_3_4_0_44250_017?
+float Field_3_4_0_44250_018?
+float Field_3_4_0_44250_019?
+float Field_3_4_0_44250_020?
+float Field_3_4_0_44250_021?
+float Field_3_4_0_44250_022?
+float Field_3_4_0_44250_023?
+float Field_3_4_0_44250_024?
+float Field_3_4_0_44250_025?
+float Field_3_4_0_44250_026?
+float Field_3_4_0_44250_027?
+float Field_3_4_0_44250_028?
+float Field_3_4_0_44250_029?
+float Field_3_4_0_44250_030?
+float Field_3_4_0_44250_031?
+float Field_3_4_0_44250_032?
+float Field_3_4_0_44250_033?
+float Field_3_4_0_44250_034?
+float Field_3_4_0_44250_035?
+int Field_3_4_0_44250_036?
+int Field_3_4_0_44250_037?
+int Field_3_4_0_44250_038?
+int Field_3_4_0_44250_039?
+int Field_3_4_0_44250_040?
+int Field_3_4_0_44250_041?
+float Field_3_4_0_44250_042?
+float Field_3_4_0_44250_043?
+float Field_3_4_0_44250_044?
+int Field_3_4_0_44250_045?
+float Field_3_4_0_44250_046?
+float Field_3_4_0_44250_047?
+int Field_3_4_0_44250_048?
+int Field_3_4_0_44250_049?
+int Field_3_4_0_44250_050?
+int Field_3_4_0_44250_051?
+float Field_3_4_0_44250_052?
+float Field_3_4_0_44250_053?
+int Field_3_4_0_44250_054?
+float Field_3_4_0_44250_055?
+float Field_3_4_0_44250_056?
+float Field_3_4_0_44250_057?
+float Field_3_4_0_44250_058?
+int Field_3_4_0_44250_059?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.6.6337
@@ -230,6 +290,70 @@ Combo
 RenderLayer<32>
 TextureLength
 WavePhase
+
+LAYOUT D76BE290
+BUILD 3.4.0.44250
+$noninline,id$ID<32>
+Field_3_4_0_44250_000
+Field_3_4_0_44250_001
+Field_3_4_0_44250_002
+Field_3_4_0_44250_003<u32>
+Field_3_4_0_44250_004<u16>
+Field_3_4_0_44250_005<32>
+Field_3_4_0_44250_006<u16>
+Field_3_4_0_44250_007
+Field_3_4_0_44250_008<u8>
+Field_3_4_0_44250_009<u8>
+Field_3_4_0_44250_010
+Field_3_4_0_44250_011
+Field_3_4_0_44250_012
+Field_3_4_0_44250_013
+Field_3_4_0_44250_014
+Field_3_4_0_44250_015
+Field_3_4_0_44250_016
+Field_3_4_0_44250_017
+Field_3_4_0_44250_018
+Field_3_4_0_44250_019
+Field_3_4_0_44250_020
+Field_3_4_0_44250_021
+Field_3_4_0_44250_022
+Field_3_4_0_44250_023
+Field_3_4_0_44250_024
+Field_3_4_0_44250_025
+Field_3_4_0_44250_026
+Field_3_4_0_44250_027
+Field_3_4_0_44250_028
+Field_3_4_0_44250_029
+Field_3_4_0_44250_030
+Field_3_4_0_44250_031
+Field_3_4_0_44250_032
+Field_3_4_0_44250_033
+Field_3_4_0_44250_034
+Field_3_4_0_44250_035
+Field_3_4_0_44250_036<u8>
+Field_3_4_0_44250_037<u8>
+Field_3_4_0_44250_038<u8>
+Field_3_4_0_44250_039<u8>
+Field_3_4_0_44250_040<u8>
+Field_3_4_0_44250_041<u8>
+Field_3_4_0_44250_042
+Field_3_4_0_44250_043
+Field_3_4_0_44250_044
+Field_3_4_0_44250_045<u32>
+Field_3_4_0_44250_046
+Field_3_4_0_44250_047
+Field_3_4_0_44250_048<u16>
+Field_3_4_0_44250_049<u8>
+Field_3_4_0_44250_050<u8>
+Field_3_4_0_44250_051<u32>
+Field_3_4_0_44250_052
+Field_3_4_0_44250_053
+Field_3_4_0_44250_054<u16>[11]
+Field_3_4_0_44250_055[3]
+Field_3_4_0_44250_056[3]
+Field_3_4_0_44250_057[3]
+Field_3_4_0_44250_058[3]
+Field_3_4_0_44250_059<32>[3]
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.0.3.15851
