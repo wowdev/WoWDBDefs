@@ -106,4 +106,4 @@ You can view a sample definition [here](https://github.com/wowdev/WoWDBDefs/blob
 All feedback is welcome!
 
 ## Updating DBDs with newer builds
-See update guide [here](https://github.com/wowdev/WoWDBDefs/blob/master/UPDATING.dbd).
+See update guide [here](https://github.com/wowdev/WoWDBDefs/blob/master/UPDATING.md).
