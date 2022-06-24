@@ -11,5 +11,6 @@
 	"features": {
 		"github-cli": {}
 	},
-	"name": "wowdev/wowdbdefs"
+	"name": "wowdev/wowdbdefs",
+	"postCreateCommand": "pre-commit install --install-hooks"
 }
