@@ -82,7 +82,7 @@ namespace DBDefsDumper
                     // Retry with backup pattern (crash log output)
                     bin.BaseStream.Position = 0;
 
-                    buildPattern = new byte?[] { 0x00, 0x3C, 0x56, 0x65, 0x72, 0x73, 0x69, 0x6F, 0x6E, 0x3E, 0x20 }; // <Version> 
+                    buildPattern = new byte?[] { 0x00, 0x3C, 0x56, 0x65, 0x72, 0x73, 0x69, 0x6F, 0x6E, 0x3E, 0x20 }; // <Version>
                     buildPatternLength = buildPattern.Length;
 
                     while (true)
@@ -128,7 +128,7 @@ namespace DBDefsDumper
                     // Retry with RenderService pattern..
                     bin.BaseStream.Position = 0;
 
-                    buildPattern = new byte?[] { 0x52, 0x65, 0x6e, 0x64, 0x65, 0x72, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x20, null, null, null, null, null, 0x00 }; // <Version> 
+                    buildPattern = new byte?[] { 0x52, 0x65, 0x6e, 0x64, 0x65, 0x72, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x20, null, null, null, null, null, 0x00 }; // <Version>
                     buildPatternLength = buildPattern.Length;
 
                     while (true)
@@ -379,7 +379,7 @@ namespace DBDefsDumper
                                 var name = bin.ReadCString();
                                 metas.TryAdd(Path.GetFileNameWithoutExtension(name), meta);
                             }
-                            
+
                             bin.BaseStream.Position = matchPos + patternLength;
                         }
                         else
@@ -443,7 +443,7 @@ namespace DBDefsDumper
                     var field_types_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_types_in_file_offs));
                     var field_flags_in_file = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_flags_in_file_offs));
                     var field_names_in_file = ReadFieldOffsetArray(bin, fieldCount, (long)translate((ulong)meta.Value.namesInFileOffs));
-                
+
                     if (meta.Value.id_column == -1)
                     {
                         writer.WriteLine("int ID");
@@ -601,7 +601,7 @@ namespace DBDefsDumper
                             if (build.StartsWith("6."))
                             {
                                 var supposedSize = 0;
-                                
+
                                 if((typeFlags.Item1 == "uint" || typeFlags.Item1 == "int") && typeFlags.Item2 != 32)
                                 {
                                     supposedSize = typeFlags.Item2 / 8;
@@ -987,11 +987,11 @@ namespace DBDefsDumper
             return patternList;
         }
     }
-    
+
     #region BinaryReaderExtensions
     static class BinaryReaderExtensios
     {
-        /// <summary> Reads the NULL terminated string from 
+        /// <summary> Reads the NULL terminated string from
         /// the current stream and advances the current position of the stream by string length + 1.
         /// <seealso cref="BinaryReader.ReadString"/>
         /// </summary>
@@ -1000,7 +1000,7 @@ namespace DBDefsDumper
             return reader.ReadCString(Encoding.UTF8);
         }
 
-        /// <summary> Reads the NULL terminated string from 
+        /// <summary> Reads the NULL terminated string from
         /// the current stream and advances the current position of the stream by string length + 1.
         /// <seealso cref="BinaryReader.ReadString"/>
         /// </summary>

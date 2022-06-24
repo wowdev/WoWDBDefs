@@ -2,7 +2,7 @@
 
 template<typename T, bool unprotect>
   struct var;
-template<typename Fun> 
+template<typename Fun>
   struct fun;
 
 template<typename Fun>

@@ -14,7 +14,7 @@ namespace DBDTest
         public static Dictionary<string, DBDefinition> definitionCache = new Dictionary<string, DBDefinition>();
         public static Dictionary<string, List<string>> duplicateFileLookup = new Dictionary<string, List<string>>();
         public static bool foundError = false;
-        
+
         private static string dbcDir;
 
         static void Main(string[] args)

@@ -1,5 +1,5 @@
 
-namespace 
+namespace
 {
   template<bool, typename> struct maybe_unprotect;
   template<typename T> struct maybe_unprotect<true, T>
@@ -25,7 +25,7 @@ namespace
   };
 }
 
-namespace 
+namespace
 {
   char* module_base()
   {
@@ -49,7 +49,7 @@ template<typename T, bool unprotect = true>
 struct var
 {
 	size_t const _offset;
-  
+
   constexpr var (size_t offset) : _offset (offset) {}
 
 	T* _x = nullptr;

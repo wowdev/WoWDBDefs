@@ -19,7 +19,7 @@ namespace DBDefsConverter
 
         public DBDXMLSerializer()
         {
-            // create serializer 
+            // create serializer
             _serializer = new XmlSerializer(typeof(SerializableDBDefinition), CreateOverrides());
 
             // build the fieldinfo lookup for ColumnDefinition

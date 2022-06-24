@@ -21,7 +21,7 @@ int wmain(int argc, WCHAR* argv[])
   exe = exe.substr (0, exe.find (' '));
   std::wstring command_line (argv[2]);
   command_line = command_line.substr (command_line.find (' ') + 1);
-        
+
   ULONG pid;
 	NTSTATUS nt = RhCreateAndInject
     ( const_cast<WCHAR*> (exe.c_str())
@@ -40,6 +40,6 @@ int wmain(int argc, WCHAR* argv[])
 		std::wcout << "RhCreateAndInject failed with error code = " << nt << "\n  " << RtlGetLastErrorString() << "\n";
 		return 1;
 	}
-  	
+
 	return 0;
 }

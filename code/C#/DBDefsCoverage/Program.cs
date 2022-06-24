@@ -77,7 +77,7 @@ namespace DBDefsCoverage
                 csv.NextRecord();
             }
 
-            csv.Flush();    
+            csv.Flush();
         }
     }
 }
