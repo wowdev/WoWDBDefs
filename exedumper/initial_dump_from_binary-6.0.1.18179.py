@@ -168,4 +168,3 @@ for position, mangled_name in Names():
             field_name = Qword (position + 0x40)
             field_sql = Qword (position + 0x48)
           definition_to_file (dbc_name, row_size, field_count, field_type, field_size, field_offset, field_name, field_sql)
-
