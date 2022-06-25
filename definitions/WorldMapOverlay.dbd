@@ -17,19 +17,6 @@ int MapPointX
 int MapPointY
 int<UiMapArt::ID> UiMapArtID
 int Field_7_3_2_25549_012?
-int Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
 
 BUILD 0.5.5.3494
 $id$ID<32>
@@ -45,19 +32,19 @@ OffsetY<32>
 
 LAYOUT D73DE991
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301
-$id$Field_3_4_0_43659_000<32>
-$relation$Field_3_4_0_43659_001<u32>
-Field_3_4_0_43659_002<u16>
-Field_3_4_0_43659_003<u16>
-Field_3_4_0_43659_004<32>
-Field_3_4_0_43659_005<32>
-Field_3_4_0_43659_006<32>
-Field_3_4_0_43659_007<32>
-Field_3_4_0_43659_008<32>
-Field_3_4_0_43659_009<32>
-Field_3_4_0_43659_010<u32>
-Field_3_4_0_43659_011<u32>
-Field_3_4_0_43659_012<u32>[4]
+$id$ID<32>
+$relation$UiMapArtID<u32>
+TextureWidth<u16>
+TextureHeight<u16>
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectBottom<32>
+HitRectLeft<32>
+HitRectRight<32>
+PlayerConditionID<u32>
+Flags<u32>
+AreaID<u32>[4]
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13596

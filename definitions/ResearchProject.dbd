@@ -10,27 +10,18 @@ string Texture
 int RequiredWeight
 int<FileData::ID> TextureFileID
 string Field_7_3_0_24473_003?
-locstring Field_3_4_0_43659_000_lang?
-locstring Field_3_4_0_43659_001_lang?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
 
 LAYOUT 4B169F6A
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301
-Field_3_4_0_43659_000_lang
-Field_3_4_0_43659_001_lang
-$id$Field_3_4_0_43659_002<32>
-Field_3_4_0_43659_003<u8>
-Field_3_4_0_43659_004<32>
-Field_3_4_0_43659_005<u16>
-Field_3_4_0_43659_006<u8>
-Field_3_4_0_43659_007<32>
-Field_3_4_0_43659_008<u32>
+Name_lang
+Description_lang
+$id$ID<32>
+Rarity<u8>
+SpellID<32>
+ResearchBranchID<u16>
+NumSockets<u8>
+TextureFileID<32>
+RequiredWeight<u32>
 
 BUILD 4.0.0.12319
 $id$ID<32>

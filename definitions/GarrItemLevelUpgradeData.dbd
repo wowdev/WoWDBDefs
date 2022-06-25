@@ -4,19 +4,14 @@ int FollowerTypeID
 int MaxItemLevel
 int MinItemLevel
 int Operation
-int Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
 
 LAYOUT BB59F126
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301
-$id$Field_3_4_0_43659_000<32>
-Field_3_4_0_43659_001<32>
-Field_3_4_0_43659_002<32>
-Field_3_4_0_43659_003<32>
-Field_3_4_0_43659_004<32>
+$id$ID<32>
+Operation<32>
+MinItemLevel<32>
+MaxItemLevel<32>
+FollowerTypeID<32>
 
 LAYOUT 069F44E5, 6B8723A1, 13566AC6
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524

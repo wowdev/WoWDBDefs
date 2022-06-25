@@ -46,31 +46,6 @@ int CharacterCreationAnimLoopWaitTimeMsFallback?
 int HasStrengthAttackBonus?
 locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
 locstring Hyphenated_name_female_lang?
-locstring Field_3_4_0_43659_000_lang?
-string Field_3_4_0_43659_001?
-locstring Field_3_4_0_43659_002_lang?
-locstring Field_3_4_0_43659_003_lang?
-string Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
-int Field_3_4_0_43659_013?
-int Field_3_4_0_43659_014?
-int Field_3_4_0_43659_015?
-int Field_3_4_0_43659_016?
-int Field_3_4_0_43659_017?
-int Field_3_4_0_43659_018?
-int Field_3_4_0_43659_019?
-int Field_3_4_0_43659_020?
-int Field_3_4_0_43659_021?
-int Field_3_4_0_43659_022?
-int Field_3_4_0_43659_023?
-int Field_3_4_0_43659_024?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -317,31 +292,31 @@ Required_expansion<32>
 
 LAYOUT D117207F
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301
-Field_3_4_0_43659_000_lang
-Field_3_4_0_43659_001
-Field_3_4_0_43659_002_lang
-Field_3_4_0_43659_003_lang
-Field_3_4_0_43659_004
-$id$Field_3_4_0_43659_005<32>
-Field_3_4_0_43659_006<u32>
-Field_3_4_0_43659_007<u32>
-Field_3_4_0_43659_008<u32>
-Field_3_4_0_43659_009<u32>
-Field_3_4_0_43659_010<32>
-Field_3_4_0_43659_011<32>
-Field_3_4_0_43659_012<u32>
-Field_3_4_0_43659_013<u32>
-Field_3_4_0_43659_014<u16>
-Field_3_4_0_43659_015<u16>
-Field_3_4_0_43659_016<u8>
-Field_3_4_0_43659_017<u8>
-Field_3_4_0_43659_018<u8>
-Field_3_4_0_43659_019<u8>
-Field_3_4_0_43659_020<u8>
-Field_3_4_0_43659_021<u8>
-Field_3_4_0_43659_022<u8>
-Field_3_4_0_43659_023<u8>
-Field_3_4_0_43659_024<u8>
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
+$id$ID<32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+IconFileDataID<u32>
+LowResScreenFileDataID<u32>
+Flags<32>
+StartingLevel<32>
+RolesMask<u32>
+ArmorTypeMask<u32>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+HasStrengthAttackBonus<u8>
+PrimaryStatPriority<u8>
+DisplayPower<u8>
+RangedAttackPowerPerAgility<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
+SpellClassSet<u8>
+DamageBonusStat<u8>
+HasRelicSlot<u8>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11927-4.3.4.15595

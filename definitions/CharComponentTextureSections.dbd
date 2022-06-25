@@ -7,24 +7,17 @@ int Y
 int Width
 int Height
 int OverlapSectionMask
-int Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
 
 LAYOUT 945BF163
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301
 $noninline,id$ID<32>
-$relation$Field_3_4_0_43659_000<8>
-Field_3_4_0_43659_001<8>
-Field_3_4_0_43659_002<16>
-Field_3_4_0_43659_003<16>
-Field_3_4_0_43659_004<16>
-Field_3_4_0_43659_005<16>
-Field_3_4_0_43659_006<u32>
+$relation$CharComponentTextureLayoutID<8>
+SectionType<8>
+X<16>
+Y<16>
+Width<16>
+Height<16>
+OverlapSectionMask<u32>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

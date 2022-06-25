@@ -13,20 +13,15 @@ int<Spell::ID> SpellID
 float Coefficient
 float Variance
 float ComboPointsCoefficient
-int Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
 
 LAYOUT F28716CC
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301
 $noninline,id$ID<32>
-Field_3_4_0_43659_000<32>
-Field_3_4_0_43659_001<32>
-Field_3_4_0_43659_002<u32>
-Field_3_4_0_43659_003<u32>
-Field_3_4_0_43659_004<16>
+SpellID<32>
+Class<32>
+MinScalingLevel<u32>
+MaxScalingLevel<u32>
+ScalesFromItemLevel<16>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11927-4.0.0.12164

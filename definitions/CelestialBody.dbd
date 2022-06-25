@@ -14,39 +14,24 @@ float RotateRate
 float ScrollURate
 float ScrollVRate
 int SkyArrayBand
-float Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-float Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-float Field_3_4_0_43659_006?
-float Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-float Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
-float Field_3_4_0_43659_013?
-float Field_3_4_0_43659_014?
 
 LAYOUT CCC000EC
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301
-Field_3_4_0_43659_000[3]
-$id$Field_3_4_0_43659_001<32>
-Field_3_4_0_43659_002<32>
-Field_3_4_0_43659_003
-Field_3_4_0_43659_004<32>
-Field_3_4_0_43659_005<32>
-Field_3_4_0_43659_006
-Field_3_4_0_43659_007
-Field_3_4_0_43659_008<16>
-Field_3_4_0_43659_009<32>
-Field_3_4_0_43659_010<32>[2]
-Field_3_4_0_43659_011[2]
-Field_3_4_0_43659_012<32>[2]
-Field_3_4_0_43659_013[2]
-Field_3_4_0_43659_014[2]
+Position[3]
+$id$ID<32>
+BaseFileDataID<32>
+BodyBaseScale
+AtmosphericMaskFileDataID<32>
+AtmosphericModifiedFileDataID<32>
+RotateRate
+AtmosphericMaskScale
+SkyArrayBand<16>
+LightMaskFileDataID<32>
+GlowMaskFileDataID<32>[2]
+GlowMaskScale[2]
+GlowModifiedFileDataID<32>[2]
+ScrollURate[2]
+ScrollVRate[2]
 
 LAYOUT D09BE31C
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
