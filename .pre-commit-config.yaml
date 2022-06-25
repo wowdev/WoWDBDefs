@@ -5,5 +5,5 @@ repos:
   - id: check-added-large-files
   - id: check-json
   - id: check-yaml
-  - id: end-of-file-fixer
+#  - id: end-of-file-fixer  TODO
   - id: trailing-whitespace
