@@ -18,7 +18,7 @@ namespace DBDefsMerge
             }
 
             var numLayoutsAdded = 0;
-            
+
             var firstDir = args[0];
             var secondDir = args[1];
             var targetDir = args[2];
@@ -415,7 +415,7 @@ namespace DBDefsMerge
                     }
                 }
 
-                // Run through column definitions to see if there's any unused columns 
+                // Run through column definitions to see if there's any unused columns
                 var columnDefinitionsCopy = definitionCopy.columnDefinitions.ToList();
                 foreach (var columnDefinition in columnDefinitionsCopy)
                 {

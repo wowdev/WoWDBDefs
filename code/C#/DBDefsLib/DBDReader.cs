@@ -34,7 +34,7 @@ namespace DBDefsLib
                     var columnDefinition = new ColumnDefinition();
 
                     /* TYPE READING */
-                    // List of valid types, uint should be removed soon-ish 
+                    // List of valid types, uint should be removed soon-ish
                     var validTypes = new List<string> { "uint", "int", "float", "string", "locstring" };
 
                     // Check if line has a space in case someone didn't assign a type to a column name

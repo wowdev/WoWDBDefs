@@ -41,11 +41,11 @@ namespace DBDefsDumper
         public long dbFilenameOffs;
         public int siblingTableHash;
         public long namesInFileOffs;
-        /* 
+        /*
         //probs not in osx
-        const char** field_names_in_file; 
-        const char** field_names;     
-        const char* fk_clause;        
+        const char** field_names_in_file;
+        const char** field_names;
+        const char* fk_clause;
         */
     }
 }

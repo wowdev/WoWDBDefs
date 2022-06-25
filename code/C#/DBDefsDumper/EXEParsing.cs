@@ -71,7 +71,7 @@ namespace DBDefsDumper
 
                     if (command.id == 25)
                     {
-                        var segmentOffset = offset + 4 + 4 + 16; // Segment start + id + size + name; 
+                        var segmentOffset = offset + 4 + 4 + 16; // Segment start + id + size + name;
                         var vmemOffs = stream.ReadUInt64(segmentOffset);
                         var vmemSize = stream.ReadUInt64(segmentOffset + 8);
                         var fileOffs = stream.ReadUInt64(segmentOffset + 16);

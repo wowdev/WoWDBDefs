@@ -25,7 +25,7 @@ fun<void (int, const char *, const char **, _UNKNOWN *, char, _UNKNOWN *, _UNKNO
 
 fun<int()> sub_5B1AD0 = 0x5B1AD0;
 fun<int()> sub_405AA0 = 0x405AA0;
-  
+
 void on_inject()
 {
   //! This function is _not_ dbmeta but db update registration. the fields in here are in memory, not in file!
@@ -61,7 +61,7 @@ void on_inject()
     }
     of << "\n";
     of << "BUILD 3.0.1.8303\n";
-    
+
     for (int f = 0; f < fieldCount; ++f) {
       std::string suff;
       switch(fieldTypesIsh[f]) {
@@ -92,7 +92,7 @@ void on_inject()
   }
   , false
   );
-  
+
   hook (sub_405AA0, [] { sub_5B1AD0(); exit (0); return 0; });
 }
 
@@ -100,7 +100,6 @@ void on_inject()
 extern "C" void __declspec(dllexport) __stdcall NativeInjectionEntryPoint(REMOTE_ENTRY_INFO* inRemoteInfo)
 {
   on_inject();
-    
+
   RhWakeUpProcess();
 }
- 
