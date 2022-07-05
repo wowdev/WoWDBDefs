@@ -7,24 +7,17 @@ int Quality // GARR_FOLLOWER_QUALITY: 0: None; 1: Common; 2: Uncommon; 3: Rare; 
 int ShipmentXP
 int TraitCount
 int XpToNextQuality
-int Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
 
 LAYOUT EB047C01
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463
 $noninline,id$ID<32>
-Field_3_4_0_43659_000<u8>
-Field_3_4_0_43659_001<u32>
-Field_3_4_0_43659_002<u8>
-Field_3_4_0_43659_003<u8>
-Field_3_4_0_43659_004<u8>
-Field_3_4_0_43659_005<u16>
-Field_3_4_0_43659_006<u32>
+Quality<u8>
+XpToNextQuality<u32>
+GarrFollowerTypeID<u8>
+AbilityCount<u8>
+TraitCount<u8>
+ShipmentXP<u16>
+ClassSpecID<u32>
 
 LAYOUT AFF4CF7E
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

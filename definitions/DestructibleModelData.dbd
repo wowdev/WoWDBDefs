@@ -23,28 +23,6 @@ int RepairGroundFx
 int DoNotHighlight
 int HealEffect
 int HealEffectSpeed
-int Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
-int Field_3_4_0_43659_013?
-int Field_3_4_0_43659_014?
-int Field_3_4_0_43659_015?
-int Field_3_4_0_43659_016?
-int Field_3_4_0_43659_017?
-int Field_3_4_0_43659_018?
-int Field_3_4_0_43659_019?
-int Field_3_4_0_43659_020?
-int Field_3_4_0_43659_021?
 
 BUILD 3.1.0.9767-3.2.2.10505
 $id$ID<32>
@@ -271,28 +249,28 @@ State3NameSet<8>
 LAYOUT A4261431
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463
 $noninline,id$ID<32>
-Field_3_4_0_43659_000<8>
-Field_3_4_0_43659_001<u8>
-Field_3_4_0_43659_002<u32>
-Field_3_4_0_43659_003<8>
-Field_3_4_0_43659_004<8>
-Field_3_4_0_43659_005<u8>
-Field_3_4_0_43659_006<u32>
-Field_3_4_0_43659_007<8>
-Field_3_4_0_43659_008<8>
-Field_3_4_0_43659_009<u8>
-Field_3_4_0_43659_010<u32>
-Field_3_4_0_43659_011<u8>
-Field_3_4_0_43659_012<u8>
-Field_3_4_0_43659_013<u8>
-Field_3_4_0_43659_014<u8>
-Field_3_4_0_43659_015<u32>
-Field_3_4_0_43659_016<u8>
-Field_3_4_0_43659_017<u16>
-Field_3_4_0_43659_018<8>
-Field_3_4_0_43659_019<8>
-Field_3_4_0_43659_020<8>
-Field_3_4_0_43659_021<8>
+State0ImpactEffectDoodadSet<8>
+State0AmbientDoodadSet<u8>
+State1WMO<u32>
+State1DestructionDoodadSet<8>
+State1ImpactEffectDoodadSet<8>
+State1AmbientDoodadSet<u8>
+State2WMO<u32>
+State2DestructionDoodadSet<8>
+State2ImpactEffectDoodadSet<8>
+State2AmbientDoodadSet<u8>
+State3WMO<u32>
+State3InitDoodadSet<u8>
+State3AmbientDoodadSet<u8>
+EjectDirection<u8>
+DoNotHighlight<u8>
+State0WMO<u32>
+HealEffect<u8>
+HealEffectSpeed<u16>
+State0NameSet<8>
+State1NameSet<8>
+State2NameSet<8>
+State3NameSet<8>
 
 LAYOUT FFFAFB89
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412

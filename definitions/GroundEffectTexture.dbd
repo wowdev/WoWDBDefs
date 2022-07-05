@@ -10,10 +10,6 @@ int TextureID
 string TextureName
 int Datestamp
 int SplatDensity?
-int Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -68,10 +64,10 @@ Sound<32>
 LAYOUT F3C0A296
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463
 $noninline,id$ID<32>
-Field_3_4_0_43659_000<u32>
-Field_3_4_0_43659_001<u8>
-Field_3_4_0_43659_002<u16>[4]
-Field_3_4_0_43659_003<8>[4]
+Density<u32>
+Sound<u8>
+DoodadID<u16>[4]
+DoodadWeight<8>[4]
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

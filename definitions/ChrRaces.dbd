@@ -78,63 +78,6 @@ float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1
 int<ChrRaces::ID> HelmetAnimScalingRaceID?
 float Field_9_1_0_38312_030?
 float Field_9_1_0_38312_031?
-string Field_3_4_0_43659_000?
-string Field_3_4_0_43659_001?
-locstring Field_3_4_0_43659_002_lang?
-locstring Field_3_4_0_43659_003_lang?
-locstring Field_3_4_0_43659_004_lang?
-locstring Field_3_4_0_43659_005_lang?
-locstring Field_3_4_0_43659_006_lang?
-locstring Field_3_4_0_43659_007_lang?
-locstring Field_3_4_0_43659_008_lang?
-locstring Field_3_4_0_43659_009_lang?
-locstring Field_3_4_0_43659_010_lang?
-locstring Field_3_4_0_43659_011_lang?
-locstring Field_3_4_0_43659_012_lang?
-locstring Field_3_4_0_43659_013_lang?
-locstring Field_3_4_0_43659_014_lang?
-int Field_3_4_0_43659_015?
-int Field_3_4_0_43659_016?
-int Field_3_4_0_43659_017?
-int Field_3_4_0_43659_018?
-int Field_3_4_0_43659_019?
-int Field_3_4_0_43659_020?
-int Field_3_4_0_43659_021?
-int Field_3_4_0_43659_022?
-int Field_3_4_0_43659_023?
-int Field_3_4_0_43659_024?
-int Field_3_4_0_43659_025?
-int Field_3_4_0_43659_026?
-int Field_3_4_0_43659_027?
-int Field_3_4_0_43659_028?
-int Field_3_4_0_43659_029?
-int Field_3_4_0_43659_030?
-int Field_3_4_0_43659_031?
-int Field_3_4_0_43659_032?
-int Field_3_4_0_43659_033?
-int Field_3_4_0_43659_034?
-float Field_3_4_0_43659_035?
-float Field_3_4_0_43659_036?
-float Field_3_4_0_43659_037?
-float Field_3_4_0_43659_038?
-int Field_3_4_0_43659_039?
-int Field_3_4_0_43659_040?
-int Field_3_4_0_43659_041?
-int Field_3_4_0_43659_042?
-int Field_3_4_0_43659_043?
-int Field_3_4_0_43659_044?
-int Field_3_4_0_43659_045?
-int Field_3_4_0_43659_046?
-int Field_3_4_0_43659_047?
-int Field_3_4_0_43659_048?
-int Field_3_4_0_43659_049?
-int Field_3_4_0_43659_050?
-int Field_3_4_0_43659_051?
-int Field_3_4_0_43659_052?
-int Field_3_4_0_43659_053?
-int Field_3_4_0_43659_054?
-int Field_3_4_0_43659_055?
-int Field_3_4_0_43659_056?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -436,63 +379,63 @@ Required_expansion<32>
 LAYOUT 756C30D6
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463
 $noninline,id$ID<32>
-Field_3_4_0_43659_000
-Field_3_4_0_43659_001
-Field_3_4_0_43659_002_lang
-Field_3_4_0_43659_003_lang
-Field_3_4_0_43659_004_lang
-Field_3_4_0_43659_005_lang
-Field_3_4_0_43659_006_lang
-Field_3_4_0_43659_007_lang
-Field_3_4_0_43659_008_lang
-Field_3_4_0_43659_009_lang
-Field_3_4_0_43659_010_lang
-Field_3_4_0_43659_011_lang
-Field_3_4_0_43659_012_lang
-Field_3_4_0_43659_013_lang
-Field_3_4_0_43659_014_lang
-Field_3_4_0_43659_015<32>
-Field_3_4_0_43659_016<u32>
-Field_3_4_0_43659_017<u32>
-Field_3_4_0_43659_018<u32>
-Field_3_4_0_43659_019<u32>
-Field_3_4_0_43659_020<32>
-Field_3_4_0_43659_021<32>
-Field_3_4_0_43659_022<32>
-Field_3_4_0_43659_023<32>
-Field_3_4_0_43659_024<32>
-Field_3_4_0_43659_025<u32>[3]
-Field_3_4_0_43659_026<u32>[3]
-Field_3_4_0_43659_027<32>
-Field_3_4_0_43659_028<32>
-Field_3_4_0_43659_029<32>
-Field_3_4_0_43659_030<32>
-Field_3_4_0_43659_031<32>
-Field_3_4_0_43659_032<32>
-Field_3_4_0_43659_033<32>
-Field_3_4_0_43659_034<32>
-Field_3_4_0_43659_035[3]
-Field_3_4_0_43659_036
-Field_3_4_0_43659_037[3]
-Field_3_4_0_43659_038[3]
-Field_3_4_0_43659_039<16>
-Field_3_4_0_43659_040<16>
-Field_3_4_0_43659_041<8>
-Field_3_4_0_43659_042<8>
-Field_3_4_0_43659_043<8>
-Field_3_4_0_43659_044<8>
-Field_3_4_0_43659_045<8>
-Field_3_4_0_43659_046<8>
-Field_3_4_0_43659_047<8>
-Field_3_4_0_43659_048<8>
-Field_3_4_0_43659_049<8>
-Field_3_4_0_43659_050<8>
-Field_3_4_0_43659_051<8>
-Field_3_4_0_43659_052<8>
-Field_3_4_0_43659_053<8>
-Field_3_4_0_43659_054<8>
-Field_3_4_0_43659_055<8>
-Field_3_4_0_43659_056<8>
+ClientPrefix
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
+Flags<32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
+ResSicknessSpellID<32>
+SplashSoundID<32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+LowResScreenFileDataID<32>
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
+HeritageArmorAchievementID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+PlayableRaceBit<32>
+FemaleSkeletonFileDataID<32>
+MaleSkeletonFileDataID<32>
+HelmetAnimScalingRaceID<32>
+TransmogrifyDisabledSlotMask<32>
+AlteredFormCustomizeOffsetFallback[3]
+AlteredFormCustomizeRotationFallback
+Field_9_0_1_35256_033[3]
+Field_9_0_1_35256_034[3]
+FactionID<16>
+CinematicSequenceID<16>
+BaseLanguage<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
+UnalteredVisualCustomizationRaceID<8>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11927-4.0.0.12319

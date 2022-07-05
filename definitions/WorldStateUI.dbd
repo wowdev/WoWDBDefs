@@ -19,23 +19,6 @@ int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
-string Field_3_4_0_43659_000?
-locstring Field_3_4_0_43659_001_lang?
-locstring Field_3_4_0_43659_002_lang?
-locstring Field_3_4_0_43659_003_lang?
-string Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
-int Field_3_4_0_43659_013?
-int Field_3_4_0_43659_014?
-int Field_3_4_0_43659_015?
-int Field_3_4_0_43659_016?
 
 BUILD 2.0.0.5991
 BUILD 1.5.0.4442-1.11.2.5464
@@ -135,23 +118,23 @@ ExtendedUIStateVariable<32>[3]
 
 LAYOUT 067774DF
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463
-Field_3_4_0_43659_000
-Field_3_4_0_43659_001_lang
-Field_3_4_0_43659_002_lang
-Field_3_4_0_43659_003_lang
-Field_3_4_0_43659_004
-$id$Field_3_4_0_43659_005<32>
-$relation$Field_3_4_0_43659_006<16>
-Field_3_4_0_43659_007<u16>
-Field_3_4_0_43659_008<u16>
-Field_3_4_0_43659_009<u8>
-Field_3_4_0_43659_010<32>
-Field_3_4_0_43659_011<32>
-Field_3_4_0_43659_012<u8>
-Field_3_4_0_43659_013<u8>
-Field_3_4_0_43659_014<u16>
-Field_3_4_0_43659_015<u16>
-Field_3_4_0_43659_016<u16>[3]
+Icon
+String_lang
+Tooltip_lang
+DynamicTooltip_lang
+ExtendedUI
+$id$ID<32>
+$relation$MapID<16>
+AreaID<u16>
+StateVariable<u16>
+Type<u8>
+DynamicIconFileID<32>
+DynamicFlashIconFileID<32>
+OrderIndex<u8>
+PhaseUseFlags<u8>
+PhaseID<u16>
+PhaseGroupID<u16>
+ExtendedUIStateVariable<u16>[3]
 
 BUILD 4.0.0.11792
 BUILD 3.2.0.10192-3.3.5.12340

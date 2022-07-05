@@ -43,34 +43,6 @@ string AnimModelName
 int MountScaleOtherIndex? // self.CDI.scale * self.MountScaleSelf * otherCMD.MountScaleOther[MountScaleOtherIndex]
 float MountScaleSelf?
 float MountScaleOther?
-float Field_3_4_0_43659_000?
-int Field_3_4_0_43659_001?
-int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
-int Field_3_4_0_43659_004?
-float Field_3_4_0_43659_005?
-float Field_3_4_0_43659_006?
-float Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
-float Field_3_4_0_43659_013?
-float Field_3_4_0_43659_014?
-float Field_3_4_0_43659_015?
-int Field_3_4_0_43659_016?
-float Field_3_4_0_43659_017?
-float Field_3_4_0_43659_018?
-float Field_3_4_0_43659_019?
-float Field_3_4_0_43659_020?
-float Field_3_4_0_43659_021?
-float Field_3_4_0_43659_022?
-float Field_3_4_0_43659_023?
-float Field_3_4_0_43659_024?
-float Field_3_4_0_43659_025?
-float Field_3_4_0_43659_026?
-float Field_3_4_0_43659_027?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -225,34 +197,34 @@ AttachedEffectScale
 LAYOUT 925EA78B
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463
 $noninline,id$ID<32>
-Field_3_4_0_43659_000[6]
-Field_3_4_0_43659_001<u32>
-Field_3_4_0_43659_002<u32>
-Field_3_4_0_43659_003<u32>
-Field_3_4_0_43659_004<u32>
-Field_3_4_0_43659_005
-Field_3_4_0_43659_006
-Field_3_4_0_43659_007
-Field_3_4_0_43659_008<u32>
-Field_3_4_0_43659_009<u32>
-Field_3_4_0_43659_010<u32>
-Field_3_4_0_43659_011<u32>
-Field_3_4_0_43659_012<u32>
-Field_3_4_0_43659_013
-Field_3_4_0_43659_014
-Field_3_4_0_43659_015
-Field_3_4_0_43659_016<u32>
-Field_3_4_0_43659_017
-Field_3_4_0_43659_018
-Field_3_4_0_43659_019
-Field_3_4_0_43659_020
-Field_3_4_0_43659_021
-Field_3_4_0_43659_022
-Field_3_4_0_43659_023
-Field_3_4_0_43659_024
-Field_3_4_0_43659_025
-Field_3_4_0_43659_026
-Field_3_4_0_43659_027
+GeoBox[6]
+Flags<u32>
+FileDataID<u32>
+BloodID<u32>
+FootprintTextureID<u32>
+FootprintTextureLength
+FootprintTextureWidth
+FootprintParticleScale
+FoleyMaterialID<u32>
+FootstepCameraEffectID<u32>
+DeathThudCameraEffectID<u32>
+SoundID<u32>
+SizeClass<u32>
+CollisionWidth
+CollisionHeight
+WorldEffectScale
+CreatureGeosetDataID<u32>
+HoverHeight
+AttachedEffectScale
+ModelScale
+MissileCollisionRadius
+MissileCollisionPush
+MissileCollisionRaise
+MountHeight
+OverrideLootEffectScale
+OverrideNameScale
+OverrideSelectionRadius
+TamedPetBaseScale
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13596

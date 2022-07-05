@@ -6,10 +6,8 @@ int<SpellIcon::ID> SpellIconID
 int<GlyphExclusiveCategory::ID> GlyphExclusiveCategoryID
 int GlyphSlotFlags
 int<FileData::ID> SpellIconFileDataID
-int Field_3_4_0_43659_000?
 int Field_3_4_0_43659_001?
 int Field_3_4_0_43659_002?
-int Field_3_4_0_43659_003?
 int Field_3_4_0_43659_004?
 
 LAYOUT 91CC1D2F
@@ -35,10 +33,10 @@ GlyphSlotFlags<32>
 LAYOUT 768B120C
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463
 $noninline,id$ID<32>
-Field_3_4_0_43659_000<u32>
+SpellID<u32>
 Field_3_4_0_43659_001<u8>
 Field_3_4_0_43659_002<u8>
-Field_3_4_0_43659_003<32>
+SpellIconFileDataID<32>
 Field_3_4_0_43659_004<u32>
 
 BUILD 4.0.0.11792

@@ -58,45 +58,6 @@ float Field_8_3_0_32044_053?
 float Field_8_3_0_32044_054?
 float Field_9_1_0_38312_055?
 float Field_9_1_0_38312_056?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_008?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
-int Field_3_4_0_43659_012?
-int Field_3_4_0_43659_013?
-int Field_3_4_0_43659_014?
-float Field_3_4_0_43659_015?
-float Field_3_4_0_43659_016?
-float Field_3_4_0_43659_017?
-float Field_3_4_0_43659_018?
-float Field_3_4_0_43659_019?
-float Field_3_4_0_43659_020?
-float Field_3_4_0_43659_021?
-float Field_3_4_0_43659_022?
-float Field_3_4_0_43659_023?
-int Field_3_4_0_43659_024?
-int Field_3_4_0_43659_025?
-float Field_3_4_0_43659_026?
-float Field_3_4_0_43659_027?
-float Field_3_4_0_43659_028?
-int Field_3_4_0_43659_029?
-int Field_3_4_0_43659_030?
-int Field_3_4_0_43659_031?
-int Field_3_4_0_43659_032?
-int Field_3_4_0_43659_033?
-int Field_3_4_0_43659_034?
-int Field_3_4_0_43659_035?
-int Field_3_4_0_43659_036?
-int Field_3_4_0_43659_037?
-int Field_3_4_0_43659_038?
-int Field_3_4_0_43659_039?
-int Field_3_4_0_43659_040?
-int Field_3_4_0_43659_041?
-float Field_3_4_0_43659_042?
 
 LAYOUT 9E8F3D27
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400
@@ -157,45 +118,45 @@ $id$ID<32>
 SoundKitID<u32>
 InnerRadius2D
 OuterRadius2D
-Field_3_4_0_43659_004<u32>
-Field_3_4_0_43659_005<u32>
-Field_3_4_0_43659_006<u32>
-Field_3_4_0_43659_007<u32>
-Field_3_4_0_43659_008<32>
-Field_3_4_0_43659_009<8>
-Field_3_4_0_43659_010<u32>
-Field_3_4_0_43659_011<u32>
-Field_3_4_0_43659_012<u32>
-Field_3_4_0_43659_013<u32>
-Field_3_4_0_43659_014<u8>
-Field_3_4_0_43659_015
-Field_3_4_0_43659_016
-Field_3_4_0_43659_017
-Field_3_4_0_43659_018
-Field_3_4_0_43659_019
-Field_3_4_0_43659_020
-Field_3_4_0_43659_021
-Field_3_4_0_43659_022
-Field_3_4_0_43659_023
-Field_3_4_0_43659_024<u32>
-Field_3_4_0_43659_025<u32>
-Field_3_4_0_43659_026
-Field_3_4_0_43659_027
-Field_3_4_0_43659_028
-Field_3_4_0_43659_029<u8>
-Field_3_4_0_43659_030<u16>
-Field_3_4_0_43659_031<32>
-Field_3_4_0_43659_032<u32>
-Field_3_4_0_43659_033<u32>
-Field_3_4_0_43659_034<u8>
-Field_3_4_0_43659_035<u8>
-Field_3_4_0_43659_036<32>
-Field_3_4_0_43659_037<32>
-Field_3_4_0_43659_038<u32>
-Field_3_4_0_43659_039<32>
-Field_3_4_0_43659_040<32>
-Field_3_4_0_43659_041<u32>
-Field_3_4_0_43659_042
+TimeA<u32>
+TimeB<u32>
+TimeC<u32>
+TimeD<u32>
+RandomOffsetRange<32>
+Usage<8>
+TimeIntervalMin<u32>
+TimeIntervalMax<u32>
+DelayMin<u32>
+DelayMax<u32>
+VolumeSliderCategory<u8>
+DuckToSFX
+DuckToMusic
+DuckToAmbience
+DuckToDialog
+DuckToSuppressors
+DuckToCinematicSFX
+DuckToCinematicMusic
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<u32>
+TimeToUnduck<u32>
+InsideAngle
+OutsideAngle
+OutsideVolume
+MinRandomPosOffset<u8>
+MaxRandomPosOffset<u16>
+MsOffset<32>
+TimeCooldownMin<u32>
+TimeCooldownMax<u32>
+MaxInstancesBehavior<u8>
+VolumeControlType<u8>
+VolumeFadeInTimeMin<32>
+VolumeFadeInTimeMax<32>
+VolumeFadeInCurveID<u32>
+VolumeFadeOutTimeMin<32>
+VolumeFadeOutTimeMax<32>
+VolumeFadeOutCurveID<u32>
+ChanceToPlay
 
 LAYOUT 73F6F023
 BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
