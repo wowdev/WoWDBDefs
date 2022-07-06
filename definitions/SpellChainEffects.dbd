@@ -740,14 +740,14 @@ TextureFileDataID<32>[3]
 
 LAYOUT D76BE290
 BUILD 9.2.7.44444
-BUILD 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463
+BUILD 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463, 3.4.0.44547
 $noninline,id$ID<32>
 AvgSegLen
 NoiseScale
 TexCoordScale
 SegDuration<u32>
 SegDelay<u16>
-Flags<u32>
+Flags<32>
 JointCount<u16>
 JointOffsetRadius
 JointsPerMinorJoint<u8>
