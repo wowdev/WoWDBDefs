@@ -75,6 +75,7 @@ int Field_3_4_0_44644_018?
 int Field_3_4_0_44644_019?
 int Field_3_4_0_44644_020?
 int Field_3_4_0_44644_021?
+int Field_10_0_0_44649_022?
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
@@ -1035,4 +1036,32 @@ MaxPlayers<u8>
 WindSettingsID<16>
 ZmpFileDataID<32>
 WdtFileDataID<32>
+Flags<32>[3]
+
+LAYOUT 43E626E4
+BUILD 10.0.0.44645
+$noninline,id$ID<32>
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
+Corpse[2]
+MapType<u8>
+InstanceType<8>
+ExpansionID<u8>
+AreaTableID<u16>
+LoadingScreenID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+TimeOffset<u8>
+MinimapIconScale
+CorpseMapID<16>
+MaxPlayers<u8>
+WindSettingsID<16>
+ZmpFileDataID<32>
+WdtFileDataID<32>
+Field_10_0_0_44649_022<32>
 Flags<32>[3]
