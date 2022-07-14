@@ -4,10 +4,6 @@ int<Spell::ID> SpellID
 int Slot // unique-ascending per SpellID
 int<ModifiedCraftingReagentSlot::ID> ModifiedCraftingReagentSlotID
 int Field_9_0_1_35679_003?
-int Field_10_0_0_44649_000?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
 int Field_10_0_0_44649_005?
 
@@ -44,9 +40,9 @@ Field_9_0_1_35679_003<32>
 LAYOUT 87027844
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-$relation$Field_10_0_0_44649_000<32>
-Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
-Field_10_0_0_44649_003<32>
+$relation$SpellID<32>
+Slot<32>
+ModifiedCraftingReagentSlotID<32>
+Field_9_0_1_35679_003<32>
 Field_10_0_0_44649_004<32>
 Field_10_0_0_44649_005<32>

@@ -31,16 +31,6 @@ int Field_3_4_0_43659_015?
 int Field_3_4_0_43659_016?
 int Field_3_4_0_43659_017?
 int Field_3_4_0_43659_018?
-int Field_10_0_0_44649_000?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
-int Field_10_0_0_44649_005?
-int Field_10_0_0_44649_006?
-int Field_10_0_0_44649_007?
-int Field_10_0_0_44649_008?
-int Field_10_0_0_44649_009?
 int Field_10_0_0_44649_010?
 
 LAYOUT 92F85B98
@@ -339,14 +329,14 @@ ModifiedCraftingReagentItemID<32>
 LAYOUT BCC9BC83
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-Field_10_0_0_44649_000<u8>
-Field_10_0_0_44649_001<u8>
-Field_10_0_0_44649_002<u8>
-Field_10_0_0_44649_003<8>
-Field_10_0_0_44649_004<u8>
-Field_10_0_0_44649_005<8>
-Field_10_0_0_44649_006<32>
-Field_10_0_0_44649_007<u8>
-Field_10_0_0_44649_008<32>
-Field_10_0_0_44649_009<32>
+ClassID<u8>
+SubclassID<u8>
+Material<u8>
+InventoryType<8>
+SheatheType<u8>
+Sound_override_subclassID<8>
+IconFileDataID<32>
+ItemGroupSoundsID<u8>
+ContentTuningID<32>
+ModifiedCraftingReagentItemID<32>
 Field_10_0_0_44649_010<32>

@@ -19,25 +19,6 @@ float Field_9_1_5_40496_015?
 float Field_9_1_5_40496_016?
 float Field_9_1_5_40496_017?
 float Field_9_1_5_40496_018?
-float Field_10_0_0_44649_000?
-float Field_10_0_0_44649_001?
-float Field_10_0_0_44649_002?
-float Field_10_0_0_44649_003?
-float Field_10_0_0_44649_004?
-float Field_10_0_0_44649_005?
-int Field_10_0_0_44649_006?
-int Field_10_0_0_44649_007?
-int Field_10_0_0_44649_008?
-float Field_10_0_0_44649_009?
-int Field_10_0_0_44649_010?
-int Field_10_0_0_44649_011?
-int Field_10_0_0_44649_012?
-float Field_10_0_0_44649_013?
-float Field_10_0_0_44649_014?
-float Field_10_0_0_44649_015?
-float Field_10_0_0_44649_016?
-float Field_10_0_0_44649_017?
-float Field_10_0_0_44649_018?
 int Field_10_0_0_44649_019?
 int Field_10_0_0_44649_020?
 
@@ -160,24 +141,24 @@ Field_9_1_5_40496_018
 LAYOUT E41A3D3D
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-Field_10_0_0_44649_000
-Field_10_0_0_44649_001
-Field_10_0_0_44649_002
-Field_10_0_0_44649_003
-Field_10_0_0_44649_004
-Field_10_0_0_44649_005
-Field_10_0_0_44649_006<8>
-Field_10_0_0_44649_007<8>
-Field_10_0_0_44649_008<32>
-Field_10_0_0_44649_009
-Field_10_0_0_44649_010<32>
-Field_10_0_0_44649_011<32>
-Field_10_0_0_44649_012<u32>
-Field_10_0_0_44649_013
-Field_10_0_0_44649_014
-Field_10_0_0_44649_015
-Field_10_0_0_44649_016
-Field_10_0_0_44649_017
-Field_10_0_0_44649_018
+Ramp
+StartValue
+EndValue
+FadeInTime
+FadeOutTime
+Duration
+AttachID<8>
+ProjectionType<8>
+TextureBlendSetID<32>
+Scale
+Flags<32>
+CurveID<32>
+Priority<u32>
+FresnelIntensity
+Field_9_1_5_40496_014
+Field_9_1_5_40496_015
+Field_9_1_5_40496_016
+Field_9_1_5_40496_017
+Field_9_1_5_40496_018
 Field_10_0_0_44649_019<32>
 Field_10_0_0_44649_020<32>

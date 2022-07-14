@@ -5,12 +5,7 @@ int ClassMask?
 int<Achievement::ID> ReqAchievementID?
 int OverrideArchive? // -1: allow any, otherwise must match OverrideArchive cvar
 int<ItemModifiedAppearance::ID> ReqItemModifiedAppearanceID
-int Field_10_0_0_44649_000?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
 int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
-int Field_10_0_0_44649_005?
 
 LAYOUT F390B9A6
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463, 3.4.0.44547, 3.4.0.44644
@@ -113,9 +108,9 @@ ReqItemModifiedAppearanceID<32>
 LAYOUT 521E727A
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-Field_10_0_0_44649_000<32>
-Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
+ReqType<32>
+ClassMask<32>
+ReqAchievementID<32>
 Field_10_0_0_44649_003<32>
-Field_10_0_0_44649_004<32>
-Field_10_0_0_44649_005<32>
+OverrideArchive<32>
+ReqItemModifiedAppearanceID<32>

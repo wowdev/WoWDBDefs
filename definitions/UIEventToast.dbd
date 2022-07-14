@@ -20,13 +20,6 @@ int TitleTooltipUiWidgetSetID?
 int SubtitleTooltipUiWidgetSetID?
 int<SoundKit::ID> ShowSoundKitID?
 int<SoundKit::ID> HideSoundKitID? // or the other way around? next soundkit id will be ExpandSoundKitID
-locstring Field_10_0_0_44649_000_lang?
-locstring Field_10_0_0_44649_001_lang?
-locstring Field_10_0_0_44649_002_lang?
-locstring Field_10_0_0_44649_003_lang?
-locstring Field_10_0_0_44649_004_lang?
-locstring Field_10_0_0_44649_005_lang?
-int Field_10_0_0_44649_006?
 int Field_10_0_0_44649_007?
 int Field_10_0_0_44649_008?
 int Field_10_0_0_44649_009?
@@ -171,13 +164,13 @@ HideSoundKitID<32>
 
 LAYOUT 1B94BDE2
 BUILD 10.0.0.44649
-Field_10_0_0_44649_000_lang
-Field_10_0_0_44649_001_lang
-Field_10_0_0_44649_002_lang
-Field_10_0_0_44649_003_lang
-Field_10_0_0_44649_004_lang
-Field_10_0_0_44649_005_lang
-$id$Field_10_0_0_44649_006<32>
+Title_lang
+Subtitle_lang
+InstructionText_lang
+SubIcon_lang
+TitleTooltip_lang
+SubtitleTooltip_lang
+$id$EventToastID<32>
 Field_10_0_0_44649_007<32>
 Field_10_0_0_44649_008<32>
 Field_10_0_0_44649_009<32>

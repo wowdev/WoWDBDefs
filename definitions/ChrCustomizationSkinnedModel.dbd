@@ -4,10 +4,6 @@ int<FileData::ID> CollectionsFileDataID
 int GeosetType?
 int GeosetID?
 int Modifier?
-int Field_10_0_0_44649_000?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
 
 LAYOUT 0A19C75E
@@ -45,8 +41,8 @@ Modifier<32>
 LAYOUT B02FB5F3
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-Field_10_0_0_44649_000<32>
-Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
-Field_10_0_0_44649_003<32>
+CollectionsFileDataID<32>
+GeosetType<32>
+GeosetID<32>
+Modifier<32>
 Field_10_0_0_44649_004<32>

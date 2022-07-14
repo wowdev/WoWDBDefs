@@ -12,9 +12,6 @@ int PowerTypeEnum
 float RegenCombat
 int RegenInterruptTimeMS
 float RegenPeace
-string Field_10_0_0_44649_000?
-string Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
 int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
 int Field_10_0_0_44649_005?
@@ -230,9 +227,9 @@ Flags<16>
 
 LAYOUT E8AC7EEC
 BUILD 10.0.0.44649
-Field_10_0_0_44649_000
-Field_10_0_0_44649_001
-$id$Field_10_0_0_44649_002<32>
+NameGlobalStringTag
+CostGlobalStringTag
+$id$ID<32>
 Field_10_0_0_44649_003<8>
 Field_10_0_0_44649_004<32>
 Field_10_0_0_44649_005<32>

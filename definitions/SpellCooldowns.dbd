@@ -5,12 +5,7 @@ int<Difficulty::ID> DifficultyID
 int CategoryRecoveryTime
 int RecoveryTime
 int StartRecoveryTime
-int Field_10_0_0_44649_000?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
-int Field_10_0_0_44649_005?
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.0.0.12232-4.3.4.15595
@@ -107,9 +102,9 @@ $noninline,relation$SpellID<32>
 LAYOUT 254654DD
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-Field_10_0_0_44649_000<u8>
-Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
-Field_10_0_0_44649_003<32>
+DifficultyID<u8>
+CategoryRecoveryTime<32>
+RecoveryTime<32>
+StartRecoveryTime<32>
 Field_10_0_0_44649_004<32>
-$noninline,relation$Field_10_0_0_44649_005<32>
+$noninline,relation$SpellID<32>

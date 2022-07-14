@@ -8,14 +8,6 @@ int<Spell::ID> ReqSpellKnownID
 int<Spell::ID> ModSpellAuraID
 int<Map::ID> ReqMapID
 int<PlayerCondition::ID> PlayerConditionID
-int Field_10_0_0_44649_000?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
-int Field_10_0_0_44649_005?
-int Field_10_0_0_44649_006?
-int Field_10_0_0_44649_007?
 int Field_10_0_0_44649_008?
 
 LAYOUT 930D52E4
@@ -162,12 +154,12 @@ PlayerConditionID<32>
 LAYOUT 7620F729
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-Field_10_0_0_44649_000<u8>
-Field_10_0_0_44649_001<u16>
-Field_10_0_0_44649_002<u16>
-Field_10_0_0_44649_003<u32>
-Field_10_0_0_44649_004<32>
-Field_10_0_0_44649_005<32>
-Field_10_0_0_44649_006<16>
-Field_10_0_0_44649_007<32>
+Flags<u8>
+ReqRidingSkill<u16>
+ReqAreaID<u16>
+ReqSpellAuraID<u32>
+ReqSpellKnownID<32>
+ModSpellAuraID<32>
+ReqMapID<16>
+PlayerConditionID<32>
 Field_10_0_0_44649_008<32>
