@@ -8,7 +8,7 @@ int ChrModelTextureTargetID?
 int Field_9_0_1_34365_006?
 int TextureSectionTypeBitMask? // -1 for non section texture or bit of CharComponentTextureSections::SectionType
 int<CharComponentTextureLayouts::ID> CharComponentTextureLayoutsID
-int Field_10_0_0_44649_003?
+int TextureSectionTypeBitMask2?
 
 LAYOUT DD39DBA5
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463, 3.4.0.44547, 3.4.0.44644
@@ -91,9 +91,9 @@ $noninline,id$ID<32>
 TextureType<32>
 Layer<32>
 Flags<32>
-Field_10_0_0_44649_003<32>
 BlendMode<32>
 TextureSectionTypeBitMask<32>
+TextureSectionTypeBitMask2<32>
 Field_9_0_1_34365_006<32>[3]
 ChrModelTextureTargetID<32>[2]
 $noninline,relation$CharComponentTextureLayoutsID<32>
