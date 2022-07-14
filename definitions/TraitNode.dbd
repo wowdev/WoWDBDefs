@@ -1,16 +1,16 @@
 COLUMNS
-int Field_10_0_0_44649_000?
-int Field_10_0_0_44649_001?
+int ID?
+int<TraitTree::ID> TraitTreeID?
 int Field_10_0_0_44649_002?
 int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
-int Field_10_0_0_44649_005?
+int Type? // 0: Single, 1: Tiered, 2: Selection
+int Flags? // &1: ShowMultipleIcons
 
 LAYOUT 839579A1
 BUILD 10.0.0.44649
-$id$Field_10_0_0_44649_000<32>
-$relation$Field_10_0_0_44649_001<32>
+$id$ID<32>
+$relation$TraitTreeID<32>
 Field_10_0_0_44649_002<32>
 Field_10_0_0_44649_003<32>
-Field_10_0_0_44649_004<u8>
-Field_10_0_0_44649_005<32>
+Type<u8>
+Flags<32>

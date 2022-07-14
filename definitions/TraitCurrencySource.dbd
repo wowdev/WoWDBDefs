@@ -1,19 +1,19 @@
 COLUMNS
-locstring Field_10_0_0_44649_000_lang?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
+locstring Requirement_lang?
+int ID?
+int<TraitCurrency::ID> TraitCurrencyID?
 int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
 int Field_10_0_0_44649_005?
-int Field_10_0_0_44649_006?
+int Field_10_0_0_44649_006? // minlevel?
 int Field_10_0_0_44649_007?
 int Field_10_0_0_44649_008?
 
 LAYOUT D42C05FC
 BUILD 10.0.0.44649
-Field_10_0_0_44649_000_lang
-$id$Field_10_0_0_44649_001<32>
-$relation$Field_10_0_0_44649_002<32>
+Requirement_lang
+$id$ID<32>
+$relation$TraitCurrencyID<32>
 Field_10_0_0_44649_003<32>
 Field_10_0_0_44649_004<32>
 Field_10_0_0_44649_005<32>

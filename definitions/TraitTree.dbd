@@ -1,16 +1,16 @@
 COLUMNS
-string Field_10_0_0_44649_000?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
+string Name?
+int ID?
+int<TraitTree::ID> TraitTreeID?
 int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
 int Field_10_0_0_44649_005?
 
 LAYOUT E1C6B00A
 BUILD 10.0.0.44649
-Field_10_0_0_44649_000
-$id$Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
+Name
+$id$ID<32>
+TraitTreeID<32>
 Field_10_0_0_44649_003<32>
 Field_10_0_0_44649_004<32>
 Field_10_0_0_44649_005<32>

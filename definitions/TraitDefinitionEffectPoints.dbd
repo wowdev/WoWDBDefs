@@ -1,14 +1,14 @@
 COLUMNS
-int Field_10_0_0_44649_000?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
+int ID?
+int<TraitDefinition::ID> TraitDefinitionID?
+int Level?
 int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
 
 LAYOUT 5C22E1DB
 BUILD 10.0.0.44649
-$id$Field_10_0_0_44649_000<32>
-$relation$Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
+$id$ID<32>
+$relation$TraitDefinitionID<32>
+Level<32>
 Field_10_0_0_44649_003<32>
 Field_10_0_0_44649_004<32>
