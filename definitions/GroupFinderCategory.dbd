@@ -6,6 +6,10 @@ int OrderIndex
 int Field_2_5_2_39570_003?
 locstring Description_lang?
 int IconFileDataID?
+locstring Field_10_0_0_44649_000_lang?
+locstring Field_10_0_0_44649_001_lang?
+int Field_10_0_0_44649_002?
+int Field_10_0_0_44649_003?
 
 LAYOUT B5DAE0F2
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400
@@ -87,3 +91,11 @@ Name_lang
 Description_lang
 OrderIndex<32>
 Flags<32>
+
+LAYOUT 257D1287
+BUILD 10.0.0.44649
+$noninline,id$ID<32>
+Field_10_0_0_44649_000_lang
+Field_10_0_0_44649_001_lang
+Field_10_0_0_44649_002<32>
+Field_10_0_0_44649_003<32>

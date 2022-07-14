@@ -3,6 +3,11 @@ int ID
 locstring Name_lang?
 int Field_9_0_1_33978_001?
 int<PlayerCondition::ID> PlayerConditionID?
+locstring Field_10_0_0_44649_000_lang?
+int Field_10_0_0_44649_001?
+int Field_10_0_0_44649_002?
+int Field_10_0_0_44649_003?
+int Field_10_0_0_44649_004?
 
 LAYOUT 79B765B9
 BUILD 9.1.0.38312
@@ -30,3 +35,11 @@ $noninline,id$ID<32>
 Name_lang
 Field_9_0_1_33978_001<32>
 PlayerConditionID<32>
+
+LAYOUT 4B88B7C0
+BUILD 10.0.0.44649
+Field_10_0_0_44649_000_lang
+$id$Field_10_0_0_44649_001<32>
+Field_10_0_0_44649_002<32>
+Field_10_0_0_44649_003<32>
+Field_10_0_0_44649_004<32>

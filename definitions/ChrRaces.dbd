@@ -78,6 +78,58 @@ float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1
 int<ChrRaces::ID> HelmetAnimScalingRaceID?
 float Field_9_1_0_38312_030?
 float Field_9_1_0_38312_031?
+string Field_10_0_0_44649_000?
+string Field_10_0_0_44649_001?
+locstring Field_10_0_0_44649_002_lang?
+locstring Field_10_0_0_44649_003_lang?
+locstring Field_10_0_0_44649_004_lang?
+locstring Field_10_0_0_44649_005_lang?
+locstring Field_10_0_0_44649_006_lang?
+locstring Field_10_0_0_44649_007_lang?
+locstring Field_10_0_0_44649_008_lang?
+locstring Field_10_0_0_44649_009_lang?
+locstring Field_10_0_0_44649_010_lang?
+locstring Field_10_0_0_44649_011_lang?
+locstring Field_10_0_0_44649_012_lang?
+locstring Field_10_0_0_44649_013_lang?
+locstring Field_10_0_0_44649_014_lang?
+int Field_10_0_0_44649_015?
+int Field_10_0_0_44649_016?
+int Field_10_0_0_44649_017?
+int Field_10_0_0_44649_018?
+int Field_10_0_0_44649_019?
+int Field_10_0_0_44649_020?
+int Field_10_0_0_44649_021?
+int Field_10_0_0_44649_022?
+int Field_10_0_0_44649_023?
+int Field_10_0_0_44649_024?
+int Field_10_0_0_44649_025?
+int Field_10_0_0_44649_026?
+int Field_10_0_0_44649_027?
+int Field_10_0_0_44649_028?
+int Field_10_0_0_44649_029?
+int Field_10_0_0_44649_030?
+int Field_10_0_0_44649_031?
+int Field_10_0_0_44649_032?
+int Field_10_0_0_44649_033?
+int Field_10_0_0_44649_034?
+int Field_10_0_0_44649_035?
+int Field_10_0_0_44649_036?
+int Field_10_0_0_44649_037?
+int Field_10_0_0_44649_038?
+int Field_10_0_0_44649_039?
+int Field_10_0_0_44649_040?
+float Field_10_0_0_44649_041?
+float Field_10_0_0_44649_042?
+float Field_10_0_0_44649_043?
+float Field_10_0_0_44649_044?
+int Field_10_0_0_44649_045?
+int Field_10_0_0_44649_046?
+int Field_10_0_0_44649_047?
+int Field_10_0_0_44649_048?
+int Field_10_0_0_44649_049?
+int Field_10_0_0_44649_050?
+int Field_10_0_0_44649_051?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -681,6 +733,7 @@ HighResMaleDisplayID<u32>
 HighResFemaleDisplayID<u32>
 AlteredFormStartVisualKitID<u32>[3]
 AlteredFormFinishVisualKitID<u32>[3]
+
 
 LAYOUT 51C511F9
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175
@@ -1625,7 +1678,6 @@ FemaleModelFallbackSex<8>
 MaleTextureFallbackSex<8>
 FemaleTextureFallbackSex<8>
 
-
 LAYOUT BAD9D8A9
 BUILD 9.2.7.44444
 BUILD 9.2.5.43519, 9.2.5.43630, 9.2.5.43741, 9.2.5.43810, 9.2.5.43903, 9.2.5.43971, 9.2.5.44015, 9.2.5.44061, 9.2.5.44127, 9.2.5.44232, 9.2.5.44325
@@ -1681,3 +1733,59 @@ MaleModelFallbackSex<8>
 FemaleModelFallbackSex<8>
 MaleTextureFallbackSex<8>
 FemaleTextureFallbackSex<8>
+
+LAYOUT CD316971
+BUILD 10.0.0.44649
+$noninline,id$ID<32>
+Field_10_0_0_44649_000
+Field_10_0_0_44649_001
+Field_10_0_0_44649_002_lang
+Field_10_0_0_44649_003_lang
+Field_10_0_0_44649_004_lang
+Field_10_0_0_44649_005_lang
+Field_10_0_0_44649_006_lang
+Field_10_0_0_44649_007_lang
+Field_10_0_0_44649_008_lang
+Field_10_0_0_44649_009_lang
+Field_10_0_0_44649_010_lang
+Field_10_0_0_44649_011_lang
+Field_10_0_0_44649_012_lang
+Field_10_0_0_44649_013_lang
+Field_10_0_0_44649_014_lang
+Field_10_0_0_44649_015<32>
+Field_10_0_0_44649_016<32>
+Field_10_0_0_44649_017<32>
+Field_10_0_0_44649_018<32>
+Field_10_0_0_44649_019<32>
+Field_10_0_0_44649_020<32>
+Field_10_0_0_44649_021<32>
+Field_10_0_0_44649_022<32>
+Field_10_0_0_44649_023<32>
+Field_10_0_0_44649_024<32>
+Field_10_0_0_44649_025<32>
+Field_10_0_0_44649_026<32>
+Field_10_0_0_44649_027<32>
+Field_10_0_0_44649_028<32>[3]
+Field_10_0_0_44649_029<32>[3]
+Field_10_0_0_44649_030<32>
+Field_10_0_0_44649_031<32>
+Field_10_0_0_44649_032<32>
+Field_10_0_0_44649_033<32>
+Field_10_0_0_44649_034<32>
+Field_10_0_0_44649_035<32>
+Field_10_0_0_44649_036<32>
+Field_10_0_0_44649_037<32>
+Field_10_0_0_44649_038<32>
+Field_10_0_0_44649_039<32>
+Field_10_0_0_44649_040<32>
+Field_10_0_0_44649_041[3]
+Field_10_0_0_44649_042
+Field_10_0_0_44649_043[3]
+Field_10_0_0_44649_044[3]
+Field_10_0_0_44649_045<32>
+Field_10_0_0_44649_046<8>
+Field_10_0_0_44649_047<8>
+Field_10_0_0_44649_048<8>
+Field_10_0_0_44649_049<8>
+Field_10_0_0_44649_050<8>
+Field_10_0_0_44649_051<8>

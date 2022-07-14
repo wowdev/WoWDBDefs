@@ -2,6 +2,9 @@ COLUMNS
 int ID
 int Flags
 int Type
+int Field_10_0_0_44649_000?
+int Field_10_0_0_44649_001?
+int Field_10_0_0_44649_002?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -54,3 +57,9 @@ BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.438
 $noninline,id$ID<32>
 Type<u8>
 Flags<u8>
+
+LAYOUT 58B43CA3
+BUILD 10.0.0.44649
+$id$Field_10_0_0_44649_000<32>
+Field_10_0_0_44649_001<u8>
+Field_10_0_0_44649_002<u8>

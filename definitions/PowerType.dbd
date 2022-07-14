@@ -12,6 +12,19 @@ int PowerTypeEnum
 float RegenCombat
 int RegenInterruptTimeMS
 float RegenPeace
+string Field_10_0_0_44649_000?
+string Field_10_0_0_44649_001?
+int Field_10_0_0_44649_002?
+int Field_10_0_0_44649_003?
+int Field_10_0_0_44649_004?
+int Field_10_0_0_44649_005?
+int Field_10_0_0_44649_006?
+int Field_10_0_0_44649_007?
+int Field_10_0_0_44649_008?
+int Field_10_0_0_44649_009?
+float Field_10_0_0_44649_010?
+float Field_10_0_0_44649_011?
+int Field_10_0_0_44649_012?
 
 LAYOUT C55B6F11
 BUILD 1.13.0.28211
@@ -214,3 +227,19 @@ RegenInterruptTimeMS<16>
 RegenPeace
 RegenCombat
 Flags<16>
+
+LAYOUT E8AC7EEC
+BUILD 10.0.0.44649
+Field_10_0_0_44649_000
+Field_10_0_0_44649_001
+$id$Field_10_0_0_44649_002<32>
+Field_10_0_0_44649_003<8>
+Field_10_0_0_44649_004<32>
+Field_10_0_0_44649_005<32>
+Field_10_0_0_44649_006<32>
+Field_10_0_0_44649_007<32>
+Field_10_0_0_44649_008<32>
+Field_10_0_0_44649_009<32>
+Field_10_0_0_44649_010
+Field_10_0_0_44649_011
+Field_10_0_0_44649_012<16>

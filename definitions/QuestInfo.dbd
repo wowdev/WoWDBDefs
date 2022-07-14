@@ -4,6 +4,10 @@ locstring InfoName_lang
 int Modifiers
 int<SkillLine::ID> Profession
 int Type // 0 = Tag, 1 = Profession, 2 = Normal, 3 = Pvp, 4 = PetBattle, 5 = Bounty, 6 = Dungeon, 7 = Invasion, 8 = Raid, 9 = Contribution, 10 = RatedReward, 11 = InvasionWrapper, 12 = FactionAssault, 13 = Islands, 14 = Threat
+locstring Field_10_0_0_44649_000_lang?
+int Field_10_0_0_44649_001?
+int Field_10_0_0_44649_002?
+int Field_10_0_0_44649_003?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -85,3 +89,11 @@ InfoName_lang
 Type<8>
 Modifiers<32>
 Profession<u16>
+
+LAYOUT AFE57F67
+BUILD 10.0.0.44649
+$noninline,id$ID<32>
+Field_10_0_0_44649_000_lang
+Field_10_0_0_44649_001<8>
+Field_10_0_0_44649_002<32>
+Field_10_0_0_44649_003<32>
