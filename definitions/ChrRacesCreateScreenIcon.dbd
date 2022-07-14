@@ -1,12 +1,12 @@
 COLUMNS
 int ID?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
+int<ChrRaces::ID> ChrRacesID?
+int Sex? // mask: 1: male, 2: female, 3: male+female
+int<UiTextureAtlasElement::ID> RaceIcon?
 
 LAYOUT D69ECEFF
 BUILD 10.0.0.44649
 $id$ID<32>
-Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<8>
-Field_10_0_0_44649_003<32>
+ChrRacesID<32>
+Sex<8>
+RaceIcon<32>

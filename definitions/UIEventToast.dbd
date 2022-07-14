@@ -20,20 +20,6 @@ int TitleTooltipUiWidgetSetID?
 int SubtitleTooltipUiWidgetSetID?
 int<SoundKit::ID> ShowSoundKitID?
 int<SoundKit::ID> HideSoundKitID? // or the other way around? next soundkit id will be ExpandSoundKitID
-int Field_10_0_0_44649_007?
-int Field_10_0_0_44649_008?
-int Field_10_0_0_44649_009?
-int Field_10_0_0_44649_010?
-int Field_10_0_0_44649_011?
-int Field_10_0_0_44649_012?
-int Field_10_0_0_44649_013?
-int Field_10_0_0_44649_014?
-int Field_10_0_0_44649_015?
-int Field_10_0_0_44649_016?
-int Field_10_0_0_44649_017?
-int Field_10_0_0_44649_018?
-int Field_10_0_0_44649_019?
-int Field_10_0_0_44649_020?
 
 LAYOUT 4414294A
 BUILD 9.1.0.38312
@@ -171,17 +157,17 @@ SubIcon_lang
 TitleTooltip_lang
 SubtitleTooltip_lang
 $id$EventToastID<32>
-Field_10_0_0_44649_007<32>
-Field_10_0_0_44649_008<32>
-Field_10_0_0_44649_009<32>
-Field_10_0_0_44649_010<32>
-Field_10_0_0_44649_011<32>
-Field_10_0_0_44649_012<32>
-Field_10_0_0_44649_013<32>
-Field_10_0_0_44649_014<32>
-Field_10_0_0_44649_015<32>
-Field_10_0_0_44649_016<32>
-Field_10_0_0_44649_017<32>
-Field_10_0_0_44649_018<32>
-Field_10_0_0_44649_019<32>
-Field_10_0_0_44649_020<32>
+PlayerConditionID<32>
+UiTextureAtlasMemberID<32>
+UiTextureKitID<32>
+EventType<32>
+DisplayType<32>
+EventAsset<32>
+Field_9_1_0_38312_011<32>
+IconFileID<32>
+UiWidgetSetID<32>
+ExtraUiWidgetSetID<32>
+TitleTooltipUiWidgetSetID<32>
+SubtitleTooltipUiWidgetSetID<32>
+ShowSoundKitID<32>
+HideSoundKitID<32>
