@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-locstring Field_10_0_0_44649_000_lang?
+locstring Name_lang?
 int Field_10_0_0_44649_001?
 
 LAYOUT FE8414F9
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-Field_10_0_0_44649_000_lang
+Name_lang
 $noninline,relation$Field_10_0_0_44649_001<32>

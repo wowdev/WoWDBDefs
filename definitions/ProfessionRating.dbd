@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-locstring Field_10_0_0_44649_000_lang?
-locstring Field_10_0_0_44649_001_lang?
+locstring Name_lang?
+locstring Description_lang?
 int Field_10_0_0_44649_002?
 int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
@@ -9,8 +9,8 @@ int Field_10_0_0_44649_004?
 LAYOUT 40A6199E
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-Field_10_0_0_44649_000_lang
-Field_10_0_0_44649_001_lang
+Name_lang
+Description_lang
 Field_10_0_0_44649_002<32>
 Field_10_0_0_44649_003<32>
 $noninline,relation$Field_10_0_0_44649_004<32>
