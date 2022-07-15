@@ -4,7 +4,7 @@ int<FileData::ID> CollectionsFileDataID
 int GeosetType?
 int GeosetID?
 int Modifier?
-int Field_10_0_0_44649_004?
+int Flags?
 
 LAYOUT 0A19C75E
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -45,4 +45,4 @@ CollectionsFileDataID<32>
 GeosetType<32>
 GeosetID<32>
 Modifier<32>
-Field_10_0_0_44649_004<32>
+Flags<32>
