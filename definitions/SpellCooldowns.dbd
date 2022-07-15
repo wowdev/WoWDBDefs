@@ -5,7 +5,7 @@ int<Difficulty::ID> DifficultyID
 int CategoryRecoveryTime
 int RecoveryTime
 int StartRecoveryTime
-int Field_10_0_0_44649_004?
+int<Spell::ID> BuffSpellID? // lockout if buff?
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.0.0.12232-4.3.4.15595
@@ -106,5 +106,5 @@ DifficultyID<u8>
 CategoryRecoveryTime<32>
 RecoveryTime<32>
 StartRecoveryTime<32>
-Field_10_0_0_44649_004<32>
+BuffSpellID<32>
 $noninline,relation$SpellID<32>

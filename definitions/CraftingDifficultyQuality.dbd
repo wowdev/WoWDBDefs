@@ -1,14 +1,14 @@
 COLUMNS
-int ID?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
-float Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
+int ID
+int Order?
+int<CraftingQuality::ID> CraftingQualityID
+float QualityPercentage?
+int<CraftingDifficulty::ID> CraftingDifficultyID?
 
 LAYOUT 30C8DB9A
 BUILD 10.0.0.44649
 $id$ID<32>
-Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
-Field_10_0_0_44649_003
-$noninline,relation$Field_10_0_0_44649_004<32>
+Order<32>
+CraftingQualityID<32>
+QualityPercentage
+$noninline,relation$CraftingDifficultyID<32>

@@ -1,6 +1,6 @@
 COLUMNS
 int ID?
-int CondType?
+int CondType? // 0: Available, 1: Visible, 2: Granted, 3: Increased
 int<TraitTree::ID> TraitTreeID?
 int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?

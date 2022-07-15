@@ -4,8 +4,8 @@ int ID?
 int<Spell::ID> SpellID?
 int OverrideCriticalTimeRemaining?
 int Priority?
-int PlayerConditionID?
-int SoundKitID?
+int<PlayerCondition::ID> PlayerConditionID?
+int<SoundKit::ID> SoundKitID?
 
 LAYOUT AD10C12D
 BUILD 10.0.0.44649

@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int Field_10_0_0_44649_000?
+int<Item::ID> ResultingItemID?
 int<ItemSalvage::ID> ItemSalvageID?
 int Field_10_0_0_44649_002?
 
 LAYOUT 96554070
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-$relation$Field_10_0_0_44649_000<32>
+$relation$ResultingItemID<32>
 ItemSalvageID<32>
 Field_10_0_0_44649_002<32>
