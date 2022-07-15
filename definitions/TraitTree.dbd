@@ -2,7 +2,7 @@ COLUMNS
 string Name?
 int ID?
 int<TraitTree::ID> TraitTreeID?
-int Field_10_0_0_44649_003?
+int Field_10_0_0_44649_003? // one of these is flags. &1: CannotRefund
 int Field_10_0_0_44649_004?
 int Field_10_0_0_44649_005?
 

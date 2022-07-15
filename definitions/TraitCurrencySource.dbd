@@ -7,7 +7,7 @@ int Field_10_0_0_44649_004?
 int<Achievement::ID> AchievementID?
 int PlayerLevel?
 int Field_10_0_0_44649_007?
-int Field_10_0_0_44649_008?
+int OrderIndex? // not sure what group, but the achievement-unlocked sources are increasing in level
 
 LAYOUT D42C05FC
 BUILD 10.0.0.44649
@@ -19,4 +19,4 @@ Field_10_0_0_44649_004<32>
 AchievementID<32>
 PlayerLevel<32>
 Field_10_0_0_44649_007<32>
-Field_10_0_0_44649_008<32>
+OrderIndex<32>
