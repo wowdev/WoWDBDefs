@@ -8,7 +8,7 @@ int InventoryType // C_Item.InventoryType
 int OrderIndex
 int DefaultAuctionHouseFilter? // guessed, seems to be off by one though, i.e. pre-9.2.5 enum
 int<AuctionHouseCategory::ID> ParentCategory?
-int Field_10_0_0_44649_009?
+int AuctionHouseExtraColumn? // 0: None, 1: Ilvl, 2: Slots, 3: Level, 4: Skill
 
 LAYOUT 68AEBFF6
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -47,4 +47,4 @@ InventoryType<32>
 OrderIndex<32>
 $relation$ParentCategory<32>
 DefaultAuctionHouseFilter<u8>
-Field_10_0_0_44649_009<u8>
+AuctionHouseExtraColumn<u8>

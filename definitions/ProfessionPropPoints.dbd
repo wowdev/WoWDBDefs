@@ -1,18 +1,18 @@
 COLUMNS
 int ID
-float Field_10_0_0_44649_000?
-float Field_10_0_0_44649_001?
-float Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
-int Field_10_0_0_44649_005?
+float EpicF
+float SuperiorF
+float GoodF
+int Epic
+int Superior
+int Good
 
 LAYOUT E2DEF177
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-Field_10_0_0_44649_000[2]
-Field_10_0_0_44649_001[2]
-Field_10_0_0_44649_002[2]
-Field_10_0_0_44649_003<u32>[2]
-Field_10_0_0_44649_004<u32>[2]
-Field_10_0_0_44649_005<u32>[2]
+EpicF[2]
+SuperiorF[2]
+GoodF[2]
+Epic<u32>[2]
+Superior<u32>[2]
+Good<u32>[2]

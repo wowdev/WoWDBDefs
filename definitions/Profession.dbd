@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<SkillLine::ID> SkillLineID?
-int Field_10_0_0_44649_001?
+int EnumID? // 0: FirstAid, 1: Blacksmithing, 2: Leatherworking, 3: Alchemy, 4: Herbalism, 5: Cooking, 6: Mining:, 7: Tailoring, 8: Engineering, 9: Enchanting, 10: Fishing, 11: Skinning, 12: Jewelcrafting, 13: Inscription, 14: Archaeology
 float Field_10_0_0_44649_002?
 float Field_10_0_0_44649_003?
 float Field_10_0_0_44649_004?
@@ -11,7 +11,7 @@ LAYOUT 27AB2810
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
 SkillLineID<32>
-Field_10_0_0_44649_001<32>
+EnumID<32>
 Field_10_0_0_44649_002
 Field_10_0_0_44649_003
 Field_10_0_0_44649_004

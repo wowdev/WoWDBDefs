@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<ModifiedCraftingCategory::ID> ModifiedCraftingCategoryID
 int<ModifiedCraftingReagentSlot::ID> ModifiedCraftingReagentSlotID
-int Field_10_0_0_44649_001?
+int Order?
 
 LAYOUT 342AD8FB
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -27,5 +27,5 @@ LAYOUT 39F35458
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
 ModifiedCraftingCategoryID<32>
-Field_10_0_0_44649_001<32>
+Order<32>
 $noninline,relation$ModifiedCraftingReagentSlotID<32>

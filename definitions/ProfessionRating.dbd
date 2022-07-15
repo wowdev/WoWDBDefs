@@ -2,15 +2,15 @@ COLUMNS
 int ID
 locstring Name_lang?
 locstring Description_lang?
-int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
+int EnumID? // 0: CraftCrit, 1: CraftReduction, 2: GatherExtra, 3: GatherTimeDecrease, 4: GatherDiscover, 5: CraftTimeDecrease, 6: CraftExtra, 7: GatherTimeIncrease, 8: GatherRange
+int Field_10_0_0_44649_003? // also EnumID, might be swapped.
+int ProfessionRatingType // 0: Craft, 1: Gather
 
 LAYOUT 40A6199E
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-Field_10_0_0_44649_002<32>
+EnumID<32>
 Field_10_0_0_44649_003<32>
-$noninline,relation$Field_10_0_0_44649_004<32>
+$noninline,relation$ProfessionRatingType<32>

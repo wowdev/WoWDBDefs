@@ -1,7 +1,6 @@
 COLUMNS
 int<Item::ID> ItemID
 int<ModifiedCraftingReagentItem::ID> ModifiedCraftingReagentItemID
-int ID
 
 LAYOUT 8CB2494F
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -22,5 +21,5 @@ ModifiedCraftingReagentItemID<32>
 LAYOUT 106F4AE2
 BUILD 9.2.7.44444
 BUILD 9.2.5.43519, 9.2.5.43630, 9.2.5.43741, 9.2.5.43810, 9.2.5.43903, 9.2.5.43971, 9.2.5.44015, 9.2.5.44061, 9.2.5.44127, 9.2.5.44232, 9.2.5.44325
-$noninline,id$ID<32>
+$noninline,id$ItemID<32>
 ModifiedCraftingReagentItemID<32>

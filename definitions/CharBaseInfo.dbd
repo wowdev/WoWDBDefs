@@ -4,7 +4,7 @@ int<ChrClasses::ID> ClassID
 int ID
 int Padding_4_0_0_11792_003?
 int<ChrProficiency::ID> Proficiency
-int Field_10_0_0_44649_002?
+int<ChrRaces::ID> OtherFactionRaceID?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -78,4 +78,4 @@ BUILD 10.0.0.44649
 $noninline,id$ID<32>
 RaceID<8>
 ClassID<8>
-Field_10_0_0_44649_002<32>
+OtherFactionRaceID<32>
