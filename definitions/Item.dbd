@@ -20,6 +20,7 @@ int RequiredLevel?
 int RandomSelect?
 int ItemRandomSuffixGroupID?
 int<ContentTuning::ID> ContentTuningID?
+int<CraftingQuality::ID> CraftingQualityID?
 int Field_3_4_0_43659_004?
 int Field_3_4_0_43659_006?
 int Field_3_4_0_43659_007?
@@ -31,7 +32,6 @@ int Field_3_4_0_43659_015?
 int Field_3_4_0_43659_016?
 int Field_3_4_0_43659_017?
 int Field_3_4_0_43659_018?
-int Field_10_0_0_44649_010?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -339,4 +339,4 @@ IconFileDataID<32>
 ItemGroupSoundsID<u8>
 ContentTuningID<32>
 ModifiedCraftingReagentItemID<32>
-Field_10_0_0_44649_010<32>
+CraftingQualityID<32>
