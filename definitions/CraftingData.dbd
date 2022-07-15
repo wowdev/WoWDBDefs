@@ -2,8 +2,8 @@ COLUMNS
 int ID?
 int Field_10_0_0_44649_001?
 int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
+int<Item::ID> CraftedItemID?
+int CraftingDifficulty
 float Field_10_0_0_44649_005?
 float Field_10_0_0_44649_006?
 float Field_10_0_0_44649_007?
@@ -17,8 +17,8 @@ BUILD 10.0.0.44649
 $id$ID<32>
 Field_10_0_0_44649_001<32>
 Field_10_0_0_44649_002<32>
-Field_10_0_0_44649_003<32>
-Field_10_0_0_44649_004<32>
+CraftedItemID<32>
+CraftingDifficulty<32>
 Field_10_0_0_44649_005
 Field_10_0_0_44649_006
 Field_10_0_0_44649_007
