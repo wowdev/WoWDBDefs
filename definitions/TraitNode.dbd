@@ -1,8 +1,8 @@
 COLUMNS
 int ID?
 int<TraitTree::ID> TraitTreeID?
-int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
+int PosX?
+int PosY?
 int Type? // 0: Single, 1: Tiered, 2: Selection
 int Flags? // &1: ShowMultipleIcons
 
@@ -10,7 +10,7 @@ LAYOUT 839579A1
 BUILD 10.0.0.44649
 $id$ID<32>
 $relation$TraitTreeID<32>
-Field_10_0_0_44649_002<32>
-Field_10_0_0_44649_003<32>
+PosX<32>
+PosY<32>
 Type<u8>
 Flags<32>

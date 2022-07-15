@@ -1,10 +1,10 @@
 COLUMNS
-int Field_10_0_0_44649_000?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
+int ID?
+int<TraitNodeGroup::ID> TraitNodeGroupID?
+int<TraitCost::ID> TraitCostID?
 
 LAYOUT 97B85B29
 BUILD 10.0.0.44649
-$id$Field_10_0_0_44649_000<32>
-$relation$Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
+$id$ID<32>
+$relation$TraitNodeGroupID<32>
+TraitCostID<32>

@@ -1,34 +1,34 @@
 COLUMNS
 int ID?
-int Field_10_0_0_44649_001?
+int CondType?
 int<TraitTree::ID> TraitTreeID?
 int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
 int Field_10_0_0_44649_005?
-int Field_10_0_0_44649_006?
-int Field_10_0_0_44649_007?
+int<SpecSetMember::SpecSet> SpecSetID?
+int<TraitNodeGroup::ID> TraitNodeGroupID?
 int Field_10_0_0_44649_008?
-int Field_10_0_0_44649_009?
-int Field_10_0_0_44649_010?
-int Field_10_0_0_44649_011?
+int<TraitCurrency::ID> TraitCurrencyID?
+int SpentAmountRequired?
+int CondFlag?
 int Field_10_0_0_44649_012?
-int Field_10_0_0_44649_013?
-int Field_10_0_0_44649_014?
+int<SharedString::ID> FreeSharedStringID?
+int<SharedString::ID> SpendMoreSharedStringID?
 
 LAYOUT 91F4174C
 BUILD 10.0.0.44649
 $id$ID<32>
-Field_10_0_0_44649_001<32>
+CondType<32>
 $relation$TraitTreeID<32>
 Field_10_0_0_44649_003<32>
 Field_10_0_0_44649_004<32>
 Field_10_0_0_44649_005<32>
-Field_10_0_0_44649_006<32>
-Field_10_0_0_44649_007<32>
+SpecSetID<32>
+TraitNodeGroupID<32>
 Field_10_0_0_44649_008<32>
-Field_10_0_0_44649_009<32>
-Field_10_0_0_44649_010<32>
-Field_10_0_0_44649_011<32>
+TraitCurrencyID<32>
+SpentAmountRequired<32>
+CondFlag<32>
 Field_10_0_0_44649_012<32>
-Field_10_0_0_44649_013<32>
-Field_10_0_0_44649_014<32>
+FreeSharedStringID<32>
+SpendMoreSharedStringID<32>

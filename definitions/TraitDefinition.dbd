@@ -1,18 +1,18 @@
 COLUMNS
-locstring Name_lang?
-locstring ShortDescription_lang?
-locstring Description_lang?
-int ID?
-int Field_10_0_0_44649_004?
-int Field_10_0_0_44649_005?
-int Field_10_0_0_44649_006?
+locstring OverrideName_lang
+locstring OverrideSubtext_lang
+locstring OverrideDescription_lang
+int ID
+int<Spell::ID> SpellID
+int<FileData::ID> OverrideIcon
+int<Spell::ID> OverridesSpellID?
 
 LAYOUT CF591203
 BUILD 10.0.0.44649
-Name_lang
-ShortDescription_lang
-Description_lang
+OverrideName_lang
+OverrideSubtext_lang
+OverrideDescription_lang
 $id$ID<32>
-Field_10_0_0_44649_004<32>
-Field_10_0_0_44649_005<32>
-Field_10_0_0_44649_006<32>
+SpellID<32>
+OverrideIcon<32>
+OverridesSpellID<32>
