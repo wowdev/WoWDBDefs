@@ -1,14 +1,14 @@
 COLUMNS
 int ID
 int<TextureFileData::MaterialResourcesID> MaterialResourcesID?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
+int TextureType?
+int ModelIndex?
 int<ItemDisplayInfo::ID> ItemDisplayInfoID?
 
 LAYOUT 9601DF6B
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
 MaterialResourcesID<32>
-Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
+TextureType<32>
+ModelIndex<32>
 $noninline,relation$ItemDisplayInfoID<32>
