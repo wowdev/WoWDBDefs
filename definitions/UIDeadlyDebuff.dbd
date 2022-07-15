@@ -1,18 +1,18 @@
 COLUMNS
-locstring Field_10_0_0_44649_000_lang?
+locstring WarningText_lang?
 int ID?
 int<Spell::ID> SpellID?
-int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
-int Field_10_0_0_44649_005?
-int Field_10_0_0_44649_006?
+int OverrideCriticalTimeRemaining?
+int Priority?
+int PlayerConditionID?
+int SoundKitID?
 
 LAYOUT AD10C12D
 BUILD 10.0.0.44649
-Field_10_0_0_44649_000_lang
+WarningText_lang
 $id$ID<32>
 SpellID<32>
-Field_10_0_0_44649_003<32>
-Field_10_0_0_44649_004<32>
-Field_10_0_0_44649_005<32>
-Field_10_0_0_44649_006<32>
+OverrideCriticalTimeRemaining<32>
+Priority<32>
+PlayerConditionID<32>
+SoundKitID<32>
