@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-int Field_10_0_0_44649_000?
+int MaterialResourcesID?
 int Field_10_0_0_44649_001?
 int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
+int ItemDisplayInfoID?
 
 LAYOUT 9601DF6B
 BUILD 10.0.0.44649
 $noninline,id$ID<32>
-Field_10_0_0_44649_000<32>
+MaterialResourcesID<32>
 Field_10_0_0_44649_001<32>
 Field_10_0_0_44649_002<32>
-$noninline,relation$Field_10_0_0_44649_003<32>
+$noninline,relation$ItemDisplayInfoID<32>
