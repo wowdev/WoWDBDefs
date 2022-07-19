@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<Label::ID> LabelID?
+int LabelID?
 int<ContentTuning::ID> ContentTuningID?
 
 LAYOUT 62982D18
