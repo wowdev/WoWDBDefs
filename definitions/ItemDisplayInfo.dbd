@@ -24,7 +24,7 @@ int GroupSoundIndex
 string GroundModel
 int ItemSize
 int HelmetGeosetVisID
-int Field_8_2_0_30080_011?
+int ModelType?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -217,7 +217,7 @@ UnsheathedSpellVisualKitID<u32>
 Flags<32>
 ModelResourcesID<u32>[2]
 ModelMaterialResourcesID<32>[2]
-Field_8_2_0_30080_011<u8>[2]
+ModelType<u8>[2]
 GeosetGroup<32>[6]
 AttachmentGeosetGroup<32>[6]
 HelmetGeosetVis<32>[2]
@@ -250,7 +250,7 @@ UnsheathedSpellVisualKitID<u32>
 Flags<32>
 ModelResourcesID<u32>[2]
 ModelMaterialResourcesID<32>[2]
-Field_8_2_0_30080_011<32>[2]
+ModelType<32>[2]
 GeosetGroup<32>[6]
 AttachmentGeosetGroup<32>[6]
 HelmetGeosetVis<32>[2]
@@ -272,7 +272,7 @@ UnsheathedSpellVisualKitID<u32>
 Flags<32>
 ModelResourcesID<u32>[2]
 ModelMaterialResourcesID<32>[2]
-Field_8_2_0_30080_011<32>[2]
+ModelType<32>[2]
 GeosetGroup<32>[6]
 AttachmentGeosetGroup<32>[6]
 HelmetGeosetVis<32>[2]
