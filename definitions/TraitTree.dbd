@@ -2,9 +2,9 @@ COLUMNS
 string Name?
 int ID?
 int<TraitTree::ID> TraitTreeID?
-int Field_10_0_0_44649_003? // one of these is flags. &1: CannotRefund
+int<TraitNode::ID> FirstTraitNodeID?
 int Field_10_0_0_44649_004?
-int Field_10_0_0_44649_005?
+int Field_10_0_0_44649_005? // 0: Talents, 1: Professions; one of these is flags. &1: CannotRefund
 int Field_10_0_0_44707_002?
 
 LAYOUT E1C6B00A
@@ -12,7 +12,7 @@ BUILD 10.0.0.44649
 Name
 $id$ID<32>
 TraitTreeID<32>
-Field_10_0_0_44649_003<32>
+FirstTraitNodeID<32>
 Field_10_0_0_44649_004<32>
 Field_10_0_0_44649_005<32>
 
@@ -22,6 +22,6 @@ Name
 $id$ID<32>
 $relation$Field_10_0_0_44707_002<32>
 TraitTreeID<32>
-Field_10_0_0_44649_003<32>
+FirstTraitNodeID<32>
 Field_10_0_0_44649_004<32>
 Field_10_0_0_44649_005<32>

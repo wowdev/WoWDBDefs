@@ -1,12 +1,12 @@
 COLUMNS
 int ID
 int<ProfessionEffectType::EnumID> ProfessionEffectTypeEnumID?
-float Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
+float Amount?
+int<ModifiedCraftingReagentSlot::ID> ModifiedCraftingReagentSlotID?
 
 LAYOUT B42F4258
 BUILD 10.0.0.44649, 10.0.0.44707
 $noninline,id$ID<32>
 ProfessionEffectTypeEnumID<32>
-Field_10_0_0_44649_001
-Field_10_0_0_44649_002<32>
+Amount
+ModifiedCraftingReagentSlotID<32>

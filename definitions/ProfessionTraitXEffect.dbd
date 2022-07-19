@@ -1,12 +1,12 @@
 COLUMNS
-int ID?
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
+int ID
+int<ProfessionTrait::ID> ProfessionTraitID
+int<ProfessionEffect::ID> ProfessionEffectID
 int Field_10_0_0_44649_003?
 
 LAYOUT 86D1D9C8
 BUILD 10.0.0.44649, 10.0.0.44707
 $id$ID<32>
-$relation$Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
+$relation$ProfessionTraitID<32>
+ProfessionEffectID<32>
 Field_10_0_0_44649_003<32>

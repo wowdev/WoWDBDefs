@@ -6,7 +6,7 @@ int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
 int<Achievement::ID> AchievementID?
 int PlayerLevel?
-int Field_10_0_0_44649_007?
+int<TraitNodeEntry::ID> TraitNodeEntryID?
 int OrderIndex? // not sure what group, but the achievement-unlocked sources are increasing in level
 
 LAYOUT D42C05FC
@@ -18,5 +18,5 @@ Field_10_0_0_44649_003<32>
 Field_10_0_0_44649_004<32>
 AchievementID<32>
 PlayerLevel<32>
-Field_10_0_0_44649_007<32>
+TraitNodeEntryID<32>
 OrderIndex<32>

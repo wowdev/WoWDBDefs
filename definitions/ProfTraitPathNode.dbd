@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
-int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
+int<TraitNode::ID> TraitNodeID
+int<TraitNodeGroup::ID> LeftTraitNodeGroupID?
+int<TraitNodeGroup::ID> RightTraitNodeGroupID?
+int<TraitCurrency::ID> TraitCurrencyID?
 
 LAYOUT 93D92E33
 BUILD 10.0.0.44649, 10.0.0.44707
 $id$ID<32>
-Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
-Field_10_0_0_44649_003<32>
-Field_10_0_0_44649_004<32>
+TraitNodeID<32>
+LeftTraitNodeGroupID<32>
+RightTraitNodeGroupID<32>
+TraitCurrencyID<32>

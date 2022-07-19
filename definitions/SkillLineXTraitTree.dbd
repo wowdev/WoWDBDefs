@@ -2,11 +2,11 @@ COLUMNS
 int ID
 int<SkillLine::ID> SkillLineID
 int<TraitTree::ID> TraitTreeID
-int Field_10_0_0_44649_002?
+int Variant?
 
 LAYOUT B2E9968F
 BUILD 10.0.0.44649, 10.0.0.44707
 $noninline,id$ID<32>
 $relation$SkillLineID<32>
 TraitTreeID<32>
-Field_10_0_0_44649_002<32>
+Variant<32>

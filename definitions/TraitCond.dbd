@@ -7,7 +7,7 @@ int Field_10_0_0_44649_004?
 int Field_10_0_0_44649_005?
 int<SpecSetMember::SpecSet> SpecSetID?
 int<TraitNodeGroup::ID> TraitNodeGroupID?
-int Field_10_0_0_44649_008?
+int<TraitNode::ID> TraitNodeID?
 int<TraitCurrency::ID> TraitCurrencyID?
 int SpentAmountRequired?
 int Flags? // &1: IsGate, &2: IsAlwaysMet, &4: IsSufficient
@@ -25,7 +25,7 @@ Field_10_0_0_44649_004<32>
 Field_10_0_0_44649_005<32>
 SpecSetID<32>
 TraitNodeGroupID<32>
-Field_10_0_0_44649_008<32>
+TraitNodeID<32>
 TraitCurrencyID<32>
 SpentAmountRequired<32>
 Flags<32>
