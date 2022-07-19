@@ -6,13 +6,7 @@ int ItemCreationContext
 int OrderIndex
 int PVal
 int<PlayerCondition::ID> PlayerConditionID
-int Field_10_0_0_44707_000?
-int Field_10_0_0_44707_001?
-int Field_10_0_0_44707_002?
 int Field_10_0_0_44707_003?
-int Field_10_0_0_44707_004?
-int Field_10_0_0_44707_005?
-int Field_10_0_0_44707_006?
 
 LAYOUT EEF82C36
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492
@@ -98,10 +92,10 @@ $noninline,relation$ItemContextPickerID<32>
 LAYOUT 3C496406
 BUILD 10.0.0.44707
 $noninline,id$ID<32>
-Field_10_0_0_44707_000<u8>
-Field_10_0_0_44707_001<u8>
-Field_10_0_0_44707_002<32>
+ItemCreationContext<u8>
+OrderIndex<u8>
+PVal<32>
 Field_10_0_0_44707_003<32>
-Field_10_0_0_44707_004<u32>
-Field_10_0_0_44707_005<u32>
-$noninline,relation$Field_10_0_0_44707_006<32>
+Flags<u32>
+PlayerConditionID<u32>
+$noninline,relation$ItemContextPickerID<32>

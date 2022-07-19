@@ -3,8 +3,8 @@ int<ItemClass::ClassID> ClassID
 int SubClassID
 int PrerequisiteProficiency
 int PostrequisiteProficiency
-int Flags
-int DisplayFlags // ITEM_SUBCLASS_DISPLAY_FLAG: &0x1: HIDE_SUBCLASS_IN_TOOLTIP; &0x2: HIDE_SUBCLASS_IN_AUCTION; &0x4: SHOW_ITEM_COUNT
+int Flags // ItemSubclassFlag: &0x001: WeaponsubclassCanparry, &0x002: WeaponsubclassSetfingerseq, &0x004: WeaponsubclassIsunarmed, &0x008: WeaponsubclassIsrifle, &0x010: WeaponsubclassIsthrown, &0x020: WeaponsubclassRighthandRanged, &0x040: ItemsubclassQuivernotrequired, &0x080: WeaponsubclassRanged, &0x100: WeaponsubclassDeprecatedReuseMe, &0x200: ItemsubclassUsesInvtype, &0x400: ArmorsubclassLfgscalingarmor
+int DisplayFlags // ItemSubclassDisplay: &0x1: HideSubclassInTooltips; &0x2: HideSubclassInAuction; &0x4: ShowItemCount
 int WeaponParrySeq
 int WeaponReadySeq
 int WeaponAttackSeq
@@ -13,17 +13,6 @@ locstring DisplayName_lang
 locstring VerboseName_lang
 int ID
 int AuctionHouseSortOrder
-locstring Field_10_0_0_44707_000_lang?
-locstring Field_10_0_0_44707_001_lang?
-int Field_10_0_0_44707_002?
-int Field_10_0_0_44707_003?
-int Field_10_0_0_44707_004?
-int Field_10_0_0_44707_005?
-int Field_10_0_0_44707_006?
-int Field_10_0_0_44707_007?
-int Field_10_0_0_44707_008?
-int Field_10_0_0_44707_009?
-int Field_10_0_0_44707_010?
 
 BUILD 0.5.3.3368
 BUILD 3.0.1.8303-3.3.5.12340
@@ -194,14 +183,14 @@ PostrequisiteProficiency<8>
 
 LAYOUT C096A1B1
 BUILD 10.0.0.44707
-Field_10_0_0_44707_000_lang
-Field_10_0_0_44707_001_lang
-$id$Field_10_0_0_44707_002<32>
-$relation$Field_10_0_0_44707_003<8>
-Field_10_0_0_44707_004<8>
-Field_10_0_0_44707_005<u8>
-Field_10_0_0_44707_006<8>
-Field_10_0_0_44707_007<32>
-Field_10_0_0_44707_008<32>
-Field_10_0_0_44707_009<8>
-Field_10_0_0_44707_010<8>
+DisplayName_lang
+VerboseName_lang
+$id$ID<32>
+$relation$ClassID<8>
+SubClassID<8>
+AuctionHouseSortOrder<u8>
+PrerequisiteProficiency<8>
+Flags<32>
+DisplayFlags<32>
+WeaponSwingSize<8>
+PostrequisiteProficiency<8>

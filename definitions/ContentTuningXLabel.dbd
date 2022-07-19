@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_10_0_0_44707_000?
-int Field_10_0_0_44707_001?
+int<Label::ID> LabelID?
+int<ContentTuning::ID> ContentTuningID?
 
 LAYOUT 62982D18
 BUILD 10.0.0.44707
 $noninline,id$ID<32>
-Field_10_0_0_44707_000<32>
-$noninline,relation$Field_10_0_0_44707_001<32>
+LabelID<32>
+$noninline,relation$ContentTuningID<32>
