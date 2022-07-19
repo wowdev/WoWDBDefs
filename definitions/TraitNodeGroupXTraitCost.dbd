@@ -4,7 +4,7 @@ int<TraitNodeGroup::ID> TraitNodeGroupID?
 int<TraitCost::ID> TraitCostID?
 
 LAYOUT 97B85B29
-BUILD 10.0.0.44649
+BUILD 10.0.0.44649, 10.0.0.44707
 $id$ID<32>
 $relation$TraitNodeGroupID<32>
 TraitCostID<32>

@@ -5,6 +5,13 @@ int<TraitTree::ID> TraitTreeID?
 int Field_10_0_0_44649_003? // one of these is flags. &1: CannotRefund
 int Field_10_0_0_44649_004?
 int Field_10_0_0_44649_005?
+string Field_10_0_0_44707_000?
+int Field_10_0_0_44707_001?
+int Field_10_0_0_44707_002?
+int Field_10_0_0_44707_003?
+int Field_10_0_0_44707_004?
+int Field_10_0_0_44707_005?
+int Field_10_0_0_44707_006?
 
 LAYOUT E1C6B00A
 BUILD 10.0.0.44649
@@ -14,3 +21,13 @@ TraitTreeID<32>
 Field_10_0_0_44649_003<32>
 Field_10_0_0_44649_004<32>
 Field_10_0_0_44649_005<32>
+
+LAYOUT 38F4D293
+BUILD 10.0.0.44707
+Field_10_0_0_44707_000
+$id$Field_10_0_0_44707_001<32>
+$relation$Field_10_0_0_44707_002<32>
+Field_10_0_0_44707_003<32>
+Field_10_0_0_44707_004<32>
+Field_10_0_0_44707_005<32>
+Field_10_0_0_44707_006<32>

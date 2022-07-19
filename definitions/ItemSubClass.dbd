@@ -13,6 +13,17 @@ locstring DisplayName_lang
 locstring VerboseName_lang
 int ID
 int AuctionHouseSortOrder
+locstring Field_10_0_0_44707_000_lang?
+locstring Field_10_0_0_44707_001_lang?
+int Field_10_0_0_44707_002?
+int Field_10_0_0_44707_003?
+int Field_10_0_0_44707_004?
+int Field_10_0_0_44707_005?
+int Field_10_0_0_44707_006?
+int Field_10_0_0_44707_007?
+int Field_10_0_0_44707_008?
+int Field_10_0_0_44707_009?
+int Field_10_0_0_44707_010?
 
 BUILD 0.5.3.3368
 BUILD 3.0.1.8303-3.3.5.12340
@@ -180,3 +191,17 @@ Flags<16>
 DisplayFlags<8>
 WeaponSwingSize<8>
 PostrequisiteProficiency<8>
+
+LAYOUT C096A1B1
+BUILD 10.0.0.44707
+Field_10_0_0_44707_000_lang
+Field_10_0_0_44707_001_lang
+$id$Field_10_0_0_44707_002<32>
+$relation$Field_10_0_0_44707_003<8>
+Field_10_0_0_44707_004<8>
+Field_10_0_0_44707_005<u8>
+Field_10_0_0_44707_006<8>
+Field_10_0_0_44707_007<32>
+Field_10_0_0_44707_008<32>
+Field_10_0_0_44707_009<8>
+Field_10_0_0_44707_010<8>
