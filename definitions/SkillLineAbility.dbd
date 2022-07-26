@@ -20,6 +20,23 @@ int<Spell::ID> SupercededBySpell
 int CharacterPoints
 int Abandonable
 int Field_0_5_5_3494_012? // only set on [Plate Mail] in 0.5.5
+int Field_10_0_0_44795_000?
+locstring Field_10_0_0_44795_001_lang?
+locstring Field_10_0_0_44795_002_lang?
+int Field_10_0_0_44795_003?
+int Field_10_0_0_44795_004?
+int Field_10_0_0_44795_005?
+int Field_10_0_0_44795_006?
+int Field_10_0_0_44795_007?
+int Field_10_0_0_44795_008?
+int Field_10_0_0_44795_009?
+int Field_10_0_0_44795_010?
+int Field_10_0_0_44795_011?
+int Field_10_0_0_44795_012?
+int Field_10_0_0_44795_013?
+int Field_10_0_0_44795_014?
+int Field_10_0_0_44795_015?
+int Field_10_0_0_44795_016?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -413,3 +430,23 @@ NumSkillUps<8>
 UniqueBit<16>
 TradeSkillCategoryID<16>
 SkillupSkillLineID<16>
+
+LAYOUT 1D9E00B1
+BUILD 10.0.0.44795
+Field_10_0_0_44795_000<64>
+Field_10_0_0_44795_001_lang
+Field_10_0_0_44795_002_lang
+$id$Field_10_0_0_44795_003<32>
+$relation$Field_10_0_0_44795_004<16>
+Field_10_0_0_44795_005<32>
+Field_10_0_0_44795_006<16>
+Field_10_0_0_44795_007<32>
+Field_10_0_0_44795_008<32>
+Field_10_0_0_44795_009<8>
+Field_10_0_0_44795_010<16>
+Field_10_0_0_44795_011<16>
+Field_10_0_0_44795_012<32>
+Field_10_0_0_44795_013<8>
+Field_10_0_0_44795_014<16>
+Field_10_0_0_44795_015<16>
+Field_10_0_0_44795_016<16>

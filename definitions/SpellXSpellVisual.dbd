@@ -14,6 +14,19 @@ int<PlayerCondition::ID> ViewerPlayerConditionID
 int<UnitCondition::ID> ViewerUnitConditionID
 float Field_7_3_2_25549_003?
 int Field_2_5_4_42581_000?
+int Field_10_0_0_44795_000?
+int Field_10_0_0_44795_001?
+int Field_10_0_0_44795_002?
+float Field_10_0_0_44795_003?
+int Field_10_0_0_44795_004?
+int Field_10_0_0_44795_005?
+int Field_10_0_0_44795_006?
+int Field_10_0_0_44795_007?
+int Field_10_0_0_44795_008?
+int Field_10_0_0_44795_009?
+int Field_10_0_0_44795_010?
+int Field_10_0_0_44795_011?
+int Field_10_0_0_44795_012?
 
 LAYOUT A275DA43
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -222,3 +235,19 @@ ViewerPlayerConditionID<u32>
 CasterUnitConditionID<u16>
 CasterPlayerConditionID<u32>
 $noninline,relation$SpellID<32>
+
+LAYOUT 049D96D6
+BUILD 10.0.0.44795
+$id$Field_10_0_0_44795_000<32>
+Field_10_0_0_44795_001<u8>
+Field_10_0_0_44795_002<u32>
+Field_10_0_0_44795_003
+Field_10_0_0_44795_004<32>
+Field_10_0_0_44795_005<32>
+Field_10_0_0_44795_006<32>
+Field_10_0_0_44795_007<32>
+Field_10_0_0_44795_008<u16>
+Field_10_0_0_44795_009<u32>
+Field_10_0_0_44795_010<u16>
+Field_10_0_0_44795_011<u32>
+$noninline,relation$Field_10_0_0_44795_012<32>

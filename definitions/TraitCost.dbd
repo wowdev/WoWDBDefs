@@ -1,8 +1,19 @@
 COLUMNS
 string InternalName?
 int ID?
+string Field_10_0_0_44795_000?
+int Field_10_0_0_44795_001?
+int Field_10_0_0_44795_002?
+int Field_10_0_0_44795_003?
 
 LAYOUT 3667090C
 BUILD 10.0.0.44649, 10.0.0.44707
 InternalName
 $id$ID<32>
+
+LAYOUT CECF8496
+BUILD 10.0.0.44795
+Field_10_0_0_44795_000
+$id$Field_10_0_0_44795_001<32>
+Field_10_0_0_44795_002<32>
+Field_10_0_0_44795_003<32>
