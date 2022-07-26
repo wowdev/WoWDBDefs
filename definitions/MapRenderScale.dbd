@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int Field_10_0_0_44795_000?
+int<Map::ID> MapID?
 float Field_10_0_0_44795_001?
 float Field_10_0_0_44795_002?
 float Field_10_0_0_44795_003?
@@ -12,7 +12,7 @@ float Field_10_0_0_44795_007?
 LAYOUT 1D8358EA
 BUILD 10.0.0.44795
 $noninline,id$ID<32>
-Field_10_0_0_44795_000<32>
+MapID<32>
 Field_10_0_0_44795_001
 Field_10_0_0_44795_002
 Field_10_0_0_44795_003

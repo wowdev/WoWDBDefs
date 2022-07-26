@@ -6,13 +6,7 @@ float Field_10_0_0_44649_002?
 float Field_10_0_0_44649_003?
 float Field_10_0_0_44649_004?
 float Field_10_0_0_44649_005?
-int Field_10_0_0_44795_000?
-int Field_10_0_0_44795_001?
-float Field_10_0_0_44795_002?
-float Field_10_0_0_44795_003?
-float Field_10_0_0_44795_004?
-float Field_10_0_0_44795_005?
-int Field_10_0_0_44795_006?
+int<Spell::ID> RecraftSpellID?
 
 LAYOUT 27AB2810
 BUILD 10.0.0.44649, 10.0.0.44707
@@ -27,10 +21,10 @@ Field_10_0_0_44649_005
 LAYOUT 22D5E93E
 BUILD 10.0.0.44795
 $noninline,id$ID<32>
-Field_10_0_0_44795_000<32>
-Field_10_0_0_44795_001<32>
-Field_10_0_0_44795_002
-Field_10_0_0_44795_003
-Field_10_0_0_44795_004
-Field_10_0_0_44795_005
-Field_10_0_0_44795_006<32>
+SkillLineID<32>
+EnumID<32>
+Field_10_0_0_44649_002
+Field_10_0_0_44649_003
+Field_10_0_0_44649_004
+Field_10_0_0_44649_005
+RecraftSpellID<32>
