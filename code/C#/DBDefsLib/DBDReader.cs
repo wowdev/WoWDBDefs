@@ -412,9 +412,9 @@ namespace DBDefsLib
                         {
                             if (versionDefinitions[i].layoutHashes.Length > 0 && versionDefinitions[j].layoutHashes.Length > 0 && !versionDefinitions[i].layoutHashes.SequenceEqual(versionDefinitions[j].layoutHashes))
                             {
-                                Console.ForegroundColor = ConsoleColor.Yellow;
-                                Console.WriteLine("DBD file has 2 identical version definitions (" + (i + 1) + " and " + (j + 1) + ") but two different layouthashes, ignoring...");
-                                Console.ResetColor();
+                                //Console.ForegroundColor = ConsoleColor.Yellow;
+                                //Console.WriteLine("DBD file has 2 identical version definitions (" + (i + 1) + " and " + (j + 1) + ") but two different layouthashes, ignoring...");
+                                //Console.ResetColor();
                             }
                             else
                             {
