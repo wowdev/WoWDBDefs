@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int Field_10_0_0_44649_000?
+int<SkillLineAbility::ID> SkillLineAbilityID?
 
 LAYOUT F8DAE82D
 BUILD 10.0.0.44649, 10.0.0.44707, 10.0.0.44795
 $noninline,id$ID<32>
-Field_10_0_0_44649_000<32>
+SkillLineAbilityID<32>
