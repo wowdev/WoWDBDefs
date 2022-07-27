@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-float Field_10_0_0_44795_000? // probability or timestamp
-int Field_10_0_0_44795_001? // anim?
-int Field_10_0_0_44795_002?
-int Field_10_0_0_44795_003?
-int Field_10_0_0_44795_004?
+float AfterTimeInAnimation?
+int<AnimationData::ID> AnimationDataID
+int<SpellVisualKit::ID> Field_10_0_0_44795_002? // "contrails"
+int<SpellVisualKit::ID> Field_10_0_0_44795_003? // "speed 1", "speed 2", "speed 3", "speed 4", Dragon Riding: AdvFlyDown (+AdvFlyDownEnd) [DNT], "Landing"
+int Flags? // &1: OneShot
 int<Spell::ID> SpellID?
-int Field_10_0_0_44795_006?
+int<SpellVisualKit::ID> Field_10_0_0_44795_006? // full screen wind?
 
 LAYOUT 6664636C
 BUILD 10.0.0.44795
 $noninline,id$ID<32>
-Field_10_0_0_44795_000
-Field_10_0_0_44795_001<32>
+AfterTimeInAnimation
+AnimationDataID<32>
 Field_10_0_0_44795_002<32>
 Field_10_0_0_44795_003<32>
-Field_10_0_0_44795_004<32>
+Flags<32>
 SpellID<32>
 Field_10_0_0_44795_006<32>
