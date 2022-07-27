@@ -16,7 +16,7 @@ int<FriendshipReputation::ID> FriendshipRepID
 int<Faction::ID> ParagonFactionID
 int ReputationMax
 int<Faction::ID> RenownFactionID?
-int Field_10_0_0_44649_010? // set for modern renown factions
+int<CurrencyTypes::ID> RenownCurrencyID?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -375,7 +375,7 @@ FriendshipRepID<u32>
 Flags<u8>
 ParagonFactionID<u16>
 RenownFactionID<32>
-Field_10_0_0_44649_010<32>
+RenownCurrencyID<32>
 ReputationClassMask<16>[4]
 ReputationFlags<u16>[4]
 ReputationBase<32>[4]

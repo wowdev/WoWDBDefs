@@ -3,7 +3,7 @@ string Name?
 int ID?
 int<TraitTree::ID> TraitTreeID?
 int<TraitNode::ID> FirstTraitNodeID?
-int Field_10_0_0_44649_004?
+int<PlayerCondition::ID> PlayerConditionID?
 int Field_10_0_0_44649_005? // 0: Talents, 1: Professions; one of these is flags. &1: CannotRefund
 int Field_10_0_0_44707_002?
 
@@ -13,7 +13,7 @@ Name
 $id$ID<32>
 TraitTreeID<32>
 FirstTraitNodeID<32>
-Field_10_0_0_44649_004<32>
+PlayerConditionID<32>
 Field_10_0_0_44649_005<32>
 
 LAYOUT 38F4D293
@@ -23,5 +23,5 @@ $id$ID<32>
 $relation$Field_10_0_0_44707_002<32>
 TraitTreeID<32>
 FirstTraitNodeID<32>
-Field_10_0_0_44649_004<32>
+PlayerConditionID<32>
 Field_10_0_0_44649_005<32>

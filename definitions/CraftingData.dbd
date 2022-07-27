@@ -11,7 +11,7 @@ float Field_10_0_0_44649_008?
 float Field_10_0_0_44649_009?
 int Field_10_0_0_44649_010?
 int Field_10_0_0_44649_011?
-int Field_10_0_0_44707_004?
+int<ItemBonusTree::ID> ItemBonusTreeID?
 
 LAYOUT 1C6FDEE5
 BUILD 10.0.0.44649
@@ -34,7 +34,7 @@ $id$ID<32>
 Field_10_0_0_44649_001<32>
 Field_10_0_0_44649_002<32>
 CraftedItemID<32>
-Field_10_0_0_44707_004<32>
+ItemBonusTreeID<32>
 CraftingDifficulty<32>
 Field_10_0_0_44649_005
 Field_10_0_0_44649_006

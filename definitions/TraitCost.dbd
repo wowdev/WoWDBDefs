@@ -1,8 +1,8 @@
 COLUMNS
 string InternalName?
-int ID?
-int Field_10_0_0_44795_002?
-int Field_10_0_0_44795_003?
+int ID
+int Flags?
+int<TraitCurrency::ID> TraitCurrencyID? // only if Flags &1 ?
 
 LAYOUT 3667090C
 BUILD 10.0.0.44649, 10.0.0.44707
@@ -13,5 +13,5 @@ LAYOUT CECF8496
 BUILD 10.0.0.44795
 InternalName
 $id$ID<32>
-Field_10_0_0_44795_002<32>
-Field_10_0_0_44795_003<32>
+Flags<32>
+TraitCurrencyID<32>
