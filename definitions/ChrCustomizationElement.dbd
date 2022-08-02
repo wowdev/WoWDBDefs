@@ -9,15 +9,6 @@ int<ChrCustomizationBoneSet::ID> ChrCustomizationBoneSetID?
 int<ChrCustomizationCondModel::ID> ChrCustomizationCondModelID?
 int<ChrCustomizationDisplayInfo::ID> ChrCustomizationDisplayInfoID?
 int<ChrCustItemGeoModify::ID> ChrCustItemGeoModifyID
-int Field_10_0_0_44895_000?
-int Field_10_0_0_44895_001?
-int Field_10_0_0_44895_002?
-int Field_10_0_0_44895_003?
-int Field_10_0_0_44895_004?
-int Field_10_0_0_44895_005?
-int Field_10_0_0_44895_006?
-int Field_10_0_0_44895_007?
-int Field_10_0_0_44895_008?
 int Field_10_0_0_44895_009?
 
 LAYOUT F2BB8F88
@@ -113,13 +104,13 @@ ChrCustItemGeoModifyID<32>
 LAYOUT 0E39F850
 BUILD 10.0.0.44895
 $noninline,id$ID<32>
-Field_10_0_0_44895_000<32>
-Field_10_0_0_44895_001<32>
-Field_10_0_0_44895_002<32>
-Field_10_0_0_44895_003<32>
-Field_10_0_0_44895_004<32>
-Field_10_0_0_44895_005<32>
-Field_10_0_0_44895_006<32>
-Field_10_0_0_44895_007<32>
-Field_10_0_0_44895_008<32>
+ChrCustomizationChoiceID<32>
+RelatedChrCustomizationChoiceID<32>
+ChrCustomizationGeosetID<32>
+ChrCustomizationSkinnedModelID<32>
+ChrCustomizationMaterialID<32>
+ChrCustomizationBoneSetID<32>
+ChrCustomizationCondModelID<32>
+ChrCustomizationDisplayInfoID<32>
+ChrCustItemGeoModifyID<32>
 Field_10_0_0_44895_009<32>
