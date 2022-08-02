@@ -4,6 +4,12 @@ int Order?
 int<CraftingQuality::ID> CraftingQualityID
 float QualityPercentage?
 int<CraftingDifficulty::ID> CraftingDifficultyID?
+int Field_10_0_0_44895_000?
+int Field_10_0_0_44895_001?
+int Field_10_0_0_44895_002?
+float Field_10_0_0_44895_003?
+float Field_10_0_0_44895_004?
+int Field_10_0_0_44895_005?
 
 LAYOUT 30C8DB9A
 BUILD 10.0.0.44649, 10.0.0.44707, 10.0.0.44795
@@ -12,3 +18,12 @@ Order<32>
 CraftingQualityID<32>
 QualityPercentage
 $noninline,relation$CraftingDifficultyID<32>
+
+LAYOUT C1A830DE
+BUILD 10.0.0.44895
+$id$Field_10_0_0_44895_000<32>
+Field_10_0_0_44895_001<32>
+Field_10_0_0_44895_002<32>
+Field_10_0_0_44895_003
+Field_10_0_0_44895_004
+$noninline,relation$Field_10_0_0_44895_005<32>

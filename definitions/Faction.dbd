@@ -17,6 +17,23 @@ int<Faction::ID> ParagonFactionID
 int ReputationMax
 int<Faction::ID> RenownFactionID?
 int<CurrencyTypes::ID> RenownCurrencyID?
+int Field_10_0_0_44895_000?
+locstring Field_10_0_0_44895_001_lang?
+locstring Field_10_0_0_44895_002_lang?
+int Field_10_0_0_44895_003?
+int Field_10_0_0_44895_004?
+int Field_10_0_0_44895_005?
+int Field_10_0_0_44895_006?
+int Field_10_0_0_44895_007?
+int Field_10_0_0_44895_008?
+int Field_10_0_0_44895_009?
+int Field_10_0_0_44895_010?
+int Field_10_0_0_44895_011?
+int Field_10_0_0_44895_012?
+int Field_10_0_0_44895_013?
+int Field_10_0_0_44895_014?
+float Field_10_0_0_44895_015?
+int Field_10_0_0_44895_016?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -382,3 +399,24 @@ ReputationBase<32>[4]
 ReputationMax<32>[4]
 ParentFactionMod[2]
 ParentFactionCap<u8>[2]
+
+LAYOUT BE1F09D5
+BUILD 10.0.0.44895
+$noninline,id$ID<32>
+Field_10_0_0_44895_000<64>[4]
+Field_10_0_0_44895_001_lang
+Field_10_0_0_44895_002_lang
+Field_10_0_0_44895_003<16>
+Field_10_0_0_44895_004<u16>
+Field_10_0_0_44895_005<u8>
+Field_10_0_0_44895_006<u32>
+Field_10_0_0_44895_007<32>
+Field_10_0_0_44895_008<u16>
+Field_10_0_0_44895_009<32>
+Field_10_0_0_44895_010<32>
+Field_10_0_0_44895_011<16>[4]
+Field_10_0_0_44895_012<u16>[4]
+Field_10_0_0_44895_013<32>[4]
+Field_10_0_0_44895_014<32>[4]
+Field_10_0_0_44895_015[2]
+Field_10_0_0_44895_016<u8>[2]
