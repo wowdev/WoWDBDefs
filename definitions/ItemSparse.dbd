@@ -1697,11 +1697,11 @@ StatPercentageOfSocket[10]
 StatPercentEditor<32>[10]
 Stackable<32>
 MaxCount<32>
+MinReputation<u32>
 RequiredAbility<u32>
 SellPrice<u32>
 BuyPrice<u32>
 VendorStackCount<u32>
-MinReputation<u32>
 PriceVariance
 PriceRandomValue
 Flags<32>[4]
