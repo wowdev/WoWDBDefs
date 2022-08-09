@@ -1675,7 +1675,7 @@ InventoryType<8>
 OverallQualityID<8>
 
 LAYOUT B07DD994
-BUILD 10.0.0.44895
+BUILD 10.0.0.44895, 10.0.0.44999
 COMMENT table is sparse
 $noninline,id$ID<32>
 AllowableRace<64>
@@ -1697,7 +1697,7 @@ StatPercentageOfSocket[10]
 StatPercentEditor<32>[10]
 Stackable<32>
 MaxCount<32>
-MinReputation<u32>
+MinReputation<32>
 RequiredAbility<u32>
 SellPrice<u32>
 BuyPrice<u32>
