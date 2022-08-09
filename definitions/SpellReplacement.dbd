@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 int Field_10_0_0_44999_000?
-int Field_10_0_0_44999_001?
+int<Spell::ID> SpellID?
 
 LAYOUT 88FB6F2C
 BUILD 10.0.0.44999
 $noninline,id$ID<32>
 $relation$Field_10_0_0_44999_000<32>
-Field_10_0_0_44999_001<32>
+SpellID<32>
