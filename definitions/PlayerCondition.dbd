@@ -83,87 +83,7 @@ int WeaponSubclassMask
 int<ContentTuning::ID> ContentTuningID
 int<Covenant::ID> CovenantID
 int Field_7_3_2_25549_029?
-int Field_10_0_0_44999_000?
-locstring Field_10_0_0_44999_001_lang?
-int Field_10_0_0_44999_002?
-int Field_10_0_0_44999_003?
-int Field_10_0_0_44999_004?
-int Field_10_0_0_44999_005?
-int Field_10_0_0_44999_006?
-int Field_10_0_0_44999_007?
-int Field_10_0_0_44999_008?
-int Field_10_0_0_44999_009?
-int Field_10_0_0_44999_010?
-int Field_10_0_0_44999_011?
-int Field_10_0_0_44999_012?
-int Field_10_0_0_44999_013?
-int Field_10_0_0_44999_014?
-int Field_10_0_0_44999_015?
-int Field_10_0_0_44999_016?
-int Field_10_0_0_44999_017?
-int Field_10_0_0_44999_018?
-int Field_10_0_0_44999_019?
-int Field_10_0_0_44999_020?
-int Field_10_0_0_44999_021?
-int Field_10_0_0_44999_022?
-int Field_10_0_0_44999_023?
-int Field_10_0_0_44999_024?
-int Field_10_0_0_44999_025?
-int Field_10_0_0_44999_026?
-int Field_10_0_0_44999_027?
-int Field_10_0_0_44999_028?
-int Field_10_0_0_44999_029?
-int Field_10_0_0_44999_030?
-int Field_10_0_0_44999_031?
-int Field_10_0_0_44999_032?
-int Field_10_0_0_44999_033?
-int Field_10_0_0_44999_034?
-int Field_10_0_0_44999_035?
-int Field_10_0_0_44999_036?
-int Field_10_0_0_44999_037?
-int Field_10_0_0_44999_038?
-int Field_10_0_0_44999_039?
-int Field_10_0_0_44999_040?
-int Field_10_0_0_44999_041?
-int Field_10_0_0_44999_042?
-int Field_10_0_0_44999_043?
-int Field_10_0_0_44999_044?
-int Field_10_0_0_44999_045?
-int Field_10_0_0_44999_046?
-int Field_10_0_0_44999_047?
-int Field_10_0_0_44999_048?
-int Field_10_0_0_44999_049?
-int Field_10_0_0_44999_050?
-int Field_10_0_0_44999_051?
-int Field_10_0_0_44999_052?
-int Field_10_0_0_44999_053?
-int Field_10_0_0_44999_054?
-int Field_10_0_0_44999_055?
 int Field_10_0_0_44999_056?
-int Field_10_0_0_44999_057?
-int Field_10_0_0_44999_058?
-int Field_10_0_0_44999_059?
-int Field_10_0_0_44999_060?
-int Field_10_0_0_44999_061?
-int Field_10_0_0_44999_062?
-int Field_10_0_0_44999_063?
-int Field_10_0_0_44999_064?
-int Field_10_0_0_44999_065?
-int Field_10_0_0_44999_066?
-int Field_10_0_0_44999_067?
-int Field_10_0_0_44999_068?
-int Field_10_0_0_44999_069?
-int Field_10_0_0_44999_070?
-int Field_10_0_0_44999_071?
-int Field_10_0_0_44999_072?
-int Field_10_0_0_44999_073?
-int Field_10_0_0_44999_074?
-int Field_10_0_0_44999_075?
-int Field_10_0_0_44999_076?
-int Field_10_0_0_44999_077?
-int Field_10_0_0_44999_078?
-int Field_10_0_0_44999_079?
-int Field_10_0_0_44999_080?
 int Field_10_0_0_44999_081?
 int Field_10_0_0_44999_082?
 int Field_10_0_0_44999_083?
@@ -1307,87 +1227,87 @@ MovementFlags<32>[2]
 LAYOUT 4FD5055D
 BUILD 10.0.0.44999
 $noninline,id$ID<32>
-Field_10_0_0_44999_000<64>
-Field_10_0_0_44999_001_lang
-Field_10_0_0_44999_002<32>
-Field_10_0_0_44999_003<u32>
-Field_10_0_0_44999_004<32>
-Field_10_0_0_44999_005<u8>
-Field_10_0_0_44999_006<32>
-Field_10_0_0_44999_007<u16>
-Field_10_0_0_44999_008<u8>
-Field_10_0_0_44999_009<u32>
-Field_10_0_0_44999_010<8>
-Field_10_0_0_44999_011<u8>
-Field_10_0_0_44999_012<u32>
-Field_10_0_0_44999_013<u32>
-Field_10_0_0_44999_014<u32>
-Field_10_0_0_44999_015<u32>
-Field_10_0_0_44999_016<u32>
-Field_10_0_0_44999_017<u8>
-Field_10_0_0_44999_018<u32>
-Field_10_0_0_44999_019<u16>
-Field_10_0_0_44999_020<32>
-Field_10_0_0_44999_021<u8>
-Field_10_0_0_44999_022<u8>
-Field_10_0_0_44999_023<u32>
-Field_10_0_0_44999_024<8>
-Field_10_0_0_44999_025<8>
-Field_10_0_0_44999_026<u32>
-Field_10_0_0_44999_027<u32>
-Field_10_0_0_44999_028<u32>
-Field_10_0_0_44999_029<32>
-Field_10_0_0_44999_030<u32>
-Field_10_0_0_44999_031<8>
-Field_10_0_0_44999_032<8>
-Field_10_0_0_44999_033<32>
-Field_10_0_0_44999_034<32>
-Field_10_0_0_44999_035<u16>
-Field_10_0_0_44999_036<u16>
-Field_10_0_0_44999_037<u8>
-Field_10_0_0_44999_038<u16>
-Field_10_0_0_44999_039<u32>
-Field_10_0_0_44999_040<32>
-Field_10_0_0_44999_041<8>
-Field_10_0_0_44999_042<8>
-Field_10_0_0_44999_043<u32>
-Field_10_0_0_44999_044<8>
-Field_10_0_0_44999_045<u8>
-Field_10_0_0_44999_046<u8>
-Field_10_0_0_44999_047<32>
-Field_10_0_0_44999_048<u8>
-Field_10_0_0_44999_049<u8>
-Field_10_0_0_44999_050<8>
-Field_10_0_0_44999_051<8>
-Field_10_0_0_44999_052<u8>
-Field_10_0_0_44999_053<u8>
-Field_10_0_0_44999_054<32>
-Field_10_0_0_44999_055<32>
+RaceMask<64>
+Failure_description_lang
+ClassMask<32>
+SkillLogic<u32>
+LanguageID<32>
+MinLanguage<u8>
+MaxLanguage<32>
+MaxFactionID<u16>
+MaxReputation<u8>
+ReputationLogic<u32>
+CurrentPvpFaction<8>
+PvpMedal<u8>
+PrevQuestLogic<u32>
+CurrQuestLogic<u32>
+CurrentCompletedQuestLogic<u32>
+SpellLogic<u32>
+ItemLogic<u32>
+ItemFlags<u8>
+AuraSpellLogic<u32>
+WorldStateExpressionID<u16>
+WeatherID<32>
+PartyStatus<u8>
+LifetimeMaxPVPRank<u8>
+AchievementLogic<u32>
+Gender<8>
+NativeGender<8>
+AreaLogic<u32>
+LfgLogic<u32>
+CurrencyLogic<u32>
+QuestKillID<32>
+QuestKillLogic<u32>
+MinExpansionLevel<8>
+MaxExpansionLevel<8>
+MinAvgItemLevel<32>
+MaxAvgItemLevel<32>
+MinAvgEquippedItemLevel<u16>
+MaxAvgEquippedItemLevel<u16>
+PhaseUseFlags<u8>
+PhaseID<u16>
+PhaseGroupID<u32>
+Flags<32>
+ChrSpecializationIndex<8>
+ChrSpecializationRole<8>
+ModifierTreeID<u32>
+PowerType<8>
+PowerTypeComp<u8>
+PowerTypeValue<u8>
+WeaponSubclassMask<32>
+MaxGuildLevel<u8>
+MinGuildLevel<u8>
+MaxExpansionTier<8>
+MinExpansionTier<8>
+MinPVPRank<u8>
+MaxPVPRank<u8>
+ContentTuningID<32>
+CovenantID<32>
 Field_10_0_0_44999_056<u32>
-Field_10_0_0_44999_057<u16>[4]
-Field_10_0_0_44999_058<u16>[4]
-Field_10_0_0_44999_059<u16>[4]
-Field_10_0_0_44999_060<u32>[3]
-Field_10_0_0_44999_061<u8>[3]
-Field_10_0_0_44999_062<32>[4]
-Field_10_0_0_44999_063<32>[4]
-Field_10_0_0_44999_064<32>[4]
-Field_10_0_0_44999_065<32>[4]
-Field_10_0_0_44999_066<32>[4]
-Field_10_0_0_44999_067<u32>[4]
-Field_10_0_0_44999_068<u16>[2]
-Field_10_0_0_44999_069<u32>[2]
-Field_10_0_0_44999_070<32>[4]
-Field_10_0_0_44999_071<u8>[4]
-Field_10_0_0_44999_072<u16>[4]
-Field_10_0_0_44999_073<u16>[4]
-Field_10_0_0_44999_074<u8>[4]
-Field_10_0_0_44999_075<u8>[4]
-Field_10_0_0_44999_076<u32>[4]
-Field_10_0_0_44999_077<u32>[4]
-Field_10_0_0_44999_078<u32>[4]
-Field_10_0_0_44999_079<u32>[6]
-Field_10_0_0_44999_080<32>[2]
+SkillID<u16>[4]
+MinSkill<u16>[4]
+MaxSkill<u16>[4]
+MinFactionID<u32>[3]
+MinReputation<u8>[3]
+PrevQuestID<32>[4]
+CurrQuestID<32>[4]
+CurrentCompletedQuestID<32>[4]
+SpellID<32>[4]
+ItemID<32>[4]
+ItemCount<u32>[4]
+Explored<u16>[2]
+Time<u32>[2]
+AuraSpellID<32>[4]
+AuraStacks<u8>[4]
+Achievement<u16>[4]
+AreaID<u16>[4]
+LfgStatus<u8>[4]
+LfgCompare<u8>[4]
+LfgValue<u32>[4]
+CurrencyID<u32>[4]
+CurrencyCount<u32>[4]
+QuestKillMonster<u32>[6]
+MovementFlags<32>[2]
 Field_10_0_0_44999_081<32>[4]
 Field_10_0_0_44999_082<u16>[4]
 Field_10_0_0_44999_083<u16>[4]

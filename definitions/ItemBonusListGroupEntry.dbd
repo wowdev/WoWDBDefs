@@ -7,13 +7,6 @@ int<ItemExtendedCost::ID> ItemExtendedCostID
 int<ItemBonusListGroup::ID> ItemBonusListGroupID
 int<PlayerCondition::ID> PlayerConditionID
 int Flags
-int Field_10_0_0_44999_000?
-int Field_10_0_0_44999_001?
-int Field_10_0_0_44999_002?
-int Field_10_0_0_44999_003?
-int Field_10_0_0_44999_004?
-int Field_10_0_0_44999_005?
-int Field_10_0_0_44999_006?
 int Field_10_0_0_44999_007?
 
 LAYOUT 87A0CA78, CA17B2FF
@@ -92,11 +85,11 @@ Flags<32>
 LAYOUT 1CC556EF
 BUILD 10.0.0.44999
 $noninline,id$ID<32>
-$relation$Field_10_0_0_44999_000<32>
-Field_10_0_0_44999_001<32>
-Field_10_0_0_44999_002<32>
-Field_10_0_0_44999_003<32>
-Field_10_0_0_44999_004<32>
-Field_10_0_0_44999_005<32>
-Field_10_0_0_44999_006<32>
+$relation$ItemBonusListGroupID<32>
+ItemBonusListID<32>
+ItemLevelSelectorID<32>
+SequenceValue<32>
+ItemExtendedCostID<32>
+PlayerConditionID<32>
+Flags<32>
 Field_10_0_0_44999_007<32>
