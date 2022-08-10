@@ -27,6 +27,27 @@ int ItemLevelMin
 int ItemLevelMax
 int Field_5_0_1_15464_015? // maybe scalingClassRestricted
 float Field_5_0_1_15464_016? // maybe effectScalingPoints
+locstring Field_3_4_0_45064_000_lang?
+locstring Field_3_4_0_45064_001_lang?
+int Field_3_4_0_45064_002?
+float Field_3_4_0_45064_003?
+int Field_3_4_0_45064_004?
+int Field_3_4_0_45064_005?
+int Field_3_4_0_45064_006?
+int Field_3_4_0_45064_007?
+int Field_3_4_0_45064_008?
+int Field_3_4_0_45064_009?
+int Field_3_4_0_45064_010?
+int Field_3_4_0_45064_011?
+int Field_3_4_0_45064_012?
+int Field_3_4_0_45064_013?
+int Field_3_4_0_45064_014?
+int Field_3_4_0_45064_015?
+int Field_3_4_0_45064_016?
+int Field_3_4_0_45064_017?
+int Field_3_4_0_45064_018?
+int Field_3_4_0_45064_019?
+int Field_3_4_0_45064_020?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -162,6 +183,31 @@ ScalingClassRestricted<8>
 Condition_ID<u8>
 MinLevel<u8>
 MaxLevel<u8>
+
+LAYOUT A7B31604
+BUILD 3.4.0.45064
+$noninline,id$ID<32>
+Field_3_4_0_45064_000_lang
+Field_3_4_0_45064_001_lang
+Field_3_4_0_45064_002<u32>[3]
+Field_3_4_0_45064_003[3]
+Field_3_4_0_45064_004<u32>
+Field_3_4_0_45064_005<u32>
+Field_3_4_0_45064_006<u32>
+Field_3_4_0_45064_007<u32>
+Field_3_4_0_45064_008<16>[3]
+Field_3_4_0_45064_009<u16>
+Field_3_4_0_45064_010<u16>
+Field_3_4_0_45064_011<u16>
+Field_3_4_0_45064_012<u16>
+Field_3_4_0_45064_013<u16>
+Field_3_4_0_45064_014<u8>
+Field_3_4_0_45064_015<u8>[3]
+Field_3_4_0_45064_016<8>
+Field_3_4_0_45064_017<8>
+Field_3_4_0_45064_018<u8>
+Field_3_4_0_45064_019<u8>
+Field_3_4_0_45064_020<u8>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11927-4.3.4.15595
