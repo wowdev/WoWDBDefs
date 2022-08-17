@@ -8,6 +8,15 @@ int<Spell::ID> DeathTeleportSpellID
 int<Spell::ID> Field_9_0_2_36165_006?
 int<Spell::ID> Field_9_0_2_36165_007?
 int<Faction::ID> FactionID
+locstring Field_10_0_0_45141_000_lang?
+locstring Field_10_0_0_45141_001_lang?
+int Field_10_0_0_45141_002?
+int Field_10_0_0_45141_003?
+int Field_10_0_0_45141_004?
+int Field_10_0_0_45141_005?
+int Field_10_0_0_45141_006?
+int Field_10_0_0_45141_007?
+int Field_10_0_0_45141_008?
 
 LAYOUT 0CA77A5C
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
@@ -92,3 +101,16 @@ DeathTeleportSpellID<32>
 Field_9_0_2_36165_006<32>
 Field_9_0_2_36165_007<32>
 FactionID<32>
+
+LAYOUT D6E6D3C8
+BUILD 10.0.0.45141
+$noninline,id$ID<32>
+Field_10_0_0_45141_000_lang
+Field_10_0_0_45141_001_lang
+Field_10_0_0_45141_002<32>
+Field_10_0_0_45141_003<32>
+Field_10_0_0_45141_004<32>
+Field_10_0_0_45141_005<32>
+Field_10_0_0_45141_006<32>
+Field_10_0_0_45141_007<32>
+Field_10_0_0_45141_008<32>

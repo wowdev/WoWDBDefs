@@ -22,6 +22,27 @@ int<UiWidgetSet::ID> UiWidgetSetID
 int<UiTextureKit::ID> UiTextureKitID
 int Field_9_1_0_38783_011?
 int Field_9_1_0_38783_017?
+locstring Field_10_0_0_45141_000_lang?
+locstring Field_10_0_0_45141_001_lang?
+int Field_10_0_0_45141_002?
+float Field_10_0_0_45141_003?
+int Field_10_0_0_45141_004?
+int Field_10_0_0_45141_005?
+int Field_10_0_0_45141_006?
+int Field_10_0_0_45141_007?
+int Field_10_0_0_45141_008?
+int Field_10_0_0_45141_009?
+int Field_10_0_0_45141_010?
+int Field_10_0_0_45141_011?
+int Field_10_0_0_45141_012?
+int Field_10_0_0_45141_013?
+int Field_10_0_0_45141_014?
+int Field_10_0_0_45141_015?
+int Field_10_0_0_45141_016?
+int Field_10_0_0_45141_017?
+int Field_10_0_0_45141_018?
+int Field_10_0_0_45141_019?
+int Field_10_0_0_45141_020?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -473,3 +494,27 @@ UiTextureKitID<u16>
 Field_9_1_0_38783_017<u16>
 Importance<u8>
 Icon<u8>
+
+LAYOUT D721BABB
+BUILD 10.0.0.45141
+Field_10_0_0_45141_000_lang
+Field_10_0_0_45141_001_lang
+$id$Field_10_0_0_45141_002<32>
+Field_10_0_0_45141_003[3]
+Field_10_0_0_45141_004<32>
+Field_10_0_0_45141_005<u32>
+Field_10_0_0_45141_006<u32>
+Field_10_0_0_45141_007<u32>
+Field_10_0_0_45141_008<32>
+Field_10_0_0_45141_009<32>
+Field_10_0_0_45141_010<32>
+Field_10_0_0_45141_011<u32>
+Field_10_0_0_45141_012<32>
+$relation$Field_10_0_0_45141_013<u16>
+Field_10_0_0_45141_014<16>
+Field_10_0_0_45141_015<u16>
+Field_10_0_0_45141_016<u16>
+Field_10_0_0_45141_017<u16>
+Field_10_0_0_45141_018<u16>
+Field_10_0_0_45141_019<u8>
+Field_10_0_0_45141_020<u8>
