@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int Field_10_0_0_45141_000?
-int Field_10_0_0_45141_001?
-int Field_10_0_0_45141_002?
+int GossipNpcOption? // GossipConstants.GossipNpcOption
+int<FileData::ID> IconFileDataID
+int Flags? // GossipConstants.GossipNpcOptionDisplayFlags?! but that only has &1, db only has &2.
 
 LAYOUT 8B9BF10F
 BUILD 10.0.0.45141
 $noninline,id$ID<32>
-Field_10_0_0_45141_000<32>
-Field_10_0_0_45141_001<32>
-Field_10_0_0_45141_002<32>
+GossipNpcOption<32>
+IconFileDataID<32>
+Flags<32>
