@@ -7,25 +7,18 @@ int Data?
 int<ChrCustomizationChoice::ID> ChrCustomizationChoiceID?
 int DependentOptionID?
 int DependentData?
-int Field_3_4_0_45166_000?
-int Field_3_4_0_45166_001?
-int Field_3_4_0_45166_002?
-int Field_3_4_0_45166_003?
-int Field_3_4_0_45166_004?
-int Field_3_4_0_45166_005?
-int Field_3_4_0_45166_006?
 int Field_3_4_0_45166_007?
 
 LAYOUT 685C2AB5
 BUILD 3.4.0.45166, 3.4.0.45189
 $noninline,id$ID<32>
-Field_3_4_0_45166_000<32>
-Field_3_4_0_45166_001<32>
-Field_3_4_0_45166_002<32>
-Field_3_4_0_45166_003<32>
-$relation$Field_3_4_0_45166_004<32>
-Field_3_4_0_45166_005<32>
-Field_3_4_0_45166_006<32>
+ChrRacesID<32>
+Sex<32>
+OptionID<32>
+Data<32>
+$relation$ChrCustomizationChoiceID<32>
+DependentOptionID<32>
+DependentData<32>
 Field_3_4_0_45166_007<32>
 
 LAYOUT B6793EBA
