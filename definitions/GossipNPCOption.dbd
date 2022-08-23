@@ -3,7 +3,7 @@ int ID
 int GossipNpcOption // GossipConstants.GossipNpcOption
 int<LFGDungeons::ID> LFGDungeonsID // {3x Vendor, manyx LFGDungeon, somex QueueScenario}
 int Field_10_0_0_45141_002? // {manyx Vendor, manyx Trainer}: 4, 10, 27, 48, 103, 390, ..., 1087
-int Field_10_0_0_45141_003? // {manyx GarrisonMissionNpc}: 1, 2, 4
+int<GarrFollowerType::ID> GarrFollowerTypeID
 int<CharShipment::ID> CharShipmentID // {1x Vendor, 1x Stablemaster, manyx ShipmentCrafter}
 int<GarrTalentTree::ID> GarrTalentTreeID // {1x TraitSystem, manyx GarrisonTalent}
 int<UiMap::ID> UiMapID? // {1x WorldMap, manyx AdventureMap}
@@ -13,7 +13,7 @@ int Field_10_0_0_45141_009? // never
 int<Covenant::ID> CovenantID // {4x unknown 53, manyx CovenantPreviewNpc}
 int Field_10_0_0_45141_011? // probably the fk
 int<TraitTree::ID> TraitTreeID // {2x TraitSystem}
-int Field_10_0_0_45141_013? // {1x ProfessionsCraftingOrder, 1x ProfessionsOpen, 1x ProfessionsCustomerOrder}
+int<Profession::ID> ProfessionID // {1x ProfessionsCraftingOrder, 1x ProfessionsOpen, 1x ProfessionsCustomerOrder}
 
 LAYOUT 238BCF2B
 BUILD 10.0.0.45141
@@ -21,7 +21,7 @@ $noninline,id$ID<32>
 GossipNpcOption<32>
 LFGDungeonsID<32>
 Field_10_0_0_45141_002<32>
-Field_10_0_0_45141_003<32>
+GarrFollowerTypeID<32>
 CharShipmentID<32>
 GarrTalentTreeID<32>
 UiMapID<32>
@@ -31,4 +31,4 @@ Field_10_0_0_45141_009<32>
 CovenantID<32>
 Field_10_0_0_45141_011<32>
 TraitTreeID<32>
-Field_10_0_0_45141_013<32>
+ProfessionID<32>
