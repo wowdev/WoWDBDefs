@@ -1,6 +1,6 @@
 COLUMNS
-int Field_10_0_0_45232_000?
-int Field_10_0_0_45232_001?
+int ID?
+int<TraitTreeLoadout::ID> TraitTreeLoadoutID?
 int Field_10_0_0_45232_002?
 int Field_10_0_0_45232_003?
 int Field_10_0_0_45232_004?
@@ -8,8 +8,8 @@ int Field_10_0_0_45232_005?
 
 LAYOUT 3B3D126A
 BUILD 10.0.0.45232
-$id$Field_10_0_0_45232_000<32>
-$relation$Field_10_0_0_45232_001<32>
+$id$ID<32>
+$relation$TraitTreeLoadoutID<32>
 Field_10_0_0_45232_002<32>
 Field_10_0_0_45232_003<32>
 Field_10_0_0_45232_004<32>
