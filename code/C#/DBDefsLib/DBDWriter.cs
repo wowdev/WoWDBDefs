@@ -222,11 +222,32 @@ namespace DBDefsLib
                     ymax = y.buildRanges.Select(b => b.maxBuild).Concat(y.builds).OrderByDescending(b => b).FirstOrDefault();
                 }
 
-                int result = 0;
-                if (xmax != null && ymax != null)
-                    result = xmax.CompareTo(ymax);
+                // if builds exist for both, sort by that
+                if (xmax != null && ymax != null) return xmax.CompareTo(ymax);
 
-                return result;
+                // has build < !has build
+                if (xmax != null && ymax == null) return -1;
+                if (xmax == null && ymax != null) return 1;
+
+                // if no builds, check layout hashes
+                var lx = x.layoutHashes;
+                var ly = y.layoutHashes;
+                System.Array.Sort(lx);
+                System.Array.Sort(ly);
+                if (!_asc) {
+                    lx.Reverse();
+                    ly.Reverse();
+                }
+
+                // if layouts exist for both, sort by that
+                if (lx.Length > 0 && ly.Length > 0) return lx[0].CompareTo(ly[0]);
+
+                // has layout < !has layout
+                if (lx.Length > 0 && ly.Length == 0) return -1;
+                if (lx.Length == 0 && ly.Length > 0) return 1;
+
+                // no builds, no layouts, this is bogus and empty anyway, so equal
+                return 0;
             }
         }
     }
