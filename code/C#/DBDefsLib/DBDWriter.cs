@@ -136,34 +136,22 @@ namespace DBDefsLib
 
                     foreach (var column in versionDefinition.definitions)
                     {
-                        if (column.isID || column.isNonInline || column.isRelation)
+                        var attribs = new List<string>();
+                        if (column.isNonInline)
                         {
-                            writer.Write("$");
-
-                            if (column.isNonInline)
-                            {
-                                if (column.isID)
-                                {
-                                    writer.Write("noninline,id");
-                                }
-                                else if (column.isRelation)
-                                {
-                                    writer.Write("noninline,relation");
-                                }
-                            }
-                            else
-                            {
-                                if (column.isID)
-                                {
-                                    writer.Write("id");
-                                }
-                                else if (column.isRelation)
-                                {
-                                    writer.Write("relation");
-                                }
-                            }
-
-                            writer.Write("$");
+                            attribs.Add("noninline");
+                        }
+                        if (column.isID)
+                        {
+                            attribs.Add("id");
+                        }
+                        if (column.isRelation)
+                        {
+                            attribs.Add("relation");
+                        }
+                        if (attribs.Count > 0)
+                        {
+                            writer.Write("$" + System.String.Join(",", attribs) + "$");
                         }
 
                         var normalizedColumnName = Utils.NormalizeColumn(column.name);
@@ -178,14 +166,12 @@ namespace DBDefsLib
 
                         if (column.size > 0)
                         {
-                            if (column.isSigned)
+                            writer.Write("<");
+                            if (!column.isSigned)
                             {
-                                writer.Write("<" + column.size + ">");
+                                writer.Write("u");
                             }
-                            else
-                            {
-                                writer.Write("<u" + column.size + ">");
-                            }
+                            writer.Write(column.size + ">");
                         }
 
                         if (column.arrLength > 0)
