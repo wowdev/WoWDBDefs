@@ -144,16 +144,21 @@ namespace DBDefsLib
 
                 if (string.IsNullOrWhiteSpace(line))
                 {
-                    versionDefinitions.Add(
-                        new VersionDefinitions()
-                        {
-                            builds = builds.ToArray(),
-                            buildRanges = buildRanges.ToArray(),
-                            layoutHashes = layoutHashes.ToArray(),
-                            comment = comment,
-                            definitions = definitions.ToArray()
-                        }
-                    );
+                    if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0) {
+                        versionDefinitions.Add(
+                            new VersionDefinitions()
+                            {
+                                builds = builds.ToArray(),
+                                buildRanges = buildRanges.ToArray(),
+                                layoutHashes = layoutHashes.ToArray(),
+                                comment = comment,
+                                definitions = definitions.ToArray()
+                            }
+                        );
+                    }
+                    else if (definitions.Count != 0 || !string.IsNullOrWhiteSpace(comment)) {
+                        throw new Exception("No BUILD or LAYOUT, but non-empty lines/'definitions'.");
+                    }
 
                     definitions = new List<Definition>();
                     layoutHashes = new List<string>();
@@ -276,16 +281,21 @@ namespace DBDefsLib
 
                 if (lines.Count == (i + 1))
                 {
-                    versionDefinitions.Add(
-                        new VersionDefinitions()
-                        {
-                            builds = builds.ToArray(),
-                            buildRanges = buildRanges.ToArray(),
-                            layoutHashes = layoutHashes.ToArray(),
-                            comment = comment,
-                            definitions = definitions.ToArray()
-                        }
-                    );
+                    if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0) {
+                        versionDefinitions.Add(
+                            new VersionDefinitions()
+                            {
+                                builds = builds.ToArray(),
+                                buildRanges = buildRanges.ToArray(),
+                                layoutHashes = layoutHashes.ToArray(),
+                                comment = comment,
+                                definitions = definitions.ToArray()
+                            }
+                        );
+                    }
+                    else if (definitions.Count != 0 || !string.IsNullOrWhiteSpace(comment)) {
+                        throw new Exception("No BUILD or LAYOUT, but non-empty lines/'definitions'.");
+                    }
                 }
             }
 
