@@ -4,7 +4,7 @@ int LabelID?
 int<ContentTuning::ID> ContentTuningID?
 
 LAYOUT 62982D18
-BUILD 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141
+BUILD 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141, 10.0.0.45232
 $noninline,id$ID<32>
 LabelID<32>
 $noninline,relation$ContentTuningID<32>
