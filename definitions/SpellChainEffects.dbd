@@ -42,7 +42,6 @@ int Red
 int Green
 int Blue
 int BlendMode
-int Padding_5_3_0_16965_043?
 int RenderLayer
 float TextureLength
 float WavePhase
@@ -125,6 +124,7 @@ Red<8>
 Green<8>
 Blue<8>
 BlendMode<8>
+Padding_4_0_0_11792_044<8>[3] // This is a pure guess based on a fix for 3.3.5. See https://github.com/wowdev/WoWDBDefs/pull/114.
 Combo
 RenderLayer<32>
 
@@ -225,7 +225,8 @@ Alpha<8>
 Red<8>
 Green<8>
 Blue<8>
-BlendMode<32>
+BlendMode<8>
+Padding_4_0_0_11792_044<8>[3]
 Combo
 RenderLayer<32>
 TextureLength
@@ -329,7 +330,7 @@ Red<8>
 Green<8>
 Blue<8>
 BlendMode<8>
-Padding_5_3_0_16965_043<8>[3]
+Padding_4_0_0_11792_044<8>[3]
 RenderLayer<32>
 TextureLength
 WavePhase
@@ -381,7 +382,7 @@ Red<8>
 Green<8>
 Blue<8>
 BlendMode<8>
-Padding_5_3_0_16965_043<8>[3]
+Padding_4_0_0_11792_044<8>[3]
 RenderLayer<32>
 TextureLength
 WavePhase
