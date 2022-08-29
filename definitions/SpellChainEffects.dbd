@@ -177,6 +177,7 @@ Red<8>
 Green<8>
 Blue<8>
 BlendMode<8>
+Padding_4_0_0_11792_044<8>[3] // This is a pure guess based on a fix for 3.3.5. See https://github.com/wowdev/WoWDBDefs/pull/114.
 Combo
 RenderLayer<32>
 TextureLength
@@ -226,7 +227,7 @@ Red<8>
 Green<8>
 Blue<8>
 BlendMode<8>
-Padding_4_0_0_11792_044<8>[3]
+Padding_4_0_0_11792_044<8>[3] // This is a pure guess based on a fix for 3.3.5. See https://github.com/wowdev/WoWDBDefs/pull/114.
 Combo
 RenderLayer<32>
 TextureLength
