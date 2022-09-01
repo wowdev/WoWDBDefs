@@ -4,14 +4,14 @@ int CondType? // 0: Available, 1: Visible, 2: Granted, 3: Increased
 int<TraitTree::ID> TraitTreeID?
 int Field_10_0_0_44649_003?
 int Field_10_0_0_44649_004?
-int Field_10_0_0_44649_005?
+int<Achievement::ID> AchievementID?
 int<SpecSetMember::SpecSet> SpecSetID?
 int<TraitNodeGroup::ID> TraitNodeGroupID?
 int<TraitNode::ID> TraitNodeID?
 int<TraitCurrency::ID> TraitCurrencyID?
 int SpentAmountRequired?
 int Flags? // &1: IsGate, &2: IsAlwaysMet, &4: IsSufficient
-int Field_10_0_0_44649_012?
+int RequiredLevel?
 int<SharedString::ID> FreeSharedStringID?
 int<SharedString::ID> SpendMoreSharedStringID?
 
@@ -22,13 +22,13 @@ CondType<32>
 $relation$TraitTreeID<32>
 Field_10_0_0_44649_003<32>
 Field_10_0_0_44649_004<32>
-Field_10_0_0_44649_005<32>
+AchievementID<32>
 SpecSetID<32>
 TraitNodeGroupID<32>
 TraitNodeID<32>
 TraitCurrencyID<32>
 SpentAmountRequired<32>
 Flags<32>
-Field_10_0_0_44649_012<32>
+RequiredLevel<32>
 FreeSharedStringID<32>
 SpendMoreSharedStringID<32>
