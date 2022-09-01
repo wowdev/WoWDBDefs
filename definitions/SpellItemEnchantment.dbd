@@ -48,29 +48,7 @@ int Field_3_4_0_45064_017?
 int Field_3_4_0_45064_018?
 int Field_3_4_0_45064_019?
 int Field_3_4_0_45064_020?
-locstring Field_10_0_0_45335_000_lang?
-locstring Field_10_0_0_45335_001_lang?
 int Field_10_0_0_45335_002?
-int Field_10_0_0_45335_003?
-float Field_10_0_0_45335_004?
-int Field_10_0_0_45335_005?
-int Field_10_0_0_45335_006?
-int Field_10_0_0_45335_007?
-int Field_10_0_0_45335_008?
-int Field_10_0_0_45335_009?
-int Field_10_0_0_45335_010?
-int Field_10_0_0_45335_011?
-int Field_10_0_0_45335_012?
-int Field_10_0_0_45335_013?
-int Field_10_0_0_45335_014?
-int Field_10_0_0_45335_015?
-int Field_10_0_0_45335_016?
-int Field_10_0_0_45335_017?
-int Field_10_0_0_45335_018?
-int Field_10_0_0_45335_019?
-int Field_10_0_0_45335_020?
-int Field_10_0_0_45335_021?
-int Field_10_0_0_45335_022?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -563,26 +541,26 @@ MaxLevel<u8>
 LAYOUT F7D222D6
 BUILD 10.0.0.45335
 $noninline,id$ID<32>
-Field_10_0_0_45335_000_lang
-Field_10_0_0_45335_001_lang
+Name_lang
+HordeName_lang
 Field_10_0_0_45335_002<32>
-Field_10_0_0_45335_003<u32>[3]
-Field_10_0_0_45335_004[3]
-Field_10_0_0_45335_005<u32>
-Field_10_0_0_45335_006<32>
-Field_10_0_0_45335_007<32>
-Field_10_0_0_45335_008<u32>
-Field_10_0_0_45335_009<u32>
-Field_10_0_0_45335_010<16>[3]
-Field_10_0_0_45335_011<u16>
-Field_10_0_0_45335_012<u16>
-Field_10_0_0_45335_013<u16>
-Field_10_0_0_45335_014<u16>
-Field_10_0_0_45335_015<u16>
-Field_10_0_0_45335_016<u8>
-Field_10_0_0_45335_017<u8>[3]
-Field_10_0_0_45335_018<8>
-Field_10_0_0_45335_019<8>
-Field_10_0_0_45335_020<u8>
-Field_10_0_0_45335_021<u8>
-Field_10_0_0_45335_022<u8>
+EffectArg<u32>[3]
+EffectScalingPoints[3]
+IconFileDataID<u32>
+ItemLevelMin<32>
+ItemLevelMax<32>
+TransmogUseConditionID<u32>
+TransmogCost<u32>
+EffectPointsMin<16>[3]
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+ScalingClass<8>
+ScalingClassRestricted<8>
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>

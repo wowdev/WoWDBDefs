@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int<SkillLine::ID> SkillLineID?
 int Field_10_0_0_44649_001?
-int Field_10_0_0_45335_000?
-int Field_10_0_0_45335_001?
 int Field_10_0_0_45335_002?
 
 LAYOUT 330ADCDC
@@ -15,6 +13,6 @@ Field_10_0_0_44649_001<32>
 LAYOUT A56236A5
 BUILD 10.0.0.45335
 $noninline,id$ID<32>
-Field_10_0_0_45335_000<32>
-Field_10_0_0_45335_001<32>
+SkillLineID<32>
+Field_10_0_0_44649_001<32>
 Field_10_0_0_45335_002<32>
