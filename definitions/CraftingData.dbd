@@ -1,8 +1,8 @@
 COLUMNS
 int ID?
 int Field_10_0_0_44649_001?
-int Field_10_0_0_44649_002?
-int<Item::ID> CraftedItemID?
+int<CraftingDifficulty::ID> CraftingDifficultyID?
+int<Item::ID> CraftedItemID
 int CraftingDifficulty
 float Field_10_0_0_44649_005?
 float Field_10_0_0_44649_006?
@@ -19,7 +19,7 @@ LAYOUT 1C6FDEE5
 BUILD 10.0.0.44649
 $id$ID<32>
 Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
+CraftingDifficultyID<32>
 CraftedItemID<32>
 CraftingDifficulty<32>
 Field_10_0_0_44649_005
@@ -34,7 +34,7 @@ LAYOUT 2281AEBB
 BUILD 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999
 $id$ID<32>
 Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
+CraftingDifficultyID<32>
 CraftedItemID<32>
 ItemBonusTreeID<32>
 CraftingDifficulty<32>
@@ -50,7 +50,7 @@ LAYOUT 86AAE580
 BUILD 10.0.0.45141, 10.0.0.45232
 $id$ID<32>
 Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
+CraftingDifficultyID<32>
 CraftedItemID<32>
 ItemBonusTreeID<32>
 CraftingDifficulty<32>
@@ -67,7 +67,7 @@ LAYOUT AC3DA43D
 BUILD 10.0.0.45335
 $id$ID<32>
 Field_10_0_0_44649_001<32>
-Field_10_0_0_44649_002<32>
+CraftingDifficultyID<32>
 CraftedItemID<32>
 ItemBonusTreeID<32>
 CraftingDifficulty<32>

@@ -7,8 +7,8 @@ float Field_10_0_0_44649_003?
 float Field_10_0_0_44649_004?
 float Field_10_0_0_44649_005?
 int<Spell::ID> RecraftSpellID?
-float Field_10_0_0_45141_004?
-float Field_10_0_0_45141_005? // might be Field_10_0_0_44649_004
+float CraftingDataField_10_0_0_44649_009?
+float CraftingDataField_10_0_0_45141_011? // might be Field_10_0_0_44649_004
 int Field_10_0_0_45335_008?
 
 LAYOUT 27AB2810
@@ -39,8 +39,8 @@ SkillLineID<32>
 EnumID<32>
 Field_10_0_0_44649_002
 Field_10_0_0_44649_003
-Field_10_0_0_45141_004
-Field_10_0_0_45141_005
+CraftingDataField_10_0_0_44649_009
+CraftingDataField_10_0_0_45141_011
 Field_10_0_0_44649_005
 RecraftSpellID<32>
 
@@ -51,8 +51,8 @@ SkillLineID<32>
 EnumID<32>
 Field_10_0_0_44649_002
 Field_10_0_0_44649_003
-Field_10_0_0_45141_004
-Field_10_0_0_45141_005
+CraftingDataField_10_0_0_44649_009
+CraftingDataField_10_0_0_45141_011
 Field_10_0_0_44649_005
 RecraftSpellID<32>
 Field_10_0_0_45335_008<32>

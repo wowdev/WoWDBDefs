@@ -8,16 +8,8 @@ int Flags? // &1: OneShot
 int<Spell::ID> SpellID?
 int<SpellVisualKit::ID> Field_10_0_0_44795_006? // full screen wind?
 int Field_10_0_0_45232_007?
-float Field_10_0_0_45335_000?
-int Field_10_0_0_45335_001?
-int Field_10_0_0_45335_002?
-int Field_10_0_0_45335_003?
-int Field_10_0_0_45335_004?
-int Field_10_0_0_45335_005?
-int Field_10_0_0_45335_006?
-int Field_10_0_0_45335_007?
-int Field_10_0_0_45335_008?
-int Field_10_0_0_45335_009?
+int DefaultBlendIn?
+int DefaultBlendOut?
 
 LAYOUT 6664636C
 BUILD 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141
@@ -45,13 +37,13 @@ Field_10_0_0_45232_007<32>
 LAYOUT 63D375D1
 BUILD 10.0.0.45335
 $noninline,id$ID<32>
-Field_10_0_0_45335_000
-Field_10_0_0_45335_001<32>
-Field_10_0_0_45335_002<32>
-Field_10_0_0_45335_003<32>
-Field_10_0_0_45335_004<32>
-Field_10_0_0_45335_005<32>
-Field_10_0_0_45335_006<32>
-Field_10_0_0_45335_007<32>
-Field_10_0_0_45335_008<32>
-Field_10_0_0_45335_009<32>
+AfterTimeInAnimation
+AnimationDataID<32>
+Field_10_0_0_44795_002<32>
+Field_10_0_0_44795_003<32>
+Flags<32>
+SpellID<32>
+Field_10_0_0_44795_006<32>
+Field_10_0_0_45232_007<32>
+DefaultBlendIn<32>
+DefaultBlendOut<32>

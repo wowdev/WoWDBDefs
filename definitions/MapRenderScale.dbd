@@ -1,13 +1,13 @@
 COLUMNS
 int ID
 int<Map::ID> MapID?
-float Field_10_0_0_44795_001?
-float Field_10_0_0_44795_002?
-float Field_10_0_0_44795_003?
-float Field_10_0_0_44795_004?
-float Field_10_0_0_44795_005?
-float Field_10_0_0_44795_006?
-float Field_10_0_0_44795_007?
+float Field_10_0_0_44795_001? // 1…10, default 1
+float Field_10_0_0_44795_002? // 1…10, default 1
+float Field_10_0_0_44795_003? // 0.1…10
+float Field_10_0_0_44795_004? // 0.1…10
+float Field_10_0_0_44795_005? // 0…1000
+float Field_10_0_0_44795_006? // 1…1000
+float Field_10_0_0_44795_007? // 0.5…10
 
 LAYOUT 1D8358EA
 BUILD 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141, 10.0.0.45232, 10.0.0.45335
