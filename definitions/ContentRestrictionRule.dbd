@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int RuleType? // 0: Map.isPvP; 1: some player flag?; 2: AreaTable.AreaBit; 3: 1673, 1616, 1698, 1702, 1703, 1684, 1710; 4: C_PvP.IsSoloShuffle(); 5: Map.Expansion == 8; 6: MapDifficulty-like == 8 (Mythic Dungeon?); 7: Map.InstanceType == 1; 8: Map.InstanceType == 2; 9: Map.InstanceType == 4; 10: Map.InstanceType == 3; 11: something PvP queue
+int RuleType? // 0: Map.isPvP; 1: some player flag?; 2: AreaTable.AreaBit; 3: Legion Mage Tower (mapIDs 1673, 1616, 1698, 1702, 1703, 1684, 1710); 4: C_PvP.IsSoloShuffle(); 5: Map.Expansion == 8; 6: MapDifficulty-like == 8 (Mythic Dungeon?); 7: Map.InstanceType == 1; 8: Map.InstanceType == 2; 9: Map.InstanceType == 4; 10: Map.InstanceType == 3; 11: something PvP queue
 int Flags? // &1: invert condition
 int<ContentRestrictionRuleSet::ID> ContentRestrictionRuleSetID?
 
