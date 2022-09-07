@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int GossipNpcOption // GossipConstants.GossipNpcOption
 int<LFGDungeons::ID> LFGDungeonsID // {3x Vendor, manyx LFGDungeon, somex QueueScenario}
-int Field_10_0_0_45141_002? // {manyx Vendor, manyx Trainer}: 4, 10, 27, 48, 103, 390, ..., 1087
+int TrainerID? // serverside Trainer id
 int<GarrFollowerType::ID> GarrFollowerTypeID
 int<CharShipment::ID> CharShipmentID // {1x Vendor, 1x Stablemaster, manyx ShipmentCrafter}
 int<GarrTalentTree::ID> GarrTalentTreeID // {1x TraitSystem, manyx GarrisonTalent}
@@ -20,7 +20,7 @@ BUILD 10.0.0.45141, 10.0.0.45232, 10.0.0.45335
 $noninline,id$ID<32>
 GossipNpcOption<32>
 LFGDungeonsID<32>
-Field_10_0_0_45141_002<32>
+TrainerID<32>
 GarrFollowerTypeID<32>
 CharShipmentID<32>
 GarrTalentTreeID<32>
