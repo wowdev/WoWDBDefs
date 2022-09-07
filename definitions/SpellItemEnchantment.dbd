@@ -27,27 +27,7 @@ int ItemLevelMin
 int ItemLevelMax
 int Field_5_0_1_15464_015? // maybe scalingClassRestricted
 float Field_5_0_1_15464_016? // maybe effectScalingPoints
-locstring Field_3_4_0_45064_000_lang?
-locstring Field_3_4_0_45064_001_lang?
-int Field_3_4_0_45064_002?
-float Field_3_4_0_45064_003?
-int Field_3_4_0_45064_004?
-int Field_3_4_0_45064_005?
-int Field_3_4_0_45064_006?
-int Field_3_4_0_45064_007?
-int Field_3_4_0_45064_008?
-int Field_3_4_0_45064_009?
-int Field_3_4_0_45064_010?
-int Field_3_4_0_45064_011?
-int Field_3_4_0_45064_012?
-int Field_3_4_0_45064_013?
-int Field_3_4_0_45064_014?
-int Field_3_4_0_45064_015?
-int Field_3_4_0_45064_016?
-int Field_3_4_0_45064_017?
-int Field_3_4_0_45064_018?
-int Field_3_4_0_45064_019?
-int Field_3_4_0_45064_020?
+int<Item::ID> GemItemID
 int Duration?
 
 BUILD 0.5.3.3368
@@ -188,27 +168,27 @@ MaxLevel<u8>
 LAYOUT A7B31604
 BUILD 3.4.0.45043, 3.4.0.45064, 3.4.0.45102, 3.4.0.45166, 3.4.0.45189, 3.4.0.45264, 3.4.0.45327, 3.4.0.45435
 $noninline,id$ID<32>
-Field_3_4_0_45064_000_lang
-Field_3_4_0_45064_001_lang
-Field_3_4_0_45064_002<u32>[3]
-Field_3_4_0_45064_003[3]
-Field_3_4_0_45064_004<u32>
-Field_3_4_0_45064_005<u32>
-Field_3_4_0_45064_006<u32>
-Field_3_4_0_45064_007<u32>
-Field_3_4_0_45064_008<16>[3]
-Field_3_4_0_45064_009<u16>
-Field_3_4_0_45064_010<u16>
-Field_3_4_0_45064_011<u16>
-Field_3_4_0_45064_012<u16>
-Field_3_4_0_45064_013<u16>
-Field_3_4_0_45064_014<u8>
-Field_3_4_0_45064_015<u8>[3]
-Field_3_4_0_45064_016<8>
-Field_3_4_0_45064_017<8>
-Field_3_4_0_45064_018<u8>
-Field_3_4_0_45064_019<u8>
-Field_3_4_0_45064_020<u8>
+Name_lang
+HordeName_lang
+EffectArg<u32>[3]
+EffectScalingPoints[3]
+GemItemID<u32>
+TransmogUnlockConditionID<u32>
+TransmogCost<u32>
+IconFileDataID<u32>
+EffectPointsMin<16>[3]
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+ScalingClass<8>
+ScalingClassRestricted<8>
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11927-4.3.4.15595
