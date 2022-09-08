@@ -3,6 +3,11 @@ int<FileData::ID> FileDataID
 int Flags
 int LodCount
 int ModelResourcesID
+float Field_10_0_0_45454_000?
+int Field_10_0_0_45454_001?
+int Field_10_0_0_45454_002?
+int Field_10_0_0_45454_003?
+int Field_10_0_0_45454_004?
 
 LAYOUT A395EB50
 BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.25961, 7.3.5.25996, 7.3.5.26124, 7.3.5.26365, 7.3.5.26654, 7.3.5.26755, 7.3.5.26822, 7.3.5.26899, 7.3.5.26972
@@ -63,3 +68,11 @@ $id$FileDataID<32>
 Flags<u8>
 LodCount<u8>
 $relation$ModelResourcesID<u32>
+
+LAYOUT 825A2247
+BUILD 10.0.0.45454
+Field_10_0_0_45454_000[6]
+$id$Field_10_0_0_45454_001<32>
+Field_10_0_0_45454_002<u8>
+Field_10_0_0_45454_003<u8>
+$relation$Field_10_0_0_45454_004<u32>

@@ -16,7 +16,7 @@ int<TraitTree::ID> TraitTreeID // {2x TraitSystem}
 int<Profession::ID> ProfessionID // {1x ProfessionsCraftingOrder, 1x ProfessionsOpen, 1x ProfessionsCustomerOrder}
 
 LAYOUT 238BCF2B
-BUILD 10.0.0.45141, 10.0.0.45232, 10.0.0.45335
+BUILD 10.0.0.45141, 10.0.0.45232, 10.0.0.45335, 10.0.0.45454
 $noninline,id$ID<32>
 GossipNpcOption<32>
 LFGDungeonsID<32>
