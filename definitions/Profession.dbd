@@ -10,6 +10,16 @@ int<Spell::ID> RecraftSpellID?
 float CraftingDataField_10_0_0_44649_009?
 float CraftingDataField_10_0_0_45141_011? // might be Field_10_0_0_44649_004
 int Field_10_0_0_45335_008?
+int Field_10_0_2_45480_000?
+int Field_10_0_2_45480_001?
+float Field_10_0_2_45480_002?
+float Field_10_0_2_45480_003?
+float Field_10_0_2_45480_004?
+float Field_10_0_2_45480_005?
+float Field_10_0_2_45480_006?
+int Field_10_0_2_45480_007?
+int Field_10_0_2_45480_008?
+float Field_10_0_2_45480_009?
 
 LAYOUT 27AB2810
 BUILD 10.0.0.44649, 10.0.0.44707
@@ -56,3 +66,17 @@ CraftingDataField_10_0_0_45141_011
 Field_10_0_0_44649_005
 RecraftSpellID<32>
 Field_10_0_0_45335_008<32>
+
+LAYOUT F0EFD3FA
+BUILD 10.0.2.45480
+$noninline,id$ID<32>
+Field_10_0_2_45480_000<32>
+Field_10_0_2_45480_001<32>
+Field_10_0_2_45480_002
+Field_10_0_2_45480_003
+Field_10_0_2_45480_004
+Field_10_0_2_45480_005
+Field_10_0_2_45480_006
+Field_10_0_2_45480_007<32>
+Field_10_0_2_45480_008<32>
+Field_10_0_2_45480_009
