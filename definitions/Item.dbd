@@ -21,17 +21,6 @@ int RandomSelect?
 int ItemRandomSuffixGroupID?
 int<ContentTuning::ID> ContentTuningID?
 int<CraftingQuality::ID> CraftingQualityID?
-int Field_3_4_0_43659_004?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_012?
-int Field_3_4_0_43659_013?
-int Field_3_4_0_43659_014?
-int Field_3_4_0_43659_015?
-int Field_3_4_0_43659_016?
-int Field_3_4_0_43659_017?
-int Field_3_4_0_43659_018?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -180,21 +169,21 @@ ClassID<u8>
 SubclassID<u8>
 Material<u8>
 InventoryType<8>
-Field_3_4_0_43659_004<32>
+RequiredLevel<32>
 SheatheType<u8>
-Field_3_4_0_43659_006<u16>
-Field_3_4_0_43659_007<u16>
+RandomSelect<u16>
+ItemRandomSuffixGroupID<u16>
 Sound_override_subclassID<8>
-Field_3_4_0_43659_009<u16>
+ModifiedCraftingReagentItemID<u16>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
-Field_3_4_0_43659_012<32>
-Field_3_4_0_43659_013<u32>
-Field_3_4_0_43659_014<u8>
-Field_3_4_0_43659_015<u8>[5]
-Field_3_4_0_43659_016<16>[7]
-Field_3_4_0_43659_017<u16>[5]
-Field_3_4_0_43659_018<u16>[5]
+ContentTuningID<32>
+MaxDurability<u32>
+AmmunitionType<u8>
+DamageType<u8>[5]
+Resistances<16>[7]
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18414

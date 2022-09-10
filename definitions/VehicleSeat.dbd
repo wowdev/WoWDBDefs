@@ -104,7 +104,6 @@ float Field_3_1_0_9767_052?
 float Field_3_1_0_9767_053?
 float Field_3_1_0_9767_054?
 float Field_3_1_0_9767_055?
-int Field_3_4_0_44463_045?
 
 BUILD 3.0.1.8303
 BUILD 3.0.1.8303-3.0.1.8391
@@ -468,7 +467,7 @@ VehicleAbilityDisplay<8>
 EnterUISoundID<u32>
 ExitUISoundID<u32>
 UiSkinFileDataID<32>
-Field_3_4_0_44463_045<32>
+UiSkin<32>
 CameraEnteringDelay
 CameraEnteringDuration
 CameraExitingDelay

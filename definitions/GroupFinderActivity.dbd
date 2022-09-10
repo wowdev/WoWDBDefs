@@ -28,10 +28,7 @@ int Field_3_4_0_43659_006?
 int Field_3_4_0_43659_007?
 int Field_3_4_0_43659_009?
 int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_011?
 int Field_3_4_0_43659_012?
-int Field_3_4_0_43659_013?
-int Field_3_4_0_43955_014?
 int IconFileDataID?
 
 LAYOUT CAA26BD9
@@ -91,9 +88,9 @@ Field_3_4_0_43659_007<u16>
 MapID<u16>
 Field_3_4_0_43659_009<u8>
 Field_3_4_0_43659_010<u16>
-Field_3_4_0_43659_011<u8>
+MaxPlayers<u8>
 Field_3_4_0_43659_012<u8>
-Field_3_4_0_43659_013<u8>
+MinLevel<u8>
 IconFileDataID<32>
 
 LAYOUT F13B76E2
@@ -110,10 +107,10 @@ Field_3_4_0_43659_007<u16>
 MapID<u16>
 Field_3_4_0_43659_009<u8>
 Field_3_4_0_43659_010<u16>
-Field_3_4_0_43659_011<u8>
+MaxPlayers<u8>
 Field_3_4_0_43659_012<u8>
-Field_3_4_0_43659_013<u8>
-Field_3_4_0_43955_014<u8>
+MinLevel<u8>
+MaxLevelSuggestion<u8>
 IconFileDataID<32>
 
 LAYOUT 60F16569
@@ -130,10 +127,10 @@ Field_3_4_0_43659_007<u16>
 MapID<u16>
 Field_3_4_0_43659_009<u8>
 Field_3_4_0_43659_010<u16>
-Field_3_4_0_43659_011<u8>
+MaxPlayers<u8>
 Field_3_4_0_43659_012<u8>
-Field_3_4_0_43659_013<u8>
-Field_3_4_0_43955_014<u8>
+MinLevel<u8>
+MaxLevelSuggestion<u8>
 IconFileDataID<32>
 
 BUILD 6.0.1.18179
