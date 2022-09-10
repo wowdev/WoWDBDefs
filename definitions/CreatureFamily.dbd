@@ -11,7 +11,6 @@ int CategoryEnumID
 locstring Name_lang
 string IconFile
 int<FileData::ID> IconFileID
-int Field_3_4_0_43788_007?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -47,7 +46,7 @@ MaxScale
 MaxScaleLevel<8>
 PetFoodMask<16>
 PetTalentType<8>
-Field_3_4_0_43788_007<32>
+CategoryEnumID<32>
 IconFileID<32>
 SkillLine<16>[2]
 

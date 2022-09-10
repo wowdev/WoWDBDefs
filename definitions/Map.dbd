@@ -53,7 +53,6 @@ locstring Field_2_0_0_5610_020_lang?
 int Field_1_5_0_4442_014?
 int Field_3_0_2_9056_021?
 int Field_1_7_0_4671_015?
-int Field_3_4_0_44644_016?
 int Field_10_0_0_44649_022? // default/if <= 0: 999, something in UI?
 
 BUILD 0.6.0.3592
@@ -569,7 +568,7 @@ ParentMapID<16>
 CosmeticParentMapID<16>
 TimeOffset<u8>
 MinimapIconScale
-Field_3_4_0_44644_016<32>
+RaidOffset<32>
 CorpseMapID<16>
 MaxPlayers<u8>
 WindSettingsID<16>
