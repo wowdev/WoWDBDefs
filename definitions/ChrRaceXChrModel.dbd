@@ -39,14 +39,6 @@ $noninline,id$ID<32>
 $relation$ChrRacesID<32>
 ChrModelID<32>
 
-LAYOUT E0B5AE0D
-BUILD 10.0.0.45570
-$noninline,id$ID<32>
-$relation$ChrRacesID<32>
-ChrModelID<32>
-Sex<32>
-Field_10_0_0_45570_003<32>
-
 LAYOUT AD099A30
 BUILD 10.0.2.45480, 10.0.2.45505
 BUILD 10.0.0.44649, 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141, 10.0.0.45232, 10.0.0.45335, 10.0.0.45454
@@ -54,3 +46,12 @@ $noninline,id$ID<32>
 $relation$ChrRacesID<32>
 ChrModelID<32>
 Sex<32>
+
+LAYOUT E0B5AE0D
+BUILD 10.0.2.45569
+BUILD 10.0.0.45570
+$noninline,id$ID<32>
+$relation$ChrRacesID<32>
+ChrModelID<32>
+Sex<32>
+Field_10_0_0_45570_003<32>
