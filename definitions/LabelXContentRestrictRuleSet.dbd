@@ -2,6 +2,9 @@ COLUMNS
 int ID
 int<ContentRestrictionRuleSet::ID> ContentRestrictionRuleSetID?
 int<SpellLabel::LabelID> LabelID?
+int Field_10_0_0_45570_000?
+int Field_10_0_0_45570_001?
+int Field_10_0_0_45570_002?
 
 LAYOUT 682EA64A
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -10,6 +13,13 @@ BUILD 9.1.5.40622, 9.1.5.40696, 9.1.5.40738, 9.1.5.40772, 9.1.5.40843, 9.1.5.408
 $noninline,id$ID<32>
 ContentRestrictionRuleSetID<32>
 $noninline,relation$LabelID<32>
+
+LAYOUT 4F3F4F82
+BUILD 10.0.0.45570
+$noninline,id$ID<32>
+Field_10_0_0_45570_000<32>
+Field_10_0_0_45570_001<32>
+$noninline,relation$Field_10_0_0_45570_002<32>
 
 LAYOUT 2FB539AB
 BUILD 10.0.2.45480, 10.0.2.45505

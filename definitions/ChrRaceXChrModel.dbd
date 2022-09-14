@@ -3,6 +3,10 @@ int ID
 int<ChrModel::ID> ChrModelID
 int<ChrRaces::ID> ChrRacesID
 int Sex? // 0: Male, 1: Female
+int Field_10_0_0_45570_000?
+int Field_10_0_0_45570_001?
+int Field_10_0_0_45570_002?
+int Field_10_0_0_45570_003?
 
 LAYOUT 07C5BAE4
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615
@@ -37,6 +41,14 @@ BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.438
 $noninline,id$ID<32>
 $relation$ChrRacesID<32>
 ChrModelID<32>
+
+LAYOUT E0B5AE0D
+BUILD 10.0.0.45570
+$noninline,id$ID<32>
+$relation$Field_10_0_0_45570_000<32>
+Field_10_0_0_45570_001<32>
+Field_10_0_0_45570_002<32>
+Field_10_0_0_45570_003<32>
 
 LAYOUT AD099A30
 BUILD 10.0.2.45480, 10.0.2.45505
