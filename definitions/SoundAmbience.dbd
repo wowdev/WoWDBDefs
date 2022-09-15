@@ -127,7 +127,7 @@ $noninline,id$ID<32>
 Flags<32>
 SoundFilterID<u32>
 FlavorSoundFilterID<u32>
-AmbienceStartID<u32>[2]
+AmbienceID<u32>[2]
 AmbienceStartID<u32>[2]
 AmbienceStopID<u32>[2]
 SoundKitID<u32>[2]
