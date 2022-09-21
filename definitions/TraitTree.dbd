@@ -6,12 +6,6 @@ int<TraitNode::ID> FirstTraitNodeID?
 int<PlayerCondition::ID> PlayerConditionID?
 int Flags? // 0: Talents, 1: Professions; one of these is flags. &1: CannotRefund, &2?
 int Field_10_0_0_44707_002?
-int Field_10_0_0_45697_000?
-int Field_10_0_0_45697_001?
-int Field_10_0_0_45697_002?
-int Field_10_0_0_45697_003?
-int Field_10_0_0_45697_004?
-int Field_10_0_0_45697_005?
 float Field_10_0_0_45697_006?
 float Field_10_0_0_45697_007?
 
@@ -26,12 +20,12 @@ Flags<32>
 
 LAYOUT CA7B3D57
 BUILD 10.0.0.45661, 10.0.0.45697
-$id$Field_10_0_0_45697_000<32>
-$relation$Field_10_0_0_45697_001<32>
-Field_10_0_0_45697_002<32>
-Field_10_0_0_45697_003<32>
-Field_10_0_0_45697_004<32>
-Field_10_0_0_45697_005<32>
+$id$ID<32>
+$relation$Field_10_0_0_44707_002<32>
+TraitTreeID<32>
+FirstTraitNodeID<32>
+PlayerConditionID<32>
+Flags<32>
 Field_10_0_0_45697_006
 Field_10_0_0_45697_007
 
