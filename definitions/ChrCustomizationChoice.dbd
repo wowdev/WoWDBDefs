@@ -3,7 +3,7 @@ locstring Name_lang
 int ID
 int<ChrCustomizationOption::ID> ChrCustomizationOptionID?
 int<ChrCustomizationReq::ID> ChrCustomizationReqID?
-int<ChrCustomizationVisReq::ID>ChrCustomizationVisReqID?
+int<ChrCustomizationVisReq::ID> ChrCustomizationVisReqID?
 int OrderIndex? // per ChrCustomizationOptionID - used to sort internal structures
 int UiOrderIndex? // returned in lua
 int Flags?
