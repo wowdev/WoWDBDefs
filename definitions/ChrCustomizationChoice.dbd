@@ -3,6 +3,7 @@ locstring Name_lang
 int ID
 int<ChrCustomizationOption::ID> ChrCustomizationOptionID?
 int<ChrCustomizationReq::ID> ChrCustomizationReqID?
+int<ChrCustomizationVisReq::ID>ChrCustomizationVisReqID?
 int OrderIndex? // per ChrCustomizationOptionID - used to sort internal structures
 int UiOrderIndex? // returned in lua
 int Flags?
@@ -10,16 +11,6 @@ int SwatchColor1?
 int SwatchColor2?
 int SwatchColor?
 int AddedInPatch?
-locstring Field_10_0_0_45697_000_lang?
-int Field_10_0_0_45697_001?
-int Field_10_0_0_45697_002?
-int Field_10_0_0_45697_003?
-int Field_10_0_0_45697_004?
-int Field_10_0_0_45697_005?
-int Field_10_0_0_45697_006?
-int Field_10_0_0_45697_007?
-int Field_10_0_0_45697_008?
-int Field_10_0_0_45697_009?
 
 LAYOUT B0D9E998
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463
@@ -120,16 +111,16 @@ SwatchColor<32>[2]
 
 LAYOUT 03A6DCB1
 BUILD 10.0.0.45697
-Field_10_0_0_45697_000_lang
-$id$Field_10_0_0_45697_001<32>
-$relation$Field_10_0_0_45697_002<32>
-Field_10_0_0_45697_003<32>
-Field_10_0_0_45697_004<32>
-Field_10_0_0_45697_005<u16>
-Field_10_0_0_45697_006<u16>
-Field_10_0_0_45697_007<32>
-Field_10_0_0_45697_008<32>
-Field_10_0_0_45697_009<32>[2]
+Name_lang
+$id$ID<32>
+$relation$ChrCustomizationOptionID<32>
+ChrCustomizationReqID<32>
+ChrCustomizationVisReqID<32>
+OrderIndex<u16>
+UiOrderIndex<u16>
+Flags<32>
+AddedInPatch<32>
+SwatchColor<32>[2]
 
 LAYOUT AA51F086
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632
