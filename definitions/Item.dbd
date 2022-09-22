@@ -21,6 +21,26 @@ int RandomSelect?
 int ItemRandomSuffixGroupID?
 int<ContentTuning::ID> ContentTuningID?
 int<CraftingQuality::ID> CraftingQualityID?
+int Field_3_4_0_45704_000?
+int Field_3_4_0_45704_001?
+int Field_3_4_0_45704_002?
+int Field_3_4_0_45704_003?
+int Field_3_4_0_45704_004?
+int Field_3_4_0_45704_005?
+int Field_3_4_0_45704_006?
+int Field_3_4_0_45704_007?
+int Field_3_4_0_45704_008?
+int Field_3_4_0_45704_009?
+int Field_3_4_0_45704_010?
+int Field_3_4_0_45704_011?
+int Field_3_4_0_45704_012?
+int Field_3_4_0_45704_013?
+int Field_3_4_0_45704_014?
+int Field_3_4_0_45704_015?
+int Field_3_4_0_45704_016?
+int Field_3_4_0_45704_017?
+int Field_3_4_0_45704_018?
+int Field_3_4_0_45704_019?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -184,6 +204,30 @@ DamageType<u8>[5]
 Resistances<16>[7]
 MinDamage<u16>[5]
 MaxDamage<u16>[5]
+
+LAYOUT 72A6F1C2
+BUILD 3.4.0.45704
+$noninline,id$ID<32>
+Field_3_4_0_45704_000<u8>
+Field_3_4_0_45704_001<u8>
+Field_3_4_0_45704_002<u8>
+Field_3_4_0_45704_003<8>
+Field_3_4_0_45704_004<32>
+Field_3_4_0_45704_005<u8>
+Field_3_4_0_45704_006<u16>
+Field_3_4_0_45704_007<u16>
+Field_3_4_0_45704_008<8>
+Field_3_4_0_45704_009<u16>
+Field_3_4_0_45704_010<32>
+Field_3_4_0_45704_011<u8>
+Field_3_4_0_45704_012<32>
+Field_3_4_0_45704_013<u32>
+Field_3_4_0_45704_014<u8>
+Field_3_4_0_45704_015<32>
+Field_3_4_0_45704_016<u8>[5]
+Field_3_4_0_45704_017<16>[7]
+Field_3_4_0_45704_018<u16>[5]
+Field_3_4_0_45704_019<u16>[5]
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18414
