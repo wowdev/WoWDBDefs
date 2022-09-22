@@ -18,17 +18,6 @@ FirstTraitNodeID<32>
 PlayerConditionID<32>
 Flags<32>
 
-LAYOUT CA7B3D57
-BUILD 10.0.0.45661, 10.0.0.45697
-$id$ID<32>
-$relation$Field_10_0_0_44707_002<32>
-TraitTreeID<32>
-FirstTraitNodeID<32>
-PlayerConditionID<32>
-Flags<32>
-Field_10_0_0_45697_006
-Field_10_0_0_45697_007
-
 LAYOUT 38F4D293
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632
 BUILD 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141, 10.0.0.45232, 10.0.0.45335, 10.0.0.45454, 10.0.0.45570
@@ -39,3 +28,15 @@ TraitTreeID<32>
 FirstTraitNodeID<32>
 PlayerConditionID<32>
 Flags<32>
+
+LAYOUT CA7B3D57
+BUILD 10.0.2.45698
+BUILD 10.0.0.45661, 10.0.0.45697
+$id$ID<32>
+$relation$Field_10_0_0_44707_002<32>
+TraitTreeID<32>
+FirstTraitNodeID<32>
+PlayerConditionID<32>
+Flags<32>
+Field_10_0_0_45697_006
+Field_10_0_0_45697_007
