@@ -129,7 +129,6 @@ int<AreaGroup::ID> RequiredAreaID
 int School
 int ProcFlags
 int Field_7_3_2_25549_006?
-int Field_1_1_2_4125_076?
 int Field_3_0_1_8622_021?
 int Field_3_0_1_8622_022?
 int Field_3_0_1_8622_023?
@@ -649,7 +648,7 @@ DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
 
-BUILD 1.1.2.4125-1.3.0.4284
+BUILD 1.1.0.4044-1.3.1.4297
 $id$ID<32>
 School<32>
 Category<32>
@@ -726,7 +725,7 @@ DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
 EffectChainAmplitude[3]
-Field_1_1_2_4125_076<32>
+AttributesExC<32>
 
 BUILD 1.4.0.4341-1.5.1.4449
 $id$ID<32>
@@ -806,9 +805,9 @@ DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
 EffectChainAmplitude[3]
-Field_1_1_2_4125_076<32>
+AttributesExC<32>
 
-BUILD 1.6.0.4500-1.8.0.4714
+BUILD 1.6.0.4470-1.7.1.4695
 $id$ID<32>
 School<32>
 Category<32>
@@ -887,9 +886,9 @@ DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
 EffectChainAmplitude[3]
-Field_1_1_2_4125_076<32>
+AttributesExC<32>
 
-BUILD 1.8.0.4735-1.8.4.4878
+BUILD 1.8.0.4714-1.8.4.4878
 $id$ID<32>
 School<32>
 Category<32>
@@ -969,7 +968,91 @@ DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
 EffectChainAmplitude[3]
-Field_1_1_2_4125_076<32>
+AttributesExC<32>
+
+BUILD 1.9.0.4851-1.9.2.4996
+$id$ID<32>
+School<32>
+Category<32>
+CastUI<32>
+DispelType<32>
+Mechanic<32>
+Attributes<32>
+AttributesEx<32>
+AttributesExB<32>
+ShapeshiftMask<32>
+ShapeshiftExclude<32>
+Targets<32>
+TargetCreatureType<32>
+RequiresSpellFocus<32>
+CasterAuraState<32>
+TargetAuraState<32>
+CastingTimeIndex<32>
+RecoveryTime<32>
+CategoryRecoveryTime<32>
+InterruptFlags<32>
+AuraInterruptFlags<32>
+ChannelInterruptFlags<32>
+ProcFlags<32>
+ProcChance<32>
+ProcCharges<32>
+MaxLevel<32>
+BaseLevel<32>
+SpellLevel<32>
+DurationIndex<32>
+PowerType<32>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+ManaPerSecondPerLevel<32>
+RangeIndex<32>
+Speed
+ModalNextSpell<32>
+CumulativeAura<32>
+Totem<32>[2]
+Reagent<32>[8]
+ReagentCount<32>[8]
+EquippedItemClass<32>
+EquippedItemSubclass<32>
+Effect<32>[3]
+EffectDieSides<32>[3]
+EffectBaseDice<32>[3]
+EffectDicePerLevel<32>[3]
+EffectRealPointsPerLevel[3]
+EffectBasePoints<32>[3]
+EffectMechanic<32>[3]
+ImplicitTargetA<32>[3]
+ImplicitTargetB<32>[3]
+EffectRadiusIndex<32>[3]
+EffectAura<32>[3]
+EffectAuraPeriod<32>[3]
+EffectAmplitude[3]
+EffectChainTargets<32>[3]
+EffectItemType<32>[3]
+EffectMiscValue<32>[3]
+EffectTriggerSpell<32>[3]
+EffectPointsPerCombo[3]
+SpellVisualID<32>[2]
+SpellIconID<32>
+ActiveIconID<32>
+SpellPriority<32>
+Name_lang
+NameSubtext_lang
+Description_lang
+AuraDescription_lang
+ManaCostPct<32>
+StartRecoveryCategory<32>
+StartRecoveryTime<32>
+MaxTargetLevel<32>
+SpellClassSet<32>
+SpellClassMask<32>[2]
+DefenseType<32>
+PreventionType<32>
+StanceBarOrder<32>
+EffectChainAmplitude[3]
+AttributesExC<32>
+MinFactionID<32>
+MinReputation<32>
 
 BUILD 1.9.3.5059-1.10.2.5302
 $id$ID<32>
@@ -1051,7 +1134,7 @@ DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
 EffectChainAmplitude[3]
-Field_1_1_2_4125_076<32>
+AttributesExC<32>
 MinFactionID<32>
 MinReputation<32>
 RequiredAuraVision<32>
@@ -1137,12 +1220,99 @@ DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
 EffectChainAmplitude[3]
-Field_1_1_2_4125_076<32>
+AttributesExC<32>
 MinFactionID<32>
 MinReputation<32>
 RequiredAuraVision<32>
 
-BUILD 1.12.0.5595-1.12.2.6005
+BUILD 1.12.0.5496
+$id$ID<32>
+School<32>
+Category<32>
+CastUI<32>
+DispelType<32>
+Mechanic<32>
+Attributes<32>
+AttributesEx<32>
+AttributesExB<32>
+AttributesExC<32>
+AttributesExD<32>
+ShapeshiftMask<32>
+ShapeshiftExclude<32>
+Targets<32>
+TargetCreatureType<32>
+RequiresSpellFocus<32>
+CasterAuraState<32>
+TargetAuraState<32>
+CastingTimeIndex<32>
+RecoveryTime<32>
+CategoryRecoveryTime<32>
+InterruptFlags<32>
+AuraInterruptFlags<32>
+ChannelInterruptFlags<32>
+ProcFlags<32>
+ProcChance<32>
+ProcCharges<32>
+MaxLevel<32>
+BaseLevel<32>
+SpellLevel<32>
+DurationIndex<32>
+PowerType<32>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+ManaPerSecondPerLevel<32>
+RangeIndex<32>
+Speed
+ModalNextSpell<32>
+CumulativeAura<32>
+Totem<32>[2]
+Reagent<32>[8]
+ReagentCount<32>[8]
+EquippedItemClass<32>
+EquippedItemSubclass<32>
+Effect<32>[3]
+EffectDieSides<32>[3]
+EffectBaseDice<32>[3]
+EffectDicePerLevel<32>[3]
+EffectRealPointsPerLevel[3]
+EffectBasePoints<32>[3]
+EffectMechanic<32>[3]
+ImplicitTargetA<32>[3]
+ImplicitTargetB<32>[3]
+EffectRadiusIndex<32>[3]
+EffectAura<32>[3]
+EffectAuraPeriod<32>[3]
+EffectAmplitude[3]
+EffectChainTargets<32>[3]
+EffectItemType<32>[3]
+EffectMiscValue<32>[3]
+EffectTriggerSpell<32>[3]
+EffectPointsPerCombo[3]
+SpellVisualID<32>[2]
+SpellIconID<32>
+ActiveIconID<32>
+SpellPriority<32>
+Name_lang
+NameSubtext_lang
+Description_lang
+AuraDescription_lang
+ManaCostPct<32>
+StartRecoveryCategory<32>
+StartRecoveryTime<32>
+MaxTargetLevel<32>
+SpellClassSet<32>
+SpellClassMask<32>[2]
+MaxTargets<32>
+DefenseType<32>
+PreventionType<32>
+StanceBarOrder<32>
+EffectChainAmplitude[3]
+MinFactionID<32>
+MinReputation<32>
+RequiredAuraVision<32>
+
+BUILD 1.12.0.5595-1.12.3.6141
 $id$ID<32>
 School<32>
 Category<32>
@@ -1329,7 +1499,6 @@ RequiredAuraVision<32>
 RequiredTotemCategoryID<32>[2]
 
 BUILD 2.0.0.5991
-BUILD 1.9.0.4937-1.9.2.4996
 $id$ID<32>
 School<32>
 Category<32>
@@ -1409,7 +1578,7 @@ DefenseType<32>
 PreventionType<32>
 StanceBarOrder<32>
 EffectChainAmplitude[3]
-Field_1_1_2_4125_076<32>
+AttributesExC<32>
 MinFactionID<32>
 MinReputation<32>
 
@@ -1697,7 +1866,6 @@ RequiredTotemCategoryID<32>[2]
 RequiredAreasID<32>
 SchoolMask<32>
 
-BUILD 3.0.1.8303
 BUILD 3.0.1.8303-3.0.1.8471
 $id$ID<32>
 Category<32>
