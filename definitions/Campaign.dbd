@@ -12,18 +12,6 @@ int Flags // &0x01: useNormalQuestIcons
 int<PlayerCondition::ID> OnlyStallIf // if given and evals to false, don't mark as stalled.
 int<PlayerCondition::ID> Field_9_0_1_35755_007?
 int DisplayPriority?
-locstring Field_10_0_2_45779_000_lang?
-string Field_10_0_2_45779_001?
-locstring Field_10_0_2_45779_002_lang?
-int Field_10_0_2_45779_003?
-int Field_10_0_2_45779_004?
-int Field_10_0_2_45779_005?
-int Field_10_0_2_45779_006?
-int Field_10_0_2_45779_007?
-int Field_10_0_2_45779_008?
-int Field_10_0_2_45779_009?
-int Field_10_0_2_45779_010?
-int Field_10_0_2_45779_011?
 int Field_10_0_2_45779_012?
 
 LAYOUT E317A3DC
@@ -219,16 +207,16 @@ DisplayPriority<32>
 LAYOUT 056660B0
 BUILD 10.0.2.45779
 $noninline,id$ID<32>
-Field_10_0_2_45779_000_lang
-Field_10_0_2_45779_001
-Field_10_0_2_45779_002_lang
-Field_10_0_2_45779_003<32>
-Field_10_0_2_45779_004<32>
-Field_10_0_2_45779_005<32>
-Field_10_0_2_45779_006<32>
-Field_10_0_2_45779_007<32>
-Field_10_0_2_45779_008<32>
-Field_10_0_2_45779_009<32>
-Field_10_0_2_45779_010<u32>
-Field_10_0_2_45779_011<32>
+Title_lang
+InternalTitle
+Description_lang
+UiTextureKitID<32>
+RewardQuestID<32>
+Prerequisite<32>
+Field_9_0_1_35755_007<32>
+Completed<32>
+OnlyStallIf<32>
+UiQuestDetailsThemeID<32>
+Flags<u32>
+DisplayPriority<32>
 Field_10_0_2_45779_012<32>

@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int UniqueBitFlag
-int Field_10_0_2_45779_000?
 int Field_10_0_2_45779_001?
 
 BUILD 6.0.1.18179
@@ -57,5 +56,5 @@ UniqueBitFlag<u16>
 LAYOUT B2004732
 BUILD 10.0.2.45779
 $noninline,id$ID<32>
-Field_10_0_2_45779_000<u16>
+UniqueBitFlag<u16>
 Field_10_0_2_45779_001<32>

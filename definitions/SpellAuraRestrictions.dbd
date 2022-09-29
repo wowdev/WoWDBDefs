@@ -10,20 +10,10 @@ int ExcludeTargetAuraState
 int<Spell::ID> SpellID
 int TargetAuraSpell
 int TargetAuraState
-int Field_10_0_2_45779_000?
-int Field_10_0_2_45779_001?
-int Field_10_0_2_45779_002?
-int Field_10_0_2_45779_003?
-int Field_10_0_2_45779_004?
-int Field_10_0_2_45779_005?
-int Field_10_0_2_45779_006?
-int Field_10_0_2_45779_007?
-int Field_10_0_2_45779_008?
 int Field_10_0_2_45779_009?
 int Field_10_0_2_45779_010?
 int Field_10_0_2_45779_011?
 int Field_10_0_2_45779_012?
-int Field_10_0_2_45779_013?
 
 BUILD 6.0.1.18125-6.0.1.18156
 BUILD 5.0.1.15589-5.4.8.18414
@@ -159,17 +149,17 @@ $noninline,relation$SpellID<32>
 LAYOUT 78912DD7
 BUILD 10.0.2.45779
 $noninline,id$ID<32>
-Field_10_0_2_45779_000<32>
-Field_10_0_2_45779_001<32>
-Field_10_0_2_45779_002<32>
-Field_10_0_2_45779_003<32>
-Field_10_0_2_45779_004<32>
-Field_10_0_2_45779_005<32>
-Field_10_0_2_45779_006<32>
-Field_10_0_2_45779_007<32>
-Field_10_0_2_45779_008<32>
+DifficultyID<32>
+CasterAuraState<32>
+TargetAuraState<32>
+ExcludeCasterAuraState<32>
+ExcludeTargetAuraState<32>
+CasterAuraSpell<32>
+TargetAuraSpell<32>
+ExcludeCasterAuraSpell<32>
+ExcludeTargetAuraSpell<32>
 Field_10_0_2_45779_009<32>
 Field_10_0_2_45779_010<32>
 Field_10_0_2_45779_011<32>
 Field_10_0_2_45779_012<32>
-$noninline,relation$Field_10_0_2_45779_013<32>
+$noninline,relation$SpellID<32>

@@ -16,21 +16,6 @@ float VolumeFloat
 float VolumeVariationMinus
 float VolumeVariationPlus
 int Field_7_3_0_24473_008?
-int Field_10_0_2_45779_000?
-float Field_10_0_2_45779_001?
-int Field_10_0_2_45779_002?
-float Field_10_0_2_45779_003?
-float Field_10_0_2_45779_004?
-int Field_10_0_2_45779_005?
-int Field_10_0_2_45779_006?
-float Field_10_0_2_45779_007?
-float Field_10_0_2_45779_008?
-float Field_10_0_2_45779_009?
-float Field_10_0_2_45779_010?
-int Field_10_0_2_45779_011?
-float Field_10_0_2_45779_012?
-int Field_10_0_2_45779_013?
-int Field_10_0_2_45779_014?
 int Field_10_0_2_45779_015?
 
 LAYOUT 972A2F98
@@ -267,19 +252,19 @@ MaxInstances<u8>
 LAYOUT 170F2CC3
 BUILD 10.0.2.45779
 $noninline,id$ID<32>
-Field_10_0_2_45779_000<32>
-Field_10_0_2_45779_001
-Field_10_0_2_45779_002<32>
-Field_10_0_2_45779_003
-Field_10_0_2_45779_004
-Field_10_0_2_45779_005<u8>
-Field_10_0_2_45779_006<u32>
-Field_10_0_2_45779_007
-Field_10_0_2_45779_008
-Field_10_0_2_45779_009
-Field_10_0_2_45779_010
-Field_10_0_2_45779_011<8>
-Field_10_0_2_45779_012
-Field_10_0_2_45779_013<u16>
-Field_10_0_2_45779_014<u8>
+SoundType<32>
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<u8>
+SoundKitAdvancedID<u32>
+VolumeVariationPlus
+VolumeVariationMinus
+PitchVariationPlus
+PitchVariationMinus
+DialogType<8>
+PitchAdjust
+BusOverwriteID<u16>
+MaxInstances<u8>
 Field_10_0_2_45779_015<u32>

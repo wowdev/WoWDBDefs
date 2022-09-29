@@ -4,10 +4,6 @@ int Season? // GetCurrentSeasonValues.milestoneSeasonID?
 int Field_9_2_0_41827_001? // GetCurrentSeasonValues.rewardSeasonID?
 int ExpansionID?
 locstring Field_9_2_0_42174_000_lang? // WeeklyRewardActivityInfo.raidString?
-locstring Field_10_0_2_45779_000_lang?
-int Field_10_0_2_45779_001?
-int Field_10_0_2_45779_002?
-int Field_10_0_2_45779_003?
 int Field_10_0_2_45779_004?
 
 LAYOUT CAAEA413
@@ -46,8 +42,8 @@ ExpansionID<32>
 LAYOUT A2007E11
 BUILD 10.0.2.45779
 $noninline,id$ID<32>
-Field_10_0_2_45779_000_lang
-Field_10_0_2_45779_001<32>
-Field_10_0_2_45779_002<32>
-Field_10_0_2_45779_003<32>
+Field_9_2_0_42174_000_lang
+Season<32>
+Field_9_2_0_41827_001<32>
+ExpansionID<32>
 Field_10_0_2_45779_004<32>
