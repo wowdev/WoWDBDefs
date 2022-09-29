@@ -1,9 +1,17 @@
 COLUMNS
 int ID
 int SomeBitMask?
+int Field_10_0_2_45779_000?
+int Field_10_0_2_45779_001?
 
 LAYOUT 04E988A0
 BUILD 10.0.2.45698, 10.0.2.45746
 BUILD 10.0.0.45661, 10.0.0.45697
 $noninline,id$ID<32>
 SomeBitMask<32>
+
+LAYOUT F5C3ABD9
+BUILD 10.0.2.45779
+$noninline,id$ID<32>
+Field_10_0_2_45779_000<32>
+Field_10_0_2_45779_001<32>
