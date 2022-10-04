@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<SpellLabel::ID> SpellLabelID?
+int<SpellLabel::LabelID> SpellLabelID?
 int<CreatureDifficulty::ID> CreatureDifficultyID?
 
 LAYOUT F7C12CAC
