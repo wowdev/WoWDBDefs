@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_10_0_2_45779_000?
-int Field_10_0_2_45779_001?
+int<SpellLabel::ID> SpellLabelID?
+int<GameObjects::ID> GameObjectID?
 
 LAYOUT DC099311
 BUILD 10.0.2.45779
 $noninline,id$ID<32>
-Field_10_0_2_45779_000<32>
-$noninline,relation$Field_10_0_2_45779_001<32>
+SpellLabelID<32>
+$noninline,relation$GameObjectID<32>
