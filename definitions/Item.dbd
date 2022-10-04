@@ -21,7 +21,8 @@ int RandomSelect?
 int ItemRandomSuffixGroupID?
 int<ContentTuning::ID> ContentTuningID?
 int<CraftingQuality::ID> CraftingQualityID?
-int Field_3_4_0_45704_015?
+int<ScalingStatDistribution::ID> ScalingStatDistributionID?
+int ScalingStatValue?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -92,7 +93,7 @@ SheatheType<u8>
 RandomSelect<u16>
 ItemRandomSuffixGroupID<u16>
 Sound_override_subclassID<8>
-ModifiedCraftingReagentItemID<u16>
+ScalingStatDistributionID<u16>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
 ContentTuningID<32>
@@ -116,7 +117,7 @@ SheatheType<u8>
 RandomSelect<u16>
 ItemRandomSuffixGroupID<u16>
 Sound_override_subclassID<8>
-ModifiedCraftingReagentItemID<u16>
+ScalingStatDistributionID<u16>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
 ContentTuningID<32>
@@ -145,7 +146,7 @@ SheatheType<u8>
 RandomSelect<u16>
 ItemRandomSuffixGroupID<u16>
 Sound_override_subclassID<8>
-ModifiedCraftingReagentItemID<u16>
+ScalingStatDistributionID<u16>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
 ContentTuningID<32>
@@ -175,7 +176,7 @@ SheatheType<u8>
 RandomSelect<u16>
 ItemRandomSuffixGroupID<u16>
 Sound_override_subclassID<8>
-ModifiedCraftingReagentItemID<u16>
+ScalingStatDistributionID<u16>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
 ContentTuningID<32>
@@ -198,13 +199,13 @@ SheatheType<u8>
 RandomSelect<u16>
 ItemRandomSuffixGroupID<u16>
 Sound_override_subclassID<8>
-ModifiedCraftingReagentItemID<u16>
+ScalingStatDistributionID<u16>
 IconFileDataID<32>
 ItemGroupSoundsID<u8>
 ContentTuningID<32>
 MaxDurability<u32>
 AmmunitionType<u8>
-Field_3_4_0_45704_015<32>
+ScalingStatValue<32>
 DamageType<u8>[5]
 Resistances<16>[7]
 MinDamage<u16>[5]
