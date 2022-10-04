@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int<SpellLabel::LabelID> SpellLabelID?
+int<SpellLabel::LabelID> LabelID?
 int<CreatureDifficulty::ID> CreatureDifficultyID?
 
 LAYOUT F7C12CAC
 BUILD 10.0.2.45779
 $noninline,id$ID<32>
-SpellLabelID<32>
+LabelID<32>
 $noninline,relation$CreatureDifficultyID<32>
