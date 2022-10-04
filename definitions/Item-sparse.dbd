@@ -26,7 +26,7 @@ int StatModifier_bonusStat?
 int Field_6_0_1_18179_024?
 int Field_6_0_1_18179_025?
 float Field_6_0_1_18179_026?
-int Field_6_0_1_18179_027?
+int<ScalingStatDistribution::ID> ScalingStatDistributionID?
 int Field_6_0_1_18179_028?
 int Field_6_0_1_18179_029?
 float Field_6_0_1_18179_030?
@@ -90,7 +90,7 @@ StatModifier_bonusStat<32>[10]
 Field_6_0_1_18179_024<32>[10]
 Field_6_0_1_18179_025<32>[10]
 Field_6_0_1_18179_026[10]
-Field_6_0_1_18179_027<32>
+ScalingStatDistributionID<32>
 Field_6_0_1_18179_028<32>
 Field_6_0_1_18179_029<32>
 Field_6_0_1_18179_030
