@@ -22,8 +22,8 @@ int MaxRank
 int Abandonable
 string NeutralDisplayName
 int SpellBookSpellID?
-int Field_10_0_2_45969_013?
-int Field_10_0_2_45969_014?
+int<SharedString::ID> AllianceSharedStringID?
+int<SharedString::ID> HordeSharedStringID?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -356,5 +356,5 @@ ParentSkillLineID<u32>
 ParentTierIndex<32>
 Flags<u16>
 SpellBookSpellID<32>
-Field_10_0_2_45969_013<32>
-Field_10_0_2_45969_014<32>
+AllianceSharedStringID<32>
+HordeSharedStringID<32>
