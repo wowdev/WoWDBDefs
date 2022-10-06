@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_10_0_2_45969_000?
-int Field_10_0_2_45969_001?
+int<FileData::ID> ModelFileDataID?
+int<SoundKit::ID> SoundKitID?
 
 LAYOUT F82CAB0A
 BUILD 10.0.2.45969
 $noninline,id$ID<32>
-Field_10_0_2_45969_000<32>
-Field_10_0_2_45969_001<32>
+ModelFileDataID<32>
+SoundKitID<32>
