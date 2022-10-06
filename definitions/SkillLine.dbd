@@ -22,6 +22,21 @@ int MaxRank
 int Abandonable
 string NeutralDisplayName
 int SpellBookSpellID?
+locstring Field_10_0_2_45969_000_lang?
+locstring Field_10_0_2_45969_001_lang?
+locstring Field_10_0_2_45969_002_lang?
+locstring Field_10_0_2_45969_003_lang?
+string Field_10_0_2_45969_004?
+int Field_10_0_2_45969_005?
+int Field_10_0_2_45969_006?
+int Field_10_0_2_45969_007?
+int Field_10_0_2_45969_008?
+int Field_10_0_2_45969_009?
+int Field_10_0_2_45969_010?
+int Field_10_0_2_45969_011?
+int Field_10_0_2_45969_012?
+int Field_10_0_2_45969_013?
+int Field_10_0_2_45969_014?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -338,3 +353,21 @@ ParentSkillLineID<u32>
 ParentTierIndex<32>
 Flags<u16>
 SpellBookSpellID<32>
+
+LAYOUT F0D60375
+BUILD 10.0.2.45969
+Field_10_0_2_45969_000_lang
+Field_10_0_2_45969_001_lang
+Field_10_0_2_45969_002_lang
+Field_10_0_2_45969_003_lang
+Field_10_0_2_45969_004
+$id$Field_10_0_2_45969_005<32>
+Field_10_0_2_45969_006<8>
+Field_10_0_2_45969_007<32>
+Field_10_0_2_45969_008<8>
+Field_10_0_2_45969_009<u32>
+Field_10_0_2_45969_010<32>
+Field_10_0_2_45969_011<u16>
+Field_10_0_2_45969_012<32>
+Field_10_0_2_45969_013<32>
+Field_10_0_2_45969_014<32>
