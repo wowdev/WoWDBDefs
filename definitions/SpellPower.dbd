@@ -15,21 +15,7 @@ int<PowerType::PowerTypeEnum> PowerType
 int<Spell::ID> RequiredAuraSpellID
 int<Spell::ID> SpellID
 int PowerCost? // original implementation of PowerCostPct
-int Field_10_0_2_45969_000?
-int Field_10_0_2_45969_001?
-int Field_10_0_2_45969_002?
-int Field_10_0_2_45969_003?
-int Field_10_0_2_45969_004?
-int Field_10_0_2_45969_005?
-int Field_10_0_2_45969_006?
-float Field_10_0_2_45969_007?
-float Field_10_0_2_45969_008?
 float Field_10_0_2_45969_009?
-float Field_10_0_2_45969_010?
-int Field_10_0_2_45969_011?
-int Field_10_0_2_45969_012?
-int Field_10_0_2_45969_013?
-int Field_10_0_2_45969_014?
 
 BUILD 4.0.0.12232-4.0.0.12539
 $id$ID<32>
@@ -224,18 +210,18 @@ $noninline,relation$SpellID<32>
 
 LAYOUT E5EED97C
 BUILD 10.0.2.45969
-$id$Field_10_0_2_45969_000<32>
-Field_10_0_2_45969_001<u8>
-Field_10_0_2_45969_002<32>
-Field_10_0_2_45969_003<32>
-Field_10_0_2_45969_004<32>
-Field_10_0_2_45969_005<u32>
-Field_10_0_2_45969_006<32>
-Field_10_0_2_45969_007
-Field_10_0_2_45969_008
+$id$ID<32>
+OrderIndex<u8>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+PowerDisplayID<u32>
+AltPowerBarID<32>
+PowerCostPct
+PowerCostMaxPct
 Field_10_0_2_45969_009
-Field_10_0_2_45969_010
-Field_10_0_2_45969_011<8>
-Field_10_0_2_45969_012<32>
-Field_10_0_2_45969_013<u32>
-$noninline,relation$Field_10_0_2_45969_014<32>
+PowerPctPerSecond
+PowerType<8>
+RequiredAuraSpellID<32>
+OptionalCost<u32>
+$noninline,relation$SpellID<32>
