@@ -9,6 +9,14 @@ int Field_10_0_0_45570_002?
 int Field_10_0_0_45570_003?
 int Field_10_0_0_45570_004?
 int Field_10_0_0_45570_005?
+int Field_10_0_2_46144_000?
+int Field_10_0_2_46144_001?
+int Field_10_0_2_46144_002?
+int Field_10_0_2_46144_003?
+int Field_10_0_2_46144_004?
+int Field_10_0_2_46144_005?
+int Field_10_0_2_46144_006?
+int Field_10_0_2_46144_007?
 
 LAYOUT 25A85C91
 BUILD 10.0.2.45480, 10.0.2.45505
@@ -17,6 +25,18 @@ $noninline,id$ID<32>
 RuleType<32>
 Flags<32>
 $noninline,relation$ContentRestrictionRuleSetID<32>
+
+LAYOUT 5A5B939C
+BUILD 10.0.2.46144
+$noninline,id$ID<32>
+Field_10_0_2_46144_000<32>
+Field_10_0_2_46144_001<32>
+Field_10_0_2_46144_002<32>
+Field_10_0_2_46144_003<32>
+Field_10_0_2_46144_004<32>
+Field_10_0_2_46144_005<32>
+Field_10_0_2_46144_006<32>
+$noninline,relation$Field_10_0_2_46144_007<32>
 
 LAYOUT 33B61B8A
 BUILD 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969, 10.0.2.46091, 10.0.2.46092, 10.0.2.46157
