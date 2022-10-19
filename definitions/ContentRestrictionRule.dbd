@@ -3,20 +3,11 @@ int ID
 int RuleType? // 0: Map.isPvP; 1: some player flag?; 2: AreaTable.AreaBit; 3: Legion Mage Tower (mapIDs 1673, 1616, 1698, 1702, 1703, 1684, 1710); 4: C_PvP.IsSoloShuffle(); 5: Map.Expansion == 8; 6: MapDifficulty-like == 8 (Mythic Dungeon?); 7: Map.InstanceType == 1; 8: Map.InstanceType == 2; 9: Map.InstanceType == 4; 10: Map.InstanceType == 3; 11: something PvP queue
 int Flags? // &1: invert condition
 int<ContentRestrictionRuleSet::ID> ContentRestrictionRuleSetID?
-int Field_10_0_0_45570_000?
-int Field_10_0_0_45570_001?
-int Field_10_0_0_45570_002?
 int Field_10_0_0_45570_003?
 int Field_10_0_0_45570_004?
-int Field_10_0_0_45570_005?
-int Field_10_0_2_46144_000?
-int Field_10_0_2_46144_001?
-int Field_10_0_2_46144_002?
-int Field_10_0_2_46144_003?
-int Field_10_0_2_46144_004?
+int<Map::ID> MapID?
 int Field_10_0_2_46144_005?
 int Field_10_0_2_46144_006?
-int Field_10_0_2_46144_007?
 
 LAYOUT 25A85C91
 BUILD 10.0.2.45480, 10.0.2.45505
@@ -29,22 +20,22 @@ $noninline,relation$ContentRestrictionRuleSetID<32>
 LAYOUT 5A5B939C
 BUILD 10.0.2.46144
 $noninline,id$ID<32>
-Field_10_0_2_46144_000<32>
-Field_10_0_2_46144_001<32>
-Field_10_0_2_46144_002<32>
-Field_10_0_2_46144_003<32>
-Field_10_0_2_46144_004<32>
+RuleType<32>
+Flags<32>
+MapID<32>
+Field_10_0_0_45570_003<32>
+Field_10_0_0_45570_004<32>
 Field_10_0_2_46144_005<32>
 Field_10_0_2_46144_006<32>
-$noninline,relation$Field_10_0_2_46144_007<32>
+$noninline,relation$ContentRestrictionRuleSetID<32>
 
 LAYOUT 33B61B8A
 BUILD 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969, 10.0.2.46091, 10.0.2.46092, 10.0.2.46157
 BUILD 10.0.0.45570, 10.0.0.45661, 10.0.0.45697, 10.0.0.45970, 10.0.0.46047, 10.0.0.46112
 $noninline,id$ID<32>
-Field_10_0_0_45570_000<32>
-Field_10_0_0_45570_001<32>
-Field_10_0_0_45570_002<32>
+RuleType<32>
+Flags<32>
+MapID<32>
 Field_10_0_0_45570_003<32>
 Field_10_0_0_45570_004<32>
-$noninline,relation$Field_10_0_0_45570_005<32>
+$noninline,relation$ContentRestrictionRuleSetID<32>

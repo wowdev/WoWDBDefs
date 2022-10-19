@@ -14,39 +14,25 @@ int<Covenant::ID> CovenantID // {4x unknown 53, manyx CovenantPreviewNpc}
 int GossipIndex? // probably the fk
 int<TraitTree::ID> TraitTreeID // {2x TraitSystem}
 int<Profession::ID> ProfessionID // {1x ProfessionsCraftingOrder, 1x ProfessionsOpen, 1x ProfessionsCustomerOrder}
-int Field_10_0_2_46144_000?
-int Field_10_0_2_46144_001?
-int Field_10_0_2_46144_002?
-int Field_10_0_2_46144_003?
-int Field_10_0_2_46144_004?
-int Field_10_0_2_46144_005?
-int Field_10_0_2_46144_006?
-int Field_10_0_2_46144_007?
-int Field_10_0_2_46144_008?
-int Field_10_0_2_46144_009?
-int Field_10_0_2_46144_010?
-int Field_10_0_2_46144_011?
-int Field_10_0_2_46144_012?
-int Field_10_0_2_46144_013?
 int Field_10_0_2_46144_014?
 
 LAYOUT 9170AADA
 BUILD 10.0.2.46144
 $noninline,id$ID<32>
-Field_10_0_2_46144_000<32>
-Field_10_0_2_46144_001<32>
-Field_10_0_2_46144_002<32>
-Field_10_0_2_46144_003<32>
-Field_10_0_2_46144_004<32>
-Field_10_0_2_46144_005<32>
-Field_10_0_2_46144_006<32>
-Field_10_0_2_46144_007<32>
-Field_10_0_2_46144_008<32>
-Field_10_0_2_46144_009<32>
-Field_10_0_2_46144_010<32>
-Field_10_0_2_46144_011<32>
-Field_10_0_2_46144_012<32>
-Field_10_0_2_46144_013<32>
+GossipNpcOption<32>
+LFGDungeonsID<32>
+TrainerID<32>
+GarrFollowerTypeID<32>
+CharShipmentID<32>
+GarrTalentTreeID<32>
+UiMapID<32>
+UiItemInteractionID<32>
+Field_10_0_0_45141_008<32>
+Field_10_0_0_45141_009<32>
+CovenantID<32>
+GossipIndex<32>
+TraitTreeID<32>
+ProfessionID<32>
 Field_10_0_2_46144_014<32>
 
 LAYOUT 238BCF2B

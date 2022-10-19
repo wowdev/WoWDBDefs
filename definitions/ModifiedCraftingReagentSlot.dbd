@@ -4,11 +4,6 @@ locstring Name_lang?
 int Field_9_0_1_33978_001?
 int<PlayerCondition::ID> PlayerConditionID?
 int Field_10_0_0_44649_004?
-locstring Field_10_0_2_46091_000_lang?
-int Field_10_0_2_46091_001?
-int Field_10_0_2_46091_002?
-int Field_10_0_2_46091_003?
-int Field_10_0_2_46091_004?
 int Field_10_0_2_46091_005?
 
 LAYOUT 79B765B9
@@ -49,9 +44,9 @@ Field_10_0_0_44649_004<32>
 
 LAYOUT FEE69CA3
 BUILD 10.0.2.46091, 10.0.2.46092, 10.0.2.46144, 10.0.2.46157
-Field_10_0_2_46091_000_lang
-$id$Field_10_0_2_46091_001<32>
-Field_10_0_2_46091_002<32>
-Field_10_0_2_46091_003<32>
-Field_10_0_2_46091_004<32>
+Name_lang
+$id$ID<32>
+Field_9_0_1_33978_001<32>
+PlayerConditionID<32>
+Field_10_0_0_44649_004<32>
 Field_10_0_2_46091_005<u8>

@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int Field_10_0_2_46144_000?
-int Field_10_0_2_46144_001?
-int Field_10_0_2_46144_002?
+int<WorldShadow::ID> WorldShadowID?
+int<LightData::ID> LightDataID?
+int<LightParams::ID> LightParamID?
 
 LAYOUT 59642561
 BUILD 10.0.2.46144
 $noninline,id$ID<32>
-Field_10_0_2_46144_000<32>
-Field_10_0_2_46144_001<32>
-$noninline,relation$Field_10_0_2_46144_002<32>
+WorldShadowID<32>
+LightDataID<32>
+$noninline,relation$LightParamID<32>
