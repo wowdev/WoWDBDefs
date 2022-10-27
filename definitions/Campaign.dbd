@@ -205,24 +205,6 @@ UiQuestDetailsThemeID<32>
 Flags<u32>
 DisplayPriority<32>
 
-LAYOUT AD30B727
-BUILD 10.0.2.46144
-$noninline,id$ID<32>
-Title_lang
-InternalTitle
-Description_lang
-UiTextureKitID<32>
-RewardQuestID<32>
-Prerequisite<32>
-Field_9_0_1_35755_007<32>
-Completed<32>
-OnlyStallIf<32>
-UiQuestDetailsThemeID<32>
-Flags<u32>
-DisplayPriority<32>
-Field_10_0_2_45779_012<32>
-Field_10_0_2_46144_013<32>
-
 LAYOUT 056660B0
 BUILD 10.0.2.45779, 10.0.2.45969, 10.0.2.46091, 10.0.2.46092, 10.0.2.46157
 BUILD 10.0.0.45970, 10.0.0.46047, 10.0.0.46112, 10.0.0.46181, 10.0.0.46247, 10.0.0.46270, 10.0.0.46293, 10.0.0.46313
@@ -240,3 +222,21 @@ UiQuestDetailsThemeID<32>
 Flags<u32>
 DisplayPriority<32>
 Field_10_0_2_45779_012<32>
+
+LAYOUT AD30B727
+BUILD 10.0.2.46144, 10.0.2.46259
+$noninline,id$ID<32>
+Title_lang
+InternalTitle
+Description_lang
+UiTextureKitID<32>
+RewardQuestID<32>
+Prerequisite<32>
+Field_9_0_1_35755_007<32>
+Completed<32>
+OnlyStallIf<32>
+UiQuestDetailsThemeID<32>
+Flags<u32>
+DisplayPriority<32>
+Field_10_0_2_45779_012<32>
+Field_10_0_2_46144_013<32>
