@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int Field_10_0_2_46259_000?
-int Field_10_0_2_46259_001?
+int<Profession::ID> ProfessionID?
+int<ProfessionRating::ID> ProfessionRatingID?
 float Field_10_0_2_46259_002?
 
 LAYOUT 72DDE591
 BUILD 10.0.2.46259
 $noninline,id$ID<32>
-Field_10_0_2_46259_000<32>
-Field_10_0_2_46259_001<32>
+ProfessionID<32>
+ProfessionRatingID<32>
 Field_10_0_2_46259_002
