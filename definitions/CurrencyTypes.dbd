@@ -19,7 +19,7 @@ int<PlayerCondition::ID> AwardConditionID
 int MaxQtyWorldStateID // key into data sent by the server
 int XpQuestDifficulty // Correct if 2 for ID 1566. ConvertToPlayerExperience?
 int Field_10_0_2_46091_014?
-int Field_10_0_2_46091_015?
+int SomeCooldownMilliseconds?
 
 LAYOUT 7A943838
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011, 2.5.2.40045, 2.5.2.40203, 2.5.2.40260, 2.5.2.40422, 2.5.2.40488, 2.5.2.40617, 2.5.2.40892, 2.5.2.41446, 2.5.2.41510
@@ -368,5 +368,5 @@ XpQuestDifficulty<32>
 AwardConditionID<32>
 MaxQtyWorldStateID<32>
 Field_10_0_2_46091_014<u32>
-Field_10_0_2_46091_015<u32>
+SomeCooldownMilliseconds<u32>
 Flags<32>[2]
