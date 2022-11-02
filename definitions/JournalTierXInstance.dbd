@@ -2,9 +2,7 @@ COLUMNS
 int<JournalTier::ID> JournalTierID
 int<JournalInstance::ID> JournalInstanceID
 int ID
-int Field_10_0_2_46420_000?
-int Field_10_0_2_46420_001?
-int Field_10_0_2_46420_002?
+int OrderIndex?
 
 BUILD 5.0.1.15464-5.3.0.17116
 $id$ID<32>
@@ -66,6 +64,6 @@ JournalInstanceID<u16>
 LAYOUT 003E6589
 BUILD 10.0.2.46420
 $noninline,id$ID<32>
-$relation$Field_10_0_2_46420_000<u16>
-Field_10_0_2_46420_001<u16>
-Field_10_0_2_46420_002<32>
+$relation$JournalTierID<u16>
+JournalInstanceID<u16>
+OrderIndex<32>

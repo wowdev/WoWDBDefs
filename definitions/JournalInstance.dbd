@@ -11,15 +11,6 @@ locstring Description_lang
 int Flags
 int OrderIndex
 int Field_4_2_0_14333_006? // OrderIndex? used to sort records
-locstring Field_10_0_2_46420_000_lang?
-locstring Field_10_0_2_46420_001_lang?
-int Field_10_0_2_46420_002?
-int Field_10_0_2_46420_003?
-int Field_10_0_2_46420_004?
-int Field_10_0_2_46420_005?
-int Field_10_0_2_46420_006?
-int Field_10_0_2_46420_007?
-int Field_10_0_2_46420_008?
 
 LAYOUT 71413EF7
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -228,12 +219,12 @@ AreaID<u16>
 LAYOUT E213FF3B
 BUILD 10.0.2.46420
 $noninline,id$ID<32>
-Field_10_0_2_46420_000_lang
-Field_10_0_2_46420_001_lang
-Field_10_0_2_46420_002<u16>
-Field_10_0_2_46420_003<32>
-Field_10_0_2_46420_004<32>
-Field_10_0_2_46420_005<32>
-Field_10_0_2_46420_006<32>
-Field_10_0_2_46420_007<32>
-Field_10_0_2_46420_008<u16>
+Name_lang
+Description_lang
+MapID<u16>
+BackgroundFileDataID<32>
+ButtonFileDataID<32>
+ButtonSmallFileDataID<32>
+LoreFileDataID<32>
+Flags<32>
+AreaID<u16>

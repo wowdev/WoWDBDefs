@@ -12,15 +12,6 @@ int<ChrClasses::ID> ClassID
 int Field_1_13_0_28211_005?
 int Field_1_13_0_28211_006?
 int Field_1_13_0_28211_010?
-locstring Field_10_0_2_46420_000_lang?
-int Field_10_0_2_46420_001?
-int Field_10_0_2_46420_002?
-int Field_10_0_2_46420_003?
-int Field_10_0_2_46420_004?
-int Field_10_0_2_46420_005?
-int Field_10_0_2_46420_006?
-int Field_10_0_2_46420_007?
-int Field_10_0_2_46420_008?
 int Field_10_0_2_46420_009?
 
 LAYOUT 13ABD6C8
@@ -202,13 +193,13 @@ LevelRequired<32>
 
 LAYOUT EC6943FA
 BUILD 10.0.2.46420
-Field_10_0_2_46420_000_lang
-$id$Field_10_0_2_46420_001<32>
-$relation$Field_10_0_2_46420_002<32>
-Field_10_0_2_46420_003<32>
-Field_10_0_2_46420_004<32>
-Field_10_0_2_46420_005<32>
-Field_10_0_2_46420_006<32>
-Field_10_0_2_46420_007<32>
-Field_10_0_2_46420_008<32>
+Description_lang
+$id$ID<32>
+$relation$SpecID<32>
+SpellID<32>
+OverridesSpellID<32>
+Flags<32>
+ActionBarSpellID<32>
+PvpTalentCategoryID<32>
+LevelRequired<32>
 Field_10_0_2_46420_009<32>
