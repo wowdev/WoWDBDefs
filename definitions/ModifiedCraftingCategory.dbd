@@ -3,7 +3,7 @@ int ID
 locstring DisplayName_lang
 int Field_9_0_1_33978_001?
 locstring Description_lang?
-float Field_10_0_0_44649_003?
+float MatQualityWeight //Relative contribution of this material to skill bonus
 int Field_10_0_0_44649_004?
 
 LAYOUT EC698BBC
@@ -39,5 +39,5 @@ $noninline,id$ID<32>
 DisplayName_lang
 Description_lang
 Field_9_0_1_33978_001<32>
-Field_10_0_0_44649_003
+MatQualityWeight
 Field_10_0_0_44649_004<32>
