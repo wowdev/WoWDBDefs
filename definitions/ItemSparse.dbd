@@ -76,152 +76,6 @@ int<ContentTuning::ID> ContentTuningID?
 int<Curve::ID> PlayerLevelToItemLevelCurveID?
 int Field_7_3_2_25549_048? // probably RequiredPVPRank
 int Field_7_3_2_25549_049? // probably RequiredPVPMedal
-int Field_1_14_3_42926_000?
-locstring Field_1_14_3_42926_001_lang?
-locstring Field_1_14_3_42926_002_lang?
-locstring Field_1_14_3_42926_003_lang?
-locstring Field_1_14_3_42926_004_lang?
-locstring Field_1_14_3_42926_005_lang?
-float Field_1_14_3_42926_006?
-int Field_1_14_3_42926_007?
-float Field_1_14_3_42926_008?
-int Field_1_14_3_42926_009?
-int Field_1_14_3_42926_010?
-float Field_1_14_3_42926_011?
-float Field_1_14_3_42926_012?
-int Field_1_14_3_42926_013?
-int Field_1_14_3_42926_014?
-int Field_1_14_3_42926_015?
-int Field_1_14_3_42926_016?
-int Field_1_14_3_42926_017?
-int Field_1_14_3_42926_018?
-int Field_1_14_3_42926_019?
-float Field_1_14_3_42926_020?
-float Field_1_14_3_42926_021?
-int Field_1_14_3_42926_022?
-int Field_1_14_3_42926_023?
-int Field_1_14_3_42926_024?
-int Field_1_14_3_42926_025?
-int Field_1_14_3_42926_026?
-int Field_1_14_3_42926_027?
-int Field_1_14_3_42926_028?
-int Field_1_14_3_42926_029?
-int Field_1_14_3_42926_030?
-int Field_1_14_3_42926_031?
-int Field_1_14_3_42926_032?
-int Field_1_14_3_42926_033?
-int Field_1_14_3_42926_034?
-int Field_1_14_3_42926_035?
-int Field_1_14_3_42926_036?
-int Field_1_14_3_42926_037?
-int Field_1_14_3_42926_038?
-int Field_1_14_3_42926_039?
-int Field_1_14_3_42926_040?
-int Field_1_14_3_42926_041?
-int Field_1_14_3_42926_042?
-int Field_1_14_3_42926_043?
-int Field_1_14_3_42926_044?
-int Field_1_14_3_42926_045?
-int Field_1_14_3_42926_046?
-int Field_1_14_3_42926_047?
-int Field_1_14_3_42926_048?
-int Field_1_14_3_42926_049?
-int Field_1_14_3_42926_050?
-int Field_1_14_3_42926_051?
-int Field_1_14_3_42926_052?
-int Field_1_14_3_42926_053?
-int Field_1_14_3_42926_054?
-int Field_1_14_3_42926_055?
-int Field_1_14_3_42926_056?
-int Field_1_14_3_42926_057?
-int Field_1_14_3_42926_058?
-int Field_1_14_3_42926_059?
-int Field_1_14_3_42926_060?
-int Field_1_14_3_42926_061?
-int Field_1_14_3_42926_062?
-int Field_1_14_3_42926_063?
-int Field_1_14_3_42926_064?
-int Field_1_14_3_42926_065?
-int Field_1_14_3_42926_066?
-int Field_1_14_3_42926_067?
-int Field_1_14_3_42926_068?
-int Field_1_14_3_42926_069?
-int Field_1_14_3_42926_070?
-int Field_1_14_3_42926_071?
-int Field_1_14_3_42926_072?
-int Field_3_4_1_46722_000?
-locstring Field_3_4_1_46722_001_lang?
-locstring Field_3_4_1_46722_002_lang?
-locstring Field_3_4_1_46722_003_lang?
-locstring Field_3_4_1_46722_004_lang?
-locstring Field_3_4_1_46722_005_lang?
-float Field_3_4_1_46722_006?
-int Field_3_4_1_46722_007?
-float Field_3_4_1_46722_008?
-int Field_3_4_1_46722_009?
-int Field_3_4_1_46722_010?
-float Field_3_4_1_46722_011?
-float Field_3_4_1_46722_012?
-int Field_3_4_1_46722_013?
-int Field_3_4_1_46722_014?
-int Field_3_4_1_46722_015?
-int Field_3_4_1_46722_016?
-int Field_3_4_1_46722_017?
-int Field_3_4_1_46722_018?
-int Field_3_4_1_46722_019?
-int Field_3_4_1_46722_020?
-float Field_3_4_1_46722_021?
-float Field_3_4_1_46722_022?
-int Field_3_4_1_46722_023?
-int Field_3_4_1_46722_024?
-int Field_3_4_1_46722_025?
-int Field_3_4_1_46722_026?
-int Field_3_4_1_46722_027?
-int Field_3_4_1_46722_028?
-int Field_3_4_1_46722_029?
-int Field_3_4_1_46722_030?
-int Field_3_4_1_46722_031?
-int Field_3_4_1_46722_032?
-int Field_3_4_1_46722_033?
-int Field_3_4_1_46722_034?
-int Field_3_4_1_46722_035?
-int Field_3_4_1_46722_036?
-int Field_3_4_1_46722_037?
-int Field_3_4_1_46722_038?
-int Field_3_4_1_46722_039?
-int Field_3_4_1_46722_040?
-int Field_3_4_1_46722_041?
-int Field_3_4_1_46722_042?
-int Field_3_4_1_46722_043?
-int Field_3_4_1_46722_044?
-int Field_3_4_1_46722_045?
-int Field_3_4_1_46722_046?
-int Field_3_4_1_46722_047?
-int Field_3_4_1_46722_048?
-int Field_3_4_1_46722_049?
-int Field_3_4_1_46722_050?
-int Field_3_4_1_46722_051?
-int Field_3_4_1_46722_052?
-int Field_3_4_1_46722_053?
-int Field_3_4_1_46722_054?
-int Field_3_4_1_46722_055?
-int Field_3_4_1_46722_056?
-int Field_3_4_1_46722_057?
-int Field_3_4_1_46722_058?
-int Field_3_4_1_46722_059?
-int Field_3_4_1_46722_060?
-int Field_3_4_1_46722_061?
-int Field_3_4_1_46722_062?
-int Field_3_4_1_46722_063?
-int Field_3_4_1_46722_064?
-int Field_3_4_1_46722_065?
-int Field_3_4_1_46722_066?
-int Field_3_4_1_46722_067?
-int Field_3_4_1_46722_068?
-int Field_3_4_1_46722_069?
-int Field_3_4_1_46722_070?
-int Field_3_4_1_46722_071?
-int Field_3_4_1_46722_072?
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -381,79 +235,79 @@ LAYOUT 15F28903
 BUILD 1.14.3.42926, 1.14.3.43037, 1.14.3.43086, 1.14.3.43154, 1.14.3.43401, 1.14.3.43639, 1.14.3.44016, 1.14.3.44170, 1.14.3.44403, 1.14.3.44834, 1.14.3.45437, 1.14.3.46575
 COMMENT table is sparse
 $noninline,id$ID<32>
-Field_1_14_3_42926_000<64>
-Field_1_14_3_42926_001_lang
-Field_1_14_3_42926_002_lang
-Field_1_14_3_42926_003_lang
-Field_1_14_3_42926_004_lang
-Field_1_14_3_42926_005_lang
-Field_1_14_3_42926_006
-Field_1_14_3_42926_007<u32>
-Field_1_14_3_42926_008
-Field_1_14_3_42926_009<u32>
-Field_1_14_3_42926_010<32>
-Field_1_14_3_42926_011
-Field_1_14_3_42926_012[10]
-Field_1_14_3_42926_013<32>[10]
-Field_1_14_3_42926_014<32>
-Field_1_14_3_42926_015<32>
-Field_1_14_3_42926_016<u32>
-Field_1_14_3_42926_017<u32>
-Field_1_14_3_42926_018<u32>
-Field_1_14_3_42926_019<u32>
-Field_1_14_3_42926_020
-Field_1_14_3_42926_021
-Field_1_14_3_42926_022<32>[4]
-Field_1_14_3_42926_023<32>
-Field_1_14_3_42926_024<32>
-Field_1_14_3_42926_025<32>
-Field_1_14_3_42926_026<32>
-Field_1_14_3_42926_027<u32>
-Field_1_14_3_42926_028<u16>
-Field_1_14_3_42926_029<u16>
-Field_1_14_3_42926_030<u16>
-Field_1_14_3_42926_031<u16>
-Field_1_14_3_42926_032<u16>
-Field_1_14_3_42926_033<u16>
-Field_1_14_3_42926_034<u16>
-Field_1_14_3_42926_035<u16>
-Field_1_14_3_42926_036<u16>[2]
-Field_1_14_3_42926_037<u16>
-Field_1_14_3_42926_038<u16>
-Field_1_14_3_42926_039<u16>
-Field_1_14_3_42926_040<u16>
-Field_1_14_3_42926_041<u16>
-Field_1_14_3_42926_042<u16>
-Field_1_14_3_42926_043<u16>
-Field_1_14_3_42926_044<u16>
-Field_1_14_3_42926_045<16>
-Field_1_14_3_42926_046<u16>
-Field_1_14_3_42926_047<u16>
-Field_1_14_3_42926_048<u16>[5]
-Field_1_14_3_42926_049<u16>[5]
-Field_1_14_3_42926_050<16>[7]
-Field_1_14_3_42926_051<u16>
-Field_1_14_3_42926_052<u8>
-Field_1_14_3_42926_053<u8>
-Field_1_14_3_42926_054<u8>
-Field_1_14_3_42926_055<u8>
-Field_1_14_3_42926_056<u8>[3]
-Field_1_14_3_42926_057<u8>
-Field_1_14_3_42926_058<u8>
-Field_1_14_3_42926_059<u8>
-Field_1_14_3_42926_060<u8>
-Field_1_14_3_42926_061<u8>
-Field_1_14_3_42926_062<u8>
-Field_1_14_3_42926_063<8>[10]
-Field_1_14_3_42926_064<u8>
-Field_1_14_3_42926_065<u8>
-Field_1_14_3_42926_066<u8>
-Field_1_14_3_42926_067<u8>
-Field_1_14_3_42926_068<8>
-Field_1_14_3_42926_069<8>
-Field_1_14_3_42926_070<u8>
-Field_1_14_3_42926_071<8>[10]
-Field_1_14_3_42926_072<8>
+AllowableRace<64>
+Description_lang
+Display3_lang
+Display2_lang
+Display1_lang
+Display_lang
+DmgVariance
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+StartQuestID<32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
+RequiredAbility<u32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
+OppositeFactionItemID<32>
+ModifiedCraftingReagentItemID<32>
+ContentTuningID<32>
+PlayerLevelToItemLevelCurveID<32>
+MaxDurability<u32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+LimitCategory<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
+ItemSet<u16>
+LockID<u16>
+PageID<u16>
+ItemDelay<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ItemRandomSuffixGroupID<u16>
+RandomSelect<u16>
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
+Resistances<16>[7]
+ScalingStatDistributionID<u16>
+ExpansionID<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+DamageType<u8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<u8>
+MinReputation<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+InventoryType<8>
+OverallQualityID<8>
+AmmunitionType<u8>
+StatModifier_bonusAmount<8>[10]
+RequiredLevel<8>
 
 LAYOUT 9E2F6B8B
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011, 2.5.2.40045, 2.5.2.40203, 2.5.2.40260, 2.5.2.40422, 2.5.2.40488, 2.5.2.40617, 2.5.2.40892, 2.5.2.41446, 2.5.2.41510
@@ -848,79 +702,79 @@ LAYOUT D532973D
 BUILD 3.4.1.46722
 COMMENT table is sparse
 $noninline,id$ID<32>
-Field_3_4_1_46722_000<64>
-Field_3_4_1_46722_001_lang
-Field_3_4_1_46722_002_lang
-Field_3_4_1_46722_003_lang
-Field_3_4_1_46722_004_lang
-Field_3_4_1_46722_005_lang
-Field_3_4_1_46722_006
-Field_3_4_1_46722_007<u32>
-Field_3_4_1_46722_008
-Field_3_4_1_46722_009<u32>
-Field_3_4_1_46722_010<32>
-Field_3_4_1_46722_011
-Field_3_4_1_46722_012[10]
-Field_3_4_1_46722_013<32>[10]
-Field_3_4_1_46722_014<32>
-Field_3_4_1_46722_015<32>
-Field_3_4_1_46722_016<32>
-Field_3_4_1_46722_017<u32>
-Field_3_4_1_46722_018<u32>
-Field_3_4_1_46722_019<u32>
-Field_3_4_1_46722_020<u32>
-Field_3_4_1_46722_021
-Field_3_4_1_46722_022
-Field_3_4_1_46722_023<32>[4]
-Field_3_4_1_46722_024<32>
-Field_3_4_1_46722_025<32>
-Field_3_4_1_46722_026<32>
-Field_3_4_1_46722_027<32>
-Field_3_4_1_46722_028<u32>
-Field_3_4_1_46722_029<u16>
-Field_3_4_1_46722_030<u16>
-Field_3_4_1_46722_031<u16>
-Field_3_4_1_46722_032<u16>
-Field_3_4_1_46722_033<u16>
-Field_3_4_1_46722_034<u16>
-Field_3_4_1_46722_035<u16>
-Field_3_4_1_46722_036<u16>
-Field_3_4_1_46722_037<u16>[2]
-Field_3_4_1_46722_038<u16>
-Field_3_4_1_46722_039<u16>
-Field_3_4_1_46722_040<u16>
-Field_3_4_1_46722_041<u16>
-Field_3_4_1_46722_042<u16>
-Field_3_4_1_46722_043<u16>
-Field_3_4_1_46722_044<u16>
-Field_3_4_1_46722_045<u16>
-Field_3_4_1_46722_046<16>
-Field_3_4_1_46722_047<u16>
-Field_3_4_1_46722_048<u16>
-Field_3_4_1_46722_049<u16>[5]
-Field_3_4_1_46722_050<u16>[5]
-Field_3_4_1_46722_051<16>[7]
-Field_3_4_1_46722_052<u16>
-Field_3_4_1_46722_053<16>[10]
-Field_3_4_1_46722_054<u8>
-Field_3_4_1_46722_055<u8>
-Field_3_4_1_46722_056<u8>
-Field_3_4_1_46722_057<u8>
-Field_3_4_1_46722_058<u8>[3]
-Field_3_4_1_46722_059<u8>
-Field_3_4_1_46722_060<u8>
-Field_3_4_1_46722_061<u8>
-Field_3_4_1_46722_062<u8>
-Field_3_4_1_46722_063<u8>
-Field_3_4_1_46722_064<u8>
-Field_3_4_1_46722_065<8>[10]
-Field_3_4_1_46722_066<u8>
-Field_3_4_1_46722_067<u8>
-Field_3_4_1_46722_068<u8>
-Field_3_4_1_46722_069<8>
-Field_3_4_1_46722_070<8>
-Field_3_4_1_46722_071<u8>
-Field_3_4_1_46722_072<8>
+AllowableRace<64>
+Description_lang
+Display3_lang
+Display2_lang
+Display1_lang
+Display_lang
+DmgVariance
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+StartQuestID<32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
+MinReputation<32>
+RequiredAbility<u32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
+OppositeFactionItemID<32>
+ModifiedCraftingReagentItemID<32>
+ContentTuningID<32>
+PlayerLevelToItemLevelCurveID<32>
+MaxDurability<u32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+LimitCategory<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
+ItemSet<u16>
+LockID<u16>
+PageID<u16>
+ItemDelay<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ItemRandomSuffixGroupID<u16>
+RandomSelect<u16>
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
+Resistances<16>[7]
+ScalingStatDistributionID<u16>
+StatModifier_bonusAmount<16>[10]
+ExpansionID<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+DamageType<u8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+InventoryType<8>
+OverallQualityID<8>
+AmmunitionType<u8>
+RequiredLevel<8>
 
 LAYOUT BB5BF754
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
