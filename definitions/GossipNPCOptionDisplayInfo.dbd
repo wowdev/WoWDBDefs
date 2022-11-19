@@ -3,6 +3,16 @@ int ID
 int GossipNpcOption? // GossipConstants.GossipNpcOption
 int<FileData::ID> IconFileDataID
 int Flags? // GossipConstants.GossipNpcOptionDisplayFlags?! but that only has &1, db only has &2.
+int Field_3_4_1_46722_000?
+int Field_3_4_1_46722_001?
+int Field_3_4_1_46722_002?
+
+LAYOUT 243CF578
+BUILD 3.4.1.46722
+$noninline,id$ID<32>
+Field_3_4_1_46722_000<32>
+Field_3_4_1_46722_001<32>
+Field_3_4_1_46722_002<32>
 
 LAYOUT 8B9BF10F
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969, 10.0.2.46091, 10.0.2.46092, 10.0.2.46144, 10.0.2.46157, 10.0.2.46259, 10.0.2.46420, 10.0.2.46456, 10.0.2.46479, 10.0.2.46619, 10.0.2.46658, 10.0.2.46689, 10.0.2.46702

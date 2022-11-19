@@ -15,6 +15,34 @@ int GossipIndex? // probably the fk
 int<TraitTree::ID> TraitTreeID // {2x TraitSystem}
 int<Profession::ID> ProfessionID // {1x ProfessionsCraftingOrder, 1x ProfessionsOpen, 1x ProfessionsCustomerOrder}
 int Field_10_0_2_46144_014?
+int Field_3_4_1_46722_000?
+int Field_3_4_1_46722_001?
+int Field_3_4_1_46722_002?
+int Field_3_4_1_46722_003?
+int Field_3_4_1_46722_004?
+int Field_3_4_1_46722_005?
+int Field_3_4_1_46722_006?
+int Field_3_4_1_46722_007?
+int Field_3_4_1_46722_008?
+int Field_3_4_1_46722_009?
+int Field_3_4_1_46722_010?
+int Field_3_4_1_46722_011?
+
+LAYOUT 30CA59EB
+BUILD 3.4.1.46722
+$noninline,id$ID<32>
+Field_3_4_1_46722_000<32>
+Field_3_4_1_46722_001<32>
+Field_3_4_1_46722_002<32>
+Field_3_4_1_46722_003<32>
+Field_3_4_1_46722_004<32>
+Field_3_4_1_46722_005<32>
+Field_3_4_1_46722_006<32>
+Field_3_4_1_46722_007<32>
+Field_3_4_1_46722_008<32>
+Field_3_4_1_46722_009<32>
+Field_3_4_1_46722_010<32>
+Field_3_4_1_46722_011<32>
 
 LAYOUT 238BCF2B
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969, 10.0.2.46091, 10.0.2.46092, 10.0.2.46157

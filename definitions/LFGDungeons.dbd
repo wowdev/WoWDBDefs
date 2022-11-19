@@ -36,6 +36,39 @@ int<PlayerCondition::ID> Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
+locstring Field_3_4_1_46722_000_lang?
+locstring Field_3_4_1_46722_001_lang?
+int Field_3_4_1_46722_002?
+int Field_3_4_1_46722_003?
+int Field_3_4_1_46722_004?
+int Field_3_4_1_46722_005?
+int Field_3_4_1_46722_006?
+int Field_3_4_1_46722_007?
+int Field_3_4_1_46722_008?
+int Field_3_4_1_46722_009?
+int Field_3_4_1_46722_010?
+int Field_3_4_1_46722_011?
+int Field_3_4_1_46722_012?
+float Field_3_4_1_46722_013?
+int Field_3_4_1_46722_014?
+int Field_3_4_1_46722_015?
+int Field_3_4_1_46722_016?
+int Field_3_4_1_46722_017?
+int Field_3_4_1_46722_018?
+int Field_3_4_1_46722_019?
+int Field_3_4_1_46722_020?
+int Field_3_4_1_46722_021?
+int Field_3_4_1_46722_022?
+int Field_3_4_1_46722_023?
+int Field_3_4_1_46722_024?
+int Field_3_4_1_46722_025?
+int Field_3_4_1_46722_026?
+int Field_3_4_1_46722_027?
+int Field_3_4_1_46722_028?
+int Field_3_4_1_46722_029?
+int Field_3_4_1_46722_030?
+int Field_3_4_1_46722_031?
+int Field_3_4_1_46722_032?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -149,6 +182,43 @@ Bonus_reputation_amount<u16>
 MentorItemLevel<u16>
 MentorCharLevel<u8>
 Flags<32>[2]
+
+LAYOUT 42F904E6
+BUILD 3.4.1.46722
+$noninline,id$ID<32>
+Field_3_4_1_46722_000_lang
+Field_3_4_1_46722_001_lang
+Field_3_4_1_46722_002<u8>
+Field_3_4_1_46722_003<u16>
+Field_3_4_1_46722_004<u8>
+Field_3_4_1_46722_005<u8>
+Field_3_4_1_46722_006<8>
+Field_3_4_1_46722_007<32>
+Field_3_4_1_46722_008<32>
+Field_3_4_1_46722_009<32>
+Field_3_4_1_46722_010<u8>
+Field_3_4_1_46722_011<16>
+Field_3_4_1_46722_012<u8>
+Field_3_4_1_46722_013
+Field_3_4_1_46722_014<u8>
+Field_3_4_1_46722_015<u8>
+Field_3_4_1_46722_016<u32>
+Field_3_4_1_46722_017<u8>
+Field_3_4_1_46722_018<u8>
+Field_3_4_1_46722_019<u16>
+Field_3_4_1_46722_020<u16>
+Field_3_4_1_46722_021<u16>
+Field_3_4_1_46722_022<u16>
+Field_3_4_1_46722_023<u8>
+Field_3_4_1_46722_024<u8>
+Field_3_4_1_46722_025<u8>
+Field_3_4_1_46722_026<u8>
+Field_3_4_1_46722_027<u8>
+Field_3_4_1_46722_028<u8>
+Field_3_4_1_46722_029<u16>
+Field_3_4_1_46722_030<u16>
+Field_3_4_1_46722_031<u8>
+Field_3_4_1_46722_032<32>[2]
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13623

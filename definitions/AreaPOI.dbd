@@ -23,6 +23,23 @@ int<UiTextureKit::ID> UiTextureKitID
 int Field_9_1_0_38783_011?
 int Field_9_1_0_38783_017?
 int Field_10_0_0_45141_012?
+locstring Field_3_4_1_46722_000_lang?
+locstring Field_3_4_1_46722_001_lang?
+int Field_3_4_1_46722_002?
+float Field_3_4_1_46722_003?
+int Field_3_4_1_46722_004?
+int Field_3_4_1_46722_005?
+int Field_3_4_1_46722_006?
+int Field_3_4_1_46722_007?
+int Field_3_4_1_46722_008?
+int Field_3_4_1_46722_009?
+int Field_3_4_1_46722_010?
+int Field_3_4_1_46722_011?
+int Field_3_4_1_46722_012?
+int Field_3_4_1_46722_013?
+int Field_3_4_1_46722_014?
+int Field_3_4_1_46722_015?
+int Field_3_4_1_46722_016?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -122,6 +139,26 @@ WorldStateID<u16>
 UiWidgetSetID<u16>
 Importance<u8>
 Icon<u8>
+
+LAYOUT D6365704
+BUILD 3.4.1.46722
+Field_3_4_1_46722_000_lang
+Field_3_4_1_46722_001_lang
+$id$Field_3_4_1_46722_002<32>
+Field_3_4_1_46722_003[3]
+Field_3_4_1_46722_004<32>
+Field_3_4_1_46722_005<u32>
+Field_3_4_1_46722_006<u32>
+Field_3_4_1_46722_007<u32>
+Field_3_4_1_46722_008<32>
+Field_3_4_1_46722_009<32>
+Field_3_4_1_46722_010<32>
+$relation$Field_3_4_1_46722_011<u16>
+Field_3_4_1_46722_012<16>
+Field_3_4_1_46722_013<u16>
+Field_3_4_1_46722_014<u16>
+Field_3_4_1_46722_015<u8>
+Field_3_4_1_46722_016<u8>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.11927
