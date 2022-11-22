@@ -1,12 +1,3 @@
-local productToExe = {
-  wow = 'wow',
-  wowt = 'wowt',
-  wow_beta = 'wowb',
-  wow_classic = 'wowclassic',
-  wow_classic_era = 'wowclassic',
-  wow_classic_ptr = 'wowclassict',
-  wow_classic_era_ptr = 'wowclassict',
-}
 local args = (function()
   local parser = require('argparse')()
   parser:argument('product', 'product to fetch')
@@ -34,5 +25,27 @@ local handle = (function()
   end
   return handle
 end)()
-local content = handle:readFile(productToExe[args.product] .. '.exe')
+local exesToTry = {
+  'Wow.exe',
+  'WowT.exe',
+  'WowB.exe',
+  'WowClassic.exe',
+  'WowClassicT.exe',
+  'WowClassicB.exe',
+  'Wow-64.exe',
+  'WowT-64.exe',
+  'WowB-64.exe',
+}
+local content = (function()
+  for _, exe in ipairs(exesToTry) do
+    local content = handle:readFile(exe)
+    if content then
+      if args.verbose then
+        print('fetching ' .. exe)
+      end
+      return content
+    end
+  end
+  error('could not find executable')
+end)()
 require('pl.file').write(args.product .. '.exe', content)
