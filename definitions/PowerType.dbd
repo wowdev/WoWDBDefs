@@ -12,18 +12,6 @@ int PowerTypeEnum
 float RegenCombat
 int RegenInterruptTimeMS
 float RegenPeace
-string Field_3_4_1_46722_000?
-string Field_3_4_1_46722_001?
-int Field_3_4_1_46722_002?
-int Field_3_4_1_46722_003?
-int Field_3_4_1_46722_004?
-int Field_3_4_1_46722_005?
-int Field_3_4_1_46722_006?
-int Field_3_4_1_46722_007?
-int Field_3_4_1_46722_008?
-float Field_3_4_1_46722_009?
-float Field_3_4_1_46722_010?
-int Field_3_4_1_46722_011?
 
 LAYOUT C55B6F11
 BUILD 1.13.0.28211
@@ -119,18 +107,18 @@ Flags<16>
 LAYOUT A1F55F15
 BUILD 3.4.1.46722
 $noninline,id$ID<32>
-Field_3_4_1_46722_000
-Field_3_4_1_46722_001
-Field_3_4_1_46722_002<8>
-Field_3_4_1_46722_003<32>
-Field_3_4_1_46722_004<32>
-Field_3_4_1_46722_005<32>
-Field_3_4_1_46722_006<32>
-Field_3_4_1_46722_007<32>
-Field_3_4_1_46722_008<32>
-Field_3_4_1_46722_009
-Field_3_4_1_46722_010
-Field_3_4_1_46722_011<16>
+NameGlobalStringTag
+CostGlobalStringTag
+PowerTypeEnum<8>
+MinPower<32>
+MaxBasePower<32>
+CenterPower<32>
+DefaultPower<32>
+DisplayModifier<32>
+RegenInterruptTimeMS<32>
+RegenPeace
+RegenCombat
+Flags<16>
 
 LAYOUT 0C3844E1, DAE0AE89
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
