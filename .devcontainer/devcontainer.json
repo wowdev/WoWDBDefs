@@ -9,8 +9,11 @@
 		"DOTNET_SKIP_FIRST_TIME_EXPERIENCE": "1"
 	},
 	"features": {
-		"github-cli": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {}
 	},
 	"name": "wowdev/wowdbdefs",
-	"postCreateCommand": "pre-commit install --install-hooks"
+	"postCreateCommand": "pre-commit install --install-hooks",
+	"runArgs": [
+		"--platform=linux/amd64"
+	]
 }
