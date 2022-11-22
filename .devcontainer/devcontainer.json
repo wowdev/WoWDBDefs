@@ -1,19 +1,17 @@
 {
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
 	"containerEnv": {
 		"DOTNET_CLI_TELEMETRY_OPTOUT": "1",
 		"DOTNET_NOLOGO": "1",
-		"DOTNET_ROOT": "/opt/dotnet",
 		"DOTNET_SKIP_FIRST_TIME_EXPERIENCE": "1"
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/dotnet:1": {
+			"version": "7.0"
+		},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers-contrib/features/pre-commit:1": {}
 	},
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
 	"name": "wowdev/wowdbdefs",
-	"postCreateCommand": "pre-commit install --install-hooks",
-	"runArgs": [
-		"--platform=linux/amd64"
-	]
+	"postCreateCommand": "pre-commit install --install-hooks"
 }
