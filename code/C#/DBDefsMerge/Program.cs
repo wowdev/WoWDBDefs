@@ -1,8 +1,8 @@
-﻿using System;
+﻿using DBDefsLib;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using DBDefsLib;
 using static DBDefsLib.Structs;
 
 namespace DBDefsMerge
@@ -11,9 +11,16 @@ namespace DBDefsMerge
     {
         static void Main(string[] args)
         {
-            if(args.Length < 3)
+            if (args.Length < 3)
             {
-                Console.WriteLine("Usage: <firstdir> <seconddir> <outdir>");
+                Console.WriteLine("Usage for merging DBD folders from different versions: <firstdir> <seconddir> <outdir>");
+                Console.WriteLine("Usage for merging DBD manifest JSON files: <main manifest file.json> <file to merge in.json> <output file.json>");
+                Environment.Exit(1);
+            }
+
+            if (args[0].EndsWith(".json") && args[1].EndsWith(".json") && args[2].EndsWith(".json"))
+            {
+                MergeJSONManifests.Merge(args[0], args[1], args[2]);
                 Environment.Exit(1);
             }
 
@@ -46,7 +53,7 @@ namespace DBDefsMerge
                     var newDefinition = firstFile;
 
                     // Merge column definitions
-                    foreach(var columnDefinition2 in secondFile.columnDefinitions)
+                    foreach (var columnDefinition2 in secondFile.columnDefinitions)
                     {
                         var foundCol = false;
                         foreach (var columnDefinition1 in firstFile.columnDefinitions)
@@ -61,10 +68,13 @@ namespace DBDefsMerge
                                     Console.WriteLine("Types are different for (1)" + dbName + "::" + columnDefinition1.Key + " = " + columnDefinition1.Value.type + " and (2)" + dbName + "::" + columnDefinition2.Key + " = " + columnDefinition2.Value.type + ", using type " + columnDefinition2.Value.type + " from 2");
 
                                     // If this is an uncommon conversion (not uint -> int or vice versa) throw an error
-                                    if ((columnDefinition1.Value.type == "uint" && columnDefinition2.Value.type == "int") || (columnDefinition1.Value.type == "int" && columnDefinition2.Value.type == "uint")) {
+                                    if ((columnDefinition1.Value.type == "uint" && columnDefinition2.Value.type == "int") || (columnDefinition1.Value.type == "int" && columnDefinition2.Value.type == "uint"))
+                                    {
                                         Console.ForegroundColor = ConsoleColor.Yellow;
                                         Console.WriteLine("Type difference for column (1)" + dbName + "::" + columnDefinition1.Key + " = " + columnDefinition1.Value.type + " and(2)" + dbName + "::" + columnDefinition2.Key + " = " + columnDefinition2.Value.type + ", ignoring..");
-                                    } else {
+                                    }
+                                    else
+                                    {
                                         throw new Exception("bad type difference, refusing to handle");
                                     }
 
@@ -73,15 +83,15 @@ namespace DBDefsMerge
 
                                 if (columnDefinition2.Key != columnDefinition1.Key)
                                 {
-                                    if(Utils.NormalizeColumn(columnDefinition2.Key, true) == columnDefinition1.Key)
+                                    if (Utils.NormalizeColumn(columnDefinition2.Key, true) == columnDefinition1.Key)
                                     {
                                         Console.ForegroundColor = ConsoleColor.Green;
                                         Console.WriteLine("Automagically fixed casing issue between (1)" + dbName + "::" + columnDefinition1.Key + " and (2)" + dbName + "::" + columnDefinition2.Key);
-                                        for(var i = 0; i < secondFile.versionDefinitions.Length; i++)
+                                        for (var i = 0; i < secondFile.versionDefinitions.Length; i++)
                                         {
                                             for (var j = 0; j < secondFile.versionDefinitions[i].definitions.Length; j++)
                                             {
-                                                if(secondFile.versionDefinitions[i].definitions[j].name == columnDefinition2.Key)
+                                                if (secondFile.versionDefinitions[i].definitions[j].name == columnDefinition2.Key)
                                                 {
                                                     secondFile.versionDefinitions[i].definitions[j].name = Utils.NormalizeColumn(columnDefinition2.Key, true);
                                                     break;
@@ -109,7 +119,7 @@ namespace DBDefsMerge
                                 }
 
                                 // Merge comments
-                                if(columnDefinition2.Value.comment != columnDefinition1.Value.comment)
+                                if (columnDefinition2.Value.comment != columnDefinition1.Value.comment)
                                 {
                                     for (var i = 0; i < secondFile.versionDefinitions.Length; i++)
                                     {
@@ -139,7 +149,7 @@ namespace DBDefsMerge
                                 }
 
                                 // Merge foreignTable/foreignKey
-                                if(columnDefinition2.Value.foreignTable != columnDefinition1.Value.foreignTable || columnDefinition2.Value.foreignColumn != columnDefinition1.Value.foreignColumn)
+                                if (columnDefinition2.Value.foreignTable != columnDefinition1.Value.foreignTable || columnDefinition2.Value.foreignColumn != columnDefinition1.Value.foreignColumn)
                                 {
                                     for (var i = 0; i < secondFile.versionDefinitions.Length; i++)
                                     {
@@ -182,12 +192,12 @@ namespace DBDefsMerge
                     }
 
                     // Merge version definitions
-                    foreach(var versionDefinition2 in secondFile.versionDefinitions)
+                    foreach (var versionDefinition2 in secondFile.versionDefinitions)
                     {
                         var foundVersion = false;
-                        foreach(var versionDefinition1 in firstFile.versionDefinitions)
+                        foreach (var versionDefinition1 in firstFile.versionDefinitions)
                         {
-                            foreach(var layoutHash2 in versionDefinition2.layoutHashes)
+                            foreach (var layoutHash2 in versionDefinition2.layoutHashes)
                             {
                                 if (versionDefinition1.layoutHashes.Contains(layoutHash2))
                                 {
@@ -203,9 +213,9 @@ namespace DBDefsMerge
                             }
 
                             // Check builds
-                            foreach(var build2 in versionDefinition2.builds)
+                            foreach (var build2 in versionDefinition2.builds)
                             {
-                                foreach(var build1 in versionDefinition1.builds)
+                                foreach (var build1 in versionDefinition1.builds)
                                 {
                                     if (build1.Equals(build2))
                                     {
@@ -244,7 +254,7 @@ namespace DBDefsMerge
                             var mergedWithPreviousBuild = false;
                             var newVersions = newDefinition.versionDefinitions.ToList();
 
-                            for(var i = 0; i < newVersions.Count; i++)
+                            for (var i = 0; i < newVersions.Count; i++)
                             {
                                 if (newVersions[i].definitions.SequenceEqual(versionDefinition2.definitions))
                                 {
@@ -351,7 +361,7 @@ namespace DBDefsMerge
                 }
             }
 
-            foreach(var file in firstDirFiles)
+            foreach (var file in firstDirFiles)
             {
                 if (!secondDirFilesLC.Contains(file.ToLower()))
                 {
@@ -420,11 +430,11 @@ namespace DBDefsMerge
                 foreach (var columnDefinition in columnDefinitionsCopy)
                 {
                     var columnUsed = false;
-                    foreach(var versionDefinition in definitionCopy.versionDefinitions)
+                    foreach (var versionDefinition in definitionCopy.versionDefinitions)
                     {
-                        foreach(var definition in versionDefinition.definitions)
+                        foreach (var definition in versionDefinition.definitions)
                         {
-                            if(definition.name == columnDefinition.Key)
+                            if (definition.name == columnDefinition.Key)
                             {
                                 columnUsed = true;
                             }

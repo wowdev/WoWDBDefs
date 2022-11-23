@@ -5,6 +5,8 @@ using System.IO.MemoryMappedFiles;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace DBDefsDumper
 {
@@ -42,7 +44,7 @@ namespace DBDefsDumper
                 if (args.Length >= 3)
                 {
                     build = args[2];
-                    if(args.Length >= 4)
+                    if (args.Length >= 4)
                     {
                         patternOverride = args[3];
                     }
@@ -147,7 +149,7 @@ namespace DBDefsDumper
                             bin.BaseStream.Position = matchPos;
                             bin.ReadBytes(14);
                             build = new string(bin.ReadChars(5));
-                            if(args.Length == 3)
+                            if (args.Length == 3)
                             {
                                 build = args[2];
                             }
@@ -182,10 +184,11 @@ namespace DBDefsDumper
                 var metas = new Dictionary<string, DBMeta>();
 
                 var patternBuilder = new PatternBuilder();
+                Pattern usedPattern = null;
 
-                foreach(var pattern in patternBuilder.patterns)
+                foreach (var pattern in patternBuilder.patterns)
                 {
-                    if(patternOverride == "")
+                    if (patternOverride == "")
                     {
                         // Skip versions of the pattern that aren't for this expansion
                         if (build.StartsWith("1"))
@@ -247,6 +250,7 @@ namespace DBDefsDumper
                             continue;
                     }
 
+                    usedPattern = pattern;
                     var patternBytes = ParsePattern(pattern.cur_pattern).ToArray();
                     var patternLength = patternBytes.Length;
 
@@ -338,7 +342,7 @@ namespace DBDefsDumper
                                 var fieldTypesInFile = bin.ReadInt64();
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.FIELD_SIZES_IN_FILE];
                                 var fieldSizesInFileOffs = bin.ReadInt64();
-                                if(fieldTypesInFile == fieldSizesInFileOffs)
+                                if (fieldTypesInFile == fieldSizesInFileOffs)
                                 {
                                     Console.WriteLine("Field types in file offset == field sizes in file offset, skipping match..");
                                     continue;
@@ -367,16 +371,38 @@ namespace DBDefsDumper
                             {
                                 bin.BaseStream.Position = (long)translate((ulong)meta.nameOffset);
                                 var filename = bin.ReadCString();
-                                if(filename.Contains("DBFilesClient"))
+                                if (filename.Contains("DBFilesClient"))
                                 {
                                     filename = filename.Substring(filename.IndexOf("\\") + 1);
                                 }
 
+                                // Check TableHash 
+                                if (pattern.offsets.ContainsKey(Name.TABLE_HASH))
+                                {
+                                    if (MakeTableHash(Path.GetFileNameWithoutExtension(filename)) != meta.table_hash)
+                                    {
+                                        Console.WriteLine("TableHash mismatch, skipping match..");
+                                        continue;
+                                    }
+                                }
+
                                 metas.TryAdd(Path.GetFileNameWithoutExtension(filename), meta);
-                            }else if (pattern.offsets.ContainsKey(Name.DB_FILENAME))
+                            }
+                            else if (pattern.offsets.ContainsKey(Name.DB_FILENAME))
                             {
                                 bin.BaseStream.Position = (long)translate((ulong)meta.dbFilenameOffs);
                                 var name = bin.ReadCString();
+
+                                // Check TableHash 
+                                if (pattern.offsets.ContainsKey(Name.TABLE_HASH))
+                                {
+                                    if (MakeTableHash(Path.GetFileNameWithoutExtension(name)) != meta.table_hash)
+                                    {
+                                        Console.WriteLine("TableHash mismatch, skipping match..");
+                                        continue;
+                                    }
+                                }
+
                                 metas.TryAdd(Path.GetFileNameWithoutExtension(name), meta);
                             }
 
@@ -399,11 +425,11 @@ namespace DBDefsDumper
                 }
 
                 // Process DBMetas
-                foreach(var meta in metas)
+                foreach (var meta in metas)
                 {
-                    if((long)translate((ulong)meta.Value.field_offsets_offs) > bin.BaseStream.Length)
+                    if ((long)translate((ulong)meta.Value.field_offsets_offs) > bin.BaseStream.Length)
                     {
-                        Console.WriteLine("Skipping reading of " + meta.Key + " because field offset (" + (long)translate((ulong)meta.Value.field_offsets_offs)  + ") is outside of file range (" + bin.BaseStream.Length + ")!");
+                        Console.WriteLine("Skipping reading of " + meta.Key + " because field offset (" + (long)translate((ulong)meta.Value.field_offsets_offs) + ") is outside of file range (" + bin.BaseStream.Length + ")!");
                         continue;
                     }
 
@@ -414,7 +440,7 @@ namespace DBDefsDumper
                     Console.Write("Writing " + meta.Key + ".dbd..");
 
                     var fieldCount = 0;
-                    if(meta.Value.num_fields == 0 && meta.Value.num_fields_in_file != 0)
+                    if (meta.Value.num_fields == 0 && meta.Value.num_fields_in_file != 0)
                     {
                         fieldCount = meta.Value.num_fields_in_file;
                     }
@@ -430,7 +456,7 @@ namespace DBDefsDumper
                     var field_flags = new List<int>();
                     if ((build.StartsWith("7.3.0.") || build.StartsWith("7.3.2.")) && (long)translate((ulong)meta.Value.field_flags_offs) > bin.BaseStream.Length)
                     {
-                        for(var fc = 0; fc < fieldCount; fc++)
+                        for (var fc = 0; fc < fieldCount; fc++)
                         {
                             field_flags.Add(0);
                         }
@@ -452,7 +478,7 @@ namespace DBDefsDumper
                     var columnNames = new List<string>();
                     var columnTypeFlags = new List<Tuple<int, int>>();
 
-                    for(var i = 0; i < meta.Value.num_fields_in_file; i++)
+                    for (var i = 0; i < meta.Value.num_fields_in_file; i++)
                     {
                         if (field_flags_in_file.Count == 0)
                         {
@@ -466,7 +492,7 @@ namespace DBDefsDumper
 
                     if (meta.Value.num_fields != 0 && (meta.Value.num_fields_in_file != meta.Value.num_fields))
                     {
-                        if(meta.Value.num_fields_in_file > field_flags.Count())
+                        if (meta.Value.num_fields_in_file > field_flags.Count())
                         {
                             columnTypeFlags.Add(new Tuple<int, int>(field_types[meta.Value.num_fields_in_file], 0));
                         }
@@ -476,9 +502,9 @@ namespace DBDefsDumper
                         }
                     }
 
-                    for(var i = 0; i < columnTypeFlags.Count; i++)
+                    for (var i = 0; i < columnTypeFlags.Count; i++)
                     {
-                        if(field_names_in_file.Count > 0)
+                        if (field_names_in_file.Count > 0)
                         {
                             bin.BaseStream.Position = (long)translate(field_names_in_file[i]);
                             columnNames.Add(CleanRealName(bin.ReadCString()));
@@ -529,19 +555,19 @@ namespace DBDefsDumper
 
                     writer.WriteLine();
 
-                    if(meta.Value.layout_hash != 0)
+                    if (meta.Value.layout_hash != 0)
                     {
                         writer.WriteLine("LAYOUT " + meta.Value.layout_hash.ToString("X8").ToUpper());
                     }
 
                     writer.WriteLine("BUILD " + build);
 
-                    if(meta.Value.sparseTable == 1)
+                    if (meta.Value.sparseTable == 1)
                     {
                         writer.WriteLine("COMMENT table is sparse");
                     }
 
-                    if(meta.Value.id_column == -1)
+                    if (meta.Value.id_column == -1)
                     {
                         writer.WriteLine("$noninline,id$ID<32>");
                     }
@@ -550,7 +576,7 @@ namespace DBDefsDumper
                     {
                         var typeFlags = ("int", 32);
 
-                        if(field_flags_in_file.Count == 0)
+                        if (field_flags_in_file.Count == 0)
                         {
                             typeFlags = TypeToT(field_types_in_file[i], 0);
                         }
@@ -578,14 +604,14 @@ namespace DBDefsDumper
 
                         writer.Write(columnNames[i]);
 
-                        if(typeFlags.Item1 == "locstring")
+                        if (typeFlags.Item1 == "locstring")
                         {
                             writer.Write("_lang");
                         }
 
-                        if(typeFlags.Item2 > 0)
+                        if (typeFlags.Item2 > 0)
                         {
-                            if(typeFlags.Item1 == "uint")
+                            if (typeFlags.Item1 == "uint")
                             {
                                 writer.Write("<u" + typeFlags.Item2 + ">");
                             }
@@ -595,14 +621,14 @@ namespace DBDefsDumper
                             }
                         }
 
-                        if(field_sizes_in_file[i] != 1)
+                        if (field_sizes_in_file[i] != 1)
                         {
                             // 6.0.1 has sizes in bytes
                             if (build.StartsWith("6."))
                             {
                                 var supposedSize = 0;
 
-                                if((typeFlags.Item1 == "uint" || typeFlags.Item1 == "int") && typeFlags.Item2 != 32)
+                                if ((typeFlags.Item1 == "uint" || typeFlags.Item1 == "int") && typeFlags.Item2 != 32)
                                 {
                                     supposedSize = typeFlags.Item2 / 8;
                                 }
@@ -612,7 +638,7 @@ namespace DBDefsDumper
                                 }
 
                                 var fixedSize = field_sizes_in_file[i] / supposedSize;
-                                if(fixedSize > 1)
+                                if (fixedSize > 1)
                                 {
                                     writer.Write("[" + fixedSize + "]");
                                 }
@@ -644,7 +670,7 @@ namespace DBDefsDumper
                             {
                                 writer.Write("<u" + typeFlags.Item2 + ">");
                             }
-                            else if(typeFlags.Item1 == "int")
+                            else if (typeFlags.Item1 == "int")
                             {
                                 writer.Write("<" + typeFlags.Item2 + ">");
                             }
@@ -661,16 +687,82 @@ namespace DBDefsDumper
 
                     Console.Write("..done!\n");
                 }
+
+                if (usedPattern != null)
+                {
+                    Console.Write("Writing manifest..");
+                    var entries = new List<ManifestEntry>();
+                    foreach (var meta in metas)
+                    {
+                        var entry = new ManifestEntry();
+                        entry.tableName = meta.Key;
+
+                        if (usedPattern.offsets.ContainsKey(Name.TABLE_HASH))
+                        {
+                            entry.tableHash = meta.Value.table_hash.ToString("X8").ToUpper();
+                        }
+                        else
+                        {
+                            entry.tableHash = MakeTableHash(entry.tableName).ToString("X8").ToUpper();
+                        }
+
+                        if (usedPattern.offsets.ContainsKey(Name.FDID))
+                        {
+                            entry.db2FileDataID = meta.Value.fileDataID;
+                        }
+
+                        entries.Add(entry);
+                    }
+
+                    File.WriteAllText(build + ".json", JsonSerializer.Serialize(entries.OrderBy(x => x.tableName).ToArray(), new JsonSerializerOptions() { WriteIndented = true }));
+                    Console.Write("..done!\n");
+                }
             }
 
             Environment.Exit(0);
+        }
+
+        public static uint MakeTableHash(string tableName)
+        {
+            tableName = tableName.ToUpper();
+
+            uint[] s_hashtable = new uint[] {
+                0x486E26EE, 0xDCAA16B3, 0xE1918EEF, 0x202DAFDB,
+                0x341C7DC7, 0x1C365303, 0x40EF2D37, 0x65FD5E49,
+                0xD6057177, 0x904ECE93, 0x1C38024F, 0x98FD323B,
+                0xE3061AE7, 0xA39B0FA1, 0x9797F25F, 0xE4444563,
+            };
+
+            uint v = 0x7fed7fed;
+            uint x = 0xeeeeeeee;
+            for (int i = 0; i < tableName.Length; i++)
+            {
+                byte c = (byte)tableName[i];
+                v += x;
+                v ^= s_hashtable[(c >> 4) & 0xf] - s_hashtable[c & 0xf];
+                x = x * 33 + v + c + 3;
+            }
+
+            return v;
+        }
+
+        public struct ManifestEntry
+        {
+            public string tableName { get; set; }
+            public string tableHash { get; set; }
+
+            [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
+            public int dbcFileDataID { get; set; }
+
+            [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
+            public int db2FileDataID { get; set; }
         }
 
         private static List<int> ReadFieldArray(BinaryReader bin, int fieldCount, long offset)
         {
             var returnList = new List<int>();
 
-            if(offset != 0)
+            if (offset != 0)
             {
                 bin.BaseStream.Position = offset;
                 for (var i = 0; i < fieldCount; i++)
@@ -721,7 +813,7 @@ namespace DBDefsDumper
             var matchPos = bin.BaseStream.Position;
 
             var meta = new DBMeta();
-            foreach(var offset in pattern.offsets)
+            foreach (var offset in pattern.offsets)
             {
                 bin.BaseStream.Position = matchPos + offset.Value;
                 switch (offset.Key)
