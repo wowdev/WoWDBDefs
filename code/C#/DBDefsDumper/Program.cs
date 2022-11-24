@@ -377,6 +377,7 @@ namespace DBDefsDumper
                                 }
 
                                 // Check TableHash 
+                                /*
                                 if (pattern.offsets.ContainsKey(Name.TABLE_HASH))
                                 {
                                     if (MakeTableHash(Path.GetFileNameWithoutExtension(filename)) != meta.table_hash)
@@ -385,6 +386,7 @@ namespace DBDefsDumper
                                         continue;
                                     }
                                 }
+                                */
 
                                 metas.TryAdd(Path.GetFileNameWithoutExtension(filename), meta);
                             }
@@ -394,6 +396,7 @@ namespace DBDefsDumper
                                 var name = bin.ReadCString();
 
                                 // Check TableHash 
+                                /*
                                 if (pattern.offsets.ContainsKey(Name.TABLE_HASH))
                                 {
                                     if (MakeTableHash(Path.GetFileNameWithoutExtension(name)) != meta.table_hash)
@@ -402,6 +405,7 @@ namespace DBDefsDumper
                                         continue;
                                     }
                                 }
+                                */
 
                                 metas.TryAdd(Path.GetFileNameWithoutExtension(name), meta);
                             }
