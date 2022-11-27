@@ -3,7 +3,7 @@ int ID
 int<ChrModel::ID> ChrModelID
 int<ChrRaces::ID> ChrRacesID
 int Sex? // 0: Male, 1: Female
-int Field_10_0_0_45570_003?
+int AllowedTransmogSlots?
 
 LAYOUT 07C5BAE4
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615
@@ -55,4 +55,4 @@ $noninline,id$ID<32>
 $relation$ChrRacesID<32>
 ChrModelID<32>
 Sex<32>
-Field_10_0_0_45570_003<32>
+AllowedTransmogSlots<32>

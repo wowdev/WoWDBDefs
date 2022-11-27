@@ -2,8 +2,8 @@ COLUMNS
 int ID?
 int CondType? // 0: Available, 1: Visible, 2: Granted, 3: Increased
 int<TraitTree::ID> TraitTreeID?
-int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
+int GrantedRanks?
+int QuestID?
 int<Achievement::ID> AchievementID?
 int<SpecSetMember::SpecSet> SpecSetID?
 int<TraitNodeGroup::ID> TraitNodeGroupID?
@@ -22,8 +22,8 @@ BUILD 3.4.1.46722
 $id$ID<32>
 CondType<32>
 $relation$TraitTreeID<32>
-Field_10_0_0_44649_003<32>
-Field_10_0_0_44649_004<32>
+GrantedRanks<32>
+QuestID<32>
 AchievementID<32>
 SpecSetID<32>
 TraitNodeGroupID<32>

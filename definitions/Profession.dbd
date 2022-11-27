@@ -11,7 +11,7 @@ float CraftingDataField_10_0_0_44649_009?
 float CraftingDataField_10_0_0_45141_011? // might be Field_10_0_0_44649_004
 int Field_10_0_0_45335_008?
 float Field_10_0_2_45480_009?
-int Field_10_0_2_46091_010?
+int<CurrencyTypes::ID> PublicOrderCapacityCurrencyID?
 
 LAYOUT 27AB2810
 BUILD 10.0.0.44649, 10.0.0.44707
@@ -87,7 +87,7 @@ Field_10_0_0_44649_005
 RecraftSpellID<32>
 Field_10_0_0_45335_008<32>
 Field_10_0_2_45480_009
-Field_10_0_2_46091_010<32>
+PublicOrderCapacityCurrencyID<32>
 
 LAYOUT 2E97F732
 BUILD 10.0.2.46259, 10.0.2.46420, 10.0.2.46456, 10.0.2.46479, 10.0.2.46619, 10.0.2.46658, 10.0.2.46689, 10.0.2.46702, 10.0.2.46741, 10.0.2.46781, 10.0.2.46801
@@ -102,4 +102,4 @@ Field_10_0_0_44649_005
 RecraftSpellID<32>
 Field_10_0_0_45335_008<32>
 Field_10_0_2_45480_009
-Field_10_0_2_46091_010<32>
+PublicOrderCapacityCurrencyID<32>

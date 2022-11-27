@@ -10,10 +10,10 @@ int ExcludeTargetAuraState
 int<Spell::ID> SpellID
 int TargetAuraSpell
 int TargetAuraState
-int Field_10_0_2_45779_009?
-int Field_10_0_2_45779_010?
-int Field_10_0_2_45779_011?
-int Field_10_0_2_45779_012?
+int CasterAuraType?
+int TargetAuraType?
+int ExcludeCasterAuraType?
+int ExcludeTargetAuraType?
 
 BUILD 6.0.1.18125-6.0.1.18156
 BUILD 5.0.1.15589-5.4.8.18414
@@ -160,8 +160,8 @@ CasterAuraSpell<32>
 TargetAuraSpell<32>
 ExcludeCasterAuraSpell<32>
 ExcludeTargetAuraSpell<32>
-Field_10_0_2_45779_009<32>
-Field_10_0_2_45779_010<32>
-Field_10_0_2_45779_011<32>
-Field_10_0_2_45779_012<32>
+CasterAuraType<32>
+TargetAuraType<32>
+ExcludeCasterAuraType<32>
+ExcludeTargetAuraType<32>
 $noninline,relation$SpellID<32>

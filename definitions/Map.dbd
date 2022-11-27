@@ -53,7 +53,7 @@ locstring Field_2_0_0_5610_020_lang?
 int Field_1_5_0_4442_014?
 int Field_3_0_2_9056_021?
 int Field_1_7_0_4671_015?
-int Field_10_0_0_44649_022? // default/if <= 0: 999, something in UI?
+int NavigationMaxDistance? // default/if <= 0: 999, max ingame navigation pin distance
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
@@ -1043,5 +1043,5 @@ MaxPlayers<u8>
 WindSettingsID<16>
 ZmpFileDataID<32>
 WdtFileDataID<32>
-Field_10_0_0_44649_022<32>
+NavigationMaxDistance<32>
 Flags<32>[3]

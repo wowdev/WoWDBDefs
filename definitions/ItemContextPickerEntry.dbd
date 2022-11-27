@@ -6,7 +6,7 @@ int ItemCreationContext
 int OrderIndex
 int PVal
 int<PlayerCondition::ID> PlayerConditionID
-int Field_10_0_0_44707_003?
+int LabelID?
 
 LAYOUT EEF82C36
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492
@@ -97,7 +97,7 @@ $noninline,id$ID<32>
 ItemCreationContext<u8>
 OrderIndex<u8>
 PVal<32>
-Field_10_0_0_44707_003<32>
+LabelID<32>
 Flags<u32>
 PlayerConditionID<u32>
 $noninline,relation$ItemContextPickerID<32>
