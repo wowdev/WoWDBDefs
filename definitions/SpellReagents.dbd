@@ -6,7 +6,7 @@ int ReagentCount
 int<CurrencyTypes::ID> CurrencyID // Moved to SpellReagentsCurrency.
 int CurrencyCount
 int ReagentReCraftCount
-int Field_10_0_2_46091_004?
+int ReagentSource? // CraftingOrderReagentSource
 
 BUILD 5.0.1.15464
 BUILD 4.0.0.12232-4.3.4.15595
@@ -86,4 +86,4 @@ SpellID<32>
 Reagent<32>[8]
 ReagentCount<16>[8]
 ReagentReCraftCount<16>[8]
-Field_10_0_2_46091_004<u8>[8]
+ReagentSource<u8>[8]

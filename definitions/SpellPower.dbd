@@ -15,7 +15,7 @@ int<PowerType::PowerTypeEnum> PowerType
 int<Spell::ID> RequiredAuraSpellID
 int<Spell::ID> SpellID
 int PowerCost? // original implementation of PowerCostPct
-float Field_10_0_2_45969_009?
+float OptionalCostPct?
 
 BUILD 4.0.0.12232-4.0.0.12539
 $id$ID<32>
@@ -221,7 +221,7 @@ PowerDisplayID<u32>
 AltPowerBarID<32>
 PowerCostPct
 PowerCostMaxPct
-Field_10_0_2_45969_009
+OptionalCostPct
 PowerPctPerSecond
 PowerType<8>
 RequiredAuraSpellID<32>

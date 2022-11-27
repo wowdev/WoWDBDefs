@@ -5,7 +5,7 @@ int<SoundEntries::ID> SoundID
 float Origin
 float OriginFacing
 int<FileData::ID> FileDataID
-int Field_9_1_5_40383_004?
+int ConversationID?
 
 LAYOUT 744B99BC
 BUILD 3.4.1.46722
@@ -86,7 +86,7 @@ Origin[3]
 SoundID<u32>
 OriginFacing
 FileDataID<u32>
-Field_9_1_5_40383_004<32>
+ConversationID<32>
 
 LAYOUT 3920D07C
 BUILD 9.2.7.44444, 9.2.7.44767, 9.2.7.44931, 9.2.7.44981, 9.2.7.45114, 9.2.7.45161, 9.2.7.45338, 9.2.7.45745
@@ -96,7 +96,7 @@ Origin[3]
 SoundID<u32>
 OriginFacing
 FileDataID<u32>
-Field_9_1_5_40383_004<32>
+ConversationID<32>
 
 LAYOUT 4B3DF171
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969, 10.0.2.46091, 10.0.2.46092, 10.0.2.46144, 10.0.2.46157, 10.0.2.46259, 10.0.2.46420, 10.0.2.46456, 10.0.2.46479, 10.0.2.46619, 10.0.2.46658, 10.0.2.46689, 10.0.2.46702, 10.0.2.46741, 10.0.2.46781, 10.0.2.46801
@@ -106,4 +106,4 @@ Origin[3]
 SoundID<u32>
 OriginFacing
 FileDataID<u32>
-Field_9_1_5_40383_004<u32>
+ConversationID<u32>

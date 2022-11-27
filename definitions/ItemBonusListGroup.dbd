@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 int<Spell::ID> SequenceSpellID
-int PlayerConditionID?
-int Field_10_0_0_44999_002?
-int Field_10_0_0_44999_003?
+int<PlayerCondition::ID> PlayerConditionID?
+int<ItemExtendedCost::ID> ItemExtendedCostID?
+int<ItemLogicalCostGroup::ID> ItemLogicalCostGroupID?
 
 LAYOUT 25BF4C79
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524, 9.1.0.38549, 9.1.0.38600, 9.1.0.38627, 9.1.0.38709
@@ -36,5 +36,5 @@ BUILD 10.0.0.44999, 10.0.0.45141, 10.0.0.45232, 10.0.0.45335, 10.0.0.45454, 10.0
 $noninline,id$ID<32>
 SequenceSpellID<32>
 PlayerConditionID<32>
-Field_10_0_0_44999_002<32>
-Field_10_0_0_44999_003<32>
+ItemExtendedCostID<32>
+ItemLogicalCostGroupID<32>

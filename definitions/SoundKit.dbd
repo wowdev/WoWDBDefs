@@ -16,7 +16,7 @@ float VolumeFloat
 float VolumeVariationMinus
 float VolumeVariationPlus
 int Field_7_3_0_24473_008?
-int Field_10_0_2_45779_015?
+int SoundMixGroupID?
 int Field_3_4_1_46722_000?
 int Field_3_4_1_46722_001?
 float Field_3_4_1_46722_002?
@@ -305,4 +305,4 @@ DialogType<8>
 PitchAdjust
 BusOverwriteID<u16>
 MaxInstances<u8>
-Field_10_0_2_45779_015<u32>
+SoundMixGroupID<u32>

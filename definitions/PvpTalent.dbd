@@ -12,7 +12,7 @@ int<ChrClasses::ID> ClassID
 int Field_1_13_0_28211_005?
 int Field_1_13_0_28211_006?
 int Field_1_13_0_28211_010?
-int Field_10_0_2_46420_009?
+int<PlayerCondition::ID> PlayerConditionID?
 
 LAYOUT 13ABD6C8
 BUILD 3.4.1.46722
@@ -203,4 +203,4 @@ Flags<32>
 ActionBarSpellID<32>
 PvpTalentCategoryID<32>
 LevelRequired<32>
-Field_10_0_2_46420_009<32>
+PlayerConditionID<32>
