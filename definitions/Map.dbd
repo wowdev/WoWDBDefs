@@ -44,7 +44,6 @@ int Field_2_0_3_6299_024?
 int Field_2_0_3_6299_025?
 int Field_0_8_0_3734_004?
 int Field_0_8_0_3734_005?
-int Field_1_5_0_4442_006?
 int Field_0_7_0_3694_006?
 int Field_3_0_2_9056_013?
 locstring Field_2_0_0_5610_018_lang?
@@ -85,8 +84,8 @@ $id$ID<32>
 Directory
 PVP<32>
 MapName_lang
-Field_0_8_0_3734_004<32>
-Field_0_8_0_3734_005<32>
+MinLevel<32>
+MaxLevel<32>
 Field_0_7_0_3694_006<32>
 Field_0_7_0_3694_007
 Field_0_7_0_3694_008
@@ -116,9 +115,9 @@ $id$ID<32>
 Directory
 PVP<32>
 MapName_lang
-Field_0_8_0_3734_004<32>
-Field_0_8_0_3734_005<32>
-Field_1_5_0_4442_006<32>
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
 Field_0_7_0_3694_006<32>
 Field_0_7_0_3694_007
 Field_0_7_0_3694_008
@@ -133,9 +132,9 @@ $id$ID<32>
 Directory
 PVP<32>
 MapName_lang
-Field_0_8_0_3734_004<32>
-Field_0_8_0_3734_005<32>
-Field_1_5_0_4442_006<32>
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
 Field_0_7_0_3694_006<32>
 Field_0_7_0_3694_007
 Field_0_7_0_3694_008
@@ -204,9 +203,9 @@ Directory
 InstanceType<32>
 PVP<32>
 MapName_lang
-Field_0_8_0_3734_004<32>
-Field_0_8_0_3734_005<32>
-Field_1_5_0_4442_006<32>
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
 Field_0_7_0_3694_006<32>
 Field_0_7_0_3694_007
 Field_0_7_0_3694_008
@@ -227,9 +226,9 @@ $id$ID<32>
 Directory
 PVP<32>
 MapName_lang
-Field_0_8_0_3734_004<32>
-Field_0_8_0_3734_005<32>
-Field_1_5_0_4442_006<32>
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
 Field_0_7_0_3694_006<32>
 Field_0_7_0_3694_007
 Field_0_7_0_3694_008
@@ -247,9 +246,9 @@ Directory
 InstanceType<32>
 PVP<32>
 MapName_lang
-Field_0_8_0_3734_004<32>
-Field_0_8_0_3734_005<32>
-Field_1_5_0_4442_006<32>
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
 Field_0_7_0_3694_006<32>
 Field_0_7_0_3694_007
 Field_0_7_0_3694_008
@@ -272,9 +271,9 @@ Directory
 InstanceType<32>
 PVP<32>
 MapName_lang
-Field_0_8_0_3734_004<32>
-Field_0_8_0_3734_005<32>
-Field_1_5_0_4442_006<32>
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
 Field_0_7_0_3694_006<32>
 Field_0_7_0_3694_007
 Field_0_7_0_3694_008
@@ -381,9 +380,9 @@ Directory
 InstanceType<32>
 PVP<32>
 MapName_lang
-Field_0_8_0_3734_004<32>
-Field_0_8_0_3734_005<32>
-Field_1_5_0_4442_006<32>
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
 Field_0_7_0_3694_006<32>
 Field_0_7_0_3694_007
 Field_0_7_0_3694_008
@@ -411,9 +410,9 @@ Directory
 InstanceType<32>
 PVP<32>
 MapName_lang
-Field_0_8_0_3734_004<32>
-Field_0_8_0_3734_005<32>
-Field_1_5_0_4442_006<32>
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
 Field_0_7_0_3694_006<32>
 Field_0_7_0_3694_007
 Field_0_7_0_3694_008
@@ -442,9 +441,9 @@ Directory
 InstanceType<32>
 PVP<32>
 MapName_lang
-Field_0_8_0_3734_004<32>
-Field_0_8_0_3734_005<32>
-Field_1_5_0_4442_006<32>
+MinLevel<32>
+MaxLevel<32>
+MaxPlayers<32>
 AreaTableID<32>
 MapDescription0_lang
 MapDescription1_lang
