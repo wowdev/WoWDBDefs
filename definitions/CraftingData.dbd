@@ -5,15 +5,15 @@ int<CraftingDifficulty::ID> CraftingDifficultyID?
 int<Item::ID> CraftedItemID
 int CraftingDifficulty
 float Field_10_0_0_44649_005?
-float Field_10_0_0_44649_006?
-float Field_10_0_0_44649_007?
-float Field_10_0_0_44649_008?
+float CraftSkillBonusPercent? // if set, overrides CraftingDifficulty::CraftSkillBonusPercent
+float ReCraftSkillBonusPercent? // if set, overrides CraftingDifficulty::ReCraftSkillBonusPercent
+float InspirationSkillBonusPercent? // if set, overrides CraftingDifficulty::InspirationSkillBonusPercent
 float Field_10_0_0_44649_009?
-int Field_10_0_0_44649_010?
-int Field_10_0_0_44649_011?
+int<QuestV2::ID> FirstCraftFlagQuestID?
+int FirstCraftTreasureID?
 int<ItemBonusTree::ID> ItemBonusTreeID?
 float Field_10_0_0_45141_011?
-int Field_10_0_0_45335_014?
+int CraftedTreasureID?
 
 LAYOUT 1C6FDEE5
 BUILD 10.0.0.44649
@@ -23,12 +23,12 @@ CraftingDifficultyID<32>
 CraftedItemID<32>
 CraftingDifficulty<32>
 Field_10_0_0_44649_005
-Field_10_0_0_44649_006
-Field_10_0_0_44649_007
-Field_10_0_0_44649_008
+CraftSkillBonusPercent
+ReCraftSkillBonusPercent
+InspirationSkillBonusPercent
 Field_10_0_0_44649_009
-Field_10_0_0_44649_010<32>
-Field_10_0_0_44649_011<32>
+FirstCraftFlagQuestID<32>
+FirstCraftTreasureID<32>
 
 LAYOUT 2281AEBB
 BUILD 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999
@@ -39,12 +39,12 @@ CraftedItemID<32>
 ItemBonusTreeID<32>
 CraftingDifficulty<32>
 Field_10_0_0_44649_005
-Field_10_0_0_44649_006
-Field_10_0_0_44649_007
-Field_10_0_0_44649_008
+CraftSkillBonusPercent
+ReCraftSkillBonusPercent
+InspirationSkillBonusPercent
 Field_10_0_0_44649_009
-Field_10_0_0_44649_010<32>
-Field_10_0_0_44649_011<32>
+FirstCraftFlagQuestID<32>
+FirstCraftTreasureID<32>
 
 LAYOUT 86AAE580
 BUILD 10.0.0.45141, 10.0.0.45232
@@ -55,13 +55,13 @@ CraftedItemID<32>
 ItemBonusTreeID<32>
 CraftingDifficulty<32>
 Field_10_0_0_44649_005
-Field_10_0_0_44649_006
-Field_10_0_0_44649_007
-Field_10_0_0_44649_008
+CraftSkillBonusPercent
+ReCraftSkillBonusPercent
+InspirationSkillBonusPercent
 Field_10_0_0_44649_009
 Field_10_0_0_45141_011
-Field_10_0_0_44649_010<32>
-Field_10_0_0_44649_011<32>
+FirstCraftFlagQuestID<32>
+FirstCraftTreasureID<32>
 
 LAYOUT AC3DA43D
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969, 10.0.2.46091, 10.0.2.46092, 10.0.2.46144, 10.0.2.46157, 10.0.2.46259, 10.0.2.46420, 10.0.2.46456, 10.0.2.46479, 10.0.2.46619, 10.0.2.46658, 10.0.2.46689, 10.0.2.46702, 10.0.2.46741, 10.0.2.46781, 10.0.2.46801, 10.0.2.46802, 10.0.2.46879
@@ -73,11 +73,11 @@ CraftedItemID<32>
 ItemBonusTreeID<32>
 CraftingDifficulty<32>
 Field_10_0_0_44649_005
-Field_10_0_0_44649_006
-Field_10_0_0_44649_007
-Field_10_0_0_44649_008
+CraftSkillBonusPercent
+ReCraftSkillBonusPercent
+InspirationSkillBonusPercent
 Field_10_0_0_44649_009
 Field_10_0_0_45141_011
-Field_10_0_0_44649_010<32>
-Field_10_0_0_44649_011<32>
-Field_10_0_0_45335_014<32>
+FirstCraftFlagQuestID<32>
+FirstCraftTreasureID<32>
+CraftedTreasureID<32>
