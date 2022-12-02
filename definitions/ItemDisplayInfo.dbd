@@ -25,6 +25,22 @@ string GroundModel
 int ItemSize
 int HelmetGeosetVisID
 int ModelType?
+int Field_3_4_1_46917_000?
+int Field_3_4_1_46917_001?
+int Field_3_4_1_46917_002?
+int Field_3_4_1_46917_003?
+int Field_3_4_1_46917_004?
+int Field_3_4_1_46917_005?
+int Field_3_4_1_46917_006?
+int Field_3_4_1_46917_007?
+int Field_3_4_1_46917_008?
+int Field_3_4_1_46917_009?
+int Field_3_4_1_46917_010?
+int Field_3_4_1_46917_011?
+int Field_3_4_1_46917_012?
+int Field_3_4_1_46917_013?
+int Field_3_4_1_46917_014?
+int Field_3_4_1_46917_015?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -83,6 +99,26 @@ HelmetGeosetVisID<32>[2]
 Texture[8]
 ItemVisual<32>
 ParticleColorID<32>
+
+LAYOUT D922B51F
+BUILD 3.4.1.46917
+$noninline,id$ID<32>
+Field_3_4_1_46917_000<32>
+Field_3_4_1_46917_001<32>
+Field_3_4_1_46917_002<32>
+Field_3_4_1_46917_003<u32>
+Field_3_4_1_46917_004<u32>
+Field_3_4_1_46917_005<32>
+Field_3_4_1_46917_006<32>
+Field_3_4_1_46917_007<32>
+Field_3_4_1_46917_008<u32>
+Field_3_4_1_46917_009<32>
+Field_3_4_1_46917_010<u32>[2]
+Field_3_4_1_46917_011<32>[2]
+Field_3_4_1_46917_012<32>[2]
+Field_3_4_1_46917_013<32>[6]
+Field_3_4_1_46917_014<32>[6]
+Field_3_4_1_46917_015<32>[2]
 
 BUILD 4.0.0.11792
 BUILD 3.0.8.9328
