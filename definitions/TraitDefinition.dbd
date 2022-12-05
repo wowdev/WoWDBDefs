@@ -6,7 +6,7 @@ int ID
 int<Spell::ID> SpellID
 int<FileData::ID> OverrideIcon
 int<Spell::ID> OverridesSpellID?
-int Field_10_0_0_45232_007?
+int<Spell::ID> VisibleSpellID? // if set this is displayed in tooltips and all lua functions returning info about trait definition
 
 LAYOUT CF591203
 BUILD 10.0.0.44649, 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141
@@ -29,4 +29,4 @@ $id$ID<32>
 SpellID<32>
 OverrideIcon<32>
 OverridesSpellID<32>
-Field_10_0_0_45232_007<32>
+VisibleSpellID<32>

@@ -1,8 +1,8 @@
 COLUMNS
 string InternalName?
 int ID
-int Flags?
-int<TraitCurrency::ID> TraitCurrencyID? // only if Flags &1 ?
+int Multiplier? // When trait currency type is TraitSourced, this field is a multiplier for counting how many traits were spent
+int<TraitCurrency::ID> TraitCurrencyID?
 
 LAYOUT 3667090C
 BUILD 10.0.0.44649, 10.0.0.44707
@@ -15,5 +15,5 @@ BUILD 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141, 10.0.0.45232, 10.0
 BUILD 3.4.1.46722, 3.4.1.46917, 3.4.1.46973
 InternalName
 $id$ID<32>
-Flags<32>
+Multiplier<32>
 TraitCurrencyID<32>

@@ -2,8 +2,8 @@ COLUMNS
 locstring Requirement_lang?
 int ID?
 int<TraitCurrency::ID> TraitCurrencyID?
-int Field_10_0_0_44649_003?
-int Field_10_0_0_44649_004?
+int Amount?
+int<QuestV2::ID> QuestID?
 int<Achievement::ID> AchievementID?
 int PlayerLevel?
 int<TraitNodeEntry::ID> TraitNodeEntryID?
@@ -16,8 +16,8 @@ BUILD 3.4.1.46722, 3.4.1.46917, 3.4.1.46973
 Requirement_lang
 $id$ID<32>
 $relation$TraitCurrencyID<32>
-Field_10_0_0_44649_003<32>
-Field_10_0_0_44649_004<32>
+Amount<32>
+QuestID<32>
 AchievementID<32>
 PlayerLevel<32>
 TraitNodeEntryID<32>
