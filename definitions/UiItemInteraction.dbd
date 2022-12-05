@@ -17,24 +17,7 @@ int<SoundKit::ID> DropInSlotSoundKitID // has GO_8BL_CultistChest_Open_TitanMagi
 locstring Field_9_1_5_40196_004_lang?
 locstring ConfirmationQuestion_lang?
 int Field_10_0_2_46259_016?
-locstring Field_10_0_2_46479_000_lang?
-locstring Field_10_0_2_46479_001_lang?
-locstring Field_10_0_2_46479_002_lang?
-locstring Field_10_0_2_46479_003_lang?
-locstring Field_10_0_2_46479_004_lang?
-locstring Field_10_0_2_46479_005_lang?
 locstring Field_10_0_2_46479_006_lang?
-int Field_10_0_2_46479_007?
-int Field_10_0_2_46479_008?
-int Field_10_0_2_46479_009?
-int Field_10_0_2_46479_010?
-int Field_10_0_2_46479_011?
-int Field_10_0_2_46479_012?
-int Field_10_0_2_46479_013?
-int Field_10_0_2_46479_014?
-int Field_10_0_2_46479_015?
-int Field_10_0_2_46479_016?
-int Field_10_0_2_46479_017?
 
 LAYOUT 600AB900
 BUILD 8.3.0.32414, 8.3.0.32489, 8.3.0.32593, 8.3.0.32712
@@ -163,21 +146,21 @@ Field_10_0_2_46259_016<32>
 LAYOUT A6022569
 BUILD 10.0.2.46479, 10.0.2.46619, 10.0.2.46658, 10.0.2.46689, 10.0.2.46702, 10.0.2.46741, 10.0.2.46781, 10.0.2.46801, 10.0.2.46802, 10.0.2.46879, 10.0.2.46924
 $noninline,id$ID<32>
-Field_10_0_2_46479_000_lang
-Field_10_0_2_46479_001_lang
-Field_10_0_2_46479_002_lang
-Field_10_0_2_46479_003_lang
-Field_10_0_2_46479_004_lang
-Field_10_0_2_46479_005_lang
+TutorialText_lang
+TitleText_lang
+Description_lang
+ButtonText_lang
+Field_9_1_5_40196_004_lang
+ConfirmationQuestion_lang
 Field_10_0_2_46479_006_lang
-Field_10_0_2_46479_007<32>
-Field_10_0_2_46479_008<32>
-Field_10_0_2_46479_009<32>
-Field_10_0_2_46479_010<32>
-Field_10_0_2_46479_011<32>
-Field_10_0_2_46479_012<32>
-Field_10_0_2_46479_013<32>
-Field_10_0_2_46479_014<u8>
-Field_10_0_2_46479_015<32>
-Field_10_0_2_46479_016<32>
-Field_10_0_2_46479_017<32>
+UiTextureKitID<32>
+OpenSoundKitID<32>
+CloseSoundKitID<32>
+Cost<32>
+ItemInteractionFrameType<32>
+InteractionSpellID<32>
+CurrencyTypeID<32>
+Field_8_3_0_32414_012<u8>
+DropInSlotSoundKitID<32>
+TakeOutSlotSoundKitID<32>
+Field_10_0_2_46259_016<32>

@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int Field_10_0_2_46420_000?
-int Field_10_0_2_46420_001?
-int Field_10_0_2_46420_002?
+int Stage?
+int DurationMs?
+int<SpellEmpower::ID> SpellEmpowerID?
 
 LAYOUT 6A138C60
 BUILD 10.0.2.46420, 10.0.2.46456, 10.0.2.46479, 10.0.2.46619, 10.0.2.46658, 10.0.2.46689, 10.0.2.46702, 10.0.2.46741, 10.0.2.46781, 10.0.2.46801, 10.0.2.46802, 10.0.2.46879, 10.0.2.46924
 $noninline,id$ID<32>
-Field_10_0_2_46420_000<32>
-Field_10_0_2_46420_001<32>
-$noninline,relation$Field_10_0_2_46420_002<32>
+Stage<32>
+DurationMs<32>
+$noninline,relation$SpellEmpowerID<32>
