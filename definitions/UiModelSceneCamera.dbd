@@ -15,6 +15,22 @@ float ZoomedPitchOffset
 float ZoomedRollOffset
 float ZoomedTargetOffset
 float ZoomedYawOffset
+string Field_10_0_5_47118_000?
+float Field_10_0_5_47118_001?
+float Field_10_0_5_47118_002?
+int Field_10_0_5_47118_003?
+int Field_10_0_5_47118_004?
+int Field_10_0_5_47118_005?
+int Field_10_0_5_47118_006?
+float Field_10_0_5_47118_007?
+float Field_10_0_5_47118_008?
+float Field_10_0_5_47118_009?
+float Field_10_0_5_47118_010?
+float Field_10_0_5_47118_011?
+float Field_10_0_5_47118_012?
+float Field_10_0_5_47118_013?
+float Field_10_0_5_47118_014?
+float Field_10_0_5_47118_015?
 
 LAYOUT C58AA5EC
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -145,3 +161,22 @@ ZoomDistance
 MinZoomDistance
 MaxZoomDistance
 $noninline,relation$UiModelSceneID<32>
+
+LAYOUT 1C131B80
+BUILD 10.0.5.47118
+Field_10_0_5_47118_000
+Field_10_0_5_47118_001[3]
+Field_10_0_5_47118_002[3]
+$id$Field_10_0_5_47118_003<32>
+$relation$Field_10_0_5_47118_004<32>
+Field_10_0_5_47118_005<u8>
+Field_10_0_5_47118_006<u8>
+Field_10_0_5_47118_007
+Field_10_0_5_47118_008
+Field_10_0_5_47118_009
+Field_10_0_5_47118_010
+Field_10_0_5_47118_011
+Field_10_0_5_47118_012
+Field_10_0_5_47118_013
+Field_10_0_5_47118_014
+Field_10_0_5_47118_015

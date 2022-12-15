@@ -2,6 +2,10 @@ COLUMNS
 int ID
 int Flags
 int UiSystemType // C_ModelInfo.ModelSceneType: 0: MountJournal, 1: PetJournalCard, 2: ShopCard, 3: EncounterJournal, 4: PetJournalLoadout, 5: ArtifactTier2, 6: ArtifactTier2ForgingScene, 7: ArtifactTier2SlamEffect, 8: CommentatorVictoryFanfare, 9: ArtifactRelicTalentEffect, 10: PvpWarModeOrb, 11: PvpWarModeFire, 12: PartyPose, 13: AzeriteItemLevelUpToast, 14: AzeritePowers, 15: AzeriteRewardGlow, 16: HeartOfAzeroth, 17: WorldMapThreat
+int Field_10_0_5_47118_000?
+int Field_10_0_5_47118_001?
+int Field_10_0_5_47118_002?
+int Field_10_0_5_47118_003?
 
 LAYOUT A7D62B8A, 0B9EFECA, A24757C0
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43254, 9.2.5.43412
@@ -55,3 +59,10 @@ BUILD 10.0.0.44649, 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0
 $id$ID<32>
 UiSystemType<8>
 Flags<u8>
+
+LAYOUT D6CFDD08
+BUILD 10.0.5.47118
+$id$Field_10_0_5_47118_000<32>
+Field_10_0_5_47118_001<8>
+Field_10_0_5_47118_002<8>
+Field_10_0_5_47118_003<32>
