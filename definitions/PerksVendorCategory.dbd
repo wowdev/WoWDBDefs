@@ -1,12 +1,12 @@
 COLUMNS
-locstring Field_10_0_5_47118_000_lang?
-int Field_10_0_5_47118_001?
+locstring DisplayName_lang
+int ID?
 int Field_10_0_5_47118_002?
-int Field_10_0_5_47118_003?
+int<UiModelScene::ID> DefaultUIModelSceneID
 
 LAYOUT 94980739
 BUILD 10.0.5.47118
-Field_10_0_5_47118_000_lang
-$id$Field_10_0_5_47118_001<32>
+DisplayName_lang
+$id$ID<32>
 Field_10_0_5_47118_002<32>
-Field_10_0_5_47118_003<32>
+DefaultUIModelSceneID<32>

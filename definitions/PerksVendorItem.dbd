@@ -1,20 +1,20 @@
 COLUMNS
-int Field_10_0_5_47118_000?
-int Field_10_0_5_47118_001?
+int ID
+int<PerksVendorCategory::ID> PerksVendorCategoryID
 int Field_10_0_5_47118_002?
-int Field_10_0_5_47118_003?
+int<Item::ID> ItemID
 int Field_10_0_5_47118_004?
 int Field_10_0_5_47118_005?
-int Field_10_0_5_47118_006?
+int Cost?
 int Field_10_0_5_47118_007?
 
 LAYOUT 451B856E
 BUILD 10.0.5.47118
-$id$Field_10_0_5_47118_000<32>
-Field_10_0_5_47118_001<32>
+$id$ID<32>
+PerksVendorCategoryID<32>
 Field_10_0_5_47118_002<32>
-Field_10_0_5_47118_003<32>
+ItemID<32>
 Field_10_0_5_47118_004<32>
 Field_10_0_5_47118_005<32>
-Field_10_0_5_47118_006<32>
+Cost<32>
 Field_10_0_5_47118_007<32>

@@ -9,16 +9,6 @@ float Position
 string ScriptTag
 int<UiModelSceneActorDisplay::ID> UiModelSceneActorDisplayID
 int<UiModelScene::ID> UiModelSceneID
-string Field_10_0_5_47118_000?
-float Field_10_0_5_47118_001?
-int Field_10_0_5_47118_002?
-int Field_10_0_5_47118_003?
-int Field_10_0_5_47118_004?
-int Field_10_0_5_47118_005?
-float Field_10_0_5_47118_006?
-float Field_10_0_5_47118_007?
-float Field_10_0_5_47118_008?
-float Field_10_0_5_47118_009?
 
 LAYOUT BB10B7E3
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -121,13 +111,13 @@ $noninline,relation$UiModelSceneID<32>
 
 LAYOUT 6B7EE2AC
 BUILD 10.0.5.47118
-Field_10_0_5_47118_000
-Field_10_0_5_47118_001[3]
-$id$Field_10_0_5_47118_002<32>
-$relation$Field_10_0_5_47118_003<32>
-Field_10_0_5_47118_004<u8>
-Field_10_0_5_47118_005<32>
-Field_10_0_5_47118_006
-Field_10_0_5_47118_007
-Field_10_0_5_47118_008
-Field_10_0_5_47118_009
+ScriptTag
+Position[3]
+$id$ID<32>
+$relation$UiModelSceneID<32>
+Flags<u8>
+UiModelSceneActorDisplayID<32>
+OrientationYaw
+OrientationPitch
+OrientationRoll
+NormalizedScale

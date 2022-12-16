@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_10_0_5_47118_000?
+int<PerksVendorItem::ID> PerksVendorItemID
 int Field_10_0_5_47118_001?
 
 LAYOUT D8D92220
 BUILD 10.0.5.47118
 $noninline,id$ID<32>
-Field_10_0_5_47118_000<32>
+PerksVendorItemID<32>
 Field_10_0_5_47118_001<32>
