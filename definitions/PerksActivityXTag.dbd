@@ -4,7 +4,7 @@ int<PerksActivityTag::ID> PerksActivityTagID
 int<PerksActivity::ID> PerksActivityID
 
 LAYOUT 5254EC49
-BUILD 10.0.5.47118
+BUILD 10.0.5.47118, 10.0.5.47186
 $id$ID<32>
 PerksActivityTagID<32>
 $noninline,relation$PerksActivityID<32>
