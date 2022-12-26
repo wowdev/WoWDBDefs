@@ -79,29 +79,6 @@ int Field_3_0_1_8471_018?
 int Field_3_0_1_8471_019?
 int Field_3_0_1_8885_018?
 int Field_3_2_0_10192_018?
-int Field_3_4_0_45704_000?
-int Field_3_4_0_45704_001?
-int Field_3_4_0_45704_002?
-int Field_3_4_0_45704_003?
-int Field_3_4_0_45704_004?
-int Field_3_4_0_45704_005?
-int Field_3_4_0_45704_006?
-int Field_3_4_0_45704_007?
-int Field_3_4_0_45704_008?
-int Field_3_4_0_45704_009?
-int Field_3_4_0_45704_010?
-int Field_3_4_0_45704_011?
-int Field_3_4_0_45704_012?
-int Field_3_4_0_45704_013?
-int Field_3_4_0_45704_014?
-int Field_3_4_0_45704_015?
-int Field_3_4_0_45704_016?
-int Field_3_4_0_45704_017?
-int Field_3_4_0_45704_018?
-int Field_3_4_0_45704_019?
-int Field_3_4_0_45704_020?
-int Field_3_4_0_45704_021?
-int Field_3_4_0_45704_022?
 
 BUILD 3.0.1.8471-3.0.1.8874
 $id$ID<32>
@@ -176,29 +153,29 @@ LAYOUT 7037AEF9
 BUILD 3.4.1.46722, 3.4.1.46917, 3.4.1.46973, 3.4.1.47014, 3.4.1.47110, 3.4.1.47245
 BUILD 3.4.0.45704, 3.4.0.45770, 3.4.0.45772, 3.4.0.45854, 3.4.0.45942, 3.4.0.46158, 3.4.0.46182, 3.4.0.46248, 3.4.0.46269, 3.4.0.46368, 3.4.0.46779, 3.4.0.46902, 3.4.0.47168
 $noninline,id$ID<32>
-Field_3_4_0_45704_000<32>
-Field_3_4_0_45704_001<32>
-Field_3_4_0_45704_002<32>
-Field_3_4_0_45704_003<32>
-Field_3_4_0_45704_004<32>
-Field_3_4_0_45704_005<32>
-Field_3_4_0_45704_006<32>
-Field_3_4_0_45704_007<32>
-Field_3_4_0_45704_008<32>
-Field_3_4_0_45704_009<32>
-Field_3_4_0_45704_010<32>
-Field_3_4_0_45704_011<32>
-Field_3_4_0_45704_012<32>
-Field_3_4_0_45704_013<32>
-Field_3_4_0_45704_014<32>
-Field_3_4_0_45704_015<32>
-Field_3_4_0_45704_016<32>
-Field_3_4_0_45704_017<32>
-Field_3_4_0_45704_018<32>
-Field_3_4_0_45704_019<32>
-Field_3_4_0_45704_020<32>
-Field_3_4_0_45704_021<32>
-Field_3_4_0_45704_022<32>
+Charlevel<32>
+WeaponDPS1H<32>
+WeaponDPS2H<32>
+SpellcasterDPS1H<32>
+SpellcasterDPS2H<32>
+RangedDPS<32>
+WandDPS<32>
+SpellPower<32>
+ShoulderBudget<32>
+TrinketBudget<32>
+WeaponBudget1H<32>
+PrimaryBudget<32>
+RangedBudget<32>
+TertiaryBudget<32>
+ClothShoulderArmor<32>
+LeatherShoulderArmor<32>
+MailShoulderArmor<32>
+PlateShoulderArmor<32>
+ClothCloakArmor<32>
+ClothChestArmor<32>
+LeatherChestArmor<32>
+MailChestArmor<32>
+PlateChestArmor<32>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12319
