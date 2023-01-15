@@ -4,16 +4,16 @@ int<Map::ID> ContinentID
 float Pos
 locstring Name_lang
 int<Creature::ID> MountCreatureID
-int ConditionID
+int<PlayerCondition::ID> ConditionID
 int Flags
 float MapOffset
 int CharacterBitNumber
 float Facing
 float FlightMapOffset
-int SpecialIconConditionID
+int<PlayerCondition::ID> SpecialIconConditionID
 int<UiTextureKit::ID> UiTextureKitID
 int MinimapAtlasMemberID
-int VisibilityConditionID
+int<PlayerCondition::ID> VisibilityConditionID
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368
