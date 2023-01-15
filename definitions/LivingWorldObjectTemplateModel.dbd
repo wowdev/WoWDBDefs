@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int ModelFileDataID?
+int Field_10_0_0_44649_002?
+int Field_10_0_0_44649_003?
+int<LivingWorldObjectTemplate::ID> LivingWorldObjectTemplateID?
+
+LAYOUT A5D81C93
+COMMENT table is unused by client, fields are entirely speculative
+$noninline,id$ID<32>
+ModelFileDataID<32>
+Field_10_0_0_44649_002<32>
+Field_10_0_0_44649_003<32>
+LivingWorldObjectTemplateID<32>
