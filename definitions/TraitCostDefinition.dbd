@@ -3,9 +3,31 @@ int ID?
 int<TraitCost::ID> TraitCostID?
 int DefinitionType? // 0: PrimaryCurrency, 1: SecondaryCurrency, 2: Item, 3: Gold
 int<TraitCurrency::ID> TraitCurrencyID?
+int Field_10_0_0_43342_000?
+int Field_10_0_0_43342_001?
+int Field_10_0_0_43342_002?
+int Field_10_0_0_43342_003?
+int Field_10_0_0_44167_000?
+int Field_10_0_0_44167_001?
+int Field_10_0_0_44167_002?
+int Field_10_0_0_44167_003?
+
+LAYOUT 2AEE735E
+BUILD 10.0.0.43342
+$id$Field_10_0_0_43342_000<32>
+Field_10_0_0_43342_001<32>
+Field_10_0_0_43342_002<32>
+Field_10_0_0_43342_003<32>
+
+LAYOUT BEF74473
+BUILD 10.0.0.44167, 10.0.0.44402, 10.0.0.44475
+$id$Field_10_0_0_44167_000<32>
+Field_10_0_0_44167_001<32>
+Field_10_0_0_44167_002<32>
+$noninline,relation$Field_10_0_0_44167_003<32>
 
 LAYOUT B11D3E67
-BUILD 10.0.0.44649, 10.0.0.44707, 10.0.0.44795, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141, 10.0.0.45232, 10.0.0.45335
+BUILD 10.0.0.44592, 10.0.0.44645, 10.0.0.44649, 10.0.0.44707, 10.0.0.44795, 10.0.0.44876, 10.0.0.44895, 10.0.0.44999, 10.0.0.45141, 10.0.0.45232, 10.0.0.45335
 $id$ID<32>
 $relation$TraitCostID<32>
 DefinitionType<32>
