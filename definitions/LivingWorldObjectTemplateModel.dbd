@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ModelFileDataID?
+int<FileData::ID> ModelFileDataID?
 int Field_10_0_0_44649_002?
 int Field_10_0_0_44649_003?
 int<LivingWorldObjectTemplate::ID> LivingWorldObjectTemplateID?
