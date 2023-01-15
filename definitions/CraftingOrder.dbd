@@ -3,12 +3,11 @@ int ID
 int<SkillLineAbility::ID> SkillLineAbilityID?
 int<CraftingOrderHouse::ID> CraftingOrderHouseID?
 int Field_10_0_2_46479_002?
-int Field_10_0_0_43342_000?
 
 LAYOUT BBB60F5D
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000<32>
+SkillLineAbilityID<32>
 
 LAYOUT F8DAE82D
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969

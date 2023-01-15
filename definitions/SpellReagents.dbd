@@ -7,10 +7,6 @@ int<CurrencyTypes::ID> CurrencyID // Moved to SpellReagentsCurrency.
 int CurrencyCount
 int ReagentReCraftCount
 int ReagentSource? // CraftingOrderReagentSource
-int Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
-int Field_10_0_0_43342_002?
-int Field_10_0_0_43342_003?
 
 BUILD 5.0.1.15464
 BUILD 4.0.0.12232-4.3.4.15595
@@ -77,10 +73,10 @@ ReagentCount<16>[8]
 LAYOUT 186388D2
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000<32>
-Field_10_0_0_43342_001<32>[8]
-Field_10_0_0_43342_002<16>[8]
-Field_10_0_0_43342_003<16>[8]
+SpellID<32>
+Reagent<32>[8]
+ReagentCount<16>[8]
+ReagentReCraftCount<16>[8]
 
 LAYOUT 631FF432
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969

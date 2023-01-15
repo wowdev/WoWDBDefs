@@ -3,14 +3,12 @@ int ID
 int<ProfessionEffectType::EnumID> ProfessionEffectTypeEnumID?
 float Amount?
 int<ModifiedCraftingReagentSlot::ID> ModifiedCraftingReagentSlotID?
-int Field_10_0_0_43342_000?
-float Field_10_0_0_43342_001?
 
 LAYOUT 42C3AB75
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000<32>
-Field_10_0_0_43342_001
+ProfessionEffectTypeEnumID<32>
+Amount
 
 LAYOUT B42F4258
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

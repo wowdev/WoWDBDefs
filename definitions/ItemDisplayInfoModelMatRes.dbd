@@ -4,18 +4,14 @@ int<TextureFileData::MaterialResourcesID> MaterialResourcesID?
 int TextureType?
 int ModelIndex?
 int<ItemDisplayInfo::ID> ItemDisplayInfoID?
-int Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
-int Field_10_0_0_43342_002?
-int Field_10_0_0_43342_003?
 
 LAYOUT 0C948CCA
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000<32>
-Field_10_0_0_43342_001<32>
-Field_10_0_0_43342_002<32>
-$noninline,relation$Field_10_0_0_43342_003<32>
+MaterialResourcesID<32>
+TextureType<32>
+ModelIndex<32>
+$noninline,relation$ItemDisplayInfoID<32>
 
 LAYOUT 9601DF6B
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

@@ -23,17 +23,6 @@ int<ContentTuning::ID> ContentTuningID?
 int<CraftingQuality::ID> CraftingQualityID?
 int<ScalingStatDistribution::ID> ScalingStatDistributionID?
 int ScalingStatValue?
-int Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
-int Field_10_0_0_43342_002?
-int Field_10_0_0_43342_003?
-int Field_10_0_0_43342_004?
-int Field_10_0_0_43342_005?
-int Field_10_0_0_43342_006?
-int Field_10_0_0_43342_007?
-int Field_10_0_0_43342_008?
-int Field_10_0_0_43342_009?
-int Field_10_0_0_43342_010?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -356,17 +345,17 @@ ModifiedCraftingReagentItemID<32>
 LAYOUT 85B211F3
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000<u8>
-Field_10_0_0_43342_001<u8>
-Field_10_0_0_43342_002<u8>
-Field_10_0_0_43342_003<8>
-Field_10_0_0_43342_004<u8>
-Field_10_0_0_43342_005<8>
-Field_10_0_0_43342_006<32>
-Field_10_0_0_43342_007<u8>
-Field_10_0_0_43342_008<32>
-Field_10_0_0_43342_009<32>
-Field_10_0_0_43342_010<32>
+ClassID<u8>
+SubclassID<u8>
+Material<u8>
+InventoryType<8>
+SheatheType<u8>
+Sound_override_subclassID<8>
+IconFileDataID<32>
+ItemGroupSoundsID<u8>
+ContentTuningID<32>
+ModifiedCraftingReagentItemID<32>
+CraftingQualityID<32>
 
 LAYOUT BCC9BC83
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

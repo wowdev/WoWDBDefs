@@ -1,12 +1,11 @@
 COLUMNS
 int ID
 int<WorldStateExpression::ID> WorldStateExpressionID
-int Field_10_0_0_43342_000?
 
 LAYOUT A90F1871
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000<32>
+WorldStateExpressionID<32>
 
 LAYOUT 74706E81
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

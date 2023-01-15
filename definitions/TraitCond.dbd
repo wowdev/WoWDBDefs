@@ -14,72 +14,46 @@ int Flags? // &1: IsGate, &2: IsAlwaysMet, &4: IsSufficient
 int RequiredLevel?
 int<SharedString::ID> FreeSharedStringID?
 int<SharedString::ID> SpendMoreSharedStringID?
-int Field_10_0_0_44167_000?
-int Field_10_0_0_44167_001?
 int Field_10_0_0_44167_002?
 int Field_10_0_0_44167_003?
-int Field_10_0_0_44167_004?
-int Field_10_0_0_44167_005?
-int Field_10_0_0_44167_006?
-int Field_10_0_0_44167_007?
-int Field_10_0_0_44167_008?
-int Field_10_0_0_44167_009?
-int Field_10_0_0_44167_010?
-int Field_10_0_0_44167_011?
-int Field_10_0_0_44167_012?
 int Field_10_0_0_44167_013?
 int Field_10_0_0_44167_014?
-int Field_10_0_0_44402_000?
-int Field_10_0_0_44402_001?
-int Field_10_0_0_44402_002?
-int Field_10_0_0_44402_003?
-int Field_10_0_0_44402_004?
-int Field_10_0_0_44402_005?
-int Field_10_0_0_44402_006?
-int Field_10_0_0_44402_007?
-int Field_10_0_0_44402_008?
-int Field_10_0_0_44402_009?
-int Field_10_0_0_44402_010?
-int Field_10_0_0_44402_011?
-int Field_10_0_0_44402_012?
-int Field_10_0_0_44402_013?
-int Field_10_0_0_44402_014?
 
 LAYOUT 425F2DDC
 BUILD 10.0.0.44167
-$id$Field_10_0_0_44167_000<32>
-Field_10_0_0_44167_001<32>
+$id$ID<32>
+CondType<32>
 Field_10_0_0_44167_002<32>
 Field_10_0_0_44167_003<32>
-Field_10_0_0_44167_004<32>
-Field_10_0_0_44167_005<32>
-Field_10_0_0_44167_006<32>
-Field_10_0_0_44167_007<32>
-Field_10_0_0_44167_008<32>
-Field_10_0_0_44167_009<32>
-Field_10_0_0_44167_010<32>
-Field_10_0_0_44167_011<32>
-Field_10_0_0_44167_012<32>
+QuestID<32>
+AchievementID<32>
+SpecSetID<32>
+TraitNodeGroupID<32>
+TraitNodeID<32>
+TraitCurrencyID<32>
+SpentAmountRequired<32>
+Flags<32>
+RequiredLevel<32>
 Field_10_0_0_44167_013<32>
 $noninline,relation$Field_10_0_0_44167_014<32>
 
 LAYOUT 209A7F09
 BUILD 10.0.0.44402, 10.0.0.44475
-$id$Field_10_0_0_44402_000<32>
-Field_10_0_0_44402_001<32>
-Field_10_0_0_44402_002<32>
-Field_10_0_0_44402_003<32>
-Field_10_0_0_44402_004<32>
-Field_10_0_0_44402_005<32>
-Field_10_0_0_44402_006<32>
-Field_10_0_0_44402_007<32>
-Field_10_0_0_44402_008<32>
-Field_10_0_0_44402_009<32>
-Field_10_0_0_44402_010<32>
-Field_10_0_0_44402_011<32>
-Field_10_0_0_44402_012<32>
-Field_10_0_0_44402_013<32>
-Field_10_0_0_44402_014<32>
+$id$ID<32>
+CondType<32>
+TraitTreeID<32>
+GrantedRanks<32>
+QuestID<32>
+AchievementID<32>
+SpecSetID<32>
+TraitNodeGroupID<32>
+TraitNodeID<32>
+TraitCurrencyID<32>
+SpentAmountRequired<32>
+Flags<32>
+RequiredLevel<32>
+FreeSharedStringID<32>
+SpendMoreSharedStringID<32>
 
 LAYOUT 91F4174C
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

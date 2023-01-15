@@ -2,14 +2,12 @@ COLUMNS
 int ID
 string LuaConstantName?
 int Color?
-string Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
 
 LAYOUT DBC8A3BB
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000
-Field_10_0_0_43342_001<32>
+LuaConstantName
+Color<32>
 
 LAYOUT 2566517B
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

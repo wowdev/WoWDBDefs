@@ -3,13 +3,11 @@ string InternalName?
 int ID
 int Multiplier? // When trait currency type is TraitSourced, this field is a multiplier for counting how many traits were spent
 int<TraitCurrency::ID> TraitCurrencyID?
-string Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
 
 LAYOUT F7EE721C
 BUILD 10.0.0.43342
-Field_10_0_0_43342_000
-$id$Field_10_0_0_43342_001<32>
+InternalName
+$id$ID<32>
 
 LAYOUT 3667090C
 BUILD 10.0.0.44167, 10.0.0.44402, 10.0.0.44475, 10.0.0.44592, 10.0.0.44645, 10.0.0.44649, 10.0.0.44707

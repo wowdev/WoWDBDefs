@@ -40,26 +40,6 @@ int Field_3_4_1_46722_013?
 int Field_3_4_1_46722_014?
 int Field_3_4_1_46722_015?
 int Field_3_4_1_46722_016?
-locstring Field_10_0_0_43342_000_lang?
-locstring Field_10_0_0_43342_001_lang?
-int Field_10_0_0_43342_002?
-float Field_10_0_0_43342_003?
-int Field_10_0_0_43342_004?
-int Field_10_0_0_43342_005?
-int Field_10_0_0_43342_006?
-int Field_10_0_0_43342_007?
-int Field_10_0_0_43342_008?
-int Field_10_0_0_43342_009?
-int Field_10_0_0_43342_010?
-int Field_10_0_0_43342_011?
-int Field_10_0_0_43342_012?
-int Field_10_0_0_43342_013?
-int Field_10_0_0_43342_014?
-int Field_10_0_0_43342_015?
-int Field_10_0_0_43342_016?
-int Field_10_0_0_43342_017?
-int Field_10_0_0_43342_018?
-int Field_10_0_0_43342_019?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -511,26 +491,26 @@ Icon<u8>
 
 LAYOUT B9BD72C4
 BUILD 10.0.0.43342
-Field_10_0_0_43342_000_lang
-Field_10_0_0_43342_001_lang
-$id$Field_10_0_0_43342_002<32>
-Field_10_0_0_43342_003[3]
-Field_10_0_0_43342_004<32>
-Field_10_0_0_43342_005<u32>
-Field_10_0_0_43342_006<u32>
-Field_10_0_0_43342_007<u32>
-Field_10_0_0_43342_008<32>
-Field_10_0_0_43342_009<32>
-Field_10_0_0_43342_010<32>
-Field_10_0_0_43342_011<u32>
-$relation$Field_10_0_0_43342_012<u16>
-Field_10_0_0_43342_013<16>
-Field_10_0_0_43342_014<u16>
-Field_10_0_0_43342_015<u16>
-Field_10_0_0_43342_016<u16>
-Field_10_0_0_43342_017<u16>
-Field_10_0_0_43342_018<u8>
-Field_10_0_0_43342_019<u8>
+Name_lang
+Description_lang
+$id$ID<32>
+Pos[3]
+PortLocID<32>
+PlayerConditionID<u32>
+UiTextureAtlasMemberID<u32>
+Flags<u32>
+WMOGroupID<32>
+PoiDataType<32>
+PoiData<32>
+Field_9_1_0_38783_011<u32>
+$relation$ContinentID<u16>
+AreaID<16>
+WorldStateID<u16>
+UiWidgetSetID<u16>
+UiTextureKitID<u16>
+Field_9_1_0_38783_017<u16>
+Importance<u8>
+Icon<u8>
 
 LAYOUT 077E9D39
 BUILD 10.0.0.44167, 10.0.0.44402, 10.0.0.44475, 10.0.0.44592, 10.0.0.44645, 10.0.0.44649, 10.0.0.44707, 10.0.0.44795, 10.0.0.44876, 10.0.0.44895, 10.0.0.44999

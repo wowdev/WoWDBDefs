@@ -6,22 +6,16 @@ float GoodF
 int Epic
 int Superior
 int Good
-float Field_10_0_0_43342_000?
-float Field_10_0_0_43342_001?
-float Field_10_0_0_43342_002?
-int Field_10_0_0_43342_003?
-int Field_10_0_0_43342_004?
-int Field_10_0_0_43342_005?
 
 LAYOUT 22B36367
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000[2]
-Field_10_0_0_43342_001[2]
-Field_10_0_0_43342_002[2]
-Field_10_0_0_43342_003<u32>[2]
-Field_10_0_0_43342_004<u32>[2]
-Field_10_0_0_43342_005<u32>[2]
+EpicF[2]
+SuperiorF[2]
+GoodF[2]
+Epic<u32>[2]
+Superior<u32>[2]
+Good<u32>[2]
 
 LAYOUT E2DEF177
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

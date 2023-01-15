@@ -1,22 +1,19 @@
 COLUMNS
 string Name?
 int ID?
-int<TraitTree::ID> TraitTreeID?
+int<TraitTree::ID> TraitTreeID? // ??!!
 int<TraitNode::ID> FirstTraitNodeID?
 int<PlayerCondition::ID> PlayerConditionID?
 int Flags? // 0: Talents, 1: Professions; one of these is flags. &1: CannotRefund, &2 HideSingleRankNumbers
 int<TraitSystem::ID> TraitSystemID?
 float Field_10_0_0_45697_006?
 float Field_10_0_0_45697_007?
-string Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
-int Field_10_0_0_43342_002?
 
 LAYOUT 9C270D22
 BUILD 10.0.0.43342
-Field_10_0_0_43342_000
-$id$Field_10_0_0_43342_001<32>
-Field_10_0_0_43342_002<32>
+Name
+$id$ID<32>
+TraitTreeID<32>
 
 LAYOUT E1C6B00A
 BUILD 10.0.0.44167, 10.0.0.44402, 10.0.0.44475, 10.0.0.44592, 10.0.0.44645, 10.0.0.44649

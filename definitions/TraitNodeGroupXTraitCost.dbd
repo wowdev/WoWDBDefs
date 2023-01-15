@@ -2,23 +2,20 @@ COLUMNS
 int ID?
 int<TraitNodeGroup::ID> TraitNodeGroupID?
 int<TraitCost::ID> TraitCostID?
-int Field_10_0_0_43342_000?
 int Field_10_0_0_43342_001?
 int Field_10_0_0_43342_002?
-int Field_10_0_0_44167_000?
-int Field_10_0_0_44167_001?
 
 LAYOUT EAC05780
 BUILD 10.0.0.43342
-$id$Field_10_0_0_43342_000<32>
+$id$ID<32>
 Field_10_0_0_43342_001<32>
 Field_10_0_0_43342_002<32>
 
 LAYOUT FCCBBE50
 BUILD 10.0.0.44167, 10.0.0.44402, 10.0.0.44475
 $noninline,id$ID<32>
-Field_10_0_0_44167_000<32>
-$noninline,relation$Field_10_0_0_44167_001<32>
+TraitCostID<32>
+$noninline,relation$TraitNodeGroupID<32>
 
 LAYOUT 97B85B29
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

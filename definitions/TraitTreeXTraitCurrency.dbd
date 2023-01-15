@@ -3,26 +3,20 @@ int ID?
 int Index?
 int<TraitTree::ID> TraitTreeID?
 int<TraitCurrency::ID> TraitCurrencyID?
-int Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
-int Field_10_0_0_43342_002?
-int Field_10_0_0_44167_000?
-int Field_10_0_0_44167_001?
-int Field_10_0_0_44167_002?
 
 LAYOUT 6CDFC208
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000<32>
-$relation$Field_10_0_0_43342_001<32>
-Field_10_0_0_43342_002<32>
+Index<32>
+$relation$TraitTreeID<32>
+TraitCurrencyID<32>
 
 LAYOUT E78ECB09
 BUILD 10.0.0.44167, 10.0.0.44402, 10.0.0.44475
 $noninline,id$ID<32>
-Field_10_0_0_44167_000<32>
-$relation$Field_10_0_0_44167_001<32>
-Field_10_0_0_44167_002<32>
+Index<32>
+$relation$TraitTreeID<32>
+TraitCurrencyID<32>
 
 LAYOUT 298B67E6
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

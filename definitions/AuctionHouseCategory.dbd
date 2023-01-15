@@ -18,16 +18,6 @@ int Field_9_2_7_44767_005?
 int Field_9_2_7_44767_006?
 int Field_9_2_7_44767_007?
 int Field_9_2_7_44767_008?
-locstring Field_10_0_0_43342_000_lang?
-locstring Field_10_0_0_43342_001_lang?
-int Field_10_0_0_43342_002?
-int Field_10_0_0_43342_003?
-int Field_10_0_0_43342_004?
-int Field_10_0_0_43342_005?
-int Field_10_0_0_43342_006?
-int Field_10_0_0_43342_007?
-int Field_10_0_0_43342_008?
-int Field_10_0_0_43342_009?
 
 LAYOUT 68AEBFF6
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43180, 9.2.5.43254, 9.2.5.43412
@@ -70,16 +60,16 @@ $noninline,relation$Field_9_2_7_44767_008<32>
 
 LAYOUT 431DFE55
 BUILD 10.0.0.43342
-Field_10_0_0_43342_000_lang
-Field_10_0_0_43342_001_lang
-$id$Field_10_0_0_43342_002<32>
-Field_10_0_0_43342_003<32>
-Field_10_0_0_43342_004<32>
-Field_10_0_0_43342_005<32>
-Field_10_0_0_43342_006<32>
-$relation$Field_10_0_0_43342_007<32>
-Field_10_0_0_43342_008<u8>
-Field_10_0_0_43342_009<u8>
+Description_lang
+SortedProperty_lang
+$id$ID<32>
+ItemClass<32>
+ItemSubClass<32>
+InventoryType<32>
+OrderIndex<32>
+$relation$ParentCategory<32>
+DefaultAuctionHouseFilter<u8>
+AuctionHouseExtraColumn<u8>
 
 LAYOUT 105FE91E
 BUILD 10.0.0.44167, 10.0.0.44402, 10.0.0.44475, 10.0.0.44592, 10.0.0.44645, 10.0.0.44649

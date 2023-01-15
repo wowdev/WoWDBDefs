@@ -3,16 +3,13 @@ int ID
 int<Item::ID> SalvagedItemID?
 int<ItemSalvage::ID> ItemSalvageID?
 int ResultingTreasureID?
-int Field_10_0_0_44167_000?
-int Field_10_0_0_44167_001?
-int Field_10_0_0_44167_002?
 
 LAYOUT 53AE430C
 BUILD 10.0.0.44167, 10.0.0.44402
 $noninline,id$ID<32>
-Field_10_0_0_44167_000<32>
-Field_10_0_0_44167_001<32>
-$noninline,relation$Field_10_0_0_44167_002<32>
+ItemSalvageID<32>
+ResultingTreasureID<32>
+$noninline,relation$SalvagedItemID<32>
 
 LAYOUT 96554070
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

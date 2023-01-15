@@ -5,18 +5,14 @@ float CraftSkillBonusPercent // as a percentage of recipe difficulty
 float ReCraftSkillBonusPercent // as a percentage of recipe difficulty
 float InspirationSkillBonusPercent // as a percentage of recipe difficulty
 float Field_10_0_0_44649_004?
-float Field_10_0_0_43342_000?
-float Field_10_0_0_43342_001?
-float Field_10_0_0_43342_002?
-float Field_10_0_0_43342_003?
 
 LAYOUT 4EB3E25B
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000
-Field_10_0_0_43342_001
-Field_10_0_0_43342_002
-Field_10_0_0_43342_003
+CraftingDataField_10_0_0_44649_005
+CraftSkillBonusPercent
+InspirationSkillBonusPercent
+Field_10_0_0_44649_004
 
 LAYOUT A38AD18A
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

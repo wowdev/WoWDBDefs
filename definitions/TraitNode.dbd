@@ -5,21 +5,15 @@ int PosX?
 int PosY?
 int Type? // 0: Single, 1: Tiered, 2: Selection
 int Flags? // &1: ShowMultipleIcons
-int Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
-int Field_10_0_0_43342_002?
-int Field_10_0_0_43342_003?
-int Field_10_0_0_43342_004?
-int Field_10_0_0_43342_005?
 
 LAYOUT A46ED361
 BUILD 10.0.0.43342
-$id$Field_10_0_0_43342_000<32>
-$relation$Field_10_0_0_43342_001<32>
-Field_10_0_0_43342_002<32>
-Field_10_0_0_43342_003<32>
-Field_10_0_0_43342_004<32>
-Field_10_0_0_43342_005<32>
+$id$ID<32>
+$relation$TraitTreeID<32>
+PosX<32>
+PosY<32>
+Type<32>
+Flags<32>
 
 LAYOUT 839579A1
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

@@ -1,12 +1,11 @@
 COLUMNS
 int ID
 int<TraitDefinition::ID> TraitDefinitionID
-int Field_10_0_0_43342_000?
 
 LAYOUT FF40A6A1
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000<32>
+TraitDefinitionID<32>
 
 LAYOUT FB4B3FF8
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

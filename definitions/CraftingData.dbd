@@ -14,32 +14,21 @@ int FirstCraftTreasureID?
 int<ItemBonusTree::ID> ItemBonusTreeID?
 float Field_10_0_0_45141_011?
 int CraftedTreasureID?
-int Field_10_0_0_44167_000?
-int Field_10_0_0_44167_001?
-int Field_10_0_0_44167_002?
-int Field_10_0_0_44167_003?
-float Field_10_0_0_44167_004?
-float Field_10_0_0_44167_005?
-float Field_10_0_0_44167_006?
-float Field_10_0_0_44167_007?
-float Field_10_0_0_44167_008?
-int Field_10_0_0_44167_009?
-int Field_10_0_0_44167_010?
 
 LAYOUT B91A8F5E
 BUILD 10.0.0.44167
 $noninline,id$ID<32>
-Field_10_0_0_44167_000<32>
-Field_10_0_0_44167_001<32>
-Field_10_0_0_44167_002<32>
-Field_10_0_0_44167_003<32>
-Field_10_0_0_44167_004
-Field_10_0_0_44167_005
-Field_10_0_0_44167_006
-Field_10_0_0_44167_007
-Field_10_0_0_44167_008
-Field_10_0_0_44167_009<32>
-Field_10_0_0_44167_010<32>
+Field_10_0_0_44649_001<32>
+CraftingDifficultyID<32>
+CraftedItemID<32>
+CraftingDifficulty<32>
+Field_10_0_0_44649_005
+CraftSkillBonusPercent
+ReCraftSkillBonusPercent
+InspirationSkillBonusPercent
+Field_10_0_0_44649_009
+FirstCraftFlagQuestID<32>
+FirstCraftTreasureID<32>
 
 LAYOUT 1C6FDEE5
 BUILD 10.0.0.44402, 10.0.0.44475, 10.0.0.44592, 10.0.0.44645, 10.0.0.44649

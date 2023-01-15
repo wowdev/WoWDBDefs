@@ -3,9 +3,6 @@ int ID
 int<ModifiedCraftingCategory::ID> ModifiedCraftingCategoryID
 int<ModifiedCraftingReagentSlot::ID> ModifiedCraftingReagentSlotID
 int Order?
-int Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
-int Field_10_0_0_43342_002?
 
 LAYOUT 342AD8FB
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43180, 9.2.5.43254, 9.2.5.43412
@@ -29,9 +26,9 @@ $noninline,relation$ModifiedCraftingReagentSlotID<32>
 LAYOUT B5F9B839
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000<32>
-Field_10_0_0_43342_001<32>
-$noninline,relation$Field_10_0_0_43342_002<32>
+ModifiedCraftingCategoryID<32>
+Order<32>
+$noninline,relation$ModifiedCraftingReagentSlotID<32>
 
 LAYOUT 39F35458
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

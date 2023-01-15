@@ -2,14 +2,12 @@ COLUMNS
 locstring String_lang?
 int ID?
 int Flags? // &1: InternalOnly?! (all have this flag)
-locstring Field_10_0_0_44167_000_lang?
-int Field_10_0_0_44167_001?
 
 LAYOUT 3F7040BE
 BUILD 10.0.0.44167, 10.0.0.44402, 10.0.0.44475
 $noninline,id$ID<32>
-Field_10_0_0_44167_000_lang
-Field_10_0_0_44167_001<u8>
+String_lang
+Flags<u8>
 
 LAYOUT 31B665AF
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

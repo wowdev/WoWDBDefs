@@ -62,31 +62,6 @@ int Field_3_4_1_46722_021?
 int Field_3_4_1_46722_022?
 int Field_3_4_1_46722_023?
 int Field_3_4_1_46722_024?
-int Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
-int Field_10_0_0_43342_002?
-int Field_10_0_0_43342_003?
-float Field_10_0_0_43342_004?
-int Field_10_0_0_43342_005?
-int Field_10_0_0_43342_006?
-int Field_10_0_0_43342_007?
-int Field_10_0_0_43342_008?
-int Field_10_0_0_43342_009?
-int Field_10_0_0_43342_010?
-int Field_10_0_0_43342_011?
-int Field_10_0_0_43342_012?
-int Field_10_0_0_43342_013?
-int Field_10_0_0_43342_014?
-int Field_10_0_0_43342_015?
-float Field_10_0_0_43342_016?
-float Field_10_0_0_43342_017?
-int Field_10_0_0_43342_018?
-int Field_10_0_0_43342_019?
-int Field_10_0_0_43342_020?
-int Field_10_0_0_43342_021?
-int Field_10_0_0_43342_022?
-int Field_10_0_0_43342_023?
-int Field_10_0_0_43342_024?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -581,31 +556,31 @@ TextureVariationFileDataID<32>[3]
 
 LAYOUT 7A17E1DD
 BUILD 10.0.0.43342
-$id$Field_10_0_0_43342_000<32>
-Field_10_0_0_43342_001<u16>
-Field_10_0_0_43342_002<u16>
-Field_10_0_0_43342_003<8>
-Field_10_0_0_43342_004
-Field_10_0_0_43342_005<u8>
-Field_10_0_0_43342_006<u8>
-Field_10_0_0_43342_007<32>
-Field_10_0_0_43342_008<u16>
-Field_10_0_0_43342_009<u16>
-Field_10_0_0_43342_010<32>
-Field_10_0_0_43342_011<32>
-Field_10_0_0_43342_012<u16>
-Field_10_0_0_43342_013<u16>
-Field_10_0_0_43342_014<u8>
-Field_10_0_0_43342_015<32>
-Field_10_0_0_43342_016
-Field_10_0_0_43342_017
-Field_10_0_0_43342_018<8>
-Field_10_0_0_43342_019<32>
-Field_10_0_0_43342_020<32>
-Field_10_0_0_43342_021<8>
-Field_10_0_0_43342_022<32>
-Field_10_0_0_43342_023<8>
-Field_10_0_0_43342_024<32>[4]
+$id$ID<32>
+ModelID<u16>
+SoundID<u16>
+SizeClass<8>
+CreatureModelScale
+CreatureModelAlpha<u8>
+BloodID<u8>
+ExtendedDisplayInfoID<32>
+NPCSoundID<u16>
+ParticleColorID<u16>
+PortraitCreatureDisplayInfoID<32>
+PortraitTextureFileDataID<32>
+ObjectEffectPackageID<u16>
+AnimReplacementSetID<u16>
+Flags<u8>
+StateSpellVisualKitID<32>
+PlayerOverrideScale
+PetInstanceScale
+UnarmedWeaponType<8>
+MountPoofSpellVisualKitID<32>
+DissolveEffectID<32>
+Gender<8>
+DissolveOutEffectID<32>
+CreatureModelMinLod<8>
+TextureVariationFileDataID<32>[4]
 
 LAYOUT 357FF9CD
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

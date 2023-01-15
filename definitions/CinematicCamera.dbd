@@ -6,11 +6,6 @@ float Origin
 float OriginFacing
 int<FileData::ID> FileDataID
 int ConversationID?
-float Field_10_0_0_43342_000?
-int Field_10_0_0_43342_001?
-float Field_10_0_0_43342_002?
-int Field_10_0_0_43342_003?
-int Field_10_0_0_43342_004?
 
 LAYOUT 744B99BC
 BUILD 3.4.1.46722, 3.4.1.46917, 3.4.1.46973, 3.4.1.47014, 3.4.1.47110, 3.4.1.47245, 3.4.1.47496, 3.4.1.47585, 3.4.1.47612
@@ -106,11 +101,11 @@ ConversationID<32>
 LAYOUT A829BF11
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000[3]
-Field_10_0_0_43342_001<u32>
-Field_10_0_0_43342_002
-Field_10_0_0_43342_003<u32>
-Field_10_0_0_43342_004<u32>
+Origin[3]
+SoundID<u32>
+OriginFacing
+FileDataID<u32>
+ConversationID<u32>
 
 LAYOUT 4B3DF171
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

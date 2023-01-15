@@ -4,18 +4,14 @@ int<TraitNode::ID> TraitNodeID
 int<TraitNodeGroup::ID> LeftTraitNodeGroupID?
 int<TraitNodeGroup::ID> RightTraitNodeGroupID?
 int<TraitCurrency::ID> TraitCurrencyID?
-int Field_10_0_0_44167_000?
-int Field_10_0_0_44167_001?
-int Field_10_0_0_44167_002?
-int Field_10_0_0_44167_003?
 
 LAYOUT E81A7B32
 BUILD 10.0.0.44167, 10.0.0.44402, 10.0.0.44475
 $noninline,id$ID<32>
-Field_10_0_0_44167_000<32>
-Field_10_0_0_44167_001<32>
-Field_10_0_0_44167_002<32>
-Field_10_0_0_44167_003<32>
+TraitNodeID<32>
+LeftTraitNodeGroupID<32>
+RightTraitNodeGroupID<32>
+TraitCurrencyID<32>
 
 LAYOUT 93D92E33
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621

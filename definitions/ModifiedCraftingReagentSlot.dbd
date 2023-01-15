@@ -5,14 +5,6 @@ int Field_9_0_1_33978_001?
 int<PlayerCondition::ID> PlayerConditionID?
 int ReagentType // 1 is material, 2 is finishing reagent
 int Field_10_0_2_46091_005?
-locstring Field_10_0_0_43342_000_lang?
-int Field_10_0_0_43342_001?
-int Field_10_0_0_43342_002?
-int Field_10_0_0_43342_003?
-locstring Field_10_0_0_44167_000_lang?
-int Field_10_0_0_44167_001?
-int Field_10_0_0_44167_002?
-int Field_10_0_0_44167_003?
 
 LAYOUT 79B765B9
 BUILD 9.1.0.38312
@@ -44,18 +36,18 @@ PlayerConditionID<32>
 LAYOUT 38B99680
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000_lang
-Field_10_0_0_43342_001<32>
-Field_10_0_0_43342_002<32>
-Field_10_0_0_43342_003<32>
+Name_lang
+Field_9_0_1_33978_001<32>
+PlayerConditionID<32>
+ReagentType<32>
 
 LAYOUT B806796B
 BUILD 10.0.0.44167
 $noninline,id$ID<32>
-Field_10_0_0_44167_000_lang
-Field_10_0_0_44167_001<32>
-Field_10_0_0_44167_002<32>
-Field_10_0_0_44167_003<32>
+Name_lang
+Field_9_0_1_33978_001<32>
+PlayerConditionID<32>
+ReagentType<32>
 
 LAYOUT 4B88B7C0
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969

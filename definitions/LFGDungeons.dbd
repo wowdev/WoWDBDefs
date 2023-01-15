@@ -69,35 +69,6 @@ int Field_3_4_1_46722_029?
 int Field_3_4_1_46722_030?
 int Field_3_4_1_46722_031?
 int Field_3_4_1_46722_032?
-locstring Field_10_0_0_43342_000_lang?
-locstring Field_10_0_0_43342_001_lang?
-int Field_10_0_0_43342_002?
-int Field_10_0_0_43342_003?
-int Field_10_0_0_43342_004?
-int Field_10_0_0_43342_005?
-int Field_10_0_0_43342_006?
-int Field_10_0_0_43342_007?
-int Field_10_0_0_43342_008?
-int Field_10_0_0_43342_009?
-int Field_10_0_0_43342_010?
-float Field_10_0_0_43342_011?
-int Field_10_0_0_43342_012?
-int Field_10_0_0_43342_013?
-int Field_10_0_0_43342_014?
-int Field_10_0_0_43342_015?
-int Field_10_0_0_43342_016?
-int Field_10_0_0_43342_017?
-int Field_10_0_0_43342_018?
-int Field_10_0_0_43342_019?
-int Field_10_0_0_43342_020?
-int Field_10_0_0_43342_021?
-int Field_10_0_0_43342_022?
-int Field_10_0_0_43342_023?
-int Field_10_0_0_43342_024?
-int Field_10_0_0_43342_025?
-int Field_10_0_0_43342_026?
-int Field_10_0_0_43342_027?
-int Field_10_0_0_43342_028?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -853,35 +824,35 @@ Flags<32>[2]
 LAYOUT 9B9D4399
 BUILD 10.0.0.43342
 $noninline,id$ID<32>
-Field_10_0_0_43342_000_lang
-Field_10_0_0_43342_001_lang
-Field_10_0_0_43342_002<u8>
-Field_10_0_0_43342_003<u8>
-Field_10_0_0_43342_004<8>
-Field_10_0_0_43342_005<32>
-Field_10_0_0_43342_006<32>
-Field_10_0_0_43342_007<32>
-Field_10_0_0_43342_008<u8>
-Field_10_0_0_43342_009<16>
-Field_10_0_0_43342_010<u8>
-Field_10_0_0_43342_011
-Field_10_0_0_43342_012<u8>
-Field_10_0_0_43342_013<u8>
-Field_10_0_0_43342_014<u32>
-Field_10_0_0_43342_015<u16>
-Field_10_0_0_43342_016<u16>
-Field_10_0_0_43342_017<u16>
-Field_10_0_0_43342_018<u8>
-Field_10_0_0_43342_019<u8>
-Field_10_0_0_43342_020<u8>
-Field_10_0_0_43342_021<u8>
-Field_10_0_0_43342_022<u8>
-Field_10_0_0_43342_023<u8>
-Field_10_0_0_43342_024<u16>
-Field_10_0_0_43342_025<u16>
-Field_10_0_0_43342_026<u8>
-Field_10_0_0_43342_027<32>
-Field_10_0_0_43342_028<32>[2]
+Name_lang
+Description_lang
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
+MinGear
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MentorCharLevel<u8>
+ContentTuningID<32>
+Flags<32>[2]
 
 LAYOUT 5314B0A9
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621
