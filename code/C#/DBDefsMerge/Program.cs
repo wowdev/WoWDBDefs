@@ -21,7 +21,7 @@ namespace DBDefsMerge
             if (args[0].EndsWith(".json") && args[1].EndsWith(".json") && args[2].EndsWith(".json"))
             {
                 MergeJSONManifests.Merge(args[0], args[1], args[2]);
-                Environment.Exit(1);
+                Environment.Exit(0);
             }
 
             var numLayoutsAdded = 0;
