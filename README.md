@@ -14,6 +14,17 @@ Cool stuff we might end up doing if this gets enough traction:
 - Repository will feed automated updates on WoWDev.wiki
 - More? Open an issue if you have any ideas
 
+## Manifest
+A manifest.json file exists in the root directory as a list of known DBC/DB2s.  
+  
+**Note:** This file currently only lists DB2s available in modern builds, it will be backfilled with older data in the future.  
+  
+Possible keys per entry:
+- `tableHash` *(required)* [Table hash](https://wowdev.wiki/DB2#Table_Hashes) of the table name
+- `tableName` *(optional)* Table name, this can be placeholder if name is unknown and as such can change. Should always match .dbd filename.
+- `db2FileDataID` *(optional)* FileDataID of the .db2 file
+- `dbcFileDataID` *(optional)* FileDataID of the .dbc file
+
 ## DBD Format
 If you have any suggestions for changes or additions to the format, feel free to open an issue. The DBD format is currently specified as follows:
 
