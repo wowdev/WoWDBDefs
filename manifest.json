@@ -25,6 +25,11 @@
     "db2FileDataID": 1710672
   },
   {
+    "tableName": "AlliedRaceRacialAbility",
+    "tableHash": "90D2B610",
+    "db2FileDataID": 1720145
+  },
+  {
     "tableName": "AnimaCable",
     "tableHash": "7DC5B8C8",
     "db2FileDataID": 3286805
@@ -93,6 +98,11 @@
     "tableName": "AnimReplacementSet",
     "tableHash": "E970BB7B",
     "db2FileDataID": 1284817
+  },
+  {
+    "tableName": "AoiBox",
+    "tableHash": "8CB226B0",
+    "db2FileDataID": 2140223
   },
   {
     "tableName": "AreaConditionalData",
@@ -575,6 +585,11 @@
     "db2FileDataID": 3055696
   },
   {
+    "tableName": "CharStartOutfit",
+    "tableHash": "7B41F581",
+    "db2FileDataID": 1237591
+  },
+  {
     "tableName": "CharTitles",
     "tableHash": "85DF9E8E",
     "db2FileDataID": 1349054
@@ -1053,6 +1068,11 @@
     "tableName": "CreatureSoundFidget",
     "tableHash": "3B57C0A1",
     "db2FileDataID": 4178576
+  },
+  {
+    "tableName": "CreatureSpellData",
+    "tableHash": "1432E3ED",
+    "db2FileDataID": 3032554
   },
   {
     "tableName": "CreatureType",
@@ -1670,6 +1690,11 @@
     "db2FileDataID": 948496
   },
   {
+    "tableName": "GlyphSlot",
+    "tableHash": "161B1DE4",
+    "db2FileDataID": 1130095
+  },
+  {
     "tableName": "GMSurveyAnswers",
     "tableHash": "4405A1CA",
     "db2FileDataID": 1283025
@@ -2110,6 +2135,16 @@
     "db2FileDataID": 1121231
   },
   {
+    "tableName": "ItemRandomProperties",
+    "tableHash": "04BD338F",
+    "db2FileDataID": 1237441
+  },
+  {
+    "tableName": "ItemRandomSuffix",
+    "tableHash": "E6811147",
+    "db2FileDataID": 1237592
+  },
+  {
     "tableName": "ItemRangedDisplayInfo",
     "tableHash": "88EAC09B",
     "db2FileDataID": 1270315
@@ -2163,6 +2198,11 @@
     "tableName": "ItemSubClassMask",
     "tableHash": "E5F0B775",
     "db2FileDataID": 1302852
+  },
+  {
+    "tableName": "ItemUpgrade",
+    "tableHash": "7006463B",
+    "db2FileDataID": 801687
   },
   {
     "tableName": "ItemVisuals",
@@ -2263,6 +2303,11 @@
     "tableName": "LanguageWords",
     "tableHash": "E849437C",
     "db2FileDataID": 984702
+  },
+  {
+    "tableName": "LFGDungeonExpansion",
+    "tableHash": "F1FFC748",
+    "db2FileDataID": 1343606
   },
   {
     "tableName": "LFGDungeonGroup",
@@ -2448,6 +2493,11 @@
     "tableName": "MapDifficulty",
     "tableHash": "9265F70D",
     "db2FileDataID": 1367868
+  },
+  {
+    "tableName": "MapDifficultyRedirect",
+    "tableHash": "7EDE088D",
+    "db2FileDataID": 4913557
   },
   {
     "tableName": "MapDifficultyXCondition",
@@ -2808,6 +2858,16 @@
     "tableName": "PerksVendorItemXInterval",
     "tableHash": "1A2C5539",
     "db2FileDataID": 4872513
+  },
+  {
+    "tableName": "PetLoyalty",
+    "tableHash": "15427D8F",
+    "db2FileDataID": 2179604
+  },
+  {
+    "tableName": "PetPersonality",
+    "tableHash": "29A92016",
+    "db2FileDataID": 2179609
   },
   {
     "tableName": "Phase",
@@ -3180,9 +3240,24 @@
     "db2FileDataID": 3405440
   },
   {
+    "tableName": "RulesetItemUpgrade",
+    "tableHash": "6DB7086C",
+    "db2FileDataID": 801749
+  },
+  {
     "tableName": "RuneforgeLegendaryAbility",
     "tableHash": "873B0D9E",
     "db2FileDataID": 3500241
+  },
+  {
+    "tableName": "ScalingStatDistribution",
+    "tableHash": "45D2FA27",
+    "db2FileDataID": 1141728
+  },
+  {
+    "tableName": "ScalingStatValues",
+    "tableHash": "DCADDCF6",
+    "db2FileDataID": 4719537
   },
   {
     "tableName": "Scenario",
@@ -3283,6 +3358,11 @@
     "tableName": "SkillLineAbility",
     "tableHash": "FF4446F6",
     "db2FileDataID": 1266278
+  },
+  {
+    "tableName": "SkillLineCategory",
+    "tableHash": "E9300AAA",
+    "db2FileDataID": 2179610
   },
   {
     "tableName": "SkillLineXTraitTree",
@@ -3553,6 +3633,11 @@
     "tableName": "SpellCooldowns",
     "tableHash": "F9F37C57",
     "db2FileDataID": 1139924
+  },
+  {
+    "tableName": "SpellCraftUI",
+    "tableHash": "DCF5DECC",
+    "db2FileDataID": 2620904
   },
   {
     "tableName": "SpellDescriptionVariables",
@@ -3850,6 +3935,11 @@
     "db2FileDataID": 2056369
   },
   {
+    "tableName": "StableSlotPrices",
+    "tableHash": "12F89E8D",
+    "db2FileDataID": 2179613
+  },
+  {
     "tableName": "Startup_Strings",
     "tableHash": "FB0657CD",
     "db2FileDataID": 1375805
@@ -3883,6 +3973,11 @@
     "tableName": "Talent",
     "tableHash": "F9A4265F",
     "db2FileDataID": 1369062
+  },
+  {
+    "tableName": "TalentTab",
+    "tableHash": "425D88C8",
+    "db2FileDataID": 2178102
   },
   {
     "tableName": "TaxiNodes",
@@ -4573,6 +4668,11 @@
     "tableName": "WorldStateExpression",
     "tableHash": "1D53EB74",
     "db2FileDataID": 1332558
+  },
+  {
+    "tableName": "WorldStateUI",
+    "tableHash": "31314060",
+    "db2FileDataID": 1343596
   },
   {
     "tableName": "WorldStateZoneSounds",
