@@ -16,6 +16,22 @@ int OrderIndex
 float Phase
 float RadiusMax
 float RadiusMin
+int Field_10_0_7_47910_000?
+int Field_10_0_7_47910_001?
+float Field_10_0_7_47910_002?
+float Field_10_0_7_47910_003?
+float Field_10_0_7_47910_004?
+float Field_10_0_7_47910_005?
+float Field_10_0_7_47910_006?
+float Field_10_0_7_47910_007?
+float Field_10_0_7_47910_008?
+float Field_10_0_7_47910_009?
+int Field_10_0_7_47910_010?
+int Field_10_0_7_47910_011?
+int Field_10_0_7_47910_012?
+int Field_10_0_7_47910_013?
+int Field_10_0_7_47910_014?
+int Field_10_0_7_47910_015?
 
 LAYOUT 0CAA2689
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -152,3 +168,23 @@ DirectionType<u8>
 MovementType<u8>
 AttenuationType<8>
 $noninline,relation$CameraEffectID<32>
+
+LAYOUT 10047B37
+BUILD 10.0.7.47910
+$noninline,id$ID<32>
+Field_10_0_7_47910_000<u8>
+Field_10_0_7_47910_001<u32>
+Field_10_0_7_47910_002
+Field_10_0_7_47910_003
+Field_10_0_7_47910_004
+Field_10_0_7_47910_005
+Field_10_0_7_47910_006
+Field_10_0_7_47910_007
+Field_10_0_7_47910_008
+Field_10_0_7_47910_009
+Field_10_0_7_47910_010<u8>
+Field_10_0_7_47910_011<8>
+Field_10_0_7_47910_012<u8>
+Field_10_0_7_47910_013<u8>
+Field_10_0_7_47910_014<8>
+$noninline,relation$Field_10_0_7_47910_015<32>

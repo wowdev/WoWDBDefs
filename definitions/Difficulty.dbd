@@ -13,6 +13,19 @@ int<Curve::ID> GroupSizeSpellPointsCurveID
 locstring Name_lang
 int ItemContext
 int OrderIndex
+locstring Field_10_0_7_47910_000_lang?
+int Field_10_0_7_47910_001?
+int Field_10_0_7_47910_002?
+int Field_10_0_7_47910_003?
+int Field_10_0_7_47910_004?
+int Field_10_0_7_47910_005?
+int Field_10_0_7_47910_006?
+int Field_10_0_7_47910_007?
+int Field_10_0_7_47910_008?
+int Field_10_0_7_47910_009?
+int Field_10_0_7_47910_010?
+int Field_10_0_7_47910_011?
+int Field_10_0_7_47910_012?
 
 LAYOUT 21EAE538
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -203,3 +216,20 @@ ToggleDifficultyID<u8>
 GroupSizeHealthCurveID<u16>
 GroupSizeDmgCurveID<u16>
 GroupSizeSpellPointsCurveID<u16>
+
+LAYOUT D3044EE8
+BUILD 10.0.7.47910
+$noninline,id$ID<32>
+Field_10_0_7_47910_000_lang
+Field_10_0_7_47910_001<u8>
+Field_10_0_7_47910_002<u8>
+Field_10_0_7_47910_003<8>
+Field_10_0_7_47910_004<u8>
+Field_10_0_7_47910_005<u8>
+Field_10_0_7_47910_006<u8>
+Field_10_0_7_47910_007<u16>
+Field_10_0_7_47910_008<u8>
+Field_10_0_7_47910_009<u8>
+Field_10_0_7_47910_010<u32>
+Field_10_0_7_47910_011<u32>
+Field_10_0_7_47910_012<u32>

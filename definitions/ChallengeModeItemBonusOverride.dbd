@@ -6,6 +6,13 @@ int Level // Type == MythicPlus => keystone level, Type == Pvp => PvpTier
 int<MythicPlusSeason::ID> MythicPlusSeasonID
 int<PvpSeason::ID> PvPSeasonID
 int<ItemBonusTree::ID> ParentItemBonusTreeID
+int Field_10_0_7_47910_000?
+int Field_10_0_7_47910_001?
+int Field_10_0_7_47910_002?
+int Field_10_0_7_47910_003?
+int Field_10_0_7_47910_004?
+int Field_10_0_7_47910_005?
+int Field_10_0_7_47910_006?
 
 LAYOUT 95841908, D948D3F0
 BUILD 10.0.0.43342
@@ -41,3 +48,14 @@ Level<32>
 MythicPlusSeasonID<32>
 PvPSeasonID<32>
 $noninline,relation$ParentItemBonusTreeID<32>
+
+LAYOUT B5EA51A7
+BUILD 10.0.7.47910
+$noninline,id$ID<32>
+Field_10_0_7_47910_000<32>
+Field_10_0_7_47910_001<32>
+Field_10_0_7_47910_002<8>
+Field_10_0_7_47910_003<32>
+Field_10_0_7_47910_004<32>
+Field_10_0_7_47910_005<32>
+$noninline,relation$Field_10_0_7_47910_006<32>

@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<ItemAppearance::ID> ItemAppearanceID
 int<UiCamera::ID> UiCameraID
+int Field_10_0_7_47910_000?
+int Field_10_0_7_47910_001?
 
 LAYOUT 67747E15, CD3677FD, 774578C5
 BUILD 10.0.0.43342
@@ -52,3 +54,9 @@ BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.438
 $noninline,id$ID<32>
 ItemAppearanceID<u16>
 UiCameraID<u16>
+
+LAYOUT D239EB9B
+BUILD 10.0.7.47910
+$noninline,id$ID<32>
+Field_10_0_7_47910_000<u32>
+Field_10_0_7_47910_001<u16>

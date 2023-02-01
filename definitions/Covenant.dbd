@@ -9,6 +9,16 @@ int<Spell::ID> Field_9_0_2_36165_006?
 int<Spell::ID> Field_9_0_2_36165_007?
 int<Faction::ID> FactionID
 int Field_10_0_0_45141_008?
+locstring Field_10_0_7_47910_000_lang?
+locstring Field_10_0_7_47910_001_lang?
+int Field_10_0_7_47910_002?
+int Field_10_0_7_47910_003?
+int Field_10_0_7_47910_004?
+int Field_10_0_7_47910_005?
+int Field_10_0_7_47910_006?
+int Field_10_0_7_47910_007?
+int Field_10_0_7_47910_008?
+int Field_10_0_7_47910_009?
 
 LAYOUT 0CA77A5C
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098
@@ -109,3 +119,17 @@ Field_9_0_2_36165_006<32>
 Field_9_0_2_36165_007<32>
 FactionID<32>
 Field_10_0_0_45141_008<32>
+
+LAYOUT 1918652F
+BUILD 10.0.7.47910
+$noninline,id$ID<32>
+Field_10_0_7_47910_000_lang
+Field_10_0_7_47910_001_lang
+Field_10_0_7_47910_002<32>
+Field_10_0_7_47910_003<32>
+Field_10_0_7_47910_004<32>
+Field_10_0_7_47910_005<32>
+Field_10_0_7_47910_006<32>
+Field_10_0_7_47910_007<32>
+Field_10_0_7_47910_008<32>
+Field_10_0_7_47910_009<32>

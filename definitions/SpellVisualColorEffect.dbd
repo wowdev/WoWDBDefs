@@ -11,6 +11,17 @@ int<Curve::ID> OpacityCurveID
 int<Positioner::ID> PositionerID
 int<Curve::ID> RedCurveID
 int Type
+float Field_10_0_7_47910_000?
+int Field_10_0_7_47910_001?
+int Field_10_0_7_47910_002?
+int Field_10_0_7_47910_003?
+int Field_10_0_7_47910_004?
+int Field_10_0_7_47910_005?
+int Field_10_0_7_47910_006?
+int Field_10_0_7_47910_007?
+int Field_10_0_7_47910_008?
+float Field_10_0_7_47910_009?
+int Field_10_0_7_47910_010?
 
 LAYOUT 83A4A24B
 BUILD 3.4.1.46722, 3.4.1.46917, 3.4.1.46973, 3.4.1.47014, 3.4.1.47110, 3.4.1.47245, 3.4.1.47496, 3.4.1.47585, 3.4.1.47612, 3.4.1.47720, 3.4.1.47800
@@ -123,3 +134,18 @@ AlphaCurveID<u16>
 OpacityCurveID<u16>
 ColorMultiplier
 PositionerID<u32>
+
+LAYOUT 3D80C011
+BUILD 10.0.7.47910
+$noninline,id$ID<32>
+Field_10_0_7_47910_000
+Field_10_0_7_47910_001<32>
+Field_10_0_7_47910_002<u8>
+Field_10_0_7_47910_003<u8>
+Field_10_0_7_47910_004<u32>
+Field_10_0_7_47910_005<u32>
+Field_10_0_7_47910_006<u32>
+Field_10_0_7_47910_007<u32>
+Field_10_0_7_47910_008<u32>
+Field_10_0_7_47910_009
+Field_10_0_7_47910_010<u32>

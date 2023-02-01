@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int Field_9_2_0_42069_000?
 int Field_9_2_0_42069_001?
+int Field_10_0_7_47910_000?
+int Field_10_0_7_47910_001?
 
 LAYOUT D18146A8
 BUILD 10.0.0.43342
@@ -20,3 +22,9 @@ BUILD 9.2.5.43519, 9.2.5.43630, 9.2.5.43741, 9.2.5.43810, 9.2.5.43903, 9.2.5.439
 $noninline,id$ID<32>
 Field_9_2_0_42069_000<32>
 $noninline,relation$Field_9_2_0_42069_001<32>
+
+LAYOUT F3BB739B
+BUILD 10.0.7.47910
+$noninline,id$ID<32>
+$relation$Field_10_0_7_47910_000<32>
+Field_10_0_7_47910_001<32>

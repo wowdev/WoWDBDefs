@@ -8,6 +8,14 @@ int Type // {0, 2}: interact, {1, 17}: obtain, {3, 9}: kill, 4: ???, {11, 12}: p
 int ObjectID // depending on Type: {0, 3, 11}: CreatureID, 1: ItemID, 2: GameObjectID, 4: ???, 9: ???, 12: BattlePetSpeciesID, 14: CriteriaTreeID, 15: 0, 17: CurrencyTypesID, 19: ???
 locstring Description_lang
 int Flags
+locstring Field_10_0_7_47910_000_lang?
+int Field_10_0_7_47910_001?
+int Field_10_0_7_47910_002?
+int Field_10_0_7_47910_003?
+int Field_10_0_7_47910_004?
+int Field_10_0_7_47910_005?
+int Field_10_0_7_47910_006?
+int Field_10_0_7_47910_007?
 
 LAYOUT 7F5AB0E6
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -128,3 +136,15 @@ OrderIndex<u8>
 Flags<32>
 StorageIndex<u8>
 $noninline,relation$QuestID<32>
+
+LAYOUT 6F7AE236
+BUILD 10.0.7.47910
+$noninline,id$ID<32>
+Field_10_0_7_47910_000_lang
+Field_10_0_7_47910_001<32>
+Field_10_0_7_47910_002<32>
+Field_10_0_7_47910_003<32>
+Field_10_0_7_47910_004<u8>
+Field_10_0_7_47910_005<32>
+Field_10_0_7_47910_006<u8>
+$noninline,relation$Field_10_0_7_47910_007<32>
