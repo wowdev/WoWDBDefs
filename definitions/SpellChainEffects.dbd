@@ -66,66 +66,6 @@ float VariancePerFlipFrame
 int<Curve::ID> WidthScaleCurveID
 int Padding_4_0_0_11792_044?
 string Combo
-float Field_10_0_7_47910_000?
-float Field_10_0_7_47910_001?
-float Field_10_0_7_47910_002?
-int Field_10_0_7_47910_003?
-int Field_10_0_7_47910_004?
-int Field_10_0_7_47910_005?
-int Field_10_0_7_47910_006?
-float Field_10_0_7_47910_007?
-int Field_10_0_7_47910_008?
-int Field_10_0_7_47910_009?
-float Field_10_0_7_47910_010?
-float Field_10_0_7_47910_011?
-float Field_10_0_7_47910_012?
-float Field_10_0_7_47910_013?
-float Field_10_0_7_47910_014?
-float Field_10_0_7_47910_015?
-float Field_10_0_7_47910_016?
-float Field_10_0_7_47910_017?
-float Field_10_0_7_47910_018?
-float Field_10_0_7_47910_019?
-float Field_10_0_7_47910_020?
-float Field_10_0_7_47910_021?
-float Field_10_0_7_47910_022?
-float Field_10_0_7_47910_023?
-float Field_10_0_7_47910_024?
-float Field_10_0_7_47910_025?
-float Field_10_0_7_47910_026?
-float Field_10_0_7_47910_027?
-float Field_10_0_7_47910_028?
-float Field_10_0_7_47910_029?
-float Field_10_0_7_47910_030?
-float Field_10_0_7_47910_031?
-float Field_10_0_7_47910_032?
-float Field_10_0_7_47910_033?
-float Field_10_0_7_47910_034?
-float Field_10_0_7_47910_035?
-int Field_10_0_7_47910_036?
-int Field_10_0_7_47910_037?
-int Field_10_0_7_47910_038?
-int Field_10_0_7_47910_039?
-int Field_10_0_7_47910_040?
-int Field_10_0_7_47910_041?
-float Field_10_0_7_47910_042?
-float Field_10_0_7_47910_043?
-float Field_10_0_7_47910_044?
-int Field_10_0_7_47910_045?
-float Field_10_0_7_47910_046?
-float Field_10_0_7_47910_047?
-int Field_10_0_7_47910_048?
-int Field_10_0_7_47910_049?
-int Field_10_0_7_47910_050?
-int Field_10_0_7_47910_051?
-float Field_10_0_7_47910_052?
-float Field_10_0_7_47910_053?
-int Field_10_0_7_47910_054?
-float Field_10_0_7_47910_055?
-float Field_10_0_7_47910_056?
-float Field_10_0_7_47910_057?
-float Field_10_0_7_47910_058?
-int Field_10_0_7_47910_059?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.6.6337
@@ -872,63 +812,63 @@ TextureFileDataID<32>[3]
 LAYOUT 5DA65BBA
 BUILD 10.0.7.47910
 $noninline,id$ID<32>
-Field_10_0_7_47910_000
-Field_10_0_7_47910_001
-Field_10_0_7_47910_002
-Field_10_0_7_47910_003<u32>
-Field_10_0_7_47910_004<u16>
-Field_10_0_7_47910_005<32>
-Field_10_0_7_47910_006<u16>
-Field_10_0_7_47910_007
-Field_10_0_7_47910_008<u8>
-Field_10_0_7_47910_009<u8>
-Field_10_0_7_47910_010
-Field_10_0_7_47910_011
-Field_10_0_7_47910_012
-Field_10_0_7_47910_013
-Field_10_0_7_47910_014
-Field_10_0_7_47910_015
-Field_10_0_7_47910_016
-Field_10_0_7_47910_017
-Field_10_0_7_47910_018
-Field_10_0_7_47910_019
-Field_10_0_7_47910_020
-Field_10_0_7_47910_021
-Field_10_0_7_47910_022
-Field_10_0_7_47910_023
-Field_10_0_7_47910_024
-Field_10_0_7_47910_025
-Field_10_0_7_47910_026
-Field_10_0_7_47910_027
-Field_10_0_7_47910_028
-Field_10_0_7_47910_029
-Field_10_0_7_47910_030
-Field_10_0_7_47910_031
-Field_10_0_7_47910_032
-Field_10_0_7_47910_033
-Field_10_0_7_47910_034
-Field_10_0_7_47910_035
-Field_10_0_7_47910_036<u8>
-Field_10_0_7_47910_037<u8>
-Field_10_0_7_47910_038<u8>
-Field_10_0_7_47910_039<u8>
-Field_10_0_7_47910_040<u8>
-Field_10_0_7_47910_041<u8>
-Field_10_0_7_47910_042
-Field_10_0_7_47910_043
-Field_10_0_7_47910_044
-Field_10_0_7_47910_045<u32>
-Field_10_0_7_47910_046
-Field_10_0_7_47910_047
-Field_10_0_7_47910_048<u32>
-Field_10_0_7_47910_049<u8>
-Field_10_0_7_47910_050<u8>
-Field_10_0_7_47910_051<u32>
-Field_10_0_7_47910_052
-Field_10_0_7_47910_053
-Field_10_0_7_47910_054<u16>[11]
-Field_10_0_7_47910_055[3]
-Field_10_0_7_47910_056[3]
-Field_10_0_7_47910_057[3]
-Field_10_0_7_47910_058[3]
-Field_10_0_7_47910_059<32>[3]
+AvgSegLen
+NoiseScale
+TexCoordScale
+SegDuration<u32>
+SegDelay<u16>
+Flags<32>
+JointCount<u16>
+JointOffsetRadius
+JointsPerMinorJoint<u8>
+MinorJointsPerMajorJoint<u8>
+MinorJointScale
+MajorJointScale
+JointMoveSpeed
+JointSmoothness
+MinDurationBetweenJointJumps
+MaxDurationBetweenJointJumps
+WaveHeight
+WaveFreq
+WaveSpeed
+MinWaveAngle
+MaxWaveAngle
+MinWaveSpin
+MaxWaveSpin
+ArcHeight
+MinArcAngle
+MaxArcAngle
+MinArcSpin
+MaxArcSpin
+DelayBetweenEffects
+MinFlickerOnDuration
+MaxFlickerOnDuration
+MinFlickerOffDuration
+MaxFlickerOffDuration
+PulseSpeed
+PulseOnLength
+PulseFadeLength
+Alpha<u8>
+Red<u8>
+Green<u8>
+Blue<u8>
+BlendMode<u8>
+RenderLayer<u8>
+WavePhase
+TimePerFlipFrame
+VariancePerFlipFrame
+TextureParticleFileDataID<u32>
+StartWidth
+EndWidth
+WidthScaleCurveID<u32>
+NumFlipFramesU<u8>
+NumFlipFramesV<u8>
+SoundKitID<u32>
+ParticleScaleMultiplier
+ParticleEmissionRateMultiplier
+SpellChainEffectID<u16>[11]
+TextureCoordScaleU[3]
+TextureCoordScaleV[3]
+TextureRepeatLengthU[3]
+TextureRepeatLengthV[3]
+TextureFileDataID<32>[3]

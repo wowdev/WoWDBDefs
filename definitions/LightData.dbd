@@ -46,52 +46,6 @@ float Field_9_1_0_38312_037?
 int Field_9_1_0_38312_041?
 float Field_9_1_0_38312_044?
 int Field_10_0_0_44649_042?
-int Field_10_0_7_47910_000?
-int Field_10_0_7_47910_001?
-int Field_10_0_7_47910_002?
-int Field_10_0_7_47910_003?
-int Field_10_0_7_47910_004?
-int Field_10_0_7_47910_005?
-int Field_10_0_7_47910_006?
-int Field_10_0_7_47910_007?
-int Field_10_0_7_47910_008?
-int Field_10_0_7_47910_009?
-int Field_10_0_7_47910_010?
-int Field_10_0_7_47910_011?
-int Field_10_0_7_47910_012?
-int Field_10_0_7_47910_013?
-int Field_10_0_7_47910_014?
-int Field_10_0_7_47910_015?
-int Field_10_0_7_47910_016?
-int Field_10_0_7_47910_017?
-int Field_10_0_7_47910_018?
-int Field_10_0_7_47910_019?
-float Field_10_0_7_47910_020?
-float Field_10_0_7_47910_021?
-float Field_10_0_7_47910_022?
-float Field_10_0_7_47910_023?
-float Field_10_0_7_47910_024?
-float Field_10_0_7_47910_025?
-float Field_10_0_7_47910_026?
-float Field_10_0_7_47910_027?
-float Field_10_0_7_47910_028?
-float Field_10_0_7_47910_029?
-float Field_10_0_7_47910_030?
-int Field_10_0_7_47910_031?
-int Field_10_0_7_47910_032?
-int Field_10_0_7_47910_033?
-int Field_10_0_7_47910_034?
-int Field_10_0_7_47910_035?
-float Field_10_0_7_47910_036?
-float Field_10_0_7_47910_037?
-int Field_10_0_7_47910_038?
-float Field_10_0_7_47910_039?
-int Field_10_0_7_47910_040?
-int Field_10_0_7_47910_041?
-int Field_10_0_7_47910_042?
-float Field_10_0_7_47910_043?
-float Field_10_0_7_47910_044?
-float Field_10_0_7_47910_045?
 
 LAYOUT 9E95F375
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475, 2.5.1.39603, 2.5.1.39640
@@ -740,49 +694,49 @@ Field_9_1_0_38312_044[4]
 LAYOUT 1D523CA5
 BUILD 10.0.7.47910
 $noninline,id$ID<32>
-$relation$Field_10_0_7_47910_000<u16>
-Field_10_0_7_47910_001<u16>
-Field_10_0_7_47910_002<32>
-Field_10_0_7_47910_003<32>
-Field_10_0_7_47910_004<32>
-Field_10_0_7_47910_005<32>
-Field_10_0_7_47910_006<32>
-Field_10_0_7_47910_007<32>
-Field_10_0_7_47910_008<32>
-Field_10_0_7_47910_009<32>
-Field_10_0_7_47910_010<32>
-Field_10_0_7_47910_011<32>
-Field_10_0_7_47910_012<32>
-Field_10_0_7_47910_013<32>
-Field_10_0_7_47910_014<32>
-Field_10_0_7_47910_015<32>
-Field_10_0_7_47910_016<32>
-Field_10_0_7_47910_017<32>
-Field_10_0_7_47910_018<32>
-Field_10_0_7_47910_019<32>
-Field_10_0_7_47910_020
-Field_10_0_7_47910_021
-Field_10_0_7_47910_022
-Field_10_0_7_47910_023
-Field_10_0_7_47910_024
-Field_10_0_7_47910_025
-Field_10_0_7_47910_026
-Field_10_0_7_47910_027
-Field_10_0_7_47910_028
-Field_10_0_7_47910_029
-Field_10_0_7_47910_030
-Field_10_0_7_47910_031<u32>
-Field_10_0_7_47910_032<u32>
-Field_10_0_7_47910_033<32>
-Field_10_0_7_47910_034<32>
-Field_10_0_7_47910_035<32>
-Field_10_0_7_47910_036
-Field_10_0_7_47910_037
-Field_10_0_7_47910_038<32>
-Field_10_0_7_47910_039
-Field_10_0_7_47910_040<32>
-Field_10_0_7_47910_041<32>
-Field_10_0_7_47910_042<32>
-Field_10_0_7_47910_043[4]
-Field_10_0_7_47910_044[4]
-Field_10_0_7_47910_045[4]
+$relation$LightParamID<u16>
+Time<u16>
+DirectColor<32>
+AmbientColor<32>
+SkyTopColor<32>
+SkyMiddleColor<32>
+SkyBand1Color<32>
+SkyBand2Color<32>
+SkySmogColor<32>
+SkyFogColor<32>
+SunColor<32>
+CloudSunColor<32>
+CloudEmissiveColor<32>
+CloudLayer1AmbientColor<32>
+CloudLayer2AmbientColor<32>
+OceanCloseColor<32>
+OceanFarColor<32>
+RiverCloseColor<32>
+RiverFarColor<32>
+ShadowOpacity<32>
+FogEnd
+FogScaler
+FogDensity
+FogHeight
+FogHeightScaler
+FogHeightDensity
+Field_9_0_1_33978_026
+Field_9_1_0_38312_027
+Field_9_1_0_38312_028
+SunFogAngle
+CloudDensity
+ColorGradingFileDataID<u32>
+DarkerColorGradingFileDataID<u32>
+HorizonAmbientColor<32>
+GroundAmbientColor<32>
+EndFogColor<32>
+EndFogColorDistance
+Field_9_1_0_38312_037
+SunFogColor<32>
+SunFogStrength
+FogHeightColor<32>
+Field_9_1_0_38312_041<32>
+Field_10_0_0_44649_042<32>
+FogHeightCoefficients[4]
+MainFogCoefficients[4]
+Field_9_1_0_38312_044[4]
