@@ -104,7 +104,7 @@ for file in dbds:
 	fkeys:list[str]   = [];
 	entry:dbd.definition_entry
 	for entry in definition.entries:
-		column = f"`{entry.column}` {get_sql_type(types.get(entry.column))}";
+		column = f"`{entry.column}` {get_sql_type(types.get(entry.column), entry.int_width, entry.is_unsigned)}";
 		if 'id' in entry.annotation:
 			column += ' PRIMARY KEY';
 		elif entry.column in foreigns.keys():
