@@ -3,6 +3,7 @@
 import dbd
 import os
 from argparse import ArgumentParser
+from collections import defaultdict
 from glob import glob
 
 script_dir:str = os.path.dirname(os.path.abspath(__file__));
@@ -67,27 +68,32 @@ def get_sql_type(type:str, int_width:int=0, is_unsigned:bool=False)->str:
 
 	return f"{type} DEFAULT {default}";
 
-file:str
-for file in dbds:
+keys:dict[str, dict[str, str]] = defaultdict(dict);
+def process_dbd(file:str)->bool:
 	parsed:dbd.dbd_file = dbd.parse_dbd_file(file);
 	if not len(parsed.definitions):
 		print(f"No definitions found in {file}! Skipping");
-		continue;
+		return False;
+
+	dirname:str = os.path.dirname(file);
+	name:str = os.path.splitext(os.path.basename(file))[0];
+	if keys.get(name, None):
+		return True; # Already processed
 
 	types:dict[str,str] = {};
-	foreigns:dict[str,str] = {};
+	foreigns:dict[str,list[str]] = {};
 	column:dbd.column_definition
 	for column in parsed.columns:
 		types[column.name] = column.type;
 		if column.foreign:
-			foreigns[column.name] = f"FOREIGN KEY (`{column.name}`) REFERENCES `{column.foreign.table}` (`{column.foreign.column}`) ON DELETE NO ACTION ON UPDATE NO ACTION";
+			foreigns[column.name] = column.foreign;
 
 	definition:dbd.definitions = None;
 	if args.layout:
 		definition = next(defn for defn in parsed.definitions if args.layout in defn.layouts);
 		if not definition:
 			print(f"No definition found for layout {args.layout}! Skipping");
-			continue;
+			return False;
 	elif args.build:
 		definition = next(defn for defn in parsed.definitions if args.build in defn.builds);
 
@@ -96,25 +102,41 @@ for file in dbds:
 			lambda defn: max(getattr(build, 'build', getattr(build[-1], 'build', 0)) for build in defn.builds)
 		);
 
-	name:str = os.path.splitext(os.path.basename(file))[0];
-
 	# TODO: include comments in sql
 	columns:list[str] = [];
 	indices:list[str] = [];
 	fkeys:list[str]   = [];
 	entry:dbd.definition_entry
 	for entry in definition.entries:
-		column = f"`{entry.column}` {get_sql_type(types.get(entry.column), entry.int_width, entry.is_unsigned)}";
+		sql_type:str = get_sql_type(types.get(entry.column), entry.int_width, entry.is_unsigned);
+		suffix:str = '';
 		if 'id' in entry.annotation:
-			column += ' PRIMARY KEY';
-		elif entry.column in foreigns.keys():
-				fkeys.append(foreigns.get(entry.column));
+			suffix = 'PRIMARY KEY';
+			keys[name][entry.column] = sql_type;
+		elif (foreign := foreigns.get(entry.column, None)):
+			# TODO: unhack!
+			if not keys.get(foreign.table.string, {}).get(foreign.column.string, None):
+				foreign_dbd:str = next((f for f in dbds if os.path.basename(f) == f"{foreign.table}.dbd"), None);
+				if foreign_dbd:
+					if not process_dbd(foreign_dbd):
+						print(f"Could not process table {foreign.table} referenced by {name}.{entry.column}");
+						return False;
+				if not foreign_dbd:
+					print(f"FK {name}.{entry.column} references {foreign.column} in {foreign.table} which was not supplied");
+
+			sql_type = keys[foreign.table.string].get(foreign.column.string, None) or sql_type;
+			fkeys.append(
+				f"FOREIGN KEY (`{entry.column}`) "
+				f"REFERENCES `{foreign.table}` (`{foreign.column}`) "
+				'ON DELETE NO ACTION ON UPDATE NO ACTION'
+			);
 		elif 'relation' in entry.annotation:
+			keys[name][entry.column] = sql_type;
 			indices.append(f"INDEX (`{entry.column}`)");
 			# TODO: Get self-referencing keys to work
 			#fkeys.append(f"FOREIGN KEY (`{entry.column}`) REFERENCES `{name}` (`{entry.column}`) ON DELETE NO ACTION ON UPDATE NO ACTION");
 
-		columns.append(column);
+		columns.append(f"`{entry.column}` {sql_type} {suffix}");
 
 	fields:list[str] = [','.join(columns)];
 	if len(indices):
@@ -130,6 +152,11 @@ for file in dbds:
 	elif outdir:
 		with open(os.path.join(outdir, f"{name}.sql"), 'w') as file:
 			file.write(stmt);
+
+	return True;
+
+for file in dbds:
+	process_dbd(file);
 
 if outfile:
 	with open(outfile, 'a') as file:
