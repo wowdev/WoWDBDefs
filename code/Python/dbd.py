@@ -145,14 +145,20 @@ class build_version_raw:
         return "{}.{}.{}".format(self.major, self.minor, self.patch)
 
     def __lt__(self, rhs):
+        if type(rhs) == tuple:
+            rhs = rhs[0]
         return (self.major, self.minor, self.patch, self.build) \
                  < (rhs.major, rhs.minor, rhs.patch, rhs.build)
 
     def __le__(self, rhs):
+        if type(rhs) == tuple:
+            rhs = rhs[0]
         return (self.major, self.minor, self.patch, self.build) \
                <= (rhs.major, rhs.minor, rhs.patch, rhs.build)
 
     def __eq__(self, rhs):
+        if type(rhs) == tuple:
+            return rhs[0] <= self <= rhs[-1]
         return (self.major, self.minor, self.patch, self.build) \
                == (rhs.major, rhs.minor, rhs.patch, rhs.build)
 
@@ -161,10 +167,14 @@ class build_version_raw:
                != (rhs.major, rhs.minor, rhs.patch, rhs.build)
 
     def __gt__(self, rhs):
+        if type(rhs) == tuple:
+            rhs = rhs[-1]
         return (self.major, self.minor, self.patch, self.build) \
                > (rhs.major, rhs.minor, rhs.patch, rhs.build)
 
     def __ge__(self, rhs):
+        if type(rhs) == tuple:
+            rhs = rhs[-1]
         return (self.major, self.minor, self.patch, self.build) \
                >= (rhs.major, rhs.minor, rhs.patch, rhs.build)
 
@@ -174,10 +184,10 @@ class build_version_range(Grammar):
 
     def grammar_elem_init(self, sessiondata):
         lhs = self.elements[0]
+        lhs = build_version_raw(lhs.major, lhs.minor, lhs.patch, lhs.build)
         rhs = self.elements[1][1] if self.elements[1] else None
 
-        self.builds = (build_version_raw(lhs.major, lhs.minor, lhs.patch, lhs.build),
-                       build_version_raw(rhs.major, rhs.minor, rhs.patch, rhs.build)) if rhs else lhs
+        self.builds = (lhs, build_version_raw(rhs.major, rhs.minor, rhs.patch, rhs.build)) if rhs else lhs
 
 
 class definition_BUILD(Grammar):
