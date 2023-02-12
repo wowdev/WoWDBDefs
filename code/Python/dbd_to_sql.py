@@ -5,41 +5,39 @@ import os
 from argparse import ArgumentParser
 from collections import defaultdict
 from glob import glob
-
-script_dir:str = os.path.dirname(os.path.abspath(__file__));
+from io import TextIOWrapper
+from sys import stdout, stderr
 
 parser = ArgumentParser();
 group = parser.add_mutually_exclusive_group();
 group.add_argument('--layout', type=str, help="target layout, e.g. '90747013'");
 group.add_argument('--build', type=str, help="target build, e.g. '10.0.0.43342'");
 parser.add_argument('dbds', type=str, nargs='*', help='directory with / list of for dbd files to process');
-parser.add_argument('--output', type=str, default=os.path.join(script_dir, 'dbds.sql'), help='file or directory to dump sql to');
+parser.add_argument('--output', type=str, default=stdout, help='file to dump sql to');
 args = parser.parse_args();
 
 dbds:list[str] = args.dbds or os.path.join(
 	os.path.dirname( # WoWDBDefs/
 	os.path.dirname( # code/
-		script_dir   # Python/
-	)),
+	os.path.dirname( # Python/
+		os.path.abspath(__file__) # ./dbd_to_sql.py
+	))),
 	'definitions'
 );
 if not dbds[0].endswith(dbd.file_suffix):
 	dbds = glob(os.path.join(dbds[0], '*.dbd'));
 
-print(f"Found {len(dbds)} definitions to process");
+outfile:TextIOWrapper = args.output;
+if type(outfile) != TextIOWrapper:
+	outfile = open(outfile, 'a');
 
-outfile:str = args.output;
-outdir:str = '';
-if outfile.endswith('.sql'):
-	with open(outfile, 'w') as file:
-		file.write("SET SESSION FOREIGN_KEY_CHECKS=0;\n");
-else:
-	if not os.path.isdir(outfile):
-		os.makedirs(outfile);
-	outdir = outfile;
-	outfile = None;
+def log(*args, **kwargs)->None:
+	print(*args, file=stderr if outfile == stdout else stdout, **kwargs);
 
-print(f"Outputting to {outdir or outfile}");
+log(f"Found {len(dbds)} definitions to process");
+
+log(f"Outputting to {outfile}");
+outfile.write("SET SESSION FOREIGN_KEY_CHECKS=0;\n");
 
 def get_sql_type(type:str, int_width:int=0, is_unsigned:bool=False)->str:
 	type = {
@@ -72,7 +70,7 @@ keys:dict[str, dict[str, str]] = defaultdict(dict);
 def process_dbd(file:str)->bool:
 	parsed:dbd.dbd_file = dbd.parse_dbd_file(file);
 	if not len(parsed.definitions):
-		print(f"No definitions found in {file}! Skipping");
+		log(f"No definitions found in {file}! Skipping");
 		return False;
 
 	dirname:str = os.path.dirname(file);
@@ -92,7 +90,7 @@ def process_dbd(file:str)->bool:
 	if args.layout:
 		definition = next(defn for defn in parsed.definitions if args.layout in defn.layouts);
 		if not definition:
-			print(f"No definition found for layout {args.layout}! Skipping");
+			log(f"No definition found for layout {args.layout}! Skipping");
 			return False;
 	elif args.build:
 		definition = next(defn for defn in parsed.definitions if args.build in defn.builds);
@@ -119,10 +117,10 @@ def process_dbd(file:str)->bool:
 				foreign_dbd:str = next((f for f in dbds if os.path.basename(f) == f"{foreign.table}.dbd"), None);
 				if foreign_dbd:
 					if not process_dbd(foreign_dbd):
-						print(f"Could not process table {foreign.table} referenced by {name}.{entry.column}");
+						log(f"Could not process table {foreign.table} referenced by {name}.{entry.column}");
 						return False;
 				if not foreign_dbd:
-					print(f"FK {name}.{entry.column} references {foreign.column} in {foreign.table} which was not supplied");
+					log(f"FK {name}.{entry.column} references {foreign.column} in {foreign.table} which was not supplied");
 
 			sql_type = keys[foreign.table.string].get(foreign.column.string, None) or sql_type;
 			fkeys.append(
@@ -144,22 +142,12 @@ def process_dbd(file:str)->bool:
 	if len(fkeys):
 		fields.append(', '.join(fkeys));
 
-	stmt:str = f"CREATE OR REPLACE TABLE `{name}` ({', '.join(fields)})";
-
-	if outfile:
-		with open(outfile, 'a') as file:
-			file.write(f"{stmt};\n");
-	elif outdir:
-		with open(os.path.join(outdir, f"{name}.sql"), 'w') as file:
-			file.write(stmt);
-
+	outfile.write(f"CREATE OR REPLACE TABLE `{name}` ({', '.join(fields)});\n");
 	return True;
 
 for file in dbds:
 	process_dbd(file);
 
-if outfile:
-	with open(outfile, 'a') as file:
-		file.write("SET SESSION FOREIGN_KEY_CHECKS=1;\n");
-
-print('Done.');
+outfile.write("SET SESSION FOREIGN_KEY_CHECKS=1;\n");
+outfile.close();
+log('Done.');
