@@ -6,7 +6,7 @@ int<Item::ID> ItemID
 int Field_10_0_5_47118_004?
 int Field_10_0_5_47118_005?
 int Cost?
-int Field_10_0_5_47118_007?
+int<UiModelScene::ID> UiModelSceneID?
 
 LAYOUT 451B856E
 BUILD 10.0.7.47910, 10.0.7.47983
@@ -18,4 +18,4 @@ ItemID<32>
 Field_10_0_5_47118_004<32>
 Field_10_0_5_47118_005<32>
 Cost<32>
-Field_10_0_5_47118_007<32>
+UiModelSceneID<32>
