@@ -36,39 +36,6 @@ int<PlayerCondition::ID> Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
-locstring Field_3_4_1_46722_000_lang?
-locstring Field_3_4_1_46722_001_lang?
-int Field_3_4_1_46722_002?
-int Field_3_4_1_46722_003?
-int Field_3_4_1_46722_004?
-int Field_3_4_1_46722_005?
-int Field_3_4_1_46722_006?
-int Field_3_4_1_46722_007?
-int Field_3_4_1_46722_008?
-int Field_3_4_1_46722_009?
-int Field_3_4_1_46722_010?
-int Field_3_4_1_46722_011?
-int Field_3_4_1_46722_012?
-float Field_3_4_1_46722_013?
-int Field_3_4_1_46722_014?
-int Field_3_4_1_46722_015?
-int Field_3_4_1_46722_016?
-int Field_3_4_1_46722_017?
-int Field_3_4_1_46722_018?
-int Field_3_4_1_46722_019?
-int Field_3_4_1_46722_020?
-int Field_3_4_1_46722_021?
-int Field_3_4_1_46722_022?
-int Field_3_4_1_46722_023?
-int Field_3_4_1_46722_024?
-int Field_3_4_1_46722_025?
-int Field_3_4_1_46722_026?
-int Field_3_4_1_46722_027?
-int Field_3_4_1_46722_028?
-int Field_3_4_1_46722_029?
-int Field_3_4_1_46722_030?
-int Field_3_4_1_46722_031?
-int Field_3_4_1_46722_032?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -186,39 +153,39 @@ Flags<32>[2]
 LAYOUT 42F904E6
 BUILD 3.4.1.46722, 3.4.1.46917, 3.4.1.46973, 3.4.1.47014, 3.4.1.47110, 3.4.1.47245, 3.4.1.47496, 3.4.1.47585, 3.4.1.47612, 3.4.1.47720, 3.4.1.47800, 3.4.1.47925, 3.4.1.47966, 3.4.1.48019, 3.4.1.48120
 $noninline,id$ID<32>
-Field_3_4_1_46722_000_lang
-Field_3_4_1_46722_001_lang
-Field_3_4_1_46722_002<u8>
-Field_3_4_1_46722_003<u16>
-Field_3_4_1_46722_004<u8>
-Field_3_4_1_46722_005<u8>
-Field_3_4_1_46722_006<8>
-Field_3_4_1_46722_007<32>
-Field_3_4_1_46722_008<32>
-Field_3_4_1_46722_009<32>
-Field_3_4_1_46722_010<u8>
-Field_3_4_1_46722_011<16>
-Field_3_4_1_46722_012<u8>
-Field_3_4_1_46722_013
-Field_3_4_1_46722_014<u8>
-Field_3_4_1_46722_015<u8>
-Field_3_4_1_46722_016<u32>
-Field_3_4_1_46722_017<u8>
-Field_3_4_1_46722_018<u8>
-Field_3_4_1_46722_019<u16>
-Field_3_4_1_46722_020<u16>
-Field_3_4_1_46722_021<u16>
-Field_3_4_1_46722_022<u16>
-Field_3_4_1_46722_023<u8>
-Field_3_4_1_46722_024<u8>
-Field_3_4_1_46722_025<u8>
-Field_3_4_1_46722_026<u8>
-Field_3_4_1_46722_027<u8>
-Field_3_4_1_46722_028<u8>
-Field_3_4_1_46722_029<u16>
-Field_3_4_1_46722_030<u16>
-Field_3_4_1_46722_031<u8>
-Field_3_4_1_46722_032<32>[2]
+Name_lang
+Description_lang
+MinLevel<u8>
+MaxLevel<u16>
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
+MinGear
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
+Target_level<u8>
+Target_level_min<u8>
+Target_level_max<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MentorCharLevel<u8>
+Flags<32>[2]
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13623
