@@ -60,7 +60,7 @@ namespace DBDefsMerge
                 }
             }
 
-                File.WriteAllText(outFile, JsonSerializer.Serialize(outEntries.OrderBy(x => x.tableName).ToArray(), new JsonSerializerOptions() { WriteIndented = true }));
+            File.WriteAllText(outFile, JsonSerializer.Serialize(outEntries.OrderBy(x => x.tableName).ToArray(), new JsonSerializerOptions() { WriteIndented = true }));
         }
 
         public struct ManifestEntry
