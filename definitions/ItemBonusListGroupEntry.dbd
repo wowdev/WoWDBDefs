@@ -8,15 +8,6 @@ int<ItemBonusListGroup::ID> ItemBonusListGroupID
 int<PlayerCondition::ID> PlayerConditionID
 int Flags
 int<ItemLogicalCostGroup::ID> ItemLogicalCostGroupID?
-int Field_10_0_7_48220_000?
-int Field_10_0_7_48220_001?
-int Field_10_0_7_48220_002?
-int Field_10_0_7_48220_003?
-int Field_10_0_7_48220_004?
-int Field_10_0_7_48220_005?
-int Field_10_0_7_48220_006?
-int Field_10_0_7_48220_007?
-int Field_10_0_7_48220_008?
 
 LAYOUT 87A0CA78, CA17B2FF
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213
@@ -109,12 +100,12 @@ ItemLogicalCostGroupID<32>
 
 LAYOUT 17163D82
 BUILD 10.0.7.48220, 10.0.7.48295, 10.0.7.48439
-$id$Field_10_0_7_48220_000<32>
-$relation$Field_10_0_7_48220_001<32>
-Field_10_0_7_48220_002<32>
-Field_10_0_7_48220_003<32>
-Field_10_0_7_48220_004<32>
-Field_10_0_7_48220_005<32>
-Field_10_0_7_48220_006<32>
-Field_10_0_7_48220_007<32>
-Field_10_0_7_48220_008<32>
+$id$ID<32>
+$relation$ItemBonusListGroupID<32>
+ItemBonusListID<32>
+ItemLevelSelectorID<32>
+SequenceValue<32>
+ItemExtendedCostID<32>
+PlayerConditionID<32>
+Flags<32>
+ItemLogicalCostGroupID<32>
