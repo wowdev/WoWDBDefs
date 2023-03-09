@@ -4,7 +4,6 @@ int<Spell::ID> SequenceSpellID
 int<PlayerCondition::ID> PlayerConditionID?
 int<ItemExtendedCost::ID> ItemExtendedCostID?
 int<ItemLogicalCostGroup::ID> ItemLogicalCostGroupID?
-int Field_10_1_0_48480_000?
 int Field_10_1_0_48480_001?
 int Field_10_1_0_48480_002?
 int Field_10_1_0_48480_003?
@@ -50,7 +49,7 @@ ItemLogicalCostGroupID<32>
 LAYOUT F169B927
 BUILD 10.1.0.48480
 $noninline,id$ID<32>
-Field_10_1_0_48480_000<32>
+SequenceSpellID<32>
 Field_10_1_0_48480_001<32>
 Field_10_1_0_48480_002<32>
 Field_10_1_0_48480_003<32>

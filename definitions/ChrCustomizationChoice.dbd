@@ -11,17 +11,7 @@ int SwatchColor1?
 int SwatchColor2?
 int SwatchColor?
 int AddedInPatch?
-locstring Field_10_1_0_48480_000_lang?
-int Field_10_1_0_48480_001?
-int Field_10_1_0_48480_002?
-int Field_10_1_0_48480_003?
-int Field_10_1_0_48480_004?
-int Field_10_1_0_48480_005?
-int Field_10_1_0_48480_006?
-int Field_10_1_0_48480_007?
-int Field_10_1_0_48480_008?
 int Field_10_1_0_48480_009?
-int Field_10_1_0_48480_010?
 
 LAYOUT B0D9E998
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463
@@ -156,14 +146,14 @@ SwatchColor<32>[2]
 
 LAYOUT AA548AE1
 BUILD 10.1.0.48480
-Field_10_1_0_48480_000_lang
-$id$Field_10_1_0_48480_001<32>
-$relation$Field_10_1_0_48480_002<32>
-Field_10_1_0_48480_003<32>
-Field_10_1_0_48480_004<32>
-Field_10_1_0_48480_005<u16>
-Field_10_1_0_48480_006<u16>
-Field_10_1_0_48480_007<32>
-Field_10_1_0_48480_008<32>
+Name_lang
+$id$ID<32>
+$relation$ChrCustomizationOptionID<32>
+ChrCustomizationReqID<32>
+ChrCustomizationVisReqID<32>
+OrderIndex<u16>
+UiOrderIndex<u16>
+Flags<32>
+AddedInPatch<32>
 Field_10_1_0_48480_009<32>
-Field_10_1_0_48480_010<32>[2]
+SwatchColor<32>[2]
