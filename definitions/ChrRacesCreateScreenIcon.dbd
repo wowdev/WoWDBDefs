@@ -3,6 +3,10 @@ int ID?
 int<ChrRaces::ID> ChrRacesID?
 int Sex? // mask: 1: male, 2: female, 3: male+female
 int<UiTextureAtlasElement::ID> RaceIcon?
+int Field_10_1_0_48480_000?
+int Field_10_1_0_48480_001?
+int Field_10_1_0_48480_002?
+int Field_10_1_0_48480_003?
 
 LAYOUT D69ECEFF
 BUILD 10.0.7.47910, 10.0.7.47983, 10.0.7.48076, 10.0.7.48220, 10.0.7.48295, 10.0.7.48439
@@ -13,3 +17,10 @@ $id$ID<32>
 ChrRacesID<32>
 Sex<8>
 RaceIcon<32>
+
+LAYOUT 892075D2
+BUILD 10.1.0.48480
+$id$Field_10_1_0_48480_000<32>
+$relation$Field_10_1_0_48480_001<32>
+Field_10_1_0_48480_002<8>
+Field_10_1_0_48480_003<32>

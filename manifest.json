@@ -16,6 +16,16 @@
     "tableHash": "E3614CCD"
   },
   {
+    "tableName": "ActionBarGroup",
+    "tableHash": "7937C8E5",
+    "db2FileDataID": 4572795
+  },
+  {
+    "tableName": "ActionBarGroupEntry",
+    "tableHash": "77A74EDB",
+    "db2FileDataID": 4572797
+  },
+  {
     "tableName": "AdventureJournal",
     "tableHash": "8EEF1A97",
     "db2FileDataID": 1115949
@@ -1161,6 +1171,11 @@
     "tableName": "CraftingReagentQuality",
     "tableHash": "4F9D237F",
     "db2FileDataID": 4382197
+  },
+  {
+    "tableName": "CraftingReagentRequirement",
+    "tableHash": "B205515D",
+    "db2FileDataID": 5049814
   },
   {
     "tableName": "Creature",
@@ -2573,6 +2588,11 @@
     "tableName": "ItemFallbackVisual",
     "tableHash": "78BC2E20",
     "db2FileDataID": 2358574
+  },
+  {
+    "tableName": "ItemGroupIlvlScalingEntry",
+    "tableHash": "FB5ADE9D",
+    "db2FileDataID": 5015219
   },
   {
     "tableName": "ItemGroupSounds",
@@ -5219,6 +5239,11 @@
     "tableName": "TrophyType",
     "tableHash": "6F7681CB",
     "db2FileDataID": 975025
+  },
+  {
+    "tableName": "UIArrowCallout",
+    "tableHash": "25CC7A52",
+    "db2FileDataID": 5011999
   },
   {
     "tableName": "UiCamera",

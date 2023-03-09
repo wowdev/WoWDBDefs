@@ -7,6 +7,16 @@ int<UiModelScene::ID> VictoryUiModelSceneID
 int<UiModelScene::ID> DefeatUiModelSceneID
 int<SoundKit::ID> VictorySoundKitID
 int<SoundKit::ID> DefeatSoundKitID
+locstring Field_10_1_0_48480_000_lang?
+int Field_10_1_0_48480_001?
+int Field_10_1_0_48480_002?
+int Field_10_1_0_48480_003?
+int Field_10_1_0_48480_004?
+int Field_10_1_0_48480_005?
+int Field_10_1_0_48480_006?
+int Field_10_1_0_48480_007?
+int Field_10_1_0_48480_008?
+int Field_10_1_0_48480_009?
 
 LAYOUT AC308DC0
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
@@ -76,3 +86,16 @@ DefeatUiModelSceneID<32>
 VictorySoundKitID<32>
 DefeatSoundKitID<32>
 $noninline,relation$MapID<32>
+
+LAYOUT F02E09B6
+BUILD 10.1.0.48480
+Field_10_1_0_48480_000_lang
+$id$Field_10_1_0_48480_001<32>
+Field_10_1_0_48480_002<32>
+Field_10_1_0_48480_003<32>
+Field_10_1_0_48480_004<32>
+Field_10_1_0_48480_005<32>
+Field_10_1_0_48480_006<32>
+Field_10_1_0_48480_007<32>
+Field_10_1_0_48480_008<32>
+$noninline,relation$Field_10_1_0_48480_009<32>
