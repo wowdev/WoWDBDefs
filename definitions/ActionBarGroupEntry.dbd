@@ -4,7 +4,7 @@ int Field_10_1_0_48480_000?
 int Field_10_1_0_48480_001?
 int Field_10_1_0_48480_002?
 int Field_10_1_0_48480_003?
-int Field_10_1_0_48480_004?
+int<ActionBarGroup::ID> ActionBarGroupID?
 
 LAYOUT 40E3832D
 BUILD 10.1.0.48480
@@ -13,4 +13,4 @@ Field_10_1_0_48480_000<32>
 Field_10_1_0_48480_001<32>
 Field_10_1_0_48480_002<32>
 Field_10_1_0_48480_003<32>
-$noninline,relation$Field_10_1_0_48480_004<32>
+$noninline,relation$ActionBarGroupID<32>
