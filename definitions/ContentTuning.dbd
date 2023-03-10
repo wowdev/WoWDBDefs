@@ -14,17 +14,6 @@ int TargetLevelMaxDelta // add to effective MaxLevel to get TargetLevelMax
 int TargetLevelMin?
 int TargetLevelMax?
 int MinItemLevel? // overrides LfgDungeons::MinGear if set
-int Field_10_1_0_48480_000?
-int Field_10_1_0_48480_001?
-int Field_10_1_0_48480_002?
-int Field_10_1_0_48480_003?
-int Field_10_1_0_48480_004?
-int Field_10_1_0_48480_005?
-int Field_10_1_0_48480_006?
-int Field_10_1_0_48480_007?
-int Field_10_1_0_48480_008?
-int Field_10_1_0_48480_009?
-int Field_10_1_0_48480_010?
 float Field_10_1_0_48480_011?
 
 LAYOUT D0AEEA71
@@ -231,15 +220,15 @@ MinItemLevel<32>
 LAYOUT 3E5D4B74
 BUILD 10.1.0.48480
 $noninline,id$ID<32>
-Field_10_1_0_48480_000<32>
-Field_10_1_0_48480_001<32>
-Field_10_1_0_48480_002<32>
-Field_10_1_0_48480_003<32>
-Field_10_1_0_48480_004<32>
-Field_10_1_0_48480_005<32>
-Field_10_1_0_48480_006<32>
-Field_10_1_0_48480_007<32>
-Field_10_1_0_48480_008<32>
-Field_10_1_0_48480_009<32>
-Field_10_1_0_48480_010<32>
+Flags<32>
+ExpansionID<32>
+MinLevel<32>
+MaxLevel<32>
+LowerBoundSemantics<32>
+UpperBoundSemantics<32>
+TargetLevelDelta<32>
+TargetLevelMaxDelta<32>
+TargetLevelMin<32>
+TargetLevelMax<32>
+MinItemLevel<32>
 Field_10_1_0_48480_011
