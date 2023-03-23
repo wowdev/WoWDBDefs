@@ -25,13 +25,13 @@ PlayerConditionID<32>
 $noninline,relation$CreatureID<32>
 
 LAYOUT 7DF24A7B
-BUILD 10.1.0.48480
+BUILD 10.1.0.48480, 10.1.0.48661
 BUILD 10.0.7.48295, 10.0.7.48439, 10.0.7.48520
 $noninline,id$ID<32>
 Field_9_0_1_33978_001<32>
 QuestID<32>
 BroadcastTextID<32>
-Field_10_0_7_48295_004<32>
+Field_10_0_7_48295_004<u32>
 WorldEffectID<32>
 Field_9_0_1_33978_005
 Field_9_0_1_33978_006<32>
