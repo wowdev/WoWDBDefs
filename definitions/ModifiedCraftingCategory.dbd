@@ -5,11 +5,6 @@ int Field_9_0_1_33978_001?
 locstring Description_lang?
 float MatQualityWeight // Relative contribution of this material to skill bonus
 int Field_10_0_0_44649_004?
-locstring Field_10_1_0_48661_000_lang?
-locstring Field_10_1_0_48661_001_lang?
-int Field_10_1_0_48661_002?
-float Field_10_1_0_48661_003?
-int Field_10_1_0_48661_004?
 
 LAYOUT EC698BBC
 BUILD 9.1.5.39977, 9.1.5.40071, 9.1.5.40078, 9.1.5.40196, 9.1.5.40290, 9.1.5.40383, 9.1.5.40496, 9.1.5.40622, 9.1.5.40696, 9.1.5.40738, 9.1.5.40772, 9.1.5.40843, 9.1.5.40871, 9.1.5.40906, 9.1.5.40944, 9.1.5.40966, 9.1.5.41031, 9.1.5.41079, 9.1.5.41288, 9.1.5.41323, 9.1.5.41359, 9.1.5.41488, 9.1.5.41793, 9.1.5.42010
@@ -62,8 +57,8 @@ Field_10_0_0_44649_004<32>
 LAYOUT B8B17FD4
 BUILD 10.1.0.48661
 $noninline,id$ID<32>
-Field_10_1_0_48661_000_lang
-Field_10_1_0_48661_001_lang
-Field_10_1_0_48661_002<32>
-Field_10_1_0_48661_003
-Field_10_1_0_48661_004<32>
+DisplayName_lang
+Description_lang
+Field_9_0_1_33978_001<32>
+MatQualityWeight
+Field_10_0_0_44649_004<32>
