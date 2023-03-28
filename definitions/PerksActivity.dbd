@@ -5,6 +5,13 @@ int ID?
 int<CriteriaTree::ID> CriteriaTreeID
 int ThresholdContributionAmount
 int Field_10_1_0_48480_005?
+locstring Field_10_1_0_48776_000_lang?
+locstring Field_10_1_0_48776_001_lang?
+int Field_10_1_0_48776_002?
+int Field_10_1_0_48776_003?
+int Field_10_1_0_48776_004?
+int Field_10_1_0_48776_005?
+int Field_10_1_0_48776_006?
 
 LAYOUT 6FD48C11
 BUILD 10.0.7.47910, 10.0.7.47983, 10.0.7.48076, 10.0.7.48220, 10.0.7.48295, 10.0.7.48439, 10.0.7.48520, 10.0.7.48676, 10.0.7.48749
@@ -23,3 +30,13 @@ $id$ID<32>
 CriteriaTreeID<32>
 ThresholdContributionAmount<32>
 Field_10_1_0_48480_005<32>
+
+LAYOUT 4FF9AFB2
+BUILD 10.1.0.48776
+Field_10_1_0_48776_000_lang
+Field_10_1_0_48776_001_lang
+$id$Field_10_1_0_48776_002<32>
+Field_10_1_0_48776_003<32>
+Field_10_1_0_48776_004<32>
+Field_10_1_0_48776_005<32>
+Field_10_1_0_48776_006<32>
