@@ -10,6 +10,17 @@ int<ChrCustomizationCondModel::ID> ChrCustomizationCondModelID?
 int<ChrCustomizationDisplayInfo::ID> ChrCustomizationDisplayInfoID?
 int<ChrCustItemGeoModify::ID> ChrCustItemGeoModifyID
 int<ChrCustomizationVoice::ID> ChrCustomizationVoiceID?
+int Field_10_1_0_48898_000?
+int Field_10_1_0_48898_001?
+int Field_10_1_0_48898_002?
+int Field_10_1_0_48898_003?
+int Field_10_1_0_48898_004?
+int Field_10_1_0_48898_005?
+int Field_10_1_0_48898_006?
+int Field_10_1_0_48898_007?
+int Field_10_1_0_48898_008?
+int Field_10_1_0_48898_009?
+int Field_10_1_0_48898_010?
 
 LAYOUT F2BB8F88
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463, 3.4.0.44547, 3.4.0.44644, 3.4.0.44701, 3.4.0.44729, 3.4.0.44832, 3.4.0.44925, 3.4.0.44930, 3.4.0.44996, 3.4.0.45043, 3.4.0.45064, 3.4.0.45102, 3.4.0.45166, 3.4.0.45189, 3.4.0.45264, 3.4.0.45327, 3.4.0.45435, 3.4.0.45506, 3.4.0.45572, 3.4.0.45613, 3.4.0.45704, 3.4.0.45770, 3.4.0.45772, 3.4.0.45854, 3.4.0.45942, 3.4.0.46158, 3.4.0.46182, 3.4.0.46248, 3.4.0.46269, 3.4.0.46368, 3.4.0.46779, 3.4.0.46902, 3.4.0.47168, 3.4.0.47659
@@ -133,3 +144,18 @@ ChrCustomizationCondModelID<32>
 ChrCustomizationDisplayInfoID<32>
 ChrCustItemGeoModifyID<32>
 ChrCustomizationVoiceID<32>
+
+LAYOUT 978B6C48
+BUILD 10.1.0.48898
+$noninline,id$ID<32>
+Field_10_1_0_48898_000<32>
+Field_10_1_0_48898_001<32>
+Field_10_1_0_48898_002<32>
+Field_10_1_0_48898_003<32>
+Field_10_1_0_48898_004<32>
+Field_10_1_0_48898_005<32>
+Field_10_1_0_48898_006<32>
+Field_10_1_0_48898_007<32>
+Field_10_1_0_48898_008<32>
+Field_10_1_0_48898_009<32>
+Field_10_1_0_48898_010<32>
