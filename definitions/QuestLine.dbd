@@ -4,11 +4,7 @@ int ID
 int<QuestV2::ID> QuestID?
 locstring Description_lang
 int<PlayerCondition::ID> PlayerConditionID?
-locstring Field_10_1_0_48898_000_lang?
-locstring Field_10_1_0_48898_001_lang?
 int Field_10_1_0_48898_002?
-int Field_10_1_0_48898_003?
-int Field_10_1_0_48898_004?
 
 LAYOUT 4B1C4A54
 BUILD 3.4.1.46722, 3.4.1.46917, 3.4.1.46973, 3.4.1.47014, 3.4.1.47110, 3.4.1.47245, 3.4.1.47496, 3.4.1.47585, 3.4.1.47612, 3.4.1.47720, 3.4.1.47800, 3.4.1.47925, 3.4.1.47966, 3.4.1.48019, 3.4.1.48120, 3.4.1.48340, 3.4.1.48503, 3.4.1.48632
@@ -91,8 +87,8 @@ PlayerConditionID<32>
 LAYOUT A360A782
 BUILD 10.1.0.48898
 $noninline,id$ID<32>
-Field_10_1_0_48898_000_lang
-Field_10_1_0_48898_001_lang
+Name_lang
+Description_lang
 Field_10_1_0_48898_002<32>
-Field_10_1_0_48898_003<u32>
-Field_10_1_0_48898_004<32>
+QuestID<u32>
+PlayerConditionID<32>
