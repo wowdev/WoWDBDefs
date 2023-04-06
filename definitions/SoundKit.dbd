@@ -17,23 +17,6 @@ float VolumeVariationMinus
 float VolumeVariationPlus
 int Field_7_3_0_24473_008?
 int SoundMixGroupID?
-int Field_3_4_1_46722_000?
-int Field_3_4_1_46722_001?
-float Field_3_4_1_46722_002?
-int Field_3_4_1_46722_003?
-float Field_3_4_1_46722_004?
-float Field_3_4_1_46722_005?
-int Field_3_4_1_46722_006?
-int Field_3_4_1_46722_007?
-float Field_3_4_1_46722_008?
-float Field_3_4_1_46722_009?
-float Field_3_4_1_46722_010?
-float Field_3_4_1_46722_011?
-int Field_3_4_1_46722_012?
-float Field_3_4_1_46722_013?
-int Field_3_4_1_46722_014?
-int Field_3_4_1_46722_015?
-int Field_3_4_1_46722_016?
 
 LAYOUT 972A2F98
 BUILD 1.13.0.28211
@@ -101,23 +84,23 @@ MaxInstances<u8>
 
 LAYOUT 69EC2D22
 BUILD 3.4.1.46722, 3.4.1.46917, 3.4.1.46973, 3.4.1.47014, 3.4.1.47110, 3.4.1.47245, 3.4.1.47496, 3.4.1.47585, 3.4.1.47612, 3.4.1.47720, 3.4.1.47800, 3.4.1.47925, 3.4.1.47966, 3.4.1.48019, 3.4.1.48120, 3.4.1.48340, 3.4.1.48503, 3.4.1.48632
-$id$Field_3_4_1_46722_000<32>
-Field_3_4_1_46722_001<u8>
-Field_3_4_1_46722_002
-Field_3_4_1_46722_003<u16>
-Field_3_4_1_46722_004
-Field_3_4_1_46722_005
-Field_3_4_1_46722_006<u8>
-Field_3_4_1_46722_007<u32>
-Field_3_4_1_46722_008
-Field_3_4_1_46722_009
-Field_3_4_1_46722_010
-Field_3_4_1_46722_011
-Field_3_4_1_46722_012<8>
-Field_3_4_1_46722_013
-Field_3_4_1_46722_014<u16>
-Field_3_4_1_46722_015<u8>
-Field_3_4_1_46722_016<u32>
+$id$ID<32>
+SoundType<u8>
+VolumeFloat
+Flags<u16>
+MinDistance
+DistanceCutoff
+EAXDef<u8>
+SoundKitAdvancedID<u32>
+VolumeVariationPlus
+VolumeVariationMinus
+PitchVariationPlus
+PitchVariationMinus
+DialogType<8>
+PitchAdjust
+BusOverwriteID<u16>
+MaxInstances<u8>
+SoundMixGroupID<u32>
 
 LAYOUT 0A51CACE
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
