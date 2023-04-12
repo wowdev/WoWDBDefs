@@ -3,6 +3,10 @@ int ID
 int MilestoneSeason
 int ExpansionLevel
 int HeroicLFGDungeonMinGear
+int Field_10_1_0_49092_000?
+int Field_10_1_0_49092_001?
+int Field_10_1_0_49092_002?
+int Field_10_1_0_49092_003?
 
 LAYOUT C8DCB4C5, CEFB693B
 BUILD 8.3.0.32044, 8.3.0.32151, 8.3.0.32203, 8.3.0.32218, 8.3.0.32272
@@ -48,3 +52,10 @@ $noninline,id$ID<32>
 MilestoneSeason<32>
 ExpansionLevel<32>
 HeroicLFGDungeonMinGear<32>
+
+LAYOUT 0FE9B9A8
+BUILD 10.1.0.49092
+$id$Field_10_1_0_49092_000<32>
+Field_10_1_0_49092_001<32>
+Field_10_1_0_49092_002<32>
+Field_10_1_0_49092_003<32>
