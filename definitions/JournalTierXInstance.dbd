@@ -3,9 +3,6 @@ int<JournalTier::ID> JournalTierID
 int<JournalInstance::ID> JournalInstanceID
 int ID
 int OrderIndex?
-int Field_10_1_0_49092_000?
-int Field_10_1_0_49092_001?
-int Field_10_1_0_49092_002?
 int Field_10_1_0_49092_003?
 
 BUILD 5.0.1.15464-5.3.0.17116
@@ -80,7 +77,7 @@ OrderIndex<32>
 LAYOUT 1351FB2E
 BUILD 10.1.0.49092
 $noninline,id$ID<32>
-$relation$Field_10_1_0_49092_000<u16>
-Field_10_1_0_49092_001<u16>
-Field_10_1_0_49092_002<32>
+$relation$JournalTierID<u16>
+JournalInstanceID<u16>
+OrderIndex<32>
 Field_10_1_0_49092_003<32>

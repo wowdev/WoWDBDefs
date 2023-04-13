@@ -5,10 +5,6 @@ int<TactKey::ID> KeyID
 int<FileData::ID> AudioFileDataID
 int<FileData::ID> SubtitleFileDataID
 string Filename
-int Field_10_1_0_49092_000?
-int Field_10_1_0_49092_001?
-int Field_10_1_0_49092_002?
-int Field_10_1_0_49092_003?
 int Field_10_1_0_49092_004?
 
 BUILD 4.0.0.11792
@@ -99,8 +95,8 @@ SubtitleFileDataID<u32>
 LAYOUT 214C1925
 BUILD 10.1.0.49092
 $noninline,id$ID<32>
-Field_10_1_0_49092_000<u8>
-Field_10_1_0_49092_001<u8>
-Field_10_1_0_49092_002<u32>
-Field_10_1_0_49092_003<u32>
+Volume<u8>
+KeyID<u8>
+AudioFileDataID<u32>
+SubtitleFileDataID<u32>
 Field_10_1_0_49092_004<32>

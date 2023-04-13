@@ -4,11 +4,6 @@ int ID?
 int Field_10_1_0_48898_002?
 int Field_10_1_0_48898_003?
 int<ItemBonusSeason::ID> ItemBonusSeasonID?
-locstring Field_10_1_0_49092_000_lang?
-int Field_10_1_0_49092_001?
-int Field_10_1_0_49092_002?
-int Field_10_1_0_49092_003?
-int Field_10_1_0_49092_004?
 int Field_10_1_0_49092_005?
 int Field_10_1_0_49092_006?
 
@@ -22,10 +17,10 @@ $relation$ItemBonusSeasonID<32>
 
 LAYOUT CFA99EBB
 BUILD 10.1.0.49092
-Field_10_1_0_49092_000_lang
-$id$Field_10_1_0_49092_001<32>
-Field_10_1_0_49092_002<32>
-Field_10_1_0_49092_003<32>
-$relation$Field_10_1_0_49092_004<32>
+Field_10_1_0_48898_000_lang
+$id$ID<32>
+Field_10_1_0_48898_002<32>
+Field_10_1_0_48898_003<32>
+$relation$ItemBonusSeasonID<32>
 Field_10_1_0_49092_005<32>
 Field_10_1_0_49092_006<32>
