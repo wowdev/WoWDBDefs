@@ -3,6 +3,11 @@ int ID?
 int Field_10_1_0_49092_001?
 int Field_10_1_0_49092_002?
 int Field_10_1_0_49092_003?
+int Field_10_1_0_49190_000?
+int Field_10_1_0_49190_001?
+int Field_10_1_0_49190_002?
+int Field_10_1_0_49190_003?
+int Field_10_1_0_49190_004?
 
 LAYOUT B3CD553B
 BUILD 10.1.0.49092
@@ -10,3 +15,11 @@ $id$ID<32>
 Field_10_1_0_49092_001<32>
 Field_10_1_0_49092_002<32>
 $noninline,relation$Field_10_1_0_49092_003<32>
+
+LAYOUT E00E7F34
+BUILD 10.1.0.49190
+$id$Field_10_1_0_49190_000<32>
+Field_10_1_0_49190_001<32>
+Field_10_1_0_49190_002<32>
+Field_10_1_0_49190_003<32>
+$noninline,relation$Field_10_1_0_49190_004<32>
