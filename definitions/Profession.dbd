@@ -12,6 +12,14 @@ float MaxCraftExtraQtyPct?
 int ActionTypeEnumValue? // enum ProfessionActionType, 0: Craft, 1: Gather
 float RecraftModSkillGainPct?
 int<CurrencyTypes::ID> PublicOrderCapacityCurrencyID?
+int Field_3_4_2_49311_000?
+int Field_3_4_2_49311_001?
+
+LAYOUT 64EEACF2
+BUILD 3.4.2.49311
+$noninline,id$ID<32>
+Field_3_4_2_49311_000<32>
+Field_3_4_2_49311_001<32>
 
 LAYOUT 885361CE
 BUILD 10.0.0.43342

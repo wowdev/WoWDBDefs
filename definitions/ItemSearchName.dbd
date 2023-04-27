@@ -14,6 +14,20 @@ int RequiredLevel
 int<SkillLine::ID> RequiredSkill
 int RequiredSkillRank
 int Field_7_3_2_25549_009?
+int Field_3_4_2_49311_000?
+locstring Field_3_4_2_49311_001_lang?
+int Field_3_4_2_49311_002?
+int Field_3_4_2_49311_003?
+int Field_3_4_2_49311_004?
+int Field_3_4_2_49311_005?
+int Field_3_4_2_49311_006?
+int Field_3_4_2_49311_007?
+int Field_3_4_2_49311_008?
+int Field_3_4_2_49311_009?
+int Field_3_4_2_49311_010?
+int Field_3_4_2_49311_011?
+int Field_3_4_2_49311_012?
+int Field_3_4_2_49311_013?
 
 LAYOUT 01A3B9F0
 BUILD 1.14.1.40487
@@ -48,6 +62,23 @@ RequiredSkillRank<u16>
 RequiredAbility<u32>
 ItemLevel<u16>
 Flags<32>[4]
+
+LAYOUT A0BCA534
+BUILD 3.4.2.49311
+Field_3_4_2_49311_000<64>
+Field_3_4_2_49311_001_lang
+$id$Field_3_4_2_49311_002<32>
+Field_3_4_2_49311_003<u8>
+Field_3_4_2_49311_004<8>
+Field_3_4_2_49311_005<u16>
+Field_3_4_2_49311_006<32>
+Field_3_4_2_49311_007<32>
+Field_3_4_2_49311_008<8>
+Field_3_4_2_49311_009<u16>
+Field_3_4_2_49311_010<u16>
+Field_3_4_2_49311_011<u32>
+Field_3_4_2_49311_012<u16>
+Field_3_4_2_49311_013<32>[4]
 
 LAYOUT 4DB151B2
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
