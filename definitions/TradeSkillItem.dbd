@@ -2,14 +2,12 @@ COLUMNS
 int ID
 int ItemLevel
 int RequiredLevel
-int Field_3_4_2_49311_000?
-int Field_3_4_2_49311_001?
 
 LAYOUT D10A2270
 BUILD 3.4.2.49311
 $noninline,id$ID<32>
-Field_3_4_2_49311_000<u16>
-Field_3_4_2_49311_001<8>
+ItemLevel<u16>
+RequiredLevel<8>
 
 LAYOUT FDE283DA, A90CD5D2, F7BCB2E0
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662
