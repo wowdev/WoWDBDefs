@@ -14,7 +14,7 @@ int TargetLevelMaxDelta // add to effective MaxLevel to get TargetLevelMax
 int TargetLevelMin?
 int TargetLevelMax?
 int MinItemLevel? // overrides LfgDungeons::MinGear if set
-float Field_10_1_0_48480_011?
+float QuestXpMultiplier?
 
 LAYOUT D0AEEA71
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -232,4 +232,4 @@ TargetLevelMaxDelta<32>
 TargetLevelMin<32>
 TargetLevelMax<32>
 MinItemLevel<32>
-Field_10_1_0_48480_011
+QuestXpMultiplier

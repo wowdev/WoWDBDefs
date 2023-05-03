@@ -9,8 +9,8 @@ int<QuestV2::ID> QuestID
 int<PlayerCondition::ID> PlayerConditionID
 int<UiMap::ID> UiMapID
 int<QuestObjective::ID> ObjectiveID // Not all available in client.
-int<PlayerCondition::ID> Field_9_0_1_34490_008?
-int Field_10_1_0_48776_003?
+int<PlayerCondition::ID> NavigationPlayerConditionID?
+int Flags?
 
 BUILD 4.0.0.12539
 $id$ID<32>
@@ -100,7 +100,7 @@ QuestID<u32>
 ObjectiveIndex<32>
 ObjectiveID<32>
 PlayerConditionID<u32>
-Field_9_0_1_34490_008<u32>
+NavigationPlayerConditionID<u32>
 
 LAYOUT 303C19ED
 BUILD 10.0.0.43342
@@ -116,7 +116,7 @@ QuestID<u32>
 ObjectiveIndex<32>
 ObjectiveID<32>
 PlayerConditionID<u32>
-Field_9_0_1_34490_008<u32>
+NavigationPlayerConditionID<u32>
 
 LAYOUT BD552CA4
 BUILD 10.1.0.48480, 10.1.0.48537, 10.1.0.48661
@@ -134,17 +134,17 @@ QuestID<u32>
 ObjectiveIndex<32>
 ObjectiveID<32>
 PlayerConditionID<u32>
-Field_9_0_1_34490_008<u32>
+NavigationPlayerConditionID<u32>
 
 LAYOUT 714523FD
 BUILD 10.1.0.48776, 10.1.0.48898, 10.1.0.49092, 10.1.0.49190, 10.1.0.49222, 10.1.0.49255, 10.1.0.49318, 10.1.0.49365, 10.1.0.49407, 10.1.0.49426, 10.1.0.49444
 $id$ID<32>
 $relation$MapID<16>
 UiMapID<32>
-Field_10_1_0_48776_003<32>
+Flags<32>
 NumPoints<u8>
 QuestID<u32>
 ObjectiveIndex<32>
 ObjectiveID<32>
 PlayerConditionID<u32>
-Field_9_0_1_34490_008<u32>
+NavigationPlayerConditionID<u32>

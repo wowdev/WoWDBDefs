@@ -1,9 +1,9 @@
 COLUMNS
 int ID
 int OrderIndex
-int<ContentTuning::ID> ReplacementTuning
-int ConditionMask // Given a NormalTuning client checks for a given condition flag, first matching record determines ReplacementTuning, or fall back to NormalTuning if none exists.
-int<ContentTuning::ID> NormalTuning
+int<ContentTuning::ID> RedirectContentTuningID
+int RedirectFlag // Given a ParentContentTuningID client checks for a given condition flag, first matching record determines RedirectContentTuningID, or fall back to ParentContentTuningID if none exists.
+int<ContentTuning::ID> ParentContentTuningID
 
 LAYOUT 209DE3DD
 BUILD 10.0.0.43342
@@ -16,9 +16,9 @@ BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.361
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714, 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522, 9.0.1.35598, 9.0.1.35679, 9.0.1.35707, 9.0.1.35755, 9.0.1.35789, 9.0.1.35828, 9.0.1.35853, 9.0.1.35897, 9.0.1.35917, 9.0.1.35944, 9.0.1.35989, 9.0.1.36021, 9.0.1.36036, 9.0.1.36074, 9.0.1.36131, 9.0.1.36163, 9.0.1.36200, 9.0.1.36216, 9.0.1.36228, 9.0.1.36230, 9.0.1.36247, 9.0.1.36272, 9.0.1.36286, 9.0.1.36322, 9.0.1.36372, 9.0.1.36492, 9.0.1.36577
 $noninline,id$ID<32>
 OrderIndex<32>
-ReplacementTuning<32>
-ConditionMask<32>
-$noninline,relation$NormalTuning<32>
+RedirectContentTuningID<32>
+RedirectFlag<32>
+$noninline,relation$ParentContentTuningID<32>
 
 LAYOUT 8DF8B6EC
 BUILD 10.1.0.48480, 10.1.0.48537, 10.1.0.48661, 10.1.0.48776, 10.1.0.48898, 10.1.0.49092, 10.1.0.49190, 10.1.0.49222, 10.1.0.49255, 10.1.0.49318, 10.1.0.49365, 10.1.0.49407, 10.1.0.49426, 10.1.0.49444
@@ -30,6 +30,6 @@ BUILD 9.2.7.44444, 9.2.7.44767, 9.2.7.44931, 9.2.7.44981, 9.2.7.45114, 9.2.7.451
 BUILD 9.2.5.43519, 9.2.5.43630, 9.2.5.43741, 9.2.5.43810, 9.2.5.43903, 9.2.5.43971, 9.2.5.44015, 9.2.5.44061, 9.2.5.44127, 9.2.5.44232, 9.2.5.44325, 9.2.5.44730, 9.2.5.44908
 $noninline,id$ID<32>
 OrderIndex<32>
-ReplacementTuning<32>
-ConditionMask<32>
-$noninline,relation$NormalTuning<32>
+RedirectContentTuningID<32>
+RedirectFlag<32>
+$noninline,relation$ParentContentTuningID<32>

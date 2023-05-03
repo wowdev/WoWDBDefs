@@ -5,7 +5,7 @@ int<TactKey::ID> KeyID
 int<FileData::ID> AudioFileDataID
 int<FileData::ID> SubtitleFileDataID
 string Filename
-int Field_10_1_0_49092_004?
+int SubtitleFileFormat?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12319
@@ -100,4 +100,4 @@ Volume<u8>
 KeyID<u8>
 AudioFileDataID<u32>
 SubtitleFileDataID<u32>
-Field_10_1_0_49092_004<32>
+SubtitleFileFormat<32>
