@@ -1,26 +1,26 @@
 COLUMNS
-locstring Field_10_1_0_48898_000_lang?
+locstring SourceText_lang?
 int ID?
-int Field_10_1_0_48898_002?
-int Field_10_1_0_48898_003?
+int<Item::ID> CostItemID?
+int OrderIndex?
 int<ItemBonusSeason::ID> ItemBonusSeasonID?
-int Field_10_1_0_49092_005?
-int Field_10_1_0_49092_006?
+int<Item::ID> FragmentItemID?
+int<CurrencyTypes::ID> FragmentsEarnedTrackingCurrencyID?
 
 LAYOUT BB4428AF
 BUILD 10.1.0.48898
-Field_10_1_0_48898_000_lang
+SourceText_lang
 $id$ID<32>
-Field_10_1_0_48898_002<32>
-Field_10_1_0_48898_003<32>
+CostItemID<32>
+OrderIndex<32>
 $relation$ItemBonusSeasonID<32>
 
 LAYOUT CFA99EBB
 BUILD 10.1.0.49092, 10.1.0.49190, 10.1.0.49222, 10.1.0.49255, 10.1.0.49318, 10.1.0.49365, 10.1.0.49407, 10.1.0.49426, 10.1.0.49444
-Field_10_1_0_48898_000_lang
+SourceText_lang
 $id$ID<32>
-Field_10_1_0_48898_002<32>
-Field_10_1_0_48898_003<32>
+CostItemID<32>
+OrderIndex<32>
 $relation$ItemBonusSeasonID<32>
-Field_10_1_0_49092_005<32>
-Field_10_1_0_49092_006<32>
+FragmentItemID<32>
+FragmentsEarnedTrackingCurrencyID<32>
