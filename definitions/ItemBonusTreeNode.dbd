@@ -7,8 +7,8 @@ int ItemContext
 int<ItemBonusTree::ID> ParentItemBonusTreeID
 int<ItemBonusListGroup::ID> ItemBonusListGroupID?
 int ParentItemBonusTreeNodeID? // assumption
-int Field_10_1_0_48480_006?
-int Field_10_1_0_48480_007?
+int MinMythicPlusLevel?
+int MaxMythicPlusLevel?
 
 LAYOUT 211E1FFB
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -132,6 +132,6 @@ ChildItemBonusListID<u16>
 ChildItemLevelSelectorID<u16>
 ItemBonusListGroupID<32>
 ParentItemBonusTreeNodeID<32>
-Field_10_1_0_48480_006<32>
-Field_10_1_0_48480_007<32>
+MinMythicPlusLevel<32>
+MaxMythicPlusLevel<32>
 $noninline,relation$ParentItemBonusTreeID<32>
