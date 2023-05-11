@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int ShapeType // see AreaTrigger::ShapeType
 int StartShapeID // see AreaTrigger::ShapeID
-int Field_10_1_5_49516_000?
-int Field_10_1_5_49516_001?
 int Field_10_1_5_49516_002?
 
 LAYOUT 8F29EB1E, 8AFE394E
@@ -64,6 +62,6 @@ StartShapeID<16>
 LAYOUT 95719F5A
 BUILD 10.1.5.49516
 $noninline,id$ID<32>
-Field_10_1_5_49516_000<8>
-Field_10_1_5_49516_001<16>
+ShapeType<8>
+StartShapeID<16>
 Field_10_1_5_49516_002<32>

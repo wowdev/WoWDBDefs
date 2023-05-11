@@ -7,13 +7,6 @@ int Operator
 int Amount
 int<ModifierTree::ID> Parent
 int TertiaryAsset
-int Field_10_1_5_49516_000?
-int Field_10_1_5_49516_001?
-int Field_10_1_5_49516_002?
-int Field_10_1_5_49516_003?
-int Field_10_1_5_49516_004?
-int Field_10_1_5_49516_005?
-int Field_10_1_5_49516_006?
 
 LAYOUT CE6C3A86
 BUILD 3.4.2.49311, 3.4.2.49442, 3.4.2.49563
@@ -161,10 +154,10 @@ TertiaryAsset<32>
 LAYOUT D99C74EF
 BUILD 10.1.5.49516
 $noninline,id$ID<32>
-Field_10_1_5_49516_000<u32>
-Field_10_1_5_49516_001<8>
-Field_10_1_5_49516_002<8>
-Field_10_1_5_49516_003<32>
-Field_10_1_5_49516_004<32>
-Field_10_1_5_49516_005<32>
-Field_10_1_5_49516_006<32>
+Parent<u32>
+Operator<8>
+Amount<8>
+Type<32>
+Asset<32>
+SecondaryAsset<32>
+TertiaryAsset<32>

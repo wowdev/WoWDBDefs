@@ -8,13 +8,6 @@ int Flags
 locstring Description_lang
 int OrderIndex
 int Padding_6_0_1_18179_008?
-locstring Field_10_1_5_49516_000_lang?
-int Field_10_1_5_49516_001?
-int Field_10_1_5_49516_002?
-int Field_10_1_5_49516_003?
-int Field_10_1_5_49516_004?
-int Field_10_1_5_49516_005?
-int Field_10_1_5_49516_006?
 
 LAYOUT 791D626E
 BUILD 3.4.2.49311, 3.4.2.49442, 3.4.2.49563
@@ -168,10 +161,10 @@ Flags<32>
 LAYOUT FDD54C23
 BUILD 10.1.5.49516
 $noninline,id$ID<32>
-Field_10_1_5_49516_000_lang
-Field_10_1_5_49516_001<u32>
-Field_10_1_5_49516_002<u32>
-Field_10_1_5_49516_003<32>
-Field_10_1_5_49516_004<u32>
-Field_10_1_5_49516_005<32>
-Field_10_1_5_49516_006<32>
+Description_lang
+Parent<u32>
+Amount<u32>
+Operator<32>
+CriteriaID<u32>
+OrderIndex<32>
+Flags<32>
