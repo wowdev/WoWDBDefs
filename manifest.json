@@ -46,6 +46,21 @@
     "db2FileDataID": 1720145
   },
   {
+    "tableName": "AltMinimap",
+    "tableHash": "DF5A4201",
+    "db2FileDataID": 5156218
+  },
+  {
+    "tableName": "AltMinimapFiledata",
+    "tableHash": "F35E30CD",
+    "db2FileDataID": 5156219
+  },
+  {
+    "tableName": "AltMinimapWMO",
+    "tableHash": "980EDD21",
+    "db2FileDataID": 5156220
+  },
+  {
     "tableName": "AnimaCable",
     "tableHash": "7DC5B8C8",
     "db2FileDataID": 3286805
@@ -992,6 +1007,31 @@
     "tableName": "CloneEffect",
     "tableHash": "E67166E8",
     "db2FileDataID": 2175218
+  },
+  {
+    "tableName": "CollectableSourceEncounter",
+    "tableHash": "5313B2C6",
+    "db2FileDataID": 5152111
+  },
+  {
+    "tableName": "CollectableSourceEncounterSparse",
+    "tableHash": "066232CE",
+    "db2FileDataID": 5152908
+  },
+  {
+    "tableName": "CollectableSourceInfo",
+    "tableHash": "EF425734",
+    "db2FileDataID": 5152112
+  },
+  {
+    "tableName": "CollectableSourceVendor",
+    "tableHash": "53F85D8C",
+    "db2FileDataID": 5163410
+  },
+  {
+    "tableName": "CollectableSourceVendorSparse",
+    "tableHash": "42E42070",
+    "db2FileDataID": 5159897
   },
   {
     "tableName": "ColorBanding",
@@ -3834,6 +3874,11 @@
     "tableHash": "2D11D732",
     "dbcFileDataID": 841674,
     "db2FileDataID": 1120960
+  },
+  {
+    "tableName": "QuestLabel",
+    "tableHash": "C687987A",
+    "db2FileDataID": 5202058
   },
   {
     "tableName": "QuestLine",

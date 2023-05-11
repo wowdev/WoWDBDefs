@@ -32,6 +32,29 @@ int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
 int<ContentTuning::ID> ContentTuningID
+string Field_10_1_5_49516_000?
+locstring Field_10_1_5_49516_001_lang?
+int Field_10_1_5_49516_002?
+int Field_10_1_5_49516_003?
+int Field_10_1_5_49516_004?
+int Field_10_1_5_49516_005?
+int Field_10_1_5_49516_006?
+int Field_10_1_5_49516_007?
+int Field_10_1_5_49516_008?
+int Field_10_1_5_49516_009?
+int Field_10_1_5_49516_010?
+int Field_10_1_5_49516_011?
+int Field_10_1_5_49516_012?
+int Field_10_1_5_49516_013?
+float Field_10_1_5_49516_014?
+int Field_10_1_5_49516_015?
+int Field_10_1_5_49516_016?
+int Field_10_1_5_49516_017?
+int Field_10_1_5_49516_018?
+int Field_10_1_5_49516_019?
+int Field_10_1_5_49516_020?
+int Field_10_1_5_49516_021?
+int Field_10_1_5_49516_022?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -666,3 +689,30 @@ WindSettingsID<u8>
 ContentTuningID<32>
 Flags<32>[2]
 LiquidTypeID<u16>[4]
+
+LAYOUT CD6850F0
+BUILD 10.1.5.49516
+$noninline,id$ID<32>
+Field_10_1_5_49516_000
+Field_10_1_5_49516_001_lang
+Field_10_1_5_49516_002<u16>
+Field_10_1_5_49516_003<u16>
+Field_10_1_5_49516_004<16>
+Field_10_1_5_49516_005<u8>
+Field_10_1_5_49516_006<u8>
+Field_10_1_5_49516_007<u16>
+Field_10_1_5_49516_008<u16>
+Field_10_1_5_49516_009<u16>
+Field_10_1_5_49516_010<u16>
+Field_10_1_5_49516_011<u16>
+Field_10_1_5_49516_012<u32>
+Field_10_1_5_49516_013<u8>
+Field_10_1_5_49516_014
+Field_10_1_5_49516_015<32>
+Field_10_1_5_49516_016<16>
+Field_10_1_5_49516_017<u8>
+Field_10_1_5_49516_018<u8>
+Field_10_1_5_49516_019<u8>
+Field_10_1_5_49516_020<32>
+Field_10_1_5_49516_021<32>[2]
+Field_10_1_5_49516_022<u16>[4]
