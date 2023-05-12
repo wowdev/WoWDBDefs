@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<JournalEncounter::ID> JournalEncounterID?
-int Field_10_1_5_49516_001?
+int<Difficulty::ID> DifficultyID?
 int Field_10_1_5_49516_002?
 
 LAYOUT 2283C289
@@ -9,5 +9,5 @@ BUILD 10.1.5.49516
 COMMENT table is sparse
 $noninline,id$ID<32>
 JournalEncounterID<32>
-Field_10_1_5_49516_001<32>
+DifficultyID<32>
 $noninline,relation$Field_10_1_5_49516_002<32>
