@@ -7,14 +7,6 @@ int OverrideArchive? // -1: allow any, otherwise must match OverrideArchive cvar
 int<ItemModifiedAppearance::ID> ReqItemModifiedAppearanceID
 int ReqQuestID?
 locstring ReqSource_lang?
-locstring Field_3_4_1_46722_000_lang?
-int Field_3_4_1_46722_001?
-int Field_3_4_1_46722_002?
-int Field_3_4_1_46722_003?
-int Field_3_4_1_46722_004?
-int Field_3_4_1_46722_005?
-int Field_3_4_1_46722_006?
-int Field_3_4_1_46722_007?
 int Field_10_1_5_49516_000?
 
 LAYOUT F390B9A6
@@ -29,14 +21,14 @@ ReqItemModifiedAppearanceID<32>
 LAYOUT D776559A
 BUILD 3.4.2.49311, 3.4.2.49442, 3.4.2.49563, 3.4.2.49584
 BUILD 3.4.1.46722, 3.4.1.46917, 3.4.1.46973, 3.4.1.47014, 3.4.1.47110, 3.4.1.47245, 3.4.1.47496, 3.4.1.47585, 3.4.1.47612, 3.4.1.47720, 3.4.1.47800, 3.4.1.47925, 3.4.1.47966, 3.4.1.48019, 3.4.1.48120, 3.4.1.48340, 3.4.1.48503, 3.4.1.48632, 3.4.1.49345
-Field_3_4_1_46722_000_lang
-$id$Field_3_4_1_46722_001<32>
-Field_3_4_1_46722_002<32>
-Field_3_4_1_46722_003<32>
-Field_3_4_1_46722_004<32>
-Field_3_4_1_46722_005<32>
-Field_3_4_1_46722_006<32>
-Field_3_4_1_46722_007<32>
+ReqSource_lang
+$id$ID<32>
+ReqType<32>
+ClassMask<32>
+ReqAchievementID<32>
+ReqQuestID<32>
+OverrideArchive<32>
+ReqItemModifiedAppearanceID<32>
 
 LAYOUT AA163FDE
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137

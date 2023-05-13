@@ -2,10 +2,10 @@ COLUMNS
 int ID
 int<ChrClasses::ID> ClassID
 int Flags
-int RaceID
+int<ChrRaces::ID> RaceID
 int Sex
-int SoundID
-int VoiceSoundFilterID
+int<CreatureSoundData::ID> SoundID
+int<SoundFilter::ID> VoiceSoundFilterID
 
 LAYOUT 5E29DFA1, 204BD561, C05CAB5B
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43180

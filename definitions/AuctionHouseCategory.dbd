@@ -9,15 +9,6 @@ int OrderIndex
 int DefaultAuctionHouseFilter? // guessed, seems to be off by one though, i.e. pre-9.2.5 enum
 int<AuctionHouseCategory::ID> ParentCategory?
 int AuctionHouseExtraColumn? // 0: None, 1: Ilvl, 2: Slots, 3: Level, 4: Skill
-locstring Field_9_2_7_44767_000_lang?
-locstring Field_9_2_7_44767_001_lang?
-int Field_9_2_7_44767_002?
-int Field_9_2_7_44767_003?
-int Field_9_2_7_44767_004?
-int Field_9_2_7_44767_005?
-int Field_9_2_7_44767_006?
-int Field_9_2_7_44767_007?
-int Field_9_2_7_44767_008?
 
 LAYOUT 68AEBFF6
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43180, 9.2.5.43254, 9.2.5.43412
@@ -49,15 +40,15 @@ $noninline,relation$ParentCategory<32>
 
 LAYOUT A528FA70
 BUILD 9.2.7.44767, 9.2.7.44931, 9.2.7.44981, 9.2.7.45114, 9.2.7.45161, 9.2.7.45338, 9.2.7.45745
-Field_9_2_7_44767_000_lang
-Field_9_2_7_44767_001_lang
-$id$Field_9_2_7_44767_002<32>
-Field_9_2_7_44767_003<32>
-Field_9_2_7_44767_004<32>
-Field_9_2_7_44767_005<8>
-Field_9_2_7_44767_006<32>
-Field_9_2_7_44767_007<u8>
-$noninline,relation$Field_9_2_7_44767_008<32>
+Description_lang
+SortedProperty_lang
+$id$ID<32>
+ItemClass<32>
+ItemSubClass<32>
+InventoryType<8>
+OrderIndex<32>
+DefaultAuctionHouseFilter<u8>
+$noninline,relation$ParentCategory<32>
 
 LAYOUT 431DFE55
 BUILD 10.0.0.43342

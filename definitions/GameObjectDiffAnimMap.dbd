@@ -3,7 +3,7 @@ int ID
 int GameObjectDiffAnimID
 int<Difficulty::ID> DifficultyID
 int Animation
-int AttachmentDisplayID
+int<GameObjectDisplayInfo::ID> AttachmentDisplayID
 
 LAYOUT 55525850
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

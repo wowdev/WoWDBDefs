@@ -1,7 +1,7 @@
 COLUMNS
 int ID
-int RequiredModifiedCraftingCategoryID?
-int ModifiedCraftingCategoryID?
+int<ModifiedCraftingCategory::ID> RequiredModifiedCraftingCategoryID?
+int<ModifiedCraftingCategory::ID> ModifiedCraftingCategoryID?
 
 LAYOUT 3F971F7F
 BUILD 10.1.5.49516

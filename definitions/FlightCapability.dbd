@@ -1,22 +1,6 @@
 COLUMNS
 int ID
-float Field_10_0_0_44795_000?
-float Field_10_0_0_44795_001?
-float Field_10_0_0_44795_002?
-float Field_10_0_0_44795_003?
-float Field_10_0_0_44795_004?
-float Field_10_0_0_44795_005?
-float Field_10_0_0_44795_006?
-float Field_10_0_0_44999_007?
-float Field_10_0_0_44999_008?
-float Field_10_0_0_44999_009?
-float Field_10_0_0_44999_010?
-float Field_10_0_0_44999_011?
-float Field_10_0_0_45232_008?
-float Field_10_0_0_45232_010?
-float Field_10_0_0_45232_012?
-float Field_10_0_0_45232_013?
-float Field_10_0_0_45232_014?
+float Field_10_0_0_44167_002?
 float Field_10_0_0_45232_017?
 float Field_10_0_0_45232_018?
 float Field_10_0_0_45232_019?
@@ -25,7 +9,6 @@ float Field_10_0_0_45232_021?
 float Field_10_0_0_45335_022?
 float AirFriction?
 float MaxVel?
-float Field_10_0_0_45697_002?
 float DoubleJumpVelMod?
 float LiftCoefficient?
 float GlideStartMinHeight?
@@ -40,61 +23,72 @@ float TurnVelocityThresholdMin?
 float TurnVelocityThresholdMax?
 float SurfaceFriction?
 float OverMaxDeceleration?
-float Field_10_0_0_45697_017?
-float Field_10_0_0_45697_018?
-float Field_10_0_0_45697_019?
-float Field_10_0_0_45697_020?
-float Field_10_0_0_45697_021?
-float Field_10_0_0_45697_022?
 int<Spell::ID> SpellID?
 
-LAYOUT 8596C374
-BUILD 10.0.0.44795, 10.0.0.44876, 10.0.0.44895
+LAYOUT 66B425C7
+BUILD 10.0.0.44167
 $noninline,id$ID<32>
-Field_10_0_0_44795_000
-Field_10_0_0_44795_001
-Field_10_0_0_44795_002
-Field_10_0_0_44795_003
-Field_10_0_0_44795_004
-Field_10_0_0_44795_005
-Field_10_0_0_44795_006
+AirFriction
+MaxVel
+Field_10_0_0_44167_002
+DoubleJumpVelMod
+
+LAYOUT C8E5E07A
+BUILD 10.0.0.44402
+$noninline,id$ID<32>
+AirFriction
+MaxVel
+Field_10_0_0_44167_002
+DoubleJumpVelMod
+LiftCoefficient
+
+LAYOUT 8596C374
+BUILD 10.0.0.44475, 10.0.0.44592, 10.0.0.44645, 10.0.0.44649, 10.0.0.44707, 10.0.0.44795, 10.0.0.44876, 10.0.0.44895
+$noninline,id$ID<32>
+AirFriction
+MaxVel
+Field_10_0_0_44167_002
+DoubleJumpVelMod
+LiftCoefficient
+GlideStartMinHeight
+AddImpulseMaxSpeed
 
 LAYOUT 05CED64E
 BUILD 10.0.0.44999, 10.0.0.45141
 $noninline,id$ID<32>
-Field_10_0_0_44795_000
-Field_10_0_0_44795_001
-Field_10_0_0_44795_002
-Field_10_0_0_44795_003
-Field_10_0_0_44795_004
-Field_10_0_0_44795_005
-Field_10_0_0_44795_006
-Field_10_0_0_44999_007
-Field_10_0_0_44999_008
-Field_10_0_0_44999_009
-Field_10_0_0_44999_010
-Field_10_0_0_44999_011
+AirFriction
+MaxVel
+Field_10_0_0_44167_002
+DoubleJumpVelMod
+LiftCoefficient
+GlideStartMinHeight
+AddImpulseMaxSpeed
+BankingRateMin
+PitchingRateDownMin
+PitchingRateUpMin
+SurfaceFriction
+OverMaxDeceleration
 
 LAYOUT C9DE9BE4
 BUILD 10.0.0.45232
 $noninline,id$ID<32>
-Field_10_0_0_44795_000
-Field_10_0_0_44795_001
-Field_10_0_0_44795_002
-Field_10_0_0_44795_003
-Field_10_0_0_44795_004
-Field_10_0_0_44795_005
-Field_10_0_0_44795_006
-Field_10_0_0_44999_007
-Field_10_0_0_45232_008
-Field_10_0_0_44999_008
-Field_10_0_0_45232_010
-Field_10_0_0_44999_009
-Field_10_0_0_45232_012
-Field_10_0_0_45232_013
-Field_10_0_0_45232_014
-Field_10_0_0_44999_010
-Field_10_0_0_44999_011
+AirFriction
+MaxVel
+Field_10_0_0_44167_002
+DoubleJumpVelMod
+LiftCoefficient
+GlideStartMinHeight
+AddImpulseMaxSpeed
+BankingRateMin
+BankingRateMax
+PitchingRateDownMin
+PitchingRateDownMax
+PitchingRateUpMin
+PitchingRateUpMax
+TurnVelocityThresholdMin
+TurnVelocityThresholdMax
+SurfaceFriction
+OverMaxDeceleration
 Field_10_0_0_45232_017
 Field_10_0_0_45232_018
 Field_10_0_0_45232_019
@@ -105,23 +99,23 @@ LAYOUT 2BA64B0A
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632
 BUILD 10.0.0.45335, 10.0.0.45454, 10.0.0.45570
 $noninline,id$ID<32>
-Field_10_0_0_44795_000
-Field_10_0_0_44795_001
-Field_10_0_0_44795_002
-Field_10_0_0_44795_003
-Field_10_0_0_44795_004
-Field_10_0_0_44795_005
-Field_10_0_0_44795_006
-Field_10_0_0_44999_007
-Field_10_0_0_45232_008
-Field_10_0_0_44999_008
-Field_10_0_0_45232_010
-Field_10_0_0_44999_009
-Field_10_0_0_45232_012
-Field_10_0_0_45232_013
-Field_10_0_0_45232_014
-Field_10_0_0_44999_010
-Field_10_0_0_44999_011
+AirFriction
+MaxVel
+Field_10_0_0_44167_002
+DoubleJumpVelMod
+LiftCoefficient
+GlideStartMinHeight
+AddImpulseMaxSpeed
+BankingRateMin
+BankingRateMax
+PitchingRateDownMin
+PitchingRateDownMax
+PitchingRateUpMin
+PitchingRateUpMax
+TurnVelocityThresholdMin
+TurnVelocityThresholdMax
+SurfaceFriction
+OverMaxDeceleration
 Field_10_0_0_45232_017
 Field_10_0_0_45232_018
 Field_10_0_0_45232_019
@@ -139,7 +133,7 @@ BUILD 10.0.0.45661, 10.0.0.45697, 10.0.0.45970, 10.0.0.46047, 10.0.0.46112, 10.0
 $noninline,id$ID<32>
 AirFriction
 MaxVel
-Field_10_0_0_45697_002
+Field_10_0_0_44167_002
 DoubleJumpVelMod
 LiftCoefficient
 GlideStartMinHeight
@@ -154,10 +148,10 @@ TurnVelocityThresholdMin
 TurnVelocityThresholdMax
 SurfaceFriction
 OverMaxDeceleration
-Field_10_0_0_45697_017
-Field_10_0_0_45697_018
-Field_10_0_0_45697_019
-Field_10_0_0_45697_020
-Field_10_0_0_45697_021
-Field_10_0_0_45697_022
+Field_10_0_0_45232_017
+Field_10_0_0_45232_018
+Field_10_0_0_45232_019
+Field_10_0_0_45232_020
+Field_10_0_0_45232_021
+Field_10_0_0_45335_022
 SpellID<32>

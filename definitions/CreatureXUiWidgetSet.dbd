@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Creature::ID> CreatureID?
 int<UiWidgetSet::ID> UiWidgetSetID?
-int Field_9_0_1_34821_002?
+int<UnitCondition::ID> UnitConditionID?
 
 LAYOUT CB7DB164
 BUILD 10.0.0.43342
@@ -16,7 +16,7 @@ BUILD 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078, 9.0.1.35167, 9.0.1.352
 $noninline,id$ID<32>
 CreatureID<32>
 UiWidgetSetID<32>
-Field_9_0_1_34821_002<32>
+UnitConditionID<32>
 
 LAYOUT D5F78F74
 BUILD 10.1.5.49516
@@ -30,4 +30,4 @@ BUILD 9.2.5.43519, 9.2.5.43630, 9.2.5.43741, 9.2.5.43810, 9.2.5.43903, 9.2.5.439
 $noninline,id$ID<32>
 CreatureID<32>
 UiWidgetSetID<32>
-Field_9_0_1_34821_002<32>
+UnitConditionID<32>

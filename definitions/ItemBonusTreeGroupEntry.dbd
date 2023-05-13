@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int ItemBonusTreeID?
+int<ItemBonusTree::ID> ItemBonusTreeID?
 int ItemBonusTreeGroupID?
 
 LAYOUT D18146A8
