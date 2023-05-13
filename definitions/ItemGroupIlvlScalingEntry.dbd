@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-int Field_10_1_0_48480_000?
-int Field_10_1_0_48480_001?
-float Field_10_1_0_48480_002?
-int Field_10_1_0_48480_003?
+int CurrencyTypeID?
+int ItemID?
+float CostScaling?
+int Field_10_1_0_48480_003? // some kind of account wide flag
 int Field_10_1_0_48480_004?
 
 LAYOUT 38E9D642
 BUILD 10.1.5.49516
 BUILD 10.1.0.48480, 10.1.0.48537, 10.1.0.48661, 10.1.0.48776, 10.1.0.48898, 10.1.0.49092, 10.1.0.49190, 10.1.0.49222, 10.1.0.49255, 10.1.0.49318, 10.1.0.49365, 10.1.0.49407, 10.1.0.49426, 10.1.0.49444, 10.1.0.49474, 10.1.0.49570
 $noninline,id$ID<32>
-Field_10_1_0_48480_000<32>
-Field_10_1_0_48480_001<32>
-Field_10_1_0_48480_002
+CurrencyTypeID<32>
+ItemID<32>
+CostScaling
 Field_10_1_0_48480_003<32>
 $noninline,relation$Field_10_1_0_48480_004<32>
