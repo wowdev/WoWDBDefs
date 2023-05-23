@@ -4,7 +4,7 @@ int LabelID?
 int<QuestV2::ID> QuestID?
 
 LAYOUT 1E62975A
-BUILD 10.1.5.49516, 10.1.5.49595
+BUILD 10.1.5.49516, 10.1.5.49595, 10.1.5.49719
 $noninline,id$ID<32>
 LabelID<32>
 $noninline,relation$QuestID<32>

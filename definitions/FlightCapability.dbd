@@ -24,6 +24,31 @@ float TurnVelocityThresholdMax?
 float SurfaceFriction?
 float OverMaxDeceleration?
 int<Spell::ID> SpellID?
+float Field_10_1_5_49719_000?
+float Field_10_1_5_49719_001?
+float Field_10_1_5_49719_002?
+float Field_10_1_5_49719_003?
+float Field_10_1_5_49719_004?
+float Field_10_1_5_49719_005?
+float Field_10_1_5_49719_006?
+float Field_10_1_5_49719_007?
+float Field_10_1_5_49719_008?
+float Field_10_1_5_49719_009?
+float Field_10_1_5_49719_010?
+float Field_10_1_5_49719_011?
+float Field_10_1_5_49719_012?
+float Field_10_1_5_49719_013?
+float Field_10_1_5_49719_014?
+float Field_10_1_5_49719_015?
+float Field_10_1_5_49719_016?
+float Field_10_1_5_49719_017?
+float Field_10_1_5_49719_018?
+float Field_10_1_5_49719_019?
+float Field_10_1_5_49719_020?
+float Field_10_1_5_49719_021?
+float Field_10_1_5_49719_022?
+float Field_10_1_5_49719_023?
+int Field_10_1_5_49719_024?
 
 LAYOUT 66B425C7
 BUILD 10.0.0.44167
@@ -155,3 +180,32 @@ Field_10_0_0_45232_020
 Field_10_0_0_45232_021
 Field_10_0_0_45335_022
 SpellID<32>
+
+LAYOUT 521F9F83
+BUILD 10.1.5.49719
+$noninline,id$ID<32>
+Field_10_1_5_49719_000
+Field_10_1_5_49719_001
+Field_10_1_5_49719_002
+Field_10_1_5_49719_003
+Field_10_1_5_49719_004
+Field_10_1_5_49719_005
+Field_10_1_5_49719_006
+Field_10_1_5_49719_007
+Field_10_1_5_49719_008
+Field_10_1_5_49719_009
+Field_10_1_5_49719_010
+Field_10_1_5_49719_011
+Field_10_1_5_49719_012
+Field_10_1_5_49719_013
+Field_10_1_5_49719_014
+Field_10_1_5_49719_015
+Field_10_1_5_49719_016
+Field_10_1_5_49719_017
+Field_10_1_5_49719_018
+Field_10_1_5_49719_019
+Field_10_1_5_49719_020
+Field_10_1_5_49719_021
+Field_10_1_5_49719_022
+Field_10_1_5_49719_023
+Field_10_1_5_49719_024<32>

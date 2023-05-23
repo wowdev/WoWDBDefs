@@ -1,0 +1,17 @@
+COLUMNS
+int ID
+int Field_10_1_5_49719_000?
+int Field_10_1_5_49719_001?
+int Field_10_1_5_49719_002?
+float Field_10_1_5_49719_003?
+int Field_10_1_5_49719_004?
+
+LAYOUT F3A48090
+BUILD 10.1.5.49719
+COMMENT table is sparse
+$noninline,id$ID<32>
+Field_10_1_5_49719_000<32>
+Field_10_1_5_49719_001<32>
+Field_10_1_5_49719_002<32>
+Field_10_1_5_49719_003[3]
+$noninline,relation$Field_10_1_5_49719_004<32>
