@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int Field_10_1_5_49719_000?
+int<CollectableSourceInfo::ID> CollectableSourceInfoID?
 
 LAYOUT ED2B4E47
 BUILD 10.1.5.49719
 $noninline,id$ID<32>
-Field_10_1_5_49719_000<32>
+CollectableSourceInfoID<32>
