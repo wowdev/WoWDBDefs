@@ -1090,6 +1090,11 @@
     "db2FileDataID": 1278239
   },
   {
+    "tableName": "ConditionalChrModel",
+    "tableHash": "1B2419F3",
+    "db2FileDataID": 5211412
+  },
+  {
     "tableName": "ConditionalContentTuning",
     "tableHash": "7214CB47",
     "db2FileDataID": 3501965
@@ -2928,6 +2933,16 @@
     "tableHash": "713E1C99",
     "dbcFileDataID": 841695,
     "db2FileDataID": 1237438
+  },
+  {
+    "tableName": "JournalInstanceEntrance",
+    "tableHash": "9F874B96",
+    "db2FileDataID": 5228481
+  },
+  {
+    "tableName": "JournalInstanceQueueLoc",
+    "tableHash": "E2952FEE",
+    "db2FileDataID": 5228217
   },
   {
     "tableName": "JournalItemXDifficulty",
