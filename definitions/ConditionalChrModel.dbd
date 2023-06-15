@@ -2,7 +2,7 @@ COLUMNS
 int Field_10_1_5_50006_000?
 int Field_10_1_5_50006_001?
 int Field_10_1_5_50006_002?
-int Field_10_1_5_50006_003?
+int<PlayerCondition::ID> PlayerConditionID?
 int Field_10_1_5_50006_004?
 int Field_10_1_5_50006_005?
 
@@ -11,6 +11,6 @@ BUILD 10.1.5.50006
 Field_10_1_5_50006_000<32>
 $id$Field_10_1_5_50006_001<32>
 Field_10_1_5_50006_002<32>
-Field_10_1_5_50006_003<32>
+PlayerConditionID<32>
 Field_10_1_5_50006_004<32>
 Field_10_1_5_50006_005<32>

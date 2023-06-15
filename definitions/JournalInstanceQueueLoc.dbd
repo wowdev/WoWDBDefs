@@ -1,18 +1,18 @@
 COLUMNS
 int ID
-float Field_10_1_5_50006_000?
-int Field_10_1_5_50006_001?
+float Position?
+int<Map::ID> MapID?
 int Field_10_1_5_50006_002?
 int Field_10_1_5_50006_003?
 int Field_10_1_5_50006_004?
-int Field_10_1_5_50006_005?
+int<JournalInstance::ID> JournalInstanceID?
 
 LAYOUT F0EB0976
 BUILD 10.1.5.50006
 $noninline,id$ID<32>
-Field_10_1_5_50006_000[3]
-Field_10_1_5_50006_001<32>
+Position[3]
+MapID<32>
 Field_10_1_5_50006_002<32>
 Field_10_1_5_50006_003<32>
 Field_10_1_5_50006_004<32>
-$noninline,relation$Field_10_1_5_50006_005<32>
+$noninline,relation$JournalInstanceID<32>
