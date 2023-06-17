@@ -5,8 +5,8 @@ int<ItemBonusTree::ID> ChildItemBonusTreeID
 int<ItemLevelSelector::ID> ChildItemLevelSelectorID
 int ItemContext
 int<ItemBonusTree::ID> ParentItemBonusTreeID
-int<ItemBonusListGroup::ID> ItemBonusListGroupID?
-int ParentItemBonusTreeNodeID? // assumption
+int<ItemBonusListGroup::ID> ChildItemBonusListGroupID
+int IblGroupPointsModSetID
 int MinMythicPlusLevel?
 int MaxMythicPlusLevel?
 
@@ -89,8 +89,8 @@ ItemContext<u8>
 ChildItemBonusTreeID<u16>
 ChildItemBonusListID<u16>
 ChildItemLevelSelectorID<u16>
-ItemBonusListGroupID<32>
-ParentItemBonusTreeNodeID<32>
+ChildItemBonusListGroupID<32>
+IblGroupPointsModSetID<32>
 $noninline,relation$ParentItemBonusTreeID<u16>
 
 LAYOUT 215AE1FF
@@ -103,8 +103,8 @@ ItemContext<u8>
 ChildItemBonusTreeID<u16>
 ChildItemBonusListID<u16>
 ChildItemLevelSelectorID<u16>
-ItemBonusListGroupID<32>
-ParentItemBonusTreeNodeID<32>
+ChildItemBonusListGroupID<32>
+IblGroupPointsModSetID<32>
 $noninline,relation$ParentItemBonusTreeID<32>
 
 LAYOUT C1AEA21E
@@ -119,8 +119,8 @@ ItemContext<u8>
 ChildItemBonusTreeID<u16>
 ChildItemBonusListID<u16>
 ChildItemLevelSelectorID<u16>
-ItemBonusListGroupID<32>
-ParentItemBonusTreeNodeID<32>
+ChildItemBonusListGroupID<32>
+IblGroupPointsModSetID<32>
 $noninline,relation$ParentItemBonusTreeID<32>
 
 LAYOUT F5BD96C0
@@ -131,8 +131,8 @@ ItemContext<u8>
 ChildItemBonusTreeID<u16>
 ChildItemBonusListID<u16>
 ChildItemLevelSelectorID<u16>
-ItemBonusListGroupID<32>
-ParentItemBonusTreeNodeID<32>
+ChildItemBonusListGroupID<32>
+IblGroupPointsModSetID<32>
 MinMythicPlusLevel<32>
 MaxMythicPlusLevel<32>
 $noninline,relation$ParentItemBonusTreeID<32>
