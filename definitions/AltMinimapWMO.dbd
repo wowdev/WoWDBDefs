@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_10_1_5_49516_000?
-int Field_10_1_5_49516_001?
+int<AltMinimap::ID> AltMinimapID?
+int WMOID?
 
 LAYOUT EF863B4E
 BUILD 10.1.5.49516, 10.1.5.49595, 10.1.5.49719, 10.1.5.49824, 10.1.5.49908, 10.1.5.50006, 10.1.5.50130
 $noninline,id$ID<32>
-Field_10_1_5_49516_000<32>
-Field_10_1_5_49516_001<32>
+AltMinimapID<32>
+WMOID<32>

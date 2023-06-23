@@ -1,23 +1,19 @@
 COLUMNS
 int ID
-int Field_10_1_5_49516_000?
-int Field_10_1_5_49516_001?
+int<Map::ID> MapID?
+int<PlayerCondition::ID> PlayerConditionID?
 int Field_10_1_5_49516_002?
-int Field_10_1_5_49908_000?
-int Field_10_1_5_49908_001?
-int Field_10_1_5_49908_002?
-int Field_10_1_5_49908_003?
 
 LAYOUT 91A85FB4
 BUILD 10.1.5.49516, 10.1.5.49595, 10.1.5.49719, 10.1.5.49824
 $noninline,id$ID<32>
-Field_10_1_5_49516_000<32>
-Field_10_1_5_49516_001<32>
+MapID<32>
+PlayerConditionID<32>
 Field_10_1_5_49516_002<32>
 
 LAYOUT 459AD0B9
 BUILD 10.1.5.49908, 10.1.5.50006, 10.1.5.50130
-$id$Field_10_1_5_49908_000<32>
-Field_10_1_5_49908_001<32>
-Field_10_1_5_49908_002<32>
-Field_10_1_5_49908_003<32>
+$id$ID<32>
+MapID<32>
+PlayerConditionID<32>
+Field_10_1_5_49516_002<32>
