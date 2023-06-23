@@ -5,6 +5,13 @@ float VendorPosition?
 int Field_10_1_5_49516_002?
 int<Creature::ID> CreatureID?
 int<CollectableSourceInfo::ID> CollectableSourceInfoID?
+int Field_10_1_5_50130_000?
+float Field_10_1_5_50130_001?
+int Field_10_1_5_50130_002?
+int Field_10_1_5_50130_003?
+int Field_10_1_5_50130_004?
+int Field_10_1_5_50130_005?
+int Field_10_1_5_50130_006?
 
 LAYOUT 51E5C3DD
 BUILD 10.1.5.49516, 10.1.5.49595, 10.1.5.49719, 10.1.5.49824, 10.1.5.49908, 10.1.5.50006
@@ -15,3 +22,15 @@ VendorPosition[3]
 Field_10_1_5_49516_002<32>
 CreatureID<32>
 $noninline,relation$CollectableSourceInfoID<32>
+
+LAYOUT D0863376
+BUILD 10.1.5.50130
+COMMENT table is sparse
+$noninline,id$ID<32>
+Field_10_1_5_50130_000<32>
+Field_10_1_5_50130_001[3]
+Field_10_1_5_50130_002<32>
+Field_10_1_5_50130_003<32>
+Field_10_1_5_50130_004<32>
+Field_10_1_5_50130_005<32>
+$noninline,relation$Field_10_1_5_50130_006<32>
