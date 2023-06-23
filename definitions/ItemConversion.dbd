@@ -3,8 +3,6 @@ int ID
 int<ItemBonusListGroup::ID> ItemBonusListGroupID?
 int Field_9_2_0_42069_001?
 int<ItemBonusTree::ID> ItemBonusTreeID?
-int Field_10_1_5_50130_000?
-int Field_10_1_5_50130_001?
 int Field_10_1_5_50130_002?
 int Field_10_1_5_50130_003?
 int Field_10_1_5_50130_004?
@@ -39,8 +37,8 @@ ItemBonusTreeID<32>
 LAYOUT AD670E90
 BUILD 10.1.5.50130
 $noninline,id$ID<32>
-Field_10_1_5_50130_000<32>
-Field_10_1_5_50130_001<32>
+Field_9_2_0_42069_001<32>
+ItemBonusTreeID<32>
 Field_10_1_5_50130_002<32>
 Field_10_1_5_50130_003<32>
 Field_10_1_5_50130_004<32>
