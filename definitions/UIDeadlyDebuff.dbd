@@ -8,6 +8,14 @@ int<PlayerCondition::ID> PlayerConditionID?
 int<SoundKit::ID> SoundKitID?
 int Field_10_0_0_44167_003?
 int Field_10_0_0_44167_004?
+locstring Field_10_1_5_50199_000_lang?
+int Field_10_1_5_50199_001?
+int Field_10_1_5_50199_002?
+int Field_10_1_5_50199_003?
+int Field_10_1_5_50199_004?
+int Field_10_1_5_50199_005?
+int Field_10_1_5_50199_006?
+int Field_10_1_5_50199_007?
 
 LAYOUT D6810716
 BUILD 10.0.0.44167, 10.0.0.44402
@@ -31,3 +39,14 @@ OverrideCriticalTimeRemaining<32>
 Priority<32>
 PlayerConditionID<32>
 SoundKitID<32>
+
+LAYOUT FE4E561B
+BUILD 10.1.5.50199
+Field_10_1_5_50199_000_lang
+$id$Field_10_1_5_50199_001<32>
+Field_10_1_5_50199_002<32>
+Field_10_1_5_50199_003<32>
+Field_10_1_5_50199_004<32>
+Field_10_1_5_50199_005<32>
+Field_10_1_5_50199_006<32>
+Field_10_1_5_50199_007<32>
