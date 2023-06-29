@@ -32,29 +32,6 @@ int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
 int<ContentTuning::ID> ContentTuningID
-string Field_1_14_4_50252_000?
-locstring Field_1_14_4_50252_001_lang?
-int Field_1_14_4_50252_002?
-int Field_1_14_4_50252_003?
-int Field_1_14_4_50252_004?
-int Field_1_14_4_50252_005?
-int Field_1_14_4_50252_006?
-int Field_1_14_4_50252_007?
-int Field_1_14_4_50252_008?
-int Field_1_14_4_50252_009?
-int Field_1_14_4_50252_010?
-int Field_1_14_4_50252_011?
-int Field_1_14_4_50252_012?
-int Field_1_14_4_50252_013?
-int Field_1_14_4_50252_014?
-float Field_1_14_4_50252_015?
-int Field_1_14_4_50252_016?
-int Field_1_14_4_50252_017?
-int Field_1_14_4_50252_018?
-int Field_1_14_4_50252_019?
-int Field_1_14_4_50252_020?
-int Field_1_14_4_50252_021?
-int Field_1_14_4_50252_022?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -138,29 +115,29 @@ LiquidTypeID<32>[4]
 LAYOUT 19CA1DC6
 BUILD 1.14.4.50252
 $noninline,id$ID<32>
-Field_1_14_4_50252_000
-Field_1_14_4_50252_001_lang
-Field_1_14_4_50252_002<u16>
-Field_1_14_4_50252_003<u16>
-Field_1_14_4_50252_004<16>
-Field_1_14_4_50252_005<u8>
-Field_1_14_4_50252_006<u8>
-Field_1_14_4_50252_007<u16>
-Field_1_14_4_50252_008<u16>
-Field_1_14_4_50252_009<u16>
-Field_1_14_4_50252_010<u16>
-Field_1_14_4_50252_011<8>
-Field_1_14_4_50252_012<u16>
-Field_1_14_4_50252_013<u32>
-Field_1_14_4_50252_014<u8>
-Field_1_14_4_50252_015
-Field_1_14_4_50252_016<32>
-Field_1_14_4_50252_017<16>
-Field_1_14_4_50252_018<u8>
-Field_1_14_4_50252_019<u8>
-Field_1_14_4_50252_020<u8>
-Field_1_14_4_50252_021<32>[2]
-Field_1_14_4_50252_022<u16>[4]
+ZoneName
+AreaName_lang
+ContinentID<u16>
+ParentAreaID<u16>
+AreaBit<16>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+AmbienceID<u16>
+UwAmbience<u16>
+ZoneMusic<u16>
+UwZoneMusic<u16>
+ExplorationLevel<8>
+IntroSound<u16>
+UwIntroSound<u32>
+FactionGroupMask<u8>
+Ambient_multiplier
+MountFlags<32>
+PvpCombatWorldStateID<16>
+WildBattlePetLevelMin<u8>
+WildBattlePetLevelMax<u8>
+WindSettingsID<u8>
+Flags<32>[2]
+LiquidTypeID<u16>[4]
 
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>

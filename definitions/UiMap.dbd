@@ -16,12 +16,6 @@ int<UiTextureAtlasElement::ID> BkgAtlasID
 int AlternateUiMapGroup?
 int<ContentTuning::ID> ContentTuningID?
 int<PlayerCondition::ID> Field_10_1_5_49595_008?
-locstring Field_1_14_4_50252_000_lang?
-int Field_1_14_4_50252_001?
-int Field_1_14_4_50252_002?
-int Field_1_14_4_50252_003?
-int Field_1_14_4_50252_004?
-int Field_1_14_4_50252_005?
 int Field_1_14_4_50252_006?
 int Field_1_14_4_50252_007?
 int Field_1_14_4_50252_008?
@@ -33,12 +27,12 @@ int Field_1_14_4_50252_013?
 
 LAYOUT 8B3C7011
 BUILD 1.14.4.50252
-Field_1_14_4_50252_000_lang
-$id$Field_1_14_4_50252_001<32>
-$relation$Field_1_14_4_50252_002<32>
-Field_1_14_4_50252_003<32>
-Field_1_14_4_50252_004<u8>
-Field_1_14_4_50252_005<u8>
+Name_lang
+$id$ID<32>
+$relation$ParentUiMapID<32>
+Flags<32>
+System<u8>
+Type<u8>
 Field_1_14_4_50252_006<32>
 Field_1_14_4_50252_007<u32>
 Field_1_14_4_50252_008<32>
