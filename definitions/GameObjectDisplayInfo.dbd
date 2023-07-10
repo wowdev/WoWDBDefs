@@ -9,9 +9,9 @@ float OverrideLootEffectScale
 float OverrideNameScale
 float GeoBox
 string ModelName
-int Field_10_1_5_49824_005?
-int Field_10_1_5_49824_006?
-int Field_10_1_5_49824_007?
+int AlternateDisplayType? // 1 = creature, 2 = item
+int<CreatureDisplayInfo::ID> ClientCreatureDisplayInfoID?
+int<Item::ID> ClientItemID?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.0.5991
@@ -166,6 +166,6 @@ FileDataID<32>
 ObjectEffectPackageID<16>
 OverrideLootEffectScale
 OverrideNameScale
-Field_10_1_5_49824_005<32>
-Field_10_1_5_49824_006<32>
-Field_10_1_5_49824_007<32>
+AlternateDisplayType<32>
+ClientCreatureDisplayInfoID<32>
+ClientItemID<32>
