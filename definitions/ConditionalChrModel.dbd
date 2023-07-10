@@ -1,17 +1,17 @@
 COLUMNS
 int Field_10_1_5_50006_000?
-int Field_10_1_5_50006_001?
-int Field_10_1_5_50006_002?
+int<ChrModel::ID> ChrModelID?
+int<ChrCustomizationReq::ID> ChrCustomizationReqID?
 int<PlayerCondition::ID> PlayerConditionID?
-int Field_10_1_5_50006_004?
-int Field_10_1_5_50006_005?
+int Flags?
+int<ChrCustomizationCategory::ID> ChrCustomizationCategoryID?
 
 LAYOUT 4467B29C
 BUILD 10.1.5.50006, 10.1.5.50130, 10.1.5.50199, 10.1.5.50232, 10.1.5.50355
 BUILD 1.14.4.50252, 1.14.4.50304, 1.14.4.50337
 Field_10_1_5_50006_000<32>
-$id$Field_10_1_5_50006_001<32>
-Field_10_1_5_50006_002<32>
+$id$ChrModelID<32>
+ChrCustomizationReqID<32>
 PlayerConditionID<32>
-Field_10_1_5_50006_004<32>
-Field_10_1_5_50006_005<32>
+Flags<32>
+ChrCustomizationCategoryID<32>

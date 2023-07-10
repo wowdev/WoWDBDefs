@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int Field_10_0_5_47118_001?
 int Field_10_0_5_47118_002?
-int Field_10_1_5_50130_003?
+int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
 
 LAYOUT D787F0DD
 BUILD 10.1.5.49516, 10.1.5.49595, 10.1.5.49719, 10.1.5.49824, 10.1.5.49908, 10.1.5.50006
@@ -18,4 +18,4 @@ BUILD 10.1.5.50130, 10.1.5.50199, 10.1.5.50232, 10.1.5.50355
 $id$ID<32>
 Field_10_0_5_47118_001<32>
 Field_10_0_5_47118_002<32>
-Field_10_1_5_50130_003<32>
+CreatureDisplayInfoID<32>
