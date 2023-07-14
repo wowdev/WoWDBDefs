@@ -24,31 +24,7 @@ float TurnVelocityThresholdMax?
 float SurfaceFriction?
 float OverMaxDeceleration?
 int<Spell::ID> SpellID?
-float Field_10_1_5_49719_000?
-float Field_10_1_5_49719_001?
-float Field_10_1_5_49719_002?
-float Field_10_1_5_49719_003?
-float Field_10_1_5_49719_004?
-float Field_10_1_5_49719_005?
-float Field_10_1_5_49719_006?
-float Field_10_1_5_49719_007?
-float Field_10_1_5_49719_008?
-float Field_10_1_5_49719_009?
-float Field_10_1_5_49719_010?
-float Field_10_1_5_49719_011?
-float Field_10_1_5_49719_012?
-float Field_10_1_5_49719_013?
-float Field_10_1_5_49719_014?
-float Field_10_1_5_49719_015?
-float Field_10_1_5_49719_016?
-float Field_10_1_5_49719_017?
-float Field_10_1_5_49719_018?
-float Field_10_1_5_49719_019?
-float Field_10_1_5_49719_020?
-float Field_10_1_5_49719_021?
-float Field_10_1_5_49719_022?
 float Field_10_1_5_49719_023?
-int Field_10_1_5_49719_024?
 
 LAYOUT 66B425C7
 BUILD 10.0.0.44167
@@ -183,7 +159,7 @@ SpellID<32>
 
 LAYOUT 521F9F83
 BUILD 10.1.7.50442
-BUILD 10.1.5.49719, 10.1.5.49824, 10.1.5.49908, 10.1.5.50006, 10.1.5.50130, 10.1.5.50199, 10.1.5.50232, 10.1.5.50355, 10.1.5.50379, 10.1.5.50401, 10.1.5.50438
+BUILD 10.1.5.49719, 10.1.5.49824, 10.1.5.49908, 10.1.5.50006, 10.1.5.50130, 10.1.5.50199, 10.1.5.50232, 10.1.5.50355, 10.1.5.50379, 10.1.5.50401, 10.1.5.50438, 10.1.5.50467
 $noninline,id$ID<32>
 AirFriction
 MaxVel
