@@ -6,7 +6,7 @@ int Field_10_1_5_49516_002?
 int<Creature::ID> CreatureID?
 int<CollectableSourceInfo::ID> CollectableSourceInfoID?
 int<AreaTable::ID> AreaTableID?
-int Field_10_1_5_50130_005?
+int<WMOAreaTable::WMOGroupID> WMOGroupID?
 
 LAYOUT 51E5C3DD
 BUILD 10.1.5.49516, 10.1.5.49595, 10.1.5.49719, 10.1.5.49824, 10.1.5.49908, 10.1.5.50006
@@ -28,5 +28,5 @@ VendorPosition[3]
 Field_10_1_5_49516_002<32>
 CreatureID<32>
 AreaTableID<32>
-Field_10_1_5_50130_005<32>
+WMOGroupID<32>
 $noninline,relation$CollectableSourceInfoID<32>
