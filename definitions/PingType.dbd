@@ -2,8 +2,8 @@ COLUMNS
 int ID
 int Field_10_1_7_50442_000?
 int Field_10_1_7_50442_001?
-int Field_10_1_7_50442_002?
-int Field_10_1_7_50442_003?
+int<UiTextureKit::ID> UiTextureKitID?
+int<SoundKit::ID> SoundKitID?
 int Field_10_1_7_50442_004?
 
 LAYOUT 0CE5C49B
@@ -11,6 +11,6 @@ BUILD 10.1.7.50442
 $noninline,id$ID<32>
 Field_10_1_7_50442_000<32>
 Field_10_1_7_50442_001<u8>
-Field_10_1_7_50442_002<32>
-Field_10_1_7_50442_003<32>
+UiTextureKitID<32>
+SoundKitID<32>
 Field_10_1_7_50442_004<32>
