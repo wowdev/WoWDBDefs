@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Map::ID> VendorMapID?
 float VendorPosition?
-int Field_10_1_5_49516_002?
+int VendorItemID?
 int<Creature::ID> CreatureID?
 int<CollectableSourceInfo::ID> CollectableSourceInfoID?
 int<AreaTable::ID> AreaTableID?
@@ -14,7 +14,7 @@ COMMENT table is sparse
 $noninline,id$ID<32>
 VendorMapID<32>
 VendorPosition[3]
-Field_10_1_5_49516_002<32>
+VendorItemID<32>
 CreatureID<32>
 $noninline,relation$CollectableSourceInfoID<32>
 
@@ -25,7 +25,7 @@ COMMENT table is sparse
 $noninline,id$ID<32>
 VendorMapID<32>
 VendorPosition[3]
-Field_10_1_5_49516_002<32>
+VendorItemID<32>
 CreatureID<32>
 AreaTableID<32>
 WMOGroupID<32>
