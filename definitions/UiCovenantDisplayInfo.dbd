@@ -12,18 +12,6 @@ int<SoundKit::ID> UpgradeTabSelectSoundKitID?
 int<SoundKit::ID> ReservoirFullSoundKitID?
 int<SoundKit::ID> BeginResearchSoundKitID?
 int<SoundKit::ID> RenownFanfareSoundKitID?
-int Field_10_1_7_50587_000?
-int Field_10_1_7_50587_001?
-int Field_10_1_7_50587_002?
-int Field_10_1_7_50587_003?
-int Field_10_1_7_50587_004?
-int Field_10_1_7_50587_005?
-int Field_10_1_7_50587_006?
-int Field_10_1_7_50587_007?
-int Field_10_1_7_50587_008?
-int Field_10_1_7_50587_009?
-int Field_10_1_7_50587_010?
-int Field_10_1_7_50587_011?
 int Field_10_1_7_50587_012?
 
 LAYOUT 2F97ADFB
@@ -117,16 +105,16 @@ RenownFanfareSoundKitID<32>
 LAYOUT FB57169A
 BUILD 10.1.7.50587
 $noninline,id$ID<32>
-Field_10_1_7_50587_000<32>
-Field_10_1_7_50587_001<32>
-Field_10_1_7_50587_002<32>
-Field_10_1_7_50587_003<32>
-Field_10_1_7_50587_004<32>
-Field_10_1_7_50587_005<32>
-Field_10_1_7_50587_006<32>
-Field_10_1_7_50587_007<32>
-Field_10_1_7_50587_008<32>
-Field_10_1_7_50587_009<32>
-Field_10_1_7_50587_010<32>
-Field_10_1_7_50587_011<32>
+CovenantID<32>
+UiTextureKitID<32>
+CelebrationSoundKitID<32>
+AnimaChannelSelectSoundKitID<32>
+AnimaChannelActiveSoundKitID<32>
+AnimaGemsFullSoundKitID<32>
+AnimaNewGemSoundKitID<32>
+AnimaReinforceSelectSoundKitID<32>
+UpgradeTabSelectSoundKitID<32>
+ReservoirFullSoundKitID<32>
+BeginResearchSoundKitID<32>
+RenownFanfareSoundKitID<32>
 Field_10_1_7_50587_012<32>

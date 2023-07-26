@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_10_1_7_50587_000?
-int Field_10_1_7_50587_001?
+int<Holidays::ID> HolidayID?
+int<PerksActivity::ID> PerkActivityID?
 
 LAYOUT 9B7FB7C6
 BUILD 10.1.7.50587
 $noninline,id$ID<32>
-Field_10_1_7_50587_000<32>
-$noninline,relation$Field_10_1_7_50587_001<32>
+HolidayID<32>
+$noninline,relation$PerkActivityID<32>

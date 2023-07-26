@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 int ConfigFlags
-int Field_10_1_7_50587_000?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -68,4 +67,4 @@ ConfigFlags<u32>
 LAYOUT 4BB04814
 BUILD 10.1.7.50587
 $noninline,id$ID<32>
-Field_10_1_7_50587_000<32>
+ConfigFlags<32>
