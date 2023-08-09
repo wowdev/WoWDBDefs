@@ -2,17 +2,17 @@ COLUMNS
 int ID
 int<ChrCustomizationChoice::ID> ChrCustomizationChoiceID?
 int<ChrCustomizationOption::ID> ChrCustomizationOptionID?
-int Field_10_1_7_50793_002?
-int Field_10_1_7_50793_003?
-int Field_10_1_7_50793_004?
-int Field_10_1_7_50793_005?
+int<Creature::ID> CreatureID?
+int<Creature::ID> CreatureID2?
+int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
+int<CreatureDisplayInfo::ID> CreatureDisplayInfoID2?
 
 LAYOUT D58B0F29
 BUILD 10.1.7.50793
 $noninline,id$ID<32>
 ChrCustomizationChoiceID<32>
 ChrCustomizationOptionID<32>
-Field_10_1_7_50793_002<32>
-Field_10_1_7_50793_003<32>
-Field_10_1_7_50793_004<32>
-Field_10_1_7_50793_005<32>
+CreatureID<32>
+CreatureID2<32>
+CreatureDisplayInfoID<32>
+CreatureDisplayInfoID2<32>
