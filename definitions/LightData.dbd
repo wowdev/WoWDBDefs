@@ -43,7 +43,7 @@ float MainFogCoefficients?
 float Field_9_1_0_38312_027?
 float Field_9_1_0_38312_028?
 float Field_9_1_0_38312_037?
-int Field_9_1_0_38312_041?
+int EndFogHeightColor?
 float Field_9_1_0_38312_044?
 int Field_10_0_0_44649_042?
 
@@ -532,7 +532,7 @@ Field_9_1_0_38312_037
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
-Field_9_1_0_38312_041<u32>
+EndFogHeightColor<u32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
 Field_9_1_0_38312_044[4]
@@ -583,7 +583,7 @@ Field_9_1_0_38312_037
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
-Field_9_1_0_38312_041<u32>
+EndFogHeightColor<u32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
 Field_9_1_0_38312_044[4]
@@ -632,7 +632,7 @@ Field_9_1_0_38312_037
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
-Field_9_1_0_38312_041<u32>
+EndFogHeightColor<u32>
 Field_10_0_0_44649_042<32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
@@ -687,7 +687,7 @@ Field_9_1_0_38312_037
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
-Field_9_1_0_38312_041<u32>
+EndFogHeightColor<u32>
 Field_10_0_0_44649_042<32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
@@ -740,7 +740,7 @@ Field_9_1_0_38312_037
 SunFogColor<32>
 SunFogStrength
 FogHeightColor<32>
-Field_9_1_0_38312_041<32>
+EndFogHeightColor<32>
 Field_10_0_0_44649_042<32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
