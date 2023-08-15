@@ -14,21 +14,6 @@ int<PlayerCondition::ID> SpecialIconConditionID
 int<UiTextureKit::ID> UiTextureKitID
 int MinimapAtlasMemberID
 int<PlayerCondition::ID> VisibilityConditionID
-locstring Field_10_1_7_50893_000_lang?
-float Field_10_1_7_50893_001?
-float Field_10_1_7_50893_002?
-float Field_10_1_7_50893_003?
-int Field_10_1_7_50893_004?
-int Field_10_1_7_50893_005?
-int Field_10_1_7_50893_006?
-int Field_10_1_7_50893_007?
-int Field_10_1_7_50893_008?
-int Field_10_1_7_50893_009?
-int Field_10_1_7_50893_010?
-float Field_10_1_7_50893_011?
-int Field_10_1_7_50893_012?
-int Field_10_1_7_50893_013?
-int Field_10_1_7_50893_014?
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368
@@ -367,18 +352,18 @@ MountCreatureID<32>[2]
 
 LAYOUT 5EE95BA9
 BUILD 10.1.7.50893
-Field_10_1_7_50893_000_lang
-Field_10_1_7_50893_001[3]
-Field_10_1_7_50893_002[2]
-Field_10_1_7_50893_003[2]
-$id$Field_10_1_7_50893_004<32>
-$relation$Field_10_1_7_50893_005<u16>
-Field_10_1_7_50893_006<32>
-Field_10_1_7_50893_007<u16>
-Field_10_1_7_50893_008<32>
-Field_10_1_7_50893_009<32>
-Field_10_1_7_50893_010<32>
-Field_10_1_7_50893_011
-Field_10_1_7_50893_012<u32>
-Field_10_1_7_50893_013<u32>
-Field_10_1_7_50893_014<32>[2]
+Name_lang
+Pos[3]
+MapOffset[2]
+FlightMapOffset[2]
+$id$ID<32>
+$relation$ContinentID<u16>
+ConditionID<32>
+CharacterBitNumber<u16>
+Flags<32>
+UiTextureKitID<32>
+MinimapAtlasMemberID<32>
+Facing
+SpecialIconConditionID<u32>
+VisibilityConditionID<u32>
+MountCreatureID<32>[2]
