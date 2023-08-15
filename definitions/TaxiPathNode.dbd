@@ -8,6 +8,15 @@ int Flags
 int Delay
 int ArrivalEventID
 int DepartureEventID
+float Field_10_1_7_50893_000?
+int Field_10_1_7_50893_001?
+int Field_10_1_7_50893_002?
+int Field_10_1_7_50893_003?
+int Field_10_1_7_50893_004?
+int Field_10_1_7_50893_005?
+int Field_10_1_7_50893_006?
+int Field_10_1_7_50893_007?
+int Field_10_1_7_50893_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -185,3 +194,15 @@ Flags<u8>
 Delay<u32>
 ArrivalEventID<32>
 DepartureEventID<32>
+
+LAYOUT F1BEC205
+BUILD 10.1.7.50893
+Field_10_1_7_50893_000[3]
+$id$Field_10_1_7_50893_001<32>
+$relation$Field_10_1_7_50893_002<u16>
+Field_10_1_7_50893_003<32>
+Field_10_1_7_50893_004<u16>
+Field_10_1_7_50893_005<32>
+Field_10_1_7_50893_006<u32>
+Field_10_1_7_50893_007<32>
+Field_10_1_7_50893_008<32>
