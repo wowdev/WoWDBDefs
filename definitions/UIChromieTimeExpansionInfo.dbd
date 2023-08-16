@@ -3,16 +3,16 @@ locstring Name_lang
 locstring Description_lang
 int ID
 int<Spell::ID> SpellID
-int<UiTextureAtlasElement::ID> UiTextureAtlasElementLarge
-int<UiTextureAtlasElement::ID> UiTextureAtlasElementSmall
-int<PlayerCondition::ID> AlreadyOn
-int ExpansionLevelMask? // The way ModifierTree references these, type 301.
+int<UiTextureAtlasElement::ID> MapAtlasElement
+int<UiTextureAtlasElement::ID> PreviewAtlasElement
+int<PlayerCondition::ID> ShowPlayerConditionID
+int ExpansionMask? // The way ModifierTree references these, type 301.
 int<ContentTuning::ID> ContentTuningID
-int<PlayerCondition::ID> Completed
-locstring DescriptionAlliance_lang
-locstring DescriptionHorde_lang
+int<PlayerCondition::ID> CompletedPlayerConditionID
+locstring AllianceOverrideDesc_lang
+locstring HordeOverrideDesc_lang
 int SortPriority?
-int<PlayerCondition::ID> Recommended?
+int<PlayerCondition::ID> RecommendPlayerConditionID?
 
 LAYOUT 774183A9
 BUILD 9.0.1.33978, 9.0.1.34003, 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392, 9.0.1.34490, 9.0.1.34615, 9.0.1.34714
@@ -20,9 +20,9 @@ Name_lang
 Description_lang
 $id$ID<32>
 SpellID<32>
-UiTextureAtlasElementLarge<32>
-UiTextureAtlasElementSmall<32>
-AlreadyOn<32>
+MapAtlasElement<32>
+PreviewAtlasElement<32>
+ShowPlayerConditionID<32>
 
 LAYOUT F44C9B44
 BUILD 9.0.1.34821, 9.0.1.34902, 9.0.1.34972, 9.0.1.35078
@@ -30,10 +30,10 @@ Name_lang
 Description_lang
 $id$ID<32>
 SpellID<32>
-UiTextureAtlasElementLarge<32>
-UiTextureAtlasElementSmall<32>
-AlreadyOn<32>
-ExpansionLevelMask<32>
+MapAtlasElement<32>
+PreviewAtlasElement<32>
+ShowPlayerConditionID<32>
+ExpansionMask<32>
 
 LAYOUT BD07FADF
 BUILD 9.0.1.35167, 9.0.1.35213, 9.0.1.35256, 9.0.1.35282, 9.0.1.35360, 9.0.1.35432, 9.0.1.35482, 9.0.1.35522
@@ -41,10 +41,10 @@ Name_lang
 Description_lang
 $id$ID<32>
 SpellID<32>
-UiTextureAtlasElementLarge<32>
-UiTextureAtlasElementSmall<32>
-AlreadyOn<32>
-ExpansionLevelMask<32>
+MapAtlasElement<32>
+PreviewAtlasElement<32>
+ShowPlayerConditionID<32>
+ExpansionMask<32>
 ContentTuningID<32>
 
 LAYOUT 3EEBBD91
@@ -55,27 +55,27 @@ Name_lang
 Description_lang
 $id$ID<32>
 SpellID<32>
-UiTextureAtlasElementLarge<32>
-UiTextureAtlasElementSmall<32>
-AlreadyOn<32>
-ExpansionLevelMask<32>
+MapAtlasElement<32>
+PreviewAtlasElement<32>
+ShowPlayerConditionID<32>
+ExpansionMask<32>
 ContentTuningID<32>
-Completed<32>
+CompletedPlayerConditionID<32>
 
 LAYOUT 985C54D4
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
 Name_lang
 Description_lang
-DescriptionAlliance_lang
-DescriptionHorde_lang
+AllianceOverrideDesc_lang
+HordeOverrideDesc_lang
 $id$ID<32>
 SpellID<32>
-UiTextureAtlasElementLarge<32>
-UiTextureAtlasElementSmall<32>
-AlreadyOn<32>
-ExpansionLevelMask<32>
+MapAtlasElement<32>
+PreviewAtlasElement<32>
+ShowPlayerConditionID<32>
+ExpansionMask<32>
 ContentTuningID<32>
-Completed<32>
+CompletedPlayerConditionID<32>
 
 LAYOUT 8EA17C93
 BUILD 10.0.0.43342
@@ -86,15 +86,15 @@ BUILD 9.1.0.38549, 9.1.0.38600, 9.1.0.38627, 9.1.0.38709, 9.1.0.38783, 9.1.0.388
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-DescriptionAlliance_lang
-DescriptionHorde_lang
+AllianceOverrideDesc_lang
+HordeOverrideDesc_lang
 SpellID<32>
-UiTextureAtlasElementLarge<32>
-UiTextureAtlasElementSmall<32>
-AlreadyOn<32>
-ExpansionLevelMask<32>
+MapAtlasElement<32>
+PreviewAtlasElement<32>
+ShowPlayerConditionID<32>
+ExpansionMask<32>
 ContentTuningID<32>
-Completed<32>
+CompletedPlayerConditionID<32>
 
 LAYOUT 53011113
 BUILD 10.1.5.49516, 10.1.5.49595, 10.1.5.49719, 10.1.5.49824, 10.1.5.49908, 10.1.5.50006, 10.1.5.50130
@@ -108,15 +108,15 @@ BUILD 9.2.5.43519, 9.2.5.43630, 9.2.5.43741, 9.2.5.43810, 9.2.5.43903, 9.2.5.439
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-DescriptionAlliance_lang
-DescriptionHorde_lang
+AllianceOverrideDesc_lang
+HordeOverrideDesc_lang
 SpellID<32>
-UiTextureAtlasElementLarge<32>
-UiTextureAtlasElementSmall<32>
-AlreadyOn<32>
-ExpansionLevelMask<32>
+MapAtlasElement<32>
+PreviewAtlasElement<32>
+ShowPlayerConditionID<32>
+ExpansionMask<32>
 ContentTuningID<32>
-Completed<32>
+CompletedPlayerConditionID<32>
 
 LAYOUT 7C1717CE
 BUILD 10.1.7.50442, 10.1.7.50505, 10.1.7.50587, 10.1.7.50730, 10.1.7.50793, 10.1.7.50893
@@ -124,14 +124,14 @@ BUILD 10.1.5.50199, 10.1.5.50232, 10.1.5.50355, 10.1.5.50379, 10.1.5.50401, 10.1
 $noninline,id$ID<32>
 Name_lang
 Description_lang
-DescriptionAlliance_lang
-DescriptionHorde_lang
+AllianceOverrideDesc_lang
+HordeOverrideDesc_lang
 SpellID<32>
-UiTextureAtlasElementLarge<32>
-UiTextureAtlasElementSmall<32>
-AlreadyOn<32>
-ExpansionLevelMask<32>
+MapAtlasElement<32>
+PreviewAtlasElement<32>
+ShowPlayerConditionID<32>
+ExpansionMask<32>
 ContentTuningID<32>
-Completed<32>
+CompletedPlayerConditionID<32>
 SortPriority<32>
-Recommended<32>
+RecommendPlayerConditionID<32>
