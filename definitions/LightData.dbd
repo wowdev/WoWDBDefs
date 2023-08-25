@@ -37,14 +37,14 @@ float SunFogAngle
 int SunFogColor
 float SunFogStrength
 float FogHeightCoefficients
-float Field_9_0_1_33978_026?
+float FogZScalar
 int<FileData::ID> DarkerColorGradingFileDataID?
-float MainFogCoefficients?
-float Field_9_1_0_38312_027?
-float Field_9_1_0_38312_028?
-float Field_9_1_0_38312_037?
-int EndFogHeightColor?
-float Field_9_1_0_38312_044?
+float MainFogCoefficients
+float MainFogStartDist
+float MainFogEndDist
+float FogStartOffset
+int EndFogHeightColor
+float HeightDensityFogCoeff
 int Field_10_0_0_44649_042?
 
 LAYOUT 9E95F375
@@ -463,7 +463,7 @@ FogDensity
 FogHeight
 FogHeightScaler
 FogHeightDensity
-Field_9_0_1_33978_026
+FogZScalar
 SunFogAngle
 CloudDensity
 ColorGradingFileDataID<u32>
@@ -517,9 +517,9 @@ FogDensity
 FogHeight
 FogHeightScaler
 FogHeightDensity
-Field_9_0_1_33978_026
-Field_9_1_0_38312_027
-Field_9_1_0_38312_028
+FogZScalar
+MainFogStartDist
+MainFogEndDist
 SunFogAngle
 CloudDensity
 ColorGradingFileDataID<u32>
@@ -528,14 +528,14 @@ HorizonAmbientColor<32>
 GroundAmbientColor<32>
 EndFogColor<u32>
 EndFogColorDistance
-Field_9_1_0_38312_037
+FogStartOffset
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
 EndFogHeightColor<u32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
-Field_9_1_0_38312_044[4]
+HeightDensityFogCoeff[4]
 
 LAYOUT D057E40C
 BUILD 9.2.7.44444, 9.2.7.44767, 9.2.7.44931, 9.2.7.44981, 9.2.7.45114, 9.2.7.45161, 9.2.7.45338, 9.2.7.45745
@@ -568,9 +568,9 @@ FogDensity
 FogHeight
 FogHeightScaler
 FogHeightDensity
-Field_9_0_1_33978_026
-Field_9_1_0_38312_027
-Field_9_1_0_38312_028
+FogZScalar
+MainFogStartDist
+MainFogEndDist
 SunFogAngle
 CloudDensity
 ColorGradingFileDataID<u32>
@@ -579,14 +579,14 @@ HorizonAmbientColor<32>
 GroundAmbientColor<32>
 EndFogColor<u32>
 EndFogColorDistance
-Field_9_1_0_38312_037
+FogStartOffset
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
 EndFogHeightColor<u32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
-Field_9_1_0_38312_044[4]
+HeightDensityFogCoeff[4]
 
 LAYOUT 140708DA
 BUILD 10.0.0.43342
@@ -617,9 +617,9 @@ FogDensity
 FogHeight
 FogHeightScaler
 FogHeightDensity
-Field_9_0_1_33978_026
-Field_9_1_0_38312_027
-Field_9_1_0_38312_028
+FogZScalar
+MainFogStartDist
+MainFogEndDist
 SunFogAngle
 CloudDensity
 ColorGradingFileDataID<u32>
@@ -628,7 +628,7 @@ HorizonAmbientColor<32>
 GroundAmbientColor<32>
 EndFogColor<u32>
 EndFogColorDistance
-Field_9_1_0_38312_037
+FogStartOffset
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
@@ -636,7 +636,7 @@ EndFogHeightColor<u32>
 Field_10_0_0_44649_042<32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
-Field_9_1_0_38312_044[4]
+HeightDensityFogCoeff[4]
 
 LAYOUT 5A08CEBB
 BUILD 10.0.5.47118, 10.0.5.47186, 10.0.5.47215, 10.0.5.47481, 10.0.5.47621, 10.0.5.47660, 10.0.5.47777, 10.0.5.47799, 10.0.5.47825, 10.0.5.47849, 10.0.5.47871, 10.0.5.47884, 10.0.5.47936, 10.0.5.47967, 10.0.5.48001, 10.0.5.48069, 10.0.5.48317, 10.0.5.48397, 10.0.5.48526
@@ -672,9 +672,9 @@ FogDensity
 FogHeight
 FogHeightScaler
 FogHeightDensity
-Field_9_0_1_33978_026
-Field_9_1_0_38312_027
-Field_9_1_0_38312_028
+FogZScalar
+MainFogStartDist
+MainFogEndDist
 SunFogAngle
 CloudDensity
 ColorGradingFileDataID<u32>
@@ -683,7 +683,7 @@ HorizonAmbientColor<32>
 GroundAmbientColor<32>
 EndFogColor<u32>
 EndFogColorDistance
-Field_9_1_0_38312_037
+FogStartOffset
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
@@ -691,7 +691,7 @@ EndFogHeightColor<u32>
 Field_10_0_0_44649_042<32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
-Field_9_1_0_38312_044[4]
+HeightDensityFogCoeff[4]
 
 LAYOUT 1D523CA5
 BUILD 10.1.7.50442, 10.1.7.50505, 10.1.7.50587, 10.1.7.50730, 10.1.7.50793, 10.1.7.50893, 10.1.7.51059
@@ -725,9 +725,9 @@ FogDensity
 FogHeight
 FogHeightScaler
 FogHeightDensity
-Field_9_0_1_33978_026
-Field_9_1_0_38312_027
-Field_9_1_0_38312_028
+FogZScalar
+MainFogStartDist
+MainFogEndDist
 SunFogAngle
 CloudDensity
 ColorGradingFileDataID<u32>
@@ -736,7 +736,7 @@ HorizonAmbientColor<32>
 GroundAmbientColor<32>
 EndFogColor<32>
 EndFogColorDistance
-Field_9_1_0_38312_037
+FogStartOffset
 SunFogColor<32>
 SunFogStrength
 FogHeightColor<32>
@@ -744,4 +744,4 @@ EndFogHeightColor<32>
 Field_10_0_0_44649_042<32>
 FogHeightCoefficients[4]
 MainFogCoefficients[4]
-Field_9_1_0_38312_044[4]
+HeightDensityFogCoeff[4]
