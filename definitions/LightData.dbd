@@ -42,7 +42,7 @@ int<FileData::ID> DarkerColorGradingFileDataID?
 float MainFogCoefficients
 float MainFogStartDist
 float MainFogEndDist
-float fogStartOffset
+float FogStartOffset
 int EndFogHeightColor
 float HeightDensityFogCoeff
 int Field_10_0_0_44649_042?
@@ -528,7 +528,7 @@ HorizonAmbientColor<32>
 GroundAmbientColor<32>
 EndFogColor<u32>
 EndFogColorDistance
-fogStartOffset
+FogStartOffset
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
@@ -579,7 +579,7 @@ HorizonAmbientColor<32>
 GroundAmbientColor<32>
 EndFogColor<u32>
 EndFogColorDistance
-fogStartOffset
+FogStartOffset
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
@@ -628,7 +628,7 @@ HorizonAmbientColor<32>
 GroundAmbientColor<32>
 EndFogColor<u32>
 EndFogColorDistance
-fogStartOffset
+FogStartOffset
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
@@ -683,7 +683,7 @@ HorizonAmbientColor<32>
 GroundAmbientColor<32>
 EndFogColor<u32>
 EndFogColorDistance
-fogStartOffset
+FogStartOffset
 SunFogColor<u32>
 SunFogStrength
 FogHeightColor<u32>
@@ -736,7 +736,7 @@ HorizonAmbientColor<32>
 GroundAmbientColor<32>
 EndFogColor<32>
 EndFogColorDistance
-fogStartOffset
+FogStartOffset
 SunFogColor<32>
 SunFogStrength
 FogHeightColor<32>
