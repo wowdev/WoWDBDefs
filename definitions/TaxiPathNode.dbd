@@ -8,15 +8,6 @@ int Flags
 int Delay
 int ArrivalEventID
 int DepartureEventID
-float Field_3_4_3_51126_000?
-int Field_3_4_3_51126_001?
-int Field_3_4_3_51126_002?
-int Field_3_4_3_51126_003?
-int Field_3_4_3_51126_004?
-int Field_3_4_3_51126_005?
-int Field_3_4_3_51126_006?
-int Field_3_4_3_51126_007?
-int Field_3_4_3_51126_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -74,15 +65,15 @@ DepartureEventID<u32>
 
 LAYOUT C38748B1
 BUILD 3.4.3.51126
-Field_3_4_3_51126_000[3]
-$id$Field_3_4_3_51126_001<32>
-$relation$Field_3_4_3_51126_002<u16>
-Field_3_4_3_51126_003<32>
-Field_3_4_3_51126_004<u16>
-Field_3_4_3_51126_005<32>
-Field_3_4_3_51126_006<u32>
-Field_3_4_3_51126_007<u32>
-Field_3_4_3_51126_008<u32>
+Loc[3]
+$id$ID<32>
+$relation$PathID<u16>
+NodeIndex<32>
+ContinentID<u16>
+Flags<32>
+Delay<u32>
+ArrivalEventID<u32>
+DepartureEventID<u32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
