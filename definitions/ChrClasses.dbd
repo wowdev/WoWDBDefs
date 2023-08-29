@@ -46,6 +46,31 @@ int CharacterCreationAnimLoopWaitTimeMsFallback?
 int HasStrengthAttackBonus?
 locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
 locstring Hyphenated_name_female_lang?
+locstring Field_3_4_3_51126_000_lang?
+string Field_3_4_3_51126_001?
+locstring Field_3_4_3_51126_002_lang?
+locstring Field_3_4_3_51126_003_lang?
+string Field_3_4_3_51126_004?
+int Field_3_4_3_51126_005?
+int Field_3_4_3_51126_006?
+int Field_3_4_3_51126_007?
+int Field_3_4_3_51126_008?
+int Field_3_4_3_51126_009?
+int Field_3_4_3_51126_010?
+int Field_3_4_3_51126_011?
+int Field_3_4_3_51126_012?
+int Field_3_4_3_51126_013?
+int Field_3_4_3_51126_014?
+int Field_3_4_3_51126_015?
+int Field_3_4_3_51126_016?
+int Field_3_4_3_51126_017?
+int Field_3_4_3_51126_018?
+int Field_3_4_3_51126_019?
+int Field_3_4_3_51126_020?
+int Field_3_4_3_51126_021?
+int Field_3_4_3_51126_022?
+int Field_3_4_3_51126_023?
+int Field_3_4_3_51126_024?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -320,6 +345,34 @@ AttackPowerPerStrength<u8>
 SpellClassSet<u8>
 DamageBonusStat<u8>
 HasRelicSlot<u8>
+
+LAYOUT 3F74F8D7
+BUILD 3.4.3.51126
+Field_3_4_3_51126_000_lang
+Field_3_4_3_51126_001
+Field_3_4_3_51126_002_lang
+Field_3_4_3_51126_003_lang
+Field_3_4_3_51126_004
+$id$Field_3_4_3_51126_005<32>
+Field_3_4_3_51126_006<u32>
+Field_3_4_3_51126_007<u32>
+Field_3_4_3_51126_008<u32>
+Field_3_4_3_51126_009<u32>
+Field_3_4_3_51126_010<32>
+Field_3_4_3_51126_011<32>
+Field_3_4_3_51126_012<u32>
+Field_3_4_3_51126_013<u16>
+Field_3_4_3_51126_014<u16>
+Field_3_4_3_51126_015<u8>
+Field_3_4_3_51126_016<u8>
+Field_3_4_3_51126_017<u8>
+Field_3_4_3_51126_018<u8>
+Field_3_4_3_51126_019<u8>
+Field_3_4_3_51126_020<u8>
+Field_3_4_3_51126_021<u8>
+Field_3_4_3_51126_022<u8>
+Field_3_4_3_51126_023<u8>
+Field_3_4_3_51126_024<u8>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11927-4.3.4.15595
