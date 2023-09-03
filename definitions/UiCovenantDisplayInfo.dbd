@@ -12,7 +12,7 @@ int<SoundKit::ID> UpgradeTabSelectSoundKitID?
 int<SoundKit::ID> ReservoirFullSoundKitID?
 int<SoundKit::ID> BeginResearchSoundKitID?
 int<SoundKit::ID> RenownFanfareSoundKitID?
-int Field_10_1_7_50587_012?
+int UiPriority?
 
 LAYOUT 2F97ADFB
 BUILD 9.0.2.35854
@@ -117,4 +117,4 @@ UpgradeTabSelectSoundKitID<32>
 ReservoirFullSoundKitID<32>
 BeginResearchSoundKitID<32>
 RenownFanfareSoundKitID<32>
-Field_10_1_7_50587_012<32>
+UiPriority<32>
