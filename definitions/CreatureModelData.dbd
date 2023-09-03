@@ -43,8 +43,8 @@ string AnimModelName
 int MountScaleOtherIndex? // self.CDI.scale * self.MountScaleSelf * otherCMD.MountScaleOther[MountScaleOtherIndex]
 float MountScaleSelf?
 float MountScaleOther?
-float Field_10_1_7_50442_003?
-float Field_10_1_7_50442_004?
+float WalkSpeed?
+float RunSpeed?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -656,8 +656,8 @@ $noninline,id$ID<32>
 GeoBox[6]
 Flags<u32>
 FileDataID<u32>
-Field_10_1_7_50442_003
-Field_10_1_7_50442_004
+WalkSpeed
+RunSpeed
 BloodID<u32>
 FootprintTextureID<u32>
 FootprintTextureLength
