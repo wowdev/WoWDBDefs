@@ -6,7 +6,7 @@ int<ContentRestrictionRuleSet::ID> ContentRestrictionRuleSetID?
 int<AreaTable::ID> AreaTableID?
 int<Achievement::ID> AchievementID?
 int<Map::ID> MapID?
-int<AreaGroupMember::AreaGroupID>> AreaGroupID? // argument 1?
+int<AreaGroupMember::AreaGroupID> AreaGroupID? // argument 1?
 int ExpansionID? // argument 2?
 
 LAYOUT 25A85C91
