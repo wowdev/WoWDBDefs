@@ -1,13 +1,13 @@
 COLUMNS
 int ID
-int RuleType? // 0: Map.isPvP; 1: some player flag?; 2: AreaTable.AreaBit; 3: Legion Mage Tower (mapIDs 1673, 1616, 1698, 1702, 1703, 1684, 1710); 4: C_PvP.IsSoloShuffle(); 5: Map.Expansion == 8/Field_10_0_2_46144_006; 6: MapDifficulty-like == 8 (Mythic Dungeon?); 7: Map.InstanceType == 1; 8: Map.InstanceType == 2; 9: Map.InstanceType == 4; 10: Map.InstanceType == 3; 11: something PvP queue
+int RuleType? // 0: Map.isPvP; 1: some player flag?; 2: AreaTable.AreaBit; 3: Legion Mage Tower (mapIDs 1673, 1616, 1698, 1702, 1703, 1684, 1710); 4: C_PvP.IsSoloShuffle(); 5: Map.Expansion == 8/ExpansionID; 6: MapDifficulty-like == 8 (Mythic Dungeon?); 7: Map.InstanceType == 1; 8: Map.InstanceType == 2; 9: Map.InstanceType == 4; 10: Map.InstanceType == 3; 11: something PvP queue
 int Flags? // &1: invert condition
 int<ContentRestrictionRuleSet::ID> ContentRestrictionRuleSetID?
 int<AreaTable::ID> AreaTableID?
 int<Achievement::ID> AchievementID?
 int<Map::ID> MapID?
-int Field_10_0_2_46144_005? // argument 1?
-int Field_10_0_2_46144_006? // argument 2?
+int<AreaGroupMember::AreaGroupID>> AreaGroupID? // argument 1?
+int ExpansionID? // argument 2?
 
 LAYOUT 25A85C91
 BUILD 10.0.2.45480, 10.0.2.45505
@@ -41,6 +41,6 @@ Flags<32>
 MapID<32>
 AreaTableID<32>
 AchievementID<32>
-Field_10_0_2_46144_005<32>
-Field_10_0_2_46144_006<32>
+AreaGroupID<32>
+ExpansionID<32>
 $noninline,relation$ContentRestrictionRuleSetID<32>
