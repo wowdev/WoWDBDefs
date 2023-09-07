@@ -4,11 +4,6 @@ int AtlasHeight
 int AtlasWidth
 int<FileData::ID> FileDataID
 int<UiCanvas::ID> UiCanvasID
-int Field_10_2_0_51239_000?
-int Field_10_2_0_51239_001?
-int Field_10_2_0_51239_002?
-int Field_10_2_0_51239_003?
-int Field_10_2_0_51239_004?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -93,8 +88,8 @@ UiCanvasID<u8>
 
 LAYOUT 84691E24
 BUILD 10.2.0.51239
-$id$Field_10_2_0_51239_000<32>
-Field_10_2_0_51239_001<32>
-Field_10_2_0_51239_002<u16>
-Field_10_2_0_51239_003<u16>
-Field_10_2_0_51239_004<u8>
+$id$ID<32>
+FileDataID<32>
+AtlasWidth<u16>
+AtlasHeight<u16>
+UiCanvasID<u8>

@@ -3,7 +3,6 @@ int ID
 int Field_10_0_5_47118_001?
 int Field_10_0_5_47118_002?
 int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
-int Field_10_2_0_51239_000?
 int Field_10_2_0_51239_001?
 int Field_10_2_0_51239_002?
 
@@ -26,6 +25,6 @@ CreatureDisplayInfoID<32>
 
 LAYOUT 6D14E9E7
 BUILD 10.2.0.51239
-$id$Field_10_2_0_51239_000<32>
+$id$ID<32>
 Field_10_2_0_51239_001<32>
 Field_10_2_0_51239_002<32>

@@ -53,30 +53,6 @@ int Field_1_5_0_4442_014?
 int Field_3_0_2_9056_021?
 int Field_1_7_0_4671_015?
 int NavigationMaxDistance? // default/if <= 0: 999, max ingame navigation pin distance
-string Field_10_2_0_51239_000?
-locstring Field_10_2_0_51239_001_lang?
-locstring Field_10_2_0_51239_002_lang?
-locstring Field_10_2_0_51239_003_lang?
-locstring Field_10_2_0_51239_004_lang?
-locstring Field_10_2_0_51239_005_lang?
-float Field_10_2_0_51239_006?
-int Field_10_2_0_51239_007?
-int Field_10_2_0_51239_008?
-int Field_10_2_0_51239_009?
-int Field_10_2_0_51239_010?
-int Field_10_2_0_51239_011?
-int Field_10_2_0_51239_012?
-int Field_10_2_0_51239_013?
-int Field_10_2_0_51239_014?
-int Field_10_2_0_51239_015?
-float Field_10_2_0_51239_016?
-int Field_10_2_0_51239_017?
-int Field_10_2_0_51239_018?
-int Field_10_2_0_51239_019?
-int Field_10_2_0_51239_020?
-int Field_10_2_0_51239_021?
-int Field_10_2_0_51239_022?
-int Field_10_2_0_51239_023?
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
@@ -1082,27 +1058,27 @@ Flags<32>[3]
 LAYOUT 15542FE8
 BUILD 10.2.0.51239
 $noninline,id$ID<32>
-Field_10_2_0_51239_000
-Field_10_2_0_51239_001_lang
-Field_10_2_0_51239_002_lang
-Field_10_2_0_51239_003_lang
-Field_10_2_0_51239_004_lang
-Field_10_2_0_51239_005_lang
-Field_10_2_0_51239_006[2]
-Field_10_2_0_51239_007<u8>
-Field_10_2_0_51239_008<8>
-Field_10_2_0_51239_009<u8>
-Field_10_2_0_51239_010<u16>
-Field_10_2_0_51239_011<16>
-Field_10_2_0_51239_012<16>
-Field_10_2_0_51239_013<16>
-Field_10_2_0_51239_014<16>
-Field_10_2_0_51239_015<u8>
-Field_10_2_0_51239_016
-Field_10_2_0_51239_017<16>
-Field_10_2_0_51239_018<u8>
-Field_10_2_0_51239_019<16>
-Field_10_2_0_51239_020<32>
-Field_10_2_0_51239_021<32>
-Field_10_2_0_51239_022<32>
-Field_10_2_0_51239_023<32>[3]
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
+Corpse[2]
+MapType<u8>
+InstanceType<8>
+ExpansionID<u8>
+AreaTableID<u16>
+LoadingScreenID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+TimeOffset<u8>
+MinimapIconScale
+CorpseMapID<16>
+MaxPlayers<u8>
+WindSettingsID<16>
+ZmpFileDataID<32>
+WdtFileDataID<32>
+NavigationMaxDistance<32>
+Flags<32>[3]
