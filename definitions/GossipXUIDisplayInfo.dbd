@@ -4,6 +4,10 @@ int GossipMenuID? // but probably not GossipMenuID
 int<UiTextureKit::ID> UiTextureKitID?
 locstring CustomGossipDescriptionString_lang
 locstring CompletedOptionDescriptionString_lang
+locstring Field_10_2_0_51239_000_lang?
+locstring Field_10_2_0_51239_001_lang?
+int Field_10_2_0_51239_002?
+int Field_10_2_0_51239_003?
 
 LAYOUT C9A649B0
 BUILD 9.0.2.35854, 9.0.2.35938, 9.0.2.35978, 9.0.2.36037, 9.0.2.36086, 9.0.2.36165, 9.0.2.36206, 9.0.2.36267, 9.0.2.36294, 9.0.2.36401, 9.0.2.36512, 9.0.2.36532, 9.0.2.36599, 9.0.2.36639, 9.0.2.36665, 9.0.2.36671, 9.0.2.36710, 9.0.2.36734, 9.0.2.36751, 9.0.2.36753, 9.0.2.36839, 9.0.2.36949, 9.0.2.37106, 9.0.2.37130, 9.0.2.37142, 9.0.2.37176, 9.0.2.37415, 9.0.2.37474
@@ -54,3 +58,11 @@ CustomGossipDescriptionString_lang
 CompletedOptionDescriptionString_lang
 GossipMenuID<32>
 UiTextureKitID<32>
+
+LAYOUT 30595578
+BUILD 10.2.0.51239
+$noninline,id$ID<32>
+Field_10_2_0_51239_000_lang
+Field_10_2_0_51239_001_lang
+Field_10_2_0_51239_002<32>
+Field_10_2_0_51239_003<32>

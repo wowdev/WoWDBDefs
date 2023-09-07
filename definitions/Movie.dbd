@@ -6,6 +6,11 @@ int<FileData::ID> AudioFileDataID
 int<FileData::ID> SubtitleFileDataID
 string Filename
 int SubtitleFileFormat?
+int Field_10_2_0_51239_000?
+int Field_10_2_0_51239_001?
+int Field_10_2_0_51239_002?
+int Field_10_2_0_51239_003?
+int Field_10_2_0_51239_004?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12319
@@ -105,3 +110,12 @@ KeyID<u8>
 AudioFileDataID<u32>
 SubtitleFileDataID<u32>
 SubtitleFileFormat<32>
+
+LAYOUT 6C52E628
+BUILD 10.2.0.51239
+$noninline,id$ID<32>
+Field_10_2_0_51239_000<u8>
+Field_10_2_0_51239_001<u8>
+Field_10_2_0_51239_002<u32>
+Field_10_2_0_51239_003<u32>
+Field_10_2_0_51239_004<u32>
