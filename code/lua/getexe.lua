@@ -1,6 +1,7 @@
 local args = (function()
   local parser = require('argparse')()
   parser:argument('product', 'product to fetch')
+  parser:argument('bkey', 'build hash'):args('?')
   parser:flag('-v --verbose', 'verbose')
   return parser:parse()
 end)()
@@ -8,6 +9,8 @@ require('pl.dir').makepath('cache')
 local handle = (function()
   local casc = require('casc')
   local bkey, cdn, ckey = casc.cdnbuild('http://us.patch.battle.net:1119/' .. args.product, 'us')
+  bkey = args.bkey or bkey
+  print('fetching from build ' .. bkey)
   local handle, err = casc.open({
     bkey = bkey,
     cache = 'cache',
@@ -40,9 +43,7 @@ local content = (function()
   for _, exe in ipairs(exesToTry) do
     local content = handle:readFile(exe)
     if content then
-      if args.verbose then
-        print('fetching ' .. exe)
-      end
+      print('fetched ' .. exe)
       return content
     end
   end
