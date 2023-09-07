@@ -13,7 +13,11 @@ on:
         url:
           description: EXE URL (temp for workflow testing)
           required: false
-          type: string        
+          type: string
+        config:
+          description: Build config hash
+          required: false
+          type: string
 jobs:
   dumpandmerge:
     runs-on: ubuntu-latest
@@ -44,7 +48,7 @@ jobs:
         run: cat code/lua/rocks.txt | xargs -n1 luarocks install
       - name: Dump exe
         if: "${{ github.event.inputs.url == '' }}"
-        run: lua code/lua/getexe.lua ${{ github.event.inputs.product }}
+        run: lua code/lua/getexe.lua ${{ github.event.inputs.product }} ${{ github.event.inputs.config }}
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
