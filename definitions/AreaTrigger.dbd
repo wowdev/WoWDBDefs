@@ -16,21 +16,6 @@ int<AreaTriggerActionSet::ID> AreaTriggerActionSetID
 int Flags
 int PhaseShift
 locstring Message_lang?
-float Field_10_2_0_51239_000?
-int Field_10_2_0_51239_001?
-int Field_10_2_0_51239_002?
-int Field_10_2_0_51239_003?
-int Field_10_2_0_51239_004?
-int Field_10_2_0_51239_005?
-float Field_10_2_0_51239_006?
-float Field_10_2_0_51239_007?
-float Field_10_2_0_51239_008?
-float Field_10_2_0_51239_009?
-float Field_10_2_0_51239_010?
-int Field_10_2_0_51239_011?
-int Field_10_2_0_51239_012?
-int Field_10_2_0_51239_013?
-int Field_10_2_0_51239_014?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -282,18 +267,18 @@ Flags<8>
 
 LAYOUT 755974EC
 BUILD 10.2.0.51239
-Field_10_2_0_51239_000[3]
-$id$Field_10_2_0_51239_001<32>
-$relation$Field_10_2_0_51239_002<16>
-Field_10_2_0_51239_003<32>
-Field_10_2_0_51239_004<16>
-Field_10_2_0_51239_005<16>
-Field_10_2_0_51239_006
-Field_10_2_0_51239_007
-Field_10_2_0_51239_008
-Field_10_2_0_51239_009
-Field_10_2_0_51239_010
-Field_10_2_0_51239_011<8>
-Field_10_2_0_51239_012<16>
-Field_10_2_0_51239_013<32>
-Field_10_2_0_51239_014<8>
+Pos[3]
+$id$ID<32>
+$relation$ContinentID<16>
+PhaseUseFlags<32>
+PhaseID<16>
+PhaseGroupID<16>
+Radius
+Box_length
+Box_width
+Box_height
+Box_yaw
+ShapeType<8>
+ShapeID<16>
+AreaTriggerActionSetID<32>
+Flags<8>

@@ -11,13 +11,7 @@ int ZoneIntroMusicID
 int<ZoneMusic::ID> ZoneMusicID
 int<SoundAmbience::ID> SoundAmbienceID
 int<SoundProviderPreferences::ID> SoundProviderPreferencesID
-int Field_10_2_0_51239_000?
-int Field_10_2_0_51239_001?
-int Field_10_2_0_51239_002?
-int Field_10_2_0_51239_003?
-int Field_10_2_0_51239_004?
-int Field_10_2_0_51239_005?
-int Field_10_2_0_51239_006?
+int<MusicOverride::ID> MusicOverrideID?
 
 BUILD 3.0.1.8303-3.3.5.12340
 COMMENT completely unvalidated
@@ -152,10 +146,10 @@ SubchunkY<u8>
 LAYOUT 589C31E5
 BUILD 10.2.0.51239
 $noninline,id$ID<32>
-Field_10_2_0_51239_000<u16>
-Field_10_2_0_51239_001<32>
-Field_10_2_0_51239_002<32>
-Field_10_2_0_51239_003<u8>
-Field_10_2_0_51239_004<u8>
-Field_10_2_0_51239_005<u8>
-Field_10_2_0_51239_006<u8>
+MapID<u16>
+SoundOverrideID<32>
+MusicOverrideID<32>
+ChunkX<u8>
+ChunkY<u8>
+SubchunkX<u8>
+SubchunkY<u8>

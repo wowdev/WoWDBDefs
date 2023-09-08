@@ -5,7 +5,6 @@ int<PlayerCondition::ID> PlayerConditionID?
 int<CreatureDifficulty::ID> CreatureDifficultyID?
 int Field_10_2_0_51239_000?
 int Field_10_2_0_51239_001?
-int Field_10_2_0_51239_002?
 
 LAYOUT 248ECDA6
 BUILD 10.1.7.50442, 10.1.7.50505, 10.1.7.50587, 10.1.7.50730, 10.1.7.50793, 10.1.7.50893, 10.1.7.51059, 10.1.7.51187, 10.1.7.51237
@@ -25,4 +24,4 @@ BUILD 10.2.0.51239
 $noninline,id$ID<32>
 Field_10_2_0_51239_000<32>
 Field_10_2_0_51239_001<32>
-$noninline,relation$Field_10_2_0_51239_002<32>
+$noninline,relation$CreatureDifficultyID<32>

@@ -7,12 +7,6 @@ int Flags?
 int Field_9_1_0_38312_004?
 int Field_9_1_0_38511_004?
 int ItemContextOffset?
-locstring Field_10_2_0_51239_000_lang?
-int Field_10_2_0_51239_001?
-int Field_10_2_0_51239_002?
-int Field_10_2_0_51239_003?
-int Field_10_2_0_51239_004?
-int Field_10_2_0_51239_005?
 
 LAYOUT CC09E623
 BUILD 9.0.5.37503, 9.0.5.37623, 9.0.5.37705, 9.0.5.37774, 9.0.5.37844, 9.0.5.37862, 9.0.5.37864, 9.0.5.37893, 9.0.5.37899, 9.0.5.37988, 9.0.5.38134, 9.0.5.38556
@@ -68,9 +62,9 @@ ItemContextOffset<32>
 LAYOUT 705BAAB0
 BUILD 10.2.0.51239
 $noninline,id$ID<32>
-Field_10_2_0_51239_000_lang
-Field_10_2_0_51239_001<32>
-Field_10_2_0_51239_002<32>
-Field_10_2_0_51239_003<32>
-Field_10_2_0_51239_004<32>
-Field_10_2_0_51239_005<32>
+Description_lang
+ModifiedCraftingCategoryID<32>
+ItemBonusTreeID<32>
+Flags<32>
+Field_9_1_0_38511_004<32>
+ItemContextOffset<32>
