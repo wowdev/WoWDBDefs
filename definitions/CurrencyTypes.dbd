@@ -20,18 +20,7 @@ int MaxQtyWorldStateID // key into data sent by the server
 int XpQuestDifficulty // Correct if 2 for ID 1566. ConvertToPlayerExperience?
 int RechargingAmountPerCycle?
 int RechargingCycleDurationMS?
-locstring Field_3_4_3_51278_000_lang?
-locstring Field_3_4_3_51278_001_lang?
-int Field_3_4_3_51278_002?
-int Field_3_4_3_51278_003?
-int Field_3_4_3_51278_004?
-int Field_3_4_3_51278_005?
-int Field_3_4_3_51278_006?
-int Field_3_4_3_51278_007?
-int Field_3_4_3_51278_008?
-int Field_3_4_3_51278_009?
 int Field_3_4_3_51278_010?
-int Field_3_4_3_51278_011?
 
 LAYOUT 7A943838
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011, 2.5.2.40045, 2.5.2.40203, 2.5.2.40260, 2.5.2.40422, 2.5.2.40488, 2.5.2.40617, 2.5.2.40892, 2.5.2.41446, 2.5.2.41510
@@ -91,18 +80,18 @@ Flags<32>[2]
 LAYOUT E814E32E
 BUILD 3.4.3.51278
 $noninline,id$ID<32>
-Field_3_4_3_51278_000_lang
-Field_3_4_3_51278_001_lang
-Field_3_4_3_51278_002<u8>
-Field_3_4_3_51278_003<32>
-Field_3_4_3_51278_004<u32>
-Field_3_4_3_51278_005<u8>
-Field_3_4_3_51278_006<u32>
-Field_3_4_3_51278_007<u32>
-Field_3_4_3_51278_008<8>
-Field_3_4_3_51278_009<32>
+Name_lang
+Description_lang
+CategoryID<u8>
+InventoryIconFileID<32>
+SpellWeight<u32>
+SpellCategory<u8>
+MaxQty<u32>
+MaxEarnablePerWeek<u32>
+Quality<8>
+FactionID<32>
 Field_3_4_3_51278_010<32>
-Field_3_4_3_51278_011<32>[2]
+Flags<32>[2]
 
 BUILD 4.0.0.11792
 BUILD 3.0.1.8622-3.3.5.12340
