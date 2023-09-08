@@ -17,19 +17,9 @@ int OrderIndex
 locstring ShortName_lang
 int<PlayerCondition::ID> PlayerConditionID
 int<ContentTuning::ID> OverrideContentTuningID // If not set, via Area, and if that's not set via Map+Difficulty
-int Field_2_5_1_38043_005? // Either MinLevel or MaxLevelSuggestion
-int Field_2_5_1_38043_013? // Either MinLevel or MaxLevelSuggestion
-int Field_2_5_2_39570_014?
 int<MapChallengeMode::ID> MapChallengeModeID
-int Field_3_4_0_43659_003?
 int Field_3_4_0_43659_005?
-int Field_3_4_0_43659_006?
-int Field_3_4_0_43659_007?
-int Field_3_4_0_43659_009?
-int Field_3_4_0_43659_010?
-int Field_3_4_0_43659_012?
 int IconFileDataID?
-int Field_3_4_3_51278_008?
 
 LAYOUT CAA26BD9
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475, 2.5.1.39603, 2.5.1.39640
@@ -39,7 +29,7 @@ ShortName_lang
 GroupFinderCategoryID<u8>
 OrderIndex<8>
 GroupFinderActivityGrpID<u8>
-Field_2_5_1_38043_005<u8>
+MaxLevelSuggestion<u8>
 Flags<u32>
 MinGearLevelSuggestion<u16>
 MapID<u16>
@@ -47,7 +37,7 @@ DifficultyID<u8>
 AreaID<u16>
 MaxPlayers<u8>
 DisplayType<u8>
-Field_2_5_1_38043_013<u8>
+MinLevel<u8>
 
 LAYOUT B3E41C65
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -63,7 +53,7 @@ ShortName_lang
 GroupFinderCategoryID<u8>
 OrderIndex<8>
 GroupFinderActivityGrpID<u8>
-Field_2_5_1_38043_005<u8>
+MaxLevelSuggestion<u8>
 Flags<u32>
 MinGearLevelSuggestion<u16>
 MapID<u16>
@@ -71,8 +61,8 @@ DifficultyID<u8>
 AreaID<u16>
 MaxPlayers<u8>
 DisplayType<u8>
-Field_2_5_1_38043_013<u8>
-Field_2_5_2_39570_014<32>
+MinLevel<u8>
+IconFileDataID<32>
 
 LAYOUT A8791495
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929
@@ -80,16 +70,16 @@ $noninline,id$ID<32>
 FullName_lang
 ShortName_lang
 GroupFinderCategoryID<u8>
-Field_3_4_0_43659_003<8>
+OrderIndex<8>
 GroupFinderActivityGrpID<u8>
-Field_3_4_0_43659_005<u8>
-Field_3_4_0_43659_006<u32>
-Field_3_4_0_43659_007<u16>
+MaxLevelSuggestion<u8>
+Flags<u32>
+MinGearLevelSuggestion<u16>
 MapID<u16>
-Field_3_4_0_43659_009<u8>
-Field_3_4_0_43659_010<u16>
+DifficultyID<u8>
+AreaID<u16>
 MaxPlayers<u8>
-Field_3_4_0_43659_012<u8>
+DisplayType<u8>
 MinLevel<u8>
 IconFileDataID<32>
 
@@ -99,16 +89,16 @@ $noninline,id$ID<32>
 FullName_lang
 ShortName_lang
 GroupFinderCategoryID<u8>
-Field_3_4_0_43659_003<8>
+OrderIndex<8>
 GroupFinderActivityGrpID<u8>
 Field_3_4_0_43659_005<u8>
-Field_3_4_0_43659_006<u32>
-Field_3_4_0_43659_007<u16>
+Flags<u32>
+MinGearLevelSuggestion<u16>
 MapID<u16>
-Field_3_4_0_43659_009<u8>
-Field_3_4_0_43659_010<u16>
+DifficultyID<u8>
+AreaID<u16>
 MaxPlayers<u8>
-Field_3_4_0_43659_012<u8>
+DisplayType<u8>
 MinLevel<u8>
 MaxLevelSuggestion<u8>
 IconFileDataID<32>
@@ -123,16 +113,16 @@ $noninline,id$ID<32>
 FullName_lang
 ShortName_lang
 GroupFinderCategoryID<u8>
-Field_3_4_0_43659_003<8>
+OrderIndex<8>
 GroupFinderActivityGrpID<32>
 Field_3_4_0_43659_005<u8>
-Field_3_4_0_43659_006<u32>
-Field_3_4_0_43659_007<u16>
+Flags<u32>
+MinGearLevelSuggestion<u16>
 MapID<u16>
-Field_3_4_0_43659_009<u8>
-Field_3_4_0_43659_010<u16>
+DifficultyID<u8>
+AreaID<u16>
 MaxPlayers<u8>
-Field_3_4_0_43659_012<u8>
+DisplayType<u8>
 MinLevel<u8>
 MaxLevelSuggestion<u8>
 IconFileDataID<32>
@@ -143,17 +133,17 @@ $noninline,id$ID<32>
 FullName_lang
 ShortName_lang
 GroupFinderCategoryID<u8>
-Field_3_4_0_43659_003<8>
+OrderIndex<8>
 GroupFinderActivityGrpID<32>
 Field_3_4_0_43659_005<u8>
-Field_3_4_0_43659_006<u32>
-Field_3_4_0_43659_007<u16>
-Field_3_4_3_51278_008<32>
+Flags<u32>
+MinGearLevelSuggestion<u16>
+PlayerConditionID<32>
 MapID<u16>
-Field_3_4_0_43659_009<u8>
-Field_3_4_0_43659_010<u16>
+DifficultyID<u8>
+AreaID<u16>
 MaxPlayers<u8>
-Field_3_4_0_43659_012<u8>
+DisplayType<u8>
 MinLevel<u8>
 MaxLevelSuggestion<u8>
 IconFileDataID<32>
