@@ -6,6 +6,14 @@ int OrderIndex?
 int<ItemBonusSeason::ID> ItemBonusSeasonID?
 int<Item::ID> FragmentItemID?
 int<CurrencyTypes::ID> FragmentsEarnedTrackingCurrencyID?
+locstring Field_10_2_0_51297_000_lang?
+int Field_10_2_0_51297_001?
+int Field_10_2_0_51297_002?
+int Field_10_2_0_51297_003?
+int Field_10_2_0_51297_004?
+int Field_10_2_0_51297_005?
+int Field_10_2_0_51297_006?
+int Field_10_2_0_51297_007?
 
 LAYOUT BB4428AF
 BUILD 10.1.0.48898
@@ -27,3 +35,14 @@ OrderIndex<32>
 $relation$ItemBonusSeasonID<32>
 FragmentItemID<32>
 FragmentsEarnedTrackingCurrencyID<32>
+
+LAYOUT 76231EF7
+BUILD 10.2.0.51297
+Field_10_2_0_51297_000_lang
+$id$Field_10_2_0_51297_001<32>
+Field_10_2_0_51297_002<32>
+Field_10_2_0_51297_003<32>
+Field_10_2_0_51297_004<32>
+$relation$Field_10_2_0_51297_005<32>
+Field_10_2_0_51297_006<32>
+Field_10_2_0_51297_007<32>

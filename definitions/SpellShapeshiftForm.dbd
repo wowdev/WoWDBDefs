@@ -12,6 +12,16 @@ int<MountType::ID> MountTypeID
 int ExitSoundEntriesID
 int<FileData::ID> AttackIconFileID
 float DamageVariance
+locstring Field_10_2_0_51297_000_lang?
+int Field_10_2_0_51297_001?
+int Field_10_2_0_51297_002?
+int Field_10_2_0_51297_003?
+int Field_10_2_0_51297_004?
+int Field_10_2_0_51297_005?
+int Field_10_2_0_51297_006?
+float Field_10_2_0_51297_007?
+int Field_10_2_0_51297_008?
+int Field_10_2_0_51297_009?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -191,3 +201,17 @@ DamageVariance
 MountTypeID<u16>
 CreatureDisplayID<u32>[4]
 PresetSpellID<u32>[8]
+
+LAYOUT 887ACBCE
+BUILD 10.2.0.51297
+$noninline,id$ID<32>
+Field_10_2_0_51297_000_lang
+Field_10_2_0_51297_001<u32>
+Field_10_2_0_51297_002<8>
+Field_10_2_0_51297_003<32>
+Field_10_2_0_51297_004<32>
+Field_10_2_0_51297_005<8>
+Field_10_2_0_51297_006<16>
+Field_10_2_0_51297_007
+Field_10_2_0_51297_008<u16>
+Field_10_2_0_51297_009<u32>[8]
