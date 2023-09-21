@@ -3,8 +3,8 @@ int ID
 int<CurrencyTypes::ID> CurrencyTypeID?
 int<Item::ID> ItemID?
 float CostScaling?
-int Field_10_1_0_48480_003? // some kind of account wide flag
-int Field_10_1_0_48480_004?
+int Flags? // some kind of account wide flag
+int ItemGroupIlvlScalingID?
 
 LAYOUT 38E9D642
 BUILD 10.2.0.51239, 10.2.0.51297, 10.2.0.51425
@@ -15,5 +15,5 @@ $noninline,id$ID<32>
 CurrencyTypeID<32>
 ItemID<32>
 CostScaling
-Field_10_1_0_48480_003<32>
-$noninline,relation$Field_10_1_0_48480_004<32>
+Flags<32>
+$noninline,relation$ItemGroupIlvlScalingID<32>

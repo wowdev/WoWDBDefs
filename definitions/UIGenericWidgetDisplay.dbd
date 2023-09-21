@@ -1,7 +1,7 @@
 COLUMNS
 locstring Title_lang?
 int ID?
-int Field_10_0_2_46144_002?
+int<UiTextureKit::ID> UiTextureKitID?
 int<UiWidgetSet::ID> UiWidgetSetID?
 int FrameWidth?
 int FrameHeight?
@@ -17,7 +17,7 @@ BUILD 10.0.2.46144, 10.0.2.46259, 10.0.2.46394, 10.0.2.46420, 10.0.2.46456, 10.0
 BUILD 3.4.1.46722, 3.4.1.46917, 3.4.1.46973, 3.4.1.47014, 3.4.1.47110, 3.4.1.47245, 3.4.1.47496, 3.4.1.47585, 3.4.1.47612, 3.4.1.47720, 3.4.1.47800, 3.4.1.47925, 3.4.1.47966, 3.4.1.48019, 3.4.1.48120, 3.4.1.48340, 3.4.1.48503, 3.4.1.48632, 3.4.1.49345, 3.4.1.49822, 3.4.1.49936
 Title_lang
 $id$ID<32>
-Field_10_0_2_46144_002<32>
+UiTextureKitID<32>
 UiWidgetSetID<32>
 FrameWidth<32>
 FrameHeight<32>
@@ -34,7 +34,7 @@ Title_lang
 Field_10_1_0_48480_001_lang
 Field_10_1_0_48480_002_lang
 $id$ID<32>
-Field_10_0_2_46144_002<32>
+UiTextureKitID<32>
 UiWidgetSetID<32>
 FrameWidth<32>
 FrameHeight<32>

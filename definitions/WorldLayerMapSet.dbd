@@ -1,13 +1,13 @@
 COLUMNS
-string Field_3_4_3_51384_000?
-string Field_3_4_3_51384_001?
-int Field_3_4_3_51384_002?
-int Field_3_4_3_51384_003?
+string Name?
+string ShortCode?
+int ID?
+int Flags? // 1: Phase?
 
 LAYOUT 64C69433
 BUILD 10.2.0.51425
 BUILD 3.4.3.51384, 3.4.3.51397
-Field_3_4_3_51384_000
-Field_3_4_3_51384_001
-$id$Field_3_4_3_51384_002<32>
-Field_3_4_3_51384_003<32>
+Name
+ShortCode
+$id$ID<32>
+Flags<32>

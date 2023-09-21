@@ -4,18 +4,10 @@ int<PerksVendorCategory::ID> PerksVendorCategoryID
 int Field_10_0_5_47118_002?
 int<Item::ID> ItemID
 int Field_10_0_5_47118_004?
-int Field_10_0_5_47118_005?
+int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
 int Cost?
 int<UiModelScene::ID> UiModelSceneID?
-int Field_10_2_0_51425_000?
-int Field_10_2_0_51425_001?
-int Field_10_2_0_51425_002?
-int Field_10_2_0_51425_003?
-int Field_10_2_0_51425_004?
-int Field_10_2_0_51425_005?
-int Field_10_2_0_51425_006?
-int Field_10_2_0_51425_007?
-int Field_10_2_0_51425_008?
+int<PerksVendorItemUIGroup::ID> UiGroupInfo?
 
 LAYOUT 451B856E
 BUILD 10.2.0.51239, 10.2.0.51297
@@ -29,18 +21,18 @@ PerksVendorCategoryID<32>
 Field_10_0_5_47118_002<32>
 ItemID<32>
 Field_10_0_5_47118_004<32>
-Field_10_0_5_47118_005<32>
+CreatureDisplayInfoID<32>
 Cost<32>
 UiModelSceneID<32>
 
 LAYOUT 80A50418
 BUILD 10.2.0.51425
-$id$Field_10_2_0_51425_000<32>
-Field_10_2_0_51425_001<32>
-Field_10_2_0_51425_002<32>
-Field_10_2_0_51425_003<32>
-Field_10_2_0_51425_004<32>
-Field_10_2_0_51425_005<32>
-Field_10_2_0_51425_006<32>
-Field_10_2_0_51425_007<32>
-Field_10_2_0_51425_008<32>
+$id$ID<32>
+PerksVendorCategoryID<32>
+Field_10_0_5_47118_002<32>
+ItemID<32>
+Field_10_0_5_47118_004<32>
+CreatureDisplayInfoID<32>
+Cost<32>
+UiModelSceneID<32>
+UiGroupInfo<32>

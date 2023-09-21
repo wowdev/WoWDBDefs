@@ -4,8 +4,8 @@ locstring Description_lang
 int ID?
 int<CriteriaTree::ID> CriteriaTreeID
 int ThresholdContributionAmount
-int Field_10_1_0_48480_005?
-int Field_10_1_0_48776_006?
+int Supersedes?
+int Priority?
 
 LAYOUT 6FD48C11
 BUILD 10.0.7.47910, 10.0.7.47983, 10.0.7.48076, 10.0.7.48220, 10.0.7.48295, 10.0.7.48439, 10.0.7.48520, 10.0.7.48676, 10.0.7.48749, 10.0.7.48838, 10.0.7.48865, 10.0.7.48892, 10.0.7.48966, 10.0.7.48999, 10.0.7.49267, 10.0.7.49343
@@ -23,7 +23,7 @@ Description_lang
 $id$ID<32>
 CriteriaTreeID<32>
 ThresholdContributionAmount<32>
-Field_10_1_0_48480_005<32>
+Supersedes<32>
 
 LAYOUT 4FF9AFB2
 BUILD 10.2.0.51239, 10.2.0.51297, 10.2.0.51425
@@ -35,5 +35,5 @@ Description_lang
 $id$ID<32>
 CriteriaTreeID<32>
 ThresholdContributionAmount<32>
-Field_10_1_0_48480_005<32>
-Field_10_1_0_48776_006<32>
+Supersedes<32>
+Priority<32>

@@ -15,7 +15,7 @@ int<PlayerCondition::ID> VisibilityPlayerConditionID
 int<UiTextureAtlasElement::ID> BkgAtlasID
 int AlternateUiMapGroup?
 int<ContentTuning::ID> ContentTuningID?
-int<PlayerCondition::ID> Field_10_1_5_49595_008?
+int<PlayerCondition::ID> TempVisibilityPlayerConditionID? // Only for time rifts so far?
 int Field_1_14_4_50252_006?
 int Field_1_14_4_50252_007?
 int Field_1_14_4_50252_008?
@@ -233,7 +233,7 @@ System<u8>
 Type<u8>
 BountySetID<32>
 BountyDisplayLocation<u32>
-Field_10_1_5_49595_008<32>
+TempVisibilityPlayerConditionID<32>
 VisibilityPlayerConditionID<32>
 HelpTextPosition<8>
 BkgAtlasID<32>

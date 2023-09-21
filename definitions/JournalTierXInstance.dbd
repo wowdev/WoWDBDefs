@@ -3,7 +3,7 @@ int<JournalTier::ID> JournalTierID
 int<JournalInstance::ID> JournalInstanceID
 int ID
 int OrderIndex?
-int Field_10_1_0_49092_003?
+int AvailabilityCondition? // Used for M+ season switchovers
 
 BUILD 5.0.1.15464-5.3.0.17116
 $id$ID<32>
@@ -86,4 +86,4 @@ $noninline,id$ID<32>
 $relation$JournalTierID<u16>
 JournalInstanceID<u16>
 OrderIndex<32>
-Field_10_1_0_49092_003<32>
+AvailabilityCondition<32>
