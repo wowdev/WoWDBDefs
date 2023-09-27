@@ -5,6 +5,11 @@ int WeeklyRewardLevel
 int EndOfRunRewardLevel
 int Season // later moved to MythicPlusSeason
 int<MythicPlusSeason::ID> MythicPlusSeasonID
+int Field_10_2_0_51521_000?
+int Field_10_2_0_51521_001?
+int Field_10_2_0_51521_002?
+int Field_10_2_0_51521_003?
+int Field_10_2_0_51521_004?
 
 LAYOUT 4C011559
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -85,3 +90,12 @@ DifficultyLevel<32>
 WeeklyRewardLevel<32>
 EndOfRunRewardLevel<32>
 $noninline,relation$MythicPlusSeasonID<32>
+
+LAYOUT A1A30565
+BUILD 10.2.0.51521
+$noninline,id$ID<32>
+$relation$Field_10_2_0_51521_000<32>
+Field_10_2_0_51521_001<32>
+Field_10_2_0_51521_002<32>
+Field_10_2_0_51521_003<32>
+Field_10_2_0_51521_004<32>
