@@ -6,7 +6,6 @@ using System.Linq;
 using System.Reflection;
 using System.Xml;
 using System.Xml.Serialization;
-using static DBDefsLib.Structs;
 
 using FieldLookup = System.Collections.Generic.Dictionary<string, System.Reflection.FieldInfo>;
 
@@ -79,7 +78,7 @@ namespace DBDefsConverter
         [XmlElement("columnDefinitions")]
         public SerializableColumnDefinition columnDefinitions;
         [XmlElement("versionDefinitions")]
-        public VersionDefinitions[] versionDefinitions;
+        public VersionDefinition[] versionDefinitions;
     }
 
     [Serializable]

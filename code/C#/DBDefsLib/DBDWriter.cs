@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using static DBDefsLib.Structs;
 
 namespace DBDefsLib
 {
@@ -198,7 +197,7 @@ namespace DBDefsLib
             }
         }
 
-        internal class DBDVersionsComparer : IComparer<VersionDefinitions>
+        internal class DBDVersionsComparer : IComparer<VersionDefinition>
         {
             private readonly bool _asc;
 
@@ -207,7 +206,7 @@ namespace DBDefsLib
                 _asc = ascending;
             }
 
-            public int Compare(VersionDefinitions x, VersionDefinitions y)
+            public int Compare(VersionDefinition x, VersionDefinition y)
             {
                 Build xmax, ymax;
 

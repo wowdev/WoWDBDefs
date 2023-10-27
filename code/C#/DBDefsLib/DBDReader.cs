@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using static DBDefsLib.Structs;
 
 namespace DBDefsLib
 {
@@ -130,7 +129,7 @@ namespace DBDefsLib
 
             // There will be less comments from this point on, stuff used in above code is mostly repeated
 
-            var versionDefinitions = new List<VersionDefinitions>();
+            var versionDefinitions = new List<VersionDefinition>();
 
             var definitions = new List<Definition>();
             var layoutHashes = new List<string>();
@@ -146,7 +145,7 @@ namespace DBDefsLib
                 {
                     if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0) {
                         versionDefinitions.Add(
-                            new VersionDefinitions()
+                            new VersionDefinition()
                             {
                                 builds = builds.ToArray(),
                                 buildRanges = buildRanges.ToArray(),
@@ -283,7 +282,7 @@ namespace DBDefsLib
                 {
                     if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0) {
                         versionDefinitions.Add(
-                            new VersionDefinitions()
+                            new VersionDefinition()
                             {
                                 builds = builds.ToArray(),
                                 buildRanges = buildRanges.ToArray(),

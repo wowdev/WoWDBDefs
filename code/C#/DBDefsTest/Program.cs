@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
-using static DBDefsLib.Structs;
 
 namespace DBDTest
 {
