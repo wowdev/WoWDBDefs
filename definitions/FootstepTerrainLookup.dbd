@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int CreatureFootstepID
+int<SpellVisualEffectName::ID> CreatureFootstepID
 int<TerrainTypeSounds::ID> TerrainSoundID
 int<SoundEntries::ID> SoundID
 int<SoundEntries::ID> SoundIDSplash
