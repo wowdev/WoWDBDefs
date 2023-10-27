@@ -6,7 +6,7 @@ namespace DBDefsLib
 {
     public class DBDWriter
     {
-        public void Save(DBDefinition definition, string target, bool sort = false)
+        public void Save(Structs.DBDefinition definition, string target, bool sort = false)
         {
             if (!Directory.Exists(Path.GetDirectoryName(target)))
             {
@@ -197,7 +197,7 @@ namespace DBDefsLib
             }
         }
 
-        internal class DBDVersionsComparer : IComparer<VersionDefinition>
+        internal class DBDVersionsComparer : IComparer<Structs.VersionDefinition>
         {
             private readonly bool _asc;
 
@@ -206,7 +206,7 @@ namespace DBDefsLib
                 _asc = ascending;
             }
 
-            public int Compare(VersionDefinition x, VersionDefinition y)
+            public int Compare(Structs.VersionDefinition x, Structs.VersionDefinition y)
             {
                 Build xmax, ymax;
 

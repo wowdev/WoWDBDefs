@@ -10,7 +10,7 @@ namespace DBDTest
 {
     class Program
     {
-        public static Dictionary<string, DBDefinition> definitionCache = new Dictionary<string, DBDefinition>();
+        public static Dictionary<string, DBDefsLib.Structs.DBDefinition> definitionCache = new Dictionary<string, DBDefsLib.Structs.DBDefinition>();
         public static Dictionary<string, List<string>> duplicateFileLookup = new Dictionary<string, List<string>>();
         public static bool foundError = false;
 

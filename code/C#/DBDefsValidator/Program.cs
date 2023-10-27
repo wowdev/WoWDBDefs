@@ -8,7 +8,7 @@ namespace DBDefsTest
 {
     class Program
     {
-        public static Dictionary<string, DBDefinition> definitionCache = new Dictionary<string, DBDefinition>();
+        public static Dictionary<string, Structs.DBDefinition> definitionCache = new Dictionary<string, Structs.DBDefinition>();
 
         static void Main(string[] args)
         {

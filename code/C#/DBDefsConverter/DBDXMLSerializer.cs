@@ -23,18 +23,18 @@ namespace DBDefsConverter
 
             // build the fieldinfo lookup for ColumnDefinition
             // uses reflection to accomodate structure changes
-            var fields = typeof(ColumnDefinition).GetFields(BindingFlags.Public | BindingFlags.Instance);
+            var fields = typeof(Structs.ColumnDefinition).GetFields(BindingFlags.Public | BindingFlags.Instance);
             _fieldLookup = fields.ToDictionary(fi => fi.Name, fi => fi, StringComparer.OrdinalIgnoreCase);
         }
 
 
-        public void Serialize(string filename, DBDefinition definition)
+        public void Serialize(string filename, Structs.DBDefinition definition)
         {
             using (StreamWriter writer = File.CreateText(filename))
                 Serialize(writer, definition);
         }
 
-        public void Serialize(TextWriter textWriter, DBDefinition definition)
+        public void Serialize(TextWriter textWriter, Structs.DBDefinition definition)
         {
             var proxy = new SerializableDBDefinition()
             {
@@ -45,13 +45,13 @@ namespace DBDefsConverter
             _serializer.Serialize(textWriter, proxy);
         }
 
-        public DBDefinition Deserialize(string filename)
+        public Structs.DBDefinition Deserialize(string filename)
         {
             using (var fs = File.OpenRead(filename))
             {
                 var proxy = (SerializableDBDefinition)_serializer.Deserialize(fs);
 
-                return new DBDefinition()
+                return new Structs.DBDefinition()
                 {
                     columnDefinitions = proxy.columnDefinitions,
                     versionDefinitions = proxy.versionDefinitions
@@ -66,7 +66,7 @@ namespace DBDefsConverter
             var overrides = new XmlAttributeOverrides();
             overrides.Add(typeof(Build), new XmlAttributes() { XmlType = new XmlTypeAttribute("build") });
             overrides.Add(typeof(BuildRange), new XmlAttributes() { XmlType = new XmlTypeAttribute("buildRange") });
-            overrides.Add(typeof(Definition), new XmlAttributes() { XmlType = new XmlTypeAttribute("definition") });
+            overrides.Add(typeof(Structs.Definition), new XmlAttributes() { XmlType = new XmlTypeAttribute("definition") });
             return overrides;
         }
     }
@@ -78,11 +78,11 @@ namespace DBDefsConverter
         [XmlElement("columnDefinitions")]
         public SerializableColumnDefinition columnDefinitions;
         [XmlElement("versionDefinitions")]
-        public VersionDefinition[] versionDefinitions;
+        public Structs.VersionDefinition[] versionDefinitions;
     }
 
     [Serializable]
-    public class SerializableColumnDefinition : Dictionary<string, ColumnDefinition>, IXmlSerializable
+    public class SerializableColumnDefinition : Dictionary<string, Structs.ColumnDefinition>, IXmlSerializable
     {
         private readonly FieldLookup _fieldLookup;
 
@@ -91,7 +91,7 @@ namespace DBDefsConverter
         /// </summary>
         private SerializableColumnDefinition() { }
 
-        public SerializableColumnDefinition(FieldLookup fieldLookup, Dictionary<string, ColumnDefinition> source) : base(source)
+        public SerializableColumnDefinition(FieldLookup fieldLookup, Dictionary<string, Structs.ColumnDefinition> source) : base(source)
         {
             _fieldLookup = fieldLookup;
         }
@@ -119,7 +119,7 @@ namespace DBDefsConverter
 
                 // read each element into the object
                 // boxing because structs
-                object column = new ColumnDefinition();
+                object column = new Structs.ColumnDefinition();
                 while (reader.NodeType != XmlNodeType.EndElement)
                 {
                     string fieldName = reader.Name;
@@ -149,7 +149,7 @@ namespace DBDefsConverter
                 }
 
                 // add to dictionary
-                Add(columnName, (ColumnDefinition)column);
+                Add(columnName, (Structs.ColumnDefinition)column);
             }
 
             reader.ReadEndElement();

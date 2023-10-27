@@ -35,7 +35,7 @@ namespace DBDefsMerge
             var firstDirFilesLC = new DirectoryInfo(firstDir).GetFiles().Select(o => o.Name.ToLower()).ToList();
             var secondDirFilesLC = new DirectoryInfo(secondDir).GetFiles().Select(o => o.Name.ToLower()).ToList();
 
-            var newDefinitions = new Dictionary<string, DBDefinition>();
+            var newDefinitions = new Dictionary<string, Structs.DBDefinition>();
 
             var reader = new DBDReader();
 
