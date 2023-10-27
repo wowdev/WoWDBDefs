@@ -8,7 +8,7 @@ int Flags
 int MaxBasePower
 int MinPower
 string NameGlobalStringTag
-int PowerTypeEnum
+int<PowerType::PowerTypeEnum> PowerTypeEnum // Not really an FK since that table does not exist in all versions, but that enum is still common across all 
 float RegenCombat
 int RegenInterruptTimeMS
 float RegenPeace
