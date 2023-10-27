@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int CreatureFootstepID
-int<TerrainType::ID> TerrainSoundID
+int<TerrainTypeSounds::ID> TerrainSoundID
 int<SoundEntries::ID> SoundID
 int<SoundEntries::ID> SoundIDSplash
 
