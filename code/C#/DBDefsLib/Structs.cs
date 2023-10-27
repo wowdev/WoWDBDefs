@@ -7,10 +7,10 @@ namespace DBDefsLib
         public struct DBDefinition
         {
             public Dictionary<string, ColumnDefinition> columnDefinitions;
-            public VersionDefinition[] versionDefinitions;
+            public VersionDefinitions[] versionDefinitions;
         }
 
-        public struct VersionDefinition
+        public struct VersionDefinitions
         {
             public Build[] builds;
             public BuildRange[] buildRanges;

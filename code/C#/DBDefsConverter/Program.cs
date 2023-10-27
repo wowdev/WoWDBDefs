@@ -147,7 +147,7 @@ namespace DBDefsConverter
                 var buildDefinition = dbDefinition.versionDefinitions
                     .Where(d => d.builds.Equals(build) || 
                                 d.buildRanges.Any(br => br.Contains(build)))
-                    .Cast<Structs.VersionDefinition?>()
+                    .Cast<Structs.VersionDefinitions?>()
                     .FirstOrDefault();
 
                 if (buildDefinition is null)

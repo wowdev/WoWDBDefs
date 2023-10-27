@@ -19,7 +19,7 @@ namespace DBDefsLib
             return build.ToString();
         }
 
-        public static bool GetVersionDefinitionByLayoutHash(Structs.DBDefinition definition, string layoutHash, out Structs.VersionDefinition? versionToUse)
+        public static bool GetVersionDefinitionByLayoutHash(Structs.DBDefinition definition, string layoutHash, out Structs.VersionDefinitions? versionToUse)
         {
             foreach (var versionDefinition in definition.versionDefinitions)
             {
@@ -34,7 +34,7 @@ namespace DBDefsLib
             return false;
         }
 
-        public static bool GetVersionDefinitionByBuild(Structs.DBDefinition definition, Build build, out Structs.VersionDefinition? versionToUse)
+        public static bool GetVersionDefinitionByBuild(Structs.DBDefinition definition, Build build, out Structs.VersionDefinitions? versionToUse)
         {
             foreach (var versionDefinition in definition.versionDefinitions)
             {

@@ -78,7 +78,7 @@ namespace DBDefsConverter
         [XmlElement("columnDefinitions")]
         public SerializableColumnDefinition columnDefinitions;
         [XmlElement("versionDefinitions")]
-        public Structs.VersionDefinition[] versionDefinitions;
+        public Structs.VersionDefinitions[] versionDefinitions;
     }
 
     [Serializable]

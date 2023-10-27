@@ -129,7 +129,7 @@ namespace DBDefsLib
 
             // There will be less comments from this point on, stuff used in above code is mostly repeated
 
-            var versionDefinitions = new List<Structs.VersionDefinition>();
+            var versionDefinitions = new List<Structs.VersionDefinitions>();
 
             var definitions = new List<Structs.Definition>();
             var layoutHashes = new List<string>();
@@ -145,7 +145,7 @@ namespace DBDefsLib
                 {
                     if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0) {
                         versionDefinitions.Add(
-                            new Structs.VersionDefinition()
+                            new Structs.VersionDefinitions()
                             {
                                 builds = builds.ToArray(),
                                 buildRanges = buildRanges.ToArray(),
@@ -282,7 +282,7 @@ namespace DBDefsLib
                 {
                     if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0) {
                         versionDefinitions.Add(
-                            new Structs.VersionDefinition()
+                            new Structs.VersionDefinitions()
                             {
                                 builds = builds.ToArray(),
                                 buildRanges = buildRanges.ToArray(),

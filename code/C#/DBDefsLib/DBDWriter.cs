@@ -197,7 +197,7 @@ namespace DBDefsLib
             }
         }
 
-        internal class DBDVersionsComparer : IComparer<Structs.VersionDefinition>
+        internal class DBDVersionsComparer : IComparer<Structs.VersionDefinitions>
         {
             private readonly bool _asc;
 
@@ -206,7 +206,7 @@ namespace DBDefsLib
                 _asc = ascending;
             }
 
-            public int Compare(Structs.VersionDefinition x, Structs.VersionDefinition y)
+            public int Compare(Structs.VersionDefinitions x, Structs.VersionDefinitions y)
             {
                 Build xmax, ymax;
 
