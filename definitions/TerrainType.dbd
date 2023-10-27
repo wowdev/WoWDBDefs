@@ -4,7 +4,7 @@ int TerrainID
 string TerrainDesc
 int FootstepSprayRun
 int FootstepSprayWalk
-int SoundID
+int<TerrainTypeSounds::ID> SoundID
 int Flags
 
 LAYOUT 4BE35F10
