@@ -185,7 +185,8 @@ namespace DBDefsConverter
                 {
                     Name = dbdIdentifier,
                     Note = $"{dbdIdentifier} client database table for version {build}",
-                    Columns = columns
+                    Columns = columns,
+                    Schema = "DBC"
                 };
                 dbmlDocument.Tables.Add(table);
             }

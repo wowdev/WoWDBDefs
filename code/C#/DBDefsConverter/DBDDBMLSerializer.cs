@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using DBDefsLib;
+using static DBDefsLib.Structs;
 
 namespace DBDefsConverter;
 
@@ -20,12 +20,12 @@ public class DBDDBMLSerializer
         }
     }
     
-    public void Serialize(string filename, Structs.DBDefinition definition)
+    public void Serialize(string filename, DBDefinition definition)
     {
         throw new NotImplementedException();
     }
     
-    public Structs.DBDefinition Deserialize(string filename)
+    public DBDefinition Deserialize(string filename)
     {
         throw new NotImplementedException();
     }
@@ -48,20 +48,22 @@ public class DBDDBMLSerializer
         textWriter.WriteLine($"Table {schema}{table.Name} {alias}{headerColor}{{");
         foreach (var column in table.Columns)
         {
-            WriteColumnDefinition(textWriter, column);
+            WriteColumnDefinition(textWriter, column, table);
         }
         if (!string.IsNullOrEmpty(table.Note))
             textWriter.WriteLine($"    Note: '{table.Note}'");
         textWriter.WriteLine("}");
     }
 
-    private void WriteColumnDefinition(TextWriter textWriter, DBMLColumn column)
+    private void WriteColumnDefinition(TextWriter textWriter, DBMLColumn column, DBMLTable table)
     {
         var options = "";
         string OptionsSeperator()
         {
             return !string.IsNullOrEmpty(options) ? ", " : string.Empty;
         }
+        
+        var schema = !string.IsNullOrEmpty(table.Schema) ? $"{table.Schema}." : string.Empty;
         
         textWriter.Write($"    {column.Name} {column.Type}");
 
@@ -97,16 +99,16 @@ public class DBDDBMLSerializer
         switch (column.Settings.RelationshipType)
         {
             case DBMLColumnRelationshipType.OneToOne:
-                options += $"{OptionsSeperator()}ref: - {column.Settings.Relationship}";
+                options += $"{OptionsSeperator()}ref: - {schema}{column.Settings.Relationship}";
                 break;
             case DBMLColumnRelationshipType.OneToMany:
-                options += $"{OptionsSeperator()}ref: < {column.Settings.Relationship}";
+                options += $"{OptionsSeperator()}ref: < {schema}{column.Settings.Relationship}";
                 break;
             case DBMLColumnRelationshipType.ManyToOne:
-                options += $"{OptionsSeperator()}ref: > {column.Settings.Relationship}";
+                options += $"{OptionsSeperator()}ref: > {schema}{column.Settings.Relationship}";
                 break;
             case DBMLColumnRelationshipType.ManyToMany:
-                options += $"{OptionsSeperator()}ref: <> {column.Settings.Relationship}";
+                options += $"{OptionsSeperator()}ref: <> {schema}{column.Settings.Relationship}";
                 break;
             case DBMLColumnRelationshipType.None:
             default:
