@@ -45,10 +45,10 @@ jobs:
         uses: leafo/gh-actions-luarocks@v4
       - name: Set up Luarocks
         if: "${{ github.event.inputs.url == '' }}"
-        run: cat code/lua/rocks.txt | xargs -n1 luarocks install
+        run: cd code/lua && luarocks make
       - name: Dump exe
         if: "${{ github.event.inputs.url == '' }}"
-        run: lua code/lua/getexe.lua ${{ github.event.inputs.product }} ${{ github.event.inputs.config }}
+        run: getexe ${{ github.event.inputs.product }} ${{ github.event.inputs.config }}
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
