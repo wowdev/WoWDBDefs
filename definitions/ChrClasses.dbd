@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<PowerType::ID> DisplayPower
+int<PowerType::PowerTypeEnum> DisplayPower // Not really an FK since that table does not exist in all versions, but that enum is still common across all versions.
 string PetNameToken
 locstring Name_lang
 locstring Name_female_lang
