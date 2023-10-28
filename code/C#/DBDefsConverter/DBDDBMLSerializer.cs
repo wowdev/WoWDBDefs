@@ -42,10 +42,10 @@ public class DBDDBMLSerializer
 
     private void WriteTableDefinition(TextWriter textWriter, DBMLTable table)
     {
-        var schema = !string.IsNullOrEmpty(table.Schema) ? $"{table.Schema}." : string.Empty;
+        var schema = !string.IsNullOrEmpty(table.Schema) ? $"\"{table.Schema}\"." : string.Empty;
         var alias = !string.IsNullOrEmpty(table.Alias) ? $"as {table.Alias} " : string.Empty;
         var headerColor = !string.IsNullOrEmpty(table.Settings.HeaderColor) ? $"[headercolor: {table.Settings.HeaderColor}] " : string.Empty;
-        textWriter.WriteLine($"Table {schema}{table.Name} {alias}{headerColor}{{");
+        textWriter.WriteLine($"Table {schema}\"{table.Name}\" {alias}{headerColor}{{");
         foreach (var column in table.Columns)
         {
             WriteColumnDefinition(textWriter, column, table);
@@ -63,9 +63,9 @@ public class DBDDBMLSerializer
             return !string.IsNullOrEmpty(options) ? ", " : string.Empty;
         }
         
-        var schema = !string.IsNullOrEmpty(table.Schema) ? $"{table.Schema}." : string.Empty;
+        var schema = !string.IsNullOrEmpty(table.Schema) ? $"\"{table.Schema}\"." : string.Empty;
         
-        textWriter.Write($"    {column.Name} {column.Type}");
+        textWriter.Write($"    \"{column.Name}\" {column.Type}");
 
         if (column.Settings.IsPrimaryKey)
             options += "primary key";
@@ -99,16 +99,16 @@ public class DBDDBMLSerializer
         switch (column.Settings.RelationshipType)
         {
             case DBMLColumnRelationshipType.OneToOne:
-                options += $"{OptionsSeperator()}ref: - {schema}{column.Settings.Relationship}";
+                options += $"{OptionsSeperator()}ref: - {schema}\"{column.Settings.RelationshipTable}\".\"{column.Settings.RelationshipColumn}\"";
                 break;
             case DBMLColumnRelationshipType.OneToMany:
-                options += $"{OptionsSeperator()}ref: < {schema}{column.Settings.Relationship}";
+                options += $"{OptionsSeperator()}ref: < {schema}\"{column.Settings.RelationshipTable}\".\"{column.Settings.RelationshipColumn}\"";
                 break;
             case DBMLColumnRelationshipType.ManyToOne:
-                options += $"{OptionsSeperator()}ref: > {schema}{column.Settings.Relationship}";
+                options += $"{OptionsSeperator()}ref: > {schema}\"{column.Settings.RelationshipTable}\".\"{column.Settings.RelationshipColumn}\"";
                 break;
             case DBMLColumnRelationshipType.ManyToMany:
-                options += $"{OptionsSeperator()}ref: <> {schema}{column.Settings.Relationship}";
+                options += $"{OptionsSeperator()}ref: <> {schema}\"{column.Settings.RelationshipTable}\".\"{column.Settings.RelationshipColumn}\"";
                 break;
             case DBMLColumnRelationshipType.None:
             default:
@@ -177,7 +177,8 @@ public class DBMLColumnSettings
     public string DefaultValue { get; set; } = string.Empty;
     public DBMLColumnDefaultValueType DefaultValueType { get; set; } = DBMLColumnDefaultValueType.None;
     public bool IsIncrement { get; set; } = false;
-    public string Relationship { get; set; }
+    public string RelationshipTable { get; set; }
+    public string RelationshipColumn { get; set; }
     public DBMLColumnRelationshipType RelationshipType { get; set; }
 }
 

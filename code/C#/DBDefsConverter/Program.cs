@@ -174,7 +174,8 @@ namespace DBDefsConverter
                             RelationshipType = !string.IsNullOrEmpty(columnDefinition.foreignTable)
                                 ? DBMLColumnRelationshipType.OneToMany
                                 : DBMLColumnRelationshipType.None,
-                            Relationship = $"{columnDefinition.foreignTable}.{columnDefinition.foreignColumn}",
+                            RelationshipTable = columnDefinition.foreignTable,
+                            RelationshipColumn = columnDefinition.foreignColumn,
                             Note = columnDefinition.comment
                         }
                     };
@@ -196,9 +197,9 @@ namespace DBDefsConverter
             {
                 foreach (var column in table.Columns)
                 {
-                    if (shippedTables.Contains(column.Settings.Relationship.Split(".")[0])) 
+                    if (shippedTables.Contains(column.Settings.RelationshipTable)) 
                         continue;
-                    column.Settings.Relationship = string.Empty;
+                    column.Settings.RelationshipTable = string.Empty;
                     column.Settings.RelationshipType = DBMLColumnRelationshipType.None;
                 }
             }
