@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using static DBDefsLib.Structs;
 
 namespace DBDefsLib
 {
@@ -19,7 +20,7 @@ namespace DBDefsLib
             return build.ToString();
         }
 
-        public static bool GetVersionDefinitionByLayoutHash(Structs.DBDefinition definition, string layoutHash, out Structs.VersionDefinitions? versionToUse)
+        public static bool GetVersionDefinitionByLayoutHash(DBDefinition definition, string layoutHash, out VersionDefinitions? versionToUse)
         {
             foreach (var versionDefinition in definition.versionDefinitions)
             {
@@ -34,7 +35,7 @@ namespace DBDefsLib
             return false;
         }
 
-        public static bool GetVersionDefinitionByBuild(Structs.DBDefinition definition, Build build, out Structs.VersionDefinitions? versionToUse)
+        public static bool GetVersionDefinitionByBuild(DBDefinition definition, Build build, out VersionDefinitions? versionToUse)
         {
             foreach (var versionDefinition in definition.versionDefinitions)
             {

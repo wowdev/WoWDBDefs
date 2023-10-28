@@ -3,12 +3,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using static DBDefsLib.Structs;
 
 namespace DBDefsTest
 {
     class Program
     {
-        public static Dictionary<string, Structs.DBDefinition> definitionCache = new Dictionary<string, Structs.DBDefinition>();
+        public static Dictionary<string, DBDefinition> definitionCache = new Dictionary<string, DBDefinition>();
 
         static void Main(string[] args)
         {

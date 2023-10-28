@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using static DBDefsLib.Structs;
 
 namespace DBDefsLib
 {
     public class DBDReader
     {
-        public Structs.DBDefinition Read(Stream stream, bool validate = false)
+        public DBDefinition Read(Stream stream, bool validate = false)
         {
             var reader = new StreamReader(stream);
-            var columnDefinitionDictionary = new Dictionary<string, Structs.ColumnDefinition>();
+            var columnDefinitionDictionary = new Dictionary<string, ColumnDefinition>();
 
             var lines = reader.ReadLines();
 
@@ -30,7 +31,7 @@ namespace DBDefsLib
                     if (string.IsNullOrWhiteSpace(line)) break;
 
                     // Create a new column definition to store information in
-                    var columnDefinition = new Structs.ColumnDefinition();
+                    var columnDefinition = new ColumnDefinition();
 
                     /* TYPE READING */
                     // List of valid types, uint should be removed soon-ish
@@ -129,9 +130,9 @@ namespace DBDefsLib
 
             // There will be less comments from this point on, stuff used in above code is mostly repeated
 
-            var versionDefinitions = new List<Structs.VersionDefinitions>();
+            var versionDefinitions = new List<VersionDefinitions>();
 
-            var definitions = new List<Structs.Definition>();
+            var definitions = new List<Definition>();
             var layoutHashes = new List<string>();
             var comment = "";
             var builds = new List<Build>();
@@ -145,7 +146,7 @@ namespace DBDefsLib
                 {
                     if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0) {
                         versionDefinitions.Add(
-                            new Structs.VersionDefinitions()
+                            new VersionDefinitions()
                             {
                                 builds = builds.ToArray(),
                                 buildRanges = buildRanges.ToArray(),
@@ -159,7 +160,7 @@ namespace DBDefsLib
                         throw new Exception("No BUILD or LAYOUT, but non-empty lines/'definitions'.");
                     }
 
-                    definitions = new List<Structs.Definition>();
+                    definitions = new List<Definition>();
                     layoutHashes = new List<string>();
                     comment = "";
                     builds = new List<Build>();
@@ -199,7 +200,7 @@ namespace DBDefsLib
 
                 if (!line.StartsWith("LAYOUT") && !line.StartsWith("BUILD") && !line.StartsWith("COMMENT") && !string.IsNullOrWhiteSpace(line))
                 {
-                    var definition = new Structs.Definition();
+                    var definition = new Definition();
 
                     // Default to everything being inline
                     definition.isNonInline = false;
@@ -282,7 +283,7 @@ namespace DBDefsLib
                 {
                     if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0) {
                         versionDefinitions.Add(
-                            new Structs.VersionDefinitions()
+                            new VersionDefinitions()
                             {
                                 builds = builds.ToArray(),
                                 buildRanges = buildRanges.ToArray(),
@@ -301,7 +302,7 @@ namespace DBDefsLib
             // Validation is optional!
             if (validate)
             {
-                var newColumnDefDict = new Dictionary<string, Structs.ColumnDefinition>();
+                var newColumnDefDict = new Dictionary<string, ColumnDefinition>();
                 foreach (var column in columnDefinitionDictionary)
                 {
                     newColumnDefDict.Add(column.Key, column.Value);
@@ -434,14 +435,14 @@ namespace DBDefsLib
                 }
             }
 
-            return new Structs.DBDefinition
+            return new DBDefinition
             {
                 columnDefinitions = columnDefinitionDictionary,
                 versionDefinitions = versionDefinitions.ToArray()
             };
         }
 
-        public Structs.DBDefinition Read(string file, bool validate = false)
+        public DBDefinition Read(string file, bool validate = false)
         {
             if (!File.Exists(file))
             {

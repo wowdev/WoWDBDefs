@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using static DBDefsLib.Structs;
 
 namespace DBDefsLib
 {
     public class DBDWriter
     {
-        public void Save(Structs.DBDefinition definition, string target, bool sort = false)
+        public void Save(DBDefinition definition, string target, bool sort = false)
         {
             if (!Directory.Exists(Path.GetDirectoryName(target)))
             {
@@ -197,7 +198,7 @@ namespace DBDefsLib
             }
         }
 
-        internal class DBDVersionsComparer : IComparer<Structs.VersionDefinitions>
+        internal class DBDVersionsComparer : IComparer<VersionDefinitions>
         {
             private readonly bool _asc;
 
@@ -206,7 +207,7 @@ namespace DBDefsLib
                 _asc = ascending;
             }
 
-            public int Compare(Structs.VersionDefinitions x, Structs.VersionDefinitions y)
+            public int Compare(VersionDefinitions x, VersionDefinitions y)
             {
                 Build xmax, ymax;
 

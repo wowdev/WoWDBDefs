@@ -6,6 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Xml;
 using System.Xml.Serialization;
+using static DBDefsLib.Structs;
 
 using FieldLookup = System.Collections.Generic.Dictionary<string, System.Reflection.FieldInfo>;
 
@@ -23,18 +24,18 @@ namespace DBDefsConverter
 
             // build the fieldinfo lookup for ColumnDefinition
             // uses reflection to accomodate structure changes
-            var fields = typeof(Structs.ColumnDefinition).GetFields(BindingFlags.Public | BindingFlags.Instance);
+            var fields = typeof(ColumnDefinition).GetFields(BindingFlags.Public | BindingFlags.Instance);
             _fieldLookup = fields.ToDictionary(fi => fi.Name, fi => fi, StringComparer.OrdinalIgnoreCase);
         }
 
 
-        public void Serialize(string filename, Structs.DBDefinition definition)
+        public void Serialize(string filename, DBDefinition definition)
         {
             using (StreamWriter writer = File.CreateText(filename))
                 Serialize(writer, definition);
         }
 
-        public void Serialize(TextWriter textWriter, Structs.DBDefinition definition)
+        public void Serialize(TextWriter textWriter, DBDefinition definition)
         {
             var proxy = new SerializableDBDefinition()
             {
@@ -45,13 +46,13 @@ namespace DBDefsConverter
             _serializer.Serialize(textWriter, proxy);
         }
 
-        public Structs.DBDefinition Deserialize(string filename)
+        public DBDefinition Deserialize(string filename)
         {
             using (var fs = File.OpenRead(filename))
             {
                 var proxy = (SerializableDBDefinition)_serializer.Deserialize(fs);
 
-                return new Structs.DBDefinition()
+                return new DBDefinition()
                 {
                     columnDefinitions = proxy.columnDefinitions,
                     versionDefinitions = proxy.versionDefinitions
@@ -66,7 +67,7 @@ namespace DBDefsConverter
             var overrides = new XmlAttributeOverrides();
             overrides.Add(typeof(Build), new XmlAttributes() { XmlType = new XmlTypeAttribute("build") });
             overrides.Add(typeof(BuildRange), new XmlAttributes() { XmlType = new XmlTypeAttribute("buildRange") });
-            overrides.Add(typeof(Structs.Definition), new XmlAttributes() { XmlType = new XmlTypeAttribute("definition") });
+            overrides.Add(typeof(Definition), new XmlAttributes() { XmlType = new XmlTypeAttribute("definition") });
             return overrides;
         }
     }
@@ -78,11 +79,11 @@ namespace DBDefsConverter
         [XmlElement("columnDefinitions")]
         public SerializableColumnDefinition columnDefinitions;
         [XmlElement("versionDefinitions")]
-        public Structs.VersionDefinitions[] versionDefinitions;
+        public VersionDefinitions[] versionDefinitions;
     }
 
     [Serializable]
-    public class SerializableColumnDefinition : Dictionary<string, Structs.ColumnDefinition>, IXmlSerializable
+    public class SerializableColumnDefinition : Dictionary<string, ColumnDefinition>, IXmlSerializable
     {
         private readonly FieldLookup _fieldLookup;
 
@@ -91,7 +92,7 @@ namespace DBDefsConverter
         /// </summary>
         private SerializableColumnDefinition() { }
 
-        public SerializableColumnDefinition(FieldLookup fieldLookup, Dictionary<string, Structs.ColumnDefinition> source) : base(source)
+        public SerializableColumnDefinition(FieldLookup fieldLookup, Dictionary<string, ColumnDefinition> source) : base(source)
         {
             _fieldLookup = fieldLookup;
         }
@@ -119,7 +120,7 @@ namespace DBDefsConverter
 
                 // read each element into the object
                 // boxing because structs
-                object column = new Structs.ColumnDefinition();
+                object column = new ColumnDefinition();
                 while (reader.NodeType != XmlNodeType.EndElement)
                 {
                     string fieldName = reader.Name;
@@ -149,7 +150,7 @@ namespace DBDefsConverter
                 }
 
                 // add to dictionary
-                Add(columnName, (Structs.ColumnDefinition)column);
+                Add(columnName, (ColumnDefinition)column);
             }
 
             reader.ReadEndElement();

@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using static DBDefsLib.Structs;
 using System.Linq;
 
 namespace DBDefsConverter
@@ -147,7 +148,7 @@ namespace DBDefsConverter
                 var buildDefinition = dbDefinition.versionDefinitions
                     .Where(d => d.builds.Equals(build) || 
                                 d.buildRanges.Any(br => br.Contains(build)))
-                    .Cast<Structs.VersionDefinitions?>()
+                    .Cast<VersionDefinitions?>()
                     .FirstOrDefault();
 
                 if (buildDefinition is null)

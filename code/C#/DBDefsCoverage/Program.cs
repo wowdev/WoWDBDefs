@@ -1,8 +1,8 @@
 ﻿using DBDefsLib;
 using System;
 using System.IO;
-using CsvHelper;
 using System.Linq;
+using CsvHelper;
 
 namespace DBDefsCoverage
 {
