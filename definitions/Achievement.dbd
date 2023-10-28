@@ -1,6 +1,6 @@
 COLUMNS
 int ID
-int<Faction::ID> Faction
+int Faction
 int<Map::ID> Instance_ID
 int<Achievement::ID> Supercedes
 locstring Title_lang
