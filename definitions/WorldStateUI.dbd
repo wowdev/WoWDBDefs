@@ -19,6 +19,43 @@ int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
+string Field_1_15_0_52124_000?
+locstring Field_1_15_0_52124_001_lang?
+locstring Field_1_15_0_52124_002_lang?
+locstring Field_1_15_0_52124_003_lang?
+string Field_1_15_0_52124_004?
+int Field_1_15_0_52124_005?
+int Field_1_15_0_52124_006?
+int Field_1_15_0_52124_007?
+int Field_1_15_0_52124_008?
+int Field_1_15_0_52124_009?
+int Field_1_15_0_52124_010?
+int Field_1_15_0_52124_011?
+int Field_1_15_0_52124_012?
+int Field_1_15_0_52124_013?
+int Field_1_15_0_52124_014?
+int Field_1_15_0_52124_015?
+int Field_1_15_0_52124_016?
+
+LAYOUT 19965256
+BUILD 1.15.0.52124
+Field_1_15_0_52124_000
+Field_1_15_0_52124_001_lang
+Field_1_15_0_52124_002_lang
+Field_1_15_0_52124_003_lang
+Field_1_15_0_52124_004
+$id$Field_1_15_0_52124_005<32>
+$relation$Field_1_15_0_52124_006<16>
+Field_1_15_0_52124_007<u16>
+Field_1_15_0_52124_008<u16>
+Field_1_15_0_52124_009<u8>
+Field_1_15_0_52124_010<32>
+Field_1_15_0_52124_011<32>
+Field_1_15_0_52124_012<u8>
+Field_1_15_0_52124_013<32>
+Field_1_15_0_52124_014<u16>
+Field_1_15_0_52124_015<u16>
+Field_1_15_0_52124_016<u16>[3]
 
 BUILD 2.0.0.5991
 BUILD 1.5.0.4442-1.11.2.5464

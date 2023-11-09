@@ -8,6 +8,26 @@ int Availability
 int MinLevel
 int<SkillTiers::ID> SkillTierID
 int SkillCostIndex
+int Field_1_15_0_52124_000?
+int Field_1_15_0_52124_001?
+int Field_1_15_0_52124_002?
+int Field_1_15_0_52124_003?
+int Field_1_15_0_52124_004?
+int Field_1_15_0_52124_005?
+int Field_1_15_0_52124_006?
+int Field_1_15_0_52124_007?
+
+LAYOUT 97B1C484
+BUILD 1.15.0.52124
+$noninline,id$ID<32>
+Field_1_15_0_52124_000<64>
+$relation$Field_1_15_0_52124_001<16>
+Field_1_15_0_52124_002<32>
+Field_1_15_0_52124_003<u16>
+Field_1_15_0_52124_004<8>
+Field_1_15_0_52124_005<8>
+Field_1_15_0_52124_006<16>
+Field_1_15_0_52124_007<32>
 
 BUILD 4.0.0.11792
 BUILD 3.0.8.9328
