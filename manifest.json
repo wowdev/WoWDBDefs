@@ -3339,6 +3339,36 @@
     "db2FileDataID": 1399953
   },
   {
+    "tableName": "ModelSound",
+    "tableHash": "3734C5A2",
+    "db2FileDataID": 5393273
+  },
+  {
+    "tableName": "ModelSoundAnimEntry",
+    "tableHash": "82D76F47",
+    "db2FileDataID": 5393274
+  },
+  {
+    "tableName": "ModelSoundEntry",
+    "tableHash": "E665B4DD",
+    "db2FileDataID": 5393275
+  },
+  {
+    "tableName": "ModelSoundOverride",
+    "tableHash": "66D2AD5D",
+    "db2FileDataID": 5393276
+  },
+  {
+    "tableName": "ModelSoundOverrideName",
+    "tableHash": "80D60C42",
+    "db2FileDataID": 5512584
+  },
+  {
+    "tableName": "ModelSoundTagEntry",
+    "tableHash": "30B4EA1C",
+    "db2FileDataID": 5393277
+  },
+  {
     "tableName": "ModifiedCraftingCategory",
     "tableHash": "F24979A5",
     "db2FileDataID": 3386486
@@ -3643,6 +3673,11 @@
     "db2FileDataID": 4519766
   },
   {
+    "tableName": "PerksActivityCondition",
+    "tableHash": "7E3DDBA4",
+    "db2FileDataID": 5524226
+  },
+  {
     "tableName": "PerksActivityTag",
     "tableHash": "28C17380",
     "db2FileDataID": 4694317
@@ -3744,6 +3779,16 @@
     "tableHash": "B94C2807",
     "dbcFileDataID": 841717,
     "db2FileDataID": 1045411
+  },
+  {
+    "tableName": "PlayerDataFlagAccount",
+    "tableHash": "E41AA24D",
+    "db2FileDataID": 5426706
+  },
+  {
+    "tableName": "PlayerDataFlagCharacter",
+    "tableHash": "05236D80",
+    "db2FileDataID": 5426708
   },
   {
     "tableName": "Positioner",
