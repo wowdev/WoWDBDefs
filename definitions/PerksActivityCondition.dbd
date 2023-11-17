@@ -1,12 +1,12 @@
 COLUMNS
-int Field_10_2_5_52206_000?
-int Field_10_2_5_52206_001?
+int ID?
+int<PlayerCondition::ID> PlayerConditionID?
 int Field_10_2_5_52206_002?
-int Field_10_2_5_52206_003?
+int<PerksActivity::ID> PerksActivityID?
 
 LAYOUT 6DD21FC7
 BUILD 10.2.5.52206
-$id$Field_10_2_5_52206_000<32>
-Field_10_2_5_52206_001<32>
+$id$ID<32>
+PlayerConditionID<32>
 Field_10_2_5_52206_002<32>
-$noninline,relation$Field_10_2_5_52206_003<32>
+$noninline,relation$PerksActivityID<32>
