@@ -14,6 +14,22 @@ int FirstCraftTreasureID?
 int<ItemBonusTree::ID> ItemBonusTreeID?
 float Field_10_0_0_45141_011?
 int CraftedTreasureID?
+int Field_10_2_5_52432_000?
+int Field_10_2_5_52432_001?
+int Field_10_2_5_52432_002?
+int Field_10_2_5_52432_003?
+int Field_10_2_5_52432_004?
+int Field_10_2_5_52432_005?
+float Field_10_2_5_52432_006?
+float Field_10_2_5_52432_007?
+float Field_10_2_5_52432_008?
+float Field_10_2_5_52432_009?
+float Field_10_2_5_52432_010?
+float Field_10_2_5_52432_011?
+int Field_10_2_5_52432_012?
+int Field_10_2_5_52432_013?
+int Field_10_2_5_52432_014?
+int Field_10_2_5_52432_015?
 
 LAYOUT B91A8F5E
 BUILD 10.0.0.44167
@@ -103,3 +119,22 @@ Field_10_0_0_45141_011
 FirstCraftFlagQuestID<32>
 FirstCraftTreasureID<32>
 CraftedTreasureID<32>
+
+LAYOUT E8316F5C
+BUILD 10.2.5.52432
+$id$Field_10_2_5_52432_000<32>
+Field_10_2_5_52432_001<32>
+Field_10_2_5_52432_002<32>
+Field_10_2_5_52432_003<32>
+Field_10_2_5_52432_004<32>
+Field_10_2_5_52432_005<32>
+Field_10_2_5_52432_006
+Field_10_2_5_52432_007
+Field_10_2_5_52432_008
+Field_10_2_5_52432_009
+Field_10_2_5_52432_010
+Field_10_2_5_52432_011
+Field_10_2_5_52432_012<32>
+Field_10_2_5_52432_013<32>
+Field_10_2_5_52432_014<32>
+Field_10_2_5_52432_015<32>
