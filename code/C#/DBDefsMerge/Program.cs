@@ -338,7 +338,18 @@ namespace DBDefsMerge
                                             // Merge signedness from second file if it is different from current
                                             if (versionDefinition2.definitions[j].isSigned != tempVersion.definitions[j].isSigned)
                                             {
+                                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                                Console.WriteLine("!!! WARNING [" + Path.GetFileNameWithoutExtension(firstFileName) + "] Expected signedness " + versionDefinition2.definitions[j].isSigned + " for " + versionDefinition2.definitions[j].name + "/" + tempVersion.definitions[j].name + " but got " + tempVersion.definitions[j].isSigned + " instead, using signedness from second file");
+                                                Console.ResetColor();
                                                 tempVersion.definitions[j].isSigned = versionDefinition2.definitions[j].isSigned;
+                                            }
+
+                                            if (versionDefinition2.definitions[j].size != tempVersion.definitions[j].size)
+                                            {
+                                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                                Console.WriteLine("!!! WARNING [" + Path.GetFileNameWithoutExtension(firstFileName) + "] Expected size " + versionDefinition2.definitions[j].size + " for " + versionDefinition2.definitions[j].name + "/" + tempVersion.definitions[j].name + " but got " + tempVersion.definitions[j].size + " instead, using size from second file");
+                                                Console.ResetColor();
+                                                tempVersion.definitions[j].size = versionDefinition2.definitions[j].size;
                                             }
                                         }
 
