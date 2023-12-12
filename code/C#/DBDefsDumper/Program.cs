@@ -196,8 +196,35 @@ namespace DBDefsDumper
                             }
                             else
                             {
-                                Console.WriteLine("Expansion, major and minor version not found in binary. Please enter it in this format X.X.X: ");
-                                build = Console.ReadLine() + "." + build;
+                                var binaryName = Path.GetFileNameWithoutExtension(args[0]);
+                                if (binaryName.StartsWith("WOW-"))
+                                {
+                                    Console.WriteLine("Expansion, major and minor version not found in binary, checking filename..");
+                                    var splitBinaryName = binaryName.Split('-');
+                                    if (splitBinaryName[1].Contains("patch"))
+                                    {
+                                        var patchName = splitBinaryName[1].Split('_')[0].Split("patch")[1];
+                                        if (patchName.Split('.').Length == 3)
+                                        {
+                                            build = patchName + "." + build; ;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("Expansion, major and minor version not found in binary. Please enter it in this format X.X.X: ");
+                                            build = Console.ReadLine() + "." + build;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Expansion, major and minor version not found in binary. Please enter it in this format X.X.X: ");
+                                        build = Console.ReadLine() + "." + build;
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Expansion, major and minor version not found in binary. Please enter it in this format X.X.X: ");
+                                    build = Console.ReadLine() + "." + build;
+                                }
                             }
                         }
                         else
@@ -223,6 +250,9 @@ namespace DBDefsDumper
 
                 // Extract DBMeta
                 var metas = new Dictionary<string, DBMeta>();
+
+                // Manual list of names to ignore as these are known bad pattern matches
+                var badNames = new List<string>() { "rippleDetail", "RAIDrippleDetail" };
 
                 var patternBuilder = new PatternBuilder();
                 Pattern usedPattern = null;
@@ -349,6 +379,17 @@ namespace DBDefsDumper
                                 }
                             }
 
+                            if (pattern.offsets.ContainsKey(Name.CONVERT_STRINGREFS))
+                            {
+                                bin.BaseStream.Position = matchPos + pattern.offsets[Name.CONVERT_STRINGREFS];
+                                var targetOffset = (long)translate(bin.ReadUInt64());
+                                if (targetOffset > bin.BaseStream.Length)
+                                {
+                                    Console.WriteLine("CONVERT_STRINGREFS offset is out of range of file, skipping match..");
+                                    continue;
+                                }
+                            }
+
                             if (pattern.offsets.ContainsKey(Name.DB_FILENAME))
                             {
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.DB_FILENAME];
@@ -417,38 +458,28 @@ namespace DBDefsDumper
                                     filename = filename.Substring(filename.IndexOf("\\") + 1);
                                 }
 
-                                // Check TableHash 
-                                /*
-                                if (pattern.offsets.ContainsKey(Name.TABLE_HASH))
+                                if (badNames.Contains(Path.GetFileNameWithoutExtension(filename)))
                                 {
-                                    if (MakeTableHash(Path.GetFileNameWithoutExtension(filename)) != meta.table_hash)
-                                    {
-                                        Console.WriteLine("TableHash mismatch, skipping match..");
-                                        continue;
-                                    }
+                                    Console.WriteLine("Skipping known bad match (" + filename + ")");
                                 }
-                                */
-
-                                metas.TryAdd(Path.GetFileNameWithoutExtension(filename), meta);
+                                else
+                                {
+                                    metas.TryAdd(Path.GetFileNameWithoutExtension(filename), meta);
+                                }
                             }
                             else if (pattern.offsets.ContainsKey(Name.DB_FILENAME))
                             {
                                 bin.BaseStream.Position = (long)translate((ulong)meta.dbFilenameOffs);
                                 var name = bin.ReadCString();
 
-                                // Check TableHash 
-                                /*
-                                if (pattern.offsets.ContainsKey(Name.TABLE_HASH))
+                                if (badNames.Contains(Path.GetFileNameWithoutExtension(name)))
                                 {
-                                    if (MakeTableHash(Path.GetFileNameWithoutExtension(name)) != meta.table_hash)
-                                    {
-                                        Console.WriteLine("TableHash mismatch, skipping match..");
-                                        continue;
-                                    }
+                                    Console.WriteLine("Skipping known bad match (" + name + ")");
                                 }
-                                */
-
-                                metas.TryAdd(Path.GetFileNameWithoutExtension(name), meta);
+                                else
+                                {
+                                    metas.TryAdd(Path.GetFileNameWithoutExtension(name), meta);
+                                }
                             }
 
                             bin.BaseStream.Position = matchPos + patternLength;
@@ -477,6 +508,19 @@ namespace DBDefsDumper
                         Console.WriteLine("Skipping reading of " + meta.Key + " because field offset (" + (long)translate((ulong)meta.Value.field_offsets_offs) + ") is outside of file range (" + bin.BaseStream.Length + ")!");
                         continue;
                     }
+
+                    //if (meta.Value.table_hash != 0 && usedPattern.offsets.ContainsKey(Name.TABLE_HASH))
+                    //{
+                    //    if (MakeTableHash(meta.Key) != meta.Value.table_hash)
+                    //    {
+                    //        Console.WriteLine("TableHash mismatch, skipping match..");
+                    //        continue;
+                    //    }
+                    //    else
+                    //    {
+                    //        Console.WriteLine("TableHash for " + meta.Key + "ok!");
+                    //    }
+                    //}
 
                     var writer = new StreamWriter(Path.Combine(outputDirectory, meta.Key + ".dbd"));
 
@@ -733,7 +777,7 @@ namespace DBDefsDumper
                     Console.Write("..done!\n");
                 }
 
-                if (usedPattern != null)
+                if (usedPattern != null && metas.Count > 0)
                 {
                     Console.Write("Writing manifest..");
                     var entries = new List<ManifestEntry>();

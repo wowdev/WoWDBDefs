@@ -44,7 +44,7 @@ namespace DBDefsDumper
             //    .OptionalPointer(Name.SQL_QUERY)
             //);
             patterns.Add(
-           new Pattern("10.1.0", new List<string> { "10.1.0", "10.1.5", "1.14.4", "1.15.0", "3.4.2", "10.1.7", "10.2.0", "3.4.3", "10.2.5", "4.4.0", "1.15.1", "10.2.7" }, 48480, 0)
+           new Pattern("10.1.0", new List<string> { "10.1.0", "10.1.5", "1.14.4", "1.15.0", "3.4.2", "10.1.7", "10.2.0", "3.4.3", "10.2.5", "4.4.0", "1.15.1", "10.2.7", "10.2.6" }, 48480, 0)
                .Pointer(Name.DB_NAME)
                .FileDataID(Name.FDID)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
@@ -289,7 +289,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("7.{0,1}.{0,5}-release", new List<string> { "7.0.3", "7.1.0", "7.1.5", "7.2.0" }, 0, 23476) //todo: find minbuild
+                new Pattern("7.{0,1}.{0,5}-release", new List<string> { "7.0.3", "7.1.0", "7.1.5", "7.2.0" }, 20740, 23476) //todo: find minbuild
                 .Pointer(Name.DB_NAME)
                 .Pointer(Name.DB_CACHE_FILENAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
