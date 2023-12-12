@@ -208,7 +208,7 @@ SourceText_lang
 Description_lang
 $id$ID<32>
 MountTypeID<u16>
-Flags<16>
+Flags<32>
 SourceTypeEnum<8>
 SourceSpellID<32>
 PlayerConditionID<u32>
