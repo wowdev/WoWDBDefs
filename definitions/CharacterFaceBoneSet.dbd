@@ -65,4 +65,4 @@ SexID<u8>
 ModelFileDataID<32>
 FaceVariationIndex<u8>
 BoneSetFileDataID<32>
-$noninline,relation$RaceID<8>
+$noninline,relation$RaceID<32>
