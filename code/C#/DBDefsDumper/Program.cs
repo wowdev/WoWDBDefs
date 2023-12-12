@@ -34,10 +34,6 @@ namespace DBDefsDumper
             {
                 var chunkSize = 1024;
 
-                // Find version
-                var buildPattern = new byte?[] { 0x42, 0x75, 0x69, 0x6C, 0x64, 0x20, null, null, null, null, null, 0x20, 0x28, null, null, null, null, null, 0x29, 0x20, 0x28 };
-                var buildPatternLength = buildPattern.Length;
-
                 var build = "";
                 var patternOverride = "";
 
@@ -50,8 +46,13 @@ namespace DBDefsDumper
                     }
                 }
 
+                // Find version
+                var buildPattern = new byte?[] { 0x42, 0x75, 0x69, 0x6C, 0x64, 0x20, null, null, null, null, null, 0x20, 0x28, null, null, null, null, null, 0x29, 0x20, 0x28 };
+                var buildPatternLength = buildPattern.Length;
+
                 if (build == "")
                 {
+                    Console.WriteLine("No build given, scanning executable for \"Build ????? (?????) (\"");
                     while (true)
                     {
                         if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
@@ -81,7 +82,43 @@ namespace DBDefsDumper
 
                 if (build == "")
                 {
+                    Console.WriteLine("No build found, rescanning executable for \"Build ????? (??????) (\"");
+                    bin.BaseStream.Position = 0;
+
+                    buildPattern = new byte?[] { 0x42, 0x75, 0x69, 0x6C, 0x64, 0x20, null, null, null, null, null, 0x20, 0x28, null, null, null, null, null, null, 0x29, 0x20, 0x28 };
+                    buildPatternLength = buildPattern.Length;
+
+                    while (true)
+                    {
+                        if ((bin.BaseStream.Length - bin.BaseStream.Position) < chunkSize)
+                        {
+                            break;
+                        }
+
+                        var posInStack = Search(bin.ReadBytes(chunkSize), buildPattern);
+
+                        if (posInStack != chunkSize)
+                        {
+                            var matchPos = bin.BaseStream.Position - chunkSize + posInStack;
+
+                            bin.BaseStream.Position = matchPos;
+                            bin.ReadBytes(6);
+                            var buildNumber = new string(bin.ReadChars(5));
+                            bin.ReadBytes(2);
+                            var patch = new string(bin.ReadChars(6));
+                            build = patch + "." + buildNumber;
+                        }
+                        else
+                        {
+                            bin.BaseStream.Position = bin.BaseStream.Position - buildPatternLength;
+                        }
+                    }
+                }
+
+                if (build == "")
+                {
                     // Retry with backup pattern (crash log output)
+                    Console.WriteLine("No build found, rescanning executable for \"0x00<Version> \"");
                     bin.BaseStream.Position = 0;
 
                     buildPattern = new byte?[] { 0x00, 0x3C, 0x56, 0x65, 0x72, 0x73, 0x69, 0x6F, 0x6E, 0x3E, 0x20 }; // <Version>
@@ -116,7 +153,10 @@ namespace DBDefsDumper
                                     break;
                                 }
                             }
-                            build = sb.ToString();
+
+                            // Filter out second pattern match of "<Version> %s%s" by checking if build is formatted correctly
+                            if (sb.ToString().Split('.').Length == 4)
+                                build = sb.ToString();
                         }
                         else
                         {
@@ -130,7 +170,8 @@ namespace DBDefsDumper
                     // Retry with RenderService pattern..
                     bin.BaseStream.Position = 0;
 
-                    buildPattern = new byte?[] { 0x52, 0x65, 0x6e, 0x64, 0x65, 0x72, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x20, null, null, null, null, null, 0x00 }; // <Version>
+                    Console.WriteLine("No build found, rescanning executable for \"RenderService ?????0x00\"");
+                    buildPattern = new byte?[] { 0x52, 0x65, 0x6e, 0x64, 0x65, 0x72, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x20, null, null, null, null, null, 0x00 }; // RenderService ?????0x00
                     buildPatternLength = buildPattern.Length;
 
                     while (true)
