@@ -20,27 +20,6 @@ int TitleTooltipUiWidgetSetID?
 int SubtitleTooltipUiWidgetSetID?
 int<SoundKit::ID> ShowSoundKitID?
 int<SoundKit::ID> HideSoundKitID? // or the other way around? next soundkit id will be ExpandSoundKitID
-locstring Field_10_2_5_52554_000_lang?
-locstring Field_10_2_5_52554_001_lang?
-locstring Field_10_2_5_52554_002_lang?
-locstring Field_10_2_5_52554_003_lang?
-locstring Field_10_2_5_52554_004_lang?
-locstring Field_10_2_5_52554_005_lang?
-int Field_10_2_5_52554_006?
-int Field_10_2_5_52554_007?
-int Field_10_2_5_52554_008?
-int Field_10_2_5_52554_009?
-int Field_10_2_5_52554_010?
-int Field_10_2_5_52554_011?
-int Field_10_2_5_52554_012?
-int Field_10_2_5_52554_013?
-int Field_10_2_5_52554_014?
-int Field_10_2_5_52554_015?
-int Field_10_2_5_52554_016?
-int Field_10_2_5_52554_017?
-int Field_10_2_5_52554_018?
-int Field_10_2_5_52554_019?
-int Field_10_2_5_52554_020?
 int Field_10_2_5_52554_021?
 
 LAYOUT 4414294A
@@ -228,25 +207,25 @@ HideSoundKitID<32>
 
 LAYOUT E0B754D7
 BUILD 10.2.5.52554
-Field_10_2_5_52554_000_lang
-Field_10_2_5_52554_001_lang
-Field_10_2_5_52554_002_lang
-Field_10_2_5_52554_003_lang
-Field_10_2_5_52554_004_lang
-Field_10_2_5_52554_005_lang
-$id$Field_10_2_5_52554_006<32>
-Field_10_2_5_52554_007<32>
-Field_10_2_5_52554_008<32>
-Field_10_2_5_52554_009<32>
-Field_10_2_5_52554_010<32>
-Field_10_2_5_52554_011<32>
-Field_10_2_5_52554_012<32>
-Field_10_2_5_52554_013<32>
-Field_10_2_5_52554_014<32>
-Field_10_2_5_52554_015<32>
-Field_10_2_5_52554_016<32>
-Field_10_2_5_52554_017<32>
-Field_10_2_5_52554_018<32>
-Field_10_2_5_52554_019<32>
-Field_10_2_5_52554_020<32>
+Title_lang
+Subtitle_lang
+InstructionText_lang
+SubIcon_lang
+TitleTooltip_lang
+SubtitleTooltip_lang
+$id$EventToastID<32>
+PlayerConditionID<32>
+UiTextureAtlasMemberID<32>
+UiTextureKitID<32>
+EventType<32>
+DisplayType<32>
+EventAsset<32>
+Field_9_1_0_38312_011<32>
+IconFileID<32>
+UiWidgetSetID<32>
+ExtraUiWidgetSetID<32>
+TitleTooltipUiWidgetSetID<32>
+SubtitleTooltipUiWidgetSetID<32>
+ShowSoundKitID<32>
+HideSoundKitID<32>
 Field_10_2_5_52554_021<32>
