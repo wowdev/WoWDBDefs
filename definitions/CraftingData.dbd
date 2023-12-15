@@ -14,7 +14,7 @@ int FirstCraftTreasureID?
 int<ItemBonusTree::ID> ItemBonusTreeID?
 float Field_10_0_0_45141_011?
 int CraftedTreasureID?
-int Field_10_2_5_52432_015?
+int Field_10_2_5_52432_014?
 
 LAYOUT B91A8F5E
 BUILD 10.0.0.44167
@@ -121,5 +121,5 @@ Field_10_0_0_44649_009
 Field_10_0_0_45141_011
 FirstCraftFlagQuestID<32>
 FirstCraftTreasureID<32>
+Field_10_2_5_52432_014<32>
 CraftedTreasureID<32>
-Field_10_2_5_52432_015<32>
