@@ -1,8 +1,8 @@
 COLUMNS
 string Code?
-locstring Display_lang?
-locstring Display1_lang?
-locstring Terms_lang?
+locstring FormatShort_lang?
+locstring FormatLong_lang?
+locstring LicenseAcceptText_lang?
 int ID?
 int NumericCode?
 int Field_1_15_1_53009_006?
@@ -11,9 +11,9 @@ int Field_1_15_1_53009_007?
 LAYOUT 6B8D71CD
 BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247
 Code
-Display_lang
-Display1_lang
-Terms_lang
+FormatShort_lang
+FormatLong_lang
+LicenseAcceptText_lang
 $id$ID<32>
 NumericCode<32>
 Field_1_15_1_53009_006<32>
