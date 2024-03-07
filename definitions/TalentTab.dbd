@@ -11,16 +11,8 @@ int CategoryEnumID?
 locstring Description_lang?
 int RoleMask? // &2: tank, &4: healer, &8: dps
 int<Spell::ID> MasterySpellID?
-locstring Field_4_4_0_53627_000_lang?
-string Field_4_4_0_53627_001?
-locstring Field_4_4_0_53627_002_lang?
 int Field_4_4_0_53627_003?
 int Field_4_4_0_53627_004?
-int Field_4_4_0_53627_005?
-int Field_4_4_0_53627_006?
-int Field_4_4_0_53627_007?
-int Field_4_4_0_53627_008?
-int Field_4_4_0_53627_009?
 
 BUILD 0.7.0.3694-0.7.6.3712
 $id$ID<32>
@@ -178,13 +170,13 @@ MasterySpellID<32>[2]
 LAYOUT C1B1F32D
 BUILD 4.4.0.53627
 $noninline,id$ID<32>
-Field_4_4_0_53627_000_lang
-Field_4_4_0_53627_001
-Field_4_4_0_53627_002_lang
+Name_lang
+BackgroundFile
+Description_lang
 Field_4_4_0_53627_003<32>
 Field_4_4_0_53627_004<32>
-Field_4_4_0_53627_005<32>
-Field_4_4_0_53627_006<32>
-Field_4_4_0_53627_007<32>
-Field_4_4_0_53627_008<32>
-Field_4_4_0_53627_009<32>[2]
+ClassMask<32>
+CategoryEnumID<32>
+SpellIconID<32>
+RoleMask<32>
+MasterySpellID<32>[2]

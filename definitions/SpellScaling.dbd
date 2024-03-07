@@ -3,7 +3,7 @@ int ID
 int CastTimeMin
 int CastTimeMax
 int CastTimeMaxLevel
-int Class
+int<ChrClasses::ID> Class
 float NerfFactor
 int NerfMaxLevel
 int MaxScalingLevel
@@ -13,16 +13,6 @@ int<Spell::ID> SpellID
 float Coefficient
 float Variance
 float ComboPointsCoefficient
-int Field_4_4_0_53627_000?
-int Field_4_4_0_53627_001?
-int Field_4_4_0_53627_002?
-int Field_4_4_0_53627_003?
-int Field_4_4_0_53627_004?
-int Field_4_4_0_53627_005?
-int Field_4_4_0_53627_006?
-int Field_4_4_0_53627_007?
-float Field_4_4_0_53627_008?
-int Field_4_4_0_53627_009?
 
 LAYOUT F28716CC
 BUILD 3.4.3.51126, 3.4.3.51278, 3.4.3.51384, 3.4.3.51397, 3.4.3.51470, 3.4.3.51505, 3.4.3.51572, 3.4.3.51666, 3.4.3.51739, 3.4.3.51831, 3.4.3.51943, 3.4.3.52237, 3.4.3.53622
@@ -65,16 +55,16 @@ NerfMaxLevel<32>
 LAYOUT 0308E06A
 BUILD 4.4.0.53627
 $noninline,id$ID<32>
-Field_4_4_0_53627_000<32>
-Field_4_4_0_53627_001<32>
-Field_4_4_0_53627_002<u32>
-Field_4_4_0_53627_003<u32>
-Field_4_4_0_53627_004<16>
-Field_4_4_0_53627_005<32>
-Field_4_4_0_53627_006<32>
-Field_4_4_0_53627_007<32>
-Field_4_4_0_53627_008
-Field_4_4_0_53627_009<32>
+SpellID<32>
+Class<32>
+MinScalingLevel<u32>
+MaxScalingLevel<u32>
+ScalesFromItemLevel<16>
+CastTimeMin<32>
+CastTimeMax<32>
+CastTimeMaxLevel<32>
+NerfFactor
+NerfMaxLevel<32>
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414

@@ -29,28 +29,6 @@ int Field_5_0_1_15464_015? // maybe scalingClassRestricted
 float Field_5_0_1_15464_016? // maybe effectScalingPoints
 int<Item::ID> GemItemID
 int Duration?
-locstring Field_4_4_0_53627_000_lang?
-locstring Field_4_4_0_53627_001_lang?
-int Field_4_4_0_53627_002?
-float Field_4_4_0_53627_003?
-int Field_4_4_0_53627_004?
-int Field_4_4_0_53627_005?
-int Field_4_4_0_53627_006?
-int Field_4_4_0_53627_007?
-int Field_4_4_0_53627_008?
-int Field_4_4_0_53627_009?
-int Field_4_4_0_53627_010?
-int Field_4_4_0_53627_011?
-int Field_4_4_0_53627_012?
-int Field_4_4_0_53627_013?
-int Field_4_4_0_53627_014?
-int Field_4_4_0_53627_015?
-int Field_4_4_0_53627_016?
-int Field_4_4_0_53627_017?
-int Field_4_4_0_53627_018?
-int Field_4_4_0_53627_019?
-int Field_4_4_0_53627_020?
-int Field_4_4_0_53627_021?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -239,28 +217,28 @@ ItemLevel<32>
 LAYOUT 18AA1166
 BUILD 4.4.0.53627
 $noninline,id$ID<32>
-Field_4_4_0_53627_000_lang
-Field_4_4_0_53627_001_lang
-Field_4_4_0_53627_002<u32>[3]
-Field_4_4_0_53627_003[3]
-Field_4_4_0_53627_004<u32>
-Field_4_4_0_53627_005<u32>
-Field_4_4_0_53627_006<u32>
-Field_4_4_0_53627_007<u32>
-Field_4_4_0_53627_008<16>[3]
-Field_4_4_0_53627_009<16>[3]
-Field_4_4_0_53627_010<u16>
-Field_4_4_0_53627_011<u16>
-Field_4_4_0_53627_012<u16>
-Field_4_4_0_53627_013<u16>
-Field_4_4_0_53627_014<u16>
-Field_4_4_0_53627_015<u8>
-Field_4_4_0_53627_016<u8>[3]
-Field_4_4_0_53627_017<8>
-Field_4_4_0_53627_018<8>
-Field_4_4_0_53627_019<u8>
-Field_4_4_0_53627_020<u8>
-Field_4_4_0_53627_021<u8>
+Name_lang
+HordeName_lang
+EffectArg<u32>[3]
+EffectScalingPoints[3]
+GemItemID<u32>
+TransmogUnlockConditionID<u32>
+TransmogCost<u32>
+IconFileDataID<u32>
+EffectPointsMin<16>[3]
+EffectPointsMax<16>[3]
+ItemVisual<u16>
+Flags<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+ScalingClass<8>
+ScalingClassRestricted<8>
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>
 
 BUILD 5.0.1.15657-5.3.0.17116
 BUILD 5.0.1.15464-5.0.1.15650

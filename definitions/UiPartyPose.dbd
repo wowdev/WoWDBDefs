@@ -10,31 +10,21 @@ int<SoundKit::ID> DefeatSoundKitID
 locstring TitleText_lang?
 int Field_10_1_0_48480_007? // One of these is likely UITextureKitID
 int Field_10_1_0_48480_008? // One of these is likely UITextureKitID
-locstring Field_4_4_0_53627_000_lang?
 locstring Field_4_4_0_53627_001_lang?
-int Field_4_4_0_53627_002?
-int Field_4_4_0_53627_003?
-int Field_4_4_0_53627_004?
-int Field_4_4_0_53627_005?
-int Field_4_4_0_53627_006?
-int Field_4_4_0_53627_007?
-int Field_4_4_0_53627_008?
-int Field_4_4_0_53627_009?
-int Field_4_4_0_53627_010?
 
 LAYOUT 4F7568D2
 BUILD 4.4.0.53627
-Field_4_4_0_53627_000_lang
+TitleText_lang
 Field_4_4_0_53627_001_lang
-$id$Field_4_4_0_53627_002<32>
-Field_4_4_0_53627_003<32>
-Field_4_4_0_53627_004<32>
-Field_4_4_0_53627_005<32>
-Field_4_4_0_53627_006<32>
-Field_4_4_0_53627_007<32>
-Field_4_4_0_53627_008<32>
-Field_4_4_0_53627_009<32>
-$noninline,relation$Field_4_4_0_53627_010<32>
+$id$ID<32>
+UiWidgetSetID<32>
+VictoryUiModelSceneID<32>
+DefeatUiModelSceneID<32>
+VictorySoundKitID<32>
+DefeatSoundKitID<32>
+Field_10_1_0_48480_007<32>
+Field_10_1_0_48480_008<32>
+$noninline,relation$MapID<32>
 
 LAYOUT AC308DC0
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610

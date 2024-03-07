@@ -4,19 +4,15 @@ int Source_stat?
 float Source_multiplier?
 int Target_stat?
 float Target_multiplier?
-int Field_4_4_0_53627_000?
-float Field_4_4_0_53627_001?
-int Field_4_4_0_53627_002?
-float Field_4_4_0_53627_003?
-int Field_4_4_0_53627_004?
+int Field_4_4_0_53627_004? // Original ID from actual Cata?
 
 LAYOUT E91C7760
 BUILD 4.4.0.53627
 $noninline,id$ID<32>
-Field_4_4_0_53627_000<u16>
-Field_4_4_0_53627_001
-Field_4_4_0_53627_002<u16>
-Field_4_4_0_53627_003
+Source_stat<u16>
+Source_multiplier
+Target_stat<u16>
+Target_multiplier
 Field_4_4_0_53627_004<u16>
 
 BUILD 5.0.1.15464-5.4.8.18414

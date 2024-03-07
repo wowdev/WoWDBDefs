@@ -5,11 +5,6 @@ int NumTalentsDeathKnight
 int NumTalentsDemonHunter
 int Level?
 float NumberOfTalents? // NumTalents but type is different
-int Field_4_4_0_53627_000?
-int Field_4_4_0_53627_001?
-int Field_4_4_0_53627_002?
-int Field_4_4_0_53627_003?
-float Field_4_4_0_53627_004?
 
 LAYOUT E0B7F151
 BUILD 3.4.3.51126, 3.4.3.51278, 3.4.3.51384, 3.4.3.51397, 3.4.3.51470, 3.4.3.51505, 3.4.3.51572, 3.4.3.51666, 3.4.3.51739, 3.4.3.51831, 3.4.3.51943, 3.4.3.52237, 3.4.3.53622
@@ -30,11 +25,11 @@ NumberOfTalents
 
 LAYOUT 6CA01D0C
 BUILD 4.4.0.53627
-$id$Field_4_4_0_53627_000<32>
-Field_4_4_0_53627_001<32>
-Field_4_4_0_53627_002<32>
-Field_4_4_0_53627_003<32>
-Field_4_4_0_53627_004
+$id$ID<32>
+NumTalents<32>
+NumTalentsDeathKnight<32>
+NumTalentsDemonHunter<32>
+NumberOfTalents
 
 LAYOUT 9891036F, DE3268EF, 0F173041
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
