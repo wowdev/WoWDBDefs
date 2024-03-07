@@ -20,27 +20,6 @@ int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
 
-LAYOUT 19965256
-BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
-BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
-Icon
-String_lang
-Tooltip_lang
-DynamicTooltip_lang
-ExtendedUI
-$id$ID<32>
-$relation$MapID<16>
-AreaID<u16>
-StateVariable<u16>
-Type<u8>
-DynamicIconFileID<32>
-DynamicFlashIconFileID<32>
-OrderIndex<u8>
-PhaseUseFlags<32>
-PhaseID<u16>
-PhaseGroupID<u16>
-ExtendedUIStateVariable<u16>[3]
-
 BUILD 2.0.0.5991
 BUILD 1.5.0.4442-1.11.2.5464
 $id$ID<32>
@@ -176,6 +155,28 @@ DynamicIcon
 DynamicTooltip_lang
 ExtendedUI
 ExtendedUIStateVariable<32>[3]
+
+LAYOUT 19965256
+BUILD 4.4.0.53627
+BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
+BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
+Icon
+String_lang
+Tooltip_lang
+DynamicTooltip_lang
+ExtendedUI
+$id$ID<32>
+$relation$MapID<16>
+AreaID<u16>
+StateVariable<u16>
+Type<u8>
+DynamicIconFileID<32>
+DynamicFlashIconFileID<32>
+OrderIndex<u8>
+PhaseUseFlags<32>
+PhaseID<u16>
+PhaseGroupID<u16>
+ExtendedUIStateVariable<u16>[3]
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

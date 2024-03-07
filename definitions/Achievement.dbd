@@ -93,7 +93,26 @@ IconFileID<32>
 Criteria_tree<u32>
 Shares_criteria<16>
 
+BUILD 4.0.0.11792
+BUILD 4.0.0.11792-4.3.4.15595
+BUILD 3.0.1.8622-3.3.5.12340
+$id$ID<32>
+Faction<32>
+Instance_ID<32>
+Supercedes<32>
+Title_lang
+Description_lang
+Category<32>
+Points<32>
+Ui_order<32>
+Flags<32>
+IconID<32>
+Reward_lang
+Minimum_criteria<32>
+Shares_criteria<32>
+
 LAYOUT B885355D
+BUILD 4.4.0.53627
 BUILD 3.4.3.51126, 3.4.3.51278, 3.4.3.51384, 3.4.3.51397, 3.4.3.51470, 3.4.3.51505, 3.4.3.51572, 3.4.3.51666, 3.4.3.51739, 3.4.3.51831, 3.4.3.51943, 3.4.3.52237, 3.4.3.53622
 BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
 BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
@@ -113,24 +132,6 @@ $relation$Ui_order<16>
 IconFileID<32>
 Criteria_tree<u32>
 Shares_criteria<16>
-
-BUILD 4.0.0.11792
-BUILD 4.0.0.11792-4.3.4.15595
-BUILD 3.0.1.8622-3.3.5.12340
-$id$ID<32>
-Faction<32>
-Instance_ID<32>
-Supercedes<32>
-Title_lang
-Description_lang
-Category<32>
-Points<32>
-Ui_order<32>
-Flags<32>
-IconID<32>
-Reward_lang
-Minimum_criteria<32>
-Shares_criteria<32>
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414

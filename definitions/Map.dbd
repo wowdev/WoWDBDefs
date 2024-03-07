@@ -197,33 +197,6 @@ WindSettingsID<16>
 ZmpFileDataID<32>
 Flags<32>[2]
 
-LAYOUT EE526FA5
-BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
-BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
-$noninline,id$ID<32>
-Directory
-MapName_lang
-MapDescription0_lang
-MapDescription1_lang
-PvpShortDescription_lang
-PvpLongDescription_lang
-MapType<u8>
-InstanceType<8>
-ExpansionID<u8>
-AreaTableID<u16>
-LoadingScreenID<16>
-TimeOfDayOverride<16>
-ParentMapID<16>
-CosmeticParentMapID<16>
-TimeOffset<u8>
-MinimapIconScale
-RaidOffset<32>
-CorpseMapID<16>
-MaxPlayers<u8>
-WindSettingsID<16>
-ZmpFileDataID<32>
-Flags<32>[3]
-
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>
 Directory
@@ -627,6 +600,34 @@ ExpansionID<32>
 RaidOffset<32>
 MaxPlayers<32>
 ParentMapID<32>
+
+LAYOUT EE526FA5
+BUILD 4.4.0.53627
+BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
+BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
+$noninline,id$ID<32>
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
+MapType<u8>
+InstanceType<8>
+ExpansionID<u8>
+AreaTableID<u16>
+LoadingScreenID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+TimeOffset<u8>
+MinimapIconScale
+RaidOffset<32>
+CorpseMapID<16>
+MaxPlayers<u8>
+WindSettingsID<16>
+ZmpFileDataID<32>
+Flags<32>[3]
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.0.6.13623-4.3.4.15595

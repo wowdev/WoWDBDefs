@@ -10,19 +10,6 @@ int<SkillTiers::ID> SkillTierID
 int SkillCostIndex
 int Field_1_15_0_52124_007?
 
-LAYOUT 97B1C484
-BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
-BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
-$noninline,id$ID<32>
-RaceMask<64>
-$relation$SkillID<16>
-ClassMask<32>
-Flags<u16>
-Availability<8>
-MinLevel<8>
-SkillTierID<16>
-Field_1_15_0_52124_007<32>
-
 BUILD 4.0.0.11792
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885
@@ -51,6 +38,20 @@ Availability<32>
 MinLevel<32>
 SkillTierID<32>
 SkillCostIndex<32>
+
+LAYOUT 97B1C484
+BUILD 4.4.0.53627
+BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
+BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
+$noninline,id$ID<32>
+RaceMask<64>
+$relation$SkillID<16>
+ClassMask<32>
+Flags<u16>
+Availability<8>
+MinLevel<8>
+SkillTierID<16>
+Field_1_15_0_52124_007<32>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

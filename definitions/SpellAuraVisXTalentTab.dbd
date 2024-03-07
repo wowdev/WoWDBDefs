@@ -2,6 +2,14 @@ COLUMNS
 int ID
 int<SpellAuraVisibility::ID> SpellAuraVisibilityID?
 int<TalentTab::ID> TalentTabID?
+int Field_4_4_0_53627_000?
+int Field_4_4_0_53627_001?
+
+LAYOUT BE816056
+BUILD 4.4.0.53627
+$noninline,id$ID<32>
+Field_4_4_0_53627_000<16>
+$noninline,relation$Field_4_4_0_53627_001<32>
 
 BUILD 5.0.1.15464-5.0.1.15589
 BUILD 4.3.0.15005-4.3.4.15595

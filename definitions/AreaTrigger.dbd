@@ -24,26 +24,6 @@ ContinentID<32>
 Pos[3]
 Radius
 
-LAYOUT 0D7E8ED2
-BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
-BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
-Message_lang
-Pos[3]
-$id$ID<32>
-ContinentID<16>
-PhaseUseFlags<32>
-PhaseID<16>
-PhaseGroupID<16>
-Radius
-Box_length
-Box_width
-Box_height
-Box_yaw
-ShapeType<8>
-ShapeID<16>
-AreaTriggerActionSetID<16>
-Flags<8>
-
 LAYOUT DE028A76, B4CC10CD
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -125,6 +105,27 @@ Box_length
 Box_width
 Box_height
 Box_yaw
+
+LAYOUT 0D7E8ED2
+BUILD 4.4.0.53627
+BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
+BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
+Message_lang
+Pos[3]
+$id$ID<32>
+ContinentID<16>
+PhaseUseFlags<32>
+PhaseID<16>
+PhaseGroupID<16>
+Radius
+Box_length
+Box_width
+Box_height
+Box_yaw
+ShapeType<8>
+ShapeID<16>
+AreaTriggerActionSetID<16>
+Flags<8>
 
 BUILD 5.0.1.15464-5.0.1.15640
 BUILD 4.0.0.11927-4.3.4.15595

@@ -88,91 +88,6 @@ int<TraitNodeEntry::ID> TraitNodeEntryID?
 int TraitNodeEntryMinRank?
 int TraitNodeEntryMaxRank?
 
-LAYOUT D1764989
-BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
-BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
-RaceMask<64>
-Failure_description_lang
-$id$ID<32>
-MinLevel<u16>
-MaxLevel<u16>
-ClassMask<32>
-SkillLogic<u32>
-LanguageID<u8>
-MinLanguage<u8>
-MaxLanguage<32>
-MaxFactionID<u16>
-MaxReputation<u8>
-ReputationLogic<u32>
-CurrentPvpFaction<8>
-PvpMedal<u8>
-PrevQuestLogic<u32>
-CurrQuestLogic<u32>
-CurrentCompletedQuestLogic<u32>
-SpellLogic<u32>
-ItemLogic<u32>
-ItemFlags<u8>
-AuraSpellLogic<u32>
-WorldStateExpressionID<u16>
-WeatherID<u8>
-PartyStatus<u8>
-LifetimeMaxPVPRank<u8>
-AchievementLogic<u32>
-Gender<8>
-NativeGender<8>
-AreaLogic<u32>
-LfgLogic<u32>
-CurrencyLogic<u32>
-QuestKillID<u32>
-QuestKillLogic<u32>
-MinExpansionLevel<8>
-MaxExpansionLevel<8>
-MinAvgItemLevel<32>
-MaxAvgItemLevel<32>
-MinAvgEquippedItemLevel<u16>
-MaxAvgEquippedItemLevel<u16>
-PhaseUseFlags<32>
-PhaseID<u16>
-PhaseGroupID<u32>
-Flags<u8>
-ChrSpecializationIndex<8>
-ChrSpecializationRole<8>
-ModifierTreeID<u32>
-PowerType<8>
-PowerTypeComp<u8>
-PowerTypeValue<u8>
-WeaponSubclassMask<32>
-MaxGuildLevel<u8>
-MinGuildLevel<u8>
-MaxExpansionTier<8>
-MinExpansionTier<8>
-MinPVPRank<u8>
-MaxPVPRank<u8>
-SkillID<u16>[4]
-MinSkill<u16>[4]
-MaxSkill<u16>[4]
-MinFactionID<u32>[3]
-MinReputation<u8>[3]
-PrevQuestID<u32>[4]
-CurrQuestID<u32>[4]
-CurrentCompletedQuestID<u32>[4]
-SpellID<32>[4]
-ItemID<32>[4]
-ItemCount<u32>[4]
-Explored<u16>[2]
-Time<u32>[2]
-AuraSpellID<32>[4]
-AuraStacks<u8>[4]
-Achievement<u16>[4]
-AreaID<u16>[4]
-LfgStatus<u8>[4]
-LfgCompare<u8>[4]
-LfgValue<u32>[4]
-CurrencyID<u32>[4]
-CurrencyCount<u32>[4]
-QuestKillMonster<u32>[6]
-MovementFlags<32>[2]
-
 LAYOUT C289B61E
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -355,6 +270,92 @@ MovementFlags<32>[2]
 BUILD 4.2.0.14333-4.3.4.15595
 $id$ID<32>
 Failure_description_lang
+
+LAYOUT D1764989
+BUILD 4.4.0.53627
+BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
+BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
+RaceMask<64>
+Failure_description_lang
+$id$ID<32>
+MinLevel<u16>
+MaxLevel<u16>
+ClassMask<32>
+SkillLogic<u32>
+LanguageID<u8>
+MinLanguage<u8>
+MaxLanguage<32>
+MaxFactionID<u16>
+MaxReputation<u8>
+ReputationLogic<u32>
+CurrentPvpFaction<8>
+PvpMedal<u8>
+PrevQuestLogic<u32>
+CurrQuestLogic<u32>
+CurrentCompletedQuestLogic<u32>
+SpellLogic<u32>
+ItemLogic<u32>
+ItemFlags<u8>
+AuraSpellLogic<u32>
+WorldStateExpressionID<u16>
+WeatherID<u8>
+PartyStatus<u8>
+LifetimeMaxPVPRank<u8>
+AchievementLogic<u32>
+Gender<8>
+NativeGender<8>
+AreaLogic<u32>
+LfgLogic<u32>
+CurrencyLogic<u32>
+QuestKillID<u32>
+QuestKillLogic<u32>
+MinExpansionLevel<8>
+MaxExpansionLevel<8>
+MinAvgItemLevel<32>
+MaxAvgItemLevel<32>
+MinAvgEquippedItemLevel<u16>
+MaxAvgEquippedItemLevel<u16>
+PhaseUseFlags<32>
+PhaseID<u16>
+PhaseGroupID<u32>
+Flags<u8>
+ChrSpecializationIndex<8>
+ChrSpecializationRole<8>
+ModifierTreeID<u32>
+PowerType<8>
+PowerTypeComp<u8>
+PowerTypeValue<u8>
+WeaponSubclassMask<32>
+MaxGuildLevel<u8>
+MinGuildLevel<u8>
+MaxExpansionTier<8>
+MinExpansionTier<8>
+MinPVPRank<u8>
+MaxPVPRank<u8>
+SkillID<u16>[4]
+MinSkill<u16>[4]
+MaxSkill<u16>[4]
+MinFactionID<u32>[3]
+MinReputation<u8>[3]
+PrevQuestID<u32>[4]
+CurrQuestID<u32>[4]
+CurrentCompletedQuestID<u32>[4]
+SpellID<32>[4]
+ItemID<32>[4]
+ItemCount<u32>[4]
+Explored<u16>[2]
+Time<u32>[2]
+AuraSpellID<32>[4]
+AuraStacks<u8>[4]
+Achievement<u16>[4]
+AreaID<u16>[4]
+LfgStatus<u8>[4]
+LfgCompare<u8>[4]
+LfgValue<u32>[4]
+CurrencyID<u32>[4]
+CurrencyCount<u32>[4]
+QuestKillMonster<u32>[6]
+MovementFlags<32>[2]
 
 BUILD 5.0.1.15662
 BUILD 5.0.1.15464-5.0.1.15640

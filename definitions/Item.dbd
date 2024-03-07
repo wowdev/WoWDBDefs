@@ -23,6 +23,26 @@ int<ContentTuning::ID> ContentTuningID?
 int<CraftingQuality::ID> CraftingQualityID?
 int<ScalingStatDistribution::ID> ScalingStatDistributionID?
 int ScalingStatValue?
+int Field_4_4_0_53627_000?
+int Field_4_4_0_53627_001?
+int Field_4_4_0_53627_002?
+int Field_4_4_0_53627_003?
+int Field_4_4_0_53627_004?
+int Field_4_4_0_53627_005?
+int Field_4_4_0_53627_006?
+int Field_4_4_0_53627_007?
+int Field_4_4_0_53627_008?
+int Field_4_4_0_53627_009?
+int Field_4_4_0_53627_010?
+int Field_4_4_0_53627_011?
+int Field_4_4_0_53627_012?
+int Field_4_4_0_53627_013?
+int Field_4_4_0_53627_014?
+int Field_4_4_0_53627_015?
+int Field_4_4_0_53627_016?
+int Field_4_4_0_53627_017?
+int Field_4_4_0_53627_018?
+int Field_4_4_0_53627_019?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -216,6 +236,30 @@ DamageType<u8>[5]
 Resistances<16>[7]
 MinDamage<u16>[5]
 MaxDamage<u16>[5]
+
+LAYOUT FFF62904
+BUILD 4.4.0.53627
+$noninline,id$ID<32>
+Field_4_4_0_53627_000<u8>
+Field_4_4_0_53627_001<u8>
+Field_4_4_0_53627_002<u8>
+Field_4_4_0_53627_003<8>
+Field_4_4_0_53627_004<32>
+Field_4_4_0_53627_005<u8>
+Field_4_4_0_53627_006<u16>
+Field_4_4_0_53627_007<u16>
+Field_4_4_0_53627_008<8>
+Field_4_4_0_53627_009<u16>
+Field_4_4_0_53627_010<32>
+Field_4_4_0_53627_011<u8>
+Field_4_4_0_53627_012<32>
+Field_4_4_0_53627_013<u32>
+Field_4_4_0_53627_014<u8>
+Field_4_4_0_53627_015<32>
+Field_4_4_0_53627_016<u8>[5]
+Field_4_4_0_53627_017<32>[7]
+Field_4_4_0_53627_018<32>[5]
+Field_4_4_0_53627_019<32>[5]
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18414

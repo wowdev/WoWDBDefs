@@ -1,21 +1,16 @@
 COLUMNS
 int ID
-int<TalentTab::ID> TalentTabID?
-int<Spell::ID> SpellID?
-int Flags? // &0x1: learnable, &0x2: always visible
 int Field_4_4_0_53627_000?
 int Field_4_4_0_53627_001?
 int Field_4_4_0_53627_002?
+int Field_4_4_0_53627_003?
+int Field_4_4_0_53627_004?
 
-BUILD 4.0.0.12539-4.3.4.15595
-$id$ID<32>
-TalentTabID<32>
-SpellID<32>
-Flags<32>
-
-LAYOUT DDF6669B
+LAYOUT 7C64B965
 BUILD 4.4.0.53627
 $noninline,id$ID<32>
 Field_4_4_0_53627_000<32>
 Field_4_4_0_53627_001<32>
 Field_4_4_0_53627_002<32>
+Field_4_4_0_53627_003<32>
+$noninline,relation$Field_4_4_0_53627_004<32>
