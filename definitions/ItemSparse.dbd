@@ -76,80 +76,7 @@ int<ContentTuning::ID> ContentTuningID?
 int<Curve::ID> PlayerLevelToItemLevelCurveID?
 int Field_7_3_2_25549_048? // probably RequiredPVPRank
 int Field_7_3_2_25549_049? // probably RequiredPVPMedal
-int Field_4_4_0_53750_000?
-locstring Field_4_4_0_53750_001_lang?
-locstring Field_4_4_0_53750_002_lang?
-locstring Field_4_4_0_53750_003_lang?
-locstring Field_4_4_0_53750_004_lang?
-locstring Field_4_4_0_53750_005_lang?
-float Field_4_4_0_53750_006?
-int Field_4_4_0_53750_007?
-float Field_4_4_0_53750_008?
-int Field_4_4_0_53750_009?
-int Field_4_4_0_53750_010?
-float Field_4_4_0_53750_011?
-float Field_4_4_0_53750_012?
 int Field_4_4_0_53750_013?
-int Field_4_4_0_53750_014?
-int Field_4_4_0_53750_015?
-int Field_4_4_0_53750_016?
-int Field_4_4_0_53750_017?
-int Field_4_4_0_53750_018?
-int Field_4_4_0_53750_019?
-int Field_4_4_0_53750_020?
-int Field_4_4_0_53750_021?
-float Field_4_4_0_53750_022?
-float Field_4_4_0_53750_023?
-int Field_4_4_0_53750_024?
-int Field_4_4_0_53750_025?
-int Field_4_4_0_53750_026?
-int Field_4_4_0_53750_027?
-int Field_4_4_0_53750_028?
-int Field_4_4_0_53750_029?
-int Field_4_4_0_53750_030?
-int Field_4_4_0_53750_031?
-int Field_4_4_0_53750_032?
-int Field_4_4_0_53750_033?
-int Field_4_4_0_53750_034?
-int Field_4_4_0_53750_035?
-int Field_4_4_0_53750_036?
-int Field_4_4_0_53750_037?
-int Field_4_4_0_53750_038?
-int Field_4_4_0_53750_039?
-int Field_4_4_0_53750_040?
-int Field_4_4_0_53750_041?
-int Field_4_4_0_53750_042?
-int Field_4_4_0_53750_043?
-int Field_4_4_0_53750_044?
-int Field_4_4_0_53750_045?
-int Field_4_4_0_53750_046?
-int Field_4_4_0_53750_047?
-int Field_4_4_0_53750_048?
-int Field_4_4_0_53750_049?
-int Field_4_4_0_53750_050?
-int Field_4_4_0_53750_051?
-int Field_4_4_0_53750_052?
-int Field_4_4_0_53750_053?
-int Field_4_4_0_53750_054?
-int Field_4_4_0_53750_055?
-int Field_4_4_0_53750_056?
-int Field_4_4_0_53750_057?
-int Field_4_4_0_53750_058?
-int Field_4_4_0_53750_059?
-int Field_4_4_0_53750_060?
-int Field_4_4_0_53750_061?
-int Field_4_4_0_53750_062?
-int Field_4_4_0_53750_063?
-int Field_4_4_0_53750_064?
-int Field_4_4_0_53750_065?
-int Field_4_4_0_53750_066?
-int Field_4_4_0_53750_067?
-int Field_4_4_0_53750_068?
-int Field_4_4_0_53750_069?
-int Field_4_4_0_53750_070?
-int Field_4_4_0_53750_071?
-int Field_4_4_0_53750_072?
-int Field_4_4_0_53750_073?
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -860,80 +787,80 @@ LAYOUT E3090D23
 BUILD 4.4.0.53750
 COMMENT table is sparse
 $noninline,id$ID<32>
-Field_4_4_0_53750_000<64>
-Field_4_4_0_53750_001_lang
-Field_4_4_0_53750_002_lang
-Field_4_4_0_53750_003_lang
-Field_4_4_0_53750_004_lang
-Field_4_4_0_53750_005_lang
-Field_4_4_0_53750_006
-Field_4_4_0_53750_007<u32>
-Field_4_4_0_53750_008
-Field_4_4_0_53750_009<u32>
-Field_4_4_0_53750_010<32>
-Field_4_4_0_53750_011
-Field_4_4_0_53750_012[10]
+AllowableRace<64>
+Description_lang
+Display3_lang
+Display2_lang
+Display1_lang
+Display_lang
+DmgVariance
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+StartQuestID<32>
+ItemRange
+StatPercentageOfSocket[10]
 Field_4_4_0_53750_013<32>[10]
-Field_4_4_0_53750_014<32>[10]
-Field_4_4_0_53750_015<32>
-Field_4_4_0_53750_016<32>
-Field_4_4_0_53750_017<32>
-Field_4_4_0_53750_018<u32>
-Field_4_4_0_53750_019<u32>
-Field_4_4_0_53750_020<u32>
-Field_4_4_0_53750_021<u32>
-Field_4_4_0_53750_022
-Field_4_4_0_53750_023
-Field_4_4_0_53750_024<32>[4]
-Field_4_4_0_53750_025<32>
-Field_4_4_0_53750_026<32>
-Field_4_4_0_53750_027<32>
-Field_4_4_0_53750_028<32>
-Field_4_4_0_53750_029<u32>
-Field_4_4_0_53750_030<u16>
-Field_4_4_0_53750_031<u16>
-Field_4_4_0_53750_032<u16>
-Field_4_4_0_53750_033<u16>
-Field_4_4_0_53750_034<u16>
-Field_4_4_0_53750_035<u16>
-Field_4_4_0_53750_036<u16>
-Field_4_4_0_53750_037<u16>
-Field_4_4_0_53750_038<u16>[2]
-Field_4_4_0_53750_039<u16>
-Field_4_4_0_53750_040<u16>
-Field_4_4_0_53750_041<u16>
-Field_4_4_0_53750_042<u16>
-Field_4_4_0_53750_043<u16>
-Field_4_4_0_53750_044<u16>
-Field_4_4_0_53750_045<u16>
-Field_4_4_0_53750_046<u16>
-Field_4_4_0_53750_047<16>
-Field_4_4_0_53750_048<u16>
-Field_4_4_0_53750_049<u16>
-Field_4_4_0_53750_050<u16>[5]
-Field_4_4_0_53750_051<u16>[5]
-Field_4_4_0_53750_052<16>[7]
-Field_4_4_0_53750_053<u16>
-Field_4_4_0_53750_054<16>[10]
-Field_4_4_0_53750_055<u8>
-Field_4_4_0_53750_056<u8>
-Field_4_4_0_53750_057<u8>
-Field_4_4_0_53750_058<u8>
-Field_4_4_0_53750_059<u8>[3]
-Field_4_4_0_53750_060<u8>
-Field_4_4_0_53750_061<u8>
-Field_4_4_0_53750_062<u8>
-Field_4_4_0_53750_063<u8>
-Field_4_4_0_53750_064<u8>
-Field_4_4_0_53750_065<u8>
-Field_4_4_0_53750_066<8>[10]
-Field_4_4_0_53750_067<u8>
-Field_4_4_0_53750_068<u8>
-Field_4_4_0_53750_069<u8>
-Field_4_4_0_53750_070<8>
-Field_4_4_0_53750_071<8>
-Field_4_4_0_53750_072<u8>
-Field_4_4_0_53750_073<8>
+StatPercentEditor<32>[10]
+Stackable<32>
+MaxCount<32>
+MinReputation<32>
+RequiredAbility<u32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
+OppositeFactionItemID<32>
+ModifiedCraftingReagentItemID<32>
+ContentTuningID<32>
+PlayerLevelToItemLevelCurveID<32>
+MaxDurability<u32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+LimitCategory<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
+ItemSet<u16>
+LockID<u16>
+PageID<u16>
+ItemDelay<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ItemRandomSuffixGroupID<u16>
+RandomSelect<u16>
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
+Resistances<16>[7]
+ScalingStatDistributionID<u16>
+StatModifier_bonusAmount<16>[10]
+ExpansionID<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+DamageType<u8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+InventoryType<8>
+OverallQualityID<8>
+AmmunitionType<u8>
+RequiredLevel<8>
 
 LAYOUT BB5BF754
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
