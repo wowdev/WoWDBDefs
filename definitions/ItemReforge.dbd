@@ -5,6 +5,12 @@ float Source_multiplier?
 int Target_stat?
 float Target_multiplier?
 int Field_4_4_0_53627_004? // Original ID from actual Cata?
+int Field_4_4_0_53750_000?
+int Field_4_4_0_53750_001?
+float Field_4_4_0_53750_002?
+int Field_4_4_0_53750_003?
+float Field_4_4_0_53750_004?
+int Field_4_4_0_53750_005?
 
 LAYOUT E91C7760
 BUILD 4.4.0.53627
@@ -14,6 +20,15 @@ Source_multiplier
 Target_stat<u16>
 Target_multiplier
 Field_4_4_0_53627_004<u16>
+
+LAYOUT F3A870E9
+BUILD 4.4.0.53750
+$id$Field_4_4_0_53750_000<32>
+Field_4_4_0_53750_001<u16>
+Field_4_4_0_53750_002
+Field_4_4_0_53750_003<u16>
+Field_4_4_0_53750_004
+Field_4_4_0_53750_005<u16>
 
 BUILD 5.0.1.15464-5.4.8.18414
 BUILD 4.0.0.12025-4.3.4.15595
