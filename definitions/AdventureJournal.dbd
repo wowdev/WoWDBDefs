@@ -23,6 +23,26 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
+locstring Field_10_2_6_53840_000_lang?
+locstring Field_10_2_6_53840_001_lang?
+locstring Field_10_2_6_53840_002_lang?
+locstring Field_10_2_6_53840_003_lang?
+locstring Field_10_2_6_53840_004_lang?
+int Field_10_2_6_53840_005?
+int Field_10_2_6_53840_006?
+int Field_10_2_6_53840_007?
+int Field_10_2_6_53840_008?
+int Field_10_2_6_53840_009?
+int Field_10_2_6_53840_010?
+int Field_10_2_6_53840_011?
+int Field_10_2_6_53840_012?
+int Field_10_2_6_53840_013?
+int Field_10_2_6_53840_014?
+int Field_10_2_6_53840_015?
+int Field_10_2_6_53840_016?
+int Field_10_2_6_53840_017?
+int Field_10_2_6_53840_018?
+int Field_10_2_6_53840_019?
 
 LAYOUT AF456C4F
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -406,3 +426,27 @@ CurrencyQuantity<u32>
 UIMapID<u16>
 BonusPlayerConditionID<u32>[2]
 BonusValue<u8>[2]
+
+LAYOUT 872F8E30
+BUILD 10.2.6.53840
+$noninline,id$ID<32>
+Field_10_2_6_53840_000_lang
+Field_10_2_6_53840_001_lang
+Field_10_2_6_53840_002_lang
+Field_10_2_6_53840_003_lang
+Field_10_2_6_53840_004_lang
+Field_10_2_6_53840_005<u8>
+Field_10_2_6_53840_006<u32>
+Field_10_2_6_53840_007<32>
+Field_10_2_6_53840_008<u8>
+Field_10_2_6_53840_009<32>
+Field_10_2_6_53840_010<u16>
+Field_10_2_6_53840_011<32>
+Field_10_2_6_53840_012<u16>
+Field_10_2_6_53840_013<u8>
+Field_10_2_6_53840_014<u8>
+Field_10_2_6_53840_015<u16>
+Field_10_2_6_53840_016<u32>
+Field_10_2_6_53840_017<u16>
+Field_10_2_6_53840_018<u32>[2]
+Field_10_2_6_53840_019<u8>[2]

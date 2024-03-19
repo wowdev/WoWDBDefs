@@ -2,6 +2,9 @@ COLUMNS
 int ID
 int<QuestV2::ID> QuestID
 int<UiWidgetSet::ID> UiWidgetSetID
+int Field_10_2_6_53840_000?
+int Field_10_2_6_53840_001?
+int Field_10_2_6_53840_002?
 
 LAYOUT 9D15AFB1
 BUILD 10.0.0.43342
@@ -30,3 +33,10 @@ BUILD 9.2.5.43519, 9.2.5.43630, 9.2.5.43741, 9.2.5.43810, 9.2.5.43903, 9.2.5.439
 $noninline,id$ID<32>
 QuestID<32>
 UiWidgetSetID<32>
+
+LAYOUT 5FABCD9E
+BUILD 10.2.6.53840
+$noninline,id$ID<32>
+Field_10_2_6_53840_000<32>
+Field_10_2_6_53840_001<32>
+Field_10_2_6_53840_002<u8>

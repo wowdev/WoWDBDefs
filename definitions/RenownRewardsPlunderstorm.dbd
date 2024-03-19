@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+locstring Field_10_2_6_53840_000_lang?
+locstring Field_10_2_6_53840_001_lang?
+int Field_10_2_6_53840_002?
+int Field_10_2_6_53840_003?
+int Field_10_2_6_53840_004?
+int Field_10_2_6_53840_005?
+int Field_10_2_6_53840_006?
+
+LAYOUT D63E74F4
+BUILD 10.2.6.53840
+$noninline,id$ID<32>
+Field_10_2_6_53840_000_lang
+Field_10_2_6_53840_001_lang
+$relation$Field_10_2_6_53840_002<32>
+Field_10_2_6_53840_003<32>
+Field_10_2_6_53840_004<32>
+Field_10_2_6_53840_005<32>
+Field_10_2_6_53840_006<32>

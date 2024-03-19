@@ -12,20 +12,6 @@ int Field_10_1_0_48480_007? // One of these is likely UITextureKitID
 int Field_10_1_0_48480_008? // One of these is likely UITextureKitID
 locstring Field_4_4_0_53627_001_lang?
 
-LAYOUT 4F7568D2
-BUILD 4.4.0.53627, 4.4.0.53750
-TitleText_lang
-Field_4_4_0_53627_001_lang
-$id$ID<32>
-UiWidgetSetID<32>
-VictoryUiModelSceneID<32>
-DefeatUiModelSceneID<32>
-VictorySoundKitID<32>
-DefeatSoundKitID<32>
-Field_10_1_0_48480_007<32>
-Field_10_1_0_48480_008<32>
-$noninline,relation$MapID<32>
-
 LAYOUT AC308DC0
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
 $noninline,id$ID<32>
@@ -107,6 +93,21 @@ BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
 BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
 BUILD 1.14.4.50252, 1.14.4.50304, 1.14.4.50337, 1.14.4.50461, 1.14.4.50547, 1.14.4.50643, 1.14.4.50753, 1.14.4.50849, 1.14.4.50960, 1.14.4.51001, 1.14.4.51056, 1.14.4.51146, 1.14.4.51311, 1.14.4.51395, 1.14.4.51535, 1.14.4.51829
 TitleText_lang
+$id$ID<32>
+UiWidgetSetID<32>
+VictoryUiModelSceneID<32>
+DefeatUiModelSceneID<32>
+VictorySoundKitID<32>
+DefeatSoundKitID<32>
+Field_10_1_0_48480_007<32>
+Field_10_1_0_48480_008<32>
+$noninline,relation$MapID<32>
+
+LAYOUT 4F7568D2
+BUILD 10.2.6.53840
+BUILD 4.4.0.53627, 4.4.0.53750
+TitleText_lang
+Field_4_4_0_53627_001_lang
 $id$ID<32>
 UiWidgetSetID<32>
 VictoryUiModelSceneID<32>
