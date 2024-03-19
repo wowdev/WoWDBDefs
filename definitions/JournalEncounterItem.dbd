@@ -5,12 +5,6 @@ int<Item::ID> ItemID
 int DifficultyMask
 int FactionMask
 int Flags
-int Field_10_2_6_53840_000?
-int Field_10_2_6_53840_001?
-int Field_10_2_6_53840_002?
-int Field_10_2_6_53840_003?
-int Field_10_2_6_53840_004?
-int Field_10_2_6_53840_005?
 int Field_10_2_6_53840_006?
 
 LAYOUT D3499B0A
@@ -151,10 +145,10 @@ DifficultyMask<8>
 
 LAYOUT 2F00E0F6
 BUILD 10.2.6.53840
-$id$Field_10_2_6_53840_000<32>
-$relation$Field_10_2_6_53840_001<u16>
-Field_10_2_6_53840_002<u32>
-Field_10_2_6_53840_003<8>
-Field_10_2_6_53840_004<32>
-Field_10_2_6_53840_005<8>
+$id$ID<32>
+$relation$JournalEncounterID<u16>
+ItemID<u32>
+FactionMask<8>
+Flags<32>
+DifficultyMask<8>
 Field_10_2_6_53840_006<32>
