@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-locstring Field_10_2_6_53840_000_lang?
-locstring Field_10_2_6_53840_001_lang?
-int Field_10_2_6_53840_002?
-int Field_10_2_6_53840_003?
-int Field_10_2_6_53840_004?
+locstring Name_lang?
+locstring Description_lang?
+int<Covenant::ID> CovenantID?
+int Level?
+int<FileData::ID> Icon?
 int Field_10_2_6_53840_005?
-int Field_10_2_6_53840_006?
+int UiOrder?
 
 LAYOUT D63E74F4
 BUILD 10.2.6.53840
 $noninline,id$ID<32>
-Field_10_2_6_53840_000_lang
-Field_10_2_6_53840_001_lang
-$relation$Field_10_2_6_53840_002<32>
-Field_10_2_6_53840_003<32>
-Field_10_2_6_53840_004<32>
+Name_lang
+Description_lang
+$relation$CovenantID<32>
+Level<32>
+Icon<32>
 Field_10_2_6_53840_005<32>
-Field_10_2_6_53840_006<32>
+UiOrder<32>

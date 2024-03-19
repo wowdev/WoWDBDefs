@@ -1,17 +1,17 @@
 COLUMNS
 int ID
-int Field_4_4_0_53627_000?
+int<Item::ID> ItemID?
 int Field_4_4_0_53627_001?
-int Field_4_4_0_53627_002?
+int<PlayerCondition::ID> PlayerConditionID?
 int Field_4_4_0_53627_003?
-int Field_4_4_0_53627_004?
+int<AdventureJournal::ID> AdventureJournalID?
 
 LAYOUT 7C64B965
 BUILD 10.2.6.53840
 BUILD 4.4.0.53627, 4.4.0.53750
 $noninline,id$ID<32>
-Field_4_4_0_53627_000<32>
+ItemID<32>
 Field_4_4_0_53627_001<32>
-Field_4_4_0_53627_002<32>
+PlayerConditionID<32>
 Field_4_4_0_53627_003<32>
-$noninline,relation$Field_4_4_0_53627_004<32>
+$noninline,relation$AdventureJournalID<32>
