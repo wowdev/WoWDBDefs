@@ -4,7 +4,7 @@ int<SpellShapeshiftForm::ID> SpellShapeshiftFormID?
 int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
 float BarberShopMinCameraDistance?
 float BarberShopHeightOffset?
-float Field_10_2_0_51825_004?
+float BarberShopCameraZoomOffset?
 
 LAYOUT 6C319AFC
 BUILD 3.4.3.51126, 3.4.3.51278, 3.4.3.51384, 3.4.3.51397, 3.4.3.51470, 3.4.3.51505, 3.4.3.51572, 3.4.3.51666, 3.4.3.51739, 3.4.3.51831, 3.4.3.51943, 3.4.3.52237, 3.4.3.53622, 3.4.3.53788
@@ -27,7 +27,7 @@ SpellShapeshiftFormID<32>
 CreatureDisplayInfoID<32>
 BarberShopMinCameraDistance
 BarberShopHeightOffset
-Field_10_2_0_51825_004
+BarberShopCameraZoomOffset
 
 LAYOUT F4065FDC
 BUILD 9.0.1.34615
@@ -99,4 +99,4 @@ SpellShapeshiftFormID<32>
 CreatureDisplayInfoID<32>
 BarberShopMinCameraDistance
 BarberShopHeightOffset
-Field_10_2_0_51825_004
+BarberShopCameraZoomOffset
