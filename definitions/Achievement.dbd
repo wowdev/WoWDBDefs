@@ -19,8 +19,8 @@ int<Item::ID> RewardItemID
 int<Covenant::ID> CovenantID
 int Field_3_0_1_8471_007? // possibly ui_order
 int Field_3_0_1_8303_002?
-int Field_10_2_6_53840_017?
-int Field_10_2_6_53840_018?
+int<DisplaySeason::ID> HiddenBeforeDisplaySeason? // hidden in UI before this DisplaySeason is active
+int LegacyAfterTimeEvent? // category changes clientside to Legacy (15234) after this TimeEvent is passed
 
 LAYOUT 19FCE7B0
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -373,5 +373,5 @@ RewardItemID<32>
 Criteria_tree<u32>
 Shares_criteria<16>
 CovenantID<32>
-Field_10_2_6_53840_017<32>
-Field_10_2_6_53840_018<32>
+HiddenBeforeDisplaySeason<32>
+LegacyAfterTimeEvent<32>
