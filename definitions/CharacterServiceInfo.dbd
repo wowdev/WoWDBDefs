@@ -11,7 +11,7 @@ locstring PopupTitle_lang
 int<UiTextureKit::ID> PopupUITextureKitID
 int Priority
 int ProfessionLevel
-int Field_1_14_1_40666_003? // 0: Free trial?, 1: Level boosts?, 2: Char transfer, faction/race change?
+int ServiceType? // 0: Generic, 1: Level Boost, 2: Change
 
 LAYOUT 371E296E
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
@@ -80,7 +80,7 @@ $noninline,id$ID<32>
 FlowTitle_lang
 PopupTitle_lang
 PopupDescription_lang
-Field_1_14_1_40666_003<32>
+ServiceType<32>
 BoostType<32>
 IconFileDataID<32>
 Priority<32>
@@ -115,7 +115,7 @@ $noninline,id$ID<32>
 FlowTitle_lang
 PopupTitle_lang
 PopupDescription_lang
-Field_1_14_1_40666_003<32>
+ServiceType<32>
 BoostType<32>
 IconFileDataID<32>
 Priority<32>
