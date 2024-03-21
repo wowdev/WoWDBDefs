@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<QuestV2::ID> QuestID
 int<UiWidgetSet::ID> UiWidgetSetID
-int Field_10_2_6_53840_002?
+int GlowAnimType? // Enum.WidgetGlowAnimType: 0: None, 1: Pulse
 
 LAYOUT 9D15AFB1
 BUILD 10.0.0.43342
@@ -37,4 +37,4 @@ BUILD 10.2.6.53840
 $noninline,id$ID<32>
 QuestID<32>
 UiWidgetSetID<32>
-Field_10_2_6_53840_002<u8>
+GlowAnimType<u8>
