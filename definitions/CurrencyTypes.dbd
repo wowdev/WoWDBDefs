@@ -21,19 +21,7 @@ int XpQuestDifficulty // Correct if 2 for ID 1566. ConvertToPlayerExperience?
 int RechargingAmountPerCycle?
 int RechargingCycleDurationMS?
 int Field_3_4_3_51278_010?
-locstring Field_4_4_0_54137_000_lang?
-locstring Field_4_4_0_54137_001_lang?
-int Field_4_4_0_54137_002?
-int Field_4_4_0_54137_003?
-int Field_4_4_0_54137_004?
-int Field_4_4_0_54137_005?
-int Field_4_4_0_54137_006?
-int Field_4_4_0_54137_007?
-int Field_4_4_0_54137_008?
-int Field_4_4_0_54137_009?
-int Field_4_4_0_54137_010?
 int Field_4_4_0_54137_011?
-int Field_4_4_0_54137_012?
 
 LAYOUT 7A943838
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011, 2.5.2.40045, 2.5.2.40203, 2.5.2.40260, 2.5.2.40422, 2.5.2.40488, 2.5.2.40617, 2.5.2.40892, 2.5.2.41446, 2.5.2.41510
@@ -156,19 +144,19 @@ Flags<32>[2]
 LAYOUT 5BD9D2E6
 BUILD 4.4.0.54137
 $noninline,id$ID<32>
-Field_4_4_0_54137_000_lang
-Field_4_4_0_54137_001_lang
-Field_4_4_0_54137_002<u8>
-Field_4_4_0_54137_003<32>
-Field_4_4_0_54137_004<u32>
-Field_4_4_0_54137_005<u8>
-Field_4_4_0_54137_006<u32>
-Field_4_4_0_54137_007<u32>
-Field_4_4_0_54137_008<8>
-Field_4_4_0_54137_009<32>
-Field_4_4_0_54137_010<32>
+Name_lang
+Description_lang
+CategoryID<u8>
+InventoryIconFileID<32>
+SpellWeight<u32>
+SpellCategory<u8>
+MaxQty<u32>
+MaxEarnablePerWeek<u32>
+Quality<8>
+FactionID<32>
+Field_3_4_3_51278_010<32>
 Field_4_4_0_54137_011<32>
-Field_4_4_0_54137_012<32>[2]
+Flags<32>[2]
 
 BUILD 5.0.1.15464-5.1.0.16357
 BUILD 4.0.0.12539-4.3.4.15595
