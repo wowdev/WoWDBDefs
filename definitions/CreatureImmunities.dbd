@@ -22,19 +22,6 @@ StatesAllowed<32>
 State<32>[12]
 Flags<32>
 
-LAYOUT 6103DDDA
-BUILD 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137
-$noninline,id$ID<32>
-School<u8>
-DispelType<u32>
-MechanicsAllowed<u8>
-EffectsAllowed<u8>
-StatesAllowed<u8>
-Flags<u8>
-Mechanic<32>[2]
-Effect<u32>[11]
-State<u32>[20]
-
 BUILD 5.0.1.15464-5.0.4.15913
 $id$ID<32>
 School<32>
@@ -210,4 +197,18 @@ StatesAllowed<u8>
 Flags<u8>
 Mechanic<32>[2]
 Effect<u32>[10]
+State<u32>[20]
+
+LAYOUT 6103DDDA
+BUILD 10.2.7.54171
+BUILD 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137
+$noninline,id$ID<32>
+School<u8>
+DispelType<u32>
+MechanicsAllowed<u8>
+EffectsAllowed<u8>
+StatesAllowed<u8>
+Flags<u8>
+Mechanic<32>[2]
+Effect<u32>[11]
 State<u32>[20]

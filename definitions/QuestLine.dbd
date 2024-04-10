@@ -5,6 +5,12 @@ int<QuestV2::ID> QuestID?
 locstring Description_lang
 int<PlayerCondition::ID> PlayerConditionID?
 int<PlayerCondition::ID> CompletionPlayerConditionID? // Appears to be used (when available) instead of looking up completion status for each quest in this questline.
+locstring Field_10_2_7_54171_000_lang?
+locstring Field_10_2_7_54171_001_lang?
+int Field_10_2_7_54171_002?
+int Field_10_2_7_54171_003?
+int Field_10_2_7_54171_004?
+int Field_10_2_7_54171_005?
 
 LAYOUT 4B1C4A54
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137
@@ -104,3 +110,13 @@ Description_lang
 CompletionPlayerConditionID<32>
 QuestID<u32>
 PlayerConditionID<32>
+
+LAYOUT 148A5F52
+BUILD 10.2.7.54171
+$noninline,id$ID<32>
+Field_10_2_7_54171_000_lang
+Field_10_2_7_54171_001_lang
+Field_10_2_7_54171_002<32>
+Field_10_2_7_54171_003<u32>
+Field_10_2_7_54171_004<32>
+Field_10_2_7_54171_005<32>
