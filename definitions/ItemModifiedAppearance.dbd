@@ -10,12 +10,6 @@ int ItemAppearanceModifierID
 int<Item::ID> ItemID
 int OrderIndex
 int TransmogSourceTypeEnum
-int Field_10_2_7_54171_000?
-int Field_10_2_7_54171_001?
-int Field_10_2_7_54171_002?
-int Field_10_2_7_54171_003?
-int Field_10_2_7_54171_004?
-int Field_10_2_7_54171_005?
 int Field_10_2_7_54171_006?
 
 LAYOUT CB7953C8
@@ -157,10 +151,10 @@ TransmogSourceTypeEnum<u8>
 
 LAYOUT F881E7D5
 BUILD 10.2.7.54171
-$id$Field_10_2_7_54171_000<32>
-$relation$Field_10_2_7_54171_001<32>
-Field_10_2_7_54171_002<32>
-Field_10_2_7_54171_003<32>
-Field_10_2_7_54171_004<32>
-Field_10_2_7_54171_005<u8>
+$id$ID<32>
+$relation$ItemID<32>
+ItemAppearanceModifierID<32>
+ItemAppearanceID<32>
+OrderIndex<32>
+TransmogSourceTypeEnum<u8>
 Field_10_2_7_54171_006<32>
