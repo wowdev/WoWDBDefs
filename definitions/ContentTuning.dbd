@@ -15,8 +15,8 @@ int TargetLevelMin?
 int TargetLevelMax?
 int MinItemLevel? // overrides LfgDungeons::MinGear if set
 float QuestXpMultiplier?
-int<Curve::ID> Field_10_2_7_54171_002?
-int<Curve::ID> Field_10_2_7_54171_003?
+int<Curve::ID> ILvlHealthMultiplierCurveID?
+int<Curve::ID> ILvlDamageMultiplierCurveID?
 
 LAYOUT D0AEEA71
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -252,8 +252,8 @@ BUILD 10.2.7.54171
 $noninline,id$ID<32>
 Flags<32>
 ExpansionID<32>
-Field_10_2_7_54171_002<32>
-Field_10_2_7_54171_003<32>
+ILvlHealthMultiplierCurveID<32>
+ILvlDamageMultiplierCurveID<32>
 MinLevel<32>
 MaxLevel<32>
 LowerBoundSemantics<32>
