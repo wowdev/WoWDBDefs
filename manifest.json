@@ -420,6 +420,11 @@
     "db2FileDataID": 1284819
   },
   {
+    "tableName": "BankTab",
+    "tableHash": "D8761C11",
+    "db2FileDataID": 5242411
+  },
+  {
     "tableName": "BannedAddons",
     "tableHash": "3B7DA145",
     "dbcFileDataID": 801574,
@@ -1128,6 +1133,11 @@
     "tableName": "ConditionalContentTuning",
     "tableHash": "7214CB47",
     "db2FileDataID": 3501965
+  },
+  {
+    "tableName": "ConditionalCreatureModelData",
+    "tableHash": "1D2C33DA",
+    "db2FileDataID": 5525474
   },
   {
     "tableName": "ConditionalItemAppearance",
@@ -2193,6 +2203,11 @@
     "db2FileDataID": 4335720
   },
   {
+    "tableName": "GossipOptionXUIWidgetSet",
+    "tableHash": "2ECB23C0",
+    "db2FileDataID": 5746391
+  },
+  {
     "tableName": "GossipXGarrTalentTrees",
     "tableHash": "8BA95B41",
     "db2FileDataID": 4407361
@@ -3117,6 +3132,16 @@
     "db2FileDataID": 1334669
   },
   {
+    "tableName": "LightParamsLightShaft",
+    "tableHash": "5BBFE5D4",
+    "db2FileDataID": 5350588
+  },
+  {
+    "tableName": "LightShaft",
+    "tableHash": "56DE315D",
+    "db2FileDataID": 5350589
+  },
+  {
     "tableName": "LightSkybox",
     "tableHash": "D364D557",
     "dbcFileDataID": 801700,
@@ -3398,6 +3423,11 @@
     "tableName": "ModelSoundOverrideName",
     "tableHash": "80D60C42",
     "db2FileDataID": 5512584
+  },
+  {
+    "tableName": "ModelSoundSettings",
+    "tableHash": "BB58C4DA",
+    "db2FileDataID": 5682517
   },
   {
     "tableName": "ModelSoundTagEntry",
@@ -3817,6 +3847,16 @@
     "db2FileDataID": 1045411
   },
   {
+    "tableName": "PlayerDataElementAccount",
+    "tableHash": "604AA08C",
+    "db2FileDataID": 5715394
+  },
+  {
+    "tableName": "PlayerDataElementCharacter",
+    "tableHash": "49C37449",
+    "db2FileDataID": 5715395
+  },
+  {
     "tableName": "PlayerDataFlagAccount",
     "tableHash": "E41AA24D",
     "db2FileDataID": 5426706
@@ -3825,6 +3865,16 @@
     "tableName": "PlayerDataFlagCharacter",
     "tableHash": "05236D80",
     "db2FileDataID": 5426708
+  },
+  {
+    "tableName": "PlayerInteractionInfo",
+    "tableHash": "C031D32E",
+    "db2FileDataID": 5346849
+  },
+  {
+    "tableName": "PointLightConditionMap",
+    "tableHash": "4ADB9D29",
+    "db2FileDataID": 5735564
   },
   {
     "tableName": "Positioner",
@@ -3871,6 +3921,11 @@
     "tableName": "ProfessionEffectType",
     "tableHash": "FFD9CA51",
     "db2FileDataID": 4556715
+  },
+  {
+    "tableName": "ProfessionExpansion",
+    "tableHash": "83A25C2E",
+    "db2FileDataID": 5662322
   },
   {
     "tableName": "ProfessionPropPoints",
@@ -5142,6 +5197,11 @@
     "db2FileDataID": 1101657
   },
   {
+    "tableName": "SpotLightConditionMap",
+    "tableHash": "8E789275",
+    "db2FileDataID": 5735565
+  },
+  {
     "tableName": "SSAOSettings",
     "tableHash": "7671711A",
     "db2FileDataID": 2056369
@@ -5390,6 +5450,11 @@
     "tableName": "TraitNodeXTraitNodeEntry",
     "tableHash": "A4379E4E",
     "db2FileDataID": 4420304
+  },
+  {
+    "tableName": "TraitSubTree",
+    "tableHash": "4171C94A",
+    "db2FileDataID": 5534447
   },
   {
     "tableName": "TraitSystem",
@@ -5874,6 +5939,26 @@
   {
     "tableName": "VW_MobileSpell",
     "tableHash": "3D0F8786"
+  },
+  {
+    "tableName": "WarbandScene",
+    "tableHash": "AB1CB538",
+    "db2FileDataID": 5736126
+  },
+  {
+    "tableName": "WarbandSceneAnimation",
+    "tableHash": "BF5256B5",
+    "db2FileDataID": 5754555
+  },
+  {
+    "tableName": "WarbandScenePlacement",
+    "tableHash": "A1A4FF1E",
+    "db2FileDataID": 5736130
+  },
+  {
+    "tableName": "WarbandScenePlcmntAnimOverride",
+    "tableHash": "D2C26591",
+    "db2FileDataID": 5756286
   },
   {
     "tableName": "WaterfallData",
