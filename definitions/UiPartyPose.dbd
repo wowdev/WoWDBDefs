@@ -11,6 +11,7 @@ locstring TitleText_lang?
 int Field_10_1_0_48480_007? // One of these is likely UITextureKitID
 int Field_10_1_0_48480_008? // One of these is likely UITextureKitID
 locstring Field_4_4_0_53627_001_lang?
+int Field_11_0_0_54210_010?
 
 LAYOUT AC308DC0
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610
@@ -118,4 +119,19 @@ VictorySoundKitID<32>
 DefeatSoundKitID<32>
 Field_10_1_0_48480_007<32>
 Field_10_1_0_48480_008<32>
+$noninline,relation$MapID<32>
+
+LAYOUT E7843329
+BUILD 11.0.0.54210
+TitleText_lang
+Field_4_4_0_53627_001_lang
+$id$ID<32>
+UiWidgetSetID<32>
+VictoryUiModelSceneID<32>
+DefeatUiModelSceneID<32>
+VictorySoundKitID<32>
+DefeatSoundKitID<32>
+Field_10_1_0_48480_007<32>
+Field_10_1_0_48480_008<32>
+Field_11_0_0_54210_010<32>
 $noninline,relation$MapID<32>

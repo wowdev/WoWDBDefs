@@ -288,3 +288,26 @@ LoopToSegmentIndex<8>
 BlendInTimeMs<u16>
 BlendOutTimeMs<u16>
 Field_9_0_1_34278_018
+
+LAYOUT A646F9CD
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+$relation$ParentAnimKitID<u16>
+OrderIndex<u8>
+AnimID<16>
+AnimStartTime<u32>
+AnimKitConfigID<u16>
+StartCondition<u8>
+StartConditionParam<u8>
+StartConditionDelay<u32>
+EndCondition<u8>
+EndConditionParam<u32>
+EndConditionDelay<u32>
+Speed
+SegmentFlags<32>
+ForcedVariation<u8>
+OverrideConfigFlags<32>
+LoopToSegmentIndex<8>
+BlendInTimeMs<u16>
+BlendOutTimeMs<u16>
+Field_9_0_1_34278_018

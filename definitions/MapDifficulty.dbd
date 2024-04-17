@@ -256,3 +256,17 @@ ItemContextPickerID<32>
 Flags<32>
 ContentTuningID<32>
 $noninline,relation$MapID<32>
+
+LAYOUT E0033602
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+Message_lang
+DifficultyID<32>
+LockID<32>
+ResetInterval<u8>
+MaxPlayers<32>
+ItemContext<u8>
+ItemContextPickerID<32>
+Flags<32>
+ContentTuningID<32>
+$noninline,relation$MapID<32>

@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+float Position?
+int Field_11_0_0_54210_001? // Looks like some type check
+float Field_11_0_0_54210_002?
+float Field_11_0_0_54210_003?
+int Field_11_0_0_54210_004?
+int Field_11_0_0_54210_005?
+int<WarbandScene::ID> WarbandSceneID?
+
+LAYOUT 6378BB2B
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+Position[3]
+Field_11_0_0_54210_001<32>
+Field_11_0_0_54210_002
+Field_11_0_0_54210_003
+Field_11_0_0_54210_004<u32>
+Field_11_0_0_54210_005<u32>
+$noninline,relation$WarbandSceneID<32>

@@ -67,3 +67,16 @@ AbilitySpellID<32>
 AbilitySpellID2<32>
 PassiveSpellID<32>
 Role<32>
+
+LAYOUT 639208D9
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+HealthBase<32>
+HealthGainPerLevel<32>
+AttackBase<32>
+AttackGainPerLevel<32>
+AttackSpellID<32>
+AbilitySpellID<32>
+AbilitySpellID2<32>
+PassiveSpellID<32>
+Role<32>

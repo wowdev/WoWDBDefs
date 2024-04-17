@@ -120,3 +120,11 @@ SpellID<u32>
 GlyphType<u8>
 GlyphExclusiveCategoryID<u8>
 SpellIconFileDataID<32>
+
+LAYOUT 58B5C01A
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+SpellID<u32>
+GlyphType<u8>
+GlyphExclusiveCategoryID<u8>
+SpellIconFileDataID<32>

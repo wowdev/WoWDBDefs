@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int<CreatureModelData::ID> CreatureModelDataID?
+int<CreatureDisplayInfo::ID> PortraitCreatureDisplayInfoID?
+int<PlayerCondition::ID> PlayerConditionID?
+int TextureVariationFileDataID?
+
+LAYOUT D2DC31FE
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+CreatureModelDataID<u16>
+PortraitCreatureDisplayInfoID<u16>
+PlayerConditionID<u32>
+TextureVariationFileDataID<32>[4]

@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int<UiWidgetSet::ID> UiWidgetSetID?
+int WidgetType?
+int<GossipNPCOption::ID> GossipNPCOptionID?
+
+LAYOUT E7B6D91A
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+UiWidgetSetID<32>
+WidgetType<32>
+$noninline,relation$GossipNPCOptionID<32>

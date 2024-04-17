@@ -234,3 +234,20 @@ ToggleDifficultyID<u8>
 GroupSizeHealthCurveID<u32>
 GroupSizeDmgCurveID<u32>
 GroupSizeSpellPointsCurveID<u32>
+
+LAYOUT 37686F0C
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+Name_lang
+InstanceType<u8>
+OrderIndex<u8>
+OldEnumValue<8>
+FallbackDifficultyID<u8>
+MinPlayers<u8>
+MaxPlayers<u8>
+Flags<u16>
+ItemContext<u8>
+ToggleDifficultyID<u8>
+GroupSizeHealthCurveID<u32>
+GroupSizeDmgCurveID<u32>
+GroupSizeSpellPointsCurveID<u32>

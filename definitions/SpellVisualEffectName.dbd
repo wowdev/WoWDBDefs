@@ -23,6 +23,7 @@ int SpecialID
 int SpecialAttachPoint
 int Field_2_0_0_6080_003?
 int Field_9_1_0_38549_014?
+int Field_11_0_0_54210_015?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -306,3 +307,23 @@ RibbonQualityID<u32>
 DissolveEffectID<32>
 ModelPosition<32>
 Field_9_1_0_38549_014<8>
+
+LAYOUT 3995EC9F
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+ModelFileDataID<32>
+BaseMissileSpeed
+Scale
+MinAllowedScale
+MaxAllowedScale
+Alpha
+Flags<u32>
+TextureFileDataID<32>
+EffectRadius
+Type<u32>
+GenericID<32>
+RibbonQualityID<u32>
+DissolveEffectID<32>
+ModelPosition<32>
+Field_9_1_0_38549_014<8>
+Field_11_0_0_54210_015<u16>

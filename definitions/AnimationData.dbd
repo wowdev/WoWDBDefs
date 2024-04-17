@@ -163,3 +163,11 @@ Fallback<u16>
 BehaviorTier<u8>
 BehaviorID<32>
 Flags<32>[2]
+
+LAYOUT B64450EB
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+Fallback<u16>
+BehaviorTier<u8>
+BehaviorID<16>
+Flags<32>[2]

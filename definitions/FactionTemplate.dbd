@@ -135,3 +135,14 @@ FriendGroup<u8>
 EnemyGroup<u8>
 Enemies<u16>[8]
 Friend<u16>[8]
+
+LAYOUT D6FAFA3F
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+Faction<u16>
+Flags<32>
+FactionGroup<u8>
+FriendGroup<u8>
+EnemyGroup<u8>
+Enemies<u16>[8]
+Friend<u16>[8]
