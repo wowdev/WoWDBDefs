@@ -45,6 +45,7 @@ float MountScaleSelf?
 float MountScaleOther?
 float WalkSpeed?
 float RunSpeed?
+int Field_11_0_0_54210_032?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -693,4 +694,42 @@ OverrideSelectionRadius
 TamedPetBaseScale
 MountScaleOtherIndex<8>
 MountScaleSelf
+MountScaleOther[2]
+
+LAYOUT 6E5ECC1D
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+GeoBox[6]
+Flags<32>
+FileDataID<u32>
+WalkSpeed
+RunSpeed
+BloodID<u32>
+FootprintTextureID<u32>
+FootprintTextureLength
+FootprintTextureWidth
+FootprintParticleScale
+FoleyMaterialID<u32>
+FootstepCameraEffectID<u32>
+DeathThudCameraEffectID<u32>
+SoundID<u32>
+SizeClass<u32>
+CollisionWidth
+CollisionHeight
+WorldEffectScale
+CreatureGeosetDataID<u32>
+HoverHeight
+AttachedEffectScale
+ModelScale
+MissileCollisionRadius
+MissileCollisionPush
+MissileCollisionRaise
+MountHeight
+OverrideLootEffectScale
+OverrideNameScale
+OverrideSelectionRadius
+TamedPetBaseScale
+MountScaleOtherIndex<8>
+MountScaleSelf
+Field_11_0_0_54210_032<u16>
 MountScaleOther[2]

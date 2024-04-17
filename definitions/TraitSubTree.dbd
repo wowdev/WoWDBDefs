@@ -1,0 +1,14 @@
+COLUMNS
+locstring Name_lang?
+locstring Description_lang?
+int ID?
+int<UiTextureAtlasElement::ID> UiTextureAtlasElementID?
+int<TraitTree::ID> TraitTreeID?
+
+LAYOUT DD6761B4
+BUILD 11.0.0.54210
+Name_lang
+Description_lang
+$id$ID<32>
+UiTextureAtlasElementID<32>
+$relation$TraitTreeID<32>

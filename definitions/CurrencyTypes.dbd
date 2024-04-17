@@ -22,6 +22,7 @@ int RechargingAmountPerCycle?
 int RechargingCycleDurationMS?
 int Field_3_4_3_51278_010?
 int Field_4_4_0_54137_011?
+float Field_11_0_0_54210_016?
 
 LAYOUT 7A943838
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011, 2.5.2.40045, 2.5.2.40203, 2.5.2.40260, 2.5.2.40422, 2.5.2.40488, 2.5.2.40617, 2.5.2.40892, 2.5.2.41446, 2.5.2.41510
@@ -422,4 +423,26 @@ AwardConditionID<32>
 MaxQtyWorldStateID<32>
 RechargingAmountPerCycle<u32>
 RechargingCycleDurationMS<u32>
+Flags<32>[2]
+
+LAYOUT CAB92B2B
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+CategoryID<32>
+InventoryIconFileID<32>
+SpellWeight<u32>
+SpellCategory<u8>
+MaxQty<u32>
+MaxEarnablePerWeek<u32>
+Quality<8>
+FactionID<32>
+ItemGroupSoundsID<32>
+XpQuestDifficulty<32>
+AwardConditionID<32>
+MaxQtyWorldStateID<32>
+RechargingAmountPerCycle<u32>
+RechargingCycleDurationMS<u32>
+Field_11_0_0_54210_016
 Flags<32>[2]

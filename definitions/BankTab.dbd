@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int Money?
+int BankType? // 0 = Character, 1 = Guild, 2 = Account
+int PurchasedBankTabs? // Could be OrderIndex as well, not too sure.
+int<PlayerCondition::ID> PlayerConditionID?
+
+LAYOUT 3AB20DDC
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+Money<u64>
+BankType<u8>
+PurchasedBankTabs<8>
+PlayerConditionID<32>

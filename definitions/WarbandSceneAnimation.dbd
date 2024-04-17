@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int<SpellVisualKit::ID> SpellVisualKitID?
+int Event? // Used by PlayRandomAnimation(characterIndex, event)
+int<AnimKit::ID> AnimKitID? // Looks to be AnimKit::ID
+int Field_11_0_0_54210_003?
+float Field_11_0_0_54210_004?
+int Field_11_0_0_54210_005?
+
+LAYOUT ACAD466D
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+SpellVisualKitID<32>
+Event<32>
+AnimKitID<32>
+Field_11_0_0_54210_003<32>
+Field_11_0_0_54210_004
+Field_11_0_0_54210_005<32>[2]

@@ -88,3 +88,11 @@ Value<32>[4]
 $relation$ParentItemBonusListID<u16>
 Type<u8>
 OrderIndex<u8>
+
+LAYOUT 1C0E3CF4
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+Value<32>[4]
+$relation$ParentItemBonusListID<u16>
+Type<u8>
+OrderIndex<u8>

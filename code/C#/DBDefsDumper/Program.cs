@@ -1021,6 +1021,8 @@ namespace DBDefsDumper
                     case Name.UNK_BOOL_601dbc_x3a:
                     case Name.UNK_BOOL_601dbc_x3b:
                     case Name.UNK_FLAGS_601_x48_421:
+                    case Name.UNK_BOOL_11DB2_x1C:
+                    case Name.UNK_BOOL_11DB2_x1D:
                         bin.ReadByte();
                         break;
                     default:

@@ -118,3 +118,14 @@ LabelID<32>
 Flags<u32>
 PlayerConditionID<u32>
 $noninline,relation$ItemContextPickerID<32>
+
+LAYOUT 7378DD32
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+ItemCreationContext<u8>
+OrderIndex<u8>
+PVal<32>
+LabelID<32>
+Flags<u32>
+PlayerConditionID<u32>
+$noninline,relation$ItemContextPickerID<32>

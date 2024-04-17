@@ -7,6 +7,7 @@ int<MythicPlusSeason::ID> MythicPlusSeasonID
 int<PvpSeason::ID> PvPSeasonID
 int<ItemBonusTree::ID> SrcItemBonusTreeID
 int ItemBonusTreeGroupID?
+int Field_11_0_0_54210_003? // SeasonID?
 
 LAYOUT 95841908, D948D3F0
 BUILD 10.0.0.43342
@@ -59,4 +60,13 @@ Type<8>
 Value<32>
 MythicPlusSeasonID<32>
 PvPSeasonID<32>
+$noninline,relation$SrcItemBonusTreeID<32>
+
+LAYOUT 177FD3C0
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+ItemBonusTreeGroupID<32>
+DstItemBonusTreeID<32>
+Value<32>
+Field_11_0_0_54210_003<32>
 $noninline,relation$SrcItemBonusTreeID<32>

@@ -221,3 +221,23 @@ DirectionType<u8>
 MovementType<u8>
 AttenuationType<8>
 $noninline,relation$CameraEffectID<32>
+
+LAYOUT 027A611A
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+OrderIndex<u8>
+AmplitudeCurveID<u32>
+Duration
+Delay
+Phase
+Amplitude
+AmplitudeB
+Frequency
+RadiusMin
+RadiusMax
+Flags<32>
+EffectType<8>
+DirectionType<u8>
+MovementType<32>
+AttenuationType<8>
+$noninline,relation$CameraEffectID<32>

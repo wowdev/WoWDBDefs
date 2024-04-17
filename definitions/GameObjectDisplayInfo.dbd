@@ -12,6 +12,7 @@ string ModelName
 int AlternateDisplayType? // 1 = creature, 2 = item
 int<CreatureDisplayInfo::ID> ClientCreatureDisplayInfoID?
 int<Item::ID> ClientItemID?
+int Field_11_0_0_54210_008?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.0.5991
@@ -179,3 +180,16 @@ OverrideNameScale
 AlternateDisplayType<32>
 ClientCreatureDisplayInfoID<32>
 ClientItemID<32>
+
+LAYOUT 525AD514
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+GeoBox[6]
+FileDataID<32>
+ObjectEffectPackageID<16>
+OverrideLootEffectScale
+OverrideNameScale
+AlternateDisplayType<32>
+ClientCreatureDisplayInfoID<32>
+ClientItemID<32>
+Field_11_0_0_54210_008<u16>

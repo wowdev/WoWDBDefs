@@ -37,6 +37,9 @@ int Field_2_1_0_6692_015?
 int Field_2_1_0_6692_016?
 int Field_2_1_0_6692_017?
 int Field_2_1_0_6692_018?
+int Field_11_0_0_54210_024?
+float Field_11_0_0_54210_025?
+int Field_11_0_0_54210_026?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -600,4 +603,35 @@ DissolveEffectID<32>
 Gender<8>
 DissolveOutEffectID<32>
 CreatureModelMinLod<8>
+TextureVariationFileDataID<32>[4]
+
+LAYOUT 668AA58A
+BUILD 11.0.0.54210
+$id$ID<32>
+ModelID<u16>
+SoundID<u16>
+SizeClass<8>
+CreatureModelScale
+CreatureModelAlpha<u8>
+BloodID<u8>
+ExtendedDisplayInfoID<32>
+NPCSoundID<u16>
+ParticleColorID<u16>
+PortraitCreatureDisplayInfoID<32>
+PortraitTextureFileDataID<32>
+ObjectEffectPackageID<u16>
+AnimReplacementSetID<u16>
+Flags<32>
+StateSpellVisualKitID<32>
+PlayerOverrideScale
+PetInstanceScale
+UnarmedWeaponType<8>
+MountPoofSpellVisualKitID<32>
+DissolveEffectID<32>
+Gender<8>
+DissolveOutEffectID<32>
+CreatureModelMinLod<8>
+Field_11_0_0_54210_024<u16>
+Field_11_0_0_54210_025
+Field_11_0_0_54210_026<u16>
 TextureVariationFileDataID<32>[4]

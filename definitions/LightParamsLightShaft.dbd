@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int<LightShaft::ID> LightShaftID?
+int<LightData::ID> LightDataID?
+int<LightParams::ID> LightParamsID?
+
+LAYOUT 35413B8F
+BUILD 11.0.0.54210
+$noninline,id$ID<32>
+LightShaftID<32>
+LightDataID<32>
+$noninline,relation$LightParamsID<32>

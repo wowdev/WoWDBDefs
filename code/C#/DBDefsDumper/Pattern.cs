@@ -169,5 +169,7 @@ namespace DBDefsDumper
         public const string UNK_BOOL_601dbc_x39 = "unkown bool x39 6.0.1";
         public const string UNK_BOOL_601dbc_x3a = "unkown bool x3a 6.0.1, always false";
         public const string UNK_BOOL_601dbc_x3b = "unkown bool x3b 6.0.1";
+        public const string UNK_BOOL_11DB2_x1C = "unknown bool x1C 11.0.0";
+        public const string UNK_BOOL_11DB2_x1D = "unknown bool x1D 11.0.0";
     }
 }

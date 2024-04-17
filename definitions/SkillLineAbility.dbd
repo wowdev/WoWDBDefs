@@ -454,3 +454,23 @@ NumSkillUps<8>
 UniqueBit<16>
 TradeSkillCategoryID<16>
 SkillupSkillLineID<16>
+
+LAYOUT 96F986B8
+BUILD 11.0.0.54210
+RaceMask<64>
+AbilityVerb_lang
+AbilityAllVerb_lang
+$id$ID<32>
+$relation$SkillLine<16>
+Spell<32>
+MinSkillLineRank<16>
+ClassMask<32>
+SupercedesSpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<16>
+TrivialSkillLineRankLow<16>
+Flags<32>
+NumSkillUps<8>
+UniqueBit<16>
+TradeSkillCategoryID<16>
+SkillupSkillLineID<16>
