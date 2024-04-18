@@ -7,7 +7,7 @@ int<SpellVisualKit::ID> Field_10_0_0_44795_003? // "speed 1", "speed 2", "speed 
 int Flags? // &1: OneShot
 int<Spell::ID> SpellID?
 int<SpellVisualKit::ID> Field_10_0_0_44795_006? // full screen wind?
-int Field_10_0_0_45232_007?
+int<Spell::ID> Field_10_0_0_45232_007?
 int DefaultBlendIn?
 int DefaultBlendOut?
 int Field_10_1_7_50442_006?
