@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<SpellVisualKit::ID> SpellVisualKitID?
-int Event? // Used by PlayRandomAnimation(characterIndex, event)
+int Event? // CharacterSelectionConstants.WarbandSceneAnimationEvent, 0: StartingPose, 1: Idle, 2: Mouseover, 3: Select, 4: Deselect, 5: Insert, 6: EnterWorld, 7: Spin, 8: Poke
 int<AnimKit::ID> AnimKitID? // Looks to be AnimKit::ID
 int Field_11_0_0_54210_003?
 float Field_11_0_0_54210_004?
