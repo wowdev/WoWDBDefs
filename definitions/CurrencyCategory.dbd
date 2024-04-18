@@ -3,7 +3,7 @@ int ID
 int Flags
 locstring Name_lang
 int ExpansionID
-int Field_11_0_0_54210_003?
+int<CurrencyCategory::ID> ParentCategoryID?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -100,4 +100,4 @@ $noninline,id$ID<32>
 Name_lang
 Flags<32>
 ExpansionID<u8>
-Field_11_0_0_54210_003<32>
+ParentCategoryID<32>
