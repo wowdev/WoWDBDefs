@@ -17,6 +17,23 @@ float VolumeVariationMinus
 float VolumeVariationPlus
 int Field_7_3_0_24473_008?
 int SoundMixGroupID?
+int Field_4_4_0_54339_000?
+int Field_4_4_0_54339_001?
+float Field_4_4_0_54339_002?
+int Field_4_4_0_54339_003?
+float Field_4_4_0_54339_004?
+float Field_4_4_0_54339_005?
+int Field_4_4_0_54339_006?
+int Field_4_4_0_54339_007?
+float Field_4_4_0_54339_008?
+float Field_4_4_0_54339_009?
+float Field_4_4_0_54339_010?
+float Field_4_4_0_54339_011?
+int Field_4_4_0_54339_012?
+float Field_4_4_0_54339_013?
+int Field_4_4_0_54339_014?
+int Field_4_4_0_54339_015?
+int Field_4_4_0_54339_016?
 
 LAYOUT 972A2F98
 BUILD 1.13.0.28211
@@ -108,6 +125,26 @@ PitchAdjust
 BusOverwriteID<u16>
 MaxInstances<u8>
 SoundMixGroupID<u32>
+
+LAYOUT 5BA5D1BB
+BUILD 4.4.0.54339
+$id$Field_4_4_0_54339_000<32>
+Field_4_4_0_54339_001<u8>
+Field_4_4_0_54339_002
+Field_4_4_0_54339_003<32>
+Field_4_4_0_54339_004
+Field_4_4_0_54339_005
+Field_4_4_0_54339_006<u8>
+Field_4_4_0_54339_007<u32>
+Field_4_4_0_54339_008
+Field_4_4_0_54339_009
+Field_4_4_0_54339_010
+Field_4_4_0_54339_011
+Field_4_4_0_54339_012<8>
+Field_4_4_0_54339_013
+Field_4_4_0_54339_014<u16>
+Field_4_4_0_54339_015<u8>
+Field_4_4_0_54339_016<u32>
 
 LAYOUT 0A51CACE
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

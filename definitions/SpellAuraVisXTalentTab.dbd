@@ -4,7 +4,7 @@ int<SpellAuraVisibility::ID> SpellAuraVisibilityID?
 int<TalentTab::ID> TalentTabID?
 
 LAYOUT BE816056
-BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217
+BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339
 $noninline,id$ID<32>
 SpellAuraVisibilityID<16>
 $noninline,relation$TalentTabID<32>
