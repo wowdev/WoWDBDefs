@@ -34,7 +34,6 @@ int Field_4_4_0_53750_017?
 int Field_4_4_0_53750_018?
 int Field_4_4_0_53750_020?
 int Field_4_4_0_53750_021?
-int Field_11_0_0_54210_004?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -628,7 +627,7 @@ Name_lang
 HordeName_lang
 Duration<32>
 EffectArg<u32>[3]
-Field_11_0_0_54210_004<32>
+Flags<32>
 EffectScalingPoints[3]
 IconFileDataID<u32>
 ItemLevelMin<32>
@@ -637,9 +636,9 @@ TransmogUseConditionID<u32>
 TransmogCost<u32>
 EffectPointsMin<16>[3]
 ItemVisual<u16>
-Flags<u16>
 RequiredSkillID<u16>
 RequiredSkillRank<u16>
+ItemLevel<u16>
 Charges<u8>
 Effect<u8>[3]
 ScalingClass<8>
