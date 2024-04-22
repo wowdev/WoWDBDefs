@@ -2,9 +2,9 @@ COLUMNS
 int ID
 float Position?
 float LookAt?
-int<Map::ID> MapID?
-float Fov?
-int Field_11_0_0_54210_004?
+int<Map::ID> MapID
+float Fov // 95.5° = 100% zoom
+int TimeOfDay // minutes (1440 = 1 day)
 
 LAYOUT 31A069B9
 BUILD 11.0.0.54210, 11.0.0.54289, 11.0.0.54311
@@ -13,4 +13,4 @@ Position[3]
 LookAt[3]
 $relation$MapID<32>
 Fov
-Field_11_0_0_54210_004<32>
+TimeOfDay<32>
