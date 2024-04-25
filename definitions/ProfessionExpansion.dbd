@@ -3,11 +3,9 @@ int ID?
 int<SkillLine::ID> SkillLineID?
 int<Spell::ID> RecraftSpellID?
 int<Profession::ID> ProfessionID?
-int Field_11_0_0_54361_000?
 int Field_11_0_0_54361_001?
 int Field_11_0_0_54361_002?
 int Field_11_0_0_54361_003?
-int Field_11_0_0_54361_004?
 
 LAYOUT 686F6887
 BUILD 11.0.0.54210, 11.0.0.54289, 11.0.0.54311
@@ -18,8 +16,8 @@ $noninline,relation$ProfessionID<32>
 
 LAYOUT F7997270
 BUILD 11.0.0.54361
-$id$Field_11_0_0_54361_000<32>
+$id$ID<32>
 Field_11_0_0_54361_001<32>
 Field_11_0_0_54361_002<32>
 Field_11_0_0_54361_003<32>
-$noninline,relation$Field_11_0_0_54361_004<32>
+$noninline,relation$ProfessionID<32>
