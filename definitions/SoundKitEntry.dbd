@@ -4,6 +4,11 @@ int<FileData::ID> FileDataID
 int<SoundKit::ID> SoundKitID
 int Frequency
 float Volume
+int Field_11_0_0_54361_000?
+int Field_11_0_0_54361_001?
+int Field_11_0_0_54361_002?
+float Field_11_0_0_54361_003?
+int Field_11_0_0_54361_004?
 
 LAYOUT ADC0D817
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
@@ -89,3 +94,12 @@ $relation$SoundKitID<u32>
 FileDataID<32>
 Frequency<u8>
 Volume
+
+LAYOUT 67868919
+BUILD 11.0.0.54361
+$noninline,id$ID<32>
+$relation$Field_11_0_0_54361_000<u32>
+Field_11_0_0_54361_001<32>
+Field_11_0_0_54361_002<u8>
+Field_11_0_0_54361_003
+Field_11_0_0_54361_004<32>
