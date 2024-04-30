@@ -1,127 +1,204 @@
 COLUMNS
-int ID?
-int Field_6_0_1_18179_001?
-int Flags?
-float PriceRandomValue?
-float PriceVariance?
-int Field_6_0_1_18179_005?
-int BuyPrice?
-int SellPrice?
-int InventoryType?
-int Field_6_0_1_18179_009?
-int Field_6_0_1_18179_010?
-int ItemLevel?
-int RequiredLevel?
-int Field_6_0_1_18179_013?
-int Field_6_0_1_18179_014?
-int Field_6_0_1_18179_015?
-int Field_6_0_1_18179_016?
-int Field_6_0_1_18179_017?
-int Field_6_0_1_18179_018?
-int Field_6_0_1_18179_019?
-int Field_6_0_1_18179_020?
-int Field_6_0_1_18179_021?
-int ContainerSlots?
-int StatModifier_bonusStat?
-int Field_6_0_1_18179_024?
-int Field_6_0_1_18179_025?
-float Field_6_0_1_18179_026?
-int<ScalingStatDistribution::ID> ScalingStatDistributionID?
-int Field_6_0_1_18179_028?
-int Field_6_0_1_18179_029?
-float Field_6_0_1_18179_030?
-int Field_6_0_1_18179_031?
-string Display_lang?
-string Display1_lang?
-string Display2_lang?
-string Display3_lang?
-string Description_lang?
-int Field_6_0_1_18179_037?
-int Field_6_0_1_18179_038?
-int Field_6_0_1_18179_039?
-int Field_6_0_1_18179_040?
-int LockID?
-int Field_6_0_1_18179_042?
-int Field_6_0_1_18179_043?
-int Field_6_0_1_18179_044?
-int Field_6_0_1_18179_045?
-int Field_6_0_1_18179_046?
-int Field_6_0_1_18179_047?
-int Field_6_0_1_18179_048?
-int Field_6_0_1_18179_049?
-int Field_6_0_1_18179_050?
-int Field_6_0_1_18179_051?
-int Field_6_0_1_18179_052?
-int Field_6_0_1_18179_053?
-float Field_6_0_1_18179_054?
-int Field_6_0_1_18179_055?
-int Field_6_0_1_18179_056?
-int Field_6_0_1_18179_057?
-float DmgVariance?
-int Field_6_0_1_18179_059?
-int Field_6_0_1_18179_060?
-int Field_6_0_1_18179_061?
+int ID
+int Quality
+int Flags
+float PriceRandomValue
+float PriceVariance
+int BuyCount
+int BuyPrice
+int SellPrice
+int InventoryType
+int AllowableClass
+int AllowableRace
+int ItemLevel
+int RequiredLevel
+int RequiredSkill
+int RequiredSkillRank
+int RequiredSpell
+int RequiredHonorRank
+int RequiredCityRank
+int RequiredReputationFaction
+int RequiredReputationRank
+int MaxCount
+int Stackable
+int ContainerSlots
+int ItemStatType
+int ItemStatValue
+int ItemScalingValue
+float ItemSocketCostRate
+int<ScalingStatDistribution::ID> ScalingStatDistributionID
+int DamageType
+int Delay
+float RangedModRange
+int SpellId
+int SpellTrigger
+int SpellCharges
+int SpellCooldown
+int SpellCategory
+int SpellCategoryCooldown
+int Bonding
+string Display_lang
+string Display1_lang
+string Display2_lang
+string Display3_lang
+string Description_lang
+int PageText
+int LanguageID
+int<PageTextMaterial::ID> PageMaterialID
+int StartQuest
+int LockID
+int Material
+int Sheath
+int RandomProperty
+int RandomSuffix
+int ItemSet
+int Area
+int Map
+int BagFamily
+int TotemCategory
+int Color
+int Content
+int SocketBonus
+int GemProperties
+float ArmorDamageModifier
+int Duration
+int ItemLimitCategory
+int HolidayId
+float DmgVariance
+int CurrencySubstitutionId
+int CurrencySubstitutionCount
+int<ItemNameDescription::ID> ItemNameDescriptionID
 
-BUILD 6.0.1.18179
+BUILD 5.4.7.17898-5.4.8.18414
 $id$ID<32>
-Field_6_0_1_18179_001<32>
-Flags<32>[3]
+Quality<u32>
+Flags<u32>[3]
 PriceRandomValue
 PriceVariance
-Field_6_0_1_18179_005<32>
-BuyPrice<32>
-SellPrice<32>
-InventoryType<32>
-Field_6_0_1_18179_009<32>
-Field_6_0_1_18179_010<32>
-ItemLevel<32>
+BuyCount<u32>
+BuyPrice<u32>
+SellPrice<u32>
+InventoryType<u32>
+AllowableClass<32>
+AllowableRace<32>
+ItemLevel<u32>
 RequiredLevel<32>
-Field_6_0_1_18179_013<32>
-Field_6_0_1_18179_014<32>
-Field_6_0_1_18179_015<32>
-Field_6_0_1_18179_016<32>
-Field_6_0_1_18179_017<32>
-Field_6_0_1_18179_018<32>
-Field_6_0_1_18179_019<32>
-Field_6_0_1_18179_020<32>
-Field_6_0_1_18179_021<32>
-ContainerSlots<32>
-StatModifier_bonusStat<32>[10]
-Field_6_0_1_18179_024<32>[10]
-Field_6_0_1_18179_025<32>[10]
-Field_6_0_1_18179_026[10]
-ScalingStatDistributionID<32>
-Field_6_0_1_18179_028<32>
-Field_6_0_1_18179_029<32>
-Field_6_0_1_18179_030
-Field_6_0_1_18179_031<32>
+RequiredSkill<u32>
+RequiredSkillRank<u32>
+RequiredSpell<u32>
+RequiredHonorRank<u32>
+RequiredCityRank<u32>
+RequiredReputationFaction<u32>
+RequiredReputationRank<u32>
+MaxCount<u32>
+Stackable<u32>
+ContainerSlots<u32>
+ItemStatType<32>[10]
+ItemStatValue<32>[10]
+ItemScalingValue<32>[10]
+ItemSocketCostRate[10]
+ScalingStatDistributionID<u32>
+DamageType<u32>
+Delay<u32>
+RangedModRange
+SpellId<32>[5]
+SpellTrigger<32>[5]
+SpellCharges<32>[5]
+SpellCooldown<32>[5]
+SpellCategory<32>[5]
+SpellCategoryCooldown<32>[5]
+Bonding<u32>
 Display_lang
 Display1_lang
 Display2_lang
 Display3_lang
 Description_lang
-Field_6_0_1_18179_037<32>
-Field_6_0_1_18179_038<32>
-Field_6_0_1_18179_039<32>
-Field_6_0_1_18179_040<32>
-LockID<32>
-Field_6_0_1_18179_042<32>
-Field_6_0_1_18179_043<32>
-Field_6_0_1_18179_044<32>
-Field_6_0_1_18179_045<32>
-Field_6_0_1_18179_046<32>
-Field_6_0_1_18179_047<32>
-Field_6_0_1_18179_048<32>
-Field_6_0_1_18179_049<32>
-Field_6_0_1_18179_050<32>
-Field_6_0_1_18179_051<32>[3]
-Field_6_0_1_18179_052<32>
-Field_6_0_1_18179_053<32>
-Field_6_0_1_18179_054
-Field_6_0_1_18179_055<32>
-Field_6_0_1_18179_056<32>
-Field_6_0_1_18179_057<32>
+PageText<u32>
+LanguageID<u32>
+PageMaterialID<u32>
+StartQuest<u32>
+LockID<u32>
+Material<32>
+Sheath<u32>
+RandomProperty<u32>
+RandomSuffix<u32>
+ItemSet<u32>
+Area<u32>
+Map<u32>
+BagFamily<u32>
+TotemCategory<u32>
+Color<u32>[3]
+Content<u32>[3]
+SocketBonus<32>
+GemProperties<u32>
+ArmorDamageModifier
+Duration<u32>
+ItemLimitCategory<u32>
+HolidayId<u32>
 DmgVariance
-Field_6_0_1_18179_059<32>
-Field_6_0_1_18179_060<32>
-Field_6_0_1_18179_061<32>
+CurrencySubstitutionId<32>
+CurrencySubstitutionCount<32>
+
+BUILD 6.0.1.18179
+$id$ID<32>
+Quality<32>
+Flags<32>[3]
+PriceRandomValue
+PriceVariance
+BuyCount<32>
+BuyPrice<32>
+SellPrice<32>
+InventoryType<32>
+AllowableClass<32>
+AllowableRace<32>
+ItemLevel<32>
+RequiredLevel<32>
+RequiredSkill<32>
+RequiredSkillRank<32>
+RequiredSpell<32>
+RequiredHonorRank<32>
+RequiredCityRank<32>
+RequiredReputationFaction<32>
+RequiredReputationRank<32>
+MaxCount<32>
+Stackable<32>
+ContainerSlots<32>
+ItemStatType<32>[10]
+ItemStatValue<32>[10]
+ItemScalingValue<32>[10]
+ItemSocketCostRate[10]
+ScalingStatDistributionID<32>
+DamageType<32>
+Delay<32>
+RangedModRange
+Bonding<32>
+Display_lang
+Display1_lang
+Display2_lang
+Display3_lang
+Description_lang
+PageText<32>
+LanguageID<32>
+PageMaterialID<32>
+StartQuest<32>
+LockID<32>
+Material<32>
+Sheath<32>
+RandomProperty<32>
+RandomSuffix<32>
+ItemSet<32>
+Area<32>
+Map<32>
+BagFamily<32>
+TotemCategory<32>
+Color<32>[3]
+SocketBonus<32>
+GemProperties<32>
+ArmorDamageModifier
+Duration<32>
+ItemLimitCategory<32>
+HolidayId<32>
+DmgVariance
+CurrencySubstitutionId<32>
+CurrencySubstitutionCount<32>
+ItemNameDescriptionID<32>
