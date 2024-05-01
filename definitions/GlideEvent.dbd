@@ -11,7 +11,7 @@ int<Spell::ID> Field_10_0_0_45232_007?
 int DefaultBlendIn?
 int DefaultBlendOut?
 int Field_10_1_7_50442_006?
-int Field_11_0_0_54210_002?
+int AnimKitID?
 
 LAYOUT 6664636C
 BUILD 10.0.0.44795, 10.0.0.44840, 10.0.0.44876, 10.0.0.44895, 10.0.0.44933, 10.0.0.44999, 10.0.0.45025, 10.0.0.45093, 10.0.0.45141, 10.0.0.45193
@@ -79,7 +79,7 @@ BUILD 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
 $noninline,id$ID<32>
 AfterTimeInAnimation
 AnimationDataID<32>
-Field_11_0_0_54210_002<32>
+AnimKitID<32>
 Field_10_0_0_44795_002<32>
 Field_10_0_0_44795_003<32>
 Flags<32>
@@ -95,7 +95,7 @@ BUILD 11.0.0.54464
 $noninline,id$ID<32>
 AfterTimeInAnimation
 AnimationDataID<32>
-Field_11_0_0_54210_002<32>
+AnimKitID<32>
 Field_10_0_0_44795_002<32>
 Field_10_0_0_44795_003<32>
 Flags<32>

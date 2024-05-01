@@ -4,7 +4,7 @@ int<FileData::ID> FileDataID
 int<SoundKit::ID> SoundKitID
 int Frequency
 float Volume
-int Field_11_0_0_54361_004?
+int PlayerConditionID? // Very unconfirmed, but matches with test spell
 
 LAYOUT ADC0D817
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
@@ -98,7 +98,7 @@ $relation$SoundKitID<u32>
 FileDataID<32>
 Frequency<u8>
 Volume
-Field_11_0_0_54361_004<32>
+PlayerConditionID<32>
 
 LAYOUT 8F82FF7D
 BUILD 11.0.0.54464
@@ -107,4 +107,4 @@ $relation$SoundKitID<u32>
 FileDataID<32>
 Frequency<u8>
 Volume
-Field_11_0_0_54361_004<32>
+PlayerConditionID<32>

@@ -3,7 +3,7 @@ int ID
 int<CreatureModelData::ID> CreatureModelDataID?
 int<CreatureDisplayInfo::ID> PortraitCreatureDisplayInfoID?
 int<PlayerCondition::ID> PlayerConditionID?
-int TextureVariationFileDataID?
+int<FileData::ID> TextureVariationFileDataID?
 
 LAYOUT D2DC31FE
 BUILD 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361

@@ -37,7 +37,7 @@ int Field_2_1_0_6692_015?
 int Field_2_1_0_6692_016?
 int Field_2_1_0_6692_017?
 int Field_2_1_0_6692_018?
-int Field_11_0_0_54210_024?
+int<ConditionalCreatureModelData::ID> ConditionalCreatureModelID?
 float Field_11_0_0_54210_025?
 int Field_11_0_0_54210_026?
 
@@ -631,7 +631,7 @@ DissolveEffectID<32>
 Gender<8>
 DissolveOutEffectID<32>
 CreatureModelMinLod<8>
-Field_11_0_0_54210_024<u16>
+ConditionalCreatureModelID<u16>
 Field_11_0_0_54210_025
 Field_11_0_0_54210_026<u16>
 TextureVariationFileDataID<32>[4]
@@ -662,7 +662,7 @@ DissolveEffectID<32>
 Gender<8>
 DissolveOutEffectID<32>
 CreatureModelMinLod<8>
-Field_11_0_0_54210_024<u16>
+ConditionalCreatureModelID<u16>
 Field_11_0_0_54210_025
 Field_11_0_0_54210_026<u16>
 TextureVariationFileDataID<32>[4]
