@@ -30,7 +30,7 @@ int<ScalingStatDistribution::ID> ScalingStatDistributionID
 int DamageType
 int Delay
 float RangedModRange
-int SpellId
+int SpellID
 int SpellTrigger
 int SpellCharges
 int SpellCooldown
@@ -63,9 +63,9 @@ int GemProperties
 float ArmorDamageModifier
 int Duration
 int ItemLimitCategory
-int HolidayId
+int HolidayID
 float DmgVariance
-int CurrencySubstitutionId
+int CurrencySubstitutionID
 int CurrencySubstitutionCount
 int<ItemNameDescription::ID> ItemNameDescriptionID
 
@@ -101,7 +101,7 @@ ScalingStatDistributionID<u32>
 DamageType<u32>
 Delay<u32>
 RangedModRange
-SpellId<32>[5]
+SpellID<32>[5]
 SpellTrigger<32>[5]
 SpellCharges<32>[5]
 SpellCooldown<32>[5]
@@ -134,9 +134,9 @@ GemProperties<u32>
 ArmorDamageModifier
 Duration<u32>
 ItemLimitCategory<u32>
-HolidayId<u32>
+HolidayID<u32>
 DmgVariance
-CurrencySubstitutionId<32>
+CurrencySubstitutionID<32>
 CurrencySubstitutionCount<32>
 
 BUILD 6.0.1.18179
@@ -197,8 +197,8 @@ GemProperties<32>
 ArmorDamageModifier
 Duration<32>
 ItemLimitCategory<32>
-HolidayId<32>
+HolidayID<32>
 DmgVariance
-CurrencySubstitutionId<32>
+CurrencySubstitutionID<32>
 CurrencySubstitutionCount<32>
 ItemNameDescriptionID<32>
