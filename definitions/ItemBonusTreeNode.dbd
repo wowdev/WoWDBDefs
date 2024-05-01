@@ -161,3 +161,16 @@ IblGroupPointsModSetID<32>
 MinMythicPlusLevel<32>
 MaxMythicPlusLevel<32>
 $noninline,relation$ParentItemBonusTreeID<32>
+
+LAYOUT 6304AE19
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+ItemContext<u8>
+ChildItemBonusTreeID<u16>
+ChildItemBonusListID<u16>
+ChildItemLevelSelectorID<u16>
+ChildItemBonusListGroupID<32>
+IblGroupPointsModSetID<32>
+MinMythicPlusLevel<32>
+MaxMythicPlusLevel<32>
+$noninline,relation$ParentItemBonusTreeID<32>

@@ -216,3 +216,17 @@ ItemID<32>[5]
 ItemCount<u16>[5]
 CurrencyID<u16>[5]
 CurrencyCount<u32>[5]
+
+LAYOUT D2894EC8
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+RequiredArenaRating<u16>
+ArenaBracket<8>
+Flags<u8>
+MinFactionID<u8>
+MinReputation<32>
+RequiredAchievement<u8>
+ItemID<32>[5]
+ItemCount<u16>[5]
+CurrencyID<u16>[5]
+CurrencyCount<u32>[5]

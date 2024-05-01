@@ -155,3 +155,18 @@ Fail_asset<32>
 Flags<32>
 Eligibility_world_state_ID<16>
 Eligibility_world_state_value<8>
+
+LAYOUT 531EB93F
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Type<16>
+Asset<32>
+Modifier_tree_ID<u32>
+Start_event<32>
+Start_asset<32>
+Start_timer<u16>
+Fail_event<32>
+Fail_asset<32>
+Flags<32>
+Eligibility_world_state_ID<16>
+Eligibility_world_state_value<8>

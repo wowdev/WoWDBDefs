@@ -103,3 +103,11 @@ ChrSpecID<u16>
 SpellID<u32>
 Threshold<u8>
 $noninline,relation$ItemSetID<32>
+
+LAYOUT CDEF234D
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+ChrSpecID<u16>
+SpellID<u32>
+Threshold<u8>
+$noninline,relation$ItemSetID<32>

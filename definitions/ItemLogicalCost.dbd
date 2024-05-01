@@ -23,3 +23,11 @@ InventoryTypeSlotMask<32>
 Flags<32>
 ItemExtendedCostID<32>
 $noninline,relation$ItemLogicalCostGroupID<32>
+
+LAYOUT 8BFEFC5C
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+InventoryTypeSlotMask<32>
+Flags<32>
+ItemExtendedCostID<32>
+$noninline,relation$ItemLogicalCostGroupID<32>

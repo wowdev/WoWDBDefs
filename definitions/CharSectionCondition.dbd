@@ -78,3 +78,13 @@ VariationIndex<8>
 ColorIndex<8>
 AchievementID<32>
 $noninline,relation$RaceID<32>
+
+LAYOUT 0EC8D97C
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+BaseSection<8>
+Sex<8>
+VariationIndex<8>
+ColorIndex<8>
+AchievementID<32>
+$noninline,relation$RaceID<32>

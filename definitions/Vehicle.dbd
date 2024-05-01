@@ -547,3 +547,25 @@ MissileTargetingID<32>
 VehiclePOITypeID<u16>
 SeatID<u16>[8]
 PowerDisplayID<u16>[3]
+
+LAYOUT EF5C7D41
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Flags<32>
+FlagsB<32>
+TurnSpeed
+PitchSpeed
+PitchMin
+PitchMax
+MouseLookOffsetPitch
+CameraFadeDistScalarMin
+CameraFadeDistScalarMax
+CameraPitchOffset
+FacingLimitRight
+FacingLimitLeft
+CameraYawOffset
+VehicleUIIndicatorID<u16>
+MissileTargetingID<32>
+VehiclePOITypeID<u16>
+SeatID<u16>[8]
+PowerDisplayID<u16>[3]

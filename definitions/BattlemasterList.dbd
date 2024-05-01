@@ -492,3 +492,24 @@ Flags<32>
 IconFileDataID<32>
 Required_Player_Condition_ID<32>
 MapID<16>[16]
+
+LAYOUT 73A1586F
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+GameType_lang
+ShortDescription_lang
+LongDescription_lang
+InstanceType<8>
+MinLevel<8>
+MaxLevel<8>
+RatedPlayers<8>
+MinPlayers<8>
+MaxPlayers<32>
+GroupsAllowed<8>
+MaxGroupSize<8>
+HolidayWorldState<16>
+Flags<32>
+IconFileDataID<32>
+Required_Player_Condition_ID<32>
+MapID<16>[16]

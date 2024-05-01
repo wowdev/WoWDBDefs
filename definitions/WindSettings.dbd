@@ -119,3 +119,17 @@ MaxStepMag
 Frequency
 Duration
 Flags<u8>
+
+LAYOUT 5DE91550
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+BaseDir[3]
+VarianceDir[3]
+MaxStepDir[3]
+BaseMag
+VarianceMagOver
+VarianceMagUnder
+MaxStepMag
+Frequency
+Duration
+Flags<u8>

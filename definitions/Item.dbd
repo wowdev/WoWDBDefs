@@ -426,3 +426,18 @@ ItemGroupSoundsID<u8>
 ContentTuningID<32>
 ModifiedCraftingReagentItemID<32>
 CraftingQualityID<32>
+
+LAYOUT D43146DA
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+ClassID<u8>
+SubclassID<u8>
+Material<u8>
+InventoryType<8>
+SheatheType<u8>
+Sound_override_subclassID<8>
+IconFileDataID<32>
+ItemGroupSoundsID<u8>
+ContentTuningID<32>
+ModifiedCraftingReagentItemID<32>
+CraftingQualityID<32>

@@ -730,3 +730,23 @@ DamageNumberDelay<u16>
 LowViolenceSpellVisualID<u32>
 RaidSpellVisualMissileSetID<u32>
 ReducedUnexpectedCameraMovementSpellVisualID<32>
+
+LAYOUT FB411669
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+MissileCastOffset[3]
+MissileImpactOffset[3]
+AnimEventSoundID<u32>
+Flags<32>
+MissileAttachment<8>
+MissileDestinationAttachment<8>
+MissileCastPositionerID<u32>
+MissileImpactPositionerID<u32>
+MissileTargetingKit<32>
+HostileSpellVisualID<u32>
+CasterSpellVisualID<u32>
+SpellVisualMissileSetID<u16>
+DamageNumberDelay<u16>
+LowViolenceSpellVisualID<u32>
+RaidSpellVisualMissileSetID<u32>
+ReducedUnexpectedCameraMovementSpellVisualID<32>

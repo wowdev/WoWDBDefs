@@ -233,3 +233,22 @@ IconFileDataID<32>
 Flags<32>
 IconFlags<32>
 DifficultyMask<8>
+
+LAYOUT CB88312B
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Title_lang
+BodyText_lang
+JournalEncounterID<u16>
+OrderIndex<u8>
+ParentSectionID<u16>
+FirstChildSectionID<u16>
+NextSiblingSectionID<u16>
+Type<u8>
+IconCreatureDisplayInfoID<u32>
+UiModelSceneID<32>
+SpellID<32>
+IconFileDataID<32>
+Flags<32>
+IconFlags<32>
+DifficultyMask<8>

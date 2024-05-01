@@ -108,3 +108,11 @@ VirtualSeatIndex<u8>
 XPos
 YPos
 $noninline,relation$VehicleUIIndicatorID<32>
+
+LAYOUT 1A05C81D
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+VirtualSeatIndex<u8>
+XPos
+YPos
+$noninline,relation$VehicleUIIndicatorID<32>

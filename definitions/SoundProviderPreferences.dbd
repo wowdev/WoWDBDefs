@@ -303,3 +303,30 @@ EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
 Flags<u16>
+
+LAYOUT 8FF22D98
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Description
+EAXEnvironmentSelection<8>
+EAXDecayTime
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2Room<16>
+EAX2RoomHF<16>
+EAX2DecayHFRatio
+EAX2Reflections<16>
+EAX2ReflectionsDelay
+EAX2Reverb<16>
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3RoomLF<8>
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference
+Flags<u16>

@@ -125,3 +125,14 @@ AbilityCount<u8>
 TraitCount<u8>
 ShipmentXP<u16>
 ClassSpecID<u32>
+
+LAYOUT 5DE27929
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Quality<32>
+XpToNextQuality<u32>
+GarrFollowerTypeID<8>
+AbilityCount<u8>
+TraitCount<u8>
+ShipmentXP<u16>
+ClassSpecID<u32>

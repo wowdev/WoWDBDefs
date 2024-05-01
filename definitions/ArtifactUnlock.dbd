@@ -102,3 +102,12 @@ PowerRank<u8>
 ItemBonusListID<u16>
 PlayerConditionID<u32>
 $noninline,relation$ArtifactID<32>
+
+LAYOUT A71AB31F
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+PowerID<u32>
+PowerRank<u8>
+ItemBonusListID<u16>
+PlayerConditionID<u32>
+$noninline,relation$ArtifactID<32>

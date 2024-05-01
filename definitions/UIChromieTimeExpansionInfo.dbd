@@ -140,3 +140,20 @@ ContentTuningID<32>
 CompletedPlayerConditionID<32>
 SortPriority<32>
 RecommendPlayerConditionID<32>
+
+LAYOUT 3425F0FF
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+AllianceOverrideDesc_lang
+HordeOverrideDesc_lang
+SpellID<32>
+MapAtlasElement<32>
+PreviewAtlasElement<32>
+ShowPlayerConditionID<32>
+ExpansionMask<32>
+ContentTuningID<32>
+CompletedPlayerConditionID<32>
+SortPriority<32>
+RecommendPlayerConditionID<32>

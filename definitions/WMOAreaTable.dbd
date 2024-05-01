@@ -267,3 +267,21 @@ IntroSound<u16>
 UwIntroSound<u16>
 AreaTableID<u16>
 Flags<u8>
+
+LAYOUT 58247DE7
+BUILD 11.0.0.54464
+AreaName_lang
+$id$ID<32>
+$relation$WMOID<u16>
+NameSetID<u8>
+WMOGroupID<32>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+AmbienceID<u16>
+UwAmbience<u16>
+ZoneMusic<u16>
+UwZoneMusic<u32>
+IntroSound<u16>
+UwIntroSound<u16>
+AreaTableID<u16>
+Flags<u8>

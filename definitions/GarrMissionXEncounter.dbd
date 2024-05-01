@@ -128,3 +128,12 @@ GarrEncounterSetID<u32>
 OrderIndex<u8>
 BoardIndex<8>
 $noninline,relation$GarrMissionID<32>
+
+LAYOUT 08428AE4
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+GarrEncounterID<u32>
+GarrEncounterSetID<u32>
+OrderIndex<u8>
+BoardIndex<8>
+$noninline,relation$GarrMissionID<32>

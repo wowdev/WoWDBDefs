@@ -239,3 +239,19 @@ PlayerConditionID<32>
 FeatureTypeIndex<u8>
 FeatureSubtypeIndex<u8>
 CurrencyID<32>
+
+LAYOUT CD2EF0B5
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Title_lang
+GarrTypeID<8>
+ClassID<32>
+MaxTiers<8>
+UiOrder<8>
+Flags<32>
+UiTextureKitID<u16>
+GarrTalentTreeType<32>
+PlayerConditionID<32>
+FeatureTypeIndex<u8>
+FeatureSubtypeIndex<u8>
+CurrencyID<32>

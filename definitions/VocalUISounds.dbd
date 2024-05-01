@@ -98,3 +98,11 @@ VocalUIEnum<u8>
 RaceID<u8>
 ClassID<u8>
 NormalSoundID<u32>[2]
+
+LAYOUT A68C221C
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+VocalUIEnum<u8>
+RaceID<u8>
+ClassID<u8>
+NormalSoundID<u32>[2]

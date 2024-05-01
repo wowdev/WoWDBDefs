@@ -140,3 +140,12 @@ SetFlags<u32>
 RequiredSkill<u32>
 RequiredSkillRank<u16>
 ItemID<u32>[17]
+
+LAYOUT EEB090F4
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+SetFlags<u32>
+RequiredSkill<u32>
+RequiredSkillRank<u16>
+ItemID<u32>[17]

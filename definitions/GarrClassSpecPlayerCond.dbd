@@ -99,3 +99,13 @@ PlayerConditionID<u32>
 IconFileDataID<32>
 FlavorGarrStringID<32>
 OrderIndex<u8>
+
+LAYOUT 5EB2C2BE
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+GarrClassSpecID<u32>
+PlayerConditionID<u32>
+IconFileDataID<32>
+FlavorGarrStringID<32>
+OrderIndex<u8>

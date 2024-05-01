@@ -516,3 +516,31 @@ CovenantID<32>
 Field_9_0_2_36206_022<32>
 Flags<32>[3]
 FiltCompletedQuest<u32>[3]
+
+LAYOUT C8D602DB
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+UniqueBitFlag<u16>
+ConditionID<u32>
+FiltActiveQuest<u32>
+FiltClasses<16>
+FiltCompletedQuestLogic<u32>
+FiltMaxFactionID<u32>
+FiltMaxFactionValue<u32>
+FiltMinFactionID<u32>
+FiltMinFactionValue<u32>
+FiltMinSkillID<u32>
+FiltMinSkillValue<u32>
+FiltNonActiveQuest<u32>
+BreadCrumbID<u32>
+StartItem<32>
+WorldStateExpressionID<32>
+QuestInfoID<u32>
+ContentTuningID<32>
+CovenantID<32>
+Field_9_0_2_36206_022<32>
+Flags<32>[3]
+FiltCompletedQuest<u32>[3]

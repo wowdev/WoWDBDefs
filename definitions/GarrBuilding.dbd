@@ -330,3 +330,31 @@ GarrAbilityID<u16>
 BonusGarrAbilityID<u16>
 GoldCost<u16>
 Flags<32>
+
+LAYOUT F2559D7C
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+HordeName_lang
+AllianceName_lang
+Description_lang
+Tooltip_lang
+GarrTypeID<8>
+BuildingType<u8>
+HordeGameObjectID<32>
+AllianceGameObjectID<32>
+GarrSiteID<32>
+UpgradeLevel<u8>
+BuildSeconds<32>
+CurrencyTypeID<u16>
+CurrencyQty<32>
+HordeUiTextureKitID<u16>
+AllianceUiTextureKitID<u16>
+IconFileDataID<32>
+AllianceSceneScriptPackageID<u16>
+HordeSceneScriptPackageID<u16>
+MaxAssignments<32>
+ShipmentCapacity<u8>
+GarrAbilityID<u16>
+BonusGarrAbilityID<u16>
+GoldCost<u16>
+Flags<32>

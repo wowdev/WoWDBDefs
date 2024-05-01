@@ -120,3 +120,12 @@ Region_ID<u16>
 Raidorigin<u32>
 Region_group_mask<u8>
 Challenge_origin<u32>
+
+LAYOUT 8CDAAC27
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Tag
+Region_ID<u16>
+Raidorigin<u32>
+Region_group_mask<u8>
+Challenge_origin<u32>

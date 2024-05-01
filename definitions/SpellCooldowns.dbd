@@ -128,3 +128,13 @@ RecoveryTime<32>
 StartRecoveryTime<32>
 AuraSpellID<32>
 $noninline,relation$SpellID<32>
+
+LAYOUT 1CD8296C
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+DifficultyID<u8>
+CategoryRecoveryTime<32>
+RecoveryTime<32>
+StartRecoveryTime<32>
+AuraSpellID<32>
+$noninline,relation$SpellID<32>

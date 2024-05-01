@@ -133,3 +133,18 @@ CollisionHull<32>
 Flags<u32>
 SpellVisualKitID<32>
 $noninline,relation$MultiPropertiesID<32>
+
+LAYOUT 63E1D6FB
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Offset[3]
+GameObjectID<32>
+StateIndex<u8>
+GameEventID<32>
+Facing
+TransitionInID<32>
+TransitionOutID<32>
+CollisionHull<32>
+Flags<u32>
+SpellVisualKitID<32>
+$noninline,relation$MultiPropertiesID<32>

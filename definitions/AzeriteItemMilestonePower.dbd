@@ -100,3 +100,11 @@ RequiredLevel<32>
 AzeritePowerID<32>
 AzeriteEssenceType<32>
 IsHeartEssenceUnlock<32>
+
+LAYOUT 4B01B39E
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+RequiredLevel<32>
+AzeritePowerID<32>
+AzeriteEssenceType<32>
+IsHeartEssenceUnlock<32>

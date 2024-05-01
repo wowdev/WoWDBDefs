@@ -85,3 +85,11 @@ CreatureDisplayInfoID<32>
 PlayerConditionID<u32>
 Field_11_0_0_54210_002<u16>
 $noninline,relation$MountID<32>
+
+LAYOUT C05B05EF
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+CreatureDisplayInfoID<32>
+PlayerConditionID<u32>
+Field_11_0_0_54210_002<u16>
+$noninline,relation$MountID<32>

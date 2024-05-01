@@ -109,3 +109,13 @@ PlaybackLimit<u8>
 Volume
 Priority<u8>
 PriorityPenalty<u8>
+
+LAYOUT 969A673E
+BUILD 11.0.0.54464
+$id$ID<32>
+$relation$SoundBusID<32>
+PlayerConditionID<u32>
+PlaybackLimit<u8>
+Volume
+Priority<u8>
+PriorityPenalty<u8>

@@ -35,3 +35,15 @@ CreatureID<32>
 AreaTableID<32>
 WMOGroupID<32>
 $noninline,relation$CollectableSourceInfoID<32>
+
+LAYOUT 1EC1925C
+BUILD 11.0.0.54464
+COMMENT table is sparse
+$noninline,id$ID<32>
+VendorMapID<32>
+VendorPosition[3]
+VendorItemID<32>
+CreatureID<32>
+AreaTableID<32>
+WMOGroupID<32>
+$noninline,relation$CollectableSourceInfoID<32>

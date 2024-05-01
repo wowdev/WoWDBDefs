@@ -119,3 +119,18 @@ PlayerSecondaryStat
 ArmorConstant
 CreatureSpellDamage
 $noninline,relation$Lvl<32>
+
+LAYOUT FD4F2D39
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+ExpansionID<32>
+CreatureHealth
+PlayerHealth
+CreatureAutoAttackDps
+CreatureArmor
+PlayerMana
+PlayerPrimaryStat
+PlayerSecondaryStat
+ArmorConstant
+CreatureSpellDamage
+$noninline,relation$Lvl<32>

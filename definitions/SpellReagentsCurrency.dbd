@@ -71,3 +71,10 @@ $noninline,id$ID<32>
 $relation$SpellID<32>
 CurrencyTypesID<u16>
 CurrencyCount<u16>
+
+LAYOUT F02FA4EB
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+$relation$SpellID<32>
+CurrencyTypesID<u16>
+CurrencyCount<u16>

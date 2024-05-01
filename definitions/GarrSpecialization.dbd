@@ -125,3 +125,14 @@ SpecType<u8>
 RequiredUpgradeLevel<u8>
 IconFileDataID<32>
 Param[2]
+
+LAYOUT 0A0EBC1C
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+Tooltip_lang
+BuildingType<u8>
+SpecType<u8>
+RequiredUpgradeLevel<u8>
+IconFileDataID<32>
+Param[2]

@@ -205,3 +205,16 @@ ModSpellAuraID<32>
 ReqMapID<16>
 PlayerConditionID<32>
 FlightCapabilityID<32>
+
+LAYOUT 791A3C76
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Flags<32>
+ReqRidingSkill<u16>
+ReqAreaID<u16>
+ReqSpellAuraID<u32>
+ReqSpellKnownID<32>
+ModSpellAuraID<32>
+ReqMapID<16>
+PlayerConditionID<32>
+FlightCapabilityID<32>

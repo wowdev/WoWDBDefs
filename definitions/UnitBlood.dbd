@@ -125,3 +125,13 @@ DefaultBloodSpurtID<u32>
 PlayerOmniCritBloodSpurtID<u32>
 PlayerOmniHitBloodSpurtID<u32>
 DefaultOmniBloodSpurtID<u32>
+
+LAYOUT 3BE373BC
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+PlayerCritBloodSpurtID<u32>
+PlayerHitBloodSpurtID<u32>
+DefaultBloodSpurtID<u32>
+PlayerOmniCritBloodSpurtID<u32>
+PlayerOmniHitBloodSpurtID<u32>
+DefaultOmniBloodSpurtID<u32>

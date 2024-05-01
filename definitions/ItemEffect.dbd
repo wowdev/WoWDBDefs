@@ -172,3 +172,15 @@ CategoryCoolDownMSec<32>
 SpellCategoryID<u16>
 SpellID<32>
 ChrSpecializationID<u16>
+
+LAYOUT 2CEB026E
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+LegacySlotIndex<u8>
+TriggerType<8>
+Charges<16>
+CoolDownMSec<32>
+CategoryCoolDownMSec<32>
+SpellCategoryID<u16>
+SpellID<32>
+ChrSpecializationID<u16>

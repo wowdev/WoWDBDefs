@@ -125,3 +125,14 @@ MaxLevel<u16>
 SkillRequired<u16>
 ExpansionID<8>
 $noninline,relation$Class<32>
+
+LAYOUT 5845A4AA
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Subclass<8>
+Quality<u8>
+MinLevel<u16>
+MaxLevel<u16>
+SkillRequired<u16>
+ExpansionID<8>
+$noninline,relation$Class<32>

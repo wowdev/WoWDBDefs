@@ -1115,3 +1115,31 @@ ZmpFileDataID<32>
 WdtFileDataID<32>
 NavigationMaxDistance<32>
 Flags<32>[3]
+
+LAYOUT ECAB3BDE
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
+Corpse[2]
+MapType<u8>
+InstanceType<8>
+ExpansionID<u8>
+AreaTableID<u16>
+LoadingScreenID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+TimeOffset<u8>
+MinimapIconScale
+CorpseMapID<16>
+MaxPlayers<u8>
+WindSettingsID<16>
+ZmpFileDataID<32>
+WdtFileDataID<32>
+NavigationMaxDistance<32>
+Flags<32>[3]

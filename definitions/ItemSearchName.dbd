@@ -272,3 +272,20 @@ RequiredSkillRank<u16>
 RequiredAbility<u32>
 ItemLevel<u16>
 Flags<32>[4]
+
+LAYOUT 9E24909B
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+AllowableRace<64>
+Display_lang
+OverallQualityID<u8>
+ExpansionID<32>
+MinFactionID<u16>
+MinReputation<32>
+AllowableClass<32>
+RequiredLevel<8>
+RequiredSkill<u16>
+RequiredSkillRank<u16>
+RequiredAbility<u32>
+ItemLevel<u16>
+Flags<32>[4]

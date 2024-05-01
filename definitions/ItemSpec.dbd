@@ -100,3 +100,13 @@ $relation$ItemType<u8>
 PrimaryStat<u8>
 SecondaryStat<u8>
 SpecializationID<u16>
+
+LAYOUT 83F3D113
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+MinLevel<u8>
+MaxLevel<u8>
+$relation$ItemType<u8>
+PrimaryStat<u8>
+SecondaryStat<u8>
+SpecializationID<u16>

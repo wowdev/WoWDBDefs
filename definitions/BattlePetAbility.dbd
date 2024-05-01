@@ -154,3 +154,14 @@ PetTypeEnum<8>
 Cooldown<u32>
 BattlePetVisualID<u16>
 Flags<u8>
+
+LAYOUT AAD491D2
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+IconFileDataID<32>
+PetTypeEnum<8>
+Cooldown<u32>
+BattlePetVisualID<u16>
+Flags<u8>

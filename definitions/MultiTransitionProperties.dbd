@@ -86,3 +86,12 @@ DurationMS<u32>
 Flags<u32>
 StartSpellVisualKitID<32>
 EndSpellVisualKitID<32>
+
+LAYOUT A20DA38D
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+TransitionType<u32>
+DurationMS<u32>
+Flags<u32>
+StartSpellVisualKitID<32>
+EndSpellVisualKitID<32>

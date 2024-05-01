@@ -104,3 +104,11 @@ BuffSpellID<32>
 PlayerConditionID<u32>
 OccurrenceValue<u32>
 $noninline,relation$ManagedWorldStateID<32>
+
+LAYOUT B8C3D344
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+BuffSpellID<32>
+PlayerConditionID<u32>
+OccurrenceValue<u32>
+$noninline,relation$ManagedWorldStateID<32>

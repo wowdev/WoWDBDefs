@@ -109,3 +109,14 @@ ImpactSoundID<u32>[11]
 CritImpactSoundID<u32>[11]
 PierceImpactSoundID<u32>[11]
 PierceCritImpactSoundID<u32>[11]
+
+LAYOUT 21DD049D
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+WeaponSubClassID<u8>
+ParrySoundType<u8>
+ImpactSource<u8>
+ImpactSoundID<u32>[11]
+CritImpactSoundID<u32>[11]
+PierceImpactSoundID<u32>[11]
+PierceCritImpactSoundID<u32>[11]

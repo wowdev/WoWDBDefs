@@ -126,3 +126,14 @@ ImpactMilliSeconds<u16>
 RangeTypeEnum<8>
 Flags<u8>
 SceneScriptPackageID<u16>
+
+LAYOUT 257B890E
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+SceneScriptFunction
+SpellVisualID<u32>
+CastMilliSeconds<u16>
+ImpactMilliSeconds<u16>
+RangeTypeEnum<8>
+Flags<u8>
+SceneScriptPackageID<u16>

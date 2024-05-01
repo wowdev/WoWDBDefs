@@ -155,3 +155,13 @@ ParentTradeSkillCategoryID<u16>
 SkillLineID<u16>
 OrderIndex<16>
 Flags<32>
+
+LAYOUT 7F2B6CD0
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+HordeName_lang
+ParentTradeSkillCategoryID<u16>
+SkillLineID<u16>
+OrderIndex<16>
+Flags<32>

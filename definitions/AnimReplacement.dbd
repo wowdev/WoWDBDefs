@@ -106,3 +106,11 @@ SrcAnimID<u16>
 DstAnimID<u16>
 ConditionalFlags<u16>
 $noninline,relation$ParentAnimReplacementSetID<32>
+
+LAYOUT 61B149CC
+BUILD 11.0.0.54464
+$id$ID<32>
+SrcAnimID<u16>
+DstAnimID<u16>
+ConditionalFlags<u16>
+$noninline,relation$ParentAnimReplacementSetID<32>

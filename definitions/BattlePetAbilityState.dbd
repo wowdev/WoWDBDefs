@@ -123,3 +123,10 @@ $noninline,id$ID<32>
 BattlePetStateID<u32>
 Value<32>
 $noninline,relation$BattlePetAbilityID<32>
+
+LAYOUT 3381AC8D
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+BattlePetStateID<u32>
+Value<32>
+$noninline,relation$BattlePetAbilityID<32>

@@ -70,3 +70,11 @@ CurrencyTypesID<u32>
 CurrencyCost<u32>
 JournalEncounterID<u32>
 JournalInstanceID<u32>
+
+LAYOUT 567FCB5C
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+CurrencyTypesID<u32>
+CurrencyCost<u32>
+JournalEncounterID<u32>
+JournalInstanceID<u32>

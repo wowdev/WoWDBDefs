@@ -158,3 +158,16 @@ PreventionType<8>
 StartRecoveryCategory<16>
 ChargeCategory<16>
 $noninline,relation$SpellID<32>
+
+LAYOUT 56C7533E
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+DifficultyID<u8>
+Category<16>
+DefenseType<8>
+DispelType<8>
+Mechanic<8>
+PreventionType<8>
+StartRecoveryCategory<16>
+ChargeCategory<16>
+$noninline,relation$SpellID<32>

@@ -161,3 +161,15 @@ TargetCreatureType<16>
 Targets<32>
 Width
 $noninline,relation$SpellID<32>
+
+LAYOUT 6CBAAD1E
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+DifficultyID<u8>
+ConeDegrees
+MaxTargets<u8>
+MaxTargetLevel<u32>
+TargetCreatureType<16>
+Targets<32>
+Width
+$noninline,relation$SpellID<32>

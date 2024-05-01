@@ -43,3 +43,12 @@ ConditionID<32>
 Flags<u8>
 Order<32>
 $noninline,relation$ParentID<32>
+
+LAYOUT 35AA0D60
+BUILD 11.0.0.54464
+$id$LoreTextID<32>
+CampaignID<32>
+ConditionID<32>
+Flags<u8>
+Order<32>
+$noninline,relation$ParentID<32>

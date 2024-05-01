@@ -105,3 +105,16 @@ OrderIndex<32>
 $relation$ParentCategory<32>
 DefaultAuctionHouseFilter<u8>
 AuctionHouseExtraColumn<u8>
+
+LAYOUT CF37C344
+BUILD 11.0.0.54464
+Description_lang
+SortedProperty_lang
+$id$ID<32>
+ItemClass<32>
+ItemSubClass<32>
+InventoryType<8>
+OrderIndex<32>
+$relation$ParentCategory<32>
+DefaultAuctionHouseFilter<u8>
+AuctionHouseExtraColumn<u8>

@@ -312,3 +312,21 @@ PrerequisiteTalentID<32>
 ResearchCostSource<32>
 ActiveDurationSecs<32>
 GarrTalentSocketPropertiesID<32>
+
+LAYOUT 8FBDD72A
+BUILD 11.0.0.54464
+Name_lang
+Description_lang
+$id$ID<32>
+$relation$GarrTalentTreeID<u32>
+Tier<8>
+UiOrder<8>
+IconFileDataID<32>
+PlayerConditionID<u32>
+GarrAbilityID<u32>
+Flags<32>
+TalentType<32>
+PrerequisiteTalentID<32>
+ResearchCostSource<32>
+ActiveDurationSecs<32>
+GarrTalentSocketPropertiesID<32>

@@ -132,3 +132,17 @@ OverrideAttachTop<8>
 OverrideAttachBot<8>
 Flags<u8>
 $noninline,relation$WeaponTrailID<32>
+
+LAYOUT D0867913
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Hand<u8>
+Duration
+FadeOutTime
+EdgeLifeSpan
+InitialDelay
+SmoothSampleAngle
+OverrideAttachTop<8>
+OverrideAttachBot<8>
+Flags<u8>
+$noninline,relation$WeaponTrailID<32>

@@ -140,3 +140,18 @@ FriendConditionCount<u8>[2]
 EnemyConditionID<u16>[2]
 EnemyConditionOp<u8>[2]
 EnemyConditionCount<u8>[2]
+
+LAYOUT E4823C69
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+WorldStateExpressionID<u16>
+SelfConditionID<u16>
+TargetConditionID<u16>
+FriendConditionLogic<u8>
+EnemyConditionLogic<u8>
+FriendConditionID<u16>[2]
+FriendConditionOp<u8>[2]
+FriendConditionCount<u8>[2]
+EnemyConditionID<u16>[2]
+EnemyConditionOp<u8>[2]
+EnemyConditionCount<u8>[2]

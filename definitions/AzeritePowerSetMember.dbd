@@ -123,3 +123,12 @@ AzeritePowerID<32>
 Class<32>
 Tier<u8>
 OrderIndex<32>
+
+LAYOUT 91D7F535
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+$relation$AzeritePowerSetID<32>
+AzeritePowerID<32>
+Class<32>
+Tier<u8>
+OrderIndex<32>

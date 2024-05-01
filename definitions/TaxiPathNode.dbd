@@ -218,3 +218,15 @@ Flags<32>
 Delay<u32>
 ArrivalEventID<32>
 DepartureEventID<32>
+
+LAYOUT B70D1EE0
+BUILD 11.0.0.54464
+Loc[3]
+$id$ID<32>
+$relation$PathID<u16>
+NodeIndex<32>
+ContinentID<u16>
+Flags<32>
+Delay<u32>
+ArrivalEventID<32>
+DepartureEventID<32>

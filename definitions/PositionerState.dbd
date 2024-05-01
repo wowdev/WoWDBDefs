@@ -98,3 +98,15 @@ ScaleEntryID<u32>
 Flags<u32>
 EndLife
 EndLifePercent<u8>
+
+LAYOUT 9CDFBF30
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+NextStateID<u32>
+TransformMatrixID<u32>
+PosEntryID<u32>
+RotEntryID<u32>
+ScaleEntryID<u32>
+Flags<u32>
+EndLife
+EndLifePercent<u8>

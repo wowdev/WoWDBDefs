@@ -153,3 +153,20 @@ UWZoneIntroMusicID<u32>
 UWZoneMusicID<u32>
 UWSoundAmbienceID<u16>
 UWSoundProviderPreferencesID<u8>
+
+LAYOUT 3DC135AF
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+AreaID<u16>
+WMOAreaID<u8>
+PhaseID<u16>
+PhaseGroupID<u16>
+PhaseUseFlags<32>
+ZoneIntroMusicID<u32>
+ZoneMusicID<u32>
+SoundAmbienceID<u16>
+SoundProviderPreferencesID<u8>
+UWZoneIntroMusicID<u32>
+UWZoneMusicID<u32>
+UWSoundAmbienceID<u16>
+UWSoundProviderPreferencesID<u8>

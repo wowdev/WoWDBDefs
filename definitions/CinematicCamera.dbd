@@ -133,3 +133,12 @@ SoundID<u32>
 OriginFacing
 FileDataID<u32>
 ConversationID<u32>
+
+LAYOUT 8BFD752B
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Origin[3]
+SoundID<u32>
+OriginFacing
+FileDataID<u32>
+ConversationID<u32>

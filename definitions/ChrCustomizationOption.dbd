@@ -149,3 +149,19 @@ ChrCustomizationID<32>
 Requirement<32>
 SecondaryOrderIndex<32>
 AddedInPatch<32>
+
+LAYOUT 1EB3451E
+BUILD 11.0.0.54464
+Name_lang
+$id$ID<32>
+SecondaryID<u16>
+Flags<32>
+$relation$ChrModelID<32>
+OrderIndex<32>
+ChrCustomizationCategoryID<32>
+OptionType<32>
+BarberShopCostModifier
+ChrCustomizationID<32>
+Requirement<32>
+SecondaryOrderIndex<32>
+AddedInPatch<32>

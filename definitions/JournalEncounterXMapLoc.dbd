@@ -106,3 +106,12 @@ JournalEncounterID<32>
 MapDisplayConditionID<32>
 Flags<u8>
 $noninline,relation$UiMapID<32>
+
+LAYOUT 330EE16F
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Map[2]
+JournalEncounterID<32>
+MapDisplayConditionID<32>
+Flags<u8>
+$noninline,relation$UiMapID<32>

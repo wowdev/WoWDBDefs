@@ -88,3 +88,11 @@ FailureDescription_lang
 PlayerConditionID<u32>
 OrderIndex<32>
 $noninline,relation$MapDifficultyID<32>
+
+LAYOUT D514B4CA
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+FailureDescription_lang
+PlayerConditionID<u32>
+OrderIndex<32>
+$noninline,relation$MapDifficultyID<32>

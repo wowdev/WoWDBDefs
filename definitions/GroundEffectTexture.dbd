@@ -174,3 +174,12 @@ Sound<u8>
 DoodadID<u16>[4]
 DoodadWeight<8>[4]
 SplatDensity<8>[4]
+
+LAYOUT D93D5678
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Density<u32>
+Sound<u8>
+DoodadID<u16>[4]
+DoodadWeight<8>[4]
+SplatDensity<8>[4]

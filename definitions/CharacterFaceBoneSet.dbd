@@ -72,3 +72,12 @@ ModelFileDataID<32>
 FaceVariationIndex<u8>
 BoneSetFileDataID<32>
 $noninline,relation$RaceID<32>
+
+LAYOUT D54E886F
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+SexID<u8>
+ModelFileDataID<32>
+FaceVariationIndex<u8>
+BoneSetFileDataID<32>
+$noninline,relation$RaceID<32>

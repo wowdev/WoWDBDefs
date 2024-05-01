@@ -646,3 +646,30 @@ ScalingClassRestricted<8>
 Condition_ID<u8>
 MinLevel<u8>
 MaxLevel<u8>
+
+LAYOUT D5D2C264
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+HordeName_lang
+Duration<32>
+EffectArg<u32>[3]
+Flags<32>
+EffectScalingPoints[3]
+IconFileDataID<u32>
+ItemLevelMin<32>
+ItemLevelMax<32>
+TransmogUseConditionID<u32>
+TransmogCost<u32>
+EffectPointsMin<16>[3]
+ItemVisual<u16>
+RequiredSkillID<u16>
+RequiredSkillRank<u16>
+ItemLevel<u16>
+Charges<u8>
+Effect<u8>[3]
+ScalingClass<8>
+ScalingClassRestricted<8>
+Condition_ID<u8>
+MinLevel<u8>
+MaxLevel<u8>

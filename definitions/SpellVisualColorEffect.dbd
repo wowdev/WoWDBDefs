@@ -153,3 +153,18 @@ AlphaCurveID<u32>
 OpacityCurveID<u32>
 ColorMultiplier
 PositionerID<u32>
+
+LAYOUT 49955168
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Duration
+Color<32>
+Flags<u8>
+Type<u8>
+RedCurveID<u32>
+GreenCurveID<u32>
+BlueCurveID<u32>
+AlphaCurveID<u32>
+OpacityCurveID<u32>
+ColorMultiplier
+PositionerID<u32>

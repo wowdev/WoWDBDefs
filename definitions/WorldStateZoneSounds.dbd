@@ -162,3 +162,16 @@ ZoneMusicID<u16>
 SoundAmbienceID<u16>
 SoundProviderPreferencesID<u8>
 OrderBy<32>
+
+LAYOUT BF9A8A42
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+WorldStateID<u16>
+WorldStateValue<u16>
+AreaID<u16>
+WMOAreaID<u32>
+ZoneIntroMusicID<u16>
+ZoneMusicID<u16>
+SoundAmbienceID<u16>
+SoundProviderPreferencesID<u8>
+OrderBy<32>

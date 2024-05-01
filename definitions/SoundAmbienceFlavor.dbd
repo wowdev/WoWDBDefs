@@ -91,3 +91,10 @@ $noninline,id$ID<32>
 SoundEntriesIDDay<u32>
 SoundEntriesIDNight<u32>
 $noninline,relation$SoundAmbienceID<32>
+
+LAYOUT 34C96927
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+SoundEntriesIDDay<u32>
+SoundEntriesIDNight<u32>
+$noninline,relation$SoundAmbienceID<32>

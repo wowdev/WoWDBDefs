@@ -150,3 +150,16 @@ Duration<u32>
 MaxShipments<u8>
 GarrFollowerID<u16>
 Flags<32>
+
+LAYOUT 91BEA68A
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+$relation$ContainerID<u16>
+DummyItemID<32>
+TreasureID<u32>
+SpellID<32>
+OnCompleteSpellID<32>
+Duration<u32>
+MaxShipments<u8>
+GarrFollowerID<u16>
+Flags<32>

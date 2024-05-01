@@ -185,3 +185,15 @@ ProcCharges<32>
 SpellProcsPerMinuteID<u16>
 ProcTypeMask<32>[2]
 $noninline,relation$SpellID<32>
+
+LAYOUT EE8F35C1
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+DifficultyID<u8>
+CumulativeAura<u16>
+ProcCategoryRecovery<32>
+ProcChance<u8>
+ProcCharges<32>
+SpellProcsPerMinuteID<u16>
+ProcTypeMask<32>[2]
+$noninline,relation$SpellID<32>

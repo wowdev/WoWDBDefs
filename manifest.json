@@ -1039,6 +1039,11 @@
     "db2FileDataID": 1939843
   },
   {
+    "tableName": "ClientSettings",
+    "tableHash": "5139503A",
+    "db2FileDataID": 5874295
+  },
+  {
     "tableName": "CloakDampening",
     "tableHash": "DCC61EF0",
     "db2FileDataID": 1465903
@@ -1266,6 +1271,11 @@
     "tableName": "CraftingOrderHouse",
     "tableHash": "5A606E11",
     "db2FileDataID": 4688652
+  },
+  {
+    "tableName": "CraftingOrderXLabel",
+    "tableHash": "96090551",
+    "db2FileDataID": 5875491
   },
   {
     "tableName": "CraftingQuality",
@@ -3588,6 +3598,31 @@
     "tableHash": "3ACAE305",
     "dbcFileDataID": 841945,
     "db2FileDataID": 1117087
+  },
+  {
+    "tableName": "NPCCraftingOrderCustomer",
+    "tableHash": "DD1C1F79",
+    "db2FileDataID": 5875492
+  },
+  {
+    "tableName": "NPCCraftingOrderCustomerXLabel",
+    "tableHash": "931D0C68",
+    "db2FileDataID": 5875493
+  },
+  {
+    "tableName": "NPCCraftingOrderSet",
+    "tableHash": "A6859B1E",
+    "db2FileDataID": 5875494
+  },
+  {
+    "tableName": "NPCCraftingOrderSetXCraftOrder",
+    "tableHash": "E5D06985",
+    "db2FileDataID": 5875495
+  },
+  {
+    "tableName": "NPCCraftingOrderSetXCustomer",
+    "tableHash": "0703421C",
+    "db2FileDataID": 5875496
   },
   {
     "tableName": "NPCModelItemSlotDisplayInfo",

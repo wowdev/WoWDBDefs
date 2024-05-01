@@ -96,3 +96,11 @@ $relation$JournalTierID<u16>
 JournalInstanceID<u16>
 OrderIndex<32>
 AvailabilityCondition<32>
+
+LAYOUT BFCBF1F0
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+$relation$JournalTierID<u16>
+JournalInstanceID<u16>
+OrderIndex<32>
+AvailabilityCondition<32>

@@ -109,3 +109,14 @@ Battle_populate_time<u16>
 Min_level<u8>
 Max_level<u8>
 Map_ID<16>
+
+LAYOUT 06AB7E95
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Area_ID<u16>
+Next_time_worldstate<u16>
+Game_time_worldstate<u16>
+Battle_populate_time<u16>
+Min_level<u8>
+Max_level<u8>
+Map_ID<16>

@@ -138,3 +138,13 @@ TargetType<u8>
 TargetAsset<32>
 PlayerConditionID<u32>
 CombatConditionID<u16>
+
+LAYOUT 2134DDFE
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+QuestFeedbackEffectID<u32>
+WhenToDisplay<u8>
+TargetType<u8>
+TargetAsset<32>
+PlayerConditionID<u32>
+CombatConditionID<u16>

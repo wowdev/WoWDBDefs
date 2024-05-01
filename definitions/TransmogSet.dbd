@@ -192,3 +192,19 @@ ExpansionID<u8>
 PatchIntroduced<32>
 UiOrder<16>
 ConditionID<32>
+
+LAYOUT 35F98FA1
+BUILD 11.0.0.54464
+Name_lang
+$id$ID<32>
+ClassMask<32>
+TrackingQuestID<u32>
+Flags<32>
+TransmogSetGroupID<u32>
+ItemNameDescriptionID<32>
+$relation$ParentTransmogSetID<u16>
+CompleteWorldStateID<u8>
+ExpansionID<u8>
+PatchIntroduced<32>
+UiOrder<16>
+ConditionID<32>

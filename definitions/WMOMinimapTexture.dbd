@@ -104,3 +104,12 @@ BlockX<u8>
 BlockY<u8>
 FileDataID<32>
 $noninline,relation$WMOID<32>
+
+LAYOUT 01230A50
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+GroupNum<u16>
+BlockX<u8>
+BlockY<u8>
+FileDataID<32>
+$noninline,relation$WMOID<32>

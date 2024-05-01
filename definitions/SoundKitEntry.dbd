@@ -99,3 +99,12 @@ FileDataID<32>
 Frequency<u8>
 Volume
 Field_11_0_0_54361_004<32>
+
+LAYOUT 8F82FF7D
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+$relation$SoundKitID<u32>
+FileDataID<32>
+Frequency<u8>
+Volume
+Field_11_0_0_54361_004<32>

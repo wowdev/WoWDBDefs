@@ -91,3 +91,11 @@ ItemCreationContext<u8>
 Tier<u8>
 AzeriteLevel<u8>
 $noninline,relation$AzeriteTierUnlockSetID<32>
+
+LAYOUT FE36FA5C
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+ItemCreationContext<u8>
+Tier<u8>
+AzeriteLevel<u8>
+$noninline,relation$AzeriteTierUnlockSetID<32>

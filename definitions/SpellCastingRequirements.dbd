@@ -117,3 +117,14 @@ MinReputation<32>
 RequiredAreasID<u16>
 RequiredAuraVision<u8>
 RequiresSpellFocus<u16>
+
+LAYOUT EB5F42A0
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+SpellID<32>
+FacingCasterFlags<u8>
+MinFactionID<u16>
+MinReputation<32>
+RequiredAreasID<u16>
+RequiredAuraVision<u8>
+RequiresSpellFocus<u16>

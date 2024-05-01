@@ -420,3 +420,24 @@ ShowFutureSpellPlayerConditionID<32>
 SpellVisualScript<32>
 ActiveSpellVisualScript<32>
 $noninline,relation$SpellID<32>
+
+LAYOUT 4823459D
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Attributes<32>[15]
+DifficultyID<u8>
+CastingTimeIndex<u16>
+DurationIndex<u16>
+PvPDurationIndex<u16>
+RangeIndex<u16>
+SchoolMask<u8>
+Speed
+LaunchDelay
+MinDuration
+SpellIconFileDataID<32>
+ActiveIconFileDataID<32>
+ContentTuningID<32>
+ShowFutureSpellPlayerConditionID<32>
+SpellVisualScript<32>
+ActiveSpellVisualScript<32>
+$noninline,relation$SpellID<32>

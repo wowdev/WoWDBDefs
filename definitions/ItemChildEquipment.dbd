@@ -107,3 +107,10 @@ $noninline,id$ID<32>
 $relation$ParentItemID<32>
 ChildItemID<32>
 ChildItemEquipSlot<u8>
+
+LAYOUT 2B57F9DE
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+$relation$ParentItemID<32>
+ChildItemID<32>
+ChildItemEquipSlot<u8>

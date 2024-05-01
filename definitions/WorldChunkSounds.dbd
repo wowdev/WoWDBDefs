@@ -161,3 +161,14 @@ ChunkX<u8>
 ChunkY<u8>
 SubchunkX<u8>
 SubchunkY<u8>
+
+LAYOUT 01DC06CF
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+MapID<u16>
+SoundOverrideID<32>
+MusicOverrideID<32>
+ChunkX<u8>
+ChunkY<u8>
+SubchunkX<u8>
+SubchunkY<u8>

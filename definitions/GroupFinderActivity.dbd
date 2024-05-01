@@ -343,3 +343,22 @@ MaxPlayers<u8>
 DisplayType<u8>
 OverrideContentTuningID<32>
 MapChallengeModeID<32>
+
+LAYOUT 395D3022
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+FullName_lang
+ShortName_lang
+GroupFinderCategoryID<u8>
+OrderIndex<8>
+GroupFinderActivityGrpID<u16>
+Flags<u32>
+MinGearLevelSuggestion<u16>
+PlayerConditionID<32>
+MapID<u16>
+DifficultyID<u8>
+AreaID<u16>
+MaxPlayers<u8>
+DisplayType<u8>
+OverrideContentTuningID<32>
+MapChallengeModeID<32>

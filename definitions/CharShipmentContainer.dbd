@@ -239,3 +239,23 @@ MediumThreshold<u8>
 LargeThreshold<u8>
 Faction<8>
 CrossFactionID<u16>
+
+LAYOUT C3E07E9C
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Description_lang
+PendingText_lang
+UiTextureKitID<u16>
+GarrTypeID<8>
+GarrBuildingType<u8>
+BaseCapacity<u8>
+SmallDisplayInfoID<u16>
+MediumDisplayInfoID<u16>
+LargeDisplayInfoID<u16>
+WorkingDisplayInfoID<32>
+WorkingSpellVisualID<u32>
+CompleteSpellVisualID<u32>
+MediumThreshold<u8>
+LargeThreshold<u8>
+Faction<8>
+CrossFactionID<u16>

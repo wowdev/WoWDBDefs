@@ -213,3 +213,16 @@ Flags<u8>
 Mechanic<32>[2]
 Effect<u32>[11]
 State<u32>[20]
+
+LAYOUT 3CE6BCF7
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+School<u8>
+DispelType<u32>
+MechanicsAllowed<u8>
+EffectsAllowed<u8>
+StatesAllowed<u8>
+Flags<u8>
+Mechanic<32>[2]
+Effect<u32>[11]
+State<u32>[20]

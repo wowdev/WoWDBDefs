@@ -150,3 +150,14 @@ AmbienceID<u32>[2]
 AmbienceStartID<u32>[2]
 AmbienceStopID<u32>[2]
 SoundKitID<u32>[2]
+
+LAYOUT 6E25D515
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Flags<32>
+SoundFilterID<u32>
+FlavorSoundFilterID<u32>
+AmbienceID<u32>[2]
+AmbienceStartID<u32>[2]
+AmbienceStopID<u32>[2]
+SoundKitID<u32>[2]

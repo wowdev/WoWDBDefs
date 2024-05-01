@@ -166,3 +166,16 @@ Flags<u8>
 LegacyItemID<32>
 UpgradeItemID<32>[6]
 UpgradeItemBonusListID<u16>[6]
+
+LAYOUT 2F8299AE
+BUILD 11.0.0.54464
+SourceText_lang
+$id$ID<32>
+ItemID<32>
+LegacyUpgradedItemID<32>
+StaticUpgradedItemID<32>
+SourceTypeEnum<8>
+Flags<u8>
+LegacyItemID<32>
+UpgradeItemID<32>[6]
+UpgradeItemBonusListID<u16>[6]

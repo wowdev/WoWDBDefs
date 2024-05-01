@@ -446,3 +446,25 @@ RechargingAmountPerCycle<u32>
 RechargingCycleDurationMS<u32>
 WarbondTransferPercentage
 Flags<32>[2]
+
+LAYOUT 4042BF2D
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+CategoryID<32>
+InventoryIconFileID<32>
+SpellWeight<u32>
+SpellCategory<u8>
+MaxQty<u32>
+MaxEarnablePerWeek<u32>
+Quality<8>
+FactionID<32>
+ItemGroupSoundsID<32>
+XpQuestDifficulty<32>
+AwardConditionID<32>
+MaxQtyWorldStateID<32>
+RechargingAmountPerCycle<u32>
+RechargingCycleDurationMS<u32>
+WarbondTransferPercentage
+Flags<32>[2]

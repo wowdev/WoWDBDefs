@@ -86,3 +86,12 @@ GarrMissionTextureID<u8>
 GarrAbilityID<u16>
 Radius
 DurationSecs<32>
+
+LAYOUT A15614BC
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+GarrFollowerTypeID<u8>
+GarrMissionTextureID<u8>
+GarrAbilityID<u16>
+Radius
+DurationSecs<32>

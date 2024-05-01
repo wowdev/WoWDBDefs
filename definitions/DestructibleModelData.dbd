@@ -349,3 +349,29 @@ State0NameSet<8>
 State1NameSet<8>
 State2NameSet<8>
 State3NameSet<8>
+
+LAYOUT 781EE932
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+State0ImpactEffectDoodadSet<8>
+State0AmbientDoodadSet<u8>
+State1WMO<32>
+State1DestructionDoodadSet<8>
+State1ImpactEffectDoodadSet<8>
+State1AmbientDoodadSet<u8>
+State2WMO<32>
+State2DestructionDoodadSet<8>
+State2ImpactEffectDoodadSet<8>
+State2AmbientDoodadSet<u8>
+State3WMO<32>
+State3InitDoodadSet<u8>
+State3AmbientDoodadSet<u8>
+EjectDirection<u8>
+DoNotHighlight<u8>
+State0WMO<32>
+HealEffect<u8>
+HealEffectSpeed<u16>
+State0NameSet<8>
+State1NameSet<8>
+State2NameSet<8>
+State3NameSet<8>

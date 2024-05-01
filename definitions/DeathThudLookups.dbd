@@ -90,3 +90,11 @@ SizeClass<u8>
 TerrainTypeSoundID<u8>
 SoundEntryID<u32>
 SoundEntryIDWater<u32>
+
+LAYOUT DDC6DB32
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+SizeClass<u8>
+TerrainTypeSoundID<u8>
+SoundEntryID<u32>
+SoundEntryIDWater<u32>

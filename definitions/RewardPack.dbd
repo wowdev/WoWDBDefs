@@ -90,3 +90,13 @@ ArtifactXPDifficulty<8>
 ArtifactXPMultiplier
 ArtifactXPCategoryID<u8>
 TreasurePickerID<u32>
+
+LAYOUT 5FABA92D
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+CharTitleID<32>
+Money<u32>
+ArtifactXPDifficulty<8>
+ArtifactXPMultiplier
+ArtifactXPCategoryID<u8>
+TreasurePickerID<u32>

@@ -138,3 +138,25 @@ MaxHeadPitch<u8>
 TorsoSpeedFactor
 HeadSpeedFactor
 Flags<u8>
+
+LAYOUT 92FF222C
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+ReactionEnableDistance
+ReactionWarmUpTimeMSMin<u32>
+ReactionWarmUpTimeMSMax<u32>
+ReactionEnableFOVDeg<u16>
+ReactionGiveupDistance
+ReactionGiveupFOVDeg<u32>
+ReactionGiveupTimeMS<u16>
+ReactionIgnoreTimeMinMS<u16>
+ReactionIgnoreTimeMaxMS<u16>
+MaxTorsoYaw<u8>
+MaxTorsoYawWhileMoving<u8>
+MaxTorsoPitchUp<u32>
+MaxTorsoPitchDown<u32>
+MaxHeadYaw<u8>
+MaxHeadPitch<u8>
+TorsoSpeedFactor
+HeadSpeedFactor
+Flags<u8>

@@ -299,3 +299,16 @@ SpecID<u16>
 SpellID<u32>
 OverridesSpellID<u32>
 CategoryMask<u8>[2]
+
+LAYOUT 6CBC2884
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Description_lang
+TierID<u8>
+Flags<u8>
+ColumnIndex<u8>
+ClassID<u8>
+SpecID<u16>
+SpellID<u32>
+OverridesSpellID<u32>
+CategoryMask<u8>[2]

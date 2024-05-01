@@ -448,3 +448,24 @@ ReputationBase<32>[4]
 ReputationMax<32>[4]
 ParentFactionMod[2]
 ParentFactionCap<u8>[2]
+
+LAYOUT CD0F0C19
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+ReputationRaceMask<64>[4]
+Name_lang
+Description_lang
+ReputationIndex<16>
+ParentFactionID<u16>
+Expansion<u8>
+FriendshipRepID<u32>
+Flags<32>
+ParagonFactionID<u16>
+RenownFactionID<32>
+RenownCurrencyID<32>
+ReputationClassMask<16>[4]
+ReputationFlags<u16>[4]
+ReputationBase<32>[4]
+ReputationMax<32>[4]
+ParentFactionMod[2]
+ParentFactionCap<u8>[2]

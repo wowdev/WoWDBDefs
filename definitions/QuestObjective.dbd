@@ -155,3 +155,15 @@ OrderIndex<u8>
 Flags<32>
 StorageIndex<u8>
 $noninline,relation$QuestID<32>
+
+LAYOUT 0262E5DB
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Description_lang
+Type<32>
+Amount<32>
+ObjectID<32>
+OrderIndex<u8>
+Flags<32>
+StorageIndex<u8>
+$noninline,relation$QuestID<32>

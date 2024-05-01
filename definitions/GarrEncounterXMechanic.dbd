@@ -107,3 +107,10 @@ $noninline,id$ID<32>
 GarrMechanicID<32>
 GarrMechanicSetID<u8>
 $noninline,relation$GarrEncounterID<32>
+
+LAYOUT 4EBD3495
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+GarrMechanicID<32>
+GarrMechanicSetID<u8>
+$noninline,relation$GarrEncounterID<32>

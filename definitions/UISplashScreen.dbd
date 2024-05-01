@@ -92,3 +92,22 @@ SoundKitID<32>
 PlayerConditionID<32>
 CharLevelConditionID<32>
 RequiredTimeEventPassed<32>
+
+LAYOUT 258B0032
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Header_lang
+TopLeftFeatureTitle_lang
+TopLeftFeatureDesc_lang
+BottomLeftFeatureTitle_lang
+BottomLeftFeatureDesc_lang
+RightFeatureTitle_lang
+RightFeatureDesc_lang
+AllianceQuestID<32>
+HordeQuestID<32>
+ScreenType<u8>
+TextureKitID<32>
+SoundKitID<32>
+PlayerConditionID<32>
+CharLevelConditionID<32>
+RequiredTimeEventPassed<32>

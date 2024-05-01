@@ -107,3 +107,13 @@ FinishVisualKitID<u32>
 MaxTime
 DissolveEffectID<32>
 $noninline,relation$SrcCreatureDisplayInfoID<32>
+
+LAYOUT D3A7F438
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+DstCreatureDisplayInfoID<32>
+StartVisualKitID<u32>
+FinishVisualKitID<u32>
+MaxTime
+DissolveEffectID<32>
+$noninline,relation$SrcCreatureDisplayInfoID<32>

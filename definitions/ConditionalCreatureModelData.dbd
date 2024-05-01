@@ -12,3 +12,11 @@ CreatureModelDataID<u16>
 PortraitCreatureDisplayInfoID<u16>
 PlayerConditionID<u32>
 TextureVariationFileDataID<32>[4]
+
+LAYOUT C974B48B
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+CreatureModelDataID<u16>
+PortraitCreatureDisplayInfoID<u16>
+PlayerConditionID<u32>
+TextureVariationFileDataID<32>[4]

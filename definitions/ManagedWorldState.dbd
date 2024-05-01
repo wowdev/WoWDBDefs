@@ -169,3 +169,17 @@ AccumulationAmountPerMinute<32>
 DepletionAmountPerMinute<32>
 Field_8_1_5_29418_009<8>
 OccurrencesWorldStateID<32>[4]
+
+LAYOUT A4E9EA9F
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+CurrentStageWorldStateID<32>
+ProgressWorldStateID<32>
+UpTimeSecs<u32>
+DownTimeSecs<u32>
+AccumulationStateTargetValue<32>
+DepletionStateTargetValue<32>
+AccumulationAmountPerMinute<32>
+DepletionAmountPerMinute<32>
+Field_8_1_5_29418_009<8>
+OccurrencesWorldStateID<32>[4]

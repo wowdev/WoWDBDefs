@@ -228,3 +228,18 @@ OrderIndex<u8>
 Flags<u8>
 VisibilityPlayerConditionID<u32>
 WidgetSetID<u16>
+
+LAYOUT 40C801DF
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Description_lang
+Title_lang
+$relation$ScenarioID<u16>
+CriteriatreeID<u32>
+RewardQuestID<32>
+RelatedStep<32>
+Supersedes<u16>
+OrderIndex<u8>
+Flags<u8>
+VisibilityPlayerConditionID<u32>
+WidgetSetID<u16>

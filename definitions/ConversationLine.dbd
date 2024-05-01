@@ -114,3 +114,17 @@ AnimKitID<u16>
 SpeechType<u8>
 StartAnimation<u8>
 EndAnimation<u8>
+
+LAYOUT AA1E7988
+BUILD 11.0.0.54464
+COMMENT table is sparse
+$noninline,id$ID<32>
+BroadcastTextID<u32>
+Field_10_2_0_51239_001<u32>
+SpellVisualKitID<u32>
+AdditionalDuration<32>
+NextConversationLineID<u16>
+AnimKitID<u16>
+SpeechType<u8>
+StartAnimation<u8>
+EndAnimation<u8>

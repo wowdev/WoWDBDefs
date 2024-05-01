@@ -105,3 +105,14 @@ CurveID<32>
 DecayIndex<u16>
 SustainIndex<u16>
 ReleaseIndex<u16>
+
+LAYOUT FA91357A
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+$relation$SoundKitID<32>
+EnvelopeType<u8>
+Flags<u32>
+CurveID<32>
+DecayIndex<u16>
+SustainIndex<u16>
+ReleaseIndex<u16>

@@ -433,3 +433,27 @@ CurrencyQuantity<u32>
 UIMapID<u16>
 BonusPlayerConditionID<u32>[2]
 BonusValue<u8>[2]
+
+LAYOUT 88BFAFA8
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+ButtonText_lang
+RewardDescription_lang
+ContinueDescription_lang
+Type<u8>
+PlayerConditionID<u32>
+Flags<32>
+ButtonActionType<u8>
+TextureFileDataID<32>
+LfgDungeonID<u16>
+QuestID<32>
+BattleMasterListID<u16>
+PriorityMin<u8>
+PriorityMax<u8>
+CurrencyType<u16>
+CurrencyQuantity<u32>
+UIMapID<u16>
+BonusPlayerConditionID<u32>[2]
+BonusValue<u8>[2]

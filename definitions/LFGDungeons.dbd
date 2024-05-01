@@ -871,3 +871,36 @@ MentorItemLevel<u16>
 MentorCharLevel<u8>
 ContentTuningID<32>
 Flags<32>[2]
+
+LAYOUT BA9CE7CB
+BUILD 11.0.0.54464
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
+MinGear
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MentorCharLevel<u8>
+ContentTuningID<32>
+Flags<32>[2]
