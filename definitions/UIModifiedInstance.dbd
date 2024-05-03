@@ -7,7 +7,7 @@ int<ItemLevelSelector::ID> NormalItemLevel?
 int<ItemLevelSelector::ID> HeroicItemLevel?
 int<ItemLevelSelector::ID> MythicItemLevel?
 int<UiTextureKit::ID> UiTextureKitID
-int Field_9_2_5_43254_007?
+int<PlayerCondition::ID> PlayerConditionID?
 
 LAYOUT 85703E65
 BUILD 10.0.0.43342
@@ -20,7 +20,7 @@ NormalItemLevel<32>
 HeroicItemLevel<32>
 MythicItemLevel<32>
 UiTextureKitID<32>
-Field_9_2_5_43254_007<32>
+PlayerConditionID<32>
 
 LAYOUT 1948D0B5
 BUILD 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
@@ -45,7 +45,7 @@ NormalItemLevel<32>
 HeroicItemLevel<32>
 MythicItemLevel<32>
 UiTextureKitID<32>
-Field_9_2_5_43254_007<32>
+PlayerConditionID<32>
 
 LAYOUT 41E631A7
 BUILD 11.0.0.54464, 11.0.0.54521
@@ -57,4 +57,4 @@ NormalItemLevel<32>
 HeroicItemLevel<32>
 MythicItemLevel<32>
 UiTextureKitID<32>
-Field_9_2_5_43254_007<32>
+PlayerConditionID<32>
