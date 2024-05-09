@@ -17,6 +17,21 @@ int MinItemLevel? // overrides LfgDungeons::MinGear if set
 float QuestXpMultiplier?
 int<Curve::ID> ILvlHealthMultiplierCurveID?
 int<Curve::ID> ILvlDamageMultiplierCurveID?
+int Field_10_2_7_54630_000?
+int Field_10_2_7_54630_001?
+int Field_10_2_7_54630_002?
+int Field_10_2_7_54630_003?
+int Field_10_2_7_54630_004?
+int Field_10_2_7_54630_005?
+int Field_10_2_7_54630_006?
+int Field_10_2_7_54630_007?
+int Field_10_2_7_54630_008?
+int Field_10_2_7_54630_009?
+int Field_10_2_7_54630_010?
+int Field_10_2_7_54630_011?
+int Field_10_2_7_54630_012?
+int Field_10_2_7_54630_013?
+float Field_10_2_7_54630_014?
 
 LAYOUT D0AEEA71
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -246,6 +261,24 @@ TargetLevelMin<32>
 TargetLevelMax<32>
 MinItemLevel<32>
 QuestXpMultiplier
+
+LAYOUT E97AE065
+BUILD 10.2.7.54630
+$id$Field_10_2_7_54630_000<32>
+Field_10_2_7_54630_001<32>
+Field_10_2_7_54630_002<32>
+Field_10_2_7_54630_003<32>
+Field_10_2_7_54630_004<32>
+Field_10_2_7_54630_005<32>
+Field_10_2_7_54630_006<32>
+Field_10_2_7_54630_007<32>
+Field_10_2_7_54630_008<32>
+Field_10_2_7_54630_009<32>
+Field_10_2_7_54630_010<32>
+Field_10_2_7_54630_011<32>
+Field_10_2_7_54630_012<32>
+Field_10_2_7_54630_013<32>
+Field_10_2_7_54630_014
 
 LAYOUT 7364682E
 BUILD 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
