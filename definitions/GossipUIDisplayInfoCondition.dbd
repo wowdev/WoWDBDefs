@@ -2,7 +2,7 @@ COLUMNS
 locstring Field_11_0_0_54935_000_lang?
 int ID?
 int Field_11_0_0_54935_002?
-int GossipXUIDisplayInfoID?
+int<GossipXUIDisplayInfo::ID> GossipXUIDisplayInfoID?
 
 LAYOUT D287A02A
 BUILD 11.0.0.54935
