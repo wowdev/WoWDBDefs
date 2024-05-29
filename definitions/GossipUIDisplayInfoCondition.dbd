@@ -1,12 +1,12 @@
 COLUMNS
 locstring Field_11_0_0_54935_000_lang?
-int Field_11_0_0_54935_001?
+int ID?
 int Field_11_0_0_54935_002?
-int Field_11_0_0_54935_003?
+int GossipXUIDisplayInfoID?
 
 LAYOUT D287A02A
 BUILD 11.0.0.54935
 Field_11_0_0_54935_000_lang
-$id$Field_11_0_0_54935_001<32>
+$id$ID<32>
 Field_11_0_0_54935_002<32>
-$noninline,relation$Field_11_0_0_54935_003<32>
+$noninline,relation$GossipXUIDisplayInfoID<32>
