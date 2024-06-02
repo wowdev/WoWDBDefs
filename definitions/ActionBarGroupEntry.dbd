@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int Type? // 0 = InventorySlotID, 1 = SpellID
-int Action?
+int Action? // Depending on Type: 0: ???, 1: Spell::ID
 int SlotID?
 int ActionBar?
 int<ActionBarGroup::ID> ActionBarGroupID?
