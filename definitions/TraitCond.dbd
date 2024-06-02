@@ -18,7 +18,7 @@ int Field_10_0_0_44167_002?
 int Field_10_0_0_44167_003?
 int Field_10_0_0_44167_013?
 int Field_10_0_0_44167_014?
-int Field_11_0_0_54675_015?
+int<TraitCondAccountElement::ID> TraitCondAccountElementID?
 
 LAYOUT 425F2DDC
 BUILD 10.0.0.44167
@@ -128,4 +128,4 @@ Flags<32>
 RequiredLevel<32>
 FreeSharedStringID<32>
 SpendMoreSharedStringID<32>
-Field_11_0_0_54675_015<32>
+TraitCondAccountElementID<32>
