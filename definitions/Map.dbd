@@ -53,7 +53,7 @@ int Field_1_5_0_4442_014?
 int Field_3_0_2_9056_021?
 int Field_1_7_0_4671_015?
 int NavigationMaxDistance? // default/if <= 0: 999, max ingame navigation pin distance
-int Field_11_0_0_55000_023?
+int<FileData::ID> Field_11_0_0_55000_023?
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
