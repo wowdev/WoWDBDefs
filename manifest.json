@@ -1514,6 +1514,16 @@
     "db2FileDataID": 1279099
   },
   {
+    "tableName": "DelvesSeason",
+    "tableHash": "C08ECCC7",
+    "db2FileDataID": 5920079
+  },
+  {
+    "tableName": "DelvesSeasonXSpell",
+    "tableHash": "849773B2",
+    "db2FileDataID": 5920080
+  },
+  {
     "tableName": "DestructibleModelData",
     "tableHash": "7A74425D",
     "dbcFileDataID": 801615,
@@ -3630,6 +3640,11 @@
     "db2FileDataID": 5875496
   },
   {
+    "tableName": "NPCCraftingOrderSetXTreasure",
+    "tableHash": "5499CC67",
+    "db2FileDataID": 5912882
+  },
+  {
     "tableName": "NPCModelItemSlotDisplayInfo",
     "tableHash": "76C04C97",
     "db2FileDataID": 1340661
@@ -3879,6 +3894,11 @@
     "tableName": "PingType",
     "tableHash": "0D88E2D7",
     "db2FileDataID": 5152358
+  },
+  {
+    "tableName": "PlayerCompanionInfo",
+    "tableHash": "192B936F",
+    "db2FileDataID": 5922429
   },
   {
     "tableName": "PlayerCondition",
