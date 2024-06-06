@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 int<TraitTree::ID> TraitTreeID?
-int<TraitNode::ID> TraitNodeIDCombat?
-int<TraitNode::ID> TraitNodeIDUtility?
-int<TraitSubTree::ID> TraitSubTreeIDCombat?
-int<TraitSubTree::ID> TraitSubTreeIDUtility?
+int<TraitNode::ID> TraitNodeID_DPS?
+int<TraitNode::ID> TraitNodeID_Heal?
+int<TraitSubTree::ID> TraitSubTreeID_DPS?
+int<TraitSubTree::ID> TraitSubTreeID_Heal?
 int<Faction::ID> FactionID?
 int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
 int<UiModelScene::ID> UiModelSceneID?
@@ -13,10 +13,10 @@ LAYOUT 4EF4C3DB
 BUILD 11.0.0.55000
 $noninline,id$ID<32>
 TraitTreeID<32>
-TraitNodeIDCombat<32>
-TraitNodeIDUtility<32>
-TraitSubTreeIDCombat<32>
-TraitSubTreeIDUtility<32>
+TraitNodeID_DPS<32>
+TraitNodeID_Heal<32>
+TraitSubTreeID_DPS<32>
+TraitSubTreeID_Heal<32>
 FactionID<32>
 CreatureDisplayInfoID<32>
 UiModelSceneID<32>
