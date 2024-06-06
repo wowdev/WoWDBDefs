@@ -5,7 +5,7 @@ int Field_9_2_0_41827_001? // GetCurrentSeasonValues.rewardSeasonID?
 int ExpansionID?
 locstring Field_9_2_0_42174_000_lang? // WeeklyRewardActivityInfo.raidString?
 int Field_10_0_2_45779_004?
-int Field_11_0_0_55000_006?
+int<DelvesSeason::ID> DelvesSeasonID?
 
 LAYOUT CAAEA413
 BUILD 9.2.0.41089, 9.2.0.41257, 9.2.0.41360, 9.2.0.41462, 9.2.0.41726
@@ -94,4 +94,4 @@ Season<32>
 Field_9_2_0_41827_001<32>
 ExpansionID<32>
 Field_10_0_2_45779_004<32>
-Field_11_0_0_55000_006<32>
+DelvesSeasonID<32>
