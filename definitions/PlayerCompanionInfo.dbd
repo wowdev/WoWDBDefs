@@ -1,22 +1,22 @@
 COLUMNS
 int ID
-int Field_11_0_0_55000_000?
-int Field_11_0_0_55000_001?
-int Field_11_0_0_55000_002?
-int Field_11_0_0_55000_003?
-int Field_11_0_0_55000_004?
-int Field_11_0_0_55000_005?
-int Field_11_0_0_55000_006?
-int Field_11_0_0_55000_007?
+int<TraitTree::ID> TraitTreeID?
+int<TraitNode::ID> TraitNodeIDCombat?
+int<TraitNode::ID> TraitNodeIDUtility?
+int<TraitSubTree::ID> TraitSubTreeIDCombat?
+int<TraitSubTree::ID> TraitSubTreeIDUtility?
+int<Faction::ID> FactionID?
+int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
+int<UiModelScene::ID> UiModelSceneID?
 
 LAYOUT 4EF4C3DB
 BUILD 11.0.0.55000
 $noninline,id$ID<32>
-Field_11_0_0_55000_000<32>
-Field_11_0_0_55000_001<32>
-Field_11_0_0_55000_002<32>
-Field_11_0_0_55000_003<32>
-Field_11_0_0_55000_004<32>
-Field_11_0_0_55000_005<32>
-Field_11_0_0_55000_006<32>
-Field_11_0_0_55000_007<32>
+TraitTreeID<32>
+TraitNodeIDCombat<32>
+TraitNodeIDUtility<32>
+TraitSubTreeIDCombat<32>
+TraitSubTreeIDUtility<32>
+FactionID<32>
+CreatureDisplayInfoID<32>
+UiModelSceneID<32>
