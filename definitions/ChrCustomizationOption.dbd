@@ -12,6 +12,20 @@ int OptionType? // 0 = Slider, 1 = Checkbox
 float BarberShopCostModifier?
 int<ChrCustomizationReq::ID> Requirement
 int AddedInPatch?
+locstring Field_4_4_0_55056_000_lang?
+int Field_4_4_0_55056_001?
+int Field_4_4_0_55056_002?
+int Field_4_4_0_55056_003?
+int Field_4_4_0_55056_004?
+int Field_4_4_0_55056_005?
+int Field_4_4_0_55056_006?
+int Field_4_4_0_55056_007?
+int Field_4_4_0_55056_008?
+int Field_4_4_0_55056_009?
+float Field_4_4_0_55056_010?
+int Field_4_4_0_55056_011?
+int Field_4_4_0_55056_012?
+int Field_4_4_0_55056_013?
 
 LAYOUT 26DBFCD5
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006
@@ -35,6 +49,23 @@ BarberShopCostModifier
 ChrCustomizationID<32>
 Requirement<32>
 SecondaryOrderIndex<32>
+
+LAYOUT D362B49A
+BUILD 4.4.0.55056
+Field_4_4_0_55056_000_lang
+$id$Field_4_4_0_55056_001<32>
+Field_4_4_0_55056_002<u16>
+Field_4_4_0_55056_003<32>
+Field_4_4_0_55056_004<32>
+Field_4_4_0_55056_005<32>
+$relation$Field_4_4_0_55056_006<32>
+Field_4_4_0_55056_007<32>
+Field_4_4_0_55056_008<32>
+Field_4_4_0_55056_009<32>
+Field_4_4_0_55056_010
+Field_4_4_0_55056_011<32>
+Field_4_4_0_55056_012<32>
+Field_4_4_0_55056_013<32>
 
 LAYOUT 3F99DF9F
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199
