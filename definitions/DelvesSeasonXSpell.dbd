@@ -4,7 +4,7 @@ int<Spell::ID> SpellID?
 int<DelvesSeason::ID> DelvesSeasonID?
 
 LAYOUT 13DB27BC
-BUILD 11.0.0.55000
+BUILD 11.0.0.55000, 11.0.0.55087
 $noninline,id$ID<32>
 SpellID<32>
 $noninline,relation$DelvesSeasonID<32>
