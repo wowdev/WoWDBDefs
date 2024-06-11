@@ -26,21 +26,8 @@ float Field_4_4_0_55056_010?
 int Field_4_4_0_55056_011?
 int Field_4_4_0_55056_012?
 int Field_4_4_0_55056_013?
-locstring Field_11_0_0_55087_000_lang?
-int Field_11_0_0_55087_001?
-int Field_11_0_0_55087_002?
-int Field_11_0_0_55087_003?
 int Field_11_0_0_55087_004?
 int Field_11_0_0_55087_005?
-int Field_11_0_0_55087_006?
-int Field_11_0_0_55087_007?
-int Field_11_0_0_55087_008?
-int Field_11_0_0_55087_009?
-float Field_11_0_0_55087_010?
-int Field_11_0_0_55087_011?
-int Field_11_0_0_55087_012?
-int Field_11_0_0_55087_013?
-int Field_11_0_0_55087_014?
 
 LAYOUT 26DBFCD5
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006
@@ -214,18 +201,18 @@ AddedInPatch<32>
 
 LAYOUT 3F9B06FB
 BUILD 11.0.0.55087
-Field_11_0_0_55087_000_lang
-$id$Field_11_0_0_55087_001<32>
-Field_11_0_0_55087_002<u16>
-Field_11_0_0_55087_003<32>
+Name_lang
+$id$ID<32>
+SecondaryID<u16>
+Flags<32>
 Field_11_0_0_55087_004<32>
 Field_11_0_0_55087_005<32>
-$relation$Field_11_0_0_55087_006<32>
-Field_11_0_0_55087_007<32>
-Field_11_0_0_55087_008<32>
-Field_11_0_0_55087_009<32>
-Field_11_0_0_55087_010
-Field_11_0_0_55087_011<32>
-Field_11_0_0_55087_012<32>
-Field_11_0_0_55087_013<32>
-Field_11_0_0_55087_014<32>
+$relation$ChrModelID<32>
+OrderIndex<32>
+ChrCustomizationCategoryID<32>
+OptionType<32>
+BarberShopCostModifier
+ChrCustomizationID<32>
+Requirement<32>
+SecondaryOrderIndex<32>
+AddedInPatch<32>
