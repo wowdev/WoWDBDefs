@@ -9,8 +9,6 @@ int<SpellVisualKit::ID> PlayerCritBloodSpurtID
 int<SpellVisualKit::ID> PlayerHitBloodSpurtID
 int<SpellVisualKit::ID> PlayerOmniCritBloodSpurtID
 int<SpellVisualKit::ID> PlayerOmniHitBloodSpurtID
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
 
 LAYOUT 7C4875FB
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -26,8 +24,8 @@ CombatBloodSpurtBack<u32>[2]
 LAYOUT 324585EB
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u32>[2]
-Field_1_15_3_55112_001<u32>[2]
+CombatBloodSpurtFront<u32>[2]
+CombatBloodSpurtBack<u32>[2]
 
 LAYOUT 1A6799C3
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

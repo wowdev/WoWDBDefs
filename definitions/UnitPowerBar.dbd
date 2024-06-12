@@ -16,42 +16,26 @@ locstring OutOfError_lang
 locstring ToolTip_lang
 float StartInset
 float EndInset
-locstring Field_1_15_3_55112_000_lang?
-locstring Field_1_15_3_55112_001_lang?
-locstring Field_1_15_3_55112_002_lang?
-locstring Field_1_15_3_55112_003_lang?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-float Field_1_15_3_55112_008?
-float Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-float Field_1_15_3_55112_012?
-float Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-int Field_1_15_3_55112_015?
 
 LAYOUT F11126D1
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000_lang
-Field_1_15_3_55112_001_lang
-Field_1_15_3_55112_002_lang
-Field_1_15_3_55112_003_lang
-Field_1_15_3_55112_004<u32>
-Field_1_15_3_55112_005<u32>
-Field_1_15_3_55112_006<u16>
-Field_1_15_3_55112_007<u8>
-Field_1_15_3_55112_008
-Field_1_15_3_55112_009
-Field_1_15_3_55112_010<u8>
-Field_1_15_3_55112_011<u16>
-Field_1_15_3_55112_012
-Field_1_15_3_55112_013
-Field_1_15_3_55112_014<32>[6]
-Field_1_15_3_55112_015<32>[6]
+Name_lang
+Cost_lang
+OutOfError_lang
+ToolTip_lang
+MinPower<u32>
+MaxPower<u32>
+StartPower<u16>
+CenterPower<u8>
+RegenerationPeace
+RegenerationCombat
+BarType<u8>
+Flags<u16>
+StartInset
+EndInset
+FileDataID<32>[6]
+Color<32>[6]
 
 LAYOUT 491662FD
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

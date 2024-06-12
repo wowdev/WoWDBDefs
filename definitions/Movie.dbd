@@ -6,18 +6,14 @@ int<FileData::ID> AudioFileDataID
 int<FileData::ID> SubtitleFileDataID
 string Filename
 int SubtitleFileFormat?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
 
 LAYOUT 32E3E5C1
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u8>
-Field_1_15_3_55112_001<u8>
-Field_1_15_3_55112_002<u32>
-Field_1_15_3_55112_003<u32>
+Volume<u8>
+KeyID<u8>
+AudioFileDataID<u32>
+SubtitleFileDataID<u32>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12319

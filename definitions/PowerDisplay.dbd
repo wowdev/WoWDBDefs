@@ -6,20 +6,15 @@ int Red
 int Green
 int Blue
 int Padding_4_0_0_11792_006?
-string Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
 
 LAYOUT 6D647FDD
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000
-Field_1_15_3_55112_001<u8>
-Field_1_15_3_55112_002<u8>
-Field_1_15_3_55112_003<u8>
-Field_1_15_3_55112_004<u8>
+GlobalStringBaseTag
+ActualType<u8>
+Red<u8>
+Green<u8>
+Blue<u8>
 
 BUILD 3.1.0.9767-3.3.5.12340
 $id$ID<32>

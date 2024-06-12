@@ -7,24 +7,17 @@ int Flags
 int<GameObjects::ID> HordeConstructObjID
 int PlotType
 int UiCategoryID
-string Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
 
 LAYOUT 2FB990EE
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000
-Field_1_15_3_55112_001<u8>
-Field_1_15_3_55112_002<32>
-Field_1_15_3_55112_003<32>
-Field_1_15_3_55112_004<u8>
-Field_1_15_3_55112_005<u8>
-Field_1_15_3_55112_006<u32>[2]
+Name
+PlotType<u8>
+HordeConstructObjID<32>
+AllianceConstructObjID<32>
+Flags<u8>
+UiCategoryID<u8>
+UpgradeRequirement<u32>[2]
 
 BUILD 6.0.1.18179
 $id$ID<32>

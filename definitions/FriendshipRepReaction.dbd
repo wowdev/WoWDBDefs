@@ -4,16 +4,13 @@ int<FriendshipReputation::ID> FriendshipRepID
 int ReactionThreshold
 locstring Reaction_lang
 int OverrideColor?
-locstring Field_1_15_3_55112_000_lang?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
 
 LAYOUT DA471F1D
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000_lang
-$relation$Field_1_15_3_55112_001<u8>
-Field_1_15_3_55112_002<u16>
+Reaction_lang
+$relation$FriendshipRepID<u8>
+ReactionThreshold<u16>
 
 LAYOUT 511B0C62
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056

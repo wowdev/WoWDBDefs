@@ -1,13 +1,11 @@
 COLUMNS
 int ID // Hardcoded: 1: "Quest Interval (Daily/Weekly)", 2: "Challenge Mode", 3: "PvP", 4: "Global Scheduler", 5: "Game Milestone"
 int Offset // If record is present, add offset onto uses of the respecitve clock.
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
 
 LAYOUT 08DEAF7F
 BUILD 1.15.3.55112
-$id$Field_1_15_3_55112_000<32>
-Field_1_15_3_55112_001<32>
+$id$ID<32>
+Offset<32>
 
 LAYOUT 6F2F4D3B
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056

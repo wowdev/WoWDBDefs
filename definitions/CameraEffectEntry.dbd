@@ -16,80 +16,48 @@ int OrderIndex
 float Phase
 float RadiusMax
 float RadiusMin
-int Field_1_15_1_53009_000?
-int Field_1_15_1_53009_001?
-float Field_1_15_1_53009_002?
-float Field_1_15_1_53009_003?
-float Field_1_15_1_53009_004?
-float Field_1_15_1_53009_005?
-float Field_1_15_1_53009_006?
-float Field_1_15_1_53009_007?
-float Field_1_15_1_53009_008?
-float Field_1_15_1_53009_009?
-int Field_1_15_1_53009_010?
-int Field_1_15_1_53009_011?
-int Field_1_15_1_53009_012?
-int Field_1_15_1_53009_013?
-int Field_1_15_1_53009_014?
-int Field_1_15_1_53009_015?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-float Field_1_15_3_55112_002?
-float Field_1_15_3_55112_003?
-float Field_1_15_3_55112_004?
-float Field_1_15_3_55112_005?
-float Field_1_15_3_55112_006?
-float Field_1_15_3_55112_007?
-float Field_1_15_3_55112_008?
-float Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-int Field_1_15_3_55112_015?
 
 LAYOUT CD9996FA
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u8>
-Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002
-Field_1_15_3_55112_003
-Field_1_15_3_55112_004
-Field_1_15_3_55112_005
-Field_1_15_3_55112_006
-Field_1_15_3_55112_007
-Field_1_15_3_55112_008
-Field_1_15_3_55112_009
-Field_1_15_3_55112_010<u8>
-Field_1_15_3_55112_011<8>
-Field_1_15_3_55112_012<u8>
-Field_1_15_3_55112_013<u8>
-Field_1_15_3_55112_014<8>
-$noninline,relation$Field_1_15_3_55112_015<32>
+OrderIndex<u8>
+AmplitudeCurveID<u32>
+Duration
+Delay
+Phase
+Amplitude
+AmplitudeB
+Frequency
+RadiusMin
+RadiusMax
+Flags<u8>
+EffectType<8>
+DirectionType<u8>
+MovementType<u8>
+AttenuationType<8>
+$noninline,relation$CameraEffectID<32>
 
 LAYOUT 0196FD7C
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056
 BUILD 1.15.2.53941, 1.15.2.54029, 1.15.2.54067, 1.15.2.54092, 1.15.2.54262, 1.15.2.54332, 1.15.2.54649, 1.15.2.54902, 1.15.2.55002
 BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
 $noninline,id$ID<32>
-Field_1_15_1_53009_000<u8>
-Field_1_15_1_53009_001<32>
-Field_1_15_1_53009_002
-Field_1_15_1_53009_003
-Field_1_15_1_53009_004
-Field_1_15_1_53009_005
-Field_1_15_1_53009_006
-Field_1_15_1_53009_007
-Field_1_15_1_53009_008
-Field_1_15_1_53009_009
-Field_1_15_1_53009_010<u8>
-Field_1_15_1_53009_011<8>
-Field_1_15_1_53009_012<u8>
-Field_1_15_1_53009_013<u8>
-Field_1_15_1_53009_014<8>
-$noninline,relation$Field_1_15_1_53009_015<32>
+OrderIndex<u8>
+AmplitudeCurveID<u32>
+Duration
+Delay
+Phase
+Amplitude
+AmplitudeB
+Frequency
+RadiusMin
+RadiusMax
+Flags<u8>
+EffectType<8>
+DirectionType<u8>
+MovementType<u8>
+AttenuationType<8>
+$noninline,relation$CameraEffectID<32>
 
 LAYOUT 0CAA2689
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

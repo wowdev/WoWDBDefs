@@ -10,10 +10,6 @@ int TextureID
 string TextureName
 int Datestamp
 int SplatDensity?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -47,10 +43,10 @@ DoodadWeight<8>[4]
 LAYOUT E77A386D
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u32>
-Field_1_15_3_55112_001<u8>
-Field_1_15_3_55112_002<u16>[4]
-Field_1_15_3_55112_003<8>[4]
+Density<u32>
+Sound<u8>
+DoodadID<u16>[4]
+DoodadWeight<8>[4]
 
 BUILD 2.0.0.5991
 BUILD 1.0.0.3980-1.10.2.5302

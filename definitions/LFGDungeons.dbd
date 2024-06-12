@@ -36,76 +36,43 @@ int<PlayerCondition::ID> Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
-locstring Field_1_15_3_55112_000_lang?
-locstring Field_1_15_3_55112_001_lang?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-float Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-int Field_1_15_3_55112_015?
-int Field_1_15_3_55112_016?
-int Field_1_15_3_55112_017?
-int Field_1_15_3_55112_018?
-int Field_1_15_3_55112_019?
-int Field_1_15_3_55112_020?
-int Field_1_15_3_55112_021?
-int Field_1_15_3_55112_022?
-int Field_1_15_3_55112_023?
-int Field_1_15_3_55112_024?
-int Field_1_15_3_55112_025?
-int Field_1_15_3_55112_026?
-int Field_1_15_3_55112_027?
-int Field_1_15_3_55112_028?
-int Field_1_15_3_55112_029?
-int Field_1_15_3_55112_030?
-int Field_1_15_3_55112_031?
-int Field_1_15_3_55112_032?
 
 LAYOUT 35344C90
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000_lang
-Field_1_15_3_55112_001_lang
-Field_1_15_3_55112_002<u8>
-Field_1_15_3_55112_003<u16>
-Field_1_15_3_55112_004<u8>
-Field_1_15_3_55112_005<u8>
-Field_1_15_3_55112_006<8>
-Field_1_15_3_55112_007<32>
-Field_1_15_3_55112_008<32>
-Field_1_15_3_55112_009<32>
-Field_1_15_3_55112_010<u8>
-Field_1_15_3_55112_011<16>
-Field_1_15_3_55112_012<u8>
-Field_1_15_3_55112_013
-Field_1_15_3_55112_014<u8>
-Field_1_15_3_55112_015<u8>
-Field_1_15_3_55112_016<u32>
-Field_1_15_3_55112_017<u8>
-Field_1_15_3_55112_018<u8>
-Field_1_15_3_55112_019<u16>
-Field_1_15_3_55112_020<u16>
-Field_1_15_3_55112_021<u16>
-Field_1_15_3_55112_022<u16>
-Field_1_15_3_55112_023<u8>
-Field_1_15_3_55112_024<u8>
-Field_1_15_3_55112_025<u8>
-Field_1_15_3_55112_026<u8>
-Field_1_15_3_55112_027<u8>
-Field_1_15_3_55112_028<u8>
-Field_1_15_3_55112_029<u16>
-Field_1_15_3_55112_030<u16>
-Field_1_15_3_55112_031<u8>
-Field_1_15_3_55112_032<32>[2]
+Name_lang
+Description_lang
+MinLevel<u8>
+MaxLevel<u16>
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
+MinGear
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
+Target_level<u8>
+Target_level_min<u8>
+Target_level_max<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MentorCharLevel<u8>
+Flags<32>[2]
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141

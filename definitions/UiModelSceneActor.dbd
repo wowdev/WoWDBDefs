@@ -9,29 +9,19 @@ float Position
 string ScriptTag
 int<UiModelSceneActorDisplay::ID> UiModelSceneActorDisplayID
 int<UiModelScene::ID> UiModelSceneID
-string Field_1_15_3_55112_000?
-float Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-float Field_1_15_3_55112_005?
-float Field_1_15_3_55112_006?
-float Field_1_15_3_55112_007?
-float Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
 
 LAYOUT F1E78B36
 BUILD 1.15.3.55112
-Field_1_15_3_55112_000
-Field_1_15_3_55112_001[3]
-$id$Field_1_15_3_55112_002<32>
-Field_1_15_3_55112_003<u8>
-Field_1_15_3_55112_004<32>
-Field_1_15_3_55112_005
-Field_1_15_3_55112_006
-Field_1_15_3_55112_007
-Field_1_15_3_55112_008
-$noninline,relation$Field_1_15_3_55112_009<32>
+ScriptTag
+Position[3]
+$id$ID<32>
+Flags<u8>
+UiModelSceneActorDisplayID<32>
+OrientationYaw
+OrientationPitch
+OrientationRoll
+NormalizedScale
+$noninline,relation$UiModelSceneID<32>
 
 LAYOUT BB10B7E3
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

@@ -13,30 +13,20 @@ int<Spell::ID> SpellID
 float Coefficient
 float Variance
 float ComboPointsCoefficient
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-float Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
 
 LAYOUT 695DA5D3
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<32>
-Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<u32>
-Field_1_15_3_55112_003<u32>
-Field_1_15_3_55112_004<16>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006<32>
-Field_1_15_3_55112_007<32>
-Field_1_15_3_55112_008
-Field_1_15_3_55112_009<32>
+SpellID<32>
+Class<32>
+MinScalingLevel<u32>
+MaxScalingLevel<u32>
+ScalesFromItemLevel<16>
+CastTimeMin<32>
+CastTimeMax<32>
+CastTimeMaxLevel<32>
+NerfFactor
+NerfMaxLevel<32>
 
 LAYOUT F28716CC
 BUILD 3.4.3.51126, 3.4.3.51278, 3.4.3.51384, 3.4.3.51397, 3.4.3.51470, 3.4.3.51505, 3.4.3.51572, 3.4.3.51666, 3.4.3.51739, 3.4.3.51831, 3.4.3.51943, 3.4.3.52237, 3.4.3.53622, 3.4.3.53788, 3.4.3.54261, 3.4.3.54948, 3.4.3.54987, 3.4.3.55085, 3.4.3.55095, 3.4.3.55115

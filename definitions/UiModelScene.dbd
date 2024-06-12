@@ -3,14 +3,12 @@ int ID
 int Flags // 0x1: SheatheWeapon, 0x2: HideWeapon, 0x4: Autodress
 int UiSystemType // C_ModelInfo.ModelSceneType: 0: MountJournal, 1: PetJournalCard, 2: ShopCard, 3: EncounterJournal, 4: PetJournalLoadout, 5: ArtifactTier2, 6: ArtifactTier2ForgingScene, 7: ArtifactTier2SlamEffect, 8: CommentatorVictoryFanfare, 9: ArtifactRelicTalentEffect, 10: PvpWarModeOrb, 11: PvpWarModeFire, 12: PartyPose, 13: AzeriteItemLevelUpToast, 14: AzeritePowers, 15: AzeriteRewardGlow, 16: HeartOfAzeroth, 17: WorldMapThreat
 int Context // -1: None, 0: PerksProgram
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
 
 LAYOUT D35977BB
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<8>
-Field_1_15_3_55112_001<u8>
+UiSystemType<8>
+Flags<u8>
 
 LAYOUT A7D62B8A, 0B9EFECA, A24757C0
 BUILD 10.0.0.43342

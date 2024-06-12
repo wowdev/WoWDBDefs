@@ -46,102 +46,56 @@ float FogStartOffset
 int EndFogHeightColor
 float HeightDensityFogCoeff
 int Field_10_0_0_44649_042?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-int Field_1_15_3_55112_015?
-int Field_1_15_3_55112_016?
-int Field_1_15_3_55112_017?
-int Field_1_15_3_55112_018?
-int Field_1_15_3_55112_019?
-float Field_1_15_3_55112_020?
-float Field_1_15_3_55112_021?
-float Field_1_15_3_55112_022?
-float Field_1_15_3_55112_023?
-float Field_1_15_3_55112_024?
-float Field_1_15_3_55112_025?
-float Field_1_15_3_55112_026?
-float Field_1_15_3_55112_027?
-float Field_1_15_3_55112_028?
-float Field_1_15_3_55112_029?
-float Field_1_15_3_55112_030?
-int Field_1_15_3_55112_031?
-int Field_1_15_3_55112_032?
-int Field_1_15_3_55112_033?
-int Field_1_15_3_55112_034?
-int Field_1_15_3_55112_035?
-float Field_1_15_3_55112_036?
-float Field_1_15_3_55112_037?
-int Field_1_15_3_55112_038?
-float Field_1_15_3_55112_039?
-int Field_1_15_3_55112_040?
-int Field_1_15_3_55112_041?
-int Field_1_15_3_55112_042?
-float Field_1_15_3_55112_043?
-float Field_1_15_3_55112_044?
-float Field_1_15_3_55112_045?
 
 LAYOUT 70C6CD80
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-$relation$Field_1_15_3_55112_000<u16>
-Field_1_15_3_55112_001<u16>
-Field_1_15_3_55112_002<32>
-Field_1_15_3_55112_003<32>
-Field_1_15_3_55112_004<32>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006<32>
-Field_1_15_3_55112_007<32>
-Field_1_15_3_55112_008<32>
-Field_1_15_3_55112_009<32>
-Field_1_15_3_55112_010<32>
-Field_1_15_3_55112_011<32>
-Field_1_15_3_55112_012<32>
-Field_1_15_3_55112_013<32>
-Field_1_15_3_55112_014<32>
-Field_1_15_3_55112_015<32>
-Field_1_15_3_55112_016<32>
-Field_1_15_3_55112_017<32>
-Field_1_15_3_55112_018<32>
-Field_1_15_3_55112_019<32>
-Field_1_15_3_55112_020
-Field_1_15_3_55112_021
-Field_1_15_3_55112_022
-Field_1_15_3_55112_023
-Field_1_15_3_55112_024
-Field_1_15_3_55112_025
-Field_1_15_3_55112_026
-Field_1_15_3_55112_027
-Field_1_15_3_55112_028
-Field_1_15_3_55112_029
-Field_1_15_3_55112_030
-Field_1_15_3_55112_031<u32>
-Field_1_15_3_55112_032<u32>
-Field_1_15_3_55112_033<32>
-Field_1_15_3_55112_034<32>
-Field_1_15_3_55112_035<u32>
-Field_1_15_3_55112_036
-Field_1_15_3_55112_037
-Field_1_15_3_55112_038<u32>
-Field_1_15_3_55112_039
-Field_1_15_3_55112_040<u32>
-Field_1_15_3_55112_041<u32>
-Field_1_15_3_55112_042<32>
-Field_1_15_3_55112_043[4]
-Field_1_15_3_55112_044[4]
-Field_1_15_3_55112_045[4]
+$relation$LightParamID<u16>
+Time<u16>
+DirectColor<32>
+AmbientColor<32>
+SkyTopColor<32>
+SkyMiddleColor<32>
+SkyBand1Color<32>
+SkyBand2Color<32>
+SkySmogColor<32>
+SkyFogColor<32>
+SunColor<32>
+CloudSunColor<32>
+CloudEmissiveColor<32>
+CloudLayer1AmbientColor<32>
+CloudLayer2AmbientColor<32>
+OceanCloseColor<32>
+OceanFarColor<32>
+RiverCloseColor<32>
+RiverFarColor<32>
+ShadowOpacity<32>
+FogEnd
+FogScaler
+FogDensity
+FogHeight
+FogHeightScaler
+FogHeightDensity
+FogZScalar
+MainFogStartDist
+MainFogEndDist
+SunFogAngle
+CloudDensity
+ColorGradingFileDataID<u32>
+DarkerColorGradingFileDataID<u32>
+HorizonAmbientColor<32>
+GroundAmbientColor<32>
+EndFogColor<u32>
+EndFogColorDistance
+FogStartOffset
+SunFogColor<u32>
+SunFogStrength
+FogHeightColor<u32>
+EndFogHeightColor<u32>
+Field_10_0_0_44649_042<32>
+FogHeightCoefficients[4]
+MainFogCoefficients[4]
+HeightDensityFogCoeff[4]
 
 LAYOUT 9E95F375
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475, 2.5.1.39603, 2.5.1.39640

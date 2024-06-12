@@ -53,11 +53,6 @@ float CharacterParam
 int CharacterProcedure
 int ClutterLevel // When displaying an effect, use this as an index into the correspondin SpellClutter* dbs.
 int Field_7_3_2_25549_001?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-float Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -98,11 +93,11 @@ CharParamThree[4]
 LAYOUT B4A308CD
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u32>
-Field_1_15_3_55112_001<u16>
-Field_1_15_3_55112_002<u16>
-Field_1_15_3_55112_003
-Field_1_15_3_55112_004<32>[2]
+FallbackSpellVisualKitID<u32>
+DelayMin<u16>
+DelayMax<u16>
+FallbackPriority
+Flags<32>[2]
 
 BUILD 2.0.0.5610-2.0.3.6282
 BUILD 1.0.0.3980-1.12.3.6141

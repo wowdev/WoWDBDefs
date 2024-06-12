@@ -5,10 +5,6 @@ int Index // depending on Type: 1: Item::ID, 2: LockType::ID, 3: Spell::ID
 int Skill // if Type != skill: 0
 int Action // 0: open, 1: open_unlock, 2: close, 3: destroy, 4: rebuild
 int Flags // &0x1: tooltip showing unlock vs open action?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
 
 BUILD 0.5.3.3368-0.9.1.3810
 $id$ID<32>
@@ -20,10 +16,10 @@ Action<32>[4]
 LAYOUT 377BDA0A
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<32>[8]
-Field_1_15_3_55112_001<u16>[8]
-Field_1_15_3_55112_002<u8>[8]
-Field_1_15_3_55112_003<u8>[8]
+Index<32>[8]
+Skill<u16>[8]
+Type<u8>[8]
+Action<u8>[8]
 
 LAYOUT 82DBCD97
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056

@@ -77,80 +77,7 @@ int<Curve::ID> PlayerLevelToItemLevelCurveID?
 int Field_7_3_2_25549_048? // probably RequiredPVPRank
 int Field_7_3_2_25549_049? // probably RequiredPVPMedal
 int Field_4_4_0_53750_013?
-int Field_1_15_3_55112_000?
-locstring Field_1_15_3_55112_001_lang?
-locstring Field_1_15_3_55112_002_lang?
-locstring Field_1_15_3_55112_003_lang?
-locstring Field_1_15_3_55112_004_lang?
-locstring Field_1_15_3_55112_005_lang?
-float Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-float Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-float Field_1_15_3_55112_011?
-float Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
 int Field_1_15_3_55112_014?
-int Field_1_15_3_55112_015?
-int Field_1_15_3_55112_016?
-int Field_1_15_3_55112_017?
-int Field_1_15_3_55112_018?
-int Field_1_15_3_55112_019?
-int Field_1_15_3_55112_020?
-int Field_1_15_3_55112_021?
-float Field_1_15_3_55112_022?
-float Field_1_15_3_55112_023?
-int Field_1_15_3_55112_024?
-int Field_1_15_3_55112_025?
-int Field_1_15_3_55112_026?
-int Field_1_15_3_55112_027?
-int Field_1_15_3_55112_028?
-int Field_1_15_3_55112_029?
-int Field_1_15_3_55112_030?
-int Field_1_15_3_55112_031?
-int Field_1_15_3_55112_032?
-int Field_1_15_3_55112_033?
-int Field_1_15_3_55112_034?
-int Field_1_15_3_55112_035?
-int Field_1_15_3_55112_036?
-int Field_1_15_3_55112_037?
-int Field_1_15_3_55112_038?
-int Field_1_15_3_55112_039?
-int Field_1_15_3_55112_040?
-int Field_1_15_3_55112_041?
-int Field_1_15_3_55112_042?
-int Field_1_15_3_55112_043?
-int Field_1_15_3_55112_044?
-int Field_1_15_3_55112_045?
-int Field_1_15_3_55112_046?
-int Field_1_15_3_55112_047?
-int Field_1_15_3_55112_048?
-int Field_1_15_3_55112_049?
-int Field_1_15_3_55112_050?
-int Field_1_15_3_55112_051?
-int Field_1_15_3_55112_052?
-int Field_1_15_3_55112_053?
-int Field_1_15_3_55112_054?
-int Field_1_15_3_55112_055?
-int Field_1_15_3_55112_056?
-int Field_1_15_3_55112_057?
-int Field_1_15_3_55112_058?
-int Field_1_15_3_55112_059?
-int Field_1_15_3_55112_060?
-int Field_1_15_3_55112_061?
-int Field_1_15_3_55112_062?
-int Field_1_15_3_55112_063?
-int Field_1_15_3_55112_064?
-int Field_1_15_3_55112_065?
-int Field_1_15_3_55112_066?
-int Field_1_15_3_55112_067?
-int Field_1_15_3_55112_068?
-int Field_1_15_3_55112_069?
-int Field_1_15_3_55112_070?
-int Field_1_15_3_55112_071?
-int Field_1_15_3_55112_072?
-int Field_1_15_3_55112_073?
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -388,80 +315,80 @@ LAYOUT ABA7EC6C
 BUILD 1.15.3.55112
 COMMENT table is sparse
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<64>
-Field_1_15_3_55112_001_lang
-Field_1_15_3_55112_002_lang
-Field_1_15_3_55112_003_lang
-Field_1_15_3_55112_004_lang
-Field_1_15_3_55112_005_lang
-Field_1_15_3_55112_006
-Field_1_15_3_55112_007<u32>
-Field_1_15_3_55112_008
-Field_1_15_3_55112_009<u32>
-Field_1_15_3_55112_010<32>
-Field_1_15_3_55112_011
-Field_1_15_3_55112_012[10]
-Field_1_15_3_55112_013<32>[10]
+AllowableRace<64>
+Description_lang
+Display3_lang
+Display2_lang
+Display1_lang
+Display_lang
+DmgVariance
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+StartQuestID<32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
 Field_1_15_3_55112_014<32>[10]
-Field_1_15_3_55112_015<32>
-Field_1_15_3_55112_016<32>
-Field_1_15_3_55112_017<32>
-Field_1_15_3_55112_018<u32>
-Field_1_15_3_55112_019<u32>
-Field_1_15_3_55112_020<u32>
-Field_1_15_3_55112_021<u32>
-Field_1_15_3_55112_022
-Field_1_15_3_55112_023
-Field_1_15_3_55112_024<32>[4]
-Field_1_15_3_55112_025<32>
-Field_1_15_3_55112_026<32>
-Field_1_15_3_55112_027<32>
-Field_1_15_3_55112_028<32>
-Field_1_15_3_55112_029<u32>
-Field_1_15_3_55112_030<u16>
-Field_1_15_3_55112_031<u16>
-Field_1_15_3_55112_032<u16>
-Field_1_15_3_55112_033<u16>
-Field_1_15_3_55112_034<u16>
-Field_1_15_3_55112_035<u16>
-Field_1_15_3_55112_036<u16>
-Field_1_15_3_55112_037<u16>
-Field_1_15_3_55112_038<u16>[2]
-Field_1_15_3_55112_039<u16>
-Field_1_15_3_55112_040<u16>
-Field_1_15_3_55112_041<u16>
-Field_1_15_3_55112_042<u16>
-Field_1_15_3_55112_043<u16>
-Field_1_15_3_55112_044<u16>
-Field_1_15_3_55112_045<u16>
-Field_1_15_3_55112_046<u16>
-Field_1_15_3_55112_047<16>
-Field_1_15_3_55112_048<u16>
-Field_1_15_3_55112_049<u16>
-Field_1_15_3_55112_050<u16>[5]
-Field_1_15_3_55112_051<u16>[5]
-Field_1_15_3_55112_052<16>[7]
-Field_1_15_3_55112_053<u16>
-Field_1_15_3_55112_054<16>[10]
-Field_1_15_3_55112_055<u8>
-Field_1_15_3_55112_056<u8>
-Field_1_15_3_55112_057<u8>
-Field_1_15_3_55112_058<u8>
-Field_1_15_3_55112_059<u8>[3]
-Field_1_15_3_55112_060<u8>
-Field_1_15_3_55112_061<u8>
-Field_1_15_3_55112_062<u8>
-Field_1_15_3_55112_063<u8>
-Field_1_15_3_55112_064<u8>
-Field_1_15_3_55112_065<u8>
-Field_1_15_3_55112_066<8>[10]
-Field_1_15_3_55112_067<u8>
-Field_1_15_3_55112_068<u8>
-Field_1_15_3_55112_069<u8>
-Field_1_15_3_55112_070<8>
-Field_1_15_3_55112_071<8>
-Field_1_15_3_55112_072<u8>
-Field_1_15_3_55112_073<8>
+Stackable<32>
+MaxCount<32>
+MinReputation<32>
+RequiredAbility<u32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[4]
+OppositeFactionItemID<32>
+ModifiedCraftingReagentItemID<32>
+ContentTuningID<32>
+PlayerLevelToItemLevelCurveID<32>
+MaxDurability<u32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+LimitCategory<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
+ItemSet<u16>
+LockID<u16>
+PageID<u16>
+ItemDelay<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ItemRandomSuffixGroupID<u16>
+RandomSelect<u16>
+MinDamage<u16>[5]
+MaxDamage<u16>[5]
+Resistances<16>[7]
+ScalingStatDistributionID<u16>
+StatModifier_bonusAmount<16>[10]
+ExpansionID<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+LanguageID<u8>
+Bonding<u8>
+DamageType<u8>
+StatModifier_bonusStat<8>[10]
+ContainerSlots<u8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<u8>
+InventoryType<8>
+OverallQualityID<8>
+AmmunitionType<u8>
+RequiredLevel<8>
 
 LAYOUT 9E2F6B8B
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011, 2.5.2.40045, 2.5.2.40203, 2.5.2.40260, 2.5.2.40422, 2.5.2.40488, 2.5.2.40617, 2.5.2.40892, 2.5.2.41446, 2.5.2.41510

@@ -6,21 +6,15 @@ int PosY?
 int Type? // 0: Single, 1: Tiered, 2: Selection
 int Flags? // &1: ShowMultipleIcons
 int<TraitSubTree::ID> TraitSubTreeID?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
 
 LAYOUT 97464228
 BUILD 1.15.3.55112
-$id$Field_1_15_3_55112_000<32>
-$relation$Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<32>
-Field_1_15_3_55112_003<32>
-Field_1_15_3_55112_004<u8>
-Field_1_15_3_55112_005<32>
+$id$ID<32>
+$relation$TraitTreeID<32>
+PosX<32>
+PosY<32>
+Type<u8>
+Flags<32>
 
 LAYOUT A46ED361
 BUILD 10.0.0.43342

@@ -2,14 +2,12 @@ COLUMNS
 int ID
 int<ItemAppearance::ID> ItemAppearanceID
 int<UiCamera::ID> UiCameraID
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
 
 LAYOUT 4BEBE0CD
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u16>
-Field_1_15_3_55112_001<u16>
+ItemAppearanceID<u16>
+UiCameraID<u16>
 
 LAYOUT 67747E15, CD3677FD, 774578C5
 BUILD 10.0.0.43342

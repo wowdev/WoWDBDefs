@@ -46,34 +46,6 @@ float MountScaleOther?
 float WalkSpeed?
 float RunSpeed?
 int Field_11_0_0_54210_032?
-float Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-float Field_1_15_3_55112_005?
-float Field_1_15_3_55112_006?
-float Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-float Field_1_15_3_55112_013?
-float Field_1_15_3_55112_014?
-float Field_1_15_3_55112_015?
-int Field_1_15_3_55112_016?
-float Field_1_15_3_55112_017?
-float Field_1_15_3_55112_018?
-float Field_1_15_3_55112_019?
-float Field_1_15_3_55112_020?
-float Field_1_15_3_55112_021?
-float Field_1_15_3_55112_022?
-float Field_1_15_3_55112_023?
-float Field_1_15_3_55112_024?
-float Field_1_15_3_55112_025?
-float Field_1_15_3_55112_026?
-float Field_1_15_3_55112_027?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -95,34 +67,34 @@ SoundID<32>
 LAYOUT 93A85FAB
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000[6]
-Field_1_15_3_55112_001<u32>
-Field_1_15_3_55112_002<u32>
-Field_1_15_3_55112_003<u32>
-Field_1_15_3_55112_004<u32>
-Field_1_15_3_55112_005
-Field_1_15_3_55112_006
-Field_1_15_3_55112_007
-Field_1_15_3_55112_008<u32>
-Field_1_15_3_55112_009<u32>
-Field_1_15_3_55112_010<u32>
-Field_1_15_3_55112_011<u32>
-Field_1_15_3_55112_012<u32>
-Field_1_15_3_55112_013
-Field_1_15_3_55112_014
-Field_1_15_3_55112_015
-Field_1_15_3_55112_016<u32>
-Field_1_15_3_55112_017
-Field_1_15_3_55112_018
-Field_1_15_3_55112_019
-Field_1_15_3_55112_020
-Field_1_15_3_55112_021
-Field_1_15_3_55112_022
-Field_1_15_3_55112_023
-Field_1_15_3_55112_024
-Field_1_15_3_55112_025
-Field_1_15_3_55112_026
-Field_1_15_3_55112_027
+GeoBox[6]
+Flags<u32>
+FileDataID<u32>
+BloodID<u32>
+FootprintTextureID<u32>
+FootprintTextureLength
+FootprintTextureWidth
+FootprintParticleScale
+FoleyMaterialID<u32>
+FootstepCameraEffectID<u32>
+DeathThudCameraEffectID<u32>
+SoundID<u32>
+SizeClass<u32>
+CollisionWidth
+CollisionHeight
+WorldEffectScale
+CreatureGeosetDataID<u32>
+HoverHeight
+AttachedEffectScale
+ModelScale
+MissileCollisionRadius
+MissileCollisionPush
+MissileCollisionRaise
+MountHeight
+OverrideLootEffectScale
+OverrideNameScale
+OverrideSelectionRadius
+TamedPetBaseScale
 
 BUILD 2.0.0.5610, 2.0.0.5991
 BUILD 1.0.0.3980-1.12.3.6141

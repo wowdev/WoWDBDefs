@@ -10,18 +10,14 @@ int OutAnimType
 int WidgetScale // UIWidgetScale 0 = OneHundred, 1 = Ninty, 2 = Eighty, 3 = Seventy, 4 = Sixty, 5 = Fifty
 int<UIScriptedAnimationEffect::ID> ScriptedAnimationEffectID
 int ModelSceneLayer // UIWidgetModelSceneLayer 0 = None, 1 = Front, 2 = Back
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
 
 LAYOUT 8F0ACA66
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u8>
-Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<32>
-Field_1_15_3_55112_003<16>
+VisType<u8>
+TextureKit<32>
+FrameTextureKit<32>
+SizeSetting<16>
 
 LAYOUT 6DCD2EF3
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

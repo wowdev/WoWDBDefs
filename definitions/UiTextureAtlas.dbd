@@ -4,18 +4,14 @@ int AtlasHeight
 int AtlasWidth
 int<FileData::ID> FileDataID
 int<UiCanvas::ID> UiCanvasID
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
 
 LAYOUT 1D9B7D22
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<32>
-Field_1_15_3_55112_001<u16>
-Field_1_15_3_55112_002<u16>
-Field_1_15_3_55112_003<u8>
+FileDataID<32>
+AtlasWidth<u16>
+AtlasHeight<u16>
+UiCanvasID<u8>
 
 BUILD 6.0.1.18179
 $id$ID<32>

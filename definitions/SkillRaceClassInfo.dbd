@@ -9,26 +9,18 @@ int MinLevel
 int<SkillTiers::ID> SkillTierID
 int SkillCostIndex
 int Field_1_15_0_52124_007?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
 
 LAYOUT 84D9D8B3
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<64>
-$relation$Field_1_15_3_55112_001<16>
-Field_1_15_3_55112_002<32>
-Field_1_15_3_55112_003<u16>
-Field_1_15_3_55112_004<8>
-Field_1_15_3_55112_005<8>
-Field_1_15_3_55112_006<16>
-Field_1_15_3_55112_007<32>
+RaceMask<64>
+$relation$SkillID<16>
+ClassMask<32>
+Flags<u16>
+Availability<8>
+MinLevel<8>
+SkillTierID<16>
+Field_1_15_0_52124_007<32>
 
 BUILD 4.0.0.11792
 BUILD 3.0.8.9328

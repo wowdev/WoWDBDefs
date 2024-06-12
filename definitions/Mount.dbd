@@ -14,31 +14,20 @@ int SourceTypeEnum
 int<UiModelScene::ID> UiModelSceneID
 int<AnimKit::ID> MountSpecialRiderAnimKitID?
 int<SpellVisualKit::ID> MountSpecialSpellVisualKitID?
-locstring Field_1_15_3_55112_000_lang?
-locstring Field_1_15_3_55112_001_lang?
-locstring Field_1_15_3_55112_002_lang?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-float Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
 
 LAYOUT DB77F653
 BUILD 1.15.3.55112
-Field_1_15_3_55112_000_lang
-Field_1_15_3_55112_001_lang
-Field_1_15_3_55112_002_lang
-$id$Field_1_15_3_55112_003<32>
-Field_1_15_3_55112_004<u16>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006<8>
-Field_1_15_3_55112_007<32>
-Field_1_15_3_55112_008<u32>
-Field_1_15_3_55112_009
-Field_1_15_3_55112_010<32>
+Name_lang
+SourceText_lang
+Description_lang
+$id$ID<32>
+MountTypeID<u16>
+Flags<32>
+SourceTypeEnum<8>
+SourceSpellID<32>
+PlayerConditionID<u32>
+MountFlyRideHeight
+UiModelSceneID<32>
 
 LAYOUT E1D74D32
 BUILD 3.4.3.51126, 3.4.3.51278, 3.4.3.51384, 3.4.3.51397, 3.4.3.51470, 3.4.3.51505, 3.4.3.51572, 3.4.3.51666, 3.4.3.51739, 3.4.3.51831, 3.4.3.51943, 3.4.3.52237, 3.4.3.53622, 3.4.3.53788, 3.4.3.54261, 3.4.3.54948, 3.4.3.54987, 3.4.3.55085, 3.4.3.55095, 3.4.3.55115

@@ -54,28 +54,6 @@ int Field_3_0_2_9056_021?
 int Field_1_7_0_4671_015?
 int NavigationMaxDistance? // default/if <= 0: 999, max ingame navigation pin distance
 int<FileData::ID> PreloadFileDataID?
-string Field_1_15_3_55112_000?
-locstring Field_1_15_3_55112_001_lang?
-locstring Field_1_15_3_55112_002_lang?
-locstring Field_1_15_3_55112_003_lang?
-locstring Field_1_15_3_55112_004_lang?
-locstring Field_1_15_3_55112_005_lang?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-float Field_1_15_3_55112_015?
-int Field_1_15_3_55112_016?
-int Field_1_15_3_55112_017?
-int Field_1_15_3_55112_018?
-int Field_1_15_3_55112_019?
-int Field_1_15_3_55112_020?
-int Field_1_15_3_55112_021?
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
@@ -223,28 +201,28 @@ Flags<32>[2]
 LAYOUT DAD9F758
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000
-Field_1_15_3_55112_001_lang
-Field_1_15_3_55112_002_lang
-Field_1_15_3_55112_003_lang
-Field_1_15_3_55112_004_lang
-Field_1_15_3_55112_005_lang
-Field_1_15_3_55112_006<u8>
-Field_1_15_3_55112_007<8>
-Field_1_15_3_55112_008<u8>
-Field_1_15_3_55112_009<u16>
-Field_1_15_3_55112_010<16>
-Field_1_15_3_55112_011<16>
-Field_1_15_3_55112_012<16>
-Field_1_15_3_55112_013<16>
-Field_1_15_3_55112_014<u8>
-Field_1_15_3_55112_015
-Field_1_15_3_55112_016<32>
-Field_1_15_3_55112_017<16>
-Field_1_15_3_55112_018<u8>
-Field_1_15_3_55112_019<16>
-Field_1_15_3_55112_020<32>
-Field_1_15_3_55112_021<32>[3]
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
+MapType<u8>
+InstanceType<8>
+ExpansionID<u8>
+AreaTableID<u16>
+LoadingScreenID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+TimeOffset<u8>
+MinimapIconScale
+RaidOffset<32>
+CorpseMapID<16>
+MaxPlayers<u8>
+WindSettingsID<16>
+ZmpFileDataID<32>
+Flags<32>[3]
 
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>

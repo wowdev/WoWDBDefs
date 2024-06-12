@@ -58,95 +58,52 @@ float Field_8_3_0_32044_053?
 float Field_8_3_0_32044_054?
 float Field_9_1_0_38312_055?
 float Field_9_1_0_38312_056?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-float Field_1_15_3_55112_002?
-float Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-float Field_1_15_3_55112_015?
-float Field_1_15_3_55112_016?
-float Field_1_15_3_55112_017?
-float Field_1_15_3_55112_018?
-float Field_1_15_3_55112_019?
-float Field_1_15_3_55112_020?
-float Field_1_15_3_55112_021?
-float Field_1_15_3_55112_022?
-float Field_1_15_3_55112_023?
-int Field_1_15_3_55112_024?
-int Field_1_15_3_55112_025?
-float Field_1_15_3_55112_026?
-float Field_1_15_3_55112_027?
-float Field_1_15_3_55112_028?
-int Field_1_15_3_55112_029?
-int Field_1_15_3_55112_030?
-int Field_1_15_3_55112_031?
-int Field_1_15_3_55112_032?
-int Field_1_15_3_55112_033?
-int Field_1_15_3_55112_034?
-int Field_1_15_3_55112_035?
-int Field_1_15_3_55112_036?
-int Field_1_15_3_55112_037?
-int Field_1_15_3_55112_038?
-int Field_1_15_3_55112_039?
-int Field_1_15_3_55112_040?
-int Field_1_15_3_55112_041?
-float Field_1_15_3_55112_042?
 
 LAYOUT E61A9EE0
 BUILD 1.15.3.55112
-$id$Field_1_15_3_55112_000<32>
-Field_1_15_3_55112_001<u32>
-Field_1_15_3_55112_002
-Field_1_15_3_55112_003
-Field_1_15_3_55112_004<u32>
-Field_1_15_3_55112_005<u32>
-Field_1_15_3_55112_006<u32>
-Field_1_15_3_55112_007<u32>
-Field_1_15_3_55112_008<32>
-Field_1_15_3_55112_009<8>
-Field_1_15_3_55112_010<u32>
-Field_1_15_3_55112_011<u32>
-Field_1_15_3_55112_012<u32>
-Field_1_15_3_55112_013<u32>
-Field_1_15_3_55112_014<u8>
-Field_1_15_3_55112_015
-Field_1_15_3_55112_016
-Field_1_15_3_55112_017
-Field_1_15_3_55112_018
-Field_1_15_3_55112_019
-Field_1_15_3_55112_020
-Field_1_15_3_55112_021
-Field_1_15_3_55112_022
-Field_1_15_3_55112_023
-Field_1_15_3_55112_024<u32>
-Field_1_15_3_55112_025<u32>
-Field_1_15_3_55112_026
-Field_1_15_3_55112_027
-Field_1_15_3_55112_028
-Field_1_15_3_55112_029<u8>
-Field_1_15_3_55112_030<u16>
-Field_1_15_3_55112_031<32>
-Field_1_15_3_55112_032<u32>
-Field_1_15_3_55112_033<u32>
-Field_1_15_3_55112_034<u8>
-Field_1_15_3_55112_035<u8>
-Field_1_15_3_55112_036<32>
-Field_1_15_3_55112_037<32>
-Field_1_15_3_55112_038<u32>
-Field_1_15_3_55112_039<32>
-Field_1_15_3_55112_040<32>
-Field_1_15_3_55112_041<u32>
-Field_1_15_3_55112_042
+$id$ID<32>
+SoundKitID<u32>
+InnerRadius2D
+OuterRadius2D
+TimeA<u32>
+TimeB<u32>
+TimeC<u32>
+TimeD<u32>
+RandomOffsetRange<32>
+Usage<8>
+TimeIntervalMin<u32>
+TimeIntervalMax<u32>
+DelayMin<u32>
+DelayMax<u32>
+VolumeSliderCategory<u8>
+DuckToSFX
+DuckToMusic
+DuckToAmbience
+DuckToDialog
+DuckToSuppressors
+DuckToCinematicSFX
+DuckToCinematicMusic
+InnerRadiusOfInfluence
+OuterRadiusOfInfluence
+TimeToDuck<u32>
+TimeToUnduck<u32>
+InsideAngle
+OutsideAngle
+OutsideVolume
+MinRandomPosOffset<u8>
+MaxRandomPosOffset<u16>
+MsOffset<32>
+TimeCooldownMin<u32>
+TimeCooldownMax<u32>
+MaxInstancesBehavior<u8>
+VolumeControlType<u8>
+VolumeFadeInTimeMin<32>
+VolumeFadeInTimeMax<32>
+VolumeFadeInCurveID<u32>
+VolumeFadeOutTimeMin<32>
+VolumeFadeOutTimeMax<32>
+VolumeFadeOutCurveID<u32>
+ChanceToPlay
 
 LAYOUT 9E8F3D27
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

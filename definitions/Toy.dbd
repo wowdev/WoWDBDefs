@@ -4,19 +4,14 @@ int Flags
 int<Item::ID> ItemID
 locstring SourceText_lang
 int SourceTypeEnum
-locstring Field_1_15_3_55112_000_lang?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
 
 LAYOUT E5109140
 BUILD 1.15.3.55112
-Field_1_15_3_55112_000_lang
-$id$Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<32>
-Field_1_15_3_55112_003<u8>
-Field_1_15_3_55112_004<8>
+SourceText_lang
+$id$ID<32>
+ItemID<32>
+Flags<u8>
+SourceTypeEnum<8>
 
 LAYOUT 01D29F62
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

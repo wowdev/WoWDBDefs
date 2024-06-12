@@ -5,20 +5,15 @@ int HideGeosetGroup?
 int HelmetGeosetVisDataID? // this is equivalent to HelmetGeosetVisData::ID, which is still how this table is referenced.
 int RaceBitSelection? // instead of using race id, use playable race bit to select; 0: none, 1: Alliance, 2: Horde, 3: any playable
 int Field_10_0_0_46047_003?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
 
 LAYOUT 3571A507
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<32>
-Field_1_15_3_55112_001<8>
-Field_1_15_3_55112_002<u8>
-Field_1_15_3_55112_003<8>
-$noninline,relation$Field_1_15_3_55112_004<32>
+RaceID<32>
+HideGeosetGroup<8>
+RaceBitSelection<u8>
+Field_10_0_0_46047_003<8>
+$noninline,relation$HelmetGeosetVisDataID<32>
 
 LAYOUT A88423BF, 4C7DCA12
 BUILD 8.3.7.34872, 8.3.7.35114, 8.3.7.35249, 8.3.7.35284, 8.3.7.35435, 8.3.7.35662

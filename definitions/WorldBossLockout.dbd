@@ -2,14 +2,12 @@ COLUMNS
 locstring Name_lang
 int ID
 int<QuestV2::ID> TrackingQuestID
-locstring Field_1_15_3_55112_000_lang?
-int Field_1_15_3_55112_001?
 
 LAYOUT 63019FFE
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000_lang
-Field_1_15_3_55112_001<u32>
+Name_lang
+TrackingQuestID<u32>
 
 LAYOUT F6CA67DB
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

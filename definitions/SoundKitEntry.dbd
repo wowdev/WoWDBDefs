@@ -5,18 +5,14 @@ int<SoundKit::ID> SoundKitID
 int Frequency
 float Volume
 int PlayerConditionID? // Very unconfirmed, but matches with test spell
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-float Field_1_15_3_55112_003?
 
 LAYOUT FA6411B1
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-$relation$Field_1_15_3_55112_000<u32>
-Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<u8>
-Field_1_15_3_55112_003
+$relation$SoundKitID<u32>
+FileDataID<32>
+Frequency<u8>
+Volume
 
 LAYOUT ADC0D817
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

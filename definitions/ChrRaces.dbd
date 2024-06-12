@@ -79,63 +79,6 @@ int<ChrRaces::ID> HelmetAnimScalingRaceID?
 float Field_9_1_0_38312_030?
 float Field_9_1_0_38312_031?
 int Field_10_0_0_44649_045? // 1 for dragonriding races
-string Field_1_15_3_55112_000?
-string Field_1_15_3_55112_001?
-locstring Field_1_15_3_55112_002_lang?
-locstring Field_1_15_3_55112_003_lang?
-locstring Field_1_15_3_55112_004_lang?
-locstring Field_1_15_3_55112_005_lang?
-locstring Field_1_15_3_55112_006_lang?
-locstring Field_1_15_3_55112_007_lang?
-locstring Field_1_15_3_55112_008_lang?
-locstring Field_1_15_3_55112_009_lang?
-locstring Field_1_15_3_55112_010_lang?
-locstring Field_1_15_3_55112_011_lang?
-locstring Field_1_15_3_55112_012_lang?
-locstring Field_1_15_3_55112_013_lang?
-locstring Field_1_15_3_55112_014_lang?
-int Field_1_15_3_55112_015?
-int Field_1_15_3_55112_016?
-int Field_1_15_3_55112_017?
-int Field_1_15_3_55112_018?
-int Field_1_15_3_55112_019?
-int Field_1_15_3_55112_020?
-int Field_1_15_3_55112_021?
-int Field_1_15_3_55112_022?
-int Field_1_15_3_55112_023?
-int Field_1_15_3_55112_024?
-int Field_1_15_3_55112_025?
-int Field_1_15_3_55112_026?
-int Field_1_15_3_55112_027?
-int Field_1_15_3_55112_028?
-int Field_1_15_3_55112_029?
-int Field_1_15_3_55112_030?
-int Field_1_15_3_55112_031?
-int Field_1_15_3_55112_032?
-int Field_1_15_3_55112_033?
-int Field_1_15_3_55112_034?
-float Field_1_15_3_55112_035?
-float Field_1_15_3_55112_036?
-float Field_1_15_3_55112_037?
-float Field_1_15_3_55112_038?
-int Field_1_15_3_55112_039?
-int Field_1_15_3_55112_040?
-int Field_1_15_3_55112_041?
-int Field_1_15_3_55112_042?
-int Field_1_15_3_55112_043?
-int Field_1_15_3_55112_044?
-int Field_1_15_3_55112_045?
-int Field_1_15_3_55112_046?
-int Field_1_15_3_55112_047?
-int Field_1_15_3_55112_048?
-int Field_1_15_3_55112_049?
-int Field_1_15_3_55112_050?
-int Field_1_15_3_55112_051?
-int Field_1_15_3_55112_052?
-int Field_1_15_3_55112_053?
-int Field_1_15_3_55112_054?
-int Field_1_15_3_55112_055?
-int Field_1_15_3_55112_056?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -180,63 +123,63 @@ Name_lang
 LAYOUT E8A71CAF
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000
-Field_1_15_3_55112_001
-Field_1_15_3_55112_002_lang
-Field_1_15_3_55112_003_lang
-Field_1_15_3_55112_004_lang
-Field_1_15_3_55112_005_lang
-Field_1_15_3_55112_006_lang
-Field_1_15_3_55112_007_lang
-Field_1_15_3_55112_008_lang
-Field_1_15_3_55112_009_lang
-Field_1_15_3_55112_010_lang
-Field_1_15_3_55112_011_lang
-Field_1_15_3_55112_012_lang
-Field_1_15_3_55112_013_lang
-Field_1_15_3_55112_014_lang
-Field_1_15_3_55112_015<32>
-Field_1_15_3_55112_016<u32>
-Field_1_15_3_55112_017<u32>
-Field_1_15_3_55112_018<u32>
-Field_1_15_3_55112_019<u32>
-Field_1_15_3_55112_020<32>
-Field_1_15_3_55112_021<32>
-Field_1_15_3_55112_022<32>
-Field_1_15_3_55112_023<32>
-Field_1_15_3_55112_024<32>
-Field_1_15_3_55112_025<u32>[3]
-Field_1_15_3_55112_026<u32>[3]
-Field_1_15_3_55112_027<32>
-Field_1_15_3_55112_028<32>
-Field_1_15_3_55112_029<32>
-Field_1_15_3_55112_030<32>
-Field_1_15_3_55112_031<32>
-Field_1_15_3_55112_032<32>
-Field_1_15_3_55112_033<32>
-Field_1_15_3_55112_034<32>
-Field_1_15_3_55112_035[3]
-Field_1_15_3_55112_036
-Field_1_15_3_55112_037[3]
-Field_1_15_3_55112_038[3]
-Field_1_15_3_55112_039<16>
-Field_1_15_3_55112_040<16>
-Field_1_15_3_55112_041<8>
-Field_1_15_3_55112_042<8>
-Field_1_15_3_55112_043<8>
-Field_1_15_3_55112_044<8>
-Field_1_15_3_55112_045<8>
-Field_1_15_3_55112_046<8>
-Field_1_15_3_55112_047<8>
-Field_1_15_3_55112_048<8>
-Field_1_15_3_55112_049<8>
-Field_1_15_3_55112_050<8>
-Field_1_15_3_55112_051<8>
-Field_1_15_3_55112_052<8>
-Field_1_15_3_55112_053<8>
-Field_1_15_3_55112_054<8>
-Field_1_15_3_55112_055<8>
-Field_1_15_3_55112_056<8>
+ClientPrefix
+ClientFileString
+Name_lang
+Name_female_lang
+Name_lowercase_lang
+Name_female_lowercase_lang
+Lore_name_lang
+Lore_name_female_lang
+Lore_name_lower_lang
+Lore_name_lower_female_lang
+LoreDescription_lang
+Short_name_lang
+Short_name_female_lang
+Short_name_lower_lang
+Short_name_lower_female_lang
+Flags<32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
+ResSicknessSpellID<32>
+SplashSoundID<32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+LowResScreenFileDataID<32>
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
+HeritageArmorAchievementID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+PlayableRaceBit<32>
+FemaleSkeletonFileDataID<32>
+MaleSkeletonFileDataID<32>
+HelmetAnimScalingRaceID<32>
+TransmogrifyDisabledSlotMask<32>
+AlteredFormCustomizeOffsetFallback[3]
+AlteredFormCustomizeRotationFallback
+Field_9_0_1_35256_033[3]
+Field_9_0_1_35256_034[3]
+FactionID<16>
+CinematicSequenceID<16>
+BaseLanguage<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+MaleModelFallbackRaceID<8>
+MaleModelFallbackSex<8>
+FemaleModelFallbackRaceID<8>
+FemaleModelFallbackSex<8>
+MaleTextureFallbackRaceID<8>
+MaleTextureFallbackSex<8>
+FemaleTextureFallbackRaceID<8>
+FemaleTextureFallbackSex<8>
+UnalteredVisualCustomizationRaceID<8>
 
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>

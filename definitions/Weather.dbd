@@ -24,54 +24,32 @@ float VolumeEdgeFadeStart
 int VolumeFlags
 float OverrideColorIntensity
 int Field_9_0_1_33978_001? // if 1: set TransitionSkyBox to 1.0f
-int Field_1_15_3_55112_000?
-float Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-float Field_1_15_3_55112_007?
-float Field_1_15_3_55112_008?
-float Field_1_15_3_55112_009?
-float Field_1_15_3_55112_010?
-float Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-float Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-float Field_1_15_3_55112_015?
-float Field_1_15_3_55112_016?
-float Field_1_15_3_55112_017?
-int Field_1_15_3_55112_018?
-int Field_1_15_3_55112_019?
-float Field_1_15_3_55112_020?
-float Field_1_15_3_55112_021?
 
 LAYOUT 5CF35EA0
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u8>
-Field_1_15_3_55112_001
-Field_1_15_3_55112_002<u32>
-Field_1_15_3_55112_003<u16>
-Field_1_15_3_55112_004<u8>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006<u8>
-Field_1_15_3_55112_007
-Field_1_15_3_55112_008
-Field_1_15_3_55112_009
-Field_1_15_3_55112_010
-Field_1_15_3_55112_011
-Field_1_15_3_55112_012<32>
-Field_1_15_3_55112_013
-Field_1_15_3_55112_014<32>
-Field_1_15_3_55112_015
-Field_1_15_3_55112_016
-Field_1_15_3_55112_017
-Field_1_15_3_55112_018<32>
-Field_1_15_3_55112_019<32>
-Field_1_15_3_55112_020[2]
-Field_1_15_3_55112_021[3]
+Type<u8>
+TransitionSkyBox
+AmbienceID<u32>
+SoundAmbienceID<u16>
+EffectType<u8>
+EffectTextureFileDataID<32>
+WindSettingsID<u8>
+Scale
+Volatility
+TwinkleIntensity
+FallModifier
+RotationalSpeed
+ParticulateFileDataID<32>
+VolumeEdgeFadeStart
+OverrideColor<32>
+OverrideColorIntensity
+OverrideCount
+OverrideOpacity
+VolumeFlags<32>
+LightningID<32>
+Intensity[2]
+EffectColor[3]
 
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885

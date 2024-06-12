@@ -17,19 +17,6 @@ int MapPointX
 int MapPointY
 int<UiMapArt::ID> UiMapArtID
 int Field_7_3_2_25549_012?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
 
 BUILD 0.5.5.3494
 $id$ID<32>
@@ -45,19 +32,19 @@ OffsetY<32>
 
 LAYOUT 7E893204
 BUILD 1.15.3.55112
-$id$Field_1_15_3_55112_000<32>
-$relation$Field_1_15_3_55112_001<u32>
-Field_1_15_3_55112_002<u16>
-Field_1_15_3_55112_003<u16>
-Field_1_15_3_55112_004<32>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006<32>
-Field_1_15_3_55112_007<32>
-Field_1_15_3_55112_008<32>
-Field_1_15_3_55112_009<32>
-Field_1_15_3_55112_010<u32>
-Field_1_15_3_55112_011<u32>
-Field_1_15_3_55112_012<u32>[4]
+$id$ID<32>
+$relation$UiMapArtID<u32>
+TextureWidth<u16>
+TextureHeight<u16>
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectBottom<32>
+HitRectLeft<32>
+HitRectRight<32>
+PlayerConditionID<u32>
+Flags<u32>
+AreaID<u32>[4]
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13596

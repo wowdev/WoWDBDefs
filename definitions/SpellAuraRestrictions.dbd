@@ -14,30 +14,20 @@ int CasterAuraType?
 int TargetAuraType?
 int ExcludeCasterAuraType?
 int ExcludeTargetAuraType?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
 
 LAYOUT 6E11DD41
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u8>
-Field_1_15_3_55112_001<u8>
-Field_1_15_3_55112_002<u8>
-Field_1_15_3_55112_003<u8>
-Field_1_15_3_55112_004<u8>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006<32>
-Field_1_15_3_55112_007<32>
-Field_1_15_3_55112_008<32>
-$noninline,relation$Field_1_15_3_55112_009<32>
+DifficultyID<u8>
+CasterAuraState<u8>
+TargetAuraState<u8>
+ExcludeCasterAuraState<u8>
+ExcludeTargetAuraState<u8>
+CasterAuraSpell<32>
+TargetAuraSpell<32>
+ExcludeCasterAuraSpell<32>
+ExcludeTargetAuraSpell<32>
+$noninline,relation$SpellID<32>
 
 BUILD 6.0.1.18125-6.0.1.18156
 BUILD 5.0.1.15589-5.4.8.18414

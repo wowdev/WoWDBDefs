@@ -23,26 +23,6 @@ int<ContentTuning::ID> ContentTuningID?
 int<CraftingQuality::ID> CraftingQualityID?
 int<ScalingStatDistribution::ID> ScalingStatDistributionID?
 int ScalingStatValue?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-int Field_1_15_3_55112_015?
-int Field_1_15_3_55112_016?
-int Field_1_15_3_55112_017?
-int Field_1_15_3_55112_018?
-int Field_1_15_3_55112_019?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -103,26 +83,26 @@ Resistances<16>[7]
 LAYOUT 4D6B8ADA
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u8>
-Field_1_15_3_55112_001<u8>
-Field_1_15_3_55112_002<u8>
-Field_1_15_3_55112_003<8>
-Field_1_15_3_55112_004<32>
-Field_1_15_3_55112_005<u8>
-Field_1_15_3_55112_006<u16>
-Field_1_15_3_55112_007<u16>
-Field_1_15_3_55112_008<8>
-Field_1_15_3_55112_009<u16>
-Field_1_15_3_55112_010<32>
-Field_1_15_3_55112_011<u8>
-Field_1_15_3_55112_012<32>
-Field_1_15_3_55112_013<u32>
-Field_1_15_3_55112_014<u8>
-Field_1_15_3_55112_015<32>
-Field_1_15_3_55112_016<u8>[5]
-Field_1_15_3_55112_017<32>[7]
-Field_1_15_3_55112_018<32>[5]
-Field_1_15_3_55112_019<32>[5]
+ClassID<u8>
+SubclassID<u8>
+Material<u8>
+InventoryType<8>
+RequiredLevel<32>
+SheatheType<u8>
+RandomSelect<u16>
+ItemRandomSuffixGroupID<u16>
+Sound_override_subclassID<8>
+ScalingStatDistributionID<u16>
+IconFileDataID<32>
+ItemGroupSoundsID<u8>
+ContentTuningID<32>
+MaxDurability<u32>
+AmmunitionType<u8>
+ScalingStatValue<32>
+DamageType<u8>[5]
+Resistances<32>[7]
+MinDamage<32>[5]
+MaxDamage<32>[5]
 
 LAYOUT B1C87EB0
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118

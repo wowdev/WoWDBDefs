@@ -5,10 +5,6 @@ int HappinessThreshold
 float HappinessDamage
 float DamageModifier?
 float Field_1_13_0_28211_003?
-float Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-float Field_1_15_3_55112_002?
-float Field_1_15_3_55112_003?
 
 LAYOUT 74E3A027
 BUILD 1.13.0.28211
@@ -34,10 +30,10 @@ Field_1_13_0_28211_003[8]
 LAYOUT 4736D6E1
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000[3]
-Field_1_15_3_55112_001<32>[3]
-Field_1_15_3_55112_002[3]
-Field_1_15_3_55112_003[8]
+HappinessDamage[3]
+HappinessThreshold<32>[3]
+DamageModifier[3]
+Field_1_13_0_28211_003[8]
 
 LAYOUT 7882540A
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

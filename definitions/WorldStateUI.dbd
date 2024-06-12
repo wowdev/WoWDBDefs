@@ -19,43 +19,26 @@ int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
-string Field_1_15_3_55112_000?
-locstring Field_1_15_3_55112_001_lang?
-locstring Field_1_15_3_55112_002_lang?
-locstring Field_1_15_3_55112_003_lang?
-string Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-int Field_1_15_3_55112_015?
-int Field_1_15_3_55112_016?
 
 LAYOUT 1C87F1EC
 BUILD 1.15.3.55112
-Field_1_15_3_55112_000
-Field_1_15_3_55112_001_lang
-Field_1_15_3_55112_002_lang
-Field_1_15_3_55112_003_lang
-Field_1_15_3_55112_004
-$id$Field_1_15_3_55112_005<32>
-$relation$Field_1_15_3_55112_006<16>
-Field_1_15_3_55112_007<u16>
-Field_1_15_3_55112_008<u16>
-Field_1_15_3_55112_009<u8>
-Field_1_15_3_55112_010<32>
-Field_1_15_3_55112_011<32>
-Field_1_15_3_55112_012<u8>
-Field_1_15_3_55112_013<32>
-Field_1_15_3_55112_014<u16>
-Field_1_15_3_55112_015<u16>
-Field_1_15_3_55112_016<u16>[3]
+Icon
+String_lang
+Tooltip_lang
+DynamicTooltip_lang
+ExtendedUI
+$id$ID<32>
+$relation$MapID<16>
+AreaID<u16>
+StateVariable<u16>
+Type<u8>
+DynamicIconFileID<32>
+DynamicFlashIconFileID<32>
+OrderIndex<u8>
+PhaseUseFlags<32>
+PhaseID<u16>
+PhaseGroupID<u16>
+ExtendedUIStateVariable<u16>[3]
 
 BUILD 2.0.0.5991
 BUILD 1.5.0.4442-1.11.2.5464

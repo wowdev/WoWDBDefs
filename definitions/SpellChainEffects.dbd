@@ -67,130 +67,70 @@ int<Curve::ID> WidthScaleCurveID
 int Padding_4_0_0_11792_044?
 string Combo
 int Field_11_0_0_54210_054?
-float Field_1_15_3_55112_000?
-float Field_1_15_3_55112_001?
-float Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-float Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-float Field_1_15_3_55112_010?
-float Field_1_15_3_55112_011?
-float Field_1_15_3_55112_012?
-float Field_1_15_3_55112_013?
-float Field_1_15_3_55112_014?
-float Field_1_15_3_55112_015?
-float Field_1_15_3_55112_016?
-float Field_1_15_3_55112_017?
-float Field_1_15_3_55112_018?
-float Field_1_15_3_55112_019?
-float Field_1_15_3_55112_020?
-float Field_1_15_3_55112_021?
-float Field_1_15_3_55112_022?
-float Field_1_15_3_55112_023?
-float Field_1_15_3_55112_024?
-float Field_1_15_3_55112_025?
-float Field_1_15_3_55112_026?
-float Field_1_15_3_55112_027?
-float Field_1_15_3_55112_028?
-float Field_1_15_3_55112_029?
-float Field_1_15_3_55112_030?
-float Field_1_15_3_55112_031?
-float Field_1_15_3_55112_032?
-float Field_1_15_3_55112_033?
-float Field_1_15_3_55112_034?
-float Field_1_15_3_55112_035?
-int Field_1_15_3_55112_036?
-int Field_1_15_3_55112_037?
-int Field_1_15_3_55112_038?
-int Field_1_15_3_55112_039?
-int Field_1_15_3_55112_040?
-int Field_1_15_3_55112_041?
-float Field_1_15_3_55112_042?
-float Field_1_15_3_55112_043?
-float Field_1_15_3_55112_044?
-int Field_1_15_3_55112_045?
-float Field_1_15_3_55112_046?
-float Field_1_15_3_55112_047?
-int Field_1_15_3_55112_048?
-int Field_1_15_3_55112_049?
-int Field_1_15_3_55112_050?
-int Field_1_15_3_55112_051?
-float Field_1_15_3_55112_052?
-float Field_1_15_3_55112_053?
-int Field_1_15_3_55112_054?
-float Field_1_15_3_55112_055?
-float Field_1_15_3_55112_056?
-float Field_1_15_3_55112_057?
-float Field_1_15_3_55112_058?
-int Field_1_15_3_55112_059?
 
 LAYOUT C0941376
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000
-Field_1_15_3_55112_001
-Field_1_15_3_55112_002
-Field_1_15_3_55112_003<u32>
-Field_1_15_3_55112_004<u16>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006<u16>
-Field_1_15_3_55112_007
-Field_1_15_3_55112_008<u8>
-Field_1_15_3_55112_009<u8>
-Field_1_15_3_55112_010
-Field_1_15_3_55112_011
-Field_1_15_3_55112_012
-Field_1_15_3_55112_013
-Field_1_15_3_55112_014
-Field_1_15_3_55112_015
-Field_1_15_3_55112_016
-Field_1_15_3_55112_017
-Field_1_15_3_55112_018
-Field_1_15_3_55112_019
-Field_1_15_3_55112_020
-Field_1_15_3_55112_021
-Field_1_15_3_55112_022
-Field_1_15_3_55112_023
-Field_1_15_3_55112_024
-Field_1_15_3_55112_025
-Field_1_15_3_55112_026
-Field_1_15_3_55112_027
-Field_1_15_3_55112_028
-Field_1_15_3_55112_029
-Field_1_15_3_55112_030
-Field_1_15_3_55112_031
-Field_1_15_3_55112_032
-Field_1_15_3_55112_033
-Field_1_15_3_55112_034
-Field_1_15_3_55112_035
-Field_1_15_3_55112_036<u8>
-Field_1_15_3_55112_037<u8>
-Field_1_15_3_55112_038<u8>
-Field_1_15_3_55112_039<u8>
-Field_1_15_3_55112_040<u8>
-Field_1_15_3_55112_041<u8>
-Field_1_15_3_55112_042
-Field_1_15_3_55112_043
-Field_1_15_3_55112_044
-Field_1_15_3_55112_045<u32>
-Field_1_15_3_55112_046
-Field_1_15_3_55112_047
-Field_1_15_3_55112_048<u16>
-Field_1_15_3_55112_049<u8>
-Field_1_15_3_55112_050<u8>
-Field_1_15_3_55112_051<u32>
-Field_1_15_3_55112_052
-Field_1_15_3_55112_053
-Field_1_15_3_55112_054<u16>[11]
-Field_1_15_3_55112_055[3]
-Field_1_15_3_55112_056[3]
-Field_1_15_3_55112_057[3]
-Field_1_15_3_55112_058[3]
-Field_1_15_3_55112_059<32>[3]
+AvgSegLen
+NoiseScale
+TexCoordScale
+SegDuration<u32>
+SegDelay<u16>
+Flags<32>
+JointCount<u16>
+JointOffsetRadius
+JointsPerMinorJoint<u8>
+MinorJointsPerMajorJoint<u8>
+MinorJointScale
+MajorJointScale
+JointMoveSpeed
+JointSmoothness
+MinDurationBetweenJointJumps
+MaxDurationBetweenJointJumps
+WaveHeight
+WaveFreq
+WaveSpeed
+MinWaveAngle
+MaxWaveAngle
+MinWaveSpin
+MaxWaveSpin
+ArcHeight
+MinArcAngle
+MaxArcAngle
+MinArcSpin
+MaxArcSpin
+DelayBetweenEffects
+MinFlickerOnDuration
+MaxFlickerOnDuration
+MinFlickerOffDuration
+MaxFlickerOffDuration
+PulseSpeed
+PulseOnLength
+PulseFadeLength
+Alpha<u8>
+Red<u8>
+Green<u8>
+Blue<u8>
+BlendMode<u8>
+RenderLayer<u8>
+WavePhase
+TimePerFlipFrame
+VariancePerFlipFrame
+TextureParticleFileDataID<u32>
+StartWidth
+EndWidth
+WidthScaleCurveID<u16>
+NumFlipFramesU<u8>
+NumFlipFramesV<u8>
+SoundKitID<u32>
+ParticleScaleMultiplier
+ParticleEmissionRateMultiplier
+SpellChainEffectID<u16>[11]
+TextureCoordScaleU[3]
+TextureCoordScaleV[3]
+TextureRepeatLengthU[3]
+TextureRepeatLengthV[3]
+TextureFileDataID<32>[3]
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.6.6337

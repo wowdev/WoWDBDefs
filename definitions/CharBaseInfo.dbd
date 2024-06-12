@@ -5,8 +5,6 @@ int ID
 int Padding_4_0_0_11792_003?
 int<ChrProficiency::ID> Proficiency
 int<ChrRaces::ID> OtherFactionRaceID?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -17,8 +15,8 @@ Proficiency<32>
 LAYOUT CF7B9440
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<8>
-Field_1_15_3_55112_001<8>
+RaceID<8>
+ClassID<8>
 
 BUILD 3.0.1.8303-3.3.5.12340
 BUILD 2.0.0.5610-2.4.3.8606

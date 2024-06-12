@@ -4,18 +4,14 @@ int Flags
 int Variable
 int Op
 int Value
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
 
 LAYOUT 8C968783
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u8>
-Field_1_15_3_55112_001<u8>[8]
-Field_1_15_3_55112_002<8>[8]
-Field_1_15_3_55112_003<32>[8]
+Flags<u8>
+Variable<u8>[8]
+Op<8>[8]
+Value<32>[8]
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414

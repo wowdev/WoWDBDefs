@@ -3,16 +3,13 @@ int ID
 int<ItemDisplayInfo::ID> ItemDisplayInfoID
 int ItemSlot
 int<CreatureDisplayInfoExtra::ID> NpcModelID
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
 
 LAYOUT FF27500B
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<32>
-Field_1_15_3_55112_001<8>
-$noninline,relation$Field_1_15_3_55112_002<32>
+ItemDisplayInfoID<32>
+ItemSlot<8>
+$noninline,relation$NpcModelID<32>
 
 LAYOUT 3890D0A8
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

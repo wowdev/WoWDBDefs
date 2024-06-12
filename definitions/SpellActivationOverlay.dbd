@@ -11,26 +11,18 @@ int<SoundEntries::ID> SoundEntriesID
 int<Spell::ID> TriggerSpell?
 int Field_4_0_0_12911_007?
 int Field_9_1_5_39977_006?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-float Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
 
 LAYOUT 66EFB31A
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<32>[4]
-Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<32>
-Field_1_15_3_55112_003<8>
-Field_1_15_3_55112_004<u32>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006
-Field_1_15_3_55112_007<8>
+IconHighlightSpellClassMask<32>[4]
+SpellID<32>
+OverlayFileDataID<32>
+ScreenLocationID<8>
+SoundEntriesID<u32>
+Color<32>
+Scale
+TriggerType<8>
 
 LAYOUT 0FE8E80E
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
