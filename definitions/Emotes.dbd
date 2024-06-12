@@ -10,6 +10,15 @@ int<SpellVisualKit::ID> SpellVisualKitID
 int ClassMask
 int RaceMask
 int<AnimationData::ID> EmoteAnimID
+int Field_1_15_3_55112_000?
+string Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+int Field_1_15_3_55112_004?
+int Field_1_15_3_55112_005?
+int Field_1_15_3_55112_006?
+int Field_1_15_3_55112_007?
+int Field_1_15_3_55112_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -27,6 +36,19 @@ EmoteFlags<32>
 EmoteSpecProc<32>
 EmoteSpecProcParam<32>
 EventSoundID<32>
+
+LAYOUT 96C802F0
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000<64>
+Field_1_15_3_55112_001
+Field_1_15_3_55112_002<32>
+Field_1_15_3_55112_003<u32>
+Field_1_15_3_55112_004<u8>
+Field_1_15_3_55112_005<u32>
+Field_1_15_3_55112_006<u32>
+Field_1_15_3_55112_007<u32>
+Field_1_15_3_55112_008<32>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.1.0.13875

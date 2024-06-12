@@ -4,6 +4,16 @@ locstring Name_lang
 string InternalName
 int<SpellItemEnchantment::ID> Enchantment
 int AllocationPct
+locstring Field_1_15_3_55112_000_lang?
+int Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+
+LAYOUT 4C5DE61E
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000_lang
+Field_1_15_3_55112_001<32>[5]
+Field_1_15_3_55112_002<32>[5]
 
 BUILD 2.0.0.5665-2.4.3.8606
 $id$ID<32>

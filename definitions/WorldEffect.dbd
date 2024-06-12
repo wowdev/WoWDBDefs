@@ -6,6 +6,22 @@ int<QuestFeedbackEffect::ID> QuestFeedbackEffectID
 int<PlayerCondition::ID> PlayerConditionID
 int<CombatCondition::ID> CombatConditionID
 int WhenToDisplay // bitmask: &0x1: is_quest_objective_completeable, &0x2: is_quest_objective_complete, &0x4: ???, &0x8: ???, &0x10: ???
+int Field_1_15_3_55112_000?
+int Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+int Field_1_15_3_55112_004?
+int Field_1_15_3_55112_005?
+
+LAYOUT E8D95F3E
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000<u32>
+Field_1_15_3_55112_001<u8>
+Field_1_15_3_55112_002<u8>
+Field_1_15_3_55112_003<32>
+Field_1_15_3_55112_004<u32>
+Field_1_15_3_55112_005<u16>
 
 LAYOUT 3D9AC39D
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

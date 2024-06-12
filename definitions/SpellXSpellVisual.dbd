@@ -14,6 +14,35 @@ int<PlayerCondition::ID> ViewerPlayerConditionID
 int<UnitCondition::ID> ViewerUnitConditionID
 float Field_7_3_2_25549_003?
 int Flags2
+int Field_1_15_3_55112_000?
+int Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+float Field_1_15_3_55112_003?
+int Field_1_15_3_55112_004?
+int Field_1_15_3_55112_005?
+int Field_1_15_3_55112_006?
+int Field_1_15_3_55112_007?
+int Field_1_15_3_55112_008?
+int Field_1_15_3_55112_009?
+int Field_1_15_3_55112_010?
+int Field_1_15_3_55112_011?
+int Field_1_15_3_55112_012?
+
+LAYOUT 01147920
+BUILD 1.15.3.55112
+$id$Field_1_15_3_55112_000<32>
+Field_1_15_3_55112_001<u8>
+Field_1_15_3_55112_002<u32>
+Field_1_15_3_55112_003
+Field_1_15_3_55112_004<u8>
+Field_1_15_3_55112_005<32>
+Field_1_15_3_55112_006<32>
+Field_1_15_3_55112_007<32>
+Field_1_15_3_55112_008<u16>
+Field_1_15_3_55112_009<u32>
+Field_1_15_3_55112_010<u16>
+Field_1_15_3_55112_011<u32>
+$noninline,relation$Field_1_15_3_55112_012<32>
 
 LAYOUT A275DA43
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598

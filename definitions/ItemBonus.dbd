@@ -5,6 +5,18 @@ int OrderIndex
 int<ItemBonusList::ID> ParentItemBonusListID
 int Type
 int Value
+int Field_1_15_3_55112_000?
+int Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+
+LAYOUT B05A5385
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000<32>[4]
+$relation$Field_1_15_3_55112_001<u16>
+Field_1_15_3_55112_002<u8>
+Field_1_15_3_55112_003<u8>
 
 BUILD 6.0.1.18179
 $id$ID<32>

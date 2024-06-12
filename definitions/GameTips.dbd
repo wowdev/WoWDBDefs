@@ -5,6 +5,18 @@ int Min_level
 int Max_level
 int SortIndex
 int<ContentTuning::ID> ContentTuningID
+locstring Field_1_15_3_55112_000_lang?
+int Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+
+LAYOUT F70DB051
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000_lang
+Field_1_15_3_55112_001<u8>
+Field_1_15_3_55112_002<u16>
+Field_1_15_3_55112_003<u16>
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12319

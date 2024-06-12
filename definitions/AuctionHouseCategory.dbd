@@ -9,6 +9,27 @@ int OrderIndex
 int DefaultAuctionHouseFilter? // guessed, seems to be off by one though, i.e. pre-9.2.5 enum
 int<AuctionHouseCategory::ID> ParentCategory?
 int AuctionHouseExtraColumn? // 0: None, 1: Ilvl, 2: Slots, 3: Level, 4: Skill
+locstring Field_1_15_3_55112_000_lang?
+locstring Field_1_15_3_55112_001_lang?
+int Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+int Field_1_15_3_55112_004?
+int Field_1_15_3_55112_005?
+int Field_1_15_3_55112_006?
+int Field_1_15_3_55112_007?
+int Field_1_15_3_55112_008?
+
+LAYOUT 034AADE3
+BUILD 1.15.3.55112
+Field_1_15_3_55112_000_lang
+Field_1_15_3_55112_001_lang
+$id$Field_1_15_3_55112_002<32>
+Field_1_15_3_55112_003<32>
+Field_1_15_3_55112_004<32>
+Field_1_15_3_55112_005<32>
+Field_1_15_3_55112_006<32>
+Field_1_15_3_55112_007<u8>
+$noninline,relation$Field_1_15_3_55112_008<32>
 
 LAYOUT 68AEBFF6
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43180, 9.2.5.43254, 9.2.5.43412

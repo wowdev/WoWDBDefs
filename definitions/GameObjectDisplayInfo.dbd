@@ -13,6 +13,22 @@ int AlternateDisplayType? // 1 = creature, 2 = item
 int<CreatureDisplayInfo::ID> ClientCreatureDisplayInfoID?
 int<Item::ID> ClientItemID?
 int Field_11_0_0_54210_008?
+string Field_1_15_3_55112_000?
+float Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+float Field_1_15_3_55112_004?
+float Field_1_15_3_55112_005?
+
+LAYOUT 53B1E8D5
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000
+Field_1_15_3_55112_001[6]
+Field_1_15_3_55112_002<32>
+Field_1_15_3_55112_003<16>
+Field_1_15_3_55112_004
+Field_1_15_3_55112_005
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.0.5991

@@ -16,6 +16,37 @@ int<Spell::ID> RequiredAuraSpellID
 int<Spell::ID> SpellID
 int PowerCost? // original implementation of PowerCostPct
 float OptionalCostPct?
+int Field_1_15_3_55112_000?
+int Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+int Field_1_15_3_55112_004?
+int Field_1_15_3_55112_005?
+int Field_1_15_3_55112_006?
+float Field_1_15_3_55112_007?
+float Field_1_15_3_55112_008?
+float Field_1_15_3_55112_009?
+int Field_1_15_3_55112_010?
+int Field_1_15_3_55112_011?
+int Field_1_15_3_55112_012?
+int Field_1_15_3_55112_013?
+
+LAYOUT DFC24E8B
+BUILD 1.15.3.55112
+$id$Field_1_15_3_55112_000<32>
+Field_1_15_3_55112_001<u8>
+Field_1_15_3_55112_002<32>
+Field_1_15_3_55112_003<32>
+Field_1_15_3_55112_004<32>
+Field_1_15_3_55112_005<u32>
+Field_1_15_3_55112_006<32>
+Field_1_15_3_55112_007
+Field_1_15_3_55112_008
+Field_1_15_3_55112_009
+Field_1_15_3_55112_010<8>
+Field_1_15_3_55112_011<32>
+Field_1_15_3_55112_012<u32>
+$noninline,relation$Field_1_15_3_55112_013<32>
 
 BUILD 4.0.0.12232-4.0.0.12539
 $id$ID<32>

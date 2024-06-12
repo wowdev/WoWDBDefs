@@ -3,6 +3,14 @@ int ID
 int<SoundEmitters::ID> SoundEmittersID
 float Position
 int Field_11_0_0_54210_002?
+float Field_1_15_3_55112_000?
+int Field_1_15_3_55112_001?
+
+LAYOUT C937A96A
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000[3]
+$relation$Field_1_15_3_55112_001<u16>
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414

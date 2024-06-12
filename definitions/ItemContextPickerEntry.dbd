@@ -7,6 +7,22 @@ int OrderIndex
 int PVal
 int<PlayerCondition::ID> PlayerConditionID
 int LabelID?
+int Field_1_15_3_55112_000?
+int Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+int Field_1_15_3_55112_004?
+int Field_1_15_3_55112_005?
+
+LAYOUT BD074251
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000<u8>
+Field_1_15_3_55112_001<u8>
+Field_1_15_3_55112_002<32>
+Field_1_15_3_55112_003<u32>
+Field_1_15_3_55112_004<u32>
+$noninline,relation$Field_1_15_3_55112_005<32>
 
 LAYOUT EEF82C36
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492

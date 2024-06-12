@@ -7,6 +7,16 @@ int<CurrencyTypes::ID> CurrencyID // Moved to SpellReagentsCurrency.
 int CurrencyCount
 int ReagentReCraftCount
 int ReagentSource? // CraftingOrderReagentSource
+int Field_1_15_3_55112_000?
+int Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+
+LAYOUT C65EBB84
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000<32>
+Field_1_15_3_55112_001<32>[8]
+Field_1_15_3_55112_002<16>[8]
 
 BUILD 5.0.1.15464
 BUILD 4.0.0.12232-4.3.4.15595

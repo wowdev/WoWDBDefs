@@ -5,6 +5,16 @@ int Maxcount_inv
 int Maxcount_item
 int Type
 int Min_item_level
+int Field_1_15_3_55112_000?
+int Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+
+LAYOUT 68ADF6E0
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000<u16>
+Field_1_15_3_55112_001<32>
+Field_1_15_3_55112_002<u16>
 
 BUILD 3.0.1.8303-3.3.5.12340
 BUILD 2.0.0.5610-2.4.3.8606

@@ -12,6 +12,31 @@ int<Spell::ID> SpellID
 int<UiTextureKit::ID> UiTextureKitID
 locstring ExtraButtonText_lang
 int Flags // PartyPoseUIConstants.PartyPoseFlags, 1: HideLeaveInstanceButton
+locstring Field_1_15_3_55112_000_lang?
+locstring Field_1_15_3_55112_001_lang?
+int Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+int Field_1_15_3_55112_004?
+int Field_1_15_3_55112_005?
+int Field_1_15_3_55112_006?
+int Field_1_15_3_55112_007?
+int Field_1_15_3_55112_008?
+int Field_1_15_3_55112_009?
+int Field_1_15_3_55112_010?
+
+LAYOUT 3E73A8FD
+BUILD 1.15.3.55112
+Field_1_15_3_55112_000_lang
+Field_1_15_3_55112_001_lang
+$id$Field_1_15_3_55112_002<32>
+Field_1_15_3_55112_003<32>
+Field_1_15_3_55112_004<32>
+Field_1_15_3_55112_005<32>
+Field_1_15_3_55112_006<32>
+Field_1_15_3_55112_007<32>
+Field_1_15_3_55112_008<32>
+Field_1_15_3_55112_009<32>
+$noninline,relation$Field_1_15_3_55112_010<32>
 
 LAYOUT AC308DC0
 BUILD 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610

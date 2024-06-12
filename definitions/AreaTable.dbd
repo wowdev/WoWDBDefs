@@ -32,6 +32,29 @@ int MIDIAmbience
 int MIDIAmbienceUnderwater
 int IntroPriority
 int<ContentTuning::ID> ContentTuningID
+string Field_1_15_3_55112_000?
+locstring Field_1_15_3_55112_001_lang?
+int Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+int Field_1_15_3_55112_004?
+int Field_1_15_3_55112_005?
+int Field_1_15_3_55112_006?
+int Field_1_15_3_55112_007?
+int Field_1_15_3_55112_008?
+int Field_1_15_3_55112_009?
+int Field_1_15_3_55112_010?
+int Field_1_15_3_55112_011?
+int Field_1_15_3_55112_012?
+int Field_1_15_3_55112_013?
+int Field_1_15_3_55112_014?
+float Field_1_15_3_55112_015?
+int Field_1_15_3_55112_016?
+int Field_1_15_3_55112_017?
+int Field_1_15_3_55112_018?
+int Field_1_15_3_55112_019?
+int Field_1_15_3_55112_020?
+int Field_1_15_3_55112_021?
+int Field_1_15_3_55112_022?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -111,6 +134,33 @@ ExplorationLevel<32>
 AreaName_lang
 FactionGroupMask<32>
 LiquidTypeID<32>[4]
+
+LAYOUT 0A6204DD
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000
+Field_1_15_3_55112_001_lang
+Field_1_15_3_55112_002<u16>
+Field_1_15_3_55112_003<u16>
+Field_1_15_3_55112_004<16>
+Field_1_15_3_55112_005<u8>
+Field_1_15_3_55112_006<u8>
+Field_1_15_3_55112_007<u16>
+Field_1_15_3_55112_008<u16>
+Field_1_15_3_55112_009<u16>
+Field_1_15_3_55112_010<u16>
+Field_1_15_3_55112_011<8>
+Field_1_15_3_55112_012<u16>
+Field_1_15_3_55112_013<u32>
+Field_1_15_3_55112_014<u8>
+Field_1_15_3_55112_015
+Field_1_15_3_55112_016<32>
+Field_1_15_3_55112_017<16>
+Field_1_15_3_55112_018<u8>
+Field_1_15_3_55112_019<u8>
+Field_1_15_3_55112_020<u8>
+Field_1_15_3_55112_021<32>[2]
+Field_1_15_3_55112_022<u16>[4]
 
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>

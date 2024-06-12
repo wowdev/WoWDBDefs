@@ -6,6 +6,11 @@ locstring Verb_lang
 string CursorName
 int EnumID? // Something in player struct with 64 slots. 6.0.1.18179
 int<UiTextureAtlasMember::ID> TrackingIcon?
+locstring Field_1_15_3_55112_000_lang?
+locstring Field_1_15_3_55112_001_lang?
+locstring Field_1_15_3_55112_002_lang?
+string Field_1_15_3_55112_003?
+int Field_1_15_3_55112_004?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -13,6 +18,14 @@ $id$ID<32>
 Name_lang
 ResourceName_lang
 Verb_lang
+
+LAYOUT 9687001F
+BUILD 1.15.3.55112
+Field_1_15_3_55112_000_lang
+Field_1_15_3_55112_001_lang
+Field_1_15_3_55112_002_lang
+Field_1_15_3_55112_003
+$id$Field_1_15_3_55112_004<32>
 
 LAYOUT ED10C5C0
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

@@ -6,6 +6,20 @@ float Probability
 float Scale
 int OrderIndex
 int Field_11_0_0_54210_004?
+int Field_1_15_3_55112_000?
+float Field_1_15_3_55112_001?
+float Field_1_15_3_55112_002?
+int Field_1_15_3_55112_003?
+int Field_1_15_3_55112_004?
+
+LAYOUT 42D45A0A
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000<32>
+Field_1_15_3_55112_001
+Field_1_15_3_55112_002
+Field_1_15_3_55112_003<u8>
+$noninline,relation$Field_1_15_3_55112_004<32>
 
 LAYOUT BB3E4A30
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175

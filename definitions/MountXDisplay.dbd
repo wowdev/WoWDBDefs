@@ -4,6 +4,16 @@ int<CreatureDisplayInfo::ID> CreatureDisplayInfoID
 int<Mount::ID> MountID
 int<PlayerCondition::ID> PlayerConditionID
 int Field_11_0_0_54210_002?
+int Field_1_15_3_55112_000?
+int Field_1_15_3_55112_001?
+int Field_1_15_3_55112_002?
+
+LAYOUT B281BBC0
+BUILD 1.15.3.55112
+$noninline,id$ID<32>
+Field_1_15_3_55112_000<32>
+Field_1_15_3_55112_001<u32>
+$noninline,relation$Field_1_15_3_55112_002<32>
 
 LAYOUT 77A58808
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
