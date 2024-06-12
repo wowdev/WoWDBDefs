@@ -8,24 +8,17 @@ int Flags
 int VariationIndex
 int ColorIndex
 int<TextureFileData::MaterialResourcesID> MaterialResourcesID
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
 
 LAYOUT A0D51DDD
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<8>
-Field_1_15_3_55112_001<8>
-Field_1_15_3_55112_002<8>
-Field_1_15_3_55112_003<8>
-Field_1_15_3_55112_004<8>
-Field_1_15_3_55112_005<16>
-Field_1_15_3_55112_006<32>[3]
+RaceID<8>
+SexID<8>
+BaseSection<8>
+VariationIndex<8>
+ColorIndex<8>
+Flags<16>
+MaterialResourcesID<32>[3]
 
 BUILD 3.0.1.8303-3.0.1.8634
 BUILD 2.0.0.5610-2.4.3.8606

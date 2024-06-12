@@ -7,13 +7,6 @@ int FriendGroup
 int EnemyGroup
 int<Faction::ID> Enemies
 int<Faction::ID> Friend
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.11.0.3925
@@ -28,13 +21,13 @@ Friend<32>[4]
 LAYOUT B6FC1C72
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u16>
-Field_1_15_3_55112_001<u16>
-Field_1_15_3_55112_002<u8>
-Field_1_15_3_55112_003<u8>
-Field_1_15_3_55112_004<u8>
-Field_1_15_3_55112_005<u16>[8]
-Field_1_15_3_55112_006<u16>[8]
+Faction<u16>
+Flags<u16>
+FactionGroup<u8>
+FriendGroup<u8>
+EnemyGroup<u8>
+Enemies<u16>[8]
+Friend<u16>[8]
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

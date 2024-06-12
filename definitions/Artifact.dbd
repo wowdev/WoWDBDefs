@@ -10,31 +10,20 @@ int UiBarOverlayColor
 int<UiModelScene::ID> UiModelSceneID
 int UiNameColor
 int<UiTextureKit::ID> UiTextureKitID
-locstring Field_1_15_3_55112_000_lang?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
 
 LAYOUT 9284635D
 BUILD 1.15.3.55112
-Field_1_15_3_55112_000_lang
-$id$Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<u16>
-Field_1_15_3_55112_003<32>
-Field_1_15_3_55112_004<32>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006<u16>
-Field_1_15_3_55112_007<u8>
-Field_1_15_3_55112_008<u8>
-Field_1_15_3_55112_009<u32>
-Field_1_15_3_55112_010<u32>
+Name_lang
+$id$ID<32>
+UiTextureKitID<u16>
+UiNameColor<32>
+UiBarOverlayColor<32>
+UiBarBackgroundColor<32>
+ChrSpecializationID<u16>
+Flags<u8>
+ArtifactCategoryID<u8>
+UiModelSceneID<u32>
+SpellVisualKitID<u32>
 
 LAYOUT 727E7DFA
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056

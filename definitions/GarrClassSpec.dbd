@@ -7,25 +7,17 @@ int Flags
 int FollowerClassLimit
 int<GarrFollItemSet::ID> GarrFollItemSetID
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
-locstring Field_1_15_3_55112_000_lang?
-locstring Field_1_15_3_55112_001_lang?
-locstring Field_1_15_3_55112_002_lang?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
 
 LAYOUT EBFDA71A
 BUILD 1.15.3.55112
-Field_1_15_3_55112_000_lang
-Field_1_15_3_55112_001_lang
-Field_1_15_3_55112_002_lang
-$id$Field_1_15_3_55112_003<u32>
-Field_1_15_3_55112_004<u16>
-Field_1_15_3_55112_005<u16>
-Field_1_15_3_55112_006<u8>
-Field_1_15_3_55112_007<u8>
+ClassSpec_lang
+ClassSpec_Male_lang
+ClassSpec_Female_lang
+$id$ID<u32>
+UiTextureAtlasMemberID<u16>
+GarrFollItemSetID<u16>
+FollowerClassLimit<u8>
+Flags<u8>
 
 LAYOUT 77F0D8C1
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056

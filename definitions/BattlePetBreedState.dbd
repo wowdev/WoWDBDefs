@@ -3,16 +3,13 @@ int ID
 int BattlePetBreedID
 int<BattlePetState::ID> BattlePetStateID
 int Value
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
 
 LAYOUT 0DA4A2A5
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<u8>
-Field_1_15_3_55112_001<u16>
-$noninline,relation$Field_1_15_3_55112_002<32>
+BattlePetStateID<u8>
+Value<u16>
+$noninline,relation$BattlePetBreedID<32>
 
 LAYOUT 81A935E5
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

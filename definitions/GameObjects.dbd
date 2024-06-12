@@ -12,33 +12,21 @@ float Rot
 float Scale
 int TypeID
 int Field_11_0_0_54210_011?
-locstring Field_1_15_3_55112_000_lang?
-float Field_1_15_3_55112_001?
-float Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-float Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
 
 LAYOUT A41494FF
 BUILD 1.15.3.55112
-Field_1_15_3_55112_000_lang
-Field_1_15_3_55112_001[3]
-Field_1_15_3_55112_002[4]
-$id$Field_1_15_3_55112_003<32>
-$relation$Field_1_15_3_55112_004<u16>
-Field_1_15_3_55112_005<u32>
-Field_1_15_3_55112_006
-Field_1_15_3_55112_007<u8>
-Field_1_15_3_55112_008<32>
-Field_1_15_3_55112_009<u16>
-Field_1_15_3_55112_010<u16>
-Field_1_15_3_55112_011<32>[8]
+Name_lang
+Pos[3]
+Rot[4]
+$id$ID<32>
+$relation$OwnerID<u16>
+DisplayID<u32>
+Scale
+TypeID<u8>
+PhaseUseFlags<32>
+PhaseID<u16>
+PhaseGroupID<u16>
+PropValue<32>[8]
 
 LAYOUT 0FD961D7
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

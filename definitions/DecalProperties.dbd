@@ -25,45 +25,27 @@ float Field_10_0_0_45141_008?
 int Field_10_0_0_45232_020?
 float Field_10_0_0_45232_021?
 float Field_10_0_0_45232_024?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-float Field_1_15_3_55112_004?
-float Field_1_15_3_55112_005?
-float Field_1_15_3_55112_006?
-float Field_1_15_3_55112_007?
-float Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-float Field_1_15_3_55112_010?
-float Field_1_15_3_55112_011?
-float Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-int Field_1_15_3_55112_015?
-int Field_1_15_3_55112_016?
-float Field_1_15_3_55112_017?
 
 LAYOUT F39349FF
 BUILD 1.15.3.55112
-$id$Field_1_15_3_55112_000<32>
-Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<32>
-Field_1_15_3_55112_003<32>
-Field_1_15_3_55112_004
-Field_1_15_3_55112_005
-Field_1_15_3_55112_006
-Field_1_15_3_55112_007
-Field_1_15_3_55112_008
-Field_1_15_3_55112_009<32>
-Field_1_15_3_55112_010
-Field_1_15_3_55112_011
-Field_1_15_3_55112_012
-Field_1_15_3_55112_013<u8>
-Field_1_15_3_55112_014<u8>
-Field_1_15_3_55112_015<32>
-Field_1_15_3_55112_016<32>
-Field_1_15_3_55112_017
+$id$ID<32>
+FileDataID<32>
+TopTextureBlendSetID<32>
+BotTextureBlendSetID<32>
+ModX
+InnerRadius
+OuterRadius
+Rim
+Gain
+Flags<32>
+Scale
+FadeIn
+FadeOut
+Priority<u8>
+BlendMode<u8>
+GameFlags<32>
+CasterDecalPropertiesID<32>
+ArbitraryBoxHeight
 
 LAYOUT DE20B910
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056

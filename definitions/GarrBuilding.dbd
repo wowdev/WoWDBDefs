@@ -33,58 +33,34 @@ int MaxAssignments
 int ShipmentCapacity
 locstring Tooltip_lang
 int UpgradeLevel
-locstring Field_1_15_3_55112_000_lang?
-locstring Field_1_15_3_55112_001_lang?
-locstring Field_1_15_3_55112_002_lang?
-locstring Field_1_15_3_55112_003_lang?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
-int Field_1_15_3_55112_014?
-int Field_1_15_3_55112_015?
-int Field_1_15_3_55112_016?
-int Field_1_15_3_55112_017?
-int Field_1_15_3_55112_018?
-int Field_1_15_3_55112_019?
-int Field_1_15_3_55112_020?
-int Field_1_15_3_55112_021?
-int Field_1_15_3_55112_022?
-int Field_1_15_3_55112_023?
 
 LAYOUT 7785BDDC
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000_lang
-Field_1_15_3_55112_001_lang
-Field_1_15_3_55112_002_lang
-Field_1_15_3_55112_003_lang
-Field_1_15_3_55112_004<u8>
-Field_1_15_3_55112_005<u8>
-Field_1_15_3_55112_006<32>
-Field_1_15_3_55112_007<32>
-Field_1_15_3_55112_008<u8>
-Field_1_15_3_55112_009<u8>
-Field_1_15_3_55112_010<32>
-Field_1_15_3_55112_011<u16>
-Field_1_15_3_55112_012<32>
-Field_1_15_3_55112_013<u16>
-Field_1_15_3_55112_014<u16>
-Field_1_15_3_55112_015<32>
-Field_1_15_3_55112_016<u16>
-Field_1_15_3_55112_017<u16>
-Field_1_15_3_55112_018<32>
-Field_1_15_3_55112_019<u8>
-Field_1_15_3_55112_020<u16>
-Field_1_15_3_55112_021<u16>
-Field_1_15_3_55112_022<u16>
-Field_1_15_3_55112_023<u8>
+HordeName_lang
+AllianceName_lang
+Description_lang
+Tooltip_lang
+GarrTypeID<u8>
+BuildingType<u8>
+HordeGameObjectID<32>
+AllianceGameObjectID<32>
+GarrSiteID<u8>
+UpgradeLevel<u8>
+BuildSeconds<32>
+CurrencyTypeID<u16>
+CurrencyQty<32>
+HordeUiTextureKitID<u16>
+AllianceUiTextureKitID<u16>
+IconFileDataID<32>
+AllianceSceneScriptPackageID<u16>
+HordeSceneScriptPackageID<u16>
+MaxAssignments<32>
+ShipmentCapacity<u8>
+GarrAbilityID<u16>
+BonusGarrAbilityID<u16>
+GoldCost<u16>
+Flags<u8>
 
 LAYOUT DFE31A36
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056

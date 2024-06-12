@@ -24,20 +24,6 @@ int SpecialAttachPoint
 int Field_2_0_0_6080_003?
 int Field_9_1_0_38549_014?
 int Field_11_0_0_54210_015?
-int Field_1_15_3_55112_000?
-float Field_1_15_3_55112_001?
-float Field_1_15_3_55112_002?
-float Field_1_15_3_55112_003?
-float Field_1_15_3_55112_004?
-float Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-float Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -60,20 +46,20 @@ VisualEffectNameFlags<32>
 LAYOUT 06883D7A
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000<32>
-Field_1_15_3_55112_001
-Field_1_15_3_55112_002
-Field_1_15_3_55112_003
-Field_1_15_3_55112_004
-Field_1_15_3_55112_005
-Field_1_15_3_55112_006<u32>
-Field_1_15_3_55112_007<32>
-Field_1_15_3_55112_008
-Field_1_15_3_55112_009<u32>
-Field_1_15_3_55112_010<32>
-Field_1_15_3_55112_011<u32>
-Field_1_15_3_55112_012<32>
-Field_1_15_3_55112_013<32>
+ModelFileDataID<32>
+BaseMissileSpeed
+Scale
+MinAllowedScale
+MaxAllowedScale
+Alpha
+Flags<u32>
+TextureFileDataID<32>
+EffectRadius
+Type<u32>
+GenericID<32>
+RibbonQualityID<u32>
+DissolveEffectID<32>
+ModelPosition<32>
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.0.0.3980-1.12.3.6141

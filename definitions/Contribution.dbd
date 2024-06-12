@@ -6,23 +6,16 @@ locstring Name_lang
 int OrderIndex
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int<ContributionStyleContainer::ID> ContributionStyleContainer
-locstring Field_1_15_3_55112_000_lang?
-locstring Field_1_15_3_55112_001_lang?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
 
 LAYOUT 167173C3
 BUILD 1.15.3.55112
-Field_1_15_3_55112_000_lang
-Field_1_15_3_55112_001_lang
-$id$Field_1_15_3_55112_002<32>
-$relation$Field_1_15_3_55112_003<32>
-Field_1_15_3_55112_004<32>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006<32>[4]
+Description_lang
+Name_lang
+$id$ID<32>
+$relation$ManagedWorldStateInputID<32>
+OrderIndex<32>
+ContributionStyleContainer<32>
+UiTextureAtlasMemberID<32>[4]
 
 LAYOUT 71B61AEC
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056

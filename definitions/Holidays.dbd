@@ -13,35 +13,22 @@ int CalendarFilterType
 int Flags // &1: IsRegionwide; &2: DontShowInCalendar; &4: DontDisplayEnd; &8: DontDisplayBanner; &0x10: NotAvailableClientSide
 int<FileData::ID> TextureFileDataID
 int<WorldStateExpression::ID> WorldStateExpressionID?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-int Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
 
 LAYOUT C53840D5
 BUILD 1.15.3.55112
-$id$Field_1_15_3_55112_000<32>
-Field_1_15_3_55112_001<u16>
-Field_1_15_3_55112_002<u8>
-Field_1_15_3_55112_003<u32>
-Field_1_15_3_55112_004<u32>
-Field_1_15_3_55112_005<u8>
-Field_1_15_3_55112_006<8>
-Field_1_15_3_55112_007<u8>
-Field_1_15_3_55112_008<u32>
-Field_1_15_3_55112_009<u16>[10]
-Field_1_15_3_55112_010<u32>[16]
-Field_1_15_3_55112_011<u8>[10]
-Field_1_15_3_55112_012<32>[3]
+$id$ID<32>
+Region<u16>
+Looping<u8>
+HolidayNameID<u32>
+HolidayDescriptionID<u32>
+Priority<u8>
+CalendarFilterType<8>
+Flags<u8>
+WorldStateExpressionID<u32>
+Duration<u16>[10]
+Date<u32>[16]
+CalendarFlags<u8>[10]
+TextureFileDataID<32>[3]
 
 LAYOUT DC1A500C, 3C3EF0AA
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

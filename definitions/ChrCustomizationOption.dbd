@@ -12,53 +12,25 @@ int OptionType? // 0 = Slider, 1 = Checkbox
 float BarberShopCostModifier?
 int<ChrCustomizationReq::ID> Requirement
 int AddedInPatch?
-locstring Field_4_4_0_55056_000_lang?
-int Field_4_4_0_55056_001?
-int Field_4_4_0_55056_002?
-int Field_4_4_0_55056_003?
-int Field_4_4_0_55056_004?
-int Field_4_4_0_55056_005?
-int Field_4_4_0_55056_006?
-int Field_4_4_0_55056_007?
-int Field_4_4_0_55056_008?
-int Field_4_4_0_55056_009?
-float Field_4_4_0_55056_010?
-int Field_4_4_0_55056_011?
-int Field_4_4_0_55056_012?
-int Field_4_4_0_55056_013?
 int Field_11_0_0_55087_004?
 int Field_11_0_0_55087_005?
-locstring Field_1_15_3_55112_000_lang?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
-float Field_1_15_3_55112_010?
-int Field_1_15_3_55112_011?
-int Field_1_15_3_55112_012?
-int Field_1_15_3_55112_013?
 
 LAYOUT 452E4462
 BUILD 1.15.3.55112
-Field_1_15_3_55112_000_lang
-$id$Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<u16>
-Field_1_15_3_55112_003<32>
-Field_1_15_3_55112_004<32>
-Field_1_15_3_55112_005<32>
-$relation$Field_1_15_3_55112_006<32>
-Field_1_15_3_55112_007<32>
-Field_1_15_3_55112_008<32>
-Field_1_15_3_55112_009<32>
-Field_1_15_3_55112_010
-Field_1_15_3_55112_011<32>
-Field_1_15_3_55112_012<32>
-Field_1_15_3_55112_013<32>
+Name_lang
+$id$ID<32>
+SecondaryID<u16>
+Flags<32>
+Field_11_0_0_55087_004<32>
+Field_11_0_0_55087_005<32>
+$relation$ChrModelID<32>
+OrderIndex<32>
+ChrCustomizationCategoryID<32>
+OptionType<32>
+BarberShopCostModifier
+ChrCustomizationID<32>
+Requirement<32>
+SecondaryOrderIndex<32>
 
 LAYOUT 26DBFCD5
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006
@@ -85,20 +57,20 @@ SecondaryOrderIndex<32>
 
 LAYOUT D362B49A
 BUILD 4.4.0.55056
-Field_4_4_0_55056_000_lang
-$id$Field_4_4_0_55056_001<32>
-Field_4_4_0_55056_002<u16>
-Field_4_4_0_55056_003<32>
-Field_4_4_0_55056_004<32>
-Field_4_4_0_55056_005<32>
-$relation$Field_4_4_0_55056_006<32>
-Field_4_4_0_55056_007<32>
-Field_4_4_0_55056_008<32>
-Field_4_4_0_55056_009<32>
-Field_4_4_0_55056_010
-Field_4_4_0_55056_011<32>
-Field_4_4_0_55056_012<32>
-Field_4_4_0_55056_013<32>
+Name_lang
+$id$ID<32>
+SecondaryID<u16>
+Flags<32>
+Field_11_0_0_55087_004<32>
+Field_11_0_0_55087_005<32>
+$relation$ChrModelID<32>
+OrderIndex<32>
+ChrCustomizationCategoryID<32>
+OptionType<32>
+BarberShopCostModifier
+ChrCustomizationID<32>
+Requirement<32>
+SecondaryOrderIndex<32>
 
 LAYOUT 3F99DF9F
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199

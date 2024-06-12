@@ -9,29 +9,19 @@ int Field_9_0_1_34365_006?
 int TextureSectionTypeBitMask? // -1 for non section texture or bit of CharComponentTextureSections::SectionType
 int<CharComponentTextureLayouts::ID> CharComponentTextureLayoutsID
 int TextureSectionTypeBitMask2?
-int Field_1_15_3_55112_000?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
-int Field_1_15_3_55112_003?
-int Field_1_15_3_55112_004?
-int Field_1_15_3_55112_005?
-int Field_1_15_3_55112_006?
-int Field_1_15_3_55112_007?
-int Field_1_15_3_55112_008?
-int Field_1_15_3_55112_009?
 
 LAYOUT 31F57E28
 BUILD 1.15.3.55112
-$id$Field_1_15_3_55112_000<32>
-Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<32>
-Field_1_15_3_55112_003<32>
-Field_1_15_3_55112_004<32>
-Field_1_15_3_55112_005<32>
-Field_1_15_3_55112_006<32>
-Field_1_15_3_55112_007<32>[3]
-Field_1_15_3_55112_008<32>[2]
-$noninline,relation$Field_1_15_3_55112_009<32>
+$id$ID<32>
+TextureType<32>
+Layer<32>
+Flags<32>
+BlendMode<32>
+TextureSectionTypeBitMask<32>
+TextureSectionTypeBitMask2<32>
+Field_9_0_1_34365_006<32>[3]
+ChrModelTextureTargetID<32>[2]
+$noninline,relation$CharComponentTextureLayoutsID<32>
 
 LAYOUT DD39DBA5
 BUILD 3.4.0.43659, 3.4.0.43682, 3.4.0.43746, 3.4.0.43788, 3.4.0.43866, 3.4.0.43881, 3.4.0.43929, 3.4.0.43955, 3.4.0.44064, 3.4.0.44184, 3.4.0.44250, 3.4.0.44301, 3.4.0.44369, 3.4.0.44463, 3.4.0.44547, 3.4.0.44644, 3.4.0.44701, 3.4.0.44729, 3.4.0.44832, 3.4.0.44925, 3.4.0.44930, 3.4.0.44996, 3.4.0.45043, 3.4.0.45064, 3.4.0.45102, 3.4.0.45166, 3.4.0.45189, 3.4.0.45264, 3.4.0.45327, 3.4.0.45435, 3.4.0.45506, 3.4.0.45572, 3.4.0.45613, 3.4.0.45704, 3.4.0.45770, 3.4.0.45772, 3.4.0.45854, 3.4.0.45942, 3.4.0.46158, 3.4.0.46182, 3.4.0.46248, 3.4.0.46269, 3.4.0.46368, 3.4.0.46779, 3.4.0.46902, 3.4.0.47168, 3.4.0.47659

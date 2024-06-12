@@ -4,16 +4,13 @@ int Flags
 locstring Name_lang
 int ExpansionID
 int<CurrencyCategory::ID> ParentCategoryID?
-locstring Field_1_15_3_55112_000_lang?
-int Field_1_15_3_55112_001?
-int Field_1_15_3_55112_002?
 
 LAYOUT 12EB5F37
 BUILD 1.15.3.55112
 $noninline,id$ID<32>
-Field_1_15_3_55112_000_lang
-Field_1_15_3_55112_001<32>
-Field_1_15_3_55112_002<u8>
+Name_lang
+Flags<32>
+ExpansionID<u8>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
