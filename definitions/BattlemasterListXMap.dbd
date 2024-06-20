@@ -1,10 +1,10 @@
 COLUMNS
 int ID
 int<Map::ID> MapID?
-int<BattleMasterList::ID> BattleMasterListID?
+int<BattlemasterList::ID> BattlemasterListID?
 
 LAYOUT 449D9C1C
 BUILD 11.0.0.55185
 $noninline,id$ID<32>
 MapID<32>
-$noninline,relation$BattleMasterListID<32>
+$noninline,relation$BattlemasterListID<32>
