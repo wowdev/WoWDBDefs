@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_11_0_0_55185_000?
-int Field_11_0_0_55185_001?
+int<Map::ID> MapID?
+int<BattleMasterList::ID> BattleMasterListID?
 
 LAYOUT 449D9C1C
 BUILD 11.0.0.55185
 $noninline,id$ID<32>
-Field_11_0_0_55185_000<32>
-$noninline,relation$Field_11_0_0_55185_001<32>
+MapID<32>
+$noninline,relation$BattleMasterListID<32>
