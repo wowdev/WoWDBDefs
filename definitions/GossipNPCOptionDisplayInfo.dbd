@@ -5,7 +5,7 @@ int<FileData::ID> IconFileDataID
 int Flags? // GossipConstants.GossipNpcOptionDisplayFlags?! but that only has &1, db only has &2.
 
 LAYOUT 10CC2F94
-BUILD 1.15.3.55112
+BUILD 1.15.3.55112, 1.15.3.55244
 $noninline,id$ID<32>
 GossipNpcOption<32>
 IconFileDataID<32>

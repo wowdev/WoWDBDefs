@@ -7,7 +7,7 @@ int<QuestV2::ID> QuestID
 int<PlayerCondition::ID> TurninPlayerConditionID
 
 LAYOUT 218C9656
-BUILD 1.15.3.55112
+BUILD 1.15.3.55112, 1.15.3.55244
 $noninline,id$ID<32>
 QuestID<u32>
 FactionID<u16>

@@ -11,7 +11,7 @@ string InteractCursor? // display on cursor
 int<Spell::ID> SpellID?
 
 LAYOUT 7ACCDB6D
-BUILD 1.15.3.55112
+BUILD 1.15.3.55112, 1.15.3.55244
 $noninline,id$ID<32>
 FileDataID<u32>
 MinimapAtlasMemberID<u16>

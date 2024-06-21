@@ -18,10 +18,10 @@ float RadiusMax
 float RadiusMin
 
 LAYOUT CD9996FA
-BUILD 1.15.3.55112
+BUILD 1.15.3.55112, 1.15.3.55244
 $noninline,id$ID<32>
 OrderIndex<u8>
-AmplitudeCurveID<u32>
+AmplitudeCurveID<32>
 Duration
 Delay
 Phase

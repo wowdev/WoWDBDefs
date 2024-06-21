@@ -14,7 +14,7 @@ int<GarrAbility::ID> GarrAbilityID
 int<GarrMechanicType::ID> GarrMechanicTypeID
 
 LAYOUT CEA59782
-BUILD 1.15.3.55112
+BUILD 1.15.3.55112, 1.15.3.55244
 $id$ID<32>
 $relation$GarrAbilityID<u16>
 AbilityAction<u8>

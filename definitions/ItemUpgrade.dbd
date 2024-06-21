@@ -7,7 +7,7 @@ int<ItemUpgradePath::ID> ItemUpgradePathID
 int PrerequisiteID
 
 LAYOUT C034A392
-BUILD 1.15.3.55112
+BUILD 1.15.3.55112, 1.15.3.55244
 $noninline,id$ID<32>
 ItemUpgradePathID<u8>
 ItemLevelIncrement<u8>
