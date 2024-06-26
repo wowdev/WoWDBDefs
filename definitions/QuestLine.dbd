@@ -6,7 +6,7 @@ locstring Description_lang
 int<PlayerCondition::ID> PlayerConditionID?
 int<PlayerCondition::ID> CompletionPlayerConditionID? // Appears to be used (when available) instead of looking up completion status for each quest in this questline.
 int Field_10_2_7_54171_005?
-int Field_11_0_0_55288_003?
+int Flags?
 
 LAYOUT 5675F41C
 BUILD 1.15.3.55112, 1.15.3.55244
@@ -141,7 +141,7 @@ $noninline,id$ID<32>
 Name_lang
 Description_lang
 CompletionPlayerConditionID<32>
-Field_11_0_0_55288_003<32>
+Flags<32>
 QuestID<u32>
 PlayerConditionID<32>
 Field_10_2_7_54171_005<32>
