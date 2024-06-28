@@ -4,7 +4,7 @@ int<GarrMechanic::ID> GarrMechanicID
 int GarrMechanicSetID
 
 LAYOUT E3B55DDA
-BUILD 1.15.3.55112, 1.15.3.55244
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348
 $id$ID<32>
 GarrMechanicID<u8>
 $noninline,relation$GarrMechanicSetID<32>

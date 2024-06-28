@@ -7,7 +7,7 @@ int Maxlevel
 int<Curve::ID> PlayerLevelToItemLevelCurveID
 
 LAYOUT 68031639
-BUILD 1.15.3.55112, 1.15.3.55244
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348
 $noninline,id$ID<32>
 PlayerLevelToItemLevelCurveID<u16>
 Minlevel<32>

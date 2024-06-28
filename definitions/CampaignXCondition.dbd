@@ -7,7 +7,7 @@ int Flags // &1: PreferIfOnNoStepRightNow?
 locstring FailureReason_lang // Alternative to the PlayerCondition's reason.
 
 LAYOUT 59F4979F
-BUILD 1.15.3.55112, 1.15.3.55244
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348
 $noninline,id$ID<32>
 PlayerConditionID<u32>
 OrderIndex<u32>

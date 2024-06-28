@@ -14,7 +14,7 @@ int PatchIntroduced? // in '%d%02d%02d' % (major, minor, patch) form
 int<PlayerCondition::ID> ConditionID?
 
 LAYOUT 54EA6CA4
-BUILD 1.15.3.55112, 1.15.3.55244
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348
 Name_lang
 $id$ID<u32>
 ClassMask<32>

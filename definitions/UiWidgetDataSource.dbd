@@ -6,7 +6,7 @@ int SourceID // 0: WorldStateID, 1: WorldStateExpressionID, [2, 3]: CurrencyType
 int SourceType // 0: value, 1: eval result, 2: amount, 3: MaxQty, 4: percentage complete, 5: time until next state change, 6: time of next state change relative to start time, 7: state, 8:
 
 LAYOUT D581563B
-BUILD 1.15.3.55112, 1.15.3.55244
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348
 $noninline,id$ID<32>
 SourceID<u16>
 SourceType<8>
