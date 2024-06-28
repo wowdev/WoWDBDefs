@@ -5,7 +5,7 @@ int PropertyIndex
 int Value // depending on PropertyIndex, 2: PlayerConditionID, 5: something Z distance to areatrigger box * 1000
 
 LAYOUT 8F9C7C98
-BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391
 $id$ID<32>
 PathID<u16>
 PropertyIndex<u8>

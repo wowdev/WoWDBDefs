@@ -5,7 +5,7 @@ int<Spell::ID> TriggeredAuraSpellID?
 int<ChrSpecialization::ID> ChrSpecID?
 
 LAYOUT 37C7ABA7
-BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391
 $noninline,id$ID<32>
 TalentSpellID<32>
 TriggeredAuraSpellID<32>

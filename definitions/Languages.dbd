@@ -7,7 +7,7 @@ int UiTextureKitElementCount?
 int<Curve::ID> LearningCurveID? // modifier for "how much you know" the language, applied on top of skill/max_skill calculation, used during word substitution
 
 LAYOUT D259DA42
-BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391
 Name_lang
 $id$ID<u32>
 Flags<32>
