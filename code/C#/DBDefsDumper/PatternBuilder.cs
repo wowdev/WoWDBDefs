@@ -45,7 +45,7 @@ namespace DBDefsDumper
             //);
             
             patterns.Add(
-            new Pattern("11.0.0", new() { "11.0.0" }, 54210, 0)
+            new Pattern("11.0.0", new() { "11.0.0", "11.0.2" }, 54210, 0)
                 .Pointer(Name.DB_NAME)
                 .FileDataID(Name.FDID)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
