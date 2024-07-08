@@ -5,7 +5,7 @@ int<Spell::ID> SpellID?
 int Flags? // &0x1: learnable, &0x2: always visible
 
 LAYOUT 0C4D9DD6
-BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515
 $noninline,id$ID<32>
 TalentTabID<32>
 SpellID<32>
