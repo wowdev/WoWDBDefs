@@ -6,7 +6,7 @@ int<WeaponTrail::ID> WeaponTrailID
 int<FileData::ID> ModelFileDataID? // Same as LowDefFileDataID but HD models
 
 LAYOUT FF75FD57
-BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646
 $noninline,id$ID<32>
 ModelFileDataID<32>
 WeaponTrailID<u16>
