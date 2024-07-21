@@ -11,20 +11,8 @@ int<UiCanvas::ID> UiCanvasID
 int<UiTextureAtlasElement::ID> UiTextureAtlasElementID
 int OverrideWidth // if > 0, use instead of right - left
 int OverrideHeight // if > 0, use instead of bottom - top
-string Field_11_0_2_55665_000?
-int Field_11_0_2_55665_001?
-int Field_11_0_2_55665_002?
-int Field_11_0_2_55665_003?
-int Field_11_0_2_55665_004?
-int Field_11_0_2_55665_005?
-int Field_11_0_2_55665_006?
-int Field_11_0_2_55665_007?
-int Field_11_0_2_55665_008?
-int Field_11_0_2_55665_009?
-int Field_11_0_2_55665_010?
-int Field_11_0_2_55665_011?
-int Field_11_0_2_55665_012?
-int Field_11_0_2_55665_013?
+int Width?
+int Height?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -211,17 +199,17 @@ UiCanvasID<u8>
 
 LAYOUT 75E12F73
 BUILD 11.0.2.55665, 11.0.2.55763
-Field_11_0_2_55665_000
-$id$Field_11_0_2_55665_001<32>
-Field_11_0_2_55665_002<u16>
-Field_11_0_2_55665_003<16>
-Field_11_0_2_55665_004<16>
-Field_11_0_2_55665_005<16>
-Field_11_0_2_55665_006<16>
-Field_11_0_2_55665_007<16>
-Field_11_0_2_55665_008<16>
-$relation$Field_11_0_2_55665_009<u16>
-Field_11_0_2_55665_010<16>
-Field_11_0_2_55665_011<16>
-Field_11_0_2_55665_012<8>
-Field_11_0_2_55665_013<u8>
+CommittedName
+$id$ID<32>
+UiTextureAtlasID<u16>
+Width<16>
+Height<16>
+CommittedLeft<16>
+CommittedRight<16>
+CommittedTop<16>
+CommittedBottom<16>
+$relation$UiTextureAtlasElementID<u16>
+OverrideWidth<16>
+OverrideHeight<16>
+CommittedFlags<8>
+UiCanvasID<u8>
