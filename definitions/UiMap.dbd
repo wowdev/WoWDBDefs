@@ -25,6 +25,7 @@ int Field_1_14_4_50252_011?
 int Field_1_14_4_50252_012?
 int Field_1_14_4_50252_013?
 int Field_11_0_0_55087_014?
+int Field_11_0_2_55789_015?
 
 LAYOUT 27E926D0
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646
@@ -301,3 +302,22 @@ BkgAtlasID<32>
 AlternateUiMapGroup<32>
 ContentTuningID<32>
 Field_11_0_0_55087_014<32>
+
+LAYOUT 77AEDBE6
+BUILD 11.0.2.55789
+Name_lang
+$id$ID<32>
+$relation$ParentUiMapID<32>
+Flags<32>
+System<u8>
+Type<u8>
+BountySetID<32>
+BountyDisplayLocation<u32>
+TempVisibilityPlayerConditionID<32>
+VisibilityPlayerConditionID<32>
+HelpTextPosition<8>
+BkgAtlasID<32>
+AlternateUiMapGroup<32>
+ContentTuningID<32>
+Field_11_0_0_55087_014<32>
+Field_11_0_2_55789_015<8>
