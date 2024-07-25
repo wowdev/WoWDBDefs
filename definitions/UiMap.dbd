@@ -25,21 +25,6 @@ int Field_1_14_4_50252_011?
 int Field_1_14_4_50252_012?
 int Field_1_14_4_50252_013?
 int Field_11_0_0_55087_014?
-locstring Field_11_0_2_55789_000_lang?
-int Field_11_0_2_55789_001?
-int Field_11_0_2_55789_002?
-int Field_11_0_2_55789_003?
-int Field_11_0_2_55789_004?
-int Field_11_0_2_55789_005?
-int Field_11_0_2_55789_006?
-int Field_11_0_2_55789_007?
-int Field_11_0_2_55789_008?
-int Field_11_0_2_55789_009?
-int Field_11_0_2_55789_010?
-int Field_11_0_2_55789_011?
-int Field_11_0_2_55789_012?
-int Field_11_0_2_55789_013?
-int Field_11_0_2_55789_014?
 int Field_11_0_2_55789_015?
 
 LAYOUT 27E926D0
@@ -320,19 +305,19 @@ Field_11_0_0_55087_014<32>
 
 LAYOUT 77AEDBE6
 BUILD 11.0.2.55789
-Field_11_0_2_55789_000_lang
-$id$Field_11_0_2_55789_001<32>
-$relation$Field_11_0_2_55789_002<32>
-Field_11_0_2_55789_003<32>
-Field_11_0_2_55789_004<u8>
-Field_11_0_2_55789_005<u8>
-Field_11_0_2_55789_006<32>
-Field_11_0_2_55789_007<u32>
-Field_11_0_2_55789_008<32>
-Field_11_0_2_55789_009<32>
-Field_11_0_2_55789_010<8>
-Field_11_0_2_55789_011<32>
-Field_11_0_2_55789_012<32>
-Field_11_0_2_55789_013<32>
-Field_11_0_2_55789_014<32>
+Name_lang
+$id$ID<32>
+$relation$ParentUiMapID<32>
+Flags<32>
+System<u8>
+Type<u8>
+BountySetID<32>
+BountyDisplayLocation<u32>
+TempVisibilityPlayerConditionID<32>
+VisibilityPlayerConditionID<32>
+HelpTextPosition<8>
+BkgAtlasID<32>
+AlternateUiMapGroup<32>
+ContentTuningID<32>
+Field_11_0_0_55087_014<32>
 Field_11_0_2_55789_015<8>
