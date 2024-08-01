@@ -6,13 +6,6 @@ int DifficultyMask
 int FactionMask
 int Flags
 int<DisplaySeason::ID> DisplaySeasonID?
-int Field_11_0_2_55959_000?
-int Field_11_0_2_55959_001?
-int Field_11_0_2_55959_002?
-int Field_11_0_2_55959_003?
-int Field_11_0_2_55959_004?
-int Field_11_0_2_55959_005?
-int Field_11_0_2_55959_006?
 int Field_11_0_2_55959_007?
 
 LAYOUT D3499B0A
@@ -179,11 +172,11 @@ DisplaySeasonID<32>
 
 LAYOUT D95559FA
 BUILD 11.0.2.55959
-$id$Field_11_0_2_55959_000<32>
-$relation$Field_11_0_2_55959_001<u16>
-Field_11_0_2_55959_002<u32>
-Field_11_0_2_55959_003<8>
-Field_11_0_2_55959_004<32>
-Field_11_0_2_55959_005<8>
-Field_11_0_2_55959_006<32>
+$id$ID<32>
+$relation$JournalEncounterID<u16>
+ItemID<u32>
+FactionMask<8>
+Flags<32>
+DifficultyMask<8>
+DisplaySeasonID<32>
 Field_11_0_2_55959_007<32>
