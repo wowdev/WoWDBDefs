@@ -13,6 +13,17 @@ int ResetInterval
 int Difficulty
 string Difficultystring
 int<ContentTuning::ID> ContentTuningID
+locstring Field_11_0_2_55959_000_lang?
+int Field_11_0_2_55959_001?
+int Field_11_0_2_55959_002?
+int Field_11_0_2_55959_003?
+int Field_11_0_2_55959_004?
+int Field_11_0_2_55959_005?
+int Field_11_0_2_55959_006?
+int Field_11_0_2_55959_007?
+int Field_11_0_2_55959_008?
+int Field_11_0_2_55959_009?
+int Field_11_0_2_55959_010?
 
 LAYOUT FDA8CF64
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646
@@ -299,3 +310,18 @@ ItemContextPickerID<32>
 Flags<32>
 ContentTuningID<32>
 $noninline,relation$MapID<32>
+
+LAYOUT C18134AF
+BUILD 11.0.2.55959
+$noninline,id$ID<32>
+Field_11_0_2_55959_000_lang
+Field_11_0_2_55959_001<32>
+Field_11_0_2_55959_002<32>
+Field_11_0_2_55959_003<u8>
+Field_11_0_2_55959_004<32>
+Field_11_0_2_55959_005<u8>
+Field_11_0_2_55959_006<32>
+Field_11_0_2_55959_007<32>
+Field_11_0_2_55959_008<32>
+Field_11_0_2_55959_009<32>
+$noninline,relation$Field_11_0_2_55959_010<32>
