@@ -24,7 +24,7 @@ int Field_1_14_4_50252_010?
 int Field_1_14_4_50252_011?
 int Field_1_14_4_50252_012?
 int Field_1_14_4_50252_013?
-int Field_11_0_0_55087_014?
+int<UiTextureKit::ID> AdventureMapTextureKitID?
 int Field_11_0_2_55789_015?
 
 LAYOUT 27E926D0
@@ -301,7 +301,7 @@ HelpTextPosition<8>
 BkgAtlasID<32>
 AlternateUiMapGroup<32>
 ContentTuningID<32>
-Field_11_0_0_55087_014<32>
+AdventureMapTextureKitID<32>
 
 LAYOUT 77AEDBE6
 BUILD 11.0.2.55789, 11.0.2.55959
@@ -319,5 +319,5 @@ HelpTextPosition<8>
 BkgAtlasID<32>
 AlternateUiMapGroup<32>
 ContentTuningID<32>
-Field_11_0_0_55087_014<32>
+AdventureMapTextureKitID<32>
 Field_11_0_2_55789_015<8>
