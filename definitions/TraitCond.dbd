@@ -1,6 +1,6 @@
 COLUMNS
 int ID?
-int CondType? // 0: Available, 1: Visible, 2: Granted, 3: Increased
+int CondType? // 0: Available, 1: Visible, 2: Granted, 3: Increased, 4: DisplayError
 int<TraitTree::ID> TraitTreeID?
 int GrantedRanks?
 int QuestID?
@@ -19,7 +19,7 @@ int Field_10_0_0_44167_003?
 int Field_10_0_0_44167_013?
 int Field_10_0_0_44167_014?
 int<TraitCondAccountElement::ID> TraitCondAccountElementID?
-int Field_11_0_2_55789_009?
+int<TraitNodeEntry::ID> TraitNodeEntryID?
 
 LAYOUT 425F2DDC
 BUILD 10.0.0.44167
@@ -144,7 +144,7 @@ AchievementID<32>
 SpecSetID<32>
 TraitNodeGroupID<32>
 TraitNodeID<32>
-Field_11_0_2_55789_009<32>
+TraitNodeEntryID<32>
 TraitCurrencyID<32>
 SpentAmountRequired<32>
 Flags<32>
