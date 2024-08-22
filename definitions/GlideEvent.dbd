@@ -10,7 +10,7 @@ int<SpellVisualKit::ID> Field_10_0_0_44795_006? // full screen wind?
 int<Spell::ID> Field_10_0_0_45232_007?
 int DefaultBlendIn?
 int DefaultBlendOut?
-int Field_10_1_7_50442_006?
+int<SpellLabel::LabelID> LabelID?
 int AnimKitID?
 
 LAYOUT 6664636C
@@ -68,7 +68,7 @@ Field_10_0_0_44795_002<32>
 Field_10_0_0_44795_003<32>
 Flags<32>
 SpellID<32>
-Field_10_1_7_50442_006<32>
+LabelID<32>
 Field_10_0_0_44795_006<32>
 Field_10_0_0_45232_007<32>
 DefaultBlendIn<32>
@@ -84,7 +84,7 @@ Field_10_0_0_44795_002<32>
 Field_10_0_0_44795_003<32>
 Flags<32>
 SpellID<32>
-Field_10_1_7_50442_006<32>
+LabelID<32>
 Field_10_0_0_44795_006<32>
 Field_10_0_0_45232_007<32>
 DefaultBlendIn<32>
@@ -101,7 +101,7 @@ Field_10_0_0_44795_002<32>
 Field_10_0_0_44795_003<32>
 Flags<32>
 SpellID<32>
-Field_10_1_7_50442_006<32>
+LabelID<32>
 Field_10_0_0_44795_006<32>
 Field_10_0_0_45232_007<32>
 DefaultBlendIn<32>
