@@ -46,6 +46,35 @@ float MountScaleOther?
 float WalkSpeed?
 float RunSpeed?
 int Field_11_0_0_54210_032?
+float Field_1_15_4_56400_000?
+int Field_1_15_4_56400_001?
+int Field_1_15_4_56400_002?
+int Field_1_15_4_56400_003?
+int Field_1_15_4_56400_004?
+float Field_1_15_4_56400_005?
+float Field_1_15_4_56400_006?
+float Field_1_15_4_56400_007?
+int Field_1_15_4_56400_008?
+int Field_1_15_4_56400_009?
+int Field_1_15_4_56400_010?
+int Field_1_15_4_56400_011?
+int Field_1_15_4_56400_012?
+float Field_1_15_4_56400_013?
+float Field_1_15_4_56400_014?
+float Field_1_15_4_56400_015?
+int Field_1_15_4_56400_016?
+float Field_1_15_4_56400_017?
+float Field_1_15_4_56400_018?
+float Field_1_15_4_56400_019?
+float Field_1_15_4_56400_020?
+float Field_1_15_4_56400_021?
+float Field_1_15_4_56400_022?
+float Field_1_15_4_56400_023?
+float Field_1_15_4_56400_024?
+float Field_1_15_4_56400_025?
+float Field_1_15_4_56400_026?
+float Field_1_15_4_56400_027?
+int Field_1_15_4_56400_028?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -95,6 +124,39 @@ OverrideLootEffectScale
 OverrideNameScale
 OverrideSelectionRadius
 TamedPetBaseScale
+
+LAYOUT 4A4CF256
+BUILD 1.15.4.56400
+$noninline,id$ID<32>
+Field_1_15_4_56400_000[6]
+Field_1_15_4_56400_001<32>
+Field_1_15_4_56400_002<u32>
+Field_1_15_4_56400_003<u32>
+Field_1_15_4_56400_004<u32>
+Field_1_15_4_56400_005
+Field_1_15_4_56400_006
+Field_1_15_4_56400_007
+Field_1_15_4_56400_008<u32>
+Field_1_15_4_56400_009<u32>
+Field_1_15_4_56400_010<u32>
+Field_1_15_4_56400_011<u32>
+Field_1_15_4_56400_012<u32>
+Field_1_15_4_56400_013
+Field_1_15_4_56400_014
+Field_1_15_4_56400_015
+Field_1_15_4_56400_016<u32>
+Field_1_15_4_56400_017
+Field_1_15_4_56400_018
+Field_1_15_4_56400_019
+Field_1_15_4_56400_020
+Field_1_15_4_56400_021
+Field_1_15_4_56400_022
+Field_1_15_4_56400_023
+Field_1_15_4_56400_024
+Field_1_15_4_56400_025
+Field_1_15_4_56400_026
+Field_1_15_4_56400_027
+Field_1_15_4_56400_028<u16>
 
 BUILD 2.0.0.5610, 2.0.0.5991
 BUILD 1.0.0.3980-1.12.3.6141
