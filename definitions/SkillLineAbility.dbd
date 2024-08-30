@@ -22,22 +22,6 @@ int Abandonable
 int Field_0_5_5_3494_012? // only set on [Plate Mail] in 0.5.5
 locstring AbilityVerb_lang?
 locstring AbilityAllVerb_lang?
-int Field_1_15_4_56400_000?
-int Field_1_15_4_56400_001?
-int Field_1_15_4_56400_002?
-int Field_1_15_4_56400_003?
-int Field_1_15_4_56400_004?
-int Field_1_15_4_56400_005?
-int Field_1_15_4_56400_006?
-int Field_1_15_4_56400_007?
-int Field_1_15_4_56400_008?
-int Field_1_15_4_56400_009?
-int Field_1_15_4_56400_010?
-int Field_1_15_4_56400_011?
-int Field_1_15_4_56400_012?
-int Field_1_15_4_56400_013?
-int Field_1_15_4_56400_014?
-int Field_1_15_4_56400_015?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -131,22 +115,22 @@ CharacterPoints<32>[2]
 
 LAYOUT 738BFEE1
 BUILD 1.15.4.56400
-Field_1_15_4_56400_000<64>
-$id$Field_1_15_4_56400_001<32>
-$relation$Field_1_15_4_56400_002<16>
-Field_1_15_4_56400_003<32>
-Field_1_15_4_56400_004<16>
-Field_1_15_4_56400_005<32>
-Field_1_15_4_56400_006<32>
-Field_1_15_4_56400_007<32>
-Field_1_15_4_56400_008<16>
-Field_1_15_4_56400_009<16>
-Field_1_15_4_56400_010<32>
-Field_1_15_4_56400_011<8>
-Field_1_15_4_56400_012<16>
-Field_1_15_4_56400_013<16>
-Field_1_15_4_56400_014<16>
-Field_1_15_4_56400_015<32>[2]
+RaceMask<64>
+$id$ID<32>
+$relation$SkillLine<16>
+Spell<32>
+MinSkillLineRank<16>
+ClassMask<32>
+SupercedesSpell<32>
+AcquireMethod<8>
+TrivialSkillLineRankHigh<16>
+TrivialSkillLineRankLow<16>
+Flags<32>
+NumSkillUps<8>
+UniqueBit<16>
+TradeSkillCategoryID<16>
+SkillupSkillLineID<16>
+CharacterPoints<32>[2]
 
 LAYOUT 812C6AF2
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

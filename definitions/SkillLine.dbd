@@ -24,19 +24,6 @@ string NeutralDisplayName
 int SpellBookSpellID?
 int<SharedString::ID> ExpansionNameSharedStringID?
 int<SharedString::ID> HordeExpansionNameSharedStringID?
-locstring Field_1_15_4_56400_000_lang?
-locstring Field_1_15_4_56400_001_lang?
-locstring Field_1_15_4_56400_002_lang?
-locstring Field_1_15_4_56400_003_lang?
-string Field_1_15_4_56400_004?
-int Field_1_15_4_56400_005?
-int Field_1_15_4_56400_006?
-int Field_1_15_4_56400_007?
-int Field_1_15_4_56400_008?
-int Field_1_15_4_56400_009?
-int Field_1_15_4_56400_010?
-int Field_1_15_4_56400_011?
-int Field_1_15_4_56400_012?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -83,19 +70,19 @@ SpellBookSpellID<32>
 
 LAYOUT 1123150E
 BUILD 1.15.4.56400
-Field_1_15_4_56400_000_lang
-Field_1_15_4_56400_001_lang
-Field_1_15_4_56400_002_lang
-Field_1_15_4_56400_003_lang
-Field_1_15_4_56400_004
-$id$Field_1_15_4_56400_005<32>
-Field_1_15_4_56400_006<8>
-Field_1_15_4_56400_007<32>
-Field_1_15_4_56400_008<8>
-Field_1_15_4_56400_009<u32>
-Field_1_15_4_56400_010<32>
-Field_1_15_4_56400_011<32>
-Field_1_15_4_56400_012<32>
+DisplayName_lang
+AlternateVerb_lang
+Description_lang
+HordeDisplayName_lang
+NeutralDisplayName
+$id$ID<32>
+CategoryID<8>
+SpellIconFileID<32>
+CanLink<8>
+ParentSkillLineID<u32>
+ParentTierIndex<32>
+Flags<32>
+SpellBookSpellID<32>
 
 LAYOUT 029CC231
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

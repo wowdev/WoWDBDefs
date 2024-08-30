@@ -19,24 +19,6 @@ int LoopToSegmentIndex
 int BlendInTimeMs
 int BlendOutTimeMs
 float Field_9_0_1_34278_018?
-int Field_1_15_4_56400_000?
-int Field_1_15_4_56400_001?
-int Field_1_15_4_56400_002?
-int Field_1_15_4_56400_003?
-int Field_1_15_4_56400_004?
-int Field_1_15_4_56400_005?
-int Field_1_15_4_56400_006?
-int Field_1_15_4_56400_007?
-int Field_1_15_4_56400_008?
-int Field_1_15_4_56400_009?
-int Field_1_15_4_56400_010?
-float Field_1_15_4_56400_011?
-int Field_1_15_4_56400_012?
-int Field_1_15_4_56400_013?
-int Field_1_15_4_56400_014?
-int Field_1_15_4_56400_015?
-int Field_1_15_4_56400_016?
-int Field_1_15_4_56400_017?
 
 LAYOUT 333B200C
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917
@@ -63,24 +45,24 @@ BlendOutTimeMs<u16>
 LAYOUT 748C966C
 BUILD 1.15.4.56400
 $noninline,id$ID<32>
-$relation$Field_1_15_4_56400_000<u16>
-Field_1_15_4_56400_001<u8>
-Field_1_15_4_56400_002<16>
-Field_1_15_4_56400_003<u32>
-Field_1_15_4_56400_004<u16>
-Field_1_15_4_56400_005<u8>
-Field_1_15_4_56400_006<u8>
-Field_1_15_4_56400_007<u32>
-Field_1_15_4_56400_008<u8>
-Field_1_15_4_56400_009<u32>
-Field_1_15_4_56400_010<u32>
-Field_1_15_4_56400_011
-Field_1_15_4_56400_012<32>
-Field_1_15_4_56400_013<u8>
-Field_1_15_4_56400_014<32>
-Field_1_15_4_56400_015<8>
-Field_1_15_4_56400_016<u16>
-Field_1_15_4_56400_017<u16>
+$relation$ParentAnimKitID<u16>
+OrderIndex<u8>
+AnimID<16>
+AnimStartTime<u32>
+AnimKitConfigID<u16>
+StartCondition<u8>
+StartConditionParam<u8>
+StartConditionDelay<u32>
+EndCondition<u8>
+EndConditionParam<u32>
+EndConditionDelay<u32>
+Speed
+SegmentFlags<32>
+ForcedVariation<u8>
+OverrideConfigFlags<32>
+LoopToSegmentIndex<8>
+BlendInTimeMs<u16>
+BlendOutTimeMs<u16>
 
 LAYOUT 57F8D2EE
 BUILD 3.4.2.49311, 3.4.2.49442, 3.4.2.49563, 3.4.2.49584, 3.4.2.49658, 3.4.2.49684, 3.4.2.49705, 3.4.2.49752, 3.4.2.49794, 3.4.2.49871, 3.4.2.49979, 3.4.2.50058, 3.4.2.50063, 3.4.2.50129, 3.4.2.50172, 3.4.2.50250, 3.4.2.50375, 3.4.2.50664

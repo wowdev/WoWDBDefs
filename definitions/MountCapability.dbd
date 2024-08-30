@@ -9,14 +9,6 @@ int<Spell::ID> ModSpellAuraID
 int<Map::ID> ReqMapID
 int<PlayerCondition::ID> PlayerConditionID
 int<FlightCapability::ID> FlightCapabilityID?
-int Field_1_15_4_56400_000?
-int Field_1_15_4_56400_001?
-int Field_1_15_4_56400_002?
-int Field_1_15_4_56400_003?
-int Field_1_15_4_56400_004?
-int Field_1_15_4_56400_005?
-int Field_1_15_4_56400_006?
-int Field_1_15_4_56400_007?
 int Field_1_15_4_56400_008?
 int Field_1_15_4_56400_009?
 
@@ -33,14 +25,14 @@ ReqMapID<16>
 
 LAYOUT 6B7A5ED2
 BUILD 1.15.4.56400
-$id$Field_1_15_4_56400_000<32>
-Field_1_15_4_56400_001<32>
-Field_1_15_4_56400_002<u16>
-Field_1_15_4_56400_003<u16>
-Field_1_15_4_56400_004<u32>
-Field_1_15_4_56400_005<32>
-Field_1_15_4_56400_006<32>
-Field_1_15_4_56400_007<16>
+$id$ID<32>
+Flags<32>
+ReqRidingSkill<u16>
+ReqAreaID<u16>
+ReqSpellAuraID<u32>
+ReqSpellKnownID<32>
+ModSpellAuraID<32>
+ReqMapID<16>
 Field_1_15_4_56400_008<32>
 Field_1_15_4_56400_009<32>
 

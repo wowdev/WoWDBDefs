@@ -13,19 +13,6 @@ int<Curve::ID> GroupSizeSpellPointsCurveID
 locstring Name_lang
 int ItemContext
 int OrderIndex
-locstring Field_1_15_4_56400_000_lang?
-int Field_1_15_4_56400_001?
-int Field_1_15_4_56400_002?
-int Field_1_15_4_56400_003?
-int Field_1_15_4_56400_004?
-int Field_1_15_4_56400_005?
-int Field_1_15_4_56400_006?
-int Field_1_15_4_56400_007?
-int Field_1_15_4_56400_008?
-int Field_1_15_4_56400_009?
-int Field_1_15_4_56400_010?
-int Field_1_15_4_56400_011?
-int Field_1_15_4_56400_012?
 int Field_1_15_4_56400_013?
 
 LAYOUT A7D2908E
@@ -48,19 +35,19 @@ GroupSizeSpellPointsCurveID<u16>
 LAYOUT B338FF51
 BUILD 1.15.4.56400
 $noninline,id$ID<32>
-Field_1_15_4_56400_000_lang
-Field_1_15_4_56400_001<u8>
-Field_1_15_4_56400_002<u8>
-Field_1_15_4_56400_003<8>
-Field_1_15_4_56400_004<u8>
-Field_1_15_4_56400_005<u8>
-Field_1_15_4_56400_006<u8>
-Field_1_15_4_56400_007<u8>
-Field_1_15_4_56400_008<u8>
-Field_1_15_4_56400_009<u8>
-Field_1_15_4_56400_010<u16>
-Field_1_15_4_56400_011<u16>
-Field_1_15_4_56400_012<u16>
+Name_lang
+InstanceType<u8>
+OrderIndex<u8>
+OldEnumValue<8>
+FallbackDifficultyID<u8>
+MinPlayers<u8>
+MaxPlayers<u8>
+Flags<u8>
+ItemContext<u8>
+ToggleDifficultyID<u8>
+GroupSizeHealthCurveID<u16>
+GroupSizeDmgCurveID<u16>
+GroupSizeSpellPointsCurveID<u16>
 Field_1_15_4_56400_013<32>
 
 LAYOUT 21EAE538
