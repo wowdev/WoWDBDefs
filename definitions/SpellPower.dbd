@@ -17,24 +17,6 @@ int<Spell::ID> SpellID
 int PowerCost? // original implementation of PowerCostPct
 float OptionalCostPct?
 
-LAYOUT DFC24E8B
-BUILD 1.15.4.56400, 1.15.4.56419
-BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917
-$id$ID<32>
-OrderIndex<u8>
-ManaCost<32>
-ManaCostPerLevel<32>
-ManaPerSecond<32>
-PowerDisplayID<u32>
-AltPowerBarID<32>
-PowerCostPct
-PowerCostMaxPct
-PowerPctPerSecond
-PowerType<8>
-RequiredAuraSpellID<32>
-OptionalCost<u32>
-$noninline,relation$SpellID<32>
-
 BUILD 4.0.0.12232-4.0.0.12539
 $id$ID<32>
 ManaCost<32>
@@ -61,6 +43,25 @@ ManaPerSecond<32>
 PowerDisplayID<32>
 AltPowerBarID<32>
 PowerCostPct
+
+LAYOUT DFC24E8B
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917
+$id$ID<32>
+OrderIndex<u8>
+ManaCost<32>
+ManaCostPerLevel<32>
+ManaPerSecond<32>
+PowerDisplayID<u32>
+AltPowerBarID<32>
+PowerCostPct
+PowerCostMaxPct
+PowerPctPerSecond
+PowerType<8>
+RequiredAuraSpellID<32>
+OptionalCost<u32>
+$noninline,relation$SpellID<32>
 
 BUILD 5.0.1.15464-5.0.1.15544
 $id$ID<32>

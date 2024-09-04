@@ -25,17 +25,6 @@ ObjectEffectPackageID<16>
 OverrideLootEffectScale
 OverrideNameScale
 
-LAYOUT 7C5F0B90
-BUILD 1.15.4.56400, 1.15.4.56419
-$noninline,id$ID<32>
-ModelName
-GeoBox[6]
-FileDataID<32>
-ObjectEffectPackageID<16>
-OverrideLootEffectScale
-OverrideNameScale
-Field_1_15_4_56400_006<u16>
-
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.0.0.3980-1.12.3.6141
@@ -102,6 +91,18 @@ FileDataID<32>
 ObjectEffectPackageID<16>
 OverrideLootEffectScale
 OverrideNameScale
+
+LAYOUT 7C5F0B90
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+$noninline,id$ID<32>
+ModelName
+GeoBox[6]
+FileDataID<32>
+ObjectEffectPackageID<16>
+OverrideLootEffectScale
+OverrideNameScale
+Field_1_15_4_56400_006<u16>
 
 BUILD 5.0.1.15464-5.4.8.18414
 BUILD 4.0.6.13623-4.3.4.15595

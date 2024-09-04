@@ -133,71 +133,6 @@ TextureRepeatLengthU[3]
 TextureRepeatLengthV[3]
 TextureFileDataID<32>[3]
 
-LAYOUT 3E3B28F5
-BUILD 1.15.4.56400, 1.15.4.56419
-$noninline,id$ID<32>
-AvgSegLen
-NoiseScale
-TexCoordScale
-SegDuration<u32>
-SegDelay<u16>
-Flags<32>
-JointCount<u16>
-JointOffsetRadius
-JointsPerMinorJoint<u8>
-MinorJointsPerMajorJoint<u8>
-MinorJointScale
-MajorJointScale
-JointMoveSpeed
-JointSmoothness
-MinDurationBetweenJointJumps
-MaxDurationBetweenJointJumps
-WaveHeight
-WaveFreq
-WaveSpeed
-MinWaveAngle
-MaxWaveAngle
-MinWaveSpin
-MaxWaveSpin
-ArcHeight
-MinArcAngle
-MaxArcAngle
-MinArcSpin
-MaxArcSpin
-DelayBetweenEffects
-MinFlickerOnDuration
-MaxFlickerOnDuration
-MinFlickerOffDuration
-MaxFlickerOffDuration
-PulseSpeed
-PulseOnLength
-PulseFadeLength
-Alpha<u8>
-Red<u8>
-Green<u8>
-Blue<u8>
-BlendMode<u8>
-RenderLayer<u8>
-WavePhase
-TimePerFlipFrame
-VariancePerFlipFrame
-TextureParticleFileDataID<u32>
-StartWidth
-EndWidth
-WidthScaleCurveID<u16>
-NumFlipFramesU<u8>
-NumFlipFramesV<u8>
-SoundKitID<u32>
-ParticleScaleMultiplier
-ParticleEmissionRateMultiplier
-Field_1_15_4_56400_054<u16>
-SpellChainEffectID<u16>[11]
-TextureCoordScaleU[3]
-TextureCoordScaleV[3]
-TextureRepeatLengthU[3]
-TextureRepeatLengthV[3]
-TextureFileDataID<32>[3]
-
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.6.6337
 BUILD 1.0.0.3980-1.12.3.6141
@@ -361,6 +296,72 @@ Combo
 RenderLayer<32>
 TextureLength
 WavePhase
+
+LAYOUT 3E3B28F5
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+$noninline,id$ID<32>
+AvgSegLen
+NoiseScale
+TexCoordScale
+SegDuration<u32>
+SegDelay<u16>
+Flags<32>
+JointCount<u16>
+JointOffsetRadius
+JointsPerMinorJoint<u8>
+MinorJointsPerMajorJoint<u8>
+MinorJointScale
+MajorJointScale
+JointMoveSpeed
+JointSmoothness
+MinDurationBetweenJointJumps
+MaxDurationBetweenJointJumps
+WaveHeight
+WaveFreq
+WaveSpeed
+MinWaveAngle
+MaxWaveAngle
+MinWaveSpin
+MaxWaveSpin
+ArcHeight
+MinArcAngle
+MaxArcAngle
+MinArcSpin
+MaxArcSpin
+DelayBetweenEffects
+MinFlickerOnDuration
+MaxFlickerOnDuration
+MinFlickerOffDuration
+MaxFlickerOffDuration
+PulseSpeed
+PulseOnLength
+PulseFadeLength
+Alpha<u8>
+Red<u8>
+Green<u8>
+Blue<u8>
+BlendMode<u8>
+RenderLayer<u8>
+WavePhase
+TimePerFlipFrame
+VariancePerFlipFrame
+TextureParticleFileDataID<u32>
+StartWidth
+EndWidth
+WidthScaleCurveID<u16>
+NumFlipFramesU<u8>
+NumFlipFramesV<u8>
+SoundKitID<u32>
+ParticleScaleMultiplier
+ParticleEmissionRateMultiplier
+Field_1_15_4_56400_054<u16>
+SpellChainEffectID<u16>[11]
+TextureCoordScaleU[3]
+TextureCoordScaleV[3]
+TextureRepeatLengthU[3]
+TextureRepeatLengthV[3]
+TextureFileDataID<32>[3]
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.0.3.15851

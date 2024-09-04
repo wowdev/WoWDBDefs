@@ -28,22 +28,6 @@ PhaseID<u16>
 PhaseGroupID<u16>
 PropValue<32>[8]
 
-LAYOUT 9E707394
-BUILD 1.15.4.56400, 1.15.4.56419
-Name_lang
-Pos[3]
-Rot[4]
-$id$ID<32>
-$relation$OwnerID<u16>
-DisplayID<u32>
-Scale
-TypeID<u8>
-PhaseUseFlags<32>
-PhaseID<u16>
-PhaseGroupID<u16>
-Field_11_0_0_54210_011<u16>
-PropValue<32>[8]
-
 LAYOUT 0FD961D7
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -101,6 +85,23 @@ TypeID<u8>
 PhaseUseFlags<32>
 PhaseID<u16>
 PhaseGroupID<u16>
+PropValue<32>[8]
+
+LAYOUT 9E707394
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+Name_lang
+Pos[3]
+Rot[4]
+$id$ID<32>
+$relation$OwnerID<u16>
+DisplayID<u32>
+Scale
+TypeID<u8>
+PhaseUseFlags<32>
+PhaseID<u16>
+PhaseGroupID<u16>
+Field_11_0_0_54210_011<u16>
 PropValue<32>[8]
 
 BUILD 5.0.1.15640-5.4.8.18414

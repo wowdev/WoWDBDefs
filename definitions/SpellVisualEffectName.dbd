@@ -62,25 +62,6 @@ RibbonQualityID<u32>
 DissolveEffectID<32>
 ModelPosition<32>
 
-LAYOUT E273C4B7
-BUILD 1.15.4.56400, 1.15.4.56419
-$noninline,id$ID<32>
-ModelFileDataID<32>
-BaseMissileSpeed
-Scale
-MinAllowedScale
-MaxAllowedScale
-Alpha
-Flags<u32>
-TextureFileDataID<32>
-EffectRadius
-Type<u32>
-GenericID<32>
-RibbonQualityID<u32>
-DissolveEffectID<32>
-ModelPosition<32>
-Field_1_15_4_56400_014<u16>
-
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.0.0.3980-1.12.3.6141
 BUILD 0.8.0.3734-0.12.0.3988
@@ -144,6 +125,26 @@ GenericID<32>
 RibbonQualityID<u32>
 DissolveEffectID<32>
 ModelPosition<32>
+
+LAYOUT E273C4B7
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+$noninline,id$ID<32>
+ModelFileDataID<32>
+BaseMissileSpeed
+Scale
+MinAllowedScale
+MaxAllowedScale
+Alpha
+Flags<u32>
+TextureFileDataID<32>
+EffectRadius
+Type<u32>
+GenericID<32>
+RibbonQualityID<u32>
+DissolveEffectID<32>
+ModelPosition<32>
+Field_1_15_4_56400_014<u16>
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.1.0.13914-4.3.4.15595

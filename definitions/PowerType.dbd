@@ -66,22 +66,6 @@ RegenPeace
 RegenCombat
 Flags<16>
 
-LAYOUT 06F44DB5
-BUILD 1.15.4.56400, 1.15.4.56419
-$noninline,id$ID<32>
-NameGlobalStringTag
-CostGlobalStringTag
-PowerTypeEnum<8>
-MinPower<32>
-MaxBasePower<32>
-CenterPower<32>
-DefaultPower<32>
-DisplayModifier<32>
-RegenInterruptTimeMS<32>
-RegenPeace
-RegenCombat
-Flags<32>
-
 LAYOUT D3BB9035
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475, 2.5.1.39603, 2.5.1.39640
 $noninline,id$ID<32>
@@ -158,6 +142,23 @@ RegenInterruptTimeMS<32>
 RegenPeace
 RegenCombat
 Flags<16>
+
+LAYOUT 06F44DB5
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+$noninline,id$ID<32>
+NameGlobalStringTag
+CostGlobalStringTag
+PowerTypeEnum<8>
+MinPower<32>
+MaxBasePower<32>
+CenterPower<32>
+DefaultPower<32>
+DisplayModifier<32>
+RegenInterruptTimeMS<32>
+RegenPeace
+RegenCombat
+Flags<32>
 
 LAYOUT 0C3844E1, DAE0AE89
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766

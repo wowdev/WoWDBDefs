@@ -146,34 +146,6 @@ RolesMask<u8>
 DamageBonusStat<u8>
 HasRelicSlot<u8>
 
-LAYOUT EC50880B
-BUILD 1.15.4.56400, 1.15.4.56419
-Name_lang
-Filename
-Name_male_lang
-Name_female_lang
-PetNameToken
-$id$ID<32>
-CreateScreenFileDataID<u32>
-SelectScreenFileDataID<u32>
-IconFileDataID<u32>
-LowResScreenFileDataID<u32>
-Flags<32>
-StartingLevel<32>
-ArmorTypeMask<u32>
-CinematicSequenceID<u16>
-DefaultSpec<u16>
-HasStrengthAttackBonus<u8>
-PrimaryStatPriority<u8>
-DisplayPower<8>
-RangedAttackPowerPerAgility<u8>
-AttackPowerPerAgility<u8>
-AttackPowerPerStrength<u8>
-SpellClassSet<u8>
-RolesMask<u8>
-DamageBonusStat<u8>
-HasRelicSlot<u8>
-
 BUILD 2.0.0.5610-2.0.0.5666
 BUILD 1.10.0.5195-1.12.3.6141
 $id$ID<32>
@@ -418,6 +390,35 @@ DefaultSpec<u16>
 HasStrengthAttackBonus<u8>
 PrimaryStatPriority<u8>
 DisplayPower<u8>
+RangedAttackPowerPerAgility<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
+SpellClassSet<u8>
+RolesMask<u8>
+DamageBonusStat<u8>
+HasRelicSlot<u8>
+
+LAYOUT EC50880B
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
+$id$ID<32>
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+IconFileDataID<u32>
+LowResScreenFileDataID<u32>
+Flags<32>
+StartingLevel<32>
+ArmorTypeMask<u32>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+HasStrengthAttackBonus<u8>
+PrimaryStatPriority<u8>
+DisplayPower<8>
 RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>

@@ -22,18 +22,6 @@ MinLevel<8>
 SkillTierID<16>
 Field_1_15_0_52124_007<32>
 
-LAYOUT 78AC2343
-BUILD 1.15.4.56400, 1.15.4.56419
-$noninline,id$ID<32>
-RaceMask<64>
-$relation$SkillID<16>
-ClassMask<32>
-Flags<u16>
-Availability<32>
-MinLevel<8>
-SkillTierID<16>
-Field_1_15_0_52124_007<32>
-
 BUILD 4.0.0.11792
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885
@@ -74,6 +62,19 @@ $relation$SkillID<16>
 ClassMask<32>
 Flags<u16>
 Availability<8>
+MinLevel<8>
+SkillTierID<16>
+Field_1_15_0_52124_007<32>
+
+LAYOUT 78AC2343
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+$noninline,id$ID<32>
+RaceMask<64>
+$relation$SkillID<16>
+ClassMask<32>
+Flags<u16>
+Availability<32>
 MinLevel<8>
 SkillTierID<16>
 Field_1_15_0_52124_007<32>

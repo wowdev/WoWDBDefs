@@ -104,30 +104,6 @@ Resistances<32>[7]
 MinDamage<32>[5]
 MaxDamage<32>[5]
 
-LAYOUT 62FE3B1A
-BUILD 1.15.4.56400, 1.15.4.56419
-$noninline,id$ID<32>
-ClassID<u8>
-SubclassID<u8>
-Material<u8>
-InventoryType<8>
-RequiredLevel<32>
-SheatheType<u8>
-RandomSelect<u16>
-ItemRandomSuffixGroupID<u16>
-Sound_override_subclassID<8>
-ScalingStatDistributionID<u16>
-IconFileDataID<32>
-ItemGroupSoundsID<u8>
-ContentTuningID<32>
-MaxDurability<u32>
-AmmunitionType<u8>
-ScalingStatValue<32>
-DamageType<u8>[5]
-Resistances<32>[7]
-MinDamage<32>[5]
-MaxDamage<32>[5]
-
 LAYOUT B1C87EB0
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118
 $noninline,id$ID<32>
@@ -268,6 +244,31 @@ MaxDamage<u16>[5]
 LAYOUT FFF62904
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056, 4.4.0.55141, 4.4.0.55262, 4.4.0.55460, 4.4.0.55613, 4.4.0.55639, 4.4.0.56014, 4.4.0.56420
 BUILD 1.15.2.53941, 1.15.2.54029, 1.15.2.54067, 1.15.2.54092, 1.15.2.54262, 1.15.2.54332, 1.15.2.54649, 1.15.2.54902, 1.15.2.55002, 1.15.2.55140
+$noninline,id$ID<32>
+ClassID<u8>
+SubclassID<u8>
+Material<u8>
+InventoryType<8>
+RequiredLevel<32>
+SheatheType<u8>
+RandomSelect<u16>
+ItemRandomSuffixGroupID<u16>
+Sound_override_subclassID<8>
+ScalingStatDistributionID<u16>
+IconFileDataID<32>
+ItemGroupSoundsID<u8>
+ContentTuningID<32>
+MaxDurability<u32>
+AmmunitionType<u8>
+ScalingStatValue<32>
+DamageType<u8>[5]
+Resistances<32>[7]
+MinDamage<32>[5]
+MaxDamage<32>[5]
+
+LAYOUT 62FE3B1A
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
 $noninline,id$ID<32>
 ClassID<u8>
 SubclassID<u8>

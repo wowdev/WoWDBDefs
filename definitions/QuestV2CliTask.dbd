@@ -61,35 +61,6 @@ Field_2_5_1_38043_021<u32>
 Field_2_5_1_38043_022<u32>
 FiltCompletedQuest<u32>[3]
 
-LAYOUT CB1396DA
-BUILD 1.15.4.56400, 1.15.4.56419
-FiltRaces<64>
-QuestTitle_lang
-BulletText_lang
-$id$ID<u32>
-UniqueBitFlag<u16>
-ConditionID<u32>
-FiltActiveQuest<u32>
-FiltClasses<16>
-FiltCompletedQuestLogic<u32>
-FiltMaxFactionID<u32>
-FiltMaxFactionValue<u32>
-FiltMinFactionID<u32>
-FiltMinFactionValue<u32>
-FiltMinSkillID<u32>
-FiltMinSkillValue<u32>
-FiltNonActiveQuest<u32>
-BreadCrumbID<u32>
-StartItem<32>
-WorldStateExpressionID<32>
-Field_2_5_1_38043_019<u32>
-Field_2_5_1_38043_020<32>
-Field_1_15_4_56400_021<32>
-Field_2_5_1_38043_021<u32>
-Field_2_5_1_38043_022<u32>
-Field_1_15_4_56400_024<32>[3]
-FiltCompletedQuest<u32>[3]
-
 LAYOUT 9E9CB090
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -157,6 +128,36 @@ Field_2_5_1_38043_019<u32>
 Field_2_5_1_38043_020<32>
 Field_2_5_1_38043_021<u32>
 Field_2_5_1_38043_022<u32>
+FiltCompletedQuest<u32>[3]
+
+LAYOUT CB1396DA
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+$id$ID<u32>
+UniqueBitFlag<u16>
+ConditionID<u32>
+FiltActiveQuest<u32>
+FiltClasses<16>
+FiltCompletedQuestLogic<u32>
+FiltMaxFactionID<u32>
+FiltMaxFactionValue<u32>
+FiltMinFactionID<u32>
+FiltMinFactionValue<u32>
+FiltMinSkillID<u32>
+FiltMinSkillValue<u32>
+FiltNonActiveQuest<u32>
+BreadCrumbID<u32>
+StartItem<32>
+WorldStateExpressionID<32>
+Field_2_5_1_38043_019<u32>
+Field_2_5_1_38043_020<32>
+Field_1_15_4_56400_021<32>
+Field_2_5_1_38043_021<u32>
+Field_2_5_1_38043_022<u32>
+Field_1_15_4_56400_024<32>[3]
 FiltCompletedQuest<u32>[3]
 
 LAYOUT C02750A8

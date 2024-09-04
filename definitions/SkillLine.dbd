@@ -68,22 +68,6 @@ ParentTierIndex<32>
 Flags<u16>
 SpellBookSpellID<32>
 
-LAYOUT 1123150E
-BUILD 1.15.4.56400, 1.15.4.56419
-DisplayName_lang
-AlternateVerb_lang
-Description_lang
-HordeDisplayName_lang
-NeutralDisplayName
-$id$ID<32>
-CategoryID<8>
-SpellIconFileID<32>
-CanLink<8>
-ParentSkillLineID<u32>
-ParentTierIndex<32>
-Flags<32>
-SpellBookSpellID<32>
-
 LAYOUT 029CC231
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -171,6 +155,23 @@ CanLink<8>
 ParentSkillLineID<u32>
 ParentTierIndex<32>
 Flags<u16>
+SpellBookSpellID<32>
+
+LAYOUT 1123150E
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+DisplayName_lang
+AlternateVerb_lang
+Description_lang
+HordeDisplayName_lang
+NeutralDisplayName
+$id$ID<32>
+CategoryID<8>
+SpellIconFileID<32>
+CanLink<8>
+ParentSkillLineID<u32>
+ParentTierIndex<32>
+Flags<32>
 SpellBookSpellID<32>
 
 BUILD 5.0.1.15464-5.0.5.16135

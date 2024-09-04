@@ -37,44 +37,6 @@ int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
 
-LAYOUT 35344C90
-BUILD 1.15.4.56400, 1.15.4.56419
-BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917
-$noninline,id$ID<32>
-Name_lang
-Description_lang
-MinLevel<u8>
-MaxLevel<u16>
-TypeID<u8>
-Subtype<u8>
-Faction<8>
-IconTextureFileID<32>
-RewardsBgTextureFileID<32>
-PopupBgTextureFileID<32>
-ExpansionLevel<u8>
-MapID<16>
-DifficultyID<u8>
-MinGear
-Group_ID<u8>
-Order_index<u8>
-Required_player_condition_ID<u32>
-Target_level<u8>
-Target_level_min<u8>
-Target_level_max<u16>
-Random_ID<u16>
-ScenarioID<u16>
-FinalEncounterID<u16>
-Count_tank<u8>
-Count_healer<u8>
-Count_damage<u8>
-Min_count_tank<u8>
-Min_count_healer<u8>
-Min_count_damage<u8>
-Bonus_reputation_amount<u16>
-MentorItemLevel<u16>
-MentorCharLevel<u8>
-Flags<32>[2]
-
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
 $id$ID<32>
@@ -238,6 +200,45 @@ BUILD 1.15.2.53941, 1.15.2.54029, 1.15.2.54067, 1.15.2.54092, 1.15.2.54262, 1.15
 BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
 BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
 BUILD 1.14.4.50252, 1.14.4.50304, 1.14.4.50337, 1.14.4.50461, 1.14.4.50547, 1.14.4.50643, 1.14.4.50753, 1.14.4.50849, 1.14.4.50960, 1.14.4.51001, 1.14.4.51056, 1.14.4.51146, 1.14.4.51311, 1.14.4.51395, 1.14.4.51535, 1.14.4.51829
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+MinLevel<u8>
+MaxLevel<u16>
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
+MinGear
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
+Target_level<u8>
+Target_level_min<u8>
+Target_level_max<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MentorCharLevel<u8>
+Flags<32>[2]
+
+LAYOUT 35344C90
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917
 $noninline,id$ID<32>
 Name_lang
 Description_lang

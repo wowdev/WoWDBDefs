@@ -112,34 +112,6 @@ AreaName_lang
 FactionGroupMask<32>
 LiquidTypeID<32>[4]
 
-LAYOUT 0A6204DD
-BUILD 1.15.4.56400, 1.15.4.56419
-BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917
-$noninline,id$ID<32>
-ZoneName
-AreaName_lang
-ContinentID<u16>
-ParentAreaID<u16>
-AreaBit<16>
-SoundProviderPref<u8>
-SoundProviderPrefUnderwater<u8>
-AmbienceID<u16>
-UwAmbience<u16>
-ZoneMusic<u16>
-UwZoneMusic<u16>
-ExplorationLevel<8>
-IntroSound<u16>
-UwIntroSound<u32>
-FactionGroupMask<u8>
-Ambient_multiplier
-MountFlags<32>
-PvpCombatWorldStateID<16>
-WildBattlePetLevelMin<u8>
-WildBattlePetLevelMax<u8>
-WindSettingsID<u8>
-Flags<32>[2]
-LiquidTypeID<u16>[4]
-
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>
 ContinentID<32>
@@ -376,6 +348,35 @@ BUILD 1.15.2.53941, 1.15.2.54029, 1.15.2.54067, 1.15.2.54092, 1.15.2.54262, 1.15
 BUILD 1.15.1.53009, 1.15.1.53181, 1.15.1.53247, 1.15.1.53495, 1.15.1.53623
 BUILD 1.15.0.52124, 1.15.0.52146, 1.15.0.52186, 1.15.0.52212, 1.15.0.52302, 1.15.0.52409, 1.15.0.52610
 BUILD 1.14.4.50252, 1.14.4.50304, 1.14.4.50337, 1.14.4.50461, 1.14.4.50547, 1.14.4.50643, 1.14.4.50753, 1.14.4.50849, 1.14.4.50960, 1.14.4.51001, 1.14.4.51056, 1.14.4.51146, 1.14.4.51311, 1.14.4.51395, 1.14.4.51535, 1.14.4.51829
+$noninline,id$ID<32>
+ZoneName
+AreaName_lang
+ContinentID<u16>
+ParentAreaID<u16>
+AreaBit<16>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+AmbienceID<u16>
+UwAmbience<u16>
+ZoneMusic<u16>
+UwZoneMusic<u16>
+ExplorationLevel<8>
+IntroSound<u16>
+UwIntroSound<u32>
+FactionGroupMask<u8>
+Ambient_multiplier
+MountFlags<32>
+PvpCombatWorldStateID<16>
+WildBattlePetLevelMin<u8>
+WildBattlePetLevelMax<u8>
+WindSettingsID<u8>
+Flags<32>[2]
+LiquidTypeID<u16>[4]
+
+LAYOUT 0A6204DD
+BUILD 4.4.1.56464
+BUILD 1.15.4.56400, 1.15.4.56419
+BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917
 $noninline,id$ID<32>
 ZoneName
 AreaName_lang
