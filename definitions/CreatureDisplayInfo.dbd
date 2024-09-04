@@ -38,7 +38,7 @@ int Field_2_1_0_6692_016?
 int Field_2_1_0_6692_017?
 int Field_2_1_0_6692_018?
 int<ConditionalCreatureModelData::ID> ConditionalCreatureModelID?
-float Field_11_0_0_54210_025?
+float MountMaxBankingAngle?
 int Field_11_0_0_54210_026?
 int Field_1_15_4_56400_024?
 
@@ -690,7 +690,7 @@ Gender<8>
 DissolveOutEffectID<32>
 CreatureModelMinLod<8>
 ConditionalCreatureModelID<u16>
-Field_11_0_0_54210_025
+MountMaxBankingAngle
 Field_11_0_0_54210_026<u16>
 TextureVariationFileDataID<32>[4]
 
@@ -722,6 +722,6 @@ Gender<8>
 DissolveOutEffectID<32>
 CreatureModelMinLod<8>
 ConditionalCreatureModelID<u16>
-Field_11_0_0_54210_025
+MountMaxBankingAngle
 Field_11_0_0_54210_026<u16>
 TextureVariationFileDataID<32>[4]
