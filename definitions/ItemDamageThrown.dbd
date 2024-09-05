@@ -2,14 +2,12 @@ COLUMNS
 int ID
 float Quality
 int ItemLevel
-int Field_4_4_1_56464_000?
-float Field_4_4_1_56464_001?
 
 LAYOUT 56F30531
 BUILD 4.4.1.56464
 $noninline,id$ID<32>
-Field_4_4_1_56464_000<u16>
-Field_4_4_1_56464_001[7]
+ItemLevel<u16>
+Quality[7]
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
