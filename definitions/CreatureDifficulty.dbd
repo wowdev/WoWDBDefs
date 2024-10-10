@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Creature::ID> CreatureID
 int ExpansionID
-int<FactionTemplate::ID> FactionID
+int<FactionTemplate::ID> FactionTemplateID
 int Flags
 int MaxLevel
 int MinLevel
@@ -23,7 +23,7 @@ $noninline,id$ID<32>
 ExpansionID<8>
 MinLevel<8>
 MaxLevel<8>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -35,7 +35,7 @@ $noninline,id$ID<32>
 ExpansionID<8>
 MinLevel<8>
 MaxLevel<8>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -52,7 +52,7 @@ $noninline,id$ID<32>
 ExpansionID<8>
 MinLevel<8>
 MaxLevel<8>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -65,7 +65,7 @@ $noninline,id$ID<32>
 ExpansionID<8>
 MinLevel<8>
 MaxLevel<8>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -83,7 +83,7 @@ BUILD 6.0.1.18125-6.2.4.21742
 BUILD 5.4.0.17266-5.4.8.18414
 $id$ID<32>
 CreatureID<32>
-FactionID<32>
+FactionTemplateID<32>
 ExpansionID<32>
 MinLevel<32>
 MaxLevel<32>
@@ -95,7 +95,7 @@ BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.245
 $noninline,id$ID<32>
 CreatureID<32>
 Flags<32>[7]
-FactionID<u16>
+FactionTemplateID<u16>
 ExpansionID<8>
 MinLevel<8>
 MaxLevel<8>
@@ -106,7 +106,7 @@ BUILD 7.3.5.25928, 7.3.5.25937, 7.3.5.25944, 7.3.5.25946, 7.3.5.25950, 7.3.5.259
 BUILD 1.13.0.28211
 $noninline,id$ID<32>
 Flags<32>[7]
-FactionID<u16>
+FactionTemplateID<u16>
 ExpansionID<8>
 MinLevel<8>
 MaxLevel<8>
@@ -116,7 +116,7 @@ LAYOUT 6B6A83CA, D6DB80C6
 BUILD 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321, 8.0.1.26367, 8.0.1.26433, 8.0.1.26476, 8.0.1.26491, 8.0.1.26522, 8.0.1.26530, 8.0.1.26557, 8.0.1.26567, 8.0.1.26585, 8.0.1.26604, 8.0.1.26610, 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766
 $noninline,id$ID<32>
 Flags<32>[7]
-FactionID<u16>
+FactionTemplateID<u16>
 ExpansionID<8>
 MinLevel<8>
 MaxLevel<8>
@@ -141,7 +141,7 @@ $noninline,id$ID<32>
 ExpansionID<8>
 MinLevel<8>
 MaxLevel<8>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[7]
 $noninline,relation$CreatureID<32>
@@ -153,7 +153,7 @@ $noninline,id$ID<32>
 ExpansionID<8>
 MinLevel<8>
 MaxLevel<8>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -168,7 +168,7 @@ MinLevel<8>
 MaxLevel<8>
 Field_9_0_1_35522_003Min<32>
 Field_9_0_1_35522_003Max<32>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -180,7 +180,7 @@ MinLevel<8>
 MaxLevel<8>
 Field_9_0_1_35522_003Min<32>
 Field_9_0_1_35522_003Max<32>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -190,7 +190,7 @@ BUILD 9.1.0.38872, 9.1.0.38950, 9.1.0.39015, 9.1.0.39069, 9.1.0.39121, 9.1.0.391
 $noninline,id$ID<32>
 Field_9_0_1_35522_003Min<32>
 Field_9_0_1_35522_003Max<32>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -203,7 +203,7 @@ BUILD 9.1.5.39977, 9.1.5.40071, 9.1.5.40078, 9.1.5.40196, 9.1.5.40290, 9.1.5.403
 $noninline,id$ID<32>
 Field_9_0_1_35522_003Min<32>
 Field_9_0_1_35522_003Max<32>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -218,7 +218,7 @@ BUILD 9.2.5.43519, 9.2.5.43630, 9.2.5.43741, 9.2.5.43810, 9.2.5.43903, 9.2.5.439
 $noninline,id$ID<32>
 Field_9_0_1_35522_003Min<32>
 Field_9_0_1_35522_003Max<32>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -236,7 +236,7 @@ BUILD 10.0.7.48439, 10.0.7.48520, 10.0.7.48676, 10.0.7.48749, 10.0.7.48838, 10.0
 $noninline,id$ID<32>
 Field_9_0_1_35522_003Min<32>
 Field_9_0_1_35522_003Max<32>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
@@ -248,7 +248,7 @@ BUILD 11.0.0.54464, 11.0.0.54521, 11.0.0.54605, 11.0.0.54675, 11.0.0.54709, 11.0
 $noninline,id$ID<32>
 Field_9_0_1_35522_003Min<32>
 Field_9_0_1_35522_003Max<32>
-FactionID<u16>
+FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
