@@ -12,6 +12,18 @@ locstring Text_lang
 locstring Text1_lang
 int ChatBubbleDurationMs
 int VoiceOverPriorityID? // Client defaults to 4 if this is 0, probably sound system related
+locstring Field_4_4_1_57103_000_lang?
+locstring Field_4_4_1_57103_001_lang?
+int Field_4_4_1_57103_002?
+int Field_4_4_1_57103_003?
+int Field_4_4_1_57103_004?
+int Field_4_4_1_57103_005?
+int Field_4_4_1_57103_006?
+int Field_4_4_1_57103_007?
+int Field_4_4_1_57103_008?
+int Field_4_4_1_57103_009?
+int Field_4_4_1_57103_010?
+int Field_4_4_1_57103_011?
 
 LAYOUT 82D5CA77
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -71,6 +83,21 @@ VoiceOverPriorityID<32>
 SoundKitID<u32>[2]
 EmoteID<u16>[3]
 EmoteDelay<u16>[3]
+
+LAYOUT 0DD39BE3
+BUILD 4.4.1.57103
+Field_4_4_1_57103_000_lang
+Field_4_4_1_57103_001_lang
+$id$Field_4_4_1_57103_002<32>
+Field_4_4_1_57103_003<32>
+Field_4_4_1_57103_004<32>
+Field_4_4_1_57103_005<u16>
+Field_4_4_1_57103_006<u16>
+Field_4_4_1_57103_007<u32>
+Field_4_4_1_57103_008<32>
+Field_4_4_1_57103_009<u32>[2]
+Field_4_4_1_57103_010<u16>[3]
+Field_4_4_1_57103_011<u16>[3]
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
