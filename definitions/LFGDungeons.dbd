@@ -36,6 +36,36 @@ int<PlayerCondition::ID> Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
+locstring Field_11_0_5_57171_000_lang?
+locstring Field_11_0_5_57171_001_lang?
+int Field_11_0_5_57171_002?
+int Field_11_0_5_57171_003?
+int Field_11_0_5_57171_004?
+int Field_11_0_5_57171_005?
+int Field_11_0_5_57171_006?
+int Field_11_0_5_57171_007?
+int Field_11_0_5_57171_008?
+int Field_11_0_5_57171_009?
+int Field_11_0_5_57171_010?
+float Field_11_0_5_57171_011?
+int Field_11_0_5_57171_012?
+int Field_11_0_5_57171_013?
+int Field_11_0_5_57171_014?
+int Field_11_0_5_57171_015?
+int Field_11_0_5_57171_016?
+int Field_11_0_5_57171_017?
+int Field_11_0_5_57171_018?
+int Field_11_0_5_57171_019?
+int Field_11_0_5_57171_020?
+int Field_11_0_5_57171_021?
+int Field_11_0_5_57171_022?
+int Field_11_0_5_57171_023?
+int Field_11_0_5_57171_024?
+int Field_11_0_5_57171_025?
+int Field_11_0_5_57171_026?
+int Field_11_0_5_57171_027?
+int Field_11_0_5_57171_028?
+int Field_11_0_5_57171_029?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -945,3 +975,37 @@ MentorItemLevel<u16>
 MentorCharLevel<u8>
 ContentTuningID<32>
 Flags<32>[2]
+
+LAYOUT 9274FE74
+BUILD 11.0.5.57171
+$noninline,id$ID<32>
+Field_11_0_5_57171_000_lang
+Field_11_0_5_57171_001_lang
+Field_11_0_5_57171_002<u8>
+Field_11_0_5_57171_003<u8>
+Field_11_0_5_57171_004<8>
+Field_11_0_5_57171_005<32>
+Field_11_0_5_57171_006<32>
+Field_11_0_5_57171_007<32>
+Field_11_0_5_57171_008<u8>
+Field_11_0_5_57171_009<16>
+Field_11_0_5_57171_010<u8>
+Field_11_0_5_57171_011
+Field_11_0_5_57171_012<u8>
+Field_11_0_5_57171_013<u8>
+Field_11_0_5_57171_014<u32>
+Field_11_0_5_57171_015<u16>
+Field_11_0_5_57171_016<u16>
+Field_11_0_5_57171_017<u16>
+Field_11_0_5_57171_018<u8>
+Field_11_0_5_57171_019<u8>
+Field_11_0_5_57171_020<u8>
+Field_11_0_5_57171_021<u8>
+Field_11_0_5_57171_022<u8>
+Field_11_0_5_57171_023<u8>
+Field_11_0_5_57171_024<u16>
+Field_11_0_5_57171_025<u16>
+Field_11_0_5_57171_026<u8>
+Field_11_0_5_57171_027<u8>
+Field_11_0_5_57171_028<32>
+Field_11_0_5_57171_029<32>[2]
