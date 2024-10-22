@@ -36,7 +36,7 @@ int<PlayerCondition::ID> Required_player_condition_ID
 int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
-int Field_11_0_5_57171_027?
+int MaxPremadeGroupSize?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -977,6 +977,6 @@ Min_count_damage<u8>
 Bonus_reputation_amount<u16>
 MentorItemLevel<u16>
 MentorCharLevel<u8>
-Field_11_0_5_57171_027<u8>
+MaxPremadeGroupSize<u8>
 ContentTuningID<32>
 Flags<32>[2]
