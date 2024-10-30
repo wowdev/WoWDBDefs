@@ -750,12 +750,11 @@ ParentMapID<32>
 CosmeticParentMapID<32>
 TimeOffset<32>
 
-BUILD 6.0.2.18837
+BUILD 6.0.2.18837-6.2.4.21742
 $id$ID<32>
 Directory
 InstanceType<32>
-Unk0<32>
-Flags<32>
+Flags<32>[2]
 MapType<32>
 MapName_lang
 AreaTableID<32>
