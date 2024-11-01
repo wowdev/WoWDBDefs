@@ -37,39 +37,9 @@ int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
 int MaxPremadeGroupSize?
-locstring Field_11_0_7_57361_000_lang?
-locstring Field_11_0_7_57361_001_lang?
-int Field_11_0_7_57361_002?
-int Field_11_0_7_57361_003?
-int Field_11_0_7_57361_004?
-int Field_11_0_7_57361_005?
-int Field_11_0_7_57361_006?
-int Field_11_0_7_57361_007?
-int Field_11_0_7_57361_008?
-int Field_11_0_7_57361_009?
-int Field_11_0_7_57361_010?
-float Field_11_0_7_57361_011?
-int Field_11_0_7_57361_012?
-int Field_11_0_7_57361_013?
-int Field_11_0_7_57361_014?
-int Field_11_0_7_57361_015?
-int Field_11_0_7_57361_016?
-int Field_11_0_7_57361_017?
-int Field_11_0_7_57361_018?
-int Field_11_0_7_57361_019?
-int Field_11_0_7_57361_020?
-int Field_11_0_7_57361_021?
-int Field_11_0_7_57361_022?
-int Field_11_0_7_57361_023?
-int Field_11_0_7_57361_024?
-int Field_11_0_7_57361_025?
-int Field_11_0_7_57361_026?
-int Field_11_0_7_57361_027?
-int Field_11_0_7_57361_028?
-int Field_11_0_7_57361_029?
-int Field_11_0_7_57361_030?
-int Field_11_0_7_57361_031?
-int Field_11_0_7_57361_032?
+int Unknown_count_tank?
+int Unknown_count_healer?
+int Unknown_count_damage?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -1017,36 +987,36 @@ Flags<32>[2]
 LAYOUT 8CB09088
 BUILD 11.0.7.57361
 $noninline,id$ID<32>
-Field_11_0_7_57361_000_lang
-Field_11_0_7_57361_001_lang
-Field_11_0_7_57361_002<u8>
-Field_11_0_7_57361_003<u8>
-Field_11_0_7_57361_004<8>
-Field_11_0_7_57361_005<32>
-Field_11_0_7_57361_006<32>
-Field_11_0_7_57361_007<32>
-Field_11_0_7_57361_008<u8>
-Field_11_0_7_57361_009<16>
-Field_11_0_7_57361_010<u8>
-Field_11_0_7_57361_011
-Field_11_0_7_57361_012<u8>
-Field_11_0_7_57361_013<u8>
-Field_11_0_7_57361_014<u32>
-Field_11_0_7_57361_015<u16>
-Field_11_0_7_57361_016<u16>
-Field_11_0_7_57361_017<u16>
-Field_11_0_7_57361_018<u8>
-Field_11_0_7_57361_019<u8>
-Field_11_0_7_57361_020<u8>
-Field_11_0_7_57361_021<u8>
-Field_11_0_7_57361_022<u8>
-Field_11_0_7_57361_023<u8>
-Field_11_0_7_57361_024<u8>
-Field_11_0_7_57361_025<u8>
-Field_11_0_7_57361_026<u8>
-Field_11_0_7_57361_027<u16>
-Field_11_0_7_57361_028<u16>
-Field_11_0_7_57361_029<u8>
-Field_11_0_7_57361_030<u8>
-Field_11_0_7_57361_031<32>
-Field_11_0_7_57361_032<32>[2]
+Name_lang
+Description_lang
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
+MinGear
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Unknown_count_tank<u8>
+Unknown_count_healer<u8>
+Unknown_count_damage<u8>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MentorCharLevel<u8>
+MaxPremadeGroupSize<u8>
+ContentTuningID<32>
+Flags<32>[2]
