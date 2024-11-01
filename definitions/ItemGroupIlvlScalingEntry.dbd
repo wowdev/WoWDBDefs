@@ -5,6 +5,13 @@ int<Item::ID> ItemID?
 float CostScaling?
 int Flags? // some kind of account wide flag
 int ItemGroupIlvlScalingID?
+int Field_11_0_7_57361_000?
+int Field_11_0_7_57361_001?
+float Field_11_0_7_57361_002?
+int Field_11_0_7_57361_003?
+int Field_11_0_7_57361_004?
+float Field_11_0_7_57361_005?
+int Field_11_0_7_57361_006?
 
 LAYOUT 38E9D642
 BUILD 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
@@ -32,3 +39,14 @@ ItemID<32>
 CostScaling
 Flags<32>
 $noninline,relation$ItemGroupIlvlScalingID<32>
+
+LAYOUT 149B741B
+BUILD 11.0.7.57361
+$noninline,id$ID<32>
+Field_11_0_7_57361_000<32>
+Field_11_0_7_57361_001<32>
+Field_11_0_7_57361_002
+Field_11_0_7_57361_003<32>
+Field_11_0_7_57361_004<32>
+Field_11_0_7_57361_005
+$noninline,relation$Field_11_0_7_57361_006<32>
