@@ -11,17 +11,6 @@ int VignetteType // 0 = Normal, 1 = PvpBounty, 2 = Torghast, 3 = Treasure
 int<QuestV2::ID> RewardQuestID
 int UiWidgetSetID?
 int Field_11_0_7_57361_010?
-locstring Field_11_0_7_57409_000_lang?
-int Field_11_0_7_57409_001?
-int Field_11_0_7_57409_002?
-int Field_11_0_7_57409_003?
-int Field_11_0_7_57409_004?
-float Field_11_0_7_57409_005?
-float Field_11_0_7_57409_006?
-int Field_11_0_7_57409_007?
-int Field_11_0_7_57409_008?
-int Field_11_0_7_57409_009?
-int Field_11_0_7_57409_010?
 int Field_11_0_7_57409_011?
 
 LAYOUT DCB9DC5F
@@ -246,15 +235,15 @@ Field_11_0_7_57361_010<32>
 LAYOUT 1A5A691B
 BUILD 11.0.7.57409
 $noninline,id$ID<32>
-Field_11_0_7_57409_000_lang
-Field_11_0_7_57409_001<u32>
-Field_11_0_7_57409_002<u32>
-Field_11_0_7_57409_003<u32>
-Field_11_0_7_57409_004<32>
-Field_11_0_7_57409_005
-Field_11_0_7_57409_006
-Field_11_0_7_57409_007<8>
-Field_11_0_7_57409_008<32>
-Field_11_0_7_57409_009<32>
-Field_11_0_7_57409_010<32>
+Name_lang
+PlayerConditionID<u32>
+VisibleTrackingQuestID<u32>
+QuestFeedbackEffectID<u32>
+Flags<32>
+MaxHeight
+MinHeight
+VignetteType<8>
+RewardQuestID<32>
+UiWidgetSetID<32>
+Field_11_0_7_57361_010<32>
 Field_11_0_7_57409_011<8>
