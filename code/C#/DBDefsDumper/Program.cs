@@ -423,6 +423,10 @@ namespace DBDefsDumper
                             {
                                 bin.BaseStream.Position = (long)translate((ulong)meta.dbFilenameOffs);
                                 var name = bin.ReadCString();
+                                if (name.Contains("DBFilesClient"))
+                                {
+                                    name = name.Substring(name.IndexOf("\\") + 1);
+                                }
 
                                 if (badNames.Contains(Path.GetFileNameWithoutExtension(name)))
                                 {
