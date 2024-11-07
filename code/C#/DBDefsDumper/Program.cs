@@ -252,7 +252,7 @@ namespace DBDefsDumper
                 var metas = new Dictionary<string, DBMeta>();
 
                 // Manual list of names to ignore as these are known bad pattern matches
-                var badNames = new List<string>() { "rippleDetail", "RAIDrippleDetail" };
+                var badNames = new List<string>() { "rippleDetail", "RAIDrippleDetail", "pbeWithMD5AndDES-CBC" };
 
                 var patternBuilder = new PatternBuilder();
                 Pattern usedPattern = null;
