@@ -16,7 +16,7 @@ namespace DBDefsDumper
         {
             if (args.Length < 2)
             {
-                throw new ArgumentException("Not enough arguments! Required: file, outdir, (build in x.x.x format), (pattern name to always use)");
+                throw new ArgumentException("Not enough arguments! Required: file, outdir, (build in x.x.x.build format), (pattern name to always use)");
             }
 
             if (!File.Exists(args[0]))
