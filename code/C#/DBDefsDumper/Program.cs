@@ -296,7 +296,7 @@ namespace DBDefsDumper
                             {
                                 bin.BaseStream.Position = matchPos + pattern.offsets[Name.FDID];
                                 var fdid = bin.ReadUInt32();
-                                if (fdid < 53183 || fdid > (4058697 * 4) /*4x max at March 23 2021*/)
+                                if (fdid < 53183 || fdid > (6363366 * 4) /*4x max at 2024-11-07*/)
                                 {
                                     Console.WriteLine("Invalid filedataid " + fdid + ", skipping match..");
                                     continue;
@@ -459,9 +459,9 @@ namespace DBDefsDumper
                 // Process DBMetas
                 foreach (var meta in metas)
                 {
-                    if ((long)translate((ulong)meta.Value.field_offsets_offs) > bin.BaseStream.Length)
+                    if ((long)translate((ulong)meta.Value.field_sizes_offs) > bin.BaseStream.Length)
                     {
-                        Console.WriteLine("Skipping reading of " + meta.Key + " because field offset (" + (long)translate((ulong)meta.Value.field_offsets_offs) + ") is outside of file range (" + bin.BaseStream.Length + ")!");
+                        Console.WriteLine("Skipping reading of " + meta.Key + " because field sizes offset (" + (long)translate((ulong)meta.Value.field_sizes_offs) + ") is outside of file range (" + bin.BaseStream.Length + ")!");
                         continue;
                     }
 
@@ -494,7 +494,8 @@ namespace DBDefsDumper
                         fieldCount = meta.Value.num_fields;
                     }
 
-                    var field_offsets = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_offsets_offs)); // TODO: Field offsets is currently unused, use to verify sizes
+                    // \todo For some reason in 7.2.0, these are dynamically initialized, so unavailable. Luckily we don't use them anyway.
+                    /// var field_offsets = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_offsets_offs)); // TODO: Field offsets is currently unused, use to verify sizes
                     var field_sizes = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_sizes_offs));
                     var field_types = ReadFieldArray(bin, fieldCount, (long)translate((ulong)meta.Value.field_types_offs));
 
@@ -1013,18 +1014,19 @@ namespace DBDefsDumper
                         case 0 | FieldFlags.f_unsigned | FieldFlags.f_maybe_compressed | FieldFlags.f_maybe_fk:
                             return ("uint", 32);
                         default:
-                            throw new Exception("Unknown flag combination!");
+                            throw new Exception("Unknown flag combination! type=" + type + ", flag=" + flag);
                     }
                 case 1:
                     switch (flag)
                     {
                         case 0 | 0 | 0 | 0:
+                        case 0 | 0 | FieldFlags.f_maybe_compressed | FieldFlags.f_maybe_fk:
                             return ("int", 64);
                         case 0 | FieldFlags.f_unsigned | 0 | 0:
                         case 0 | FieldFlags.f_unsigned | 0 | FieldFlags.f_maybe_fk:
                             return ("uint", 64);
                         default:
-                            throw new Exception("Unknown flag combination!");
+                            throw new Exception("Unknown flag combination! type=" + type + ", flag=" + flag);
                     }
                 case 2:
                     switch (flag)
@@ -1034,7 +1036,7 @@ namespace DBDefsDumper
                         case FieldFlags.f_localized | 0 | 0 | 0:
                             return ("locstring", 0);
                         default:
-                            throw new Exception("Unknown flag combination!");
+                            throw new Exception("Unknown flag combination! type=" + type + ", flag=" + flag);
                     }
                 case 3:
                     switch (flag)
@@ -1043,7 +1045,7 @@ namespace DBDefsDumper
                         case 0 | 0 | FieldFlags.f_maybe_compressed | 0:
                             return ("float", 0);
                         default:
-                            throw new Exception("Unknown flag combination!");
+                            throw new Exception("Unknown flag combination! type=" + type + ", flag=" + flag);
                     }
                 case 4:
                     switch (flag)
@@ -1056,7 +1058,7 @@ namespace DBDefsDumper
                         case 0 | FieldFlags.f_unsigned | FieldFlags.f_maybe_compressed | FieldFlags.f_maybe_fk:
                             return ("uint", 8);
                         default:
-                            throw new Exception("Unknown flag combination!");
+                            throw new Exception("Unknown flag combination! type=" + type + ", flag=" + flag);
                     }
                 case 5:
                     switch (flag)
@@ -1072,7 +1074,7 @@ namespace DBDefsDumper
                         case 0 | FieldFlags.f_unsigned | FieldFlags.f_maybe_compressed | FieldFlags.f_maybe_fk:
                             return ("uint", 16);
                         default:
-                            throw new Exception("Unknown flag combination!");
+                            throw new Exception("Unknown flag combination! type=" + type + ", flag=" + flag);
                     }
                 default:
                     throw new Exception("Ran into unknown field type: " + type);

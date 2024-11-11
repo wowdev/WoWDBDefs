@@ -210,10 +210,10 @@ namespace DBDefsDumper
                 .FieldReference(Name.NUM_FIELD)
                 .OptionalFieldReference(Name.ID_COLUMN)
                 .Boolean(Name.SPARSE_TABLE)
-                .Pointer(Name.FIELD_FLAGS)
                 .Pointer(Name.FIELD_OFFSETS)
                 .Pointer(Name.FIELD_SIZES)
                 .Pointer(Name.FIELD_TYPES)
+                .Pointer(Name.FIELD_FLAGS)
                 .Pointer(Name.FIELD_SIZES_IN_FILE)
                 .Pointer(Name.FIELD_TYPES_IN_FILE)
                 .Pointer(Name.FIELD_FLAGS_IN_FILE)
@@ -233,14 +233,46 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("7.{0,2.5}-release", new() { new VersionRange (new() { "7.2.0", "7.2.5"}, 23514, 24973 ) }) // note: also matches release-7.3.5 even though different struct
+                new Pattern("7.2.0-ptr-a", new() { new VersionRange (new() { "7.2.0" } ) })
+                .Pointer(Name.DB_NAME)
+                .Pointer(Name.DB_CACHE_FILENAME)
+                .FieldReference(Name.NUM_FIELD_IN_FILE)
+                .RecordSize(Name.RECORD_SIZE)
+                .FieldReference(Name.NUM_FIELD)
+                .OptionalFieldReference(Name.ID_COLUMN)
+                .Boolean(Name.SPARSE_TABLE)
+                .Pointer(Name.FIELD_OFFSETS)    // might be dynamic in 7.2.0 builds!?
+                .Pointer(Name.FIELD_SIZES)
+                .Pointer(Name.FIELD_TYPES)
+                .Pointer(Name.FIELD_FLAGS)
+                .Pointer(Name.FIELD_SIZES_IN_FILE)
+                .Pointer(Name.FIELD_TYPES_IN_FILE)
+                .Pointer(Name.FIELD_FLAGS_IN_FILE)
+                .Uint8(Name.FLAGS_58_21)
+                .Hash(Name.TABLE_HASH)
+                .Hash(Name.SIBLING_TABLE_HASH)
+                .Hash(Name.LAYOUT_HASH)
+                .Uint8(Name.FLAGS_68_421)
+                .FieldReference(Name.FIELD_NUM_IDX_INT)
+                .FieldReference(Name.FIELD_NUM_IDX_STRING)
+                .OptionalPointer(Name.FIELD_IDX_INT)
+                .OptionalPointer(Name.FIELD_IDX_STRING)
+                .OptionalFieldReference(Name.FIELD_RELATION)
+                .OptionalFieldReference(Name.FIELD_RELATION_IN_FILE)
+                .OptionalPointer(Name.SORT_FUNC)
+                .Boolean(Name.UNKC0)
+            );
+
+            patterns.Add(
+                new Pattern("7.2.0-ptr-b", new() { new VersionRange (new() { "7.2.0" } ) })
                 .Pointer(Name.DB_NAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
                 .RecordSize(Name.RECORD_SIZE)
                 .FieldReference(Name.NUM_FIELD)
                 .OptionalFieldReference(Name.ID_COLUMN)
                 .Boolean(Name.SPARSE_TABLE)
-                .Pointer(Name.FIELD_OFFSETS)
+                .OptionalPointer(Name.UNK_EXTRA_POINTER_IN_720)
+                .Pointer(Name.FIELD_OFFSETS)    // might be dynamic in 7.2.0 builds!?
                 .Pointer(Name.FIELD_SIZES)
                 .Pointer(Name.FIELD_TYPES)
                 .Pointer(Name.FIELD_FLAGS)
@@ -263,7 +295,37 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("7.{0,1}.{0,5}-release", new() { new VersionRange (new() { "7.0.3", "7.1.0", "7.1.5", "7.2.0" }, 20740, 23476 ) }) //todo: find minbuild
+                new Pattern("7.{0,2.5}-release", new() { new VersionRange (new() { "7.2.0", "7.2.5"} ) }) // note: also matches release-7.3.5 even though different struct
+                .Pointer(Name.DB_NAME)
+                .FieldReference(Name.NUM_FIELD_IN_FILE)
+                .RecordSize(Name.RECORD_SIZE)
+                .FieldReference(Name.NUM_FIELD)
+                .OptionalFieldReference(Name.ID_COLUMN)
+                .Boolean(Name.SPARSE_TABLE)
+                .Pointer(Name.FIELD_OFFSETS)    // might be dynamic in 7.2.0 builds!?
+                .Pointer(Name.FIELD_SIZES)
+                .Pointer(Name.FIELD_TYPES)
+                .Pointer(Name.FIELD_FLAGS)
+                .Pointer(Name.FIELD_SIZES_IN_FILE)
+                .Pointer(Name.FIELD_TYPES_IN_FILE)
+                .Pointer(Name.FIELD_FLAGS_IN_FILE)
+                .Uint8(Name.FLAGS_58_21)
+                .Hash(Name.TABLE_HASH)
+                .Hash(Name.SIBLING_TABLE_HASH)
+                .Hash(Name.LAYOUT_HASH)
+                .Uint8(Name.FLAGS_68_421)
+                .FieldReference(Name.FIELD_NUM_IDX_INT)
+                .FieldReference(Name.FIELD_NUM_IDX_STRING)
+                .OptionalPointer(Name.FIELD_IDX_INT)
+                .OptionalPointer(Name.FIELD_IDX_STRING)
+                .OptionalFieldReference(Name.FIELD_RELATION)
+                .OptionalFieldReference(Name.FIELD_RELATION_IN_FILE)
+                .OptionalPointer(Name.SORT_FUNC)
+                .Boolean(Name.UNKC0)
+            );
+
+            patterns.Add(
+                new Pattern("7.{0,1}.{0,5}-release", new() { new VersionRange (new() { "7.0.1", "7.0.3", "7.1.0", "7.1.5", "7.2.0" }, 20740, 23476 ) }) //todo: find minbuild
                 .Pointer(Name.DB_NAME)
                 .Pointer(Name.DB_CACHE_FILENAME)
                 .FieldReference(Name.NUM_FIELD_IN_FILE)
