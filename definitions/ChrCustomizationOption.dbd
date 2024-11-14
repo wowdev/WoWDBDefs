@@ -14,33 +14,21 @@ int<ChrCustomizationReq::ID> Requirement
 int AddedInPatch?
 int<ChrRaces::ID> ChrRacesID?
 int Sex?
-locstring Field_1_15_5_57537_000_lang?
-int Field_1_15_5_57537_001?
-int Field_1_15_5_57537_002?
-int Field_1_15_5_57537_003?
-int Field_1_15_5_57537_004?
-int Field_1_15_5_57537_005?
-int Field_1_15_5_57537_006?
-int Field_1_15_5_57537_007?
-float Field_1_15_5_57537_008?
-int Field_1_15_5_57537_009?
-int Field_1_15_5_57537_010?
-int Field_1_15_5_57537_011?
 
 LAYOUT 6714C155
 BUILD 1.15.5.57537
-Field_1_15_5_57537_000_lang
-$id$Field_1_15_5_57537_001<32>
-Field_1_15_5_57537_002<u16>
-Field_1_15_5_57537_003<32>
-$relation$Field_1_15_5_57537_004<32>
-Field_1_15_5_57537_005<32>
-Field_1_15_5_57537_006<32>
-Field_1_15_5_57537_007<32>
-Field_1_15_5_57537_008
-Field_1_15_5_57537_009<32>
-Field_1_15_5_57537_010<32>
-Field_1_15_5_57537_011<32>
+Name_lang
+$id$ID<32>
+SecondaryID<u16>
+Flags<32>
+$relation$ChrModelID<32>
+OrderIndex<32>
+ChrCustomizationCategoryID<32>
+OptionType<32>
+BarberShopCostModifier
+ChrCustomizationID<32>
+Requirement<32>
+SecondaryOrderIndex<32>
 
 LAYOUT 26DBFCD5
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006
