@@ -6,10 +6,8 @@ int Field_10_1_0_48661_002?
 int Field_10_1_0_48661_003?
 int Field_10_1_0_48661_004?
 int Field_10_1_0_48661_005?
-string Field_11_0_7_57409_000?
-int Field_11_0_7_57409_001?
 string Tag? // cera = Classic Era, csod = Classic Season of Discovery, chc = Classic Hardcore, csom = Classic Season of Mastery, cprog = Classic Progression (e.g. Cata/MoP Classic), mainline = Mainline, ps = Plunderstorm
-int SeasonID?
+int SeasonID? // Matches Enum.SeasonID on Classic, no xrefs yet
 int<FileData::ID> LogoFileDataID?
 int LogoHeight?
 int LogoVerticalOffset?
@@ -45,8 +43,8 @@ Field_10_1_0_48661_005<32>
 LAYOUT 0209844A
 BUILD 11.0.7.57409
 $noninline,id$ID<32>
-Field_11_0_7_57409_000
-Field_11_0_7_57409_001<32>
+Tag
+SeasonID<32>
 
 LAYOUT 02DC84DD
 BUILD 11.0.7.57528
