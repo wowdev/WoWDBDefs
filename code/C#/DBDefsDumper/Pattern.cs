@@ -1,35 +1,61 @@
 ﻿using System.Collections.Generic;
+using System;
 
 namespace DBDefsDumper
 {
-    class Pattern
+    class VersionRange
     {
-        public string name;
-        public List<string> compatiblePatches;
-        public int cur_pos;
-        public string cur_pattern;
+        public List<string> mmps;
         public int minBuild;
         public int maxBuild;
-        public Dictionary<string, int> offsets = new Dictionary<string, int>();
 
-        public Pattern(string name, List<string> compatiblePatches, int minBuild, int maxBuild)
+        public VersionRange(List<string> mmps, int minBuild = 0, int maxBuild = 0x7fffffff)
         {
-            this.name = name;
-            this.compatiblePatches = compatiblePatches;
-            this.cur_pos = 0;
-            this.cur_pattern = "";
+            this.mmps = mmps;
             this.minBuild = minBuild;
             this.maxBuild = maxBuild;
         }
 
-        public Pattern(string name, List<string> compatiblePatches)
+        public bool allows(string mmpb)
+        {
+            string[] parts = mmpb.Split('.');
+            if (parts.Length != 4)
+            {
+                throw new Exception("Bad major.minor.patch.build: " + mmpb);
+            }
+            var build = Int32.Parse(parts[3]);
+            return this.mmps.Contains(parts[0] + "." + parts[1] + "." + parts[2]) &&
+                   this.minBuild <= build &&
+                   build <= this.maxBuild;
+        }
+    };
+
+    class Pattern
+    {
+        public string name;
+        public List<VersionRange> compatible;
+        public int cur_pos;
+        public string cur_pattern;
+        public Dictionary<string, int> offsets = new Dictionary<string, int>();
+
+        public Pattern(string name, List<VersionRange> compatible)
         {
             this.name = name;
-            this.compatiblePatches = compatiblePatches;
+            this.compatible = compatible;
             this.cur_pos = 0;
             this.cur_pattern = "";
-            this.minBuild = 0;
-            this.maxBuild = 0;
+        }
+
+        public bool allows(string mmpb)
+        {
+            foreach (var range in this.compatible)
+            {
+                if (range.allows(mmpb))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
         // Utilities
@@ -171,5 +197,6 @@ namespace DBDefsDumper
         public const string UNK_BOOL_601dbc_x3b = "unkown bool x3b 6.0.1";
         public const string UNK_BOOL_11DB2_x1C = "unknown bool x1C 11.0.0";
         public const string UNK_BOOL_11DB2_x1D = "unknown bool x1D 11.0.0";
+        public const string UNK_EXTRA_POINTER_IN_720 = "UNK_EXTRA_POINTER_IN_720";
     }
 }
