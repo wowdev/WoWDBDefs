@@ -344,7 +344,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("6.x-db2-experimental", new() { new VersionRange (new() { "6.0.1", "6.0.2", "6.0.3", "6.1.0", "6.1.2", "6.2.0", "6.2.1", "6.2.2", "6.2.3", "6.2.4" }, 18125, 21742 ) }) // note: subset of internal-6.0.1-dbc, so conflicts with that
+                new Pattern("6.x-db2-experimental", new() { new VersionRange (new() { "6.0.1", "6.0.2", "6.0.3", "6.1.0", "6.1.2", "6.2.0", "6.2.0a", "6.2.1", "6.2.2", "6.2.3", "6.2.4" }, 18125, 21742 ) }) // note: subset of internal-6.0.1-dbc, so conflicts with that
                .Pointer(Name.DB_FILENAME)
                .Pointer(Name.DB_CACHE_FILENAME)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
@@ -358,7 +358,7 @@ namespace DBDefsDumper
             );
 
             patterns.Add(
-                new Pattern("6.x-dbc-experimental", new() { new VersionRange (new() { "6.0.1", "6.0.2", "6.0.3", "6.1.0", "6.1.2", "6.2.0", "6.2.1", "6.2.2", "6.2.3", "6.2.4" }, 18125, 21742 ) }) // note: subset of internal-6.0.1-dbc, so conflicts with that
+                new Pattern("6.x-dbc-experimental", new() { new VersionRange (new() { "6.0.1", "6.0.2", "6.0.3", "6.1.0", "6.1.2", "6.2.0", "6.2.0a", "6.2.1", "6.2.2", "6.2.3", "6.2.4" }, 18125, 21742 ) }) // note: subset of internal-6.0.1-dbc, so conflicts with that
                .Pointer(Name.DB_FILENAME)
                .FieldReference(Name.NUM_FIELD_IN_FILE)
                .RecordSize(Name.RECORD_SIZE)
