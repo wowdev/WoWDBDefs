@@ -8,6 +8,10 @@ int MinimumEmpowerKnowledge
 int Field_7_2_0_23478_000?
 int Field_7_2_0_23478_001?
 int Field_7_2_0_23478_002?
+int Field_7_2_0_23578_000?
+int Field_7_2_0_23578_001?
+int Field_7_2_0_23578_002?
+int Field_7_2_0_23578_003?
 
 LAYOUT D7B71D95
 BUILD 7.2.0.23478
@@ -15,6 +19,14 @@ $noninline,id$ID<32>
 Field_7_2_0_23478_000<u32>
 Field_7_2_0_23478_001<u32>
 Field_7_2_0_23478_002<u32>
+
+LAYOUT 5D3F394A
+BUILD 7.2.0.23578
+$noninline,id$ID<32>
+Field_7_2_0_23578_000<u32>
+Field_7_2_0_23578_001<u32>
+Field_7_2_0_23578_002<u32>
+Field_7_2_0_23578_003<u32>
 
 LAYOUT 1A5A50B9, A47F6D9D, 1C7BB640
 BUILD 10.0.0.43342

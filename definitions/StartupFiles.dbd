@@ -3,6 +3,14 @@ int ID
 int BytesRequired
 int<FileData::ID> FileDataID
 int Locale
+int Field_7_2_0_23578_000?
+int Field_7_2_0_23578_001?
+
+LAYOUT 8B69689C
+BUILD 7.2.0.23578
+$noninline,id$ID<32>
+Field_7_2_0_23578_000<32>
+Field_7_2_0_23578_001<32>
 
 LAYOUT 51FEBBB5, F1381769, 368EADE0
 BUILD 10.0.0.43342
