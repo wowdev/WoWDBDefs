@@ -5,6 +5,10 @@ int<ChrRaces::ID> RaceID
 int<SoundKit::ID> NormalSoundID
 int<SoundKit::ID> PissedSoundID
 int<ChrClasses::ID> ClassID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -21,6 +25,14 @@ VocalUIEnum<32>
 RaceID<32>
 NormalSoundID<32>[2]
 PissedSoundID<32>[2]
+
+LAYOUT 5A79821D
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<8>
+Field_7_1_0_22636_001<8>
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<32>[2]
 
 LAYOUT 62CE4C2D
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

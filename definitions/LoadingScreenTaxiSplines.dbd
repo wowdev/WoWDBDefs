@@ -5,6 +5,11 @@ float Locx
 float Locy
 int LegIndex
 int<LoadingScreens::ID> LoadingScreenID
+float Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.3.4.15595
@@ -34,6 +39,15 @@ Locx[10]
 Locy[10]
 LegIndex<32>
 LoadingScreenID<32>
+
+LAYOUT C020B1BD
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000[10]
+Field_7_1_0_22636_001[10]
+Field_7_1_0_22636_002<16>
+Field_7_1_0_22636_003<16>
+Field_7_1_0_22636_004<8>
 
 LAYOUT EAC6E723
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

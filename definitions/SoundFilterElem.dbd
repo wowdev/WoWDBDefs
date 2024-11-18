@@ -4,6 +4,9 @@ int<SoundFilter::ID> SoundFilterID
 int OrderIndex
 int FilterType
 float Params
+float Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -16,6 +19,13 @@ SoundFilterID<32>
 OrderIndex<32>
 FilterType<32>
 Params[9]
+
+LAYOUT 15C04229
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000[9]
+Field_7_1_0_22636_001<8>
+Field_7_1_0_22636_002<8>
 
 LAYOUT 68075C77
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

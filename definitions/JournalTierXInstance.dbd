@@ -4,6 +4,8 @@ int<JournalInstance::ID> JournalInstanceID
 int ID
 int OrderIndex?
 int AvailabilityCondition? // Used for M+ season switchovers
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
 
 BUILD 5.0.1.15464-5.3.0.17116
 $id$ID<32>
@@ -14,6 +16,12 @@ BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
 JournalTierID<32>
 JournalInstanceID<32>
+
+LAYOUT 6D895E3A
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<16>
+Field_7_1_0_22636_001<16>
 
 LAYOUT 9C4F4D2A, D584CE6A, 88DBB128
 BUILD 10.0.0.43342

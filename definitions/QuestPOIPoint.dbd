@@ -4,6 +4,10 @@ int X
 int Y
 int<QuestPOIBlob::ID> QuestPOIBlobID
 int Z?
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -13,6 +17,13 @@ $id$ID<32>
 X<32>
 Y<32>
 QuestPOIBlobID<32>
+
+LAYOUT 602A18C5
+BUILD 7.1.0.22636
+Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001<16>
+Field_7_1_0_22636_002<16>
+$id$Field_7_1_0_22636_003<32>
 
 LAYOUT 61365499
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492

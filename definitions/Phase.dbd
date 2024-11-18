@@ -6,6 +6,7 @@ int<Map::ID> MapID
 int PhaseShift
 int ChildMap
 int ParentMapID?
+int Field_7_1_0_22636_000?
 
 BUILD 4.0.0.11792
 $id$ID<32>
@@ -27,6 +28,11 @@ BUILD 4.0.0.12911-4.3.4.15595
 $id$ID<32>
 Name
 Flags<32>
+
+LAYOUT B2EE9466
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<16>
 
 LAYOUT 0043219C, 60D39728, 4B4C20B9
 BUILD 10.0.0.43342

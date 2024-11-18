@@ -4,6 +4,10 @@ int SizeClass
 int<TerrainTypeSounds::ID> TerrainTypeSoundID
 int<SoundEntries::ID> SoundEntryID
 int<SoundEntries::ID> SoundEntryIDWater
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -20,6 +24,14 @@ SizeClass<32>
 TerrainTypeSoundID<32>
 SoundEntryID<32>
 SoundEntryIDWater<32>
+
+LAYOUT 047DB23C
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<8>
+Field_7_1_0_22636_001<8>
+Field_7_1_0_22636_002<32>
+Field_7_1_0_22636_003<32>
 
 LAYOUT D469085C, 3BF7542C, A8BEE9BE
 BUILD 10.0.0.43342

@@ -8,6 +8,11 @@ int BehaviorTier // 0: Normal, 3: Flying
 int Weaponflags
 int Bodyflags
 int Field_0_7_0_3694_004?
+string Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
 
 BUILD 0.7.0.3694-0.10.0.3892
 $id$ID<32>
@@ -60,6 +65,15 @@ Flags<32>
 Fallback<32>
 BehaviorID<32>
 BehaviorTier<32>
+
+LAYOUT 0C30F30A
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001<32>
+Field_7_1_0_22636_002<16>
+Field_7_1_0_22636_003<16>
+Field_7_1_0_22636_004<8>
 
 LAYOUT E2DBDDDA
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

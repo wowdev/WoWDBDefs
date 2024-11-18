@@ -4,6 +4,9 @@ string SlotIcon
 int SlotNumber
 int ID
 int<FileData::ID> SlotIconFileID
+string Field_7_1_0_22636_000?
+string Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
 
 BUILD 0.5.3.3368
 BUILD 3.0.1.8303-3.3.5.12340
@@ -22,6 +25,13 @@ $id$ID<32>
 ItemButtonName
 SlotIcon
 SlotNumber<32>
+
+LAYOUT 9C3CC0A9
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002<8>
 
 LAYOUT 1B0E948B
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492

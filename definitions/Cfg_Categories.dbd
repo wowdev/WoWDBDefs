@@ -8,6 +8,11 @@ locstring Name_lang
 int Order // GetAvailableCategories(): smaller goes first. if equal, sort by ID.
 int Field_0_10_0_3892_000?
 int Region_ID?
+string Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
 
 LAYOUT D75C2A0B
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -49,6 +54,15 @@ Create_charsetMask<32>
 Existing_charsetMask<32>
 Flags<32>
 Name_lang
+
+LAYOUT 9D74E29F
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001<16>
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<8>
+Field_7_1_0_22636_004<8>
 
 LAYOUT 705B82C8, B6FEB874, 164A4926
 BUILD 8.3.0.32044

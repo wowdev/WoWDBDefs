@@ -4,6 +4,18 @@ int<Spell::ID> AllianceSpellID
 int<GarrFollower::ID> GarrFollowerID
 int<Spell::ID> HordeSpellID
 int OrderIndex
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+
+LAYOUT 1C55B981
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001<32>
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<32>
 
 LAYOUT B7DBA2D1
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

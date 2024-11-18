@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int BoneDataID
 int<AnimKitBoneSet::ID> AnimKitBoneSetID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -11,6 +13,12 @@ BUILD 4.0.0.11927-4.3.4.15595
 $id$ID<32>
 BoneDataID<32>
 AnimKitBoneSetID<32>
+
+LAYOUT FD752B70
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<8>
+Field_7_1_0_22636_001<8>
 
 LAYOUT EA8B67BC, B307E8FC, 7D887630
 BUILD 10.0.0.43342

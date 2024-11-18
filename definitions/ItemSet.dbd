@@ -7,6 +7,11 @@ int RequiredSkillRank
 int SetFlags
 int<Spell::ID> SetSpellID
 int SetThreshold
+string Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
 
 BUILD 1.0.0.3980-1.6.1.4544
 BUILD 0.10.0.3892-0.12.0.3988
@@ -50,6 +55,15 @@ Name_lang
 ItemID<32>[17]
 RequiredSkill<32>
 RequiredSkillRank<32>
+
+LAYOUT 0390F3A4
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001<32>[17]
+Field_7_1_0_22636_002<16>
+Field_7_1_0_22636_003<32>
+Field_7_1_0_22636_004<32>
 
 LAYOUT 847FF58A
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

@@ -1,10 +1,16 @@
 COLUMNS
 int<FileData::ID> ID
 string FilePath
+string Field_7_1_0_22636_000?
 
 BUILD 6.0.1.18179
 $id$ID<32>
 FilePath
+
+LAYOUT 0B897147
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
 
 LAYOUT 6F7D397D, D00DAF09, C45B9788
 BUILD 10.0.0.43342

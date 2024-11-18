@@ -2,8 +2,16 @@ COLUMNS
 int ID
 int Race
 int<Spell::ID> Spell_ID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
 
 BUILD 6.0.1.18179
 $id$ID<32>
 Race<32>
 Spell_ID<32>
+
+LAYOUT 12EABF67
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001<8>

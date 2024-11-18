@@ -4,6 +4,10 @@ float Radius
 float RadiusPerLevel
 float RadiusMin
 float RadiusMax
+float Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+float Field_7_1_0_22636_002?
+float Field_7_1_0_22636_003?
 
 BUILD 4.0.0.11792
 BUILD 0.5.3.3368
@@ -25,6 +29,14 @@ Radius
 RadiusPerLevel
 RadiusMin
 RadiusMax
+
+LAYOUT 01D4170C
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003
 
 LAYOUT C12E5C90, AE4257F8, 6BD6FF9E
 BUILD 10.0.0.43342

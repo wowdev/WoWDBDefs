@@ -9,6 +9,10 @@ int<ItemBonusListGroup::ID> ChildItemBonusListGroupID
 int IblGroupPointsModSetID
 int MinMythicPlusLevel?
 int MaxMythicPlusLevel?
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 LAYOUT AA076CF9
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -54,6 +58,14 @@ ChildItemBonusTreeID<u16>
 ChildItemBonusListID<u16>
 ChildItemLevelSelectorID<u16>
 $noninline,relation$ParentItemBonusTreeID<32>
+
+LAYOUT 26374458
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<16>
+Field_7_1_0_22636_001<16>
+Field_7_1_0_22636_002<16>
+Field_7_1_0_22636_003<8>
 
 LAYOUT 6149BC4B
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

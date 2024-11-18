@@ -2,6 +2,14 @@ COLUMNS
 int ID
 float Pos
 int<UiTextureKit::ID> UiTextureKitID
+float Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+
+LAYOUT 23676140
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000[2]
+Field_7_1_0_22636_001<16>
 
 LAYOUT 3071301C, 0D378464, 6EF58B43
 BUILD 10.0.0.43342

@@ -16,6 +16,22 @@ int<GameObjectDisplayInfo::ID> SmallDisplayInfoID
 int<UiTextureKit::ID> UiTextureKitID
 int<GameObjectDisplayInfo::ID> WorkingDisplayInfoID // used by gameobject code to determine if in "in progress" state...
 int<SpellVisual::ID> WorkingSpellVisualID // if both are same as in gameobject mirrors, it is in progress
+string Field_7_1_0_22636_000?
+string Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
+int Field_7_1_0_22636_009?
+int Field_7_1_0_22636_010?
+int Field_7_1_0_22636_011?
+int Field_7_1_0_22636_012?
+int Field_7_1_0_22636_013?
+int Field_7_1_0_22636_014?
+int Field_7_1_0_22636_015?
 
 LAYOUT 5369BFD6
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -106,6 +122,26 @@ MediumDisplayInfoID<32>
 LargeDisplayInfoID<32>
 MediumThreshold<32>
 LargeThreshold<32>
+
+LAYOUT A277E259
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002<16>
+Field_7_1_0_22636_003<16>
+Field_7_1_0_22636_004<16>
+Field_7_1_0_22636_005<16>
+Field_7_1_0_22636_006<16>
+Field_7_1_0_22636_007<16>
+Field_7_1_0_22636_008<8>
+Field_7_1_0_22636_009<8>
+Field_7_1_0_22636_010<8>
+Field_7_1_0_22636_011<8>
+Field_7_1_0_22636_012<8>
+Field_7_1_0_22636_013<8>
+Field_7_1_0_22636_014<8>
+Field_7_1_0_22636_015<32>
 
 LAYOUT 194896E3
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

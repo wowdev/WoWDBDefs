@@ -3,6 +3,9 @@ int ID
 int<Spell::ID> LearnSpellID
 int<Spell::ID> OverridesSpellID
 int<Spell::ID> SpellID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
 
 LAYOUT 00CA7CE8
 BUILD 4.4.1.56464, 4.4.1.56574, 4.4.1.56859, 4.4.1.56961, 4.4.1.57103, 4.4.1.57141, 4.4.1.57294, 4.4.1.57359, 4.4.1.57564
@@ -20,6 +23,13 @@ $id$ID<32>
 LearnSpellID<32>
 OverridesSpellID<32>
 SpellID<32>
+
+LAYOUT 96E3FF5C
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001<32>
+Field_7_1_0_22636_002<32>
 
 LAYOUT 153EBA26, CC8637D2, C0699F17
 BUILD 10.0.0.43342

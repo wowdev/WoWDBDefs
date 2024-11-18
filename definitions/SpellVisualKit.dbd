@@ -53,6 +53,12 @@ float CharacterParam
 int CharacterProcedure
 int ClutterLevel // When displaying an effect, use this as an index into the correspondin SpellClutter* dbs.
 int Field_7_3_2_25549_001?
+int Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -303,6 +309,15 @@ Field_6_0_1_18179_019[4]
 Field_6_0_1_18179_020[4]
 Field_6_0_1_18179_021<32>
 Field_6_0_1_18179_022
+
+LAYOUT 4356273E
+BUILD 7.1.0.22636
+Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002<16>
+Field_7_1_0_22636_003<16>
+$id$Field_7_1_0_22636_004<32>
+Field_7_1_0_22636_005<32>
 
 LAYOUT 571C236C
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563

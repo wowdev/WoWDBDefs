@@ -13,6 +13,16 @@ int Flags
 int MapDisplayConditionID
 int<UiMap::ID> UiMapID
 int<DungeonEncounter::ID> DungeonEncounterID
+float Field_7_1_0_22636_000?
+string Field_7_1_0_22636_001?
+string Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
+int Field_7_1_0_22636_009?
 
 LAYOUT DFEDC272
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -96,6 +106,20 @@ DifficultyMask<32>
 Name_lang
 Description_lang
 Flags<32>
+
+LAYOUT D59A20F7
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000[2]
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003<16>
+Field_7_1_0_22636_004<16>
+Field_7_1_0_22636_005<16>
+Field_7_1_0_22636_006<16>
+Field_7_1_0_22636_007<8>
+Field_7_1_0_22636_008<8>
+Field_7_1_0_22636_009<32>
 
 LAYOUT 5B5D5FCF
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

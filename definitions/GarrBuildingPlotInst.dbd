@@ -4,6 +4,19 @@ int<GarrBuilding::ID> GarrBuildingID
 int<GarrSiteLevelPlotInst::ID> GarrSiteLevelPlotInstID
 float MapOffset
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
+float Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+
+LAYOUT 91C29C99
+BUILD 7.1.0.22636
+Field_7_1_0_22636_000[2]
+Field_7_1_0_22636_001<16>
+Field_7_1_0_22636_002<16>
+Field_7_1_0_22636_003<8>
+$id$Field_7_1_0_22636_004<32>
 
 LAYOUT F45B6227
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

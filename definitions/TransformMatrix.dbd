@@ -5,6 +5,20 @@ float Pos
 float Roll
 float Scale
 float Yaw
+float Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+float Field_7_1_0_22636_002?
+float Field_7_1_0_22636_003?
+float Field_7_1_0_22636_004?
+
+LAYOUT C3C28B27
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000[3]
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003
+Field_7_1_0_22636_004
 
 LAYOUT B6A2C431, BA00B2FD, A90524CC
 BUILD 10.0.0.43342

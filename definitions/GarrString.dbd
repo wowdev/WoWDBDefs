@@ -1,6 +1,12 @@
 COLUMNS
 int ID
 locstring Text_lang
+string Field_7_1_0_22636_000?
+
+LAYOUT C3BC61DD
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
 
 LAYOUT E1C08C0C, F404C7D8, 37DB7C48
 BUILD 10.0.0.43342

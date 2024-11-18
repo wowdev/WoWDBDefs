@@ -4,6 +4,10 @@ int<GarrPlotInstance::ID> GarrPlotInstanceID
 int<GarrSiteLevel::ID> GarrSiteLevelID
 float UiMarkerPos
 int UiMarkerSize
+float Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -11,6 +15,14 @@ GarrSiteLevelID<32>
 GarrPlotInstanceID<32>
 UiMarkerPos[2]
 UiMarkerSize<32>
+
+LAYOUT C927B825
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000[2]
+Field_7_1_0_22636_001<16>
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<8>
 
 LAYOUT C4E74201, A3DF8AD1, 7BE32B9A
 BUILD 10.0.0.43342

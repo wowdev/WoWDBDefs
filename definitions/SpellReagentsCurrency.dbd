@@ -3,6 +3,16 @@ int ID
 int CurrencyCount
 int<CurrencyTypes::ID> CurrencyTypesID
 int<Spell::ID> SpellID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+
+LAYOUT FD286C2C
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001<16>
+Field_7_1_0_22636_002<16>
 
 LAYOUT 90A5E5D2, 4D3F01C6, 1D2927F1
 BUILD 10.0.0.43342

@@ -46,6 +46,25 @@ int CharacterCreationAnimLoopWaitTimeMsFallback?
 int HasStrengthAttackBonus?
 locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
 locstring Hyphenated_name_female_lang?
+string Field_7_1_0_22636_000?
+string Field_7_1_0_22636_001?
+string Field_7_1_0_22636_002?
+string Field_7_1_0_22636_003?
+string Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
+int Field_7_1_0_22636_009?
+int Field_7_1_0_22636_010?
+int Field_7_1_0_22636_011?
+int Field_7_1_0_22636_012?
+int Field_7_1_0_22636_013?
+int Field_7_1_0_22636_014?
+int Field_7_1_0_22636_015?
+int Field_7_1_0_22636_016?
+int Field_7_1_0_22636_017?
+int Field_7_1_0_22636_018?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -484,6 +503,28 @@ CreateScreenFileDataID<32>
 SelectScreenFileDataID<32>
 LowResScreenFileDataID<32>
 IconFileDataID<32>
+
+LAYOUT 181ABEC8
+BUILD 7.1.0.22636
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003
+Field_7_1_0_22636_004
+Field_7_1_0_22636_005<32>
+Field_7_1_0_22636_006<32>
+Field_7_1_0_22636_007<32>
+Field_7_1_0_22636_008<16>
+Field_7_1_0_22636_009<16>
+Field_7_1_0_22636_010<16>
+Field_7_1_0_22636_011<8>
+Field_7_1_0_22636_012<8>
+Field_7_1_0_22636_013<8>
+Field_7_1_0_22636_014<8>
+Field_7_1_0_22636_015<8>
+Field_7_1_0_22636_016<8>
+Field_7_1_0_22636_017<8>
+$id$Field_7_1_0_22636_018<32>
 
 LAYOUT 8881D5B2
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

@@ -10,6 +10,15 @@ string Texture
 int RequiredWeight
 int<FileData::ID> TextureFileID
 string Field_7_3_0_24473_003?
+string Field_7_1_0_22636_000?
+string Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+string Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
 
 BUILD 4.0.0.12319
 $id$ID<32>
@@ -69,6 +78,18 @@ SpellID<32>
 NumSockets<32>
 Texture
 RequiredWeight<32>
+
+LAYOUT FFF56E96
+BUILD 7.1.0.22636
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002<32>
+Field_7_1_0_22636_003
+Field_7_1_0_22636_004<16>
+Field_7_1_0_22636_005<8>
+Field_7_1_0_22636_006<8>
+$id$Field_7_1_0_22636_007<32>
+Field_7_1_0_22636_008<32>
 
 LAYOUT FBF7CC48
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500

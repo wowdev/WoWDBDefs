@@ -4,6 +4,10 @@ int<Faction::ID> FactionID
 int DepositRate
 int ConsignmentRate
 locstring Name_lang
+string Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -19,6 +23,14 @@ FactionID<32>
 DepositRate<32>
 ConsignmentRate<32>
 Name_lang
+
+LAYOUT 575B67A7
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001<16>
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<8>
 
 LAYOUT 51CFEEFF, 61E641BA, 05DD4C81
 BUILD 10.0.0.43342

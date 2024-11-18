@@ -3,11 +3,21 @@ int ID
 float Radius
 float Height
 float ZOffset
+float Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+float Field_7_1_0_22636_002?
 
 BUILD 6.0.1.18179
 $id$ID<32>
 Radius
 Height
+
+LAYOUT 0BF8A90F
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002
 
 LAYOUT 26D4052D, 867834A9, 7E59ED0C
 BUILD 10.0.0.43342

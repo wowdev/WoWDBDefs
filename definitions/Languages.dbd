@@ -5,6 +5,8 @@ int Flags?
 int<UiTextureKit::ID> UiTextureKitID?
 int UiTextureKitElementCount?
 int<Curve::ID> LearningCurveID? // modifier for "how much you know" the language, applied on top of skill/max_skill calculation, used during word substitution
+string Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
 
 LAYOUT 50E61379
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -62,6 +64,11 @@ BUILD 1.0.0.3980-1.12.3.6141
 BUILD 0.5.3.3368-0.12.0.3988
 $id$ID<32>
 Name_lang
+
+LAYOUT 557617F0
+BUILD 7.1.0.22636
+Field_7_1_0_22636_000
+$id$Field_7_1_0_22636_001<32>
 
 LAYOUT 6FA5D0C4, AA508D47, 8DD4A016
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524

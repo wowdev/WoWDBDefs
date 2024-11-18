@@ -11,6 +11,15 @@ int CategoryEnumID
 locstring Name_lang
 string IconFile
 int<FileData::ID> IconFileID
+float Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+string Field_7_1_0_22636_002?
+string Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -94,6 +103,19 @@ PetTalentType<32>
 CategoryEnumID<32>
 Name_lang
 IconFile
+
+LAYOUT DF8261E1
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003
+Field_7_1_0_22636_004<16>[2]
+Field_7_1_0_22636_005<16>
+Field_7_1_0_22636_006<8>
+Field_7_1_0_22636_007<8>
+Field_7_1_0_22636_008<8>
 
 LAYOUT 216FF23E
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

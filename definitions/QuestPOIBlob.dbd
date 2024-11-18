@@ -11,6 +11,14 @@ int<UiMap::ID> UiMapID
 int<QuestObjective::ID> ObjectiveID // Not all available in client.
 int<PlayerCondition::ID> NavigationPlayerConditionID?
 int Flags?
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
 
 BUILD 4.0.0.12539
 $id$ID<32>
@@ -24,6 +32,17 @@ $id$ID<32>
 NumPoints<32>
 MapID<32>
 WorldMapAreaID<32>
+
+LAYOUT 02EEA008
+BUILD 7.1.0.22636
+$id$Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001<16>
+Field_7_1_0_22636_002<16>
+Field_7_1_0_22636_003<8>
+Field_7_1_0_22636_004<8>
+Field_7_1_0_22636_005<32>
+Field_7_1_0_22636_006<32>
+Field_7_1_0_22636_007<32>
 
 LAYOUT EC15976E
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

@@ -13,6 +13,16 @@ locstring DisplayName_lang
 locstring VerboseName_lang
 int ID
 int AuctionHouseSortOrder
+string Field_7_1_0_22636_000?
+string Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
+int Field_7_1_0_22636_009?
 
 BUILD 0.5.3.3368
 BUILD 3.0.1.8303-3.3.5.12340
@@ -88,6 +98,20 @@ WeaponAttackSeq<32>
 WeaponSwingSize<32>
 DisplayName_lang
 VerboseName_lang
+
+LAYOUT 2B6ECF61
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002<16>
+Field_7_1_0_22636_003<8>
+Field_7_1_0_22636_004<8>
+Field_7_1_0_22636_005<8>
+Field_7_1_0_22636_006<8>
+Field_7_1_0_22636_007<8>
+Field_7_1_0_22636_008<8>
+Field_7_1_0_22636_009<8>
 
 LAYOUT DAD92A67
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

@@ -3,6 +3,16 @@ int ID
 int<PlayerCondition::ID> AdvGuidePlayerConditionID
 int<ChrClasses::ID> ChrClassesID
 int<PlayerCondition::ID> SplashPlayerConditionID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+
+LAYOUT 714A7125
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<16>
+Field_7_1_0_22636_001<16>
+Field_7_1_0_22636_002<8>
 
 LAYOUT 59A95A73, 3D58F88F, 03C969CC
 BUILD 10.0.0.43342

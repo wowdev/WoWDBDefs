@@ -12,6 +12,15 @@ locstring Text_lang
 locstring Text1_lang
 int ChatBubbleDurationMs
 int VoiceOverPriorityID? // Client defaults to 4 if this is 0, probably sound system related
+string Field_7_1_0_22636_000?
+string Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
 
 LAYOUT 82D5CA77
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -100,6 +109,19 @@ EmoteDelay<32>[3]
 SoundEntriesID<32>
 EmotesID<32>
 Flags<32>
+
+LAYOUT A5D40DCD
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002<16>[3]
+Field_7_1_0_22636_003<16>[3]
+Field_7_1_0_22636_004<16>
+Field_7_1_0_22636_005<8>
+Field_7_1_0_22636_006<8>
+Field_7_1_0_22636_007<32>[2]
+Field_7_1_0_22636_008<32>
 
 LAYOUT 963CCD1B
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

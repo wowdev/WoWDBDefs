@@ -5,6 +5,11 @@ float FlowSpeed
 int<LiquidType::ID> LiquidTypeID
 int Fishable
 int Reflection
+float Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -16,6 +21,15 @@ FlowSpeed
 LiquidTypeID<32>
 Fishable<32>
 Reflection<32>
+
+LAYOUT 0FA85D64
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002<16>
+Field_7_1_0_22636_003<8>
+Field_7_1_0_22636_004<8>
 
 LAYOUT ACC168A6, 7AF380AA, F09062A1
 BUILD 10.0.0.43342

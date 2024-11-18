@@ -2,6 +2,8 @@ COLUMNS
 int ID
 locstring Name_lang
 int Flags
+string Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -19,6 +21,12 @@ BUILD 0.5.5.3494-0.12.0.3988
 $id$ID<32>
 Name_lang
 Flags<32>
+
+LAYOUT C284FF64
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001<8>
 
 LAYOUT 7BA9D2F8, 218D575A, D40201AB
 BUILD 10.0.0.43342

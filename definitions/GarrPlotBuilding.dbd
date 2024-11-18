@@ -2,11 +2,19 @@ COLUMNS
 int ID
 int<GarrBuilding::ID> GarrBuildingID
 int<GarrPlot::ID> GarrPlotID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
 
 BUILD 6.0.1.18179
 $id$ID<32>
 GarrPlotID<32>
 GarrBuildingID<32>
+
+LAYOUT D1C720D2
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<8>
+Field_7_1_0_22636_001<8>
 
 LAYOUT 3F77A6FA, 1ECDCE0A, 25DEBBD2
 BUILD 10.0.0.43342

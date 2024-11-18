@@ -10,6 +10,10 @@ int TextureID
 string TextureName
 int Datestamp
 int SplatDensity?
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -99,6 +103,14 @@ DoodadID<32>[4]
 DoodadWeight<32>[4]
 Density<32>
 Sound<32>
+
+LAYOUT 7D3B912E
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<16>[4]
+Field_7_1_0_22636_001<8>[4]
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<32>
 
 LAYOUT 8B7871EA
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

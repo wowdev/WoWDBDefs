@@ -24,6 +24,20 @@ float VolumeEdgeFadeStart
 int VolumeFlags
 float OverrideColorIntensity
 int Field_9_0_1_33978_001? // if 1: set TransitionSkyBox to 1.0f
+float Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+float Field_7_1_0_22636_002?
+string Field_7_1_0_22636_003?
+float Field_7_1_0_22636_004?
+float Field_7_1_0_22636_005?
+float Field_7_1_0_22636_006?
+float Field_7_1_0_22636_007?
+float Field_7_1_0_22636_008?
+int Field_7_1_0_22636_009?
+int Field_7_1_0_22636_010?
+int Field_7_1_0_22636_011?
+int Field_7_1_0_22636_012?
+int Field_7_1_0_22636_013?
 
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885
@@ -130,6 +144,24 @@ EffectColor[3]
 EffectTexture
 SoundAmbienceID<32>
 WindSettingsID<32>
+
+LAYOUT F70C3970
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000[2]
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002[3]
+Field_7_1_0_22636_003
+Field_7_1_0_22636_004
+Field_7_1_0_22636_005
+Field_7_1_0_22636_006
+Field_7_1_0_22636_007
+Field_7_1_0_22636_008
+Field_7_1_0_22636_009<16>
+Field_7_1_0_22636_010<8>
+Field_7_1_0_22636_011<8>
+Field_7_1_0_22636_012<8>
+Field_7_1_0_22636_013<32>
 
 LAYOUT 3FBB66D8
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

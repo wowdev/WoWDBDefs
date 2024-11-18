@@ -4,6 +4,9 @@ int Flags
 locstring Name_lang
 int ExpansionID
 int<CurrencyCategory::ID> ParentCategoryID?
+string Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
 
 LAYOUT 12EB5F37
 BUILD 4.4.1.56464, 4.4.1.56574, 4.4.1.56859, 4.4.1.56961, 4.4.1.57103, 4.4.1.57141, 4.4.1.57294, 4.4.1.57359, 4.4.1.57564
@@ -23,6 +26,13 @@ BUILD 3.0.1.8622-3.3.5.12340
 $id$ID<32>
 Flags<32>
 Name_lang
+
+LAYOUT D77A397C
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001<8>
+Field_7_1_0_22636_002<8>
 
 LAYOUT 9433B396
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

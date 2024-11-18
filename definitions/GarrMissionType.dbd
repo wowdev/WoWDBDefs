@@ -3,6 +3,16 @@ int ID
 locstring Name_lang
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int<UiTextureKit::ID> UiTextureKitID
+string Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+
+LAYOUT DB3475F8
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001<16>
+Field_7_1_0_22636_002<16>
 
 LAYOUT A289655E, 3FC87149, 3F7F567D
 BUILD 10.0.0.43342

@@ -14,6 +14,15 @@ int SpellRank
 int<Talent::ID> PrereqTalent
 int PrereqRank
 int<Spell::ID> RequiredSpellID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+string Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
 
 BUILD 0.7.0.3694-0.9.1.3810
 $id$ID<32>
@@ -226,6 +235,19 @@ CategoryMask<32>[2]
 ClassID<32>
 OverridesSpellID<32>
 Description_lang
+
+LAYOUT E33B18D6
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001<32>
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003<16>
+Field_7_1_0_22636_004<8>
+Field_7_1_0_22636_005<8>
+Field_7_1_0_22636_006<8>
+Field_7_1_0_22636_007<8>[2]
+Field_7_1_0_22636_008<8>
 
 LAYOUT 21A2F524
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

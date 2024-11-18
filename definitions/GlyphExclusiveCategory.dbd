@@ -1,10 +1,16 @@
 COLUMNS
 int ID
 locstring Name_lang
+string Field_7_1_0_22636_000?
 
 BUILD 6.0.1.18179
 $id$ID<32>
 Name_lang
+
+LAYOUT C7290625
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
 
 LAYOUT FE598FCD, 59622339, F1376CB9
 BUILD 10.0.0.43342

@@ -21,6 +21,21 @@ int Field_3_0_1_8471_007? // possibly ui_order
 int Field_3_0_1_8303_002?
 int<DisplaySeason::ID> HiddenBeforeDisplaySeason? // hidden in UI before this DisplaySeason is active
 int LegacyAfterTimeEvent? // category changes clientside to Legacy (15234) after this TimeEvent is passed
+string Field_7_1_0_22636_000?
+string Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+string Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
+int Field_7_1_0_22636_009?
+int Field_7_1_0_22636_010?
+int Field_7_1_0_22636_011?
+int Field_7_1_0_22636_012?
+int Field_7_1_0_22636_013?
+int Field_7_1_0_22636_014?
 
 LAYOUT 19FCE7B0
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -174,6 +189,24 @@ Reward_lang
 Minimum_criteria<32>
 Shares_criteria<32>
 Criteria_tree<32>
+
+LAYOUT 95189824
+BUILD 7.1.0.22636
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002<32>
+Field_7_1_0_22636_003
+Field_7_1_0_22636_004<16>
+Field_7_1_0_22636_005<16>
+Field_7_1_0_22636_006<16>
+Field_7_1_0_22636_007<16>
+Field_7_1_0_22636_008<16>
+Field_7_1_0_22636_009<16>
+Field_7_1_0_22636_010<16>
+Field_7_1_0_22636_011<8>
+Field_7_1_0_22636_012<8>
+Field_7_1_0_22636_013<8>
+$id$Field_7_1_0_22636_014<32>
 
 LAYOUT A73A9D44
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

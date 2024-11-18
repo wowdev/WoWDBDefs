@@ -2,6 +2,14 @@ COLUMNS
 int ID
 int<CurrencyTypes::ID> XpMultCurrencyID
 int<Curve::ID> XpMultCurveID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+
+LAYOUT 73691C0D
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<16>
+Field_7_1_0_22636_001<16>
 
 LAYOUT 21328475, 484A6D55, F5C7EE5F
 BUILD 10.0.0.43342

@@ -7,6 +7,13 @@ int Green
 int Red
 int SplineType
 int Type
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
 
 BUILD 5.0.1.15464-5.0.1.15762
 $id$ID<32>
@@ -36,6 +43,17 @@ Green<32>
 Blue<32>
 Alpha<32>
 Flags<32>
+
+LAYOUT 2B91D905
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<8>
+Field_7_1_0_22636_001<8>
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<8>
+Field_7_1_0_22636_004<8>
+Field_7_1_0_22636_005<8>
+Field_7_1_0_22636_006<8>
 
 LAYOUT 5017579F, 3551690B, F65ED186
 BUILD 10.0.0.43342

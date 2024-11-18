@@ -9,6 +9,13 @@ int<ItemDisplayInfo::ID> DisplayItemID
 int InventoryType
 int<CreatureDisplayInfo::ID> PetDisplayID
 int<CreatureFamily::ID> PetFamilyID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.4.3.8606
@@ -79,6 +86,17 @@ DisplayItemID<32>[24]
 InventoryType<32>[24]
 PetDisplayID<32>
 PetFamilyID<32>
+
+LAYOUT A01541A2
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<32>[24]
+Field_7_1_0_22636_001<32>
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<8>
+Field_7_1_0_22636_004<8>
+Field_7_1_0_22636_005<8>
+Field_7_1_0_22636_006<8>
 
 LAYOUT A154D994
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

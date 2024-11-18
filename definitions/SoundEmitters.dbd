@@ -12,6 +12,18 @@ int PhaseUseFlags
 int Flags
 int<WorldStateExpression::ID> WorldStateExpressionID
 int<SoundEntriesAdvanced::ID> SoundEntryAdvancedID
+float Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+string Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
+int Field_7_1_0_22636_009?
+int Field_7_1_0_22636_010?
+int Field_7_1_0_22636_011?
 
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885
@@ -55,6 +67,21 @@ PhaseGroupID<32>
 PhaseUseFlags<32>
 Flags<32>
 WorldStateExpressionID<32>
+
+LAYOUT E757D4E0
+BUILD 7.1.0.22636
+Field_7_1_0_22636_000[3]
+Field_7_1_0_22636_001[3]
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003<16>
+Field_7_1_0_22636_004<16>
+Field_7_1_0_22636_005<16>
+Field_7_1_0_22636_006<8>
+Field_7_1_0_22636_007<8>
+Field_7_1_0_22636_008<8>
+Field_7_1_0_22636_009<8>
+$id$Field_7_1_0_22636_010<32>
+Field_7_1_0_22636_011<32>
 
 LAYOUT 93877AA8
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

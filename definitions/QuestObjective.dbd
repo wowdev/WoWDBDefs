@@ -8,6 +8,14 @@ int Type // {0, 2}: interact, {1, 17}: obtain, {3, 9}: kill, 4: ???, {11, 12}: p
 int ObjectID // depending on Type: {0, 3, 11}: CreatureID, 1: ItemID, 2: GameObjectID, 4: ???, 9: ???, 12: BattlePetSpeciesID, 14: CriteriaTreeID, 15: 0, 17: CurrencyTypesID, 19: ???
 locstring Description_lang
 int Flags
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+string Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
 
 LAYOUT 34AED79B
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -20,6 +28,18 @@ OrderIndex<u8>
 Flags<32>
 StorageIndex<u8>
 $noninline,relation$QuestID<32>
+
+LAYOUT 22594899
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001<32>
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003<16>
+Field_7_1_0_22636_004<8>
+Field_7_1_0_22636_005<8>
+Field_7_1_0_22636_006<8>
+Field_7_1_0_22636_007<8>
 
 LAYOUT 7F5AB0E6
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

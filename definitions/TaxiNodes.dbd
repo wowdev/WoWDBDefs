@@ -14,6 +14,15 @@ int<PlayerCondition::ID> SpecialIconConditionID
 int<UiTextureKit::ID> UiTextureKitID
 int MinimapAtlasMemberID
 int<PlayerCondition::ID> VisibilityConditionID
+float Field_7_1_0_22636_000?
+string Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+float Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
+int Field_7_1_0_22636_006?
+int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_008?
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368
@@ -177,6 +186,18 @@ MountCreatureID<32>[2]
 ConditionID<32>
 Flags<32>
 MapOffset[2]
+
+LAYOUT 75BBE821
+BUILD 7.1.0.22636
+Field_7_1_0_22636_000[3]
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002<32>[2]
+Field_7_1_0_22636_003[2]
+Field_7_1_0_22636_004<16>
+Field_7_1_0_22636_005<16>
+Field_7_1_0_22636_006<16>
+Field_7_1_0_22636_007<8>
+$id$Field_7_1_0_22636_008<32>
 
 LAYOUT C8E003F2
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

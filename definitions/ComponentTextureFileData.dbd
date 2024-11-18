@@ -3,6 +3,16 @@ int<FileData::ID> ID
 int<ChrClasses::ID> ClassID
 int GenderIndex
 int<ChrRaces::ID> RaceID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+
+LAYOUT EFF4D5A1
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<8>
+Field_7_1_0_22636_001<8>
+Field_7_1_0_22636_002<8>
 
 LAYOUT 50C58D4F, 263AACE3, E8232574
 BUILD 10.0.0.43342

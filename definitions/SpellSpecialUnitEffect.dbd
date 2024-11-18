@@ -3,12 +3,20 @@ int EnumID
 int<SpellVisualEffectName::ID> SpellVisualEffectNameID
 int ID
 int<Positioner::ID> PositionerID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
 BUILD 4.2.0.14333-4.3.4.15595
 $id$EnumID<32>
 SpellVisualEffectNameID<32>
+
+LAYOUT 44CE5AA5
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<16>
+Field_7_1_0_22636_001<32>
 
 LAYOUT 76989615, F084B84D, BD6355C5
 BUILD 10.0.0.43342

@@ -4,6 +4,8 @@ string Name
 int Flags
 int<FileData::ID> CelestialSkyboxFileDataID
 int<FileData::ID> SkyboxFileDataID
+string Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -20,6 +22,12 @@ BUILD 2.0.0.6080-2.4.3.8606
 $id$ID<32>
 Name
 Flags<32>
+
+LAYOUT C284FF64
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001<8>
 
 LAYOUT 8817C02C
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

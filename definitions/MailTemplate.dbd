@@ -2,6 +2,7 @@ COLUMNS
 int ID
 locstring Subject_lang
 locstring Body_lang
+string Field_7_1_0_22636_000?
 
 BUILD 2.0.0.5610-2.0.0.6080
 BUILD 1.10.0.5195-1.12.3.6141
@@ -18,6 +19,11 @@ BUILD 2.0.3.6299-2.4.3.8606
 $id$ID<32>
 Subject_lang
 Body_lang
+
+LAYOUT 423247A6
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
 
 LAYOUT 25C8D6CC, C6E0D9B5, 82DA0EF5
 BUILD 10.0.0.43342

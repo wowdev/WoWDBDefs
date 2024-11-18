@@ -5,6 +5,10 @@ int<SoundKit::ID> FoleySoundID
 int<SoundKit::ID> SheatheSoundID
 int<SoundKit::ID> UnsheatheSoundID
 int<Material::ID> MaterialID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.6.6337
@@ -37,6 +41,14 @@ Flags<32>
 FoleySoundID<32>
 SheatheSoundID<32>
 UnsheatheSoundID<32>
+
+LAYOUT 33D0FF68
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<8>
+Field_7_1_0_22636_001<32>
+Field_7_1_0_22636_002<32>
+Field_7_1_0_22636_003<32>
 
 LAYOUT 0BC8C134, 370D43B4, 6BEC0928
 BUILD 10.0.0.43342

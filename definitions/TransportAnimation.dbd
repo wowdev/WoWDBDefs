@@ -4,6 +4,10 @@ int TransportID
 int TimeIndex
 float Pos
 int SequenceID
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+float Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -26,6 +30,14 @@ TransportID<32>
 TimeIndex<32>
 Pos[3]
 SequenceID<32>
+
+LAYOUT D4A71B4F
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001<32>
+Field_7_1_0_22636_002[3]
+Field_7_1_0_22636_003<8>
 
 LAYOUT 16B8A693
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

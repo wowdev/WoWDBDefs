@@ -25,6 +25,29 @@ float EAX3HFReference
 float EAX3LFReference
 float EAXEffectVolume
 float EAXDamping
+string Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+float Field_7_1_0_22636_002?
+float Field_7_1_0_22636_003?
+float Field_7_1_0_22636_004?
+float Field_7_1_0_22636_005?
+float Field_7_1_0_22636_006?
+float Field_7_1_0_22636_007?
+float Field_7_1_0_22636_008?
+float Field_7_1_0_22636_009?
+float Field_7_1_0_22636_010?
+float Field_7_1_0_22636_011?
+float Field_7_1_0_22636_012?
+float Field_7_1_0_22636_013?
+float Field_7_1_0_22636_014?
+float Field_7_1_0_22636_015?
+int Field_7_1_0_22636_016?
+int Field_7_1_0_22636_017?
+int Field_7_1_0_22636_018?
+int Field_7_1_0_22636_019?
+int Field_7_1_0_22636_020?
+int Field_7_1_0_22636_021?
+int Field_7_1_0_22636_022?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -115,6 +138,33 @@ EAX3ModulationTime
 EAX3ModulationDepth
 EAX3HFReference
 EAX3LFReference
+
+LAYOUT 280B4DCE
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003
+Field_7_1_0_22636_004
+Field_7_1_0_22636_005
+Field_7_1_0_22636_006
+Field_7_1_0_22636_007
+Field_7_1_0_22636_008
+Field_7_1_0_22636_009
+Field_7_1_0_22636_010
+Field_7_1_0_22636_011
+Field_7_1_0_22636_012
+Field_7_1_0_22636_013
+Field_7_1_0_22636_014
+Field_7_1_0_22636_015
+Field_7_1_0_22636_016<16>
+Field_7_1_0_22636_017<16>
+Field_7_1_0_22636_018<16>
+Field_7_1_0_22636_019<16>
+Field_7_1_0_22636_020<16>
+Field_7_1_0_22636_021<8>
+Field_7_1_0_22636_022<8>
 
 LAYOUT 85F218A4
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

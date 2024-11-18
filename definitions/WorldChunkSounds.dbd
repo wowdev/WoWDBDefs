@@ -12,6 +12,12 @@ int<ZoneMusic::ID> ZoneMusicID
 int<SoundAmbience::ID> SoundAmbienceID
 int<SoundProviderPreferences::ID> SoundProviderPreferencesID
 int<MusicOverride::ID> MusicOverrideID?
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
+int Field_7_1_0_22636_005?
 
 BUILD 3.0.1.8303-3.3.5.12340
 COMMENT completely unvalidated
@@ -47,6 +53,16 @@ ChunkY<32>
 SubchunkX<32>
 SubchunkY<32>
 SoundOverrideID<32>
+
+LAYOUT 7D17C7B2
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<16>
+Field_7_1_0_22636_001<8>
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<8>
+Field_7_1_0_22636_004<8>
+Field_7_1_0_22636_005<8>
 
 LAYOUT F258ABA6
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608

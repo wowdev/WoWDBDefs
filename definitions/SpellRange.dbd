@@ -5,6 +5,11 @@ float RangeMax // RangeMax[0] = Enemy, RangeMax[1] Friendly
 int Flags // &1: Melee (ignore RangeMin, set to 0); &2: Ranged (add 5 to RangeMin)
 locstring DisplayName_lang
 locstring DisplayNameShort_lang
+float Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+string Field_7_1_0_22636_002?
+string Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
 
 LAYOUT 6F18DB4E
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -44,6 +49,15 @@ RangeMax[2]
 Flags<32>
 DisplayName_lang
 DisplayNameShort_lang
+
+LAYOUT 9A45DAC4
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000[2]
+Field_7_1_0_22636_001[2]
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003
+Field_7_1_0_22636_004<8>
 
 LAYOUT 1A6155F2
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

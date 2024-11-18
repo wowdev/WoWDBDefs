@@ -5,6 +5,8 @@ int ID
 int Padding_4_0_0_11792_003?
 int<ChrProficiency::ID> Proficiency
 int<ChrRaces::ID> OtherFactionRaceID?
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -36,6 +38,12 @@ $id$ID<32>
 RaceID<8>
 ClassID<8>
 Padding_4_0_0_11792_003<8>[2]
+
+LAYOUT 02E25610
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<8>
+Field_7_1_0_22636_001<8>
 
 LAYOUT FE79090E
 BUILD 9.2.7.44444, 9.2.7.44767, 9.2.7.44931, 9.2.7.44981, 9.2.7.45114, 9.2.7.45161, 9.2.7.45338, 9.2.7.45745

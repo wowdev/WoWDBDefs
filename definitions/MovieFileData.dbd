@@ -2,6 +2,7 @@ COLUMNS
 int<FileData::ID> FileDataID
 int Resolution
 int<FileData::ID> ID
+int Field_7_1_0_22636_000?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -11,6 +12,11 @@ BUILD 4.0.0.11792-4.3.4.15595
 BUILD 3.0.1.8471-3.3.5.12340
 $id$FileDataID<32>
 Resolution<32>
+
+LAYOUT A15FC1F5
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<16>
 
 LAYOUT AA16D59F, B24F82EB, 08B7478A
 BUILD 10.0.0.43342

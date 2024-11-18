@@ -6,6 +6,11 @@ int CategoryRecoveryTime
 int RecoveryTime
 int StartRecoveryTime
 int<Spell::ID> AuraSpellID? // lockout if aura present
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
+int Field_7_1_0_22636_004?
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.0.0.12232-4.3.4.15595
@@ -22,6 +27,15 @@ DifficultyID<32>
 CategoryRecoveryTime<32>
 RecoveryTime<32>
 StartRecoveryTime<32>
+
+LAYOUT 8A2FB468
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<32>
+Field_7_1_0_22636_001<32>
+Field_7_1_0_22636_002<32>
+Field_7_1_0_22636_003<32>
+Field_7_1_0_22636_004<8>
 
 LAYOUT 4A02FB86
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

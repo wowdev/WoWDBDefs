@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int WeaponSubClassCost
 int ArmorSubClassCost
+int Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -14,6 +16,12 @@ BUILD 1.0.0.3980-1.12.3.6141
 $id$ID<32>
 WeaponSubClassCost<32>[21]
 ArmorSubClassCost<32>[8]
+
+LAYOUT C0CAAB42
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000<16>[21]
+Field_7_1_0_22636_001<16>[8]
 
 LAYOUT 8447966A, BB493F52, C447B1B1
 BUILD 10.0.0.43342

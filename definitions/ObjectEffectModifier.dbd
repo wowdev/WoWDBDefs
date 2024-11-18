@@ -4,6 +4,10 @@ int InputType
 int MapType
 int OutputType
 float Param
+float Field_7_1_0_22636_000?
+int Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -17,6 +21,14 @@ InputType<32>
 MapType<32>
 OutputType<32>
 Param[4]
+
+LAYOUT 78E883C3
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000[4]
+Field_7_1_0_22636_001<8>
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<8>
 
 LAYOUT A482B053, 68D120B3, 918E2238
 BUILD 10.0.0.43342

@@ -4,6 +4,10 @@ locstring Name_lang
 int Mask
 int ImmunityPossible
 string InternalName
+string Field_7_1_0_22636_000?
+string Field_7_1_0_22636_001?
+int Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.11.0.3925
@@ -37,6 +41,14 @@ Name_lang
 Mask<32>
 ImmunityPossible<32>
 InternalName
+
+LAYOUT 0849B551
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002<8>
+Field_7_1_0_22636_003<8>
 
 LAYOUT E9DDA799
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

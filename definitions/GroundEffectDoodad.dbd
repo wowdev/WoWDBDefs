@@ -11,6 +11,10 @@ float Size_variation_max
 float Rotation_variation_min // in degrees
 float Rotation_variation_max // in degrees
 int<TerrainColorGradingRamp::ID> TerrainColorGradingRampID
+string Field_7_1_0_22636_000?
+float Field_7_1_0_22636_001?
+float Field_7_1_0_22636_002?
+int Field_7_1_0_22636_003?
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.4.3.8606
@@ -72,6 +76,14 @@ Doodadpath
 Flags<32>
 Animscale
 Pushscale
+
+LAYOUT F1841C2E
+BUILD 7.1.0.22636
+$noninline,id$ID<32>
+Field_7_1_0_22636_000
+Field_7_1_0_22636_001
+Field_7_1_0_22636_002
+Field_7_1_0_22636_003<8>
 
 LAYOUT 89572776
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608
