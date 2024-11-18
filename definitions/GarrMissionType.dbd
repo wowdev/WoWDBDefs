@@ -6,6 +6,9 @@ int<UiTextureKit::ID> UiTextureKitID
 string Field_7_1_0_22636_000?
 int Field_7_1_0_22636_001?
 int Field_7_1_0_22636_002?
+locstring Field_7_2_0_23445_000_lang?
+int Field_7_2_0_23445_001?
+int Field_7_2_0_23445_002?
 
 LAYOUT DB3475F8
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
@@ -14,6 +17,13 @@ $noninline,id$ID<32>
 Field_7_1_0_22636_000
 Field_7_1_0_22636_001<16>
 Field_7_1_0_22636_002<16>
+
+LAYOUT D4418DFA
+BUILD 7.2.0.23445
+$noninline,id$ID<32>
+Field_7_2_0_23445_000_lang
+Field_7_2_0_23445_001<u16>
+Field_7_2_0_23445_002<u16>
 
 LAYOUT A289655E, 3FC87149, 3F7F567D
 BUILD 10.0.0.43342

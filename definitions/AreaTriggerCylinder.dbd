@@ -6,6 +6,9 @@ float ZOffset
 float Field_7_1_0_22636_000?
 float Field_7_1_0_22636_001?
 float Field_7_1_0_22636_002?
+float Field_7_2_0_23445_000?
+float Field_7_2_0_23445_001?
+float Field_7_2_0_23445_002?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -19,6 +22,13 @@ $noninline,id$ID<32>
 Field_7_1_0_22636_000
 Field_7_1_0_22636_001
 Field_7_1_0_22636_002
+
+LAYOUT 624B0F11
+BUILD 7.2.0.23445
+$noninline,id$ID<32>
+Field_7_2_0_23445_000
+Field_7_2_0_23445_001
+Field_7_2_0_23445_002
 
 LAYOUT 26D4052D, 867834A9, 7E59ED0C
 BUILD 10.0.0.43342

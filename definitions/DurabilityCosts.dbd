@@ -4,6 +4,8 @@ int WeaponSubClassCost
 int ArmorSubClassCost
 int Field_7_1_0_22636_000?
 int Field_7_1_0_22636_001?
+int Field_7_2_0_23445_000?
+int Field_7_2_0_23445_001?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -23,6 +25,12 @@ BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.228
 $noninline,id$ID<32>
 Field_7_1_0_22636_000<16>[21]
 Field_7_1_0_22636_001<16>[8]
+
+LAYOUT 22BE7182
+BUILD 7.2.0.23445
+$noninline,id$ID<32>
+Field_7_2_0_23445_000<u16>[21]
+Field_7_2_0_23445_001<u16>[8]
 
 LAYOUT 8447966A, BB493F52, C447B1B1
 BUILD 10.0.0.43342

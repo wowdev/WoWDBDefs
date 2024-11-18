@@ -4,6 +4,19 @@ int<Spell::ID> BuffSpellID
 int<ManagedWorldState::ID> ManagedWorldStateID
 int OccurrenceValue
 int<PlayerCondition::ID> PlayerConditionID
+int Field_7_2_0_23445_000?
+int Field_7_2_0_23445_001?
+int Field_7_2_0_23445_002?
+int Field_7_2_0_23445_003?
+int Field_7_2_0_23445_004?
+
+LAYOUT 3BFD29EC
+BUILD 7.2.0.23445
+$id$Field_7_2_0_23445_000<32>
+Field_7_2_0_23445_001<32>
+Field_7_2_0_23445_002<u32>
+Field_7_2_0_23445_003<32>
+Field_7_2_0_23445_004<32>
 
 LAYOUT 8649A3CF
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

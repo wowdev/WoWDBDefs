@@ -4,6 +4,19 @@ int<AnimKit::ID> DstAnimKitID
 int ConditionalFlags // Same as AnimReplacement::ConditionalFlags.
 int<AnimReplacementSet::ID> ParentAnimReplacementSetID
 int<AnimKit::ID> SrcAnimKitID
+int Field_7_2_0_23445_000?
+int Field_7_2_0_23445_001?
+int Field_7_2_0_23445_002?
+int Field_7_2_0_23445_003?
+int Field_7_2_0_23445_004?
+
+LAYOUT 20E43EE3
+BUILD 7.2.0.23445
+Field_7_2_0_23445_000<u16>
+Field_7_2_0_23445_001<u16>
+Field_7_2_0_23445_002<u16>
+Field_7_2_0_23445_003<u16>
+$id$Field_7_2_0_23445_004<32>
 
 LAYOUT A02C2B1F
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

@@ -6,6 +6,9 @@ int<AnimKit::ID> LowDefAnimKitID
 int Field_7_1_0_22636_000?
 int Field_7_1_0_22636_001?
 int Field_7_1_0_22636_002?
+int Field_7_2_0_23445_000?
+int Field_7_2_0_23445_001?
+int Field_7_2_0_23445_002?
 
 BUILD 4.0.0.11792
 BUILD 5.0.1.15464-5.4.8.18414
@@ -27,6 +30,13 @@ $noninline,id$ID<32>
 Field_7_1_0_22636_000<32>
 Field_7_1_0_22636_001<16>
 Field_7_1_0_22636_002<16>
+
+LAYOUT 479C2E44
+BUILD 7.2.0.23445
+$noninline,id$ID<32>
+Field_7_2_0_23445_000<u32>
+Field_7_2_0_23445_001<u16>
+Field_7_2_0_23445_002<u16>
 
 LAYOUT 81D6D250, 0C4BCDEC, E6EFB281
 BUILD 10.0.0.43342

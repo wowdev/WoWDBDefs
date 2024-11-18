@@ -4,6 +4,8 @@ locstring Description_lang
 int Color
 string Field_7_1_0_22636_000?
 int Field_7_1_0_22636_001?
+locstring Field_7_2_0_23445_000_lang?
+int Field_7_2_0_23445_001?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -18,6 +20,12 @@ BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.228
 $noninline,id$ID<32>
 Field_7_1_0_22636_000
 Field_7_1_0_22636_001<32>
+
+LAYOUT 80AEB64C
+BUILD 7.2.0.23445
+$noninline,id$ID<32>
+Field_7_2_0_23445_000_lang
+Field_7_2_0_23445_001<32>
 
 LAYOUT 16760BD4, BBF04CCC, 302E0BAD
 BUILD 10.0.0.43342

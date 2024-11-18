@@ -6,6 +6,9 @@ int StateType
 int Field_7_1_0_22636_000?
 int Field_7_1_0_22636_001?
 int Field_7_1_0_22636_002?
+int Field_7_2_0_23445_000?
+int Field_7_2_0_23445_001?
+int Field_7_2_0_23445_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -27,6 +30,13 @@ $noninline,id$ID<32>
 Field_7_1_0_22636_000<16>
 Field_7_1_0_22636_001<16>
 Field_7_1_0_22636_002<16>
+
+LAYOUT D14F3E91
+BUILD 7.2.0.23445
+$noninline,id$ID<32>
+Field_7_2_0_23445_000<u16>
+Field_7_2_0_23445_001<u16>
+Field_7_2_0_23445_002<u16>
 
 LAYOUT 8CF043E5, 3B8C53F9, 9844275E
 BUILD 10.0.0.43342

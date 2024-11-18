@@ -8,6 +8,9 @@ int<FileData::ID> EnvMapSpecularFileID
 string Field_7_1_0_22636_000?
 string Field_7_1_0_22636_001?
 int Field_7_1_0_22636_002?
+string Field_7_2_0_23445_000?
+string Field_7_2_0_23445_001?
+int Field_7_2_0_23445_002?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -25,6 +28,13 @@ $noninline,id$ID<32>
 Field_7_1_0_22636_000
 Field_7_1_0_22636_001
 Field_7_1_0_22636_002<8>
+
+LAYOUT C524B2E1
+BUILD 7.2.0.23445
+$noninline,id$ID<32>
+Field_7_2_0_23445_000
+Field_7_2_0_23445_001
+Field_7_2_0_23445_002<u8>
 
 LAYOUT EF220095
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563

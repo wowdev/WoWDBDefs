@@ -10,6 +10,30 @@ int SourceAttachID
 float SourceMinDistance
 int SourceOffset
 int SourcePositionerID
+int Field_7_2_0_23445_000?
+float Field_7_2_0_23445_001?
+float Field_7_2_0_23445_002?
+int Field_7_2_0_23445_003?
+int Field_7_2_0_23445_004?
+int Field_7_2_0_23445_005?
+int Field_7_2_0_23445_006?
+int Field_7_2_0_23445_007?
+int Field_7_2_0_23445_008?
+int Field_7_2_0_23445_009?
+
+LAYOUT 7029297B
+BUILD 7.2.0.23445
+$noninline,id$ID<32>
+Field_7_2_0_23445_000<32>
+Field_7_2_0_23445_001
+Field_7_2_0_23445_002
+Field_7_2_0_23445_003<32>
+Field_7_2_0_23445_004<16>
+Field_7_2_0_23445_005<16>
+Field_7_2_0_23445_006<16>
+Field_7_2_0_23445_007<16>
+Field_7_2_0_23445_008<16>
+Field_7_2_0_23445_009<16>
 
 LAYOUT 42C18603
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032

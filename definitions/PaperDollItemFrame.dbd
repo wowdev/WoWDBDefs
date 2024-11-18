@@ -7,6 +7,9 @@ int<FileData::ID> SlotIconFileID
 string Field_7_1_0_22636_000?
 string Field_7_1_0_22636_001?
 int Field_7_1_0_22636_002?
+string Field_7_2_0_23445_000?
+string Field_7_2_0_23445_001?
+int Field_7_2_0_23445_002?
 
 BUILD 0.5.3.3368
 BUILD 3.0.1.8303-3.3.5.12340
@@ -33,6 +36,13 @@ $noninline,id$ID<32>
 Field_7_1_0_22636_000
 Field_7_1_0_22636_001
 Field_7_1_0_22636_002<8>
+
+LAYOUT 7F20C83F
+BUILD 7.2.0.23445
+$noninline,id$ID<32>
+Field_7_2_0_23445_000
+Field_7_2_0_23445_001
+Field_7_2_0_23445_002<u8>
 
 LAYOUT 1B0E948B
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492

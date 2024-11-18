@@ -797,6 +797,7 @@ MaxPlayers<8>
 TimeOffset<8>
 
 LAYOUT B32E648C, F7CF2DA2, BDBE8188, 98BE9895
+BUILD 7.2.0.23445
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 BUILD 7.2.0.23436-7.2.0.23514
@@ -811,18 +812,18 @@ Corpse[2]
 MapName_lang
 MapDescription0_lang
 MapDescription1_lang
-AreaTableID<16>
+AreaTableID<u16>
 LoadingScreenID<16>
 CorpseMapID<16>
 TimeOfDayOverride<16>
 ParentMapID<16>
 CosmeticParentMapID<16>
 WindSettingsID<16>
-InstanceType<8>
-MapType<8>
-ExpansionID<8>
-MaxPlayers<8>
-TimeOffset<8>
+InstanceType<u8>
+MapType<u8>
+ExpansionID<u8>
+MaxPlayers<u8>
+TimeOffset<u8>
 
 LAYOUT C34CD39B, AFAFB470, A37A2830
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
