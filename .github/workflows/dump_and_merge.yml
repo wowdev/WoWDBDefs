@@ -52,7 +52,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 7.0.x
+          dotnet-version: 8.0.x
       - name: Dump raw DBDs
         run: dotnet run --project $PWD/code/C#/DBDefsDumper/ --configuration Release -- ${{ github.event.inputs.product }}.exe dumpeddbd ${{ github.event.inputs.build }}
         env:
