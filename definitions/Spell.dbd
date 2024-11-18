@@ -172,6 +172,11 @@ locstring Field_7_2_0_23708_003_lang?
 int Field_7_2_0_23708_004?
 int Field_7_2_0_23708_005?
 int Field_7_2_0_23708_006?
+locstring Field_7_3_5_25875_000_lang?
+locstring Field_7_3_5_25875_001_lang?
+locstring Field_7_3_5_25875_002_lang?
+locstring Field_7_3_5_25875_003_lang?
+int Field_7_3_5_25875_004?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -3320,6 +3325,14 @@ AuraDescription_lang
 MiscID<32>
 $id$ID<32>
 $noninline,relation$Field_7_3_2_25549_006<64>
+
+LAYOUT F0B5D7A1
+BUILD 7.3.5.25875
+Field_7_3_5_25875_000_lang
+Field_7_3_5_25875_001_lang
+Field_7_3_5_25875_002_lang
+Field_7_3_5_25875_003_lang
+$id$Field_7_3_5_25875_004<32>
 
 LAYOUT 2273DFFF, 60BB6C3F
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231, 8.0.1.26287, 8.0.1.26297, 8.0.1.26310, 8.0.1.26321
