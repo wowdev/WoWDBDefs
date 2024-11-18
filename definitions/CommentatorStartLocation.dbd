@@ -2,6 +2,14 @@ COLUMNS
 int ID
 int<Map::ID> MapID
 float Pos
+float Field_7_2_5_24076_000?
+int Field_7_2_5_24076_001?
+
+LAYOUT C04769B3
+BUILD 7.2.5.24076
+$noninline,id$ID<32>
+Field_7_2_5_24076_000[3]
+Field_7_2_5_24076_001<32>
 
 LAYOUT EFD540EF, F552D58F, 360082E7
 BUILD 10.0.0.43342
