@@ -2,6 +2,14 @@ COLUMNS
 int ID
 int<GroupFinderActivity::ID> GroupFinderActivityID
 int<QuestV2::ID> QuestID
+int Field_7_1_5_23109_000?
+int Field_7_1_5_23109_001?
+
+LAYOUT D40C68F3
+BUILD 7.1.5.23109
+$noninline,id$ID<32>
+Field_7_1_5_23109_000<32>
+Field_7_1_5_23109_001<32>
 
 LAYOUT 06CC45D3, AA88A593, 601AC6F5
 BUILD 10.0.0.43342
