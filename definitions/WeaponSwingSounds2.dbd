@@ -9,6 +9,9 @@ int Field_7_1_0_22636_002?
 int Field_7_2_0_23445_000?
 int Field_7_2_0_23445_001?
 int Field_7_2_0_23445_002?
+int Field_7_2_0_23478_000?
+int Field_7_2_0_23478_001?
+int Field_7_2_0_23478_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -39,6 +42,13 @@ $noninline,id$ID<32>
 Field_7_2_0_23445_000<u8>
 Field_7_2_0_23445_001<u8>
 Field_7_2_0_23445_002<u32>
+
+LAYOUT 673C95BC
+BUILD 7.2.0.23478
+$noninline,id$ID<32>
+Field_7_2_0_23478_000<u8>
+Field_7_2_0_23478_001<u8>
+Field_7_2_0_23478_002<u32>
 
 LAYOUT D45347C3, 18B6CC57, 8066E81A
 BUILD 10.0.0.43342

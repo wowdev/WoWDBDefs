@@ -7,6 +7,8 @@ string Field_7_1_0_22636_000?
 int Field_7_1_0_22636_001?
 locstring Field_7_2_0_23445_000_lang?
 int Field_7_2_0_23445_001?
+locstring Field_7_2_0_23478_000_lang?
+int Field_7_2_0_23478_001?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -36,6 +38,12 @@ BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
 Field_7_2_0_23445_000_lang
 Field_7_2_0_23445_001<8>
+
+LAYOUT 222914B6
+BUILD 7.2.0.23478
+$noninline,id$ID<32>
+Field_7_2_0_23478_000_lang
+Field_7_2_0_23478_001<8>
 
 LAYOUT AD7072C6, 2F5E2228, 78E6AE79
 BUILD 10.0.0.43342

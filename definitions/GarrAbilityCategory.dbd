@@ -3,6 +3,7 @@ int ID
 locstring Name_lang
 string Field_7_1_0_22636_000?
 locstring Field_7_2_0_23445_000_lang?
+locstring Field_7_2_0_23478_000_lang?
 
 LAYOUT C7290625
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
@@ -14,6 +15,11 @@ LAYOUT 35D5C533
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
 Field_7_2_0_23445_000_lang
+
+LAYOUT 3904DB9E
+BUILD 7.2.0.23478
+$noninline,id$ID<32>
+Field_7_2_0_23478_000_lang
 
 LAYOUT 96663ABF, 9F2C8370, 1AC95960
 BUILD 10.0.0.43342

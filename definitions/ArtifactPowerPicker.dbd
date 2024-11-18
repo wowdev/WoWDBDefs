@@ -1,6 +1,12 @@
 COLUMNS
 int ID
 int<PlayerCondition::ID> PlayerConditionID
+int Field_7_2_0_23478_000?
+
+LAYOUT B7E57382
+BUILD 7.2.0.23478
+$noninline,id$ID<32>
+Field_7_2_0_23478_000<32>
 
 LAYOUT 2D6AF006, 253242BA, BEE6736B
 BUILD 10.0.0.43342

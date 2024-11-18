@@ -5,6 +5,8 @@ int UiSystemType // C_ModelInfo.ModelSceneType: 0: MountJournal, 1: PetJournalCa
 int Context // -1: None, 0: PerksProgram
 int Field_7_2_0_23445_000?
 int Field_7_2_0_23445_001?
+int Field_7_2_0_23478_000?
+int Field_7_2_0_23478_001?
 
 LAYOUT D35977BB
 BUILD 4.4.1.56464, 4.4.1.56574, 4.4.1.56859, 4.4.1.56961, 4.4.1.57103, 4.4.1.57141, 4.4.1.57294, 4.4.1.57359, 4.4.1.57564
@@ -20,6 +22,12 @@ BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
 Field_7_2_0_23445_000<8>
 Field_7_2_0_23445_001<u8>
+
+LAYOUT 2B5C21A2
+BUILD 7.2.0.23478
+$noninline,id$ID<32>
+Field_7_2_0_23478_000<8>
+Field_7_2_0_23478_001<u8>
 
 LAYOUT A7D62B8A, 0B9EFECA, A24757C0
 BUILD 10.0.0.43342
