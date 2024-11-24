@@ -81,7 +81,6 @@
         public uint stringTableSize;
         public uint tableHash;
         public uint layoutHash;
-        public uint timestampLastWritten;
         public uint minID;
         public uint maxID;
         public uint locale;

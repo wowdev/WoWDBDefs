@@ -56,7 +56,7 @@ namespace DBDTest
 
             foreach(var build in builds)
             {
-                if (build.expansion != 8 || build.major != 1) continue;
+                if (build.expansion != 7 ||  build.major < 1) continue;
 
                 Console.WriteLine("Checking " + build + "..");
                 if (Directory.Exists(Path.Combine(dbcDir, build.ToString(), "DBFilesClient")))
@@ -87,6 +87,13 @@ namespace DBDTest
 
             if (!definitionCache.ContainsKey(name.ToLower()))
             {
+                Console.WriteLine("No definition found for " + name + ", skipping.");
+                return;
+            }
+
+            if(Path.GetExtension(filename) != ".dbc" && Path.GetExtension(filename) != ".db2")
+            {
+                Console.WriteLine("Skipping " + filename + " as it is not a DBC file, skipping.");
                 return;
             }
 
@@ -166,7 +173,7 @@ namespace DBDTest
                     case "WDB6":
                         var db6header = bin.Read<WDB6Header>();
                         fileDef.recordSize = db6header.recordSize;
-                        fileDef.fieldCount = db6header.fieldCount;
+                        fileDef.fieldCount = db6header.totalFieldCount;
                         fileDef.layoutHash = db6header.layoutHash.ToString("X8");
                         break;
                     case "WDC1":
@@ -311,6 +318,11 @@ namespace DBDTest
                             Console.ResetColor();
                         }
 
+                        if(fileDef.fields == null)
+                        {
+                            return;
+                        }
+
                         // Check record sizes
                         var dbdRecordSize = 0;
                         var i = 0;
@@ -389,7 +401,7 @@ namespace DBDTest
                 if (!layoutHashFound && fileDef.layoutHash != "")
                 {
                     foundError = true;
-                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("[" + buildDir + "][" + Path.GetFileNameWithoutExtension(filename) + "] Unable to find layouthash in definitions!");
                     Console.ResetColor();
                 }
@@ -397,7 +409,7 @@ namespace DBDTest
                 if (!dbChecked)
                 {
                     foundError = true;
-                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("[" + buildDir + "][" + Path.GetFileNameWithoutExtension(filename) + "] Unable to find applicable definitions!");
                     Console.ResetColor();
                 }
