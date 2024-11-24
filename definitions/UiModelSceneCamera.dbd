@@ -15,16 +15,6 @@ float ZoomedPitchOffset
 float ZoomedRollOffset
 float ZoomedTargetOffset
 float ZoomedYawOffset
-float Field_7_2_0_23445_005? // DBAnalyser: [Roll, 0,95%], [ZoomedPitchOffset, 0,95%], [ZoomedRollOffset, 0,95%]
-float Field_7_2_0_23445_007? // DBAnalyser: [Roll, 0,95%], [ZoomedPitchOffset, 0,95%], [ZoomedRollOffset, 0,95%]
-float Field_7_2_0_23445_008? // DBAnalyser: [Roll, 0,95%], [ZoomedPitchOffset, 0,95%], [ZoomedRollOffset, 0,95%]
-int Field_7_2_0_23445_012? // DBAnalyser: [Flags, 0,95%], [CameraType, 0,95%]
-int Field_7_2_0_23445_013? // DBAnalyser: [Flags, 0,95%], [CameraType, 0,95%]
-float Field_7_2_0_23478_005? // DBAnalyser: [Roll, 0,95%], [ZoomedPitchOffset, 0,95%], [ZoomedRollOffset, 0,95%], [Field_7_2_0_23445_005, 0,95%], [Field_7_2_0_23445_007, 0,95%], [Field_7_2_0_23445_008, 0,95%]
-float Field_7_2_0_23478_007? // DBAnalyser: [Roll, 0,95%], [ZoomedPitchOffset, 0,95%], [ZoomedRollOffset, 0,95%], [Field_7_2_0_23445_005, 0,95%], [Field_7_2_0_23445_007, 0,95%], [Field_7_2_0_23445_008, 0,95%]
-float Field_7_2_0_23478_008? // DBAnalyser: [Roll, 0,95%], [ZoomedPitchOffset, 0,95%], [ZoomedRollOffset, 0,95%], [Field_7_2_0_23445_005, 0,95%], [Field_7_2_0_23445_007, 0,95%], [Field_7_2_0_23445_008, 0,95%]
-int Field_7_2_0_23478_012? // DBAnalyser: [Flags, 0,95%], [CameraType, 0,95%], [Field_7_2_0_23445_012, 0,95%], [Field_7_2_0_23445_013, 0,95%]
-int Field_7_2_0_23478_013? // DBAnalyser: [Flags, 0,95%], [CameraType, 0,95%], [Field_7_2_0_23445_012, 0,95%], [Field_7_2_0_23445_013, 0,95%]
 
 LAYOUT EA151443
 BUILD 4.4.1.56464, 4.4.1.56574, 4.4.1.56859, 4.4.1.56961, 4.4.1.57103, 4.4.1.57141, 4.4.1.57294, 4.4.1.57359, 4.4.1.57564
@@ -55,15 +45,15 @@ Target[3]
 ZoomedTargetOffset[3]
 Yaw
 Pitch
-Field_7_2_0_23445_005
+Roll
 ZoomedYawOffset
-Field_7_2_0_23445_007
-Field_7_2_0_23445_008
+ZoomedPitchOffset
+ZoomedRollOffset
 ZoomDistance
 MinZoomDistance
 MaxZoomDistance
-Field_7_2_0_23445_012<u8>
-Field_7_2_0_23445_013<u8>
+Flags<u8>
+CameraType<u8>
 $id$ID<32>
 UiModelSceneID<32>
 
@@ -75,15 +65,15 @@ Target[3]
 ZoomedTargetOffset[3]
 Yaw
 Pitch
-Field_7_2_0_23478_005
+Roll
 ZoomedYawOffset
-Field_7_2_0_23478_007
-Field_7_2_0_23478_008
+ZoomedPitchOffset
+ZoomedRollOffset
 ZoomDistance
 MinZoomDistance
 MaxZoomDistance
-Field_7_2_0_23478_012<u8>
-Field_7_2_0_23478_013<u8>
+Flags<u8>
+CameraType<u8>
 $id$ID<32>
 UiModelSceneID<32>
 

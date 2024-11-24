@@ -19,15 +19,8 @@ int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
-string Field_7_1_0_22636_003?
-string Field_7_1_0_22636_004?
-string Field_7_1_0_22636_005?
 int Field_7_1_0_22636_012? // DBAnalyser: [PhaseGroupID, 0,95%], [PhaseUseFlags, 0,95%]
 int Field_7_1_0_22636_013? // DBAnalyser: [PhaseGroupID, 0,95%], [PhaseUseFlags, 0,95%]
-int Field_7_2_0_23445_009? // DBAnalyser: [Field_7_2_0_23478_009, 0,95%], [Field_7_2_0_23478_013, 0,95%]
-int Field_7_2_0_23445_013? // DBAnalyser: [Field_7_2_0_23478_009, 0,95%], [Field_7_2_0_23478_013, 0,95%]
-int Field_7_2_0_23478_009? // DBAnalyser: [PhaseGroupID, 0,95%], [PhaseUseFlags, 0,95%]
-int Field_7_2_0_23478_013? // DBAnalyser: [PhaseGroupID, 0,95%], [PhaseUseFlags, 0,95%]
 
 BUILD 2.0.0.5991
 BUILD 1.5.0.4442-1.11.2.5464
@@ -237,9 +230,9 @@ BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.228
 Icon
 ExtendedUI
 DynamicIcon
-Field_7_1_0_22636_003
-Field_7_1_0_22636_004
-Field_7_1_0_22636_005
+DynamicTooltip_lang
+String_lang
+Tooltip_lang
 MapID<16>
 AreaID<16>
 PhaseID<16>
@@ -262,11 +255,11 @@ Tooltip_lang
 MapID<16>
 AreaID<u16>
 PhaseID<u16>
-Field_7_2_0_23445_009<u16>
+PhaseGroupID<u16>
 StateVariable<u16>
 ExtendedUIStateVariable<u16>[3]
 OrderIndex<u8>
-Field_7_2_0_23445_013<u8>
+PhaseUseFlags<u8>
 Type<u8>
 $id$ID<32>
 
@@ -282,11 +275,11 @@ Tooltip_lang
 MapID<16>
 AreaID<u16>
 PhaseID<u16>
-Field_7_2_0_23478_009<u16>
+PhaseGroupID<u16>
 StateVariable<u16>
 ExtendedUIStateVariable<u16>[3]
 OrderIndex<u8>
-Field_7_2_0_23478_013<u8>
+PhaseUseFlags<u8>
 Type<u8>
 $id$ID<32>
 

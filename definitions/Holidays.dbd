@@ -13,20 +13,6 @@ int CalendarFilterType
 int Flags // &1: IsRegionwide; &2: DontShowInCalendar; &4: DontDisplayEnd; &8: DontDisplayBanner; &0x10: NotAvailableClientSide
 int<FileData::ID> TextureFileDataID
 int<WorldStateExpression::ID> WorldStateExpressionID?
-int Field_7_1_0_22636_006? // DBAnalyser: [HolidayNameID, 0,32%]
-int Field_7_1_0_22636_007? // DBAnalyser: [HolidayDescriptionID, 0,31%]
-int Field_7_1_0_22731_000?
-int Field_7_1_0_22731_001?
-string Field_7_1_0_22731_002?
-int Field_7_1_0_22731_003?
-int Field_7_1_0_22731_004?
-int Field_7_1_0_22731_005?
-int Field_7_1_0_22731_006?
-int Field_7_1_0_22731_007?
-int Field_7_1_0_22731_008?
-int Field_7_1_0_22731_009?
-int Field_7_1_0_22731_010?
-int Field_7_1_0_22731_011?
 
 LAYOUT DC1A500C, 3C3EF0AA
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -174,8 +160,8 @@ Duration<16>[10]
 Region<16>
 Looping<8>
 CalendarFlags<8>[10]
-Field_7_1_0_22636_006<8>
-Field_7_1_0_22636_007<8>
+HolidayNameID<8>
+HolidayDescriptionID<8>
 Priority<8>
 CalendarFilterType<8>
 Flags<8>
@@ -183,18 +169,18 @@ Flags<8>
 LAYOUT AB34E6EE
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
-$id$Field_7_1_0_22731_000<32>
-Field_7_1_0_22731_001<32>[16]
-Field_7_1_0_22731_002
-Field_7_1_0_22731_003<16>[10]
-Field_7_1_0_22731_004<16>
-Field_7_1_0_22731_005<8>
-Field_7_1_0_22731_006<8>[10]
-Field_7_1_0_22731_007<8>
-Field_7_1_0_22731_008<8>
-Field_7_1_0_22731_009<8>
-Field_7_1_0_22731_010<8>
-Field_7_1_0_22731_011<8>
+$id$ID<32>
+Date<32>[16]
+TextureFileName
+Duration<16>[10]
+Region<16>
+Looping<8>
+CalendarFlags<8>[10]
+HolidayNameID<8>
+HolidayDescriptionID<8>
+Priority<8>
+CalendarFilterType<8>
+Flags<8>
 
 LAYOUT 00867BA0
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476

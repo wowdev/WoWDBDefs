@@ -24,7 +24,6 @@ int Multisample
 int Atlasdisable
 int OglPixelShader
 int D3dPixelShader
-int Field_7_1_0_22636_017? // DBAnalyser: [UnitDrawDistIdx, 1%], [SmallCullDistIdx, 1%]
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -146,7 +145,7 @@ Atlasdisable<8>
 $id$ID<32>
 NumLights<32>
 WaterLODIdx<32>
-Field_7_1_0_22636_017<32>
+UnitDrawDistIdx<32>
 ResolutionIdx<32>
 BaseMipLevel<32>
 FixLag<32>

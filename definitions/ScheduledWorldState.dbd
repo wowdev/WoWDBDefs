@@ -8,9 +8,6 @@ int UniqueCategory
 int Value
 int Weight
 int<WorldState::ID> WorldStateID
-int Field_7_2_0_23445_003? // DBAnalyser: [Field_7_2_0_23478_003, 0,79%]
-int Field_7_2_0_23478_003? // DBAnalyser: [Flags, 0,96%]
-int Field_7_2_0_23478_006? // DBAnalyser: [Flags, 0,98%]
 
 LAYOUT A04FD7B6
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
@@ -19,10 +16,10 @@ $noninline,id$ID<32>
 ScheduledWorldStateGroupID<32>
 WorldStateID<32>
 Value<32>
-Field_7_2_0_23445_003<32>
+DurationSecs<32>
 Weight<32>
 UniqueCategory<32>
-Field_7_2_0_23478_006<32>
+Flags<32>
 OrderIndex<32>
 
 LAYOUT C532CB4A
@@ -31,10 +28,10 @@ $noninline,id$ID<32>
 ScheduledWorldStateGroupID<32>
 WorldStateID<32>
 Value<32>
-Field_7_2_0_23445_003<32>
+DurationSecs<32>
 Weight<32>
 UniqueCategory<32>
-Field_7_2_0_23478_006<32>
+Flags<32>
 OrderIndex<32>
 
 LAYOUT F79BBEDA
@@ -44,10 +41,10 @@ $noninline,id$ID<32>
 ScheduledWorldStateGroupID<32>
 WorldStateID<32>
 Value<32>
-Field_7_2_0_23478_003<32>
+DurationSecs<32>
 Weight<32>
 UniqueCategory<32>
-Field_7_2_0_23478_006<32>
+Flags<32>
 OrderIndex<32>
 
 LAYOUT FCB13A6A, DC45735A, 1AE5AC2A

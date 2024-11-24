@@ -9,7 +9,6 @@ int<SoundKit::ID> EffectRecID // ERT == 1: SoundKitID; as that's the only type p
 int Attachment
 float Offset
 int<ObjectEffectModifier::ID> ObjectEffectModifierID
-int Field_7_1_0_22636_007? // DBAnalyser: [ObjectEffectModifierID, 0,3%]
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -41,7 +40,7 @@ TriggerType<8>
 EventType<8>
 EffectRecType<8>
 Attachment<8>
-Field_7_1_0_22636_007<8>
+ObjectEffectModifierID<8>
 EffectRecID<32>
 
 LAYOUT 513675B6
