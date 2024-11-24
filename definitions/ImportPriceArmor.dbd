@@ -4,18 +4,18 @@ float ClothModifier
 float LeatherModifier
 float ChainModifier
 float PlateModifier
-float Field_7_1_0_22636_000?
-float Field_7_1_0_22636_001?
-float Field_7_1_0_22636_002?
-float Field_7_1_0_22636_003?
-float Field_7_2_0_23445_000?
-float Field_7_2_0_23445_001?
-float Field_7_2_0_23445_002?
-float Field_7_2_0_23445_003?
-float Field_7_2_0_23478_000?
-float Field_7_2_0_23478_001?
-float Field_7_2_0_23478_002?
-float Field_7_2_0_23478_003?
+float Field_7_1_0_22636_000? // DBAnalyser: [ClothModifier, 1%], [PlateModifier, 1%]
+float Field_7_1_0_22636_001? // DBAnalyser: [LeatherModifier, 1%], [ChainModifier, 1%]
+float Field_7_1_0_22636_002? // DBAnalyser: [LeatherModifier, 1%], [ChainModifier, 1%]
+float Field_7_1_0_22636_003? // DBAnalyser: [ClothModifier, 1%], [PlateModifier, 1%]
+float Field_7_2_0_23445_000? // DBAnalyser: [ClothModifier, 1%], [PlateModifier, 1%]
+float Field_7_2_0_23445_001? // DBAnalyser: [LeatherModifier, 1%], [ChainModifier, 1%]
+float Field_7_2_0_23445_002? // DBAnalyser: [LeatherModifier, 1%], [ChainModifier, 1%]
+float Field_7_2_0_23445_003? // DBAnalyser: [ClothModifier, 1%], [PlateModifier, 1%]
+float Field_7_2_0_23478_000? // DBAnalyser: [ClothModifier, 1%], [PlateModifier, 1%]
+float Field_7_2_0_23478_001? // DBAnalyser: [LeatherModifier, 1%], [ChainModifier, 1%]
+float Field_7_2_0_23478_002? // DBAnalyser: [LeatherModifier, 1%], [ChainModifier, 1%]
+float Field_7_2_0_23478_003? // DBAnalyser: [ClothModifier, 1%], [PlateModifier, 1%]
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414

@@ -26,113 +26,12 @@ int<UiMap::ID> UIMapID
 string Field_7_1_0_22636_000?
 string Field_7_1_0_22636_001?
 string Field_7_1_0_22636_002?
-int Field_7_1_0_22636_003?
-int Field_7_1_0_22636_004?
 string Field_7_1_0_22636_005?
 string Field_7_1_0_22636_006?
-int Field_7_1_0_22636_007?
-int Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-int Field_7_1_0_22636_010?
-int Field_7_1_0_22636_011?
-int Field_7_1_0_22636_012?
-int Field_7_1_0_22636_013?
-int Field_7_1_0_22636_014?
-int Field_7_1_0_22636_015?
-int Field_7_1_0_22636_016?
-int Field_7_1_0_22636_017?
-int Field_7_1_0_22636_018?
-int Field_7_1_0_22636_019?
-int Field_7_1_0_22636_020?
-int Field_7_1_0_22636_021?
-locstring Field_7_2_0_23445_000_lang?
-locstring Field_7_2_0_23445_001_lang?
-locstring Field_7_2_0_23445_002_lang?
-int Field_7_2_0_23445_003?
-int Field_7_2_0_23445_004?
-locstring Field_7_2_0_23445_005_lang?
-locstring Field_7_2_0_23445_006_lang?
-int Field_7_2_0_23445_007?
-int Field_7_2_0_23445_008?
-int Field_7_2_0_23445_009?
-int Field_7_2_0_23445_010?
-int Field_7_2_0_23445_011?
-int Field_7_2_0_23445_012?
-int Field_7_2_0_23445_013?
-int Field_7_2_0_23445_014?
-int Field_7_2_0_23445_015?
-int Field_7_2_0_23445_016?
-int Field_7_2_0_23445_017?
-int Field_7_2_0_23445_018?
-int Field_7_2_0_23445_019?
-int Field_7_2_0_23445_020?
-int Field_7_2_0_23445_021?
-locstring Field_7_2_0_23478_000_lang?
-locstring Field_7_2_0_23478_001_lang?
-locstring Field_7_2_0_23478_002_lang?
-int Field_7_2_0_23478_003?
-int Field_7_2_0_23478_004?
-locstring Field_7_2_0_23478_005_lang?
-locstring Field_7_2_0_23478_006_lang?
-int Field_7_2_0_23478_007?
-int Field_7_2_0_23478_008?
-int Field_7_2_0_23478_009?
-int Field_7_2_0_23478_010?
-int Field_7_2_0_23478_011?
-int Field_7_2_0_23478_012?
-int Field_7_2_0_23478_013?
-int Field_7_2_0_23478_014?
-int Field_7_2_0_23478_015?
-int Field_7_2_0_23478_016?
-int Field_7_2_0_23478_017?
-int Field_7_2_0_23478_018?
-int Field_7_2_0_23478_019?
-int Field_7_2_0_23478_020?
-int Field_7_2_0_23478_021?
-locstring Field_7_2_0_23578_000_lang?
-locstring Field_7_2_0_23578_001_lang?
-locstring Field_7_2_0_23578_002_lang?
-int Field_7_2_0_23578_003?
-int Field_7_2_0_23578_004?
-locstring Field_7_2_0_23578_005_lang?
-locstring Field_7_2_0_23578_006_lang?
-int Field_7_2_0_23578_007?
-int Field_7_2_0_23578_008?
-int Field_7_2_0_23578_009?
-int Field_7_2_0_23578_010?
-int Field_7_2_0_23578_011?
-int Field_7_2_0_23578_012?
-int Field_7_2_0_23578_013?
-int Field_7_2_0_23578_014?
-int Field_7_2_0_23578_015?
-int Field_7_2_0_23578_016?
-int Field_7_2_0_23578_017?
-int Field_7_2_0_23578_018?
-int Field_7_2_0_23578_019?
-int Field_7_2_0_23578_020?
-int Field_7_2_0_23578_021?
-locstring Field_7_2_0_23623_000_lang?
-locstring Field_7_2_0_23623_001_lang?
-locstring Field_7_2_0_23623_002_lang?
-int Field_7_2_0_23623_003?
-int Field_7_2_0_23623_004?
-locstring Field_7_2_0_23623_005_lang?
-locstring Field_7_2_0_23623_006_lang?
-int Field_7_2_0_23623_007?
-int Field_7_2_0_23623_008?
-int Field_7_2_0_23623_009?
-int Field_7_2_0_23623_010?
-int Field_7_2_0_23623_011?
-int Field_7_2_0_23623_012?
-int Field_7_2_0_23623_013?
-int Field_7_2_0_23623_014?
-int Field_7_2_0_23623_015?
-int Field_7_2_0_23623_016?
-int Field_7_2_0_23623_017?
-int Field_7_2_0_23623_018?
-int Field_7_2_0_23623_019?
-int Field_7_2_0_23623_020?
-int Field_7_2_0_23623_021?
+int Field_7_1_0_22636_007? // DBAnalyser: [PlayerConditionID, 0,08%]
+int Field_7_1_0_22636_009? // DBAnalyser: [QuestID, 0,56%]
+int Field_7_1_0_22636_010? // DBAnalyser: [BonusPlayerConditionID, 0,69%], [ItemQuantity, 0,68%], [BonusValue, 0,68%], [Flags, 0,61%]
+int Field_7_1_0_22636_014? // DBAnalyser: [CurrencyQuantity, 0,94%], [CurrencyType, 0,92%], [BattleMasterListID, 0,91%], [ItemID, 0,9%]
 
 LAYOUT AF456C4F
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -262,130 +161,130 @@ $noninline,id$ID<32>
 Field_7_1_0_22636_000
 Field_7_1_0_22636_001
 Field_7_1_0_22636_002
-Field_7_1_0_22636_003<32>
-Field_7_1_0_22636_004<32>
+TextureFileDataID<32>
+ItemID<32>
 Field_7_1_0_22636_005
 Field_7_1_0_22636_006
 Field_7_1_0_22636_007<16>
-Field_7_1_0_22636_008<16>
+LfgDungeonID<16>
 Field_7_1_0_22636_009<16>
 Field_7_1_0_22636_010<16>[2]
-Field_7_1_0_22636_011<16>
-Field_7_1_0_22636_012<16>
-Field_7_1_0_22636_013<8>
+CurrencyType<16>
+WorldMapAreaID<16>
+Type<8>
 Field_7_1_0_22636_014<8>
-Field_7_1_0_22636_015<8>
-Field_7_1_0_22636_016<8>
-Field_7_1_0_22636_017<8>
-Field_7_1_0_22636_018<8>
-Field_7_1_0_22636_019<8>[2]
-Field_7_1_0_22636_020<8>
-Field_7_1_0_22636_021<8>
+ButtonActionType<8>
+BattleMasterListID<8>
+PriorityMin<8>
+PriorityMax<8>
+BonusValue<8>[2]
+ItemQuantity<8>
+CurrencyQuantity<8>
 
 LAYOUT C8BAC7C7
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
-Field_7_2_0_23445_000_lang
-Field_7_2_0_23445_001_lang
-Field_7_2_0_23445_002_lang
-Field_7_2_0_23445_003<32>
-Field_7_2_0_23445_004<32>
-Field_7_2_0_23445_005_lang
-Field_7_2_0_23445_006_lang
-Field_7_2_0_23445_007<u16>
-Field_7_2_0_23445_008<u16>
-Field_7_2_0_23445_009<u16>
-Field_7_2_0_23445_010<u16>
-Field_7_2_0_23445_011<u16>[2]
-Field_7_2_0_23445_012<u16>
-Field_7_2_0_23445_013<u16>
-Field_7_2_0_23445_014<u8>
-Field_7_2_0_23445_015<u8>
-Field_7_2_0_23445_016<u8>
-Field_7_2_0_23445_017<u8>
-Field_7_2_0_23445_018<u8>
-Field_7_2_0_23445_019<u8>[2]
-Field_7_2_0_23445_020<u8>
-Field_7_2_0_23445_021<u8>
+Name_lang
+Description_lang
+ButtonText_lang
+TextureFileDataID<32>
+ItemID<32>
+RewardDescription_lang
+ContinueDescription_lang
+PlayerConditionID<u16>
+LfgDungeonID<u16>
+QuestID<u16>
+BattleMasterListID<u16>
+BonusPlayerConditionID<u16>[2]
+CurrencyType<u16>
+WorldMapAreaID<u16>
+Type<u8>
+Field_7_1_0_22636_014<u8>
+ButtonActionType<u8>
+PriorityMin<u8>
+PriorityMax<u8>
+BonusValue<u8>[2]
+ItemQuantity<u8>
+CurrencyQuantity<u8>
 
 LAYOUT 38F2D2E3
 BUILD 7.2.0.23478
 $noninline,id$ID<32>
-Field_7_2_0_23478_000_lang
-Field_7_2_0_23478_001_lang
-Field_7_2_0_23478_002_lang
-Field_7_2_0_23478_003<32>
-Field_7_2_0_23478_004<32>
-Field_7_2_0_23478_005_lang
-Field_7_2_0_23478_006_lang
-Field_7_2_0_23478_007<u16>
-Field_7_2_0_23478_008<u16>
-Field_7_2_0_23478_009<u16>
-Field_7_2_0_23478_010<u16>
-Field_7_2_0_23478_011<u16>[2]
-Field_7_2_0_23478_012<u16>
-Field_7_2_0_23478_013<u16>
-Field_7_2_0_23478_014<u8>
-Field_7_2_0_23478_015<u8>
-Field_7_2_0_23478_016<u8>
-Field_7_2_0_23478_017<u8>
-Field_7_2_0_23478_018<u8>
-Field_7_2_0_23478_019<u8>[2]
-Field_7_2_0_23478_020<u8>
-Field_7_2_0_23478_021<u8>
+Name_lang
+Description_lang
+ButtonText_lang
+TextureFileDataID<32>
+ItemID<32>
+RewardDescription_lang
+ContinueDescription_lang
+PlayerConditionID<u16>
+LfgDungeonID<u16>
+QuestID<u16>
+BattleMasterListID<u16>
+BonusPlayerConditionID<u16>[2]
+CurrencyType<u16>
+WorldMapAreaID<u16>
+Type<u8>
+Field_7_1_0_22636_014<u8>
+ButtonActionType<u8>
+PriorityMin<u8>
+PriorityMax<u8>
+BonusValue<u8>[2]
+ItemQuantity<u8>
+CurrencyQuantity<u8>
 
 LAYOUT 2199F2A9
 BUILD 7.2.0.23578
 $noninline,id$ID<32>
-Field_7_2_0_23578_000_lang
-Field_7_2_0_23578_001_lang
-Field_7_2_0_23578_002_lang
-Field_7_2_0_23578_003<32>
-Field_7_2_0_23578_004<32>
-Field_7_2_0_23578_005_lang
-Field_7_2_0_23578_006_lang
-Field_7_2_0_23578_007<u16>
-Field_7_2_0_23578_008<u16>
-Field_7_2_0_23578_009<u16>
-Field_7_2_0_23578_010<u16>[2]
-Field_7_2_0_23578_011<u16>
-Field_7_2_0_23578_012<u16>
-Field_7_2_0_23578_013<u8>
-Field_7_2_0_23578_014<u8>
-Field_7_2_0_23578_015<u8>
-Field_7_2_0_23578_016<u8>
-Field_7_2_0_23578_017<u8>
-Field_7_2_0_23578_018<u8>[2]
-Field_7_2_0_23578_019<u8>
-Field_7_2_0_23578_020<u8>
-Field_7_2_0_23578_021<u32>
+Name_lang
+Description_lang
+ButtonText_lang
+TextureFileDataID<32>
+ItemID<32>
+RewardDescription_lang
+ContinueDescription_lang
+LfgDungeonID<u16>
+QuestID<u16>
+BattleMasterListID<u16>
+BonusPlayerConditionID<u16>[2]
+CurrencyType<u16>
+WorldMapAreaID<u16>
+Type<u8>
+Field_7_1_0_22636_014<u8>
+ButtonActionType<u8>
+PriorityMin<u8>
+PriorityMax<u8>
+BonusValue<u8>[2]
+ItemQuantity<u8>
+CurrencyQuantity<u8>
+PlayerConditionID<u32>
 
 LAYOUT 64712E77
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
 BUILD 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.23706, 7.2.0.23708, 7.2.0.23721, 7.2.0.23728, 7.2.0.23746, 7.2.0.23753, 7.2.0.23758, 7.2.0.23780, 7.2.0.23789, 7.2.0.23801, 7.2.0.23810, 7.2.0.23826, 7.2.0.23835, 7.2.0.23836, 7.2.0.23841, 7.2.0.23845, 7.2.0.23846, 7.2.0.23852, 7.2.0.23857, 7.2.0.23874, 7.2.0.23877, 7.2.0.23905, 7.2.0.23911, 7.2.0.24015
 $noninline,id$ID<32>
-Field_7_2_0_23623_000_lang
-Field_7_2_0_23623_001_lang
-Field_7_2_0_23623_002_lang
-Field_7_2_0_23623_003<32>
-Field_7_2_0_23623_004<32>
-Field_7_2_0_23623_005_lang
-Field_7_2_0_23623_006_lang
-Field_7_2_0_23623_007<u16>
-Field_7_2_0_23623_008<u16>
-Field_7_2_0_23623_009<u16>
-Field_7_2_0_23623_010<u16>[2]
-Field_7_2_0_23623_011<u16>
-Field_7_2_0_23623_012<u16>
-Field_7_2_0_23623_013<u8>
-Field_7_2_0_23623_014<u8>
-Field_7_2_0_23623_015<u8>
-Field_7_2_0_23623_016<u8>
-Field_7_2_0_23623_017<u8>
-Field_7_2_0_23623_018<u8>[2]
-Field_7_2_0_23623_019<u8>
-Field_7_2_0_23623_020<u32>
-Field_7_2_0_23623_021<u32>
+Name_lang
+Description_lang
+ButtonText_lang
+TextureFileDataID<32>
+ItemID<32>
+RewardDescription_lang
+ContinueDescription_lang
+LfgDungeonID<u16>
+QuestID<u16>
+BattleMasterListID<u16>
+BonusPlayerConditionID<u16>[2]
+CurrencyType<u16>
+WorldMapAreaID<u16>
+Type<u8>
+Field_7_1_0_22636_014<u8>
+ButtonActionType<u8>
+PriorityMin<u8>
+PriorityMax<u8>
+BonusValue<u8>[2]
+CurrencyQuantity<u8>
+PlayerConditionID<u32>
+ItemQuantity<u32>
 
 LAYOUT F07172ED
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

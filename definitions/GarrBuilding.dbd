@@ -33,78 +33,16 @@ int MaxAssignments
 int ShipmentCapacity
 locstring Tooltip_lang
 int UpgradeLevel
-int Field_7_1_0_22636_000?
-int Field_7_1_0_22636_001?
 string Field_7_1_0_22636_002?
 string Field_7_1_0_22636_003?
 string Field_7_1_0_22636_004?
 string Field_7_1_0_22636_005?
-int Field_7_1_0_22636_006?
-int Field_7_1_0_22636_007?
-int Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-int Field_7_1_0_22636_010?
-int Field_7_1_0_22636_011?
-int Field_7_1_0_22636_012?
-int Field_7_1_0_22636_013?
-int Field_7_1_0_22636_014?
-int Field_7_1_0_22636_015?
-int Field_7_1_0_22636_016?
-int Field_7_1_0_22636_017?
-int Field_7_1_0_22636_018?
-int Field_7_1_0_22636_019?
-int Field_7_1_0_22636_020?
-int Field_7_1_0_22636_021?
-int Field_7_1_0_22636_022?
-int Field_7_1_0_22636_023?
-int Field_7_2_0_23445_000?
-int Field_7_2_0_23445_001?
-locstring Field_7_2_0_23445_002_lang?
-locstring Field_7_2_0_23445_003_lang?
-locstring Field_7_2_0_23445_004_lang?
-locstring Field_7_2_0_23445_005_lang?
-int Field_7_2_0_23445_006?
-int Field_7_2_0_23445_007?
-int Field_7_2_0_23445_008?
-int Field_7_2_0_23445_009?
-int Field_7_2_0_23445_010?
-int Field_7_2_0_23445_011?
-int Field_7_2_0_23445_012?
-int Field_7_2_0_23445_013?
-int Field_7_2_0_23445_014?
-int Field_7_2_0_23445_015?
-int Field_7_2_0_23445_016?
-int Field_7_2_0_23445_017?
-int Field_7_2_0_23445_018?
-int Field_7_2_0_23445_019?
-int Field_7_2_0_23445_020?
-int Field_7_2_0_23445_021?
-int Field_7_2_0_23445_022?
-int Field_7_2_0_23445_023?
-int Field_7_2_0_23478_000?
-int Field_7_2_0_23478_001?
-locstring Field_7_2_0_23478_002_lang?
-locstring Field_7_2_0_23478_003_lang?
-locstring Field_7_2_0_23478_004_lang?
-locstring Field_7_2_0_23478_005_lang?
-int Field_7_2_0_23478_006?
-int Field_7_2_0_23478_007?
-int Field_7_2_0_23478_008?
-int Field_7_2_0_23478_009?
-int Field_7_2_0_23478_010?
-int Field_7_2_0_23478_011?
-int Field_7_2_0_23478_012?
-int Field_7_2_0_23478_013?
-int Field_7_2_0_23478_014?
-int Field_7_2_0_23478_015?
-int Field_7_2_0_23478_016?
-int Field_7_2_0_23478_017?
-int Field_7_2_0_23478_018?
-int Field_7_2_0_23478_019?
-int Field_7_2_0_23478_020?
-int Field_7_2_0_23478_021?
-int Field_7_2_0_23478_022?
-int Field_7_2_0_23478_023?
+int Field_7_1_0_22636_013? // DBAnalyser: [BonusGarrAbilityID, 0,95%], [GarrSiteID, 0,95%], [Field_6_0_1_18179_003, 0,95%], [Field_6_0_1_18179_016, 0,95%]
+int Field_7_1_0_22636_015? // DBAnalyser: [BonusGarrAbilityID, 0,95%], [GarrSiteID, 0,95%], [Field_6_0_1_18179_003, 0,95%], [Field_6_0_1_18179_016, 0,95%]
+int Field_7_2_0_23445_013? // DBAnalyser: [BonusGarrAbilityID, 0,95%], [GarrSiteID, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_015, 0,95%]
+int Field_7_2_0_23445_015? // DBAnalyser: [BonusGarrAbilityID, 0,95%], [GarrSiteID, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_015, 0,95%]
+int Field_7_2_0_23478_013? // DBAnalyser: [BonusGarrAbilityID, 0,95%], [GarrSiteID, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_015, 0,95%]
+int Field_7_2_0_23478_015? // DBAnalyser: [BonusGarrAbilityID, 0,95%], [GarrSiteID, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_015, 0,95%]
 
 LAYOUT 7785BDDC
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -196,87 +134,87 @@ LAYOUT 9CB292DE
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
-Field_7_1_0_22636_000<32>
-Field_7_1_0_22636_001<32>
+HordeGameObjectID<32>
+AllianceGameObjectID<32>
 Field_7_1_0_22636_002
 Field_7_1_0_22636_003
 Field_7_1_0_22636_004
 Field_7_1_0_22636_005
-Field_7_1_0_22636_006<32>
-Field_7_1_0_22636_007<16>
-Field_7_1_0_22636_008<16>
-Field_7_1_0_22636_009<16>
-Field_7_1_0_22636_010<16>
-Field_7_1_0_22636_011<16>
-Field_7_1_0_22636_012<16>
+IconFileDataID<32>
+CurrencyTypeID<16>
+HordeUiTextureKitID<16>
+AllianceUiTextureKitID<16>
+AllianceSceneScriptPackageID<16>
+HordeSceneScriptPackageID<16>
+GarrAbilityID<16>
 Field_7_1_0_22636_013<16>
-Field_7_1_0_22636_014<16>
+GoldCost<16>
 Field_7_1_0_22636_015<8>
-Field_7_1_0_22636_016<8>
-Field_7_1_0_22636_017<8>
-Field_7_1_0_22636_018<8>
-Field_7_1_0_22636_019<8>
-Field_7_1_0_22636_020<8>
-Field_7_1_0_22636_021<32>
-Field_7_1_0_22636_022<32>
-Field_7_1_0_22636_023<32>
+BuildingType<8>
+UpgradeLevel<8>
+Flags<8>
+ShipmentCapacity<8>
+GarrTypeID<8>
+BuildSeconds<32>
+CurrencyQty<32>
+MaxAssignments<32>
 
 LAYOUT 29964736
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
-Field_7_2_0_23445_000<32>
-Field_7_2_0_23445_001<32>
-Field_7_2_0_23445_002_lang
-Field_7_2_0_23445_003_lang
-Field_7_2_0_23445_004_lang
-Field_7_2_0_23445_005_lang
-Field_7_2_0_23445_006<32>
-Field_7_2_0_23445_007<u16>
-Field_7_2_0_23445_008<u16>
-Field_7_2_0_23445_009<u16>
-Field_7_2_0_23445_010<u16>
-Field_7_2_0_23445_011<u16>
-Field_7_2_0_23445_012<u16>
+HordeGameObjectID<32>
+AllianceGameObjectID<32>
+AllianceName_lang
+HordeName_lang
+Description_lang
+Tooltip_lang
+IconFileDataID<32>
+CurrencyTypeID<u16>
+HordeUiTextureKitID<u16>
+AllianceUiTextureKitID<u16>
+AllianceSceneScriptPackageID<u16>
+HordeSceneScriptPackageID<u16>
+GarrAbilityID<u16>
 Field_7_2_0_23445_013<u16>
-Field_7_2_0_23445_014<u16>
+GoldCost<u16>
 Field_7_2_0_23445_015<u8>
-Field_7_2_0_23445_016<u8>
-Field_7_2_0_23445_017<u8>
-Field_7_2_0_23445_018<u8>
-Field_7_2_0_23445_019<u8>
-Field_7_2_0_23445_020<u8>
-Field_7_2_0_23445_021<32>
-Field_7_2_0_23445_022<32>
-Field_7_2_0_23445_023<32>
+BuildingType<u8>
+UpgradeLevel<u8>
+Flags<u8>
+ShipmentCapacity<u8>
+GarrTypeID<u8>
+BuildSeconds<32>
+CurrencyQty<32>
+MaxAssignments<32>
 
 LAYOUT 061062D0
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
 BUILD 7.2.0.23478, 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.23706, 7.2.0.23708, 7.2.0.23721, 7.2.0.23728, 7.2.0.23746, 7.2.0.23753, 7.2.0.23758, 7.2.0.23780, 7.2.0.23789, 7.2.0.23801, 7.2.0.23810, 7.2.0.23826, 7.2.0.23835, 7.2.0.23836, 7.2.0.23841, 7.2.0.23845, 7.2.0.23846, 7.2.0.23852, 7.2.0.23857, 7.2.0.23874, 7.2.0.23877, 7.2.0.23905, 7.2.0.23911, 7.2.0.24015
 $noninline,id$ID<32>
-Field_7_2_0_23478_000<32>
-Field_7_2_0_23478_001<32>
-Field_7_2_0_23478_002_lang
-Field_7_2_0_23478_003_lang
-Field_7_2_0_23478_004_lang
-Field_7_2_0_23478_005_lang
-Field_7_2_0_23478_006<32>
-Field_7_2_0_23478_007<u16>
-Field_7_2_0_23478_008<u16>
-Field_7_2_0_23478_009<u16>
-Field_7_2_0_23478_010<u16>
-Field_7_2_0_23478_011<u16>
-Field_7_2_0_23478_012<u16>
+HordeGameObjectID<32>
+AllianceGameObjectID<32>
+AllianceName_lang
+HordeName_lang
+Description_lang
+Tooltip_lang
+IconFileDataID<32>
+CurrencyTypeID<u16>
+HordeUiTextureKitID<u16>
+AllianceUiTextureKitID<u16>
+AllianceSceneScriptPackageID<u16>
+HordeSceneScriptPackageID<u16>
+GarrAbilityID<u16>
 Field_7_2_0_23478_013<u16>
-Field_7_2_0_23478_014<u16>
+GoldCost<u16>
 Field_7_2_0_23478_015<u8>
-Field_7_2_0_23478_016<u8>
-Field_7_2_0_23478_017<u8>
-Field_7_2_0_23478_018<u8>
-Field_7_2_0_23478_019<u8>
-Field_7_2_0_23478_020<u8>
-Field_7_2_0_23478_021<32>
-Field_7_2_0_23478_022<32>
-Field_7_2_0_23478_023<32>
+BuildingType<u8>
+UpgradeLevel<u8>
+Flags<u8>
+ShipmentCapacity<u8>
+GarrTypeID<u8>
+BuildSeconds<32>
+CurrencyQty<32>
+MaxAssignments<32>
 
 LAYOUT 04EFAE46
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

@@ -23,72 +23,18 @@ int RepairGroundFx
 int DoNotHighlight
 int HealEffect
 int HealEffectSpeed
-int Field_7_1_0_22636_000?
-int Field_7_1_0_22636_001?
-int Field_7_1_0_22636_002?
-int Field_7_1_0_22636_003?
-int Field_7_1_0_22636_004?
-int Field_7_1_0_22636_005?
-int Field_7_1_0_22636_006?
-int Field_7_1_0_22636_007?
-int Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-int Field_7_1_0_22636_010?
-int Field_7_1_0_22636_011?
-int Field_7_1_0_22636_012?
-int Field_7_1_0_22636_013?
-int Field_7_1_0_22636_014?
-int Field_7_1_0_22636_015?
-int Field_7_1_0_22636_016?
-int Field_7_1_0_22636_017?
-int Field_7_1_0_22636_018?
-int Field_7_1_0_22636_019?
-int Field_7_1_0_22636_020?
-int Field_7_1_0_22636_021?
-int Field_7_2_0_23445_000?
-int Field_7_2_0_23445_001?
-int Field_7_2_0_23445_002?
-int Field_7_2_0_23445_003?
-int Field_7_2_0_23445_004?
-int Field_7_2_0_23445_005?
-int Field_7_2_0_23445_006?
-int Field_7_2_0_23445_007?
-int Field_7_2_0_23445_008?
-int Field_7_2_0_23445_009?
-int Field_7_2_0_23445_010?
-int Field_7_2_0_23445_011?
-int Field_7_2_0_23445_012?
-int Field_7_2_0_23445_013?
-int Field_7_2_0_23445_014?
-int Field_7_2_0_23445_015?
-int Field_7_2_0_23445_016?
-int Field_7_2_0_23445_017?
-int Field_7_2_0_23445_018?
-int Field_7_2_0_23445_019?
-int Field_7_2_0_23445_020?
-int Field_7_2_0_23445_021?
-int Field_7_2_0_23478_000?
-int Field_7_2_0_23478_001?
-int Field_7_2_0_23478_002?
-int Field_7_2_0_23478_003?
-int Field_7_2_0_23478_004?
-int Field_7_2_0_23478_005?
-int Field_7_2_0_23478_006?
-int Field_7_2_0_23478_007?
-int Field_7_2_0_23478_008?
-int Field_7_2_0_23478_009?
-int Field_7_2_0_23478_010?
-int Field_7_2_0_23478_011?
-int Field_7_2_0_23478_012?
-int Field_7_2_0_23478_013?
-int Field_7_2_0_23478_014?
-int Field_7_2_0_23478_015?
-int Field_7_2_0_23478_016?
-int Field_7_2_0_23478_017?
-int Field_7_2_0_23478_018?
-int Field_7_2_0_23478_019?
-int Field_7_2_0_23478_020?
-int Field_7_2_0_23478_021?
+int Field_7_1_0_22636_006? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%]
+int Field_7_1_0_22636_011? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%]
+int Field_7_1_0_22636_015? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%]
+int Field_7_1_0_22636_018? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%]
+int Field_7_2_0_23445_006? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%], [Field_7_1_0_22636_006, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_015, 0,95%], [Field_7_1_0_22636_018, 0,95%]
+int Field_7_2_0_23445_011? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%], [Field_7_1_0_22636_006, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_015, 0,95%], [Field_7_1_0_22636_018, 0,95%]
+int Field_7_2_0_23445_015? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%], [Field_7_1_0_22636_006, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_015, 0,95%], [Field_7_1_0_22636_018, 0,95%]
+int Field_7_2_0_23445_018? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%], [Field_7_1_0_22636_006, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_015, 0,95%], [Field_7_1_0_22636_018, 0,95%]
+int Field_7_2_0_23478_006? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%], [Field_7_2_0_23445_006, 0,95%], [Field_7_2_0_23445_011, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_018, 0,95%]
+int Field_7_2_0_23478_011? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%], [Field_7_2_0_23445_006, 0,95%], [Field_7_2_0_23445_011, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_018, 0,95%]
+int Field_7_2_0_23478_015? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%], [Field_7_2_0_23445_006, 0,95%], [Field_7_2_0_23445_011, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_018, 0,95%]
+int Field_7_2_0_23478_018? // DBAnalyser: [State0AmbientDoodadSet, 0,95%], [State1NameSet, 0,95%], [State2NameSet, 0,95%], [State3NameSet, 0,95%], [Field_7_2_0_23445_006, 0,95%], [Field_7_2_0_23445_011, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_018, 0,95%]
 
 LAYOUT 29E344D1
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -282,81 +228,81 @@ LAYOUT 51E17C9F
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
-Field_7_1_0_22636_000<16>
-Field_7_1_0_22636_001<16>
-Field_7_1_0_22636_002<16>
-Field_7_1_0_22636_003<16>
-Field_7_1_0_22636_004<16>
-Field_7_1_0_22636_005<8>
+State0WMO<16>
+State1WMO<16>
+State2WMO<16>
+State3WMO<16>
+HealEffectSpeed<16>
+State0ImpactEffectDoodadSet<8>
 Field_7_1_0_22636_006<8>
-Field_7_1_0_22636_007<8>
-Field_7_1_0_22636_008<8>
-Field_7_1_0_22636_009<8>
-Field_7_1_0_22636_010<8>
+State0NameSet<8>
+State1DestructionDoodadSet<8>
+State1ImpactEffectDoodadSet<8>
+State1AmbientDoodadSet<8>
 Field_7_1_0_22636_011<8>
-Field_7_1_0_22636_012<8>
-Field_7_1_0_22636_013<8>
-Field_7_1_0_22636_014<8>
+State2DestructionDoodadSet<8>
+State2ImpactEffectDoodadSet<8>
+State2AmbientDoodadSet<8>
 Field_7_1_0_22636_015<8>
-Field_7_1_0_22636_016<8>
-Field_7_1_0_22636_017<8>
+State3InitDoodadSet<8>
+State3AmbientDoodadSet<8>
 Field_7_1_0_22636_018<8>
-Field_7_1_0_22636_019<8>
-Field_7_1_0_22636_020<8>
-Field_7_1_0_22636_021<8>
+EjectDirection<8>
+DoNotHighlight<8>
+HealEffect<8>
 
 LAYOUT 851A6F5F
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
-Field_7_2_0_23445_000<u16>
-Field_7_2_0_23445_001<u16>
-Field_7_2_0_23445_002<u16>
-Field_7_2_0_23445_003<u16>
-Field_7_2_0_23445_004<u16>
-Field_7_2_0_23445_005<8>
+State0WMO<u16>
+State1WMO<u16>
+State2WMO<u16>
+State3WMO<u16>
+HealEffectSpeed<u16>
+State0ImpactEffectDoodadSet<8>
 Field_7_2_0_23445_006<u8>
-Field_7_2_0_23445_007<8>
-Field_7_2_0_23445_008<8>
-Field_7_2_0_23445_009<8>
-Field_7_2_0_23445_010<u8>
+State0NameSet<8>
+State1DestructionDoodadSet<8>
+State1ImpactEffectDoodadSet<8>
+State1AmbientDoodadSet<u8>
 Field_7_2_0_23445_011<8>
-Field_7_2_0_23445_012<8>
-Field_7_2_0_23445_013<8>
-Field_7_2_0_23445_014<u8>
+State2DestructionDoodadSet<8>
+State2ImpactEffectDoodadSet<8>
+State2AmbientDoodadSet<u8>
 Field_7_2_0_23445_015<8>
-Field_7_2_0_23445_016<u8>
-Field_7_2_0_23445_017<u8>
+State3InitDoodadSet<u8>
+State3AmbientDoodadSet<u8>
 Field_7_2_0_23445_018<8>
-Field_7_2_0_23445_019<u8>
-Field_7_2_0_23445_020<u8>
-Field_7_2_0_23445_021<u8>
+EjectDirection<u8>
+DoNotHighlight<u8>
+HealEffect<u8>
 
 LAYOUT F08A92F1
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
 BUILD 7.2.0.23478, 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.23706, 7.2.0.23708, 7.2.0.23721, 7.2.0.23728, 7.2.0.23746, 7.2.0.23753, 7.2.0.23758, 7.2.0.23780, 7.2.0.23789, 7.2.0.23801, 7.2.0.23810, 7.2.0.23826, 7.2.0.23835, 7.2.0.23836, 7.2.0.23841, 7.2.0.23845, 7.2.0.23846, 7.2.0.23852, 7.2.0.23857, 7.2.0.23874, 7.2.0.23877, 7.2.0.23905, 7.2.0.23911, 7.2.0.24015
 $noninline,id$ID<32>
-Field_7_2_0_23478_000<u16>
-Field_7_2_0_23478_001<u16>
-Field_7_2_0_23478_002<u16>
-Field_7_2_0_23478_003<u16>
-Field_7_2_0_23478_004<u16>
-Field_7_2_0_23478_005<8>
+State0WMO<u16>
+State1WMO<u16>
+State2WMO<u16>
+State3WMO<u16>
+HealEffectSpeed<u16>
+State0ImpactEffectDoodadSet<8>
 Field_7_2_0_23478_006<u8>
-Field_7_2_0_23478_007<8>
-Field_7_2_0_23478_008<8>
-Field_7_2_0_23478_009<8>
-Field_7_2_0_23478_010<u8>
+State0NameSet<8>
+State1DestructionDoodadSet<8>
+State1ImpactEffectDoodadSet<8>
+State1AmbientDoodadSet<u8>
 Field_7_2_0_23478_011<8>
-Field_7_2_0_23478_012<8>
-Field_7_2_0_23478_013<8>
-Field_7_2_0_23478_014<u8>
+State2DestructionDoodadSet<8>
+State2ImpactEffectDoodadSet<8>
+State2AmbientDoodadSet<u8>
 Field_7_2_0_23478_015<8>
-Field_7_2_0_23478_016<u8>
-Field_7_2_0_23478_017<u8>
+State3InitDoodadSet<u8>
+State3AmbientDoodadSet<u8>
 Field_7_2_0_23478_018<8>
-Field_7_2_0_23478_019<u8>
-Field_7_2_0_23478_020<u8>
-Field_7_2_0_23478_021<u8>
+EjectDirection<u8>
+DoNotHighlight<u8>
+HealEffect<u8>
 
 LAYOUT 1092C9AF
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

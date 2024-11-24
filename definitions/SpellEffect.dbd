@@ -32,30 +32,7 @@ float Variance
 float EffectBasePointsF
 int Field_7_3_2_25549_010?
 int ScalingClass?
-float Field_7_1_0_22636_000?
-float Field_7_1_0_22636_001?
-float Field_7_1_0_22636_002?
-float Field_7_1_0_22636_003?
-float Field_7_1_0_22636_004?
-int Field_7_1_0_22636_005?
-float Field_7_1_0_22636_006?
-float Field_7_1_0_22636_007?
-int Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-int Field_7_1_0_22636_010?
-int Field_7_1_0_22636_011?
-int Field_7_1_0_22636_012?
-int Field_7_1_0_22636_013?
-int Field_7_1_0_22636_014?
-int Field_7_1_0_22636_015?
-int Field_7_1_0_22636_016?
-int Field_7_1_0_22636_017?
-int Field_7_1_0_22636_018?
-int Field_7_1_0_22636_019?
-int Field_7_1_0_22636_020?
-int Field_7_1_0_22636_021?
-int Field_7_1_0_22636_022?
-int Field_7_1_0_22636_023?
+int Field_7_1_0_22636_009? // DBAnalyser: [Field_7_3_2_25549_010, 0,87%], [DifficultyID, 1%]
 int Field_7_1_0_22636_024?
 int Field_7_2_0_23445_000?
 int Field_7_2_0_23445_001?
@@ -68,16 +45,6 @@ int Field_7_2_0_23445_007?
 int Field_7_2_0_23445_008?
 int Field_7_2_0_23445_009?
 int Field_7_2_0_23445_010?
-int Field_7_2_0_23478_000?
-int Field_7_2_0_23478_001?
-int Field_7_2_0_23478_002?
-int Field_7_2_0_23478_003?
-int Field_7_2_0_23478_004?
-int Field_7_2_0_23478_005?
-int Field_7_2_0_23478_006?
-int Field_7_2_0_23478_007?
-int Field_7_2_0_23478_008?
-int Field_7_2_0_23478_009?
 int Field_7_2_0_23478_010?
 
 LAYOUT D6EA6A1A
@@ -362,30 +329,30 @@ BonusCoefficientFromAP
 LAYOUT 16763148
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
-Field_7_1_0_22636_000
-Field_7_1_0_22636_001
-Field_7_1_0_22636_002
-Field_7_1_0_22636_003
-Field_7_1_0_22636_004
-Field_7_1_0_22636_005<32>[4]
-Field_7_1_0_22636_006
-Field_7_1_0_22636_007
-$id$Field_7_1_0_22636_008<32>
+EffectAmplitude
+EffectBonusCoefficient
+EffectChainAmplitude
+BonusCoefficientFromAP
+EffectRealPointsPerLevel
+EffectSpellClassMask<32>[4]
+EffectPos_facing
+EffectPointsPerResource
+$id$ID<32>
 Field_7_1_0_22636_009<32>
-Field_7_1_0_22636_010<32>
-Field_7_1_0_22636_011<32>
-Field_7_1_0_22636_012<32>
-Field_7_1_0_22636_013<32>
-Field_7_1_0_22636_014<32>
-Field_7_1_0_22636_015<32>
-Field_7_1_0_22636_016<32>
-Field_7_1_0_22636_017<32>
-Field_7_1_0_22636_018<32>[2]
-Field_7_1_0_22636_019<32>[2]
-Field_7_1_0_22636_020<32>
-Field_7_1_0_22636_021<32>[2]
-Field_7_1_0_22636_022<32>
-Field_7_1_0_22636_023<32>
+Effect<32>
+EffectAura<32>
+EffectAuraPeriod<32>
+EffectBasePoints<32>
+EffectChainTargets<32>
+EffectAttributes<32>
+EffectItemType<32>
+EffectMechanic<32>
+EffectMiscValue<32>[2]
+EffectRadiusIndex<32>[2]
+EffectTriggerSpell<32>
+ImplicitTarget<32>[2]
+SpellID<32>
+EffectIndex<32>
 Field_7_1_0_22636_024<32>
 
 LAYOUT 1986B88F
@@ -405,16 +372,16 @@ $noninline,relation$Field_7_2_0_23445_010<64>[64]
 LAYOUT D6D07FDD
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
 BUILD 7.2.0.23478, 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.23706, 7.2.0.23708, 7.2.0.23721, 7.2.0.23728, 7.2.0.23746, 7.2.0.23753, 7.2.0.23758, 7.2.0.23780, 7.2.0.23789, 7.2.0.23801, 7.2.0.23810, 7.2.0.23826, 7.2.0.23835, 7.2.0.23836, 7.2.0.23841, 7.2.0.23845, 7.2.0.23846, 7.2.0.23852, 7.2.0.23857, 7.2.0.23874, 7.2.0.23877, 7.2.0.23905, 7.2.0.23911, 7.2.0.24015
-Field_7_2_0_23478_000<32>[4]
-$id$Field_7_2_0_23478_001<32>
-Field_7_2_0_23478_002<32>
-Field_7_2_0_23478_003<u32>
-Field_7_2_0_23478_004<32>
-Field_7_2_0_23478_005<32>
-Field_7_2_0_23478_006<32>
-Field_7_2_0_23478_007<32>[2]
-Field_7_2_0_23478_008<u32>[2]
-Field_7_2_0_23478_009<u32>[2]
+EffectSpellClassMask<32>[4]
+$id$ID<32>
+SpellID<32>
+Effect<u32>
+EffectAura<32>
+EffectBasePoints<32>
+EffectIndex<32>
+EffectMiscValue<32>[2]
+EffectRadiusIndex<u32>[2]
+ImplicitTarget<u32>[2]
 $noninline,relation$Field_7_2_0_23478_010<64>[64]
 
 LAYOUT CE7E4237

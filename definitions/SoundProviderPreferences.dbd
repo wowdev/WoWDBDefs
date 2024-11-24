@@ -25,75 +25,6 @@ float EAX3HFReference
 float EAX3LFReference
 float EAXEffectVolume
 float EAXDamping
-string Field_7_1_0_22636_000?
-float Field_7_1_0_22636_001?
-float Field_7_1_0_22636_002?
-float Field_7_1_0_22636_003?
-float Field_7_1_0_22636_004?
-float Field_7_1_0_22636_005?
-float Field_7_1_0_22636_006?
-float Field_7_1_0_22636_007?
-float Field_7_1_0_22636_008?
-float Field_7_1_0_22636_009?
-float Field_7_1_0_22636_010?
-float Field_7_1_0_22636_011?
-float Field_7_1_0_22636_012?
-float Field_7_1_0_22636_013?
-float Field_7_1_0_22636_014?
-float Field_7_1_0_22636_015?
-int Field_7_1_0_22636_016?
-int Field_7_1_0_22636_017?
-int Field_7_1_0_22636_018?
-int Field_7_1_0_22636_019?
-int Field_7_1_0_22636_020?
-int Field_7_1_0_22636_021?
-int Field_7_1_0_22636_022?
-string Field_7_2_0_23445_000?
-float Field_7_2_0_23445_001?
-float Field_7_2_0_23445_002?
-float Field_7_2_0_23445_003?
-float Field_7_2_0_23445_004?
-float Field_7_2_0_23445_005?
-float Field_7_2_0_23445_006?
-float Field_7_2_0_23445_007?
-float Field_7_2_0_23445_008?
-float Field_7_2_0_23445_009?
-float Field_7_2_0_23445_010?
-float Field_7_2_0_23445_011?
-float Field_7_2_0_23445_012?
-float Field_7_2_0_23445_013?
-float Field_7_2_0_23445_014?
-float Field_7_2_0_23445_015?
-int Field_7_2_0_23445_016?
-int Field_7_2_0_23445_017?
-int Field_7_2_0_23445_018?
-int Field_7_2_0_23445_019?
-int Field_7_2_0_23445_020?
-int Field_7_2_0_23445_021?
-int Field_7_2_0_23445_022?
-string Field_7_2_0_23478_000?
-float Field_7_2_0_23478_001?
-float Field_7_2_0_23478_002?
-float Field_7_2_0_23478_003?
-float Field_7_2_0_23478_004?
-float Field_7_2_0_23478_005?
-float Field_7_2_0_23478_006?
-float Field_7_2_0_23478_007?
-float Field_7_2_0_23478_008?
-float Field_7_2_0_23478_009?
-float Field_7_2_0_23478_010?
-float Field_7_2_0_23478_011?
-float Field_7_2_0_23478_012?
-float Field_7_2_0_23478_013?
-float Field_7_2_0_23478_014?
-float Field_7_2_0_23478_015?
-int Field_7_2_0_23478_016?
-int Field_7_2_0_23478_017?
-int Field_7_2_0_23478_018?
-int Field_7_2_0_23478_019?
-int Field_7_2_0_23478_020?
-int Field_7_2_0_23478_021?
-int Field_7_2_0_23478_022?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -189,84 +120,84 @@ LAYOUT 280B4DCE
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
-Field_7_1_0_22636_000
-Field_7_1_0_22636_001
-Field_7_1_0_22636_002
-Field_7_1_0_22636_003
-Field_7_1_0_22636_004
-Field_7_1_0_22636_005
-Field_7_1_0_22636_006
-Field_7_1_0_22636_007
-Field_7_1_0_22636_008
-Field_7_1_0_22636_009
-Field_7_1_0_22636_010
-Field_7_1_0_22636_011
-Field_7_1_0_22636_012
-Field_7_1_0_22636_013
-Field_7_1_0_22636_014
-Field_7_1_0_22636_015
-Field_7_1_0_22636_016<16>
-Field_7_1_0_22636_017<16>
-Field_7_1_0_22636_018<16>
-Field_7_1_0_22636_019<16>
-Field_7_1_0_22636_020<16>
-Field_7_1_0_22636_021<8>
-Field_7_1_0_22636_022<8>
+Description
+EAXDecayTime
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2DecayHFRatio
+EAX2ReflectionsDelay
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference
+Flags<16>
+EAX2Room<16>
+EAX2RoomHF<16>
+EAX2Reflections<16>
+EAX2Reverb<16>
+EAXEnvironmentSelection<8>
+EAX3RoomLF<8>
 
 LAYOUT CCD78450
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
-Field_7_2_0_23445_000
-Field_7_2_0_23445_001
-Field_7_2_0_23445_002
-Field_7_2_0_23445_003
-Field_7_2_0_23445_004
-Field_7_2_0_23445_005
-Field_7_2_0_23445_006
-Field_7_2_0_23445_007
-Field_7_2_0_23445_008
-Field_7_2_0_23445_009
-Field_7_2_0_23445_010
-Field_7_2_0_23445_011
-Field_7_2_0_23445_012
-Field_7_2_0_23445_013
-Field_7_2_0_23445_014
-Field_7_2_0_23445_015
-Field_7_2_0_23445_016<u16>
-Field_7_2_0_23445_017<16>
-Field_7_2_0_23445_018<16>
-Field_7_2_0_23445_019<16>
-Field_7_2_0_23445_020<16>
-Field_7_2_0_23445_021<8>
-Field_7_2_0_23445_022<8>
+Description
+EAXDecayTime
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2DecayHFRatio
+EAX2ReflectionsDelay
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference
+Flags<u16>
+EAX2Room<16>
+EAX2RoomHF<16>
+EAX2Reflections<16>
+EAX2Reverb<16>
+EAXEnvironmentSelection<8>
+EAX3RoomLF<8>
 
 LAYOUT 67B76B4D
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
 BUILD 7.2.0.23478, 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.23706, 7.2.0.23708, 7.2.0.23721, 7.2.0.23728, 7.2.0.23746, 7.2.0.23753, 7.2.0.23758, 7.2.0.23780, 7.2.0.23789, 7.2.0.23801, 7.2.0.23810, 7.2.0.23826, 7.2.0.23835, 7.2.0.23836, 7.2.0.23841, 7.2.0.23845, 7.2.0.23846, 7.2.0.23852, 7.2.0.23857, 7.2.0.23874, 7.2.0.23877, 7.2.0.23905, 7.2.0.23911, 7.2.0.24015
 $noninline,id$ID<32>
-Field_7_2_0_23478_000
-Field_7_2_0_23478_001
-Field_7_2_0_23478_002
-Field_7_2_0_23478_003
-Field_7_2_0_23478_004
-Field_7_2_0_23478_005
-Field_7_2_0_23478_006
-Field_7_2_0_23478_007
-Field_7_2_0_23478_008
-Field_7_2_0_23478_009
-Field_7_2_0_23478_010
-Field_7_2_0_23478_011
-Field_7_2_0_23478_012
-Field_7_2_0_23478_013
-Field_7_2_0_23478_014
-Field_7_2_0_23478_015
-Field_7_2_0_23478_016<u16>
-Field_7_2_0_23478_017<16>
-Field_7_2_0_23478_018<16>
-Field_7_2_0_23478_019<16>
-Field_7_2_0_23478_020<16>
-Field_7_2_0_23478_021<8>
-Field_7_2_0_23478_022<8>
+Description
+EAXDecayTime
+EAX2EnvironmentSize
+EAX2EnvironmentDiffusion
+EAX2DecayHFRatio
+EAX2ReflectionsDelay
+EAX2ReverbDelay
+EAX2RoomRolloff
+EAX2AirAbsorption
+EAX3DecayLFRatio
+EAX3EchoTime
+EAX3EchoDepth
+EAX3ModulationTime
+EAX3ModulationDepth
+EAX3HFReference
+EAX3LFReference
+Flags<u16>
+EAX2Room<16>
+EAX2RoomHF<16>
+EAX2Reflections<16>
+EAX2Reverb<16>
+EAXEnvironmentSelection<8>
+EAX3RoomLF<8>
 
 LAYOUT 85F218A4
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

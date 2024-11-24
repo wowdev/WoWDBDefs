@@ -79,105 +79,14 @@ int<ChrRaces::ID> HelmetAnimScalingRaceID?
 float Field_9_1_0_38312_030?
 float Field_9_1_0_38312_031?
 int Field_10_0_0_44649_045? // 1 for dragonriding races
-int Field_7_1_0_22636_000?
-string Field_7_1_0_22636_001?
-string Field_7_1_0_22636_002?
 string Field_7_1_0_22636_003?
 string Field_7_1_0_22636_004?
 string Field_7_1_0_22636_005?
-string Field_7_1_0_22636_006?
-string Field_7_1_0_22636_007?
-int Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-float Field_7_1_0_22636_010?
-float Field_7_1_0_22636_011?
-int Field_7_1_0_22636_012?
-int Field_7_1_0_22636_013?
-int Field_7_1_0_22636_014?
-int Field_7_1_0_22636_015?
-int Field_7_1_0_22636_016?
-int Field_7_1_0_22636_017?
-int Field_7_1_0_22636_018?
-int Field_7_1_0_22636_019?
-int Field_7_1_0_22636_020?
-int Field_7_1_0_22636_021?
-int Field_7_1_0_22636_022?
-int Field_7_1_0_22636_023?
-int Field_7_1_0_22636_024?
-int Field_7_1_0_22636_025?
-int Field_7_1_0_22636_026?
-int Field_7_1_0_22636_027?
-int Field_7_1_0_22636_028?
-int Field_7_1_0_22636_029?
-int Field_7_1_0_22636_030?
-int Field_7_1_0_22636_031?
-int Field_7_1_0_22636_032?
-int Field_7_1_0_22636_033?
-int Field_7_1_0_22636_034?
-int Field_7_2_0_23445_000?
-string Field_7_2_0_23445_001?
-string Field_7_2_0_23445_002?
-locstring Field_7_2_0_23445_003_lang?
-locstring Field_7_2_0_23445_004_lang?
-locstring Field_7_2_0_23445_005_lang?
-string Field_7_2_0_23445_006?
-string Field_7_2_0_23445_007?
-int Field_7_2_0_23445_008?
-int Field_7_2_0_23445_009?
-float Field_7_2_0_23445_010?
-float Field_7_2_0_23445_011?
-int Field_7_2_0_23445_012?
-int Field_7_2_0_23445_013?
-int Field_7_2_0_23445_014?
-int Field_7_2_0_23445_015?
-int Field_7_2_0_23445_016?
-int Field_7_2_0_23445_017?
-int Field_7_2_0_23445_018?
-int Field_7_2_0_23445_019?
-int Field_7_2_0_23445_020?
-int Field_7_2_0_23445_021?
-int Field_7_2_0_23445_022?
-int Field_7_2_0_23445_023?
-int Field_7_2_0_23445_024?
-int Field_7_2_0_23445_025?
-int Field_7_2_0_23445_026?
-int Field_7_2_0_23445_027?
-int Field_7_2_0_23445_028?
-int Field_7_2_0_23445_029?
-int Field_7_2_0_23445_030?
-int Field_7_2_0_23445_031?
-int Field_7_2_0_23478_000?
-string Field_7_2_0_23478_001?
-string Field_7_2_0_23478_002?
-locstring Field_7_2_0_23478_003_lang?
-locstring Field_7_2_0_23478_004_lang?
-locstring Field_7_2_0_23478_005_lang?
-string Field_7_2_0_23478_006?
-string Field_7_2_0_23478_007?
-int Field_7_2_0_23478_008?
-int Field_7_2_0_23478_009?
-float Field_7_2_0_23478_010?
-float Field_7_2_0_23478_011?
-int Field_7_2_0_23478_012?
-int Field_7_2_0_23478_013?
-int Field_7_2_0_23478_014?
-int Field_7_2_0_23478_015?
-int Field_7_2_0_23478_016?
-int Field_7_2_0_23478_017?
-int Field_7_2_0_23478_018?
-int Field_7_2_0_23478_019?
-int Field_7_2_0_23478_020?
-int Field_7_2_0_23478_021?
-int Field_7_2_0_23478_022?
-int Field_7_2_0_23478_023?
-int Field_7_2_0_23478_024?
-int Field_7_2_0_23478_025?
-int Field_7_2_0_23478_026?
-int Field_7_2_0_23478_027?
-int Field_7_2_0_23478_028?
-int Field_7_2_0_23478_029?
-int Field_7_2_0_23478_030?
-int Field_7_2_0_23478_031?
+int Field_7_1_0_22636_034? // DBAnalyser: [AlteredFormStartVisualKitID, 0,92%], [AlteredFormFinishVisualKitID, 0,92%]
+locstring Field_7_2_0_23445_004_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_lowercase_lang, 1%]
+locstring Field_7_2_0_23445_005_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_lowercase_lang, 1%]
+locstring Field_7_2_0_23478_004_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_lowercase_lang, 1%], [Field_7_2_0_23445_004_lang, 1%], [Field_7_2_0_23445_005_lang, 1%]
+locstring Field_7_2_0_23478_005_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_lowercase_lang, 1%], [Field_7_2_0_23445_004_lang, 1%], [Field_7_2_0_23445_005_lang, 1%]
 string Field_7_3_5_25607_000?
 string Field_7_3_5_25607_001?
 locstring Field_7_3_5_25607_002_lang?
@@ -897,114 +806,114 @@ LAYOUT A3A7EAC0
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
-Field_7_1_0_22636_000<32>
-Field_7_1_0_22636_001
-Field_7_1_0_22636_002
+Flags<32>
+ClientPrefix
+ClientFileString
 Field_7_1_0_22636_003
 Field_7_1_0_22636_004
 Field_7_1_0_22636_005
-Field_7_1_0_22636_006[2]
-Field_7_1_0_22636_007
-Field_7_1_0_22636_008<32>
-Field_7_1_0_22636_009<32>
-Field_7_1_0_22636_010[3]
-Field_7_1_0_22636_011[3]
-Field_7_1_0_22636_012<32>
-Field_7_1_0_22636_013<16>
-Field_7_1_0_22636_014<16>
-Field_7_1_0_22636_015<16>
-Field_7_1_0_22636_016<16>
-Field_7_1_0_22636_017<16>
-Field_7_1_0_22636_018<16>
-Field_7_1_0_22636_019<16>
-Field_7_1_0_22636_020<16>
-Field_7_1_0_22636_021<16>
-Field_7_1_0_22636_022<8>
-Field_7_1_0_22636_023<8>
-Field_7_1_0_22636_024<8>
-Field_7_1_0_22636_025<8>
-Field_7_1_0_22636_026<8>
-Field_7_1_0_22636_027<8>
-Field_7_1_0_22636_028<8>
-Field_7_1_0_22636_029<8>
-Field_7_1_0_22636_030<8>
-Field_7_1_0_22636_031<8>
-Field_7_1_0_22636_032<32>
-Field_7_1_0_22636_033<32>
+FacialHairCustomization[2]
+HairCustomization
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+FactionID<16>
+ExplorationSoundID<16>
+MaleDisplayID<16>
+FemaleDisplayID<16>
+ResSicknessSpellID<16>
+SplashSoundID<16>
+CinematicSequenceID<16>
+UaMaleCreatureSoundDataID<16>
+UaFemaleCreatureSoundDataID<16>
+BaseLanguage<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+DisplayRaceID<8>
+CharComponentTexLayoutHiResID<8>
+HighResMaleDisplayID<32>
+HighResFemaleDisplayID<32>
 Field_7_1_0_22636_034<32>[3]
 
 LAYOUT 349A6AD3
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
-Field_7_2_0_23445_000<32>
-Field_7_2_0_23445_001
-Field_7_2_0_23445_002
-Field_7_2_0_23445_003_lang
+Flags<32>
+ClientPrefix
+ClientFileString
+Name_lang
 Field_7_2_0_23445_004_lang
 Field_7_2_0_23445_005_lang
-Field_7_2_0_23445_006[2]
-Field_7_2_0_23445_007
-Field_7_2_0_23445_008<32>
-Field_7_2_0_23445_009<32>
-Field_7_2_0_23445_010[3]
-Field_7_2_0_23445_011[3]
-Field_7_2_0_23445_012<32>
-Field_7_2_0_23445_013<16>
-Field_7_2_0_23445_014<u16>
-Field_7_2_0_23445_015<u16>
-Field_7_2_0_23445_016<16>
-Field_7_2_0_23445_017<16>
-Field_7_2_0_23445_018<16>
-Field_7_2_0_23445_019<8>
-Field_7_2_0_23445_020<8>
-Field_7_2_0_23445_021<8>
-Field_7_2_0_23445_022<8>
-Field_7_2_0_23445_023<8>
-Field_7_2_0_23445_024<8>
-Field_7_2_0_23445_025<8>
-Field_7_2_0_23445_026<8>
-Field_7_2_0_23445_027<8>
-Field_7_2_0_23445_028<8>
-Field_7_2_0_23445_029<u32>
-Field_7_2_0_23445_030<u32>
-Field_7_2_0_23445_031<u32>[3]
+FacialHairCustomization[2]
+HairCustomization
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+FactionID<16>
+MaleDisplayID<u16>
+FemaleDisplayID<u16>
+ResSicknessSpellID<16>
+SplashSoundID<16>
+CinematicSequenceID<16>
+BaseLanguage<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+DisplayRaceID<8>
+CharComponentTexLayoutHiResID<8>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
+Field_7_1_0_22636_034<u32>[3]
 
 LAYOUT 7D66CD5D
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
 BUILD 7.2.0.23478, 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.23706, 7.2.0.23708, 7.2.0.23721, 7.2.0.23728, 7.2.0.23746, 7.2.0.23753, 7.2.0.23758, 7.2.0.23780, 7.2.0.23789, 7.2.0.23801, 7.2.0.23810, 7.2.0.23826, 7.2.0.23835, 7.2.0.23836, 7.2.0.23841, 7.2.0.23845, 7.2.0.23846, 7.2.0.23852, 7.2.0.23857, 7.2.0.23874, 7.2.0.23877, 7.2.0.23905, 7.2.0.23911, 7.2.0.24015
 $noninline,id$ID<32>
-Field_7_2_0_23478_000<32>
-Field_7_2_0_23478_001
-Field_7_2_0_23478_002
-Field_7_2_0_23478_003_lang
+Flags<32>
+ClientPrefix
+ClientFileString
+Name_lang
 Field_7_2_0_23478_004_lang
 Field_7_2_0_23478_005_lang
-Field_7_2_0_23478_006[2]
-Field_7_2_0_23478_007
-Field_7_2_0_23478_008<32>
-Field_7_2_0_23478_009<32>
-Field_7_2_0_23478_010[3]
-Field_7_2_0_23478_011[3]
-Field_7_2_0_23478_012<32>
-Field_7_2_0_23478_013<16>
-Field_7_2_0_23478_014<u16>
-Field_7_2_0_23478_015<u16>
-Field_7_2_0_23478_016<16>
-Field_7_2_0_23478_017<16>
-Field_7_2_0_23478_018<16>
-Field_7_2_0_23478_019<8>
-Field_7_2_0_23478_020<8>
-Field_7_2_0_23478_021<8>
-Field_7_2_0_23478_022<8>
-Field_7_2_0_23478_023<8>
-Field_7_2_0_23478_024<8>
-Field_7_2_0_23478_025<8>
-Field_7_2_0_23478_026<8>
-Field_7_2_0_23478_027<8>
-Field_7_2_0_23478_028<8>
-Field_7_2_0_23478_029<u32>
-Field_7_2_0_23478_030<u32>
-Field_7_2_0_23478_031<u32>[3]
+FacialHairCustomization[2]
+HairCustomization
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+FactionID<16>
+MaleDisplayID<u16>
+FemaleDisplayID<u16>
+ResSicknessSpellID<16>
+SplashSoundID<16>
+CinematicSequenceID<16>
+BaseLanguage<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+DisplayRaceID<8>
+CharComponentTexLayoutHiResID<8>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
+Field_7_1_0_22636_034<u32>[3]
 
 LAYOUT 608397F0
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

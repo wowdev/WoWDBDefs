@@ -41,26 +41,13 @@ int<ConditionalCreatureModelData::ID> ConditionalCreatureModelID?
 float MountMaxBankingAngle?
 int Field_11_0_0_54210_026?
 int Field_1_15_4_56400_024?
-int Field_7_1_0_22636_000?
-float Field_7_1_0_22636_001?
 float Field_7_1_0_22636_002?
-int Field_7_1_0_22636_003?
-string Field_7_1_0_22636_004?
-int Field_7_1_0_22636_005?
-int Field_7_1_0_22636_006?
-int Field_7_1_0_22636_007?
+int Field_7_1_0_22636_005? // DBAnalyser: [PortraitTextureFileDataID, 0,96%]
+int Field_7_1_0_22636_007? // DBAnalyser: [PortraitTextureFileDataID, 0,94%]
 float Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-int Field_7_1_0_22636_010?
-int Field_7_1_0_22636_011?
-int Field_7_1_0_22636_012?
-int Field_7_1_0_22636_013?
-int Field_7_1_0_22636_014?
-int Field_7_1_0_22636_015?
-int Field_7_1_0_22636_016?
-int Field_7_1_0_22636_017?
-int Field_7_1_0_22636_018?
-int Field_7_1_0_22636_019?
+int Field_7_1_0_22636_013? // DBAnalyser: [PortraitTextureFileDataID, 0,94%]
+int Field_7_1_0_22636_014? // DBAnalyser: [PortraitTextureFileDataID, 0,95%]
+int Field_7_1_0_22636_015? // DBAnalyser: [Field_7_3_2_25549_010, 0,01%]
 int Field_7_1_0_22636_020?
 int Field_7_2_0_23445_000?
 int Field_7_2_0_23445_001?
@@ -423,26 +410,26 @@ LAYOUT ABD08A04
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
-Field_7_1_0_22636_000<32>
-Field_7_1_0_22636_001
+ExtendedDisplayInfoID<32>
+CreatureModelScale
 Field_7_1_0_22636_002
-Field_7_1_0_22636_003<32>[3]
-Field_7_1_0_22636_004
+TextureVariationFileDataID<32>[3]
+PortraitTextureName
 Field_7_1_0_22636_005<32>
-Field_7_1_0_22636_006<32>
+CreatureGeosetData<32>
 Field_7_1_0_22636_007<32>
 Field_7_1_0_22636_008
-Field_7_1_0_22636_009<16>
-Field_7_1_0_22636_010<16>
-Field_7_1_0_22636_011<16>
-Field_7_1_0_22636_012<16>
+ModelID<16>
+SoundID<16>
+NPCSoundID<16>
+ParticleColorID<16>
 Field_7_1_0_22636_013<16>
 Field_7_1_0_22636_014<16>
 Field_7_1_0_22636_015<8>
-Field_7_1_0_22636_016<8>
-Field_7_1_0_22636_017<8>
-Field_7_1_0_22636_018<8>
-Field_7_1_0_22636_019<8>
+SizeClass<8>
+BloodID<8>
+Flags<8>
+Gender<8>
 Field_7_1_0_22636_020<8>
 
 LAYOUT 8CC0D867

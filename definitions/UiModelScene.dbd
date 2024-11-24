@@ -3,10 +3,6 @@ int ID
 int Flags // 0x1: SheatheWeapon, 0x2: HideWeapon, 0x4: Autodress
 int UiSystemType // C_ModelInfo.ModelSceneType: 0: MountJournal, 1: PetJournalCard, 2: ShopCard, 3: EncounterJournal, 4: PetJournalLoadout, 5: ArtifactTier2, 6: ArtifactTier2ForgingScene, 7: ArtifactTier2SlamEffect, 8: CommentatorVictoryFanfare, 9: ArtifactRelicTalentEffect, 10: PvpWarModeOrb, 11: PvpWarModeFire, 12: PartyPose, 13: AzeriteItemLevelUpToast, 14: AzeritePowers, 15: AzeriteRewardGlow, 16: HeartOfAzeroth, 17: WorldMapThreat
 int Context // -1: None, 0: PerksProgram
-int Field_7_2_0_23445_000?
-int Field_7_2_0_23445_001?
-int Field_7_2_0_23478_000?
-int Field_7_2_0_23478_001?
 
 LAYOUT D35977BB
 BUILD 4.4.1.56464, 4.4.1.56574, 4.4.1.56859, 4.4.1.56961, 4.4.1.57103, 4.4.1.57141, 4.4.1.57294, 4.4.1.57359, 4.4.1.57564
@@ -20,15 +16,15 @@ Flags<u8>
 LAYOUT D337BFDA
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
-Field_7_2_0_23445_000<8>
-Field_7_2_0_23445_001<u8>
+UiSystemType<8>
+Flags<u8>
 
 LAYOUT 2B5C21A2
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
 BUILD 7.2.0.23478, 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.23706, 7.2.0.23708, 7.2.0.23721, 7.2.0.23728, 7.2.0.23746, 7.2.0.23753, 7.2.0.23758, 7.2.0.23780, 7.2.0.23789, 7.2.0.23801, 7.2.0.23810, 7.2.0.23826, 7.2.0.23835, 7.2.0.23836, 7.2.0.23841, 7.2.0.23845, 7.2.0.23846, 7.2.0.23852, 7.2.0.23857, 7.2.0.23874, 7.2.0.23877, 7.2.0.23905, 7.2.0.23911, 7.2.0.24015
 $noninline,id$ID<32>
-Field_7_2_0_23478_000<8>
-Field_7_2_0_23478_001<u8>
+UiSystemType<8>
+Flags<u8>
 
 LAYOUT A7D62B8A, 0B9EFECA, A24757C0
 BUILD 10.0.0.43342

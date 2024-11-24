@@ -17,45 +17,7 @@ int MapPointX
 int MapPointY
 int<UiMapArt::ID> UiMapArtID
 int Field_7_3_2_25549_012?
-string Field_7_1_0_22636_000?
-int Field_7_1_0_22636_001?
-int Field_7_1_0_22636_002?
-int Field_7_1_0_22636_003?
-int Field_7_1_0_22636_004?
-int Field_7_1_0_22636_005?
-int Field_7_1_0_22636_006?
-int Field_7_1_0_22636_007?
-int Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-int Field_7_1_0_22636_010?
-int Field_7_1_0_22636_011?
 int Field_7_1_0_22636_012?
-string Field_7_2_0_23445_000?
-int Field_7_2_0_23445_001?
-int Field_7_2_0_23445_002?
-int Field_7_2_0_23445_003?
-int Field_7_2_0_23445_004?
-int Field_7_2_0_23445_005?
-int Field_7_2_0_23445_006?
-int Field_7_2_0_23445_007?
-int Field_7_2_0_23445_008?
-int Field_7_2_0_23445_009?
-int Field_7_2_0_23445_010?
-int Field_7_2_0_23445_011?
-int Field_7_2_0_23445_012?
-string Field_7_2_0_23478_000?
-int Field_7_2_0_23478_001?
-int Field_7_2_0_23478_002?
-int Field_7_2_0_23478_003?
-int Field_7_2_0_23478_004?
-int Field_7_2_0_23478_005?
-int Field_7_2_0_23478_006?
-int Field_7_2_0_23478_007?
-int Field_7_2_0_23478_008?
-int Field_7_2_0_23478_009?
-int Field_7_2_0_23478_010?
-int Field_7_2_0_23478_011?
-int Field_7_2_0_23478_012?
 int Field_7_2_0_23578_000?
 string Field_7_2_0_23578_001?
 int Field_7_2_0_23578_002?
@@ -181,53 +143,53 @@ LAYOUT 093857A3
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
-Field_7_1_0_22636_000
-Field_7_1_0_22636_001<16>
-Field_7_1_0_22636_002<16>
-Field_7_1_0_22636_003<32>
-Field_7_1_0_22636_004<32>[4]
-Field_7_1_0_22636_005<32>
-Field_7_1_0_22636_006<32>
-Field_7_1_0_22636_007<32>
-Field_7_1_0_22636_008<32>
-Field_7_1_0_22636_009<32>
-Field_7_1_0_22636_010<32>
-Field_7_1_0_22636_011<32>
+TextureName
+TextureWidth<16>
+TextureHeight<16>
+MapAreaID<32>
+AreaID<32>[4]
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectLeft<32>
+HitRectBottom<32>
+HitRectRight<32>
+PlayerConditionID<32>
 Field_7_1_0_22636_012<32>
 
 LAYOUT 298D5381
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
-Field_7_2_0_23445_000
-Field_7_2_0_23445_001<u16>
-Field_7_2_0_23445_002<u16>
-Field_7_2_0_23445_003<u32>
-Field_7_2_0_23445_004<u32>[4]
-Field_7_2_0_23445_005<32>
-Field_7_2_0_23445_006<32>
-Field_7_2_0_23445_007<32>
-Field_7_2_0_23445_008<32>
-Field_7_2_0_23445_009<32>
-Field_7_2_0_23445_010<32>
-Field_7_2_0_23445_011<u32>
-Field_7_2_0_23445_012<u32>
+TextureName
+TextureWidth<u16>
+TextureHeight<u16>
+MapAreaID<u32>
+AreaID<u32>[4]
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectLeft<32>
+HitRectBottom<32>
+HitRectRight<32>
+PlayerConditionID<u32>
+Field_7_1_0_22636_012<u32>
 
 LAYOUT 6C936D10
 BUILD 7.2.0.23478
 $noninline,id$ID<32>
-Field_7_2_0_23478_000
-Field_7_2_0_23478_001<u16>
-Field_7_2_0_23478_002<u16>
-Field_7_2_0_23478_003<u32>
-Field_7_2_0_23478_004<u32>[4]
-Field_7_2_0_23478_005<32>
-Field_7_2_0_23478_006<32>
-Field_7_2_0_23478_007<32>
-Field_7_2_0_23478_008<32>
-Field_7_2_0_23478_009<32>
-Field_7_2_0_23478_010<32>
-Field_7_2_0_23478_011<u32>
-Field_7_2_0_23478_012<u32>
+TextureName
+TextureWidth<u16>
+TextureHeight<u16>
+MapAreaID<u32>
+AreaID<u32>[4]
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectLeft<32>
+HitRectBottom<32>
+HitRectRight<32>
+PlayerConditionID<u32>
+Field_7_1_0_22636_012<u32>
 
 LAYOUT 0A93D579
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937

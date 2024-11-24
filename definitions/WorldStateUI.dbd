@@ -19,54 +19,15 @@ int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
-string Field_7_1_0_22636_000?
-string Field_7_1_0_22636_001?
-string Field_7_1_0_22636_002?
 string Field_7_1_0_22636_003?
 string Field_7_1_0_22636_004?
 string Field_7_1_0_22636_005?
-int Field_7_1_0_22636_006?
-int Field_7_1_0_22636_007?
-int Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-int Field_7_1_0_22636_010?
-int Field_7_1_0_22636_011?
-int Field_7_1_0_22636_012?
-int Field_7_1_0_22636_013?
-int Field_7_1_0_22636_014?
-int Field_7_1_0_22636_015?
-string Field_7_2_0_23445_000?
-string Field_7_2_0_23445_001?
-string Field_7_2_0_23445_002?
-locstring Field_7_2_0_23445_003_lang?
-locstring Field_7_2_0_23445_004_lang?
-locstring Field_7_2_0_23445_005_lang?
-int Field_7_2_0_23445_006?
-int Field_7_2_0_23445_007?
-int Field_7_2_0_23445_008?
-int Field_7_2_0_23445_009?
-int Field_7_2_0_23445_010?
-int Field_7_2_0_23445_011?
-int Field_7_2_0_23445_012?
-int Field_7_2_0_23445_013?
-int Field_7_2_0_23445_014?
-int Field_7_2_0_23445_015?
-string Field_7_2_0_23478_000?
-string Field_7_2_0_23478_001?
-string Field_7_2_0_23478_002?
-locstring Field_7_2_0_23478_003_lang?
-locstring Field_7_2_0_23478_004_lang?
-locstring Field_7_2_0_23478_005_lang?
-int Field_7_2_0_23478_006?
-int Field_7_2_0_23478_007?
-int Field_7_2_0_23478_008?
-int Field_7_2_0_23478_009?
-int Field_7_2_0_23478_010?
-int Field_7_2_0_23478_011?
-int Field_7_2_0_23478_012?
-int Field_7_2_0_23478_013?
-int Field_7_2_0_23478_014?
-int Field_7_2_0_23478_015?
+int Field_7_1_0_22636_012? // DBAnalyser: [PhaseGroupID, 0,95%], [PhaseUseFlags, 0,95%]
+int Field_7_1_0_22636_013? // DBAnalyser: [PhaseGroupID, 0,95%], [PhaseUseFlags, 0,95%]
+int Field_7_2_0_23445_009? // DBAnalyser: [Field_7_2_0_23478_009, 0,95%], [Field_7_2_0_23478_013, 0,95%]
+int Field_7_2_0_23445_013? // DBAnalyser: [Field_7_2_0_23478_009, 0,95%], [Field_7_2_0_23478_013, 0,95%]
+int Field_7_2_0_23478_009? // DBAnalyser: [PhaseGroupID, 0,95%], [PhaseUseFlags, 0,95%]
+int Field_7_2_0_23478_013? // DBAnalyser: [PhaseGroupID, 0,95%], [PhaseUseFlags, 0,95%]
 
 BUILD 2.0.0.5991
 BUILD 1.5.0.4442-1.11.2.5464
@@ -273,61 +234,61 @@ ExtendedUIStateVariable<32>[3]
 LAYOUT E5B5B5E2
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
-Field_7_1_0_22636_000
-Field_7_1_0_22636_001
-Field_7_1_0_22636_002
+Icon
+ExtendedUI
+DynamicIcon
 Field_7_1_0_22636_003
 Field_7_1_0_22636_004
 Field_7_1_0_22636_005
-Field_7_1_0_22636_006<16>
-Field_7_1_0_22636_007<16>
-Field_7_1_0_22636_008<16>
-Field_7_1_0_22636_009<16>
-Field_7_1_0_22636_010<16>[3]
-Field_7_1_0_22636_011<8>
+MapID<16>
+AreaID<16>
+PhaseID<16>
+StateVariable<16>
+ExtendedUIStateVariable<16>[3]
+OrderIndex<8>
 Field_7_1_0_22636_012<8>
 Field_7_1_0_22636_013<8>
-Field_7_1_0_22636_014<8>
-$id$Field_7_1_0_22636_015<32>
+Type<8>
+$id$ID<32>
 
 LAYOUT 86F3AE22
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
-Field_7_2_0_23445_000
-Field_7_2_0_23445_001
-Field_7_2_0_23445_002
-Field_7_2_0_23445_003_lang
-Field_7_2_0_23445_004_lang
-Field_7_2_0_23445_005_lang
-Field_7_2_0_23445_006<16>
-Field_7_2_0_23445_007<u16>
-Field_7_2_0_23445_008<u16>
+Icon
+ExtendedUI
+DynamicIcon
+DynamicTooltip_lang
+String_lang
+Tooltip_lang
+MapID<16>
+AreaID<u16>
+PhaseID<u16>
 Field_7_2_0_23445_009<u16>
-Field_7_2_0_23445_010<u16>
-Field_7_2_0_23445_011<u16>[3]
-Field_7_2_0_23445_012<u8>
+StateVariable<u16>
+ExtendedUIStateVariable<u16>[3]
+OrderIndex<u8>
 Field_7_2_0_23445_013<u8>
-Field_7_2_0_23445_014<u8>
-$id$Field_7_2_0_23445_015<32>
+Type<u8>
+$id$ID<32>
 
 LAYOUT C5B480F0
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
 BUILD 7.2.0.23478, 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.23706, 7.2.0.23708, 7.2.0.23721, 7.2.0.23728, 7.2.0.23746, 7.2.0.23753, 7.2.0.23758, 7.2.0.23780, 7.2.0.23789, 7.2.0.23801, 7.2.0.23810, 7.2.0.23826, 7.2.0.23835, 7.2.0.23836, 7.2.0.23841, 7.2.0.23845, 7.2.0.23846, 7.2.0.23852, 7.2.0.23857, 7.2.0.23874, 7.2.0.23877, 7.2.0.23905, 7.2.0.23911, 7.2.0.24015
-Field_7_2_0_23478_000
-Field_7_2_0_23478_001
-Field_7_2_0_23478_002
-Field_7_2_0_23478_003_lang
-Field_7_2_0_23478_004_lang
-Field_7_2_0_23478_005_lang
-Field_7_2_0_23478_006<16>
-Field_7_2_0_23478_007<u16>
-Field_7_2_0_23478_008<u16>
+Icon
+ExtendedUI
+DynamicIcon
+DynamicTooltip_lang
+String_lang
+Tooltip_lang
+MapID<16>
+AreaID<u16>
+PhaseID<u16>
 Field_7_2_0_23478_009<u16>
-Field_7_2_0_23478_010<u16>
-Field_7_2_0_23478_011<u16>[3]
-Field_7_2_0_23478_012<u8>
+StateVariable<u16>
+ExtendedUIStateVariable<u16>[3]
+OrderIndex<u8>
 Field_7_2_0_23478_013<u8>
-Field_7_2_0_23478_014<u8>
-$id$Field_7_2_0_23478_015<32>
+Type<u8>
+$id$ID<32>
 
 LAYOUT 033421FA
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24614, 7.3.0.24633, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715

@@ -24,72 +24,7 @@ int Multisample
 int Atlasdisable
 int OglPixelShader
 int D3dPixelShader
-string Field_7_1_0_22636_000?
-string Field_7_1_0_22636_001?
-int Field_7_1_0_22636_002?
-int Field_7_1_0_22636_003?
-int Field_7_1_0_22636_004?
-int Field_7_1_0_22636_005?
-int Field_7_1_0_22636_006?
-int Field_7_1_0_22636_007?
-int Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-int Field_7_1_0_22636_010?
-int Field_7_1_0_22636_011?
-int Field_7_1_0_22636_012?
-int Field_7_1_0_22636_013?
-int Field_7_1_0_22636_014?
-int Field_7_1_0_22636_015?
-int Field_7_1_0_22636_016?
-int Field_7_1_0_22636_017?
-int Field_7_1_0_22636_018?
-int Field_7_1_0_22636_019?
-int Field_7_1_0_22636_020?
-int Field_7_1_0_22636_021?
-string Field_7_2_0_23445_000?
-string Field_7_2_0_23445_001?
-int Field_7_2_0_23445_002?
-int Field_7_2_0_23445_003?
-int Field_7_2_0_23445_004?
-int Field_7_2_0_23445_005?
-int Field_7_2_0_23445_006?
-int Field_7_2_0_23445_007?
-int Field_7_2_0_23445_008?
-int Field_7_2_0_23445_009?
-int Field_7_2_0_23445_010?
-int Field_7_2_0_23445_011?
-int Field_7_2_0_23445_012?
-int Field_7_2_0_23445_013?
-int Field_7_2_0_23445_014?
-int Field_7_2_0_23445_015?
-int Field_7_2_0_23445_016?
-int Field_7_2_0_23445_017?
-int Field_7_2_0_23445_018?
-int Field_7_2_0_23445_019?
-int Field_7_2_0_23445_020?
-int Field_7_2_0_23445_021?
-string Field_7_2_0_23478_000?
-string Field_7_2_0_23478_001?
-int Field_7_2_0_23478_002?
-int Field_7_2_0_23478_003?
-int Field_7_2_0_23478_004?
-int Field_7_2_0_23478_005?
-int Field_7_2_0_23478_006?
-int Field_7_2_0_23478_007?
-int Field_7_2_0_23478_008?
-int Field_7_2_0_23478_009?
-int Field_7_2_0_23478_010?
-int Field_7_2_0_23478_011?
-int Field_7_2_0_23478_012?
-int Field_7_2_0_23478_013?
-int Field_7_2_0_23478_014?
-int Field_7_2_0_23478_015?
-int Field_7_2_0_23478_016?
-int Field_7_2_0_23478_017?
-int Field_7_2_0_23478_018?
-int Field_7_2_0_23478_019?
-int Field_7_2_0_23478_020?
-int Field_7_2_0_23478_021?
+int Field_7_1_0_22636_017? // DBAnalyser: [UnitDrawDistIdx, 1%], [SmallCullDistIdx, 1%]
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -194,79 +129,79 @@ Atlasdisable<32>
 LAYOUT 58A67427
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
-Field_7_1_0_22636_000
-Field_7_1_0_22636_001
-Field_7_1_0_22636_002<16>
-Field_7_1_0_22636_003<16>
-Field_7_1_0_22636_004<8>
-Field_7_1_0_22636_005<8>
-Field_7_1_0_22636_006<8>
-Field_7_1_0_22636_007<8>
-Field_7_1_0_22636_008<8>
-Field_7_1_0_22636_009<8>
-Field_7_1_0_22636_010<8>
-Field_7_1_0_22636_011<8>
-Field_7_1_0_22636_012<8>
-Field_7_1_0_22636_013<8>
-$id$Field_7_1_0_22636_014<32>
-Field_7_1_0_22636_015<32>
-Field_7_1_0_22636_016<32>
+OglOverrides
+D3dOverrides
+VendorID<16>
+DeviceID<16>
+FarclipIdx<8>
+TerrainLODDistIdx<8>
+TerrainShadowLOD<8>
+DetailDoodadDensityIdx<8>
+DetailDoodadAlpha<8>
+AnimatingDoodadIdx<8>
+Trilinear<8>
+Specularity<8>
+ParticleDensityIdx<8>
+Atlasdisable<8>
+$id$ID<32>
+NumLights<32>
+WaterLODIdx<32>
 Field_7_1_0_22636_017<32>
-Field_7_1_0_22636_018<32>
-Field_7_1_0_22636_019<32>
-Field_7_1_0_22636_020<32>
-Field_7_1_0_22636_021<32>
+ResolutionIdx<32>
+BaseMipLevel<32>
+FixLag<32>
+Multisample<32>
 
 LAYOUT A4C4D4BB
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
-Field_7_2_0_23445_000
-Field_7_2_0_23445_001
-Field_7_2_0_23445_002<u16>
-Field_7_2_0_23445_003<u16>
-Field_7_2_0_23445_004<8>
-Field_7_2_0_23445_005<8>
-Field_7_2_0_23445_006<8>
-Field_7_2_0_23445_007<8>
-Field_7_2_0_23445_008<8>
-Field_7_2_0_23445_009<8>
-Field_7_2_0_23445_010<8>
-Field_7_2_0_23445_011<8>
-Field_7_2_0_23445_012<8>
-Field_7_2_0_23445_013<8>
-$id$Field_7_2_0_23445_014<32>
-Field_7_2_0_23445_015<32>
-Field_7_2_0_23445_016<32>
-Field_7_2_0_23445_017<32>
-Field_7_2_0_23445_018<32>
-Field_7_2_0_23445_019<32>
-Field_7_2_0_23445_020<32>
-Field_7_2_0_23445_021<32>
+OglOverrides
+D3dOverrides
+VendorID<u16>
+DeviceID<u16>
+FarclipIdx<8>
+TerrainLODDistIdx<8>
+TerrainShadowLOD<8>
+DetailDoodadDensityIdx<8>
+DetailDoodadAlpha<8>
+AnimatingDoodadIdx<8>
+Trilinear<8>
+Specularity<8>
+ParticleDensityIdx<8>
+Atlasdisable<8>
+$id$ID<32>
+NumLights<32>
+WaterLODIdx<32>
+UnitDrawDistIdx<32>
+ResolutionIdx<32>
+BaseMipLevel<32>
+FixLag<32>
+Multisample<32>
 
 LAYOUT A9321875
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
 BUILD 7.2.0.23478, 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.23706, 7.2.0.23708, 7.2.0.23721, 7.2.0.23728, 7.2.0.23746, 7.2.0.23753, 7.2.0.23758, 7.2.0.23780, 7.2.0.23789, 7.2.0.23801, 7.2.0.23810, 7.2.0.23826, 7.2.0.23835, 7.2.0.23836, 7.2.0.23841, 7.2.0.23845, 7.2.0.23846, 7.2.0.23852, 7.2.0.23857, 7.2.0.23874, 7.2.0.23877, 7.2.0.23905, 7.2.0.23911, 7.2.0.24015
-Field_7_2_0_23478_000
-Field_7_2_0_23478_001
-Field_7_2_0_23478_002<u16>
-Field_7_2_0_23478_003<u16>
-Field_7_2_0_23478_004<8>
-Field_7_2_0_23478_005<8>
-Field_7_2_0_23478_006<8>
-Field_7_2_0_23478_007<8>
-Field_7_2_0_23478_008<8>
-Field_7_2_0_23478_009<8>
-Field_7_2_0_23478_010<8>
-Field_7_2_0_23478_011<8>
-Field_7_2_0_23478_012<8>
-Field_7_2_0_23478_013<8>
-$id$Field_7_2_0_23478_014<32>
-Field_7_2_0_23478_015<32>
-Field_7_2_0_23478_016<32>
-Field_7_2_0_23478_017<32>
-Field_7_2_0_23478_018<32>
-Field_7_2_0_23478_019<32>
-Field_7_2_0_23478_020<32>
-Field_7_2_0_23478_021<32>
+OglOverrides
+D3dOverrides
+VendorID<u16>
+DeviceID<u16>
+FarclipIdx<8>
+TerrainLODDistIdx<8>
+TerrainShadowLOD<8>
+DetailDoodadDensityIdx<8>
+DetailDoodadAlpha<8>
+AnimatingDoodadIdx<8>
+Trilinear<8>
+Specularity<8>
+ParticleDensityIdx<8>
+Atlasdisable<8>
+$id$ID<32>
+NumLights<32>
+WaterLODIdx<32>
+UnitDrawDistIdx<32>
+ResolutionIdx<32>
+BaseMipLevel<32>
+FixLag<32>
+Multisample<32>
 
 LAYOUT ED25EC53
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24614, 7.3.0.24633

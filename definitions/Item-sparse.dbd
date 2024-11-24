@@ -68,68 +68,16 @@ float DmgVariance
 int CurrencySubstitutionID
 int CurrencySubstitutionCount
 int<ItemNameDescription::ID> ItemNameDescriptionID
-int Field_7_1_0_22636_000?
-float Field_7_1_0_22636_001?
-float Field_7_1_0_22636_002?
-int Field_7_1_0_22636_003?
-int Field_7_1_0_22636_004?
-int Field_7_1_0_22636_005?
-int Field_7_1_0_22636_006?
-int Field_7_1_0_22636_007?
-int Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-int Field_7_1_0_22636_010?
-float Field_7_1_0_22636_011?
-float Field_7_1_0_22636_012?
-string Field_7_1_0_22636_013?
-string Field_7_1_0_22636_014?
-string Field_7_1_0_22636_015?
-string Field_7_1_0_22636_016?
-string Field_7_1_0_22636_017?
+int Field_7_1_0_22636_003? // DBAnalyser: [BuyPrice, 0,65%]
+int Field_7_1_0_22636_004? // DBAnalyser: [SellPrice, 0,71%]
+string Field_7_1_0_22636_014? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
+string Field_7_1_0_22636_015? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
+string Field_7_1_0_22636_016? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
 int Field_7_1_0_22636_018?
-float Field_7_1_0_22636_019?
-int Field_7_1_0_22636_020?
-float Field_7_1_0_22636_021?
-int Field_7_1_0_22636_022?
-int Field_7_1_0_22636_023?
-int Field_7_1_0_22636_024?
-int Field_7_1_0_22636_025?
-int Field_7_1_0_22636_026?
-int Field_7_1_0_22636_027?
-int Field_7_1_0_22636_028?
-int Field_7_1_0_22636_029?
-int Field_7_1_0_22636_030?
-int Field_7_1_0_22636_031?
-int Field_7_1_0_22636_032?
-int Field_7_1_0_22636_033?
-int Field_7_1_0_22636_034?
-int Field_7_1_0_22636_035?
-int Field_7_1_0_22636_036?
-int Field_7_1_0_22636_037?
-int Field_7_1_0_22636_038?
-int Field_7_1_0_22636_039?
-int Field_7_1_0_22636_040?
 int Field_7_1_0_22636_041?
-int Field_7_1_0_22636_042?
-int Field_7_1_0_22636_043?
-int Field_7_1_0_22636_044?
-int Field_7_1_0_22636_045?
-int Field_7_1_0_22636_046?
-int Field_7_1_0_22636_047?
-int Field_7_1_0_22636_048?
-int Field_7_1_0_22636_049?
-int Field_7_1_0_22636_050?
-int Field_7_1_0_22636_051?
-int Field_7_1_0_22636_052?
-int Field_7_1_0_22636_053?
-int Field_7_1_0_22636_054?
-int Field_7_1_0_22636_055?
-int Field_7_1_0_22636_056?
-int Field_7_1_0_22636_057?
-int Field_7_1_0_22636_058?
-int Field_7_1_0_22636_059?
-int Field_7_1_0_22636_060?
-int Field_7_1_0_22636_061?
+int Field_7_1_0_22636_046? // DBAnalyser: [RequiredHonorRank, 0,95%], [RequiredCityRank, 0,95%]
+int Field_7_1_0_22636_047? // DBAnalyser: [RequiredHonorRank, 0,95%], [RequiredCityRank, 0,95%]
+int Field_7_1_0_22636_061? // DBAnalyser: [RequiredHonorRank, 0,95%], [RequiredCityRank, 0,95%]
 int Field_7_1_0_22636_062?
 
 BUILD 5.4.7.17898-5.4.8.18414
@@ -271,66 +219,66 @@ BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.233
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 COMMENT table is sparse
 $noninline,id$ID<32>
-Field_7_1_0_22636_000<32>[3]
-Field_7_1_0_22636_001
-Field_7_1_0_22636_002
+Flags<32>[3]
+PriceRandomValue
+PriceVariance
 Field_7_1_0_22636_003<32>
 Field_7_1_0_22636_004<32>
-Field_7_1_0_22636_005<32>
-Field_7_1_0_22636_006<32>
-Field_7_1_0_22636_007<32>
-Field_7_1_0_22636_008<32>
-Field_7_1_0_22636_009<32>
-Field_7_1_0_22636_010<32>[10]
-Field_7_1_0_22636_011[10]
-Field_7_1_0_22636_012
-Field_7_1_0_22636_013
+AllowableClass<32>
+AllowableRace<32> // DBAnalyser:
+RequiredSpell<32>
+MaxCount<32>
+Stackable<32>
+ItemScalingValue<32>[10]
+ItemSocketCostRate[10]
+RangedModRange
+Display_lang
 Field_7_1_0_22636_014
 Field_7_1_0_22636_015
 Field_7_1_0_22636_016
-Field_7_1_0_22636_017
+Description_lang
 Field_7_1_0_22636_018<32>
-Field_7_1_0_22636_019
-Field_7_1_0_22636_020<32>
-Field_7_1_0_22636_021
-Field_7_1_0_22636_022<16>
-Field_7_1_0_22636_023<16>
-Field_7_1_0_22636_024<16>
-Field_7_1_0_22636_025<16>
-Field_7_1_0_22636_026<16>[10]
-Field_7_1_0_22636_027<16>
-Field_7_1_0_22636_028<16>
-Field_7_1_0_22636_029<16>
-Field_7_1_0_22636_030<16>
-Field_7_1_0_22636_031<16>
-Field_7_1_0_22636_032<16>
-Field_7_1_0_22636_033<16>
-Field_7_1_0_22636_034<16>
-Field_7_1_0_22636_035<16>
-Field_7_1_0_22636_036<16>
-Field_7_1_0_22636_037<16>
-Field_7_1_0_22636_038<16>
-Field_7_1_0_22636_039<16>
-Field_7_1_0_22636_040<16>
+ArmorDamageModifier
+Duration<32>
+DmgVariance
+ItemLevel<16>
+RequiredSkill<16>
+RequiredSkillRank<16>
+RequiredReputationFaction<16>
+ItemStatValue<16>[10]
+TotemCategory<16>
+Delay<16>
+PageText<16>
+StartQuest<16>
+LockID<16>
+RandomProperty<16>
+RandomSuffix<16>
+ItemSet<16>
+Area<16>
+Map<16>
+SocketBonus<16>
+GemProperties<16>
+ItemLimitCategory<16> // DBAnalyser:
+HolidayID<16>
 Field_7_1_0_22636_041<16>
-Field_7_1_0_22636_042<8>
-Field_7_1_0_22636_043<8>
-Field_7_1_0_22636_044<8>
-Field_7_1_0_22636_045<8>
+Quality<8>
+BuyCount<8>
+InventoryType<8>
+RequiredLevel<8>
 Field_7_1_0_22636_046<8>
 Field_7_1_0_22636_047<8>
-Field_7_1_0_22636_048<8>
-Field_7_1_0_22636_049<8>
-Field_7_1_0_22636_050<8>[10]
-Field_7_1_0_22636_051<8>
-Field_7_1_0_22636_052<8>
-Field_7_1_0_22636_053<8>
-Field_7_1_0_22636_054<8>
-Field_7_1_0_22636_055<8>
-Field_7_1_0_22636_056<8>
-Field_7_1_0_22636_057<8>
-Field_7_1_0_22636_058<8>[3]
-Field_7_1_0_22636_059<8>
-Field_7_1_0_22636_060<8>
+RequiredReputationRank<8>
+ContainerSlots<8>
+ItemStatType<8>[10] // DBAnalyser: [ItemStatType, 0,94%]
+DamageType<8>
+Bonding<8>
+LanguageID<8>
+PageMaterialID<8>
+Material<8>
+Sheath<8>
+ScalingStatDistributionID<8>
+Color<8>[3]
+CurrencySubstitutionID<8> // DBAnalyser:
+CurrencySubstitutionCount<8> // DBAnalyser:
 Field_7_1_0_22636_061<8>
 Field_7_1_0_22636_062<8>

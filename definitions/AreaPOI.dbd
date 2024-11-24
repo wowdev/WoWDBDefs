@@ -23,62 +23,9 @@ int<UiTextureKit::ID> UiTextureKitID
 int Field_9_1_0_38783_011?
 int Field_9_1_0_38783_017?
 int Field_10_0_0_45141_012?
-float Field_7_1_0_22636_000?
 string Field_7_1_0_22636_001?
 string Field_7_1_0_22636_002?
-int Field_7_1_0_22636_003?
-int Field_7_1_0_22636_004?
-int Field_7_1_0_22636_005?
-int Field_7_1_0_22636_006?
-int Field_7_1_0_22636_007?
-int Field_7_1_0_22636_008?
-int Field_7_1_0_22636_009?
-int Field_7_1_0_22636_010?
-int Field_7_1_0_22636_011?
-int Field_7_1_0_22636_012?
-int Field_7_1_0_22636_013?
-int Field_7_2_0_23445_000?
-float Field_7_2_0_23445_001?
-locstring Field_7_2_0_23445_002_lang?
-locstring Field_7_2_0_23445_003_lang?
-int Field_7_2_0_23445_004?
-int Field_7_2_0_23445_005?
-int Field_7_2_0_23445_006?
-int Field_7_2_0_23445_007?
-int Field_7_2_0_23445_008?
-int Field_7_2_0_23445_009?
-int Field_7_2_0_23445_010?
-int Field_7_2_0_23445_011?
-int Field_7_2_0_23445_012?
-int Field_7_2_0_23445_013?
-int Field_7_2_0_23478_000?
-float Field_7_2_0_23478_001?
-locstring Field_7_2_0_23478_002_lang?
-locstring Field_7_2_0_23478_003_lang?
-int Field_7_2_0_23478_004?
-int Field_7_2_0_23478_005?
-int Field_7_2_0_23478_006?
-int Field_7_2_0_23478_007?
-int Field_7_2_0_23478_008?
-int Field_7_2_0_23478_009?
-int Field_7_2_0_23478_010?
-int Field_7_2_0_23478_011?
-int Field_7_2_0_23478_012?
-int Field_7_2_0_23478_013?
-int Field_7_2_0_23578_000?
-float Field_7_2_0_23578_001?
-locstring Field_7_2_0_23578_002_lang?
-locstring Field_7_2_0_23578_003_lang?
-int Field_7_2_0_23578_004?
-int Field_7_2_0_23578_005?
-int Field_7_2_0_23578_006?
-int Field_7_2_0_23578_007?
-int Field_7_2_0_23578_008?
-int Field_7_2_0_23578_009?
-int Field_7_2_0_23578_010?
-int Field_7_2_0_23578_011?
-int Field_7_2_0_23578_012?
-int Field_7_2_0_23578_013?
+int Field_7_1_0_22636_012? // DBAnalyser: [Icon, 0,64%]
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -314,75 +261,75 @@ LAYOUT F472BD34
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
-Field_7_1_0_22636_000[2]
+Pos[2]
 Field_7_1_0_22636_001
 Field_7_1_0_22636_002
-Field_7_1_0_22636_003<16>
-Field_7_1_0_22636_004<16>
-Field_7_1_0_22636_005<16>
-Field_7_1_0_22636_006<16>
-Field_7_1_0_22636_007<16>
-Field_7_1_0_22636_008<16>
-Field_7_1_0_22636_009<32>
-Field_7_1_0_22636_010<16>
-Field_7_1_0_22636_011<8>
+Flags<16>
+ContinentID<16>
+AreaID<16>
+WorldStateID<16>
+PlayerConditionID<16>
+PortLocID<16>
+PoiDataType<32>
+PoiData<16>
+Importance<8>
 Field_7_1_0_22636_012<8>
-Field_7_1_0_22636_013<32>
+UiTextureAtlasMemberID<32>
 
 LAYOUT 4641F62D
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
-Field_7_2_0_23445_000<u32>
-Field_7_2_0_23445_001[2]
-Field_7_2_0_23445_002_lang
-Field_7_2_0_23445_003_lang
-Field_7_2_0_23445_004<32>
-Field_7_2_0_23445_005<32>
-Field_7_2_0_23445_006<u16>
-Field_7_2_0_23445_007<16>
-Field_7_2_0_23445_008<u16>
-Field_7_2_0_23445_009<u16>
-Field_7_2_0_23445_010<u16>
-Field_7_2_0_23445_011<u8>
-Field_7_2_0_23445_012<u8>
-Field_7_2_0_23445_013<u32>
+Flags<u32>
+Pos[2]
+Name_lang
+Description_lang
+PoiDataType<32>
+PoiData<32>
+ContinentID<u16>
+AreaID<16>
+WorldStateID<u16>
+PlayerConditionID<u16>
+PortLocID<u16>
+Importance<u8>
+Icon<u8>
+UiTextureAtlasMemberID<u32>
 
 LAYOUT 5A85224E
 BUILD 7.2.0.23478
 $noninline,id$ID<32>
-Field_7_2_0_23478_000<u32>
-Field_7_2_0_23478_001[2]
-Field_7_2_0_23478_002_lang
-Field_7_2_0_23478_003_lang
-Field_7_2_0_23478_004<32>
-Field_7_2_0_23478_005<32>
-Field_7_2_0_23478_006<u16>
-Field_7_2_0_23478_007<16>
-Field_7_2_0_23478_008<u16>
-Field_7_2_0_23478_009<u16>
-Field_7_2_0_23478_010<u16>
-Field_7_2_0_23478_011<u8>
-Field_7_2_0_23478_012<u8>
-Field_7_2_0_23478_013<u32>
+Flags<u32>
+Pos[2]
+Name_lang
+Description_lang
+PoiDataType<32>
+PoiData<32>
+ContinentID<u16>
+AreaID<16>
+WorldStateID<u16>
+PlayerConditionID<u16>
+PortLocID<u16>
+Importance<u8>
+Icon<u8>
+UiTextureAtlasMemberID<u32>
 
 LAYOUT 7FE46F20
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
 BUILD 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.23706, 7.2.0.23708, 7.2.0.23721, 7.2.0.23728, 7.2.0.23746, 7.2.0.23753, 7.2.0.23758, 7.2.0.23780, 7.2.0.23789, 7.2.0.23801, 7.2.0.23810, 7.2.0.23826, 7.2.0.23835, 7.2.0.23836, 7.2.0.23841, 7.2.0.23845, 7.2.0.23846, 7.2.0.23852, 7.2.0.23857, 7.2.0.23874, 7.2.0.23877, 7.2.0.23905, 7.2.0.23911, 7.2.0.24015
 $noninline,id$ID<32>
-Field_7_2_0_23578_000<u32>
-Field_7_2_0_23578_001[2]
-Field_7_2_0_23578_002_lang
-Field_7_2_0_23578_003_lang
-Field_7_2_0_23578_004<32>
-Field_7_2_0_23578_005<32>
-Field_7_2_0_23578_006<u16>
-Field_7_2_0_23578_007<16>
-Field_7_2_0_23578_008<u16>
-Field_7_2_0_23578_009<u16>
-Field_7_2_0_23578_010<u8>
-Field_7_2_0_23578_011<u8>
-Field_7_2_0_23578_012<u32>
-Field_7_2_0_23578_013<u32>
+Flags<u32>
+Pos[2]
+Name_lang
+Description_lang
+PoiDataType<32>
+PoiData<32>
+ContinentID<u16>
+AreaID<16>
+WorldStateID<u16>
+PortLocID<u16>
+Importance<u8>
+Icon<u8>
+PlayerConditionID<u32>
+UiTextureAtlasMemberID<u32>
 
 LAYOUT 772B76A0
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24614, 7.3.0.24633, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715
