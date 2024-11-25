@@ -41,14 +41,6 @@ int<ConditionalCreatureModelData::ID> ConditionalCreatureModelID?
 float MountMaxBankingAngle?
 int Field_11_0_0_54210_026?
 int Field_1_15_4_56400_024?
-float Field_7_1_0_22636_002?
-int Field_7_1_0_22636_005? // DBAnalyser: [PortraitTextureFileDataID, 0,96%]
-int Field_7_1_0_22636_007? // DBAnalyser: [PortraitTextureFileDataID, 0,94%]
-float Field_7_1_0_22636_008?
-int Field_7_1_0_22636_013? // DBAnalyser: [PortraitTextureFileDataID, 0,94%]
-int Field_7_1_0_22636_014? // DBAnalyser: [PortraitTextureFileDataID, 0,95%]
-int Field_7_1_0_22636_015? // DBAnalyser: [Field_7_3_2_25549_010, 0,01%]
-int Field_7_1_0_22636_020?
 int Field_7_2_0_23445_000?
 int Field_7_2_0_23445_001?
 float Field_7_2_0_23445_002?
@@ -412,25 +404,25 @@ BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.228
 $noninline,id$ID<32>
 ExtendedDisplayInfoID<32>
 CreatureModelScale
-Field_7_1_0_22636_002
+PlayerOverrideScale
 TextureVariationFileDataID<32>[3]
 PortraitTextureName
-Field_7_1_0_22636_005<32>
+PortraitCreatureDisplayInfoID<32>
 CreatureGeosetData<32>
-Field_7_1_0_22636_007<32>
-Field_7_1_0_22636_008
+StateSpellVisualKitID<32>
+PetInstanceScale
 ModelID<16>
 SoundID<16>
 NPCSoundID<16>
 ParticleColorID<16>
-Field_7_1_0_22636_013<16>
-Field_7_1_0_22636_014<16>
-Field_7_1_0_22636_015<8>
+ObjectEffectPackageID<16>
+AnimReplacementSetID<16>
+CreatureModelAlpha<8>
 SizeClass<8>
 BloodID<8>
 Flags<8>
 Gender<8>
-Field_7_1_0_22636_020<8>
+UnarmedWeaponType<8>
 
 LAYOUT 8CC0D867
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476

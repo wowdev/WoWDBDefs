@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int<GarrEncounter::ID> GarrEncounterID
 int GarrEncounterSetID
-int Field_7_3_5_25607_000?
-int Field_7_3_5_25607_001?
 
 LAYOUT 10FFAB35
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
@@ -35,8 +33,8 @@ GarrEncounterID<u32>
 LAYOUT 30DCBD7D
 BUILD 7.3.5.25607, 7.3.5.25619, 7.3.5.25632, 7.3.5.25678, 7.3.5.25692, 7.3.5.25716, 7.3.5.25717, 7.3.5.25727, 7.3.5.25744, 7.3.5.25753, 7.3.5.25804, 7.3.5.25807, 7.3.5.25826, 7.3.5.25848, 7.3.5.25860, 7.3.5.25864, 7.3.5.25875, 7.3.5.25881
 $noninline,id$ID<32>
-Field_7_3_5_25607_000<u32>
-$noninline,relation$Field_7_3_5_25607_001<u32>
+GarrEncounterID<u32>
+$noninline,relation$GarrEncounterSetID<u32>
 
 LAYOUT 3AA64423, CA7143E7, 9DFCF560
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524

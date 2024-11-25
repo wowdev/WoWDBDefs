@@ -21,11 +21,6 @@ int Field_3_4_1_46722_008?
 int Field_3_4_1_46722_009?
 int Field_3_4_1_46722_010?
 int Field_3_4_1_46722_011?
-string Field_7_1_0_22636_003?
-string Field_7_1_0_22636_004?
-int Field_7_1_0_22636_005?
-int Field_7_1_0_22636_012? // DBAnalyser: [FriendshipRepID, 0,87%], [Flags, 1%]
-int Field_7_2_0_23478_006? // DBAnalyser: [Field_7_1_0_22636_005, 1%], [ReputationMax, 1%]
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -237,16 +232,16 @@ $noninline,id$ID<32>
 ReputationRaceMask<32>[4]
 ReputationBase<32>[4]
 ParentFactionMod[2]
-Field_7_1_0_22636_003
-Field_7_1_0_22636_004
-Field_7_1_0_22636_005<32>[4]
+Name_lang
+Description_lang
+ReputationMax<32>[4]
 ReputationIndex<16>
 ReputationClassMask<16>[4]
 ReputationFlags<16>[4]
 ParentFactionID<16>
 ParentFactionCap<8>[2]
 Expansion<8>
-Field_7_1_0_22636_012<8>
+FriendshipRepID<8>
 ParagonFactionID<8>
 
 LAYOUT 01051CF6
@@ -257,7 +252,7 @@ ReputationBase<32>[4]
 ParentFactionMod[2]
 Name_lang
 Description_lang
-Field_7_1_0_22636_005<32>[4]
+ReputationMax<32>[4]
 ParagonFactionID<u32>
 ReputationIndex<16>
 ReputationClassMask<u16>[4]
@@ -277,7 +272,7 @@ ReputationBase<32>[4]
 ParentFactionMod[2]
 Name_lang
 Description_lang
-Field_7_2_0_23478_006<32>[4]
+ReputationMax<32>[4]
 ReputationIndex<16>
 ReputationClassMask<u16>[4]
 ReputationFlags<u16>[4]

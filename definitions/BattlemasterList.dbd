@@ -25,14 +25,6 @@ int Field_4_4_0_54339_016?
 int Field_4_4_0_54339_017?
 int Field_1_15_3_55112_016?
 int Field_1_15_3_55112_017?
-string Field_7_1_0_22636_000?
-string Field_7_1_0_22636_002?
-int Field_7_1_0_22636_005? // DBAnalyser: [Required_Player_Condition_ID, 0,33%]
-int Field_7_1_0_22636_014? // DBAnalyser: [Flags, 0,18%]
-locstring Field_7_2_0_23445_000_lang? // DBAnalyser: [Name_lang, 0,76%]
-int Field_7_2_0_23445_014? // DBAnalyser: [Flags, 0,44%]
-locstring Field_7_2_0_23478_003_lang? // DBAnalyser: [ShortDescription_lang, 1%], [LongDescription_lang, 1%]
-locstring Field_7_2_0_23478_004_lang? // DBAnalyser: [ShortDescription_lang, 1%], [LongDescription_lang, 1%]
 
 LAYOUT 1DAAA212
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -335,26 +327,7 @@ LAYOUT 99250B06
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
-Field_7_1_0_22636_000
-IconFileDataID<32>
-Field_7_1_0_22636_002
-MapID<16>[16]
-HolidayWorldState<16>
-Field_7_1_0_22636_005<16>
-InstanceType<8>
-GroupsAllowed<8>
-MaxGroupSize<8>
-MinLevel<8>
-MaxLevel<8>
-RatedPlayers<8>
-MinPlayers<8>
-MaxPlayers<8>
-Field_7_1_0_22636_014<8>
-
-LAYOUT 2B4955FC
-BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
-$noninline,id$ID<32>
-Field_7_2_0_23445_000_lang
+Name_lang
 IconFileDataID<32>
 GameType_lang
 MapID<16>[16]
@@ -368,7 +341,26 @@ MaxLevel<8>
 RatedPlayers<8>
 MinPlayers<8>
 MaxPlayers<8>
-Field_7_2_0_23445_014<8>
+Flags<8>
+
+LAYOUT 2B4955FC
+BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
+$noninline,id$ID<32>
+Name_lang
+IconFileDataID<32>
+GameType_lang
+MapID<16>[16]
+HolidayWorldState<16>
+Required_Player_Condition_ID<16>
+InstanceType<8>
+GroupsAllowed<8>
+MaxGroupSize<8>
+MinLevel<8>
+MaxLevel<8>
+RatedPlayers<8>
+MinPlayers<8>
+MaxPlayers<8>
+Flags<8>
 
 LAYOUT 1D42D3EF
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
@@ -377,8 +369,8 @@ $noninline,id$ID<32>
 Name_lang
 IconFileDataID<32>
 GameType_lang
-Field_7_2_0_23478_003_lang
-Field_7_2_0_23478_004_lang
+ShortDescription_lang
+LongDescription_lang
 MapID<16>[16]
 HolidayWorldState<16>
 Required_Player_Condition_ID<16>

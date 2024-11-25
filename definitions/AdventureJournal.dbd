@@ -23,15 +23,6 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
-string Field_7_1_0_22636_000?
-string Field_7_1_0_22636_001?
-string Field_7_1_0_22636_002?
-string Field_7_1_0_22636_005?
-string Field_7_1_0_22636_006?
-int Field_7_1_0_22636_007? // DBAnalyser: [PlayerConditionID, 0,08%]
-int Field_7_1_0_22636_009? // DBAnalyser: [QuestID, 0,56%]
-int Field_7_1_0_22636_010? // DBAnalyser: [BonusPlayerConditionID, 0,69%], [ItemQuantity, 0,68%], [BonusValue, 0,68%], [Flags, 0,61%]
-int Field_7_1_0_22636_014? // DBAnalyser: [CurrencyQuantity, 0,94%], [CurrencyType, 0,92%], [BattleMasterListID, 0,91%], [ItemID, 0,9%]
 
 LAYOUT AF456C4F
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -158,21 +149,21 @@ LAYOUT D3689E19
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
-Field_7_1_0_22636_000
-Field_7_1_0_22636_001
-Field_7_1_0_22636_002
+Name_lang
+Description_lang
+ButtonText_lang
 TextureFileDataID<32>
 ItemID<32>
-Field_7_1_0_22636_005
-Field_7_1_0_22636_006
-Field_7_1_0_22636_007<16>
+RewardDescription_lang
+ContinueDescription_lang
+PlayerConditionID<16>
 LfgDungeonID<16>
-Field_7_1_0_22636_009<16>
-Field_7_1_0_22636_010<16>[2]
+QuestID<16>
+BonusPlayerConditionID<u16>[2]
 CurrencyType<16>
 WorldMapAreaID<16>
 Type<8>
-Field_7_1_0_22636_014<8>
+Flags<8>
 ButtonActionType<8>
 BattleMasterListID<8>
 PriorityMin<8>
@@ -199,7 +190,7 @@ BonusPlayerConditionID<u16>[2]
 CurrencyType<u16>
 WorldMapAreaID<u16>
 Type<u8>
-Field_7_1_0_22636_014<u8>
+Flags<u8>
 ButtonActionType<u8>
 PriorityMin<u8>
 PriorityMax<u8>
@@ -225,7 +216,7 @@ BonusPlayerConditionID<u16>[2]
 CurrencyType<u16>
 WorldMapAreaID<u16>
 Type<u8>
-Field_7_1_0_22636_014<u8>
+Flags<u8>
 ButtonActionType<u8>
 PriorityMin<u8>
 PriorityMax<u8>
@@ -250,7 +241,7 @@ BonusPlayerConditionID<u16>[2]
 CurrencyType<u16>
 WorldMapAreaID<u16>
 Type<u8>
-Field_7_1_0_22636_014<u8>
+Flags<u8>
 ButtonActionType<u8>
 PriorityMin<u8>
 PriorityMax<u8>
@@ -277,7 +268,7 @@ BonusPlayerConditionID<u16>[2]
 CurrencyType<u16>
 WorldMapAreaID<u16>
 Type<u8>
-Field_7_1_0_22636_014<u8>
+Flags<u8>
 ButtonActionType<u8>
 PriorityMin<u8>
 PriorityMax<u8>

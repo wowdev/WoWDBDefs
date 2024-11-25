@@ -87,83 +87,21 @@ locstring Field_7_2_0_23445_004_lang? // DBAnalyser: [Name_female_lang, 1%], [Na
 locstring Field_7_2_0_23445_005_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_lowercase_lang, 1%]
 locstring Field_7_2_0_23478_004_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_lowercase_lang, 1%], [Field_7_2_0_23445_004_lang, 1%], [Field_7_2_0_23445_005_lang, 1%]
 locstring Field_7_2_0_23478_005_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_lowercase_lang, 1%], [Field_7_2_0_23445_004_lang, 1%], [Field_7_2_0_23445_005_lang, 1%]
-string Field_7_3_5_25607_000?
-string Field_7_3_5_25607_001?
-locstring Field_7_3_5_25607_002_lang?
-locstring Field_7_3_5_25607_003_lang?
+locstring Field_7_3_5_25607_003_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_lowercase_lang, 1%]
 locstring Field_7_3_5_25607_004_lang?
-locstring Field_7_3_5_25607_005_lang?
-int Field_7_3_5_25607_006?
-int Field_7_3_5_25607_007?
-int Field_7_3_5_25607_008?
-int Field_7_3_5_25607_009?
-int Field_7_3_5_25607_010?
-float Field_7_3_5_25607_011?
-float Field_7_3_5_25607_012?
-int Field_7_3_5_25607_013?
+locstring Field_7_3_5_25607_005_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_lowercase_lang, 1%]
+int Field_7_3_5_25607_006? // DBAnalyser: [Flags, 0,83%]
+int Field_7_3_5_25607_010? // DBAnalyser: [SelectScreenFileDataID, 0,8%]
 int Field_7_3_5_25607_014?
 int Field_7_3_5_25607_015?
-int Field_7_3_5_25607_016?
-int Field_7_3_5_25607_017?
-int Field_7_3_5_25607_018?
-int Field_7_3_5_25607_019?
-int Field_7_3_5_25607_020?
-int Field_7_3_5_25607_021?
-int Field_7_3_5_25607_022?
-int Field_7_3_5_25607_023?
-int Field_7_3_5_25607_024?
-int Field_7_3_5_25607_025?
-int Field_7_3_5_25607_026?
-int Field_7_3_5_25607_027?
-int Field_7_3_5_25607_028?
-int Field_7_3_5_25607_029?
-int Field_7_3_5_25607_030?
-int Field_7_3_5_25607_031?
-int Field_7_3_5_25607_032?
+int Field_7_3_5_25607_022? // DBAnalyser: [Alliance, 0,82%]
+int Field_7_3_5_25607_028? // DBAnalyser: [DisplayRaceID, 0,71%]
 int Field_7_3_5_25607_033?
 int Field_7_3_5_25607_034?
 int Field_7_3_5_25607_035?
-int Field_7_3_5_25607_036?
-int Field_7_3_5_25607_037?
-string Field_7_3_5_25716_000?
-string Field_7_3_5_25716_001?
-locstring Field_7_3_5_25716_002_lang?
-locstring Field_7_3_5_25716_003_lang?
-locstring Field_7_3_5_25716_004_lang?
-locstring Field_7_3_5_25716_005_lang?
-int Field_7_3_5_25716_006?
-int Field_7_3_5_25716_007?
-int Field_7_3_5_25716_008?
-int Field_7_3_5_25716_009?
-int Field_7_3_5_25716_010?
-float Field_7_3_5_25716_011?
-float Field_7_3_5_25716_012?
-int Field_7_3_5_25716_013?
-int Field_7_3_5_25716_014?
-int Field_7_3_5_25716_015?
-int Field_7_3_5_25716_016?
-int Field_7_3_5_25716_017?
-int Field_7_3_5_25716_018?
-int Field_7_3_5_25716_019?
-int Field_7_3_5_25716_020?
-int Field_7_3_5_25716_021?
-int Field_7_3_5_25716_022?
-int Field_7_3_5_25716_023?
-int Field_7_3_5_25716_024?
-int Field_7_3_5_25716_025?
-int Field_7_3_5_25716_026?
-int Field_7_3_5_25716_027?
-int Field_7_3_5_25716_028?
-int Field_7_3_5_25716_029?
-int Field_7_3_5_25716_030?
-int Field_7_3_5_25716_031?
-int Field_7_3_5_25716_032?
+locstring Field_7_3_5_25716_003_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_female_lowercase_lang, 1%]
+locstring Field_7_3_5_25716_005_lang? // DBAnalyser: [Name_female_lang, 1%], [Name_female_lowercase_lang, 1%]
 int Field_7_3_5_25716_033?
-int Field_7_3_5_25716_034?
-int Field_7_3_5_25716_035?
-int Field_7_3_5_25716_036?
-int Field_7_3_5_25716_037?
-int Field_7_3_5_25716_038?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -955,86 +893,86 @@ AlteredFormFinishVisualKitID<u32>[3]
 
 LAYOUT 398C6A3A
 BUILD 7.3.5.25716
-Field_7_3_5_25716_000
-Field_7_3_5_25716_001
-Field_7_3_5_25716_002_lang
+ClientPrefix
+ClientFileString
+Name_lang
 Field_7_3_5_25716_003_lang
-Field_7_3_5_25716_004_lang
+Name_lowercase_lang
 Field_7_3_5_25716_005_lang
-Field_7_3_5_25716_006<32>
-Field_7_3_5_25716_007<u32>
-Field_7_3_5_25716_008<u32>
-Field_7_3_5_25716_009<32>
-Field_7_3_5_25716_010<32>
-Field_7_3_5_25716_011[3]
-Field_7_3_5_25716_012[3]
-Field_7_3_5_25716_013<32>
-Field_7_3_5_25716_014<32>
-Field_7_3_5_25716_015<32>
-Field_7_3_5_25716_016<16>
-Field_7_3_5_25716_017<16>
-Field_7_3_5_25716_018<16>
-Field_7_3_5_25716_019<16>
-Field_7_3_5_25716_020<8>
-Field_7_3_5_25716_021<8>
-Field_7_3_5_25716_022<8>
-Field_7_3_5_25716_023<8>
-Field_7_3_5_25716_024<8>
-Field_7_3_5_25716_025<8>
-Field_7_3_5_25716_026<8>
-Field_7_3_5_25716_027<8>
-Field_7_3_5_25716_028<8>
-Field_7_3_5_25716_029<8>
-$id$Field_7_3_5_25716_030<32>
-Field_7_3_5_25716_031<u32>
-Field_7_3_5_25716_032<u32>
+Flags<32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+CreateScreenFileDataID<32>
+SelectScreenFileDataID<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
+StartingLevel<32>
+UiDisplayOrder<32>
+FactionID<16>
+ResSicknessSpellID<16>
+SplashSoundID<16>
+CinematicSequenceID<16>
+BaseLanguage<8>
+CreatureType<8>
+Alliance<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
+DisplayRaceID<8>
+CharComponentTexLayoutHiResID<8>
+$id$ID<32>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
 Field_7_3_5_25716_033<32>
-Field_7_3_5_25716_034<32>
-Field_7_3_5_25716_035<32>
-Field_7_3_5_25716_036<32>
-Field_7_3_5_25716_037<u32>[3]
-Field_7_3_5_25716_038<u32>[3]
+HeritageArmorAchievementID<32>
+MaleSkeletonFileDataID<32>
+FemaleSkeletonFileDataID<32>
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
 
 LAYOUT F9AF65F1
 BUILD 7.3.5.25607, 7.3.5.25619, 7.3.5.25632, 7.3.5.25678, 7.3.5.25692, 7.3.5.25717
-Field_7_3_5_25607_000
-Field_7_3_5_25607_001
-Field_7_3_5_25607_002_lang
+ClientPrefix
+ClientFileString
+Name_lang
 Field_7_3_5_25607_003_lang
 Field_7_3_5_25607_004_lang
 Field_7_3_5_25607_005_lang
 Field_7_3_5_25607_006<32>
-Field_7_3_5_25607_007<u32>
-Field_7_3_5_25607_008<u32>
-Field_7_3_5_25607_009<32>
+MaleDisplayID<u32>
+FemaleDisplayID<u32>
+CreateScreenFileDataID<32>
 Field_7_3_5_25607_010<32>
-Field_7_3_5_25607_011[3]
-Field_7_3_5_25607_012[3]
-Field_7_3_5_25607_013<32>
+MaleCustomizeOffset[3]
+FemaleCustomizeOffset[3]
+LowResScreenFileDataID<32>
 Field_7_3_5_25607_014<32>
 Field_7_3_5_25607_015<32>
-Field_7_3_5_25607_016<16>
-Field_7_3_5_25607_017<16>
-Field_7_3_5_25607_018<16>
-Field_7_3_5_25607_019<16>
-Field_7_3_5_25607_020<8>
-Field_7_3_5_25607_021<8>
+FactionID<16>
+ResSicknessSpellID<16>
+SplashSoundID<16>
+CinematicSequenceID<16>
+BaseLanguage<8> // DBAnalyser:
+CreatureType<8>
 Field_7_3_5_25607_022<8>
-Field_7_3_5_25607_023<8>
-Field_7_3_5_25607_024<8>
-Field_7_3_5_25607_025<8>
-Field_7_3_5_25607_026<8>
-Field_7_3_5_25607_027<8>
+Race_related<8>
+UnalteredVisualRaceID<8>
+CharComponentTextureLayoutID<8>
+DefaultClassID<8>
+NeutralRaceID<8>
 Field_7_3_5_25607_028<8>
-Field_7_3_5_25607_029<8>
-$id$Field_7_3_5_25607_030<32>
-Field_7_3_5_25607_031<u32>
-Field_7_3_5_25607_032<u32>
+CharComponentTexLayoutHiResID<8>
+$id$ID<32>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
 Field_7_3_5_25607_033<32>
 Field_7_3_5_25607_034<32>
 Field_7_3_5_25607_035<32>
-Field_7_3_5_25607_036<u32>[3]
-Field_7_3_5_25607_037<u32>[3]
+AlteredFormStartVisualKitID<u32>[3]
+AlteredFormFinishVisualKitID<u32>[3]
 
 LAYOUT 51C511F9
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175

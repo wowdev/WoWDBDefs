@@ -23,9 +23,6 @@ int<UiTextureKit::ID> UiTextureKitID
 int Field_9_1_0_38783_011?
 int Field_9_1_0_38783_017?
 int Field_10_0_0_45141_012?
-string Field_7_1_0_22636_001?
-string Field_7_1_0_22636_002?
-int Field_7_1_0_22636_012? // DBAnalyser: [Icon, 0,64%]
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -262,8 +259,8 @@ BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.233
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
 Pos[2]
-Field_7_1_0_22636_001
-Field_7_1_0_22636_002
+Name_lang
+Description_lang
 Flags<16>
 ContinentID<16>
 AreaID<16>
@@ -273,7 +270,7 @@ PortLocID<16>
 PoiDataType<32>
 PoiData<16>
 Importance<8>
-Field_7_1_0_22636_012<8>
+Icon<8>
 UiTextureAtlasMemberID<32>
 
 LAYOUT 4641F62D

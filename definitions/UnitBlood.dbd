@@ -9,9 +9,6 @@ int<SpellVisualKit::ID> PlayerCritBloodSpurtID
 int<SpellVisualKit::ID> PlayerHitBloodSpurtID
 int<SpellVisualKit::ID> PlayerOmniCritBloodSpurtID
 int<SpellVisualKit::ID> PlayerOmniHitBloodSpurtID
-int Field_7_1_0_22636_001?
-int Field_7_1_0_22636_002?
-int Field_7_1_0_22636_003?
 
 LAYOUT 7C4875FB
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -80,9 +77,9 @@ BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.233
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 $noninline,id$ID<32>
 GroundBlood[5]
-Field_7_1_0_22636_001<16>
-Field_7_1_0_22636_002<16>
-Field_7_1_0_22636_003<16>
+PlayerCritBloodSpurtID<16>
+PlayerHitBloodSpurtID<16>
+DefaultBloodSpurtID<16>
 PlayerOmniCritBloodSpurtID<32>
 PlayerOmniHitBloodSpurtID<32>
 DefaultOmniBloodSpurtID<32>

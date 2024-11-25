@@ -20,8 +20,6 @@ int<PlayerCondition::ID> ShowFutureSpellPlayerConditionID
 int SpellVisualScript? // for some reason shipped but if != 0, client errors.
 int ActiveSpellVisualScript?
 int<SpellDuration::ID> PvPDurationIndex?
-float Field_7_1_0_22636_002? // DBAnalyser: [Field_7_2_0_23445_002, 0,33%]
-float Field_7_2_0_23445_002? // DBAnalyser: [Field_7_1_0_22636_002, 0,33%]
 
 LAYOUT 30366F5C
 BUILD 1.15.4.56400, 1.15.4.56419
@@ -225,7 +223,7 @@ BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.228
 $noninline,id$ID<32>
 Attributes<32>[14]
 Speed
-Field_7_1_0_22636_002
+LaunchDelay
 CastingTimeIndex<16>
 DurationIndex<16>
 RangeIndex<16>
@@ -238,7 +236,7 @@ BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
 $noninline,id$ID<32>
 Attributes<32>[14]
 Speed
-Field_7_2_0_23445_002
+LaunchDelay
 CastingTimeIndex<u16>
 DurationIndex<u16>
 RangeIndex<u16>
@@ -252,7 +250,7 @@ BUILD 7.2.0.23478, 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.237
 $noninline,id$ID<32>
 Attributes<32>[14]
 Speed
-Field_7_2_0_23445_002
+LaunchDelay
 CastingTimeIndex<u16>
 DurationIndex<u16>
 RangeIndex<u16>

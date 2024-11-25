@@ -33,8 +33,6 @@ int Field_2_5_1_38043_021?
 int Field_2_5_1_38043_022?
 int Field_1_15_4_56400_021?
 int Field_1_15_4_56400_024?
-string Field_7_1_0_22636_001?
-string Field_7_1_0_22636_002?
 int Field_7_1_0_22636_005? // DBAnalyser: [ConditionID, 0,08%]
 int Field_7_1_0_22636_011? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
 int Field_7_1_0_22636_013? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
@@ -44,43 +42,23 @@ int Field_7_1_0_22636_016? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFact
 int Field_7_1_0_22636_017? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
 int Field_7_1_0_22636_019? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
 int Field_7_1_0_22636_021? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
-int Field_7_2_0_23445_010? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_014, 0,95%], [Field_7_1_0_22636_016, 0,95%], [Field_7_1_0_22636_017, 0,95%], [Field_7_1_0_22636_019, 0,95%], [Field_7_1_0_22636_021, 0,95%]
 int Field_7_2_0_23445_012? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_014, 0,95%], [Field_7_1_0_22636_016, 0,95%], [Field_7_1_0_22636_017, 0,95%], [Field_7_1_0_22636_019, 0,95%], [Field_7_1_0_22636_021, 0,95%]
 int Field_7_2_0_23445_013? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_014, 0,95%], [Field_7_1_0_22636_016, 0,95%], [Field_7_1_0_22636_017, 0,95%], [Field_7_1_0_22636_019, 0,95%], [Field_7_1_0_22636_021, 0,95%]
 int Field_7_2_0_23445_015? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_014, 0,95%], [Field_7_1_0_22636_016, 0,95%], [Field_7_1_0_22636_017, 0,95%], [Field_7_1_0_22636_019, 0,95%], [Field_7_1_0_22636_021, 0,95%]
 int Field_7_2_0_23445_016? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_014, 0,95%], [Field_7_1_0_22636_016, 0,95%], [Field_7_1_0_22636_017, 0,95%], [Field_7_1_0_22636_019, 0,95%], [Field_7_1_0_22636_021, 0,95%]
 int Field_7_2_0_23445_019? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_014, 0,95%], [Field_7_1_0_22636_016, 0,95%], [Field_7_1_0_22636_017, 0,95%], [Field_7_1_0_22636_019, 0,95%], [Field_7_1_0_22636_021, 0,95%]
-int Field_7_2_0_23445_021? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%], [Field_7_1_0_22636_011, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_014, 0,95%], [Field_7_1_0_22636_016, 0,95%], [Field_7_1_0_22636_017, 0,95%], [Field_7_1_0_22636_019, 0,95%], [Field_7_1_0_22636_021, 0,95%]
-int Field_7_2_0_23478_010? // DBAnalyser: [Field_7_2_0_23445_010, 0,95%], [Field_7_2_0_23445_012, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_016, 0,95%], [Field_7_2_0_23445_019, 0,95%], [Field_7_2_0_23445_021, 0,95%], [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
 int Field_7_2_0_23478_012? // DBAnalyser: [Field_7_2_0_23445_010, 0,95%], [Field_7_2_0_23445_012, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_016, 0,95%], [Field_7_2_0_23445_019, 0,95%], [Field_7_2_0_23445_021, 0,95%], [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
 int Field_7_2_0_23478_013? // DBAnalyser: [Field_7_2_0_23445_010, 0,95%], [Field_7_2_0_23445_012, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_016, 0,95%], [Field_7_2_0_23445_019, 0,95%], [Field_7_2_0_23445_021, 0,95%], [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
 int Field_7_2_0_23478_015? // DBAnalyser: [Field_7_2_0_23445_010, 0,95%], [Field_7_2_0_23445_012, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_016, 0,95%], [Field_7_2_0_23445_019, 0,95%], [Field_7_2_0_23445_021, 0,95%], [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
 int Field_7_2_0_23478_016? // DBAnalyser: [Field_7_2_0_23445_010, 0,95%], [Field_7_2_0_23445_012, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_016, 0,95%], [Field_7_2_0_23445_019, 0,95%], [Field_7_2_0_23445_021, 0,95%], [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
 int Field_7_2_0_23478_019? // DBAnalyser: [Field_7_2_0_23445_010, 0,95%], [Field_7_2_0_23445_012, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_016, 0,95%], [Field_7_2_0_23445_019, 0,95%], [Field_7_2_0_23445_021, 0,95%], [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
-int Field_7_2_0_23478_021? // DBAnalyser: [Field_7_2_0_23445_010, 0,95%], [Field_7_2_0_23445_012, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_015, 0,95%], [Field_7_2_0_23445_016, 0,95%], [Field_7_2_0_23445_019, 0,95%], [Field_7_2_0_23445_021, 0,95%], [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
-int Field_7_3_5_25607_000?
-locstring Field_7_3_5_25607_001_lang?
-locstring Field_7_3_5_25607_002_lang?
-int Field_7_3_5_25607_003?
-int Field_7_3_5_25607_004?
-int Field_7_3_5_25607_005?
-int Field_7_3_5_25607_006?
-int Field_7_3_5_25607_007?
-int Field_7_3_5_25607_008?
-int Field_7_3_5_25607_009?
-int Field_7_3_5_25607_010?
-int Field_7_3_5_25607_011?
-int Field_7_3_5_25607_012?
-int Field_7_3_5_25607_013?
-int Field_7_3_5_25607_014?
-int Field_7_3_5_25607_015?
-int Field_7_3_5_25607_016?
-int Field_7_3_5_25607_017?
-int Field_7_3_5_25607_018?
-int Field_7_3_5_25607_019?
-int Field_7_3_5_25607_020?
-int Field_7_3_5_25607_021?
-int Field_7_3_5_25607_022?
+int Field_7_3_5_25607_010? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
+int Field_7_3_5_25607_012? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
+int Field_7_3_5_25607_013? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
+int Field_7_3_5_25607_015? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
+int Field_7_3_5_25607_016? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
+int Field_7_3_5_25607_019? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
+int Field_7_3_5_25607_021? // DBAnalyser: [FiltActiveQuest, 0,95%], [FiltMaxFactionID, 0,95%], [FiltMaxFactionValue, 0,95%], [FiltMinFactionID, 0,95%], [FiltMinFactionValue, 0,95%], [FiltNonActiveQuest, 0,95%], [BreadCrumbID, 0,95%]
 
 LAYOUT AD7B0B93
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -213,8 +191,8 @@ LAYOUT 3AF80301
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 FiltRaces<32>
-Field_7_1_0_22636_001
-Field_7_1_0_22636_002
+QuestTitle_lang
+BulletText_lang
 StartItem<32>
 UniqueBitFlag<16>
 Field_7_1_0_22636_005<16>
@@ -248,7 +226,7 @@ FiltClasses<16>
 FiltCompletedQuest<u16>[3]
 FiltMinSkillID<u16>
 WorldStateExpressionID<16>
-Field_7_2_0_23445_010<u8>
+Field_7_1_0_22636_011<u8>
 FiltCompletedQuestLogic<u8>
 Field_7_2_0_23445_012<u8>
 Field_7_2_0_23445_013<u8>
@@ -259,7 +237,7 @@ FiltMinLevel<u8>
 FiltMinSkillValue<u8>
 Field_7_2_0_23445_019<u8>
 $id$ID<u32>
-Field_7_2_0_23445_021<u32>
+Field_7_1_0_22636_021<u32>
 QuestInfoID<u32>
 
 LAYOUT 9DF4A8B7
@@ -275,7 +253,7 @@ FiltClasses<16>
 FiltCompletedQuest<u16>[3]
 FiltMinSkillID<u16>
 WorldStateExpressionID<16>
-Field_7_2_0_23478_010<u8>
+Field_7_1_0_22636_011<u8>
 FiltCompletedQuestLogic<u8>
 Field_7_2_0_23478_012<u8>
 Field_7_2_0_23478_013<u8>
@@ -286,7 +264,7 @@ FiltMinLevel<u8>
 FiltMinSkillValue<u8>
 Field_7_2_0_23478_019<u8>
 $id$ID<u32>
-Field_7_2_0_23478_021<u32>
+Field_7_1_0_22636_021<u32>
 QuestInfoID<u32>
 
 LAYOUT C02750A8
@@ -318,29 +296,29 @@ QuestInfoID<u32>
 
 LAYOUT B70C3FA6
 BUILD 7.3.5.25607, 7.3.5.25619, 7.3.5.25632, 7.3.5.25678, 7.3.5.25692, 7.3.5.25716, 7.3.5.25717, 7.3.5.25727, 7.3.5.25744, 7.3.5.25753
-Field_7_3_5_25607_000<64>
-Field_7_3_5_25607_001_lang
-Field_7_3_5_25607_002_lang
-Field_7_3_5_25607_003<32>
-Field_7_3_5_25607_004<u16>
-Field_7_3_5_25607_005<u16>
-Field_7_3_5_25607_006<16>
-Field_7_3_5_25607_007<u16>[3]
-Field_7_3_5_25607_008<u16>
-Field_7_3_5_25607_009<16>
+FiltRaces<64>
+QuestTitle_lang
+BulletText_lang
+StartItem<32>
+UniqueBitFlag<u16>
+ConditionID<u16>
+FiltClasses<16>
+FiltCompletedQuest<u16>[3]
+FiltMinSkillID<u16>
+WorldStateExpressionID<16>
 Field_7_3_5_25607_010<u8>
-Field_7_3_5_25607_011<u8>
+FiltCompletedQuestLogic<u8>
 Field_7_3_5_25607_012<u8>
 Field_7_3_5_25607_013<u8>
-Field_7_3_5_25607_014<u8>
+FiltMaxLevel<u8>
 Field_7_3_5_25607_015<u8>
 Field_7_3_5_25607_016<u8>
-Field_7_3_5_25607_017<u8>
-Field_7_3_5_25607_018<u8>
+FiltMinLevel<u8>
+FiltMinSkillValue<u8>
 Field_7_3_5_25607_019<u8>
-$id$Field_7_3_5_25607_020<u32>
+$id$ID<u32>
 Field_7_3_5_25607_021<u32>
-Field_7_3_5_25607_022<u32>
+QuestInfoID<u32>
 
 LAYOUT 3F026A14
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141

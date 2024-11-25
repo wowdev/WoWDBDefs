@@ -25,9 +25,7 @@ float Field_10_0_0_45141_008?
 int Field_10_0_0_45232_020?
 float Field_10_0_0_45232_021?
 float Field_10_0_0_45232_024?
-float Field_7_1_0_22636_002? // DBAnalyser: [OuterRadius, 0,8%]
 int Field_7_1_0_22636_010? // DBAnalyser: [GameFlags, 0,96%], [CasterDecalPropertiesID, 0,96%]
-int Field_7_2_0_23445_010? // DBAnalyser: [GameFlags, 0,97%], [CasterDecalPropertiesID, 0,97%]
 int Field_7_2_0_23578_015? // DBAnalyser: [GameFlags, 0,95%], [CasterDecalPropertiesID, 0,95%]
 int Field_7_2_0_23578_016? // DBAnalyser: [GameFlags, 0,95%], [CasterDecalPropertiesID, 0,95%]
 
@@ -90,7 +88,7 @@ BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.228
 $noninline,id$ID<32>
 FileDataID<32>
 InnerRadius
-Field_7_1_0_22636_002
+OuterRadius
 Rim
 Gain
 ModX
@@ -116,7 +114,7 @@ Scale
 FadeIn
 FadeOut
 Priority<u8>
-Field_7_2_0_23445_010<u8>
+Field_7_1_0_22636_010<u8>
 TopTextureBlendSetID<32>
 BotTextureBlendSetID<32>
 Flags<32>

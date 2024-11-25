@@ -81,20 +81,11 @@ int Field_1_15_3_55112_014?
 int Field_7_2_0_23445_003? // DBAnalyser: [VendorStackCount, 0,79%]
 int Field_7_2_0_23445_004? // DBAnalyser: [BuyPrice, 0,8%]
 int Field_7_2_0_23445_006? // DBAnalyser: [Field_7_2_0_23478_048, 0,99%], [Field_7_2_0_23478_049, 0,99%]
-locstring Field_7_2_0_23445_013_lang? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
-locstring Field_7_2_0_23445_014_lang? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
-locstring Field_7_2_0_23445_015_lang? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
 int Field_7_2_0_23445_042? // DBAnalyser: [Field_7_3_2_25549_048, 0,95%], [RequiredPVPMedal, 0,95%], [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [RequiredTransmogHoliday, 0,95%]
 int Field_7_2_0_23445_048? // DBAnalyser: [Field_7_3_2_25549_048, 0,95%], [RequiredPVPMedal, 0,95%], [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [RequiredTransmogHoliday, 0,95%]
 int Field_7_2_0_23445_049? // DBAnalyser: [Field_7_3_2_25549_048, 0,95%], [RequiredPVPMedal, 0,95%], [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [RequiredTransmogHoliday, 0,95%]
-locstring Field_7_2_0_23478_013_lang? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%], [Field_7_2_0_23445_013_lang, 1%], [Field_7_2_0_23445_014_lang, 1%], [Field_7_2_0_23445_015_lang, 1%]
-locstring Field_7_2_0_23478_014_lang? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%], [Field_7_2_0_23445_013_lang, 1%], [Field_7_2_0_23445_014_lang, 1%], [Field_7_2_0_23445_015_lang, 1%]
-locstring Field_7_2_0_23478_015_lang? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%], [Field_7_2_0_23445_013_lang, 1%], [Field_7_2_0_23445_014_lang, 1%], [Field_7_2_0_23445_015_lang, 1%]
 int Field_7_2_0_23478_048? // DBAnalyser: [Field_7_3_2_25549_048, 0,95%], [Field_7_2_0_23445_049, 0,95%], [Field_7_2_0_23445_048, 0,95%]
 int Field_7_2_0_23478_049? // DBAnalyser: [Field_7_3_2_25549_048, 0,95%], [Field_7_2_0_23445_049, 0,95%], [Field_7_2_0_23445_048, 0,95%]
-locstring Field_7_2_0_23623_014_lang? // DBAnalyser: [Field_7_2_0_23478_013_lang, 1%], [Field_7_2_0_23478_014_lang, 1%], [Field_7_2_0_23478_015_lang, 1%], [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
-locstring Field_7_2_0_23623_015_lang? // DBAnalyser: [Field_7_2_0_23478_013_lang, 1%], [Field_7_2_0_23478_014_lang, 1%], [Field_7_2_0_23478_015_lang, 1%], [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
-locstring Field_7_2_0_23623_016_lang? // DBAnalyser: [Field_7_2_0_23478_013_lang, 1%], [Field_7_2_0_23478_014_lang, 1%], [Field_7_2_0_23478_015_lang, 1%], [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
 int Field_7_2_0_23623_048? // DBAnalyser: [Field_7_2_0_23478_049, 0,95%], [Field_7_2_0_23478_048, 0,95%], [Field_7_3_2_25549_048, 0,95%]
 int Field_7_2_0_23623_049? // DBAnalyser: [Field_7_2_0_23478_049, 0,95%], [Field_7_2_0_23478_048, 0,95%], [Field_7_3_2_25549_048, 0,95%]
 
@@ -1060,9 +1051,9 @@ StatPercentEditor<32>[10]
 StatPercentageOfSocket[10]
 ItemRange
 Display_lang
-Field_7_2_0_23445_013_lang
-Field_7_2_0_23445_014_lang
-Field_7_2_0_23445_015_lang
+Display1_lang
+Display2_lang
+Display3_lang
 Description_lang
 BagFamily<u32>
 QualityModifier
@@ -1129,9 +1120,9 @@ StatPercentEditor<32>[10]
 StatPercentageOfSocket[10]
 ItemRange
 Display_lang
-Field_7_2_0_23478_013_lang
-Field_7_2_0_23478_014_lang
-Field_7_2_0_23478_015_lang
+Display1_lang
+Display2_lang
+Display3_lang
 Description_lang
 BagFamily<u32>
 QualityModifier
@@ -1200,9 +1191,9 @@ StatPercentEditor<32>[10]
 StatPercentageOfSocket[10]
 ItemRange
 Display_lang
-Field_7_2_0_23623_014_lang
-Field_7_2_0_23623_015_lang
-Field_7_2_0_23623_016_lang
+Display1_lang
+Display2_lang
+Display3_lang
 Description_lang
 BagFamily<u32>
 QualityModifier

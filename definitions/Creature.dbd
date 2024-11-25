@@ -1,5 +1,5 @@
 COLUMNS
-string Field_6_0_1_18179_008?
+string TitleAlt_lang?
 int ID
 int AlwaysItem
 int Classification
@@ -12,7 +12,6 @@ locstring Name_lang
 locstring NameAlt_lang
 int StartAnimState
 locstring Title_lang
-locstring TitleAlt_lang
 int Field_5_0_1_15464_001?
 int Field_5_0_1_15464_002?
 int Field_5_0_1_15464_004?
@@ -24,9 +23,6 @@ int Field_5_0_1_15589_003?
 int Field_5_0_1_15589_004?
 int Field_5_0_1_15650_002?
 int Field_5_0_1_15650_003?
-string Field_7_1_0_22636_004?
-string Field_7_1_0_22636_005? // DBAnalyser: [Field_6_0_1_18179_008, 1%]
-string Field_7_1_0_22636_007? // DBAnalyser: [Field_6_0_1_18179_008, 1%]
 
 BUILD 5.0.1.15589
 $id$ID<32>
@@ -87,7 +83,7 @@ DisplayID<32>[4]
 DisplayProbability[4]
 Name_lang
 Title_lang
-Field_6_0_1_18179_008
+TitleAlt_lang
 Classification<32>
 StartAnimState<32>
 
@@ -99,10 +95,10 @@ AlwaysItem<32>[3]
 MountCreatureID<32>
 DisplayID<32>[4]
 DisplayProbability[4]
-Field_7_1_0_22636_004
-Field_7_1_0_22636_005
-Field_6_0_1_18179_008
-Field_7_1_0_22636_007
+Name_lang
+NameAlt_lang
+Title_lang
+TitleAlt_lang
 CreatureType<8>
 CreatureFamily<8>
 Classification<8>

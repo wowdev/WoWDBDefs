@@ -16,7 +16,6 @@ int<GameObjectDisplayInfo::ID> SmallDisplayInfoID
 int<UiTextureKit::ID> UiTextureKitID
 int<GameObjectDisplayInfo::ID> WorkingDisplayInfoID // used by gameobject code to determine if in "in progress" state...
 int<SpellVisual::ID> WorkingSpellVisualID // if both are same as in gameobject mirrors, it is in progress
-int Field_7_1_0_22636_001? // DBAnalyser: [WorkingSpellVisualID, 0,48%]
 
 LAYOUT 5369BFD6
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -115,11 +114,11 @@ $noninline,id$ID<32>
 PendingText_lang
 Description_lang
 UiTextureKitID<16>
-WorkingDisplayInfoID<16>
-SmallDisplayInfoID<16>
-MediumDisplayInfoID<16>
-LargeDisplayInfoID<16>
-Field_7_1_0_22636_001<16>
+WorkingDisplayInfoID<u16>
+SmallDisplayInfoID<u16>
+MediumDisplayInfoID<u16>
+LargeDisplayInfoID<u16>
+WorkingSpellVisualID<u16>
 BaseCapacity<8>
 GarrBuildingType<8>
 GarrTypeID<8>

@@ -9,7 +9,6 @@ int Field_1_13_0_28211_000?
 int Field_1_13_0_28211_002?
 int Field_1_13_0_28211_003?
 int Field_1_13_0_28211_004?
-int Field_7_2_0_23445_003? // DBAnalyser: [WMOGroupID, 0,67%]
 
 LAYOUT F1BD499A
 BUILD 1.13.0.28211, 1.13.0.28377
@@ -54,7 +53,7 @@ $noninline,id$ID<32>
 MinZ
 DoodadPlacementID<u32>
 MapID<u16>
-Field_7_2_0_23445_003<u16>
+WMOGroupID<u16>
 DungeonMapID<u16>
 
 LAYOUT A2D6F6E2

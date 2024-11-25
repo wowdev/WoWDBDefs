@@ -21,15 +21,6 @@ int HonorPoints
 int ArenaPoints
 int<ItemPurchaseGroup::ID> ItemPurchaseGroup
 int RequiredGuildLevel?
-int Field_7_1_0_22636_006? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%], [Field_6_0_1_18179_001, 0,95%], [Field_6_0_1_18179_002, 0,95%], [Field_6_0_1_18179_007, 0,95%], [Field_6_0_1_18179_010, 0,95%], [Field_6_0_1_18179_011, 0,95%], [Field_6_0_1_18179_013, 0,95%], [Field_6_0_1_18179_014, 0,95%]
-int Field_7_1_0_22636_007? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%], [Field_6_0_1_18179_001, 0,95%], [Field_6_0_1_18179_002, 0,95%], [Field_6_0_1_18179_007, 0,95%], [Field_6_0_1_18179_010, 0,95%], [Field_6_0_1_18179_011, 0,95%], [Field_6_0_1_18179_013, 0,95%], [Field_6_0_1_18179_014, 0,95%]
-int Field_7_1_0_22636_009? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%], [Field_6_0_1_18179_001, 0,95%], [Field_6_0_1_18179_002, 0,95%], [Field_6_0_1_18179_007, 0,95%], [Field_6_0_1_18179_010, 0,95%], [Field_6_0_1_18179_011, 0,95%], [Field_6_0_1_18179_013, 0,95%], [Field_6_0_1_18179_014, 0,95%]
-int Field_7_2_0_23445_006? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%], [Field_7_1_0_22636_006, 0,95%], [Field_7_1_0_22636_007, 0,95%], [Field_7_1_0_22636_009, 0,95%]
-int Field_7_2_0_23445_007? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%], [Field_7_1_0_22636_006, 0,95%], [Field_7_1_0_22636_007, 0,95%], [Field_7_1_0_22636_009, 0,95%]
-int Field_7_2_0_23445_009? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%], [Field_7_1_0_22636_006, 0,95%], [Field_7_1_0_22636_007, 0,95%], [Field_7_1_0_22636_009, 0,95%]
-int Field_7_2_0_23478_006? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%], [Field_7_2_0_23445_006, 0,95%], [Field_7_2_0_23445_007, 0,95%], [Field_7_2_0_23445_009, 0,95%]
-int Field_7_2_0_23478_007? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%], [Field_7_2_0_23445_006, 0,95%], [Field_7_2_0_23445_007, 0,95%], [Field_7_2_0_23445_009, 0,95%]
-int Field_7_2_0_23478_009? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%], [Field_7_2_0_23445_006, 0,95%], [Field_7_2_0_23445_007, 0,95%], [Field_7_2_0_23445_009, 0,95%]
 
 BUILD 2.0.0.5610-2.2.0.7272
 $id$ID<32>
@@ -112,10 +103,10 @@ ItemCount<16>[5]
 RequiredArenaRating<16>
 CurrencyID<16>[5]
 ArenaBracket<8>
-Field_7_1_0_22636_006<8>
-Field_7_1_0_22636_007<8>
+MinFactionID<u8>
+MinReputation<u8>
 Flags<8>
-Field_7_1_0_22636_009<8>
+RequiredAchievement<8>
 
 LAYOUT 8A669FBF
 BUILD 7.2.0.23445, 7.2.0.23470, 7.2.0.23476
@@ -126,10 +117,10 @@ ItemCount<u16>[5]
 RequiredArenaRating<u16>
 CurrencyID<u16>[5]
 ArenaBracket<u8>
-Field_7_2_0_23445_006<u8>
-Field_7_2_0_23445_007<u8>
+MinFactionID<u8>
+MinReputation<u8>
 Flags<u8>
-Field_7_2_0_23445_009<u8>
+RequiredAchievement<u8>
 
 LAYOUT A69B7665
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
@@ -141,10 +132,10 @@ ItemCount<u16>[5]
 RequiredArenaRating<u16>
 CurrencyID<u16>[5]
 ArenaBracket<u8>
-Field_7_2_0_23478_006<u8>
-Field_7_2_0_23478_007<u8>
+MinFactionID<u8>
+MinReputation<u8>
 Flags<u8>
-Field_7_2_0_23478_009<u8>
+RequiredAchievement<u8>
 
 LAYOUT C31F4DEF
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

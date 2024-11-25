@@ -7,8 +7,6 @@ float Param
 int RequiredUpgradeLevel
 int SpecType
 locstring Tooltip_lang
-string Field_7_1_0_22636_002?
-string Field_7_1_0_22636_003?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -26,8 +24,8 @@ BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.228
 $noninline,id$ID<32>
 IconFileDataID<32>
 Param[2]
-Field_7_1_0_22636_002
-Field_7_1_0_22636_003
+Name_lang
+Tooltip_lang
 BuildingType<8>
 SpecType<8>
 RequiredUpgradeLevel<8>

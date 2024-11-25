@@ -24,21 +24,11 @@ int<GarrTalent::ID> PrerequisiteTalentID
 int ResearchCostSource // 0: Talent, 1: Tree
 int ActiveDurationSecs
 int<GarrTalentSocketProperties::ID> GarrTalentSocketPropertiesID
-string Field_7_1_0_22636_001?
-string Field_7_1_0_22636_002?
 int Field_7_1_0_22636_003? // DBAnalyser: [ResearchDurationSecs, 0,36%]
 int Field_7_1_0_22636_006? // DBAnalyser: [Flags, 0,95%], [ResearchGoldCost, 0,95%], [RespecGoldCost, 0,95%]
 int Field_7_1_0_22636_011? // DBAnalyser: [ResearchCost, 0,18%]
 int Field_7_1_0_22636_013? // DBAnalyser: [Flags, 0,95%], [ResearchGoldCost, 0,95%], [RespecGoldCost, 0,95%]
 int Field_7_1_0_22636_019? // DBAnalyser: [Flags, 0,95%], [ResearchGoldCost, 0,95%], [RespecGoldCost, 0,95%]
-int Field_7_2_0_23445_006? // DBAnalyser: [Flags, 0,95%], [ResearchGoldCost, 0,95%], [RespecGoldCost, 0,95%], [Field_7_1_0_22636_006, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_019, 0,95%]
-int Field_7_2_0_23445_013? // DBAnalyser: [Flags, 0,95%], [ResearchGoldCost, 0,95%], [RespecGoldCost, 0,95%], [Field_7_1_0_22636_006, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_019, 0,95%]
-int Field_7_2_0_23445_019? // DBAnalyser: [Flags, 0,95%], [ResearchGoldCost, 0,95%], [RespecGoldCost, 0,95%], [Field_7_1_0_22636_006, 0,95%], [Field_7_1_0_22636_013, 0,95%], [Field_7_1_0_22636_019, 0,95%]
-int Field_7_2_0_23478_003? // DBAnalyser: [ResearchDurationSecs, 1%], [Field_7_1_0_22636_003, 1%]
-int Field_7_2_0_23478_006? // DBAnalyser: [Flags, 0,95%], [ResearchGoldCost, 0,95%], [RespecGoldCost, 0,95%], [Field_7_2_0_23445_006, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_019, 0,95%]
-int Field_7_2_0_23478_011? // DBAnalyser: [ResearchCost, 1%], [Field_7_1_0_22636_011, 1%]
-int Field_7_2_0_23478_013? // DBAnalyser: [Flags, 0,95%], [ResearchGoldCost, 0,95%], [RespecGoldCost, 0,95%], [Field_7_2_0_23445_006, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_019, 0,95%]
-int Field_7_2_0_23478_019? // DBAnalyser: [Flags, 0,95%], [ResearchGoldCost, 0,95%], [RespecGoldCost, 0,95%], [Field_7_2_0_23445_006, 0,95%], [Field_7_2_0_23445_013, 0,95%], [Field_7_2_0_23445_019, 0,95%]
 
 LAYOUT 2922ABC2
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -130,8 +120,8 @@ LAYOUT 2CD56738
 BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
 IconFileDataID<32>
-Field_7_1_0_22636_001
-Field_7_1_0_22636_002
+Name_lang
+Description_lang
 Field_7_1_0_22636_003<32>
 Tier<8>
 UiOrder<8>
@@ -158,20 +148,20 @@ Description_lang
 Field_7_1_0_22636_003<32>
 Tier<8>
 UiOrder<8>
-Field_7_2_0_23445_006<8>
+Field_7_1_0_22636_006<8>
 $id$ID<32>
 GarrTalentTreeID<u32>
 GarrAbilityID<u32>
 PlayerConditionID<u32>
 Field_7_1_0_22636_011<32>
 ResearchCostCurrencyTypesID<u32>
-Field_7_2_0_23445_013<32>
+Field_7_1_0_22636_013<32>
 PerkSpellID<u32>
 PerkPlayerConditionID<u32>
 RespecCost<32>
 RespecCostCurrencyTypesID<u32>
 RespecDurationSecs<32>
-Field_7_2_0_23445_019<32>
+Field_7_1_0_22636_019<32>
 
 LAYOUT 2AAEEA1A
 BUILD 7.2.5.23958, 7.2.5.23959, 7.2.5.23993, 7.2.5.24026, 7.2.5.24076, 7.2.5.24116, 7.2.5.24140, 7.2.5.24163, 7.2.5.24218, 7.2.5.24236, 7.2.5.24271, 7.2.5.24287, 7.2.5.24330, 7.2.5.24367, 7.2.5.24414, 7.2.5.24415, 7.2.5.24430, 7.2.5.24461, 7.2.5.24742, 7.2.5.24937
@@ -179,23 +169,23 @@ BUILD 7.2.0.23478, 7.2.0.23578, 7.2.0.23623, 7.2.0.23657, 7.2.0.23699, 7.2.0.237
 IconFileDataID<32>
 Name_lang
 Description_lang
-Field_7_2_0_23478_003<32>
+Field_7_1_0_22636_003<32>
 Tier<8>
 UiOrder<8>
-Field_7_2_0_23478_006<8>
+Field_7_1_0_22636_006<8>
 $id$ID<32>
 GarrTalentTreeID<u32>
 GarrAbilityID<u32>
 PlayerConditionID<u32>
-Field_7_2_0_23478_011<32>
+Field_7_1_0_22636_011<32>
 ResearchCostCurrencyTypesID<u32>
-Field_7_2_0_23478_013<32>
+Field_7_1_0_22636_013<32>
 PerkSpellID<u32>
 PerkPlayerConditionID<u32>
 RespecCost<32>
 RespecCostCurrencyTypesID<u32>
 RespecDurationSecs<32>
-Field_7_2_0_23478_019<32>
+Field_7_1_0_22636_019<32>
 
 LAYOUT FA331244
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

@@ -68,11 +68,6 @@ float DmgVariance
 int CurrencySubstitutionID
 int CurrencySubstitutionCount
 int<ItemNameDescription::ID> ItemNameDescriptionID
-int Field_7_1_0_22636_003? // DBAnalyser: [BuyPrice, 0,65%]
-int Field_7_1_0_22636_004? // DBAnalyser: [SellPrice, 0,71%]
-string Field_7_1_0_22636_014? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
-string Field_7_1_0_22636_015? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
-string Field_7_1_0_22636_016? // DBAnalyser: [Display1_lang, 1%], [Display2_lang, 1%], [Display3_lang, 1%]
 int Field_7_1_0_22636_018?
 int Field_7_1_0_22636_041?
 int Field_7_1_0_22636_046? // DBAnalyser: [RequiredHonorRank, 0,95%], [RequiredCityRank, 0,95%]
@@ -222,10 +217,10 @@ $noninline,id$ID<32>
 Flags<32>[3]
 PriceRandomValue
 PriceVariance
-Field_7_1_0_22636_003<32>
-Field_7_1_0_22636_004<32>
+BuyPrice<32>
+SellPrice<32>
 AllowableClass<32>
-AllowableRace<32> // DBAnalyser:
+AllowableRace<32>
 RequiredSpell<32>
 MaxCount<32>
 Stackable<32>
@@ -233,9 +228,9 @@ ItemScalingValue<32>[10]
 ItemSocketCostRate[10]
 RangedModRange
 Display_lang
-Field_7_1_0_22636_014
-Field_7_1_0_22636_015
-Field_7_1_0_22636_016
+Display1_lang
+Display2_lang
+Display3_lang
 Description_lang
 Field_7_1_0_22636_018<32>
 ArmorDamageModifier
@@ -258,7 +253,7 @@ Area<16>
 Map<16>
 SocketBonus<16>
 GemProperties<16>
-ItemLimitCategory<16> // DBAnalyser:
+ItemLimitCategory<16>
 HolidayID<16>
 Field_7_1_0_22636_041<16>
 Quality<8>
@@ -269,7 +264,7 @@ Field_7_1_0_22636_046<8>
 Field_7_1_0_22636_047<8>
 RequiredReputationRank<8>
 ContainerSlots<8>
-ItemStatType<8>[10] // DBAnalyser: [ItemStatType, 0,94%]
+ItemStatType<8>[10]
 DamageType<8>
 Bonding<8>
 LanguageID<8>
@@ -278,7 +273,7 @@ Material<8>
 Sheath<8>
 ScalingStatDistributionID<8>
 Color<8>[3]
-CurrencySubstitutionID<8> // DBAnalyser:
-CurrencySubstitutionCount<8> // DBAnalyser:
+CurrencySubstitutionID<8>
+CurrencySubstitutionCount<8>
 Field_7_1_0_22636_061<8>
 Field_7_1_0_22636_062<8>

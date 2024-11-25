@@ -11,14 +11,6 @@ int SrcType
 int SrcVal
 int SrcValType
 int Style
-int Field_7_1_0_22731_002?
-int Field_7_1_0_22731_003?
-int Field_7_1_0_22731_004?
-int Field_7_1_0_22731_005?
-int Field_7_1_0_22731_006?
-int Field_7_1_0_22731_007?
-int Field_7_1_0_22731_008?
-int Field_7_1_0_22731_009?
 
 LAYOUT 92879D48
 BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722
@@ -41,14 +33,14 @@ BUILD 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.228
 $noninline,id$ID<32>
 ParamA
 ParamB
-Field_7_1_0_22731_002<16>
-Field_7_1_0_22731_003<16>
-Field_7_1_0_22731_004<8>
-Field_7_1_0_22731_005<8>
-Field_7_1_0_22731_006<8>
-Field_7_1_0_22731_007<8>
-Field_7_1_0_22731_008<8>
-Field_7_1_0_22731_009<8>
+SrcValType<16>
+DstValType<16>
+EntryType<8>
+Style<8>
+SrcType<8>
+SrcVal<8>
+DstVal<8>
+DstType<8>
 CurveID<32>
 
 LAYOUT 93B0B141
