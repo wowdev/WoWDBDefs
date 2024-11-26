@@ -91,6 +91,20 @@ namespace DBDefsTest
                         Console.ResetColor();
                     }
                 }
+
+                foreach (var versionDefinition in definition.Value.versionDefinitions)
+                {
+                    foreach (var column in versionDefinition.definitions)
+                    {
+                        if (column.isRelation && column.isNonInline && column.arrLength > 1)
+                        {
+                            errorEncountered.Add(definition.Key);
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine(definition.Key + "." + column.name + " is a non-inline relation with an array length greater than 1 (" + column.arrLength + ")!");
+                            Console.ResetColor();
+                        }
+                    }
+                }
             }
 
             Console.WriteLine("Checked " + foreignKeys + " foreign keys!");
@@ -179,6 +193,7 @@ namespace DBDefsTest
                 Console.WriteLine("There have been errors in the following DBDs:");
                 foreach (var dbName in errorEncountered)
                     Console.WriteLine(" - " + dbName);
+                Console.ResetColor();
                 Environment.Exit(1);
             }
             else

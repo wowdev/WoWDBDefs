@@ -68,6 +68,12 @@ float DmgVariance
 int CurrencySubstitutionID
 int CurrencySubstitutionCount
 int<ItemNameDescription::ID> ItemNameDescriptionID
+int Field_7_1_0_22636_018?
+int Field_7_1_0_22636_041?
+int Field_7_1_0_22636_046? // DBAnalyser: [RequiredHonorRank, 0,95%], [RequiredCityRank, 0,95%]
+int Field_7_1_0_22636_047? // DBAnalyser: [RequiredHonorRank, 0,95%], [RequiredCityRank, 0,95%]
+int Field_7_1_0_22636_061? // DBAnalyser: [RequiredHonorRank, 0,95%], [RequiredCityRank, 0,95%]
+int Field_7_1_0_22636_062?
 
 BUILD 5.4.7.17898-5.4.8.18414
 $id$ID<32>
@@ -202,3 +208,72 @@ DmgVariance
 CurrencySubstitutionID<32>
 CurrencySubstitutionCount<32>
 ItemNameDescriptionID<32>
+
+LAYOUT F62C72EE
+BUILD 7.1.5.23109, 7.1.5.23138, 7.1.5.23178, 7.1.5.23194, 7.1.5.23244, 7.1.5.23353, 7.1.5.23360
+BUILD 7.1.0.22636, 7.1.0.22685, 7.1.0.22722, 7.1.0.22731, 7.1.0.22797, 7.1.0.22819, 7.1.0.22844, 7.1.0.22852, 7.1.0.22864, 7.1.0.22882, 7.1.0.22900, 7.1.0.22908, 7.1.0.22950, 7.1.0.22989, 7.1.0.22995, 7.1.0.23171, 7.1.0.23222
+COMMENT table is sparse
+$noninline,id$ID<32>
+Flags<32>[3]
+PriceRandomValue
+PriceVariance
+BuyPrice<32>
+SellPrice<32>
+AllowableClass<32>
+AllowableRace<32>
+RequiredSpell<32>
+MaxCount<32>
+Stackable<32>
+ItemScalingValue<32>[10]
+ItemSocketCostRate[10]
+RangedModRange
+Display_lang
+Display1_lang
+Display2_lang
+Display3_lang
+Description_lang
+Field_7_1_0_22636_018<32>
+ArmorDamageModifier
+Duration<32>
+DmgVariance
+ItemLevel<16>
+RequiredSkill<16>
+RequiredSkillRank<16>
+RequiredReputationFaction<16>
+ItemStatValue<16>[10]
+TotemCategory<16>
+Delay<16>
+PageText<16>
+StartQuest<16>
+LockID<16>
+RandomProperty<16>
+RandomSuffix<16>
+ItemSet<16>
+Area<16>
+Map<16>
+SocketBonus<16>
+GemProperties<16>
+ItemLimitCategory<16>
+HolidayID<16>
+Field_7_1_0_22636_041<16>
+Quality<8>
+BuyCount<8>
+InventoryType<8>
+RequiredLevel<8>
+Field_7_1_0_22636_046<8>
+Field_7_1_0_22636_047<8>
+RequiredReputationRank<8>
+ContainerSlots<8>
+ItemStatType<8>[10]
+DamageType<8>
+Bonding<8>
+LanguageID<8>
+PageMaterialID<8>
+Material<8>
+Sheath<8>
+ScalingStatDistributionID<8>
+Color<8>[3]
+CurrencySubstitutionID<8>
+CurrencySubstitutionCount<8>
+Field_7_1_0_22636_061<8>
+Field_7_1_0_22636_062<8>
