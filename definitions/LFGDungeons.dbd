@@ -37,9 +37,9 @@ int<FileData::ID> RewardsBgTextureFileID
 int Difficulty
 int<ContentTuning::ID> ContentTuningID
 int MaxPremadeGroupSize?
-int Unknown_count_tank?
-int Unknown_count_healer?
-int Unknown_count_damage?
+int Max_premade_count_tank?
+int Max_premade_count_healer?
+int Max_premade_count_damage?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -1012,9 +1012,9 @@ Count_damage<u8>
 Min_count_tank<u8>
 Min_count_healer<u8>
 Min_count_damage<u8>
-Unknown_count_tank<u8>
-Unknown_count_healer<u8>
-Unknown_count_damage<u8>
+Max_premade_count_tank<u8>
+Max_premade_count_healer<u8>
+Max_premade_count_damage<u8>
 Bonus_reputation_amount<u16>
 MentorItemLevel<u16>
 MentorCharLevel<u8>
