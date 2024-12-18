@@ -12,6 +12,30 @@ int<QuestV2::ID> RewardQuestID
 int UiWidgetSetID?
 int<UIMapPinInfo::ID> UiMapPinInfoID?
 int ObjectiveType?
+locstring Field_1_15_6_58185_000_lang?
+int Field_1_15_6_58185_001?
+int Field_1_15_6_58185_002?
+int Field_1_15_6_58185_003?
+int Field_1_15_6_58185_004?
+float Field_1_15_6_58185_005?
+float Field_1_15_6_58185_006?
+int Field_1_15_6_58185_007?
+int Field_1_15_6_58185_008?
+int Field_1_15_6_58185_009?
+
+LAYOUT A6472C0E
+BUILD 1.15.6.58185
+$noninline,id$ID<32>
+Field_1_15_6_58185_000_lang
+Field_1_15_6_58185_001<u32>
+Field_1_15_6_58185_002<u32>
+Field_1_15_6_58185_003<u32>
+Field_1_15_6_58185_004<32>
+Field_1_15_6_58185_005
+Field_1_15_6_58185_006
+Field_1_15_6_58185_007<8>
+Field_1_15_6_58185_008<32>
+Field_1_15_6_58185_009<8>
 
 LAYOUT DCB9DC5F
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
