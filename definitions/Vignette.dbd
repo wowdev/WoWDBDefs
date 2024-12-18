@@ -12,29 +12,20 @@ int<QuestV2::ID> RewardQuestID
 int UiWidgetSetID?
 int<UIMapPinInfo::ID> UiMapPinInfoID?
 int ObjectiveType?
-locstring Field_1_15_6_58185_000_lang?
-int Field_1_15_6_58185_001?
-int Field_1_15_6_58185_002?
-int Field_1_15_6_58185_003?
-int Field_1_15_6_58185_004?
-float Field_1_15_6_58185_005?
-float Field_1_15_6_58185_006?
-int Field_1_15_6_58185_007?
-int Field_1_15_6_58185_008?
 int Field_1_15_6_58185_009?
 
 LAYOUT A6472C0E
 BUILD 1.15.6.58185
 $noninline,id$ID<32>
-Field_1_15_6_58185_000_lang
-Field_1_15_6_58185_001<u32>
-Field_1_15_6_58185_002<u32>
-Field_1_15_6_58185_003<u32>
-Field_1_15_6_58185_004<32>
-Field_1_15_6_58185_005
-Field_1_15_6_58185_006
-Field_1_15_6_58185_007<8>
-Field_1_15_6_58185_008<32>
+Name_lang
+PlayerConditionID<u32>
+VisibleTrackingQuestID<u32>
+QuestFeedbackEffectID<u32>
+Flags<32>
+MaxHeight
+MinHeight
+VignetteType<8>
+RewardQuestID<32>
 Field_1_15_6_58185_009<8>
 
 LAYOUT DCB9DC5F
