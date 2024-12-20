@@ -40,8 +40,8 @@ int<SoundEntries::ID> TauntSoundID
 int<SoundEntries::ID> WindupCriticalSoundID
 int<SoundEntries::ID> WindupSoundID
 int Field_10_1_5_50006_036?
-int Field_11_1_0_58221_005? //  DBAnalyser: [SoundInjuryCrushingBlowID, 0,95%], [NPCSoundID, 0,95%]
-int Field_11_1_0_58221_035? //  DBAnalyser: [SoundInjuryCrushingBlowID, 0,95%], [NPCSoundID, 0,95%]
+int Field_11_1_0_58221_005? // DBAnalyser: [SoundInjuryCrushingBlowID, 0,95%], [NPCSoundID, 0,95%]
+int Field_11_1_0_58221_035? // DBAnalyser: [SoundInjuryCrushingBlowID, 0,95%], [NPCSoundID, 0,95%]
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368

@@ -48,12 +48,12 @@ locstring TitleName_lang
 int Vitality
 int<GarrAutoCombatant::ID> AutoCombatantID
 int<Covenant::ID> CovenantID
-int Field_11_1_0_58221_013? //  DBAnalyser: [ItemLevelWeapon, 1%], [ItemLevelArmor, 1%]
-int Field_11_1_0_58221_014? //  DBAnalyser: [ItemLevelWeapon, 1%], [ItemLevelArmor, 1%]
-int Field_11_1_0_58221_024? //  DBAnalyser: [HordeFlavorGarrStringID, 1%], [AllianceFlavorGarrStringID, 1%]
-int Field_11_1_0_58221_025? //  DBAnalyser: [HordeFlavorGarrStringID, 1%], [AllianceFlavorGarrStringID, 1%]
-int Field_11_1_0_58221_026? //  DBAnalyser: [HordeSlottingBroadcastTextID, 1%], [AllySlottingBroadcastTextID, 0,99%]
-int Field_11_1_0_58221_027? //  DBAnalyser: [AllySlottingBroadcastTextID, 1%], [HordeSlottingBroadcastTextID, 0,99%]
+int Field_11_1_0_58221_013? // DBAnalyser: [ItemLevelWeapon, 1%], [ItemLevelArmor, 1%]
+int Field_11_1_0_58221_014? // DBAnalyser: [ItemLevelWeapon, 1%], [ItemLevelArmor, 1%]
+int Field_11_1_0_58221_024? // DBAnalyser: [HordeFlavorGarrStringID, 1%], [AllianceFlavorGarrStringID, 1%]
+int Field_11_1_0_58221_025? // DBAnalyser: [HordeFlavorGarrStringID, 1%], [AllianceFlavorGarrStringID, 1%]
+int Field_11_1_0_58221_026? // DBAnalyser: [HordeSlottingBroadcastTextID, 1%], [AllySlottingBroadcastTextID, 0,99%]
+int Field_11_1_0_58221_027? // DBAnalyser: [AllySlottingBroadcastTextID, 1%], [HordeSlottingBroadcastTextID, 0,99%]
 
 LAYOUT 88765B9E
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

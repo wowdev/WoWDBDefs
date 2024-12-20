@@ -18,15 +18,15 @@ float AlteredFormCustomizeRotation? // Fall back to ChrRaces if not set
 float ChrModel_9_0_1_35522_001Override? // moved to ChrClassUIChrModelInfo
 float ChrModel_9_0_1_35522_001Override_Female? // moved to ChrClassUIChrModelInfo
 int CharacterCreationAnimLoopWaitTimeMs // fall back to column in ChrClasses if notset
-locstring Field_11_1_0_58221_000_lang? //  DBAnalyser: [ZoneName_lang, 0,79%]
-int Field_11_1_0_58221_004? //  DBAnalyser: [ChrClassesID, 0,79%]
-int Field_11_1_0_58221_005? //  DBAnalyser: [ZoneImageAtlas, 0,78%]
-int Field_11_1_0_58221_006? //  DBAnalyser: [MaleCharacterCreationIdleVisual, 0,86%], [CharacterCreationIdleGroundVisual, 0,86%]
-int Field_11_1_0_58221_007? //  DBAnalyser: [MaleCharacterCreationVisual, 0,86%]
-int Field_11_1_0_58221_010? //  DBAnalyser: [MaleCharacterCreationVisual, 0,86%]
+locstring Field_11_1_0_58221_000_lang? // DBAnalyser: [ZoneName_lang, 0,79%]
+int Field_11_1_0_58221_004? // DBAnalyser: [ChrClassesID, 0,79%]
+int Field_11_1_0_58221_005? // DBAnalyser: [ZoneImageAtlas, 0,78%]
+int Field_11_1_0_58221_006? // DBAnalyser: [MaleCharacterCreationIdleVisual, 0,86%], [CharacterCreationIdleGroundVisual, 0,86%]
+int Field_11_1_0_58221_007? // DBAnalyser: [MaleCharacterCreationVisual, 0,86%]
+int Field_11_1_0_58221_010? // DBAnalyser: [MaleCharacterCreationVisual, 0,86%]
 int Field_11_1_0_58221_012?
-int Field_11_1_0_58221_014? //  DBAnalyser: [AlteredFormCharacterCreationIdleVisual, 0,95%], [CharacterCreationAnimLoopWaitTimeMs, 0,95%]
-int Field_11_1_0_58221_015? //  DBAnalyser: [ChrRacesID, 0,78%]
+int Field_11_1_0_58221_014? // DBAnalyser: [AlteredFormCharacterCreationIdleVisual, 0,95%], [CharacterCreationAnimLoopWaitTimeMs, 0,95%]
+int Field_11_1_0_58221_015? // DBAnalyser: [ChrRacesID, 0,78%]
 
 LAYOUT CC89E761
 BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392

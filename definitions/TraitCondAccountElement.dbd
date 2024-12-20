@@ -2,9 +2,6 @@ COLUMNS
 int Field_11_0_0_54675_000?
 int ID?
 int Field_11_0_0_54675_002?
-int Field_11_1_0_58221_000?
-int Field_11_1_0_58221_001?
-int Field_11_1_0_58221_002?
 int Field_11_1_0_58221_003?
 int Field_11_1_0_58221_004?
 
@@ -29,8 +26,8 @@ $relation$Field_11_0_0_54675_002<32>
 
 LAYOUT CC2EA83A
 BUILD 11.1.0.58221
-Field_11_1_0_58221_000<64>
-$id$Field_11_1_0_58221_001<32>
-$relation$Field_11_1_0_58221_002<32>
+Field_11_0_0_54675_000<64>
+$id$ID<32>
+$relation$Field_11_0_0_54675_002<32>
 Field_11_1_0_58221_003<u8>
 Field_11_1_0_58221_004<32>
