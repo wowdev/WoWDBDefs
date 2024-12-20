@@ -1052,6 +1052,7 @@ namespace DBDefsDumper
                     {
                         case 0 | 0 | 0 | 0:
                         case 0 | 0 | FieldFlags.f_maybe_compressed | 0:
+                        case 0 | 0 | FieldFlags.f_maybe_compressed | FieldFlags.f_maybe_fk:
                             return ("int", 8);
                         case 0 | FieldFlags.f_unsigned | 0 | 0:
                         case 0 | FieldFlags.f_unsigned | FieldFlags.f_maybe_compressed | 0:
