@@ -4,6 +4,10 @@ int<ChrClasses::ID> ChrClassID
 int Purpose
 int Racemask
 int ModID?
+int Field_11_1_0_58221_000?
+int Field_11_1_0_58221_001?
+int Field_11_1_0_58221_002?
+int Field_11_1_0_58221_003?
 
 LAYOUT 358CA301
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -175,3 +179,11 @@ Racemask<64>
 ChrClassID<8>
 Purpose<32>
 ModID<u8>
+
+LAYOUT 3367E385
+BUILD 11.1.0.58221
+$noninline,id$ID<32>
+Field_11_1_0_58221_000<64>
+Field_11_1_0_58221_001<8>
+Field_11_1_0_58221_002<32>
+Field_11_1_0_58221_003<u8>

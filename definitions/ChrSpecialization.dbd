@@ -244,3 +244,19 @@ SpellIconFileID<32>
 PrimaryStatPriority<8>
 AnimReplacements<32>
 MasterySpellID<32>[2]
+
+LAYOUT BF17DE0B
+BUILD 11.1.0.58221
+Name_lang
+FemaleName_lang
+Description_lang
+$id$ID<32>
+$relation$ClassID<8>
+OrderIndex<8>
+PetTalentType<8>
+Role<8>
+Flags<u32>
+SpellIconFileID<32>
+PrimaryStatPriority<8>
+AnimReplacements<32>
+MasterySpellID<32>[2]

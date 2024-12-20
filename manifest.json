@@ -1571,6 +1571,16 @@
     "db2FileDataID": 1304325
   },
   {
+    "tableName": "DriveCapability",
+    "tableHash": "8AD39905",
+    "db2FileDataID": 6320418
+  },
+  {
+    "tableName": "DriveCapabilityTier",
+    "tableHash": "C719DFFA",
+    "db2FileDataID": 6336219
+  },
+  {
     "tableName": "DriverBlacklist",
     "tableHash": "4F10F976",
     "db2FileDataID": 922720
@@ -3350,6 +3360,11 @@
     "db2FileDataID": 801709
   },
   {
+    "tableName": "MapChallengeModeAffixCriteria",
+    "tableHash": "917E9CD2",
+    "db2FileDataID": 6374834
+  },
+  {
     "tableName": "MapDifficulty",
     "tableHash": "9265F70D",
     "dbcFileDataID": 841702,
@@ -4351,6 +4366,11 @@
     "tableName": "RibbonQuality",
     "tableHash": "8E858136",
     "db2FileDataID": 1398908
+  },
+  {
+    "tableName": "RolodexType",
+    "tableHash": "DA556D7C",
+    "db2FileDataID": 5936950
   },
   {
     "tableName": "RopeEffect",
@@ -6064,9 +6084,24 @@
     "db2FileDataID": 5754555
   },
   {
+    "tableName": "WarbandSceneAnimChrSpec",
+    "tableHash": "BE40A116",
+    "db2FileDataID": 6238760
+  },
+  {
     "tableName": "WarbandScenePlacement",
     "tableHash": "A1A4FF1E",
     "db2FileDataID": 5736130
+  },
+  {
+    "tableName": "WarbandScenePlacementFilterReq",
+    "tableHash": "A19FF769",
+    "db2FileDataID": 6251586
+  },
+  {
+    "tableName": "WarbandScenePlacementOption",
+    "tableHash": "0BC16617",
+    "db2FileDataID": 6316088
   },
   {
     "tableName": "WarbandScenePlcmntAnimOverride",
@@ -6082,6 +6117,11 @@
     "tableName": "WaypointEdge",
     "tableHash": "AA34F730",
     "db2FileDataID": 2565258
+  },
+  {
+    "tableName": "WaypointMapVolume",
+    "tableHash": "4A319214",
+    "db2FileDataID": 6367989
   },
   {
     "tableName": "WaypointNode",

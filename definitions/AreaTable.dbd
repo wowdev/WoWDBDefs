@@ -792,3 +792,30 @@ WindSettingsID<u8>
 ContentTuningID<32>
 Flags<32>[2]
 LiquidTypeID<u16>[4]
+
+LAYOUT 3F51DE1F
+BUILD 11.1.0.58221
+$noninline,id$ID<32>
+ZoneName
+AreaName_lang
+ContinentID<u16>
+ParentAreaID<u16>
+AreaBit<16>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+AmbienceID<u16>
+UwAmbience<u16>
+ZoneMusic<u16>
+UwZoneMusic<u16>
+IntroSound<u16>
+UwIntroSound<u32>
+FactionGroupMask<u8>
+Ambient_multiplier
+MountFlags<32>
+PvpCombatWorldStateID<16>
+WildBattlePetLevelMin<u8>
+WildBattlePetLevelMax<u8>
+WindSettingsID<u8>
+ContentTuningID<32>
+Flags<32>[2]
+LiquidTypeID<u16>[4]
