@@ -11,17 +11,6 @@ int ColorIndex
 int<FileData::ID> CustomGeoFileDataID
 int<FileData::ID> HdCustomGeoFileDataID
 int Field_8_3_0_32044_010?
-int Field_11_1_0_58221_000?
-int Field_11_1_0_58221_001?
-int Field_11_1_0_58221_002?
-int Field_11_1_0_58221_003?
-int Field_11_1_0_58221_004?
-int Field_11_1_0_58221_005?
-int Field_11_1_0_58221_006?
-int Field_11_1_0_58221_007?
-int Field_11_1_0_58221_008?
-int Field_11_1_0_58221_009?
-int Field_11_1_0_58221_010?
 
 LAYOUT D716D8C3
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -253,14 +242,14 @@ Field_8_3_0_32044_010<8>
 LAYOUT 5B2ACAEF
 BUILD 11.1.0.58221
 $noninline,id$ID<32>
-$relation$Field_11_1_0_58221_000<8>
-Field_11_1_0_58221_001<8>
-Field_11_1_0_58221_002<8>
-Field_11_1_0_58221_003<8>
-Field_11_1_0_58221_004<u8>
-Field_11_1_0_58221_005<8>
-Field_11_1_0_58221_006<8>
-Field_11_1_0_58221_007<8>
-Field_11_1_0_58221_008<32>
-Field_11_1_0_58221_009<32>
-Field_11_1_0_58221_010<8>
+$relation$RaceID<8>
+SexID<8>
+VariationID<8>
+GeosetID<8>
+Showscalp<u8>
+VariationType<8>
+GeosetType<8>
+ColorIndex<8>
+CustomGeoFileDataID<32>
+HdCustomGeoFileDataID<32>
+Field_8_3_0_32044_010<8>

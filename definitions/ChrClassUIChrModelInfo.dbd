@@ -4,10 +4,6 @@ float ChrModel_9_0_1_35522_001Override? // ChrModel::Field_9_0_1_35522_001
 int<ChrModel::ID> ChrModelID
 int<ChrClasses::ID> ChrClassesID
 float ChrCreateFacingOverride // ChrModel::ChrCreateFacing
-float Field_11_1_0_58221_000?
-int Field_11_1_0_58221_001?
-int Field_11_1_0_58221_002?
-float Field_11_1_0_58221_003?
 
 LAYOUT EC04FE04
 BUILD 10.0.0.43342
@@ -59,7 +55,7 @@ ChrCreateFacingOverride
 LAYOUT B1D8F130
 BUILD 11.1.0.58221
 $noninline,id$ID<32>
-Field_11_1_0_58221_000[3]
-Field_11_1_0_58221_001<32>
-Field_11_1_0_58221_002<8>
-Field_11_1_0_58221_003
+ChrModel_9_0_1_35522_001Override[3]
+ChrModelID<32>
+ChrClassesID<8>
+ChrCreateFacingOverride

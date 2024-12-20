@@ -11,15 +11,7 @@ int<PlayerCondition::ID> PlayerConditionID
 int<FlightCapability::ID> FlightCapabilityID?
 int Field_1_15_4_56400_008?
 int Field_1_15_4_56400_009?
-int Field_11_1_0_58221_000?
-int Field_11_1_0_58221_001?
-int Field_11_1_0_58221_002?
 int Field_11_1_0_58221_003?
-int Field_11_1_0_58221_004?
-int Field_11_1_0_58221_005?
-int Field_11_1_0_58221_006?
-int Field_11_1_0_58221_007?
-int Field_11_1_0_58221_008?
 int Field_11_1_0_58221_009?
 
 LAYOUT FA9B7390
@@ -264,13 +256,13 @@ FlightCapabilityID<32>
 LAYOUT A0297DBC
 BUILD 11.1.0.58221
 $noninline,id$ID<32>
-Field_11_1_0_58221_000<32>
-Field_11_1_0_58221_001<u16>
-Field_11_1_0_58221_002<u16>
+Flags<32>
+ReqRidingSkill<u16>
+ReqAreaID<u16>
 Field_11_1_0_58221_003<u32>
-Field_11_1_0_58221_004<32>
-Field_11_1_0_58221_005<32>
-Field_11_1_0_58221_006<16>
-Field_11_1_0_58221_007<32>
-Field_11_1_0_58221_008<32>
+ReqSpellKnownID<32>
+ModSpellAuraID<32>
+ReqMapID<16>
+PlayerConditionID<32>
+FlightCapabilityID<32>
 Field_11_1_0_58221_009<32>

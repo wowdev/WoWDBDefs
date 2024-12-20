@@ -18,22 +18,15 @@ float AlteredFormCustomizeRotation? // Fall back to ChrRaces if not set
 float ChrModel_9_0_1_35522_001Override? // moved to ChrClassUIChrModelInfo
 float ChrModel_9_0_1_35522_001Override_Female? // moved to ChrClassUIChrModelInfo
 int CharacterCreationAnimLoopWaitTimeMs // fall back to column in ChrClasses if notset
-locstring Field_11_1_0_58221_000_lang?
-float Field_11_1_0_58221_001?
-float Field_11_1_0_58221_002?
-float Field_11_1_0_58221_003?
-int Field_11_1_0_58221_004?
-int Field_11_1_0_58221_005?
-int Field_11_1_0_58221_006?
-int Field_11_1_0_58221_007?
-int Field_11_1_0_58221_008?
-int Field_11_1_0_58221_009?
-int Field_11_1_0_58221_010?
-int Field_11_1_0_58221_011?
+locstring Field_11_1_0_58221_000_lang? //  DBAnalyser: [ZoneName_lang, 0,79%]
+int Field_11_1_0_58221_004? //  DBAnalyser: [ChrClassesID, 0,79%]
+int Field_11_1_0_58221_005? //  DBAnalyser: [ZoneImageAtlas, 0,78%]
+int Field_11_1_0_58221_006? //  DBAnalyser: [MaleCharacterCreationIdleVisual, 0,86%], [CharacterCreationIdleGroundVisual, 0,86%]
+int Field_11_1_0_58221_007? //  DBAnalyser: [MaleCharacterCreationVisual, 0,86%]
+int Field_11_1_0_58221_010? //  DBAnalyser: [MaleCharacterCreationVisual, 0,86%]
 int Field_11_1_0_58221_012?
-float Field_11_1_0_58221_013?
-int Field_11_1_0_58221_014?
-int Field_11_1_0_58221_015?
+int Field_11_1_0_58221_014? //  DBAnalyser: [AlteredFormCharacterCreationIdleVisual, 0,95%], [CharacterCreationAnimLoopWaitTimeMs, 0,95%]
+int Field_11_1_0_58221_015? //  DBAnalyser: [ChrRacesID, 0,78%]
 
 LAYOUT CC89E761
 BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324, 9.0.1.34365, 9.0.1.34392
@@ -252,18 +245,18 @@ LAYOUT E32C6E42
 BUILD 11.1.0.58221
 $noninline,id$ID<32>
 Field_11_1_0_58221_000_lang
-Field_11_1_0_58221_001[3]
-Field_11_1_0_58221_002[3]
-Field_11_1_0_58221_003[3]
+AlteredFormCustomizeOffset[3]
+ChrModel_9_0_1_35522_001Override[3]
+ChrModel_9_0_1_35522_001Override_Female[3]
 Field_11_1_0_58221_004<8>
 Field_11_1_0_58221_005<32>
 Field_11_1_0_58221_006<32>
 Field_11_1_0_58221_007<32>
-Field_11_1_0_58221_008<32>
-Field_11_1_0_58221_009<32>
+FemaleCharacterCreationIdleVisual<32>
+FemaleCharacterCreationVisual<32>
 Field_11_1_0_58221_010<32>
-Field_11_1_0_58221_011<32>
+CharacterCreationGroundVisual<32>
 Field_11_1_0_58221_012<32>
-Field_11_1_0_58221_013
+AlteredFormCustomizeRotation
 Field_11_1_0_58221_014<32>
 $noninline,relation$Field_11_1_0_58221_015<8>

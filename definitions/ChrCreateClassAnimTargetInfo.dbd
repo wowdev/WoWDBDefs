@@ -3,10 +3,6 @@ int ID
 int<ChrRaces::ID> ChrRacesID // 0: race-independent fallback
 int Sex // 0: Male, 1: Female, 3: fallback
 int<ChrClasses::ID> ChrClassesID
-int Field_11_1_0_58221_000?
-int Field_11_1_0_58221_001?
-int Field_11_1_0_58221_002?
-int Field_11_1_0_58221_003?
 
 LAYOUT 5D06AB00
 BUILD 10.0.0.43342
@@ -61,7 +57,7 @@ $noninline,relation$ChrClassesID<32>
 
 LAYOUT 1FD437BB
 BUILD 11.1.0.58221
-$id$Field_11_1_0_58221_000<32>
-Field_11_1_0_58221_001<8>
-Field_11_1_0_58221_002<8>
-$noninline,relation$Field_11_1_0_58221_003<8>
+$id$ID<32>
+ChrRacesID<8>
+Sex<8>
+$noninline,relation$ChrClassesID<8>

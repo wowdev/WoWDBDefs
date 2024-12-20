@@ -8,12 +8,6 @@ int Field_8_1_5_29281_004?
 int Flags? // &1: ???, &8: ???
 int Field_8_2_0_30080_005?
 int Field_8_2_0_30080_006?
-locstring Field_11_1_0_58221_000_lang?
-int Field_11_1_0_58221_001?
-int Field_11_1_0_58221_002?
-int Field_11_1_0_58221_003?
-int Field_11_1_0_58221_004?
-int Field_11_1_0_58221_005?
 int Field_11_1_0_58221_006?
 
 LAYOUT F61E3EC2
@@ -94,10 +88,10 @@ Field_8_2_0_30080_006<32>
 LAYOUT 2566DE7B
 BUILD 11.1.0.58221
 $noninline,id$ID<32>
-Field_11_1_0_58221_000_lang
-Field_11_1_0_58221_001<32>
-Field_11_1_0_58221_002<32>
-Field_11_1_0_58221_003<32>
-Field_11_1_0_58221_004<32>
-Field_11_1_0_58221_005<32>
+Name_lang
+SafeLocID<32>
+PlayerConditionID<32>
+Flags<32>
+Field_8_2_0_30080_005<32>
+Field_8_2_0_30080_006<32>
 Field_11_1_0_58221_006<32>

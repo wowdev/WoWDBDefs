@@ -4,10 +4,6 @@ int OrderIndex
 int<QuestV2::ID> QuestID
 int<QuestLine::ID> QuestLineID
 int Flags?
-int Field_11_1_0_58221_000?
-int Field_11_1_0_58221_001?
-int Field_11_1_0_58221_002?
-int Field_11_1_0_58221_003?
 int Field_11_1_0_58221_004?
 
 LAYOUT 83C5B32B
@@ -143,8 +139,8 @@ Flags<32>
 LAYOUT 8552F722
 BUILD 11.1.0.58221
 $noninline,id$ID<32>
-$relation$Field_11_1_0_58221_000<u32>
-Field_11_1_0_58221_001<u32>
-Field_11_1_0_58221_002<u32>
-Field_11_1_0_58221_003<32>
+$relation$QuestLineID<u32>
+QuestID<u32>
+OrderIndex<u32>
+Flags<32>
 Field_11_1_0_58221_004<32>

@@ -3,9 +3,6 @@ int ID
 string Name
 int<ChrRaces::ID> RaceID
 int Sex
-string Field_11_1_0_58221_000?
-int Field_11_1_0_58221_001?
-int Field_11_1_0_58221_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -113,6 +110,6 @@ Sex<u8>
 LAYOUT 3CA45193
 BUILD 11.1.0.58221
 $noninline,id$ID<32>
-Field_11_1_0_58221_000
-Field_11_1_0_58221_001<8>
-Field_11_1_0_58221_002<8>
+Name
+RaceID<8>
+Sex<8>
