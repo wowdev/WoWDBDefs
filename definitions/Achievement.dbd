@@ -21,25 +21,6 @@ int Field_3_0_1_8471_007? // possibly ui_order
 int Field_3_0_1_8303_002?
 int<DisplaySeason::ID> HiddenBeforeDisplaySeason? // hidden in UI before this DisplaySeason is active
 int LegacyAfterTimeEvent? // category changes clientside to Legacy (15234) after this TimeEvent is passed
-locstring Field_11_1_0_58221_000_lang?
-locstring Field_11_1_0_58221_001_lang?
-locstring Field_11_1_0_58221_002_lang?
-int Field_11_1_0_58221_003?
-int Field_11_1_0_58221_004?
-int Field_11_1_0_58221_005?
-int Field_11_1_0_58221_006?
-int Field_11_1_0_58221_007?
-int Field_11_1_0_58221_008?
-int Field_11_1_0_58221_009?
-int Field_11_1_0_58221_010?
-int Field_11_1_0_58221_011?
-int Field_11_1_0_58221_012?
-int Field_11_1_0_58221_013?
-int Field_11_1_0_58221_014?
-int Field_11_1_0_58221_015?
-int Field_11_1_0_58221_016?
-int Field_11_1_0_58221_017?
-int Field_11_1_0_58221_018?
 
 LAYOUT 19FCE7B0
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -491,22 +472,22 @@ LegacyAfterTimeEvent<32>
 
 LAYOUT 6FC5281B
 BUILD 11.1.0.58221
-Field_11_1_0_58221_000_lang
-Field_11_1_0_58221_001_lang
-Field_11_1_0_58221_002_lang
-$id$Field_11_1_0_58221_003<32>
-Field_11_1_0_58221_004<16>
-Field_11_1_0_58221_005<8>
-Field_11_1_0_58221_006<32>
-Field_11_1_0_58221_007<16>
-Field_11_1_0_58221_008<8>
-Field_11_1_0_58221_009<8>
-Field_11_1_0_58221_010<32>
-$relation$Field_11_1_0_58221_011<16>
-Field_11_1_0_58221_012<32>
-Field_11_1_0_58221_013<32>
-Field_11_1_0_58221_014<u32>
-Field_11_1_0_58221_015<16>
-Field_11_1_0_58221_016<32>
-Field_11_1_0_58221_017<32>
-Field_11_1_0_58221_018<32>
+Description_lang
+Title_lang
+Reward_lang
+$id$ID<32>
+Instance_ID<16>
+Faction<8>
+Supercedes<32>
+Category<16>
+Minimum_criteria<8>
+Points<8>
+Flags<32>
+$relation$Ui_order<16>
+IconFileID<32>
+RewardItemID<32>
+Criteria_tree<u32>
+Shares_criteria<16>
+CovenantID<32>
+HiddenBeforeDisplaySeason<32>
+LegacyAfterTimeEvent<32>
