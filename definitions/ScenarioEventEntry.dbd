@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int TriggerType
 int TriggerAsset
+int Field_11_1_0_58221_000?
+int Field_11_1_0_58221_001?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15662-5.4.8.18414
@@ -99,3 +101,9 @@ BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15
 $noninline,id$ID<32>
 TriggerType<u8>
 TriggerAsset<u32>
+
+LAYOUT F422AA1F
+BUILD 11.1.0.58221
+$noninline,id$ID<32>
+Field_11_1_0_58221_000<u8>
+Field_11_1_0_58221_001<u32>

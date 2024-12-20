@@ -17,6 +17,19 @@ int<AnimReplacementSet::ID> AnimReplacements
 locstring FemaleName_lang
 int PrimaryStatPriority
 int<FileData::ID> SpellIconFileID
+locstring Field_11_1_0_58221_000_lang?
+locstring Field_11_1_0_58221_001_lang?
+locstring Field_11_1_0_58221_002_lang?
+int Field_11_1_0_58221_003?
+int Field_11_1_0_58221_004?
+int Field_11_1_0_58221_005?
+int Field_11_1_0_58221_006?
+int Field_11_1_0_58221_007?
+int Field_11_1_0_58221_008?
+int Field_11_1_0_58221_009?
+int Field_11_1_0_58221_010?
+int Field_11_1_0_58221_011?
+int Field_11_1_0_58221_012?
 
 BUILD 5.0.1.15464-5.0.1.15640
 $id$ID<32>
@@ -244,3 +257,19 @@ SpellIconFileID<32>
 PrimaryStatPriority<8>
 AnimReplacements<32>
 MasterySpellID<32>[2]
+
+LAYOUT BF17DE0B
+BUILD 11.1.0.58221
+Field_11_1_0_58221_000_lang
+Field_11_1_0_58221_001_lang
+Field_11_1_0_58221_002_lang
+$id$Field_11_1_0_58221_003<32>
+$relation$Field_11_1_0_58221_004<8>
+Field_11_1_0_58221_005<8>
+Field_11_1_0_58221_006<8>
+Field_11_1_0_58221_007<8>
+Field_11_1_0_58221_008<u32>
+Field_11_1_0_58221_009<32>
+Field_11_1_0_58221_010<8>
+Field_11_1_0_58221_011<32>
+Field_11_1_0_58221_012<32>[2]

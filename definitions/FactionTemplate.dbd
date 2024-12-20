@@ -7,6 +7,13 @@ int FriendGroup
 int EnemyGroup
 int<Faction::ID> Enemies
 int<Faction::ID> Friend
+int Field_11_1_0_58221_000?
+int Field_11_1_0_58221_001?
+int Field_11_1_0_58221_002?
+int Field_11_1_0_58221_003?
+int Field_11_1_0_58221_004?
+int Field_11_1_0_58221_005?
+int Field_11_1_0_58221_006?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.11.0.3925
@@ -175,3 +182,14 @@ FriendGroup<u8>
 EnemyGroup<u8>
 Enemies<u16>[8]
 Friend<u16>[8]
+
+LAYOUT 22B6DC22
+BUILD 11.1.0.58221
+$noninline,id$ID<32>
+Field_11_1_0_58221_000<u16>
+Field_11_1_0_58221_001<32>
+Field_11_1_0_58221_002<u8>
+Field_11_1_0_58221_003<u8>
+Field_11_1_0_58221_004<u8>
+Field_11_1_0_58221_005<u16>[8]
+Field_11_1_0_58221_006<u16>[8]

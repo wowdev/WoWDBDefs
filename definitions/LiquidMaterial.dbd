@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int LVF
 int Flags
+int Field_11_1_0_58221_000?
+int Field_11_1_0_58221_001?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -98,3 +100,9 @@ BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15
 $noninline,id$ID<32>
 Flags<8>
 LVF<8>
+
+LAYOUT 98E5D7AA
+BUILD 11.1.0.58221
+$noninline,id$ID<32>
+Field_11_1_0_58221_000<32>
+Field_11_1_0_58221_001<8>

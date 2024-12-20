@@ -2,6 +2,8 @@ COLUMNS
 int<ChrClasses::ID> ClassID
 int<PowerType::PowerTypeEnum> PowerType
 int ID
+int Field_11_1_0_58221_000?
+int Field_11_1_0_58221_001?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -106,3 +108,9 @@ BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15
 $noninline,id$ID<32>
 PowerType<8>
 $noninline,relation$ClassID<32>
+
+LAYOUT 70DA1F8C
+BUILD 11.1.0.58221
+$noninline,id$ID<32>
+Field_11_1_0_58221_000<8>
+$noninline,relation$Field_11_1_0_58221_001<8>

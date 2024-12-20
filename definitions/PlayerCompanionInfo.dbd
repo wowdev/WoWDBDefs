@@ -8,6 +8,17 @@ int<TraitSubTree::ID> TraitSubTreeID_Heal?
 int<Faction::ID> FactionID?
 int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
 int<UiModelScene::ID> UiModelSceneID?
+int Field_11_1_0_58221_000?
+int Field_11_1_0_58221_001?
+int Field_11_1_0_58221_002?
+int Field_11_1_0_58221_003?
+int Field_11_1_0_58221_004?
+int Field_11_1_0_58221_005?
+int Field_11_1_0_58221_006?
+int Field_11_1_0_58221_007?
+int Field_11_1_0_58221_008?
+int Field_11_1_0_58221_009?
+int Field_11_1_0_58221_010?
 
 LAYOUT 4EF4C3DB
 BUILD 11.0.7.57361, 11.0.7.57409, 11.0.7.57528, 11.0.7.57641, 11.0.7.57788, 11.0.7.58046, 11.0.7.58123, 11.0.7.58162, 11.0.7.58187
@@ -27,3 +38,17 @@ TraitSubTreeID_Heal<32>
 FactionID<32>
 CreatureDisplayInfoID<32>
 UiModelSceneID<32>
+
+LAYOUT 7E32E521
+BUILD 11.1.0.58221
+$id$Field_11_1_0_58221_000<32>
+Field_11_1_0_58221_001<32>
+Field_11_1_0_58221_002<32>
+Field_11_1_0_58221_003<32>
+Field_11_1_0_58221_004<32>
+Field_11_1_0_58221_005<32>
+Field_11_1_0_58221_006<32>
+Field_11_1_0_58221_007<32>
+Field_11_1_0_58221_008<32>
+Field_11_1_0_58221_009<32>
+Field_11_1_0_58221_010<32>
