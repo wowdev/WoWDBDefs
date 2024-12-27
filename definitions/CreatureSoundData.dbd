@@ -40,8 +40,6 @@ int<SoundEntries::ID> TauntSoundID
 int<SoundEntries::ID> WindupCriticalSoundID
 int<SoundEntries::ID> WindupSoundID
 int Field_10_1_5_50006_036?
-int Field_11_1_0_58221_005? // DBAnalyser: [SoundInjuryCrushingBlowID, 0,95%], [NPCSoundID, 0,95%]
-int Field_11_1_0_58221_035? // DBAnalyser: [SoundInjuryCrushingBlowID, 0,95%], [NPCSoundID, 0,95%]
 
 BUILD 2.0.0.5991
 BUILD 0.5.3.3368
@@ -629,7 +627,7 @@ SoundExertionID<u32>
 SoundExertionCriticalID<u32>
 SoundInjuryID<u32>
 SoundInjuryCriticalID<u32>
-Field_11_1_0_58221_005<u32>
+SoundInjuryCrushingBlowID<u32>
 SoundDeathID<u32>
 SoundStunID<u32>
 SoundStandID<u32>
@@ -659,7 +657,7 @@ CreatureSoundDataIDPet<u32>
 FidgetDelaySecondsMin
 FidgetDelaySecondsMax
 CreatureImpactType<8>
-Field_11_1_0_58221_035<u32>
+NPCSoundID<u32>
 Field_10_1_5_50006_036<32>
 SoundFidget<u32>[5]
 CustomAttack<u32>[4]
