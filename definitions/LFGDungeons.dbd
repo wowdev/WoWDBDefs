@@ -41,46 +41,6 @@ int Max_premade_count_tank?
 int Max_premade_count_healer?
 int Max_premade_count_damage?
 
-LAYOUT C1EF299A
-BUILD 1.15.6.58185
-$noninline,id$ID<32>
-Name_lang
-Description_lang
-MinLevel<u8>
-MaxLevel<u16>
-TypeID<u8>
-Subtype<u8>
-Faction<8>
-IconTextureFileID<32>
-RewardsBgTextureFileID<32>
-PopupBgTextureFileID<32>
-ExpansionLevel<u8>
-MapID<16>
-DifficultyID<u8>
-MinGear
-Group_ID<u8>
-Order_index<u8>
-Required_player_condition_ID<u32>
-Target_level<u8>
-Target_level_min<u8>
-Target_level_max<u16>
-Random_ID<u16>
-ScenarioID<u16>
-FinalEncounterID<u16>
-Count_tank<u8>
-Count_healer<u8>
-Count_damage<u8>
-Min_count_tank<u8>
-Min_count_healer<u8>
-Min_count_damage<u8>
-Max_premade_count_tank<u8>
-Max_premade_count_healer<u8>
-Max_premade_count_damage<u8>
-Bonus_reputation_amount<u16>
-MentorItemLevel<u16>
-MentorCharLevel<u8>
-Flags<32>[2]
-
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
 $id$ID<32>
@@ -314,6 +274,47 @@ Count_damage<u8>
 Min_count_tank<u8>
 Min_count_healer<u8>
 Min_count_damage<u8>
+Bonus_reputation_amount<u16>
+MentorItemLevel<u16>
+MentorCharLevel<u8>
+Flags<32>[2]
+
+LAYOUT C1EF299A
+BUILD 4.4.2.58486
+BUILD 1.15.6.58185
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+MinLevel<u8>
+MaxLevel<u16>
+TypeID<u8>
+Subtype<u8>
+Faction<8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
+MinGear
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
+Target_level<u8>
+Target_level_min<u8>
+Target_level_max<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Max_premade_count_tank<u8>
+Max_premade_count_healer<u8>
+Max_premade_count_damage<u8>
 Bonus_reputation_amount<u16>
 MentorItemLevel<u16>
 MentorCharLevel<u8>
