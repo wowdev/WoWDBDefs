@@ -35,26 +35,41 @@ jobs:
       - name: Download executable
         if: "${{ github.event.inputs.url != '' }}"
         run: wget -O ${{ github.event.inputs.product }}.exe ${{ github.event.inputs.url }}
-      - name: Install Lua
-        if: "${{ github.event.inputs.url == '' }}"
-        uses: leafo/gh-actions-lua@v9
+      # - name: Install Lua
+      #   if: "${{ github.event.inputs.url == '' }}"
+      #   uses: leafo/gh-actions-lua@v9
+      #   with:
+      #     luaVersion: "5.1.5"
+      # - name: Install LuaRocks
+      #   if: "${{ github.event.inputs.url == '' }}"
+      #   uses: leafo/gh-actions-luarocks@v4
+      # - name: Set up Luarocks
+      #   if: "${{ github.event.inputs.url == '' }}"
+      #   run: cd code/lua && luarocks make
+      # - name: Dump exe
+      #   if: "${{ github.event.inputs.url == '' }}"
+      #   run: getexe ${{ github.event.inputs.product }} ${{ github.event.inputs.config }}
+      - name: Checkout TACTSharp
+        uses: actions/checkout@v3
         with:
-          luaVersion: "5.1.5"
-      - name: Install LuaRocks
-        if: "${{ github.event.inputs.url == '' }}"
-        uses: leafo/gh-actions-luarocks@v4
-      - name: Set up Luarocks
-        if: "${{ github.event.inputs.url == '' }}"
-        run: cd code/lua && luarocks make
-      - name: Dump exe
-        if: "${{ github.event.inputs.url == '' }}"
-        run: getexe ${{ github.event.inputs.product }} ${{ github.event.inputs.config }}
+          repository: 'Marlamin/TACTSharp'
+          path: 'TACTSharp'
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 8.0.x
+          dotnet-version: | 
+            8.0.x
+            9.0.x
+      - name: Write exes.txt
+        run: echo -e "Wow.exe;Wow.exe\nWowT.exe;Wow.exe\nWowB.exe;Wow.exe\nWowClassic.exe;Wow.exe\nWowClassicT.exe;Wow.exe\nWowClassicB.exe;Wow.exe" > $PWD/exes.txt
+      - name: Run TACTTool
+        run: dotnet run --project TACTSharp/TACTTool/TACTTool.csproj --configuration Release -- -p ${{ github.event.inputs.product }} -m list -i $PWD/exes.txt -o extract
+        env:
+          DOTNET_NOLOGO: 1
+          DOTNET_CLI_TELEMETRY_OPTOUT: 1
+          DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
       - name: Dump raw DBDs
-        run: dotnet run --project $PWD/code/C#/DBDefsDumper/ --configuration Release -- ${{ github.event.inputs.product }}.exe dumpeddbd ${{ github.event.inputs.build }}
+        run: dotnet run --project $PWD/code/C#/DBDefsDumper/ --configuration Release -- extract/Wow.exe dumpeddbd ${{ github.event.inputs.build }}
         env:
           DOTNET_NOLOGO: 1
           DOTNET_CLI_TELEMETRY_OPTOUT: 1
