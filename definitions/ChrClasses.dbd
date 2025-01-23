@@ -147,7 +147,7 @@ DamageBonusStat<u8>
 HasRelicSlot<u8>
 
 LAYOUT E20D59D3
-BUILD 1.15.6.58658
+BUILD 1.15.6.58658, 1.15.6.58725
 Name_lang
 Filename
 Name_male_lang
@@ -166,7 +166,7 @@ CinematicSequenceID<u16>
 DefaultSpec<u16>
 HasStrengthAttackBonus<u8>
 PrimaryStatPriority<u8>
-DisplayPower<u8>
+DisplayPower<8>
 RangedAttackPowerPerAgility<u8>
 AttackPowerPerAgility<u8>
 AttackPowerPerStrength<u8>
