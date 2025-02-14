@@ -4,8 +4,8 @@ int<ChrSpecialization::ID> ChrSpecID
 int Flags
 int Priority
 int<Spell::ID> SpellID
-int Field_10_0_5_47186_003?
-int Field_10_0_5_47186_004?
+int<ChrClasses::ID> ClassID?
+int<ChrRaces::ID> RaceID?
 
 LAYOUT 5B49F4BB
 BUILD 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475, 2.5.1.39603, 2.5.1.39640
@@ -140,8 +140,8 @@ $noninline,id$ID<32>
 SpellID<32>
 Priority<u8>
 Flags<8>
-Field_10_0_5_47186_003<32>
-Field_10_0_5_47186_004<32>
+ClassID<32>
+RaceID<32>
 $noninline,relation$ChrSpecID<32>
 
 LAYOUT CF118CBC
@@ -153,8 +153,8 @@ $noninline,id$ID<32>
 SpellID<32>
 Priority<u8>
 Flags<8>
-Field_10_0_5_47186_003<32>
-Field_10_0_5_47186_004<32>
+ClassID<32>
+RaceID<32>
 $noninline,relation$ChrSpecID<32>
 
 LAYOUT 6FDACC3C
@@ -163,6 +163,6 @@ $noninline,id$ID<32>
 SpellID<32>
 Priority<u8>
 Flags<8>
-Field_10_0_5_47186_003<8>
-Field_10_0_5_47186_004<8>
+ClassID<8>
+RaceID<8>
 $noninline,relation$ChrSpecID<32>
