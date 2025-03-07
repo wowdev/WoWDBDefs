@@ -46,6 +46,45 @@ int CharacterCreationAnimLoopWaitTimeMsFallback?
 int HasStrengthAttackBonus?
 locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
 locstring Hyphenated_name_female_lang?
+locstring Field_11_1_5_59571_000_lang?
+string Field_11_1_5_59571_001?
+locstring Field_11_1_5_59571_002_lang?
+locstring Field_11_1_5_59571_003_lang?
+string Field_11_1_5_59571_004?
+locstring Field_11_1_5_59571_005_lang?
+locstring Field_11_1_5_59571_006_lang?
+locstring Field_11_1_5_59571_007_lang?
+locstring Field_11_1_5_59571_008_lang?
+locstring Field_11_1_5_59571_009_lang?
+int Field_11_1_5_59571_010?
+int Field_11_1_5_59571_011?
+int Field_11_1_5_59571_012?
+int Field_11_1_5_59571_013?
+int Field_11_1_5_59571_014?
+int Field_11_1_5_59571_015?
+int Field_11_1_5_59571_016?
+int Field_11_1_5_59571_017?
+int Field_11_1_5_59571_018?
+int Field_11_1_5_59571_019?
+int Field_11_1_5_59571_020?
+int Field_11_1_5_59571_021?
+int Field_11_1_5_59571_022?
+int Field_11_1_5_59571_023?
+int Field_11_1_5_59571_024?
+int Field_11_1_5_59571_025?
+int Field_11_1_5_59571_026?
+int Field_11_1_5_59571_027?
+int Field_11_1_5_59571_028?
+int Field_11_1_5_59571_029?
+int Field_11_1_5_59571_030?
+int Field_11_1_5_59571_031?
+int Field_11_1_5_59571_032?
+int Field_11_1_5_59571_033?
+int Field_11_1_5_59571_034?
+int Field_11_1_5_59571_035?
+int Field_11_1_5_59571_036?
+int Field_11_1_5_59571_037?
+int Field_11_1_5_59571_038?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -1268,3 +1307,45 @@ ClassColorR<u8>
 ClassColorG<u8>
 ClassColorB<u8>
 RolesMask<u8>
+
+LAYOUT 03A0FD4D
+BUILD 11.1.5.59571
+Field_11_1_5_59571_000_lang
+Field_11_1_5_59571_001
+Field_11_1_5_59571_002_lang
+Field_11_1_5_59571_003_lang
+Field_11_1_5_59571_004
+Field_11_1_5_59571_005_lang
+Field_11_1_5_59571_006_lang
+Field_11_1_5_59571_007_lang
+Field_11_1_5_59571_008_lang
+Field_11_1_5_59571_009_lang
+Field_11_1_5_59571_010<u32>
+Field_11_1_5_59571_011<u32>
+Field_11_1_5_59571_012<u32>
+Field_11_1_5_59571_013<u32>
+Field_11_1_5_59571_014<32>
+Field_11_1_5_59571_015<u32>
+Field_11_1_5_59571_016<u32>
+Field_11_1_5_59571_017<32>
+Field_11_1_5_59571_018<32>
+Field_11_1_5_59571_019<32>
+Field_11_1_5_59571_020<32>
+Field_11_1_5_59571_021<32>
+Field_11_1_5_59571_022<32>
+Field_11_1_5_59571_023<32>
+Field_11_1_5_59571_024<32>
+Field_11_1_5_59571_025<32>
+Field_11_1_5_59571_026<u16>
+Field_11_1_5_59571_027<u16>
+$id$Field_11_1_5_59571_028<8>
+Field_11_1_5_59571_029<8>
+Field_11_1_5_59571_030<8>
+Field_11_1_5_59571_031<u8>
+Field_11_1_5_59571_032<u8>
+Field_11_1_5_59571_033<u8>
+Field_11_1_5_59571_034<u8>
+Field_11_1_5_59571_035<u8>
+Field_11_1_5_59571_036<u8>
+Field_11_1_5_59571_037<u8>
+Field_11_1_5_59571_038<u8>
