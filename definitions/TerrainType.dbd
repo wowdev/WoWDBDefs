@@ -6,11 +6,6 @@ int FootstepSprayRun
 int FootstepSprayWalk
 int<TerrainTypeSounds::ID> SoundID
 int Flags
-string Field_11_1_5_59571_000?
-int Field_11_1_5_59571_001?
-int Field_11_1_5_59571_002?
-int Field_11_1_5_59571_003?
-int Field_11_1_5_59571_004?
 
 LAYOUT 4BE35F10
 BUILD 1.13.0.28211
@@ -192,8 +187,8 @@ Flags<u8>
 LAYOUT 7A6E1ECD
 BUILD 11.1.5.59571
 $noninline,id$ID<32>
-Field_11_1_5_59571_000
-Field_11_1_5_59571_001<u16>
-Field_11_1_5_59571_002<u16>
-Field_11_1_5_59571_003<u8>
-Field_11_1_5_59571_004<32>
+TerrainDesc
+FootstepSprayRun<u16>
+FootstepSprayWalk<u16>
+SoundID<u8>
+Flags<32>

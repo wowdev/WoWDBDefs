@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int Field_11_1_5_59571_000?
+int<Spell::ID> SpellID?
 int Field_11_1_5_59571_001?
-int Field_11_1_5_59571_002?
+int<CooldownSetSpell::ID> CooldownSetSpellID?
 
 LAYOUT 11E4972F
 BUILD 11.1.5.59571
 $noninline,id$ID<32>
-Field_11_1_5_59571_000<32>
+SpellID<32>
 Field_11_1_5_59571_001<32>
-$noninline,relation$Field_11_1_5_59571_002<32>
+$noninline,relation$CooldownSetSpellID<32>
