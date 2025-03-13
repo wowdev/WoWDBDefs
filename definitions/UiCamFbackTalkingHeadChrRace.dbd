@@ -4,6 +4,18 @@ int Gender?
 int Variation?
 int<UiCamera::ID> CameraID?
 int<ChrRaces::ID> RaceID?
+int Field_1_15_7_59706_000?
+int Field_1_15_7_59706_001?
+int Field_1_15_7_59706_002?
+int Field_1_15_7_59706_003?
+
+LAYOUT 0E6163DE
+BUILD 1.15.7.59706
+$noninline,id$ID<32>
+Field_1_15_7_59706_000<8>
+Field_1_15_7_59706_001<8>
+Field_1_15_7_59706_002<32>
+Field_1_15_7_59706_003<32>
 
 LAYOUT C1702F9E
 BUILD 4.4.2.58486, 4.4.2.58723, 4.4.2.58796, 4.4.2.58884, 4.4.2.58947, 4.4.2.58998, 4.4.2.59121, 4.4.2.59185, 4.4.2.59297, 4.4.2.59346, 4.4.2.59536

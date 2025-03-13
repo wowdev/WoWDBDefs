@@ -5,6 +5,21 @@ string InternalName
 locstring Name_lang
 int<FileData::ID> ConquestCurrencyTextureFileID
 int<FileData::ID> HonorCurrencyTextureFileID
+string Field_1_15_7_59706_000?
+locstring Field_1_15_7_59706_001_lang?
+int Field_1_15_7_59706_002?
+int Field_1_15_7_59706_003?
+int Field_1_15_7_59706_004?
+int Field_1_15_7_59706_005?
+
+LAYOUT 1587C7D7
+BUILD 1.15.7.59706
+Field_1_15_7_59706_000
+Field_1_15_7_59706_001_lang
+$id$Field_1_15_7_59706_002<32>
+Field_1_15_7_59706_003<u8>
+Field_1_15_7_59706_004<32>
+Field_1_15_7_59706_005<32>
 
 LAYOUT 059DA8DE
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833

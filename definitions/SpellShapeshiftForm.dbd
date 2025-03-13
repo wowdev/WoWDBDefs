@@ -13,6 +13,17 @@ int ExitSoundEntriesID
 int<FileData::ID> AttackIconFileID
 float DamageVariance
 int Field_1_15_0_52124_002? // Duplicate of CreatureDisplayID
+locstring Field_1_15_7_59706_000_lang?
+int Field_1_15_7_59706_001?
+int Field_1_15_7_59706_002?
+int Field_1_15_7_59706_003?
+int Field_1_15_7_59706_004?
+int Field_1_15_7_59706_005?
+int Field_1_15_7_59706_006?
+float Field_1_15_7_59706_007?
+int Field_1_15_7_59706_008?
+int Field_1_15_7_59706_009?
+int Field_1_15_7_59706_010?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -27,6 +38,21 @@ BonusActionBar<32>
 Name_lang
 Flags<32>
 CreatureType<32>
+
+LAYOUT AB5F718E
+BUILD 1.15.7.59706
+$noninline,id$ID<32>
+Field_1_15_7_59706_000_lang
+Field_1_15_7_59706_001<u32>
+Field_1_15_7_59706_002<u8>
+Field_1_15_7_59706_003<32>
+Field_1_15_7_59706_004<32>
+Field_1_15_7_59706_005<8>
+Field_1_15_7_59706_006<16>
+Field_1_15_7_59706_007
+Field_1_15_7_59706_008<u16>
+Field_1_15_7_59706_009<u32>[4]
+Field_1_15_7_59706_010<u32>[8]
 
 BUILD 2.0.0.5991
 BUILD 1.0.0.3980-1.12.2.6005
