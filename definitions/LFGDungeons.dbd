@@ -40,20 +40,13 @@ int MaxPremadeGroupSize?
 int Max_premade_count_tank?
 int Max_premade_count_healer?
 int Max_premade_count_damage?
-locstring Field_1_15_7_59706_000_lang?
-locstring Field_1_15_7_59706_001_lang?
-int Field_1_15_7_59706_002?
-int Field_1_15_7_59706_003?
-int Field_1_15_7_59706_004?
 int Field_1_15_7_59706_005?
-int Field_1_15_7_59706_006?
 int Field_1_15_7_59706_007?
 int Field_1_15_7_59706_008?
 int Field_1_15_7_59706_009?
 int Field_1_15_7_59706_010?
 int Field_1_15_7_59706_011?
 int Field_1_15_7_59706_012?
-float Field_1_15_7_59706_013?
 int Field_1_15_7_59706_014?
 int Field_1_15_7_59706_015?
 int Field_1_15_7_59706_016?
@@ -80,20 +73,20 @@ int Field_1_15_7_59706_035?
 LAYOUT 4E41E52A
 BUILD 1.15.7.59706
 $noninline,id$ID<32>
-Field_1_15_7_59706_000_lang
-Field_1_15_7_59706_001_lang
-Field_1_15_7_59706_002<u8>
-Field_1_15_7_59706_003<u16>
-Field_1_15_7_59706_004<u8>
+Name_lang
+Description_lang
+MinLevel<u8>
+MaxLevel<u16>
+TypeID<u8>
 Field_1_15_7_59706_005<u8>
-Field_1_15_7_59706_006<8>
+Faction<8>
 Field_1_15_7_59706_007<32>
 Field_1_15_7_59706_008<32>
 Field_1_15_7_59706_009<32>
 Field_1_15_7_59706_010<u8>
 Field_1_15_7_59706_011<16>
 Field_1_15_7_59706_012<u8>
-Field_1_15_7_59706_013
+MinGear
 Field_1_15_7_59706_014<u8>
 Field_1_15_7_59706_015<u8>
 Field_1_15_7_59706_016<u32>

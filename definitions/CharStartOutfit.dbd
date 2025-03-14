@@ -9,24 +9,17 @@ int<ItemDisplayInfo::ID> DisplayItemID
 int InventoryType
 int<CreatureDisplayInfo::ID> PetDisplayID
 int<CreatureFamily::ID> PetFamilyID
-int Field_1_15_7_59706_000?
-int Field_1_15_7_59706_001?
-int Field_1_15_7_59706_002?
-int Field_1_15_7_59706_003?
-int Field_1_15_7_59706_004?
-int Field_1_15_7_59706_005?
-int Field_1_15_7_59706_006?
 
 LAYOUT DB39675A
 BUILD 1.15.7.59706
 $noninline,id$ID<32>
-Field_1_15_7_59706_000<8>
-Field_1_15_7_59706_001<8>
-Field_1_15_7_59706_002<u8>
-Field_1_15_7_59706_003<u32>
-Field_1_15_7_59706_004<u8>
-Field_1_15_7_59706_005<32>[24]
-$noninline,relation$Field_1_15_7_59706_006<8>
+ClassID<8>
+SexID<8>
+OutfitID<u8>
+PetDisplayID<u32>
+PetFamilyID<u8>
+ItemID<32>[24]
+$noninline,relation$RaceID<8>
 
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.4.3.8606
