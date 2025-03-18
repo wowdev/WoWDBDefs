@@ -9,8 +9,8 @@ int CategoryMask
 int<ChrClasses::ID> ClassID
 int<Spell::ID> OverridesSpellID
 locstring Description_lang
-int TabID
-int SpellRank
+int<TalentTab::ID> TabID
+int<Spell::ID> SpellRank
 int<Talent::ID> PrereqTalent
 int PrereqRank
 int<Spell::ID> RequiredSpellID
