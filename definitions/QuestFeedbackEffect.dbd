@@ -10,16 +10,6 @@ int<HighlightColor::Type> PassiveHighlightColorType
 string InteractCursor? // display on cursor
 int<Spell::ID> SpellID?
 
-LAYOUT 092DE5FD
-BUILD 1.15.7.59706
-$noninline,id$ID<32>
-FileDataID<u32>
-MinimapAtlasMemberID<u16>
-AttachPoint<u8>
-PassiveHighlightColorType<u8>
-Priority<u8>
-Flags<32>
-
 LAYOUT C371A7DF
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -36,6 +26,17 @@ AttachPoint<u8>
 PassiveHighlightColorType<u8>
 Priority<u8>
 Flags<u8>
+
+LAYOUT 092DE5FD
+BUILD 3.4.4.59817
+BUILD 1.15.7.59706
+$noninline,id$ID<32>
+FileDataID<u32>
+MinimapAtlasMemberID<u16>
+AttachPoint<u8>
+PassiveHighlightColorType<u8>
+Priority<u8>
+Flags<32>
 
 LAYOUT 96F7DC0F
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056, 4.4.0.55141, 4.4.0.55262, 4.4.0.55460, 4.4.0.55613, 4.4.0.55639, 4.4.0.56014, 4.4.0.56420, 4.4.0.56489, 4.4.0.56713, 4.4.0.57244

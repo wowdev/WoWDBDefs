@@ -112,33 +112,6 @@ AreaName_lang
 FactionGroupMask<32>
 LiquidTypeID<32>[4]
 
-LAYOUT 705C911D
-BUILD 1.15.7.59706
-$noninline,id$ID<32>
-ZoneName
-AreaName_lang
-ContinentID<u16>
-ParentAreaID<u16>
-AreaBit<16>
-SoundProviderPref<u8>
-SoundProviderPrefUnderwater<u8>
-AmbienceID<u16>
-UwAmbience<u16>
-ZoneMusic<u16>
-UwZoneMusic<u16>
-ExplorationLevel<8>
-IntroSound<u16>
-UwIntroSound<u32>
-FactionGroupMask<u8>
-Ambient_multiplier
-MountFlags<32>
-PvpCombatWorldStateID<16>
-WildBattlePetLevelMin<u8>
-WildBattlePetLevelMax<u8>
-WindSettingsID<u8>
-Flags<32>[2]
-LiquidTypeID<u16>[4]
-
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>
 ContinentID<32>
@@ -247,6 +220,34 @@ UwIntroSound<u32>
 FactionGroupMask<u8>
 Ambient_multiplier
 MountFlags<u8>
+PvpCombatWorldStateID<16>
+WildBattlePetLevelMin<u8>
+WildBattlePetLevelMax<u8>
+WindSettingsID<u8>
+Flags<32>[2]
+LiquidTypeID<u16>[4]
+
+LAYOUT 705C911D
+BUILD 3.4.4.59817
+BUILD 1.15.7.59706
+$noninline,id$ID<32>
+ZoneName
+AreaName_lang
+ContinentID<u16>
+ParentAreaID<u16>
+AreaBit<16>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+AmbienceID<u16>
+UwAmbience<u16>
+ZoneMusic<u16>
+UwZoneMusic<u16>
+ExplorationLevel<8>
+IntroSound<u16>
+UwIntroSound<u32>
+FactionGroupMask<u8>
+Ambient_multiplier
+MountFlags<32>
 PvpCombatWorldStateID<16>
 WildBattlePetLevelMin<u8>
 WildBattlePetLevelMax<u8>

@@ -12,20 +12,6 @@ int<FileData::ID> CustomGeoFileDataID
 int<FileData::ID> HdCustomGeoFileDataID
 int Field_8_3_0_32044_010?
 
-LAYOUT 0DFA0F80
-BUILD 1.15.7.59706
-$noninline,id$ID<32>
-$relation$RaceID<8>
-SexID<8>
-VariationID<8>
-GeosetID<u8>
-Showscalp<u8>
-VariationType<8>
-GeosetType<8>
-ColorIndex<8>
-CustomGeoFileDataID<32>
-HdCustomGeoFileDataID<32>
-
 LAYOUT D716D8C3
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -38,6 +24,21 @@ BUILD 1.14.0.39802, 1.14.0.39958, 1.14.0.40140, 1.14.0.40179, 1.14.0.40237, 1.14
 $noninline,id$ID<32>
 $relation$RaceID<u8>
 SexID<u8>
+VariationID<8>
+GeosetID<u8>
+Showscalp<u8>
+VariationType<8>
+GeosetType<8>
+ColorIndex<8>
+CustomGeoFileDataID<32>
+HdCustomGeoFileDataID<32>
+
+LAYOUT 0DFA0F80
+BUILD 3.4.4.59817
+BUILD 1.15.7.59706
+$noninline,id$ID<32>
+$relation$RaceID<8>
+SexID<8>
 VariationID<8>
 GeosetID<u8>
 Showscalp<u8>

@@ -66,24 +66,6 @@ SpellRank<u32>[9]
 PrereqTalent<u16>[3]
 PrereqRank<u16>[3]
 
-LAYOUT 50A76955
-BUILD 1.15.7.59706
-$noninline,id$ID<32>
-Description_lang
-TierID<u8>
-Flags<u8>
-ColumnIndex<u8>
-TabID<u16>
-ClassID<8>
-SpecID<u16>
-SpellID<32>
-OverridesSpellID<32>
-RequiredSpellID<32>
-CategoryMask<32>[2]
-SpellRank<32>[9]
-PrereqTalent<32>[3]
-PrereqRank<32>[3]
-
 LAYOUT C2B40EE8
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225
 $noninline,id$ID<32>
@@ -155,6 +137,25 @@ SpellID<32>
 OverridesSpellID<32>
 RequiredSpellID<32>
 CategoryMask<u8>[2]
+SpellRank<32>[9]
+PrereqTalent<32>[3]
+PrereqRank<32>[3]
+
+LAYOUT 50A76955
+BUILD 3.4.4.59817
+BUILD 1.15.7.59706
+$noninline,id$ID<32>
+Description_lang
+TierID<u8>
+Flags<u8>
+ColumnIndex<u8>
+TabID<u16>
+ClassID<8>
+SpecID<u16>
+SpellID<32>
+OverridesSpellID<32>
+RequiredSpellID<32>
+CategoryMask<32>[2]
 SpellRank<32>[9]
 PrereqTalent<32>[3]
 PrereqRank<32>[3]

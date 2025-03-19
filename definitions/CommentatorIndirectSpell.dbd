@@ -4,13 +4,6 @@ int<Spell::ID> TalentSpellID?
 int<Spell::ID> TriggeredAuraSpellID?
 int<ChrSpecialization::ID> ChrSpecID?
 
-LAYOUT 63CDB0D7
-BUILD 1.15.7.59706
-$noninline,id$ID<32>
-TalentSpellID<32>
-TriggeredAuraSpellID<32>
-$noninline,relation$ChrSpecID<8>
-
 LAYOUT 400BC2E4
 BUILD 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475, 2.5.1.39603, 2.5.1.39640
 $noninline,id$ID<32>
@@ -30,6 +23,14 @@ $noninline,id$ID<32>
 TalentSpellID<32>
 TriggeredAuraSpellID<32>
 $noninline,relation$ChrSpecID<32>
+
+LAYOUT 63CDB0D7
+BUILD 3.4.4.59817
+BUILD 1.15.7.59706
+$noninline,id$ID<32>
+TalentSpellID<32>
+TriggeredAuraSpellID<32>
+$noninline,relation$ChrSpecID<8>
 
 LAYOUT A73B926A
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056, 4.4.0.55141, 4.4.0.55262, 4.4.0.55460, 4.4.0.55613, 4.4.0.55639, 4.4.0.56014, 4.4.0.56420, 4.4.0.56489, 4.4.0.56713, 4.4.0.57244

@@ -47,27 +47,6 @@ Flags<32>
 AreaID<32>
 Name_lang
 
-LAYOUT 91335BF1
-BUILD 1.15.7.59706
-Name_lang
-Description_lang
-$id$ID<32>
-Pos[3]
-PortLocID<32>
-PlayerConditionID<u32>
-UiTextureAtlasMemberID<u32>
-Flags<32>
-WMOGroupID<32>
-PoiDataType<32>
-PoiData<32>
-Field_9_1_0_38783_011<u32>
-$relation$ContinentID<u16>
-AreaID<16>
-WorldStateID<u16>
-UiWidgetSetID<u16>
-Importance<u8>
-Icon<u8>
-
 LAYOUT EDDE9CE9
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -157,6 +136,28 @@ Flags<u32>
 WMOGroupID<32>
 PoiDataType<32>
 PoiData<32>
+$relation$ContinentID<u16>
+AreaID<16>
+WorldStateID<u16>
+UiWidgetSetID<u16>
+Importance<u8>
+Icon<u8>
+
+LAYOUT 91335BF1
+BUILD 3.4.4.59817
+BUILD 1.15.7.59706
+Name_lang
+Description_lang
+$id$ID<32>
+Pos[3]
+PortLocID<32>
+PlayerConditionID<u32>
+UiTextureAtlasMemberID<u32>
+Flags<32>
+WMOGroupID<32>
+PoiDataType<32>
+PoiData<32>
+Field_9_1_0_38783_011<u32>
 $relation$ContinentID<u16>
 AreaID<16>
 WorldStateID<u16>

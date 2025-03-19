@@ -17,22 +17,6 @@ int CustomDisplayOption
 int DisplayClassID
 string BakeName
 
-LAYOUT F5E49981
-BUILD 1.15.7.59706
-$id$ID<32>
-DisplayRaceID<8>
-DisplaySexID<8>
-DisplayClassID<8>
-SkinID<8>
-FaceID<8>
-HairStyleID<8>
-HairColorID<8>
-FacialHairID<8>
-Flags<32>
-BakeMaterialResourcesID<32>
-HDBakeMaterialResourcesID<32>
-CustomDisplayOption<u8>[3]
-
 BUILD 0.5.3.3368
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.0.0.3980-1.12.3.6141
@@ -67,6 +51,23 @@ HairStyleID<8>
 HairColorID<8>
 FacialHairID<8>
 Flags<8>
+BakeMaterialResourcesID<32>
+HDBakeMaterialResourcesID<32>
+CustomDisplayOption<u8>[3]
+
+LAYOUT F5E49981
+BUILD 3.4.4.59817
+BUILD 1.15.7.59706
+$id$ID<32>
+DisplayRaceID<8>
+DisplaySexID<8>
+DisplayClassID<8>
+SkinID<8>
+FaceID<8>
+HairStyleID<8>
+HairColorID<8>
+FacialHairID<8>
+Flags<32>
 BakeMaterialResourcesID<32>
 HDBakeMaterialResourcesID<32>
 CustomDisplayOption<u8>[3]
