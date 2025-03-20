@@ -15,6 +15,34 @@ int LogoShrunkenHeight?
 int Flags? // 1 = LogoUsesDarkBackdrop
 int CharacterCreateExtraHeight?
 int<FileData::ID> CharacterCreateOuterBorder?
+string Field_1_15_7_59856_000?
+string Field_1_15_7_59856_001?
+string Field_1_15_7_59856_002?
+int Field_1_15_7_59856_003?
+int Field_1_15_7_59856_004?
+int Field_1_15_7_59856_005?
+int Field_1_15_7_59856_006?
+int Field_1_15_7_59856_007?
+int Field_1_15_7_59856_008?
+int Field_1_15_7_59856_009?
+int Field_1_15_7_59856_010?
+int Field_1_15_7_59856_011?
+
+LAYOUT 3609B763
+BUILD 1.15.7.59856
+$noninline,id$ID<32>
+Field_1_15_7_59856_000
+Field_1_15_7_59856_001
+Field_1_15_7_59856_002
+Field_1_15_7_59856_003<32>
+Field_1_15_7_59856_004<32>
+Field_1_15_7_59856_005<32>
+Field_1_15_7_59856_006<32>
+Field_1_15_7_59856_007<32>
+Field_1_15_7_59856_008<32>
+Field_1_15_7_59856_009<32>
+Field_1_15_7_59856_010<32>
+Field_1_15_7_59856_011<8>
 
 LAYOUT 45EE0D98
 BUILD 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
