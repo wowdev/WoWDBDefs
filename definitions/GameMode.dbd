@@ -15,33 +15,24 @@ int LogoShrunkenHeight?
 int Flags? // 1 = LogoUsesDarkBackdrop
 int CharacterCreateExtraHeight?
 int<FileData::ID> CharacterCreateOuterBorder?
-string Field_1_15_7_59856_000?
 string Field_1_15_7_59856_001?
 string Field_1_15_7_59856_002?
-int Field_1_15_7_59856_003?
-int Field_1_15_7_59856_004?
-int Field_1_15_7_59856_005?
-int Field_1_15_7_59856_006?
-int Field_1_15_7_59856_007?
-int Field_1_15_7_59856_008?
-int Field_1_15_7_59856_009?
-int Field_1_15_7_59856_010?
 int Field_1_15_7_59856_011?
 
 LAYOUT 3609B763
 BUILD 1.15.7.59856
 $noninline,id$ID<32>
-Field_1_15_7_59856_000
+Tag
 Field_1_15_7_59856_001
 Field_1_15_7_59856_002
-Field_1_15_7_59856_003<32>
-Field_1_15_7_59856_004<32>
-Field_1_15_7_59856_005<32>
-Field_1_15_7_59856_006<32>
-Field_1_15_7_59856_007<32>
-Field_1_15_7_59856_008<32>
-Field_1_15_7_59856_009<32>
-Field_1_15_7_59856_010<32>
+SeasonID<32>
+LogoFileDataID<32>
+LogoHeight<32>
+LogoVerticalOffset<32>
+LogoShrunkenHeight<32>
+Flags<32>
+CharacterCreateExtraHeight<32>
+CharacterCreateOuterBorder<32>
 Field_1_15_7_59856_011<8>
 
 LAYOUT 45EE0D98
