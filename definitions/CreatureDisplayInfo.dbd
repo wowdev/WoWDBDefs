@@ -41,6 +41,34 @@ int<ConditionalCreatureModelData::ID> ConditionalCreatureModelID?
 float MountMaxBankingAngle?
 int Field_11_0_0_54210_026?
 int Field_1_15_4_56400_024?
+int Field_11_1_5_59919_000?
+int Field_11_1_5_59919_001?
+int Field_11_1_5_59919_002?
+int Field_11_1_5_59919_003?
+float Field_11_1_5_59919_004?
+int Field_11_1_5_59919_005?
+int Field_11_1_5_59919_006?
+int Field_11_1_5_59919_007?
+int Field_11_1_5_59919_008?
+int Field_11_1_5_59919_009?
+int Field_11_1_5_59919_010?
+int Field_11_1_5_59919_011?
+int Field_11_1_5_59919_012?
+int Field_11_1_5_59919_013?
+int Field_11_1_5_59919_014?
+int Field_11_1_5_59919_015?
+float Field_11_1_5_59919_016?
+float Field_11_1_5_59919_017?
+int Field_11_1_5_59919_018?
+int Field_11_1_5_59919_019?
+int Field_11_1_5_59919_020?
+int Field_11_1_5_59919_021?
+int Field_11_1_5_59919_022?
+int Field_11_1_5_59919_023?
+int Field_11_1_5_59919_024?
+float Field_11_1_5_59919_025?
+int Field_11_1_5_59919_026?
+int Field_11_1_5_59919_027?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -735,3 +763,34 @@ ConditionalCreatureModelID<u16>
 MountMaxBankingAngle
 Field_11_0_0_54210_026<u16>
 TextureVariationFileDataID<32>[4]
+
+LAYOUT 7275F5F6
+BUILD 11.1.5.59919
+$id$Field_11_1_5_59919_000<32>
+Field_11_1_5_59919_001<u16>
+Field_11_1_5_59919_002<u16>
+Field_11_1_5_59919_003<8>
+Field_11_1_5_59919_004
+Field_11_1_5_59919_005<u8>
+Field_11_1_5_59919_006<u8>
+Field_11_1_5_59919_007<32>
+Field_11_1_5_59919_008<u16>
+Field_11_1_5_59919_009<u16>
+Field_11_1_5_59919_010<32>
+Field_11_1_5_59919_011<32>
+Field_11_1_5_59919_012<u16>
+Field_11_1_5_59919_013<u16>
+Field_11_1_5_59919_014<32>
+Field_11_1_5_59919_015<32>
+Field_11_1_5_59919_016
+Field_11_1_5_59919_017
+Field_11_1_5_59919_018<8>
+Field_11_1_5_59919_019<32>
+Field_11_1_5_59919_020<32>
+Field_11_1_5_59919_021<8>
+Field_11_1_5_59919_022<32>
+Field_11_1_5_59919_023<8>
+Field_11_1_5_59919_024<u16>
+Field_11_1_5_59919_025
+Field_11_1_5_59919_026<u16>
+Field_11_1_5_59919_027<32>[4]
