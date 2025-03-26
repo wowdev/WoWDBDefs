@@ -1,6 +1,7 @@
 COLUMNS
 int ID
 int Color
+int Quality
 int<UiTextureAtlasMember::ID> Border
 
 LAYOUT 253C38FB
@@ -54,5 +55,5 @@ Border<32>
 LAYOUT A575912D
 BUILD 11.1.5.59919
 $noninline,id$ID<32>
-Color<32>
+Quality<32>
 Border<32>
