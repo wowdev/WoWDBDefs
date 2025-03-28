@@ -9,6 +9,16 @@ int SourceTypeEnum
 int StaticUpgradedItemID
 int UpgradeItemBonusListID
 int UpgradeItemID
+locstring Field_11_1_5_60008_000_lang?
+int Field_11_1_5_60008_001?
+int Field_11_1_5_60008_002?
+int Field_11_1_5_60008_003?
+int Field_11_1_5_60008_004?
+int Field_11_1_5_60008_005?
+int Field_11_1_5_60008_006?
+int Field_11_1_5_60008_007?
+int Field_11_1_5_60008_008?
+int Field_11_1_5_60008_009?
 
 LAYOUT 01D6201E
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -204,3 +214,16 @@ Flags<u8>
 LegacyItemID<32>
 UpgradeItemID<32>[6]
 UpgradeItemBonusListID<u16>[6]
+
+LAYOUT 9ECA649E
+BUILD 11.1.5.60008
+Field_11_1_5_60008_000_lang
+$id$Field_11_1_5_60008_001<32>
+Field_11_1_5_60008_002<32>
+Field_11_1_5_60008_003<32>
+Field_11_1_5_60008_004<32>
+Field_11_1_5_60008_005<8>
+Field_11_1_5_60008_006<32>
+Field_11_1_5_60008_007<32>
+Field_11_1_5_60008_008<32>[6]
+Field_11_1_5_60008_009<u16>[6]
