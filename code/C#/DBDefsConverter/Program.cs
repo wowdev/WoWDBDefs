@@ -1,5 +1,4 @@
-﻿using CustomExtensions;
-using DBDefsLib;
+﻿using DBDefsLib;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -258,11 +257,63 @@ namespace DBDefsConverter
             if (Directory.Exists(outFile))
                 outputPath = Path.Combine(outFile, "out.bdbd");
 
+            var stringBlock = new Dictionary<string, int>();
+            foreach (var dbd in dbds)
+            {
+                if (!stringBlock.ContainsKey(dbd.Key))
+                    stringBlock.Add(dbd.Key, 0);
+
+                foreach (var col in dbd.Value.columnDefinitions)
+                {
+                    if (!stringBlock.ContainsKey(col.Key))
+                        stringBlock.Add(col.Key, 0);
+
+                    if (!string.IsNullOrEmpty(col.Value.foreignTable) && !stringBlock.ContainsKey(col.Value.foreignTable))
+                        stringBlock.Add(col.Value.foreignTable, 0);
+
+                    if (!string.IsNullOrEmpty(col.Value.foreignColumn) && !stringBlock.ContainsKey(col.Value.foreignColumn))
+                        stringBlock.Add(col.Value.foreignColumn, 0);
+
+                    if (!string.IsNullOrEmpty(col.Value.comment) && !stringBlock.ContainsKey(col.Value.comment))
+                        stringBlock.Add(col.Value.comment, 0);
+                }
+
+                foreach (var version in dbd.Value.versionDefinitions)
+                {
+                    foreach (var defn in version.definitions)
+                    {
+                        if (!string.IsNullOrEmpty(defn.comment) && !stringBlock.ContainsKey(defn.comment))
+                            stringBlock.Add(defn.comment, 0);
+                    }
+
+                    if (!string.IsNullOrEmpty(version.comment) && !stringBlock.ContainsKey(version.comment))
+                        stringBlock.Add(version.comment, 0);
+                }
+            }
+
             using (var fs = new FileStream(outputPath, FileMode.Truncate))
             using (var bw = new BinaryWriter(fs))
             {
                 bw.Write(['B', 'D', 'B', 'D']);
                 bw.Write(1);
+
+                // String block
+                bw.Write(['S', 'T', 'R', 'B']);
+                var strbLengthPos = bw.BaseStream.Position;
+                bw.Write(0);
+                foreach (var str in stringBlock.Keys)
+                {
+                    var offs = bw.BaseStream.Position - strbLengthPos - 4;
+                    var asBytes = Encoding.UTF8.GetBytes(str);
+                    bw.Write((ushort)asBytes.Length);
+                    bw.Write(asBytes);
+                    stringBlock[str] = (int)offs;
+                }
+
+                var strbPos = bw.BaseStream.Position;
+                bw.BaseStream.Position = strbLengthPos;
+                bw.Write((uint)(strbPos - strbLengthPos - 4));
+                bw.BaseStream.Position = strbPos;
 
                 long offsetsPos = 0;
 
@@ -270,14 +321,12 @@ namespace DBDefsConverter
                 if (dbds.Count > 1)
                 {
                     bw.Write(['T', 'B', 'L', 'S']);
-                    var lengthPos = bw.BaseStream.Position;
-                    bw.Write(0);
                     bw.Write(dbds.Count);
 
                     // Table names
                     var tableNames = dbds.Keys;
                     foreach (var tableName in tableNames)
-                        bw.WritePrefixedString(tableName);
+                        bw.WriteStringBlockString(stringBlock, tableName);
 
                     // Table hashes
                     foreach (var tableName in tableNames)
@@ -288,12 +337,6 @@ namespace DBDefsConverter
                     var tableOffsets = new uint[dbds.Count];
                     foreach (var offset in tableOffsets)
                         bw.Write(offset);
-
-                    // Set chunk length
-                    var tblsPos = bw.BaseStream.Position;
-                    bw.BaseStream.Position = lengthPos;
-                    bw.Write((uint)(tblsPos - lengthPos - 4));
-                    bw.BaseStream.Position = tblsPos;
                 }
 
                 // Write each DBD
@@ -311,7 +354,7 @@ namespace DBDefsConverter
                     bw.Write(tableNameToDB2.TryGetValue(tableName, out var db2FDID) ? db2FDID : 0); // DB2 FDID
 
                     // Name
-                    bw.WritePrefixedString(tableName);
+                    bw.WriteStringBlockString(stringBlock, tableName);
 
                     // Col count
                     bw.Write((ushort)def.columnDefinitions.Count);
@@ -346,10 +389,10 @@ namespace DBDefsConverter
 
                         bw.Write(col.Value.verified);
 
-                        bw.WritePrefixedString(col.Key);
-                        bw.WritePrefixedString(col.Value.foreignTable);
-                        bw.WritePrefixedString(col.Value.foreignColumn);
-                        bw.WritePrefixedString(col.Value.comment);
+                        bw.WriteStringBlockString(stringBlock, col.Key);
+                        bw.WriteStringBlockString(stringBlock, col.Value.foreignTable);
+                        bw.WriteStringBlockString(stringBlock, col.Value.foreignColumn);
+                        bw.WriteStringBlockString(stringBlock, col.Value.comment);
                     }
 
                     // Versions
@@ -399,11 +442,11 @@ namespace DBDefsConverter
                             bw.Write((ushort)colList.IndexOf(defn.name));
                             bw.Write((byte)defn.arrLength);
 
-                            bw.WritePrefixedString(defn.comment);
+                            bw.WriteStringBlockString(stringBlock, defn.comment);
                         }
 
                         // Comment
-                        bw.WritePrefixedString(version.comment);
+                        bw.WriteStringBlockString(stringBlock, version.comment);
                     }
 
                     // Set chunk length
@@ -449,22 +492,19 @@ namespace DBDefsConverter
     }
 }
 
-namespace CustomExtensions
+public static class BinaryWriterExtensions
 {
-    public static class BinaryWriterExtensions
+    public static void WriteStringBlockString(this BinaryWriter bw, Dictionary<string, int> stringBlock, string stringToWrite)
     {
-        public static void WritePrefixedString(this BinaryWriter bw, string stringToWrite)
+        if (string.IsNullOrEmpty(stringToWrite))
         {
-            if (!string.IsNullOrEmpty(stringToWrite))
-            {
-                var asCharArray = Encoding.UTF8.GetBytes(stringToWrite);
-                bw.Write((ushort)asCharArray.Length);
-                bw.Write(asCharArray);
-            }
-            else
-            {
-                bw.Write((ushort)0);
-            }
+            bw.Write(-1);
+            return;
         }
+         
+        if (stringBlock.TryGetValue(stringToWrite, out var stringIndex))
+            bw.Write(stringIndex);
+        else
+            throw new KeyNotFoundException("String not found in stringblock");
     }
 }
