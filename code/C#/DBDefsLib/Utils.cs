@@ -113,4 +113,20 @@ namespace DBDefsLib
             return list;
         }
     }
+    public static class BinaryWriterExtensions
+    {
+        public static void WriteStringBlockString(this BinaryWriter bw, Dictionary<string, int> stringBlock, string stringToWrite)
+        {
+            if (string.IsNullOrEmpty(stringToWrite))
+            {
+                bw.Write(-1);
+                return;
+            }
+
+            if (stringBlock.TryGetValue(stringToWrite, out var stringIndex))
+                bw.Write(stringIndex);
+            else
+                throw new KeyNotFoundException("String not found in stringblock");
+        }
+    }
 }

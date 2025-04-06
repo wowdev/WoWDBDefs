@@ -24,6 +24,14 @@ namespace DBDefsLib
             build = uint.Parse(split[3]);
         }
 
+        public Build(short expansion, short major, short minor, uint build)
+        {
+            this.expansion = expansion;
+            this.major = major;
+            this.minor = minor;
+            this.build = build;
+        }
+
         public override string ToString()
         {
             return expansion + "." + major + "." + minor + "." + build;

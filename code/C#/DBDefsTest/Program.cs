@@ -2,6 +2,7 @@
 using DBDTest.Structs;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
@@ -21,28 +22,44 @@ namespace DBDTest
         {
             if (args.Length < 2)
             {
-                Console.WriteLine("Usage: <definitionsdir> <dbcdir>");
+                Console.WriteLine("Usage: <input (definitions dir or bdbd)> <dbcdir>");
                 Environment.Exit(1);
             }
 
-            var definitionDir = args[0];
-
-            if (!Directory.Exists(definitionDir))
-            {
-                throw new DirectoryNotFoundException("Directory " + definitionDir + " does not exist!");
-            }
-
+            var inputDir = args[0];
             dbcDir = args[1];
 
-            if (!Directory.Exists(dbcDir))
+            if (Directory.Exists(inputDir))
             {
-                throw new DirectoryNotFoundException("Directory " + dbcDir + " does not exist!");
-            }
+                if (!Directory.Exists(dbcDir))
+                {
+                    throw new DirectoryNotFoundException("Directory " + dbcDir + " does not exist!");
+                }
 
-            foreach (var file in Directory.GetFiles(definitionDir))
+                var sw = new Stopwatch();
+                sw.Start();
+                foreach (var file in Directory.GetFiles(inputDir))
+                {
+                    var reader = new DBDReader();
+                    definitionCache.Add(Path.GetFileNameWithoutExtension(file).ToLower(), reader.Read(file));
+                }
+                sw.Stop();
+                Console.WriteLine("Read " + definitionCache.Count + " database definitions from DBDs in " + sw.ElapsedMilliseconds + "ms!");
+            }
+            else if (File.Exists(inputDir) && inputDir.EndsWith(".bdbd", StringComparison.InvariantCultureIgnoreCase))
             {
-                var reader = new DBDReader();
-                definitionCache.Add(Path.GetFileNameWithoutExtension(file).ToLower(), reader.Read(file));
+                var sw = new Stopwatch();
+                sw.Start();
+                using (var stream = File.OpenRead(inputDir))
+                {
+                    var defs = BDBDReader.Read(stream);
+                    foreach(var def in defs)
+                    {
+                        definitionCache.Add(def.Key.ToLower(), def.Value.dbd);
+                    }
+                }
+                sw.Stop();
+                Console.WriteLine("Read " + definitionCache.Count + " database definitions from BDBD in " + sw.ElapsedMilliseconds + "ms!");
             }
 
             var builds = new List<Build>();
@@ -56,7 +73,7 @@ namespace DBDTest
 
             foreach(var build in builds)
             {
-                if (build.expansion != 8 || build.major != 1) continue;
+                if (build.expansion != 8 || build.major != 2) continue;
 
                 Console.WriteLine("Checking " + build + "..");
                 if (Directory.Exists(Path.Combine(dbcDir, build.ToString(), "DBFilesClient")))
