@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 # Based on Gerald Barre's blog post: https://www.meziantou.net/publishing-a-nuget-package-following-best-practices-using-github.htm
 
-name: publish
+name: Publish DBDefsLib
 on:
   workflow_dispatch: # Allow running the workflow manually from the GitHub UI
 
