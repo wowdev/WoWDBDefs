@@ -1,0 +1,72 @@
+name: Compile & release definitions
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      -  definitions/**
+      -  manifest.json
+jobs:
+  compile-bdbd:
+    name: Build BDBD
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set tag name
+      run: echo "NOW=$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
+    - name: Create tag
+      uses: actions/github-script@v5
+      with:
+        script: |
+          github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'refs/tags/${{ env.NOW }}',
+              sha: context.sha
+          })
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        submodules: recursive
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 8.0.x
+    - name: Compile BDBD file with DBDefsConverter
+      run: mkdir $PWD/tmp && dotnet run --project $PWD/code/C#/DBDefsConverter --configuration Release -- $PWD/definitions $PWD/tmp/all.bdbd bdbd
+    - name: Compile JSON DBDs with DBDefsConverter
+      run: dotnet run --project $PWD/code/C#/DBDefsConverter --configuration Release -- $PWD/definitions $PWD/tmp/json json
+    - name: Compile XML DBDs with DBDefsConverter
+      run: dotnet run --project $PWD/code/C#/DBDefsConverter --configuration Release -- $PWD/definitions $PWD/tmp/xml xml
+    - name: Copy manifest
+      run: cp $PWD/manifest.json $PWD/tmp/manifest.json
+    - name: Archive DBDs
+      uses: thedoctor0/zip-release@main
+      with:
+        directory: $PWD/definitions
+        type: 'zip'
+        filename: $PWD/tmp/dbd.zip
+    - name: Archive JSONs
+      uses: thedoctor0/zip-release@main
+      with:
+        directory: $PWD/tmp/json
+        type: 'zip'
+        filename: $PWD/tmp/json.zip
+    - name: Archive XMLs
+      uses: thedoctor0/zip-release@main
+      with:
+        directory: $PWD/tmp/xml
+        type: 'zip'
+        filename: $PWD/tmp/xml.zip
+    - name: Create Release
+      id: create_release
+      uses: softprops/action-gh-release@v0.1.13
+      with:
+        name: Definitions v${{ env.NOW }}
+        draft: false
+        prerelease: false
+        tag_name: ${{ env.NOW }}    
+        files: |
+            tmp/all.bdbd
+            tmp/dbd.zip
+            tmp/json.zip
+            tmp/xml.zip
+            tmp/manifest.json
