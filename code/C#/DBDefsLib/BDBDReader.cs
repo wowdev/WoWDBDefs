@@ -10,7 +10,7 @@ namespace DBDefsLib
     {
         public static Dictionary<string, TableInfo> Read(Stream stream, string tableName = "")
         {
-            var tableInfo = new Dictionary<string, TableInfo>();
+            var tableInfo = new Dictionary<string, TableInfo>(StringComparer.InvariantCultureIgnoreCase);
 
             using (var bin = new BinaryReader(stream))
             {
