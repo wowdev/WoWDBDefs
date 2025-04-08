@@ -49,7 +49,7 @@ namespace DBDefsLib
                 }
             }
 
-            using (var fs = new FileStream(target, FileMode.Truncate))
+            using (var fs = new FileStream(target, FileMode.Create))
             using (var bw = new BinaryWriter(fs))
             {
                 bw.Write(['B', 'D', 'B', 'D']);

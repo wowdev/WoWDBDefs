@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using static DBDefsLib.Structs;
 
 namespace DBDefsConverter
@@ -23,14 +22,6 @@ namespace DBDefsConverter
             var exportFormat = "json";
             Build exportBuild = null;
 
-            if (args.Length >= 2)
-            {
-                outDir = args[1];
-                if (!Directory.Exists(outDir))
-                {
-                    Directory.CreateDirectory(outDir);
-                }
-            }
 
             if (args.Length == 3)
             {
@@ -44,6 +35,14 @@ namespace DBDefsConverter
                     default:
                         throw new ArgumentException("Export format should be json or xml");
                 }
+            }
+
+            if (args.Length >= 2)
+            {
+                outDir = args[1];
+
+                if (exportFormat != "bdbd" && !Directory.Exists(outDir))
+                    Directory.CreateDirectory(outDir);
             }
 
             if (args.Length == 4)
@@ -254,8 +253,13 @@ namespace DBDefsConverter
             Console.WriteLine("Done, writing BDBD...");
 
             var outputPath = outFile;
-            if (Directory.Exists(outFile))
+            if (!outputPath.EndsWith(".bdbd"))
+            {
                 outputPath = Path.Combine(outFile, "out.bdbd");
+                var outputDir = Path.GetDirectoryName(outputPath);
+                if (!Directory.Exists(outputDir))
+                    Directory.CreateDirectory(outputDir);
+            }
 
             BDBDWriter.Save(dbds, outputPath, tableNameToDBC, tableNameToDB2);
 
