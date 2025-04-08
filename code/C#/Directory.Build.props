@@ -1,36 +1,5 @@
 <Project>
   <PropertyGroup>
-    <DebugType>embedded</DebugType>
-    <LangVersion>latest</LangVersion>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
-  <PropertyGroup>
-    <Authors>WoWDev</Authors>
-    <Description>Library for reading/writing DBD/BDBD files</Description>
-    <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/wowdev/WoWDBDefs.git</RepositoryUrl>
-    <EnablePackageValidation>true</EnablePackageValidation>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageTags>library,DBD,World of Warcraft</PackageTags>
-    <PackageProjectUrl>https://github.com/wowdev/WoWDBDefs</PackageProjectUrl>
-    <PackageIcon>nuget-icon.png</PackageIcon>
-    <IncludeSymbols>true</IncludeSymbols>
-    <IncludeSource>true</IncludeSource>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <Deterministic>true</Deterministic>
-  </PropertyGroup>
-  <PropertyGroup>
-    <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <NoWarn>$(NoWarn);CS1591</NoWarn>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="DBDefsLib/README.md" Pack="true" PackagePath="\"/>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="nuget-icon.png" Pack="true" PackagePath="\"/>
-  </ItemGroup>
 </Project>
