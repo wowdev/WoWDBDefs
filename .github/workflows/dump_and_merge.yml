@@ -91,3 +91,7 @@ jobs:
         with:
           commit_message: Merge ${{ github.event.inputs.build }}
           file_pattern: 'definitions/* manifest.json'
+  deploy:
+    needs: dumpandmerge
+    uses: ./.github/workflows/release_defs.yml
+        
