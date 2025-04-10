@@ -1,11 +1,14 @@
 name: Compile & release definitions
 on:
   workflow_dispatch:
-  workflow_call:
   push:
     paths:
       -  definitions/**
       -  manifest.json
+  workflow_run:
+    workflows: ["Dump & merge"]
+    types:
+      - completed
 jobs:
   compile-bdbd:
     name: Build BDBD/JSON/XML definitions
