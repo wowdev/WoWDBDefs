@@ -22,14 +22,14 @@ jobs:
   dumpandmerge:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up cache
-        uses: actions/cache@v3
-        with:
-          path: cache
-          key: cache
-          restore-keys: cache
-      - name: Create cache folder
-        run: mkdir -p cache
+      # - name: Set up cache
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: cache
+      #     key: cache
+      #     restore-keys: cache
+      # - name: Create cache folder
+      #   run: mkdir -p cache
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Download executable
