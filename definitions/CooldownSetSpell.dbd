@@ -2,7 +2,7 @@ COLUMNS
 int ID?
 int<CooldownSet::ID> CooldownSetID?
 int<Spell::ID> SpellID?
-int Category? 0 = Essential, 1 = Utility, 2 = TrackedBuff, 3 = TrackedBar
+int Category? // 0 = Essential, 1 = Utility, 2 = TrackedBuff, 3 = TrackedBar
 int<PlayerCondition::ID> PlayerConditionID?
 int OrderIndex?
 int Flags?
