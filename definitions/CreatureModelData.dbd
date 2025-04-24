@@ -47,6 +47,35 @@ float WalkSpeed?
 float RunSpeed?
 int Field_11_0_0_54210_032?
 int Field_1_15_4_56400_028?
+float Field_5_5_0_60481_000?
+int Field_5_5_0_60481_001?
+int Field_5_5_0_60481_002?
+int Field_5_5_0_60481_003?
+int Field_5_5_0_60481_004?
+float Field_5_5_0_60481_005?
+float Field_5_5_0_60481_006?
+float Field_5_5_0_60481_007?
+int Field_5_5_0_60481_008?
+int Field_5_5_0_60481_009?
+int Field_5_5_0_60481_010?
+int Field_5_5_0_60481_011?
+int Field_5_5_0_60481_012?
+float Field_5_5_0_60481_013?
+float Field_5_5_0_60481_014?
+float Field_5_5_0_60481_015?
+int Field_5_5_0_60481_016?
+float Field_5_5_0_60481_017?
+float Field_5_5_0_60481_018?
+float Field_5_5_0_60481_019?
+float Field_5_5_0_60481_020?
+float Field_5_5_0_60481_021?
+float Field_5_5_0_60481_022?
+float Field_5_5_0_60481_023?
+float Field_5_5_0_60481_024?
+float Field_5_5_0_60481_025?
+float Field_5_5_0_60481_026?
+float Field_5_5_0_60481_027?
+int Field_5_5_0_60481_028?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -490,6 +519,39 @@ OverrideSelectionRadius
 TamedPetBaseScale
 CreatureGeosetDataID<32>
 HoverHeight
+
+LAYOUT F192F016
+BUILD 5.5.0.60481
+$noninline,id$ID<32>
+Field_5_5_0_60481_000[6]
+Field_5_5_0_60481_001<32>
+Field_5_5_0_60481_002<u32>
+Field_5_5_0_60481_003<u32>
+Field_5_5_0_60481_004<u32>
+Field_5_5_0_60481_005
+Field_5_5_0_60481_006
+Field_5_5_0_60481_007
+Field_5_5_0_60481_008<u32>
+Field_5_5_0_60481_009<u32>
+Field_5_5_0_60481_010<u32>
+Field_5_5_0_60481_011<u32>
+Field_5_5_0_60481_012<8>
+Field_5_5_0_60481_013
+Field_5_5_0_60481_014
+Field_5_5_0_60481_015
+Field_5_5_0_60481_016<u32>
+Field_5_5_0_60481_017
+Field_5_5_0_60481_018
+Field_5_5_0_60481_019
+Field_5_5_0_60481_020
+Field_5_5_0_60481_021
+Field_5_5_0_60481_022
+Field_5_5_0_60481_023
+Field_5_5_0_60481_024
+Field_5_5_0_60481_025
+Field_5_5_0_60481_026
+Field_5_5_0_60481_027
+Field_5_5_0_60481_028<u16>
 
 BUILD 6.0.1.18179
 $id$ID<32>

@@ -14,6 +14,20 @@ int<Spell::ID> SpellRank
 int<Talent::ID> PrereqTalent
 int PrereqRank
 int<Spell::ID> RequiredSpellID
+locstring Field_5_5_0_60481_000_lang?
+int Field_5_5_0_60481_001?
+int Field_5_5_0_60481_002?
+int Field_5_5_0_60481_003?
+int Field_5_5_0_60481_004?
+int Field_5_5_0_60481_005?
+int Field_5_5_0_60481_006?
+int Field_5_5_0_60481_007?
+int Field_5_5_0_60481_008?
+int Field_5_5_0_60481_009?
+int Field_5_5_0_60481_010?
+int Field_5_5_0_60481_011?
+int Field_5_5_0_60481_012?
+int Field_5_5_0_60481_013?
 
 BUILD 0.7.0.3694-0.9.1.3810
 $id$ID<32>
@@ -234,6 +248,24 @@ CategoryMask<32>[2]
 SpellRank<32>[9]
 PrereqTalent<32>[3]
 PrereqRank<32>[3]
+
+LAYOUT 147B0045
+BUILD 5.5.0.60481
+$noninline,id$ID<32>
+Field_5_5_0_60481_000_lang
+Field_5_5_0_60481_001<u8>
+Field_5_5_0_60481_002<32>
+Field_5_5_0_60481_003<u8>
+Field_5_5_0_60481_004<u16>
+Field_5_5_0_60481_005<8>
+Field_5_5_0_60481_006<u16>
+Field_5_5_0_60481_007<u32>
+Field_5_5_0_60481_008<u32>
+Field_5_5_0_60481_009<u32>
+Field_5_5_0_60481_010<32>[2]
+Field_5_5_0_60481_011<u32>[9]
+Field_5_5_0_60481_012<u32>[3]
+Field_5_5_0_60481_013<u8>[3]
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414

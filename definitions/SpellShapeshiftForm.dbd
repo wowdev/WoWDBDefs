@@ -48,22 +48,6 @@ CreatureType<32>
 AttackIconID<32>
 CombatRoundTime<32>
 
-LAYOUT AB5F718E
-BUILD 3.4.4.59817, 3.4.4.59853, 3.4.4.59887, 3.4.4.60003, 3.4.4.60063, 3.4.4.60190, 3.4.4.60273, 3.4.4.60320, 3.4.4.60430
-BUILD 1.15.7.59706, 1.15.7.59856, 1.15.7.60000, 1.15.7.60013, 1.15.7.60141, 1.15.7.60191, 1.15.7.60249, 1.15.7.60277
-$noninline,id$ID<32>
-Name_lang
-Field_1_15_0_52124_002<u32>
-CreatureType<u8>
-Flags<32>
-AttackIconFileID<32>
-BonusActionBar<8>
-CombatRoundTime<16>
-DamageVariance
-MountTypeID<u16>
-CreatureDisplayID<u32>[4]
-PresetSpellID<u32>[8]
-
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.6.13596
 BUILD 3.0.1.8303-3.3.5.12340
@@ -107,6 +91,23 @@ $noninline,id$ID<32>
 Name_lang
 Field_1_15_0_52124_002<u32>
 CreatureType<8>
+Flags<32>
+AttackIconFileID<32>
+BonusActionBar<8>
+CombatRoundTime<16>
+DamageVariance
+MountTypeID<u16>
+CreatureDisplayID<u32>[4]
+PresetSpellID<u32>[8]
+
+LAYOUT AB5F718E
+BUILD 5.5.0.60481
+BUILD 3.4.4.59817, 3.4.4.59853, 3.4.4.59887, 3.4.4.60003, 3.4.4.60063, 3.4.4.60190, 3.4.4.60273, 3.4.4.60320, 3.4.4.60430
+BUILD 1.15.7.59706, 1.15.7.59856, 1.15.7.60000, 1.15.7.60013, 1.15.7.60141, 1.15.7.60191, 1.15.7.60249, 1.15.7.60277
+$noninline,id$ID<32>
+Name_lang
+Field_1_15_0_52124_002<u32>
+CreatureType<u8>
 Flags<32>
 AttackIconFileID<32>
 BonusActionBar<8>

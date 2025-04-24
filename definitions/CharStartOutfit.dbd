@@ -40,18 +40,6 @@ PetFamilyID<u8>
 ItemID<32>[24]
 $noninline,relation$RaceID<32>
 
-LAYOUT DB39675A
-BUILD 3.4.4.59817, 3.4.4.59853, 3.4.4.59887, 3.4.4.60003, 3.4.4.60063, 3.4.4.60190, 3.4.4.60273, 3.4.4.60320, 3.4.4.60430
-BUILD 1.15.7.59706, 1.15.7.59856, 1.15.7.60000, 1.15.7.60013, 1.15.7.60141, 1.15.7.60191, 1.15.7.60249, 1.15.7.60277
-$noninline,id$ID<32>
-ClassID<8>
-SexID<8>
-OutfitID<u8>
-PetDisplayID<u32>
-PetFamilyID<u8>
-ItemID<32>[24]
-$noninline,relation$RaceID<8>
-
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.11927
 BUILD 3.0.1.8303-3.3.5.12340
@@ -79,6 +67,19 @@ PetDisplayID<u32>
 PetFamilyID<u8>
 ItemID<32>[24]
 $noninline,relation$RaceID<32>
+
+LAYOUT DB39675A
+BUILD 5.5.0.60481
+BUILD 3.4.4.59817, 3.4.4.59853, 3.4.4.59887, 3.4.4.60003, 3.4.4.60063, 3.4.4.60190, 3.4.4.60273, 3.4.4.60320, 3.4.4.60430
+BUILD 1.15.7.59706, 1.15.7.59856, 1.15.7.60000, 1.15.7.60013, 1.15.7.60141, 1.15.7.60191, 1.15.7.60249, 1.15.7.60277
+$noninline,id$ID<32>
+ClassID<8>
+SexID<8>
+OutfitID<u8>
+PetDisplayID<u32>
+PetFamilyID<u8>
+ItemID<32>[24]
+$noninline,relation$RaceID<8>
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414

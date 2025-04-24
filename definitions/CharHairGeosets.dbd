@@ -33,21 +33,6 @@ ColorIndex<8>
 CustomGeoFileDataID<32>
 HdCustomGeoFileDataID<32>
 
-LAYOUT 0DFA0F80
-BUILD 3.4.4.59817, 3.4.4.59853, 3.4.4.59887, 3.4.4.60003, 3.4.4.60063, 3.4.4.60190, 3.4.4.60273, 3.4.4.60320, 3.4.4.60430
-BUILD 1.15.7.59706, 1.15.7.59856, 1.15.7.60000, 1.15.7.60013, 1.15.7.60141, 1.15.7.60191, 1.15.7.60249, 1.15.7.60277
-$noninline,id$ID<32>
-$relation$RaceID<8>
-SexID<8>
-VariationID<8>
-GeosetID<u8>
-Showscalp<u8>
-VariationType<8>
-GeosetType<8>
-ColorIndex<8>
-CustomGeoFileDataID<32>
-HdCustomGeoFileDataID<32>
-
 BUILD 4.0.0.11792
 BUILD 0.5.3.3368
 BUILD 4.0.0.11792-4.3.4.15595
@@ -94,6 +79,22 @@ BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15
 $noninline,id$ID<32>
 $relation$RaceID<u8>
 SexID<u8>
+VariationID<8>
+GeosetID<u8>
+Showscalp<u8>
+VariationType<8>
+GeosetType<8>
+ColorIndex<8>
+CustomGeoFileDataID<32>
+HdCustomGeoFileDataID<32>
+
+LAYOUT 0DFA0F80
+BUILD 5.5.0.60481
+BUILD 3.4.4.59817, 3.4.4.59853, 3.4.4.59887, 3.4.4.60003, 3.4.4.60063, 3.4.4.60190, 3.4.4.60273, 3.4.4.60320, 3.4.4.60430
+BUILD 1.15.7.59706, 1.15.7.59856, 1.15.7.60000, 1.15.7.60013, 1.15.7.60141, 1.15.7.60191, 1.15.7.60249, 1.15.7.60277
+$noninline,id$ID<32>
+$relation$RaceID<8>
+SexID<8>
 VariationID<8>
 GeosetID<u8>
 Showscalp<u8>

@@ -6,6 +6,12 @@ int FootstepSprayRun
 int FootstepSprayWalk
 int<TerrainTypeSounds::ID> SoundID
 int Flags
+string Field_5_5_0_60481_000?
+int Field_5_5_0_60481_001?
+int Field_5_5_0_60481_002?
+int Field_5_5_0_60481_003?
+int Field_5_5_0_60481_004?
+int Field_5_5_0_60481_005?
 
 LAYOUT 4BE35F10
 BUILD 1.13.0.28211
@@ -104,6 +110,16 @@ FootstepSprayWalk<u16>
 SoundID<u8>
 Flags<u8>
 TerrainID<32>
+
+LAYOUT AD4FFB9A
+BUILD 5.5.0.60481
+$noninline,id$ID<32>
+Field_5_5_0_60481_000
+Field_5_5_0_60481_001<u16>
+Field_5_5_0_60481_002<u16>
+Field_5_5_0_60481_003<u8>
+Field_5_5_0_60481_004<32>
+Field_5_5_0_60481_005<32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

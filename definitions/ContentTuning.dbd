@@ -17,6 +17,16 @@ int ILevel? // overrides LfgDungeons::MinGear if set
 float XpMultQuest?
 int<Curve::ID> HPScalingCurveID?
 int<Curve::ID> DMGScalingCurveID?
+int Field_5_5_0_60481_000?
+int Field_5_5_0_60481_001?
+int Field_5_5_0_60481_002?
+int Field_5_5_0_60481_003?
+int Field_5_5_0_60481_004?
+int Field_5_5_0_60481_005?
+int Field_5_5_0_60481_006?
+int Field_5_5_0_60481_007?
+int Field_5_5_0_60481_008?
+int Field_5_5_0_60481_009?
 
 LAYOUT D0AEEA71
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -66,6 +76,19 @@ MaxLevelSquish<32>
 Flags<32>
 ExpectedStatModID<32>
 DifficultyESMID<32>
+
+LAYOUT 7FA8DFF1
+BUILD 5.5.0.60481
+$id$Field_5_5_0_60481_000<32>
+Field_5_5_0_60481_001<32>
+Field_5_5_0_60481_002<32>
+Field_5_5_0_60481_003<32>
+Field_5_5_0_60481_004<32>
+Field_5_5_0_60481_005<32>
+Field_5_5_0_60481_006<32>
+Field_5_5_0_60481_007<32>
+Field_5_5_0_60481_008<32>
+Field_5_5_0_60481_009<32>
 
 LAYOUT 70C53E15
 BUILD 8.0.1.26175

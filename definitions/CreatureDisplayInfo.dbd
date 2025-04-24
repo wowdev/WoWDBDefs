@@ -41,6 +41,32 @@ int<ConditionalCreatureModelData::ID> ConditionalCreatureModelID?
 float MountMaxBankingAngle?
 int Field_11_0_0_54210_026?
 int Field_1_15_4_56400_024?
+int Field_5_5_0_60481_000?
+int Field_5_5_0_60481_001?
+int Field_5_5_0_60481_002?
+int Field_5_5_0_60481_003?
+float Field_5_5_0_60481_004?
+int Field_5_5_0_60481_005?
+int Field_5_5_0_60481_006?
+int Field_5_5_0_60481_007?
+int Field_5_5_0_60481_008?
+int Field_5_5_0_60481_009?
+int Field_5_5_0_60481_010?
+int Field_5_5_0_60481_011?
+int Field_5_5_0_60481_012?
+int Field_5_5_0_60481_013?
+int Field_5_5_0_60481_014?
+int Field_5_5_0_60481_015?
+float Field_5_5_0_60481_016?
+float Field_5_5_0_60481_017?
+int Field_5_5_0_60481_018?
+int Field_5_5_0_60481_019?
+int Field_5_5_0_60481_020?
+int Field_5_5_0_60481_021?
+int Field_5_5_0_60481_022?
+int Field_5_5_0_60481_023?
+int Field_5_5_0_60481_024?
+int Field_5_5_0_60481_025?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -347,6 +373,35 @@ AnimReplacementSetID<32>
 Flags<32>
 Gender<32>
 StateSpellVisualKitID<32>
+
+LAYOUT F75F884C
+BUILD 5.5.0.60481
+$id$Field_5_5_0_60481_000<32>
+Field_5_5_0_60481_001<u16>
+Field_5_5_0_60481_002<u16>
+Field_5_5_0_60481_003<8>
+Field_5_5_0_60481_004
+Field_5_5_0_60481_005<u8>
+Field_5_5_0_60481_006<u8>
+Field_5_5_0_60481_007<32>
+Field_5_5_0_60481_008<u16>
+Field_5_5_0_60481_009<u16>
+Field_5_5_0_60481_010<32>
+Field_5_5_0_60481_011<32>
+Field_5_5_0_60481_012<u16>
+Field_5_5_0_60481_013<u16>
+Field_5_5_0_60481_014<32>
+Field_5_5_0_60481_015<32>
+Field_5_5_0_60481_016
+Field_5_5_0_60481_017
+Field_5_5_0_60481_018<8>
+Field_5_5_0_60481_019<32>
+Field_5_5_0_60481_020<32>
+Field_5_5_0_60481_021<8>
+Field_5_5_0_60481_022<32>
+Field_5_5_0_60481_023<8>
+Field_5_5_0_60481_024<u16>
+Field_5_5_0_60481_025<32>[4]
 
 BUILD 6.0.1.18179
 $id$ID<32>
