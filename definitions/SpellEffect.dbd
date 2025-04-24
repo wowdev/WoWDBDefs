@@ -32,36 +32,6 @@ float Variance
 float EffectBasePointsF
 int Field_7_3_2_25549_010?
 int ScalingClass?
-int Field_5_5_0_60481_000?
-int Field_5_5_0_60481_001?
-int Field_5_5_0_60481_002?
-float Field_5_5_0_60481_003?
-int Field_5_5_0_60481_004?
-int Field_5_5_0_60481_005?
-int Field_5_5_0_60481_006?
-int Field_5_5_0_60481_007?
-float Field_5_5_0_60481_008?
-float Field_5_5_0_60481_009?
-int Field_5_5_0_60481_010?
-int Field_5_5_0_60481_011?
-int Field_5_5_0_60481_012?
-int Field_5_5_0_60481_013?
-float Field_5_5_0_60481_014?
-float Field_5_5_0_60481_015?
-float Field_5_5_0_60481_016?
-int Field_5_5_0_60481_017?
-float Field_5_5_0_60481_018?
-float Field_5_5_0_60481_019?
-float Field_5_5_0_60481_020?
-float Field_5_5_0_60481_021?
-float Field_5_5_0_60481_022?
-float Field_5_5_0_60481_023?
-float Field_5_5_0_60481_024?
-int Field_5_5_0_60481_025?
-int Field_5_5_0_60481_026?
-int Field_5_5_0_60481_027?
-int Field_5_5_0_60481_028?
-int Field_5_5_0_60481_029?
 
 LAYOUT D6EA6A1A
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -354,36 +324,36 @@ EffectAttributes<32>
 LAYOUT 365C1401
 BUILD 5.5.0.60481
 $noninline,id$ID<32>
-Field_5_5_0_60481_000<32>
-Field_5_5_0_60481_001<32>
-Field_5_5_0_60481_002<u32>
-Field_5_5_0_60481_003
-Field_5_5_0_60481_004<32>
-Field_5_5_0_60481_005<16>
-Field_5_5_0_60481_006<32>
-Field_5_5_0_60481_007<32>
-Field_5_5_0_60481_008
-Field_5_5_0_60481_009
-Field_5_5_0_60481_010<32>
-Field_5_5_0_60481_011<32>
-Field_5_5_0_60481_012<32>
-Field_5_5_0_60481_013<32>
-Field_5_5_0_60481_014
-Field_5_5_0_60481_015
-Field_5_5_0_60481_016
-Field_5_5_0_60481_017<32>
-Field_5_5_0_60481_018
-Field_5_5_0_60481_019
-Field_5_5_0_60481_020
-Field_5_5_0_60481_021
-Field_5_5_0_60481_022
-Field_5_5_0_60481_023
-Field_5_5_0_60481_024
-Field_5_5_0_60481_025<32>[2]
-Field_5_5_0_60481_026<u32>[2]
-Field_5_5_0_60481_027<32>[4]
-Field_5_5_0_60481_028<16>[2]
-$noninline,relation$Field_5_5_0_60481_029<32>
+DifficultyID<32>
+EffectIndex<32>
+Effect<u32>
+EffectAmplitude
+EffectAttributes<32>
+EffectAura<16>
+EffectAuraPeriod<32>
+EffectBasePoints<32>
+EffectBonusCoefficient
+EffectChainAmplitude
+EffectChainTargets<32>
+EffectDieSides<32>
+EffectItemType<32>
+EffectMechanic<32>
+EffectPointsPerResource
+EffectPos_facing
+EffectRealPointsPerLevel
+EffectTriggerSpell<32>
+BonusCoefficientFromAP
+PvpMultiplier
+Coefficient
+Variance
+ResourceCoefficient
+GroupSizeBasePointsCoefficient
+EffectBasePointsF
+EffectMiscValue<32>[2]
+EffectRadiusIndex<u32>[2]
+EffectSpellClassMask<32>[4]
+ImplicitTarget<16>[2]
+$noninline,relation$SpellID<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>

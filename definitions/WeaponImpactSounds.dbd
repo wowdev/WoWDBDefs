@@ -7,24 +7,17 @@ int<SoundEntries::ID> CritImpactSoundID
 int ImpactSource
 int PierceCritImpactSoundID
 int PierceImpactSoundID
-int Field_5_5_0_60481_000?
-int Field_5_5_0_60481_001?
-int Field_5_5_0_60481_002?
-int Field_5_5_0_60481_003?
-int Field_5_5_0_60481_004?
-int Field_5_5_0_60481_005?
-int Field_5_5_0_60481_006?
 
 LAYOUT A77CBD9D
 BUILD 5.5.0.60481
 $noninline,id$ID<32>
-Field_5_5_0_60481_000<u8>
-Field_5_5_0_60481_001<u8>
-Field_5_5_0_60481_002<u8>
-Field_5_5_0_60481_003<u32>[11]
-Field_5_5_0_60481_004<u32>[11]
-Field_5_5_0_60481_005<u32>[11]
-Field_5_5_0_60481_006<u32>[11]
+WeaponSubClassID<u8>
+ParrySoundType<u8>
+ImpactSource<u8>
+ImpactSoundID<u32>[11]
+CritImpactSoundID<u32>[11]
+PierceImpactSoundID<u32>[11]
+PierceCritImpactSoundID<u32>[11]
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
