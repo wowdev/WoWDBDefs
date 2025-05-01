@@ -4,13 +4,6 @@ int Flags
 int<SoundKit::ID> FizzleSoundID
 locstring Name_lang
 
-LAYOUT ED08F596
-BUILD 5.5.0.60481
-$noninline,id$ID<32>
-Name_lang
-Flags<32>
-FizzleSoundID<u32>
-
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
 BUILD 0.5.3.3368
@@ -111,4 +104,12 @@ BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15
 $noninline,id$ID<32>
 Name_lang
 Flags<u8>
+FizzleSoundID<u32>
+
+LAYOUT ED08F596
+BUILD 11.1.7.60520
+BUILD 5.5.0.60481
+$noninline,id$ID<32>
+Name_lang
+Flags<32>
 FizzleSoundID<u32>
