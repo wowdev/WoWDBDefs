@@ -55,31 +55,6 @@ int Field_1_7_0_4671_015?
 int NavigationMaxDistance? // default/if <= 0: 999, max ingame navigation pin distance
 int<FileData::ID> PreloadFileDataID?
 int Field_1_15_4_56400_021?
-string Field_11_1_7_60520_000?
-locstring Field_11_1_7_60520_001_lang?
-locstring Field_11_1_7_60520_002_lang?
-locstring Field_11_1_7_60520_003_lang?
-locstring Field_11_1_7_60520_004_lang?
-locstring Field_11_1_7_60520_005_lang?
-float Field_11_1_7_60520_006?
-int Field_11_1_7_60520_007?
-int Field_11_1_7_60520_008?
-int Field_11_1_7_60520_009?
-int Field_11_1_7_60520_010?
-int Field_11_1_7_60520_011?
-int Field_11_1_7_60520_012?
-int Field_11_1_7_60520_013?
-int Field_11_1_7_60520_014?
-int Field_11_1_7_60520_015?
-float Field_11_1_7_60520_016?
-int Field_11_1_7_60520_017?
-int Field_11_1_7_60520_018?
-int Field_11_1_7_60520_019?
-int Field_11_1_7_60520_020?
-int Field_11_1_7_60520_021?
-int Field_11_1_7_60520_022?
-int Field_11_1_7_60520_023?
-int Field_11_1_7_60520_024?
 
 BUILD 0.6.0.3592
 BUILD 0.5.3.3368, 0.5.3.3494
@@ -1268,28 +1243,28 @@ Flags<32>[3]
 LAYOUT 75863E23
 BUILD 11.1.7.60520
 $noninline,id$ID<32>
-Field_11_1_7_60520_000
-Field_11_1_7_60520_001_lang
-Field_11_1_7_60520_002_lang
-Field_11_1_7_60520_003_lang
-Field_11_1_7_60520_004_lang
-Field_11_1_7_60520_005_lang
-Field_11_1_7_60520_006[2]
-Field_11_1_7_60520_007<u8>
-Field_11_1_7_60520_008<8>
-Field_11_1_7_60520_009<u8>
-Field_11_1_7_60520_010<u16>
-Field_11_1_7_60520_011<16>
-Field_11_1_7_60520_012<16>
-Field_11_1_7_60520_013<16>
-Field_11_1_7_60520_014<16>
-Field_11_1_7_60520_015<u8>
-Field_11_1_7_60520_016
-Field_11_1_7_60520_017<16>
-Field_11_1_7_60520_018<u8>
-Field_11_1_7_60520_019<16>
-Field_11_1_7_60520_020<32>
-Field_11_1_7_60520_021<32>
-Field_11_1_7_60520_022<32>
-Field_11_1_7_60520_023<32>
-Field_11_1_7_60520_024<32>[3]
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
+Corpse[2]
+MapType<u8>
+InstanceType<8>
+ExpansionID<u8>
+AreaTableID<u16>
+LoadingScreenID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+TimeOffset<u8>
+MinimapIconScale
+CorpseMapID<16>
+MaxPlayers<u8>
+WindSettingsID<16>
+ZmpFileDataID<32>
+WdtFileDataID<32>
+NavigationMaxDistance<32>
+PreloadFileDataID<32>
+Flags<32>[3]

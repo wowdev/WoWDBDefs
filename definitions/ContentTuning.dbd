@@ -24,23 +24,8 @@ int Field_5_5_0_60481_006?
 int Field_5_5_0_60481_007?
 int Field_5_5_0_60481_008?
 int Field_5_5_0_60481_009?
-int Field_11_1_7_60520_000?
-int Field_11_1_7_60520_001?
-int Field_11_1_7_60520_002?
-int Field_11_1_7_60520_003?
-int Field_11_1_7_60520_004?
-int Field_11_1_7_60520_005?
-int Field_11_1_7_60520_006?
-int Field_11_1_7_60520_007?
-int Field_11_1_7_60520_008?
-int Field_11_1_7_60520_009?
-int Field_11_1_7_60520_010?
-int Field_11_1_7_60520_011?
-int Field_11_1_7_60520_012?
-int Field_11_1_7_60520_013?
-int Field_11_1_7_60520_014?
-int Field_11_1_7_60520_015?
-float Field_11_1_7_60520_016?
+int<Curve::ID> Field_11_1_7_60520_005? // Replacement for HPScalingCurveID in some cases
+int<Curve::ID> Field_11_1_7_60520_006? // Replacement for DMGScalingCurveID in some cases
 
 LAYOUT D0AEEA71
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -362,20 +347,20 @@ XpMultQuest
 
 LAYOUT CD32761B
 BUILD 11.1.7.60520
-$id$Field_11_1_7_60520_000<32>
-Field_11_1_7_60520_001<32>
-Field_11_1_7_60520_002<32>
-Field_11_1_7_60520_003<32>
-Field_11_1_7_60520_004<32>
+$id$ID<32>
+Flags<32>
+ExpansionID<32>
+HPScalingCurveID<32>
+DMGScalingCurveID<32>
 Field_11_1_7_60520_005<32>
 Field_11_1_7_60520_006<32>
-Field_11_1_7_60520_007<32>
-Field_11_1_7_60520_008<32>
-Field_11_1_7_60520_009<32>
-Field_11_1_7_60520_010<32>
-Field_11_1_7_60520_011<32>
-Field_11_1_7_60520_012<32>
-Field_11_1_7_60520_013<32>
-Field_11_1_7_60520_014<32>
-Field_11_1_7_60520_015<32>
-Field_11_1_7_60520_016
+MinLevelSquish<32>
+MaxLevelSquish<32>
+MinLevelScalingOffset<32>
+MaxLevelScalingOffset<32>
+AllowedMinOffset<32>
+AllowedMaxOffset<32>
+LfgMinLevel<32>
+LfgMaxLevel<32>
+ILevel<32>
+XpMultQuest

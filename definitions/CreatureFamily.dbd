@@ -11,15 +11,6 @@ int CategoryEnumID
 locstring Name_lang
 string IconFile
 int<FileData::ID> IconFileID
-locstring Field_11_1_7_60520_000_lang?
-float Field_11_1_7_60520_001?
-int Field_11_1_7_60520_002?
-float Field_11_1_7_60520_003?
-int Field_11_1_7_60520_004?
-int Field_11_1_7_60520_005?
-int Field_11_1_7_60520_006?
-int Field_11_1_7_60520_007?
-int Field_11_1_7_60520_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -240,12 +231,12 @@ SkillLine<16>[2]
 LAYOUT 4EBC1C18
 BUILD 11.1.7.60520
 $noninline,id$ID<32>
-Field_11_1_7_60520_000_lang
-Field_11_1_7_60520_001
-Field_11_1_7_60520_002<8>
-Field_11_1_7_60520_003
-Field_11_1_7_60520_004<8>
-Field_11_1_7_60520_005<16>
-Field_11_1_7_60520_006<8>
-Field_11_1_7_60520_007<32>
-Field_11_1_7_60520_008<16>[2]
+Name_lang
+MinScale
+MinScaleLevel<8>
+MaxScale
+MaxScaleLevel<8>
+PetFoodMask<16>
+PetTalentType<8>
+IconFileID<32>
+SkillLine<16>[2]
