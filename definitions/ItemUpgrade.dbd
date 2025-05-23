@@ -5,7 +5,6 @@ int CurrencyType
 int ItemLevelIncrement
 int<ItemUpgradePath::ID> ItemUpgradePathID
 int PrerequisiteID
-int Field_5_5_0_61000_000?
 int Field_5_5_0_61000_001?
 int Field_5_5_0_61000_002?
 int Field_5_5_0_61000_003?
@@ -70,7 +69,7 @@ CurrencyAmount<u32>
 
 LAYOUT A223456F
 BUILD 5.5.0.61000
-$id$Field_5_5_0_61000_000<32>
+$id$ID<32>
 $relation$Field_5_5_0_61000_001<u8>
 Field_5_5_0_61000_002<u8>
 Field_5_5_0_61000_003<u16>
