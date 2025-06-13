@@ -11,15 +11,7 @@ int<SoundEntries::ID> SoundEntriesID
 int<Spell::ID> TriggerSpell?
 int Field_4_0_0_12911_007?
 int Field_9_1_5_39977_006?
-int Field_5_5_0_61411_000?
-int Field_5_5_0_61411_001?
-int Field_5_5_0_61411_002?
-int Field_5_5_0_61411_003?
-int Field_5_5_0_61411_004?
-int Field_5_5_0_61411_005?
 int Field_5_5_0_61411_006?
-float Field_5_5_0_61411_007?
-int Field_5_5_0_61411_008?
 int Field_5_5_0_61411_009?
 
 LAYOUT 0FE8E80E
@@ -118,15 +110,15 @@ TriggerType<8>
 LAYOUT 46BF6E54
 BUILD 5.5.0.61411
 $noninline,id$ID<32>
-Field_5_5_0_61411_000<32>[4]
-Field_5_5_0_61411_001<32>
-Field_5_5_0_61411_002<32>
-Field_5_5_0_61411_003<32>
-Field_5_5_0_61411_004<32>
-Field_5_5_0_61411_005<32>
+IconHighlightSpellClassMask<32>[4]
+SpellID<32>
+OverlayFileDataID<32>
+ScreenLocationID<32>
+SoundEntriesID<32>
+Color<32>
 Field_5_5_0_61411_006<32>
-Field_5_5_0_61411_007
-Field_5_5_0_61411_008<32>
+Scale
+TriggerType<32>
 Field_5_5_0_61411_009<32>
 
 BUILD 6.0.1.18179

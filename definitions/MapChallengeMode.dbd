@@ -11,13 +11,6 @@ int Field_5_0_1_15464_002?
 int Field_5_0_1_15464_003?
 int Field_5_0_1_15464_004?
 int Field_9_1_5_39977_005?
-locstring Field_5_5_0_61000_000_lang?
-int Field_5_5_0_61000_001?
-int Field_5_5_0_61000_002?
-int Field_5_5_0_61000_003?
-int Field_5_5_0_61000_004?
-int Field_5_5_0_61000_005?
-int Field_5_5_0_61000_006?
 int Field_5_5_0_61000_007?
 int Field_5_5_0_61000_008?
 
@@ -31,13 +24,13 @@ CriteriaCount<32>[5]
 
 LAYOUT 531A0D41
 BUILD 5.5.0.61000, 5.5.0.61051, 5.5.0.61135, 5.5.0.61184, 5.5.0.61208, 5.5.0.61217, 5.5.0.61411
-Field_5_5_0_61000_000_lang
-$id$Field_5_5_0_61000_001<32>
-$relation$Field_5_5_0_61000_002<u16>
-Field_5_5_0_61000_003<32>
-Field_5_5_0_61000_004<u32>
-Field_5_5_0_61000_005<32>
-Field_5_5_0_61000_006<16>[3]
+Name_lang
+$id$ID<32>
+$relation$MapID<u16>
+Flags<32>
+ExpansionLevel<u32>
+Field_9_1_5_39977_005<32>
+CriteriaCount<16>[3]
 Field_5_5_0_61000_007<32>[6]
 Field_5_5_0_61000_008<32>[6]
 

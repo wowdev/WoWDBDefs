@@ -56,24 +56,6 @@ int Field_1_15_7_59706_017?
 int Field_1_15_7_59706_019?
 int Field_1_15_7_59706_020?
 int Field_1_15_7_59706_021?
-locstring Field_5_5_0_61411_000_lang?
-string Field_5_5_0_61411_001?
-locstring Field_5_5_0_61411_002_lang?
-locstring Field_5_5_0_61411_003_lang?
-string Field_5_5_0_61411_004?
-locstring Field_5_5_0_61411_005_lang?
-locstring Field_5_5_0_61411_006_lang?
-locstring Field_5_5_0_61411_007_lang?
-locstring Field_5_5_0_61411_008_lang?
-locstring Field_5_5_0_61411_009_lang?
-int Field_5_5_0_61411_010?
-int Field_5_5_0_61411_011?
-int Field_5_5_0_61411_012?
-int Field_5_5_0_61411_013?
-int Field_5_5_0_61411_014?
-int Field_5_5_0_61411_015?
-int Field_5_5_0_61411_016?
-int Field_5_5_0_61411_017?
 int Field_5_5_0_61411_018?
 int Field_5_5_0_61411_019?
 int Field_5_5_0_61411_020?
@@ -83,22 +65,6 @@ int Field_5_5_0_61411_023?
 int Field_5_5_0_61411_024?
 int Field_5_5_0_61411_025?
 int Field_5_5_0_61411_026?
-int Field_5_5_0_61411_027?
-int Field_5_5_0_61411_028?
-int Field_5_5_0_61411_029?
-int Field_5_5_0_61411_030?
-int Field_5_5_0_61411_031?
-int Field_5_5_0_61411_032?
-int Field_5_5_0_61411_033?
-int Field_5_5_0_61411_034?
-int Field_5_5_0_61411_035?
-int Field_5_5_0_61411_036?
-int Field_5_5_0_61411_037?
-int Field_5_5_0_61411_038?
-int Field_5_5_0_61411_039?
-int Field_5_5_0_61411_040?
-int Field_5_5_0_61411_041?
-int Field_5_5_0_61411_042?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -610,24 +576,24 @@ HasRelicSlot<u8>
 
 LAYOUT AFC9B0C2
 BUILD 5.5.0.61411
-Field_5_5_0_61411_000_lang
-Field_5_5_0_61411_001
-Field_5_5_0_61411_002_lang
-Field_5_5_0_61411_003_lang
-Field_5_5_0_61411_004
-Field_5_5_0_61411_005_lang
-Field_5_5_0_61411_006_lang
-Field_5_5_0_61411_007_lang
-Field_5_5_0_61411_008_lang
-Field_5_5_0_61411_009_lang
-Field_5_5_0_61411_010<u32>
-Field_5_5_0_61411_011<u32>
-Field_5_5_0_61411_012<u32>
-Field_5_5_0_61411_013<u32>
-Field_5_5_0_61411_014<32>
-Field_5_5_0_61411_015<32>
-Field_5_5_0_61411_016<u32>
-Field_5_5_0_61411_017<u32>
+Name_lang
+Filename
+Name_male_lang
+Name_female_lang
+PetNameToken
+Description_lang
+RoleInfoString_lang
+DisabledString_lang
+Hyphenated_name_male_lang
+Hyphenated_name_female_lang
+CreateScreenFileDataID<u32>
+SelectScreenFileDataID<u32>
+IconFileDataID<u32>
+LowResScreenFileDataID<u32>
+Flags<32>
+StartingLevel<32>
+SpellTextureBlobFileDataID<u32>
+ArmorTypeMask<u32>
 Field_5_5_0_61411_018<32>
 Field_5_5_0_61411_019<32>
 Field_5_5_0_61411_020<32>
@@ -637,22 +603,22 @@ Field_5_5_0_61411_023<32>
 Field_5_5_0_61411_024<32>
 Field_5_5_0_61411_025<32>
 Field_5_5_0_61411_026<32>
-Field_5_5_0_61411_027<u16>
-Field_5_5_0_61411_028<u16>
-$id$Field_5_5_0_61411_029<8>
-Field_5_5_0_61411_030<u8>
-Field_5_5_0_61411_031<8>
-Field_5_5_0_61411_032<8>
-Field_5_5_0_61411_033<u8>
-Field_5_5_0_61411_034<u8>
-Field_5_5_0_61411_035<u8>
-Field_5_5_0_61411_036<u8>
-Field_5_5_0_61411_037<u8>
-Field_5_5_0_61411_038<u8>
-Field_5_5_0_61411_039<u8>
-Field_5_5_0_61411_040<u8>
-Field_5_5_0_61411_041<u8>
-Field_5_5_0_61411_042<u8>
+CinematicSequenceID<u16>
+DefaultSpec<u16>
+$id$ID<8>
+HasStrengthAttackBonus<u8>
+PrimaryStatPriority<8>
+DisplayPower<8>
+RangedAttackPowerPerAgility<u8>
+AttackPowerPerAgility<u8>
+AttackPowerPerStrength<u8>
+SpellClassSet<u8>
+ClassColorR<u8>
+ClassColorG<u8>
+ClassColorB<u8>
+RolesMask<u8>
+DamageBonusStat<u8>
+HasRelicSlot<u8>
 
 BUILD 6.0.1.18179
 BUILD 5.0.4.16016-5.4.8.18414
