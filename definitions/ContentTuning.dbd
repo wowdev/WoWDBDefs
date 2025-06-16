@@ -24,7 +24,7 @@ int Field_5_5_0_60481_006?
 int Field_5_5_0_60481_007?
 int Field_5_5_0_60481_008?
 int Field_5_5_0_60481_009?
-int<Curve::ID> HPPrimaryStatScalingCurveID?  // Additional HP scaling based on the ratio of players primary stat to ExpectedStat for his level
+int<Curve::ID> HPPrimaryStatScalingCurveID? // Additional HP scaling based on the ratio of players primary stat to ExpectedStat for his level
 int<Curve::ID> DMGPrimaryStatScalingCurveID? // Additional DMG scaling based on the ratio of players primary stat to ExpectedStat for his level
 
 LAYOUT D0AEEA71
@@ -77,7 +77,7 @@ ExpectedStatModID<32>
 DifficultyESMID<32>
 
 LAYOUT 7FA8DFF1
-BUILD 5.5.0.60481, 5.5.0.60548, 5.5.0.60700, 5.5.0.60802, 5.5.0.61000, 5.5.0.61051, 5.5.0.61135, 5.5.0.61184, 5.5.0.61208, 5.5.0.61217, 5.5.0.61411
+BUILD 5.5.0.60481, 5.5.0.60548, 5.5.0.60700, 5.5.0.60802, 5.5.0.61000, 5.5.0.61051, 5.5.0.61135, 5.5.0.61184, 5.5.0.61208, 5.5.0.61217, 5.5.0.61411, 5.5.0.61496
 $id$ID<32>
 MinLevelSquish<32>
 MaxLevelSquish<32>
