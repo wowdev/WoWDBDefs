@@ -692,6 +692,11 @@
     "db2FileDataID": 1082876
   },
   {
+    "tableName": "Cfg_TimeEventRegionGroup",
+    "tableHash": "3362F848",
+    "db2FileDataID": 3055692
+  },
+  {
     "tableName": "ChallengeModeItemBonusOverride",
     "tableHash": "0DDC77B6",
     "db2FileDataID": 2965645
@@ -2563,6 +2568,11 @@
     "tableHash": "758E7BCC",
     "dbcFileDataID": 801662,
     "db2FileDataID": 996357
+  },
+  {
+    "tableName": "HolidayXTimeEvent",
+    "tableHash": "3012BC0C",
+    "db2FileDataID": 6905813
   },
   {
     "tableName": "Hotfix",
@@ -5498,6 +5508,11 @@
     "db2FileDataID": 3076928
   },
   {
+    "tableName": "TimeEventData",
+    "tableHash": "D055D7B5",
+    "db2FileDataID": 3055910
+  },
+  {
     "tableName": "TotemCategory",
     "tableHash": "A7A2F29A",
     "dbcFileDataID": 841697,
@@ -6129,6 +6144,11 @@
     "tableHash": "3D0F8786"
   },
   {
+    "tableName": "WarbandPlacementDisplayInfo",
+    "tableHash": "3C5856D5",
+    "db2FileDataID": 6655794
+  },
+  {
     "tableName": "WarbandScene",
     "tableHash": "AB1CB538",
     "db2FileDataID": 5736126
@@ -6162,6 +6182,11 @@
     "tableName": "WarbandScenePlcmntAnimOverride",
     "tableHash": "D2C26591",
     "db2FileDataID": 5756286
+  },
+  {
+    "tableName": "WarbandSceneSourceInfo",
+    "tableHash": "D8B7147A",
+    "db2FileDataID": 6388961
   },
   {
     "tableName": "WaterfallData",

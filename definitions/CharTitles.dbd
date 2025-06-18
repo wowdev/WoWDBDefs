@@ -5,6 +5,10 @@ locstring Name_lang
 locstring Name1_lang
 int Mask_ID
 int Flags // &1: npc-only, &4: suppress earned/lost chat message
+locstring Field_11_2_0_61476_000_lang?
+locstring Field_11_2_0_61476_001_lang?
+int Field_11_2_0_61476_002?
+int Field_11_2_0_61476_003?
 
 BUILD 2.0.0.5665-2.0.0.5666
 $id$ID<32>
@@ -129,3 +133,11 @@ Name_lang
 Name1_lang
 Mask_ID<16>
 Flags<8>
+
+LAYOUT 2F5DFF7F
+BUILD 11.2.0.61476
+$noninline,id$ID<32>
+Field_11_2_0_61476_000_lang
+Field_11_2_0_61476_001_lang
+Field_11_2_0_61476_002<16>
+Field_11_2_0_61476_003<32>

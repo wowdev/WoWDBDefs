@@ -5,6 +5,13 @@ int Field_9_0_1_33978_001?
 int<PlayerCondition::ID> PlayerConditionID?
 int ReagentType // 1 is material, 2 is finishing reagent
 int Field_10_0_2_46091_005?
+locstring Field_11_2_0_61476_000_lang?
+int Field_11_2_0_61476_001?
+int Field_11_2_0_61476_002?
+int Field_11_2_0_61476_003?
+int Field_11_2_0_61476_004?
+int Field_11_2_0_61476_005?
+int Field_11_2_0_61476_006?
 
 LAYOUT 79B765B9
 BUILD 9.1.0.38312
@@ -100,3 +107,13 @@ Field_9_0_1_33978_001<32>
 PlayerConditionID<32>
 ReagentType<32>
 Field_10_0_2_46091_005<u8>
+
+LAYOUT 32F2149E
+BUILD 11.2.0.61476
+Field_11_2_0_61476_000_lang
+$id$Field_11_2_0_61476_001<32>
+Field_11_2_0_61476_002<32>
+Field_11_2_0_61476_003<32>
+Field_11_2_0_61476_004<32>
+Field_11_2_0_61476_005<u8>
+Field_11_2_0_61476_006<32>
