@@ -10,12 +10,6 @@ int<ContentTuning::ID> ContentTuningID
 int Field_9_0_1_35522_003Min? // Level randomness?
 int Field_9_0_1_35522_003Max?
 int<Difficulty::ID> DifficultyID
-int Field_11_2_0_61476_000?
-int Field_11_2_0_61476_001?
-int Field_11_2_0_61476_002?
-int Field_11_2_0_61476_003?
-int Field_11_2_0_61476_004?
-int Field_11_2_0_61476_005?
 
 LAYOUT 833D355A
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -272,9 +266,9 @@ $noninline,relation$CreatureID<32>
 LAYOUT 29113DAF
 BUILD 11.2.0.61476
 $noninline,id$ID<32>
-Field_11_2_0_61476_000<32>
-Field_11_2_0_61476_001<32>
-Field_11_2_0_61476_002<u16>
-Field_11_2_0_61476_003<32>
-Field_11_2_0_61476_004<32>[9]
-$noninline,relation$Field_11_2_0_61476_005<32>
+Field_9_0_1_35522_003Min<32>
+Field_9_0_1_35522_003Max<32>
+FactionTemplateID<u16>
+ContentTuningID<32>
+Flags<32>[9]
+$noninline,relation$CreatureID<32>

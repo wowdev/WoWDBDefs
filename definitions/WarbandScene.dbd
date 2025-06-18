@@ -14,18 +14,6 @@ int Quality?
 int TextureKit?
 int DefaultScenePriority? // used to pick default scene when none is selected (or selected is invalid), only taking into account collected scenes with flag 0x10
 int SourceType?
-locstring Field_11_2_0_61476_000_lang?
-locstring Field_11_2_0_61476_001_lang?
-float Field_11_2_0_61476_002?
-float Field_11_2_0_61476_003?
-int Field_11_2_0_61476_004?
-int Field_11_2_0_61476_005?
-float Field_11_2_0_61476_006?
-int Field_11_2_0_61476_007?
-int Field_11_2_0_61476_008?
-int Field_11_2_0_61476_009?
-int Field_11_2_0_61476_010?
-int Field_11_2_0_61476_011?
 int Field_11_2_0_61476_012?
 
 LAYOUT 31A069B9
@@ -74,16 +62,16 @@ SourceType<8>
 
 LAYOUT DF56107A
 BUILD 11.2.0.61476
-Field_11_2_0_61476_000_lang
-Field_11_2_0_61476_001_lang
-Field_11_2_0_61476_002[3]
-Field_11_2_0_61476_003[3]
-$id$Field_11_2_0_61476_004<32>
-$relation$Field_11_2_0_61476_005<32>
-Field_11_2_0_61476_006
-Field_11_2_0_61476_007<32>
-Field_11_2_0_61476_008<32>
-Field_11_2_0_61476_009<32>
-Field_11_2_0_61476_010<8>
-Field_11_2_0_61476_011<32>
+Name_lang
+Description_lang
+Position[3]
+LookAt[3]
+$id$ID<32>
+$relation$MapID<32>
+Fov
+TimeOfDay<32>
+Flags<32>
+SoundAmbienceID<32>
+Quality<8>
+TextureKit<32>
 Field_11_2_0_61476_012<32>

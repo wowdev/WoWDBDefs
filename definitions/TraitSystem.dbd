@@ -2,9 +2,6 @@ COLUMNS
 int ID
 int Field_10_0_0_44795_001?
 int<UiWidgetSet::ID> WidgetSetID?
-int Field_11_2_0_61476_000?
-int Field_11_2_0_61476_001?
-int Field_11_2_0_61476_002?
 int Field_11_2_0_61476_003?
 
 LAYOUT 31228AEF
@@ -60,7 +57,7 @@ WidgetSetID<32>
 
 LAYOUT B304261C
 BUILD 11.2.0.61476
-$id$Field_11_2_0_61476_000<32>
-Field_11_2_0_61476_001<32>
-Field_11_2_0_61476_002<32>
+$id$ID<32>
+Field_10_0_0_44795_001<32>
+WidgetSetID<32>
 Field_11_2_0_61476_003<32>
