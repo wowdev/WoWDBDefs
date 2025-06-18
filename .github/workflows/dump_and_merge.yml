@@ -50,6 +50,7 @@ jobs:
       #   if: "${{ github.event.inputs.url == '' }}"
       #   run: getexe ${{ github.event.inputs.product }} ${{ github.event.inputs.config }}
       - name: Checkout TACTSharp
+        if: "${{ github.event.inputs.url == '' }}"
         uses: actions/checkout@v3
         with:
           repository: 'Marlamin/TACTSharp'
@@ -61,13 +62,18 @@ jobs:
             8.0.x
             9.0.x
       - name: Write exes.txt
+        if: "${{ github.event.inputs.url == '' }}"
         run: echo -e "Wow.exe;Wow.exe\nWowT.exe;Wow.exe\nWowB.exe;Wow.exe\nWowClassic.exe;Wow.exe\nWowClassicT.exe;Wow.exe\nWowClassicB.exe;Wow.exe" > $PWD/exes.txt
       - name: Run TACTTool
+        if: "${{ github.event.inputs.url == '' }}"
         run: dotnet run --project TACTSharp/TACTTool/TACTTool.csproj --configuration Release -- -p ${{ github.event.inputs.product }} -b ${{ github.event.inputs.config }} -m list -i $PWD/exes.txt -o extract
         env:
           DOTNET_NOLOGO: 1
           DOTNET_CLI_TELEMETRY_OPTOUT: 1
           DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
+      - name: Rename executable
+        if: "${{ github.event.inputs.url != '' }}"
+        run: mkdir -p extract; mv ${{ github.event.inputs.product }}.exe extract/Wow.exe
       - name: Dump raw DBDs
         run: dotnet run --project $PWD/code/C#/DBDefsDumper/ --configuration Release -- extract/Wow.exe dumpeddbd ${{ github.event.inputs.build }}
         env:
