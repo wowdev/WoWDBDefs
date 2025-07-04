@@ -4,10 +4,6 @@ int Field_9_0_1_33978_000_tier?
 int<AnimationData::ID> Field_9_0_1_33978_001_animationdataID? // magic hardcoded value: >= 1496 / 1476
 int<AnimationData::ID> Field_9_0_1_33978_002_animationdataID?
 float Field_9_0_1_33978_003_milliseconds?
-int Field_11_2_0_61787_000?
-int Field_11_2_0_61787_001?
-int Field_11_2_0_61787_002?
-float Field_11_2_0_61787_003?
 
 LAYOUT 018C6C5F
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -95,7 +91,7 @@ Field_9_0_1_33978_003_milliseconds
 LAYOUT 6019C9CF
 BUILD 11.2.0.61787
 $noninline,id$ID<32>
-Field_11_2_0_61787_000<8>
-Field_11_2_0_61787_001<16>
-Field_11_2_0_61787_002<16>
-Field_11_2_0_61787_003
+Field_9_0_1_33978_000_tier<8>
+Field_9_0_1_33978_001_animationdataID<16>
+Field_9_0_1_33978_002_animationdataID<16>
+Field_9_0_1_33978_003_milliseconds

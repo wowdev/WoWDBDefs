@@ -54,9 +54,9 @@ int CharacterProcedure
 int ClutterLevel // When displaying an effect, use this as an index into the correspondin SpellClutter* dbs.
 int Field_7_3_2_25549_001?
 int Field_11_2_0_61476_004?
-int Field_11_2_0_61476_005?
+int<SpellVisualKit::ID> Field_11_2_0_61476_005?
 int Field_11_2_0_61476_006?
-int Field_11_2_0_61476_007?
+int<SpellVisualKit::ID> Field_11_2_0_61476_007?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592

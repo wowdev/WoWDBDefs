@@ -6,9 +6,6 @@ int LastModified
 int Flags
 string Name
 string Version
-string Field_11_2_0_61787_000?
-string Field_11_2_0_61787_001?
-int Field_11_2_0_61787_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -121,6 +118,6 @@ Flags<u8>
 LAYOUT 56583F69
 BUILD 11.2.0.61787
 $noninline,id$ID<32>
-Field_11_2_0_61787_000
-Field_11_2_0_61787_001
-Field_11_2_0_61787_002<32>
+Name
+Version
+Flags<32>
