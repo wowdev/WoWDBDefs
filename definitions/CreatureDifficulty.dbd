@@ -247,16 +247,6 @@ ContentTuningID<32>
 Flags<32>[8]
 $noninline,relation$CreatureID<32>
 
-LAYOUT 29113DAF
-BUILD 11.2.0.61476
-$noninline,id$ID<32>
-Field_9_0_1_35522_003Min<32>
-Field_9_0_1_35522_003Max<32>
-FactionTemplateID<u16>
-ContentTuningID<32>
-Flags<32>[9]
-$noninline,relation$CreatureID<32>
-
 LAYOUT FC42F936
 BUILD 11.2.0.61624, 11.2.0.61684, 11.2.0.61703, 11.2.0.61787
 BUILD 11.1.7.60520, 11.1.7.60672, 11.1.7.60799, 11.1.7.60915, 11.1.7.61032, 11.1.7.61048, 11.1.7.61131, 11.1.7.61340, 11.1.7.61406, 11.1.7.61491, 11.1.7.61559, 11.1.7.61609
@@ -272,4 +262,14 @@ Field_9_0_1_35522_003Max<32>
 FactionTemplateID<u16>
 ContentTuningID<32>
 Flags<32>[8]
+$noninline,relation$CreatureID<32>
+
+LAYOUT 29113DAF
+BUILD 11.2.0.61476, 11.2.0.61871
+$noninline,id$ID<32>
+Field_9_0_1_35522_003Min<32>
+Field_9_0_1_35522_003Max<32>
+FactionTemplateID<u16>
+ContentTuningID<32>
+Flags<32>[9]
 $noninline,relation$CreatureID<32>
