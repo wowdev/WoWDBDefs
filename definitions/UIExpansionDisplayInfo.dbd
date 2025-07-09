@@ -6,13 +6,7 @@ int<FileData::ID> ExpansionLogo
 int ReleaseType?
 int<FileData::ID> HighResBackgroundID
 int<FileData::ID> LowResBackgroundID
-int Field_11_2_0_61871_000?
-int Field_11_2_0_61871_001?
-int Field_11_2_0_61871_002?
-int Field_11_2_0_61871_003?
-int Field_11_2_0_61871_004?
-int Field_11_2_0_61871_005?
-int Field_11_2_0_61871_006?
+int<UiTextureKit::ID> UiTextureKitID?
 
 LAYOUT 85273A08
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056, 4.4.0.55141, 4.4.0.55262, 4.4.0.55460, 4.4.0.55613, 4.4.0.55639, 4.4.0.56014, 4.4.0.56420, 4.4.0.56489, 4.4.0.56713, 4.4.0.57244
@@ -130,10 +124,10 @@ LowResBackgroundID<32>
 
 LAYOUT 788C5B88
 BUILD 11.2.0.61871
-$id$Field_11_2_0_61871_000<32>
-Field_11_2_0_61871_001<32>
-Field_11_2_0_61871_002<32>
-Field_11_2_0_61871_003<u32>
-Field_11_2_0_61871_004<32>
-Field_11_2_0_61871_005<32>
-Field_11_2_0_61871_006<32>
+$id$ID<32>
+ExpansionLogo<32>
+ExpansionBanner<32>
+ExpansionLevel<u32>
+HighResBackgroundID<32>
+LowResBackgroundID<32>
+UiTextureKitID<32>
