@@ -7,12 +7,6 @@ locstring Name_lang
 int MaxCharges
 int ChargeRecoveryTime
 int TypeMask
-locstring Field_11_2_0_61981_000_lang?
-int Field_11_2_0_61981_001?
-int Field_11_2_0_61981_002?
-int Field_11_2_0_61981_003?
-int Field_11_2_0_61981_004?
-int Field_11_2_0_61981_005?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.1.0.13875
@@ -170,9 +164,9 @@ TypeMask<32>
 LAYOUT B79B78E1
 BUILD 11.2.0.61981
 $noninline,id$ID<32>
-Field_11_2_0_61981_000_lang
-Field_11_2_0_61981_001<32>
-Field_11_2_0_61981_002<32>
-Field_11_2_0_61981_003<32>
-Field_11_2_0_61981_004<32>
-Field_11_2_0_61981_005<32>
+Name_lang
+Flags<32>
+UsesPerWeek<32>
+MaxCharges<32>
+ChargeRecoveryTime<32>
+TypeMask<32>
