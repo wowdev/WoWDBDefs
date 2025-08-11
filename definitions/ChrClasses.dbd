@@ -56,15 +56,6 @@ int Field_1_15_7_59706_017?
 int Field_1_15_7_59706_019?
 int Field_1_15_7_59706_020?
 int Field_1_15_7_59706_021?
-int Field_5_5_0_61411_018?
-int Field_5_5_0_61411_019?
-int Field_5_5_0_61411_020?
-int Field_5_5_0_61411_021?
-int Field_5_5_0_61411_022?
-int Field_5_5_0_61411_023?
-int Field_5_5_0_61411_024?
-int Field_5_5_0_61411_025?
-int Field_5_5_0_61411_026?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -1412,15 +1403,15 @@ Flags<32>
 StartingLevel<32>
 SpellTextureBlobFileDataID<u32>
 ArmorTypeMask<u32>
-Field_5_5_0_61411_018<32>
-Field_5_5_0_61411_019<32>
-Field_5_5_0_61411_020<32>
-Field_5_5_0_61411_021<32>
-Field_5_5_0_61411_022<32>
-Field_5_5_0_61411_023<32>
-Field_5_5_0_61411_024<32>
-Field_5_5_0_61411_025<32>
-Field_5_5_0_61411_026<32>
+Field_9_0_1_34490_018<32>
+MaleCharacterCreationVisualFallback<32>
+MaleCharacterCreationIdleVisualFallback<32>
+FemaleCharacterCreationVisualFallback<32>
+FemaleCharacterCreationIdleVisualFallback<32>
+CharacterCreationIdleGroundVisualFallback<32>
+CharacterCreationGroundVisualFallback<32>
+AlteredFormCharacterCreationIdleVisualFallback<32>
+CharacterCreationAnimLoopWaitTimeMsFallback<32>
 CinematicSequenceID<u16>
 DefaultSpec<u16>
 $id$ID<8>

@@ -1,21 +1,21 @@
 COLUMNS
 int ID
-int Money?
+int Cost?
 int BankType? // 0 = Character, 1 = Guild, 2 = Account
-int PurchasedBankTabs? // Could be OrderIndex as well, not too sure.
+int OrderIndex?
 int<PlayerCondition::ID> PlayerConditionID?
-int Field_11_2_0_61476_004?
-int Field_11_2_0_61476_005?
-int Field_11_2_0_61476_006?
-int Field_11_2_0_61476_007?
-int Field_11_2_0_61476_008?
+int<SharedString::ID> PurchasePromptTitle?
+int<SharedString::ID> PurchasePromptBody?
+int<SharedString::ID> PurchasePromptConfirmation?
+int<SharedString::ID> TabCleanupConfirmation?
+int<SharedString::ID> TabNameEditBoxHeader?
 
 LAYOUT 3AB20DDC
 BUILD 11.0.0.53687, 11.0.0.53949, 11.0.0.54013, 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
 $noninline,id$ID<32>
-Money<u64>
+Cost<u64>
 BankType<u8>
-PurchasedBankTabs<8>
+OrderIndex<8>
 PlayerConditionID<32>
 
 LAYOUT D47B62CA
@@ -36,20 +36,20 @@ BUILD 1.15.6.58185, 1.15.6.58658, 1.15.6.58725, 1.15.6.58797, 1.15.6.58844, 1.15
 BUILD 1.15.5.57537, 1.15.5.57611, 1.15.5.57638, 1.15.5.57716, 1.15.5.57807, 1.15.5.57917, 1.15.5.57979, 1.15.5.58534, 1.15.5.58555
 BUILD 1.15.4.56400, 1.15.4.56419, 1.15.4.56493, 1.15.4.56573, 1.15.4.56708, 1.15.4.56718, 1.15.4.56738, 1.15.4.56760, 1.15.4.56817, 1.15.4.56857, 1.15.4.57134
 $noninline,id$ID<32>
-Money<u64>
+Cost<u64>
 BankType<u8>
-PurchasedBankTabs<8>
+OrderIndex<8>
 PlayerConditionID<32>
 
 LAYOUT 5B2F9B36
 BUILD 11.2.0.61476, 11.2.0.61624, 11.2.0.61684, 11.2.0.61703, 11.2.0.61787, 11.2.0.61871, 11.2.0.61981, 11.2.0.62049, 11.2.0.62136, 11.2.0.62213, 11.2.0.62253, 11.2.0.62387, 11.2.0.62417, 11.2.0.62438, 11.2.0.62493
 $noninline,id$ID<32>
-Money<u64>
+Cost<u64>
 BankType<u8>
-PurchasedBankTabs<8>
+OrderIndex<8>
 PlayerConditionID<32>
-Field_11_2_0_61476_004<32>
-Field_11_2_0_61476_005<32>
-Field_11_2_0_61476_006<32>
-Field_11_2_0_61476_007<32>
-Field_11_2_0_61476_008<32>
+PurchasePromptTitle<32>
+PurchasePromptBody<32>
+PurchasePromptConfirmation<32>
+TabCleanupConfirmation<32>
+TabNameEditBoxHeader<32>

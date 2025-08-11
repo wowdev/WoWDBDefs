@@ -11,7 +11,7 @@ float PlayerMana
 float PlayerPrimaryStat
 float PlayerSecondaryStat
 float CreatureSpellDamage
-int Field_11_2_0_61476_010?
+int ContentSetID?
 
 LAYOUT 8CE309AD
 BUILD 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141
@@ -165,5 +165,5 @@ PlayerPrimaryStat
 PlayerSecondaryStat
 ArmorConstant
 CreatureSpellDamage
-Field_11_2_0_61476_010<32>
+ContentSetID<32>
 $noninline,relation$Lvl<32>
