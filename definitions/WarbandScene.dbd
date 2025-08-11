@@ -14,7 +14,6 @@ int Quality?
 int TextureKit?
 int DefaultScenePriority? // used to pick default scene when none is selected (or selected is invalid), only taking into account collected scenes with flag 0x10
 int SourceType?
-int Field_11_2_0_61476_012?
 
 LAYOUT 31A069B9
 BUILD 11.0.0.53687, 11.0.0.53949, 11.0.0.54013, 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
@@ -75,4 +74,4 @@ Flags<32>
 SoundAmbienceID<32>
 Quality<8>
 TextureKit<32>
-Field_11_2_0_61476_012<32>
+DefaultScenePriority<32>
