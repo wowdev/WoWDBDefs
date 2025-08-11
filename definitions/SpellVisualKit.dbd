@@ -54,7 +54,7 @@ int CharacterProcedure
 int ClutterLevel // When displaying an effect, use this as an index into the correspondin SpellClutter* dbs.
 int Field_7_3_2_25549_001?
 int MinimumSpellVisualDensityFilterType? // Type of visual adjustment used when spellVisualDensityFilterSetting CVar is set to 1, determines what is stored in MinimumSpellVisualDensityFilterParam (1/2 unknown, 3 is SpellVisualKit)
-int<SpellVisualKit::ID> MinimumSpellVisualDensityFilterParam? // When 
+int<SpellVisualKit::ID> MinimumSpellVisualDensityFilterParam? // When
 int ReducedSpellVisualDensityFilterType? // Type of visual adjustment used when spellVisualDensityFilterSetting CVar is set to 2, determines what is stored in ReducedSpellVisualDensityFilterParam (1/2 unknown, 3 is SpellVisualKit)
 int<SpellVisualKit::ID> ReducedSpellVisualDensityFilterParam?
 
