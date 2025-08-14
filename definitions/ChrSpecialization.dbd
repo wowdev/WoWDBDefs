@@ -17,19 +17,6 @@ int<AnimReplacementSet::ID> AnimReplacements
 locstring FemaleName_lang
 int PrimaryStatPriority
 int<FileData::ID> SpellIconFileID
-locstring Field_11_2_5_62554_000_lang?
-locstring Field_11_2_5_62554_001_lang?
-locstring Field_11_2_5_62554_002_lang?
-int Field_11_2_5_62554_003?
-int Field_11_2_5_62554_004?
-int Field_11_2_5_62554_005?
-int Field_11_2_5_62554_006?
-int Field_11_2_5_62554_007?
-int Field_11_2_5_62554_008?
-int Field_11_2_5_62554_009?
-int Field_11_2_5_62554_010?
-int Field_11_2_5_62554_011?
-int Field_11_2_5_62554_012?
 
 BUILD 5.0.1.15464-5.0.1.15640
 $id$ID<32>
@@ -284,16 +271,16 @@ MasterySpellID<32>[2]
 
 LAYOUT DAB4CA4B
 BUILD 11.2.5.62554
-Field_11_2_5_62554_000_lang
-Field_11_2_5_62554_001_lang
-Field_11_2_5_62554_002_lang
-$id$Field_11_2_5_62554_003<32>
-$relation$Field_11_2_5_62554_004<8>
-Field_11_2_5_62554_005<8>
-Field_11_2_5_62554_006<8>
-Field_11_2_5_62554_007<8>
-Field_11_2_5_62554_008<32>
-Field_11_2_5_62554_009<32>
-Field_11_2_5_62554_010<8>
-Field_11_2_5_62554_011<32>
-Field_11_2_5_62554_012<32>[2]
+Name_lang
+FemaleName_lang
+Description_lang
+$id$ID<32>
+$relation$ClassID<8>
+OrderIndex<8>
+PetTalentType<8>
+Role<8>
+Flags<32>
+SpellIconFileID<32>
+PrimaryStatPriority<8>
+AnimReplacements<32>
+MasterySpellID<32>[2]

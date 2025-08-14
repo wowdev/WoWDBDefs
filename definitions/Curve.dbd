@@ -2,9 +2,6 @@ COLUMNS
 int ID
 int Flags
 int Type
-int Field_11_2_5_62554_000?
-int Field_11_2_5_62554_001?
-int Field_11_2_5_62554_002?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -110,6 +107,6 @@ Flags<u8>
 
 LAYOUT D362535A
 BUILD 11.2.5.62554
-$id$Field_11_2_5_62554_000<32>
-Field_11_2_5_62554_001<u8>
-Field_11_2_5_62554_002<32>
+$id$ID<32>
+Type<u8>
+Flags<32>

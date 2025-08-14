@@ -4,11 +4,6 @@ int<AnimationData::ID> SrcAnimID
 int<AnimationData::ID> DstAnimID
 int<AnimReplacementSet::ID> ParentAnimReplacementSetID
 int ConditionalFlags
-int Field_11_2_5_62554_000?
-int Field_11_2_5_62554_001?
-int Field_11_2_5_62554_002?
-int Field_11_2_5_62554_003?
-int Field_11_2_5_62554_004?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -139,8 +134,8 @@ $noninline,relation$ParentAnimReplacementSetID<32>
 
 LAYOUT 6D1FB51C
 BUILD 11.2.5.62554
-$id$Field_11_2_5_62554_000<32>
-Field_11_2_5_62554_001<u16>
-Field_11_2_5_62554_002<u16>
-Field_11_2_5_62554_003<32>
-$noninline,relation$Field_11_2_5_62554_004<32>
+$id$ID<32>
+SrcAnimID<u16>
+DstAnimID<u16>
+ConditionalFlags<32>
+$noninline,relation$ParentAnimReplacementSetID<32>

@@ -4,10 +4,6 @@ int<CreatureDisplayInfo::ID> CreatureDisplayInfoID
 int Flags
 int Fourcc
 int<SpellVisualKit::ID> SpellVisualKitID
-int Field_11_2_5_62554_000?
-int Field_11_2_5_62554_001?
-int Field_11_2_5_62554_002?
-int Field_11_2_5_62554_003?
 
 LAYOUT 72705163
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -121,7 +117,7 @@ $noninline,relation$CreatureDisplayInfoID<32>
 LAYOUT 014CFB2A
 BUILD 11.2.5.62554
 $noninline,id$ID<32>
-Field_11_2_5_62554_000<32>
-Field_11_2_5_62554_001<32>
-Field_11_2_5_62554_002<32>
-$noninline,relation$Field_11_2_5_62554_003<32>
+Fourcc<32>
+SpellVisualKitID<32>
+Flags<32>
+$noninline,relation$CreatureDisplayInfoID<32>
