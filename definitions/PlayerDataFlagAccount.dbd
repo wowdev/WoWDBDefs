@@ -2,7 +2,6 @@ COLUMNS
 int ID
 int StorageIndex?
 int Field_11_0_7_57361_001?
-int Field_11_2_5_62554_001? // DBAnalyser: [Field_11_0_7_57361_001, 0,95%]
 int Field_11_2_5_62554_002? // DBAnalyser: [Field_11_0_7_57361_001, 0,95%]
 
 LAYOUT 5C476AE6
@@ -47,5 +46,5 @@ LAYOUT 4703000B
 BUILD 11.2.5.62554
 $noninline,id$ID<32>
 StorageIndex<32>
-Field_11_2_5_62554_001<32>
+Field_11_0_7_57361_001<32>
 Field_11_2_5_62554_002<32>
