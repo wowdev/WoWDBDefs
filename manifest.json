@@ -2758,6 +2758,16 @@
     "db2FileDataID": 4337197
   },
   {
+    "tableName": "ItemCreationContext",
+    "tableHash": "445E4A95",
+    "db2FileDataID": 7152830
+  },
+  {
+    "tableName": "ItemCreationContextGroup",
+    "tableHash": "035219F5",
+    "db2FileDataID": 7152831
+  },
+  {
     "tableName": "ItemCurrencyCost",
     "tableHash": "6FE05AE9",
     "db2FileDataID": 801670
@@ -2894,6 +2904,11 @@
     "db2FileDataID": 1624933
   },
   {
+    "tableName": "ItemLevelWatermark",
+    "tableHash": "55EAE470",
+    "db2FileDataID": 6914796
+  },
+  {
     "tableName": "ItemLimitCategory",
     "tableHash": "7BBA1EB1",
     "dbcFileDataID": 841618,
@@ -2934,6 +2949,11 @@
     "tableName": "ItemNameSlotOverride",
     "tableHash": "D79BE510",
     "db2FileDataID": 3723474
+  },
+  {
+    "tableName": "ItemOffsetCurve",
+    "tableHash": "899363A4",
+    "db2FileDataID": 7322704
   },
   {
     "tableName": "ItemPetFood",
@@ -2990,6 +3010,11 @@
     "db2FileDataID": 4549058
   },
   {
+    "tableName": "ItemScalingConfig",
+    "tableHash": "F6AA409E",
+    "db2FileDataID": 7322705
+  },
+  {
     "tableName": "ItemSearchName",
     "tableHash": "198E28B5",
     "db2FileDataID": 1273408
@@ -3022,6 +3047,11 @@
     "tableHash": "149AAE79",
     "dbcFileDataID": 801686,
     "db2FileDataID": 1134576
+  },
+  {
+    "tableName": "ItemSquishEra",
+    "tableHash": "ACAAF53B",
+    "db2FileDataID": 7322706
   },
   {
     "tableName": "ItemSubClass",
@@ -3081,6 +3111,11 @@
     "tableName": "ItemXItemEffect",
     "tableHash": "00CB674F",
     "db2FileDataID": 3177687
+  },
+  {
+    "tableName": "ItemXTraitSystem",
+    "tableHash": "BB6B85F7",
+    "db2FileDataID": 7001629
   },
   {
     "tableName": "JournalEncounter",

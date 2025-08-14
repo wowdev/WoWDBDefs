@@ -4,6 +4,13 @@ int Type? // 0: Gold, 1: CurrencyTypesBased, 2: TraitSourced
 int<CurrencyTypes::ID> CurrencyTypesID? // if Type == CurrencyTypesBased
 int Flags // &1: ShowQuantityAsSpent, &2: TraitSourcedShowMax, &4: UseClassIcon, &8: UseSpecIcon
 int<FileData::ID> Icon
+int Field_11_2_5_62554_000?
+int Field_11_2_5_62554_001?
+int Field_11_2_5_62554_002?
+int Field_11_2_5_62554_003?
+int Field_11_2_5_62554_004?
+int Field_11_2_5_62554_005?
+int Field_11_2_5_62554_006?
 
 LAYOUT 75686387
 BUILD 10.0.0.43342
@@ -62,3 +69,13 @@ Type<32>
 CurrencyTypesID<32>
 Flags<32>
 Icon<32>
+
+LAYOUT 4615483D
+BUILD 11.2.5.62554
+$id$Field_11_2_5_62554_000<32>
+Field_11_2_5_62554_001<32>
+Field_11_2_5_62554_002<32>
+Field_11_2_5_62554_003<32>
+Field_11_2_5_62554_004<32>
+Field_11_2_5_62554_005<32>
+Field_11_2_5_62554_006<32>

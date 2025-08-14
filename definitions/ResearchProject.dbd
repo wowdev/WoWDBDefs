@@ -10,6 +10,14 @@ string Texture
 int RequiredWeight
 int<FileData::ID> TextureFileID
 string Field_7_3_0_24473_003?
+locstring Field_11_2_5_62554_000_lang?
+locstring Field_11_2_5_62554_001_lang?
+int Field_11_2_5_62554_002?
+int Field_11_2_5_62554_003?
+int Field_11_2_5_62554_004?
+int Field_11_2_5_62554_005?
+int Field_11_2_5_62554_006?
+int Field_11_2_5_62554_007?
 
 BUILD 4.0.0.12319
 $id$ID<32>
@@ -199,3 +207,15 @@ ResearchBranchID<u16>
 NumSockets<u8>
 TextureFileID<32>
 RequiredWeight<u32>
+
+LAYOUT B5751E1B
+BUILD 11.2.5.62554
+$noninline,id$ID<32>
+Field_11_2_5_62554_000_lang
+Field_11_2_5_62554_001_lang
+Field_11_2_5_62554_002<u8>
+Field_11_2_5_62554_003<32>
+Field_11_2_5_62554_004<u16>
+Field_11_2_5_62554_005<u8>
+Field_11_2_5_62554_006<32>
+Field_11_2_5_62554_007<u32>

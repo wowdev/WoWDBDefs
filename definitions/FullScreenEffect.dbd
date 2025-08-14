@@ -28,6 +28,34 @@ float MaskSizeMultiplier
 float Saturation
 int<TextureBlendSet::ID> TextureBlendSetID
 int<FileData::ID> OverlayTextureFileDataID
+int Field_11_2_5_62554_000?
+float Field_11_2_5_62554_001?
+float Field_11_2_5_62554_002?
+float Field_11_2_5_62554_003?
+float Field_11_2_5_62554_004?
+float Field_11_2_5_62554_005?
+float Field_11_2_5_62554_006?
+float Field_11_2_5_62554_007?
+float Field_11_2_5_62554_008?
+float Field_11_2_5_62554_009?
+float Field_11_2_5_62554_010?
+float Field_11_2_5_62554_011?
+float Field_11_2_5_62554_012?
+float Field_11_2_5_62554_013?
+float Field_11_2_5_62554_014?
+float Field_11_2_5_62554_015?
+float Field_11_2_5_62554_016?
+float Field_11_2_5_62554_017?
+float Field_11_2_5_62554_018?
+float Field_11_2_5_62554_019?
+int Field_11_2_5_62554_020?
+float Field_11_2_5_62554_021?
+float Field_11_2_5_62554_022?
+float Field_11_2_5_62554_023?
+float Field_11_2_5_62554_024?
+int Field_11_2_5_62554_025?
+int Field_11_2_5_62554_026?
+int Field_11_2_5_62554_027?
 
 LAYOUT 5CBF1D1B
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231
@@ -289,3 +317,35 @@ BlurPower
 EffectFadeInMs<u32>
 EffectFadeOutMs<u32>
 TextureBlendSetID<u32>
+
+LAYOUT D33A4A55
+BUILD 11.2.5.62554
+$noninline,id$ID<32>
+Field_11_2_5_62554_000<32>
+Field_11_2_5_62554_001
+Field_11_2_5_62554_002
+Field_11_2_5_62554_003
+Field_11_2_5_62554_004
+Field_11_2_5_62554_005
+Field_11_2_5_62554_006
+Field_11_2_5_62554_007
+Field_11_2_5_62554_008
+Field_11_2_5_62554_009
+Field_11_2_5_62554_010
+Field_11_2_5_62554_011
+Field_11_2_5_62554_012
+Field_11_2_5_62554_013
+Field_11_2_5_62554_014
+Field_11_2_5_62554_015
+Field_11_2_5_62554_016
+Field_11_2_5_62554_017
+Field_11_2_5_62554_018
+Field_11_2_5_62554_019
+Field_11_2_5_62554_020<32>
+Field_11_2_5_62554_021
+Field_11_2_5_62554_022
+Field_11_2_5_62554_023
+Field_11_2_5_62554_024
+Field_11_2_5_62554_025<u32>
+Field_11_2_5_62554_026<u32>
+Field_11_2_5_62554_027<u32>
