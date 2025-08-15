@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_11_2_5_62554_000?
-int Field_11_2_5_62554_001?
+int<Item::ID> ItemID?
+int<TraitSystem::ID> TraitSystemID?
 
 LAYOUT C37D4CAB
 BUILD 11.2.5.62554
 $noninline,id$ID<32>
-Field_11_2_5_62554_000<32>
-Field_11_2_5_62554_001<32>
+ItemID<32>
+TraitSystemID<32>
