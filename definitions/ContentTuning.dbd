@@ -26,8 +26,8 @@ int Field_5_5_0_60481_008?
 int Field_5_5_0_60481_009?
 int<Curve::ID> HPPrimaryStatScalingCurveID? // Additional HP scaling based on the ratio of players primary stat to ExpectedStat for his level
 int<Curve::ID> DMGPrimaryStatScalingCurveID? // Additional DMG scaling based on the ratio of players primary stat to ExpectedStat for his level
-int Field_11_2_5_62554_007?
-float Field_11_2_5_62554_008?
+int<PlayerDataElementCharacter::ID> UnkPlayerDataElementCharacterID?
+float Field_11_2_5_62554_008? // Scaling value based on the above
 
 LAYOUT D0AEEA71
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -378,7 +378,7 @@ HPScalingCurveID<32>
 DMGScalingCurveID<32>
 HPPrimaryStatScalingCurveID<32>
 DMGPrimaryStatScalingCurveID<32>
-Field_11_2_5_62554_007<32>
+UnkPlayerDataElementCharacterID<32>
 Field_11_2_5_62554_008
 MinLevelSquish<32>
 MaxLevelSquish<32>
