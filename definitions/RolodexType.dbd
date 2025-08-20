@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 locstring Description_lang?
-locstring Field_11_2_5_62687_000_lang?
 locstring Field_11_2_5_62687_001_lang?
 
 LAYOUT 782EE721
@@ -20,5 +19,5 @@ Description_lang
 LAYOUT 22D8CB1A
 BUILD 11.2.5.62687
 $noninline,id$ID<32>
-Field_11_2_5_62687_000_lang
+Description_lang
 Field_11_2_5_62687_001_lang

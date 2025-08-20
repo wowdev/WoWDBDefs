@@ -9,16 +9,6 @@ float UiMax
 float UiMin
 int WMODoodadPlacementID // ADT's MODS uniqueId
 int<WMOAreaTable::WMOGroupID> WMOGroupID // WMO's group ID
-float Field_11_2_5_62687_000?
-float Field_11_2_5_62687_001?
-float Field_11_2_5_62687_002?
-int Field_11_2_5_62687_003?
-int Field_11_2_5_62687_004?
-int Field_11_2_5_62687_005?
-int Field_11_2_5_62687_006?
-int Field_11_2_5_62687_007?
-int Field_11_2_5_62687_008?
-int Field_11_2_5_62687_009?
 int Field_11_2_5_62687_010?
 
 LAYOUT FEC56AE4
@@ -156,14 +146,14 @@ WMOGroupID<32>
 
 LAYOUT C9CC8DFB
 BUILD 11.2.5.62687
-Field_11_2_5_62687_000[2]
-Field_11_2_5_62687_001[2]
-Field_11_2_5_62687_002[6]
-$id$Field_11_2_5_62687_003<32>
-$relation$Field_11_2_5_62687_004<32>
-Field_11_2_5_62687_005<32>
-Field_11_2_5_62687_006<32>
-Field_11_2_5_62687_007<32>
-Field_11_2_5_62687_008<32>
-Field_11_2_5_62687_009<32>
+UiMin[2]
+UiMax[2]
+Region[6]
+$id$ID<32>
+$relation$UiMapID<32>
+OrderIndex<32>
+MapID<32>
+AreaID<32>
+WMODoodadPlacementID<32>
+WMOGroupID<32>
 Field_11_2_5_62687_010<32>
