@@ -80,7 +80,7 @@ Flags<32>
 NewAreaID<32>
 RegionScale
 
-LAYOUT EFD8D412
+LAYOUT EFD8D412, 24A4E819, 96446A4E, 23B2A570, BB1EA93A
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715, 7.3.0.24727, 7.3.0.24730, 7.3.0.24738, 7.3.0.24744, 7.3.0.24759
 $noninline,id$ID<32>
 Region[6]
@@ -110,3 +110,14 @@ NewDungeonMapID<u16>
 NewAreaID<u16>
 Flags<u8>
 Priority<32>
+
+LAYOUT ACD14D92
+$noninline,id$ID<32>
+Region[6]
+RegionOffset[2]
+RegionScale
+MapID<u16>
+NewMapID<u16>
+NewDungeonMapID<u16>
+NewAreaID<u16>
+Flags<u8>

@@ -228,7 +228,7 @@ DynamicTooltip_lang
 ExtendedUI
 ExtendedUIStateVariable<32>[3]
 
-LAYOUT 033421FA
+LAYOUT 033421FA, C5B480F0, 86F3AE22
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715
 Icon
 ExtendedUI
@@ -319,3 +319,21 @@ PhaseUseFlags<u8>
 PhaseID<u16>
 PhaseGroupID<u16>
 ExtendedUIStateVariable<u16>[3]
+
+LAYOUT E5B5B5E2, 41F0EDEA
+Icon
+ExtendedUI
+DynamicIcon
+DynamicTooltip_lang
+String_lang
+Tooltip_lang
+MapID<16>
+AreaID<u16>
+PhaseID<u16>
+StateVariable<u16>
+ExtendedUIStateVariable<u16>[3]
+OrderIndex<u8>
+PhaseUseFlags<u8>
+PhaseGroupID<u8>
+Type<u8>
+$id$ID<32>

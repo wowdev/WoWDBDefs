@@ -178,3 +178,19 @@ MaleCreatureDisplayID<32>
 FemaleCreatureDisplayID<32>
 Ui_unlockAchievementID<32>
 Ui_unlockSecondaryAchievementID<32>
+
+LAYOUT 7B3D01AF
+BannerColor<u32>
+$id$ID<32>
+RaceID<32>
+CrestTextureID<32>
+ModelBackgroundTextureID<32>
+
+LAYOUT BB2DCD4C
+BannerColor<u32>
+$id$ID<32>
+RaceID<32>
+CrestTextureID<32>
+ModelBackgroundTextureID<32>
+MaleCreatureDisplayID<32>
+FemaleCreatureDisplayID<32>

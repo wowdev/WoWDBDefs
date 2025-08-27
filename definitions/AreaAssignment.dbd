@@ -15,3 +15,10 @@ MapID<32>
 AreaID<32>
 ChunkX<32>
 ChunkY<32>
+
+LAYOUT EFCCC3B3, 7E05F1F3, 19DBFBEB, 2E617DD3, 5A2FDE03, 309EFC13
+$noninline,id$ID<32>
+MapID<u16>
+AreaID<u16>
+ChunkX<u8>
+ChunkY<u8>

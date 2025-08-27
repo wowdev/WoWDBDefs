@@ -80,3 +80,10 @@ Description_lang
 IconFileDataID<32>
 OrderIndex<u8>
 $noninline,relation$AlliedRaceID<32>
+
+LAYOUT F0EE15DB
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+IconFileDataID<32>
+$noninline,relation$AlliedRaceID<32>
