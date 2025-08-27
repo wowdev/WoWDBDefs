@@ -9,6 +9,15 @@ int<SpellMechanic::ID> Mechanic
 int PreventionType // &1: silence, &2: pacify, &4: no actions
 int<SpellCategory::ID> StartRecoveryCategory
 int<SpellCategory::ID> ChargeCategory
+int Field_11_2_5_62785_000?
+int Field_11_2_5_62785_001?
+int Field_11_2_5_62785_002?
+int Field_11_2_5_62785_003?
+int Field_11_2_5_62785_004?
+int Field_11_2_5_62785_005?
+int Field_11_2_5_62785_006?
+int Field_11_2_5_62785_007?
+int Field_11_2_5_62785_008?
 
 BUILD 4.0.0.12232-4.3.4.15595
 $id$ID<32>
@@ -189,3 +198,16 @@ PreventionType<8>
 StartRecoveryCategory<16>
 ChargeCategory<16>
 $noninline,relation$SpellID<32>
+
+LAYOUT 45BA990E
+BUILD 11.2.5.62785
+$noninline,id$ID<32>
+Field_11_2_5_62785_000<u8>
+Field_11_2_5_62785_001<16>
+Field_11_2_5_62785_002<32>
+Field_11_2_5_62785_003<8>
+Field_11_2_5_62785_004<8>
+Field_11_2_5_62785_005<32>
+Field_11_2_5_62785_006<16>
+Field_11_2_5_62785_007<16>
+$noninline,relation$Field_11_2_5_62785_008<32>

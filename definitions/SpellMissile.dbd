@@ -15,6 +15,21 @@ float RandomizePitchMin
 float RandomizeSpeedMax
 float RandomizeSpeedMin
 int<Spell::ID> SpellID
+int Field_11_2_5_62785_000?
+int Field_11_2_5_62785_001?
+float Field_11_2_5_62785_002?
+float Field_11_2_5_62785_003?
+float Field_11_2_5_62785_004?
+float Field_11_2_5_62785_005?
+float Field_11_2_5_62785_006?
+float Field_11_2_5_62785_007?
+float Field_11_2_5_62785_008?
+float Field_11_2_5_62785_009?
+float Field_11_2_5_62785_010?
+float Field_11_2_5_62785_011?
+float Field_11_2_5_62785_012?
+float Field_11_2_5_62785_013?
+float Field_11_2_5_62785_014?
 
 BUILD 3.0.1.8303
 BUILD 3.0.1.8303-3.0.1.8334
@@ -212,3 +227,22 @@ RandomizeSpeedMax
 Gravity
 MaxDuration
 CollisionRadius
+
+LAYOUT 91E5E150
+BUILD 11.2.5.62785
+$noninline,id$ID<32>
+Field_11_2_5_62785_000<32>
+Field_11_2_5_62785_001<32>
+Field_11_2_5_62785_002
+Field_11_2_5_62785_003
+Field_11_2_5_62785_004
+Field_11_2_5_62785_005
+Field_11_2_5_62785_006
+Field_11_2_5_62785_007
+Field_11_2_5_62785_008
+Field_11_2_5_62785_009
+Field_11_2_5_62785_010
+Field_11_2_5_62785_011
+Field_11_2_5_62785_012
+Field_11_2_5_62785_013
+Field_11_2_5_62785_014

@@ -23,6 +23,17 @@ int<ContentTuning::ID> ContentTuningID?
 int<CraftingQuality::ID> CraftingQualityID?
 int<ScalingStatDistribution::ID> ScalingStatDistributionID?
 int ScalingStatValue?
+int Field_11_2_5_62785_000?
+int Field_11_2_5_62785_001?
+int Field_11_2_5_62785_002?
+int Field_11_2_5_62785_003?
+int Field_11_2_5_62785_004?
+int Field_11_2_5_62785_005?
+int Field_11_2_5_62785_006?
+int Field_11_2_5_62785_007?
+int Field_11_2_5_62785_008?
+int Field_11_2_5_62785_009?
+int Field_11_2_5_62785_010?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -520,3 +531,18 @@ ItemGroupSoundsID<u8>
 ContentTuningID<32>
 ModifiedCraftingReagentItemID<32>
 CraftingQualityID<32>
+
+LAYOUT E39A209A
+BUILD 11.2.5.62785
+$noninline,id$ID<32>
+Field_11_2_5_62785_000<32>
+Field_11_2_5_62785_001<u8>
+Field_11_2_5_62785_002<u8>
+Field_11_2_5_62785_003<8>
+Field_11_2_5_62785_004<u8>
+Field_11_2_5_62785_005<8>
+Field_11_2_5_62785_006<32>
+Field_11_2_5_62785_007<u32>
+Field_11_2_5_62785_008<32>
+Field_11_2_5_62785_009<32>
+Field_11_2_5_62785_010<32>
