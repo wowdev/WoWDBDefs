@@ -23,26 +23,6 @@ int<ContentTuning::ID> ContentTuningID?
 int<CraftingQuality::ID> CraftingQualityID?
 int<ScalingStatDistribution::ID> ScalingStatDistributionID?
 int ScalingStatValue?
-int Field_5_5_1_62856_000?
-int Field_5_5_1_62856_001?
-int Field_5_5_1_62856_002?
-int Field_5_5_1_62856_003?
-int Field_5_5_1_62856_004?
-int Field_5_5_1_62856_005?
-int Field_5_5_1_62856_006?
-int Field_5_5_1_62856_007?
-int Field_5_5_1_62856_008?
-int Field_5_5_1_62856_009?
-int Field_5_5_1_62856_010?
-int Field_5_5_1_62856_011?
-int Field_5_5_1_62856_012?
-int Field_5_5_1_62856_013?
-int Field_5_5_1_62856_014?
-int Field_5_5_1_62856_015?
-int Field_5_5_1_62856_016?
-int Field_5_5_1_62856_017?
-int Field_5_5_1_62856_018?
-int Field_5_5_1_62856_019?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -334,26 +314,26 @@ MaxDamage<32>[5]
 LAYOUT 9659EF5A
 BUILD 5.5.1.62856
 $noninline,id$ID<32>
-Field_5_5_1_62856_000<32>
-Field_5_5_1_62856_001<u8>
-Field_5_5_1_62856_002<u8>
-Field_5_5_1_62856_003<8>
-Field_5_5_1_62856_004<32>
-Field_5_5_1_62856_005<u8>
-Field_5_5_1_62856_006<u16>
-Field_5_5_1_62856_007<u16>
-Field_5_5_1_62856_008<8>
-Field_5_5_1_62856_009<u16>
-Field_5_5_1_62856_010<32>
-Field_5_5_1_62856_011<u8>
-Field_5_5_1_62856_012<32>
-Field_5_5_1_62856_013<u32>
-Field_5_5_1_62856_014<u8>
-Field_5_5_1_62856_015<32>
-Field_5_5_1_62856_016<u8>[5]
-Field_5_5_1_62856_017<32>[7]
-Field_5_5_1_62856_018<32>[5]
-Field_5_5_1_62856_019<32>[5]
+ClassID<32>
+SubclassID<u8>
+Material<u8>
+InventoryType<8>
+RequiredLevel<32>
+SheatheType<u8>
+RandomSelect<u16>
+ItemRandomSuffixGroupID<u16>
+Sound_override_subclassID<8>
+ScalingStatDistributionID<u16>
+IconFileDataID<32>
+ItemGroupSoundsID<u8>
+ContentTuningID<32>
+MaxDurability<u32>
+AmmunitionType<u8>
+ScalingStatValue<32>
+DamageType<u8>[5]
+Resistances<32>[7]
+MinDamage<32>[5]
+MaxDamage<32>[5]
 
 BUILD 6.0.1.18179
 $id$ID<32>

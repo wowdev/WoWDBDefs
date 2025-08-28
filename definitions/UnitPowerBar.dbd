@@ -16,22 +16,6 @@ locstring OutOfError_lang
 locstring ToolTip_lang
 float StartInset
 float EndInset
-locstring Field_5_5_1_62856_000_lang?
-locstring Field_5_5_1_62856_001_lang?
-locstring Field_5_5_1_62856_002_lang?
-locstring Field_5_5_1_62856_003_lang?
-int Field_5_5_1_62856_004?
-int Field_5_5_1_62856_005?
-int Field_5_5_1_62856_006?
-int Field_5_5_1_62856_007?
-float Field_5_5_1_62856_008?
-float Field_5_5_1_62856_009?
-int Field_5_5_1_62856_010?
-int Field_5_5_1_62856_011?
-float Field_5_5_1_62856_012?
-float Field_5_5_1_62856_013?
-int Field_5_5_1_62856_014?
-int Field_5_5_1_62856_015?
 
 LAYOUT 491662FD
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -139,22 +123,22 @@ Color<32>[6]
 LAYOUT 6DB52D61
 BUILD 5.5.1.62856
 $noninline,id$ID<32>
-Field_5_5_1_62856_000_lang
-Field_5_5_1_62856_001_lang
-Field_5_5_1_62856_002_lang
-Field_5_5_1_62856_003_lang
-Field_5_5_1_62856_004<u32>
-Field_5_5_1_62856_005<u32>
-Field_5_5_1_62856_006<u16>
-Field_5_5_1_62856_007<u8>
-Field_5_5_1_62856_008
-Field_5_5_1_62856_009
-Field_5_5_1_62856_010<u8>
-Field_5_5_1_62856_011<32>
-Field_5_5_1_62856_012
-Field_5_5_1_62856_013
-Field_5_5_1_62856_014<32>[6]
-Field_5_5_1_62856_015<32>[6]
+Name_lang
+Cost_lang
+OutOfError_lang
+ToolTip_lang
+MinPower<u32>
+MaxPower<u32>
+StartPower<u16>
+CenterPower<u8>
+RegenerationPeace
+RegenerationCombat
+BarType<u8>
+Flags<32>
+StartInset
+EndInset
+FileDataID<32>[6]
+Color<32>[6]
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
