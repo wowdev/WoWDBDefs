@@ -24,6 +24,28 @@ float VolumeEdgeFadeStart
 int VolumeFlags
 float OverrideColorIntensity
 int Field_9_0_1_33978_001? // if 1: set TransitionSkyBox to 1.0f
+int Field_5_5_1_62856_000?
+float Field_5_5_1_62856_001?
+int Field_5_5_1_62856_002?
+int Field_5_5_1_62856_003?
+int Field_5_5_1_62856_004?
+int Field_5_5_1_62856_005?
+int Field_5_5_1_62856_006?
+float Field_5_5_1_62856_007?
+float Field_5_5_1_62856_008?
+float Field_5_5_1_62856_009?
+float Field_5_5_1_62856_010?
+float Field_5_5_1_62856_011?
+int Field_5_5_1_62856_012?
+float Field_5_5_1_62856_013?
+int Field_5_5_1_62856_014?
+float Field_5_5_1_62856_015?
+float Field_5_5_1_62856_016?
+float Field_5_5_1_62856_017?
+int Field_5_5_1_62856_018?
+int Field_5_5_1_62856_019?
+float Field_5_5_1_62856_020?
+float Field_5_5_1_62856_021?
 
 BUILD 3.0.8.9328
 BUILD 3.0.2.8885
@@ -124,6 +146,32 @@ VolumeFlags<32>
 LightningID<32>
 Intensity[2]
 EffectColor[3]
+
+LAYOUT C8B40E80
+BUILD 5.5.1.62856
+$noninline,id$ID<32>
+Field_5_5_1_62856_000<u8>
+Field_5_5_1_62856_001
+Field_5_5_1_62856_002<u32>
+Field_5_5_1_62856_003<u16>
+Field_5_5_1_62856_004<u8>
+Field_5_5_1_62856_005<32>
+Field_5_5_1_62856_006<u8>
+Field_5_5_1_62856_007
+Field_5_5_1_62856_008
+Field_5_5_1_62856_009
+Field_5_5_1_62856_010
+Field_5_5_1_62856_011
+Field_5_5_1_62856_012<32>
+Field_5_5_1_62856_013
+Field_5_5_1_62856_014<32>
+Field_5_5_1_62856_015
+Field_5_5_1_62856_016
+Field_5_5_1_62856_017
+Field_5_5_1_62856_018<32>
+Field_5_5_1_62856_019<32>
+Field_5_5_1_62856_020[2]
+Field_5_5_1_62856_021[3]
 
 BUILD 6.0.1.18179
 $id$ID<32>
