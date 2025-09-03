@@ -1,10 +1,10 @@
 COLUMNS
 int ID?
-int Field_11_2_5_62785_001?
-int Field_11_2_5_62785_002?
+int<FileData::ID> ModelFileDataID?
+int<Item::ID> ItemID?
 
 LAYOUT A2E1530F
 BUILD 11.2.5.62785, 11.2.5.62940
 $id$ID<32>
-Field_11_2_5_62785_001<32>
-Field_11_2_5_62785_002<32>
+ModelFileDataID<32>
+ItemID<32>
