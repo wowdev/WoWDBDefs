@@ -78,14 +78,9 @@ int Field_7_3_2_25549_048? // probably RequiredPVPRank
 int Field_7_3_2_25549_049? // probably RequiredPVPMedal
 int Field_4_4_0_53750_013?
 int Field_1_15_3_55112_014?
-int Field_1_15_7_59706_026?
 int Field_1_15_7_59706_027?
-int Field_1_15_7_59706_028?
 int Field_1_15_7_59706_029?
 int Field_1_15_7_59706_032?
-int Field_1_15_7_59706_033?
-int Field_1_15_7_59706_035?
-int Field_1_15_7_59706_036?
 int Field_1_15_7_59706_054?
 int Field_1_15_7_59706_057?
 int Field_1_15_7_59706_058?
@@ -1074,17 +1069,17 @@ VendorStackCount<u32>
 PriceVariance
 PriceRandomValue
 Flags<32>[5]
-Field_1_15_7_59706_026<32>
+OppositeFactionItemID<32>
 Field_1_15_7_59706_027<32>
-Field_1_15_7_59706_028<32>
+ContentTuningID<32>
 Field_1_15_7_59706_029<32>
 MaxDurability<u32>
 ItemNameDescriptionID<u16>
 Field_1_15_7_59706_032<u16>
-Field_1_15_7_59706_033<u16>
+RequiredHoliday<u16>
 LimitCategory<u16>
-Field_1_15_7_59706_035<u16>
-Field_1_15_7_59706_036<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
 TotemCategoryID<u16>
 InstanceBound<u16>
 ZoneBound<u16>[2]

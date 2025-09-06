@@ -79,9 +79,6 @@ int<ChrRaces::ID> HelmetAnimScalingRaceID?
 float Field_9_1_0_38312_030?
 float Field_9_1_0_38312_031?
 int Field_10_0_0_44649_045? // 1 for dragonriding races
-int Field_1_15_7_59706_018?
-int Field_1_15_7_59706_019?
-int Field_1_15_7_59706_033?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -711,8 +708,8 @@ Short_name_lower_female_lang
 Flags<32>
 MaleDisplayID<u32>
 FemaleDisplayID<u32>
-Field_1_15_7_59706_018<u32>
-Field_1_15_7_59706_019<u32>
+HighResMaleDisplayID<u32>
+HighResFemaleDisplayID<u32>
 ResSicknessSpellID<32>
 SplashSoundID<32>
 CreateScreenFileDataID<32>
@@ -726,7 +723,7 @@ UiDisplayOrder<32>
 PlayableRaceBit<32>
 FemaleSkeletonFileDataID<32>
 MaleSkeletonFileDataID<32>
-Field_1_15_7_59706_033<32>
+TransmogrifyDisabledSlotMask<32>
 AlteredFormCustomizeOffsetFallback[3]
 AlteredFormCustomizeRotationFallback
 Field_9_0_1_35256_033[3]

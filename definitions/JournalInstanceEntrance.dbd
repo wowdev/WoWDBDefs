@@ -2,8 +2,8 @@ COLUMNS
 int ID
 float Position?
 int<Map::ID> MapID?
-int Field_10_1_5_50006_002?
-int Field_10_1_5_50006_003?
+int<AreaTable::ID> AreaTableID?
+int Faction? // Speculation: -1: both, 0: horde, 1: alliance, only seen on battle of dazaralor
 int<JournalInstance::ID> JournalInstanceID?
 
 LAYOUT 3FD6C4DC
@@ -23,8 +23,8 @@ BUILD 1.14.4.50252, 1.14.4.50304, 1.14.4.50337, 1.14.4.50461, 1.14.4.50547, 1.14
 $noninline,id$ID<32>
 Position[3]
 MapID<32>
-Field_10_1_5_50006_002<32>
-Field_10_1_5_50006_003<32>
+AreaTableID<32>
+Faction<32>
 $noninline,relation$JournalInstanceID<32>
 
 LAYOUT C6E4ECB2
@@ -41,8 +41,8 @@ BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15
 $noninline,id$ID<32>
 Position[3]
 MapID<32>
-Field_10_1_5_50006_002<32>
-Field_10_1_5_50006_003<32>
+AreaTableID<32>
+Faction<32>
 $noninline,relation$JournalInstanceID<32>
 
 LAYOUT 874E7CC2
@@ -59,6 +59,6 @@ BUILD 1.15.7.59706, 1.15.7.59856, 1.15.7.60000, 1.15.7.60013, 1.15.7.60141, 1.15
 $noninline,id$ID<32>
 Position[3]
 MapID<32>
-Field_10_1_5_50006_002<32>
-Field_10_1_5_50006_003<8>
+AreaTableID<32>
+Faction<8>
 $noninline,relation$JournalInstanceID<32>
