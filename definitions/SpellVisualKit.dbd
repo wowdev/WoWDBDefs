@@ -57,15 +57,10 @@ int MinimumSpellVisualDensityFilterType? // Type of visual adjustment used when 
 int<SpellVisualKit::ID> MinimumSpellVisualDensityFilterParam? // When
 int ReducedSpellVisualDensityFilterType? // Type of visual adjustment used when spellVisualDensityFilterSetting CVar is set to 2, determines what is stored in ReducedSpellVisualDensityFilterParam (1/2 unknown, 3 is SpellVisualKit)
 int<SpellVisualKit::ID> ReducedSpellVisualDensityFilterParam?
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
+int Field_12_0_0_63534_004? //  DBAnalyser: [MinimumSpellVisualDensityFilterType, 1%], [ReducedSpellVisualDensityFilterType, 0.99%]
+int Field_12_0_0_63534_005? //  DBAnalyser: [MinimumSpellVisualDensityFilterParam, 1%], [ReducedSpellVisualDensityFilterParam, 1%]
+int Field_12_0_0_63534_006? //  DBAnalyser: [MinimumSpellVisualDensityFilterType, 0.99%], [ReducedSpellVisualDensityFilterType, 1%]
+int Field_12_0_0_63534_007? //  DBAnalyser: [MinimumSpellVisualDensityFilterParam, 1%], [ReducedSpellVisualDensityFilterParam, 1%]
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -454,12 +449,12 @@ Flags<32>[2]
 LAYOUT C069D9C4
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<32>
-Field_12_0_0_63534_001<32>
-Field_12_0_0_63534_002<u16>
-Field_12_0_0_63534_003<u16>
+ClutterLevel<32>
+FallbackSpellVisualKitID<32>
+DelayMin<u16>
+DelayMax<u16>
 Field_12_0_0_63534_004<32>
 Field_12_0_0_63534_005<32>
 Field_12_0_0_63534_006<32>
 Field_12_0_0_63534_007<32>
-Field_12_0_0_63534_008<32>[2]
+Flags<32>[2]

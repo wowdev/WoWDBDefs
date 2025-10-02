@@ -7,13 +7,6 @@ int TimeStamp?
 int Field_9_0_1_34972_004?
 int Field_9_0_1_34972_005?
 int<ChrCreateClassAnimTargetInfo::ID> ChrCreateClassAnimTargetInfoID
-float Field_12_0_0_63534_000?
-float Field_12_0_0_63534_001?
-float Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
 
 LAYOUT BA3B39ED
 BUILD 10.0.0.43342
@@ -79,10 +72,10 @@ $noninline,relation$ChrCreateClassAnimTargetInfoID<32>
 LAYOUT F3212C48
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000
-Field_12_0_0_63534_001
-Field_12_0_0_63534_002
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<8>
-Field_12_0_0_63534_005<32>
-$noninline,relation$Field_12_0_0_63534_006<32>
+TargetPositionX
+TargetPositionY
+TargetPositionZ
+TimeStamp<32>
+Field_9_0_1_34972_004<8>
+Field_9_0_1_34972_005<32>
+$noninline,relation$ChrCreateClassAnimTargetInfoID<32>

@@ -4,10 +4,6 @@ int<SpellVisualKit::ID> DamageSpellVisualKitID
 int Flags
 int<SpellVisualKit::ID> HealingSpellVisualKitID
 int Health
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
 
 LAYOUT C220B087, 98E42A9F, C8D65F95
 BUILD 10.0.0.43342
@@ -105,7 +101,7 @@ Flags<u32>
 LAYOUT C23E8C67
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<u32>
-Field_12_0_0_63534_001<32>
-Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003<32>
+Health<u32>
+DamageSpellVisualKitID<32>
+HealingSpellVisualKitID<32>
+Flags<32>

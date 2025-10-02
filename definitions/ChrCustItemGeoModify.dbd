@@ -3,9 +3,6 @@ int ID
 int GeosetType?
 int Original?
 int Override?
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
 
 LAYOUT FA0A7F36
 BUILD 10.0.0.43342
@@ -85,6 +82,6 @@ Override<32>
 LAYOUT 2986E1F3
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<8>
-Field_12_0_0_63534_001<32>
-Field_12_0_0_63534_002<32>
+GeosetType<8>
+Original<32>
+Override<32>

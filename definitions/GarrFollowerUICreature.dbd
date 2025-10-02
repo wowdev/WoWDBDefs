@@ -6,12 +6,6 @@ int Flags
 int<GarrFollower::ID> GarrFollowerID
 int OrderIndex
 float Scale
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-float Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
 
 LAYOUT C7F756E0
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -153,9 +147,9 @@ $noninline,relation$GarrFollowerID<32>
 LAYOUT AED9E7F8
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<u8>
-Field_12_0_0_63534_001<8>
-Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003
-Field_12_0_0_63534_004<32>
-$noninline,relation$Field_12_0_0_63534_005<32>
+OrderIndex<u8>
+FactionIndex<8>
+CreatureID<32>
+Scale
+Flags<32>
+$noninline,relation$GarrFollowerID<32>

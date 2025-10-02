@@ -9,15 +9,6 @@ int<Map::ID> MapID?
 int<AreaGroupMember::AreaGroupID> AreaGroupID? // argument 1?
 int ExpansionID? // argument 2?
 int Field_11_0_5_56749_007?
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
 
 LAYOUT 25A85C91
 BUILD 10.0.2.45480, 10.0.2.45505
@@ -96,12 +87,12 @@ $noninline,relation$ContentRestrictionRuleSetID<32>
 LAYOUT A5FE1705
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<32>
-Field_12_0_0_63534_001<32>
-Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<32>
-Field_12_0_0_63534_006<32>
-Field_12_0_0_63534_007<16>
-$noninline,relation$Field_12_0_0_63534_008<32>
+RuleType<32>
+Flags<32>
+MapID<32>
+AreaTableID<32>
+AchievementID<32>
+AreaGroupID<32>
+ExpansionID<32>
+Field_11_0_5_56749_007<16>
+$noninline,relation$ContentRestrictionRuleSetID<32>

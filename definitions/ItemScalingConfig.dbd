@@ -4,11 +4,9 @@ int<ItemOffsetCurve::ID> ItemOffsetCurveID?
 int Field_11_2_5_62554_001?
 int Field_11_2_5_62554_002?
 int Field_11_2_5_62554_003?
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_001? //  DBAnalyser: [Field_11_2_5_62554_001, 1%], [Field_11_2_5_62554_002, 1%]
+int Field_12_0_0_63534_002? //  DBAnalyser: [Field_11_2_5_62554_001, 1%], [Field_11_2_5_62554_002, 1%]
 int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
 
 LAYOUT 2A1E702E
 BUILD 11.2.5.62554, 11.2.5.62687, 11.2.5.62785, 11.2.5.62940, 11.2.5.63092, 11.2.5.63286, 11.2.5.63506
@@ -21,8 +19,8 @@ Field_11_2_5_62554_003<32>
 LAYOUT 7BEABE68
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<32>
+ItemOffsetCurveID<32>
 Field_12_0_0_63534_001<32>
 Field_12_0_0_63534_002<32>
 Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
+Field_11_2_5_62554_003<32>

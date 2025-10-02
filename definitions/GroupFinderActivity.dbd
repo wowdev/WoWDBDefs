@@ -24,24 +24,11 @@ int Field_11_0_7_57361_013?
 int Field_11_0_7_57361_014?
 int Field_11_0_7_57361_015?
 int Field_11_0_7_57361_016?
-locstring Field_12_0_0_63534_000_lang?
-locstring Field_12_0_0_63534_001_lang?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
-int Field_12_0_0_63534_009?
-int Field_12_0_0_63534_010?
-int Field_12_0_0_63534_011?
-int Field_12_0_0_63534_012?
-int Field_12_0_0_63534_013?
-int Field_12_0_0_63534_014?
-int Field_12_0_0_63534_015?
-int Field_12_0_0_63534_016?
-int Field_12_0_0_63534_017?
+int Field_12_0_0_63534_006? //  DBAnalyser: [MinGearLevelSuggestion, 0.82%]
+int Field_12_0_0_63534_013? //  DBAnalyser: [Field_11_0_7_57361_013, 0.95%], [Field_11_0_7_57361_014, 0.95%], [Field_11_0_7_57361_015, 0.95%], [Field_11_0_7_57361_016, 0.95%]
+int Field_12_0_0_63534_014? //  DBAnalyser: [Field_11_0_7_57361_013, 0.95%], [Field_11_0_7_57361_014, 0.95%], [Field_11_0_7_57361_015, 0.95%], [Field_11_0_7_57361_016, 0.95%]
+int Field_12_0_0_63534_015? //  DBAnalyser: [Field_11_0_7_57361_013, 0.95%], [Field_11_0_7_57361_014, 0.95%], [Field_11_0_7_57361_015, 0.95%], [Field_11_0_7_57361_016, 0.95%]
+int Field_12_0_0_63534_016? //  DBAnalyser: [Field_11_0_7_57361_013, 0.95%], [Field_11_0_7_57361_014, 0.95%], [Field_11_0_7_57361_015, 0.95%], [Field_11_0_7_57361_016, 0.95%]
 int Field_12_0_0_63534_018?
 
 LAYOUT CAA26BD9
@@ -450,22 +437,22 @@ MapChallengeModeID<32>
 LAYOUT 5436E136
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000_lang
-Field_12_0_0_63534_001_lang
-Field_12_0_0_63534_002<u8>
-Field_12_0_0_63534_003<8>
-Field_12_0_0_63534_004<u16>
-Field_12_0_0_63534_005<32>
+FullName_lang
+ShortName_lang
+GroupFinderCategoryID<u8>
+OrderIndex<8>
+GroupFinderActivityGrpID<u16>
+Flags<32>
 Field_12_0_0_63534_006<u16>
-Field_12_0_0_63534_007<32>
-Field_12_0_0_63534_008<u16>
-Field_12_0_0_63534_009<16>
-Field_12_0_0_63534_010<u16>
-Field_12_0_0_63534_011<u8>
-Field_12_0_0_63534_012<u8>
+PlayerConditionID<32>
+MapID<u16>
+DifficultyID<16>
+AreaID<u16>
+MaxPlayers<u8>
+DisplayType<u8>
 Field_12_0_0_63534_013<32>
 Field_12_0_0_63534_014<32>
 Field_12_0_0_63534_015<32>
 Field_12_0_0_63534_016<32>
-Field_12_0_0_63534_017<32>
+OverrideContentTuningID<32>
 Field_12_0_0_63534_018<32>

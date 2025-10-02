@@ -6,12 +6,6 @@ int BaseLevel
 int MaxLevel
 int SpellLevel
 int MaxPassiveAuraLevel
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
 
 LAYOUT F1FA4CF1
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -199,9 +193,9 @@ $noninline,relation$SpellID<32>
 LAYOUT 7EB86FDC
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<16>
-Field_12_0_0_63534_001<16>
-Field_12_0_0_63534_002<u8>
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
-$noninline,relation$Field_12_0_0_63534_005<32>
+DifficultyID<16>
+MaxLevel<16>
+MaxPassiveAuraLevel<u8> //  DBAnalyser: [MaxPassiveAuraLevel, 0.92%]
+BaseLevel<32>
+SpellLevel<32>
+$noninline,relation$SpellID<32>

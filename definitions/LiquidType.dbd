@@ -25,27 +25,7 @@ int MinDetail
 int LoDetail_ID
 int HiDetail_ID
 int Field_3_0_1_8334_006? // matches old water particulate rendering values?
-string Field_12_0_0_63534_000?
-string Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-float Field_12_0_0_63534_006?
-float Field_12_0_0_63534_007?
-float Field_12_0_0_63534_008?
-float Field_12_0_0_63534_009?
-int Field_12_0_0_63534_010?
-float Field_12_0_0_63534_011?
-int Field_12_0_0_63534_012?
-int Field_12_0_0_63534_013?
-int Field_12_0_0_63534_014?
-int Field_12_0_0_63534_015?
-int Field_12_0_0_63534_016?
-int Field_12_0_0_63534_017?
 float Field_12_0_0_63534_018?
-int Field_12_0_0_63534_019?
-float Field_12_0_0_63534_020?
 
 BUILD 3.0.1.8303
 BUILD 2.0.0.5610-2.4.3.8606
@@ -414,24 +394,24 @@ Coefficient[4]
 LAYOUT D1ECEEC9
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000
-Field_12_0_0_63534_001[6]
-Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003<u8>
-Field_12_0_0_63534_004<u32>
-Field_12_0_0_63534_005<u32>
-Field_12_0_0_63534_006
-Field_12_0_0_63534_007
-Field_12_0_0_63534_008
-Field_12_0_0_63534_009
-Field_12_0_0_63534_010<u16>
-Field_12_0_0_63534_011
-Field_12_0_0_63534_012<u8>
-Field_12_0_0_63534_013<u8>
-Field_12_0_0_63534_014<u8>
-Field_12_0_0_63534_015<32>
-Field_12_0_0_63534_016<u8>[6]
-Field_12_0_0_63534_017<32>[3]
+Name
+Texture[6]
+Flags<32>
+SoundBank<u8>
+SoundID<u32>
+SpellID<u32>
+MaxDarkenDepth
+FogDarkenIntensity
+AmbDarkenIntensity
+DirDarkenIntensity
+LightID<u16>
+ParticleScale
+ParticleMovement<u8>
+ParticleTexSlots<u8>
+MaterialID<u8>
+MinimapStaticCol<32>
+FrameCountTexture<u8>[6]
+Color<32>[3]
 Field_12_0_0_63534_018[38]
-Field_12_0_0_63534_019<u32>[4]
-Field_12_0_0_63534_020[4]
+Int<u32>[4]
+Coefficient[4]

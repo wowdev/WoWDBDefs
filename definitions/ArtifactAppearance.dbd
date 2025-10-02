@@ -15,22 +15,8 @@ float UiModelSaturation
 int UiSwatchColor
 int<PlayerCondition::ID> UnlockPlayerConditionID
 int<PlayerCondition::ID> UsablePlayerConditionID
-locstring Field_12_0_0_63534_000_lang?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-float Field_12_0_0_63534_007?
-float Field_12_0_0_63534_008?
-int Field_12_0_0_63534_009?
-int Field_12_0_0_63534_010?
-int Field_12_0_0_63534_011?
-int Field_12_0_0_63534_012?
-int Field_12_0_0_63534_013?
-int Field_12_0_0_63534_014?
-int Field_12_0_0_63534_015?
+int Field_12_0_0_63534_011? //  DBAnalyser: [UiItemAppearanceID, 0.95%], [UiAltItemAppearanceID, 0.95%]
+int Field_12_0_0_63534_012? //  DBAnalyser: [UiItemAppearanceID, 0.95%], [UiAltItemAppearanceID, 0.95%]
 
 LAYOUT CDF315B7
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -286,19 +272,19 @@ UsablePlayerConditionID<u32>
 
 LAYOUT 1E465883
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000_lang
-$id$Field_12_0_0_63534_001<32>
-$relation$Field_12_0_0_63534_002<u16>
-Field_12_0_0_63534_003<u8>
-Field_12_0_0_63534_004<u32>
-Field_12_0_0_63534_005<u8>
-Field_12_0_0_63534_006<32>
-Field_12_0_0_63534_007
-Field_12_0_0_63534_008
-Field_12_0_0_63534_009<u8>
-Field_12_0_0_63534_010<u32>
+Name_lang
+$id$ID<32>
+$relation$ArtifactAppearanceSetID<u16>
+DisplayIndex<u8>
+UnlockPlayerConditionID<u32>
+ItemAppearanceModifierID<u8>
+UiSwatchColor<32>
+UiModelSaturation
+UiModelOpacity
+OverrideShapeshiftFormID<u8>
+OverrideShapeshiftDisplayID<u32>
 Field_12_0_0_63534_011<u32>
 Field_12_0_0_63534_012<u32>
-Field_12_0_0_63534_013<32>
-Field_12_0_0_63534_014<u16>
-Field_12_0_0_63534_015<u32>
+Flags<32>
+UiCameraID<u16>
+UsablePlayerConditionID<u32>

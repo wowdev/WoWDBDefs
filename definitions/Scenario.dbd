@@ -5,11 +5,6 @@ int Flags
 int<AreaTable::ID> AreaTableID
 int Type
 int UiTextureKitID?
-locstring Field_12_0_0_63534_000_lang?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
 
 BUILD 5.0.1.15508
 $id$ID<32>
@@ -152,8 +147,8 @@ UiTextureKitID<u32>
 LAYOUT 64D88505
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000_lang
-Field_12_0_0_63534_001<u16>
-Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<u32>
+Name_lang
+AreaTableID<u16> //  DBAnalyser: [AreaTableID, 0.89%]
+Type<32>
+Flags<32>
+UiTextureKitID<u32>

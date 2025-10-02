@@ -23,26 +23,9 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
-locstring Field_12_0_0_63534_000_lang?
-locstring Field_12_0_0_63534_001_lang?
-locstring Field_12_0_0_63534_002_lang?
-locstring Field_12_0_0_63534_003_lang?
-locstring Field_12_0_0_63534_004_lang?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
-int Field_12_0_0_63534_009?
-int Field_12_0_0_63534_010?
-int Field_12_0_0_63534_011?
-int Field_12_0_0_63534_012?
-int Field_12_0_0_63534_013?
-int Field_12_0_0_63534_014?
-int Field_12_0_0_63534_015?
-int Field_12_0_0_63534_016?
-int Field_12_0_0_63534_017?
-int Field_12_0_0_63534_018?
-int Field_12_0_0_63534_019?
+int Field_12_0_0_63534_007? //  DBAnalyser: [Flags, 0.71%]
+int Field_12_0_0_63534_013? //  DBAnalyser: [PriorityMax, 0.04%]
+int Field_12_0_0_63534_014? //  DBAnalyser: [PriorityMax, 0.04%]
 
 LAYOUT AF456C4F
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -525,23 +508,23 @@ BonusValue<u8>[2]
 LAYOUT 6DC6E4E8
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000_lang
-Field_12_0_0_63534_001_lang
-Field_12_0_0_63534_002_lang
-Field_12_0_0_63534_003_lang
-Field_12_0_0_63534_004_lang
-Field_12_0_0_63534_005<u8>
-Field_12_0_0_63534_006<u32>
+Name_lang
+Description_lang
+ButtonText_lang
+RewardDescription_lang
+ContinueDescription_lang
+Type<u8>
+PlayerConditionID<u32>
 Field_12_0_0_63534_007<32>
-Field_12_0_0_63534_008<u8>
-Field_12_0_0_63534_009<32>
-Field_12_0_0_63534_010<u16>
-Field_12_0_0_63534_011<32>
-Field_12_0_0_63534_012<u16>
+ButtonActionType<u8>
+TextureFileDataID<32>
+LfgDungeonID<u16>
+QuestID<32>
+BattleMasterListID<u16>
 Field_12_0_0_63534_013<u8>
 Field_12_0_0_63534_014<u8>
-Field_12_0_0_63534_015<u16>
-Field_12_0_0_63534_016<u32>
-Field_12_0_0_63534_017<u16>
-Field_12_0_0_63534_018<u32>[2]
-Field_12_0_0_63534_019<u8>[2]
+CurrencyType<u16>
+CurrencyQuantity<u32>
+UIMapID<u16>
+BonusPlayerConditionID<u32>[2]
+BonusValue<u8>[2]

@@ -4,11 +4,8 @@ int OrderIndex
 int<ContentTuning::ID> RedirectContentTuningID
 int RedirectFlag // Given a ParentContentTuningID client checks for a given condition flag, first matching record determines RedirectContentTuningID, or fall back to ParentContentTuningID if none exists.
 int<ContentTuning::ID> ParentContentTuningID
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_000? //  DBAnalyser: [OrderIndex, 0.84%]
 int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
 
 LAYOUT 209DE3DD
 BUILD 10.0.0.43342
@@ -82,7 +79,7 @@ LAYOUT B4A236C9
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
 Field_12_0_0_63534_000<32>
-Field_12_0_0_63534_001<32>
-Field_12_0_0_63534_002<32>
+RedirectContentTuningID<32>
+RedirectFlag<32>
 Field_12_0_0_63534_003<32>
-$noninline,relation$Field_12_0_0_63534_004<32>
+$noninline,relation$ParentContentTuningID<32>

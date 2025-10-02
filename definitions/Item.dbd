@@ -23,21 +23,12 @@ int<ContentTuning::ID> ContentTuningID?
 int<CraftingQuality::ID> CraftingQualityID?
 int<ScalingStatDistribution::ID> ScalingStatDistributionID?
 int ScalingStatValue?
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
-int Field_12_0_0_63534_009?
+int Field_12_0_0_63534_009? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0.95%], [CraftingQualityID, 0.95%]
 int Field_12_0_0_63534_010?
-int Field_12_0_0_63534_011?
-int Field_12_0_0_63534_012?
+int Field_12_0_0_63534_011? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0.95%], [CraftingQualityID, 0.95%]
+int Field_12_0_0_63534_012? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0.95%], [CraftingQualityID, 0.95%]
 float Field_12_0_0_63534_013?
-int Field_12_0_0_63534_014?
+int Field_12_0_0_63534_014? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0.95%], [CraftingQualityID, 0.95%]
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -578,15 +569,15 @@ CraftingQualityID<32>
 LAYOUT 996192AA
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<32>
-Field_12_0_0_63534_001<u8>
-Field_12_0_0_63534_002<u8>
-Field_12_0_0_63534_003<8>
-Field_12_0_0_63534_004<u8>
-Field_12_0_0_63534_005<8>
-Field_12_0_0_63534_006<32>
-Field_12_0_0_63534_007<u32>
-Field_12_0_0_63534_008<32>
+ClassID<32>
+SubclassID<u8>
+Material<u8>
+InventoryType<8>
+SheatheType<u8>
+Sound_override_subclassID<8>
+IconFileDataID<32>
+ItemGroupSoundsID<u32>
+ContentTuningID<32>
 Field_12_0_0_63534_009<32>
 Field_12_0_0_63534_010<u8>
 Field_12_0_0_63534_011<32>

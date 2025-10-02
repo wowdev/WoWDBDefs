@@ -5,11 +5,8 @@ int<GarrBuilding::ID> GarrBuildingID
 int HordeDoodadSet
 int SpecializationID
 int Type
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_001? //  DBAnalyser: [Type, 0.95%], [SpecializationID, 0.95%]
+int Field_12_0_0_63534_004? //  DBAnalyser: [Type, 0.95%], [SpecializationID, 0.95%]
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -127,8 +124,8 @@ SpecializationID<u8>
 LAYOUT 0E15C1BC
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<u8>
+GarrBuildingID<u8>
 Field_12_0_0_63534_001<u8>
-Field_12_0_0_63534_002<u8>
-Field_12_0_0_63534_003<u8>
+HordeDoodadSet<u8>
+AllianceDoodadSet<u8>
 Field_12_0_0_63534_004<u8>

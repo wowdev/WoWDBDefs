@@ -13,16 +13,6 @@ int ExitSoundEntriesID
 int<FileData::ID> AttackIconFileID
 float DamageVariance
 int Field_1_15_0_52124_002? // Duplicate of CreatureDisplayID
-locstring Field_12_0_0_63534_000_lang?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-float Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
-int Field_12_0_0_63534_009?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494
@@ -316,13 +306,13 @@ PresetSpellID<u32>[8]
 LAYOUT EE25A6A2
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000_lang
-Field_12_0_0_63534_001<u32>
-Field_12_0_0_63534_002<u8>
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<8>
-Field_12_0_0_63534_006<16>
-Field_12_0_0_63534_007
-Field_12_0_0_63534_008<u16>
-Field_12_0_0_63534_009<u32>[8]
+Name_lang
+CreatureDisplayID<u32>
+CreatureType<u8>
+Flags<32>
+AttackIconFileID<32>
+BonusActionBar<8>
+CombatRoundTime<16>
+DamageVariance
+MountTypeID<u16>
+PresetSpellID<u32>[8]

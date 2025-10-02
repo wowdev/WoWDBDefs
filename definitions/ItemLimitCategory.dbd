@@ -3,9 +3,6 @@ int ID
 locstring Name_lang
 int Quantity
 int Flags
-locstring Field_12_0_0_63534_000_lang?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -114,6 +111,6 @@ Flags<u8>
 LAYOUT B0A784BD
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000_lang
-Field_12_0_0_63534_001<u8>
-Field_12_0_0_63534_002<32>
+Name_lang
+Quantity<u8>
+Flags<32>

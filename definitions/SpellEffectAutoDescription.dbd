@@ -10,15 +10,6 @@ int SchoolMask
 int SpellEffectType
 int TargetType
 int OrderIndex?
-locstring Field_12_0_0_63534_000_lang?
-locstring Field_12_0_0_63534_001_lang?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
 
 LAYOUT 2DDC7B6B
 BUILD 8.0.1.25902
@@ -169,12 +160,12 @@ AuraOrderIndex<32>
 LAYOUT 383904CC
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000_lang
-Field_12_0_0_63534_001_lang
-Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<u8>
-Field_12_0_0_63534_005<u8>
-Field_12_0_0_63534_006<8>
-Field_12_0_0_63534_007<32>
-Field_12_0_0_63534_008<32>
+EffectDescription_lang
+AuraDescription_lang
+SpellEffectType<32>
+AuraEffectType<32>
+PointsSign<u8>
+TargetType<u8>
+SchoolMask<8>
+EffectOrderIndex<32>
+AuraOrderIndex<32>

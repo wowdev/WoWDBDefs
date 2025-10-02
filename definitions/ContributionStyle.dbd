@@ -7,13 +7,6 @@ int Flags // 1 = TooltipUseTimeRemaining
 int StatusBarAtlas
 int BorderAtlas
 int BannerAtlas
-locstring Field_12_0_0_63534_000_lang?
-locstring Field_12_0_0_63534_001_lang?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
 
 LAYOUT 799AE511, 68AD1498
 BUILD 10.0.0.43342
@@ -120,10 +113,10 @@ BannerAtlas<32>
 LAYOUT 045BF734
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000_lang
-Field_12_0_0_63534_001_lang
-Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<32>
-Field_12_0_0_63534_006<32>
+StateName_lang
+TooltipLine_lang
+StateColor<32>
+Flags<32>
+StatusBarAtlas<32>
+BorderAtlas<32>
+BannerAtlas<32>

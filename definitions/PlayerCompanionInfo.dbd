@@ -10,17 +10,6 @@ int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
 int<UiModelScene::ID> UiModelSceneID?
 int<DelvesSeason::ID> DelvesSeasonID?
 int<TraitSubTree::ID> TraitSubTreeID_Tank?
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
-int Field_12_0_0_63534_009?
-int Field_12_0_0_63534_010?
 int Field_12_0_0_63534_011?
 
 LAYOUT 4EF4C3DB
@@ -68,15 +57,15 @@ UiModelSceneID<32>
 
 LAYOUT BA18C373
 BUILD 12.0.0.63534
-$id$Field_12_0_0_63534_000<32>
-Field_12_0_0_63534_001<32>
-Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<32>
-Field_12_0_0_63534_006<32>
-Field_12_0_0_63534_007<32>
-Field_12_0_0_63534_008<32>
-Field_12_0_0_63534_009<32>
-Field_12_0_0_63534_010<32>
+$id$ID<32>
+DelvesSeasonID<32>
+TraitTreeID<32>
+TraitNodeID_DPS<32>
+TraitNodeID_Heal<32>
+TraitSubTreeID_DPS<32>
+TraitSubTreeID_Heal<32>
+TraitSubTreeID_Tank<32>
+FactionID<32>
+CreatureDisplayInfoID<32>
+UiModelSceneID<32>
 $noninline,relation$Field_12_0_0_63534_011<32>

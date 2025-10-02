@@ -25,22 +25,6 @@ int Field_2_0_0_6080_003?
 int Field_9_1_0_38549_014?
 int Field_11_0_0_54210_015?
 int Field_1_15_4_56400_014?
-int Field_12_0_0_63534_000?
-float Field_12_0_0_63534_001?
-float Field_12_0_0_63534_002?
-float Field_12_0_0_63534_003?
-float Field_12_0_0_63534_004?
-float Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-float Field_12_0_0_63534_008?
-int Field_12_0_0_63534_009?
-int Field_12_0_0_63534_010?
-int Field_12_0_0_63534_011?
-int Field_12_0_0_63534_012?
-int Field_12_0_0_63534_013?
-int Field_12_0_0_63534_014?
-int Field_12_0_0_63534_015?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -422,19 +406,19 @@ Field_11_0_0_54210_015<u16>
 LAYOUT 2245CEE6
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<32>
-Field_12_0_0_63534_001
-Field_12_0_0_63534_002
-Field_12_0_0_63534_003
-Field_12_0_0_63534_004
-Field_12_0_0_63534_005
-Field_12_0_0_63534_006<32>
-Field_12_0_0_63534_007<32>
-Field_12_0_0_63534_008
-Field_12_0_0_63534_009<32>
-Field_12_0_0_63534_010<32>
-Field_12_0_0_63534_011<u32>
-Field_12_0_0_63534_012<32>
-Field_12_0_0_63534_013<32>
-Field_12_0_0_63534_014<8>
-Field_12_0_0_63534_015<u16>
+ModelFileDataID<32>
+BaseMissileSpeed
+Scale
+MinAllowedScale
+MaxAllowedScale
+Alpha
+Flags<32>
+TextureFileDataID<32>
+EffectRadius
+Type<32>
+GenericID<32>
+RibbonQualityID<u32>
+DissolveEffectID<32>
+ModelPosition<32>
+Field_9_1_0_38549_014<8>
+Field_11_0_0_54210_015<u16>

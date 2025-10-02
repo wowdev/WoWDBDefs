@@ -14,17 +14,6 @@ int Faction // -1: any, 0: Horde, 1: Alliance
 int<WorldState::ID> CompleteWorldStateID
 int Field_3_4_3_51278_007?
 int Field_11_1_5_59735_010?
-locstring Field_12_0_0_63534_000_lang?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
-int Field_12_0_0_63534_009?
-int Field_12_0_0_63534_010?
 
 LAYOUT B52C4A8C
 BUILD 2.5.2.39570, 2.5.2.39618, 2.5.2.39658, 2.5.2.39688, 2.5.2.39757, 2.5.2.39801, 2.5.2.39832, 2.5.2.39926, 2.5.2.40011, 2.5.2.40045, 2.5.2.40203, 2.5.2.40260, 2.5.2.40422, 2.5.2.40488, 2.5.2.40617, 2.5.2.40892, 2.5.2.41446, 2.5.2.41510
@@ -349,14 +338,14 @@ Field_11_1_5_59735_010<32>
 
 LAYOUT 35863DC4
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000_lang
-$id$Field_12_0_0_63534_001<32>
-$relation$Field_12_0_0_63534_002<16>
-Field_12_0_0_63534_003<16>
-Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<32>
-Field_12_0_0_63534_006<8>
-Field_12_0_0_63534_007<32>
-Field_12_0_0_63534_008<32>
-Field_12_0_0_63534_009<32>
-Field_12_0_0_63534_010<32>
+Name_lang
+$id$ID<32>
+$relation$MapID<16>
+DifficultyID<16>
+OrderIndex<32>
+CompleteWorldStateID<32>
+Bit<8>
+Flags<32>
+SpellIconFileID<32>
+Faction<32>
+Field_11_1_5_59735_010<32>

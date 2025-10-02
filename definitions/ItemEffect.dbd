@@ -9,14 +9,6 @@ int<Item::ID> ParentItemID
 int<SpellCategory::ID> SpellCategoryID
 int<Spell::ID> SpellID
 int TriggerType
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
 int Field_12_0_0_63534_008?
 
 LAYOUT 95B79695
@@ -228,12 +220,12 @@ ChrSpecializationID<u16>
 LAYOUT 4CA77678
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<u8>
-Field_12_0_0_63534_001<u8>
-Field_12_0_0_63534_002<16>
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<u16>
-Field_12_0_0_63534_006<32>
-Field_12_0_0_63534_007<u16>
+LegacySlotIndex<u8>
+TriggerType<u8>
+Charges<16>
+CoolDownMSec<32>
+CategoryCoolDownMSec<32>
+SpellCategoryID<u16>
+SpellID<32>
+ChrSpecializationID<u16>
 Field_12_0_0_63534_008<32>

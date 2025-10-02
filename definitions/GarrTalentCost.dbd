@@ -8,15 +8,6 @@ int CostType // 0: Initial, 1: Respec, 2: MakePermanent, 3: TreeReset (soulbinds
 int<CurrencyTypes::ID> CurrencyTypesID
 int CurrencyQuantity
 int MoneyQuantity
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
 
 LAYOUT A5152E26
 BUILD 10.0.0.43342
@@ -84,12 +75,12 @@ CurrencyQuantity<32>
 
 LAYOUT 0BAE76A8
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000<u64>
-$id$Field_12_0_0_63534_001<32>
-$relation$Field_12_0_0_63534_002<u32>
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<32>
-Field_12_0_0_63534_006<32>
-Field_12_0_0_63534_007<32>
-Field_12_0_0_63534_008<32>
+MoneyQuantity<u64>
+$id$ID<32>
+$relation$GarrTalentTreeID<u32>
+GarrTalentID<32>
+RankIndex<32>
+GarrTalentRankID<32>
+CostType<32>
+CurrencyTypesID<32>
+CurrencyQuantity<32>

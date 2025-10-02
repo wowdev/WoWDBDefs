@@ -9,14 +9,6 @@ int<SoundKit::ID> EffectRecID // ERT == 1: SoundKitID; as that's the only type p
 int Attachment
 float Offset
 int<ObjectEffectModifier::ID> ObjectEffectModifierID
-float Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -161,11 +153,11 @@ ObjectEffectModifierID<u32>
 LAYOUT 47F997E2
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000[3]
-Field_12_0_0_63534_001<u16>
-Field_12_0_0_63534_002<8>
-Field_12_0_0_63534_003<u8>
-Field_12_0_0_63534_004<u8>
-Field_12_0_0_63534_005<u32>
-Field_12_0_0_63534_006<8>
-Field_12_0_0_63534_007<u32>
+Offset[3]
+ObjectEffectGroupID<u16>
+TriggerType<8>
+EventType<u8>
+EffectRecType<u8>
+EffectRecID<u32>
+Attachment<8>
+ObjectEffectModifierID<u32>

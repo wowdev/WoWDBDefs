@@ -6,13 +6,6 @@ int Flags // &1: ShowQuantityAsSpent, &2: TraitSourcedShowMax, &4: UseClassIcon,
 int<FileData::ID> Icon
 int Field_11_2_5_62554_005?
 int<PlayerDataElementCharacter::ID> PlayerDataElementCharacterID?
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
 
 LAYOUT 75686387
 BUILD 10.0.0.43342
@@ -85,10 +78,10 @@ PlayerDataElementCharacterID<32>
 
 LAYOUT 7E04D40D
 BUILD 12.0.0.63534
-$id$Field_12_0_0_63534_000<32>
-Field_12_0_0_63534_001<32>
-Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<32>
-Field_12_0_0_63534_006<32>
+$id$ID<32>
+Type<32>
+CurrencyTypesID<32>
+Flags<32>
+Icon<32>
+Field_11_2_5_62554_005<32>
+PlayerDataElementCharacterID<32>
