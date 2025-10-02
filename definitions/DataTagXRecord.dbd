@@ -1,12 +1,12 @@
 COLUMNS
-string Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
+string RecordType?
+int ID?
+int RecordID?
+int<DataTagInfo::DataTag> DataTag?
 
 LAYOUT 60AF6490
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000
-$id$Field_12_0_0_63534_001<32>
-Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003<32>
+RecordType
+$id$ID<32>
+RecordID<32>
+DataTag<32>
