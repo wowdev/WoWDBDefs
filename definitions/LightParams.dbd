@@ -16,6 +16,36 @@ float SunPolar?
 float SunAzimuth?
 float SunAttenuationStart?
 float SunAttenuationEnd?
+float Field_12_0_0_63534_000?
+float Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+float Field_12_0_0_63534_005?
+float Field_12_0_0_63534_006?
+float Field_12_0_0_63534_007?
+float Field_12_0_0_63534_008?
+float Field_12_0_0_63534_009?
+int Field_12_0_0_63534_010?
+int Field_12_0_0_63534_011?
+float Field_12_0_0_63534_012?
+float Field_12_0_0_63534_013?
+float Field_12_0_0_63534_014?
+float Field_12_0_0_63534_015?
+float Field_12_0_0_63534_016?
+float Field_12_0_0_63534_017?
+float Field_12_0_0_63534_018?
+float Field_12_0_0_63534_019?
+float Field_12_0_0_63534_020?
+float Field_12_0_0_63534_021?
+float Field_12_0_0_63534_022?
+float Field_12_0_0_63534_023?
+float Field_12_0_0_63534_024?
+float Field_12_0_0_63534_025?
+float Field_12_0_0_63534_026?
+int Field_12_0_0_63534_027?
+float Field_12_0_0_63534_028?
+float Field_12_0_0_63534_029?
 
 LAYOUT 7CE5E527
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -292,3 +322,37 @@ SunPolar
 SunAzimuth
 SunAttenuationStart
 SunAttenuationEnd
+
+LAYOUT F34ED6FA
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000[3]
+Field_12_0_0_63534_001[3]
+Field_12_0_0_63534_002<u8>
+Field_12_0_0_63534_003<u16>
+Field_12_0_0_63534_004<u8>
+Field_12_0_0_63534_005
+Field_12_0_0_63534_006
+Field_12_0_0_63534_007
+Field_12_0_0_63534_008
+Field_12_0_0_63534_009
+Field_12_0_0_63534_010<32>
+Field_12_0_0_63534_011<32>
+Field_12_0_0_63534_012
+Field_12_0_0_63534_013
+Field_12_0_0_63534_014
+Field_12_0_0_63534_015
+Field_12_0_0_63534_016
+Field_12_0_0_63534_017
+Field_12_0_0_63534_018
+Field_12_0_0_63534_019
+Field_12_0_0_63534_020
+Field_12_0_0_63534_021
+Field_12_0_0_63534_022
+Field_12_0_0_63534_023
+Field_12_0_0_63534_024
+Field_12_0_0_63534_025
+Field_12_0_0_63534_026
+Field_12_0_0_63534_027<32>
+Field_12_0_0_63534_028
+Field_12_0_0_63534_029

@@ -6,6 +6,12 @@ int CategoryRecoveryTime
 int RecoveryTime
 int StartRecoveryTime
 int<Spell::ID> AuraSpellID? // lockout if aura present
+int Field_12_0_0_63534_000?
+int Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
 
 BUILD 5.0.1.15464-5.0.1.15544
 BUILD 4.0.0.12232-4.3.4.15595
@@ -157,3 +163,13 @@ RecoveryTime<32>
 StartRecoveryTime<32>
 AuraSpellID<32>
 $noninline,relation$SpellID<32>
+
+LAYOUT DC945B8C
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000<16>
+Field_12_0_0_63534_001<32>
+Field_12_0_0_63534_002<32>
+Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<32>
+$noninline,relation$Field_12_0_0_63534_005<32>

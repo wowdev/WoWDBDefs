@@ -7,6 +7,13 @@ float Param
 int RequiredUpgradeLevel
 int SpecType
 locstring Tooltip_lang
+locstring Field_12_0_0_63534_000_lang?
+locstring Field_12_0_0_63534_001_lang?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
+float Field_12_0_0_63534_006?
 
 BUILD 6.0.1.18179
 $id$ID<32>
@@ -148,3 +155,14 @@ SpecType<u8>
 RequiredUpgradeLevel<u8>
 IconFileDataID<32>
 Param[2]
+
+LAYOUT 1AD6425C
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000_lang
+Field_12_0_0_63534_001_lang
+Field_12_0_0_63534_002<u8>
+Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<u8>
+Field_12_0_0_63534_005<32>
+Field_12_0_0_63534_006[2]

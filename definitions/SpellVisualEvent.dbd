@@ -11,6 +11,17 @@ int StartMinOffsetMs
 int TargetType
 int Field_10_0_0_44649_008? // empowerment stuff probably
 int Field_10_0_0_44649_009?
+int Field_12_0_0_63534_000?
+int Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
+int Field_12_0_0_63534_006?
+int Field_12_0_0_63534_007?
+int Field_12_0_0_63534_008?
+int Field_12_0_0_63534_009?
+int Field_12_0_0_63534_010?
 
 LAYOUT 89263837
 BUILD 5.5.1.62856, 5.5.1.63014, 5.5.1.63111, 5.5.1.63226, 5.5.1.63311, 5.5.1.63364, 5.5.1.63393, 5.5.1.63421, 5.5.1.63449, 5.5.1.63538
@@ -176,3 +187,18 @@ SpellVisualKitID<32>
 Field_10_0_0_44649_008<32>
 Field_10_0_0_44649_009<32>
 $noninline,relation$SpellVisualID<32>
+
+LAYOUT 865F512E
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000<32>
+Field_12_0_0_63534_001<32>
+Field_12_0_0_63534_002<32>
+Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<32>
+Field_12_0_0_63534_005<32>
+Field_12_0_0_63534_006<32>
+Field_12_0_0_63534_007<32>
+Field_12_0_0_63534_008<32>
+Field_12_0_0_63534_009<32>
+$noninline,relation$Field_12_0_0_63534_010<32>

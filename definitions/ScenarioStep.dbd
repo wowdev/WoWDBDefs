@@ -11,6 +11,18 @@ int<ScenarioStep::ID> Supersedes
 int<QuestV2::ID> RewardQuestID
 int<PlayerCondition::ID> VisibilityPlayerConditionID
 int WidgetSetID
+locstring Field_12_0_0_63534_000_lang?
+locstring Field_12_0_0_63534_001_lang?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
+int Field_12_0_0_63534_006?
+int Field_12_0_0_63534_007?
+int Field_12_0_0_63534_008?
+int Field_12_0_0_63534_009?
+int Field_12_0_0_63534_010?
+int Field_12_0_0_63534_011?
 
 LAYOUT 2E81EBA9
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -291,3 +303,18 @@ OrderIndex<u8>
 Flags<u8>
 VisibilityPlayerConditionID<u32>
 WidgetSetID<u16>
+
+LAYOUT 4F644CD3
+BUILD 12.0.0.63534
+Field_12_0_0_63534_000_lang
+Field_12_0_0_63534_001_lang
+$id$Field_12_0_0_63534_002<32>
+$relation$Field_12_0_0_63534_003<u16>
+Field_12_0_0_63534_004<u32>
+Field_12_0_0_63534_005<32>
+Field_12_0_0_63534_006<32>
+Field_12_0_0_63534_007<u16>
+Field_12_0_0_63534_008<u8>
+Field_12_0_0_63534_009<32>
+Field_12_0_0_63534_010<u32>
+Field_12_0_0_63534_011<u16>

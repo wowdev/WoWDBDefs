@@ -8,6 +8,12 @@ float ModelScale
 float Spacing
 string Name
 int EnumID
+int Field_12_0_0_63534_000?
+int Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+float Field_12_0_0_63534_003?
+float Field_12_0_0_63534_004?
+float Field_12_0_0_63534_005?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.2.0.14316
@@ -156,3 +162,13 @@ LifeTime<u16>
 EmissionRate
 Spacing
 ModelScale
+
+LAYOUT 73AFF8E4
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000<32>
+Field_12_0_0_63534_001<32>
+Field_12_0_0_63534_002<u16>
+Field_12_0_0_63534_003
+Field_12_0_0_63534_004
+Field_12_0_0_63534_005

@@ -7,6 +7,14 @@ float Radius // default 1.85, World (view) space size of the occlusion sphere
 float ShadowMult // default 1.1, Shadow Multiplier [0.0, 5.0] Effect strength linear multiplier
 float ShadowPower // default 1.34, Shadow Power [0.5, 5.0] Effect strength pow modifier
 float ShadowClamp? // default 0.98, Shadow Clamp [0.0, 1.0]
+float Field_12_0_0_63534_000?
+float Field_12_0_0_63534_001?
+float Field_12_0_0_63534_002?
+float Field_12_0_0_63534_003?
+float Field_12_0_0_63534_004?
+float Field_12_0_0_63534_005?
+float Field_12_0_0_63534_006?
+float Field_12_0_0_63534_007?
 
 LAYOUT C35ECCDC
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056, 4.4.0.55141, 4.4.0.55262, 4.4.0.55460, 4.4.0.55613, 4.4.0.55639, 4.4.0.56014, 4.4.0.56420, 4.4.0.56489, 4.4.0.56713, 4.4.0.57244
@@ -132,3 +140,15 @@ Radius
 ShadowMult
 ShadowPower
 ShadowClamp
+
+LAYOUT 367173B6
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000
+Field_12_0_0_63534_001
+Field_12_0_0_63534_002
+Field_12_0_0_63534_003
+Field_12_0_0_63534_004
+Field_12_0_0_63534_005
+Field_12_0_0_63534_006
+Field_12_0_0_63534_007

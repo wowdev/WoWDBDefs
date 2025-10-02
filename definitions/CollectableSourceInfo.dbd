@@ -3,6 +3,11 @@ string Description?
 int ID?
 int Field_10_1_5_49516_002? // Mostly matches TransmogSourceTypeEnum from ItemModifiedAppearance
 int<ItemModifiedAppearance::ID> ItemModifiedAppearanceID?
+string Field_12_0_0_63534_000?
+int Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
 
 LAYOUT F20F935A
 BUILD 11.0.0.53687, 11.0.0.53949, 11.0.0.54013, 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
@@ -31,3 +36,11 @@ Description
 $id$ID<32>
 Field_10_1_5_49516_002<32>
 ItemModifiedAppearanceID<32>
+
+LAYOUT 6509E3B5
+BUILD 12.0.0.63534
+Field_12_0_0_63534_000
+$id$Field_12_0_0_63534_001<32>
+Field_12_0_0_63534_002<32>
+Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<32>

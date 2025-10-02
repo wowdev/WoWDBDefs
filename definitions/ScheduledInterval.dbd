@@ -5,6 +5,11 @@ int DurationSecs
 int Flags
 int OffsetSecs
 int RepeatType
+int Field_12_0_0_63534_000?
+int Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
 
 LAYOUT 5DD2FF46, 0C287F7A, 51E48A73
 BUILD 9.2.0.41089, 9.2.0.41257, 9.2.0.41360, 9.2.0.41462, 9.2.0.41726, 9.2.0.41827
@@ -115,3 +120,12 @@ RepeatType<32>
 DurationSecs<32>
 OffsetSecs<32>
 DateAlignmentType<32>
+
+LAYOUT CA76AD5C
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000<32>
+Field_12_0_0_63534_001<32>
+Field_12_0_0_63534_002<32>
+Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<32>

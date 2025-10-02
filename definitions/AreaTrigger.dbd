@@ -16,6 +16,21 @@ int<AreaTriggerActionSet::ID> AreaTriggerActionSetID
 int Flags
 int PhaseShift
 locstring Message_lang?
+float Field_12_0_0_63534_000?
+int Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
+float Field_12_0_0_63534_006?
+float Field_12_0_0_63534_007?
+float Field_12_0_0_63534_008?
+float Field_12_0_0_63534_009?
+float Field_12_0_0_63534_010?
+int Field_12_0_0_63534_011?
+int Field_12_0_0_63534_012?
+int Field_12_0_0_63534_013?
+int Field_12_0_0_63534_014?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -416,3 +431,21 @@ ShapeType<8>
 ShapeID<16>
 AreaTriggerActionSetID<32>
 Flags<8>
+
+LAYOUT B97D2FC5
+BUILD 12.0.0.63534
+Field_12_0_0_63534_000[3]
+$id$Field_12_0_0_63534_001<32>
+$relation$Field_12_0_0_63534_002<16>
+Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<16>
+Field_12_0_0_63534_005<16>
+Field_12_0_0_63534_006
+Field_12_0_0_63534_007
+Field_12_0_0_63534_008
+Field_12_0_0_63534_009
+Field_12_0_0_63534_010
+Field_12_0_0_63534_011<8>
+Field_12_0_0_63534_012<16>
+Field_12_0_0_63534_013<32>
+Field_12_0_0_63534_014<32>

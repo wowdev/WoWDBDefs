@@ -2,9 +2,46 @@ COLUMNS
 int ID?
 int<FileData::ID> ModelFileDataID?
 int<Item::ID> ItemID?
+locstring Field_12_0_0_63534_000_lang?
+float Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
+int Field_12_0_0_63534_006?
+int Field_12_0_0_63534_007?
+int Field_12_0_0_63534_008?
+int Field_12_0_0_63534_009?
+int Field_12_0_0_63534_010?
+int Field_12_0_0_63534_011?
+float Field_12_0_0_63534_012?
+int Field_12_0_0_63534_013?
+int Field_12_0_0_63534_014?
+int Field_12_0_0_63534_015?
+int Field_12_0_0_63534_016?
 
 LAYOUT A2E1530F
 BUILD 11.2.5.62785, 11.2.5.62940, 11.2.5.63092, 11.2.5.63286, 11.2.5.63506
 $id$ID<32>
 ModelFileDataID<32>
 ItemID<32>
+
+LAYOUT D04EA470
+BUILD 12.0.0.63534
+Field_12_0_0_63534_000_lang
+Field_12_0_0_63534_001[3]
+$id$Field_12_0_0_63534_002<32>
+Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<32>
+Field_12_0_0_63534_005<32>
+Field_12_0_0_63534_006<u8>
+Field_12_0_0_63534_007<u8>
+Field_12_0_0_63534_008<32>
+Field_12_0_0_63534_009<32>
+Field_12_0_0_63534_010<32>
+Field_12_0_0_63534_011<32>
+Field_12_0_0_63534_012
+Field_12_0_0_63534_013<32>
+Field_12_0_0_63534_014<32>
+Field_12_0_0_63534_015<8>
+Field_12_0_0_63534_016<32>

@@ -18,6 +18,25 @@ int<TransmogSet::ID> TransmogSetID
 int<QuestV2::ID> QuestID?
 int<PlayerCondition::ID> PlayerConditionID
 locstring ToastDescription_lang
+locstring Field_12_0_0_63534_000_lang?
+locstring Field_12_0_0_63534_001_lang?
+locstring Field_12_0_0_63534_002_lang?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
+int Field_12_0_0_63534_006?
+int Field_12_0_0_63534_007?
+int Field_12_0_0_63534_008?
+int Field_12_0_0_63534_009?
+int Field_12_0_0_63534_010?
+int Field_12_0_0_63534_011?
+int Field_12_0_0_63534_012?
+int Field_12_0_0_63534_013?
+int Field_12_0_0_63534_014?
+int Field_12_0_0_63534_015?
+int Field_12_0_0_63534_016?
+int Field_12_0_0_63534_017?
+int Field_12_0_0_63534_018?
 
 LAYOUT D5E4583A
 BUILD 9.0.1.35432, 9.0.1.35482
@@ -194,3 +213,26 @@ GarrFollowerID<32>
 TransmogIllusionID<32>
 QuestID<32>
 PlayerConditionID<32>
+
+LAYOUT 30AFBCF8
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000_lang
+Field_12_0_0_63534_001_lang
+Field_12_0_0_63534_002_lang
+$relation$Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<32>
+Field_12_0_0_63534_005<32>
+Field_12_0_0_63534_006<32>
+Field_12_0_0_63534_007<32>
+Field_12_0_0_63534_008<32>
+Field_12_0_0_63534_009<32>
+Field_12_0_0_63534_010<32>
+Field_12_0_0_63534_011<32>
+Field_12_0_0_63534_012<32>
+Field_12_0_0_63534_013<32>
+Field_12_0_0_63534_014<32>
+Field_12_0_0_63534_015<32>
+Field_12_0_0_63534_016<32>
+Field_12_0_0_63534_017<32>
+Field_12_0_0_63534_018<32>

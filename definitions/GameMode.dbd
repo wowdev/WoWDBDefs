@@ -18,6 +18,19 @@ int<FileData::ID> CharacterCreateOuterBorder?
 string Field_1_15_7_59856_001?
 string Field_1_15_7_59856_002?
 int Field_1_15_7_59856_011?
+string Field_12_0_0_63534_000?
+string Field_12_0_0_63534_001?
+string Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
+int Field_12_0_0_63534_006?
+int Field_12_0_0_63534_007?
+int Field_12_0_0_63534_008?
+int Field_12_0_0_63534_009?
+int Field_12_0_0_63534_010?
+int Field_12_0_0_63534_011?
+int Field_12_0_0_63534_012?
 
 LAYOUT 45EE0D98
 BUILD 11.0.0.53687, 11.0.0.53949, 11.0.0.54013, 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
@@ -106,3 +119,20 @@ Flags<32>
 CharacterCreateExtraHeight<32>
 CharacterCreateOuterBorder<32>
 Field_1_15_7_59856_011<8>
+
+LAYOUT 7E28E018
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000
+Field_12_0_0_63534_001
+Field_12_0_0_63534_002
+Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<32>
+Field_12_0_0_63534_005<32>
+Field_12_0_0_63534_006<32>
+Field_12_0_0_63534_007<32>
+Field_12_0_0_63534_008<32>
+Field_12_0_0_63534_009<32>
+Field_12_0_0_63534_010<32>
+Field_12_0_0_63534_011<8>
+Field_12_0_0_63534_012<32>

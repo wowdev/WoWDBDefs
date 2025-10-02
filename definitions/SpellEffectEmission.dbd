@@ -4,6 +4,10 @@ int<SpellVisualKitAreaModel::ID> AreaModelID
 float EmissionRate
 int Flags
 float ModelScale
+float Field_12_0_0_63534_000?
+float Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
 
 LAYOUT C6E61A9B, 66D096CB, B26CB10D
 BUILD 10.0.0.43342
@@ -101,3 +105,11 @@ EmissionRate
 ModelScale
 AreaModelID<16>
 Flags<8>
+
+LAYOUT 05E061C1
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000
+Field_12_0_0_63534_001
+Field_12_0_0_63534_002<16>
+Field_12_0_0_63534_003<32>

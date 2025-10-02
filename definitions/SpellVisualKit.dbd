@@ -57,6 +57,15 @@ int MinimumSpellVisualDensityFilterType? // Type of visual adjustment used when 
 int<SpellVisualKit::ID> MinimumSpellVisualDensityFilterParam? // When
 int ReducedSpellVisualDensityFilterType? // Type of visual adjustment used when spellVisualDensityFilterSetting CVar is set to 2, determines what is stored in ReducedSpellVisualDensityFilterParam (1/2 unknown, 3 is SpellVisualKit)
 int<SpellVisualKit::ID> ReducedSpellVisualDensityFilterParam?
+int Field_12_0_0_63534_000?
+int Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
+int Field_12_0_0_63534_006?
+int Field_12_0_0_63534_007?
+int Field_12_0_0_63534_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -441,3 +450,16 @@ MinimumSpellVisualDensityFilterParam<32>
 ReducedSpellVisualDensityFilterType<32>
 ReducedSpellVisualDensityFilterParam<32>
 Flags<32>[2]
+
+LAYOUT C069D9C4
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000<32>
+Field_12_0_0_63534_001<32>
+Field_12_0_0_63534_002<u16>
+Field_12_0_0_63534_003<u16>
+Field_12_0_0_63534_004<32>
+Field_12_0_0_63534_005<32>
+Field_12_0_0_63534_006<32>
+Field_12_0_0_63534_007<32>
+Field_12_0_0_63534_008<32>[2]

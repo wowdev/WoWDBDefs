@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int Type // 0 = ShaderModelWillBeOutdated, 1 = ShaderModelIsOutdated, 2 = ConsoleDeviceSseoUtdated, 3 = DriverBlacklisted, 4 = DriverOutOfDate, 5 = DeviceBlacklisted, 6 = GraphicsApiwIllBeOutdated, 7 = OsBitsWillBeOutdated
 locstring Warning_lang
+locstring Field_12_0_0_63534_000_lang?
+int Field_12_0_0_63534_001?
 
 LAYOUT 0B350390, 99BCBA2D, 1CAAE7CC
 BUILD 10.0.0.43342
@@ -93,3 +95,9 @@ BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15
 $noninline,id$ID<32>
 Warning_lang
 Type<u32>
+
+LAYOUT 0D8BF833
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000_lang
+Field_12_0_0_63534_001<u8>

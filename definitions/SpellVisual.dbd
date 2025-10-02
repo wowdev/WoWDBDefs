@@ -72,6 +72,23 @@ int Field_5_4_0_17266_022?
 int Field_5_4_0_17266_023?
 int Field_5_4_0_17266_024?
 int<SpellVisual::ID> ReducedUnexpectedCameraMovementSpellVisualID?
+float Field_12_0_0_63534_000?
+float Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
+int Field_12_0_0_63534_006?
+int Field_12_0_0_63534_007?
+int Field_12_0_0_63534_008?
+int Field_12_0_0_63534_009?
+int Field_12_0_0_63534_010?
+int Field_12_0_0_63534_011?
+int Field_12_0_0_63534_012?
+int Field_12_0_0_63534_013?
+int Field_12_0_0_63534_014?
+int Field_12_0_0_63534_015?
+int Field_12_0_0_63534_016?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -790,3 +807,24 @@ DamageNumberDelay<u16>
 LowViolenceSpellVisualID<u32>
 RaidSpellVisualMissileSetID<u32>
 ReducedUnexpectedCameraMovementSpellVisualID<32>
+
+LAYOUT 4B85C90F
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000[3]
+Field_12_0_0_63534_001[3]
+Field_12_0_0_63534_002<32>
+Field_12_0_0_63534_003<u32>
+Field_12_0_0_63534_004<32>
+Field_12_0_0_63534_005<8>
+Field_12_0_0_63534_006<8>
+Field_12_0_0_63534_007<u32>
+Field_12_0_0_63534_008<u32>
+Field_12_0_0_63534_009<32>
+Field_12_0_0_63534_010<u32>
+Field_12_0_0_63534_011<u32>
+Field_12_0_0_63534_012<u16>
+Field_12_0_0_63534_013<u16>
+Field_12_0_0_63534_014<u32>
+Field_12_0_0_63534_015<u32>
+Field_12_0_0_63534_016<32>

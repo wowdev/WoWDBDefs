@@ -9,6 +9,16 @@ float Position
 string ScriptTag
 int<UiModelSceneActorDisplay::ID> UiModelSceneActorDisplayID
 int<UiModelScene::ID> UiModelSceneID
+string Field_12_0_0_63534_000?
+float Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_005?
+float Field_12_0_0_63534_006?
+float Field_12_0_0_63534_007?
+float Field_12_0_0_63534_008?
+float Field_12_0_0_63534_009?
 
 LAYOUT F1E78B36
 BUILD 5.5.1.62856, 5.5.1.63014, 5.5.1.63111, 5.5.1.63226, 5.5.1.63311, 5.5.1.63364, 5.5.1.63393, 5.5.1.63421, 5.5.1.63449, 5.5.1.63538
@@ -182,3 +192,16 @@ OrientationYaw
 OrientationPitch
 OrientationRoll
 NormalizedScale
+
+LAYOUT DC34C10E
+BUILD 12.0.0.63534
+Field_12_0_0_63534_000
+Field_12_0_0_63534_001[3]
+$id$Field_12_0_0_63534_002<32>
+$relation$Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<32>
+Field_12_0_0_63534_005<32>
+Field_12_0_0_63534_006
+Field_12_0_0_63534_007
+Field_12_0_0_63534_008
+Field_12_0_0_63534_009

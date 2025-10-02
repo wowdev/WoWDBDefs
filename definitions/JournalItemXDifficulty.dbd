@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<JournalEncounterItem::ID> JournalEncounterItemID
 int<Difficulty::ID> DifficultyID
+int Field_12_0_0_63534_000?
+int Field_12_0_0_63534_001?
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414
@@ -109,3 +111,9 @@ BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15
 $noninline,id$ID<32>
 DifficultyID<u8>
 $noninline,relation$JournalEncounterItemID<32>
+
+LAYOUT 0AD35082
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000<16>
+$noninline,relation$Field_12_0_0_63534_001<32>

@@ -4,6 +4,10 @@ int DisplayType
 int<Item::ID> ItemID
 int ItemQuantity
 int<Package::ID> PackageID
+int Field_12_0_0_63534_000?
+int Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15464-5.4.8.18414
@@ -117,3 +121,11 @@ PackageID<u16>
 ItemID<32>
 ItemQuantity<u32>
 DisplayType<u8>
+
+LAYOUT 37A6BC1A
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000<u16>
+Field_12_0_0_63534_001<32>
+Field_12_0_0_63534_002<u32>
+Field_12_0_0_63534_003<u8>

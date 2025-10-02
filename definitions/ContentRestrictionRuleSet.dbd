@@ -2,6 +2,9 @@ COLUMNS
 int ID
 int SetMemberCombiner? // 0: AND; 1: OR
 int Flags? // &1: invert condition; &2: skip in SpellLabel stuff?!
+int Field_12_0_0_63534_000?
+int Field_12_0_0_63534_001?
+int Field_12_0_0_63534_002?
 
 LAYOUT 6D33A414
 BUILD 10.0.0.43342
@@ -50,3 +53,9 @@ BUILD 11.0.0.54464, 11.0.0.54521, 11.0.0.54605, 11.0.0.54675, 11.0.0.54709, 11.0
 $id$ID<32>
 SetMemberCombiner<32>
 Flags<32>
+
+LAYOUT 5774D75A
+BUILD 12.0.0.63534
+$id$Field_12_0_0_63534_000<32>
+Field_12_0_0_63534_001<32>
+Field_12_0_0_63534_002<32>

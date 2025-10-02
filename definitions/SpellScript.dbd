@@ -5,6 +5,11 @@ string LastEditUser
 int ID
 int Field_9_0_1_33978_004?
 int Arguments? // enum
+string Field_12_0_0_63534_000?
+string Field_12_0_0_63534_001?
+string Field_12_0_0_63534_002?
+int Field_12_0_0_63534_003?
+int Field_12_0_0_63534_004?
 
 LAYOUT A2577E7A
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524
@@ -69,3 +74,12 @@ Script
 LastEditUser
 Field_9_0_1_33978_004<32>
 Arguments<32>
+
+LAYOUT E1C1B88C
+BUILD 12.0.0.63534
+$noninline,id$ID<32>
+Field_12_0_0_63534_000
+Field_12_0_0_63534_001
+Field_12_0_0_63534_002
+Field_12_0_0_63534_003<32>
+Field_12_0_0_63534_004<32>

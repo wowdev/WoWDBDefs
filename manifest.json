@@ -1358,6 +1358,11 @@
     "db2FileDataID": 4373538
   },
   {
+    "tableName": "CraftingQualityAtlasSet",
+    "tableHash": "284224BE",
+    "db2FileDataID": 7012110
+  },
+  {
     "tableName": "CraftingReagentEffect",
     "tableHash": "18E0243D",
     "db2FileDataID": 4541803
@@ -1566,6 +1571,26 @@
     "tableHash": "B73BF73F"
   },
   {
+    "tableName": "DataTagGroup",
+    "tableHash": "29BE1948",
+    "db2FileDataID": 6653645
+  },
+  {
+    "tableName": "DataTagGroupXDataTag",
+    "tableHash": "B56B1E7A",
+    "db2FileDataID": 6653584
+  },
+  {
+    "tableName": "DataTagInfo",
+    "tableHash": "6470AD86",
+    "db2FileDataID": 6652252
+  },
+  {
+    "tableName": "DataTagXRecord",
+    "tableHash": "D8F6C288",
+    "db2FileDataID": 6860787
+  },
+  {
     "tableName": "DeathThudLookups",
     "tableHash": "4237038F",
     "dbcFileDataID": 801614,
@@ -1587,6 +1612,26 @@
     "tableHash": "A4495A4A",
     "dbcFileDataID": 849448,
     "db2FileDataID": 1279099
+  },
+  {
+    "tableName": "DecorCategory",
+    "tableHash": "67E4E1DC",
+    "db2FileDataID": 6247348
+  },
+  {
+    "tableName": "DecorDyeSlot",
+    "tableHash": "1CC37660",
+    "db2FileDataID": 6254050
+  },
+  {
+    "tableName": "DecorSubcategory",
+    "tableHash": "CA1E213D",
+    "db2FileDataID": 6247357
+  },
+  {
+    "tableName": "DecorXDecorSubcategory",
+    "tableHash": "D94B42D9",
+    "db2FileDataID": 6247358
   },
   {
     "tableName": "DelvesSeason",
@@ -1676,6 +1721,16 @@
     "db2FileDataID": 1130268
   },
   {
+    "tableName": "DyeColor",
+    "tableHash": "EB8DD794",
+    "db2FileDataID": 6254051
+  },
+  {
+    "tableName": "DyeColorCategory",
+    "tableHash": "28A4538B",
+    "db2FileDataID": 6254052
+  },
+  {
     "tableName": "EdgeGlowEffect",
     "tableHash": "803704B6",
     "db2FileDataID": 1387381
@@ -1709,6 +1764,16 @@
     "db2FileDataID": 1286524
   },
   {
+    "tableName": "EntryNode",
+    "tableHash": "3B9CE40A",
+    "db2FileDataID": 5609253
+  },
+  {
+    "tableName": "EntryTemplate",
+    "tableHash": "DCA8CE9E",
+    "db2FileDataID": 5609255
+  },
+  {
     "tableName": "EnumeratedString",
     "tableHash": "F6A28872",
     "db2FileDataID": 3055749
@@ -1734,6 +1799,41 @@
     "tableName": "ExpectedStatMod",
     "tableHash": "280851FB",
     "db2FileDataID": 1969773
+  },
+  {
+    "tableName": "ExteriorComponent",
+    "tableHash": "6FF1C5BA",
+    "db2FileDataID": 6931305
+  },
+  {
+    "tableName": "ExteriorComponentExitPoint",
+    "tableHash": "A16AF1A0",
+    "db2FileDataID": 6931306
+  },
+  {
+    "tableName": "ExteriorComponentGroup",
+    "tableHash": "E4A74567",
+    "db2FileDataID": 7280847
+  },
+  {
+    "tableName": "ExteriorComponentGroupXHook",
+    "tableHash": "FF2CC7AC",
+    "db2FileDataID": 7280848
+  },
+  {
+    "tableName": "ExteriorComponentHook",
+    "tableHash": "4DE8FA20",
+    "db2FileDataID": 6931307
+  },
+  {
+    "tableName": "ExteriorComponentType",
+    "tableHash": "3A5F0B25",
+    "db2FileDataID": 6931308
+  },
+  {
+    "tableName": "ExteriorComponentXGroup",
+    "tableHash": "D02F12DA",
+    "db2FileDataID": 7412982
   },
   {
     "tableName": "ExtraAbilityInfo",
@@ -2590,9 +2690,44 @@
     "db2FileDataID": 1995523
   },
   {
+    "tableName": "House",
+    "tableHash": "6DCF2809",
+    "db2FileDataID": 5149690
+  },
+  {
     "tableName": "HouseDecor",
     "tableHash": "137145D0",
     "db2FileDataID": 5149691
+  },
+  {
+    "tableName": "HouseDecorMaterial",
+    "tableHash": "F70BBDD4",
+    "db2FileDataID": 6855863
+  },
+  {
+    "tableName": "HouseDecorThemeSet",
+    "tableHash": "8A777AA0",
+    "db2FileDataID": 6860900
+  },
+  {
+    "tableName": "HouseExteriorWmoData",
+    "tableHash": "24EE8F09",
+    "db2FileDataID": 6931309
+  },
+  {
+    "tableName": "HouseLevelData",
+    "tableHash": "CD85A790",
+    "db2FileDataID": 7149539
+  },
+  {
+    "tableName": "HouseRoom",
+    "tableHash": "BBA2E8F8",
+    "db2FileDataID": 5163003
+  },
+  {
+    "tableName": "HouseTheme",
+    "tableHash": "EAAA527C",
+    "db2FileDataID": 6998392
   },
   {
     "tableName": "ImportPriceArmor",
@@ -2617,6 +2752,41 @@
     "tableHash": "976C8F98",
     "dbcFileDataID": 801666,
     "db2FileDataID": 1121230
+  },
+  {
+    "tableName": "InitiativeCycle",
+    "tableHash": "1457292F",
+    "db2FileDataID": 6880277
+  },
+  {
+    "tableName": "InitiativeCyclePriority",
+    "tableHash": "A8030A99",
+    "db2FileDataID": 6880278
+  },
+  {
+    "tableName": "InitiativeMilestone",
+    "tableHash": "884D6D3E",
+    "db2FileDataID": 6880279
+  },
+  {
+    "tableName": "InitiativeReward",
+    "tableHash": "B3047FC5",
+    "db2FileDataID": 6880280
+  },
+  {
+    "tableName": "InitiativeRewardXMilestone",
+    "tableHash": "DE9B0694",
+    "db2FileDataID": 6914777
+  },
+  {
+    "tableName": "InitiativeTask",
+    "tableHash": "5373CFEB",
+    "db2FileDataID": 6880281
+  },
+  {
+    "tableName": "InitiativeXTask",
+    "tableHash": "C72C611D",
+    "db2FileDataID": 6880282
   },
   {
     "tableName": "InvasionClientData",
@@ -3311,6 +3481,11 @@
     "db2FileDataID": 4680119
   },
   {
+    "tableName": "Link",
+    "tableHash": "AC87AAFC",
+    "db2FileDataID": 5609261
+  },
+  {
     "tableName": "LiquidMaterial",
     "tableHash": "8C379329",
     "dbcFileDataID": 801701,
@@ -3758,6 +3933,51 @@
     "db2FileDataID": 1117087
   },
   {
+    "tableName": "NeighborhoodInitiative",
+    "tableHash": "52FC8F46",
+    "db2FileDataID": 6699736
+  },
+  {
+    "tableName": "NeighborhoodMap",
+    "tableHash": "680164E5",
+    "db2FileDataID": 5550624
+  },
+  {
+    "tableName": "NeighborhoodNameGen",
+    "tableHash": "0CE3308A",
+    "db2FileDataID": 6237720
+  },
+  {
+    "tableName": "NeighborhoodPlot",
+    "tableHash": "6571052E",
+    "db2FileDataID": 5550625
+  },
+  {
+    "tableName": "Node",
+    "tableHash": "22CC4E7C",
+    "db2FileDataID": 5609263
+  },
+  {
+    "tableName": "NodeGraphParam",
+    "tableHash": "D5F2CD11",
+    "db2FileDataID": 7183970
+  },
+  {
+    "tableName": "NodeGraphParamValue",
+    "tableHash": "0459946A",
+    "db2FileDataID": 7183971
+  },
+  {
+    "tableName": "NodeTemplate",
+    "tableHash": "22C58347",
+    "db2FileDataID": 5609279
+  },
+  {
+    "tableName": "NodeTemplateXPinTemplate",
+    "tableHash": "540CC309",
+    "db2FileDataID": 5609267
+  },
+  {
     "tableName": "NPCCraftingOrderCustomer",
     "tableHash": "DD1C1F79",
     "db2FileDataID": 5875492
@@ -4034,9 +4254,19 @@
     "db2FileDataID": 987581
   },
   {
+    "tableName": "Pin",
+    "tableHash": "0CF18E25",
+    "db2FileDataID": 5609269
+  },
+  {
     "tableName": "PingType",
     "tableHash": "0D88E2D7",
     "db2FileDataID": 5152358
+  },
+  {
+    "tableName": "PinTemplate",
+    "tableHash": "066BD46D",
+    "db2FileDataID": 5609270
   },
   {
     "tableName": "PlayerCompanionInfo",
@@ -4458,6 +4688,11 @@
     "db2FileDataID": 1135072
   },
   {
+    "tableName": "RetroactiveDecorReward",
+    "tableHash": "9DD357BE",
+    "db2FileDataID": 7439104
+  },
+  {
     "tableName": "RewardPack",
     "tableHash": "CEF864BC",
     "db2FileDataID": 1307156
@@ -4481,6 +4716,36 @@
     "tableName": "RolodexType",
     "tableHash": "DA556D7C",
     "db2FileDataID": 5936950
+  },
+  {
+    "tableName": "RoomComponent",
+    "tableHash": "E5F16D06",
+    "db2FileDataID": 5503432
+  },
+  {
+    "tableName": "RoomComponentOption",
+    "tableHash": "3CC17DDB",
+    "db2FileDataID": 5503433
+  },
+  {
+    "tableName": "RoomComponentOptionTexture",
+    "tableHash": "EF115AA7",
+    "db2FileDataID": 5503564
+  },
+  {
+    "tableName": "RoomComponentTexture",
+    "tableHash": "892FF471",
+    "db2FileDataID": 5503573
+  },
+  {
+    "tableName": "RoomGridLine",
+    "tableHash": "03333B7E",
+    "db2FileDataID": 6378467
+  },
+  {
+    "tableName": "RoomWmoData",
+    "tableHash": "485E51AC",
+    "db2FileDataID": 5503435
   },
   {
     "tableName": "RopeEffect",
@@ -5322,6 +5587,31 @@
     "db2FileDataID": 1139993
   },
   {
+    "tableName": "SpellTgtFilterRuleNode",
+    "tableHash": "F77F396F",
+    "db2FileDataID": 6031283
+  },
+  {
+    "tableName": "SpellTgtFilterRuleSetNode",
+    "tableHash": "4C3A6C7E",
+    "db2FileDataID": 6031284
+  },
+  {
+    "tableName": "SpellTgtFilterRuleTemplate",
+    "tableHash": "9EA2218D",
+    "db2FileDataID": 6031285
+  },
+  {
+    "tableName": "SpellTgtGatherNode",
+    "tableHash": "00E5AFA6",
+    "db2FileDataID": 6031286
+  },
+  {
+    "tableName": "SpellTgtGatherTemplate",
+    "tableHash": "DC26F2F6",
+    "db2FileDataID": 6031287
+  },
+  {
     "tableName": "SpellTooltip",
     "tableHash": "CB61BC48"
   },
@@ -5451,6 +5741,11 @@
     "tableHash": "4A5D42EB",
     "dbcFileDataID": 801816,
     "db2FileDataID": 1266427
+  },
+  {
+    "tableName": "SubgraphNode",
+    "tableHash": "AC9A75B8",
+    "db2FileDataID": 5636015
   },
   {
     "tableName": "SummonProperties",
@@ -5845,6 +6140,11 @@
     "tableName": "UiCovenantDisplayInfo",
     "tableHash": "E64AD7AA",
     "db2FileDataID": 3509132
+  },
+  {
+    "tableName": "UICovenantHighlight",
+    "tableHash": "7C55CC7F",
+    "db2FileDataID": 7265906
   },
   {
     "tableName": "UICovenantPreview",
