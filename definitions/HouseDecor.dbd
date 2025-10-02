@@ -2,18 +2,18 @@ COLUMNS
 int ID?
 int<FileData::ID> ModelFileDataID?
 int<Item::ID> ItemID?
-locstring Field_12_0_0_63534_000_lang?
-float Field_12_0_0_63534_001?
+locstring Name_lang?
+float InitialRotation?
 int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_009?
-int Field_12_0_0_63534_010?
-float Field_12_0_0_63534_012?
+int GameObjectID?
+int Flags?
+int Type?
+int ModelType?
+int<FileData::ID> ThumbnailFileDataID?
+int WeightCost?
+float InitialScale?
 int Field_12_0_0_63534_013?
-int Field_12_0_0_63534_014?
+int OrderIndex?
 int Field_12_0_0_63534_015?
 int Field_12_0_0_63534_016?
 
@@ -25,20 +25,20 @@ ItemID<32>
 
 LAYOUT D04EA470
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000_lang
-Field_12_0_0_63534_001[3]
+Name_lang
+InitialRotation[3]
 $id$ID<32>
 Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<32>
-Field_12_0_0_63534_006<u8>
-Field_12_0_0_63534_007<u8>
+GameObjectID<32>
+Flags<32>
+Type<u8>
+ModelType<u8>
 ModelFileDataID<32>
-Field_12_0_0_63534_009<32>
-Field_12_0_0_63534_010<32>
+ThumbnailFileDataID<32>
+WeightCost<32>
 ItemID<32>
-Field_12_0_0_63534_012
+InitialScale
 Field_12_0_0_63534_013<32>
-Field_12_0_0_63534_014<32>
+OrderIndex<32>
 Field_12_0_0_63534_015<8>
 Field_12_0_0_63534_016<32>

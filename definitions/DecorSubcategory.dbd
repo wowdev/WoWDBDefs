@@ -1,14 +1,14 @@
 COLUMNS
-locstring Field_12_0_0_63534_000_lang?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
+locstring Name_lang?
+int ID?
+int<UiTextureAtlasElement::ID> UiTextureAtlasElementID?
+int<DecorCategory::ID> DecorCategoryID?
+int OrderIndex?
 
 LAYOUT A64237DF
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000_lang
-$id$Field_12_0_0_63534_001<32>
-Field_12_0_0_63534_002<32>
-$relation$Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
+Name_lang
+$id$ID<32>
+UiTextureAtlasElementID<32>
+$relation$DecorCategoryID<32>
+OrderIndex<32>

@@ -26,8 +26,7 @@ int Field_3_4_1_46722_008?
 int Field_3_4_1_46722_009?
 int Field_3_4_1_46722_010?
 int<SkillLine::ID> SkillLineID?
-int Field_12_0_0_63534_009? //  DBAnalyser: [Field_10_0_0_45141_009, 0.95%]
-int Field_12_0_0_63534_015? //  DBAnalyser: [Field_10_0_0_45141_009, 0.95%]
+int<NeighborhoodMap::ID> NeighborhoodMapID?
 int Field_12_0_0_63534_016?
 
 LAYOUT 30CA59EB
@@ -203,11 +202,11 @@ GarrTalentTreeID<32>
 UiMapID<32>
 UiItemInteractionID<32>
 Field_10_0_0_45141_008<32>
-Field_12_0_0_63534_009<32>
+Field_10_0_0_45141_009<32>
 CovenantID<32>
 GossipIndex<32>
 TraitTreeID<32>
 ProfessionID<32>
 Field_10_0_2_46144_014<32>
-Field_12_0_0_63534_015<32>
+NeighborhoodMapID<32>
 Field_12_0_0_63534_016<32>

@@ -1,20 +1,20 @@
 COLUMNS
-locstring Field_12_0_0_63534_000_lang?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
+locstring Name_lang?
+int ID?
+int<DyeColorCategory::ID> DyeColorCategoryID?
 int Field_12_0_0_63534_003?
 int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_006?
-int Field_12_0_0_63534_007?
+int ColorA?
+int ColorB?
+int OrderIndex?
 
 LAYOUT 184BC922
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000_lang
-$id$Field_12_0_0_63534_001<32>
-$relation$Field_12_0_0_63534_002<32>
+Name_lang
+$id$ID<32>
+$relation$DyeColorCategoryID<32>
 Field_12_0_0_63534_003<32>
 Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<32>
-Field_12_0_0_63534_006<32>
-Field_12_0_0_63534_007<32>
+ColorA<32>
+ColorB<32>
+OrderIndex<32>

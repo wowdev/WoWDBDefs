@@ -1,10 +1,10 @@
 COLUMNS
-locstring Field_12_0_0_63534_000_lang?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
+locstring Name_lang?
+int ID?
+int<HouseTheme::ID> ParentThemeID?
 
 LAYOUT 947291FB
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000_lang
-$id$Field_12_0_0_63534_001<32>
-Field_12_0_0_63534_002<32>
+Name_lang
+$id$ID<32>
+ParentThemeID<32>

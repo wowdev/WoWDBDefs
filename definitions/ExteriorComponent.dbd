@@ -1,28 +1,28 @@
 COLUMNS
-locstring Field_12_0_0_63534_000_lang?
+locstring Name_lang?
 float Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_003?
+int ID?
+int Size?
 int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
+int<FileData::ID> ModelFileDataID?
 int Field_12_0_0_63534_006?
 int Field_12_0_0_63534_007?
-int Field_12_0_0_63534_008?
+int<ExteriorComponentType::ID> Type?
 int Field_12_0_0_63534_009?
 int Field_12_0_0_63534_010?
 int Field_12_0_0_63534_011?
 
 LAYOUT 21BF81E6
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000_lang
+Name_lang
 Field_12_0_0_63534_001[3]
-$id$Field_12_0_0_63534_002<32>
-Field_12_0_0_63534_003<u8>
+$id$ID<32>
+Size<u8>
 Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<32>
+ModelFileDataID<32>
 Field_12_0_0_63534_006<32>
 Field_12_0_0_63534_007<u8>
-Field_12_0_0_63534_008<u8>
+Type<u8>
 Field_12_0_0_63534_009<32>
 Field_12_0_0_63534_010<32>
 $noninline,relation$Field_12_0_0_63534_011<32>

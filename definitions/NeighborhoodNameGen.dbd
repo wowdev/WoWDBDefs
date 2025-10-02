@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-locstring Field_12_0_0_63534_000_lang?
-locstring Field_12_0_0_63534_001_lang?
-locstring Field_12_0_0_63534_002_lang?
-int Field_12_0_0_63534_003?
+locstring Prefix_lang?
+locstring Middle_lang?
+locstring Suffix_lang?
+int<NeighborhoodMap::ID> NeighborhoodMapID?
 
 LAYOUT D8F6E78E
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000_lang
-Field_12_0_0_63534_001_lang
-Field_12_0_0_63534_002_lang
-$noninline,relation$Field_12_0_0_63534_003<32>
+Prefix_lang
+Middle_lang
+Suffix_lang
+$noninline,relation$NeighborhoodMapID<32>
