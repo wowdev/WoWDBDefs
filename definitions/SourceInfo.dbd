@@ -4,7 +4,6 @@ int PvpFaction
 locstring SourceText_lang
 int SourceTypeEnum
 int<Spell::ID> SpellID
-locstring Field_12_0_0_63534_000_lang? //  DBAnalyser: [SourceText_lang, 0.73%]
 int Field_12_0_0_63534_002?
 
 LAYOUT FE474766
@@ -156,7 +155,7 @@ $noninline,relation$SpellID<32>
 
 LAYOUT E718F422
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000_lang
+SourceText_lang
 $id$ID<32>
 Field_12_0_0_63534_002<32>
 PvpFaction<8>

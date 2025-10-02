@@ -25,7 +25,6 @@ int MinDetail
 int LoDetail_ID
 int HiDetail_ID
 int Field_3_0_1_8334_006? // matches old water particulate rendering values?
-float Field_12_0_0_63534_018?
 
 BUILD 3.0.1.8303
 BUILD 2.0.0.5610-2.4.3.8606
@@ -412,6 +411,6 @@ MaterialID<u8>
 MinimapStaticCol<32>
 FrameCountTexture<u8>[6]
 Color<32>[3]
-Field_12_0_0_63534_018[38]
+Float[38]
 Int<u32>[4]
 Coefficient[4]

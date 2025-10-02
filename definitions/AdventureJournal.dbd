@@ -23,9 +23,6 @@ int<FileData::ID> TextureFileDataID
 int Type
 int<WorldMapArea::ID> WorldMapAreaID
 int<UiMap::ID> UIMapID
-int Field_12_0_0_63534_007? //  DBAnalyser: [Flags, 0.71%]
-int Field_12_0_0_63534_013? //  DBAnalyser: [PriorityMax, 0.04%]
-int Field_12_0_0_63534_014? //  DBAnalyser: [PriorityMax, 0.04%]
 
 LAYOUT AF456C4F
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -515,14 +512,14 @@ RewardDescription_lang
 ContinueDescription_lang
 Type<u8>
 PlayerConditionID<u32>
-Field_12_0_0_63534_007<32>
+Flags<32>
 ButtonActionType<u8>
 TextureFileDataID<32>
 LfgDungeonID<u16>
 QuestID<32>
 BattleMasterListID<u16>
-Field_12_0_0_63534_013<u8>
-Field_12_0_0_63534_014<u8>
+PriorityMin<u8>
+PriorityMax<u8>
 CurrencyType<u16>
 CurrencyQuantity<u32>
 UIMapID<u16>

@@ -73,9 +73,6 @@ int Field_5_4_0_17266_023?
 int Field_5_4_0_17266_024?
 int<SpellVisual::ID> ReducedUnexpectedCameraMovementSpellVisualID?
 int Field_12_0_0_63534_002?
-int Field_12_0_0_63534_007? //  DBAnalyser: [MissileCastPositionerID, 0.95%], [MissileImpactPositionerID, 0.95%], [RaidSpellVisualMissileSetID, 0.95%]
-int Field_12_0_0_63534_008? //  DBAnalyser: [MissileCastPositionerID, 0.95%], [MissileImpactPositionerID, 0.95%], [RaidSpellVisualMissileSetID, 0.95%]
-int Field_12_0_0_63534_015? //  DBAnalyser: [MissileCastPositionerID, 0.95%], [MissileImpactPositionerID, 0.95%], [RaidSpellVisualMissileSetID, 0.95%]
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -805,13 +802,13 @@ AnimEventSoundID<u32>
 Flags<32>
 MissileAttachment<8>
 MissileDestinationAttachment<8>
-Field_12_0_0_63534_007<u32>
-Field_12_0_0_63534_008<u32>
+MissileCastPositionerID<u32>
+MissileImpactPositionerID<u32>
 MissileTargetingKit<32>
 HostileSpellVisualID<u32>
 CasterSpellVisualID<u32>
 SpellVisualMissileSetID<u16>
 DamageNumberDelay<u16>
 LowViolenceSpellVisualID<u32>
-Field_12_0_0_63534_015<u32>
+RaidSpellVisualMissileSetID<u32>
 ReducedUnexpectedCameraMovementSpellVisualID<32>

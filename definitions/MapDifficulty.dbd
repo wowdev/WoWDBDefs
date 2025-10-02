@@ -369,9 +369,9 @@ DifficultyID<16>
 LockID<32>
 ResetInterval<u8>
 MaxPlayers<32>
-ItemContext<u8> //  DBAnalyser: [ItemContext, 0.89%]
+ItemContext<u8>
 ItemContextPickerID<32>
-Flags<32> //  DBAnalyser: [Flags, 0.91%]
+Flags<32>
 ContentTuningID<32>
 WorldStateExpressionID<32>
 $noninline,relation$MapID<32>

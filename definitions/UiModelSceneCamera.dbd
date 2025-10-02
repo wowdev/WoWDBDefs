@@ -15,8 +15,6 @@ float ZoomedPitchOffset
 float ZoomedRollOffset
 float ZoomedTargetOffset
 float ZoomedYawOffset
-float Field_12_0_0_63534_011? //  DBAnalyser: [ZoomedPitchOffset, 0.95%], [ZoomedRollOffset, 0.95%]
-float Field_12_0_0_63534_012? //  DBAnalyser: [ZoomedPitchOffset, 0.95%], [ZoomedRollOffset, 0.95%]
 
 LAYOUT EA151443
 BUILD 5.5.1.62856, 5.5.1.63014, 5.5.1.63111, 5.5.1.63226, 5.5.1.63311, 5.5.1.63364, 5.5.1.63393, 5.5.1.63421, 5.5.1.63449, 5.5.1.63538
@@ -253,8 +251,8 @@ Yaw
 Pitch
 Roll
 ZoomedYawOffset
-Field_12_0_0_63534_011
-Field_12_0_0_63534_012
+ZoomedPitchOffset
+ZoomedRollOffset
 ZoomDistance
 MinZoomDistance
 MaxZoomDistance

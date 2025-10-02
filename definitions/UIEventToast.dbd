@@ -21,10 +21,6 @@ int SubtitleTooltipUiWidgetSetID?
 int<SoundKit::ID> ShowSoundKitID?
 int<SoundKit::ID> HideSoundKitID? // or the other way around? next soundkit id will be ExpandSoundKitID
 int Field_10_2_5_52554_021?
-locstring Field_12_0_0_63534_000_lang? //  DBAnalyser: [Title_lang, 0.84%]
-int Field_12_0_0_63534_008? //  DBAnalyser: [UiTextureAtlasMemberID, 0.76%]
-int Field_12_0_0_63534_014? //  DBAnalyser: [IconFileID, 0.77%]
-int Field_12_0_0_63534_019?
 
 LAYOUT 4414294A
 BUILD 9.1.0.38312
@@ -284,25 +280,25 @@ Field_10_2_5_52554_021<32>
 
 LAYOUT 10C7B581
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000_lang
-Subtitle_lang //  DBAnalyser: [Subtitle_lang, 0.87%]
+Title_lang
+Subtitle_lang
 InstructionText_lang
-SubIcon_lang //  DBAnalyser: [SubIcon_lang, 0.9%]
+SubIcon_lang
 TitleTooltip_lang
 SubtitleTooltip_lang
 $id$EventToastID<32>
 PlayerConditionID<32>
-Field_12_0_0_63534_008<32>
+UiTextureAtlasMemberID<32>
 UiTextureKitID<32>
 EventType<u8>
 DisplayType<u8>
 EventAsset<32>
 Field_9_1_0_38312_011<32>
-Field_12_0_0_63534_014<32>
+IconFileID<32>
 UiWidgetSetID<32>
 ExtraUiWidgetSetID<32>
 TitleTooltipUiWidgetSetID<32>
 SubtitleTooltipUiWidgetSetID<32>
-Field_12_0_0_63534_019<32>
+ShowSoundKitID<32>
 HideSoundKitID<32>
 Field_10_2_5_52554_021<32>

@@ -4,9 +4,6 @@ int InputType
 int MapType
 int OutputType
 float Param
-int Field_12_0_0_63534_001? //  DBAnalyser: [InputType, 1%], [MapType, 1%], [OutputType, 1%]
-int Field_12_0_0_63534_002? //  DBAnalyser: [InputType, 1%], [MapType, 1%], [OutputType, 1%]
-int Field_12_0_0_63534_003? //  DBAnalyser: [InputType, 1%], [MapType, 1%], [OutputType, 1%]
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
@@ -122,6 +119,6 @@ LAYOUT D2FB79FA
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
 Param[4]
-Field_12_0_0_63534_001<u8>
-Field_12_0_0_63534_002<u8>
-Field_12_0_0_63534_003<u8>
+InputType<u8>
+MapType<u8>
+OutputType<u8>

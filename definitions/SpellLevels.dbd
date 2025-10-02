@@ -195,7 +195,7 @@ BUILD 12.0.0.63534
 $noninline,id$ID<32>
 DifficultyID<16>
 MaxLevel<16>
-MaxPassiveAuraLevel<u8> //  DBAnalyser: [MaxPassiveAuraLevel, 0.92%]
+MaxPassiveAuraLevel<u8>
 BaseLevel<32>
 SpellLevel<32>
 $noninline,relation$SpellID<32>

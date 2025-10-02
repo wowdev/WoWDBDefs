@@ -18,12 +18,6 @@ int<FileData::ID> CharacterCreateOuterBorder?
 string Field_1_15_7_59856_001?
 string Field_1_15_7_59856_002?
 int Field_1_15_7_59856_011?
-int Field_12_0_0_63534_004? //  DBAnalyser: [LogoFileDataID, 0.5%]
-int Field_12_0_0_63534_005? //  DBAnalyser: [LogoHeight, 0.95%], [LogoVerticalOffset, 0.95%], [LogoShrunkenHeight, 0.95%], [CharacterCreateExtraHeight, 0.95%], [CharacterCreateOuterBorder, 0.95%]
-int Field_12_0_0_63534_006? //  DBAnalyser: [LogoHeight, 0.95%], [LogoVerticalOffset, 0.95%], [LogoShrunkenHeight, 0.95%], [CharacterCreateExtraHeight, 0.95%], [CharacterCreateOuterBorder, 0.95%]
-int Field_12_0_0_63534_007? //  DBAnalyser: [LogoHeight, 0.95%], [LogoVerticalOffset, 0.95%], [LogoShrunkenHeight, 0.95%], [CharacterCreateExtraHeight, 0.95%], [CharacterCreateOuterBorder, 0.95%]
-int Field_12_0_0_63534_009? //  DBAnalyser: [LogoHeight, 0.95%], [LogoVerticalOffset, 0.95%], [LogoShrunkenHeight, 0.95%], [CharacterCreateExtraHeight, 0.95%], [CharacterCreateOuterBorder, 0.95%]
-int Field_12_0_0_63534_010? //  DBAnalyser: [LogoHeight, 0.95%], [LogoVerticalOffset, 0.95%], [LogoShrunkenHeight, 0.95%], [CharacterCreateExtraHeight, 0.95%], [CharacterCreateOuterBorder, 0.95%]
 int Field_12_0_0_63534_012?
 
 LAYOUT 45EE0D98
@@ -121,12 +115,12 @@ Tag
 Field_1_15_7_59856_001
 Field_1_15_7_59856_002
 SeasonID<32>
-Field_12_0_0_63534_004<32>
-Field_12_0_0_63534_005<32>
-Field_12_0_0_63534_006<32>
-Field_12_0_0_63534_007<32>
+LogoFileDataID<32>
+LogoHeight<32>
+LogoVerticalOffset<32>
+LogoShrunkenHeight<32>
 Flags<32>
-Field_12_0_0_63534_009<32>
-Field_12_0_0_63534_010<32>
+CharacterCreateExtraHeight<32>
+CharacterCreateOuterBorder<32>
 Field_1_15_7_59856_011<8>
 Field_12_0_0_63534_012<32>

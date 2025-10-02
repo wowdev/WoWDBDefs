@@ -87,15 +87,9 @@ int Field_1_15_7_59706_058?
 int Field_1_15_7_59706_059?
 int Field_11_2_5_62554_032?
 int Field_11_2_5_62554_033?
-locstring Field_12_0_0_63534_002_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-locstring Field_12_0_0_63534_003_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-locstring Field_12_0_0_63534_004_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-int Field_12_0_0_63534_029? //  DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
-int Field_12_0_0_63534_032? //  DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
-int Field_12_0_0_63534_033? //  DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
-int Field_12_0_0_63534_034? //  DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
-int Field_12_0_0_63534_062? //  DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
-int Field_12_0_0_63534_063? //  DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
+int Field_12_0_0_63534_032? // DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
+int Field_12_0_0_63534_033? // DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
+int Field_12_0_0_63534_034? // DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -2469,9 +2463,9 @@ COMMENT table is sparse
 $noninline,id$ID<32>
 AllowableRace<64>
 Description_lang
-Field_12_0_0_63534_002_lang
-Field_12_0_0_63534_003_lang
-Field_12_0_0_63534_004_lang
+Display3_lang
+Display2_lang
+Display1_lang
 Display_lang
 ExpansionID<32>
 DmgVariance
@@ -2496,7 +2490,7 @@ PriceVariance
 PriceRandomValue
 Flags<32>[5]
 OppositeFactionItemID<32>
-Field_12_0_0_63534_029<32>
+ModifiedCraftingReagentItemID<32>
 ContentTuningID<32>
 PlayerLevelToItemLevelCurveID<32>
 Field_12_0_0_63534_032<32>
@@ -2529,8 +2523,8 @@ PageMaterialID<u8>
 Bonding<u8>
 DamageType<u8>
 ContainerSlots<u8>
-Field_12_0_0_63534_062<u8>
-Field_12_0_0_63534_063<8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<8>
 RequiredLevel<8>
 InventoryType<8>
 OverallQualityID<8>

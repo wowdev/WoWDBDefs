@@ -32,7 +32,6 @@ float Variance
 float EffectBasePointsF
 int Field_7_3_2_25549_010?
 int ScalingClass?
-float Field_12_0_0_63534_016?
 int Field_12_0_0_63534_024?
 
 LAYOUT D6EA6A1A
@@ -781,7 +780,7 @@ EffectPointsPerResource
 EffectPos_facing
 EffectRealPointsPerLevel
 EffectTriggerSpell<32>
-Field_12_0_0_63534_016
+BonusCoefficientFromAP
 PvpMultiplier
 Coefficient
 Variance

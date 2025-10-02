@@ -16,7 +16,6 @@ float SunPolar?
 float SunAzimuth?
 float SunAttenuationStart?
 float SunAttenuationEnd?
-int Field_12_0_0_63534_004? //  DBAnalyser: [CloudTypeID, 0.95%]
 float Field_12_0_0_63534_016?
 float Field_12_0_0_63534_017?
 float Field_12_0_0_63534_018?
@@ -28,7 +27,7 @@ float Field_12_0_0_63534_023?
 float Field_12_0_0_63534_024?
 float Field_12_0_0_63534_025?
 float Field_12_0_0_63534_026?
-int Field_12_0_0_63534_027? //  DBAnalyser: [CloudTypeID, 0.95%]
+int Field_12_0_0_63534_027?
 float Field_12_0_0_63534_028?
 float Field_12_0_0_63534_029?
 
@@ -315,7 +314,7 @@ OverrideCelestialSphere[3]
 OverrideSunPosition[3]
 HighlightSky<u8>
 LightSkyboxID<u16>
-Field_12_0_0_63534_004<u8>
+CloudTypeID<u8>
 Glow
 WaterShallowAlpha
 WaterDeepAlpha

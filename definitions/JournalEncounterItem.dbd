@@ -7,7 +7,6 @@ int FactionMask
 int Flags
 int<DisplaySeason::ID> DisplaySeasonID?
 int<WorldStateExpression::ID> WorldStateExpressionID?
-int Field_12_0_0_63534_007?
 
 LAYOUT D3499B0A
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -208,4 +207,4 @@ FactionMask<8>
 Flags<32>
 DifficultyMask<8>
 DisplaySeasonID<u16>
-Field_12_0_0_63534_007<32>
+WorldStateExpressionID<32>

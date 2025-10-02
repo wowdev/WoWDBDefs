@@ -26,11 +26,7 @@ int Field_4_4_0_54339_016?
 int Field_4_4_0_54339_017?
 int Field_1_15_3_55112_016?
 int Field_1_15_3_55112_017?
-locstring Field_12_0_0_63534_002_lang? //  DBAnalyser: [ShortDescription_lang, 1%], [LongDescription_lang, 1%]
-locstring Field_12_0_0_63534_003_lang? //  DBAnalyser: [ShortDescription_lang, 1%], [LongDescription_lang, 1%]
 int Field_12_0_0_63534_004?
-int Field_12_0_0_63534_005?
-int Field_12_0_0_63534_007? //  DBAnalyser: [MaxLevel, 0.04%]
 
 LAYOUT 1DAAA212
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -651,12 +647,12 @@ BUILD 12.0.0.63534
 $noninline,id$ID<32>
 Name_lang
 GameType_lang
-Field_12_0_0_63534_002_lang
-Field_12_0_0_63534_003_lang
+ShortDescription_lang
+LongDescription_lang
 Field_12_0_0_63534_004<8>
-Field_12_0_0_63534_005<32>
+PvpType<32>
 MinLevel<8>
-Field_12_0_0_63534_007<8>
+MaxLevel<8>
 RatedPlayers<8>
 MinPlayers<8>
 MaxPlayers<32>

@@ -3,9 +3,6 @@ int ID
 int<MapDifficulty::ID> MapDifficultyID?
 int<PlayerCondition::ID> PlayerConditionID?
 int<Difficulty::ID> DifficultyID?
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
 
 LAYOUT A53BD63B
 BUILD 3.4.2.49311, 3.4.2.49442, 3.4.2.49563, 3.4.2.49584, 3.4.2.49658, 3.4.2.49684, 3.4.2.49705, 3.4.2.49752, 3.4.2.49794, 3.4.2.49871, 3.4.2.49979, 3.4.2.50058, 3.4.2.50063, 3.4.2.50129, 3.4.2.50172, 3.4.2.50250, 3.4.2.50375, 3.4.2.50664
@@ -53,6 +50,6 @@ $noninline,relation$MapDifficultyID<32>
 LAYOUT BFA74D81
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<32>
-Field_12_0_0_63534_001<16>
-$noninline,relation$Field_12_0_0_63534_002<32>
+PlayerConditionID<32>
+DifficultyID<16>
+$noninline,relation$MapDifficultyID<32>

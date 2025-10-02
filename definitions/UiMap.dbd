@@ -26,7 +26,6 @@ int Field_1_14_4_50252_012?
 int Field_1_14_4_50252_013?
 int<UiTextureKit::ID> AdventureMapTextureKitID?
 int MapArtZoneTextPosition? // 0 = None, 1 = BottomLeft, 2 = BottomRight, 3 = TopLeft, 4 = TopRight
-int Field_12_0_0_63534_008?
 
 LAYOUT F5EC37EE
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -350,7 +349,7 @@ System<u8>
 Type<u8>
 BountySetID<32>
 BountyDisplayLocation<u32>
-Field_12_0_0_63534_008<32>
+VisibilityPlayerConditionID<32>
 HelpTextPosition<8>
 BkgAtlasID<32>
 AlternateUiMapGroup<32>

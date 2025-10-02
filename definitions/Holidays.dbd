@@ -13,7 +13,6 @@ int CalendarFilterType
 int Flags // &1: IsRegionwide; &2: DontShowInCalendar; &4: DontDisplayEnd; &8: DontDisplayBanner; &0x10: NotAvailableClientSide
 int<FileData::ID> TextureFileDataID
 int<WorldStateExpression::ID> WorldStateExpressionID?
-int Field_12_0_0_63534_006? //  DBAnalyser: [CalendarFilterType, 0.18%]
 
 LAYOUT DC1A500C, 3C3EF0AA
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -339,7 +338,7 @@ Looping<u8>
 HolidayNameID<u32>
 HolidayDescriptionID<u32>
 Priority<u8>
-Field_12_0_0_63534_006<u8>
+CalendarFilterType<u8>
 Flags<32>
 Duration<u16>[10]
 Date<u32>[26]

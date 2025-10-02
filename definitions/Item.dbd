@@ -23,12 +23,11 @@ int<ContentTuning::ID> ContentTuningID?
 int<CraftingQuality::ID> CraftingQualityID?
 int<ScalingStatDistribution::ID> ScalingStatDistributionID?
 int ScalingStatValue?
-int Field_12_0_0_63534_009? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0.95%], [CraftingQualityID, 0.95%]
 int Field_12_0_0_63534_010?
-int Field_12_0_0_63534_011? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0.95%], [CraftingQualityID, 0.95%]
-int Field_12_0_0_63534_012? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0.95%], [CraftingQualityID, 0.95%]
+int Field_12_0_0_63534_011?
+int Field_12_0_0_63534_012?
 float Field_12_0_0_63534_013?
-int Field_12_0_0_63534_014? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0.95%], [CraftingQualityID, 0.95%]
+int Field_12_0_0_63534_014?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -578,7 +577,7 @@ Sound_override_subclassID<8>
 IconFileDataID<32>
 ItemGroupSoundsID<u32>
 ContentTuningID<32>
-Field_12_0_0_63534_009<32>
+ModifiedCraftingReagentItemID<32>
 Field_12_0_0_63534_010<u8>
 Field_12_0_0_63534_011<32>
 Field_12_0_0_63534_012<32>
