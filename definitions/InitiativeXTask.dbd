@@ -1,12 +1,12 @@
 COLUMNS
 int ID
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
+int<InitiativeTask::ID> InitiativeTaskID?
+int OrderIndex?
+int<NeighborhoodInitiative::ID> NeighborhoodInitiativeID?
 
 LAYOUT 21B84C90
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<32>
-Field_12_0_0_63534_001<32>
-$noninline,relation$Field_12_0_0_63534_002<32>
+InitiativeTaskID<32>
+OrderIndex<32>
+$noninline,relation$NeighborhoodInitiativeID<32>

@@ -10,7 +10,7 @@ int Field_12_0_0_63534_007?
 int<ExteriorComponentType::ID> Type?
 int Field_12_0_0_63534_009?
 int Field_12_0_0_63534_010?
-int Field_12_0_0_63534_011?
+int<HouseExteriorWmoData::ID> HouseExteriorWmoDataID?
 
 LAYOUT 21BF81E6
 BUILD 12.0.0.63534
@@ -25,4 +25,4 @@ Field_12_0_0_63534_007<u8>
 Type<u8>
 Field_12_0_0_63534_009<32>
 Field_12_0_0_63534_010<32>
-$noninline,relation$Field_12_0_0_63534_011<32>
+$noninline,relation$HouseExteriorWmoDataID<32>

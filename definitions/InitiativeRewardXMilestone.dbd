@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_12_0_0_63534_000?
-int Field_12_0_0_63534_001?
+int<InitiativeReward::ID> InitiativeRewardID?
+int<InitiativeMilestone::ID> InitiativeMilestoneID?
 
 LAYOUT 92350A35
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_000<32>
-$noninline,relation$Field_12_0_0_63534_001<32>
+InitiativeRewardID<32>
+$noninline,relation$InitiativeMilestoneID<32>

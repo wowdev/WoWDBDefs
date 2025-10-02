@@ -1,14 +1,14 @@
 COLUMNS
 int ID
-int Field_12_0_0_63534_001?
 locstring Name_lang?
+int RoomComponentType?
 int<FileData::ID> TextureFileDataID?
 int<HouseTheme::ID> HouseThemeID?
 
 LAYOUT 1D2B146F
 BUILD 12.0.0.63534
 $noninline,id$ID<32>
-Field_12_0_0_63534_001<32>
 Name_lang
+RoomComponentType<32>
 TextureFileDataID<32>
 $noninline,relation$HouseThemeID<32>
