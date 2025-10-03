@@ -1,7 +1,7 @@
 COLUMNS
 int ID?
-int Field_12_0_0_63534_001?
-int Field_12_0_0_63534_002?
+int<Pin::ID> Field_12_0_0_63534_001?
+int<Pin::ID> Field_12_0_0_63534_002?
 
 LAYOUT 598AD66A
 BUILD 12.0.0.63534
