@@ -1,8 +1,8 @@
 COLUMNS
 int ID
-int<InitiativeTask::ID> InitiativeTaskID?
-int OrderIndex?
-int<NeighborhoodInitiative::ID> NeighborhoodInitiativeID?
+int<InitiativeTask::ID> InitiativeTaskID
+int OrderIndex
+int<NeighborhoodInitiative::ID> NeighborhoodInitiativeID
 
 LAYOUT 21B84C90
 BUILD 12.0.0.63534
