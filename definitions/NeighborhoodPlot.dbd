@@ -1,8 +1,8 @@
 COLUMNS
 int Cost?
 string Field_12_0_0_63534_001?
-float Field_12_0_0_63534_002?
-float Field_12_0_0_63534_003?
+float HousePosition?
+float HouseRotation?
 float Field_12_0_0_63534_004?
 float Field_12_0_0_63534_005?
 float CornerStonePosition?
@@ -12,14 +12,14 @@ int<NeighborhoodMap::ID> NeighborhoodMapID?
 int Field_12_0_0_63534_010?
 int Field_12_0_0_63534_011?
 int PlotIndex?
-int Field_12_0_0_63534_013?
+int WorldState?
 
 LAYOUT 928CA287
 BUILD 12.0.0.63534
 Cost<u64>
 Field_12_0_0_63534_001
-Field_12_0_0_63534_002[3]
-Field_12_0_0_63534_003[3]
+HousePosition[3]
+HouseRotation[3]
 Field_12_0_0_63534_004[3]
 Field_12_0_0_63534_005[3]
 CornerStonePosition[3]
@@ -29,4 +29,4 @@ NeighborhoodMapID<32>
 Field_12_0_0_63534_010<32>
 Field_12_0_0_63534_011<32>
 PlotIndex<32>
-Field_12_0_0_63534_013<32>
+WorldState<32>
