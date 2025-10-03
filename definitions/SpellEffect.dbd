@@ -32,7 +32,7 @@ float Variance
 float EffectBasePointsF
 int Field_7_3_2_25549_010?
 int ScalingClass?
-int Field_12_0_0_63534_024?
+int Node__Field_12_0_0_63534_001?
 
 LAYOUT D6EA6A1A
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -788,7 +788,7 @@ ResourceCoefficient
 GroupSizeBasePointsCoefficient
 EffectBasePointsF
 ScalingClass<32>
-Field_12_0_0_63534_024<32>
+Node__Field_12_0_0_63534_001<32>
 EffectMiscValue<32>[2]
 EffectRadiusIndex<u32>[2]
 EffectSpellClassMask<32>[4]
