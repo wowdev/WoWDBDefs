@@ -12,11 +12,11 @@ int<SoundKit::ID> UpgradeTabSelectSoundKitID?
 int<SoundKit::ID> ReservoirFullSoundKitID?
 int<SoundKit::ID> BeginResearchSoundKitID?
 int<SoundKit::ID> RenownFanfareSoundKitID?
-int UiPriority?
-int Field_11_1_0_58221_013?
-int Field_11_1_0_58221_014?
+int UiPriority
+int<UIScriptedAnimationEffect::ID> RenownTrackLevelEffectID?
+int<GlobalColor::ID> FactionFontColor
 int Field_12_0_0_63534_016?
-int Field_12_0_0_63534_017?
+int<PlayerCompanionInfo::PlayerCompanionID> PlayerCompanionID
 
 LAYOUT 2F97ADFB
 BUILD 9.0.2.35854
@@ -168,8 +168,8 @@ ReservoirFullSoundKitID<32>
 BeginResearchSoundKitID<32>
 RenownFanfareSoundKitID<32>
 UiPriority<32>
-Field_11_1_0_58221_013<32>
-Field_11_1_0_58221_014<32>
+RenownTrackLevelEffectID<32>
+FactionFontColor<32>
 
 LAYOUT 9C956DEE
 BUILD 12.0.0.63534
@@ -187,7 +187,7 @@ ReservoirFullSoundKitID<32>
 BeginResearchSoundKitID<32>
 RenownFanfareSoundKitID<32>
 UiPriority<32>
-Field_11_1_0_58221_013<32>
-Field_11_1_0_58221_014<32>
+RenownTrackLevelEffectID<32>
+FactionFontColor<32>
 Field_12_0_0_63534_016<32>
-Field_12_0_0_63534_017<32>
+PlayerCompanionID<32>
