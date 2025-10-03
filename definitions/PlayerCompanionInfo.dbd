@@ -10,7 +10,7 @@ int<CreatureDisplayInfo::ID> CreatureDisplayInfoID?
 int<UiModelScene::ID> UiModelSceneID?
 int<DelvesSeason::ID> DelvesSeasonID?
 int<TraitSubTree::ID> TraitSubTreeID_Tank?
-int Field_12_0_0_63534_011?
+int PlayerCompanionID?
 
 LAYOUT 4EF4C3DB
 BUILD 11.0.7.57361, 11.0.7.57409, 11.0.7.57528, 11.0.7.57641, 11.0.7.57788, 11.0.7.58046, 11.0.7.58123, 11.0.7.58162, 11.0.7.58187, 11.0.7.58238, 11.0.7.58533, 11.0.7.58608, 11.0.7.58630, 11.0.7.58680, 11.0.7.58773, 11.0.7.58867, 11.0.7.58911, 11.0.7.59207, 11.0.7.59302
@@ -68,4 +68,4 @@ TraitSubTreeID_Tank<32>
 FactionID<32>
 CreatureDisplayInfoID<32>
 UiModelSceneID<32>
-$noninline,relation$Field_12_0_0_63534_011<32>
+$noninline,relation$PlayerCompanionID<32>
