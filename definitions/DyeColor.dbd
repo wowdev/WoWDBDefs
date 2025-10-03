@@ -2,19 +2,19 @@ COLUMNS
 locstring Name_lang?
 int ID?
 int<DyeColorCategory::ID> DyeColorCategoryID?
-int Field_12_0_0_63534_003?
-int<Item::ID> ItemID?
-int ColorA?
-int ColorB?
-int OrderIndex?
+int Field_12_0_0_63534_003? // Something close to the M2. Essentially direclty passed to CM2Model
+int<Item::ID> ItemID
+int SwatchColorStart
+int SwatchColorEnd
+int SortOrder
 
 LAYOUT 184BC922
 BUILD 12.0.0.63534
 Name_lang
-$id$ID<32>
+$id$ID<32> //1
 $relation$DyeColorCategoryID<32>
 Field_12_0_0_63534_003<32>
-ItemID<32>
-ColorA<32>
-ColorB<32>
-OrderIndex<32>
+ItemID<32> //4567
+SwatchColorStart<32>
+SwatchColorEnd<32>
+SortOrder<32>
