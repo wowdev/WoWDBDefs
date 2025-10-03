@@ -11,7 +11,7 @@ int ID?
 int<NeighborhoodMap::ID> NeighborhoodMapID?
 int Field_12_0_0_63534_010?
 int Field_12_0_0_63534_011?
-int Field_12_0_0_63534_012?
+int PlotIndex?
 int Field_12_0_0_63534_013?
 
 LAYOUT 928CA287
@@ -28,5 +28,5 @@ $id$ID<32>
 NeighborhoodMapID<32>
 Field_12_0_0_63534_010<32>
 Field_12_0_0_63534_011<32>
-Field_12_0_0_63534_012<32>
+PlotIndex<32>
 Field_12_0_0_63534_013<32>
