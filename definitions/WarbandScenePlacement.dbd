@@ -1,13 +1,13 @@
 COLUMNS
 int ID
 float Position?
-int SlotType? // CharacterSelectionConstants.WarbandSceneSlotType, 0: Character, 1: Pet
+int SlotType? // CharacterSelectionConstants.WarbandSceneSlotType, 0: Character, 1: Pet, 2: Chair
 float Rotation?
 float Scale?
 int Field_11_0_0_54210_004?
 int Field_11_0_0_54210_005?
 int<WarbandScene::ID> WarbandSceneID?
-int Field_11_1_0_58221_008?
+int SlotId?
 int Field_11_1_0_58221_009?
 int Field_11_0_0_53687_001?
 int Field_11_0_0_53687_002?
@@ -94,7 +94,7 @@ Rotation
 Scale
 Field_11_0_0_54210_004<u32>
 Field_11_0_0_54210_005<u32>
-Field_11_1_0_58221_008<32>
+SlotId<32>
 Field_11_1_0_58221_009<32>
 
 LAYOUT EF845637
@@ -108,5 +108,5 @@ Scale
 Field_11_0_0_54210_004<u32>
 Field_11_0_0_54210_005<u32>
 Field_12_0_0_63534_008<32>
-Field_11_1_0_58221_008<32>
+SlotId<32>
 Field_12_0_0_63534_010<32>
