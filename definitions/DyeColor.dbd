@@ -3,7 +3,7 @@ locstring Name_lang?
 int ID?
 int<DyeColorCategory::ID> DyeColorCategoryID?
 int Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
+int<Item::ID> ItemID?
 int ColorA?
 int ColorB?
 int OrderIndex?
@@ -14,7 +14,7 @@ Name_lang
 $id$ID<32>
 $relation$DyeColorCategoryID<32>
 Field_12_0_0_63534_003<32>
-Field_12_0_0_63534_004<32>
+ItemID<32>
 ColorA<32>
 ColorB<32>
 OrderIndex<32>
