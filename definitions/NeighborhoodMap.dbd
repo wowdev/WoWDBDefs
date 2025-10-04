@@ -1,16 +1,16 @@
 COLUMNS
-float Field_12_0_0_63534_000?
+float EntryPosition? // entering the map places the player here
 int ID?
 int<Map::ID> MapID?
-float Field_12_0_0_63534_003?
-int Field_12_0_0_63534_004?
+float EntryRotation? // entering the map faces the player in this direction
+int<UiTextureKit::ID> UiTextureKitID?
 int Flags?
 
 LAYOUT 4973BA38
 BUILD 12.0.0.63534
-Field_12_0_0_63534_000[3]
+EntryPosition[3]
 $id$ID<32>
 MapID<32>
-Field_12_0_0_63534_003
-Field_12_0_0_63534_004<u32>
+EntryRotation
+UiTextureKitID<u32>
 Flags<32>
