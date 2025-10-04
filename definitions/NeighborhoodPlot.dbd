@@ -6,7 +6,7 @@ float HouseRotation?
 float Field_12_0_0_63534_004?
 float Field_12_0_0_63534_005?
 float CornerStonePosition?
-float Field_12_0_0_63534_007?
+float CornerStoneRotation?
 int ID?
 int<NeighborhoodMap::ID> NeighborhoodMapID?
 int Field_12_0_0_63534_010?
@@ -23,7 +23,7 @@ HouseRotation[3]
 Field_12_0_0_63534_004[3]
 Field_12_0_0_63534_005[3]
 CornerStonePosition[3]
-Field_12_0_0_63534_007[3]
+CornerStoneRotation[3]
 $id$ID<32>
 NeighborhoodMapID<32>
 Field_12_0_0_63534_010<32>
