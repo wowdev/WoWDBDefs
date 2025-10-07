@@ -3,7 +3,7 @@ locstring Name_lang?
 float Field_12_0_0_63534_001?
 int ID?
 int Size?
-int Field_12_0_0_63534_004?
+int<ExteriorComponentGroup::ID> ExteriorComponentGroupID?
 int<FileData::ID> ModelFileDataID?
 int Field_12_0_0_63534_006?
 int Field_12_0_0_63534_007?
@@ -18,7 +18,7 @@ Name_lang
 Field_12_0_0_63534_001[3]
 $id$ID<32>
 Size<u8>
-Field_12_0_0_63534_004<32>
+ExteriorComponentGroupID<32>
 ModelFileDataID<32>
 Field_12_0_0_63534_006<32>
 Field_12_0_0_63534_007<u8>
