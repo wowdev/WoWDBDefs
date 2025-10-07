@@ -3,7 +3,7 @@ string InternalName?
 int ID
 int Amount?
 int<TraitCurrency::ID> TraitCurrencyID?
-int Field_11_2_5_62554_004?
+int<Curve::ID> CurveID?
 
 LAYOUT F7EE721C
 BUILD 10.0.0.43342
@@ -73,4 +73,4 @@ InternalName
 $id$ID<32>
 Amount<32>
 TraitCurrencyID<32>
-Field_11_2_5_62554_004<32>
+CurveID<32>
