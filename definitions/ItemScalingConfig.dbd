@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<ItemOffsetCurve::ID> ItemOffsetCurveID?
 int ItemLevel?
-int PlayerLevel?
+int RequiredLevel?
 int Field_11_2_5_62554_003?
 int Field_12_0_0_63534_003?
 
@@ -11,7 +11,7 @@ BUILD 11.2.5.62554, 11.2.5.62687, 11.2.5.62785, 11.2.5.62940, 11.2.5.63092, 11.2
 $noninline,id$ID<32>
 ItemOffsetCurveID<32>
 ItemLevel<32>
-PlayerLevel<32>
+RequiredLevel<32>
 Field_11_2_5_62554_003<32>
 
 LAYOUT 7BEABE68
@@ -19,6 +19,6 @@ BUILD 12.0.0.63534
 $noninline,id$ID<32>
 ItemOffsetCurveID<32>
 ItemLevel<32>
-PlayerLevel<32>
+RequiredLevel<32>
 Field_12_0_0_63534_003<32>
 Field_11_2_5_62554_003<32>

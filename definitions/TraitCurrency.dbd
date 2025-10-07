@@ -4,7 +4,7 @@ int Type? // 0: Gold, 1: CurrencyTypesBased, 2: TraitSourced
 int<CurrencyTypes::ID> CurrencyTypesID? // if Type == CurrencyTypesBased
 int Flags // &1: ShowQuantityAsSpent, &2: TraitSourcedShowMax, &4: UseClassIcon, &8: UseSpecIcon
 int<FileData::ID> Icon
-int Field_11_2_5_62554_005?
+int<PlayerDataElementAccount::ID> PlayerDataElementAccountID?
 int<PlayerDataElementCharacter::ID> PlayerDataElementCharacterID?
 
 LAYOUT 75686387
@@ -73,7 +73,7 @@ Type<32>
 CurrencyTypesID<32>
 Flags<32>
 Icon<32>
-Field_11_2_5_62554_005<32>
+PlayerDataElementAccountID<32>
 PlayerDataElementCharacterID<32>
 
 LAYOUT 7E04D40D
@@ -83,5 +83,5 @@ Type<32>
 CurrencyTypesID<32>
 Flags<32>
 Icon<32>
-Field_11_2_5_62554_005<32>
+PlayerDataElementAccountID<32>
 PlayerDataElementCharacterID<32>

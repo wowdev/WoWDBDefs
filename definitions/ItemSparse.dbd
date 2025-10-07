@@ -85,11 +85,11 @@ int Field_1_15_7_59706_054?
 int Field_1_15_7_59706_057?
 int Field_1_15_7_59706_058?
 int Field_1_15_7_59706_059?
-int Field_11_2_5_62554_032?
-int Field_11_2_5_62554_033?
-int Field_12_0_0_63534_032? // DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
-int Field_12_0_0_63534_033? // DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
-int Field_12_0_0_63534_034? // DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [Field_11_2_5_62554_032, 0.95%], [Field_11_2_5_62554_033, 0.95%]
+int<Curve::ID> ItemLevelOffsetCurveID?
+int ItemLevelOffsetItemLevel? // same purpose as ItemScalingConfig::ItemLevel (curve parameter for ItemLevelOffsetCurveID)
+int Field_12_0_0_63534_032? // DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [ItemLevelOffsetCurveID, 0.95%], [ItemLevelOffsetItemLevel, 0.95%]
+int Field_12_0_0_63534_033? // DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [ItemLevelOffsetCurveID, 0.95%], [ItemLevelOffsetItemLevel, 0.95%]
+int Field_12_0_0_63534_034? // DBAnalyser: [RequiredPVPRank, 0.95%], [ModifiedCraftingReagentItemID, 0.95%], [RequiredPVPMedal, 0.95%], [ItemLevelOffsetCurveID, 0.95%], [ItemLevelOffsetItemLevel, 0.95%]
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -2422,8 +2422,8 @@ OppositeFactionItemID<32>
 ModifiedCraftingReagentItemID<32>
 ContentTuningID<32>
 PlayerLevelToItemLevelCurveID<32>
-Field_11_2_5_62554_032<32>
-Field_11_2_5_62554_033<32>
+ItemLevelOffsetCurveID<32>
+ItemLevelOffsetItemLevel<32>
 ItemNameDescriptionID<u16>
 RequiredTransmogHoliday<u16>
 RequiredHoliday<u16>
