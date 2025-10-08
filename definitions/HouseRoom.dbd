@@ -5,12 +5,8 @@ int Flags?
 int Field_12_0_0_63534_002?
 int<RoomWmoData::ID> RoomWmoDataID?
 int<UiTextureAtlasElement::ID> UiTextureAtlasElementID?
-locstring Field_12_0_0_63724_000_lang?
-int Field_12_0_0_63724_001?
-int Field_12_0_0_63724_002?
-int Field_12_0_0_63724_003?
-int Field_12_0_0_63724_004?
-int Field_12_0_0_63724_005?
+int Field_12_0_0_63724_002? //  DBAnalyser: [Field_12_0_0_63534_002, 0,95%]
+int Field_12_0_0_63724_005? //  DBAnalyser: [Field_12_0_0_63534_002, 0,95%]
 
 LAYOUT 9F9F9290
 BUILD 12.0.0.63534
@@ -24,9 +20,9 @@ UiTextureAtlasElementID<32>
 LAYOUT 559A894F
 BUILD 12.0.0.63724
 $noninline,id$ID<32>
-Field_12_0_0_63724_000_lang
-Field_12_0_0_63724_001<32>
+Name_lang
+Flags<32>
 Field_12_0_0_63724_002<32>
-Field_12_0_0_63724_003<32>
-Field_12_0_0_63724_004<32>
+RoomWmoDataID<32>
+UiTextureAtlasElementID<32>
 Field_12_0_0_63724_005<32>
