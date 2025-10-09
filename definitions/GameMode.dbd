@@ -19,11 +19,11 @@ string Field_1_15_7_59856_001?
 string Field_1_15_7_59856_002?
 int Field_1_15_7_59856_011?
 int Field_12_0_0_63534_012?
-int Field_12_0_0_63724_005? //  DBAnalyser: [LogoHeight, 0,95%], [LogoVerticalOffset, 0,95%], [LogoShrunkenHeight, 0,95%], [CharacterCreateExtraHeight, 0,95%], [CharacterCreateOuterBorder, 0,95%]
-int Field_12_0_0_63724_006? //  DBAnalyser: [LogoHeight, 0,95%], [LogoVerticalOffset, 0,95%], [LogoShrunkenHeight, 0,95%], [CharacterCreateExtraHeight, 0,95%], [CharacterCreateOuterBorder, 0,95%]
-int Field_12_0_0_63724_007? //  DBAnalyser: [LogoHeight, 0,95%], [LogoVerticalOffset, 0,95%], [LogoShrunkenHeight, 0,95%], [CharacterCreateExtraHeight, 0,95%], [CharacterCreateOuterBorder, 0,95%]
-int Field_12_0_0_63724_009? //  DBAnalyser: [LogoHeight, 0,95%], [LogoVerticalOffset, 0,95%], [LogoShrunkenHeight, 0,95%], [CharacterCreateExtraHeight, 0,95%], [CharacterCreateOuterBorder, 0,95%]
-int Field_12_0_0_63724_010? //  DBAnalyser: [LogoHeight, 0,95%], [LogoVerticalOffset, 0,95%], [LogoShrunkenHeight, 0,95%], [CharacterCreateExtraHeight, 0,95%], [CharacterCreateOuterBorder, 0,95%]
+int Field_12_0_0_63724_005? // DBAnalyser: [LogoHeight, 0,95%], [LogoVerticalOffset, 0,95%], [LogoShrunkenHeight, 0,95%], [CharacterCreateExtraHeight, 0,95%], [CharacterCreateOuterBorder, 0,95%]
+int Field_12_0_0_63724_006? // DBAnalyser: [LogoHeight, 0,95%], [LogoVerticalOffset, 0,95%], [LogoShrunkenHeight, 0,95%], [CharacterCreateExtraHeight, 0,95%], [CharacterCreateOuterBorder, 0,95%]
+int Field_12_0_0_63724_007? // DBAnalyser: [LogoHeight, 0,95%], [LogoVerticalOffset, 0,95%], [LogoShrunkenHeight, 0,95%], [CharacterCreateExtraHeight, 0,95%], [CharacterCreateOuterBorder, 0,95%]
+int Field_12_0_0_63724_009? // DBAnalyser: [LogoHeight, 0,95%], [LogoVerticalOffset, 0,95%], [LogoShrunkenHeight, 0,95%], [CharacterCreateExtraHeight, 0,95%], [CharacterCreateOuterBorder, 0,95%]
+int Field_12_0_0_63724_010? // DBAnalyser: [LogoHeight, 0,95%], [LogoVerticalOffset, 0,95%], [LogoShrunkenHeight, 0,95%], [CharacterCreateExtraHeight, 0,95%], [CharacterCreateOuterBorder, 0,95%]
 
 LAYOUT 45EE0D98
 BUILD 11.0.0.53687, 11.0.0.53949, 11.0.0.54013, 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
@@ -131,7 +131,7 @@ Field_1_15_7_59856_011<8>
 Field_12_0_0_63534_012<32>
 
 LAYOUT BB298117
-BUILD 12.0.0.63724
+BUILD 12.0.0.63724, 12.0.0.63728
 $noninline,id$ID<32>
 Tag
 Field_1_15_7_59856_001
