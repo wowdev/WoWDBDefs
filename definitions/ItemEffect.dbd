@@ -10,6 +10,15 @@ int<SpellCategory::ID> SpellCategoryID
 int<Spell::ID> SpellID
 int TriggerType
 int<PlayerCondition::ID> PlayerConditionID?
+int Field_11_2_7_63642_000?
+int Field_11_2_7_63642_001?
+int Field_11_2_7_63642_002?
+int Field_11_2_7_63642_003?
+int Field_11_2_7_63642_004?
+int Field_11_2_7_63642_005?
+int Field_11_2_7_63642_006?
+int Field_11_2_7_63642_007?
+int Field_11_2_7_63642_008?
 
 LAYOUT 95B79695
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -216,6 +225,19 @@ CategoryCoolDownMSec<32>
 SpellCategoryID<u16>
 SpellID<32>
 ChrSpecializationID<u16>
+
+LAYOUT DA85CB08
+BUILD 11.2.7.63642
+$noninline,id$ID<32>
+Field_11_2_7_63642_000<u8>
+Field_11_2_7_63642_001<8>
+Field_11_2_7_63642_002<16>
+Field_11_2_7_63642_003<32>
+Field_11_2_7_63642_004<32>
+Field_11_2_7_63642_005<u16>
+Field_11_2_7_63642_006<32>
+Field_11_2_7_63642_007<u16>
+Field_11_2_7_63642_008<32>
 
 LAYOUT 4CA77678
 BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728
