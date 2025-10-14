@@ -5,7 +5,7 @@ int Field_12_0_0_63534_002?
 int<FileData::ID> ModelFileDataID?
 int SubType?
 int MeshStyleFilterID?
-int Field_12_0_0_63534_006?
+int Theme?
 int Field_12_0_0_63534_007?
 
 LAYOUT 5F9E3AA3
@@ -17,5 +17,5 @@ Field_12_0_0_63534_002<u8>
 ModelFileDataID<32>
 SubType<32>
 MeshStyleFilterID<32>
-Field_12_0_0_63534_006<32>
+Theme<32>
 Field_12_0_0_63534_007<32>
