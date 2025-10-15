@@ -7,14 +7,7 @@ int ReleaseType?
 int<FileData::ID> HighResBackgroundID
 int<FileData::ID> LowResBackgroundID
 int<UiTextureKit::ID> UiTextureKitID?
-int Field_12_0_0_63854_000?
-int Field_12_0_0_63854_001?
-int Field_12_0_0_63854_002?
-int Field_12_0_0_63854_003?
 int Field_12_0_0_63854_004?
-int Field_12_0_0_63854_005?
-int Field_12_0_0_63854_006?
-int Field_12_0_0_63854_007?
 int Field_12_0_0_63854_008?
 
 LAYOUT 85273A08
@@ -149,12 +142,12 @@ UiTextureKitID<32>
 
 LAYOUT 62982E9A
 BUILD 12.0.0.63854
-$id$Field_12_0_0_63854_000<32>
-Field_12_0_0_63854_001<32>
-Field_12_0_0_63854_002<32>
-Field_12_0_0_63854_003<u32>
+$id$ID<32>
+ExpansionLogo<32>
+ExpansionBanner<32>
+ExpansionLevel<u32>
 Field_12_0_0_63854_004<u8>
-Field_12_0_0_63854_005<32>
-Field_12_0_0_63854_006<32>
-Field_12_0_0_63854_007<32>
+HighResBackgroundID<32>
+LowResBackgroundID<32>
+UiTextureKitID<32>
 Field_12_0_0_63854_008<32>

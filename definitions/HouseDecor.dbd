@@ -16,22 +16,6 @@ int Field_12_0_0_63534_013?
 int OrderIndex?
 int Field_12_0_0_63534_015?
 int Field_12_0_0_63534_016?
-locstring Field_12_0_0_63854_000_lang?
-float Field_12_0_0_63854_001?
-int Field_12_0_0_63854_002?
-int Field_12_0_0_63854_003?
-int Field_12_0_0_63854_004?
-int Field_12_0_0_63854_005?
-int Field_12_0_0_63854_006?
-int Field_12_0_0_63854_007?
-int Field_12_0_0_63854_008?
-int Field_12_0_0_63854_009?
-int Field_12_0_0_63854_010?
-int Field_12_0_0_63854_011?
-float Field_12_0_0_63854_012?
-int Field_12_0_0_63854_013?
-int Field_12_0_0_63854_014?
-int Field_12_0_0_63854_015?
 int Field_12_0_0_63854_016?
 int Field_12_0_0_63854_017?
 
@@ -65,21 +49,21 @@ Field_12_0_0_63534_016<32>
 
 LAYOUT EAA015F9
 BUILD 12.0.0.63854
-Field_12_0_0_63854_000_lang
-Field_12_0_0_63854_001[3]
-$id$Field_12_0_0_63854_002<32>
-Field_12_0_0_63854_003<32>
-Field_12_0_0_63854_004<32>
-Field_12_0_0_63854_005<32>
-Field_12_0_0_63854_006<u8>
-Field_12_0_0_63854_007<u8>
-Field_12_0_0_63854_008<32>
-Field_12_0_0_63854_009<32>
-Field_12_0_0_63854_010<32>
-Field_12_0_0_63854_011<32>
-Field_12_0_0_63854_012
-Field_12_0_0_63854_013<32>
-Field_12_0_0_63854_014<32>
-Field_12_0_0_63854_015<8>
+Name_lang
+InitialRotation[3]
+$id$ID<32>
+Field_12_0_0_63534_003<32>
+GameObjectID<32>
+Flags<32> //  DBAnalyser: [Flags, 0,89%]
+Type<u8>
+ModelType<u8>
+ModelFileDataID<32>
+ThumbnailFileDataID<32>
+WeightCost<32>
+ItemID<32>
+InitialScale
+Field_12_0_0_63534_013<32>
+OrderIndex<32>
+Field_12_0_0_63534_015<8> //  DBAnalyser: [Field_12_0_0_63534_015, 0,89%]
 Field_12_0_0_63854_016<32>
 Field_12_0_0_63854_017<32>

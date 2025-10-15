@@ -2,8 +2,6 @@ COLUMNS
 int ID
 int Type?
 int Field_12_0_0_63534_001?
-int Field_12_0_0_63854_000?
-int Field_12_0_0_63854_001?
 
 LAYOUT 023B8F4A
 BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728
@@ -14,5 +12,5 @@ $noninline,relation$Field_12_0_0_63534_001<32>
 LAYOUT C31EAF5A
 BUILD 12.0.0.63854
 $noninline,id$ID<32>
-Field_12_0_0_63854_000<u32>
-$noninline,relation$Field_12_0_0_63854_001<32>
+Type<u32>
+$noninline,relation$Field_12_0_0_63534_001<32>
