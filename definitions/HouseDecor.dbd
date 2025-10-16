@@ -16,8 +16,7 @@ int Field_12_0_0_63534_013?
 int OrderIndex?
 int Field_12_0_0_63534_015?
 int Field_12_0_0_63534_016?
-int Field_12_0_0_63854_016?
-int Field_12_0_0_63854_017?
+int<UiModelScene::ID> UiModelSceneID?
 
 LAYOUT A2E1530F
 BUILD 11.2.5.62785, 11.2.5.62940, 11.2.5.63092, 11.2.5.63286, 11.2.5.63506, 11.2.5.63660, 11.2.5.63704, 11.2.5.63796, 11.2.5.63825, 11.2.5.63834
@@ -54,7 +53,7 @@ InitialRotation[3]
 $id$ID<32>
 Field_12_0_0_63534_003<32>
 GameObjectID<32>
-Flags<32> //  DBAnalyser: [Flags, 0,89%]
+Flags<32>
 Type<u8>
 ModelType<u8>
 ModelFileDataID<32>
@@ -64,6 +63,6 @@ ItemID<32>
 InitialScale
 Field_12_0_0_63534_013<32>
 OrderIndex<32>
-Field_12_0_0_63534_015<8> //  DBAnalyser: [Field_12_0_0_63534_015, 0,89%]
-Field_12_0_0_63854_016<32>
-Field_12_0_0_63854_017<32>
+Field_12_0_0_63534_015<8>
+Field_12_0_0_63534_016<32>
+UiModelSceneID<32>
