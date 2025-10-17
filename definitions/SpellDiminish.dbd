@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-locstring Field_12_0_0_63854_000_lang?
-int Field_12_0_0_63854_001?
-float Field_12_0_0_63854_002?
+locstring Name_lang?
+int Duration?
+float Multiplier?
 int Field_12_0_0_63854_003?
-int Field_12_0_0_63854_004?
-int Field_12_0_0_63854_005?
+int ImmunityStacks? // Players and some NPCs become immune after this many applications
+int MaxStacks? // If nonzero, then Multiplier can only apply this many times
 int Field_12_0_0_63854_006?
 
 LAYOUT 6E3341BA
 BUILD 12.0.0.63854
 $noninline,id$ID<32>
-Field_12_0_0_63854_000_lang
-Field_12_0_0_63854_001<32>
-Field_12_0_0_63854_002
+Name_lang
+Duration<32>
+Multiplier
 Field_12_0_0_63854_003<32>
-Field_12_0_0_63854_004<32>
-Field_12_0_0_63854_005<32>
+ImmunityStacks<32>
+MaxStacks<32>
 Field_12_0_0_63854_006<32>

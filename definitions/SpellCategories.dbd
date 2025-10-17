@@ -9,7 +9,7 @@ int<SpellMechanic::ID> Mechanic
 int PreventionType // &1: silence, &2: pacify, &4: no actions
 int<SpellCategory::ID> StartRecoveryCategory
 int<SpellCategory::ID> ChargeCategory
-int Field_12_0_0_63854_003?
+int DiminishType? // mask reference to SpellDiminish.db2 records
 
 BUILD 4.0.0.12232-4.3.4.15595
 $id$ID<32>
@@ -226,7 +226,7 @@ $noninline,id$ID<32>
 DifficultyID<16>
 Category<16>
 DefenseType<8>
-Field_12_0_0_63854_003<32>
+DiminishType<32>
 DispelType<8>
 Mechanic<8>
 PreventionType<32>

@@ -2,7 +2,7 @@ COLUMNS
 int ID
 locstring FeatureDescription_lang
 int<FileData::ID> FeatureIcon
-int ParentID
+int<UIExpansionDisplayInfo::ID> ParentID
 
 LAYOUT 331022F2, C9B51E5D, 2C3DA03F
 BUILD 10.0.0.43342
