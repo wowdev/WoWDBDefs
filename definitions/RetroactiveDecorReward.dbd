@@ -1,9 +1,9 @@
 COLUMNS
 int ID?
 int<HouseDecor::ID> HouseDecorID?
-int RecordType? // 1 = achievement?
-int RecordID?
-int Field_12_0_0_63534_004?
+int Field_12_0_0_63534_002? // 1 = achievement?
+int<Achievement::ID> AchievementID?
+int<QuestV2::ID> QuestID?
 int Field_12_0_0_63967_005?
 
 LAYOUT FBFDAE5B
@@ -11,15 +11,15 @@ BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728, 12.0.0.63854
 BUILD 11.2.7.63642, 11.2.7.63853
 $id$ID<32>
 HouseDecorID<32>
-RecordType<32>
-RecordID<32>
-Field_12_0_0_63534_004<32>
+Field_12_0_0_63534_002<32>
+AchievementID<32>
+QuestID<32>
 
 LAYOUT 1B37F823
 BUILD 12.0.0.63967
 $id$ID<32>
 HouseDecorID<32>
-RecordType<32>
-RecordID<32>
-Field_12_0_0_63534_004<32>
+Field_12_0_0_63534_002<32>
+AchievementID<32>
+QuestID<32>
 Field_12_0_0_63967_005<32>

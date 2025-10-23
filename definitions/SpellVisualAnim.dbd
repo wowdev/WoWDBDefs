@@ -3,9 +3,6 @@ int ID
 int<AnimKit::ID> AnimKitID
 int<AnimationData::ID> InitialAnimID
 int<AnimationData::ID> LoopAnimID
-int Field_12_0_0_63967_000?
-int Field_12_0_0_63967_001?
-int Field_12_0_0_63967_002?
 int Field_12_0_0_63967_003?
 
 LAYOUT 0ABD7A19, D0D2BCCD
@@ -116,7 +113,7 @@ AnimKitID<u16>
 LAYOUT 67103D15
 BUILD 12.0.0.63967
 $noninline,id$ID<32>
-Field_12_0_0_63967_000<16>
-Field_12_0_0_63967_001<16>
-Field_12_0_0_63967_002<u16>
+InitialAnimID<16>
+LoopAnimID<16>
+AnimKitID<u16>
 Field_12_0_0_63967_003<32>
