@@ -7,13 +7,7 @@ int<RoomWmoData::ID> RoomWmoDataID?
 int<UiTextureAtlasElement::ID> UiTextureAtlasElementID?
 int WeightCost?
 int Field_12_0_0_63724_002? // DBAnalyser: [Field_12_0_0_63534_002, 0,95%]
-locstring Field_12_0_0_63967_000_lang?
 int Field_12_0_0_63967_001?
-int Field_12_0_0_63967_002?
-int Field_12_0_0_63967_003?
-int Field_12_0_0_63967_004?
-int Field_12_0_0_63967_005?
-int Field_12_0_0_63967_006?
 
 LAYOUT 9F9F9290
 BUILD 12.0.0.63534
@@ -38,10 +32,10 @@ WeightCost<32>
 LAYOUT DA77DDD3
 BUILD 12.0.0.63967
 $noninline,id$ID<32>
-Field_12_0_0_63967_000_lang
+Name_lang
 Field_12_0_0_63967_001<8>
-Field_12_0_0_63967_002<32>
-Field_12_0_0_63967_003<32>
-Field_12_0_0_63967_004<32>
-Field_12_0_0_63967_005<32>
-Field_12_0_0_63967_006<32>
+Flags<32>
+Field_12_0_0_63724_002<32>
+RoomWmoDataID<32>
+UiTextureAtlasElementID<32>
+WeightCost<32>
