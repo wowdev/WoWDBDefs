@@ -6,7 +6,7 @@ float Multiplier?
 int Field_12_0_0_63854_003?
 int ImmunityStacks? // Players and some NPCs become immune after this many applications
 int MaxStacks? // If nonzero, then Multiplier can only apply this many times
-int Field_12_0_0_63854_006?
+int<FileData::ID> IconFileDataID?
 
 LAYOUT 6E3341BA
 BUILD 12.0.0.63854, 12.0.0.63967
@@ -17,4 +17,4 @@ Multiplier
 Field_12_0_0_63854_003<32>
 ImmunityStacks<32>
 MaxStacks<32>
-Field_12_0_0_63854_006<32>
+IconFileDataID<32>
