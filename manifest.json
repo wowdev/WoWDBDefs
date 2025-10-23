@@ -1785,6 +1785,16 @@
     "db2FileDataID": 1278398
   },
   {
+    "tableName": "EventSchedulerCategory",
+    "tableHash": "994BD2AC",
+    "db2FileDataID": 7499494
+  },
+  {
+    "tableName": "EventSchedulerEvent",
+    "tableHash": "16308F61",
+    "db2FileDataID": 7499495
+  },
+  {
     "tableName": "Exhaustion",
     "tableHash": "3386B543",
     "dbcFileDataID": 841609,
@@ -2718,6 +2728,11 @@
     "tableName": "HouseLevelData",
     "tableHash": "CD85A790",
     "db2FileDataID": 7149539
+  },
+  {
+    "tableName": "HouseLevelRewardInfo",
+    "tableHash": "6DCA2D4D",
+    "db2FileDataID": 7495433
   },
   {
     "tableName": "HouseRoom",
@@ -4706,6 +4721,11 @@
     "tableName": "RetroactiveDecorReward",
     "tableHash": "9DD357BE",
     "db2FileDataID": 7439104
+  },
+  {
+    "tableName": "RetroactiveDecorRewardCriteria",
+    "tableHash": "59FEA664",
+    "db2FileDataID": 7507122
   },
   {
     "tableName": "RewardPack",
