@@ -9,6 +9,15 @@ int ObjectID // depending on Type: {0, 3, 11}: CreatureID, 1: ItemID, 2: GameObj
 locstring Description_lang
 int Flags
 int Field_12_0_0_63534_007?
+locstring Field_11_2_7_64011_000_lang?
+int Field_11_2_7_64011_001?
+int Field_11_2_7_64011_002?
+int Field_11_2_7_64011_003?
+int Field_11_2_7_64011_004?
+int Field_11_2_7_64011_005?
+int Field_11_2_7_64011_006?
+int Field_11_2_7_64011_007?
+int Field_11_2_7_64011_008?
 
 LAYOUT 34AED79B
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -201,6 +210,19 @@ OrderIndex<u8>
 Flags<32>
 StorageIndex<u8>
 $noninline,relation$QuestID<32>
+
+LAYOUT B85A3F1F
+BUILD 11.2.7.64011
+$noninline,id$ID<32>
+Field_11_2_7_64011_000_lang
+Field_11_2_7_64011_001<32>
+Field_11_2_7_64011_002<32>
+Field_11_2_7_64011_003<32>
+Field_11_2_7_64011_004<u8>
+Field_11_2_7_64011_005<32>
+Field_11_2_7_64011_006<u8>
+Field_11_2_7_64011_007<32>
+$noninline,relation$Field_11_2_7_64011_008<32>
 
 LAYOUT 50E2491F
 BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728, 12.0.0.63854, 12.0.0.63967
