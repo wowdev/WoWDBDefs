@@ -5,6 +5,14 @@ int<Item::ID> ItemID
 float MaxDifficultyAdjustment
 float ReagentEffectPct
 int<ModifiedCraftingCategory::ID> ModifiedCraftingCategoryID?
+int Field_12_0_0_64124_000?
+int Field_12_0_0_64124_001?
+int Field_12_0_0_64124_002?
+int Field_12_0_0_64124_003?
+float Field_12_0_0_64124_004?
+float Field_12_0_0_64124_005?
+int Field_12_0_0_64124_006?
+int Field_12_0_0_64124_007?
 
 LAYOUT EFF36D8D
 BUILD 10.0.0.43342
@@ -52,3 +60,14 @@ ItemID<32>
 MaxDifficultyAdjustment
 ReagentEffectPct
 $noninline,relation$ModifiedCraftingCategoryID<32>
+
+LAYOUT BFED1EE1
+BUILD 12.0.0.64124
+$id$Field_12_0_0_64124_000<32>
+Field_12_0_0_64124_001<32>
+Field_12_0_0_64124_002<32>
+Field_12_0_0_64124_003<32>
+Field_12_0_0_64124_004
+Field_12_0_0_64124_005
+Field_12_0_0_64124_006<32>
+$noninline,relation$Field_12_0_0_64124_007<32>
