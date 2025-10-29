@@ -14,39 +14,24 @@ int Field_12_0_0_63534_011?
 int PlotIndex?
 int WorldState?
 float Field_12_0_0_63724_008?
-int Field_11_2_7_64044_000?
-string Field_11_2_7_64044_001?
-float Field_11_2_7_64044_002?
-float Field_11_2_7_64044_003?
-float Field_11_2_7_64044_004?
-float Field_11_2_7_64044_005?
-float Field_11_2_7_64044_006?
-float Field_11_2_7_64044_007?
-float Field_11_2_7_64044_008?
-int Field_11_2_7_64044_009?
-int Field_11_2_7_64044_010?
-int Field_11_2_7_64044_011?
-int Field_11_2_7_64044_012?
-int Field_11_2_7_64044_013?
-int Field_11_2_7_64044_014?
 
 LAYOUT 4D8362A1
 BUILD 11.2.7.64044
-Field_11_2_7_64044_000<u64>
-Field_11_2_7_64044_001
-Field_11_2_7_64044_002[3]
-Field_11_2_7_64044_003[3]
-Field_11_2_7_64044_004[3]
-Field_11_2_7_64044_005[3]
-Field_11_2_7_64044_006[3]
-Field_11_2_7_64044_007[3]
-Field_11_2_7_64044_008[3]
-$id$Field_11_2_7_64044_009<32>
-$relation$Field_11_2_7_64044_010<32>
-Field_11_2_7_64044_011<32>
-Field_11_2_7_64044_012<32>
-Field_11_2_7_64044_013<32>
-Field_11_2_7_64044_014<32>
+Cost<u64>
+Field_12_0_0_63534_001
+HousePosition[3]
+HouseRotation[3]
+Field_12_0_0_63534_004[3]
+Field_12_0_0_63534_005[3]
+CornerStonePosition[3]
+CornerStoneRotation[3]
+Field_12_0_0_63724_008[3]
+$id$ID<32>
+$relation$NeighborhoodMapID<32>
+Field_12_0_0_63534_010<32>
+Field_12_0_0_63534_011<32>
+PlotIndex<32>
+WorldState<32>
 
 LAYOUT 928CA287
 BUILD 12.0.0.63534
