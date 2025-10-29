@@ -1,6 +1,15 @@
 COLUMNS
 int ID?
 int<HouseExteriorWmoData::ID> HouseExteriorWmoDataID?
+float Field_11_2_7_64044_000?
+int Field_11_2_7_64044_001?
+int Field_11_2_7_64044_002?
+
+LAYOUT 2D47B58D
+BUILD 11.2.7.64044
+Field_11_2_7_64044_000[3]
+$id$Field_11_2_7_64044_001<32>
+$noninline,relation$Field_11_2_7_64044_002<32>
 
 LAYOUT BF7717C5
 BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728, 12.0.0.63854, 12.0.0.63967
