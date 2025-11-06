@@ -3,13 +3,13 @@ locstring Name_lang?
 float Field_12_0_0_63534_001?
 int ID?
 int Size?
-int<ExteriorComponentGroup::ID> ExteriorComponentGroupID?
+int<ExteriorComponent::ID> ParentComponentID?
 int<FileData::ID> ModelFileDataID?
 int Field_12_0_0_63534_006?
 int Field_12_0_0_63534_007?
 int<ExteriorComponentType::ID> Type?
 int Field_12_0_0_63534_009?
-int Field_12_0_0_63534_010?
+int<GameObjects::ID> GameObjectID?
 int<HouseExteriorWmoData::ID> HouseExteriorWmoDataID?
 int Field_11_2_7_64044_011?
 
@@ -20,13 +20,13 @@ Name_lang
 Field_12_0_0_63534_001[3]
 $id$ID<32>
 Size<u8>
-ExteriorComponentGroupID<32>
+ParentComponentID<32>
 ModelFileDataID<32>
 Field_12_0_0_63534_006<32>
 Field_12_0_0_63534_007<u8>
 Type<u8>
 Field_12_0_0_63534_009<32>
-Field_12_0_0_63534_010<32>
+GameObjectID<32>
 $noninline,relation$HouseExteriorWmoDataID<32>
 
 LAYOUT 027A2F44
@@ -36,12 +36,12 @@ Name_lang
 Field_12_0_0_63534_001[3]
 $id$ID<32>
 Size<u8>
-ExteriorComponentGroupID<32>
+ParentComponentID<32>
 ModelFileDataID<32>
 Field_12_0_0_63534_006<32>
 Field_12_0_0_63534_007<u8>
 Type<u8>
 Field_12_0_0_63534_009<32>
-Field_12_0_0_63534_010<32>
+GameObjectID<32>
 Field_11_2_7_64044_011<32>
 $noninline,relation$HouseExteriorWmoDataID<32>
