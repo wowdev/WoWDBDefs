@@ -52,14 +52,9 @@ namespace DBDefsLib
             return minBuild.Equals(buildRange.minBuild) && maxBuild.Equals(buildRange.maxBuild);
         }
 
-        private int CombineHashes(Object obj, int current = 0)
-        {
-            return current ^ obj.GetHashCode() + -1640531527 + (current << 6) + (current >> 2);
-        }
-
         public override int GetHashCode()
         {
-            return CombineHashes(CombineHashes(minBuild), maxBuild.GetHashCode());
+            return HashCode.Combine(minBuild, maxBuild);
         }
 
         public int CompareTo(object obj)
