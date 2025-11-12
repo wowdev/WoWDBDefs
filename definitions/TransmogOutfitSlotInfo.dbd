@@ -1,30 +1,30 @@
 COLUMNS
-int Field_12_0_0_64339_000?
-int Field_12_0_0_64339_001?
-string Field_12_0_0_64339_002?
-int Field_12_0_0_64339_003?
-int Field_12_0_0_64339_004?
-int Field_12_0_0_64339_005?
-int Field_12_0_0_64339_006?
-int Field_12_0_0_64339_007?
-int Field_12_0_0_64339_008?
-int Field_12_0_0_64339_009?
-int Field_12_0_0_64339_010?
-int Field_12_0_0_64339_011?
-int Field_12_0_0_64339_012?
+int CostA?
+int CostB?
+string InventorySlotName?
+int ID?
+int TransmogOutfitSlotEnum?
+int InventorySlotEnum? // EnumeratedString 259
+int Flags? // 0x1: CannotBeHidden, 0x2: CanHaveIllusions, 0x4: IsSecondarySlot
+int Field_12_0_0_64339_007? // TransmogType?
+int TransmogCollectionType?
+int<TransmogOutfitSlotInfo::ID> OtherSlot?
+int InventorySlotID?
+int<UiTextureAtlasElement::ID> UnassignedAtlasID?
+int<UiTextureAtlasElement::ID> UnassignedDisplayAtlasID?
 
 LAYOUT E29669E5
 BUILD 12.0.0.64339
-Field_12_0_0_64339_000<u64>
-Field_12_0_0_64339_001<u64>
-Field_12_0_0_64339_002
-$id$Field_12_0_0_64339_003<32>
-Field_12_0_0_64339_004<32>
-Field_12_0_0_64339_005<32>
-Field_12_0_0_64339_006<32>
+CostA<u64>
+CostB<u64>
+InventorySlotName
+$id$ID<32>
+TransmogOutfitSlotEnum<32>
+InventorySlotEnum<32>
+Flags<32>
 Field_12_0_0_64339_007<32>
-Field_12_0_0_64339_008<u8>
-Field_12_0_0_64339_009<32>
-Field_12_0_0_64339_010<32>
-Field_12_0_0_64339_011<32>
-Field_12_0_0_64339_012<32>
+TransmogCollectionType<u8>
+OtherSlot<32>
+InventorySlotID<32>
+UnassignedAtlasID<32>
+UnassignedDisplayAtlasID<32>

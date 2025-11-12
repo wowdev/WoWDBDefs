@@ -1,14 +1,14 @@
 COLUMNS
-locstring Field_12_0_0_64339_000_lang?
-locstring Field_12_0_0_64339_001_lang?
-int Field_12_0_0_64339_002?
-int Field_12_0_0_64339_003?
-int Field_12_0_0_64339_004?
+locstring Name_lang?
+locstring Description_lang?
+int ID?
+int TriggerEnum? // 0: Manual, 1: TransmogUpdate, 2: Location, 3: Movement, 4: Specialization, 5: EquipmentSet, 6: Forms
+int Flags? // 0x1: CanLockOutfit, 0x2: CanChangeLockedOutfit, 0x4: IsPlayerFacing, 0x8: SituationsAreExclusive, 0x10: DisabledTrigger
 
 LAYOUT 7833CAB8
 BUILD 12.0.0.64339
-Field_12_0_0_64339_000_lang
-Field_12_0_0_64339_001_lang
-$id$Field_12_0_0_64339_002<32>
-Field_12_0_0_64339_003<8>
-Field_12_0_0_64339_004<32>
+Name_lang
+Description_lang
+$id$ID<32>
+TriggerEnum<8>
+Flags<32>

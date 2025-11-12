@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-int Field_12_0_0_64339_000?
-int Field_12_0_0_64339_001?
-locstring Field_12_0_0_64339_002_lang?
-int Field_12_0_0_64339_003?
-int Field_12_0_0_64339_004?
-int Field_12_0_0_64339_005?
-int Field_12_0_0_64339_006?
+int CostA?
+int CostB?
+locstring Name_lang?
+int OptionEnum?
+int<TransmogOutfitSlotInfo::ID> TransmogOutfitSlotInfoID?
+int Flags? // 0x1: IllusionNotAllowed, 0x2: DynamicOptionName, 0x4: DisablesOffhandSlot
+int<TransmogOutfitSlotOption::ID> OtherSlot?
 
 LAYOUT 4FFCDC71
 BUILD 12.0.0.64339
 $noninline,id$ID<32>
-Field_12_0_0_64339_000<u64>
-Field_12_0_0_64339_001<u64>
-Field_12_0_0_64339_002_lang
-Field_12_0_0_64339_003<32>
-$relation$Field_12_0_0_64339_004<32>
-Field_12_0_0_64339_005<32>
-Field_12_0_0_64339_006<32>
+CostA<u64>
+CostB<u64>
+Name_lang
+OptionEnum<32>
+$relation$TransmogOutfitSlotInfoID<32>
+Flags<32>
+OtherSlot<32>

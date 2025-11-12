@@ -1,16 +1,16 @@
 COLUMNS
-locstring Field_12_0_0_64339_000_lang?
-int Field_12_0_0_64339_001?
-int Field_12_0_0_64339_002?
-int Field_12_0_0_64339_003?
-int Field_12_0_0_64339_004?
-int Field_12_0_0_64339_005?
+locstring Name_lang?
+int ID?
+int SituationEnum?
+int Flags? // 0x1: IsPlayerFacing, 0x2: SpecUseTalentLoadout, 0x4: AllSituation, 0x8: DefaultsToOn, 0x10: DynamicallyNamed, 0x20: NoneSituation, 0x40: DisabledSituation
+int<TransmogSituationGroup::ID> TransmogSituationGroupID?
+int OrderIndex?
 
 LAYOUT FA6B434F
 BUILD 12.0.0.64339
-Field_12_0_0_64339_000_lang
-$id$Field_12_0_0_64339_001<32>
-Field_12_0_0_64339_002<8>
-Field_12_0_0_64339_003<32>
-$relation$Field_12_0_0_64339_004<32>
-Field_12_0_0_64339_005<32>
+Name_lang
+$id$ID<32>
+SituationEnum<8>
+Flags<32>
+$relation$TransmogSituationGroupID<32>
+OrderIndex<32>
