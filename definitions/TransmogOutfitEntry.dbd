@@ -1,6 +1,6 @@
 COLUMNS
 int Cost?
-locstring Name?
+locstring Name_lang?
 int ID?
 int Field_12_0_0_64339_003? // TransmogSituationID?
 int Source? // 0: StampedSource, 1: AutomaticallyAwarded, 2: PlayerPurchased
@@ -10,7 +10,7 @@ int Field_12_0_0_64339_006?
 LAYOUT C97F5DFD
 BUILD 12.0.0.64339
 Cost<u64>
-Name
+Name_lang
 $id$ID<32>
 Field_12_0_0_64339_003<32>
 Source<u8>
