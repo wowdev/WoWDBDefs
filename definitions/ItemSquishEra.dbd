@@ -2,9 +2,6 @@ COLUMNS
 int ID
 int Patch?
 int<Curve::ID> CurveID?
-int Field_12_0_0_64339_000?
-int Field_12_0_0_64339_001?
-int Field_12_0_0_64339_002?
 int Field_12_0_0_64339_003?
 
 LAYOUT 0E5EEFD3
@@ -25,7 +22,7 @@ CurveID<32>
 
 LAYOUT ED6F4ECF
 BUILD 12.0.0.64339
-$id$Field_12_0_0_64339_000<32>
-Field_12_0_0_64339_001<32>
-Field_12_0_0_64339_002<32>
+$id$ID<32>
+Patch<32>
+CurveID<32>
 Field_12_0_0_64339_003<32>
