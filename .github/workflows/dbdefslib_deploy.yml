@@ -26,7 +26,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 9.x.x
+        dotnet-version: 10.x.x
     # Create the NuGet package in the folder from the environment variable NuGetDirectory
     - run: dotnet pack "code/C#" --configuration Release --output ${{ env.NuGetDirectory }} /p:ContinuousIntegrationBuild=true 
 
@@ -46,7 +46,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 9.x.x
+          dotnet-version: 10.x.x
 
       # Download the NuGet package created in the previous job
       - uses: actions/download-artifact@v4.1.7
@@ -71,7 +71,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 9.x.x
+        dotnet-version: 10.x.x
     - name: Run tests
       run: dotnet test "code/C#" --configuration Release
 
@@ -88,7 +88,7 @@ jobs:
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 9.x.x
+          dotnet-version: 10.x.x
 
       # Publish all NuGet packages to NuGet.org
       # Use --skip-duplicate to prevent errors if a package with the same version already exists.
