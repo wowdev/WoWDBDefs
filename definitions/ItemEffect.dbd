@@ -10,16 +10,6 @@ int<SpellCategory::ID> SpellCategoryID
 int<Spell::ID> SpellID
 int TriggerType
 int<PlayerCondition::ID> PlayerConditionID?
-int Field_2_5_5_64508_000?
-int Field_2_5_5_64508_001?
-int Field_2_5_5_64508_002?
-int Field_2_5_5_64508_003?
-int Field_2_5_5_64508_004?
-int Field_2_5_5_64508_005?
-int Field_2_5_5_64508_006?
-int Field_2_5_5_64508_007?
-int Field_2_5_5_64508_008?
-int Field_2_5_5_64508_009?
 
 LAYOUT 95B79695
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -43,16 +33,16 @@ $noninline,relation$ParentItemID<32>
 LAYOUT D696840A
 BUILD 2.5.5.64508
 $noninline,id$ID<32>
-Field_2_5_5_64508_000<u8>
-Field_2_5_5_64508_001<8>
-Field_2_5_5_64508_002<16>
-Field_2_5_5_64508_003<32>
-Field_2_5_5_64508_004<32>
-Field_2_5_5_64508_005<u16>
-Field_2_5_5_64508_006<32>
-Field_2_5_5_64508_007<u16>
-Field_2_5_5_64508_008<32>
-$noninline,relation$Field_2_5_5_64508_009<32>
+LegacySlotIndex<u8>
+TriggerType<8>
+Charges<16>
+CoolDownMSec<32>
+CategoryCoolDownMSec<32>
+SpellCategoryID<u16>
+SpellID<32>
+ChrSpecializationID<u16>
+PlayerConditionID<32>
+$noninline,relation$ParentItemID<32>
 
 LAYOUT F2A2E644
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056, 4.4.0.55141, 4.4.0.55262, 4.4.0.55460, 4.4.0.55613, 4.4.0.55639, 4.4.0.56014, 4.4.0.56420, 4.4.0.56489, 4.4.0.56713, 4.4.0.57244
