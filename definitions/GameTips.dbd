@@ -5,11 +5,6 @@ int Min_level
 int Max_level
 int SortIndex
 int<ContentTuning::ID> ContentTuningID
-locstring Field_12_0_0_64499_000_lang?
-int Field_12_0_0_64499_001?
-int Field_12_0_0_64499_002?
-int Field_12_0_0_64499_003?
-int Field_12_0_0_64499_004?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12319
@@ -173,8 +168,8 @@ ContentTuningID<32>
 LAYOUT 00F69717
 BUILD 12.0.0.64499
 $noninline,id$ID<32>
-Field_12_0_0_64499_000_lang
-Field_12_0_0_64499_001<32>
-Field_12_0_0_64499_002<32>
-Field_12_0_0_64499_003<32>
-Field_12_0_0_64499_004<32>
+Text_lang
+SortIndex<32>
+Min_level<32>
+Max_level<32>
+ContentTuningID<32>
