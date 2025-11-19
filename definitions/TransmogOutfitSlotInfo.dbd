@@ -12,6 +12,19 @@ int<TransmogOutfitSlotInfo::ID> OtherSlot?
 int InventorySlotID?
 int<UiTextureAtlasElement::ID> UnassignedAtlasID?
 int<UiTextureAtlasElement::ID> UnassignedDisplayAtlasID?
+string Field_12_0_0_64499_000?
+int Field_12_0_0_64499_001?
+int Field_12_0_0_64499_002?
+int Field_12_0_0_64499_003?
+int Field_12_0_0_64499_004?
+int Field_12_0_0_64499_005?
+int Field_12_0_0_64499_006?
+int Field_12_0_0_64499_007?
+int Field_12_0_0_64499_008?
+int Field_12_0_0_64499_009?
+int Field_12_0_0_64499_010?
+float Field_12_0_0_64499_011?
+float Field_12_0_0_64499_012?
 
 LAYOUT E29669E5
 BUILD 12.0.0.64339
@@ -28,3 +41,19 @@ OtherSlot<32>
 InventorySlotID<32>
 UnassignedAtlasID<32>
 UnassignedDisplayAtlasID<32>
+
+LAYOUT C034B46F
+BUILD 12.0.0.64499
+Field_12_0_0_64499_000
+$id$Field_12_0_0_64499_001<32>
+Field_12_0_0_64499_002<32>
+Field_12_0_0_64499_003<32>
+Field_12_0_0_64499_004<32>
+Field_12_0_0_64499_005<32>
+Field_12_0_0_64499_006<u8>
+Field_12_0_0_64499_007<32>
+Field_12_0_0_64499_008<32>
+Field_12_0_0_64499_009<32>
+Field_12_0_0_64499_010<32>
+Field_12_0_0_64499_011
+Field_12_0_0_64499_012

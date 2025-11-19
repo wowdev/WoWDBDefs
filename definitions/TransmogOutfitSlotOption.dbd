@@ -7,6 +7,13 @@ int OptionEnum?
 int<TransmogOutfitSlotInfo::ID> TransmogOutfitSlotInfoID?
 int Flags? // 0x1: IllusionNotAllowed, 0x2: DynamicOptionName, 0x4: DisablesOffhandSlot
 int<TransmogOutfitSlotOption::ID> OtherSlot?
+locstring Field_12_0_0_64499_000_lang?
+int Field_12_0_0_64499_001?
+int Field_12_0_0_64499_002?
+int Field_12_0_0_64499_003?
+int Field_12_0_0_64499_004?
+float Field_12_0_0_64499_005?
+float Field_12_0_0_64499_006?
 
 LAYOUT 4FFCDC71
 BUILD 12.0.0.64339
@@ -18,3 +25,14 @@ OptionEnum<32>
 $relation$TransmogOutfitSlotInfoID<32>
 Flags<32>
 OtherSlot<32>
+
+LAYOUT 8C80370F
+BUILD 12.0.0.64499
+$noninline,id$ID<32>
+Field_12_0_0_64499_000_lang
+Field_12_0_0_64499_001<32>
+$relation$Field_12_0_0_64499_002<32>
+Field_12_0_0_64499_003<32>
+Field_12_0_0_64499_004<32>
+Field_12_0_0_64499_005
+Field_12_0_0_64499_006

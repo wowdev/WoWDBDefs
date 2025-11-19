@@ -11,6 +11,19 @@ int<UiModelScene::ID> UiModelSceneID?
 int<DelvesSeason::ID> DelvesSeasonID?
 int<TraitSubTree::ID> TraitSubTreeID_Tank?
 int PlayerCompanionID?
+int Field_12_0_0_64499_000?
+int Field_12_0_0_64499_001?
+int Field_12_0_0_64499_002?
+int Field_12_0_0_64499_003?
+int Field_12_0_0_64499_004?
+int Field_12_0_0_64499_005?
+int Field_12_0_0_64499_006?
+int Field_12_0_0_64499_007?
+int Field_12_0_0_64499_008?
+int Field_12_0_0_64499_009?
+int Field_12_0_0_64499_010?
+int Field_12_0_0_64499_011?
+int Field_12_0_0_64499_012?
 
 LAYOUT 4EF4C3DB
 BUILD 11.0.7.57361, 11.0.7.57409, 11.0.7.57528, 11.0.7.57641, 11.0.7.57788, 11.0.7.58046, 11.0.7.58123, 11.0.7.58162, 11.0.7.58187, 11.0.7.58238, 11.0.7.58533, 11.0.7.58608, 11.0.7.58630, 11.0.7.58680, 11.0.7.58773, 11.0.7.58867, 11.0.7.58911, 11.0.7.59207, 11.0.7.59302
@@ -74,3 +87,19 @@ FactionID<32>
 CreatureDisplayInfoID<32>
 UiModelSceneID<32>
 $noninline,relation$PlayerCompanionID<32>
+
+LAYOUT D5604D16
+BUILD 12.0.0.64499
+$id$Field_12_0_0_64499_000<32>
+Field_12_0_0_64499_001<32>
+Field_12_0_0_64499_002<32>
+Field_12_0_0_64499_003<32>
+Field_12_0_0_64499_004<32>
+Field_12_0_0_64499_005<32>
+Field_12_0_0_64499_006<32>
+Field_12_0_0_64499_007<32>
+Field_12_0_0_64499_008<32>
+Field_12_0_0_64499_009<32>
+Field_12_0_0_64499_010<32>
+Field_12_0_0_64499_011<32>
+Field_12_0_0_64499_012<32>
