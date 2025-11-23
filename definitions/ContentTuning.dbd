@@ -28,17 +28,14 @@ int<Curve::ID> HPPrimaryStatScalingCurveID? // Additional HP scaling based on th
 int<Curve::ID> DMGPrimaryStatScalingCurveID? // Additional DMG scaling based on the ratio of players primary stat to ExpectedStat for his level
 int<PlayerDataElementCharacter::ID> PrimaryStatScalingModPlayerDataElementCharacterID? // modifies PrimaryStatScaling ratio calculation => ratio = ((player.GetPlayerDataElementCharacter(ID) * multiplier) + player.GetPrimaryStatValue()) / expectedPrimaryStatForLevel
 float PrimaryStatScalingModPlayerDataElementCharacterMultiplier? // Scaling value based on the above
-int Field_1_15_8_63829_000?
-int Field_1_15_8_63829_001?
-int Field_1_15_8_63829_002?
-int Field_1_15_8_63829_003?
-int Field_1_15_8_63829_004?
-int Field_1_15_8_63829_005?
-int Field_1_15_8_63829_006?
-int Field_1_15_8_63829_007?
-int Field_1_15_8_63829_008?
-int Field_1_15_8_63829_009?
-int Field_1_15_8_63829_010?
+int Field_1_15_8_63829_003? // DBAnalyser: [Flags, 0,95%], [ExpectedStatModID, 0,95%], [DifficultyESMID, 0,95%]
+int Field_1_15_8_63829_004? // DBAnalyser: [Flags, 0,95%], [ExpectedStatModID, 0,95%], [DifficultyESMID, 0,95%]
+int Field_1_15_8_63829_005? // DBAnalyser: [Flags, 0,95%], [ExpectedStatModID, 0,95%], [DifficultyESMID, 0,95%]
+int Field_1_15_8_63829_006? // DBAnalyser: [Flags, 0,95%], [ExpectedStatModID, 0,95%], [DifficultyESMID, 0,95%]
+int Field_1_15_8_63829_007? // DBAnalyser: [Flags, 0,95%], [ExpectedStatModID, 0,95%], [DifficultyESMID, 0,95%]
+int Field_1_15_8_63829_008? // DBAnalyser: [Flags, 0,95%], [ExpectedStatModID, 0,95%], [DifficultyESMID, 0,95%]
+int Field_1_15_8_63829_009? // DBAnalyser: [Flags, 0,95%], [ExpectedStatModID, 0,95%], [DifficultyESMID, 0,95%]
+int Field_1_15_8_63829_010? // DBAnalyser: [Flags, 0,95%], [ExpectedStatModID, 0,95%], [DifficultyESMID, 0,95%]
 float Field_1_15_8_63829_011?
 
 LAYOUT D0AEEA71
@@ -111,9 +108,9 @@ BUILD 5.5.3.64141, 5.5.3.64308, 5.5.3.64400, 5.5.3.64530
 BUILD 3.80.0.64140, 3.80.0.64393
 BUILD 2.5.5.64508
 BUILD 1.15.8.63829, 1.15.8.64057, 1.15.8.64130, 1.15.8.64272, 1.15.8.64344
-$id$Field_1_15_8_63829_000<32>
-Field_1_15_8_63829_001<32>
-Field_1_15_8_63829_002<32>
+$id$ID<32>
+MinLevelSquish<32>
+MaxLevelSquish<32>
 Field_1_15_8_63829_003<32>
 Field_1_15_8_63829_004<32>
 Field_1_15_8_63829_005<32>

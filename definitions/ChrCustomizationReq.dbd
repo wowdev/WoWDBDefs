@@ -10,24 +10,20 @@ locstring ReqSource_lang?
 int RaceMask?
 int RegionGroupMask? // 1 << (Cfg_Regions::RegionGroupMask - 1)
 int<ItemAppearance::ID> ReqItemAppearanceID?
-int Field_1_15_8_63829_000?
-locstring Field_1_15_8_63829_001_lang?
-int Field_1_15_8_63829_002?
-int Field_1_15_8_63829_003?
-int Field_1_15_8_63829_004?
-int Field_1_15_8_63829_005?
-int Field_1_15_8_63829_006?
-int Field_1_15_8_63829_007?
-int Field_1_15_8_63829_008?
-int Field_1_15_8_63829_009?
+int Field_1_15_8_63829_000? // DBAnalyser: [RaceMask, 1%], [OverrideArchive, 1%]
+int Field_1_15_8_63829_005? // DBAnalyser: [RegionGroupMask, 0,95%], [ReqAchievementID, 0,95%], [ReqQuestID, 0,95%], [ReqItemModifiedAppearanceID, 0,95%]
+int Field_1_15_8_63829_006? // DBAnalyser: [RegionGroupMask, 0,95%], [ReqAchievementID, 0,95%], [ReqQuestID, 0,95%], [ReqItemModifiedAppearanceID, 0,95%]
+int Field_1_15_8_63829_007? // DBAnalyser: [RegionGroupMask, 0,95%], [ReqAchievementID, 0,95%], [ReqQuestID, 0,95%], [ReqItemModifiedAppearanceID, 0,95%]
+int Field_1_15_8_63829_008? // DBAnalyser: [RaceMask, 1%], [OverrideArchive, 1%]
+int Field_1_15_8_63829_009? // DBAnalyser: [RegionGroupMask, 0,95%], [ReqAchievementID, 0,95%], [ReqQuestID, 0,95%], [ReqItemModifiedAppearanceID, 0,95%]
 
 LAYOUT 90325B6E
 BUILD 1.15.8.63829, 1.15.8.64057, 1.15.8.64130, 1.15.8.64272
 Field_1_15_8_63829_000<64>
-Field_1_15_8_63829_001_lang
-$id$Field_1_15_8_63829_002<32>
-Field_1_15_8_63829_003<32>
-Field_1_15_8_63829_004<32>
+ReqSource_lang
+$id$ID<32>
+ReqType<32>
+ClassMask<32>
 Field_1_15_8_63829_005<32>
 Field_1_15_8_63829_006<32>
 Field_1_15_8_63829_007<32>

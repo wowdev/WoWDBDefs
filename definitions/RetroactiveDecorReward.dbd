@@ -1,7 +1,7 @@
 COLUMNS
 int ID?
 int<HouseDecor::ID> HouseDecorID?
-int Field_12_0_0_63534_002? // 1 = achievement?
+int Field_12_0_0_63534_002?
 int<Achievement::ID> AchievementID?
 int<QuestV2::ID> QuestID?
 int Field_12_0_0_63967_005?
