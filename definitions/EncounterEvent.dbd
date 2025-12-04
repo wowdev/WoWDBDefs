@@ -1,22 +1,22 @@
 COLUMNS
 int ID
-int Field_12_0_0_64741_000?
+int<Spell::ID> SpellID?
 int Field_12_0_0_64741_001?
 int Field_12_0_0_64741_002?
 int Field_12_0_0_64741_003?
 int Field_12_0_0_64741_004?
 int Field_12_0_0_64741_005?
 int Field_12_0_0_64741_006?
-int Field_12_0_0_64741_007?
+int<DungeonEncounter::ID> DungeonEncounterID?
 
 LAYOUT 54A32DBB
 BUILD 12.0.0.64741
 $noninline,id$ID<32>
-Field_12_0_0_64741_000<32>
+SpellID<32>
 Field_12_0_0_64741_001<32>
 Field_12_0_0_64741_002<32>
 Field_12_0_0_64741_003<8>
 Field_12_0_0_64741_004<32>
 Field_12_0_0_64741_005<32>
 Field_12_0_0_64741_006<32>
-$noninline,relation$Field_12_0_0_64741_007<32>
+$noninline,relation$DungeonEncounterID<32>
