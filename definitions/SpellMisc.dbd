@@ -20,23 +20,8 @@ int<PlayerCondition::ID> ShowFutureSpellPlayerConditionID
 int SpellVisualScript? // for some reason shipped but if != 0, client errors.
 int ActiveSpellVisualScript?
 int<SpellDuration::ID> PvPDurationIndex?
-int Field_12_0_0_64741_000?
-int Field_12_0_0_64741_001?
-int Field_12_0_0_64741_002?
-int Field_12_0_0_64741_003?
-int Field_12_0_0_64741_004?
-int Field_12_0_0_64741_005?
-int Field_12_0_0_64741_006?
-float Field_12_0_0_64741_007?
-float Field_12_0_0_64741_008?
-float Field_12_0_0_64741_009?
-int Field_12_0_0_64741_010?
-int Field_12_0_0_64741_011?
-int Field_12_0_0_64741_012?
-int Field_12_0_0_64741_013?
-int Field_12_0_0_64741_014?
-int Field_12_0_0_64741_015?
-int Field_12_0_0_64741_016?
+int Field_12_0_0_64741_014? //  DBAnalyser: [SpellVisualScript, 0,95%], [ActiveSpellVisualScript, 0,95%]
+int Field_12_0_0_64741_015? //  DBAnalyser: [SpellVisualScript, 0,95%], [ActiveSpellVisualScript, 0,95%]
 
 LAYOUT 30366F5C
 BUILD 1.15.4.56400, 1.15.4.56419
@@ -582,20 +567,20 @@ $noninline,relation$SpellID<32>
 LAYOUT 434B3607
 BUILD 12.0.0.64741
 $noninline,id$ID<32>
-Field_12_0_0_64741_000<32>[17]
-Field_12_0_0_64741_001<16>
-Field_12_0_0_64741_002<u16>
-Field_12_0_0_64741_003<u16>
-Field_12_0_0_64741_004<u16>
-Field_12_0_0_64741_005<u16>
-Field_12_0_0_64741_006<u8>
-Field_12_0_0_64741_007
-Field_12_0_0_64741_008
-Field_12_0_0_64741_009
-Field_12_0_0_64741_010<32>
-Field_12_0_0_64741_011<32>
-Field_12_0_0_64741_012<32>
-Field_12_0_0_64741_013<32>
+Attributes<32>[17]
+DifficultyID<16>
+CastingTimeIndex<u16>
+DurationIndex<u16>
+PvPDurationIndex<u16>
+RangeIndex<u16>
+SchoolMask<u8>
+Speed
+LaunchDelay
+MinDuration
+SpellIconFileDataID<32>
+ActiveIconFileDataID<32>
+ContentTuningID<32>
+ShowFutureSpellPlayerConditionID<32>
 Field_12_0_0_64741_014<32>
 Field_12_0_0_64741_015<32>
-$noninline,relation$Field_12_0_0_64741_016<32>
+$noninline,relation$SpellID<32>

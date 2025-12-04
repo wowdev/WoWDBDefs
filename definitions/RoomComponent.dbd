@@ -7,14 +7,6 @@ int<FileData::ID> ModelFileDataID?
 int Type?
 int MeshStyleFilterID?
 int ConnectionType?
-float Field_12_0_0_64741_000?
-float Field_12_0_0_64741_001?
-int Field_12_0_0_64741_002?
-int Field_12_0_0_64741_003?
-int Field_12_0_0_64741_004?
-int Field_12_0_0_64741_005?
-int Field_12_0_0_64741_006?
-int Field_12_0_0_64741_007?
 int Field_12_0_0_64741_008?
 
 LAYOUT 50697E20
@@ -32,12 +24,12 @@ ConnectionType<u8>
 
 LAYOUT A5C69E52
 BUILD 12.0.0.64741
-Field_12_0_0_64741_000[3]
-Field_12_0_0_64741_001[3]
-$id$Field_12_0_0_64741_002<32>
-$relation$Field_12_0_0_64741_003<32>
-Field_12_0_0_64741_004<32>
-Field_12_0_0_64741_005<u8>
-Field_12_0_0_64741_006<32>
-Field_12_0_0_64741_007<u8>
+OffsetPos[3]
+OffsetRot[3]
+$id$ID<32>
+$relation$RoomWmoDataID<32>
+ModelFileDataID<32>
+Type<u8>
+MeshStyleFilterID<32>
+ConnectionType<u8>
 Field_12_0_0_64741_008<32>

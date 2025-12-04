@@ -5,12 +5,6 @@ int Field_12_0_0_63534_002?
 int<Achievement::ID> AchievementID?
 int<QuestV2::ID> QuestID?
 int Field_12_0_0_63967_005?
-int Field_12_0_0_64741_000?
-int Field_12_0_0_64741_001?
-int Field_12_0_0_64741_002?
-int Field_12_0_0_64741_003?
-int Field_12_0_0_64741_004?
-int Field_12_0_0_64741_005?
 
 LAYOUT FBFDAE5B
 BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728, 12.0.0.63854
@@ -34,9 +28,9 @@ Field_12_0_0_63967_005<32>
 
 LAYOUT 08D16408
 BUILD 12.0.0.64741
-$id$Field_12_0_0_64741_000<32>
-Field_12_0_0_64741_001<32>
-Field_12_0_0_64741_002<32>
-Field_12_0_0_64741_003<32>
-Field_12_0_0_64741_004<32>
-$noninline,relation$Field_12_0_0_64741_005<32>
+$id$ID<32>
+Field_12_0_0_63534_002<32>
+AchievementID<32>
+QuestID<32>
+Field_12_0_0_63967_005<32>
+$noninline,relation$HouseDecorID<32>
