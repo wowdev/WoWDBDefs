@@ -1,6 +1,6 @@
 COLUMNS
 int Cost?
-string Field_12_0_0_63534_001?
+string Name?
 float HousePosition?
 float HouseRotation?
 float Field_12_0_0_63534_004?
@@ -10,19 +10,17 @@ float CornerStoneRotation?
 int ID?
 int<NeighborhoodMap::ID> NeighborhoodMapID?
 int Field_12_0_0_63534_010?
-int Field_12_0_0_63534_011?
+int<GameObjects::ID> Field_12_0_0_63534_011?
 int PlotIndex?
 int WorldState?
 float Field_12_0_0_63724_008?
-float Field_12_0_0_64741_003? // DBAnalyser: [HouseRotation, 0,95%], [Field_12_0_0_63534_005, 0,95%]
-float Field_12_0_0_64741_005? // DBAnalyser: [HouseRotation, 0,95%], [Field_12_0_0_63534_005, 0,95%]
-int Field_12_0_0_64741_015?
-int Field_12_0_0_64741_016?
+int<GameObjects::ID> Field_12_0_0_64741_015?
+int<GameObjects::ID> Field_12_0_0_64741_016?
 
 LAYOUT 928CA287
 BUILD 12.0.0.63534
 Cost<u64>
-Field_12_0_0_63534_001
+Name
 HousePosition[3]
 HouseRotation[3]
 Field_12_0_0_63534_004[3]
@@ -40,7 +38,7 @@ LAYOUT DDAFB8F0
 BUILD 12.0.0.63724, 12.0.0.63728, 12.0.0.63854, 12.0.0.63967
 BUILD 11.2.7.63642, 11.2.7.63853, 11.2.7.64011
 Cost<u64>
-Field_12_0_0_63534_001
+Name
 HousePosition[3]
 HouseRotation[3]
 Field_12_0_0_63534_004[3]
@@ -60,7 +58,7 @@ BUILD 12.0.0.64124, 12.0.0.64228, 12.0.0.64339, 12.0.0.64499, 12.0.0.64507, 12.0
 BUILD 11.2.7.64044, 11.2.7.64169, 11.2.7.64438, 11.2.7.64587, 11.2.7.64632, 11.2.7.64704, 11.2.7.64725, 11.2.7.64743
 BUILD 2.5.5.64508, 2.5.5.64616
 Cost<u64>
-Field_12_0_0_63534_001
+Name
 HousePosition[3]
 HouseRotation[3]
 Field_12_0_0_63534_004[3]
@@ -78,11 +76,11 @@ WorldState<32>
 LAYOUT 02691716
 BUILD 12.0.0.64741
 Cost<u64>
-Field_12_0_0_63534_001
+Name
 HousePosition[3]
-Field_12_0_0_64741_003[3]
+HouseRotation[3]
 Field_12_0_0_63534_004[3]
-Field_12_0_0_64741_005[3]
+Field_12_0_0_63534_005[3]
 CornerStonePosition[3]
 CornerStoneRotation[3]
 Field_12_0_0_63724_008[3]

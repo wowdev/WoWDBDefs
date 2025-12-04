@@ -7,7 +7,7 @@ int<FileData::ID> ModelFileDataID?
 int Type?
 int MeshStyleFilterID?
 int ConnectionType?
-int Field_12_0_0_64741_008?
+int Flags?
 
 LAYOUT 50697E20
 BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728, 12.0.0.63854, 12.0.0.63967, 12.0.0.64124, 12.0.0.64228, 12.0.0.64339, 12.0.0.64499, 12.0.0.64507, 12.0.0.64529, 12.0.0.64611
@@ -32,4 +32,4 @@ ModelFileDataID<32>
 Type<u8>
 MeshStyleFilterID<32>
 ConnectionType<u8>
-Field_12_0_0_64741_008<32>
+Flags<32>
