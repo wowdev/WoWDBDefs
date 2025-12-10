@@ -74,6 +74,8 @@ jobs:
         with:
           key: tact-cache
           path: TACTSharp/TACTTool/bin/Release/net10.0/cache
+      - name: List cache dir before
+        run: ls -la TACTSharp/TACTTool/bin/Release/net10.0/cache
       - name: Run TACTTool (with config)
         if: "${{ github.event.inputs.url == '' && github.event.inputs.config != '' }}"
         run: dotnet run --project TACTSharp/TACTTool/TACTTool.csproj --configuration Release -- -p ${{ github.event.inputs.product }} -b ${{ github.event.inputs.config }} -m list -i $PWD/exes.txt -o extract
@@ -88,6 +90,8 @@ jobs:
           DOTNET_NOLOGO: 1
           DOTNET_CLI_TELEMETRY_OPTOUT: 1
           DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
+      - name: List cache dir after
+        run: ls -la TACTSharp/TACTTool/bin/Release/net10.0/cache
       - name: Rename executable
         if: "${{ github.event.inputs.url != '' }}"
         run: mkdir -p extract; mv ${{ github.event.inputs.product }}.exe extract/Wow.exe
