@@ -4,7 +4,7 @@ int<ItemOffsetCurve::ID> ItemOffsetCurveID?
 int ItemLevel?
 int RequiredLevel?
 int Field_11_2_5_62554_003?
-int Field_12_0_0_63534_003?
+int Flags?
 
 LAYOUT 2A1E702E
 BUILD 11.2.5.62554, 11.2.5.62687, 11.2.5.62785, 11.2.5.62940, 11.2.5.63092, 11.2.5.63286, 11.2.5.63506, 11.2.5.63660, 11.2.5.63704, 11.2.5.63796, 11.2.5.63825, 11.2.5.63834, 11.2.5.63906, 11.2.5.64154, 11.2.5.64270, 11.2.5.64395, 11.2.5.64484, 11.2.5.64502
@@ -25,5 +25,5 @@ $noninline,id$ID<32>
 ItemOffsetCurveID<32>
 ItemLevel<32>
 RequiredLevel<32>
-Field_12_0_0_63534_003<32>
 Field_11_2_5_62554_003<32>
+Flags<32>
