@@ -64,6 +64,11 @@ jobs:
       - name: Write exes.txt
         if: "${{ github.event.inputs.url == '' }}"
         run: echo -e "Wow.exe;Wow.exe\nWowT.exe;Wow.exe\nWowB.exe;Wow.exe\nWowClassic.exe;Wow.exe\nWowClassicT.exe;Wow.exe\nWowClassicB.exe;Wow.exe" > $PWD/exes.txt
+      - name: Cache
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: TACTSharp/TACTTool/bin/Release/net10.0/cache
       - name: Run TACTTool (with config)
         if: "${{ github.event.inputs.url == '' && github.event.inputs.config != '' }}"
         run: dotnet run --project TACTSharp/TACTTool/TACTTool.csproj --configuration Release -- -p ${{ github.event.inputs.product }} -b ${{ github.event.inputs.config }} -m list -i $PWD/exes.txt -o extract
