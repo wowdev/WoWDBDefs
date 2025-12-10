@@ -2,7 +2,7 @@ COLUMNS
 locstring Name_lang?
 int ID?
 int<HouseTheme::ID> ParentThemeID?
-int Field_12_0_0_63724_002?
+int Flags?
 
 LAYOUT 947291FB
 BUILD 12.0.0.63534
@@ -16,5 +16,5 @@ BUILD 11.2.7.63642, 11.2.7.63853, 11.2.7.64011, 11.2.7.64044, 11.2.7.64169, 11.2
 BUILD 2.5.5.64508, 2.5.5.64616, 2.5.5.64776, 2.5.5.64796
 Name_lang
 $id$ID<32>
-Field_12_0_0_63724_002<32>
+Flags<32>
 ParentThemeID<32>
