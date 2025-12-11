@@ -4,7 +4,7 @@ locstring Name_lang?
 int RoomComponentType?
 int<FileData::ID> TextureFileDataID?
 int<HouseTheme::ID> HouseThemeID?
-int Field_12_0_0_63724_002?
+int Flags?
 int Field_11_2_7_64438_005?
 
 LAYOUT 1D2B146F
@@ -20,7 +20,7 @@ BUILD 12.0.0.63724, 12.0.0.63728, 12.0.0.63854, 12.0.0.63967, 12.0.0.64124, 12.0
 BUILD 11.2.7.63642, 11.2.7.63853, 11.2.7.64011, 11.2.7.64044, 11.2.7.64169
 Name_lang
 $id$ID<32>
-Field_12_0_0_63724_002<32>
+Flags<32>
 RoomComponentType<32>
 TextureFileDataID<32>
 $noninline,relation$HouseThemeID<32>
@@ -31,7 +31,7 @@ BUILD 11.2.7.64438, 11.2.7.64587, 11.2.7.64632, 11.2.7.64704, 11.2.7.64725, 11.2
 BUILD 2.5.5.64508, 2.5.5.64616, 2.5.5.64776, 2.5.5.64796
 Name_lang
 $id$ID<32>
-Field_12_0_0_63724_002<32>
+Flags<32>
 RoomComponentType<32>
 TextureFileDataID<32>
 Field_11_2_7_64438_005<32>
