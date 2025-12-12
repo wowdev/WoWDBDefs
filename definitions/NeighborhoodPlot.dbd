@@ -16,6 +16,21 @@ int WorldState?
 float Field_12_0_0_63724_008?
 int<GameObjects::ID> Field_12_0_0_64741_015?
 int<GameObjects::ID> Field_12_0_0_64741_016?
+int Field_12_0_1_64889_000?
+string Field_12_0_1_64889_001?
+float Field_12_0_1_64889_002?
+float Field_12_0_1_64889_003?
+float Field_12_0_1_64889_004?
+float Field_12_0_1_64889_005?
+float Field_12_0_1_64889_006?
+int Field_12_0_1_64889_007?
+int Field_12_0_1_64889_008?
+int Field_12_0_1_64889_009?
+int Field_12_0_1_64889_010?
+int Field_12_0_1_64889_011?
+int Field_12_0_1_64889_012?
+int Field_12_0_1_64889_013?
+int Field_12_0_1_64889_014?
 
 LAYOUT 928CA287
 BUILD 12.0.0.63534
@@ -92,3 +107,21 @@ PlotIndex<32>
 WorldState<32>
 Field_12_0_0_64741_015<32>
 Field_12_0_0_64741_016<32>
+
+LAYOUT D3F98FFB
+BUILD 12.0.1.64889
+Field_12_0_1_64889_000<u64>
+Field_12_0_1_64889_001
+Field_12_0_1_64889_002[3]
+Field_12_0_1_64889_003[3]
+Field_12_0_1_64889_004[3]
+Field_12_0_1_64889_005[3]
+Field_12_0_1_64889_006[3]
+$id$Field_12_0_1_64889_007<32>
+$relation$Field_12_0_1_64889_008<32>
+Field_12_0_1_64889_009<32>
+Field_12_0_1_64889_010<32>
+Field_12_0_1_64889_011<32>
+Field_12_0_1_64889_012<32>
+Field_12_0_1_64889_013<32>
+Field_12_0_1_64889_014<32>

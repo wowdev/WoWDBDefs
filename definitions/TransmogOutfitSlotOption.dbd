@@ -22,10 +22,11 @@ Flags<32>
 OtherSlot<32>
 
 LAYOUT 8C80370F
+BUILD 12.0.1.64889
 BUILD 12.0.0.64499, 12.0.0.64507, 12.0.0.64529, 12.0.0.64611, 12.0.0.64741, 12.0.0.64774
 $noninline,id$ID<32>
 Name_lang
-OptionEnum<32>
+OptionEnum<u8>
 $relation$TransmogOutfitSlotInfoID<32>
 Flags<32>
 OtherSlot<32>

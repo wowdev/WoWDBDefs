@@ -32,13 +32,14 @@ UnassignedAtlasID<32>
 UnassignedDisplayAtlasID<32>
 
 LAYOUT C034B46F
+BUILD 12.0.1.64889
 BUILD 12.0.0.64499, 12.0.0.64507, 12.0.0.64529, 12.0.0.64611, 12.0.0.64741, 12.0.0.64774
 InventorySlotName
 $id$ID<32>
-TransmogOutfitSlotEnum<32>
+TransmogOutfitSlotEnum<8>
 InventorySlotEnum<32>
 Flags<32>
-Field_12_0_0_64339_007<32>
+Field_12_0_0_64339_007<u8>
 TransmogCollectionType<u8>
 OtherSlot<32>
 InventorySlotID<32>
