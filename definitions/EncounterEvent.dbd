@@ -3,10 +3,10 @@ int ID
 int<Spell::ID> SpellID?
 int Field_12_0_0_64741_001?
 int Field_12_0_0_64741_002?
-int Field_12_0_0_64741_003?
+int Severity?
 int Field_12_0_0_64741_004?
-int Field_12_0_0_64741_005?
-int Field_12_0_0_64741_006?
+int Flags?
+int<FileData::ID> IconFileDataID?
 int<DungeonEncounter::ID> DungeonEncounterID?
 
 LAYOUT 54A32DBB
@@ -16,8 +16,8 @@ $noninline,id$ID<32>
 SpellID<32>
 Field_12_0_0_64741_001<32>
 Field_12_0_0_64741_002<32>
-Field_12_0_0_64741_003<8>
+Severity<8>
 Field_12_0_0_64741_004<32>
-Field_12_0_0_64741_005<32>
-Field_12_0_0_64741_006<32>
+Flags<32>
+IconFileDataID<32>
 $noninline,relation$DungeonEncounterID<32>
