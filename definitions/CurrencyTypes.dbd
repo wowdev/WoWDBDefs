@@ -26,7 +26,7 @@ float WarbondTransferPercentage?
 int Field_1_15_3_55112_010?
 int Field_1_15_3_55112_011?
 float Field_1_15_4_56400_012?
-int Field_11_1_0_58221_017?
+int OrderIndex?
 float Field_12_0_0_64124_018?
 int Field_12_0_0_64124_019?
 int<MCRCurrency::ID> MCRCurrencyID?
@@ -572,7 +572,7 @@ MaxQtyWorldStateID<32>
 RechargingAmountPerCycle<u32>
 RechargingCycleDurationMS<u32>
 WarbondTransferPercentage
-Field_11_1_0_58221_017<u8>
+OrderIndex<u8>
 Flags<32>[2]
 
 LAYOUT FA3226AB
@@ -596,7 +596,7 @@ MaxQtyWorldStateID<32>
 RechargingAmountPerCycle<u32>
 RechargingCycleDurationMS<u32>
 WarbondTransferPercentage
-Field_11_1_0_58221_017<u8>
+OrderIndex<u8>
 Field_12_0_0_64124_018
 Field_12_0_0_64124_019<u8>
 MCRCurrencyID<32>

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int TreasureID?
-int Field_11_0_0_55000_001?
+int RollChance?
 int Field_11_0_0_55000_002?
 int<NPCCraftingOrderSet::ID> NPCCraftingOrderSetID?
 
@@ -35,6 +35,6 @@ BUILD 1.15.5.57537, 1.15.5.57611, 1.15.5.57638, 1.15.5.57716, 1.15.5.57807, 1.15
 BUILD 1.15.4.56400, 1.15.4.56419, 1.15.4.56493, 1.15.4.56573, 1.15.4.56708, 1.15.4.56718, 1.15.4.56738, 1.15.4.56760, 1.15.4.56817, 1.15.4.56857, 1.15.4.57134
 $noninline,id$ID<32>
 TreasureID<32>
-Field_11_0_0_55000_001<32>
+RollChance<32>
 Field_11_0_0_55000_002<32>
 $noninline,relation$NPCCraftingOrderSetID<32>
