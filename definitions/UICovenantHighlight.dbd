@@ -2,9 +2,7 @@ COLUMNS
 int ID
 int<SharedString::ID> SharedStringID?
 int<UiCovenantDisplayInfo::ID> UiCovenantDisplayInfoID
-int Field_12_0_1_64889_000?
 int Field_12_0_1_64889_001?
-int Field_12_0_1_64889_002?
 
 LAYOUT 9E728BA2
 BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728, 12.0.0.63854, 12.0.0.63967, 12.0.0.64124, 12.0.0.64228, 12.0.0.64339, 12.0.0.64499, 12.0.0.64507, 12.0.0.64529, 12.0.0.64611, 12.0.0.64741, 12.0.0.64774
@@ -15,6 +13,6 @@ $noninline,relation$UiCovenantDisplayInfoID<32>
 LAYOUT 7EA3BB47
 BUILD 12.0.1.64889
 $noninline,id$ID<32>
-Field_12_0_1_64889_000<32>
+SharedStringID<32>
 Field_12_0_1_64889_001<32>
-$noninline,relation$Field_12_0_1_64889_002<32>
+$noninline,relation$UiCovenantDisplayInfoID<32>

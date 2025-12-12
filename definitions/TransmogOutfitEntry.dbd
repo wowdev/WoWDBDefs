@@ -6,13 +6,6 @@ int Field_12_0_0_64339_003? // TransmogSituationID?
 int Source? // 0: StampedSource, 1: AutomaticallyAwarded, 2: PlayerPurchased
 int Flags? // 0x1: AutomaticallyAwardedOnLogin
 int Field_12_0_0_64339_006?
-int Field_12_0_1_64889_000?
-locstring Field_12_0_1_64889_001_lang?
-int Field_12_0_1_64889_002?
-int Field_12_0_1_64889_003?
-int Field_12_0_1_64889_004?
-int Field_12_0_1_64889_005?
-int Field_12_0_1_64889_006?
 float Field_12_0_1_64889_007?
 
 LAYOUT C97F5DFD
@@ -27,11 +20,11 @@ Field_12_0_0_64339_006<u8>
 
 LAYOUT D6AF6580
 BUILD 12.0.1.64889
-Field_12_0_1_64889_000<u64>
-Field_12_0_1_64889_001_lang
-$id$Field_12_0_1_64889_002<32>
-Field_12_0_1_64889_003<32>
-Field_12_0_1_64889_004<u8>
-Field_12_0_1_64889_005<32>
-Field_12_0_1_64889_006<u8>
+Cost<u64>
+Name_lang
+$id$ID<32>
+Field_12_0_0_64339_003<32>
+Source<u8>
+Flags<32>
+Field_12_0_0_64339_006<u8>
 Field_12_0_1_64889_007
