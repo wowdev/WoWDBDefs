@@ -9,15 +9,6 @@ int Effect
 int StatesAllowed
 int State
 int Flags
-int Field_11_2_5_63286_000?
-int Field_11_2_5_63286_001?
-int Field_11_2_5_63286_002?
-int Field_11_2_5_63286_003?
-int Field_11_2_5_63286_004?
-int Field_11_2_5_63286_005?
-int Field_11_2_5_63286_006?
-int Field_11_2_5_63286_007?
-int Field_11_2_5_63286_008?
 
 BUILD 4.1.0.13914-4.3.4.15595
 $id$ID<32>
@@ -279,12 +270,12 @@ BUILD 3.80.0.64140, 3.80.0.64393, 3.80.0.64859
 BUILD 2.5.5.64508, 2.5.5.64616, 2.5.5.64776, 2.5.5.64796
 BUILD 1.15.8.63829, 1.15.8.64057, 1.15.8.64130, 1.15.8.64272, 1.15.8.64344, 1.15.8.64858
 $noninline,id$ID<32>
-Field_11_2_5_63286_000<u8>
-Field_11_2_5_63286_001<u32>
-Field_11_2_5_63286_002<u8>
-Field_11_2_5_63286_003<u8>
-Field_11_2_5_63286_004<u8>
-Field_11_2_5_63286_005<32>
-Field_11_2_5_63286_006<32>[2]
-Field_11_2_5_63286_007<u32>[12]
-Field_11_2_5_63286_008<u32>[20]
+School<u8>
+DispelType<u32>
+MechanicsAllowed<u8>
+EffectsAllowed<u8>
+StatesAllowed<u8>
+Flags<32>
+Mechanic<32>[2]
+Effect<u32>[12]
+State<u32>[20]

@@ -25,7 +25,7 @@ float Field_10_0_0_45141_008?
 int Field_10_0_0_45232_020?
 float Field_10_0_0_45232_021?
 float Field_10_0_0_45232_024?
-int Field_11_2_0_61476_015?
+int GameFlags?
 float Field_11_2_0_61476_022?
 float Field_11_2_0_61476_023?
 int<FileData::ID> Field_11_2_0_61476_024?
@@ -449,7 +449,7 @@ FadeIn
 FadeOut
 Priority<u8>
 BlendMode<u8>
-Field_11_2_0_61476_015<32>
+GameFlags<32>
 CasterDecalPropertiesID<32>
 ArbitraryBoxHeight
 Field_9_0_1_33978_018<32>
