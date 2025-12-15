@@ -6,7 +6,7 @@ int<FileData::ID> ModelFileDataID?
 int SubType?
 int MeshStyleFilterID?
 int Theme?
-int Field_12_0_0_63534_007?
+int Flags?
 
 LAYOUT 5F9E3AA3
 BUILD 12.0.1.64889
@@ -20,4 +20,4 @@ ModelFileDataID<32>
 SubType<32>
 MeshStyleFilterID<32>
 Theme<32>
-Field_12_0_0_63534_007<32>
+Flags<32>
