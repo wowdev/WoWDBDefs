@@ -7,7 +7,7 @@ int<HouseDecor::ID> DecorID?
 int DecorQuantity?
 int Field_12_0_0_63534_006?
 int Favor?
-int Field_12_0_0_63534_008?
+int<QuestV2::ID> RewardQuestID?
 
 LAYOUT 51D55D40
 BUILD 12.0.1.64889
@@ -20,4 +20,4 @@ DecorID<32>
 DecorQuantity<32>
 Field_12_0_0_63534_006<32>
 Favor<32>
-Field_12_0_0_63534_008<32>
+RewardQuestID<32>
