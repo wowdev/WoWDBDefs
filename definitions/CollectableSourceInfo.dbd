@@ -1,7 +1,7 @@
 COLUMNS
 string Description?
 int ID?
-int SourceTypeEnum? // Defines in what CollectableSource table you can find this entry, 1 -> Encounter, 2-> Quest, -> 3 Vendor 
+int SourceTypeEnum? // Defines in what CollectableSource table you can find this entry, 1-> Encounter, 2-> Quest, 3-> Vendor 
 int<ItemModifiedAppearance::ID> ItemModifiedAppearanceID?
 int<HouseDecor::ID> HouseDecorID?
 
