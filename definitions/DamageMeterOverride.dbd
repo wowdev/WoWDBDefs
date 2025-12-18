@@ -4,6 +4,22 @@ int<Spell::ID> Field_12_0_0_64741_000?
 int<Spell::ID> Field_12_0_0_64741_001?
 int Flags?
 int Type? // 0: Ignore, 1: RedirectSource, 2: AllowFriendlyFire
+int Field_12_0_0_64975_000?
+int Field_12_0_0_64975_001?
+int Field_12_0_0_64975_002?
+int Field_12_0_0_64975_003?
+int Field_12_0_0_64975_004?
+int Field_12_0_0_64975_005?
+
+LAYOUT 247A3C9D
+BUILD 12.0.0.64975
+$noninline,id$ID<32>
+Field_12_0_0_64975_000<32>
+Field_12_0_0_64975_001<32>
+Field_12_0_0_64975_002<32>
+Field_12_0_0_64975_003<u8>
+Field_12_0_0_64975_004<32>
+Field_12_0_0_64975_005<32>
 
 LAYOUT 13515839
 BUILD 12.0.1.64889, 12.0.1.64914
