@@ -8,6 +8,16 @@ int Flags? // 0: Talents, 1: Professions; one of these is flags. &1: CannotRefun
 int<TraitSystem::ID> TraitSystemID?
 float Field_10_0_0_45697_006?
 float Field_10_0_0_45697_007?
+locstring Field_12_0_1_65337_000_lang?
+int Field_12_0_1_65337_001?
+int Field_12_0_1_65337_002?
+int Field_12_0_1_65337_003?
+int Field_12_0_1_65337_004?
+int Field_12_0_1_65337_005?
+int Field_12_0_1_65337_006?
+float Field_12_0_1_65337_007?
+float Field_12_0_1_65337_008?
+int Field_12_0_1_65337_009?
 
 LAYOUT 9C270D22
 BUILD 10.0.0.43342
@@ -102,3 +112,16 @@ PlayerConditionID<32>
 Flags<32>
 Field_10_0_0_45697_006
 Field_10_0_0_45697_007
+
+LAYOUT FBCDBA8F
+BUILD 12.0.1.65337
+Field_12_0_1_65337_000_lang
+$id$Field_12_0_1_65337_001<32>
+$relation$Field_12_0_1_65337_002<32>
+Field_12_0_1_65337_003<32>
+Field_12_0_1_65337_004<32>
+Field_12_0_1_65337_005<32>
+Field_12_0_1_65337_006<32>
+Field_12_0_1_65337_007
+Field_12_0_1_65337_008
+Field_12_0_1_65337_009<32>
