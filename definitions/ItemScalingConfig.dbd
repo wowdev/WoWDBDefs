@@ -3,7 +3,7 @@ int ID
 int<ItemOffsetCurve::ID> ItemOffsetCurveID?
 int ItemLevel?
 int RequiredLevel?
-int Field_11_2_5_62554_003?
+int<ItemSquishEra::ID> ItemSquishEraID?
 int Flags?
 
 LAYOUT 2A1E702E
@@ -15,7 +15,7 @@ $noninline,id$ID<32>
 ItemOffsetCurveID<32>
 ItemLevel<32>
 RequiredLevel<32>
-Field_11_2_5_62554_003<32>
+ItemSquishEraID<32>
 
 LAYOUT 7BEABE68
 BUILD 12.0.1.64889, 12.0.1.64914, 12.0.1.65337
@@ -26,5 +26,5 @@ $noninline,id$ID<32>
 ItemOffsetCurveID<32>
 ItemLevel<32>
 RequiredLevel<32>
-Field_11_2_5_62554_003<32>
+ItemSquishEraID<32>
 Flags<32>
