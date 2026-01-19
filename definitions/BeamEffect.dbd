@@ -1,15 +1,15 @@
 COLUMNS
 int ID
-int BeamID
+int<SpellChainEffects::ID> BeamID
 int DestAttachID
 int DestOffset
-int DestPositionerID
+int<Positioner::ID> DestPositionerID
 float FixedLength
 int Flags
 int SourceAttachID
 float SourceMinDistance
 int SourceOffset
-int SourcePositionerID
+int<Positioner::ID> SourcePositionerID
 
 LAYOUT 42C18603, DC0FF0EB, 7029297B
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032
