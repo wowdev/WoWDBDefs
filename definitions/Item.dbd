@@ -24,9 +24,9 @@ int<CraftingQuality::ID> CraftingQualityID?
 int<ScalingStatDistribution::ID> ScalingStatDistributionID?
 int ScalingStatValue?
 int Field_12_0_0_63534_010?
-float Field_12_0_0_63534_013?
-int Field_12_0_0_63534_014?
-int Field_11_2_7_63642_011? // DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [CraftingQualityID, 0,95%], [Field_12_0_0_63534_014, 0,95%]
+float RecraftReagentCountPercentage?
+int OrderSource?
+int Field_11_2_7_63642_011? // DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [CraftingQualityID, 0,95%], [OrderSource, 0,95%]
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -602,5 +602,5 @@ ModifiedCraftingReagentItemID<32>
 Field_12_0_0_63534_010<u8>
 CraftingQualityID<32>
 Field_11_2_7_63642_011<32>
-Field_12_0_0_63534_013
-Field_12_0_0_63534_014<u8>
+RecraftReagentCountPercentage
+OrderSource<u8>

@@ -3,8 +3,8 @@ int ID
 int CurrencyCount
 int<CurrencyTypes::ID> CurrencyTypesID
 int<Spell::ID> SpellID
-int Field_12_0_0_64124_003?
-int Field_12_0_0_64124_004?
+int OverrideRecraftCurrencyCount? // if not 0 then recrafting item costs this amount of currency instead of CurrencyCount * CurrencyTypes::RecraftReagentCountPercentage
+int OrderSource? // CraftingOrderReagentSource enum
 
 LAYOUT 90A5E5D2, 4D3F01C6, 1D2927F1
 BUILD 10.0.0.43342
@@ -114,5 +114,5 @@ $noninline,id$ID<32>
 $relation$SpellID<32>
 CurrencyTypesID<32>
 CurrencyCount<32>
-Field_12_0_0_64124_003<32>
-Field_12_0_0_64124_004<u8>
+OverrideRecraftCurrencyCount<32>
+OrderSource<u8>
