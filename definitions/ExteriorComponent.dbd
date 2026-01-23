@@ -5,7 +5,7 @@ int ID?
 int Size?
 int<ExteriorComponent::ID> ParentComponentID?
 int<FileData::ID> ModelFileDataID?
-int Field_12_0_0_63534_006?
+int Flags? // 0x1 IsDefaultFixture, 0x2 UnlockedByDefault
 int Field_12_0_0_63534_007?
 int<ExteriorComponentType::ID> Type?
 int Field_12_0_0_63534_009?
@@ -22,7 +22,7 @@ $id$ID<32>
 Size<u8>
 ParentComponentID<32>
 ModelFileDataID<32>
-Field_12_0_0_63534_006<32>
+Flags<32>
 Field_12_0_0_63534_007<u8>
 Type<u8>
 Field_12_0_0_63534_009<32>
@@ -40,7 +40,7 @@ $id$ID<32>
 Size<u8>
 ParentComponentID<32>
 ModelFileDataID<32>
-Field_12_0_0_63534_006<32>
+Flags<32>
 Field_12_0_0_63534_007<u8>
 Type<u8>
 Field_12_0_0_63534_009<32>
