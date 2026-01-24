@@ -8,8 +8,8 @@ int Flags? // 0: Talents, 1: Professions; one of these is flags. &1: CannotRefun
 int<TraitSystem::ID> TraitSystemID?
 float Field_10_0_0_45697_006?
 float Field_10_0_0_45697_007?
-locstring Name_lang?
-int Field_12_0_1_65337_009?
+locstring TitleText_lang?
+int<UiTextureKit::ID> UiTextureKitID?
 
 LAYOUT 9C270D22
 BUILD 10.0.0.43342
@@ -107,7 +107,7 @@ Field_10_0_0_45697_007
 
 LAYOUT FBCDBA8F
 BUILD 12.0.1.65337, 12.0.1.65448
-Name_lang
+TitleText_lang
 $id$ID<32>
 $relation$TraitSystemID<32>
 TraitTreeID<32>
@@ -116,4 +116,4 @@ PlayerConditionID<32>
 Flags<32>
 Field_10_0_0_45697_006
 Field_10_0_0_45697_007
-Field_12_0_1_65337_009<32>
+UiTextureKitID<32>
