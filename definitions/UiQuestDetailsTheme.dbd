@@ -4,7 +4,7 @@ locstring Signature_lang
 int<UiTextureAtlasElement::ID> BackgroundTexture
 int<UiTextureAtlasElement::ID> SealTexture
 int<UiTextureAtlasElement::ID> PoiIcon
-int<UiMapPinInfo::ID> UiMapPinInfo?
+int<UIMapPinInfo::ID> UiMapPinInfo?
 
 LAYOUT DFF2A61D
 BUILD 9.1.0.38312, 9.1.0.38394, 9.1.0.38511, 9.1.0.38524, 9.1.0.38549, 9.1.0.38600
