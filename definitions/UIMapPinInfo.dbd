@@ -6,12 +6,6 @@ int<UIButton::ID> VignetteButton?
 int<UIButton::ID> VignetteButtonSelected?
 int Field_11_0_7_57361_004?
 int<UiTextureAtlasElement::ID> Underlay?
-int Field_12_0_1_65448_000?
-int Field_12_0_1_65448_001?
-int Field_12_0_1_65448_002?
-int Field_12_0_1_65448_003?
-int Field_12_0_1_65448_004?
-int Field_12_0_1_65448_005?
 int Field_12_0_1_65448_006?
 
 LAYOUT E8E5C344
@@ -47,10 +41,10 @@ Underlay<32>
 LAYOUT 95F2CD4F
 BUILD 12.0.1.65448
 $noninline,id$ID<32>
-Field_12_0_1_65448_000<32>
-Field_12_0_1_65448_001<32>
-Field_12_0_1_65448_002<32>
-Field_12_0_1_65448_003<32>
-Field_12_0_1_65448_004<32>
-Field_12_0_1_65448_005<32>
+Button<32>
+ButtonSelected<32>
+VignetteButton<32>
+VignetteButtonSelected<32>
+Field_11_0_7_57361_004<32>
+Underlay<32>
 Field_12_0_1_65448_006<32>
