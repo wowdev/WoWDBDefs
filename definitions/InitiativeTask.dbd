@@ -3,9 +3,9 @@ locstring TaskName_lang?
 locstring Description_lang?
 int ID?
 int<CriteriaTree::ID> CriteriaTreeID?
-int Field_12_0_0_63534_004?
+int<QuestV2::ID> QuestID?
 int ProgressContributionAmount?
-int RepetitionContributionDampeningCurve? // ParameterCurve; if present, amount * curve
+int<Curve::ID> RepetitionContributionDampeningCurve? // ParameterCurve; if present, amount * curve
 int<InitiativeTask::ID> Supersedes?
 int Field_12_0_0_63534_008?
 
@@ -16,7 +16,7 @@ TaskName_lang
 Description_lang
 $id$ID<32>
 CriteriaTreeID<32>
-Field_12_0_0_63534_004<32>
+QuestID<32>
 ProgressContributionAmount<32>
 RepetitionContributionDampeningCurve<32>
 Supersedes<32>
