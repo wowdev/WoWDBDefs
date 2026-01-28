@@ -26,7 +26,7 @@ int ScalingStatValue?
 int Field_12_0_0_63534_010?
 float RecraftReagentCountPercentage?
 int OrderSource?
-int Field_11_2_7_63642_011? // DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [CraftingQualityID, 0,95%], [OrderSource, 0,95%]
+int<ItemSquishEra::ID> ItemSquishEraID?
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -583,7 +583,7 @@ ItemGroupSoundsID<u32>
 ContentTuningID<32>
 ModifiedCraftingReagentItemID<32>
 CraftingQualityID<32>
-Field_11_2_7_63642_011<32>
+ItemSquishEraID<32>
 
 LAYOUT 996192AA
 BUILD 12.0.1.64889, 12.0.1.64914, 12.0.1.65337, 12.0.1.65448
@@ -601,6 +601,6 @@ ContentTuningID<32>
 ModifiedCraftingReagentItemID<32>
 Field_12_0_0_63534_010<u8>
 CraftingQualityID<32>
-Field_11_2_7_63642_011<32>
+ItemSquishEraID<32>
 RecraftReagentCountPercentage
 OrderSource<u8>
