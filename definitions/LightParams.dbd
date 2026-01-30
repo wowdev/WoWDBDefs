@@ -30,36 +30,6 @@ float Field_12_0_0_63534_026?
 int Field_12_0_0_63534_027?
 float Field_12_0_0_63534_028?
 float Field_12_0_0_63534_029?
-float Field_12_0_1_65617_000?
-float Field_12_0_1_65617_001?
-int Field_12_0_1_65617_002?
-int Field_12_0_1_65617_003?
-int Field_12_0_1_65617_004?
-float Field_12_0_1_65617_005?
-float Field_12_0_1_65617_006?
-float Field_12_0_1_65617_007?
-float Field_12_0_1_65617_008?
-float Field_12_0_1_65617_009?
-int Field_12_0_1_65617_010?
-int Field_12_0_1_65617_011?
-float Field_12_0_1_65617_012?
-float Field_12_0_1_65617_013?
-float Field_12_0_1_65617_014?
-float Field_12_0_1_65617_015?
-float Field_12_0_1_65617_016?
-float Field_12_0_1_65617_017?
-float Field_12_0_1_65617_018?
-float Field_12_0_1_65617_019?
-float Field_12_0_1_65617_020?
-float Field_12_0_1_65617_021?
-float Field_12_0_1_65617_022?
-float Field_12_0_1_65617_023?
-float Field_12_0_1_65617_024?
-float Field_12_0_1_65617_025?
-float Field_12_0_1_65617_026?
-int Field_12_0_1_65617_027?
-float Field_12_0_1_65617_028?
-float Field_12_0_1_65617_029?
 float Field_12_0_1_65617_030?
 float Field_12_0_1_65617_031?
 
@@ -383,35 +353,35 @@ Field_12_0_0_63534_029
 LAYOUT CAE394E7
 BUILD 12.0.1.65617
 $noninline,id$ID<32>
-Field_12_0_1_65617_000[3]
-Field_12_0_1_65617_001[3]
-Field_12_0_1_65617_002<u8>
-Field_12_0_1_65617_003<u16>
-Field_12_0_1_65617_004<u8>
-Field_12_0_1_65617_005
-Field_12_0_1_65617_006
-Field_12_0_1_65617_007
-Field_12_0_1_65617_008
-Field_12_0_1_65617_009
-Field_12_0_1_65617_010<32>
-Field_12_0_1_65617_011<32>
-Field_12_0_1_65617_012
-Field_12_0_1_65617_013
-Field_12_0_1_65617_014
-Field_12_0_1_65617_015
-Field_12_0_1_65617_016
-Field_12_0_1_65617_017
-Field_12_0_1_65617_018
-Field_12_0_1_65617_019
-Field_12_0_1_65617_020
-Field_12_0_1_65617_021
-Field_12_0_1_65617_022
-Field_12_0_1_65617_023
-Field_12_0_1_65617_024
-Field_12_0_1_65617_025
-Field_12_0_1_65617_026
-Field_12_0_1_65617_027<32>
-Field_12_0_1_65617_028
-Field_12_0_1_65617_029
+OverrideCelestialSphere[3]
+OverrideSunPosition[3]
+HighlightSky<u8>
+LightSkyboxID<u16>
+CloudTypeID<u8>
+Glow
+WaterShallowAlpha
+WaterDeepAlpha
+OceanShallowAlpha
+OceanDeepAlpha
+Flags<32>
+SsaoSettingsID<32>
+SunPolar
+SunAzimuth
+SunAttenuationStart
+SunAttenuationEnd
+Field_12_0_0_63534_016
+Field_12_0_0_63534_017
+Field_12_0_0_63534_018
+Field_12_0_0_63534_019
+Field_12_0_0_63534_020
+Field_12_0_0_63534_021
+Field_12_0_0_63534_022
+Field_12_0_0_63534_023
+Field_12_0_0_63534_024
+Field_12_0_0_63534_025
+Field_12_0_0_63534_026
+Field_12_0_0_63534_027<32>
+Field_12_0_0_63534_028
+Field_12_0_0_63534_029
 Field_12_0_1_65617_030
 Field_12_0_1_65617_031
