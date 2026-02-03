@@ -1,0 +1,5 @@
+FLAGS Achievement::Flags AchievementFlags
+FLAGS SpellMisc::Flags[0] SpellAttributes0
+FLAGS SpellMisc::Flags[15]
+ENUM Map::ExpansionID ExpansionLevels
+COLOR LightData::SkySmogColor
