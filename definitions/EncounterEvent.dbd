@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Spell::ID> SpellID?
 int Field_12_0_0_64741_001?
-int Field_12_0_0_64741_002?
+int <BroadcastText::ID> BroadcastTextID?
 int Severity?
 int Field_12_0_0_64741_004?
 int Flags?
@@ -15,7 +15,7 @@ BUILD 12.0.0.64741, 12.0.0.64774, 12.0.0.64975, 12.0.0.65028, 12.0.0.65294, 12.0
 $noninline,id$ID<32>
 SpellID<32>
 Field_12_0_0_64741_001<32>
-Field_12_0_0_64741_002<32>
+BroadcastTextID<32>
 Severity<8>
 Field_12_0_0_64741_004<32>
 Flags<32>
