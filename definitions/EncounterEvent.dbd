@@ -2,7 +2,7 @@ COLUMNS
 int ID
 int<Spell::ID> SpellID?
 int Field_12_0_0_64741_001?
-int <BroadcastText::ID> BroadcastTextID?
+int<BroadcastText::ID> BroadcastTextID?
 int Severity?
 int Field_12_0_0_64741_004?
 int Flags?
