@@ -10,10 +10,10 @@
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="../nuget-icon.png" Pack="true" PackagePath="\"/>
+    <None Include="../nuget-icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
   <PropertyGroup>
     <Authors>WoWDev</Authors>
