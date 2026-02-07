@@ -1,5 +1,9 @@
 FLAGS Achievement::Flags AchievementFlags
 FLAGS SpellMisc::Flags[0] SpellAttributes0
-FLAGS SpellMisc::Flags[15]
+FLAGS SpellMisc::Flags[2]
+FLAGS SpellMisc::Flags[15] SpellAttributes15 // Some comment
 ENUM Map::ExpansionID ExpansionLevels
 COLOR LightData::SkySmogColor
+ENUM SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=39
+ENUM SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=69
+ENUM SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=189
