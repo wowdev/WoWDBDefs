@@ -15,7 +15,7 @@ float InitialScale?
 int Field_12_0_0_63534_013?
 int OrderIndex?
 int Field_12_0_0_63534_015?
-int Field_12_0_0_63534_016?
+int StartingQuantity?
 int<UiModelScene::ID> UiModelSceneID?
 
 LAYOUT A2E1530F
@@ -46,7 +46,7 @@ InitialScale
 Field_12_0_0_63534_013<32>
 OrderIndex<32>
 Field_12_0_0_63534_015<8>
-Field_12_0_0_63534_016<32>
+StartingQuantity<32>
 
 LAYOUT EAA015F9
 BUILD 12.0.1.64889, 12.0.1.64914, 12.0.1.65337, 12.0.1.65448, 12.0.1.65617, 12.0.1.65701, 12.0.1.65769
@@ -69,5 +69,5 @@ InitialScale
 Field_12_0_0_63534_013<32>
 OrderIndex<32>
 Field_12_0_0_63534_015<8>
-Field_12_0_0_63534_016<32>
+StartingQuantity<32>
 UiModelSceneID<32>
