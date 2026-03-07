@@ -2,6 +2,8 @@ name: Compile & release definitions
 on:
   workflow_dispatch:
   push:
+    branches:
+      - master
     paths:
       -  definitions/**
       -  manifest.json
