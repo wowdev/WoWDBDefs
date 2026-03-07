@@ -1,0 +1,32 @@
+0x1 DISMISS_PET_FIRST // Without this attribute, summoning spells will fail if caster already has a pet
+0x2 USE_ALL_MANA // Ignores listed power cost and drains entire pool instead
+0x4 IS_CHANNELLED // Both "channeled" attributes have identical handling in server & client
+0x8 NO_REDIRECTION // Spell will not be attracted by SPELL_MAGNET auras (Grounding Totem)
+0x10 NO_SKILL_INCREASE
+0x20 ALLOW_WHILE_STEALTHED
+0x40 IS_SELF_CHANNELLED // Both "channeled" attributes have identical handling in server & client
+0x80 NO_REFLECTION // Spell will pierce through Spell Reflection and similar
+0x100 ONLY_PEACEFUL_TARGETS // Target cannot be in combat
+0x200 INITIATES_COMBAT_ENABLES_AUTO_ATTACK // Caster will begin auto-attacking the target on cast
+0x400 NO_THREAT // Also does not cause target to engage
+0x800 AURA_UNIQUE // Aura will not refresh its duration when recast
+0x1000 FAILURE_BREAKS_STEALTH
+0x2000 TOGGLE_FAR_SIGHT
+0x4000 TRACK_TARGET_IN_CHANNEL // While channeling, adjust facing to face target
+0x8000 IMMUNITY_PURGES_EFFECT // For immunity spells, cancel all auras that this spell would make you immune to when the spell is applied
+0x10000 IMMUNITY_TO_HOSTILE_AND_FRIENDLY_EFFECTS // Immunity applied by this aura will also be checked for friendly spells (school immunity only) - used by Cyclone for example to cause friendly spells and healing over time to be immuned
+0x20000 NO_AUTOCAST_AI
+0x40000 PREVENTS_ANIM // Auras apply UNIT_FLAG_PREVENT_EMOTES_FROM_CHAT_TEXT
+0x80000 EXCLUDE_CASTER
+0x100000 FINISHING_MOVE_DAMAGE
+0x200000 THREAT_ONLY_ON_MISS
+0x400000 FINISHING_MOVE_DURATION
+0x800000 IGNORE_OWNERS_DEATH
+0x1000000 SPECIAL_SKILLUP
+0x2000000 AURA_STAYS_AFTER_COMBAT
+0x4000000 REQUIRE_ALL_TARGETS
+0x8000000 DISCOUNT_POWER_ON_MISS
+0x10000000 NO_AURA_ICON
+0x20000000 NAME_IN_CHANNEL_BAR
+0x40000000 DISPEL_ALL_STACKS
+0x80000000 CAST_WHEN_LEARNED
