@@ -112,7 +112,32 @@ namespace DBDefsLib
 
             return list;
         }
+
+        public static (List<Build> builds, List<BuildRange> buildRanges) ParseBuildQualifier(string qualifier, int lineNumber)
+        {
+            if (!qualifier.StartsWith("BUILD "))
+                throw new Exception($"Line {lineNumber}: Build qualifier does not start with 'BUILD '");
+
+            var builds = new List<Build>();
+            var buildRanges = new List<BuildRange>();
+
+            var buildsPart = qualifier["BUILD ".Length..];
+            var parts = buildsPart.Split(new[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (var part in parts)
+            {
+                if (BuildRange.TryParse(part, out var range))
+                    buildRanges.Add(range);
+                else if (Build.TryParse(part, out var build))
+                    builds.Add(build);
+                else
+                    throw new Exception($"Line {lineNumber}: Invalid build or build range: '{part}'");
+            }
+
+            return (builds, buildRanges);
+        }
     }
+
     public static class BinaryWriterExtensions
     {
         public static void WriteStringBlockString(this BinaryWriter bw, Dictionary<string, int> stringBlock, string stringToWrite)
