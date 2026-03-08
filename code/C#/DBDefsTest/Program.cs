@@ -7,7 +7,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
-using DBDefsLib.Constants;
 
 namespace DBDTest
 {
@@ -21,113 +20,82 @@ namespace DBDTest
 
         static void Main(string[] args)
         {
-            var dbdmReader = new DBDMReader();
-            var mappingDefinition = dbdmReader.Read(args[0]);
-
-            var metaDirectory = Path.GetDirectoryName(args[0]);
-            foreach (var definition in mappingDefinition)
+            if (args.Length < 2)
             {
-                if (definition.meta is MetaType.COLOR)
-                    continue;
+                Console.WriteLine("Usage: <input (definitions dir or bdbd)> <dbcdir>");
+                Environment.Exit(1);
+            }
 
-                var extension = definition.meta == MetaType.ENUM ? ".dbde" : ".dbdf";
-                var directoryName = definition.meta == MetaType.ENUM ? "enums" : "flags";
+            var inputDir = args[0];
+            dbcDir = args[1];
 
-                var parseFile = Path.Combine(metaDirectory!, directoryName, $"{definition.metaValue}{extension}");
-                if (!File.Exists(parseFile))
-                    continue;
-
-                try
+            if (Directory.Exists(inputDir))
+            {
+                if (!Directory.Exists(dbcDir))
                 {
-                    var enumReader = new DBDEnumReader();
-                    var enumDef = enumReader.Read(parseFile, definition.meta);
-                    Console.WriteLine($"[{definition.meta}] {definition.metaValue}: {enumDef.entries.Count} entries");
+                    throw new DirectoryNotFoundException("Directory " + dbcDir + " does not exist!");
                 }
-                catch (Exception e)
+
+                var sw = new Stopwatch();
+                sw.Start();
+                foreach (var file in Directory.GetFiles(inputDir))
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"[ERROR] Failed to read {parseFile}: {e.Message}");
-                    Console.ResetColor();
-                    foundError = true;
+                    var reader = new DBDReader();
+                    definitionCache.Add(Path.GetFileNameWithoutExtension(file).ToLower(), reader.Read(file));
+                }
+                sw.Stop();
+                Console.WriteLine("Read " + definitionCache.Count + " database definitions from DBDs in " + sw.ElapsedMilliseconds + "ms!");
+            }
+            else if (File.Exists(inputDir) && inputDir.EndsWith(".bdbd", StringComparison.InvariantCultureIgnoreCase))
+            {
+                var sw = new Stopwatch();
+                sw.Start();
+                using (var stream = File.OpenRead(inputDir))
+                {
+                    var defs = BDBDReader.Read(stream);
+                    foreach(var def in defs)
+                    {
+                        definitionCache.Add(def.Key.ToLower(), def.Value.dbd);
+                    }
+                }
+                sw.Stop();
+                Console.WriteLine("Read " + definitionCache.Count + " database definitions from BDBD in " + sw.ElapsedMilliseconds + "ms!");
+            }
+
+            var builds = new List<Build>();
+
+            foreach (var dir in Directory.GetDirectories(dbcDir))
+            {
+                builds.Add(new Build(dir.Replace(dbcDir + "\\", "")));
+            }
+
+            builds.Sort();
+
+            foreach(var build in builds)
+            {
+                if (build.expansion != 8 || build.major != 2) continue;
+
+                Console.WriteLine("Checking " + build + "..");
+                if (Directory.Exists(Path.Combine(dbcDir, build.ToString(), "DBFilesClient")))
+                {
+                    foreach (var file in Directory.GetFiles(Path.Combine(dbcDir, build.ToString(), "DBFilesClient")))
+                    {
+                        LoadDBC(file);
+                    }
+                }
+                else
+                {
+                    foreach (var file in Directory.GetFiles(Path.Combine(dbcDir, build.ToString())))
+                    {
+                        LoadDBC(file);
+                    }
                 }
             }
 
-            // if (args.Length < 2)
-            // {
-            //     Console.WriteLine("Usage: <input (definitions dir or bdbd)> <dbcdir>");
-            //     Environment.Exit(1);
-            // }
-            //
-            // var inputDir = args[0];
-            // dbcDir = args[1];
-            //
-            // if (Directory.Exists(inputDir))
-            // {
-            //     if (!Directory.Exists(dbcDir))
-            //     {
-            //         throw new DirectoryNotFoundException("Directory " + dbcDir + " does not exist!");
-            //     }
-            //
-            //     var sw = new Stopwatch();
-            //     sw.Start();
-            //     foreach (var file in Directory.GetFiles(inputDir))
-            //     {
-            //         var reader = new DBDReader();
-            //         definitionCache.Add(Path.GetFileNameWithoutExtension(file).ToLower(), reader.Read(file));
-            //     }
-            //     sw.Stop();
-            //     Console.WriteLine("Read " + definitionCache.Count + " database definitions from DBDs in " + sw.ElapsedMilliseconds + "ms!");
-            // }
-            // else if (File.Exists(inputDir) && inputDir.EndsWith(".bdbd", StringComparison.InvariantCultureIgnoreCase))
-            // {
-            //     var sw = new Stopwatch();
-            //     sw.Start();
-            //     using (var stream = File.OpenRead(inputDir))
-            //     {
-            //         var defs = BDBDReader.Read(stream);
-            //         foreach(var def in defs)
-            //         {
-            //             definitionCache.Add(def.Key.ToLower(), def.Value.dbd);
-            //         }
-            //     }
-            //     sw.Stop();
-            //     Console.WriteLine("Read " + definitionCache.Count + " database definitions from BDBD in " + sw.ElapsedMilliseconds + "ms!");
-            // }
-            //
-            // var builds = new List<Build>();
-            //
-            // foreach (var dir in Directory.GetDirectories(dbcDir))
-            // {
-            //     builds.Add(new Build(dir.Replace(dbcDir + "\\", "")));
-            // }
-            //
-            // builds.Sort();
-            //
-            // foreach(var build in builds)
-            // {
-            //     if (build.expansion != 8 || build.major != 2) continue;
-            //
-            //     Console.WriteLine("Checking " + build + "..");
-            //     if (Directory.Exists(Path.Combine(dbcDir, build.ToString(), "DBFilesClient")))
-            //     {
-            //         foreach (var file in Directory.GetFiles(Path.Combine(dbcDir, build.ToString(), "DBFilesClient")))
-            //         {
-            //             LoadDBC(file);
-            //         }
-            //     }
-            //     else
-            //     {
-            //         foreach (var file in Directory.GetFiles(Path.Combine(dbcDir, build.ToString())))
-            //         {
-            //             LoadDBC(file);
-            //         }
-            //     }
-            // }
-            //
-            // if (foundError)
-            // {
-            //     Environment.Exit(1);
-            // }
+            if (foundError)
+            {
+                Environment.Exit(1);
+            }
         }
 
         static void LoadDBC(string filename)
