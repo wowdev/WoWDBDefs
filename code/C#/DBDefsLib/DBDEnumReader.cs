@@ -12,7 +12,7 @@ namespace DBDefsLib
     /// </summary>
     public class DBDEnumReader
     {
-        private EnumDefinition Read(Stream stream, MetaType metaType)
+        public EnumDefinition Read(Stream stream, MetaType metaType)
         {
             var reader = new StreamReader(stream);
             var lines = reader.ReadLines();

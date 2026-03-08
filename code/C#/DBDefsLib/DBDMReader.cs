@@ -7,7 +7,7 @@ namespace DBDefsLib
 {
     public class DBDMReader
     {
-        private List<MappingDefinition> Read(Stream stream)
+        public List<MappingDefinition> Read(Stream stream)
         {
             var reader = new StreamReader(stream);
             var lines = reader.ReadLines();
