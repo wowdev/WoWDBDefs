@@ -1,4 +1,5 @@
 ﻿using DBDefsLib;
+using DBDefsLib.Structs;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +7,6 @@ using System.Linq;
 using System.Reflection;
 using System.Xml;
 using System.Xml.Serialization;
-using static DBDefsLib.Structs;
 
 using FieldLookup = System.Collections.Generic.Dictionary<string, System.Reflection.FieldInfo>;
 

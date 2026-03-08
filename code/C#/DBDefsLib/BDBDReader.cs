@@ -1,8 +1,8 @@
-﻿using System;
+﻿using DBDefsLib.Structs;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using static DBDefsLib.Structs;
 
 namespace DBDefsLib
 {

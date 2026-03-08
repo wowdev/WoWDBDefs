@@ -1,0 +1,32 @@
+0x1 PROC_FAILURE_BURNS_CHARGE // Proc Failure Burns Charge 
+0x2 REQ_AMMO // Uses Ranged Slot
+0x4 ON_NEXT_SWING // On Next Swing (No Damage)
+0x8 IS_REPLENISHMENT // Do Not Log Immune Misses, not set in 3.0.3
+0x10 ABILITY // Is Ability, client puts 'ability' instead of 'spell' in game strings for these spells
+0x20 TRADESPELL // Is Tradeskill, trade spells (recipes), will be added by client to a sublist of profession spell
+0x40 PASSIVE // Passive spell
+0x80 HIDDEN_CLIENTSIDE // Do Not Display (Spellbook, Aura Icon, Combat Log), spells with this attribute are not visible in spellbook or aura bar
+0x100 HIDE_IN_COMBAT_LOG // Do Not Log, This attribite controls whether spell appears in combat logs
+0x200 TARGET_MAINHAND_ITEM // Held Item Only, Client automatically selects item from mainhand slot as a cast target
+0x400 ON_NEXT_SWING_2 // On Next Swing
+0x800 WEARER_PROC_TRIGGER // Wearer Casts Proc Trigger 
+0x1000 DAYTIME_ONLY // Server Only, only useable at daytime, not set in 2.4.2
+0x2000 NIGHT_ONLY // Allow Item Spell In PvP, only useable at night, not set in 2.4.2
+0x4000 INDOORS_ONLY // Only Indoors, only useable indoors, not set in 2.4.2
+0x8000 OUTDOORS_ONLY // Only Outdoors, Only useable outdoors.
+0x10000 NOT_SHAPESHIFT // Not Shapeshifted, Not while shapeshifted
+0x20000 ONLY_STEALTHED // Only Stealthed, Must be in stealth
+0x40000 DONT_AFFECT_SHEATH_STATE // Do Not Sheath, client won't hide unit weapons in sheath on cast/channel
+0x80000 LEVEL_DAMAGE_CALCULATION // Scales w/ Creature Level, spelldamage depends on caster level
+0x100000 STOP_ATTACK_TARGET // Cancels Auto Attack Combat, Stop attack after use this spell (and not begin attack if use)
+0x200000 IMPOSSIBLE_DODGE_PARRY_BLOCK // No Active Defense, Cannot be dodged/parried/blocked
+0x400000 CAST_TRACK_TARGET // Track Target in Cast (Player Only), Client automatically forces player to face target when casting
+0x800000 CASTABLE_WHILE_DEAD // Allow Cast While Dead
+0x1000000 CASTABLE_WHILE_MOUNTED // Allow While Mounted
+0x2000000 DISABLED_WHILE_ACTIVE // Cooldown On Event, Activate and start cooldown after aura fade or remove summoned creature or go
+0x4000000 NEGATIVE_1 // Aura Is Debuff
+0x8000000 CASTABLE_WHILE_SITTING // Allow While Sitting
+0x10000000 CANT_USED_IN_COMBAT // Not In Combat (Only Peaceful)
+0x20000000 UNAFFECTED_BY_INVULNERABILITY // No Immunities
+0x40000000 HEARTBEAT_RESIST_CHECK // random chance the effect will end
+0x80000000 CANT_CANCEL // No Aura Cancel, positive aura can't be canceled

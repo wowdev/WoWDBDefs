@@ -1,7 +1,7 @@
-﻿using System;
+﻿using DBDefsLib.Structs;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using static DBDefsLib.Structs;
 
 namespace DBDefsConverter;
 

@@ -23,4 +23,4 @@ The only difference between these files is that enum files (DBDE) use numerical/
 This is very similar to DBD column definitions, but instead of a field type it has a decimal (enums) or hexadecimal (flags) value. Another difference is that only `Value` is required as there can be unnamed flags.
 Just like DBD column definitions, `Name` can not contain spaces but can be followed by a `?` for unverified/placeholder names. It can also be followed by a comment starting after the name at `//`. Given both `Name` and `Comment` are optional, it is possible for a comment to start immediately after a name.
 #### Versioning
-TODO
+If a flag/enum is only for a specific version, you can override the 'default' value for it by adding `(BUILD x.x.x.xxxxx) ` in front of the value. At time of writing this is tentative, more information is available [here](https://github.com/wowdev/WoWDBDefs/discussions/207#discussioncomment-16035912).

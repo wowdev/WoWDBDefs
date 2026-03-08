@@ -3,17 +3,17 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net8.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
-    <Version>1.0.1.0</Version>
+    <Version>1.0.1.1-beta</Version>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="../nuget-icon.png" Pack="true" PackagePath="\"/>
+    <None Include="../nuget-icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
   <PropertyGroup>
     <Authors>WoWDev</Authors>
