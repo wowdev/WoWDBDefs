@@ -193,7 +193,7 @@ namespace DBDefsTest
             if (File.Exists(Path.Combine(metaDirectory, "mapping.dbdm")))
             {
                 var dbdmReader = new DBDMReader();
-                List<MappingDefinition> mappings;
+                List<MappingDefinition> mappings = [];
 
                 try
                 {
@@ -205,6 +205,28 @@ namespace DBDefsTest
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Failed to read mapping.dbdm: " + ex);
                     Console.ResetColor();
+                }
+
+                foreach (var mapping in mappings)
+                {
+                    // TODO: Enum/flag file validation
+
+                    if (!definitionCache.TryGetValue(mapping.tableName, out var dbDef))
+                    {
+                        errorEncountered.Add(mapping.tableName);
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Mapping for {mapping.tableName} references DBD that does not exist");
+                        Console.ResetColor();
+                    }
+                    else if (!dbDef.columnDefinitions.ContainsKey(mapping.columnName))
+                    {
+                        errorEncountered.Add(mapping.tableName);
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Mapping for {mapping.tableName}::{mapping.columnName} references a column that does not exist in the database definition");
+                        Console.ResetColor();
+                    }
+
+                    // TODO: Conditional table/column validation
                 }
             }
 
