@@ -74,9 +74,11 @@ namespace DBDefsLib
                     if (!long.TryParse(valueStr, out entry.value))
                         throw new Exception($"Line {lineNumber}: Invalid enum value '{valueStr}'");
                 }
-
-                if (parts.Length >= 2)
-                    entry.name = parts[1];
+                
+                // This way the name can have spaces
+                var remainingLine = line[(valueStr.Length)..].TrimStart();
+                if (!string.IsNullOrEmpty(remainingLine))
+                    entry.name = remainingLine;
 
                 entries.Add(entry);
             }
