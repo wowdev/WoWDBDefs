@@ -115,6 +115,9 @@ namespace DBDefsLib
                 var metaDirectory = Path.GetDirectoryName(file);
                 foreach(var mapping in mappingDefinition)
                 {
+                    if (mapping.meta == MetaType.COLOR)
+                        continue;
+
                     var dir = mapping.meta == MetaType.ENUM ? "enums" : "flags";
                     var ext = mapping.meta == MetaType.ENUM ? ".dbde" : ".dbdf";
                     var path = Path.Combine(metaDirectory, dir, $"{mapping.metaValue}{ext}");
