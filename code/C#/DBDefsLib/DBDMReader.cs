@@ -118,6 +118,10 @@ namespace DBDefsLib
                     if (mapping.meta == MetaType.COLOR)
                         continue;
 
+                    // Flags without file definitions are allowed
+                    if (string.IsNullOrEmpty(mapping.metaValue))
+                        continue;
+
                     var dir = mapping.meta == MetaType.ENUM ? "enums" : "flags";
                     var ext = mapping.meta == MetaType.ENUM ? ".dbde" : ".dbdf";
                     var path = Path.Combine(metaDirectory, dir, $"{mapping.metaValue}{ext}");
