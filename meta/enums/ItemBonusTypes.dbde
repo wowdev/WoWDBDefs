@@ -1,0 +1,31 @@
+0 NoBonus
+1 IncreaseILVLBy // Increase iLevel by {#Item Level}
+2 IncreaseBonusStat // Increase Bonus Stat {@g_bonusStatFields} by {#Percentage}% of budget
+3 SetItemQuality // Set Item Quality to {@ITEM_QUALITY}
+4 AddCustomTooltip // Add Custom Tooltip "{ItemNameDescription}" in slot {#Slot}
+5 SetNameSuffix // Set Name Suffix "{ItemNameDescription}" at priority {#Priority}
+6 AddSockets // Add {#Num Sockets} socket(s) of type {$Item Socket Type}
+7 SetItemAppearanceModifier // Set Item Appearance Modifier "{ItemAppearanceModifier}" at priority {#Priority}
+8 IncreaseRequiredLevel // Increase required level by {#Required Level}
+9 ToastItemOnReceived // When received, toast item with "{$Item Toast}" at priority {#Priority}
+10 MultiplyRepairCost // Multiply repair cost by {#Repair Cost Multiplier}%
+11 ScalingStateDistribution // Scaling Stat Distribution "{ScalingStatDistribution}" at priority {#Priority}
+12 SetDisenchantLoot // Set Disenchant Loot to "{Treasure}" at priority {#Priority}
+13 FixedStatDistribution // Fixed Stat Distribution "{ScalingStatDistribution}" at priority {#Priority} + ContentTuning (optional) "{ContentTuning}"
+14 PreviewasItemPyramid
+15 IsClientPreview
+16 SetBindType // Set Bind Type to {@ITEM_BIND}
+17 SecondaryRelicPowerLabel
+18 SetRequiredLevel // Set Required Level to {#Required Level}
+19 AzeriteTierUnlockSetID
+21 CanDisenchant
+22 CanScrap
+23 ItemEffectID
+25 ModifiedCraftingStat
+27 RequiredLevelCurve
+30 ItemDescription
+31 LegendaryName
+34 ItemBonusListGroupID
+35 ItemLimitCategoryID
+37 ItemConversionID
+42 BaseItemLevel

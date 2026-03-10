@@ -34,8 +34,42 @@ COLOR Lightning::FlashColor
 COLOR LightShaft::Color
 COLOR LiquidType::MinimapStaticCol
 COLOR Weather::OverrideColor
+ENUM CharComponentTextureSections::SectionType ComponentSection
+ENUM CharHairGeosets::GeosetType GeosetType
+ENUM CharSectionCondition::BaseSection CharSectionType
+ENUM CharSectionCondition::Sex CharSex
+ENUM CharSections::BaseSection CharSectionType
+ENUM CharSections::SexID CharSex
+ENUM ChrCustomization::ComponentSection[0] ComponentSection
+ENUM ChrCustomization::ComponentSection[1] ComponentSection
+ENUM ChrCustomization::ComponentSection[2] ComponentSection
+ENUM ChrCustomization::UiCustomizationType UiCustomizationType
+ENUM ChrCustomizationGeoset::GeosetType GeosetType
+ENUM ChrCustomizationReq::ReqType ChrCustomizationReqType
+ENUM ChrCustomizationSkinnedModel::GeosetType GeosetType
+ENUM CriteriaTree::Operator CriteriaTreeOperator
+ENUM Difficulty::InstanceType MapTypes
+ENUM ItemBonus::Type ItemBonusTypes
+ENUM ItemDisplayInfoMaterialRes::ComponentSection ComponentSection
+ENUM ItemSparse::StatModifier_bonusStat[0] ItemStatType
+ENUM ItemSparse::StatModifier_bonusStat[1] ItemStatType
+ENUM ItemSparse::StatModifier_bonusStat[2] ItemStatType
+ENUM ItemSparse::StatModifier_bonusStat[3] ItemStatType
+ENUM ItemSparse::StatModifier_bonusStat[4] ItemStatType
+ENUM ItemSparse::StatModifier_bonusStat[5] ItemStatType
+ENUM ItemSparse::StatModifier_bonusStat[6] ItemStatType
+ENUM ItemSparse::StatModifier_bonusStat[7] ItemStatType
+ENUM ItemSparse::StatModifier_bonusStat[8] ItemStatType
+ENUM ItemSparse::StatModifier_bonusStat[9] ItemStatType
 ENUM Map::ExpansionID ExpansionLevels
+ENUM Map::InstanceType MapTypes
+ENUM ModifierTree::Operator ModifierTreeOperator
+ENUM ModifierTree::Type CriteriaAdditionalCondition
+ENUM PlayerCondition::MinReputation[0] ReputationLevels
 ENUM SpellEffect::Effect SpellEffect
+ENUM SpellEffect::EffectAura SpellEffectAura
+ENUM SpellVisualKitEffect::EffectType SpellVisualKitEffectType
+ENUM UiMap::Type UiMapType
 FLAGS Achievement::Flags AchievementFlags
 FLAGS AnimationData::Flags[0] AnimationDataFlags
 FLAGS AnimKitConfig::ConfigFlags AnimKitConfigFlags
