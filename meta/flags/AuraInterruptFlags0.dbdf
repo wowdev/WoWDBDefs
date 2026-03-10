@@ -1,0 +1,32 @@
+0x1 HITBYSPELL // Hostile Action Received Cancels
+0x2 TAKE_DAMAGE // Damage Cancels
+0x4 CAST // Action Cancels
+0x8 MOVE // Moving Cancels
+0x10 TURNING // Turning Cancels
+0x20 JUMP // Anim Cancels
+0x40 NOT_MOUNTED // Dismount Cancels
+0x80 NOT_ABOVEWATER // Under Water Cancels
+0x100 NOT_UNDERWATER // Above Water Cancels
+0x200 NOT_SHEATHED // Sheathing Cancels
+0x400 TALK // Interacting Cancels
+0x800 USE // Looting Cancels
+0x1000 MEELEE_ATTACK // Attacking Cancels
+0x2000 SPELL_ATTACK // Item Use Cancels
+0x4000 DAMAGE_CHANNEL_DURATION // Damage Channel Duration
+0x8000 TRANSFORM // Shapeshifting Cancels
+0x10000 CAST_LATE // Action Cancels - Late
+0x20000 MOUNT // Mount Cancels
+0x40000 NOT_SEATED // Standing Cancels
+0x80000 CHANGE_MAP // Leave World Cancels
+0x100000 IMMUNE_OR_LOST_SELECTION // Stealth/Invis Cancels
+0x200000 TELEPORTED // Invulnerability Buff Cancels
+0x400000 ENTER_PVP_COMBAT // Enter World Cancels
+0x800000 DIRECT_DAMAGE // PvP Active Cancels
+0x1000000 LANDING // Non-Periodic Damage Cancels
+0x2000000 LANDING_CANCELS
+0x4000000 RELEASE_CANCELS
+0x8000000 DAMAGE_CANCELS_SCRIPT
+0x10000000 ENTERING_COMBAT_CANCELS
+0x20000000 LOGIN_CANCELS
+0x40000000 SUMMON_CANCELS
+0x80000000 LEAVING_COMBAT_CANCELS

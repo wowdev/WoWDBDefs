@@ -2,7 +2,31 @@ COLOR LightData::SkySmogColor
 ENUM Map::ExpansionID ExpansionLevels
 ENUM SpellEffect::Effect SpellEffect
 FLAGS Achievement::Flags AchievementFlags
+FLAGS AnimationData::Flags[0] AnimationDataFlags
+FLAGS AreaPOI::Flags AreaPOIFlags
+FLAGS AreaTable::Flags[0] AreaTableFlags0
+FLAGS AreaTable::Flags[1] AreaTableFlags1
+FLAGS Campaign::Flags CampaignFlags
+FLAGS CharSections::Flags CharSectionFlags
+FLAGS CharShipment::Flags CharShipmentFlags
 FLAGS ChrCustomizationReq::ClassMask ClassMask
+FLAGS ContentTuning::Flags ContentTuningFlags
+FLAGS CreatureDisplayInfo::Flags CreatureDisplayInfoFlags
+FLAGS CriteriaTree::Flags CriteriaTreeFlags
+FLAGS CurrencyTypes::Flags[0] CurrencyFlags0
+FLAGS CurrencyTypes::Flags[1] CurrencyFlags1
+FLAGS Difficulty::Flags DifficultyFlags
+FLAGS GarrAbility::Flags GarrAbilityFlags
+FLAGS GarrAutoSpellEffect::Flags GarrAutoSpellEffectFlags
+FLAGS GarrClassSpec::Flags GarrClassSpecFlags
+FLAGS GarrEncounter::Flags GarrEncounterFlags
+FLAGS GarrFollowerType::Flags GarrFollowerTypeFlags
+FLAGS GarrMission::Flags GarrMissionFlags
+FLAGS GemProperties::Type SocketColors
+FLAGS GlobalStrings::Flags GlobalStringsFlags
+FLAGS Holidays::Flags HolidayFlags
+FLAGS HouseDecor::Flags HouseDecorFlags
+FLAGS HouseRoom::Flags HouseRoomFlags
 FLAGS ItemSearchName::AllowableClass ClassMask
 FLAGS ItemSearchName::Flags[0] ItemStaticFlags0
 FLAGS ItemSearchName::Flags[1] ItemStaticFlags1
@@ -15,7 +39,19 @@ FLAGS ItemSparse::Flags[1] ItemStaticFlags1
 FLAGS ItemSparse::Flags[2] ItemStaticFlags2
 FLAGS ItemSparse::Flags[3] ItemStaticFlags3
 FLAGS ItemSparse::Flags[4] ItemStaticFlags4
+FLAGS LFGDungeons::Flags[0] LFGDungeonFlags0
+FLAGS LFGDungeons::Flags[1] LFGDungeonFlags1
+FLAGS Map::Flags[0] MapFlags0
+FLAGS Map::Flags[1] MapFlags1
+FLAGS Map::Flags[2] MapFlags2
 FLAGS PlayerCondition::ClassMask ClassMask
+FLAGS QuestInfo::Modifiers QuestTagModifierFlags
+FLAGS QuestV2CliTask::Flags[0] QuestFlags0
+FLAGS QuestV2CliTask::Flags[1] QuestFlags1
+FLAGS QuestV2CliTask::Flags[1] QuestFlags2
+FLAGS RuneforgeLegendaryAbility::InventoryTypeMask InventoryTypeMask
+FLAGS SoundKit::Flags SoundKitFlags
+FLAGS SpellCastingRequirements::FacingCasterFlags FacingCasterFlags
 FLAGS SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=189
 FLAGS SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=198
 FLAGS SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=405
@@ -37,6 +73,10 @@ FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=72
 FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=73
 FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=74
 FLAGS SpellEffect::EffectMiscValue[1] CombatRatingFlags SpellEffect::EffectAura=198
+FLAGS SpellInterrupts::AuraInterruptFlags[0] AuraInterruptFlags0
+FLAGS SpellInterrupts::AuraInterruptFlags[1] AuraInterruptFlags1
+FLAGS SpellInterrupts::ChannelInterruptFlags[0] AuraInterruptFlags0
+FLAGS SpellInterrupts::ChannelInterruptFlags[1] AuraInterruptFlags1
 FLAGS SpellMisc::Attributes[0] SpellAttributes0
 FLAGS SpellMisc::Attributes[1] SpellAttributes1
 FLAGS SpellMisc::Attributes[10] SpellAttributes10
@@ -55,4 +95,9 @@ FLAGS SpellMisc::Attributes[7] SpellAttributes7
 FLAGS SpellMisc::Attributes[8] SpellAttributes8
 FLAGS SpellMisc::Attributes[9] SpellAttributes9
 FLAGS SpellMisc::SchoolMask DamageClass
-FLAGS AnimationData::Flags[0] AnimationDataFlags
+FLAGS SpellTargetRestrictions::TargetCreatureType TargetCreatureType // Seeded from CreatureType.db2
+FLAGS SpellTargetRestrictions::Targets TargetFlags
+FLAGS SummonProperties::Flags SummonPropertiesFlags
+FLAGS SummonProperties::Flags[0] SummonPropertiesFlags
+FLAGS TaxiNodes::Flags TaxiNodeFlags
+FLAGS UiMap::Flags UIMapFlags
