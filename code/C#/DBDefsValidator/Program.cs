@@ -1,4 +1,5 @@
 ﻿using DBDefsLib;
+using DBDefsLib.Constants;
 using DBDefsLib.Structs;
 using System;
 using System.Collections.Generic;
@@ -209,8 +210,6 @@ namespace DBDefsTest
 
                 foreach (var mapping in mappings)
                 {
-                    // TODO: Enum/flag file validation
-
                     if (!definitionCache.TryGetValue(mapping.tableName, out var dbDef))
                     {
                         errorEncountered.Add(mapping.tableName);
@@ -224,6 +223,36 @@ namespace DBDefsTest
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine($"Mapping for {mapping.tableName}::{mapping.columnName} references a column that does not exist in the database definition");
                         Console.ResetColor();
+                    }
+
+                    if (mapping.meta == MetaType.COLOR)
+                        continue;
+
+                    // Flags without file definitions are allowed
+                    if (string.IsNullOrEmpty(mapping.metaValue))
+                        continue;
+
+                    var dir = mapping.meta == MetaType.ENUM ? "enums" : "flags";
+                    var ext = mapping.meta == MetaType.ENUM ? ".dbde" : ".dbdf";
+                    var path = Path.Combine(metaDirectory, dir, $"{mapping.metaValue}{ext}");
+
+                    if (File.Exists(path))
+                    {
+                        using (var fs = new FileStream(path, FileMode.Open, FileAccess.Read))
+                        {
+                            try
+                            {
+                                var dbdeReader = new DBDEnumReader();
+                                var enumDef = dbdeReader.Read(fs, mapping.meta);
+                            }
+                            catch (Exception ex)
+                            {
+                                errorEncountered.Add(mapping.metaValue);
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine($"Failed to read {mapping.metaValue} for mapping {mapping.tableName}::{mapping.columnName}: " + ex);
+                                Console.ResetColor();
+                            }
+                        }
                     }
 
                     // TODO: Conditional table/column validation
