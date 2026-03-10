@@ -1,0 +1,32 @@
+0x1 NO_PICKUP
+0x2 CONJURED
+0x4 HAS_LOOT // Has Loot Table
+0x8 HEROIC_TOOLTIP // Make green "Heroic" text appear on item
+0x10 DEPRECATED // Cannot equip or use
+0x20 NO_USER_DESTROY // Item can not be destroyed, except by using spell (item can be reagent for spell)
+0x40 PLAYER_CAST // Item's spells are castable by players
+0x80 NO_EQUIP_COOLDOWN // No default 30 seconds cooldown when equipped
+0x100 MULTILOOT_QUEST
+0x200 IS_WRAPPER // Gift Wrap, Item can wrap other items
+0x400 USES_RESOURCES
+0x800 MULTI_DROP // Looting this item does not remove it from available loot
+0x1000 ITEM_PURCHASE_RECORD // In-Game Refuned, Item can be returned to vendor for its original cost (extended cost)
+0x2000 PETITION // Item is a charter (e.g. guild/arena charter)
+0x4000 HAS_TEXT // Readable items have this (but not all)
+0x8000 NO_DISENCHANT
+0x10000 REAL_DURATION
+0x20000 NO_CREATOR
+0x40000 PROSPECTABLE // Item can be prospected
+0x80000 UNIQUE_EQUIPPABLE // You can only equip one of this item
+0x100000 IGNORE_FOR_AURAS // Disable Aura Quotas
+0x200000 IGNORE_DEFAULT_ARENA_RESTRICTIONS // Item can be used during arena match
+0x400000 NO_DURABILITY_LOSS // Some Thrown weapons have it (and only Thrown) but not all
+0x800000 USE_WHEN_SHAPESHIFTED // Item can be used while shapeshifted
+0x1000000 HAS_QUEST_GLOW
+0x2000000 HIDE_UNUSABLE_RECIPE // Profession recipes can only be looted if you meet requirements and don't already know it
+0x4000000 NOT_USABLE_IN_ARENA 
+0x8000000 IS_BOUND_TO_ACCOUNT // Item binds to account and can be sent only to your own characters
+0x10000000 NO_REAGENT_COST // Spell is cast ignoring reagents
+0x20000000 MILLABLE // Item can be milled
+0x40000000 REPORT_TO_GUILD_CHAT
+0x80000000 NO_DYNAMIC_DROP_CHANCE // Don't use dynamic drop chance (Quest)

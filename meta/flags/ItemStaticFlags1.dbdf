@@ -1,0 +1,32 @@
+0x1 FACTION_HORDE
+0x2 FACTION_ALLIANCE
+0x4 DONT_IGNORE_BUY_PRICE // (deprecated) Don't ignore buy prices when extended cost is specified
+0x8 CLASSIFY_AS_CASTER // Only caster classes can roll need
+0x10 CLASSIFY_AS_PHYSICAL // Only non-caster classes can roll need
+0x20 EVERYONE_CAN_ROLL_NEED
+0x40 NO_TRADE_BIND_ON_ACQUIRE
+0x80 CAN_TRADE_BIND_ON_ACQUIRE
+0x100 CAN_ONLY_ROLL_GREED // Players can only roll Greed (Need Before Greed only)
+0x200 CASTER_WEAPON // This is a caster weapon
+0x400 DELETE_ON_LOGIN
+0x800 INTERNAL_ITEM // Internal test item that players will never be able to see
+0x1000 NO_VENDOR_VALUE // Vendors will not purchase this item (has no vendor value)
+0x2000 SHOW_BEFORE_DISCOVERED // Item is a well-known discovered item
+0x4000 OVERRIDE_GOLD_COST // Override the automatic cost calculation
+0x8000 IGNORE_DEFAULT_RATED_BG_RESTRICTIONS
+0x10000 NOT_USABLE_IN_RATED_BG
+0x20000 BNET_ACCOUNT_TRADE_OK // Bound to Battle.net Account (must be bound to account)
+0x40000 CONFIRM_BEFORE_USE
+0x80000 REEVALUATE_BONDING_ON_TRANSFORM
+0x100000 NO_TRANSFORM_ON_CHARGE_DEPLETION
+0x200000 NO_ALTER_ITEM_VISUAL // Cannot alter this item's visual appearance
+0x400000 NO_SOURCE_FOR_ITEM_VISUAL // Cannot alter items to look like this item
+0x800000 IGNORE_QUALITY_FOR_ITEM_VISUAL_SOURCE // Can be used as a source for item visual regardless of quality
+0x1000000 NO_DURABILITY
+0x2000000 ROLE_TANK // "Tank" role assignment required in order to get Need +Roll bonus in LFR
+0x4000000 ROLE_HEALER // "Healer" role assignment required in order to get Need +Roll bonus in LFR
+0x8000000 ROLE_DAMAGE // "DPS" role assignment required in order to get Need +Roll bonus in LFR
+0x10000000 CAN_DROP_IN_CHALLENGE_MODE
+0x20000000 NEVER_STACK_IN_LOOT_UI
+0x40000000 DISENCHANT_TO_LOOT_TABLE
+0x80000000 USED_IN_A_TRADESKILL // Can be placed in reagent bank
