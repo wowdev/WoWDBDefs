@@ -183,7 +183,42 @@ namespace DBDefsTest
             }
             else
             {
-                Console.WriteLine("Done");
+                Console.WriteLine("Done reading DBDs");
+            }
+
+            // Flags/enums
+            errorEncountered.Clear();
+
+            var metaDirectory = Path.Combine(definitionDir, "..", "meta");
+            if (File.Exists(Path.Combine(metaDirectory, "mapping.dbdm")))
+            {
+                var dbdmReader = new DBDMReader();
+                List<MappingDefinition> mappings;
+
+                try
+                {
+                    mappings = dbdmReader.Read(Path.Combine(metaDirectory, "mapping.dbdm"), true);
+                }
+                catch (Exception ex)
+                {
+                    errorEncountered.Add("mapping");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Failed to read mapping.dbdm: " + ex);
+                    Console.ResetColor();
+                }
+            }
+
+            if (errorEncountered.Count != 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("There have been errors in the following meta files:");
+                foreach (var metaFile in errorEncountered)
+                    Console.WriteLine(" - " + metaFile);
+                Environment.Exit(1);
+            }
+            else
+            {
+                Console.WriteLine("Done reading meta files");
             }
         }
     }

@@ -1,3 +1,4 @@
+using DBDefsLib.Constants;
 using DBDefsLib.Structs;
 using System;
 using System.Collections.Generic;
@@ -83,7 +84,7 @@ namespace DBDefsLib
                 if (split.Length == 4)
                 {
                     var conditionalData = split[3];
-                    if (!conditionalData.Contains("="))
+                    if (!conditionalData.Contains('='))
                         throw new Exception($"Line: {lineNumber} has no conditional Table::Column value assignment");
 
                     var assignmentIndexOf = conditionalData.IndexOf('=');
@@ -102,13 +103,27 @@ namespace DBDefsLib
             return mappings;
         }
 
-        public List<MappingDefinition> Read(string file)
+        public List<MappingDefinition> Read(string file, bool validate = false)
         {
             if (!File.Exists(file))
                 throw new FileNotFoundException($"Unable to find mapping file: {file}");
 
             using var stream = File.Open(file, FileMode.Open, FileAccess.Read);
-            return Read(stream);
+            var mappingDefinition = Read(stream);
+            if (validate)
+            {
+                var metaDirectory = Path.GetDirectoryName(file);
+                foreach(var mapping in mappingDefinition)
+                {
+                    var dir = mapping.meta == MetaType.ENUM ? "enums" : "flags";
+                    var ext = mapping.meta == MetaType.ENUM ? ".dbde" : ".dbdf";
+                    var path = Path.Combine(metaDirectory, dir, $"{mapping.metaValue}{ext}");
+
+                    if (!File.Exists(path))
+                        throw new FileNotFoundException("Unable to find meta file for " + mapping.metaValue + ": " + path);
+                }
+            }
+            return mappingDefinition;
         }
     }
 }
