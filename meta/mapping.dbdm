@@ -1,12 +1,51 @@
 COLOR LightData::SkySmogColor
 ENUM Map::ExpansionID ExpansionLevels
 ENUM SpellEffect::Effect SpellEffect
-ENUM SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=189
-ENUM SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=39
-ENUM SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=69
 FLAGS Achievement::Flags AchievementFlags
+FLAGS ChrCustomizationReq::ReqValue ClassMask ChrCustomizationReq::ReqType=1
+FLAGS ItemSearchName::AllowableClass ClassMask
+FLAGS ItemSearchName::Flags[0] ItemStaticFlags0
+FLAGS ItemSearchName::Flags[1] ItemStaticFlags1
+FLAGS ItemSearchName::Flags[2] ItemStaticFlags2
+FLAGS ItemSearchName::Flags[3] ItemStaticFlags3
+FLAGS ItemSearchName::Flags[4] ItemStaticFlags4
+FLAGS ItemSparse::AllowableClass ClassMask
+FLAGS ItemSparse::Flags[0] ItemStaticFlags0
+FLAGS ItemSparse::Flags[1] ItemStaticFlags1
+FLAGS ItemSparse::Flags[2] ItemStaticFlags2
+FLAGS ItemSparse::Flags[3] ItemStaticFlags3
+FLAGS ItemSparse::Flags[4] ItemStaticFlags4
+FLAGS PlayerCondition::ClassMask ClassMask
+FLAGS SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=189
+FLAGS SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=198
+FLAGS SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=405
+FLAGS SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=583
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=174
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=194
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=220
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=267
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=270
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=301
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=316
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=39
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=558
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=574
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=579
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=69
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=71
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=72
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=73
+FLAGS SpellEffect::EffectMiscValue[0] DamageClass SpellEffect::EffectAura=74
+FLAGS SpellEffect::EffectMiscValue[1] CombatRatingFlags SpellEffect::EffectAura=198
 FLAGS SpellMisc::Flags[0] SpellAttributes0
 FLAGS SpellMisc::Flags[1] SpellAttributes1
+FLAGS SpellMisc::Flags[10] SpellAttributes10
+FLAGS SpellMisc::Flags[11] SpellAttributes11
+FLAGS SpellMisc::Flags[12] SpellAttributes12
+FLAGS SpellMisc::Flags[13] SpellAttributes13
+FLAGS SpellMisc::Flags[14] SpellAttributes14
+FLAGS SpellMisc::Flags[15] SpellAttributes15 // Some comment
+FLAGS SpellMisc::Flags[16] SpellAttributes16
 FLAGS SpellMisc::Flags[2] SpellAttributes2
 FLAGS SpellMisc::Flags[3] SpellAttributes3
 FLAGS SpellMisc::Flags[4] SpellAttributes4
@@ -15,10 +54,4 @@ FLAGS SpellMisc::Flags[6] SpellAttributes6
 FLAGS SpellMisc::Flags[7] SpellAttributes7
 FLAGS SpellMisc::Flags[8] SpellAttributes8
 FLAGS SpellMisc::Flags[9] SpellAttributes9
-FLAGS SpellMisc::Flags[10] SpellAttributes10
-FLAGS SpellMisc::Flags[11] SpellAttributes11
-FLAGS SpellMisc::Flags[12] SpellAttributes12
-FLAGS SpellMisc::Flags[13] SpellAttributes13
-FLAGS SpellMisc::Flags[14] SpellAttributes14
-FLAGS SpellMisc::Flags[15] SpellAttributes15 // Some comment
-FLAGS SpellMisc::Flags[16] SpellAttributes16
+FLAGS SpellMisc::SchoolMask DamageClass
