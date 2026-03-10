@@ -2,7 +2,7 @@ COLOR LightData::SkySmogColor
 ENUM Map::ExpansionID ExpansionLevels
 ENUM SpellEffect::Effect SpellEffect
 FLAGS Achievement::Flags AchievementFlags
-FLAGS ChrCustomizationReq::ReqValue ClassMask ChrCustomizationReq::ReqType=1
+FLAGS ChrCustomizationReq::ClassMask ClassMask
 FLAGS ItemSearchName::AllowableClass ClassMask
 FLAGS ItemSearchName::Flags[0] ItemStaticFlags0
 FLAGS ItemSearchName::Flags[1] ItemStaticFlags1
