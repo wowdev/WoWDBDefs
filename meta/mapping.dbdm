@@ -7,6 +7,8 @@ FLAGS AnimKitConfig::ConfigFlags AnimKitConfigFlags
 FLAGS AreaPOI::Flags AreaPOIFlags
 FLAGS AreaTable::Flags[0] AreaTableFlags0
 FLAGS AreaTable::Flags[1] AreaTableFlags1
+FLAGS AreaTable::MountFlags AreaTableMountFlags
+FLAGS AreaTriggerActionSet::Flags AreaTriggerActionSetFlags
 FLAGS ArtifactPower::Flags ArtifactPowerFlags
 FLAGS BattlemasterList::Flags BattlemasterListFlags
 FLAGS BattlePetAbility::Flags BattlePetAbilityFlags
@@ -15,6 +17,9 @@ FLAGS BattlePetState::Flags BattlePetStateFlags
 FLAGS BattlePetVisual::Flags BattlePetVisualFlags
 FLAGS BroadcastText::Flags BroadcastTextFlags
 FLAGS Campaign::Flags CampaignFlags
+FLAGS Cfg_Categories::Create_charsetMask CfgCategoriesCharsets
+FLAGS Cfg_Categories::Existing_charsetMask CfgCategoriesCharsets
+FLAGS Cfg_Categories::Flags CfgCategoriesFlags
 FLAGS CharSections::Flags CharSectionFlags
 FLAGS CharShipment::Flags CharShipmentFlags
 FLAGS ChatChannels::Flags ChatChannelFlags
@@ -28,6 +33,7 @@ FLAGS ChrCustomizationVisReq::Flags ChrCustomizationVisReqFlags
 FLAGS ChrModel::Flags ChrModelFlags
 FLAGS ChrModelMaterial::Flags ChrModelMaterialFlags
 FLAGS ChrRaces::Flags ChrRacesFlags
+FLAGS ChrSpecialization::Flags ChrSpecializationFlags
 FLAGS ContentRestrictionRule::Flags ContentRestrictionRuleFlags
 FLAGS ContentRestrictionRuleSet::Flags ContentRestrictionRuleSetFlags
 FLAGS ContentTuning::Flags ContentTuningFlags
@@ -48,6 +54,7 @@ FLAGS CurrencyTypes::Flags[1] CurrencyFlags1
 FLAGS Difficulty::Flags DifficultyFlags
 FLAGS DungeonEncounter::Flags DungeonEncounterFlags
 FLAGS Emotes::EmoteFlags EmoteFlags
+FLAGS ExteriorComponent::Flags ExteriorComponentFlags
 FLAGS FriendshipReputation::Flags FriendshipReputationFlags
 FLAGS GarrAbility::Flags GarrAbilityFlags
 FLAGS GarrAbilityEffect::Flags GarrAbilityEffectFlags
@@ -72,6 +79,7 @@ FLAGS HouseRoom::Flags HouseRoomFlags
 FLAGS ItemBonusList::Flags ItemBonusListFlags
 FLAGS ItemBonusListGroupEntry::Flags ItemBonusListGroupEntryFlags
 FLAGS ItemDisplayInfo::Flags ItemDisplayInfoFlags
+FLAGS ItemScalingConfig::Flags ItemScalingConfigFlags
 FLAGS ItemSearchName::AllowableClass ClassMask
 FLAGS ItemSearchName::Flags[0] ItemStaticFlags0
 FLAGS ItemSearchName::Flags[1] ItemStaticFlags1
@@ -80,6 +88,7 @@ FLAGS ItemSearchName::Flags[3] ItemStaticFlags3
 FLAGS ItemSearchName::Flags[4] ItemStaticFlags4
 FLAGS ItemSet::SetFlags ItemSetSetFlags
 FLAGS ItemSparse::AllowableClass ClassMask
+FLAGS ItemSparse::BagFamily BagFamily
 FLAGS ItemSparse::Flags[0] ItemStaticFlags0
 FLAGS ItemSparse::Flags[1] ItemStaticFlags1
 FLAGS ItemSparse::Flags[2] ItemStaticFlags2
@@ -89,6 +98,7 @@ FLAGS ItemSubClass::DisplayFlags ItemSubClassDisplayFlags
 FLAGS ItemSubClass::Flags ItemSubClassFlags
 FLAGS JournalEncounter::Flags JournalEncounterFlags
 FLAGS JournalEncounterItem::Flags JournalEncounterItemFlags
+FLAGS JournalEncounterSection::Flags JournalEncounterSectionFlags
 FLAGS JournalInstance::Flags JournalInstanceFlags
 FLAGS LabelXContentRestrictRuleSet::Flags LabelXContentRestrictRuleSetFlags
 FLAGS Languages::Flags LanguageFlags
@@ -99,6 +109,7 @@ FLAGS LiquidType::Flags LiquidTypeFlags
 FLAGS Map::Flags[0] MapFlags0
 FLAGS Map::Flags[1] MapFlags1
 FLAGS Map::Flags[2] MapFlags2
+FLAGS MapDifficulty::Flags MapDifficultyFlags
 FLAGS Material::Flags MaterialFlags
 FLAGS ModifiedCraftingReagentItem::Flags OptionalReagentItemFlags
 FLAGS Mount::Flags MountFlags
@@ -192,6 +203,8 @@ FLAGS UiMap::Flags UIMapFlags
 FLAGS UiModelSceneActor::Flags UiModelSceneActorFlags
 FLAGS UIScriptedAnimationEffect::Flags UIScriptedAnimationEffectFlags
 FLAGS VehiclePOIType::Flags VehiclePOITypeFlags
+FLAGS Vignette::Flags VignetteFlags
+FLAGS WarbandScene::Flags WarbandSceneFlags
 FLAGS WaypointEdge::Flags WayPointEdgeFlags
 FLAGS WaypointNode::Flags WayPointNodeFlags
 FLAGS WbAccessControlList::GrantFlags IngameBrowserFlags
