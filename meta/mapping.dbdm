@@ -1,4 +1,39 @@
+COLOR ChrCustomizationChoice::SwatchColor[0]
+COLOR ChrCustomizationChoice::SwatchColor[1]
+COLOR DyeColor::SwatchColorEnd
+COLOR DyeColor::SwatchColorStart
+COLOR HighlightColor::EndColor
+COLOR HighlightColor::MidColor
+COLOR HighlightColor::StartColor
+COLOR ItemNameDescription::Color
+COLOR LightData::AmbientColor
+COLOR LightData::CloudEmissiveColor
+COLOR LightData::CloudLayer1AmbientColor
+COLOR LightData::CloudLayer2AmbientColor
+COLOR LightData::CloudSunColor
+COLOR LightData::DirectColor
+COLOR LightData::EndFogColor
+COLOR LightData::EndFogHeightColor
+COLOR LightData::FogHeightColor
+COLOR LightData::GroundAmbientColor
+COLOR LightData::HorizonAmbientColor
+COLOR LightData::OceanCloseColor
+COLOR LightData::OceanFarColor
+COLOR LightData::RiverCloseColor
+COLOR LightData::RiverFarColor
+COLOR LightData::ShadowOpacity
+COLOR LightData::SkyBand1Color
+COLOR LightData::SkyBand2Color
+COLOR LightData::SkyFogColor
+COLOR LightData::SkyMiddleColor
 COLOR LightData::SkySmogColor
+COLOR LightData::SkyTopColor
+COLOR LightData::SunColor
+COLOR Lightning::BoltColor
+COLOR Lightning::FlashColor
+COLOR LightShaft::Color
+COLOR LiquidType::MinimapStaticCol
+COLOR Weather::OverrideColor
 ENUM Map::ExpansionID ExpansionLevels
 ENUM SpellEffect::Effect SpellEffect
 FLAGS Achievement::Flags AchievementFlags
