@@ -66,12 +66,12 @@ namespace DBDefsLib
                 var valueStr = parts[0];
                 if (metaType == MetaType.FLAGS)
                 {
-                    if (!valueStr.StartsWith("0x", StringComparison.OrdinalIgnoreCase) || !ulong.TryParse(valueStr[2..], NumberStyles.HexNumber, null, out entry.value))
+                    if (!valueStr.StartsWith("0x", StringComparison.OrdinalIgnoreCase) || !long.TryParse(valueStr[2..], NumberStyles.HexNumber, null, out entry.value))
                         throw new Exception($"Line {lineNumber}: Invalid flag value '{valueStr}', expected hex prefixed with 0x");
                 }
                 else
                 {
-                    if (!ulong.TryParse(valueStr, out entry.value))
+                    if (!long.TryParse(valueStr, out entry.value))
                         throw new Exception($"Line {lineNumber}: Invalid enum value '{valueStr}'");
                 }
 
