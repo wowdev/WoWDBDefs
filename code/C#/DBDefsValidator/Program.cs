@@ -244,6 +244,13 @@ namespace DBDefsTest
                             {
                                 var dbdeReader = new DBDEnumReader();
                                 var enumDef = dbdeReader.Read(fs, mapping.meta);
+                                fs.Close();
+
+                                if(rewrite)
+                                {
+                                    var dbdeWriter = new DBDEnumWriter();
+                                    dbdeWriter.Save(enumDef, path);
+                                }
                             }
                             catch (Exception ex)
                             {

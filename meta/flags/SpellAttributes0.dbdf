@@ -1,4 +1,4 @@
-0x1 PROC_FAILURE_BURNS_CHARGE // Proc Failure Burns Charge 
+0x1 PROC_FAILURE_BURNS_CHARGE // Proc Failure Burns Charge
 0x2 REQ_AMMO // Uses Ranged Slot
 0x4 ON_NEXT_SWING // On Next Swing (No Damage)
 0x8 IS_REPLENISHMENT // Do Not Log Immune Misses, not set in 3.0.3
@@ -9,7 +9,7 @@
 0x100 HIDE_IN_COMBAT_LOG // Do Not Log, This attribite controls whether spell appears in combat logs
 0x200 TARGET_MAINHAND_ITEM // Held Item Only, Client automatically selects item from mainhand slot as a cast target
 0x400 ON_NEXT_SWING_2 // On Next Swing
-0x800 WEARER_PROC_TRIGGER // Wearer Casts Proc Trigger 
+0x800 WEARER_PROC_TRIGGER // Wearer Casts Proc Trigger
 0x1000 DAYTIME_ONLY // Server Only, only useable at daytime, not set in 2.4.2
 0x2000 NIGHT_ONLY // Allow Item Spell In PvP, only useable at night, not set in 2.4.2
 0x4000 INDOORS_ONLY // Only Indoors, only useable indoors, not set in 2.4.2
