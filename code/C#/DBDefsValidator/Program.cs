@@ -257,6 +257,9 @@ namespace DBDefsTest
 
                     // TODO: Conditional table/column validation
                 }
+
+                if(rewrite)
+                    DBDMWriter.Save(mappings, Path.Combine(metaDirectory, "mapping.dbdm"));
             }
 
             if (errorEncountered.Count != 0)

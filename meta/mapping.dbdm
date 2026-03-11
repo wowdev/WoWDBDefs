@@ -46,9 +46,9 @@ ENUM ChrCustomization::ComponentSection[1] ComponentSection
 ENUM ChrCustomization::ComponentSection[2] ComponentSection
 ENUM ChrCustomization::UiCustomizationType UiCustomizationType
 ENUM ChrCustomizationGeoset::GeosetType GeosetType
+ENUM ChrCustomizationOption::ChrModelID ChrModelID // Not a real enum, but for ease
 ENUM ChrCustomizationReq::ReqType ChrCustomizationReqType
 ENUM ChrCustomizationSkinnedModel::GeosetType GeosetType
-ENUM ChrCustomizationOption::ChrModelID ChrModelID // Not a real enum, but for ease
 ENUM ChrRaceXChrModel::ChrModelID ChrModelID // Not a real enum, but for ease
 ENUM CriteriaTree::Operator CriteriaTreeOperator
 ENUM Difficulty::InstanceType MapTypes
@@ -69,9 +69,9 @@ ENUM Map::InstanceType MapTypes
 ENUM ModifierTree::Operator ModifierTreeOperator
 ENUM ModifierTree::Type CriteriaAdditionalCondition
 ENUM PlayerCondition::MinReputation[0] ReputationLevels
+ENUM SpellClassOptions::SpellClassSet SpellClassSet
 ENUM SpellEffect::Effect SpellEffect
 ENUM SpellEffect::EffectAura SpellEffectAura
-ENUM SpellLabel::LabelID SpellLabelName
 ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=107
 ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=108
 ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=218
@@ -80,6 +80,9 @@ ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=29
 ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=80
 ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=137
 ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=175
+ENUM SpellLabel::LabelID SpellLabelName
+ENUM SpellVisualKitEffect::EffectType SpellVisualKitEffectType
+ENUM UiMap::Type UiMapType
 ENUM UnitCondition::Op[0] UnitConditionOperator
 ENUM UnitCondition::Op[1] UnitConditionOperator
 ENUM UnitCondition::Op[2] UnitConditionOperator
@@ -88,9 +91,6 @@ ENUM UnitCondition::Op[4] UnitConditionOperator
 ENUM UnitCondition::Op[5] UnitConditionOperator
 ENUM UnitCondition::Op[6] UnitConditionOperator
 ENUM UnitCondition::Op[7] UnitConditionOperator
-ENUM SpellClassOptions::SpellClassSet SpellClassSet
-ENUM SpellVisualKitEffect::EffectType SpellVisualKitEffectType
-ENUM UiMap::Type UiMapType
 FLAGS Achievement::Flags AchievementFlags
 FLAGS AnimationData::Flags[0] AnimationDataFlags
 FLAGS AnimKitConfig::ConfigFlags AnimKitConfigFlags
@@ -258,13 +258,6 @@ FLAGS SpellInterrupts::InterruptFlags InterruptFlags
 FLAGS SpellItemEnchantment::Flags SpellItemEnchantmentFlags
 FLAGS SpellMisc::Attributes[0] SpellAttributes0
 FLAGS SpellMisc::Attributes[1] SpellAttributes1
-FLAGS SpellMisc::Attributes[10] SpellAttributes10
-FLAGS SpellMisc::Attributes[11] SpellAttributes11
-FLAGS SpellMisc::Attributes[12] SpellAttributes12
-FLAGS SpellMisc::Attributes[13] SpellAttributes13
-FLAGS SpellMisc::Attributes[14] SpellAttributes14
-FLAGS SpellMisc::Attributes[15] SpellAttributes15 // Some comment
-FLAGS SpellMisc::Attributes[16] SpellAttributes16
 FLAGS SpellMisc::Attributes[2] SpellAttributes2
 FLAGS SpellMisc::Attributes[3] SpellAttributes3
 FLAGS SpellMisc::Attributes[4] SpellAttributes4
@@ -273,6 +266,13 @@ FLAGS SpellMisc::Attributes[6] SpellAttributes6
 FLAGS SpellMisc::Attributes[7] SpellAttributes7
 FLAGS SpellMisc::Attributes[8] SpellAttributes8
 FLAGS SpellMisc::Attributes[9] SpellAttributes9
+FLAGS SpellMisc::Attributes[10] SpellAttributes10
+FLAGS SpellMisc::Attributes[11] SpellAttributes11
+FLAGS SpellMisc::Attributes[12] SpellAttributes12
+FLAGS SpellMisc::Attributes[13] SpellAttributes13
+FLAGS SpellMisc::Attributes[14] SpellAttributes14
+FLAGS SpellMisc::Attributes[15] SpellAttributes15 // Some comment
+FLAGS SpellMisc::Attributes[16] SpellAttributes16
 FLAGS SpellMisc::SchoolMask DamageClass
 FLAGS SpellShapeshiftForm::Flags SpellShapeshiftFormFlags
 FLAGS SpellTargetRestrictions::TargetCreatureType TargetCreatureType // Seeded from CreatureType.db2
