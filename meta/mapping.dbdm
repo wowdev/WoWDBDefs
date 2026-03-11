@@ -40,6 +40,7 @@ ENUM CharSectionCondition::BaseSection CharSectionType
 ENUM CharSectionCondition::Sex CharSex
 ENUM CharSections::BaseSection CharSectionType
 ENUM CharSections::SexID CharSex
+ENUM ChrClasses::SpellClassSet SpellClassSet
 ENUM ChrCustomization::ComponentSection[0] ComponentSection
 ENUM ChrCustomization::ComponentSection[1] ComponentSection
 ENUM ChrCustomization::ComponentSection[2] ComponentSection
@@ -47,6 +48,8 @@ ENUM ChrCustomization::UiCustomizationType UiCustomizationType
 ENUM ChrCustomizationGeoset::GeosetType GeosetType
 ENUM ChrCustomizationReq::ReqType ChrCustomizationReqType
 ENUM ChrCustomizationSkinnedModel::GeosetType GeosetType
+ENUM ChrCustomizationOption::ChrModelID ChrModelID // Not a real enum, but for ease
+ENUM ChrRaceXChrModel::ChrModelID ChrModelID // Not a real enum, but for ease
 ENUM CriteriaTree::Operator CriteriaTreeOperator
 ENUM Difficulty::InstanceType MapTypes
 ENUM ItemBonus::Type ItemBonusTypes
@@ -68,6 +71,24 @@ ENUM ModifierTree::Type CriteriaAdditionalCondition
 ENUM PlayerCondition::MinReputation[0] ReputationLevels
 ENUM SpellEffect::Effect SpellEffect
 ENUM SpellEffect::EffectAura SpellEffectAura
+ENUM SpellLabel::LabelID SpellLabelname
+ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=107
+ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=108
+ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=218
+ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=219
+ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=29
+ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=80
+ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=137
+ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=175
+ENUM UnitCondition::Op[0] UnitConditionOperator
+ENUM UnitCondition::Op[1] UnitConditionOperator
+ENUM UnitCondition::Op[2] UnitConditionOperator
+ENUM UnitCondition::Op[3] UnitConditionOperator
+ENUM UnitCondition::Op[4] UnitConditionOperator
+ENUM UnitCondition::Op[5] UnitConditionOperator
+ENUM UnitCondition::Op[6] UnitConditionOperator
+ENUM UnitCondition::Op[7] UnitConditionOperator
+ENUM SpellClassOptions::SpellClassSet SpellClassSet
 ENUM SpellVisualKitEffect::EffectType SpellVisualKitEffectType
 ENUM UiMap::Type UiMapType
 FLAGS Achievement::Flags AchievementFlags

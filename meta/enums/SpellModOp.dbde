@@ -1,0 +1,40 @@
+0 HealingAndDamage
+1 Duration
+2 Hate
+3 PointsIndex0
+4 ProcCharges
+5 Range
+6 Radius
+7 CritChance
+8 Points
+9 ResistPushback
+10 ChangeCastTime
+11 Cooldown
+12 PointsIndex1
+13 TargetResistance
+14 PowerCost0 // Used when SpellPowerEntry::PowerIndex == 0
+15 CritDamageAndHealing
+16 HitChance
+17 ChainTargets
+18 ProcChance
+19 Period
+20 ChainAmplitude
+21 StartCooldown
+22 PeriodicHealingAndDamage
+23 PointsIndex2
+24 BonusCoefficient
+25 TriggerDamage
+26 ProcFrequency
+27 Amplitude
+28 DispelResistance
+29 CrowdDamage
+30 PowerCostOnMiss
+31 Doses
+32 PointsIndex3
+33 PointsIndex4
+34 PowerCost1 // Used when SpellPowerEntry::PowerIndex == 1
+35 ChainJumpDistance
+36 AreaTriggerMaxSummons
+37 MaxAuraStacks
+38 ProcCooldown
+39 PowerCost2 // Used when SpellPowerEntry::PowerIndex == 2
