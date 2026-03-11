@@ -71,7 +71,7 @@ ENUM ModifierTree::Type CriteriaAdditionalCondition
 ENUM PlayerCondition::MinReputation[0] ReputationLevels
 ENUM SpellEffect::Effect SpellEffect
 ENUM SpellEffect::EffectAura SpellEffectAura
-ENUM SpellLabel::LabelID SpellLabelname
+ENUM SpellLabel::LabelID SpellLabelName
 ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=107
 ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=108
 ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=218
