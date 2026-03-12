@@ -10,7 +10,7 @@ int<SpellVisualKit::ID> SpellVisualKitID
 int ClassMask
 int RaceMask
 int<AnimationData::ID> EmoteAnimID
-int Field_12_0_5_66330_009?
+int RaceMasks?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -261,4 +261,4 @@ EmoteSpecProcParam<u32>
 EventSoundID<u32>
 SpellVisualKitID<u32>
 ClassMask<32>
-Field_12_0_5_66330_009<32>[2]
+RaceMasks<32>[2]

@@ -15,7 +15,7 @@ int OrderIndex
 int RaceMask
 int SkinColorMask
 int<FileData::ID> TextureVariationFileDataID
-int Field_12_0_5_66330_007?
+int RaceMasks?
 
 LAYOUT 3A7D6AEA
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715
@@ -256,5 +256,5 @@ Gender<8>
 ClassMask<u32>
 CreatureModelDataID<32>
 TextureVariationFileDataID<32>[4]
-Field_12_0_5_66330_007<32>[2]
+RaceMasks<32>[2]
 $noninline,relation$CreatureDisplayInfoID<32>

@@ -88,7 +88,7 @@ int Field_1_15_7_59706_059?
 int<Curve::ID> ItemLevelOffsetCurveID?
 int ItemLevelOffsetItemLevel? // same purpose as ItemScalingConfig::ItemLevel (curve parameter for ItemLevelOffsetCurveID)
 int<ItemSquishEra::ID> ItemSquishEraID?
-int Field_12_0_5_66330_022?
+int AllowableRaces?
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -2561,7 +2561,7 @@ Stackable<32>
 MaxCount<32>
 MinReputation<32>
 RequiredAbility<u32>
-Field_12_0_5_66330_022<32>[2]
+AllowableRaces<32>[2]
 SellPrice<u32>
 BuyPrice<u32>
 VendorStackCount<u32>

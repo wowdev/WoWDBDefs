@@ -16,7 +16,7 @@ int Field_1_15_8_63829_006? // DBAnalyser: [RegionGroupMask, 0,95%], [ReqAchieve
 int Field_1_15_8_63829_007? // DBAnalyser: [RegionGroupMask, 0,95%], [ReqAchievementID, 0,95%], [ReqQuestID, 0,95%], [ReqItemModifiedAppearanceID, 0,95%]
 int Field_1_15_8_63829_008? // DBAnalyser: [RaceMask, 1%], [OverrideArchive, 1%]
 int Field_1_15_8_63829_009? // DBAnalyser: [RegionGroupMask, 0,95%], [ReqAchievementID, 0,95%], [ReqQuestID, 0,95%], [ReqItemModifiedAppearanceID, 0,95%]
-int Field_12_0_5_66330_009?
+int RaceMasks?
 
 LAYOUT 90325B6E
 BUILD 1.15.8.63829, 1.15.8.64057, 1.15.8.64130, 1.15.8.64272
@@ -304,4 +304,4 @@ ReqAchievementID<32>
 ReqQuestID<32>
 OverrideArchive<32>
 ReqItemModifiedAppearanceID<32>
-Field_12_0_5_66330_009<32>[2]
+RaceMasks<32>[2]

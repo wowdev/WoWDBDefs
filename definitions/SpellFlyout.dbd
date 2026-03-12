@@ -7,7 +7,7 @@ int<SpellIcon::ID> SpellIconID
 locstring Name_lang
 locstring Description_lang
 int<FileData::ID> SpellIconFileID
-int Field_12_0_5_66330_006?
+int RaceMasks?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.0.20008
@@ -150,4 +150,4 @@ Description_lang
 Flags<u8>
 ClassMask<32>
 SpellIconFileID<32>
-Field_12_0_5_66330_006<32>[2]
+RaceMasks<32>[2]

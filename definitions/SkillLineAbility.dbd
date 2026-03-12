@@ -22,7 +22,7 @@ int Abandonable
 int Field_0_5_5_3494_012? // only set on [Plate Mail] in 0.5.5
 locstring AbilityVerb_lang?
 locstring AbilityAllVerb_lang?
-int Field_12_0_5_66330_017?
+int RaceMasks?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -578,4 +578,4 @@ NumSkillUps<8>
 UniqueBit<16>
 TradeSkillCategoryID<16>
 SkillupSkillLineID<16>
-Field_12_0_5_66330_017<32>[2]
+RaceMasks<32>[2]
