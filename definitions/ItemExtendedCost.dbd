@@ -22,16 +22,9 @@ int ArenaPoints
 int<ItemPurchaseGroup::ID> ItemPurchaseGroup
 int RequiredGuildLevel?
 int Field_12_0_5_66330_000?
-int Field_12_0_5_66330_001?
-int Field_12_0_5_66330_002?
-int Field_12_0_5_66330_003?
-int Field_12_0_5_66330_004?
-int Field_12_0_5_66330_005?
-int Field_12_0_5_66330_006?
-int Field_12_0_5_66330_007?
-int Field_12_0_5_66330_008?
-int Field_12_0_5_66330_009?
-int Field_12_0_5_66330_010?
+int Field_12_0_5_66330_004? //  DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%]
+int Field_12_0_5_66330_005? //  DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%]
+int Field_12_0_5_66330_006? //  DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%]
 
 BUILD 2.0.0.5610-2.2.0.7272
 $id$ID<32>
@@ -286,13 +279,13 @@ LAYOUT 22331DAB
 BUILD 12.0.5.66330
 $noninline,id$ID<32>
 Field_12_0_5_66330_000<u64>
-Field_12_0_5_66330_001<u16>
-Field_12_0_5_66330_002<8>
-Field_12_0_5_66330_003<32>
+RequiredArenaRating<u16>
+ArenaBracket<8>
+Flags<32>
 Field_12_0_5_66330_004<u8>
 Field_12_0_5_66330_005<32>
 Field_12_0_5_66330_006<u8>
-Field_12_0_5_66330_007<32>[5]
-Field_12_0_5_66330_008<u16>[5]
-Field_12_0_5_66330_009<u16>[5]
-Field_12_0_5_66330_010<u32>[5]
+ItemID<32>[5]
+ItemCount<u16>[5]
+CurrencyID<u16>[5]
+CurrencyCount<u32>[5]

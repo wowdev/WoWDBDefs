@@ -4,10 +4,6 @@ int CurrencyCost
 int<CurrencyTypes::ID> CurrencyTypesID
 int<JournalEncounter::ID> JournalEncounterID
 int<JournalInstance::ID> JournalInstanceID
-int Field_12_0_5_66330_000?
-int Field_12_0_5_66330_001?
-int Field_12_0_5_66330_002?
-int Field_12_0_5_66330_003?
 int Field_12_0_5_66330_004?
 
 LAYOUT F7A194FA, 0ED811D4
@@ -114,8 +110,8 @@ JournalInstanceID<u32>
 LAYOUT 8012475D
 BUILD 12.0.5.66330
 $noninline,id$ID<32>
-Field_12_0_5_66330_000<u32>
-Field_12_0_5_66330_001<u32>
-Field_12_0_5_66330_002<u32>
-Field_12_0_5_66330_003<u32>
+CurrencyTypesID<u32>
+CurrencyCost<u32>
+JournalEncounterID<u32>
+JournalInstanceID<u32>
 Field_12_0_5_66330_004<u32>

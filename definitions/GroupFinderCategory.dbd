@@ -5,10 +5,6 @@ int Flags
 int OrderIndex
 int IconFileDataID?
 locstring Description_lang?
-locstring Field_12_0_5_66330_000_lang?
-locstring Field_12_0_5_66330_001_lang?
-int Field_12_0_5_66330_002?
-int Field_12_0_5_66330_003?
 int Field_12_0_5_66330_004?
 
 LAYOUT B5DAE0F2
@@ -189,8 +185,8 @@ Flags<32>
 LAYOUT 0D5F1625
 BUILD 12.0.5.66330
 $noninline,id$ID<32>
-Field_12_0_5_66330_000_lang
-Field_12_0_5_66330_001_lang
-Field_12_0_5_66330_002<32>
-Field_12_0_5_66330_003<32>
+Name_lang
+Description_lang
+OrderIndex<32>
+Flags<32>
 Field_12_0_5_66330_004<32>

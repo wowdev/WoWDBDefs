@@ -5,11 +5,6 @@ float Locx
 float Locy
 int LegIndex
 int<LoadingScreens::ID> LoadingScreenID
-int Field_12_0_5_66330_000?
-int Field_12_0_5_66330_001?
-int Field_12_0_5_66330_002?
-float Field_12_0_5_66330_003?
-float Field_12_0_5_66330_004?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.3.4.15595
@@ -169,8 +164,8 @@ Locy[10]
 LAYOUT 877DB13E
 BUILD 12.0.5.66330
 $noninline,id$ID<32>
-Field_12_0_5_66330_000<32>
-Field_12_0_5_66330_001<u8>
-Field_12_0_5_66330_002<u16>
-Field_12_0_5_66330_003[10]
-Field_12_0_5_66330_004[10]
+PathID<32>
+LegIndex<u8>
+LoadingScreenID<u16>
+Locx[10]
+Locy[10]

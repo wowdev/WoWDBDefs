@@ -8,15 +8,6 @@ int Flags
 int Delay
 int ArrivalEventID
 int DepartureEventID
-float Field_12_0_5_66330_000?
-int Field_12_0_5_66330_001?
-int Field_12_0_5_66330_002?
-int Field_12_0_5_66330_003?
-int Field_12_0_5_66330_004?
-int Field_12_0_5_66330_005?
-int Field_12_0_5_66330_006?
-int Field_12_0_5_66330_007?
-int Field_12_0_5_66330_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -280,12 +271,12 @@ DepartureEventID<32>
 
 LAYOUT FE362E70
 BUILD 12.0.5.66330
-Field_12_0_5_66330_000[3]
-$id$Field_12_0_5_66330_001<32>
-$relation$Field_12_0_5_66330_002<32>
-Field_12_0_5_66330_003<32>
-Field_12_0_5_66330_004<u16>
-Field_12_0_5_66330_005<32>
-Field_12_0_5_66330_006<u32>
-Field_12_0_5_66330_007<32>
-Field_12_0_5_66330_008<32>
+Loc[3]
+$id$ID<32>
+$relation$PathID<32>
+NodeIndex<32>
+ContinentID<u16>
+Flags<32>
+Delay<u32>
+ArrivalEventID<32>
+DepartureEventID<32>
