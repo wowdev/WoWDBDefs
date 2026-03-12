@@ -77,7 +77,7 @@ namespace DBDefsLib
 
                 if (cleaned.StartsWith(thingToUpperCase, StringComparison.CurrentCultureIgnoreCase))
                 {
-                    cleaned = thingToUpperCase + cleaned.Substring(thingToUpperCase.Length);
+                    cleaned = thingToUpperCase + cleaned[thingToUpperCase.Length..];
                 }
 
                 if (cleaned.EndsWith(thingToUpperCase, StringComparison.CurrentCultureIgnoreCase))
@@ -86,9 +86,9 @@ namespace DBDefsLib
                 }
             }
 
-            if (cleaned.EndsWith("_"))
+            if (cleaned.EndsWith('_'))
             {
-                cleaned = cleaned.Substring(0, cleaned.Length - 1);
+                cleaned = cleaned[..^1];
             }
 
             if (fixFirst)
@@ -122,7 +122,7 @@ namespace DBDefsLib
             var buildRanges = new List<BuildRange>();
 
             var buildsPart = qualifier["BUILD ".Length..];
-            var parts = buildsPart.Split(new[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
+            var parts = buildsPart.Split([", "], StringSplitOptions.RemoveEmptyEntries);
 
             foreach (var part in parts)
             {

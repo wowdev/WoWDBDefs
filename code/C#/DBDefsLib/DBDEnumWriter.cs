@@ -49,9 +49,7 @@ namespace DBDefsLib
                     sb.Append($" {entry.name}");
 
                 if (!string.IsNullOrEmpty(entry.comment))
-                {
                     sb.Append($" // {entry.comment}");
-                }
 
                 sb.AppendLine();
             }

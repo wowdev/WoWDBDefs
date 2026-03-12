@@ -86,12 +86,13 @@ namespace DBDefsLib
                         for (var b = 0; b < versionDefinition.builds.Length; b++)
                         {
                             var major = versionDefinition.builds[b].expansion + "." + versionDefinition.builds[b].major + "." + versionDefinition.builds[b].minor;
-                            if (!buildsByMajor.ContainsKey(major))
+                            if (!buildsByMajor.TryGetValue(major, out List<Build> builds))
                             {
-                                buildsByMajor.Add(major, new List<Build>());
+                                builds = [];
+                                buildsByMajor.Add(major, builds);
                             }
 
-                            buildsByMajor[major].Add(versionDefinition.builds[b]);
+                            builds.Add(versionDefinition.builds[b]);
                         }
 
                         foreach (var buildList in buildsByMajor)

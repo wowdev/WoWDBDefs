@@ -136,7 +136,7 @@ namespace DBDefsLib
                         var numCols = bin.ReadInt32();
                         versionDefinition.definitions = new Definition[numCols];
 
-                        for(int vc = 0; vc < numCols; vc++)
+                        for (int vc = 0; vc < numCols; vc++)
                         {
                             var flags = bin.ReadByte();
                             var size = bin.ReadByte();

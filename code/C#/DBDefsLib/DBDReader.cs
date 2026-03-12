@@ -23,7 +23,7 @@ namespace DBDefsLib
             if (lines[0].StartsWith("COLUMNS"))
             {
                 lineNumber++;
-                while (lineNumber < lines.Count())
+                while (lineNumber < lines.Count)
                 {
                     var line = lines[lineNumber++];
 
@@ -38,13 +38,13 @@ namespace DBDefsLib
                     var validTypes = new List<string> { "uint", "int", "float", "string", "locstring" };
 
                     // Check if line has a space in case someone didn't assign a type to a column name
-                    if (!line.Contains(" "))
+                    if (!line.Contains(' '))
                     {
                         throw new Exception("Line " + line + " does not contain a space between type and column name!");
                     }
 
                     // Read line up to space (end of type) or < (foreign key)
-                    var type = line.Substring(0, line.IndexOfAny(new char[] { ' ', '<' }));
+                    var type = line[..line.IndexOfAny([' ', '<'])];
 
                     // Check if type is valid, throw exception if not!
                     if (!validTypes.Contains(type))
@@ -61,7 +61,7 @@ namespace DBDefsLib
                     if (line.StartsWith(type + "<"))
                     {
                         // Read foreign key info between < and > without < and > in result, then split on :: to separate table and field
-                        var foreignKey = line.Substring(line.IndexOf('<') + 1, line.IndexOf('>') - line.IndexOf('<') - 1).Split(new string[] { "::" }, StringSplitOptions.None);
+                        var foreignKey = line.Substring(line.IndexOf('<') + 1, line.IndexOf('>') - line.IndexOf('<') - 1).Split(["::"], StringSplitOptions.None);
 
                         // There should only be 2 values in foreignKey (table and col)
                         if (foreignKey.Length != 2)
@@ -80,7 +80,7 @@ namespace DBDefsLib
                     // If there's only one space on the line at the same locaiton as the first one, assume a simple line like "uint ID", this can be better
                     if (line.LastIndexOf(' ') == line.IndexOf(' '))
                     {
-                        name = line.Substring(line.IndexOf(' ') + 1);
+                        name = line[(line.IndexOf(' ') + 1)..];
                     }
                     else
                     {
@@ -94,10 +94,10 @@ namespace DBDefsLib
                     }
 
                     // If name ends in ? it's unverified
-                    if (name.EndsWith("?"))
+                    if (name.EndsWith('?'))
                     {
                         columnDefinition.verified = false;
-                        name = name.Remove(name.Length - 1);
+                        name = name[..^1];
                     }
                     else
                     {
@@ -107,19 +107,15 @@ namespace DBDefsLib
                     /* COMMENT READING */
                     if (line.Contains("//"))
                     {
-                        columnDefinition.comment = line.Substring(line.IndexOf("//") + 2).Trim();
+                        columnDefinition.comment = line[(line.IndexOf("//") + 2)..].Trim();
                     }
 
                     // Add to dictionary
-                    if (columnDefinitionDictionary.ContainsKey(name))
+                    if (!columnDefinitionDictionary.TryAdd(name, columnDefinition))
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Collision with existing column name while adding new column name! Skipping..");
                         Console.ResetColor();
-                    }
-                    else
-                    {
-                        columnDefinitionDictionary.Add(name, columnDefinition);
                     }
                 }
             }
@@ -144,41 +140,43 @@ namespace DBDefsLib
 
                 if (string.IsNullOrWhiteSpace(line))
                 {
-                    if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0) {
+                    if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0)
+                    {
                         versionDefinitions.Add(
                             new VersionDefinitions()
                             {
-                                builds = builds.ToArray(),
-                                buildRanges = buildRanges.ToArray(),
-                                layoutHashes = layoutHashes.ToArray(),
+                                builds = [.. builds],
+                                buildRanges = [.. buildRanges],
+                                layoutHashes = [.. layoutHashes],
                                 comment = comment,
-                                definitions = definitions.ToArray()
+                                definitions = [.. definitions]
                             }
                         );
                     }
-                    else if (definitions.Count != 0 || !string.IsNullOrWhiteSpace(comment)) {
+                    else if (definitions.Count != 0 || !string.IsNullOrWhiteSpace(comment))
+                    {
                         throw new Exception("No BUILD or LAYOUT, but non-empty lines/'definitions'.");
                     }
 
-                    definitions = new List<Definition>();
-                    layoutHashes = new List<string>();
+                    definitions = [];
+                    layoutHashes = [];
                     comment = "";
-                    builds = new List<Build>();
-                    buildRanges = new List<BuildRange>();
+                    builds = [];
+                    buildRanges = [];
                 }
 
                 if (line.StartsWith("LAYOUT"))
                 {
-                    var splitLayoutHashes = line.Remove(0, 7).Split(new string[] { ", " }, StringSplitOptions.None);
+                    var splitLayoutHashes = line[7..].Split([", "], StringSplitOptions.None);
                     layoutHashes.AddRange(splitLayoutHashes);
                 }
 
                 if (line.StartsWith("BUILD"))
                 {
-                    var splitBuilds = line.Remove(0, 6).Split(new string[] { ", " }, StringSplitOptions.None);
+                    var splitBuilds = line[6..].Split([", "], StringSplitOptions.None);
                     foreach (var splitBuild in splitBuilds)
                     {
-                        if (splitBuild.Contains("-"))
+                        if (splitBuild.Contains('-'))
                         {
                             var splitRange = splitBuild.Split('-');
                             buildRanges.Add(
@@ -195,20 +193,21 @@ namespace DBDefsLib
 
                 if (line.StartsWith("COMMENT"))
                 {
-                    comment = line.Substring(7).Trim();
+                    comment = line[7..].Trim();
                 }
 
                 if (!line.StartsWith("LAYOUT") && !line.StartsWith("BUILD") && !line.StartsWith("COMMENT") && !string.IsNullOrWhiteSpace(line))
                 {
-                    var definition = new Definition();
-
-                    // Default to everything being inline
-                    definition.isNonInline = false;
-
-                    if (line.Contains("$"))
+                    var definition = new Definition
                     {
-                        var annotationStart = line.IndexOf("$");
-                        var annotationEnd = line.IndexOf("$", 1);
+                        // Default to everything being inline
+                        isNonInline = false
+                    };
+
+                    if (line.Contains('$'))
+                    {
+                        var annotationStart = line.IndexOf('$');
+                        var annotationEnd = line.IndexOf('$', 1);
 
                         var annotations = new List<string>(line.Substring(annotationStart + 1, annotationEnd - annotationStart - 1).Split(','));
 
@@ -230,7 +229,7 @@ namespace DBDefsLib
                         line = line.Remove(annotationStart, annotationEnd + 1);
                     }
 
-                    if (line.Contains("<"))
+                    if (line.Contains('<'))
                     {
                         var size = line.Substring(line.IndexOf('<') + 1, line.IndexOf('>') - line.IndexOf('<') - 1);
 
@@ -248,16 +247,20 @@ namespace DBDefsLib
                         line = line.Remove(line.IndexOf('<'), line.IndexOf('>') - line.IndexOf('<') + 1);
                     }
 
-                    if (line.Contains("["))
+                    if (line.Contains('['))
                     {
-                        int.TryParse(line.Substring(line.IndexOf('[') + 1, line.IndexOf(']') - line.IndexOf('[') - 1), out definition.arrLength);
+                        if (!int.TryParse(line.AsSpan(line.IndexOf('[') + 1, line.IndexOf(']') - line.IndexOf('[') - 1), out definition.arrLength))
+                        {
+                            throw new Exception("Invalid array length format.");
+                        }
+
                         line = line.Remove(line.IndexOf('['), line.IndexOf(']') - line.IndexOf('[') + 1);
                     }
 
                     if (line.Contains("//"))
                     {
-                        definition.comment = line.Substring(line.IndexOf("//") + 2).Trim();
-                        line = line.Remove(line.IndexOf("//")).Trim();
+                        definition.comment = line[(line.IndexOf("//") + 2)..].Trim();
+                        line = line[..line.IndexOf("//")].Trim();
                     }
 
                     definition.name = line;
@@ -281,19 +284,21 @@ namespace DBDefsLib
 
                 if (lines.Count == (i + 1))
                 {
-                    if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0) {
+                    if (builds.Count != 0 || buildRanges.Count != 0 || layoutHashes.Count != 0)
+                    {
                         versionDefinitions.Add(
                             new VersionDefinitions()
                             {
-                                builds = builds.ToArray(),
-                                buildRanges = buildRanges.ToArray(),
-                                layoutHashes = layoutHashes.ToArray(),
+                                builds = [.. builds],
+                                buildRanges = [.. buildRanges],
+                                layoutHashes = [.. layoutHashes],
                                 comment = comment,
-                                definitions = definitions.ToArray()
+                                definitions = [.. definitions]
                             }
                         );
                     }
-                    else if (definitions.Count != 0 || !string.IsNullOrWhiteSpace(comment)) {
+                    else if (definitions.Count != 0 || !string.IsNullOrWhiteSpace(comment))
+                    {
                         throw new Exception("No BUILD or LAYOUT, but non-empty lines/'definitions'.");
                     }
                 }
@@ -438,7 +443,7 @@ namespace DBDefsLib
             return new DBDefinition
             {
                 columnDefinitions = columnDefinitionDictionary,
-                versionDefinitions = versionDefinitions.ToArray()
+                versionDefinitions = [.. versionDefinitions]
             };
         }
 

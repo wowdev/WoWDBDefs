@@ -28,7 +28,7 @@ namespace DBDefsLib
                     continue;
 
                 var mappingDefinition = new MappingDefinition();
-                var split =  line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                var split = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
                 // Comment available in mapping line, we handle split differently here as well
                 if (line.Contains("//"))
@@ -113,7 +113,7 @@ namespace DBDefsLib
             if (validate)
             {
                 var metaDirectory = Path.GetDirectoryName(file);
-                foreach(var mapping in mappingDefinition)
+                foreach (var mapping in mappingDefinition)
                 {
                     if (mapping.meta == MetaType.COLOR)
                         continue;
