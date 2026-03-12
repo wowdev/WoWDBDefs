@@ -2,6 +2,8 @@ COLUMNS
 int ID
 int<CriteriaTree::ID> CriteriaTreeID
 int<WorldEffect::ID> WorldEffectID
+int Field_12_0_5_66330_000?
+int Field_12_0_5_66330_001?
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742
@@ -108,3 +110,9 @@ BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15
 $noninline,id$ID<32>
 WorldEffectID<16>
 $noninline,relation$CriteriaTreeID<32>
+
+LAYOUT 5766D2AA
+BUILD 12.0.5.66330
+$noninline,id$ID<32>
+Field_12_0_5_66330_000<32>
+$noninline,relation$Field_12_0_5_66330_001<32>

@@ -22,6 +22,24 @@ int Abandonable
 int Field_0_5_5_3494_012? // only set on [Plate Mail] in 0.5.5
 locstring AbilityVerb_lang?
 locstring AbilityAllVerb_lang?
+int Field_12_0_5_66330_000?
+locstring Field_12_0_5_66330_001_lang?
+locstring Field_12_0_5_66330_002_lang?
+int Field_12_0_5_66330_003?
+int Field_12_0_5_66330_004?
+int Field_12_0_5_66330_005?
+int Field_12_0_5_66330_006?
+int Field_12_0_5_66330_007?
+int Field_12_0_5_66330_008?
+int Field_12_0_5_66330_009?
+int Field_12_0_5_66330_010?
+int Field_12_0_5_66330_011?
+int Field_12_0_5_66330_012?
+int Field_12_0_5_66330_013?
+int Field_12_0_5_66330_014?
+int Field_12_0_5_66330_015?
+int Field_12_0_5_66330_016?
+int Field_12_0_5_66330_017?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -557,3 +575,24 @@ NumSkillUps<8>
 UniqueBit<16>
 TradeSkillCategoryID<16>
 SkillupSkillLineID<16>
+
+LAYOUT 0E85F43A
+BUILD 12.0.5.66330
+Field_12_0_5_66330_000<64>
+Field_12_0_5_66330_001_lang
+Field_12_0_5_66330_002_lang
+$id$Field_12_0_5_66330_003<32>
+$relation$Field_12_0_5_66330_004<16>
+Field_12_0_5_66330_005<32>
+Field_12_0_5_66330_006<16>
+Field_12_0_5_66330_007<32>
+Field_12_0_5_66330_008<32>
+Field_12_0_5_66330_009<32>
+Field_12_0_5_66330_010<16>
+Field_12_0_5_66330_011<16>
+Field_12_0_5_66330_012<32>
+Field_12_0_5_66330_013<8>
+Field_12_0_5_66330_014<16>
+Field_12_0_5_66330_015<16>
+Field_12_0_5_66330_016<16>
+Field_12_0_5_66330_017<32>[2]

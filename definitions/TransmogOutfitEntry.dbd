@@ -7,6 +7,15 @@ int Source? // 0: StampedSource, 1: AutomaticallyAwarded, 2: PlayerPurchased
 int Flags? // 0x1: AutomaticallyAwardedOnLogin
 int Field_12_0_0_64339_006?
 float Field_12_0_1_64889_007?
+int Field_12_0_5_66330_000?
+locstring Field_12_0_5_66330_001_lang?
+int Field_12_0_5_66330_002?
+int Field_12_0_5_66330_003?
+int Field_12_0_5_66330_004?
+int Field_12_0_5_66330_005?
+int Field_12_0_5_66330_006?
+float Field_12_0_5_66330_007?
+int Field_12_0_5_66330_008?
 
 LAYOUT C97F5DFD
 BUILD 12.0.0.64339, 12.0.0.64499, 12.0.0.64507, 12.0.0.64529, 12.0.0.64611, 12.0.0.64741, 12.0.0.64774
@@ -29,3 +38,15 @@ Source<u8>
 Flags<32>
 Field_12_0_0_64339_006<u8>
 Field_12_0_1_64889_007
+
+LAYOUT 91D51304
+BUILD 12.0.5.66330
+Field_12_0_5_66330_000<u64>
+Field_12_0_5_66330_001_lang
+$id$Field_12_0_5_66330_002<32>
+Field_12_0_5_66330_003<32>
+Field_12_0_5_66330_004<u8>
+Field_12_0_5_66330_005<32>
+Field_12_0_5_66330_006<u8>
+Field_12_0_5_66330_007
+Field_12_0_5_66330_008<32>
