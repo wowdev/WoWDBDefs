@@ -88,15 +88,7 @@ int Field_1_15_7_59706_059?
 int<Curve::ID> ItemLevelOffsetCurveID?
 int ItemLevelOffsetItemLevel? // same purpose as ItemScalingConfig::ItemLevel (curve parameter for ItemLevelOffsetCurveID)
 int<ItemSquishEra::ID> ItemSquishEraID?
-locstring Field_12_0_5_66330_002_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-locstring Field_12_0_5_66330_003_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-locstring Field_12_0_5_66330_004_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
 int Field_12_0_5_66330_022?
-int Field_12_0_5_66330_030? //  DBAnalyser: [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [RequiredPVPMedal, 0,95%], [ItemLevelOffsetCurveID, 0,95%], [ItemLevelOffsetItemLevel, 0,95%]
-int Field_12_0_5_66330_033? //  DBAnalyser: [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [RequiredPVPMedal, 0,95%], [ItemLevelOffsetCurveID, 0,95%], [ItemLevelOffsetItemLevel, 0,95%]
-int Field_12_0_5_66330_034? //  DBAnalyser: [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [RequiredPVPMedal, 0,95%], [ItemLevelOffsetCurveID, 0,95%], [ItemLevelOffsetItemLevel, 0,95%]
-int Field_12_0_5_66330_063? //  DBAnalyser: [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [RequiredPVPMedal, 0,95%], [ItemLevelOffsetCurveID, 0,95%], [ItemLevelOffsetItemLevel, 0,95%]
-int Field_12_0_5_66330_064? //  DBAnalyser: [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [RequiredPVPMedal, 0,95%], [ItemLevelOffsetCurveID, 0,95%], [ItemLevelOffsetItemLevel, 0,95%]
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -2549,9 +2541,9 @@ COMMENT table is sparse
 $noninline,id$ID<32>
 AllowableRace<64>
 Description_lang
-Field_12_0_5_66330_002_lang
-Field_12_0_5_66330_003_lang
-Field_12_0_5_66330_004_lang
+Display3_lang
+Display2_lang
+Display1_lang
 Display_lang
 ExpansionID<32>
 DmgVariance
@@ -2577,11 +2569,11 @@ PriceVariance
 PriceRandomValue
 Flags<32>[5]
 OppositeFactionItemID<32>
-Field_12_0_5_66330_030<32>
+ModifiedCraftingReagentItemID<32>
 ContentTuningID<32>
 PlayerLevelToItemLevelCurveID<32>
-Field_12_0_5_66330_033<32>
-Field_12_0_5_66330_034<32>
+ItemLevelOffsetCurveID<32>
+ItemLevelOffsetItemLevel<32>
 ItemSquishEraID<32>
 ItemNameDescriptionID<u16>
 RequiredTransmogHoliday<u16>
@@ -2610,8 +2602,8 @@ PageMaterialID<u8>
 Bonding<u8>
 DamageType<u8>
 ContainerSlots<u8>
-Field_12_0_5_66330_063<u8>
-Field_12_0_5_66330_064<8>
+RequiredPVPMedal<u8>
+RequiredPVPRank<8>
 RequiredLevel<8>
 InventoryType<8>
 OverallQualityID<8>
