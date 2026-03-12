@@ -234,9 +234,10 @@ namespace DBDefsLib
                 var ly = y.layoutHashes;
                 System.Array.Sort(lx);
                 System.Array.Sort(ly);
-                if (!_asc) {
-                    lx.Reverse();
-                    ly.Reverse();
+                if (!_asc)
+                {
+                    lx = [.. lx.Reverse()];
+                    ly = [.. ly.Reverse()];
                 }
 
                 // if layouts exist for both, sort by that
