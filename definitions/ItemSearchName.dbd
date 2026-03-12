@@ -14,19 +14,6 @@ int RequiredLevel
 int<SkillLine::ID> RequiredSkill
 int RequiredSkillRank
 int Field_7_3_2_25549_009?
-int Field_12_0_5_66330_000?
-locstring Field_12_0_5_66330_001_lang?
-int Field_12_0_5_66330_002?
-int Field_12_0_5_66330_003?
-int Field_12_0_5_66330_004?
-int Field_12_0_5_66330_005?
-int Field_12_0_5_66330_006?
-int Field_12_0_5_66330_007?
-int Field_12_0_5_66330_008?
-int Field_12_0_5_66330_009?
-int Field_12_0_5_66330_010?
-int Field_12_0_5_66330_011?
-int Field_12_0_5_66330_012?
 int Field_12_0_5_66330_013?
 
 LAYOUT 01A3B9F0
@@ -383,17 +370,17 @@ Flags<32>[5]
 LAYOUT A010A221
 BUILD 12.0.5.66330
 $noninline,id$ID<32>
-Field_12_0_5_66330_000<64>
-Field_12_0_5_66330_001_lang
-Field_12_0_5_66330_002<u8>
-Field_12_0_5_66330_003<32>
-Field_12_0_5_66330_004<u16>
-Field_12_0_5_66330_005<32>
-Field_12_0_5_66330_006<32>
-Field_12_0_5_66330_007<8>
-Field_12_0_5_66330_008<u16>
-Field_12_0_5_66330_009<u16>
-Field_12_0_5_66330_010<u32>
-Field_12_0_5_66330_011<u16>
-Field_12_0_5_66330_012<32>[5]
+AllowableRace<64>
+Display_lang
+OverallQualityID<u8>
+ExpansionID<32>
+MinFactionID<u16>
+MinReputation<32>
+AllowableClass<32>
+RequiredLevel<8>
+RequiredSkill<u16>
+RequiredSkillRank<u16>
+RequiredAbility<u32>
+ItemLevel<u16>
+Flags<32>[5]
 Field_12_0_5_66330_013<32>[2]

@@ -88,74 +88,15 @@ int Field_1_15_7_59706_059?
 int<Curve::ID> ItemLevelOffsetCurveID?
 int ItemLevelOffsetItemLevel? // same purpose as ItemScalingConfig::ItemLevel (curve parameter for ItemLevelOffsetCurveID)
 int<ItemSquishEra::ID> ItemSquishEraID?
-int Field_12_0_5_66330_000?
-locstring Field_12_0_5_66330_001_lang?
-locstring Field_12_0_5_66330_002_lang?
-locstring Field_12_0_5_66330_003_lang?
-locstring Field_12_0_5_66330_004_lang?
-locstring Field_12_0_5_66330_005_lang?
-int Field_12_0_5_66330_006?
-float Field_12_0_5_66330_007?
-int Field_12_0_5_66330_008?
-int Field_12_0_5_66330_009?
-float Field_12_0_5_66330_010?
-int Field_12_0_5_66330_011?
-int Field_12_0_5_66330_012?
-int Field_12_0_5_66330_013?
-float Field_12_0_5_66330_014?
-float Field_12_0_5_66330_015?
-int Field_12_0_5_66330_016?
-int Field_12_0_5_66330_017?
-int Field_12_0_5_66330_018?
-int Field_12_0_5_66330_019?
-int Field_12_0_5_66330_020?
-int Field_12_0_5_66330_021?
+locstring Field_12_0_5_66330_002_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
+locstring Field_12_0_5_66330_003_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
+locstring Field_12_0_5_66330_004_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
 int Field_12_0_5_66330_022?
-int Field_12_0_5_66330_023?
-int Field_12_0_5_66330_024?
-int Field_12_0_5_66330_025?
-float Field_12_0_5_66330_026?
-float Field_12_0_5_66330_027?
-int Field_12_0_5_66330_028?
-int Field_12_0_5_66330_029?
-int Field_12_0_5_66330_030?
-int Field_12_0_5_66330_031?
-int Field_12_0_5_66330_032?
-int Field_12_0_5_66330_033?
-int Field_12_0_5_66330_034?
-int Field_12_0_5_66330_035?
-int Field_12_0_5_66330_036?
-int Field_12_0_5_66330_037?
-int Field_12_0_5_66330_038?
-int Field_12_0_5_66330_039?
-int Field_12_0_5_66330_040?
-int Field_12_0_5_66330_041?
-int Field_12_0_5_66330_042?
-int Field_12_0_5_66330_043?
-int Field_12_0_5_66330_044?
-int Field_12_0_5_66330_045?
-int Field_12_0_5_66330_046?
-int Field_12_0_5_66330_047?
-int Field_12_0_5_66330_048?
-int Field_12_0_5_66330_049?
-int Field_12_0_5_66330_050?
-int Field_12_0_5_66330_051?
-int Field_12_0_5_66330_052?
-int Field_12_0_5_66330_053?
-int Field_12_0_5_66330_054?
-int Field_12_0_5_66330_055?
-int Field_12_0_5_66330_056?
-int Field_12_0_5_66330_057?
-int Field_12_0_5_66330_058?
-int Field_12_0_5_66330_059?
-int Field_12_0_5_66330_060?
-int Field_12_0_5_66330_061?
-int Field_12_0_5_66330_062?
-int Field_12_0_5_66330_063?
-int Field_12_0_5_66330_064?
-int Field_12_0_5_66330_065?
-int Field_12_0_5_66330_066?
-int Field_12_0_5_66330_067?
+int Field_12_0_5_66330_030? //  DBAnalyser: [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [RequiredPVPMedal, 0,95%], [ItemLevelOffsetCurveID, 0,95%], [ItemLevelOffsetItemLevel, 0,95%]
+int Field_12_0_5_66330_033? //  DBAnalyser: [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [RequiredPVPMedal, 0,95%], [ItemLevelOffsetCurveID, 0,95%], [ItemLevelOffsetItemLevel, 0,95%]
+int Field_12_0_5_66330_034? //  DBAnalyser: [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [RequiredPVPMedal, 0,95%], [ItemLevelOffsetCurveID, 0,95%], [ItemLevelOffsetItemLevel, 0,95%]
+int Field_12_0_5_66330_063? //  DBAnalyser: [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [RequiredPVPMedal, 0,95%], [ItemLevelOffsetCurveID, 0,95%], [ItemLevelOffsetItemLevel, 0,95%]
+int Field_12_0_5_66330_064? //  DBAnalyser: [RequiredPVPRank, 0,95%], [ModifiedCraftingReagentItemID, 0,95%], [RequiredPVPMedal, 0,95%], [ItemLevelOffsetCurveID, 0,95%], [ItemLevelOffsetItemLevel, 0,95%]
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -2606,71 +2547,71 @@ LAYOUT 88109EDA
 BUILD 12.0.5.66330
 COMMENT table is sparse
 $noninline,id$ID<32>
-Field_12_0_5_66330_000<64>
-Field_12_0_5_66330_001_lang
+AllowableRace<64>
+Description_lang
 Field_12_0_5_66330_002_lang
 Field_12_0_5_66330_003_lang
 Field_12_0_5_66330_004_lang
-Field_12_0_5_66330_005_lang
-Field_12_0_5_66330_006<32>
-Field_12_0_5_66330_007
-Field_12_0_5_66330_008<32>
-Field_12_0_5_66330_009<u32>
-Field_12_0_5_66330_010
-Field_12_0_5_66330_011<u32>
-Field_12_0_5_66330_012<32>
-Field_12_0_5_66330_013<32>
-Field_12_0_5_66330_014
-Field_12_0_5_66330_015[10]
-Field_12_0_5_66330_016<32>[10]
-Field_12_0_5_66330_017<32>[10]
-Field_12_0_5_66330_018<32>
-Field_12_0_5_66330_019<32>
-Field_12_0_5_66330_020<32>
-Field_12_0_5_66330_021<u32>
+Display_lang
+ExpansionID<32>
+DmgVariance
+LimitCategory<32>
+DurationInInventory<u32>
+QualityModifier
+BagFamily<u32>
+StartQuestID<32>
+LanguageID<32>
+ItemRange
+StatPercentageOfSocket[10]
+StatPercentEditor<32>[10]
+StatModifier_bonusStat<32>[10]
+Stackable<32>
+MaxCount<32>
+MinReputation<32>
+RequiredAbility<u32>
 Field_12_0_5_66330_022<32>[2]
-Field_12_0_5_66330_023<u32>
-Field_12_0_5_66330_024<u32>
-Field_12_0_5_66330_025<u32>
-Field_12_0_5_66330_026
-Field_12_0_5_66330_027
-Field_12_0_5_66330_028<32>[5]
-Field_12_0_5_66330_029<32>
+SellPrice<u32>
+BuyPrice<u32>
+VendorStackCount<u32>
+PriceVariance
+PriceRandomValue
+Flags<32>[5]
+OppositeFactionItemID<32>
 Field_12_0_5_66330_030<32>
-Field_12_0_5_66330_031<32>
-Field_12_0_5_66330_032<32>
+ContentTuningID<32>
+PlayerLevelToItemLevelCurveID<32>
 Field_12_0_5_66330_033<32>
 Field_12_0_5_66330_034<32>
-Field_12_0_5_66330_035<32>
-Field_12_0_5_66330_036<u16>
-Field_12_0_5_66330_037<u16>
-Field_12_0_5_66330_038<u16>
-Field_12_0_5_66330_039<u16>
-Field_12_0_5_66330_040<u16>
-Field_12_0_5_66330_041<u16>
-Field_12_0_5_66330_042<u16>
-Field_12_0_5_66330_043<u16>[2]
-Field_12_0_5_66330_044<u16>
-Field_12_0_5_66330_045<u16>
-Field_12_0_5_66330_046<u16>
-Field_12_0_5_66330_047<u16>
-Field_12_0_5_66330_048<u16>
-Field_12_0_5_66330_049<u16>
-Field_12_0_5_66330_050<u16>
-Field_12_0_5_66330_051<u16>
-Field_12_0_5_66330_052<16>
-Field_12_0_5_66330_053<u8>
-Field_12_0_5_66330_054<u8>
-Field_12_0_5_66330_055<u8>
-Field_12_0_5_66330_056<u8>[3]
-Field_12_0_5_66330_057<u8>
-Field_12_0_5_66330_058<u8>
-Field_12_0_5_66330_059<u8>
-Field_12_0_5_66330_060<u8>
-Field_12_0_5_66330_061<u8>
-Field_12_0_5_66330_062<u8>
+ItemSquishEraID<32>
+ItemNameDescriptionID<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
+InstanceBound<u16>
+ZoneBound<u16>[2]
+ItemSet<u16>
+LockID<u16>
+PageID<u16>
+ItemDelay<u16>
+MinFactionID<u16>
+RequiredSkillRank<u16>
+RequiredSkill<u16>
+ItemLevel<u16>
+AllowableClass<16>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
+SocketType<u8>[3]
+SheatheType<u8>
+Material<u8>
+PageMaterialID<u8>
+Bonding<u8>
+DamageType<u8>
+ContainerSlots<u8>
 Field_12_0_5_66330_063<u8>
 Field_12_0_5_66330_064<8>
-Field_12_0_5_66330_065<8>
-Field_12_0_5_66330_066<8>
-Field_12_0_5_66330_067<8>
+RequiredLevel<8>
+InventoryType<8>
+OverallQualityID<8>

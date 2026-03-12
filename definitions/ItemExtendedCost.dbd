@@ -21,10 +21,10 @@ int HonorPoints
 int ArenaPoints
 int<ItemPurchaseGroup::ID> ItemPurchaseGroup
 int RequiredGuildLevel?
-int Field_12_0_5_66330_000?
-int Field_12_0_5_66330_004? //  DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%]
-int Field_12_0_5_66330_005? //  DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%]
-int Field_12_0_5_66330_006? //  DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%]
+int Field_12_0_5_66330_000? //  DBAnalyser: [MinFactionID, 0,96%], [MinReputation, 0,96%], [RequiredAchievement, 0,96%]
+int Field_12_0_5_66330_004? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%]
+int Field_12_0_5_66330_005? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%]
+int Field_12_0_5_66330_006? // DBAnalyser: [MinFactionID, 0,95%], [MinReputation, 0,95%], [RequiredAchievement, 0,95%]
 
 BUILD 2.0.0.5610-2.2.0.7272
 $id$ID<32>
