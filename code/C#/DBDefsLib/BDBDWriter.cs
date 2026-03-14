@@ -13,39 +13,77 @@ namespace DBDefsLib
             Save(new Dictionary<string, DBDefinition> { { tableName, definition } }, target, new Dictionary<string, uint> { { tableName, dbcFDID } }, new Dictionary<string, uint> { { tableName, db2fdid } });
         }
 
-        public static void Save(Dictionary<string, DBDefinition> dbds, string target, Dictionary<string, uint> dbcFDIDs = null, Dictionary<string, uint> db2FDIDs = null)
+        public static void Save(Dictionary<string, DBDefinition> dbds, string target, Dictionary<string, uint> dbcFDIDs = null, Dictionary<string, uint> db2FDIDs = null, List<MappingDefinition> enumMap = null, Dictionary<string, EnumDefinition> enumDefinitions = null)
         {
             var stringBlock = new Dictionary<string, int>();
             foreach (var dbd in dbds)
             {
-                if (!stringBlock.ContainsKey(dbd.Key))
-                    stringBlock.Add(dbd.Key, 0);
+                stringBlock.TryAdd(dbd.Key, 0);
 
                 foreach (var col in dbd.Value.columnDefinitions)
                 {
-                    if (!stringBlock.ContainsKey(col.Key))
-                        stringBlock.Add(col.Key, 0);
+                    stringBlock.TryAdd(col.Key, 0);
 
-                    if (!string.IsNullOrEmpty(col.Value.foreignTable) && !stringBlock.ContainsKey(col.Value.foreignTable))
-                        stringBlock.Add(col.Value.foreignTable, 0);
+                    if (!string.IsNullOrEmpty(col.Value.foreignTable))
+                        stringBlock.TryAdd(col.Value.foreignTable, 0);
 
-                    if (!string.IsNullOrEmpty(col.Value.foreignColumn) && !stringBlock.ContainsKey(col.Value.foreignColumn))
-                        stringBlock.Add(col.Value.foreignColumn, 0);
+                    if (!string.IsNullOrEmpty(col.Value.foreignColumn))
+                        stringBlock.TryAdd(col.Value.foreignColumn, 0);
 
-                    if (!string.IsNullOrEmpty(col.Value.comment) && !stringBlock.ContainsKey(col.Value.comment))
-                        stringBlock.Add(col.Value.comment, 0);
+                    if (!string.IsNullOrEmpty(col.Value.comment))
+                        stringBlock.TryAdd(col.Value.comment, 0);
                 }
 
                 foreach (var version in dbd.Value.versionDefinitions)
                 {
                     foreach (var defn in version.definitions)
                     {
-                        if (!string.IsNullOrEmpty(defn.comment) && !stringBlock.ContainsKey(defn.comment))
-                            stringBlock.Add(defn.comment, 0);
+                        if (!string.IsNullOrEmpty(defn.comment))
+                            stringBlock.TryAdd(defn.comment, 0);
                     }
 
-                    if (!string.IsNullOrEmpty(version.comment) && !stringBlock.ContainsKey(version.comment))
-                        stringBlock.Add(version.comment, 0);
+                    if (!string.IsNullOrEmpty(version.comment))
+                        stringBlock.TryAdd(version.comment, 0);
+                }
+            }
+
+            if (enumMap != null && enumMap.Count > 0)
+            {
+                foreach (var map in enumMap)
+                {
+                    stringBlock.TryAdd(map.tableName, 0);
+                    stringBlock.TryAdd(map.columnName, 0);
+
+                    if (!string.IsNullOrEmpty(map.metaValue))
+                        stringBlock.TryAdd(map.metaValue, 0);
+
+                    if (!string.IsNullOrEmpty(map.conditionalTable))
+                        stringBlock.TryAdd(map.conditionalTable, 0);
+
+                    if (!string.IsNullOrEmpty(map.conditionalColumn))
+                        stringBlock.TryAdd(map.conditionalColumn, 0);
+
+                    if (!string.IsNullOrEmpty(map.conditionalValue))
+                        stringBlock.TryAdd(map.conditionalValue, 0);
+
+                    if (!string.IsNullOrEmpty(map.comment))
+                        stringBlock.TryAdd(map.comment, 0);
+                }
+            }
+
+            if (enumDefinitions != null && enumDefinitions.Count > 0)
+            {
+                foreach (var enumDef in enumDefinitions)
+                {
+                    stringBlock.TryAdd(enumDef.Key, 0);
+                    foreach (var entry in enumDef.Value.entries)
+                    {
+                        if(!string.IsNullOrEmpty(entry.name))
+                            stringBlock.TryAdd(entry.name, 0);
+
+                        if (!string.IsNullOrEmpty(entry.comment))
+                            stringBlock.TryAdd(entry.comment, 0);
+                    }
                 }
             }
 
@@ -222,8 +260,72 @@ namespace DBDefsLib
                         bw.BaseStream.Position = tblPos;
                     }
                 }
+
+                if (enumMap != null && enumMap.Count > 0)
+                {
+                    bw.Write(['E', 'M', 'A', 'P']);
+                    bw.Write(enumMap.Count);
+                    foreach (var mapping in enumMap)
+                    {
+                        bw.Write((byte)mapping.meta);
+                        bw.WriteStringBlockString(stringBlock, mapping.tableName);
+                        bw.WriteStringBlockString(stringBlock, mapping.columnName);
+
+                        if (mapping.arrIndex.HasValue)
+                            bw.Write((sbyte)1);
+                        else
+                            bw.Write((sbyte)-1);
+
+                        bw.WriteStringBlockString(stringBlock, mapping.metaValue);
+                        bw.WriteStringBlockString(stringBlock, mapping.conditionalTable);
+                        bw.WriteStringBlockString(stringBlock, mapping.conditionalColumn);
+                        bw.WriteStringBlockString(stringBlock, mapping.conditionalValue);
+                        bw.WriteStringBlockString(stringBlock, mapping.comment);
+                    }
+                }
+
+                if(enumDefinitions != null && enumDefinitions.Count > 0)
+                {
+                    bw.Write(['E', 'D', 'F', 'S']);
+                    bw.Write(enumDefinitions.Count);
+
+                    foreach(var definition in enumDefinitions)
+                    {
+                        bw.Write((byte)definition.Value.metaType);
+                        bw.WriteStringBlockString(stringBlock, definition.Key);
+                        bw.Write(definition.Value.entries.Count);
+                        foreach(var entry in definition.Value.entries)
+                        {
+                            bw.Write(entry.value);
+                            bw.WriteStringBlockString(stringBlock, entry.name);
+                            bw.WriteStringBlockString(stringBlock, entry.comment);
+                            bw.Write(entry.buildRanges.Length);
+                            foreach(var range in entry.buildRanges)
+                            {
+                                bw.Write((byte)range.minBuild.expansion);
+                                bw.Write((byte)range.minBuild.major);
+                                bw.Write((byte)range.minBuild.minor);
+                                bw.Write(range.minBuild.build);
+                                bw.Write((byte)range.maxBuild.expansion);
+                                bw.Write((byte)range.maxBuild.major);
+                                bw.Write((byte)range.maxBuild.minor);
+                                bw.Write(range.maxBuild.build);
+                            }
+
+                            bw.Write(entry.builds.Length);
+                            foreach(var build in entry.builds)
+                            {
+                                bw.Write((byte)build.expansion);
+                                bw.Write((byte)build.major);
+                                bw.Write((byte)build.minor);
+                                bw.Write(build.build);
+                            }
+                        }
+                    }
+                }
             }
         }
+
         private static uint MakeHash(string name)
         {
             uint[] s_hashtable = new uint[] {

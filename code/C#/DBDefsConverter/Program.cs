@@ -1,4 +1,5 @@
 ﻿using DBDefsLib;
+using DBDefsLib.Constants;
 using DBDefsLib.Structs;
 using Newtonsoft.Json;
 using System;
@@ -250,6 +251,36 @@ namespace DBDefsConverter
                 Console.WriteLine("manifest.json not found in directory above input, skipping DBC/DB2 FDID assignment.");
             }
 
+            // Enums
+            var enumMappings = new List<MappingDefinition>();
+            var enumDefinitions = new Dictionary<string, EnumDefinition>();
+
+            var enumMap = Path.Combine(Path.GetDirectoryName(input), "meta", "mapping.dbdm");
+
+            if (File.Exists(enumMap))
+            {
+                var dbdmReader = new DBDMReader();
+                enumMappings = dbdmReader.Read(enumMap);
+
+                foreach (var mapping in enumMappings)
+                {
+                    var dir = mapping.meta == MetaType.ENUM ? "enums" : "flags";
+                    var ext = mapping.meta == MetaType.ENUM ? ".dbde" : ".dbdf";
+
+                    if (string.IsNullOrEmpty(mapping.metaValue))
+                        continue;
+
+                    var path = Path.Combine(Path.GetDirectoryName(input), "meta", dir, $"{mapping.metaValue}{ext}");
+
+                    if (File.Exists(path) && !enumDefinitions.ContainsKey(mapping.metaValue))
+                    {
+                        var enumDefReader = new DBDEnumReader();
+                        var enumDef = enumDefReader.Read(path, mapping.meta);
+                        enumDefinitions.Add(mapping.metaValue, enumDef);
+                    }
+                }
+            }
+
             Console.WriteLine("Done, writing BDBD...");
 
             var outputPath = outFile;
@@ -261,7 +292,7 @@ namespace DBDefsConverter
                     Directory.CreateDirectory(outputDir);
             }
 
-            BDBDWriter.Save(dbds, outputPath, tableNameToDBC, tableNameToDB2);
+            BDBDWriter.Save(dbds, outputPath, tableNameToDBC, tableNameToDB2, enumMappings, enumDefinitions);
 
             Console.WriteLine($"Done, wrote {outputPath}");
         }

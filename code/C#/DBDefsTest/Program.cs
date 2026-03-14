@@ -52,8 +52,7 @@ namespace DBDTest
                 sw.Start();
                 using (var stream = File.OpenRead(inputDir))
                 {
-                    var defs = BDBDReader.Read(stream);
-                    foreach(var def in defs)
+                    foreach(var def in BDBDReader.Read(stream).tableDefinitions)
                     {
                         definitionCache.Add(def.Key.ToLower(), def.Value.dbd);
                     }

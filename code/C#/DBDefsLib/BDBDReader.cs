@@ -1,4 +1,5 @@
-﻿using DBDefsLib.Structs;
+﻿using DBDefsLib.Constants;
+using DBDefsLib.Structs;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,9 +9,12 @@ namespace DBDefsLib
 {
     public static class BDBDReader
     {
-        public static Dictionary<string, TableInfo> Read(Stream stream, string tableName = "")
+        public static (Dictionary<string, TableInfo> tableDefinitions, List<MappingDefinition> enumMappings, Dictionary<string, EnumDefinition> enumDefinitions) Read(Stream stream, string tableName = "")
         {
             var tableInfo = new Dictionary<string, TableInfo>(StringComparer.InvariantCultureIgnoreCase);
+
+            var mappingDefinitions = new List<MappingDefinition>();
+            var enumDefinitions = new Dictionary<string, EnumDefinition>();
 
             using (var bin = new BinaryReader(stream))
             {
@@ -163,14 +167,88 @@ namespace DBDefsLib
 
                     tableInfo.Add(table.tableName, table);
                 }
+
+                if (bin.BaseStream.Position == bin.BaseStream.Length)
+                    return (tableInfo, mappingDefinitions, enumDefinitions);
+
+                var emapMagic = bin.ReadChars(4);
+                if (new string(emapMagic) != "EMAP") // bail out if we encounter something that isnt emap
+                    return (tableInfo, mappingDefinitions, enumDefinitions);
+
+                var enumMapCount = bin.ReadInt32();
+                for (var i = 0; i < enumMapCount; i++)
+                {
+                    var map = new MappingDefinition();
+
+                    map.meta = (MetaType)bin.ReadByte();
+                    map.tableName = ReadStringBlockString(ref stringBlock, bin.ReadInt32());
+                    map.columnName = ReadStringBlockString(ref stringBlock, bin.ReadInt32());
+
+                    var arrayIndex = bin.ReadSByte();
+                    if (arrayIndex != -1)
+                        map.arrIndex = arrayIndex;
+
+                    map.metaValue = ReadStringBlockString(ref stringBlock, bin.ReadInt32());
+                    map.conditionalTable = ReadStringBlockString(ref stringBlock, bin.ReadInt32());
+                    map.conditionalColumn = ReadStringBlockString(ref stringBlock, bin.ReadInt32());
+                    map.conditionalValue = ReadStringBlockString(ref stringBlock, bin.ReadInt32());
+                    map.comment = ReadStringBlockString(ref stringBlock, bin.ReadInt32());
+
+                    mappingDefinitions.Add(map);
+                }
+
+                if (bin.BaseStream.Position == bin.BaseStream.Length)
+                    return (tableInfo, mappingDefinitions, enumDefinitions);
+
+                var edfsDefMagic = bin.ReadChars(4);
+                if (new string(edfsDefMagic) != "EDFS") // bail out if we encounter something that isnt edfs
+                    return (tableInfo, mappingDefinitions, enumDefinitions);
+
+                var enumDefCount = bin.ReadInt32();
+                for (var i = 0; i < enumDefCount; i++)
+                {
+                    var enumDef = new EnumDefinition();
+                    enumDef.metaType = (MetaType)bin.ReadByte();
+                    var enumKey = ReadStringBlockString(ref stringBlock, bin.ReadInt32());
+                    var entryCount = bin.ReadInt32();
+                    enumDef.entries = new List<EnumEntry>(entryCount);
+                    for (var j = 0; j < entryCount; j++)
+                    {
+                        var entry = new EnumEntry();
+                        entry.value = bin.ReadInt64();
+                        entry.name = ReadStringBlockString(ref stringBlock, bin.ReadInt32());
+                        entry.comment = ReadStringBlockString(ref stringBlock, bin.ReadInt32());
+
+                        var buildRangeCount = bin.ReadInt32();
+                        entry.buildRanges = new BuildRange[buildRangeCount];
+                        for (var k = 0; k < buildRangeCount; k++)
+                        {
+                            entry.buildRanges[k] = new BuildRange(
+                                new Build(bin.ReadByte(), bin.ReadByte(), bin.ReadByte(), bin.ReadUInt32()),
+                                new Build(bin.ReadByte(), bin.ReadByte(), bin.ReadByte(), bin.ReadUInt32())
+                            );
+                        }
+
+                        var buildCount = bin.ReadInt32();
+                        entry.builds = new Build[buildCount];
+                        for (var k = 0; k < buildCount; k++)
+                        {
+                            entry.builds[k] = new Build(bin.ReadByte(), bin.ReadByte(), bin.ReadByte(), bin.ReadUInt32());
+                        }
+
+                        enumDef.entries.Add(entry);
+                    }
+
+                    enumDefinitions.Add(enumKey, enumDef);
+                }
             }
 
-            return tableInfo;
+            return (tableInfo, mappingDefinitions, enumDefinitions);
         }
 
         public static TableInfo ReadSingle(Stream stream, string tableName)
         {
-            return Read(stream, tableName)[tableName];
+            return Read(stream, tableName).tableDefinitions[tableName];
         }
 
         private static string ReadStringBlockString(ref byte[] stringBlock, int offset)
