@@ -6,6 +6,7 @@ on:
       - master
     paths:
       -  definitions/**
+      -  meta/**
       -  manifest.json
   workflow_run:
     workflows: ["Dump & merge"]
