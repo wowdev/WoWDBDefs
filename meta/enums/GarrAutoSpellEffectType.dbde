@@ -1,0 +1,21 @@
+0 None // NONE
+1 Damage // DAMAGE
+2 Heal // HEAL
+3 Damage % // DAMAGE_PCT
+4 Heal % // HEAL_PCT
+5 Damage Over Time // DOT
+6 Heal Over Time // HOT
+7 Damage % Over Time // DOT_PCT
+8 Heal % Over Time // HOT_PCT
+9 Taunt // TAUNT
+10 Detaunt // DETAUNT
+11 Mod Damage Done // MOD_DAMAGE_DONE
+12 Mod Damage Done % // MOD_DAMAGE_DONE_PCT (Always %, which is inconsitent with other *_PCT named values)
+13 Mod Damage Taken // MOD_DAMAGE_TAKEN
+14 Mod Damage Taken % // MOD_DAMAGE_TAKEN_PCT (Always %, which is inconsitent with other *_PCT named values)
+15 Deal Damage to Attacker // DEAL_DAMAGE_TO_ATTACKER
+16 Deal Damage to Attacker % // DEAL_DAMAGE_TO_ATTACKER_PCT
+17 Incease Max Health // INCREASE_MAX_HEALTH
+18 Increase Max Health % // INCREASE_MAX_HEALTH_PCT
+19 MOD_DAMAGE_DONE_PCT_OF_FLAT // (Behaves as expected for MOD_DAMAGE_DONE_PCT, i.e. can be %, or % of attack)
+20 MOD_DAMAGE_TAKEN_PCT_OF_FLAT // (Behaves as expected for MOD_DAMAGE_TAKEN_PCT, i.e. can be %, or % of attack)

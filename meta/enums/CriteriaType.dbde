@@ -1,0 +1,235 @@
+0 Kill NPC "{Creature}" // KILL_CREATURE -- creature::ID
+1 Win battleground "{Map}" // WIN_BG -- map::ID
+2 Complete research project "{ResearchProject}" // -- researchproject::ID
+3 Complete any research project // COMPLETE_ARCHAEOLOGY_PROJECTS -- No FK
+4 Find research object "{GameObjects}" // SURVEY_GAMEOBJECT -- gameobjects::ID
+5 Reach level // REACH_LEVEL -- No FK
+6 Exhaust any research site // CLEAR_DIGSITE -- No FK
+7 Skill "{SkillLine}" raised // REACH_SKILL_LEVEL -- skillline::ID
+8 Earn achievement "{Achievement}" // COMPLETE_ACHIEVEMENT -- achievement::ID
+9 Count of complete quests (quest count) // COMPLETE_QUEST_COUNT -- No FK
+10 Complete any daily quest (per day) // COMPLETE_DAILY_QUEST_DAILY -- No FK
+11 Complete quests in "{AreaTable}" // COMPLETE_QUESTS_IN_ZONE -- areatable::ID
+12 Currency "{CurrencyTypes}" gained // CURRENCY -- currencytypes::ID
+13 Damage dealt // DAMAGE_DONE -- No FK
+14 Complete daily quest // COMPLETE_DAILY_QUEST -- No FK
+15 Participate in battleground "{Map}" // COMPLETE_BATTLEGROUND -- map::ID
+16 Die on map "{Map}" // DEATH_AT_MAP -- map::ID
+17 Die anywhere // DEATH -- No FK
+18 Die in an instance which handles at most {#Max Players} players // DEATH_IN_DUNGEON
+19 Run an instance which handles at most {#Max Players} players // COMPLETE_RAID
+20 Get killed by "{Creature}" // KILLED_BY_CREATURE -- creature::ID
+21 Designer Value{`Uses Record ID} // MANUAL_COMPLETE_CRITERIA -- criteria::ID
+22 Complete any challenge mode // COMPLETE_CHALLENGE_MODE_GUILD -- No FK
+23 Die to a player // KILLED_BY_PLAYER -- No FK
+24 Maximum distance fallen without dying // FALL_WITHOUT_DYING -- No FK
+25 Earn a challenge mode medal of "{#Challenge Mode Medal (OBSOLETE)}" (OBSOLETE)
+26 Die to "{$Env Damage}" environmental damage // DEATHS_FROM
+27 Complete quest "{QuestV2}" // COMPLETE_QUEST -- questv2:ID
+28 Have the spell "{Spell}" cast on you // BE_SPELL_TARGET -- spell::ID
+29 Cast the spell "{Spell}" // CAST_SPELL -- spell::ID
+30 Tracked WorldStateUI value "{WorldStateUI}" is modified // BG_OBJECTIVE_CAPTURE -- pvpstat::ID
+31 Kill someone in PVP in "{AreaTable}" // HONORABLE_KILL_AT_AREA -- areatable::ID
+32 Win arena "{Map}" // WIN_ARENA -- map::ID
+33 Participate in arena "{Map}" // PLAY_ARENA -- map::ID
+34 Learn or Know spell "{Spell}" // LEARN_SPELL -- spell::ID
+35 Earn an honorable kill // HONORABLE_KILL -- No FK
+36 Acquire item "{Item}" // OWN_ITEM -- item::ID
+37 Win a ranked arena match (any arena) // WIN_RATED_ARENA -- No FK
+38 Earn a team arena rating of {#Arena Rating} // HIGHEST_TEAM_RATING -- No FK
+39 Earn a personal arena rating of {#Arena Rating} // HIGHEST_PERSONAL_RATING -- No FK
+40 Achieve a skill step in "{SkillLine}" // LEARN_SKILL_LEVEL -- skilline::ID
+41 Use item "{Item}" // USE_ITEM -- item::ID
+42 Loot "{Item}" via corpse, pickpocket, fishing, disenchanting, etc. // LOOT_ITEM -- item::ID
+43 Reveal world map overlay "{WorldMapOverlay}" // EXPLORE_AREA -- areatable::ID
+44 Deprecated PVP Titles // OWN_RANK -- No FK
+45 Bank slots purchased // BUY_BANK_SLOT -- No FK
+46 Reputation gained with faction "{Faction}" // GAIN_REPUTATION -- faction::ID
+47 Total exalted factions // GAIN_EXALTED_REPUTATION -- No FK
+48 Got a haircut // VISIT_BARBER_SHOP -- No FK
+49 Equip item in slot "{$Equip Slot}" // EQUIP_EPIC_ITEM -- No FK
+50 Roll need and get {#Need Roll} // ROLL_NEED_ON_LOOT -- No FK
+51 Roll greed and get {#Greed Roll} // ROLL_GREED_ON_LOOT -- No FK
+52 Deliver a killing blow to a {ChrClasses} // HK_CLASS -- chrclasses::ID
+53 Deliver a killing blow to a {ChrRaces} // HK_RACE -- chrraces::ID
+54 Do a "{EmotesText}" emote // DO_EMOTE -- emotes::ID
+55 Healing done // HEALING_DONE -- No FK
+56 Delivered a killing blow // GET_KILLING_BLOWS -- No FK
+57 Equip item "{Item}" // EQUIP_ITEM -- item::ID
+58 Complete quests in "{QuestSort}"
+59 Sell items to vendors // MONEY_FROM_VENDORS -- No FK
+60 Money spent on respecs // GOLD_SPENT_FOR_TALENTS -- No FK
+61 Total respecs // NUMBER_OF_TALENT_RESETS -- No FK
+62 Money earned from questing // MONEY_FROM_QUEST_REWARD -- No FK
+63 Money spent on taxis // GOLD_SPENT_FOR_TRAVELLING -- No FK
+64 Killed all units in spawn region "{SpawnRegion}" // DEFEAT_CREATURE_GROUP
+65 Money spent at the barber shop // GOLD_SPENT_AT_BARBER -- No FK
+66 Money spent on postage // GOLD_SPENT_FOR_MAIL -- No FK
+67 Money looted from creatures // LOOT_MONEY -- No FK
+68 Use Game Object "{GameObjects}" // USE_GAMEOBJECT -- gameobjects::ID
+69 Gain aura "{Spell}" // BE_SPELL_TARGET2 -- spell::ID
+70 Kill a player (no honor check) // SPECIAL_PVP_KILL -- No FK
+71 Complete a challenge mode on map "{Map}" // COMPLETE_CHALLENGE_MODE -- map::ID
+72 Catch fish in the "{GameObjects}" fishing hole // FISH_IN_GAMEOBJECT -- gameobjects::ID
+73 Player will Trigger game event "{GameEvents}" // SEND_EVENT
+74 Login (USE SPARINGLY!) // ON_LOGIN -- No FK
+75 Learn spell from the "{SkillLine}" skill line // LEARN_SKILLLINE_SPELLS -- skillline::ID
+76 Win a duel // WIN_DUEL -- No FK
+77 Lose a duel // LOSE_DUEL -- No FK
+78 Kill any NPC // KILL_CREATURE_TYPE -- No FK
+79 Created items by casting a spell (limit 1 per create...) // COOK_RECIPES_GUILD -- No FK
+80 Money earned from auctions // GOLD_EARNED_BY_AUCTIONS -- No FK
+81 Battle pet achievement points earned // EARN_PET_BATTLE_ACHIEVEMENT_POINTS -- No FK
+82 Number of items posted at auction // CREATE_AUCTION -- No FK
+83 Highest auction bid // HIGHEST_AUCTION_BID -- No FK
+84 Auctions won // WON_AUCTIONS -- No FK
+85 Highest coin value of item sold // HIGHEST_AUCTION_SOLD -- No FK
+86 Most money owned // HIGHEST_GOLD_VALUE_OWNED -- No FK
+87 Total revered factions // GAIN_REVERED_REPUTATION -- No FK
+88 Total honored factions // GAIN_HONORED_REPUTATION -- No FK
+89 Total factions encountered // KNOWN_FACTIONS -- No FK
+90 Loot any item // LOOT_EPIC_ITEM -- No FK
+91 Obtain any item // RECEIVE_EPIC_ITEM -- No FK
+92 Anyone will Trigger game event "{GameEvents}" (Scenario Only) // SEND_EVENT_SCENARIO
+93 Roll any number on need // ROLL_NEED -- No FK
+94 Roll any number on greed // ROLL_GREED -- No FK
+95 Released Spirit // RELEASE_SPIRIT -- No FK
+96 Account knows pet "{Creature}" (Backtracked) // OWN_PET -- creature::ID
+97 Defeat Encounter "{DungeonEncounter}" While Eligible For Loot // GARRISON_COMPLETE_DUNGEON_ENCOUNTER -- dungeonencounter::ID
+98 UNUSED 18{}
+99 UNUSED 19{}
+100 UNUSED 20{}
+101 Highest damage done in 1 single ability // HIGHEST_HIT_DEALT -- No FK
+102 Most damage taken in 1 single hit // HIGHEST_HIT_RECEIVED -- No FK
+103 Total damage taken // TOTAL_DAMAGE_RECEIVED -- No FK
+104 Largest heal cast // HIGHEST_HEAL_CAST -- No FK
+105 Total healing received // TOTAL_HEALING_RECEIVED -- No FK
+106 Largest heal received // HIGHEST_HEALING_RECEIVED -- No FK
+107 Abandon any quest // QUEST_ABANDONED -- No FK
+108 Buy a taxi // FLIGHT_PATHS_TAKEN -- No FK
+109 Get loot via "{$Loot Acquisition}" // LOOT_TYPE -- No FK
+110 Land targeted spell "{Spell}" on a target // CAST_SPELL2 -- spell::ID
+111 UNUSED 21{}
+112 Learn tradeskill skill line "{SkillLine}" // LEARN_SKILL_LINE -- skillline::ID
+113 Honorable kills (number in interface, won't update except for login) // EARN_HONORABLE_KILL -- No FK
+114 Accept a summon // ACCEPTED_SUMMONINGS -- No FK
+115 Earn achievement points // EARN_ACHIEVEMENT_POINTS -- No FK
+116 Roll disenchant and get {#Disenchant Roll}
+117 Roll any number on disenchant
+118 Completed an LFG dungeon // COMPLETE_LFG_DUNGEON -- No FK
+119 Completed an LFG dungeon with strangers // USE_LFD_TO_GROUP_WITH_PLAYERS -- No FK
+120 Kicked in an LFG dungeon (initiator) // LFG_VOTE_KICKS_INITIATED_BY_PLAYER -- No FK
+121 Kicked in an LFG dungeon (voter) // LFG_VOTE_KICKS_NOT_INIT_BY_PLAYER -- No FK
+122 Kicked in an LFG dungeon (target) // BE_KICKED_FROM_LFG -- No FK
+123 Abandoned an LFG dungeon // LFG_LEAVES -- No FK
+124 Guild repair amount spent // SPENT_GOLD_GUILD_REPAIRS -- No FK
+125 Guild attained level // REACH_GUILD_LEVEL -- No FK
+126 Created items by casting a spell // CRAFT_ITEMS_GUILD -- No FK
+127 Fish in any pool // CATCH_FROM_POOL -- No FK
+128 Guild bank tabs purchased // BUY_GUILD_BANK_SLOTS -- No FK
+129 Earn guild achievement points // EARN_GUILD_ACHIEVEMENT_POINTS -- No FK
+130 Win any battleground // WIN_RATED_BATTLEGROUND -- No FK
+131 Participate in any battleground
+132 Earn a battleground rating // REACH_BG_RATING -- No FK
+133 Guild tabard created // BUY_GUILD_TABARD -- No FK
+134 Count of complete quests for guild (Quest count) // COMPLETE_QUESTS_GUILD -- No FK
+135 Honorable kills for Guild // HONORABLE_KILLS_GUILD -- No FK
+136 Kill any NPC for Guild // KILL_CREATURE_TYPE_GUILD -- No FK
+137 Grouped tank left early in an LFG dungeon // COUNT_OF_LFG_QUEUE_BOOSTS_BY_TANK -- No FK
+138 Complete a "{$Guild Challenge}" guild challenge // COMPLETE_GUILD_CHALLENGE_TYPE
+139 Complete any guild challenge // COMPLETE_GUILD_CHALLENGE -- No FK
+140 Marked AFK in a battleground
+141 Removed for being AFK in a battleground
+142 Start any battleground (AFK tracking)
+143 Complete any battleground (AFK tracking)
+144 Marked someone for being AFK in a battleground
+145 Completed an LFR dungeon // LFR_DUNGEONS_COMPLETED -- No FK
+146 Abandoned an LFR dungeon // LFR_LEAVES -- No FK
+147 Kicked in an LFR dungeon (initiator) // LFR_VOTE_KICKS_INITIATED_BY_PLAYER -- No FK
+148 Kicked in an LFR dungeon (voter) // LFR_VOTE_KICKS_NOT_INIT_BY_PLAYER -- No FK
+149 Kicked in an LFR dungeon (target) // BE_KICKED_FROM_LFR -- No FK
+150 Grouped tank left early in an LFR dungeon // COUNT_OF_LFR_QUEUE_BOOSTS_BY_TANK -- No FK
+151 Complete a Scenario // COMPLETE_SCENARIO_COUNT -- No FK
+152 Complete scenario "{Scenario}" // COMPLETE_SCENARIO -- scenario::ID
+153 Enter area trigger "{AreaTriggerActionSet}" // REACH_AREATRIGGER_WITH_ACTIONSET
+154 Leave area trigger "{AreaTriggerActionSet}"
+155 (Account Only) Learned a new pet // OWN_BATTLE_PET -- No FK
+156 (Account Only) Unique pets owned // OWN_BATTLE_PET_COUNT -- No FK
+157 (Account Only) Obtain a pet through battle // CAPTURE_BATTLE_PET -- No FK
+158 Win a pet battle // WIN_PET_BATTLE -- No FK
+159 Lose a pet battle
+160 (Account Only) Battle pet has reached level {#Level} // LEVEL_BATTLE_PET -- No FK
+161 (Player) Obtain a pet through battle // CAPTURE_BATTLE_PET_CREDIT -- No FK
+162 (Player) Actively earn level {#Level} with a pet by a player // LEVEL_BATTLE_PET_CREDIT -- No FK
+163 Enter Map Area "{AreaTable}" // ENTER_AREA -- areatable::ID
+164 Leave Map Area "{AreaTable}" // LEAVE_AREA -- areatable::ID
+165 Defeat Encounter "{DungeonEncounter}" // COMPLETE_DUNGEON_ENCOUNTER -- dungeonencounter::ID
+166 Garrison Building: Place any
+167 Garrison Building: Place "{GarrBuilding}" // PLACE_GARRISON_BUILDING -- garrbuilding::ID
+168 Garrison Building: Activate any // UPGRADE_GARRISON_BUILDING -- No FK
+169 Garrison Building: Activate "{GarrBuilding}" // CONSTRUCT_GARRISON_BUILDING -- garrbuilding::ID
+170 Garrison: Upgrade Garrison to Tier "{#Tier:2,3}" // UPGRADE_GARRISON -- No FK (GarrLevel)
+171 Garrison Mission: Start any with FollowerType "{GarrFollowerType}" // START_GARRISON_MISSION -- No FK
+172 Garrison Mission: Start "{GarrMission}" // START_ORDER_HALL_MISSION -- garrmission::ID
+173 Garrison Mission: Succeed any with FollowerType "{GarrFollowerType}" // COMPLETE_GARRISON_MISSION_COUNT -- No FK
+174 Garrison Mission: Succeed "{GarrMission}" // COMPLETE_GARRISON_MISSION -- garrmission::ID
+175 Garrison Follower: Recruit any // RECRUIT_GARRISON_FOLLOWER_COUNT -- No FK
+176 Garrison Follower: Recruit "{GarrFollower}" // RECRUIT_GARRISON_FOLLOWER -- garrfollower::ID
+177 Garrison: Acquire a Garrison
+178 Garrison Blueprint: Learn any // LEARN_GARRISON_BLUEPRINT_COUNT -- No FK
+179 Garrison Blueprint: Learn "{GarrBuilding}"
+180 Garrison Specialization: Learn any
+181 Garrison Specialization: Learn "{GarrSpecialization}"
+182 Garrison Shipment of type "{CharShipmentContainer}" collected // COMPLETE_GARRISON_SHIPMENT -- No FK
+183 Garrison Follower: Item Level Changed // RAISE_GARRISON_FOLLOWER_ITEM_LEVEL -- No FK
+184 Garrison Follower: Level Changed // RAISE_GARRISON_FOLLOWER_LEVEL -- No FK
+185 Learn Toy "{Item}" // OWN_TOY
+186 Learn Any Toy // OWN_TOY_COUNT
+187 Garrison Follower: Quality Upgraded // RECRUIT_GARRISON_FOLLOWER_WITH_QUALITY -- No FK
+188 Learn Heirloom "{Item}"
+189 Learn Any Heirloom // OWN_HEIRLOOMS -- No FK
+190 Earn Artifact XP // ARTIFACT_POWER_EARNED -- No FK
+191 Artifact Power Ranks Purchased // ARTIFACT_TRAITS_UNLOCKED -- No FK
+192 Learn Transmog "{ItemModifiedAppearance}"
+193 Learn Any Transmog
+194 (Player) honor level increase // HONOR_LEVEL_REACHED -- No FK
+195 (Player) prestige level increase // PRESTIGE_REACHED -- No FK
+196 Actively level to level {#Level} // HERITAGE_AT_LEVEL -- No FK (Level Reached, points to Heritage achievements)
+197 Garrison Talent: Complete Research Any // COVENANT_SANCTUM_RANK_REACHED -- No FK
+198 Garrison Talent: Complete Research "{GarrTalent}" // ORDER_HALL_TALENT_LEARNED -- No FK
+199 Learn Any Transmog in Slot "{$Equip Slot}" // APPEARANCE_UNLOCKED_BY_SLOT -- No FK (Slot)
+200 Recruit any Garrison Troop // ORDER_HALL_RECRUIT_TROOP -- No FK
+201 Garrison Talent: Start Research Any
+202 Garrison Talent: Start Research "{GarrTalent}" // RESEARCHED_GARRISON_TALENT -- garrtalent::ID
+203 Complete Any Quest // COMPLETE_WORLD_QUEST -- No FK
+204 Earn License "{BattlePayDeliverable}" (does NOT work for box level) // TRANSMOG_SET_RELATED -- transmogset::ID
+205 (Account Only) Collect a Transmog Set from Group "{TransmogSetGroup}" // TRANSMOG_SET_UNLOCKED -- transmogset::ID (?)
+206 (Player) paragon level increase with faction "{Faction}" // GAIN_PARAGON_REPUTATION -- No FK
+207 Player has earned honor // EARN_HONOR_XP -- No FK
+208 Kill NPC "{Creature}" (scenario criteria only, do not use for player)
+209 Artifact Power Rank of "{ArtifactPower}" Purchased
+210 Choose any Relic Talent
+211 Choose Relic Talent "{ArtifactPower}" // RELIC_TALENT_UNLOCKED -- artifactpower::ID (?)
+212 Earn Expansion Level "{$Expansion Level}"
+213 (Account Only) honor level {#Level} reached // No FK (Honor Level Reached)
+214 Earn Artifact experience for Azerite Item // No FK
+215 Azerite Level {#Azerite Level} reached // No FK (Neck Level Reached)
+216 Mythic Plus Completed // No FK
+217 Scenario Group Completed
+218 Complete Any Replay Quest // No FK
+219 Buy items from vendors // No FK
+220 Sell items to vendors // No FK
+221 Reach Max Level
+222 Memorize Spell "{Spell}" // FK todo
+223 Learn Transmog Illusion
+224 Learn Any Transmog Illusion
+225 Enter Top Level Map Area "{AreaTable}" // areatable::ID
+226 Leave Top Level Map Area "{AreaTable}" // FK todo
+227 Socket Garrison Talent {GarrTalent}
+228 Socket Any Soulbind Conduit // No FK
+229 Obtain Any Item With Currency Value "{CurrencyTypes}" // No FK
+230 (Player) Mythic+ Rating "{#DungeonScore}" attained
+231 (Player) spent talent point
+251 Faction related (unk) // Faction::ID
+258 Area table related (unk) // AreaTable::ID
+259 Quest sort related (unk) // QuestSort::ID

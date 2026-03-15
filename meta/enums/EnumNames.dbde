@@ -1,0 +1,201 @@
+2 In-game browser
+3 Locales
+105 Mount::Flags
+119 Classes
+120 Races
+123 Region
+130 Math operators
+134 SpellMisc::Attributes
+143 BattlePay Categories
+150 BattlePay Products
+151 ItemStaticFlags
+155 Product/Branch
+156 Expansions
+169 ItemDisplayInfo::Flags
+170 GarrBuilding::BuildingType
+174 Real world currencies
+176 HighlightColor::Type
+178 SpellInterruptFlags
+185 GroupFinderActivity::Flags
+186 GroupFinderCategory::Flags
+188 AreaPOI::Flags // updated
+189 GroupFinderActivity::DisplayType
+190 WorldMapArea::Flags
+192 Map::Flags // added
+193 ItemBonusList::Flags
+194 Phase::Flags
+195 SkillLine::Flags
+196 CurrencyTypes::Flags
+197 SummonProperties::Flags // updated
+201 EmoteFlags
+203 WMOAreaTable::Flags
+220 ChatChannels::Flags
+223 SpellShapeShiftForm::Flags
+236 CreatureModelData::Flags
+237 SummonProperties::Slot
+238 SummonProperties::Control
+251 BroadcastText::Flags
+255 CreatureImmunities::Flags
+256 BattlemasterList::Flags
+258 ArtifactPower::Flags
+259 InventorySlotName
+265 AnimationData::Flags
+267 GarrFollowerType::Flags
+271 Criteria::Flags
+272 SoundTypes
+277 CreatureStaticFlags
+282 QuestV2::Flags
+291 LightSkybox::Flags
+292 SpellInterrupts::InterruptFlags
+303 BattlepayDisplayFlag
+306 MovementFlags
+318 LFGDungeons::Flags
+326 FactionTemplate::Flags
+327 PowerType::Flags
+328 PowerType::PowerTypeEnum
+332 ItemSubClass::Flags
+336 InventoryTypeNames
+338 Gender
+345 SpellCategories::PreventionType
+346 ChrClasses::Flags
+351 SpellItemEnchantment::Flags
+352 Scenario::Flags
+353 Scenario::Type
+360 ChrClasses::PrimaryStatPriority
+365 Material::Flags
+367 WeaponSwingSounds2::SwingType // added
+372 TransmogSource
+374 Sheating
+379 PrestigeLevelInfo::Flags
+384 GarrType::Flags
+387 BattlePetSpecies::SourceTypeEnum
+392 GarrFollower::Quality
+406 CharShipment::Flags
+407 SpellAuraOptions::ProcTypeMask
+423 GarrMission::Flags // updated but conflicts, needs check
+424 GarrAbilityEffect.AbilityAction
+436 SpellCategory::Flags
+443 MapDifficulty::Flags
+446 GarrAbility::Flags // updated
+455 ItemContext // Partial
+457 MapDifficulty::ResetInterval
+458 GlobalStrings::Flags
+465 Emotes::EmoteSpecProc
+489 AreaTable::Flags // updated
+497 ObjectEffectPackageElem::StateType // copied
+530 CurveType
+531 ItemSpec::Primary/SecondaryStat
+539 SPELL_PROC_TEST_RESULT // Unknown ref?
+546 Stationery::Flags
+555 UiModelSceneCamera::CameraType
+556 UiModelSceneActor::Flags
+559 UiModelScene::UiSystemType
+558 Holidays::Flags
+562 JournalInstance::Flags
+564 GameObjects::TypeID
+565 TransmogSet::Flags
+566 TransmogSetItem::Flags
+567 ExpectedStat::ExpansionID
+573 CreatureDisplayInfo::Flags
+585 ItemBonus::Type
+586 SpellAuraNames::SpecialMiscValue
+588 ScenarioEventEntry::TriggerType
+590 UnitCondition::Variable
+592 Criteria::Start_event
+593 Criteria::Fail_event
+594 Criteria::Type
+600 ModifierTree::Type // copied, fks mapped
+601 ItemSparse::Bonding
+603 DungeonEncounter::Flags
+604 SpellVisualEffectName::Type
+614 AI Formation Type
+615 AI Formation Behavior
+638 CriteriaTree::Operator
+639 CriteriaTree::Flags // updated
+651 RelicTalent::Type
+659 PlayerChoice::Flags
+671 ConfigurationWarning
+673 CharComponentTextureSections:SectionType
+675 CharBaseSection::VariationEnum
+681 SpellEffect::EffectAttributes
+692 Map::InstanceType // updated
+693 ScenarioStep::Flags
+697 BattlepayProductGroupFlag
+706 Difficulty::Flags
+709 CharacterServiceInfo::BoostType
+712 AzeriteTier
+713 CreatureClassifications
+714 CreatureAges
+715 CreatureRankings
+717 UiMap::Flags // updated
+718 UiMap::System // updated
+719 UiMap::Type // updated
+721 SpellScript::Arguments // copied
+738 ChrRaces::Flags // updated
+743 Weather::Type
+747 ChrRaces::PlayableRaceBit
+756 Campaign::Flags
+758 ChallengeModeItemBonusOverride::Type
+759 TaxiNodes::Flags
+762 Prestige Name
+863 UiWidgetVisualization::VisType // copied and extended
+864 UiWidgetDataSource::SourceType // copied
+865 UiWidgetVisTypeDataReq::ValueType // copied
+875 Vignette::VignetteType
+876 ContributionState
+881 Item Reward Type
+890 LiquidTypeXTexture::Type
+891 GarrEncounter::Flags
+914 GeosetType
+915 WaypointNode::Field_8_2_0_30080_005
+934 FriendshipReputation::Flags
+950 SceneFlags
+953 ItemSubClass
+956 BonusStatIndex
+965 ItemEquipLoc
+972 GarrisonBuildingDoodadSet::Type
+973 GarrMissionSetFlags // no fk?
+982 GarrPlot::PlotType
+983 PlayerCondition::Flags
+985 GarrSite::Flags
+986 GarrPlot::Flags
+989 GarrSpecialization::SpecType
+991 GarrAbilityEffect::Flags
+993 GarrAbilityEffect::AbilityTargetType
+994 GarrBuilding::Flags
+995 GarrFollower::Flags
+996 GarrFollowerRerollType // no fk?
+997 CaptureBarWidgetFillDirectionType
+999 GarrTalent::TalentType
+1003 GarrTalent::ResearchCostSource
+1004 ItemEffect::TriggerType // updated
+1007 GossipIcon
+1021 QuestObjective::Flags
+1039 SchoolMask/DamageClass
+1033 GarrAutoSpellEffect::Effect
+1034 GarrAutoSpellEffect::TargetType
+1035 GarrAutoSpell::Flags
+1036 VehiclePOIType::Flags
+1037 GarrAutoBoardIndexs // no fk?
+1038 ChrModel::Flags // copied
+1041 BattlePetState::Flags
+1049 GlobalTable_PlayerCondition::What
+1060 UISplashScreen::ScreenType
+1063 GarrTalentTree::FeatureTypeIndex
+1064 GarrTalentTree::FeatureSubtypeIndex
+1067 ChrCustomizationCategoryFlag
+1069 ChrCustomizationOptionType
+1073 GarrTalentCost::CostType
+1074 ScriptedAnimationBehavior
+1075 ScriptedAnimationTrajectory
+1083 ChrModelTextureLayer::BlendMode
+1085 UiWidgetVisualization::WidgetScale // copied
+1086 StatusBarColorTintValue
+1087 UiWidgetSet::LayoutDirection
+1094 ChrCustomizationReq::OverrideArchive
+1095 ChatChannels::Ruleset
+1096 GarrTalentSocketType
+1097 SoulbindConduit::ConduitType
+1099 GarrAutoCombatant::Role
+1103 OptionalReagentItemFlag
+1129 BattlepayGroupDisplayType

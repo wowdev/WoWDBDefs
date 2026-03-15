@@ -1,0 +1,25 @@
+0 None // NONE
+1 Self // SELF
+2 Adjacent Friendly // ADJACENT_FRIENDLY
+3 Adjacent Hostile // ADJACENT_HOSTILE
+4 Ranged Friendly // RANGED_FRIENDLY
+5 Ranged Hostile // RANGED_HOSTILE
+6 All Friendlies // ALL_FRIENDLIES
+7 All Hostile // ALL_HOSTILES
+8 All Adjacent Friendlies // ALL_ADJACENT_FRIENDLIES
+9 All Adjacent Hostiles // ALL_ADJACENT_HOSTILES
+10 Cone Friendlies // CONE_FRIENDLIES
+11 Cone Hostiles // CONE_HOSTILES
+12 Line Friendlies // LINE_FRIENDLIES
+13 Line Hostiles // LINE_HOSTILES
+14 All Front Row Friendlies // ALL_FRONT_ROW_FRIENDLIES
+15 All Front Row Hostiles // ALL_FRONT_ROW_HOSTILES
+16 All Back Row Friendlies // ALL_BACK_ROW_FRIENDLIES
+17 All Back Row Hostiles // ALL_BACK_ROW_HOSTILES
+18 All Targets // ALL_TARGETS
+19 Random Target // RANDOM_TARGET
+20 Random Ally // RANDOM_ALLY (Actually targets random follower)
+21 Random Enemy // RANDOM_ENEMY (Actually targets random encounter)
+22 ALL_FRIENDLIES_BUT_SELF
+23 ALL_FOLLOWERS // (Unofficial name)
+24 ALL_ENCOUNTERS // (Unofficial name)

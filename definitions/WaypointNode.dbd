@@ -6,7 +6,7 @@ int<PlayerCondition::ID> PlayerConditionID?
 int Field_8_1_5_29281_003?
 int Field_8_1_5_29281_004?
 int Flags? // &1: ???, &8: ???
-int Field_8_2_0_30080_005?
+int Type?
 int Field_8_2_0_30080_006?
 int<WaypointMapVolume::ID> WaypointMapVolumeID?
 
@@ -32,7 +32,7 @@ $id$ID<32>
 SafeLocID<32>
 PlayerConditionID<32>
 Flags<32>
-Field_8_2_0_30080_005<32>
+Type<32>
 Field_8_2_0_30080_006<32>
 
 LAYOUT 0CA4C966
@@ -46,7 +46,7 @@ Name_lang
 SafeLocID<32>
 PlayerConditionID<32>
 Flags<32>
-Field_8_2_0_30080_005<32>
+Type<32>
 Field_8_2_0_30080_006<32>
 
 LAYOUT CE16D4A6
@@ -69,7 +69,7 @@ Name_lang
 SafeLocID<32>
 PlayerConditionID<32>
 Flags<32>
-Field_8_2_0_30080_005<32>
+Type<32>
 Field_8_2_0_30080_006<32>
 
 LAYOUT 3B97E4DE
@@ -82,7 +82,7 @@ Name_lang
 SafeLocID<32>
 PlayerConditionID<32>
 Flags<32>
-Field_8_2_0_30080_005<32>
+Type<32>
 Field_8_2_0_30080_006<32>
 
 LAYOUT 2566DE7B
@@ -97,7 +97,7 @@ Name_lang
 SafeLocID<32>
 PlayerConditionID<32>
 Flags<32>
-Field_8_2_0_30080_005<32>
+Type<32>
 Field_8_2_0_30080_006<32>
 WaypointMapVolumeID<32>
 
@@ -110,6 +110,6 @@ Name_lang
 SafeLocID<32>
 PlayerConditionID<32>
 Flags<32>
-Field_8_2_0_30080_005<32>
+Type<32>
 Field_8_2_0_30080_006<32>
 WaypointMapVolumeID<32>

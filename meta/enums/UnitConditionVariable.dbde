@@ -1,0 +1,86 @@
+0 - NONE -
+1 Race {$Is/Is Not} "{ChrRaces}"
+2 Class {$Is/Is Not} "{ChrClasses}"
+3 Level {$Relative Op} "{#Level}"
+4 Is self? {$Yes/No}{=1}
+5 Is my pet? {$Yes/No}{=1}
+6 Is master? {$Yes/No}{=1}
+7 Is target? {$Yes/No}{=1}
+8 Can assist? {$Yes/No}{=1} // 'CAN_ASSIST'
+9 Can attack? {$Yes/No}{=1} // 'CAN_ATTACK'
+10 Has pet? {$Yes/No}{=1}
+11 Has weapon? {$Yes/No}{=1}
+12 Health {$Relative Op} {#Health %}%
+13 Mana {$Relative Op} {#Mana %}%
+14 Rage {$Relative Op} {#Rage %}%
+15 Energy {$Relative Op} {#Energy %}%
+16 Combo Points {$Relative Op} {#Points} // 'COMBO_POINTS'
+17 Has helpful aura spell? {$Yes/No} "{Spell}"
+18 Has helpful aura dispel type? {$Yes/No} "{SpellDispelType}"
+19 Has helpful aura mechanic? {$Yes/No} "{SpellMechanic}"
+20 Has harmful aura spell? {$Yes/No} "{Spell}"
+21 Has harmful aura dispel type? {$Yes/No} "{SpellDispelType}"
+22 Has harmful aura mechanic? {$Yes/No} "{SpellMechanic}"
+23 Has harmful aura school? {$Yes/No} "{Resistances}"
+24 Damage (Physical) {$Relative Op} {#Physical Damage %}% // 'DAMAGE_SCHOOL0_PERCENT'
+25 Damage (Holy) {$Relative Op} {#Holy Damage %}% // 'DAMAGE_SCHOOL1_PERCENT'
+26 Damage (Fire) {$Relative Op} {#Fire Damage %}% // 'DAMAGE_SCHOOL2_PERCENT'
+27 Damage (Nature) {$Relative Op} {#Nature Damage %}% // 'DAMAGE_SCHOOL3_PERCENT'
+28 Damage (Frost) {$Relative Op} {#Frost Damage %}% // 'DAMAGE_SCHOOL4_PERCENT'
+29 Damage (Shadow) {$Relative Op} {#Shadow Damage %}% // 'DAMAGE_SCHOOL5_PERCENT'
+30 Damage (Arcane) {$Relative Op} {#Arcane Damage %}% // 'DAMAGE_SCHOOL6_PERCENT'
+31 In combat? {$Yes/No}{=1}
+32 Is moving? {$Yes/No}{=1}
+33 Is casting? {$Yes/No}{=1}
+34 Is casting spell? {$Yes/No}{=1}
+35 Is channeling? {$Yes/No}{=1}
+36 Is channeling spell? {$Yes/No}{=1}
+37 Number of melee attackers {$Relative Op} {#Attackers} // 'NPC_NUM_MELEE_ATTACKERS'
+38 Is attacking me? {$Yes/No}{=1}
+39 Range {$Relative Op} {#Yards}
+40 In melee range? {$Yes/No}{=1} // 'IS_IN_MELEE_RANGE'
+41 Pursuit time {$Relative Op} {#Seconds} // 'PURSUIT_TIME'
+42 Has harmful aura canceled by damage? {$Yes/No}{=1} // 'HARMFUL_AURA_CANCELLED_BY_DAMAGE'
+43 Has harmful aura with periodic damage? {$Yes/No}{=1}
+44 Number of enemies {$Relative Op} {#Enemies}
+45 Number of friends {$Relative Op} {#Friends} // 'NUM_FRIENDS'
+46 Threat (Physical) {$Relative Op} {#Physical Threat %}% // 'THREAT_SCHOOL0_PERCENT'
+47 Threat (Holy) {$Relative Op} {#Holy Threat %}% // 'THREAT_SCHOOL1_PERCENT'
+48 Threat (Fire) {$Relative Op} {#Fire Threat %}% // 'THREAT_SCHOOL2_PERCENT'
+49 Threat (Nature) {$Relative Op} {#Nature Threat %}% // 'THREAT_SCHOOL3_PERCENT'
+50 Threat (Frost) {$Relative Op} {#Frost Threat %}% // 'THREAT_SCHOOL4_PERCENT'
+51 Threat (Shadow) {$Relative Op} {#Shadow Threat %}% // 'THREAT_SCHOOL5_PERCENT'
+52 Threat (Arcane) {$Relative Op} {#Arcane Threat %}% // 'THREAT_SCHOOL6_PERCENT'
+53 Is interruptible? {$Yes/No}{=1} // 'IS_INTERRUPTIBLE'
+54 Number of attackers {$Relative Op} {#Attackers}
+55 Number of ranged attackers {$Relative Op} {#Ranged Attackers} // 'NPC_NUM_RANGED_ATTACKERS'
+56 Creature type {$Is/Is Not} "{CreatureType}" // 'CREATURE_TYPE'
+57 Is melee-attacking? {$Yes/No}{=1} // 'IN_MELEE_RANGE'
+58 Is ranged-attacking? {$Yes/No}{=1}
+59 Health {$Relative Op} {#HP} HP
+60 Spell known? {$Yes/No} "{Spell}" // 'SPELL_KNOWN'
+61 Has harmful aura effect? {$Yes/No} "{#Spell Aura}"
+62 Is immune to area-of-effect? {$Yes/No}{=1} // 'IS_AREA_IMMUNE'
+63 Is player? {$Yes/No}{=1}
+64 Damage (Magic) {$Relative Op} {#Magic Damage %}% // 'DAMAGE_MAGIC_PERCENT'
+65 Damage (Total) {$Relative Op} {#Damage %}% // 'DAMAGE_PERCENT'
+66 Threat (Magic) {$Relative Op} {#Magic Threat %}% // 'THREAT_MAGIC_PERCENT'
+67 Threat (Total) {$Relative Op} {#Threat %}% // 'THREAT_PERCENT'
+68 Has critter? {$Yes/No}{=1}
+69 Has totem in slot 1? {$Yes/No}{=1} // 'HAS_TOTEM1'
+70 Has totem in slot 2? {$Yes/No}{=1} // 'HAS_TOTEM2'
+71 Has totem in slot 3? {$Yes/No}{=1} // 'HAS_TOTEM3'
+72 Has totem in slot 4? {$Yes/No}{=1} // 'HAS_TOTEM4'
+73 Has totem in slot 5? {$Yes/No}{=1} // 'HAS_TOTEM5'
+74 Creature {$Is/Is Not} "{Creature}"
+75 String ID {$Is/Is Not} "{StringID}" // 'HAS_STRING_ID'
+76 Has aura? {$Yes/No} {Spell} // 'HAS_AURA'
+77 Is enemy? {$Yes/No}{=1} // 'REACTION_HOSTILE'
+78 Is spec - melee? {$Yes/No}{=1} // 'CHAR_SPECIALIZATION_???'
+79 Is spec - tank? {$Yes/No}{=1} // 'ROLE_IS_TANK'
+80 Is spec - ranged? {$Yes/No}{=1} // 'CHAR_SPECIALIZATION_???'
+81 Is spec - healer? {$Yes/No}{=1} // 'ROLE_IS_HEALER'
+82 Is player controlled NPC? {$Yes/No}{=1}
+83 Is dying? {$Yes/No}{=1}
+84 Path fail count {$Relative Op} {#Path Fail Count} // 'PATH_FAIL_COUNT'
+86 Label {$Is/Is Not} "{Label}" // 'HAS_LABEL

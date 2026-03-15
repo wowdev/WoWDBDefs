@@ -34,26 +34,142 @@ COLOR Lightning::FlashColor
 COLOR LightShaft::Color
 COLOR LiquidType::MinimapStaticCol
 COLOR Weather::OverrideColor
+ENUM AlliedRace::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM AzeriteTierUnlock::Tier AzeriteTierID
+ENUM BarberShopStyle::Race ChrRaceID // Not a real enum, but for ease
+ENUM BattlePetAbility::PetTypeEnum BattlePetTypes
+ENUM BattlePetAbilityTurn::EventTypeEnum BattlePetEvent
+ENUM BattlePetAbilityTurn::TurnTypeEnum BattlePetAbilityTurnType
+ENUM BattlePetBreedQuality::QualityEnum BattlePetBreedQuality
+ENUM BattlePetEffectProperties::ParamTypeEnum[0] BattlePetEffectParamType
+ENUM BattlePetEffectProperties::ParamTypeEnum[1] BattlePetEffectParamType
+ENUM BattlePetEffectProperties::ParamTypeEnum[2] BattlePetEffectParamType
+ENUM BattlePetEffectProperties::ParamTypeEnum[3] BattlePetEffectParamType
+ENUM BattlePetEffectProperties::ParamTypeEnum[4] BattlePetEffectParamType
+ENUM BattlePetSpecies::PetTypeEnum BattlePetTypes
+ENUM BattlePetSpecies::SourceTypeEnum BattlePetSources
+ENUM BattlePetVisual::RangeTypeEnum BattlePetVisualRange
+ENUM ChallengeModeItemBonusOverride::Type ChallengeModeItemBonusOverrideType
+ENUM CharacterFacialHairStyles::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM CharacterLoadout::Purpose CharacterLoadoutPurpose
+ENUM CharBaseInfo::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM CharComponentTextureSections::SectionType ComponentSection
 ENUM CharHairGeosets::GeosetType GeosetType
+ENUM CharHairGeosets::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM CharSectionCondition::BaseSection CharSectionType
 ENUM CharSectionCondition::Sex CharSex
 ENUM CharSections::BaseSection CharSectionType
+ENUM CharSections::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM CharSections::SexID CharSex
+ENUM CharStartKit::ChrRacesID ChrRaceID // Not a real enum, but for ease
+ENUM CharStartOutfit::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM CharVariations::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM ChatChannels::Ruleset ChatChannelRuleSet
+ENUM ChatProfanity::Language ChatProfanityLanguage
 ENUM ChrClasses::SpellClassSet SpellClassSet
 ENUM ChrCustomization::ComponentSection[0] ComponentSection
 ENUM ChrCustomization::ComponentSection[1] ComponentSection
 ENUM ChrCustomization::ComponentSection[2] ComponentSection
+ENUM ChrCustomization::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM ChrCustomization::UiCustomizationType UiCustomizationType
+ENUM ChrCustomizationConversion::ChrRacesID ChrRaceID // Not a real enum, but for ease
 ENUM ChrCustomizationGeoset::GeosetType GeosetType
 ENUM ChrCustomizationOption::ChrModelID ChrModelID // Not a real enum, but for ease
+ENUM ChrCustomizationOption::OptionType ChrCustomizationOptionType
+ENUM ChrCustomizationReq::OverrideArchive ChrCustomizationReqOverrideArchive
 ENUM ChrCustomizationReq::ReqType ChrCustomizationReqType
 ENUM ChrCustomizationSkinnedModel::GeosetType GeosetType
+ENUM ChrModelMaterial::Flags ChrModelMaterialSkinType
+ENUM ChrModelMaterial::TextureType TextureType
+ENUM ChrModelTextureLayer::BlendMode ChrModelTextureLayerBlendMode
+ENUM ChrModelTextureLayer::ChrModelTextureTargetID[0] ChrModelTextureTarget
+ENUM ChrModelTextureLayer::TextureType TextureType
+ENUM ChrRaceRacialAbility::ChrRacesID ChrRaceID // Not a real enum, but for ease
+ENUM ChrRaces::NeutralRaceID ChrRaceID // Not a real enum, but for ease
+ENUM ChrRaces::PlayableRaceBit ChrRacesPlayableRaceBit
+ENUM ChrRaces::UnalteredVisualRaceID ChrRaceID // Not a real enum, but for ease
 ENUM ChrRaceXChrModel::ChrModelID ChrModelID // Not a real enum, but for ease
+ENUM ChrRaceXChrModel::ChrRacesID ChrRaceID // Not a real enum, but for ease
+ENUM ContentRestrictionRule::RuleType ContentRestrictionRuleTypes
+ENUM CraftingData::Type CraftingDataType
+ENUM CreatureDisplayInfoExtra::DisplayRaceID ChrRaceID // Not a real enum, but for ease
+ENUM Criteria::Fail_event CriteriaFailEvent
+ENUM Criteria::Start_event CriteriaStartEvent
+ENUM Criteria::Type CriteriaType
 ENUM CriteriaTree::Operator CriteriaTreeOperator
+ENUM Curve::Type CurveType
 ENUM Difficulty::InstanceType MapTypes
+ENUM Emotes::EmoteSpecProc EmoteSpecProc
+ENUM EmotesTextSound::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM EnumeratedString::EnumID EnumNames // so meta
+ENUM EnvironmentalDamage::EnumID EnvironmentalDamageType
+ENUM ExpectedStat::ExpansionID ExpectedStatExpansionID
+ENUM GarrAbilityEffect::AbilityAction GarrAbilityAction
+ENUM GarrAbilityEffect::AbilityTargetType GarrAbilityTargetType
+ENUM GarrAutoCombatant::Role GarrAutoCombatantRole
+ENUM GarrAutoSpellEffect::Effect GarrAutoSpellEffectType
+ENUM GarrAutoSpellEffect::TargetType GarrAutoSpellEffectTargetType
+ENUM GarrBuilding::BuildingType GarrBuildingType
+ENUM GarrFollItemSetMember::ItemSlot GarrFollowerItemSlot
+ENUM GarrFollowerQuality::Quality GarrFollowerQuality
+ENUM GarrMechanicType::Category GarrMechanicCategory
+ENUM GarrPlot::PlotType GarrPlotType
+ENUM GarrSpecialization::BuildingType GarrBuildingType
+ENUM GarrSpecialization::SpecType GarrSpecType
+ENUM GarrTalent::ResearchCostSource GarrTalentResearchCostSource
+ENUM GarrTalent::TalentType GarrTalentType
+ENUM GarrTalentCost::CostType GarrTalentCostType
+ENUM GarrTalentSocketProperties::GarrTalentSocketType GarrTalentSocketType
+ENUM GarrTalentTree::FeatureSubtypeIndex GarrTalentTreeFeatureSubtypeIndex
+ENUM GarrTalentTree::FeatureTypeIndex GarrTalentTreeFeatureTypeIndex
+ENUM GlobalCurve::Type GlobalCurveType
+ENUM GlobalTable_PlayerCondition::What GlobalTablePlayerConditionWhat
+ENUM GlueScreenEmote::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM GroupFinderActivity::DisplayType GroupFinderActivityDisplayType
+ENUM HelmetAnimScaling::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM HelmetGeosetData::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM HighlightColor::Type HighlightColorType
+ENUM Item::ClassID ItemClass
+ENUM Item::InventoryType InventoryType
+ENUM Item::SubclassID ItemSubClass0 Item::ClassID=0
+ENUM Item::SubclassID ItemSubClass1 Item::ClassID=1
+ENUM Item::SubclassID ItemSubClass2 Item::ClassID=2
+ENUM Item::SubclassID ItemSubClass3 Item::ClassID=3
+ENUM Item::SubclassID ItemSubClass4 Item::ClassID=4
+ENUM Item::SubclassID ItemSubClass5 Item::ClassID=5
+ENUM Item::SubclassID ItemSubClass6 Item::ClassID=6
+ENUM Item::SubclassID ItemSubClass7 Item::ClassID=7
+ENUM Item::SubclassID ItemSubClass8 Item::ClassID=8
+ENUM Item::SubclassID ItemSubClass9 Item::ClassID=9
+ENUM Item::SubclassID ItemSubClass10 Item::ClassID=10
+ENUM Item::SubclassID ItemSubClass11 Item::ClassID=11
+ENUM Item::SubclassID ItemSubClass12 Item::ClassID=12
+ENUM Item::SubclassID ItemSubClass13 Item::ClassID=13
+ENUM Item::SubclassID ItemSubClass14 Item::ClassID=14
+ENUM Item::SubclassID ItemSubClass15 Item::ClassID=15
+ENUM Item::SubclassID ItemSubClass16 Item::ClassID=16
+ENUM Item::SubclassID ItemSubClass17 Item::ClassID=17
+ENUM Item::SubclassID ItemSubClass18 Item::ClassID=18
+ENUM Item::SubclassID ItemSubClass19 Item::ClassID=19
+ENUM Item::SubclassID ItemSubClass20 Item::ClassID=20
+ENUM ItemAppearance::DisplayType ItemDisplayType
 ENUM ItemBonus::Type ItemBonusTypes
+ENUM ItemBonus::Value[0] ItemStatType ItemBonus::Type=2
+ENUM ItemBonus::Value[0] ItemQuality ItemBonus::Type=3
+ENUM ItemBonus::Value[0] ItemBonding ItemBonus::Type=16
+ENUM ItemBonus::Value[0] ItemStatType ItemBonus::Type=25
+ENUM ItemBonus::Value[1] SocketColor ItemBonus::Type=6
+ENUM ItemBonusTreeNode::ItemContext ItemContext
 ENUM ItemDisplayInfoMaterialRes::ComponentSection ComponentSection
+ENUM ItemDisplayInfoModelMatRes::TextureType TextureType
+ENUM ItemEffect::TriggerType ItemEffectTriggerType
+ENUM ItemModifiedAppearance::TransmogSourceTypeEnum TransmogSourceType
+ENUM ItemSparse::Bonding ItemBonding
+ENUM ItemSparse::InventoryType InventoryType
+ENUM ItemSparse::OverallQualityID ItemQuality
+ENUM ItemSparse::SocketType[0] SocketColor
+ENUM ItemSparse::SocketType[1] SocketColor
+ENUM ItemSparse::SocketType[2] SocketColor
 ENUM ItemSparse::StatModifier_bonusStat[0] ItemStatType
 ENUM ItemSparse::StatModifier_bonusStat[1] ItemStatType
 ENUM ItemSparse::StatModifier_bonusStat[2] ItemStatType
@@ -64,11 +180,37 @@ ENUM ItemSparse::StatModifier_bonusStat[6] ItemStatType
 ENUM ItemSparse::StatModifier_bonusStat[7] ItemStatType
 ENUM ItemSparse::StatModifier_bonusStat[8] ItemStatType
 ENUM ItemSparse::StatModifier_bonusStat[9] ItemStatType
+ENUM LFGDungeons::Subtype LFGSubType
+ENUM LFGDungeons::TypeID LFGType
+ENUM LiquidTypeXTexture::Type LiquidTypeTextureType
 ENUM Map::ExpansionID ExpansionLevels
 ENUM Map::InstanceType MapTypes
+ENUM MapDifficulty::ItemContext ItemContext
+ENUM MapDifficulty::ResetInterval MapDifficultyResetInterval
+ENUM ModifierTree::Asset ItemQuality ModifierTree::Type=14
+ENUM ModifierTree::Asset ItemQuality ModifierTree::Type=15
 ENUM ModifierTree::Operator ModifierTreeOperator
 ENUM ModifierTree::Type CriteriaAdditionalCondition
+ENUM NameGen::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM NPCModelItemSlotDisplayInfo::ItemSlot ItemSlot
+ENUM ObjectEffectPackageElem::StateType ObjectEffectPackageStateType
 ENUM PlayerCondition::MinReputation[0] ReputationLevels
+ENUM PowerType::PowerTypeEnum PowerType
+ENUM Profession::ProfessionEnumValue ProfessionEnumValue
+ENUM QuestInfo::Type QuestTagType
+ENUM QuestObjective::Type QuestObjectiveType
+ENUM RelicTalent::Type RelicTalentType
+ENUM RoomComponent::ConnectionType RoomComponentConnectionType
+ENUM RoomComponent::Type RoomComponentType
+ENUM RoomComponentOption::Type RoomComponentOptionType
+ENUM RoomComponentTexture::RoomComponentType RoomComponentType
+ENUM Scenario::Type ScenarioType
+ENUM ScenarioEventEntry::TriggerType ScenarioEventEntryTriggerType
+ENUM SoulbindConduit::ConduitType SoulbindConduitType
+ENUM SoundCharacterMacroLines::Race ChrRaceID // Not a real enum, but for ease
+ENUM SoundEmitters::EmitterType SoundEmitterType
+ENUM SoundEntries::SoundType SoundKitType
+ENUM SoundKit::SoundType SoundKitType
 ENUM SpellClassOptions::SpellClassSet SpellClassSet
 ENUM SpellEffect::Effect SpellEffect
 ENUM SpellEffect::EffectAura SpellEffectAura
@@ -80,9 +222,55 @@ ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=29
 ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=80
 ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=137
 ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=175
+ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=29
+ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=80
+ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=137
+ENUM SpellEffect::EffectMiscValue[0] PrimaryStats SpellEffect::EffectAura=175
+ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=107
+ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=108
+ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=218
+ENUM SpellEffect::EffectMiscValue[0] SpellModOp SpellEffect::EffectAura=219
+ENUM SpellEffect::EffectMiscValue[1] PrimaryStats SpellEffect::EffectAura=174
+ENUM SpellEffect::EffectMiscValue[1] PrimaryStats SpellEffect::EffectAura=571
+ENUM SpellEffect::EffectMiscValue[1] PrimaryStats SpellEffect::EffectAura=583
+ENUM SpellEffect::ImplicitTarget[0] Target
+ENUM SpellEffect::ImplicitTarget[1] Target
+ENUM SpellItemEnchantment::Effect[0] SpellItemEnchantmentEffect
+ENUM SpellItemEnchantment::Effect[1] SpellItemEnchantmentEffect
+ENUM SpellItemEnchantment::Effect[2] SpellItemEnchantmentEffect
+ENUM SpellItemEnchantment::EffectArg[0] ItemStatType SpellItemEnchantment::Effect[0]=5
+ENUM SpellItemEnchantment::EffectArg[1] ItemStatType SpellItemEnchantment::Effect[1]=5
+ENUM SpellItemEnchantment::EffectArg[2] ItemStatType SpellItemEnchantment::Effect[2]=5
 ENUM SpellLabel::LabelID SpellLabelName
+ENUM SpellScript::Arguments SpellScriptArgs
+ENUM SpellVisualEffectName::Type SpellVisualEffectNameType
+ENUM SpellVisualEvent::EndEvent SpellVisualEventEvent
+ENUM SpellVisualEvent::StartEvent SpellVisualEventEvent
+ENUM SpellVisualEvent::TargetType SpellVisualEventTargetType
 ENUM SpellVisualKitEffect::EffectType SpellVisualKitEffectType
+ENUM SummonProperties::Control SummonPropertiesControl
+ENUM SummonProperties::Slot SummonPropertiesSlot
+ENUM TraitCond::CondType TraitConditionType
+ENUM TraitCostDefinition::DefinitionType TraitCostDefinitionType
+ENUM TraitCurrency::Type TraitCurrencyType
+ENUM TraitDefinitionEffectPoints::OperationType TraitPointsOperationType
+ENUM TraitEdge::Type TraitEdgeType
+ENUM TraitEdge::VisualStyle TraitEdgeVisualStyle
+ENUM TraitNode::Type TraitNodeType
+ENUM TraitNodeEntry::NodeEntryType TraitNodeEntryType
+ENUM UiCamFbackTransmogChrRace::ChrRaceID ChrRaceID // Not a real enum, but for ease
+ENUM UIEventToast::DisplayType EventToastDisplayType
+ENUM UIEventToast::EventType EventToastEventType
+ENUM UiMap::System UiMapSystem
 ENUM UiMap::Type UiMapType
+ENUM UiModelSceneCamera::CameraType UiModelSceneCameraCameraType
+ENUM UISplashScreen::ScreenType UiSplashScreenType
+ENUM UiWidgetDataSource::SourceType UiWidgetDataSourceSourceType
+ENUM UiWidgetSet::LayoutDirection UiWidgetSetLayoutDirection
+ENUM UiWidgetVisTypeDataReq::ValueType UiWidgetVisTypeDataReqValueType
+ENUM UiWidgetVisTypeDataReq::VisType UiWidgetVisualizationVisType
+ENUM UiWidgetVisualization::VisType UiWidgetVisualizationVisType
+ENUM UiWidgetVisualization::WidgetScale UiWidgetScale
 ENUM UnitCondition::Op[0] UnitConditionOperator
 ENUM UnitCondition::Op[1] UnitConditionOperator
 ENUM UnitCondition::Op[2] UnitConditionOperator
@@ -91,6 +279,17 @@ ENUM UnitCondition::Op[4] UnitConditionOperator
 ENUM UnitCondition::Op[5] UnitConditionOperator
 ENUM UnitCondition::Op[6] UnitConditionOperator
 ENUM UnitCondition::Op[7] UnitConditionOperator
+ENUM UnitCondition::Variable[0] UnitConditionVariable
+ENUM UnitCondition::Variable[1] UnitConditionVariable
+ENUM UnitCondition::Variable[2] UnitConditionVariable
+ENUM UnitCondition::Variable[3] UnitConditionVariable
+ENUM UnitCondition::Variable[4] UnitConditionVariable
+ENUM UnitCondition::Variable[5] UnitConditionVariable
+ENUM UnitCondition::Variable[6] UnitConditionVariable
+ENUM UnitCondition::Variable[7] UnitConditionVariable
+ENUM WaypointNode::Type WayPointNodeType
+ENUM WeaponSwingSounds2::SwingType WeaponSwingType
+ENUM Weather::Type WeatherType
 FLAGS Achievement::Flags AchievementFlags
 FLAGS AnimationData::Flags[0] AnimationDataFlags
 FLAGS AnimKitConfig::ConfigFlags AnimKitConfigFlags
