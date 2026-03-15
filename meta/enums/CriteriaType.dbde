@@ -220,16 +220,28 @@
 219 Buy items from vendors // No FK
 220 Sell items to vendors // No FK
 221 Reach Max Level
-222 Memorize Spell "{Spell}" // FK todo
+222 Memorize Spell "{Spell}"
 223 Learn Transmog Illusion
 224 Learn Any Transmog Illusion
 225 Enter Top Level Map Area "{AreaTable}" // areatable::ID
-226 Leave Top Level Map Area "{AreaTable}" // FK todo
+226 Leave Top Level Map Area "{AreaTable}"
 227 Socket Garrison Talent {GarrTalent}
 228 Socket Any Soulbind Conduit // No FK
 229 Obtain Any Item With Currency Value "{CurrencyTypes}" // No FK
 230 (Player) Mythic+ Rating "{#DungeonScore}" attained
 231 (Player) spent talent point
+234 {DisplaySeason}
+239 Mythic Plus Display Season Ended
+240 Participate In Rated Solo Shuffle Round
+243 Gain reputation amount with {FactionID}; accumulate, not highest
+246 {CraftingOrderType}
+249 Perks Program Month Complete
+250 Complete Tracking Quest
 251 Faction related (unk) // Faction::ID
+253 Gain Levels
+257 Complete Quests Count On Account
 258 Area table related (unk) // AreaTable::ID
 259 Quest sort related (unk) // QuestSort::ID
+260 Warband Bank Tab Purchased
+261 Reach Renown Level
+262 Learn Taxi node

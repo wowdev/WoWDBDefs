@@ -324,25 +324,59 @@
 323 PLAYER_HAS_CUSTOMIZATION_CHOICE // Player has Customization Choice "{ChrCustomizationChoice}"
 324 PLAYER_HAS_WEEKLY_PVPTIER_WIN // Player has best weekly win in PVP tier {PvpTier}
 325 PLAYER_HAS_WEEKLY_PVPTIER_WIN_EQ_OR_HIGHER // Player has best weekly win at or above "{@PVP_TIER_ENUM}" for "{@PVP_BRACKET}"
-326 HAS_VANILLA_CE // Player has Vanilla Collector\'s Edition
-329 DISPLAY_SEASON_UNK // Display Season (unk)
-333 DISPLAY_SEASON_UNK2 // Display Season (unk2)
-340 TRAIT_NODE_ENTRY_UNK // Trait Node Entry (unk)
-341 TRAIT_NODE_ENTRY_UNK2 // Trait Node Entry (unk2)
-352 BATTLEPET_SPECIES_ID_UNK // Battlepet species ID (unk)
-355 TRAIT_NODE_ENTRY_UNK3 // Trait Node Entry (unk3)
-356 TRAIT_NODE_ENTRY_UNK4 // Trait Node Entry (unk4)
-358 ITEM_MODIFIED_APPEARANCE_UNK // Item modified appearance (unk)
-360 ITEM_BONUS_LIST_GROUP_ENTRY_UNK // Item bonus list group entry (unk)
-365 SKILL_LINE_ABILITY_OR_MOD_CRAFT_SLOT_UNK // Skill line ability or mod craft slot (unk)
-366 DUNGEON_ENCOUNTER_UNK // Dungeon encounter (unk)
-367 CURRENCY_TYPES_UNK // Currency types (unk)
-368 SKILL_LINE_ABILITY_UNK // Skill line ability (unk)
-370 QUEST_LABEL_UNK // Quest label (unk)
-371 SCENARIO_STEP_UNK // Scenario step (unk)
-378 PLAYER_DATA_FLAG_ACCOUNT_UNK // Player data flag account (unk)
-379 PLAYER_DATA_FLAG_CHARACTER_UNK // Player data flag character (unk)
-382 QUEST_UNK // Quest (unk)
-383 QUEST_UNK2 // Quest (unk2)
-384 QUEST_UNK3 // Quest (unk3)
-389 CREATURE_CLASSIFICATION_UNK // Creature::Classification (unk)
+326 PLAYER_HAS_VANILLA_CE // Player has Vanilla Collector\'s Edition
+327 PLAYER_HAS_ITEM_WITH_KEYSTONE_LEVEL_MODIFIER_EQ_OR_HIGHER
+329 PLAYER_MYTHIC_PLUS_RATING_IN_DISPLAY_SEASON_EQ_OR_HIGHER // Player has Mythic+ Rating of at least "{#DungeonScore}" in {DisplaySeason}
+333 PLAYER_MYTHIN_PLUS_LADDER_RATING_IN_DISPLAY_SEASON_EQ_OR_HIGHER // Player has Mythic+ Ladder Rating of at least "{#DungeonScore}" in {DisplaySeason}
+334 MYTHIC_PLUS_RATING_IS_IN_TOP_01_PERCENT // Is top 0.1% rating
+335 PLAYER_AURA_WITH_LABEL_STACK_COUNT_EQ_OR_HIGHER // Player has at least {#Stacks} stacks of aura "{Label}"
+336 PLAYER_AURA_WITH_LABEL_STACK_COUNT_EQ // Target has exactly {#Stacks} stacks of aura with label "{Label}"
+337 PLAYER_AURA_WITH_LABEL_STACK_COUNT_EQ_OR_LESS // Player has at most {#Stacks} stacks of aura "{Label}"
+338 PLAYER_IS_IN_CROSS_FACTION_GROUP // Player is in a cross faction group
+340 PLAYER_HAS_TRAIT_NODE_ENTRY_IN_ACTIVE_CONFIG // Player has {TraitNodeEntry} node in currently active config
+341 PLAYER_HAS_TRAIT_NODE_ENTRY_IN_ACTIVE_CONFIG_RANK_EQ_OR_HIGHER // Player has at least {#Rank} for {TraitNodeEntry} node in currently active config
+342 PLAYER_HAS_PURCHASED_COMBAT_TRAIT_RANKS // Player has purchased at least {#Count} talent points in active combat config
+343 PLAYER_HAS_PURCHASED_TRAIT_RANKS_IN_TRAIT_TREE // Player has purchased at least {#Count} ranks in {#TraitTree}
+344 PLAYER_DAYS_SINCE_LOGOUT
+347 CRAFTING_ORDER_SKILL_LINE_ABILITY
+348 CRAFTING_ORDER_PROFESSION
+350 PLAYER_HAS_PERKS_PROGRAM_PENDING_REWARD
+351 PLAYER_CAN_USE_ITEM // Player can use item {#Item}
+352 PLAYER_SUMMONED_BATTLE_PET_SPECIES // Battlepet species ID (unk)
+353 PLAYER_SUMMONED_BATTLE_PET_IS_MAX_LEVEL
+355 PLAYER_HAS_AT_LEAST_PROF_PATH_RANKS // Player has purchased or granted at least {#Count} ranks in {SkillLine} config
+356 PLAYER_HAS_AT_LEAST_MISSING_PROF_PATH_RANKS // Player is missing least {#Count} ranks in {SkillLine} config
+358 PLAYER_HAS_ITEM_TRANSMOGRIFIED_TO_ITEM_MODIFIED_APPEARANCE // Player has item with {ItemModifiedAppearance} transmog
+359 ITEM_HAS_BONUS_LIST // Item has {ItemBonusList} (used by ItemCondition)
+360 ITEM_HAS_BONUS_LIST_FROM_GROUP // Item has a bonus list from {ItemBonusListGroup} (used by ItemCondition)
+361 ITEM_HAS_CONTEXT // Item has {ItemContext}
+362 ITEM_HAS_ITEM_LEVEL_BETWEEN // Item has item level between {#Min} and {#Max}
+363 ITEM_HAS_CONTENT_TUNING_ID // Item has {ContentTuning} (modifier 28)
+364 ITEM_HAS_INVENTORY_TYPE // Item has inventory type
+365 ITEM_WAS_CRAFTED_WITH_REAGENT_IN_SLOT // Item was crafted with reagent item {Item} in slot {ModifiedCraftingReagentSlot}
+366 PLAYER_HAS_COMPLETED_DUNGEON_ENCOUNTER_IN_DIFFICULTY // Player has completed {DungeonEncounter} on {Difficulty}
+367 PLAYER_CURRENCY_IS_REL_OP_FROM_MAX // Player {CurrencyTypes} is {RelOp} {#Amount} from currency limit
+368 ITEM_HAS_MODIFIED_CRAFTING_REAGENT_SLOT // Item has {ModifiedCraftingReagentSlot}
+369 PLAYER_IS_BETWEEN_QUESTS // Player has previously completed quest or is on "{QuestV2}" but not "{QuestV2}" (SecondaryAsset)
+370 PLAYER_IS_ON_QUEST_WITH_LABEL // Player is on quest with {QuestLabel}
+371 PLAYER_SCENARIO_STEP_ID // Player is on scenario step number {ScenarioStep}
+373 LEGACY_LOOT_ENABLED
+374 PLAYER_Z_POSITION_BELOW
+375 PLAYER_WEAPON_HIGH_WATERMARK_EQ_OR_HIGHER
+376 PLAYER_HEAD_HIGH_WATERMARK_EQ_OR_HIGHER
+377 PLAYER_HAS_DISPLAYED_CURRENCY_LESS_THAN // Player has {CurrencyTypes} less than {#Amount} (value visible in ui is taken into account, not raw value)
+378 PLAYER_DATA_FLAG_ACCOUNT_IS_SET // Player {PlayerDataFlagAccount} is set
+379 PLAYER_DATA_FLAG_CHARACTER_IS_SET // Player {PlayerDataFlagCharacter} is set
+380 PLAYER_IS_ON_MAP_WITH_EXPANSION // Player is on map that has {ExpansionID}
+382 PLAYER_HAS_COMPLETED_QUEST_ON_ACCOUNT // Player has previously completed quest "{QuestV2}" on account
+383 PLAYER_HAS_COMPLETED_QUESTLINE_ON_ACCOUNT // Player has completed questline "{Questline}" on account
+384 PLAYER_HAS_COMPLETED_QUESTLINE_QUEST_COUNT_ON_ACCOUNT // Player has completed "{#Quests}" quests in questline "{Questline}" on account
+385 PLAYER_HAS_ACTIVE_TRAIT_SUB_TREE // Player has active trait config with {TraitSubTree}
+387 PLAYER_IS_IN_SOLO_RGB // Player is in solo RBG (BG Blitz)
+388 PLAYER_HAS_COMPLETED_CAMPAIGN // Player has completed campaign "{Campaign}"
+389 TARGET_CREATURE_CLASSIFICATION_EQ // Creature classification is {CreatureClassification}
+390 PLAYER_DATA_ELEMENT_CHARACTER_EQ // Player {PlayerDataElementCharacter} is greater than {#Amount}
+391 PLAYER_DATA_ELEMENT_ACCOUNT_EQ // Player {PlayerDataElementAccount} is greater than {#Amount}
+392 PLAYER_HAS_COMPLETED_QUEST_OR_IS_READY_TO_TURN_IN // Player has previously completed quest "{QuestV2}" or is ready to turn it in
+393 PLAYER_TITLE // Player is currently using "{ChrTitles}" title
+404 PLAYER_IS_IN_GUILD // Player is in a guild

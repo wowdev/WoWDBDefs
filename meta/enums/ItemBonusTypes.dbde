@@ -18,14 +18,32 @@
 17 SecondaryRelicPowerLabel
 18 SetRequiredLevel // Set Required Level to {#Required Level}
 19 AzeriteTierUnlockSetID
+20 Scrapping Loot ID
 21 CanDisenchant
 22 CanScrap
 23 ItemEffectID
 25 ModifiedCraftingStat
 27 RequiredLevelCurve
+28 Icon FileDataID
 30 ItemDescription
-31 LegendaryName
+31 ItemNameDescriptionID
+33 UpgradeSequenceValue
 34 ItemBonusListGroupID
 35 ItemLimitCategoryID
+36 PvP Item Level Increment
 37 ItemConversionID
+38 Item History Slot
+39 Override Can Salvage
+41 Override Can Recraft
 42 BaseItemLevel
+43 PvP Item Level
+44 Cosmetic Stat
+45 Override Description Color
+46 Override Cannot Trade BoP
+47 Bonding With Priority
+48 Item Offset Curve
+49 Scaling Config and Req Level
+50 Apply Bonus
+51 Scaling Config
+52 Crafting Quality
+53 Midnight Item Level

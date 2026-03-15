@@ -84,3 +84,9 @@
 83 Is dying? {$Yes/No}{=1}
 84 Path fail count {$Relative Op} {#Path Fail Count} // 'PATH_FAIL_COUNT'
 86 Label {$Is/Is Not} "{Label}" // 'HAS_LABEL
+90 Sex {$Is/Is Not} "{UnitSex}" // SEX
+91 Level is within {$Is/Is Not} {ContentTuning} // LEVEL_WITHIN_CONTENT_TUNING
+93 Is flying? ${Yes/No}{=1} // IS_FLYING
+94 Is hovering? ${Yes/No}{=1} // IS_HOVERING
+95 Has helpful aura effect? ${Yes/No} "{#Spell Aura} // HAS_HELPFUL_AURA_EFFECT
+96 Has helpful aura school? ${Yes/No} "{Resistances}" // HAS_HELPFUL_AURA_SCHOOL

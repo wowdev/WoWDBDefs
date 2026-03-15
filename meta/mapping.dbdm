@@ -35,6 +35,8 @@ COLOR LightShaft::Color
 COLOR LiquidType::MinimapStaticCol
 COLOR Weather::OverrideColor
 ENUM AlliedRace::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM AreaTrigger::ShapeType ShapeType
+ENUM AreaTriggerCreateProperties::ShapeType ShapeType
 ENUM AzeriteTierUnlock::Tier AzeriteTierID
 ENUM BarberShopStyle::Race ChrRaceID // Not a real enum, but for ease
 ENUM BattlePetAbility::PetTypeEnum BattlePetTypes
@@ -83,6 +85,7 @@ ENUM ChrModelMaterial::Flags ChrModelMaterialSkinType
 ENUM ChrModelMaterial::TextureType TextureType
 ENUM ChrModelTextureLayer::BlendMode ChrModelTextureLayerBlendMode
 ENUM ChrModelTextureLayer::ChrModelTextureTargetID[0] ChrModelTextureTarget
+ENUM ChrModelTextureLayer::ChrModelTextureTargetID[1] ChrModelTextureTarget
 ENUM ChrModelTextureLayer::TextureType TextureType
 ENUM ChrRaceRacialAbility::ChrRacesID ChrRaceID // Not a real enum, but for ease
 ENUM ChrRaces::NeutralRaceID ChrRaceID // Not a real enum, but for ease
@@ -90,8 +93,12 @@ ENUM ChrRaces::PlayableRaceBit ChrRacesPlayableRaceBit
 ENUM ChrRaces::UnalteredVisualRaceID ChrRaceID // Not a real enum, but for ease
 ENUM ChrRaceXChrModel::ChrModelID ChrModelID // Not a real enum, but for ease
 ENUM ChrRaceXChrModel::ChrRacesID ChrRaceID // Not a real enum, but for ease
+ENUM ChrSpecialization::Role ChrSpecializationRole
+ENUM ContentRestrictionRule::ExpansionID ExpansionLevels
 ENUM ContentRestrictionRule::RuleType ContentRestrictionRuleTypes
+ENUM ContentTuning::ExpansionID ExpansionLevels
 ENUM CraftingData::Type CraftingDataType
+ENUM CreatureDifficulty::ExpansionID ExpansionLevels
 ENUM CreatureDisplayInfoExtra::DisplayRaceID ChrRaceID // Not a real enum, but for ease
 ENUM Criteria::Fail_event CriteriaFailEvent
 ENUM Criteria::Start_event CriteriaStartEvent
@@ -99,6 +106,8 @@ ENUM Criteria::Type CriteriaType
 ENUM CriteriaTree::Operator CriteriaTreeOperator
 ENUM Curve::Type CurveType
 ENUM Difficulty::InstanceType MapTypes
+ENUM DisplaySeason::ExpansionID ExpansionLevels
+ENUM DisplaySeason::ExpansionID ExpansionLevels
 ENUM Emotes::EmoteSpecProc EmoteSpecProc
 ENUM EmotesTextSound::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM EnumeratedString::EnumID EnumNames // so meta
@@ -122,7 +131,9 @@ ENUM GarrTalentCost::CostType GarrTalentCostType
 ENUM GarrTalentSocketProperties::GarrTalentSocketType GarrTalentSocketType
 ENUM GarrTalentTree::FeatureSubtypeIndex GarrTalentTreeFeatureSubtypeIndex
 ENUM GarrTalentTree::FeatureTypeIndex GarrTalentTreeFeatureTypeIndex
+ENUM GarrType::ExpansionID ExpansionLevels
 ENUM GlobalCurve::Type GlobalCurveType
+ENUM GlobalGameContentTuning::ExpansionID ExpansionLevels
 ENUM GlobalTable_PlayerCondition::What GlobalTablePlayerConditionWhat
 ENUM GlueScreenEmote::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM GroupFinderActivity::DisplayType GroupFinderActivityDisplayType
@@ -160,11 +171,14 @@ ENUM ItemBonus::Value[0] ItemBonding ItemBonus::Type=16
 ENUM ItemBonus::Value[0] ItemStatType ItemBonus::Type=25
 ENUM ItemBonus::Value[1] SocketColor ItemBonus::Type=6
 ENUM ItemBonusTreeNode::ItemContext ItemContext
+ENUM ItemDisenchantLoot::ExpansionID ExpansionLevels
 ENUM ItemDisplayInfoMaterialRes::ComponentSection ComponentSection
 ENUM ItemDisplayInfoModelMatRes::TextureType TextureType
 ENUM ItemEffect::TriggerType ItemEffectTriggerType
 ENUM ItemModifiedAppearance::TransmogSourceTypeEnum TransmogSourceType
+ENUM ItemSearchName::ExpansionID ExpansionLevels
 ENUM ItemSparse::Bonding ItemBonding
+ENUM ItemSparse::ExpansionID ExpansionLevels
 ENUM ItemSparse::InventoryType InventoryType
 ENUM ItemSparse::OverallQualityID ItemQuality
 ENUM ItemSparse::SocketType[0] SocketColor
@@ -180,6 +194,9 @@ ENUM ItemSparse::StatModifier_bonusStat[6] ItemStatType
 ENUM ItemSparse::StatModifier_bonusStat[7] ItemStatType
 ENUM ItemSparse::StatModifier_bonusStat[8] ItemStatType
 ENUM ItemSparse::StatModifier_bonusStat[9] ItemStatType
+ENUM JournalEncounterItem::DifficultyMask JournalEncounterItemDifficulty // mask? is this flags?
+ENUM JournalEncounterItem::FactionMask JournalEncounterItemFactionType // mask? is this flags?
+ENUM JournalEncounterSection::Type JournalEncounterSectionType
 ENUM LFGDungeons::Subtype LFGSubType
 ENUM LFGDungeons::TypeID LFGType
 ENUM LiquidTypeXTexture::Type LiquidTypeTextureType
@@ -194,9 +211,12 @@ ENUM ModifierTree::Type CriteriaAdditionalCondition
 ENUM NameGen::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM NPCModelItemSlotDisplayInfo::ItemSlot ItemSlot
 ENUM ObjectEffectPackageElem::StateType ObjectEffectPackageStateType
+ENUM PathProperty::PropertyIndex PathProperty
 ENUM PlayerCondition::MinReputation[0] ReputationLevels
+ENUM PlayerInteractionInfo::Type PlayerInteractionType
 ENUM PowerType::PowerTypeEnum PowerType
 ENUM Profession::ProfessionEnumValue ProfessionEnumValue
+ENUM ProfessionExpansion::ExpansionID ExpansionLevels
 ENUM QuestInfo::Type QuestTagType
 ENUM QuestObjective::Type QuestObjectiveType
 ENUM RelicTalent::Type RelicTalentType
@@ -258,6 +278,8 @@ ENUM TraitEdge::Type TraitEdgeType
 ENUM TraitEdge::VisualStyle TraitEdgeVisualStyle
 ENUM TraitNode::Type TraitNodeType
 ENUM TraitNodeEntry::NodeEntryType TraitNodeEntryType
+ENUM TransmogDefaultLevel::ExpansionID ExpansionLevels
+ENUM TransmogSet::ExpansionID ExpansionLevels
 ENUM UiCamFbackTransmogChrRace::ChrRaceID ChrRaceID // Not a real enum, but for ease
 ENUM UIEventToast::DisplayType EventToastDisplayType
 ENUM UIEventToast::EventType EventToastEventType
