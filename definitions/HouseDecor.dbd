@@ -12,7 +12,7 @@ int ModelType?
 int<FileData::ID> ThumbnailFileDataID?
 int WeightCost?
 float InitialScale?
-int Field_12_0_0_63534_013?
+int FirstTimeAcquisitionXP?
 int OrderIndex?
 int Field_12_0_0_63534_015?
 int StartingQuantity?
@@ -43,7 +43,7 @@ ThumbnailFileDataID<32>
 WeightCost<32>
 ItemID<32>
 InitialScale
-Field_12_0_0_63534_013<32>
+FirstTimeAcquisitionXP<32>
 OrderIndex<32>
 Field_12_0_0_63534_015<8>
 StartingQuantity<32>
@@ -67,7 +67,7 @@ ThumbnailFileDataID<32>
 WeightCost<32>
 ItemID<32>
 InitialScale
-Field_12_0_0_63534_013<32>
+FirstTimeAcquisitionXP<32>
 OrderIndex<32>
 Field_12_0_0_63534_015<8>
 StartingQuantity<32>

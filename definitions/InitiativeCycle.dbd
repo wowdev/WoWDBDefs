@@ -4,7 +4,7 @@ int Field_12_0_0_63534_001?
 int Field_12_0_0_63534_002?
 int Field_12_0_0_63534_003?
 int HouseXPCap?
-int Field_12_0_0_63534_005?
+int<InitiativeCycle::ID> NextCycleID? // Complete guesswork
 
 LAYOUT DFE6371A
 BUILD 12.0.5.66330, 12.0.5.66407
@@ -15,4 +15,4 @@ Field_12_0_0_63534_001<32>
 Field_12_0_0_63534_002<32>
 Field_12_0_0_63534_003<32>
 HouseXPCap<32>
-Field_12_0_0_63534_005<32>
+NextCycleID<32>
