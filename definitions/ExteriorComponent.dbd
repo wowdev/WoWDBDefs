@@ -12,6 +12,20 @@ int Field_12_0_0_63534_009?
 int<GameObjects::ID> GameObjectID?
 int<HouseExteriorWmoData::ID> HouseExteriorWmoDataID?
 int Field_11_2_7_64044_011?
+locstring Field_12_0_5_66529_000_lang?
+float Field_12_0_5_66529_001?
+int Field_12_0_5_66529_002?
+int Field_12_0_5_66529_003?
+int Field_12_0_5_66529_004?
+int Field_12_0_5_66529_005?
+int Field_12_0_5_66529_006?
+int Field_12_0_5_66529_007?
+int Field_12_0_5_66529_008?
+int Field_12_0_5_66529_009?
+int Field_12_0_5_66529_010?
+int Field_12_0_5_66529_011?
+int Field_12_0_5_66529_012?
+int Field_12_0_5_66529_013?
 
 LAYOUT 21BF81E6
 BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728, 12.0.0.63854, 12.0.0.63967
@@ -48,3 +62,20 @@ Field_12_0_0_63534_009<32>
 GameObjectID<32>
 Field_11_2_7_64044_011<32>
 $noninline,relation$HouseExteriorWmoDataID<32>
+
+LAYOUT 53EA0925
+BUILD 12.0.5.66529
+Field_12_0_5_66529_000_lang
+Field_12_0_5_66529_001[3]
+$id$Field_12_0_5_66529_002<32>
+Field_12_0_5_66529_003<u8>
+Field_12_0_5_66529_004<32>
+Field_12_0_5_66529_005<32>
+Field_12_0_5_66529_006<32>
+Field_12_0_5_66529_007<u8>
+Field_12_0_5_66529_008<u8>
+Field_12_0_5_66529_009<32>
+Field_12_0_5_66529_010<32>
+Field_12_0_5_66529_011<32>
+Field_12_0_5_66529_012<32>
+$noninline,relation$Field_12_0_5_66529_013<32>
