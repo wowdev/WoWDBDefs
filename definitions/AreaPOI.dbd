@@ -23,7 +23,7 @@ int<UiTextureKit::ID> UiTextureKitID
 int Field_9_1_0_38783_011?
 int Field_9_1_0_38783_017?
 int Field_10_0_0_45141_012?
-int Field_12_0_5_66529_006?
+int<PlayerCondition::ID> Field_12_0_5_66529_006? // Same values as PlayerConditionID in 12.0.5.66529
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.5.5.3494

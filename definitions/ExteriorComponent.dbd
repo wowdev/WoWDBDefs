@@ -12,7 +12,7 @@ int Field_12_0_0_63534_009?
 int<GameObjects::ID> GameObjectID?
 int<HouseExteriorWmoData::ID> HouseExteriorWmoDataID?
 int Field_11_2_7_64044_011?
-int Field_12_0_5_66529_012?
+int ItemID?
 
 LAYOUT 21BF81E6
 BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728, 12.0.0.63854, 12.0.0.63967
@@ -64,5 +64,5 @@ Type<u8>
 Field_12_0_0_63534_009<32>
 GameObjectID<32>
 Field_11_2_7_64044_011<32>
-Field_12_0_5_66529_012<32>
+ItemID<32>
 $noninline,relation$HouseExteriorWmoDataID<32>
