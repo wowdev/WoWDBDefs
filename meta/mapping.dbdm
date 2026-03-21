@@ -279,6 +279,10 @@ ENUM TraitEdge::VisualStyle TraitEdgeVisualStyle
 ENUM TraitNode::Type TraitNodeType
 ENUM TraitNodeEntry::NodeEntryType TraitNodeEntryType
 ENUM TransmogDefaultLevel::ExpansionID ExpansionLevels
+ENUM TransmogOutfitEntry::Source TransmogOutfitEntrySource
+ENUM TransmogOutfitEntry::SetType TransmogOutfitSetType
+ENUM TransmogOutfitSlotInfo::TransmogOutfitSlotEnum TransmogOutfitSlot
+ENUM TransmogOutfitSlotOption::OptionEnum TransmogOutfitSlotOption
 ENUM TransmogSet::ExpansionID ExpansionLevels
 ENUM UiCamFbackTransmogChrRace::ChrRaceID ChrRaceID // Not a real enum, but for ease
 ENUM UIEventToast::DisplayType EventToastDisplayType
@@ -508,6 +512,9 @@ FLAGS TraitNode::Flags TraitNodeFlags
 FLAGS TraitNodeGroup::Flags TraitNodeGroupFlags
 FLAGS TraitTree::Flags TraitTreeFlags
 FLAGS TransmogIllusion::Flags TransmogIllusionFlags
+FLAGS TransmogOutfitEntry::Flags TransmogOutfitEntryFlags
+FLAGS TransmogOutfitSlotInfo::Flags TransmogOutfitSlotFlags
+FLAGS TransmogOutfitSlotOption::Flags TransmogOutfitSlotOptionFlags
 FLAGS TransmogSet::Flags TransmogSetFlags
 FLAGS TransmogSetItem::Flags TransmogSetItemFlags
 FLAGS UiMap::Flags UIMapFlags
