@@ -430,6 +430,7 @@ FLAGS Material::Flags MaterialFlags
 FLAGS ModifiedCraftingReagentItem::Flags OptionalReagentItemFlags
 FLAGS Mount::Flags MountFlags
 FLAGS MountCapability::Flags MountCapabilityFlags
+FLAGS NeighborhoodInitiative::Flags NeighborhoodInitiativeFlags
 FLAGS Phase::Flags PhaseFlags
 FLAGS PlayerCondition::ClassMask ClassMask
 FLAGS PlayerCondition::Flags PlayerConditionFlags
