@@ -11,8 +11,6 @@ int ClassMask
 int RaceMask
 int<AnimationData::ID> EmoteAnimID
 int RaceMasks?
-int Field_5_5_4_67090_007? //  DBAnalyser: [RaceMask, 1%], [ClassMask, 1%]
-int Field_5_5_4_67090_008? //  DBAnalyser: [RaceMask, 1%], [ClassMask, 1%]
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -67,8 +65,8 @@ EmoteSpecProc<32>
 EmoteSpecProcParam<u32>
 EventSoundID<u32>
 SpellVisualKitID<u32>
-Field_5_5_4_67090_007<32>
-Field_5_5_4_67090_008<32>[2]
+ClassMask<32>
+RaceMasks<32>[2]
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

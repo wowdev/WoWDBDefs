@@ -17,20 +17,10 @@ int<Faction::ID> ParagonFactionID
 int ReputationMax
 int<Faction::ID> RenownFactionID?
 int<CurrencyTypes::ID> RenownCurrencyID?
-int Field_3_4_1_46722_008?
-int Field_3_4_1_46722_009?
-int Field_3_4_1_46722_010?
-int Field_3_4_1_46722_011?
-int Field_12_0_5_66330_017?
-int Field_12_0_5_66330_018?
-int Field_12_0_5_66330_019?
-int Field_12_0_5_66330_020?
-int Field_5_5_4_67090_008? //  DBAnalyser: [Field_3_4_1_46722_009, 0,95%], [Field_3_4_1_46722_010, 0,95%], [Field_3_4_1_46722_011, 0,95%], [ParagonFactionID, 0,95%]
-int Field_5_5_4_67090_009? //  DBAnalyser: [Field_3_4_1_46722_009, 0,95%], [Field_3_4_1_46722_010, 0,95%], [Field_3_4_1_46722_011, 0,95%], [ParagonFactionID, 0,95%]
-int Field_5_5_4_67090_010? //  DBAnalyser: [Field_3_4_1_46722_009, 0,95%], [Field_3_4_1_46722_010, 0,95%], [Field_3_4_1_46722_011, 0,95%], [ParagonFactionID, 0,95%]
-int Field_5_5_4_67090_018?
-int Field_5_5_4_67090_019?
-int Field_5_5_4_67090_020?
+int Field_12_0_5_66330_017? // These are split up racemasks, todo: figure out good names
+int Field_12_0_5_66330_018? // These are split up racemasks, todo: figure out good names
+int Field_12_0_5_66330_019? // These are split up racemasks, todo: figure out good names
+int Field_12_0_5_66330_020? // These are split up racemasks, todo: figure out good names
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -153,10 +143,10 @@ ReputationIndex<16>
 ParentFactionID<u16>
 Expansion<u8>
 FriendshipRepID<u8>
-Field_3_4_1_46722_008<32>
-Field_3_4_1_46722_009<u16>
-Field_3_4_1_46722_010<32>
-Field_3_4_1_46722_011<32>
+Flags<32>
+ParagonFactionID<u16>
+RenownFactionID<32>
+RenownCurrencyID<32>
 ReputationClassMask<16>[4]
 ReputationFlags<u16>[4]
 ReputationBase<32>[4]
@@ -220,10 +210,10 @@ ReputationIndex<16>
 ParentFactionID<u16>
 Expansion<u8>
 FriendshipRepID<u8>
-Field_3_4_1_46722_008<32>
-Field_3_4_1_46722_009<u16>
-Field_3_4_1_46722_010<32>
-Field_3_4_1_46722_011<32>
+Flags<32>
+ParagonFactionID<u16>
+RenownFactionID<32>
+RenownCurrencyID<32>
 ReputationClassMask<16>[4]
 ReputationFlags<u16>[4]
 ReputationBase<32>[4]
@@ -240,10 +230,10 @@ ReputationIndex<16>
 ParentFactionID<u16>
 Expansion<u8>
 FriendshipRepID<u8>
-Field_3_4_1_46722_008<32>
-Field_5_5_4_67090_008<u16>
-Field_5_5_4_67090_009<32>
-Field_5_5_4_67090_010<32>
+Flags<32>
+ParagonFactionID<u16>
+RenownFactionID<32>
+RenownCurrencyID<32>
 ReputationClassMask<16>[4]
 ReputationFlags<u16>[4]
 ReputationBase<32>[4]
@@ -251,9 +241,9 @@ ReputationMax<32>[4]
 ParentFactionMod[2]
 ParentFactionCap<u8>[2]
 ReputationRaceMask<32>[2]
-Field_5_5_4_67090_018<32>[2]
-Field_5_5_4_67090_019<32>[2]
-Field_5_5_4_67090_020<32>[2]
+Field_12_0_5_66330_018<32>[2]
+Field_12_0_5_66330_019<32>[2]
+Field_12_0_5_66330_020<32>[2]
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414

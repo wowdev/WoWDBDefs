@@ -40,69 +40,18 @@ int MaxPremadeGroupSize?
 int Max_premade_count_tank?
 int Max_premade_count_healer?
 int Max_premade_count_damage?
-int Field_1_15_7_59706_005?
-int Field_1_15_7_59706_007?
-int Field_1_15_7_59706_008?
-int Field_1_15_7_59706_009?
-int Field_1_15_7_59706_010?
-int Field_1_15_7_59706_011?
-int Field_1_15_7_59706_012?
-int Field_1_15_7_59706_014?
-int Field_1_15_7_59706_015?
-int Field_1_15_7_59706_016?
 int Field_1_15_7_59706_017?
 int Field_1_15_7_59706_018?
 int Field_1_15_7_59706_019?
-int Field_1_15_7_59706_020?
-int Field_1_15_7_59706_021?
-int Field_1_15_7_59706_022?
-int Field_1_15_7_59706_023?
-int Field_1_15_7_59706_024?
-int Field_1_15_7_59706_025?
-int Field_1_15_7_59706_026?
-int Field_1_15_7_59706_027?
-int Field_1_15_7_59706_028?
-int Field_1_15_7_59706_029?
-int Field_1_15_7_59706_030?
-int Field_1_15_7_59706_031?
-int Field_1_15_7_59706_032?
 int Field_1_15_7_59706_033?
 int Field_1_15_7_59706_034?
-int Field_1_15_8_63829_005?
-int Field_1_15_8_63829_007?
-int Field_1_15_8_63829_008?
-int Field_1_15_8_63829_009?
-int Field_1_15_8_63829_010?
-int Field_1_15_8_63829_011?
-int Field_1_15_8_63829_012?
-int Field_1_15_8_63829_014?
-int Field_1_15_8_63829_015?
-int Field_1_15_8_63829_016?
 int Field_1_15_8_63829_017?
 int Field_1_15_8_63829_018?
 int Field_1_15_8_63829_019?
-int Field_1_15_8_63829_020?
-int Field_1_15_8_63829_021?
-int Field_1_15_8_63829_022?
-int Field_1_15_8_63829_023?
-int Field_1_15_8_63829_024?
-int Field_1_15_8_63829_025?
-int Field_1_15_8_63829_026?
-int Field_1_15_8_63829_027?
-int Field_1_15_8_63829_028?
-int Field_1_15_8_63829_029?
-int Field_1_15_8_63829_030?
-int Field_1_15_8_63829_031?
-int Field_1_15_8_63829_032?
 int Field_1_15_8_63829_033?
 int Field_1_15_8_63829_034?
-int Field_1_15_8_63829_035?
-int Field_5_5_4_67090_029? //  DBAnalyser: [Field_1_15_8_63829_029, 0,95%], [Field_1_15_8_63829_030, 0,95%], [Field_1_15_8_63829_031, 0,95%], [Field_1_15_8_63829_033, 0,95%], [Field_1_15_8_63829_034, 0,95%], [MentorItemLevel, 0,95%], [MentorCharLevel, 0,95%]
-int Field_5_5_4_67090_030? //  DBAnalyser: [Field_1_15_8_63829_029, 0,95%], [Field_1_15_8_63829_030, 0,95%], [Field_1_15_8_63829_031, 0,95%], [Field_1_15_8_63829_033, 0,95%], [Field_1_15_8_63829_034, 0,95%], [MentorItemLevel, 0,95%], [MentorCharLevel, 0,95%]
-int Field_5_5_4_67090_031? //  DBAnalyser: [Field_1_15_8_63829_029, 0,95%], [Field_1_15_8_63829_030, 0,95%], [Field_1_15_8_63829_031, 0,95%], [Field_1_15_8_63829_033, 0,95%], [Field_1_15_8_63829_034, 0,95%], [MentorItemLevel, 0,95%], [MentorCharLevel, 0,95%]
-int Field_5_5_4_67090_032? //  DBAnalyser: [Field_1_15_8_63829_032, 1%], [Bonus_reputation_amount, 1%]
-int Field_5_5_4_67090_033? //  DBAnalyser: [Field_1_15_8_63829_029, 0,95%], [Field_1_15_8_63829_030, 0,95%], [Field_1_15_8_63829_031, 0,95%], [Field_1_15_8_63829_033, 0,95%], [Field_1_15_8_63829_034, 0,95%], [MentorItemLevel, 0,95%], [MentorCharLevel, 0,95%]
-int Field_5_5_4_67090_034? //  DBAnalyser: [Field_1_15_8_63829_029, 0,95%], [Field_1_15_8_63829_030, 0,95%], [Field_1_15_8_63829_031, 0,95%], [Field_1_15_8_63829_033, 0,95%], [Field_1_15_8_63829_034, 0,95%], [MentorItemLevel, 0,95%], [MentorCharLevel, 0,95%]
+int Field_5_5_4_67090_033?
+int Field_5_5_4_67090_034?
 
 BUILD 2.0.0.5610-2.0.0.5991
 BUILD 1.9.0.4937-1.12.3.6141
@@ -471,34 +420,34 @@ Description_lang
 MinLevel<u8>
 MaxLevel<u16>
 TypeID<u8>
-Field_1_15_7_59706_005<u8>
+Subtype<u8>
 Faction<8>
-Field_1_15_7_59706_007<32>
-Field_1_15_7_59706_008<32>
-Field_1_15_7_59706_009<32>
-Field_1_15_7_59706_010<u8>
-Field_1_15_7_59706_011<16>
-Field_1_15_7_59706_012<u8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
 MinGear
-Field_1_15_7_59706_014<u8>
-Field_1_15_7_59706_015<u8>
-Field_1_15_7_59706_016<u32>
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
 Field_1_15_7_59706_017<u8>
 Field_1_15_7_59706_018<u8>
 Field_1_15_7_59706_019<u16>
-Field_1_15_7_59706_020<u16>
-Field_1_15_7_59706_021<u16>
-Field_1_15_7_59706_022<u16>
-Field_1_15_7_59706_023<u8>
-Field_1_15_7_59706_024<u8>
-Field_1_15_7_59706_025<u8>
-Field_1_15_7_59706_026<u8>
-Field_1_15_7_59706_027<u8>
-Field_1_15_7_59706_028<u8>
-Field_1_15_7_59706_029<u8>
-Field_1_15_7_59706_030<u8>
-Field_1_15_7_59706_031<u8>
-Field_1_15_7_59706_032<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Max_premade_count_tank<u8>
+Max_premade_count_healer<u8>
+Max_premade_count_damage<u8>
+Bonus_reputation_amount<u16>
 Field_1_15_7_59706_033<u16>
 Field_1_15_7_59706_034<u8>
 Flags<32>[2]
@@ -515,37 +464,37 @@ Description_lang
 MinLevel<u8>
 MaxLevel<u16>
 TypeID<u8>
-Field_1_15_8_63829_005<u8>
+Subtype<u8>
 Faction<8>
-Field_1_15_8_63829_007<32>
-Field_1_15_8_63829_008<32>
-Field_1_15_8_63829_009<32>
-Field_1_15_8_63829_010<u8>
-Field_1_15_8_63829_011<16>
-Field_1_15_8_63829_012<u8>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<u8>
 MinGear
-Field_1_15_8_63829_014<u8>
-Field_1_15_8_63829_015<u8>
-Field_1_15_8_63829_016<u32>
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
 Field_1_15_8_63829_017<u8>
 Field_1_15_8_63829_018<u8>
 Field_1_15_8_63829_019<u16>
-Field_1_15_8_63829_020<u16>
-Field_1_15_8_63829_021<u16>
-Field_1_15_8_63829_022<u16>
-Field_1_15_8_63829_023<u8>
-Field_1_15_8_63829_024<u8>
-Field_1_15_8_63829_025<u8>
-Field_1_15_8_63829_026<u8>
-Field_1_15_8_63829_027<u8>
-Field_1_15_8_63829_028<u8>
-Field_1_15_8_63829_029<u8>
-Field_1_15_8_63829_030<u8>
-Field_1_15_8_63829_031<u8>
-Field_1_15_8_63829_032<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Max_premade_count_tank<u8>
+Max_premade_count_healer<u8>
+Max_premade_count_damage<u8>
+Bonus_reputation_amount<u16>
 Field_1_15_8_63829_033<u16>
 Field_1_15_8_63829_034<u8>
-Field_1_15_8_63829_035<32>[2]
+Flags<32>[2]
 
 LAYOUT C721FFAA
 BUILD 5.5.4.67090
@@ -555,37 +504,37 @@ Description_lang
 MinLevel<u8>
 MaxLevel<u16>
 TypeID<u8>
-Field_1_15_8_63829_005<u8>
+Subtype<u8>
 Faction<8>
-Field_1_15_8_63829_007<32>
-Field_1_15_8_63829_008<32>
-Field_1_15_8_63829_009<32>
-Field_1_15_8_63829_010<u8>
-Field_1_15_8_63829_011<16>
-Field_1_15_8_63829_012<16>
+IconTextureFileID<32>
+RewardsBgTextureFileID<32>
+PopupBgTextureFileID<32>
+ExpansionLevel<u8>
+MapID<16>
+DifficultyID<16>
 MinGear
-Field_1_15_8_63829_014<u8>
-Field_1_15_8_63829_015<u8>
-Field_1_15_8_63829_016<u32>
+Group_ID<u8>
+Order_index<u8>
+Required_player_condition_ID<u32>
 Field_1_15_8_63829_017<u8>
 Field_1_15_8_63829_018<u8>
 Field_1_15_8_63829_019<u16>
-Field_1_15_8_63829_020<u16>
-Field_1_15_8_63829_021<u16>
-Field_1_15_8_63829_022<u16>
-Field_1_15_8_63829_023<u8>
-Field_1_15_8_63829_024<u8>
-Field_1_15_8_63829_025<u8>
-Field_1_15_8_63829_026<u8>
-Field_1_15_8_63829_027<u8>
-Field_1_15_8_63829_028<u8>
-Field_5_5_4_67090_029<u8>
-Field_5_5_4_67090_030<u8>
-Field_5_5_4_67090_031<u8>
-Field_5_5_4_67090_032<u16>
+Random_ID<u16>
+ScenarioID<u16>
+FinalEncounterID<u16>
+Count_tank<u8>
+Count_healer<u8>
+Count_damage<u8>
+Min_count_tank<u8>
+Min_count_healer<u8>
+Min_count_damage<u8>
+Max_premade_count_tank<u8>
+Max_premade_count_healer<u8>
+Max_premade_count_damage<u8>
+Bonus_reputation_amount<u16>
 Field_5_5_4_67090_033<u16>
 Field_5_5_4_67090_034<u8>
-Field_1_15_8_63829_035<32>[2]
+Flags<32>[2]
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414

@@ -57,13 +57,6 @@ int MinimumSpellVisualDensityFilterType? // Type of visual adjustment used when 
 int<SpellVisualKit::ID> MinimumSpellVisualDensityFilterParam? // When
 int ReducedSpellVisualDensityFilterType? // Type of visual adjustment used when spellVisualDensityFilterSetting CVar is set to 2, determines what is stored in ReducedSpellVisualDensityFilterParam (1/2 unknown, 3 is SpellVisualKit)
 int<SpellVisualKit::ID> ReducedSpellVisualDensityFilterParam?
-int Field_5_5_4_67090_000? //  DBAnalyser: [FallbackSpellVisualKitID, 0,95%], [DelayMin, 0,95%], [DelayMax, 0,95%], [MinimumSpellVisualDensityFilterType, 0,95%], [MinimumSpellVisualDensityFilterParam, 0,95%], [ReducedSpellVisualDensityFilterType, 0,95%], [ReducedSpellVisualDensityFilterParam, 0,95%]
-int Field_5_5_4_67090_001? //  DBAnalyser: [FallbackSpellVisualKitID, 0,95%], [DelayMin, 0,95%], [DelayMax, 0,95%], [MinimumSpellVisualDensityFilterType, 0,95%], [MinimumSpellVisualDensityFilterParam, 0,95%], [ReducedSpellVisualDensityFilterType, 0,95%], [ReducedSpellVisualDensityFilterParam, 0,95%]
-int Field_5_5_4_67090_002? //  DBAnalyser: [FallbackSpellVisualKitID, 0,95%], [DelayMin, 0,95%], [DelayMax, 0,95%], [MinimumSpellVisualDensityFilterType, 0,95%], [MinimumSpellVisualDensityFilterParam, 0,95%], [ReducedSpellVisualDensityFilterType, 0,95%], [ReducedSpellVisualDensityFilterParam, 0,95%]
-int Field_5_5_4_67090_003? //  DBAnalyser: [FallbackSpellVisualKitID, 0,95%], [DelayMin, 0,95%], [DelayMax, 0,95%], [MinimumSpellVisualDensityFilterType, 0,95%], [MinimumSpellVisualDensityFilterParam, 0,95%], [ReducedSpellVisualDensityFilterType, 0,95%], [ReducedSpellVisualDensityFilterParam, 0,95%]
-int Field_5_5_4_67090_004? //  DBAnalyser: [FallbackSpellVisualKitID, 0,95%], [DelayMin, 0,95%], [DelayMax, 0,95%], [MinimumSpellVisualDensityFilterType, 0,95%], [MinimumSpellVisualDensityFilterParam, 0,95%], [ReducedSpellVisualDensityFilterType, 0,95%], [ReducedSpellVisualDensityFilterParam, 0,95%]
-int Field_5_5_4_67090_005? //  DBAnalyser: [FallbackSpellVisualKitID, 0,95%], [DelayMin, 0,95%], [DelayMax, 0,95%], [MinimumSpellVisualDensityFilterType, 0,95%], [MinimumSpellVisualDensityFilterParam, 0,95%], [ReducedSpellVisualDensityFilterType, 0,95%], [ReducedSpellVisualDensityFilterParam, 0,95%]
-int Field_5_5_4_67090_006? //  DBAnalyser: [FallbackSpellVisualKitID, 0,95%], [DelayMin, 0,95%], [DelayMax, 0,95%], [MinimumSpellVisualDensityFilterType, 0,95%], [MinimumSpellVisualDensityFilterParam, 0,95%], [ReducedSpellVisualDensityFilterType, 0,95%], [ReducedSpellVisualDensityFilterParam, 0,95%]
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -318,13 +311,13 @@ Flags<32>[2]
 LAYOUT 9117C5E3
 BUILD 5.5.4.67090
 $noninline,id$ID<32>
-Field_5_5_4_67090_000<u32>
-Field_5_5_4_67090_001<u16>
-Field_5_5_4_67090_002<u16>
-Field_5_5_4_67090_003<32>
-Field_5_5_4_67090_004<32>
-Field_5_5_4_67090_005<32>
-Field_5_5_4_67090_006<32>
+FallbackSpellVisualKitID<u32>
+DelayMin<u16>
+DelayMax<u16>
+MinimumSpellVisualDensityFilterType<32>
+MinimumSpellVisualDensityFilterParam<32>
+ReducedSpellVisualDensityFilterType<32>
+ReducedSpellVisualDensityFilterParam<32>
 FallbackPriority
 Flags<32>[2]
 

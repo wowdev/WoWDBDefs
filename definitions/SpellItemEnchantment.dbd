@@ -43,11 +43,6 @@ int Field_1_15_3_55112_015?
 int Field_1_15_3_55112_018?
 int Field_1_15_3_55112_020?
 int Field_1_15_3_55112_021?
-int Field_5_5_4_67090_004? //  DBAnalyser: [EffectPointsMin, 1%], [EffectPointsMax, 1%]
-int Field_5_5_4_67090_005? //  DBAnalyser: [EffectPointsMin, 1%], [EffectPointsMax, 1%]
-int Field_5_5_4_67090_017? //  DBAnalyser: [Field_1_15_3_55112_018, 0,95%], [Field_1_15_3_55112_020, 0,95%], [Field_1_15_3_55112_021, 0,95%], [Condition_ID, 0,95%]
-int Field_5_5_4_67090_019? //  DBAnalyser: [Field_1_15_3_55112_018, 0,95%], [Field_1_15_3_55112_020, 0,95%], [Field_1_15_3_55112_021, 0,95%], [Condition_ID, 0,95%]
-int Field_5_5_4_67090_020? //  DBAnalyser: [Field_1_15_3_55112_018, 0,95%], [Field_1_15_3_55112_020, 0,95%], [Field_1_15_3_55112_021, 0,95%], [Condition_ID, 0,95%]
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -355,8 +350,8 @@ Name_lang
 HordeName_lang
 Charges<32>
 Effect<32>[3]
-Field_5_5_4_67090_004<32>[3]
-Field_5_5_4_67090_005<32>[3]
+EffectPointsMin<32>[3]
+EffectPointsMax<32>[3]
 EffectArg<32>[3]
 Flags<32>
 Field_1_15_3_55112_009[3]
@@ -368,10 +363,10 @@ Field_1_15_3_55112_014<32>
 Field_1_15_3_55112_015<32>
 MinLevel<32>
 MaxLevel<32>
-Field_5_5_4_67090_017<32>
+Field_1_15_3_55112_018<32>
 ItemLevel<32>
-Field_5_5_4_67090_019<32>
-Field_5_5_4_67090_020<32>
+Field_1_15_3_55112_020<32>
+Field_1_15_3_55112_021<32>
 ItemVisual<u16>
 
 BUILD 6.0.1.18179

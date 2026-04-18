@@ -10,17 +10,7 @@ int UiBarOverlayColor
 int<UiModelScene::ID> UiModelSceneID
 int UiNameColor
 int<UiTextureKit::ID> UiTextureKitID
-locstring Field_5_5_4_67090_000_lang?
-int Field_5_5_4_67090_001?
-int Field_5_5_4_67090_002?
-int Field_5_5_4_67090_003?
-int Field_5_5_4_67090_004?
-int Field_5_5_4_67090_005?
-int Field_5_5_4_67090_006?
 int Field_5_5_4_67090_007?
-int Field_5_5_4_67090_008?
-int Field_5_5_4_67090_009?
-int Field_5_5_4_67090_010?
 
 LAYOUT 727E7DFA
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006, 4.4.0.55056, 4.4.0.55141, 4.4.0.55262, 4.4.0.55460, 4.4.0.55613, 4.4.0.55639, 4.4.0.56014, 4.4.0.56420, 4.4.0.56489, 4.4.0.56713, 4.4.0.57244
@@ -76,17 +66,17 @@ SpellVisualKitID<u32>
 
 LAYOUT 34FD2E0D
 BUILD 5.5.4.67090
-Field_5_5_4_67090_000_lang
-$id$Field_5_5_4_67090_001<32>
-Field_5_5_4_67090_002<u16>
-Field_5_5_4_67090_003<32>
-Field_5_5_4_67090_004<32>
-Field_5_5_4_67090_005<32>
-Field_5_5_4_67090_006<u16>
+Name_lang
+$id$ID<32>
+UiTextureKitID<u16>
+UiNameColor<32>
+UiBarOverlayColor<32>
+UiBarBackgroundColor<32>
+ChrSpecializationID<u16>
 Field_5_5_4_67090_007<32>
-Field_5_5_4_67090_008<u8>
-Field_5_5_4_67090_009<u32>
-Field_5_5_4_67090_010<u32>
+Flags<u8>
+UiModelSceneID<u32>
+SpellVisualKitID<u32>
 
 LAYOUT 76CF31A8
 BUILD 8.0.1.25902, 8.0.1.25976, 8.0.1.26010, 8.0.1.26032, 8.0.1.26095, 8.0.1.26131, 8.0.1.26141, 8.0.1.26175, 8.0.1.26231

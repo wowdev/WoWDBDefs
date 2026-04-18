@@ -19,9 +19,6 @@ int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
-int Field_5_5_4_67090_010? //  DBAnalyser: [DynamicIconFileID, 0,95%], [DynamicFlashIconFileID, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_011? //  DBAnalyser: [DynamicIconFileID, 0,95%], [DynamicFlashIconFileID, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_015? //  DBAnalyser: [DynamicIconFileID, 0,95%], [DynamicFlashIconFileID, 0,95%], [PhaseGroupID, 0,95%]
 
 BUILD 2.0.0.5991
 BUILD 1.5.0.4442-1.11.2.5464
@@ -230,12 +227,12 @@ $relation$MapID<16>
 AreaID<u16>
 StateVariable<u16>
 Type<32>
-Field_5_5_4_67090_010<32>
-Field_5_5_4_67090_011<32>
+DynamicIconFileID<32>
+DynamicFlashIconFileID<32>
 OrderIndex<u8>
 PhaseUseFlags<32>
 PhaseID<u16>
-Field_5_5_4_67090_015<u16>
+PhaseGroupID<u16>
 ExtendedUIStateVariable<u16>[3]
 
 BUILD 6.0.1.18179

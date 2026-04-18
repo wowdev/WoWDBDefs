@@ -20,10 +20,6 @@ int<PlayerCondition::ID> ShowFutureSpellPlayerConditionID
 int SpellVisualScript? // for some reason shipped but if != 0, client errors.
 int ActiveSpellVisualScript?
 int<SpellDuration::ID> PvPDurationIndex?
-float Field_5_5_4_67090_007? //  DBAnalyser: [LaunchDelay, 0,95%], [MinDuration, 0,95%]
-float Field_5_5_4_67090_008? //  DBAnalyser: [LaunchDelay, 0,95%], [MinDuration, 0,95%]
-int Field_5_5_4_67090_011? //  DBAnalyser: [ContentTuningID, 0,95%], [ShowFutureSpellPlayerConditionID, 0,95%]
-int Field_5_5_4_67090_012? //  DBAnalyser: [ContentTuningID, 0,95%], [ShowFutureSpellPlayerConditionID, 0,95%]
 
 LAYOUT 30366F5C
 BUILD 1.15.4.56400, 1.15.4.56419
@@ -248,12 +244,12 @@ DurationIndex<u16>
 RangeIndex<u16>
 SchoolMask<u8>
 Speed
-Field_5_5_4_67090_007
-Field_5_5_4_67090_008
+LaunchDelay
+MinDuration
 SpellIconFileDataID<32>
 ActiveIconFileDataID<32>
-Field_5_5_4_67090_011<32>
-Field_5_5_4_67090_012<32>
+ContentTuningID<32>
+ShowFutureSpellPlayerConditionID<32>
 $noninline,relation$SpellID<32>
 
 BUILD 6.0.1.18179

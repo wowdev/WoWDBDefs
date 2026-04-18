@@ -87,117 +87,7 @@ int TraitNodeEntryLogic?
 int<TraitNodeEntry::ID> TraitNodeEntryID?
 int TraitNodeEntryMinRank?
 int TraitNodeEntryMaxRank?
-int Field_4_4_0_54377_004?
-int Field_4_4_0_54377_006?
-int Field_4_4_0_54377_007?
-int Field_4_4_0_54377_008?
-int Field_4_4_0_54377_009?
-int Field_4_4_0_54377_010?
-int Field_4_4_0_54377_011?
-int Field_4_4_0_54377_012?
-int Field_4_4_0_54377_013?
-int Field_4_4_0_54377_014?
-int Field_4_4_0_54377_016?
-int Field_4_4_0_54377_017?
-int Field_4_4_0_54377_018?
-int Field_4_4_0_54377_019?
-int Field_4_4_0_54377_020?
-int Field_4_4_0_54377_023?
-int Field_4_4_0_54377_024?
-int Field_4_4_0_54377_025?
-int Field_4_4_0_54377_026?
-int Field_4_4_0_54377_027?
-int Field_4_4_0_54377_028?
-int Field_4_4_0_54377_030?
-int Field_4_4_0_54377_031?
-int Field_4_4_0_54377_032?
-int Field_4_4_0_54377_033?
-int Field_4_4_0_54377_034?
-int Field_4_4_0_54377_035?
-int Field_4_4_0_54377_036?
-int Field_4_4_0_54377_037?
-int Field_4_4_0_54377_038?
-int Field_4_4_0_54377_039?
-int Field_4_4_0_54377_040?
-int Field_4_4_0_54377_042?
-int Field_4_4_0_54377_044?
-int Field_4_4_0_54377_045?
-int Field_4_4_0_54377_047?
-int Field_4_4_0_54377_048?
-int Field_4_4_0_54377_049?
-int Field_4_4_0_54377_050?
-int Field_4_4_0_54377_051?
-int Field_4_4_0_54377_052?
-int Field_4_4_0_54377_053?
-int Field_4_4_0_54377_054?
-int Field_4_4_0_54377_055?
-int Field_4_4_0_54377_056?
-int Field_4_4_0_54377_059?
-int Field_4_4_0_54377_060?
-int Field_4_4_0_54377_061?
-int Field_4_4_0_54377_063?
-int Field_4_4_0_54377_065?
-int Field_4_4_0_54377_066?
-int Field_4_4_0_54377_067?
-int Field_4_4_0_54377_068?
-int Field_4_4_0_54377_069?
-int Field_4_4_0_54377_071?
-int Field_4_4_0_54377_072?
-int Field_4_4_0_54377_074?
-int Field_4_4_0_54377_075?
-int Field_4_4_0_54377_076?
-int Field_4_4_0_54377_077?
-int Field_4_4_0_54377_078?
-int Field_4_4_0_54377_079?
-int Field_4_4_0_54377_080?
 int RaceMasks?
-int Field_5_5_4_67090_004? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_005? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_006? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_007? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_008? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_009? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_010? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_011? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_012? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_021? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_022? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_023? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_026? //  DBAnalyser: [NativeGender, 1%], [MinExpansionLevel, 1%], [MaxExpansionLevel, 1%], [ChrSpecializationIndex, 1%], [ChrSpecializationRole, 1%], [PowerType, 1%], [MaxExpansionTier, 1%], [MinExpansionTier, 1%]
-int Field_5_5_4_67090_028? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_029? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_032? //  DBAnalyser: [NativeGender, 1%], [MinExpansionLevel, 1%], [MaxExpansionLevel, 1%], [ChrSpecializationIndex, 1%], [ChrSpecializationRole, 1%], [PowerType, 1%], [MaxExpansionTier, 1%], [MinExpansionTier, 1%]
-int Field_5_5_4_67090_033? //  DBAnalyser: [NativeGender, 1%], [MinExpansionLevel, 1%], [MaxExpansionLevel, 1%], [ChrSpecializationIndex, 1%], [ChrSpecializationRole, 1%], [PowerType, 1%], [MaxExpansionTier, 1%], [MinExpansionTier, 1%]
-int Field_5_5_4_67090_034? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_035? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_036? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_037? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_038? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_040? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_042? //  DBAnalyser: [NativeGender, 1%], [MinExpansionLevel, 1%], [MaxExpansionLevel, 1%], [ChrSpecializationIndex, 1%], [ChrSpecializationRole, 1%], [PowerType, 1%], [MaxExpansionTier, 1%], [MinExpansionTier, 1%]
-int Field_5_5_4_67090_043? //  DBAnalyser: [NativeGender, 1%], [MinExpansionLevel, 1%], [MaxExpansionLevel, 1%], [ChrSpecializationIndex, 1%], [ChrSpecializationRole, 1%], [PowerType, 1%], [MaxExpansionTier, 1%], [MinExpansionTier, 1%]
-int Field_5_5_4_67090_045? //  DBAnalyser: [NativeGender, 1%], [MinExpansionLevel, 1%], [MaxExpansionLevel, 1%], [ChrSpecializationIndex, 1%], [ChrSpecializationRole, 1%], [PowerType, 1%], [MaxExpansionTier, 1%], [MinExpansionTier, 1%]
-int Field_5_5_4_67090_046? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_047? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_048? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_049? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_050? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_051? //  DBAnalyser: [NativeGender, 1%], [MinExpansionLevel, 1%], [MaxExpansionLevel, 1%], [ChrSpecializationIndex, 1%], [ChrSpecializationRole, 1%], [PowerType, 1%], [MaxExpansionTier, 1%], [MinExpansionTier, 1%]
-int Field_5_5_4_67090_052? //  DBAnalyser: [NativeGender, 1%], [MinExpansionLevel, 1%], [MaxExpansionLevel, 1%], [ChrSpecializationIndex, 1%], [ChrSpecializationRole, 1%], [PowerType, 1%], [MaxExpansionTier, 1%], [MinExpansionTier, 1%]
-int Field_5_5_4_67090_053? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_054? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_056? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_057? //  DBAnalyser: [CovenantID, 0,95%], [Explored, 0,95%], [Time, 0,95%], [LfgLogic, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LanguageID, 0,95%], [TraitNodeEntryLogic, 0,95%], [MaxReputation, 0,95%], [CurrentPvpFaction, 0,95%], [PvpMedal, 0,95%], [PartyStatus, 0,95%], [MinLanguage, 0,95%], [MaxFactionID, 0,95%], [MaxLanguage, 0,95%], [ReputationLogic, 0,95%], [WeatherID, 0,95%], [SkillLogic, 0,95%], [MinPVPRank, 0,95%], [CurrencyLogic, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxPVPRank, 0,95%], [PhaseUseFlags, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PowerTypeComp, 0,95%], [PowerTypeValue, 0,95%], [WeaponSubclassMask, 0,95%], [MaxGuildLevel, 0,95%], [MinGuildLevel, 0,95%], [PhaseGroupID, 0,95%]
-int Field_5_5_4_67090_069? //  DBAnalyser: [PowerTypeValue, 0,95%], [CurrencyCount, 0,95%], [CurrencyID, 0,95%], [MaxLanguage, 0,95%], [MaxReputation, 0,95%], [TraitNodeEntryID, 0,95%], [TraitNodeEntryLogic, 0,95%], [CovenantID, 0,95%], [MaxPVPRank, 0,95%], [MinPVPRank, 0,95%], [MinGuildLevel, 0,95%], [ReputationLogic, 0,95%], [TraitNodeEntryMinRank, 0,95%], [SkillLogic, 0,95%], [LanguageID, 0,95%], [AuraStacks, 0,95%], [Time, 0,95%], [Explored, 0,95%], [LfgStatus, 0,95%], [LfgCompare, 0,95%], [MaxFactionID, 0,95%], [MinLanguage, 0,95%], [MaxGuildLevel, 0,95%], [WeaponSubclassMask, 0,95%], [PowerTypeComp, 0,95%], [TraitNodeEntryMaxRank, 0,95%], [CurrentPvpFaction, 0,95%], [WeatherID, 0,95%], [PartyStatus, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LfgLogic, 0,95%], [PvpMedal, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PhaseUseFlags, 0,95%], [PhaseGroupID, 0,95%], [CurrencyLogic, 0,95%]
-int Field_5_5_4_67090_070? //  DBAnalyser: [PowerTypeValue, 0,95%], [CurrencyCount, 0,95%], [CurrencyID, 0,95%], [MaxLanguage, 0,95%], [MaxReputation, 0,95%], [TraitNodeEntryID, 0,95%], [TraitNodeEntryLogic, 0,95%], [CovenantID, 0,95%], [MaxPVPRank, 0,95%], [MinPVPRank, 0,95%], [MinGuildLevel, 0,95%], [ReputationLogic, 0,95%], [TraitNodeEntryMinRank, 0,95%], [SkillLogic, 0,95%], [LanguageID, 0,95%], [AuraStacks, 0,95%], [Time, 0,95%], [Explored, 0,95%], [LfgStatus, 0,95%], [LfgCompare, 0,95%], [MaxFactionID, 0,95%], [MinLanguage, 0,95%], [MaxGuildLevel, 0,95%], [WeaponSubclassMask, 0,95%], [PowerTypeComp, 0,95%], [TraitNodeEntryMaxRank, 0,95%], [CurrentPvpFaction, 0,95%], [WeatherID, 0,95%], [PartyStatus, 0,95%], [LifetimeMaxPVPRank, 0,95%], [LfgLogic, 0,95%], [PvpMedal, 0,95%], [MinAvgItemLevel, 0,95%], [MaxAvgItemLevel, 0,95%], [MinAvgEquippedItemLevel, 0,95%], [MaxAvgEquippedItemLevel, 0,95%], [PhaseUseFlags, 0,95%], [PhaseGroupID, 0,95%], [CurrencyLogic, 0,95%]
-int Field_5_5_4_67090_072? //  DBAnalyser: [AuraStacks, 0,95%], [Explored, 0,95%], [Time, 0,95%], [CurrencyID, 0,95%], [LfgCompare, 0,95%], [LfgStatus, 0,95%], [CurrencyCount, 0,95%], [TraitNodeEntryID, 0,95%], [TraitNodeEntryMinRank, 0,95%], [TraitNodeEntryMaxRank, 0,95%]
-int Field_5_5_4_67090_075? //  DBAnalyser: [AuraStacks, 0,95%], [Explored, 0,95%], [Time, 0,95%], [CurrencyID, 0,95%], [LfgCompare, 0,95%], [LfgStatus, 0,95%], [CurrencyCount, 0,95%], [TraitNodeEntryID, 0,95%], [TraitNodeEntryMinRank, 0,95%], [TraitNodeEntryMaxRank, 0,95%]
-int Field_5_5_4_67090_076? //  DBAnalyser: [AuraStacks, 0,95%], [Explored, 0,95%], [Time, 0,95%], [CurrencyID, 0,95%], [LfgCompare, 0,95%], [LfgStatus, 0,95%], [CurrencyCount, 0,95%], [TraitNodeEntryID, 0,95%], [TraitNodeEntryMinRank, 0,95%], [TraitNodeEntryMaxRank, 0,95%]
-int Field_5_5_4_67090_078? //  DBAnalyser: [AuraStacks, 0,95%], [Explored, 0,95%], [Time, 0,95%], [CurrencyID, 0,95%], [LfgCompare, 0,95%], [LfgStatus, 0,95%], [CurrencyCount, 0,95%], [TraitNodeEntryID, 0,95%], [TraitNodeEntryMinRank, 0,95%], [TraitNodeEntryMaxRank, 0,95%]
-int Field_5_5_4_67090_079? //  DBAnalyser: [AuraStacks, 0,95%], [Explored, 0,95%], [Time, 0,95%], [CurrencyID, 0,95%], [LfgCompare, 0,95%], [LfgStatus, 0,95%], [CurrencyCount, 0,95%], [TraitNodeEntryID, 0,95%], [TraitNodeEntryMinRank, 0,95%], [TraitNodeEntryMaxRank, 0,95%]
-int Field_5_5_4_67090_083? //  DBAnalyser: [AuraStacks, 0,95%], [Explored, 0,95%], [Time, 0,95%], [CurrencyID, 0,95%], [LfgCompare, 0,95%], [LfgStatus, 0,95%], [CurrencyCount, 0,95%], [TraitNodeEntryID, 0,95%], [TraitNodeEntryMinRank, 0,95%], [TraitNodeEntryMaxRank, 0,95%]
-int Field_5_5_4_67090_084? //  DBAnalyser: [AuraStacks, 0,95%], [Explored, 0,95%], [Time, 0,95%], [CurrencyID, 0,95%], [LfgCompare, 0,95%], [LfgStatus, 0,95%], [CurrencyCount, 0,95%], [TraitNodeEntryID, 0,95%], [TraitNodeEntryMinRank, 0,95%], [TraitNodeEntryMaxRank, 0,95%]
-int Field_5_5_4_67090_085? //  DBAnalyser: [AuraStacks, 0,95%], [Explored, 0,95%], [Time, 0,95%], [CurrencyID, 0,95%], [LfgCompare, 0,95%], [LfgStatus, 0,95%], [CurrencyCount, 0,95%], [TraitNodeEntryID, 0,95%], [TraitNodeEntryMinRank, 0,95%], [TraitNodeEntryMaxRank, 0,95%]
 
 LAYOUT 8FEB04E0
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -559,83 +449,83 @@ RaceMask<64>
 Failure_description_lang
 $id$ID<32>
 MinLevel<u16>
-Field_4_4_0_54377_004<u16>
+MaxLevel<u16>
 ClassMask<32>
-Field_4_4_0_54377_006<u32>
-Field_4_4_0_54377_007<u8>
-Field_4_4_0_54377_008<u8>
-Field_4_4_0_54377_009<32>
-Field_4_4_0_54377_010<u16>
-Field_4_4_0_54377_011<u8>
-Field_4_4_0_54377_012<u32>
-Field_4_4_0_54377_013<8>
-Field_4_4_0_54377_014<u8>
+SkillLogic<u32>
+LanguageID<u8>
+MinLanguage<u8>
+MaxLanguage<32>
+MaxFactionID<u16>
+MaxReputation<u8>
+ReputationLogic<u32>
+CurrentPvpFaction<8>
+PvpMedal<u8>
 PrevQuestLogic<u32>
-Field_4_4_0_54377_016<u32>
-Field_4_4_0_54377_017<u32>
-Field_4_4_0_54377_018<u32>
-Field_4_4_0_54377_019<u32>
-Field_4_4_0_54377_020<u8>
+CurrQuestLogic<u32>
+CurrentCompletedQuestLogic<u32>
+SpellLogic<u32>
+ItemLogic<u32>
+ItemFlags<u8>
 AuraSpellLogic<u32>
 WorldStateExpressionID<u16>
-Field_4_4_0_54377_023<u8>
-Field_4_4_0_54377_024<u8>
-Field_4_4_0_54377_025<u8>
-Field_4_4_0_54377_026<u32>
-Field_4_4_0_54377_027<8>
-Field_4_4_0_54377_028<8>
+WeatherID<u8>
+PartyStatus<u8>
+LifetimeMaxPVPRank<u8>
+AchievementLogic<u32>
+Gender<8>
+NativeGender<8>
 AreaLogic<u32>
-Field_4_4_0_54377_030<u32>
-Field_4_4_0_54377_031<u32>
-Field_4_4_0_54377_032<u32>
-Field_4_4_0_54377_033<u32>
-Field_4_4_0_54377_034<8>
-Field_4_4_0_54377_035<8>
-Field_4_4_0_54377_036<32>
-Field_4_4_0_54377_037<32>
-Field_4_4_0_54377_038<u16>
-Field_4_4_0_54377_039<u16>
-Field_4_4_0_54377_040<32>
+LfgLogic<u32>
+CurrencyLogic<u32>
+QuestKillID<32>
+QuestKillLogic<u32>
+MinExpansionLevel<8>
+MaxExpansionLevel<8>
+MinAvgItemLevel<32>
+MaxAvgItemLevel<32>
+MinAvgEquippedItemLevel<u16>
+MaxAvgEquippedItemLevel<u16>
+PhaseUseFlags<32>
 PhaseID<u16>
-Field_4_4_0_54377_042<u32>
+PhaseGroupID<u32>
 Flags<32>
-Field_4_4_0_54377_044<8>
-Field_4_4_0_54377_045<8>
+ChrSpecializationIndex<8>
+ChrSpecializationRole<8>
 ModifierTreeID<u32>
-Field_4_4_0_54377_047<8>
-Field_4_4_0_54377_048<u8>
-Field_4_4_0_54377_049<u8>
-Field_4_4_0_54377_050<32>
-Field_4_4_0_54377_051<u8>
-Field_4_4_0_54377_052<u8>
-Field_4_4_0_54377_053<8>
-Field_4_4_0_54377_054<8>
-Field_4_4_0_54377_055<u8>
-Field_4_4_0_54377_056<u8>
+PowerType<8>
+PowerTypeComp<u8>
+PowerTypeValue<u8>
+WeaponSubclassMask<32>
+MaxGuildLevel<u8>
+MinGuildLevel<u8>
+MaxExpansionTier<8>
+MinExpansionTier<8>
+MinPVPRank<u8>
+MaxPVPRank<u8>
 SkillID<u16>[4]
 MinSkill<u16>[4]
-Field_4_4_0_54377_059<u16>[4]
-Field_4_4_0_54377_060<u32>[3]
-Field_4_4_0_54377_061<u8>[3]
+MaxSkill<u16>[4]
+MinFactionID<u32>[3]
+MinReputation<u8>[3]
 PrevQuestID<u32>[4]
-Field_4_4_0_54377_063<u32>[4]
+CurrQuestID<32>[4]
 CurrentCompletedQuestID<u32>[4]
-Field_4_4_0_54377_065<32>[4]
-Field_4_4_0_54377_066<32>[4]
-Field_4_4_0_54377_067<u32>[4]
-Field_4_4_0_54377_068<u16>[2]
-Field_4_4_0_54377_069<u32>[2]
+SpellID<32>[4]
+ItemID<32>[4]
+ItemCount<u32>[4]
+Explored<u16>[2]
+Time<u32>[2]
 AuraSpellID<32>[4]
-Field_4_4_0_54377_071<u8>[4]
-Field_4_4_0_54377_072<u16>[4]
+AuraStacks<u8>[4]
+Achievement<u16>[4]
 AreaID<u16>[4]
-Field_4_4_0_54377_074<u8>[4]
-Field_4_4_0_54377_075<u8>[4]
-Field_4_4_0_54377_076<u32>[4]
-Field_4_4_0_54377_077<u32>[4]
-Field_4_4_0_54377_078<u32>[4]
-Field_4_4_0_54377_079<u32>[6]
-Field_4_4_0_54377_080<32>[2]
+LfgStatus<u8>[4]
+LfgCompare<u8>[4]
+LfgValue<u32>[4]
+CurrencyID<u32>[4]
+CurrencyCount<u32>[4]
+QuestKillMonster<u32>[6]
+MovementFlags<32>[2]
 
 LAYOUT 6594A070
 BUILD 4.4.1.56464, 4.4.1.56574, 4.4.1.56859, 4.4.1.56961, 4.4.1.57103, 4.4.1.57141, 4.4.1.57294, 4.4.1.57359, 4.4.1.57564, 4.4.1.57916, 4.4.1.58158, 4.4.1.58558, 4.4.1.59069
@@ -879,15 +769,15 @@ Failure_description_lang
 MinLevel<u16>
 MaxLevel<u16>
 ClassMask<32>
-Field_5_5_4_67090_004<u32>
-Field_5_5_4_67090_005<32>
-Field_5_5_4_67090_006<u8>
-Field_5_5_4_67090_007<32>
-Field_5_5_4_67090_008<u16>
-Field_5_5_4_67090_009<u8>
-Field_5_5_4_67090_010<u32>
-Field_5_5_4_67090_011<8>
-Field_5_5_4_67090_012<u8>
+SkillLogic<u32>
+LanguageID<32>
+MinLanguage<u8>
+MaxLanguage<32>
+MaxFactionID<u16>
+MaxReputation<u8>
+ReputationLogic<u32>
+CurrentPvpFaction<8>
+PvpMedal<u8>
 PrevQuestLogic<u32>
 CurrQuestLogic<u32>
 CurrentCompletedQuestLogic<u32>
@@ -896,43 +786,43 @@ ItemLogic<u32>
 ItemFlags<32>
 AuraSpellLogic<u32>
 WorldStateExpressionID<u16>
-Field_5_5_4_67090_021<32>
-Field_5_5_4_67090_022<u8>
-Field_5_5_4_67090_023<8>
+WeatherID<32>
+PartyStatus<u8>
+LifetimeMaxPVPRank<8>
 AchievementLogic<u32>
 Gender<8>
-Field_5_5_4_67090_026<8>
+NativeGender<8>
 AreaLogic<u32>
-Field_5_5_4_67090_028<u32>
-Field_5_5_4_67090_029<u32>
+LfgLogic<u32>
+CurrencyLogic<u32>
 QuestKillID<32>
 QuestKillLogic<u32>
-Field_5_5_4_67090_032<8>
-Field_5_5_4_67090_033<8>
-Field_5_5_4_67090_034<32>
-Field_5_5_4_67090_035<32>
-Field_5_5_4_67090_036<u16>
-Field_5_5_4_67090_037<u16>
-Field_5_5_4_67090_038<32>
+MinExpansionLevel<8>
+MaxExpansionLevel<8>
+MinAvgItemLevel<32>
+MaxAvgItemLevel<32>
+MinAvgEquippedItemLevel<u16>
+MaxAvgEquippedItemLevel<u16>
+PhaseUseFlags<32>
 PhaseID<u16>
-Field_5_5_4_67090_040<u32>
+PhaseGroupID<u32>
 Flags<32>
-Field_5_5_4_67090_042<8>
-Field_5_5_4_67090_043<8>
+ChrSpecializationIndex<8>
+ChrSpecializationRole<8>
 ModifierTreeID<u32>
-Field_5_5_4_67090_045<8>
-Field_5_5_4_67090_046<u8>
-Field_5_5_4_67090_047<8>
-Field_5_5_4_67090_048<32>
-Field_5_5_4_67090_049<u8>
-Field_5_5_4_67090_050<u8>
-Field_5_5_4_67090_051<8>
-Field_5_5_4_67090_052<8>
-Field_5_5_4_67090_053<8>
-Field_5_5_4_67090_054<8>
+PowerType<8>
+PowerTypeComp<u8>
+PowerTypeValue<8>
+WeaponSubclassMask<32>
+MaxGuildLevel<u8>
+MinGuildLevel<u8>
+MaxExpansionTier<8>
+MinExpansionTier<8>
+MinPVPRank<8>
+MaxPVPRank<8>
 ContentTuningID<32>
-Field_5_5_4_67090_056<32>
-Field_5_5_4_67090_057<u32>
+CovenantID<32>
+TraitNodeEntryLogic<u32>
 SkillID<u16>[4]
 MinSkill<u16>[4]
 MaxSkill<u16>[4]
@@ -944,23 +834,23 @@ CurrentCompletedQuestID<32>[4]
 SpellID<32>[4]
 ItemID<32>[4]
 ItemCount<u32>[4]
-Field_5_5_4_67090_069<u16>[2]
-Field_5_5_4_67090_070<u32>[2]
+Explored<u16>[2]
+Time<u32>[2]
 AuraSpellID<32>[4]
-Field_5_5_4_67090_072<u8>[4]
+AuraStacks<u8>[4]
 Achievement<u32>[4]
 AreaID<u16>[4]
-Field_5_5_4_67090_075<u8>[4]
-Field_5_5_4_67090_076<u8>[4]
+LfgStatus<u8>[4]
+LfgCompare<u8>[4]
 LfgValue<u32>[4]
-Field_5_5_4_67090_078<u32>[4]
-Field_5_5_4_67090_079<u32>[4]
+CurrencyID<u32>[4]
+CurrencyCount<u32>[4]
 QuestKillMonster<u32>[6]
 MovementFlags<32>[2]
 RaceMask<32>[2]
-Field_5_5_4_67090_083<32>[4]
-Field_5_5_4_67090_084<u16>[4]
-Field_5_5_4_67090_085<u16>[4]
+TraitNodeEntryID<32>[4]
+TraitNodeEntryMinRank<u16>[4]
+TraitNodeEntryMaxRank<u16>[4]
 
 BUILD 6.0.1.18179
 BUILD 5.2.0.16516-5.4.8.18414

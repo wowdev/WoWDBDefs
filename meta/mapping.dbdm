@@ -280,8 +280,8 @@ ENUM TraitEdge::VisualStyle TraitEdgeVisualStyle
 ENUM TraitNode::Type TraitNodeType
 ENUM TraitNodeEntry::NodeEntryType TraitNodeEntryType
 ENUM TransmogDefaultLevel::ExpansionID ExpansionLevels
-ENUM TransmogOutfitEntry::Source TransmogOutfitEntrySource
 ENUM TransmogOutfitEntry::SetType TransmogOutfitSetType
+ENUM TransmogOutfitEntry::Source TransmogOutfitEntrySource
 ENUM TransmogOutfitSlotInfo::TransmogOutfitSlotEnum TransmogOutfitSlot
 ENUM TransmogOutfitSlotOption::OptionEnum TransmogOutfitSlotOption
 ENUM TransmogSet::ExpansionID ExpansionLevels

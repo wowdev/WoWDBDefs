@@ -72,14 +72,6 @@ int Field_5_4_0_17266_022?
 int Field_5_4_0_17266_023?
 int Field_5_4_0_17266_024?
 int<SpellVisual::ID> ReducedUnexpectedCameraMovementSpellVisualID?
-int Field_5_5_4_67090_003? //  DBAnalyser: [Flags, 1%], [Field_6_0_1_18179_010, 1%]
-int Field_5_5_4_67090_006? //  DBAnalyser: [MissileCastPositionerID, 0,95%], [MissileImpactPositionerID, 0,95%], [DamageNumberDelay, 0,95%], [LowViolenceSpellVisualID, 0,95%], [RaidSpellVisualMissileSetID, 0,95%], [ReducedUnexpectedCameraMovementSpellVisualID, 0,95%]
-int Field_5_5_4_67090_007? //  DBAnalyser: [MissileCastPositionerID, 0,95%], [MissileImpactPositionerID, 0,95%], [DamageNumberDelay, 0,95%], [LowViolenceSpellVisualID, 0,95%], [RaidSpellVisualMissileSetID, 0,95%], [ReducedUnexpectedCameraMovementSpellVisualID, 0,95%]
-int Field_5_5_4_67090_008? //  DBAnalyser: [MissileTargetingKit, 1%], [Field_6_0_1_18179_014, 0,99%]
-int Field_5_5_4_67090_012? //  DBAnalyser: [MissileCastPositionerID, 0,95%], [MissileImpactPositionerID, 0,95%], [DamageNumberDelay, 0,95%], [LowViolenceSpellVisualID, 0,95%], [RaidSpellVisualMissileSetID, 0,95%], [ReducedUnexpectedCameraMovementSpellVisualID, 0,95%]
-int Field_5_5_4_67090_013? //  DBAnalyser: [MissileCastPositionerID, 0,95%], [MissileImpactPositionerID, 0,95%], [DamageNumberDelay, 0,95%], [LowViolenceSpellVisualID, 0,95%], [RaidSpellVisualMissileSetID, 0,95%], [ReducedUnexpectedCameraMovementSpellVisualID, 0,95%]
-int Field_5_5_4_67090_014? //  DBAnalyser: [MissileCastPositionerID, 0,95%], [MissileImpactPositionerID, 0,95%], [DamageNumberDelay, 0,95%], [LowViolenceSpellVisualID, 0,95%], [RaidSpellVisualMissileSetID, 0,95%], [ReducedUnexpectedCameraMovementSpellVisualID, 0,95%]
-int Field_5_5_4_67090_015? //  DBAnalyser: [MissileCastPositionerID, 0,95%], [MissileImpactPositionerID, 0,95%], [DamageNumberDelay, 0,95%], [LowViolenceSpellVisualID, 0,95%], [RaidSpellVisualMissileSetID, 0,95%], [ReducedUnexpectedCameraMovementSpellVisualID, 0,95%]
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -578,19 +570,19 @@ $noninline,id$ID<32>
 MissileCastOffset[3]
 MissileImpactOffset[3]
 AnimEventSoundID<u32>
-Field_5_5_4_67090_003<32>
+Flags<32>
 MissileAttachment<8>
 MissileDestinationAttachment<8>
-Field_5_5_4_67090_006<u32>
-Field_5_5_4_67090_007<u32>
-Field_5_5_4_67090_008<32>
+MissileCastPositionerID<u32>
+MissileImpactPositionerID<u32>
+MissileTargetingKit<32>
 HostileSpellVisualID<u32>
 CasterSpellVisualID<u32>
 SpellVisualMissileSetID<u16>
-Field_5_5_4_67090_012<u16>
-Field_5_5_4_67090_013<u32>
-Field_5_5_4_67090_014<u32>
-Field_5_5_4_67090_015<32>
+DamageNumberDelay<u16>
+LowViolenceSpellVisualID<u32>
+RaidSpellVisualMissileSetID<u32>
+ReducedUnexpectedCameraMovementSpellVisualID<32>
 AreaModel<u16>
 HasMissile<8>
 

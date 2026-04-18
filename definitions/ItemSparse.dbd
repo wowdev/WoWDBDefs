@@ -78,25 +78,11 @@ int Field_7_3_2_25549_048? // probably RequiredPVPRank
 int Field_7_3_2_25549_049? // probably RequiredPVPMedal
 int Field_4_4_0_53750_013?
 int Field_1_15_3_55112_014?
-int Field_1_15_7_59706_027?
-int Field_1_15_7_59706_029?
-int Field_1_15_7_59706_032?
 int Field_1_15_7_59706_054?
-int Field_1_15_7_59706_057?
-int Field_1_15_7_59706_058?
-int Field_1_15_7_59706_059?
 int<Curve::ID> ItemLevelOffsetCurveID?
 int ItemLevelOffsetItemLevel? // same purpose as ItemScalingConfig::ItemLevel (curve parameter for ItemLevelOffsetCurveID)
 int<ItemSquishEra::ID> ItemSquishEraID?
 int AllowableRaces?
-locstring Field_5_5_4_67090_001_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-locstring Field_5_5_4_67090_002_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-locstring Field_5_5_4_67090_003_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-int Field_5_5_4_67090_027? //  DBAnalyser: [Field_1_15_7_59706_032, 0,95%], [Field_1_15_7_59706_027, 0,95%], [Field_1_15_7_59706_029, 0,95%], [Field_1_15_7_59706_057, 0,95%], [ArtifactID, 0,95%], [Field_7_3_2_25549_049, 0,95%], [Field_7_3_2_25549_048, 0,95%]
-int Field_5_5_4_67090_029? //  DBAnalyser: [Field_1_15_7_59706_032, 0,95%], [Field_1_15_7_59706_027, 0,95%], [Field_1_15_7_59706_029, 0,95%], [Field_1_15_7_59706_057, 0,95%], [ArtifactID, 0,95%], [Field_7_3_2_25549_049, 0,95%], [Field_7_3_2_25549_048, 0,95%]
-int Field_5_5_4_67090_032? //  DBAnalyser: [Field_1_15_7_59706_032, 0,95%], [Field_1_15_7_59706_027, 0,95%], [Field_1_15_7_59706_029, 0,95%], [Field_1_15_7_59706_057, 0,95%], [ArtifactID, 0,95%], [Field_7_3_2_25549_049, 0,95%], [Field_7_3_2_25549_048, 0,95%]
-int Field_5_5_4_67090_057? //  DBAnalyser: [Field_1_15_7_59706_032, 0,95%], [Field_1_15_7_59706_027, 0,95%], [Field_1_15_7_59706_029, 0,95%], [Field_1_15_7_59706_057, 0,95%], [ArtifactID, 0,95%], [Field_7_3_2_25549_049, 0,95%], [Field_7_3_2_25549_048, 0,95%]
-int Field_5_5_4_67090_066? //  DBAnalyser: [DamageType, 1%], [Damage_damageType, 1%]
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -1086,12 +1072,12 @@ PriceVariance
 PriceRandomValue
 Flags<32>[5]
 OppositeFactionItemID<32>
-Field_1_15_7_59706_027<32>
+ModifiedCraftingReagentItemID<32>
 ContentTuningID<32>
-Field_1_15_7_59706_029<32>
+PlayerLevelToItemLevelCurveID<32>
 MaxDurability<u32>
 ItemNameDescriptionID<u16>
-Field_1_15_7_59706_032<u16>
+RequiredTransmogHoliday<u16>
 RequiredHoliday<u16>
 LimitCategory<u16>
 Gem_properties<u16>
@@ -1116,9 +1102,9 @@ Resistances<16>[7]
 Field_1_15_7_59706_054<u16>
 StatModifier_bonusAmount<16>[10]
 ExpansionID<u8>
-Field_1_15_7_59706_057<u8>
-Field_1_15_7_59706_058<u8>
-Field_1_15_7_59706_059<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
 SocketType<u8>[3]
 SheatheType<u8>
 Material<u8>
@@ -1139,9 +1125,9 @@ BUILD 5.5.4.67090
 COMMENT table is sparse
 $noninline,id$ID<32>
 Description_lang
-Field_5_5_4_67090_001_lang
-Field_5_5_4_67090_002_lang
-Field_5_5_4_67090_003_lang
+Display3_lang
+Display2_lang
+Display1_lang
 Display_lang
 DmgVariance
 DurationInInventory<u32>
@@ -1165,12 +1151,12 @@ PriceVariance
 PriceRandomValue
 Flags<32>[5]
 OppositeFactionItemID<32>
-Field_5_5_4_67090_027<32>
+ModifiedCraftingReagentItemID<32>
 ContentTuningID<32>
-Field_5_5_4_67090_029<32>
+PlayerLevelToItemLevelCurveID<32>
 MaxDurability<u32>
 ItemNameDescriptionID<u16>
-Field_5_5_4_67090_032<u16>
+RequiredTransmogHoliday<u16>
 RequiredHoliday<u16>
 LimitCategory<u16>
 Gem_properties<u16>
@@ -1195,16 +1181,16 @@ Resistances<16>[7]
 Field_1_15_7_59706_054<u16>
 StatModifier_bonusAmount<16>[10]
 ExpansionID<u8>
-Field_5_5_4_67090_057<u8>
-Field_1_15_7_59706_058<u8>
-Field_1_15_7_59706_059<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
 SocketType<u8>[3]
 SheatheType<u8>
 Material<u8>
 PageMaterialID<u8>
 LanguageID<u8>
 Bonding<u8>
-Field_5_5_4_67090_066<u8>
+DamageType<u8>
 ContainerSlots<u8>
 RequiredPVPMedal<u8>
 RequiredPVPRank<8>

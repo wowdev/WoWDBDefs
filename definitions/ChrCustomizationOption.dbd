@@ -14,8 +14,6 @@ int<ChrCustomizationReq::ID> Requirement
 int AddedInPatch?
 int<ChrRaces::ID> ChrRacesID?
 int Sex?
-int Field_5_5_4_67090_007? //  DBAnalyser: [OptionType, 0,95%], [Requirement, 0,95%]
-int Field_5_5_4_67090_010? //  DBAnalyser: [OptionType, 0,95%], [Requirement, 0,95%]
 
 LAYOUT 26DBFCD5
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006
@@ -113,10 +111,10 @@ Flags<32>
 $relation$ChrModelID<32>
 OrderIndex<32>
 ChrCustomizationCategoryID<32>
-Field_5_5_4_67090_007<32>
+OptionType<32>
 BarberShopCostModifier
 ChrCustomizationID<32>
-Field_5_5_4_67090_010<32>
+Requirement<32>
 SecondaryOrderIndex<32>
 
 LAYOUT 3F99DF9F

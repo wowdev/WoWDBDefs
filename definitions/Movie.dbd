@@ -7,7 +7,6 @@ int<FileData::ID> SubtitleFileDataID
 string Filename
 int SubtitleFileFormat?
 locstring Field_12_0_5_66330_000_lang?
-locstring Field_5_5_4_67090_000_lang?
 
 BUILD 4.0.0.11792
 BUILD 4.0.0.11792-4.0.0.12319
@@ -49,7 +48,7 @@ SubtitleFileDataID<u32>
 LAYOUT BFEB4861
 BUILD 5.5.4.67090
 $noninline,id$ID<32>
-Field_5_5_4_67090_000_lang
+Field_12_0_5_66330_000_lang
 Volume<u8>
 KeyID<u8>
 AudioFileDataID<u32>

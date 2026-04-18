@@ -16,25 +16,17 @@ int RaceMask
 int SkinColorMask
 int<FileData::ID> TextureVariationFileDataID
 int RaceMasks?
-int Field_5_5_4_67090_000?
-int Field_5_5_4_67090_001?
-int Field_5_5_4_67090_002?
-int Field_5_5_4_67090_003?
-int Field_5_5_4_67090_004?
-int Field_5_5_4_67090_005?
-int Field_5_5_4_67090_006?
-int Field_5_5_4_67090_007?
 
 LAYOUT B0E544B6
 BUILD 5.5.4.67090
-$id$Field_5_5_4_67090_000<32>
-Field_5_5_4_67090_001<8>
-Field_5_5_4_67090_002<8>
-Field_5_5_4_67090_003<u32>
-Field_5_5_4_67090_004<32>
-Field_5_5_4_67090_005<32>[4]
-Field_5_5_4_67090_006<32>[2]
-$noninline,relation$Field_5_5_4_67090_007<32>
+$id$ID<32>
+OrderIndex<8>
+Gender<8>
+ClassMask<u32>
+CreatureModelDataID<32>
+TextureVariationFileDataID<32>[4]
+RaceMasks<32>[2]
+$noninline,relation$CreatureDisplayInfoID<32>
 
 LAYOUT 3A7D6AEA
 BUILD 7.3.0.24473, 7.3.0.24484, 7.3.0.24492, 7.3.0.24500, 7.3.0.24539, 7.3.0.24563, 7.3.0.24608, 7.3.0.24651, 7.3.0.24681, 7.3.0.24692, 7.3.0.24700, 7.3.0.24715

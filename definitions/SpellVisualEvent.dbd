@@ -11,8 +11,6 @@ int StartMinOffsetMs
 int TargetType
 int Field_10_0_0_44649_008? // empowerment stuff probably
 int Field_10_0_0_44649_009?
-int Field_5_5_4_67090_004? //  DBAnalyser: [EndMinOffsetMs, 0,95%], [EndMaxOffsetMs, 0,95%]
-int Field_5_5_4_67090_005? //  DBAnalyser: [EndMinOffsetMs, 0,95%], [EndMaxOffsetMs, 0,95%]
 
 LAYOUT 89263837
 BUILD 5.5.3.64141, 5.5.3.64308, 5.5.3.64400, 5.5.3.64530, 5.5.3.64794, 5.5.3.64802, 5.5.3.64857, 5.5.3.65302, 5.5.3.65703, 5.5.3.65746, 5.5.3.65890, 5.5.3.65988, 5.5.3.66128, 5.5.3.66264, 5.5.3.66290, 5.5.3.66382, 5.5.3.66509, 5.5.3.66565, 5.5.3.66839
@@ -50,8 +48,8 @@ StartEvent<32>
 EndEvent<32>
 StartMinOffsetMs<32>
 StartMaxOffsetMs<32>
-Field_5_5_4_67090_004<32>
-Field_5_5_4_67090_005<32>
+EndMinOffsetMs<32>
+EndMaxOffsetMs<32>
 TargetType<32>
 SpellVisualKitID<32>
 $noninline,relation$SpellVisualID<32>
