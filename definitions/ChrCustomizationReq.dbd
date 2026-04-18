@@ -17,6 +17,16 @@ int Field_1_15_8_63829_007? // DBAnalyser: [RegionGroupMask, 0,95%], [ReqAchieve
 int Field_1_15_8_63829_008? // DBAnalyser: [RaceMask, 1%], [OverrideArchive, 1%]
 int Field_1_15_8_63829_009? // DBAnalyser: [RegionGroupMask, 0,95%], [ReqAchievementID, 0,95%], [ReqQuestID, 0,95%], [ReqItemModifiedAppearanceID, 0,95%]
 int RaceMasks?
+locstring Field_5_5_4_67090_000_lang?
+int Field_5_5_4_67090_001?
+int Field_5_5_4_67090_002?
+int Field_5_5_4_67090_003?
+int Field_5_5_4_67090_004?
+int Field_5_5_4_67090_005?
+int Field_5_5_4_67090_006?
+int Field_5_5_4_67090_007?
+int Field_5_5_4_67090_008?
+int Field_5_5_4_67090_009?
 
 LAYOUT 90325B6E
 BUILD 1.15.8.63829, 1.15.8.64057, 1.15.8.64130, 1.15.8.64272
@@ -108,6 +118,19 @@ ReqAchievementID<32>
 ReqQuestID<32>
 OverrideArchive<32>
 ReqItemModifiedAppearanceID<32>
+
+LAYOUT BAA785F6
+BUILD 5.5.4.67090
+Field_5_5_4_67090_000_lang
+$id$Field_5_5_4_67090_001<32>
+Field_5_5_4_67090_002<32>
+Field_5_5_4_67090_003<32>
+Field_5_5_4_67090_004<32>
+Field_5_5_4_67090_005<32>
+Field_5_5_4_67090_006<32>
+Field_5_5_4_67090_007<32>
+Field_5_5_4_67090_008<32>
+Field_5_5_4_67090_009<32>[2]
 
 LAYOUT AA163FDE
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137

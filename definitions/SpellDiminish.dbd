@@ -7,6 +7,14 @@ int Field_12_0_0_63854_003?
 int ImmunityStacks? // Players and some NPCs become immune after this many applications
 int MaxStacks? // If nonzero, then Multiplier can only apply this many times
 int<FileData::ID> IconFileDataID?
+locstring Field_5_5_4_67090_000_lang?
+int Field_5_5_4_67090_001?
+
+LAYOUT 888317D4
+BUILD 5.5.4.67090
+$noninline,id$ID<32>
+Field_5_5_4_67090_000_lang
+Field_5_5_4_67090_001<32>
 
 LAYOUT 6E3341BA
 BUILD 12.0.5.66330, 12.0.5.66407, 12.0.5.66529, 12.0.5.66591, 12.0.5.66741, 12.0.5.67088

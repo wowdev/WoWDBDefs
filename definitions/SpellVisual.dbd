@@ -72,6 +72,24 @@ int Field_5_4_0_17266_022?
 int Field_5_4_0_17266_023?
 int Field_5_4_0_17266_024?
 int<SpellVisual::ID> ReducedUnexpectedCameraMovementSpellVisualID?
+float Field_5_5_4_67090_000?
+float Field_5_5_4_67090_001?
+int Field_5_5_4_67090_002?
+int Field_5_5_4_67090_003?
+int Field_5_5_4_67090_004?
+int Field_5_5_4_67090_005?
+int Field_5_5_4_67090_006?
+int Field_5_5_4_67090_007?
+int Field_5_5_4_67090_008?
+int Field_5_5_4_67090_009?
+int Field_5_5_4_67090_010?
+int Field_5_5_4_67090_011?
+int Field_5_5_4_67090_012?
+int Field_5_5_4_67090_013?
+int Field_5_5_4_67090_014?
+int Field_5_5_4_67090_015?
+int Field_5_5_4_67090_016?
+int Field_5_5_4_67090_017?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.6.0.3592
@@ -563,6 +581,28 @@ RaidSpellVisualMissileSetID<u32>
 ReducedUnexpectedCameraMovementSpellVisualID<32>
 AreaModel<u16>
 HasMissile<8>
+
+LAYOUT EF7EF1D5
+BUILD 5.5.4.67090
+$noninline,id$ID<32>
+Field_5_5_4_67090_000[3]
+Field_5_5_4_67090_001[3]
+Field_5_5_4_67090_002<u32>
+Field_5_5_4_67090_003<32>
+Field_5_5_4_67090_004<8>
+Field_5_5_4_67090_005<8>
+Field_5_5_4_67090_006<u32>
+Field_5_5_4_67090_007<u32>
+Field_5_5_4_67090_008<32>
+Field_5_5_4_67090_009<u32>
+Field_5_5_4_67090_010<u32>
+Field_5_5_4_67090_011<u16>
+Field_5_5_4_67090_012<u16>
+Field_5_5_4_67090_013<u32>
+Field_5_5_4_67090_014<u32>
+Field_5_5_4_67090_015<32>
+Field_5_5_4_67090_016<u16>
+Field_5_5_4_67090_017<8>
 
 BUILD 6.0.1.18179
 $id$ID<32>

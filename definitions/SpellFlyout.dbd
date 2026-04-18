@@ -8,6 +8,22 @@ locstring Name_lang
 locstring Description_lang
 int<FileData::ID> SpellIconFileID
 int RaceMasks?
+locstring Field_5_5_4_67090_000_lang?
+locstring Field_5_5_4_67090_001_lang?
+int Field_5_5_4_67090_002?
+int Field_5_5_4_67090_003?
+int Field_5_5_4_67090_004?
+int Field_5_5_4_67090_005?
+
+LAYOUT BE7036C6
+BUILD 5.5.4.67090
+$noninline,id$ID<32>
+Field_5_5_4_67090_000_lang
+Field_5_5_4_67090_001_lang
+Field_5_5_4_67090_002<u8>
+Field_5_5_4_67090_003<32>
+Field_5_5_4_67090_004<32>
+Field_5_5_4_67090_005<32>[2]
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.0.20008

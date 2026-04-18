@@ -6,6 +6,12 @@ int BaseLevel
 int MaxLevel
 int SpellLevel
 int MaxPassiveAuraLevel
+int Field_5_5_4_67090_000?
+int Field_5_5_4_67090_001?
+int Field_5_5_4_67090_002?
+int Field_5_5_4_67090_003?
+int Field_5_5_4_67090_004?
+int Field_5_5_4_67090_005?
 
 LAYOUT F1FA4CF1
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -73,6 +79,16 @@ MaxLevel<16>
 SpellLevel<16>
 MaxPassiveAuraLevel<u8>
 $noninline,relation$SpellID<32>
+
+LAYOUT 1B52E35E
+BUILD 5.5.4.67090
+$noninline,id$ID<32>
+Field_5_5_4_67090_000<16>
+Field_5_5_4_67090_001<16>
+Field_5_5_4_67090_002<16>
+Field_5_5_4_67090_003<16>
+Field_5_5_4_67090_004<u8>
+$noninline,relation$Field_5_5_4_67090_005<32>
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15589-5.4.8.18414

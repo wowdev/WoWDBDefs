@@ -14,6 +14,20 @@ locstring Name_lang
 int ItemContext
 int OrderIndex
 int Field_1_15_4_56400_013?
+locstring Field_5_5_4_67090_000_lang?
+int Field_5_5_4_67090_001?
+int Field_5_5_4_67090_002?
+int Field_5_5_4_67090_003?
+int Field_5_5_4_67090_004?
+int Field_5_5_4_67090_005?
+int Field_5_5_4_67090_006?
+int Field_5_5_4_67090_007?
+int Field_5_5_4_67090_008?
+int Field_5_5_4_67090_009?
+int Field_5_5_4_67090_010?
+int Field_5_5_4_67090_011?
+int Field_5_5_4_67090_012?
+int Field_5_5_4_67090_013?
 
 LAYOUT A7D2908E
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -132,6 +146,24 @@ GroupSizeHealthCurveID<u16>
 GroupSizeDmgCurveID<u16>
 GroupSizeSpellPointsCurveID<u16>
 Field_1_15_4_56400_013<32>
+
+LAYOUT 61D303B1
+BUILD 5.5.4.67090
+$noninline,id$ID<32>
+Field_5_5_4_67090_000_lang
+Field_5_5_4_67090_001<u8>
+Field_5_5_4_67090_002<u8>
+Field_5_5_4_67090_003<8>
+Field_5_5_4_67090_004<16>
+Field_5_5_4_67090_005<u8>
+Field_5_5_4_67090_006<u8>
+Field_5_5_4_67090_007<32>
+Field_5_5_4_67090_008<u8>
+Field_5_5_4_67090_009<16>
+Field_5_5_4_67090_010<u16>
+Field_5_5_4_67090_011<u16>
+Field_5_5_4_67090_012<u16>
+Field_5_5_4_67090_013<32>
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.0.1.18179

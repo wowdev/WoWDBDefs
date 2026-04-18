@@ -23,6 +23,22 @@ int Field_0_5_5_3494_012? // only set on [Plate Mail] in 0.5.5
 locstring AbilityVerb_lang?
 locstring AbilityAllVerb_lang?
 int RaceMasks?
+int Field_5_5_4_67090_000?
+int Field_5_5_4_67090_001?
+int Field_5_5_4_67090_002?
+int Field_5_5_4_67090_003?
+int Field_5_5_4_67090_004?
+int Field_5_5_4_67090_005?
+int Field_5_5_4_67090_006?
+int Field_5_5_4_67090_007?
+int Field_5_5_4_67090_008?
+int Field_5_5_4_67090_009?
+int Field_5_5_4_67090_010?
+int Field_5_5_4_67090_011?
+int Field_5_5_4_67090_012?
+int Field_5_5_4_67090_013?
+int Field_5_5_4_67090_014?
+int Field_5_5_4_67090_015?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -302,6 +318,25 @@ UniqueBit<16>
 TradeSkillCategoryID<16>
 SkillupSkillLineID<16>
 CharacterPoints<32>[2]
+
+LAYOUT 0ED0E33F
+BUILD 5.5.4.67090
+$id$Field_5_5_4_67090_000<32>
+$relation$Field_5_5_4_67090_001<16>
+Field_5_5_4_67090_002<32>
+Field_5_5_4_67090_003<16>
+Field_5_5_4_67090_004<32>
+Field_5_5_4_67090_005<32>
+Field_5_5_4_67090_006<32>
+Field_5_5_4_67090_007<16>
+Field_5_5_4_67090_008<16>
+Field_5_5_4_67090_009<32>
+Field_5_5_4_67090_010<8>
+Field_5_5_4_67090_011<16>
+Field_5_5_4_67090_012<16>
+Field_5_5_4_67090_013<16>
+Field_5_5_4_67090_014<32>[2]
+Field_5_5_4_67090_015<32>[2]
 
 BUILD 6.0.1.18179
 BUILD 5.0.1.15668-5.4.8.18414

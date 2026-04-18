@@ -14,6 +14,18 @@ int<ChrCustomizationReq::ID> Requirement
 int AddedInPatch?
 int<ChrRaces::ID> ChrRacesID?
 int Sex?
+locstring Field_5_5_4_67090_000_lang?
+int Field_5_5_4_67090_001?
+int Field_5_5_4_67090_002?
+int Field_5_5_4_67090_003?
+int Field_5_5_4_67090_004?
+int Field_5_5_4_67090_005?
+int Field_5_5_4_67090_006?
+int Field_5_5_4_67090_007?
+float Field_5_5_4_67090_008?
+int Field_5_5_4_67090_009?
+int Field_5_5_4_67090_010?
+int Field_5_5_4_67090_011?
 
 LAYOUT 26DBFCD5
 BUILD 4.4.0.53627, 4.4.0.53750, 4.4.0.53863, 4.4.0.53973, 4.4.0.54027, 4.4.0.54137, 4.4.0.54217, 4.4.0.54339, 4.4.0.54377, 4.4.0.54427, 4.4.0.54481, 4.4.0.54500, 4.4.0.54501, 4.4.0.54525, 4.4.0.54558, 4.4.0.54647, 4.4.0.54670, 4.4.0.54737, 4.4.0.54851, 4.4.0.54901, 4.4.0.54986, 4.4.0.55006
@@ -101,6 +113,21 @@ BarberShopCostModifier
 ChrCustomizationID<32>
 Requirement<32>
 SecondaryOrderIndex<32>
+
+LAYOUT EF4B96C5
+BUILD 5.5.4.67090
+Field_5_5_4_67090_000_lang
+$id$Field_5_5_4_67090_001<32>
+Field_5_5_4_67090_002<u16>
+Field_5_5_4_67090_003<32>
+$relation$Field_5_5_4_67090_004<32>
+Field_5_5_4_67090_005<32>
+Field_5_5_4_67090_006<32>
+Field_5_5_4_67090_007<32>
+Field_5_5_4_67090_008
+Field_5_5_4_67090_009<32>
+Field_5_5_4_67090_010<32>
+Field_5_5_4_67090_011<32>
 
 LAYOUT 3F99DF9F
 BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199

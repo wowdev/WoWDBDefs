@@ -11,6 +11,15 @@ int ClassMask
 int RaceMask
 int<AnimationData::ID> EmoteAnimID
 int RaceMasks?
+string Field_5_5_4_67090_000?
+int Field_5_5_4_67090_001?
+int Field_5_5_4_67090_002?
+int Field_5_5_4_67090_003?
+int Field_5_5_4_67090_004?
+int Field_5_5_4_67090_005?
+int Field_5_5_4_67090_006?
+int Field_5_5_4_67090_007?
+int Field_5_5_4_67090_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -54,6 +63,19 @@ EmoteFlags<32>
 EmoteSpecProc<32>
 EmoteSpecProcParam<32>
 EventSoundID<32>
+
+LAYOUT 0A598B68
+BUILD 5.5.4.67090
+$noninline,id$ID<32>
+Field_5_5_4_67090_000
+Field_5_5_4_67090_001<16>
+Field_5_5_4_67090_002<32>
+Field_5_5_4_67090_003<32>
+Field_5_5_4_67090_004<u32>
+Field_5_5_4_67090_005<u32>
+Field_5_5_4_67090_006<u32>
+Field_5_5_4_67090_007<32>
+Field_5_5_4_67090_008<32>[2]
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

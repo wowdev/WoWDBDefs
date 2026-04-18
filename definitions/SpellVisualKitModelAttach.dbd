@@ -29,6 +29,29 @@ float Field_9_0_1_33978_021?
 int Field_7_3_2_25549_000? // always matches ParentSpellVisualKitID relation?
 int Field_11_0_0_54210_022?
 int Field_1_15_4_56400_021?
+float Field_5_5_4_67090_000?
+float Field_5_5_4_67090_001?
+int Field_5_5_4_67090_002?
+int Field_5_5_4_67090_003?
+int Field_5_5_4_67090_004?
+int Field_5_5_4_67090_005?
+float Field_5_5_4_67090_006?
+float Field_5_5_4_67090_007?
+float Field_5_5_4_67090_008?
+float Field_5_5_4_67090_009?
+float Field_5_5_4_67090_010?
+float Field_5_5_4_67090_011?
+float Field_5_5_4_67090_012?
+float Field_5_5_4_67090_013?
+int Field_5_5_4_67090_014?
+int Field_5_5_4_67090_015?
+int Field_5_5_4_67090_016?
+int Field_5_5_4_67090_017?
+int Field_5_5_4_67090_018?
+int Field_5_5_4_67090_019?
+float Field_5_5_4_67090_020?
+int Field_5_5_4_67090_021?
+int Field_5_5_4_67090_022?
 
 LAYOUT B9DFDC7A
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -201,6 +224,32 @@ LowDefModelAttachID<u32>
 StartDelay
 Field_1_15_4_56400_021<u16>
 $noninline,relation$ParentSpellVisualKitID<32>
+
+LAYOUT 2E4C71CF
+BUILD 5.5.4.67090
+Field_5_5_4_67090_000[3]
+Field_5_5_4_67090_001[3]
+$id$Field_5_5_4_67090_002<32>
+Field_5_5_4_67090_003<u16>
+Field_5_5_4_67090_004<8>
+Field_5_5_4_67090_005<u16>
+Field_5_5_4_67090_006
+Field_5_5_4_67090_007
+Field_5_5_4_67090_008
+Field_5_5_4_67090_009
+Field_5_5_4_67090_010
+Field_5_5_4_67090_011
+Field_5_5_4_67090_012
+Field_5_5_4_67090_013
+Field_5_5_4_67090_014<16>
+Field_5_5_4_67090_015<16>
+Field_5_5_4_67090_016<16>
+Field_5_5_4_67090_017<u16>
+Field_5_5_4_67090_018<32>
+Field_5_5_4_67090_019<u32>
+Field_5_5_4_67090_020
+Field_5_5_4_67090_021<u16>
+$noninline,relation$Field_5_5_4_67090_022<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>
