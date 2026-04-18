@@ -20,23 +20,6 @@ int DecayTimeAfterImpact? // defaults to 5000 if not set here - read in CMissile
 int Field_5_4_0_17266_006?
 int Field_11_0_0_54210_017?
 int Field_1_15_4_56400_015?
-float Field_5_5_4_67090_000?
-float Field_5_5_4_67090_001?
-int Field_5_5_4_67090_002?
-int Field_5_5_4_67090_003?
-int Field_5_5_4_67090_004?
-int Field_5_5_4_67090_005?
-int Field_5_5_4_67090_006?
-int Field_5_5_4_67090_007?
-int Field_5_5_4_67090_008?
-int Field_5_5_4_67090_009?
-int Field_5_5_4_67090_010?
-int Field_5_5_4_67090_011?
-int Field_5_5_4_67090_012?
-int Field_5_5_4_67090_013?
-int Field_5_5_4_67090_014?
-int Field_5_5_4_67090_015?
-int Field_5_5_4_67090_016?
 
 LAYOUT 130A6DDE
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -180,23 +163,23 @@ $noninline,relation$SpellVisualMissileSetID<32>
 
 LAYOUT B670A059
 BUILD 5.5.4.67090
-Field_5_5_4_67090_000[3]
-Field_5_5_4_67090_001[3]
-$id$Field_5_5_4_67090_002<32>
-Field_5_5_4_67090_003<u16>
-Field_5_5_4_67090_004<u32>
-Field_5_5_4_67090_005<8>
-Field_5_5_4_67090_006<8>
-Field_5_5_4_67090_007<u16>
-Field_5_5_4_67090_008<u16>
-Field_5_5_4_67090_009<32>
-Field_5_5_4_67090_010<u32>
-Field_5_5_4_67090_011<u16>
-Field_5_5_4_67090_012<32>
-Field_5_5_4_67090_013<u16>
-Field_5_5_4_67090_014<u32>
-Field_5_5_4_67090_015<u16>
-$noninline,relation$Field_5_5_4_67090_016<32>
+CastOffset[3]
+ImpactOffset[3]
+$id$ID<32>
+SpellVisualEffectNameID<u16>
+SoundEntriesID<u32>
+Attachment<8>
+DestinationAttachment<8>
+CastPositionerID<u16>
+ImpactPositionerID<u16>
+FollowGroundHeight<32>
+FollowGroundDropSpeed<u32>
+FollowGroundApproach<u16>
+Flags<32>
+SpellMissileMotionID<u16>
+AnimKitID<u32>
+Field_1_15_4_56400_015<u16>
+$noninline,relation$SpellVisualMissileSetID<32>
 
 BUILD 6.0.1.18179
 $id$ID<32>

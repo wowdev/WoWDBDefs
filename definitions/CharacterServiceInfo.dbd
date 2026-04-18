@@ -13,34 +13,22 @@ int Priority
 int ProfessionLevel
 int ServiceType? // 0: Generic, 1: Level Boost, 2: Change
 int Field_11_0_0_54675_012?
-locstring Field_5_5_4_67090_000_lang?
-locstring Field_5_5_4_67090_001_lang?
-locstring Field_5_5_4_67090_002_lang?
-int Field_5_5_4_67090_003?
-int Field_5_5_4_67090_004?
-int Field_5_5_4_67090_005?
-int Field_5_5_4_67090_006?
-int Field_5_5_4_67090_007?
-int Field_5_5_4_67090_008?
-int Field_5_5_4_67090_009?
-int Field_5_5_4_67090_010?
-int Field_5_5_4_67090_011?
 
 LAYOUT 00BAE418
 BUILD 5.5.4.67090
 $noninline,id$ID<32>
-Field_5_5_4_67090_000_lang
-Field_5_5_4_67090_001_lang
-Field_5_5_4_67090_002_lang
-Field_5_5_4_67090_003<32>
-Field_5_5_4_67090_004<32>
-Field_5_5_4_67090_005<32>
-Field_5_5_4_67090_006<32>
-Field_5_5_4_67090_007<32>
-Field_5_5_4_67090_008<32>
-Field_5_5_4_67090_009<32>
-Field_5_5_4_67090_010<32>
-Field_5_5_4_67090_011<32>
+FlowTitle_lang
+PopupTitle_lang
+PopupDescription_lang
+ServiceType<32>
+BoostType<32>
+IconFileDataID<32>
+Priority<32>
+Flags<32>
+ProfessionLevel<32>
+BoostLevel<32>
+Expansion<32>
+PopupUITextureKitID<32>
 
 LAYOUT 371E296E
 BUILD 8.0.1.26624, 8.0.1.26629, 8.0.1.26637, 8.0.1.26640, 8.0.1.26683, 8.0.1.26707, 8.0.1.26714, 8.0.1.26715, 8.0.1.26734, 8.0.1.26766

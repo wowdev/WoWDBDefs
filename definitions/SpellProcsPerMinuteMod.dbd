@@ -4,10 +4,6 @@ int Type
 int Param
 float Coeff
 int<SpellProcsPerMinute::ID> SpellProcsPerMinuteID
-int Field_5_5_4_67090_000?
-int Field_5_5_4_67090_001?
-float Field_5_5_4_67090_002?
-int Field_5_5_4_67090_003?
 
 LAYOUT A09AE996
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
@@ -66,10 +62,10 @@ $noninline,relation$SpellProcsPerMinuteID<32>
 LAYOUT 2B35D327
 BUILD 5.5.4.67090
 $noninline,id$ID<32>
-Field_5_5_4_67090_000<32>
-Field_5_5_4_67090_001<16>
-Field_5_5_4_67090_002
-$noninline,relation$Field_5_5_4_67090_003<32>
+Type<32>
+Param<16>
+Coeff
+$noninline,relation$SpellProcsPerMinuteID<32>
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414

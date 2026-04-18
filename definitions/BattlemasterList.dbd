@@ -26,24 +26,8 @@ int Field_4_4_0_54339_016?
 int Field_4_4_0_54339_017?
 int Field_1_15_3_55112_016?
 int Field_1_15_3_55112_017?
-locstring Field_5_5_4_67090_000_lang?
-locstring Field_5_5_4_67090_001_lang?
-locstring Field_5_5_4_67090_002_lang?
-locstring Field_5_5_4_67090_003_lang?
-int Field_5_5_4_67090_004?
-int Field_5_5_4_67090_005?
-int Field_5_5_4_67090_006?
-int Field_5_5_4_67090_007?
-int Field_5_5_4_67090_008?
-int Field_5_5_4_67090_009?
-int Field_5_5_4_67090_010?
-int Field_5_5_4_67090_011?
-int Field_5_5_4_67090_012?
-int Field_5_5_4_67090_013?
-int Field_5_5_4_67090_014?
-int Field_5_5_4_67090_015?
-int Field_5_5_4_67090_016?
-int Field_5_5_4_67090_017?
+locstring Field_5_5_4_67090_002_lang? //  DBAnalyser: [ShortDescription_lang, 1%], [LongDescription_lang, 1%]
+locstring Field_5_5_4_67090_003_lang? //  DBAnalyser: [ShortDescription_lang, 1%], [LongDescription_lang, 1%]
 
 LAYOUT 1DAAA212
 BUILD 1.13.7.37279, 1.13.7.37429, 1.13.7.37892, 1.13.7.38178, 1.13.7.38296, 1.13.7.38363, 1.13.7.38386, 1.13.7.38475, 1.13.7.38631, 1.13.7.38704, 1.13.7.39605, 1.13.7.39692
@@ -362,24 +346,24 @@ Field_1_15_3_55112_017<32>
 LAYOUT 6B719279
 BUILD 5.5.4.67090
 $noninline,id$ID<32>
-Field_5_5_4_67090_000_lang
-Field_5_5_4_67090_001_lang
+Name_lang
+GameType_lang
 Field_5_5_4_67090_002_lang
 Field_5_5_4_67090_003_lang
-Field_5_5_4_67090_004<32>
-Field_5_5_4_67090_005<8>
-Field_5_5_4_67090_006<8>
-Field_5_5_4_67090_007<8>
-Field_5_5_4_67090_008<8>
-Field_5_5_4_67090_009<32>
-Field_5_5_4_67090_010<8>
-Field_5_5_4_67090_011<8>
-Field_5_5_4_67090_012<16>
-Field_5_5_4_67090_013<32>
-Field_5_5_4_67090_014<32>
-Field_5_5_4_67090_015<32>
-Field_5_5_4_67090_016<32>
-Field_5_5_4_67090_017<32>
+InstanceType<32>
+MinLevel<8>
+MaxLevel<8>
+RatedPlayers<8>
+MinPlayers<8>
+MaxPlayers<32>
+GroupsAllowed<8>
+MaxGroupSize<8>
+HolidayWorldState<16>
+Flags<32>
+IconFileDataID<32>
+Required_Player_Condition_ID<32>
+Field_1_15_3_55112_016<32>
+Field_1_15_3_55112_017<32>
 
 BUILD 6.0.1.18179
 BUILD 5.3.0.16844-5.4.8.18414

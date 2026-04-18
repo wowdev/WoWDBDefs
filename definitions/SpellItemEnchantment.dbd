@@ -43,28 +43,11 @@ int Field_1_15_3_55112_015?
 int Field_1_15_3_55112_018?
 int Field_1_15_3_55112_020?
 int Field_1_15_3_55112_021?
-locstring Field_5_5_4_67090_000_lang?
-locstring Field_5_5_4_67090_001_lang?
-int Field_5_5_4_67090_002?
-int Field_5_5_4_67090_003?
-int Field_5_5_4_67090_004?
-int Field_5_5_4_67090_005?
-int Field_5_5_4_67090_006?
-int Field_5_5_4_67090_007?
-float Field_5_5_4_67090_008?
-int Field_5_5_4_67090_009?
-int Field_5_5_4_67090_010?
-int Field_5_5_4_67090_011?
-int Field_5_5_4_67090_012?
-int Field_5_5_4_67090_013?
-int Field_5_5_4_67090_014?
-int Field_5_5_4_67090_015?
-int Field_5_5_4_67090_016?
-int Field_5_5_4_67090_017?
-int Field_5_5_4_67090_018?
-int Field_5_5_4_67090_019?
-int Field_5_5_4_67090_020?
-int Field_5_5_4_67090_021?
+int Field_5_5_4_67090_004? //  DBAnalyser: [EffectPointsMin, 1%], [EffectPointsMax, 1%]
+int Field_5_5_4_67090_005? //  DBAnalyser: [EffectPointsMin, 1%], [EffectPointsMax, 1%]
+int Field_5_5_4_67090_017? //  DBAnalyser: [Field_1_15_3_55112_018, 0,95%], [Field_1_15_3_55112_020, 0,95%], [Field_1_15_3_55112_021, 0,95%], [Condition_ID, 0,95%]
+int Field_5_5_4_67090_019? //  DBAnalyser: [Field_1_15_3_55112_018, 0,95%], [Field_1_15_3_55112_020, 0,95%], [Field_1_15_3_55112_021, 0,95%], [Condition_ID, 0,95%]
+int Field_5_5_4_67090_020? //  DBAnalyser: [Field_1_15_3_55112_018, 0,95%], [Field_1_15_3_55112_020, 0,95%], [Field_1_15_3_55112_021, 0,95%], [Condition_ID, 0,95%]
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -368,28 +351,28 @@ Field_1_15_3_55112_021<32>
 LAYOUT C681231E
 BUILD 5.5.4.67090
 $noninline,id$ID<32>
-Field_5_5_4_67090_000_lang
-Field_5_5_4_67090_001_lang
-Field_5_5_4_67090_002<32>
-Field_5_5_4_67090_003<32>[3]
+Name_lang
+HordeName_lang
+Charges<32>
+Effect<32>[3]
 Field_5_5_4_67090_004<32>[3]
 Field_5_5_4_67090_005<32>[3]
-Field_5_5_4_67090_006<32>[3]
-Field_5_5_4_67090_007<32>
-Field_5_5_4_67090_008[3]
-Field_5_5_4_67090_009<32>
-Field_5_5_4_67090_010<32>
-Field_5_5_4_67090_011<32>
-Field_5_5_4_67090_012<32>
-Field_5_5_4_67090_013<32>
-Field_5_5_4_67090_014<32>
-Field_5_5_4_67090_015<32>
-Field_5_5_4_67090_016<32>
+EffectArg<32>[3]
+Flags<32>
+Field_1_15_3_55112_009[3]
+Field_1_15_3_55112_010<32>
+ScalingClassRestricted<32>
+Field_1_15_3_55112_012<32>
+Field_1_15_3_55112_013<32>
+Field_1_15_3_55112_014<32>
+Field_1_15_3_55112_015<32>
+MinLevel<32>
+MaxLevel<32>
 Field_5_5_4_67090_017<32>
-Field_5_5_4_67090_018<32>
+ItemLevel<32>
 Field_5_5_4_67090_019<32>
 Field_5_5_4_67090_020<32>
-Field_5_5_4_67090_021<u16>
+ItemVisual<u16>
 
 BUILD 6.0.1.18179
 BUILD 5.4.0.17266-5.4.8.18414

@@ -11,15 +11,8 @@ int StartMinOffsetMs
 int TargetType
 int Field_10_0_0_44649_008? // empowerment stuff probably
 int Field_10_0_0_44649_009?
-int Field_5_5_4_67090_000?
-int Field_5_5_4_67090_001?
-int Field_5_5_4_67090_002?
-int Field_5_5_4_67090_003?
-int Field_5_5_4_67090_004?
-int Field_5_5_4_67090_005?
-int Field_5_5_4_67090_006?
-int Field_5_5_4_67090_007?
-int Field_5_5_4_67090_008?
+int Field_5_5_4_67090_004? //  DBAnalyser: [EndMinOffsetMs, 0,95%], [EndMaxOffsetMs, 0,95%]
+int Field_5_5_4_67090_005? //  DBAnalyser: [EndMinOffsetMs, 0,95%], [EndMaxOffsetMs, 0,95%]
 
 LAYOUT 89263837
 BUILD 5.5.3.64141, 5.5.3.64308, 5.5.3.64400, 5.5.3.64530, 5.5.3.64794, 5.5.3.64802, 5.5.3.64857, 5.5.3.65302, 5.5.3.65703, 5.5.3.65746, 5.5.3.65890, 5.5.3.65988, 5.5.3.66128, 5.5.3.66264, 5.5.3.66290, 5.5.3.66382, 5.5.3.66509, 5.5.3.66565, 5.5.3.66839
@@ -53,15 +46,15 @@ $noninline,relation$SpellVisualID<32>
 LAYOUT C578A6C7
 BUILD 5.5.4.67090
 $noninline,id$ID<32>
-Field_5_5_4_67090_000<32>
-Field_5_5_4_67090_001<32>
-Field_5_5_4_67090_002<32>
-Field_5_5_4_67090_003<32>
+StartEvent<32>
+EndEvent<32>
+StartMinOffsetMs<32>
+StartMaxOffsetMs<32>
 Field_5_5_4_67090_004<32>
 Field_5_5_4_67090_005<32>
-Field_5_5_4_67090_006<32>
-Field_5_5_4_67090_007<32>
-$noninline,relation$Field_5_5_4_67090_008<32>
+TargetType<32>
+SpellVisualKitID<32>
+$noninline,relation$SpellVisualID<32>
 
 LAYOUT 487A650E
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549

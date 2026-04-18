@@ -19,23 +19,9 @@ int<FileData::ID> DynamicIconFileID
 int OrderIndex
 int PhaseShift
 int<Faction::ID> FactionID
-string Field_5_5_4_67090_000?
-locstring Field_5_5_4_67090_001_lang?
-locstring Field_5_5_4_67090_002_lang?
-locstring Field_5_5_4_67090_003_lang?
-string Field_5_5_4_67090_004?
-int Field_5_5_4_67090_005?
-int Field_5_5_4_67090_006?
-int Field_5_5_4_67090_007?
-int Field_5_5_4_67090_008?
-int Field_5_5_4_67090_009?
-int Field_5_5_4_67090_010?
-int Field_5_5_4_67090_011?
-int Field_5_5_4_67090_012?
-int Field_5_5_4_67090_013?
-int Field_5_5_4_67090_014?
-int Field_5_5_4_67090_015?
-int Field_5_5_4_67090_016?
+int Field_5_5_4_67090_010? //  DBAnalyser: [DynamicIconFileID, 0,95%], [DynamicFlashIconFileID, 0,95%], [PhaseGroupID, 0,95%]
+int Field_5_5_4_67090_011? //  DBAnalyser: [DynamicIconFileID, 0,95%], [DynamicFlashIconFileID, 0,95%], [PhaseGroupID, 0,95%]
+int Field_5_5_4_67090_015? //  DBAnalyser: [DynamicIconFileID, 0,95%], [DynamicFlashIconFileID, 0,95%], [PhaseGroupID, 0,95%]
 
 BUILD 2.0.0.5991
 BUILD 1.5.0.4442-1.11.2.5464
@@ -234,23 +220,23 @@ ExtendedUIStateVariable<u16>[3]
 
 LAYOUT 50D95E2C
 BUILD 5.5.4.67090
-Field_5_5_4_67090_000
-Field_5_5_4_67090_001_lang
-Field_5_5_4_67090_002_lang
-Field_5_5_4_67090_003_lang
-Field_5_5_4_67090_004
-$id$Field_5_5_4_67090_005<32>
-$relation$Field_5_5_4_67090_006<16>
-Field_5_5_4_67090_007<u16>
-Field_5_5_4_67090_008<u16>
-Field_5_5_4_67090_009<32>
+Icon
+String_lang
+Tooltip_lang
+DynamicTooltip_lang
+ExtendedUI
+$id$ID<32>
+$relation$MapID<16>
+AreaID<u16>
+StateVariable<u16>
+Type<32>
 Field_5_5_4_67090_010<32>
 Field_5_5_4_67090_011<32>
-Field_5_5_4_67090_012<u8>
-Field_5_5_4_67090_013<32>
-Field_5_5_4_67090_014<u16>
+OrderIndex<u8>
+PhaseUseFlags<32>
+PhaseID<u16>
 Field_5_5_4_67090_015<u16>
-Field_5_5_4_67090_016<u16>[3]
+ExtendedUIStateVariable<u16>[3]
 
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.4.21742

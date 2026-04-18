@@ -25,24 +25,9 @@ int Field_12_0_5_66330_017?
 int Field_12_0_5_66330_018?
 int Field_12_0_5_66330_019?
 int Field_12_0_5_66330_020?
-locstring Field_5_5_4_67090_000_lang?
-locstring Field_5_5_4_67090_001_lang?
-int Field_5_5_4_67090_002?
-int Field_5_5_4_67090_003?
-int Field_5_5_4_67090_004?
-int Field_5_5_4_67090_005?
-int Field_5_5_4_67090_006?
-int Field_5_5_4_67090_007?
-int Field_5_5_4_67090_008?
-int Field_5_5_4_67090_009?
-int Field_5_5_4_67090_010?
-int Field_5_5_4_67090_011?
-int Field_5_5_4_67090_012?
-int Field_5_5_4_67090_013?
-int Field_5_5_4_67090_014?
-float Field_5_5_4_67090_015?
-int Field_5_5_4_67090_016?
-int Field_5_5_4_67090_017?
+int Field_5_5_4_67090_008? //  DBAnalyser: [Field_3_4_1_46722_009, 0,95%], [Field_3_4_1_46722_010, 0,95%], [Field_3_4_1_46722_011, 0,95%], [ParagonFactionID, 0,95%]
+int Field_5_5_4_67090_009? //  DBAnalyser: [Field_3_4_1_46722_009, 0,95%], [Field_3_4_1_46722_010, 0,95%], [Field_3_4_1_46722_011, 0,95%], [ParagonFactionID, 0,95%]
+int Field_5_5_4_67090_010? //  DBAnalyser: [Field_3_4_1_46722_009, 0,95%], [Field_3_4_1_46722_010, 0,95%], [Field_3_4_1_46722_011, 0,95%], [ParagonFactionID, 0,95%]
 int Field_5_5_4_67090_018?
 int Field_5_5_4_67090_019?
 int Field_5_5_4_67090_020?
@@ -248,24 +233,24 @@ ParentFactionCap<u8>[2]
 
 LAYOUT 11322013
 BUILD 5.5.4.67090
-Field_5_5_4_67090_000_lang
-Field_5_5_4_67090_001_lang
-$id$Field_5_5_4_67090_002<32>
-Field_5_5_4_67090_003<16>
-Field_5_5_4_67090_004<u16>
-Field_5_5_4_67090_005<u8>
-Field_5_5_4_67090_006<u8>
-Field_5_5_4_67090_007<32>
+Name_lang
+Description_lang
+$id$ID<32>
+ReputationIndex<16>
+ParentFactionID<u16>
+Expansion<u8>
+FriendshipRepID<u8>
+Field_3_4_1_46722_008<32>
 Field_5_5_4_67090_008<u16>
 Field_5_5_4_67090_009<32>
 Field_5_5_4_67090_010<32>
-Field_5_5_4_67090_011<16>[4]
-Field_5_5_4_67090_012<u16>[4]
-Field_5_5_4_67090_013<32>[4]
-Field_5_5_4_67090_014<32>[4]
-Field_5_5_4_67090_015[2]
-Field_5_5_4_67090_016<u8>[2]
-Field_5_5_4_67090_017<32>[2]
+ReputationClassMask<16>[4]
+ReputationFlags<u16>[4]
+ReputationBase<32>[4]
+ReputationMax<32>[4]
+ParentFactionMod[2]
+ParentFactionCap<u8>[2]
+ReputationRaceMask<32>[2]
 Field_5_5_4_67090_018<32>[2]
 Field_5_5_4_67090_019<32>[2]
 Field_5_5_4_67090_020<32>[2]

@@ -8,15 +8,6 @@ int Flags
 int Delay
 int ArrivalEventID
 int DepartureEventID
-float Field_5_5_4_67090_000?
-int Field_5_5_4_67090_001?
-int Field_5_5_4_67090_002?
-int Field_5_5_4_67090_003?
-int Field_5_5_4_67090_004?
-int Field_5_5_4_67090_005?
-int Field_5_5_4_67090_006?
-int Field_5_5_4_67090_007?
-int Field_5_5_4_67090_008?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.8.0.3734
@@ -118,15 +109,15 @@ DepartureEventID<u32>
 
 LAYOUT BB94AA30
 BUILD 5.5.4.67090
-Field_5_5_4_67090_000[3]
-$id$Field_5_5_4_67090_001<32>
-$relation$Field_5_5_4_67090_002<32>
-Field_5_5_4_67090_003<32>
-Field_5_5_4_67090_004<u16>
-Field_5_5_4_67090_005<32>
-Field_5_5_4_67090_006<u32>
-Field_5_5_4_67090_007<u32>
-Field_5_5_4_67090_008<u32>
+Loc[3]
+$id$ID<32>
+$relation$PathID<32>
+NodeIndex<32>
+ContinentID<u16>
+Flags<32>
+Delay<u32>
+ArrivalEventID<u32>
+DepartureEventID<u32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792
