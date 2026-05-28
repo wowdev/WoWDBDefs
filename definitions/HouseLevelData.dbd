@@ -2,9 +2,6 @@ COLUMNS
 int ID?
 int Level?
 int<QuestV2::ID> QuestID?
-int Field_12_0_7_67808_000?
-int Field_12_0_7_67808_001?
-int Field_12_0_7_67808_002?
 int Field_12_0_7_67808_003?
 
 LAYOUT B9536B25
@@ -22,7 +19,7 @@ QuestID<32>
 
 LAYOUT F8146F9D
 BUILD 12.0.7.67808
-$id$Field_12_0_7_67808_000<32>
-Field_12_0_7_67808_001<32>
-Field_12_0_7_67808_002<32>
+$id$ID<32>
+Level<32>
+QuestID<32>
 Field_12_0_7_67808_003<32>
