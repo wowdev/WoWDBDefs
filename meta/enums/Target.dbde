@@ -129,3 +129,5 @@
 138 TARGET_DEST_DEST_GROUND
 140 TARGET_DEST_CASTER_CLUMP_CENTROID
 150 TARGET_UNIT_OWN_CRITTER
+151 TARGET_UNIT_AREA_DYNAMIC_LINE // Bit difficult to name this properly. Seems to create a line between the caster and their target, selecting all valid targets within the area. SpellRadius entries seem likely to be the maximum length? 
+152 TARGET_BATTLE_PET
