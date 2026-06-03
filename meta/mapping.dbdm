@@ -232,6 +232,7 @@ ENUM SoundCharacterMacroLines::Race ChrRaceID // Not a real enum, but for ease
 ENUM SoundEmitters::EmitterType SoundEmitterType
 ENUM SoundEntries::SoundType SoundKitType
 ENUM SoundKit::SoundType SoundKitType
+ENUM SpellCategories::DispelType DispelType
 ENUM SpellClassOptions::SpellClassSet SpellClassSet
 ENUM SpellEffect::Effect SpellEffect
 ENUM SpellEffect::EffectAura SpellEffectAura
