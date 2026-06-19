@@ -6,13 +6,7 @@ int Category? // 0 = Essential, 1 = Utility, 2 = TrackedBuff, 3 = TrackedBar
 int<PlayerCondition::ID> PlayerConditionID?
 int OrderIndex?
 int Flags?
-int Field_12_1_0_68209_000?
-int Field_12_1_0_68209_001?
-int Field_12_1_0_68209_002?
-int Field_12_1_0_68209_003?
-int Field_12_1_0_68209_004?
-int Field_12_1_0_68209_005?
-int Field_12_1_0_68209_006?
+int Field_12_1_0_68209_005? //  DBAnalyser: [OrderIndex, 0,38%]
 int Field_12_1_0_68209_007?
 int Field_12_1_0_68209_008?
 int Field_12_1_0_68209_009?
@@ -47,13 +41,13 @@ Flags<32>
 
 LAYOUT 0AC7B8F5
 BUILD 12.1.0.68209
-$id$Field_12_1_0_68209_000<32>
-$relation$Field_12_1_0_68209_001<32>
-Field_12_1_0_68209_002<32>
-Field_12_1_0_68209_003<u8>
-Field_12_1_0_68209_004<32>
+$id$ID<32>
+$relation$CooldownSetID<32>
+SpellID<32>
+Category<u8>
+PlayerConditionID<32> //  DBAnalyser: [PlayerConditionID, 0,85%]
 Field_12_1_0_68209_005<32>
-Field_12_1_0_68209_006<32>
+Flags<32>
 Field_12_1_0_68209_007<32>
 Field_12_1_0_68209_008<32>
 Field_12_1_0_68209_009<32>

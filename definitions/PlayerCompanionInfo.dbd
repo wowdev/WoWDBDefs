@@ -15,23 +15,8 @@ int Field_12_0_0_64499_011?
 int Field_12_0_0_64499_012?
 locstring UnlockDescription_lang?
 int Field_12_0_1_64889_014?
-locstring Field_12_1_0_68209_000_lang?
 locstring Field_12_1_0_68209_001_lang?
-int Field_12_1_0_68209_002?
-int Field_12_1_0_68209_003?
-int Field_12_1_0_68209_004?
-int Field_12_1_0_68209_005?
-int Field_12_1_0_68209_006?
-int Field_12_1_0_68209_007?
-int Field_12_1_0_68209_008?
-int Field_12_1_0_68209_009?
-int Field_12_1_0_68209_010?
-int Field_12_1_0_68209_011?
-int Field_12_1_0_68209_012?
-int Field_12_1_0_68209_013?
-int Field_12_1_0_68209_014?
 int Field_12_1_0_68209_015?
-int Field_12_1_0_68209_016?
 
 LAYOUT 4EF4C3DB
 BUILD 11.0.7.57361, 11.0.7.57409, 11.0.7.57528, 11.0.7.57641, 11.0.7.57788, 11.0.7.58046, 11.0.7.58123, 11.0.7.58162, 11.0.7.58187, 11.0.7.58238, 11.0.7.58533, 11.0.7.58608, 11.0.7.58630, 11.0.7.58680, 11.0.7.58773, 11.0.7.58867, 11.0.7.58911, 11.0.7.59207, 11.0.7.59302
@@ -138,20 +123,20 @@ $noninline,relation$Field_12_0_1_64889_014<32>
 
 LAYOUT 55DA5E60
 BUILD 12.1.0.68209
-Field_12_1_0_68209_000_lang
+UnlockDescription_lang
 Field_12_1_0_68209_001_lang
-$id$Field_12_1_0_68209_002<32>
-Field_12_1_0_68209_003<32>
-Field_12_1_0_68209_004<32>
-Field_12_1_0_68209_005<32>
-Field_12_1_0_68209_006<32>
-Field_12_1_0_68209_007<32>
-Field_12_1_0_68209_008<32>
-Field_12_1_0_68209_009<32>
-Field_12_1_0_68209_010<32>
-Field_12_1_0_68209_011<32>
-Field_12_1_0_68209_012<32>
-Field_12_1_0_68209_013<32>
-Field_12_1_0_68209_014<32>
+$id$ID<32>
+DelvesSeasonID<32>
+TraitTreeID<32>
+TraitNodeID_DPS<32>
+TraitNodeID_Heal<32>
+TraitSubTreeID_DPS<32>
+TraitSubTreeID_Heal<32>
+TraitSubTreeID_Tank<32>
+FactionID<32>
+CreatureDisplayInfoID<32>
+UiModelSceneID<32>
+Field_12_0_0_64499_011<32>
+Field_12_0_0_64499_012<32>
 Field_12_1_0_68209_015<32>
-$noninline,relation$Field_12_1_0_68209_016<32>
+$noninline,relation$Field_12_0_1_64889_014<32>

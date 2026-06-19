@@ -13,20 +13,6 @@ int<GameObjects::ID> GameObjectID?
 int<HouseExteriorWmoData::ID> HouseExteriorWmoDataID?
 int Field_11_2_7_64044_011?
 int ItemID?
-locstring Field_12_1_0_68209_000_lang?
-float Field_12_1_0_68209_001?
-int Field_12_1_0_68209_002?
-int Field_12_1_0_68209_003?
-int Field_12_1_0_68209_004?
-int Field_12_1_0_68209_005?
-int Field_12_1_0_68209_006?
-int Field_12_1_0_68209_007?
-int Field_12_1_0_68209_008?
-int Field_12_1_0_68209_009?
-int Field_12_1_0_68209_010?
-int Field_12_1_0_68209_011?
-int Field_12_1_0_68209_012?
-int Field_12_1_0_68209_013?
 
 LAYOUT 21BF81E6
 BUILD 12.0.0.63534, 12.0.0.63724, 12.0.0.63728, 12.0.0.63854, 12.0.0.63967
@@ -86,17 +72,17 @@ $noninline,relation$HouseExteriorWmoDataID<32>
 
 LAYOUT DC257C27
 BUILD 12.1.0.68209
-Field_12_1_0_68209_000_lang
-Field_12_1_0_68209_001[3]
-$id$Field_12_1_0_68209_002<32>
-Field_12_1_0_68209_003<u8>
-$relation$Field_12_1_0_68209_004<32>
-Field_12_1_0_68209_005<32>
-Field_12_1_0_68209_006<32>
-Field_12_1_0_68209_007<32>
-Field_12_1_0_68209_008<u8>
-Field_12_1_0_68209_009<u8>
-Field_12_1_0_68209_010<32>
-Field_12_1_0_68209_011<32>
-Field_12_1_0_68209_012<32>
-Field_12_1_0_68209_013<32>
+Name_lang
+EntryOffset[3]
+$id$ID<32>
+Size<u8>
+$relation$HouseExteriorWmoDataID<32>
+ParentComponentID<32>
+ModelFileDataID<32>
+Flags<32>
+Field_12_0_0_63534_007<u8>
+Type<u8>
+Field_12_0_0_63534_009<32>
+GameObjectID<32>
+Field_11_2_7_64044_011<32>
+ItemID<32>
