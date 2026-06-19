@@ -6,7 +6,6 @@ int Category? // 0 = Essential, 1 = Utility, 2 = TrackedBuff, 3 = TrackedBar
 int<PlayerCondition::ID> PlayerConditionID?
 int OrderIndex?
 int Flags?
-int Field_12_1_0_68209_005? //  DBAnalyser: [OrderIndex, 0,38%]
 int Field_12_1_0_68209_007?
 int Field_12_1_0_68209_008?
 int Field_12_1_0_68209_009?
@@ -46,7 +45,7 @@ $relation$CooldownSetID<32>
 SpellID<32>
 Category<u8>
 PlayerConditionID<32>
-Field_12_1_0_68209_005<32>
+OrderIndex<32>
 Flags<32>
 Field_12_1_0_68209_007<32>
 Field_12_1_0_68209_008<32>
