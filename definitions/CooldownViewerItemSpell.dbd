@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<Spell::ID> SpellID?
-int Field_12_1_0_68209_001?
+int OrderIndex? // Can also be named Priority depending on what the Client does with this.
 int Field_12_1_0_68209_002?
 int<Item::ID> ItemID?
 
@@ -9,6 +9,6 @@ LAYOUT 671AF576
 BUILD 12.1.0.68209, 12.1.0.68301
 $noninline,id$ID<32>
 SpellID<32>
-Field_12_1_0_68209_001<32>
+OrderIndex<32>
 Field_12_1_0_68209_002<32>
 $noninline,relation$ItemID<32>

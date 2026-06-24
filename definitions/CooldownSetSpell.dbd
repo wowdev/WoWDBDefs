@@ -6,9 +6,9 @@ int Category? // 0 = Essential, 1 = Utility, 2 = TrackedBuff, 3 = TrackedBar
 int<PlayerCondition::ID> PlayerConditionID?
 int OrderIndex?
 int Flags?
-int Field_12_1_0_68209_007?
-int Field_12_1_0_68209_008?
-int Field_12_1_0_68209_009?
+int<SpellCategory::ID> SpellCategoryID?
+int EquipSlot?
+int Field_12_1_0_68209_009? // Same as CooldownViewerItemSpell::Field_12_1_0_68209_002
 
 LAYOUT B5A471F2
 BUILD 12.0.7.67227, 12.0.7.67344, 12.0.7.67346, 12.0.7.67360, 12.0.7.67525, 12.0.7.67808, 12.0.7.68182, 12.0.7.68232, 12.0.7.68235, 12.0.7.68256, 12.0.7.68275
@@ -47,6 +47,6 @@ Category<u8>
 PlayerConditionID<32>
 OrderIndex<32>
 Flags<32>
-Field_12_1_0_68209_007<32>
-Field_12_1_0_68209_008<32>
+SpellCategoryID<32>
+EquipSlot<32>
 Field_12_1_0_68209_009<32>

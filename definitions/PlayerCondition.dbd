@@ -88,7 +88,6 @@ int<TraitNodeEntry::ID> TraitNodeEntryID?
 int TraitNodeEntryMinRank?
 int TraitNodeEntryMaxRank?
 int RaceMasks?
-int Field_12_1_0_68209_058?
 int Field_12_1_0_68209_048
 
 LAYOUT 8FEB04E0
@@ -2738,7 +2737,7 @@ MinPVPRank<8>
 MaxPVPRank<8>
 ContentTuningID<32>
 CovenantID<32>
-Field_12_1_0_68209_058<u32>
+TraitNodeEntryLogic<u32>
 SkillID<u16>[4]
 MinSkill<u16>[4]
 MaxSkill<u16>[4]

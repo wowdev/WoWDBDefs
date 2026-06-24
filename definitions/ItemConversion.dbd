@@ -6,7 +6,7 @@ int<ItemBonusTree::ID> ItemBonusTreeID?
 int<ItemLogicalCost::ID> ItemLogicalCostGroupID?
 int<ItemLogicalCost::ID> AlternateItemLogicalCostGroupID? // If PlayerConditionID is valid?
 int<PlayerCondition::ID> PlayerConditionID?
-int Field_12_1_0_68209_005?
+int Flags?
 
 LAYOUT C7738C36
 BUILD 9.2.0.41462, 9.2.0.41726, 9.2.0.41827, 9.2.0.41962
@@ -80,4 +80,4 @@ ItemBonusTreeID<32>
 ItemLogicalCostGroupID<32>
 AlternateItemLogicalCostGroupID<32>
 PlayerConditionID<32>
-Field_12_1_0_68209_005<32>
+Flags<32>

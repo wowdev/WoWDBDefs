@@ -11,12 +11,12 @@ int<UiModelScene::ID> UiModelSceneID?
 int<DelvesSeason::ID> DelvesSeasonID?
 int<TraitSubTree::ID> TraitSubTreeID_Tank?
 int PlayerCompanionID?
-int Field_12_0_0_64499_011?
+int<PlayerDataElementCharacter::ID> PlayerDataElementCharacterID?
 int Field_12_0_0_64499_012?
 locstring UnlockDescription_lang?
 int Field_12_0_1_64889_014?
 locstring Field_12_1_0_68209_001_lang?
-int Field_12_1_0_68209_015?
+int FlavorNodeID?
 
 LAYOUT 4EF4C3DB
 BUILD 11.0.7.57361, 11.0.7.57409, 11.0.7.57528, 11.0.7.57641, 11.0.7.57788, 11.0.7.58046, 11.0.7.58123, 11.0.7.58162, 11.0.7.58187, 11.0.7.58238, 11.0.7.58533, 11.0.7.58608, 11.0.7.58630, 11.0.7.58680, 11.0.7.58773, 11.0.7.58867, 11.0.7.58911, 11.0.7.59207, 11.0.7.59302
@@ -96,7 +96,7 @@ TraitSubTreeID_Tank<32>
 FactionID<32>
 CreatureDisplayInfoID<32>
 UiModelSceneID<32>
-Field_12_0_0_64499_011<32>
+PlayerDataElementCharacterID<32>
 Field_12_0_0_64499_012<32>
 
 LAYOUT F61B5AA1
@@ -117,7 +117,7 @@ TraitSubTreeID_Tank<32>
 FactionID<32>
 CreatureDisplayInfoID<32>
 UiModelSceneID<32>
-Field_12_0_0_64499_011<32>
+PlayerDataElementCharacterID<32>
 Field_12_0_0_64499_012<32>
 $noninline,relation$Field_12_0_1_64889_014<32>
 
@@ -136,7 +136,7 @@ TraitSubTreeID_Tank<32>
 FactionID<32>
 CreatureDisplayInfoID<32>
 UiModelSceneID<32>
-Field_12_0_0_64499_011<32>
+PlayerDataElementCharacterID<32>
 Field_12_0_0_64499_012<32>
-Field_12_1_0_68209_015<32>
+FlavorNodeID<32>
 $noninline,relation$Field_12_0_1_64889_014<32>

@@ -12,7 +12,7 @@ float Rot
 float Scale
 int TypeID
 int Field_11_0_0_54210_011?
-int Field_12_1_0_68209_006?
+int Flags? // 0x10000: Related to spherical range testing
 
 LAYOUT A41494FF
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -323,7 +323,7 @@ Rot[4]
 $id$ID<32>
 $relation$OwnerID<32>
 DisplayID<32>
-Field_12_1_0_68209_006<32>
+Flags<32>
 Scale
 TypeID<32>
 PhaseUseFlags<32>
