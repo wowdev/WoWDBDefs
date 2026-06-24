@@ -353,3 +353,8 @@
 352 LEARN_HOUSE_ROOM_COMPONENT_TEXTURE
 353 CREATE_AREATRIGGER_2
 354 SET_NEIGHBORHOOD_INITIATIVE
+355 
+356
+357 E_APPLY_ITEM_BONUS // Misc2 contains the bonus id
+358 E_REMOVE_ITEM_BONUS // Misc2 contains the bonus id
+359 E_APPLY_ITEM_CONDITION // Maybe incorrect, but seems most likely based on the misc value used.
