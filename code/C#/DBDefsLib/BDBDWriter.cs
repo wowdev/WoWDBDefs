@@ -272,7 +272,7 @@ namespace DBDefsLib
                         bw.WriteStringBlockString(stringBlock, mapping.columnName);
 
                         if (mapping.arrIndex.HasValue)
-                            bw.Write((sbyte)1);
+                            bw.Write((sbyte)mapping.arrIndex);
                         else
                             bw.Write((sbyte)-1);
 
