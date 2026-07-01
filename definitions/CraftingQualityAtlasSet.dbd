@@ -11,18 +11,7 @@ int<UiTextureAtlasElement::ID> BarHighlight?
 int<UiTextureAtlasElement::ID> BarBGCap?
 int<UiTextureAtlasElement::ID> BarFillFlipbook?
 int<UiTextureAtlasElement::ID> IconChat?
-int Field_12_1_0_68412_000?
-int Field_12_1_0_68412_001?
-int Field_12_1_0_68412_002?
-int Field_12_1_0_68412_003?
-int Field_12_1_0_68412_004?
-int Field_12_1_0_68412_005?
-int Field_12_1_0_68412_006?
-int Field_12_1_0_68412_007?
-int Field_12_1_0_68412_008?
-int Field_12_1_0_68412_009?
-int Field_12_1_0_68412_010?
-int Field_12_1_0_68412_011?
+int<UiTextureAtlasElement::ID> IconQuestObjective?
 
 LAYOUT 9BD23E0F
 BUILD 12.1.0.68209, 12.1.0.68301
@@ -48,15 +37,15 @@ IconChat<32>
 LAYOUT 4FC8E439
 BUILD 12.1.0.68412
 $noninline,id$ID<32>
-Field_12_1_0_68412_000<32>
-Field_12_1_0_68412_001<32>
-Field_12_1_0_68412_002<32>
-Field_12_1_0_68412_003<32>
-Field_12_1_0_68412_004<32>
-Field_12_1_0_68412_005<32>
-Field_12_1_0_68412_006<32>
-Field_12_1_0_68412_007<32>
-Field_12_1_0_68412_008<32>
-Field_12_1_0_68412_009<32>
-Field_12_1_0_68412_010<32>
-Field_12_1_0_68412_011<32>
+Icon<32>
+IconSmall<32>
+IconInv<32>
+IconMixedInv<32>
+AppearFlipbook<32>
+DissolveFlipbook<32>
+BarBG<32>
+BarHighlight<32>
+BarBGCap<32>
+BarFillFlipbook<32>
+IconChat<32>
+IconQuestObjective<32>
