@@ -3,6 +3,7 @@ COLOR ChrCustomizationChoice::SwatchColor[0]
 COLOR ChrCustomizationChoice::SwatchColor[1]
 COLOR DyeColor::SwatchColorEnd
 COLOR DyeColor::SwatchColorStart
+COLOR GlobalColor::Color
 COLOR HighlightColor::EndColor
 COLOR HighlightColor::MidColor
 COLOR HighlightColor::StartColor
@@ -34,6 +35,8 @@ COLOR Lightning::BoltColor
 COLOR Lightning::FlashColor
 COLOR LightShaft::Color
 COLOR LiquidType::MinimapStaticCol
+COLOR SpellVisualColorEffect::Color
+COLOR UIDungeonScoreRarity::ScoreColor
 COLOR Weather::OverrideColor
 ENUM AlliedRace::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM AreaTrigger::ShapeType ShapeType
