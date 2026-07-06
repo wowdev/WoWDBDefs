@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int BlendMode
-int BotTextureBlendSetID
+int<TextureBlendSet::ID> BotTextureBlendSetID
 int<DecalProperties::ID> CasterDecalPropertiesID
 float FadeIn
 float FadeOut
@@ -15,14 +15,14 @@ float OuterRadius
 int Priority
 float Rim
 float Scale
-int TopTextureBlendSetID
+int<TextureBlendSet::ID> TopTextureBlendSetID
 float ArbitraryBoxHeight
-int Field_9_0_1_33978_018?
-int Field_9_0_1_33978_019?
+int<Curve::ID> Field_9_0_1_33978_018?
+int<Curve::ID> Field_9_0_1_33978_019?
 float Field_9_0_1_33978_020?
 float Field_9_0_1_33978_021?
 float Field_10_0_0_45141_008?
-int Field_10_0_0_45232_020?
+int<Curve::ID> Field_10_0_0_45232_020?
 float Field_10_0_0_45232_021?
 float Field_10_0_0_45232_024?
 float Field_11_2_0_61476_022?

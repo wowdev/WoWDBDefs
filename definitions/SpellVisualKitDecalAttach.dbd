@@ -9,11 +9,11 @@ int Field_12_0_0_64339_005?
 int Field_12_0_0_64339_006?
 float Field_12_0_0_64741_000?
 float Field_12_0_0_64741_001?
-int Field_12_0_0_64741_002?
+int<SpellVisualKit::ID> SpellVisualKitID?
 int<DecalProperties::ID> DecalPropertiesID?
 int Field_12_0_0_64741_004?
 int Field_12_0_0_64741_005?
-float Field_12_0_0_64741_006?
+float Radius?
 float Field_12_0_0_64741_007?
 float Field_12_0_0_64741_008?
 float Field_12_0_0_64741_009?
@@ -46,11 +46,11 @@ BUILD 2.5.6.68184
 $noninline,id$ID<32>
 Field_12_0_0_64741_000[2]
 Field_12_0_0_64741_001[2]
-Field_12_0_0_64741_002<32>
+SpellVisualKitID<32>
 DecalPropertiesID<32>
 Field_12_0_0_64741_004<32>
 Field_12_0_0_64741_005<32>
-Field_12_0_0_64741_006
+Radius
 Field_12_0_0_64741_007
 Field_12_0_0_64741_008
 Field_12_0_0_64741_009
