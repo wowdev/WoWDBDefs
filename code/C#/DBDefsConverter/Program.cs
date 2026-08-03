@@ -154,7 +154,7 @@ namespace DBDefsConverter
                 var dbdIdentifier = Path.GetFileNameWithoutExtension(file);
                 var dbDefinition = reader.Read(file);
                 var buildDefinition = dbDefinition.versionDefinitions
-                    .Where(d => d.builds.Equals(build) ||
+                    .Where(d => d.builds.Contains(build) ||
                                 d.buildRanges.Any(br => br.Contains(build)))
                     .Cast<VersionDefinitions?>()
                     .FirstOrDefault();
