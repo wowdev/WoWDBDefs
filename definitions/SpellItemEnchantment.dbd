@@ -37,30 +37,8 @@ int Field_4_4_0_53750_021?
 int Field_1_15_3_55112_018?
 int Field_1_15_3_55112_020?
 int Field_1_15_3_55112_021?
-locstring Field_12_1_5_69594_000_lang?
-locstring Field_12_1_5_69594_001_lang?
-int Field_12_1_5_69594_002?
-int Field_12_1_5_69594_003?
-int Field_12_1_5_69594_004?
-int Field_12_1_5_69594_005?
-int Field_12_1_5_69594_006?
-int Field_12_1_5_69594_007?
-float Field_12_1_5_69594_008?
-int Field_12_1_5_69594_009?
-int Field_12_1_5_69594_010?
 int Field_12_1_5_69594_011?
-int Field_12_1_5_69594_012?
-int Field_12_1_5_69594_013?
-int Field_12_1_5_69594_014?
-int Field_12_1_5_69594_015?
-int Field_12_1_5_69594_016?
-int Field_12_1_5_69594_017?
-int Field_12_1_5_69594_018?
-int Field_12_1_5_69594_019?
-int Field_12_1_5_69594_020?
 int Field_12_1_5_69594_021?
-int Field_12_1_5_69594_022?
-int Field_12_1_5_69594_023?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -790,27 +768,27 @@ MaxLevel<u8>
 LAYOUT 952B72B2
 BUILD 12.1.5.69594
 $noninline,id$ID<32>
-Field_12_1_5_69594_000_lang
-Field_12_1_5_69594_001_lang
-Field_12_1_5_69594_002<32>
-Field_12_1_5_69594_003<32>
-Field_12_1_5_69594_004<32>[3]
-Field_12_1_5_69594_005<32>[3]
-Field_12_1_5_69594_006<u32>[3]
-Field_12_1_5_69594_007<32>
-Field_12_1_5_69594_008[3]
-Field_12_1_5_69594_009<32>
-Field_12_1_5_69594_010<32>
+Name_lang
+HordeName_lang
+Duration<32>
+Charges<32>
+Effect<32>[3]
+EffectPointsMin<32>[3]
+EffectArg<u32>[3]
+Flags<32>
+EffectScalingPoints[3]
+ScalingClass<32>
+ScalingClassRestricted<32>
 Field_12_1_5_69594_011<32>
-Field_12_1_5_69594_012<32>
-Field_12_1_5_69594_013<32>
-Field_12_1_5_69594_014<32>
-Field_12_1_5_69594_015<32>
-Field_12_1_5_69594_016<32>
-Field_12_1_5_69594_017<32>
-Field_12_1_5_69594_018<32>
-Field_12_1_5_69594_019<32>
-Field_12_1_5_69594_020<32>
+RequiredSkillID<32>
+RequiredSkillRank<32>
+MinLevel<32>
+MaxLevel<32>
+IconFileDataID<32>
+ItemLevelMin<32>
+ItemLevelMax<32>
+TransmogUseConditionID<32>
+TransmogCost<32>
 Field_12_1_5_69594_021<32>
-Field_12_1_5_69594_022<u16>
-Field_12_1_5_69594_023<u16>
+ItemVisual<u16>
+ItemLevel<u16>
