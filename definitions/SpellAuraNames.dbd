@@ -3,6 +3,9 @@ int EnumID
 int SpecialMiscValue // todo: enum
 string Globalstrings_tag
 locstring Name_lang
+int ID
+int Field_12_1_5_69594_000?
+int Field_12_1_5_69594_001?
 
 BUILD 1.12.1.5875
 BUILD 0.5.3.3368
@@ -13,3 +16,9 @@ EnumID<32>
 SpecialMiscValue<32>
 Globalstrings_tag
 Name_lang
+
+LAYOUT 34FFC6AE
+BUILD 12.1.5.69594
+$noninline,id$ID<32>
+Field_12_1_5_69594_000<32>
+Field_12_1_5_69594_001<32>
