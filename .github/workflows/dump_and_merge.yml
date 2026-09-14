@@ -18,6 +18,9 @@ on:
           description: Build config hash
           required: false
           type: string
+concurrency:
+  group: ${{ github.workflow }}
+  queue: max
 jobs:
   dumpandmerge:
     runs-on: ubuntu-latest
