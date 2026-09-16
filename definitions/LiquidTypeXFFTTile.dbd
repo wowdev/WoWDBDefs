@@ -1,10 +1,10 @@
 COLUMNS
 int ID
-int Field_1_60_1_69876_000?
-int Field_1_60_1_69876_001?
+int<FFTTile::ID> FFTTileID?
+int<LiquidType::ID> LiquidTypeID?
 
 LAYOUT 77D5589E
 BUILD 1.60.1.69876
 $noninline,id$ID<32>
-Field_1_60_1_69876_000<32>
-$noninline,relation$Field_1_60_1_69876_001<32>
+FFTTileID<32>
+$noninline,relation$LiquidTypeID<32>

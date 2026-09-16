@@ -1,7 +1,6 @@
 COLUMNS
 int ID
 locstring Name_lang
-locstring Field_1_60_1_69876_000_lang? //  DBAnalyser: [Name_lang, 0,25%]
 int Field_1_60_1_69876_001?
 int Field_1_60_1_69876_002?
 
@@ -23,7 +22,7 @@ Name_lang
 LAYOUT 209D3ED9
 BUILD 1.60.1.69876
 $noninline,id$ID<32>
-Field_1_60_1_69876_000_lang
+Name_lang
 Field_1_60_1_69876_001<32>
 Field_1_60_1_69876_002<32>
 

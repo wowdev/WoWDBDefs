@@ -1,10 +1,10 @@
 COLUMNS
-int Field_1_60_1_69876_000?
-int Field_1_60_1_69876_001?
+int ID
+int<ChrRaces::ID> ChrRacesID?
 int Field_1_60_1_69876_002?
 
 LAYOUT 32BA64EF
 BUILD 1.60.1.69876
-$id$Field_1_60_1_69876_000<32>
-Field_1_60_1_69876_001<32>
+$id$ID<32>
+ChrRacesID<32>
 Field_1_60_1_69876_002<32>

@@ -21,15 +21,7 @@ int ReputationRaceMasks0?
 int ReputationRaceMasks1?
 int ReputationRaceMasks2?
 int ReputationRaceMasks3?
-int Field_1_60_1_69876_004? //  DBAnalyser: [Expansion, 0,95%], [FriendshipRepID, 0,95%], [Flags, 0,95%], [ParagonFactionID, 0,95%], [RenownFactionID, 0,95%], [RenownCurrencyID, 0,95%]
-int Field_1_60_1_69876_005? //  DBAnalyser: [Expansion, 0,95%], [FriendshipRepID, 0,95%], [Flags, 0,95%], [ParagonFactionID, 0,95%], [RenownFactionID, 0,95%], [RenownCurrencyID, 0,95%]
-int Field_1_60_1_69876_006? //  DBAnalyser: [Expansion, 0,95%], [FriendshipRepID, 0,95%], [Flags, 0,95%], [ParagonFactionID, 0,95%], [RenownFactionID, 0,95%], [RenownCurrencyID, 0,95%]
-int Field_1_60_1_69876_007? //  DBAnalyser: [Expansion, 0,95%], [FriendshipRepID, 0,95%], [Flags, 0,95%], [ParagonFactionID, 0,95%], [RenownFactionID, 0,95%], [RenownCurrencyID, 0,95%]
-int Field_1_60_1_69876_008? //  DBAnalyser: [Expansion, 0,95%], [FriendshipRepID, 0,95%], [Flags, 0,95%], [ParagonFactionID, 0,95%], [RenownFactionID, 0,95%], [RenownCurrencyID, 0,95%]
-int Field_1_60_1_69876_009? //  DBAnalyser: [Expansion, 0,95%], [FriendshipRepID, 0,95%], [Flags, 0,95%], [ParagonFactionID, 0,95%], [RenownFactionID, 0,95%], [RenownCurrencyID, 0,95%]
-int Field_1_60_1_69876_010? //  DBAnalyser: [Expansion, 0,95%], [FriendshipRepID, 0,95%], [Flags, 0,95%], [ParagonFactionID, 0,95%], [RenownFactionID, 0,95%], [RenownCurrencyID, 0,95%]
-int Field_1_60_1_69876_017?
-int Field_1_60_1_69876_018? //  DBAnalyser: [ReputationRaceMasks0, 0,89%], [ReputationRaceMasks1, 0,89%]
+int<Curve::ID> RenownThresholdCurveID? // renown level threshold used by C_MajorFactions.GetMajorFactionRenownInfo
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -67,21 +59,21 @@ Name_lang
 Description_lang
 ReputationIndex<16>
 ParentFactionID<u16>
-Field_1_60_1_69876_004<u8>
-Field_1_60_1_69876_005<u32>
-Field_1_60_1_69876_006<32>
-Field_1_60_1_69876_007<u16>
-Field_1_60_1_69876_008<32>
-Field_1_60_1_69876_009<32>
-Field_1_60_1_69876_010<32>
+Expansion<u8>
+FriendshipRepID<u32>
+Flags<32>
+ParagonFactionID<u16>
+RenownFactionID<32>
+RenownCurrencyID<32>
+RenownThresholdCurveID<32>
 ReputationClassMask<16>[4]
 ReputationFlags<u16>[4]
 ReputationBase<32>[4]
 ReputationMax<32>[4]
 ParentFactionMod[2]
 ParentFactionCap<u8>[2]
-Field_1_60_1_69876_017<32>[2]
-Field_1_60_1_69876_018<32>[2]
+ReputationRaceMasks0<32>[2]
+ReputationRaceMasks1<32>[2]
 ReputationRaceMasks2<32>[2]
 ReputationRaceMasks3<32>[2]
 

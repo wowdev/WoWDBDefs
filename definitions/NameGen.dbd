@@ -3,7 +3,7 @@ int ID
 string Name
 int<ChrRaces::ID> RaceID
 int Sex
-int Field_1_60_1_69876_003?
+int NameType? // 1: surname
 
 LAYOUT 584300FA
 BUILD 1.60.1.69876
@@ -11,7 +11,7 @@ $noninline,id$ID<32>
 Name
 RaceID<8>
 Sex<8>
-Field_1_60_1_69876_003<u8>
+NameType<u8>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

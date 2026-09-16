@@ -1,12 +1,12 @@
 COLUMNS
-int Field_1_60_1_69876_000?
-int Field_1_60_1_69876_001?
-int Field_1_60_1_69876_002?
-int Field_1_60_1_69876_003?
+int ID
+int<ChrModelAltVariantOption::ID> ChrModelAltVariantOptionID?
+int<ChrCustomizationChoice::ID> SourceChrCustomizationChoiceID?
+int<ChrCustomizationChoice::ID> VariantChrCustomizationChoiceID?
 
 LAYOUT 4D3AC64B
 BUILD 1.60.1.69876
-$id$Field_1_60_1_69876_000<32>
-$relation$Field_1_60_1_69876_001<32>
-Field_1_60_1_69876_002<32>
-Field_1_60_1_69876_003<32>
+$id$ID<32>
+$relation$ChrModelAltVariantOptionID<32>
+SourceChrCustomizationChoiceID<32>
+VariantChrCustomizationChoiceID<32>

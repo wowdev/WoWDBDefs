@@ -1,12 +1,12 @@
 COLUMNS
-int Field_1_60_1_69876_000?
-int Field_1_60_1_69876_001?
-int Field_1_60_1_69876_002?
-int Field_1_60_1_69876_003?
+int ID
+int Level?
+int ContentSetID?
+int Experience? // XP required to reach the next level
 
 LAYOUT 70D065A2
 BUILD 1.60.1.69876
-$id$Field_1_60_1_69876_000<32>
-Field_1_60_1_69876_001<32>
-Field_1_60_1_69876_002<32>
-Field_1_60_1_69876_003<32>
+$id$ID<32>
+Level<32>
+ContentSetID<32>
+Experience<32>

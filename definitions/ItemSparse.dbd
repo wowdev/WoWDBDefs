@@ -83,31 +83,6 @@ int<Curve::ID> ItemLevelOffsetCurveID?
 int ItemLevelOffsetItemLevel? // same purpose as ItemScalingConfig::ItemLevel (curve parameter for ItemLevelOffsetCurveID)
 int<ItemSquishEra::ID> ItemSquishEraID?
 int AllowableRaces?
-locstring Field_1_60_1_69876_001_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-locstring Field_1_60_1_69876_002_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-locstring Field_1_60_1_69876_003_lang? //  DBAnalyser: [Display3_lang, 1%], [Display2_lang, 1%], [Display1_lang, 1%]
-int Field_1_60_1_69876_005? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%]
-int Field_1_60_1_69876_008? //  DBAnalyser: [TotemCategoryID, 0,99%], [OppositeFactionItemID, 0,99%]
-int Field_1_60_1_69876_010?
-int Field_1_60_1_69876_015? //  DBAnalyser: [StatModifier_bonusAmount, 0,95%], [StatPercentEditor, 0,95%], [Field_1_15_3_55112_014, 0,95%]
-int Field_1_60_1_69876_019? //  DBAnalyser: [DurationInInventory, 0,95%], [BagFamily, 0,95%]
-int Field_1_60_1_69876_020? //  DBAnalyser: [MinReputation, 0,97%], [DurationInInventory, 0,97%], [BagFamily, 0,96%]
-int Field_1_60_1_69876_028? //  DBAnalyser: [TotemCategoryID, 1%], [RandomSelect, 0,99%], [RequiredAbility, 0,99%]
-int Field_1_60_1_69876_029? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
-int Field_1_60_1_69876_030? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
-int Field_1_60_1_69876_031? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
-int Field_1_60_1_69876_032? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
-int Field_1_60_1_69876_033? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
-int Field_1_60_1_69876_034? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
-int Field_1_60_1_69876_036? //  DBAnalyser: [TotemCategoryID, 1%], [OppositeFactionItemID, 1%], [RandomSelect, 0,99%], [RequiredAbility, 0,99%]
-int Field_1_60_1_69876_037? //  DBAnalyser: [TotemCategoryID, 0,99%], [OppositeFactionItemID, 0,99%], [RandomSelect, 0,99%]
-int Field_1_60_1_69876_038? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
-int Field_1_60_1_69876_039? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
-int Field_1_60_1_69876_040? //  DBAnalyser: [TotemCategoryID, 1%], [OppositeFactionItemID, 1%], [RandomSelect, 0,99%], [RequiredAbility, 0,99%]
-int Field_1_60_1_69876_043? //  DBAnalyser: [MinReputation, 0,95%], [DurationInInventory, 0,95%], [BagFamily, 0,95%]
-int Field_1_60_1_69876_052? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
-int Field_1_60_1_69876_053? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
-int Field_1_60_1_69876_054? //  DBAnalyser: [ModifiedCraftingReagentItemID, 0,95%], [PlayerLevelToItemLevelCurveID, 0,95%], [ArtifactID, 0,95%], [RequiredTransmogHoliday, 0,95%], [RequiredHoliday, 0,95%], [Gem_properties, 0,95%], [Field_1_15_7_59706_054, 0,95%], [SpellWeightCategory, 0,95%], [SpellWeight, 0,95%], [ItemRandomSuffixGroupID, 0,95%], [Socket_match_enchantment_ID, 0,95%], [ContentTuningID, 0,95%], [ScalingStatDistributionID, 0,95%]
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -425,26 +400,26 @@ BUILD 1.60.1.69876
 COMMENT table is sparse
 $noninline,id$ID<32>
 Description_lang
-Field_1_60_1_69876_001_lang
-Field_1_60_1_69876_002_lang
-Field_1_60_1_69876_003_lang
+Display3_lang
+Display2_lang
+Display1_lang
 Display_lang
-Field_1_60_1_69876_005<32>
+ExpansionID<32>
 DmgVariance
 LimitCategory<32>
-Field_1_60_1_69876_008<u32>
+DurationInInventory<u32>
 QualityModifier
-Field_1_60_1_69876_010<u32>
+BagFamily<u32>
 StartQuestID<32>
 LanguageID<32>
 ItemRange
 StatPercentageOfSocket[10]
-Field_1_60_1_69876_015<32>[10]
+StatPercentEditor<32>[10]
 StatModifier_bonusStat<32>[10]
 Stackable<32>
 MaxCount<32>
-Field_1_60_1_69876_019<32>
-Field_1_60_1_69876_020<u32>
+MinReputation<32>
+RequiredAbility<u32>
 AllowableRace<32>[2]
 SellPrice<u32>
 BuyPrice<u32>
@@ -452,33 +427,33 @@ VendorStackCount<u32>
 PriceVariance
 PriceRandomValue
 Flags<32>[5]
-Field_1_60_1_69876_028<32>
-Field_1_60_1_69876_029<32>
-Field_1_60_1_69876_030<32>
-Field_1_60_1_69876_031<32>
-Field_1_60_1_69876_032<32>
-Field_1_60_1_69876_033<32>
-Field_1_60_1_69876_034<32>
+OppositeFactionItemID<32>
+ModifiedCraftingReagentItemID<32>
+ContentTuningID<32>
+PlayerLevelToItemLevelCurveID<32>
+ItemLevelOffsetCurveID<32>
+ItemLevelOffsetItemLevel<32>
+ItemSquishEraID<32>
 ItemNameDescriptionID<u16>
-Field_1_60_1_69876_036<u16>
-Field_1_60_1_69876_037<u16>
-Field_1_60_1_69876_038<u16>
-Field_1_60_1_69876_039<u16>
-Field_1_60_1_69876_040<u16>
+RequiredTransmogHoliday<u16>
+RequiredHoliday<u16>
+Gem_properties<u16>
+Socket_match_enchantment_ID<u16>
+TotemCategoryID<u16>
 InstanceBound<u16>
 ZoneBound<u16>[2]
-Field_1_60_1_69876_043<u16>
+ItemSet<u16>
 LockID<u16>
 PageID<u16>
 ItemDelay<u16>
 MinFactionID<u16>
-ItemSet<u16>
+RequiredSkillRank<u16>
 RequiredSkill<u16>
 ItemLevel<u16>
 AllowableClass<16>
-Field_1_60_1_69876_052<u8>
-Field_1_60_1_69876_053<u8>
-Field_1_60_1_69876_054<u8>
+ArtifactID<u8>
+SpellWeight<u8>
+SpellWeightCategory<u8>
 SocketType<u8>[3]
 SheatheType<u8>
 Material<u8>

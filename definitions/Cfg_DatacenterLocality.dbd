@@ -1,10 +1,10 @@
 COLUMNS
-locstring Field_1_60_1_69876_000_lang?
-int Field_1_60_1_69876_001?
-int Field_1_60_1_69876_002?
+locstring Name_lang?
+int ID
+int RegionID? // matches Cfg_Regions::Region_ID
 
 LAYOUT 69972F80
 BUILD 1.60.1.69876
-Field_1_60_1_69876_000_lang
-$id$Field_1_60_1_69876_001<32>
-Field_1_60_1_69876_002<32>
+Name_lang
+$id$ID<32>
+RegionID<32>

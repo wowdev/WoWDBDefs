@@ -8,13 +8,13 @@ int Raidorigin
 int Region_ID // uint8, except for 666 (Dead Realm Graveyard) and 1038 (zzOLD QA Armory 1)
 int Field_8_1_0_28048_006?
 int<Cfg_TimeEventRegionGroup::ID> Cfg_TimeEventRegionGroupID?
-locstring Field_1_60_1_69876_001_lang?
+locstring Name_lang?
 
 LAYOUT 66694D4D
 BUILD 1.60.1.69876
 $noninline,id$ID<32>
 Tag
-Field_1_60_1_69876_001_lang
+Name_lang
 Region_ID<u16>
 Raidorigin<u32>
 Region_group_mask<u8>
