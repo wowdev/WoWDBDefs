@@ -25,49 +25,34 @@ int Field_11_0_7_57361_014?
 int Field_11_0_7_57361_015?
 int Field_11_0_7_57361_016?
 int ExpansionID?
-locstring Field_1_60_1_69876_000_lang?
-locstring Field_1_60_1_69876_001_lang?
-int Field_1_60_1_69876_002?
-int Field_1_60_1_69876_003?
-int Field_1_60_1_69876_004?
-int Field_1_60_1_69876_005?
-int Field_1_60_1_69876_006?
-int Field_1_60_1_69876_007?
-int Field_1_60_1_69876_008?
-int Field_1_60_1_69876_009?
-int Field_1_60_1_69876_010?
-int Field_1_60_1_69876_011?
-int Field_1_60_1_69876_012?
-int Field_1_60_1_69876_013?
-int Field_1_60_1_69876_014?
-int Field_1_60_1_69876_015?
+int Field_1_60_1_69876_007? //  DBAnalyser: [MinGearLevelSuggestion, 0,95%], [AreaID, 0,95%], [ExpansionID, 0,95%], [OverrideContentTuningID, 0,95%], [MapChallengeModeID, 0,95%]
+int Field_1_60_1_69876_011? //  DBAnalyser: [MinGearLevelSuggestion, 0,95%], [AreaID, 0,95%], [ExpansionID, 0,95%], [OverrideContentTuningID, 0,95%], [MapChallengeModeID, 0,95%]
+int Field_1_60_1_69876_012? //  DBAnalyser: [MinGearLevelSuggestion, 0,95%], [AreaID, 0,95%], [ExpansionID, 0,95%], [OverrideContentTuningID, 0,95%], [MapChallengeModeID, 0,95%]
 int Field_1_60_1_69876_016?
-int Field_1_60_1_69876_017?
-int Field_1_60_1_69876_018?
-int Field_1_60_1_69876_019?
-int Field_1_60_1_69876_020?
+int Field_1_60_1_69876_019? //  DBAnalyser: [MinGearLevelSuggestion, 0,95%], [AreaID, 0,95%], [ExpansionID, 0,95%], [OverrideContentTuningID, 0,95%], [MapChallengeModeID, 0,95%]
+int Field_1_60_1_69876_020? //  DBAnalyser: [MinGearLevelSuggestion, 0,95%], [AreaID, 0,95%], [ExpansionID, 0,95%], [OverrideContentTuningID, 0,95%], [MapChallengeModeID, 0,95%]
 
 LAYOUT 410A29E6
 BUILD 1.60.1.69876
-Field_1_60_1_69876_000_lang
-Field_1_60_1_69876_001_lang
-$id$Field_1_60_1_69876_002<32>
-Field_1_60_1_69876_003<u8>
-Field_1_60_1_69876_004<8>
-Field_1_60_1_69876_005<u16>
-Field_1_60_1_69876_006<32>
+FullName_lang
+ShortName_lang
+$id$ID<32>
+GroupFinderCategoryID<u8>
+OrderIndex<8>
+GroupFinderActivityGrpID<u16>
+Flags<32>
 Field_1_60_1_69876_007<u16>
-Field_1_60_1_69876_008<32>
-Field_1_60_1_69876_009<u16>
-Field_1_60_1_69876_010<16>
+PlayerConditionID<32>
+MapID<u16>
+DifficultyID<16>
 Field_1_60_1_69876_011<u16>
 Field_1_60_1_69876_012<32>
-Field_1_60_1_69876_013<u8>
-Field_1_60_1_69876_014<u8>
-Field_1_60_1_69876_015<32>
+MaxPlayers<u8>
+DisplayType<u8>
+Field_11_0_7_57361_013<32>
 Field_1_60_1_69876_016<32>
-Field_1_60_1_69876_017<32>
-Field_1_60_1_69876_018<32>
+Field_11_0_7_57361_015<32>
+Field_11_0_7_57361_016<32>
 Field_1_60_1_69876_019<32>
 Field_1_60_1_69876_020<32>
 

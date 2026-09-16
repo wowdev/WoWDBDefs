@@ -47,115 +47,84 @@ int EndFogHeightColor
 float HeightDensityFogCoeff
 int Field_10_0_0_44649_042?
 float Field_12_0_0_63854_043?
-int Field_1_60_1_69876_000?
-int Field_1_60_1_69876_001?
-int Field_1_60_1_69876_002?
-int Field_1_60_1_69876_003?
-int Field_1_60_1_69876_004?
-int Field_1_60_1_69876_005?
-int Field_1_60_1_69876_006?
-int Field_1_60_1_69876_007?
-int Field_1_60_1_69876_008?
-int Field_1_60_1_69876_009?
-int Field_1_60_1_69876_010?
-int Field_1_60_1_69876_011?
-int Field_1_60_1_69876_012?
-int Field_1_60_1_69876_013?
-int Field_1_60_1_69876_014?
-int Field_1_60_1_69876_015?
-int Field_1_60_1_69876_016?
-int Field_1_60_1_69876_017?
-int Field_1_60_1_69876_018?
-int Field_1_60_1_69876_019?
-int Field_1_60_1_69876_020?
-float Field_1_60_1_69876_021?
-float Field_1_60_1_69876_022?
-float Field_1_60_1_69876_023?
-float Field_1_60_1_69876_024?
-float Field_1_60_1_69876_025?
-float Field_1_60_1_69876_026?
-float Field_1_60_1_69876_027?
-float Field_1_60_1_69876_028?
-float Field_1_60_1_69876_029?
-float Field_1_60_1_69876_030?
-float Field_1_60_1_69876_031?
-int Field_1_60_1_69876_032?
-int Field_1_60_1_69876_033?
-int Field_1_60_1_69876_034?
-int Field_1_60_1_69876_035?
-int Field_1_60_1_69876_036?
-float Field_1_60_1_69876_037?
-float Field_1_60_1_69876_038?
-int Field_1_60_1_69876_039?
-float Field_1_60_1_69876_040?
-int Field_1_60_1_69876_041?
-int Field_1_60_1_69876_042?
-int Field_1_60_1_69876_043?
-float Field_1_60_1_69876_044?
-int Field_1_60_1_69876_045?
-int Field_1_60_1_69876_046?
-int Field_1_60_1_69876_047?
+float Field_1_60_1_69876_024? //  DBAnalyser: [FogHeight, 0,95%], [FogHeightScaler, 0,95%], [FogHeightDensity, 0,95%], [FogZScalar, 0,95%], [MainFogStartDist, 0,95%], [MainFogEndDist, 0,95%], [EndFogColorDistance, 0,95%], [FogStartOffset, 0,95%]
+float Field_1_60_1_69876_025? //  DBAnalyser: [FogHeight, 0,95%], [FogHeightScaler, 0,95%], [FogHeightDensity, 0,95%], [FogZScalar, 0,95%], [MainFogStartDist, 0,95%], [MainFogEndDist, 0,95%], [EndFogColorDistance, 0,95%], [FogStartOffset, 0,95%]
+float Field_1_60_1_69876_026? //  DBAnalyser: [FogHeight, 0,95%], [FogHeightScaler, 0,95%], [FogHeightDensity, 0,95%], [FogZScalar, 0,95%], [MainFogStartDist, 0,95%], [MainFogEndDist, 0,95%], [EndFogColorDistance, 0,95%], [FogStartOffset, 0,95%]
+float Field_1_60_1_69876_027? //  DBAnalyser: [FogHeight, 0,95%], [FogHeightScaler, 0,95%], [FogHeightDensity, 0,95%], [FogZScalar, 0,95%], [MainFogStartDist, 0,95%], [MainFogEndDist, 0,95%], [EndFogColorDistance, 0,95%], [FogStartOffset, 0,95%]
+float Field_1_60_1_69876_028? //  DBAnalyser: [FogHeight, 0,95%], [FogHeightScaler, 0,95%], [FogHeightDensity, 0,95%], [FogZScalar, 0,95%], [MainFogStartDist, 0,95%], [MainFogEndDist, 0,95%], [EndFogColorDistance, 0,95%], [FogStartOffset, 0,95%]
+float Field_1_60_1_69876_029? //  DBAnalyser: [FogHeight, 0,95%], [FogHeightScaler, 0,95%], [FogHeightDensity, 0,95%], [FogZScalar, 0,95%], [MainFogStartDist, 0,95%], [MainFogEndDist, 0,95%], [EndFogColorDistance, 0,95%], [FogStartOffset, 0,95%]
+int Field_1_60_1_69876_032? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
+int Field_1_60_1_69876_033? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
+int Field_1_60_1_69876_034? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
+int Field_1_60_1_69876_035? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
+float Field_1_60_1_69876_037? //  DBAnalyser: [FogHeight, 0,95%], [FogHeightScaler, 0,95%], [FogHeightDensity, 0,95%], [FogZScalar, 0,95%], [MainFogStartDist, 0,95%], [MainFogEndDist, 0,95%], [EndFogColorDistance, 0,95%], [FogStartOffset, 0,95%]
+float Field_1_60_1_69876_038? //  DBAnalyser: [FogHeight, 0,95%], [FogHeightScaler, 0,95%], [FogHeightDensity, 0,95%], [FogZScalar, 0,95%], [MainFogStartDist, 0,95%], [MainFogEndDist, 0,95%], [EndFogColorDistance, 0,95%], [FogStartOffset, 0,95%]
+int Field_1_60_1_69876_043? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
+float Field_1_60_1_69876_044? //  DBAnalyser: [FogHeight, 0,95%], [FogHeightScaler, 0,95%], [FogHeightDensity, 0,95%], [FogZScalar, 0,95%], [MainFogStartDist, 0,95%], [MainFogEndDist, 0,95%], [EndFogColorDistance, 0,95%], [FogStartOffset, 0,95%]
+int Field_1_60_1_69876_045? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
+int Field_1_60_1_69876_046? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
+int Field_1_60_1_69876_047? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
 float Field_1_60_1_69876_048?
 float Field_1_60_1_69876_049?
-float Field_1_60_1_69876_050?
+float Field_1_60_1_69876_050? //  DBAnalyser: [FogHeight, 0,95%], [FogHeightScaler, 0,95%], [FogHeightDensity, 0,95%], [FogZScalar, 0,95%], [MainFogStartDist, 0,95%], [MainFogEndDist, 0,95%], [EndFogColorDistance, 0,95%], [FogStartOffset, 0,95%]
 float Field_1_60_1_69876_051?
 float Field_1_60_1_69876_052?
 float Field_1_60_1_69876_053?
-int Field_1_60_1_69876_054?
-int Field_1_60_1_69876_055?
-int Field_1_60_1_69876_056?
-int Field_1_60_1_69876_057?
+int Field_1_60_1_69876_054? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
+int Field_1_60_1_69876_055? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
+int Field_1_60_1_69876_056? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
+int Field_1_60_1_69876_057? //  DBAnalyser: [ColorGradingFileDataID, 0,95%], [DarkerColorGradingFileDataID, 0,95%], [HorizonAmbientColor, 0,95%], [GroundAmbientColor, 0,95%], [Field_10_0_0_44649_042, 0,95%]
 float Field_1_60_1_69876_058?
 float Field_1_60_1_69876_059?
-float Field_1_60_1_69876_060?
-float Field_1_60_1_69876_061?
-float Field_1_60_1_69876_062?
+float Field_1_60_1_69876_060? //  DBAnalyser: [FogHeightCoefficients, 0,95%], [MainFogCoefficients, 0,95%], [HeightDensityFogCoeff, 0,95%]
+float Field_1_60_1_69876_061? //  DBAnalyser: [FogHeightCoefficients, 0,95%], [MainFogCoefficients, 0,95%], [HeightDensityFogCoeff, 0,95%]
+float Field_1_60_1_69876_062? //  DBAnalyser: [FogHeightCoefficients, 0,95%], [MainFogCoefficients, 0,95%], [HeightDensityFogCoeff, 0,95%]
 
 LAYOUT 360DA016
 BUILD 1.60.1.69876
-$id$Field_1_60_1_69876_000<32>
-$relation$Field_1_60_1_69876_001<u16>
-Field_1_60_1_69876_002<u16>
-Field_1_60_1_69876_003<32>
-Field_1_60_1_69876_004<32>
-Field_1_60_1_69876_005<32>
-Field_1_60_1_69876_006<32>
-Field_1_60_1_69876_007<32>
-Field_1_60_1_69876_008<32>
-Field_1_60_1_69876_009<32>
-Field_1_60_1_69876_010<32>
-Field_1_60_1_69876_011<32>
-Field_1_60_1_69876_012<32>
-Field_1_60_1_69876_013<32>
-Field_1_60_1_69876_014<32>
-Field_1_60_1_69876_015<32>
-Field_1_60_1_69876_016<32>
-Field_1_60_1_69876_017<32>
-Field_1_60_1_69876_018<32>
-Field_1_60_1_69876_019<32>
-Field_1_60_1_69876_020<32>
-Field_1_60_1_69876_021
-Field_1_60_1_69876_022
-Field_1_60_1_69876_023
+$id$ID<32>
+$relation$LightParamID<u16>
+Time<u16>
+DirectColor<32>
+AmbientColor<32>
+SkyTopColor<32>
+SkyMiddleColor<32>
+SkyBand1Color<32>
+SkyBand2Color<32>
+SkySmogColor<32>
+SkyFogColor<32>
+SunColor<32>
+CloudSunColor<32>
+CloudEmissiveColor<32>
+CloudLayer1AmbientColor<32>
+CloudLayer2AmbientColor<32>
+OceanCloseColor<32>
+OceanFarColor<32>
+RiverCloseColor<32>
+RiverFarColor<32>
+ShadowOpacity<32>
+FogEnd
+FogScaler
+FogDensity
 Field_1_60_1_69876_024
 Field_1_60_1_69876_025
 Field_1_60_1_69876_026
 Field_1_60_1_69876_027
 Field_1_60_1_69876_028
 Field_1_60_1_69876_029
-Field_1_60_1_69876_030
-Field_1_60_1_69876_031
+SunFogAngle
+CloudDensity
 Field_1_60_1_69876_032<u32>
 Field_1_60_1_69876_033<u32>
 Field_1_60_1_69876_034<32>
 Field_1_60_1_69876_035<32>
-Field_1_60_1_69876_036<32>
+EndFogColor<32>
 Field_1_60_1_69876_037
 Field_1_60_1_69876_038
-Field_1_60_1_69876_039<32>
-Field_1_60_1_69876_040
-Field_1_60_1_69876_041<32>
-Field_1_60_1_69876_042<32>
+SunFogColor<32>
+SunFogStrength
+FogHeightColor<32>
+EndFogHeightColor<32>
 Field_1_60_1_69876_043<32>
 Field_1_60_1_69876_044
 Field_1_60_1_69876_045<32>

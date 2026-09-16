@@ -27,21 +27,12 @@ int Field_5_5_4_67090_013?
 int Field_5_5_4_67090_014?
 locstring Field_1_60_1_69876_000_lang?
 locstring Field_1_60_1_69876_001_lang?
-int Field_1_60_1_69876_002?
-int Field_1_60_1_69876_003?
-int Field_1_60_1_69876_004?
-int Field_1_60_1_69876_005?
-int Field_1_60_1_69876_006?
-int Field_1_60_1_69876_007?
 int Field_1_60_1_69876_008?
-int Field_1_60_1_69876_009?
-int Field_1_60_1_69876_010?
-int Field_1_60_1_69876_011?
-int Field_1_60_1_69876_012?
-int Field_1_60_1_69876_013?
-int Field_1_60_1_69876_014?
-int Field_1_60_1_69876_015?
-int Field_1_60_1_69876_016?
+int Field_1_60_1_69876_009? //  DBAnalyser: [TrivialSkillLineRankHigh, 0,63%]
+int Field_1_60_1_69876_010? //  DBAnalyser: [TrivialSkillLineRankLow, 0,63%]
+int Field_1_60_1_69876_011? //  DBAnalyser: [Flags, 0,95%], [UniqueBit, 0,95%], [TradeSkillCategoryID, 0,95%], [Field_5_5_4_67090_013, 0,95%]
+int Field_1_60_1_69876_014? //  DBAnalyser: [AcquireMethod, 0,63%]
+int Field_1_60_1_69876_015? //  DBAnalyser: [AcquireMethod, 0,63%]
 int Field_1_60_1_69876_017?
 
 BUILD 0.5.3.3368
@@ -138,21 +129,21 @@ LAYOUT 224F7EA0
 BUILD 1.60.1.69876
 Field_1_60_1_69876_000_lang
 Field_1_60_1_69876_001_lang
-$id$Field_1_60_1_69876_002<32>
-$relation$Field_1_60_1_69876_003<16>
-Field_1_60_1_69876_004<32>
-Field_1_60_1_69876_005<16>
-Field_1_60_1_69876_006<32>
-Field_1_60_1_69876_007<32>
+$id$ID<32>
+$relation$SkillLine<16>
+Spell<32>
+MinSkillLineRank<16>
+ClassMask<32>
+SupercedesSpell<32>
 Field_1_60_1_69876_008<32>
 Field_1_60_1_69876_009<16>
 Field_1_60_1_69876_010<16>
 Field_1_60_1_69876_011<32>
-Field_1_60_1_69876_012<8>
-Field_1_60_1_69876_013<16>
+NumSkillUps<8>
+RaceMask<16>
 Field_1_60_1_69876_014<16>
 Field_1_60_1_69876_015<16>
-Field_1_60_1_69876_016<32>[2]
+Field_5_5_4_67090_014<32>[2]
 Field_1_60_1_69876_017<32>[2]
 
 LAYOUT 812C6AF2

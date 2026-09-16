@@ -1,13 +1,11 @@
 COLUMNS
 int ID
 locstring Name_lang
-locstring Field_1_60_1_69876_000_lang?
-int Field_1_60_1_69876_001?
 
 LAYOUT 798F6B1A
 BUILD 1.60.1.69876
-Field_1_60_1_69876_000_lang
-$id$Field_1_60_1_69876_001<32>
+Name_lang
+$id$ID<32>
 
 BUILD 6.0.1.18179
 BUILD 4.0.0.11792

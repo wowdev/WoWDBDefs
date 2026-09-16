@@ -28,22 +28,13 @@ float RecraftReagentCountPercentage?
 int OrderSource?
 int<ItemSquishEra::ID> ItemSquishEraID?
 int Field_5_5_4_67090_015?
-int Field_1_60_1_69876_000?
-int Field_1_60_1_69876_001?
-int Field_1_60_1_69876_002?
-int Field_1_60_1_69876_003?
-int Field_1_60_1_69876_004?
-int Field_1_60_1_69876_005?
-int Field_1_60_1_69876_006?
-int Field_1_60_1_69876_007?
-int Field_1_60_1_69876_008?
-int Field_1_60_1_69876_009?
-int Field_1_60_1_69876_010?
-int Field_1_60_1_69876_011?
-int Field_1_60_1_69876_012?
-int Field_1_60_1_69876_013?
+int Field_1_60_1_69876_001? //  DBAnalyser: [SubclassID, 0,84%]
+int Field_1_60_1_69876_009? //  DBAnalyser: [ScalingStatDistributionID, 0,95%], [ContentTuningID, 0,95%], [Field_5_5_4_67090_015, 0,95%], [ScalingStatValue, 0,95%]
+int Field_1_60_1_69876_010? //  DBAnalyser: [ScalingStatDistributionID, 0,95%], [ContentTuningID, 0,95%], [Field_5_5_4_67090_015, 0,95%], [ScalingStatValue, 0,95%]
+int Field_1_60_1_69876_012? //  DBAnalyser: [ScalingStatDistributionID, 0,95%], [ContentTuningID, 0,95%], [Field_5_5_4_67090_015, 0,95%], [ScalingStatValue, 0,95%]
+int Field_1_60_1_69876_013? //  DBAnalyser: [ScalingStatDistributionID, 0,95%], [ContentTuningID, 0,95%], [Field_5_5_4_67090_015, 0,95%], [ScalingStatValue, 0,95%]
 float Field_1_60_1_69876_014?
-int Field_1_60_1_69876_015?
+int Field_1_60_1_69876_015? //  DBAnalyser: [ScalingStatDistributionID, 0,95%], [ContentTuningID, 0,95%], [Field_5_5_4_67090_015, 0,95%], [ScalingStatValue, 0,95%]
 
 LAYOUT 92F85B98
 BUILD 1.13.0.28211
@@ -128,18 +119,18 @@ MaxDamage<32>[5]
 LAYOUT 9A2A4834
 BUILD 1.60.1.69876
 $noninline,id$ID<32>
-Field_1_60_1_69876_000<32>
+ClassID<32>
 Field_1_60_1_69876_001<u8>
-Field_1_60_1_69876_002<u8>
-Field_1_60_1_69876_003<8>
-Field_1_60_1_69876_004<u8>
-Field_1_60_1_69876_005<32>
-Field_1_60_1_69876_006<8>
-Field_1_60_1_69876_007<32>
-Field_1_60_1_69876_008<u32>
+Material<u8>
+InventoryType<8>
+SheatheType<u8>
+ItemRandomSuffixGroupID<32>
+Sound_override_subclassID<8>
+IconFileDataID<32>
+ItemGroupSoundsID<u32>
 Field_1_60_1_69876_009<32>
 Field_1_60_1_69876_010<32>
-Field_1_60_1_69876_011<u8>
+AmmunitionType<u8>
 Field_1_60_1_69876_012<32>
 Field_1_60_1_69876_013<32>
 Field_1_60_1_69876_014
