@@ -379,6 +379,16 @@
     "db2FileDataID": 4366440
   },
   {
+    "tableName": "AuctionHouseRedirect",
+    "tableHash": "891BE7B6",
+    "db2FileDataID": 8426136
+  },
+  {
+    "tableName": "AvailableSuperDistrict",
+    "tableHash": "45952E6E",
+    "db2FileDataID": 8208798
+  },
+  {
     "tableName": "AzeriteEmpoweredItem",
     "tableHash": "AFB1B60F",
     "db2FileDataID": 1846046
@@ -553,9 +563,19 @@
     "db2FileDataID": 801583
   },
   {
+    "tableName": "BattlePetTypeModifier",
+    "tableHash": "2CC4E8A5",
+    "db2FileDataID": 7871289
+  },
+  {
     "tableName": "BattlePetVisual",
     "tableHash": "C3ADEB43",
     "db2FileDataID": 801584
+  },
+  {
+    "tableName": "BattlePetXP",
+    "tableHash": "DA814D0F",
+    "db2FileDataID": 7877962
   },
   {
     "tableName": "BeamEffect",
@@ -678,6 +698,11 @@
     "db2FileDataID": 1080949
   },
   {
+    "tableName": "Cfg_DatacenterLocality",
+    "tableHash": "1A8564D4",
+    "db2FileDataID": 7928017
+  },
+  {
     "tableName": "Cfg_GameRules",
     "tableHash": "AA0ECB1C",
     "db2FileDataID": 6841377
@@ -695,6 +720,11 @@
     "tableHash": "A77E7F0D",
     "dbcFileDataID": 801589,
     "db2FileDataID": 1082876
+  },
+  {
+    "tableName": "Cfg_SuperDistrict",
+    "tableHash": "FFD9D676",
+    "db2FileDataID": 7929271
   },
   {
     "tableName": "Cfg_TimeEventRegionGroup",
@@ -996,6 +1026,21 @@
     "tableName": "ChrModel",
     "tableHash": "49349C6E",
     "db2FileDataID": 3384313
+  },
+  {
+    "tableName": "ChrModelAltVariant",
+    "tableHash": "8E636A9B",
+    "db2FileDataID": 8068383
+  },
+  {
+    "tableName": "ChrModelAltVariantChoice",
+    "tableHash": "F4A6DC16",
+    "db2FileDataID": 8068384
+  },
+  {
+    "tableName": "ChrModelAltVariantOption",
+    "tableHash": "65FD1ED8",
+    "db2FileDataID": 8068385
   },
   {
     "tableName": "ChrModelMaterial",
@@ -1897,6 +1942,11 @@
     "tableHash": "1018ADD5",
     "dbcFileDataID": 801624,
     "db2FileDataID": 1361579
+  },
+  {
+    "tableName": "FFTTile",
+    "tableHash": "43B03B3C",
+    "db2FileDataID": 7489860
   },
   {
     "tableName": "FileData",
@@ -3445,6 +3495,11 @@
     "db2FileDataID": 984702
   },
   {
+    "tableName": "LevelExperience",
+    "tableHash": "D80405C3",
+    "db2FileDataID": 7880197
+  },
+  {
     "tableName": "LFGDungeonExpansion",
     "tableHash": "F1FFC748",
     "dbcFileDataID": 801695,
@@ -3484,6 +3539,11 @@
     "tableHash": "0AD67EBF",
     "dbcFileDataID": 801698,
     "db2FileDataID": 1375580
+  },
+  {
+    "tableName": "LightDataGlobalVolumeFog",
+    "tableHash": "7E319A3D",
+    "db2FileDataID": 7492879
   },
   {
     "tableName": "LightFloatBand",
@@ -3547,6 +3607,11 @@
     "tableHash": "6613BED3",
     "dbcFileDataID": 801703,
     "db2FileDataID": 1371380
+  },
+  {
+    "tableName": "LiquidTypeXFFTTile",
+    "tableHash": "34E07616",
+    "db2FileDataID": 7489861
   },
   {
     "tableName": "LiquidTypeXTexture",
@@ -3781,6 +3846,11 @@
     "tableName": "ModelNameToManifest",
     "tableHash": "730F0635",
     "db2FileDataID": 969309
+  },
+  {
+    "tableName": "ModelProperties",
+    "tableHash": "1A6B0C40",
+    "db2FileDataID": 2060639
   },
   {
     "tableName": "ModelRibbonQuality",
@@ -4365,6 +4435,11 @@
     "db2FileDataID": 5426708
   },
   {
+    "tableName": "PlayerExpectedStat",
+    "tableHash": "C012F724",
+    "db2FileDataID": 7667204
+  },
+  {
     "tableName": "PlayerInteractionInfo",
     "tableHash": "C031D32E",
     "db2FileDataID": 5346849
@@ -4679,6 +4754,11 @@
     "tableName": "QuestXUiWidgetSet",
     "tableHash": "07DA21DD",
     "db2FileDataID": 3923421
+  },
+  {
+    "tableName": "RaceStat",
+    "tableHash": "4D07E2FC",
+    "db2FileDataID": 7722633
   },
   {
     "tableName": "RacialMounts",
@@ -5836,6 +5916,26 @@
     "db2FileDataID": 1345276
   },
   {
+    "tableName": "SuperDistrictSet",
+    "tableHash": "E4CDB5CF",
+    "db2FileDataID": 8279681
+  },
+  {
+    "tableName": "SuperDistrictSetCollection",
+    "tableHash": "90204B0A",
+    "db2FileDataID": 8279682
+  },
+  {
+    "tableName": "SuperDistrictSetXAvailableSD",
+    "tableHash": "08014697",
+    "db2FileDataID": 8281618
+  },
+  {
+    "tableName": "SuperDistrictTransfer",
+    "tableHash": "94F0D5CC",
+    "db2FileDataID": 8279874
+  },
+  {
     "tableName": "TabardBackgroundTextures",
     "tableHash": "3219839F"
   },
@@ -6030,6 +6130,11 @@
     "tableName": "TraitNodeGroup",
     "tableHash": "601B98C1",
     "db2FileDataID": 4420300
+  },
+  {
+    "tableName": "TraitNodeGroupDisplayInfo",
+    "tableHash": "34B4B384",
+    "db2FileDataID": 7935808
   },
   {
     "tableName": "TraitNodeGroupXTraitCond",
@@ -6446,6 +6551,11 @@
     "tableName": "UiTextureAtlasMember",
     "tableHash": "B5307A56",
     "db2FileDataID": 897532
+  },
+  {
+    "tableName": "UiTextureAtlasSet",
+    "tableHash": "946A268D",
+    "db2FileDataID": 7939471
   },
   {
     "tableName": "UiTextureKit",

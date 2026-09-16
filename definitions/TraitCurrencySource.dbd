@@ -9,6 +9,29 @@ int PlayerLevel?
 int<TraitNodeEntry::ID> TraitNodeEntryID?
 int OrderIndex? // not sure what group, but the achievement-unlocked sources are increasing in level
 int Field_10_0_0_43342_004?
+locstring Field_1_60_1_69876_000_lang?
+int Field_1_60_1_69876_001?
+int Field_1_60_1_69876_002?
+int Field_1_60_1_69876_003?
+int Field_1_60_1_69876_004?
+int Field_1_60_1_69876_005?
+int Field_1_60_1_69876_006?
+int Field_1_60_1_69876_007?
+int Field_1_60_1_69876_008?
+int Field_1_60_1_69876_009?
+
+LAYOUT 4C49B6AA
+BUILD 1.60.1.69876
+Field_1_60_1_69876_000_lang
+$id$Field_1_60_1_69876_001<32>
+$relation$Field_1_60_1_69876_002<32>
+Field_1_60_1_69876_003<32>
+Field_1_60_1_69876_004<32>
+Field_1_60_1_69876_005<32>
+Field_1_60_1_69876_006<32>
+Field_1_60_1_69876_007<32>
+Field_1_60_1_69876_008<32>
+Field_1_60_1_69876_009<32>
 
 LAYOUT 4B2F25DE
 BUILD 10.0.0.43342

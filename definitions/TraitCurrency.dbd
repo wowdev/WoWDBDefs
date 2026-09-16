@@ -6,6 +6,25 @@ int Flags // &1: ShowQuantityAsSpent, &2: TraitSourcedShowMax, &4: UseClassIcon,
 int<FileData::ID> Icon
 int<PlayerDataElementAccount::ID> PlayerDataElementAccountID?
 int<PlayerDataElementCharacter::ID> PlayerDataElementCharacterID?
+int Field_1_60_1_69876_000?
+int Field_1_60_1_69876_001?
+int Field_1_60_1_69876_002?
+int Field_1_60_1_69876_003?
+int Field_1_60_1_69876_004?
+int Field_1_60_1_69876_005?
+int Field_1_60_1_69876_006?
+int Field_1_60_1_69876_007?
+
+LAYOUT A8B0874B
+BUILD 1.60.1.69876
+$id$Field_1_60_1_69876_000<32>
+Field_1_60_1_69876_001<32>
+Field_1_60_1_69876_002<32>
+Field_1_60_1_69876_003<32>
+Field_1_60_1_69876_004<32>
+Field_1_60_1_69876_005<32>
+Field_1_60_1_69876_006<32>
+Field_1_60_1_69876_007<32>
 
 LAYOUT 75686387
 BUILD 10.0.0.43342
