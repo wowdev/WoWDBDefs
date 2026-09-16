@@ -10,11 +10,13 @@
 9 TARGET_DEST_HOME
 10
 11 TARGET_UNIT_SRC_AREA_UNK_11
+13
 14
 15 TARGET_UNIT_SRC_AREA_ENEMY
 16 TARGET_UNIT_DEST_AREA_ENEMY
 17 TARGET_DEST_DB
 18 TARGET_DEST_CASTER
+19
 20 TARGET_UNIT_CASTER_AREA_PARTY
 21 TARGET_UNIT_TARGET_ALLY
 22 TARGET_SRC_CASTER
@@ -145,3 +147,4 @@
 150 TARGET_UNIT_OWN_CRITTER
 151 TARGET_UNIT_AREA_DYNAMIC_LINE // Bit difficult to name this properly. Seems to create a line between the caster and their target, selecting all valid targets within the area. SpellRadius entries seem likely to be the maximum length?
 152 TARGET_BATTLE_PET
+153
