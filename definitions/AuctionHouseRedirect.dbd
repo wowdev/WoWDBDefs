@@ -1,9 +1,9 @@
 COLUMNS
 int ID
-int Field_1_60_1_69876_000?
+int<AuctionHouse::ID> Field_1_60_1_69876_000?
 int Field_1_60_1_69876_001?
-int Field_1_60_1_69876_002?
-int Field_1_60_1_69876_003?
+int<AuctionHouse::ID> Field_1_60_1_69876_002?
+int<AuctionHouse::ID> Field_1_60_1_69876_003?
 
 LAYOUT FA23AD86
 BUILD 1.60.1.69876, 1.60.1.69893

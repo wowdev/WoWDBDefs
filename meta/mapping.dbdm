@@ -38,6 +38,10 @@ COLOR LiquidType::MinimapStaticCol
 COLOR SpellVisualColorEffect::Color
 COLOR UIDungeonScoreRarity::ScoreColor
 COLOR Weather::OverrideColor
+COLOR LightDataGlobalVolumeFog::Field_1_60_1_69876_001
+COLOR LightDataGlobalVolumeFog::Field_1_60_1_69876_002
+COLOR LightDataGlobalVolumeFog::Field_1_60_1_69876_003
+COLOR LightDataGlobalVolumeFog::Field_1_60_1_69876_004
 ENUM AlliedRace::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM AreaTrigger::ShapeType ShapeType
 ENUM AreaTriggerCreateProperties::ShapeType ShapeType
@@ -85,6 +89,8 @@ ENUM ChrCustomizationOption::OptionType ChrCustomizationOptionType
 ENUM ChrCustomizationReq::OverrideArchive ChrCustomizationReqOverrideArchive
 ENUM ChrCustomizationReq::ReqType ChrCustomizationReqType
 ENUM ChrCustomizationSkinnedModel::GeosetType GeosetType
+ENUM ChrModelAltVariant::SourceChrModelID ChrModelID
+ENUM ChrModelAltVariant::VariantChrModelID ChrModelID
 ENUM ChrModelMaterial::Flags ChrModelMaterialSkinType
 ENUM ChrModelMaterial::TextureType TextureType
 ENUM ChrModelTextureLayer::BlendMode ChrModelTextureLayerBlendMode
