@@ -2,7 +2,7 @@ COLUMNS
 locstring Name_lang?
 int ID?
 int Flags? // 0x1 = AutoUnlock, 0x2 = IsHorde, 0x4 = IsAlliance
-int Field_12_0_5_66330_003?
+int<Item::ID> UnlockItemID?
 int Field_12_0_5_66330_004?
 
 LAYOUT EBA8ED0E
@@ -34,5 +34,5 @@ BUILD 1.15.9.68808, 1.15.9.68940, 1.15.9.69109, 1.15.9.69547, 1.15.9.69722
 Name_lang
 $id$ID<32>
 Flags<32>
-Field_12_0_5_66330_003<32>
+UnlockItemID<32>
 Field_12_0_5_66330_004<32>
