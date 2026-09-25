@@ -22,8 +22,6 @@ int Field_3_4_0_43659_005?
 int IconFileDataID?
 int Field_11_0_7_57361_013?
 int Field_11_0_7_57361_014?
-int Field_11_0_7_57361_015?
-int Field_11_0_7_57361_016?
 int ExpansionID?
 
 LAYOUT 410A29E6
@@ -45,8 +43,8 @@ MaxPlayers<u8>
 DisplayType<u8>
 Field_11_0_7_57361_013<32>
 Field_11_0_7_57361_014<32>
-Field_11_0_7_57361_015<32>
-Field_11_0_7_57361_016<32>
+MinLevel<32>
+MaxLevelSuggestion<32>
 OverrideContentTuningID<32>
 MapChallengeModeID<32>
 
@@ -455,8 +453,8 @@ MaxPlayers<u8>
 DisplayType<u8>
 Field_11_0_7_57361_013<32>
 Field_11_0_7_57361_014<32>
-Field_11_0_7_57361_015<32>
-Field_11_0_7_57361_016<32>
+MinLevel<32>
+MaxLevelSuggestion<32>
 OverrideContentTuningID<32>
 MapChallengeModeID<32>
 
@@ -479,8 +477,8 @@ MaxPlayers<u8>
 DisplayType<u8>
 Field_11_0_7_57361_013<32>
 Field_11_0_7_57361_014<32>
-Field_11_0_7_57361_015<32>
-Field_11_0_7_57361_016<32>
+MinLevel<32>
+MaxLevelSuggestion<32>
 OverrideContentTuningID<32>
 MapChallengeModeID<32>
 
@@ -512,7 +510,7 @@ MaxPlayers<u8>
 DisplayType<u8>
 Field_11_0_7_57361_013<32>
 Field_11_0_7_57361_014<32>
-Field_11_0_7_57361_015<32>
-Field_11_0_7_57361_016<32>
+MinLevel<32>
+MaxLevelSuggestion<32>
 OverrideContentTuningID<32>
 MapChallengeModeID<32>
