@@ -9,30 +9,20 @@ float Position
 string ScriptTag
 int<UiModelSceneActorDisplay::ID> UiModelSceneActorDisplayID
 int<UiModelScene::ID> UiModelSceneID
-string Field_1_60_1_70009_000?
-float Field_1_60_1_70009_001?
-int Field_1_60_1_70009_002?
-int Field_1_60_1_70009_003?
-int Field_1_60_1_70009_004?
-int Field_1_60_1_70009_005?
-float Field_1_60_1_70009_006?
-float Field_1_60_1_70009_007?
-float Field_1_60_1_70009_008?
-float Field_1_60_1_70009_009?
 float Field_1_60_1_70009_010?
 
 LAYOUT B777EC3A
 BUILD 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170
-Field_1_60_1_70009_000
-Field_1_60_1_70009_001[3]
-$id$Field_1_60_1_70009_002<32>
-$relation$Field_1_60_1_70009_003<32>
-Field_1_60_1_70009_004<32>
-Field_1_60_1_70009_005<32>
-Field_1_60_1_70009_006
-Field_1_60_1_70009_007
-Field_1_60_1_70009_008
-Field_1_60_1_70009_009
+ScriptTag
+Position[3]
+$id$ID<32>
+$relation$UiModelSceneID<32>
+Flags<32>
+UiModelSceneActorDisplayID<32>
+OrientationYaw
+OrientationPitch
+OrientationRoll
+NormalizedScale
 Field_1_60_1_70009_010
 
 LAYOUT F1E78B36
