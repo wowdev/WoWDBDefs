@@ -4,9 +4,9 @@ int Level?
 int<ChrClasses::ID> ClassID?
 int ContentSetID?
 int BaseMana? // PLAYER_EXPECTED_STAT 0, 0 for classes without mana
-int Field_1_60_1_69876_005? // PLAYER_EXPECTED_STAT 1
+int HPPerStamina? // PLAYER_EXPECTED_STAT 1
 int Field_1_60_1_69876_006? // PLAYER_EXPECTED_STAT 2
-float CritPerAgility? // PLAYER_EXPECTED_STAT 14
+float CritPerAgility? // PLAYER_EXPECTED_STAT 14, also used by Dodge Per Agility calculation
 float SpellCritPerIntellect? // PLAYER_EXPECTED_STAT 16, used by GetSpellCritChanceFromStat
 
 LAYOUT 0C2B97BF
@@ -16,7 +16,7 @@ Level<32>
 ClassID<32>
 ContentSetID<32>
 BaseMana<32>
-Field_1_60_1_69876_005<32>
+HPPerStamina<32>
 Field_1_60_1_69876_006<32>
 CritPerAgility
 SpellCritPerIntellect
