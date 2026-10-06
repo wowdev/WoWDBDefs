@@ -254,6 +254,7 @@ ENUM SoundEmitters::EmitterType SoundEmitterType
 ENUM SoundEntries::SoundType SoundKitType
 ENUM SoundKit::SoundType SoundKitType
 ENUM SpellCategories::DispelType DispelType
+ENUM SpellCategories::DefenseType DefenseType
 ENUM SpellClassOptions::SpellClassSet SpellClassSet
 ENUM SpellEffect::Effect SpellEffect
 ENUM SpellEffect::EffectAura SpellEffectAura
@@ -521,6 +522,7 @@ FLAGS SpellAuraOptions::ProcTypeMask[0] ProcTypeMask0
 FLAGS SpellAuraOptions::ProcTypeMask[1] ProcTypeMask1
 FLAGS SpellCastingRequirements::FacingCasterFlags FacingCasterFlags
 FLAGS SpellCategory::Flags SpellCategoryFlags
+FLAGS SpellCategories::PreventionType PreventionType
 FLAGS SpellEffect::EffectAttributes SpellEffectEffectAttributes
 FLAGS SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=189
 FLAGS SpellEffect::EffectMiscValue[0] CombatRatingFlags SpellEffect::EffectAura=198
