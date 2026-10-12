@@ -37,8 +37,7 @@ int Field_4_4_0_53750_021?
 int Field_1_15_3_55112_018?
 int Field_1_15_3_55112_020?
 int Field_1_15_3_55112_021?
-int Field_12_1_5_69594_011?
-int Field_12_1_5_69594_021?
+int<ItemSquishEra::ID> ItemSquishEraID?
 
 BUILD 0.5.3.3368
 $id$ID<32>
@@ -780,7 +779,7 @@ Flags<32>
 EffectScalingPoints[3]
 ScalingClass<32>
 ScalingClassRestricted<32>
-Field_12_1_5_69594_011<32>
+Condition_ID<32>
 RequiredSkillID<32>
 RequiredSkillRank<32>
 MinLevel<32>
@@ -790,6 +789,6 @@ ItemLevelMin<32>
 ItemLevelMax<32>
 TransmogUseConditionID<32>
 TransmogCost<32>
-Field_12_1_5_69594_021<32>
+ItemSquishEraID<32>
 ItemVisual<u16>
 ItemLevel<u16>

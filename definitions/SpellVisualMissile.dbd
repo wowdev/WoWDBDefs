@@ -19,12 +19,10 @@ int ClutterLevel // See SpellVisualKit::ClutterLevel.
 int DecayTimeAfterImpact? // defaults to 5000 if not set here - read in CMissile::HitTarget, stored in CMissile::AttachToVictim, checked by CUnitDisplay::UpdateDecayMissiles
 int Field_5_4_0_17266_006?
 int Field_11_0_0_54210_017?
-int Field_1_15_4_56400_015?
-int Field_12_1_5_69594_017?
-int Field_12_1_5_69594_018?
-int Field_12_1_5_69594_019?
-int Field_12_1_5_69594_020?
-int Field_12_1_5_69594_021?
+int MinimumSpellVisualDensityFilterType? // Type of visual adjustment used when spellVisualDensityFilterSetting CVar is set to 1
+int<SpellVisualMissile::ID> MinimumSpellVisualDensityFilterParam?
+int ReducedSpellVisualDensityFilterType? // Type of visual adjustment used when spellVisualDensityFilterSetting CVar is set to 2
+int<SpellVisualMissile::ID> ReducedSpellVisualDensityFilterParam?
 
 LAYOUT 130A6DDE
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -163,7 +161,7 @@ FollowGroundApproach<u16>
 Flags<u32>
 SpellMissileMotionID<u16>
 AnimKitID<u32>
-Field_1_15_4_56400_015<u16>
+Field_11_0_0_54210_017<u16>
 $noninline,relation$SpellVisualMissileSetID<32>
 
 LAYOUT B670A059
@@ -187,7 +185,7 @@ FollowGroundApproach<u16>
 Flags<32>
 SpellMissileMotionID<u16>
 AnimKitID<u32>
-Field_1_15_4_56400_015<u16>
+Field_11_0_0_54210_017<u16>
 $noninline,relation$SpellVisualMissileSetID<32>
 
 BUILD 6.0.1.18179
@@ -477,9 +475,9 @@ SpellMissileMotionID<u16>
 AnimKitID<u32>
 ClutterLevel<32>
 DecayTimeAfterImpact<32>
-Field_12_1_5_69594_017<u16>
-Field_12_1_5_69594_018<32>
-Field_12_1_5_69594_019<32>
-Field_12_1_5_69594_020<32>
-Field_12_1_5_69594_021<32>
+Field_11_0_0_54210_017<u16>
+MinimumSpellVisualDensityFilterType<32>
+MinimumSpellVisualDensityFilterParam<32>
+ReducedSpellVisualDensityFilterType<32>
+ReducedSpellVisualDensityFilterParam<32>
 $noninline,relation$SpellVisualMissileSetID<32>
