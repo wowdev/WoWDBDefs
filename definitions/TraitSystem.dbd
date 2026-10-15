@@ -5,13 +5,7 @@ int<UiWidgetSet::ID> WidgetSetID?
 int<Spell::ID> TraitChangeSpell?
 int<Item::ID> ItemID?
 int VariationType? // 0 = None, 1 = Spec
-int Field_12_1_7_70424_000?
-int Field_12_1_7_70424_001?
-int Field_12_1_7_70424_002?
-int Field_12_1_7_70424_003?
-int Field_12_1_7_70424_004?
-int Field_12_1_7_70424_005?
-int Field_12_1_7_70424_006?
+int<ChrSpecialization::ID> SpecializationID? // Currently only mapped to the Scribe specializations.
 
 LAYOUT 31228AEF
 BUILD 10.0.2.45480, 10.0.2.45505, 10.0.2.45569, 10.0.2.45632, 10.0.2.45698, 10.0.2.45746, 10.0.2.45779, 10.0.2.45969, 10.0.2.46091, 10.0.2.46092, 10.0.2.46157
@@ -108,4 +102,4 @@ WidgetSetID<32>
 TraitChangeSpell<32>
 ItemID<32>
 VariationType<32>
-Field_12_1_7_70424_006<32>
+SpecializationID<32>
