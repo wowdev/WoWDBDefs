@@ -6,8 +6,8 @@ int Field_12_1_7_70424_002?
 int Field_12_1_7_70424_003?
 float Field_12_1_7_70424_004?
 float Field_12_1_7_70424_005?
-int Field_12_1_7_70424_006?
-int Field_12_1_7_70424_007?
+int<SpellRadius::ID> EffectRadiusIndex?
+int ImplicitTarget?
 int Field_12_1_7_70424_008?
 
 LAYOUT 8450E888
@@ -19,6 +19,6 @@ Field_12_1_7_70424_002<32>
 Field_12_1_7_70424_003<32>
 Field_12_1_7_70424_004
 Field_12_1_7_70424_005
-Field_12_1_7_70424_006<32>[2]
-Field_12_1_7_70424_007<16>[2]
+EffectRadiusIndex<32>[2]
+ImplicitTarget<16>[2]
 Field_12_1_7_70424_008<32>[2]

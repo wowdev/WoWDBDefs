@@ -279,6 +279,8 @@ ENUM SpellEffect::EffectMiscValue[1] PrimaryStats SpellEffect::EffectAura=571
 ENUM SpellEffect::EffectMiscValue[1] PrimaryStats SpellEffect::EffectAura=583
 ENUM SpellEffect::ImplicitTarget[0] Target
 ENUM SpellEffect::ImplicitTarget[1] Target
+ENUM SpellImplicitTargeting::ImplicitTarget[0] Target
+ENUM SpellImplicitTargeting::ImplicitTarget[1] Target
 ENUM SpellItemEnchantment::Effect[0] SpellItemEnchantmentEffect
 ENUM SpellItemEnchantment::Effect[1] SpellItemEnchantmentEffect
 ENUM SpellItemEnchantment::Effect[2] SpellItemEnchantmentEffect
