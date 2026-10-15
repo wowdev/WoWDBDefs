@@ -5556,6 +5556,11 @@
     "db2FileDataID": 1280617
   },
   {
+    "tableName": "SpellImplicitTargeting",
+    "tableHash": "CF622413",
+    "db2FileDataID": 3055896
+  },
+  {
     "tableName": "SpellInterrupts",
     "tableHash": "668FAE03",
     "dbcFileDataID": 801793,
@@ -5681,6 +5686,11 @@
     "tableHash": "E051A69C",
     "dbcFileDataID": 841696,
     "db2FileDataID": 1146820
+  },
+  {
+    "tableName": "SpellRangeVisualization",
+    "tableHash": "9C6F05CB",
+    "db2FileDataID": 7871438
   },
   {
     "tableName": "SpellReagents",
@@ -6028,6 +6038,16 @@
     "tableName": "TieredEntrance",
     "tableHash": "4DDF13A4",
     "db2FileDataID": 7833678
+  },
+  {
+    "tableName": "TieredEntranceTierProg",
+    "tableHash": "F9023EDF",
+    "db2FileDataID": 8513805
+  },
+  {
+    "tableName": "TieredEntranceTierProgSet",
+    "tableHash": "46984799",
+    "db2FileDataID": 8513806
   },
   {
     "tableName": "TierTransition",

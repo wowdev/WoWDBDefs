@@ -24,30 +24,6 @@ int Field_11_0_7_57361_013?
 int Field_11_0_7_57361_014?
 int ExpansionID?
 
-LAYOUT 410A29E6
-BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
-FullName_lang
-ShortName_lang
-$id$ID<32>
-GroupFinderCategoryID<u8>
-OrderIndex<8>
-GroupFinderActivityGrpID<u16>
-Flags<32>
-MinGearLevelSuggestion<u16>
-PlayerConditionID<32>
-MapID<u16>
-DifficultyID<16>
-AreaID<u16>
-ExpansionID<32>
-MaxPlayers<u8>
-DisplayType<u8>
-Field_11_0_7_57361_013<32>
-Field_11_0_7_57361_014<32>
-MinLevel<32>
-MaxLevelSuggestion<32>
-OverrideContentTuningID<32>
-MapChallengeModeID<32>
-
 LAYOUT CAA26BD9
 BUILD 2.5.1.38043, 2.5.1.38061, 2.5.1.38093, 2.5.1.38118, 2.5.1.38119, 2.5.1.38169, 2.5.1.38225, 2.5.1.38285, 2.5.1.38339, 2.5.1.38364, 2.5.1.38401, 2.5.1.38453, 2.5.1.38502, 2.5.1.38521, 2.5.1.38537, 2.5.1.38548, 2.5.1.38561, 2.5.1.38598, 2.5.1.38644, 2.5.1.38677, 2.5.1.38692, 2.5.1.38707, 2.5.1.38739, 2.5.1.38741, 2.5.1.38757, 2.5.1.38835, 2.5.1.38892, 2.5.1.38921, 2.5.1.38988, 2.5.1.39170, 2.5.1.39399, 2.5.1.39475, 2.5.1.39603, 2.5.1.39640
 $noninline,id$ID<32>
@@ -496,6 +472,31 @@ BUILD 1.15.9.68808, 1.15.9.68940, 1.15.9.69109, 1.15.9.69547, 1.15.9.69722, 1.15
 $noninline,id$ID<32>
 FullName_lang
 ShortName_lang
+GroupFinderCategoryID<u8>
+OrderIndex<8>
+GroupFinderActivityGrpID<u16>
+Flags<32>
+MinGearLevelSuggestion<u16>
+PlayerConditionID<32>
+MapID<u16>
+DifficultyID<16>
+AreaID<u16>
+ExpansionID<32>
+MaxPlayers<u8>
+DisplayType<u8>
+Field_11_0_7_57361_013<32>
+Field_11_0_7_57361_014<32>
+MinLevel<32>
+MaxLevelSuggestion<32>
+OverrideContentTuningID<32>
+MapChallengeModeID<32>
+
+LAYOUT 410A29E6
+BUILD 12.1.7.70424
+BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
+FullName_lang
+ShortName_lang
+$id$ID<32>
 GroupFinderCategoryID<u8>
 OrderIndex<8>
 GroupFinderActivityGrpID<u16>

@@ -11,20 +11,6 @@ int<UiModelSceneActorDisplay::ID> UiModelSceneActorDisplayID
 int<UiModelScene::ID> UiModelSceneID
 float Field_1_60_1_70009_010?
 
-LAYOUT B777EC3A
-BUILD 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
-ScriptTag
-Position[3]
-$id$ID<32>
-$relation$UiModelSceneID<32>
-Flags<32>
-UiModelSceneActorDisplayID<32>
-OrientationYaw
-OrientationPitch
-OrientationRoll
-NormalizedScale
-Field_1_60_1_70009_010
-
 LAYOUT F1E78B36
 BUILD 5.5.3.64141, 5.5.3.64308, 5.5.3.64400, 5.5.3.64530, 5.5.3.64794, 5.5.3.64802, 5.5.3.64857, 5.5.3.65302, 5.5.3.65703, 5.5.3.65746, 5.5.3.65890, 5.5.3.65988, 5.5.3.66128, 5.5.3.66264, 5.5.3.66290, 5.5.3.66382, 5.5.3.66509, 5.5.3.66565, 5.5.3.66839, 5.5.3.67158, 5.5.3.67509
 BUILD 5.5.2.63832, 5.5.2.64068, 5.5.2.64133, 5.5.2.64271, 5.5.2.64481
@@ -240,3 +226,18 @@ OrientationYaw
 OrientationPitch
 OrientationRoll
 NormalizedScale
+
+LAYOUT B777EC3A
+BUILD 12.1.7.70424
+BUILD 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
+ScriptTag
+Position[3]
+$id$ID<32>
+$relation$UiModelSceneID<32>
+Flags<32>
+UiModelSceneActorDisplayID<32>
+OrientationYaw
+OrientationPitch
+OrientationRoll
+NormalizedScale
+Field_1_60_1_70009_010

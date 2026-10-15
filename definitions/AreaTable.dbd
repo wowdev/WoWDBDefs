@@ -112,34 +112,6 @@ AreaName_lang
 FactionGroupMask<32>
 LiquidTypeID<32>[4]
 
-LAYOUT 9995B797
-BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
-$noninline,id$ID<32>
-ZoneName
-AreaName_lang
-ContinentID<u16>
-ParentAreaID<u16>
-AreaBit<16>
-SoundProviderPref<u8>
-SoundProviderPrefUnderwater<u8>
-AmbienceID<u16>
-UwAmbience<u16>
-ZoneMusic<u16>
-UwZoneMusic<u16>
-ExplorationLevel<8>
-IntroSound<u16>
-UwIntroSound<u32>
-FactionGroupMask<u8>
-Ambient_multiplier
-MountFlags<32>
-PvpCombatWorldStateID<32>
-WildBattlePetLevelMin<u8>
-WildBattlePetLevelMax<u8>
-WindSettingsID<u8>
-ContentTuningID<32>
-Flags<32>[2]
-LiquidTypeID<u16>[4]
-
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>
 ContinentID<32>
@@ -915,6 +887,35 @@ AmbienceID<u16>
 UwAmbience<u16>
 ZoneMusic<u16>
 UwZoneMusic<u16>
+IntroSound<u16>
+UwIntroSound<u32>
+FactionGroupMask<u8>
+Ambient_multiplier
+MountFlags<32>
+PvpCombatWorldStateID<32>
+WildBattlePetLevelMin<u8>
+WildBattlePetLevelMax<u8>
+WindSettingsID<u8>
+ContentTuningID<32>
+Flags<32>[2]
+LiquidTypeID<u16>[4]
+
+LAYOUT 9995B797
+BUILD 12.1.7.70424
+BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
+$noninline,id$ID<32>
+ZoneName
+AreaName_lang
+ContinentID<u16>
+ParentAreaID<u16>
+AreaBit<16>
+SoundProviderPref<u8>
+SoundProviderPrefUnderwater<u8>
+AmbienceID<u16>
+UwAmbience<u16>
+ZoneMusic<u16>
+UwZoneMusic<u16>
+ExplorationLevel<8>
 IntroSound<u16>
 UwIntroSound<u32>
 FactionGroupMask<u8>

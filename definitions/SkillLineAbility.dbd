@@ -116,27 +116,6 @@ TradeSkillCategoryID<16>
 SkillupSkillLineID<16>
 CharacterPoints<32>[2]
 
-LAYOUT 224F7EA0
-BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
-AbilityVerb_lang
-AbilityAllVerb_lang
-$id$ID<32>
-$relation$SkillLine<16>
-Spell<32>
-MinSkillLineRank<16>
-ClassMask<32>
-SupercedesSpell<32>
-AcquireMethod<32>
-TrivialSkillLineRankHigh<16>
-TrivialSkillLineRankLow<16>
-Flags<32>
-NumSkillUps<8>
-UniqueBit<16>
-TradeSkillCategoryID<16>
-SkillupSkillLineID<16>
-Field_5_5_4_67090_014<32>[2]
-RaceMasks<32>[2]
-
 LAYOUT 812C6AF2
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -647,4 +626,26 @@ NumSkillUps<8>
 UniqueBit<16>
 TradeSkillCategoryID<16>
 SkillupSkillLineID<16>
+RaceMasks<32>[2]
+
+LAYOUT 224F7EA0
+BUILD 12.1.7.70424
+BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
+AbilityVerb_lang
+AbilityAllVerb_lang
+$id$ID<32>
+$relation$SkillLine<16>
+Spell<32>
+MinSkillLineRank<16>
+ClassMask<32>
+SupercedesSpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<16>
+TrivialSkillLineRankLow<16>
+Flags<32>
+NumSkillUps<8>
+UniqueBit<16>
+TradeSkillCategoryID<16>
+SkillupSkillLineID<16>
+Field_5_5_4_67090_014<32>[2]
 RaceMasks<32>[2]

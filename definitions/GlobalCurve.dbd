@@ -4,13 +4,6 @@ int<Curve::ID> CurveID
 int Type // 0: CombatRatingBonus for CR_CRIT_MELEE, CR_CRIT_RANGED, CR_CRIT_SPELL; 1: CombatRatingBonus for CR_MASTERY; 2: CombatRatingBonus for CR_HASTE_SPELL; 3: CombatRatingBonus for CR_SPEED; 4: CombatRatingBonus for CR_AVOIDANCE; 5: CombatRatingBonus for CR_UNKNOWN_30, CR_VERSATILITY_DAMAGE_DONE, CR_VERSATILITY_DAMAGE_TAKEN; 6: CombatRatingBonus for CR_LIFESTEAL; 7: CombatRatingBonus for CR_DODGE; 8: CombatRatingBonus for CR_BLOCK; 9: CombatRatingBonus for CR_PARRY;
 int Subtype? // second lookup key next to Type: ChrClassesID for types 27/28 (health regen from spirit), item quality for type 35 (shield block)
 
-LAYOUT 1DC57BDD
-BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
-$noninline,id$ID<32>
-CurveID<32>
-Type<32>
-Subtype<32>
-
 LAYOUT 6EE9627F
 BUILD 10.0.0.43342
 BUILD 9.2.5.42850, 9.2.5.43022, 9.2.5.43057, 9.2.5.43180, 9.2.5.43254, 9.2.5.43412
@@ -75,3 +68,11 @@ BUILD 1.15.8.63829, 1.15.8.64057, 1.15.8.64130, 1.15.8.64272, 1.15.8.64344, 1.15
 $noninline,id$ID<32>
 CurveID<32>
 Type<32>
+
+LAYOUT 1DC57BDD
+BUILD 12.1.7.70424
+BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
+$noninline,id$ID<32>
+CurveID<32>
+Type<32>
+Subtype<32>

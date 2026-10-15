@@ -55,49 +55,6 @@ OceanDeepAlpha
 Flags<8>
 SsaoSettingsID<32>
 
-LAYOUT A7F31923
-BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
-$noninline,id$ID<32>
-OverrideCelestialSphere[3]
-OverrideSunPosition[3]
-HighlightSky<u8>
-LightSkyboxID<u16>
-CloudTypeID<u8>
-Glow
-WaterShallowAlpha
-WaterDeepAlpha
-OceanShallowAlpha
-OceanDeepAlpha
-Flags<32>
-SsaoSettingsID<32>
-SunPolar
-SunAzimuth
-SunAttenuationStart
-SunAttenuationEnd
-Field_12_0_0_63534_016
-Field_12_0_0_63534_017
-Field_12_0_0_63534_018
-Field_12_0_0_63534_019
-Field_12_0_0_63534_020
-Field_12_0_0_63534_021
-Field_12_0_0_63534_022
-Field_12_0_0_63534_023
-Field_12_0_0_63534_024
-Field_12_0_0_63534_025
-Field_12_0_0_63534_026
-Field_12_0_0_63534_027<32>
-Field_12_0_0_63534_028
-Field_12_0_0_63534_029
-Field_12_0_1_65617_030
-Field_12_0_1_65617_031
-Field_1_60_1_69876_032
-Field_1_60_1_69876_033
-Field_1_60_1_69876_034
-Field_1_60_1_69876_035<32>
-Field_1_60_1_69876_036
-Field_1_60_1_69876_037
-Field_1_60_1_69876_038
-
 BUILD 3.0.1.8303-3.3.5.12340
 BUILD 2.0.0.5610-2.4.3.8606
 BUILD 1.9.0.4937-1.12.3.6141
@@ -444,3 +401,47 @@ Field_12_0_0_63534_028
 Field_12_0_0_63534_029
 Field_12_0_1_65617_030
 Field_12_0_1_65617_031
+
+LAYOUT A7F31923
+BUILD 12.1.7.70424
+BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
+$noninline,id$ID<32>
+OverrideCelestialSphere[3]
+OverrideSunPosition[3]
+HighlightSky<u8>
+LightSkyboxID<u16>
+CloudTypeID<u8>
+Glow
+WaterShallowAlpha
+WaterDeepAlpha
+OceanShallowAlpha
+OceanDeepAlpha
+Flags<32>
+SsaoSettingsID<32>
+SunPolar
+SunAzimuth
+SunAttenuationStart
+SunAttenuationEnd
+Field_12_0_0_63534_016
+Field_12_0_0_63534_017
+Field_12_0_0_63534_018
+Field_12_0_0_63534_019
+Field_12_0_0_63534_020
+Field_12_0_0_63534_021
+Field_12_0_0_63534_022
+Field_12_0_0_63534_023
+Field_12_0_0_63534_024
+Field_12_0_0_63534_025
+Field_12_0_0_63534_026
+Field_12_0_0_63534_027<32>
+Field_12_0_0_63534_028
+Field_12_0_0_63534_029
+Field_12_0_1_65617_030
+Field_12_0_1_65617_031
+Field_1_60_1_69876_032
+Field_1_60_1_69876_033
+Field_1_60_1_69876_034
+Field_1_60_1_69876_035<32>
+Field_1_60_1_69876_036
+Field_1_60_1_69876_037
+Field_1_60_1_69876_038

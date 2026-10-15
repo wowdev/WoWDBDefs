@@ -226,36 +226,6 @@ WindSettingsID<16>
 ZmpFileDataID<32>
 Flags<32>[3]
 
-LAYOUT D43AFAC3
-BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
-$noninline,id$ID<32>
-Directory
-MapName_lang
-MapDescription0_lang
-MapDescription1_lang
-PvpShortDescription_lang
-PvpLongDescription_lang
-Corpse[2]
-MapType<u8>
-InstanceType<8>
-ExpansionID<u8>
-AreaTableID<u16>
-LoadingScreenID<16>
-TimeOfDayOverride<16>
-ParentMapID<16>
-CosmeticParentMapID<16>
-TimeOffset<u8>
-MinimapIconScale
-CorpseMapID<16>
-MaxPlayers<u8>
-WindSettingsID<16>
-ZmpFileDataID<32>
-WdtFileDataID<32>
-OceanLiquidTypeID<32>
-NavigationMaxDistance<32>
-PreloadFileDataID<32>
-Flags<32>[3]
-
 BUILD 2.0.0.5610-2.0.0.5666
 $id$ID<32>
 Directory
@@ -1317,6 +1287,37 @@ MaxPlayers<u8>
 WindSettingsID<16>
 ZmpFileDataID<32>
 WdtFileDataID<32>
+NavigationMaxDistance<32>
+PreloadFileDataID<32>
+Flags<32>[3]
+
+LAYOUT D43AFAC3
+BUILD 12.1.7.70424
+BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
+$noninline,id$ID<32>
+Directory
+MapName_lang
+MapDescription0_lang
+MapDescription1_lang
+PvpShortDescription_lang
+PvpLongDescription_lang
+Corpse[2]
+MapType<u8>
+InstanceType<8>
+ExpansionID<u8>
+AreaTableID<u16>
+LoadingScreenID<16>
+TimeOfDayOverride<16>
+ParentMapID<16>
+CosmeticParentMapID<16>
+TimeOffset<u8>
+MinimapIconScale
+CorpseMapID<16>
+MaxPlayers<u8>
+WindSettingsID<16>
+ZmpFileDataID<32>
+WdtFileDataID<32>
+OceanLiquidTypeID<32>
 NavigationMaxDistance<32>
 PreloadFileDataID<32>
 Flags<32>[3]

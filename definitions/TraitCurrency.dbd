@@ -8,17 +8,6 @@ int<PlayerDataElementAccount::ID> PlayerDataElementAccountID?
 int<PlayerDataElementCharacter::ID> PlayerDataElementCharacterID?
 int SourcedMax? // caps the summed TraitCurrencySource amounts in C_Traits.GetMaxAvailableTraitCurrency(limitBySourcedMax)
 
-LAYOUT A8B0874B
-BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
-$id$ID<32>
-Type<32>
-CurrencyTypesID<32>
-Flags<32>
-Icon<32>
-PlayerDataElementAccountID<32>
-PlayerDataElementCharacterID<32>
-SourcedMax<32>
-
 LAYOUT 75686387
 BUILD 10.0.0.43342
 $id$ID<32>
@@ -114,3 +103,15 @@ Flags<32>
 Icon<32>
 PlayerDataElementAccountID<32>
 PlayerDataElementCharacterID<32>
+
+LAYOUT A8B0874B
+BUILD 12.1.7.70424
+BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
+$id$ID<32>
+Type<32>
+CurrencyTypesID<32>
+Flags<32>
+Icon<32>
+PlayerDataElementAccountID<32>
+PlayerDataElementCharacterID<32>
+SourcedMax<32>

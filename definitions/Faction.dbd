@@ -52,31 +52,6 @@ ReputationFlags<32>[4]
 ParentFactionID<32>
 Description_lang
 
-LAYOUT 6D443C38
-BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
-$noninline,id$ID<32>
-Name_lang
-Description_lang
-ReputationIndex<16>
-ParentFactionID<u16>
-Expansion<u8>
-FriendshipRepID<u32>
-Flags<32>
-ParagonFactionID<u16>
-RenownFactionID<32>
-RenownCurrencyID<32>
-RenownThresholdCurveID<32>
-ReputationClassMask<16>[4]
-ReputationFlags<u16>[4]
-ReputationBase<32>[4]
-ReputationMax<32>[4]
-ParentFactionMod[2]
-ParentFactionCap<u8>[2]
-ReputationRaceMasks0<32>[2]
-ReputationRaceMasks1<32>[2]
-ReputationRaceMasks2<32>[2]
-ReputationRaceMasks3<32>[2]
-
 LAYOUT 2A4EC384
 BUILD 2.5.4.42581, 2.5.4.42695, 2.5.4.42757, 2.5.4.42800, 2.5.4.42869, 2.5.4.42870, 2.5.4.42873, 2.5.4.42917, 2.5.4.42940, 2.5.4.43400, 2.5.4.43638, 2.5.4.43861, 2.5.4.44036, 2.5.4.44171, 2.5.4.44400, 2.5.4.44833
 BUILD 2.5.3.41402, 2.5.3.41531, 2.5.3.41750, 2.5.3.41812, 2.5.3.42083, 2.5.3.42328, 2.5.3.42598
@@ -612,6 +587,32 @@ Flags<32>
 ParagonFactionID<u16>
 RenownFactionID<32>
 RenownCurrencyID<32>
+ReputationClassMask<16>[4]
+ReputationFlags<u16>[4]
+ReputationBase<32>[4]
+ReputationMax<32>[4]
+ParentFactionMod[2]
+ParentFactionCap<u8>[2]
+ReputationRaceMasks0<32>[2]
+ReputationRaceMasks1<32>[2]
+ReputationRaceMasks2<32>[2]
+ReputationRaceMasks3<32>[2]
+
+LAYOUT 6D443C38
+BUILD 12.1.7.70424
+BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+ReputationIndex<16>
+ParentFactionID<u16>
+Expansion<u8>
+FriendshipRepID<u32>
+Flags<32>
+ParagonFactionID<u16>
+RenownFactionID<32>
+RenownCurrencyID<32>
+RenownThresholdCurveID<32>
 ReputationClassMask<16>[4]
 ReputationFlags<u16>[4]
 ReputationBase<32>[4]

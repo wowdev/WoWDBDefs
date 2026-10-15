@@ -10,17 +10,6 @@ int Field_8_1_0_28048_006?
 int<Cfg_TimeEventRegionGroup::ID> Cfg_TimeEventRegionGroupID?
 locstring Name_lang?
 
-LAYOUT 66694D4D
-BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
-$noninline,id$ID<32>
-Tag
-Name_lang
-Region_ID<u16>
-Raidorigin<u32>
-Region_group_mask<u8>
-Challenge_origin<u32>
-Cfg_TimeEventRegionGroupID<32>
-
 BUILD 5.0.1.15668-5.0.5.16057
 $id$ID<32>
 Tag
@@ -182,6 +171,18 @@ BUILD 1.15.9.68808, 1.15.9.68940, 1.15.9.69109, 1.15.9.69547, 1.15.9.69722, 1.15
 BUILD 1.15.8.63829, 1.15.8.64057, 1.15.8.64130, 1.15.8.64272, 1.15.8.64344, 1.15.8.64858, 1.15.8.64907, 1.15.8.65300, 1.15.8.65888, 1.15.8.65989, 1.15.8.66129, 1.15.8.66564, 1.15.8.67156
 $noninline,id$ID<32>
 Tag
+Region_ID<u16>
+Raidorigin<u32>
+Region_group_mask<u8>
+Challenge_origin<u32>
+Cfg_TimeEventRegionGroupID<32>
+
+LAYOUT 66694D4D
+BUILD 12.1.7.70424
+BUILD 1.60.1.69876, 1.60.1.69893, 1.60.1.69913, 1.60.1.69977, 1.60.1.70009, 1.60.1.70058, 1.60.1.70094, 1.60.1.70124, 1.60.1.70170, 1.60.1.70178, 1.60.1.70205, 1.60.1.70235, 1.60.1.70245, 1.60.1.70291, 1.60.1.70334, 1.60.1.70338, 1.60.1.70374
+$noninline,id$ID<32>
+Tag
+Name_lang
 Region_ID<u16>
 Raidorigin<u32>
 Region_group_mask<u8>
