@@ -4,7 +4,7 @@ int<RTPC::ID> RTPCID
 int Field_9_0_1_33978_001?
 int<Creature::ID> CreatureID?
 int<Spell::ID> SpellID?
-int Field_9_0_1_33978_004?
+int<UnitPowerBar::ID> UnitPowerBarID?
 
 LAYOUT 25A83DE9
 BUILD 10.0.0.43342
@@ -20,7 +20,7 @@ $relation$RTPCID<32>
 Field_9_0_1_33978_001<32>
 CreatureID<32>
 SpellID<32>
-Field_9_0_1_33978_004<32>
+UnitPowerBarID<32>
 
 LAYOUT FB37E702
 BUILD 11.0.0.53687, 11.0.0.53949, 11.0.0.54013, 11.0.0.54210, 11.0.0.54289, 11.0.0.54311, 11.0.0.54361
@@ -42,7 +42,7 @@ $relation$RTPCID<32>
 Field_9_0_1_33978_001<32>
 CreatureID<32>
 SpellID<32>
-Field_9_0_1_33978_004<32>
+UnitPowerBarID<32>
 
 LAYOUT BC0E9DE3
 BUILD 12.1.7.70424, 12.1.7.70493, 12.1.7.70668, 12.1.7.70740
@@ -68,4 +68,4 @@ $relation$RTPCID<32>
 Field_9_0_1_33978_001<32>
 CreatureID<32>
 SpellID<32>
-Field_9_0_1_33978_004<32>
+UnitPowerBarID<32>
