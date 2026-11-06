@@ -26,22 +26,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
       - name: Download executable
         if: "${{ github.event.inputs.url != '' }}"
         run: wget -O ${{ github.event.inputs.product }}.exe ${{ github.event.inputs.url }}
       - name: Checkout TACTSharp
         if: "${{ github.event.inputs.url == '' }}"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
-          repository: 'Marlamin/TACTSharp'
+          repository: 'wowdev/TACTSharp'
           path: 'TACTSharp'
       - name: Setup .NET
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v6
         with:
-          dotnet-version: | 
-            8.0.x
-            10.0.x
+          dotnet-version: 10.x.x
       - name: Write exes.txt
         if: "${{ github.event.inputs.url == '' }}"
         run: echo -e "Wow.exe;Wow.exe\nWowT.exe;Wow.exe\nWowB.exe;Wow.exe\nWowClassic.exe;Wow.exe\nWowClassicT.exe;Wow.exe\nWowClassicB.exe;Wow.exe" > $PWD/exes.txt
@@ -50,7 +48,7 @@ jobs:
         run: mkdir -p cache
       - name: Cache
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         if: "${{ github.event.inputs.url == '' }}"
         with:
           key: tact-cache
@@ -94,7 +92,7 @@ jobs:
           DOTNET_CLI_TELEMETRY_OPTOUT: 1
           DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
       - name: Update repo
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Merge ${{ github.event.inputs.build }}
           file_pattern: 'definitions/* manifest.json'
