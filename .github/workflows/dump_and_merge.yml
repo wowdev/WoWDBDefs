@@ -18,12 +18,17 @@ on:
           description: Build config hash
           required: false
           type: string
+permissions:
+  contents: read
+  actions: write
 concurrency:
   group: ${{ github.workflow }}
   queue: max
 jobs:
   dumpandmerge:
     runs-on: ubuntu-latest
+    env:
+      cache-key: tact-cache
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -46,12 +51,11 @@ jobs:
       - name: Create cache dir
         if: "${{ github.event.inputs.url == '' }}"
         run: mkdir -p cache
-      - name: Cache
-        id: cache
-        uses: actions/cache@v6
-        if: "${{ github.event.inputs.url == '' }}"
+      - name: Restore Cache
+        id: cache-restore
+        uses: actions/cache/restore@v6
         with:
-          key: tact-cache
+          key: ${{ env.cache-key }}
           path: cache
       - name: Run TACTTool (with config)
         if: "${{ github.event.inputs.url == '' && github.event.inputs.config != '' }}"
@@ -70,6 +74,14 @@ jobs:
       - name: Clean up non-indexes from cache
         if: "${{ github.event.inputs.url == '' }}"
         run: find cache -type f | grep -v index | xargs rm
+      - name: Delete Previous Cache
+        if: ${{ steps.cache-restore.outputs.cache-hit }}
+        continue-on-error: true
+        run: |
+          gh extension install actions/gh-actions-cache
+          gh actions-cache delete "${{ env.cache-key }}" --confirm
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Rename executable
         if: "${{ github.event.inputs.url != '' }}"
         run: mkdir -p extract; mv ${{ github.event.inputs.product }}.exe extract/Wow.exe
@@ -96,4 +108,9 @@ jobs:
         with:
           commit_message: Merge ${{ github.event.inputs.build }}
           file_pattern: 'definitions/* manifest.json'
+      - name: Save Cache
+        uses: actions/cache/save@v6
+        with:
+          path: cache
+          key: ${{ env.cache-key }}
         
