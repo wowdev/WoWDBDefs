@@ -82,6 +82,11 @@ jobs:
           gh actions-cache delete "${{ env.cache-key }}" --confirm
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save Cache
+        uses: actions/cache/save@v6
+        with:
+          path: cache
+          key: ${{ env.cache-key }}
       - name: Rename executable
         if: "${{ github.event.inputs.url != '' }}"
         run: mkdir -p extract; mv ${{ github.event.inputs.product }}.exe extract/Wow.exe
@@ -108,9 +113,4 @@ jobs:
         with:
           commit_message: Merge ${{ github.event.inputs.build }}
           file_pattern: 'definitions/* manifest.json'
-      - name: Save Cache
-        uses: actions/cache/save@v6
-        with:
-          path: cache
-          key: ${{ env.cache-key }}
         
