@@ -5,6 +5,12 @@ locstring Description_lang
 int IconEnumValue
 int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
 int WorldStateValue
+locstring Field_12_1_7_70892_000_lang?
+int Field_12_1_7_70892_001?
+int Field_12_1_7_70892_002?
+int Field_12_1_7_70892_003?
+int Field_12_1_7_70892_004?
+int Field_12_1_7_70892_005?
 
 LAYOUT 847BC2B0
 BUILD 7.3.2.25079, 7.3.2.25163, 7.3.2.25196, 7.3.2.25208, 7.3.2.25255, 7.3.2.25326, 7.3.2.25383, 7.3.2.25442, 7.3.2.25455, 7.3.2.25477, 7.3.2.25480, 7.3.2.25497, 7.3.2.25516, 7.3.2.25549
@@ -140,3 +146,13 @@ WorldStateValue<u8>
 IconEnumValue<u8>
 UiTextureAtlasMemberID<u32>
 $noninline,relation$AreaPoiID<32>
+
+LAYOUT B7EBEB5A
+BUILD 12.1.7.70892
+$noninline,id$ID<32>
+Field_12_1_7_70892_000_lang
+Field_12_1_7_70892_001<u8>
+Field_12_1_7_70892_002<u8>
+Field_12_1_7_70892_003<u32>
+Field_12_1_7_70892_004<u32>
+$noninline,relation$Field_12_1_7_70892_005<32>
