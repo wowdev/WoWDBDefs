@@ -19,7 +19,7 @@ on:
           required: false
           type: string
 permissions:
-  contents: read
+  contents: write
   actions: write
 concurrency:
   group: ${{ github.workflow }}
