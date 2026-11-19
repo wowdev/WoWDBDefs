@@ -1,0 +1,32 @@
+0x1 WaitForBeamActivation // Wait for Beam Activation
+0x2 PlayImpactKitOncePerMissileVolley // Play Impact Kit Once per Missile Volley
+0x4 ForceSpecificAnimation // Force Specific Animation
+0x8 BypassAnimationTiers // Bypass Animation Tiers
+0x10 PlaySpecificWeaponSpecial // Play Specific Weapon Special
+0x20 LoopStandDontUseHoldForAura // Loop Stand, Don't Use Hold, For Aura
+0x40 RepeatAnimationForChanneledEffects // Repeat Animation for Channeled Effects
+0x80 RequiresActiveSpellEffect // Requires Active Spell Effect
+0x100 DoNotSheatheWeapon // Do not sheathe weapon
+0x200 InheritParentAlpha // Inherit Parent Alpha
+0x400 DontApplyAlphaProcedureToMount // Don't apply alpha procedure to mount
+0x800 NoWoundAnimationOnImpact // No wound animation on impact
+0x1000 OnlySeenByCaster // Only Seen By Caster
+0x2000 OnlySeenByTarget // Only Seen By Target
+0x4000 SynchronizeWithDismountIfPlayedAsStateDoneKit // Synchronize with dismount if played as State Done Kit
+0x8000 VisibilityExclusionsApplyOnlyWhileInARaidOrDungeon // Visibility Exclusions (Caster Only/Target Only/Never Caster) Apply Only While in a Raid or Dungeon
+0x10000 InheritParentEmissiveValue // Inherit Parent Emissive Value (allows selection highlight)
+0x20000 AbsoluteScale // Absolute Scale
+0x40000 DoNotApplyCharacterProceduralEffectsToMount // Do not apply character procedural effects to mount
+0x80000 AttachedModelsInheritTheAnimationOfTheParentModel // Attached models inherit the animation of the parent model
+0x100000 InheritParentDiffuseAndMaterialEffects // Inherit parent diffuse and material effects
+0x200000 AllowMultipleInstancesOfTheSameEffect // Allow multiple instances of the same effect
+0x400000 NeverSeenByCaster // Never Seen By Caster
+0x800000 LinkedToFadeRegionStatusOfParent // Linked to fade region status of parent (instead of location)
+0x1000000 PreferToPlayEffectOnMountIfPossible // Prefer to play effect on Mount if possible
+0x2000000 VisibilityExclusionsApplyOnlyWhileInARaid // Visibility Exclusions (Caster Only/Target Only/Never Caster) Apply Only While in a Raid
+0x4000000 DoNotShowVisualsIfTargetIsInvisible // Do not show visuals if target is invisible
+0x8000000 DoNotLimitScaleOnImpactEffects // Do not limit scale on impact effects (defaults to 1.5x)
+0x10000000 OnlySeenByCasterAndCastersParty // Only Seen By Caster and Caster's Party
+0x20000000 OnlySeenByTargetAndTargetsParty // Only Seen By Target and Target's Party
+0x40000000 AllowAvatarAndShadowyOnPortrait // Allow Avatar and Shadowy on Portrait
+0x80000000 UseCasterPositionAsVisCenter // Use Caster Position as Vis Center (for model linking) (PROGRAMMER ONLY)

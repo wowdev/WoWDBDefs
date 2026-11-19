@@ -1,0 +1,32 @@
+0x1 OneMissileOrBeamPerTarget // One Missile/Beam per Target
+0x2 UseCastAnimForImpactOrReleaseTiming // Use Cast Anim for Impact/Release Timing
+0x4 FireAllMissilesInstantly // Fire All Missiles Instantly
+0x8 HandEffectsActLikeItems // Hand Effects Act Like Items
+0x10 SoundsDoNotAttachToTarget // Sounds Do Not Attach to Target
+0x20 DisplayMissileDuringPrecast // Display Missile During Precast
+0x40 NoWoundAnimationOnImpact // No Wound Animation On Impact
+0x80 UseClientAnimatedTimeForMissile // Use Client Animated Time For Missile
+0x100 NoMissileIfNoTargets // No Missile If No Targets
+0x200
+0x400 SnapMissileImpactPositionToTheGround // Snap Missile Impact Position to the ground (Client-side only)
+0x800 OnlySeenByCaster // Only Seen By Caster
+0x1000 OnlySeenByTarget // Only Seen By Target
+0x2000 PlayPrecastSpellVisualOnInteractTarget // Play Precast Spell Visual On Interact Target (Client Only)
+0x4000 ShowBloodspurtOnImpact // Show Bloodspurt on Impact
+0x8000 NeverSeenByCaster // Never Seen By Caster
+0x10000 VisibilityExclusionsApplyOnlyWhileInAPvERaidParty // Visibility Exclusions (Caster Only/Target Only/Never Caster) Apply Only While in a PvE Raid Party
+0x20000 PlayCastKitInstantly // Play Cast Kit Instantly
+0x40000 PlayWeaponImpactSound // Play Weapon Impact Sound
+0x80000 OnlySeenByCasterAndCasterParty // Only Seen By Caster and Caster Party
+0x100000 OnlySeenByTargetAndTargetParty // Only Seen By Target and Target Party
+0x200000 NeedsAudioReview // Needs Audio Review
+0x400000 MultipleImpactEvents // Multiple Impact Events
+0x800000 PlayWeaponSwoosh // Play Weapon Swoosh
+0x1000000 PlayImpactWithTriggeringSpellImpact // Play Impact With Triggering Spell Impact
+0x2000000 MultipleImpactChildSpellVisual // Multiple Impact Child Spell Visual
+0x4000000 VisibilityExclusionsApplyOnlyWhileInAPvERaidOrDungeon // Visibility Exclusions (Caster Only/Target Only/Never Caster) Apply Only While in a PvE Raid or Dungeon
+0x8000000 NoImpactRotationRandomization // No Impact Rotation Randomization
+0x10000000 PrecastMissile // Precast Missile
+0x20000000
+0x40000000
+0x80000000

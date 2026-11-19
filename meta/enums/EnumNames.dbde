@@ -27,13 +27,16 @@
 195 SkillLine::Flags
 196 CurrencyTypes::Flags
 197 SummonProperties::Flags // updated
+198 LiquidType::Flags
 201 EmoteFlags
 203 WMOAreaTable::Flags
+205 SpellVisualKit::Flags
 220 ChatChannels::Flags
 223 SpellShapeShiftForm::Flags
 236 CreatureModelData::Flags
 237 SummonProperties::Slot
 238 SummonProperties::Control
+247 SpellVisual::Flags
 251 BroadcastText::Flags
 255 CreatureImmunities::Flags
 256 BattlemasterList::Flags
