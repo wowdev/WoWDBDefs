@@ -304,6 +304,7 @@ ENUM TraitEdge::Type TraitEdgeType
 ENUM TraitEdge::VisualStyle TraitEdgeVisualStyle
 ENUM TraitNode::Type TraitNodeType
 ENUM TraitNodeEntry::NodeEntryType TraitNodeEntryType
+ENUM TraitSystem::VariationType TraitSystemVariationType
 ENUM TransmogDefaultLevel::ExpansionID ExpansionLevels
 ENUM TransmogOutfitEntry::SetType TransmogOutfitSetType
 ENUM TransmogOutfitEntry::Source TransmogOutfitEntrySource
@@ -586,6 +587,7 @@ FLAGS TraitCond::Flags TraitCondFlags
 FLAGS TraitCurrency::Flags TraitCurrencyFlags
 FLAGS TraitNode::Flags TraitNodeFlags
 FLAGS TraitNodeGroup::Flags TraitNodeGroupFlags
+FLAGS TraitSystem::Flags TraitSystemFlags
 FLAGS TraitTree::Flags TraitTreeFlags
 FLAGS TransmogIllusion::Flags TransmogIllusionFlags
 FLAGS TransmogOutfitEntry::Flags TransmogOutfitEntryFlags
